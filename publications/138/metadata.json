@@ -1,0 +1,44 @@
+{
+    "abstract": "Phase Correlation Method (PCM or SPOMF - Symmetric Phase-Only Matched Filter) is a well known image registration method, that exploits Fourier Shift Theorem property of Fourier Transform. Even though it is limited to estimate only shifts between two images, it is very useful as it is robust to frequency-dependent noise and initial image overlap area. Furthermore, it evaluates very fast by way of two forward FFTs, one complex image division and one inverse FFT.",
+    "authors": [
+        {
+            "author_fullname": "Bican, Jakub",
+            "author_place": 1,
+            "persona_email": "jakub.bican@matfyz.cz",
+            "persona_firstname": "Jakub",
+            "persona_id": 81,
+            "persona_lastname": "Bican"
+        }
+    ],
+    "date_submitted": "2006-12-14T16:39:20Z",
+    "handles": [
+        {
+            "handle": "1926/396",
+            "handle_url": "http://hdl.handle.net/1926/396"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 138,
+    "submitted_by_author": {
+        "author_email": "jakub.bican@matfyz.cz",
+        "author_firstname": "Jakub",
+        "author_id": 81,
+        "author_institution": "Institute of Information Theory and Automation, Academy of Sciences of the Czech Republic",
+        "author_lastname": "Bican"
+    },
+    "tags": [
+        "phase correlation method",
+        "image registration",
+        "fourier transform"
+    ],
+    "title": "Phase Correlation Method for ITK"
+}

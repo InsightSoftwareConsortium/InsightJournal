@@ -1,0 +1,80 @@
+{
+    "abstract": "In radiotherapy (RT) for tumor delineation and diagnostics, complementary information of multi-modal images is used. Using high ionizing radiation, the accuracy of registered volume data is crucial; therefore a reliable and robust evaluation method for registered images is needed in clinical practice. Multi-modal image registration aligns images from different modalities like computed tomography (CT) and magnetic resonance imaging (MRI) or cone beam computed tomography (CBCT) into one common frame of reference. The gold standard validation methods are visual inspection by radiation oncology experts and fiducial-based evaluation. However, visual inspection is a qualitative measure with a range of 2-6 mm inaccuracy, it is time consuming and prone to errors. The fiducial-based evaluation is an invasive method when fiducial markers are fixated to bone or implanted in organs. Therefore, in clinical practice a robust non-invasive automated method is needed to validate registration of multi-modal images. \nThe aim of this study is to introduce and validate an automatic landmark-based accuracy measure for multi-modal image rigid registration using feature descriptors. A porcine dataset with fixed fiducial markers was used to compare our accuracy measure with the target registration error of fiducial markers.In addition, the robustness of our evaluation method was tested on multi-vendor database consisted of 10 brain and 20 lung cases comparing the automatic landmark accuracy measure based on feature descriptors with manual landmark based evaluation. \nAn automatic, non-invasive method based on feature descriptors for accuracy evaluation of multi-modal rigid registration was introduced. The method can be used to provide accuracy information slice-by slice on CT, CBCT and CT, MR-T1, -T2 weighted, MR-T1 contrast enhanced (ce) multi-modal images.",
+    "authors": [
+        {
+            "author_fullname": "Hauler, Frida",
+            "author_place": 1,
+            "persona_email": "frida.hauler@meduniwien.ac.at",
+            "persona_firstname": "Frida",
+            "persona_id": 9239,
+            "persona_lastname": "Hauler"
+        },
+        {
+            "author_fullname": "Jurisic, Miro",
+            "author_place": 2,
+            "persona_email": "mjurisic86@gmail.com",
+            "persona_firstname": "Miro",
+            "persona_id": 9247,
+            "persona_lastname": "Jurisic"
+        },
+        {
+            "author_fullname": "Furtado, Hugo",
+            "author_place": 3,
+            "persona_email": "hugo.furtado@meduniwien.ac.at",
+            "persona_firstname": "Hugo",
+            "persona_id": 9253,
+            "persona_lastname": "Furtado"
+        },
+        {
+            "author_fullname": "Sabatini, Umberto",
+            "author_place": 4,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Laprie, Anne",
+            "author_place": 5,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Nestle, Ursula",
+            "author_place": 6,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Birkfellner, Wolfgang",
+            "author_place": 7,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2014-10-14 09:30:33",
+    "handles": [
+        {
+            "handle": "10380/3490",
+            "handle_url": "http://hdl.handle.net/10380/3490"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 42,
+            "journal_name": "MICCAI 2014 Workshops"
+        }
+    ],
+    "publication_id": 940,
+    "submitted_by_author": {
+        "author_email": "frida.hauler@meduniwien.ac.at",
+        "author_firstname": "Frida",
+        "author_id": 9239,
+        "author_institution": "Medical University Vienna",
+        "author_lastname": "Hauler"
+    },
+    "tags": [
+        "accuracy of multi-modal rigid registration",
+        "evaluation based on feature descriptors",
+        "automatic landmark based evaluation for rigid registration"
+    ],
+    "title": "Automatic accuracy measurement for multi-modal rigid registration using feature descriptors"
+}

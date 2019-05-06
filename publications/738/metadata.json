@@ -1,0 +1,53 @@
+{
+    "abstract": "The purpose of this paper is to present our extension of the MITK toolkit by a real-time navigation system for computer assisted surgery. The system was developed with laparoscopic partial nephrectomies as a first application scenario. The main goal of the application is to enable tracking of the tumor position and orientation during surgery. Our system is based on ultrasound to CT registration and electromagnetic tracking. The basic idea is to process tracking information to generate an augmented reality (AR) visualization of a tumor model in the camera image of a laparoscopic camera. Our system will enhance the surgeon\u2019s view on the current scene and therefore facilitates higher safety during the surgery. A key intention of the development was to use only open source toolkits such as VTK, MITK and OpenCV in order to implement the desired functionality. So far we have applied our system in vitro in two phantom trials with a surgeon which yielded promising results.",
+    "authors": [
+        {
+            "author_fullname": "Keil, Matthias",
+            "author_place": 1,
+            "persona_email": "matthias.keil@igd.fraunhofer.de",
+            "persona_firstname": "Matthias",
+            "persona_id": 2629,
+            "persona_lastname": "Keil"
+        },
+        {
+            "author_fullname": "Noll, Matthias",
+            "author_place": 2,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2010-08-15 15:09:35",
+    "handles": [
+        {
+            "handle": "10380/3184",
+            "handle_url": "http://hdl.handle.net/10380/3184"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 37,
+            "journal_name": "MICCAI 2010 Workshops"
+        }
+    ],
+    "publication_id": 738,
+    "submitted_by_author": {
+        "author_email": "matthias.keil@igd.fraunhofer.de",
+        "author_firstname": "Matthias",
+        "author_id": 2629,
+        "author_institution": "Fraunhofer IGD",
+        "author_lastname": "Keil"
+    },
+    "tags": [
+        "navigation",
+        "registration",
+        "MITK",
+        "IGT",
+        "VTK",
+        "AR",
+        "OpenCV"
+    ],
+    "title": "Extending MITK by a real-time online video overlay navigation system for minimally invasive surgery"
+}

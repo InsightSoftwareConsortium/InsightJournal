@@ -1,0 +1,54 @@
+{
+    "abstract": "This work presents an automatic brain MRI segmentation method which can classify brain voxels into one of three main tissue types: gray matter (GM), white matter (WM) and Cerebro-spinal Fluid (CSF). Intensity-model based classification of MR images has proven problematic. The statistical approach does not carry any spatial, textural and neighborhood information in it. We propose to use a computationally fast and novel feature-set to facilitate voxel wise classification based on regional intensity, texture, spatial location of voxels in addition to posterior probability estimates. Information available through T1-weighted (T1), T1-weighted inversion recovery (IR) and T2-weighted FLAIR (FLAIR) MRI sequences was also leveraged. An aggregate overlap of 90.21% for all intracranial structures was reported between the automatic classification and available expert annotation as measured by the DICE coefficient.",
+    "authors": [
+        {
+            "author_fullname": "Katyal, Ranveer",
+            "author_place": 1,
+            "persona_email": "ranveerkatyal14@gmail.com",
+            "persona_firstname": "Ranveer",
+            "persona_id": 8768,
+            "persona_lastname": "Katyal"
+        },
+        {
+            "author_fullname": "Paneri, Sahil",
+            "author_place": 2,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Kuse, Manohar",
+            "author_place": 3,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2013-10-23 03:16:12",
+    "handles": [
+        {
+            "handle": "10380/3442",
+            "handle_url": "http://hdl.handle.net/10380/3442"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 41,
+            "journal_name": "MICCAI 2013 Workshops"
+        }
+    ],
+    "publication_id": 906,
+    "submitted_by_author": {
+        "author_email": "ranveerkatyal14@gmail.com",
+        "author_firstname": "Ranveer",
+        "author_id": 8768,
+        "author_institution": "The LNM Institute of Information Technology, Jaipur, India",
+        "author_lastname": "Katyal"
+    },
+    "tags": [
+        "Tissue-Fluid Classification",
+        "Multi Sequence-MRI",
+        "Brain Segmentation"
+    ],
+    "title": "Gaussian Intensity Model with Neighborhood Cues for Fluid-Tissue Categorization of Multi-Sequence MR Brain Images"
+}

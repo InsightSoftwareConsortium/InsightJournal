@@ -1,0 +1,44 @@
+{
+    "abstract": "This paper describes a fully automatic system to segment the left ventricle in all slices and all phases of a magnetic resonance cardiac cine study. After localizing the left ventricle blood pool using motion, thresholding and clustering, slices are segmented sequentially. For each slice, deformable registration is used to align all the phases, candidate contours are recovered in the average image using shortest paths, and a minimal surface is built to generate the final contours. The advantage of our method is that the resulting contours follow the edges in each phase and are consistent over time. As part of the MICCAI grand challenge on left ventricle segmentation, we demonstrate using 15 training datasets and 15 validation datasets that the results are very good with average errors around 2 mm and the method is ready for clinical routine.",
+    "authors": [
+        {
+            "author_fullname": "Jolly, Marie-Pierre",
+            "author_place": 1,
+            "persona_email": "marie-pierre.jolly@siemens.com",
+            "persona_firstname": "Marie-pierre",
+            "persona_id": 2241,
+            "persona_lastname": "Jolly"
+        }
+    ],
+    "date_submitted": "2009-07-29 16:19:56",
+    "handles": [
+        {
+            "handle": "10380/3114",
+            "handle_url": "http://hdl.handle.net/10380/3114"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 34,
+            "journal_name": "MICCAI 2009 Workshops"
+        }
+    ],
+    "publication_id": 684,
+    "submitted_by_author": {
+        "author_email": "marie-pierre.jolly@siemens.com",
+        "author_firstname": "Marie-pierre",
+        "author_id": 2241,
+        "author_institution": "Siemens Corporate Research",
+        "author_lastname": "Jolly"
+    },
+    "tags": [
+        "Registration",
+        "Minimum Surfaces",
+        "Cardiac Segmentation"
+    ],
+    "title": "Fully Automatic Left Ventricle Segmentation in Cardiac Cine MR Images Using Registration and Minimum Surfaces"
+}

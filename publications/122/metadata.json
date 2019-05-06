@@ -1,0 +1,53 @@
+{
+    "abstract": "There is nowadays an increasing need in interaction between discrete surfaces (2-manifolds) and images. More specifically, segmentation and registration of n-dimensional images are taking advantage of a priori geometrical information, most often provided as discrete 2-manifolds.\r\nMost of the publicly available libraries are oriented either toward mesh processing or image processing.\r\nThrough a careful study we will show that none of those libraries are complete enough to fullfill image, surface and joint image-surface interaction.\r\nWe propose to implement in ITK library a powerful 2-manifold data structure. The choice of ITK was driven by the fact that it provides the best base framework along with a strong n-dimensional image kernel. Based on a Quad-Edge data structure, it has been specifically tailored not only to represent\r\norientable 2-manifolds (surfaces of real objects) but also ease further processing.\r\nWe illustrate the integration of the design into ITK as a native object, enhancing existing algorithms.\r\nWe also illustrate the power of the new design for further surface processing.",
+    "authors": [
+        {
+            "author_fullname": "Gouaillard, Alexandre",
+            "author_place": 1,
+            "persona_email": "agouaillard@gmail.com",
+            "persona_firstname": "Alexandre",
+            "persona_id": 322,
+            "persona_lastname": "Gouaillard"
+        },
+        {
+            "author_fullname": "Florez-Valencia, Leonardo",
+            "author_place": 2,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Boix, Eric",
+            "author_place": 3,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2006-09-12T01:06:16Z",
+    "handles": [
+        {
+            "handle": "1926/306",
+            "handle_url": "http://hdl.handle.net/1926/306"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 122,
+    "submitted_by_author": {
+        "author_email": "agouaillard@gmail.com",
+        "author_firstname": "Alexandre",
+        "author_id": 322,
+        "author_institution": "Singapore Agency for Science Technology and Research",
+        "author_lastname": "Gouaillard"
+    },
+    "tags": [
+        "Mesh",
+        "2-manifold"
+    ],
+    "title": "ItkQuadEdgeMesh: A Discrete Orientable 2-Manifold Data Structure for Image Processing"
+}

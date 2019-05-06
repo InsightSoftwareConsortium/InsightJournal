@@ -1,0 +1,54 @@
+{
+    "abstract": "In this document we present the implementation of three fuzzy clustering algorithms using the Insight Toolkit ITK. Firstly, we developed the conventional Fuzzy C-Means that will serve as the basis for the rest of the proposed algorithms. The next algorithms are the FCM with spatial constraints based on kernel-induced distance and the Modified Spatial Kernelized Fuzzy C-Means. Both of these introduce a Kernel function, replacing the Euclidean distance of the FCM, and spatial information into the membership function.\n\nThese algorithms have been implemented in a threaded version to take advantage of the multicore processors. Moreover, providing an useful implementation make it possible that classes work with 2D/3D images, different kernels and spatial shapes.\n\nWe included the source code as well as different 2D/3D examples, using several input parameters for the algorithms and obtaining the results generated on 2D/3D CT lung studies.",
+    "authors": [
+        {
+            "author_fullname": "Rey, Alberto",
+            "author_place": 1,
+            "persona_email": "bertorey@gmail.com",
+            "persona_firstname": "Alberto",
+            "persona_id": 5874,
+            "persona_lastname": "Rey"
+        },
+        {
+            "author_fullname": "Castro, Alfonso",
+            "author_place": 2,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Arcay, Bernardino",
+            "author_place": 3,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2011-12-09 06:38:08",
+    "handles": [
+        {
+            "handle": "10380/3331",
+            "handle_url": "http://hdl.handle.net/10380/3331"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 845,
+    "submitted_by_author": {
+        "author_email": "bertorey@gmail.com",
+        "author_firstname": "Alberto",
+        "author_id": 5874,
+        "author_institution": "University of A Coru\u00f1a",
+        "author_lastname": "Rey"
+    },
+    "tags": [
+        "Fuzzy Logic",
+        "Fuzzy Clustering",
+        "Segmentation"
+    ],
+    "title": "Fuzzy Clustering Algorithms for Image Segmentation"
+}

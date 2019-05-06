@@ -1,0 +1,48 @@
+{
+    "abstract": "This code provides a base implementation of Loopy Belief Propagation on MRFs in ITK. We use binary image denoising as an example problem to demonstrate this code.\n\nThis document is intended only to describe the implementation, not the theory. A complete tutorial on loopy belief propagation on MRFs is available here:\n\nhttps://github.com/daviddoria/Tutorials/blob/master/BeliefPropagation/BeliefPropagation.pdf?raw=true\n\nThe code at the time of this submission is here:\nhttps://github.com/daviddoria/BinaryDenoising/commit/e8bd152723584c3af7e30b5e529b8a80f2f2ee5c\n\nAnd the latest version will be here:\nhttps://github.com/daviddoria/BinaryDenoising\n\n",
+    "authors": [
+        {
+            "author_fullname": "Doria, David",
+            "author_place": 1,
+            "persona_email": "daviddoria@gmail.com",
+            "persona_firstname": "David",
+            "persona_id": 2205,
+            "persona_lastname": "Doria"
+        }
+    ],
+    "date_submitted": "2011-03-01 08:47:59",
+    "handles": [
+        {
+            "handle": "10380/3253",
+            "handle_url": "http://hdl.handle.net/10380/3253"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 789,
+    "submitted_by_author": {
+        "author_email": "daviddoria@gmail.com",
+        "author_firstname": "David",
+        "author_id": 2205,
+        "author_institution": "Rensselaer Polytechnic Institute",
+        "author_lastname": "Doria"
+    },
+    "tags": [
+        "graphical model",
+        "inference",
+        "belief propagation",
+        "mrf",
+        "graph",
+        "loopy belief propagation",
+        "denoising"
+    ],
+    "title": "Loopy Belief Propagation on MRFs in ITK"
+}

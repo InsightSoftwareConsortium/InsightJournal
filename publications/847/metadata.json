@@ -1,0 +1,62 @@
+{
+    "abstract": "Thresholding is perhaps one of the most basic techniques in image processing. The Insight Toolkit (ITK) includes several threshold filters ranging from simple ones to Otsu based thresholding. Deep into the implementation of the Canny edge detection filter, ITK includes an implementation of hysteresis thresholding, but unfortunately this method can not be used as a generic filter.\nThis paper presents an implementation of the hysteresis thresholding filter that can be used as a standalone ITK filter.",
+    "authors": [
+        {
+            "author_fullname": "Vera, Sergio",
+            "author_place": 1,
+            "persona_email": "sergio.vera@alma3d.com",
+            "persona_firstname": "Sergio",
+            "persona_id": 2552,
+            "persona_lastname": "Vera"
+        },
+        {
+            "author_fullname": "Perez, Frederic",
+            "author_place": 2,
+            "persona_email": "fredericpcx@gmail.com",
+            "persona_firstname": "Frederic",
+            "persona_id": 158,
+            "persona_lastname": "Perez"
+        },
+        {
+            "author_fullname": "Lara, Laura",
+            "author_place": 3,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Gonzalez, Miguel",
+            "author_place": 4,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2011-12-19 04:53:22",
+    "handles": [
+        {
+            "handle": "10380/3332",
+            "handle_url": "http://hdl.handle.net/10380/3332"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 847,
+    "submitted_by_author": {
+        "author_email": "sergio.vera@alma3d.com",
+        "author_firstname": "Sergio",
+        "author_id": 2552,
+        "author_institution": "Alma IT Systems",
+        "author_lastname": "Vera"
+    },
+    "tags": [
+        "ITK",
+        "Threshold",
+        "Hysteresis"
+    ],
+    "title": "A Threshold with Hysteresis"
+}

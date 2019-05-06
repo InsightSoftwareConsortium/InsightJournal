@@ -1,0 +1,95 @@
+{
+    "abstract": "This paper describes the setup of a segmentation competition for the automatic extraction of Multiple Sclerosis (MS) lesions from brain Magnetic Resonance Imaging (MRI) data. This competition is one of three competitions that make up a comparison workshop at the 2008 Medical Image Computing and Computer Assisted Intervention (MICCAI) conference and was modeled after the successful comparison workshop on liver and caudate segmentation at the 2007 MICCAI conference. In this paper, the rationale for organizing the competition is discussed, the training and test data sets for both segmentation tasks are described and the scoring system used to evaluate the segmentation is presented.",
+    "authors": [
+        {
+            "author_fullname": "Warfield, Simon ",
+            "author_place": 9,
+            "persona_email": "simon.warfield@childrens.harvard.edu",
+            "persona_firstname": "Simon",
+            "persona_id": 514,
+            "persona_lastname": "Warfield"
+        },
+        {
+            "author_fullname": "Styner, Martin",
+            "author_place": 1,
+            "persona_email": "styner@cs.unc.edu",
+            "persona_firstname": "Martin",
+            "persona_id": 28,
+            "persona_lastname": "Styner"
+        },
+        {
+            "author_fullname": "Lee, Joohwi",
+            "author_place": 2,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Chin, Brian",
+            "author_place": 3,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Chin, Matthew S",
+            "author_place": 4,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Commowick, Olivier",
+            "author_place": 5,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Tran, Hoai-Huong ",
+            "author_place": 6,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Markovic-Plese, Silva",
+            "author_place": 7,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Jewells, Valerie",
+            "author_place": 8,
+            "persona_email": "valerie_jewells@med.unc.edu",
+            "persona_firstname": "Valerie",
+            "persona_id": 248,
+            "persona_lastname": "Jewells"
+        }
+    ],
+    "date_submitted": "2008-11-05 16:55:42",
+    "handles": [
+        {
+            "handle": "10380/1509",
+            "handle_url": "http://hdl.handle.net/10380/1509"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 44,
+            "journal_name": "MICCAI 2015 Workshops"
+        },
+        {
+            "journal_id": 33,
+            "journal_name": "MICCAI 2008 Workshops"
+        }
+    ],
+    "publication_id": 638,
+    "submitted_by_author": {
+        "author_email": null,
+        "author_firstname": null,
+        "author_id": null,
+        "author_institution": "University of North Carolina",
+        "author_lastname": null
+    },
+    "tags": [
+        "Segmentation evaluation",
+        "MRI",
+        "Lesion segmentation",
+        "MS lesions"
+    ],
+    "title": "3D Segmentation in the Clinic: A Grand Challenge II: MS lesion segmentation"
+}

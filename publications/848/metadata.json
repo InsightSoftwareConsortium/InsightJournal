@@ -1,0 +1,61 @@
+{
+    "abstract": "This document describes the implementation using the Insight Toolkit of an algorithm for detecting creases (ridges and valleys) in N-dimensional images, based on the Local Structure Tensor of the image. In addition to the filter used to calculate the creaseness image, a filter for the computation of the structure tensor is also included in this submission.",
+    "authors": [
+        {
+            "author_fullname": "Vera, Sergio",
+            "author_place": 1,
+            "persona_email": "sergio.vera@alma3d.com",
+            "persona_firstname": "Sergio",
+            "persona_id": 2552,
+            "persona_lastname": "Vera"
+        },
+        {
+            "author_fullname": "Gil, Debora",
+            "author_place": 2,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "L\u00f3pez, Antonio",
+            "author_place": 3,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Gonz\u00e1lez, Miguel A.",
+            "author_place": 4,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2012-01-10 07:26:54",
+    "handles": [
+        {
+            "handle": "10380/3338",
+            "handle_url": "http://hdl.handle.net/10380/3338"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 848,
+    "submitted_by_author": {
+        "author_email": "sergio.vera@alma3d.com",
+        "author_firstname": "Sergio",
+        "author_id": 2552,
+        "author_institution": "Alma IT Systems",
+        "author_lastname": "Vera"
+    },
+    "tags": [
+        "Creaseness",
+        "Structure Tensor",
+        "Skeleton",
+        "Ridges",
+        "Valley"
+    ],
+    "title": "Multilocal Creaseness Measure"
+}

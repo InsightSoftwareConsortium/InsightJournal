@@ -1,0 +1,89 @@
+{
+    "abstract": "We have created open-source Simulink block libraries for ITK and VTK that allow pipelines for these toolkits to be built in a visual, drag-and-drop style within MATLAB. Each block contains an instance of an ITK or VTK class. Any block connections and parameters that the user makes within MATLAB's Simulink visual environment are converted into connections and parameters for the ITK and VTK pipelines. In addition, we provide conversion of images to and from MATLAB arrays to allow MATLAB image processing blocks to be mixed with ITK and VTK blocks. The code for our block libraries is generated automatically from XML descriptions of the inputs, outputs, and parameters of the ITK and VTK classes. We have used these block libraries to build some example pipelines and believe that they will be useful for developing applications in image analysis and image-guided therapy.",
+    "authors": [
+        {
+            "author_fullname": "Gobbi, David",
+            "author_place": 1,
+            "persona_email": "david.gobbi@gmail.com",
+            "persona_firstname": "David",
+            "persona_id": 881,
+            "persona_lastname": "Gobbi"
+        },
+        {
+            "author_fullname": "Mousavi, Parvin",
+            "author_place": 2,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Li, Karen",
+            "author_place": 3,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Xiang, Jing",
+            "author_place": 4,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Campigotto, Adam",
+            "author_place": 5,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "LaPointe, Adrien",
+            "author_place": 6,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Fichtinger, Gabor",
+            "author_place": 7,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Abolmaesumi, Purang",
+            "author_place": 8,
+            "persona_email": "purang@ece.ubc.ca",
+            "persona_firstname": "Purang",
+            "persona_id": 2818,
+            "persona_lastname": "Abolmaesumi"
+        }
+    ],
+    "date_submitted": "2010-06-30 00:10:04",
+    "handles": [
+        {
+            "handle": "10380/1461",
+            "handle_url": "http://hdl.handle.net/10380/1461"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 40,
+            "journal_name": "MICCAI 2012 Workshops"
+        },
+        {
+            "journal_id": 33,
+            "journal_name": "MICCAI 2008 Workshops"
+        }
+    ],
+    "publication_id": 620,
+    "submitted_by_author": {
+        "author_email": "david.gobbi@gmail.com",
+        "author_firstname": "David",
+        "author_id": 881,
+        "author_institution": "University of Calgary",
+        "author_lastname": "Gobbi"
+    },
+    "tags": [
+        "Simulink",
+        "visual programming",
+        "image-guided therapy",
+        "VTK",
+        "MATLAB",
+        "ITK"
+    ],
+    "title": "Simulink Libraries for Visual Programming of VTK and ITK"
+}

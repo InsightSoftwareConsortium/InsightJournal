@@ -1,0 +1,57 @@
+{
+    "abstract": "The Allen Brain Atlas (ABA) project aims to create a\r\ncellular-resolution, genome-wide map of gene expression in the adult\r\nmouse brain. The resulting in situ hybridization (ISH) image data\r\nwill be available free-of-charge to the public. Additionally, we are\r\ndeveloping an informatics pipeline to support searching of the data by\r\nanatomic region and expression level and/or pattern. This paper\r\ndescribes a robust, high-throughput registration scheme to\r\nautomatically annotate hierarchical brain structures in the ISH\r\nimagery.",
+    "authors": [
+        {
+            "author_fullname": "Ng, Lydia",
+            "author_place": 1,
+            "persona_email": "lydian@alleninstitute.org",
+            "persona_firstname": "Lydia",
+            "persona_id": 64,
+            "persona_lastname": "Ng"
+        },
+        {
+            "author_fullname": "Hawrylycz, Michael",
+            "author_place": 2,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Haynor, David",
+            "author_place": 3,
+            "persona_email": "haynor@u.washington.edu",
+            "persona_firstname": "David",
+            "persona_id": 405,
+            "persona_lastname": "Haynor"
+        }
+    ],
+    "date_submitted": "2005-07-29T20:52:39Z",
+    "handles": [
+        {
+            "handle": "1926/15",
+            "handle_url": "http://hdl.handle.net/1926/15"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 14,
+    "submitted_by_author": {
+        "author_email": "lydian@alleninstitute.org",
+        "author_firstname": "Lydia",
+        "author_id": 64,
+        "author_institution": "Allen Institute for Brain Science",
+        "author_lastname": "Ng"
+    },
+    "tags": [
+        "Mouse Gene Expression",
+        "Image Registration",
+        "High-throughput Processing"
+    ],
+    "title": "Automated high-throughput registration for localizing 3D mouse brain gene expression using ITK"
+}

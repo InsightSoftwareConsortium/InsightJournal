@@ -1,0 +1,58 @@
+{
+    "abstract": "This paper presents an extension of the Visualization ToolKit dedicated to spatiotemporal data synchronization, visualization and management. It basically consists in a versatile library providing functionalities to help developers setting up sophisticated applications with minimal development effort. In the medical imaging context, various types of data are often encountered, which raises the need for adapted visualization and synchronization techniques. Moreover, the management of these data (organization, creation, deletion, access) can become a burden. We propose in vtkINRIA3D a strategy to synchronize interactions between datasets representations, to manipulate complex objects (e.g., neural fibers as obtained in DT-MRI), as well as a managing framework for organizing data (including temporal sequences). The efficiency of vtkINRIA3D is illustrated with two applications: MedINRIA (general medical image processing software) and CardioViz3D (cardiac image visualization). vtkINRIA3D is open-source, and comes with a set of examples, test data and softwares built upon it: http://www-sop.inria.fr/asclepios/software/vtkINRIA3D.",
+    "authors": [
+        {
+            "author_fullname": "Toussaint, Nicolas",
+            "author_place": 1,
+            "persona_email": "nicolas.toussaint@kcl.ac.uk",
+            "persona_firstname": "Nicolas",
+            "persona_id": 2608,
+            "persona_lastname": "Toussaint"
+        },
+        {
+            "author_fullname": "Sermesant, Maxime",
+            "author_place": 2,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Fillard, Pierre",
+            "author_place": 3,
+            "persona_email": "Pierre.Fillard@sophia.inria.fr",
+            "persona_firstname": "Pierre",
+            "persona_id": 261,
+            "persona_lastname": "Fillard"
+        }
+    ],
+    "date_submitted": "2007-07-06T17:25:51Z",
+    "handles": [
+        {
+            "handle": "1926/559",
+            "handle_url": "http://hdl.handle.net/1926/559"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 164,
+    "submitted_by_author": {
+        "author_email": "Pierre.Fillard@sophia.inria.fr",
+        "author_firstname": "Pierre",
+        "author_id": 261,
+        "author_institution": "INRIA",
+        "author_lastname": "Fillard"
+    },
+    "tags": [
+        "synchronization",
+        "spatiotemporal",
+        "VTK",
+        "interaction"
+    ],
+    "title": "vtkINRIA3D: A VTK Extension for Spatiotemporal Data Synchronization, Visualization and Management"
+}

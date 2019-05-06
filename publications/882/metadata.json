@@ -1,0 +1,57 @@
+{
+    "abstract": "This document describes a plug-in for Blender (www.blender.org) that allows to rasterize 3D mesh objects into 3D voxel data, i. e. it allows to voxelize Blender meshes. In 2D, this process can be compared to rasterization of vector graphics into pixel graphics. The voxelization is done by VTK (www.vtk.org) functions. A simple GUI allows to choose the type of voxelization and to specify necessary parameters. Depending on the type chosen, only the surface of the mesh objects is voxelized or the enclosed volume, i. e.\u201cfilled\u201d. Beside the size of the output, one can specify if the result should be \u201canti-aliased\u201d or not.\nThis paper is accompanied with the source code, input data, parameters and output data that the authors used for validating the script described in this paper.\n",
+    "authors": [
+        {
+            "author_fullname": "Grothausmann, Roman",
+            "author_place": 2,
+            "persona_email": "Grothausmann.Roman@mh-hannover.de",
+            "persona_firstname": "Roman",
+            "persona_id": 6854,
+            "persona_lastname": "Grothausmann"
+        },
+        {
+            "author_fullname": "Gout, Julien",
+            "author_place": 3,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "K\u00fchnel, Mark",
+            "author_place": 4,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2012-11-09 06:55:57",
+    "handles": [
+        {
+            "handle": "10380/3391",
+            "handle_url": "http://hdl.handle.net/10380/3391"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 31,
+            "journal_name": "The MIDAS Journal"
+        }
+    ],
+    "publication_id": 882,
+    "submitted_by_author": {
+        "author_email": "Grothausmann.Roman@mh-hannover.de",
+        "author_firstname": "Roman",
+        "author_id": 6854,
+        "author_institution": "Medizinische Hochschule Hannover",
+        "author_lastname": "Grothausmann"
+    },
+    "tags": [
+        "plug-in",
+        "voxelization",
+        "mesh to image conversion",
+        "Blender",
+        "GUI",
+        "rasterization"
+    ],
+    "title": "Voxelizer plug-in for Blender"
+}

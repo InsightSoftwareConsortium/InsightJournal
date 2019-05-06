@@ -1,0 +1,65 @@
+{
+    "abstract": "This paper gives an overview of the use and development of the TINA open-source medical image analysis environment, with respect to the determination of human cerebral cortical thickness estimation from magnetic resonance images. The ultimate aim of TINA is to provide a validated system where the source code and datasets are freely available in order to allow peer-validation of published results.",
+    "authors": [
+        {
+            "author_fullname": "Scott, Marietta L. J.",
+            "author_place": 1,
+            "persona_email": "marietta.scott@manchester.ac.uk",
+            "persona_firstname": "Marietta",
+            "persona_id": 60,
+            "persona_lastname": "Scott"
+        },
+        {
+            "author_fullname": "Bromiley, Paul A.",
+            "author_place": 2,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Thacker, Neil A.",
+            "author_place": 3,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2005-07-30T18:07:06Z",
+    "handles": [
+        {
+            "handle": "/3134",
+            "handle_url": "http://hdl.handle.net//3134"
+        },
+        {
+            "handle": "1926/537",
+            "handle_url": "http://hdl.handle.net/1926/537"
+        },
+        {
+            "handle": "1926/18",
+            "handle_url": "http://hdl.handle.net/1926/18"
+        },
+        {
+            "handle": "1926/554",
+            "handle_url": "http://hdl.handle.net/1926/554"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 23,
+    "submitted_by_author": {
+        "author_email": "marietta.scott@manchester.ac.uk",
+        "author_firstname": "Marietta",
+        "author_id": 60,
+        "author_institution": "University of Manchester, UK",
+        "author_lastname": "Scott"
+    },
+    "tags": [
+        "Medical Image Analysis",
+        "Cerebral Cortical Thickness"
+    ],
+    "title": "Cerebral Cortical Thickness Estimation using the TINA\r\n Open-Source Image Analysis Environment"
+}

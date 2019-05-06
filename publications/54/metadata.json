@@ -1,0 +1,42 @@
+{
+    "abstract": "itkConnectedComponentFunctorImageFilter is a generic connected components filter that operates on any N-dimensional image type with the \"functor\" defining what mechanism to use to join two neighboring pixels",
+    "authors": [
+        {
+            "author_fullname": "Kaucic, Robert",
+            "author_place": 1,
+            "persona_email": "kaucic@crd.ge.com",
+            "persona_firstname": "Robert",
+            "persona_id": 272,
+            "persona_lastname": "Kaucic"
+        }
+    ],
+    "date_submitted": "2005-10-06T19:52:32Z",
+    "handles": [
+        {
+            "handle": "1926/119",
+            "handle_url": "http://hdl.handle.net/1926/119"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 54,
+    "submitted_by_author": {
+        "author_email": "kaucic@crd.ge.com",
+        "author_firstname": "Robert",
+        "author_id": 272,
+        "author_institution": "GE Global Research",
+        "author_lastname": "Kaucic"
+    },
+    "tags": [
+        "connected components"
+    ],
+    "title": "itkConnectedComponentFunctorImageFilter"
+}

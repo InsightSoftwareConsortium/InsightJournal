@@ -1,0 +1,52 @@
+{
+    "abstract": "Anisotropic and isotropic diffusion equations have been extensively applied on biomedical image processing for many years and a great diversity of algorithm have been proposed by the scientific community. Here, it is available a recent new implementation of the anomalous diffusion equation, based on the Fokker-Planck PDE diffusion equation (also known as the Porous Media equation). The major contribution of the anomalous process in the image processing area is the possibility to regulates a sub or super-diffusion characteristic in the noise attenuation problem, which have been showed as a suitable solution for the preservation of fine details in complex objects such as the human brain. An ITK Module is offered here in order to easily add the Anisotropic Anomalous Diffusion (AAD) and Isotropic Anomalous Diffusion (IAD) filters in the ITK hierarchy.",
+    "authors": [
+        {
+            "author_fullname": "Senra Filho, Antonio Carlos",
+            "author_place": 1,
+            "persona_email": "acsenrafilho@gmail.com",
+            "persona_firstname": "Antonio Carlos da Silva",
+            "persona_id": 9445,
+            "persona_lastname": "Senra Filho"
+        },
+        {
+            "author_fullname": "Murta Junior, Luiz Ot\u00e1vio",
+            "author_place": 2,
+            "persona_email": "lomurta@gmail.com",
+            "persona_firstname": "Luiz otavio",
+            "persona_id": 9063,
+            "persona_lastname": "Murta junior"
+        }
+    ],
+    "date_submitted": "2016-09-30 09:19:02",
+    "handles": [
+        {
+            "handle": "10380/3565",
+            "handle_url": "http://hdl.handle.net/10380/3565"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 980,
+    "submitted_by_author": {
+        "author_email": "acsenrafilho@gmail.com",
+        "author_firstname": "Antonio Carlos da Silva",
+        "author_id": 9445,
+        "author_institution": "University of Sao Paulo",
+        "author_lastname": "Senra Filho"
+    },
+    "tags": [
+        "Anisotropic Diffusion",
+        "Noise filtering",
+        "Anomalous Diffusion"
+    ],
+    "title": "Anomalous Diffusion Paradigm for Image Denoising Process"
+}

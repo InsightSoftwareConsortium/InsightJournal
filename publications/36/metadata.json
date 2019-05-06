@@ -1,0 +1,58 @@
+{
+    "abstract": "We have successfully created a software environment in which ultrasound data can be manipulated by, ITK (the Insight Tool-Kit), in real-time. We were able to access each frame generated within the resident computer of a TerasonTM Ultrasound Machine, convert it into the ITK image format, and demonstrate the concurrent operation of ITK on the same computer by writing the images to an external hard drive. At a rate of 10 frames per second, 512 by 512 pixel grayscale frames were written by ITK methods to the external hard drive through USB 2.0 while the ultrasound scan was occurring without thrashing or delay in system performance. This simple exercise demonstrates the potential of ITK in processing ultrasound images in real-time in addition to the more traditional off-line processing.",
+    "authors": [
+        {
+            "author_fullname": "Wang, David",
+            "author_place": 1,
+            "persona_email": "david@wangmd.com",
+            "persona_firstname": "David",
+            "persona_id": 104,
+            "persona_lastname": "Wang"
+        },
+        {
+            "author_fullname": "Chang, Wilson",
+            "author_place": 2,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Stetten, George",
+            "author_place": 3,
+            "persona_email": "email@stetten.com",
+            "persona_firstname": "George",
+            "persona_id": 111,
+            "persona_lastname": "Stetten"
+        }
+    ],
+    "date_submitted": "2005-08-05T21:07:26Z",
+    "handles": [
+        {
+            "handle": "1926/43",
+            "handle_url": "http://hdl.handle.net/1926/43"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 36,
+    "submitted_by_author": {
+        "author_email": "david@wangmd.com",
+        "author_firstname": "David",
+        "author_id": 104,
+        "author_institution": "University of Pittsburgh",
+        "author_lastname": "Wang"
+    },
+    "tags": [
+        "Image Analysis",
+        "Real Time",
+        "Terasonn",
+        "Ultrasound"
+    ],
+    "title": "Real-Time Ultrasound Image Analysis for the Insight Toolkit"
+}

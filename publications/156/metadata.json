@@ -1,0 +1,61 @@
+{
+    "abstract": "This paper describes the implementation of a multidimensional block-matching nonrigid registration\r\nalgorithm. The main features of the algorithm are its simplicity, its free form nature, the modularity of\r\nthe similarity measure, which makes it possible using local entropy-based similarity measures and the\r\navoidance of the optimization module. The algorithm implementation described in this paper is based\r\non the method by Suarez et al. This paper, which has already been submitted to the Insight\r\nJournal, is accompanied with the source code, input data, parameters and output data used for validating\r\nthe algorithm described in it.",
+    "authors": [
+        {
+            "author_fullname": "Suarez-Santana, Eduardo",
+            "author_place": 1,
+            "persona_email": "esuarez@itccanarias.org",
+            "persona_firstname": "Eduardo",
+            "persona_id": 488,
+            "persona_lastname": "Suarez-Santana"
+        },
+        {
+            "author_fullname": "Nebot, Rafael",
+            "author_place": 2,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Westin, Carl-Fredrik",
+            "author_place": 3,
+            "persona_email": "westin@bwh.harvard.edu",
+            "persona_firstname": "Carl-fredrik",
+            "persona_id": 229,
+            "persona_lastname": "Westin"
+        },
+        {
+            "author_fullname": "Ruiz-Alzola, Juan",
+            "author_place": 4,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2006-11-29",
+    "handles": [
+        {
+            "handle": "1926/549",
+            "handle_url": "http://hdl.handle.net/1926/549"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 156,
+    "submitted_by_author": {
+        "author_email": "esuarez@itccanarias.org",
+        "author_firstname": "Eduardo",
+        "author_id": 488,
+        "author_institution": "Instituto Tecnol\u00c3\u00b3gico de Canarias",
+        "author_lastname": "Suarez-Santana"
+    },
+    "tags": [
+        "multimodal registration",
+        "nonrigid digistration"
+    ],
+    "title": "Fast BlockMatching Registration with Entropy-based Similarity"
+}

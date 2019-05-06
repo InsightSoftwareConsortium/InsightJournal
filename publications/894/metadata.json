@@ -1,0 +1,48 @@
+{
+    "abstract": "Hospital Information Systems (HIS) are the primary source of information in clinical routine. In most clinics and medical centers, an electronic health record (EHR) stores relevant patient information which is passed between sub-systems using the ISO standard Health Level 7 (HL7). In Radiology, the Picture Archiving and Communication System (PACS) is used to store and transfer medical images and other image related patient data and reports. \nThe paper promotes the development of dedicated patient models based on HIS information. This allows specialized and tailored models for each purpose without the need for a commonly accepted data format.",
+    "authors": [
+        {
+            "author_fullname": "Burgert, Oliver",
+            "author_place": 1,
+            "persona_email": "oliver.burgert@reutlingen-university.de",
+            "persona_firstname": "Oliver",
+            "persona_id": 8050,
+            "persona_lastname": "Burgert"
+        },
+        {
+            "author_fullname": "Thies, Christian",
+            "author_place": 2,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2013-08-22 02:41:32",
+    "handles": [
+        {
+            "handle": "10380/3423",
+            "handle_url": "http://hdl.handle.net/10380/3423"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 41,
+            "journal_name": "MICCAI 2013 Workshops"
+        }
+    ],
+    "publication_id": 894,
+    "submitted_by_author": {
+        "author_email": "oliver.burgert@reutlingen-university.de",
+        "author_firstname": "Oliver",
+        "author_id": 8050,
+        "author_institution": "Reutlingen University",
+        "author_lastname": "Burgert"
+    },
+    "tags": [
+        "Clinical Interoperability, HL 7 v3, Clinical Document Architecture (CDA), Continuity of Care Record (CCR), Continuity of Care Document (CCD), EHR, Reference Information Model (RIM)",
+        "DICOM"
+    ],
+    "title": "Steps towards the Integration of Model Guided Therapy Systems into the Healthcare Environment"
+}

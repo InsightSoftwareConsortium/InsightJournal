@@ -1,0 +1,76 @@
+{
+    "abstract": "The software requirements for computer-aided navigation tools in image-guided therapy are becoming increasingly complex as a result of new possibilities in imaging and tracking hardware, novel application areas and regulatory restrictions.\r\nA new software framework has been developed to meet the needs of emerging image-guided procedures and therapies that require multi-modal imaging and tracking. This framework accommodates dynamic data-structures, dynamic input and output interfaces for interventional devices, and dynamic visualization of data. Arbitrary, yet meaningful, connections can be established between these entities in order to implement customized applications that target specific clinical procedures. A series of demonstration applications have been developed in order to emphasize different aspects of the framework, and are presented here.",
+    "authors": [
+        {
+            "author_fullname": "Hata, Nobuhiko",
+            "author_place": 6,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Jolesz, Ferenc",
+            "author_place": 7,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Samset, Eigil",
+            "author_place": 1,
+            "persona_email": "samset@bwh.harvard.edu",
+            "persona_firstname": "Eigil",
+            "persona_id": 447,
+            "persona_lastname": "Samset"
+        },
+        {
+            "author_fullname": "Hans, Arne",
+            "author_place": 2,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "von Spiczak, Jochen",
+            "author_place": 3,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "DiMaio, Simon",
+            "author_place": 4,
+            "persona_email": "simon.dimaio@intusurg.com",
+            "persona_firstname": "Simon",
+            "persona_id": 937,
+            "persona_lastname": "Dimaio"
+        },
+        {
+            "author_fullname": "Ellis, Randy",
+            "author_place": 5,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2006-06-30T20:32:40Z",
+    "handles": [
+        {
+            "handle": "1926/207",
+            "handle_url": "http://hdl.handle.net/1926/207"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 97,
+    "submitted_by_author": {
+        "author_email": "samset@bwh.harvard.edu",
+        "author_firstname": "Eigil",
+        "author_id": 447,
+        "author_institution": "Brigham and Women\\'s Hospital",
+        "author_lastname": "Samset"
+    },
+    "tags": [
+        "Image Guided Therapy",
+        "Software"
+    ],
+    "title": "The SIGN: A dynamic and extensible software framework for Image-Guided Therapy"
+}

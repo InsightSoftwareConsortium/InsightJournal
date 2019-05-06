@@ -1,0 +1,59 @@
+{
+    "abstract": "In this submission, we offer the GaussianInterpolationImageFunction which adds to the growing collection of existing interpolation algorithms in ITK for resampling scalar images such as the LinearInterpolateImageFunction, BSplineInterpolateImageFunction, and WindowedSincInterpolateImageFunction. We provide a brief discussion of the theory behind the submission and the algorithmic implementation.",
+    "authors": [
+        {
+            "author_fullname": "Yushkevich, Paul",
+            "author_place": 1,
+            "persona_email": "pauly@despammed.com",
+            "persona_firstname": "Paul",
+            "persona_id": 51,
+            "persona_lastname": "Yushkevich"
+        },
+        {
+            "author_fullname": "Tustison, Nicholas",
+            "author_place": 2,
+            "persona_email": "ntustison@gmail.com",
+            "persona_firstname": "Nicholas J.",
+            "persona_id": 8833,
+            "persona_lastname": "Tustison"
+        },
+        {
+            "author_fullname": "Gee, James",
+            "author_place": 3,
+            "persona_email": "gee@mail.med.upenn.edu",
+            "persona_firstname": "James",
+            "persona_id": 236,
+            "persona_lastname": "Gee"
+        }
+    ],
+    "date_submitted": "2009-11-25 13:24:18",
+    "handles": [
+        {
+            "handle": "10380/3139",
+            "handle_url": "http://hdl.handle.net/10380/3139"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 705,
+    "submitted_by_author": {
+        "author_email": "ntustison@gmail.com",
+        "author_firstname": "Nicholas J.",
+        "author_id": 8833,
+        "author_institution": "",
+        "author_lastname": "Tustison"
+    },
+    "tags": [
+        "Interpolation",
+        "Gaussian"
+    ],
+    "title": "Gaussian Interpolation"
+}

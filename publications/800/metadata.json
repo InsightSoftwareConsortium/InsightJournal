@@ -1,0 +1,51 @@
+{
+    "abstract": "This document describes an extension of the Insight Toolkit (ITK, www.itk.org) for 2D-3D registration with multiple fixed images, that is, registration of a three-dimensional dataset to a group of fixed planar projections. 2D-3D registration is possible with ITK's standard classes but with several limitations: the number of fixed images is restricted to one and the moving image's orientation axes are ignored, which greatly complicates the registration definition. Both problems are solved by the proposed framework, which permits multi-resolution intensity-based registration with an arbitrary number of fixed images, with all images defined in any orientation. In addition, the framework provides implementations of the Normalized Gradient Correlation and Pattern Intensity metrics, which are commonly used in 2D-3D registration but were not present in ITK. This article gives a detailed description of the proposed framework, along with examples that show its capabilities in registrations of real and simulated images of the spine.",
+    "authors": [
+        {
+            "author_fullname": "Bertelsen, Alvaro",
+            "author_place": 1,
+            "persona_email": "abertelsen@ceit.es",
+            "persona_firstname": "Alvaro",
+            "persona_id": 2280,
+            "persona_lastname": "Bertelsen"
+        },
+        {
+            "author_fullname": "Borro, Diego",
+            "author_place": 2,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2011-05-27 04:00:50",
+    "handles": [
+        {
+            "handle": "10380/3264",
+            "handle_url": "http://hdl.handle.net/10380/3264"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 800,
+    "submitted_by_author": {
+        "author_email": "abertelsen@ceit.es",
+        "author_firstname": "Alvaro",
+        "author_id": 2280,
+        "author_institution": "CEIT",
+        "author_lastname": "Bertelsen"
+    },
+    "tags": [
+        "Similarity metric",
+        "ITK",
+        "2D-3D Registration",
+        "Multi image registration",
+        "Multi resolution"
+    ],
+    "title": "An ITK-Based Framework for 2D-3D Registration with Multiple Fixed Images"
+}

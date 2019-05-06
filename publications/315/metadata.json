@@ -1,0 +1,62 @@
+{
+    "abstract": "This paper describes the ITK implementation of a shortest path extraction algorithm based on graph representation of the image and the Dijkstra shortest path algorithm. The method requires the user to provide two inputs: 1. path information in the form of start, end, and neighboring mode, the form of which path is allowed to propagate between neighboring pixels, and 2. a weighting function which sets the distance metric between neighboring pixels. A number of perspectives for choosing weighting functions are given, as well as examples using real images. This paper can also serve as an example for utilizing the Boost C++ graph library into the ITK framework.",
+    "authors": [
+        {
+            "author_fullname": "Weizman, Lior",
+            "author_place": 1,
+            "persona_email": "lweizm45@cs.huji.ac.il",
+            "persona_firstname": "Lior",
+            "persona_id": 1051,
+            "persona_lastname": "Weizman"
+        },
+        {
+            "author_fullname": "Freiman, Moti",
+            "author_place": 2,
+            "persona_email": "freiman@cs.huji.ac.il",
+            "persona_firstname": "Moti",
+            "persona_id": 120,
+            "persona_lastname": "Freiman"
+        },
+        {
+            "author_fullname": "Joskowicz, Leo",
+            "author_place": 3,
+            "persona_email": "josko@cs.huji.ac.il",
+            "persona_firstname": "Leo",
+            "persona_id": 2165,
+            "persona_lastname": "Joskowicz"
+        }
+    ],
+    "date_submitted": "2009-01-29 15:07:57",
+    "handles": [
+        {
+            "handle": "1926/1520",
+            "handle_url": "http://hdl.handle.net/1926/1520"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 315,
+    "submitted_by_author": {
+        "author_email": "lweizm45@cs.huji.ac.il",
+        "author_firstname": "Lior",
+        "author_id": 1051,
+        "author_institution": "Hebrew University of Jerusalem",
+        "author_lastname": "Weizman"
+    },
+    "tags": [
+        "ITK",
+        "minimal path",
+        "centerline",
+        "vessel segmentation",
+        "boost"
+    ],
+    "title": "Implementation of weighted Dijkstra\u2019s shortest-path algorithm for n-D images"
+}

@@ -1,0 +1,55 @@
+{
+    "abstract": "This document describes the implementation of several features previously developed[2], extending the\r\n2D scale invariant feature transform (SIFT)[4, 5] for images of arbitrary dimensionality, such as 3D\r\nmedical image volumes and time series, using ITK1. Specifically, we provide a scale invariant implementation\r\nof a weighted histogram of gradient feature, a rotationally invariant version of the histogram\r\nfeature, and a SIFT-like feature, adapted to handle images of arbitrary dimensionality. This paper is accompanied\r\nwith the source code, example input data, parameters and output data, allowing reproduction\r\nof the example results in this paper and the results previously reported[2]. Note that usage of SIFT in the\r\nUnited States is governed by US Patent 6,711,293.",
+    "authors": [
+        {
+            "author_fullname": "Cheung, Warren",
+            "author_place": 1,
+            "persona_email": "wac@dnahelix.org",
+            "persona_firstname": "Warren",
+            "persona_id": 738,
+            "persona_lastname": "Cheung"
+        },
+        {
+            "author_fullname": "Hamarneh, Ghassan",
+            "author_place": 2,
+            "persona_email": "hamarneh@cs.sfu.ca",
+            "persona_firstname": "Ghassan",
+            "persona_id": 10,
+            "persona_lastname": "Hamarneh"
+        }
+    ],
+    "date_submitted": "2007-12-01T00:00:00Z",
+    "handles": [
+        {
+            "handle": "1926/1321",
+            "handle_url": "http://hdl.handle.net/1926/1321"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 207,
+    "submitted_by_author": {
+        "author_email": "wac@dnahelix.org",
+        "author_firstname": "Warren",
+        "author_id": 738,
+        "author_institution": "University of British Columbia",
+        "author_lastname": "Cheung"
+    },
+    "tags": [
+        "image matching",
+        "4D",
+        "ITK",
+        "3D",
+        "SIFT",
+        "scale-invariant"
+    ],
+    "title": "Scale Invariant Feature Transform for n-Dimensional Images (n-SIFT)"
+}

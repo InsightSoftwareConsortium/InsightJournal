@@ -1,0 +1,53 @@
+{
+    "abstract": "The common approach to do a fully automatic segmentation of multiple structures is an atlas or multi-atlas based solution.\nThese already have proven to be suitable for the segmentation of structures in the head and neck area and provide very accurate segmentation results, but can struggle with challenging cases with unnatural postures, where the registration of the reference patient(s) is extremely difficult.\nTherefore, we propose an coupled shape model (CoSMo) algorithm for the segmentation relevant structures in parallel. The model adaptation to a test image is done with respect to the appearance of its items and the trained articulation space. Even on very challenging data sets with unnatural postures, which occur far more often than expected, the model adaptation algorithm succeeds.\nThe approach is based on an articulated atlas \\cite{Steger2012a}, that is trained from a set of manually labeled training samples. Furthermore, we have combined the initial solution with statistical shape models \\cite{Kirschner2011} to represent structures with high shape variation. CoSMo is not tailored to specific structures or regions. It can be trained from any set of given gold standard segmentations and makes it thereby very generic.",
+    "authors": [
+        {
+            "author_fullname": "Jung, Florian",
+            "author_place": 1,
+            "persona_email": "florian.jung@igd.fraunhofer.de",
+            "persona_firstname": "Florian",
+            "persona_id": 9735,
+            "persona_lastname": "Jung"
+        },
+        {
+            "author_fullname": "Knapp, Oliver",
+            "author_place": 2,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Wesarg, Stefan",
+            "author_place": 3,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2016-03-02 04:01:03",
+    "handles": [
+        {
+            "handle": "10380/3543",
+            "handle_url": "http://hdl.handle.net/10380/3543"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 44,
+            "journal_name": "MICCAI 2015 Workshops"
+        }
+    ],
+    "publication_id": 970,
+    "submitted_by_author": {
+        "author_email": "florian.jung@igd.fraunhofer.de",
+        "author_firstname": "Florian",
+        "author_id": 9735,
+        "author_institution": "Fraunhofer IGD",
+        "author_lastname": "Jung"
+    },
+    "tags": [
+        "Coupled Shape Model",
+        "Automatic Segmentation"
+    ],
+    "title": "Automatic Segmentation of Structures in CT Head and Neck Images using a Coupled Shape Model"
+}

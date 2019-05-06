@@ -1,0 +1,44 @@
+{
+    "abstract": "It is convenient to acquire data in a format which VTK can read directly. To enable this, we provide a wrapper of the Hokuyo UTM-30LX interface in a class vtkHokuyo. The code is currently hosted at git@github.com:daviddoria/vtkHokuyo.git. This class only works on Linux systems.",
+    "authors": [
+        {
+            "author_fullname": "Doria, David",
+            "author_place": 1,
+            "persona_email": "daviddoria@gmail.com",
+            "persona_firstname": "David",
+            "persona_id": 2205,
+            "persona_lastname": "Doria"
+        }
+    ],
+    "date_submitted": "2010-10-05 20:20:28",
+    "handles": [
+        {
+            "handle": "10380/3221",
+            "handle_url": "http://hdl.handle.net/10380/3221"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 35,
+            "journal_name": "The VTK Journal"
+        }
+    ],
+    "publication_id": 767,
+    "submitted_by_author": {
+        "author_email": "daviddoria@gmail.com",
+        "author_firstname": "David",
+        "author_id": 2205,
+        "author_institution": "Rensselaer Polytechnic Institute",
+        "author_lastname": "Doria"
+    },
+    "tags": [
+        "wrapper",
+        "laser scanner",
+        "lidar"
+    ],
+    "title": "A VTK Interface for the Hokuyo UTM 30LX Laser Range Finder"
+}

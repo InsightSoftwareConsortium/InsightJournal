@@ -1,0 +1,53 @@
+{
+    "abstract": "This document describes the implementation in ITK of the Incremental Delaunay Triangulation algorithm. Using the Straight Walk in Triangulation function, the exact discrete geometrical orientation predicate, and the itk::QuadEdgeMesh API of ITK , we propose a geometrically exact and robust implementation that, from a given 2-dimensional itk::PointSet, incrementally constructs the corresponding 2-dimensional Delaunay Triangulation as an itk::QuadEdgeMesh.",
+    "authors": [
+        {
+            "author_fullname": "Rigaud, Stephane",
+            "author_place": 1,
+            "persona_email": "rigaud.stephane@gmail.com",
+            "persona_firstname": "Stephane",
+            "persona_id": 6540,
+            "persona_lastname": "Rigaud"
+        },
+        {
+            "author_fullname": "Gouaillard, Alexandre",
+            "author_place": 2,
+            "persona_email": "agouaillard@gmail.com",
+            "persona_firstname": "Alexandre",
+            "persona_id": 322,
+            "persona_lastname": "Gouaillard"
+        }
+    ],
+    "date_submitted": "2012-07-26 04:45:33",
+    "handles": [
+        {
+            "handle": "10380/3372",
+            "handle_url": "http://hdl.handle.net/10380/3372"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 870,
+    "submitted_by_author": {
+        "author_email": "rigaud.stephane@gmail.com",
+        "author_firstname": "Stephane",
+        "author_id": 6540,
+        "author_institution": "IPAL-CNRS",
+        "author_lastname": "Rigaud"
+    },
+    "tags": [
+        "ITK",
+        "Planar Mesh",
+        "QuadEdgeMesh",
+        "Triangulation"
+    ],
+    "title": "Incremental Delaunay Triangulation"
+}

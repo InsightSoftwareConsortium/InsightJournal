@@ -1,0 +1,57 @@
+{
+    "abstract": "White matter tractography enables studies of fiber bundle characteristics. Stochastic tractography facilitates these investigations by providing a measure of confidence regarding the inferred fiber bundles. This article presents a multithreaded ITK stochastic tractography filter that will enable novel studies of fiber tract abnormalities. Additionally, we provide an easy to use command line interface for the filter that is compatible with the 3D Slicer visualization environment.",
+    "authors": [
+        {
+            "author_fullname": "Ngo, Tri",
+            "author_place": 1,
+            "persona_email": "tringo@gmail.com",
+            "persona_firstname": "Tri",
+            "persona_id": 636,
+            "persona_lastname": "Ngo"
+        },
+        {
+            "author_fullname": "Westin, Carl-Fredrik",
+            "author_place": 2,
+            "persona_email": "westin@bwh.harvard.edu",
+            "persona_firstname": "Carl-fredrik",
+            "persona_id": 229,
+            "persona_lastname": "Westin"
+        },
+        {
+            "author_fullname": "Golland, Polina",
+            "author_place": 3,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2007-07-16T03:29:26Z",
+    "handles": [
+        {
+            "handle": "1926/564",
+            "handle_url": "http://hdl.handle.net/1926/564"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 169,
+    "submitted_by_author": {
+        "author_email": "tringo@gmail.com",
+        "author_firstname": "Tri",
+        "author_id": 636,
+        "author_institution": "BWH",
+        "author_lastname": "Ngo"
+    },
+    "tags": [
+        "Stochastic",
+        "DTI",
+        "Tractography"
+    ],
+    "title": "A White Matter Stochastic Tractography System"
+}

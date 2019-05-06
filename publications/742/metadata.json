@@ -1,0 +1,73 @@
+{
+    "abstract": "This paper describes the implementation of a resampling \ufb01lter for Diffusion Tensor Images (DTI) in the Insight ToolKit (ITK). ITK already contains a \ufb01lter for resampling scalar and vector images as well as several transformation and interpolation classes. However, due to the directional nature of DT images, using the existing classes would result in losing the structural information of the image.\n We developed a new resampling \ufb01lter, speci\ufb01c to DTI, that preserves the structure by applying a rotation directly on the tensors while performing the transformation of the image. New transformation and interpolator classes have also been implemented to handle tensors correctly. The new transformation classes are based on algorithms described by D.C. Alexander et al. Finally, three \ufb01lters have been written to correct symmetric semi-de\ufb01nite matrices that would no longer be positive after the resampling process and project them into the tensors\u2019 space. In addition, a software based on the new classes has been developed and is provided with this article.",
+    "authors": [
+        {
+            "author_fullname": "Budin, Francois",
+            "author_place": 1,
+            "persona_email": "fbudin@unc.edu",
+            "persona_firstname": "Francois",
+            "persona_id": 2586,
+            "persona_lastname": "Budin"
+        },
+        {
+            "author_fullname": "Bouix, Sylvain",
+            "author_place": 2,
+            "persona_email": "sylvain@bwh.harvard.edu",
+            "persona_firstname": "Sylvain",
+            "persona_id": 87,
+            "persona_lastname": "Bouix"
+        },
+        {
+            "author_fullname": "Shenton, Martha",
+            "author_place": 3,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Styner, Martin",
+            "author_place": 4,
+            "persona_email": "styner@cs.unc.edu",
+            "persona_firstname": "Martin",
+            "persona_id": 28,
+            "persona_lastname": "Styner"
+        },
+        {
+            "author_fullname": "Oguz, Ipek",
+            "author_place": 5,
+            "persona_email": "ipek@cs.unc.edu",
+            "persona_firstname": "Ipek",
+            "persona_id": 122,
+            "persona_lastname": "Oguz"
+        }
+    ],
+    "date_submitted": "2012-12-19 11:08:32",
+    "handles": [
+        {
+            "handle": "10380/3189",
+            "handle_url": "http://hdl.handle.net/10380/3189"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 742,
+    "submitted_by_author": {
+        "author_email": "fbudin@unc.edu",
+        "author_firstname": "Francois",
+        "author_id": 2586,
+        "author_institution": "UNC",
+        "author_lastname": "Budin"
+    },
+    "tags": [
+        "resampling",
+        "ITK",
+        "DTI"
+    ],
+    "title": "An ITK Implementation of a Diffusion Tensor Images Resampling Filter"
+}

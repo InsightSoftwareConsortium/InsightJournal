@@ -1,0 +1,83 @@
+{
+    "abstract": "This paper presents an original role-based software architecture facilitating the flexible composition, configuration and collaboration of separated components in the field of computer assisted interventions. Roles, which can be seen as methods dynamically attached to objects, are embedded in components, to limit build level dependencies and improve flexibility. An appropriate component definition and composition language is proposed to declare softwares, without any specific initialization or glue code, this remaining a challenging issue in component oriented programming. The potential of this architecture is illustrated for a software coupling electromagnetic tracking with a robotized system dedicated to the physiological motion rejection in flexible endoscopy. This software consists in several independent components with are combined at runtime thanks to a concise XML-based declaration.",
+    "authors": [
+        {
+            "author_fullname": "Fasquel, Jean-Baptiste",
+            "author_place": 1,
+            "persona_email": "Jean-Baptiste.Fasquel@ircad.u-strasbg.fr",
+            "persona_firstname": "Jean-baptiste",
+            "persona_id": 2190,
+            "persona_lastname": "Fasquel"
+        },
+        {
+            "author_fullname": "Chabre, Guillaume",
+            "author_place": 2,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Zanne, Philippe",
+            "author_place": 3,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Nicolau, St\u00e9phane",
+            "author_place": 4,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Agnus, Vincent",
+            "author_place": 5,
+            "persona_email": "vincent.agnus@ircad.fr",
+            "persona_firstname": "Vincent",
+            "persona_id": 361,
+            "persona_lastname": "Agnus"
+        },
+        {
+            "author_fullname": "Soler, Luc",
+            "author_place": 6,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "De Mathelin, Michel",
+            "author_place": 7,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Marescaux, Jacques",
+            "author_place": 8,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2009-07-07 09:05:23",
+    "handles": [
+        {
+            "handle": "10380/3069",
+            "handle_url": "http://hdl.handle.net/10380/3069"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 34,
+            "journal_name": "MICCAI 2009 Workshops"
+        }
+    ],
+    "publication_id": 648,
+    "submitted_by_author": {
+        "author_email": "Jean-Baptiste.Fasquel@ircad.u-strasbg.fr",
+        "author_firstname": "Jean-baptiste",
+        "author_id": 2190,
+        "author_institution": "IRCAD",
+        "author_lastname": "Fasquel"
+    },
+    "tags": [
+        "rapid software prototyping",
+        "computer assisted intervention",
+        "component",
+        "XML"
+    ],
+    "title": "A role-based component architecture for computer assisted interventions: illustration for electromagnetic tracking and robotized motion rejection in flexible endoscopy"
+}

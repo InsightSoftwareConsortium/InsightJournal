@@ -1,0 +1,66 @@
+{
+    "abstract": "This document describes a new class, itk::RLEImage, which uses run-length encoding to reduce the memory needed for storage of label maps. This class is accompanied by all the iterators to make it a dropin replacement for itk::Image. By changing the image typedef to itk::RLEImage, many ITK image processing algorithms build without modification and with minimal performance overhead. However, it is not possible if the user code uses GetBufferPointer() or otherwise assumes a linear pixel layout.\n\nThis class is implemented to reduce the memory use of ITK-SNAP (www.itksnap.org), so ITKSNAP is the base for measuring the quantitative results.\n\nThe class, accompanying iterator specializations, automated regression tests, and test data are all packaged as an ITK remote module https://github.com/KitwareMedical/ITKRLEImage.",
+    "authors": [
+        {
+            "author_fullname": "McCormick, Matthew",
+            "author_place": 2,
+            "persona_email": "matthew.m.mccormick@gmail.com",
+            "persona_firstname": "Matthew",
+            "persona_id": 2509,
+            "persona_lastname": "Mccormick"
+        },
+        {
+            "author_fullname": "Zuki\u0107, D\u017eenan",
+            "author_place": 1,
+            "persona_email": "dzenanz@gmail.com",
+            "persona_firstname": "D\u017eenan",
+            "persona_id": 2260,
+            "persona_lastname": "Zuki\u0107"
+        },
+        {
+            "author_fullname": "Gerig, Guido",
+            "author_place": 3,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Yushkevich, Paul",
+            "author_place": 4,
+            "persona_email": "pauly@despammed.com",
+            "persona_firstname": "Paul",
+            "persona_id": 51,
+            "persona_lastname": "Yushkevich"
+        }
+    ],
+    "date_submitted": "2016-08-19 11:18:38",
+    "handles": [
+        {
+            "handle": "10380/3562",
+            "handle_url": "http://hdl.handle.net/10380/3562"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 978,
+    "submitted_by_author": {
+        "author_email": "dzenanz@gmail.com",
+        "author_firstname": "D\u017eenan",
+        "author_id": 2260,
+        "author_institution": "Computer Graphics group, University of Siegen",
+        "author_lastname": "Zuki\u0107"
+    },
+    "tags": [
+        "Compression",
+        "RLE",
+        "Image",
+        "ITK"
+    ],
+    "title": "RLEImage: run-length encoded memory compression scheme for an itk::Image"
+}

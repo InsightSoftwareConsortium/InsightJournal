@@ -1,0 +1,44 @@
+{
+    "abstract": "This document describes a new simple gradient descent optimizer which is a potential\nreplacement or supplement for RegularStepGradientDescentOptimizer. The optimizer requires only the gradient of the parameters and uses a simple linear model internally. However, it follows the theoretical basis of a trust-region algorithm and is able to achieve greater efficiency on certain image registration cases.\n",
+    "authors": [
+        {
+            "author_fullname": "Brooks, Rupert",
+            "author_place": 1,
+            "persona_email": "rupert.brooks@gmail.com",
+            "persona_firstname": "Rupert",
+            "persona_id": 171,
+            "persona_lastname": "Brooks"
+        }
+    ],
+    "date_submitted": "2011-08-11 07:25:35",
+    "handles": [
+        {
+            "handle": "10380/3310",
+            "handle_url": "http://hdl.handle.net/10380/3310"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 834,
+    "submitted_by_author": {
+        "author_email": "rupert.brooks@gmail.com",
+        "author_firstname": "Rupert",
+        "author_id": 171,
+        "author_institution": "Elekta LTD, Soft Tissue Imaging",
+        "author_lastname": "Brooks"
+    },
+    "tags": [
+        "trust region",
+        "registration",
+        "optimization"
+    ],
+    "title": "A Gradient Descent Trust Region Optimizer"
+}

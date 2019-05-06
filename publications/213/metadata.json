@@ -1,0 +1,45 @@
+{
+    "abstract": "This paper describes the ITK implementation of a minimal path extraction framework based on Fast Marching arrival functions. The method requires the user to provide three inputs: 1. a meaningful speed function to generate an arrival function, 2. path information in the form of start, end, and way-points (which the path must pass near), and 3. an optimizer which steps along the resultant arrival function perpendicular to the Fast Marching front. A number of perspectives for choosing speed functions and optimizers are given, as well as examples using synthetic and real images.",
+    "authors": [
+        {
+            "author_fullname": "Mueller, Daniel",
+            "author_place": 1,
+            "persona_email": "dan.muel@gmail.com",
+            "persona_firstname": "Dan",
+            "persona_id": 286,
+            "persona_lastname": "Mueller"
+        }
+    ],
+    "date_submitted": "2008-03-01T00:00:00Z",
+    "handles": [
+        {
+            "handle": "1926/1332",
+            "handle_url": "http://hdl.handle.net/1926/1332"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 213,
+    "submitted_by_author": {
+        "author_email": "dan.muel@gmail.com",
+        "author_firstname": "Dan",
+        "author_id": 286,
+        "author_institution": "Philips Healthcare",
+        "author_lastname": "Mueller"
+    },
+    "tags": [
+        "centerline",
+        "minimal path",
+        "ITK",
+        "vessel segmentation"
+    ],
+    "title": "Fast Marching Minimal Path Extraction in ITK"
+}

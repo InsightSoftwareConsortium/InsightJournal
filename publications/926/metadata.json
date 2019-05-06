@@ -1,0 +1,106 @@
+{
+    "abstract": "Real-time 3D echocardiography has already been shown to be an accurate tool for left ventricular (LV) volume assessment. However, LV border identification remains a challenging task, mainly because of the low contrast of the images combined with drop-out artifacts. Many (semi-)automatic algorithms have been proposed to segment the LV border, but a systematic and fair comparison between such methods has so far been impossible due to a lack of publicly available common database. The aim of this MICCAI challenge was to gather researchers around the field of LV segmentation in 3D cardiac ultrasound by providing a common database to compare algorithms directly. The proposed platform will allow a consistent evaluation and ranking of the current state-of-the-art segmentation solutions and will contribute to a faster clinical translation of groundbreaking technical advances. The purpose of this paper is to describe the technical aspects of the generation of the database, give an overview of the ranking strategy and the outline of the challenge itself.",
+    "authors": [
+        {
+            "author_fullname": "Bernard, Olivier",
+            "author_place": 1,
+            "persona_email": "olivier.bernard@creatis.insa-lyon.fr",
+            "persona_firstname": "Olivier",
+            "persona_id": 5768,
+            "persona_lastname": "Bernard"
+        },
+        {
+            "author_fullname": "Heyde, Brecht",
+            "author_place": 2,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Alessandrini, Martino",
+            "author_place": 3,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Barbosa, Daniel",
+            "author_place": 4,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Camarasu-Pop, Sorina",
+            "author_place": 5,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Cervenansky, Frederic",
+            "author_place": 6,
+            "persona_email": "frederic.cervenansky@creatis.insa-lyon.fr",
+            "persona_firstname": "Frederic",
+            "persona_id": 2585,
+            "persona_lastname": "Cervenansky"
+        },
+        {
+            "author_fullname": "Valette, Sebastien",
+            "author_place": 7,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Mirea, Oana",
+            "author_place": 8,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Galli, Elena",
+            "author_place": 9,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Geleijnse, Marcel",
+            "author_place": 10,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Papachristidis, Alexandros",
+            "author_place": 11,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Bosch, Johan G.",
+            "author_place": 12,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "D'hooge, Jan",
+            "author_place": 13,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2014-10-24 18:52:05",
+    "handles": [
+        {
+            "handle": "10380/3479",
+            "handle_url": "http://hdl.handle.net/10380/3479"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 42,
+            "journal_name": "MICCAI 2014 Workshops"
+        }
+    ],
+    "publication_id": 926,
+    "submitted_by_author": {
+        "author_email": "olivier.bernard@creatis.insa-lyon.fr",
+        "author_firstname": "Olivier",
+        "author_id": 5768,
+        "author_institution": "CREATIS",
+        "author_lastname": "Bernard"
+    },
+    "tags": [
+        "3D ultrasound imaging",
+        "Cardiac image segmentation"
+    ],
+    "title": "Challenge on Endocardial Three-dimensional Ultrasound Segmentation (CETUS)"
+}

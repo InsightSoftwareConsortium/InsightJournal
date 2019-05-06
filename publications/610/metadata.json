@@ -1,0 +1,61 @@
+{
+    "abstract": "This paper proposes a new method for fully automated multiple sclerosis (MS) lesion segmentation in cranial magnetic resonance (MR) imaging. The algorithm uses the T1-weighted and the fluid attenuation inversion recovery scans. It is based the K-Nearest Neighbor (KNN) classification technique. The data has been acquired at the Children\ufffds Hospital Boston (CHB) and the University of North Carolina (UNC). Manual segmentations, composed by a human expert of the CHB, were used for training of the KNN-classification. The method uses voxel location and signal intensity information for determination of the probability being a lesion per voxel, thus generating probabilistic segmentation images. By applying a threshold on the probabilistic images binary segmentations are derived. Automatic segmentations were performed on a set of testing images, and compared with manual segmentations from a CHB and a UNC expert rater. Furthermore, a combined segmentation was composed from segmentations from different algorithms, and used for evaluation. The proposed method shows good resemblance with the segmentations of the CHB rater. High specificity and lower specificity has been observed in comparison with the combined segmentations. Over- and undersegmentation can be easily corrected in this procedure by varying the threshold on the probabilistic segmentation image. The proposed method offers an automated and fully reproducible approach that accurate and applicable on standard clinical MR images.",
+    "authors": [
+        {
+            "author_fullname": "Viergever, Max A.",
+            "author_place": 3,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Anbeek, Petronella",
+            "author_place": 1,
+            "persona_email": "p.anbeek@umcutrecht.nl",
+            "persona_firstname": "Petronella",
+            "persona_id": 925,
+            "persona_lastname": "Anbeek"
+        },
+        {
+            "author_fullname": "Vincken, Koen L.",
+            "author_place": 2,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2008-07-14T21:00:48Z",
+    "handles": [
+        {
+            "handle": "10380/1448",
+            "handle_url": "http://hdl.handle.net/10380/1448"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 44,
+            "journal_name": "MICCAI 2015 Workshops"
+        },
+        {
+            "journal_id": 33,
+            "journal_name": "MICCAI 2008 Workshops"
+        }
+    ],
+    "publication_id": 610,
+    "submitted_by_author": {
+        "author_email": "p.anbeek@umcutrecht.nl",
+        "author_firstname": "Petronella",
+        "author_id": 925,
+        "author_institution": "Image Sciences Institute, University Medical Center Utrecht",
+        "author_lastname": "Anbeek"
+    },
+    "tags": [
+        "white matter",
+        "lesion",
+        "MS",
+        "Multiple Sclerosis",
+        "brain",
+        "segmentation"
+    ],
+    "title": "Automated MS-Lesion Segmentation by K-Nearest Neighbor Classification"
+}

@@ -1,0 +1,68 @@
+{
+    "abstract": "We present a fully automatic model based system for segmenting the mandible, parotid and submandibular glands, brainstem, optic nerves and the optic chiasm in CT images, which won the MICCAI 2015 Head and Neck Auto Segmentation Grand Challenge. The method is based on Active Appearance Models (AAM) built from manually segmented examples via a cancer imaging archive provided by the challenge organisers. High quality anatomical correspondences for the models are generated using a Minimum Description Length (MDL) Groupwise Image Registration method. A multi start optimisation scheme is used to robustly match the model to new images. The model has been cross validated on the training data to a good degree of accuracy, and successfully segmented all the test data. \n",
+    "authors": [
+        {
+            "author_fullname": "Mannion-Haworth, Richard",
+            "author_place": 1,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Bowes, Mike",
+            "author_place": 2,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Ashman, Annaliese",
+            "author_place": 3,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Guillard, Gwenael",
+            "author_place": 4,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Brett, Alan",
+            "author_place": 5,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Vincent, Graham",
+            "author_place": 6,
+            "persona_email": "graham@imorphics.com",
+            "persona_firstname": "Graham",
+            "persona_id": 9708,
+            "persona_lastname": "Vincent"
+        }
+    ],
+    "date_submitted": "2016-01-29 12:50:08",
+    "handles": [
+        {
+            "handle": "10380/3537",
+            "handle_url": "http://hdl.handle.net/10380/3537"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 44,
+            "journal_name": "MICCAI 2015 Workshops"
+        }
+    ],
+    "publication_id": 967,
+    "submitted_by_author": {
+        "author_email": "graham@imorphics.com",
+        "author_firstname": "Graham",
+        "author_id": 9708,
+        "author_institution": "Imorphics",
+        "author_lastname": "Vincent"
+    },
+    "tags": [
+        "Segmentation",
+        "Radiotherapy"
+    ],
+    "title": "Fully Automatic Segmentation of Head and Neck Organs using Active Appearance Models"
+}

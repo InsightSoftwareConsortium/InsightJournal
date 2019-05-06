@@ -1,0 +1,60 @@
+{
+    "abstract": "Segmentation of 3D echocardiograms (3DEs) is still a challenging task due to the low signal-to-noise ratio, the limited field of view, and typical ultrasound artifacts. We propose to segment the left ventricular endocardial surface by using Active Appearance Models (AAMs). Separate end-diastolic (ED) and end-systolic (ES) AAMs were built from presegmented 3DEs of the CETUS training data and 25 previously acquired 3DEs, imaged using various 3DE equipment. The AAMs fully automatically segmented the 15 training sets in a leave-one-out cross validation, comparing two training populations and various initialization strategies. All segmentations took about 15 seconds per patient. The comparison on the CETUS training data shows that the AAM benefits from additional training data and more accurate initialization. The results on the CETUS training and testing data confirm good ED and ES segmentation accuracy on multi-center, multi-vendor, multi-pathology data, and corresponding EF estimation. Selection from different initialization strategies, based on the minimal residual error, and propagation of detected ED contours to initialize ES detection, contributed to more accurate segmentations in this heterogeneous population.",
+    "authors": [
+        {
+            "author_fullname": "Van Stralen, Marijn",
+            "author_place": 2,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Haak, Alexander",
+            "author_place": 3,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Leung, K Esther",
+            "author_place": 4,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Van Burken, Gerard",
+            "author_place": 5,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Bosch, Johan G.",
+            "author_place": 6,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2014-10-27 17:57:21",
+    "handles": [
+        {
+            "handle": "10380/3488",
+            "handle_url": "http://hdl.handle.net/10380/3488"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 42,
+            "journal_name": "MICCAI 2014 Workshops"
+        }
+    ],
+    "publication_id": 935,
+    "submitted_by_author": {
+        "author_email": "olivier.bernard@creatis.insa-lyon.fr",
+        "author_firstname": "Olivier",
+        "author_id": 5768,
+        "author_institution": "CREATIS",
+        "author_lastname": "Bernard"
+    },
+    "tags": [
+        "Segmentation",
+        "3D ultrasound imaging"
+    ],
+    "title": "Segmentation of Multi-Center 3D Left Ventricular Echocardiograms by Active Appearance Models"
+}

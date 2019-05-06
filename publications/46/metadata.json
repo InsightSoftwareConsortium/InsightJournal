@@ -1,0 +1,50 @@
+{
+    "abstract": "This program, based completely on ITK, converts between the different file types available in the ITK. Casting between the different pixel component types is available as an option. Currently, only scalar pixel types are supported.",
+    "authors": [
+        {
+            "author_fullname": "Staring, Marius",
+            "author_place": 1,
+            "persona_email": "marius.staring@gmail.com",
+            "persona_firstname": "Marius",
+            "persona_id": 208,
+            "persona_lastname": "Staring"
+        },
+        {
+            "author_fullname": "Klein, Stefan",
+            "author_place": 2,
+            "persona_email": "s.klein@erasmusmc.nl",
+            "persona_firstname": "Stefan",
+            "persona_id": 551,
+            "persona_lastname": "Klein"
+        }
+    ],
+    "date_submitted": "2005-09-09T07:50:32Z",
+    "handles": [
+        {
+            "handle": "1926/77",
+            "handle_url": "http://hdl.handle.net/1926/77"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 46,
+    "submitted_by_author": {
+        "author_email": "marius.staring@gmail.com",
+        "author_firstname": "Marius",
+        "author_id": 208,
+        "author_institution": "Leiden University Medical Center",
+        "author_lastname": "Staring"
+    },
+    "tags": [
+        "cast, convert"
+    ],
+    "title": "A program to cast and convert image files"
+}

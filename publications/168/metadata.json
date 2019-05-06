@@ -1,0 +1,45 @@
+{
+    "abstract": "This paper describes the ITK implementation of a transform initializer to produce a rigid 3-D transform able to center a given point on an arbitrary plane. The resultant transform allows the user to \"look at\" a point from a given direction. The resultant transform can also be used to obtain an oblique section: a single arbitrary 2-D slice through a 3-D image.",
+    "authors": [
+        {
+            "author_fullname": "Mueller, Dan",
+            "author_place": 1,
+            "persona_email": "dan.muel@gmail.com",
+            "persona_firstname": "Dan",
+            "persona_id": 286,
+            "persona_lastname": "Mueller"
+        }
+    ],
+    "date_submitted": "2007-07-16T02:02:25Z",
+    "handles": [
+        {
+            "handle": "1926/563",
+            "handle_url": "http://hdl.handle.net/1926/563"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 168,
+    "submitted_by_author": {
+        "author_email": "dan.muel@gmail.com",
+        "author_firstname": "Dan",
+        "author_id": 286,
+        "author_institution": "Philips Healthcare",
+        "author_lastname": "Mueller"
+    },
+    "tags": [
+        "plane",
+        "resample",
+        "ITK",
+        "oblique section"
+    ],
+    "title": "LookAt Transform Initializer and Oblique Section Image Filter"
+}

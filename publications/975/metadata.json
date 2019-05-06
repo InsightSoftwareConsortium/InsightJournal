@@ -1,0 +1,44 @@
+{
+    "abstract": "The contribution to VTK presented in this article is an extension to vtk::vtkDiscreteMarchingCubes to also create vtk::vtkPointData scalars containing the value of the adjacent voxel. These can be used to remove regions of the marching-cubes 1 mesh depending on the local neighborhood. The extension is based on the code of vtkDiscreteMarchingCubes of VTK-6.3.0 and is available on GitLab https://gitlab.kitware.com/vtk/vtk/merge_requests/889 (and GitHub https://github.com/Kitware/VTK/pull/18).",
+    "authors": [
+        {
+            "author_fullname": "Grothausmann, Roman",
+            "author_place": 1,
+            "persona_email": "Grothausmann.Roman@mh-hannover.de",
+            "persona_firstname": "Roman",
+            "persona_id": 6854,
+            "persona_lastname": "Grothausmann"
+        }
+    ],
+    "date_submitted": "2016-07-21 07:04:54",
+    "handles": [
+        {
+            "handle": "10380/3559",
+            "handle_url": "http://hdl.handle.net/10380/3559"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 35,
+            "journal_name": "The VTK Journal"
+        }
+    ],
+    "publication_id": 975,
+    "submitted_by_author": {
+        "author_email": "Grothausmann.Roman@mh-hannover.de",
+        "author_firstname": "Roman",
+        "author_id": 6854,
+        "author_institution": "Medizinische Hochschule Hannover",
+        "author_lastname": "Grothausmann"
+    },
+    "tags": [
+        "vtkDiscreteMarchingCubes",
+        "vtkPointData",
+        "adjacent label value"
+    ],
+    "title": "Providing values of adjacent voxel with vtkDiscreteMarchingCubes"
+}

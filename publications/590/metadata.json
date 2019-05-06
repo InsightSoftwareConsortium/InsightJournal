@@ -1,0 +1,89 @@
+{
+    "abstract": "A semi-automatic scheme was developed for the segmentation of 3D liver tumors from computed tomography (CT) images. First a support vector machine (SVM) classifier was trained to extract tumor region from one single 2D slice in the intermediate part of a tumor by voxel classification. Then the extracted tumor contour, after some morphological operations, was projected to its neighboring slices for automated sampling, learning and further voxel classification in neighboring slices. This propagation procedure continued till all tumor-containing slices were processed. The method was tested using 3D CT images with 10 liver tumors and a set of quantitative measures were computed, resulted in an averaged overall performance score of 72.",
+    "authors": [
+        {
+            "author_fullname": "Zhou, Jiayin",
+            "author_place": 1,
+            "persona_email": "jiayin.zhou@gmail.com",
+            "persona_firstname": "Jiayin",
+            "persona_id": 902,
+            "persona_lastname": "Zhou"
+        },
+        {
+            "author_fullname": "Xiong, Wei",
+            "author_place": 2,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Tian, Qi",
+            "author_place": 3,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Qi, Yingyi",
+            "author_place": 4,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Liu, Jiang",
+            "author_place": 5,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Leow, Wee Keng",
+            "author_place": 6,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Han, Thazin",
+            "author_place": 7,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Venkatesh, Sudhakar",
+            "author_place": 8,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Wang, Shih-chang",
+            "author_place": 9,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2008-07-07T14:32:21Z",
+    "handles": [
+        {
+            "handle": "10380/1413",
+            "handle_url": "http://hdl.handle.net/10380/1413"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 45,
+            "journal_name": "MICCAI 2016 Workshops"
+        },
+        {
+            "journal_id": 33,
+            "journal_name": "MICCAI 2008 Workshops"
+        }
+    ],
+    "publication_id": 590,
+    "submitted_by_author": {
+        "author_email": "jiayin.zhou@gmail.com",
+        "author_firstname": "Jiayin",
+        "author_id": 902,
+        "author_institution": "National University of Singapore",
+        "author_lastname": "Zhou"
+    },
+    "tags": [
+        "image segmentation",
+        "computed tomography",
+        "liver tumor",
+        "support vector machine"
+    ],
+    "title": "Semi-automatic Segmentation of 3D Liver Tumors from CT Scans Using Voxel Classification and Propagational Learning"
+}

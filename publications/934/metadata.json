@@ -1,0 +1,48 @@
+{
+    "abstract": "A method for real-time automatic tracking of the left ventricle (LV) in 3D ultrasound is presented. A mesh model of the LV is deformed using mean value coordinates enabling large variations. Kalman filtering and edge detection is used to track the mesh in each frame. The method is evaluated using the framework of the Challenge on Endocardial Three-dimensional Ultrasound Segmentation (CETUS). The results show that the method is able to robustly track the LV in all sequences with a mean mesh difference of about 2.5 mm",
+    "authors": [
+        {
+            "author_fullname": "Smistad, Erik",
+            "author_place": 1,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Lindseth, Frank",
+            "author_place": 2,
+            "persona_email": "Frank.Lindseth@sintef.no",
+            "persona_firstname": "Frank",
+            "persona_id": 97,
+            "persona_lastname": "Lindseth"
+        }
+    ],
+    "date_submitted": "2014-10-24 19:09:58",
+    "handles": [
+        {
+            "handle": "10380/3487",
+            "handle_url": "http://hdl.handle.net/10380/3487"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 42,
+            "journal_name": "MICCAI 2014 Workshops"
+        }
+    ],
+    "publication_id": 934,
+    "submitted_by_author": {
+        "author_email": "olivier.bernard@creatis.insa-lyon.fr",
+        "author_firstname": "Olivier",
+        "author_id": 5768,
+        "author_institution": "CREATIS",
+        "author_lastname": "Bernard"
+    },
+    "tags": [
+        "3D ultrasound imaging",
+        "Segmentation"
+    ],
+    "title": "Real-time Tracking of the Left Ventricle in 3D Ultrasound Using Kalman Filter and Mean Value Coordinates"
+}

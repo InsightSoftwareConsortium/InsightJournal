@@ -1,0 +1,68 @@
+{
+    "abstract": "BioImage Suite is an integrated image analysis software suite\r\ndeveloped at Yale. It uses a combination of C++ and Tcl in the same\r\nfashion as that pioneered by the Visualization Toolkit (VTK) and it\r\nleverages both VTK and the Insight Toolkit. It has extensive capabilities\r\nfor both neuro/cardiac and abdominal image analysis and state of the\r\nart visualization. It is currently in use at Yale; a first public release is\r\nexpected before the end of 2005.",
+    "authors": [
+        {
+            "author_fullname": "Papademetris, Xenophon",
+            "author_place": 1,
+            "persona_email": "xenophon.papademetris@yale.edu",
+            "persona_firstname": "Xenophon",
+            "persona_id": 79,
+            "persona_lastname": "Papademetris"
+        },
+        {
+            "author_fullname": "Jackowski, Marcel",
+            "author_place": 2,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Rajeevan, Nallakkandi",
+            "author_place": 3,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Constable, R. Todd",
+            "author_place": 4,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Staib, Lawrence",
+            "author_place": 5,
+            "persona_email": "lawrence.staib@yale.edu",
+            "persona_firstname": "Lawrence",
+            "persona_id": 27,
+            "persona_lastname": "Staib"
+        }
+    ],
+    "date_submitted": "2005-08-05T18:03:59Z",
+    "handles": [
+        {
+            "handle": "1926/37",
+            "handle_url": "http://hdl.handle.net/1926/37"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 30,
+    "submitted_by_author": {
+        "author_email": "xenophon.papademetris@yale.edu",
+        "author_firstname": "Xenophon",
+        "author_id": 79,
+        "author_institution": "Yale University",
+        "author_lastname": "Papademetris"
+    },
+    "tags": [
+        "medical image analysis",
+        "visualization",
+        "registration",
+        "segmentation"
+    ],
+    "title": "BioImage Suite: An integrated medical image analysis suite"
+}

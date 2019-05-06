@@ -1,0 +1,44 @@
+{
+    "abstract": "The Fourier transform of the convolution of two images is equal to the product of their\nFourier transform. With this definition, it is possible to create a convolution filter\nbased on the Fast Fourier Transform (FFT). The interesting complexity characteristics of\nthis transform gives a very efficient convolution filter for large kernel images.\n\nThis paper provides such a filter, as well as a detailed description of the implementation\nchoices and a performance comparison with the \"simple\" itk::ConvolutionImageFilter.\n",
+    "authors": [
+        {
+            "author_fullname": "Lehmann, Gaetan",
+            "author_place": 1,
+            "persona_email": "gaetan.lehmann@gmail.com",
+            "persona_firstname": "Gaetan",
+            "persona_id": 328,
+            "persona_lastname": "Lehmann"
+        }
+    ],
+    "date_submitted": "2010-07-22 07:11:57",
+    "handles": [
+        {
+            "handle": "10380/3154",
+            "handle_url": "http://hdl.handle.net/10380/3154"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 717,
+    "submitted_by_author": {
+        "author_email": "gaetan.lehmann@gmail.com",
+        "author_firstname": "Gaetan",
+        "author_id": 328,
+        "author_institution": "INRA",
+        "author_lastname": "Lehmann"
+    },
+    "tags": [
+        "Convolution",
+        "Kernel",
+        "FFT"
+    ],
+    "title": "FFT based convolution"
+}

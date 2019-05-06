@@ -1,0 +1,42 @@
+{
+    "abstract": "Morphological area attribute openings and closings\\cite{Cheng92,Vincent93a} are connected set\r\noperations that are able to remove parts of an image that meet certain\r\ncriteria without changing the rest of the image. This article describes a number of\r\nclasses that implement morphological area attribute operations using\r\nthe methods described by Meijster and Wilkinson \\cite{meijster02}.",
+    "authors": [
+        {
+            "author_fullname": "Beare, Richard",
+            "author_place": 1,
+            "persona_email": "richard.beare@ieee.org",
+            "persona_firstname": "Richard",
+            "persona_id": 197,
+            "persona_lastname": "Beare"
+        }
+    ],
+    "date_submitted": "2007-11-24T10:51:25Z",
+    "handles": [
+        {
+            "handle": "1926/1316",
+            "handle_url": "http://hdl.handle.net/1926/1316"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 203,
+    "submitted_by_author": {
+        "author_email": "richard.beare@ieee.org",
+        "author_firstname": "Richard",
+        "author_id": 197,
+        "author_institution": "Monash University",
+        "author_lastname": "Beare"
+    },
+    "tags": [
+        "attribute morphology"
+    ],
+    "title": "Grayscale morphological attribute operations"
+}

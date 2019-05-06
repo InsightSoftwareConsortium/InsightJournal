@@ -1,0 +1,67 @@
+{
+    "abstract": "Research and development of image guided surgery techniques requires software that provides a high degree of flexibility, with easy access to reliable functionality for common tasks. The goal of this paper is to highlight this claim in the context of image guided cardiac surgery applications. Cardiac surgery traditionally involves very invasive surgical procedures. Minimally invasive surgical techniques can greatly reduce the invasiveness of these procedures, thus reducing patient trauma. Implementing new image guidance systems for cardiac surgery is a complex process, requiring the integration of a wide variety of physical and software systems, involving both research and clinical personnel. Modular software design is essential to accommodate this complexity. Furthermore, software architecture must be highly flexible in order to facilitate both the adaptability necessary in research, and the tested reliability needed for clinical applications. Over the past decade, our laboratory has created a comprehensive system for research and development, testing and implementation of new surgical guidance techniques in the operating room. This paper provides an overview of our approach to the development and implementation of image guided therapy software for cardiovascular surgeries, ranging from the simple (needle guidance for central line access) to highly complex and experimental (intracardiac beating heart mitral valve repair/replacement). ",
+    "authors": [
+        {
+            "author_fullname": "Moore, John",
+            "author_place": 1,
+            "persona_email": "jmoore@robarts.ca",
+            "persona_firstname": "John",
+            "persona_id": 2672,
+            "persona_lastname": "Moore"
+        },
+        {
+            "author_fullname": "Linte, Cristian",
+            "author_place": 2,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Wedlake, Chris",
+            "author_place": 3,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Chen, Elvis",
+            "author_place": 4,
+            "persona_email": "elvis.chen@gmail.com",
+            "persona_firstname": "Elvis",
+            "persona_id": 3113,
+            "persona_lastname": "Chen"
+        },
+        {
+            "author_fullname": "Peters, Terry",
+            "author_place": 5,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2010-08-16 14:15:10",
+    "handles": [
+        {
+            "handle": "10380/3197",
+            "handle_url": "http://hdl.handle.net/10380/3197"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 37,
+            "journal_name": "MICCAI 2010 Workshops"
+        }
+    ],
+    "publication_id": 747,
+    "submitted_by_author": {
+        "author_email": "jmoore@robarts.ca",
+        "author_firstname": "John",
+        "author_id": 2672,
+        "author_institution": "Robarts Research Institute",
+        "author_lastname": "Moore"
+    },
+    "tags": [
+        "image guided therapy",
+        "cardiac surgery",
+        "software architecture"
+    ],
+    "title": "Flexible architecture and modularity requirements for image guided cardiovascular surgeries"
+}

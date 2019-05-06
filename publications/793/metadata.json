@@ -1,0 +1,51 @@
+{
+    "abstract": "This document describes the implementation of a simple command line argument parser using the Insight Toolkit ITK. Such a parser may be useful for use in the examples of the ITK. This paper is accompanied with the source code.",
+    "authors": [
+        {
+            "author_fullname": "Staring, Marius",
+            "author_place": 1,
+            "persona_email": "marius.staring@gmail.com",
+            "persona_firstname": "Marius",
+            "persona_id": 208,
+            "persona_lastname": "Staring"
+        },
+        {
+            "author_fullname": "Klein, Stefan",
+            "author_place": 2,
+            "persona_email": "s.klein@erasmusmc.nl",
+            "persona_firstname": "Stefan",
+            "persona_id": 551,
+            "persona_lastname": "Klein"
+        }
+    ],
+    "date_submitted": "2011-04-13 08:33:31",
+    "handles": [
+        {
+            "handle": "10380/3258",
+            "handle_url": "http://hdl.handle.net/10380/3258"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 793,
+    "submitted_by_author": {
+        "author_email": "marius.staring@gmail.com",
+        "author_firstname": "Marius",
+        "author_id": 208,
+        "author_institution": "Leiden University Medical Center",
+        "author_lastname": "Staring"
+    },
+    "tags": [
+        "tool",
+        "command line parsing"
+    ],
+    "title": "A Simple Command Line Argument Parser"
+}

@@ -1,0 +1,56 @@
+{
+    "abstract": "This paper describes an ITK implementation of a 3D vascular segmentation filter using a graph-based energy minimization algorithm. The method first computes the shortest path between two user provided points in the vessel and then performs a graph min-cut based segmentation of the vessel based on the intensity information coupled with the computed path as a spatial constraint. The shortest path computation is adapted from the algorithm in [1] to use a vesselness based weighting function. The min-cut algorithm uses the Boost graph library to calculate the minimal cut. Several examples of applications are provided, along with images of the resulting segmentations.",
+    "authors": [
+        {
+            "author_fullname": "Freiman, Mot",
+            "author_place": 2,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Joskowicz, Leo",
+            "author_place": 3,
+            "persona_email": "josko@cs.huji.ac.il",
+            "persona_firstname": "Leo",
+            "persona_id": 2165,
+            "persona_lastname": "Joskowicz"
+        },
+        {
+            "author_fullname": "Pellow, David",
+            "author_place": 1,
+            "persona_email": "david.pellow@utoronto.ca",
+            "persona_firstname": "David",
+            "persona_id": 2639,
+            "persona_lastname": "Pellow"
+        }
+    ],
+    "date_submitted": "2010-07-18 05:13:53",
+    "handles": [
+        {
+            "handle": "10380/3183",
+            "handle_url": "http://hdl.handle.net/10380/3183"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 737,
+    "submitted_by_author": {
+        "author_email": "freiman@cs.huji.ac.il",
+        "author_firstname": "Moti",
+        "author_id": 120,
+        "author_institution": "Hebrew University",
+        "author_lastname": "Freiman"
+    },
+    "tags": [
+        "Vessels segmentation",
+        "graph min-cut"
+    ],
+    "title": "Implementation of graph-based interactive 3D vessel segmentation filter"
+}

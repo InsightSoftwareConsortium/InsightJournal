@@ -1,0 +1,57 @@
+{
+    "abstract": "The goal of radiation treatment is to irradiate cancer cells (i.e., a target region) without destroying adjacent healthy tissue. Thus, it is advantageous to form the beam so that it best approximates the target, thereby reducing the amount of dose absorbed in critical regions outside the target area. While multi-leaf collimators are common in human clinical systems, small animal radiotherapy systems are typically limited to a set of fixed-size collimators. For these systems, dose painting can be used for conformal dose delivery, but is significantly slower than a multi-leaf collimator. As a compromise solution, a variable rectangular collimator has been developed for the Small Animal Radiation Research Platform (SARRP). This enables more efficient dose painting via the decomposition of a 2D target region into a minimum number of rectangles of variable size, which is the topic of this paper. The proposed method consists of several distinct steps and was implemented on the SARRP Treatment Planning System (TPS).",
+    "authors": [
+        {
+            "author_fullname": "Cho, Nathan",
+            "author_place": 2,
+            "persona_email": "bcho4@jhu.edu",
+            "persona_firstname": "Nathan",
+            "persona_id": 6326,
+            "persona_lastname": "Cho"
+        },
+        {
+            "author_fullname": "Wong, John",
+            "author_place": 3,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Kazanzides, Peter",
+            "author_place": 4,
+            "persona_email": "pkaz@cs.jhu.edu",
+            "persona_firstname": "Peter",
+            "persona_id": 63,
+            "persona_lastname": "Kazanzides"
+        }
+    ],
+    "date_submitted": "2014-10-08 18:02:31",
+    "handles": [
+        {
+            "handle": "10380/3476",
+            "handle_url": "http://hdl.handle.net/10380/3476"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 42,
+            "journal_name": "MICCAI 2014 Workshops"
+        }
+    ],
+    "publication_id": 942,
+    "submitted_by_author": {
+        "author_email": "pkaz@cs.jhu.edu",
+        "author_firstname": "Peter",
+        "author_id": 63,
+        "author_institution": "Johns Hopkins University",
+        "author_lastname": "Kazanzides"
+    },
+    "tags": [
+        "Dose painting",
+        "Radiation treatment planning",
+        "Small animal radiotherapy"
+    ],
+    "title": "Dose Painting with a Variable Collimator for the Small Animal Radiation Research Platform (SARRP)"
+}

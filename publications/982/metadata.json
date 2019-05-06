@@ -1,0 +1,85 @@
+{
+    "abstract": "In an earlier Insight Journal article, we introduced an ITK implementation of the adaptive patch-based image denoising algorithm described in [3]. We follow-up up that offering with a generalized non-local, patch-based ITK class framework and a refactored denoising class. In addition, we provide two ITK implementations of related, well-known algorithms. The first is a non-local super resolution method described in [1, 2]. The second is the multivariate joint label fusion algorithm of [4, 5] with additional extensions, denoted as \u201cjoint intensity fusion\u201d, which will be described in a forthcoming manuscript. Accompanying these ITK classes are documented programming interfaces which use our previously introduced unique command line interface routines. Several 2-D examples on brain imaging data are provided to qualitatively demonstrate performance.",
+    "authors": [
+        {
+            "author_fullname": "Tustison, Nicholas J.",
+            "author_place": 1,
+            "persona_email": "ntustison@gmail.com",
+            "persona_firstname": "Nicholas J.",
+            "persona_id": 8833,
+            "persona_lastname": "Tustison"
+        },
+        {
+            "author_fullname": "Avants, Brian",
+            "author_place": 2,
+            "persona_email": "stnava@gmail.com",
+            "persona_firstname": "Brian",
+            "persona_id": 2243,
+            "persona_lastname": "Avants"
+        },
+        {
+            "author_fullname": "Wang, Hongzhi",
+            "author_place": 3,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Xie, Long",
+            "author_place": 4,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Coupe, Pierrick",
+            "author_place": 5,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Yushkevich, Paul",
+            "author_place": 6,
+            "persona_email": "pauly@despammed.com",
+            "persona_firstname": "Paul",
+            "persona_id": 51,
+            "persona_lastname": "Yushkevich"
+        },
+        {
+            "author_fullname": "Manjon, Jose",
+            "author_place": 7,
+            "persona_email": "jmanjon@fis.upv.es",
+            "persona_firstname": "Jose",
+            "persona_id": 451,
+            "persona_lastname": "Manjon"
+        }
+    ],
+    "date_submitted": "2017-03-15 19:45:35",
+    "handles": [
+        {
+            "handle": "10380/3570",
+            "handle_url": "http://hdl.handle.net/10380/3570"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 982,
+    "submitted_by_author": {
+        "author_email": "ntustison@gmail.com",
+        "author_firstname": "Nicholas J.",
+        "author_id": 8833,
+        "author_institution": "",
+        "author_lastname": "Tustison"
+    },
+    "tags": [
+        "joint fusion",
+        "non-local",
+        "Patch based ",
+        "image denoising",
+        "super-resolution"
+    ],
+    "title": "A patch-based framework for new ITK functionality: Joint fusion, denoising, and non-local super-resolution"
+}

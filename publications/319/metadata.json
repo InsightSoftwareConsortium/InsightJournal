@@ -1,0 +1,44 @@
+{
+    "abstract": "We implement a warping method which is using the properties of elastic materials to compute the deformation between two images. The proposed elastic registration method incorporates the L2 Kantorovich-Wasserstein distance, also known as the Earth Mover\u2019s Distance (EMD), as a similarity measure. The implemented paper presents an efficient partial differential equation approach for a first-order solution of this problem that is simpler than existing works suggested high-order solutions and is computationally simpler than existing works based on linear programming.\r\n\r\nSpecifically, we implement the following paper\r\nSteven Haker, Lei Zhu, Allen Tannenbaum, and Sigurd Angenent, \u201cOptimal mass transport for registration and warping\u201d, International Journal of Computer Vision, 60(3), p. 225-240, 2004.\r\n",
+    "authors": [
+        {
+            "author_fullname": "Shamir, Reuben R",
+            "author_place": 1,
+            "persona_email": "rubke@cs.huji.ac.il",
+            "persona_firstname": "Reuben",
+            "persona_id": 871,
+            "persona_lastname": "Shamir"
+        }
+    ],
+    "date_submitted": "2009-02-17 08:20:00",
+    "handles": [
+        {
+            "handle": "1926/1530",
+            "handle_url": "http://hdl.handle.net/1926/1530"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 319,
+    "submitted_by_author": {
+        "author_email": "rubke@cs.huji.ac.il",
+        "author_firstname": "Reuben",
+        "author_id": 871,
+        "author_institution": "The Hebrew University of Jerusaelm",
+        "author_lastname": "Shamir"
+    },
+    "tags": [
+        "warping ",
+        "deformable registration ",
+        "Optimal mass transport "
+    ],
+    "title": "Optimal mass transport for deformable registration and warping of 2D images"
+}

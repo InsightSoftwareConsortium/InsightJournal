@@ -1,0 +1,67 @@
+{
+    "abstract": "In this paper, we present an atlas-based level set automatic method for segmenting anatomical structures in head and neck CT data, such as mandible and brainstem. The proposed method is a hybrid method that combines two aspects. First, we register the atlas image to the image to be segmented using an intensity-based non-rigid image registration algorithm based on B-spline, the corresponding binary image of the atlas is also resampled into the reference image coordinate system according to the deformation field obtained from the registration process. Second, based on the initialization of the deformed atlas binary mask, the level set function is evolved to segment the object of interest in the test image. The proposed method was tested on CT images of head and neck and compared with expert segmentation of mandible and brainstem. The evaluation results show the method is available and effective.",
+    "authors": [
+        {
+            "author_fullname": "Zhang, Xing",
+            "author_place": 1,
+            "persona_email": "xing.zhang@ia.ac.cn",
+            "persona_firstname": "Xing",
+            "persona_id": 2218,
+            "persona_lastname": "Zhang"
+        },
+        {
+            "author_fullname": "Tian, Jie",
+            "author_place": 2,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Wu, Yongfang",
+            "author_place": 3,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Zheng, Jian",
+            "author_place": 4,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Deng, Kexin",
+            "author_place": 5,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2009-08-25 03:59:07",
+    "handles": [
+        {
+            "handle": "10380/3094",
+            "handle_url": "http://hdl.handle.net/10380/3094"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 34,
+            "journal_name": "MICCAI 2009 Workshops"
+        }
+    ],
+    "publication_id": 668,
+    "submitted_by_author": {
+        "author_email": "xing.zhang@ia.ac.cn",
+        "author_firstname": "Xing",
+        "author_id": 2218,
+        "author_institution": "Institute of Automation, Chinese Academy of Sciences",
+        "author_lastname": "Zhang"
+    },
+    "tags": [
+        "level set",
+        "shape prior",
+        "B-spline",
+        "atlas",
+        "registration",
+        "segmentation"
+    ],
+    "title": "Segmentation of Head and Neck CT Scans Using Atlas-based Level Set Method"
+}

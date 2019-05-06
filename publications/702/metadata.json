@@ -1,0 +1,56 @@
+{
+    "abstract": "An Insight Toolkit (ITK) algorithm for adaptively thresholding images is presented in this paper. Currently, the usage of thresholding methods in ITK has made use of global thresholds, confidence connected thresholds and neighborhood strategies. The current work extends these family of filters by setting thresholds adaptively in local image regions. The user is not required to specify seed regions apriori which greatly eases the task of automatic segmentation. The thresholds are determined using Otsu's minimization of between-class variances in local image regions that are selected randomly throughout the domain. Using non-uniformly sampled thresholds, a continuous function is reconstructed throughout the image domain using a B-Spline approximation algorithm. Hence, the image domain is adaptively sampled by making use of the reconstructed threshold function. Most imaging modalities introduce some intensity inhomogeneities that can be recovered by this method. ",
+    "authors": [
+        {
+            "author_fullname": "Mosaliganti, Kishore",
+            "author_place": 1,
+            "persona_email": "kishoreraom@gmail.com",
+            "persona_firstname": "Kishore",
+            "persona_id": 981,
+            "persona_lastname": "Mosaliganti"
+        },
+        {
+            "author_fullname": "Gelas, Arnaud",
+            "author_place": 2,
+            "persona_email": "arnaudgelas@gmail.com",
+            "persona_firstname": "Arnaud",
+            "persona_id": 7896,
+            "persona_lastname": "Gelas"
+        },
+        {
+            "author_fullname": "Megason, Sean",
+            "author_place": 3,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2009-11-02 15:31:14",
+    "handles": [
+        {
+            "handle": "10380/3133",
+            "handle_url": "http://hdl.handle.net/10380/3133"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 702,
+    "submitted_by_author": {
+        "author_email": "kishoreraom@gmail.com",
+        "author_firstname": "Kishore",
+        "author_id": 981,
+        "author_institution": "Harvard Medical School",
+        "author_lastname": "Mosaliganti"
+    },
+    "tags": [
+        "adaptive thresholding",
+        "intensity inhomogeneity"
+    ],
+    "title": "An Adaptive Thresholding Image Filter"
+}

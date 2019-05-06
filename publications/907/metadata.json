@@ -1,0 +1,57 @@
+{
+    "abstract": "We present a method for automated brain-tissue segmentation through voxelwise classification. Our algorithm uses manually labeled training images to train a support vector machine (SVM) classifier, which is then used for the segmentation of target images. The classification incorporates voxel intensities from a T1-weighted scan, an IR scan, and a FLAIR scan; features to encode the voxel position in the image; and Gaussian-scale-space features and Gaussian-derivative features at\nmultiple scales to facilitate a smooth segmentation.\nAn experiment on data from the MRBrainS13 brain-tissue-segmentation challenge showed that our algorithm produces reasonable segmentations in a reasonable amount of time.",
+    "authors": [
+        {
+            "author_fullname": "Van Opbroek, Annegreet",
+            "author_place": 1,
+            "persona_email": "a.vanopbroek@erasmusmc.nl",
+            "persona_firstname": "Annegreet",
+            "persona_id": 8742,
+            "persona_lastname": "Van opbroek"
+        },
+        {
+            "author_fullname": "Van der Lijn, Fedde",
+            "author_place": 2,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "De Bruijne, Marleen",
+            "author_place": 3,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2013-10-23 09:38:24",
+    "handles": [
+        {
+            "handle": "10380/3443",
+            "handle_url": "http://hdl.handle.net/10380/3443"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 41,
+            "journal_name": "MICCAI 2013 Workshops"
+        }
+    ],
+    "publication_id": 907,
+    "submitted_by_author": {
+        "author_email": "a.vanopbroek@erasmusmc.nl",
+        "author_firstname": "Annegreet",
+        "author_id": 8742,
+        "author_institution": "Erasmus MC",
+        "author_lastname": "Van opbroek"
+    },
+    "tags": [
+        "MRI",
+        "Pattern Recognition",
+        "Classification",
+        "Machine Learning",
+        "Segmentation",
+        "Brain"
+    ],
+    "title": "Automated Brain-Tissue Segmentation by Multi-Feature SVM Classification"
+}

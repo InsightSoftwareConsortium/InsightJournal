@@ -1,0 +1,80 @@
+{
+    "abstract": "Malignant gliomas are highly heterogeneous brain tumors with complex an-\nisotropic growth patterns and occult invasion. Computational modeling of cell migration and proliferation has been subject of intensive research aiming at a deeper understanding of the tumor biology and the ability to predict growth and thus improve therapy. However, current modeling techniques follow a generative approach and make strong assumptions about underlying mechanisms. The tumor is so far treated as homogeneous entity with behavioral parameters extrapolated from previous longitudinal image information.\nWe present a novel way of approaching this problem by employing data driven, discrim-\ninative modeling techniques that learn relevant features from observed growth patterns and are able to make meaningful predictions solely on basis of local and regional tissue characteristics at one given point in time.\nWe demonstrate superior performance of the proposed discriminative method (DICE score\n83) compared to the state of the art generative approach (DICE score 72) on six patients and a total of nine different time intervals. Our approach can help estimating occult invasion as well as it can advance our understanding of the tumor biology and lead to valuable predictions of tumor growth patterns that could guide and improve radio therapy.",
+    "authors": [
+        {
+            "author_fullname": "Weber, Christian",
+            "author_place": 1,
+            "persona_email": "ch.weber@dkfz-heidelberg.de",
+            "persona_firstname": "Christian",
+            "persona_id": 9242,
+            "persona_lastname": "Weber"
+        },
+        {
+            "author_fullname": "G\u00f6tz, Michael",
+            "author_place": 2,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Stieltjes, Bram",
+            "author_place": 3,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Polanska, Joanna",
+            "author_place": 4,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Binczyk, Franciszek",
+            "author_place": 5,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Tarnawski, Rafal",
+            "author_place": 6,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Bobek-Billewicz, Barbara",
+            "author_place": 7,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Maier-Hein, Klaus",
+            "author_place": 8,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2014-10-08 04:49:14",
+    "handles": [
+        {
+            "handle": "10380/3474",
+            "handle_url": "http://hdl.handle.net/10380/3474"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 42,
+            "journal_name": "MICCAI 2014 Workshops"
+        }
+    ],
+    "publication_id": 937,
+    "submitted_by_author": {
+        "author_email": "ch.weber@dkfz-heidelberg.de",
+        "author_firstname": "Christian",
+        "author_id": 9242,
+        "author_institution": "German Cancer Research Center",
+        "author_lastname": "Weber"
+    },
+    "tags": [
+        "tumor growth model",
+        "classification",
+        "radio therapy",
+        "radiation margin"
+    ],
+    "title": "Brain Tumor Progression Modeling - A Data Driven Approach"
+}

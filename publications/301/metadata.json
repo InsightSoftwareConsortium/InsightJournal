@@ -1,0 +1,53 @@
+{
+    "abstract": "The itkLabelGeometryImageFilter is a new ITK filter that enables the measurement of geometric features of labeled objects. It calculates features similar to the \"regionprops\" command of Matlab. It is related to the itkLabelStatisticsImageFilter in that both filters measure features of labeled masks. It differs, however, in that it measures geometric features of the objects themselves rather than statistics\nof image intensities under the masks defined by the objects. This document describes the mathematical background of the geometric features measured by this filter and describes the framework of the code, which is structured to enable easy expandability as new object features are desired.",
+    "authors": [
+        {
+            "author_fullname": "Padfield, Dirk",
+            "author_place": 1,
+            "persona_email": "padfield@research.ge.com",
+            "persona_firstname": "Dirk",
+            "persona_id": 425,
+            "persona_lastname": "Padfield"
+        },
+        {
+            "author_fullname": "Miller, James",
+            "author_place": 2,
+            "persona_email": "millerjv@research.ge.com",
+            "persona_firstname": "James",
+            "persona_id": 232,
+            "persona_lastname": "Miller"
+        }
+    ],
+    "date_submitted": "2013-03-15 10:39:39",
+    "handles": [
+        {
+            "handle": "1926/1493",
+            "handle_url": "http://hdl.handle.net/1926/1493"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 301,
+    "submitted_by_author": {
+        "author_email": "padfield@research.ge.com",
+        "author_firstname": "Dirk",
+        "author_id": 425,
+        "author_institution": "GE Global Research",
+        "author_lastname": "Padfield"
+    },
+    "tags": [
+        "Object features",
+        "Matlab regionprops",
+        "Shape geometry measurements",
+        "Image moments"
+    ],
+    "title": "A Label Geometry Image Filter for Multiple Object Measurement"
+}

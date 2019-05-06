@@ -1,0 +1,45 @@
+{
+    "abstract": "This document describes the workflow for unwarping echo planar MR images (EPI), in particular diffusion-weighted images, using an acquisition method with reversed phase encoding and the tools of the Computational Morphometry Toolkit (CMTK). This technique requires an additional acquisition (additional b=0 image for diffusion imaging) with reversed phase encoding direction, but no field map. Simple 6-direction diffusion data are provided with this article for demonstration.",
+    "authors": [
+        {
+            "author_fullname": "Rohlfing, Torsten",
+            "author_place": 1,
+            "persona_email": "torsten@synapse.sri.com",
+            "persona_firstname": "Torsten",
+            "persona_id": 168,
+            "persona_lastname": "Rohlfing"
+        }
+    ],
+    "date_submitted": "2012-10-01 18:22:11",
+    "handles": [
+        {
+            "handle": "10380/3384",
+            "handle_url": "http://hdl.handle.net/10380/3384"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 875,
+    "submitted_by_author": {
+        "author_email": "torsten@synapse.sri.com",
+        "author_firstname": "Torsten",
+        "author_id": 168,
+        "author_institution": "SRI International",
+        "author_lastname": "Rohlfing"
+    },
+    "tags": [
+        "pe polar",
+        "distortion correction",
+        "diffusion imaging",
+        "echo planar imaging"
+    ],
+    "title": "Unwarping Echo Planar Images Using CMTK"
+}

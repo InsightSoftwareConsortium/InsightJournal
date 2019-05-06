@@ -1,0 +1,77 @@
+{
+    "abstract": "This document describes work-in-progress for refactoring ITK\u2019s registration methods to exploit the parallel, computation power of multi-processor, shared-memory systems. Refactoring includes making the methods multi-threaded as well as optimizing the algorithms. API backward compatibility is being maintained. Helper classes that solve common registration tasks are also being developed.\r\n\r\n\r\nThe refactoring has reduced computation times by factors of 2 to 200 for metrics, interpolators, and transforms computed on multi-processor systems. Extensive sets of tests are being developed to further test operation and backward compatibility.",
+    "authors": [
+        {
+            "author_fullname": "Aylward, Stephen",
+            "author_place": 1,
+            "persona_email": "stephen.aylward@kitware.com",
+            "persona_firstname": "Stephen",
+            "persona_id": 1,
+            "persona_lastname": "Aylward"
+        },
+        {
+            "author_fullname": "Jomier, Julien",
+            "author_place": 2,
+            "persona_email": "julien@jomier.com",
+            "persona_firstname": "Julien",
+            "persona_id": 3,
+            "persona_lastname": "Jomier"
+        },
+        {
+            "author_fullname": "Barre, Sebastien",
+            "author_place": 3,
+            "persona_email": "sebastien.barre@kitware.com",
+            "persona_firstname": "Sebastien",
+            "persona_id": 589,
+            "persona_lastname": "BARRE"
+        },
+        {
+            "author_fullname": "Davis, Brad",
+            "author_place": 4,
+            "persona_email": "brad.davis@kitware.com",
+            "persona_firstname": "Brad",
+            "persona_id": 596,
+            "persona_lastname": "Davis"
+        },
+        {
+            "author_fullname": "Ibanez, Luis",
+            "author_place": 5,
+            "persona_email": "luis.ibanez@kitware.com",
+            "persona_firstname": "Luis",
+            "persona_id": 4,
+            "persona_lastname": "Ibanez"
+        }
+    ],
+    "date_submitted": "2007-07-16T05:46:53Z",
+    "handles": [
+        {
+            "handle": "1926/566",
+            "handle_url": "http://hdl.handle.net/1926/566"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 172,
+    "submitted_by_author": {
+        "author_email": "stephen.aylward@kitware.com",
+        "author_firstname": "Stephen",
+        "author_id": 1,
+        "author_institution": "Kitware, Inc.",
+        "author_lastname": "Aylward"
+    },
+    "tags": [
+        "ITK",
+        "Parallel",
+        "Threaded",
+        "Registration"
+    ],
+    "title": "Optimizing ITK\u2019s Registration Methods for Multi-processor, Shared-Memory Systems"
+}

@@ -1,0 +1,86 @@
+{
+    "abstract": "As part of the ITK v4 project efforts, we have developed ITK filters for physics-based non-rigid registration (PBNRR), which satisfies the following requirements: account for tissue properties in the registration, improve accuracy compared to rigid registration, and reduce execution time using GPU and multi-core accelerators. The implementation has three main components: (1) Feature Point Selection, (2) Block Matching (mapped to both multi-core and GPU processors), and (3) a Robust Finite Element Solver. The use of multi-core and GPU accelerators in ITK v4 provides substantial performance improvements. For example, in average for the non-rigid registration of brain MRIs, the performance of the Block Matching filter is about 12 times faster when 12 hyperthreaded multi-cores are used and about 540 times faster when the Quadro 6000 with 448 threads is used in Dell Workstation.",
+    "authors": [
+        {
+            "author_fullname": "Liu, Yixun",
+            "author_place": 2,
+            "persona_email": "yxliuwm@gmail.com",
+            "persona_firstname": "Yixun",
+            "persona_id": 6473,
+            "persona_lastname": "Liu"
+        },
+        {
+            "author_fullname": "Kot, Andriy",
+            "author_place": 3,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Drakopoulos, Fotis",
+            "author_place": 4,
+            "persona_email": "fdrak001@odu.edu",
+            "persona_firstname": "Fotios",
+            "persona_id": 6120,
+            "persona_lastname": "Drakopoulos"
+        },
+        {
+            "author_fullname": "Fedorov, Andriy",
+            "author_place": 5,
+            "persona_email": "fedorov@bwh.harvard.edu",
+            "persona_firstname": "Andriy",
+            "persona_id": 16,
+            "persona_lastname": "Fedorov"
+        },
+        {
+            "author_fullname": "Enquobahrie, Andinet",
+            "author_place": 6,
+            "persona_email": "andinet.enqu@kitware.com",
+            "persona_firstname": "Andinet",
+            "persona_id": 68,
+            "persona_lastname": "Enquobahrie"
+        },
+        {
+            "author_fullname": "Clatz, Olivier",
+            "author_place": 7,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Chrisochoides, Nikos",
+            "author_place": 8,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2012-08-21 18:20:13",
+    "handles": [
+        {
+            "handle": "10380/3382",
+            "handle_url": "http://hdl.handle.net/10380/3382"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 876,
+    "submitted_by_author": {
+        "author_email": "yxliuwm@gmail.com",
+        "author_firstname": "Yixun",
+        "author_id": 6473,
+        "author_institution": "NIH",
+        "author_lastname": "Liu"
+    },
+    "tags": [
+        "Robust Regression",
+        "Finite Element",
+        "Non-rigid Registration",
+        "Physical Model",
+        "Multi-core",
+        "GPU"
+    ],
+    "title": "An ITK Implementation of Physics-based Non-rigid Registration Method"
+}

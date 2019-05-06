@@ -1,0 +1,51 @@
+{
+    "abstract": "We propose a new approach for semi-automatic segmentation of the carotid bifurcation as part of the Carotid Lumen Segmentation and Stenosis Grading Challenge MICCAI'2009 workshop. Three initial points are provided as input, belonging to the Common, the External and the Internal Carotid Arteries. Our algorithm is divided into two main steps: first, two minimal cost paths are tracked between the CCA and both the ECA and the ICA. The cost functions are based on a multiscale vesselness response. Second, after detecting the junction position and cutting or extending the paths based on the requested lengths, a level set segmentation is initialized as a thin tube around the computed paths and evolves until reaching the vessel wall or a maximal evolution time. Results on training and testing datasets are presented and compared to the manual segmentation by three observers, based on a ground truth and using four quality measures.\n",
+    "authors": [
+        {
+            "author_fullname": "Krissian, Karl",
+            "author_place": 1,
+            "persona_email": "krissian@dis.ulpgc.es",
+            "persona_firstname": "Karl",
+            "persona_id": 2227,
+            "persona_lastname": "Krissian"
+        },
+        {
+            "author_fullname": "Arencibia, Sara",
+            "author_place": 2,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2009-08-28 11:36:56",
+    "handles": [
+        {
+            "handle": "10380/3103",
+            "handle_url": "http://hdl.handle.net/10380/3103"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 34,
+            "journal_name": "MICCAI 2009 Workshops"
+        }
+    ],
+    "publication_id": 672,
+    "submitted_by_author": {
+        "author_email": "krissian@dis.ulpgc.es",
+        "author_firstname": "Karl",
+        "author_id": 2227,
+        "author_institution": "University of Las Palmas of Gran Canaria",
+        "author_lastname": "Krissian"
+    },
+    "tags": [
+        "level set method",
+        "Vesselness response",
+        " segmentation",
+        "multiscale analysis",
+        "minimal cost path"
+    ],
+    "title": "A Minimal Cost Path and Level Set Evolution Approach for Carotid Bifurcation Segmentation"
+}

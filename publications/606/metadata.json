@@ -1,0 +1,61 @@
+{
+    "abstract": "A fully automatic workflow for Multiple Sclerosis (MS) lesion segmentation is described. Fully automatic means that no user interaction is performed in any of the steps and that all parameters are fixed for all the images processed in beforehand. Our workflow is composed of three steps: an intensity inhomogeneity (IIH) correction, skull-stripping and MS lesions segmentation. A validation comparing our results with two experts is done on MS MRI datasets of 24 MS patients from two different sites.",
+    "authors": [
+        {
+            "author_fullname": "Garcia-Lorenzo, Daniel",
+            "author_place": 1,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Prima, Sylvain",
+            "author_place": 2,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Morrissey, Sean P.",
+            "author_place": 3,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Barillot, Christian",
+            "author_place": 4,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2008-07-14T19:51:35Z",
+    "handles": [
+        {
+            "handle": "10380/1445",
+            "handle_url": "http://hdl.handle.net/10380/1445"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 44,
+            "journal_name": "MICCAI 2015 Workshops"
+        },
+        {
+            "journal_id": 33,
+            "journal_name": "MICCAI 2008 Workshops"
+        }
+    ],
+    "publication_id": 606,
+    "submitted_by_author": {
+        "author_email": "dgarcia@irisa.fr",
+        "author_firstname": "Daniel",
+        "author_id": 913,
+        "author_institution": "Visages, INRIA",
+        "author_lastname": "Garcia lorenzo"
+    },
+    "tags": [
+        "workflow",
+        "EM",
+        "segmentation",
+        "MS"
+    ],
+    "title": "A robust Expectation-Maximization algorithm for Multiple Sclerosis lesion segmentation"
+}

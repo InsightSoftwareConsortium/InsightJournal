@@ -1,0 +1,58 @@
+{
+    "abstract": "Modern medical imaging makes use of high performance computing to accelerate image acquisition, image reconstruction, image visualization and image analysis. Software libraries that provide implementations of key medical imaging algorithms need to efficiently exploit modern CPU architectures. In particular, workstations with small numbers of cores are being replaced by very high core count architectures, and by many integrated core architectures, which offer acceleration by vectorization and multi-threading.\n\nThe Insight Toolkit (ITK) is the premier open source implementation of medical imaging algorithms, with a generic design for image processing filters that allows for many developers to rapidly incorporate these algorithms in to new applications. While ITK filters benefit from a generic, platform independent multithreading capability, the current implementation is difficult to exploit to achieve very high performance. Specifically, ITK relies on a static decomposition of the image into subsets of equal size which can be highly inefficient. Threads that terminate early due to uneven work throughout the image finish early and do not contribute further to the processing of more complex regions, leading to idle computational resources and longer execution times. Performance is also difficult to coordinate across multiple algorithms, as the ITK filter assumes each filter operates independently but the global implementation has an impact across filters. \n\nIn this work, we propose a novel, simple to use, high performance multithreading capability for ITK that accelerates the itk::ImageToImageFilter. We utilise a workpile data decomposition strategy, and leave the task of optimal job scheduling on CPU cores to the library called Threading Building Blocks (TBB). We demonstrate the efficacy of multi-threading with TBB in comparison to the itk::Multithreader class, through three simple example image analysis algorithms. \n\nOur implementation provides a new multi-threaded itk::ImageToImageFilter that can be conveniently reused to provide simple and efficient multi-threaded code across applications and algorithm libraries. Our new implementation is distributed as open-source software to the community and is straightforward to adopt.",
+    "authors": [
+        {
+            "author_fullname": "Jaberzadeh, Amir",
+            "author_place": 2,
+            "persona_email": "amir.jaberzadeh@childrens.harvard.edu",
+            "persona_firstname": "Amir",
+            "persona_id": 9818,
+            "persona_lastname": "Jaberzadeh"
+        },
+        {
+            "author_fullname": "Scherrer, Benoit",
+            "author_place": 3,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Warfield, Simon",
+            "author_place": 4,
+            "persona_email": "simon.warfield@childrens.harvard.edu",
+            "persona_firstname": "Simon",
+            "persona_id": 514,
+            "persona_lastname": "Warfield"
+        }
+    ],
+    "date_submitted": "2016-07-21 14:58:08",
+    "handles": [
+        {
+            "handle": "10380/3560",
+            "handle_url": "http://hdl.handle.net/10380/3560"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 974,
+    "submitted_by_author": {
+        "author_email": "amir.jaberzadeh@childrens.harvard.edu",
+        "author_firstname": "Amir",
+        "author_id": 9818,
+        "author_institution": "Harvard Medical School",
+        "author_lastname": "Jaberzadeh"
+    },
+    "tags": [
+        "TBB",
+        "dynamic scheduling",
+        "Multithreading",
+        "ImageToImageFilter"
+    ],
+    "title": "A new implementation of itk::ImageToImageFilter for efficient parallelization of image processing algorithms using Intel Threading Building Blocks"
+}

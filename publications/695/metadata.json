@@ -1,0 +1,44 @@
+{
+    "abstract": "In recent years, Light Detection and Ranging (LiDAR) scanners have become more prevalent in the scientific community. They capture a \"2.5-D\" image of a scene by sending out thousands of laser pulses and using time-of-flight calculations to determine the distance to the first reflecting surface in the scene. Rather than setting up a collection of objects in real life and actually sending lasers into the scene, one can simply create a scene out of 3d models and \"scan\" it by casting rays at the models. This is a great resource for any researchers who work with 3D model/surface/point data and LiDAR data. The synthetic scanner can be used to produce data sets for which a ground truth is known in order to ensure algorithms are behaving properly before moving to \"real\" LiDAR scans. Also, noise can be added to the points to attempt to simulate a real LiDAR scan for researchers who do not have access to the very expensive equipment required to obtain real scans.",
+    "authors": [
+        {
+            "author_fullname": "Doria, David",
+            "author_place": 1,
+            "persona_email": "daviddoria@gmail.com",
+            "persona_firstname": "David",
+            "persona_id": 2205,
+            "persona_lastname": "Doria"
+        }
+    ],
+    "date_submitted": "2009-09-14 21:20:06",
+    "handles": [
+        {
+            "handle": "10380/3125",
+            "handle_url": "http://hdl.handle.net/10380/3125"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 35,
+            "journal_name": "The VTK Journal"
+        }
+    ],
+    "publication_id": 695,
+    "submitted_by_author": {
+        "author_email": "daviddoria@gmail.com",
+        "author_firstname": "David",
+        "author_id": 2205,
+        "author_institution": "Rensselaer Polytechnic Institute",
+        "author_lastname": "Doria"
+    },
+    "tags": [
+        "3d model",
+        "Synthetic Scanner",
+        "LiDAR"
+    ],
+    "title": "A Synthetic LiDAR Scanner for VTK"
+}

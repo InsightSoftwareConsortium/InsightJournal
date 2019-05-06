@@ -1,0 +1,97 @@
+{
+    "abstract": "This paper describes the Statismo framework, which is a framework for PCA based statistical models.Statistical models are used to describe the variability of an object within a population, learned from a set of training samples. Originally developed to model shapes, statistical models are now increasingly used to model the variation in different kind of data, such as for example images, volumetric meshes or deformation fields. Statismo has been developed with the following main goals in mind: \n1) To provide generic tools for learning different kinds of PCA based statistical models, such as shape, appearance or deformations models. \n2) To make the exchange of such models easier among different research groups and to improve the reproducibility of the models. \n3) To allow for easy integration of new methods for model building into the framework. \nTo achieve the first goal, we have abstracted all the aspects that are specific to a given model and data representation, into a user defined class. This does not only make it possible to use Statismo to create different kinds of PCA models, but also allows Statismo to be used with any toolkit and data format. To facilitate data exchange, Statismo defines a storage format based on HDF5, which includes all the information necessary to use the model, as well as meta-data about the model creation, which helps to make model building reproducible. The last goal is achieved by providing a clear separation between data management, model building and model representation. In addition to the standard method for building PCA models, Statismo already includes two recently proposed algorithms for building conditional models, as well as convenience tools for facilitating cross-validation studies.\nAlthough Statismo has been designed to be independent of a particular toolkit, special efforts have been made to make it directly useful for VTK and ITK. Besides supporting model building for most data representations used by VTK and ITK, it also provides an ITK transform class, which allows for the integration of Statismo with the ITK registration framework. This leverages the efforts from the ITK project to readily access powerful methods for model fitting.",
+    "authors": [
+        {
+            "author_fullname": "Blanc, Remi",
+            "author_place": 2,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Albrecht, Thomas",
+            "author_place": 3,
+            "persona_email": "thomas.albrecht@unibas.ch",
+            "persona_firstname": "Thomas",
+            "persona_id": 457,
+            "persona_lastname": "Albrecht"
+        },
+        {
+            "author_fullname": "Gass, Tobias",
+            "author_place": 4,
+            "persona_email": "tobiasgass@gmail.com",
+            "persona_firstname": "Tobias",
+            "persona_id": 7047,
+            "persona_lastname": "Gass"
+        },
+        {
+            "author_fullname": "Goksel, Orcun",
+            "author_place": 5,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "B\u00fcchler, Philippe",
+            "author_place": 6,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Kistler, Michael",
+            "author_place": 7,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Bousleiman, Habib",
+            "author_place": 8,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Reyes, Mauricio",
+            "author_place": 9,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Cattin, Philippe",
+            "author_place": 10,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Vetter, Thomas",
+            "author_place": 11,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "L\u00fcthi, Marcel",
+            "author_place": 1,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2012-07-24 08:47:22",
+    "handles": [
+        {
+            "handle": "10380/3371",
+            "handle_url": "http://hdl.handle.net/10380/3371"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 871,
+    "submitted_by_author": {
+        "author_email": "marcel.luethi@unibas.ch",
+        "author_firstname": "Marcel ",
+        "author_id": 2738,
+        "author_institution": "University of Basel",
+        "author_lastname": "Luethi"
+    },
+    "tags": [
+        "Statistical Shape Models",
+        "Statistical Deformation Models",
+        "Registration"
+    ],
+    "title": "Statismo - A framework for PCA based statistical models"
+}

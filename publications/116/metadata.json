@@ -1,0 +1,54 @@
+{
+    "abstract": "Medical image analysis is an important problem relating to\r\nthe study of various diseases. Since their inception to MICCAI in\r\n2001, ''deformable organisms'' have emerged as a fruitful\r\nmethodology with examples ranging from 2D corpus callosum\r\nsegmentation to 3D vasculature and spinal cord segmentation.\r\nEssentially we have developed an artificial life framework that\r\ncomplements classical deformable models (snakes and deformable\r\nmeshes) with high-level, anatomically-driven control mechanisms.\r\nThis paper describes the integration of deformable organisms\r\ninto the Insight Toolkit (ITK) \\url{www.itk.org}. Our code attempts\r\nto bridge the ITK framework and coding style with deformable organism\r\ndesign methodologies. In the interest of open science, as the\r\nframework develops it will serve as a basis for the community to\r\ndevelop new deformable organisms as well as experiment with those\r\nrecently published by our group.",
+    "authors": [
+        {
+            "author_fullname": "McIntosh, Chris",
+            "author_place": 1,
+            "persona_email": "cmcintos@cs.sfu.ca",
+            "persona_firstname": "Chris",
+            "persona_id": 455,
+            "persona_lastname": "Mcintosh"
+        },
+        {
+            "author_fullname": "Hamarneh, Ghassan",
+            "author_place": 2,
+            "persona_email": "hamarneh@cs.sfu.ca",
+            "persona_firstname": "Ghassan",
+            "persona_id": 10,
+            "persona_lastname": "Hamarneh"
+        }
+    ],
+    "date_submitted": "2006-07-14T01:29:45Z",
+    "handles": [
+        {
+            "handle": "1926/228",
+            "handle_url": "http://hdl.handle.net/1926/228"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 116,
+    "submitted_by_author": {
+        "author_email": "cmcintos@cs.sfu.ca",
+        "author_firstname": "Chris",
+        "author_id": 455,
+        "author_institution": "Medical Image Analysis Lab, Simon Fraser University",
+        "author_lastname": "Mcintosh"
+    },
+    "tags": [
+        "medical image analysis",
+        "deformable organisms",
+        "deformable models",
+        "ITK",
+        "segmentation"
+    ],
+    "title": "I-DO: A Deformable Organisms framework for ITK"
+}

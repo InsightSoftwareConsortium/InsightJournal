@@ -1,0 +1,51 @@
+{
+    "abstract": "This paper describes our contribution of three new classes to the Insight Toolkit community. We present a new ImageIO base class for streaming image file, along with two derived ImageIO classes for the VTK and the MRC file formats.",
+    "authors": [
+        {
+            "author_fullname": "Lowekamp, Bradley",
+            "author_place": 1,
+            "persona_email": "blowekamp@mail.nih.gov",
+            "persona_firstname": "Bradley",
+            "persona_id": 1026,
+            "persona_lastname": "Lowekamp"
+        },
+        {
+            "author_fullname": "Chen, David",
+            "author_place": 2,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2010-06-09 09:54:25",
+    "handles": [
+        {
+            "handle": "10380/3171",
+            "handle_url": "http://hdl.handle.net/10380/3171"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 729,
+    "submitted_by_author": {
+        "author_email": "blowekamp@mail.nih.gov",
+        "author_firstname": "Bradley",
+        "author_id": 1026,
+        "author_institution": "Lockheed Martin Contractor for Office of High Performance Computing and Communications National Library of Medicine ",
+        "author_lastname": "Lowekamp"
+    },
+    "tags": [
+        "file format",
+        "MRC",
+        "VTK",
+        "microscopy",
+        "streaming"
+    ],
+    "title": "A Streaming IO Base Class and Support for Streaming the MRC and VTK File Format"
+}

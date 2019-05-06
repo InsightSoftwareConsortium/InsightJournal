@@ -1,0 +1,43 @@
+{
+    "abstract": "We propose a method for segmenting and labeling the main head and neck vessels (common, internal, external carotid and vertebral arteries) from a contrast enhanced computed tomography angiography (CTA) volume. First, an initial centerline of each vessel is extracted. Next, the vessels are segmented using 3D active objects initialized using the first step. Finally, the true centerline is identified by smoothly deforming it away from the segmented mask edges using a spline-snake. \n\nWe focus particularly on the initial centerline extraction technique. It uses a locally adaptive front propagation algorithm that attempts to find the optimal path connecting the ends of the vessel, typically from the lowest image of the scan to the Circle of Willis in the brain. It uses a patient adapted anatomical model of the different vessels both to initialize and constrain this fast marching, thus eliminating the need for manual selection of seed points. \n\nThe method is evaluated by applying it to the datasets of the MICCAI 2009 carotid bifurcation challenge, for which this paper is the only fully automatic method submitted. \n",
+    "authors": [
+        {
+            "author_fullname": "Cuisenaire, Olivier",
+            "author_place": 1,
+            "persona_email": "olivier.cuisenaire@philips.com",
+            "persona_firstname": "Olivier",
+            "persona_id": 2225,
+            "persona_lastname": "Cuisenaire"
+        }
+    ],
+    "date_submitted": "2009-08-20 12:02:17",
+    "handles": [
+        {
+            "handle": "10380/3100",
+            "handle_url": "http://hdl.handle.net/10380/3100"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 34,
+            "journal_name": "MICCAI 2009 Workshops"
+        }
+    ],
+    "publication_id": 665,
+    "submitted_by_author": {
+        "author_email": "olivier.cuisenaire@philips.com",
+        "author_firstname": "Olivier",
+        "author_id": 2225,
+        "author_institution": "Philips Healthcare",
+        "author_lastname": "Cuisenaire"
+    },
+    "tags": [
+        "carotid",
+        "CTA"
+    ],
+    "title": "Fully automated segmentation of carotid and vertebral arteries from CTA"
+}

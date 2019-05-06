@@ -1,0 +1,52 @@
+{
+    "abstract": "This document presents a VTK wrapper of an extracted portion of \u20183DTK - The 3D Toolkit\u2019\n(http://threedtk.de) to enable a developer to \ufb01nd planes in 3D point cloud data.",
+    "authors": [
+        {
+            "author_fullname": "Borrmann, Dorit",
+            "author_place": 1,
+            "persona_email": "dborrman@uos.de",
+            "persona_firstname": "Dorit",
+            "persona_id": 4058,
+            "persona_lastname": "Borrmann"
+        },
+        {
+            "author_fullname": "Doria, David",
+            "author_place": 2,
+            "persona_email": "daviddoria@gmail.com",
+            "persona_firstname": "David",
+            "persona_id": 2205,
+            "persona_lastname": "Doria"
+        }
+    ],
+    "date_submitted": "2011-10-14 03:26:21",
+    "handles": [
+        {
+            "handle": "10380/3290",
+            "handle_url": "http://hdl.handle.net/10380/3290"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 35,
+            "journal_name": "The VTK Journal"
+        }
+    ],
+    "publication_id": 820,
+    "submitted_by_author": {
+        "author_email": "dborrman@uos.de",
+        "author_firstname": "Dorit",
+        "author_id": 4058,
+        "author_institution": "Jacobs University Bremen",
+        "author_lastname": "Borrmann"
+    },
+    "tags": [
+        "hough",
+        "point cloud",
+        "planes"
+    ],
+    "title": "Hough Transform Plane Detector"
+}

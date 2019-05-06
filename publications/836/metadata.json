@@ -1,0 +1,44 @@
+{
+    "abstract": "This document presents a GUI application to manually select corresponding points in two data sets. The data sets can each be either an image or a point cloud. If both data sets are images, the functionality is equivalent to Matlab's 'cpselect' function. There are many uses of selecting correspondences. If both data sets are images, the correspondences can be used to compute the fundamental matrix, or to perform registration. If both data sets are point clouds, the correspondences can be used to compute a landmark transformation. If one data set is an image and the other is a point cloud, the camera matrix relating the two can be computed.\n",
+    "authors": [
+        {
+            "author_fullname": "Doria, David",
+            "author_place": 1,
+            "persona_email": "daviddoria@gmail.com",
+            "persona_firstname": "David",
+            "persona_id": 2205,
+            "persona_lastname": "Doria"
+        }
+    ],
+    "date_submitted": "2011-08-26 08:32:13",
+    "handles": [
+        {
+            "handle": "10380/3313",
+            "handle_url": "http://hdl.handle.net/10380/3313"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 836,
+    "submitted_by_author": {
+        "author_email": "daviddoria@gmail.com",
+        "author_firstname": "David",
+        "author_id": 2205,
+        "author_institution": "Rensselaer Polytechnic Institute",
+        "author_lastname": "Doria"
+    },
+    "tags": [
+        "Keypoints",
+        "Registration",
+        "Correspondences"
+    ],
+    "title": "Interactive Correspondence Selection"
+}

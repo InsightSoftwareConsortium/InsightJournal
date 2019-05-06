@@ -1,0 +1,51 @@
+{
+    "abstract": "This document describes the implementation of image samplers using the Insight Toolkit ITK url{www.itk.org}. Image samplers take a set of `picks' from an image and store them in an array. A sample consists of the location of the pick (a point) and the corresponding image intensity (a value). Image samplers are useful for image registration, where samples are drawn from the fixed image in order to compute the similarity measure. Together with an image sampler base class, we introduce the following image samplers: 1) a full sampler that draws all voxel coordinates from the input image, 2) a grid sampler that draws samples from a user-specified regular voxel grid, 3 and 4) two random samplers that uniformly draw a user-specified number of samples from the input image.\n\nThis paper is accompanied with the source code, input data, parameters and output data that the authors used for validating the algorithm described in this paper.",
+    "authors": [
+        {
+            "author_fullname": "Staring, Marius",
+            "author_place": 1,
+            "persona_email": "marius.staring@gmail.com",
+            "persona_firstname": "Marius",
+            "persona_id": 208,
+            "persona_lastname": "Staring"
+        },
+        {
+            "author_fullname": "Klein, Stefan",
+            "author_place": 2,
+            "persona_email": "s.klein@erasmusmc.nl",
+            "persona_firstname": "Stefan",
+            "persona_id": 551,
+            "persona_lastname": "Klein"
+        }
+    ],
+    "date_submitted": "2010-08-12 08:56:16",
+    "handles": [
+        {
+            "handle": "10380/3190",
+            "handle_url": "http://hdl.handle.net/10380/3190"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 743,
+    "submitted_by_author": {
+        "author_email": "marius.staring@gmail.com",
+        "author_firstname": "Marius",
+        "author_id": 208,
+        "author_institution": "Leiden University Medical Center",
+        "author_lastname": "Staring"
+    },
+    "tags": [
+        "image samplers",
+        "image registration"
+    ],
+    "title": "An image sampling framework for the ITK"
+}

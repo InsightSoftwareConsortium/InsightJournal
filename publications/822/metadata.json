@@ -1,0 +1,80 @@
+{
+    "abstract": "In order to test our software GoFigure2 for the\nvisualization and the processing of extremely large 3D+t microscopy images,\nwe utilized the visual programming technology Sikuli to\nautomate our GUI testing. We then integrated these Sikuli tests into CTest and\nused CDash to report the results on a dashboard with the view to test our\nsoftware automatically every night and detect bugs as soon as they occur. Our\nrate of releases more than doubled as a result.",
+    "authors": [
+        {
+            "author_fullname": "Schwab, Evan",
+            "author_place": 1,
+            "persona_email": "eschwab8@gmail.com",
+            "persona_firstname": "Evan",
+            "persona_id": 3186,
+            "persona_lastname": "Schwab"
+        },
+        {
+            "author_fullname": "Gelas, Arnaud",
+            "author_place": 2,
+            "persona_email": "arnaudgelas@gmail.com",
+            "persona_firstname": "Arnaud",
+            "persona_id": 7896,
+            "persona_lastname": "Gelas"
+        },
+        {
+            "author_fullname": "Souhait, Lydie",
+            "author_place": 3,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Rannou, Nicolas",
+            "author_place": 4,
+            "persona_email": "nrannou@bwh.harvard.edu",
+            "persona_firstname": "Nicolas",
+            "persona_id": 2142,
+            "persona_lastname": "Rannou"
+        },
+        {
+            "author_fullname": "Mosaliganti, Kishore",
+            "author_place": 5,
+            "persona_email": "kishoreraom@gmail.com",
+            "persona_firstname": "Kishore",
+            "persona_id": 981,
+            "persona_lastname": "Mosaliganti"
+        },
+        {
+            "author_fullname": "Megason, Sean",
+            "author_place": 6,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2011-06-21 17:31:52",
+    "handles": [
+        {
+            "handle": "10380/3289",
+            "handle_url": "http://hdl.handle.net/10380/3289"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 31,
+            "journal_name": "The MIDAS Journal"
+        }
+    ],
+    "publication_id": 822,
+    "submitted_by_author": {
+        "author_email": "eschwab8@gmail.com",
+        "author_firstname": "Evan",
+        "author_id": 3186,
+        "author_institution": "Harvard Medical School",
+        "author_lastname": "Schwab"
+    },
+    "tags": [
+        "CTest",
+        "GUI",
+        "Testing",
+        "Sikuli",
+        "GoFigure2"
+    ],
+    "title": "CTest Integration of Sikuli Automated GUI Testing"
+}

@@ -1,0 +1,70 @@
+{
+    "abstract": "We have recently detailed the procedure for building ITK on the iOS. In this work, we contribute itkiOSImageIO , the necessary ITK class that provides the input/output (IO) interface with the repository of images stored on iOS Apple devices, such as the iPod touch, iPhone, or iPad. The proposed classes provide the ITK programmer with the facility to read or write iOS images. Along with contributing the source code for these classes, we provide examples of reading and writing different types of gray \nlevel and color iOS images, as well as \ufb01ltering the images using ITK \ufb01lters. ",
+    "authors": [
+        {
+            "author_fullname": "Shabash, Boris",
+            "author_place": 1,
+            "persona_email": "bshabash@hotmail.com",
+            "persona_firstname": "Boris",
+            "persona_id": 2559,
+            "persona_lastname": "Shabash"
+        },
+        {
+            "author_fullname": "Hamarneh, Ghassan",
+            "author_place": 2,
+            "persona_email": "hamarneh@cs.sfu.ca",
+            "persona_firstname": "Ghassan",
+            "persona_id": 10,
+            "persona_lastname": "Hamarneh"
+        },
+        {
+            "author_fullname": "Huang, Zhi Feng",
+            "author_place": 3,
+            "persona_email": "zfh@sfu.ca",
+            "persona_firstname": "Zhi feng",
+            "persona_id": 2699,
+            "persona_lastname": "Huang"
+        },
+        {
+            "author_fullname": "Ibanez, Luis",
+            "author_place": 4,
+            "persona_email": "luis.ibanez@kitware.com",
+            "persona_firstname": "Luis",
+            "persona_id": 4,
+            "persona_lastname": "Ibanez"
+        }
+    ],
+    "date_submitted": "2010-09-13 01:39:59",
+    "handles": [
+        {
+            "handle": "10380/3216",
+            "handle_url": "http://hdl.handle.net/10380/3216"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 760,
+    "submitted_by_author": {
+        "author_email": "bshabash@hotmail.com",
+        "author_firstname": "Boris",
+        "author_id": 2559,
+        "author_institution": "Simon Fraser University",
+        "author_lastname": "Shabash"
+    },
+    "tags": [
+        "ITK",
+        "iOS",
+        "Image IO",
+        "Objective-C++",
+        "Objective-C"
+    ],
+    "title": "ITK Image IO interface with Apple iOS"
+}

@@ -1,0 +1,78 @@
+{
+    "abstract": "We present a framework for statistical finite element analysis allowing performing statistical statements of biomechanical performance of peri-articular implants across a given population. In this paper, we focus on the design of orthopaedic implants that fit a maximum percentage of the target population, both in terms of geometry and biomechanical stability. CT scans of the bone under consideration are registered non-rigidly to obtain correspondences in position between them. A statistical model of shape is computed by means of principal component analysis. A method to automatically propagate standardize fractures on the statistically-based bone population has been developed as well as tools to optimize implant position to best-fit the bone surface. Afterwards, finite element analysis is performed to analyse the biomechanical performance of the bone/implant construct. The mechanical behaviour of different PCA bone instances is compared for tibia representing the Asian and Caucasian populations.",
+    "authors": [
+        {
+            "author_fullname": "Bonaretti, Serena",
+            "author_place": 1,
+            "persona_email": "serena.bonaretti@istb.unibe.ch",
+            "persona_firstname": "Serena",
+            "persona_id": 834,
+            "persona_lastname": "Bonaretti"
+        },
+        {
+            "author_fullname": "Reimers, Nils",
+            "author_place": 2,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Reyes, Mauricio",
+            "author_place": 3,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Nikitsin, Andrei",
+            "author_place": 4,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Joensson, Anders",
+            "author_place": 5,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Nolte, Lutz-Peter",
+            "author_place": 6,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Buchler, Philippe",
+            "author_place": 7,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2008-05-01T00:00:00Z",
+    "handles": [
+        {
+            "handle": "10380/1366",
+            "handle_url": "http://hdl.handle.net/10380/1366"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 33,
+            "journal_name": "MICCAI 2008 Workshops"
+        }
+    ],
+    "publication_id": 554,
+    "submitted_by_author": {
+        "author_email": "serena.bonaretti@istb.unibe.ch",
+        "author_firstname": "Serena",
+        "author_id": 834,
+        "author_institution": "University of Bern, Switzerland",
+        "author_lastname": "Bonaretti"
+    },
+    "tags": [
+        "Biomechanical",
+        "Finite Element",
+        "Statistical Modeling",
+        "Peri-Articular Plate",
+        "Implant Fitting",
+        "PCA",
+        "Bone Fracture"
+    ],
+    "title": "Assessment of Peri-Articular Implant Fitting Based on Statistical Finite Element Modeling"
+}

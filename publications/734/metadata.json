@@ -1,0 +1,107 @@
+{
+    "abstract": "The Surgical Assistant Workstation (SAW) provides a modular, open-source software framework to support rapid prototyping of computer-assisted surgery systems, especially those that benefit from enhanced 3D visualization and user interaction. The framework includes a library of components that can be used to implement master-slave or collaborative robot control systems with support for complex video\npipelines and a novel interactive surgical visualization environment. SAW includes standardized interface definitions (e.g., command names and payloads), with the goal of making the framework easily extensible so that developers can add support for their own robotic devices and associated hardware platforms. This paper presents an overview of the component-based architecture, followed by applications (use cases) in\nthe areas of minimally-invasive surgery (MIS), microsurgery, and surgical skill assessment.",
+    "authors": [
+        {
+            "author_fullname": "Kazanzides, Peter",
+            "author_place": 1,
+            "persona_email": "pkaz@cs.jhu.edu",
+            "persona_firstname": "Peter",
+            "persona_id": 63,
+            "persona_lastname": "Kazanzides"
+        },
+        {
+            "author_fullname": "DiMaio, Simon",
+            "author_place": 2,
+            "persona_email": "simon.dimaio@intusurg.com",
+            "persona_firstname": "Simon",
+            "persona_id": 937,
+            "persona_lastname": "Dimaio"
+        },
+        {
+            "author_fullname": "Deguet, Anton",
+            "author_place": 3,
+            "persona_email": "anton.deguet@jhu.edu",
+            "persona_firstname": "Anton",
+            "persona_id": 635,
+            "persona_lastname": "Deguet"
+        },
+        {
+            "author_fullname": "Vagvolgyi, Balazs",
+            "author_place": 4,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Balicki, Marcin",
+            "author_place": 5,
+            "persona_email": "marcin@jhu.edu",
+            "persona_firstname": "Marcin",
+            "persona_id": 3169,
+            "persona_lastname": "Balicki"
+        },
+        {
+            "author_fullname": "Schneider, Caitlin",
+            "author_place": 6,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Kumar, Rajesh",
+            "author_place": 7,
+            "persona_email": "rajesh@jhu.edu",
+            "persona_firstname": "Rajesh",
+            "persona_id": 944,
+            "persona_lastname": "Kumar"
+        },
+        {
+            "author_fullname": "Jog, Amod",
+            "author_place": 8,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Itkowitz, Brandon",
+            "author_place": 9,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Hasser, Christopher",
+            "author_place": 10,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Taylor, Russell",
+            "author_place": 11,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2010-06-15 22:22:44",
+    "handles": [
+        {
+            "handle": "10380/3179",
+            "handle_url": "http://hdl.handle.net/10380/3179"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 37,
+            "journal_name": "MICCAI 2010 Workshops"
+        }
+    ],
+    "publication_id": 734,
+    "submitted_by_author": {
+        "author_email": "pkaz@cs.jhu.edu",
+        "author_firstname": "Peter",
+        "author_id": 63,
+        "author_institution": "Johns Hopkins University",
+        "author_lastname": "Kazanzides"
+    },
+    "tags": [
+        "open source software",
+        "component-based software",
+        "computer assisted surgery",
+        "computer assisted interventions"
+    ],
+    "title": "The Surgical Assistant Workstation (SAW) in Minimally-Invasive Surgery and Microsurgery"
+}

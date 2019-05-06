@@ -1,0 +1,50 @@
+{
+    "abstract": "Segmentation forms the onset for image analysis especially for medical images, making any abnormalities in tissues distinctly visible. Possible application includes the detection of tumor boundary in SPECT, MRI or electron MRI (EMRI). Nevertheless, tumors being heterogeneous pose a great problem when automatic segmentation is attempted to accurately detect the region of interest (ROI). Consequently, it is a challenging task to design an automatic segmentation algorithm without the incorporation of 'a priori' knowledge of an organ being imaged. To meet this challenge, here we propose an intelligence-based approach integrating evolutionary k-means algorithm within multi-resolution framework for feature segmentation with higher accuracy and lower user interaction cost. The approach provides several advantages. First, spherical coordinate transform (SCT) is applied on original RGB data for the identification of variegated coloring as well as for significant computational overhead reduction. Second the translation invariant property of the discrete wavelet frames (DWF) is exploited to define the features, color and texture using chromaticity of LL band and luminance of LH and HL band respectively. Finally, the genetic algorithm based K-means (GKA), which has the ability to learn intelligently the distribution of different tissue types without any prior knowledge, is adopted to cluster the feature space with optimized cluster centers. \nExperimental results of proposed algorithm using multi-modality images such as MRI, SPECT, and EMRI are presented and analyzed in terms of error measures to verify its effectiveness and feasibility for medical applications.",
+    "authors": [
+        {
+            "author_fullname": "V, Thavavel",
+            "author_place": 1,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "J, JafferBasha",
+            "author_place": 2,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2010-04-07 00:48:34",
+    "handles": [
+        {
+            "handle": "10380/3160",
+            "handle_url": "http://hdl.handle.net/10380/3160"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 31,
+            "journal_name": "The MIDAS Journal"
+        }
+    ],
+    "publication_id": 723,
+    "submitted_by_author": {
+        "author_email": "thavavelmurugesanv@gmail.com",
+        "author_firstname": "Thavavel",
+        "author_id": 2528,
+        "author_institution": "karunya university",
+        "author_lastname": "Murugesan"
+    },
+    "tags": [
+        "Genetic algorithm",
+        "Spherical coordinate transform",
+        "Wavelet frames",
+        "Wavelet features",
+        "K-means clustering",
+        "Color image segmentation",
+        "Medical image segmentation"
+    ],
+    "title": "An Intelligent cluster-based segmentation using Wavelet Features:Application to Medical Images"
+}

@@ -1,0 +1,43 @@
+{
+    "abstract": "MevisLab [2] is a development environment for medical image processing and visualization, which supports the reading and writing of combined dicom/tiff images. In this document we provide the source code (ImageIO factory) for the Insight Toolkit (ITK) framework [4]. This image IO plugin supports 2D, 3D and 4D scalar images.\n\nNote: this class depends on version GDCM 2.0 and above.",
+    "authors": [
+        {
+            "author_fullname": "Manniesing, Rashindra",
+            "author_place": 1,
+            "persona_email": "rashindra@gmail.com",
+            "persona_firstname": "Rashindra",
+            "persona_id": 590,
+            "persona_lastname": "Manniesing"
+        }
+    ],
+    "date_submitted": "2011-04-18 10:07:06",
+    "handles": [
+        {
+            "handle": "1926/1514",
+            "handle_url": "http://hdl.handle.net/1926/1514"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 311,
+    "submitted_by_author": {
+        "author_email": "rashindra@gmail.com",
+        "author_firstname": "Rashindra",
+        "author_id": 590,
+        "author_institution": "DIAG Nijmegen",
+        "author_lastname": "Manniesing"
+    },
+    "tags": [
+        "MevisLab",
+        "imageIO"
+    ],
+    "title": "Read and Write Support for MevisLab Dicom/Tiff Format"
+}

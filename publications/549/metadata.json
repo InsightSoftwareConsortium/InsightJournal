@@ -1,0 +1,66 @@
+{
+    "abstract": "We propose a new nonlinear image registration model which is based on nonlinear elastic regularization and unbiased registration. The nonlinear elastic and the unbiased regularization terms are simplified using the change of variables by introducing an unknown that approximates the Jacobian matrix of the displacement field. This reduces the minimization to involve linear differential equations. In contrast to recently proposed unbiased fluid registration method, the new model is written in a unified variational form and is minimized using gradient descent. As a result, the new unbiased nonlinear elasticity model is computationally more efficient and easier to implement than the unbiased fluid registration. The unbiased large-deformation nonlinear elasticity method was tested using volumetric serial magnetic resonance images and shown to have some advantages for medical imaging applications.",
+    "authors": [
+        {
+            "author_fullname": "Yanovsky, Igor",
+            "author_place": 1,
+            "persona_email": "igor.yanovsky@gmail.com",
+            "persona_firstname": "Igor",
+            "persona_id": 825,
+            "persona_lastname": "Yanovsky"
+        },
+        {
+            "author_fullname": "Le Guyader, Carole",
+            "author_place": 2,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Leow, Alex",
+            "author_place": 3,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Thompson, Paul",
+            "author_place": 4,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Vese, Luminita",
+            "author_place": 5,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2008-05-20T06:15:50Z",
+    "handles": [
+        {
+            "handle": "10380/1360",
+            "handle_url": "http://hdl.handle.net/10380/1360"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 33,
+            "journal_name": "MICCAI 2008 Workshops"
+        }
+    ],
+    "publication_id": 549,
+    "submitted_by_author": {
+        "author_email": "igor.yanovsky@gmail.com",
+        "author_firstname": "Igor",
+        "author_id": 825,
+        "author_institution": "University of California, Los Angeles",
+        "author_lastname": "Yanovsky"
+    },
+    "tags": [
+        "computational anatomy",
+        "unbiased image registration",
+        "information theory",
+        "continuum mechanics",
+        "magnetic resonance imaging"
+    ],
+    "title": "Nonlinear Elastic Registration with Unbiased Regularization in Three Dimensions"
+}

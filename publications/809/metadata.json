@@ -1,0 +1,63 @@
+{
+    "abstract": "The ARAMIS research platform is a telesurgical robotic system for minimally invasive surgery with focus on autonomous functionality. The original software architecture was a hierarchical one, based on the model-view-controller paradigm. To handle the growing number of devices, we introduce a new framework that facilitates the decomposition of system functionality into separate programs, as well as the data sharing between them. This allows us to integrate and test new functionality more quickly. Our work heavily utilizes the cisst libraries, developed by the Johns Hopkins University. In particular, we take advantage of cisst's multiprocess networking capabilities. As a proof of concept, we demonstrate the integration of an eye-tracking based endoscope control.",
+    "authors": [
+        {
+            "author_fullname": "Staub, Christoph",
+            "author_place": 1,
+            "persona_email": "staub@in.tum.de",
+            "persona_firstname": "Christoph",
+            "persona_id": 6390,
+            "persona_lastname": "Staub"
+        },
+        {
+            "author_fullname": "Ning, Yu",
+            "author_place": 2,
+            "persona_email": "ning@jhu.edu",
+            "persona_firstname": "Yu",
+            "persona_id": 3121,
+            "persona_lastname": "Ning"
+        },
+        {
+            "author_fullname": "Can, Salman",
+            "author_place": 3,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Knoll, Alois",
+            "author_place": 4,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2011-08-01 03:23:03",
+    "handles": [
+        {
+            "handle": "10380/3274",
+            "handle_url": "http://hdl.handle.net/10380/3274"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 38,
+            "journal_name": "MICCAI 2011 Workshops"
+        }
+    ],
+    "publication_id": 809,
+    "submitted_by_author": {
+        "author_email": "ning@jhu.edu",
+        "author_firstname": "Yu",
+        "author_id": 3121,
+        "author_institution": "Johns Hopkins University",
+        "author_lastname": "Ning"
+    },
+    "tags": [
+        "minimally invasive surgery",
+        "robotic surgery",
+        "distributed framework",
+        "software architecture"
+    ],
+    "title": "A Distributed Software Framework for Robotic Surgery"
+}

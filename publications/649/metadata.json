@@ -1,0 +1,69 @@
+{
+    "abstract": "Various frameworks and toolkits have been proposed for rapid development of computer assisted intervention (CAI) software. In this paper, we investigate how the open-source 3D Slicer application framework can be used for this purpose. We defined common requirements for CAI software to evaluate and enhance 3D Slicer for interventional applications in general. 3D Slicer is found to be an appropriate end-user deployment environment for CAI software, as its built-in functions fulfill many requirements and missing functionalities can be conveniently added. We describe the implementation of a CAI software based on extending core 3D Slicer functions. Three enhancements are described in detail: the management of workflow, DICOM image transfer, and multiple views. The resulting software fulfills general CAI requirements and supports two different MRI-guided prostate biopsy systems (each with a different imaging mode, robotic manipulator and calibration method), thereby demonstrating the usability of Slicer for implementing different CAI applications.",
+    "authors": [
+        {
+            "author_fullname": "Lass\u00f3, Andr\u00e1s",
+            "author_place": 1,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Tokuda, Junichi",
+            "author_place": 2,
+            "persona_email": "tokuda@bwh.harvard.edu",
+            "persona_firstname": "Junichi",
+            "persona_id": 761,
+            "persona_lastname": "Tokuda"
+        },
+        {
+            "author_fullname": "Vikal, Siddharth",
+            "author_place": 3,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Tempany, Clare M",
+            "author_place": 4,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Hata, Nobuhiko",
+            "author_place": 5,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Fichtinger, Gabor",
+            "author_place": 6,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2009-08-14 22:39:57",
+    "handles": [
+        {
+            "handle": "10380/3075",
+            "handle_url": "http://hdl.handle.net/10380/3075"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 34,
+            "journal_name": "MICCAI 2009 Workshops"
+        }
+    ],
+    "publication_id": 649,
+    "submitted_by_author": {
+        "author_email": "lasso@cs.queensu.ca",
+        "author_firstname": "Andras",
+        "author_id": 2170,
+        "author_institution": "Queen's University",
+        "author_lastname": "Lasso"
+    },
+    "tags": [
+        "MRI guided prostate intervention",
+        "Computer Assisted Intervention",
+        "3D Slicer"
+    ],
+    "title": "A generic computer assisted intervention plug-in module for 3D Slicer with multiple device support"
+}

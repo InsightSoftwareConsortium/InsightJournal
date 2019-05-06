@@ -1,0 +1,59 @@
+{
+    "abstract": "In previous work, we presented an algorithm to synthesize volumetric images of vascular trees and generate the corresponding ground truth segmentations, bifurcation locations, branch properties, and tree hierarchy. In this work, we provide the software needed to simulate these volumes. Our software expects a number of physical parameters and oxygen demand maps to produce 3D volumetric images of vasculature, as well as information about the bifurcation locations, tree hierarchy and branch radii in a GXL file. We foresee our software useful for large scale evaluation studies of medical image segmentation and analysis software.",
+    "authors": [
+        {
+            "author_fullname": "Jassi, Preet",
+            "author_place": 1,
+            "persona_email": "preetj@sfu.ca",
+            "persona_firstname": "Preet",
+            "persona_id": 3051,
+            "persona_lastname": "Jassi"
+        },
+        {
+            "author_fullname": "Hamarneh, Ghassan",
+            "author_place": 2,
+            "persona_email": "hamarneh@cs.sfu.ca",
+            "persona_firstname": "Ghassan",
+            "persona_id": 10,
+            "persona_lastname": "Hamarneh"
+        }
+    ],
+    "date_submitted": "2011-04-14 16:24:42",
+    "handles": [
+        {
+            "handle": "10380/3260",
+            "handle_url": "http://hdl.handle.net/10380/3260"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 794,
+    "submitted_by_author": {
+        "author_email": "preetj@sfu.ca",
+        "author_firstname": "Preet",
+        "author_id": 3051,
+        "author_institution": "Simon Fraser University",
+        "author_lastname": "Jassi"
+    },
+    "tags": [
+        "vasculature",
+        "ground-truth",
+        "3D images",
+        "tubular",
+        "segmentation",
+        "medical image analysis",
+        "validation",
+        "simulation",
+        "tree like",
+        "bifurcation"
+    ],
+    "title": "VascuSynth: Vascular Tree Synthesis Software"
+}

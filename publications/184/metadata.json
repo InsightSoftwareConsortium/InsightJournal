@@ -1,0 +1,43 @@
+{
+    "abstract": "This technical report describes how to use Insight Toolkit to perform elementary ventricle segmentation on data from the Designed Database of MR Brain Images of Healthy Volunteers hosted at MIDAS.",
+    "authors": [
+        {
+            "author_fullname": "Marion, Patrick",
+            "author_place": 1,
+            "persona_email": "marioj@rpi.edu",
+            "persona_firstname": "Pat",
+            "persona_id": 701,
+            "persona_lastname": "Marion"
+        }
+    ],
+    "date_submitted": "2007-10-18T04:29:29Z",
+    "handles": [
+        {
+            "handle": "1926/1297",
+            "handle_url": "http://hdl.handle.net/1926/1297"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 184,
+    "submitted_by_author": {
+        "author_email": "marioj@rpi.edu",
+        "author_firstname": "Pat",
+        "author_id": 701,
+        "author_institution": "RPI",
+        "author_lastname": "Marion"
+    },
+    "tags": [
+        "segmentation",
+        "ventricle"
+    ],
+    "title": "Reproducible Ventricle Segmentation Using Insight Toolkit"
+}

@@ -1,0 +1,44 @@
+{
+    "abstract": "In this article, a spline driven image slicer algorithm is presented. It is concretized through a vtkAlgorithm-inherited class that takes two inputs and gives two outputs. The first input is the volume from which the slice should reconstructed while the second one is the spline which tangent vector is used as slicing plane normal. The first output is a 2D image resliced from the volume.\nThe second output gives the geometric information of the slice plane location in the volume space. An example of use is given through a simulation of a dental panoramic view from a MDCT volume.",
+    "authors": [
+        {
+            "author_fullname": "Velut, Jerome",
+            "author_place": 1,
+            "persona_email": "jerome.velut@kitware.com",
+            "persona_firstname": "Jerome",
+            "persona_id": 2453,
+            "persona_lastname": "Velut"
+        }
+    ],
+    "date_submitted": "2011-09-19 14:42:59",
+    "handles": [
+        {
+            "handle": "10380/3318",
+            "handle_url": "http://hdl.handle.net/10380/3318"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 35,
+            "journal_name": "The VTK Journal"
+        }
+    ],
+    "publication_id": 838,
+    "submitted_by_author": {
+        "author_email": "jerome.velut@kitware.com",
+        "author_firstname": "Jerome",
+        "author_id": 2453,
+        "author_institution": "Kitware SAS",
+        "author_lastname": "Velut"
+    },
+    "tags": [
+        "Frenet frame",
+        "slicer",
+        "Curved planar reformatted volume"
+    ],
+    "title": "A Spline-Driven Image Slicer"
+}

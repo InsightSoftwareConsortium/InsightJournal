@@ -1,0 +1,74 @@
+{
+    "abstract": "At the German Heart Center Munich we have installed and evaluated a novel system for robotic surgery. Its main features are the\r\nincorporation of haptics (by means of strain gauge sensors at the instruments) and partial automation of surgical tasks. However,\r\nin this paper we focus on the software engineering aspects of the system. We present a hierarchical approach, which is inspired by the\r\nmodular architecture of the hardware. Each component of the system, and therefore each component of the control software can be\r\neasily interchanged by another instance (e.g. different types of robots may be employed to carry the surgical instruments). All\r\noperations are abstracted by an intuitive user interface, which provides a high level of transparency. In addition, we have included\r\ntechniques known from character animation (so called key-framing) in order to enable operation of the system by users with non-engineering\r\nbackgrounds. The introduced concepts have proven effective during an extensive evaluation with 30 surgeons. Thereby, the system was\r\nused to conduct simplified operations in the field of heart surgery, including the replacement of a papillary tendon and the occlusion\r\nof an atrial septal defect.",
+    "authors": [
+        {
+            "author_fullname": "Mayer, Hermann",
+            "author_place": 1,
+            "persona_email": "mayerh@in.tum.de",
+            "persona_firstname": "Hermann",
+            "persona_id": 934,
+            "persona_lastname": "Mayer"
+        },
+        {
+            "author_fullname": "Burschka, Darius",
+            "author_place": 2,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Knoll, Alois",
+            "author_place": 3,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Braun, Eva Ulla",
+            "author_place": 4,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Lange, R\ufffddiger",
+            "author_place": 5,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Bauernschmitt, Robert",
+            "author_place": 6,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2008-07-17T13:28:18Z",
+    "handles": [
+        {
+            "handle": "10380/1453",
+            "handle_url": "http://hdl.handle.net/10380/1453"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 40,
+            "journal_name": "MICCAI 2012 Workshops"
+        },
+        {
+            "journal_id": 33,
+            "journal_name": "MICCAI 2008 Workshops"
+        }
+    ],
+    "publication_id": 615,
+    "submitted_by_author": {
+        "author_email": "mayerh@in.tum.de",
+        "author_firstname": "Hermann",
+        "author_id": 934,
+        "author_institution": "Technische Universit\u00c3\u00a4t M\u00c3\u00bcnchen",
+        "author_lastname": "Mayer"
+    },
+    "tags": [
+        "MIS",
+        "Keyframing",
+        "Robotic Surgery",
+        "CAS"
+    ],
+    "title": "Software Architecture of a System for Robotic Surgery"
+}

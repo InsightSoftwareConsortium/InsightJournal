@@ -1,0 +1,40 @@
+{
+    "abstract": "This document describes a simple method of performing confidence connected segmentation \r\nusing the Insight toolkit (www.itk.org) on data retrieved from the Designed Database of MR \r\nBrain Images of Healthy Volunteers from MIDAS",
+    "authors": [
+        {
+            "author_fullname": "Piekos, Thomas",
+            "author_place": 1,
+            "persona_email": "piekot@rpi.edu",
+            "persona_firstname": "Thomas",
+            "persona_id": 706,
+            "persona_lastname": "Piekos"
+        }
+    ],
+    "date_submitted": "2007-10-19T02:02:58Z",
+    "handles": [
+        {
+            "handle": "1926/1306",
+            "handle_url": "http://hdl.handle.net/1926/1306"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 193,
+    "submitted_by_author": {
+        "author_email": "piekot@rpi.edu",
+        "author_firstname": "Thomas",
+        "author_id": 706,
+        "author_institution": "RPI",
+        "author_lastname": "Piekos"
+    },
+    "tags": null,
+    "title": "Confidence Connected Segmentation using ITK"
+}

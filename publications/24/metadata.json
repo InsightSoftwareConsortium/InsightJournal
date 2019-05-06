@@ -1,0 +1,66 @@
+{
+    "abstract": "This paper focuses on the role of open-source software in the development of a novel magnetic resonance image (MRI) tissue classification algorithm. Specifically, we describe the of use existing classes in the Insight Segmentation and Registration Toolkit (ITK) and several new classes that were implemented to perform non-parametric density estimation and entropy minimization. These new classes also provide a general framework for nonparametric density estimation and related applications.",
+    "authors": [
+        {
+            "author_fullname": "Tasdizen, Tolga",
+            "author_place": 1,
+            "persona_email": "tolga@sci.utah.edu",
+            "persona_firstname": "Tolga",
+            "persona_id": 57,
+            "persona_lastname": "Tasdizen"
+        },
+        {
+            "author_fullname": "Awate, Suyash",
+            "author_place": 2,
+            "persona_email": "suyash@cs.utah.edu",
+            "persona_firstname": "Suyash",
+            "persona_id": 234,
+            "persona_lastname": "Awate"
+        },
+        {
+            "author_fullname": "Whitaker, Ross",
+            "author_place": 3,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2005-08-03T16:33:51Z",
+    "handles": [
+        {
+            "handle": "/3477",
+            "handle_url": "http://hdl.handle.net//3477"
+        },
+        {
+            "handle": "1926/29",
+            "handle_url": "http://hdl.handle.net/1926/29"
+        },
+        {
+            "handle": "/3507",
+            "handle_url": "http://hdl.handle.net//3507"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 24,
+    "submitted_by_author": {
+        "author_email": "tolga@sci.utah.edu",
+        "author_firstname": "Tolga",
+        "author_id": 57,
+        "author_institution": "University of Utah",
+        "author_lastname": "Tasdizen"
+    },
+    "tags": [
+        "MRI segmentation",
+        "ITK",
+        "Parzen window",
+        "MRI tissue classification"
+    ],
+    "title": "A nonparametric, entropy-minimizing MRI tissue classification algorithm implementation using ITK"
+}

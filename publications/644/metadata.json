@@ -1,0 +1,60 @@
+{
+    "abstract": "This article provides an implementation of the symmetric log-domain diffeomorphic image registration algorithm, or symmetric demons algorithm for short. It generalizes Thirion's demons and the diffeomorphic demons algorithm. The main practical advantages of the symmetric demons with respect to the other demons variants is that is provides the inverse of the spatial transformation at no additional computational cost and ensures that the registration of image A to image B provides the inverse of the registration from image B to image A. The algorithm works completely in the log-domain, i.e. it uses a stationary velocity field to encode the spatial transformation as its exponential. Within the Insight Toolkit (ITK), the classical demons algorithm is implemented as part of the finite difference solver framework. Our code reuses and extends this generic framework. The source code is composed of a set of reusable ITK filters and classes together with their unit tests. We also provide a small example program that allows the user to compare the different variants of the demons algorithm. This paper gives an overview of the algorithm, an overview of its implementation and a small user guide to ease the use of the registration executable.",
+    "authors": [
+        {
+            "author_fullname": "Dru, Florence",
+            "author_place": 1,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Fillard, Pierre",
+            "author_place": 2,
+            "persona_email": "Pierre.Fillard@sophia.inria.fr",
+            "persona_firstname": "Pierre",
+            "persona_id": 261,
+            "persona_lastname": "Fillard"
+        },
+        {
+            "author_fullname": "Vercauteren, Tom",
+            "author_place": 3,
+            "persona_email": "tom.vercauteren@gmail.com",
+            "persona_firstname": "Tom",
+            "persona_id": 156,
+            "persona_lastname": "Vercauteren"
+        }
+    ],
+    "date_submitted": "2010-09-02 03:12:37",
+    "handles": [
+        {
+            "handle": "10380/3060",
+            "handle_url": "http://hdl.handle.net/10380/3060"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 644,
+    "submitted_by_author": {
+        "author_email": "tom.vercauteren@gmail.com",
+        "author_firstname": "Tom",
+        "author_id": 156,
+        "author_institution": "Mauna Kea Technologies",
+        "author_lastname": "Vercauteren"
+    },
+    "tags": [
+        "Demons",
+        "Deformation",
+        "Registration",
+        "Image Registration",
+        "Diffeomorphism",
+        "Inverse consistency"
+    ],
+    "title": "An ITK Implementation of the Symmetric Log-Domain Diffeomorphic Demons Algorithm"
+}

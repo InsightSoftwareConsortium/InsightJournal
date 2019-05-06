@@ -1,0 +1,63 @@
+{
+    "abstract": "Automatic segmentation and tracking of the coronary artery tree from Cardiac Multislice-CT images is an important goal to improve the diagnosis and treatment of coronary artery disease. This paper presents a semi-automatic algorithm (one input point per vessel) based on morphological grayscale local reconstructions in 3D images devoted to the extraction of the coronary artery tree. The algorithm has been evaluated in the framework of the Coronary Artery Tracking Challenge 2008 [1], obtaining consistent results in overlapping measurements (a mean of 70% of the vessel well tracked). Poor results in accuracy measurements suggest that future work should refine the centerline extraction. The algorithm can be efficiently implemented and its general strategy can be easily extrapolated to a completely automated centerline extraction or to a user interactive vessel extraction.",
+    "authors": [
+        {
+            "author_fullname": "Castro, Carlos",
+            "author_place": 1,
+            "persona_email": "ccastro@die.upm.es",
+            "persona_firstname": "Carlos",
+            "persona_id": 912,
+            "persona_lastname": "Castro"
+        },
+        {
+            "author_fullname": "Luengo-Oroz, Miguel \ufffdngel",
+            "author_place": 2,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Santos, Andr\ufffd",
+            "author_place": 3,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Ledesma-Carbayo, Mar\ufffda J.",
+            "author_place": 4,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2008-07-08T13:00:30Z",
+    "handles": [
+        {
+            "handle": "10380/1436",
+            "handle_url": "http://hdl.handle.net/10380/1436"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 43,
+            "journal_name": "ISBI 2015 Workshops"
+        },
+        {
+            "journal_id": 33,
+            "journal_name": "MICCAI 2008 Workshops"
+        }
+    ],
+    "publication_id": 595,
+    "submitted_by_author": {
+        "author_email": "ccastro@die.upm.es",
+        "author_firstname": "Carlos",
+        "author_id": 912,
+        "author_institution": "universidad polict\u00c3\u00a9cnica de madrid",
+        "author_lastname": "Castro"
+    },
+    "tags": [
+        "morphological reconstruction",
+        "vessel tracking",
+        "CT coronary images"
+    ],
+    "title": "Coronary Artery Tracking in 3D Cardiac CT Images Using Local Morphological Reconstruction Operators"
+}

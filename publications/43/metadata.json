@@ -1,0 +1,58 @@
+{
+    "abstract": "Isosurface extraction from brain images often creates handles between brain folds that are anatomically separated. Although manual editing could optimally correct these anatomical errors, it is not realistic due the size of the 3D data and the convoluted geometry of the brain. We propose an algorithm to automatically repair the isosurface and we make our code available at http://www.OpenTopology.org",
+    "authors": [
+        {
+            "author_fullname": "Jaume, Sylvain",
+            "author_place": 1,
+            "persona_email": "sylvainjaume@gmail.com",
+            "persona_firstname": "Sylvain",
+            "persona_id": 102,
+            "persona_lastname": "Jaume"
+        },
+        {
+            "author_fullname": "Rondao, Patrice",
+            "author_place": 2,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Macq, Benoit",
+            "author_place": 3,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2005-08-06T04:38:08Z",
+    "handles": [
+        {
+            "handle": "1926/50",
+            "handle_url": "http://hdl.handle.net/1926/50"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 43,
+    "submitted_by_author": {
+        "author_email": "sylvainjaume@gmail.com",
+        "author_firstname": "Sylvain",
+        "author_id": 102,
+        "author_institution": "MIT CSAIL",
+        "author_lastname": "Jaume"
+    },
+    "tags": [
+        "Marching Cubes",
+        "brain cortex",
+        "handles",
+        "digital topology",
+        "topology correction",
+        "isosurface",
+        "triangle mesh"
+    ],
+    "title": "Open Topology: A Toolkit for Brain Isosurface Correction"
+}

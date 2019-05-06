@@ -1,0 +1,66 @@
+{
+    "abstract": "This article presents an algorithm for the segmentation of liver metastases in CT scans. It is a hybrid method that combines adaptive thresholding based on a gray value analysis of the ROI with model-based morphological processing. We show the results of the MICCAI liver tumor segmentation competition 2008 which were successful for all ten tumors.",
+    "authors": [
+        {
+            "author_fullname": "Moltz, Jan Hendrik",
+            "author_place": 1,
+            "persona_email": "jan.moltz@mevis.de",
+            "persona_firstname": "Jan hendrik",
+            "persona_id": 904,
+            "persona_lastname": "Moltz"
+        },
+        {
+            "author_fullname": "Bornemann, Lars",
+            "author_place": 2,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Dicken, Volker",
+            "author_place": 3,
+            "persona_email": "volker.dicken@mevis.fraunhofer.de",
+            "persona_firstname": "Volker",
+            "persona_id": 2332,
+            "persona_lastname": "Dicken"
+        },
+        {
+            "author_fullname": "Peitgen, Heinz-Otto",
+            "author_place": 4,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2008-07-07T19:34:55Z",
+    "handles": [
+        {
+            "handle": "10380/1419",
+            "handle_url": "http://hdl.handle.net/10380/1419"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 45,
+            "journal_name": "MICCAI 2016 Workshops"
+        },
+        {
+            "journal_id": 33,
+            "journal_name": "MICCAI 2008 Workshops"
+        }
+    ],
+    "publication_id": 584,
+    "submitted_by_author": {
+        "author_email": "jan.moltz@mevis.de",
+        "author_firstname": "Jan hendrik",
+        "author_id": 904,
+        "author_institution": "MeVis Research GmbH, Bremen, Germany",
+        "author_lastname": "Moltz"
+    },
+    "tags": [
+        "liver metastases",
+        "segmentation",
+        "MICCAI competition"
+    ],
+    "title": "Segmentation of Liver Metastases in CT Scans by Adaptive Thresholding and Morphological Processing"
+}

@@ -1,0 +1,65 @@
+{
+    "abstract": "In this paper a contour detection method is described and evaluated\non the evaluation data sets of the Cardiac MR Left Ventricle Segmentation\nChallenge as part of MICCAI 2009\u2019s 3D Segmentation Challenge for Clinical\nApplications. The proposed method, using 2D AAM and 3D ASM, performs a\nfully automated detection of the myocardial contours, not requiring any user\ninteraction. The algorithm\u2019s performance is reported using the metrics provided\nby the LV Challenge organization. Endocardial contour detection was classified\nas successful in 86% of the images and epicardial contours in 94%. The average\nperpendicular distance (APD) of the successful contours was 2.28 mm and\n2.29 mm for the endo- and epicardial contours, respectively.",
+    "authors": [
+        {
+            "author_fullname": "Wijnhout, Jeroen",
+            "author_place": 1,
+            "persona_email": "j.s.wijnhout@lumc.nl",
+            "persona_firstname": "Jeroen",
+            "persona_id": 2248,
+            "persona_lastname": "Wijnhout"
+        },
+        {
+            "author_fullname": "Hendriksen, Dennis",
+            "author_place": 2,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Van Assen, Hans",
+            "author_place": 3,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Van der Geest, Rob",
+            "author_place": 4,
+            "persona_email": "rvdgeest@lumc.nl",
+            "persona_firstname": "Rob",
+            "persona_id": 2196,
+            "persona_lastname": "Van der geest"
+        }
+    ],
+    "date_submitted": "2009-07-31 03:07:56",
+    "handles": [
+        {
+            "handle": "10380/3115",
+            "handle_url": "http://hdl.handle.net/10380/3115"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 34,
+            "journal_name": "MICCAI 2009 Workshops"
+        }
+    ],
+    "publication_id": 683,
+    "submitted_by_author": {
+        "author_email": "j.s.wijnhout@lumc.nl",
+        "author_firstname": "Jeroen",
+        "author_id": 2248,
+        "author_institution": "LKEB",
+        "author_lastname": "Wijnhout"
+    },
+    "tags": [
+        "cardiac",
+        "mri",
+        "aam",
+        "left ventricle",
+        "asm",
+        "segmentation"
+    ],
+    "title": "LV Challenge LKEB Contribution: Fully Automated Myocardial Contour Detection"
+}

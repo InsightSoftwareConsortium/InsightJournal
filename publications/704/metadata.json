@@ -1,0 +1,45 @@
+{
+    "abstract": "This document introduces a program based on the algorithm described by Maria Cristina Tugurlan. The program uses file readers, image filters, and file writers from the Insight Toolkit ITK www.itk.org. It produces as output an image whose values are the times of first arrival of a wavefront that spreads from seed points with a speed at every point equal to the input image intensity. It performs the computation in parallel on distributed memory computers using the Message Passing Interface MPI. Each MPI process reads a small piece of the input image into memory. It computes fast marching on its piece. It sends and receives the values from fast marching at piece boundaries. It recalculates fast marching a number of times set from the command line using the new boundary values each time. Each MPI process writes only a small piece of the output file.\n\nA substantial difference is seen when the output of MPI fast marching is compared to the output of serial fast marching. This difference may be acceptable for some uses. The program should be able to handle input images that are too large to fit in the memory of a single computer.",
+    "authors": [
+        {
+            "author_fullname": "Hobbs, Kevin",
+            "author_place": 1,
+            "persona_email": "hobbsk@ohiou.edu",
+            "persona_firstname": "Kevin",
+            "persona_id": 465,
+            "persona_lastname": "Hobbs"
+        }
+    ],
+    "date_submitted": "2009-11-23 12:39:35",
+    "handles": [
+        {
+            "handle": "10380/3137",
+            "handle_url": "http://hdl.handle.net/10380/3137"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 704,
+    "submitted_by_author": {
+        "author_email": "hobbsk@ohiou.edu",
+        "author_firstname": "Kevin",
+        "author_id": 465,
+        "author_institution": "Ohio University",
+        "author_lastname": "Hobbs"
+    },
+    "tags": [
+        "MPI",
+        "Fast Marching",
+        "Distributed Memory",
+        "Parallel"
+    ],
+    "title": "An Implementation of Parallel Fast Marching Using the Message Passing Interface"
+}

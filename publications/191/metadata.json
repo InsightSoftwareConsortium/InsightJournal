@@ -1,0 +1,43 @@
+{
+    "abstract": "This document describes implementation of two Level-set segmentation algorithms using Insight Toolkit\r\nITK . The algorithms chosen for implementation are are 1) Geodesic Active contour Levelset segmentation and 2) Shape Detection Levelset segmentation. The project is oriented to expose the concepts of Open Data, Open Source and Open Access which form the pillars of open-source software ideology.",
+    "authors": [
+        {
+            "author_fullname": "Mukherjee, Amit",
+            "author_place": 1,
+            "persona_email": "mukhea@rpi.edu",
+            "persona_firstname": "Amit",
+            "persona_id": 700,
+            "persona_lastname": "Mukherjee"
+        }
+    ],
+    "date_submitted": "2007-10-18T19:38:09Z",
+    "handles": [
+        {
+            "handle": "1926/1304",
+            "handle_url": "http://hdl.handle.net/1926/1304"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 191,
+    "submitted_by_author": {
+        "author_email": "mukhea@rpi.edu",
+        "author_firstname": "Amit",
+        "author_id": 700,
+        "author_institution": "Rensselaer Polytechnic Institute",
+        "author_lastname": "Mukherjee"
+    },
+    "tags": [
+        "Level set segmentation",
+        "Image segmentation 3D"
+    ],
+    "title": "Image Segmentation Project - Open source software practices class"
+}

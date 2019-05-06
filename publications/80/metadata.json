@@ -1,0 +1,44 @@
+{
+    "abstract": "Binary erosion and dilation are the base filters of binary mathematical morphology.\r\nIn ITK 2.4.1 \\verb$BinaryDilateImageFilter$ and \\verb$BinaryErodeImageFilter$ implement\r\nan efficient algorithm described in \\cite{Nikopoulos2000}. However, those filter lack support for boundary values, have a poor progress report, and can be quite inefficient\r\nfor complex 3D images.",
+    "authors": [
+        {
+            "author_fullname": "Lehmann, Gaetan",
+            "author_place": 1,
+            "persona_email": "gaetan.lehmann@gmail.com",
+            "persona_firstname": "Gaetan",
+            "persona_id": 328,
+            "persona_lastname": "Lehmann"
+        }
+    ],
+    "date_submitted": "2006-02-19T20:37:04Z",
+    "handles": [
+        {
+            "handle": "1926/173",
+            "handle_url": "http://hdl.handle.net/1926/173"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 80,
+    "submitted_by_author": {
+        "author_email": "gaetan.lehmann@gmail.com",
+        "author_firstname": "Gaetan",
+        "author_id": 328,
+        "author_institution": "INRA",
+        "author_lastname": "Lehmann"
+    },
+    "tags": [
+        "Binary morphology",
+        "erosion",
+        "dilation"
+    ],
+    "title": "Improving features and performance of binary erode and dilate filters"
+}

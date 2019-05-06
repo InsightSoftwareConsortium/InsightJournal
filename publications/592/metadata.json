@@ -1,0 +1,61 @@
+{
+    "abstract": "This paper describes an interactive approach to the identification of coronary arteries in 3D angiography images. The approach is based on a novel multiple hypothesis tracking methodology which is complemented with a standard minimal path search, and it allows for a complete segmentation with little manual labor. When evaluated using the 3D CT angiography data supplied with the MICCAI'08 workshop 3D Segmentation in the Clinic: A Grand Challenge II, 98% of the target coronary arteries could be segmented in about 5 minutes per data set with the same spatial accuracy achieved in manual segmentations by human experts.",
+    "authors": [
+        {
+            "author_fullname": "Kuehnel, Caroline",
+            "author_place": 2,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Peitgen, Heinz-Otto",
+            "author_place": 3,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Friman, Ola",
+            "author_place": 1,
+            "persona_email": "ola.friman@mevis.de",
+            "persona_firstname": "Ola",
+            "persona_id": 895,
+            "persona_lastname": "Friman"
+        }
+    ],
+    "date_submitted": "2008-07-08T08:59:20Z",
+    "handles": [
+        {
+            "handle": "10380/1433",
+            "handle_url": "http://hdl.handle.net/10380/1433"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 43,
+            "journal_name": "ISBI 2015 Workshops"
+        },
+        {
+            "journal_id": 33,
+            "journal_name": "MICCAI 2008 Workshops"
+        }
+    ],
+    "publication_id": 592,
+    "submitted_by_author": {
+        "author_email": "ola.friman@mevis.de",
+        "author_firstname": "Ola",
+        "author_id": 895,
+        "author_institution": "MeVis Research",
+        "author_lastname": "Friman"
+    },
+    "tags": [
+        "multiple hypothesis tracking",
+        "vessel",
+        "coronary",
+        "tracking",
+        "minimal paths",
+        "segmentation"
+    ],
+    "title": "Coronary Centerline Extraction Using Multiple Hypothesis Tracking and Minimal Paths"
+}

@@ -1,0 +1,95 @@
+{
+    "abstract": "Using a robot system to position needles or needle shaped tools during clinical procedures such as biopsy, radio frequency ablation, and target drug delivery has a great potentials in increasing accuracy and speed of the process, and minimizing trauma to patient. This paper describes a robot assist needle placement system developed using Image Guided Surgery Toolkit (IGSTK). IGSTK is an open source software toolkit aimed at providing a robust and safe platform for researchers and clinicians for fast prototyping of image guided applications with minimum cost and effort",
+    "authors": [
+        {
+            "author_fullname": "Enquobahrie, Andinet",
+            "author_place": 2,
+            "persona_email": "andinet.enqu@kitware.com",
+            "persona_firstname": "Andinet",
+            "persona_id": 68,
+            "persona_lastname": "Enquobahrie"
+        },
+        {
+            "author_fullname": "Peng, Cheng",
+            "author_place": 1,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Stenzel, Roland",
+            "author_place": 3,
+            "persona_email": "roland.stenzel@gmx.net",
+            "persona_firstname": "Roland",
+            "persona_id": 428,
+            "persona_lastname": "Stenzel"
+        },
+        {
+            "author_fullname": "Lin, Ralph",
+            "author_place": 4,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Zhang, Hui",
+            "author_place": 5,
+            "persona_email": "zhang@isis.imac.georgetown.edu",
+            "persona_firstname": "Hui",
+            "persona_id": 313,
+            "persona_lastname": "Zhang"
+        },
+        {
+            "author_fullname": "Yaniv, Ziv",
+            "author_place": 6,
+            "persona_email": "zivy@isis.georgetown.edu",
+            "persona_firstname": "Ziv",
+            "persona_id": 201,
+            "persona_lastname": "Yaniv"
+        },
+        {
+            "author_fullname": "Kim, Hee-su",
+            "author_place": 7,
+            "persona_email": "wizardhs@gmail.com",
+            "persona_firstname": "Hee-su",
+            "persona_id": 278,
+            "persona_lastname": "Kim"
+        },
+        {
+            "author_fullname": "Cleary, Kevin",
+            "author_place": 8,
+            "persona_email": "cleary@georgetown.edu",
+            "persona_firstname": "Kevin",
+            "persona_id": 368,
+            "persona_lastname": "Cleary"
+        }
+    ],
+    "date_submitted": "2006-07-11",
+    "handles": [
+        {
+            "handle": "1926/223",
+            "handle_url": "http://hdl.handle.net/1926/223"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 110,
+    "submitted_by_author": {
+        "author_email": "andinet.enqu@kitware.com",
+        "author_firstname": "Andinet",
+        "author_id": 68,
+        "author_institution": "Kitware, Inc.",
+        "author_lastname": "Enquobahrie"
+    },
+    "tags": [
+        "Registration",
+        "Segmentation",
+        "Robot",
+        "CT"
+    ],
+    "title": "Robot Assisted Needle Placement: Application developed using an open source image guided surgery toolkit (IGSTK)"
+}

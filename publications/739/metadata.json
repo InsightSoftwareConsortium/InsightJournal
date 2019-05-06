@@ -1,0 +1,78 @@
+{
+    "abstract": "The authors describe a framework for the US-guided therapeutic HIFU system for renal diseases. In particular, the HIFU system is integrated with robotic servoing capability so as to track quasi-periodically moving renal tumors and stones. The system is composed of the US imaging part, software for target detection, robot part for servoing the end-effecter, HIFU irradiation part for destroying stones and tumors, and quality assurance system for planning and maintenance of HIFU irradiations. In this paper we illustrated the overall system configurations and explained the details of each component and their integration.",
+    "authors": [
+        {
+            "author_fullname": "Seo, Joonho",
+            "author_place": 1,
+            "persona_email": "nic.seo@gmail.com",
+            "persona_firstname": "Joonho",
+            "persona_id": 2635,
+            "persona_lastname": "Seo"
+        },
+        {
+            "author_fullname": "Koizumi, Norihiro",
+            "author_place": 2,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Lee, Deukhee",
+            "author_place": 3,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Sugita, Naohiko",
+            "author_place": 4,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Yoshinaka, Kiyoshi",
+            "author_place": 5,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Nomiya, Akira",
+            "author_place": 6,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Yoichiro, Matsumoto",
+            "author_place": 7,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Mamoru, Mitsuishi",
+            "author_place": 8,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2010-08-14 07:50:44",
+    "handles": [
+        {
+            "handle": "10380/3185",
+            "handle_url": "http://hdl.handle.net/10380/3185"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 37,
+            "journal_name": "MICCAI 2010 Workshops"
+        }
+    ],
+    "publication_id": 739,
+    "submitted_by_author": {
+        "author_email": "nic.seo@gmail.com",
+        "author_firstname": "Joonho",
+        "author_id": 2635,
+        "author_institution": "The University of Tokyo",
+        "author_lastname": "Seo"
+    },
+    "tags": [
+        "Robotic HIFU",
+        "USgFUS"
+    ],
+    "title": "Framework of US-guided therapeutic HIFU system for renal diseases"
+}

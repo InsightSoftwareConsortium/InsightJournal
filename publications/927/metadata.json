@@ -1,0 +1,89 @@
+{
+    "abstract": "Within the framework of the CETUS challenge, forty-five 3D echocardiographic datasets have been acquired and segmented independently by three clinical experts from different hospitals. The goal was to generate a well-established ground truth of validated expert contours on this broad range of images from different ultrasound vendors, for a number of common pathologies. Image data were acquired and segmented according to a specifically designed protocol. Since there is no clear standard or guideline for segmentation for 3DUS, we defined a tracing consensus which results in clinically acceptable and reproducible contours. Tracing was performed in four longitudinal and five transversal 3D-derived 2D planes in ED and ES. 3D contours were constructed from these tracings. If the contours or their clinical parameters differed by more than a predefined level, the tracings were compared and the experts\nwould reach a consensus interpretation on the best segmentation. One or more experts would then adapt their tracings. Final distance differences in contours were 0.77\u00b10.18mm for the training set and 0.82\u00b10.27mmfor the testing set. For the training set, 69% of contours were retraced. For the testing set, 76% of contours were retraced. The used protocol resulted in well-established ground truth contours.",
+    "authors": [
+        {
+            "author_fullname": "Papachristidis, Alexandros",
+            "author_place": 1,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Geleijnse, Marcel L.",
+            "author_place": 2,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Galli, Elena",
+            "author_place": 3,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Heyde, Brecht",
+            "author_place": 4,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Alessandrini, Martino",
+            "author_place": 5,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Barbosa, Daniel",
+            "author_place": 6,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Monaghan, Mark J.",
+            "author_place": 7,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Bernard, Olivier",
+            "author_place": 8,
+            "persona_email": "olivier.bernard@creatis.insa-lyon.fr",
+            "persona_firstname": "Olivier",
+            "persona_id": 5768,
+            "persona_lastname": "Bernard"
+        },
+        {
+            "author_fullname": "D'hooge, Jan",
+            "author_place": 9,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Bosch, Johan G.",
+            "author_place": 10,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2014-10-24 18:45:15",
+    "handles": [
+        {
+            "handle": "10380/3480",
+            "handle_url": "http://hdl.handle.net/10380/3480"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 42,
+            "journal_name": "MICCAI 2014 Workshops"
+        }
+    ],
+    "publication_id": 927,
+    "submitted_by_author": {
+        "author_email": "olivier.bernard@creatis.insa-lyon.fr",
+        "author_firstname": "Olivier",
+        "author_id": 5768,
+        "author_institution": "CREATIS",
+        "author_lastname": "Bernard"
+    },
+    "tags": [
+        "3D ultrasound imaging",
+        "Manual reference",
+        "Segmentation"
+    ],
+    "title": "Clinical Expert Delineation of 3D Left Ventricular Echocardiograms for the CETUS Segmentation Challenge"
+}

@@ -1,0 +1,80 @@
+{
+    "abstract": "This document describes a suite of new multi-threaded classes for calculating magnetic resonance (MR) T2 and T1 parameter maps implemented using the Insight Toolkit ITK (www.itk.org). Similar to MR diffusion tensor imaging (DTI), MR T2 and T1 parameter maps provide a non-invasive means for quantitatively measuring disease or pathology in-vivo. Included in the suite are classes for reading proprietary Bruker 2dseq and Philips PAR/REC images and example programs and data for validating the new classes.",
+    "authors": [
+        {
+            "author_fullname": "Bigler, Don",
+            "author_place": 1,
+            "persona_email": "d.bigler1@gmail.com",
+            "persona_firstname": "Don",
+            "persona_id": 612,
+            "persona_lastname": "Bigler"
+        },
+        {
+            "author_fullname": "Meadowcroft, Mark",
+            "author_place": 2,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Sun, Xiaoyu",
+            "author_place": 3,
+            "persona_email": "xsunx003@odu.edu",
+            "persona_firstname": "Xiaoyan",
+            "persona_id": 3106,
+            "persona_lastname": "Sun"
+        },
+        {
+            "author_fullname": "Vesek, Jeffrey",
+            "author_place": 4,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Dresner, Alex",
+            "author_place": 5,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Smith, Michael",
+            "author_place": 6,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Yang, Qing",
+            "author_place": 7,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2008-06-03T03:24:19Z",
+    "handles": [
+        {
+            "handle": "1926/1381",
+            "handle_url": "http://hdl.handle.net/1926/1381"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 237,
+    "submitted_by_author": {
+        "author_email": "d.bigler1@gmail.com",
+        "author_firstname": "Don",
+        "author_id": 612,
+        "author_institution": "UT Southwestern Medical Center",
+        "author_lastname": "Bigler"
+    },
+    "tags": [
+        "voxel-based relaxometry",
+        "T1 parameter map",
+        "Bruker 2dseq",
+        "Philips PAR/REC",
+        "multi-threaded filter",
+        "T2 parameter map"
+    ],
+    "title": "MR Parameter Map Suite: ITK Classes for Calculating Magnetic Resonance T2 and T1 Parameter Maps"
+}

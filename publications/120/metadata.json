@@ -1,0 +1,42 @@
+{
+    "abstract": "This documents describes a set of classes to integrate digital topology in the\r\nInsight Toolkit, with an application to homotopic thinning. The skeletonization\r\nfilter implemented using our set of classes is twice as fast as BinaryThinningImageFilter\r\nand can be used on images of any dimension.",
+    "authors": [
+        {
+            "author_fullname": "Lamy, Julien",
+            "author_place": 1,
+            "persona_email": "lamy@unistra.fr",
+            "persona_firstname": "Julien",
+            "persona_id": 476,
+            "persona_lastname": "Lamy"
+        }
+    ],
+    "date_submitted": "2006-08-23T21:40:15Z",
+    "handles": [
+        {
+            "handle": "1926/304",
+            "handle_url": "http://hdl.handle.net/1926/304"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 120,
+    "submitted_by_author": {
+        "author_email": "lamy@unistra.fr",
+        "author_firstname": "Julien",
+        "author_id": 476,
+        "author_institution": "Universit\u00e9 de Strasbourg",
+        "author_lastname": "Lamy"
+    },
+    "tags": [
+        "Digital topology"
+    ],
+    "title": "Digital Topology"
+}

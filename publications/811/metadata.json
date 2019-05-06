@@ -1,0 +1,43 @@
+{
+    "abstract": "Using intensity histograms to estimate image thresholds is a long established practice in image processing and image analysis and a wide variety of techniques have been developed. Different techniques are appropriate for different intensity distributions. This article implements a number of standard techniques not currently available in\nITK.\n",
+    "authors": [
+        {
+            "author_fullname": "Beare, Richard",
+            "author_place": 1,
+            "persona_email": "richard.beare@ieee.org",
+            "persona_firstname": "Richard",
+            "persona_id": 197,
+            "persona_lastname": "Beare"
+        }
+    ],
+    "date_submitted": "2011-06-07 22:50:25",
+    "handles": [
+        {
+            "handle": "10380/3279",
+            "handle_url": "http://hdl.handle.net/10380/3279"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 811,
+    "submitted_by_author": {
+        "author_email": "richard.beare@ieee.org",
+        "author_firstname": "Richard",
+        "author_id": 197,
+        "author_institution": "Monash University",
+        "author_lastname": "Beare"
+    },
+    "tags": [
+        "threshold estimation",
+        "Histogram"
+    ],
+    "title": "Histogram-based thresholding - some missing methods"
+}

@@ -1,0 +1,52 @@
+{
+    "abstract": "The Insight Segmentation and Registration Toolkit (ITK) previously provided a framework for parsing Extensible Markup Language (XML) documents using the Simple API for XML (SAX) framework. While this programming model is memory efficient, it places most of the implementation burden on the user. We provide an implementation of the Document Object Model (DOM) framework for parsing XML documents. Using this model, user code is greatly simplified, shifting most of the implementation burden from the user to the framework. \nThe provided implementation consists of two tiers. The lower level tier provides functionality for parsing XML documents and loading the tree structure into memory. It then allows the user to query and retrieve specific entries. The upper tier uses this functionality to provide an interface for mimicking a serialization and de-serialization mechanism for ITK objects. The implementation described in this document was incorporated into ITK as part of release 4.2.",
+    "authors": [
+        {
+            "author_fullname": "Gong, Ren Hui",
+            "author_place": 2,
+            "persona_email": "rhgong@gmail.com",
+            "persona_firstname": "Ren Hui",
+            "persona_id": 6703,
+            "persona_lastname": "Gong"
+        },
+        {
+            "author_fullname": "Yaniv, Ziv",
+            "author_place": 3,
+            "persona_email": "zivy@isis.georgetown.edu",
+            "persona_firstname": "Ziv",
+            "persona_id": 201,
+            "persona_lastname": "Yaniv"
+        }
+    ],
+    "date_submitted": "2012-09-21 17:48:53",
+    "handles": [
+        {
+            "handle": "10380/3387",
+            "handle_url": "http://hdl.handle.net/10380/3387"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 879,
+    "submitted_by_author": {
+        "author_email": "rhgong@gmail.com",
+        "author_firstname": "Ren Hui",
+        "author_id": 6703,
+        "author_institution": "Childrens National Medical Center USA",
+        "author_lastname": "Gong"
+    },
+    "tags": [
+        "Document Object Model (DOM)",
+        "eXtensible Markup Language (XML)",
+        "Simple API for XML (SAX)"
+    ],
+    "title": "Document Object Model based XML Handling in ITK"
+}

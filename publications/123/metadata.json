@@ -1,0 +1,67 @@
+{
+    "abstract": "The computation speed for distance transforms becomes important in a wide variety of image processing applications. Current ITK library filters do not see any benefit from a multithreading environment. We introduce a three-dimensional signed parallel implementation of the exact Euclidean distance transform algorithm developed by Maurer et al. with a theoretical complexity of O(n/p) for n voxels and p threads. Through this parallelization and efficient use of data structures we obtain approximately 3\r\ntimes mean speedup on standard tests on a 4-processor machine compared with the current ITK exact Euclidean distance transform filter.",
+    "authors": [
+        {
+            "author_fullname": "Staubs, Robert",
+            "author_place": 1,
+            "persona_email": "rdstau@wm.edu",
+            "persona_firstname": "Robert",
+            "persona_id": 495,
+            "persona_lastname": "Staubs"
+        },
+        {
+            "author_fullname": "Fedorov, Andriy",
+            "author_place": 2,
+            "persona_email": "fedorov@bwh.harvard.edu",
+            "persona_firstname": "Andriy",
+            "persona_id": 16,
+            "persona_lastname": "Fedorov"
+        },
+        {
+            "author_fullname": "Linardakis, Leonidas",
+            "author_place": 3,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Dunton, Benjamin",
+            "author_place": 4,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Chrisochoides, Nikos",
+            "author_place": 5,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2006-09-16T09:55:22Z",
+    "handles": [
+        {
+            "handle": "1926/307",
+            "handle_url": "http://hdl.handle.net/1926/307"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 123,
+    "submitted_by_author": {
+        "author_email": "rdstau@wm.edu",
+        "author_firstname": "Robert",
+        "author_id": 495,
+        "author_institution": "College of William and Mary",
+        "author_lastname": "Staubs"
+    },
+    "tags": [
+        "distance transform",
+        "parallel distance transform",
+        "Euclidean distance transform"
+    ],
+    "title": "Parallel N-Dimensional Exact Signed Euclidean Distance Transform"
+}

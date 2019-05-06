@@ -1,0 +1,58 @@
+{
+    "abstract": "In the Digital Operating Room there is a need to support data streaming to create advanced integrated surgical assist systems. In this paper we propose a DICOM-based streaming mechanism which leverages the interoperability definitions offered by DICOM to offer a common interface to manage all kinds of streaming data sources, while allowing data and application-specific protocols and infrastructure for the actual data access. We have implemented the proposed solution within the ASTMA project and have shown that thanks to the flexibility in choosing an appropriate streaming protocol we can achieve the necessary streaming quality while transmitting the context information required to create valid DICOM instances. This approach ensures an early integration of streaming data with the rest of the imaging information providing for a simpler data workflow.",
+    "authors": [
+        {
+            "author_fullname": "Vazquez, Adrian",
+            "author_place": 1,
+            "persona_email": "adrian.vazquez@iccas.de",
+            "persona_firstname": "Adrian m.",
+            "persona_id": 2193,
+            "persona_lastname": "Vazquez"
+        },
+        {
+            "author_fullname": "Mayoral, Rafael",
+            "author_place": 2,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Burgert, Oliver",
+            "author_place": 3,
+            "persona_email": "oliver.burgert@reutlingen-university.de",
+            "persona_firstname": "Oliver",
+            "persona_id": 8050,
+            "persona_lastname": "Burgert"
+        }
+    ],
+    "date_submitted": "2009-07-10 08:14:56",
+    "handles": [
+        {
+            "handle": "10380/3071",
+            "handle_url": "http://hdl.handle.net/10380/3071"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 34,
+            "journal_name": "MICCAI 2009 Workshops"
+        }
+    ],
+    "publication_id": 647,
+    "submitted_by_author": {
+        "author_email": "adrian.vazquez@iccas.de",
+        "author_firstname": "Adrian m.",
+        "author_id": 2193,
+        "author_institution": "Innovation Center of Computer Assisted Surgery (ICCAS)",
+        "author_lastname": "Vazquez"
+    },
+    "tags": [
+        "DICOM ",
+        "ASTMA",
+        "Digital Operating Room (DOR)",
+        "Streaming "
+    ],
+    "title": "A DICOM-based streaming service for the Digital Operating Room"
+}

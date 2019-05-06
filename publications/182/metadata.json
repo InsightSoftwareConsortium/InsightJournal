@@ -1,0 +1,49 @@
+{
+    "abstract": "The original design of the ITK registration framework was based around the itk::Image class, which\r\nassumed that the pixel axes were aligned with the coordinate system axes. The itk::OrientedImage\r\nwas added later as a subclass, but problems remain with its gradient calculations. Furthermore, general\r\ncode that uses the itk::OrientedImage will suffer an unnecessary penalty when the image is oriented\r\nparallel to the image axes. We propose a new itk::FastOrientedImage class that alleviates these\r\nperformance problems, and a change to the design of itk::ImageToImageMetric that resolves the\r\ngradient issue, and adds a number of additional capacities to the image metrics",
+    "authors": [
+        {
+            "author_fullname": "Brooks, Rupert",
+            "author_place": 1,
+            "persona_email": "rupert.brooks@gmail.com",
+            "persona_firstname": "Rupert",
+            "persona_id": 171,
+            "persona_lastname": "Brooks"
+        },
+        {
+            "author_fullname": "Arbel, Tal",
+            "author_place": 2,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2007-10-12T18:51:54Z",
+    "handles": [
+        {
+            "handle": "1926/1293",
+            "handle_url": "http://hdl.handle.net/1926/1293"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 182,
+    "submitted_by_author": {
+        "author_email": "rupert.brooks@gmail.com",
+        "author_firstname": "Rupert",
+        "author_id": 171,
+        "author_institution": "Elekta LTD, Soft Tissue Imaging",
+        "author_lastname": "Brooks"
+    },
+    "tags": [
+        "Oriented image",
+        "image gradients",
+        "image registration"
+    ],
+    "title": "Improving The Oriented Image Class For Use In The Registration Framework"
+}

@@ -1,0 +1,44 @@
+{
+    "abstract": "Morphological reconstruction may be implemented in a number of\r\ndifferent ways. ITK has an iterative method and a non iterative\r\nmethod. This article compares the performance of another non iterative\r\nmethod and finds a significant improvement.",
+    "authors": [
+        {
+            "author_fullname": "Beare, Richard",
+            "author_place": 1,
+            "persona_email": "richard.beare@ieee.org",
+            "persona_firstname": "Richard",
+            "persona_id": 197,
+            "persona_lastname": "Beare"
+        }
+    ],
+    "date_submitted": "2006-02-15T01:31:01Z",
+    "handles": [
+        {
+            "handle": "1926/169",
+            "handle_url": "http://hdl.handle.net/1926/169"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 76,
+    "submitted_by_author": {
+        "author_email": "richard.beare@ieee.org",
+        "author_firstname": "Richard",
+        "author_id": 197,
+        "author_institution": "Monash University",
+        "author_lastname": "Beare"
+    },
+    "tags": [
+        "morphological reconstruction",
+        "geodesic dilation",
+        "geodesic erosion"
+    ],
+    "title": "Improving performance of morphological reconstruction"
+}

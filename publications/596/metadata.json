@@ -1,0 +1,58 @@
+{
+    "abstract": "In CT images, tumors located in a liver are generally identified by intensity difference between tumor and liver. The intensity of the tumor can be lower and or higher than that of the liver. However, the main problem of liver tumor detection from is related to low contrast between tumor and liver intensities. Tumor sometimes presents in a very small dimension and makes the detection even more difficult. In this work, we focus on contrast enhancement of CT images containing liver and tumor based on the histogram processing as a necessary preprocessing for liver tumor identification. Results show that using our proposed method, the contrast of the CT images can be enhanced and results in relatively accurate identification of tumors in the liver.",
+    "authors": [
+        {
+            "author_fullname": "Nugroho, Hanung Adi",
+            "author_place": 1,
+            "persona_email": "hanungadin@gmail.com",
+            "persona_firstname": "Hanung adi",
+            "persona_id": 889,
+            "persona_lastname": "Nugroho"
+        },
+        {
+            "author_fullname": "Ihtatho, Dani",
+            "author_place": 2,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Nugroho, Hermawan",
+            "author_place": 3,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2008-07-08T13:10:03Z",
+    "handles": [
+        {
+            "handle": "10380/1437",
+            "handle_url": "http://hdl.handle.net/10380/1437"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 45,
+            "journal_name": "MICCAI 2016 Workshops"
+        },
+        {
+            "journal_id": 33,
+            "journal_name": "MICCAI 2008 Workshops"
+        }
+    ],
+    "publication_id": 596,
+    "submitted_by_author": {
+        "author_email": "hanungadin@gmail.com",
+        "author_firstname": "Hanung adi",
+        "author_id": 889,
+        "author_institution": "Universiti Teknologi Petronas",
+        "author_lastname": "Nugroho"
+    },
+    "tags": [
+        "contrast enhancement",
+        "tumor liver",
+        "histogram processing"
+    ],
+    "title": "Contrast Enhancement for Liver Tumor Identification"
+}

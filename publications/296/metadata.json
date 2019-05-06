@@ -1,0 +1,51 @@
+{
+    "abstract": "Many image registration algorithms are formulated as optimization \r\nproblems with a gradient descent based solver, One difficulty with \r\ndesigning and implementing such methods is in the implementation of \r\nthe gradient computation. This process can be time-consuming and \r\nerror-prone. In addition some functions do not have gradients that can \r\nbe expressed in symbolic form. Automatic differentiation is useful for \r\ncomputing gradients of complicated objective functions. It moves the \r\nburden of computing gradients from the programmer to the computer. So \r\nfar, AD has not been exploited for use in image registration. This \r\npaper describes a software library the authors have developed to \r\nautomate the process of computing gradients of registration objective \r\nfunctions. This can alleviate the job of registration designers \r\nsomewhat and potentially make it easier to design better registration \r\nalgorithms.",
+    "authors": [
+        {
+            "author_fullname": "Kahn, Eliezer",
+            "author_place": 1,
+            "persona_email": "eliezer.kahn@jhuapl.edu",
+            "persona_firstname": "Eli",
+            "persona_id": 779,
+            "persona_lastname": "Kahn"
+        },
+        {
+            "author_fullname": "Staib, Lawrence",
+            "author_place": 2,
+            "persona_email": "lawrence.staib@yale.edu",
+            "persona_firstname": "Lawrence",
+            "persona_id": 27,
+            "persona_lastname": "Staib"
+        }
+    ],
+    "date_submitted": "2008-07-30T02:25:29Z",
+    "handles": [
+        {
+            "handle": "1926/1469",
+            "handle_url": "http://hdl.handle.net/1926/1469"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 296,
+    "submitted_by_author": {
+        "author_email": "eliezer.kahn@jhuapl.edu",
+        "author_firstname": "Eli",
+        "author_id": 779,
+        "author_institution": "JHUAPL",
+        "author_lastname": "Kahn"
+    },
+    "tags": [
+        "automatic differentiation",
+        "nonrigid image registration"
+    ],
+    "title": "Image Registration with Automatic Computation of Gradients"
+}

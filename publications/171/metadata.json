@@ -1,0 +1,60 @@
+{
+    "abstract": "This paper describes a new open-source tutorial for image-guided therapy (IGT) and medical robotics that is both accessible and hands-on using the LEGO Mindstorms NXT (a commercially available robotics kit) and 3D Slicer (an open-source application for medical image processing). The tutorial covers all stages of a typical IGT or medical robotics procedure, including the concepts of imaging, preoperative planning, targeting and tracking, navigation and registration, by using the LEGO robot to perform a \u201cneedle biopsy\u201d on a phantom (anatomical model) made of traditional LEGO pieces. In addition, this paper describes a C++ library that allows direct control of a LEGO Mindstorms NXT robot from a Linux computer over a USB connection.",
+    "authors": [
+        {
+            "author_fullname": "Pace, Danielle F.",
+            "author_place": 1,
+            "persona_email": "danielle.pace@kitware.com",
+            "persona_firstname": "Danielle",
+            "persona_id": 643,
+            "persona_lastname": "Pace"
+        },
+        {
+            "author_fullname": "Kikinis, Ron",
+            "author_place": 2,
+            "persona_email": "kikinis@bwh.harvard.edu",
+            "persona_firstname": "Ron",
+            "persona_id": 238,
+            "persona_lastname": "Kikinis"
+        },
+        {
+            "author_fullname": "Hata, Nobuhiko",
+            "author_place": 3,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2007-07-01T00:00:00Z",
+    "handles": [
+        {
+            "handle": "1926/567",
+            "handle_url": "http://hdl.handle.net/1926/567"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 171,
+    "submitted_by_author": {
+        "author_email": "danielle.pace@kitware.com",
+        "author_firstname": "Danielle",
+        "author_id": 643,
+        "author_institution": "Kitware Inc",
+        "author_lastname": "Pace"
+    },
+    "tags": [
+        "robotics",
+        "image-guided therapy",
+        "LEGO Mindstorms NXT",
+        "education",
+        "3D Slicer",
+        "dissemination"
+    ],
+    "title": "An accessible, hands-on tutorial system for image-guided therapy and medical robotics using a robot and open-source software"
+}

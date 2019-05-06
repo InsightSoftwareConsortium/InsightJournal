@@ -1,0 +1,68 @@
+{
+    "abstract": "Intensity inhomogeneities often occur in medical images, especially when using magnetic resonance imaging. In these images, the standard Chan-and-Vese levelset segmentation method may not work properly, as it assumes constant intensity distributions for foreground and background. Recently, a novel method was published that models the intensities as piece-wise smooth, and thus is more suitable to segment images with intensity homogeneities. However, this method was not yet implemented in ITK. This submission introduces our implementation of the region-scalable-fitting levelset segmentation method within the ITKv4 levelset framework.\n",
+    "authors": [
+        {
+            "author_fullname": "Van Walsum, Theo",
+            "author_place": 5,
+            "persona_email": "t.vanwalsum@erasmusmc.nl",
+            "persona_firstname": "Theo",
+            "persona_id": 874,
+            "persona_lastname": "van Walsum"
+        },
+        {
+            "author_fullname": "Tang, Hui",
+            "author_place": 2,
+            "persona_email": "tanghui.seu@gmail.com",
+            "persona_firstname": "Hui",
+            "persona_id": 6428,
+            "persona_lastname": "Tang"
+        },
+        {
+            "author_fullname": "Hameeteman, Reinhard",
+            "author_place": 3,
+            "persona_email": "Reinhard@Hameeteman.net",
+            "persona_firstname": "Reinhard",
+            "persona_id": 2164,
+            "persona_lastname": "Hameeteman"
+        },
+        {
+            "author_fullname": "Gelas, Arnaud",
+            "author_place": 4,
+            "persona_email": "arnaudgelas@gmail.com",
+            "persona_firstname": "Arnaud",
+            "persona_id": 7896,
+            "persona_lastname": "Gelas"
+        }
+    ],
+    "date_submitted": "2012-08-22 10:21:05",
+    "handles": [
+        {
+            "handle": "10380/3383",
+            "handle_url": "http://hdl.handle.net/10380/3383"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 877,
+    "submitted_by_author": {
+        "author_email": "tanghui.seu@gmail.com",
+        "author_firstname": "Hui",
+        "author_id": 6428,
+        "author_institution": "Delft University of Technology",
+        "author_lastname": "Tang"
+    },
+    "tags": [
+        "levelsets",
+        "intensity inhomogeneity",
+        "piecewise smooth"
+    ],
+    "title": "An implementation of the minimization of region-scalable fitting energy levelsets"
+}

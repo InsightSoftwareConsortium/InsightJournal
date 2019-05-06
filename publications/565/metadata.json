@@ -1,0 +1,91 @@
+{
+    "abstract": "The elastic registration of medical scans from different acquisition sequences is becoming an important topic for many research labs that would like to continue the post-processing of medical scans acquired via the new generation of high-field-strength scanners. In this note, we present a parameter-free registration algorithm that is well suited for this scenario as it requires no tuning to specific acquisition sequences. The algorithm encompasses a new numerical scheme for computing elastic registration maps based on the minimizing flow approach to optimal mass transport. The approach utilizes all of the gray-scale data in both images, and the optimal mapping from image A to image B is the inverse of the optimal mapping from B to A. Further, no landmarks need to be specified, and the minimizer of the distance functional involved is unique. We apply the algorithm to register the white matter folds of two different scans and use the results to parcellate the cortex of the target image. To the best of our knowledge, this is the first time that the optimal mass transport function has been applied to register large 3D multimodal data sets.",
+    "authors": [
+        {
+            "author_fullname": "Wald, Lawrence",
+            "author_place": 7,
+            "persona_email": "wald@nmr.mgh.harvard.edu",
+            "persona_id": 183,
+            "persona_lastname": "Wald"
+        },
+        {
+            "author_fullname": "Kikinis, Ron",
+            "author_place": 8,
+            "persona_email": "kikinis@bwh.harvard.edu",
+            "persona_firstname": "Ron",
+            "persona_id": 238,
+            "persona_lastname": "Kikinis"
+        },
+        {
+            "author_fullname": "Tannenbaum, Allen",
+            "author_place": 9,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Rehman, Tauseef",
+            "author_place": 1,
+            "persona_email": "tauseef@ece.gatech.edu",
+            "persona_firstname": "Tauseef",
+            "persona_id": 831,
+            "persona_lastname": "Rehman"
+        },
+        {
+            "author_fullname": "Haber, Eldad",
+            "author_place": 2,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Pohl, Kilian",
+            "author_place": 3,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Haker, Steven",
+            "author_place": 4,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Halle, Mike",
+            "author_place": 5,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Talos, Florin",
+            "author_place": 6,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2008-05-31T21:08:06Z",
+    "handles": [
+        {
+            "handle": "10380/1380",
+            "handle_url": "http://hdl.handle.net/10380/1380"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 33,
+            "journal_name": "MICCAI 2008 Workshops"
+        }
+    ],
+    "publication_id": 565,
+    "submitted_by_author": {
+        "author_email": "tauseef@ece.gatech.edu",
+        "author_firstname": "Tauseef",
+        "author_id": 831,
+        "author_institution": "Georgia Institute of Technology, USA",
+        "author_lastname": "Rehman"
+    },
+    "tags": [
+        "Monge Kantorovich",
+        "Variational Methods",
+        "Fluid Mechanics",
+        "Optimal Mass Transport",
+        "Registration"
+    ],
+    "title": "Multimodal Registration of White Matter Brain Data via Optimal Mass Transport"
+}

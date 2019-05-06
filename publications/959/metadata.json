@@ -1,0 +1,72 @@
+{
+    "abstract": "Diff\u000buse Reflectance Spectroscopy (DRS) is a leading technique for the detection of head and neck cancers. It can capture information regarding tissue absorption and scattering. In this research work, we propose a novel method for the identification of normal and Squamous Cell Carcinoma (SCC) mucosa tissues using the Bag Of Words (BOW) approach. The study included 70 spectra from normal mucosa tissue sites and 70 spectra from SCC mucosa tissue sites. First, the spectra are preprocessed by extracting the useful wavelength range, denoising and reducing the inter and intra patient variability. Subsequently, features are extracted from each spectrum by continuously sliding a window with a predefined length along each spectrum to extract a group of local segments. Discrete Wavelet transform (DWT) is then employed for each segment. Next, we construct the codebook to represent each spectrum by a histogram of codewords at which each bin in the histogram is a count of a codeword appeared in the spectrum. Finally, the histogram representation is used as input for classification. The maximum accuracy reported is 94.28% with sensitivity and specificity of 91.42% and 97.14% respectively.",
+    "authors": [
+        {
+            "author_fullname": "Karam Eldaly, Ahmed",
+            "author_place": 1,
+            "persona_email": "ahmed.karam@h-eng.helwan.edu.eg",
+            "persona_firstname": "Ahmed",
+            "persona_id": 9641,
+            "persona_lastname": "Karam Eldaly"
+        },
+        {
+            "author_fullname": "Benezeth, Yannick",
+            "author_place": 2,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Flaus, Virginie",
+            "author_place": 3,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Duvillard, Christian",
+            "author_place": 4,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Bozorg Grayeli, Alexis",
+            "author_place": 5,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Marzani, Franck",
+            "author_place": 6,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2015-09-30 11:50:03",
+    "handles": [
+        {
+            "handle": "10380/3524",
+            "handle_url": "http://hdl.handle.net/10380/3524"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 44,
+            "journal_name": "MICCAI 2015 Workshops"
+        }
+    ],
+    "publication_id": 959,
+    "submitted_by_author": {
+        "author_email": "ahmed.karam@h-eng.helwan.edu.eg",
+        "author_firstname": "Ahmed",
+        "author_id": 9641,
+        "author_institution": "Heriot-Watt University",
+        "author_lastname": "Karam Eldaly"
+    },
+    "tags": [
+        "Di\u000buse re ectance spectroscopy",
+        "Classification",
+        "Head and neck squamous cell carcinoma",
+        "Codebook",
+        "Bag of words",
+        "Clustering"
+    ],
+    "title": "The Bag of Words Approach for the Classification of Head and Neck Cancers Using Diffuse Reflectance Spectroscopy"
+}

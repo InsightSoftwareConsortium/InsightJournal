@@ -1,0 +1,75 @@
+{
+    "abstract": "The segmentation of left ventricular structures is necessary for the evaluation of the ejection fraction (EF) and the myocardial mass (LVM). A semi-automated 2D algorithm using connected filters and a deformable model allowing an accurate endocardial detection was proposed. The epicardial border was deduced using a deformable model restricted inside a region of interest defined from the endocardial border. Papillary muscles were detected using a fuzzy k-means algorithm. The method was applied to the challenge training and validation databases, consisting of 15 subjects each. The evaluation was performed using the tools provided by the challenge. For both datasets, results show a mean Dice metric of 0.89 for endocardial borders (0.92 for epicardial borders). Overall average perpendicular distance was 2.2 mm. Very good correlation was obtained for the EF and LVM parameters. Visual overall rating given by the challenge\u2019s cardiologist was 1.2. Segmentation was robust and performed successfully on both datasets. ",
+    "authors": [
+        {
+            "author_fullname": "Constantinides, Constantin",
+            "author_place": 1,
+            "persona_email": "cconstan@imed.jussieu.fr",
+            "persona_firstname": "Constantin",
+            "persona_id": 2200,
+            "persona_lastname": "Constantinides"
+        },
+        {
+            "author_fullname": "Chenoune, Yasmina",
+            "author_place": 2,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Kachenoura, Nadjia",
+            "author_place": 3,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Roullot, Elodie",
+            "author_place": 4,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Mousseaux, Elie",
+            "author_place": 5,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Herment, Alain",
+            "author_place": 6,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Frouin, Frederique",
+            "author_place": 7,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2009-07-26 19:08:40",
+    "handles": [
+        {
+            "handle": "10380/3108",
+            "handle_url": "http://hdl.handle.net/10380/3108"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 34,
+            "journal_name": "MICCAI 2009 Workshops"
+        }
+    ],
+    "publication_id": 678,
+    "submitted_by_author": {
+        "author_email": "cconstan@imed.jussieu.fr",
+        "author_firstname": "Constantin",
+        "author_id": 2200,
+        "author_institution": "Inserm",
+        "author_lastname": "Constantinides"
+    },
+    "tags": [
+        "evaluation",
+        "segmentation",
+        "deformation models",
+        "cine MRI"
+    ],
+    "title": "Semi-automated cardiac segmentation on cine magnetic resonance images using GVF-Snake deformable models"
+}

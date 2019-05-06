@@ -1,0 +1,43 @@
+{
+    "abstract": "Registration of multiple MR sequences remains a challenging problem. The Insight Toolkit (ITK) implements the Mattes\u2019 mutual information metric for multimodality registration. Here, example source code, data, and executable files to implement the Mattes\u2019 mutual information metric in ITK are provided. Multiple MR sequences of the knee are used as example images. This serves as a companion manuscript for a permanent archive of the source code, executable file and example data and results. ",
+    "authors": [
+        {
+            "author_fullname": "Urish, Kenneth",
+            "author_place": 1,
+            "persona_email": "ken.urish@gmail.com",
+            "persona_firstname": "Kenneth",
+            "persona_id": 55,
+            "persona_lastname": "Urish"
+        }
+    ],
+    "date_submitted": "2012-05-09 11:30:34",
+    "handles": [
+        {
+            "handle": "10380/3355",
+            "handle_url": "http://hdl.handle.net/10380/3355"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 861,
+    "submitted_by_author": {
+        "author_email": "ken.urish@gmail.com",
+        "author_firstname": "Kenneth",
+        "author_id": 55,
+        "author_institution": "Univeristy of Pittsburgh",
+        "author_lastname": "Urish"
+    },
+    "tags": [
+        "Registration",
+        "Mattes Mutual Information Metric"
+    ],
+    "title": "Mattes\u2019 Mutual Information Metric for Multimodality Registration of DESS and T2 Mapped Knee Articular MR Sequences"
+}

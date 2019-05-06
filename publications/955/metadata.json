@@ -1,0 +1,54 @@
+{
+    "abstract": "This document describes the derivation of the mixture models commonly used in the literature to describe the probabilistic nature of speckle: The Gaussian Mixture Model, the Rayleigh Mixture Model, the Gamma Mixture Model and the Generalized Gamma Mixture Model. New algorithms were implemented using the Insight Toolkit\nITK for tissue characterization by means of a mixture model. \nThe source code is composed of a set of reusable ITK filters and classes. In addition to an overview of our implementation, we provide the source code, input data, parameters and output data that the authors used for validating the different probabilistic tissue characterization variants described in this paper. This adheres to the fundamental principle that scientific publications must facilitate reproducibility of the reported results.",
+    "authors": [
+        {
+            "author_fullname": "Aja-Fern\u00e1ndez, Santiago",
+            "author_place": 3,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Curiale, Ariel Hern\u00e1n",
+            "author_place": 1,
+            "persona_email": "curiale@gmail.com",
+            "persona_firstname": "Ariel Hern\u00e1n",
+            "persona_id": 6521,
+            "persona_lastname": "Curiale"
+        },
+        {
+            "author_fullname": "Vegas-S\u00e1nchez-Ferrero, Gonzalo",
+            "author_place": 2,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2015-05-27 06:10:19",
+    "handles": [
+        {
+            "handle": "10380/3517",
+            "handle_url": "http://hdl.handle.net/10380/3517"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 955,
+    "submitted_by_author": {
+        "author_email": "curiale@gmail.com",
+        "author_firstname": "Ariel Hern\u00e1n",
+        "author_id": 6521,
+        "author_institution": "ETSI de Telecomunicaci\u00f3n, Universidad de Valladolid, Spain",
+        "author_lastname": "Curiale"
+    },
+    "tags": [
+        "Mixture Model",
+        "Tissue Characterization",
+        "Ultrasound"
+    ],
+    "title": "Probabilistic Tissue Characterization for Ultrasound Images"
+}

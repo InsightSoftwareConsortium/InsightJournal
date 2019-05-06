@@ -1,0 +1,73 @@
+{
+    "abstract": "medInria is a free medical imaging software developed at Inria, which aims at \nproviding clinicians with state-of-the-art algorithms dedicated to medical image\nprocessing and visualization. Efforts have been made to simplify the user \ninterface, while keeping high-level algorithms. In this particular article,\nwe will concentrate on its use in preoperative preparation for cardiac\ninterventions, and how we handle the difficulties arising from the lack of standard\nformat for data types such as meshes or fibers, the absence of a common\nprogramming interface for data processing algorithms, notably registration, and\nthe issues of visualisation where display conventions would be beneficial.",
+    "authors": [
+        {
+            "author_fullname": "Vichot, Florian",
+            "author_place": 1,
+            "persona_email": "florian.vichot@inria.fr",
+            "persona_firstname": "Florian",
+            "persona_id": 6385,
+            "persona_lastname": "Vichot"
+        },
+        {
+            "author_fullname": "Cochet, Hubert",
+            "author_place": 2,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Bleuz\u00e9, Beno\u00eet",
+            "author_place": 3,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Toussaint, Nicolas",
+            "author_place": 4,
+            "persona_email": "nicolas.toussaint@kcl.ac.uk",
+            "persona_firstname": "Nicolas",
+            "persona_id": 2608,
+            "persona_lastname": "Toussaint"
+        },
+        {
+            "author_fullname": "Ja\u00efs, Pierre",
+            "author_place": 5,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Sermesant, Maxime",
+            "author_place": 6,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2012-08-14 13:20:59",
+    "handles": [
+        {
+            "handle": "10380/3361",
+            "handle_url": "http://hdl.handle.net/10380/3361"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 40,
+            "journal_name": "MICCAI 2012 Workshops"
+        }
+    ],
+    "publication_id": 863,
+    "submitted_by_author": {
+        "author_email": "florian.vichot@inria.fr",
+        "author_firstname": "Florian",
+        "author_id": 6385,
+        "author_institution": "INRIA",
+        "author_lastname": "Vichot"
+    },
+    "tags": [
+        "Standards",
+        "Data Formats",
+        "Registration",
+        "Visualisation"
+    ],
+    "title": "Cardiac Interventional Guidance using Multimodal Data Processing and Visualisation: medInria as an Interoperability Platform"
+}

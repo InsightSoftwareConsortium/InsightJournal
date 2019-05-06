@@ -1,0 +1,59 @@
+{
+    "abstract": "The University of Iowa\u2019s Psychiatric Iowa Neuroimaging Consortium (PINC) has developed a program for mutual information registration of 3D brain imaging data using ITK classes, called BRAINSFit. We have written a helper class, itk::MultiModal3DMutualRegistrationHelper to simplify implementation and testing of different transform representations and optimizers. We have added a transform meeting the ITK standard, itk::ScaleVersor3DTransform. BRAINSFit is based on the registration examples from ITK, but adds new features, including the ability to employ different transform representations and optimization functions. \r\nOur goal was to determine best practices for registering 3D rigid multimodal MRI of the human brain. A version of the current program is employed here at PINC daily for automated processing of acquired brain images.\r\n\r\nThis project is managed on the NITRC site. http://www.nitrc.org/projects/multimodereg/\r\n\r\nOn the NITRC website, you can acquire the latest source code via SVN, or by downloading a compressed file which is generated every night. Binary versions are also available.\r\n",
+    "authors": [
+        {
+            "author_fullname": "Harris, Gregory",
+            "author_place": 2,
+            "persona_email": "gregory-harris@uiowa.edu",
+            "persona_firstname": "Greg",
+            "persona_id": 199,
+            "persona_lastname": "Harris"
+        },
+        {
+            "author_fullname": "Williams, Kent",
+            "author_place": 3,
+            "persona_email": "norman-k-williams@uiowa.edu",
+            "persona_firstname": "Kent",
+            "persona_id": 150,
+            "persona_lastname": "Williams"
+        },
+        {
+            "author_fullname": "Johnson, Hans J",
+            "author_place": 1,
+            "persona_email": "hans-johnson@uiowa.edu",
+            "persona_firstname": "Hans",
+            "persona_id": 21,
+            "persona_lastname": "Johnson"
+        }
+    ],
+    "date_submitted": "2007-10-05T15:22:51Z",
+    "handles": [
+        {
+            "handle": "1926/1291",
+            "handle_url": "http://hdl.handle.net/1926/1291"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 180,
+    "submitted_by_author": {
+        "author_email": "norman-k-williams@uiowa.edu",
+        "author_firstname": "Kent",
+        "author_id": 150,
+        "author_institution": "university of iowa",
+        "author_lastname": "Williams"
+    },
+    "tags": [
+        "Mutual Information",
+        "Registration"
+    ],
+    "title": "BRAINSFit: Mutual Information Registrations of Whole-Brain 3D Images, Using the Insight Toolkit"
+}

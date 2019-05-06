@@ -1,0 +1,58 @@
+{
+    "abstract": "The arterial lumen is modeled by a spatially continuous right generalized cylinder with piece-wise constant parameters. The method is the identifies the parameters of each cylinder piece from a series of planar contours extracted along an approximate axis of the artery. This curve is defined by a minimal path between the artery end-points. The contours are extracted by use of a 2D Fast Marching algorithm. The identification of the axial parameters is based on a geometrical analogy with piece-wise helical curves, while the identification of the surface parameters uses the Fourier series decomposition of the contours. Thus identified parameters are used as observations in a Kalman optimal estimation scheme that manages the spatial consistency from each piece to another. The method was was evaluated on 15 training and 31 testing datasets from the MICCAI 3D Segmentation in the Clinic Grand Challenge: Carotid Bifurcation Lumen Segmentation and Stenosis Grading (http://cls2009.bigr.nl/).",
+    "authors": [
+        {
+            "author_fullname": "Fl\u00f3rez Valencia, Leonardo",
+            "author_place": 1,
+            "persona_email": "florez-l@javeriana.edu.co",
+            "persona_firstname": "Leonardo",
+            "persona_id": 2230,
+            "persona_lastname": "Fl\u00f3rez valencia"
+        },
+        {
+            "author_fullname": "Azencot, Jacques",
+            "author_place": 2,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Orkisz, Maciej",
+            "author_place": 3,
+            "persona_email": "maciejorkisz@gmail.com",
+            "persona_firstname": "Maciej",
+            "persona_id": 879,
+            "persona_lastname": "Orkisz"
+        }
+    ],
+    "date_submitted": "2009-08-01 16:37:26",
+    "handles": [
+        {
+            "handle": "10380/3106",
+            "handle_url": "http://hdl.handle.net/10380/3106"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 34,
+            "journal_name": "MICCAI 2009 Workshops"
+        }
+    ],
+    "publication_id": 675,
+    "submitted_by_author": {
+        "author_email": "florez-l@javeriana.edu.co",
+        "author_firstname": "Leonardo",
+        "author_id": 2230,
+        "author_institution": "Pontificia Universidad Javeriana",
+        "author_lastname": "Fl\u00f3rez valencia"
+    },
+    "tags": [
+        "image segmentation",
+        "geometric modeling",
+        "blood vessels",
+        "generalized cylinders"
+    ],
+    "title": "Carotid arteries segmentation in CT images with use of a right generalized cylinder model"
+}

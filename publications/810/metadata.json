@@ -1,0 +1,61 @@
+{
+    "abstract": "We have integrated the Philips Research robot arm with the Johns Hopkins cisst library, an open-source platform for computer assisted surgical intervention, for assistance during minimally invasive cardiac surgery using image-based steering of an endoscope. The development of a Matlab to C++ wrapper to abstract away servo-level details facilitates the rapid development of a component-based framework with \u201cplug and play\u201d features. This allows the user to easily exchange the robot with an alternative manipulator while maintaining the same overall functionality.",
+    "authors": [
+        {
+            "author_fullname": "Young, Jessie",
+            "author_place": 1,
+            "persona_email": "jyoung73@jhu.edu",
+            "persona_firstname": "Jessie",
+            "persona_id": 3135,
+            "persona_lastname": "Young"
+        },
+        {
+            "author_fullname": "Elhawary, Haytham",
+            "author_place": 2,
+            "persona_email": "haytham.elhawary@philips.com",
+            "persona_firstname": "Haytham",
+            "persona_id": 3150,
+            "persona_lastname": "Elhawary"
+        },
+        {
+            "author_fullname": "Popovic, Aleksandra",
+            "author_place": 3,
+            "persona_email": "popovic@hia.rwth-aachen.de",
+            "persona_firstname": "Aleksandra",
+            "persona_id": 50,
+            "persona_lastname": "Popovic"
+        }
+    ],
+    "date_submitted": "2011-07-22 00:17:47",
+    "handles": [
+        {
+            "handle": "10380/3277",
+            "handle_url": "http://hdl.handle.net/10380/3277"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 38,
+            "journal_name": "MICCAI 2011 Workshops"
+        }
+    ],
+    "publication_id": 810,
+    "submitted_by_author": {
+        "author_email": "jyoung73@jhu.edu",
+        "author_firstname": "Jessie",
+        "author_id": 3135,
+        "author_institution": "Johns Hopkins University ",
+        "author_lastname": "Young"
+    },
+    "tags": [
+        "minimally-invasive surgery",
+        "cisst",
+        "surgical assistant workstation",
+        "component based software engineering"
+    ],
+    "title": "Integration of a Robotic Endoscope Holder with the Surgical Assistant Workstation Software Framework"
+}

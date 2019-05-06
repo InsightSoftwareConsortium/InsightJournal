@@ -1,0 +1,65 @@
+{
+    "abstract": "Surgical repair of the mitral valve results in better\r\noutcomes than valve replacement, yet diseased valves\r\nare often replaced due to the technical difficulty of the\r\nrepair process. A surgical planning system based on\r\npatient-specific medical images that allows surgeons to\r\nsimulate and compare potential repair strategies could\r\ngreatly improve surgical outcomes. The system must\r\nsimulate valve closure quickly and handle the complex\r\nboundary conditions imposed by the chords that tether\r\nthe valve leaflets. We have developed a process for\r\ngenerating a triangulated mesh of the valve surface\r\nfrom volumetric image data of the opened valve. The\r\nclosed position of the mesh is then computed using a\r\nmass-spring model of dynamics. In the mass-spring\r\nmodel, triangle sides are treated as linear springs\r\nsupporting only tension. Chords are also treated as\r\nlinear springs, and self-collisions are detected and\r\nhandled inelastically. The equations of motion are\r\nsolved using implicit numerical integration. The\r\nsimulated closed state is compared with an image of the\r\nsame valve taken in the closed state to assess accuracy\r\nof the model. The model exhibits rapid valve closure\r\nand is able to predict the closed state of the valve with\r\nreasonable accuracy.",
+    "authors": [
+        {
+            "author_fullname": "Hammer, Peter",
+            "author_place": 1,
+            "persona_email": "peter.hammer@childrens.harvard.edu",
+            "persona_firstname": "Peter",
+            "persona_id": 851,
+            "persona_lastname": "Hammer"
+        },
+        {
+            "author_fullname": "Vasilyev, Nikolay",
+            "author_place": 2,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Perrin, Douglas",
+            "author_place": 3,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "del Nido, Pedro",
+            "author_place": 4,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Howe, Robert",
+            "author_place": 5,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2008-05-31",
+    "handles": [
+        {
+            "handle": "10380/1379",
+            "handle_url": "http://hdl.handle.net/10380/1379"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 33,
+            "journal_name": "MICCAI 2008 Workshops"
+        }
+    ],
+    "publication_id": 564,
+    "submitted_by_author": {
+        "author_email": "peter.hammer@childrens.harvard.edu",
+        "author_firstname": "Peter",
+        "author_id": 851,
+        "author_institution": "Children's Hospital, Boston, MA",
+        "author_lastname": "Hammer"
+    },
+    "tags": [
+        "simulation",
+        "mitral valve",
+        "mass-spring model",
+        "surgical planning"
+    ],
+    "title": "Fast image-based model of mitral valve closure for surgical planning"
+}

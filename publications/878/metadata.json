@@ -1,0 +1,48 @@
+{
+    "abstract": "This document describes a contribution to the Insight Toolkit intended to support the analysis of the principal components of data sets, optionally point data associated with the vertices of a mesh.\nThis paper is accompanied with the source code, input data, parameters and output data that we used for validating the implementation described in this paper. This adheres to the fundamental principle that scientific publications must facilitate reproducibility of the reported results.",
+    "authors": [
+        {
+            "author_fullname": "Bowers, Michael",
+            "author_place": 2,
+            "persona_email": "michaelbowersjhu@gmail.com",
+            "persona_firstname": "Michael",
+            "persona_id": 2380,
+            "persona_lastname": "Bowers"
+        },
+        {
+            "author_fullname": "Younes, Laurent",
+            "author_place": 3,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2013-08-05 17:32:53",
+    "handles": [
+        {
+            "handle": "10380/3386",
+            "handle_url": "http://hdl.handle.net/10380/3386"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 878,
+    "submitted_by_author": {
+        "author_email": "michaelbowersjhu@gmail.com",
+        "author_firstname": "Michael",
+        "author_id": 2380,
+        "author_institution": "Johns Hopkins",
+        "author_lastname": "Bowers"
+    },
+    "tags": [
+        "PCA",
+        "Principal Components Analysis"
+    ],
+    "title": "Principal Components Analysis of Scalar, Vector, and Mesh Vertex Data"
+}

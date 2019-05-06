@@ -1,0 +1,53 @@
+{
+    "abstract": "The process of outlining organs on three dimensional medical images is extremely time-consuming. In this document, we describe a new tool that can interpolate contours and also make them smooth. The tool uses geodesic snakes to perform these functions. The implementation uses The Insight Toolkit and\r\nthe implementation of geodesic snakes that comes with SNAP.",
+    "authors": [
+        {
+            "author_fullname": "Saboo, Rohit",
+            "author_place": 1,
+            "persona_email": "rohit@cs.unc.edu",
+            "persona_firstname": "Rohit",
+            "persona_id": 389,
+            "persona_lastname": "Saboo"
+        },
+        {
+            "author_fullname": "Julian, Rosenman",
+            "author_place": 2,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Stephen, Pizer",
+            "author_place": 3,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2006-07-02T02:33:33Z",
+    "handles": [
+        {
+            "handle": "1926/212",
+            "handle_url": "http://hdl.handle.net/1926/212"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 100,
+    "submitted_by_author": {
+        "author_email": "rohit@cs.unc.edu",
+        "author_firstname": "Rohit",
+        "author_id": 389,
+        "author_institution": "UNC Chapel Hill",
+        "author_lastname": "Saboo"
+    },
+    "tags": [
+        "Geodesic Snakes",
+        "Interpolation"
+    ],
+    "title": "GeoInterp: Contour Interpolation with Geodesic Snakes\r\nGeodesic Snakes"
+}

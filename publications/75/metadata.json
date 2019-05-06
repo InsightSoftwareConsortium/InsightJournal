@@ -1,0 +1,43 @@
+{
+    "abstract": "The report details some modifications made to the ITK\r\n{\\em ConnectedComponentImageFilter} in an attempt to improve\r\nperformance. Some interesting observations were made during this\r\nprocess. A new filter using a different algorithm to perform the same\r\nfunction is also described and improved performance demonstrated.",
+    "authors": [
+        {
+            "author_fullname": "Beare, Richard",
+            "author_place": 1,
+            "persona_email": "richard.beare@ieee.org",
+            "persona_firstname": "Richard",
+            "persona_id": 197,
+            "persona_lastname": "Beare"
+        }
+    ],
+    "date_submitted": "2006-02-15T01:06:35Z",
+    "handles": [
+        {
+            "handle": "1926/168",
+            "handle_url": "http://hdl.handle.net/1926/168"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 75,
+    "submitted_by_author": {
+        "author_email": "richard.beare@ieee.org",
+        "author_firstname": "Richard",
+        "author_id": 197,
+        "author_institution": "Monash University",
+        "author_lastname": "Beare"
+    },
+    "tags": [
+        "labelling",
+        "connected component"
+    ],
+    "title": "Optimization of connected component labelling"
+}

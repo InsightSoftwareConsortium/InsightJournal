@@ -1,0 +1,58 @@
+{
+    "abstract": "An Insight Toolkit (ITK) filter for image segmentation with\r\napplications to brain MRI scans is presented in this paper. Previously, we\r\nshowed how ITK could be used to implement our algorithm. This paper\r\npresents our new ITK filter for Bayesian segmentation along with results\r\non brain MRI scans. Our algorithm is a refinement of the work of Teo,\r\nSaprio, and Wandall. The basic idea is to incorporate prior knowledge\r\ninto the segmentation through Bayes rule. Image noise is removed via an\r\naffine invariant anisotropic smoothing of the posteriors as in Haker et. al.\r\nSpecifically, we present the implementation of our Bayesian segmentation\r\nalgorithm applied to brain MRI scans.",
+    "authors": [
+        {
+            "author_fullname": "Melonakos, John",
+            "author_place": 1,
+            "persona_email": "jmelonak@ece.gatech.edu",
+            "persona_firstname": "John",
+            "persona_id": 37,
+            "persona_lastname": "Melonakos"
+        },
+        {
+            "author_fullname": "Krishnan, Karthik",
+            "author_place": 2,
+            "persona_email": "karthik.krshnan@gmail.com",
+            "persona_firstname": "Karthik",
+            "persona_id": 132,
+            "persona_lastname": "Krishnan"
+        },
+        {
+            "author_fullname": "Tannenbaum, Allen",
+            "author_place": 3,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2006-01-09T16:14:37Z",
+    "handles": [
+        {
+            "handle": "1926/160",
+            "handle_url": "http://hdl.handle.net/1926/160"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 69,
+    "submitted_by_author": {
+        "author_email": "jmelonak@ece.gatech.edu",
+        "author_firstname": "John",
+        "author_id": 37,
+        "author_institution": "Georgia Tech",
+        "author_lastname": "Melonakos"
+    },
+    "tags": [
+        "Segmentation",
+        "ITK",
+        "Brains",
+        "Bayesian"
+    ],
+    "title": "An ITK Filter for Bayesian Segmentation: itkBayesianClassifierImageFilter"
+}

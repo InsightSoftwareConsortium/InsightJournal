@@ -1,0 +1,58 @@
+{
+    "abstract": "The \\emph{Delaunay triangulation} is the triangulation of a set of points which maximizes the minimum angle of all angles of the triangles, and thus triangle aspect ratios. So converting a non Delaunay triangulation into a Delaunay triangulation, \\emph{Delaunay conforming}, improves the all triangle aspect ratios and avoid elongated triangles. Note that combining this filter with usual operations like smoothing will provide a better approximation and a better distribution a triangle aspect ratios. Here this document describes a new filter based on the $n$D $2$-manifold mesh data structure available in itk: \\code{itk::QuadEdgeMesh}~\\cite{itkQE} to produce (planar or surfacic) Delaunay triangulation from any non-Delaunay triangulation by edge flipping, by implementing the edge flipping method decribed in~\\cite{Dyer2007sgp}.",
+    "authors": [
+        {
+            "author_fullname": "Gelas, Arnaud",
+            "author_place": 1,
+            "persona_email": "arnaudgelas@gmail.com",
+            "persona_firstname": "Arnaud",
+            "persona_id": 7896,
+            "persona_lastname": "Gelas"
+        },
+        {
+            "author_fullname": "Gouaillard, Alexandre",
+            "author_place": 2,
+            "persona_email": "agouaillard@gmail.com",
+            "persona_firstname": "Alexandre",
+            "persona_id": 322,
+            "persona_lastname": "Gouaillard"
+        },
+        {
+            "author_fullname": "Megason, Sean",
+            "author_place": 3,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2008-08-05T16:40:20Z",
+    "handles": [
+        {
+            "handle": "1926/1489",
+            "handle_url": "http://hdl.handle.net/1926/1489"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 299,
+    "submitted_by_author": {
+        "author_email": null,
+        "author_firstname": null,
+        "author_id": null,
+        "author_institution": "Harvard Medical School",
+        "author_lastname": null
+    },
+    "tags": [
+        "triangular mesh",
+        "edge flipping",
+        "conformation",
+        "Delaunay"
+    ],
+    "title": "Triangular Meshes Delaunay Conforming Filter"
+}

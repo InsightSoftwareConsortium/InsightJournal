@@ -1,0 +1,81 @@
+{
+    "abstract": "Meaningful physical models are important for studying cardiac physiology, such as quantitative assessments of pathology via changes in model parameters, and recovering information from medical images. In order to achieve realistic deformation studies, an anatomically accurate cardiac model under the prolate spheroidal coordinate system has been proposed, which comprises the pole-zero constitutive law characterized by 18 material parameters. Nevertheless, the large number of parameters and the complicated mathematics under the curvilinear coordinate system make it difficult to implement and computationally expensive. In consequence, we propose a cardiac model under the cartesian coordinate system comprising the Costa law, which is tailored for medical image analysis. The Costa law is characterized by a strain energy function with only seven material parameters, but has been reported as the best among the five tested well-known models in a comparative study, including the pole-zero law. In our framework, the penalty method for material incompressibility is used to avoid introduction of extra variables. Furthermore, we introduce a simple but novel boundary condition for enforcing cardiac specific boundary displacements under the cartesian coordinate system. With the active stresses provided by cardiac electromechanical models, and also the blood pressures acting as the natural boundary conditions on the endocardial surfaces, the physiologically plausible active deformation of the heart can be simulated. Experiments have been done on a cubical object to verify the correctness of the implementation, and also on a canine heart architecture to show the physiological plausibility of the cardiac model.",
+    "authors": [
+        {
+            "author_fullname": "Wong, Ken C.L.",
+            "author_place": 1,
+            "persona_email": "kenclwong@mail.rit.edu",
+            "persona_firstname": "Ken c. l.",
+            "persona_id": 836,
+            "persona_lastname": "Wong"
+        },
+        {
+            "author_fullname": "Wang, Linwei",
+            "author_place": 2,
+            "persona_email": "maomaowlw@mail.rit.edu",
+            "persona_firstname": "Linwei",
+            "persona_id": 868,
+            "persona_lastname": "Wang"
+        },
+        {
+            "author_fullname": "Wang, Linwei",
+            "author_place": 2,
+            "persona_email": "li_wang@med.unc.edu",
+            "persona_firstname": "Li",
+            "persona_id": 9407,
+            "persona_lastname": "Wang"
+        },
+        {
+            "author_fullname": "Zhang, Heye",
+            "author_place": 3,
+            "persona_email": "heye.zhang@auckland.ac.nz",
+            "persona_firstname": "Heye",
+            "persona_id": 894,
+            "persona_lastname": "Zhang"
+        },
+        {
+            "author_fullname": "Liu, Huafeng",
+            "author_place": 4,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Shi, Pengcheng",
+            "author_place": 5,
+            "persona_email": "shi_p_p@yeah.net",
+            "persona_firstname": "Pengpeng",
+            "persona_id": 9535,
+            "persona_lastname": "Shi"
+        }
+    ],
+    "date_submitted": "2008-05-21T21:31:44Z",
+    "handles": [
+        {
+            "handle": "10380/1368",
+            "handle_url": "http://hdl.handle.net/10380/1368"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 33,
+            "journal_name": "MICCAI 2008 Workshops"
+        }
+    ],
+    "publication_id": 556,
+    "submitted_by_author": {
+        "author_email": "kenclwong@mail.rit.edu",
+        "author_firstname": "Ken c. l.",
+        "author_id": 836,
+        "author_institution": "Rochester Institute of Technology",
+        "author_lastname": "Wong"
+    },
+    "tags": [
+        "cardiac dynamics",
+        "hyperelastic material models",
+        "cardiac physiome model"
+    ],
+    "title": "Simulation of Active Cardiac Dynamics with Orthotropic Hyperelastic Material Model"
+}

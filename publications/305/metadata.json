@@ -1,0 +1,43 @@
+{
+    "abstract": "This document describes a filter able to give streaming and multi-threading capabilities to those filters that can not be easily streamed or multi-threaded. The goal of this document is to explain the implementation of this filter, and how it can be used to turn non-streamable filters to streamble ones. It also describes the testing strategy.",
+    "authors": [
+        {
+            "author_fullname": "Michel, Julien",
+            "author_place": 1,
+            "persona_email": "julien.michel@c-s.fr",
+            "persona_firstname": "Julien",
+            "persona_id": 996,
+            "persona_lastname": "Michel"
+        }
+    ],
+    "date_submitted": "2008-10-27 09:20:21",
+    "handles": [
+        {
+            "handle": "1926/1502",
+            "handle_url": "http://hdl.handle.net/1926/1502"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 305,
+    "submitted_by_author": {
+        "author_email": "julien.michel@c-s.fr",
+        "author_firstname": "Julien",
+        "author_id": 996,
+        "author_institution": "CS",
+        "author_lastname": "Michel"
+    },
+    "tags": [
+        "Streaming",
+        "Multi-threading"
+    ],
+    "title": "Giving streaming and multi-threading capabilities to non-streamable ITK filters"
+}

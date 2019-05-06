@@ -1,0 +1,50 @@
+{
+    "abstract": "It is sometimes useful to be able to apply binary morphological operations, such as erosions and dilations, to labelled images in a fashion that preserves the labels. This article introduces a specialised class implementing parallel methods described in beare et al [2011] that provide very fast dilations by circles and spheres of arbitary size. Comparisons with other implementations using currently available building blocks are also made.\n",
+    "authors": [
+        {
+            "author_fullname": "Beare, Richard",
+            "author_place": 1,
+            "persona_email": "richard.beare@ieee.org",
+            "persona_firstname": "Richard",
+            "persona_id": 197,
+            "persona_lastname": "Beare"
+        },
+        {
+            "author_fullname": "Jackway, Paul",
+            "author_place": 2,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2013-02-23 14:49:47",
+    "handles": [
+        {
+            "handle": "10380/3399",
+            "handle_url": "http://hdl.handle.net/10380/3399"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 886,
+    "submitted_by_author": {
+        "author_email": "richard.beare@ieee.org",
+        "author_firstname": "Richard",
+        "author_id": 197,
+        "author_institution": "Monash University",
+        "author_lastname": "Beare"
+    },
+    "tags": [
+        "erosion",
+        "labelled images",
+        "morphology",
+        "dilation"
+    ],
+    "title": "Parallel algorithms for erosion and dilation of label images."
+}

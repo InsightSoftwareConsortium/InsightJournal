@@ -1,0 +1,122 @@
+{
+    "abstract": "This paper describes the Carotid Lumen Segmentation and Stenosis Grading Challenge, which was part of the workshop ``3D Segmentation in the Clinic: A Grand Challenge''. This workshop was part of the 12th conference on Medical Image Computing and Computer Assisted Interventions, held in London in September 2009. We introduce the purpose and background of the challenge and describe the data, reference standard and evaluation measures that were used in this challenge. We also provide the results of the data that were submitted by industrial and academic research institutes.",
+    "authors": [
+        {
+            "author_fullname": "Hameeteman, K.",
+            "author_place": 1,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Freiman, M.",
+            "author_place": 2,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Zuluaga, M. A.",
+            "author_place": 3,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Joskowicz, L.",
+            "author_place": 4,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Rozie, S.",
+            "author_place": 5,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Van Gils, M. J.",
+            "author_place": 6,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Van den Borne, L.",
+            "author_place": 7,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Sosna, J.",
+            "author_place": 8,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Berman, P.",
+            "author_place": 9,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Cohen, N.",
+            "author_place": 10,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Douek, P.",
+            "author_place": 11,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Sanchez, I.",
+            "author_place": 12,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Aissat, M.",
+            "author_place": 13,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Van der Lugt, A.",
+            "author_place": 14,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Krestin, G. P.",
+            "author_place": 15,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Niessen, W. J.",
+            "author_place": 16,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Van Walsum, T.",
+            "author_place": 17,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2010-03-22 06:21:51",
+    "handles": [
+        {
+            "handle": "10380/3128",
+            "handle_url": "http://hdl.handle.net/10380/3128"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 34,
+            "journal_name": "MICCAI 2009 Workshops"
+        }
+    ],
+    "publication_id": 697,
+    "submitted_by_author": {
+        "author_email": "t.vanwalsum@erasmusmc.nl",
+        "author_firstname": "Theo",
+        "author_id": 874,
+        "author_institution": "Biomedical Imaging Group Rottedam, Erasmus MC",
+        "author_lastname": "van Walsum"
+    },
+    "tags": [
+        "Stenosis",
+        "Evaluation framework",
+        "Carotid",
+        "Segmentation"
+    ],
+    "title": "Carotid Lumen Segmentation and Stenosis Grading Challenge"
+}

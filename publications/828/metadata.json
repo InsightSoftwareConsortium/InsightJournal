@@ -1,0 +1,43 @@
+{
+    "abstract": "This document presents an implementation of an algorithm to perform a morphological opening on a graph. The intent is to remove short branches in a graph while preserving the large scale structure. This implementation is based on the algorithm described in ``Efficient Closed Contour Extraction from Range Image's Edge Points''. We have used the data structures from Boost Graph Library (BGL).\n\nThe code is available here:\nhttps://github.com/daviddoria/GraphOpening",
+    "authors": [
+        {
+            "author_fullname": "Doria, David",
+            "author_place": 1,
+            "persona_email": "daviddoria@gmail.com",
+            "persona_firstname": "David",
+            "persona_id": 2205,
+            "persona_lastname": "Doria"
+        }
+    ],
+    "date_submitted": "2011-07-18 10:12:14",
+    "handles": [
+        {
+            "handle": "10380/3303",
+            "handle_url": "http://hdl.handle.net/10380/3303"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 31,
+            "journal_name": "The MIDAS Journal"
+        }
+    ],
+    "publication_id": 828,
+    "submitted_by_author": {
+        "author_email": "daviddoria@gmail.com",
+        "author_firstname": "David",
+        "author_id": 2205,
+        "author_institution": "Rensselaer Polytechnic Institute",
+        "author_lastname": "Doria"
+    },
+    "tags": [
+        "Morphology",
+        "Graph"
+    ],
+    "title": "Morphological Opening on a Graph"
+}

@@ -1,0 +1,44 @@
+{
+    "abstract": "In this article we describe higher order accurate derivative and gradient image \ufb01lters for the InsightToolkit. These filters are central difference-based numerical derivative approximations that account for additional Taylor series terms and are based on the expressions given by Khan and Ohba.\n",
+    "authors": [
+        {
+            "author_fullname": "McCormick, Matthew",
+            "author_place": 1,
+            "persona_email": "matthew.m.mccormick@gmail.com",
+            "persona_firstname": "Matthew",
+            "persona_id": 2509,
+            "persona_lastname": "Mccormick"
+        }
+    ],
+    "date_submitted": "2010-11-12 07:39:07",
+    "handles": [
+        {
+            "handle": "10380/3231",
+            "handle_url": "http://hdl.handle.net/10380/3231"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 775,
+    "submitted_by_author": {
+        "author_email": "matthew.m.mccormick@gmail.com",
+        "author_firstname": "Matthew",
+        "author_id": 2509,
+        "author_institution": "University of Wisconsin-Madison",
+        "author_lastname": "Mccormick"
+    },
+    "tags": [
+        "derivative",
+        "Taylor series",
+        "gradient"
+    ],
+    "title": "Higher Order Accurate Derivative and Gradient Calculation in ITK"
+}

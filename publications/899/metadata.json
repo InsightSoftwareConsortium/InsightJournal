@@ -1,0 +1,48 @@
+{
+    "abstract": "This document describes the Image-based Vascular Analysis Toolkit (IvanTk), a set of cross-platform C++ open source software libraries for the detection, extraction and modeling of vessels in 2D/3D medical images based on the Insight Toolkit. We provide an overview of the libraries and their purpose and describe their functional modules and future directions of the toolkit.",
+    "authors": [
+        {
+            "author_fullname": "Macia, Ivan",
+            "author_place": 2,
+            "persona_email": "imacia@vicomtech.org",
+            "persona_firstname": "Ivan",
+            "persona_id": 164,
+            "persona_lastname": "Macia"
+        }
+    ],
+    "date_submitted": "2013-09-16 12:11:28",
+    "handles": [
+        {
+            "handle": "10380/3431",
+            "handle_url": "http://hdl.handle.net/10380/3431"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 899,
+    "submitted_by_author": {
+        "author_email": "imacia@vicomtech.org",
+        "author_firstname": "Ivan",
+        "author_id": 164,
+        "author_institution": "Vicomtech Foundation",
+        "author_lastname": "Macia"
+    },
+    "tags": [
+        "vesselness",
+        "medialness",
+        "Blood vessels",
+        "Vessel detection",
+        "tube",
+        "Vessel extraction",
+        "vascular"
+    ],
+    "title": "The Image-based Vascular Analysis Toolkit (IvanTk)"
+}

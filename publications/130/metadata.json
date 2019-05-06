@@ -1,0 +1,44 @@
+{
+    "abstract": "Polar transform is a geometric transform, that transforms points form cartesian coordinates to so-called polar coordinates. In case of 2D space, a point in polar coordinate system is addressed by radius and angle. In image processing, polar transform is usually used to convert rotations around the origin of polar coordinate system to translations. \r\n\r\nThis submission contains the implementation of forward and inverse polar transforms in two very simple classes for the Insight Toolkit.",
+    "authors": [
+        {
+            "author_fullname": "Bican, Jakub",
+            "author_place": 1,
+            "persona_email": "jakub.bican@matfyz.cz",
+            "persona_firstname": "Jakub",
+            "persona_id": 81,
+            "persona_lastname": "Bican"
+        }
+    ],
+    "date_submitted": "2006-10-30T15:06:34Z",
+    "handles": [
+        {
+            "handle": "1926/342",
+            "handle_url": "http://hdl.handle.net/1926/342"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 130,
+    "submitted_by_author": {
+        "author_email": "jakub.bican@matfyz.cz",
+        "author_firstname": "Jakub",
+        "author_id": 81,
+        "author_institution": "Institute of Information Theory and Automation, Academy of Sciences of the Czech Republic",
+        "author_lastname": "Bican"
+    },
+    "tags": [
+        "ITK",
+        "polar transform",
+        "transform"
+    ],
+    "title": "Polar Transforms for ITK"
+}

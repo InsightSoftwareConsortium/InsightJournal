@@ -1,0 +1,42 @@
+{
+    "abstract": "ITK includes a number of iterators including the {\\em itkImageLinearConstIteratorWithIndex} and {\\em\r\nitkImageLinearIteratorWithIndex} that support visiting voxels along\r\nlines parallel to the image axes. This is particularly useful for\r\nseparable filters. This article introduces modified versions that do\r\nnot maintain location index so that filters that don't require index\r\ninformation can perform faster.\r\n\r\nPreliminary tests indicate that the iteration speed is improved, but\r\nthat filters such as the RecursiveSmoothingGaussianImageFilter do not\r\nchange significantly.",
+    "authors": [
+        {
+            "author_fullname": "Beare, Richard",
+            "author_place": 1,
+            "persona_email": "richard.beare@ieee.org",
+            "persona_firstname": "Richard",
+            "persona_id": 197,
+            "persona_lastname": "Beare"
+        }
+    ],
+    "date_submitted": "2007-10-19T04:09:02Z",
+    "handles": [
+        {
+            "handle": "1926/1309",
+            "handle_url": "http://hdl.handle.net/1926/1309"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 197,
+    "submitted_by_author": {
+        "author_email": "richard.beare@ieee.org",
+        "author_firstname": "Richard",
+        "author_id": 197,
+        "author_institution": "Monash University",
+        "author_lastname": "Beare"
+    },
+    "tags": [
+        "linear iterator"
+    ],
+    "title": "ImageLinearIterator - WithIndex removed"
+}

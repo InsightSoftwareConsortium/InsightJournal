@@ -1,0 +1,53 @@
+{
+    "abstract": "Kernel based filtering is one of the fundamental tools of image\r\nanalysis and processing. A number of approaches have been developed\r\nover the years that allow efficient implementation of such filters\r\neven when the kernel size is large. This article reviews some of these\r\nmethods and introduces their ITK implementations.",
+    "authors": [
+        {
+            "author_fullname": "Lehmann, Gaetan",
+            "author_place": 2,
+            "persona_email": "gaetan.lehmann@gmail.com",
+            "persona_firstname": "Gaetan",
+            "persona_id": 328,
+            "persona_lastname": "Lehmann"
+        },
+        {
+            "author_fullname": "Beare, Richard",
+            "author_place": 1,
+            "persona_email": "richard.beare@ieee.org",
+            "persona_firstname": "Richard",
+            "persona_id": 197,
+            "persona_lastname": "Beare"
+        }
+    ],
+    "date_submitted": "2007-07-06",
+    "handles": [
+        {
+            "handle": "1926/555",
+            "handle_url": "http://hdl.handle.net/1926/555"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 160,
+    "submitted_by_author": {
+        "author_email": "richard.beare@ieee.org",
+        "author_firstname": "Richard",
+        "author_id": 197,
+        "author_institution": "Monash University",
+        "author_lastname": "Beare"
+    },
+    "tags": [
+        "efficient methods",
+        "rank filtering",
+        "linear filtering",
+        "morphology"
+    ],
+    "title": "Efficient implementation of kernel filtering"
+}

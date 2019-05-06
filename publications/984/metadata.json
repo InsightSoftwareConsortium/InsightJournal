@@ -1,0 +1,45 @@
+{
+    "abstract": "Strain quantifies local deformation of a solid body. In medical imaging, strain reflects how tissue deforms\nunder load. Or, it can quantify growth or atrophy of tissue, such as the growth of a tumor. Additionally,\nstrain from the transformation that results from image-to-image registration can be applied as an input\nto a biomechanical constitutive model.\n\nThis document describes N-dimensional computation of strain tensor images in the Insight Toolkit\n(ITK), www.itk.org. Two filters are described. The first filter computes a strain tensor image from\na displacement field image. The second filter computes a strain tensor image from a general spatial\ntransform. In both cases, infinitesimal, Green-Lagrangian, or Eulerian-Almansi strain can be generated.\n\nThis paper is accompanied with the source code, input data, parameters and output data that the authors used for validating the algorithm described in this paper. This adheres to the fundamental principle\nthat scientific publications must facilitate reproducibility of the reported results.",
+    "authors": [
+        {
+            "author_fullname": "McCormick, Matthew",
+            "author_place": 1,
+            "persona_email": "matthew.m.mccormick@gmail.com",
+            "persona_firstname": "Matthew",
+            "persona_id": 2509,
+            "persona_lastname": "Mccormick"
+        }
+    ],
+    "date_submitted": "2017-05-03 16:34:58",
+    "handles": [
+        {
+            "handle": "10380/3573",
+            "handle_url": "http://hdl.handle.net/10380/3573"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 984,
+    "submitted_by_author": {
+        "author_email": "matthew.m.mccormick@gmail.com",
+        "author_firstname": "Matthew",
+        "author_id": 2509,
+        "author_institution": "University of Wisconsin-Madison",
+        "author_lastname": "Mccormick"
+    },
+    "tags": [
+        "Deformable Registration",
+        "strain",
+        "transform",
+        "tensor"
+    ],
+    "title": "N-Dimensional Computation of Strain Tensor Images in the Insight Toolkit"
+}

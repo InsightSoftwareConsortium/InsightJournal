@@ -1,0 +1,51 @@
+{
+    "abstract": "The recent ITKv4 refactoring includes several enhancements to the existing registration framework. These additional transform classes provide access to mappings described by dense displacement fields and their corresponding optimization which complement the popular free-form deformation (FFD) ap- proach already in ITK. Innovation motivated by previous work [5] and recent diffeomorphic image regis- tration developments in which the characteristic velocity field is represented by spatiotemporal B-splines [2], resulted in a diffeomorphic B-spline-based image registration algorithm combining and extending these techniques which we make available in ITK through the gerrit system. Additionally, we include two command line tools showcasing the new elements of the registration refactoring for 1) computing mappings between two images (antsRegistration) including the family of transforms discussed in this article and 2) applying those transformations to images (antsApplyTransforms). NB: The user must download the patch available at http://review.source.kitware.com/#/c/3606/ in or- der to compile the code accompanying this article.",
+    "authors": [
+        {
+            "author_fullname": "Tustison, Nicholas J.",
+            "author_place": 1,
+            "persona_email": "ntustison@gmail.com",
+            "persona_firstname": "Nicholas J.",
+            "persona_id": 8833,
+            "persona_lastname": "Tustison"
+        },
+        {
+            "author_fullname": "Avants, Brian",
+            "author_place": 2,
+            "persona_email": "stnava@gmail.com",
+            "persona_firstname": "Brian",
+            "persona_id": 2243,
+            "persona_lastname": "Avants"
+        }
+    ],
+    "date_submitted": "2012-01-03 15:20:06",
+    "handles": [
+        {
+            "handle": "10380/3334",
+            "handle_url": "http://hdl.handle.net/10380/3334"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 849,
+    "submitted_by_author": {
+        "author_email": "ntustison@gmail.com",
+        "author_firstname": "Nicholas J.",
+        "author_id": 8833,
+        "author_institution": "",
+        "author_lastname": "Tustison"
+    },
+    "tags": [
+        "registration",
+        "ants"
+    ],
+    "title": "The TVDMFFDVR Algorithm"
+}

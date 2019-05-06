@@ -1,0 +1,65 @@
+{
+    "abstract": "Treatment planning for high precision radiotherapy of head and neck (H&N) cancer patients requires accurate delineation of critical structures. Manual contouring is tedious and often suffers from large inter- and intra-rater variability. In this paper, we present a fully automated, atlas-based segmentation method and apply it to tackle the H&N CT image segmentation problem in the MICCAI 2009 3D Segmentation\nGrand Challenge. The proposed method employs a multiple atlas fusion strategy and a hierarchical atlas registration approach. We also exploit recent advancements in GPU technology to accelerate the deformable atlas registration and to make multi-atlas segmentation computationally feasible in practice. Validation results on the eight clinical datasets distributed by the MICCAI workshop showed that the proposed method gave very accurate segmentation of the mandible and the brainstem, with a volume\noverlap close to or above 90% for most subjects. These results suggest that our method is clinically applicable, accurate, and may significantly reduce manual labor and improve contouring efficiency.",
+    "authors": [
+        {
+            "author_fullname": "Han, Xiao",
+            "author_place": 1,
+            "persona_email": "Xiao.Han@cmsrtp.com",
+            "persona_firstname": "Xiao",
+            "persona_id": 2232,
+            "persona_lastname": "Han"
+        },
+        {
+            "author_fullname": "Hibbard, Lyndon S.",
+            "author_place": 2,
+            "persona_email": "lyn.hibbard@elekta.com",
+            "persona_firstname": "Lyndon",
+            "persona_id": 4564,
+            "persona_lastname": "Hibbard"
+        },
+        {
+            "author_fullname": "O'Connell, Nicolette",
+            "author_place": 3,
+            "persona_id": null
+        },
+        {
+            "author_fullname": "Willcut, Virgil",
+            "author_place": 4,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2009-08-17 17:17:00",
+    "handles": [
+        {
+            "handle": "10380/3111",
+            "handle_url": "http://hdl.handle.net/10380/3111"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 34,
+            "journal_name": "MICCAI 2009 Workshops"
+        }
+    ],
+    "publication_id": 685,
+    "submitted_by_author": {
+        "author_email": "Xiao.Han@cmsrtp.com",
+        "author_firstname": "Xiao",
+        "author_id": 2232,
+        "author_institution": "CMS Software, Elekta Inc.",
+        "author_lastname": "Han"
+    },
+    "tags": [
+        "Atlas-based Segmentation",
+        "Radiotherapy Planning",
+        "GPU",
+        "multiple atlases",
+        "CT Image Segmentation",
+        "Deformable Registration"
+    ],
+    "title": "Automatic Segmentation of Head and Neck CT Images by GPU-Accelerated Multi-atlas Fusion"
+}

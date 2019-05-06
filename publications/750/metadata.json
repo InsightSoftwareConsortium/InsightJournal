@@ -1,0 +1,51 @@
+{
+    "abstract": "This documents is about the filter itk::RescaleScalarsQuadEdgeMeshFilter. It\ndoes the point-wise linear transformation to the scalar values of the input\nmesh. This paper is accompanied with the source code, input data, parameters and output data that we used for validating the algorithm described in this paper. This adheres to the fundamental principle that scientific publications must facilitate reproducibility of the reported results.",
+    "authors": [
+        {
+            "author_fullname": "Li, Wen",
+            "author_place": 1,
+            "persona_email": "wen-li@uiowa.edu",
+            "persona_firstname": "Wen",
+            "persona_id": 2569,
+            "persona_lastname": "Li"
+        },
+        {
+            "author_fullname": "Magnotta, Vincent",
+            "author_place": 2,
+            "persona_email": "vincent-magnotta@uiowa.edu",
+            "persona_firstname": "Vincent",
+            "persona_id": 54,
+            "persona_lastname": "Magnotta"
+        }
+    ],
+    "date_submitted": "2010-11-15 16:44:45",
+    "handles": [
+        {
+            "handle": "10380/3204",
+            "handle_url": "http://hdl.handle.net/10380/3204"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 750,
+    "submitted_by_author": {
+        "author_email": "wen-li@uiowa.edu",
+        "author_firstname": "Wen",
+        "author_id": 2569,
+        "author_institution": "University of Iowa",
+        "author_lastname": "Li"
+    },
+    "tags": [
+        "rescale",
+        "QuadEdgeMesh"
+    ],
+    "title": "Rescale Scalars Mesh Filter"
+}

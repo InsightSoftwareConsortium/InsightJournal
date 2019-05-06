@@ -1,0 +1,54 @@
+{
+    "abstract": "The da Vinci research interface allows third party developers and research collaborators to retrieve a real-time stream of kinematic and user event data from the da Vinci Surgical System during clinical use. This data includes the motion of all master and slave manipulators, as well as a number of user console events such as button and pedal activations. This paper provides a brief outline of the technical scope of the da Vinci research interface, as well as some discussion of the criteria for accessing this interface, and requirements for establishing a research partnership with Intuitive Surgical Inc.",
+    "authors": [
+        {
+            "author_fullname": "DiMaio, Simon",
+            "author_place": 1,
+            "persona_email": "simon.dimaio@intusurg.com",
+            "persona_firstname": "Simon",
+            "persona_id": 937,
+            "persona_lastname": "Dimaio"
+        },
+        {
+            "author_fullname": "Hasser, Christopher",
+            "author_place": 2,
+            "persona_id": null
+        }
+    ],
+    "date_submitted": "2008-07-22T07:00:36Z",
+    "handles": [
+        {
+            "handle": "10380/1464",
+            "handle_url": "http://hdl.handle.net/10380/1464"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 40,
+            "journal_name": "MICCAI 2012 Workshops"
+        },
+        {
+            "journal_id": 33,
+            "journal_name": "MICCAI 2008 Workshops"
+        }
+    ],
+    "publication_id": 622,
+    "submitted_by_author": {
+        "author_email": "simon.dimaio@intusurg.com",
+        "author_firstname": "Simon",
+        "author_id": 937,
+        "author_institution": "Intuitive Surgical Inc.",
+        "author_lastname": "Dimaio"
+    },
+    "tags": [
+        "medical robotics",
+        "robot API",
+        "robot-assisted endoscopic surgery",
+        "minimally-invasive surgery"
+    ],
+    "title": "The da Vinci Research Interface"
+}

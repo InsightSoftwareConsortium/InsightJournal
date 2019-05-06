@@ -1,0 +1,44 @@
+{
+    "abstract": "Non-negative Matrix Factorization (NMF) is a robust approach to learning spatially localized parts-based subspace patterns in applications such as document analysis, image interpretation, and gene expression analysis. NMF-based decomposition capabilities are lacking in the present ITK toolkit. We provide a generic framework for such decompositions. A specific implementation using a Kulback-Liebler type divergence function is provided to illustrate a possible extension of the base class along with test images to illustrate usage. We have found this method to be robust to noisy image data and show examples from our on-going research using the Allan Brain Atlas data to illustrate its ability to analyze higher dimension data.",
+    "authors": [
+        {
+            "author_fullname": "Pathak, Sayan; Haynor, David; Lau, Christopher; Hawrylycz, Michael",
+            "author_place": 1,
+            "persona_email": "sayanp@alleninstitute.org",
+            "persona_firstname": "Sayan",
+            "persona_id": 86,
+            "persona_lastname": "Pathak"
+        }
+    ],
+    "date_submitted": "2007-05-07T18:29:54Z",
+    "handles": [
+        {
+            "handle": "1926/502",
+            "handle_url": "http://hdl.handle.net/1926/502"
+        }
+    ],
+    "identifiers": {
+        "doi": null,
+        "pubmed": null
+    },
+    "journals": [
+        {
+            "journal_id": 3,
+            "journal_name": "The Insight Journal"
+        }
+    ],
+    "publication_id": 152,
+    "submitted_by_author": {
+        "author_email": "sayanp@alleninstitute.org",
+        "author_firstname": "Sayan",
+        "author_id": 86,
+        "author_institution": "Allen Institute for Brain Science",
+        "author_lastname": "Pathak"
+    },
+    "tags": [
+        "Unsupervised clustering",
+        "Dimensionality reduction",
+        "Statistics"
+    ],
+    "title": "Non-negative matrix factorization framework for dimensionality reduction and unsupervised clustering"
+}
