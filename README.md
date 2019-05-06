@@ -14,3 +14,8 @@ An unique identifier will be required for all submitting authors, prefering ORCI
 Blobs of data, such as pdfs, source code at the moment of submission, and other data is stored in
 [data.kitware](https://data.kitware.com/#collection/5cb75e388d777f072b41e8db/folder/5cc782658d777f072b7834a2)
 
+
+Dev notes:
+--
+Start with: material-ui template from: https://github.com/mui-org/material-ui/tree/next/examples/gatsby-next
+
