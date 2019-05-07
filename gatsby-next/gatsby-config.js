@@ -17,18 +17,21 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'publications',
-        path: './src/publications/',
+        path: './src/publications',
       },
     },
-    'gatsby-transformer-json',
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: 'gatsby-transformer-json',
+      // resolve: 'gatsby-source-filesystem',
       options: {
-        path: './src/publications/',
+        name: 'publications',
+        path: './src/publications',
+        typeName: 'Publication',
+        // typeName: ({ node, object, isArray }) => 'Publication'
       },
     },
   ],
   siteMetadata: {
-    title: 'My page',
+    title: 'Insight Journal',
   },
 };
