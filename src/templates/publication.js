@@ -4,7 +4,6 @@ import { ThemeProvider, makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import theme from '../theme';
-import Menu from '../components/Menu';
 
 const useStyles = makeStyles({
 	pubTitle: {
@@ -74,7 +73,6 @@ const Render = ({ data }) => {
   return (
     <>
       <ThemeProvider theme={theme}>
-      <Menu/>
 	<Box component="div"  id="publication">
 	  <Box component="div"  className={classes.pubTitle}>
 	    <Typography color="primary.main"> {publication.title}</Typography></Box>
