@@ -44,6 +44,9 @@ module.exports = {
     `gatsby-transformer-sharp`,
   ],
   siteMetadata: {
-    title: 'Insight Journal',
+    // 3: Insight Journal
+    // 31: MIDAS Journal
+    // 35: VTK Journal
+    targetJournal: 31,
   },
 };
