@@ -3,10 +3,10 @@
   "version": "4.0.0",
   "private": true,
   "dependencies": {
-    "@material-ui/core": "next",
-    "@material-ui/styles": "next",
+    "@material-ui/core": "latest",
+    "@material-ui/styles": "latest",
     "gatsby": "latest",
-    "gatsby-plugin-material-ui": "next",
+    "gatsby-plugin-material-ui": "latest",
     "gatsby-plugin-react-helmet": "latest",
     "gatsby-source-filesystem": "latest",
     "gatsby-transformer-json": "latest",
