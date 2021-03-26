@@ -1,6 +1,10 @@
 import React from "react";
 import { graphql } from "gatsby";
-import { makeStyles } from '@material-ui/core/styles';
+import { ThemeProvider, makeStyles } from '@material-ui/core/styles';
+import Typography from '@material-ui/core/Typography';
+import Box from '@material-ui/core/Box';
+import theme from '../theme';
+import Menu from '../components/Menu';
 
 const useStyles = makeStyles({
 	pubTitle: {
@@ -69,11 +73,14 @@ const Render = ({ data }) => {
   console.log(publication.abstract)    
   return (
     <>
-	<div id="publication">
-	  <div className={classes.pubTitle}>{publication.title}</div>
+      <ThemeProvider theme={theme}>
+      <Menu/>
+	<Box component="div"  id="publication">
+	  <Box component="div"  className={classes.pubTitle}>
+	    <Typography color="primary.main"> {publication.title}</Typography></Box>
 
-	<div className={classes.authors}>{ordered_authors.join(",")}</div>
-	<div className={classes.institution}>{submit_inst}</div>
+	<Box component="div" color="secondary.main" className={classes.authors}>{ordered_authors.join(",")}</Box>
+	<Box component="div" color="secondary.main" className={classes.institution}>{submit_inst}</Box>
 
 	<center>
 	 <img className="thumbnail" src="" alt="logo" /></center>
@@ -81,10 +88,15 @@ const Render = ({ data }) => {
 	<table align="center"><tbody><tr><td  className="colortable" >
 	Please use this identifier to cite or link to this publication:
 	</td></tr></tbody></table>
-	<div className={classes.journal}></div>
-	<div className={classes.submittedBy}>Submitted by {submit_auth} on {publication.date_submitted}.</div>
-	<div className="abstract">{publication.abstract}</div>
-	</div>
+	<Box component="div" className={classes.journal}></Box>
+	<Box component="div" className={classes.submittedBy} color="error">Submitted by {submit_auth} on {publication.date_submitted}.</Box>
+	<Box component="div" className="abstract">{publication.abstract}</Box>
+	<Box component="div" className="reviews">Data</Box>
+	<Box component="div" id="Data">{}</Box>
+	<Box component="div" className="review_header">{}</Box>
+	<Box component="div" className="abstract">{}</Box>
+	</Box>
+      </ThemeProvider>
     </>
   );
 };
