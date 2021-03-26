@@ -10,22 +10,21 @@ const { createFilePath } = require(`gatsby-source-filesystem`)
 const path = require(`path`)
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
-  console.log(node.internal.type)
   const { createNodeField } = actions
   if (node.internal.type === 'Publication') {
-    console.log('Publication!!')
     // Use `createFilePath` to turn json files in our `src/publications` directory into ``
     const relativeFilePath = createFilePath({
       node,
       getNode,
       basePath: "data/publications",
     })
-    console.log(relativeFilePath)
     // Creates new query'able field with name of 'slug'
+    const publicationNumber = relativeFilePath.split('/')[1]
+    console.log('Publication!!', publicationNumber)
     createNodeField({
       node,
       name: "slug",
-      value: `/publications${relativeFilePath}`,
+      value: `/browse/publication/${publicationNumber}`,
     })
   }
 }
@@ -48,7 +47,7 @@ exports.createPages = ({ graphql, actions }) => {
     }
 }
   `).then(result => {
-    console.log(JSON.stringify(result, null, 4))
+    //console.log('result',JSON.stringify(result, null, 4))
     result.data.allPublication.edges.forEach(({ node }) => {
       createPage({
         path: node.fields.slug,
