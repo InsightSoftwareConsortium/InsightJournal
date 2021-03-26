@@ -5,16 +5,19 @@ import Box from '@material-ui/core/Box';
 import ProTip from '../components/ProTip';
 // import Link from '../components/Link';
 import Copyright from '../components/Copyright';
-import {Logo, Title} from '../components/LogoTitle'
+import Logo from '../components/Logo';
+import Title from '../components/Title';
+import { graphql } from "gatsby"
 
-export default function Index() {
+export default function Index({ data }) {
+  const targetJournal = data.site.siteMetadata.targetJournal
   return (
     // TODO v5: remove once migration to emotion is completed
     <StyledEngineProvider injectFirst>
       <Container maxWidth="sm">
         <Box sx={{ my: 4 }}>
-          <Logo targetJournal="Insight"/>
-          <Title targetJournal="Insight"/>
+          <Logo targetJournal={ targetJournal }/>
+          <Title targetJournal={ targetJournal }/>
           <ProTip />
           <Copyright />
         </Box>
@@ -22,3 +25,13 @@ export default function Index() {
     </StyledEngineProvider>
   );
 }
+
+export const query = graphql`
+  query {
+    site {
+      siteMetadata {
+        targetJournal
+      }
+    }
+  }
+`
