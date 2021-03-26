@@ -1,8 +1,9 @@
-import React from "react"
-import { graphql } from "gatsby"
+import React from "react";
+import { graphql } from "gatsby";
 
-export default ({data}) => {
-  const publication = data.publication
+const Render = ({ data }) => {
+  const publication = data.publication;
+  const has_authors = publication.authors ? true : false;
   // var ordered_authors = publication.authors
   // console.log(ordered_authors)
   // ordered_authors.sort(function(a,b){
@@ -10,21 +11,29 @@ export default ({data}) => {
   // })
   // console.log(ordered_authors)
   // console.log("Sorted", publication.authors)
-  var ordered_authors = []
-  for (var author of publication.authors) {
-    console.log(author)
-    ordered_authors.push([author.author_place, author.author_fullname])
+  var ordered_authors = [];
+  if (has_authors) {
+    for (const author of publication.authors) {
+      console.log(author);
+      ordered_authors.push([author.author_place, author.author_fullname]);
+    }
+    ordered_authors.sort();
+    console.log(ordered_authors);
   }
-  ordered_authors.sort()
-  console.log(ordered_authors)
+
+  const first_author = has_authors
+    ? publication.authors[0].author_fullname
+    : "No author";
   return (
     <div>
       <h1>{publication.title}</h1>
-      <h2>Data: {publication.authors[0].author_fullname}</h2>
-      <h2>Sorted: {ordered_authors[0][1]}</h2>
+      <h2>Data: </h2>
+      <h2>First Author: {first_author}</h2>
     </div>
-  )
-}
+  );
+};
+
+export default Render;
 
 export const query = graphql`
   query($slug: String!) {
@@ -37,4 +46,4 @@ export const query = graphql`
       publication_id
     }
   }
-`
+`;
