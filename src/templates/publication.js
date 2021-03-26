@@ -15,7 +15,7 @@ const useStyles = makeStyles({
 	journal: {
 	  paddingTop:"10px",
 	},
-	
+
 	submittedBy: {
 	  paddingTop:"10px",
 	  fontSize:"80%",
@@ -27,7 +27,7 @@ const useStyles = makeStyles({
 	authors: {
 	  textAlign:"center",
 	  },
-	
+
 
 });
 
@@ -65,11 +65,11 @@ const Render = ({ data }) => {
   if( publication.submitted_by_author) {
     submit_inst = publication.submitted_by_author.author_institution
     submit_auth = publication.submitted_by_author.author_firstname + " "+ publication.submitted_by_author.author_lastname
-  } 
+  }
   const first_author = has_authors
     ? publication.authors[0].author_fullname
     : "No author";
-  console.log(publication.abstract)    
+  console.log(publication.abstract)
   return (
     <>
       <ThemeProvider theme={theme}>

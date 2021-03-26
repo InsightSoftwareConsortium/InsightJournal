@@ -29,14 +29,24 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
   }
 }
 
-exports.createPages = ({ graphql, actions }) => {
+exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
   const publicationTemplate = path.resolve(`src/templates/publication.js`)
   // **Note:** The graphql function call returns a Promise
   // see: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise for more info
-  return graphql(`
+  const siteMetadata = await graphql(`
+  query {
+    site {
+      siteMetadata {
+        targetJournal
+      }
+    }
+  }
+  `)
+  const targetJournal = siteMetadata.data.site.siteMetadata.targetJournal
+  const result = await graphql(`
 {
-    allPublication {
+    allPublication(filter: {journals: {elemMatch: {journal_id: {eq: ${targetJournal}}}}}) {
         edges {
             node {
                 fields {
@@ -46,17 +56,15 @@ exports.createPages = ({ graphql, actions }) => {
         }
     }
 }
-  `).then(result => {
-    //console.log('result',JSON.stringify(result, null, 4))
-    result.data.allPublication.edges.forEach(({ node }) => {
-      createPage({
-        path: node.fields.slug,
-        component: publicationTemplate,
-        context: {
-          // Data passed to context is available in page queries as GraphQL variables.
-          slug: node.fields.slug,
-        },
-      })
+  `)
+  result.data.allPublication.edges.forEach(({ node }) => {
+    createPage({
+      path: node.fields.slug,
+      component: publicationTemplate,
+      context: {
+        // Data passed to context is available in page queries as GraphQL variables.
+        slug: node.fields.slug,
+      },
     })
   })
 }
