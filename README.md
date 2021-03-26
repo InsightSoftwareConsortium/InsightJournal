@@ -1,26 +1,21 @@
-# Gatsby example
+InsightJournal
+--------------
 
-## How to use
+Powered by [Gatsby](https://www.gatsbyjs.org/)
 
-Download the example [or clone the repo](https://github.com/mui-org/material-ui):
+Each publication is associated to a folder, where `metadata.json` stores information
+such as title, abstract, doi, authors, tags, journal, toolkit, etc.
 
-```sh
-curl https://codeload.github.com/mui-org/material-ui/tar.gz/next | tar -xz --strip=2  material-ui-next/examples/gatsby
-cd gatsby
-```
+This file is parsed by gatsby to build the site. The final webpage is static.
 
-Install it and run:
+Submissions and reviews will be handled by opening pull-request to this repo.
+An unique identifier will be required for all submitting authors, prefering ORCID.
 
-```sh
-npm install
-npm run develop
-```
+Blobs of data, such as pdfs, source code at the moment of submission, and other data is stored in
+[data.kitware](https://data.kitware.com/#collection/5cb75e388d777f072b41e8db/folder/5cc782658d777f072b7834a2)
 
-## The idea behind the example
 
-The project uses [Gatsby](https://github.com/gatsbyjs/gatsby), which is a static site generator for React. It includes `@material-ui/core` and its peer dependencies, including `emotion`, the default style engine in Material-UI v5. If you prefer, you can [use styled-components instead](https://next.material-ui.com/guides/interoperability/#styled-components).
+Dev notes:
+--
+Start with: material-ui template from: https://github.com/mui-org/material-ui/tree/next/examples/gatsby-next
 
-## gatsby-theme-material-ui
-
-Looking for an example with less boilerplate but also less freedom?
-Check [`/examples/gatsby-theme`](https://github.com/mui-org/material-ui/tree/next/examples/gatsby-theme) out.
