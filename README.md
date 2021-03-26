@@ -1,6 +1,8 @@
 InsightJournal
 --------------
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2a241820-33ec-4c71-b43d-7d8a12e6ece3/deploy-status)](https://app.netlify.com/sites/insight-journal/deploys)
+
 Powered by [Gatsby](https://www.gatsbyjs.org/)
 
 Each publication is associated to a folder, where `metadata.json` stores information
