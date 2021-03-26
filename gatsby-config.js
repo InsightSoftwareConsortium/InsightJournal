@@ -1,3 +1,5 @@
+const path = require(`path`)
+
 module.exports = {
   plugins: [
     'gatsby-plugin-top-layout',
@@ -22,6 +24,13 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: path.join(__dirname, `src`, `images`),
+      },
+    },
+    {
       resolve: 'gatsby-transformer-json',
       // resolve: 'gatsby-source-filesystem',
       options: {
@@ -31,6 +40,8 @@ module.exports = {
         // typeName: ({ node, object, isArray }) => 'Publication'
       },
     },
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
   ],
   siteMetadata: {
     title: 'Insight Journal',

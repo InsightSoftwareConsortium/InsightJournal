@@ -6,8 +6,8 @@ export default function Copyright() {
   return (
     <Typography variant="body2" color="text.secondary" align="center">
       {'Copyright © '}
-      <MuiLink color="inherit" href="https://material-ui.com/">
-        Your Website
+      <MuiLink color="inherit" href="https://www.kitware.com/">
+        Kitware, Inc.
       </MuiLink>{' '}
       {new Date().getFullYear()}
       {'.'}
