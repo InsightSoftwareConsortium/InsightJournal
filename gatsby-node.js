@@ -6,8 +6,8 @@
 //   //   console.log('not JSON!')
 //   // }
 // }
-const { createFilePath } = require(`gatsby-source-filesystem`)
-const path = require(`path`)
+const { createFilePath } = require('gatsby-source-filesystem')
+const path = require('path')
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
@@ -19,12 +19,16 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       basePath: "data/publications",
     })
     // Creates new query'able field with name of 'slug'
-    const publicationNumber = relativeFilePath.split('/')[1]
-    console.log('Publication!!', publicationNumber)
+    const publication_id = relativeFilePath.split('/')[1]
     createNodeField({
       node,
       name: "slug",
-      value: `/browse/publication/${publicationNumber}`,
+      value: `/browse/publication/${publication_id}`,
+    })
+    createNodeField({
+      node,
+      name: "publication_id",
+      value: publication_id,
     })
   }
 }
@@ -44,26 +48,28 @@ exports.createPages = async ({ graphql, actions }) => {
   }
   `)
   const targetJournal = siteMetadata.data.site.siteMetadata.targetJournal
-  const result = await graphql(`
+  const publications = await graphql(`
 {
     allPublication(filter: {journals: {elemMatch: {journal_id: {eq: ${targetJournal}}}}}) {
         edges {
             node {
                 fields {
-                    slug
+                    slug,
+                    publication_id
                 }
             }
         }
     }
 }
   `)
-  result.data.allPublication.edges.forEach(({ node }) => {
+  publications.data.allPublication.edges.forEach(({ node }) => {
     createPage({
       path: node.fields.slug,
       component: publicationTemplate,
       context: {
         // Data passed to context is available in page queries as GraphQL variables.
         slug: node.fields.slug,
+        cover: `${node.fields.publication_id}/cover.jpeg`,
       },
     })
   })
