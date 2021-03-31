@@ -1,66 +1,68 @@
 {
+  "publication": {
     "abstract": "We describe the open source implementation of an adaptive tetrahedral mesh generator particularly targeted for non-rigid FEM registration of MR images. While many medical imaging applications require robust mesh generation, there are few codes available. Moreover, most of the practical implementations are commercial. The algorithm we have implemented has been previously evaluated for simulations of highly deformable objects, and the preliminary results show its applicability to the targeted application. The implementation we describe is open source and will be available within Insight Toolkit.",
     "authors": [
-        {
-            "author_fullname": "Fedorov, Andriy",
-            "author_place": 1,
-            "persona_email": "fedorov@bwh.harvard.edu",
-            "persona_firstname": "Andriy",
-            "persona_id": 16,
-            "persona_lastname": "Fedorov"
-        },
-        {
-            "author_fullname": "Chrisochoides, Nikos",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Kikinis, Ron",
-            "author_place": 3,
-            "persona_email": "kikinis@bwh.harvard.edu",
-            "persona_firstname": "Ron",
-            "persona_id": 238,
-            "persona_lastname": "Kikinis"
-        },
-        {
-            "author_fullname": "Warfield, Simon",
-            "author_place": 4,
-            "persona_email": "simon.warfield@childrens.harvard.edu",
-            "persona_firstname": "Simon",
-            "persona_id": 514,
-            "persona_lastname": "Warfield"
-        }
+      {
+        "author_fullname": "Fedorov, Andriy",
+        "author_place": 1,
+        "persona_email": "fedorov@bwh.harvard.edu",
+        "persona_firstname": "Andriy",
+        "persona_id": 16,
+        "persona_lastname": "Fedorov"
+      },
+      {
+        "author_fullname": "Chrisochoides, Nikos",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Kikinis, Ron",
+        "author_place": 3,
+        "persona_email": "kikinis@bwh.harvard.edu",
+        "persona_firstname": "Ron",
+        "persona_id": 238,
+        "persona_lastname": "Kikinis"
+      },
+      {
+        "author_fullname": "Warfield, Simon",
+        "author_place": 4,
+        "persona_email": "simon.warfield@childrens.harvard.edu",
+        "persona_firstname": "Simon",
+        "persona_id": 514,
+        "persona_lastname": "Warfield"
+      }
     ],
     "date_submitted": "2005-08-05T13:59:15Z",
     "handles": [
-        {
-            "handle": "1926/35",
-            "handle_url": "http://hdl.handle.net/1926/35"
-        }
+      {
+        "handle": "1926/35",
+        "handle_url": "http://hdl.handle.net/1926/35"
+      }
     ],
+    "id": 29,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 29,
     "submitted_by_author": {
-        "author_email": "fedorov@bwh.harvard.edu",
-        "author_firstname": "Andriy",
-        "author_id": 16,
-        "author_institution": "College of William and Mary",
-        "author_lastname": "Fedorov"
+      "author_email": "fedorov@bwh.harvard.edu",
+      "author_firstname": "Andriy",
+      "author_id": 16,
+      "author_institution": "College of William and Mary",
+      "author_lastname": "Fedorov"
     },
     "tags": [
-        "FEM",
-        "non-rigid image registration",
-        "mesh generation",
-        "surgical planning"
+      "FEM",
+      "non-rigid image registration",
+      "mesh generation",
+      "surgical planning"
     ],
     "title": "Tetrahedral mesh generation for medical imaging"
+  }
 }

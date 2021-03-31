@@ -1,44 +1,46 @@
 {
+  "publication": {
     "abstract": "K-Means clustering is an excellent technique for clustering points when the number of clusters is known. We present a implementation (vtkKMeanClustering) of the algorithm written in a VTK context. We also implement the K-Means++ initialization method which finds the global optimum much more frequently than a naive/random initialization.\n\nThe code is currently hosted at http://github.com/daviddoria/KMeansClustering .",
     "authors": [
-        {
-            "author_fullname": "Doria, David",
-            "author_place": 1,
-            "persona_email": "daviddoria@gmail.com",
-            "persona_firstname": "David",
-            "persona_id": 2205,
-            "persona_lastname": "Doria"
-        }
+      {
+        "author_fullname": "Doria, David",
+        "author_place": 1,
+        "persona_email": "daviddoria@gmail.com",
+        "persona_firstname": "David",
+        "persona_id": 2205,
+        "persona_lastname": "Doria"
+      }
     ],
     "date_submitted": "2010-09-28 12:51:44",
     "handles": [
-        {
-            "handle": "10380/3220",
-            "handle_url": "http://hdl.handle.net/10380/3220"
-        }
+      {
+        "handle": "10380/3220",
+        "handle_url": "http://hdl.handle.net/10380/3220"
+      }
     ],
+    "id": 766,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 35,
-            "journal_name": "The VTK Journal"
-        }
+      {
+        "journal_id": 35,
+        "journal_name": "The VTK Journal"
+      }
     ],
-    "publication_id": 766,
     "submitted_by_author": {
-        "author_email": "daviddoria@gmail.com",
-        "author_firstname": "David",
-        "author_id": 2205,
-        "author_institution": "Rensselaer Polytechnic Institute",
-        "author_lastname": "Doria"
+      "author_email": "daviddoria@gmail.com",
+      "author_firstname": "David",
+      "author_id": 2205,
+      "author_institution": "Rensselaer Polytechnic Institute",
+      "author_lastname": "Doria"
     },
     "tags": [
-        "clustering",
-        "Kmeans",
-        "kmeans++"
+      "clustering",
+      "Kmeans",
+      "kmeans++"
     ],
     "title": "A K-Means++ Clustering Implementation for VTK"
+  }
 }

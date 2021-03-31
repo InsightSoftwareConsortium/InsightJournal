@@ -1,43 +1,45 @@
 {
+  "publication": {
     "abstract": "This document describes an implementation of an alternative bilateral filtering algorithm in ITK.\nThis class implements the fast bilateral filter algorithm in ITK by taking the input image and organizing it into the required data structure as an ITK Image with dimension one greater than the original image. The DiscreteGaussianImageFilter is then used to blur the higher dimensional image. The discrete Gaussian image filter was chosen because the kernel width used should usually be small due to the down-sampling involved when using this technique. As described in the ITK documentation, this class should outperform the recursive Gaussian algorithm due to the small kernel size DiscreteGaussianImageFilter.After the Gaussian blur has been completed the data will be interpolated and written to the output image.\n\nBy incorporating this class into the ITK framework, this more efficient algorithm will be made available to all ITK users.",
     "authors": [
-        {
-            "author_fullname": "Woehr, Jordan",
-            "author_place": 1,
-            "persona_email": "jordanwoehr@gmail.com",
-            "persona_firstname": "Jordan",
-            "persona_id": 2279,
-            "persona_lastname": "Woehr"
-        }
+      {
+        "author_fullname": "Woehr, Jordan",
+        "author_place": 1,
+        "persona_email": "jordanwoehr@gmail.com",
+        "persona_firstname": "Jordan",
+        "persona_id": 2279,
+        "persona_lastname": "Woehr"
+      }
     ],
     "date_submitted": "2009-08-28 11:27:07",
     "handles": [
-        {
-            "handle": "10380/3122",
-            "handle_url": "http://hdl.handle.net/10380/3122"
-        }
+      {
+        "handle": "10380/3122",
+        "handle_url": "http://hdl.handle.net/10380/3122"
+      }
     ],
+    "id": 692,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 692,
     "submitted_by_author": {
-        "author_email": "jordanwoehr@gmail.com",
-        "author_firstname": "Jordan",
-        "author_id": 2279,
-        "author_institution": "University of Calgary",
-        "author_lastname": "Woehr"
+      "author_email": "jordanwoehr@gmail.com",
+      "author_firstname": "Jordan",
+      "author_id": 2279,
+      "author_institution": "University of Calgary",
+      "author_lastname": "Woehr"
     },
     "tags": [
-        "Bilateral filter",
-        "Image processing"
+      "Bilateral filter",
+      "Image processing"
     ],
     "title": "A Fast Approximation to the Bilateral Filter for ITK"
+  }
 }

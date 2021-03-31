@@ -1,53 +1,55 @@
 {
+  "publication": {
     "abstract": "A vessel lumen centerline extraction method is presented. Its preprocessing and initialization for the application to 3D CT angiography (CTA) image volumes are also described. This approach is based upon the theory of principal curves to finding lumen axis. Meanwhile, it also estimates the lumen local width with an 1D intensity model that depicts an ideal lumen cross-sectional profile. We tested the method on 46 CTA datasets supplied with the Carotid Lumen Segmentation and Stenosis Grading Challenge (CLS) of the ``3D Segmentation in the Clinic: a Grade Challenge'', a 2009 MICCAI Workshop. The evaluation of 31 testing datasets suggests that our method can provide a good basis for post-processing if high accuracy of segmentation and stenosis grading is desired.",
     "authors": [
-        {
-            "author_fullname": "Wong, Wilbur C. K.",
-            "author_place": 1,
-            "persona_email": "cswilbur@cse.ust.hk",
-            "persona_firstname": "Wilbur C. K.",
-            "persona_id": 2221,
-            "persona_lastname": "Wong"
-        },
-        {
-            "author_fullname": "So, Ronald W. K.",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Chung, Albert C. S.",
-            "author_place": 3,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Wong, Wilbur C. K.",
+        "author_place": 1,
+        "persona_email": "cswilbur@cse.ust.hk",
+        "persona_firstname": "Wilbur C. K.",
+        "persona_id": 2221,
+        "persona_lastname": "Wong"
+      },
+      {
+        "author_fullname": "So, Ronald W. K.",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Chung, Albert C. S.",
+        "author_place": 3,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2009-08-23 23:51:34",
     "handles": [
-        {
-            "handle": "10380/3096",
-            "handle_url": "http://hdl.handle.net/10380/3096"
-        }
+      {
+        "handle": "10380/3096",
+        "handle_url": "http://hdl.handle.net/10380/3096"
+      }
     ],
+    "id": 663,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 34,
-            "journal_name": "MICCAI 2009 Workshops"
-        }
+      {
+        "journal_id": 34,
+        "journal_name": "MICCAI 2009 Workshops"
+      }
     ],
-    "publication_id": 663,
     "submitted_by_author": {
-        "author_email": "cswilbur@cse.ust.hk",
-        "author_firstname": "Wilbur C. K.",
-        "author_id": 2221,
-        "author_institution": "The Hong Kong University of Science and Technology",
-        "author_lastname": "Wong"
+      "author_email": "cswilbur@cse.ust.hk",
+      "author_firstname": "Wilbur C. K.",
+      "author_id": 2221,
+      "author_institution": "The Hong Kong University of Science and Technology",
+      "author_lastname": "Wong"
     },
     "tags": [
-        "Principal curves",
-        "Centerlines"
+      "Principal curves",
+      "Centerlines"
     ],
     "title": "Principal Curves: a Technique for Preliminary Carotid Lumen Segmentation and Stenosis Grading"
+  }
 }

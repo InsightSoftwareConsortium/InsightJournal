@@ -1,54 +1,56 @@
 {
+  "publication": {
     "abstract": "Liver tumors segmentation is an important prerequisite for planning of surgical interventions.\r\nFor clinical applicability, the segmentation approach must be able to cope with\r\nthe high variation in shape and gray-value appearance of the liver. We present a fully\r\nautomatic 3D segmentation method for the liver tumors from contrast-enhanced CT data.\r\nThe method consists of two main stages.\r\nFirst an initial histogram and statistical distribution functions are created, and from\r\nthem a new image is created where, in each voxel, a weighted function is attached in accordance\r\nwith the probability of the voxel grey level. Next, we use the active contour method\r\non the new image, where the active contour evolution is based upon the minimization of\r\nvariances between the liver tumor and its closest neighborhood.",
     "authors": [
-        {
-            "author_fullname": "Ben-Dan, Itay",
-            "author_place": 1,
-            "persona_email": "itaybd@gmail.com",
-            "persona_firstname": "Itay",
-            "persona_id": 916,
-            "persona_lastname": "Ben-dan"
-        },
-        {
-            "author_fullname": "Shenhav, Elior",
-            "author_place": 2,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Ben-Dan, Itay",
+        "author_place": 1,
+        "persona_email": "itaybd@gmail.com",
+        "persona_firstname": "Itay",
+        "persona_id": 916,
+        "persona_lastname": "Ben-dan"
+      },
+      {
+        "author_fullname": "Shenhav, Elior",
+        "author_place": 2,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2008-07-14T16:33:05Z",
     "handles": [
-        {
-            "handle": "10380/1443",
-            "handle_url": "http://hdl.handle.net/10380/1443"
-        }
+      {
+        "handle": "10380/1443",
+        "handle_url": "http://hdl.handle.net/10380/1443"
+      }
     ],
+    "id": 607,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 45,
-            "journal_name": "MICCAI 2016 Workshops"
-        },
-        {
-            "journal_id": 33,
-            "journal_name": "MICCAI 2008 Workshops"
-        }
+      {
+        "journal_id": 45,
+        "journal_name": "MICCAI 2016 Workshops"
+      },
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
     ],
-    "publication_id": 607,
     "submitted_by_author": {
-        "author_email": "itaybd@gmail.com",
-        "author_firstname": "Itay",
-        "author_id": 916,
-        "author_institution": "Technion",
-        "author_lastname": "Ben-dan"
+      "author_email": "itaybd@gmail.com",
+      "author_firstname": "Itay",
+      "author_id": 916,
+      "author_institution": "Technion",
+      "author_lastname": "Ben-dan"
     },
     "tags": [
-        "density",
-        "probability image",
-        "Chan Vese",
-        "variance"
+      "density",
+      "probability image",
+      "Chan Vese",
+      "variance"
     ],
     "title": "Liver Tumor segmentation in CT images using probabilistic"
+  }
 }

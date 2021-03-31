@@ -1,54 +1,56 @@
 {
+  "publication": {
     "abstract": "An automatic seeding method for coronary artery segmentation and skeletonization is presented. The new method includes automatic removal of the rib cage, tracing of the ascending aorta and initial planting of seeds for the coronary arteries. The automatic seeds are then passed on to a \ufffdvirtual contrast injection\ufffd algorithm performing segmentation and skeletonization. In preliminary experiments, most main branches of the coronary tree were segmented and skeletonized without any user interaction.",
     "authors": [
-        {
-            "author_fullname": "Smedby, \ufffdrjan",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Wang, Chunliang",
-            "author_place": 1,
-            "persona_email": "chunliang.wang@liu.se",
-            "persona_firstname": "Chunliang",
-            "persona_id": 8762,
-            "persona_lastname": "Wang"
-        }
+      {
+        "author_fullname": "Smedby, \ufffdrjan",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Wang, Chunliang",
+        "author_place": 1,
+        "persona_email": "chunliang.wang@liu.se",
+        "persona_firstname": "Chunliang",
+        "persona_id": 8762,
+        "persona_lastname": "Wang"
+      }
     ],
     "date_submitted": "2008-07-08T10:52:34Z",
     "handles": [
-        {
-            "handle": "10380/1434",
-            "handle_url": "http://hdl.handle.net/10380/1434"
-        }
+      {
+        "handle": "10380/1434",
+        "handle_url": "http://hdl.handle.net/10380/1434"
+      }
     ],
+    "id": 594,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 43,
-            "journal_name": "ISBI 2015 Workshops"
-        },
-        {
-            "journal_id": 33,
-            "journal_name": "MICCAI 2008 Workshops"
-        }
+      {
+        "journal_id": 43,
+        "journal_name": "ISBI 2015 Workshops"
+      },
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
     ],
-    "publication_id": 594,
     "submitted_by_author": {
-        "author_email": null,
-        "author_firstname": null,
-        "author_id": null,
-        "author_institution": "Link\u00c3\u00b6ping University Hospital, CMIV",
-        "author_lastname": null
+      "author_email": null,
+      "author_firstname": null,
+      "author_id": null,
+      "author_institution": "Link\u00c3\u00b6ping University Hospital, CMIV",
+      "author_lastname": null
     },
     "tags": [
-        "centerline tracking",
-        "Fuzzy Connectedness",
-        "coronary CT angiography",
-        "automatic segmentation"
+      "centerline tracking",
+      "Fuzzy Connectedness",
+      "coronary CT angiography",
+      "automatic segmentation"
     ],
     "title": "An Automatic Seeding Method For Coronary Artery Segmentation and Skeletonization in CTA"
+  }
 }

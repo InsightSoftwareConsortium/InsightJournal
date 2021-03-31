@@ -1,48 +1,50 @@
 {
+  "publication": {
     "abstract": "Connected component is a well known and very useful notion in binary case. As often in mathematical morphology, this notion can be extended to the grayscale case, and allow to perform lot of the useful transforms based on binary connected components in the grayscale images. This article describe the component tree, a data structure able to ef?ciently represent the grayscale connected components in an grayscale image, as well as the algorithm used to build the component tree. All the source codes are provided, as well as a full set of tests and several usage examples of the new classes.",
     "authors": [
-        {
-            "author_fullname": "Lehmann, Gaetan",
-            "author_place": 1,
-            "persona_email": "gaetan.lehmann@gmail.com",
-            "persona_firstname": "Gaetan",
-            "persona_id": 328,
-            "persona_lastname": "Lehmann"
-        }
+      {
+        "author_fullname": "Lehmann, Gaetan",
+        "author_place": 1,
+        "persona_email": "gaetan.lehmann@gmail.com",
+        "persona_firstname": "Gaetan",
+        "persona_id": 328,
+        "persona_lastname": "Lehmann"
+      }
     ],
     "date_submitted": "2007-12-31T21:35:54Z",
     "handles": [
-        {
-            "handle": "1926/1328",
-            "handle_url": "http://hdl.handle.net/1926/1328"
-        }
+      {
+        "handle": "1926/1328",
+        "handle_url": "http://hdl.handle.net/1926/1328"
+      }
     ],
+    "id": 210,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 210,
     "submitted_by_author": {
-        "author_email": "gaetan.lehmann@gmail.com",
-        "author_firstname": "Gaetan",
-        "author_id": 328,
-        "author_institution": "INRA",
-        "author_lastname": "Lehmann"
+      "author_email": "gaetan.lehmann@gmail.com",
+      "author_firstname": "Gaetan",
+      "author_id": 328,
+      "author_institution": "INRA",
+      "author_lastname": "Lehmann"
     },
     "tags": [
-        "mathematical morphology",
-        "min-tree",
-        "max-tree",
-        "component tree",
-        "connected component",
-        "connectivity",
-        "attribute"
+      "mathematical morphology",
+      "min-tree",
+      "max-tree",
+      "component tree",
+      "connected component",
+      "connectivity",
+      "attribute"
     ],
     "title": "Component tree: an efficient representation of grayscale connected components"
+  }
 }

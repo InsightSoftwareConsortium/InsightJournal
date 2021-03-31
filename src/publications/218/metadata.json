@@ -1,56 +1,58 @@
 {
+  "publication": {
     "abstract": "We present and implement an error estimation protocol in the Insight Toolkit (ITK) for assessing the\r\naccuracy of image alignment. We base this error estimation on a robust version of the HausdorffDistance\r\n(HD) metric applied to the recovered edges of the images. The robust modifications we introduce to\r\nthe HD metric significantly reduce the amount of outliers in the local distance error estimation. We\r\nevaluate the accuracy of our protocol on synthetically deformed images. We provide the source code\r\nand datasets to reproduce this evaluation. The proposed method is shown to improve error assessment\r\nwhen it is compared with conventional HD methods. This approach has many applications including\r\nlocal estimation and visual assessment of registration error and registration parameter selection.",
     "authors": [
-        {
-            "author_fullname": "Billet, Eric",
-            "author_place": 1,
-            "persona_email": "ebillet22@gmail.com",
-            "persona_firstname": "Eric",
-            "persona_id": 809,
-            "persona_lastname": "Billet"
-        },
-        {
-            "author_fullname": "Fedorov, Andriy",
-            "author_place": 2,
-            "persona_email": "fedorov@bwh.harvard.edu",
-            "persona_firstname": "Andriy",
-            "persona_id": 16,
-            "persona_lastname": "Fedorov"
-        },
-        {
-            "author_fullname": "Chrisochoides, Nikos",
-            "author_place": 3,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Billet, Eric",
+        "author_place": 1,
+        "persona_email": "ebillet22@gmail.com",
+        "persona_firstname": "Eric",
+        "persona_id": 809,
+        "persona_lastname": "Billet"
+      },
+      {
+        "author_fullname": "Fedorov, Andriy",
+        "author_place": 2,
+        "persona_email": "fedorov@bwh.harvard.edu",
+        "persona_firstname": "Andriy",
+        "persona_id": 16,
+        "persona_lastname": "Fedorov"
+      },
+      {
+        "author_fullname": "Chrisochoides, Nikos",
+        "author_place": 3,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2008-05-05T13:56:11Z",
     "handles": [
-        {
-            "handle": "1926/1354",
-            "handle_url": "http://hdl.handle.net/1926/1354"
-        }
+      {
+        "handle": "1926/1354",
+        "handle_url": "http://hdl.handle.net/1926/1354"
+      }
     ],
+    "id": 218,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 218,
     "submitted_by_author": {
-        "author_email": "ebillet22@gmail.com",
-        "author_firstname": "Eric",
-        "author_id": 809,
-        "author_institution": "College of William and Mary",
-        "author_lastname": "Billet"
+      "author_email": "ebillet22@gmail.com",
+      "author_firstname": "Eric",
+      "author_id": 809,
+      "author_institution": "College of William and Mary",
+      "author_lastname": "Billet"
     },
     "tags": [
-        "Accuracy assessment",
-        "local Hausdorff"
+      "Accuracy assessment",
+      "local Hausdorff"
     ],
     "title": "The Use of Robust Local Hausdorff Distances in Accuracy Assessment for Image Alignment of Brain MRI"
+  }
 }

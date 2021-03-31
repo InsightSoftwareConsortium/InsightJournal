@@ -1,55 +1,57 @@
 {
+  "publication": {
     "abstract": "Ultrasound (US) imaging is a popular and convenient medical imaging modality thanks to its mobility, non-ionizing radiation, ease-of-use, and real-time acquisition. Conventional US imaging is frequently integrated with tracking systems and robotic systems in Image Guided Therapy (IGT) systems. Recently, these systems are also incorporating advanced US imaging such as US elasticity imaging, photoacoustic imaging, and thermal imaging. Real-time synchronous data from multiple sources and bidirectional data communication are essential for integrating components in advanced US IGT research. We previously proposed the MUSiiC ToolKit [1], a modular real-time software toolkit, and OpenIGTLinkMUSiiC [2], a standard communication protocol extended from the OpenIGTLink library [3, 4]. However, this software framework only supported real-time synchronous data from at most two sources and unidirectional communication at the software module level and class level.\n\nIn this paper, we propose MUSiiC ToolKit 2.0, an upgraded software framework for interventional advanced US research sup-porting bidirectional communication, real-time US data processing, and real-time data synchronization from multiple sources. MUSiiC ToolKit 2.0 consists of OpenIGTLink 2.0, OpenIGTlinkMUSiiC 2.0, MUSiiCNotes 2.0, and a collection of executable programs designed for US research. OpenIGTLink 2.0 is a standard TCP/IP-based protocol for the integration of medical imaging and IGT systems. OpenIGTLinkMUSiiC 2.0 is the upgraded version of OpenIGTLinkMUSiiC with new active multi-task classes, data interfaces for supporting bidirectional communication and parallel data processing. MUSiiCNotes 2.0 provides US research-oriented task classes, such as US data acquisition, beamforming, envelope detection, scan conversion, and data synchronization. Graphic User Interface (GUI) units are also available for the executable programs in MUSiiCNotes 2.0. Finally, we introduce advanced US applications based on this new software framework. \n",
     "authors": [
-        {
-            "author_fullname": "Kang, Hyun-Jae",
-            "author_place": 1,
-            "persona_email": "hjkang@jhu.edu",
-            "persona_firstname": "Hyun-jae",
-            "persona_id": 3222,
-            "persona_lastname": "Kang"
-        },
-        {
-            "author_fullname": "Cheng, Alexis",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Boctor, Emad",
-            "author_place": 3,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Kang, Hyun-Jae",
+        "author_place": 1,
+        "persona_email": "hjkang@jhu.edu",
+        "persona_firstname": "Hyun-jae",
+        "persona_id": 3222,
+        "persona_lastname": "Kang"
+      },
+      {
+        "author_fullname": "Cheng, Alexis",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Boctor, Emad",
+        "author_place": 3,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2012-08-20 18:19:11",
     "handles": [
-        {
-            "handle": "10380/3380",
-            "handle_url": "http://hdl.handle.net/10380/3380"
-        }
+      {
+        "handle": "10380/3380",
+        "handle_url": "http://hdl.handle.net/10380/3380"
+      }
     ],
+    "id": 873,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 40,
-            "journal_name": "MICCAI 2012 Workshops"
-        }
+      {
+        "journal_id": 40,
+        "journal_name": "MICCAI 2012 Workshops"
+      }
     ],
-    "publication_id": 873,
     "submitted_by_author": {
-        "author_email": "hjkang@jhu.edu",
-        "author_firstname": "Hyun-jae",
-        "author_id": 3222,
-        "author_institution": "Johns Hopkins University",
-        "author_lastname": "Kang"
+      "author_email": "hjkang@jhu.edu",
+      "author_firstname": "Hyun-jae",
+      "author_id": 3222,
+      "author_institution": "Johns Hopkins University",
+      "author_lastname": "Kang"
     },
     "tags": [
-        "Software Framework",
-        "Ultrasound",
-        "OpenIGTLink",
-        "Image Guided Therapy"
+      "Software Framework",
+      "Ultrasound",
+      "OpenIGTLink",
+      "Image Guided Therapy"
     ],
     "title": "MUSiiC ToolKit 2.0: Bidirectional Real-time Software Framework for Advanced Interventional Ultrasound Research"
+  }
 }

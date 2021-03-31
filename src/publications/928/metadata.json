@@ -1,59 +1,61 @@
 {
+  "publication": {
     "abstract": "We present a novel method for segmentation and tracking of the left ventricle (LV) in 4D ultrasound sequences using a combination of automatic segmentation at the end-diastolic frame and tracking using both a global optical flow-based tracker and local block matching. The core novelty of the proposed algorithm relies on the recursive formulation of the block-matching problem, which introduces temporal consistency on the patterns being tracked. The proposed method offers a competitive solution, with average segmentation errors of 2.29 and 2.26mm in the training (#=15) and testing (#=15) datasets respectively.",
     "authors": [
-        {
-            "author_fullname": "Barbosa, Daniel",
-            "author_place": 1,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Friboulet, Denis",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "D'hooge, Jan",
-            "author_place": 3,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Bernard, Olivier",
-            "author_place": 4,
-            "persona_email": "olivier.bernard@creatis.insa-lyon.fr",
-            "persona_firstname": "Olivier",
-            "persona_id": 5768,
-            "persona_lastname": "Bernard"
-        }
+      {
+        "author_fullname": "Barbosa, Daniel",
+        "author_place": 1,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Friboulet, Denis",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "D'hooge, Jan",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Bernard, Olivier",
+        "author_place": 4,
+        "persona_email": "olivier.bernard@creatis.insa-lyon.fr",
+        "persona_firstname": "Olivier",
+        "persona_id": 5768,
+        "persona_lastname": "Bernard"
+      }
     ],
     "date_submitted": "2014-10-13 15:37:40",
     "handles": [
-        {
-            "handle": "10380/3481",
-            "handle_url": "http://hdl.handle.net/10380/3481"
-        }
+      {
+        "handle": "10380/3481",
+        "handle_url": "http://hdl.handle.net/10380/3481"
+      }
     ],
+    "id": 928,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 42,
-            "journal_name": "MICCAI 2014 Workshops"
-        }
+      {
+        "journal_id": 42,
+        "journal_name": "MICCAI 2014 Workshops"
+      }
     ],
-    "publication_id": 928,
     "submitted_by_author": {
-        "author_email": "olivier.bernard@creatis.insa-lyon.fr",
-        "author_firstname": "Olivier",
-        "author_id": 5768,
-        "author_institution": "CREATIS",
-        "author_lastname": "Bernard"
+      "author_email": "olivier.bernard@creatis.insa-lyon.fr",
+      "author_firstname": "Olivier",
+      "author_id": 5768,
+      "author_institution": "CREATIS",
+      "author_lastname": "Bernard"
     },
     "tags": [
-        "Bspline Explicit Active Surface",
-        "Segmentation",
-        "3D ultrasound imaging"
+      "Bspline Explicit Active Surface",
+      "Segmentation",
+      "3D ultrasound imaging"
     ],
     "title": "Fast Tracking of the Left Ventricle Using Global Anatomical Affine Optical Flow and Local Recursive Block Matching"
+  }
 }

@@ -1,46 +1,48 @@
 {
+  "publication": {
     "abstract": "This document describes the implementation of an ITK class to support the reading and writing of Meshes in STL file format. The Meshes are assumed to contain 2D manifolds embedded in a 3D space. In practice, it would be desirable to use this class mostly to read and write QuadEdgeMeshes.\n\nThis paper is accompanied with the source code, input data, parameters and output data that the authors used for validating the algorithm described in this paper. This adheres to the fundamental principle that scientific publications must facilitate reproducibility of the reported results.",
     "authors": [
-        {
-            "author_fullname": "Ibanez, Luis",
-            "author_place": 1,
-            "persona_email": "luis.ibanez@kitware.com",
-            "persona_firstname": "Luis",
-            "persona_id": 4,
-            "persona_lastname": "Ibanez"
-        }
+      {
+        "author_fullname": "Ibanez, Luis",
+        "author_place": 1,
+        "persona_email": "luis.ibanez@kitware.com",
+        "persona_firstname": "Luis",
+        "persona_id": 4,
+        "persona_lastname": "Ibanez"
+      }
     ],
     "date_submitted": "2014-01-05 12:05:27",
     "handles": [
-        {
-            "handle": "10380/3452",
-            "handle_url": "http://hdl.handle.net/10380/3452"
-        }
+      {
+        "handle": "10380/3452",
+        "handle_url": "http://hdl.handle.net/10380/3452"
+      }
     ],
+    "id": 913,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 913,
     "submitted_by_author": {
-        "author_email": "luis.ibanez@kitware.com",
-        "author_firstname": "Luis",
-        "author_id": 4,
-        "author_institution": "KITWARE Inc.",
-        "author_lastname": "Ibanez"
+      "author_email": "luis.ibanez@kitware.com",
+      "author_firstname": "Luis",
+      "author_id": 4,
+      "author_institution": "KITWARE Inc.",
+      "author_lastname": "Ibanez"
     },
     "tags": [
-        "STL",
-        "3D Printing",
-        "QuadEdgeMesh",
-        "Mesh",
-        "MeshIO"
+      "STL",
+      "3D Printing",
+      "QuadEdgeMesh",
+      "Mesh",
+      "MeshIO"
     ],
     "title": "STL file format MeshIO class for ITK"
+  }
 }

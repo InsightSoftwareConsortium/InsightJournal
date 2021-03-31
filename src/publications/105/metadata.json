@@ -1,60 +1,62 @@
 {
+  "publication": {
     "abstract": "In this paper, we propose a vision based navigation system to guide an endoscope inside human colon. The target to pursue is a dark spot on colonoscopic images, called \u201cpattern\u201d. A novel methodology for \"pattern\" extraction and tracking was designed. Surgeons observations leads to the basic idea of this technique. Information about target position is then continues and makes possible prediction of the \u201cpattern\u201d position. A set of endoscopic images is tested to demonstrate the effectiveness of the vision technique. An experiment tool to simulate the endoscope navigation was employed to achieve real time performance. An interpretation of the results and the possible amelioration is presented.",
     "authors": [
-        {
-            "author_fullname": "Chettaoui, Hanene",
-            "author_place": 1,
-            "persona_email": "hchettaoui@yahoo.fr",
-            "persona_firstname": "Hanene",
-            "persona_id": 449,
-            "persona_lastname": "Chettaoui"
-        },
-        {
-            "author_fullname": "Thomann, Guillaume",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Ben Amar, Chokri",
-            "author_place": 3,
-            "persona_email": "chokri.benamar@ieee.org",
-            "persona_firstname": "Chokri",
-            "persona_id": 2498,
-            "persona_lastname": "Ben amar"
-        },
-        {
-            "author_fullname": "Redarce, Tanneguy",
-            "author_place": 4,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Chettaoui, Hanene",
+        "author_place": 1,
+        "persona_email": "hchettaoui@yahoo.fr",
+        "persona_firstname": "Hanene",
+        "persona_id": 449,
+        "persona_lastname": "Chettaoui"
+      },
+      {
+        "author_fullname": "Thomann, Guillaume",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Ben Amar, Chokri",
+        "author_place": 3,
+        "persona_email": "chokri.benamar@ieee.org",
+        "persona_firstname": "Chokri",
+        "persona_id": 2498,
+        "persona_lastname": "Ben amar"
+      },
+      {
+        "author_fullname": "Redarce, Tanneguy",
+        "author_place": 4,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2006-06-30T16:51:03Z",
     "handles": [
-        {
-            "handle": "1926/206",
-            "handle_url": "http://hdl.handle.net/1926/206"
-        }
+      {
+        "handle": "1926/206",
+        "handle_url": "http://hdl.handle.net/1926/206"
+      }
     ],
+    "id": 105,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 105,
     "submitted_by_author": {
-        "author_email": "hchettaoui@yahoo.fr",
-        "author_firstname": "Hanene",
-        "author_id": 449,
-        "author_institution": "LAI INSA Lyon ",
-        "author_lastname": "Chettaoui"
+      "author_email": "hchettaoui@yahoo.fr",
+      "author_firstname": "Hanene",
+      "author_id": 449,
+      "author_institution": "LAI INSA Lyon ",
+      "author_lastname": "Chettaoui"
     },
     "tags": [
-        "Surgical Robotic, Colonoscopy, Minimally Invasive Surgery, Medical Imaging, Visual control."
+      "Surgical Robotic, Colonoscopy, Minimally Invasive Surgery, Medical Imaging, Visual control."
     ],
     "title": "A new Gray-Level Picture Thresholding method for colonoscopic navigation"
+  }
 }

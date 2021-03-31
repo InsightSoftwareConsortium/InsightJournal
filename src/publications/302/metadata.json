@@ -1,56 +1,58 @@
 {
+  "publication": {
     "abstract": "Computing local curvatures of a given surface is important for applications, shape analysis, surface segmentation, meshing, and surface evolution. For a given smooth surface (with a given analytical expression which is sufficiently differentiable) curvatures can be analytically and directly computed. However in real applications, one often deals with a surface mesh which is an insufficiently differentiable approximation, and thus curvatures must be estimated. Based on a surface mesh data structure (\\code{itk::QuadEdgeMesh}~\\cite{itkQE}), we introduce and implement curvature estimators following the approach of Meyer\\etal\\cite{Meyer02}. We show on a sphere that this method results in more stable curvature approximations than the commonly used discrete estimators (as used in VTK: \\code{vtkCurvatures}).",
     "authors": [
-        {
-            "author_fullname": "Gelas, Arnaud",
-            "author_place": 1,
-            "persona_email": "arnaudgelas@gmail.com",
-            "persona_firstname": "Arnaud",
-            "persona_id": 7896,
-            "persona_lastname": "Gelas"
-        },
-        {
-            "author_fullname": "Gouaillard, Alexandre ",
-            "author_place": 2,
-            "persona_email": "agouaillard@gmail.com",
-            "persona_firstname": "Alexandre",
-            "persona_id": 322,
-            "persona_lastname": "Gouaillard"
-        },
-        {
-            "author_fullname": "Megason, Sean ",
-            "author_place": 3,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Gelas, Arnaud",
+        "author_place": 1,
+        "persona_email": "arnaudgelas@gmail.com",
+        "persona_firstname": "Arnaud",
+        "persona_id": 7896,
+        "persona_lastname": "Gelas"
+      },
+      {
+        "author_fullname": "Gouaillard, Alexandre ",
+        "author_place": 2,
+        "persona_email": "agouaillard@gmail.com",
+        "persona_firstname": "Alexandre",
+        "persona_id": 322,
+        "persona_lastname": "Gouaillard"
+      },
+      {
+        "author_fullname": "Megason, Sean ",
+        "author_place": 3,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2008-09-07 17:33:30",
     "handles": [
-        {
-            "handle": "1926/1494",
-            "handle_url": "http://hdl.handle.net/1926/1494"
-        }
+      {
+        "handle": "1926/1494",
+        "handle_url": "http://hdl.handle.net/1926/1494"
+      }
     ],
+    "id": 302,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 302,
     "submitted_by_author": {
-        "author_email": null,
-        "author_firstname": null,
-        "author_id": null,
-        "author_institution": "Harvard Medical School",
-        "author_lastname": null
+      "author_email": null,
+      "author_firstname": null,
+      "author_id": null,
+      "author_institution": "Harvard Medical School",
+      "author_lastname": null
     },
     "tags": [
-        "surface mesh",
-        "curvature"
+      "surface mesh",
+      "curvature"
     ],
     "title": "Surface Mesh Discrete Curvature Estimators"
+  }
 }

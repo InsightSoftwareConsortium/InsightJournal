@@ -1,54 +1,56 @@
 {
+  "publication": {
     "abstract": "This paper presents an ITK implementation for exporting the contours of the automated segmentation results to DICOM-RT Structure Set format. The \u201cradiotherapy structure set\u201d (RTSTRUCT) object of the DICOM standard is used for the transfer of patient structures and related data, between the devices found within and outside the radiotherapy department. It mainly contains the information of regions of interest (ROIs) and points of interest (E.g. dose reference points). In many cases, rather than manually drawing these ROIs on the CT images, one can indeed benefit from the automated segmentation algorithms already implemented in ITK. But at present, it is not possible to export the ROIs obtained from ITK to RTSTRUCT format. In order to bridge this gap, we have developed a framework for exporting contour data to RTSTRUCT. We provide here the complete implementation of RTSTRUCT exporter and present the details of the pipeline used. Results on a 3-D CT image of the Head and Neck (H&N) region are presented.",
     "authors": [
-        {
-            "author_fullname": "Gorthi, Subrahmanyam",
-            "author_place": 1,
-            "persona_email": "subrahmanyam.gorthi@gmail.com",
-            "persona_firstname": "Subrahmanyam",
-            "persona_id": 769,
-            "persona_lastname": "Gorthi"
-        },
-        {
-            "author_fullname": "Bach Cuadra, Meritxell",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Thiran, Jean-Philippe",
-            "author_place": 3,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Gorthi, Subrahmanyam",
+        "author_place": 1,
+        "persona_email": "subrahmanyam.gorthi@gmail.com",
+        "persona_firstname": "Subrahmanyam",
+        "persona_id": 769,
+        "persona_lastname": "Gorthi"
+      },
+      {
+        "author_fullname": "Bach Cuadra, Meritxell",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Thiran, Jean-Philippe",
+        "author_place": 3,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2009-01-30 09:25:10",
     "handles": [
-        {
-            "handle": "1926/1521",
-            "handle_url": "http://hdl.handle.net/1926/1521"
-        }
+      {
+        "handle": "1926/1521",
+        "handle_url": "http://hdl.handle.net/1926/1521"
+      }
     ],
+    "id": 316,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 316,
     "submitted_by_author": {
-        "author_email": "subrahmanyam.gorthi@gmail.com",
-        "author_firstname": "Subrahmanyam",
-        "author_id": 769,
-        "author_institution": "EPFL",
-        "author_lastname": "Gorthi"
+      "author_email": "subrahmanyam.gorthi@gmail.com",
+      "author_firstname": "Subrahmanyam",
+      "author_id": 769,
+      "author_institution": "EPFL",
+      "author_lastname": "Gorthi"
     },
     "tags": [
-        "Radiotherapy",
-        "DICOM-RT",
-        "RTSTRUCT"
+      "Radiotherapy",
+      "DICOM-RT",
+      "RTSTRUCT"
     ],
     "title": "Exporting Contours to DICOM-RT Structure Set"
+  }
 }

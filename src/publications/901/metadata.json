@@ -1,62 +1,64 @@
 {
+  "publication": {
     "abstract": "This paper describes an automated algorithm for segmentation\nof brain structures (CSF, white matter, and gray matter) in MR\nimages. We employ machine learning, i.e. k-Nearest Neighbors, of features\nderived from k-means, Canny edge detection, and Tourist Walks\nto fully automate the seeding process of the Random Walker algorithm.\nWe test our methods on a dataset of 12 diabetes patients with atrophy\nand varying degrees of white matter lesions provided by the MRBrainS13\nChallenge, and \ffind encouraging segmentation performance.",
     "authors": [
-        {
-            "author_fullname": "Vyas, Saurabh",
-            "author_place": 1,
-            "persona_email": "Saurabh.Vyas@jhuapl.edu",
-            "persona_firstname": "Saurabh",
-            "persona_id": 8761,
-            "persona_lastname": "Vyas"
-        },
-        {
-            "author_fullname": "Burlina, Philippe",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Kleissas, Dean",
-            "author_place": 3,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Mukherjee, Ryan",
-            "author_place": 4,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Vyas, Saurabh",
+        "author_place": 1,
+        "persona_email": "Saurabh.Vyas@jhuapl.edu",
+        "persona_firstname": "Saurabh",
+        "persona_id": 8761,
+        "persona_lastname": "Vyas"
+      },
+      {
+        "author_fullname": "Burlina, Philippe",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Kleissas, Dean",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Mukherjee, Ryan",
+        "author_place": 4,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2013-10-21 12:45:48",
     "handles": [
-        {
-            "handle": "10380/3437",
-            "handle_url": "http://hdl.handle.net/10380/3437"
-        }
+      {
+        "handle": "10380/3437",
+        "handle_url": "http://hdl.handle.net/10380/3437"
+      }
     ],
+    "id": 901,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 41,
-            "journal_name": "MICCAI 2013 Workshops"
-        }
+      {
+        "journal_id": 41,
+        "journal_name": "MICCAI 2013 Workshops"
+      }
     ],
-    "publication_id": 901,
     "submitted_by_author": {
-        "author_email": "Saurabh.Vyas@jhuapl.edu",
-        "author_firstname": "Saurabh",
-        "author_id": 8761,
-        "author_institution": "Johns Hopkins University",
-        "author_lastname": "Vyas"
+      "author_email": "Saurabh.Vyas@jhuapl.edu",
+      "author_firstname": "Saurabh",
+      "author_id": 8761,
+      "author_institution": "Johns Hopkins University",
+      "author_lastname": "Vyas"
     },
     "tags": [
-        "Tourist Walks",
-        "k-Means",
-        "Edge Detection",
-        "Random Walker",
-        "k-NN",
-        "Machine Learning"
+      "Tourist Walks",
+      "k-Means",
+      "Edge Detection",
+      "Random Walker",
+      "k-NN",
+      "Machine Learning"
     ],
     "title": "Automated Walks using Machine Learning for Segmentation"
+  }
 }

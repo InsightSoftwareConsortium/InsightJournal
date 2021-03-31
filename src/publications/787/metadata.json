@@ -1,43 +1,45 @@
 {
+  "publication": {
     "abstract": "This document presents a system to fill a hole in an image by copying patches from elsewhere in the image. These patches should be a good continuation of the hole boundary into the hole. The patch copying is done in an order which attempts to preserve linear structures in the image. This implementation is based on the algorithm described in ``Object Removal by Exemplar-Based Inpainting'' (Criminisi et. al.).\n\nThe code is available here:\nhttps://github.com/daviddoria/Inpainting",
     "authors": [
-        {
-            "author_fullname": "Doria, David",
-            "author_place": 1,
-            "persona_email": "daviddoria@gmail.com",
-            "persona_firstname": "David",
-            "persona_id": 2205,
-            "persona_lastname": "Doria"
-        }
+      {
+        "author_fullname": "Doria, David",
+        "author_place": 1,
+        "persona_email": "daviddoria@gmail.com",
+        "persona_firstname": "David",
+        "persona_id": 2205,
+        "persona_lastname": "Doria"
+      }
     ],
     "date_submitted": "2011-02-04 14:48:57",
     "handles": [
-        {
-            "handle": "10380/3250",
-            "handle_url": "http://hdl.handle.net/10380/3250"
-        }
+      {
+        "handle": "10380/3250",
+        "handle_url": "http://hdl.handle.net/10380/3250"
+      }
     ],
+    "id": 787,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 787,
     "submitted_by_author": {
-        "author_email": "daviddoria@gmail.com",
-        "author_firstname": "David",
-        "author_id": 2205,
-        "author_institution": "Rensselaer Polytechnic Institute",
-        "author_lastname": "Doria"
+      "author_email": "daviddoria@gmail.com",
+      "author_firstname": "David",
+      "author_id": 2205,
+      "author_institution": "Rensselaer Polytechnic Institute",
+      "author_lastname": "Doria"
     },
     "tags": [
-        "inpainting",
-        "image completion"
+      "inpainting",
+      "image completion"
     ],
     "title": "Criminisi Inpainting"
+  }
 }

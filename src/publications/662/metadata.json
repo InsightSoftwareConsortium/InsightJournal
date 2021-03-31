@@ -1,58 +1,60 @@
 {
+  "publication": {
     "abstract": "This document describes a contribution to the Insight Toolkit intended to smooth the values of Field data associated with the nodes of a Spherical Mesh. The Mesh Smoothing filters contributed here do not modify the geometry or the topology of the Mesh. They act only upon the pixel data values associated with the nodes. Two filters are presented, one that smooths scalar field data, and a second one that smooths vector field data.\n This paper is accompanied with the source code, input data, parameters and output data that we used for validating the algorithm described in this paper. This adheres to the fundamental principle that scientific publications must facilitate reproducibility of the reported results.\n",
     "authors": [
-        {
-            "author_fullname": "Ibanez, Luis",
-            "author_place": 1,
-            "persona_email": "luis.ibanez@kitware.com",
-            "persona_firstname": "Luis",
-            "persona_id": 4,
-            "persona_lastname": "Ibanez"
-        },
-        {
-            "author_fullname": "Yeo, B.T. Thomas",
-            "author_place": 2,
-            "persona_email": "ythomas@csail.mit.edu",
-            "persona_firstname": "B.t. thomas",
-            "persona_id": 2237,
-            "persona_lastname": "Yeo"
-        },
-        {
-            "author_fullname": "Golland, Polina",
-            "author_place": 3,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Ibanez, Luis",
+        "author_place": 1,
+        "persona_email": "luis.ibanez@kitware.com",
+        "persona_firstname": "Luis",
+        "persona_id": 4,
+        "persona_lastname": "Ibanez"
+      },
+      {
+        "author_fullname": "Yeo, B.T. Thomas",
+        "author_place": 2,
+        "persona_email": "ythomas@csail.mit.edu",
+        "persona_firstname": "B.t. thomas",
+        "persona_id": 2237,
+        "persona_lastname": "Yeo"
+      },
+      {
+        "author_fullname": "Golland, Polina",
+        "author_place": 3,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2010-04-25 21:00:43",
     "handles": [
-        {
-            "handle": "10380/3091",
-            "handle_url": "http://hdl.handle.net/10380/3091"
-        }
+      {
+        "handle": "10380/3091",
+        "handle_url": "http://hdl.handle.net/10380/3091"
+      }
     ],
+    "id": 662,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 662,
     "submitted_by_author": {
-        "author_email": "luis.ibanez@kitware.com",
-        "author_firstname": "Luis",
-        "author_id": 4,
-        "author_institution": "KITWARE Inc.",
-        "author_lastname": "Ibanez"
+      "author_email": "luis.ibanez@kitware.com",
+      "author_firstname": "Luis",
+      "author_id": 4,
+      "author_institution": "KITWARE Inc.",
+      "author_lastname": "Ibanez"
     },
     "tags": [
-        "Mesh Data Smoothing",
-        "QuadEdgeMesh",
-        "Parallel Transport",
-        "Mesh Processing"
+      "Mesh Data Smoothing",
+      "QuadEdgeMesh",
+      "Parallel Transport",
+      "Mesh Processing"
     ],
     "title": "Iterative Smoothing of Field Data in Spherical Meshes"
+  }
 }

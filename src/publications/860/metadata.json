@@ -1,43 +1,45 @@
 {
+  "publication": {
     "abstract": "This document describes the workflow for unwarping structural MR images, in particular T1-weighted SPGR and MP-RAGE scans, using reference scans of the Magphan(R) EMR051 Quantitative Imaging Phantom (a.k.a. ADNI Phantom) and the tools of the Computational Morphometry Toolkit (CMTK).",
     "authors": [
-        {
-            "author_fullname": "Rohlfing, Torsten",
-            "author_place": 1,
-            "persona_email": "torsten@synapse.sri.com",
-            "persona_firstname": "Torsten",
-            "persona_id": 168,
-            "persona_lastname": "Rohlfing"
-        }
+      {
+        "author_fullname": "Rohlfing, Torsten",
+        "author_place": 1,
+        "persona_email": "torsten@synapse.sri.com",
+        "persona_firstname": "Torsten",
+        "persona_id": 168,
+        "persona_lastname": "Rohlfing"
+      }
     ],
     "date_submitted": "2013-05-30 16:42:59",
     "handles": [
-        {
-            "handle": "10380/3354",
-            "handle_url": "http://hdl.handle.net/10380/3354"
-        }
+      {
+        "handle": "10380/3354",
+        "handle_url": "http://hdl.handle.net/10380/3354"
+      }
     ],
+    "id": 860,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 860,
     "submitted_by_author": {
-        "author_email": "torsten@synapse.sri.com",
-        "author_firstname": "Torsten",
-        "author_id": 168,
-        "author_institution": "SRI International",
-        "author_lastname": "Rohlfing"
+      "author_email": "torsten@synapse.sri.com",
+      "author_firstname": "Torsten",
+      "author_id": 168,
+      "author_institution": "SRI International",
+      "author_lastname": "Rohlfing"
     },
     "tags": [
-        "phantom",
-        "mr unwarping"
+      "phantom",
+      "mr unwarping"
     ],
     "title": "Structural MRI Unwarping Using CMTK"
+  }
 }

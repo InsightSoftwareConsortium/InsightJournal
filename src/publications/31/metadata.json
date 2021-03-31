@@ -1,69 +1,71 @@
 {
+  "publication": {
     "abstract": "Camino is an open-source, object-oriented software package for processing diffusion MRI data. Camino implements a data processing pipeline, which allows for easy scripting and flexible integration with other software. This paper summarises the features of Camino at each stage of the pipeline from the raw data to the statistics used by clinicians and researchers. The paper also discusses the role of Camino in the paper \"An Automated Approach to Connectivity-based Partitioning of Brain Structures\", published at MICCAI 2005.",
     "authors": [
-        {
-            "author_fullname": "Cook, Philip A",
-            "author_place": 1,
-            "persona_email": "p.cook@cs.ucl.ac.uk",
-            "persona_firstname": "Philip",
-            "persona_id": 34,
-            "persona_lastname": "Cook"
-        },
-        {
-            "author_fullname": "Bai, Yu",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Hall, Matt G",
-            "author_place": 3,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Nedjati-Gilani, Shahrum",
-            "author_place": 4,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Seunarine, Kiran K",
-            "author_place": 5,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Alexander, Daniel C",
-            "author_place": 6,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Cook, Philip A",
+        "author_place": 1,
+        "persona_email": "p.cook@cs.ucl.ac.uk",
+        "persona_firstname": "Philip",
+        "persona_id": 34,
+        "persona_lastname": "Cook"
+      },
+      {
+        "author_fullname": "Bai, Yu",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Hall, Matt G",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Nedjati-Gilani, Shahrum",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Seunarine, Kiran K",
+        "author_place": 5,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Alexander, Daniel C",
+        "author_place": 6,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2005-08-05T18:32:32Z",
     "handles": [
-        {
-            "handle": "1926/38",
-            "handle_url": "http://hdl.handle.net/1926/38"
-        }
+      {
+        "handle": "1926/38",
+        "handle_url": "http://hdl.handle.net/1926/38"
+      }
     ],
+    "id": 31,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 31,
     "submitted_by_author": {
-        "author_email": "p.cook@cs.ucl.ac.uk",
-        "author_firstname": "Philip",
-        "author_id": 34,
-        "author_institution": "University College London",
-        "author_lastname": "Cook"
+      "author_email": "p.cook@cs.ucl.ac.uk",
+      "author_firstname": "Philip",
+      "author_id": 34,
+      "author_institution": "University College London",
+      "author_lastname": "Cook"
     },
     "tags": [
-        "MRI",
-        "Diffusion",
-        "simulation"
+      "MRI",
+      "Diffusion",
+      "simulation"
     ],
     "title": "Camino: Diffusion MRI reconstruction and processing"
+  }
 }

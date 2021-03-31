@@ -1,42 +1,44 @@
 {
+  "publication": {
     "abstract": "This document describes a filter called itkMultipleUnlabeledImagesToLabeledImageFilter, which takes multiple images as input and generates a single image of labeled pixels. Pixels to be labeled for each image are determined by an intensity threshold. Submitted with this document is the source code for the filter and source code for demonstrating filter usage via an image input as an argument. Also included is source code for testing the functionality of the filter.",
     "authors": [
-        {
-            "author_fullname": "Tamburo, Robert",
-            "author_place": 1,
-            "persona_email": "robert.tamburo@gmail.com",
-            "persona_firstname": "Robert",
-            "persona_id": 59,
-            "persona_lastname": "Tamburo"
-        }
+      {
+        "author_fullname": "Tamburo, Robert",
+        "author_place": 1,
+        "persona_email": "robert.tamburo@gmail.com",
+        "persona_firstname": "Robert",
+        "persona_id": 59,
+        "persona_lastname": "Tamburo"
+      }
     ],
     "date_submitted": "2006-10-19T05:43:44Z",
     "handles": [
-        {
-            "handle": "1926/323",
-            "handle_url": "http://hdl.handle.net/1926/323"
-        }
+      {
+        "handle": "1926/323",
+        "handle_url": "http://hdl.handle.net/1926/323"
+      }
     ],
+    "id": 127,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 127,
     "submitted_by_author": {
-        "author_email": "robert.tamburo@gmail.com",
-        "author_firstname": "Robert",
-        "author_id": 59,
-        "author_institution": " ",
-        "author_lastname": "Tamburo"
+      "author_email": "robert.tamburo@gmail.com",
+      "author_firstname": "Robert",
+      "author_id": 59,
+      "author_institution": " ",
+      "author_lastname": "Tamburo"
     },
     "tags": [
-        "filter assigning labels"
+      "filter assigning labels"
     ],
     "title": "itkMultipleUnlabeledImagesToLabeledImageFilter"
+  }
 }

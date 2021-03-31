@@ -1,63 +1,65 @@
 {
+  "publication": {
     "abstract": "As part of the CETUS challenge, we present a multi-atlas segmentation framework to delineate the left-ventricle endocardium in echocardiographic images. To increase the robustness of the registration step, we introduce a speckle reduction step and a new shape representation based on sparse coding and manifold approximation in dictionary\nspace. The shape representation, unlike intensity values, provides consistent shape information across different images. The validation results on the test set show that registration based on our shape representation significantly improves the performance of multi-atlas segmentation compared to intensity based registration. To our knowledge it is the first time that multi-atlas segmentation achieves state-of-the-art results for echocardiographic images.",
     "authors": [
-        {
-            "author_fullname": "Oktay, Ozan",
-            "author_place": 1,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Shi, Wenzhe",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Keraudren, Kevin",
-            "author_place": 3,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Caballero, Jose",
-            "author_place": 4,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Rueckert, Daniel",
-            "author_place": 5,
-            "persona_email": "dr@doc.ic.ac.uk",
-            "persona_firstname": "Daniel",
-            "persona_id": 85,
-            "persona_lastname": "Rueckert"
-        }
+      {
+        "author_fullname": "Oktay, Ozan",
+        "author_place": 1,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Shi, Wenzhe",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Keraudren, Kevin",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Caballero, Jose",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Rueckert, Daniel",
+        "author_place": 5,
+        "persona_email": "dr@doc.ic.ac.uk",
+        "persona_firstname": "Daniel",
+        "persona_id": 85,
+        "persona_lastname": "Rueckert"
+      }
     ],
     "date_submitted": "2014-10-24 19:08:00",
     "handles": [
-        {
-            "handle": "10380/3486",
-            "handle_url": "http://hdl.handle.net/10380/3486"
-        }
+      {
+        "handle": "10380/3486",
+        "handle_url": "http://hdl.handle.net/10380/3486"
+      }
     ],
+    "id": 933,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 42,
-            "journal_name": "MICCAI 2014 Workshops"
-        }
+      {
+        "journal_id": 42,
+        "journal_name": "MICCAI 2014 Workshops"
+      }
     ],
-    "publication_id": 933,
     "submitted_by_author": {
-        "author_email": "olivier.bernard@creatis.insa-lyon.fr",
-        "author_firstname": "Olivier",
-        "author_id": 5768,
-        "author_institution": "CREATIS",
-        "author_lastname": "Bernard"
+      "author_email": "olivier.bernard@creatis.insa-lyon.fr",
+      "author_firstname": "Olivier",
+      "author_id": 5768,
+      "author_institution": "CREATIS",
+      "author_lastname": "Bernard"
     },
     "tags": [
-        "3D ultrasound imaging",
-        "Segmentation"
+      "3D ultrasound imaging",
+      "Segmentation"
     ],
     "title": "Learning Shape Representations for Multi-Atlas Endocardium Segmentation in 3D Echo Images"
+  }
 }

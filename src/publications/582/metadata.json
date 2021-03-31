@@ -1,63 +1,65 @@
 {
+  "publication": {
     "abstract": "The Definiens Cognition Network Technology is applied to detect automatically tumors in a human liver. On the basis of a test data set containing ten tumors we show first quantitative results which are compared to manual segmentations provided by medical experts.",
     "authors": [
-        {
-            "author_fullname": "Schmidt, Guenter",
-            "author_place": 1,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Binnig, Gerd",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Kietzmann, Markus",
-            "author_place": 3,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Kim, Johann",
-            "author_place": 4,
-            "persona_email": "jkim@definiens.com",
-            "persona_firstname": "Johann",
-            "persona_id": 884,
-            "persona_lastname": "Kim"
-        }
+      {
+        "author_fullname": "Schmidt, Guenter",
+        "author_place": 1,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Binnig, Gerd",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Kietzmann, Markus",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Kim, Johann",
+        "author_place": 4,
+        "persona_email": "jkim@definiens.com",
+        "persona_firstname": "Johann",
+        "persona_id": 884,
+        "persona_lastname": "Kim"
+      }
     ],
     "date_submitted": "2008-07-07T16:21:28Z",
     "handles": [
-        {
-            "handle": "10380/1415",
-            "handle_url": "http://hdl.handle.net/10380/1415"
-        }
+      {
+        "handle": "10380/1415",
+        "handle_url": "http://hdl.handle.net/10380/1415"
+      }
     ],
+    "id": 582,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 45,
-            "journal_name": "MICCAI 2016 Workshops"
-        },
-        {
-            "journal_id": 33,
-            "journal_name": "MICCAI 2008 Workshops"
-        }
+      {
+        "journal_id": 45,
+        "journal_name": "MICCAI 2016 Workshops"
+      },
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
     ],
-    "publication_id": 582,
     "submitted_by_author": {
-        "author_email": "jkim@definiens.com",
-        "author_firstname": "Johann",
-        "author_id": 884,
-        "author_institution": "Definiens AG",
-        "author_lastname": "Kim"
+      "author_email": "jkim@definiens.com",
+      "author_firstname": "Johann",
+      "author_id": 884,
+      "author_institution": "Definiens AG",
+      "author_lastname": "Kim"
     },
     "tags": [
-        "tumor",
-        "liver",
-        "segmentation"
+      "tumor",
+      "liver",
+      "segmentation"
     ],
     "title": "Cognition Network Technology for a Fully Automated 3D Segmentation of Liver Tumors"
+  }
 }

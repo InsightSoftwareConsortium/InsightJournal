@@ -1,43 +1,45 @@
 {
+  "publication": {
     "abstract": "ITK currently comes with a 2D binary thinning (skeletonisation) method, but does not support 3D or higher. This paper documents a new itkBinaryThinningImageFilter3D and recommends to rename the current filter as itkBinaryThinningImageFilter2D.\r\n\r\nThe 3D method suggested here is a direct implementation of the work of Lee et al. [2] who have demonstrated that their algorithm can find all deletable surface points at every iteration and is thus very fast. The code was tested on six clinical datasets.",
     "authors": [
-        {
-            "author_fullname": "Homann, Hanno",
-            "author_place": 1,
-            "persona_email": "hanno.homann@freenet.de",
-            "persona_firstname": "Hanno",
-            "persona_id": 697,
-            "persona_lastname": "Homann"
-        }
+      {
+        "author_fullname": "Homann, Hanno",
+        "author_place": 1,
+        "persona_email": "hanno.homann@freenet.de",
+        "persona_firstname": "Hanno",
+        "persona_id": 697,
+        "persona_lastname": "Homann"
+      }
     ],
     "date_submitted": "2007-10-12T06:26:27Z",
     "handles": [
-        {
-            "handle": "1926/1292",
-            "handle_url": "http://hdl.handle.net/1926/1292"
-        }
+      {
+        "handle": "1926/1292",
+        "handle_url": "http://hdl.handle.net/1926/1292"
+      }
     ],
+    "id": 181,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 181,
     "submitted_by_author": {
-        "author_email": "hanno.homann@freenet.de",
-        "author_firstname": "Hanno",
-        "author_id": 697,
-        "author_institution": "Oxford University",
-        "author_lastname": "Homann"
+      "author_email": "hanno.homann@freenet.de",
+      "author_firstname": "Hanno",
+      "author_id": 697,
+      "author_institution": "Oxford University",
+      "author_lastname": "Homann"
     },
     "tags": [
-        "skeletonization",
-        "3D thinning"
+      "skeletonization",
+      "3D thinning"
     ],
     "title": "Implementation of a 3D thinning algorithm"
+  }
 }

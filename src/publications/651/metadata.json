@@ -1,81 +1,83 @@
 {
+  "publication": {
     "abstract": "Developing both graphical and command-line user interfaces for image analysis algorithms requires considerable effort. Generally developers provide limited to very rudimentary user interface controls to their users. These image analysis algorithms can only meet their potential if they can be used easily and frequently by their intended users. Deployment of a large suite of such algorithms on multiple platforms requires that the software be stable and appropriately tested. \n\nWe present a novel framework that allows for rapid development of image analysis algorithms along with graphical user interface controls. Additionally, our framework allows for simplified nightly testing of the algorithms to ensure stability and cross platform interoperability. It allows for development of complex algorithms by creating a custom pipeline where the output of an algorithm can serve as an input for another algorithm. All of the functionality is encapsulation into the object \nrequiring no separate source code for user interfaces, testing or deployment. This makes our framework ideal for developing novel, stable and easy-to-use algorithms for computer assisted interventions (CAI). The framework has been deployed at the Magnetic Resonance Research Center at Yale University and has been released for public use. ",
     "authors": [
-        {
-            "author_fullname": "Joshi, Alark",
-            "author_place": 1,
-            "persona_email": "alark.joshi@yale.edu",
-            "persona_firstname": "Alark",
-            "persona_id": 2154,
-            "persona_lastname": "Joshi"
-        },
-        {
-            "author_fullname": "Scheinost, Dustin",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Okuda, Hirohito",
-            "author_place": 3,
-            "persona_email": "hirohito.okuda@ge.com",
-            "persona_firstname": "Hirohito",
-            "persona_id": 1094,
-            "persona_lastname": "Okuda"
-        },
-        {
-            "author_fullname": "Murphy, Isabella",
-            "author_place": 4,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Staib, Lawrence",
-            "author_place": 5,
-            "persona_email": "lawrence.staib@yale.edu",
-            "persona_firstname": "Lawrence",
-            "persona_id": 27,
-            "persona_lastname": "Staib"
-        },
-        {
-            "author_fullname": "Papademetris, Xenophon",
-            "author_place": 6,
-            "persona_email": "xenophon.papademetris@yale.edu",
-            "persona_firstname": "Xenophon",
-            "persona_id": 79,
-            "persona_lastname": "Papademetris"
-        }
+      {
+        "author_fullname": "Joshi, Alark",
+        "author_place": 1,
+        "persona_email": "alark.joshi@yale.edu",
+        "persona_firstname": "Alark",
+        "persona_id": 2154,
+        "persona_lastname": "Joshi"
+      },
+      {
+        "author_fullname": "Scheinost, Dustin",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Okuda, Hirohito",
+        "author_place": 3,
+        "persona_email": "hirohito.okuda@ge.com",
+        "persona_firstname": "Hirohito",
+        "persona_id": 1094,
+        "persona_lastname": "Okuda"
+      },
+      {
+        "author_fullname": "Murphy, Isabella",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Staib, Lawrence",
+        "author_place": 5,
+        "persona_email": "lawrence.staib@yale.edu",
+        "persona_firstname": "Lawrence",
+        "persona_id": 27,
+        "persona_lastname": "Staib"
+      },
+      {
+        "author_fullname": "Papademetris, Xenophon",
+        "author_place": 6,
+        "persona_email": "xenophon.papademetris@yale.edu",
+        "persona_firstname": "Xenophon",
+        "persona_id": 79,
+        "persona_lastname": "Papademetris"
+      }
     ],
     "date_submitted": "2009-08-15 17:25:51",
     "handles": [
-        {
-            "handle": "10380/3078",
-            "handle_url": "http://hdl.handle.net/10380/3078"
-        }
+      {
+        "handle": "10380/3078",
+        "handle_url": "http://hdl.handle.net/10380/3078"
+      }
     ],
+    "id": 651,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 34,
-            "journal_name": "MICCAI 2009 Workshops"
-        }
+      {
+        "journal_id": 34,
+        "journal_name": "MICCAI 2009 Workshops"
+      }
     ],
-    "publication_id": 651,
     "submitted_by_author": {
-        "author_email": "alark.joshi@yale.edu",
-        "author_firstname": "Alark",
-        "author_id": 2154,
-        "author_institution": "Yale University",
-        "author_lastname": "Joshi"
+      "author_email": "alark.joshi@yale.edu",
+      "author_firstname": "Alark",
+      "author_id": 2154,
+      "author_institution": "Yale University",
+      "author_lastname": "Joshi"
     },
     "tags": [
-        "user interface",
-        "framework",
-        "image-guided interventions",
-        "testing",
-        "rapid development",
-        "software engineering"
+      "user interface",
+      "framework",
+      "image-guided interventions",
+      "testing",
+      "rapid development",
+      "software engineering"
     ],
     "title": "Unified framework for development, deployment and testing of image analysis algorithms"
+  }
 }

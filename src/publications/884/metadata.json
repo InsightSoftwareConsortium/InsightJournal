@@ -1,56 +1,58 @@
 {
+  "publication": {
     "abstract": "Nonrigid image registration is an important, but resource demanding and time-consuming task in medical image analysis. This limits its application in time-critical clinical routines. In this report we explore acceleration of two time-consuming parts of a registration algorithm by means of parallel processing using the GPU. We built upon the OpenCL-based GPU image processing framework of the recent ITK4 release, and implemented Gaussian multi-resolution strategies and a general resampling framework. We evaluated the performance gain on two multi-core machines with NVidia GPUs, and compared to an existing ITK4 CPU implementation. A speedup factor of ~2-4 was realized for the multi-resolution strategies and a speedup factor of ~10-46 was achieved for resampling, for larger images (~10^8 voxels).",
     "authors": [
-        {
-            "author_fullname": "Staring, Marius",
-            "author_place": 3,
-            "persona_email": "marius.staring@gmail.com",
-            "persona_firstname": "Marius",
-            "persona_id": 208,
-            "persona_lastname": "Staring"
-        },
-        {
-            "author_fullname": "Shamonin, Denis",
-            "author_place": 2,
-            "persona_email": "D.P.Shamonin@lumc.nl",
-            "persona_firstname": "Denis",
-            "persona_id": 7069,
-            "persona_lastname": "Shamonin"
-        }
+      {
+        "author_fullname": "Staring, Marius",
+        "author_place": 3,
+        "persona_email": "marius.staring@gmail.com",
+        "persona_firstname": "Marius",
+        "persona_id": 208,
+        "persona_lastname": "Staring"
+      },
+      {
+        "author_fullname": "Shamonin, Denis",
+        "author_place": 2,
+        "persona_email": "D.P.Shamonin@lumc.nl",
+        "persona_firstname": "Denis",
+        "persona_id": 7069,
+        "persona_lastname": "Shamonin"
+      }
     ],
     "date_submitted": "2012-12-18 08:16:11",
     "handles": [
-        {
-            "handle": "10380/3393",
-            "handle_url": "http://hdl.handle.net/10380/3393"
-        }
+      {
+        "handle": "10380/3393",
+        "handle_url": "http://hdl.handle.net/10380/3393"
+      }
     ],
+    "id": 884,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 884,
     "submitted_by_author": {
-        "author_email": "D.P.Shamonin@lumc.nl",
-        "author_firstname": "Denis",
-        "author_id": 7069,
-        "author_institution": "Division of Image Processing, Department of Radiology, Leiden, The Netherlands",
-        "author_lastname": "Shamonin"
+      "author_email": "D.P.Shamonin@lumc.nl",
+      "author_firstname": "Denis",
+      "author_id": 7069,
+      "author_institution": "Division of Image Processing, Department of Radiology, Leiden, The Netherlands",
+      "author_lastname": "Shamonin"
     },
     "tags": [
-        "OpenCL",
-        "GPUResampleImageFilter",
-        "elastix",
-        "GenericMultiResolutionPyramidImageFilter",
-        "image registration",
-        "parallelization",
-        "GPU"
+      "OpenCL",
+      "GPUResampleImageFilter",
+      "elastix",
+      "GenericMultiResolutionPyramidImageFilter",
+      "image registration",
+      "parallelization",
+      "GPU"
     ],
     "title": "An OpenCL implementation of the Gaussian pyramid and the resampler"
+  }
 }

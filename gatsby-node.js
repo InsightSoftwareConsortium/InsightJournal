@@ -11,7 +11,7 @@ const path = require('path')
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
-  if (node.internal.type === 'Json' && node.publication_id) {
+  if (node.internal.type === 'Json' && node.publication) {
     // Use `createFilePath` to turn json files in our `src/publications` directory into ``
     const relativeFilePath = createFilePath({
       node,
@@ -19,11 +19,16 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       basePath: "data/publications",
     })
     // Creates new query'able field with name of 'slug'
-    const publication_id = String(node.publication_id)
+    const id = String(node.publication.id)
     createNodeField({
       node,
       name: "slug",
-      value: `/browse/publication/${publication_id}`,
+      value: `/browse/publication/${id}`,
+    })
+    createNodeField({
+      node,
+      name: "publication_id",
+      value: id,
     })
   }
 }
@@ -45,7 +50,7 @@ exports.createPages = async ({ graphql, actions }) => {
   const targetJournal = siteMetadata.data.site.siteMetadata.targetJournal
   const publications = await graphql(`
 {
-    allJson(filter: {journals: {elemMatch: {journal_id: {eq: ${targetJournal}}}}}) {
+    allJson(filter: {publication:{ journals: {elemMatch: {journal_id: {eq: ${targetJournal}}}}}}) {
         edges {
             node {
                 fields {
@@ -63,7 +68,7 @@ exports.createPages = async ({ graphql, actions }) => {
       context: {
         // Data passed to context is available in page queries as GraphQL variables.
         slug: node.fields.slug,
-        cover: `${String(node.publication_id)}/cover.jpeg`,
+        cover: `${String(node.fields.publication_id)}/cover.jpeg`,
       },
     })
   })

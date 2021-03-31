@@ -1,73 +1,75 @@
 {
+  "publication": {
     "abstract": "An Insight Toolkit (ITK) processing framework for simultaneous segmentation of multiple objects using \r\nactive contours without edges is presented in this paper. These techniques are also popularly referred to \r\nas multiphase methods. Earlier, we had an implemented the Chan and Vese [1] algorithm that uses level- \r\nsets to accomplish region segmentation in images with poor or no gradient information. The current \r\nwork extends that submission to use multiple level sets that evolve concurrently. The basic idea is to \r\npartion the image into several sets of piecewise constant intensity regions. This work is in contrast to \r\nthe level-set methods currently available in ITK which necessarily require gradient information and also \r\nnecessarily segment a single object-of-interest. Similar to those methods, the methods presented in this \r\npaper are also made ef\ufb01cient using a sparse implementation strategy that solves the contour evolution \r\nPDE at the level-set boundary. This work does not introduce any new \ufb01lter but extends the earlier \r\nsubmitted to \ufb01lters to process multiple objects. We include 2D/3D example code, parameter settings and \r\nshow the results generated on a 2D cardiac image.",
     "authors": [
-        {
-            "author_fullname": "mosaliganti, kishore ",
-            "author_place": 1,
-            "persona_email": "kishoreraom@gmail.com",
-            "persona_firstname": "Kishore",
-            "persona_id": 981,
-            "persona_lastname": "Mosaliganti"
-        },
-        {
-            "author_fullname": "smith, benjamin",
-            "author_place": 2,
-            "persona_email": "benjii.man.smith@gmail.com",
-            "persona_firstname": "Benjamin",
-            "persona_id": 2340,
-            "persona_lastname": "Smith"
-        },
-        {
-            "author_fullname": "gelas, arnaud",
-            "author_place": 3,
-            "persona_email": "arnaudgelas@gmail.com",
-            "persona_firstname": "Arnaud",
-            "persona_id": 7896,
-            "persona_lastname": "Gelas"
-        },
-        {
-            "author_fullname": "gouaillard, alexandre",
-            "author_place": 4,
-            "persona_email": "agouaillard@gmail.com",
-            "persona_firstname": "Alexandre",
-            "persona_id": 322,
-            "persona_lastname": "Gouaillard"
-        },
-        {
-            "author_fullname": "megason, sean",
-            "author_place": 5,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "mosaliganti, kishore ",
+        "author_place": 1,
+        "persona_email": "kishoreraom@gmail.com",
+        "persona_firstname": "Kishore",
+        "persona_id": 981,
+        "persona_lastname": "Mosaliganti"
+      },
+      {
+        "author_fullname": "smith, benjamin",
+        "author_place": 2,
+        "persona_email": "benjii.man.smith@gmail.com",
+        "persona_firstname": "Benjamin",
+        "persona_id": 2340,
+        "persona_lastname": "Smith"
+      },
+      {
+        "author_fullname": "gelas, arnaud",
+        "author_place": 3,
+        "persona_email": "arnaudgelas@gmail.com",
+        "persona_firstname": "Arnaud",
+        "persona_id": 7896,
+        "persona_lastname": "Gelas"
+      },
+      {
+        "author_fullname": "gouaillard, alexandre",
+        "author_place": 4,
+        "persona_email": "agouaillard@gmail.com",
+        "persona_firstname": "Alexandre",
+        "persona_id": 322,
+        "persona_lastname": "Gouaillard"
+      },
+      {
+        "author_fullname": "megason, sean",
+        "author_place": 5,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2009-04-10 20:44:59",
     "handles": [
-        {
-            "handle": "1926/1533",
-            "handle_url": "http://hdl.handle.net/1926/1533"
-        }
+      {
+        "handle": "1926/1533",
+        "handle_url": "http://hdl.handle.net/1926/1533"
+      }
     ],
+    "id": 323,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 323,
     "submitted_by_author": {
-        "author_email": "agouaillard@gmail.com",
-        "author_firstname": "Alexandre",
-        "author_id": 322,
-        "author_institution": "Singapore Agency for Science Technology and Research",
-        "author_lastname": "Gouaillard"
+      "author_email": "agouaillard@gmail.com",
+      "author_firstname": "Alexandre",
+      "author_id": 322,
+      "author_institution": "Singapore Agency for Science Technology and Research",
+      "author_lastname": "Gouaillard"
     },
     "tags": [
-        "chan and vese",
-        "level set",
-        "multiphase"
+      "chan and vese",
+      "level set",
+      "multiphase"
     ],
     "title": "level set segmentation using coupled active surfaces"
+  }
 }

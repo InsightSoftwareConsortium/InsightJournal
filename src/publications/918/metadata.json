@@ -1,48 +1,50 @@
 {
+  "publication": {
     "abstract": "This talk presents the Open-Source toolkits developed by Kitware for big data analysis.",
     "authors": [
-        {
-            "author_fullname": "Jomier, Julien",
-            "author_place": 1,
-            "persona_email": "julien@jomier.com",
-            "persona_firstname": "Julien",
-            "persona_id": 3,
-            "persona_lastname": "Jomier"
-        },
-        {
-            "author_fullname": "Pouderoux, Joachim",
-            "author_place": 2,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Jomier, Julien",
+        "author_place": 1,
+        "persona_email": "julien@jomier.com",
+        "persona_firstname": "Julien",
+        "persona_id": 3,
+        "persona_lastname": "Jomier"
+      },
+      {
+        "author_fullname": "Pouderoux, Joachim",
+        "author_place": 2,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2014-06-17 11:50:00",
     "handles": [
-        {
-            "handle": "10380/3461",
-            "handle_url": "http://hdl.handle.net/10380/3461"
-        }
+      {
+        "handle": "10380/3461",
+        "handle_url": "http://hdl.handle.net/10380/3461"
+      }
     ],
+    "id": 918,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 31,
-            "journal_name": "The MIDAS Journal"
-        }
+      {
+        "journal_id": 31,
+        "journal_name": "The MIDAS Journal"
+      }
     ],
-    "publication_id": 918,
     "submitted_by_author": {
-        "author_email": "julien@jomier.com",
-        "author_firstname": "Julien",
-        "author_id": 3,
-        "author_institution": "Kitware Inc.",
-        "author_lastname": "Jomier"
+      "author_email": "julien@jomier.com",
+      "author_firstname": "Julien",
+      "author_id": 3,
+      "author_institution": "Kitware Inc.",
+      "author_lastname": "Jomier"
     },
     "tags": [
-        "Big Data",
-        "Analysis"
+      "Big Data",
+      "Analysis"
     ],
     "title": "Big Data Analysis and Visualization with Open Source Tools"
+  }
 }

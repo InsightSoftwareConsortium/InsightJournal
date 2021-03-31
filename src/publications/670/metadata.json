@@ -1,55 +1,57 @@
 {
+  "publication": {
     "abstract": "We present a semi-automatic algorithm for Carotid lumen segmentation on CTA images.\nOur method is based on a variant of the minimal path method that models the vessel as a centerline and boundary. This is done by adding one dimension for the local radius around the centerline. The crucial step of our method is the definition of the local metrics to minimize. We have chosen to exploit the tubular structure of the vessels one wants to extract to built an anisotropic metric giving higher speed on the center of the vessels and also when the minimal path tangent is coherent with the vessel\u2019s direction. Due to carotid stenosis or occlusions on the provided data, segmentation is refined using a region-based level sets.",
     "authors": [
-        {
-            "author_fullname": "BENMANSOUR, Fethallah",
-            "author_place": 2,
-            "persona_email": "fethallah@gmail.com",
-            "persona_firstname": "Fethallah",
-            "persona_id": 2850,
-            "persona_lastname": "Benmansour"
-        },
-        {
-            "author_fullname": "Cohen, Laurent",
-            "author_place": 3,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Mille, Julien",
-            "author_place": 1,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "BENMANSOUR, Fethallah",
+        "author_place": 2,
+        "persona_email": "fethallah@gmail.com",
+        "persona_firstname": "Fethallah",
+        "persona_id": 2850,
+        "persona_lastname": "Benmansour"
+      },
+      {
+        "author_fullname": "Cohen, Laurent",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Mille, Julien",
+        "author_place": 1,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2009-07-20 17:25:53",
     "handles": [
-        {
-            "handle": "10380/3101",
-            "handle_url": "http://hdl.handle.net/10380/3101"
-        }
+      {
+        "handle": "10380/3101",
+        "handle_url": "http://hdl.handle.net/10380/3101"
+      }
     ],
+    "id": 670,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 34,
-            "journal_name": "MICCAI 2009 Workshops"
-        }
+      {
+        "journal_id": 34,
+        "journal_name": "MICCAI 2009 Workshops"
+      }
     ],
-    "publication_id": 670,
     "submitted_by_author": {
-        "author_email": "fethallah@gmail.com",
-        "author_firstname": "Fethallah",
-        "author_id": 2850,
-        "author_institution": "CVLab, EPFL",
-        "author_lastname": "Benmansour"
+      "author_email": "fethallah@gmail.com",
+      "author_firstname": "Fethallah",
+      "author_id": 2850,
+      "author_institution": "CVLab, EPFL",
+      "author_lastname": "Benmansour"
     },
     "tags": [
-        "Fast Marching",
-        "Anisotropy",
-        "Narrow band contours without edges",
-        "Minimal path"
+      "Fast Marching",
+      "Anisotropy",
+      "Narrow band contours without edges",
+      "Minimal path"
     ],
     "title": "Carotid Lumen Segmentation Based on Tubular Anisotropy and Contours Without Edges"
+  }
 }

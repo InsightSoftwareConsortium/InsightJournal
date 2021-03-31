@@ -1,53 +1,55 @@
 {
+  "publication": {
     "abstract": "Visualizing metabolic phenotypes, tracking phenotype dynamics, and screening molecular interventions all require comprehensive,\r\nquantitative measures of micromolecular patterns across cell classes. In this project we develop an easy-to-use interface that permits the same sequence of operations as described in Marc and Jones [1] and is based on Cell Kit developed by Marc's lab. Work products for this project include: user application software (Matlab), user manual and if possible, a web portal interface to allow internet access and application of the system. The MORPHIAS system will be implemented by means of a Matlab function which creates a GUI which allows the user to import molecular signature images (in TIFF format), and then to perform classification using a clustering algorithm, and to then perform data analysis on the result.",
     "authors": [
-        {
-            "author_fullname": "Henderson, Thomas",
-            "author_place": 1,
-            "persona_email": "tch@cs.utah.edu",
-            "persona_firstname": "Thomas",
-            "persona_id": 77,
-            "persona_lastname": "Henderson"
-        },
-        {
-            "author_fullname": "Marc, Robert",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Wang, Hao",
-            "author_place": 3,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Henderson, Thomas",
+        "author_place": 1,
+        "persona_email": "tch@cs.utah.edu",
+        "persona_firstname": "Thomas",
+        "persona_id": 77,
+        "persona_lastname": "Henderson"
+      },
+      {
+        "author_fullname": "Marc, Robert",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Wang, Hao",
+        "author_place": 3,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2005-07-29T20:58:55Z",
     "handles": [
-        {
-            "handle": "1926/16",
-            "handle_url": "http://hdl.handle.net/1926/16"
-        }
+      {
+        "handle": "1926/16",
+        "handle_url": "http://hdl.handle.net/1926/16"
+      }
     ],
+    "id": 20,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 20,
     "submitted_by_author": {
-        "author_email": "tch@cs.utah.edu",
-        "author_firstname": "Thomas",
-        "author_id": 77,
-        "author_institution": "University of Utah",
-        "author_lastname": "Henderson"
+      "author_email": "tch@cs.utah.edu",
+      "author_firstname": "Thomas",
+      "author_id": 77,
+      "author_institution": "University of Utah",
+      "author_lastname": "Henderson"
     },
     "tags": [
-        "Image Analsyis",
-        "Computational Molecular Phenotyping"
+      "Image Analsyis",
+      "Computational Molecular Phenotyping"
     ],
     "title": "MORPHIAS: Molecular Phenotyping Image Analysis System"
+  }
 }

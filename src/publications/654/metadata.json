@@ -1,68 +1,70 @@
 {
+  "publication": {
     "abstract": "An open standards based modular OR integration system was designed, which is modelled as component-based service-oriented architecture. Medical devices, IT hardware, and software are integrated as independent components and interconnected through a TCP/IP based Ethernet network. The integrated system facilitates service discovery, time synchronization, systems monitoring as well as component control and network administration. Each of the components exposes its semantic information about offered services as service description to peer components. The service description object is based on a generic model and contains all information about attributes, functions, streams as well as information on the used protocols that are required to access the services. An open standards based programming library for the rapid development of server/client components including example modules was developed. A prototype setup of the entire integrated OR system was realized within a demonstrator OR lab.",
     "authors": [
-        {
-            "author_fullname": "Bohn, Stefan",
-            "author_place": 1,
-            "persona_email": "stefan.bohn@medizin.uni-leipzig.de",
-            "persona_firstname": "Stefan",
-            "persona_id": 2191,
-            "persona_lastname": "Bohn"
-        },
-        {
-            "author_fullname": "Gessat, Michael",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Franke, Stefan",
-            "author_place": 3,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Voruganti, Arun",
-            "author_place": 4,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Burgert, Oliver",
-            "author_place": 5,
-            "persona_email": "oliver.burgert@reutlingen-university.de",
-            "persona_firstname": "Oliver",
-            "persona_id": 8050,
-            "persona_lastname": "Burgert"
-        }
+      {
+        "author_fullname": "Bohn, Stefan",
+        "author_place": 1,
+        "persona_email": "stefan.bohn@medizin.uni-leipzig.de",
+        "persona_firstname": "Stefan",
+        "persona_id": 2191,
+        "persona_lastname": "Bohn"
+      },
+      {
+        "author_fullname": "Gessat, Michael",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Franke, Stefan",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Voruganti, Arun",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Burgert, Oliver",
+        "author_place": 5,
+        "persona_email": "oliver.burgert@reutlingen-university.de",
+        "persona_firstname": "Oliver",
+        "persona_id": 8050,
+        "persona_lastname": "Burgert"
+      }
     ],
     "date_submitted": "2009-08-14 11:19:08",
     "handles": [
-        {
-            "handle": "10380/3081",
-            "handle_url": "http://hdl.handle.net/10380/3081"
-        }
+      {
+        "handle": "10380/3081",
+        "handle_url": "http://hdl.handle.net/10380/3081"
+      }
     ],
+    "id": 654,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 34,
-            "journal_name": "MICCAI 2009 Workshops"
-        }
+      {
+        "journal_id": 34,
+        "journal_name": "MICCAI 2009 Workshops"
+      }
     ],
-    "publication_id": 654,
     "submitted_by_author": {
-        "author_email": "stefan.bohn@medizin.uni-leipzig.de",
-        "author_firstname": "Stefan",
-        "author_id": 2191,
-        "author_institution": "University of Leipzig, Innovation Center Computer Assisted Surgery (ICCAS)",
-        "author_lastname": "Bohn"
+      "author_email": "stefan.bohn@medizin.uni-leipzig.de",
+      "author_firstname": "Stefan",
+      "author_id": 2191,
+      "author_institution": "University of Leipzig, Innovation Center Computer Assisted Surgery (ICCAS)",
+      "author_lastname": "Bohn"
     },
     "tags": [
-        "Systems Integration",
-        "Digital Operating Room",
-        "Integration Architecture",
-        "Computer Assisted Surgery"
+      "Systems Integration",
+      "Digital Operating Room",
+      "Integration Architecture",
+      "Computer Assisted Surgery"
     ],
     "title": "An integrated OR system based on open standards"
+  }
 }

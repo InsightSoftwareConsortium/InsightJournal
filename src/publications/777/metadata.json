@@ -1,50 +1,52 @@
 {
+  "publication": {
     "abstract": "This document presents a system to \"scribble\" on an image to mark foreground and background pixels and then feed these pixels to a graph cuts segmentation technique. The interaction is done using the Visualization Toolkit and the processing is done using the Insight Toolkit. The graph cut function itself is the maxflow-v2.21 algorithm written by Yuri Boykov and Vladimir Kolmogorov. This version of their algorithm is released under a GPL license. \n\nThe code for this paper can be found here: \nhttps://github.com/daviddoria/InteractiveImageGraphCutSegmentation/commit/259cd239169c5ea8c44cc68908886eca10cc8239\n\nUpdates will be published here: https://github.com/daviddoria/InteractiveImageGraphCutSegmentation\n\nNote: You must use the latest git version of VTK as of the date of this publication to avoid compiler errors due to newly added functions.",
     "authors": [
-        {
-            "author_fullname": "Doria, David",
-            "author_place": 1,
-            "persona_email": "daviddoria@gmail.com",
-            "persona_firstname": "David",
-            "persona_id": 2205,
-            "persona_lastname": "Doria"
-        },
-        {
-            "author_fullname": "Chen, Siqi",
-            "author_place": 2,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Doria, David",
+        "author_place": 1,
+        "persona_email": "daviddoria@gmail.com",
+        "persona_firstname": "David",
+        "persona_id": 2205,
+        "persona_lastname": "Doria"
+      },
+      {
+        "author_fullname": "Chen, Siqi",
+        "author_place": 2,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2010-11-29 13:51:07",
     "handles": [
-        {
-            "handle": "10380/3233",
-            "handle_url": "http://hdl.handle.net/10380/3233"
-        }
+      {
+        "handle": "10380/3233",
+        "handle_url": "http://hdl.handle.net/10380/3233"
+      }
     ],
+    "id": 777,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 777,
     "submitted_by_author": {
-        "author_email": "daviddoria@gmail.com",
-        "author_firstname": "David",
-        "author_id": 2205,
-        "author_institution": "Rensselaer Polytechnic Institute",
-        "author_lastname": "Doria"
+      "author_email": "daviddoria@gmail.com",
+      "author_firstname": "David",
+      "author_id": 2205,
+      "author_institution": "Rensselaer Polytechnic Institute",
+      "author_lastname": "Doria"
     },
     "tags": [
-        "interactive segmentation",
-        "segmentation",
-        "graph cuts",
-        "scribble"
+      "interactive segmentation",
+      "segmentation",
+      "graph cuts",
+      "scribble"
     ],
     "title": "Interactive Image Graph Cut Segmentation"
+  }
 }

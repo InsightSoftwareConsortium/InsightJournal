@@ -1,48 +1,50 @@
 {
+  "publication": {
     "abstract": "LabelOverlayImageFilter colorize a label image and put it on top of the input image.",
     "authors": [
-        {
-            "author_fullname": "Lehmann, Gaetan",
-            "author_place": 1,
-            "persona_email": "gaetan.lehmann@gmail.com",
-            "persona_firstname": "Gaetan",
-            "persona_id": 328,
-            "persona_lastname": "Lehmann"
-        }
+      {
+        "author_fullname": "Lehmann, Gaetan",
+        "author_place": 1,
+        "persona_email": "gaetan.lehmann@gmail.com",
+        "persona_firstname": "Gaetan",
+        "persona_id": 328,
+        "persona_lastname": "Lehmann"
+      }
     ],
     "date_submitted": "2006-02-19T11:51:55Z",
     "handles": [
-        {
-            "handle": "1926/172",
-            "handle_url": "http://hdl.handle.net/1926/172"
-        },
-        {
-            "handle": "10380/3151",
-            "handle_url": "http://hdl.handle.net/10380/3151"
-        }
+      {
+        "handle": "1926/172",
+        "handle_url": "http://hdl.handle.net/1926/172"
+      },
+      {
+        "handle": "10380/3151",
+        "handle_url": "http://hdl.handle.net/10380/3151"
+      }
     ],
+    "id": 79,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 79,
     "submitted_by_author": {
-        "author_email": "gaetan.lehmann@gmail.com",
-        "author_firstname": "Gaetan",
-        "author_id": 328,
-        "author_institution": "INRA",
-        "author_lastname": "Lehmann"
+      "author_email": "gaetan.lehmann@gmail.com",
+      "author_firstname": "Gaetan",
+      "author_id": 328,
+      "author_institution": "INRA",
+      "author_lastname": "Lehmann"
     },
     "tags": [
-        "label",
-        "overlay",
-        "BinaryFunctorImageFilter"
+      "label",
+      "overlay",
+      "BinaryFunctorImageFilter"
     ],
     "title": "Label overlay"
+  }
 }

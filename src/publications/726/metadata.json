@@ -1,45 +1,47 @@
 {
+  "publication": {
     "abstract": "This document describes an implementation of a filter to perform Boolean operations between surfaces. The filter requires the GNU Triangulated Surface Library GTS to perform the operations. This document is accompanied with the source code, and the xml files necessary to create a paraview plugin.",
     "authors": [
-        {
-            "author_fullname": "Lloyd, Bryn",
-            "author_place": 1,
-            "persona_email": "blloyd@ee.ethz.ch",
-            "persona_firstname": "Bryn",
-            "persona_id": 23,
-            "persona_lastname": "Lloyd"
-        }
+      {
+        "author_fullname": "Lloyd, Bryn",
+        "author_place": 1,
+        "persona_email": "blloyd@ee.ethz.ch",
+        "persona_firstname": "Bryn",
+        "persona_id": 23,
+        "persona_lastname": "Lloyd"
+      }
     ],
     "date_submitted": "2010-04-30 09:52:22",
     "handles": [
-        {
-            "handle": "10380/3169",
-            "handle_url": "http://hdl.handle.net/10380/3169"
-        }
+      {
+        "handle": "10380/3169",
+        "handle_url": "http://hdl.handle.net/10380/3169"
+      }
     ],
+    "id": 726,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 35,
-            "journal_name": "The VTK Journal"
-        }
+      {
+        "journal_id": 35,
+        "journal_name": "The VTK Journal"
+      }
     ],
-    "publication_id": 726,
     "submitted_by_author": {
-        "author_email": "blloyd@ee.ethz.ch",
-        "author_firstname": "Bryn",
-        "author_id": 23,
-        "author_institution": "ETH Zurich, Computer Vision Laboratory",
-        "author_lastname": "Lloyd"
+      "author_email": "blloyd@ee.ethz.ch",
+      "author_firstname": "Bryn",
+      "author_id": 23,
+      "author_institution": "ETH Zurich, Computer Vision Laboratory",
+      "author_lastname": "Lloyd"
     },
     "tags": [
-        "Set",
-        "Surface",
-        "Triangulated",
-        "Boolean"
+      "Set",
+      "Surface",
+      "Triangulated",
+      "Boolean"
     ],
     "title": "Boolean Operations on Surfaces for VTK"
+  }
 }

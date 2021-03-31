@@ -1,62 +1,64 @@
 {
+  "publication": {
     "abstract": "In radiation treatment (RT) planning medical doctors need to consider a variety of information sources for anatomical and functional target volume delineation. The validation and inspection of the defined target volumes and the resulting RT plan is a complex task, especially in the presence of moving target areas as it is the case for tumors of the chest and the upper abdomen. A 4D-PET/CT visualization system may become a helpful tool for validating RT plans. We define major requirements such a visualization system should fulfill to provide medical doctors with the necessary visual information to validate tumor delineations, and review the dose distribution of a RT plan. We present an implementation of such a system, and present qualitative results of its applications for a lung cancer patient.",
     "authors": [
-        {
-            "author_fullname": "Schlachter, Matthias",
-            "author_place": 1,
-            "persona_email": "matthias.schlachter@vrvis.at",
-            "persona_firstname": "Matthias",
-            "persona_id": 9255,
-            "persona_lastname": "Schlachter"
-        },
-        {
-            "author_fullname": "Fechter, Tobias",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Nestle, Ursula",
-            "author_place": 3,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "B\u00fchler, Katja",
-            "author_place": 4,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Schlachter, Matthias",
+        "author_place": 1,
+        "persona_email": "matthias.schlachter@vrvis.at",
+        "persona_firstname": "Matthias",
+        "persona_id": 9255,
+        "persona_lastname": "Schlachter"
+      },
+      {
+        "author_fullname": "Fechter, Tobias",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Nestle, Ursula",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "B\u00fchler, Katja",
+        "author_place": 4,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2014-10-19 04:23:11",
     "handles": [
-        {
-            "handle": "10380/3491",
-            "handle_url": "http://hdl.handle.net/10380/3491"
-        }
+      {
+        "handle": "10380/3491",
+        "handle_url": "http://hdl.handle.net/10380/3491"
+      }
     ],
+    "id": 938,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 42,
-            "journal_name": "MICCAI 2014 Workshops"
-        }
+      {
+        "journal_id": 42,
+        "journal_name": "MICCAI 2014 Workshops"
+      }
     ],
-    "publication_id": 938,
     "submitted_by_author": {
-        "author_email": "matthias.schlachter@vrvis.at",
-        "author_firstname": "Matthias",
-        "author_id": 9255,
-        "author_institution": "VRVis Research Center, Vienna, Austria",
-        "author_lastname": "Schlachter"
+      "author_email": "matthias.schlachter@vrvis.at",
+      "author_firstname": "Matthias",
+      "author_id": 9255,
+      "author_institution": "VRVis Research Center, Vienna, Austria",
+      "author_lastname": "Schlachter"
     },
     "tags": [
-        "3D visualization",
-        "segmentation",
-        "dose distribution",
-        "4D-PET/CT",
-        "multi-modal",
-        "radiation treatment planning"
+      "3D visualization",
+      "segmentation",
+      "dose distribution",
+      "4D-PET/CT",
+      "multi-modal",
+      "radiation treatment planning"
     ],
     "title": "Visualization of 4D-PET/CT, Target Volumes and Dose Distribution: Applications in Radiotherapy Planning"
+  }
 }

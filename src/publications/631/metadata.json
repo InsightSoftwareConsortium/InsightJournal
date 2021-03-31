@@ -1,50 +1,52 @@
 {
+  "publication": {
     "abstract": "A novel partnership between surgeons and machines, made possible by advances in computing and engineering technology, could overcome many of the limitations of traditional surgery. By extending surgeons' ability to plan and carry out surgical interventions more accurately and with less trauma, Computer-Integrated Surgery (CIS) systems could help to improve clinical outcomes and the efficiency of health care delivery. CIS systems could have a similar impact on surgery to that long since realized in Computer-Integrated Manufacturing (CIM). Mathematical modeling and computer simulation have proved tremendously successful in engineering. Computational mechanics has enabled technological developments in virtually every area of our lives. One of the greatest challenges for mechanists is to extend the success of computational mechanics to fields outside traditional engineering, in particular to biology, the biomedical sciences, and medicine. \r\n\r\nComputational Biomechanics for Medicine Workshop series was established in 2006 with the first meeting held in Copenhagen. The third workshop was held in conjunction with the Medical Image Computing and Computer Assisted Intervention Conference (MICCAI 2008) in New York on 10 September 2008. It provided an opportunity for specialists in computational sciences to present and exchange opinions on the possibilities of applying their techniques to computer-integrated medicine. \r\n\r\nComputational Biomechanics for Medicine III was organized into two streams: Computational Biomechanics of Soft Tissues, and Computational Biomechanics of Tissues of Musculoskeletal System. The application of advanced computational methods to the following areas was discussed:\r\n- Medical image analysis; \r\n- Image-guided surgery; \r\n- Surgical simulation; \r\n- Surgical intervention planning; \r\n- Disease prognosis and diagnosis; \r\n- Injury mechanism analysis; \r\n- Implant and prostheses design; \r\n- Medical robotics. \r\n\r\nAfter rigorous review of full (eight-to-twelve page) manuscripts we accepted 15 papers, collected in this volume. They were split equally between podium and poster presentations. The proceedings also include abstracts of two invited lectures by world-leading researchers Professor Chwee Teck Lim from national University of Singapore and Dr. David Lloyd from The University of Western Australia.\r\n\r\nInformation about Computational Biomechanics for Medicine Workshops, including Proceedings of previous meetings is available at http://cbm.mech.uwa.edu.au/ .\r\n\r\nWe would like to thank the MICCAI 2008 organizers for help with administering the Workshop, invited lecturers for deep insights into their research fields, the authors for submitting high quality work, and the reviewers for helping with paper selection.",
     "authors": [
-        {
-            "author_fullname": "Miller, Karol",
-            "author_place": 1,
-            "persona_email": "kmiller@mech.uwa.edu.au",
-            "persona_firstname": "Karol",
-            "persona_id": 791,
-            "persona_lastname": "Miller"
-        },
-        {
-            "author_fullname": "Nielsen, Poul",
-            "author_place": 2,
-            "persona_email": "p.nielsen@auckland.ac.nz",
-            "persona_firstname": "Poul",
-            "persona_id": 857,
-            "persona_lastname": "Nielsen"
-        }
+      {
+        "author_fullname": "Miller, Karol",
+        "author_place": 1,
+        "persona_email": "kmiller@mech.uwa.edu.au",
+        "persona_firstname": "Karol",
+        "persona_id": 791,
+        "persona_lastname": "Miller"
+      },
+      {
+        "author_fullname": "Nielsen, Poul",
+        "author_place": 2,
+        "persona_email": "p.nielsen@auckland.ac.nz",
+        "persona_firstname": "Poul",
+        "persona_id": 857,
+        "persona_lastname": "Nielsen"
+      }
     ],
     "date_submitted": "2008-08-29T04:48:16Z",
     "handles": [
-        {
-            "handle": "10380/1496",
-            "handle_url": "http://hdl.handle.net/10380/1496"
-        }
+      {
+        "handle": "10380/1496",
+        "handle_url": "http://hdl.handle.net/10380/1496"
+      }
     ],
+    "id": 631,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 33,
-            "journal_name": "MICCAI 2008 Workshops"
-        }
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
     ],
-    "publication_id": 631,
     "submitted_by_author": {
-        "author_email": "grandj@mech.uwa.edu.au",
-        "author_firstname": "Grand roman",
-        "author_id": 832,
-        "author_institution": "The University of Western Australia",
-        "author_lastname": "Joldes"
+      "author_email": "grandj@mech.uwa.edu.au",
+      "author_firstname": "Grand roman",
+      "author_id": 832,
+      "author_institution": "The University of Western Australia",
+      "author_lastname": "Joldes"
     },
     "tags": [
-        "Computational Biomechanics"
+      "Computational Biomechanics"
     ],
     "title": "Computational Biomechanics for Medicine III - Workshop proceedings"
+  }
 }

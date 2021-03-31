@@ -1,73 +1,75 @@
 {
+  "publication": {
     "abstract": "The motivation of the segmentation challenge is to quantitatively analyze global and regional cardiac function from cine magnetic resonance (MR) images, clinical parameters such as ejection fraction (EF), left ventricle myocardium mass (MM), and stroke volume (SV) are required. Calculations of these parameters depend upon accurate delineation of endocardial and epicardial contours of the left ventricle (LV). Manual delineation is time-consuming and tedious and has high inter-observer variability. Thus, fully automatic LV segmentation is desirable. \n\nThe automatic segmentation of the LV in cine MR typically faces four challenges: 1) the overlap between the intensity distributions within the cardiac regions; 2) the lack of edge information; 3) the shape variability of the endocardial and epicardial contours across slices and phases; and 4) the inter-subject variability of these factors. A number of methods have been proposed for (semi-) automatic LV segmentation, including using a probability atlas [1], dynamic programming [2-3], fuzzy clustering [4], a deformable model [5], an active appearance model [6], a variational and level set [7-10], graph cuts [11-12] and an image-driven approach [13]. For a complete review of recent literature describing cardiac segmentation techniques, see [14]. Although the segmentation results have improved, accurate LV segmentation is still acknowledged as a difficult problem.\n\nThe goals of this contest are to compare LV segmentation methods by providing an evaluation system, and a database of images and expert contours. Comparing segmentation results across research studies can be difficult due to unspecified differences in the method or implementation of evaluation metrics. This contest will provide open-source code for contour evaluation. Furthermore, the database will provide a set of images such that confounding segmentation differences due to image quality or pathology could be eliminated.",
     "authors": [
-        {
-            "author_fullname": "Radau, Perry",
-            "author_place": 1,
-            "persona_email": "perry.radau@gmail.com",
-            "persona_firstname": "Perry",
-            "persona_id": 2183,
-            "persona_lastname": "Radau"
-        },
-        {
-            "author_fullname": "Lu, Yingli",
-            "author_place": 2,
-            "persona_email": "yinglilu@gmail.com",
-            "persona_firstname": "Yingli",
-            "persona_id": 1059,
-            "persona_lastname": "Lu"
-        },
-        {
-            "author_fullname": "Connelly, Kim",
-            "author_place": 3,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Paul, Gideon",
-            "author_place": 4,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Dick, Alexander J",
-            "author_place": 5,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Wright, Graham A",
-            "author_place": 6,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Radau, Perry",
+        "author_place": 1,
+        "persona_email": "perry.radau@gmail.com",
+        "persona_firstname": "Perry",
+        "persona_id": 2183,
+        "persona_lastname": "Radau"
+      },
+      {
+        "author_fullname": "Lu, Yingli",
+        "author_place": 2,
+        "persona_email": "yinglilu@gmail.com",
+        "persona_firstname": "Yingli",
+        "persona_id": 1059,
+        "persona_lastname": "Lu"
+      },
+      {
+        "author_fullname": "Connelly, Kim",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Paul, Gideon",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Dick, Alexander J",
+        "author_place": 5,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Wright, Graham A",
+        "author_place": 6,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2009-07-09 10:16:48",
     "handles": [
-        {
-            "handle": "10380/3070",
-            "handle_url": "http://hdl.handle.net/10380/3070"
-        }
+      {
+        "handle": "10380/3070",
+        "handle_url": "http://hdl.handle.net/10380/3070"
+      }
     ],
+    "id": 658,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 34,
-            "journal_name": "MICCAI 2009 Workshops"
-        }
+      {
+        "journal_id": 34,
+        "journal_name": "MICCAI 2009 Workshops"
+      }
     ],
-    "publication_id": 658,
     "submitted_by_author": {
-        "author_email": "perry.radau@gmail.com",
-        "author_firstname": "Perry",
-        "author_id": 2183,
-        "author_institution": "Sunnybrook Hospital",
-        "author_lastname": "Radau"
+      "author_email": "perry.radau@gmail.com",
+      "author_firstname": "Perry",
+      "author_id": 2183,
+      "author_institution": "Sunnybrook Hospital",
+      "author_lastname": "Radau"
     },
     "tags": [
-        "MRI",
-        "segmentation",
-        "evaluation",
-        "cardiac"
+      "MRI",
+      "segmentation",
+      "evaluation",
+      "cardiac"
     ],
     "title": "Evaluation Framework for Algorithms Segmenting Short Axis Cardiac MRI."
+  }
 }

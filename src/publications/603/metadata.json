@@ -1,41 +1,43 @@
 {
+  "publication": {
     "abstract": "A method for automatic liver tumor segmentation from computer tomography (CT) images is presented in this paper. Segmentation is an important operation before surgery planning, and automatic methods offer an alternative to laborious manual segmentation. In addition, segmentations of automatic methods are reproducible, so they can be reliably evaluated and they do not depend on the performer of the segmentation. In this work, the segmentation is performed in two stages. First a rough segmentation of tumors is obtained by simple thresholding and morphological operations. \r\nThe second stage refines the rough segmentation result using fuzzy clustering and a geometric deformable model (GDM) that is fitted on the clustering result. \r\nThe method was evaluated with data provided by Liver Tumor Segmentation Challenge 08, to which the method also participated. The data included 10 \r\nimages from which 20 tumors were segmented. The method showed promising results.",
     "authors": [
-        {
-            "author_fullname": "Hame, Yrjo",
-            "author_place": 1,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Hame, Yrjo",
+        "author_place": 1,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2008-07-10T17:27:09Z",
     "handles": [
-        {
-            "handle": "10380/1440",
-            "handle_url": "http://hdl.handle.net/10380/1440"
-        }
+      {
+        "handle": "10380/1440",
+        "handle_url": "http://hdl.handle.net/10380/1440"
+      }
     ],
+    "id": 603,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 45,
-            "journal_name": "MICCAI 2016 Workshops"
-        },
-        {
-            "journal_id": 33,
-            "journal_name": "MICCAI 2008 Workshops"
-        }
+      {
+        "journal_id": 45,
+        "journal_name": "MICCAI 2016 Workshops"
+      },
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
     ],
-    "publication_id": 603,
     "submitted_by_author": {
-        "author_email": "yrjo.hame@tkk.fi",
-        "author_firstname": "Yrj\u00f6",
-        "author_id": 917,
-        "author_institution": "Helsinki University of Technology",
-        "author_lastname": "H\u00e4me"
+      "author_email": "yrjo.hame@tkk.fi",
+      "author_firstname": "Yrj\u00f6",
+      "author_id": 917,
+      "author_institution": "Helsinki University of Technology",
+      "author_lastname": "H\u00e4me"
     },
     "tags": null,
     "title": "Liver Tumor Segmentation Using Implicit Surface Evolution"
+  }
 }

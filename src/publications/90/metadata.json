@@ -1,63 +1,65 @@
 {
+  "publication": {
     "abstract": "This document describes the implementation of an algorithm that computes a generalization of the distance transform with the squared euclidean metric.\n\nThe generalization allows for interesting image operators, e.g. a morphologic dilation with euclidean ball structure elements that can vary in size across the image. Voronoi maps and the standard distance transform can be computed as well.\n\nThe algorithm is provided as an image processing filter for ITK. Several example programs demonstrate its applications.",
     "authors": [
-        {
-            "author_fullname": "King, Benjamin",
-            "author_place": 1,
-            "persona_email": "benjaminking@web.de",
-            "persona_firstname": "Benjamin",
-            "persona_id": 294,
-            "persona_lastname": "King"
-        },
-        {
-            "author_fullname": "D\u00f6ker, Rolf",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Meier, Simone",
-            "author_place": 3,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Shin, Hoen-oh",
-            "author_place": 4,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Galanski, Michael",
-            "author_place": 5,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "King, Benjamin",
+        "author_place": 1,
+        "persona_email": "benjaminking@web.de",
+        "persona_firstname": "Benjamin",
+        "persona_id": 294,
+        "persona_lastname": "King"
+      },
+      {
+        "author_fullname": "D\u00f6ker, Rolf",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Meier, Simone",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Shin, Hoen-oh",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Galanski, Michael",
+        "author_place": 5,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2006-05-22T08:19:12Z",
     "handles": [
-        {
-            "handle": "1926/196",
-            "handle_url": "http://hdl.handle.net/1926/196"
-        }
+      {
+        "handle": "1926/196",
+        "handle_url": "http://hdl.handle.net/1926/196"
+      }
     ],
+    "id": 90,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 90,
     "submitted_by_author": {
-        "author_email": "benjaminking@web.de",
-        "author_firstname": "Benjamin",
-        "author_id": 294,
-        "author_institution": "none",
-        "author_lastname": "King"
+      "author_email": "benjaminking@web.de",
+      "author_firstname": "Benjamin",
+      "author_id": 294,
+      "author_institution": "none",
+      "author_lastname": "King"
     },
     "tags": [
-        "Voronoi Map",
-        "Distance Transform"
+      "Voronoi Map",
+      "Distance Transform"
     ],
     "title": "A Generalized Squared Euclidean Distance Transform with Voronoi Maps"
+  }
 }

@@ -1,59 +1,61 @@
 {
+  "publication": {
     "abstract": "Fast computation of distance transforms find direct application\r\nin various computer vision problems. Currently there exists \r\ntwo image filters in the ITK library which can be used to generate\r\ndistance maps. Unfortunately, these \r\nfilters produce only approximations to the Euclidean Distance\r\nTransform (EDT). We introduce into the ITK library a third EDT \r\nfilter which was developed by Maurer {\\em et al.} \\cite{Maurer2003}.\r\nIn contrast to other algorithms, this algorithm produces the \r\nexact signed squared EDT using integer arithmetic. The complexity,\r\nwhich is formally verified, is $O(n)$ with a small time constant\r\nwhere $n$ is the number of image pixels.",
     "authors": [
-        {
-            "author_fullname": "Tustison, Nicholas J.",
-            "author_place": 1,
-            "persona_email": "ntustison@gmail.com",
-            "persona_firstname": "Nicholas J.",
-            "persona_id": 8833,
-            "persona_lastname": "Tustison"
-        },
-        {
-            "author_fullname": "Siqueira, Marcelo",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Gee, James C.",
-            "author_place": 3,
-            "persona_email": "gee@mail.med.upenn.edu",
-            "persona_firstname": "James",
-            "persona_id": 236,
-            "persona_lastname": "Gee"
-        }
+      {
+        "author_fullname": "Tustison, Nicholas J.",
+        "author_place": 1,
+        "persona_email": "ntustison@gmail.com",
+        "persona_firstname": "Nicholas J.",
+        "persona_id": 8833,
+        "persona_lastname": "Tustison"
+      },
+      {
+        "author_fullname": "Siqueira, Marcelo",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Gee, James C.",
+        "author_place": 3,
+        "persona_email": "gee@mail.med.upenn.edu",
+        "persona_firstname": "James",
+        "persona_id": 236,
+        "persona_lastname": "Gee"
+      }
     ],
     "date_submitted": "2003-08",
     "handles": [
-        {
-            "handle": "1926/171",
-            "handle_url": "http://hdl.handle.net/1926/171"
-        },
-        {
-            "handle": "10380/3120",
-            "handle_url": "http://hdl.handle.net/10380/3120"
-        }
+      {
+        "handle": "1926/171",
+        "handle_url": "http://hdl.handle.net/1926/171"
+      },
+      {
+        "handle": "10380/3120",
+        "handle_url": "http://hdl.handle.net/10380/3120"
+      }
     ],
+    "id": 77,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 77,
     "submitted_by_author": {
-        "author_email": "ntustison@gmail.com",
-        "author_firstname": "Nicholas J.",
-        "author_id": 8833,
-        "author_institution": "",
-        "author_lastname": "Tustison"
+      "author_email": "ntustison@gmail.com",
+      "author_firstname": "Nicholas J.",
+      "author_id": 8833,
+      "author_institution": "",
+      "author_lastname": "Tustison"
     },
     "tags": [
-        "Euclidean Distance Transform"
+      "Euclidean Distance Transform"
     ],
     "title": "N-D Linear Time Exact Signed Euclidean Distance Transform"
+  }
 }

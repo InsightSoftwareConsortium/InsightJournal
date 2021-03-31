@@ -1,45 +1,47 @@
 {
+  "publication": {
     "abstract": "This paper describes an image processing prototyping environment called SharpImage. SharpImage is a stand-alone Windows application geared towards the pre-processing and creation of volume illustrations, although other generic tasks are inherently supported. The user interacts with the environment using a command console, and can view images as a series of slices or through volume rendering. We describe the design and introduce functionality using a number of examples. We have found the environment useful for prototyping a range of image processing tasks and provide the source-code in the hope others may also find it useful.",
     "authors": [
-        {
-            "author_fullname": "Mueller, Daniel",
-            "author_place": 1,
-            "persona_email": "dan.muel@gmail.com",
-            "persona_firstname": "Dan",
-            "persona_id": 286,
-            "persona_lastname": "Mueller"
-        }
+      {
+        "author_fullname": "Mueller, Daniel",
+        "author_place": 1,
+        "persona_email": "dan.muel@gmail.com",
+        "persona_firstname": "Dan",
+        "persona_id": 286,
+        "persona_lastname": "Mueller"
+      }
     ],
     "date_submitted": "2007-07-06T04:57:49Z",
     "handles": [
-        {
-            "handle": "1926/556",
-            "handle_url": "http://hdl.handle.net/1926/556"
-        }
+      {
+        "handle": "1926/556",
+        "handle_url": "http://hdl.handle.net/1926/556"
+      }
     ],
+    "id": 161,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 161,
     "submitted_by_author": {
-        "author_email": "dan.muel@gmail.com",
-        "author_firstname": "Dan",
-        "author_id": 286,
-        "author_institution": "Philips Healthcare",
-        "author_lastname": "Mueller"
+      "author_email": "dan.muel@gmail.com",
+      "author_firstname": "Dan",
+      "author_id": 286,
+      "author_institution": "Philips Healthcare",
+      "author_lastname": "Mueller"
     },
     "tags": [
-        "prototyping",
-        "SharpImage",
-        "ITK",
-        "scripting"
+      "prototyping",
+      "SharpImage",
+      "ITK",
+      "scripting"
     ],
     "title": "SharpImage: An Image Processing Prototyping Environment"
+  }
 }

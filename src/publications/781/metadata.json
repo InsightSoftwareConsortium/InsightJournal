@@ -1,43 +1,45 @@
 {
+  "publication": {
     "abstract": "This paper describes an intensity image filter for computing the entropy of pixel values contained within a neighborhood centered at each input pixel. The output image contains the calculated entropy for each input pixel location. This paper is accompanied with source code for the filter and test, test images and parameters, and expected output images. ",
     "authors": [
-        {
-            "author_fullname": "Tamburo, Robert",
-            "author_place": 1,
-            "persona_email": "robert.tamburo@gmail.com",
-            "persona_firstname": "Robert",
-            "persona_id": 59,
-            "persona_lastname": "Tamburo"
-        }
+      {
+        "author_fullname": "Tamburo, Robert",
+        "author_place": 1,
+        "persona_email": "robert.tamburo@gmail.com",
+        "persona_firstname": "Robert",
+        "persona_id": 59,
+        "persona_lastname": "Tamburo"
+      }
     ],
     "date_submitted": "2011-01-05 16:29:36",
     "handles": [
-        {
-            "handle": "10380/3241",
-            "handle_url": "http://hdl.handle.net/10380/3241"
-        }
+      {
+        "handle": "10380/3241",
+        "handle_url": "http://hdl.handle.net/10380/3241"
+      }
     ],
+    "id": 781,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 35,
-            "journal_name": "The VTK Journal"
-        }
+      {
+        "journal_id": 35,
+        "journal_name": "The VTK Journal"
+      }
     ],
-    "publication_id": 781,
     "submitted_by_author": {
-        "author_email": "robert.tamburo@gmail.com",
-        "author_firstname": "Robert",
-        "author_id": 59,
-        "author_institution": " ",
-        "author_lastname": "Tamburo"
+      "author_email": "robert.tamburo@gmail.com",
+      "author_firstname": "Robert",
+      "author_id": 59,
+      "author_institution": " ",
+      "author_lastname": "Tamburo"
     },
     "tags": [
-        " image filter",
-        "entropy"
+      " image filter",
+      "entropy"
     ],
     "title": "Entropy Image Filter"
+  }
 }

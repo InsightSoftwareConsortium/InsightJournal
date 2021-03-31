@@ -1,46 +1,48 @@
 {
+  "publication": {
     "abstract": "In this paper, we present an automatic method for extracting center axis representations (centerlines) \r\nof coronary arteries in contrast enhanced (CE)-CT angiography scans. \r\nThe algorithm first detects the aorta which is used as an initial mask for ostia\r\ndetection~cite{grady2006:fast}. Second, the ostia locations are detected via a vessel centerline extraction method~cite{Gulsun:Tek:008} which\r\ntracks the center axis of the coronaries starting from the aorta surface. The full centerline tree of the coronary arteries are\r\ncomputed via the multi-scale medialness-based vessel tree extraction algorithm which starts a tracking process from\r\nthe ostia locations until all the braches are reached. The centerline extraction algorithm is a \r\ngraph-based optimization algorithm using multi-scale medialness filters.",
     "authors": [
-        {
-            "author_fullname": "Tek, Huseyin",
-            "author_place": 1,
-            "persona_email": "huseyin.tek@gmail.com",
-            "persona_firstname": "Huseyin",
-            "persona_id": 2220,
-            "persona_lastname": "Tek"
-        }
+      {
+        "author_fullname": "Tek, Huseyin",
+        "author_place": 1,
+        "persona_email": "huseyin.tek@gmail.com",
+        "persona_firstname": "Huseyin",
+        "persona_id": 2220,
+        "persona_lastname": "Tek"
+      }
     ],
     "date_submitted": "2008-07-07T23:11:35Z",
     "handles": [
-        {
-            "handle": "10380/1426",
-            "handle_url": "http://hdl.handle.net/10380/1426"
-        }
+      {
+        "handle": "10380/1426",
+        "handle_url": "http://hdl.handle.net/10380/1426"
+      }
     ],
+    "id": 600,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 43,
-            "journal_name": "ISBI 2015 Workshops"
-        },
-        {
-            "journal_id": 33,
-            "journal_name": "MICCAI 2008 Workshops"
-        }
+      {
+        "journal_id": 43,
+        "journal_name": "ISBI 2015 Workshops"
+      },
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
     ],
-    "publication_id": 600,
     "submitted_by_author": {
-        "author_email": null,
-        "author_firstname": null,
-        "author_id": null,
-        "author_institution": "Siemens Corporate Research",
-        "author_lastname": null
+      "author_email": null,
+      "author_firstname": null,
+      "author_id": null,
+      "author_institution": "Siemens Corporate Research",
+      "author_lastname": null
     },
     "tags": [
-        "segmentation"
+      "segmentation"
     ],
     "title": "Automatic Coronary Tree Modeling"
+  }
 }

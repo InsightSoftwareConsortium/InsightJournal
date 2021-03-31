@@ -1,45 +1,47 @@
 {
+  "publication": {
     "abstract": "ITK is becoming increasingly complex as it continues to grow and evolve. The SimpleITK initiative aims to address this concern by providing an easy-access layer around ITK for non-C++ expert developers. This article proposes an alternate (perhaps complementary) approach utilizing the strategy pattern. The software design pattern known as \"strategy\" allows an algorithm to be selected from a family of algorithms on-the-fly at runtime. Because ITK consists of many such algorithm families, this particular design pattern is quite interesting. This article describes a number of algorithm families which have been identified; so far thirteen families have been implemented, encapsulating nearly 130 filters/objects. Complete source code and examples are provided to demonstrate the concept.",
     "authors": [
-        {
-            "author_fullname": "Mueller, Dan",
-            "author_place": 1,
-            "persona_email": "dan.muel@gmail.com",
-            "persona_firstname": "Dan",
-            "persona_id": 286,
-            "persona_lastname": "Mueller"
-        }
+      {
+        "author_fullname": "Mueller, Dan",
+        "author_place": 1,
+        "persona_email": "dan.muel@gmail.com",
+        "persona_firstname": "Dan",
+        "persona_id": 286,
+        "persona_lastname": "Mueller"
+      }
     ],
     "date_submitted": "2011-01-06 00:21:36",
     "handles": [
-        {
-            "handle": "10380/3248",
-            "handle_url": "http://hdl.handle.net/10380/3248"
-        }
+      {
+        "handle": "10380/3248",
+        "handle_url": "http://hdl.handle.net/10380/3248"
+      }
     ],
+    "id": 786,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 786,
     "submitted_by_author": {
-        "author_email": "dan.muel@gmail.com",
-        "author_firstname": "Dan",
-        "author_id": 286,
-        "author_institution": "Philips Healthcare",
-        "author_lastname": "Mueller"
+      "author_email": "dan.muel@gmail.com",
+      "author_firstname": "Dan",
+      "author_id": 286,
+      "author_institution": "Philips Healthcare",
+      "author_lastname": "Mueller"
     },
     "tags": [
-        "ITK",
-        "strategy",
-        "pattern",
-        "SimpleITK"
+      "ITK",
+      "strategy",
+      "pattern",
+      "SimpleITK"
     ],
     "title": "Using the strategy pattern to simplify ITK"
+  }
 }

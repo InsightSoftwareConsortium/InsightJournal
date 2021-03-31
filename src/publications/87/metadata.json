@@ -1,47 +1,49 @@
 {
+  "publication": {
     "abstract": "This document describes contributions on the\r\nNormalizedCorrelationImageToImageMetric and the MeanSquaresImageToImageMetric of the Insight Toolkit ITK \\url{www.itk.org}. For the first metric a two time speed-up can be\r\nachieved by rewriting the code to loop only once over the fixed image. This is instead of the two times that is used in the current ITK code. The reduction in computation time comes at the cost of an additional storage of a parameters array. For both metric we have\r\nimplemented the option to use only a random subset of the fixed image voxels for calculating the metric value and its derivatives. This reduces the computation time (substantially), while convergence\r\nproperties are maintained. This paper is accompanied with the source code.",
     "authors": [
-        {
-            "author_fullname": "Staring, Marius",
-            "author_place": 1,
-            "persona_email": "marius.staring@gmail.com",
-            "persona_firstname": "Marius",
-            "persona_id": 208,
-            "persona_lastname": "Staring"
-        }
+      {
+        "author_fullname": "Staring, Marius",
+        "author_place": 1,
+        "persona_email": "marius.staring@gmail.com",
+        "persona_firstname": "Marius",
+        "persona_id": 208,
+        "persona_lastname": "Staring"
+      }
     ],
     "date_submitted": "2006-04-10T15:11:07Z",
     "handles": [
-        {
-            "handle": "1926/190",
-            "handle_url": "http://hdl.handle.net/1926/190"
-        },
-        {
-            "handle": "10380/3547",
-            "handle_url": "http://hdl.handle.net/10380/3547"
-        }
+      {
+        "handle": "1926/190",
+        "handle_url": "http://hdl.handle.net/1926/190"
+      },
+      {
+        "handle": "10380/3547",
+        "handle_url": "http://hdl.handle.net/10380/3547"
+      }
     ],
+    "id": 87,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 87,
     "submitted_by_author": {
-        "author_email": "marius.staring@gmail.com",
-        "author_firstname": "Marius",
-        "author_id": 208,
-        "author_institution": "Leiden University Medical Center",
-        "author_lastname": "Staring"
+      "author_email": "marius.staring@gmail.com",
+      "author_firstname": "Marius",
+      "author_id": 208,
+      "author_institution": "Leiden University Medical Center",
+      "author_lastname": "Staring"
     },
     "tags": [
-        "Mean Square Difference",
-        "Normalized Correlation"
+      "Mean Square Difference",
+      "Normalized Correlation"
     ],
     "title": "Contributions to the Normalized Correlation and the Mean Squares Metric"
+  }
 }

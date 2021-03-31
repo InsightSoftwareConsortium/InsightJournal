@@ -1,66 +1,68 @@
 {
+  "publication": {
     "abstract": "A novel platform for realizing software prototypes in the area of medical image processing, analysis and visualization is introduced: The \\\"Medical Image Processing Platform\\\" (MIPP). A novel feature is the combination of ITK/VTK with Java/Eclipse RCP, four potential technologies complementing each other. While ITK and VTK provide comprehensive functionality for image processing and visualization, Java and Eclipse RCP facilitate the development of a modern and rich application.\r\n\r\nRCP offers everything for creating plug-in based software. The benefits of integrating ITK and VTK in such a modular architecture are reusability and extensibility. Functionality usually found in software for medical image processing and visualization (2D and 3D viewers, DICOM and application data management, etc.) is provided by the MIPP platform as plug-ins, can be easily reused by new applications and needn\\'t be re-implemented. Developers can extend the platform\\'s features by contributing new plug-ins and, again, make these available for others.\r\n\r\nThe paper describes the architecture of the MIPP platform and outlines its most important functionality. Finally, three clinical software systems implemented with MIPP are presented.",
     "authors": [
-        {
-            "author_fullname": "Swoboda, Roland",
-            "author_place": 1,
-            "persona_email": "rswoboda@fh-hagenberg.at",
-            "persona_firstname": "Roland",
-            "persona_id": 755,
-            "persona_lastname": "Swoboda"
-        },
-        {
-            "author_fullname": "Zwettler, Gerald",
-            "author_place": 2,
-            "persona_email": "gerald.zwettler@fh-hagenberg.at",
-            "persona_firstname": "Gerald",
-            "persona_id": 645,
-            "persona_lastname": "Zwettler"
-        },
-        {
-            "author_fullname": "Pfeifer, Franz",
-            "author_place": 3,
-            "persona_email": "franz.pfeifer@fh-hagenberg.at",
-            "persona_firstname": "Franz",
-            "persona_id": 304,
-            "persona_lastname": "Pfeifer"
-        },
-        {
-            "author_fullname": "Backfrieder, Werner",
-            "author_place": 4,
-            "persona_email": "Werner.Backfrieder@fh-hagenberg.at",
-            "persona_firstname": "Werner",
-            "persona_id": 2444,
-            "persona_lastname": "Backfrieder"
-        }
+      {
+        "author_fullname": "Swoboda, Roland",
+        "author_place": 1,
+        "persona_email": "rswoboda@fh-hagenberg.at",
+        "persona_firstname": "Roland",
+        "persona_id": 755,
+        "persona_lastname": "Swoboda"
+      },
+      {
+        "author_fullname": "Zwettler, Gerald",
+        "author_place": 2,
+        "persona_email": "gerald.zwettler@fh-hagenberg.at",
+        "persona_firstname": "Gerald",
+        "persona_id": 645,
+        "persona_lastname": "Zwettler"
+      },
+      {
+        "author_fullname": "Pfeifer, Franz",
+        "author_place": 3,
+        "persona_email": "franz.pfeifer@fh-hagenberg.at",
+        "persona_firstname": "Franz",
+        "persona_id": 304,
+        "persona_lastname": "Pfeifer"
+      },
+      {
+        "author_fullname": "Backfrieder, Werner",
+        "author_place": 4,
+        "persona_email": "Werner.Backfrieder@fh-hagenberg.at",
+        "persona_firstname": "Werner",
+        "persona_id": 2444,
+        "persona_lastname": "Backfrieder"
+      }
     ],
     "date_submitted": "2007-12-31T01:57:04Z",
     "handles": [
-        {
-            "handle": "1926/1327",
-            "handle_url": "http://hdl.handle.net/1926/1327"
-        }
+      {
+        "handle": "1926/1327",
+        "handle_url": "http://hdl.handle.net/1926/1327"
+      }
     ],
+    "id": 209,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 209,
     "submitted_by_author": {
-        "author_email": "rswoboda@fh-hagenberg.at",
-        "author_firstname": "Roland",
-        "author_id": 755,
-        "author_institution": "University of Applied Sciences Hagenberg, Bio- And Medical Informatics Research Group",
-        "author_lastname": "Swoboda"
+      "author_email": "rswoboda@fh-hagenberg.at",
+      "author_firstname": "Roland",
+      "author_id": 755,
+      "author_institution": "University of Applied Sciences Hagenberg, Bio- And Medical Informatics Research Group",
+      "author_lastname": "Swoboda"
     },
     "tags": [
-        "C , Java, Rich Client Platform, RCP, ITK, VTK"
+      "C , Java, Rich Client Platform, RCP, ITK, VTK"
     ],
     "title": "MIPP: A Medical Image Processing Platform based on ITK, VTK and Eclipse RCP"
+  }
 }

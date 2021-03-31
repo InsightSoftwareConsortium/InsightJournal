@@ -1,52 +1,54 @@
 {
+  "publication": {
     "abstract": "Many enabling technologies like non-rigid registration in medical image computing rely on the construction of a function by interpolating scattered points; however, the outliers contained in the data and the approximation error make the robust and accurate estimation difficult. This paper presents an ITK implementation of a robust Finite Element (FE) solver, which can effectively deal with the above difficulties. The experiment results of synthetic data and real cases demonstrate the characteristics of the robust solver and its typical application. ",
     "authors": [
-        {
-            "author_fullname": "Liu, Yixun",
-            "author_place": 1,
-            "persona_email": "yxliuwm@gmail.com",
-            "persona_firstname": "Yixun",
-            "persona_id": 6473,
-            "persona_lastname": "Liu"
-        },
-        {
-            "author_fullname": "Chrisochoides, Nikos",
-            "author_place": 2,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Liu, Yixun",
+        "author_place": 1,
+        "persona_email": "yxliuwm@gmail.com",
+        "persona_firstname": "Yixun",
+        "persona_id": 6473,
+        "persona_lastname": "Liu"
+      },
+      {
+        "author_fullname": "Chrisochoides, Nikos",
+        "author_place": 2,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2012-07-04 19:38:40",
     "handles": [
-        {
-            "handle": "10380/3366",
-            "handle_url": "http://hdl.handle.net/10380/3366"
-        }
+      {
+        "handle": "10380/3366",
+        "handle_url": "http://hdl.handle.net/10380/3366"
+      }
     ],
+    "id": 872,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 872,
     "submitted_by_author": {
-        "author_email": "yxliuwm@gmail.com",
-        "author_firstname": "Yixun",
-        "author_id": 6473,
-        "author_institution": "NIH",
-        "author_lastname": "Liu"
+      "author_email": "yxliuwm@gmail.com",
+      "author_firstname": "Yixun",
+      "author_id": 6473,
+      "author_institution": "NIH",
+      "author_lastname": "Liu"
     },
     "tags": [
-        "Robust",
-        "Finite Element",
-        "Scattered data",
-        "Approximation",
-        "Outliers",
-        "Registration"
+      "Robust",
+      "Finite Element",
+      "Scattered data",
+      "Approximation",
+      "Outliers",
+      "Registration"
     ],
     "title": "Robust Scattered Data Points Approximation Using Finite Element Biomechanical Model"
+  }
 }

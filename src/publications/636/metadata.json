@@ -1,45 +1,47 @@
 {
+  "publication": {
     "abstract": "We propose a new clustering algorithm. This algorithm performs clustering and manifold learning simultaneously by using a graph-theoretical approach to manifold learning. We apply this algorithm in order to cluster white matter \ufb01ber tracts obtained fromDiffusion TensorMRI (DT-MRI) through streamline tractography. Our algorithm is able perform clustering of these fiber tracts incorporating information about the shape of the \ufb01ber and a priori knowledge as the probability of the fiber belonging to known anatomical structures. This anatomical knowledge is incorporated as a volumetric white matter atlas, in this case LONI's ICBM DTI-81",
     "authors": [
-        {
-            "author_fullname": "Wassermann , Demian",
-            "author_place": 1,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Deriche, Rachid",
-            "author_place": 2,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Wassermann , Demian",
+        "author_place": 1,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Deriche, Rachid",
+        "author_place": 2,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2008-09-12 11:59:02",
     "handles": [
-        {
-            "handle": "10380/1504",
-            "handle_url": "http://hdl.handle.net/10380/1504"
-        }
+      {
+        "handle": "10380/1504",
+        "handle_url": "http://hdl.handle.net/10380/1504"
+      }
     ],
+    "id": 636,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 33,
-            "journal_name": "MICCAI 2008 Workshops"
-        }
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
     ],
-    "publication_id": 636,
     "submitted_by_author": {
-        "author_email": "demian.wassermann@sophia.inria.fr",
-        "author_firstname": "Demian",
-        "author_id": 2089,
-        "author_institution": "INRIA, Sophia-Antipolis",
-        "author_lastname": "Wassermann"
+      "author_email": "demian.wassermann@sophia.inria.fr",
+      "author_firstname": "Demian",
+      "author_id": 2089,
+      "author_institution": "INRIA, Sophia-Antipolis",
+      "author_lastname": "Wassermann"
     },
     "tags": [
-        "clustering",
-        "learning"
+      "clustering",
+      "learning"
     ],
     "title": "Simultaneous Manifold Learning and Clustering: Grouping White Matter Fiber Tracts Using a Volumetric White Matter Atlas"
+  }
 }

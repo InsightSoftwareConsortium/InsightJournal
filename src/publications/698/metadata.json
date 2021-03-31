@@ -1,62 +1,64 @@
 {
+  "publication": {
     "abstract": "An Insight Toolkit (ITK) algorithm for detection of spherical objects using Hough methods with voting is presented in this paper. Currently, the usage of Hough methods for detecting linear and circular elements exists for 2D images in ITK. The current work extends those filters in several ways. Firstly, the new filters operate on N-dimensional images. Secondly, they work in physical coordinates which is quite essential in medical imaging modalities. Thirdly, they are optimized (multi-threaded execution, stratified sampling etc.) for usage on large datasets and show a significant speedup even in 2D and on small images. Our implementation follows the same underlying mathematics of Hough transforms (as implemented by the 2D filters) but with some minor variations. The main variation lies in the pattern of voting that involves selecting voting regions easily and efficiently accessible to region iterators rather than cones that are difficult to generalize in higher dimensions. We include 2D example code, parameter settings and show the results generated on embryonic images of the zebrafish from optical microscopy.",
     "authors": [
-        {
-            "author_fullname": "Mosaliganti, Kishore",
-            "author_place": 1,
-            "persona_email": "kishoreraom@gmail.com",
-            "persona_firstname": "Kishore",
-            "persona_id": 981,
-            "persona_lastname": "Mosaliganti"
-        },
-        {
-            "author_fullname": "Gelas, Arnaud",
-            "author_place": 2,
-            "persona_email": "arnaudgelas@gmail.com",
-            "persona_firstname": "Arnaud",
-            "persona_id": 7896,
-            "persona_lastname": "Gelas"
-        },
-        {
-            "author_fullname": "Cowgill, Paul",
-            "author_place": 3,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Megason, Sean",
-            "author_place": 4,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Mosaliganti, Kishore",
+        "author_place": 1,
+        "persona_email": "kishoreraom@gmail.com",
+        "persona_firstname": "Kishore",
+        "persona_id": 981,
+        "persona_lastname": "Mosaliganti"
+      },
+      {
+        "author_fullname": "Gelas, Arnaud",
+        "author_place": 2,
+        "persona_email": "arnaudgelas@gmail.com",
+        "persona_firstname": "Arnaud",
+        "persona_id": 7896,
+        "persona_lastname": "Gelas"
+      },
+      {
+        "author_fullname": "Cowgill, Paul",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Megason, Sean",
+        "author_place": 4,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2009-09-30 14:35:28",
     "handles": [
-        {
-            "handle": "10380/3129",
-            "handle_url": "http://hdl.handle.net/10380/3129"
-        }
+      {
+        "handle": "10380/3129",
+        "handle_url": "http://hdl.handle.net/10380/3129"
+      }
     ],
+    "id": 698,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 698,
     "submitted_by_author": {
-        "author_email": "kishoreraom@gmail.com",
-        "author_firstname": "Kishore",
-        "author_id": 981,
-        "author_institution": "Harvard Medical School",
-        "author_lastname": "Mosaliganti"
+      "author_email": "kishoreraom@gmail.com",
+      "author_firstname": "Kishore",
+      "author_id": 981,
+      "author_institution": "Harvard Medical School",
+      "author_lastname": "Mosaliganti"
     },
     "tags": [
-        "spherical objects",
-        "segmentation",
-        "hough"
+      "spherical objects",
+      "segmentation",
+      "hough"
     ],
     "title": "An Optimized N-Dimensional Hough Filter for Detecting Spherical Image Objects"
+  }
 }

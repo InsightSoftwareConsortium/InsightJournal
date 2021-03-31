@@ -1,60 +1,62 @@
 {
+  "publication": {
     "abstract": "An Insight Toolkit (ITK) implementation of our knowledgebased\r\nsegmentation algorithm applied to brain MRI scans is presented\r\nin this paper. Our algorithm is a refinement of the work of Teo, Saprio,\r\nand Wandall. The basic idea is to incorporate prior knowledge into the\r\nsegmentation through Bayesrule. Image noise is removed via an affine\r\ninvariant anisotropic smoothing of the posteriors as in Haker et. al.\r\nWe present the results of this code on two different projects. First, we\r\nshow the effect of applying this code to skull-removed brain MRI scans.\r\nSecond, we show the effect of applying this code to the extraction of the\r\nDLPFC from a user-defined subregion of brain MRI data.We present our\r\nresults on brain MRI scans, comparing the results of the knowledge-based\r\nsegmentation to manual segmentations on datasets of schizophrenic patients.",
     "authors": [
-        {
-            "author_fullname": "Melonakos, John",
-            "author_place": 1,
-            "persona_email": "jmelonak@ece.gatech.edu",
-            "persona_firstname": "John",
-            "persona_id": 37,
-            "persona_lastname": "Melonakos"
-        },
-        {
-            "author_fullname": "Al-Hakim, Ramsey",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Fallon, James",
-            "author_place": 3,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Tannenbaum, Allen",
-            "author_place": 4,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Melonakos, John",
+        "author_place": 1,
+        "persona_email": "jmelonak@ece.gatech.edu",
+        "persona_firstname": "John",
+        "persona_id": 37,
+        "persona_lastname": "Melonakos"
+      },
+      {
+        "author_fullname": "Al-Hakim, Ramsey",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Fallon, James",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Tannenbaum, Allen",
+        "author_place": 4,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2005-08-05T21:08:11Z",
     "handles": [
-        {
-            "handle": "1926/44",
-            "handle_url": "http://hdl.handle.net/1926/44"
-        }
+      {
+        "handle": "1926/44",
+        "handle_url": "http://hdl.handle.net/1926/44"
+      }
     ],
+    "id": 35,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 35,
     "submitted_by_author": {
-        "author_email": "jmelonak@ece.gatech.edu",
-        "author_firstname": "John",
-        "author_id": 37,
-        "author_institution": "Georgia Tech",
-        "author_lastname": "Melonakos"
+      "author_email": "jmelonak@ece.gatech.edu",
+      "author_firstname": "John",
+      "author_id": 37,
+      "author_institution": "Georgia Tech",
+      "author_lastname": "Melonakos"
     },
     "tags": [
-        "Brain MRI Scans",
-        "Bayes' Rule",
-        "Knowledge-Based Segmentation",
-        "DLPFC"
+      "Brain MRI Scans",
+      "Bayes' Rule",
+      "Knowledge-Based Segmentation",
+      "DLPFC"
     ],
     "title": "Knowledge-Based Segmentation of Brain MRI Scans Using the Insight Toolkit"
+  }
 }

@@ -1,43 +1,45 @@
 {
+  "publication": {
     "abstract": "Hilbert curves look pretty sweet which is why I wrote this class. Take a look at the pictures and see for yourself.",
     "authors": [
-        {
-            "author_fullname": "Tustison, Nicholas J.",
-            "author_place": 1,
-            "persona_email": "ntustison@gmail.com",
-            "persona_firstname": "Nicholas J.",
-            "persona_id": 8833,
-            "persona_lastname": "Tustison"
-        }
+      {
+        "author_fullname": "Tustison, Nicholas J.",
+        "author_place": 1,
+        "persona_email": "ntustison@gmail.com",
+        "persona_firstname": "Nicholas J.",
+        "persona_id": 8833,
+        "persona_lastname": "Tustison"
+      }
     ],
     "date_submitted": "2011-11-08 13:03:25",
     "handles": [
-        {
-            "handle": "10380/3324",
-            "handle_url": "http://hdl.handle.net/10380/3324"
-        }
+      {
+        "handle": "10380/3324",
+        "handle_url": "http://hdl.handle.net/10380/3324"
+      }
     ],
+    "id": 841,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 841,
     "submitted_by_author": {
-        "author_email": "ntustison@gmail.com",
-        "author_firstname": "Nicholas J.",
-        "author_id": 8833,
-        "author_institution": "",
-        "author_lastname": "Tustison"
+      "author_email": "ntustison@gmail.com",
+      "author_firstname": "Nicholas J.",
+      "author_id": 8833,
+      "author_institution": "",
+      "author_lastname": "Tustison"
     },
     "tags": [
-        "itkPath",
-        "Hilbert curve"
+      "itkPath",
+      "Hilbert curve"
     ],
     "title": "Why do walks with Hilbert seem to take so long?"
+  }
 }

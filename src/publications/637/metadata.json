@@ -1,48 +1,50 @@
 {
+  "publication": {
     "abstract": "The \ufb01eld of computational anatomy has developed rigorous frameworks for analyzing anatomical shape, based on diffeomorphic transformations of a template. However, differences in algorithms used for template warping, in regularization parameters, and in the template itself, lead to different representations of the same anatomy. Variations of these parameters are considered as confounding factors. Recently, extensions of the conventional computational anatomy framework to account for such confounding variations has shown that learning the equivalence class derived from the multitude of representations can lead to improved and more stable morphological descriptors. Herein, we follow that approach, estimating the morphological appearance manifold obtained by varying parameters of the template warping procedure. Our approach parallels work in the computer vision \ufb01eld, in which variations lighting, pose and other parameters leads to image appearance manifolds representing the exact same \ufb01gure in different ways. The proposed framework is then used for groupwise registration and statistical analysis of biomedical images, by employing a minimum variance criterion to perform manifold-constrained optimization, i.e. to traverse each individual\u2019s morphological appearance manifold until all individuals' representations come as close to each other as possible. E\ufb00ectively,\r\nthis process removes the aforementioned confounding e\ufb00ects and potentially leads to morphological representations re\ufb02ecting purely biological variations, instead of variations introduced by modeling assumptions and parameter settings. The nonlinearity of a morphological appearance manifold is treated via local approximations of the manifold via PCA.",
     "authors": [
-        {
-            "author_fullname": "Lian, Nai-Xiang",
-            "author_place": 1,
-            "persona_email": "naixiang.lian@uphs.upenn.edu",
-            "persona_firstname": "Nai-xiang",
-            "persona_id": 2090,
-            "persona_lastname": "Lian"
-        },
-        {
-            "author_fullname": "Davatzikos, Christos",
-            "author_place": 2,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Lian, Nai-Xiang",
+        "author_place": 1,
+        "persona_email": "naixiang.lian@uphs.upenn.edu",
+        "persona_firstname": "Nai-xiang",
+        "persona_id": 2090,
+        "persona_lastname": "Lian"
+      },
+      {
+        "author_fullname": "Davatzikos, Christos",
+        "author_place": 2,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2008-09-12 12:17:18",
     "handles": [
-        {
-            "handle": "10380/1505",
-            "handle_url": "http://hdl.handle.net/10380/1505"
-        }
+      {
+        "handle": "10380/1505",
+        "handle_url": "http://hdl.handle.net/10380/1505"
+      }
     ],
+    "id": 637,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 33,
-            "journal_name": "MICCAI 2008 Workshops"
-        }
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
     ],
-    "publication_id": 637,
     "submitted_by_author": {
-        "author_email": "naixiang.lian@uphs.upenn.edu",
-        "author_firstname": "Nai-xiang",
-        "author_id": 2090,
-        "author_institution": "University of Pennsylvania",
-        "author_lastname": "Lian"
+      "author_email": "naixiang.lian@uphs.upenn.edu",
+      "author_firstname": "Nai-xiang",
+      "author_id": 2090,
+      "author_institution": "University of Pennsylvania",
+      "author_lastname": "Lian"
     },
     "tags": [
-        "Morphological",
-        "Registation"
+      "Morphological",
+      "Registation"
     ],
     "title": "Morphological Appearance Manifolds in Computational Anatomy: Groupwise Registration and Morphological Analysis"
+  }
 }

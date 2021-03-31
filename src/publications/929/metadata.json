@@ -1,51 +1,53 @@
 {
+  "publication": {
     "abstract": "In this paper, we present a fast and interactive graph cut method for 3D segmentation of the endocardial wall of the left ventricle (LV) given 3D echocardiographic images. This is a challenging task due to the poor contrast and the low signal-to-noise ratio typical of echocardiographic images. The method is carried out in 3 steps. First, 3D sampling of the LV cavity is made in a spherical-cylindrical coordinate system. Then, a gradient-based energy term is assigned to each voxel, some of which being given an infinite energy to make sure the resulting volume passes through key anatomical points. Then, a graph-cut procedure provides delineation of the endocardial surface. Results obtained on 30 exams from the 2014 CETUS MICCAI challenge dataset reveal that our method takes between 5 and 10 seconds to segment a 3D volume with an overall mean surface distance lower than 2.3 mm and an ejection fraction error of less than 5% compared to a manual tracing by an expert.",
     "authors": [
-        {
-            "author_fullname": "Bernier, Michael",
-            "author_place": 1,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Jodoin, Pierre-Marc",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Lalande, Alain",
-            "author_place": 3,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Bernier, Michael",
+        "author_place": 1,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Jodoin, Pierre-Marc",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Lalande, Alain",
+        "author_place": 3,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2014-10-24 19:03:59",
     "handles": [
-        {
-            "handle": "10380/3482",
-            "handle_url": "http://hdl.handle.net/10380/3482"
-        }
+      {
+        "handle": "10380/3482",
+        "handle_url": "http://hdl.handle.net/10380/3482"
+      }
     ],
+    "id": 929,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 42,
-            "journal_name": "MICCAI 2014 Workshops"
-        }
+      {
+        "journal_id": 42,
+        "journal_name": "MICCAI 2014 Workshops"
+      }
     ],
-    "publication_id": 929,
     "submitted_by_author": {
-        "author_email": "olivier.bernard@creatis.insa-lyon.fr",
-        "author_firstname": "Olivier",
-        "author_id": 5768,
-        "author_institution": "CREATIS",
-        "author_lastname": "Bernard"
+      "author_email": "olivier.bernard@creatis.insa-lyon.fr",
+      "author_firstname": "Olivier",
+      "author_id": 5768,
+      "author_institution": "CREATIS",
+      "author_lastname": "Bernard"
     },
     "tags": [
-        "Segmentation",
-        "3D ultrasound imaging",
-        "Graph cuts"
+      "Segmentation",
+      "3D ultrasound imaging",
+      "Graph cuts"
     ],
     "title": "Automatized Evaluation of the Left Ventricular Ejection Fraction from Echocardiographic Images Using Graph Cut"
+  }
 }

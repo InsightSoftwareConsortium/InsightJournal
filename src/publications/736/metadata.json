@@ -1,60 +1,62 @@
 {
+  "publication": {
     "abstract": "Today\u2019s operating rooms consist of numerous medical devices, clinical IT systems and systems for computer assisted surgery. The majority of these systems comes from different vendors and has different user interface designs and interaction schemes. This diversity introduces a high risk of accidental misuse, which is critical in the surgical domain. The proposed framework integrates user interfaces of heterogeneous components into one central control console using a uniform screen design and interaction scheme. To accomplish this, the standards Universal Remote Console (URC) and Device Profiles for Web Services (DPWS) have been combined and integrated. The prototype results are demonstrated in the ICCAS integrated operating room.",
     "authors": [
-        {
-            "author_fullname": "Bohn, Stefan",
-            "author_place": 1,
-            "persona_email": "stefan.bohn@medizin.uni-leipzig.de",
-            "persona_firstname": "Stefan",
-            "persona_id": 2191,
-            "persona_lastname": "Bohn"
-        },
-        {
-            "author_fullname": "Hilbert, Tobias",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Burgert, Oliver",
-            "author_place": 3,
-            "persona_email": "oliver.burgert@reutlingen-university.de",
-            "persona_firstname": "Oliver",
-            "persona_id": 8050,
-            "persona_lastname": "Burgert"
-        }
+      {
+        "author_fullname": "Bohn, Stefan",
+        "author_place": 1,
+        "persona_email": "stefan.bohn@medizin.uni-leipzig.de",
+        "persona_firstname": "Stefan",
+        "persona_id": 2191,
+        "persona_lastname": "Bohn"
+      },
+      {
+        "author_fullname": "Hilbert, Tobias",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Burgert, Oliver",
+        "author_place": 3,
+        "persona_email": "oliver.burgert@reutlingen-university.de",
+        "persona_firstname": "Oliver",
+        "persona_id": 8050,
+        "persona_lastname": "Burgert"
+      }
     ],
     "date_submitted": "2010-08-16 13:09:15",
     "handles": [
-        {
-            "handle": "10380/3181",
-            "handle_url": "http://hdl.handle.net/10380/3181"
-        }
+      {
+        "handle": "10380/3181",
+        "handle_url": "http://hdl.handle.net/10380/3181"
+      }
     ],
+    "id": 736,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 37,
-            "journal_name": "MICCAI 2010 Workshops"
-        }
+      {
+        "journal_id": 37,
+        "journal_name": "MICCAI 2010 Workshops"
+      }
     ],
-    "publication_id": 736,
     "submitted_by_author": {
-        "author_email": "stefan.bohn@medizin.uni-leipzig.de",
-        "author_firstname": "Stefan",
-        "author_id": 2191,
-        "author_institution": "University of Leipzig, Innovation Center Computer Assisted Surgery (ICCAS)",
-        "author_lastname": "Bohn"
+      "author_email": "stefan.bohn@medizin.uni-leipzig.de",
+      "author_firstname": "Stefan",
+      "author_id": 2191,
+      "author_institution": "University of Leipzig, Innovation Center Computer Assisted Surgery (ICCAS)",
+      "author_lastname": "Bohn"
     },
     "tags": [
-        "Digital OR",
-        "System Integration",
-        "User Interface Integration",
-        "Remote Control",
-        "Universal Remote Console",
-        "Device Profiles for Web Services"
+      "Digital OR",
+      "System Integration",
+      "User Interface Integration",
+      "Remote Control",
+      "Universal Remote Console",
+      "Device Profiles for Web Services"
     ],
     "title": "User Interface Integration and Remote Control for Modular Surgical Assist Systems"
+  }
 }

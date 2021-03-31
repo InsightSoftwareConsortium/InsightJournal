@@ -1,44 +1,46 @@
 {
+  "publication": {
     "abstract": "Being able to quickly compute the inverse of a deformation \ufb01eld is often useful in the context of medical image analysis. While ITK supports this functionality, the current algorithms are slow and do not always yield accurate results. In this paper we describe an ITK implementation of a \ufb01xed point algorithm for the approximate inversion of deformation \ufb01elds that was recently proposed by M. Chen and co-workers. The algorithm has been shown to be both faster and more accurate than those currently implemented in ITK.\n",
     "authors": [
-        {
-            "author_fullname": "Luethi, Marcel",
-            "author_place": 1,
-            "persona_email": "marcel.luethi@unibas.ch",
-            "persona_firstname": "Marcel ",
-            "persona_id": 2738,
-            "persona_lastname": "Luethi"
-        }
+      {
+        "author_fullname": "Luethi, Marcel",
+        "author_place": 1,
+        "persona_email": "marcel.luethi@unibas.ch",
+        "persona_firstname": "Marcel ",
+        "persona_id": 2738,
+        "persona_lastname": "Luethi"
+      }
     ],
     "date_submitted": "2010-10-11 09:35:02",
     "handles": [
-        {
-            "handle": "10380/3222",
-            "handle_url": "http://hdl.handle.net/10380/3222"
-        }
+      {
+        "handle": "10380/3222",
+        "handle_url": "http://hdl.handle.net/10380/3222"
+      }
     ],
+    "id": 768,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 768,
     "submitted_by_author": {
-        "author_email": "marcel.luethi@unibas.ch",
-        "author_firstname": "Marcel ",
-        "author_id": 2738,
-        "author_institution": "University of Basel",
-        "author_lastname": "Luethi"
+      "author_email": "marcel.luethi@unibas.ch",
+      "author_firstname": "Marcel ",
+      "author_id": 2738,
+      "author_institution": "University of Basel",
+      "author_lastname": "Luethi"
     },
     "tags": [
-        "Image registration",
-        "Inversion",
-        "Deformation fields"
+      "Image registration",
+      "Inversion",
+      "Deformation fields"
     ],
     "title": "Inverting deformation fields using a fixed point iteration scheme"
+  }
 }

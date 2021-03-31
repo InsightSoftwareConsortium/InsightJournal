@@ -1,50 +1,52 @@
 {
+  "publication": {
     "abstract": "ITK's flood filling iterator represents a way to visit pixels/voxels within an image having a specific connectivity. The iterator is initialized at known seed points and starting from these, neighbors that are within the desired connectivity are marked as to be visited and processed by the iterator in the future.\r\n\r\nThe FloodFilledFunctionConditionalConstIterator builds the foundation for the implementation of the NeighborhoodConnectedImageFilter and is currently fixed to investigating 4-neighborhoods in 2D and 6-neighborhoods in 3D. Since many existing applications use region growing algorithms that perform on full neighborhoods (i.e. 8-connected in 2D and 26-connected in 3D) it is desirable to be able to choose at least between these two standard connectivities.\r\n\r\nIn this document we describe the extension of the existing iterator to be using ShapedNeighborhoodIterators which has already been proposed in the implementation of the FloodFilledFunctionConditionalConstIterator.",
     "authors": [
-        {
-            "author_fullname": "Groher, Martin",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Heibel, Hauke",
-            "author_place": 1,
-            "persona_email": "heibel@cs.tum.edu",
-            "persona_firstname": "Hauke",
-            "persona_id": 692,
-            "persona_lastname": "Heibel"
-        }
+      {
+        "author_fullname": "Groher, Martin",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Heibel, Hauke",
+        "author_place": 1,
+        "persona_email": "heibel@cs.tum.edu",
+        "persona_firstname": "Hauke",
+        "persona_id": 692,
+        "persona_lastname": "Heibel"
+      }
     ],
     "date_submitted": "2007-11-01T00:00:00Z",
     "handles": [
-        {
-            "handle": "1926/1320",
-            "handle_url": "http://hdl.handle.net/1926/1320"
-        }
+      {
+        "handle": "1926/1320",
+        "handle_url": "http://hdl.handle.net/1926/1320"
+      }
     ],
+    "id": 204,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 204,
     "submitted_by_author": {
-        "author_email": "heibel@cs.tum.edu",
-        "author_firstname": "Hauke",
-        "author_id": 692,
-        "author_institution": "CAMP / TU M&uuml;nchen",
-        "author_lastname": "Heibel"
+      "author_email": "heibel@cs.tum.edu",
+      "author_firstname": "Hauke",
+      "author_id": 692,
+      "author_institution": "CAMP / TU M&uuml;nchen",
+      "author_lastname": "Heibel"
     },
     "tags": [
-        "connectivity",
-        "iterator",
-        "flood filling",
-        "region growing"
+      "connectivity",
+      "iterator",
+      "flood filling",
+      "region growing"
     ],
     "title": "Shaped Neighborhood based Flood Filled Conditional Iterators"
+  }
 }

@@ -1,44 +1,46 @@
 {
+  "publication": {
     "abstract": "ITK has a powerful and flexible image IO framework. Reading and writing different types of image file is straightforward. The image IO could be easily extended by writing a specific image IO class for a new image file format. Whereas, there is no such framework for easily reading and writing itk::Mesh/itk::QuadEdgeMesh, At the moment, only a few specific classes to read vtk polydata format and is not easily to be extended. This paper describes our contribution to itk for providing a mesh IO framework which could be used for reading and writing some commonly used mesh file formats. The mesh IO classes worked well for both itk::Mesh and itk::QuadEdgeMesh.",
     "authors": [
-        {
-            "author_fullname": "Zhu, Wanlin",
-            "author_place": 1,
-            "persona_email": "wanl.zhu@gmail.com",
-            "persona_firstname": "Wanlin",
-            "persona_id": 257,
-            "persona_lastname": "Zhu"
-        }
+      {
+        "author_fullname": "Zhu, Wanlin",
+        "author_place": 1,
+        "persona_email": "wanl.zhu@gmail.com",
+        "persona_firstname": "Wanlin",
+        "persona_id": 257,
+        "persona_lastname": "Zhu"
+      }
     ],
     "date_submitted": "2010-09-08 00:42:41",
     "handles": [
-        {
-            "handle": "10380/3212",
-            "handle_url": "http://hdl.handle.net/10380/3212"
-        }
+      {
+        "handle": "10380/3212",
+        "handle_url": "http://hdl.handle.net/10380/3212"
+      }
     ],
+    "id": 761,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 761,
     "submitted_by_author": {
-        "author_email": "wanl.zhu@gmail.com",
-        "author_firstname": "Wanlin",
-        "author_id": 257,
-        "author_institution": "University of New South Wales",
-        "author_lastname": "Zhu"
+      "author_email": "wanl.zhu@gmail.com",
+      "author_firstname": "Wanlin",
+      "author_id": 257,
+      "author_institution": "University of New South Wales",
+      "author_lastname": "Zhu"
     },
     "tags": [
-        "IO",
-        "Mesh",
-        "QuadEdgeMesh"
+      "IO",
+      "Mesh",
+      "QuadEdgeMesh"
     ],
     "title": "ITK Mesh IO Framework"
+  }
 }

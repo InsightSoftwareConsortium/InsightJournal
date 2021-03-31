@@ -1,81 +1,83 @@
 {
+  "publication": {
     "abstract": "This document describes a project that can compare many images simultaneously in a synchronized manner. Such an application can be used in any ITK/VTK image processing pipelines; the programmer can use it to quickly visualize and compare intermediate results of used filters within the pipeline.The goals of this project are two folds: (i) to be integrated in gdb pretty debuggers (for visual debugging of ITK pipelines), and, (ii) to provide a visual comparison widget for image-to-image plugins (ITK or VTK based filters).\nThis project is part of the Gofigure2 development effort, an open-source, cross-platform application for visualizing, processing and analyzing of multidimensional microscopy data. ",
     "authors": [
-        {
-            "author_fullname": "Perrot-Audet, Antonin",
-            "author_place": 1,
-            "persona_email": "antonin07130@gmail.com",
-            "persona_firstname": "Antonin",
-            "persona_id": 2667,
-            "persona_lastname": "Perrot-audet"
-        },
-        {
-            "author_fullname": "Mosaliganti, Kishore",
-            "author_place": 2,
-            "persona_email": "kishoreraom@gmail.com",
-            "persona_firstname": "Kishore",
-            "persona_id": 981,
-            "persona_lastname": "Mosaliganti"
-        },
-        {
-            "author_fullname": "Gelas, Arnaud",
-            "author_place": 3,
-            "persona_email": "arnaudgelas@gmail.com",
-            "persona_firstname": "Arnaud",
-            "persona_id": 7896,
-            "persona_lastname": "Gelas"
-        },
-        {
-            "author_fullname": "Rannou, Nicolas",
-            "author_place": 4,
-            "persona_email": "nrannou@bwh.harvard.edu",
-            "persona_firstname": "Nicolas",
-            "persona_id": 2142,
-            "persona_lastname": "Rannou"
-        },
-        {
-            "author_fullname": "Souhait, Lydie",
-            "author_place": 5,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Megason, Sean",
-            "author_place": 6,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Perrot-Audet, Antonin",
+        "author_place": 1,
+        "persona_email": "antonin07130@gmail.com",
+        "persona_firstname": "Antonin",
+        "persona_id": 2667,
+        "persona_lastname": "Perrot-audet"
+      },
+      {
+        "author_fullname": "Mosaliganti, Kishore",
+        "author_place": 2,
+        "persona_email": "kishoreraom@gmail.com",
+        "persona_firstname": "Kishore",
+        "persona_id": 981,
+        "persona_lastname": "Mosaliganti"
+      },
+      {
+        "author_fullname": "Gelas, Arnaud",
+        "author_place": 3,
+        "persona_email": "arnaudgelas@gmail.com",
+        "persona_firstname": "Arnaud",
+        "persona_id": 7896,
+        "persona_lastname": "Gelas"
+      },
+      {
+        "author_fullname": "Rannou, Nicolas",
+        "author_place": 4,
+        "persona_email": "nrannou@bwh.harvard.edu",
+        "persona_firstname": "Nicolas",
+        "persona_id": 2142,
+        "persona_lastname": "Rannou"
+      },
+      {
+        "author_fullname": "Souhait, Lydie",
+        "author_place": 5,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Megason, Sean",
+        "author_place": 6,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2010-08-16 13:50:51",
     "handles": [
-        {
-            "handle": "10380/3196",
-            "handle_url": "http://hdl.handle.net/10380/3196"
-        }
+      {
+        "handle": "10380/3196",
+        "handle_url": "http://hdl.handle.net/10380/3196"
+      }
     ],
+    "id": 746,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 746,
     "submitted_by_author": {
-        "author_email": "antonin07130@gmail.com",
-        "author_firstname": "Antonin",
-        "author_id": 2667,
-        "author_institution": "Harvard Medical School, INSA Lyon",
-        "author_lastname": "Perrot-audet"
+      "author_email": "antonin07130@gmail.com",
+      "author_firstname": "Antonin",
+      "author_id": 2667,
+      "author_institution": "Harvard Medical School, INSA Lyon",
+      "author_lastname": "Perrot-audet"
     },
     "tags": [
-        "QWidget",
-        "vtk",
-        "Qt",
-        "visualization",
-        "compare",
-        "itk"
+      "QWidget",
+      "vtk",
+      "Qt",
+      "visualization",
+      "compare",
+      "itk"
     ],
     "title": "A simple Qt based comparison program for ITK and VTK images."
+  }
 }

@@ -1,70 +1,72 @@
 {
+  "publication": {
     "abstract": "We describe a segmentation method that was used in the Head and Neck Auto Segmentation Challenge held at the MICCAI 2015 conference. The algorithm consists of two building blocks. First, we employ a multi-atlas segmentation to obtain an initial segmentation for the considered organs at risk. Secondly, we use an Active Shape Model (ASM) segmentation to refine the initial segmentation of some of the organs. Leave-one-out experiments with the training data were used to determine suitable parameters for the individual steps of the segmentation. The ASM refinement resulted in improved segmentation for the optic nerves and submandibular glands, while for the brain stem, parotid glands, chiasm, and mandibular bone, the multi-atlas segmentation was preferable. Our submission achieved the second rank in the challenge.",
     "authors": [
-        {
-            "author_fullname": "Albrecht, Thomas",
-            "author_place": 1,
-            "persona_email": "thomas.albrecht@unibas.ch",
-            "persona_firstname": "Thomas",
-            "persona_id": 457,
-            "persona_lastname": "Albrecht"
-        },
-        {
-            "author_fullname": "Gass, Tobias",
-            "author_place": 2,
-            "persona_email": "tobiasgass@gmail.com",
-            "persona_firstname": "Tobias",
-            "persona_id": 7047,
-            "persona_lastname": "Gass"
-        },
-        {
-            "author_fullname": "Langguth, Christoph",
-            "author_place": 3,
-            "persona_email": "christoph.langguth@unibas.ch",
-            "persona_firstname": "Christoph",
-            "persona_id": 9678,
-            "persona_lastname": "Langguth"
-        },
-        {
-            "author_fullname": "L\u00fcthi, Marcel",
-            "author_place": 4,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Albrecht, Thomas",
+        "author_place": 1,
+        "persona_email": "thomas.albrecht@unibas.ch",
+        "persona_firstname": "Thomas",
+        "persona_id": 457,
+        "persona_lastname": "Albrecht"
+      },
+      {
+        "author_fullname": "Gass, Tobias",
+        "author_place": 2,
+        "persona_email": "tobiasgass@gmail.com",
+        "persona_firstname": "Tobias",
+        "persona_id": 7047,
+        "persona_lastname": "Gass"
+      },
+      {
+        "author_fullname": "Langguth, Christoph",
+        "author_place": 3,
+        "persona_email": "christoph.langguth@unibas.ch",
+        "persona_firstname": "Christoph",
+        "persona_id": 9678,
+        "persona_lastname": "Langguth"
+      },
+      {
+        "author_fullname": "L\u00fcthi, Marcel",
+        "author_place": 4,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2015-12-01 10:26:07",
     "handles": [
-        {
-            "handle": "10380/3531",
-            "handle_url": "http://hdl.handle.net/10380/3531"
-        }
+      {
+        "handle": "10380/3531",
+        "handle_url": "http://hdl.handle.net/10380/3531"
+      }
     ],
+    "id": 968,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 44,
-            "journal_name": "MICCAI 2015 Workshops"
-        }
+      {
+        "journal_id": 44,
+        "journal_name": "MICCAI 2015 Workshops"
+      }
     ],
-    "publication_id": 968,
     "submitted_by_author": {
-        "author_email": "christoph.langguth@unibas.ch",
-        "author_firstname": "Christoph",
-        "author_id": 9678,
-        "author_institution": "University of Basel",
-        "author_lastname": "Langguth"
+      "author_email": "christoph.langguth@unibas.ch",
+      "author_firstname": "Christoph",
+      "author_id": 9678,
+      "author_institution": "University of Basel",
+      "author_lastname": "Langguth"
     },
     "tags": [
-        "Atlas Selection",
-        "Challenge Result",
-        "Label Fusion",
-        "Automatic Segmentation",
-        "Active Shape Model",
-        "Multi Atlas Segmentation",
-        " Head/Neck",
-        "Radiotherapy"
+      "Atlas Selection",
+      "Challenge Result",
+      "Label Fusion",
+      "Automatic Segmentation",
+      "Active Shape Model",
+      "Multi Atlas Segmentation",
+      " Head/Neck",
+      "Radiotherapy"
     ],
     "title": "Multi Atlas Segmentation with Active Shape Model Refinement for Multi-Organ Segmentation in Head and Neck Cancer Radiotherapy Planning"
+  }
 }

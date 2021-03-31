@@ -1,53 +1,55 @@
 {
+  "publication": {
     "abstract": "This article describes the ITK implementation of a Normalized Gradient Fields\nbased image-to-image metric. Some properties of the metric are discussed and example registrations are presented.",
     "authors": [
-        {
-            "author_fullname": "Wollny, Gert",
-            "author_place": 1,
-            "persona_email": "gert@die.upm.es",
-            "persona_firstname": "Gert ",
-            "persona_id": 772,
-            "persona_lastname": "Wollny"
-        },
-        {
-            "author_fullname": "Ledesma-Carbayo, Mar\u00eda-Jesus",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Santos, Andr\u00e9s",
-            "author_place": 3,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Wollny, Gert",
+        "author_place": 1,
+        "persona_email": "gert@die.upm.es",
+        "persona_firstname": "Gert ",
+        "persona_id": 772,
+        "persona_lastname": "Wollny"
+      },
+      {
+        "author_fullname": "Ledesma-Carbayo, Mar\u00eda-Jesus",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Santos, Andr\u00e9s",
+        "author_place": 3,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2010-02-05 12:15:01",
     "handles": [
-        {
-            "handle": "10380/3150",
-            "handle_url": "http://hdl.handle.net/10380/3150"
-        }
+      {
+        "handle": "10380/3150",
+        "handle_url": "http://hdl.handle.net/10380/3150"
+      }
     ],
+    "id": 714,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 714,
     "submitted_by_author": {
-        "author_email": "gert@die.upm.es",
-        "author_firstname": "Gert ",
-        "author_id": 772,
-        "author_institution": "Biomedical Imaging Technologies, ETSIT, UPM ",
-        "author_lastname": "Wollny"
+      "author_email": "gert@die.upm.es",
+      "author_firstname": "Gert ",
+      "author_id": 772,
+      "author_institution": "Biomedical Imaging Technologies, ETSIT, UPM ",
+      "author_lastname": "Wollny"
     },
     "tags": [
-        "Image registration",
-        "Metric"
+      "Image registration",
+      "Metric"
     ],
     "title": "An ITK implementation of the Normalized Gradient Field Image to Image Metric"
+  }
 }

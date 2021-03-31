@@ -1,50 +1,52 @@
 {
+  "publication": {
     "abstract": "A multi-atlas approach is proposed for the automatic segmentation of nine different structures in a set of head and neck CT images for radiotherapy. The approach takes advantage of a training dataset of 25 images to build average head and neck atlases of high-quality. By registering patient images with the atlases at the global level, structures of interest are aligned approximately in space, which allowed multi-atlas-based segmentations and correlation-based label fusion to be performed at the local level in the following steps. Qualitative and quantitative evaluations are performed on a set of 15 testing images. As shown by the results, mandible, brainstem and parotid glands are segmented accurately (mean volume DSC>0.8). The segmentation accuracy for the optic nerves is also improved over previously reported results (mean DSC above 0.61 compared with 0.52 for previous results). ",
     "authors": [
-        {
-            "author_fullname": "Chen, Antong",
-            "author_place": 2,
-            "persona_email": "antongchen@gmail.com",
-            "persona_firstname": "Antong",
-            "persona_id": 9714,
-            "persona_lastname": "Chen"
-        },
-        {
-            "author_fullname": "Dawant, Benoit",
-            "author_place": 3,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Chen, Antong",
+        "author_place": 2,
+        "persona_email": "antongchen@gmail.com",
+        "persona_firstname": "Antong",
+        "persona_id": 9714,
+        "persona_lastname": "Chen"
+      },
+      {
+        "author_fullname": "Dawant, Benoit",
+        "author_place": 3,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2016-02-02 16:09:31",
     "handles": [
-        {
-            "handle": "10380/3540",
-            "handle_url": "http://hdl.handle.net/10380/3540"
-        }
+      {
+        "handle": "10380/3540",
+        "handle_url": "http://hdl.handle.net/10380/3540"
+      }
     ],
+    "id": 964,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 44,
-            "journal_name": "MICCAI 2015 Workshops"
-        }
+      {
+        "journal_id": 44,
+        "journal_name": "MICCAI 2015 Workshops"
+      }
     ],
-    "publication_id": 964,
     "submitted_by_author": {
-        "author_email": "antongchen@gmail.com",
-        "author_firstname": "Antong",
-        "author_id": 9714,
-        "author_institution": "Merck & Co., Inc.",
-        "author_lastname": "Chen"
+      "author_email": "antongchen@gmail.com",
+      "author_firstname": "Antong",
+      "author_id": 9714,
+      "author_institution": "Merck & Co., Inc.",
+      "author_lastname": "Chen"
     },
     "tags": [
-        "multi-atlas",
-        "radiotherapy",
-        "nonrigid registration",
-        "head and neck "
+      "multi-atlas",
+      "radiotherapy",
+      "nonrigid registration",
+      "head and neck "
     ],
     "title": "A Multi-atlas Approach for the Automatic Segmentation of Multiple Structures in Head and Neck CT Images"
+  }
 }

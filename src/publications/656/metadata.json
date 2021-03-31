@@ -1,53 +1,55 @@
 {
+  "publication": {
     "abstract": "This document describes the role of DICOM as one major standard which will enable interoperability between systems used for surgical planning, intraoperative surgical assist systems and postoperative documentation. We first give an brief overview about DICOM and how it is constantly adapted and extended to cover the needs of new devices and application fields. We describe some of the recent additions which are relevant for image processing and intraoperative support in more detail, followed by a description of the current and future work of DICOM working group 24 \"Surgery\".",
     "authors": [
-        {
-            "author_fullname": "Burgert, Oliver",
-            "author_place": 1,
-            "persona_email": "oliver.burgert@reutlingen-university.de",
-            "persona_firstname": "Oliver",
-            "persona_id": 8050,
-            "persona_lastname": "Burgert"
-        },
-        {
-            "author_fullname": "Treichel, Thomas",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Gessat, Michael",
-            "author_place": 3,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Burgert, Oliver",
+        "author_place": 1,
+        "persona_email": "oliver.burgert@reutlingen-university.de",
+        "persona_firstname": "Oliver",
+        "persona_id": 8050,
+        "persona_lastname": "Burgert"
+      },
+      {
+        "author_fullname": "Treichel, Thomas",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Gessat, Michael",
+        "author_place": 3,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2009-07-12 15:49:00",
     "handles": [
-        {
-            "handle": "10380/3082",
-            "handle_url": "http://hdl.handle.net/10380/3082"
-        }
+      {
+        "handle": "10380/3082",
+        "handle_url": "http://hdl.handle.net/10380/3082"
+      }
     ],
+    "id": 656,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 34,
-            "journal_name": "MICCAI 2009 Workshops"
-        }
+      {
+        "journal_id": 34,
+        "journal_name": "MICCAI 2009 Workshops"
+      }
     ],
-    "publication_id": 656,
     "submitted_by_author": {
-        "author_email": "oliver.burgert@reutlingen-university.de",
-        "author_firstname": "Oliver",
-        "author_id": 8050,
-        "author_institution": "Reutlingen University",
-        "author_lastname": "Burgert"
+      "author_email": "oliver.burgert@reutlingen-university.de",
+      "author_firstname": "Oliver",
+      "author_id": 8050,
+      "author_institution": "Reutlingen University",
+      "author_lastname": "Burgert"
     },
     "tags": [
-        "DICOM",
-        "Standards"
+      "DICOM",
+      "Standards"
     ],
     "title": "The Role of DICOM for Modular Perioperative Surgical Assist Systems Design"
+  }
 }

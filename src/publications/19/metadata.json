@@ -1,72 +1,74 @@
 {
+  "publication": {
     "abstract": "Inactivation of the retinoblastoma gene in mouse embryos results\r\nin morphological changes in the placenta, which has been shown to\r\naffect fetal survivability. The construction of a 3D virtual\r\nplacenta aids in accurately quantifying structural changes using\r\nimage analysis. The placenta dataset consisted of 786 images\r\ntotaling 550 GB in size, which were registered into a volumetric\r\ndataset using ITK's registration framework. The registration\r\nprocess faces many challenges arising from the large image sizes,\r\ndamages during sectioning, staining gradients both within and\r\nacross sections, and background noise leading to local solutions.\r\nIn this work, we implement a rigorous ITK-based preprocessing\r\npipeline for removing noise and employ a novel 2-level\r\noptimization strategy for enhanced registration in ITK. We provide\r\n3D visualizations and numerical results to demonstrate our\r\nimprovements.",
     "authors": [
-        {
-            "author_fullname": "Mosaliganti, Kishore",
-            "author_place": 1,
-            "persona_email": "kishoreraom@gmail.com",
-            "persona_firstname": "Kishore",
-            "persona_id": 981,
-            "persona_lastname": "Mosaliganti"
-        },
-        {
-            "author_fullname": "Pan, Tony",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Machiraju, Raghu",
-            "author_place": 3,
-            "persona_email": "raghu.machiraju@gmail.com",
-            "persona_firstname": "raghu",
-            "persona_id": 595,
-            "persona_lastname": "machiraju"
-        },
-        {
-            "author_fullname": "Huang, Kun",
-            "author_place": 4,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Saltz, Joel",
-            "author_place": 5,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Mosaliganti, Kishore",
+        "author_place": 1,
+        "persona_email": "kishoreraom@gmail.com",
+        "persona_firstname": "Kishore",
+        "persona_id": 981,
+        "persona_lastname": "Mosaliganti"
+      },
+      {
+        "author_fullname": "Pan, Tony",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Machiraju, Raghu",
+        "author_place": 3,
+        "persona_email": "raghu.machiraju@gmail.com",
+        "persona_firstname": "raghu",
+        "persona_id": 595,
+        "persona_lastname": "machiraju"
+      },
+      {
+        "author_fullname": "Huang, Kun",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Saltz, Joel",
+        "author_place": 5,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2005-08-01T21:50:01Z",
     "handles": [
-        {
-            "handle": "1926/23",
-            "handle_url": "http://hdl.handle.net/1926/23"
-        },
-        {
-            "handle": "/3347",
-            "handle_url": "http://hdl.handle.net//3347"
-        }
+      {
+        "handle": "1926/23",
+        "handle_url": "http://hdl.handle.net/1926/23"
+      },
+      {
+        "handle": "/3347",
+        "handle_url": "http://hdl.handle.net//3347"
+      }
     ],
+    "id": 19,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 19,
     "submitted_by_author": {
-        "author_email": "kishoreraom@gmail.com",
-        "author_firstname": "Kishore",
-        "author_id": 981,
-        "author_institution": "Harvard Medical School",
-        "author_lastname": "Mosaliganti"
+      "author_email": "kishoreraom@gmail.com",
+      "author_firstname": "Kishore",
+      "author_id": 981,
+      "author_institution": "Harvard Medical School",
+      "author_lastname": "Mosaliganti"
     },
     "tags": [
-        "Mutual Information",
-        "Registration",
-        "Light Microscopy",
-        "Optimization strategy"
+      "Mutual Information",
+      "Registration",
+      "Light Microscopy",
+      "Optimization strategy"
     ],
     "title": "ITK-based Registration of Large Images from Light Microscopy: A Biomedical Application"
+  }
 }

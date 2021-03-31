@@ -1,48 +1,50 @@
 {
+  "publication": {
     "abstract": "A contribution to the Insight Toolkit intended to support the process of statistical\nanalysis in Computational Anatomy. The methods included here operate on open or closed triagulated surfaces (represented by a QuadEdgeMesh). The filter assigns basis function values as Point Data on each vertex of the Mesh.\nThis paper is accompanied with the source code, input data, parameters and output data that we used for validating the algorithm described in this paper. This adheres to the fundamental principle that scientific publications must facilitate reproducibility of the reported results.",
     "authors": [
-        {
-            "author_fullname": "Bowers, Michael",
-            "author_place": 1,
-            "persona_email": "michaelbowersjhu@gmail.com",
-            "persona_firstname": "Michael",
-            "persona_id": 2380,
-            "persona_lastname": "Bowers"
-        },
-        {
-            "author_fullname": "Younes, Laurent",
-            "author_place": 2,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Bowers, Michael",
+        "author_place": 1,
+        "persona_email": "michaelbowersjhu@gmail.com",
+        "persona_firstname": "Michael",
+        "persona_id": 2380,
+        "persona_lastname": "Bowers"
+      },
+      {
+        "author_fullname": "Younes, Laurent",
+        "author_place": 2,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2013-08-09 19:39:58",
     "handles": [
-        {
-            "handle": "10380/3323",
-            "handle_url": "http://hdl.handle.net/10380/3323"
-        }
+      {
+        "handle": "10380/3323",
+        "handle_url": "http://hdl.handle.net/10380/3323"
+      }
     ],
+    "id": 840,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 840,
     "submitted_by_author": {
-        "author_email": "michaelbowersjhu@gmail.com",
-        "author_firstname": "Michael",
-        "author_id": 2380,
-        "author_institution": "Johns Hopkins",
-        "author_lastname": "Bowers"
+      "author_email": "michaelbowersjhu@gmail.com",
+      "author_firstname": "Michael",
+      "author_id": 2380,
+      "author_institution": "Johns Hopkins",
+      "author_lastname": "Bowers"
     },
     "tags": [
-        "Laplace-Beltrami",
-        "Surface Harmonics"
+      "Laplace-Beltrami",
+      "Surface Harmonics"
     ],
     "title": "Laplace Beltrami Filter on QuadEdge Meshes"
+  }
 }

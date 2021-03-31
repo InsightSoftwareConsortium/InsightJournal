@@ -1,58 +1,60 @@
 {
+  "publication": {
     "abstract": "This paper presents the results of the Head and Neck Auto-segmentationChallenge, which was part of the workshop \u201c3D Segmentation in the Clinic: A Grand Challenge\u201d. This workshop took place in London, UK, in September 2009, in conjunction with the 12th conference on Medical Image Computing and Computer Assisted Interventions (MICCAI). The aim of the challenge was to evaluate the performance of fully automated algorithms in segmenting the mandible and the brainstem in head and neck CT image data used in radiotherapy planning. We describe the motivation behind the clinical application selected for the challenge, the image data used, and the metrics applied for the quantitative assessment of the segmentation accuracy with respect to the ground truth segmentations provided by a clinical expert. The quantitative evaluation results of the auto-segmentations submitted by the workshop participants are included.",
     "authors": [
-        {
-            "author_fullname": "Pekar, Vladimir",
-            "author_place": 1,
-            "persona_email": "vladimir.pekar@philips.com",
-            "persona_firstname": "Vladimir",
-            "persona_id": 2168,
-            "persona_lastname": "Pekar"
-        },
-        {
-            "author_fullname": "Allaire, Stephane",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Kim, John",
-            "author_place": 3,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Jaffray, David",
-            "author_place": 4,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Pekar, Vladimir",
+        "author_place": 1,
+        "persona_email": "vladimir.pekar@philips.com",
+        "persona_firstname": "Vladimir",
+        "persona_id": 2168,
+        "persona_lastname": "Pekar"
+      },
+      {
+        "author_fullname": "Allaire, Stephane",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Kim, John",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Jaffray, David",
+        "author_place": 4,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2009-11-19 14:21:10",
     "handles": [
-        {
-            "handle": "10380/3136",
-            "handle_url": "http://hdl.handle.net/10380/3136"
-        }
+      {
+        "handle": "10380/3136",
+        "handle_url": "http://hdl.handle.net/10380/3136"
+      }
     ],
+    "id": 703,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 34,
-            "journal_name": "MICCAI 2009 Workshops"
-        }
+      {
+        "journal_id": 34,
+        "journal_name": "MICCAI 2009 Workshops"
+      }
     ],
-    "publication_id": 703,
     "submitted_by_author": {
-        "author_email": "vladimir.pekar@philips.com",
-        "author_firstname": "Vladimir",
-        "author_id": 2168,
-        "author_institution": "Philips Research North America",
-        "author_lastname": "Pekar"
+      "author_email": "vladimir.pekar@philips.com",
+      "author_firstname": "Vladimir",
+      "author_id": 2168,
+      "author_institution": "Philips Research North America",
+      "author_lastname": "Pekar"
     },
     "tags": [
-        "radiotherapy planning",
-        "automatic segmentation"
+      "radiotherapy planning",
+      "automatic segmentation"
     ],
     "title": "Head and Neck Auto-segmentation Challenge"
+  }
 }

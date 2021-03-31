@@ -1,63 +1,65 @@
 {
+  "publication": {
     "abstract": "In this paper, we present the use of a generic image segmentation method, namely a succession of Random Forest classifiers in an autocontext framework, for the MICCAI 2014 Challenge on Endocardial 3D Ultrasound Segmentation (CETUS). The proposed method segments each frame independently in 90 sec, without requiring temporal information such as end-diastolic or end-systolic time points nor any registration. For better segmentation accuracy, non-local means denoising can be applied to the images at the cost of an increased run-time. The mean Dice score on the testing dataset was 84.4% without denoising and 86.4% with denoising. The originality of our approach lies in the introduction of two classes, the myocardium and the mitral valve, in addition to the left ventricle and the background classes, in order to gain contextual information for the segmentation task.",
     "authors": [
-        {
-            "author_fullname": "Keraudren, Kevin",
-            "author_place": 1,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Oktay, Ozan",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Shi, Wenzhe",
-            "author_place": 3,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Hajnal, Joseph V.",
-            "author_place": 4,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Rueckert, Daniel",
-            "author_place": 5,
-            "persona_email": "dr@doc.ic.ac.uk",
-            "persona_firstname": "Daniel",
-            "persona_id": 85,
-            "persona_lastname": "Rueckert"
-        }
+      {
+        "author_fullname": "Keraudren, Kevin",
+        "author_place": 1,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Oktay, Ozan",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Shi, Wenzhe",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Hajnal, Joseph V.",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Rueckert, Daniel",
+        "author_place": 5,
+        "persona_email": "dr@doc.ic.ac.uk",
+        "persona_firstname": "Daniel",
+        "persona_id": 85,
+        "persona_lastname": "Rueckert"
+      }
     ],
     "date_submitted": "2014-10-24 19:07:07",
     "handles": [
-        {
-            "handle": "10380/3484",
-            "handle_url": "http://hdl.handle.net/10380/3484"
-        }
+      {
+        "handle": "10380/3484",
+        "handle_url": "http://hdl.handle.net/10380/3484"
+      }
     ],
+    "id": 931,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 42,
-            "journal_name": "MICCAI 2014 Workshops"
-        }
+      {
+        "journal_id": 42,
+        "journal_name": "MICCAI 2014 Workshops"
+      }
     ],
-    "publication_id": 931,
     "submitted_by_author": {
-        "author_email": "olivier.bernard@creatis.insa-lyon.fr",
-        "author_firstname": "Olivier",
-        "author_id": 5768,
-        "author_institution": "CREATIS",
-        "author_lastname": "Bernard"
+      "author_email": "olivier.bernard@creatis.insa-lyon.fr",
+      "author_firstname": "Olivier",
+      "author_id": 5768,
+      "author_institution": "CREATIS",
+      "author_lastname": "Bernard"
     },
     "tags": [
-        "Segmentation",
-        "3D ultrasound imaging"
+      "Segmentation",
+      "3D ultrasound imaging"
     ],
     "title": "Endocardial 3D Ultrasound Segmentation using Autocontext Random Forests"
+  }
 }

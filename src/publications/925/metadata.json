@@ -1,63 +1,65 @@
 {
+  "publication": {
     "abstract": "The segmentation of parotid glands in CT scans of patients with head and neck cancer is an essential part of treatment planning. We introduce a new method for the automatic segmentation of parotid glands that extends existing patch-based approaches in three ways: (1) we promote the use of image features in combination with patch intensity values to increase discrimination; (2) we work with larger search windows than established methods by using an approximate nearest neighbor search; and (3) we demonstrate that location information is a crucial discriminator and add it explicitly to the description. In our experiments, we compare a large number of features and introduce a new multi-scale descriptor. The best performance is achieved with entropy image features in combination with patches and location information.",
     "authors": [
-        {
-            "author_fullname": "Wachinger, Christian",
-            "author_place": 1,
-            "persona_email": "wachinge@in.tum.de",
-            "persona_firstname": "Christian",
-            "persona_id": 2128,
-            "persona_lastname": "Wachinger"
-        },
-        {
-            "author_fullname": "Brennan, Matthew",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Sharp, Greg",
-            "author_place": 3,
-            "persona_email": "gcsharp@partners.org",
-            "persona_firstname": "Greg",
-            "persona_id": 2425,
-            "persona_lastname": "Sharp"
-        },
-        {
-            "author_fullname": "Golland, Polina",
-            "author_place": 4,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Wachinger, Christian",
+        "author_place": 1,
+        "persona_email": "wachinge@in.tum.de",
+        "persona_firstname": "Christian",
+        "persona_id": 2128,
+        "persona_lastname": "Wachinger"
+      },
+      {
+        "author_fullname": "Brennan, Matthew",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Sharp, Greg",
+        "author_place": 3,
+        "persona_email": "gcsharp@partners.org",
+        "persona_firstname": "Greg",
+        "persona_id": 2425,
+        "persona_lastname": "Sharp"
+      },
+      {
+        "author_fullname": "Golland, Polina",
+        "author_place": 4,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2014-09-30 09:55:35",
     "handles": [
-        {
-            "handle": "10380/3472",
-            "handle_url": "http://hdl.handle.net/10380/3472"
-        }
+      {
+        "handle": "10380/3472",
+        "handle_url": "http://hdl.handle.net/10380/3472"
+      }
     ],
+    "id": 925,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 42,
-            "journal_name": "MICCAI 2014 Workshops"
-        }
+      {
+        "journal_id": 42,
+        "journal_name": "MICCAI 2014 Workshops"
+      }
     ],
-    "publication_id": 925,
     "submitted_by_author": {
-        "author_email": "igart2014@gmail.com",
-        "author_firstname": "Radiation",
-        "author_id": 9230,
-        "author_institution": "",
-        "author_lastname": "Therapy"
+      "author_email": "igart2014@gmail.com",
+      "author_firstname": "Radiation",
+      "author_id": 9230,
+      "author_institution": "",
+      "author_lastname": "Therapy"
     },
     "tags": [
-        "Features",
-        "Approximate Nearest Neighbors",
-        "Atlas-based segmentation",
-        "Patches"
+      "Features",
+      "Approximate Nearest Neighbors",
+      "Atlas-based segmentation",
+      "Patches"
     ],
     "title": "On the Importance of Location and Features for the Patch-Based Segmentation of Parotid Glands"
+  }
 }

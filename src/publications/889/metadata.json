@@ -1,68 +1,70 @@
 {
+  "publication": {
     "abstract": "In today\u2019s medicine a lot of research revolves around the combination of different imaging and tracking modalities to form a new system for Image-Guided Therapy. Such systems can help to overcome shortcomings of the individual techniques or create new kinds of possible use cases. To ease the development of a hybrid modality we have created a generic, portable, lightweight, and easily extensible, client-server based framework, implemented in C++, to control the communication between multiple imaging and tracking devices. Our framework Computer Aided Medical Procedures Communication (CAMPCom), allows developers of hybrid systems to focus on the most important implementation aspects by freeing them from the more generic tasks of data serialization and exchange. The framework is openly available on http://campar.in.tum.de/Main/CAMPCom",
     "authors": [
-        {
-            "author_fullname": "Schoch, Alexander",
-            "author_place": 1,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Fuerst, Bernhard",
-            "author_place": 2,
-            "persona_email": "be.fuerst@gmail.com",
-            "persona_firstname": "Bernhard",
-            "persona_id": 7864,
-            "persona_lastname": "Fuerst"
-        },
-        {
-            "author_fullname": "Achilles, Felix",
-            "author_place": 3,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Demirci, Stefanie",
-            "author_place": 4,
-            "persona_email": "demirci@in.tum.de",
-            "persona_firstname": "Stefanie",
-            "persona_id": 732,
-            "persona_lastname": "Demirci"
-        },
-        {
-            "author_fullname": "Navab, Nassir",
-            "author_place": 5,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Schoch, Alexander",
+        "author_place": 1,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Fuerst, Bernhard",
+        "author_place": 2,
+        "persona_email": "be.fuerst@gmail.com",
+        "persona_firstname": "Bernhard",
+        "persona_id": 7864,
+        "persona_lastname": "Fuerst"
+      },
+      {
+        "author_fullname": "Achilles, Felix",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Demirci, Stefanie",
+        "author_place": 4,
+        "persona_email": "demirci@in.tum.de",
+        "persona_firstname": "Stefanie",
+        "persona_id": 732,
+        "persona_lastname": "Demirci"
+      },
+      {
+        "author_fullname": "Navab, Nassir",
+        "author_place": 5,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2013-08-06 13:50:00",
     "handles": [
-        {
-            "handle": "10380/3408",
-            "handle_url": "http://hdl.handle.net/10380/3408"
-        }
+      {
+        "handle": "10380/3408",
+        "handle_url": "http://hdl.handle.net/10380/3408"
+      }
     ],
+    "id": 889,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 41,
-            "journal_name": "MICCAI 2013 Workshops"
-        }
+      {
+        "journal_id": 41,
+        "journal_name": "MICCAI 2013 Workshops"
+      }
     ],
-    "publication_id": 889,
     "submitted_by_author": {
-        "author_email": "be.fuerst@gmail.com",
-        "author_firstname": "Bernhard",
-        "author_id": 7864,
-        "author_institution": "Technische Universit\u00e4t M\u00fcnchen",
-        "author_lastname": "Fuerst"
+      "author_email": "be.fuerst@gmail.com",
+      "author_firstname": "Bernhard",
+      "author_id": 7864,
+      "author_institution": "Technische Universit\u00e4t M\u00fcnchen",
+      "author_lastname": "Fuerst"
     },
     "tags": [
-        "Software Framework",
-        "Multimodal",
-        "Network",
-        "Image Guided Therapy"
+      "Software Framework",
+      "Multimodal",
+      "Network",
+      "Image Guided Therapy"
     ],
     "title": "A Lightweight and Portable Communication Framework for Multimodal Image-Guided Therapy"
+  }
 }

@@ -1,63 +1,65 @@
 {
+  "publication": {
     "abstract": "In this paper we propose the usage of a very efficient contact implementation for modeling the brain-skull interaction. This contact algorithm is specially design for our Dynamic Relaxation solution method for solving soft-tissue registration problems. It makes possible the use of complex biomechanical models which include different nonlin-ear materials, large deformations and contacts for image registration. The computational examples prove the accuracy and the computational efficiency of our methods. For a model having more than 50000 degrees of freedom, a complete simulation can be done in less than a minute.",
     "authors": [
-        {
-            "author_fullname": "Joldes, Grand Roman",
-            "author_place": 1,
-            "persona_email": "grandj@mech.uwa.edu.au",
-            "persona_firstname": "Grand roman",
-            "persona_id": 832,
-            "persona_lastname": "Joldes"
-        },
-        {
-            "author_fullname": "Wittek, Adam",
-            "author_place": 2,
-            "persona_email": "adwit@mech.uwa.edu.au",
-            "persona_firstname": "Adam",
-            "persona_id": 864,
-            "persona_lastname": "Wittek"
-        },
-        {
-            "author_fullname": "Miller, Karol",
-            "author_place": 3,
-            "persona_email": "kmiller@mech.uwa.edu.au",
-            "persona_firstname": "Karol",
-            "persona_id": 791,
-            "persona_lastname": "Miller"
-        },
-        {
-            "author_fullname": "Morriss, Leith",
-            "author_place": 4,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Joldes, Grand Roman",
+        "author_place": 1,
+        "persona_email": "grandj@mech.uwa.edu.au",
+        "persona_firstname": "Grand roman",
+        "persona_id": 832,
+        "persona_lastname": "Joldes"
+      },
+      {
+        "author_fullname": "Wittek, Adam",
+        "author_place": 2,
+        "persona_email": "adwit@mech.uwa.edu.au",
+        "persona_firstname": "Adam",
+        "persona_id": 864,
+        "persona_lastname": "Wittek"
+      },
+      {
+        "author_fullname": "Miller, Karol",
+        "author_place": 3,
+        "persona_email": "kmiller@mech.uwa.edu.au",
+        "persona_firstname": "Karol",
+        "persona_id": 791,
+        "persona_lastname": "Miller"
+      },
+      {
+        "author_fullname": "Morriss, Leith",
+        "author_place": 4,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2008-05-21T08:32:31Z",
     "handles": [
-        {
-            "handle": "10380/1365",
-            "handle_url": "http://hdl.handle.net/10380/1365"
-        }
+      {
+        "handle": "10380/1365",
+        "handle_url": "http://hdl.handle.net/10380/1365"
+      }
     ],
+    "id": 552,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 33,
-            "journal_name": "MICCAI 2008 Workshops"
-        }
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
     ],
-    "publication_id": 552,
     "submitted_by_author": {
-        "author_email": "grandj@mech.uwa.edu.au",
-        "author_firstname": "Grand roman",
-        "author_id": 832,
-        "author_institution": "The University of Western Australia",
-        "author_lastname": "Joldes"
+      "author_email": "grandj@mech.uwa.edu.au",
+      "author_firstname": "Grand roman",
+      "author_id": 832,
+      "author_institution": "The University of Western Australia",
+      "author_lastname": "Joldes"
     },
     "tags": [
-        "real time computations, brain-skull contacts, image registration"
+      "real time computations, brain-skull contacts, image registration"
     ],
     "title": "Realistic And Efficient Brain-Skull Interaction Model For Brain Shift Computation"
+  }
 }

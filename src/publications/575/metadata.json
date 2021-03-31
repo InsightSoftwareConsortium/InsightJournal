@@ -1,80 +1,82 @@
 {
+  "publication": {
     "abstract": "This coronary-artery extraction method uses one initialization point per vessel. First, a mask is computed by use of a region-growing algorithm, which starts from the initial point and stops when no more connected voxels fall within an interactively defined intensity range. The centerline tracking is then\nperformed within the mask, starting from the same initial point. This algorithm is based on a prediction/estimation scheme. It uses the first- and second-order image moments calculated within a spherical volume that slides along the vessel, and the radius of which is automatically adjusted to the local radius\nof the vessel. The evolution of the radius of the sphere is based on the analysis of the eigenvalues of the inertia matrix in a multi-scale framework. The estimation of the current point location makes use\nof an elastic model similar to \u201dsnakes\u201d. The point iteratively moves under the action of an image-force attracting it to the local gravity center, and under the reaction of the internal forces of the model, which\nreflect its shape constraints: continuity and smoothness. The prediction makes use of the eigenvectors of\nthe inertia matrix. The stopping criteria of the centerline tracking are based on the size of the sphere and on the percentage of the masked voxels within the sphere.\nOn 8 training CT datasets, the following mean results were obtained. Overlap with reference: considering the whole length (OV) 80.1%, until the first failure (OF) 48.9%, in clinically relevant segments (radius > 1.5 mm, OT) 81.7%. Average distance from reference: considering the whole length\n(AD) 4.32 mm, limited to segments where the semiautomatic centerline remains within the vessel (AI) 0.39 mm, in clinically relevant segments (AT) 4.13 mm. On 16 testing datasets, these results were respectively: OV =80.2%, OF =39.3%, OT =82.1%, AD =5.05 mm, AI =0.41 mm and AT =4.58 mm. \nA number of failures was due to the the fact that the model does not handle the bifurcations.",
     "authors": [
-        {
-            "author_fullname": "Hernandez Hoyos, Marcela",
-            "author_place": 1,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Zuluaga, Maria Alejandra",
-            "author_place": 2,
-            "persona_email": "maria.zuluaga@creatis.insa-lyon.fr",
-            "persona_firstname": "Maria A.",
-            "persona_id": 2228,
-            "persona_lastname": "Zuluaga"
-        },
-        {
-            "author_fullname": "Lozano, Monica",
-            "author_place": 3,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Prieto, Juan Carlos",
-            "author_place": 4,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Douek, Philippe C.",
-            "author_place": 5,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Magnin, Isabelle E.",
-            "author_place": 6,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Orkisz, Maciej",
-            "author_place": 7,
-            "persona_email": "maciejorkisz@gmail.com",
-            "persona_firstname": "Maciej",
-            "persona_id": 879,
-            "persona_lastname": "Orkisz"
-        }
+      {
+        "author_fullname": "Hernandez Hoyos, Marcela",
+        "author_place": 1,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Zuluaga, Maria Alejandra",
+        "author_place": 2,
+        "persona_email": "maria.zuluaga@creatis.insa-lyon.fr",
+        "persona_firstname": "Maria A.",
+        "persona_id": 2228,
+        "persona_lastname": "Zuluaga"
+      },
+      {
+        "author_fullname": "Lozano, Monica",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Prieto, Juan Carlos",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Douek, Philippe C.",
+        "author_place": 5,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Magnin, Isabelle E.",
+        "author_place": 6,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Orkisz, Maciej",
+        "author_place": 7,
+        "persona_email": "maciejorkisz@gmail.com",
+        "persona_firstname": "Maciej",
+        "persona_id": 879,
+        "persona_lastname": "Orkisz"
+      }
     ],
     "date_submitted": "2009-07-22 04:10:56",
     "handles": [
-        {
-            "handle": "10380/1401",
-            "handle_url": "http://hdl.handle.net/10380/1401"
-        }
+      {
+        "handle": "10380/1401",
+        "handle_url": "http://hdl.handle.net/10380/1401"
+      }
     ],
+    "id": 575,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 43,
-            "journal_name": "ISBI 2015 Workshops"
-        },
-        {
-            "journal_id": 33,
-            "journal_name": "MICCAI 2008 Workshops"
-        }
+      {
+        "journal_id": 43,
+        "journal_name": "ISBI 2015 Workshops"
+      },
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
     ],
-    "publication_id": 575,
     "submitted_by_author": {
-        "author_email": "maciejorkisz@gmail.com",
-        "author_firstname": "Maciej",
-        "author_id": 879,
-        "author_institution": "Universite de Lyon; Universite Lyon 1; INSA-LYON; CNRS UMR 5220, CREATIS; Inserm U630; France",
-        "author_lastname": "Orkisz"
+      "author_email": "maciejorkisz@gmail.com",
+      "author_firstname": "Maciej",
+      "author_id": 879,
+      "author_institution": "Universite de Lyon; Universite Lyon 1; INSA-LYON; CNRS UMR 5220, CREATIS; Inserm U630; France",
+      "author_lastname": "Orkisz"
     },
     "tags": [
-        "image moments",
-        "deformable model"
+      "image moments",
+      "deformable model"
     ],
     "title": "Coronary centerline tracking in CT images with use of an elastic model and image moments."
+  }
 }

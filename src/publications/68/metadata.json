@@ -1,45 +1,47 @@
 {
+  "publication": {
     "abstract": "Probability distributions are a key component of clinical research. One only has to make a cursory review of clinical literature to realize that nearly all clinical publications reference some sort of statistical test; be it t-test, chi-squared test, or F-test. In this paper, we describe an architecture for providing the Insight Toolkit with access to probability distributions. The architecture can support parametric and nonparametric probability distributions. Each distribution provides access to its probability density function (PDF), cumulative distribution function (CDF), inverse cumulative distribution function (inverse CDF), mean, and variance. These methods form the basis of statistical tests.",
     "authors": [
-        {
-            "author_fullname": "Miller, James",
-            "author_place": 1,
-            "persona_email": "millerjv@research.ge.com",
-            "persona_firstname": "James",
-            "persona_id": 232,
-            "persona_lastname": "Miller"
-        }
+      {
+        "author_fullname": "Miller, James",
+        "author_place": 1,
+        "persona_email": "millerjv@research.ge.com",
+        "persona_firstname": "James",
+        "persona_id": 232,
+        "persona_lastname": "Miller"
+      }
     ],
     "date_submitted": "2006-01-05T21:19:30Z",
     "handles": [
-        {
-            "handle": "1926/159",
-            "handle_url": "http://hdl.handle.net/1926/159"
-        }
+      {
+        "handle": "1926/159",
+        "handle_url": "http://hdl.handle.net/1926/159"
+      }
     ],
+    "id": 68,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 68,
     "submitted_by_author": {
-        "author_email": "millerjv@research.ge.com",
-        "author_firstname": "James",
-        "author_id": 232,
-        "author_institution": "GE Research",
-        "author_lastname": "Miller"
+      "author_email": "millerjv@research.ge.com",
+      "author_firstname": "James",
+      "author_id": 232,
+      "author_institution": "GE Research",
+      "author_lastname": "Miller"
     },
     "tags": [
-        "statistic",
-        "probability",
-        "distribution",
-        "test"
+      "statistic",
+      "probability",
+      "distribution",
+      "test"
     ],
     "title": "Probability Distributions for the Insight Toolkit"
+  }
 }

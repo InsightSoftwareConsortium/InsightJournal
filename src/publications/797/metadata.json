@@ -1,54 +1,56 @@
 {
+  "publication": {
     "abstract": "We have written a set of classes than enable computation of boolean operations on surface meshes using only VTK classes. In addition to being compatible with the VTK license, our contribution preserves surface mesh topology to the extent possible in boolean operations and passes point data and cell data through to the output mesh where possible.",
     "authors": [
-        {
-            "author_fullname": "Quammen, Cory",
-            "author_place": 1,
-            "persona_email": "cquammen@cs.unc.edu",
-            "persona_firstname": "Cory",
-            "persona_id": 2538,
-            "persona_lastname": "Quammen"
-        },
-        {
-            "author_fullname": "Weigle, Chris",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Taylor II, Russell M.",
-            "author_place": 3,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Quammen, Cory",
+        "author_place": 1,
+        "persona_email": "cquammen@cs.unc.edu",
+        "persona_firstname": "Cory",
+        "persona_id": 2538,
+        "persona_lastname": "Quammen"
+      },
+      {
+        "author_fullname": "Weigle, Chris",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Taylor II, Russell M.",
+        "author_place": 3,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2011-05-20 09:57:18",
     "handles": [
-        {
-            "handle": "10380/3262",
-            "handle_url": "http://hdl.handle.net/10380/3262"
-        }
+      {
+        "handle": "10380/3262",
+        "handle_url": "http://hdl.handle.net/10380/3262"
+      }
     ],
+    "id": 797,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 35,
-            "journal_name": "The VTK Journal"
-        }
+      {
+        "journal_id": 35,
+        "journal_name": "The VTK Journal"
+      }
     ],
-    "publication_id": 797,
     "submitted_by_author": {
-        "author_email": "cquammen@cs.unc.edu",
-        "author_firstname": "Cory",
-        "author_id": 2538,
-        "author_institution": "University of North Carolina at Chapel Hill",
-        "author_lastname": "Quammen"
+      "author_email": "cquammen@cs.unc.edu",
+      "author_firstname": "Cory",
+      "author_id": 2538,
+      "author_institution": "University of North Carolina at Chapel Hill",
+      "author_lastname": "Quammen"
     },
     "tags": [
-        "boolean operations",
-        "surface",
-        "geometry clipping"
+      "boolean operations",
+      "surface",
+      "geometry clipping"
     ],
     "title": "Boolean Operations on Surfaces in VTK Without External Libraries"
+  }
 }

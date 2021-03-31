@@ -1,48 +1,50 @@
 {
+  "publication": {
     "abstract": "We present a filter that voxelizes the volume of a 3D structured, unstructured, or rectilinear grid into a vtkImageData with partial volume effects. The partial grid volume occupying each voxel is computed exactly from the intersection of the grid volume and the voxel volume. ",
     "authors": [
-        {
-            "author_fullname": "Quammen, Cory",
-            "author_place": 2,
-            "persona_email": "cquammen@cs.unc.edu",
-            "persona_firstname": "Cory",
-            "persona_id": 2538,
-            "persona_lastname": "Quammen"
-        },
-        {
-            "author_fullname": "Taylor II, Russell M.",
-            "author_place": 3,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Quammen, Cory",
+        "author_place": 2,
+        "persona_email": "cquammen@cs.unc.edu",
+        "persona_firstname": "Cory",
+        "persona_id": 2538,
+        "persona_lastname": "Quammen"
+      },
+      {
+        "author_fullname": "Taylor II, Russell M.",
+        "author_place": 3,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2011-03-01 21:58:01",
     "handles": [
-        {
-            "handle": "10380/3254",
-            "handle_url": "http://hdl.handle.net/10380/3254"
-        }
+      {
+        "handle": "10380/3254",
+        "handle_url": "http://hdl.handle.net/10380/3254"
+      }
     ],
+    "id": 792,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 35,
-            "journal_name": "The VTK Journal"
-        }
+      {
+        "journal_id": 35,
+        "journal_name": "The VTK Journal"
+      }
     ],
-    "publication_id": 792,
     "submitted_by_author": {
-        "author_email": "cquammen@cs.unc.edu",
-        "author_firstname": "Cory",
-        "author_id": 2538,
-        "author_institution": "University of North Carolina at Chapel Hill",
-        "author_lastname": "Quammen"
+      "author_email": "cquammen@cs.unc.edu",
+      "author_firstname": "Cory",
+      "author_id": 2538,
+      "author_institution": "University of North Carolina at Chapel Hill",
+      "author_lastname": "Quammen"
     },
     "tags": [
-        "voxelization",
-        "partial volume effects"
+      "voxelization",
+      "partial volume effects"
     ],
     "title": "Grid voxelization with partial volume effects in VTK"
+  }
 }

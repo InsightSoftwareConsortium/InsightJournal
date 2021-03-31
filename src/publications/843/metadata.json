@@ -1,48 +1,50 @@
 {
+  "publication": {
     "abstract": "This document describes the implementation in ITK of the \"point in circle\" geometrical predicate.\nBased on Jonathan Shewchuk's work which implements an exact version of the predicate using standard\nfloating point types and arithmetic, the implementation consist of an ITK wrapper around the \npublic domain C routines made available by the author of the precedent paper.\nWrapper using itk::PointSet, itk:CellInterface and itk:Mesh / itk:QuadEdgeMesh APIs are provided\nalong with corresponding examples which should provide enough details for users to directly\ncopy paste code in their application.\n\nThe application in mind for us is an exact and robust implementation of a delaunay triangulation /\nvoronoi tesselation in ITK, and will be presented in a separate paper.",
     "authors": [
-        {
-            "author_fullname": "Moreau, Bertrand",
-            "author_place": 1,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Gouaillard, Alexandre",
-            "author_place": 2,
-            "persona_email": "agouaillard@gmail.com",
-            "persona_firstname": "Alexandre",
-            "persona_id": 322,
-            "persona_lastname": "Gouaillard"
-        }
+      {
+        "author_fullname": "Moreau, Bertrand",
+        "author_place": 1,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Gouaillard, Alexandre",
+        "author_place": 2,
+        "persona_email": "agouaillard@gmail.com",
+        "persona_firstname": "Alexandre",
+        "persona_id": 322,
+        "persona_lastname": "Gouaillard"
+      }
     ],
     "date_submitted": "2011-11-28 22:55:36",
     "handles": [
-        {
-            "handle": "10380/3329",
-            "handle_url": "http://hdl.handle.net/10380/3329"
-        }
+      {
+        "handle": "10380/3329",
+        "handle_url": "http://hdl.handle.net/10380/3329"
+      }
     ],
+    "id": 843,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 843,
     "submitted_by_author": {
-        "author_email": "agouaillard@gmail.com",
-        "author_firstname": "Alexandre",
-        "author_id": 322,
-        "author_institution": "Singapore Agency for Science Technology and Research",
-        "author_lastname": "Gouaillard"
+      "author_email": "agouaillard@gmail.com",
+      "author_firstname": "Alexandre",
+      "author_id": 322,
+      "author_institution": "Singapore Agency for Science Technology and Research",
+      "author_lastname": "Gouaillard"
     },
     "tags": [
-        "Mesh",
-        "exact geometrical predicate"
+      "Mesh",
+      "exact geometrical predicate"
     ],
     "title": "Exact Geometrical Predicate: Point in circle"
+  }
 }

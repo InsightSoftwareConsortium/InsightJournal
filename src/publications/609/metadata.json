@@ -1,63 +1,65 @@
 {
+  "publication": {
     "abstract": "Automatically segmenting subcortical structures in brain images has the potential to greatly accelerate drug trials and population studies of disease. Here we propose an automatic subcortical segmentation algorithm using the auto context model. Unlike many segmentation algorithms that separately compute a shape prior and an image appearance model, we develop a framework based on machine learning to learn a unified appearance and context model. In order to test the method, specificity and sensitivity measurements were obtained on a standardized dataset provided by the competition organizers. Our overall score of 77 seems to be competitive with others who's overall score was in the range of 50 - 90.",
     "authors": [
-        {
-            "author_fullname": "Morra, Jonathan",
-            "author_place": 1,
-            "persona_email": "jonmorra@gmail.com",
-            "persona_firstname": "Jonathan",
-            "persona_id": 924,
-            "persona_lastname": "Morra"
-        },
-        {
-            "author_fullname": "Tu, Zhuowen",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Toga, Arthur",
-            "author_place": 3,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Thompson, Paul",
-            "author_place": 4,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Morra, Jonathan",
+        "author_place": 1,
+        "persona_email": "jonmorra@gmail.com",
+        "persona_firstname": "Jonathan",
+        "persona_id": 924,
+        "persona_lastname": "Morra"
+      },
+      {
+        "author_fullname": "Tu, Zhuowen",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Toga, Arthur",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Thompson, Paul",
+        "author_place": 4,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2008-07-14T18:02:18Z",
     "handles": [
-        {
-            "handle": "10380/1444",
-            "handle_url": "http://hdl.handle.net/10380/1444"
-        }
+      {
+        "handle": "10380/1444",
+        "handle_url": "http://hdl.handle.net/10380/1444"
+      }
     ],
+    "id": 609,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 44,
-            "journal_name": "MICCAI 2015 Workshops"
-        },
-        {
-            "journal_id": 33,
-            "journal_name": "MICCAI 2008 Workshops"
-        }
+      {
+        "journal_id": 44,
+        "journal_name": "MICCAI 2015 Workshops"
+      },
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
     ],
-    "publication_id": 609,
     "submitted_by_author": {
-        "author_email": "jonmorra@gmail.com",
-        "author_firstname": "Jonathan",
-        "author_id": 924,
-        "author_institution": "Laboratory of NeuroImaging at UCLA",
-        "author_lastname": "Morra"
+      "author_email": "jonmorra@gmail.com",
+      "author_firstname": "Jonathan",
+      "author_id": 924,
+      "author_institution": "Laboratory of NeuroImaging at UCLA",
+      "author_lastname": "Morra"
     },
     "tags": [
-        "Automated Segmentation",
-        "AdaBoost",
-        "Machine Learning"
+      "Automated Segmentation",
+      "AdaBoost",
+      "Machine Learning"
     ],
     "title": "Automatic Segmentation of MS Lesions Using a Contextual Model for the MICCAI Grand Challenge"
+  }
 }

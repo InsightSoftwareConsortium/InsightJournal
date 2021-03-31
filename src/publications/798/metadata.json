@@ -1,53 +1,55 @@
 {
+  "publication": {
     "abstract": "This document illustrates how to process large images (5 and 23 Gigabytes in size) by taking advantage of the streaming capabilities of the Insight Toolkit ITK. Here we illustrate two scenarios: (a) the case when the image itself is larger than the computer's RAM, (b) the case when the image is large but still can fit in the computer's RAM. This report is intended to serve as a tutorial on how to take advantage of this memory management capabilities of ITK version 4.\n\nThis paper is accompanied with the source code, input data, parameters and output data that we used for validating the algorithm described in this paper. This adheres to the fundamental principle that scientific publications must facilitate reproducibility of the reported results.",
     "authors": [
-        {
-            "author_fullname": "Zuluaga, Maria A.",
-            "author_place": 1,
-            "persona_email": "maria.zuluaga@creatis.insa-lyon.fr",
-            "persona_firstname": "Maria A.",
-            "persona_id": 2228,
-            "persona_lastname": "Zuluaga"
-        },
-        {
-            "author_fullname": "Ib\u00e1\u00f1ez, Luis",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Peyrin, Fran\u00e7oise",
-            "author_place": 3,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Zuluaga, Maria A.",
+        "author_place": 1,
+        "persona_email": "maria.zuluaga@creatis.insa-lyon.fr",
+        "persona_firstname": "Maria A.",
+        "persona_id": 2228,
+        "persona_lastname": "Zuluaga"
+      },
+      {
+        "author_fullname": "Ib\u00e1\u00f1ez, Luis",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Peyrin, Fran\u00e7oise",
+        "author_place": 3,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2011-07-25 14:48:33",
     "handles": [
-        {
-            "handle": "10380/3263",
-            "handle_url": "http://hdl.handle.net/10380/3263"
-        }
+      {
+        "handle": "10380/3263",
+        "handle_url": "http://hdl.handle.net/10380/3263"
+      }
     ],
+    "id": 798,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 798,
     "submitted_by_author": {
-        "author_email": "maria.zuluaga@creatis.insa-lyon.fr",
-        "author_firstname": "Maria A.",
-        "author_id": 2228,
-        "author_institution": "Creatis",
-        "author_lastname": "Zuluaga"
+      "author_email": "maria.zuluaga@creatis.insa-lyon.fr",
+      "author_firstname": "Maria A.",
+      "author_id": 2228,
+      "author_institution": "Creatis",
+      "author_lastname": "Zuluaga"
     },
     "tags": [
-        "ITK",
-        "Streaming"
+      "ITK",
+      "Streaming"
     ],
     "title": "Large Image Streaming using ITKv4"
+  }
 }

@@ -1,58 +1,60 @@
 {
+  "publication": {
     "abstract": "Anisotropic Non-Linear Diffusion is a powerful image processing technique, which allows to simultaneously remove the noise and enhance sharp features in two or three dimensional images. Anisotropic Diffusion is understood here in the sense of Weickert, meaning that diffusion tensors are anisotropic and reflect the local orientation of image features. This is in contrast with the non-linear diffusion filter of Perona and Malik, which only involves scalar diffusion coefficients, in other words isotropic diffusion tensors. \nIn this paper, we present an anisotropic non-linear diffusion technique we implemented in ITK. This technique is based on a recent adaptive scheme making the diffusion stable and requiring limited numerical resources. ",
     "authors": [
-        {
-            "author_fullname": "Mirebeau, Jean-Marie",
-            "author_place": 1,
-            "persona_email": "jm.mirebeau@gmail.com",
-            "persona_firstname": "Jean-marie",
-            "persona_id": 9351,
-            "persona_lastname": "Mirebeau"
-        },
-        {
-            "author_fullname": "Fehrenbach, J\u00e9r\u00f4me",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Risser, Laurent",
-            "author_place": 3,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Tobji, Shaza",
-            "author_place": 4,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Mirebeau, Jean-Marie",
+        "author_place": 1,
+        "persona_email": "jm.mirebeau@gmail.com",
+        "persona_firstname": "Jean-marie",
+        "persona_id": 9351,
+        "persona_lastname": "Mirebeau"
+      },
+      {
+        "author_fullname": "Fehrenbach, J\u00e9r\u00f4me",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Risser, Laurent",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Tobji, Shaza",
+        "author_place": 4,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2014-12-17 11:23:24",
     "handles": [
-        {
-            "handle": "10380/3505",
-            "handle_url": "http://hdl.handle.net/10380/3505"
-        }
+      {
+        "handle": "10380/3505",
+        "handle_url": "http://hdl.handle.net/10380/3505"
+      }
     ],
+    "id": 953,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 953,
     "submitted_by_author": {
-        "author_email": "jm.mirebeau@gmail.com",
-        "author_firstname": "Jean-marie",
-        "author_id": 9351,
-        "author_institution": "Laboratory Ceremade, University Paris-Dauphine, CNRS, France",
-        "author_lastname": "Mirebeau"
+      "author_email": "jm.mirebeau@gmail.com",
+      "author_firstname": "Jean-marie",
+      "author_id": 9351,
+      "author_institution": "Laboratory Ceremade, University Paris-Dauphine, CNRS, France",
+      "author_lastname": "Mirebeau"
     },
     "tags": [
-        "Anisotropic Diffusion",
-        "Denoising"
+      "Anisotropic Diffusion",
+      "Denoising"
     ],
     "title": "Anisotropic Diffusion in ITK"
+  }
 }

@@ -1,77 +1,79 @@
 {
+  "publication": {
     "abstract": "This article illustrates the process of performing reproducible research with existing open source tools.",
     "authors": [
-        {
-            "author_fullname": "McCormick, Matt",
-            "author_place": 2,
-            "persona_email": "matthew.m.mccormick@gmail.com",
-            "persona_firstname": "Matthew",
-            "persona_id": 2509,
-            "persona_lastname": "Mccormick"
-        },
-        {
-            "author_fullname": "Fillon, Jean-Christophe",
-            "author_place": 3,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Ibanez, Luis",
-            "author_place": 1,
-            "persona_email": "luis.ibanez@kitware.com",
-            "persona_firstname": "Luis",
-            "persona_id": 4,
-            "persona_lastname": "Ibanez"
-        },
-        {
-            "author_fullname": "Chaudri, Aashish",
-            "author_place": 4,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Nelson, Ana",
-            "author_place": 5,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Smith, Steve",
-            "author_place": 6,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "McCormick, Matt",
+        "author_place": 2,
+        "persona_email": "matthew.m.mccormick@gmail.com",
+        "persona_firstname": "Matthew",
+        "persona_id": 2509,
+        "persona_lastname": "Mccormick"
+      },
+      {
+        "author_fullname": "Fillon, Jean-Christophe",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Ibanez, Luis",
+        "author_place": 1,
+        "persona_email": "luis.ibanez@kitware.com",
+        "persona_firstname": "Luis",
+        "persona_id": 4,
+        "persona_lastname": "Ibanez"
+      },
+      {
+        "author_fullname": "Chaudri, Aashish",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Nelson, Ana",
+        "author_place": 5,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Smith, Steve",
+        "author_place": 6,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2014-07-07 12:01:39",
     "handles": [
-        {
-            "handle": "10380/3465",
-            "handle_url": "http://hdl.handle.net/10380/3465"
-        }
+      {
+        "handle": "10380/3465",
+        "handle_url": "http://hdl.handle.net/10380/3465"
+      }
     ],
+    "id": 921,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 921,
     "submitted_by_author": {
-        "author_email": "luis.ibanez@kitware.com",
-        "author_firstname": "Luis",
-        "author_id": 4,
-        "author_institution": "KITWARE Inc.",
-        "author_lastname": "Ibanez"
+      "author_email": "luis.ibanez@kitware.com",
+      "author_firstname": "Luis",
+      "author_id": 4,
+      "author_institution": "KITWARE Inc.",
+      "author_lastname": "Ibanez"
     },
     "tags": [
-        "notebook",
-        "docker",
-        "github",
-        "Reproducibility",
-        "Tardigrades",
-        "Scipy",
-        "IPython",
-        "dexy"
+      "notebook",
+      "docker",
+      "github",
+      "Reproducibility",
+      "Tardigrades",
+      "Scipy",
+      "IPython",
+      "dexy"
     ],
     "title": "Reproducible Research Training at Scipy 2014"
+  }
 }

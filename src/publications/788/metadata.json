@@ -1,40 +1,42 @@
 {
+  "publication": {
     "abstract": "This document describes a set of classes that designs a generic explicit deformable model in VTK. The iterative mechanism is first introduced through an inheritance of the vtkPolyDataAlgorithm class. This vtkIterativePolyDataAlgorithm is then a base for an implementation of the deformation. Two examples of deformation are presented through an inheritance of this base class. The provided source code may be used to build a ParaView plugin that harnesses the animation feature.\n",
     "authors": [
-        {
-            "author_fullname": "Velut, J\u00e9r\u00f4me",
-            "author_place": 1,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Velut, J\u00e9r\u00f4me",
+        "author_place": 1,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2011-02-08 14:58:00",
     "handles": [
-        {
-            "handle": "10380/3251",
-            "handle_url": "http://hdl.handle.net/10380/3251"
-        }
+      {
+        "handle": "10380/3251",
+        "handle_url": "http://hdl.handle.net/10380/3251"
+      }
     ],
+    "id": 788,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 35,
-            "journal_name": "The VTK Journal"
-        }
+      {
+        "journal_id": 35,
+        "journal_name": "The VTK Journal"
+      }
     ],
-    "publication_id": 788,
     "submitted_by_author": {
-        "author_email": "jerome.velut@kitware.com",
-        "author_firstname": "Jerome",
-        "author_id": 2453,
-        "author_institution": "Kitware SAS",
-        "author_lastname": "Velut"
+      "author_email": "jerome.velut@kitware.com",
+      "author_firstname": "Jerome",
+      "author_id": 2453,
+      "author_institution": "Kitware SAS",
+      "author_lastname": "Velut"
     },
     "tags": [
-        "Iterative PolyData algorithm",
-        "deformable model"
+      "Iterative PolyData algorithm",
+      "deformable model"
     ],
     "title": "Explicit Deformable Model in VTK"
+  }
 }

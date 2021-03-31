@@ -35,7 +35,7 @@ const useStyles = makeStyles({
 
 const Render = ({ data }) => {
   const classes = useStyles();
-  const publication = data.json;
+  const publication = data.json.publication;
   console.log(data)
   console.log(publication)
   const targetJournal = data.site.siteMetadata.targetJournal
@@ -98,21 +98,23 @@ export default Render;
 export const query = graphql`
   query Metadata($slug: String!, $cover: String!) {
     json(fields: { slug: { eq: $slug } }) {
-      title
-      abstract
-      date_submitted
-      authors {
-        author_fullname
-        persona_firstname
-        persona_lastname
-        author_place
+      publication {
+        title
+        abstract
+        date_submitted
+        authors {
+          author_fullname
+          persona_firstname
+          persona_lastname
+          author_place
+        }
+        submitted_by_author {
+          author_institution
+          author_firstname
+          author_lastname
+        }
+        id
       }
-      submitted_by_author {
-        author_institution
-        author_firstname
-        author_lastname
-      }
-      publication_id
     }
     site {
       siteMetadata {

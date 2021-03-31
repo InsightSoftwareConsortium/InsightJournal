@@ -1,51 +1,53 @@
 {
+  "publication": {
     "abstract": "This paper describes the software integration of a treatment planning system (TPS), based on the open-source 3D Slicer package, with the Small Animal Radiation Research Platform (SARRP).The TPS is designed to enable researchers to replicate their clinical techniques, allow for image fusion with other imaging modalities, and provide dose computation and graphical visualization of treatment plans consisting of multiple x-ray beams and conformable arcs. The dose computation is implemented on a GPU to achieve high performance; the dose volume for a typical treatment plan can be computed in less than a minute.\n",
     "authors": [
-        {
-            "author_fullname": "Cho, Nathan",
-            "author_place": 1,
-            "persona_email": "bcho4@jhu.edu",
-            "persona_firstname": "Nathan",
-            "persona_id": 6326,
-            "persona_lastname": "Cho"
-        },
-        {
-            "author_fullname": "Kazanzides, Peter",
-            "author_place": 2,
-            "persona_email": "pkaz@cs.jhu.edu",
-            "persona_firstname": "Peter",
-            "persona_id": 63,
-            "persona_lastname": "Kazanzides"
-        }
+      {
+        "author_fullname": "Cho, Nathan",
+        "author_place": 1,
+        "persona_email": "bcho4@jhu.edu",
+        "persona_firstname": "Nathan",
+        "persona_id": 6326,
+        "persona_lastname": "Cho"
+      },
+      {
+        "author_fullname": "Kazanzides, Peter",
+        "author_place": 2,
+        "persona_email": "pkaz@cs.jhu.edu",
+        "persona_firstname": "Peter",
+        "persona_id": 63,
+        "persona_lastname": "Kazanzides"
+      }
     ],
     "date_submitted": "2012-08-17 00:44:59",
     "handles": [
-        {
-            "handle": "10380/3364",
-            "handle_url": "http://hdl.handle.net/10380/3364"
-        }
+      {
+        "handle": "10380/3364",
+        "handle_url": "http://hdl.handle.net/10380/3364"
+      }
     ],
+    "id": 866,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 40,
-            "journal_name": "MICCAI 2012 Workshops"
-        }
+      {
+        "journal_id": 40,
+        "journal_name": "MICCAI 2012 Workshops"
+      }
     ],
-    "publication_id": 866,
     "submitted_by_author": {
-        "author_email": "pkaz@cs.jhu.edu",
-        "author_firstname": "Peter",
-        "author_id": 63,
-        "author_institution": "Johns Hopkins University",
-        "author_lastname": "Kazanzides"
+      "author_email": "pkaz@cs.jhu.edu",
+      "author_firstname": "Peter",
+      "author_id": 63,
+      "author_institution": "Johns Hopkins University",
+      "author_lastname": "Kazanzides"
     },
     "tags": [
-        "Radiotherapy",
-        "Software architecture"
+      "Radiotherapy",
+      "Software architecture"
     ],
     "title": "A Treatment Planning System for the Small Animal Radiation Research Platform (SARRP) based on 3D Slicer"
+  }
 }

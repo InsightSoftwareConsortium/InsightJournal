@@ -1,49 +1,51 @@
 {
+  "publication": {
     "abstract": "In this paper, we present a fully automated system that detects\r\nand segments potential liver cancer tumors from a thin slice CT\r\ndata. The system is targeted toward a tumor whose volume is\r\nlarger than $1 cm^3$, and is efficient as the average\r\ncomputation time per volume in our experiment is roughly 3.5\r\nminutes.\r\n\r\nThe system first reduces the volume size by 4x4x4 to reduce the\r\ncomputation and memory requirements. It then detects candidate\r\nlocations as local minima of the intensity fields after a\r\nvariant of textit{elastic quadratic} smoothing. It then\r\nprovides a rough segmentation at each candidate by fitting a\r\nplane at sampled points near the periphery of the concave\r\nregion in the intensity profiles. The rough segmentation is\r\nused to estimate the range of intensity values in the tumor,\r\nwhich is used to obtain a more accurate segmentation by a\r\nmethod originally developed for pulmonary nodules. The result\r\nof the second segmentation is interpolated at the resolution of\r\nthe original data.\r\n\r\nThe development of the system is a part of the 2008 3D\r\nSegmentation in the Clinic: A Grand Challenge competition. Four\r\nCT volumes containing 10 tumors were used for the development\r\nof the algorithm. Additional six CT volumes containing 10\r\ntumors were used to test the segmentation performance.",
     "authors": [
-        {
-            "author_fullname": "Kubota, Toshiro",
-            "author_place": 1,
-            "persona_email": "kubota@susqu.edu",
-            "persona_firstname": "Toshiro",
-            "persona_id": 908,
-            "persona_lastname": "Kubota"
-        }
+      {
+        "author_fullname": "Kubota, Toshiro",
+        "author_place": 1,
+        "persona_email": "kubota@susqu.edu",
+        "persona_firstname": "Toshiro",
+        "persona_id": 908,
+        "persona_lastname": "Kubota"
+      }
     ],
     "date_submitted": "2008-07-07T20:40:22Z",
     "handles": [
-        {
-            "handle": "10380/1421",
-            "handle_url": "http://hdl.handle.net/10380/1421"
-        }
+      {
+        "handle": "10380/1421",
+        "handle_url": "http://hdl.handle.net/10380/1421"
+      }
     ],
+    "id": 597,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 45,
-            "journal_name": "MICCAI 2016 Workshops"
-        },
-        {
-            "journal_id": 33,
-            "journal_name": "MICCAI 2008 Workshops"
-        }
+      {
+        "journal_id": 45,
+        "journal_name": "MICCAI 2016 Workshops"
+      },
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
     ],
-    "publication_id": 597,
     "submitted_by_author": {
-        "author_email": "kubota@susqu.edu",
-        "author_firstname": "Toshiro",
-        "author_id": 908,
-        "author_institution": "Susquehanna University",
-        "author_lastname": "Kubota"
+      "author_email": "kubota@susqu.edu",
+      "author_firstname": "Toshiro",
+      "author_id": 908,
+      "author_institution": "Susquehanna University",
+      "author_lastname": "Kubota"
     },
     "tags": [
-        "diffusion",
-        "smoothing",
-        "classfication",
-        "computer-aided detection"
+      "diffusion",
+      "smoothing",
+      "classfication",
+      "computer-aided detection"
     ],
     "title": "Efficient Automated Detection and Segmentation of Medium and Large Liver Tumors: CAD Approach"
+  }
 }

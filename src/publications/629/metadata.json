@@ -1,56 +1,58 @@
 {
+  "publication": {
     "abstract": "The finite element (FE) method is a powerful tool for the study of biomechanics. One of the limiting factors in transitioning this tool into the clinic is the time required to generate high quality meshes for analysis. Previously, we developed a mapped meshing technique that utilized force control and a finite element solver to warp a template mesh onto subject specific surfaces. This paper describes a displacement based method that directly warps the template mesh onto subject specific surfaces using distance as the driving measure for the deformable registration. The resulting meshes were evaluated for mesh quality and compared to the force based method. An initial evaluation was performed using a mathematical phantom. The algorithm was then applied to generate meshes for the phalanx bones of the human hand. The algorithm successfully mapped the template bone to all of the bony surfaces, with the exception of the distal phalanx bone. In this one case, significant differences existed between the geometries of the template mesh and the distal phalanx. Further refinement of the algorithm may allow the algorithm to successfully generate meshes even in the presence of large geometric shape differences.",
     "authors": [
-        {
-            "author_fullname": "Magnotta, Vincent",
-            "author_place": 1,
-            "persona_email": "vincent-magnotta@uiowa.edu",
-            "persona_firstname": "Vincent",
-            "persona_id": 54,
-            "persona_lastname": "Magnotta"
-        },
-        {
-            "author_fullname": "Li, Wen",
-            "author_place": 2,
-            "persona_email": "wen-li@uiowa.edu",
-            "persona_firstname": "Wen",
-            "persona_id": 2569,
-            "persona_lastname": "Li"
-        },
-        {
-            "author_fullname": "Grosland, Nicole",
-            "author_place": 3,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Magnotta, Vincent",
+        "author_place": 1,
+        "persona_email": "vincent-magnotta@uiowa.edu",
+        "persona_firstname": "Vincent",
+        "persona_id": 54,
+        "persona_lastname": "Magnotta"
+      },
+      {
+        "author_fullname": "Li, Wen",
+        "author_place": 2,
+        "persona_email": "wen-li@uiowa.edu",
+        "persona_firstname": "Wen",
+        "persona_id": 2569,
+        "persona_lastname": "Li"
+      },
+      {
+        "author_fullname": "Grosland, Nicole",
+        "author_place": 3,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2008-08-14T14:18:16Z",
     "handles": [
-        {
-            "handle": "10380/1490",
-            "handle_url": "http://hdl.handle.net/10380/1490"
-        }
+      {
+        "handle": "10380/1490",
+        "handle_url": "http://hdl.handle.net/10380/1490"
+      }
     ],
+    "id": 629,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 33,
-            "journal_name": "MICCAI 2008 Workshops"
-        }
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
     ],
-    "publication_id": 629,
     "submitted_by_author": {
-        "author_email": "vincent-magnotta@uiowa.edu",
-        "author_firstname": "Vincent",
-        "author_id": 54,
-        "author_institution": "The University of Iowa",
-        "author_lastname": "Magnotta"
+      "author_email": "vincent-magnotta@uiowa.edu",
+      "author_firstname": "Vincent",
+      "author_id": 54,
+      "author_institution": "The University of Iowa",
+      "author_lastname": "Magnotta"
     },
     "tags": [
-        "Hexahedral Meshing",
-        "Finite Element"
+      "Hexahedral Meshing",
+      "Finite Element"
     ],
     "title": "Comparison of Displacement-Based and Force-Based Mapped Meshing"
+  }
 }

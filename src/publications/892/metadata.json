@@ -1,77 +1,79 @@
 {
+  "publication": {
     "abstract": "We present our work to develop a telerobotics research platform that provides complete access to all levels of control via open-source custom electronics and software. The electronics employs an FPGA to enable a centralized computation and distributed I/O architecture in which all control computations are implemented in a familiar development environment (Linux PC) and low-latency I/O is performed over an IEEE-1394a (Firewire) bus at speeds up to 400 Mbits/sec. The mechanical components of the system are provided by the Research Kit for the da Vinci System, which consists of the Master Tool Manipulators (MTMs), Patient Side Manipulators (PSMs), and stereo console of the first-generation da Vinci surgical robot. This system is currently installed, or planned for installation, at 11 research institutions, with additional installations likely in the future, thereby creating a research community around a common open-source hardware and software platform.",
     "authors": [
-        {
-            "author_fullname": "Chen, Zihan",
-            "author_place": 1,
-            "persona_email": "zihan.chen@jhu.edu",
-            "persona_firstname": "Zihan",
-            "persona_id": 7827,
-            "persona_lastname": "Chen"
-        },
-        {
-            "author_fullname": "Deguet, Anton",
-            "author_place": 2,
-            "persona_email": "anton.deguet@jhu.edu",
-            "persona_firstname": "Anton",
-            "persona_id": 635,
-            "persona_lastname": "Deguet"
-        },
-        {
-            "author_fullname": "Taylor, Russell",
-            "author_place": 3,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "DiMaio, Simon",
-            "author_place": 4,
-            "persona_email": "simon.dimaio@intusurg.com",
-            "persona_firstname": "Simon",
-            "persona_id": 937,
-            "persona_lastname": "Dimaio"
-        },
-        {
-            "author_fullname": "Fischer, Gregory",
-            "author_place": 5,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Kazanzides, Peter",
-            "author_place": 6,
-            "persona_email": "pkaz@cs.jhu.edu",
-            "persona_firstname": "Peter",
-            "persona_id": 63,
-            "persona_lastname": "Kazanzides"
-        }
+      {
+        "author_fullname": "Chen, Zihan",
+        "author_place": 1,
+        "persona_email": "zihan.chen@jhu.edu",
+        "persona_firstname": "Zihan",
+        "persona_id": 7827,
+        "persona_lastname": "Chen"
+      },
+      {
+        "author_fullname": "Deguet, Anton",
+        "author_place": 2,
+        "persona_email": "anton.deguet@jhu.edu",
+        "persona_firstname": "Anton",
+        "persona_id": 635,
+        "persona_lastname": "Deguet"
+      },
+      {
+        "author_fullname": "Taylor, Russell",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "DiMaio, Simon",
+        "author_place": 4,
+        "persona_email": "simon.dimaio@intusurg.com",
+        "persona_firstname": "Simon",
+        "persona_id": 937,
+        "persona_lastname": "Dimaio"
+      },
+      {
+        "author_fullname": "Fischer, Gregory",
+        "author_place": 5,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Kazanzides, Peter",
+        "author_place": 6,
+        "persona_email": "pkaz@cs.jhu.edu",
+        "persona_firstname": "Peter",
+        "persona_id": 63,
+        "persona_lastname": "Kazanzides"
+      }
     ],
     "date_submitted": "2013-08-06 15:55:46",
     "handles": [
-        {
-            "handle": "10380/3419",
-            "handle_url": "http://hdl.handle.net/10380/3419"
-        }
+      {
+        "handle": "10380/3419",
+        "handle_url": "http://hdl.handle.net/10380/3419"
+      }
     ],
+    "id": 892,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 41,
-            "journal_name": "MICCAI 2013 Workshops"
-        }
+      {
+        "journal_id": 41,
+        "journal_name": "MICCAI 2013 Workshops"
+      }
     ],
-    "publication_id": 892,
     "submitted_by_author": {
-        "author_email": "pkaz@cs.jhu.edu",
-        "author_firstname": "Peter",
-        "author_id": 63,
-        "author_institution": "Johns Hopkins University",
-        "author_lastname": "Kazanzides"
+      "author_email": "pkaz@cs.jhu.edu",
+      "author_firstname": "Peter",
+      "author_id": 63,
+      "author_institution": "Johns Hopkins University",
+      "author_lastname": "Kazanzides"
     },
     "tags": [
-        "Open source software",
-        "Telesurgical systems"
+      "Open source software",
+      "Telesurgical systems"
     ],
     "title": "An Open-Source Hardware and Software Platform for Telesurgical Robotics Research"
+  }
 }
