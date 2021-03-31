@@ -1,0 +1,16 @@
+{
+  "issue": {
+    "id": 341,
+    "introductory_text": "Discovering, visualizing and exploiting the structure of these manifolds supports the ability to select image-derived attributes that are informed by the structure of the underlying manifold. This offers fundamentally new tools for image registration, segmentation, visualization, reconstruction, and classification of data volumes. This collection brings together research in computer science, applied mathematics, statistics and medical imaging. \r\n\r\nOrganizers / Associate Editors:\r\nRobert Pless, Washington University in St. Louis\r\nChristos Davatzikos, University of Pennsylvania\r\n",
+    "name": "Manifolds in Medical Imaging: Metrics, Learning and Beyond (MICCAI 2008 Workshop)",
+    "publications": [
+      632,
+      633,
+      634,
+      635,
+      636,
+      637
+    ],
+    "short_description": "In modern medical image data, manifolds arise at varying scales. At one extreme, complete 3D data sets lie along manifolds parameterized by (for example) patient breathing and heartbeat patterns, or by confounding variables such as parameters or templates used in an image warping algorithm. At the other extreme, measurements taken at each voxel in multi-parametric MR images lie along locally defined manifolds that reflect nonlinear relationships among various MRI measurements on a voxel. \r\n"
+  }
+}

@@ -19,25 +19,28 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
+        name: 'images',
+        path: path.join(__dirname, 'src', 'images'),
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
         name: 'publications',
         path: './src/publications',
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: `images`,
-        path: path.join(__dirname, `src`, `images`),
+        name: 'issues',
+        path: './src/issues',
       },
     },
     {
       resolve: 'gatsby-transformer-json',
-      // resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'publications',
-        path: './src/publications',
-        typeName: 'Publication',
-        // typeName: ({ node, object, isArray }) => 'Publication'
+        typeName: 'Json',
       },
     },
     `gatsby-plugin-sharp`,
