@@ -4,7 +4,7 @@ import { ThemeProvider, makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import theme from '../theme';
-import Img from "gatsby-image"
+import { GatsbyImage } from "gatsby-plugin-image"
 import targetJournalLogo from '../components/targetJournalLogo';
 
 const useStyles = makeStyles({
@@ -61,7 +61,7 @@ const Render = ({ data }) => {
     submit_auth = `${publication.submitted_by_author.author_firstname} ${publication.submitted_by_author.author_lastname}`
   }
 
-  const coverImage = data.coverImage ? <Img fixed={data.coverImage.childImageSharp.fixed} /> : <img src={logo} alt={logoAlt} />
+  const coverImage = data.coverImage ? <GatsbyImage image={data.coverImage.childImageSharp.gatsbyImageData} /> : <img src={logo} alt={logoAlt} />
   //const first_author = has_authors
     //? publication.authors[0].author_fullname
     //: "No author";
@@ -123,16 +123,12 @@ export const query = graphql`
     }
     coverImage: file(relativePath: { eq: $cover }) {
         childImageSharp {
-          fixed(width: 300) {
-            ...GatsbyImageSharpFixed
-          }
+          gatsbyImageData(layout: FIXED)
         }
       }
     defaultCoverImage: file(relativePath: { eq: "logoInsightJournal.png" }) {
         childImageSharp {
-          fixed(width: 300) {
-            ...GatsbyImageSharpFixed
-          }
+          gatsbyImageData(layout: FIXED)
         }
       }
   }
