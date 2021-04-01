@@ -157,7 +157,7 @@ export const query = graphql`
           gatsbyImageData(layout: FIXED)
         }
       }
-    defaultCoverImage: file(relativePath: { eq: "logoInsightJournal.png" }) {
+    defaultCoverImage: file(relativePath: { eq: "logoInsightToolkit.png" }) {
         childImageSharp {
           gatsbyImageData(layout: FIXED)
         }
