@@ -1,47 +1,49 @@
 {
+  "publication": {
     "abstract": "ManagedITK generates wrappers around ITK for .NET languages. These wrappers can be used with any CLR language, including C#, VB.NET, IronPython, and others. ManagedITK is useful for a number of reasons, including the ability to rapidly create graphical user interfaces using Windows Forms (also known as System.Windows.Forms). Full source code and many in-depth examples accompany this article. Pre-compiled .NET assemblies can also be downloaded for easy integration into standalone C# applications.",
     "authors": [
-        {
-            "author_fullname": "Mueller, Dan",
-            "author_place": 1,
-            "persona_email": "dan.muel@gmail.com",
-            "persona_firstname": "Dan",
-            "persona_id": 286,
-            "persona_lastname": "Mueller"
-        }
+      {
+        "author_fullname": "Mueller, Dan",
+        "author_place": 1,
+        "persona_email": "dan.muel@gmail.com",
+        "persona_firstname": "Dan",
+        "persona_id": 286,
+        "persona_lastname": "Mueller"
+      }
     ],
     "date_submitted": "2007-04-25",
     "handles": [
-        {
-            "handle": "1926/501",
-            "handle_url": "http://hdl.handle.net/1926/501"
-        }
+      {
+        "handle": "1926/501",
+        "handle_url": "http://hdl.handle.net/1926/501"
+      }
     ],
+    "id": 151,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 151,
     "submitted_by_author": {
-        "author_email": "dan.muel@gmail.com",
-        "author_firstname": "Dan",
-        "author_id": 286,
-        "author_institution": "Philips Healthcare",
-        "author_lastname": "Mueller"
+      "author_email": "dan.muel@gmail.com",
+      "author_firstname": "Dan",
+      "author_id": 286,
+      "author_institution": "Philips Healthcare",
+      "author_lastname": "Mueller"
     },
     "tags": [
-        "C#",
-        "CLR",
-        ".NET",
-        "C++/CLI",
-        "ITK",
-        "managed"
+      "C#",
+      "CLR",
+      ".NET",
+      "C++/CLI",
+      "ITK",
+      "managed"
     ],
     "title": "ManagedITK: .NET Wrappers for ITK"
+  }
 }

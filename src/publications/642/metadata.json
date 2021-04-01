@@ -1,73 +1,75 @@
 {
+  "publication": {
     "abstract": "An Insight Toolkit (ITK) processing framework for segmenting and tracking nuclei in time-lapse microscopy images using coupled active contours is presented in this paper. We implement the method of Dufour et al.[2] to segment and track cells in fluorescence microscopy images. The basic idea is to model the image as a constant intensity background with constant intensity foreground components. We utilizes our earlier submissions on the Chan and Vese algorithm [1] and its multiphase extension [5] to build our new tracking filter. The tracking filter itk::MultiphaseLevelSetTracking inputs a segmentation result (or a coarse estimate) from the previous time-point along with the feature image and generates a new segmentation output. By iteratively repeating this process across all time-points, real-time tracking is made possible. We include 2D/3D example code, parameter settings and show the results generated on a 2D zebrafish embryo image series.",
     "authors": [
-        {
-            "author_fullname": "Mosaliganti, Kishore",
-            "author_place": 1,
-            "persona_email": "kishoreraom@gmail.com",
-            "persona_firstname": "Kishore",
-            "persona_id": 981,
-            "persona_lastname": "Mosaliganti"
-        },
-        {
-            "author_fullname": "Smith, Benjamin",
-            "author_place": 2,
-            "persona_email": "benjii.man.smith@gmail.com",
-            "persona_firstname": "Benjamin",
-            "persona_id": 2340,
-            "persona_lastname": "Smith"
-        },
-        {
-            "author_fullname": "Gelas, Arnaud",
-            "author_place": 3,
-            "persona_email": "arnaudgelas@gmail.com",
-            "persona_firstname": "Arnaud",
-            "persona_id": 7896,
-            "persona_lastname": "Gelas"
-        },
-        {
-            "author_fullname": "Gouaillard, Alex",
-            "author_place": 4,
-            "persona_email": "agouaillard@gmail.com",
-            "persona_firstname": "Alexandre",
-            "persona_id": 322,
-            "persona_lastname": "Gouaillard"
-        },
-        {
-            "author_fullname": "Megason, Sean",
-            "author_place": 5,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Mosaliganti, Kishore",
+        "author_place": 1,
+        "persona_email": "kishoreraom@gmail.com",
+        "persona_firstname": "Kishore",
+        "persona_id": 981,
+        "persona_lastname": "Mosaliganti"
+      },
+      {
+        "author_fullname": "Smith, Benjamin",
+        "author_place": 2,
+        "persona_email": "benjii.man.smith@gmail.com",
+        "persona_firstname": "Benjamin",
+        "persona_id": 2340,
+        "persona_lastname": "Smith"
+      },
+      {
+        "author_fullname": "Gelas, Arnaud",
+        "author_place": 3,
+        "persona_email": "arnaudgelas@gmail.com",
+        "persona_firstname": "Arnaud",
+        "persona_id": 7896,
+        "persona_lastname": "Gelas"
+      },
+      {
+        "author_fullname": "Gouaillard, Alex",
+        "author_place": 4,
+        "persona_email": "agouaillard@gmail.com",
+        "persona_firstname": "Alexandre",
+        "persona_id": 322,
+        "persona_lastname": "Gouaillard"
+      },
+      {
+        "author_fullname": "Megason, Sean",
+        "author_place": 5,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2009-05-08 10:50:29",
     "handles": [
-        {
-            "handle": "10380/3055",
-            "handle_url": "http://hdl.handle.net/10380/3055"
-        }
+      {
+        "handle": "10380/3055",
+        "handle_url": "http://hdl.handle.net/10380/3055"
+      }
     ],
+    "id": 642,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 642,
     "submitted_by_author": {
-        "author_email": "kishoreraom@gmail.com",
-        "author_firstname": "Kishore",
-        "author_id": 981,
-        "author_institution": "Harvard Medical School",
-        "author_lastname": "Mosaliganti"
+      "author_email": "kishoreraom@gmail.com",
+      "author_firstname": "Kishore",
+      "author_id": 981,
+      "author_institution": "Harvard Medical School",
+      "author_lastname": "Mosaliganti"
     },
     "tags": [
-        "segmentation",
-        "Level sets,",
-        "cell tracking"
+      "segmentation",
+      "Level sets,",
+      "cell tracking"
     ],
     "title": "Cell Tracking using Coupled Active Surfaces for Nuclei and Membranes"
+  }
 }

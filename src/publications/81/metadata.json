@@ -1,47 +1,49 @@
 {
+  "publication": {
     "abstract": "This document describes the iteration direction optimized Image Iterators . Comparing with the original corresponding iterators, the new iterators provide automatic iteration direction optimization and give more flexible. They are more efficient when the fastest moving direction has small size. The derived template class ImagePieceWiseLinearIteratorWithIndex is a generic class that can be replace the ImageLinearIterator and ImageSliceIterator. The paper present the implementation and examples of these classes. This paper is accompanied with the source code and experiments.",
     "authors": [
-        {
-            "author_fullname": "Zhu, Wanlin",
-            "author_place": 1,
-            "persona_email": "wanl.zhu@gmail.com",
-            "persona_firstname": "Wanlin",
-            "persona_id": 257,
-            "persona_lastname": "Zhu"
-        }
+      {
+        "author_fullname": "Zhu, Wanlin",
+        "author_place": 1,
+        "persona_email": "wanl.zhu@gmail.com",
+        "persona_firstname": "Wanlin",
+        "persona_id": 257,
+        "persona_lastname": "Zhu"
+      }
     ],
     "date_submitted": "2006-02-27T11:35:03Z",
     "handles": [
-        {
-            "handle": "10380/3414",
-            "handle_url": "http://hdl.handle.net/10380/3414"
-        },
-        {
-            "handle": "1926/178",
-            "handle_url": "http://hdl.handle.net/1926/178"
-        }
+      {
+        "handle": "10380/3414",
+        "handle_url": "http://hdl.handle.net/10380/3414"
+      },
+      {
+        "handle": "1926/178",
+        "handle_url": "http://hdl.handle.net/1926/178"
+      }
     ],
+    "id": 81,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 81,
     "submitted_by_author": {
-        "author_email": "wanl.zhu@gmail.com",
-        "author_firstname": "Wanlin",
-        "author_id": 257,
-        "author_institution": "University of New South Wales",
-        "author_lastname": "Zhu"
+      "author_email": "wanl.zhu@gmail.com",
+      "author_firstname": "Wanlin",
+      "author_id": 257,
+      "author_institution": "University of New South Wales",
+      "author_lastname": "Zhu"
     },
     "tags": [
-        "itk",
-        "iterator"
+      "itk",
+      "iterator"
     ],
     "title": "optimized image iterators"
+  }
 }

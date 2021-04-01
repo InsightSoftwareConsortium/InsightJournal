@@ -1,44 +1,46 @@
 {
+  "publication": {
     "abstract": "The anisotropic diffusion algorithm has been intensively studied in the past decades, which could be considered as a very efficient image denoising procedure in many biomedical applications. Several authors contributed many clever solutions for diffusion parameters fitting in specific imaging modalities. Furthermore, besides improvements regarding the image denoising quality, one important variable that must be carefully set is the conductance, which regulates the structural edges preservation among the objects presented in the image. The conductance value is strongly dependent on image noise level and an appropriate parameter setting is, usually, difficult to find for different images databases and modalities. Fortunately, thanks to many efforts from the scientific community, a few automatic methods have been proposed in order to set the conductance value automatically. Here, it is presented an ITK class which offers a simple collection of the most common automatic conductance setting approaches in order to assist researchers in image denoising procedures using anisotropic-based filtering methods (such as well described in the AnisotropicDiffusionFunction class).",
     "authors": [
-        {
-            "author_fullname": "Senra Filho, Antonio Carlos",
-            "author_place": 1,
-            "persona_email": "acsenrafilho@gmail.com",
-            "persona_firstname": "Antonio Carlos da Silva",
-            "persona_id": 9445,
-            "persona_lastname": "Senra Filho"
-        }
+      {
+        "author_fullname": "Senra Filho, Antonio Carlos",
+        "author_place": 1,
+        "persona_email": "acsenrafilho@gmail.com",
+        "persona_firstname": "Antonio Carlos da Silva",
+        "persona_id": 9445,
+        "persona_lastname": "Senra Filho"
+      }
     ],
     "date_submitted": "2017-05-03 13:59:07",
     "handles": [
-        {
-            "handle": "10380/3572",
-            "handle_url": "http://hdl.handle.net/10380/3572"
-        }
+      {
+        "handle": "10380/3572",
+        "handle_url": "http://hdl.handle.net/10380/3572"
+      }
     ],
+    "id": 983,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 983,
     "submitted_by_author": {
-        "author_email": "acsenrafilho@gmail.com",
-        "author_firstname": "Antonio Carlos da Silva",
-        "author_id": 9445,
-        "author_institution": "University of Sao Paulo",
-        "author_lastname": "Senra Filho"
+      "author_email": "acsenrafilho@gmail.com",
+      "author_firstname": "Antonio Carlos da Silva",
+      "author_id": 9445,
+      "author_institution": "University of Sao Paulo",
+      "author_lastname": "Senra Filho"
     },
     "tags": [
-        "Image Filtering",
-        "Conductance",
-        "Anisotropic Diffusion"
+      "Image Filtering",
+      "Conductance",
+      "Anisotropic Diffusion"
     ],
     "title": "Automatic Conductance Estimation Methods for Anisotropic Diffusion ITK Filters"
+  }
 }

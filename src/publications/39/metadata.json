@@ -1,71 +1,73 @@
 {
+  "publication": {
     "abstract": "Dynamic magnetic resonance imaging (DCE-MRI) carried out with\r\ncontrast media such as Gd-chelate complex (Gd-DTPA) allows the\r\nnon-invasive assessment of microcirculatory characteristics of\r\nmalignant lesions. Quantitative estimation of lesion parameters\r\nfrom the passage of the contrast media requires the use of\r\npharmacokinetic two-compartment model. The input to the model is\r\nthe time-intensity plot from a region of interest (ROI) covering\r\nthe lesion extent. The lengthy imaging process, elasticity of the\r\norgans and patient movement result in complex deformations in the\r\nsubject requiring 3D motion correction for ROI alignment. This\r\npaper presents results on applying the Thirion Demon's 3D elastic\r\nmatching procedure in the ITK framework on the two-compartment\r\nlesion parameters. Registration, meanwhile involves interpolation\r\nand smoothing operations thereby affecting the time-intensity\r\nplots. We explore the trade-offs that arise between registration\r\nand lesion parameter estimation. Experiments on synthesized and\r\nreal deformation are presented.",
     "authors": [
-        {
-            "author_fullname": "Mosaliganti, Kishore",
-            "author_place": 1,
-            "persona_email": "kishoreraom@gmail.com",
-            "persona_firstname": "Kishore",
-            "persona_id": 981,
-            "persona_lastname": "Mosaliganti"
-        },
-        {
-            "author_fullname": "Jia, Guang",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Heverhagen, Johannes",
-            "author_place": 3,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Machiraju, Raghu",
-            "author_place": 4,
-            "persona_email": "raghu.machiraju@gmail.com",
-            "persona_firstname": "raghu",
-            "persona_id": 595,
-            "persona_lastname": "machiraju"
-        },
-        {
-            "author_fullname": "Saltz, Joel",
-            "author_place": 5,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Knopp, Michael",
-            "author_place": 6,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Mosaliganti, Kishore",
+        "author_place": 1,
+        "persona_email": "kishoreraom@gmail.com",
+        "persona_firstname": "Kishore",
+        "persona_id": 981,
+        "persona_lastname": "Mosaliganti"
+      },
+      {
+        "author_fullname": "Jia, Guang",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Heverhagen, Johannes",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Machiraju, Raghu",
+        "author_place": 4,
+        "persona_email": "raghu.machiraju@gmail.com",
+        "persona_firstname": "raghu",
+        "persona_id": 595,
+        "persona_lastname": "machiraju"
+      },
+      {
+        "author_fullname": "Saltz, Joel",
+        "author_place": 5,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Knopp, Michael",
+        "author_place": 6,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2005-08-05T22:28:22Z",
     "handles": [
-        {
-            "handle": "1926/47",
-            "handle_url": "http://hdl.handle.net/1926/47"
-        }
+      {
+        "handle": "1926/47",
+        "handle_url": "http://hdl.handle.net/1926/47"
+      }
     ],
+    "id": 39,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 39,
     "submitted_by_author": {
-        "author_email": "kishoreraom@gmail.com",
-        "author_firstname": "Kishore",
-        "author_id": 981,
-        "author_institution": "Harvard Medical School",
-        "author_lastname": "Mosaliganti"
+      "author_email": "kishoreraom@gmail.com",
+      "author_firstname": "Kishore",
+      "author_id": 981,
+      "author_institution": "Harvard Medical School",
+      "author_lastname": "Mosaliganti"
     },
     "tags": [
-        "Co-registration",
-        "elastic matching, DCE-MRI"
+      "Co-registration",
+      "elastic matching, DCE-MRI"
     ],
     "title": "Impact of motion correction on the quantitative analysis of DCE-MR Images"
+  }
 }

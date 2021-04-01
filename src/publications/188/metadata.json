@@ -1,40 +1,42 @@
 {
+  "publication": {
     "abstract": "Kenneth Johnson's submission for the Open Source Software Practice course homework. Includes an implementation of Confidence Connected. Brain data, Normal007-T2.mha from MIDAS - Kitware is not included, as I don't have permission to redistribute it.",
     "authors": [
-        {
-            "author_fullname": "Johnson, Kenneth",
-            "author_place": 1,
-            "persona_email": "johnsk7@rpi.edu",
-            "persona_firstname": "Kenneth",
-            "persona_id": 713,
-            "persona_lastname": "Johnson"
-        }
+      {
+        "author_fullname": "Johnson, Kenneth",
+        "author_place": 1,
+        "persona_email": "johnsk7@rpi.edu",
+        "persona_firstname": "Kenneth",
+        "persona_id": 713,
+        "persona_lastname": "Johnson"
+      }
     ],
     "date_submitted": "2007-10-18T19:06:23Z",
     "handles": [
-        {
-            "handle": "1926/1302",
-            "handle_url": "http://hdl.handle.net/1926/1302"
-        }
+      {
+        "handle": "1926/1302",
+        "handle_url": "http://hdl.handle.net/1926/1302"
+      }
     ],
+    "id": 188,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 188,
     "submitted_by_author": {
-        "author_email": "johnsk7@rpi.edu",
-        "author_firstname": "Kenneth",
-        "author_id": 713,
-        "author_institution": "RPI",
-        "author_lastname": "Johnson"
+      "author_email": "johnsk7@rpi.edu",
+      "author_firstname": "Kenneth",
+      "author_id": 713,
+      "author_institution": "RPI",
+      "author_lastname": "Johnson"
     },
     "tags": null,
     "title": "Kenneth Johnson - Confidence Connected HW"
+  }
 }

@@ -1,60 +1,62 @@
 {
+  "publication": {
     "abstract": "VoxBo (www.voxbo.org) is a distributed processing framework, developed at the Center of Functional Neuroimaging at the University of Penssylvania, with the purpose of processing and analyzing brain functional MRI data. \r\nVoxBo is written in C++, and it is escentially a fair translation of some SPM functionality, originally written in Matlab. Along with the software, VoxBo defines two new image formats:\r\n1) .cub, a 3D image format, used for anatomical data and single EPI frames. It is important to notice that this format defines a proper origin field, lacking, for instance, in Analyze.\r\n2) .tes, a 4D image format, designed to contain the temporal EPI information. It is worth noticing that this format organizes the voxels in such a way to optimize longitudinal (temporal) voxel access.\r\nFurthermore, the tes format is compressed through encoding of the functional voxels alone, i.e., background voxels are not stored for each frame, but only for the first one.\r\n\r\nIn this work we present the necessary IO classes that allow ImageFileReader and ImageFileWriter to properly identify, read and write .cub files only. We will provide .tes support in a subsequent work.\r\nThis effort is carried out with the purpose of letting VoxBo implementors to take advantage of ITK's power and overcome the limitations currently afflicting VoxBo.",
     "authors": [
-        {
-            "author_fullname": "Burstein, Pablo D.",
-            "author_place": 1,
-            "persona_email": "pablob@grasp.cis.upenn.edu",
-            "persona_firstname": "Pablo",
-            "persona_id": 435,
-            "persona_lastname": "Burstein"
-        },
-        {
-            "author_fullname": "Yushkevich, Paul",
-            "author_place": 2,
-            "persona_email": "pauly@despammed.com",
-            "persona_firstname": "Paul",
-            "persona_id": 51,
-            "persona_lastname": "Yushkevich"
-        },
-        {
-            "author_fullname": "Gee, James C.",
-            "author_place": 3,
-            "persona_email": "gee@mail.med.upenn.edu",
-            "persona_firstname": "James",
-            "persona_id": 236,
-            "persona_lastname": "Gee"
-        }
+      {
+        "author_fullname": "Burstein, Pablo D.",
+        "author_place": 1,
+        "persona_email": "pablob@grasp.cis.upenn.edu",
+        "persona_firstname": "Pablo",
+        "persona_id": 435,
+        "persona_lastname": "Burstein"
+      },
+      {
+        "author_fullname": "Yushkevich, Paul",
+        "author_place": 2,
+        "persona_email": "pauly@despammed.com",
+        "persona_firstname": "Paul",
+        "persona_id": 51,
+        "persona_lastname": "Yushkevich"
+      },
+      {
+        "author_fullname": "Gee, James C.",
+        "author_place": 3,
+        "persona_email": "gee@mail.med.upenn.edu",
+        "persona_firstname": "James",
+        "persona_id": 236,
+        "persona_lastname": "Gee"
+      }
     ],
     "date_submitted": "2006-08-21T16:59:23Z",
     "handles": [
-        {
-            "handle": "1926/303",
-            "handle_url": "http://hdl.handle.net/1926/303"
-        }
+      {
+        "handle": "1926/303",
+        "handle_url": "http://hdl.handle.net/1926/303"
+      }
     ],
+    "id": 118,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 118,
     "submitted_by_author": {
-        "author_email": "pablob@grasp.cis.upenn.edu",
-        "author_firstname": "Pablo",
-        "author_id": 435,
-        "author_institution": "University of Pennsylvania",
-        "author_lastname": "Burstein"
+      "author_email": "pablob@grasp.cis.upenn.edu",
+      "author_firstname": "Pablo",
+      "author_id": 435,
+      "author_institution": "University of Pennsylvania",
+      "author_lastname": "Burstein"
     },
     "tags": [
-        "Image file format",
-        "cub",
-        "VoxBo"
+      "Image file format",
+      "cub",
+      "VoxBo"
     ],
     "title": "Support for \"cub\" image format"
+  }
 }

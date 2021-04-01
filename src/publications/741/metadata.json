@@ -1,56 +1,58 @@
 {
+  "publication": {
     "abstract": "This paper describes our contribution of two new classes to the Insight Toolkit (ITK) community. This includes a base and derived ImageIO class for the JPEG2000 file formats based on the openjpeg-v2 libraries. In the current release of ITK, support for JPEG2000 is absent. Our current implementation of the JPEG2000 supports 2D images (8-bit, 16-bit and RGB) and tiling. The latest code is available in the NAMIC Sandbox SVN repository under the project JPEG2000ImageIO. We include 2D example code and tests in this submission. This code is likely to be integrated into ITKv4 very soon.",
     "authors": [
-        {
-            "author_fullname": "Mosaliganti, Kishore",
-            "author_place": 1,
-            "persona_email": "kishoreraom@gmail.com",
-            "persona_firstname": "Kishore",
-            "persona_id": 981,
-            "persona_lastname": "Mosaliganti"
-        },
-        {
-            "author_fullname": "Ibanez, Luis",
-            "author_place": 2,
-            "persona_email": "luis.ibanez@kitware.com",
-            "persona_firstname": "Luis",
-            "persona_id": 4,
-            "persona_lastname": "Ibanez"
-        },
-        {
-            "author_fullname": "Megason, Sean",
-            "author_place": 3,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Mosaliganti, Kishore",
+        "author_place": 1,
+        "persona_email": "kishoreraom@gmail.com",
+        "persona_firstname": "Kishore",
+        "persona_id": 981,
+        "persona_lastname": "Mosaliganti"
+      },
+      {
+        "author_fullname": "Ibanez, Luis",
+        "author_place": 2,
+        "persona_email": "luis.ibanez@kitware.com",
+        "persona_firstname": "Luis",
+        "persona_id": 4,
+        "persona_lastname": "Ibanez"
+      },
+      {
+        "author_fullname": "Megason, Sean",
+        "author_place": 3,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2010-08-08 20:52:21",
     "handles": [
-        {
-            "handle": "10380/3187",
-            "handle_url": "http://hdl.handle.net/10380/3187"
-        }
+      {
+        "handle": "10380/3187",
+        "handle_url": "http://hdl.handle.net/10380/3187"
+      }
     ],
+    "id": 741,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 741,
     "submitted_by_author": {
-        "author_email": "kishoreraom@gmail.com",
-        "author_firstname": "Kishore",
-        "author_id": 981,
-        "author_institution": "Harvard Medical School",
-        "author_lastname": "Mosaliganti"
+      "author_email": "kishoreraom@gmail.com",
+      "author_firstname": "Kishore",
+      "author_id": 981,
+      "author_institution": "Harvard Medical School",
+      "author_lastname": "Mosaliganti"
     },
     "tags": [
-        "JPEG2000",
-        "tiling"
+      "JPEG2000",
+      "tiling"
     ],
     "title": "Support for Streaming the JPEG2000 File Format"
+  }
 }

@@ -1,48 +1,50 @@
 {
+  "publication": {
     "abstract": "This paper describes the implementation of the LDFFD and TDFFD algorithms. Both quantify motion and deformation from an input image sequence by taking profit of the temporal dimension of velocity fields in the diffeomorphic registration framework to process the input image sequence as a single 3D+t object. The rationale behind these approaches is to formulate motion estimation in an image sequence as a multi-channel registration problem. This paper describes our implementation, currently following the original ITK registration framework without multi-threading and diffeomorphic registration framework.\nMigration to ITKv4 will be addressed in future work. We also provide code for computing strain on a segmentation represented as a VTK polydata mesh. Program usages for LDFFD and TDFFD as well as strain quantification results are given for one 3D ultrasound image sequence acquired on a healthy volunteer.",
     "authors": [
-        {
-            "author_fullname": "De Craene, Mathieu",
-            "author_place": 1,
-            "persona_email": "decraene@gmail.com",
-            "persona_firstname": "Mathieu ",
-            "persona_id": 5877,
-            "persona_lastname": "De craene"
-        },
-        {
-            "author_fullname": "Piella, Gemma",
-            "author_place": 2,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "De Craene, Mathieu",
+        "author_place": 1,
+        "persona_email": "decraene@gmail.com",
+        "persona_firstname": "Mathieu ",
+        "persona_id": 5877,
+        "persona_lastname": "De craene"
+      },
+      {
+        "author_fullname": "Piella, Gemma",
+        "author_place": 2,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2012-03-09 04:39:30",
     "handles": [
-        {
-            "handle": "10380/3345",
-            "handle_url": "http://hdl.handle.net/10380/3345"
-        }
+      {
+        "handle": "10380/3345",
+        "handle_url": "http://hdl.handle.net/10380/3345"
+      }
     ],
+    "id": 855,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 855,
     "submitted_by_author": {
-        "author_email": "decraene@gmail.com",
-        "author_firstname": "Mathieu ",
-        "author_id": 5877,
-        "author_institution": "Universitat Pompeu Fabra",
-        "author_lastname": "De craene"
+      "author_email": "decraene@gmail.com",
+      "author_firstname": "Mathieu ",
+      "author_id": 5877,
+      "author_institution": "Universitat Pompeu Fabra",
+      "author_lastname": "De craene"
     },
     "tags": [
-        "temporal",
-        "diffeomorphism"
+      "temporal",
+      "diffeomorphism"
     ],
     "title": "An implementation of TDFFD and LDFFD algorithms"
+  }
 }

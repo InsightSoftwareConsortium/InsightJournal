@@ -1,48 +1,50 @@
 {
+  "publication": {
     "abstract": "The 2009 MICCAI Head and Neck Auto-Segmentation Challenge was aimed at assessing algorithms for automated segmentation of the brain stem and mandible from CT images for use in radiotherapy planning. The organisers provided 10 datasets with associated manual segmentations by experts, and 8 test datasets on which the algorithms had to be run. In two of the test datasets (subjects 13 and 15) the field of view was truncated. The results were independently analysed by the organisers.\n\nTo address the problem posed by the challenge we describe a method based on active appearance models (AAMs) which involves four stages: Initialisation with a parts-and-geometry model, search with a global AAM followed by search with local AAMs, then post-processing using linear regressors.\n\nApplication of the method to the test images resulted in a mean (excluding subject 13) Dice overlap value of 76.1 +/- 5.1% for the mandible, and 72.9 +/- 24.6% for the brainstem. The method failed to segment both the mandible and brainstem in subject 13, and the whilst giving a successful segmentation of the mandible in subject 15, gave poor results on the brainstem. It takes about 10 minutes to run on a 64 bit Linux workstation with 2GB RAM, and a 2GHz pentium processor. We were encouraged by its performance on this dataset, and believe that its accuracy can be improved with some modifications to the segmentation pipeline.\n",
     "authors": [
-        {
-            "author_fullname": "Babalola, Kola",
-            "author_place": 1,
-            "persona_email": "kola.babalola@manchester.ac.uk",
-            "persona_firstname": "Kola",
-            "persona_id": 2222,
-            "persona_lastname": "Babalola"
-        },
-        {
-            "author_fullname": "Cootes, Tim",
-            "author_place": 2,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Babalola, Kola",
+        "author_place": 1,
+        "persona_email": "kola.babalola@manchester.ac.uk",
+        "persona_firstname": "Kola",
+        "persona_id": 2222,
+        "persona_lastname": "Babalola"
+      },
+      {
+        "author_fullname": "Cootes, Tim",
+        "author_place": 2,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2009-08-25 12:45:55",
     "handles": [
-        {
-            "handle": "10380/3097",
-            "handle_url": "http://hdl.handle.net/10380/3097"
-        }
+      {
+        "handle": "10380/3097",
+        "handle_url": "http://hdl.handle.net/10380/3097"
+      }
     ],
+    "id": 667,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 34,
-            "journal_name": "MICCAI 2009 Workshops"
-        }
+      {
+        "journal_id": 34,
+        "journal_name": "MICCAI 2009 Workshops"
+      }
     ],
-    "publication_id": 667,
     "submitted_by_author": {
-        "author_email": "kola.babalola@manchester.ac.uk",
-        "author_firstname": "Kola",
-        "author_id": 2222,
-        "author_institution": "University of Manchester",
-        "author_lastname": "Babalola"
+      "author_email": "kola.babalola@manchester.ac.uk",
+      "author_firstname": "Kola",
+      "author_id": 2222,
+      "author_institution": "University of Manchester",
+      "author_lastname": "Babalola"
     },
     "tags": [
-        "Statistical Shape Models",
-        "Active Appearance Models"
+      "Statistical Shape Models",
+      "Active Appearance Models"
     ],
     "title": "AAM Segmentation of the Mandible and Brainstem"
+  }
 }

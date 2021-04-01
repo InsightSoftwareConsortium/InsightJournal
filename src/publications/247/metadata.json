@@ -1,74 +1,76 @@
 {
+  "publication": {
     "abstract": "UNCHealthBrainMRI registration test results from the RegisterImagesModule that is distributed with Slicer and via KWPublic.",
     "authors": [
-        {
-            "author_fullname": "Aylward, Stephen",
-            "author_place": 1,
-            "persona_email": "stephen.aylward@kitware.com",
-            "persona_firstname": "Stephen",
-            "persona_id": 1,
-            "persona_lastname": "Aylward"
-        },
-        {
-            "author_fullname": "Ibanez, Luis",
-            "author_place": 2,
-            "persona_email": "luis.ibanez@kitware.com",
-            "persona_firstname": "Luis",
-            "persona_id": 4,
-            "persona_lastname": "Ibanez"
-        },
-        {
-            "author_fullname": "Turek, Matt",
-            "author_place": 3,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Davis, Brad",
-            "author_place": 4,
-            "persona_email": "brad.davis@kitware.com",
-            "persona_firstname": "Brad",
-            "persona_id": 596,
-            "persona_lastname": "Davis"
-        },
-        {
-            "author_fullname": "Kikinis, Ron",
-            "author_place": 5,
-            "persona_email": "kikinis@bwh.harvard.edu",
-            "persona_firstname": "Ron",
-            "persona_id": 238,
-            "persona_lastname": "Kikinis"
-        }
+      {
+        "author_fullname": "Aylward, Stephen",
+        "author_place": 1,
+        "persona_email": "stephen.aylward@kitware.com",
+        "persona_firstname": "Stephen",
+        "persona_id": 1,
+        "persona_lastname": "Aylward"
+      },
+      {
+        "author_fullname": "Ibanez, Luis",
+        "author_place": 2,
+        "persona_email": "luis.ibanez@kitware.com",
+        "persona_firstname": "Luis",
+        "persona_id": 4,
+        "persona_lastname": "Ibanez"
+      },
+      {
+        "author_fullname": "Turek, Matt",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Davis, Brad",
+        "author_place": 4,
+        "persona_email": "brad.davis@kitware.com",
+        "persona_firstname": "Brad",
+        "persona_id": 596,
+        "persona_lastname": "Davis"
+      },
+      {
+        "author_fullname": "Kikinis, Ron",
+        "author_place": 5,
+        "persona_email": "kikinis@bwh.harvard.edu",
+        "persona_firstname": "Ron",
+        "persona_id": 238,
+        "persona_lastname": "Kikinis"
+      }
     ],
     "date_submitted": "2008-07-03T20:09:24Z",
     "handles": [
-        {
-            "handle": "1926/1402",
-            "handle_url": "http://hdl.handle.net/1926/1402"
-        }
+      {
+        "handle": "1926/1402",
+        "handle_url": "http://hdl.handle.net/1926/1402"
+      }
     ],
+    "id": 247,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 247,
     "submitted_by_author": {
-        "author_email": "stephen.aylward@kitware.com",
-        "author_firstname": "Stephen",
-        "author_id": 1,
-        "author_institution": "Kitware, Inc.",
-        "author_lastname": "Aylward"
+      "author_email": "stephen.aylward@kitware.com",
+      "author_firstname": "Stephen",
+      "author_id": 1,
+      "author_institution": "Kitware, Inc.",
+      "author_lastname": "Aylward"
     },
     "tags": [
-        "BSpline",
-        "Deformable",
-        "Affine",
-        "Rigid"
+      "BSpline",
+      "Deformable",
+      "Affine",
+      "Rigid"
     ],
     "title": "UNCHealthyBrainMRI-RegisterImagesModule"
+  }
 }

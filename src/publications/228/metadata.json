@@ -1,46 +1,48 @@
 {
+  "publication": {
     "abstract": "Morphological erosion and dilation filters employ a structuring function, with flat structuring functions being the most common example. This article will use the term ``parabolic\\'\\', but much of the literature uses ``quadratic\\'\\' structuring functions are less well known but theoretically very important and practically very useful. This paper briefly introduces morphology using parabolic structuring functions, describes the ITK classes used to implement them and includes a number of sample applications.",
     "authors": [
-        {
-            "author_fullname": "Beare, Richard",
-            "author_place": 1,
-            "persona_email": "richard.beare@ieee.org",
-            "persona_firstname": "Richard",
-            "persona_id": 197,
-            "persona_lastname": "Beare"
-        }
+      {
+        "author_fullname": "Beare, Richard",
+        "author_place": 1,
+        "persona_email": "richard.beare@ieee.org",
+        "persona_firstname": "Richard",
+        "persona_id": 197,
+        "persona_lastname": "Beare"
+      }
     ],
     "date_submitted": "2008-12-16 01:20:40",
     "handles": [
-        {
-            "handle": "1926/1370",
-            "handle_url": "http://hdl.handle.net/1926/1370"
-        }
+      {
+        "handle": "1926/1370",
+        "handle_url": "http://hdl.handle.net/1926/1370"
+      }
     ],
+    "id": 228,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 228,
     "submitted_by_author": {
-        "author_email": "richard.beare@ieee.org",
-        "author_firstname": "Richard",
-        "author_id": 197,
-        "author_institution": "Monash University",
-        "author_lastname": "Beare"
+      "author_email": "richard.beare@ieee.org",
+      "author_firstname": "Richard",
+      "author_id": 197,
+      "author_institution": "Monash University",
+      "author_lastname": "Beare"
     },
     "tags": [
-        "distance transforms",
-        "parabolic structuring functions",
-        "mathematical morphology",
-        "sharpening",
-        "quadratic structuring functions"
+      "distance transforms",
+      "parabolic structuring functions",
+      "mathematical morphology",
+      "sharpening",
+      "quadratic structuring functions"
     ],
     "title": "Morphology with parabolic structuring elements"
+  }
 }

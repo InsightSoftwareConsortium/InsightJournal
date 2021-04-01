@@ -1,56 +1,58 @@
 {
+  "publication": {
     "abstract": "This document describes an affine transformation algorithm as an additional feature for landmark based registration in ITK www.itk.org. The algorithm is based on the paper by Spath, H [1]. The author derives a set of linear equations from paired landmarks and generates an affine transform from them. The method implemented here gives more freedom in the choice of registration and/or initialization method in ITK. The submission describes ITK implementation of the algorithm.",
     "authors": [
-        {
-            "author_fullname": "Kim, Eun Young",
-            "author_place": 1,
-            "persona_email": "eunyoung-kim@uiowa.edu",
-            "persona_firstname": "Eun young",
-            "persona_id": 3215,
-            "persona_lastname": "Kim"
-        },
-        {
-            "author_fullname": "Johnson, Hans",
-            "author_place": 2,
-            "persona_email": "hans-johnson@uiowa.edu",
-            "persona_firstname": "Hans",
-            "persona_id": 21,
-            "persona_lastname": "Johnson"
-        },
-        {
-            "author_fullname": "Williams, Norman",
-            "author_place": 3,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Kim, Eun Young",
+        "author_place": 1,
+        "persona_email": "eunyoung-kim@uiowa.edu",
+        "persona_firstname": "Eun young",
+        "persona_id": 3215,
+        "persona_lastname": "Kim"
+      },
+      {
+        "author_fullname": "Johnson, Hans",
+        "author_place": 2,
+        "persona_email": "hans-johnson@uiowa.edu",
+        "persona_firstname": "Hans",
+        "persona_id": 21,
+        "persona_lastname": "Johnson"
+      },
+      {
+        "author_fullname": "Williams, Norman",
+        "author_place": 3,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2011-07-25 15:28:52",
     "handles": [
-        {
-            "handle": "10380/3299",
-            "handle_url": "http://hdl.handle.net/10380/3299"
-        }
+      {
+        "handle": "10380/3299",
+        "handle_url": "http://hdl.handle.net/10380/3299"
+      }
     ],
+    "id": 825,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 31,
-            "journal_name": "The MIDAS Journal"
-        }
+      {
+        "journal_id": 31,
+        "journal_name": "The MIDAS Journal"
+      }
     ],
-    "publication_id": 825,
     "submitted_by_author": {
-        "author_email": "eunyoung-kim@uiowa.edu",
-        "author_firstname": "Eun young",
-        "author_id": 3215,
-        "author_institution": "University of Iowa",
-        "author_lastname": "Kim"
+      "author_email": "eunyoung-kim@uiowa.edu",
+      "author_firstname": "Eun young",
+      "author_id": 3215,
+      "author_institution": "University of Iowa",
+      "author_lastname": "Kim"
     },
     "tags": [
-        "Affine registration",
-        "landmark registration"
+      "Affine registration",
+      "landmark registration"
     ],
     "title": "Affine Transformation for Landmark Based Registration Initializer in ITK"
+  }
 }

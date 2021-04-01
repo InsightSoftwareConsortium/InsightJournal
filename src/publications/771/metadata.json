@@ -1,43 +1,45 @@
 {
+  "publication": {
     "abstract": "\nWe think about interoperability only in today\u2019s terms. Looking ahead, the demands that future technologies will make on health information exchange could be large, as could the health because of interoperability. This paper would present the description on Healthcare Information System organizations and communities as a standard to underpin clinical information exchange. A number of signi\ufb01cant problems results are directly from the way the computable entries in clinical documents exchange represented currently. In this paper, the information exchange with other system and also supporting communication of electronic healthcare records across organization boundaries. The CCD is an XML-based specification for exchange of clinical summary information. The HL7 Reference Information Models expressed in the Clinical Document Architecture Release 2 (CDA R2), an information exchange specification generic to any type of clinical information. Hence, the patient\u2019s health information is easily communicated points of care and improves quality services. \n",
     "authors": [
-        {
-            "author_fullname": "Patel, Gunjan",
-            "author_place": 1,
-            "persona_email": "gunjannpatel@gmail.com",
-            "persona_firstname": "Gunjan",
-            "persona_id": 2151,
-            "persona_lastname": "Patel"
-        }
+      {
+        "author_fullname": "Patel, Gunjan",
+        "author_place": 1,
+        "persona_email": "gunjannpatel@gmail.com",
+        "persona_firstname": "Gunjan",
+        "persona_id": 2151,
+        "persona_lastname": "Patel"
+      }
     ],
     "date_submitted": "2010-10-29 10:40:34",
     "handles": [
-        {
-            "handle": "10380/3225",
-            "handle_url": "http://hdl.handle.net/10380/3225"
-        }
+      {
+        "handle": "10380/3225",
+        "handle_url": "http://hdl.handle.net/10380/3225"
+      }
     ],
+    "id": 771,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 31,
-            "journal_name": "The MIDAS Journal"
-        }
+      {
+        "journal_id": 31,
+        "journal_name": "The MIDAS Journal"
+      }
     ],
-    "publication_id": 771,
     "submitted_by_author": {
-        "author_email": "gunjannpatel@gmail.com",
-        "author_firstname": "Gunjan",
-        "author_id": 2151,
-        "author_institution": "MCIS,Manipal University",
-        "author_lastname": "Patel"
+      "author_email": "gunjannpatel@gmail.com",
+      "author_firstname": "Gunjan",
+      "author_id": 2151,
+      "author_institution": "MCIS,Manipal University",
+      "author_lastname": "Patel"
     },
     "tags": [
-        "XML, HIS",
-        "Clinical Interoperability, HL 7 v3, Clinical Document Architecture (CDA), Continuity of Care Record (CCR), Continuity of Care Document (CCD), EHR, Reference Information Model (RIM)"
+      "XML, HIS",
+      "Clinical Interoperability, HL 7 v3, Clinical Document Architecture (CDA), Continuity of Care Record (CCR), Continuity of Care Document (CCD), EHR, Reference Information Model (RIM)"
     ],
     "title": "HL7 CCD - Clinical Interoperability to Improve Quality and the Point-of-Care of EHR"
+  }
 }

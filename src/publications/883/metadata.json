@@ -1,61 +1,63 @@
 {
+  "publication": {
     "abstract": "This document describes an extension of ITK to handle both primal and dual meshes simultaneously. This paper describe in particular the data structure, an extension of itk::QuadEdgeMesh, a filter to compute and add to the the structure the dual of an existing mesh, and an adaptor which let a down- ward pipeline process the dual mesh as if it was a native itk::QuadEdgeMesh. The new data structure, itk::QuadEdgeMeshWithDual, is an extension of the already existing itk::QuadEdgeMesh, which already included by default the due topology, to handle dual geometry as well. Two types of primal meshes have been specifically illustrated: triangular / simplex meshes and Voronoi / Delaunay. A functor mechanism has been implemented to allow for different kind of computation of the dual geometry. This paper is accompanied with the source code and examples.",
     "authors": [
-        {
-            "author_fullname": "Irshad, Humayun",
-            "author_place": 1,
-            "persona_email": "humayun.irshad@gmail.com",
-            "persona_firstname": "Humayun",
-            "persona_id": 9856,
-            "persona_lastname": "Irshad"
-        },
-        {
-            "author_fullname": "Rigaud, Stephane",
-            "author_place": 2,
-            "persona_email": "rigaud.stephane@gmail.com",
-            "persona_firstname": "Stephane",
-            "persona_id": 6540,
-            "persona_lastname": "Rigaud"
-        },
-        {
-            "author_fullname": "Gouaillard, Alexandre",
-            "author_place": 3,
-            "persona_email": "agouaillard@gmail.com",
-            "persona_firstname": "Alexandre",
-            "persona_id": 322,
-            "persona_lastname": "Gouaillard"
-        }
+      {
+        "author_fullname": "Irshad, Humayun",
+        "author_place": 1,
+        "persona_email": "humayun.irshad@gmail.com",
+        "persona_firstname": "Humayun",
+        "persona_id": 9856,
+        "persona_lastname": "Irshad"
+      },
+      {
+        "author_fullname": "Rigaud, Stephane",
+        "author_place": 2,
+        "persona_email": "rigaud.stephane@gmail.com",
+        "persona_firstname": "Stephane",
+        "persona_id": 6540,
+        "persona_lastname": "Rigaud"
+      },
+      {
+        "author_fullname": "Gouaillard, Alexandre",
+        "author_place": 3,
+        "persona_email": "agouaillard@gmail.com",
+        "persona_firstname": "Alexandre",
+        "persona_id": 322,
+        "persona_lastname": "Gouaillard"
+      }
     ],
     "date_submitted": "2012-11-15 20:47:19",
     "handles": [
-        {
-            "handle": "10380/3392",
-            "handle_url": "http://hdl.handle.net/10380/3392"
-        }
+      {
+        "handle": "10380/3392",
+        "handle_url": "http://hdl.handle.net/10380/3392"
+      }
     ],
+    "id": 883,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 883,
     "submitted_by_author": {
-        "author_email": "rigaud.stephane@gmail.com",
-        "author_firstname": "Stephane",
-        "author_id": 6540,
-        "author_institution": "IPAL-CNRS",
-        "author_lastname": "Rigaud"
+      "author_email": "rigaud.stephane@gmail.com",
+      "author_firstname": "Stephane",
+      "author_id": 6540,
+      "author_institution": "IPAL-CNRS",
+      "author_lastname": "Rigaud"
     },
     "tags": [
-        "Primal Dual Mesh",
-        "ITK",
-        "QuadEdgeMesh",
-        "Simplex Mesh"
+      "Primal Dual Mesh",
+      "ITK",
+      "QuadEdgeMesh",
+      "Simplex Mesh"
     ],
     "title": "Primal/Dual Mesh with Application to Triangular/Simplex Mesh and Delaunay/Voronoi"
+  }
 }

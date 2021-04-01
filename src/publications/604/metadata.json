@@ -1,63 +1,65 @@
 {
+  "publication": {
     "abstract": "This paper presents a local feature vector based method for automated Multiple Sclerosis (MS) lesion segmentation of multi spectral MRI data. Twenty datasets from MS patients with FLAIR, T1,T2, MD and FA data with expert annotations are available as training set from the MICCAI 2008 challenge on MS, and 24 test datasets. Our local feature vector method contains neighbourhood voxel intensities, histogram and MS probability atlas information. Principal Component Analysis(PCA) \\cite{PCA} with log-likelihood ratio is used to classify each voxel. MRI suffers from intensity inhomogenities. We try to correct this ''bias field'' with 3 methods: a genetic algorithm, edge preserving filtering and atlas based correction. A large observer variability exist between expert classifications, but the similarity scores between model and expert classifications are often lower. Our model gives the best classification results with raw data, because bias correction gives artifacts at the edges and flatten large MS lesions.",
     "authors": [
-        {
-            "author_fullname": "Kroon, Dirk-Jan",
-            "author_place": 1,
-            "persona_email": "d.kroon@utwente.nl",
-            "persona_firstname": "Dirk-jan",
-            "persona_id": 890,
-            "persona_lastname": "Kroon"
-        },
-        {
-            "author_fullname": "van Oort, Erik",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Slump, Kees",
-            "author_place": 3,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Kroon, Dirk-Jan",
+        "author_place": 1,
+        "persona_email": "d.kroon@utwente.nl",
+        "persona_firstname": "Dirk-jan",
+        "persona_id": 890,
+        "persona_lastname": "Kroon"
+      },
+      {
+        "author_fullname": "van Oort, Erik",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Slump, Kees",
+        "author_place": 3,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2008-07-12T21:30:17Z",
     "handles": [
-        {
-            "handle": "10380/1441",
-            "handle_url": "http://hdl.handle.net/10380/1441"
-        }
+      {
+        "handle": "10380/1441",
+        "handle_url": "http://hdl.handle.net/10380/1441"
+      }
     ],
+    "id": 604,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 44,
-            "journal_name": "MICCAI 2015 Workshops"
-        },
-        {
-            "journal_id": 33,
-            "journal_name": "MICCAI 2008 Workshops"
-        }
+      {
+        "journal_id": 44,
+        "journal_name": "MICCAI 2015 Workshops"
+      },
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
     ],
-    "publication_id": 604,
     "submitted_by_author": {
-        "author_email": "d.kroon@utwente.nl",
-        "author_firstname": "Dirk-jan",
-        "author_id": 890,
-        "author_institution": "University of Twente",
-        "author_lastname": "Kroon"
+      "author_email": "d.kroon@utwente.nl",
+      "author_firstname": "Dirk-jan",
+      "author_id": 890,
+      "author_institution": "University of Twente",
+      "author_lastname": "Kroon"
     },
     "tags": [
-        "MR",
-        "PCA",
-        "Feature Vector",
-        "Multiple Sclerosis",
-        "Lesions",
-        "FLAIR",
-        "Non-rigid Registration",
-        "Bias Field"
+      "MR",
+      "PCA",
+      "Feature Vector",
+      "Multiple Sclerosis",
+      "Lesions",
+      "FLAIR",
+      "Non-rigid Registration",
+      "Bias Field"
     ],
     "title": "Multiple Sclerosis Detection in Multispectral Magnetic Resonance Images with Principal Components Analysis."
+  }
 }

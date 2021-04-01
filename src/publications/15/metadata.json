@@ -1,77 +1,79 @@
 {
+  "publication": {
     "abstract": "Active contour segmentation and its robust implementation using level sets\r\nhave been studied thoroughly in the medical image analysis literature. Despite\r\nthe availability of these powerful methods, clinical research still largely\r\nrelies on manual slice-by-slice outlining for anatomical structure\r\nsegmentation. To bridge the gap between methodological advances and clinical\r\nroutine, we developed ITK-SNAP: an open source application intended to make\r\nlevel set segmentation easily accessible to a wide range of users with various\r\nlevels of mathematical expertise. We briefly describe this new tool and report\r\nthe results of a validation study in which ITK-SNAP was compared to manual\r\nsegmentation of the caudate in the context of an ongoing child neuroimaging\r\nautism study.",
     "authors": [
-        {
-            "author_fullname": "Yushkevich, Paul A.",
-            "author_place": 1,
-            "persona_email": "pauly@despammed.com",
-            "persona_firstname": "Paul",
-            "persona_id": 51,
-            "persona_lastname": "Yushkevich"
-        },
-        {
-            "author_fullname": "Piven, Joseph",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Cody, Heather",
-            "author_place": 3,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Ho, Sean",
-            "author_place": 4,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Gee, James C.",
-            "author_place": 5,
-            "persona_email": "gee@mail.med.upenn.edu",
-            "persona_firstname": "James",
-            "persona_id": 236,
-            "persona_lastname": "Gee"
-        },
-        {
-            "author_fullname": "Gerig, Guido",
-            "author_place": 6,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Yushkevich, Paul A.",
+        "author_place": 1,
+        "persona_email": "pauly@despammed.com",
+        "persona_firstname": "Paul",
+        "persona_id": 51,
+        "persona_lastname": "Yushkevich"
+      },
+      {
+        "author_fullname": "Piven, Joseph",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Cody, Heather",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Ho, Sean",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Gee, James C.",
+        "author_place": 5,
+        "persona_email": "gee@mail.med.upenn.edu",
+        "persona_firstname": "James",
+        "persona_id": 236,
+        "persona_lastname": "Gee"
+      },
+      {
+        "author_fullname": "Gerig, Guido",
+        "author_place": 6,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2005-07-30T21:22:54Z",
     "handles": [
-        {
-            "handle": "1926/20",
-            "handle_url": "http://hdl.handle.net/1926/20"
-        },
-        {
-            "handle": "1926/464",
-            "handle_url": "http://hdl.handle.net/1926/464"
-        }
+      {
+        "handle": "1926/20",
+        "handle_url": "http://hdl.handle.net/1926/20"
+      },
+      {
+        "handle": "1926/464",
+        "handle_url": "http://hdl.handle.net/1926/464"
+      }
     ],
+    "id": 15,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 15,
     "submitted_by_author": {
-        "author_email": "pauly@despammed.com",
-        "author_firstname": "Paul",
-        "author_id": 51,
-        "author_institution": "University of Pennsylvania",
-        "author_lastname": "Yushkevich"
+      "author_email": "pauly@despammed.com",
+      "author_firstname": "Paul",
+      "author_id": 51,
+      "author_institution": "University of Pennsylvania",
+      "author_lastname": "Yushkevich"
     },
     "tags": [
-        "Level sets",
-        "Segmentation",
-        "ITK",
-        "SNAP"
+      "Level sets",
+      "Segmentation",
+      "ITK",
+      "SNAP"
     ],
     "title": "User-Guided Level Set Segmentation of Anatomical Structures with ITK-SNAP"
+  }
 }

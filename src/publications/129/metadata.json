@@ -1,43 +1,45 @@
 {
+  "publication": {
     "abstract": "The current ITK release (2.8) already contains a filter that enables permuting coordinate axes of an image: PermuteAxesImageFilter. PermuteAxesTransform provides similar functionality in form if ITK transform. It enables permuting axes as a part of image resampling or it may be combined with other transforms. Such techniques save system resources as they does not require an extra filter to be present in a pipeline.",
     "authors": [
-        {
-            "author_fullname": "Bican, Jakub",
-            "author_place": 1,
-            "persona_email": "jakub.bican@matfyz.cz",
-            "persona_firstname": "Jakub",
-            "persona_id": 81,
-            "persona_lastname": "Bican"
-        }
+      {
+        "author_fullname": "Bican, Jakub",
+        "author_place": 1,
+        "persona_email": "jakub.bican@matfyz.cz",
+        "persona_firstname": "Jakub",
+        "persona_id": 81,
+        "persona_lastname": "Bican"
+      }
     ],
     "date_submitted": "2006-10-30T13:31:53Z",
     "handles": [
-        {
-            "handle": "1926/340",
-            "handle_url": "http://hdl.handle.net/1926/340"
-        }
+      {
+        "handle": "1926/340",
+        "handle_url": "http://hdl.handle.net/1926/340"
+      }
     ],
+    "id": 129,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 129,
     "submitted_by_author": {
-        "author_email": "jakub.bican@matfyz.cz",
-        "author_firstname": "Jakub",
-        "author_id": 81,
-        "author_institution": "Institute of Information Theory and Automation, Academy of Sciences of the Czech Republic",
-        "author_lastname": "Bican"
+      "author_email": "jakub.bican@matfyz.cz",
+      "author_firstname": "Jakub",
+      "author_id": 81,
+      "author_institution": "Institute of Information Theory and Automation, Academy of Sciences of the Czech Republic",
+      "author_lastname": "Bican"
     },
     "tags": [
-        "transform",
-        "ITK"
+      "transform",
+      "ITK"
     ],
     "title": "Permute Axes Transform for ITK"
+  }
 }

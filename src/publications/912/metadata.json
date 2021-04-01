@@ -1,52 +1,54 @@
 {
+  "publication": {
     "abstract": "We present a new filter for the Insight Toolkit (ITK) for reducing the resolution of an image by an integer factor while averaging called BinShrink. This filter provides a new level of performance to ITK for reducing resolution and noise present in an image. The filter supports streaming, multi-threading and most of ITK's pixel types including scalars, Vectors, SymmetricSecondRankTensors, and RGBPixels. The filter has been optimized to efficiently access the input image thereby greatly increasing performance over conventional methods.",
     "authors": [
-        {
-            "author_fullname": "Lowekamp, Bradley",
-            "author_place": 2,
-            "persona_email": "blowekamp@mail.nih.gov",
-            "persona_firstname": "Bradley",
-            "persona_id": 1026,
-            "persona_lastname": "Lowekamp"
-        },
-        {
-            "author_fullname": "Chen, David",
-            "author_place": 3,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Lowekamp, Bradley",
+        "author_place": 2,
+        "persona_email": "blowekamp@mail.nih.gov",
+        "persona_firstname": "Bradley",
+        "persona_id": 1026,
+        "persona_lastname": "Lowekamp"
+      },
+      {
+        "author_fullname": "Chen, David",
+        "author_place": 3,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2013-11-18 16:34:16",
     "handles": [
-        {
-            "handle": "10380/3450",
-            "handle_url": "http://hdl.handle.net/10380/3450"
-        }
+      {
+        "handle": "10380/3450",
+        "handle_url": "http://hdl.handle.net/10380/3450"
+      }
     ],
+    "id": 912,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 912,
     "submitted_by_author": {
-        "author_email": "blowekamp@mail.nih.gov",
-        "author_firstname": "Bradley",
-        "author_id": 1026,
-        "author_institution": "Lockheed Martin Contractor for Office of High Performance Computing and Communications National Library of Medicine ",
-        "author_lastname": "Lowekamp"
+      "author_email": "blowekamp@mail.nih.gov",
+      "author_firstname": "Bradley",
+      "author_id": 1026,
+      "author_institution": "Lockheed Martin Contractor for Office of High Performance Computing and Communications National Library of Medicine ",
+      "author_lastname": "Lowekamp"
     },
     "tags": [
-        "Scan-line",
-        "Multi-resolution",
-        "Microscopy",
-        "Mean",
-        "Shrink",
-        "Performance"
+      "Scan-line",
+      "Multi-resolution",
+      "Microscopy",
+      "Mean",
+      "Shrink",
+      "Performance"
     ],
     "title": "BinShrink: A multi-resolution filter with cache efficient averaging."
+  }
 }

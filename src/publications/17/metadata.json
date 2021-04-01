@@ -1,60 +1,62 @@
 {
+  "publication": {
     "abstract": "Methods for segmentation of skull infiltrated tumors in Computed\r\nTomography (CT) images using Insight Segmentation and Registration\r\nToolkit ITK (www.itk.org) are presented. Pipelines of filters and\r\nalgorithms from ITK are validated on the basis of different criteria: sensitivity,\r\nspecificity, dice similarity coefficient, Chi-squared, and Hausdorff\r\ndistance measure. The method to rate segmentation results in relation\r\nto validation metrics is presented together with analysis of importance of\r\ndifferent goodness measures. Results for one simulated dataset and three\r\npatient are presented.",
     "authors": [
-        {
-            "author_fullname": "Popovic, Aleksandra",
-            "author_place": 1,
-            "persona_email": "popovic@hia.rwth-aachen.de",
-            "persona_firstname": "Aleksandra",
-            "persona_id": 50,
-            "persona_lastname": "Popovic"
-        },
-        {
-            "author_fullname": "Engelhardt, Martin",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Radermacher, Klaus",
-            "author_place": 3,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Popovic, Aleksandra",
+        "author_place": 1,
+        "persona_email": "popovic@hia.rwth-aachen.de",
+        "persona_firstname": "Aleksandra",
+        "persona_id": 50,
+        "persona_lastname": "Popovic"
+      },
+      {
+        "author_fullname": "Engelhardt, Martin",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Radermacher, Klaus",
+        "author_place": 3,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2005-08-01T16:29:18Z",
     "handles": [
-        {
-            "handle": "/3164",
-            "handle_url": "http://hdl.handle.net//3164"
-        },
-        {
-            "handle": "1926/21",
-            "handle_url": "http://hdl.handle.net/1926/21"
-        }
+      {
+        "handle": "/3164",
+        "handle_url": "http://hdl.handle.net//3164"
+      },
+      {
+        "handle": "1926/21",
+        "handle_url": "http://hdl.handle.net/1926/21"
+      }
     ],
+    "id": 17,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 17,
     "submitted_by_author": {
-        "author_email": "popovic@hia.rwth-aachen.de",
-        "author_firstname": "Aleksandra",
-        "author_id": 50,
-        "author_institution": "Helmholtz Institute for Biomedical Engineerning, RWTH Aachen University",
-        "author_lastname": "Popovic"
+      "author_email": "popovic@hia.rwth-aachen.de",
+      "author_firstname": "Aleksandra",
+      "author_id": 50,
+      "author_institution": "Helmholtz Institute for Biomedical Engineerning, RWTH Aachen University",
+      "author_lastname": "Popovic"
     },
     "tags": [
-        "Segmentation",
-        "Level Sets",
-        "Region Growing",
-        "Validation",
-        "ITK"
+      "Segmentation",
+      "Level Sets",
+      "Region Growing",
+      "Validation",
+      "ITK"
     ],
     "title": "Segmentation of Skull-infiltrated Tumors Using ITK: Methods and Validation"
+  }
 }

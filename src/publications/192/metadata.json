@@ -1,43 +1,45 @@
 {
+  "publication": {
     "abstract": "This document describes an example implementation of segmenting the ventricles of the brain using the Insight Toolkit. Ventricle segmentation is done using the simple confidence connected region growing algorithm.\r\n\r\nIncluded with this paper is the source code, input data, parameters and output data used to validate the implementation described in this paper.",
     "authors": [
-        {
-            "author_fullname": "Edman, Matt",
-            "author_place": 1,
-            "persona_email": "edmanm2@cs.rpi.edu",
-            "persona_firstname": "Matt",
-            "persona_id": 704,
-            "persona_lastname": "Edman"
-        }
+      {
+        "author_fullname": "Edman, Matt",
+        "author_place": 1,
+        "persona_email": "edmanm2@cs.rpi.edu",
+        "persona_firstname": "Matt",
+        "persona_id": 704,
+        "persona_lastname": "Edman"
+      }
     ],
     "date_submitted": "2007-10-18T21:51:08Z",
     "handles": [
-        {
-            "handle": "1926/1305",
-            "handle_url": "http://hdl.handle.net/1926/1305"
-        }
+      {
+        "handle": "1926/1305",
+        "handle_url": "http://hdl.handle.net/1926/1305"
+      }
     ],
+    "id": 192,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 192,
     "submitted_by_author": {
-        "author_email": "edmanm2@cs.rpi.edu",
-        "author_firstname": "Matt",
-        "author_id": 704,
-        "author_institution": "Rensselaer Polytechnic Institute",
-        "author_lastname": "Edman"
+      "author_email": "edmanm2@cs.rpi.edu",
+      "author_firstname": "Matt",
+      "author_id": 704,
+      "author_institution": "Rensselaer Polytechnic Institute",
+      "author_lastname": "Edman"
     },
     "tags": [
-        "region growing",
-        "confidence connected"
+      "region growing",
+      "confidence connected"
     ],
     "title": "Segmentation Using a Region Growing Algorithm"
+  }
 }

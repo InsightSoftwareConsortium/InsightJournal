@@ -1,43 +1,45 @@
 {
+  "publication": {
     "abstract": "We describe a new class itk::DicomDirectoryToImage which, given a directory consisting of raw dicom files, converts all found series to volumetric data with consistent filenaming based on the dicom headers. In addition various internal checks on the dicom files are made and reported, and the user has the possibility to add simple criteria to match with the series description. The main advantage of the class is the ease of processing and converting very large dicom databases in a consistent way.",
     "authors": [
-        {
-            "author_fullname": "Manniesing, Rashindra",
-            "author_place": 1,
-            "persona_email": "rashindra@gmail.com",
-            "persona_firstname": "Rashindra",
-            "persona_id": 590,
-            "persona_lastname": "Manniesing"
-        }
+      {
+        "author_fullname": "Manniesing, Rashindra",
+        "author_place": 1,
+        "persona_email": "rashindra@gmail.com",
+        "persona_firstname": "Rashindra",
+        "persona_id": 590,
+        "persona_lastname": "Manniesing"
+      }
     ],
     "date_submitted": "2009-11-04 04:50:04",
     "handles": [
-        {
-            "handle": "10380/3130",
-            "handle_url": "http://hdl.handle.net/10380/3130"
-        }
+      {
+        "handle": "10380/3130",
+        "handle_url": "http://hdl.handle.net/10380/3130"
+      }
     ],
+    "id": 700,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 700,
     "submitted_by_author": {
-        "author_email": "rashindra@gmail.com",
-        "author_firstname": "Rashindra",
-        "author_id": 590,
-        "author_institution": "DIAG Nijmegen",
-        "author_lastname": "Manniesing"
+      "author_email": "rashindra@gmail.com",
+      "author_firstname": "Rashindra",
+      "author_id": 590,
+      "author_institution": "DIAG Nijmegen",
+      "author_lastname": "Manniesing"
     },
     "tags": [
-        "data conversion",
-        "dicom"
+      "data conversion",
+      "dicom"
     ],
     "title": "DicomImport"
+  }
 }

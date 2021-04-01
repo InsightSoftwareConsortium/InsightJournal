@@ -1,68 +1,70 @@
 {
+  "publication": {
     "abstract": "This paper describes vessel enhancing diffusion (VED) filters implemented \r\nusing the Insight Toolkit (ITK). The filters are implementation of the \r\nVED algorithm developed by Manniesing et al . The VED algorithm follows a \r\nmultiscale approach to enhance vessels using anisotropic diffusion scheme guided \r\nby vesselness measure at a pixel level. Vesselness is determined by geometrical \r\nanalysis of the Eigen system of the Hessian matrix. For this purpose, a smoothed version of the Frangi's \r\nvesselness function is formulated. Experiments were conducted to evaluate the performance\r\nof the VED filters in enhancing vessels in lung CT scan.",
     "authors": [
-        {
-            "author_fullname": "Enquobahrie, Andinet",
-            "author_place": 1,
-            "persona_email": "andinet.enqu@kitware.com",
-            "persona_firstname": "Andinet",
-            "persona_id": 68,
-            "persona_lastname": "Enquobahrie"
-        },
-        {
-            "author_fullname": "Ibanez, Luis",
-            "author_place": 2,
-            "persona_email": "luis.ibanez@kitware.com",
-            "persona_firstname": "Luis",
-            "persona_id": 4,
-            "persona_lastname": "Ibanez"
-        },
-        {
-            "author_fullname": "Bullitt, Elizabeth",
-            "author_place": 3,
-            "persona_email": "bullitt@med.unc.edu",
-            "persona_firstname": "Elizabeth",
-            "persona_id": 235,
-            "persona_lastname": "Bullitt"
-        },
-        {
-            "author_fullname": "Aylward, Stephen",
-            "author_place": 4,
-            "persona_email": "stephen.aylward@kitware.com",
-            "persona_firstname": "Stephen",
-            "persona_id": 1,
-            "persona_lastname": "Aylward"
-        }
+      {
+        "author_fullname": "Enquobahrie, Andinet",
+        "author_place": 1,
+        "persona_email": "andinet.enqu@kitware.com",
+        "persona_firstname": "Andinet",
+        "persona_id": 68,
+        "persona_lastname": "Enquobahrie"
+      },
+      {
+        "author_fullname": "Ibanez, Luis",
+        "author_place": 2,
+        "persona_email": "luis.ibanez@kitware.com",
+        "persona_firstname": "Luis",
+        "persona_id": 4,
+        "persona_lastname": "Ibanez"
+      },
+      {
+        "author_fullname": "Bullitt, Elizabeth",
+        "author_place": 3,
+        "persona_email": "bullitt@med.unc.edu",
+        "persona_firstname": "Elizabeth",
+        "persona_id": 235,
+        "persona_lastname": "Bullitt"
+      },
+      {
+        "author_fullname": "Aylward, Stephen",
+        "author_place": 4,
+        "persona_email": "stephen.aylward@kitware.com",
+        "persona_firstname": "Stephen",
+        "persona_id": 1,
+        "persona_lastname": "Aylward"
+      }
     ],
     "date_submitted": "2007-07-06T13:58:43Z",
     "handles": [
-        {
-            "handle": "1926/558",
-            "handle_url": "http://hdl.handle.net/1926/558"
-        }
+      {
+        "handle": "1926/558",
+        "handle_url": "http://hdl.handle.net/1926/558"
+      }
     ],
+    "id": 163,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 163,
     "submitted_by_author": {
-        "author_email": "andinet.enqu@kitware.com",
-        "author_firstname": "Andinet",
-        "author_id": 68,
-        "author_institution": "Kitware, Inc.",
-        "author_lastname": "Enquobahrie"
+      "author_email": "andinet.enqu@kitware.com",
+      "author_firstname": "Andinet",
+      "author_id": 68,
+      "author_institution": "Kitware, Inc.",
+      "author_lastname": "Enquobahrie"
     },
     "tags": [
-        "Hessian",
-        "Vesselness",
-        "Anisotropic Diffusion"
+      "Hessian",
+      "Vesselness",
+      "Anisotropic Diffusion"
     ],
     "title": "Vessel Enhancing Diffusion Filter"
+  }
 }

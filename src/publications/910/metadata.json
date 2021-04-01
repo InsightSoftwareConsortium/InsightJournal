@@ -1,65 +1,67 @@
 {
+  "publication": {
     "abstract": "In this paper, we validate our proposed segmentation algorithm called Bayesian-based adaptive mean-shift (BAMS) on real mul-timodal MR images provided by the MRBrainS challenge. BAMS is a fully automatic unsupervised segmentation algorithm. It is based on the adaptive mean shift wherein the adaptive bandwidth of the kernel for each feature point is estimated using our proposed Bayesian approach [1]. BAMS is designed to segment the brain into three tissues; white matter (WM), gray matter (GM) and cerebrospinal fluid (CSF). The performance of the algorithm is evaluated relative to the manual segmentation (ground truth). The results of our proposed algorithm show the average Dice index 0.8377\u00b10.036 for the WM, 0.7637\u00b10.038 for the GM and 0.6835 \u00b10.023 for the CSF.",
     "authors": [
-        {
-            "author_fullname": "Mahmood, Qaiser",
-            "author_place": 2,
-            "persona_email": "qaiserm@chalmers.se",
-            "persona_firstname": "Qaiser",
-            "persona_id": 8781,
-            "persona_lastname": "Mahmood"
-        },
-        {
-            "author_fullname": "Alipoor, Mohammad",
-            "author_place": 3,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Chodorowski, Artur",
-            "author_place": 4,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Mehnert1, Andrew",
-            "author_place": 5,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Persson, Mikael",
-            "author_place": 6,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Mahmood, Qaiser",
+        "author_place": 2,
+        "persona_email": "qaiserm@chalmers.se",
+        "persona_firstname": "Qaiser",
+        "persona_id": 8781,
+        "persona_lastname": "Mahmood"
+      },
+      {
+        "author_fullname": "Alipoor, Mohammad",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Chodorowski, Artur",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Mehnert1, Andrew",
+        "author_place": 5,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Persson, Mikael",
+        "author_place": 6,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2013-10-28 17:20:42",
     "handles": [
-        {
-            "handle": "10380/3446",
-            "handle_url": "http://hdl.handle.net/10380/3446"
-        }
+      {
+        "handle": "10380/3446",
+        "handle_url": "http://hdl.handle.net/10380/3446"
+      }
     ],
+    "id": 910,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 41,
-            "journal_name": "MICCAI 2013 Workshops"
-        }
+      {
+        "journal_id": 41,
+        "journal_name": "MICCAI 2013 Workshops"
+      }
     ],
-    "publication_id": 910,
     "submitted_by_author": {
-        "author_email": "qaiserm@chalmers.se",
-        "author_firstname": "Qaiser",
-        "author_id": 8781,
-        "author_institution": "chalmers",
-        "author_lastname": "Mahmood"
+      "author_email": "qaiserm@chalmers.se",
+      "author_firstname": "Qaiser",
+      "author_id": 8781,
+      "author_institution": "chalmers",
+      "author_lastname": "Mahmood"
     },
     "tags": [
-        "MagneticResonance",
-        "Brain Segmentation",
-        "meanshift",
-        "Bayesian"
+      "MagneticResonance",
+      "Brain Segmentation",
+      "meanshift",
+      "Bayesian"
     ],
     "title": "Multimodal MR Brain Segmentation Using Bayesian-based Adaptive Mean-Shift (BAMS)"
+  }
 }

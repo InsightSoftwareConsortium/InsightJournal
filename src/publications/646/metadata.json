@@ -1,47 +1,49 @@
 {
+  "publication": {
     "abstract": "By default ITK images use a contiguous memory model. This means pixel elements are stored in a single 1-D array, where each element is adjacent in memory to the previous element. However in some situations it is not desirable to use this memory model. This document describes three alternative memory models: slice contiguous, sparse, and single-bit binary images. Slice contiguous images are three-dimensional images, in which each slice is stored in a contiguous 1-D array, but the slices are not necessarily adjacent in memory. Slice contiguous images are well suited for interoperability with applications representing images using DICOM. Sparse images are n-dimensional images, in which each pixel is stored in a hash table data structure. This memory model is well suited for images with very large dimensions, but few pixels which are actually relevant. Single-bit binary images internally represent each pixel as a single-bit, in contrast to eight-bits required to represent a boolean. Single-bit binary images allow very compact representations for on-off masks. Source code, tests, and examples are provided to allow easy reproduction and use.",
     "authors": [
-        {
-            "author_fullname": "Mueller, Dan",
-            "author_place": 1,
-            "persona_email": "dan.muel@gmail.com",
-            "persona_firstname": "Dan",
-            "persona_id": 286,
-            "persona_lastname": "Mueller"
-        }
+      {
+        "author_fullname": "Mueller, Dan",
+        "author_place": 1,
+        "persona_email": "dan.muel@gmail.com",
+        "persona_firstname": "Dan",
+        "persona_id": 286,
+        "persona_lastname": "Mueller"
+      }
     ],
     "date_submitted": "2009-11-14 00:57:06",
     "handles": [
-        {
-            "handle": "10380/3068",
-            "handle_url": "http://hdl.handle.net/10380/3068"
-        }
+      {
+        "handle": "10380/3068",
+        "handle_url": "http://hdl.handle.net/10380/3068"
+      }
     ],
+    "id": 646,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 646,
     "submitted_by_author": {
-        "author_email": "dan.muel@gmail.com",
-        "author_firstname": "Dan",
-        "author_id": 286,
-        "author_institution": "Philips Healthcare",
-        "author_lastname": "Mueller"
+      "author_email": "dan.muel@gmail.com",
+      "author_firstname": "Dan",
+      "author_id": 286,
+      "author_institution": "Philips Healthcare",
+      "author_lastname": "Mueller"
     },
     "tags": [
-        "memory",
-        "ITK",
-        "image",
-        "sparse",
-        "binary image",
-        "slice contiguous"
+      "memory",
+      "ITK",
+      "image",
+      "sparse",
+      "binary image",
+      "slice contiguous"
     ],
     "title": "Alternative Memory Models for ITK Images"
+  }
 }

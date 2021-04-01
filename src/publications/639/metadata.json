@@ -1,71 +1,73 @@
 {
+  "publication": {
     "abstract": "In this work a minimum cost path approach is adopted to extract coronary artery centerlines from CTA data. The algorithm depends on the manual definition of the start and end point of the vessel. The cost image used in the minimal cost path approach is based on a vesselness measure and a smooth window function on intensity. In the majority of the cases the method was able to extract the centerlines successfully (overlap > 90%). Accuracy of the method is around two times the voxelsize of the datasets. To conclude, minimum cost path approaches have potential for coronary artery centerline extraction, but improvements, especially regarding the accuracy of the method, still need investigations.",
     "authors": [
-        {
-            "author_fullname": "Metz, Coert",
-            "author_place": 1,
-            "persona_email": "c.metz@erasmusmc.nl",
-            "persona_firstname": "Coert",
-            "persona_id": 855,
-            "persona_lastname": "Metz"
-        },
-        {
-            "author_fullname": "Schaap, Michiel",
-            "author_place": 2,
-            "persona_email": "michiel.schaap@erasmusmc.nl",
-            "persona_firstname": "Michiel",
-            "persona_id": 870,
-            "persona_lastname": "Schaap"
-        },
-        {
-            "author_fullname": "van Walsum, Theo",
-            "author_place": 3,
-            "persona_email": "t.vanwalsum@erasmusmc.nl",
-            "persona_firstname": "Theo",
-            "persona_id": 874,
-            "persona_lastname": "van Walsum"
-        },
-        {
-            "author_fullname": "Niessen, Wiro",
-            "author_place": 4,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Metz, Coert",
+        "author_place": 1,
+        "persona_email": "c.metz@erasmusmc.nl",
+        "persona_firstname": "Coert",
+        "persona_id": 855,
+        "persona_lastname": "Metz"
+      },
+      {
+        "author_fullname": "Schaap, Michiel",
+        "author_place": 2,
+        "persona_email": "michiel.schaap@erasmusmc.nl",
+        "persona_firstname": "Michiel",
+        "persona_id": 870,
+        "persona_lastname": "Schaap"
+      },
+      {
+        "author_fullname": "van Walsum, Theo",
+        "author_place": 3,
+        "persona_email": "t.vanwalsum@erasmusmc.nl",
+        "persona_firstname": "Theo",
+        "persona_id": 874,
+        "persona_lastname": "van Walsum"
+      },
+      {
+        "author_fullname": "Niessen, Wiro",
+        "author_place": 4,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2008-12-04 11:42:39",
     "handles": [
-        {
-            "handle": "10380/1510",
-            "handle_url": "http://hdl.handle.net/10380/1510"
-        }
+      {
+        "handle": "10380/1510",
+        "handle_url": "http://hdl.handle.net/10380/1510"
+      }
     ],
+    "id": 639,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 43,
-            "journal_name": "ISBI 2015 Workshops"
-        },
-        {
-            "journal_id": 33,
-            "journal_name": "MICCAI 2008 Workshops"
-        }
+      {
+        "journal_id": 43,
+        "journal_name": "ISBI 2015 Workshops"
+      },
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
     ],
-    "publication_id": 639,
     "submitted_by_author": {
-        "author_email": "c.metz@erasmusmc.nl",
-        "author_firstname": "Coert",
-        "author_id": 855,
-        "author_institution": "Erasmus MC, Rotterdam, The Netherlands",
-        "author_lastname": "Metz"
+      "author_email": "c.metz@erasmusmc.nl",
+      "author_firstname": "Coert",
+      "author_id": 855,
+      "author_institution": "Erasmus MC, Rotterdam, The Netherlands",
+      "author_lastname": "Metz"
     },
     "tags": [
-        "cta",
-        "centerline extraction",
-        "minimal cost path",
-        "dijkstra",
-        "coronary arteries"
+      "cta",
+      "centerline extraction",
+      "minimal cost path",
+      "dijkstra",
+      "coronary arteries"
     ],
     "title": "Two Point Minimum Cost Path Approach for CTA Coronary Centerline Extraction"
+  }
 }

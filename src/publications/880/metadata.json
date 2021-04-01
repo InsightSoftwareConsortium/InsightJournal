@@ -1,55 +1,57 @@
 {
+  "publication": {
     "abstract": "In the medical simulation world the use of isosurfaces is a common action, as the information from some sources, e.g. CTs, is very well defined, and the isosurface can be easily set. Additionally, in any simulator shadows are a necessary addition to increase the users immersion as well as its depth perception. Unfortunately, the Visualization Toolkit does not offer these features, and so in this paper a modified vtkGPUVolumeRayCastMapper is presented. This modified version allows volumetric isosurface rendering as well as receiving shadows from polygons using the usual pipeline. ",
     "authors": [
-        {
-            "author_fullname": "Herrera, Imanol",
-            "author_place": 2,
-            "persona_email": "iherrera@ceit.es",
-            "persona_firstname": "Imanol",
-            "persona_id": 6166,
-            "persona_lastname": "Herrera"
-        },
-        {
-            "author_fullname": "Buchart, Carlos",
-            "author_place": 3,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Borro, Diego",
-            "author_place": 4,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Herrera, Imanol",
+        "author_place": 2,
+        "persona_email": "iherrera@ceit.es",
+        "persona_firstname": "Imanol",
+        "persona_id": 6166,
+        "persona_lastname": "Herrera"
+      },
+      {
+        "author_fullname": "Buchart, Carlos",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Borro, Diego",
+        "author_place": 4,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2012-10-05 02:31:00",
     "handles": [
-        {
-            "handle": "10380/3388",
-            "handle_url": "http://hdl.handle.net/10380/3388"
-        }
+      {
+        "handle": "10380/3388",
+        "handle_url": "http://hdl.handle.net/10380/3388"
+      }
     ],
+    "id": 880,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 35,
-            "journal_name": "The VTK Journal"
-        }
+      {
+        "journal_id": 35,
+        "journal_name": "The VTK Journal"
+      }
     ],
-    "publication_id": 880,
     "submitted_by_author": {
-        "author_email": "iherrera@ceit.es",
-        "author_firstname": "Imanol",
-        "author_id": 6166,
-        "author_institution": "CEIT",
-        "author_lastname": "Herrera"
+      "author_email": "iherrera@ceit.es",
+      "author_firstname": "Imanol",
+      "author_id": 6166,
+      "author_institution": "CEIT",
+      "author_lastname": "Herrera"
     },
     "tags": [
-        "Shadow Mapping",
-        "GPU",
-        "Volume Rendering",
-        "Isosurface rendering"
+      "Shadow Mapping",
+      "GPU",
+      "Volume Rendering",
+      "Isosurface rendering"
     ],
     "title": "Adding Refined Isosurface Rendering and Shadow Mapping to vtkGPUVolumeRayCastMapper"
+  }
 }

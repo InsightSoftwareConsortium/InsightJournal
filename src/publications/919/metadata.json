@@ -1,76 +1,78 @@
 {
+  "publication": {
     "abstract": "Personalized simulations can help assess and predict the clinical status of patients and are a key tenet of the Virtual Physiological Human (VPH) framework. This paper shows how the turnkey access of GIMIAS, an open source software platform built on open source toolkits (VTK, MITK,ITK), thanks to his inclusion in VPH-Share, an infrastructure European project with open-source components, was key to progressing the deployment effectiveness for MySpine, a VPH European project, among his geographically dispersed community",
     "authors": [
-        {
-            "author_fullname": "Biancardi, Alberto M",
-            "author_place": 1,
-            "persona_email": "a.biancardi@sheffield.ac.uk",
-            "persona_firstname": "Alberto",
-            "persona_id": 9029,
-            "persona_lastname": "Biancardi"
-        },
-        {
-            "author_fullname": "Arenas, Juan",
-            "author_place": 2,
-            "persona_email": "j.arenas@sheffield.ac.uk",
-            "persona_firstname": "Juan",
-            "persona_id": 9143,
-            "persona_lastname": "Arenas"
-        },
-        {
-            "author_fullname": "Coto, Ernesto",
-            "author_place": 3,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Rammohan, Vignesh",
-            "author_place": 4,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Pozo-Soler, Jose",
-            "author_place": 5,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Castro, Isaac",
-            "author_place": 6,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Frangi, Alejandro",
-            "author_place": 7,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Biancardi, Alberto M",
+        "author_place": 1,
+        "persona_email": "a.biancardi@sheffield.ac.uk",
+        "persona_firstname": "Alberto",
+        "persona_id": 9029,
+        "persona_lastname": "Biancardi"
+      },
+      {
+        "author_fullname": "Arenas, Juan",
+        "author_place": 2,
+        "persona_email": "j.arenas@sheffield.ac.uk",
+        "persona_firstname": "Juan",
+        "persona_id": 9143,
+        "persona_lastname": "Arenas"
+      },
+      {
+        "author_fullname": "Coto, Ernesto",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Rammohan, Vignesh",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Pozo-Soler, Jose",
+        "author_place": 5,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Castro, Isaac",
+        "author_place": 6,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Frangi, Alejandro",
+        "author_place": 7,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2014-04-18 17:16:54",
     "handles": [
-        {
-            "handle": "10380/3456",
-            "handle_url": "http://hdl.handle.net/10380/3456"
-        }
+      {
+        "handle": "10380/3456",
+        "handle_url": "http://hdl.handle.net/10380/3456"
+      }
     ],
+    "id": 919,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 31,
-            "journal_name": "The MIDAS Journal"
-        }
+      {
+        "journal_id": 31,
+        "journal_name": "The MIDAS Journal"
+      }
     ],
-    "publication_id": 919,
     "submitted_by_author": {
-        "author_email": "a.biancardi@sheffield.ac.uk",
-        "author_firstname": "Alberto",
-        "author_id": 9029,
-        "author_institution": "CISTIB, The University Of Sheffield",
-        "author_lastname": "Biancardi"
+      "author_email": "a.biancardi@sheffield.ac.uk",
+      "author_firstname": "Alberto",
+      "author_id": 9029,
+      "author_institution": "CISTIB, The University Of Sheffield",
+      "author_lastname": "Biancardi"
     },
     "tags": [
-        "Workflow",
-        "Virtual Physiology"
+      "Workflow",
+      "Virtual Physiology"
     ],
     "title": "Leveraging Open Source for Geographically Dispersed Workflows"
+  }
 }

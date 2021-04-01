@@ -1,53 +1,55 @@
 {
+  "publication": {
     "abstract": "Recently, an implementation of the Vessel Enhancing Diffusion (VED) algorithm [3] using the Insight Toolkit (ITK) framework [2] has been proposed by Enquobahrie et al.[1]. In this paper we present an alternative implementation, for two reasons. First, in this implementation all the main functionality of the algorithm, including eigensystem, vesselness, tensor calculation and PDE discretization using a forward Euler scheme are now grouped together in one single class. Although this may come at the cost of code-reusability, it improves readibility and enables application specific code optimization. The second reason is the criterion of reproducibility. Source code, test environment and example data of the paper [3] are provided.\n",
     "authors": [
-        {
-            "author_fullname": "Manniesing, Rashindra",
-            "author_place": 1,
-            "persona_email": "rashindra@gmail.com",
-            "persona_firstname": "Rashindra",
-            "persona_id": 590,
-            "persona_lastname": "Manniesing"
-        },
-        {
-            "author_fullname": "Viergever, Max",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Niessen, Wiro",
-            "author_place": 3,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Manniesing, Rashindra",
+        "author_place": 1,
+        "persona_email": "rashindra@gmail.com",
+        "persona_firstname": "Rashindra",
+        "persona_id": 590,
+        "persona_lastname": "Manniesing"
+      },
+      {
+        "author_fullname": "Viergever, Max",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Niessen, Wiro",
+        "author_place": 3,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2009-01-26 14:45:34",
     "handles": [
-        {
-            "handle": "1926/1515",
-            "handle_url": "http://hdl.handle.net/1926/1515"
-        }
+      {
+        "handle": "1926/1515",
+        "handle_url": "http://hdl.handle.net/1926/1515"
+      }
     ],
+    "id": 314,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 314,
     "submitted_by_author": {
-        "author_email": "rashindra@gmail.com",
-        "author_firstname": "Rashindra",
-        "author_id": 590,
-        "author_institution": "DIAG Nijmegen",
-        "author_lastname": "Manniesing"
+      "author_email": "rashindra@gmail.com",
+      "author_firstname": "Rashindra",
+      "author_id": 590,
+      "author_institution": "DIAG Nijmegen",
+      "author_lastname": "Manniesing"
     },
     "tags": [
-        "vessel enhancing diffusion",
-        "nonlinear anisotropic diffusion"
+      "vessel enhancing diffusion",
+      "nonlinear anisotropic diffusion"
     ],
     "title": "Vessel Enhancing Diffusion"
+  }
 }

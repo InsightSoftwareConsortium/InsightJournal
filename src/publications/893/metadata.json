@@ -1,63 +1,65 @@
 {
+  "publication": {
     "abstract": "This paper is about a design policy for operation-room (OR) friendly research system, software and a software toolkit SCCToolKit for this purpose, and a few examples. Examples are image processor for endoscope, OR event detector, vision based registration of ultrasound and endoscopic images, etc. We name the design policy as Small Computations for Clinicals (SCC). A system is SCC savvy if it is 1) single purpose, 2) turn-key system without need of using mouse and keyboard, 3) small form factor PC based, and 4) cost less than $1,000 USD. SCCToolKit is OpenCV extension that could minimize the number of buffer copies from receiving image frames from operating system to render it to display buffer. It is open source under BSD license. We measured the latency of image capture to display of the endoscope image processor was between 0.13 to 0.2 second for 1920x1080 size display with chroma-key image mixing. Considering of the acceptable latency of 0.2 second, the performance was as good as commercially available, custom hardware processor that could cost over 10,000 USD, while our PC based system cost 773 USD.",
     "authors": [
-        {
-            "author_fullname": "Chinzei, Kiyoyuki",
-            "author_place": 1,
-            "persona_email": "k.chinzei@aist.go.jp",
-            "persona_firstname": "Kiyoyuki",
-            "persona_id": 2204,
-            "persona_lastname": "Chinzei"
-        },
-        {
-            "author_fullname": "Kobayashi, Etsuko",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Suzuki, Takashi",
-            "author_place": 3,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Yamashita, Juli",
-            "author_place": 4,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Yamauchi, Yashushi",
-            "author_place": 5,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Chinzei, Kiyoyuki",
+        "author_place": 1,
+        "persona_email": "k.chinzei@aist.go.jp",
+        "persona_firstname": "Kiyoyuki",
+        "persona_id": 2204,
+        "persona_lastname": "Chinzei"
+      },
+      {
+        "author_fullname": "Kobayashi, Etsuko",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Suzuki, Takashi",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Yamashita, Juli",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Yamauchi, Yashushi",
+        "author_place": 5,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2013-08-08 05:17:34",
     "handles": [
-        {
-            "handle": "10380/3422",
-            "handle_url": "http://hdl.handle.net/10380/3422"
-        }
+      {
+        "handle": "10380/3422",
+        "handle_url": "http://hdl.handle.net/10380/3422"
+      }
     ],
+    "id": 893,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 41,
-            "journal_name": "MICCAI 2013 Workshops"
-        }
+      {
+        "journal_id": 41,
+        "journal_name": "MICCAI 2013 Workshops"
+      }
     ],
-    "publication_id": 893,
     "submitted_by_author": {
-        "author_email": "k.chinzei@aist.go.jp",
-        "author_firstname": "Kiyoyuki",
-        "author_id": 2204,
-        "author_institution": "AIST",
-        "author_lastname": "Chinzei"
+      "author_email": "k.chinzei@aist.go.jp",
+      "author_firstname": "Kiyoyuki",
+      "author_id": 2204,
+      "author_institution": "AIST",
+      "author_lastname": "Chinzei"
     },
     "tags": [
-        "Turn-key system",
-        "OpenCV"
+      "Turn-key system",
+      "OpenCV"
     ],
     "title": "Small Computings for Clinicals and SCCToolKit, OR friendly Trial Package and Software Development Kit"
+  }
 }

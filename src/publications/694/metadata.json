@@ -1,69 +1,71 @@
 {
+  "publication": {
     "abstract": "Gross shape measures such as volume have been widely used in statistical analysis of anatomical structures. Statistical shape analysis methods have emerged within the last decade to allow for a localized analysis of shape. Most shape analysis frameworks are though lacking a good statistical underpinning, as they commonly do not allow for the inclusion of independent variables such as age, gender or clinical\nscores. This work presents a unified method for local shape analysis that can accomodate different number of variates and contrasts. It also allows to include any number of associated variables in the statistical analysis of the data. Several cases of study are given to clarify the explanation of the different types of data that can be analyzed and the parameters that can be used to tune the program shapeAnalysisMANCOVA. This tool has been designed to interact seamlessly with the existing UNC SPHARM-PDM based shape analysis toolbox.",
     "authors": [
-        {
-            "author_fullname": "Pantazis, Dimitrios",
-            "author_place": 4,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Niethammer, Marc",
-            "author_place": 5,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Paniagua, Beatriz",
-            "author_place": 1,
-            "persona_email": "beatriz_paniagua@dentistry.unc.edu",
-            "persona_firstname": "Beatriz",
-            "persona_id": 2161,
-            "persona_lastname": "Paniagua"
-        },
-        {
-            "author_fullname": "Styner, Martin",
-            "author_place": 2,
-            "persona_email": "styner@cs.unc.edu",
-            "persona_firstname": "Martin",
-            "persona_id": 28,
-            "persona_lastname": "Styner"
-        },
-        {
-            "author_fullname": "Macenko, Marc",
-            "author_place": 3,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Pantazis, Dimitrios",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Niethammer, Marc",
+        "author_place": 5,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Paniagua, Beatriz",
+        "author_place": 1,
+        "persona_email": "beatriz_paniagua@dentistry.unc.edu",
+        "persona_firstname": "Beatriz",
+        "persona_id": 2161,
+        "persona_lastname": "Paniagua"
+      },
+      {
+        "author_fullname": "Styner, Martin",
+        "author_place": 2,
+        "persona_email": "styner@cs.unc.edu",
+        "persona_firstname": "Martin",
+        "persona_id": 28,
+        "persona_lastname": "Styner"
+      },
+      {
+        "author_fullname": "Macenko, Marc",
+        "author_place": 3,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2009-09-10 10:56:34",
     "handles": [
-        {
-            "handle": "10380/3124",
-            "handle_url": "http://hdl.handle.net/10380/3124"
-        }
+      {
+        "handle": "10380/3124",
+        "handle_url": "http://hdl.handle.net/10380/3124"
+      }
     ],
+    "id": 694,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 694,
     "submitted_by_author": {
-        "author_email": "beatriz_paniagua@dentistry.unc.edu",
-        "author_firstname": "Beatriz",
-        "author_id": 2161,
-        "author_institution": "University of North Carolina",
-        "author_lastname": "Paniagua"
+      "author_email": "beatriz_paniagua@dentistry.unc.edu",
+      "author_firstname": "Beatriz",
+      "author_id": 2161,
+      "author_institution": "University of North Carolina",
+      "author_lastname": "Paniagua"
     },
     "tags": [
-        "Multiple comparison problem",
-        "SPHARM",
-        "permutation tests",
-        "Statistical shape analysis",
-        "MANCOVA"
+      "Multiple comparison problem",
+      "SPHARM",
+      "permutation tests",
+      "Statistical shape analysis",
+      "MANCOVA"
     ],
     "title": "Local Shape Analysis using MANCOVA"
+  }
 }

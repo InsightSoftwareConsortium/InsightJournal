@@ -1,53 +1,55 @@
 {
+  "publication": {
     "abstract": "Deformable (2D or 3D) medical image registration is a challenging problem. Existing approaches assume that the underlying deformation is smooth. This smoothness assumption allows for solving the deformable registration at a coarse resolution and interpolate for finer resolutions. However, sliding of organs and breathing motion, exhibit discontinuities. We propose a discrete optimization approach to preserve these discontinuities. Solving continuous deformations using discrete optimization requires a fine distribution of the discrete labels. Coupled with the typical size of medical image datasets, this poses challenges to compute solutions efficiently. In this paper we present a practical, multi-scale formulation. We describe how discontinuities can be preserved, and how the optimization problem is solved. Results on synthetic 2D, and real 3D data show that we can well approximate the smoothness of continuous optimization, while accurately maintaining discontinuities.",
     "authors": [
-        {
-            "author_fullname": "Seo, Dohyung",
-            "author_place": 1,
-            "persona_email": "dhseo.118@gmail.com",
-            "persona_firstname": "Dohyung",
-            "persona_id": 9243,
-            "persona_lastname": "Seo"
-        },
-        {
-            "author_fullname": "Van Baar, Jeroen",
-            "author_place": 2,
-            "persona_email": "jeroen@merl.com",
-            "persona_firstname": "Jeroen",
-            "persona_id": 9260,
-            "persona_lastname": "Van Baar"
-        }
+      {
+        "author_fullname": "Seo, Dohyung",
+        "author_place": 1,
+        "persona_email": "dhseo.118@gmail.com",
+        "persona_firstname": "Dohyung",
+        "persona_id": 9243,
+        "persona_lastname": "Seo"
+      },
+      {
+        "author_fullname": "Van Baar, Jeroen",
+        "author_place": 2,
+        "persona_email": "jeroen@merl.com",
+        "persona_firstname": "Jeroen",
+        "persona_id": 9260,
+        "persona_lastname": "Van Baar"
+      }
     ],
     "date_submitted": "2014-10-24 09:39:23",
     "handles": [
-        {
-            "handle": "10380/3495",
-            "handle_url": "http://hdl.handle.net/10380/3495"
-        }
+      {
+        "handle": "10380/3495",
+        "handle_url": "http://hdl.handle.net/10380/3495"
+      }
     ],
+    "id": 958,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 42,
-            "journal_name": "MICCAI 2014 Workshops"
-        }
+      {
+        "journal_id": 42,
+        "journal_name": "MICCAI 2014 Workshops"
+      }
     ],
-    "publication_id": 958,
     "submitted_by_author": {
-        "author_email": "jeroen@merl.com",
-        "author_firstname": "Jeroen",
-        "author_id": 9260,
-        "author_institution": "MERL",
-        "author_lastname": "Van Baar"
+      "author_email": "jeroen@merl.com",
+      "author_firstname": "Jeroen",
+      "author_id": 9260,
+      "author_institution": "MERL",
+      "author_lastname": "Van Baar"
     },
     "tags": [
-        "Deformable Registration",
-        "MRF",
-        "Discrete Optimization",
-        "Graph Cuts"
+      "Deformable Registration",
+      "MRF",
+      "Discrete Optimization",
+      "Graph Cuts"
     ],
     "title": "Deformable Registration with Discontinuity Preservation using Multi-Scale MRF"
+  }
 }

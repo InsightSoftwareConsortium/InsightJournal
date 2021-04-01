@@ -1,47 +1,49 @@
 {
+  "publication": {
     "abstract": "This document describes itk::ContourExtractor2DImageFilter, an implementation of the arching squares2D contour-finding method using the Insight Toolkit ITK www.itk.org. This filter takes as input a 2D image (not necessarily binarized) and a contour value, and outputs zero or more itk::PolyLineParametricPath objects which represent the image contours at that value.",
     "authors": [
-        {
-            "author_fullname": "Pincus, Zachary",
-            "author_place": 1,
-            "persona_email": "zpincus@stanford.edu",
-            "persona_firstname": "Zachary",
-            "persona_id": 138,
-            "persona_lastname": "Pincus"
-        }
+      {
+        "author_fullname": "Pincus, Zachary",
+        "author_place": 1,
+        "persona_email": "zpincus@stanford.edu",
+        "persona_firstname": "Zachary",
+        "persona_id": 138,
+        "persona_lastname": "Pincus"
+      }
     ],
     "date_submitted": "2006-02-02T02:11:41Z",
     "handles": [
-        {
-            "handle": "1926/165",
-            "handle_url": "http://hdl.handle.net/1926/165"
-        }
+      {
+        "handle": "1926/165",
+        "handle_url": "http://hdl.handle.net/1926/165"
+      }
     ],
+    "id": 72,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 72,
     "submitted_by_author": {
-        "author_email": "zpincus@stanford.edu",
-        "author_firstname": "Zachary",
-        "author_id": 138,
-        "author_institution": "Stanford University School of Medicine",
-        "author_lastname": "Pincus"
+      "author_email": "zpincus@stanford.edu",
+      "author_firstname": "Zachary",
+      "author_id": 138,
+      "author_institution": "Stanford University School of Medicine",
+      "author_lastname": "Pincus"
     },
     "tags": [
-        "polylineparametricpath",
-        "marching squares",
-        "contour",
-        "path",
-        "isocontour",
-        "marching cubes"
+      "polylineparametricpath",
+      "marching squares",
+      "contour",
+      "path",
+      "isocontour",
+      "marching cubes"
     ],
     "title": "ContourExtractor2DImageFilter: A subpixel-precision image isocontour extraction filter."
+  }
 }

@@ -1,56 +1,58 @@
 {
+  "publication": {
     "abstract": "The Insight Toolkit (ITK) utilizes a generic design for image processing filters that allows many developers to rapidly implement new algorithms. While ITK filters benefit from a platform-independent and versatile multithreading capability, the current implementation does not easily achieve high performance. First, ITK relies on a static decomposition of the image into subsets of equal size which is highly inefficient when the computational complexity varies between subsets (unbalanced workloads). Second, the current domain decomposition is limited to subdivide the input domain along a single dimension (typically the slice dimension in a 3-D volume), which causes a multithreading under-utilization when the number of threads is larger than the size of this dimension when using massively parallel compute systems. We previously presented a new itk::TBBImageToImageFilter class that replaced the static task decomposition by a dynamic task decomposition for improved workload balancing, in which the job scheduling task was optimized using the Intel\u00ae Threading Building Blocks (TBB) library. In this work, we propose a new multidimensional dynamic image decomposition approach that allows decomposition over an arbitrary number of dimensions. This new generic multithreading capability, combined with the TBB dynamic task scheduler, substantially improves multithreading performance when using massively parallel processors.",
     "authors": [
-        {
-            "author_fullname": "St-Onge, Etienne",
-            "author_place": 2,
-            "persona_email": "etienne.st-onge@usherbrooke.ca",
-            "persona_firstname": "Etienne",
-            "persona_id": 10382,
-            "persona_lastname": "St-Onge"
-        },
-        {
-            "author_fullname": "Scherrer, Benoit",
-            "author_place": 3,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Warfield, Simon Keith",
-            "author_place": 4,
-            "persona_email": "simon.warfield@childrens.harvard.edu",
-            "persona_firstname": "Simon",
-            "persona_id": 514,
-            "persona_lastname": "Warfield"
-        }
+      {
+        "author_fullname": "St-Onge, Etienne",
+        "author_place": 2,
+        "persona_email": "etienne.st-onge@usherbrooke.ca",
+        "persona_firstname": "Etienne",
+        "persona_id": 10382,
+        "persona_lastname": "St-Onge"
+      },
+      {
+        "author_fullname": "Scherrer, Benoit",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Warfield, Simon Keith",
+        "author_place": 4,
+        "persona_email": "simon.warfield@childrens.harvard.edu",
+        "persona_firstname": "Simon",
+        "persona_id": 514,
+        "persona_lastname": "Warfield"
+      }
     ],
     "date_submitted": "2017-07-18 18:55:24",
     "handles": [
-        {
-            "handle": "10380/3585",
-            "handle_url": "http://hdl.handle.net/10380/3585"
-        }
+      {
+        "handle": "10380/3585",
+        "handle_url": "http://hdl.handle.net/10380/3585"
+      }
     ],
+    "id": 987,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 987,
     "submitted_by_author": {
-        "author_email": "etienne.st-onge@usherbrooke.ca",
-        "author_firstname": "Etienne",
-        "author_id": 10382,
-        "author_institution": "Universit\u00e9 de Sherbrooke",
-        "author_lastname": "St-Onge"
+      "author_email": "etienne.st-onge@usherbrooke.ca",
+      "author_firstname": "Etienne",
+      "author_id": 10382,
+      "author_institution": "Universit\u00e9 de Sherbrooke",
+      "author_lastname": "St-Onge"
     },
     "tags": [
-        "ITK ImageToImage filter",
-        "ITK"
+      "ITK ImageToImage filter",
+      "ITK"
     ],
     "title": "Efficient multithreading for manycore processor: Multidimensional domain decomposition using Intel\u00ae TBB"
+  }
 }

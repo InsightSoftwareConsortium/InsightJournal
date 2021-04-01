@@ -1,88 +1,90 @@
 {
+  "publication": {
     "abstract": "In this paper the Coronary Artery Tracking competition, which was part of the workshop: \"3D Segmentation in the Clinic: A Grand Challenge II\" is described. This workshopwas held during the 2008 Medical Image Computing and Computer Assisted Intervention (MICCAI) conference. An introduction is given to underline the importance of (semi-)automatic coronary artery centerline extraction methods\r\nand the advantages of an online framework facilitating a fair comparison of these methods. Furthermore, information is provided about the set-up of the workshop, the evaluation measures used and the online framework. Results for the algorithms, submitted by both industrial and academic research institutes, are presented as well.",
     "authors": [
-        {
-            "author_fullname": "Metz, Coert",
-            "author_place": 1,
-            "persona_email": "c.metz@erasmusmc.nl",
-            "persona_firstname": "Coert",
-            "persona_id": 855,
-            "persona_lastname": "Metz"
-        },
-        {
-            "author_fullname": "Schaap, Michiel",
-            "author_place": 2,
-            "persona_email": "michiel.schaap@erasmusmc.nl",
-            "persona_firstname": "Michiel",
-            "persona_id": 870,
-            "persona_lastname": "Schaap"
-        },
-        {
-            "author_fullname": "van Walsum, Theo",
-            "author_place": 3,
-            "persona_email": "t.vanwalsum@erasmusmc.nl",
-            "persona_firstname": "Theo",
-            "persona_id": 874,
-            "persona_lastname": "van Walsum"
-        },
-        {
-            "author_fullname": "van der Giessen, Alina",
-            "author_place": 4,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Weustink, Annick",
-            "author_place": 5,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Mollet, Nico",
-            "author_place": 6,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Krestin, Gabriel",
-            "author_place": 7,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Niessen, Wiro",
-            "author_place": 8,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Metz, Coert",
+        "author_place": 1,
+        "persona_email": "c.metz@erasmusmc.nl",
+        "persona_firstname": "Coert",
+        "persona_id": 855,
+        "persona_lastname": "Metz"
+      },
+      {
+        "author_fullname": "Schaap, Michiel",
+        "author_place": 2,
+        "persona_email": "michiel.schaap@erasmusmc.nl",
+        "persona_firstname": "Michiel",
+        "persona_id": 870,
+        "persona_lastname": "Schaap"
+      },
+      {
+        "author_fullname": "van Walsum, Theo",
+        "author_place": 3,
+        "persona_email": "t.vanwalsum@erasmusmc.nl",
+        "persona_firstname": "Theo",
+        "persona_id": 874,
+        "persona_lastname": "van Walsum"
+      },
+      {
+        "author_fullname": "van der Giessen, Alina",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Weustink, Annick",
+        "author_place": 5,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Mollet, Nico",
+        "author_place": 6,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Krestin, Gabriel",
+        "author_place": 7,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Niessen, Wiro",
+        "author_place": 8,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2008-10-06 06:48:50",
     "handles": [
-        {
-            "handle": "10380/1399",
-            "handle_url": "http://hdl.handle.net/10380/1399"
-        }
+      {
+        "handle": "10380/1399",
+        "handle_url": "http://hdl.handle.net/10380/1399"
+      }
     ],
+    "id": 574,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 43,
-            "journal_name": "ISBI 2015 Workshops"
-        },
-        {
-            "journal_id": 33,
-            "journal_name": "MICCAI 2008 Workshops"
-        }
+      {
+        "journal_id": 43,
+        "journal_name": "ISBI 2015 Workshops"
+      },
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
     ],
-    "publication_id": 574,
     "submitted_by_author": {
-        "author_email": "c.metz@erasmusmc.nl",
-        "author_firstname": "Coert",
-        "author_id": 855,
-        "author_institution": "Erasmus MC, Rotterdam, The Netherlands",
-        "author_lastname": "Metz"
+      "author_email": "c.metz@erasmusmc.nl",
+      "author_firstname": "Coert",
+      "author_id": 855,
+      "author_institution": "Erasmus MC, Rotterdam, The Netherlands",
+      "author_lastname": "Metz"
     },
     "tags": [
-        "evaluation framework",
-        "coronary artery tracking"
+      "evaluation framework",
+      "coronary artery tracking"
     ],
     "title": "3D Segmentation in the Clinic: A Grand Challenge II - Coronary Artery Tracking"
+  }
 }

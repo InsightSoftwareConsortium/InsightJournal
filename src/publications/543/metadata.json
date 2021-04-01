@@ -1,48 +1,50 @@
 {
+  "publication": {
     "abstract": "Mathematical modeling and computer simulation have proved tremendously\r\nsuccessful in engineering. One of the greatest challenges for mechanists is\r\nto extend the success of computational mechanics to fields outside\r\ntraditional engineering, in particular to biology, biomedical sciences, and\r\nmedicine. The proposed workshop will provide an opportunity for\r\ncomputational biomechanics specialists to present and exchange opinions on\r\nthe opportunities of applying their techniques to computer-integrated\r\nmedicine. For example, continuum mechanics models provide a rational basis\r\nfor analyzing biomedical images by constraining the solution to biologically\r\nreasonable motions and processes. Biomechanical modeling can also provide\r\nclinically important information about the physical status of the underlying\r\nbiology, integrating information across molecular, tissue, organ, and\r\norganism scales. The main goal of this workshop is to showcase the clinical\r\nand scientific utility of computational biomechanics in computer-integrated\r\nmedicine.\r\n\r\nThe authors of the best papers presented at the Computational Biomechanics\r\nfor Medicine workshop will be requested to submit an extended version of\r\ntheir papers to the special section of the Medical Image Analysis journal.",
     "authors": [
-        {
-            "author_fullname": "Miller, Karol",
-            "author_place": 1,
-            "persona_email": "kmiller@mech.uwa.edu.au",
-            "persona_firstname": "Karol",
-            "persona_id": 791,
-            "persona_lastname": "Miller"
-        },
-        {
-            "author_fullname": "Nielsen, Poul",
-            "author_place": 2,
-            "persona_email": "p.nielsen@auckland.ac.nz",
-            "persona_firstname": "Poul",
-            "persona_id": 857,
-            "persona_lastname": "Nielsen"
-        }
+      {
+        "author_fullname": "Miller, Karol",
+        "author_place": 1,
+        "persona_email": "kmiller@mech.uwa.edu.au",
+        "persona_firstname": "Karol",
+        "persona_id": 791,
+        "persona_lastname": "Miller"
+      },
+      {
+        "author_fullname": "Nielsen, Poul",
+        "author_place": 2,
+        "persona_email": "p.nielsen@auckland.ac.nz",
+        "persona_firstname": "Poul",
+        "persona_id": 857,
+        "persona_lastname": "Nielsen"
+      }
     ],
     "date_submitted": "2008-03-12T16:19:11Z",
     "handles": [
-        {
-            "handle": "10380/1334",
-            "handle_url": "http://hdl.handle.net/10380/1334"
-        }
+      {
+        "handle": "10380/1334",
+        "handle_url": "http://hdl.handle.net/10380/1334"
+      }
     ],
+    "id": 543,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 33,
-            "journal_name": "MICCAI 2008 Workshops"
-        }
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
     ],
-    "publication_id": 543,
     "submitted_by_author": {
-        "author_email": "stephen.aylward@kitware.com",
-        "author_firstname": "Stephen",
-        "author_id": 1,
-        "author_institution": "Kitware, Inc.",
-        "author_lastname": "Aylward"
+      "author_email": "stephen.aylward@kitware.com",
+      "author_firstname": "Stephen",
+      "author_id": 1,
+      "author_institution": "Kitware, Inc.",
+      "author_lastname": "Aylward"
     },
     "tags": null,
     "title": "Computational Biomechanics for Medicine III: a MICCAI 2008 satellite"
+  }
 }

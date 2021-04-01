@@ -1,77 +1,79 @@
 {
+  "publication": {
     "abstract": "As open source software projects gain acceptance in mission critical domains of a technology-enabled society, they must adapt their lightweight processes and tools to address the quality needs of these domains. One such domain is technology-supported surgical interventions. This paper presents an in-development toolset for validating the architecture of the open source Image-guided Surgical Toolkit (IGSTK). IGSTK components must conform to a specific architecture pattern based on state machines. Applications built on top of the IGSTK framework process and route instructions under specific constraints imposed by the architecture. This toolset focuses on validating that component state machines in IGSTK are designed and implemented in accordance with the architecture\u2019s constraints. These tools employ open source components as well, and apply theoretical concepts from computer science to a practical problem of guaranteeing safety in a mission critical domain.",
     "authors": [
-        {
-            "author_fullname": "Gary, Kevin",
-            "author_place": 1,
-            "persona_email": "kgary@asu.edu",
-            "persona_firstname": "Kevin",
-            "persona_id": 274,
-            "persona_lastname": "Gary"
-        },
-        {
-            "author_fullname": "Kokoori, Shylaja",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "David, Beulah",
-            "author_place": 3,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Otoom, Mwaffaq",
-            "author_place": 4,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Blake, M. Brian",
-            "author_place": 5,
-            "persona_email": "blakeb@cs.georgetown.edu",
-            "persona_firstname": "M. brian",
-            "persona_id": 80,
-            "persona_lastname": "Blake"
-        },
-        {
-            "author_fullname": "Cleary, Kevin",
-            "author_place": 6,
-            "persona_email": "cleary@georgetown.edu",
-            "persona_firstname": "Kevin",
-            "persona_id": 368,
-            "persona_lastname": "Cleary"
-        }
+      {
+        "author_fullname": "Gary, Kevin",
+        "author_place": 1,
+        "persona_email": "kgary@asu.edu",
+        "persona_firstname": "Kevin",
+        "persona_id": 274,
+        "persona_lastname": "Gary"
+      },
+      {
+        "author_fullname": "Kokoori, Shylaja",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "David, Beulah",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Otoom, Mwaffaq",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Blake, M. Brian",
+        "author_place": 5,
+        "persona_email": "blakeb@cs.georgetown.edu",
+        "persona_firstname": "M. brian",
+        "persona_id": 80,
+        "persona_lastname": "Blake"
+      },
+      {
+        "author_fullname": "Cleary, Kevin",
+        "author_place": 6,
+        "persona_email": "cleary@georgetown.edu",
+        "persona_firstname": "Kevin",
+        "persona_id": 368,
+        "persona_lastname": "Cleary"
+      }
     ],
     "date_submitted": "2006-07-11T04:55:01Z",
     "handles": [
-        {
-            "handle": "1926/226",
-            "handle_url": "http://hdl.handle.net/1926/226"
-        }
+      {
+        "handle": "1926/226",
+        "handle_url": "http://hdl.handle.net/1926/226"
+      }
     ],
+    "id": 113,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 113,
     "submitted_by_author": {
-        "author_email": "kgary@asu.edu",
-        "author_firstname": "Kevin",
-        "author_id": 274,
-        "author_institution": "Arizona State University's Polytechnic Division of Computing Studies",
-        "author_lastname": "Gary"
+      "author_email": "kgary@asu.edu",
+      "author_firstname": "Kevin",
+      "author_id": 274,
+      "author_institution": "Arizona State University's Polytechnic Division of Computing Studies",
+      "author_lastname": "Gary"
     },
     "tags": [
-        "software tools",
-        "architecture",
-        "validation",
-        "image guided surgery",
-        "open source"
+      "software tools",
+      "architecture",
+      "validation",
+      "image guided surgery",
+      "open source"
     ],
     "title": "An Architecture Validation Toolset for Ensuring Patient Safety in an Open Source Software Toolkit for Image-Guided Surgery Applications"
+  }
 }

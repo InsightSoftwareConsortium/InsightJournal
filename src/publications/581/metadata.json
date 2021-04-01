@@ -1,73 +1,75 @@
 {
+  "publication": {
     "abstract": "In this paper a specific method is presented to facilitate the semi-automatic segmentation of liver metastases in CT images. Accurate and reliable segmentation of tumors is e.g. essential for the follow-up of cancer treatment. The core of the algorithm is a level set function. The initialization is provided by a spiral-scanning technique based on dynamic programming. The level set evolves according to a speed image that is the result of a statistical pixel classification algorithm with supervised learning. This method is tested on CT images of the abdomen and compared with manual delineations of liver tumors.",
     "authors": [
-        {
-            "author_fullname": "Smeets, Dirk",
-            "author_place": 1,
-            "persona_email": "dirk.smeets@gmail.com",
-            "persona_firstname": "Dirk",
-            "persona_id": 885,
-            "persona_lastname": "Smeets"
-        },
-        {
-            "author_fullname": "Stijnen, Bert",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Loeckx, Dirk",
-            "author_place": 3,
-            "persona_email": "dirk.loeckx@uz.kuleuven.ac.be",
-            "persona_firstname": "Dirk",
-            "persona_id": 862,
-            "persona_lastname": "Loeckx"
-        },
-        {
-            "author_fullname": "De Dobbelaer, Bart",
-            "author_place": 4,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Suetens, Paul",
-            "author_place": 5,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Smeets, Dirk",
+        "author_place": 1,
+        "persona_email": "dirk.smeets@gmail.com",
+        "persona_firstname": "Dirk",
+        "persona_id": 885,
+        "persona_lastname": "Smeets"
+      },
+      {
+        "author_fullname": "Stijnen, Bert",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Loeckx, Dirk",
+        "author_place": 3,
+        "persona_email": "dirk.loeckx@uz.kuleuven.ac.be",
+        "persona_firstname": "Dirk",
+        "persona_id": 862,
+        "persona_lastname": "Loeckx"
+      },
+      {
+        "author_fullname": "De Dobbelaer, Bart",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Suetens, Paul",
+        "author_place": 5,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2008-07-06T16:33:21Z",
     "handles": [
-        {
-            "handle": "10380/1407",
-            "handle_url": "http://hdl.handle.net/10380/1407"
-        }
+      {
+        "handle": "10380/1407",
+        "handle_url": "http://hdl.handle.net/10380/1407"
+      }
     ],
+    "id": 581,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 45,
-            "journal_name": "MICCAI 2016 Workshops"
-        },
-        {
-            "journal_id": 33,
-            "journal_name": "MICCAI 2008 Workshops"
-        }
+      {
+        "journal_id": 45,
+        "journal_name": "MICCAI 2016 Workshops"
+      },
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
     ],
-    "publication_id": 581,
     "submitted_by_author": {
-        "author_email": "dirk.smeets@gmail.com",
-        "author_firstname": "Dirk",
-        "author_id": 885,
-        "author_institution": "Katholieke Universiteit Leuven, ESAT - PSI",
-        "author_lastname": "Smeets"
+      "author_email": "dirk.smeets@gmail.com",
+      "author_firstname": "Dirk",
+      "author_id": 885,
+      "author_institution": "Katholieke Universiteit Leuven, ESAT - PSI",
+      "author_lastname": "Smeets"
     },
     "tags": [
-        "spiral-scanning technique",
-        "level set",
-        "liver metastases",
-        "segmentation",
-        "liver tumor"
+      "spiral-scanning technique",
+      "level set",
+      "liver metastases",
+      "segmentation",
+      "liver tumor"
     ],
     "title": "Segmentation of Liver Metastases Using a Level Set Method with Spiral-Scanning Technique and Supervised Fuzzy Pixel Classification"
+  }
 }

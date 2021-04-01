@@ -1,52 +1,54 @@
 {
+  "publication": {
     "abstract": "We extended OpenIGTLink with following useful features; 1) AgentSocket class to capsulate socket initiation for smarter socket connection with try-catch implementation, 2) XmlMessage class to handle an XML text message. Using this extension, we will implement a data-logging DB that can relay the data to multiple clients.\nThis will impact the following 1) a pair of agent takes care of establishing, maintaining, terminating the communication channel, as well as attempting re-connection in case of network trouble, 2) modern error handling, 3) arbitrary format of data transfer by formatting an XML, including MRML data transmission via OpenIGTLink, 4) data logging by XML format. The work is yet in an early stage of implementation and a simple client example will be demonstrated.",
     "authors": [
-        {
-            "author_fullname": "Chinzei, Kiyoyuki",
-            "author_place": 1,
-            "persona_email": "k.chinzei@aist.go.jp",
-            "persona_firstname": "Kiyoyuki",
-            "persona_id": 2204,
-            "persona_lastname": "Chinzei"
-        },
-        {
-            "author_fullname": "Tokuda, Junichi",
-            "author_place": 2,
-            "persona_email": "tokuda@bwh.harvard.edu",
-            "persona_firstname": "Junichi",
-            "persona_id": 761,
-            "persona_lastname": "Tokuda"
-        }
+      {
+        "author_fullname": "Chinzei, Kiyoyuki",
+        "author_place": 1,
+        "persona_email": "k.chinzei@aist.go.jp",
+        "persona_firstname": "Kiyoyuki",
+        "persona_id": 2204,
+        "persona_lastname": "Chinzei"
+      },
+      {
+        "author_fullname": "Tokuda, Junichi",
+        "author_place": 2,
+        "persona_email": "tokuda@bwh.harvard.edu",
+        "persona_firstname": "Junichi",
+        "persona_id": 761,
+        "persona_lastname": "Tokuda"
+      }
     ],
     "date_submitted": "2009-08-19 01:24:22",
     "handles": [
-        {
-            "handle": "10380/3086",
-            "handle_url": "http://hdl.handle.net/10380/3086"
-        }
+      {
+        "handle": "10380/3086",
+        "handle_url": "http://hdl.handle.net/10380/3086"
+      }
     ],
+    "id": 659,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 34,
-            "journal_name": "MICCAI 2009 Workshops"
-        }
+      {
+        "journal_id": 34,
+        "journal_name": "MICCAI 2009 Workshops"
+      }
     ],
-    "publication_id": 659,
     "submitted_by_author": {
-        "author_email": "k.chinzei@aist.go.jp",
-        "author_firstname": "Kiyoyuki",
-        "author_id": 2204,
-        "author_institution": "AIST",
-        "author_lastname": "Chinzei"
+      "author_email": "k.chinzei@aist.go.jp",
+      "author_firstname": "Kiyoyuki",
+      "author_id": 2204,
+      "author_institution": "AIST",
+      "author_lastname": "Chinzei"
     },
     "tags": [
-        "openIGTLink",
-        "XML",
-        "exception handling"
+      "openIGTLink",
+      "XML",
+      "exception handling"
     ],
     "title": "Extension to OpenIGTLink; Smart Socket Connection, XML as Message, Logging, and One-to-multi Relaying"
+  }
 }

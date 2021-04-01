@@ -1,64 +1,66 @@
 {
+  "publication": {
     "abstract": "In this document it is described the implementation of the flux driven automatic centerline extraction\nalgorithm proposed by Bouix et al. in 2004. This is based on a skeletonisation algorithm initially\nproposed by Siddiqi et al. in 2002, using properties of an average outward flux measure to distinguish\nskeletal points from non-skeletal ones. This information is combined with a topology preserving thinning\nprocedure to obtain the final result. This implementation combines this skeletonisation algorithm with\nother techniques as described in the paper of Bouix et al. to produce an ITK filter that generates as output\nthe skeleton, as a binary object represented in an image, of the input surface, represented as a distance\ntransform image. In this work is described this medial curve extraction procedure following the ITK\nphilosophy.",
     "authors": [
-        {
-            "author_fullname": "Mellado, Xavier",
-            "author_place": 1,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Larrabide, Ignacio",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Hernandez, Monica",
-            "author_place": 3,
-            "persona_email": "mhg@unizar.es",
-            "persona_firstname": "Monica",
-            "persona_id": 1044,
-            "persona_lastname": "Hernandez"
-        },
-        {
-            "author_fullname": "Frangi, Alejandro",
-            "author_place": 4,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Mellado, Xavier",
+        "author_place": 1,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Larrabide, Ignacio",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Hernandez, Monica",
+        "author_place": 3,
+        "persona_email": "mhg@unizar.es",
+        "persona_firstname": "Monica",
+        "persona_id": 1044,
+        "persona_lastname": "Hernandez"
+      },
+      {
+        "author_fullname": "Frangi, Alejandro",
+        "author_place": 4,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2010-10-21 10:59:27",
     "handles": [
-        {
-            "handle": "1926/560",
-            "handle_url": "http://hdl.handle.net/1926/560"
-        }
+      {
+        "handle": "1926/560",
+        "handle_url": "http://hdl.handle.net/1926/560"
+      }
     ],
+    "id": 165,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 165,
     "submitted_by_author": {
-        "author_email": "kenshiro@gmail.com",
-        "author_firstname": "Xavier",
-        "author_id": 638,
-        "author_institution": "Universitat Pompeu Fabra",
-        "author_lastname": "Mellado Esteban"
+      "author_email": "kenshiro@gmail.com",
+      "author_firstname": "Xavier",
+      "author_id": 638,
+      "author_institution": "Universitat Pompeu Fabra",
+      "author_lastname": "Mellado Esteban"
     },
     "tags": [
-        "ITK filter",
-        "software",
-        "computer science",
-        "programming",
-        "image analysis",
-        "skeletonization",
-        "medial curve",
-        "centerline extraction"
+      "ITK filter",
+      "software",
+      "computer science",
+      "programming",
+      "image analysis",
+      "skeletonization",
+      "medial curve",
+      "centerline extraction"
     ],
     "title": "Flux driven medial curve extraction"
+  }
 }

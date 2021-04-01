@@ -1,81 +1,83 @@
 {
+  "publication": {
     "abstract": "Ultrasound has become a very important modality in image-guided therapy. At present, however, the collection, synchronization and transfer of ultrasonic images are more cumbersome than necessary. This paper presents a reusable solution to these problems. We propose a software package called SynchroGrab, which allows the collection of interventional ultrasound images as well as their synchronization with a stream of pose measurements. The software includes support for an open-interface ultrasound system, namely the Sonix RP, from Ultrasonix (Vancouver, Canada). Using an open-interface system like the Sonix RP allows customization of the imaging process and the capture of the ultrasound images directly from memory without the need for a frame-grabbing card. Pose measurement is currently performed with an Optotrak Certus by Northern Digital (Waterloo, Canada). However, extensibility was a primary goal in the design of this software, so the support of new devices can be achieved simply by sub-classing the relevant base class. SynchroGrab also performs reconstruction of 3D ultrasound volumes from synchronized data streams. Moreover, the recorded images, volumes and tracking information are available for visualization or further processing either directly from the file system or from a network connection compliant with the OpenIGTLink protocol, which is supported by Slicer 3.",
     "authors": [
-        {
-            "author_fullname": "Boisvert, Jonathan",
-            "author_place": 1,
-            "persona_email": "boisvert@cs.queensu.ca",
-            "persona_firstname": "Jonathan",
-            "persona_id": 935,
-            "persona_lastname": "Boisvert"
-        },
-        {
-            "author_fullname": "Gobbi, David",
-            "author_place": 2,
-            "persona_email": "david.gobbi@gmail.com",
-            "persona_firstname": "David",
-            "persona_id": 881,
-            "persona_lastname": "Gobbi"
-        },
-        {
-            "author_fullname": "Vikal, Siddharth",
-            "author_place": 3,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Rohling, Robert",
-            "author_place": 4,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Fichtinger, Gabor",
-            "author_place": 5,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Abolmaesumi, Purang",
-            "author_place": 6,
-            "persona_email": "purang@ece.ubc.ca",
-            "persona_firstname": "Purang",
-            "persona_id": 2818,
-            "persona_lastname": "Abolmaesumi"
-        }
+      {
+        "author_fullname": "Boisvert, Jonathan",
+        "author_place": 1,
+        "persona_email": "boisvert@cs.queensu.ca",
+        "persona_firstname": "Jonathan",
+        "persona_id": 935,
+        "persona_lastname": "Boisvert"
+      },
+      {
+        "author_fullname": "Gobbi, David",
+        "author_place": 2,
+        "persona_email": "david.gobbi@gmail.com",
+        "persona_firstname": "David",
+        "persona_id": 881,
+        "persona_lastname": "Gobbi"
+      },
+      {
+        "author_fullname": "Vikal, Siddharth",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Rohling, Robert",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Fichtinger, Gabor",
+        "author_place": 5,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Abolmaesumi, Purang",
+        "author_place": 6,
+        "persona_email": "purang@ece.ubc.ca",
+        "persona_firstname": "Purang",
+        "persona_id": 2818,
+        "persona_lastname": "Abolmaesumi"
+      }
     ],
     "date_submitted": "2008-07-18T15:27:39Z",
     "handles": [
-        {
-            "handle": "10380/1459",
-            "handle_url": "http://hdl.handle.net/10380/1459"
-        }
+      {
+        "handle": "10380/1459",
+        "handle_url": "http://hdl.handle.net/10380/1459"
+      }
     ],
+    "id": 618,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 40,
-            "journal_name": "MICCAI 2012 Workshops"
-        },
-        {
-            "journal_id": 33,
-            "journal_name": "MICCAI 2008 Workshops"
-        }
+      {
+        "journal_id": 40,
+        "journal_name": "MICCAI 2012 Workshops"
+      },
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
     ],
-    "publication_id": 618,
     "submitted_by_author": {
-        "author_email": "boisvert@cs.queensu.ca",
-        "author_firstname": "Jonathan",
-        "author_id": 935,
-        "author_institution": "Queen's University",
-        "author_lastname": "Boisvert"
+      "author_email": "boisvert@cs.queensu.ca",
+      "author_firstname": "Jonathan",
+      "author_id": 935,
+      "author_institution": "Queen's University",
+      "author_lastname": "Boisvert"
     },
     "tags": [
-        "IGT System Integration",
-        "Volumetric Reconstruction",
-        "3D Tracking",
-        "Interventional Ultrasound Images",
-        "Synchronisation"
+      "IGT System Integration",
+      "Volumetric Reconstruction",
+      "3D Tracking",
+      "Interventional Ultrasound Images",
+      "Synchronisation"
     ],
     "title": "An Open-Source Solution for Interactive Acquisition, Processing and Transfer of Interventional Ultrasound Images"
+  }
 }

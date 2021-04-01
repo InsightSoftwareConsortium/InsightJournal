@@ -1,57 +1,59 @@
 {
+  "publication": {
     "abstract": "In this paper, we analyze the relationship between parameters of brain tumors obtained through in vivo magnetic resonance imaging (MRI), in vivo magneticnresonance spectroscopy (MRS), and ex vivo immunohistochemistry (IHC). The goal of our project is to provide a quantitative definition of tumor cellularity based on the in vivo parameters. Biopsy samples obtained from previously untreated patients with a diagnosis of GBM are used to find the link between imaging parameters at the specific biopsy locations and IHC parameters from the corresponding tissue samples. A functional tree (FT) model of tumor cellularity is learned from the in vivo parameters and the remaining histological parameters. The tumor cellularity model is then tested on examples which contain only in vivo parameters, by first estimating the remaining IHC parameters by applying the Expectation Maximization (EM) algorithm, and then using the complete parameter vector for classification.",
     "authors": [
-        {
-            "author_fullname": "Constantin, Alexandra",
-            "author_place": 1,
-            "persona_email": "alexacon@eecs.berkeley.edu",
-            "persona_firstname": "Alexandra",
-            "persona_id": 2714,
-            "persona_lastname": "Constantin"
-        },
-        {
-            "author_fullname": "Nelson, Sarah",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Bajcsy, Ruzena",
-            "author_place": 3,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Constantin, Alexandra",
+        "author_place": 1,
+        "persona_email": "alexacon@eecs.berkeley.edu",
+        "persona_firstname": "Alexandra",
+        "persona_id": 2714,
+        "persona_lastname": "Constantin"
+      },
+      {
+        "author_fullname": "Nelson, Sarah",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Bajcsy, Ruzena",
+        "author_place": 3,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2010-09-08 01:16:09",
     "handles": [
-        {
-            "handle": "10380/3213",
-            "handle_url": "http://hdl.handle.net/10380/3213"
-        }
+      {
+        "handle": "10380/3213",
+        "handle_url": "http://hdl.handle.net/10380/3213"
+      }
     ],
+    "id": 757,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 37,
-            "journal_name": "MICCAI 2010 Workshops"
-        }
+      {
+        "journal_id": 37,
+        "journal_name": "MICCAI 2010 Workshops"
+      }
     ],
-    "publication_id": 757,
     "submitted_by_author": {
-        "author_email": "alexacon@eecs.berkeley.edu",
-        "author_firstname": "Alexandra",
-        "author_id": 2714,
-        "author_institution": "University of California, Berkeley",
-        "author_lastname": "Constantin"
+      "author_email": "alexacon@eecs.berkeley.edu",
+      "author_firstname": "Alexandra",
+      "author_id": 2714,
+      "author_institution": "University of California, Berkeley",
+      "author_lastname": "Constantin"
     },
     "tags": [
-        "multivariate model",
-        "tumor cellularity",
-        "classification",
-        "MRI",
-        "MRS",
-        "spectroscopy"
+      "multivariate model",
+      "tumor cellularity",
+      "classification",
+      "MRI",
+      "MRS",
+      "spectroscopy"
     ],
     "title": "Modeling Tumor Cellularity in Newly Diagnosed GBMs using MR Imaging and Spectroscopy"
+  }
 }

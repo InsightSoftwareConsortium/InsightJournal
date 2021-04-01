@@ -6,7 +6,7 @@ import Box from '@material-ui/core/Box';
 import SvgIcon from '@material-ui/core/SvgIcon';
 import Link from '../components/Link';
 import Copyright from '../components/Copyright';
-import Img from "gatsby-image"
+import { GatsbyImage } from "gatsby-plugin-image"
 import { graphql } from 'gatsby'
 
 function LightBulbIcon(props) {
@@ -30,7 +30,7 @@ export default function NotFound({ data }) {
 
         </Box>
         <Box sx={{ my: 4 }} align="center">
-          <Img fixed={data.file.childImageSharp.fixed} />
+          <GatsbyImage image={data.file.childImageSharp.gatsbyImageData} />
           <Typography sx={{ mt: 6, mb: 3 }} color="text.secondary" align="center">
             <LightBulbIcon sx={{ mr: 1, verticalAlign: 'middle' }} />
             Keep up the inquiry, friend
@@ -46,12 +46,8 @@ export const query = graphql`
   query {
     file(relativePath: { eq: "titan.png"}) {
       childImageSharp {
-        # Specify the image processing specifications right in the query.
-        # Makes it trivial to update as your page's design changes.
-        fixed(width: 200, height: 225) {
-          ...GatsbyImageSharpFixed
+        gatsbyImageData(layout: FIXED, width: 200, height: 225)
         }
       }
     }
-  }
 `

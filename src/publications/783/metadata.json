@@ -1,43 +1,45 @@
 {
+  "publication": {
     "abstract": "New functions are proposed for itkMinimumMaximumImageCalculator. One function allows for excluding pixels of a specified value from the computations. Another function stores all pixel indices of the maximum/minimum value. This paper is accompanied with source code for the filter and test, test images and parameters, and expected output images. ",
     "authors": [
-        {
-            "author_fullname": "Tamburo, Robert",
-            "author_place": 1,
-            "persona_email": "robert.tamburo@gmail.com",
-            "persona_firstname": "Robert",
-            "persona_id": 59,
-            "persona_lastname": "Tamburo"
-        }
+      {
+        "author_fullname": "Tamburo, Robert",
+        "author_place": 1,
+        "persona_email": "robert.tamburo@gmail.com",
+        "persona_firstname": "Robert",
+        "persona_id": 59,
+        "persona_lastname": "Tamburo"
+      }
     ],
     "date_submitted": "2011-01-05 11:30:43",
     "handles": [
-        {
-            "handle": "10380/3244",
-            "handle_url": "http://hdl.handle.net/10380/3244"
-        }
+      {
+        "handle": "10380/3244",
+        "handle_url": "http://hdl.handle.net/10380/3244"
+      }
     ],
+    "id": 783,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 783,
     "submitted_by_author": {
-        "author_email": "robert.tamburo@gmail.com",
-        "author_firstname": "Robert",
-        "author_id": 59,
-        "author_institution": " ",
-        "author_lastname": "Tamburo"
+      "author_email": "robert.tamburo@gmail.com",
+      "author_firstname": "Robert",
+      "author_id": 59,
+      "author_institution": " ",
+      "author_lastname": "Tamburo"
     },
     "tags": [
-        "minimum maximum",
-        "MinimumMaximumImageCalculator"
+      "minimum maximum",
+      "MinimumMaximumImageCalculator"
     ],
     "title": "New Features for MinimumMaximumImageCalculator"
+  }
 }

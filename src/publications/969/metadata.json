@@ -1,73 +1,75 @@
 {
+  "publication": {
     "abstract": "The Insight Segmentation and Registration Toolkit (www.itk.org) has become a standard in academia and industry for medical image analysis. In recent years, the ITK developers' community has focused on providing programming interfaces to ITK from Python, Java, and Javascript and making ITK available via leading applications such as Slicer and ImageJ. In this course we present best practices for taking advantage of ITK in your imaging research and commercial products. We demonstrate how script writing and interactive GUIs can be used to access the algorithms in ITK and the multitude of ITK extensions that are freely available on the web. We also cover the opportunities and challenges with using open-source software in research and in commercial applications: from prototypes that can lead to venture capital funding to applications for first-in-human trials and ultimately for regulatory approval.",
     "authors": [
-        {
-            "author_fullname": "McCormick, Matthew",
-            "author_place": 2,
-            "persona_email": "matthew.m.mccormick@gmail.com",
-            "persona_firstname": "Matthew",
-            "persona_id": 2509,
-            "persona_lastname": "Mccormick"
-        },
-        {
-            "author_fullname": "Aylward, Stephen",
-            "author_place": 3,
-            "persona_email": "stephen.aylward@kitware.com",
-            "persona_firstname": "Stephen",
-            "persona_id": 1,
-            "persona_lastname": "Aylward"
-        },
-        {
-            "author_fullname": "Johnson, Hans",
-            "author_place": 4,
-            "persona_email": "hans-johnson@uiowa.edu",
-            "persona_firstname": "Hans",
-            "persona_id": 21,
-            "persona_lastname": "Johnson"
-        },
-        {
-            "author_fullname": "Lowekamp, Bradley",
-            "author_place": 5,
-            "persona_email": "blowekamp@mail.nih.gov",
-            "persona_firstname": "Bradley",
-            "persona_id": 1026,
-            "persona_lastname": "Lowekamp"
-        }
+      {
+        "author_fullname": "McCormick, Matthew",
+        "author_place": 2,
+        "persona_email": "matthew.m.mccormick@gmail.com",
+        "persona_firstname": "Matthew",
+        "persona_id": 2509,
+        "persona_lastname": "Mccormick"
+      },
+      {
+        "author_fullname": "Aylward, Stephen",
+        "author_place": 3,
+        "persona_email": "stephen.aylward@kitware.com",
+        "persona_firstname": "Stephen",
+        "persona_id": 1,
+        "persona_lastname": "Aylward"
+      },
+      {
+        "author_fullname": "Johnson, Hans",
+        "author_place": 4,
+        "persona_email": "hans-johnson@uiowa.edu",
+        "persona_firstname": "Hans",
+        "persona_id": 21,
+        "persona_lastname": "Johnson"
+      },
+      {
+        "author_fullname": "Lowekamp, Bradley",
+        "author_place": 5,
+        "persona_email": "blowekamp@mail.nih.gov",
+        "persona_firstname": "Bradley",
+        "persona_id": 1026,
+        "persona_lastname": "Lowekamp"
+      }
     ],
     "date_submitted": "2016-02-27 18:46:48",
     "handles": [
-        {
-            "handle": "10380/3542",
-            "handle_url": "http://hdl.handle.net/10380/3542"
-        }
+      {
+        "handle": "10380/3542",
+        "handle_url": "http://hdl.handle.net/10380/3542"
+      }
     ],
+    "id": 969,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 969,
     "submitted_by_author": {
-        "author_email": "matthew.m.mccormick@gmail.com",
-        "author_firstname": "Matthew",
-        "author_id": 2509,
-        "author_institution": "University of Wisconsin-Madison",
-        "author_lastname": "Mccormick"
+      "author_email": "matthew.m.mccormick@gmail.com",
+      "author_firstname": "Matthew",
+      "author_id": 2509,
+      "author_institution": "University of Wisconsin-Madison",
+      "author_lastname": "Mccormick"
     },
     "tags": [
-        "Slicer",
-        "SimpleITK",
-        "Python",
-        "JavaScript",
-        "Reproducible Research",
-        "Research",
-        "Commercial Application",
-        "ITK"
+      "Slicer",
+      "SimpleITK",
+      "Python",
+      "JavaScript",
+      "Reproducible Research",
+      "Research",
+      "Commercial Application",
+      "ITK"
     ],
     "title": "ITK in Biomedical Research and Commercial Applications"
+  }
 }

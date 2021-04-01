@@ -1,43 +1,45 @@
 {
+  "publication": {
     "abstract": "Several applications such as multi-atlas segmentation require frequent iteration over multiple image volumes at the same time.\nDoing so with the regular ITK iterators is tedious and error prone as it requires updating each iterator at end of each iteration. Failing to do so results in hard to debug errors and crashes.\nThe MultipleImageIterator is a simple wrapper class that tries to make this more convenient.\n",
     "authors": [
-        {
-            "author_fullname": "Schaerer, Jo\u00ebl",
-            "author_place": 2,
-            "persona_email": "joelthelion@laposte.net",
-            "persona_firstname": "Jo\u00ebl",
-            "persona_id": 2935,
-            "persona_lastname": "Schaerer"
-        }
+      {
+        "author_fullname": "Schaerer, Jo\u00ebl",
+        "author_place": 2,
+        "persona_email": "joelthelion@laposte.net",
+        "persona_firstname": "Jo\u00ebl",
+        "persona_id": 2935,
+        "persona_lastname": "Schaerer"
+      }
     ],
     "date_submitted": "2014-02-20 03:23:44",
     "handles": [
-        {
-            "handle": "10380/3455",
-            "handle_url": "http://hdl.handle.net/10380/3455"
-        }
+      {
+        "handle": "10380/3455",
+        "handle_url": "http://hdl.handle.net/10380/3455"
+      }
     ],
+    "id": 915,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 915,
     "submitted_by_author": {
-        "author_email": "joelthelion@laposte.net",
-        "author_firstname": "Jo\u00ebl",
-        "author_id": 2935,
-        "author_institution": "Bioclinica SAS, Lyon",
-        "author_lastname": "Schaerer"
+      "author_email": "joelthelion@laposte.net",
+      "author_firstname": "Jo\u00ebl",
+      "author_id": 2935,
+      "author_institution": "Bioclinica SAS, Lyon",
+      "author_lastname": "Schaerer"
     },
     "tags": [
-        "ITK",
-        "Iterator"
+      "ITK",
+      "Iterator"
     ],
     "title": "A MultipleImageIterator for iterating over multiple images simultaneously"
+  }
 }

@@ -1,65 +1,67 @@
 {
+  "publication": {
     "abstract": "This paper describes two 3D micro-CT datasets of 23 and 5.9 Gigabytes that Creatis has made publicly available to the imaging community. These datasets were acquired using Synchrotron Radiation micro-Ct at the ESRF at a spatial resolution of 1.4 microns. The provided datasets were previously included in a study to develop\nnew 3D imaging methods to analyze, in three-dimensions, the morphology of microcracks\nhuman trabecular bone at the micrometric scale.\n\nThis paper is a pure data contribution. The datasets described here are made available in the public MIDAS database. Here we describe the content of the files to make easier for others to use this data as input for their own research work. This adheres to the fundamental principle that scientific publications must facilitate reproducibility of the reported results.",
     "authors": [
-        {
-            "author_fullname": "Zuluaga, Maria A.",
-            "author_place": 1,
-            "persona_email": "maria.zuluaga@creatis.insa-lyon.fr",
-            "persona_firstname": "Maria A.",
-            "persona_id": 2228,
-            "persona_lastname": "Zuluaga"
-        },
-        {
-            "author_fullname": "Larrue, Aymeric",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Rattner, Aline",
-            "author_place": 3,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Vico, Laurence",
-            "author_place": 4,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Peyrin, Fran\u00e7oise",
-            "author_place": 5,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Zuluaga, Maria A.",
+        "author_place": 1,
+        "persona_email": "maria.zuluaga@creatis.insa-lyon.fr",
+        "persona_firstname": "Maria A.",
+        "persona_id": 2228,
+        "persona_lastname": "Zuluaga"
+      },
+      {
+        "author_fullname": "Larrue, Aymeric",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Rattner, Aline",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Vico, Laurence",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Peyrin, Fran\u00e7oise",
+        "author_place": 5,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2011-05-20 08:58:34",
     "handles": [
-        {
-            "handle": "10380/3261",
-            "handle_url": "http://hdl.handle.net/10380/3261"
-        }
+      {
+        "handle": "10380/3261",
+        "handle_url": "http://hdl.handle.net/10380/3261"
+      }
     ],
+    "id": 796,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 31,
-            "journal_name": "The MIDAS Journal"
-        }
+      {
+        "journal_id": 31,
+        "journal_name": "The MIDAS Journal"
+      }
     ],
-    "publication_id": 796,
     "submitted_by_author": {
-        "author_email": "maria.zuluaga@creatis.insa-lyon.fr",
-        "author_firstname": "Maria A.",
-        "author_id": 2228,
-        "author_institution": "Creatis",
-        "author_lastname": "Zuluaga"
+      "author_email": "maria.zuluaga@creatis.insa-lyon.fr",
+      "author_firstname": "Maria A.",
+      "author_id": 2228,
+      "author_institution": "Creatis",
+      "author_lastname": "Zuluaga"
     },
     "tags": [
-        "bones",
-        "Synchrotron radiaton",
-        "micro-CT",
-        "micro-cracks"
+      "bones",
+      "Synchrotron radiaton",
+      "micro-CT",
+      "micro-cracks"
     ],
     "title": "Acquisition of Synchrotron Radiation micro-CT images for the investigation of bone micro-cracks"
+  }
 }

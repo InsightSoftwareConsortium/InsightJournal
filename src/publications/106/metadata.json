@@ -1,64 +1,66 @@
 {
+  "publication": {
     "abstract": "Many statistical shape analysis methods produce various types of data about the analyzed surfaces, such\r\nas p-value maps, distance maps, 3D difference vectors and local covariance matrices. This data is often\r\ntoo large and thus difficult to be properly evaluated on a qualitative basis. A visual representation of\r\nthis data strongly simplifies qualitative evaluation by humans and thus greatly enhances the value of\r\nthe statistical results. In this paper we present a new tool for visualizing various datasets on surfaces\r\nrepresented as triangle meshes.\r\nOur tool, KWMeshVisu, is implemented using the Insight Toolkit ITK, www.itk.org, the Visualization\r\nToolkit VTK, www.vtk.org, and the KWWidgets user interface toolkit, www.kwwidgets.org.\r\nThe source code for KWMeshVisu, as well as input data used to generate the images in this paper, is\r\nprovided with this document.",
     "authors": [
-        {
-            "author_fullname": "Oguz, Ipek",
-            "author_place": 1,
-            "persona_email": "ipek@cs.unc.edu",
-            "persona_firstname": "Ipek",
-            "persona_id": 122,
-            "persona_lastname": "Oguz"
-        },
-        {
-            "author_fullname": "Gerig, Guido",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Barre, Sebastien",
-            "author_place": 3,
-            "persona_email": "sebastien.barre@kitware.com",
-            "persona_firstname": "Sebastien",
-            "persona_id": 589,
-            "persona_lastname": "BARRE"
-        },
-        {
-            "author_fullname": "Styner, Martin",
-            "author_place": 4,
-            "persona_email": "styner@cs.unc.edu",
-            "persona_firstname": "Martin",
-            "persona_id": 28,
-            "persona_lastname": "Styner"
-        }
+      {
+        "author_fullname": "Oguz, Ipek",
+        "author_place": 1,
+        "persona_email": "ipek@cs.unc.edu",
+        "persona_firstname": "Ipek",
+        "persona_id": 122,
+        "persona_lastname": "Oguz"
+      },
+      {
+        "author_fullname": "Gerig, Guido",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Barre, Sebastien",
+        "author_place": 3,
+        "persona_email": "sebastien.barre@kitware.com",
+        "persona_firstname": "Sebastien",
+        "persona_id": 589,
+        "persona_lastname": "BARRE"
+      },
+      {
+        "author_fullname": "Styner, Martin",
+        "author_place": 4,
+        "persona_email": "styner@cs.unc.edu",
+        "persona_firstname": "Martin",
+        "persona_id": 28,
+        "persona_lastname": "Styner"
+      }
     ],
     "date_submitted": "2006-07-10T21:23:03Z",
     "handles": [
-        {
-            "handle": "1926/220",
-            "handle_url": "http://hdl.handle.net/1926/220"
-        }
+      {
+        "handle": "1926/220",
+        "handle_url": "http://hdl.handle.net/1926/220"
+      }
     ],
+    "id": 106,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 106,
     "submitted_by_author": {
-        "author_email": "ipek@cs.unc.edu",
-        "author_firstname": "Ipek",
-        "author_id": 122,
-        "author_institution": "UNC",
-        "author_lastname": "Oguz"
+      "author_email": "ipek@cs.unc.edu",
+      "author_firstname": "Ipek",
+      "author_id": 122,
+      "author_institution": "UNC",
+      "author_lastname": "Oguz"
     },
     "tags": [
-        "Visualization",
-        "Shape Analysis"
+      "Visualization",
+      "Shape Analysis"
     ],
     "title": "KWMeshVisu: A Mesh Visualization Tool for Shape Analysis"
+  }
 }

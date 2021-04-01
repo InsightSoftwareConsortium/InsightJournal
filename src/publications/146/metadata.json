@@ -1,51 +1,53 @@
 {
+  "publication": {
     "abstract": "Often times developers face the need to connect ITK and VTK pipelines to handle\r\nimage data. For this purpose, image data importer and exporter classes \r\nhave been implemented both in ITK and VTK. However, as evident from frequent questions in \r\nthe ITK and VTK users and developers mailing list, usage of these classes is not \r\nstraight forward. Furthermore, the difficulty gets more challenging with the need to \r\nhandle different pixel types. For these reasons, an effort was made to write Image IO classes that \r\nencapsulate all the intricacies and provide users with easy to use API. This article \r\ndescribes these Image IO classes and present an example to demonstrate how to use\r\nthese classes.",
     "authors": [
-        {
-            "author_fullname": "Enquobahrie, Andinet",
-            "author_place": 1,
-            "persona_email": "andinet.enqu@kitware.com",
-            "persona_firstname": "Andinet",
-            "persona_id": 68,
-            "persona_lastname": "Enquobahrie"
-        },
-        {
-            "author_fullname": "Ibanez, Luis",
-            "author_place": 2,
-            "persona_email": "luis.ibanez@kitware.com",
-            "persona_firstname": "Luis",
-            "persona_id": 4,
-            "persona_lastname": "Ibanez"
-        }
+      {
+        "author_fullname": "Enquobahrie, Andinet",
+        "author_place": 1,
+        "persona_email": "andinet.enqu@kitware.com",
+        "persona_firstname": "Andinet",
+        "persona_id": 68,
+        "persona_lastname": "Enquobahrie"
+      },
+      {
+        "author_fullname": "Ibanez, Luis",
+        "author_place": 2,
+        "persona_email": "luis.ibanez@kitware.com",
+        "persona_firstname": "Luis",
+        "persona_id": 4,
+        "persona_lastname": "Ibanez"
+      }
     ],
     "date_submitted": "2007-03-27T19:19:58Z",
     "handles": [
-        {
-            "handle": "1926/495",
-            "handle_url": "http://hdl.handle.net/1926/495"
-        }
+      {
+        "handle": "1926/495",
+        "handle_url": "http://hdl.handle.net/1926/495"
+      }
     ],
+    "id": 146,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 146,
     "submitted_by_author": {
-        "author_email": "andinet.enqu@kitware.com",
-        "author_firstname": "Andinet",
-        "author_id": 68,
-        "author_institution": "Kitware, Inc.",
-        "author_lastname": "Enquobahrie"
+      "author_email": "andinet.enqu@kitware.com",
+      "author_firstname": "Andinet",
+      "author_id": 68,
+      "author_institution": "Kitware, Inc.",
+      "author_lastname": "Enquobahrie"
     },
     "tags": [
-        "ITK",
-        "VTK"
+      "ITK",
+      "VTK"
     ],
     "title": "Seamless VTK-ITK pipeline connection for image data handling"
+  }
 }

@@ -1,31 +1,33 @@
 {
+  "publication": {
     "abstract": null,
     "authors": null,
     "date_submitted": null,
     "handles": [
-        {
-            "handle": null,
-            "handle_url": null
-        }
+      {
+        "handle": null,
+        "handle_url": null
+      }
     ],
+    "id": 621,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 40,
-            "journal_name": "MICCAI 2012 Workshops"
-        }
+      {
+        "journal_id": 40,
+        "journal_name": "MICCAI 2012 Workshops"
+      }
     ],
-    "publication_id": 621,
     "submitted_by_author": {
-        "author_email": "kwartowitz.david@mayo.edu",
-        "author_firstname": "David",
-        "author_id": 843,
-        "author_institution": "Mayo Clinic",
-        "author_lastname": "Kwartowitz"
+      "author_email": "kwartowitz.david@mayo.edu",
+      "author_firstname": "David",
+      "author_id": 843,
+      "author_institution": "Mayo Clinic",
+      "author_lastname": "Kwartowitz"
     },
     "tags": null,
     "title": null
+  }
 }

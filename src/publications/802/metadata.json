@@ -1,76 +1,78 @@
 {
+  "publication": {
     "abstract": "There is great interest in the use of graphics processing units (GPU)for general purpose applications because the highly parallel architectures used in GPUs offer the potential for huge performance increases. The use of GPUs in image analysis applications has been under investigation for a number of years. This article describes modifications to the InsightToolkit (ITK) that provide a simple architecture for transparent use of GPU enabled filters and examples of how to write GPU enabled filters using the NVIDIA CUDA tools.\n\nThis work was performed between late 2009 and early 2010 and is being published as modifications to ITK 3.20. It is hoped that publication will help inform development of more general GPU support in ITK 4.0 and facilitate experimentation by users requiring functionality of 3.20 or wishing to pursue CUDA based developments.\n",
     "authors": [
-        {
-            "author_fullname": "Beare, Richard",
-            "author_place": 1,
-            "persona_email": "richard.beare@ieee.org",
-            "persona_firstname": "Richard",
-            "persona_id": 197,
-            "persona_lastname": "Beare"
-        },
-        {
-            "author_fullname": "Micevski, Daniel",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Share, Chris",
-            "author_place": 3,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Parkinson, Luke",
-            "author_place": 4,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Ward, Phil",
-            "author_place": 5,
-            "persona_email": "pward@vpac.org",
-            "persona_firstname": "Phillip",
-            "persona_id": 2472,
-            "persona_lastname": "Ward"
-        },
-        {
-            "author_fullname": "Goscinski, Wojtek",
-            "author_place": 6,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Kuiper, Mike",
-            "author_place": 7,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Beare, Richard",
+        "author_place": 1,
+        "persona_email": "richard.beare@ieee.org",
+        "persona_firstname": "Richard",
+        "persona_id": 197,
+        "persona_lastname": "Beare"
+      },
+      {
+        "author_fullname": "Micevski, Daniel",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Share, Chris",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Parkinson, Luke",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Ward, Phil",
+        "author_place": 5,
+        "persona_email": "pward@vpac.org",
+        "persona_firstname": "Phillip",
+        "persona_id": 2472,
+        "persona_lastname": "Ward"
+      },
+      {
+        "author_fullname": "Goscinski, Wojtek",
+        "author_place": 6,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Kuiper, Mike",
+        "author_place": 7,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2011-08-23 22:05:46",
     "handles": [
-        {
-            "handle": "10380/3269",
-            "handle_url": "http://hdl.handle.net/10380/3269"
-        }
+      {
+        "handle": "10380/3269",
+        "handle_url": "http://hdl.handle.net/10380/3269"
+      }
     ],
+    "id": 802,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 802,
     "submitted_by_author": {
-        "author_email": "richard.beare@ieee.org",
-        "author_firstname": "Richard",
-        "author_id": 197,
-        "author_institution": "Monash University",
-        "author_lastname": "Beare"
+      "author_email": "richard.beare@ieee.org",
+      "author_firstname": "Richard",
+      "author_id": 197,
+      "author_institution": "Monash University",
+      "author_lastname": "Beare"
     },
     "tags": [
-        "CUDA",
-        "GPU"
+      "CUDA",
+      "GPU"
     ],
     "title": "CITK - an architecture and examples of CUDA enabled ITK filters"
+  }
 }

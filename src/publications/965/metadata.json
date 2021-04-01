@@ -1,50 +1,52 @@
 {
+  "publication": {
     "abstract": "A new patch based label fusion method based on generative approach is proposed for segmentation of mandible, brainstem, parotid and submandibular glands, optic nerves and the optic chiasm in head and neck CT images. The proposal constructs local classifiers from a dictionary of patches and weights their contribution using a generative probabilistic criterion. Also, a gaussian slide window is used to weight the multiples estimations of neighboring voxels. The proposed method was evaluated on a set of 15 CT images (10 off-site and 5 onsite) provided by the organizers of the Head and neck Auto-Segmentation challenge(MICCAI 2015), where the obtained results are comparable to many of the other methods used in the challenge.",
     "authors": [
-        {
-            "author_fullname": "Orbes Arteaga, Mauricio",
-            "author_place": 1,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Cardenas Pe\u00f1a, David",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Castellanos Dominguez, Germ\u00e1n",
-            "author_place": 3,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Orbes Arteaga, Mauricio",
+        "author_place": 1,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Cardenas Pe\u00f1a, David",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Castellanos Dominguez, Germ\u00e1n",
+        "author_place": 3,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2016-10-14 12:06:54",
     "handles": [
-        {
-            "handle": "10380/3539",
-            "handle_url": "http://hdl.handle.net/10380/3539"
-        }
+      {
+        "handle": "10380/3539",
+        "handle_url": "http://hdl.handle.net/10380/3539"
+      }
     ],
+    "id": 965,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 44,
-            "journal_name": "MICCAI 2015 Workshops"
-        }
+      {
+        "journal_id": 44,
+        "journal_name": "MICCAI 2015 Workshops"
+      }
     ],
-    "publication_id": 965,
     "submitted_by_author": {
-        "author_email": "mauricio.orbes@gmail.com",
-        "author_firstname": "Mauricio",
-        "author_id": 9712,
-        "author_institution": "Universidad Nacional De colombia",
-        "author_lastname": "Orbes"
+      "author_email": "mauricio.orbes@gmail.com",
+      "author_firstname": "Mauricio",
+      "author_id": 9712,
+      "author_institution": "Universidad Nacional De colombia",
+      "author_lastname": "Orbes"
     },
     "tags": [
-        "patch based ",
-        "Head and neck segmentation"
+      "patch based ",
+      "Head and neck segmentation"
     ],
     "title": "Head and Neck Auto Segmentation Challenge based on Non-Local Generative Models"
+  }
 }

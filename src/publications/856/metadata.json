@@ -1,48 +1,50 @@
 {
+  "publication": {
     "abstract": "We have modified the current VTK volume rendering on GPU to allow simultaneous rendering of two volumes, each of them with its own color and opacity transfer functions.\nThese changes have led to the creation of two new C++ classes and several GLSL shaders. We explain the modifications made to the original classes and shaders and we discuss possible additional improvements. A C++ demo code shows how to use the new classes.\n",
     "authors": [
-        {
-            "author_fullname": "Krissian, Karl",
-            "author_place": 1,
-            "persona_email": "krissian@dis.ulpgc.es",
-            "persona_firstname": "Karl",
-            "persona_id": 2227,
-            "persona_lastname": "Krissian"
-        },
-        {
-            "author_fullname": "Falc\u00f3n-Torres, Carlos",
-            "author_place": 2,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Krissian, Karl",
+        "author_place": 1,
+        "persona_email": "krissian@dis.ulpgc.es",
+        "persona_firstname": "Karl",
+        "persona_id": 2227,
+        "persona_lastname": "Krissian"
+      },
+      {
+        "author_fullname": "Falc\u00f3n-Torres, Carlos",
+        "author_place": 2,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2012-04-16 09:40:59",
     "handles": [
-        {
-            "handle": "10380/3350",
-            "handle_url": "http://hdl.handle.net/10380/3350"
-        }
+      {
+        "handle": "10380/3350",
+        "handle_url": "http://hdl.handle.net/10380/3350"
+      }
     ],
+    "id": 856,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 35,
-            "journal_name": "The VTK Journal"
-        }
+      {
+        "journal_id": 35,
+        "journal_name": "The VTK Journal"
+      }
     ],
-    "publication_id": 856,
     "submitted_by_author": {
-        "author_email": "krissian@dis.ulpgc.es",
-        "author_firstname": "Karl",
-        "author_id": 2227,
-        "author_institution": "University of Las Palmas of Gran Canaria",
-        "author_lastname": "Krissian"
+      "author_email": "krissian@dis.ulpgc.es",
+      "author_firstname": "Karl",
+      "author_id": 2227,
+      "author_institution": "University of Las Palmas of Gran Canaria",
+      "author_lastname": "Krissian"
     },
     "tags": [
-        "GPU",
-        "Volume Rendering"
+      "GPU",
+      "Volume Rendering"
     ],
     "title": "GPU Volume Ray Casting of two Volumes within VTK"
+  }
 }

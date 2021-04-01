@@ -1,46 +1,48 @@
 {
+  "publication": {
     "abstract": "Nonlinear optimization is a key component of many image registration algorithms. Improving registration speed is almost always desirable. One way to do this is to accelerate the optimization cost function using a parallel implementation. The purpose of this document is to provide a tutorial on how to combine the CUDA GPU computing framework with standard nonlinear optimization libraries (VNL) using CMake. The provided code can be used as a starting template for programmers looking for a relatively painless introduction to CUDA-accelerated medical image registration and other nonlinear optimization problems.",
     "authors": [
-        {
-            "author_fullname": "Hatt, Charles",
-            "author_place": 1,
-            "persona_email": "charlesrayhatt@gmail.com",
-            "persona_firstname": "Charles",
-            "persona_id": 5871,
-            "persona_lastname": "Hatt"
-        }
+      {
+        "author_fullname": "Hatt, Charles",
+        "author_place": 1,
+        "persona_email": "charlesrayhatt@gmail.com",
+        "persona_firstname": "Charles",
+        "persona_id": 5871,
+        "persona_lastname": "Hatt"
+      }
     ],
     "date_submitted": "2015-04-27 09:06:50",
     "handles": [
-        {
-            "handle": "10380/3515",
-            "handle_url": "http://hdl.handle.net/10380/3515"
-        }
+      {
+        "handle": "10380/3515",
+        "handle_url": "http://hdl.handle.net/10380/3515"
+      }
     ],
+    "id": 952,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 952,
     "submitted_by_author": {
-        "author_email": "charlesrayhatt@gmail.com",
-        "author_firstname": "Charles",
-        "author_id": 5871,
-        "author_institution": "University of Wisconsin - Madison",
-        "author_lastname": "Hatt"
+      "author_email": "charlesrayhatt@gmail.com",
+      "author_firstname": "Charles",
+      "author_id": 5871,
+      "author_institution": "University of Wisconsin - Madison",
+      "author_lastname": "Hatt"
     },
     "tags": [
-        "Tutorial",
-        "Source Code",
-        "VNL",
-        "Nonlinear Optimization",
-        "CUDA"
+      "Tutorial",
+      "Source Code",
+      "VNL",
+      "Nonlinear Optimization",
+      "CUDA"
     ],
     "title": "A Tutorial on Combining Nonlinear Optimization with CUDA"
+  }
 }

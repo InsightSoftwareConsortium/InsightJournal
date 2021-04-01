@@ -1,83 +1,85 @@
 {
+  "publication": {
     "abstract": "This paper investigates an Open Framework for Medical Simulation (named SOFA for Simulation Open Framework Architecture), and proposes ideas for structuring and supporting its expansion. Lately, through a joint effort between the Sim Group at CIMIT and the Alcove group at INRIA, we have investigated the foundations for a more extensive, flexible, and comprehensive framework. In addition, five internationally renowned research groups have contributed to this initiative by converting their algorithms into compatible modules. Although still in its very early developmental phase, the current project illustrates some of the key concepts we believe will enable collaboration and interoperability in Medical Simulation. The main objective of SOFA research is to foster collaboration among research groups. It is our hope that SOFA will simplify the development cycles, reduce production costs, and provide a means to share components through a common interface.",
     "authors": [
-        {
-            "author_fullname": "Cotin, Stephane",
-            "author_place": 1,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Neumann, Paul",
-            "author_place": 2,
-            "persona_email": "pneumann@partners.org",
-            "persona_firstname": "Paul",
-            "persona_id": 76,
-            "persona_lastname": "Neumann"
-        },
-        {
-            "author_fullname": "Wu, Xunlei",
-            "author_place": 3,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Fonteneau, Sylvere",
-            "author_place": 4,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Bensoussan, Pierre-Jean",
-            "author_place": 5,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Dequidt, Jeremie",
-            "author_place": 6,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Marchal, Damien",
-            "author_place": 7,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Grisoni, Laurent",
-            "author_place": 8,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Karpf, Sylvain",
-            "author_place": 9,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Cotin, Stephane",
+        "author_place": 1,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Neumann, Paul",
+        "author_place": 2,
+        "persona_email": "pneumann@partners.org",
+        "persona_firstname": "Paul",
+        "persona_id": 76,
+        "persona_lastname": "Neumann"
+      },
+      {
+        "author_fullname": "Wu, Xunlei",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Fonteneau, Sylvere",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Bensoussan, Pierre-Jean",
+        "author_place": 5,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Dequidt, Jeremie",
+        "author_place": 6,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Marchal, Damien",
+        "author_place": 7,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Grisoni, Laurent",
+        "author_place": 8,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Karpf, Sylvain",
+        "author_place": 9,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2005-08-05T20:09:27Z",
     "handles": [
-        {
-            "handle": "1926/41",
-            "handle_url": "http://hdl.handle.net/1926/41"
-        }
+      {
+        "handle": "1926/41",
+        "handle_url": "http://hdl.handle.net/1926/41"
+      }
     ],
+    "id": 34,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 34,
     "submitted_by_author": {
-        "author_email": "pneumann@partners.org",
-        "author_firstname": "Paul",
-        "author_id": 76,
-        "author_institution": "The SIM Group, CIMIT/Massachusetts General Hospital",
-        "author_lastname": "Neumann"
+      "author_email": "pneumann@partners.org",
+      "author_firstname": "Paul",
+      "author_id": 76,
+      "author_institution": "The SIM Group, CIMIT/Massachusetts General Hospital",
+      "author_lastname": "Neumann"
     },
     "tags": [
-        "Medical Simulation",
-        "Open Framework"
+      "Medical Simulation",
+      "Open Framework"
     ],
     "title": "Collaborative Development of an open framework for medical simulation"
+  }
 }

@@ -1,80 +1,82 @@
 {
+  "publication": {
     "abstract": "An algorithm for minimally interactive coronary artery tracking is presented. Tracking ability and accuracy results are demonstrated on 16 images CTA images.\r\nFirst, a region of interest is automatically selected and a denoising filter applied. Then, for each voxel the probability of belonging to a coronary vessel is estimated from a feature space and a vesselness measure is used to obtain a cost function. The vessel starting point is obtained automatically, while the end point is provided by the user. Finally, the centerline is obtained as the minimal cost path between both points.",
     "authors": [
-        {
-            "author_fullname": "Krissian, Karl",
-            "author_place": 1,
-            "persona_email": "krissian@dis.ulpgc.es",
-            "persona_firstname": "Karl",
-            "persona_id": 2227,
-            "persona_lastname": "Krissian"
-        },
-        {
-            "author_fullname": "Bogunovic, Hrvoje",
-            "author_place": 2,
-            "persona_email": "hrvoje.bogunovic@fer.hr",
-            "persona_firstname": "Hrvoje",
-            "persona_id": 388,
-            "persona_lastname": "Bogunovic"
-        },
-        {
-            "author_fullname": "Bogunovic, Hrvoje",
-            "author_place": 2,
-            "persona_email": "hrvoje.bogunovic@upf.edu",
-            "persona_firstname": "Hrvoje",
-            "persona_id": 900,
-            "persona_lastname": "Bogunovic"
-        },
-        {
-            "author_fullname": "Pozo, Jose Maria",
-            "author_place": 3,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Villa-Uriol, Maria Cruz",
-            "author_place": 4,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Frangi, Alejandro",
-            "author_place": 5,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Krissian, Karl",
+        "author_place": 1,
+        "persona_email": "krissian@dis.ulpgc.es",
+        "persona_firstname": "Karl",
+        "persona_id": 2227,
+        "persona_lastname": "Krissian"
+      },
+      {
+        "author_fullname": "Bogunovic, Hrvoje",
+        "author_place": 2,
+        "persona_email": "hrvoje.bogunovic@fer.hr",
+        "persona_firstname": "Hrvoje",
+        "persona_id": 388,
+        "persona_lastname": "Bogunovic"
+      },
+      {
+        "author_fullname": "Bogunovic, Hrvoje",
+        "author_place": 2,
+        "persona_email": "hrvoje.bogunovic@upf.edu",
+        "persona_firstname": "Hrvoje",
+        "persona_id": 900,
+        "persona_lastname": "Bogunovic"
+      },
+      {
+        "author_fullname": "Pozo, Jose Maria",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Villa-Uriol, Maria Cruz",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Frangi, Alejandro",
+        "author_place": 5,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2008-07-08T11:11:06Z",
     "handles": [
-        {
-            "handle": "10380/1435",
-            "handle_url": "http://hdl.handle.net/10380/1435"
-        }
+      {
+        "handle": "10380/1435",
+        "handle_url": "http://hdl.handle.net/10380/1435"
+      }
     ],
+    "id": 593,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 43,
-            "journal_name": "ISBI 2015 Workshops"
-        },
-        {
-            "journal_id": 33,
-            "journal_name": "MICCAI 2008 Workshops"
-        }
+      {
+        "journal_id": 43,
+        "journal_name": "ISBI 2015 Workshops"
+      },
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
     ],
-    "publication_id": 593,
     "submitted_by_author": {
-        "author_email": "hrvoje.bogunovic@upf.edu",
-        "author_firstname": "Hrvoje",
-        "author_id": 900,
-        "author_institution": "Universitat Pompeu Fabra",
-        "author_lastname": "Bogunovic"
+      "author_email": "hrvoje.bogunovic@upf.edu",
+      "author_firstname": "Hrvoje",
+      "author_id": 900,
+      "author_institution": "Universitat Pompeu Fabra",
+      "author_lastname": "Bogunovic"
     },
     "tags": [
-        "Minimal cost path",
-        "CTA coronary tracking",
-        "Image denoising",
-        "Non parametric density estimation"
+      "Minimal cost path",
+      "CTA coronary tracking",
+      "Image denoising",
+      "Non parametric density estimation"
     ],
     "title": "Minimally Interactive Knowledge-based Coronary Tracking in CTA using a Minimal Cost Path"
+  }
 }

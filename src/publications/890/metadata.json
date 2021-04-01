@@ -1,46 +1,48 @@
 {
+  "publication": {
     "abstract": "Deforming a 3D surface mesh while preserving its local detail is useful for editing anatomical atlases or for mesh based segmentation. This contribution introduces new classes for performing hard and soft constraints deformation in a flexible design which allows user to switch easily in between Laplacian discretization operators, area weighing and solvers. The usage of these new\nclasses is demonstrated on a sphere.\n",
     "authors": [
-        {
-            "author_fullname": "Gelas, Arnaud",
-            "author_place": 1,
-            "persona_email": "arnaudgelas@gmail.com",
-            "persona_firstname": "Arnaud",
-            "persona_id": 7896,
-            "persona_lastname": "Gelas"
-        }
+      {
+        "author_fullname": "Gelas, Arnaud",
+        "author_place": 1,
+        "persona_email": "arnaudgelas@gmail.com",
+        "persona_firstname": "Arnaud",
+        "persona_id": 7896,
+        "persona_lastname": "Gelas"
+      }
     ],
     "date_submitted": "2013-06-16 11:18:12",
     "handles": [
-        {
-            "handle": "10380/3410",
-            "handle_url": "http://hdl.handle.net/10380/3410"
-        }
+      {
+        "handle": "10380/3410",
+        "handle_url": "http://hdl.handle.net/10380/3410"
+      }
     ],
+    "id": 890,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 890,
     "submitted_by_author": {
-        "author_email": "arnaudgelas@gmail.com",
-        "author_firstname": "Arnaud",
-        "author_id": 7896,
-        "author_institution": "",
-        "author_lastname": "Gelas"
+      "author_email": "arnaudgelas@gmail.com",
+      "author_firstname": "Arnaud",
+      "author_id": 7896,
+      "author_institution": "",
+      "author_lastname": "Gelas"
     },
     "tags": [
-        "Laplacian",
-        "Deformation",
-        "QuadEdgeMesh",
-        "ITK filter",
-        "Mesh"
+      "Laplacian",
+      "Deformation",
+      "QuadEdgeMesh",
+      "ITK filter",
+      "Mesh"
     ],
     "title": "Laplacian Mesh Deformation"
+  }
 }

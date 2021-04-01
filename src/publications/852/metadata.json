@@ -1,50 +1,52 @@
 {
+  "publication": {
     "abstract": "Unlike the measure of the area in 2D or of the volume in 3D, the perimeter and the surface are not easily measurable in a discretized image.\nIn this article we describe a method based on the Crofton formula to measure those two parameters in a discritized image. The accuracy of the method is discussed and tested on several known objects. An algorithm based on the run-length encoding of binary objects is presented and compared to other approaches.\nAn implementation is provided and integrated in the LabelObject/LabelMap framework contributed earlier by the authors.",
     "authors": [
-        {
-            "author_fullname": "Lehmann, Gaetan",
-            "author_place": 1,
-            "persona_email": "gaetan.lehmann@gmail.com",
-            "persona_firstname": "Gaetan",
-            "persona_id": 328,
-            "persona_lastname": "Lehmann"
-        },
-        {
-            "author_fullname": "Legland, David",
-            "author_place": 2,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Lehmann, Gaetan",
+        "author_place": 1,
+        "persona_email": "gaetan.lehmann@gmail.com",
+        "persona_firstname": "Gaetan",
+        "persona_id": 328,
+        "persona_lastname": "Lehmann"
+      },
+      {
+        "author_fullname": "Legland, David",
+        "author_place": 2,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2012-02-23 04:19:39",
     "handles": [
-        {
-            "handle": "10380/3342",
-            "handle_url": "http://hdl.handle.net/10380/3342"
-        }
+      {
+        "handle": "10380/3342",
+        "handle_url": "http://hdl.handle.net/10380/3342"
+      }
     ],
+    "id": 852,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 852,
     "submitted_by_author": {
-        "author_email": "gaetan.lehmann@gmail.com",
-        "author_firstname": "Gaetan",
-        "author_id": 328,
-        "author_institution": "INRA",
-        "author_lastname": "Lehmann"
+      "author_email": "gaetan.lehmann@gmail.com",
+      "author_firstname": "Gaetan",
+      "author_id": 328,
+      "author_institution": "INRA",
+      "author_lastname": "Lehmann"
     },
     "tags": [
-        "Perimeter",
-        "RLE",
-        "Crofton",
-        "Surface"
+      "Perimeter",
+      "RLE",
+      "Crofton",
+      "Surface"
     ],
     "title": "Efficient N-Dimensional surface estimation using Crofton formula and run-length encoding"
+  }
 }

@@ -1,67 +1,69 @@
 {
+  "publication": {
     "abstract": "The Image-Guided Surgery Toolkit (IGSTK) provides tracker interfaces for various tracking devices. The tracker component of IGSTK was extended with three new tracking interfaces: CamBar B2, EasyTrack 500, and Active Polaris. Using an IGSTK application we evaluated the precision of each of the tracking systems. Based on our evaluation we conclude that all tracking systems are sufficiently accurate for ENT procedures.",
     "authors": [
-        {
-            "author_fullname": "G\u00fcler, Oezguer",
-            "author_place": 1,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Bardosi, Zoltan",
-            "author_place": 2,
-            "persona_email": "zoltan.bardosi@i-med.ac.at",
-            "persona_firstname": "Zoltan",
-            "persona_id": 9499,
-            "persona_lastname": "Bardosi"
-        },
-        {
-            "author_fullname": "Ertugrul, Murat",
-            "author_place": 3,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "DiFranco, Matthew D.",
-            "author_place": 4,
-            "persona_email": "Matthew.difranco@meduniwien.ac.at",
-            "persona_firstname": "Matthew",
-            "persona_id": 6384,
-            "persona_lastname": "Difranco"
-        },
-        {
-            "author_fullname": "Freysinger, Wolfgang",
-            "author_place": 5,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "G\u00fcler, Oezguer",
+        "author_place": 1,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Bardosi, Zoltan",
+        "author_place": 2,
+        "persona_email": "zoltan.bardosi@i-med.ac.at",
+        "persona_firstname": "Zoltan",
+        "persona_id": 9499,
+        "persona_lastname": "Bardosi"
+      },
+      {
+        "author_fullname": "Ertugrul, Murat",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "DiFranco, Matthew D.",
+        "author_place": 4,
+        "persona_email": "Matthew.difranco@meduniwien.ac.at",
+        "persona_firstname": "Matthew",
+        "persona_id": 6384,
+        "persona_lastname": "Difranco"
+      },
+      {
+        "author_fullname": "Freysinger, Wolfgang",
+        "author_place": 5,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2011-08-05 07:40:32",
     "handles": [
-        {
-            "handle": "10380/3288",
-            "handle_url": "http://hdl.handle.net/10380/3288"
-        }
+      {
+        "handle": "10380/3288",
+        "handle_url": "http://hdl.handle.net/10380/3288"
+      }
     ],
+    "id": 819,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 38,
-            "journal_name": "MICCAI 2011 Workshops"
-        }
+      {
+        "journal_id": 38,
+        "journal_name": "MICCAI 2011 Workshops"
+      }
     ],
-    "publication_id": 819,
     "submitted_by_author": {
-        "author_email": "oezguer.gueler@i-med.ac.at",
-        "author_firstname": "\u00d6zg\u00fcr",
-        "author_id": 3183,
-        "author_institution": "Univ ENT Clinic, Medical University Innsbruck",
-        "author_lastname": "G\u00fcler"
+      "author_email": "oezguer.gueler@i-med.ac.at",
+      "author_firstname": "\u00d6zg\u00fcr",
+      "author_id": 3183,
+      "author_institution": "Univ ENT Clinic, Medical University Innsbruck",
+      "author_lastname": "G\u00fcler"
     },
     "tags": [
-        "Tracking System",
-        "IGSTK",
-        "Computer Aided Surgery"
+      "Tracking System",
+      "IGSTK",
+      "Computer Aided Surgery"
     ],
     "title": "Extending the tracking device support in the Image-Guided Surgery Toolkit (IGSTK): CamBar B2, EasyTrack 500, and Active Polaris"
+  }
 }

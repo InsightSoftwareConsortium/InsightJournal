@@ -1,83 +1,85 @@
 {
+  "publication": {
     "abstract": "This course introduces attendees to select open-source efforts in the field of medical image analysis. Opportunities for users and developers are presented. \r\n\tThe course particularly focuses on the open-source Insight Toolkit (ITK) for medical image segmentation and registration. The course describes the procedure for downloading and installing the toolkit and covers the use of its data representation and filtering classes. Attendees are shown how ITK can be used in their research, rapid prototyping, and application development.\r\n\r\nLEARNING OUTCOMES\r\nAfter completing this course, attendees will be able to:\r\ncontribute to and benefit from open-source software for medical image analysis\r\ndownload and install the ITK toolkit \r\nstart their own software project based on ITK \r\ndesign and construct an image processing pipeline \r\ncombine ITK filters for medical image segmentation \r\ncombine ITK components for medical image registration \r\n\r\nINTENDED AUDIENCE\r\nThis course is intended for anyone involved in medical image analysis. In particular it targets graduate students, researchers and professionals in the areas of computer science and medicine. Attendees should have an intermediate level on object oriented programming with C++ and must be familiar with the basics of medical image processing and analysis.",
     "authors": [
-        {
-            "author_fullname": "Ibanez, Luis",
-            "author_place": 1,
-            "persona_email": "luis.ibanez@kitware.com",
-            "persona_firstname": "Luis",
-            "persona_id": 4,
-            "persona_lastname": "Ibanez"
-        },
-        {
-            "author_fullname": "Ng, Lydia",
-            "author_place": 2,
-            "persona_email": "lydian@alleninstitute.org",
-            "persona_firstname": "Lydia",
-            "persona_id": 64,
-            "persona_lastname": "Ng"
-        },
-        {
-            "author_fullname": "Cates, Joshua",
-            "author_place": 3,
-            "persona_email": "cates@sci.utah.edu",
-            "persona_firstname": "Josh",
-            "persona_id": 133,
-            "persona_lastname": "Cates"
-        },
-        {
-            "author_fullname": "Aylward, Stephen",
-            "author_place": 4,
-            "persona_email": "stephen.aylward@kitware.com",
-            "persona_firstname": "Stephen",
-            "persona_id": 1,
-            "persona_lastname": "Aylward"
-        },
-        {
-            "author_fullname": "Lorensen, Bill",
-            "author_place": 5,
-            "persona_email": "bill.lorensen@gmail.com",
-            "persona_firstname": "Bill",
-            "persona_id": 2746,
-            "persona_lastname": "Lorensen"
-        },
-        {
-            "author_fullname": "Jomier, Julien",
-            "author_place": 6,
-            "persona_email": "julien@jomier.com",
-            "persona_firstname": "Julien",
-            "persona_id": 3,
-            "persona_lastname": "Jomier"
-        }
+      {
+        "author_fullname": "Ibanez, Luis",
+        "author_place": 1,
+        "persona_email": "luis.ibanez@kitware.com",
+        "persona_firstname": "Luis",
+        "persona_id": 4,
+        "persona_lastname": "Ibanez"
+      },
+      {
+        "author_fullname": "Ng, Lydia",
+        "author_place": 2,
+        "persona_email": "lydian@alleninstitute.org",
+        "persona_firstname": "Lydia",
+        "persona_id": 64,
+        "persona_lastname": "Ng"
+      },
+      {
+        "author_fullname": "Cates, Joshua",
+        "author_place": 3,
+        "persona_email": "cates@sci.utah.edu",
+        "persona_firstname": "Josh",
+        "persona_id": 133,
+        "persona_lastname": "Cates"
+      },
+      {
+        "author_fullname": "Aylward, Stephen",
+        "author_place": 4,
+        "persona_email": "stephen.aylward@kitware.com",
+        "persona_firstname": "Stephen",
+        "persona_id": 1,
+        "persona_lastname": "Aylward"
+      },
+      {
+        "author_fullname": "Lorensen, Bill",
+        "author_place": 5,
+        "persona_email": "bill.lorensen@gmail.com",
+        "persona_firstname": "Bill",
+        "persona_id": 2746,
+        "persona_lastname": "Lorensen"
+      },
+      {
+        "author_fullname": "Jomier, Julien",
+        "author_place": 6,
+        "persona_email": "julien@jomier.com",
+        "persona_firstname": "Julien",
+        "persona_id": 3,
+        "persona_lastname": "Jomier"
+      }
     ],
     "date_submitted": "2006-01-10T22:30:19Z",
     "handles": [
-        {
-            "handle": "1926/161",
-            "handle_url": "http://hdl.handle.net/1926/161"
-        }
+      {
+        "handle": "1926/161",
+        "handle_url": "http://hdl.handle.net/1926/161"
+      }
     ],
+    "id": 70,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 70,
     "submitted_by_author": {
-        "author_email": "stephen.aylward@kitware.com",
-        "author_firstname": "Stephen",
-        "author_id": 1,
-        "author_institution": "Kitware, Inc.",
-        "author_lastname": "Aylward"
+      "author_email": "stephen.aylward@kitware.com",
+      "author_firstname": "Stephen",
+      "author_id": 1,
+      "author_institution": "Kitware, Inc.",
+      "author_lastname": "Aylward"
     },
     "tags": [
-        "ITK",
-        "Tutorial"
+      "ITK",
+      "Tutorial"
     ],
     "title": "ITK Tutorial Presentation Slides"
+  }
 }

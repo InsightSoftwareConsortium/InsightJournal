@@ -1,69 +1,71 @@
 {
+  "publication": {
     "abstract": "Medical image registration is becoming a more and more useful component of a large number of applications. The presented method aims to enrich the ITK library. This method, called Morphon registration algorithm, computes a dense deformation field accepting inputs from different intensity contrasts. This article presents its implementation within the Insight Toolkit.\r\nIn this paper, we provide a brief description of the algorithm, a presentation of the implementation, the justification of our modified classes and the results given by the algorithm. We demonstrate the algorithm in application of different images intesity constrasts and dimensions.",
     "authors": [
-        {
-            "author_fullname": "Plumat, Jerome",
-            "author_place": 1,
-            "persona_email": "j.plumat@gmail.com",
-            "persona_firstname": "Jerome",
-            "persona_id": 1017,
-            "persona_lastname": "Plumat"
-        },
-        {
-            "author_fullname": "Andersson, Mats",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Janssens, Guillaume",
-            "author_place": 3,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Orban de Xivry , Jonathan",
-            "author_place": 4,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Knutsson, Hans ",
-            "author_place": 5,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Macq, Benoit",
-            "author_place": 6,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Plumat, Jerome",
+        "author_place": 1,
+        "persona_email": "j.plumat@gmail.com",
+        "persona_firstname": "Jerome",
+        "persona_id": 1017,
+        "persona_lastname": "Plumat"
+      },
+      {
+        "author_fullname": "Andersson, Mats",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Janssens, Guillaume",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Orban de Xivry , Jonathan",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Knutsson, Hans ",
+        "author_place": 5,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Macq, Benoit",
+        "author_place": 6,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2009-03-05 08:18:46",
     "handles": [
-        {
-            "handle": "1926/1527",
-            "handle_url": "http://hdl.handle.net/1926/1527"
-        }
+      {
+        "handle": "1926/1527",
+        "handle_url": "http://hdl.handle.net/1926/1527"
+      }
     ],
+    "id": 320,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 320,
     "submitted_by_author": {
-        "author_email": "j.plumat@gmail.com",
-        "author_firstname": "Jerome",
-        "author_id": 1017,
-        "author_institution": "University of Auckland",
-        "author_lastname": "Plumat"
+      "author_email": "j.plumat@gmail.com",
+      "author_firstname": "Jerome",
+      "author_id": 1017,
+      "author_institution": "University of Auckland",
+      "author_lastname": "Plumat"
     },
     "tags": [
-        "Morphon",
-        "dense deformation field",
-        "registration"
+      "Morphon",
+      "dense deformation field",
+      "registration"
     ],
     "title": "Image registration using the Morphon algorithm: an ITK implementation"
+  }
 }

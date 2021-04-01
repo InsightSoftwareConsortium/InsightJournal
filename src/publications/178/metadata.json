@@ -1,53 +1,55 @@
 {
+  "publication": {
     "abstract": "This document describes an addition to the Image IO Library of the Insight Toolkit (ITK). ITK has\nbeen able to read in Analyze image files but not the Analyze Object Maps that correspond to the images.\nAnalyze Object maps define regions of interest that are helpful in designating locations, giving a name to\nthose locations, as well as display characteristics. Also, Analyze Object Maps are useful to tell someone\nwhere to look in an image. With the lack of not being able to read/write Analyze Object Maps, a new set\nof classes have been developed to read/write Analyze Object Maps and manipulate the object maps.",
     "authors": [
-        {
-            "author_fullname": "Hawley, Jeffrey",
-            "author_place": 2,
-            "persona_email": "woofton_9@eaglescrag.net",
-            "persona_firstname": "Jeffrey",
-            "persona_id": 637,
-            "persona_lastname": "Hawley"
-        },
-        {
-            "author_fullname": "Johnson, Hans",
-            "author_place": 3,
-            "persona_email": "hans-johnson@uiowa.edu",
-            "persona_firstname": "Hans",
-            "persona_id": 21,
-            "persona_lastname": "Johnson"
-        }
+      {
+        "author_fullname": "Hawley, Jeffrey",
+        "author_place": 2,
+        "persona_email": "woofton_9@eaglescrag.net",
+        "persona_firstname": "Jeffrey",
+        "persona_id": 637,
+        "persona_lastname": "Hawley"
+      },
+      {
+        "author_fullname": "Johnson, Hans",
+        "author_place": 3,
+        "persona_email": "hans-johnson@uiowa.edu",
+        "persona_firstname": "Hans",
+        "persona_id": 21,
+        "persona_lastname": "Johnson"
+      }
     ],
     "date_submitted": "2009-03-23 12:31:46",
     "handles": [
-        {
-            "handle": "1926/593",
-            "handle_url": "http://hdl.handle.net/1926/593"
-        }
+      {
+        "handle": "1926/593",
+        "handle_url": "http://hdl.handle.net/1926/593"
+      }
     ],
+    "id": 178,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 178,
     "submitted_by_author": {
-        "author_email": "woofton_9@eaglescrag.net",
-        "author_firstname": "Jeffrey",
-        "author_id": 637,
-        "author_institution": "University of Iowa",
-        "author_lastname": "Hawley"
+      "author_email": "woofton_9@eaglescrag.net",
+      "author_firstname": "Jeffrey",
+      "author_id": 637,
+      "author_institution": "University of Iowa",
+      "author_lastname": "Hawley"
     },
     "tags": [
-        "Writer",
-        "Analyze Object Map",
-        "Reader",
-        "IO"
+      "Writer",
+      "Analyze Object Map",
+      "Reader",
+      "IO"
     ],
     "title": "Reader/Writer for Analyze Object Maps for ITK"
+  }
 }

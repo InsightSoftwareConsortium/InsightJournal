@@ -1,60 +1,62 @@
 {
+  "publication": {
     "abstract": "In this work a software framework for the virtual surgical simulation is presented. \r\nOur environment ESQUI (The acronym comes from the Spanish \"Entorno para Simulacion QUIrurgica\", i.e.\r\nFramework for Surgical Simulation) is based on an open software and multi-platform architecture (Unix, \r\nWindows, etc.), resulting in a suitable framework for research and development. The modularity and connectivity \r\nbetween its components allow the environment to be extensible and adaptable to any type of virtual simulation. \r\nThe virtual surgical scene is described by an XML file that contains all the necessary information for the \r\nsimulation. \r\nThis file description language has been named Surgical Reality Modeling Language (SRML). \r\nAlthough our framework is still under development and needs validation in education and clinical training, \r\nour environment ESQUI has proved to be a modular platform that runs across most important areas of virtual \r\nsurgical simulation.",
     "authors": [
-        {
-            "author_fullname": "Rodriguez-Florido, Miguel Angel",
-            "author_place": 1,
-            "persona_email": "marfGm@gmail.com",
-            "persona_firstname": "Miguel Angel",
-            "persona_id": 445,
-            "persona_lastname": "Rodriguez-Florido"
-        },
-        {
-            "author_fullname": "Sanchez Escobar, Norberto",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Santana, Raul",
-            "author_place": 3,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Ruiz-Alzola, Juan",
-            "author_place": 4,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Rodriguez-Florido, Miguel Angel",
+        "author_place": 1,
+        "persona_email": "marfGm@gmail.com",
+        "persona_firstname": "Miguel Angel",
+        "persona_id": 445,
+        "persona_lastname": "Rodriguez-Florido"
+      },
+      {
+        "author_fullname": "Sanchez Escobar, Norberto",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Santana, Raul",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Ruiz-Alzola, Juan",
+        "author_place": 4,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2006-07-10T21:16:54Z",
     "handles": [
-        {
-            "handle": "1926/219",
-            "handle_url": "http://hdl.handle.net/1926/219"
-        }
+      {
+        "handle": "1926/219",
+        "handle_url": "http://hdl.handle.net/1926/219"
+      }
     ],
+    "id": 107,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 107,
     "submitted_by_author": {
-        "author_email": "marfGm@gmail.com",
-        "author_firstname": "Miguel Angel",
-        "author_id": 445,
-        "author_institution": "Center for Technology in Medicine - University of Las Palmas de Gran Canaria & Canary Islands Institute of Technology",
-        "author_lastname": "Rodriguez-Florido"
+      "author_email": "marfGm@gmail.com",
+      "author_firstname": "Miguel Angel",
+      "author_id": 445,
+      "author_institution": "Center for Technology in Medicine - University of Las Palmas de Gran Canaria & Canary Islands Institute of Technology",
+      "author_lastname": "Rodriguez-Florido"
     },
     "tags": [
-        "Surgical Simulation",
-        "Biomechanical Models",
-        "Collisions Detection",
-        "Clinical Training"
+      "Surgical Simulation",
+      "Biomechanical Models",
+      "Collisions Detection",
+      "Clinical Training"
     ],
     "title": "An Open Source Framework for Surgical Simulation"
+  }
 }

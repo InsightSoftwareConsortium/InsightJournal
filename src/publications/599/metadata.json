@@ -1,76 +1,78 @@
 {
+  "publication": {
     "abstract": "This paper describes an ensemble segmentation trained by the AdaBoost algorithm, which finds a sequence of weak hypotheses, each of which is appropriate for the distribution on training example, and combines the weak hypotheses by a weighted majority vote. In our study, a weak hypothesis corresponds to a weak segmentation process. This paper shows a procedure for generating an ensemble segmentation algorithm using AdaBoost, and applies it to a liver lesion extraction problem from a contrast enhanced abdominal CT volume. A leave-one-patient-out validation test using 16 CT volumes demonstrated the effectiveness of the generated ensemble segmentation algorithm. In addition, we evaluated the performance by applying the algorithm to unknown test data provided by the \ufffd3D Liver Tumor Segmentation Challenge 2008\ufffd.",
     "authors": [
-        {
-            "author_fullname": "SHIMIZU, Akinobu",
-            "author_place": 1,
-            "persona_email": "akinobu.shimizu@gmail.com",
-            "persona_firstname": "Akinobu",
-            "persona_id": 901,
-            "persona_lastname": "Shimizu"
-        },
-        {
-            "author_fullname": "NARIHIRA, Takuya",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "FURUKAWA, Daisuke",
-            "author_place": 3,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "KOBATAKE, Hidefumi",
-            "author_place": 4,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "NAWANO, Shigeru",
-            "author_place": 5,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "SHINOZAKI, Kenji",
-            "author_place": 6,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "SHIMIZU, Akinobu",
+        "author_place": 1,
+        "persona_email": "akinobu.shimizu@gmail.com",
+        "persona_firstname": "Akinobu",
+        "persona_id": 901,
+        "persona_lastname": "Shimizu"
+      },
+      {
+        "author_fullname": "NARIHIRA, Takuya",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "FURUKAWA, Daisuke",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "KOBATAKE, Hidefumi",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "NAWANO, Shigeru",
+        "author_place": 5,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "SHINOZAKI, Kenji",
+        "author_place": 6,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2008-07-07T09:42:25Z",
     "handles": [
-        {
-            "handle": "10380/1411",
-            "handle_url": "http://hdl.handle.net/10380/1411"
-        }
+      {
+        "handle": "10380/1411",
+        "handle_url": "http://hdl.handle.net/10380/1411"
+      }
     ],
+    "id": 599,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 45,
-            "journal_name": "MICCAI 2016 Workshops"
-        },
-        {
-            "journal_id": 33,
-            "journal_name": "MICCAI 2008 Workshops"
-        }
+      {
+        "journal_id": 45,
+        "journal_name": "MICCAI 2016 Workshops"
+      },
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
     ],
-    "publication_id": 599,
     "submitted_by_author": {
-        "author_email": null,
-        "author_firstname": null,
-        "author_id": null,
-        "author_institution": "Tokyo University of Agriculture and Technology",
-        "author_lastname": null
+      "author_email": null,
+      "author_firstname": null,
+      "author_id": null,
+      "author_institution": "Tokyo University of Agriculture and Technology",
+      "author_lastname": null
     },
     "tags": [
-        "AdaBoost",
-        "metastasis",
-        "lesion extraction",
-        "liver",
-        "CT volume",
-        "ensemble segmentation"
+      "AdaBoost",
+      "metastasis",
+      "lesion extraction",
+      "liver",
+      "CT volume",
+      "ensemble segmentation"
     ],
     "title": "Ensemble segmentation using AdaBoost with application to liver lesion extraction from a CT volume"
+  }
 }

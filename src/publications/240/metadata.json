@@ -1,40 +1,42 @@
 {
+  "publication": {
     "abstract": "This document describes a new class that takes an \\doxygen{Transform} and\r\nevaluates the deformation at points in a user-defined region.\r\nThe class is implemented using the Insight Toolkit url{www.itk.org}. \\\r\nThis paper is accompanied with the source code, input data, parameters and\r\noutput data that the authors used for validating the algorithm described in\r\nthis paper.",
     "authors": [
-        {
-            "author_fullname": "Staring, Marius",
-            "author_place": 1,
-            "persona_email": "marius.staring@gmail.com",
-            "persona_firstname": "Marius",
-            "persona_id": 208,
-            "persona_lastname": "Staring"
-        }
+      {
+        "author_fullname": "Staring, Marius",
+        "author_place": 1,
+        "persona_email": "marius.staring@gmail.com",
+        "persona_firstname": "Marius",
+        "persona_id": 208,
+        "persona_lastname": "Staring"
+      }
     ],
     "date_submitted": "2008-06-17T16:18:02Z",
     "handles": [
-        {
-            "handle": "1926/1387",
-            "handle_url": "http://hdl.handle.net/1926/1387"
-        }
+      {
+        "handle": "1926/1387",
+        "handle_url": "http://hdl.handle.net/1926/1387"
+      }
     ],
+    "id": 240,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 240,
     "submitted_by_author": {
-        "author_email": "marius.staring@gmail.com",
-        "author_firstname": "Marius",
-        "author_id": 208,
-        "author_institution": "Leiden University Medical Center",
-        "author_lastname": "Staring"
+      "author_email": "marius.staring@gmail.com",
+      "author_firstname": "Marius",
+      "author_id": 208,
+      "author_institution": "Leiden University Medical Center",
+      "author_lastname": "Staring"
     },
     "tags": null,
     "title": "Generating a Deformation Field from a Transform"
+  }
 }

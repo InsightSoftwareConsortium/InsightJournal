@@ -1,56 +1,58 @@
 {
+  "publication": {
     "abstract": "This paper describes the implementation of a surface smoothing filter in ITK, based ont he Quad Edge Mesh surface data structure.",
     "authors": [
-        {
-            "author_fullname": "gelas, arnaud",
-            "author_place": 1,
-            "persona_email": "arnaudgelas@gmail.com",
-            "persona_firstname": "Arnaud",
-            "persona_id": 7896,
-            "persona_lastname": "Gelas"
-        },
-        {
-            "author_fullname": "gouaillard, alexandre",
-            "author_place": 2,
-            "persona_email": "agouaillard@gmail.com",
-            "persona_firstname": "Alexandre",
-            "persona_id": 322,
-            "persona_lastname": "Gouaillard"
-        },
-        {
-            "author_fullname": "megason, sean",
-            "author_place": 3,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "gelas, arnaud",
+        "author_place": 1,
+        "persona_email": "arnaudgelas@gmail.com",
+        "persona_firstname": "Arnaud",
+        "persona_id": 7896,
+        "persona_lastname": "Gelas"
+      },
+      {
+        "author_fullname": "gouaillard, alexandre",
+        "author_place": 2,
+        "persona_email": "agouaillard@gmail.com",
+        "persona_firstname": "Alexandre",
+        "persona_id": 322,
+        "persona_lastname": "Gouaillard"
+      },
+      {
+        "author_fullname": "megason, sean",
+        "author_place": 3,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2009-02-22 22:35:08",
     "handles": [
-        {
-            "handle": "1926/1518",
-            "handle_url": "http://hdl.handle.net/1926/1518"
-        }
+      {
+        "handle": "1926/1518",
+        "handle_url": "http://hdl.handle.net/1926/1518"
+      }
     ],
+    "id": 313,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 313,
     "submitted_by_author": {
-        "author_email": "agouaillard@gmail.com",
-        "author_firstname": "Alexandre",
-        "author_id": 322,
-        "author_institution": "Singapore Agency for Science Technology and Research",
-        "author_lastname": "Gouaillard"
+      "author_email": "agouaillard@gmail.com",
+      "author_firstname": "Alexandre",
+      "author_id": 322,
+      "author_institution": "Singapore Agency for Science Technology and Research",
+      "author_lastname": "Gouaillard"
     },
     "tags": [
-        "smoothing",
-        "surface"
+      "smoothing",
+      "surface"
     ],
     "title": "Surface Meshes Smoothing"
+  }
 }

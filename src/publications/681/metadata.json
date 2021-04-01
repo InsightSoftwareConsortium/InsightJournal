@@ -1,60 +1,62 @@
 {
+  "publication": {
     "abstract": "We provide examples and highlights of Advanced Normalization Tools (ANTS) that address practical problems in real data. A variety of image and point similarity metrics and elastic, diffeomorphic, affine and other variations of transformation models are available. ",
     "authors": [
-        {
-            "author_fullname": "Tustison, Nicholas J.",
-            "author_place": 2,
-            "persona_email": "ntustison@gmail.com",
-            "persona_firstname": "Nicholas J.",
-            "persona_id": 8833,
-            "persona_lastname": "Tustison"
-        },
-        {
-            "author_fullname": "Avants, Brian",
-            "author_place": 1,
-            "persona_email": "stnava@gmail.com",
-            "persona_firstname": "Brian",
-            "persona_id": 2243,
-            "persona_lastname": "Avants"
-        },
-        {
-            "author_fullname": "Song, Gang",
-            "author_place": 3,
-            "persona_email": "sunggam@gmail.com",
-            "persona_firstname": "Gang",
-            "persona_id": 639,
-            "persona_lastname": "Song"
-        }
+      {
+        "author_fullname": "Tustison, Nicholas J.",
+        "author_place": 2,
+        "persona_email": "ntustison@gmail.com",
+        "persona_firstname": "Nicholas J.",
+        "persona_id": 8833,
+        "persona_lastname": "Tustison"
+      },
+      {
+        "author_fullname": "Avants, Brian",
+        "author_place": 1,
+        "persona_email": "stnava@gmail.com",
+        "persona_firstname": "Brian",
+        "persona_id": 2243,
+        "persona_lastname": "Avants"
+      },
+      {
+        "author_fullname": "Song, Gang",
+        "author_place": 3,
+        "persona_email": "sunggam@gmail.com",
+        "persona_firstname": "Gang",
+        "persona_id": 639,
+        "persona_lastname": "Song"
+      }
     ],
     "date_submitted": "2009-07-29 16:03:31",
     "handles": [
-        {
-            "handle": "10380/3113",
-            "handle_url": "http://hdl.handle.net/10380/3113"
-        }
+      {
+        "handle": "10380/3113",
+        "handle_url": "http://hdl.handle.net/10380/3113"
+      }
     ],
+    "id": 681,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 681,
     "submitted_by_author": {
-        "author_email": "stnava@gmail.com",
-        "author_firstname": "Brian",
-        "author_id": 2243,
-        "author_institution": "university of pennsylvania",
-        "author_lastname": "Avants"
+      "author_email": "stnava@gmail.com",
+      "author_firstname": "Brian",
+      "author_id": 2243,
+      "author_institution": "university of pennsylvania",
+      "author_lastname": "Avants"
     },
     "tags": [
-        "image registration",
-        "diffeomorphisms",
-        "landmarks"
+      "image registration",
+      "diffeomorphisms",
+      "landmarks"
     ],
     "title": "Advanced Normalization Tools: V1.0"
+  }
 }

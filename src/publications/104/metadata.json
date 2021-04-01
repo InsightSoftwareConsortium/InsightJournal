@@ -1,56 +1,58 @@
 {
+  "publication": {
     "abstract": "Medical image analysis today is based on serious mathematics. More and more methods involve PDE's, linear algebra,\r\ncomplex transforms, optimization theory etc. This paper introduces the software environment MathVisionTools that is suited for the design stage, where the emphasis\r\nlies on mathematical modeling. MathVisionTools is written in the high level language Mathematica.",
     "authors": [
-        {
-            "author_fullname": "van Almsick, Markus A.",
-            "author_place": 1,
-            "persona_email": "m.v.almsick@tue.nl",
-            "persona_firstname": "Markus",
-            "persona_id": 494,
-            "persona_lastname": "Van almsick"
-        },
-        {
-            "author_fullname": "ter Haar Romeny, Bart M.",
-            "author_place": 2,
-            "persona_email": "b.m.terhaarromeny@tue.nl",
-            "persona_firstname": "Bart",
-            "persona_id": 453,
-            "persona_lastname": "Ter haar romeny"
-        },
-        {
-            "author_fullname": "Bennink, Edwin H.",
-            "author_place": 3,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "van Almsick, Markus A.",
+        "author_place": 1,
+        "persona_email": "m.v.almsick@tue.nl",
+        "persona_firstname": "Markus",
+        "persona_id": 494,
+        "persona_lastname": "Van almsick"
+      },
+      {
+        "author_fullname": "ter Haar Romeny, Bart M.",
+        "author_place": 2,
+        "persona_email": "b.m.terhaarromeny@tue.nl",
+        "persona_firstname": "Bart",
+        "persona_id": 453,
+        "persona_lastname": "Ter haar romeny"
+      },
+      {
+        "author_fullname": "Bennink, Edwin H.",
+        "author_place": 3,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2006-07-07T15:02:03Z",
     "handles": [
-        {
-            "handle": "1926/214",
-            "handle_url": "http://hdl.handle.net/1926/214"
-        }
+      {
+        "handle": "1926/214",
+        "handle_url": "http://hdl.handle.net/1926/214"
+      }
     ],
+    "id": 104,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 104,
     "submitted_by_author": {
-        "author_email": "b.m.terhaarromeny@tue.nl",
-        "author_firstname": "Bart",
-        "author_id": 453,
-        "author_institution": "Eindhoven University of Technology",
-        "author_lastname": "Ter haar romeny"
+      "author_email": "b.m.terhaarromeny@tue.nl",
+      "author_firstname": "Bart",
+      "author_id": 453,
+      "author_institution": "Eindhoven University of Technology",
+      "author_lastname": "Ter haar romeny"
     },
     "tags": [
-        "prototyping, Mathematica, multi-scale",
-        "computer vision, symbolic and numeric, differential geometry"
+      "prototyping, Mathematica, multi-scale",
+      "computer vision, symbolic and numeric, differential geometry"
     ],
     "title": "MathVisionTools: mathematical prototyping in medical image analysis"
+  }
 }

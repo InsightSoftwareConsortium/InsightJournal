@@ -1,0 +1,24 @@
+{
+  "issue": {
+    "id": 362,
+    "introductory_text": "Having an open interface/framework increases the pace of research and discovery by promoting collaborations within and between clinicians, biomedical engineers, and software developers. Often times, these systems follow a modular architecture to model the complexity involved in surgical assistance systems. Hence, standards are critical to allow for cross-framework interoperability of systems and modules. The workshop presentations will inform participants about appropriate architectural designs, formal standardization efforts, such as DICOM WG24 and IHE, academic efforts at interoperability, such as OpenIGTLink and SAW, as well as open interfaces to commercial products. Several examples will be presented to illustrate success stories and areas for improvements. Topics for panel discussions and presentations will include:\n\u2022 Future of open interfaces and frameworks in CAI\n\u2022 Commercial product development using open source software and systems\n\u2022 Opportunities for further integration and interoperability\n\u2022 Challenges in the standardization process",
+    "name": "Systems and Architectures for Computer Assisted Interventions 2011",
+    "publications": [
+      804,
+      805,
+      808,
+      809,
+      810,
+      813,
+      815,
+      816,
+      817,
+      818,
+      819,
+      821,
+      823,
+      827
+    ],
+    "short_description": "The goal of this workshop is to establish a forum for discussing systems and architectures for computer assisted intervention (CAI) applications. Continuing the success of the last three years, the workshop will focus on open interfaces, interoperability, and standards. In addition, this year, we will discuss practical issues, clinical applications and future directions of CAI systems and frameworks. As in the previous years, this workshop will include strong participation from industry and academia."
+  }
+}

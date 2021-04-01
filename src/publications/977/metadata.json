@@ -1,82 +1,84 @@
 {
+  "publication": {
     "abstract": "This document describes a new class, itk::MorphologicalContourInterpolator,\nwhich implements a method proposed by Albu et al. in 2008.\nInterpolation is done by first determining correspondence between shapes on adjacent\nsegmented slices by detecting overlaps, then aligning the corresponding shapes,\ngenerating transition sequence of one-pixel dilations and taking the median as result.\nRecursion is employed if the original segmented slices are separated by more than one empty slice.\n\nThis class is n-dimensional, and supports inputs of 3 or more dimensions.\n`Slices' are n-1-dimensional, and can be both automatically detected and manually set.\nThe class is efficient in both memory used and execution time.\nIt requires little memory in addition to allocation of input and output images.\nThe implementation is multi-threaded, and processing one of the test inputs\ntakes around 1-2 seconds on a quad-core processor.\n\nThe class is tested to operate on both itk::Image and itk::RLEImage.\nSince all the processing is done on extracted slices,\nusage of itk::RLEImage for input and/or output affects performance to a limited degree.\n\nThis class is implemented to ease manual segmentation in ITK-SNAP (www.itksnap.org).\nThe class, along with test data and automated regression tests is packaged as an ITK\nremote module https://github.com/KitwareMedical/ITKMorphologicalContourInterpolation.",
     "authors": [
-        {
-            "author_fullname": "Zuki\u0107, D\u017eenan",
-            "author_place": 1,
-            "persona_email": "dzenanz@gmail.com",
-            "persona_firstname": "D\u017eenan",
-            "persona_id": 2260,
-            "persona_lastname": "Zuki\u0107"
-        },
-        {
-            "author_fullname": "Vicory, Jared",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "McCormick, Matthew",
-            "author_place": 3,
-            "persona_email": "matthew.m.mccormick@gmail.com",
-            "persona_firstname": "Matthew",
-            "persona_id": 2509,
-            "persona_lastname": "Mccormick"
-        },
-        {
-            "author_fullname": "Wisse, Laura",
-            "author_place": 4,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Gerig, Guido",
-            "author_place": 5,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Yushkevich, Paul",
-            "author_place": 6,
-            "persona_email": "pauly@despammed.com",
-            "persona_firstname": "Paul",
-            "persona_id": 51,
-            "persona_lastname": "Yushkevich"
-        },
-        {
-            "author_fullname": "Aylward, Stephen",
-            "author_place": 7,
-            "persona_email": "stephen.aylward@kitware.com",
-            "persona_firstname": "Stephen",
-            "persona_id": 1,
-            "persona_lastname": "Aylward"
-        }
+      {
+        "author_fullname": "Zuki\u0107, D\u017eenan",
+        "author_place": 1,
+        "persona_email": "dzenanz@gmail.com",
+        "persona_firstname": "D\u017eenan",
+        "persona_id": 2260,
+        "persona_lastname": "Zuki\u0107"
+      },
+      {
+        "author_fullname": "Vicory, Jared",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "McCormick, Matthew",
+        "author_place": 3,
+        "persona_email": "matthew.m.mccormick@gmail.com",
+        "persona_firstname": "Matthew",
+        "persona_id": 2509,
+        "persona_lastname": "Mccormick"
+      },
+      {
+        "author_fullname": "Wisse, Laura",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Gerig, Guido",
+        "author_place": 5,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Yushkevich, Paul",
+        "author_place": 6,
+        "persona_email": "pauly@despammed.com",
+        "persona_firstname": "Paul",
+        "persona_id": 51,
+        "persona_lastname": "Yushkevich"
+      },
+      {
+        "author_fullname": "Aylward, Stephen",
+        "author_place": 7,
+        "persona_email": "stephen.aylward@kitware.com",
+        "persona_firstname": "Stephen",
+        "persona_id": 1,
+        "persona_lastname": "Aylward"
+      }
     ],
     "date_submitted": "2016-08-19 17:01:27",
     "handles": [
-        {
-            "handle": "10380/3563",
-            "handle_url": "http://hdl.handle.net/10380/3563"
-        }
+      {
+        "handle": "10380/3563",
+        "handle_url": "http://hdl.handle.net/10380/3563"
+      }
     ],
+    "id": 977,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 977,
     "submitted_by_author": {
-        "author_email": "dzenanz@gmail.com",
-        "author_firstname": "D\u017eenan",
-        "author_id": 2260,
-        "author_institution": "Computer Graphics group, University of Siegen",
-        "author_lastname": "Zuki\u0107"
+      "author_email": "dzenanz@gmail.com",
+      "author_firstname": "D\u017eenan",
+      "author_id": 2260,
+      "author_institution": "Computer Graphics group, University of Siegen",
+      "author_lastname": "Zuki\u0107"
     },
     "tags": [
-        "3D image segmentation",
-        "ITK"
+      "3D image segmentation",
+      "ITK"
     ],
     "title": "ND morphological contour interpolation"
+  }
 }

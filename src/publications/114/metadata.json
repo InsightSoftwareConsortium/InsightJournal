@@ -1,42 +1,44 @@
 {
+  "publication": {
     "abstract": "The current conversion from an ellipse spatial object to an image\r\nusing SpatialObjectToImageFilter filter could cost minutes because\r\nthe filter traverses all pixels in the output image. This delay is\r\nquite noticeable during applications such as human-machine\r\ninterface. This document describes a contribution to the Insight\r\nToolkit ITK www.itk.org, which implements what we call an\r\nitk::EllipseBoundaryToImageFilter. This is a derived from\r\nSpatialObjectToImageFilter. It marks the output image by setting\r\nthe pixels along the boundary of the input ellipse to the\r\nInsideValue and the OutsideValue elsewhere. This filter is fast\r\nbecause it traverses the boundary only. This paper is accompanied\r\nwith the source code.",
     "authors": [
-        {
-            "author_fullname": "Zhao, Zheen",
-            "author_place": 1,
-            "persona_email": "kurtzhao@gmail.com",
-            "persona_firstname": "Zheen",
-            "persona_id": 56,
-            "persona_lastname": "Zhao"
-        }
+      {
+        "author_fullname": "Zhao, Zheen",
+        "author_place": 1,
+        "persona_email": "kurtzhao@gmail.com",
+        "persona_firstname": "Zheen",
+        "persona_id": 56,
+        "persona_lastname": "Zhao"
+      }
     ],
     "date_submitted": "2006-07-10T18:18:23Z",
     "handles": [
-        {
-            "handle": "1926/218",
-            "handle_url": "http://hdl.handle.net/1926/218"
-        }
+      {
+        "handle": "1926/218",
+        "handle_url": "http://hdl.handle.net/1926/218"
+      }
     ],
+    "id": 114,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 114,
     "submitted_by_author": {
-        "author_email": "kurtzhao@gmail.com",
-        "author_firstname": "Zheen",
-        "author_id": 56,
-        "author_institution": "Duke University",
-        "author_lastname": "Zhao"
+      "author_email": "kurtzhao@gmail.com",
+      "author_firstname": "Zheen",
+      "author_id": 56,
+      "author_institution": "Duke University",
+      "author_lastname": "Zhao"
     },
     "tags": [
-        "EllipseBoundaryToImageFilter"
+      "EllipseBoundaryToImageFilter"
     ],
     "title": "itkEllipseBoundaryToImageFilter"
+  }
 }

@@ -1,70 +1,72 @@
 {
+  "publication": {
     "abstract": "This document describes the design of the PLUS (Public software Library for Ultrasound) open-source toolkit. The toolkit provides a basic infrastructure for implementing ultrasound-guided intervention systems. Functionalities include collection of synchronized ultrasound and position data from a wide variety of hardware devices, spatial and temporal calibration, volume reconstruction, live streaming to end-user applications, and recording to and replay from file. Source code, documentation, tutorials, application examples are available with a BSD-type license at the project website: www.assembla.com/spaces/plus.",
     "authors": [
-        {
-            "author_fullname": "Lasso, Andras",
-            "author_place": 1,
-            "persona_email": "lasso@cs.queensu.ca",
-            "persona_firstname": "Andras",
-            "persona_id": 2170,
-            "persona_lastname": "Lasso"
-        },
-        {
-            "author_fullname": "Heffter, Tamas",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Pinter, Csaba",
-            "author_place": 3,
-            "persona_email": "csaba.pinter@queensu.ca",
-            "persona_firstname": "Csaba",
-            "persona_id": 9258,
-            "persona_lastname": "Pinter"
-        },
-        {
-            "author_fullname": "Ungi, Tamas",
-            "author_place": 4,
-            "persona_email": "ungi.tamas@gmail.com",
-            "persona_firstname": "Tamas",
-            "persona_id": 2188,
-            "persona_lastname": "Ungi"
-        },
-        {
-            "author_fullname": "Fichtinger, Gabor",
-            "author_place": 5,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Lasso, Andras",
+        "author_place": 1,
+        "persona_email": "lasso@cs.queensu.ca",
+        "persona_firstname": "Andras",
+        "persona_id": 2170,
+        "persona_lastname": "Lasso"
+      },
+      {
+        "author_fullname": "Heffter, Tamas",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Pinter, Csaba",
+        "author_place": 3,
+        "persona_email": "csaba.pinter@queensu.ca",
+        "persona_firstname": "Csaba",
+        "persona_id": 9258,
+        "persona_lastname": "Pinter"
+      },
+      {
+        "author_fullname": "Ungi, Tamas",
+        "author_place": 4,
+        "persona_email": "ungi.tamas@gmail.com",
+        "persona_firstname": "Tamas",
+        "persona_id": 2188,
+        "persona_lastname": "Ungi"
+      },
+      {
+        "author_fullname": "Fichtinger, Gabor",
+        "author_place": 5,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2012-08-15 18:12:10",
     "handles": [
-        {
-            "handle": "10380/3367",
-            "handle_url": "http://hdl.handle.net/10380/3367"
-        }
+      {
+        "handle": "10380/3367",
+        "handle_url": "http://hdl.handle.net/10380/3367"
+      }
     ],
+    "id": 868,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 40,
-            "journal_name": "MICCAI 2012 Workshops"
-        }
+      {
+        "journal_id": 40,
+        "journal_name": "MICCAI 2012 Workshops"
+      }
     ],
-    "publication_id": 868,
     "submitted_by_author": {
-        "author_email": "lasso@cs.queensu.ca",
-        "author_firstname": "Andras",
-        "author_id": 2170,
-        "author_institution": "Queen's University",
-        "author_lastname": "Lasso"
+      "author_email": "lasso@cs.queensu.ca",
+      "author_firstname": "Andras",
+      "author_id": 2170,
+      "author_institution": "Queen's University",
+      "author_lastname": "Lasso"
     },
     "tags": [
-        "ultrasound calibration",
-        "volume reconstruction",
-        "tracked ultrasound"
+      "ultrasound calibration",
+      "volume reconstruction",
+      "tracked ultrasound"
     ],
     "title": "Implementation of the PLUS open-source toolkit for translational research of ultrasound-guided intervention systems"
+  }
 }

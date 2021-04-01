@@ -1,64 +1,66 @@
 {
+  "publication": {
     "abstract": "We present a method for tracking a coronary artery centerline given a single user supplied distal endpoint. Briefly, we first isolate the aorta and compute its surface. Next, we apply a novel two-stage Hough-like election scheme to the image volume to detect points which exhibit axial symmetry (vessel centerpoints). From the axial symmetry image a graph is constructed. This graph is searched for the optimal path from the user supplied point to any point on the surface of the aorta. Our technique falls under Challenge 2 of the Coronary Artery Tracking Challenge.",
     "authors": [
-        {
-            "author_fullname": "Dikici, Engin",
-            "author_place": 1,
-            "persona_email": "engin.dikici@jax.ufl.edu",
-            "persona_firstname": "Engin",
-            "persona_id": 909,
-            "persona_lastname": "Dikici"
-        },
-        {
-            "author_fullname": "O'Donnell, Thomas",
-            "author_place": 2,
-            "persona_email": "tom.odonnell@siemens.com",
-            "persona_firstname": "Thomas",
-            "persona_id": 897,
-            "persona_lastname": "O'donnell"
-        },
-        {
-            "author_fullname": "Grady, Leo",
-            "author_place": 3,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "White, Richard",
-            "author_place": 4,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Dikici, Engin",
+        "author_place": 1,
+        "persona_email": "engin.dikici@jax.ufl.edu",
+        "persona_firstname": "Engin",
+        "persona_id": 909,
+        "persona_lastname": "Dikici"
+      },
+      {
+        "author_fullname": "O'Donnell, Thomas",
+        "author_place": 2,
+        "persona_email": "tom.odonnell@siemens.com",
+        "persona_firstname": "Thomas",
+        "persona_id": 897,
+        "persona_lastname": "O'donnell"
+      },
+      {
+        "author_fullname": "Grady, Leo",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "White, Richard",
+        "author_place": 4,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2008-07-07T22:11:56Z",
     "handles": [
-        {
-            "handle": "10380/1425",
-            "handle_url": "http://hdl.handle.net/10380/1425"
-        }
+      {
+        "handle": "10380/1425",
+        "handle_url": "http://hdl.handle.net/10380/1425"
+      }
     ],
+    "id": 586,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 43,
-            "journal_name": "ISBI 2015 Workshops"
-        },
-        {
-            "journal_id": 33,
-            "journal_name": "MICCAI 2008 Workshops"
-        }
+      {
+        "journal_id": 43,
+        "journal_name": "ISBI 2015 Workshops"
+      },
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
     ],
-    "publication_id": 586,
     "submitted_by_author": {
-        "author_email": "engin.dikici@jax.ufl.edu",
-        "author_firstname": "Engin",
-        "author_id": 909,
-        "author_institution": "University of Florida College of Medicine-Jacksonville",
-        "author_lastname": "Dikici"
+      "author_email": "engin.dikici@jax.ufl.edu",
+      "author_firstname": "Engin",
+      "author_id": 909,
+      "author_institution": "University of Florida College of Medicine-Jacksonville",
+      "author_lastname": "Dikici"
     },
     "tags": [
-        "Vessel Segmentation"
+      "Vessel Segmentation"
     ],
     "title": "Coronary Artery Centerline Tracking Using Axial Symmetries"
+  }
 }

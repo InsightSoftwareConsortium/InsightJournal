@@ -1,56 +1,58 @@
 {
+  "publication": {
     "abstract": "The Hausdorff distance is a measure of the distance between sets of points. There are many advantages to using this metric compared to other similarity measures. This document describes a VTK class for computing the Hausdorff Distance between two sets of points. The main contribution, compared to other implementations, lies in the definition of the distance not only to the closest point but to the closest point in the represented surface, which yields an accurate measure even between undersampled surfaces. This is achieved by implementing a point-to-cell distance instead of a point-to-point. Furthermore, a plugin for ParaView was implemented, which is also available with the code. After introducing the interest of this distance, the VTK code is explained and illustrated with some examples.",
     "authors": [
-        {
-            "author_fullname": "Commandeur, Fr\u00e9d\u00e9ric",
-            "author_place": 1,
-            "persona_email": "frederic.commandeur@etudiant.univ-rennes1.fr",
-            "persona_firstname": "Fr\u00e9d\u00e9ric",
-            "persona_id": 5127,
-            "persona_lastname": "Commandeur"
-        },
-        {
-            "author_fullname": "Velut, J\u00e9r\u00f4me",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Acosta, Oscar",
-            "author_place": 3,
-            "persona_email": "oscar.acosta@univ-rennes1.fr",
-            "persona_firstname": "Oscar ",
-            "persona_id": 2643,
-            "persona_lastname": "Acosta"
-        }
+      {
+        "author_fullname": "Commandeur, Fr\u00e9d\u00e9ric",
+        "author_place": 1,
+        "persona_email": "frederic.commandeur@etudiant.univ-rennes1.fr",
+        "persona_firstname": "Fr\u00e9d\u00e9ric",
+        "persona_id": 5127,
+        "persona_lastname": "Commandeur"
+      },
+      {
+        "author_fullname": "Velut, J\u00e9r\u00f4me",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Acosta, Oscar",
+        "author_place": 3,
+        "persona_email": "oscar.acosta@univ-rennes1.fr",
+        "persona_firstname": "Oscar ",
+        "persona_id": 2643,
+        "persona_lastname": "Acosta"
+      }
     ],
     "date_submitted": "2011-09-22 13:00:28",
     "handles": [
-        {
-            "handle": "10380/3322",
-            "handle_url": "http://hdl.handle.net/10380/3322"
-        }
+      {
+        "handle": "10380/3322",
+        "handle_url": "http://hdl.handle.net/10380/3322"
+      }
     ],
+    "id": 839,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 35,
-            "journal_name": "The VTK Journal"
-        }
+      {
+        "journal_id": 35,
+        "journal_name": "The VTK Journal"
+      }
     ],
-    "publication_id": 839,
     "submitted_by_author": {
-        "author_email": "frederic.commandeur@etudiant.univ-rennes1.fr",
-        "author_firstname": "Fr\u00e9d\u00e9ric",
-        "author_id": 5127,
-        "author_institution": "INSERM, U642, Rennes, F-35000, France",
-        "author_lastname": "Commandeur"
+      "author_email": "frederic.commandeur@etudiant.univ-rennes1.fr",
+      "author_firstname": "Fr\u00e9d\u00e9ric",
+      "author_id": 5127,
+      "author_institution": "INSERM, U642, Rennes, F-35000, France",
+      "author_lastname": "Commandeur"
     },
     "tags": [
-        "Surfaces Comparison",
-        "Hausdorff Distance"
+      "Surfaces Comparison",
+      "Hausdorff Distance"
     ],
     "title": "A VTK Algorithm for the Computation of the Hausdorff Distance"
+  }
 }

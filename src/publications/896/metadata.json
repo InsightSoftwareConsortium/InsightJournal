@@ -1,70 +1,72 @@
 {
+  "publication": {
     "abstract": "This document describes an implementation for GPU and CPU of Young and Van Vliet's recursive Gaussian smoothing as an external module for the Insight Toolkit ITK, version 4.* www.itk.org. In the absence of an OpenCL-capable platform, the code will run the CPU implementation as an alternative to the existing Deriche recursive Gaussian smoothing filter in ITK.",
     "authors": [
-        {
-            "author_fullname": "Vidal-Migallon, Irina",
-            "author_place": 1,
-            "persona_email": "irina.vidal@gmail.com",
-            "persona_firstname": "Irina",
-            "persona_id": 7441,
-            "persona_lastname": "Vidal-Migallon"
-        },
-        {
-            "author_fullname": "Commowick, Olivier",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Pennec, Xavier",
-            "author_place": 3,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Dauguet, Julien",
-            "author_place": 4,
-            "persona_email": "dauguet@bwh.harvard.edu",
-            "persona_firstname": "Julien",
-            "persona_id": 145,
-            "persona_lastname": "Dauguet"
-        },
-        {
-            "author_fullname": "Vercauteren, Tom",
-            "author_place": 5,
-            "persona_email": "tom.vercauteren@gmail.com",
-            "persona_firstname": "Tom",
-            "persona_id": 156,
-            "persona_lastname": "Vercauteren"
-        }
+      {
+        "author_fullname": "Vidal-Migallon, Irina",
+        "author_place": 1,
+        "persona_email": "irina.vidal@gmail.com",
+        "persona_firstname": "Irina",
+        "persona_id": 7441,
+        "persona_lastname": "Vidal-Migallon"
+      },
+      {
+        "author_fullname": "Commowick, Olivier",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Pennec, Xavier",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Dauguet, Julien",
+        "author_place": 4,
+        "persona_email": "dauguet@bwh.harvard.edu",
+        "persona_firstname": "Julien",
+        "persona_id": 145,
+        "persona_lastname": "Dauguet"
+      },
+      {
+        "author_fullname": "Vercauteren, Tom",
+        "author_place": 5,
+        "persona_email": "tom.vercauteren@gmail.com",
+        "persona_firstname": "Tom",
+        "persona_id": 156,
+        "persona_lastname": "Vercauteren"
+      }
     ],
     "date_submitted": "2013-07-12 13:10:12",
     "handles": [
-        {
-            "handle": "10380/3425",
-            "handle_url": "http://hdl.handle.net/10380/3425"
-        }
+      {
+        "handle": "10380/3425",
+        "handle_url": "http://hdl.handle.net/10380/3425"
+      }
     ],
+    "id": 896,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 896,
     "submitted_by_author": {
-        "author_email": "irina.vidal@gmail.com",
-        "author_firstname": "Irina",
-        "author_id": 7441,
-        "author_institution": "Asclepios Research Group, INRIA Sophia Antipolis",
-        "author_lastname": "Vidal-Migallon"
+      "author_email": "irina.vidal@gmail.com",
+      "author_firstname": "Irina",
+      "author_id": 7441,
+      "author_institution": "Asclepios Research Group, INRIA Sophia Antipolis",
+      "author_lastname": "Vidal-Migallon"
     },
     "tags": [
-        "GPU",
-        "OpenCL",
-        "Recursive Gaussian Smoothing"
+      "GPU",
+      "OpenCL",
+      "Recursive Gaussian Smoothing"
     ],
     "title": "GPU and CPU implementation of Young - Van Vliet's Recursive Gaussian Smoothing Filter"
+  }
 }

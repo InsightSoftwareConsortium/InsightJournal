@@ -1,52 +1,54 @@
 {
+  "publication": {
     "abstract": "This document describes an implementation of David S. Tuch\\'s numerical Q-Ball reconstruction algorithm implemented using the Insight Toolkit ITK (www.itk.org). The document is accompanied with the source code, input data, parameters and output data that were used for validating the implementation. ",
     "authors": [
-        {
-            "author_fullname": "Fritzsche, Klaus H.",
-            "author_place": 1,
-            "persona_email": "k.fritzsche@dkfz-heidelberg.de",
-            "persona_firstname": "Klaus",
-            "persona_id": 850,
-            "persona_lastname": "Fritzsche"
-        },
-        {
-            "author_fullname": "Meinzer, Hans-Peter",
-            "author_place": 2,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Fritzsche, Klaus H.",
+        "author_place": 1,
+        "persona_email": "k.fritzsche@dkfz-heidelberg.de",
+        "persona_firstname": "Klaus",
+        "persona_id": 850,
+        "persona_lastname": "Fritzsche"
+      },
+      {
+        "author_fullname": "Meinzer, Hans-Peter",
+        "author_place": 2,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2009-05-13 08:27:28",
     "handles": [
-        {
-            "handle": "10380/3057",
-            "handle_url": "http://hdl.handle.net/10380/3057"
-        }
+      {
+        "handle": "10380/3057",
+        "handle_url": "http://hdl.handle.net/10380/3057"
+      }
     ],
+    "id": 643,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 643,
     "submitted_by_author": {
-        "author_email": "k.fritzsche@dkfz-heidelberg.de",
-        "author_firstname": "Klaus",
-        "author_id": 850,
-        "author_institution": "German Cancer Research Center",
-        "author_lastname": "Fritzsche"
+      "author_email": "k.fritzsche@dkfz-heidelberg.de",
+      "author_firstname": "Klaus",
+      "author_id": 850,
+      "author_institution": "German Cancer Research Center",
+      "author_lastname": "Fritzsche"
     },
     "tags": [
-        "QBI",
-        "Q-Ball Imaging",
-        "Orientation Distribution Functions",
-        "ODF",
-        "HARDI",
-        "Reconstruction"
+      "QBI",
+      "Q-Ball Imaging",
+      "Orientation Distribution Functions",
+      "ODF",
+      "HARDI",
+      "Reconstruction"
     ],
     "title": "Numerical Q-Ball Image Reconstruction: an ITK Implementation"
+  }
 }

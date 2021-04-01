@@ -1,60 +1,62 @@
 {
+  "publication": {
     "abstract": "This paper describes the Insight Toolkit (ITK) Conformal Flattening filter: itkConformalFlatteningFilter.\r\nThis ITK filter is an implementation of a paper by Sigurd Angenent, et al., \u201cOn the Laplace-Beltrami\r\nOperator and Brain Surface Flattening\u201d. This filter performs an angle preserving map of any genus\r\nzero (i.e. no handles) triangulated mesh to the sphere or, alternatively, to the plane. In other words,\r\nany given triangle in the resulting sphere will have the same angles as the corresponding triangle in the\r\noriginal mesh, though their areas may differ. In this paper, we describe our code and provide the user\r\nwith enough details to reproduce the results which we present in this paper. This filter has a variety of\r\napplications including the flattening of brain surfaces, which was the initial motivation for this work.",
     "authors": [
-        {
-            "author_fullname": "Gao, Yi",
-            "author_place": 1,
-            "persona_email": "yi.gao@gatech.edu",
-            "persona_firstname": "Yi",
-            "persona_id": 468,
-            "persona_lastname": "Gao"
-        },
-        {
-            "author_fullname": "Melonakos, John",
-            "author_place": 2,
-            "persona_email": "jmelonak@ece.gatech.edu",
-            "persona_firstname": "John",
-            "persona_id": 37,
-            "persona_lastname": "Melonakos"
-        },
-        {
-            "author_fullname": "Tannenbaum, Allen",
-            "author_place": 3,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Gao, Yi",
+        "author_place": 1,
+        "persona_email": "yi.gao@gatech.edu",
+        "persona_firstname": "Yi",
+        "persona_id": 468,
+        "persona_lastname": "Gao"
+      },
+      {
+        "author_fullname": "Melonakos, John",
+        "author_place": 2,
+        "persona_email": "jmelonak@ece.gatech.edu",
+        "persona_firstname": "John",
+        "persona_id": 37,
+        "persona_lastname": "Melonakos"
+      },
+      {
+        "author_fullname": "Tannenbaum, Allen",
+        "author_place": 3,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2006-07-11T03:41:53Z",
     "handles": [
-        {
-            "handle": "1926/225",
-            "handle_url": "http://hdl.handle.net/1926/225"
-        }
+      {
+        "handle": "1926/225",
+        "handle_url": "http://hdl.handle.net/1926/225"
+      }
     ],
+    "id": 112,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 112,
     "submitted_by_author": {
-        "author_email": "jmelonak@ece.gatech.edu",
-        "author_firstname": "John",
-        "author_id": 37,
-        "author_institution": "Georgia Tech",
-        "author_lastname": "Melonakos"
+      "author_email": "jmelonak@ece.gatech.edu",
+      "author_firstname": "John",
+      "author_id": 37,
+      "author_institution": "Georgia Tech",
+      "author_lastname": "Melonakos"
     },
     "tags": [
-        "VTK",
-        "ITK",
-        "Mesh",
-        "Conformal Flattening",
-        "Brain",
-        "Angle-preserving"
+      "VTK",
+      "ITK",
+      "Mesh",
+      "Conformal Flattening",
+      "Brain",
+      "Angle-preserving"
     ],
     "title": "Conformal Flattening ITK Filter"
+  }
 }

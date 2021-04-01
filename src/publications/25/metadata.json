@@ -1,60 +1,62 @@
 {
+  "publication": {
     "abstract": "In this paper , we propose an extension to the National Library of Medicine's Insight Segmentation and Registration Toolkit (ITK. www.itk.org) with a companion image access and archival system that merges the image transfer capabilities of DICOM with DSpace (www.dspace.org), an open-source web-based digital library technology. We have extended and linked existing, freely-available DICOM and digital library software to create DICOM Accessible Digital Libraries (DADLs). Specifically, DICOM objects (and other medical image data formats such at Analyze,MetaImage) uploaded to a DADL can be grouped with other files such as journal articles or tracker data, viewed as thumbnails, and made publicly or privately available for others to search and download from a linked DICOM server. In that manner, once a researcher has identified the data he / she needs via an Internet search using meaningful descriptors, the data can be directly downloaded via standard DICOM query and retrieve utilities and that data will be perpetually indexed and accessible via an Internet handle.",
     "authors": [
-        {
-            "author_fullname": "Dalal, Dhaval",
-            "author_place": 1,
-            "persona_email": "dalal@bnl.gov",
-            "persona_firstname": "Dhaval",
-            "persona_id": 18,
-            "persona_lastname": "Dalal"
-        },
-        {
-            "author_fullname": "Jomier, Julien",
-            "author_place": 2,
-            "persona_email": "julien@jomier.com",
-            "persona_firstname": "Julien",
-            "persona_id": 3,
-            "persona_lastname": "Jomier"
-        },
-        {
-            "author_fullname": "Aylward, Stephen",
-            "author_place": 3,
-            "persona_email": "stephen.aylward@kitware.com",
-            "persona_firstname": "Stephen",
-            "persona_id": 1,
-            "persona_lastname": "Aylward"
-        }
+      {
+        "author_fullname": "Dalal, Dhaval",
+        "author_place": 1,
+        "persona_email": "dalal@bnl.gov",
+        "persona_firstname": "Dhaval",
+        "persona_id": 18,
+        "persona_lastname": "Dalal"
+      },
+      {
+        "author_fullname": "Jomier, Julien",
+        "author_place": 2,
+        "persona_email": "julien@jomier.com",
+        "persona_firstname": "Julien",
+        "persona_id": 3,
+        "persona_lastname": "Jomier"
+      },
+      {
+        "author_fullname": "Aylward, Stephen",
+        "author_place": 3,
+        "persona_email": "stephen.aylward@kitware.com",
+        "persona_firstname": "Stephen",
+        "persona_id": 1,
+        "persona_lastname": "Aylward"
+      }
     ],
     "date_submitted": "2005-08-05T17:01:04Z",
     "handles": [
-        {
-            "handle": "1926/36",
-            "handle_url": "http://hdl.handle.net/1926/36"
-        }
+      {
+        "handle": "1926/36",
+        "handle_url": "http://hdl.handle.net/1926/36"
+      }
     ],
+    "id": 25,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 25,
     "submitted_by_author": {
-        "author_email": "dalal@bnl.gov",
-        "author_firstname": "Dhaval",
-        "author_id": 18,
-        "author_institution": "CADDlab",
-        "author_lastname": "Dalal"
+      "author_email": "dalal@bnl.gov",
+      "author_firstname": "Dhaval",
+      "author_id": 18,
+      "author_institution": "CADDlab",
+      "author_lastname": "Dalal"
     },
     "tags": [
-        "DICOM",
-        "DCMTK",
-        "DSpace"
+      "DICOM",
+      "DCMTK",
+      "DSpace"
     ],
     "title": "A DICOM-based Software Infrastructure for Data Archiving"
+  }
 }

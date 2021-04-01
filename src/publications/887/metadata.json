@@ -1,43 +1,45 @@
 {
+  "publication": {
     "abstract": "This paper presents code for reading contours from DICOM RT structure set files into binary labels. This is a common requirement for transferring expert manual segmentations from radiotherapy treatment planning software into external image analysis environments (such as ITK). An implementation of RT structure set importing is provided with sample data from a prostate cancer radiotherapy planning volume. This is an update to the 2009 Insight Journal paper \"Importing Contours from DICOM-RT Structure Sets\" which worked with ITK 3.x and a local GDCM2 install.\n\nUpdates:\nMar 2013 Now correctly handles holes within structures. Thanks to Sebastian Steger for the code fix.",
     "authors": [
-        {
-            "author_fullname": "Dowling, Jason",
-            "author_place": 2,
-            "persona_email": "dowlingjad@gmail.com",
-            "persona_firstname": "Jason",
-            "persona_id": 2286,
-            "persona_lastname": "Dowling"
-        }
+      {
+        "author_fullname": "Dowling, Jason",
+        "author_place": 2,
+        "persona_email": "dowlingjad@gmail.com",
+        "persona_firstname": "Jason",
+        "persona_id": 2286,
+        "persona_lastname": "Dowling"
+      }
     ],
     "date_submitted": "2013-02-26 19:07:02",
     "handles": [
-        {
-            "handle": "10380/3401",
-            "handle_url": "http://hdl.handle.net/10380/3401"
-        }
+      {
+        "handle": "10380/3401",
+        "handle_url": "http://hdl.handle.net/10380/3401"
+      }
     ],
+    "id": 887,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 887,
     "submitted_by_author": {
-        "author_email": "dowlingjad@gmail.com",
-        "author_firstname": "Jason",
-        "author_id": 2286,
-        "author_institution": "CSIRO",
-        "author_lastname": "Dowling"
+      "author_email": "dowlingjad@gmail.com",
+      "author_firstname": "Jason",
+      "author_id": 2286,
+      "author_institution": "CSIRO",
+      "author_lastname": "Dowling"
     },
     "tags": [
-        "DICOM-RT Structure",
-        "Radiation treatment planning"
+      "DICOM-RT Structure",
+      "Radiation treatment planning"
     ],
     "title": "Importing Contours from DICOM-RT Structure Sets with ITK4"
+  }
 }

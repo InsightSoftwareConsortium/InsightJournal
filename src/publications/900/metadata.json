@@ -1,56 +1,58 @@
 {
+  "publication": {
     "abstract": "In this paper we applied one of our regularly used processing pipelines for fully automated brain tissue segmentation. Brain tissue was segmented in cerebrospinal fluid (CSF), gray matter (GM) and white matter (WM). Our algorithms for skull stripping, tissue segmentation and white matter lesion (WML) detection were slightly adapted and applied to twelve data sets within the MRBrainS13 brain tissue segmentation challenge. Skull stripping is performed using non-rigid registration of 5 atlas masks. Our tissue segmentation is based on an automatically trained kNN-classifier. Training samples were obtained by non-rigid registration of 5 manually labeled scans followed by a pruning step in feature space to remove any residual erroneously sampled tissue voxels. The kNN-classification incorporates voxel intensities from a T1-weighted scan and a FLAIR scan. The white matter lesion detection is based on an automatically determined threshold on the FLAIR scan. The application of the algorithms on the data from the MRBrainS13 Challenge showed that our pipeline produces acceptable segmentations. Average resulting Dice scores were 77.86 (CSF), 81.22 (GM), 87.27 (WM), 93.78 (total parenchyma), and 96.26 (all intracranial structures). Total processing time was about 2 hours per subject.",
     "authors": [
-        {
-            "author_fullname": "Vrooman, Henri",
-            "author_place": 1,
-            "persona_email": "h.vrooman@erasmusmc.nl",
-            "persona_firstname": "Henri",
-            "persona_id": 8759,
-            "persona_lastname": "Vrooman"
-        },
-        {
-            "author_fullname": "Van der Lijn, Fedde",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Niessen, Wiro",
-            "author_place": 3,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Vrooman, Henri",
+        "author_place": 1,
+        "persona_email": "h.vrooman@erasmusmc.nl",
+        "persona_firstname": "Henri",
+        "persona_id": 8759,
+        "persona_lastname": "Vrooman"
+      },
+      {
+        "author_fullname": "Van der Lijn, Fedde",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Niessen, Wiro",
+        "author_place": 3,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2013-10-21 05:15:10",
     "handles": [
-        {
-            "handle": "10380/3436",
-            "handle_url": "http://hdl.handle.net/10380/3436"
-        }
+      {
+        "handle": "10380/3436",
+        "handle_url": "http://hdl.handle.net/10380/3436"
+      }
     ],
+    "id": 900,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 41,
-            "journal_name": "MICCAI 2013 Workshops"
-        }
+      {
+        "journal_id": 41,
+        "journal_name": "MICCAI 2013 Workshops"
+      }
     ],
-    "publication_id": 900,
     "submitted_by_author": {
-        "author_email": "h.vrooman@erasmusmc.nl",
-        "author_firstname": "Henri",
-        "author_id": 8759,
-        "author_institution": "Erasmus MC University Medical Center Rotterdam",
-        "author_lastname": "Vrooman"
+      "author_email": "h.vrooman@erasmusmc.nl",
+      "author_firstname": "Henri",
+      "author_id": 8759,
+      "author_institution": "Erasmus MC University Medical Center Rotterdam",
+      "author_lastname": "Vrooman"
     },
     "tags": [
-        "Brain Tissue Segmentation",
-        "Skull Stripping",
-        "kNN Classifier",
-        "Automated Classifier Training",
-        "White Matter Lesion Detection"
+      "Brain Tissue Segmentation",
+      "Skull Stripping",
+      "kNN Classifier",
+      "Automated Classifier Training",
+      "White Matter Lesion Detection"
     ],
     "title": "Auto-kNN: Brain Tissue Segmentation using Automatically Trained k-Nearest-Neighbor Classification"
+  }
 }

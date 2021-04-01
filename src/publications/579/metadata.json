@@ -1,70 +1,72 @@
 {
+  "publication": {
     "abstract": "We present a new method for the simultaneous, nearly automatic segmentation of liver contours, vessels,\r\nand tumors from abdominal CTA scans. The method repeatedly applies multi-resolution, multi-class\r\nsmoothed Bayesian classification followed by morphological adjustment and active contours refinement.\r\nIt uses multi-class and voxel neighborhood information to compute an accurate intensity distribution\r\nfunction for each class. Only one user-defined voxel seed for the liver and additional seeds according\r\nto the number of tumors inside the liver are required for initialization. The algorithm do not require\r\nmanual adjustment of internal parameters. In this work, a retrospective study on a validated clinical\r\ndataset totaling 20 tumors from 9 patients CTAs\ufffd was performed. An aggregated competition score of\r\n61 was obtained on the test set of this database. In addition we measured the robustness of our algorithm\r\nto different seeds initializations. These results suggest that our method is clinically applicable, accurate,\r\nefficient, and robust to seed selection compared to manually generated ground truth segmentation and to\r\nother semi-automatic segmentation methods.",
     "authors": [
-        {
-            "author_fullname": "Taieb, Yoav",
-            "author_place": 1,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Eliassaf, Ofer",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Freiman, Moti",
-            "author_place": 3,
-            "persona_email": "freiman@cs.huji.ac.il",
-            "persona_firstname": "Moti",
-            "persona_id": 120,
-            "persona_lastname": "Freiman"
-        },
-        {
-            "author_fullname": "Joskowicz, Leo",
-            "author_place": 4,
-            "persona_email": "josko@cs.huji.ac.il",
-            "persona_firstname": "Leo",
-            "persona_id": 2165,
-            "persona_lastname": "Joskowicz"
-        },
-        {
-            "author_fullname": "Sosna, Jacob",
-            "author_place": 5,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Taieb, Yoav",
+        "author_place": 1,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Eliassaf, Ofer",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Freiman, Moti",
+        "author_place": 3,
+        "persona_email": "freiman@cs.huji.ac.il",
+        "persona_firstname": "Moti",
+        "persona_id": 120,
+        "persona_lastname": "Freiman"
+      },
+      {
+        "author_fullname": "Joskowicz, Leo",
+        "author_place": 4,
+        "persona_email": "josko@cs.huji.ac.il",
+        "persona_firstname": "Leo",
+        "persona_id": 2165,
+        "persona_lastname": "Joskowicz"
+      },
+      {
+        "author_fullname": "Sosna, Jacob",
+        "author_place": 5,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2008-07-06T04:29:59Z",
     "handles": [
-        {
-            "handle": "10380/1405",
-            "handle_url": "http://hdl.handle.net/10380/1405"
-        }
+      {
+        "handle": "10380/1405",
+        "handle_url": "http://hdl.handle.net/10380/1405"
+      }
     ],
+    "id": 579,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 45,
-            "journal_name": "MICCAI 2016 Workshops"
-        },
-        {
-            "journal_id": 33,
-            "journal_name": "MICCAI 2008 Workshops"
-        }
+      {
+        "journal_id": 45,
+        "journal_name": "MICCAI 2016 Workshops"
+      },
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
     ],
-    "publication_id": 579,
     "submitted_by_author": {
-        "author_email": "freiman@cs.huji.ac.il",
-        "author_firstname": "Moti",
-        "author_id": 120,
-        "author_institution": "Hebrew University",
-        "author_lastname": "Freiman"
+      "author_email": "freiman@cs.huji.ac.il",
+      "author_firstname": "Moti",
+      "author_id": 120,
+      "author_institution": "Hebrew University",
+      "author_lastname": "Freiman"
     },
     "tags": [
-        "tumor segmentation",
-        "Liver segmentation"
+      "tumor segmentation",
+      "Liver segmentation"
     ],
     "title": "An iterative Bayesian approach for liver analysis: tumors validation study"
+  }
 }

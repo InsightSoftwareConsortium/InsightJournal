@@ -1,43 +1,45 @@
 {
+  "publication": {
     "abstract": "This document describes a contribution to the Insight Toolkit intended to support the process of subdivision of triangle mesh. Four approaches, linear, Loop, modified butterfly and $sqrt{3}$ subdivision schemes were introduced.",
     "authors": [
-        {
-            "author_fullname": "Zhu, Wanlin",
-            "author_place": 1,
-            "persona_email": "wanl.zhu@gmail.com",
-            "persona_firstname": "Wanlin",
-            "persona_id": 257,
-            "persona_lastname": "Zhu"
-        }
+      {
+        "author_fullname": "Zhu, Wanlin",
+        "author_place": 1,
+        "persona_email": "wanl.zhu@gmail.com",
+        "persona_firstname": "Wanlin",
+        "persona_id": 257,
+        "persona_lastname": "Zhu"
+      }
     ],
     "date_submitted": "2011-07-24 09:30:51",
     "handles": [
-        {
-            "handle": "10380/3307",
-            "handle_url": "http://hdl.handle.net/10380/3307"
-        }
+      {
+        "handle": "10380/3307",
+        "handle_url": "http://hdl.handle.net/10380/3307"
+      }
     ],
+    "id": 831,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 3,
-            "journal_name": "The Insight Journal"
-        }
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
     ],
-    "publication_id": 831,
     "submitted_by_author": {
-        "author_email": "wanl.zhu@gmail.com",
-        "author_firstname": "Wanlin",
-        "author_id": 257,
-        "author_institution": "University of New South Wales",
-        "author_lastname": "Zhu"
+      "author_email": "wanl.zhu@gmail.com",
+      "author_firstname": "Wanlin",
+      "author_id": 257,
+      "author_institution": "University of New South Wales",
+      "author_lastname": "Zhu"
     },
     "tags": [
-        "QuadEdgeMesh",
-        "Subdivision"
+      "QuadEdgeMesh",
+      "Subdivision"
     ],
     "title": "Triangle Mesh Subdivision"
+  }
 }

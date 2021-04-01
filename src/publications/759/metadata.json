@@ -1,50 +1,52 @@
 {
+  "publication": {
     "abstract": "This paper presents a method for nonlinear registration of images, where there exists no one-to-one correspondence in parts of the image. Such a situation occurs for instance in the case where an atlas of normal anatomy shall be matched to pathological data, such as tumors, resections or lesions. Our idea is to use local confidence weights and to model pathological regions with zero confidence. We integrate this concept into the efficient and publicly available diffeomorphic demons registration framework. Finally, we show that this process better captures deformations in high-confidence regions than without using the proposed modification. Furthermore, it is easy to implement and runs faster than previous approaches.",
     "authors": [
-        {
-            "author_fullname": "Lamecker, Hans",
-            "author_place": 1,
-            "persona_email": "lamecker@zib.de",
-            "persona_firstname": "Hans",
-            "persona_id": 2694,
-            "persona_lastname": "Lamecker"
-        },
-        {
-            "author_fullname": "Pennec, Xavier",
-            "author_place": 2,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Lamecker, Hans",
+        "author_place": 1,
+        "persona_email": "lamecker@zib.de",
+        "persona_firstname": "Hans",
+        "persona_id": 2694,
+        "persona_lastname": "Lamecker"
+      },
+      {
+        "author_fullname": "Pennec, Xavier",
+        "author_place": 2,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2010-08-30 09:07:45",
     "handles": [
-        {
-            "handle": "10380/3208",
-            "handle_url": "http://hdl.handle.net/10380/3208"
-        }
+      {
+        "handle": "10380/3208",
+        "handle_url": "http://hdl.handle.net/10380/3208"
+      }
     ],
+    "id": 759,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 37,
-            "journal_name": "MICCAI 2010 Workshops"
-        }
+      {
+        "journal_id": 37,
+        "journal_name": "MICCAI 2010 Workshops"
+      }
     ],
-    "publication_id": 759,
     "submitted_by_author": {
-        "author_email": "lamecker@zib.de",
-        "author_firstname": "Hans",
-        "author_id": 2694,
-        "author_institution": "Zuse Institute Berlin (ZIB)",
-        "author_lastname": "Lamecker"
+      "author_email": "lamecker@zib.de",
+      "author_firstname": "Hans",
+      "author_id": 2694,
+      "author_institution": "Zuse Institute Berlin (ZIB)",
+      "author_lastname": "Lamecker"
     },
     "tags": [
-        "oncology applications",
-        "registration with pathologies",
-        "brain imaging",
-        "non-diffeomorphic registration"
+      "oncology applications",
+      "registration with pathologies",
+      "brain imaging",
+      "non-diffeomorphic registration"
     ],
     "title": "Atlas to Image-with-Tumor Registration Based on Demons and Deformation Inpainting"
+  }
 }

@@ -1,58 +1,60 @@
 {
+  "publication": {
     "abstract": "This paper presents a new fully automatic method for segmentation of\r\nbrain images that possess multiple sclerosis (MS) lesions.\r\nMultichannel magnetic resonance images are used to delineate multiple\r\nsclerosis lesions while segmenting the brain into its major\r\nstructures. The method is an atlas based segmentation\r\ntechnique employing a topological atlas as well as a statistical\r\natlas. An advantage of this approach is that all segmented structures\r\nare topologically constrained, thereby allowing subsequent processing\r\nwith cortical unfolding or diffeomorphic shape analysis techniques.\r\nValidation on data from two studies demonstrates that the method has\r\nan accuracy comparable with other MS lesion segmentation methods,\r\nwhile simultaneously segmenting the whole brain.",
     "authors": [
-        {
-            "author_fullname": "Shiee, Navid",
-            "author_place": 1,
-            "persona_email": "navid_shiee@yahoo.com",
-            "persona_firstname": "Navid",
-            "persona_id": 921,
-            "persona_lastname": "Shiee"
-        },
-        {
-            "author_fullname": "Bazin, Pierre-Louis",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Pham, Dzung L.",
-            "author_place": 3,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Shiee, Navid",
+        "author_place": 1,
+        "persona_email": "navid_shiee@yahoo.com",
+        "persona_firstname": "Navid",
+        "persona_id": 921,
+        "persona_lastname": "Shiee"
+      },
+      {
+        "author_fullname": "Bazin, Pierre-Louis",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Pham, Dzung L.",
+        "author_place": 3,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2008-10-02 16:13:54",
     "handles": [
-        {
-            "handle": "10380/1442",
-            "handle_url": "http://hdl.handle.net/10380/1442"
-        }
+      {
+        "handle": "10380/1442",
+        "handle_url": "http://hdl.handle.net/10380/1442"
+      }
     ],
+    "id": 605,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 44,
-            "journal_name": "MICCAI 2015 Workshops"
-        },
-        {
-            "journal_id": 33,
-            "journal_name": "MICCAI 2008 Workshops"
-        }
+      {
+        "journal_id": 44,
+        "journal_name": "MICCAI 2015 Workshops"
+      },
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
     ],
-    "publication_id": 605,
     "submitted_by_author": {
-        "author_email": "navid_shiee@yahoo.com",
-        "author_firstname": "Navid",
-        "author_id": 921,
-        "author_institution": "Johns Hopkins University",
-        "author_lastname": "Shiee"
+      "author_email": "navid_shiee@yahoo.com",
+      "author_firstname": "Navid",
+      "author_id": 921,
+      "author_institution": "Johns Hopkins University",
+      "author_lastname": "Shiee"
     },
     "tags": [
-        "Multiple Sclerosis",
-        "Magnetic Resonance Imaging",
-        "Tissue Classification"
+      "Multiple Sclerosis",
+      "Magnetic Resonance Imaging",
+      "Tissue Classification"
     ],
     "title": "Multiple Sclerosis Lesion Segmentation Using Statistical and Topological Atlases"
+  }
 }

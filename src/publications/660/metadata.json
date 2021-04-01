@@ -1,82 +1,84 @@
 {
+  "publication": {
     "abstract": "This document describes the surgical robot console system based on 3D Slicer for image-guided surgery. Considering the image-guided surgery, since image workstations have complex User Interface (UI) and extra functions, it is supposed that such UI is not suitable for surgeon who is the robot operator. The proposed robot console is designed as a simple UI for the robot operator, which can display the endoscopic video image, the sensor data, the robot status and simple images for guiding the surgery. Therefore, we expect that the surgeon can concentrate on the operation itself by utilizing the robot console. On the other hand, since the robot console system is based on 3D Slicer, the robot console can use the abundant image operation functions. Moreover, it can use the flexibility of tool connectivities by using the OpenIGTLink protocol. In addition, since the video image is captured by using the multifunctional library OpenCV , we can expect the extensibility about the function of the proposed system.",
     "authors": [
-        {
-            "author_fullname": "Yamada, Atsushi",
-            "author_place": 1,
-            "persona_email": "yamada.atsushi@nitech.ac.jp",
-            "persona_firstname": "Atsushi",
-            "persona_id": 2206,
-            "persona_lastname": "Yamada"
-        },
-        {
-            "author_fullname": "Nishibori, Kento",
-            "author_place": 2,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Hayashi, Yuichiro",
-            "author_place": 3,
-            "persona_email": "yhayashi@mori.m.is.nagoya-u.ac.jp",
-            "persona_firstname": "Yuichiro",
-            "persona_id": 7982,
-            "persona_lastname": "Hayashi"
-        },
-        {
-            "author_fullname": "Tokuda, Junichi",
-            "author_place": 4,
-            "persona_email": "tokuda@bwh.harvard.edu",
-            "persona_firstname": "Junichi",
-            "persona_id": 761,
-            "persona_lastname": "Tokuda"
-        },
-        {
-            "author_fullname": "Hata, Nobuhiko",
-            "author_place": 5,
-            "persona_id": null
-        },
-        {
-            "author_fullname": "Chinzei, Kiyoyuki",
-            "author_place": 6,
-            "persona_email": "k.chinzei@aist.go.jp",
-            "persona_firstname": "Kiyoyuki",
-            "persona_id": 2204,
-            "persona_lastname": "Chinzei"
-        },
-        {
-            "author_fullname": "Fujimoto, Hideo",
-            "author_place": 7,
-            "persona_id": null
-        }
+      {
+        "author_fullname": "Yamada, Atsushi",
+        "author_place": 1,
+        "persona_email": "yamada.atsushi@nitech.ac.jp",
+        "persona_firstname": "Atsushi",
+        "persona_id": 2206,
+        "persona_lastname": "Yamada"
+      },
+      {
+        "author_fullname": "Nishibori, Kento",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Hayashi, Yuichiro",
+        "author_place": 3,
+        "persona_email": "yhayashi@mori.m.is.nagoya-u.ac.jp",
+        "persona_firstname": "Yuichiro",
+        "persona_id": 7982,
+        "persona_lastname": "Hayashi"
+      },
+      {
+        "author_fullname": "Tokuda, Junichi",
+        "author_place": 4,
+        "persona_email": "tokuda@bwh.harvard.edu",
+        "persona_firstname": "Junichi",
+        "persona_id": 761,
+        "persona_lastname": "Tokuda"
+      },
+      {
+        "author_fullname": "Hata, Nobuhiko",
+        "author_place": 5,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Chinzei, Kiyoyuki",
+        "author_place": 6,
+        "persona_email": "k.chinzei@aist.go.jp",
+        "persona_firstname": "Kiyoyuki",
+        "persona_id": 2204,
+        "persona_lastname": "Chinzei"
+      },
+      {
+        "author_fullname": "Fujimoto, Hideo",
+        "author_place": 7,
+        "persona_id": null
+      }
     ],
     "date_submitted": "2009-08-16 05:18:49",
     "handles": [
-        {
-            "handle": "10380/3089",
-            "handle_url": "http://hdl.handle.net/10380/3089"
-        }
+      {
+        "handle": "10380/3089",
+        "handle_url": "http://hdl.handle.net/10380/3089"
+      }
     ],
+    "id": 660,
     "identifiers": {
-        "doi": null,
-        "pubmed": null
+      "doi": null,
+      "pubmed": null
     },
     "journals": [
-        {
-            "journal_id": 34,
-            "journal_name": "MICCAI 2009 Workshops"
-        }
+      {
+        "journal_id": 34,
+        "journal_name": "MICCAI 2009 Workshops"
+      }
     ],
-    "publication_id": 660,
     "submitted_by_author": {
-        "author_email": "yamada.atsushi@nitech.ac.jp",
-        "author_firstname": "Atsushi",
-        "author_id": 2206,
-        "author_institution": "Nagoya Institute of Technology",
-        "author_lastname": "Yamada"
+      "author_email": "yamada.atsushi@nitech.ac.jp",
+      "author_firstname": "Atsushi",
+      "author_id": 2206,
+      "author_institution": "Nagoya Institute of Technology",
+      "author_lastname": "Yamada"
     },
     "tags": [
-        "3D Slicer",
-        "Surgical Robot Console"
+      "3D Slicer",
+      "Surgical Robot Console"
     ],
     "title": "3D Slicer Based Surgical Robot Console System"
+  }
 }
