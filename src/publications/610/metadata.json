@@ -77,7 +77,7 @@
    },
    {
     "author": {
-     "author_email": "martin_styner@ieee.org",
+     "author_email": "styner@cs.unc.edu",
      "author_firstname": "Martin",
      "author_id": 28,
      "author_lastname": "Styner"
@@ -90,17 +90,18 @@
   "submitted_by_author": {
    "author_email": "p.anbeek@umcutrecht.nl",
    "author_firstname": "Petronella",
+   "author_fullname": "Anbeek, Petronella",
    "author_id": 925,
    "author_institution": "Image Sciences Institute, University Medical Center Utrecht",
    "author_lastname": "Anbeek"
   },
   "tags": [
-   "white matter",
    "lesion",
    "MS",
    "Multiple Sclerosis",
    "brain",
-   "segmentation"
+   "segmentation",
+   "white matter"
   ],
   "title": "Automated MS-Lesion Segmentation by K-Nearest Neighbor Classification"
  }

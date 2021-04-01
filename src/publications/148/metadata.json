@@ -47,13 +47,14 @@
   "submitted_by_author": {
    "author_email": "stefan@stereofx.org",
    "author_firstname": "Stefan",
+   "author_fullname": "Roettger, Stefan",
    "author_id": 575,
    "author_institution": "stereoFX / Siemens",
    "author_lastname": "Roettger"
   },
   "tags": [
-   "4D medical postprocessing",
-   "itk 4D filter"
+   "itk 4D filter",
+   "4D medical postprocessing"
   ],
   "title": "How to use the itk::NaryElevateImageFilter and itk::UnaryRetractImageFilter for the post-processing of medical 4D data"
  }

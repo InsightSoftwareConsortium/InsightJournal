@@ -51,7 +51,16 @@
    "Mathematics",
    "Optimization"
   ],
-  "comments": [],
+  "comments": [
+   {
+    "content": "nice to meet i hope you are a good person\r\nemail me mb9658218@gmail.com \r\n",
+    "date": "2019-11-27T09:55:27",
+    "persona_email": "jasmineibrahim2@gmail.com",
+    "persona_firstname": "Mornica",
+    "persona_id": 11865,
+    "persona_lastname": "Brown"
+   }
+  ],
   "date_submitted": "2008-06-03T03:24:19Z",
   "handles": [
    {
@@ -74,16 +83,17 @@
   "submitted_by_author": {
    "author_email": "d.bigler1@gmail.com",
    "author_firstname": "Don",
+   "author_fullname": "Bigler, Don",
    "author_id": 612,
    "author_institution": "UT Southwestern Medical Center",
    "author_lastname": "Bigler"
   },
   "tags": [
    "voxel-based relaxometry",
+   "multi-threaded filter",
+   "Philips PAR/REC",
    "T1 parameter map",
    "Bruker 2dseq",
-   "Philips PAR/REC",
-   "multi-threaded filter",
    "T2 parameter map"
   ],
   "title": "MR Parameter Map Suite: ITK Classes for Calculating Magnetic Resonance T2 and T1 Parameter Maps"

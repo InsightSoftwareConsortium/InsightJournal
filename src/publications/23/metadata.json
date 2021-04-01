@@ -26,16 +26,16 @@
   "date_submitted": "2005-07-30T18:07:06Z",
   "handles": [
    {
-    "handle": "/3134",
-    "handle_url": "http://hdl.handle.net//3134"
-   },
-   {
     "handle": "1926/537",
     "handle_url": "http://hdl.handle.net/1926/537"
    },
    {
     "handle": "1926/18",
     "handle_url": "http://hdl.handle.net/1926/18"
+   },
+   {
+    "handle": "/3134",
+    "handle_url": "http://hdl.handle.net//3134"
    },
    {
     "handle": "1926/554",
@@ -56,17 +56,6 @@
   "reviews": [
    {
     "author": {
-     "author_email": "sylvain@bwh.harvard.edu",
-     "author_firstname": "Sylvain",
-     "author_id": 87,
-     "author_lastname": "Bouix"
-    },
-    "content": "<b>Summary:</b>\r\nThis article presents a very interesting toolkit used for cortical grey thickness measurement. The paper gives a very thorough description of the the open source software, TINA, but gives almost no information on the thickness measurement itself. After reading the referenced technical report, thickness is measured by shooting rays normal to the GM/WM boundary and carefully measuring their lengths.\r\n\r\n<b>Hypothesis:</b>\r\nThickness is measured as the length of a straight line connecting the GM/WM surface to the GM/CSF surface.\r\n\r\n<b>Evidence:</b>\r\nThe method is validated as follows. The authors made thickness measurement in 13 young adults and compared their results to the ones of Kabanis et al. made on 20 young adults on a different data set. This form of validation is questionable, but due to the lack of a true gold standard for cortical thickenss measurements it is already quite an achievement that the method is validated.\r\n\r\n<b>Open Science and Reproducibility:</b>\r\nSource code is provided as well as user's and developper's guides. The data is not shared.\r\nI have not tried to reproduce the results and even if I tried and I had the data, I would probably need some training to be able to run the software. Also I did not see any description of the parameters used.\r\n\r\n<b>Open Source Contributions:</b>\r\nThe entire TINA toolkit is open source and it offers a nice alternative to other toolkits.\r\n\r\n<b>Code Quality:</b>\r\nFrom what I browsed on the doxygen pages, the code is nicely written. The main point of discussion is the programing language used for the toolkit (C). Even though I am theoretically inclined to believe C++ offers much greater flexibility for software development, my experience with ITK and its highly templated code is not painless. It would be interesting to see how fast developemnt can be made by both novice and expert programmers in these two very different coding philosophies.\r\n \r\n\r\n",
-    "date": "09-08-2005",
-    "review_id": 44
-   },
-   {
-    "author": {
      "author_email": "stephen.aylward@kitware.com",
      "author_firstname": "Stephen",
      "author_id": 1,
@@ -75,6 +64,17 @@
     "content": "<b>Summary:</b>\r\nAn open-source, view-based (i.e., 2D) image processing system. Ultimate focus is medical image analysis, but also includes routines useful to computer vision (camera geometry, stereo matching).\r\n\r\nWritten in C with some platform specific code for UNIX/Linux/Cygwin. \r\n\r\nThe system was largely developed within one group and is perhaps limited in functionality. It is not appropriate for 3D medical image analysis application development and contains a limited number of methods for 2D image analysis.\r\n\r\nMost of the information below was gathered from the TINA website, not from the paper. The TINA website is excellent, but it revealed the limitations of the system that weren't specifically mentioned in the paper. The TINA website is http://tina-vision.net The website appears very up-to-date - with many papers from 2005. Perhaps, however, the paper is discussing a verision of TINA that supports 3D image analysis and more functions. If so, I apologize for my mistake, and I look forward to clarification from the authors.\r\n\r\n<b>Hypothesis:</b>\r\nThe authors propose that TINA is an effective tool for medical image analysis. In particular, it is useful for cortical thickness estimation.\r\n\r\n\r\n<b>Evidence:</b>\r\nExploring the TINA website suggests that TINA has limited capabilities for representing images and for providing methods that work on multiple types of images. Most notable, (1) a TINA image is a C record that uses a (void *) variable to support different pixel types, (2) it only supports 2D images, and (3) special functions must be written to access vector pixel types.\r\n\r\nRegarding, image processing, TINA appears to only provide a small set of methods. Consider, for example, that the following \"Noise Filters\" are currently available (the following is the documentation from their website):\r\n\r\n<code>\r\nThe following routines can be used for the removal of various forms of noise and unwanted data variation from images.\r\n\r\nImrect *im_bthresh(double k,Imrect *im)\r\n\r\nReturns an image which is a binary thresholded version of the input image around the value defined by 6#6.\r\n\r\nImrect *im_thresh(double k,Imrect *im)\r\n\r\nReturns an image which has been thresholded to set all pixel values below 6#6 to zero. This is useful, for example, in the elimination of unwanted terms in the 2D Fourier domain of an image.\r\n\r\nImrect *im_corrupt(Imrect * im, int dx, int dy, double a, double b)\r\n\r\nGenerate an image by adding uniform random noise (generated by imf_unif_noise(im->width, im->height, dx, dy, a, b)) to the input image. Useful in the generation of simulated test data for the evaluation of algorithm stability.\r\n\r\nImrect *im_rank(Imrect *im, int range, double noise)\r\n\r\nReturns an image with each pixel (of measurement accuracy 11#11 ) given by the rank of its value in the surrounding 12#12 x 12#12 patch. Useful for enhancing the spatial information content of an image before the process of cross correlation or template matching.\r\n\r\nImrect *im_median(Imrect *im)\r\n\r\nReturns a median filtered (discontinuity preserving) version of the input image (each pixel replaced by the median value of the 3x3 neighbourhood). Useful for the removal of sensor or aliasing derived pixel dropout. This technique should only be used when there is no alternative, generally it is better to eliminate the problem at source).\r\n\r\nImrect *im_tsmooth(Imrect * im1)\r\n\r\nReturns an image which has been smoothed by averaging in a direction tangential to the image gradient at each point (discontinuity preserving).\r\n</code>\r\n\r\nRegarding the specific application for cortical thickness estimation, it is interesting that their volume estimation analysis must have been conducted by processing the slices individually and not as a 3D segmentation task. It would be interesting to compare those estimates with estimates made when 3D smoothing and other 3D neighborhood information is considered.\r\n\r\nIn summary, their work is extremely well presented in this paper and in the many other papers presented on their website. Their work is also extremely important and beneficial - clinically and to the image analysis community. This software package, however, is perhaps a bit limited in scope.\r\n\r\n\r\n<b>Open Science:</b>\r\nThe authors and the TINA project have made use of and contributed to open-source. Their system integrates with R and promotes other open-source packages (gnuplot, etc.). They are also making many of their datasets available online.\r\n\r\nHowever, their software product, TINA, is not the most up-to-date image analysis software package available. Users should consider VXL, ITK, MITK, MeVisLab or other pacakges that are more easily extended to other medical image analysis tasks.\r\n\r\n",
     "date": "09-18-2005",
     "review_id": 104
+   },
+   {
+    "author": {
+     "author_email": "sylvain@bwh.harvard.edu",
+     "author_firstname": "Sylvain",
+     "author_id": 87,
+     "author_lastname": "Bouix"
+    },
+    "content": "<b>Summary:</b>\r\nThis article presents a very interesting toolkit used for cortical grey thickness measurement. The paper gives a very thorough description of the the open source software, TINA, but gives almost no information on the thickness measurement itself. After reading the referenced technical report, thickness is measured by shooting rays normal to the GM/WM boundary and carefully measuring their lengths.\r\n\r\n<b>Hypothesis:</b>\r\nThickness is measured as the length of a straight line connecting the GM/WM surface to the GM/CSF surface.\r\n\r\n<b>Evidence:</b>\r\nThe method is validated as follows. The authors made thickness measurement in 13 young adults and compared their results to the ones of Kabanis et al. made on 20 young adults on a different data set. This form of validation is questionable, but due to the lack of a true gold standard for cortical thickenss measurements it is already quite an achievement that the method is validated.\r\n\r\n<b>Open Science and Reproducibility:</b>\r\nSource code is provided as well as user's and developper's guides. The data is not shared.\r\nI have not tried to reproduce the results and even if I tried and I had the data, I would probably need some training to be able to run the software. Also I did not see any description of the parameters used.\r\n\r\n<b>Open Source Contributions:</b>\r\nThe entire TINA toolkit is open source and it offers a nice alternative to other toolkits.\r\n\r\n<b>Code Quality:</b>\r\nFrom what I browsed on the doxygen pages, the code is nicely written. The main point of discussion is the programing language used for the toolkit (C). Even though I am theoretically inclined to believe C++ offers much greater flexibility for software development, my experience with ITK and its highly templated code is not painless. It would be interesting to see how fast developemnt can be made by both novice and expert programmers in these two very different coding philosophies.\r\n \r\n\r\n",
+    "date": "09-08-2005",
+    "review_id": 44
    },
    {
     "author": {
@@ -91,13 +91,14 @@
   "submitted_by_author": {
    "author_email": "marietta.scott@manchester.ac.uk",
    "author_firstname": "Marietta",
+   "author_fullname": "Scott, Marietta",
    "author_id": 60,
    "author_institution": "University of Manchester, UK",
    "author_lastname": "Scott"
   },
   "tags": [
-   "Medical Image Analysis",
-   "Cerebral Cortical Thickness"
+   "Cerebral Cortical Thickness",
+   "Medical Image Analysis"
   ],
   "title": "Cerebral Cortical Thickness Estimation using the TINA\r\n Open-Source Image Analysis Environment"
  }

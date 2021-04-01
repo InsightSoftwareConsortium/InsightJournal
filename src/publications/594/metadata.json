@@ -14,6 +14,14 @@
     "persona_firstname": "Chunliang",
     "persona_id": 8762,
     "persona_lastname": "Wang"
+   },
+   {
+    "author_fullname": "Wang, Chunliang",
+    "author_place": 1,
+    "persona_email": "1013812915@qq.com",
+    "persona_firstname": "Chun",
+    "persona_id": 11811,
+    "persona_lastname": "Wang"
    }
   ],
   "categories": [
@@ -51,14 +59,15 @@
   "submitted_by_author": {
    "author_email": null,
    "author_firstname": null,
+   "author_fullname": ", ",
    "author_id": null,
    "author_institution": "Link\u00c3\u00b6ping University Hospital, CMIV",
    "author_lastname": null
   },
   "tags": [
-   "centerline tracking",
-   "Fuzzy Connectedness",
    "coronary CT angiography",
+   "Fuzzy Connectedness",
+   "centerline tracking",
    "automatic segmentation"
   ],
   "title": "An Automatic Seeding Method For Coronary Artery Segmentation and Skeletonization in CTA"

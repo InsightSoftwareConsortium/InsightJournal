@@ -56,20 +56,20 @@
   ],
   "comments": [
    {
-    "content": "Hi Fuentes,\r\nPlease refer to Fotis answer.\r\n\r\nYixun\r\n\r\nThe function CreateDeformedImage()  warps the moving image according the generated deformation field of the registration filter.\r\n\r\nYou  can download the following patch from the ITK  gerrit system : git fetch http://review.source.kitware.com/p/ITK refs/changes/36/7136/3 && git checkout FETCH_HEAD -b A2D2PBNRR\r\n \r\nor from the link : http://review.source.kitware.com/#/c/7136/3.\r\n\r\n\r\n\r\n\r\nIn the files itkPhysicsBasedNonRigidRegistrationMethod.hxx and itkPhysicsBasedNonRigidRegistrationMethod.h\r\n \r\nof this patch you will find the function  CreateDeformedImage()  that you need.\r\n",
-    "date": "2013-02-07T05:48:23",
-    "persona_email": "yxliuwm@gmail.com",
-    "persona_firstname": "Yixun",
-    "persona_id": 6473,
-    "persona_lastname": "Liu"
-   },
-   {
     "content": "nice work. Does the example code run on GPU as well ? \r\nWhat version of ITK is this posted source code supposed to work with ? \r\n\r\nThe method\r\n\r\nPhysicsBasedNonRigidRegistrationMethod::CreateDeformedImage\r\n\r\nis not available in ITK 4.3.0 and throwing compiling errors\r\n\r\n?\r\n\r\n/workarea/fuentes/github/PBNRR/PBNRR.cxx: In function \u2018int main(int, char**)\u2019:\r\n/workarea/fuentes/github/PBNRR/PBNRR.cxx:149: error: \u2018class itk::fem::PhysicsBasedNonRigidRegistrationMethod<itk::Image<float, 3u>, itk::Image<float, 3u>, itk::Image<float, 3u>, itk::Mesh<float, 3u, itk::DefaultStaticMeshTraits<float, 3u, 3u, float, float, float> >, itk::Image<itk::Vector<float, 3u>, 3u> >\u2019 has no member named \u2018CreateDeformedImage\u2019\r\n/workarea/fuentes/github/PBNRR/PBNRR.cxx:153: error: using \u2018typename\u2019 outside of template\r\n",
     "date": "2013-02-07T05:44:52",
     "persona_email": "fuentesdt@gmail.com",
     "persona_firstname": "David",
     "persona_id": 7272,
     "persona_lastname": "Fuentes"
+   },
+   {
+    "content": "Hi Fuentes,\r\nPlease refer to Fotis answer.\r\n\r\nYixun\r\n\r\nThe function CreateDeformedImage()  warps the moving image according the generated deformation field of the registration filter.\r\n\r\nYou  can download the following patch from the ITK  gerrit system : git fetch http://review.source.kitware.com/p/ITK refs/changes/36/7136/3 && git checkout FETCH_HEAD -b A2D2PBNRR\r\n \r\nor from the link : http://review.source.kitware.com/#/c/7136/3.\r\n\r\n\r\n\r\n\r\nIn the files itkPhysicsBasedNonRigidRegistrationMethod.hxx and itkPhysicsBasedNonRigidRegistrationMethod.h\r\n \r\nof this patch you will find the function  CreateDeformedImage()  that you need.\r\n",
+    "date": "2013-02-07T05:48:23",
+    "persona_email": "yxliuwm@gmail.com",
+    "persona_firstname": "Yixun",
+    "persona_id": 6473,
+    "persona_lastname": "Liu"
    },
    {
     "content": "thanks. I found the Fotis comment on the link that you sent.\r\n\r\nIs there a GPU version of the block matching algorithm available that is mentioned in the abstract ? ",
@@ -102,17 +102,18 @@
   "submitted_by_author": {
    "author_email": "yxliuwm@gmail.com",
    "author_firstname": "Yixun",
+   "author_fullname": "Liu, Yixun",
    "author_id": 6473,
    "author_institution": "NIH",
    "author_lastname": "Liu"
   },
   "tags": [
-   "Robust Regression",
    "Finite Element",
+   "Multi-core",
+   "GPU",
    "Non-rigid Registration",
    "Physical Model",
-   "Multi-core",
-   "GPU"
+   "Robust Regression"
   ],
   "title": "An ITK Implementation of Physics-based Non-rigid Registration Method"
  }

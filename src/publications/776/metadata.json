@@ -88,17 +88,18 @@
   "submitted_by_author": {
    "author_email": "phil.steininger@gmail.com",
    "author_firstname": "Philipp",
+   "author_fullname": "Steininger, Philipp",
    "author_id": 1001,
    "author_institution": "Institute for Research and Development on Advanced Radiation Technologies (radART), Paracelsus Medical University (PMU), Salzburg, AUSTRIA",
    "author_lastname": "Steininger"
   },
   "tags": [
-   "stochastic rank correlation",
-   "metric",
-   "2d/3d image registration",
-   "intensity-based",
    "SRC",
-   "ITK"
+   "ITK",
+   "stochastic rank correlation",
+   "intensity-based",
+   "2d/3d image registration",
+   "metric"
   ],
   "title": "An ITK-based Implementation of the Stochastic Rank Correlation (SRC) Metric"
  }

@@ -49,17 +49,18 @@
   "submitted_by_author": {
    "author_email": "dan.muel@gmail.com",
    "author_firstname": "Dan",
+   "author_fullname": "Mueller, Dan",
    "author_id": 286,
    "author_institution": "Philips Healthcare",
    "author_lastname": "Mueller"
   },
   "tags": [
    "C#",
-   "CLR",
-   ".NET",
    "C++/CLI",
    "ITK",
-   "managed"
+   "managed",
+   ".NET",
+   "CLR"
   ],
   "title": "ManagedITK: .NET Wrappers for ITK"
  }

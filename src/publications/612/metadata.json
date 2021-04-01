@@ -58,7 +58,7 @@
   "reviews": [
    {
     "author": {
-     "author_email": "martin_styner@ieee.org",
+     "author_email": "styner@cs.unc.edu",
      "author_firstname": "Martin",
      "author_id": 28,
      "author_lastname": "Styner"
@@ -82,14 +82,15 @@
   "submitted_by_author": {
    "author_email": "bricq@lsiit.u-strasbg.fr",
    "author_firstname": "Stephanie",
+   "author_fullname": "Bricq, Stephanie",
    "author_id": 926,
    "author_institution": "LSIIT",
    "author_lastname": "Bricq"
   },
   "tags": [
    "Markov models",
-   "probabilistic atlas",
-   "outlier detection"
+   "outlier detection",
+   "probabilistic atlas"
   ],
   "title": "MS Lesion Segmentation based on Hidden Markov Chains"
  }

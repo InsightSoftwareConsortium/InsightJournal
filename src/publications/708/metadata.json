@@ -38,24 +38,25 @@
   "submitted_by_author": {
    "author_email": "daviddoria@gmail.com",
    "author_firstname": "David",
+   "author_fullname": "Doria, David",
    "author_id": 2205,
    "author_institution": "Rensselaer Polytechnic Institute",
    "author_lastname": "Doria"
   },
   "tags": [
-   "outlier removal",
-   "riemannian graph",
-   "euclidean minimum spanning tree",
-   "minimum spanning tree",
+   "normals",
    "Normal estimation",
    "Normal orientation",
    "orientation",
-   "normals",
    "point set",
    "point cloud",
    "curvature",
    "estimation",
-   "best fit plane"
+   "best fit plane",
+   "riemannian graph",
+   "euclidean minimum spanning tree",
+   "minimum spanning tree",
+   "outlier removal"
   ],
   "title": "Point Set Processing for VTK - Outlier Removal, Curvature Estimation, Normal Estimation, Normal Orientation"
  }

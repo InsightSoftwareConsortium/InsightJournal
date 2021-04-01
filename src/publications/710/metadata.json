@@ -69,15 +69,16 @@
   "submitted_by_author": {
    "author_email": "alark.joshi@yale.edu",
    "author_firstname": "Alark",
+   "author_fullname": "Joshi, Alark",
    "author_id": 2154,
    "author_institution": "Yale University",
    "author_lastname": "Joshi"
   },
   "tags": [
    "polar profile",
-   "CUDA",
    "vessel detection",
-   "hardware acceleration"
+   "hardware acceleration",
+   "CUDA"
   ],
   "title": "A VTK-based, CUDA-optimized Non-Parametric Vessel Detection Method"
  }

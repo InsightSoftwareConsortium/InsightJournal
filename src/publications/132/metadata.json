@@ -38,17 +38,6 @@
   "reviews": [
    {
     "author": {
-     "author_email": "holmes.david3@mayo.edu",
-     "author_firstname": "David",
-     "author_id": 20,
-     "author_lastname": "Holmes"
-    },
-    "content": "<p><strong>Summary:</strong><br />The author has implemented a method for thresholding images which contain mostly background.&nbsp; The premise is that a user can not look at the histogram in the usual sense (i.e. searching for one or more modes), because the histogram that consists mostly of background doesn&#39;t fit that profile.&nbsp; This iteratively changes the threshold to try and find a better segmentation.<br /><strong>&nbsp;</strong></p><p><strong>Hypothesis:</strong><br />Not Applicable</p><p><br /><strong>Evidence:</strong><br />No evidence of utility is provided.&nbsp; In fact, this is my only issue. I appreciate the simplicity of the submission, but there is no reference to the method and its applications. I am not proposing that the&nbsp;method be validated for a particular application in this submission, but a little more time (and a reference or two) needs to be added to give background on the method.</p><p><br /><strong>Open Science:</strong><br />All good</p><p><br /><strong>Reproducibility:</strong><br />It is a fully deterministic algorithm and should be easy to reproduce from the code.&nbsp; The text doesn&#39;t provide enough detail to reproduce the method.</p><p><br /><strong>Use of Open Source Software:</strong><br />ITK</p><p><br /><strong>Open Source Contributions:</strong><br />Usable</p><p><br /><strong>Code Quality:</strong><br />Fine</p><p><br /><strong>Applicability to other problems:</strong><br />Probably</p><p><br /><strong>Suggestions for future work:</strong></p><p><br /><strong>Requests for additional information from authors:</strong><br />Please add the references and theoretical disc ussion.</p><p><br /><strong>Additional Comments:</strong></p><p>&nbsp;</p>",
-    "date": "11-14-2006",
-    "review_id": 435
-   },
-   {
-    "author": {
      "author_email": "adzyubak@gmail.com",
      "author_firstname": "Oleksandr",
      "author_id": 918,
@@ -57,11 +46,23 @@
     "content": "<p><strong>Summary:</strong><br /> The author provides a new ITK filter for the automatic image segmentation. The filter is fast and suitable for the dominant background pixel environment.<br /> <br /> <strong>Evidence:</strong><br /> The author provides the source along with input/output images thus the work could easily be validated.</p><p> <br /> <strong>Open Science:</strong><br /> The work follows the Open Science spirit. The author does provide the both source code and images.<br /> <br /> <strong>Reproducibility:</strong><br /> The reviewer was easily able to reproduce the authors&#39; work. After downloading the code, the compilation process went without any problems and the reviewer did not experienced any problems with running the executable either. It just worked as it was supposed to.<br /> <br /> <strong>Use of Open Source Software:</strong><br /> The author did use Open Source Software and the code was contributed as the Open Source package too.<br /> <br /> <strong>Open Source Contributions:</strong><br /> The author does provide the code in the form that allows to easy compile and use it. Since this technique falls into the automatic family, the only time the reviewer spent is for downloading and compiling. Afterwards it just worked.</p><p> <br /> <strong>Code Quality:</strong><br /> The author provides the source code which easy to read. The reviewer used this code on Linux (Debian, Etch and Lenny) and UNIX(FreeBSD 6.3) platforms with gcc 3.4.6, gcc 4.1.2, and gcc 4.2.3 and did not experience any problems. The code runs very fast. On a laptop with Debian-Etch, P4 1.7GHz CPU, and 2GB, using as much as 20 iterations, it takes about one minute to process the 565x440x100 Int16 image. The code follows a modern coding style and the ITK rules so the reviewer would recommend this submission to be included to the ITK lib. </p><p> <br /> <strong>Applicability to other problems:</strong><br />Since the filter is automatic, very fast, and does not require too much hardware resources, it can be used to routinely process sets of large similar images in the environment with dominant background pixels. Examples could be porous material or tubular (scanned alone) studies.<br /><br /> <br /> <strong>Additional Comments:</strong><br /> The author provides a utility which could be used for the initial input parameter evaluation that is very handy. After the input parameters for a particular image set is found, it could be hard coded into a program which afterwards makes the code running fully automated over this set of images.</p>",
     "date": "07-10-2008",
     "review_id": 701
+   },
+   {
+    "author": {
+     "author_email": "holmes.david3@mayo.edu",
+     "author_firstname": "David",
+     "author_id": 20,
+     "author_lastname": "Holmes"
+    },
+    "content": "<p><strong>Summary:</strong><br />The author has implemented a method for thresholding images which contain mostly background.&nbsp; The premise is that a user can not look at the histogram in the usual sense (i.e. searching for one or more modes), because the histogram that consists mostly of background doesn&#39;t fit that profile.&nbsp; This iteratively changes the threshold to try and find a better segmentation.<br /><strong>&nbsp;</strong></p><p><strong>Hypothesis:</strong><br />Not Applicable</p><p><br /><strong>Evidence:</strong><br />No evidence of utility is provided.&nbsp; In fact, this is my only issue. I appreciate the simplicity of the submission, but there is no reference to the method and its applications. I am not proposing that the&nbsp;method be validated for a particular application in this submission, but a little more time (and a reference or two) needs to be added to give background on the method.</p><p><br /><strong>Open Science:</strong><br />All good</p><p><br /><strong>Reproducibility:</strong><br />It is a fully deterministic algorithm and should be easy to reproduce from the code.&nbsp; The text doesn&#39;t provide enough detail to reproduce the method.</p><p><br /><strong>Use of Open Source Software:</strong><br />ITK</p><p><br /><strong>Open Source Contributions:</strong><br />Usable</p><p><br /><strong>Code Quality:</strong><br />Fine</p><p><br /><strong>Applicability to other problems:</strong><br />Probably</p><p><br /><strong>Suggestions for future work:</strong></p><p><br /><strong>Requests for additional information from authors:</strong><br />Please add the references and theoretical disc ussion.</p><p><br /><strong>Additional Comments:</strong></p><p>&nbsp;</p>",
+    "date": "11-14-2006",
+    "review_id": 435
    }
   ],
   "submitted_by_author": {
    "author_email": "gaetan.lehmann@gmail.com",
    "author_firstname": "Gaetan",
+   "author_fullname": "Lehmann, Gaetan",
    "author_id": 328,
    "author_institution": "INRA",
    "author_lastname": "Lehmann"

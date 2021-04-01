@@ -37,12 +37,12 @@
   "date_submitted": "2005-08-02T15:54:04Z",
   "handles": [
    {
-    "handle": "1926/28",
-    "handle_url": "http://hdl.handle.net/1926/28"
-   },
-   {
     "handle": "/3470",
     "handle_url": "http://hdl.handle.net//3470"
+   },
+   {
+    "handle": "1926/28",
+    "handle_url": "http://hdl.handle.net/1926/28"
    }
   ],
   "identifiers": {
@@ -60,14 +60,15 @@
   "submitted_by_author": {
    "author_email": "atif@enst.fr",
    "author_firstname": "Jamal",
+   "author_fullname": "Atif, Jamal",
    "author_id": 88,
    "author_institution": "LIMSI-CNRS",
    "author_lastname": "Atif"
   },
   "tags": [
+   "Fuzzy spatial relationships",
    "Fuzzy Mathematical Morphology",
-   "ITK filters",
-   "Fuzzy spatial relationships"
+   "ITK filters"
   ],
   "title": "Integration of Fuzzy Mathematical Morphology and Fuzzy Spatial Relationships into ITK"
  }

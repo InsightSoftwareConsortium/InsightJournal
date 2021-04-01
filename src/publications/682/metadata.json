@@ -44,15 +44,16 @@
   "submitted_by_author": {
    "author_email": "blowekamp@mail.nih.gov",
    "author_firstname": "Bradley",
+   "author_fullname": "Lowekamp, Bradley",
    "author_id": 1026,
    "author_institution": "Lockheed Martin Contractor for Office of High Performance Computing and Communications National Library of Medicine ",
    "author_lastname": "Lowekamp"
   },
   "tags": [
+   "regression",
    "XML",
    "CTest",
-   "testing",
-   "regression"
+   "testing"
   ],
   "title": "A Framework for Improved Regression Testing Based Upon CTest and CDash"
  }

@@ -40,17 +40,18 @@
   "submitted_by_author": {
    "author_email": "daviddoria@gmail.com",
    "author_firstname": "David",
+   "author_fullname": "Doria, David",
    "author_id": 2205,
    "author_institution": "Rensselaer Polytechnic Institute",
    "author_lastname": "Doria"
   },
   "tags": [
+   "belief propagation",
+   "loopy belief propagation",
+   "graph",
    "graphical model",
    "inference",
-   "belief propagation",
    "mrf",
-   "graph",
-   "loopy belief propagation",
    "denoising"
   ],
   "title": "Loopy Belief Propagation on MRFs in ITK"

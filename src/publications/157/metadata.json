@@ -84,14 +84,14 @@
    },
    {
     "author": {
-     "author_email": "marfGm@gmail.com",
-     "author_firstname": "Miguel Angel",
-     "author_id": 445,
-     "author_lastname": "Rodriguez-Florido"
+     "author_email": "urschler@icg.tu-graz.ac.at",
+     "author_firstname": "Martin",
+     "author_id": 610,
+     "author_lastname": "Urschler"
     },
-    "content": "<p><strong>Summary:</strong><br /> This work describe a database of cine-MR images (3D+t) of the left ventricular of the heart. The paper presents the acquisition, the segmentation methodologies used, and the validation of the results, comparing automatic software-based segmentation with manual. The database is public an available on the web.<br /> <strong>Hypothesis:</strong><br />NA </p><p><strong>Evidence:</strong><br />This is a very empirical work that does not suppose any opinion. </p><p> <strong>Open Science:</strong><br /> This work is a great contribution to Open Science. It provides a clinical valued database very useful for other researchers. They describe their methods and provide the software-based tools that they have used. The results can be replicated. </p><p><strong>Reproducibility:</strong><br /> Although I haven&#39;t reproduced the authors work, they explain in their paper how to do it. The database is public and their results can be used for similar research lines. </p><p> <strong>Use of Open Source Software:</strong><br />For manual segmentation they use Analyze Software, but they don&#39;t say anything in the text about the kind of license for the software tools/scripts that they provide in the web site. I haven&#39;t downloaded this software, and I don&#39;t know if the code has a license warning or file.</p><p><strong>Open Source Contributions:</strong><br />NA</p><p><strong>Code Quality:</strong><br />NA<br /> </p><p><strong>Applicability to other problems:</strong><br />This open clinically-validated database is useful for all researchers that work with various cardiomyopathies. </p><p><strong>Suggestions for future work:</strong><br />NA <br /> </p><p><strong>Requests for additional information from authors:</strong><br />No comments on this item </p><p><strong>Additional Comments:</strong><br />Nice work and nice proposal: &quot;such work is only possible if cardiologists and computer scientists are working together in close partnership&quot;.</p><p>&nbsp;</p>",
-    "date": "07-04-2007",
-    "review_id": 498
+    "content": "<p><strong>Summary:</strong><br />This paper presents an open-science segmentation evaluation database accompanied by evaluation criteria and two manual and an automatic reference segmentations for comparison. The segmentation is dedicated to cardiac MR images showing the left ventricle in 4D (3D+time). <br /> <br /> <strong>Hypothesis:</strong><br />NA<br /> <br /> <strong>Evidence:</strong><br />NA<br /> <br /> <strong>Open Science:</strong><br />The paper is an excellent example for the power of open-science. Unfortunately the link to download all contributed material does not work at the time of this writing, so this review will solely be based on looking at the paper (which I took from the MIDAS &amp; Kitware collection using the papers DSpace handle) and on the presented material on the accompanying webpage.<br /> <br /> <strong>Reproducibility:</strong><br />I did not reproduce the mentioned experiments or download any code.<br /> <br /> <strong>Use of Open Source Software:</strong><br />NA<br /> <br /> <strong>Open Source Contributions:</strong><br />As already mentioned I was not able to use any provided code.<br /> <br /> <strong>Code Quality:</strong><br />NA<br /> <br /> <strong>Applicability to other problems:</strong><br />The basic idea of providing evaluation databases and criteria along with some results from other methods for comparison is in the review authors opinion (and I dare to say also in the opinion of many more people in the medical imaging community) an extremely important one. Successes from other disciplines like computer vision (stereo reconstruction, multi-view 3D reconstruction -&gt; Middlebury) or pattern recognition (face recognition databases) prove this importance despite the additional legal, ethical and of course commercial problems such an effort has in the medical community. <br /> <br /> <strong>Suggestions for future work:</strong><br /> The only suggestion I currently can think of is to contribute this web-site to the list of open-science databases proposed in the workshop paper of Holms et al (Data, data everywhere). </p><p><br /> <br /> <strong>Additional Comments:</strong></p><p>Overall this paper is an important open-science contribution and IMHO should definitely be accepted for the workshop to further discuss its ideas. It is very well and clearly written, shows a good over-view of the related work, although there are some segmentation evaluation efforts like e.g. the VALMET project (Gerig et al @ MICCAI 2001) or Fenster and Chu (Evaluation of Segmentation Algorithms for Medical Imaging, IEEE-EMBS 2005) which could also be mentioned. One can of course think about the advantages and drawbacks of a watershed type segmentation to get the automatic results, but this is not the main point of this contribution. Overall very promising and I am looking forward to discussions at the workshop. </p>",
+    "date": "09-02-2007",
+    "review_id": 546
    },
    {
     "author": {
@@ -106,19 +106,20 @@
    },
    {
     "author": {
-     "author_email": "urschler@icg.tu-graz.ac.at",
-     "author_firstname": "Martin",
-     "author_id": 610,
-     "author_lastname": "Urschler"
+     "author_email": "marfGm@gmail.com",
+     "author_firstname": "Miguel Angel",
+     "author_id": 445,
+     "author_lastname": "Rodriguez-Florido"
     },
-    "content": "<p><strong>Summary:</strong><br />This paper presents an open-science segmentation evaluation database accompanied by evaluation criteria and two manual and an automatic reference segmentations for comparison. The segmentation is dedicated to cardiac MR images showing the left ventricle in 4D (3D+time). <br /> <br /> <strong>Hypothesis:</strong><br />NA<br /> <br /> <strong>Evidence:</strong><br />NA<br /> <br /> <strong>Open Science:</strong><br />The paper is an excellent example for the power of open-science. Unfortunately the link to download all contributed material does not work at the time of this writing, so this review will solely be based on looking at the paper (which I took from the MIDAS &amp; Kitware collection using the papers DSpace handle) and on the presented material on the accompanying webpage.<br /> <br /> <strong>Reproducibility:</strong><br />I did not reproduce the mentioned experiments or download any code.<br /> <br /> <strong>Use of Open Source Software:</strong><br />NA<br /> <br /> <strong>Open Source Contributions:</strong><br />As already mentioned I was not able to use any provided code.<br /> <br /> <strong>Code Quality:</strong><br />NA<br /> <br /> <strong>Applicability to other problems:</strong><br />The basic idea of providing evaluation databases and criteria along with some results from other methods for comparison is in the review authors opinion (and I dare to say also in the opinion of many more people in the medical imaging community) an extremely important one. Successes from other disciplines like computer vision (stereo reconstruction, multi-view 3D reconstruction -&gt; Middlebury) or pattern recognition (face recognition databases) prove this importance despite the additional legal, ethical and of course commercial problems such an effort has in the medical community. <br /> <br /> <strong>Suggestions for future work:</strong><br /> The only suggestion I currently can think of is to contribute this web-site to the list of open-science databases proposed in the workshop paper of Holms et al (Data, data everywhere). </p><p><br /> <br /> <strong>Additional Comments:</strong></p><p>Overall this paper is an important open-science contribution and IMHO should definitely be accepted for the workshop to further discuss its ideas. It is very well and clearly written, shows a good over-view of the related work, although there are some segmentation evaluation efforts like e.g. the VALMET project (Gerig et al @ MICCAI 2001) or Fenster and Chu (Evaluation of Segmentation Algorithms for Medical Imaging, IEEE-EMBS 2005) which could also be mentioned. One can of course think about the advantages and drawbacks of a watershed type segmentation to get the automatic results, but this is not the main point of this contribution. Overall very promising and I am looking forward to discussions at the workshop. </p>",
-    "date": "09-02-2007",
-    "review_id": 546
+    "content": "<p><strong>Summary:</strong><br /> This work describe a database of cine-MR images (3D+t) of the left ventricular of the heart. The paper presents the acquisition, the segmentation methodologies used, and the validation of the results, comparing automatic software-based segmentation with manual. The database is public an available on the web.<br /> <strong>Hypothesis:</strong><br />NA </p><p><strong>Evidence:</strong><br />This is a very empirical work that does not suppose any opinion. </p><p> <strong>Open Science:</strong><br /> This work is a great contribution to Open Science. It provides a clinical valued database very useful for other researchers. They describe their methods and provide the software-based tools that they have used. The results can be replicated. </p><p><strong>Reproducibility:</strong><br /> Although I haven&#39;t reproduced the authors work, they explain in their paper how to do it. The database is public and their results can be used for similar research lines. </p><p> <strong>Use of Open Source Software:</strong><br />For manual segmentation they use Analyze Software, but they don&#39;t say anything in the text about the kind of license for the software tools/scripts that they provide in the web site. I haven&#39;t downloaded this software, and I don&#39;t know if the code has a license warning or file.</p><p><strong>Open Source Contributions:</strong><br />NA</p><p><strong>Code Quality:</strong><br />NA<br /> </p><p><strong>Applicability to other problems:</strong><br />This open clinically-validated database is useful for all researchers that work with various cardiomyopathies. </p><p><strong>Suggestions for future work:</strong><br />NA <br /> </p><p><strong>Requests for additional information from authors:</strong><br />No comments on this item </p><p><strong>Additional Comments:</strong><br />Nice work and nice proposal: &quot;such work is only possible if cardiologists and computer scientists are working together in close partnership&quot;.</p><p>&nbsp;</p>",
+    "date": "07-04-2007",
+    "review_id": 498
    }
   ],
   "submitted_by_author": {
    "author_email": "l.najman@esiee.fr",
    "author_firstname": "Laurent ",
+   "author_fullname": "Najman, Laurent ",
    "author_id": 605,
    "author_institution": "ESIEE",
    "author_lastname": "Najman"
@@ -126,9 +127,9 @@
   "tags": [
    "left ventricular function",
    "myocardial infarction",
-   "image processing",
    "left ventricular mass",
-   "Cardiac magnetic resonance"
+   "Cardiac magnetic resonance",
+   "image processing"
   ],
   "title": "An open, clinically-validated database of 3D+t cine-MR images of the left ventricle with associated manual and automated segmentation"
  }

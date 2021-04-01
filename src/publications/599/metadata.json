@@ -79,16 +79,17 @@
   "submitted_by_author": {
    "author_email": null,
    "author_firstname": null,
+   "author_fullname": ", ",
    "author_id": null,
    "author_institution": "Tokyo University of Agriculture and Technology",
    "author_lastname": null
   },
   "tags": [
-   "AdaBoost",
-   "metastasis",
+   "CT volume",
    "lesion extraction",
    "liver",
-   "CT volume",
+   "AdaBoost",
+   "metastasis",
    "ensemble segmentation"
   ],
   "title": "Ensemble segmentation using AdaBoost with application to liver lesion extraction from a CT volume"

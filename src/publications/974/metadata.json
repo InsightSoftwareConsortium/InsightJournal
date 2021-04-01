@@ -63,15 +63,16 @@
   "submitted_by_author": {
    "author_email": "amir.jaberzadeh@childrens.harvard.edu",
    "author_firstname": "Amir",
+   "author_fullname": "Jaberzadeh, Amir",
    "author_id": 9818,
    "author_institution": "Harvard Medical School",
    "author_lastname": "Jaberzadeh"
   },
   "tags": [
-   "TBB",
-   "dynamic scheduling",
+   "ImageToImageFilter",
    "Multithreading",
-   "ImageToImageFilter"
+   "TBB",
+   "dynamic scheduling"
   ],
   "title": "A new implementation of itk::ImageToImageFilter for efficient parallelization of image processing algorithms using Intel Threading Building Blocks"
  }

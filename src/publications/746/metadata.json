@@ -72,16 +72,17 @@
   "submitted_by_author": {
    "author_email": "antonin07130@gmail.com",
    "author_firstname": "Antonin",
+   "author_fullname": "Perrot-audet, Antonin",
    "author_id": 2667,
    "author_institution": "Harvard Medical School, INSA Lyon",
    "author_lastname": "Perrot-audet"
   },
   "tags": [
-   "QWidget",
-   "vtk",
    "Qt",
-   "visualization",
+   "QWidget",
    "compare",
+   "vtk",
+   "visualization",
    "itk"
   ],
   "title": "A simple Qt based comparison program for ITK and VTK images."

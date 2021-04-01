@@ -18,12 +18,12 @@
   "date_submitted": "2006-04-10T15:11:07Z",
   "handles": [
    {
-    "handle": "1926/190",
-    "handle_url": "http://hdl.handle.net/1926/190"
-   },
-   {
     "handle": "10380/3547",
     "handle_url": "http://hdl.handle.net/10380/3547"
+   },
+   {
+    "handle": "1926/190",
+    "handle_url": "http://hdl.handle.net/1926/190"
    }
   ],
   "identifiers": {
@@ -41,13 +41,14 @@
   "submitted_by_author": {
    "author_email": "marius.staring@gmail.com",
    "author_firstname": "Marius",
+   "author_fullname": "Staring, Marius",
    "author_id": 208,
    "author_institution": "Leiden University Medical Center",
    "author_lastname": "Staring"
   },
   "tags": [
-   "Mean Square Difference",
-   "Normalized Correlation"
+   "Normalized Correlation",
+   "Mean Square Difference"
   ],
   "title": "Contributions to the Normalized Correlation and the Mean Squares Metric"
  }

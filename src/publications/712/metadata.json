@@ -39,19 +39,20 @@
   "submitted_by_author": {
    "author_email": "daviddoria@gmail.com",
    "author_firstname": "David",
+   "author_fullname": "Doria, David",
    "author_id": 2205,
    "author_institution": "Rensselaer Polytechnic Institute",
    "author_lastname": "Doria"
   },
   "tags": [
-   "lidar",
-   "mesh",
-   "leica",
-   "triangulate",
    "I/O",
-   "IO",
+   "mesh",
+   "triangulate",
+   "lidar",
+   "leica",
+   "ptx",
    "reader",
-   "ptx"
+   "IO"
   ],
   "title": "A Leica PTX Reader for VTK"
  }

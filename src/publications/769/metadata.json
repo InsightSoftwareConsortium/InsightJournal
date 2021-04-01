@@ -38,14 +38,15 @@
   "submitted_by_author": {
    "author_email": "zivy@isis.georgetown.edu",
    "author_firstname": "Ziv",
+   "author_fullname": "Yaniv, Ziv",
    "author_id": 201,
    "author_institution": "Georgetown University",
    "author_lastname": "Yaniv"
   },
   "tags": [
-   "RANSAC",
-   "hypersphere",
    "hyperplane",
+   "hypersphere",
+   "RANSAC",
    "robust estimation"
   ],
   "title": "Random Sample Consensus (RANSAC) Algorithm, A Generic Implementation"

@@ -31,7 +31,16 @@
    "Thresholding",
    "Watersheds"
   ],
-  "comments": [],
+  "comments": [
+   {
+    "content": "The current source can be found at:\r\nhttp://gitlab.com/romangrothausmann/FacetAnalyser.git\r\nhttp://github.com/romangrothausmann/FacetAnalyser.git\r\n\r\nDocker images with the CLI and ParaView with the Plugin at:\r\nhttp://gitlab.com/romangrothausmann/FacetAnalyser/container_registry\r\n\r\nmaster branch for a local X without Nvidia graphics or vgl branch for Nvidia graphics (even without VGL):\r\ngit clone -b master http://gitlab.com/romangrothausmann/FacetAnalyser.git\r\ncd FacetAnalyser/demo/\r\ndocker pull registry.gitlab.com/romangrothausmann/facetanalyser/master\r\n\r\nCLI:\r\ndocker run -ti -v $(pwd):/tmp/fa --workdir=/tmp/fa/ \\\r\n registry.gitlab.com/romangrothausmann/facetanalyser/master \\\r\n FacetAnalyserCLI \\\r\n  8faced-rhombic-dodecahedron_twinned_010_deformed_wss.vtp \\\r\n  51 15 0.2 0.001 2 \\\r\n  8faced-rhombic-dodecahedron_twinned_010_deformed_wss_FA.vtp\r\n\r\nPV:\r\n../run.sh -dr --state=8faced-rhombic-dodecahedron_twinned_simp+def.pvsm\r\n",
+    "date": "2018-09-10T06:11:13",
+    "persona_email": "Grothausmann.Roman@mh-hannover.de",
+    "persona_firstname": "Roman",
+    "persona_id": 6854,
+    "persona_lastname": "Grothausmann"
+   }
+  ],
   "date_submitted": "2015-02-05 06:18:10",
   "handles": [
    {
@@ -54,16 +63,17 @@
   "submitted_by_author": {
    "author_email": "Grothausmann.Roman@mh-hannover.de",
    "author_firstname": "Roman",
+   "author_fullname": "Grothausmann, Roman",
    "author_id": 6854,
    "author_institution": "Medizinische Hochschule Hannover",
    "author_lastname": "Grothausmann"
   },
   "tags": [
+   "ITK",
    "ParaView",
-   "interplanar angles",
    "facets",
    "tomography",
-   "ITK",
+   "interplanar angles",
    "VTK"
   ],
   "title": "Facet Analyser: ParaView plugin for automated facet detection and measurement of interplanar angles of tomographic objects"

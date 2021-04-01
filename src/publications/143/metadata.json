@@ -37,17 +37,6 @@
   "reviews": [
    {
     "author": {
-     "author_email": "tomash.kazmar@seznam.cz",
-     "author_firstname": "Tomas",
-     "author_id": 762,
-     "author_lastname": "Kazmar"
-    },
-    "content": "<p><strong>Summary:</strong><br />Composition of transformations. ITK still does not have any unified means of<br />transformation composition (or adition), the author tries to fill in this hole.<br /><br /><strong>Hypothesis:</strong><br />Non Applicable<br /><br /><strong>Evidence:</strong><br />Non Applicable<br /><br /><strong>Open Science:</strong><br />All source code and details needed are provided.<br /><br /><strong>Reproducibility:</strong><br />I have compiled and run the code. It would be fine if there were test images<br />and transform files prepared from the author to simplify the first testing.<br /><br /><strong>Use of Open Source Software:</strong><br />Only ITK is used.<br /><br /><strong>Open Source Contributions:</strong><br />With my setup of ITK (only an ITK build) it was impossible to configure the<br />project. Provided CMakeLists.txt uses a LOADPACKAGE macro from IJMacros.txt<br />which fails to include UseITK.cmake correctly. This is caused by the fact<br />it tries to include ITK_INCLUDE_DIR which points to non-existing directory<br />and not ITK_USE_FILE. To compile remove first part of the<br />IF(${Package}_INCLUDE_DIR) block.<br /><br /><strong>Code Quality:</strong><br />Source code is clear and simple as it should be. The only error, as pointed out<br />by another reviewer, is that GetJacobian() implementation is incorrect.<br /><br /><strong>Applicability to other problems:</strong><br />An improved version of this class could be used for many tasks as well as any normal transform.<br /><br /><strong>Suggestions for future work:</strong><br />This class lacks methods to enable using it with registration which is a major<br />drawback. Jacobian computation must be corrected and methods to access to<br />parameters added.<br /><br />I think the way this class stores transforms (a list of transforms) is better<br />than in another IJ entry CombineTransform (a pair of transforms). Maybe a<br />AddTransforms(ListType) method can be added to simplify the usage with<br />TransformReader.<br /><br /><strong>Requests for additional information from authors:</strong><br />None.<br /><br /><strong>Additional Comments:</strong><br />As suggested in itk-users mailing list, a merge of SerialTransform and<br />CombineTransform classes that removes shortcommings of both CombineTransform<br />and SerialTransform would be ideal.<br /><br />An option to specify which parameters are fixed or not, and therefore which can<br />be optimized would be useful.</p>",
-    "date": "02-27-2008",
-    "review_id": 646
-   },
-   {
-    "author": {
      "author_email": "rupert.brooks@gmail.com",
      "author_firstname": "Rupert",
      "author_id": 171,
@@ -56,6 +45,17 @@
     "content": "<p><strong>Summary:</strong><br />The paper describes a class that supports the composition of transforms for the image resampling task. It does not support the registration task. It can handle an arbitrarily long chain of transforms.</p><p><strong>Evidence:</strong><br />A program is provided to demonstrate the class. However, no input or expected output was provided. </p><p><strong>Open Science:</strong><br />The paper adheres to the principles of open science.</p><p> <strong>Reproducibility:</strong><br />I compiled and ran the code without difficulty. In order to test it, i had to modify the code slightly to register the transforms that i used in my input file with the transform factory. I tried some simple test cases and it worked. I only tried in 2D, as the example program is written for that case. </p><p> <strong>Use of Open Source Software:</strong><br />The authors use ITK and CMake</p><p> <strong>Open Source Contributions:</strong></p><p>The contribution is open source.</p><p><strong>Code Quality:</strong><br />The class is somewhat incomplete. Get/Set parameters should be provided, at a minimum. The Get Jacobian method is flawed. No testing code was provided.</p><p> <br /> <strong>Applicability to other problems:</strong><br />This has wide applicability as compound transforms arise frequently in image processing. Unfortunately, the class is somewhat incomplete, since it does not support the registration framework, or get/set parameters. This limits its usefulness as is.</p><p><strong>Suggestions for future work:</strong><br />Future work could clearly be to combine this with the other paper on this topic, the combination transform. It would be very nice to handle the Jacobian and parameters properly so that it could be used in the registration framework. </p>",
     "date": "02-07-2008",
     "review_id": 641
+   },
+   {
+    "author": {
+     "author_email": "tomash.kazmar@seznam.cz",
+     "author_firstname": "Tomas",
+     "author_id": 762,
+     "author_lastname": "Kazmar"
+    },
+    "content": "<p><strong>Summary:</strong><br />Composition of transformations. ITK still does not have any unified means of<br />transformation composition (or adition), the author tries to fill in this hole.<br /><br /><strong>Hypothesis:</strong><br />Non Applicable<br /><br /><strong>Evidence:</strong><br />Non Applicable<br /><br /><strong>Open Science:</strong><br />All source code and details needed are provided.<br /><br /><strong>Reproducibility:</strong><br />I have compiled and run the code. It would be fine if there were test images<br />and transform files prepared from the author to simplify the first testing.<br /><br /><strong>Use of Open Source Software:</strong><br />Only ITK is used.<br /><br /><strong>Open Source Contributions:</strong><br />With my setup of ITK (only an ITK build) it was impossible to configure the<br />project. Provided CMakeLists.txt uses a LOADPACKAGE macro from IJMacros.txt<br />which fails to include UseITK.cmake correctly. This is caused by the fact<br />it tries to include ITK_INCLUDE_DIR which points to non-existing directory<br />and not ITK_USE_FILE. To compile remove first part of the<br />IF(${Package}_INCLUDE_DIR) block.<br /><br /><strong>Code Quality:</strong><br />Source code is clear and simple as it should be. The only error, as pointed out<br />by another reviewer, is that GetJacobian() implementation is incorrect.<br /><br /><strong>Applicability to other problems:</strong><br />An improved version of this class could be used for many tasks as well as any normal transform.<br /><br /><strong>Suggestions for future work:</strong><br />This class lacks methods to enable using it with registration which is a major<br />drawback. Jacobian computation must be corrected and methods to access to<br />parameters added.<br /><br />I think the way this class stores transforms (a list of transforms) is better<br />than in another IJ entry CombineTransform (a pair of transforms). Maybe a<br />AddTransforms(ListType) method can be added to simplify the usage with<br />TransformReader.<br /><br /><strong>Requests for additional information from authors:</strong><br />None.<br /><br /><strong>Additional Comments:</strong><br />As suggested in itk-users mailing list, a merge of SerialTransform and<br />CombineTransform classes that removes shortcommings of both CombineTransform<br />and SerialTransform would be ideal.<br /><br />An option to specify which parameters are fixed or not, and therefore which can<br />be optimized would be useful.</p>",
+    "date": "02-27-2008",
+    "review_id": 646
    },
    {
     "author": {
@@ -72,13 +72,14 @@
   "submitted_by_author": {
    "author_email": "torsten@synapse.sri.com",
    "author_firstname": "Torsten",
+   "author_fullname": "Rohlfing, Torsten",
    "author_id": 168,
    "author_institution": "SRI International",
    "author_lastname": "Rohlfing"
   },
   "tags": [
-   "serial transformation",
-   "ITK"
+   "ITK",
+   "serial transformation"
   ],
   "title": "Class for Serial Transformations"
  }

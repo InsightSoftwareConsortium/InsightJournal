@@ -57,17 +57,18 @@
   "submitted_by_author": {
    "author_email": "h.talbot@esiee.fr",
    "author_firstname": "Hugues",
+   "author_fullname": "Talbot, Hugues",
    "author_id": 2202,
    "author_institution": "Universit\u00e9 Paris Est, laboratoire d'informatique Gaspard-Monge",
    "author_lastname": "Talbot"
   },
   "tags": [
-   "heart segmentation",
-   "validation",
    "medical imaging",
-   "mathematical morphology",
    "watershed",
-   "interactive procedure"
+   "validation",
+   "interactive procedure",
+   "heart segmentation",
+   "mathematical morphology"
   ],
   "title": "4D Morphological segmentation and the MICCAI LV-segmentation grand challenge"
  }

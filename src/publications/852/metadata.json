@@ -22,16 +22,16 @@
   ],
   "comments": [
    {
-    "content": "on perf3D.cxx that is...\r\n\r\nthe line where the error comes is:\r\nconst MeshType::CellType::PointIdentifierContainerType & pids = it.Value()->GetPointIdsContainer();",
-    "date": "2012-03-18T16:40:02",
+    "content": "I got the following error, when i tried to compile:\r\nwhat am i doing wrong?\r\n\r\ncheck.cxx(210) : error C2039: \\'PointIdentifierContainerType\\' : is not a member of \\'itk::CellInterface<TPixelType,TCellTraits>\\'\r\n1>        with\r\n1>        [\r\n1>            TPixelType=double,\r\n1>            TCellTraits=itk::CellTraitsInfo<3,float,float,itk::DefaultStaticMeshTraits<double,3,3>::PointIdentifier,itk::DefaultStaticMeshTraits<double,3,3>::CellIdentifier,itk::DefaultStaticMeshTraits<double,3,3>::CellFeatureIdentifier,itk::Point<float,3>,itk::VectorContainer<itk::DefaultStaticMeshTraits<double,3,3>::PointIdentifier,itk::Point<float,3>>,itk::DefaultStaticMeshTraits<double,3,3>::UsingCellsContainer>\r\n1>        ]\r\n1>..\\\\check.cxx(210) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int\r\n1>..\\\\check.cxx(210) : error C2143: syntax error : missing \\';\\' before \\'&\\'\r\n1>..\\\\check.cxx(210) : error C2065: \\'pids\\' : undeclared identifier\r\n1>..\\\\check.cxx(210) : error C2039: \\'GetPointIdsContainer\\' : is not a member of \\'itk::CellInterface<TPixelType,TCellTraits>\\'\r\n1>        with\r\n1>        [\r\n1>            TPixelType=double,\r\n1>            TCellTraits=itk::CellTraitsInfo<3,float,float,itk::DefaultStaticMeshTraits<double,3,3>::PointIdentifier,itk::DefaultStaticMeshTraits<double,3,3>::CellIdentifier,itk::DefaultStaticMeshTraits<double,3,3>::CellFeatureIdentifier,itk::Point<float,3>,itk::VectorContainer<itk::DefaultStaticMeshTraits<double,3,3>::PointIdentifier,itk::Point<float,3>>,itk::DefaultStaticMeshTraits<double,3,3>::UsingCellsContainer>\r\n1>        ]\r\n1>..\\\\check.cxx(211) : error C2065: \\'pids\\' : undeclared identifier\r\n1>..\\\\check.cxx(211) : error C2660: \\'itk::PointSet<TPixelType,VDimension,TMeshTraits>::GetPoint\\' : function does not take 1 arguments\r\n1>        with\r\n1>        [\r\n1>            TPixelType=double,\r\n1>            VDimension=3,\r\n1>            TMeshTraits=itk::DefaultStaticMeshTraits<double,3,3>\r\n1>        ]\r\n1>..\\\\check.cxx(212) : error C2065: \\'pids\\' : undeclared identifier\r\n1>..\\\\check.cxx(212) : error C2660: \\'itk::PointSet<TPixelType,VDimension,TMeshTraits>::GetPoint\\' : function does not take 1 arguments\r\n1>        with\r\n1>        [\r\n1>            TPixelType=double,\r\n1>            VDimension=3,\r\n1>            TMeshTraits=itk::DefaultStaticMeshTraits<double,3,3>\r\n1>        ]\r\n1>..\\\\check.cxx(213) : error C2065: \\'pids\\' : undeclared identifier\r\n1>..\\\\check.cxx(213) : error C2660: \\'itk::PointSet<TPixelType,VDimension,TMeshTraits>::GetPoint\\' : function does not take 1 arguments\r\n1>        with\r\n1>        [\r\n1>            TPixelType=double,\r\n1>            VDimension=3,\r\n1>            TMeshTraits=itk::DefaultStaticMeshTraits<double,3,3>\r\n1>        ]\r\n",
+    "date": "2012-03-18T16:36:32",
     "persona_email": "annihilaatio@yahoo.com",
     "persona_firstname": "Toni",
     "persona_id": 6087,
     "persona_lastname": "Sdga"
    },
    {
-    "content": "I got the following error, when i tried to compile:\r\nwhat am i doing wrong?\r\n\r\ncheck.cxx(210) : error C2039: \\'PointIdentifierContainerType\\' : is not a member of \\'itk::CellInterface<TPixelType,TCellTraits>\\'\r\n1>        with\r\n1>        [\r\n1>            TPixelType=double,\r\n1>            TCellTraits=itk::CellTraitsInfo<3,float,float,itk::DefaultStaticMeshTraits<double,3,3>::PointIdentifier,itk::DefaultStaticMeshTraits<double,3,3>::CellIdentifier,itk::DefaultStaticMeshTraits<double,3,3>::CellFeatureIdentifier,itk::Point<float,3>,itk::VectorContainer<itk::DefaultStaticMeshTraits<double,3,3>::PointIdentifier,itk::Point<float,3>>,itk::DefaultStaticMeshTraits<double,3,3>::UsingCellsContainer>\r\n1>        ]\r\n1>..\\\\check.cxx(210) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int\r\n1>..\\\\check.cxx(210) : error C2143: syntax error : missing \\';\\' before \\'&\\'\r\n1>..\\\\check.cxx(210) : error C2065: \\'pids\\' : undeclared identifier\r\n1>..\\\\check.cxx(210) : error C2039: \\'GetPointIdsContainer\\' : is not a member of \\'itk::CellInterface<TPixelType,TCellTraits>\\'\r\n1>        with\r\n1>        [\r\n1>            TPixelType=double,\r\n1>            TCellTraits=itk::CellTraitsInfo<3,float,float,itk::DefaultStaticMeshTraits<double,3,3>::PointIdentifier,itk::DefaultStaticMeshTraits<double,3,3>::CellIdentifier,itk::DefaultStaticMeshTraits<double,3,3>::CellFeatureIdentifier,itk::Point<float,3>,itk::VectorContainer<itk::DefaultStaticMeshTraits<double,3,3>::PointIdentifier,itk::Point<float,3>>,itk::DefaultStaticMeshTraits<double,3,3>::UsingCellsContainer>\r\n1>        ]\r\n1>..\\\\check.cxx(211) : error C2065: \\'pids\\' : undeclared identifier\r\n1>..\\\\check.cxx(211) : error C2660: \\'itk::PointSet<TPixelType,VDimension,TMeshTraits>::GetPoint\\' : function does not take 1 arguments\r\n1>        with\r\n1>        [\r\n1>            TPixelType=double,\r\n1>            VDimension=3,\r\n1>            TMeshTraits=itk::DefaultStaticMeshTraits<double,3,3>\r\n1>        ]\r\n1>..\\\\check.cxx(212) : error C2065: \\'pids\\' : undeclared identifier\r\n1>..\\\\check.cxx(212) : error C2660: \\'itk::PointSet<TPixelType,VDimension,TMeshTraits>::GetPoint\\' : function does not take 1 arguments\r\n1>        with\r\n1>        [\r\n1>            TPixelType=double,\r\n1>            VDimension=3,\r\n1>            TMeshTraits=itk::DefaultStaticMeshTraits<double,3,3>\r\n1>        ]\r\n1>..\\\\check.cxx(213) : error C2065: \\'pids\\' : undeclared identifier\r\n1>..\\\\check.cxx(213) : error C2660: \\'itk::PointSet<TPixelType,VDimension,TMeshTraits>::GetPoint\\' : function does not take 1 arguments\r\n1>        with\r\n1>        [\r\n1>            TPixelType=double,\r\n1>            VDimension=3,\r\n1>            TMeshTraits=itk::DefaultStaticMeshTraits<double,3,3>\r\n1>        ]\r\n",
-    "date": "2012-03-18T16:36:32",
+    "content": "on perf3D.cxx that is...\r\n\r\nthe line where the error comes is:\r\nconst MeshType::CellType::PointIdentifierContainerType & pids = it.Value()->GetPointIdsContainer();",
+    "date": "2012-03-18T16:40:02",
     "persona_email": "annihilaatio@yahoo.com",
     "persona_firstname": "Toni",
     "persona_id": 6087,
@@ -60,14 +60,15 @@
   "submitted_by_author": {
    "author_email": "gaetan.lehmann@gmail.com",
    "author_firstname": "Gaetan",
+   "author_fullname": "Lehmann, Gaetan",
    "author_id": 328,
    "author_institution": "INRA",
    "author_lastname": "Lehmann"
   },
   "tags": [
-   "Perimeter",
-   "RLE",
    "Crofton",
+   "RLE",
+   "Perimeter",
    "Surface"
   ],
   "title": "Efficient N-Dimensional surface estimation using Crofton formula and run-length encoding"

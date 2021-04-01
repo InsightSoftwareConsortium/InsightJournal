@@ -46,17 +46,18 @@
   "submitted_by_author": {
    "author_email": "gaetan.lehmann@gmail.com",
    "author_firstname": "Gaetan",
+   "author_fullname": "Lehmann, Gaetan",
    "author_id": 328,
    "author_institution": "INRA",
    "author_lastname": "Lehmann"
   },
   "tags": [
-   "mathematical morphology",
-   "min-tree",
-   "max-tree",
-   "component tree",
-   "connected component",
    "connectivity",
+   "component tree",
+   "max-tree",
+   "min-tree",
+   "mathematical morphology",
+   "connected component",
    "attribute"
   ],
   "title": "Component tree: an efficient representation of grayscale connected components"

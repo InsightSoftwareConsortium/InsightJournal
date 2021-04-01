@@ -60,12 +60,12 @@
     "handle_url": "http://hdl.handle.net/1926/193"
    },
    {
-    "handle": "1926/398",
-    "handle_url": "http://hdl.handle.net/1926/398"
-   },
-   {
     "handle": "1926/379",
     "handle_url": "http://hdl.handle.net/1926/379"
+   },
+   {
+    "handle": "1926/398",
+    "handle_url": "http://hdl.handle.net/1926/398"
    },
    {
     "handle": "1926/9",
@@ -87,17 +87,18 @@
   "submitted_by_author": {
    "author_email": "ligeorge@mail.nih.gov",
    "author_firstname": "George",
+   "author_fullname": "Li, George",
    "author_id": 14,
    "author_institution": "National Cancer Institute, NIH",
    "author_lastname": "Li"
   },
   "tags": [
    "Image registration",
-   "voxel volume",
    "Treatment planning",
    "Visual presentation",
+   "Novel technique",
    "Multi-modality",
-   "Novel technique"
+   "voxel volume"
   ],
   "title": "3D Voxel-Based Volumetric Image Registration with Volume-View Guidance"
  }

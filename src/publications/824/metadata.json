@@ -39,15 +39,16 @@
   "submitted_by_author": {
    "author_email": "matthew.m.mccormick@gmail.com",
    "author_firstname": "Matthew",
+   "author_fullname": "Mccormick, Matthew",
    "author_id": 2509,
    "author_institution": "University of Wisconsin-Madison",
    "author_lastname": "Mccormick"
   },
   "tags": [
-   "file reader",
-   "ultrasound",
    "xml",
-   "ITK"
+   "ITK",
+   "file reader",
+   "ultrasound"
   ],
   "title": "A File Reader for the VisualSonics Vevo 770 Digital RF Data"
  }

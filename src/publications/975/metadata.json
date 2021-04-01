@@ -43,14 +43,15 @@
   "submitted_by_author": {
    "author_email": "Grothausmann.Roman@mh-hannover.de",
    "author_firstname": "Roman",
+   "author_fullname": "Grothausmann, Roman",
    "author_id": 6854,
    "author_institution": "Medizinische Hochschule Hannover",
    "author_lastname": "Grothausmann"
   },
   "tags": [
+   "adjacent label value",
    "vtkDiscreteMarchingCubes",
-   "vtkPointData",
-   "adjacent label value"
+   "vtkPointData"
   ],
   "title": "Providing values of adjacent voxel with vtkDiscreteMarchingCubes"
  }

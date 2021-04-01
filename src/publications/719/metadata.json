@@ -15,7 +15,16 @@
    "Mesh",
    "PointSet"
   ],
-  "comments": [],
+  "comments": [
+   {
+    "content": "After generating a project using CMAke 3.11.4 on Windows 10. I cannot build the ALL_BUILD solution because the error.h file is missing. Where can I find it? and How can I resolve this problem?\r\n\r\nThank you.\r\nMinhPhuoc Hong",
+    "date": "2018-09-09T20:22:22",
+    "persona_email": "minpu.code@gmail.com",
+    "persona_firstname": "Minhphuoc",
+    "persona_id": 11534,
+    "persona_lastname": "Hong"
+   }
+  ],
   "date_submitted": "2010-03-12 16:44:13",
   "handles": [
    {
@@ -38,6 +47,7 @@
   "submitted_by_author": {
    "author_email": "daviddoria@gmail.com",
    "author_firstname": "David",
+   "author_fullname": "Doria, David",
    "author_id": 2205,
    "author_institution": "Rensselaer Polytechnic Institute",
    "author_lastname": "Doria"

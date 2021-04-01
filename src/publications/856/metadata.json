@@ -22,12 +22,12 @@
   ],
   "comments": [
    {
-    "content": "is this compatible with the gpu volume rendering in Slicer4?",
-    "date": "2013-02-15T05:14:48",
-    "persona_email": "kikinis@bwh.harvard.edu",
-    "persona_firstname": "Ron",
-    "persona_id": 238,
-    "persona_lastname": "Kikinis"
+    "content": "You would need to wrap it to java, I am not sure how to do it for new classes, a quick hack could be to add the class in the VTK source code and CMakeLists.txt, and try to wrap it with the rest of the VTK code.",
+    "date": "2012-04-17T11:20:27",
+    "persona_email": "krissian@dis.ulpgc.es",
+    "persona_firstname": "Karl",
+    "persona_id": 2227,
+    "persona_lastname": "Krissian"
    },
    {
     "content": "will this be available for java?",
@@ -38,12 +38,12 @@
     "persona_lastname": "Laditan"
    },
    {
-    "content": "You would need to wrap it to java, I am not sure how to do it for new classes, a quick hack could be to add the class in the VTK source code and CMakeLists.txt, and try to wrap it with the rest of the VTK code.",
-    "date": "2012-04-17T11:20:27",
-    "persona_email": "krissian@dis.ulpgc.es",
-    "persona_firstname": "Karl",
-    "persona_id": 2227,
-    "persona_lastname": "Krissian"
+    "content": "is this compatible with the gpu volume rendering in Slicer4?",
+    "date": "2013-02-15T05:14:48",
+    "persona_email": "kikinis@bwh.harvard.edu",
+    "persona_firstname": "Ron",
+    "persona_id": 238,
+    "persona_lastname": "Kikinis"
    }
   ],
   "date_submitted": "2012-04-16 09:40:59",
@@ -68,13 +68,14 @@
   "submitted_by_author": {
    "author_email": "krissian@dis.ulpgc.es",
    "author_firstname": "Karl",
+   "author_fullname": "Krissian, Karl",
    "author_id": 2227,
    "author_institution": "University of Las Palmas of Gran Canaria",
    "author_lastname": "Krissian"
   },
   "tags": [
-   "GPU",
-   "Volume Rendering"
+   "Volume Rendering",
+   "GPU"
   ],
   "title": "GPU Volume Ray Casting of two Volumes within VTK"
  }

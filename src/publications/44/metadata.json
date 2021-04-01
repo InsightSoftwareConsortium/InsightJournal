@@ -50,14 +50,14 @@
   "reviews": [
    {
     "author": {
-     "author_email": "marfGm@gmail.com",
-     "author_firstname": "Miguel Angel",
-     "author_id": 445,
-     "author_lastname": "Rodriguez-Florido"
+     "author_email": "julien@jomier.com",
+     "author_firstname": "Julien",
+     "author_id": 3,
+     "author_lastname": "Jomier"
     },
-    "content": "<b>Summary:</b>\r\nAuthors present an open source programming toolkit for physics-based simulation, collision detection, deformation, etc. First, they describe the origin of the\r\ntoolkit. Later, they comment the basic features, and finally they discuss the pros and cons of the toolkit.\r\n \r\n<b>Hypothesis:</b>\r\nNon Applicable\r\n\r\n<b>Evidence:</b>\r\nAuthors don\\'t provide any \\\"speculation\\\", but they assume that the third-party dependences ensure a common framework.\r\n\r\n<b>Open Science:</b>\r\nThis work is the result of a great workgroup (PhD and Master Thesis students, researchers, etc.), and they provide a web site for code, data, etc, and their work is a contribution to Open Science.\r\n\r\n<b>Reproducibility:</b>\r\nI have downloaded the code and data, but in my opinion it\\'s difficult to compile it correctly. I have tried some demos but I got some errors. These errors are the result of the strong third-party dependences. How the say in their ToDo.txt fie: \\\"Automize cross-compilation (windows vs. linux) so compatibility can be easily tested with a minimum of human interaction\\\" is needed.\r\nPerhaps, it would be useful a small quick-start guide in the paper (annexes or similar).\r\n\r\n<b>Use of Open Source Software:</b>\r\nThey comment something about the utility of OpenSource for accessing to the implementations details, and their developments are done under OpenSource.\r\n\r\n<b>Open Source Contributions:</b>\r\nThey provide all the code, but I have had some problems to compile and use it. This is due to the strongly dependence with third-parties.\r\n\r\n<b>Code Quality:</b>\r\nI have compiled under linux and it works. We hope to try it under windows. I haven\\'t checked the source code style, but they say in their paper that they have used template programming\r\nand metaprogramming.\r\n\r\n<b>Applicability to other problems:</b>\r\nI think that this work is very useful in surgical simulation. Our group is working in this discipline, and thanks to the Open Source philosophy, we are installing/running/testing the toolkit to study the viability of including some of their work in our applications.\r\n\r\n<b>Suggestions for future work:</b>\r\nAvoid the strong third-parties dependences. However, they say in their paper that one of their aim is to complete the transition of all code into a completely generic programming\r\nframework.\r\n\r\n<b>Requests for additional information from authors:</b>\r\nA quick-start guide for running demos.\r\n\r\n<b>Additional Comments:</b>\r\nIt is a great and interesting work. Congratulations.\r\nMy rating is based on the IJ reviewer guidelines.\r\n\r\n\r\n",
-    "date": "06-27-2006",
-    "review_id": 230
+    "content": "<b>Summary:</b>\r\nThis paper presents an open-source toolkit for physics-based animation. The toolkit can be applied to Medical Imaging analysis and simulation.\r\n \r\n<b>Hypothesis:</b>\r\nNA\r\n\r\n<b>Evidence:</b>\r\nNA\r\n\r\n<b>Open Science:</b>\r\nThe paper fully supports the concept of Open-Science.\r\n\r\n<b>Reproducibility:</b>\r\nI did not download the source code.\r\n\r\n<b>Use of Open Source Software:</b>\r\nThe toolkit is fully open-source. It uses some third party packages that may limit its portability.\r\n\r\n<b>Open Source Contributions:</b>\r\nThe source code is available under GNU LGPL.\r\n\r\n<b>Code Quality:</b>\r\nThe code uses modern coding style. Heavily templated. The documentation looks very good and complete.\r\n\r\n<b>Applicability to other problems:</b>\r\nThe toolkit can be applied to many different fields.\r\n\r\n<b>Suggestions for future work:</b>\r\nThe authors should continue to support the toolkit and advertise it more.\r\n\r\n<b>Requests for additional information from authors:</b>\r\nMaybe some concret applications and example on real cases would have been a plus for this paper.\r\nI could not find the list of supported platforms/compilers...\r\nDo you use any regression testing to make sure your code compiles regularly on all the platforms?\r\nAny plan to use CMake (www.cmake.org) to build this toolkit in the future?\r\n\r\n<b>Additional Comments:</b>\r\nThe paper is well written. The examples are very nice and the videos are impressive.\r\nVery nice job!\r\n",
+    "date": "09-15-2005",
+    "review_id": 79
    },
    {
     "author": {
@@ -72,14 +72,14 @@
    },
    {
     "author": {
-     "author_email": "julien@jomier.com",
-     "author_firstname": "Julien",
-     "author_id": 3,
-     "author_lastname": "Jomier"
+     "author_email": "marfGm@gmail.com",
+     "author_firstname": "Miguel Angel",
+     "author_id": 445,
+     "author_lastname": "Rodriguez-Florido"
     },
-    "content": "<b>Summary:</b>\r\nThis paper presents an open-source toolkit for physics-based animation. The toolkit can be applied to Medical Imaging analysis and simulation.\r\n \r\n<b>Hypothesis:</b>\r\nNA\r\n\r\n<b>Evidence:</b>\r\nNA\r\n\r\n<b>Open Science:</b>\r\nThe paper fully supports the concept of Open-Science.\r\n\r\n<b>Reproducibility:</b>\r\nI did not download the source code.\r\n\r\n<b>Use of Open Source Software:</b>\r\nThe toolkit is fully open-source. It uses some third party packages that may limit its portability.\r\n\r\n<b>Open Source Contributions:</b>\r\nThe source code is available under GNU LGPL.\r\n\r\n<b>Code Quality:</b>\r\nThe code uses modern coding style. Heavily templated. The documentation looks very good and complete.\r\n\r\n<b>Applicability to other problems:</b>\r\nThe toolkit can be applied to many different fields.\r\n\r\n<b>Suggestions for future work:</b>\r\nThe authors should continue to support the toolkit and advertise it more.\r\n\r\n<b>Requests for additional information from authors:</b>\r\nMaybe some concret applications and example on real cases would have been a plus for this paper.\r\nI could not find the list of supported platforms/compilers...\r\nDo you use any regression testing to make sure your code compiles regularly on all the platforms?\r\nAny plan to use CMake (www.cmake.org) to build this toolkit in the future?\r\n\r\n<b>Additional Comments:</b>\r\nThe paper is well written. The examples are very nice and the videos are impressive.\r\nVery nice job!\r\n",
-    "date": "09-15-2005",
-    "review_id": 79
+    "content": "<b>Summary:</b>\r\nAuthors present an open source programming toolkit for physics-based simulation, collision detection, deformation, etc. First, they describe the origin of the\r\ntoolkit. Later, they comment the basic features, and finally they discuss the pros and cons of the toolkit.\r\n \r\n<b>Hypothesis:</b>\r\nNon Applicable\r\n\r\n<b>Evidence:</b>\r\nAuthors don\\'t provide any \\\"speculation\\\", but they assume that the third-party dependences ensure a common framework.\r\n\r\n<b>Open Science:</b>\r\nThis work is the result of a great workgroup (PhD and Master Thesis students, researchers, etc.), and they provide a web site for code, data, etc, and their work is a contribution to Open Science.\r\n\r\n<b>Reproducibility:</b>\r\nI have downloaded the code and data, but in my opinion it\\'s difficult to compile it correctly. I have tried some demos but I got some errors. These errors are the result of the strong third-party dependences. How the say in their ToDo.txt fie: \\\"Automize cross-compilation (windows vs. linux) so compatibility can be easily tested with a minimum of human interaction\\\" is needed.\r\nPerhaps, it would be useful a small quick-start guide in the paper (annexes or similar).\r\n\r\n<b>Use of Open Source Software:</b>\r\nThey comment something about the utility of OpenSource for accessing to the implementations details, and their developments are done under OpenSource.\r\n\r\n<b>Open Source Contributions:</b>\r\nThey provide all the code, but I have had some problems to compile and use it. This is due to the strongly dependence with third-parties.\r\n\r\n<b>Code Quality:</b>\r\nI have compiled under linux and it works. We hope to try it under windows. I haven\\'t checked the source code style, but they say in their paper that they have used template programming\r\nand metaprogramming.\r\n\r\n<b>Applicability to other problems:</b>\r\nI think that this work is very useful in surgical simulation. Our group is working in this discipline, and thanks to the Open Source philosophy, we are installing/running/testing the toolkit to study the viability of including some of their work in our applications.\r\n\r\n<b>Suggestions for future work:</b>\r\nAvoid the strong third-parties dependences. However, they say in their paper that one of their aim is to complete the transition of all code into a completely generic programming\r\nframework.\r\n\r\n<b>Requests for additional information from authors:</b>\r\nA quick-start guide for running demos.\r\n\r\n<b>Additional Comments:</b>\r\nIt is a great and interesting work. Congratulations.\r\nMy rating is based on the IJ reviewer guidelines.\r\n\r\n\r\n",
+    "date": "06-27-2006",
+    "review_id": 230
    },
    {
     "author": {
@@ -96,18 +96,19 @@
   "submitted_by_author": {
    "author_email": "sporring@diku.dk",
    "author_firstname": "Jon",
+   "author_fullname": "Sporring, Jon",
    "author_id": 103,
    "author_institution": "Department of Computer Science, University of Copenhagen",
    "author_lastname": "Sporring"
   },
   "tags": [
-   "Templates",
-   "Animation",
    "Simulation",
-   "Segmentation",
-   "Open Source",
+   "Visualization",
+   "Templates",
    "Metaprogramming",
-   "Visualization"
+   "Open Source",
+   "Animation",
+   "Segmentation"
   ],
   "title": "OpenTissue - An Open Source Toolkit for Physics-Based Animation"
  }

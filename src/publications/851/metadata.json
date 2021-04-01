@@ -5,7 +5,7 @@
    {
     "author_fullname": "Rigaud, Stephane",
     "author_place": 1,
-    "persona_email": "rigaud.stephane@gmail.com",
+    "persona_email": "stephane.rigaud@pasteur.fr",
     "persona_firstname": "Stephane",
     "persona_id": 6540,
     "persona_lastname": "Rigaud"
@@ -47,15 +47,16 @@
   "submitted_by_author": {
    "author_email": "agouaillard@gmail.com",
    "author_firstname": "Alexandre",
+   "author_fullname": "Gouaillard, Alexandre",
    "author_id": 322,
    "author_institution": "Singapore Agency for Science Technology and Research",
    "author_lastname": "Gouaillard"
   },
   "tags": [
+   "ITK",
    "QuadEdgeMesh",
    "Search",
-   "Planar Mesh",
-   "ITK"
+   "Planar Mesh"
   ],
   "title": "Walk In A Triangulation : Straight Walk"
  }

@@ -11,6 +11,14 @@
     "persona_lastname": "Han"
    },
    {
+    "author_fullname": "Han, Xiao",
+    "author_place": 1,
+    "persona_email": "xdhan@fudan.edu.cn",
+    "persona_firstname": "Xiaodong",
+    "persona_id": 11608,
+    "persona_lastname": "Han"
+   },
+   {
     "author_fullname": "Hibbard, Lyndon S.",
     "author_place": 2,
     "persona_email": "lyn.hibbard@elekta.com",
@@ -58,17 +66,18 @@
   "submitted_by_author": {
    "author_email": "Xiao.Han@cmsrtp.com",
    "author_firstname": "Xiao",
+   "author_fullname": "Han, Xiao",
    "author_id": 2232,
    "author_institution": "CMS Software, Elekta Inc.",
    "author_lastname": "Han"
   },
   "tags": [
-   "Atlas-based Segmentation",
-   "Radiotherapy Planning",
-   "GPU",
-   "multiple atlases",
    "CT Image Segmentation",
-   "Deformable Registration"
+   "multiple atlases",
+   "GPU",
+   "Radiotherapy Planning",
+   "Deformable Registration",
+   "Atlas-based Segmentation"
   ],
   "title": "Automatic Segmentation of Head and Neck CT Images by GPU-Accelerated Multi-atlas Fusion"
  }

@@ -63,14 +63,14 @@
    },
    {
     "author": {
-     "author_email": "holmes.david3@mayo.edu",
-     "author_firstname": "David",
-     "author_id": 20,
-     "author_lastname": "Holmes"
+     "author_email": "marfGm@gmail.com",
+     "author_firstname": "Miguel Angel",
+     "author_id": 445,
+     "author_lastname": "Rodriguez-Florido"
     },
-    "content": "<p><strong>&nbsp;Update:</strong></p><p>The authors have provided an outstanding contribution with this work.&nbsp; The revision includes everything that one would need to implement the tutorial.</p><p><strong>&nbsp;</strong><strong>Summary:</strong><br />The authors propose the use of the LEGO mindstorm and 3D&nbsp;slicer for teaching some of the concepts of Image-guided Therapy.&nbsp; The paper describes the LEGO system and some results from their initial experience.</p><p><br /><strong>Hypothesis:</strong><br />N/A</p><p><br /><strong>Evidence:</strong><br />The description of the LEGO system is reasonable, and the results suggest that it may be a viable teaching tool.</p><p><br /><strong>Open Science:</strong><br />This appears to be open science.&nbsp; The tools used are open.&nbsp; The LEGO system costs money, but as the authors point out, it is reasonable.&nbsp; There is great potential for teach with this tool.</p><p>&nbsp;</p><p><strong>Reproducibility:</strong><br />RESOLVED:&nbsp; While the authors provide some code for combining the LEGO system with 3D slice, the suggested teaching information is not available.&nbsp; Specifically, the authors, show a 3D robot but do not provide the design for it.&nbsp; The authors also talk about a phantom but do not provide the design.&nbsp; I cannot, at this point even with the LEGO system, recreate the system.</p><p><strong>Use of Open Source Software:</strong><br />All of the software described is open including the open interface to the LEGO system.&nbsp; The LEGO system does cost some money, but anyone can get it and it seems that the price is not outrageous.&nbsp; The potential applications of the LEGO system are great.</p><p><strong>Open Source Contributions:</strong><br />The main contribution should be the design of the phantom and robot for use in training along with the source code. This is unfortunately missing.</p><p><strong>Code Quality:</strong><br />The provided code is appropriately documented.</p><p><strong>Applicability to other problems:</strong><br />Once a person invests in the system, there are endless training possibilities.</p><p><strong>Suggestions for future work:</strong><br />RESOLVED: I think that a more detail curriculum with several lessons is warranted.</p><p><br /><strong>Requests for additional information from authors:</strong><br />RESOLVED: I fully recognize the great potential of this work, but request that the authors provide a description of how to build the phantom and robot as well as the proposed tutorial.&nbsp; I would like to use this for teaching.</p><p><br /><strong>Additional Comments:</strong><br />RESOLVED: Again, this is a great teaching tool.&nbsp; I commend the authors, but I don&#39;t have enough information to use it for teaching right now.</p>",
-    "date": "09-06-2007",
-    "review_id": 544
+    "content": "<p><strong>Summary:</strong><br />This paper presents a good system to teach technical students in the medical image computing area. They present a low cost robotic system that is driven by the open source software Slicer. Although, at this moment, they don&#39;t provide the user guide to build the robot, and the CT dataset of the phantom, they explain how they use it and how to use it.<br /> <strong>Open Science:</strong><br />This is an example of Open Science because they present a system that uses open source software and they describe a low cost robotic system, that could be bought for any research group. However is very important to add the guide to build the system and the CT dataset of the phantom<br /><strong>Reproducibility:</strong><br />I would like to reproduce the results, but although I&#39;m going to buy the LEGO system, I need the user guide to build the robot. I could be great to have the CT dataset of the phantom too.&nbsp;<br /><strong>Use of Open Source Software:</strong><br />They use open source software (Slicer) and they provide the software associated to the LEGO system. It could be great to provide the VTK Slicer module (at least at the svn slicer site) to reproduce the system.<br /><strong>Open Source Contributions:</strong><br />They provide some code, but it would be great to provide the VTK Slicer module.&nbsp;<br /><strong>Code Quality:</strong><br />It is well commented.<br /><strong>Applicability to other problems:</strong><br />How we are using slicer for medical students education, we would like to use this system. At this moment, we need the VTK Slicer module and the CT dataset of the phantom.<br /> <strong>Requests for additional information from authors:</strong><br />I&#39;ve read that authors are providing the user guide to build the robotic system. Also, we need the VTK Slicer module and perhaps the CT dataset. We would like to use it for education and teaching.&nbsp;<br /><strong>Additional Comments:</strong><br />Nice work.</p><p>&nbsp;</p>",
+    "date": "10-02-2007",
+    "review_id": 586
    },
    {
     "author": {
@@ -85,19 +85,20 @@
    },
    {
     "author": {
-     "author_email": "marfGm@gmail.com",
-     "author_firstname": "Miguel Angel",
-     "author_id": 445,
-     "author_lastname": "Rodriguez-Florido"
+     "author_email": "holmes.david3@mayo.edu",
+     "author_firstname": "David",
+     "author_id": 20,
+     "author_lastname": "Holmes"
     },
-    "content": "<p><strong>Summary:</strong><br />This paper presents a good system to teach technical students in the medical image computing area. They present a low cost robotic system that is driven by the open source software Slicer. Although, at this moment, they don&#39;t provide the user guide to build the robot, and the CT dataset of the phantom, they explain how they use it and how to use it.<br /> <strong>Open Science:</strong><br />This is an example of Open Science because they present a system that uses open source software and they describe a low cost robotic system, that could be bought for any research group. However is very important to add the guide to build the system and the CT dataset of the phantom<br /><strong>Reproducibility:</strong><br />I would like to reproduce the results, but although I&#39;m going to buy the LEGO system, I need the user guide to build the robot. I could be great to have the CT dataset of the phantom too.&nbsp;<br /><strong>Use of Open Source Software:</strong><br />They use open source software (Slicer) and they provide the software associated to the LEGO system. It could be great to provide the VTK Slicer module (at least at the svn slicer site) to reproduce the system.<br /><strong>Open Source Contributions:</strong><br />They provide some code, but it would be great to provide the VTK Slicer module.&nbsp;<br /><strong>Code Quality:</strong><br />It is well commented.<br /><strong>Applicability to other problems:</strong><br />How we are using slicer for medical students education, we would like to use this system. At this moment, we need the VTK Slicer module and the CT dataset of the phantom.<br /> <strong>Requests for additional information from authors:</strong><br />I&#39;ve read that authors are providing the user guide to build the robotic system. Also, we need the VTK Slicer module and perhaps the CT dataset. We would like to use it for education and teaching.&nbsp;<br /><strong>Additional Comments:</strong><br />Nice work.</p><p>&nbsp;</p>",
-    "date": "10-02-2007",
-    "review_id": 586
+    "content": "<p><strong>&nbsp;Update:</strong></p><p>The authors have provided an outstanding contribution with this work.&nbsp; The revision includes everything that one would need to implement the tutorial.</p><p><strong>&nbsp;</strong><strong>Summary:</strong><br />The authors propose the use of the LEGO mindstorm and 3D&nbsp;slicer for teaching some of the concepts of Image-guided Therapy.&nbsp; The paper describes the LEGO system and some results from their initial experience.</p><p><br /><strong>Hypothesis:</strong><br />N/A</p><p><br /><strong>Evidence:</strong><br />The description of the LEGO system is reasonable, and the results suggest that it may be a viable teaching tool.</p><p><br /><strong>Open Science:</strong><br />This appears to be open science.&nbsp; The tools used are open.&nbsp; The LEGO system costs money, but as the authors point out, it is reasonable.&nbsp; There is great potential for teach with this tool.</p><p>&nbsp;</p><p><strong>Reproducibility:</strong><br />RESOLVED:&nbsp; While the authors provide some code for combining the LEGO system with 3D slice, the suggested teaching information is not available.&nbsp; Specifically, the authors, show a 3D robot but do not provide the design for it.&nbsp; The authors also talk about a phantom but do not provide the design.&nbsp; I cannot, at this point even with the LEGO system, recreate the system.</p><p><strong>Use of Open Source Software:</strong><br />All of the software described is open including the open interface to the LEGO system.&nbsp; The LEGO system does cost some money, but anyone can get it and it seems that the price is not outrageous.&nbsp; The potential applications of the LEGO system are great.</p><p><strong>Open Source Contributions:</strong><br />The main contribution should be the design of the phantom and robot for use in training along with the source code. This is unfortunately missing.</p><p><strong>Code Quality:</strong><br />The provided code is appropriately documented.</p><p><strong>Applicability to other problems:</strong><br />Once a person invests in the system, there are endless training possibilities.</p><p><strong>Suggestions for future work:</strong><br />RESOLVED: I think that a more detail curriculum with several lessons is warranted.</p><p><br /><strong>Requests for additional information from authors:</strong><br />RESOLVED: I fully recognize the great potential of this work, but request that the authors provide a description of how to build the phantom and robot as well as the proposed tutorial.&nbsp; I would like to use this for teaching.</p><p><br /><strong>Additional Comments:</strong><br />RESOLVED: Again, this is a great teaching tool.&nbsp; I commend the authors, but I don&#39;t have enough information to use it for teaching right now.</p>",
+    "date": "09-06-2007",
+    "review_id": 544
    }
   ],
   "submitted_by_author": {
    "author_email": "danielle.pace@kitware.com",
    "author_firstname": "Danielle",
+   "author_fullname": "Pace, Danielle",
    "author_id": 643,
    "author_institution": "Kitware Inc",
    "author_lastname": "Pace"
@@ -105,10 +106,10 @@
   "tags": [
    "robotics",
    "image-guided therapy",
-   "LEGO Mindstorms NXT",
-   "education",
+   "dissemination",
    "3D Slicer",
-   "dissemination"
+   "LEGO Mindstorms NXT",
+   "education"
   ],
   "title": "An accessible, hands-on tutorial system for image-guided therapy and medical robotics using a robot and open-source software"
  }

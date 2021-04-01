@@ -16,12 +16,12 @@
   "date_submitted": "2006-02-27T11:35:03Z",
   "handles": [
    {
-    "handle": "10380/3414",
-    "handle_url": "http://hdl.handle.net/10380/3414"
-   },
-   {
     "handle": "1926/178",
     "handle_url": "http://hdl.handle.net/1926/178"
+   },
+   {
+    "handle": "10380/3414",
+    "handle_url": "http://hdl.handle.net/10380/3414"
    }
   ],
   "identifiers": {
@@ -39,13 +39,14 @@
   "submitted_by_author": {
    "author_email": "wanl.zhu@gmail.com",
    "author_firstname": "Wanlin",
+   "author_fullname": "Zhu, Wanlin",
    "author_id": 257,
    "author_institution": "University of New South Wales",
    "author_lastname": "Zhu"
   },
   "tags": [
-   "itk",
-   "iterator"
+   "iterator",
+   "itk"
   ],
   "title": "optimized image iterators"
  }

@@ -49,15 +49,16 @@
   "submitted_by_author": {
    "author_email": "h.vrooman@erasmusmc.nl",
    "author_firstname": "Henri",
+   "author_fullname": "Vrooman, Henri",
    "author_id": 8759,
    "author_institution": "Erasmus MC University Medical Center Rotterdam",
    "author_lastname": "Vrooman"
   },
   "tags": [
-   "Brain Tissue Segmentation",
-   "Skull Stripping",
    "kNN Classifier",
+   "Brain Tissue Segmentation",
    "Automated Classifier Training",
+   "Skull Stripping",
    "White Matter Lesion Detection"
   ],
   "title": "Auto-kNN: Brain Tissue Segmentation using Automatically Trained k-Nearest-Neighbor Classification"

@@ -69,17 +69,18 @@
   "submitted_by_author": {
    "author_email": "tom.vercauteren@gmail.com",
    "author_firstname": "Tom",
+   "author_fullname": "Vercauteren, Tom",
    "author_id": 156,
    "author_institution": "Mauna Kea Technologies",
    "author_lastname": "Vercauteren"
   },
   "tags": [
+   "Inverse consistency",
    "Demons",
    "Deformation",
-   "Registration",
    "Image Registration",
-   "Diffeomorphism",
-   "Inverse consistency"
+   "Registration",
+   "Diffeomorphism"
   ],
   "title": "An ITK Implementation of the Symmetric Log-Domain Diffeomorphic Demons Algorithm"
  }

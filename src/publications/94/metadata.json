@@ -54,18 +54,19 @@
   "submitted_by_author": {
    "author_email": "ruben@ctm.ulpgc.es",
    "author_firstname": "Ruben",
+   "author_fullname": "Cardenes, Ruben",
    "author_id": 448,
    "author_institution": "University of Las Palmas de Gran Canaria",
    "author_lastname": "Cardenes"
   },
   "tags": [
+   "ordered propagation",
+   "KNN Transform",
    "multichannel segmentation",
    "KNN Segmentation",
    "Computational Geometry",
    "Voronoi Diagrams",
-   "KNN Transform",
-   "Distance Transform",
-   "ordered propagation"
+   "Distance Transform"
   ],
   "title": "Computational Geometry Computation and KNN Segmentation in ITK"
  }

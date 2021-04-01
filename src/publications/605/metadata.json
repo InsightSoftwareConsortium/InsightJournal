@@ -53,6 +53,17 @@
   "reviews": [
    {
     "author": {
+     "author_email": "styner@cs.unc.edu",
+     "author_firstname": "Martin",
+     "author_id": 28,
+     "author_lastname": "Styner"
+    },
+    "content": "<p>This methods extends the existing frameworks for topologically constrained tissue segmentation by Bazin to incorporate an MS lesion model. WM and lesions are grouped together for the topological constraint. Within this joint MS+WM region, each voxel is then classified either as WM or MS based on the computed tissue classification model (unlike WM, lesions have no prior weight in the classification).</p><p>The method is quite appealing with good results. Good discussion.</p><p>The paper is overall well written and no major revisions are needed.</p><p>&nbsp;</p><p>&nbsp;</p>",
+    "date": "07-29-2008",
+    "review_id": 1541
+   },
+   {
+    "author": {
      "author_email": "simon.warfield@childrens.harvard.edu",
      "author_firstname": "Simon",
      "author_id": 514,
@@ -61,30 +72,20 @@
     "content": "<p>This paper describes an algorithm for the segmentation of brain MRI of MS patients.</p><p>The primary contribution of this work is the introduction of a topological constraint, which ensures that the segmentation of patients is topologically equivalent to that of healthy subjects.</p><p>&nbsp;The evaluation of the method indicates it achieves good performance.</p><p>&nbsp;</p>",
     "date": "07-25-2008",
     "review_id": 1531
-   },
-   {
-    "author": {
-     "author_email": "martin_styner@ieee.org",
-     "author_firstname": "Martin",
-     "author_id": 28,
-     "author_lastname": "Styner"
-    },
-    "content": "<p>This methods extends the existing frameworks for topologically constrained tissue segmentation by Bazin to incorporate an MS lesion model. WM and lesions are grouped together for the topological constraint. Within this joint MS+WM region, each voxel is then classified either as WM or MS based on the computed tissue classification model (unlike WM, lesions have no prior weight in the classification).</p><p>The method is quite appealing with good results. Good discussion.</p><p>The paper is overall well written and no major revisions are needed.</p><p>&nbsp;</p><p>&nbsp;</p>",
-    "date": "07-29-2008",
-    "review_id": 1541
    }
   ],
   "submitted_by_author": {
    "author_email": "navid_shiee@yahoo.com",
    "author_firstname": "Navid",
+   "author_fullname": "Shiee, Navid",
    "author_id": 921,
    "author_institution": "Johns Hopkins University",
    "author_lastname": "Shiee"
   },
   "tags": [
+   "Tissue Classification",
    "Multiple Sclerosis",
-   "Magnetic Resonance Imaging",
-   "Tissue Classification"
+   "Magnetic Resonance Imaging"
   ],
   "title": "Multiple Sclerosis Lesion Segmentation Using Statistical and Topological Atlases"
  }

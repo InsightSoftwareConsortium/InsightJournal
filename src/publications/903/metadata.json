@@ -11,6 +11,14 @@
     "persona_lastname": "Wang"
    },
    {
+    "author_fullname": "Wang, Chunliang",
+    "author_place": 2,
+    "persona_email": "1013812915@qq.com",
+    "persona_firstname": "Chun",
+    "persona_id": 11811,
+    "persona_lastname": "Wang"
+   },
+   {
     "author_fullname": "Smedby, \u00d6rjan",
     "author_place": 3,
     "persona_id": null
@@ -44,15 +52,16 @@
   "submitted_by_author": {
    "author_email": "chunliang.wang@liu.se",
    "author_firstname": "Chunliang",
+   "author_fullname": "Wang, Chunliang",
    "author_id": 8762,
    "author_institution": "Link\u00f6ping University, Link\u00f6ping, Sweden",
    "author_lastname": "Wang"
   },
   "tags": [
    "Level set",
-   "Skeleton Based Model",
+   "Brain Segmentation",
    "coherent propagation",
-   "Brain Segmentation"
+   "Skeleton Based Model"
   ],
   "title": "Fully automatic brain segmentation using model-guided level sets and skeleton-based models"
  }

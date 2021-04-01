@@ -25,24 +25,8 @@
   ],
   "comments": [
    {
-    "content": "Hi Ariel,\r\n\r\nThanks for your comments. Note that we keep a latest version at\r\nhttps://github.com/ITKTools/ITKTools/tree/master/src/common\r\n\r\nWe have a function PrintAllArguments() there.\r\n\r\nWe did not notice printing problems or issues with negative numbers. Can you give some details?\r\n\r\nRegards, Marius",
-    "date": "2013-01-23T23:53:35",
-    "persona_email": "m.staring@lumc.nl",
-    "persona_firstname": "Marius",
-    "persona_id": 208,
-    "persona_lastname": "Staring"
-   },
-   {
-    "content": "Just comitted \r\nhttps://github.com/ITKTools/ITKTools/commit/2279517fbbd4096a7d6628aa6b0c92224d36fe18\r\nThanks!\r\nMarius",
-    "date": "2013-03-06T22:17:32",
-    "persona_email": "m.staring@lumc.nl",
-    "persona_firstname": "Marius",
-    "persona_id": 208,
-    "persona_lastname": "Staring"
-   },
-   {
-    "content": "Hi Marius, I fixed a bug in my code. I didn\\'t know that you have another version. My version dosen\\'t have that method. Also, your method dosen\\'t print the parameters.\r\nTake a look of the output of my code and yours:\r\n-------- My code ------\r\nCommand Line Arguments:\r\n--GWidthBM: 3\r\n--alpha: 250\r\n--blockSizeBM: 10\r\n--downSampleBM: 6\r\n--elementPerLine: 3\r\n--epsilon: 1e-5\r\n--errorOnlyMyo\r\n--espGrid: 5\r\n--fieldSampleRate: 5 5 5\r\n--fixedManualSeg: /Volumes/Uva/DatosEco/DatosRioHortega/DatosCartesianos/PhantomIM_0001A/conCompLog/myo_IM_0001A_1_Axial_PhantomCompLogSSD_TrueField.nrrd\r\n--forceCollapse: 1 1 0\r\n--inputVolume: /Volumes/Uva/DatosEco/DatosRioHortega/DatosCartesianos/PhantomIM_0001A/conCompLog/IM_0001A_1_Axial_PhantomCompLogSSD_TrueField.nrrd\r\n--labelMask: 3\r\n--lambda: 0.2\r\n--lambdaBM: 0.5\r\n--mask3D\r\n--maxIt: 25\r\n--maxItBM: 5\r\n--maxItDemons: 10 10 10\r\n--maxRmsE: 0.7 0.4 0.2 0.01\r\n--metricType: SSD\r\n--movingManualSeg: /Volumes/Uva/DatosEco/DatosRioHortega/DatosCartesianos/PhantomIM_0001A/conCompLog/myo_IM_0001A_5_Axial_PhantomCompLog.nrrd\r\n--multiResolutionItScale: 2\r\n--multiResolutionScale: 10\r\n--newDirection: -1 0 0 0 1 0 0 0 1\r\n--newDirection2: -12.1 0 0 0 1 0 0 0 -122.0\r\n--numberChecker: 8\r\n--numberOfLevels: 4\r\n--numberTrheads: 1\r\n--offSpeckle\r\n--outputCk: outputCk.txt\r\n--radiusDilateMask: 10\r\n--relaxFact: 0.8\r\n--searchSizeBM: 3\r\n--sigmaBM: 3\r\n--sigmaDef: 2\r\n--sigmaUp: 8\r\n--sliceCollapse: 104\r\n--stepAffinelength: 0.01 10\r\n--steplength: 0.01 40\r\n--tmovedImage: 5\r\n--transformType: VBST\r\n--trueFieldName: /Volumes/Uva/DatosEco/DatosRioHortega/DatosCartesianos/PhantomIM_0001A/SSD_TrueField_Axial.nrrd\r\n--verbosity: 1\r\n--visualize\r\n--visualizeMask\r\n--volume: /Volumes/Uva/DatosEco/DatosRioHortega/DatosCartesianos/DatosNrrd/IM_0001A.nrrd\r\n----------------------\r\n\r\n\r\n\r\n\r\n\r\n-------- Your code ------\r\n\r\n--GWidthBM\r\n--alpha\r\n--blockSizeBM\r\n--downSampleBM\r\n--elementPerLine\r\n--epsilon\r\n--errorOnlyMyo\r\n--espGrid\r\n--fieldSampleRate\r\n--fixedManualSeg\r\n--forceCollapse\r\n--inputVolume\r\n--labelMask\r\n--lambda\r\n--lambdaBM\r\n--mask3D\r\n--maxIt\r\n--maxItBM\r\n--maxItDemons\r\n--maxRmsE\r\n--metricType\r\n--movingManualSeg\r\n--multiResolutionItScale\r\n--multiResolutionScale\r\n--newDirection\r\n--newDirection2\r\n--numberChecker\r\n--numberOfLevels\r\n--numberTrheads\r\n--offSpeckle\r\n--outputCk\r\n--radiusDilateMask\r\n--relaxFact\r\n--searchSizeBM\r\n--sigmaBM\r\n--sigmaDef\r\n--sigmaUp\r\n--sliceCollapse\r\n--stepAffinelength\r\n--steplength\r\n--tmovedImage\r\n--transformType\r\n--trueFieldName\r\n--verbosity\r\n--visualize\r\n--visualizeMask\r\n--volume",
-    "date": "2013-03-06T06:41:03",
+    "content": "Hi, I\\'ve  fixed a bug to allow negative numbers and print properly. If you want I could share the code with you.",
+    "date": "2013-01-22T23:33:34",
     "persona_email": "curiale@gmail.com",
     "persona_firstname": "Ariel Hern\u00e1n",
     "persona_id": 6521,
@@ -57,12 +41,28 @@
     "persona_lastname": "Curiale"
    },
    {
-    "content": "Hi, I\\'ve  fixed a bug to allow negative numbers and print properly. If you want I could share the code with you.",
-    "date": "2013-01-22T23:33:34",
+    "content": "Hi Marius, I fixed a bug in my code. I didn\\'t know that you have another version. My version dosen\\'t have that method. Also, your method dosen\\'t print the parameters.\r\nTake a look of the output of my code and yours:\r\n-------- My code ------\r\nCommand Line Arguments:\r\n--GWidthBM: 3\r\n--alpha: 250\r\n--blockSizeBM: 10\r\n--downSampleBM: 6\r\n--elementPerLine: 3\r\n--epsilon: 1e-5\r\n--errorOnlyMyo\r\n--espGrid: 5\r\n--fieldSampleRate: 5 5 5\r\n--fixedManualSeg: /Volumes/Uva/DatosEco/DatosRioHortega/DatosCartesianos/PhantomIM_0001A/conCompLog/myo_IM_0001A_1_Axial_PhantomCompLogSSD_TrueField.nrrd\r\n--forceCollapse: 1 1 0\r\n--inputVolume: /Volumes/Uva/DatosEco/DatosRioHortega/DatosCartesianos/PhantomIM_0001A/conCompLog/IM_0001A_1_Axial_PhantomCompLogSSD_TrueField.nrrd\r\n--labelMask: 3\r\n--lambda: 0.2\r\n--lambdaBM: 0.5\r\n--mask3D\r\n--maxIt: 25\r\n--maxItBM: 5\r\n--maxItDemons: 10 10 10\r\n--maxRmsE: 0.7 0.4 0.2 0.01\r\n--metricType: SSD\r\n--movingManualSeg: /Volumes/Uva/DatosEco/DatosRioHortega/DatosCartesianos/PhantomIM_0001A/conCompLog/myo_IM_0001A_5_Axial_PhantomCompLog.nrrd\r\n--multiResolutionItScale: 2\r\n--multiResolutionScale: 10\r\n--newDirection: -1 0 0 0 1 0 0 0 1\r\n--newDirection2: -12.1 0 0 0 1 0 0 0 -122.0\r\n--numberChecker: 8\r\n--numberOfLevels: 4\r\n--numberTrheads: 1\r\n--offSpeckle\r\n--outputCk: outputCk.txt\r\n--radiusDilateMask: 10\r\n--relaxFact: 0.8\r\n--searchSizeBM: 3\r\n--sigmaBM: 3\r\n--sigmaDef: 2\r\n--sigmaUp: 8\r\n--sliceCollapse: 104\r\n--stepAffinelength: 0.01 10\r\n--steplength: 0.01 40\r\n--tmovedImage: 5\r\n--transformType: VBST\r\n--trueFieldName: /Volumes/Uva/DatosEco/DatosRioHortega/DatosCartesianos/PhantomIM_0001A/SSD_TrueField_Axial.nrrd\r\n--verbosity: 1\r\n--visualize\r\n--visualizeMask\r\n--volume: /Volumes/Uva/DatosEco/DatosRioHortega/DatosCartesianos/DatosNrrd/IM_0001A.nrrd\r\n----------------------\r\n\r\n\r\n\r\n\r\n\r\n-------- Your code ------\r\n\r\n--GWidthBM\r\n--alpha\r\n--blockSizeBM\r\n--downSampleBM\r\n--elementPerLine\r\n--epsilon\r\n--errorOnlyMyo\r\n--espGrid\r\n--fieldSampleRate\r\n--fixedManualSeg\r\n--forceCollapse\r\n--inputVolume\r\n--labelMask\r\n--lambda\r\n--lambdaBM\r\n--mask3D\r\n--maxIt\r\n--maxItBM\r\n--maxItDemons\r\n--maxRmsE\r\n--metricType\r\n--movingManualSeg\r\n--multiResolutionItScale\r\n--multiResolutionScale\r\n--newDirection\r\n--newDirection2\r\n--numberChecker\r\n--numberOfLevels\r\n--numberTrheads\r\n--offSpeckle\r\n--outputCk\r\n--radiusDilateMask\r\n--relaxFact\r\n--searchSizeBM\r\n--sigmaBM\r\n--sigmaDef\r\n--sigmaUp\r\n--sliceCollapse\r\n--stepAffinelength\r\n--steplength\r\n--tmovedImage\r\n--transformType\r\n--trueFieldName\r\n--verbosity\r\n--visualize\r\n--visualizeMask\r\n--volume",
+    "date": "2013-03-06T06:41:03",
     "persona_email": "curiale@gmail.com",
     "persona_firstname": "Ariel Hern\u00e1n",
     "persona_id": 6521,
     "persona_lastname": "Curiale"
+   },
+   {
+    "content": "Hi Ariel,\r\n\r\nThanks for your comments. Note that we keep a latest version at\r\nhttps://github.com/ITKTools/ITKTools/tree/master/src/common\r\n\r\nWe have a function PrintAllArguments() there.\r\n\r\nWe did not notice printing problems or issues with negative numbers. Can you give some details?\r\n\r\nRegards, Marius",
+    "date": "2013-01-23T23:53:35",
+    "persona_email": "marius.staring@gmail.com",
+    "persona_firstname": "Marius",
+    "persona_id": 208,
+    "persona_lastname": "Staring"
+   },
+   {
+    "content": "Just comitted \r\nhttps://github.com/ITKTools/ITKTools/commit/2279517fbbd4096a7d6628aa6b0c92224d36fe18\r\nThanks!\r\nMarius",
+    "date": "2013-03-06T22:17:32",
+    "persona_email": "marius.staring@gmail.com",
+    "persona_firstname": "Marius",
+    "persona_id": 208,
+    "persona_lastname": "Staring"
    }
   ],
   "date_submitted": "2011-04-13 08:33:31",
@@ -87,13 +87,14 @@
   "submitted_by_author": {
    "author_email": "marius.staring@gmail.com",
    "author_firstname": "Marius",
+   "author_fullname": "Staring, Marius",
    "author_id": 208,
    "author_institution": "Leiden University Medical Center",
    "author_lastname": "Staring"
   },
   "tags": [
-   "tool",
-   "command line parsing"
+   "command line parsing",
+   "tool"
   ],
   "title": "A Simple Command Line Argument Parser"
  }

@@ -67,17 +67,18 @@
   "submitted_by_author": {
    "author_email": "sylvainjaume@gmail.com",
    "author_firstname": "Sylvain",
+   "author_fullname": "Jaume, Sylvain",
    "author_id": 102,
    "author_institution": "MIT CSAIL",
    "author_lastname": "Jaume"
   },
   "tags": [
-   "segmentation",
    "MRI inhomogeneity",
-   "Gaussian distribution",
    "statistical modeling",
+   "expectation maximization",
    "bias field correction",
-   "expectation maximization"
+   "Gaussian distribution",
+   "segmentation"
   ],
   "title": "New Expectation Maximization Segmentation Pipeline in Slicer 3"
  }
