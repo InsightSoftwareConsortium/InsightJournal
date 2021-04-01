@@ -1,47 +1,52 @@
 {
-  "publication": {
-    "abstract": "Image-guided interventional systems become an essential part of the modern minimally invasive surgical procedures, especially for the cardiac surgery. Transapical aortic valve implantation (TAVI) is a recently developed surgical technique to treat severe aortic valve stenosis in elderly and high-risk patients. The placement of stented aortic valve prosthesis is crucial and typically performed under live 2-D fluoroscopy guidance. To assist the placement of the prosthesis during the surgical procedure, a few image-guided TAVI systems have been developed. This work therefore presents current difficulties and challenges of these guidance systems, with consideration of future prospects.",
-    "authors": [
-      {
-        "author_fullname": "Karar, Mohamed Esmail",
-        "author_place": 1,
-        "persona_email": "mekarar@ieee.org",
-        "persona_firstname": "Mohamed",
-        "persona_id": 8090,
-        "persona_lastname": "Karar"
-      }
-    ],
-    "date_submitted": "2013-08-05 15:54:06",
-    "handles": [
-      {
-        "handle": "10380/3426",
-        "handle_url": "http://hdl.handle.net/10380/3426"
-      }
-    ],
-    "id": 897,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 41,
-        "journal_name": "MICCAI 2013 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "mekarar@ieee.org",
-      "author_firstname": "Mohamed",
-      "author_id": 8090,
-      "author_institution": "Faculty of Electronic Engineering, Menofia University",
-      "author_lastname": "Karar"
-    },
-    "tags": [
-      "C-arm CT system",
-      "computer-assisted intervention",
-      "minimally invasive cardiac surgery",
-      "X-ray fluoroscopy"
-    ],
-    "title": "Perspectives on Image-Guided Transapical Beating Heart Aortic Valve Intervention"
-  }
+ "publication": {
+  "abstract": "Image-guided interventional systems become an essential part of the modern minimally invasive surgical procedures, especially for the cardiac surgery. Transapical aortic valve implantation (TAVI) is a recently developed surgical technique to treat severe aortic valve stenosis in elderly and high-risk patients. The placement of stented aortic valve prosthesis is crucial and typically performed under live 2-D fluoroscopy guidance. To assist the placement of the prosthesis during the surgical procedure, a few image-guided TAVI systems have been developed. This work therefore presents current difficulties and challenges of these guidance systems, with consideration of future prospects.",
+  "authors": [
+   {
+    "author_fullname": "Karar, Mohamed Esmail",
+    "author_place": 1,
+    "persona_email": "mekarar@ieee.org",
+    "persona_firstname": "Mohamed",
+    "persona_id": 8090,
+    "persona_lastname": "Karar"
+   }
+  ],
+  "categories": [
+   "Registration",
+   "Segmentation"
+  ],
+  "comments": [],
+  "date_submitted": "2013-08-05 15:54:06",
+  "handles": [
+   {
+    "handle": "10380/3426",
+    "handle_url": "http://hdl.handle.net/10380/3426"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 41,
+    "journal_name": "MICCAI 2013 Workshops"
+   }
+  ],
+  "publication_id": 897,
+  "submitted_by_author": {
+   "author_email": "mekarar@ieee.org",
+   "author_firstname": "Mohamed",
+   "author_id": 8090,
+   "author_institution": "Faculty of Electronic Engineering, Menofia University",
+   "author_lastname": "Karar"
+  },
+  "tags": [
+   "C-arm CT system",
+   "computer-assisted intervention",
+   "minimally invasive cardiac surgery",
+   "X-ray fluoroscopy"
+  ],
+  "title": "Perspectives on Image-Guided Transapical Beating Heart Aortic Valve Intervention"
+ }
 }

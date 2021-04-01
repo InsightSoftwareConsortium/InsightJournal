@@ -1,51 +1,57 @@
 {
-  "publication": {
-    "abstract": "Leica LiDAR scanners output points in the PTX file format. It is often useful to convert this format to a standard VTK point cloud or mesh format before processing. We propose a new class, vtkPTXReader, to provide this functionality.",
-    "authors": [
-      {
-        "author_fullname": "Doria, David",
-        "author_place": 1,
-        "persona_email": "daviddoria@gmail.com",
-        "persona_firstname": "David",
-        "persona_id": 2205,
-        "persona_lastname": "Doria"
-      }
-    ],
-    "date_submitted": "2010-03-16 21:40:41",
-    "handles": [
-      {
-        "handle": "10380/3148",
-        "handle_url": "http://hdl.handle.net/10380/3148"
-      }
-    ],
-    "id": 712,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 35,
-        "journal_name": "The VTK Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "daviddoria@gmail.com",
-      "author_firstname": "David",
-      "author_id": 2205,
-      "author_institution": "Rensselaer Polytechnic Institute",
-      "author_lastname": "Doria"
-    },
-    "tags": [
-      "lidar",
-      "mesh",
-      "leica",
-      "triangulate",
-      "I/O",
-      "IO",
-      "reader",
-      "ptx"
-    ],
-    "title": "A Leica PTX Reader for VTK"
-  }
+ "publication": {
+  "abstract": "Leica LiDAR scanners output points in the PTX file format. It is often useful to convert this format to a standard VTK point cloud or mesh format before processing. We propose a new class, vtkPTXReader, to provide this functionality.",
+  "authors": [
+   {
+    "author_fullname": "Doria, David",
+    "author_place": 1,
+    "persona_email": "daviddoria@gmail.com",
+    "persona_firstname": "David",
+    "persona_id": 2205,
+    "persona_lastname": "Doria"
+   }
+  ],
+  "categories": [
+   "Data",
+   "Mesh",
+   "PointSet"
+  ],
+  "comments": [],
+  "date_submitted": "2010-03-16 21:40:41",
+  "handles": [
+   {
+    "handle": "10380/3148",
+    "handle_url": "http://hdl.handle.net/10380/3148"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 35,
+    "journal_name": "The VTK Journal"
+   }
+  ],
+  "publication_id": 712,
+  "submitted_by_author": {
+   "author_email": "daviddoria@gmail.com",
+   "author_firstname": "David",
+   "author_id": 2205,
+   "author_institution": "Rensselaer Polytechnic Institute",
+   "author_lastname": "Doria"
+  },
+  "tags": [
+   "lidar",
+   "mesh",
+   "leica",
+   "triangulate",
+   "I/O",
+   "IO",
+   "reader",
+   "ptx"
+  ],
+  "title": "A Leica PTX Reader for VTK"
+ }
 }

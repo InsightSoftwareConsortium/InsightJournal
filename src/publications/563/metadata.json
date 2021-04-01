@@ -1,64 +1,92 @@
 {
-  "publication": {
-    "abstract": "We present a framework for cardiac motion recovery using the adjustment of an electromechanical model of the heart to cine Magnetic Resonance Images (MRI). This approach is based on a constrained minimisation of an energy coupling the model and the data. Our method can be seen as a data assimilation of a dynamic system that allows us to weight appropriately the confidence in the model and the confidence in the data. After a short overview of the electromechanical model of the ventricles, we describe the processing of cine MR images and the methodology for motion recovery. Then, we compare this method to the methodology used in data assimilation. Presented results on motion recovery from given cine-MRI are very promising. In particular, we show that our coupling approach allows us to recover some tangential component of the ventricles motion which cannot be obtained from classical geometrical tracking approaches due to the aperture problem.",
-    "authors": [
-      {
-        "author_fullname": "Billet, Florence",
-        "author_place": 1,
-        "persona_email": "florence.billet@sophia.inria.fr",
-        "persona_firstname": "Florence",
-        "persona_id": 848,
-        "persona_lastname": "Billet"
-      },
-      {
-        "author_fullname": "Sermesant, Maxime",
-        "author_place": 2,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Delingette, Herv\ufffd",
-        "author_place": 3,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Ayache, Nicholas",
-        "author_place": 4,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2008-05-30T20:57:31Z",
-    "handles": [
-      {
-        "handle": "10380/1378",
-        "handle_url": "http://hdl.handle.net/10380/1378"
-      }
-    ],
-    "id": 563,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 33,
-        "journal_name": "MICCAI 2008 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "florence.billet@sophia.inria.fr",
-      "author_firstname": "Florence",
-      "author_id": 848,
-      "author_institution": "INRIA Sophia-Antipolis, France",
-      "author_lastname": "Billet"
-    },
-    "tags": [
-      "data assimilation",
-      "cine-MRI",
-      "ProActive model",
-      "coupling model and data",
-      "state estimation",
-      "electromechanical model of the heart"
-    ],
-    "title": "Cardiac Motion Recovery by Coupling an Electromechanical Model and Cine-MRI Data: First Steps"
-  }
+ "publication": {
+  "abstract": "We present a framework for cardiac motion recovery using the adjustment of an electromechanical model of the heart to cine Magnetic Resonance Images (MRI). This approach is based on a constrained minimisation of an energy coupling the model and the data. Our method can be seen as a data assimilation of a dynamic system that allows us to weight appropriately the confidence in the model and the confidence in the data. After a short overview of the electromechanical model of the ventricles, we describe the processing of cine MR images and the methodology for motion recovery. Then, we compare this method to the methodology used in data assimilation. Presented results on motion recovery from given cine-MRI are very promising. In particular, we show that our coupling approach allows us to recover some tangential component of the ventricles motion which cannot be obtained from classical geometrical tracking approaches due to the aperture problem.",
+  "authors": [
+   {
+    "author_fullname": "Billet, Florence",
+    "author_place": 1,
+    "persona_email": "florence.billet@sophia.inria.fr",
+    "persona_firstname": "Florence",
+    "persona_id": 848,
+    "persona_lastname": "Billet"
+   },
+   {
+    "author_fullname": "Sermesant, Maxime",
+    "author_place": 2,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Delingette, Herv\ufffd",
+    "author_place": 3,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Ayache, Nicholas",
+    "author_place": 4,
+    "persona_id": null
+   }
+  ],
+  "categories": [
+   "Data",
+   "Data Representation",
+   "Derivatives and Integrals",
+   "Diffusion Tensor Imaging",
+   "Distance maps",
+   "Edge Detection",
+   "Error Estimation",
+   "Filtering",
+   "Higher order derivatives",
+   "Image",
+   "Images",
+   "IO",
+   "Linear Algebra",
+   "Mathematical Morphology",
+   "Mathematics",
+   "Mesh",
+   "Objects",
+   "Optimization",
+   "Parameter Techniques",
+   "Resampling",
+   "Segmentation",
+   "Spatial Objects",
+   "Surface extraction",
+   "Tensor image reconstruction",
+   "Thresholding"
+  ],
+  "comments": [],
+  "date_submitted": "2008-05-30T20:57:31Z",
+  "handles": [
+   {
+    "handle": "10380/1378",
+    "handle_url": "http://hdl.handle.net/10380/1378"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 33,
+    "journal_name": "MICCAI 2008 Workshops"
+   }
+  ],
+  "publication_id": 563,
+  "submitted_by_author": {
+   "author_email": "florence.billet@sophia.inria.fr",
+   "author_firstname": "Florence",
+   "author_id": 848,
+   "author_institution": "INRIA Sophia-Antipolis, France",
+   "author_lastname": "Billet"
+  },
+  "tags": [
+   "data assimilation",
+   "cine-MRI",
+   "ProActive model",
+   "coupling model and data",
+   "state estimation",
+   "electromechanical model of the heart"
+  ],
+  "title": "Cardiac Motion Recovery by Coupling an Electromechanical Model and Cine-MRI Data: First Steps"
+ }
 }

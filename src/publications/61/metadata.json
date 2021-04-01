@@ -1,45 +1,49 @@
 {
-  "publication": {
-    "abstract": "ModulusImageFilter is a simple image filter to compute the modulus (x % dividend) pixel-wise.",
-    "authors": [
-      {
-        "author_fullname": "Lehmann, Gaetan",
-        "author_place": 1,
-        "persona_email": "gaetan.lehmann@gmail.com",
-        "persona_firstname": "Gaetan",
-        "persona_id": 328,
-        "persona_lastname": "Lehmann"
-      }
-    ],
-    "date_submitted": "2005-11-23T13:39:27Z",
-    "handles": [
-      {
-        "handle": "1926/144",
-        "handle_url": "http://hdl.handle.net/1926/144"
-      }
-    ],
-    "id": 61,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "gaetan.lehmann@gmail.com",
-      "author_firstname": "Gaetan",
-      "author_id": 328,
-      "author_institution": "INRA",
-      "author_lastname": "Lehmann"
-    },
-    "tags": [
-      "UnaryFunctorImageFilter",
-      "Modulus"
-    ],
-    "title": "ModulusImageFilter"
-  }
+ "publication": {
+  "abstract": "ModulusImageFilter is a simple image filter to compute the modulus (x % dividend) pixel-wise.",
+  "authors": [
+   {
+    "author_fullname": "Lehmann, Gaetan",
+    "author_place": 1,
+    "persona_email": "gaetan.lehmann@gmail.com",
+    "persona_firstname": "Gaetan",
+    "persona_id": 328,
+    "persona_lastname": "Lehmann"
+   }
+  ],
+  "categories": [
+   "Filtering"
+  ],
+  "comments": [],
+  "date_submitted": "2005-11-23T13:39:27Z",
+  "handles": [
+   {
+    "handle": "1926/144",
+    "handle_url": "http://hdl.handle.net/1926/144"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 61,
+  "submitted_by_author": {
+   "author_email": "gaetan.lehmann@gmail.com",
+   "author_firstname": "Gaetan",
+   "author_id": 328,
+   "author_institution": "INRA",
+   "author_lastname": "Lehmann"
+  },
+  "tags": [
+   "UnaryFunctorImageFilter",
+   "Modulus"
+  ],
+  "title": "ModulusImageFilter"
+ }
 }

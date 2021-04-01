@@ -1,45 +1,47 @@
 {
-  "publication": {
-    "abstract": "The DICOM Working Group 4 (compression group) has approved in November 2001 the use of JPEG 2000 compression as part of the DICOM standard. This document describes how this wavelet transform-based image compression algorithms is now integrated via GDCM and OpenJPEG in the Insight Toolkit ITK.",
-    "authors": [
-      {
-        "author_fullname": "Malaterre, Mathieu",
-        "author_place": 1,
-        "persona_email": "mathieu.malaterre@gmail.com",
-        "persona_firstname": "Mathieu",
-        "persona_id": 310,
-        "persona_lastname": "Malaterre"
-      }
-    ],
-    "date_submitted": "2006-02-03T19:42:58Z",
-    "handles": [
-      {
-        "handle": "1926/166",
-        "handle_url": "http://hdl.handle.net/1926/166"
-      }
-    ],
-    "id": 73,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "mathieu.malaterre@gmail.com",
-      "author_firstname": "Mathieu",
-      "author_id": 310,
-      "author_institution": "BioImaging SAS",
-      "author_lastname": "Malaterre"
-    },
-    "tags": [
-      "JPEG2000",
-      "DICOM"
-    ],
-    "title": "JPEG 2000 in Medical Applications"
-  }
+ "publication": {
+  "abstract": "The DICOM Working Group 4 (compression group) has approved in November 2001 the use of JPEG 2000 compression as part of the DICOM standard. This document describes how this wavelet transform-based image compression algorithms is now integrated via GDCM and OpenJPEG in the Insight Toolkit ITK.",
+  "authors": [
+   {
+    "author_fullname": "Malaterre, Mathieu",
+    "author_place": 1,
+    "persona_email": "mathieu.malaterre@gmail.com",
+    "persona_firstname": "Mathieu",
+    "persona_id": 310,
+    "persona_lastname": "Malaterre"
+   }
+  ],
+  "categories": [],
+  "comments": [],
+  "date_submitted": "2006-02-03T19:42:58Z",
+  "handles": [
+   {
+    "handle": "1926/166",
+    "handle_url": "http://hdl.handle.net/1926/166"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 73,
+  "submitted_by_author": {
+   "author_email": "mathieu.malaterre@gmail.com",
+   "author_firstname": "Mathieu",
+   "author_id": 310,
+   "author_institution": "BioImaging SAS",
+   "author_lastname": "Malaterre"
+  },
+  "tags": [
+   "JPEG2000",
+   "DICOM"
+  ],
+  "title": "JPEG 2000 in Medical Applications"
+ }
 }

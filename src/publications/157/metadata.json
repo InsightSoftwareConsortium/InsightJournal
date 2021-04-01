@@ -1,81 +1,89 @@
 {
-  "publication": {
-    "abstract": "In this paper, we describe a database of cine-MR (3D+t) images of the\r\nleft ventricle. This database contains the voxel data, one automated\r\nand two manual segmentations for each sequence of images. The\r\nsegmentations are validated from a clinical point of view. We detail\r\nhow the images were obtained, as well as how the associated\r\nsegmentations were performed. We also provide the data clinical\r\nvalidation process.\r\n\r\nThis database, including tools to compute quantitative measures and\r\nthe software package used to obtain the automated segmentation, is\r\nfreely available for research purposes.",
-    "authors": [
-      {
-        "author_fullname": "Najman, Laurent",
-        "author_place": 1,
-        "persona_email": "l.najman@esiee.fr",
-        "persona_firstname": "Laurent ",
-        "persona_id": 605,
-        "persona_lastname": "Najman"
-      },
-      {
-        "author_fullname": "Cousty, Jean",
-        "author_place": 2,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Couprie, Michel",
-        "author_place": 3,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Talbot, Hugues",
-        "author_place": 4,
-        "persona_email": "h.talbot@esiee.fr",
-        "persona_firstname": "Hugues",
-        "persona_id": 2202,
-        "persona_lastname": "Talbot"
-      },
-      {
-        "author_fullname": "Cl\u00e9ment-Guinaudeau, St\u00e9phanie",
-        "author_place": 5,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Goissen, Thomas",
-        "author_place": 6,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Garot, J\u00e9rome",
-        "author_place": 7,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2007-06-29T15:37:05Z",
-    "handles": [
-      {
-        "handle": "1926/550",
-        "handle_url": "http://hdl.handle.net/1926/550"
-      }
-    ],
-    "id": 157,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "l.najman@esiee.fr",
-      "author_firstname": "Laurent ",
-      "author_id": 605,
-      "author_institution": "ESIEE",
-      "author_lastname": "Najman"
-    },
-    "tags": [
-      "left ventricular function",
-      "myocardial infarction",
-      "image processing",
-      "left ventricular mass",
-      "Cardiac magnetic resonance"
-    ],
-    "title": "An open, clinically-validated database of 3D+t cine-MR images of the left ventricle with associated manual and automated segmentation"
-  }
+ "publication": {
+  "abstract": "In this paper, we describe a database of cine-MR (3D+t) images of the\r\nleft ventricle. This database contains the voxel data, one automated\r\nand two manual segmentations for each sequence of images. The\r\nsegmentations are validated from a clinical point of view. We detail\r\nhow the images were obtained, as well as how the associated\r\nsegmentations were performed. We also provide the data clinical\r\nvalidation process.\r\n\r\nThis database, including tools to compute quantitative measures and\r\nthe software package used to obtain the automated segmentation, is\r\nfreely available for research purposes.",
+  "authors": [
+   {
+    "author_fullname": "Najman, Laurent",
+    "author_place": 1,
+    "persona_email": "l.najman@esiee.fr",
+    "persona_firstname": "Laurent ",
+    "persona_id": 605,
+    "persona_lastname": "Najman"
+   },
+   {
+    "author_fullname": "Cousty, Jean",
+    "author_place": 2,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Couprie, Michel",
+    "author_place": 3,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Talbot, Hugues",
+    "author_place": 4,
+    "persona_email": "h.talbot@esiee.fr",
+    "persona_firstname": "Hugues",
+    "persona_id": 2202,
+    "persona_lastname": "Talbot"
+   },
+   {
+    "author_fullname": "Cl\u00e9ment-Guinaudeau, St\u00e9phanie",
+    "author_place": 5,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Goissen, Thomas",
+    "author_place": 6,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Garot, J\u00e9rome",
+    "author_place": 7,
+    "persona_id": null
+   }
+  ],
+  "categories": [
+   "Feature extraction",
+   "Programming",
+   "Registration",
+   "Segmentation",
+   "Watersheds"
+  ],
+  "comments": [],
+  "date_submitted": "2007-06-29T15:37:05Z",
+  "handles": [
+   {
+    "handle": "1926/550",
+    "handle_url": "http://hdl.handle.net/1926/550"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 157,
+  "submitted_by_author": {
+   "author_email": "l.najman@esiee.fr",
+   "author_firstname": "Laurent ",
+   "author_id": 605,
+   "author_institution": "ESIEE",
+   "author_lastname": "Najman"
+  },
+  "tags": [
+   "left ventricular function",
+   "myocardial infarction",
+   "image processing",
+   "left ventricular mass",
+   "Cardiac magnetic resonance"
+  ],
+  "title": "An open, clinically-validated database of 3D+t cine-MR images of the left ventricle with associated manual and automated segmentation"
+ }
 }

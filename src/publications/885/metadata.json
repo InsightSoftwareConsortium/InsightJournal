@@ -1,69 +1,97 @@
 {
-  "publication": {
-    "abstract": "This document describes an ITK implementation of an interactive method for tracing curvilinear structures.\nThe basic tools provided in this framework are an oriented flux-based tubularity measure and a geodesic path \ntracer that uses the fast marching algorithm. The framework is efficient and requires minimal user \ninteraction to trace curvilinear structures such as vessels and neurites in 2D images and 3D image \nstacks.",
-    "authors": [
-      {
-        "author_fullname": "Benmansour, Fethallah",
-        "author_place": 2,
-        "persona_email": "fethallah@gmail.com",
-        "persona_firstname": "Fethallah",
-        "persona_id": 2850,
-        "persona_lastname": "Benmansour"
-      },
-      {
-        "author_fullname": "Turetken, Engin",
-        "author_place": 3,
-        "persona_email": "turetken.engin@gmail.com",
-        "persona_firstname": "Engin",
-        "persona_id": 7245,
-        "persona_lastname": "Turetken"
-      },
-      {
-        "author_fullname": "Fua, Pascal",
-        "author_place": 4,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2013-02-01 03:44:05",
-    "handles": [
-      {
-        "handle": "10380/3398",
-        "handle_url": "http://hdl.handle.net/10380/3398"
-      }
-    ],
-    "id": 885,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "turetken.engin@gmail.com",
-      "author_firstname": "Engin",
-      "author_id": 7245,
-      "author_institution": "EPFL",
-      "author_lastname": "Turetken"
-    },
-    "tags": [
-      "Tree-like Structures",
-      "Curvilinear Structures",
-      "Tubular structures",
-      "Optimally Oriented Flux",
-      "Tubularity",
-      "Tubular Geodesic",
-      "Tracing",
-      "Reconstruction",
-      "Segmentation",
-      "Vessel Tracing",
-      "Neurite Tracing",
-      "Centerline Extraction",
-      "Minimal Path"
-    ],
-    "title": "Tubular Geodesics using Oriented Flux: An ITK Implementation"
-  }
+ "publication": {
+  "abstract": "This document describes an ITK implementation of an interactive method for tracing curvilinear structures.\nThe basic tools provided in this framework are an oriented flux-based tubularity measure and a geodesic path \ntracer that uses the fast marching algorithm. The framework is efficient and requires minimal user \ninteraction to trace curvilinear structures such as vessels and neurites in 2D images and 3D image \nstacks.",
+  "authors": [
+   {
+    "author_fullname": "Benmansour, Fethallah",
+    "author_place": 2,
+    "persona_email": "fethallah@gmail.com",
+    "persona_firstname": "Fethallah",
+    "persona_id": 2850,
+    "persona_lastname": "Benmansour"
+   },
+   {
+    "author_fullname": "Turetken, Engin",
+    "author_place": 3,
+    "persona_email": "turetken.engin@gmail.com",
+    "persona_firstname": "Engin",
+    "persona_id": 7245,
+    "persona_lastname": "Turetken"
+   },
+   {
+    "author_fullname": "Fua, Pascal",
+    "author_place": 4,
+    "persona_id": null
+   }
+  ],
+  "categories": [
+   "Data Representation",
+   "Feature extraction",
+   "Filtering",
+   "Mathematics",
+   "Optimization",
+   "Path",
+   "Segmentation",
+   "Surface extraction"
+  ],
+  "comments": [
+   {
+    "content": "The code does not compile with ITK 4.5 \r\n\r\nFirst error is:\r\n\r\nitkOrientedFluxMatrixImageFilter.h:62:3: error: \u2018GetImageDimension\u2019 is not a member of \u2018itk\u2019",
+    "date": "2014-05-27T06:03:29",
+    "persona_email": "josp.jorge@gmail.com",
+    "persona_firstname": "Jorge",
+    "persona_id": 2475,
+    "persona_lastname": "P\u00e9rez"
+   },
+   {
+    "content": "I have the same error:\u2018GetImageDimension\u2019 is not a member of \u2018itk'.How can I deal with it?",
+    "date": "2015-03-30T08:47:02",
+    "persona_email": "hxx331202@126.com",
+    "persona_firstname": "Xiaozhu",
+    "persona_id": 9379,
+    "persona_lastname": "Xiaomo"
+   }
+  ],
+  "date_submitted": "2013-02-01 03:44:05",
+  "handles": [
+   {
+    "handle": "10380/3398",
+    "handle_url": "http://hdl.handle.net/10380/3398"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 885,
+  "submitted_by_author": {
+   "author_email": "turetken.engin@gmail.com",
+   "author_firstname": "Engin",
+   "author_id": 7245,
+   "author_institution": "EPFL",
+   "author_lastname": "Turetken"
+  },
+  "tags": [
+   "Tree-like Structures",
+   "Curvilinear Structures",
+   "Tubular structures",
+   "Optimally Oriented Flux",
+   "Tubularity",
+   "Tubular Geodesic",
+   "Tracing",
+   "Reconstruction",
+   "Segmentation",
+   "Vessel Tracing",
+   "Neurite Tracing",
+   "Centerline Extraction",
+   "Minimal Path"
+  ],
+  "title": "Tubular Geodesics using Oriented Flux: An ITK Implementation"
+ }
 }

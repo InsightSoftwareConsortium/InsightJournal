@@ -1,63 +1,65 @@
 {
-  "publication": {
-    "abstract": "ImageLib is a free object-oriented development environment destined to biomedical image processing. The software package contains a programming library (C++ language) and an MDI user interface (kernel). The major interest is to allow the creation of fully modular applications. Both user processing functions and image read/write facilities are separately compiled as DLLs, and the resulting plugin objects are dynamically imported into the kernel. The library provides all the required wrapping material to incorporate all find of image processing functions into user-written components. A rapid prototyping application is provided to communicate with the kernel communication interface. No graphics programming skills is required to manage advanced user interactions, image display (e.g. OpenGL), and generic image processing functions based on C++ templates. The component-oriented software architecture makes it possible to share image processing and handling resources for light Windows processing applications.",
-    "authors": [
-      {
-        "author_fullname": "Villeger, Alice",
-        "author_place": 2,
-        "persona_email": "alice.villeger@laposte.net",
-        "persona_firstname": "Alice",
-        "persona_id": 450,
-        "persona_lastname": "Villeger"
-      },
-      {
-        "author_fullname": "Montagner, Julien",
-        "author_place": 1,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Flouvat, Frederic",
-        "author_place": 3,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Boire, Jean-Yves",
-        "author_place": 4,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2006-07-01T18:21:10Z",
-    "handles": [
-      {
-        "handle": "1926/210",
-        "handle_url": "http://hdl.handle.net/1926/210"
-      }
-    ],
-    "id": 98,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "alice.villeger@laposte.net",
-      "author_firstname": "Alice",
-      "author_id": 450,
-      "author_institution": "ERIM, Medicine Faculty, Auvergne University, FRANCE",
-      "author_lastname": "Villeger"
-    },
-    "tags": [
-      "User components",
-      "Code generation",
-      "Medical image processing",
-      "Development package",
-      "Modularity"
-    ],
-    "title": "A programming environment for the development of modular 3D biomedical image processing applications"
-  }
+ "publication": {
+  "abstract": "ImageLib is a free object-oriented development environment destined to biomedical image processing. The software package contains a programming library (C++ language) and an MDI user interface (kernel). The major interest is to allow the creation of fully modular applications. Both user processing functions and image read/write facilities are separately compiled as DLLs, and the resulting plugin objects are dynamically imported into the kernel. The library provides all the required wrapping material to incorporate all find of image processing functions into user-written components. A rapid prototyping application is provided to communicate with the kernel communication interface. No graphics programming skills is required to manage advanced user interactions, image display (e.g. OpenGL), and generic image processing functions based on C++ templates. The component-oriented software architecture makes it possible to share image processing and handling resources for light Windows processing applications.",
+  "authors": [
+   {
+    "author_fullname": "Villeger, Alice",
+    "author_place": 2,
+    "persona_email": "alice.villeger@laposte.net",
+    "persona_firstname": "Alice",
+    "persona_id": 450,
+    "persona_lastname": "Villeger"
+   },
+   {
+    "author_fullname": "Montagner, Julien",
+    "author_place": 1,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Flouvat, Frederic",
+    "author_place": 3,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Boire, Jean-Yves",
+    "author_place": 4,
+    "persona_id": null
+   }
+  ],
+  "categories": [],
+  "comments": [],
+  "date_submitted": "2006-07-01T18:21:10Z",
+  "handles": [
+   {
+    "handle": "1926/210",
+    "handle_url": "http://hdl.handle.net/1926/210"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 98,
+  "submitted_by_author": {
+   "author_email": "alice.villeger@laposte.net",
+   "author_firstname": "Alice",
+   "author_id": 450,
+   "author_institution": "ERIM, Medicine Faculty, Auvergne University, FRANCE",
+   "author_lastname": "Villeger"
+  },
+  "tags": [
+   "User components",
+   "Code generation",
+   "Medical image processing",
+   "Development package",
+   "Modularity"
+  ],
+  "title": "A programming environment for the development of modular 3D biomedical image processing applications"
+ }
 }

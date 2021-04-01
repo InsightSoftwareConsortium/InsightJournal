@@ -1,45 +1,50 @@
 {
-  "publication": {
-    "abstract": "This code provides an implementation of a simple technique to fill small holes in an image. We use a multi-pass method that fills pixels on the border of a hole with the average of its non-hole 8-connected neighbors. This process is repeated until all holes are filled.\n\nThe code is available here: https://github.com/daviddoria/SmallHoleFiller",
-    "authors": [
-      {
-        "author_fullname": "Doria, David",
-        "author_place": 1,
-        "persona_email": "daviddoria@gmail.com",
-        "persona_firstname": "David",
-        "persona_id": 2205,
-        "persona_lastname": "Doria"
-      }
-    ],
-    "date_submitted": "2011-08-24 15:09:28",
-    "handles": [
-      {
-        "handle": "10380/3312",
-        "handle_url": "http://hdl.handle.net/10380/3312"
-      }
-    ],
-    "id": 835,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "daviddoria@gmail.com",
-      "author_firstname": "David",
-      "author_id": 2205,
-      "author_institution": "Rensselaer Polytechnic Institute",
-      "author_lastname": "Doria"
-    },
-    "tags": [
-      "Hole filling",
-      "Interpolation"
-    ],
-    "title": "Small Hole Filling in ITK"
-  }
+ "publication": {
+  "abstract": "This code provides an implementation of a simple technique to fill small holes in an image. We use a multi-pass method that fills pixels on the border of a hole with the average of its non-hole 8-connected neighbors. This process is repeated until all holes are filled.\n\nThe code is available here: https://github.com/daviddoria/SmallHoleFiller",
+  "authors": [
+   {
+    "author_fullname": "Doria, David",
+    "author_place": 1,
+    "persona_email": "daviddoria@gmail.com",
+    "persona_firstname": "David",
+    "persona_id": 2205,
+    "persona_lastname": "Doria"
+   }
+  ],
+  "categories": [
+   "Blurring filters",
+   "Image"
+  ],
+  "comments": [],
+  "date_submitted": "2011-08-24 15:09:28",
+  "handles": [
+   {
+    "handle": "10380/3312",
+    "handle_url": "http://hdl.handle.net/10380/3312"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 835,
+  "submitted_by_author": {
+   "author_email": "daviddoria@gmail.com",
+   "author_firstname": "David",
+   "author_id": 2205,
+   "author_institution": "Rensselaer Polytechnic Institute",
+   "author_lastname": "Doria"
+  },
+  "tags": [
+   "Hole filling",
+   "Interpolation"
+  ],
+  "title": "Small Hole Filling in ITK"
+ }
 }

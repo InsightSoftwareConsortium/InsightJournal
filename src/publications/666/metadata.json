@@ -1,68 +1,74 @@
 {
-  "publication": {
-    "abstract": "We present a fully automatic method for 3D segmentation of the mandibular bone from CT data. The method includes an adaptation of statistical shape models of the mandible, the skull base and the midfacial bones, followed by a simultaneous graph-based optimization of adjacent deformable models. The adaptation of the models to the image data is performed according to a heuristic model of the typical intensity distribution in the vincinity of the bone boundary, with special focus on an accurate discrimination of adjacent bones in joint regions. An evaluation of our method based on 18 CT scans shows that a manual correction of the automatic segmentations is not necessary in approx. 60% of the axial slices that contain the mandible.",
-    "authors": [
-      {
-        "author_fullname": "Kainmueller, Dagmar",
-        "author_place": 1,
-        "persona_email": "kainmueller@zib.de",
-        "persona_firstname": "Dagmar",
-        "persona_id": 2224,
-        "persona_lastname": "Kainmueller"
-      },
-      {
-        "author_fullname": "Lamecker, Hans",
-        "author_place": 2,
-        "persona_email": "lamecker@zib.de",
-        "persona_firstname": "Hans",
-        "persona_id": 2694,
-        "persona_lastname": "Lamecker"
-      },
-      {
-        "author_fullname": "Seim, Heiko",
-        "author_place": 3,
-        "persona_email": "seim@zib.de",
-        "persona_firstname": "Heiko",
-        "persona_id": 2223,
-        "persona_lastname": "Seim"
-      },
-      {
-        "author_fullname": "Zachow, Stefan",
-        "author_place": 4,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2009-09-09 10:41:18",
-    "handles": [
-      {
-        "handle": "10380/3099",
-        "handle_url": "http://hdl.handle.net/10380/3099"
-      }
-    ],
-    "id": 666,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 34,
-        "journal_name": "MICCAI 2009 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "kainmueller@zib.de",
-      "author_firstname": "Dagmar",
-      "author_id": 2224,
-      "author_institution": "Zuse Institute Berlin",
-      "author_lastname": "Kainmueller"
-    },
-    "tags": [
-      "automatic segmentation",
-      "mandible",
-      "multi-object segmentation",
-      "statistical shape model"
-    ],
-    "title": "Multi-object Segmentation of Head Bones"
-  }
+ "publication": {
+  "abstract": "We present a fully automatic method for 3D segmentation of the mandibular bone from CT data. The method includes an adaptation of statistical shape models of the mandible, the skull base and the midfacial bones, followed by a simultaneous graph-based optimization of adjacent deformable models. The adaptation of the models to the image data is performed according to a heuristic model of the typical intensity distribution in the vincinity of the bone boundary, with special focus on an accurate discrimination of adjacent bones in joint regions. An evaluation of our method based on 18 CT scans shows that a manual correction of the automatic segmentations is not necessary in approx. 60% of the axial slices that contain the mandible.",
+  "authors": [
+   {
+    "author_fullname": "Kainmueller, Dagmar",
+    "author_place": 1,
+    "persona_email": "kainmueller@zib.de",
+    "persona_firstname": "Dagmar",
+    "persona_id": 2224,
+    "persona_lastname": "Kainmueller"
+   },
+   {
+    "author_fullname": "Lamecker, Hans",
+    "author_place": 2,
+    "persona_email": "lamecker@zib.de",
+    "persona_firstname": "Hans",
+    "persona_id": 2694,
+    "persona_lastname": "Lamecker"
+   },
+   {
+    "author_fullname": "Seim, Heiko",
+    "author_place": 3,
+    "persona_email": "seim@zib.de",
+    "persona_firstname": "Heiko",
+    "persona_id": 2223,
+    "persona_lastname": "Seim"
+   },
+   {
+    "author_fullname": "Zachow, Stefan",
+    "author_place": 4,
+    "persona_id": null
+   }
+  ],
+  "categories": [
+   "Point distribution models",
+   "Segmentation",
+   "Statistical shape models"
+  ],
+  "comments": [],
+  "date_submitted": "2009-09-09 10:41:18",
+  "handles": [
+   {
+    "handle": "10380/3099",
+    "handle_url": "http://hdl.handle.net/10380/3099"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 34,
+    "journal_name": "MICCAI 2009 Workshops"
+   }
+  ],
+  "publication_id": 666,
+  "submitted_by_author": {
+   "author_email": "kainmueller@zib.de",
+   "author_firstname": "Dagmar",
+   "author_id": 2224,
+   "author_institution": "Zuse Institute Berlin",
+   "author_lastname": "Kainmueller"
+  },
+  "tags": [
+   "automatic segmentation",
+   "mandible",
+   "multi-object segmentation",
+   "statistical shape model"
+  ],
+  "title": "Multi-object Segmentation of Head Bones"
+ }
 }

@@ -1,81 +1,86 @@
 {
-  "publication": {
-    "abstract": "Automated segmentation is a frequently applied task in the course of medical imaging. Furthermore, it is a substantial component of image-guided radiotherapy. Atlas based segmentation is one of the most frequently used approach for automated segmentation. Especially for multi-atlas based segmentation, segmentation quality and speed largely depends on the underlying registration and atlas selection strategy. In this work an atlas selection strategy that is based on the correlation of inter-atlas similarities within a set of atlas images is presented. Segmentation quality is analyzed by calculating dice coefficients and 95% Hausdorff distances for the left and right parotid with respect to different numbers of atlases. Results are compared to other state of the art atlas selection strategies. It can be shown that the developed atlas selection technique performs slightly better than NMI-based selection if a low number of atlases is used.",
-    "authors": [
-      {
-        "author_fullname": "Raudaschl, Patrik",
-        "author_place": 1,
-        "persona_email": "patrik.raudaschl@umit.at",
-        "persona_firstname": "Patrik",
-        "persona_id": 9241,
-        "persona_lastname": "Raudaschl"
-      },
-      {
-        "author_fullname": "Fritscher, Karl",
-        "author_place": 2,
-        "persona_email": "karl.fritscher@umit.at",
-        "persona_firstname": "Karl ",
-        "persona_id": 65,
-        "persona_lastname": "Fritscher"
-      },
-      {
-        "author_fullname": "Zaffino, Paolo",
-        "author_place": 3,
-        "persona_email": "p.zaffino@unicz.it",
-        "persona_firstname": "Paolo",
-        "persona_id": 9669,
-        "persona_lastname": "Zaffino"
-      },
-      {
-        "author_fullname": "Sharp, Gregory",
-        "author_place": 4,
-        "persona_email": "gcsharp@partners.org",
-        "persona_firstname": "Greg",
-        "persona_id": 2425,
-        "persona_lastname": "Sharp"
-      },
-      {
-        "author_fullname": "Spadea, Marta",
-        "author_place": 5,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Schubert, Rainer",
-        "author_place": 6,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2014-11-03 08:01:08",
-    "handles": [
-      {
-        "handle": "10380/3501",
-        "handle_url": "http://hdl.handle.net/10380/3501"
-      }
-    ],
-    "id": 946,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 42,
-        "journal_name": "MICCAI 2014 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "patrik.raudaschl@umit.at",
-      "author_firstname": "Patrik",
-      "author_id": 9241,
-      "author_institution": "UMIT",
-      "author_lastname": "Raudaschl"
-    },
-    "tags": [
-      "Atlas selection",
-      "Atlas-based segmentation",
-      "Normalized mutual information",
-      "Deformable image registration"
-    ],
-    "title": "A novel atlas-selection approach for multi-atlas based segmentation using the correlation of inter-atlas similarities"
-  }
+ "publication": {
+  "abstract": "Automated segmentation is a frequently applied task in the course of medical imaging. Furthermore, it is a substantial component of image-guided radiotherapy. Atlas based segmentation is one of the most frequently used approach for automated segmentation. Especially for multi-atlas based segmentation, segmentation quality and speed largely depends on the underlying registration and atlas selection strategy. In this work an atlas selection strategy that is based on the correlation of inter-atlas similarities within a set of atlas images is presented. Segmentation quality is analyzed by calculating dice coefficients and 95% Hausdorff distances for the left and right parotid with respect to different numbers of atlases. Results are compared to other state of the art atlas selection strategies. It can be shown that the developed atlas selection technique performs slightly better than NMI-based selection if a low number of atlases is used.",
+  "authors": [
+   {
+    "author_fullname": "Raudaschl, Patrik",
+    "author_place": 1,
+    "persona_email": "patrik.raudaschl@umit.at",
+    "persona_firstname": "Patrik",
+    "persona_id": 9241,
+    "persona_lastname": "Raudaschl"
+   },
+   {
+    "author_fullname": "Fritscher, Karl",
+    "author_place": 2,
+    "persona_email": "karl.fritscher@umit.at",
+    "persona_firstname": "Karl ",
+    "persona_id": 65,
+    "persona_lastname": "Fritscher"
+   },
+   {
+    "author_fullname": "Zaffino, Paolo",
+    "author_place": 3,
+    "persona_email": "p.zaffino@unicz.it",
+    "persona_firstname": "Paolo",
+    "persona_id": 9669,
+    "persona_lastname": "Zaffino"
+   },
+   {
+    "author_fullname": "Sharp, Gregory",
+    "author_place": 4,
+    "persona_email": "gcsharp@partners.org",
+    "persona_firstname": "Greg",
+    "persona_id": 2425,
+    "persona_lastname": "Sharp"
+   },
+   {
+    "author_fullname": "Spadea, Marta",
+    "author_place": 5,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Schubert, Rainer",
+    "author_place": 6,
+    "persona_id": null
+   }
+  ],
+  "categories": [
+   "Atlas-based segmentation",
+   "Deformable registration"
+  ],
+  "comments": [],
+  "date_submitted": "2014-11-03 08:01:08",
+  "handles": [
+   {
+    "handle": "10380/3501",
+    "handle_url": "http://hdl.handle.net/10380/3501"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 42,
+    "journal_name": "MICCAI 2014 Workshops"
+   }
+  ],
+  "publication_id": 946,
+  "submitted_by_author": {
+   "author_email": "patrik.raudaschl@umit.at",
+   "author_firstname": "Patrik",
+   "author_id": 9241,
+   "author_institution": "UMIT",
+   "author_lastname": "Raudaschl"
+  },
+  "tags": [
+   "Atlas selection",
+   "Atlas-based segmentation",
+   "Normalized mutual information",
+   "Deformable image registration"
+  ],
+  "title": "A novel atlas-selection approach for multi-atlas based segmentation using the correlation of inter-atlas similarities"
+ }
 }

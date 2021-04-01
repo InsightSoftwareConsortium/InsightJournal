@@ -1,58 +1,63 @@
 {
-  "publication": {
-    "abstract": "This article describes implementation of a CLI module to merge an image into the space of another adjacent image using the Insight Toolkit. The algorithm constructs a smoothly stitched image out of two or more smaller images. The overlapping regions of the images are used to align the images. The registration method is derived from ITK's Registration framework. The algorithm works with 2D and 3D images.",
-    "authors": [
-      {
-        "author_fullname": "Mullins, Christopher",
-        "author_place": 1,
-        "persona_email": "christopher.mullins@kitware.com",
-        "persona_firstname": "Christopher",
-        "persona_id": 7192,
-        "persona_lastname": "Mullins"
-      },
-      {
-        "author_fullname": "Gessner, Ryan",
-        "author_place": 2,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Aylward, Stephen",
-        "author_place": 3,
-        "persona_email": "stephen.aylward@kitware.com",
-        "persona_firstname": "Stephen",
-        "persona_id": 1,
-        "persona_lastname": "Aylward"
-      }
-    ],
-    "date_submitted": "2014-01-06 16:50:48",
-    "handles": [
-      {
-        "handle": "10380/3453",
-        "handle_url": "http://hdl.handle.net/10380/3453"
-      }
-    ],
-    "id": 914,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "christopher.mullins@kitware.com",
-      "author_firstname": "Christopher",
-      "author_id": 7192,
-      "author_institution": "Kitware, Inc.",
-      "author_lastname": "Mullins"
-    },
-    "tags": [
-      "stitching",
-      "TubeTK"
-    ],
-    "title": "Using TubeTK to Automatically Merge Volumes"
-  }
+ "publication": {
+  "abstract": "This article describes implementation of a CLI module to merge an image into the space of another adjacent image using the Insight Toolkit. The algorithm constructs a smoothly stitched image out of two or more smaller images. The overlapping regions of the images are used to align the images. The registration method is derived from ITK's Registration framework. The algorithm works with 2D and 3D images.",
+  "authors": [
+   {
+    "author_fullname": "Mullins, Christopher",
+    "author_place": 1,
+    "persona_email": "christopher.mullins@kitware.com",
+    "persona_firstname": "Christopher",
+    "persona_id": 7192,
+    "persona_lastname": "Mullins"
+   },
+   {
+    "author_fullname": "Gessner, Ryan",
+    "author_place": 2,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Aylward, Stephen",
+    "author_place": 3,
+    "persona_email": "stephen.aylward@kitware.com",
+    "persona_firstname": "Stephen",
+    "persona_id": 1,
+    "persona_lastname": "Aylward"
+   }
+  ],
+  "categories": [
+   "Images",
+   "Resampling"
+  ],
+  "comments": [],
+  "date_submitted": "2014-01-06 16:50:48",
+  "handles": [
+   {
+    "handle": "10380/3453",
+    "handle_url": "http://hdl.handle.net/10380/3453"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 914,
+  "submitted_by_author": {
+   "author_email": "christopher.mullins@kitware.com",
+   "author_firstname": "Christopher",
+   "author_id": 7192,
+   "author_institution": "Kitware, Inc.",
+   "author_lastname": "Mullins"
+  },
+  "tags": [
+   "stitching",
+   "TubeTK"
+  ],
+  "title": "Using TubeTK to Automatically Merge Volumes"
+ }
 }

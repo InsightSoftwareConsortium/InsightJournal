@@ -1,46 +1,51 @@
 {
-  "publication": {
-    "abstract": "Segmenting images into \"super pixels\" is lately a very hot topic. One implementation of such a technique is by Felzenszwalb and Huttenlocher. We propose a new class, vtkSuperPixelSegmentation, which has wrapped Felzenszwalb's code (with permission) to provide this functionality in the VTK framework. The latest version includes an ITK filter as well as the original VTK filter. A GUI is also now available to interactively set the filter parameters and see the resulting segments. The code is available here: https://github.com/daviddoria/SuperPixelSegmentation.",
-    "authors": [
-      {
-        "author_fullname": "Doria, David",
-        "author_place": 1,
-        "persona_email": "daviddoria@gmail.com",
-        "persona_firstname": "David",
-        "persona_id": 2205,
-        "persona_lastname": "Doria"
-      }
-    ],
-    "date_submitted": "2010-03-16 16:13:59",
-    "handles": [
-      {
-        "handle": "10380/3157",
-        "handle_url": "http://hdl.handle.net/10380/3157"
-      }
-    ],
-    "id": 720,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 35,
-        "journal_name": "The VTK Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "daviddoria@gmail.com",
-      "author_firstname": "David",
-      "author_id": 2205,
-      "author_institution": "Rensselaer Polytechnic Institute",
-      "author_lastname": "Doria"
-    },
-    "tags": [
-      "segmentation",
-      "graphcuts",
-      "superpixels"
-    ],
-    "title": "Graph Cuts Based Super Pixel Segmentation for VTK"
-  }
+ "publication": {
+  "abstract": "Segmenting images into \"super pixels\" is lately a very hot topic. One implementation of such a technique is by Felzenszwalb and Huttenlocher. We propose a new class, vtkSuperPixelSegmentation, which has wrapped Felzenszwalb's code (with permission) to provide this functionality in the VTK framework. The latest version includes an ITK filter as well as the original VTK filter. A GUI is also now available to interactively set the filter parameters and see the resulting segments. The code is available here: https://github.com/daviddoria/SuperPixelSegmentation.",
+  "authors": [
+   {
+    "author_fullname": "Doria, David",
+    "author_place": 1,
+    "persona_email": "daviddoria@gmail.com",
+    "persona_firstname": "David",
+    "persona_id": 2205,
+    "persona_lastname": "Doria"
+   }
+  ],
+  "categories": [
+   "Image",
+   "Segmentation"
+  ],
+  "comments": [],
+  "date_submitted": "2010-03-16 16:13:59",
+  "handles": [
+   {
+    "handle": "10380/3157",
+    "handle_url": "http://hdl.handle.net/10380/3157"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 35,
+    "journal_name": "The VTK Journal"
+   }
+  ],
+  "publication_id": 720,
+  "submitted_by_author": {
+   "author_email": "daviddoria@gmail.com",
+   "author_firstname": "David",
+   "author_id": 2205,
+   "author_institution": "Rensselaer Polytechnic Institute",
+   "author_lastname": "Doria"
+  },
+  "tags": [
+   "segmentation",
+   "graphcuts",
+   "superpixels"
+  ],
+  "title": "Graph Cuts Based Super Pixel Segmentation for VTK"
+ }
 }

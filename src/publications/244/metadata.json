@@ -1,58 +1,63 @@
 {
-  "publication": {
-    "abstract": "When dealing with functional minimization, or maximization, it can sometimes be solved by a greedy algorithm. To implement greedy algorithm one needs priority queue container, i.e. get for a very low cost the lowest or highest element present in a sorted container. Whenever the priority of one element present in the queue needs to be modified, standard implementations, like \\code{std::priority\\_queue}, can not be applied directly. VTK has is own implementation \\code{vtkPriorityQueue} which is not templated and can only be applied for \\code{vtkIdType} and for the minimizing the functional. We propose here an implementation of a mutable priority queue container where element, priority, and objective (minimization or maximization) are given by template arguments. Our implementation allows to minimize or maximize a given functional, and any element can be modified, deleted at any time, and with a low cost.",
-    "authors": [
-      {
-        "author_fullname": "Gelas, Arnaud",
-        "author_place": 1,
-        "persona_email": "arnaudgelas@gmail.com",
-        "persona_firstname": "Arnaud",
-        "persona_id": 7896,
-        "persona_lastname": "Gelas"
-      },
-      {
-        "author_fullname": "Gouaillard, Alexandre",
-        "author_place": 2,
-        "persona_email": "agouaillard@gmail.com",
-        "persona_firstname": "Alexandre",
-        "persona_id": 322,
-        "persona_lastname": "Gouaillard"
-      },
-      {
-        "author_fullname": "Megason, Sean",
-        "author_place": 3,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2008-06-30",
-    "handles": [
-      {
-        "handle": "1926/1395",
-        "handle_url": "http://hdl.handle.net/1926/1395"
-      }
-    ],
-    "id": 244,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "agouaillard@gmail.com",
-      "author_firstname": "Alexandre",
-      "author_id": 322,
-      "author_institution": "Singapore Agency for Science Technology and Research",
-      "author_lastname": "Gouaillard"
-    },
-    "tags": [
-      "mutable",
-      "priority queue"
-    ],
-    "title": "Mutable Priority Queue Container"
-  }
+ "publication": {
+  "abstract": "When dealing with functional minimization, or maximization, it can sometimes be solved by a greedy algorithm. To implement greedy algorithm one needs priority queue container, i.e. get for a very low cost the lowest or highest element present in a sorted container. Whenever the priority of one element present in the queue needs to be modified, standard implementations, like \\code{std::priority\\_queue}, can not be applied directly. VTK has is own implementation \\code{vtkPriorityQueue} which is not templated and can only be applied for \\code{vtkIdType} and for the minimizing the functional. We propose here an implementation of a mutable priority queue container where element, priority, and objective (minimization or maximization) are given by template arguments. Our implementation allows to minimize or maximize a given functional, and any element can be modified, deleted at any time, and with a low cost.",
+  "authors": [
+   {
+    "author_fullname": "Gelas, Arnaud",
+    "author_place": 1,
+    "persona_email": "arnaudgelas@gmail.com",
+    "persona_firstname": "Arnaud",
+    "persona_id": 7896,
+    "persona_lastname": "Gelas"
+   },
+   {
+    "author_fullname": "Gouaillard, Alexandre",
+    "author_place": 2,
+    "persona_email": "agouaillard@gmail.com",
+    "persona_firstname": "Alexandre",
+    "persona_id": 322,
+    "persona_lastname": "Gouaillard"
+   },
+   {
+    "author_fullname": "Megason, Sean",
+    "author_place": 3,
+    "persona_id": null
+   }
+  ],
+  "categories": [
+   "Code speed optimization",
+   "Generic Programming"
+  ],
+  "comments": [],
+  "date_submitted": "2008-06-30",
+  "handles": [
+   {
+    "handle": "1926/1395",
+    "handle_url": "http://hdl.handle.net/1926/1395"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 244,
+  "submitted_by_author": {
+   "author_email": "agouaillard@gmail.com",
+   "author_firstname": "Alexandre",
+   "author_id": 322,
+   "author_institution": "Singapore Agency for Science Technology and Research",
+   "author_lastname": "Gouaillard"
+  },
+  "tags": [
+   "mutable",
+   "priority queue"
+  ],
+  "title": "Mutable Priority Queue Container"
+ }
 }

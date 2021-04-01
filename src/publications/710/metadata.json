@@ -1,78 +1,83 @@
 {
-  "publication": {
-    "abstract": "We present a VTK-based implementation of our non-parametric vessel detection method that identifies vascular structures using a polar neighborhood profile. To accelerate the computationally intensive parts of the algorithm, we leverage the hardware capabilities in commodity graphics hardware using Compute Unified Device Architecture (CUDA). We present the results of our performance analysis and provide source code and examples to validate the reproducibility of our results.",
-    "authors": [
-      {
-        "author_fullname": "Alpoge, Levent",
-        "author_place": 1,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Joshi, Alark",
-        "author_place": 2,
-        "persona_email": "alark.joshi@yale.edu",
-        "persona_firstname": "Alark",
-        "persona_id": 2154,
-        "persona_lastname": "Joshi"
-      },
-      {
-        "author_fullname": "Scheinost, Dustin",
-        "author_place": 3,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Onofrey, John",
-        "author_place": 4,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Qian, Xiaoning",
-        "author_place": 5,
-        "persona_email": "xiaoning.qian@gmail.com",
-        "persona_firstname": "Xiaoning",
-        "persona_id": 487,
-        "persona_lastname": "Qian"
-      },
-      {
-        "author_fullname": "Papademetris, Xenophon",
-        "author_place": 6,
-        "persona_email": "xenophon.papademetris@yale.edu",
-        "persona_firstname": "Xenophon",
-        "persona_id": 79,
-        "persona_lastname": "Papademetris"
-      }
-    ],
-    "date_submitted": "2010-01-25 16:46:36",
-    "handles": [
-      {
-        "handle": "10380/3146",
-        "handle_url": "http://hdl.handle.net/10380/3146"
-      }
-    ],
-    "id": 710,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 35,
-        "journal_name": "The VTK Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "alark.joshi@yale.edu",
-      "author_firstname": "Alark",
-      "author_id": 2154,
-      "author_institution": "Yale University",
-      "author_lastname": "Joshi"
-    },
-    "tags": [
-      "polar profile",
-      "CUDA",
-      "vessel detection",
-      "hardware acceleration"
-    ],
-    "title": "A VTK-based, CUDA-optimized Non-Parametric Vessel Detection Method"
-  }
+ "publication": {
+  "abstract": "We present a VTK-based implementation of our non-parametric vessel detection method that identifies vascular structures using a polar neighborhood profile. To accelerate the computationally intensive parts of the algorithm, we leverage the hardware capabilities in commodity graphics hardware using Compute Unified Device Architecture (CUDA). We present the results of our performance analysis and provide source code and examples to validate the reproducibility of our results.",
+  "authors": [
+   {
+    "author_fullname": "Alpoge, Levent",
+    "author_place": 1,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Joshi, Alark",
+    "author_place": 2,
+    "persona_email": "alark.joshi@yale.edu",
+    "persona_firstname": "Alark",
+    "persona_id": 2154,
+    "persona_lastname": "Joshi"
+   },
+   {
+    "author_fullname": "Scheinost, Dustin",
+    "author_place": 3,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Onofrey, John",
+    "author_place": 4,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Qian, Xiaoning",
+    "author_place": 5,
+    "persona_email": "xiaoning.qian@gmail.com",
+    "persona_firstname": "Xiaoning",
+    "persona_id": 487,
+    "persona_lastname": "Qian"
+   },
+   {
+    "author_fullname": "Papademetris, Xenophon",
+    "author_place": 6,
+    "persona_email": "xenophon.papademetris@yale.edu",
+    "persona_firstname": "Xenophon",
+    "persona_id": 79,
+    "persona_lastname": "Papademetris"
+   }
+  ],
+  "categories": [
+   "Feature extraction",
+   "Neighborhood filters"
+  ],
+  "comments": [],
+  "date_submitted": "2010-01-25 16:46:36",
+  "handles": [
+   {
+    "handle": "10380/3146",
+    "handle_url": "http://hdl.handle.net/10380/3146"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 35,
+    "journal_name": "The VTK Journal"
+   }
+  ],
+  "publication_id": 710,
+  "submitted_by_author": {
+   "author_email": "alark.joshi@yale.edu",
+   "author_firstname": "Alark",
+   "author_id": 2154,
+   "author_institution": "Yale University",
+   "author_lastname": "Joshi"
+  },
+  "tags": [
+   "polar profile",
+   "CUDA",
+   "vessel detection",
+   "hardware acceleration"
+  ],
+  "title": "A VTK-based, CUDA-optimized Non-Parametric Vessel Detection Method"
+ }
 }

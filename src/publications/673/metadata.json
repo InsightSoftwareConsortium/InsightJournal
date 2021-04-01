@@ -1,47 +1,52 @@
 {
-  "publication": {
-    "abstract": "This document describes a cost function, or metric, for use in image registration using the Insight Toolkit. The RatioVarianceImageToImageMetric class implements a metric which is calculated from the variance of the ratios of voxel values of the moving and fixed images.",
-    "authors": [
-      {
-        "author_fullname": "Topping, Geoffrey",
-        "author_place": 1,
-        "persona_email": "gtopping@physics.ubc.ca",
-        "persona_firstname": "Geoff",
-        "persona_id": 2229,
-        "persona_lastname": "Topping"
-      }
-    ],
-    "date_submitted": "2009-07-23 04:42:33",
-    "handles": [
-      {
-        "handle": "10380/3104",
-        "handle_url": "http://hdl.handle.net/10380/3104"
-      }
-    ],
-    "id": 673,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "gtopping@physics.ubc.ca",
-      "author_firstname": "Geoff",
-      "author_id": 2229,
-      "author_institution": "University of British Columbia",
-      "author_lastname": "Topping"
-    },
-    "tags": [
-      "metric",
-      "variance",
-      "AIR",
-      "registration"
-    ],
-    "title": "Voxel Value Ratio Variance Image Registration Metric for the Insight Toolkit"
-  }
+ "publication": {
+  "abstract": "This document describes a cost function, or metric, for use in image registration using the Insight Toolkit. The RatioVarianceImageToImageMetric class implements a metric which is calculated from the variance of the ratios of voxel values of the moving and fixed images.",
+  "authors": [
+   {
+    "author_fullname": "Topping, Geoffrey",
+    "author_place": 1,
+    "persona_email": "gtopping@physics.ubc.ca",
+    "persona_firstname": "Geoff",
+    "persona_id": 2229,
+    "persona_lastname": "Topping"
+   }
+  ],
+  "categories": [
+   "Registration",
+   "Registration metrics"
+  ],
+  "comments": [],
+  "date_submitted": "2009-07-23 04:42:33",
+  "handles": [
+   {
+    "handle": "10380/3104",
+    "handle_url": "http://hdl.handle.net/10380/3104"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 673,
+  "submitted_by_author": {
+   "author_email": "gtopping@physics.ubc.ca",
+   "author_firstname": "Geoff",
+   "author_id": 2229,
+   "author_institution": "University of British Columbia",
+   "author_lastname": "Topping"
+  },
+  "tags": [
+   "metric",
+   "variance",
+   "AIR",
+   "registration"
+  ],
+  "title": "Voxel Value Ratio Variance Image Registration Metric for the Insight Toolkit"
+ }
 }

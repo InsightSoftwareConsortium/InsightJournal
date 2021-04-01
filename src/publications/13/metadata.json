@@ -1,108 +1,110 @@
 {
-  "publication": {
-    "abstract": "The Medical Imaging Interaction Toolkit (MITK) is an opensource toolkit for the development of interactive medical image analysis software. MITK is based on the open-source Insight Toolkit (ITK) and Visualization Toolkit (VTK) and extends them with features required for interactive systems. ITK is used for the algorithmic scope and general infrastructure, VTK for visualization. Key features of MITK are the coordination of multiple 2D and 3D visualizations of arbitrary data, a general interaction concept including undo/redo, and its extendibility and flexibility to create tailored applications due to its toolkit character and\r\ndifferent layers of hidden complexity. The paper gives a brief introduction into the overall concepts and goals of the MITK approach. Suggestions and participation are welcome. MITK is available at www.mitk.org.",
-    "authors": [
-      {
-        "author_fullname": "Wolf, Ivo",
-        "author_place": 1,
-        "persona_email": "i.wolf@dkfz.de",
-        "persona_firstname": "Ivo",
-        "persona_id": 6,
-        "persona_lastname": "Wolf"
-      },
-      {
-        "author_fullname": "Nolden, Marco",
-        "author_place": 2,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Boettger, Thomas",
-        "author_place": 3,
-        "persona_email": "th.boettger@web.de",
-        "persona_firstname": "Thomas",
-        "persona_id": 117,
-        "persona_lastname": "Boettger"
-      },
-      {
-        "author_fullname": "Wegner, Ingmar",
-        "author_place": 4,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Schoebinger, Max",
-        "author_place": 5,
-        "persona_email": "m.schoebinger@dkfz-heidelberg.de",
-        "persona_firstname": "Max",
-        "persona_id": 172,
-        "persona_lastname": "Schoebinger"
-      },
-      {
-        "author_fullname": "Hastenteufel, Mark",
-        "author_place": 6,
-        "persona_email": "m.hastenteufel@gmx.de",
-        "persona_firstname": "Mark",
-        "persona_id": 12,
-        "persona_lastname": "Hastenteufel"
-      },
-      {
-        "author_fullname": "Heimann, Tobias",
-        "author_place": 7,
-        "persona_email": "t.heimann@dkfz-heidelberg.de",
-        "persona_firstname": "Tobias",
-        "persona_id": 210,
-        "persona_lastname": "Heimann"
-      },
-      {
-        "author_fullname": "Meinzer, Hans-Peter",
-        "author_place": 8,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Vetter, Marcus",
-        "author_place": 9,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2005-07-29T16:39:01Z",
-    "handles": [
-      {
-        "handle": "1926/380",
-        "handle_url": "http://hdl.handle.net/1926/380"
-      },
-      {
-        "handle": "1926/14",
-        "handle_url": "http://hdl.handle.net/1926/14"
-      },
-      {
-        "handle": "1926/1389",
-        "handle_url": "http://hdl.handle.net/1926/1389"
-      }
-    ],
-    "id": 13,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "i.wolf@dkfz.de",
-      "author_firstname": "Ivo",
-      "author_id": 6,
-      "author_institution": "DKFZ",
-      "author_lastname": "Wolf"
-    },
-    "tags": [
-      "MITK",
-      "visualization",
-      "interaction",
-      "VTK",
-      "ITK"
-    ],
-    "title": "The MITK Approach"
-  }
+ "publication": {
+  "abstract": "The Medical Imaging Interaction Toolkit (MITK) is an opensource toolkit for the development of interactive medical image analysis software. MITK is based on the open-source Insight Toolkit (ITK) and Visualization Toolkit (VTK) and extends them with features required for interactive systems. ITK is used for the algorithmic scope and general infrastructure, VTK for visualization. Key features of MITK are the coordination of multiple 2D and 3D visualizations of arbitrary data, a general interaction concept including undo/redo, and its extendibility and flexibility to create tailored applications due to its toolkit character and\r\ndifferent layers of hidden complexity. The paper gives a brief introduction into the overall concepts and goals of the MITK approach. Suggestions and participation are welcome. MITK is available at www.mitk.org.",
+  "authors": [
+   {
+    "author_fullname": "Wolf, Ivo",
+    "author_place": 1,
+    "persona_email": "i.wolf@dkfz.de",
+    "persona_firstname": "Ivo",
+    "persona_id": 6,
+    "persona_lastname": "Wolf"
+   },
+   {
+    "author_fullname": "Nolden, Marco",
+    "author_place": 2,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Boettger, Thomas",
+    "author_place": 3,
+    "persona_email": "th.boettger@web.de",
+    "persona_firstname": "Thomas",
+    "persona_id": 117,
+    "persona_lastname": "Boettger"
+   },
+   {
+    "author_fullname": "Wegner, Ingmar",
+    "author_place": 4,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Schoebinger, Max",
+    "author_place": 5,
+    "persona_email": "m.schoebinger@dkfz-heidelberg.de",
+    "persona_firstname": "Max",
+    "persona_id": 172,
+    "persona_lastname": "Schoebinger"
+   },
+   {
+    "author_fullname": "Hastenteufel, Mark",
+    "author_place": 6,
+    "persona_email": "m.hastenteufel@gmx.de",
+    "persona_firstname": "Mark",
+    "persona_id": 12,
+    "persona_lastname": "Hastenteufel"
+   },
+   {
+    "author_fullname": "Heimann, Tobias",
+    "author_place": 7,
+    "persona_email": "t.heimann@dkfz-heidelberg.de",
+    "persona_firstname": "Tobias",
+    "persona_id": 210,
+    "persona_lastname": "Heimann"
+   },
+   {
+    "author_fullname": "Meinzer, Hans-Peter",
+    "author_place": 8,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Vetter, Marcus",
+    "author_place": 9,
+    "persona_id": null
+   }
+  ],
+  "categories": [],
+  "comments": [],
+  "date_submitted": "2005-07-29T16:39:01Z",
+  "handles": [
+   {
+    "handle": "1926/380",
+    "handle_url": "http://hdl.handle.net/1926/380"
+   },
+   {
+    "handle": "1926/14",
+    "handle_url": "http://hdl.handle.net/1926/14"
+   },
+   {
+    "handle": "1926/1389",
+    "handle_url": "http://hdl.handle.net/1926/1389"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 13,
+  "submitted_by_author": {
+   "author_email": "i.wolf@dkfz.de",
+   "author_firstname": "Ivo",
+   "author_id": 6,
+   "author_institution": "DKFZ",
+   "author_lastname": "Wolf"
+  },
+  "tags": [
+   "MITK",
+   "visualization",
+   "interaction",
+   "VTK",
+   "ITK"
+  ],
+  "title": "The MITK Approach"
+ }
 }

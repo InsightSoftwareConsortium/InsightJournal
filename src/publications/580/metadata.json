@@ -1,51 +1,77 @@
 {
-  "publication": {
-    "abstract": "We propose an algorithm for tracking blood vessel segments in Computed Tomographic (CT) images.\r\nOur procedure first finds core points that tend to concentrate along the centerlines of vessels. Intuitively,\r\nthe core points are centers of intensity plateaus in two-dimensional slices through the input image. The\r\nstarting and the end point of the desired vessel (S and E) are also considered core points. The weighted\r\ncore graph is built by connecting nearby core points with edges. Edge weights are designed so that edges\r\nof large weights are unlikely to follow a vessel segment. We compute the shortest path connecting S and\r\nE in the core graph. The output is the result of applying shortcutting operations to this path.",
-    "authors": [
-      {
-        "author_fullname": "szymczak, andrzej",
-        "author_place": 1,
-        "persona_email": "aszymcza@mines.edu",
-        "persona_firstname": "Andrzej",
-        "persona_id": 878,
-        "persona_lastname": "Szymczak"
-      }
-    ],
-    "date_submitted": "2008-07-06T05:10:39Z",
-    "handles": [
-      {
-        "handle": "10380/1406",
-        "handle_url": "http://hdl.handle.net/10380/1406"
-      }
-    ],
-    "id": 580,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 43,
-        "journal_name": "ISBI 2015 Workshops"
-      },
-      {
-        "journal_id": 33,
-        "journal_name": "MICCAI 2008 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "aszymcza@mines.edu",
-      "author_firstname": "Andrzej",
-      "author_id": 878,
-      "author_institution": "Colorado School of Mines",
-      "author_lastname": "Szymczak"
-    },
-    "tags": [
-      "vessel",
-      "Computed Tomography",
-      "topology",
-      "tracking"
-    ],
-    "title": "Vessel tracking by connecting the dots"
-  }
+ "publication": {
+  "abstract": "We propose an algorithm for tracking blood vessel segments in Computed Tomographic (CT) images.\r\nOur procedure first finds core points that tend to concentrate along the centerlines of vessels. Intuitively,\r\nthe core points are centers of intensity plateaus in two-dimensional slices through the input image. The\r\nstarting and the end point of the desired vessel (S and E) are also considered core points. The weighted\r\ncore graph is built by connecting nearby core points with edges. Edge weights are designed so that edges\r\nof large weights are unlikely to follow a vessel segment. We compute the shortest path connecting S and\r\nE in the core graph. The output is the result of applying shortcutting operations to this path.",
+  "authors": [
+   {
+    "author_fullname": "szymczak, andrzej",
+    "author_place": 1,
+    "persona_email": "aszymcza@mines.edu",
+    "persona_firstname": "Andrzej",
+    "persona_id": 878,
+    "persona_lastname": "Szymczak"
+   }
+  ],
+  "categories": [
+   "Blurring filters",
+   "Classification",
+   "Data Representation",
+   "Derivatives and Integrals",
+   "Edge Detection",
+   "Feature extraction",
+   "Filtering",
+   "Image",
+   "Level sets",
+   "Mathematical Morphology",
+   "Mathematics",
+   "Missing and Noisy Features",
+   "Neighborhood filters",
+   "Path",
+   "Point distribution models",
+   "PointSet",
+   "Region growing",
+   "Resampling",
+   "Segmentation",
+   "Spatial Objects",
+   "Statistical shape models",
+   "Thresholding",
+   "Watersheds"
+  ],
+  "comments": [],
+  "date_submitted": "2008-07-06T05:10:39Z",
+  "handles": [
+   {
+    "handle": "10380/1406",
+    "handle_url": "http://hdl.handle.net/10380/1406"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 43,
+    "journal_name": "ISBI 2015 Workshops"
+   },
+   {
+    "journal_id": 33,
+    "journal_name": "MICCAI 2008 Workshops"
+   }
+  ],
+  "publication_id": 580,
+  "submitted_by_author": {
+   "author_email": "aszymcza@mines.edu",
+   "author_firstname": "Andrzej",
+   "author_id": 878,
+   "author_institution": "Colorado School of Mines",
+   "author_lastname": "Szymczak"
+  },
+  "tags": [
+   "vessel",
+   "Computed Tomography",
+   "topology",
+   "tracking"
+  ],
+  "title": "Vessel tracking by connecting the dots"
+ }
 }

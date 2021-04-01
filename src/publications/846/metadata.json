@@ -1,46 +1,55 @@
 {
-  "publication": {
-    "abstract": "We have implemented filters for computing phase symmetry (PS) in ITK using steerable filters computed and applied in the Fourier domain. In some recent publications, phase symmetry has been shown to be a useful pre-processing measure for performing image registration and segmentation. Matlab implementations of the code are currently available, but may be slower than C++ versions and most importantly, do not work with volumetric (3D) data. In this paper we briefly provide background information and list some applications of PS filters from the literature. We then provide instructions and examples of how to use the classes and executables.",
-    "authors": [
-      {
-        "author_fullname": "Hatt, Charles",
-        "author_place": 1,
-        "persona_email": "charlesrayhatt@gmail.com",
-        "persona_firstname": "Charles",
-        "persona_id": 5871,
-        "persona_lastname": "Hatt"
-      }
-    ],
-    "date_submitted": "2012-03-22 23:59:01",
-    "handles": [
-      {
-        "handle": "10380/3330",
-        "handle_url": "http://hdl.handle.net/10380/3330"
-      }
-    ],
-    "id": 846,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "charlesrayhatt@gmail.com",
-      "author_firstname": "Charles",
-      "author_id": 5871,
-      "author_institution": "University of Wisconsin - Madison",
-      "author_lastname": "Hatt"
-    },
-    "tags": [
-      "Wavelet",
-      "Phase Symmetry",
-      "Local Phase"
-    ],
-    "title": "Multi-scale Steerable Phase-Symmetry Filters for ITK"
-  }
+ "publication": {
+  "abstract": "We have implemented filters for computing phase symmetry (PS) in ITK using steerable filters computed and applied in the Fourier domain. In some recent publications, phase symmetry has been shown to be a useful pre-processing measure for performing image registration and segmentation. Matlab implementations of the code are currently available, but may be slower than C++ versions and most importantly, do not work with volumetric (3D) data. In this paper we briefly provide background information and list some applications of PS filters from the literature. We then provide instructions and examples of how to use the classes and executables.",
+  "authors": [
+   {
+    "author_fullname": "Hatt, Charles",
+    "author_place": 1,
+    "persona_email": "charlesrayhatt@gmail.com",
+    "persona_firstname": "Charles",
+    "persona_id": 5871,
+    "persona_lastname": "Hatt"
+   }
+  ],
+  "categories": [
+   "Edge Detection",
+   "Feature extraction",
+   "Filtering",
+   "Image",
+   "Registration",
+   "Segmentation"
+  ],
+  "comments": [],
+  "date_submitted": "2012-03-22 23:59:01",
+  "handles": [
+   {
+    "handle": "10380/3330",
+    "handle_url": "http://hdl.handle.net/10380/3330"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 846,
+  "submitted_by_author": {
+   "author_email": "charlesrayhatt@gmail.com",
+   "author_firstname": "Charles",
+   "author_id": 5871,
+   "author_institution": "University of Wisconsin - Madison",
+   "author_lastname": "Hatt"
+  },
+  "tags": [
+   "Wavelet",
+   "Phase Symmetry",
+   "Local Phase"
+  ],
+  "title": "Multi-scale Steerable Phase-Symmetry Filters for ITK"
+ }
 }

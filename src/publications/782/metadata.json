@@ -1,47 +1,52 @@
 {
-  "publication": {
-    "abstract": "Distributed anisotropic diffusion provides a wrapper program around ITK's anisotropic diffusion filters that allows an input image to be spread across the memory of several computers and the processors of all of the computers to work simultaneously on the output. Distributed anisotropic diffusion allows the Visible Woman Head dataset to be smoothed with 100 iterations of the vector gradient magnitude anisotropic diffusion filter in 47 minutes on an 8 node 64 core cluster versus 53 minutes for just 10 iterations of standard vector gradient magnitude anisotropic diffusion on a single node.",
-    "authors": [
-      {
-        "author_fullname": "Hobbs, Kevin",
-        "author_place": 1,
-        "persona_email": "hobbsk@ohiou.edu",
-        "persona_firstname": "Kevin",
-        "persona_id": 465,
-        "persona_lastname": "Hobbs"
-      }
-    ],
-    "date_submitted": "2010-12-15 13:29:16",
-    "handles": [
-      {
-        "handle": "10380/3242",
-        "handle_url": "http://hdl.handle.net/10380/3242"
-      }
-    ],
-    "id": 782,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "hobbsk@ohiou.edu",
-      "author_firstname": "Kevin",
-      "author_id": 465,
-      "author_institution": "Ohio University",
-      "author_lastname": "Hobbs"
-    },
-    "tags": [
-      "MPI",
-      "Distributed",
-      "Smoothing",
-      "Anisotropic"
-    ],
-    "title": "Distributed Anisotropic Diffusion"
-  }
+ "publication": {
+  "abstract": "Distributed anisotropic diffusion provides a wrapper program around ITK's anisotropic diffusion filters that allows an input image to be spread across the memory of several computers and the processors of all of the computers to work simultaneously on the output. Distributed anisotropic diffusion allows the Visible Woman Head dataset to be smoothed with 100 iterations of the vector gradient magnitude anisotropic diffusion filter in 47 minutes on an 8 node 64 core cluster versus 53 minutes for just 10 iterations of standard vector gradient magnitude anisotropic diffusion on a single node.",
+  "authors": [
+   {
+    "author_fullname": "Hobbs, Kevin",
+    "author_place": 1,
+    "persona_email": "hobbsk@ohiou.edu",
+    "persona_firstname": "Kevin",
+    "persona_id": 465,
+    "persona_lastname": "Hobbs"
+   }
+  ],
+  "categories": [
+   "Anisotropic blurring filters",
+   "Distributed computation"
+  ],
+  "comments": [],
+  "date_submitted": "2010-12-15 13:29:16",
+  "handles": [
+   {
+    "handle": "10380/3242",
+    "handle_url": "http://hdl.handle.net/10380/3242"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 782,
+  "submitted_by_author": {
+   "author_email": "hobbsk@ohiou.edu",
+   "author_firstname": "Kevin",
+   "author_id": 465,
+   "author_institution": "Ohio University",
+   "author_lastname": "Hobbs"
+  },
+  "tags": [
+   "MPI",
+   "Distributed",
+   "Smoothing",
+   "Anisotropic"
+  ],
+  "title": "Distributed Anisotropic Diffusion"
+ }
 }

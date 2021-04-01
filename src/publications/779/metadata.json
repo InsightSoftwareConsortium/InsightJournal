@@ -1,45 +1,59 @@
 {
-  "publication": {
-    "abstract": "This paper describes an intensity image filter for computing the variance of pixel values contained within a neighborhood centered at each input pixel. The output image contains the calculated variance at each input pixel location. Variance calculations can be restricted by setting an image mask. This paper is accompanied with source code for the filter and test, test images and parameters, and expected output images. ",
-    "authors": [
-      {
-        "author_fullname": "Tamburo, Robert",
-        "author_place": 1,
-        "persona_email": "robert.tamburo@gmail.com",
-        "persona_firstname": "Robert",
-        "persona_id": 59,
-        "persona_lastname": "Tamburo"
-      }
-    ],
-    "date_submitted": "2011-01-05 15:14:25",
-    "handles": [
-      {
-        "handle": "10380/3236",
-        "handle_url": "http://hdl.handle.net/10380/3236"
-      }
-    ],
-    "id": 779,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "robert.tamburo@gmail.com",
-      "author_firstname": "Robert",
-      "author_id": 59,
-      "author_institution": " ",
-      "author_lastname": "Tamburo"
-    },
-    "tags": [
-      "intensity image filter",
-      "variance"
-    ],
-    "title": "Variance Image Filter"
-  }
+ "publication": {
+  "abstract": "This paper describes an intensity image filter for computing the variance of pixel values contained within a neighborhood centered at each input pixel. The output image contains the calculated variance at each input pixel location. Variance calculations can be restricted by setting an image mask. This paper is accompanied with source code for the filter and test, test images and parameters, and expected output images. ",
+  "authors": [
+   {
+    "author_fullname": "Tamburo, Robert",
+    "author_place": 1,
+    "persona_email": "robert.tamburo@gmail.com",
+    "persona_firstname": "Robert",
+    "persona_id": 59,
+    "persona_lastname": "Tamburo"
+   }
+  ],
+  "categories": [
+   "Filtering",
+   "Neighborhood filters"
+  ],
+  "comments": [
+   {
+    "content": "Just what I needed. Thank you!\r\n\r\nMy only suggestion would be to make the threaded methods available for ITK v4 as well as previous releases:\r\n\r\nitkVarianceImageFilter.h:\r\n\r\nvoid ThreadedGenerateData(const OutputImageRegionType& outputRegionForThread,\r\n#if ITK_VERSION_MAJOR < 4\r\n                          int threadId );\r\n#else\r\n                          ThreadIdType threadId );\r\n#endif\r\n\r\n\r\nitkVarianceImageFilter.txx:\r\n\r\ntemplate< class TInputImage, class TOutputImage>\r\nvoid\r\nVarianceImageFilter< TInputImage, TOutputImage>\r\n::ThreadedGenerateData(const OutputImageRegionType& outputRegionForThread,\r\n#if ITK_VERSION_MAJOR < 4\r\n                            int threadId )\r\n#else\r\n                            ThreadIdType threadId )\r\n#endif\r\n\r\n\r\nMaybe not the best programming style, but these changes compiled and ran fine for me using ITK v4.2.1",
+    "date": "2013-06-13T08:04:58",
+    "persona_email": "scott.p.robertson@gmail.com",
+    "persona_firstname": "Scott",
+    "persona_id": 7887,
+    "persona_lastname": "Robertson"
+   }
+  ],
+  "date_submitted": "2011-01-05 15:14:25",
+  "handles": [
+   {
+    "handle": "10380/3236",
+    "handle_url": "http://hdl.handle.net/10380/3236"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 779,
+  "submitted_by_author": {
+   "author_email": "robert.tamburo@gmail.com",
+   "author_firstname": "Robert",
+   "author_id": 59,
+   "author_institution": " ",
+   "author_lastname": "Tamburo"
+  },
+  "tags": [
+   "intensity image filter",
+   "variance"
+  ],
+  "title": "Variance Image Filter"
+ }
 }

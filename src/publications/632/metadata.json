@@ -1,60 +1,65 @@
 {
-  "publication": {
-    "abstract": "A new Combinatorial Ricci curvature and Laplacian operators for grayscale images are introduced and tested on 2D medical images. These notions are based upon more general concepts developed by R. Forman. Further applications are also suggested.",
-    "authors": [
-      {
-        "author_fullname": "Saucan, Emil",
-        "author_place": 1,
-        "persona_email": "semil@ee.technion.ac.il",
-        "persona_firstname": "Emil",
-        "persona_id": 2085,
-        "persona_lastname": "Saucan"
-      },
-      {
-        "author_fullname": "Appleboim, Eli",
-        "author_place": 2,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Wolansky, Gershon",
-        "author_place": 3,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Zeevi, Yehoshua",
-        "author_place": 4,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2008-09-12 11:20:29",
-    "handles": [
-      {
-        "handle": "10380/1500",
-        "handle_url": "http://hdl.handle.net/10380/1500"
-      }
-    ],
-    "id": 632,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 33,
-        "journal_name": "MICCAI 2008 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "semil@ee.technion.ac.il",
-      "author_firstname": "Emil",
-      "author_id": 2085,
-      "author_institution": "Technion",
-      "author_lastname": "Saucan"
-    },
-    "tags": [
-      "Ricci",
-      "Curvature"
-    ],
-    "title": "Combinatorial Ricci Curvature for Image Processing"
-  }
+ "publication": {
+  "abstract": "A new Combinatorial Ricci curvature and Laplacian operators for grayscale images are introduced and tested on 2D medical images. These notions are based upon more general concepts developed by R. Forman. Further applications are also suggested.",
+  "authors": [
+   {
+    "author_fullname": "Saucan, Emil",
+    "author_place": 1,
+    "persona_email": "semil@ee.technion.ac.il",
+    "persona_firstname": "Emil",
+    "persona_id": 2085,
+    "persona_lastname": "Saucan"
+   },
+   {
+    "author_fullname": "Appleboim, Eli",
+    "author_place": 2,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Wolansky, Gershon",
+    "author_place": 3,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Zeevi, Yehoshua",
+    "author_place": 4,
+    "persona_id": null
+   }
+  ],
+  "categories": [
+   "Filtering",
+   "Mathematics"
+  ],
+  "comments": [],
+  "date_submitted": "2008-09-12 11:20:29",
+  "handles": [
+   {
+    "handle": "10380/1500",
+    "handle_url": "http://hdl.handle.net/10380/1500"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 33,
+    "journal_name": "MICCAI 2008 Workshops"
+   }
+  ],
+  "publication_id": 632,
+  "submitted_by_author": {
+   "author_email": "semil@ee.technion.ac.il",
+   "author_firstname": "Emil",
+   "author_id": 2085,
+   "author_institution": "Technion",
+   "author_lastname": "Saucan"
+  },
+  "tags": [
+   "Ricci",
+   "Curvature"
+  ],
+  "title": "Combinatorial Ricci Curvature for Image Processing"
+ }
 }

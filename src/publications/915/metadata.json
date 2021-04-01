@@ -1,45 +1,67 @@
 {
-  "publication": {
-    "abstract": "Several applications such as multi-atlas segmentation require frequent iteration over multiple image volumes at the same time.\nDoing so with the regular ITK iterators is tedious and error prone as it requires updating each iterator at end of each iteration. Failing to do so results in hard to debug errors and crashes.\nThe MultipleImageIterator is a simple wrapper class that tries to make this more convenient.\n",
-    "authors": [
-      {
-        "author_fullname": "Schaerer, Jo\u00ebl",
-        "author_place": 2,
-        "persona_email": "joelthelion@laposte.net",
-        "persona_firstname": "Jo\u00ebl",
-        "persona_id": 2935,
-        "persona_lastname": "Schaerer"
-      }
-    ],
-    "date_submitted": "2014-02-20 03:23:44",
-    "handles": [
-      {
-        "handle": "10380/3455",
-        "handle_url": "http://hdl.handle.net/10380/3455"
-      }
-    ],
-    "id": 915,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "joelthelion@laposte.net",
-      "author_firstname": "Jo\u00ebl",
-      "author_id": 2935,
-      "author_institution": "Bioclinica SAS, Lyon",
-      "author_lastname": "Schaerer"
-    },
-    "tags": [
-      "ITK",
-      "Iterator"
-    ],
-    "title": "A MultipleImageIterator for iterating over multiple images simultaneously"
-  }
+ "publication": {
+  "abstract": "Several applications such as multi-atlas segmentation require frequent iteration over multiple image volumes at the same time.\nDoing so with the regular ITK iterators is tedious and error prone as it requires updating each iterator at end of each iteration. Failing to do so results in hard to debug errors and crashes.\nThe MultipleImageIterator is a simple wrapper class that tries to make this more convenient.\n",
+  "authors": [
+   {
+    "author_fullname": "Schaerer, Jo\u00ebl",
+    "author_place": 2,
+    "persona_email": "joelthelion@laposte.net",
+    "persona_firstname": "Jo\u00ebl",
+    "persona_id": 2935,
+    "persona_lastname": "Schaerer"
+   }
+  ],
+  "categories": [
+   "Iterators",
+   "Programming"
+  ],
+  "comments": [
+   {
+    "content": "Git repository of the remote module:\r\nhttps://github.com/KitwareMedical/MultipleImageIterator",
+    "date": "2016-05-30T09:51:51",
+    "persona_email": "dzenanz@gmail.com",
+    "persona_firstname": "D\u017eenan",
+    "persona_id": 2260,
+    "persona_lastname": "Zuki\u0107"
+   },
+   {
+    "content": "This will be part of ITK 4.11.0 release as a remote module.",
+    "date": "2016-05-25T16:10:19",
+    "persona_email": "dzenanz@gmail.com",
+    "persona_firstname": "D\u017eenan",
+    "persona_id": 2260,
+    "persona_lastname": "Zuki\u0107"
+   }
+  ],
+  "date_submitted": "2014-02-20 03:23:44",
+  "handles": [
+   {
+    "handle": "10380/3455",
+    "handle_url": "http://hdl.handle.net/10380/3455"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 915,
+  "submitted_by_author": {
+   "author_email": "joelthelion@laposte.net",
+   "author_firstname": "Jo\u00ebl",
+   "author_id": 2935,
+   "author_institution": "Bioclinica SAS, Lyon",
+   "author_lastname": "Schaerer"
+  },
+  "tags": [
+   "ITK",
+   "Iterator"
+  ],
+  "title": "A MultipleImageIterator for iterating over multiple images simultaneously"
+ }
 }

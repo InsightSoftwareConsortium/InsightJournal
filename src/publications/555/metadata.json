@@ -1,47 +1,49 @@
 {
-  "publication": {
-    "abstract": "Primary stability of osseointegrated implants is necessary for short and long-term success of the treatment. This paper presents a method to help clinicians preoperatively assess this primary implant stability. The method combines a planning software with a in-house finite element solver. Once the clinician has chosen a position for the implant on the planning tool, a finite element analysis is automatically started and calculates the mechanical stability of the implant at this position. The process is designed to be as simple and fast as possible for an efficient clinical use. Mechanical testing material was used to validate the stability measured by the software. The novel tool presented here leads the way to a new generation of intelligent computer-assisted tools able to give a priori indication on the life span of the implant.",
-    "authors": [
-      {
-        "author_fullname": "Bardyn, Thibaut",
-        "author_place": 1,
-        "persona_email": "thibaut.bardyn@memcenter.unibe.ch",
-        "persona_firstname": "Thibaut",
-        "persona_id": 829,
-        "persona_lastname": "Bardyn"
-      }
-    ],
-    "date_submitted": "2008-05-21T20:17:18Z",
-    "handles": [
-      {
-        "handle": "10380/1367",
-        "handle_url": "http://hdl.handle.net/10380/1367"
-      }
-    ],
-    "id": 555,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 33,
-        "journal_name": "MICCAI 2008 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "thibaut.bardyn@memcenter.unibe.ch",
-      "author_firstname": "Thibaut",
-      "author_id": 829,
-      "author_institution": "MEM Research Center - University of Bern",
-      "author_lastname": "Bardyn"
-    },
-    "tags": [
-      "osseointegration",
-      "implant",
-      "finite element",
-      "planning"
-    ],
-    "title": "Predicting implant stability: in vitro validation in artificial bone"
-  }
+ "publication": {
+  "abstract": "Primary stability of osseointegrated implants is necessary for short and long-term success of the treatment. This paper presents a method to help clinicians preoperatively assess this primary implant stability. The method combines a planning software with a in-house finite element solver. Once the clinician has chosen a position for the implant on the planning tool, a finite element analysis is automatically started and calculates the mechanical stability of the implant at this position. The process is designed to be as simple and fast as possible for an efficient clinical use. Mechanical testing material was used to validate the stability measured by the software. The novel tool presented here leads the way to a new generation of intelligent computer-assisted tools able to give a priori indication on the life span of the implant.",
+  "authors": [
+   {
+    "author_fullname": "Bardyn, Thibaut",
+    "author_place": 1,
+    "persona_email": "thibaut.bardyn@memcenter.unibe.ch",
+    "persona_firstname": "Thibaut",
+    "persona_id": 829,
+    "persona_lastname": "Bardyn"
+   }
+  ],
+  "categories": [],
+  "comments": [],
+  "date_submitted": "2008-05-21T20:17:18Z",
+  "handles": [
+   {
+    "handle": "10380/1367",
+    "handle_url": "http://hdl.handle.net/10380/1367"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 33,
+    "journal_name": "MICCAI 2008 Workshops"
+   }
+  ],
+  "publication_id": 555,
+  "submitted_by_author": {
+   "author_email": "thibaut.bardyn@memcenter.unibe.ch",
+   "author_firstname": "Thibaut",
+   "author_id": 829,
+   "author_institution": "MEM Research Center - University of Bern",
+   "author_lastname": "Bardyn"
+  },
+  "tags": [
+   "osseointegration",
+   "implant",
+   "finite element",
+   "planning"
+  ],
+  "title": "Predicting implant stability: in vitro validation in artificial bone"
+ }
 }

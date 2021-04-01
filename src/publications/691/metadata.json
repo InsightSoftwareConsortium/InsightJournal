@@ -1,77 +1,91 @@
 {
-  "publication": {
-    "abstract": "Segmentation of the left ventricle is important in assessment of cardiac functional parameters. Currently, manual segmentation is the gold standard for acquiring these parameters and can be time-consuming. Therefore, accuracy and automation are two important criteria in improving cardiac image segmentation methods. In this paper, we present a comprehensive approach that utilizes various features of cine MR images and combines multiple image processing methods including thresholding, edge detection, mathematical morphology, deformable model as well as image filtering. The segmentation is performed automatically with minimized interaction to optimize segmentation results. This approach provides cardiac radiologists a practical method for accurate segmentation of the left ventricle.",
-    "authors": [
-      {
-        "author_fullname": "Huang, Su",
-        "author_place": 1,
-        "persona_email": "huangsu@sbic.a-star.edu.sg",
-        "persona_firstname": "Su",
-        "persona_id": 2275,
-        "persona_lastname": "Huang"
-      },
-      {
-        "author_fullname": "Liu, Jimin",
-        "author_place": 2,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Lee, Looi Chow",
-        "author_place": 3,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Venkatesh, Sudhakar K",
-        "author_place": 4,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Teo, Lynette Li San",
-        "author_place": 5,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Au, Christopher",
-        "author_place": 6,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Nowinski, Wieslaw L.",
-        "author_place": 7,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2009-08-19 00:04:58",
-    "handles": [
-      {
-        "handle": "10380/3121",
-        "handle_url": "http://hdl.handle.net/10380/3121"
-      }
-    ],
-    "id": 691,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 34,
-        "journal_name": "MICCAI 2009 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "huangsu@sbic.a-star.edu.sg",
-      "author_firstname": "Su",
-      "author_id": 2275,
-      "author_institution": "Singapore Bio-imaging Consortium, SINGAPORE",
-      "author_lastname": "Huang"
-    },
-    "tags": [
-      "Left Ventricle",
-      "Cardiac cine image",
-      "Segmentation",
-      "Comprehensive"
-    ],
-    "title": "Segmentation of the Left Ventricle from Cine MR Images Using a Comprehensive Approach"
-  }
+ "publication": {
+  "abstract": "Segmentation of the left ventricle is important in assessment of cardiac functional parameters. Currently, manual segmentation is the gold standard for acquiring these parameters and can be time-consuming. Therefore, accuracy and automation are two important criteria in improving cardiac image segmentation methods. In this paper, we present a comprehensive approach that utilizes various features of cine MR images and combines multiple image processing methods including thresholding, edge detection, mathematical morphology, deformable model as well as image filtering. The segmentation is performed automatically with minimized interaction to optimize segmentation results. This approach provides cardiac radiologists a practical method for accurate segmentation of the left ventricle.",
+  "authors": [
+   {
+    "author_fullname": "Huang, Su",
+    "author_place": 1,
+    "persona_email": "huangsu@sbic.a-star.edu.sg",
+    "persona_firstname": "Su",
+    "persona_id": 2275,
+    "persona_lastname": "Huang"
+   },
+   {
+    "author_fullname": "Liu, Jimin",
+    "author_place": 2,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Lee, Looi Chow",
+    "author_place": 3,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Venkatesh, Sudhakar K",
+    "author_place": 4,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Teo, Lynette Li San",
+    "author_place": 5,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Au, Christopher",
+    "author_place": 6,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Nowinski, Wieslaw L.",
+    "author_place": 7,
+    "persona_id": null
+   }
+  ],
+  "categories": [
+   "Filtering",
+   "Segmentation"
+  ],
+  "comments": [
+   {
+    "content": "Can you kindly provide the source matlab code",
+    "date": "2014-01-28T14:40:36",
+    "persona_email": "ayshaintouch@gmail.com",
+    "persona_firstname": "Aysha",
+    "persona_id": 8931,
+    "persona_lastname": "Begum"
+   }
+  ],
+  "date_submitted": "2009-08-19 00:04:58",
+  "handles": [
+   {
+    "handle": "10380/3121",
+    "handle_url": "http://hdl.handle.net/10380/3121"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 34,
+    "journal_name": "MICCAI 2009 Workshops"
+   }
+  ],
+  "publication_id": 691,
+  "submitted_by_author": {
+   "author_email": "huangsu@sbic.a-star.edu.sg",
+   "author_firstname": "Su",
+   "author_id": 2275,
+   "author_institution": "Singapore Bio-imaging Consortium, SINGAPORE",
+   "author_lastname": "Huang"
+  },
+  "tags": [
+   "Left Ventricle",
+   "Cardiac cine image",
+   "Segmentation",
+   "Comprehensive"
+  ],
+  "title": "Segmentation of the Left Ventricle from Cine MR Images Using a Comprehensive Approach"
+ }
 }

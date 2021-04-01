@@ -1,67 +1,69 @@
 {
-  "publication": {
-    "abstract": "Salient points are used for various applications, such as medical image registration, tracking, stereoscopic matching. The purpose of this paper is to compare two commonly used methods to extract salient points in 3D medical images. We give an interpretation of the methods and validate their performance empirically based on criteria derived for the task of image registration, displacement measurement and tracking in medical images.",
-    "authors": [
-      {
-        "author_fullname": "Lloyd, Bryn A.",
-        "author_place": 1,
-        "persona_email": "blloyd@ee.ethz.ch",
-        "persona_firstname": "Bryn",
-        "persona_id": 23,
-        "persona_lastname": "Lloyd"
-      },
-      {
-        "author_fullname": "Szekely, Gabor",
-        "author_place": 2,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Kikinis, Ron",
-        "author_place": 3,
-        "persona_email": "kikinis@bwh.harvard.edu",
-        "persona_firstname": "Ron",
-        "persona_id": 238,
-        "persona_lastname": "Kikinis"
-      },
-      {
-        "author_fullname": "Warfield, Simon K.",
-        "author_place": 4,
-        "persona_email": "simon.warfield@childrens.harvard.edu",
-        "persona_firstname": "Simon",
-        "persona_id": 514,
-        "persona_lastname": "Warfield"
-      }
-    ],
-    "date_submitted": "2005-08-06T01:41:59Z",
-    "handles": [
-      {
-        "handle": "1926/49",
-        "handle_url": "http://hdl.handle.net/1926/49"
-      }
-    ],
-    "id": 42,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "blloyd@ee.ethz.ch",
-      "author_firstname": "Bryn",
-      "author_id": 23,
-      "author_institution": "ETH Zurich, Computer Vision Laboratory",
-      "author_lastname": "Lloyd"
-    },
-    "tags": [
-      "landmarks",
-      "corner detection",
-      "salient points"
-    ],
-    "title": "Comparison of Salient Point Detection Methods for 3D Medical Images"
-  }
+ "publication": {
+  "abstract": "Salient points are used for various applications, such as medical image registration, tracking, stereoscopic matching. The purpose of this paper is to compare two commonly used methods to extract salient points in 3D medical images. We give an interpretation of the methods and validate their performance empirically based on criteria derived for the task of image registration, displacement measurement and tracking in medical images.",
+  "authors": [
+   {
+    "author_fullname": "Lloyd, Bryn A.",
+    "author_place": 1,
+    "persona_email": "blloyd@ee.ethz.ch",
+    "persona_firstname": "Bryn",
+    "persona_id": 23,
+    "persona_lastname": "Lloyd"
+   },
+   {
+    "author_fullname": "Szekely, Gabor",
+    "author_place": 2,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Kikinis, Ron",
+    "author_place": 3,
+    "persona_email": "kikinis@bwh.harvard.edu",
+    "persona_firstname": "Ron",
+    "persona_id": 238,
+    "persona_lastname": "Kikinis"
+   },
+   {
+    "author_fullname": "Warfield, Simon K.",
+    "author_place": 4,
+    "persona_email": "simon.warfield@childrens.harvard.edu",
+    "persona_firstname": "Simon",
+    "persona_id": 514,
+    "persona_lastname": "Warfield"
+   }
+  ],
+  "categories": [],
+  "comments": [],
+  "date_submitted": "2005-08-06T01:41:59Z",
+  "handles": [
+   {
+    "handle": "1926/49",
+    "handle_url": "http://hdl.handle.net/1926/49"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 42,
+  "submitted_by_author": {
+   "author_email": "blloyd@ee.ethz.ch",
+   "author_firstname": "Bryn",
+   "author_id": 23,
+   "author_institution": "ETH Zurich, Computer Vision Laboratory",
+   "author_lastname": "Lloyd"
+  },
+  "tags": [
+   "landmarks",
+   "corner detection",
+   "salient points"
+  ],
+  "title": "Comparison of Salient Point Detection Methods for 3D Medical Images"
+ }
 }

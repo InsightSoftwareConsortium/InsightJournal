@@ -1,57 +1,59 @@
 {
-  "publication": {
-    "abstract": "Multiple Sclerosis (MS) is a neurodegenerative disease that is associated with\r\nbrain tissue damage primarily observed as white matter abnormalities such\r\nas lesions.\r\nWe present a novel, fully automatic segmentation method for MS lesions in brain\r\nMRI\r\nthat combines outlier detection and region partitioning.\r\nThe method is based on an atlas of healthy subjects and detects lesions\r\nas outliers, without requiring the use of training data with segmented lesions.\r\nIn order to segment lesions as spatially coherent objects and avoid spurious\r\nlesion detection,\r\nwe perform classification on regions (connected groups of voxels)\r\ninstead of individual voxels.\r\nEach voxel location is assigned to a region that would maximize overall\r\nrelative entropy or Kullback-Leibler divergence between neighboring regions.\r\nOur proposed method is fully automatic and does not require manual selection\r\nor outlining of specific brain regions.\r\nThe method can also be adapted to MR images obtained from different scanners\r\nand scanning parameters as it requires no training.",
-    "authors": [
-      {
-        "author_fullname": "Prastawa, Marcel",
-        "author_place": 1,
-        "persona_email": "prastawa@sci.utah.edu",
-        "persona_firstname": "Marcel",
-        "persona_id": 919,
-        "persona_lastname": "Prastawa"
-      },
-      {
-        "author_fullname": "Gerig, Guido",
-        "author_place": 2,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2008-07-17T20:12:36Z",
-    "handles": [
-      {
-        "handle": "10380/1457",
-        "handle_url": "http://hdl.handle.net/10380/1457"
-      }
-    ],
-    "id": 616,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 44,
-        "journal_name": "MICCAI 2015 Workshops"
-      },
-      {
-        "journal_id": 33,
-        "journal_name": "MICCAI 2008 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "prastawa@sci.utah.edu",
-      "author_firstname": "Marcel",
-      "author_id": 919,
-      "author_institution": "University of Utah",
-      "author_lastname": "Prastawa"
-    },
-    "tags": [
-      "multiple sclerosis",
-      "lesion",
-      "brain atlas",
-      "segmentation",
-      "information theory"
-    ],
-    "title": "Automatic MS Lesion Segmentation by Outlier Detection and Information Theoretic Region Partitioning"
-  }
+ "publication": {
+  "abstract": "Multiple Sclerosis (MS) is a neurodegenerative disease that is associated with\r\nbrain tissue damage primarily observed as white matter abnormalities such\r\nas lesions.\r\nWe present a novel, fully automatic segmentation method for MS lesions in brain\r\nMRI\r\nthat combines outlier detection and region partitioning.\r\nThe method is based on an atlas of healthy subjects and detects lesions\r\nas outliers, without requiring the use of training data with segmented lesions.\r\nIn order to segment lesions as spatially coherent objects and avoid spurious\r\nlesion detection,\r\nwe perform classification on regions (connected groups of voxels)\r\ninstead of individual voxels.\r\nEach voxel location is assigned to a region that would maximize overall\r\nrelative entropy or Kullback-Leibler divergence between neighboring regions.\r\nOur proposed method is fully automatic and does not require manual selection\r\nor outlining of specific brain regions.\r\nThe method can also be adapted to MR images obtained from different scanners\r\nand scanning parameters as it requires no training.",
+  "authors": [
+   {
+    "author_fullname": "Prastawa, Marcel",
+    "author_place": 1,
+    "persona_email": "prastawa@sci.utah.edu",
+    "persona_firstname": "Marcel",
+    "persona_id": 919,
+    "persona_lastname": "Prastawa"
+   },
+   {
+    "author_fullname": "Gerig, Guido",
+    "author_place": 2,
+    "persona_id": null
+   }
+  ],
+  "categories": [],
+  "comments": [],
+  "date_submitted": "2008-07-17T20:12:36Z",
+  "handles": [
+   {
+    "handle": "10380/1457",
+    "handle_url": "http://hdl.handle.net/10380/1457"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 44,
+    "journal_name": "MICCAI 2015 Workshops"
+   },
+   {
+    "journal_id": 33,
+    "journal_name": "MICCAI 2008 Workshops"
+   }
+  ],
+  "publication_id": 616,
+  "submitted_by_author": {
+   "author_email": "prastawa@sci.utah.edu",
+   "author_firstname": "Marcel",
+   "author_id": 919,
+   "author_institution": "University of Utah",
+   "author_lastname": "Prastawa"
+  },
+  "tags": [
+   "multiple sclerosis",
+   "lesion",
+   "brain atlas",
+   "segmentation",
+   "information theory"
+  ],
+  "title": "Automatic MS Lesion Segmentation by Outlier Detection and Information Theoretic Region Partitioning"
+ }
 }

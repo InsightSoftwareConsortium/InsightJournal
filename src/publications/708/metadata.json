@@ -1,56 +1,61 @@
 {
-  "publication": {
-    "abstract": "This document presents a set of classes (vtkPointSetOutlierRemoval, vtkPointSetNormalEstimation, vtkPointSetNormalOrientation, vtkPointSetCurvatureEstimation, vtkEuclideanMinimumSpanningTree, and vtkRiemannianGraphFilter) to enable several basic operations on point sets. These classes are implemented as VTK filters. Paraview plugin interfaces to the filters are also provided to allow extremely easy experimentation with the new functionality. We propose these classes as an addition to the Visualization Toolkit. \n\nThe latest source code can be found here: https://github.com/daviddoria/PointSetProcessing",
-    "authors": [
-      {
-        "author_fullname": "Doria, David",
-        "author_place": 1,
-        "persona_email": "daviddoria@gmail.com",
-        "persona_firstname": "David",
-        "persona_id": 2205,
-        "persona_lastname": "Doria"
-      }
-    ],
-    "date_submitted": "2011-08-02 11:50:16",
-    "handles": [
-      {
-        "handle": "10380/3143",
-        "handle_url": "http://hdl.handle.net/10380/3143"
-      }
-    ],
-    "id": 708,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 35,
-        "journal_name": "The VTK Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "daviddoria@gmail.com",
-      "author_firstname": "David",
-      "author_id": 2205,
-      "author_institution": "Rensselaer Polytechnic Institute",
-      "author_lastname": "Doria"
-    },
-    "tags": [
-      "outlier removal",
-      "riemannian graph",
-      "euclidean minimum spanning tree",
-      "minimum spanning tree",
-      "Normal estimation",
-      "Normal orientation",
-      "orientation",
-      "normals",
-      "point set",
-      "point cloud",
-      "curvature",
-      "estimation",
-      "best fit plane"
-    ],
-    "title": "Point Set Processing for VTK - Outlier Removal, Curvature Estimation, Normal Estimation, Normal Orientation"
-  }
+ "publication": {
+  "abstract": "This document presents a set of classes (vtkPointSetOutlierRemoval, vtkPointSetNormalEstimation, vtkPointSetNormalOrientation, vtkPointSetCurvatureEstimation, vtkEuclideanMinimumSpanningTree, and vtkRiemannianGraphFilter) to enable several basic operations on point sets. These classes are implemented as VTK filters. Paraview plugin interfaces to the filters are also provided to allow extremely easy experimentation with the new functionality. We propose these classes as an addition to the Visualization Toolkit. \n\nThe latest source code can be found here: https://github.com/daviddoria/PointSetProcessing",
+  "authors": [
+   {
+    "author_fullname": "Doria, David",
+    "author_place": 1,
+    "persona_email": "daviddoria@gmail.com",
+    "persona_firstname": "David",
+    "persona_id": 2205,
+    "persona_lastname": "Doria"
+   }
+  ],
+  "categories": [
+   "PointSet",
+   "Surface extraction"
+  ],
+  "comments": [],
+  "date_submitted": "2011-08-02 11:50:16",
+  "handles": [
+   {
+    "handle": "10380/3143",
+    "handle_url": "http://hdl.handle.net/10380/3143"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 35,
+    "journal_name": "The VTK Journal"
+   }
+  ],
+  "publication_id": 708,
+  "submitted_by_author": {
+   "author_email": "daviddoria@gmail.com",
+   "author_firstname": "David",
+   "author_id": 2205,
+   "author_institution": "Rensselaer Polytechnic Institute",
+   "author_lastname": "Doria"
+  },
+  "tags": [
+   "outlier removal",
+   "riemannian graph",
+   "euclidean minimum spanning tree",
+   "minimum spanning tree",
+   "Normal estimation",
+   "Normal orientation",
+   "orientation",
+   "normals",
+   "point set",
+   "point cloud",
+   "curvature",
+   "estimation",
+   "best fit plane"
+  ],
+  "title": "Point Set Processing for VTK - Outlier Removal, Curvature Estimation, Normal Estimation, Normal Orientation"
+ }
 }

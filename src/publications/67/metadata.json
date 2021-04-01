@@ -1,53 +1,57 @@
 {
-  "publication": {
-    "abstract": "ImageCalculator is a command line program for doing simple mathematical operations to a series of images and generating an new output image and basic statistics about the output image. The program uses the Insight Toolkit (www.ITK.org) for file IO and computations, and can operate on any of the image\r\ntypes supported by that library.",
-    "authors": [
-      {
-        "author_fullname": "Jammalamadaka, Vamsi",
-        "author_place": 1,
-        "persona_email": "vamsi2200@rediffmail.com",
-        "persona_firstname": "Vamsi",
-        "persona_id": 146,
-        "persona_lastname": "Jammalamadaka"
-      },
-      {
-        "author_fullname": "Johnson, Hans",
-        "author_place": 2,
-        "persona_email": "hans-johnson@uiowa.edu",
-        "persona_firstname": "Hans",
-        "persona_id": 21,
-        "persona_lastname": "Johnson"
-      }
-    ],
-    "date_submitted": "2005-12-29T20:02:42Z",
-    "handles": [
-      {
-        "handle": "1926/157",
-        "handle_url": "http://hdl.handle.net/1926/157"
-      }
-    ],
-    "id": 67,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "vamsi2200@rediffmail.com",
-      "author_firstname": "Vamsi",
-      "author_id": 146,
-      "author_institution": "university of Iowa",
-      "author_lastname": "Jammalamadaka"
-    },
-    "tags": [
-      "2d and 3d Image arithmetic and statistics",
-      "Program"
-    ],
-    "title": "Image Calculator"
-  }
+ "publication": {
+  "abstract": "ImageCalculator is a command line program for doing simple mathematical operations to a series of images and generating an new output image and basic statistics about the output image. The program uses the Insight Toolkit (www.ITK.org) for file IO and computations, and can operate on any of the image\r\ntypes supported by that library.",
+  "authors": [
+   {
+    "author_fullname": "Jammalamadaka, Vamsi",
+    "author_place": 1,
+    "persona_email": "vamsi2200@rediffmail.com",
+    "persona_firstname": "Vamsi",
+    "persona_id": 146,
+    "persona_lastname": "Jammalamadaka"
+   },
+   {
+    "author_fullname": "Johnson, Hans",
+    "author_place": 2,
+    "persona_email": "hans-johnson@uiowa.edu",
+    "persona_firstname": "Hans",
+    "persona_id": 21,
+    "persona_lastname": "Johnson"
+   }
+  ],
+  "categories": [
+   "Filtering"
+  ],
+  "comments": [],
+  "date_submitted": "2005-12-29T20:02:42Z",
+  "handles": [
+   {
+    "handle": "1926/157",
+    "handle_url": "http://hdl.handle.net/1926/157"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 67,
+  "submitted_by_author": {
+   "author_email": "vamsi2200@rediffmail.com",
+   "author_firstname": "Vamsi",
+   "author_id": 146,
+   "author_institution": "university of Iowa",
+   "author_lastname": "Jammalamadaka"
+  },
+  "tags": [
+   "2d and 3d Image arithmetic and statistics",
+   "Program"
+  ],
+  "title": "Image Calculator"
+ }
 }

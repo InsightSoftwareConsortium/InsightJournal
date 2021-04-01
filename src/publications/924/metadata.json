@@ -1,79 +1,109 @@
 {
-  "publication": {
-    "abstract": "This paper describes how to compile and use the Insight Toolkit Kinetic Analysis library (itk::ka), to perform analysis of dynamic medical images, along with a brief overview of the library source code. Supplied, are a set of interfaces to facilitate application development, application implementing a standard kinetic analysis pipeline (koala), and some sample data. Only versions of ITK4 and higher are currently supported.",
-    "authors": [
-      {
-        "author_fullname": "Dowson, Nicholas",
-        "author_place": 1,
-        "persona_email": "nick.dowson@gmail.com",
-        "persona_firstname": "Nicholas",
-        "persona_id": 9215,
-        "persona_lastname": "Dowson"
-      },
-      {
-        "author_fullname": "Baker, Charles",
-        "author_place": 2,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Raffelt, David",
-        "author_place": 3,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Smith, Jye",
-        "author_place": 4,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Thomas, Paul",
-        "author_place": 5,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Salvado, Olivier",
-        "author_place": 6,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Rose, Stephen",
-        "author_place": 7,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2016-09-20 05:45:46",
-    "handles": [
-      {
-        "handle": "10380/3469",
-        "handle_url": "http://hdl.handle.net/10380/3469"
-      }
-    ],
-    "id": 924,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "nick.dowson@gmail.com",
-      "author_firstname": "Nicholas",
-      "author_id": 9215,
-      "author_institution": "CSIRO",
-      "author_lastname": "Dowson"
-    },
-    "tags": [
-      "Magnetic Resonance",
-      "Kinetic Analysis",
-      "Positron Emission Tomography",
-      "PET",
-      "MRI",
-      "Compartment Model"
-    ],
-    "title": "InsightToolkit Kinetic Analysis (itk::ka) Library"
-  }
+ "publication": {
+  "abstract": "This paper describes how to compile and use the Insight Toolkit Kinetic Analysis library (itk::ka), to perform analysis of dynamic medical images, along with a brief overview of the library source code. Supplied, are a set of interfaces to facilitate application development, application implementing a standard kinetic analysis pipeline (koala), and some sample data. Only versions of ITK4 and higher are currently supported.",
+  "authors": [
+   {
+    "author_fullname": "Dowson, Nicholas",
+    "author_place": 1,
+    "persona_email": "nick.dowson@gmail.com",
+    "persona_firstname": "Nicholas",
+    "persona_id": 9215,
+    "persona_lastname": "Dowson"
+   },
+   {
+    "author_fullname": "Baker, Charles",
+    "author_place": 2,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Raffelt, David",
+    "author_place": 3,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Smith, Jye",
+    "author_place": 4,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Thomas, Paul",
+    "author_place": 5,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Salvado, Olivier",
+    "author_place": 6,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Rose, Stephen",
+    "author_place": 7,
+    "persona_id": null
+   }
+  ],
+  "categories": [
+   "Image",
+   "Optimization"
+  ],
+  "comments": [
+   {
+    "content": "Please download the most recent version if the itkka library: version 1.01 was uploaded on 30-Sep 2014.",
+    "date": "2014-09-29T17:50:03",
+    "persona_email": "nicholas.dowson@csiro.au",
+    "persona_firstname": "Nicholas",
+    "persona_id": 9215,
+    "persona_lastname": "Dowson"
+   },
+   {
+    "content": "Version 1.3 of the itkka library now available via git: \r\nhttps://bitbucket.csiro.au/projects/MILX/repos/itkka-pub\r\n\r\n",
+    "date": "2017-01-07T05:22:45",
+    "persona_email": "nicholas.dowson@csiro.au",
+    "persona_firstname": "Nicholas",
+    "persona_id": 9215,
+    "persona_lastname": "Dowson"
+   },
+   {
+    "content": "Please download latest version (1.2) as it includes a substantial number of improvements.",
+    "date": "2014-12-24T00:49:18",
+    "persona_email": "nicholas.dowson@csiro.au",
+    "persona_firstname": "Nicholas",
+    "persona_id": 9215,
+    "persona_lastname": "Dowson"
+   }
+  ],
+  "date_submitted": "2016-09-20 05:45:46",
+  "handles": [
+   {
+    "handle": "10380/3469",
+    "handle_url": "http://hdl.handle.net/10380/3469"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 924,
+  "submitted_by_author": {
+   "author_email": "nick.dowson@gmail.com",
+   "author_firstname": "Nicholas",
+   "author_id": 9215,
+   "author_institution": "CSIRO",
+   "author_lastname": "Dowson"
+  },
+  "tags": [
+   "Magnetic Resonance",
+   "Kinetic Analysis",
+   "Positron Emission Tomography",
+   "PET",
+   "MRI",
+   "Compartment Model"
+  ],
+  "title": "InsightToolkit Kinetic Analysis (itk::ka) Library"
+ }
 }

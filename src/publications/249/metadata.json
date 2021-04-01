@@ -1,55 +1,57 @@
 {
-  "publication": {
-    "abstract": "BSpline registration results from an application developed by Torsten Rohlfing that is based, in part, on the RView application from Dr. Colin Studholme, Daniel Rueckert, and Julia Schnabel.",
-    "authors": [
-      {
-        "author_fullname": "Pohl, Kilian",
-        "author_place": 1,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Davis, Brad",
-        "author_place": 2,
-        "persona_email": "brad.davis@kitware.com",
-        "persona_firstname": "Brad",
-        "persona_id": 596,
-        "persona_lastname": "Davis"
-      },
-      {
-        "author_fullname": "Aylward, Stephen",
-        "author_place": 3,
-        "persona_email": "stephen.aylward@kitware.com",
-        "persona_firstname": "Stephen",
-        "persona_id": 1,
-        "persona_lastname": "Aylward"
-      }
-    ],
-    "date_submitted": "2008-07-05T17:04:45Z",
-    "handles": [
-      {
-        "handle": "1926/1404",
-        "handle_url": "http://hdl.handle.net/1926/1404"
-      }
-    ],
-    "id": 249,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "stephen.aylward@kitware.com",
-      "author_firstname": "Stephen",
-      "author_id": 1,
-      "author_institution": "Kitware, Inc.",
-      "author_lastname": "Aylward"
-    },
-    "tags": null,
-    "title": "UNCHealthyBrainMRI-RView"
-  }
+ "publication": {
+  "abstract": "BSpline registration results from an application developed by Torsten Rohlfing that is based, in part, on the RView application from Dr. Colin Studholme, Daniel Rueckert, and Julia Schnabel.",
+  "authors": [
+   {
+    "author_fullname": "Pohl, Kilian",
+    "author_place": 1,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Davis, Brad",
+    "author_place": 2,
+    "persona_email": "brad.davis@kitware.com",
+    "persona_firstname": "Brad",
+    "persona_id": 596,
+    "persona_lastname": "Davis"
+   },
+   {
+    "author_fullname": "Aylward, Stephen",
+    "author_place": 3,
+    "persona_email": "stephen.aylward@kitware.com",
+    "persona_firstname": "Stephen",
+    "persona_id": 1,
+    "persona_lastname": "Aylward"
+   }
+  ],
+  "categories": [],
+  "comments": [],
+  "date_submitted": "2008-07-05T17:04:45Z",
+  "handles": [
+   {
+    "handle": "1926/1404",
+    "handle_url": "http://hdl.handle.net/1926/1404"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 249,
+  "submitted_by_author": {
+   "author_email": "stephen.aylward@kitware.com",
+   "author_firstname": "Stephen",
+   "author_id": 1,
+   "author_institution": "Kitware, Inc.",
+   "author_lastname": "Aylward"
+  },
+  "tags": null,
+  "title": "UNCHealthyBrainMRI-RView"
+ }
 }

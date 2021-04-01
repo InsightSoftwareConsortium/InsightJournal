@@ -1,45 +1,56 @@
 {
-  "publication": {
-    "abstract": "Richard Beare has recently introduced a new filter to efficiently labelize the connected components with ITK, and has also proposed to use the run-length encoding used in that filter to implement some of the most useful binary mathematical morphology operators: the opening by attribute. Following that idea, and after have searched a way to use the ITK's spatial objects for this task, a new set of classes have been developed to represent and manipulate the label images and the objects within them in ITK.\r\nThose new classes have been used to implement several label images manipulation based on object attributes, as well as the binary and label specialization of some mathematical morphology filters based on the morphological reconstruction. This contribution comes with 65 new classes, and should greatly enhance the binary mathematical\r\nmorphology in ITK.\r\n\r\nAll the source codes are provided, as well as a full set of tests and several usage examples of the new classes.\r\n",
-    "authors": [
-      {
-        "author_fullname": "Lehmann, Gaetan",
-        "author_place": 1,
-        "persona_email": "gaetan.lehmann@gmail.com",
-        "persona_firstname": "Gaetan",
-        "persona_id": 328,
-        "persona_lastname": "Lehmann"
-      }
-    ],
-    "date_submitted": "2007-08-01T00:00:00Z",
-    "handles": [
-      {
-        "handle": "1926/584",
-        "handle_url": "http://hdl.handle.net/1926/584"
-      }
-    ],
-    "id": 176,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "gaetan.lehmann@gmail.com",
-      "author_firstname": "Gaetan",
-      "author_id": 328,
-      "author_institution": "INRA",
-      "author_lastname": "Lehmann"
-    },
-    "tags": [
-      "label object",
-      "mathematical morpholgy"
-    ],
-    "title": "Label object representation and manipulation with ITK"
-  }
+ "publication": {
+  "abstract": "Richard Beare has recently introduced a new filter to efficiently labelize the connected components with ITK, and has also proposed to use the run-length encoding used in that filter to implement some of the most useful binary mathematical morphology operators: the opening by attribute. Following that idea, and after have searched a way to use the ITK's spatial objects for this task, a new set of classes have been developed to represent and manipulate the label images and the objects within them in ITK.\r\nThose new classes have been used to implement several label images manipulation based on object attributes, as well as the binary and label specialization of some mathematical morphology filters based on the morphological reconstruction. This contribution comes with 65 new classes, and should greatly enhance the binary mathematical\r\nmorphology in ITK.\r\n\r\nAll the source codes are provided, as well as a full set of tests and several usage examples of the new classes.\r\n",
+  "authors": [
+   {
+    "author_fullname": "Lehmann, Gaetan",
+    "author_place": 1,
+    "persona_email": "gaetan.lehmann@gmail.com",
+    "persona_firstname": "Gaetan",
+    "persona_id": 328,
+    "persona_lastname": "Lehmann"
+   }
+  ],
+  "categories": [
+   "CMake",
+   "Data Representation",
+   "Filtering",
+   "Generic Programming",
+   "Image",
+   "Language binding",
+   "Mathematical Morphology",
+   "Spatial Objects"
+  ],
+  "comments": [],
+  "date_submitted": "2007-08-01T00:00:00Z",
+  "handles": [
+   {
+    "handle": "1926/584",
+    "handle_url": "http://hdl.handle.net/1926/584"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 176,
+  "submitted_by_author": {
+   "author_email": "gaetan.lehmann@gmail.com",
+   "author_firstname": "Gaetan",
+   "author_id": 328,
+   "author_institution": "INRA",
+   "author_lastname": "Lehmann"
+  },
+  "tags": [
+   "label object",
+   "mathematical morpholgy"
+  ],
+  "title": "Label object representation and manipulation with ITK"
+ }
 }

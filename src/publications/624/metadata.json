@@ -1,79 +1,81 @@
 {
-  "publication": {
-    "abstract": "The Surgical Assistant Workstation (SAW) is a software development framework that can be used to\r\ndevelop new applications in robot-assisted surgery with augmented visualization. Robot-assisted laparoscopic\r\nsurgery and micro-surgery as presented by the da Vinci telerobotic system and the Johns\r\nHopkins Steady Hand, respectively can be improved by providing fully-integrated image guidance and\r\ninformation-enhanced intra-operative assistance to the surgical team and to the surgeon in particular.\r\nThis paper describes several use case applications of the SAW framework, as well as a novel user interface\r\nlibrary being developed to support 3D interactive menu systems and overlays for surgical guidance.",
-    "authors": [
-      {
-        "author_fullname": "Balazs , Vagvolgyi",
-        "author_place": 1,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Simon , DiMaio",
-        "author_place": 2,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Anton , Deguet",
-        "author_place": 3,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Peter , Kazanzides",
-        "author_place": 4,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Rajesh , Kumar",
-        "author_place": 5,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Christopher , Hasser",
-        "author_place": 6,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Russell , Taylor",
-        "author_place": 7,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2008-07-25T20:14:53Z",
-    "handles": [
-      {
-        "handle": "10380/1466",
-        "handle_url": "http://hdl.handle.net/10380/1466"
-      }
-    ],
-    "id": 624,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 40,
-        "journal_name": "MICCAI 2012 Workshops"
-      },
-      {
-        "journal_id": 33,
-        "journal_name": "MICCAI 2008 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "pkaz@cs.jhu.edu",
-      "author_firstname": "Peter",
-      "author_id": 63,
-      "author_institution": "Johns Hopkins University",
-      "author_lastname": "Kazanzides"
-    },
-    "tags": [
-      "surgical robot",
-      "3D user interface",
-      "computer-assisted surgery",
-      "telesurgery",
-      "open source software"
-    ],
-    "title": "The Surgical Assistant Workstation"
-  }
+ "publication": {
+  "abstract": "The Surgical Assistant Workstation (SAW) is a software development framework that can be used to\r\ndevelop new applications in robot-assisted surgery with augmented visualization. Robot-assisted laparoscopic\r\nsurgery and micro-surgery as presented by the da Vinci telerobotic system and the Johns\r\nHopkins Steady Hand, respectively can be improved by providing fully-integrated image guidance and\r\ninformation-enhanced intra-operative assistance to the surgical team and to the surgeon in particular.\r\nThis paper describes several use case applications of the SAW framework, as well as a novel user interface\r\nlibrary being developed to support 3D interactive menu systems and overlays for surgical guidance.",
+  "authors": [
+   {
+    "author_fullname": "Balazs , Vagvolgyi",
+    "author_place": 1,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Simon , DiMaio",
+    "author_place": 2,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Anton , Deguet",
+    "author_place": 3,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Peter , Kazanzides",
+    "author_place": 4,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Rajesh , Kumar",
+    "author_place": 5,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Christopher , Hasser",
+    "author_place": 6,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Russell , Taylor",
+    "author_place": 7,
+    "persona_id": null
+   }
+  ],
+  "categories": [],
+  "comments": [],
+  "date_submitted": "2008-07-25T20:14:53Z",
+  "handles": [
+   {
+    "handle": "10380/1466",
+    "handle_url": "http://hdl.handle.net/10380/1466"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 40,
+    "journal_name": "MICCAI 2012 Workshops"
+   },
+   {
+    "journal_id": 33,
+    "journal_name": "MICCAI 2008 Workshops"
+   }
+  ],
+  "publication_id": 624,
+  "submitted_by_author": {
+   "author_email": "pkaz@cs.jhu.edu",
+   "author_firstname": "Peter",
+   "author_id": 63,
+   "author_institution": "Johns Hopkins University",
+   "author_lastname": "Kazanzides"
+  },
+  "tags": [
+   "surgical robot",
+   "3D user interface",
+   "computer-assisted surgery",
+   "telesurgery",
+   "open source software"
+  ],
+  "title": "The Surgical Assistant Workstation"
+ }
 }

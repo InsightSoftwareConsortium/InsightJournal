@@ -1,42 +1,47 @@
 {
-  "publication": {
-    "abstract": "The deconvolution, also called deblurring, tries to revert the optical distortion introduced during the aquisition of the image. It is a family of image processing which can be classed in the larger family of image restoration.\nDeconvolution is a very difficult problem, and many algorithms have been proposed to solve it, with different strenght and weakness which may depend on the context where they are used. As a consequence, it is desirable to have several algorithms available when trying to restore some images. The different algorithms are often built on a similar principle, making possible to share a large part of their API in their implementation. Also, the most generic operations related to deconvolution should be reusable in order to avoid code duplication and ease the implementation of new algorithms.\n\nIn this contribution, the infrastructure for the implementation of several deconvolution algorithms is proposed. Based on this infrastructure, twelve simple deconvolution algorithms of reference are also provided.\n",
-    "authors": [
-      {
-        "author_fullname": "Lehmann, Ga\u00ebtan",
-        "author_place": 1,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2010-08-30 04:47:02",
-    "handles": [
-      {
-        "handle": "10380/3207",
-        "handle_url": "http://hdl.handle.net/10380/3207"
-      }
-    ],
-    "id": 753,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "gaetan.lehmann@gmail.com",
-      "author_firstname": "Gaetan",
-      "author_id": 328,
-      "author_institution": "INRA",
-      "author_lastname": "Lehmann"
-    },
-    "tags": [
-      "deconvolution",
-      "fft"
-    ],
-    "title": "Deconvolution: infrastructure and reference algorithms"
-  }
+ "publication": {
+  "abstract": "The deconvolution, also called deblurring, tries to revert the optical distortion introduced during the aquisition of the image. It is a family of image processing which can be classed in the larger family of image restoration.\nDeconvolution is a very difficult problem, and many algorithms have been proposed to solve it, with different strenght and weakness which may depend on the context where they are used. As a consequence, it is desirable to have several algorithms available when trying to restore some images. The different algorithms are often built on a similar principle, making possible to share a large part of their API in their implementation. Also, the most generic operations related to deconvolution should be reusable in order to avoid code duplication and ease the implementation of new algorithms.\n\nIn this contribution, the infrastructure for the implementation of several deconvolution algorithms is proposed. Based on this infrastructure, twelve simple deconvolution algorithms of reference are also provided.\n",
+  "authors": [
+   {
+    "author_fullname": "Lehmann, Ga\u00ebtan",
+    "author_place": 1,
+    "persona_id": null
+   }
+  ],
+  "categories": [
+   "Filtering",
+   "Programming"
+  ],
+  "comments": [],
+  "date_submitted": "2010-08-30 04:47:02",
+  "handles": [
+   {
+    "handle": "10380/3207",
+    "handle_url": "http://hdl.handle.net/10380/3207"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 753,
+  "submitted_by_author": {
+   "author_email": "gaetan.lehmann@gmail.com",
+   "author_firstname": "Gaetan",
+   "author_id": 328,
+   "author_institution": "INRA",
+   "author_lastname": "Lehmann"
+  },
+  "tags": [
+   "deconvolution",
+   "fft"
+  ],
+  "title": "Deconvolution: infrastructure and reference algorithms"
+ }
 }

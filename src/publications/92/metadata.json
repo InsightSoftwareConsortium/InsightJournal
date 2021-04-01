@@ -1,53 +1,55 @@
 {
-  "publication": {
-    "abstract": "This report discusses various definitions and implementations of the watershed transform as well as providing an introduction to some well known techniques for applying the watershed transform to practical problems. The discussion will be focused on new and existing ITK classes.",
-    "authors": [
-      {
-        "author_fullname": "Beare, Richard",
-        "author_place": 1,
-        "persona_email": "richard.beare@ieee.org",
-        "persona_firstname": "Richard",
-        "persona_id": 197,
-        "persona_lastname": "Beare"
-      },
-      {
-        "author_fullname": "Lehmann, Gaetan",
-        "author_place": 2,
-        "persona_email": "gaetan.lehmann@gmail.com",
-        "persona_firstname": "Gaetan",
-        "persona_id": 328,
-        "persona_lastname": "Lehmann"
-      }
-    ],
-    "date_submitted": "2006-06-09",
-    "handles": [
-      {
-        "handle": "1926/202",
-        "handle_url": "http://hdl.handle.net/1926/202"
-      }
-    ],
-    "id": 92,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "richard.beare@ieee.org",
-      "author_firstname": "Richard",
-      "author_id": 197,
-      "author_institution": "Monash University",
-      "author_lastname": "Beare"
-    },
-    "tags": [
-      "image segmentation",
-      "watershed transform"
-    ],
-    "title": "The watershed transform in ITK - discussion and new developments"
-  }
+ "publication": {
+  "abstract": "This report discusses various definitions and implementations of the watershed transform as well as providing an introduction to some well known techniques for applying the watershed transform to practical problems. The discussion will be focused on new and existing ITK classes.",
+  "authors": [
+   {
+    "author_fullname": "Beare, Richard",
+    "author_place": 1,
+    "persona_email": "richard.beare@ieee.org",
+    "persona_firstname": "Richard",
+    "persona_id": 197,
+    "persona_lastname": "Beare"
+   },
+   {
+    "author_fullname": "Lehmann, Gaetan",
+    "author_place": 2,
+    "persona_email": "gaetan.lehmann@gmail.com",
+    "persona_firstname": "Gaetan",
+    "persona_id": 328,
+    "persona_lastname": "Lehmann"
+   }
+  ],
+  "categories": [],
+  "comments": [],
+  "date_submitted": "2006-06-09",
+  "handles": [
+   {
+    "handle": "1926/202",
+    "handle_url": "http://hdl.handle.net/1926/202"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 92,
+  "submitted_by_author": {
+   "author_email": "richard.beare@ieee.org",
+   "author_firstname": "Richard",
+   "author_id": 197,
+   "author_institution": "Monash University",
+   "author_lastname": "Beare"
+  },
+  "tags": [
+   "image segmentation",
+   "watershed transform"
+  ],
+  "title": "The watershed transform in ITK - discussion and new developments"
+ }
 }

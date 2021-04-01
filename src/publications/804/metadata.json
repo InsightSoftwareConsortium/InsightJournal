@@ -1,63 +1,68 @@
 {
-  "publication": {
-    "abstract": "This paper describes an integrated system for dental implantation including both preoperative planning utilizing computer-aided technology and automatic robot operation during the intra-operative stage. A novel two-step registration procedure was applied for transforming the preoperative plan to the operation of the robot, with the help of a Coordinate Measurement Machine (CMM). Experiments with a patient-specific phantom were carried out to evaluate the registration error for both position and orientation. After adopting several improvements, registration accuracy of the system was significantly improved. Sub-millimeter accuracy with the Target Registration Errors (TREs) of 0.38\u00b10.16 mm (N=5) was achieved. The target orientation errors after registration and after phantom drilling were 0.92\u00b10.16 \u00b0 (N=5) and 1.99\u00b11.27 \u00b0 (N=14), respectively. These results permit the ultimate goal of an automated robotic system for dental implantation.",
-    "authors": [
-      {
-        "author_fullname": "Sun, Xiaoyan",
-        "author_place": 1,
-        "persona_email": "xsunx003@odu.edu",
-        "persona_firstname": "Xiaoyan",
-        "persona_id": 3106,
-        "persona_lastname": "Sun"
-      },
-      {
-        "author_fullname": "Yoon, Yongki",
-        "author_place": 2,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Li, Jiang",
-        "author_place": 3,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "McKenzie, Frederic D.",
-        "author_place": 4,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2011-05-19 12:49:53",
-    "handles": [
-      {
-        "handle": "10380/3266",
-        "handle_url": "http://hdl.handle.net/10380/3266"
-      }
-    ],
-    "id": 804,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 38,
-        "journal_name": "MICCAI 2011 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "xsunx003@odu.edu",
-      "author_firstname": "Xiaoyan",
-      "author_id": 3106,
-      "author_institution": "Old Dominion University",
-      "author_lastname": "Sun"
-    },
-    "tags": [
-      "registration",
-      "Dental implantation",
-      "computer-aided",
-      "robotics",
-      "orientation error"
-    ],
-    "title": "An Integrated Computer-Aided Robotic System for Dental Implantation"
-  }
+ "publication": {
+  "abstract": "This paper describes an integrated system for dental implantation including both preoperative planning utilizing computer-aided technology and automatic robot operation during the intra-operative stage. A novel two-step registration procedure was applied for transforming the preoperative plan to the operation of the robot, with the help of a Coordinate Measurement Machine (CMM). Experiments with a patient-specific phantom were carried out to evaluate the registration error for both position and orientation. After adopting several improvements, registration accuracy of the system was significantly improved. Sub-millimeter accuracy with the Target Registration Errors (TREs) of 0.38\u00b10.16 mm (N=5) was achieved. The target orientation errors after registration and after phantom drilling were 0.92\u00b10.16 \u00b0 (N=5) and 1.99\u00b11.27 \u00b0 (N=14), respectively. These results permit the ultimate goal of an automated robotic system for dental implantation.",
+  "authors": [
+   {
+    "author_fullname": "Sun, Xiaoyan",
+    "author_place": 1,
+    "persona_email": "xsunx003@odu.edu",
+    "persona_firstname": "Xiaoyan",
+    "persona_id": 3106,
+    "persona_lastname": "Sun"
+   },
+   {
+    "author_fullname": "Yoon, Yongki",
+    "author_place": 2,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Li, Jiang",
+    "author_place": 3,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "McKenzie, Frederic D.",
+    "author_place": 4,
+    "persona_id": null
+   }
+  ],
+  "categories": [
+   "Data Representation",
+   "Registration"
+  ],
+  "comments": [],
+  "date_submitted": "2011-05-19 12:49:53",
+  "handles": [
+   {
+    "handle": "10380/3266",
+    "handle_url": "http://hdl.handle.net/10380/3266"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 38,
+    "journal_name": "MICCAI 2011 Workshops"
+   }
+  ],
+  "publication_id": 804,
+  "submitted_by_author": {
+   "author_email": "xsunx003@odu.edu",
+   "author_firstname": "Xiaoyan",
+   "author_id": 3106,
+   "author_institution": "Old Dominion University",
+   "author_lastname": "Sun"
+  },
+  "tags": [
+   "registration",
+   "Dental implantation",
+   "computer-aided",
+   "robotics",
+   "orientation error"
+  ],
+  "title": "An Integrated Computer-Aided Robotic System for Dental Implantation"
+ }
 }

@@ -1,47 +1,62 @@
 {
-  "publication": {
-    "abstract": "The Wavefront OBJ format is a common file format for storing mesh data. It is convenient to be able to write VTK data structures out into this format, as the data can then be used in software that can read OBJ files.",
-    "authors": [
-      {
-        "author_fullname": "Doria, David",
-        "author_place": 1,
-        "persona_email": "daviddoria@gmail.com",
-        "persona_firstname": "David",
-        "persona_id": 2205,
-        "persona_lastname": "Doria"
-      }
-    ],
-    "date_submitted": "2010-01-28 20:29:21",
-    "handles": [
-      {
-        "handle": "10380/3147",
-        "handle_url": "http://hdl.handle.net/10380/3147"
-      }
-    ],
-    "id": 711,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 35,
-        "journal_name": "The VTK Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "daviddoria@gmail.com",
-      "author_firstname": "David",
-      "author_id": 2205,
-      "author_institution": "Rensselaer Polytechnic Institute",
-      "author_lastname": "Doria"
-    },
-    "tags": [
-      "mesh",
-      "writer",
-      "OBJ",
-      "wavefront"
-    ],
-    "title": "A Wavefront OBJ Writer for VTK"
-  }
+ "publication": {
+  "abstract": "The Wavefront OBJ format is a common file format for storing mesh data. It is convenient to be able to write VTK data structures out into this format, as the data can then be used in software that can read OBJ files.",
+  "authors": [
+   {
+    "author_fullname": "Doria, David",
+    "author_place": 1,
+    "persona_email": "daviddoria@gmail.com",
+    "persona_firstname": "David",
+    "persona_id": 2205,
+    "persona_lastname": "Doria"
+   }
+  ],
+  "categories": [
+   "Data",
+   "Mesh",
+   "Objects"
+  ],
+  "comments": [
+   {
+    "content": "Some comments:\r\nIt doesn\\'t compile with VTK 5.10: vtkStdString is missing -> change into std::string\r\nWriter fails to write correctly vtkPolyData with triangle strips, half of the triangles are missing (or half of the face normals are inverted)\r\nLicense file is missing in the source\r\nHeaders (copyright) are missing in each file\r\nSome comments in API would be welcome: e.g. \\\"Write as ascii\\\", \\\"Write normals, colors...\\\"",
+    "date": "2012-06-28T00:04:16",
+    "persona_email": "julien.finet@kitware.com",
+    "persona_firstname": "Julien",
+    "persona_id": 6449,
+    "persona_lastname": "Finet"
+   }
+  ],
+  "date_submitted": "2010-01-28 20:29:21",
+  "handles": [
+   {
+    "handle": "10380/3147",
+    "handle_url": "http://hdl.handle.net/10380/3147"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 35,
+    "journal_name": "The VTK Journal"
+   }
+  ],
+  "publication_id": 711,
+  "submitted_by_author": {
+   "author_email": "daviddoria@gmail.com",
+   "author_firstname": "David",
+   "author_id": 2205,
+   "author_institution": "Rensselaer Polytechnic Institute",
+   "author_lastname": "Doria"
+  },
+  "tags": [
+   "mesh",
+   "writer",
+   "OBJ",
+   "wavefront"
+  ],
+  "title": "A Wavefront OBJ Writer for VTK"
+ }
 }

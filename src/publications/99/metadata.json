@@ -1,64 +1,69 @@
 {
-  "publication": {
-    "abstract": "We describe the implementation of smoke and bleeding simulation in the open source surgery simulator SPRING \\cite{montgomery02}, which is particularly targeted for minimally invasive surgery simulation. Many smoke and bleeding simulations offer high physical and visual accuracy, but the underlaying models are to complex to run in real-time while performing soft-tissue simulation, collision detection and haptic device support at the same time. Our algorithms are based on simple models, that allow the surgery simulation to run in real-time.",
-    "authors": [
-      {
-        "author_fullname": "Daenzer, Stefan",
-        "author_place": 1,
-        "persona_email": "stefan.daenzer@gmail.com",
-        "persona_firstname": "Stefan",
-        "persona_id": 444,
-        "persona_lastname": "Daenzer"
-      },
-      {
-        "author_fullname": "Montgomery, Kevin",
-        "author_place": 2,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Dillmann, Ruediger",
-        "author_place": 3,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Unterhinninghofen, Roland",
-        "author_place": 4,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2006-07-01T21:59:01Z",
-    "handles": [
-      {
-        "handle": "1926/211",
-        "handle_url": "http://hdl.handle.net/1926/211"
-      }
-    ],
-    "id": 99,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "stefan.daenzer@gmail.com",
-      "author_firstname": "Stefan",
-      "author_id": 444,
-      "author_institution": "National Biocomputation Center at Stanford University",
-      "author_lastname": "Daenzer"
-    },
-    "tags": [
-      "particle system",
-      "smoke simulation",
-      "blood simulation",
-      "fluid simulation",
-      "surgical simulation",
-      "model based simulation"
-    ],
-    "title": "Real-Time Smoke and Bleeding Simulation in Virtual Surgery"
-  }
+ "publication": {
+  "abstract": "We describe the implementation of smoke and bleeding simulation in the open source surgery simulator SPRING \\cite{montgomery02}, which is particularly targeted for minimally invasive surgery simulation. Many smoke and bleeding simulations offer high physical and visual accuracy, but the underlaying models are to complex to run in real-time while performing soft-tissue simulation, collision detection and haptic device support at the same time. Our algorithms are based on simple models, that allow the surgery simulation to run in real-time.",
+  "authors": [
+   {
+    "author_fullname": "Daenzer, Stefan",
+    "author_place": 1,
+    "persona_email": "stefan.daenzer@gmail.com",
+    "persona_firstname": "Stefan",
+    "persona_id": 444,
+    "persona_lastname": "Daenzer"
+   },
+   {
+    "author_fullname": "Montgomery, Kevin",
+    "author_place": 2,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Dillmann, Ruediger",
+    "author_place": 3,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Unterhinninghofen, Roland",
+    "author_place": 4,
+    "persona_id": null
+   }
+  ],
+  "categories": [
+   "Data Representation",
+   "Programming"
+  ],
+  "comments": [],
+  "date_submitted": "2006-07-01T21:59:01Z",
+  "handles": [
+   {
+    "handle": "1926/211",
+    "handle_url": "http://hdl.handle.net/1926/211"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 99,
+  "submitted_by_author": {
+   "author_email": "stefan.daenzer@gmail.com",
+   "author_firstname": "Stefan",
+   "author_id": 444,
+   "author_institution": "National Biocomputation Center at Stanford University",
+   "author_lastname": "Daenzer"
+  },
+  "tags": [
+   "particle system",
+   "smoke simulation",
+   "blood simulation",
+   "fluid simulation",
+   "surgical simulation",
+   "model based simulation"
+  ],
+  "title": "Real-Time Smoke and Bleeding Simulation in Virtual Surgery"
+ }
 }

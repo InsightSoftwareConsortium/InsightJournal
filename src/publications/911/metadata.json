@@ -1,58 +1,68 @@
 {
-  "publication": {
-    "abstract": "Characterization of anatomical structure of the brain and effi\fcient algorithms for automatically analyzing brain MRI have gained an increasing interest in recent years. In this paper, we propose an algorithm that automatically segments the anatomical structures of magnetic resonance human brain images. Our method uses the prior knowledge of labels given by experts to statistically investigate the spatial correspondences of brain structures in subject images. We create a multi-atlas by registering the training images to the subject image and then propagating corresponding labels to the graph of the image. Label fusion then combines these multiple labels of atlases into one label at each voxel with intensity similarity based weighted voting. Finally we cluster the graph using multiway cut in order to achieve the fi\fnal 3D segmentation of the subject image. The promising evaluation results of our segmentation method on the MRBrainS13 Test Dataset shows the effi\u000eciency and robustness of our algorithm.",
-    "authors": [
-      {
-        "author_fullname": "Sarikaya, Duygu",
-        "author_place": 2,
-        "persona_email": "duygusar@buffalo.edu",
-        "persona_firstname": "Duygu",
-        "persona_id": 8787,
-        "persona_lastname": "Sarikaya"
-      },
-      {
-        "author_fullname": "Zhao, Liang",
-        "author_place": 3,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Corso, Jason J.",
-        "author_place": 4,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2013-10-29 11:48:29",
-    "handles": [
-      {
-        "handle": "10380/3448",
-        "handle_url": "http://hdl.handle.net/10380/3448"
-      }
-    ],
-    "id": 911,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 41,
-        "journal_name": "MICCAI 2013 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "duygusar@buffalo.edu",
-      "author_firstname": "Duygu",
-      "author_id": 8787,
-      "author_institution": "SUNY Buffalo",
-      "author_lastname": "Sarikaya"
-    },
-    "tags": [
-      "Similarity Based Weighted Voting",
-      "MR Brain Image Segmentation",
-      "Multi-Atlas Segmentation",
-      "Label Fusion",
-      "Multiway Cut"
-    ],
-    "title": "Multi-Atlas Brain MRI Segmentation with Multiway Cut"
-  }
+ "publication": {
+  "abstract": "Characterization of anatomical structure of the brain and effi\fcient algorithms for automatically analyzing brain MRI have gained an increasing interest in recent years. In this paper, we propose an algorithm that automatically segments the anatomical structures of magnetic resonance human brain images. Our method uses the prior knowledge of labels given by experts to statistically investigate the spatial correspondences of brain structures in subject images. We create a multi-atlas by registering the training images to the subject image and then propagating corresponding labels to the graph of the image. Label fusion then combines these multiple labels of atlases into one label at each voxel with intensity similarity based weighted voting. Finally we cluster the graph using multiway cut in order to achieve the fi\fnal 3D segmentation of the subject image. The promising evaluation results of our segmentation method on the MRBrainS13 Test Dataset shows the effi\u000eciency and robustness of our algorithm.",
+  "authors": [
+   {
+    "author_fullname": "Sarikaya, Duygu",
+    "author_place": 2,
+    "persona_email": "duygusar@buffalo.edu",
+    "persona_firstname": "Duygu",
+    "persona_id": 8787,
+    "persona_lastname": "Sarikaya"
+   },
+   {
+    "author_fullname": "Zhao, Liang",
+    "author_place": 3,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Corso, Jason J.",
+    "author_place": 4,
+    "persona_id": null
+   }
+  ],
+  "categories": [
+   "Atlas-based segmentation",
+   "Classification",
+   "Deformable registration",
+   "Multi-classifier decision fusion",
+   "Optimization",
+   "Registration",
+   "Segmentation"
+  ],
+  "comments": [],
+  "date_submitted": "2013-10-29 11:48:29",
+  "handles": [
+   {
+    "handle": "10380/3448",
+    "handle_url": "http://hdl.handle.net/10380/3448"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 41,
+    "journal_name": "MICCAI 2013 Workshops"
+   }
+  ],
+  "publication_id": 911,
+  "submitted_by_author": {
+   "author_email": "duygusar@buffalo.edu",
+   "author_firstname": "Duygu",
+   "author_id": 8787,
+   "author_institution": "SUNY Buffalo",
+   "author_lastname": "Sarikaya"
+  },
+  "tags": [
+   "Similarity Based Weighted Voting",
+   "MR Brain Image Segmentation",
+   "Multi-Atlas Segmentation",
+   "Label Fusion",
+   "Multiway Cut"
+  ],
+  "title": "Multi-Atlas Brain MRI Segmentation with Multiway Cut"
+ }
 }

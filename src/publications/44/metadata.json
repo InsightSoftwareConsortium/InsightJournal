@@ -1,66 +1,68 @@
 {
-  "publication": {
-    "abstract": "OpenTissue is a multidisciplinary, open source programming toolkit\r\n for physics-based simulation, collision detection, scientific\r\n visualization, and medical imaging. The toolkit was initiated in\r\n 2001, is driven by academia, and is used by several universities.\r\n It implements several cutting edge simulators using cutting edge\r\n programming techniques. OpenTissue is available under Windows and\r\n Linux, and it implements almost all algorithms presented in the\r\n accompanying book, Erleben et al. Physics-Based Animation, Charles River Media, 2005. This\r\n presentation will give an overview of OpenTissue: what it can do,\r\n how it is done, and where the toolkit is going",
-    "authors": [
-      {
-        "author_fullname": "Erleben, Kenny",
-        "author_place": 1,
-        "persona_email": "kenny@diku.dk",
-        "persona_firstname": "Kenny",
-        "persona_id": 2572,
-        "persona_lastname": "Erleben"
-      },
-      {
-        "author_fullname": "Sporring, Jon",
-        "author_place": 2,
-        "persona_email": "sporring@diku.dk",
-        "persona_firstname": "Jon",
-        "persona_id": 103,
-        "persona_lastname": "Sporring"
-      },
-      {
-        "author_fullname": "Dohlmann, Henrik",
-        "author_place": 3,
-        "persona_email": "henrikd@diku.dk",
-        "persona_firstname": "Henrik",
-        "persona_id": 125,
-        "persona_lastname": "Dohlmann"
-      }
-    ],
-    "date_submitted": "2005-08-05T13:26:52Z",
-    "handles": [
-      {
-        "handle": "1926/34",
-        "handle_url": "http://hdl.handle.net/1926/34"
-      }
-    ],
-    "id": 44,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "sporring@diku.dk",
-      "author_firstname": "Jon",
-      "author_id": 103,
-      "author_institution": "Department of Computer Science, University of Copenhagen",
-      "author_lastname": "Sporring"
-    },
-    "tags": [
-      "Templates",
-      "Animation",
-      "Simulation",
-      "Segmentation",
-      "Open Source",
-      "Metaprogramming",
-      "Visualization"
-    ],
-    "title": "OpenTissue - An Open Source Toolkit for Physics-Based Animation"
-  }
+ "publication": {
+  "abstract": "OpenTissue is a multidisciplinary, open source programming toolkit\r\n for physics-based simulation, collision detection, scientific\r\n visualization, and medical imaging. The toolkit was initiated in\r\n 2001, is driven by academia, and is used by several universities.\r\n It implements several cutting edge simulators using cutting edge\r\n programming techniques. OpenTissue is available under Windows and\r\n Linux, and it implements almost all algorithms presented in the\r\n accompanying book, Erleben et al. Physics-Based Animation, Charles River Media, 2005. This\r\n presentation will give an overview of OpenTissue: what it can do,\r\n how it is done, and where the toolkit is going",
+  "authors": [
+   {
+    "author_fullname": "Erleben, Kenny",
+    "author_place": 1,
+    "persona_email": "kenny@diku.dk",
+    "persona_firstname": "Kenny",
+    "persona_id": 2572,
+    "persona_lastname": "Erleben"
+   },
+   {
+    "author_fullname": "Sporring, Jon",
+    "author_place": 2,
+    "persona_email": "sporring@diku.dk",
+    "persona_firstname": "Jon",
+    "persona_id": 103,
+    "persona_lastname": "Sporring"
+   },
+   {
+    "author_fullname": "Dohlmann, Henrik",
+    "author_place": 3,
+    "persona_email": "henrikd@diku.dk",
+    "persona_firstname": "Henrik",
+    "persona_id": 125,
+    "persona_lastname": "Dohlmann"
+   }
+  ],
+  "categories": [],
+  "comments": [],
+  "date_submitted": "2005-08-05T13:26:52Z",
+  "handles": [
+   {
+    "handle": "1926/34",
+    "handle_url": "http://hdl.handle.net/1926/34"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 44,
+  "submitted_by_author": {
+   "author_email": "sporring@diku.dk",
+   "author_firstname": "Jon",
+   "author_id": 103,
+   "author_institution": "Department of Computer Science, University of Copenhagen",
+   "author_lastname": "Sporring"
+  },
+  "tags": [
+   "Templates",
+   "Animation",
+   "Simulation",
+   "Segmentation",
+   "Open Source",
+   "Metaprogramming",
+   "Visualization"
+  ],
+  "title": "OpenTissue - An Open Source Toolkit for Physics-Based Animation"
+ }
 }

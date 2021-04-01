@@ -1,45 +1,47 @@
 {
-  "publication": {
-    "abstract": "This paper describes the use of the Insight Toolkit (www.itk.org) to segment the ventricles in MR image data obtained from the Designed Database of MR Brain Images of Healthy Volunteers hosted at the MIDAS project.",
-    "authors": [
-      {
-        "author_fullname": "Stickney, Matthew",
-        "author_place": 1,
-        "persona_email": "stickm@rpi.edu",
-        "persona_firstname": "Matthew",
-        "persona_id": 705,
-        "persona_lastname": "Stickney"
-      }
-    ],
-    "date_submitted": "2007-10-21T04:25:33Z",
-    "handles": [
-      {
-        "handle": "1926/1311",
-        "handle_url": "http://hdl.handle.net/1926/1311"
-      }
-    ],
-    "id": 199,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "stickm@rpi.edu",
-      "author_firstname": "Matthew",
-      "author_id": 705,
-      "author_institution": "Rennselaer Polytechnic Institute",
-      "author_lastname": "Stickney"
-    },
-    "tags": [
-      "Watershed",
-      "Ventricles"
-    ],
-    "title": "Ventricle Segmentation with Itk's Watershed filter"
-  }
+ "publication": {
+  "abstract": "This paper describes the use of the Insight Toolkit (www.itk.org) to segment the ventricles in MR image data obtained from the Designed Database of MR Brain Images of Healthy Volunteers hosted at the MIDAS project.",
+  "authors": [
+   {
+    "author_fullname": "Stickney, Matthew",
+    "author_place": 1,
+    "persona_email": "stickm@rpi.edu",
+    "persona_firstname": "Matthew",
+    "persona_id": 705,
+    "persona_lastname": "Stickney"
+   }
+  ],
+  "categories": [],
+  "comments": [],
+  "date_submitted": "2007-10-21T04:25:33Z",
+  "handles": [
+   {
+    "handle": "1926/1311",
+    "handle_url": "http://hdl.handle.net/1926/1311"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 199,
+  "submitted_by_author": {
+   "author_email": "stickm@rpi.edu",
+   "author_firstname": "Matthew",
+   "author_id": 705,
+   "author_institution": "Rennselaer Polytechnic Institute",
+   "author_lastname": "Stickney"
+  },
+  "tags": [
+   "Watershed",
+   "Ventricles"
+  ],
+  "title": "Ventricle Segmentation with Itk's Watershed filter"
+ }
 }

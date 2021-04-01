@@ -1,61 +1,79 @@
 {
-  "publication": {
-    "abstract": "This article provides an implementation of our non-parametric diffeomorphic image registration algorithm generalizing Thirion's demons algorithm. Within the Insight Toolkit (ITK), the demons algorithm is implemented as part of the finite difference solver framework. We show that this framework can be extended to handle diffeomorphic transformations. The source code is composed of a set of reusable ITK filters and classes. In addition to an overview of our implementation, we provide a small example program that allows the user to compare the different variants of the demons algorithm.",
-    "authors": [
-      {
-        "author_fullname": "Vercauteren, Tom",
-        "author_place": 2,
-        "persona_email": "tom.vercauteren@gmail.com",
-        "persona_firstname": "Tom",
-        "persona_id": 156,
-        "persona_lastname": "Vercauteren"
-      },
-      {
-        "author_fullname": "Pennec, Xavier",
-        "author_place": 3,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Perchant, Aymeric",
-        "author_place": 4,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Ayache, Nicholas",
-        "author_place": 5,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2008-11-24 07:54:09",
-    "handles": [
-      {
-        "handle": "1926/510",
-        "handle_url": "http://hdl.handle.net/1926/510"
-      }
-    ],
-    "id": 154,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "tom.vercauteren@gmail.com",
-      "author_firstname": "Tom",
-      "author_id": 156,
-      "author_institution": "Mauna Kea Technologies",
-      "author_lastname": "Vercauteren"
-    },
-    "tags": [
-      "Registration",
-      "Demons",
-      "Diffeomorphisms"
-    ],
-    "title": "Diffeomorphic Demons Using ITK's Finite Difference Solver Hierarchy"
-  }
+ "publication": {
+  "abstract": "This article provides an implementation of our non-parametric diffeomorphic image registration algorithm generalizing Thirion's demons algorithm. Within the Insight Toolkit (ITK), the demons algorithm is implemented as part of the finite difference solver framework. We show that this framework can be extended to handle diffeomorphic transformations. The source code is composed of a set of reusable ITK filters and classes. In addition to an overview of our implementation, we provide a small example program that allows the user to compare the different variants of the demons algorithm.",
+  "authors": [
+   {
+    "author_fullname": "Vercauteren, Tom",
+    "author_place": 2,
+    "persona_email": "tom.vercauteren@gmail.com",
+    "persona_firstname": "Tom",
+    "persona_id": 156,
+    "persona_lastname": "Vercauteren"
+   },
+   {
+    "author_fullname": "Pennec, Xavier",
+    "author_place": 3,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Perchant, Aymeric",
+    "author_place": 4,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Ayache, Nicholas",
+    "author_place": 5,
+    "persona_id": null
+   }
+  ],
+  "categories": [
+   "Deformable registration",
+   "Generic Programming",
+   "Image",
+   "Mathematics",
+   "Optimization",
+   "Registration"
+  ],
+  "comments": [
+   {
+    "content": "intra-modality registration.",
+    "date": "2014-06-14T23:00:52",
+    "persona_email": "nickyyude@gmail.com",
+    "persona_firstname": "Nicolas",
+    "persona_id": 9127,
+    "persona_lastname": "Yu"
+   }
+  ],
+  "date_submitted": "2008-11-24 07:54:09",
+  "handles": [
+   {
+    "handle": "1926/510",
+    "handle_url": "http://hdl.handle.net/1926/510"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 154,
+  "submitted_by_author": {
+   "author_email": "tom.vercauteren@gmail.com",
+   "author_firstname": "Tom",
+   "author_id": 156,
+   "author_institution": "Mauna Kea Technologies",
+   "author_lastname": "Vercauteren"
+  },
+  "tags": [
+   "Registration",
+   "Demons",
+   "Diffeomorphisms"
+  ],
+  "title": "Diffeomorphic Demons Using ITK's Finite Difference Solver Hierarchy"
+ }
 }

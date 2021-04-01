@@ -1,69 +1,75 @@
 {
-  "publication": {
-    "abstract": "We have created a wrapper package named SimVTK that allows VTK, and third-party classes derived from VTK classes, to be seamlessly integrated with MATLAB's Simulink interface. Our package generates a loadable Simulink module for each VTK class, which is then represented as a \"block\" on the Simulink canvas, and can be connected with other blocks to form a pipeline. Each block can be double-clicked to bring up a dialog box that allows introspection and control of the VTK class. After a VTK pipeline has been built, it can be run interactively from within Simulink. The outputs of the pipeline can be displayed in an interactive render window, written to a disk file, or exported to a MATLAB variable. Within Simulink, the VTK pipeline can also be connected to the ITK pipeline through the use of our SimITK package. We generate the VTK-Simulink wrapper automatically though the use of CMake build scripts, with XML as an intermediate representation of the VTK class interfaces.\n",
-    "authors": [
-      {
-        "author_fullname": "Gobbi, David G.",
-        "author_place": 1,
-        "persona_email": "david.gobbi@gmail.com",
-        "persona_firstname": "David",
-        "persona_id": 881,
-        "persona_lastname": "Gobbi"
-      },
-      {
-        "author_fullname": "Mousavi, Parvin",
-        "author_place": 2,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Campigotto, Adam",
-        "author_place": 3,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Dickinson, Andrew W. L.",
-        "author_place": 4,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Abolmaesumi, Parvin",
-        "author_place": 5,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2010-11-01 01:14:32",
-    "handles": [
-      {
-        "handle": "10380/3226",
-        "handle_url": "http://hdl.handle.net/10380/3226"
-      }
-    ],
-    "id": 772,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 35,
-        "journal_name": "The VTK Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "david.gobbi@gmail.com",
-      "author_firstname": "David",
-      "author_id": 881,
-      "author_institution": "University of Calgary",
-      "author_lastname": "Gobbi"
-    },
-    "tags": [
-      "VTK",
-      "Simulink",
-      "visual programming",
-      "wrapping",
-      "MATLAB",
-      "ITK"
-    ],
-    "title": "Visual Programming of VTK Pipelines in Simulink"
-  }
+ "publication": {
+  "abstract": "We have created a wrapper package named SimVTK that allows VTK, and third-party classes derived from VTK classes, to be seamlessly integrated with MATLAB's Simulink interface. Our package generates a loadable Simulink module for each VTK class, which is then represented as a \"block\" on the Simulink canvas, and can be connected with other blocks to form a pipeline. Each block can be double-clicked to bring up a dialog box that allows introspection and control of the VTK class. After a VTK pipeline has been built, it can be run interactively from within Simulink. The outputs of the pipeline can be displayed in an interactive render window, written to a disk file, or exported to a MATLAB variable. Within Simulink, the VTK pipeline can also be connected to the ITK pipeline through the use of our SimITK package. We generate the VTK-Simulink wrapper automatically though the use of CMake build scripts, with XML as an intermediate representation of the VTK class interfaces.\n",
+  "authors": [
+   {
+    "author_fullname": "Gobbi, David G.",
+    "author_place": 1,
+    "persona_email": "david.gobbi@gmail.com",
+    "persona_firstname": "David",
+    "persona_id": 881,
+    "persona_lastname": "Gobbi"
+   },
+   {
+    "author_fullname": "Mousavi, Parvin",
+    "author_place": 2,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Campigotto, Adam",
+    "author_place": 3,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Dickinson, Andrew W. L.",
+    "author_place": 4,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Abolmaesumi, Parvin",
+    "author_place": 5,
+    "persona_id": null
+   }
+  ],
+  "categories": [
+   "Filtering",
+   "Language binding",
+   "Registration"
+  ],
+  "comments": [],
+  "date_submitted": "2010-11-01 01:14:32",
+  "handles": [
+   {
+    "handle": "10380/3226",
+    "handle_url": "http://hdl.handle.net/10380/3226"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 35,
+    "journal_name": "The VTK Journal"
+   }
+  ],
+  "publication_id": 772,
+  "submitted_by_author": {
+   "author_email": "david.gobbi@gmail.com",
+   "author_firstname": "David",
+   "author_id": 881,
+   "author_institution": "University of Calgary",
+   "author_lastname": "Gobbi"
+  },
+  "tags": [
+   "VTK",
+   "Simulink",
+   "visual programming",
+   "wrapping",
+   "MATLAB",
+   "ITK"
+  ],
+  "title": "Visual Programming of VTK Pipelines in Simulink"
+ }
 }

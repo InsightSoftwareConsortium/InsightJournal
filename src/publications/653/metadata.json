@@ -1,87 +1,94 @@
 {
-  "publication": {
-    "abstract": "The Surgical Assistant Workstation (SAW) modular software framework provides integrated support\nfor robotic devices, imaging sensors, and a visualization pipeline for rapid prototyping of telesurgical\nresearch systems. Subsystems of a telesurgical system, such as the master and slave robots and the visualization\nengine, form a distributed environment that requires an efficient inter-process communication\n(IPC) mechanism. This paper describes the extension of the component-based framework provided by\nthe cisst libraries, on which the SAW depends, from a multi-threaded (local) to a multi-process (networked)\nenvironment. The current implementation uses the Internet Communication Engine (ICE) middleware\npackage, but the design does not depend on ICE and can accomodate other middleware choices.\nA telesurgical robot system based on the da Vinci hardware platform is used as a test case, with a research\napplication that requires coordination between the left and right robot arms (a bimanual knot tying task).\nPerformance measurements on this platform indicate minimal overhead due to the networking.",
-    "authors": [
-      {
-        "author_fullname": "Jung, Min Yang",
-        "author_place": 1,
-        "persona_email": "myj@jhu.edu",
-        "persona_firstname": "Min Yang",
-        "persona_id": 2198,
-        "persona_lastname": "Jung"
-      },
-      {
-        "author_fullname": "Xia, Tian",
-        "author_place": 2,
-        "persona_email": "einsdot@gmail.com",
-        "persona_firstname": "Tian",
-        "persona_id": 3138,
-        "persona_lastname": "Xia"
-      },
-      {
-        "author_fullname": "Deguet, Anton",
-        "author_place": 3,
-        "persona_email": "anton.deguet@jhu.edu",
-        "persona_firstname": "Anton",
-        "persona_id": 635,
-        "persona_lastname": "Deguet"
-      },
-      {
-        "author_fullname": "Kumar, Rajesh",
-        "author_place": 4,
-        "persona_email": "rajesh@jhu.edu",
-        "persona_firstname": "Rajesh",
-        "persona_id": 944,
-        "persona_lastname": "Kumar"
-      },
-      {
-        "author_fullname": "Taylor, Russell",
-        "author_place": 5,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Kazanzides, Peter",
-        "author_place": 6,
-        "persona_email": "pkaz@cs.jhu.edu",
-        "persona_firstname": "Peter",
-        "persona_id": 63,
-        "persona_lastname": "Kazanzides"
-      }
-    ],
-    "date_submitted": "2009-08-19 22:53:49",
-    "handles": [
-      {
-        "handle": "10380/3079",
-        "handle_url": "http://hdl.handle.net/10380/3079"
-      }
-    ],
-    "id": 653,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 34,
-        "journal_name": "MICCAI 2009 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "myj@jhu.edu",
-      "author_firstname": "Min Yang",
-      "author_id": 2198,
-      "author_institution": "Johns Hopkins University",
-      "author_lastname": "Jung"
-    },
-    "tags": [
-      "telesurgical systems",
-      "Inter-process communication",
-      "Surgical Assistant Workstation (SAW)",
-      "CISST",
-      "Proxy Pattern",
-      "teleoperated surgical robot system",
-      "Internet Communication Engine (ICE)"
-    ],
-    "title": "A Surgical Assistant Workstation (SAW) Application for Teleoperated Surgical Robot System"
-  }
+ "publication": {
+  "abstract": "The Surgical Assistant Workstation (SAW) modular software framework provides integrated support\nfor robotic devices, imaging sensors, and a visualization pipeline for rapid prototyping of telesurgical\nresearch systems. Subsystems of a telesurgical system, such as the master and slave robots and the visualization\nengine, form a distributed environment that requires an efficient inter-process communication\n(IPC) mechanism. This paper describes the extension of the component-based framework provided by\nthe cisst libraries, on which the SAW depends, from a multi-threaded (local) to a multi-process (networked)\nenvironment. The current implementation uses the Internet Communication Engine (ICE) middleware\npackage, but the design does not depend on ICE and can accomodate other middleware choices.\nA telesurgical robot system based on the da Vinci hardware platform is used as a test case, with a research\napplication that requires coordination between the left and right robot arms (a bimanual knot tying task).\nPerformance measurements on this platform indicate minimal overhead due to the networking.",
+  "authors": [
+   {
+    "author_fullname": "Jung, Min Yang",
+    "author_place": 1,
+    "persona_email": "myj@jhu.edu",
+    "persona_firstname": "Min Yang",
+    "persona_id": 2198,
+    "persona_lastname": "Jung"
+   },
+   {
+    "author_fullname": "Xia, Tian",
+    "author_place": 2,
+    "persona_email": "einsdot@gmail.com",
+    "persona_firstname": "Tian",
+    "persona_id": 3138,
+    "persona_lastname": "Xia"
+   },
+   {
+    "author_fullname": "Deguet, Anton",
+    "author_place": 3,
+    "persona_email": "anton.deguet@jhu.edu",
+    "persona_firstname": "Anton",
+    "persona_id": 635,
+    "persona_lastname": "Deguet"
+   },
+   {
+    "author_fullname": "Kumar, Rajesh",
+    "author_place": 4,
+    "persona_email": "rajesh@jhu.edu",
+    "persona_firstname": "Rajesh",
+    "persona_id": 944,
+    "persona_lastname": "Kumar"
+   },
+   {
+    "author_fullname": "Taylor, Russell",
+    "author_place": 5,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Kazanzides, Peter",
+    "author_place": 6,
+    "persona_email": "pkaz@cs.jhu.edu",
+    "persona_firstname": "Peter",
+    "persona_id": 63,
+    "persona_lastname": "Kazanzides"
+   }
+  ],
+  "categories": [
+   "Data",
+   "IO",
+   "Objects",
+   "Programming"
+  ],
+  "comments": [],
+  "date_submitted": "2009-08-19 22:53:49",
+  "handles": [
+   {
+    "handle": "10380/3079",
+    "handle_url": "http://hdl.handle.net/10380/3079"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 34,
+    "journal_name": "MICCAI 2009 Workshops"
+   }
+  ],
+  "publication_id": 653,
+  "submitted_by_author": {
+   "author_email": "myj@jhu.edu",
+   "author_firstname": "Min Yang",
+   "author_id": 2198,
+   "author_institution": "Johns Hopkins University",
+   "author_lastname": "Jung"
+  },
+  "tags": [
+   "telesurgical systems",
+   "Inter-process communication",
+   "Surgical Assistant Workstation (SAW)",
+   "CISST",
+   "Proxy Pattern",
+   "teleoperated surgical robot system",
+   "Internet Communication Engine (ICE)"
+  ],
+  "title": "A Surgical Assistant Workstation (SAW) Application for Teleoperated Surgical Robot System"
+ }
 }

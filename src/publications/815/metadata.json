@@ -1,90 +1,95 @@
 {
-  "publication": {
-    "abstract": "This paper presents the design of a tele-robotic microsurgical platform designed for development of cooperative and tele-operative control schemes, sensor based smart instruments, user interfaces and new surgical techniques with eye surgery as the driving application. The system is built using the distributed component-based cisst libraries and the Surgical Assistant Workstation framework. It includes a cooperatively controlled EyeRobot2, a da Vinci Master manipulator, and a remote stereo visualization system. We use constrained optimization based virtual fixture control to provide Virtual Remote-Center-of-Motion (vRCM) and haptic feedback. Such system can be used in a hybrid setup, combining local cooperative control with remote tele-operation, where an experienced surgeon can provide hand-over-hand tutoring to a novice user. In another scheme, the system can provide haptic feedback based on virtual fixtures constructed from real-time force and proximity sensor information.",
-    "authors": [
-      {
-        "author_fullname": "Balicki, Marcin",
-        "author_place": 1,
-        "persona_email": "marcin@jhu.edu",
-        "persona_firstname": "Marcin",
-        "persona_id": 3169,
-        "persona_lastname": "Balicki"
-      },
-      {
-        "author_fullname": "Xia, Tian",
-        "author_place": 2,
-        "persona_email": "einsdot@gmail.com",
-        "persona_firstname": "Tian",
-        "persona_id": 3138,
-        "persona_lastname": "Xia"
-      },
-      {
-        "author_fullname": "Jung, Min Yang",
-        "author_place": 3,
-        "persona_email": "myj@jhu.edu",
-        "persona_firstname": "Min Yang",
-        "persona_id": 2198,
-        "persona_lastname": "Jung"
-      },
-      {
-        "author_fullname": "Anton Deguet, Anton",
-        "author_place": 4,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Vagvolgyi, Balazs",
-        "author_place": 5,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Kazanzides, Peter",
-        "author_place": 6,
-        "persona_email": "pkaz@cs.jhu.edu",
-        "persona_firstname": "Peter",
-        "persona_id": 63,
-        "persona_lastname": "Kazanzides"
-      },
-      {
-        "author_fullname": "Taylor, Russell",
-        "author_place": 7,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2011-06-17 18:16:51",
-    "handles": [
-      {
-        "handle": "10380/3286",
-        "handle_url": "http://hdl.handle.net/10380/3286"
-      }
-    ],
-    "id": 815,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 38,
-        "journal_name": "MICCAI 2011 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "marcin@jhu.edu",
-      "author_firstname": "Marcin",
-      "author_id": 3169,
-      "author_institution": "Johns Hopkins University",
-      "author_lastname": "Balicki"
-    },
-    "tags": [
-      "Virtual Fixtures",
-      "Eye Surgery",
-      "Teleoperation",
-      "Cooperative Control",
-      "Medical Robotics",
-      "Stereo Visualization",
-      "Haptics",
-      "Distributed Surgical System"
-    ],
-    "title": "Prototyping a Hybrid Cooperative and Tele-robotic Surgical System for Retinal Microsurgery"
-  }
+ "publication": {
+  "abstract": "This paper presents the design of a tele-robotic microsurgical platform designed for development of cooperative and tele-operative control schemes, sensor based smart instruments, user interfaces and new surgical techniques with eye surgery as the driving application. The system is built using the distributed component-based cisst libraries and the Surgical Assistant Workstation framework. It includes a cooperatively controlled EyeRobot2, a da Vinci Master manipulator, and a remote stereo visualization system. We use constrained optimization based virtual fixture control to provide Virtual Remote-Center-of-Motion (vRCM) and haptic feedback. Such system can be used in a hybrid setup, combining local cooperative control with remote tele-operation, where an experienced surgeon can provide hand-over-hand tutoring to a novice user. In another scheme, the system can provide haptic feedback based on virtual fixtures constructed from real-time force and proximity sensor information.",
+  "authors": [
+   {
+    "author_fullname": "Balicki, Marcin",
+    "author_place": 1,
+    "persona_email": "marcin@jhu.edu",
+    "persona_firstname": "Marcin",
+    "persona_id": 3169,
+    "persona_lastname": "Balicki"
+   },
+   {
+    "author_fullname": "Xia, Tian",
+    "author_place": 2,
+    "persona_email": "einsdot@gmail.com",
+    "persona_firstname": "Tian",
+    "persona_id": 3138,
+    "persona_lastname": "Xia"
+   },
+   {
+    "author_fullname": "Jung, Min Yang",
+    "author_place": 3,
+    "persona_email": "myj@jhu.edu",
+    "persona_firstname": "Min Yang",
+    "persona_id": 2198,
+    "persona_lastname": "Jung"
+   },
+   {
+    "author_fullname": "Anton Deguet, Anton",
+    "author_place": 4,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Vagvolgyi, Balazs",
+    "author_place": 5,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Kazanzides, Peter",
+    "author_place": 6,
+    "persona_email": "pkaz@cs.jhu.edu",
+    "persona_firstname": "Peter",
+    "persona_id": 63,
+    "persona_lastname": "Kazanzides"
+   },
+   {
+    "author_fullname": "Taylor, Russell",
+    "author_place": 7,
+    "persona_id": null
+   }
+  ],
+  "categories": [
+   "Optimization",
+   "Streaming"
+  ],
+  "comments": [],
+  "date_submitted": "2011-06-17 18:16:51",
+  "handles": [
+   {
+    "handle": "10380/3286",
+    "handle_url": "http://hdl.handle.net/10380/3286"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 38,
+    "journal_name": "MICCAI 2011 Workshops"
+   }
+  ],
+  "publication_id": 815,
+  "submitted_by_author": {
+   "author_email": "marcin@jhu.edu",
+   "author_firstname": "Marcin",
+   "author_id": 3169,
+   "author_institution": "Johns Hopkins University",
+   "author_lastname": "Balicki"
+  },
+  "tags": [
+   "Virtual Fixtures",
+   "Eye Surgery",
+   "Teleoperation",
+   "Cooperative Control",
+   "Medical Robotics",
+   "Stereo Visualization",
+   "Haptics",
+   "Distributed Surgical System"
+  ],
+  "title": "Prototyping a Hybrid Cooperative and Tele-robotic Surgical System for Retinal Microsurgery"
+ }
 }

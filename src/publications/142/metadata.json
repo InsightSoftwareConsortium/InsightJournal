@@ -1,44 +1,55 @@
 {
-  "publication": {
-    "abstract": "Logic operations such as $I > J$, where I and J are images are useful\r\nwhen generating masks. This submission includes $==$, $>$, $>=$, $<$\r\nand $<=$ filters based on the existing logic filters. This is a very\r\nminor submission - there may already be easy ways of performing the\r\nlogic operations defined by these filters, but I couldn't find them.",
-    "authors": [
-      {
-        "author_fullname": "Beare, Richard",
-        "author_place": 1,
-        "persona_email": "richard.beare@ieee.org",
-        "persona_firstname": "Richard",
-        "persona_id": 197,
-        "persona_lastname": "Beare"
-      }
-    ],
-    "date_submitted": "2007-02-12T22:31:10Z",
-    "handles": [
-      {
-        "handle": "1926/486",
-        "handle_url": "http://hdl.handle.net/1926/486"
-      }
-    ],
-    "id": 142,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "richard.beare@ieee.org",
-      "author_firstname": "Richard",
-      "author_id": 197,
-      "author_institution": "Monash University",
-      "author_lastname": "Beare"
-    },
-    "tags": [
-      "image logic operations"
-    ],
-    "title": "Some extra image logical operations"
-  }
+ "publication": {
+  "abstract": "Logic operations such as $I > J$, where I and J are images are useful\r\nwhen generating masks. This submission includes $==$, $>$, $>=$, $<$\r\nand $<=$ filters based on the existing logic filters. This is a very\r\nminor submission - there may already be easy ways of performing the\r\nlogic operations defined by these filters, but I couldn't find them.",
+  "authors": [
+   {
+    "author_fullname": "Beare, Richard",
+    "author_place": 1,
+    "persona_email": "richard.beare@ieee.org",
+    "persona_firstname": "Richard",
+    "persona_id": 197,
+    "persona_lastname": "Beare"
+   }
+  ],
+  "categories": [],
+  "comments": [
+   {
+    "content": "These additional functor look like they would be quite practical and a quite usefull addition to SimpleITK. However, the current submission is brief on test.",
+    "date": "2012-10-16T16:21:47",
+    "persona_email": "blowekamp@mail.nih.gov",
+    "persona_firstname": "Bradley",
+    "persona_id": 1026,
+    "persona_lastname": "Lowekamp"
+   }
+  ],
+  "date_submitted": "2007-02-12T22:31:10Z",
+  "handles": [
+   {
+    "handle": "1926/486",
+    "handle_url": "http://hdl.handle.net/1926/486"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 142,
+  "submitted_by_author": {
+   "author_email": "richard.beare@ieee.org",
+   "author_firstname": "Richard",
+   "author_id": 197,
+   "author_institution": "Monash University",
+   "author_lastname": "Beare"
+  },
+  "tags": [
+   "image logic operations"
+  ],
+  "title": "Some extra image logical operations"
+ }
 }

@@ -1,45 +1,47 @@
 {
-  "publication": {
-    "abstract": "This paper describes a new tutorial book titled \"An Introduction to Programming for Medical Image Analysis with the Visualization Toolkit.\" This book derived from a set of class handouts used in a biomedical engineering graduate seminar at Yale University. The goal for the seminar was to\r\nintroduce the students to the Visualization Toolkit (VTK) and, to a lesser extent, the Insight Toolkit (ITK). A draft version of the complete book (including all the sample code) is available online at www.bioimagesuite.org/vtkbook.",
-    "authors": [
-      {
-        "author_fullname": "Papademetris, Xenophon",
-        "author_place": 1,
-        "persona_email": "xenophon.papademetris@yale.edu",
-        "persona_firstname": "Xenophon",
-        "persona_id": 79,
-        "persona_lastname": "Papademetris"
-      }
-    ],
-    "date_submitted": "2006-12-13T16:20:57Z",
-    "handles": [
-      {
-        "handle": "1926/395",
-        "handle_url": "http://hdl.handle.net/1926/395"
-      }
-    ],
-    "id": 137,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "xenophon.papademetris@yale.edu",
-      "author_firstname": "Xenophon",
-      "author_id": 79,
-      "author_institution": "Yale University",
-      "author_lastname": "Papademetris"
-    },
-    "tags": [
-      "Tutorial",
-      "VTK"
-    ],
-    "title": "Medical Image Analysis with VTK: A Tutorial"
-  }
+ "publication": {
+  "abstract": "This paper describes a new tutorial book titled \"An Introduction to Programming for Medical Image Analysis with the Visualization Toolkit.\" This book derived from a set of class handouts used in a biomedical engineering graduate seminar at Yale University. The goal for the seminar was to\r\nintroduce the students to the Visualization Toolkit (VTK) and, to a lesser extent, the Insight Toolkit (ITK). A draft version of the complete book (including all the sample code) is available online at www.bioimagesuite.org/vtkbook.",
+  "authors": [
+   {
+    "author_fullname": "Papademetris, Xenophon",
+    "author_place": 1,
+    "persona_email": "xenophon.papademetris@yale.edu",
+    "persona_firstname": "Xenophon",
+    "persona_id": 79,
+    "persona_lastname": "Papademetris"
+   }
+  ],
+  "categories": [],
+  "comments": [],
+  "date_submitted": "2006-12-13T16:20:57Z",
+  "handles": [
+   {
+    "handle": "1926/395",
+    "handle_url": "http://hdl.handle.net/1926/395"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 137,
+  "submitted_by_author": {
+   "author_email": "xenophon.papademetris@yale.edu",
+   "author_firstname": "Xenophon",
+   "author_id": 79,
+   "author_institution": "Yale University",
+   "author_lastname": "Papademetris"
+  },
+  "tags": [
+   "Tutorial",
+   "VTK"
+  ],
+  "title": "Medical Image Analysis with VTK: A Tutorial"
+ }
 }

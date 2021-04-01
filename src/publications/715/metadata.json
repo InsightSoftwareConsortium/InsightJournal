@@ -1,46 +1,51 @@
 {
-  "publication": {
-    "abstract": "This document presents a set of classes (vtkPhysicalCamera, vtkImageCamera) to enable a camera and an image acquired by that camera to be visualized in a 3D scene. Two situations where one would want to visualize camaras with associated images are range data analysis and 3D scene reconstruction from images (structure from motion). The classes presented in this paper are implemented using tools from VTK.",
-    "authors": [
-      {
-        "author_fullname": "Doria, David",
-        "author_place": 1,
-        "persona_email": "daviddoria@gmail.com",
-        "persona_firstname": "David",
-        "persona_id": 2205,
-        "persona_lastname": "Doria"
-      }
-    ],
-    "date_submitted": "2010-02-17 11:43:21",
-    "handles": [
-      {
-        "handle": "10380/3152",
-        "handle_url": "http://hdl.handle.net/10380/3152"
-      }
-    ],
-    "id": 715,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 35,
-        "journal_name": "The VTK Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "daviddoria@gmail.com",
-      "author_firstname": "David",
-      "author_id": 2205,
-      "author_institution": "Rensselaer Polytechnic Institute",
-      "author_lastname": "Doria"
-    },
-    "tags": [
-      "image",
-      "camera",
-      "projective"
-    ],
-    "title": "Using and Visualizing Projective Cameras in VTK"
-  }
+ "publication": {
+  "abstract": "This document presents a set of classes (vtkPhysicalCamera, vtkImageCamera) to enable a camera and an image acquired by that camera to be visualized in a 3D scene. Two situations where one would want to visualize camaras with associated images are range data analysis and 3D scene reconstruction from images (structure from motion). The classes presented in this paper are implemented using tools from VTK.",
+  "authors": [
+   {
+    "author_fullname": "Doria, David",
+    "author_place": 1,
+    "persona_email": "daviddoria@gmail.com",
+    "persona_firstname": "David",
+    "persona_id": 2205,
+    "persona_lastname": "Doria"
+   }
+  ],
+  "categories": [
+   "Image",
+   "Spatial Objects"
+  ],
+  "comments": [],
+  "date_submitted": "2010-02-17 11:43:21",
+  "handles": [
+   {
+    "handle": "10380/3152",
+    "handle_url": "http://hdl.handle.net/10380/3152"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 35,
+    "journal_name": "The VTK Journal"
+   }
+  ],
+  "publication_id": 715,
+  "submitted_by_author": {
+   "author_email": "daviddoria@gmail.com",
+   "author_firstname": "David",
+   "author_id": 2205,
+   "author_institution": "Rensselaer Polytechnic Institute",
+   "author_lastname": "Doria"
+  },
+  "tags": [
+   "image",
+   "camera",
+   "projective"
+  ],
+  "title": "Using and Visualizing Projective Cameras in VTK"
+ }
 }

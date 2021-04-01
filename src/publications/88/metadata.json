@@ -1,42 +1,53 @@
 {
-  "publication": {
-    "abstract": "MINC2.0 IO support REVISED!\r\nThis revision has direction cosines and various other issues addressed.",
-    "authors": [
-      {
-        "author_fullname": "Baghdadi, Leila",
-        "author_place": 1,
-        "persona_email": "baghdadi@phenogenomics.ca",
-        "persona_firstname": "Leila",
-        "persona_id": 7,
-        "persona_lastname": "Baghdadi"
-      }
-    ],
-    "date_submitted": "2006-04-13T18:32:52Z",
-    "handles": [
-      {
-        "handle": "1926/191",
-        "handle_url": "http://hdl.handle.net/1926/191"
-      }
-    ],
-    "id": 88,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "baghdadi@phenogenomics.ca",
-      "author_firstname": "Leila",
-      "author_id": 7,
-      "author_institution": "MICe Imaging Centre",
-      "author_lastname": "Baghdadi"
-    },
-    "tags": null,
-    "title": "MINC2.0 IO Support for ITK"
-  }
+ "publication": {
+  "abstract": "MINC2.0 IO support REVISED!\r\nThis revision has direction cosines and various other issues addressed.",
+  "authors": [
+   {
+    "author_fullname": "Baghdadi, Leila",
+    "author_place": 1,
+    "persona_email": "baghdadi@phenogenomics.ca",
+    "persona_firstname": "Leila",
+    "persona_id": 7,
+    "persona_lastname": "Baghdadi"
+   }
+  ],
+  "categories": [],
+  "comments": [
+   {
+    "content": "When I use these files to produce a new project,I encounter many errors \\\"error LNK2019: unresolved external symbol _miclose_volume referenced in function\u2026\u2026\\\",which is about those virtual functions defined in itkMINC2ImageIO.h.The whole error is :itkMINC2ImageIO.obj : error LNK2019: unresolved external symbol _miclose_volume referenced in function \\\"public: virtual bool __thiscall itk::MINC2ImageIO::CanReadFile(char const *)\\\" (?CanReadFile@MINC2ImageIO@itk@@UAE_NPBD@Z).Can somebody help me about this problem,many thanks!",
+    "date": "2013-06-25T10:35:11",
+    "persona_email": "ttfzzx227@126.com",
+    "persona_firstname": "Tingting",
+    "persona_id": 7965,
+    "persona_lastname": "Feng"
+   }
+  ],
+  "date_submitted": "2006-04-13T18:32:52Z",
+  "handles": [
+   {
+    "handle": "1926/191",
+    "handle_url": "http://hdl.handle.net/1926/191"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 88,
+  "submitted_by_author": {
+   "author_email": "baghdadi@phenogenomics.ca",
+   "author_firstname": "Leila",
+   "author_id": 7,
+   "author_institution": "MICe Imaging Centre",
+   "author_lastname": "Baghdadi"
+  },
+  "tags": null,
+  "title": "MINC2.0 IO Support for ITK"
+ }
 }

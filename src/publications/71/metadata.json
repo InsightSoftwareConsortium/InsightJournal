@@ -1,45 +1,47 @@
 {
-  "publication": {
-    "abstract": "Image projection is a very common task in image analysis to reduce the dimension of an image. A base filter is provided, with some specialized filters which implement different projection methods.",
-    "authors": [
-      {
-        "author_fullname": "Lehmann, Gaetan",
-        "author_place": 1,
-        "persona_email": "gaetan.lehmann@gmail.com",
-        "persona_firstname": "Gaetan",
-        "persona_id": 328,
-        "persona_lastname": "Lehmann"
-      }
-    ],
-    "date_submitted": "2006-01-27T19:41:35Z",
-    "handles": [
-      {
-        "handle": "1926/164",
-        "handle_url": "http://hdl.handle.net/1926/164"
-      }
-    ],
-    "id": 71,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "gaetan.lehmann@gmail.com",
-      "author_firstname": "Gaetan",
-      "author_id": 328,
-      "author_institution": "INRA",
-      "author_lastname": "Lehmann"
-    },
-    "tags": [
-      "projection",
-      "functor"
-    ],
-    "title": "Image projections along an axis"
-  }
+ "publication": {
+  "abstract": "Image projection is a very common task in image analysis to reduce the dimension of an image. A base filter is provided, with some specialized filters which implement different projection methods.",
+  "authors": [
+   {
+    "author_fullname": "Lehmann, Gaetan",
+    "author_place": 1,
+    "persona_email": "gaetan.lehmann@gmail.com",
+    "persona_firstname": "Gaetan",
+    "persona_id": 328,
+    "persona_lastname": "Lehmann"
+   }
+  ],
+  "categories": [],
+  "comments": [],
+  "date_submitted": "2006-01-27T19:41:35Z",
+  "handles": [
+   {
+    "handle": "1926/164",
+    "handle_url": "http://hdl.handle.net/1926/164"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 71,
+  "submitted_by_author": {
+   "author_email": "gaetan.lehmann@gmail.com",
+   "author_firstname": "Gaetan",
+   "author_id": 328,
+   "author_institution": "INRA",
+   "author_lastname": "Lehmann"
+  },
+  "tags": [
+   "projection",
+   "functor"
+  ],
+  "title": "Image projections along an axis"
+ }
 }

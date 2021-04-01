@@ -1,54 +1,68 @@
 {
-  "publication": {
-    "abstract": "This document presents an implementation of the Poisson surface reconstruction algorithm in the VTK framework. (This code was, with permission, adapted directly from the original implementation by Kazhdan, Bolitho, and Hugues. The original implementation can be found here http://www.cs.jhu.edu/~misha/Code/IsoOctree/). We present a class, vtkPoissonReconstruction, which produces a surface from an oriented point set. A Paraview plugin interface is provided to allow extremely easy experimentation with the new functionality. We propose these classes as an addition to the Visualization Toolkit.",
-    "authors": [
-      {
-        "author_fullname": "Doria, David",
-        "author_place": 1,
-        "persona_email": "daviddoria@gmail.com",
-        "persona_firstname": "David",
-        "persona_id": 2205,
-        "persona_lastname": "Doria"
-      },
-      {
-        "author_fullname": "Gelas, Arnaud",
-        "author_place": 2,
-        "persona_email": "arnaudgelas@gmail.com",
-        "persona_firstname": "Arnaud",
-        "persona_id": 7896,
-        "persona_lastname": "Gelas"
-      }
-    ],
-    "date_submitted": "2010-03-19 18:15:21",
-    "handles": [
-      {
-        "handle": "10380/3155",
-        "handle_url": "http://hdl.handle.net/10380/3155"
-      }
-    ],
-    "id": 718,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 35,
-        "journal_name": "The VTK Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "daviddoria@gmail.com",
-      "author_firstname": "David",
-      "author_id": 2205,
-      "author_institution": "Rensselaer Polytechnic Institute",
-      "author_lastname": "Doria"
-    },
-    "tags": [
-      "Surface reconstruction",
-      "mesh",
-      "reconstruction"
-    ],
-    "title": "Poisson Surface Reconstruction for VTK"
-  }
+ "publication": {
+  "abstract": "This document presents an implementation of the Poisson surface reconstruction algorithm in the VTK framework. (This code was, with permission, adapted directly from the original implementation by Kazhdan, Bolitho, and Hugues. The original implementation can be found here http://www.cs.jhu.edu/~misha/Code/IsoOctree/). We present a class, vtkPoissonReconstruction, which produces a surface from an oriented point set. A Paraview plugin interface is provided to allow extremely easy experimentation with the new functionality. We propose these classes as an addition to the Visualization Toolkit.",
+  "authors": [
+   {
+    "author_fullname": "Doria, David",
+    "author_place": 1,
+    "persona_email": "daviddoria@gmail.com",
+    "persona_firstname": "David",
+    "persona_id": 2205,
+    "persona_lastname": "Doria"
+   },
+   {
+    "author_fullname": "Gelas, Arnaud",
+    "author_place": 2,
+    "persona_email": "arnaudgelas@gmail.com",
+    "persona_firstname": "Arnaud",
+    "persona_id": 7896,
+    "persona_lastname": "Gelas"
+   }
+  ],
+  "categories": [
+   "Mesh",
+   "PointSet"
+  ],
+  "comments": [
+   {
+    "content": "Dosnt work with parallel use....launching 2 or more thread doing this result in a crash",
+    "date": "2016-02-11T05:11:57",
+    "persona_email": "pucakefom@flemail.ru",
+    "persona_firstname": "Pick",
+    "persona_id": 9718,
+    "persona_lastname": "Picker"
+   }
+  ],
+  "date_submitted": "2010-03-19 18:15:21",
+  "handles": [
+   {
+    "handle": "10380/3155",
+    "handle_url": "http://hdl.handle.net/10380/3155"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 35,
+    "journal_name": "The VTK Journal"
+   }
+  ],
+  "publication_id": 718,
+  "submitted_by_author": {
+   "author_email": "daviddoria@gmail.com",
+   "author_firstname": "David",
+   "author_id": 2205,
+   "author_institution": "Rensselaer Polytechnic Institute",
+   "author_lastname": "Doria"
+  },
+  "tags": [
+   "Surface reconstruction",
+   "mesh",
+   "reconstruction"
+  ],
+  "title": "Poisson Surface Reconstruction for VTK"
+ }
 }

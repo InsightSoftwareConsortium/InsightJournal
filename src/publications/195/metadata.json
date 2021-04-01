@@ -1,47 +1,49 @@
 {
-  "publication": {
-    "abstract": "This document describes an implementation of Connected Threshold Segmentation to isolate the ventricles using Insight Toolkit www.itk.org.",
-    "authors": [
-      {
-        "author_fullname": "Dugas, Scott",
-        "author_place": 1,
-        "persona_email": "dugass@rpi.edu",
-        "persona_firstname": "Scott",
-        "persona_id": 715,
-        "persona_lastname": "Dugas"
-      }
-    ],
-    "date_submitted": "2007-10-19T03:41:08Z",
-    "handles": [
-      {
-        "handle": "1926/1307",
-        "handle_url": "http://hdl.handle.net/1926/1307"
-      }
-    ],
-    "id": 195,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "dugass@rpi.edu",
-      "author_firstname": "Scott",
-      "author_id": 715,
-      "author_institution": "RPI",
-      "author_lastname": "Dugas"
-    },
-    "tags": [
-      "segmentation",
-      "threshold",
-      "connected",
-      "ventricle"
-    ],
-    "title": "Connected Threshold Segmentation of Ventricles in the Brain"
-  }
+ "publication": {
+  "abstract": "This document describes an implementation of Connected Threshold Segmentation to isolate the ventricles using Insight Toolkit www.itk.org.",
+  "authors": [
+   {
+    "author_fullname": "Dugas, Scott",
+    "author_place": 1,
+    "persona_email": "dugass@rpi.edu",
+    "persona_firstname": "Scott",
+    "persona_id": 715,
+    "persona_lastname": "Dugas"
+   }
+  ],
+  "categories": [],
+  "comments": [],
+  "date_submitted": "2007-10-19T03:41:08Z",
+  "handles": [
+   {
+    "handle": "1926/1307",
+    "handle_url": "http://hdl.handle.net/1926/1307"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 195,
+  "submitted_by_author": {
+   "author_email": "dugass@rpi.edu",
+   "author_firstname": "Scott",
+   "author_id": 715,
+   "author_institution": "RPI",
+   "author_lastname": "Dugas"
+  },
+  "tags": [
+   "segmentation",
+   "threshold",
+   "connected",
+   "ventricle"
+  ],
+  "title": "Connected Threshold Segmentation of Ventricles in the Brain"
+ }
 }

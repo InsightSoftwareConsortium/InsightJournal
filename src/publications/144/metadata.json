@@ -1,50 +1,52 @@
 {
-  "publication": {
-    "abstract": "Homogeneous transformations are widely used in computer vision and graphics. They commonly arise\r\nwhen considering the transformation of an image of a planar object under arbitrary camera motion, or the\r\ntransformation of two images of the same scene due to camera motion holding the optical center fixed.\r\nIn this paper we describe the addition of a class of homogeneous transforms for the Insight Toolkit.",
-    "authors": [
-      {
-        "author_fullname": "Brooks, Rupert",
-        "author_place": 1,
-        "persona_email": "rupert.brooks@gmail.com",
-        "persona_firstname": "Rupert",
-        "persona_id": 171,
-        "persona_lastname": "Brooks"
-      },
-      {
-        "author_fullname": "Arbel, Tal",
-        "author_place": 2,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2007-03-08T21:48:40Z",
-    "handles": [
-      {
-        "handle": "1926/493",
-        "handle_url": "http://hdl.handle.net/1926/493"
-      }
-    ],
-    "id": 144,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "rupert.brooks@gmail.com",
-      "author_firstname": "Rupert",
-      "author_id": 171,
-      "author_institution": "Elekta LTD, Soft Tissue Imaging",
-      "author_lastname": "Brooks"
-    },
-    "tags": [
-      "Transforms",
-      "Registration"
-    ],
-    "title": "A Homogeneous Transform Class for the ITK"
-  }
+ "publication": {
+  "abstract": "Homogeneous transformations are widely used in computer vision and graphics. They commonly arise\r\nwhen considering the transformation of an image of a planar object under arbitrary camera motion, or the\r\ntransformation of two images of the same scene due to camera motion holding the optical center fixed.\r\nIn this paper we describe the addition of a class of homogeneous transforms for the Insight Toolkit.",
+  "authors": [
+   {
+    "author_fullname": "Brooks, Rupert",
+    "author_place": 1,
+    "persona_email": "rupert.brooks@gmail.com",
+    "persona_firstname": "Rupert",
+    "persona_id": 171,
+    "persona_lastname": "Brooks"
+   },
+   {
+    "author_fullname": "Arbel, Tal",
+    "author_place": 2,
+    "persona_id": null
+   }
+  ],
+  "categories": [],
+  "comments": [],
+  "date_submitted": "2007-03-08T21:48:40Z",
+  "handles": [
+   {
+    "handle": "1926/493",
+    "handle_url": "http://hdl.handle.net/1926/493"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 144,
+  "submitted_by_author": {
+   "author_email": "rupert.brooks@gmail.com",
+   "author_firstname": "Rupert",
+   "author_id": 171,
+   "author_institution": "Elekta LTD, Soft Tissue Imaging",
+   "author_lastname": "Brooks"
+  },
+  "tags": [
+   "Transforms",
+   "Registration"
+  ],
+  "title": "A Homogeneous Transform Class for the ITK"
+ }
 }

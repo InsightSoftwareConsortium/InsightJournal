@@ -1,50 +1,56 @@
 {
-  "publication": {
-    "abstract": "In this paper, we propose a semi-automatic method for left ventricle segmentation. The proposed method utilizes a multi-scale quadrature filter method to enhance the 3D volume, followed by a model-based level set method to segment the endocardial surface of the left ventricle. The phase map from the quadrature filters is also used to weight the influence of contour points when updating the statistical model.",
-    "authors": [
-      {
-        "author_fullname": "Wang, Chunliang",
-        "author_place": 1,
-        "persona_email": "chunliang.wang@liu.se",
-        "persona_firstname": "Chunliang",
-        "persona_id": 8762,
-        "persona_lastname": "Wang"
-      },
-      {
-        "author_fullname": "Smedby, Orjan",
-        "author_place": 2,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2014-10-24 19:10:55",
-    "handles": [
-      {
-        "handle": "10380/3489",
-        "handle_url": "http://hdl.handle.net/10380/3489"
-      }
-    ],
-    "id": 936,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 42,
-        "journal_name": "MICCAI 2014 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "olivier.bernard@creatis.insa-lyon.fr",
-      "author_firstname": "Olivier",
-      "author_id": 5768,
-      "author_institution": "CREATIS",
-      "author_lastname": "Bernard"
-    },
-    "tags": [
-      "3D ultrasound imaging",
-      "Segmentation"
-    ],
-    "title": "Model-based left ventricle segmentation in 3D ultrasound using phase image"
-  }
+ "publication": {
+  "abstract": "In this paper, we propose a semi-automatic method for left ventricle segmentation. The proposed method utilizes a multi-scale quadrature filter method to enhance the 3D volume, followed by a model-based level set method to segment the endocardial surface of the left ventricle. The phase map from the quadrature filters is also used to weight the influence of contour points when updating the statistical model.",
+  "authors": [
+   {
+    "author_fullname": "Wang, Chunliang",
+    "author_place": 1,
+    "persona_email": "chunliang.wang@liu.se",
+    "persona_firstname": "Chunliang",
+    "persona_id": 8762,
+    "persona_lastname": "Wang"
+   },
+   {
+    "author_fullname": "Smedby, Orjan",
+    "author_place": 2,
+    "persona_id": null
+   }
+  ],
+  "categories": [
+   "Feature extraction",
+   "Level sets",
+   "Segmentation"
+  ],
+  "comments": [],
+  "date_submitted": "2014-10-24 19:10:55",
+  "handles": [
+   {
+    "handle": "10380/3489",
+    "handle_url": "http://hdl.handle.net/10380/3489"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 42,
+    "journal_name": "MICCAI 2014 Workshops"
+   }
+  ],
+  "publication_id": 936,
+  "submitted_by_author": {
+   "author_email": "olivier.bernard@creatis.insa-lyon.fr",
+   "author_firstname": "Olivier",
+   "author_id": 5768,
+   "author_institution": "CREATIS",
+   "author_lastname": "Bernard"
+  },
+  "tags": [
+   "3D ultrasound imaging",
+   "Segmentation"
+  ],
+  "title": "Model-based left ventricle segmentation in 3D ultrasound using phase image"
+ }
 }

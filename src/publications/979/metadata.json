@@ -1,53 +1,59 @@
 {
-  "publication": {
-    "abstract": "This document describes an ITK implementation of the adaptive patch-based\nimage denoising algorithm described in cite{Manjon:2010aa}. This offering consists\nof the templated class itkPatchBasedDenoisingImageFilter interfaced through\nthe DenoiseImage program which includes its own interface program. We include\na couple of examples.",
-    "authors": [
-      {
-        "author_fullname": "Tustison, Nicholas J.",
-        "author_place": 2,
-        "persona_email": "ntustison@gmail.com",
-        "persona_firstname": "Nicholas J.",
-        "persona_id": 8833,
-        "persona_lastname": "Tustison"
-      },
-      {
-        "author_fullname": "Manjon, Jose V.",
-        "author_place": 3,
-        "persona_email": "jmanjon@fis.upv.es",
-        "persona_firstname": "Jose",
-        "persona_id": 451,
-        "persona_lastname": "Manjon"
-      }
-    ],
-    "date_submitted": "2016-08-27 11:37:14",
-    "handles": [
-      {
-        "handle": "10380/3564",
-        "handle_url": "http://hdl.handle.net/10380/3564"
-      }
-    ],
-    "id": 979,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "ntustison@gmail.com",
-      "author_firstname": "Nicholas J.",
-      "author_id": 8833,
-      "author_institution": "",
-      "author_lastname": "Tustison"
-    },
-    "tags": [
-      "MRI",
-      "Denoising"
-    ],
-    "title": "Two Luis Miguel fans walk into a bar in Nagoya ---> (yada, yada, yada) ---> an ITK-implementation of a popular patch-based denoising filter"
-  }
+ "publication": {
+  "abstract": "This document describes an ITK implementation of the adaptive patch-based\nimage denoising algorithm described in cite{Manjon:2010aa}. This offering consists\nof the templated class itkPatchBasedDenoisingImageFilter interfaced through\nthe DenoiseImage program which includes its own interface program. We include\na couple of examples.",
+  "authors": [
+   {
+    "author_fullname": "Tustison, Nicholas J.",
+    "author_place": 2,
+    "persona_email": "ntustison@gmail.com",
+    "persona_firstname": "Nicholas J.",
+    "persona_id": 8833,
+    "persona_lastname": "Tustison"
+   },
+   {
+    "author_fullname": "Manjon, Jose V.",
+    "author_place": 3,
+    "persona_email": "jmanjon@fis.upv.es",
+    "persona_firstname": "Jose",
+    "persona_id": 451,
+    "persona_lastname": "Manjon"
+   }
+  ],
+  "categories": [
+   "Anisotropic blurring filters",
+   "Filtering",
+   "Neighborhood filters"
+  ],
+  "comments": [],
+  "date_submitted": "2016-08-27 11:37:14",
+  "handles": [
+   {
+    "handle": "10380/3564",
+    "handle_url": "http://hdl.handle.net/10380/3564"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 979,
+  "submitted_by_author": {
+   "author_email": "ntustison@gmail.com",
+   "author_firstname": "Nicholas J.",
+   "author_id": 8833,
+   "author_institution": "",
+   "author_lastname": "Tustison"
+  },
+  "tags": [
+   "MRI",
+   "Denoising"
+  ],
+  "title": "Two Luis Miguel fans walk into a bar in Nagoya ---> (yada, yada, yada) ---> an ITK-implementation of a popular patch-based denoising filter"
+ }
 }

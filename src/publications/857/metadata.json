@@ -1,55 +1,60 @@
 {
-  "publication": {
-    "abstract": "In this document, we report our activities on the subcontract with Kitware where we carefully study the upcoming ITK v4 pipeline design to help the ITK v4 development team to add support of modern dataflow architectures to ITK.",
-    "authors": [
-      {
-        "author_fullname": "Vo, Huy",
-        "author_place": 1,
-        "persona_email": "huy.tuan.vo@gmail.com",
-        "persona_firstname": "Huy",
-        "persona_id": 6190,
-        "persona_lastname": "Vo"
-      },
-      {
-        "author_fullname": "Lins, Lauro",
-        "author_place": 2,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Silva, Claudio",
-        "author_place": 3,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2012-04-27 01:36:26",
-    "handles": [
-      {
-        "handle": "10380/3351",
-        "handle_url": "http://hdl.handle.net/10380/3351"
-      }
-    ],
-    "id": 857,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "huy.tuan.vo@gmail.com",
-      "author_firstname": "Huy",
-      "author_id": 6190,
-      "author_institution": "Polytechnic Institute of New York University",
-      "author_lastname": "Vo"
-    },
-    "tags": [
-      "parallel",
-      "dataflow architecture"
-    ],
-    "title": "HyperFlow and ITK v4 Integration: Exploring the use of a modern parallel dataflow architecture in ITK"
-  }
+ "publication": {
+  "abstract": "In this document, we report our activities on the subcontract with Kitware where we carefully study the upcoming ITK v4 pipeline design to help the ITK v4 development team to add support of modern dataflow architectures to ITK.",
+  "authors": [
+   {
+    "author_fullname": "Vo, Huy",
+    "author_place": 1,
+    "persona_email": "huy.tuan.vo@gmail.com",
+    "persona_firstname": "Huy",
+    "persona_id": 6190,
+    "persona_lastname": "Vo"
+   },
+   {
+    "author_fullname": "Lins, Lauro",
+    "author_place": 2,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Silva, Claudio",
+    "author_place": 3,
+    "persona_id": null
+   }
+  ],
+  "categories": [
+   "Parallelization, SMP",
+   "Streaming"
+  ],
+  "comments": [],
+  "date_submitted": "2012-04-27 01:36:26",
+  "handles": [
+   {
+    "handle": "10380/3351",
+    "handle_url": "http://hdl.handle.net/10380/3351"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 857,
+  "submitted_by_author": {
+   "author_email": "huy.tuan.vo@gmail.com",
+   "author_firstname": "Huy",
+   "author_id": 6190,
+   "author_institution": "Polytechnic Institute of New York University",
+   "author_lastname": "Vo"
+  },
+  "tags": [
+   "parallel",
+   "dataflow architecture"
+  ],
+  "title": "HyperFlow and ITK v4 Integration: Exploring the use of a modern parallel dataflow architecture in ITK"
+ }
 }

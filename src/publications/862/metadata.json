@@ -1,61 +1,66 @@
 {
-  "publication": {
-    "abstract": "Acquiring data sets for stereo or multi-view reconstruction with known ground truth is costly and time consuming. Freely available data sets mostly focus on specific scene conditions and might not reflect the intended application scenario. We propose a GPU accelerated ray tracing framework that allows to generate realistic images with adjustable camera properties and projection geometry. Due to the nature of ray tracing, ground truth data can easily be obtained. The system also supports projectors as used e.g. for structured light systems. This facilitates to study interaction effects between different pattern designs, camera and projector properties, as well as the utilized reconstruction algorithm.",
-    "authors": [
-      {
-        "author_fullname": "Staub, Christoph",
-        "author_place": 1,
-        "persona_email": "staub@in.tum.de",
-        "persona_firstname": "Christoph",
-        "persona_id": 6390,
-        "persona_lastname": "Staub"
-      },
-      {
-        "author_fullname": "Haider, Andreas",
-        "author_place": 2,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Grimm, Markus",
-        "author_place": 3,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Knoll, Alois",
-        "author_place": 4,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2012-07-12 12:24:21",
-    "handles": [
-      {
-        "handle": "10380/3360",
-        "handle_url": "http://hdl.handle.net/10380/3360"
-      }
-    ],
-    "id": 862,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 40,
-        "journal_name": "MICCAI 2012 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "staub@in.tum.de",
-      "author_firstname": "Christoph",
-      "author_id": 6390,
-      "author_institution": "TUM",
-      "author_lastname": "Staub"
-    },
-    "tags": [
-      "3D Reconstruction",
-      "Simulation",
-      "Ray tracing"
-    ],
-    "title": "On the Generation of Ground Truth Data for Depth Reconstruction"
-  }
+ "publication": {
+  "abstract": "Acquiring data sets for stereo or multi-view reconstruction with known ground truth is costly and time consuming. Freely available data sets mostly focus on specific scene conditions and might not reflect the intended application scenario. We propose a GPU accelerated ray tracing framework that allows to generate realistic images with adjustable camera properties and projection geometry. Due to the nature of ray tracing, ground truth data can easily be obtained. The system also supports projectors as used e.g. for structured light systems. This facilitates to study interaction effects between different pattern designs, camera and projector properties, as well as the utilized reconstruction algorithm.",
+  "authors": [
+   {
+    "author_fullname": "Staub, Christoph",
+    "author_place": 1,
+    "persona_email": "staub@in.tum.de",
+    "persona_firstname": "Christoph",
+    "persona_id": 6390,
+    "persona_lastname": "Staub"
+   },
+   {
+    "author_fullname": "Haider, Andreas",
+    "author_place": 2,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Grimm, Markus",
+    "author_place": 3,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Knoll, Alois",
+    "author_place": 4,
+    "persona_id": null
+   }
+  ],
+  "categories": [
+   "Code speed optimization",
+   "Distance maps"
+  ],
+  "comments": [],
+  "date_submitted": "2012-07-12 12:24:21",
+  "handles": [
+   {
+    "handle": "10380/3360",
+    "handle_url": "http://hdl.handle.net/10380/3360"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 40,
+    "journal_name": "MICCAI 2012 Workshops"
+   }
+  ],
+  "publication_id": 862,
+  "submitted_by_author": {
+   "author_email": "staub@in.tum.de",
+   "author_firstname": "Christoph",
+   "author_id": 6390,
+   "author_institution": "TUM",
+   "author_lastname": "Staub"
+  },
+  "tags": [
+   "3D Reconstruction",
+   "Simulation",
+   "Ray tracing"
+  ],
+  "title": "On the Generation of Ground Truth Data for Depth Reconstruction"
+ }
 }

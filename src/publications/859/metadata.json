@@ -1,55 +1,70 @@
 {
-  "publication": {
-    "abstract": "Skull-stripping (or brain extraction) is an important pre-processing step in neuroimage analysis. This document describes a skull-stripping filter implemented using the Insight Toolkit ITK, which we named itk::StripTsImageFilter. It is a composite filter based on existing ITK classes. The filter has been implemented with usability, robustness, speed and versatility in mind, rather than accuracy. This makes it useful for many pre-processing tasks in neuroimage analysis. This paper is accompanied by the source code, input data and a testing environment.",
-    "authors": [
-      {
-        "author_fullname": "Bauer, Stefan",
-        "author_place": 1,
-        "persona_email": "stefan.bauer@istb.unibe.ch",
-        "persona_firstname": "Stefan",
-        "persona_id": 6163,
-        "persona_lastname": "Bauer"
-      },
-      {
-        "author_fullname": "Fejes, Thomas",
-        "author_place": 2,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Reyes, Mauricio",
-        "author_place": 3,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2013-01-21 00:11:02",
-    "handles": [
-      {
-        "handle": "10380/3353",
-        "handle_url": "http://hdl.handle.net/10380/3353"
-      }
-    ],
-    "id": 859,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "stefan.bauer@istb.unibe.ch",
-      "author_firstname": "Stefan",
-      "author_id": 6163,
-      "author_institution": "University of Bern",
-      "author_lastname": "Bauer"
-    },
-    "tags": [
-      "brain extraction",
-      "skull-stripping"
-    ],
-    "title": "A Skull-Stripping Filter for ITK"
-  }
+ "publication": {
+  "abstract": "Skull-stripping (or brain extraction) is an important pre-processing step in neuroimage analysis. This document describes a skull-stripping filter implemented using the Insight Toolkit ITK, which we named itk::StripTsImageFilter. It is a composite filter based on existing ITK classes. The filter has been implemented with usability, robustness, speed and versatility in mind, rather than accuracy. This makes it useful for many pre-processing tasks in neuroimage analysis. This paper is accompanied by the source code, input data and a testing environment.",
+  "authors": [
+   {
+    "author_fullname": "Bauer, Stefan",
+    "author_place": 1,
+    "persona_email": "stefan.bauer@istb.unibe.ch",
+    "persona_firstname": "Stefan",
+    "persona_id": 6163,
+    "persona_lastname": "Bauer"
+   },
+   {
+    "author_fullname": "Fejes, Thomas",
+    "author_place": 2,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Reyes, Mauricio",
+    "author_place": 3,
+    "persona_id": null
+   }
+  ],
+  "categories": [
+   "Atlas-based segmentation",
+   "Level sets",
+   "Segmentation"
+  ],
+  "comments": [
+   {
+    "content": "The current version (revision #4) is also working as a remote module for ITKv4 now, thanks to Bill Lorensen for his help in setting this up.",
+    "date": "2013-01-21T00:25:49",
+    "persona_email": "stefan.bauer@istb.unibe.ch",
+    "persona_firstname": "Stefan",
+    "persona_id": 6163,
+    "persona_lastname": "Bauer"
+   }
+  ],
+  "date_submitted": "2013-01-21 00:11:02",
+  "handles": [
+   {
+    "handle": "10380/3353",
+    "handle_url": "http://hdl.handle.net/10380/3353"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 859,
+  "submitted_by_author": {
+   "author_email": "stefan.bauer@istb.unibe.ch",
+   "author_firstname": "Stefan",
+   "author_id": 6163,
+   "author_institution": "University of Bern",
+   "author_lastname": "Bauer"
+  },
+  "tags": [
+   "brain extraction",
+   "skull-stripping"
+  ],
+  "title": "A Skull-Stripping Filter for ITK"
+ }
 }

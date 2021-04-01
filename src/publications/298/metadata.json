@@ -1,58 +1,63 @@
 {
-  "publication": {
-    "abstract": "When dealing with meshes, it is often preferable to work with a lower resolution mesh for computational\ntime purpose, display. The process of reducing a given mesh, mesh decimation, is thus an important step\nin most of pipeline dealing with meshes. Incremental decimation algorithms, the most popular ones,\nconsists of iteratively removing one point of the mesh, by Euler operations such as vertex removal or\nedge collapse. Here we focus on edge collapse based decimation approaches and propose a general\nframework based on a surface mesh data structure (itk::QuadEdgeMesh [3]). Our implementation intends\nto be as general and as flexible as possible. Indeed it can theoretically be applied on any polygonal\nmesh1; the measure, functional to be optimized at each iteration, the objective to be reached, and optional\nmethods like point relocation to enhance the geometry of the resulting mesh, are given by the user.\nWe provide here two specific implementations: itk::QuadEdgeMeshSquaredEdgeLengthDecimation\nand itk::QuadEdgeMeshQuadricDecimation, that could be used as example to implement additional\nalgorithms.",
-    "authors": [
-      {
-        "author_fullname": "Gelas, Arnaud",
-        "author_place": 2,
-        "persona_email": "arnaudgelas@gmail.com",
-        "persona_firstname": "Arnaud",
-        "persona_id": 7896,
-        "persona_lastname": "Gelas"
-      },
-      {
-        "author_fullname": "Gouaillard, Alexandre",
-        "author_place": 3,
-        "persona_email": "agouaillard@gmail.com",
-        "persona_firstname": "Alexandre",
-        "persona_id": 322,
-        "persona_lastname": "Gouaillard"
-      },
-      {
-        "author_fullname": "Megason, Sean",
-        "author_place": 4,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2008-08-05T15:48:18Z",
-    "handles": [
-      {
-        "handle": "1926/1488",
-        "handle_url": "http://hdl.handle.net/1926/1488"
-      }
-    ],
-    "id": 298,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": null,
-      "author_firstname": null,
-      "author_id": null,
-      "author_institution": "Harvard Medical School",
-      "author_lastname": null
-    },
-    "tags": [
-      "decimation",
-      "meshes"
-    ],
-    "title": "Surface Meshes Incremental Decimation Framework"
-  }
+ "publication": {
+  "abstract": "When dealing with meshes, it is often preferable to work with a lower resolution mesh for computational\ntime purpose, display. The process of reducing a given mesh, mesh decimation, is thus an important step\nin most of pipeline dealing with meshes. Incremental decimation algorithms, the most popular ones,\nconsists of iteratively removing one point of the mesh, by Euler operations such as vertex removal or\nedge collapse. Here we focus on edge collapse based decimation approaches and propose a general\nframework based on a surface mesh data structure (itk::QuadEdgeMesh [3]). Our implementation intends\nto be as general and as flexible as possible. Indeed it can theoretically be applied on any polygonal\nmesh1; the measure, functional to be optimized at each iteration, the objective to be reached, and optional\nmethods like point relocation to enhance the geometry of the resulting mesh, are given by the user.\nWe provide here two specific implementations: itk::QuadEdgeMeshSquaredEdgeLengthDecimation\nand itk::QuadEdgeMeshQuadricDecimation, that could be used as example to implement additional\nalgorithms.",
+  "authors": [
+   {
+    "author_fullname": "Gelas, Arnaud",
+    "author_place": 2,
+    "persona_email": "arnaudgelas@gmail.com",
+    "persona_firstname": "Arnaud",
+    "persona_id": 7896,
+    "persona_lastname": "Gelas"
+   },
+   {
+    "author_fullname": "Gouaillard, Alexandre",
+    "author_place": 3,
+    "persona_email": "agouaillard@gmail.com",
+    "persona_firstname": "Alexandre",
+    "persona_id": 322,
+    "persona_lastname": "Gouaillard"
+   },
+   {
+    "author_fullname": "Megason, Sean",
+    "author_place": 4,
+    "persona_id": null
+   }
+  ],
+  "categories": [
+   "Mesh",
+   "Resampling"
+  ],
+  "comments": [],
+  "date_submitted": "2008-08-05T15:48:18Z",
+  "handles": [
+   {
+    "handle": "1926/1488",
+    "handle_url": "http://hdl.handle.net/1926/1488"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 298,
+  "submitted_by_author": {
+   "author_email": null,
+   "author_firstname": null,
+   "author_id": null,
+   "author_institution": "Harvard Medical School",
+   "author_lastname": null
+  },
+  "tags": [
+   "decimation",
+   "meshes"
+  ],
+  "title": "Surface Meshes Incremental Decimation Framework"
+ }
 }

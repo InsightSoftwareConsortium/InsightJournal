@@ -1,49 +1,51 @@
 {
-  "publication": {
-    "abstract": "Open Science includes access to both open source software/methodologies and open data. While there has been progress in open image databases, the results of these efforts are under-reported. As such, imaging scientists are unaware of the available data. In addition, many researchers are interested in providing their data to the greater research community, but may be unaware of the process to release the data. The purpose of this paper is to describe our efforts in developing an open website which includes information on accessible medical image databases as well as some of the logistics for providing an open image database. Most importantly, the authors are requesting participation from the community to contribute to the Medical Image Database Repository (http://midr.org) in order to consolidate the collect knowledge of the community.",
-    "authors": [
-      {
-        "author_fullname": "Holmes, David R III",
-        "author_place": 1,
-        "persona_email": "holmes.david3@mayo.edu",
-        "persona_firstname": "David",
-        "persona_id": 20,
-        "persona_lastname": "Holmes"
-      },
-      {
-        "author_fullname": "Robb, Richard A",
-        "author_place": 2,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2007-07-15T21:25:03Z",
-    "handles": [
-      {
-        "handle": "1926/562",
-        "handle_url": "http://hdl.handle.net/1926/562"
-      }
-    ],
-    "id": 167,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "holmes.david3@mayo.edu",
-      "author_firstname": "David",
-      "author_id": 20,
-      "author_institution": "Biomedical Imaging Resource, Mayo Clinic",
-      "author_lastname": "Holmes"
-    },
-    "tags": [
-      "Image Databases"
-    ],
-    "title": "Data, data everywhere, nor an image to read - Finding open image databases."
-  }
+ "publication": {
+  "abstract": "Open Science includes access to both open source software/methodologies and open data. While there has been progress in open image databases, the results of these efforts are under-reported. As such, imaging scientists are unaware of the available data. In addition, many researchers are interested in providing their data to the greater research community, but may be unaware of the process to release the data. The purpose of this paper is to describe our efforts in developing an open website which includes information on accessible medical image databases as well as some of the logistics for providing an open image database. Most importantly, the authors are requesting participation from the community to contribute to the Medical Image Database Repository (http://midr.org) in order to consolidate the collect knowledge of the community.",
+  "authors": [
+   {
+    "author_fullname": "Holmes, David R III",
+    "author_place": 1,
+    "persona_email": "holmes.david3@mayo.edu",
+    "persona_firstname": "David",
+    "persona_id": 20,
+    "persona_lastname": "Holmes"
+   },
+   {
+    "author_fullname": "Robb, Richard A",
+    "author_place": 2,
+    "persona_id": null
+   }
+  ],
+  "categories": [],
+  "comments": [],
+  "date_submitted": "2007-07-15T21:25:03Z",
+  "handles": [
+   {
+    "handle": "1926/562",
+    "handle_url": "http://hdl.handle.net/1926/562"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 167,
+  "submitted_by_author": {
+   "author_email": "holmes.david3@mayo.edu",
+   "author_firstname": "David",
+   "author_id": 20,
+   "author_institution": "Biomedical Imaging Resource, Mayo Clinic",
+   "author_lastname": "Holmes"
+  },
+  "tags": [
+   "Image Databases"
+  ],
+  "title": "Data, data everywhere, nor an image to read - Finding open image databases."
+ }
 }

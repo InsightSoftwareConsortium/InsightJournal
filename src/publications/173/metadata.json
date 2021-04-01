@@ -1,58 +1,80 @@
 {
-  "publication": {
-    "abstract": "In this work, \r\nwe extend a previously demonstrated entropy based groupwise registration method\r\nto include a non-rigid deformation model based on B-splines. \r\nWe describe an open source implementation of the groupwise registration algorithm \r\nusing the Insight Toolkit ITK.\r\nWe provide the source code, parameters, input and\r\noutput data that we used for validation.\r\n\r\n\r\nWe describe an efficient implementation of the algorithm \r\nby using a stochastic optimization scheme embedded in a multi-resolution setting.\r\nThe objective function is optimized using gradient descent algorithm combined\r\nwith line search for the step size.\r\nThe derivative of the objective function is evaluated efficiently by computing Jacobian of \r\nB-spline deformation field locally.\r\n\r\n\r\nWe demonstrate the algorithm in application to different imaging modalities\r\nincluding proton density, FA, T1 and T2 MR images. \r\nWe validate the algorithm on synthetic datasets varying from 2 to 30 images\r\nby recovering randomly applied affine and B-spline transforms.",
-    "authors": [
-      {
-        "author_fullname": "Balci, Serdar K.",
-        "author_place": 1,
-        "persona_email": "serdar@csail.mit.edu",
-        "persona_firstname": "Serdar",
-        "persona_id": 622,
-        "persona_lastname": "Balci"
-      },
-      {
-        "author_fullname": "Golland, Polina",
-        "author_place": 2,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Wells, William M.",
-        "author_place": 3,
-        "persona_email": "sw@csail.mit.edu",
-        "persona_firstname": "William",
-        "persona_id": 219,
-        "persona_lastname": "Wells"
-      }
-    ],
-    "date_submitted": "2007-07-17T18:44:11Z",
-    "handles": [
-      {
-        "handle": "1926/568",
-        "handle_url": "http://hdl.handle.net/1926/568"
-      }
-    ],
-    "id": 173,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "serdar@csail.mit.edu",
-      "author_firstname": "Serdar",
-      "author_id": 622,
-      "author_institution": "MIT CSAIL",
-      "author_lastname": "Balci"
-    },
-    "tags": [
-      "non-rigid registration",
-      "groupwise registration"
-    ],
-    "title": "Non-rigid Groupwise Registration using B-Spline Deformation Model"
-  }
+ "publication": {
+  "abstract": "In this work, \r\nwe extend a previously demonstrated entropy based groupwise registration method\r\nto include a non-rigid deformation model based on B-splines. \r\nWe describe an open source implementation of the groupwise registration algorithm \r\nusing the Insight Toolkit ITK.\r\nWe provide the source code, parameters, input and\r\noutput data that we used for validation.\r\n\r\n\r\nWe describe an efficient implementation of the algorithm \r\nby using a stochastic optimization scheme embedded in a multi-resolution setting.\r\nThe objective function is optimized using gradient descent algorithm combined\r\nwith line search for the step size.\r\nThe derivative of the objective function is evaluated efficiently by computing Jacobian of \r\nB-spline deformation field locally.\r\n\r\n\r\nWe demonstrate the algorithm in application to different imaging modalities\r\nincluding proton density, FA, T1 and T2 MR images. \r\nWe validate the algorithm on synthetic datasets varying from 2 to 30 images\r\nby recovering randomly applied affine and B-spline transforms.",
+  "authors": [
+   {
+    "author_fullname": "Balci, Serdar K.",
+    "author_place": 1,
+    "persona_email": "serdar@csail.mit.edu",
+    "persona_firstname": "Serdar",
+    "persona_id": 622,
+    "persona_lastname": "Balci"
+   },
+   {
+    "author_fullname": "Golland, Polina",
+    "author_place": 2,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Wells, William M.",
+    "author_place": 3,
+    "persona_email": "sw@csail.mit.edu",
+    "persona_firstname": "William",
+    "persona_id": 219,
+    "persona_lastname": "Wells"
+   }
+  ],
+  "categories": [
+   "Deformable registration",
+   "Generic Programming",
+   "Groupwise registration",
+   "Image pyramids",
+   "Parallelization, SMP",
+   "Programming",
+   "Registration",
+   "Registration metrics",
+   "Registration optimizers",
+   "Transforms"
+  ],
+  "comments": [
+   {
+    "content": "hi,I\\'ve tried to complile and run this program with vs2008 and ITK  \uff0cbut i encountered some problems:\r\n  1) when i tried to match the affine data created by CreateImagesetAffine,i\\'ve got an exception as follows:\r\nFile\uff1a..\\\\..\\\\..\\\\ITK\\\\Code\\\\Common\\\\ItkMultithreader.cxx\r\nLine:475\r\nitk::ERROR: MultiThreader<00f62ae0>:Exception occurred during SingleMethodExcute.\r\nitk::ERROR:   UnivariateEntropyMultiImageMetric.txx :238\r\nitk::ERROR:  UnivariateEntropyMultiImageMetric<00f62910>: too many samples mapped outside the moving buffer.\r\n\r\n2)while after i run the ComputeoutPuts.exe\uff0cdebug error occured:  \r\n this application has requested the runtime to terminate it in an unusual way .please contact the support team for more informaiton.\r\n\r\nbesides,after i choose to terminate this ,i find if i chose to use B-spline to do registration,only affine file and outputimage can be found,the output files related with the b-spline-grid can not be found.I need your help  urgently...expecting your answer and help....thank you for all your help... ",
+    "date": "2013-07-09T21:15:30",
+    "persona_email": "cdwangjiang@126.com",
+    "persona_firstname": "Wang",
+    "persona_id": 8067,
+    "persona_lastname": "Jiang"
+   }
+  ],
+  "date_submitted": "2007-07-17T18:44:11Z",
+  "handles": [
+   {
+    "handle": "1926/568",
+    "handle_url": "http://hdl.handle.net/1926/568"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 173,
+  "submitted_by_author": {
+   "author_email": "serdar@csail.mit.edu",
+   "author_firstname": "Serdar",
+   "author_id": 622,
+   "author_institution": "MIT CSAIL",
+   "author_lastname": "Balci"
+  },
+  "tags": [
+   "non-rigid registration",
+   "groupwise registration"
+  ],
+  "title": "Non-rigid Groupwise Registration using B-Spline Deformation Model"
+ }
 }

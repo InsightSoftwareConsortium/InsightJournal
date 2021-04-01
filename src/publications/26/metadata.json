@@ -1,111 +1,113 @@
 {
-  "publication": {
-    "abstract": "The Image-Guided Surgery Toolkit (IGSTK) is an Open Source software project being developed under NIH/NIBIB funding. The toolkit will provide a common platform for implementing image-guided surgery applications and for fostering research in the field. The toolkit is based on several other open source toolkits including ITK, VTK and FLTK. Its architecture is based on the use of medium size classes, each one of them containing an explicit State Machine and a minimized API that enforces fault tolerance by design. This paper describes the architecture and its rationale.",
-    "authors": [
-      {
-        "author_fullname": "Ibanez, Luis",
-        "author_place": 1,
-        "persona_email": "luis.ibanez@kitware.com",
-        "persona_firstname": "Luis",
-        "persona_id": 4,
-        "persona_lastname": "Ibanez"
-      },
-      {
-        "author_fullname": "Jomier, Julien",
-        "author_place": 2,
-        "persona_email": "julien@jomier.com",
-        "persona_firstname": "Julien",
-        "persona_id": 3,
-        "persona_lastname": "Jomier"
-      },
-      {
-        "author_fullname": "Gobbi, David",
-        "author_place": 3,
-        "persona_email": "david.gobbi@gmail.com",
-        "persona_firstname": "David",
-        "persona_id": 881,
-        "persona_lastname": "Gobbi"
-      },
-      {
-        "author_fullname": "Avila, Rick",
-        "author_place": 4,
-        "persona_email": "rick.avila@kitware.com",
-        "persona_firstname": "Rick",
-        "persona_id": 214,
-        "persona_lastname": "Avila"
-      },
-      {
-        "author_fullname": "Blake, M. Brian",
-        "author_place": 5,
-        "persona_email": "blakeb@cs.georgetown.edu",
-        "persona_firstname": "M. brian",
-        "persona_id": 80,
-        "persona_lastname": "Blake"
-      },
-      {
-        "author_fullname": "Kim, Hee-Su",
-        "author_place": 6,
-        "persona_email": "wizardhs@gmail.com",
-        "persona_firstname": "Hee-su",
-        "persona_id": 278,
-        "persona_lastname": "Kim"
-      },
-      {
-        "author_fullname": "Gary, Kevin",
-        "author_place": 7,
-        "persona_email": "kgary@asu.edu",
-        "persona_firstname": "Kevin",
-        "persona_id": 274,
-        "persona_lastname": "Gary"
-      },
-      {
-        "author_fullname": "Aylward, Stephen",
-        "author_place": 8,
-        "persona_email": "stephen.aylward@kitware.com",
-        "persona_firstname": "Stephen",
-        "persona_id": 1,
-        "persona_lastname": "Aylward"
-      },
-      {
-        "author_fullname": "Cleary, Kevin",
-        "author_place": 9,
-        "persona_email": "cleary@georgetown.edu",
-        "persona_firstname": "Kevin",
-        "persona_id": 368,
-        "persona_lastname": "Cleary"
-      }
-    ],
-    "date_submitted": "2005-08-05T06:27:18Z",
-    "handles": [
-      {
-        "handle": "1926/31",
-        "handle_url": "http://hdl.handle.net/1926/31"
-      }
-    ],
-    "id": 26,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "luis.ibanez@kitware.com",
-      "author_firstname": "Luis",
-      "author_id": 4,
-      "author_institution": "KITWARE Inc.",
-      "author_lastname": "Ibanez"
-    },
-    "tags": [
-      "Open Source Software",
-      "Image Guided Surgery",
-      "State Machines",
-      "Mission Critical Applications"
-    ],
-    "title": "IGSTK: A State Machine Architecture for an Open Source Software Toolkit for Image-Guided Surgery Applications"
-  }
+ "publication": {
+  "abstract": "The Image-Guided Surgery Toolkit (IGSTK) is an Open Source software project being developed under NIH/NIBIB funding. The toolkit will provide a common platform for implementing image-guided surgery applications and for fostering research in the field. The toolkit is based on several other open source toolkits including ITK, VTK and FLTK. Its architecture is based on the use of medium size classes, each one of them containing an explicit State Machine and a minimized API that enforces fault tolerance by design. This paper describes the architecture and its rationale.",
+  "authors": [
+   {
+    "author_fullname": "Ibanez, Luis",
+    "author_place": 1,
+    "persona_email": "luis.ibanez@kitware.com",
+    "persona_firstname": "Luis",
+    "persona_id": 4,
+    "persona_lastname": "Ibanez"
+   },
+   {
+    "author_fullname": "Jomier, Julien",
+    "author_place": 2,
+    "persona_email": "julien@jomier.com",
+    "persona_firstname": "Julien",
+    "persona_id": 3,
+    "persona_lastname": "Jomier"
+   },
+   {
+    "author_fullname": "Gobbi, David",
+    "author_place": 3,
+    "persona_email": "david.gobbi@gmail.com",
+    "persona_firstname": "David",
+    "persona_id": 881,
+    "persona_lastname": "Gobbi"
+   },
+   {
+    "author_fullname": "Avila, Rick",
+    "author_place": 4,
+    "persona_email": "rick.avila@kitware.com",
+    "persona_firstname": "Rick",
+    "persona_id": 214,
+    "persona_lastname": "Avila"
+   },
+   {
+    "author_fullname": "Blake, M. Brian",
+    "author_place": 5,
+    "persona_email": "blakeb@cs.georgetown.edu",
+    "persona_firstname": "M. brian",
+    "persona_id": 80,
+    "persona_lastname": "Blake"
+   },
+   {
+    "author_fullname": "Kim, Hee-Su",
+    "author_place": 6,
+    "persona_email": "wizardhs@gmail.com",
+    "persona_firstname": "Hee-su",
+    "persona_id": 278,
+    "persona_lastname": "Kim"
+   },
+   {
+    "author_fullname": "Gary, Kevin",
+    "author_place": 7,
+    "persona_email": "kgary@asu.edu",
+    "persona_firstname": "Kevin",
+    "persona_id": 274,
+    "persona_lastname": "Gary"
+   },
+   {
+    "author_fullname": "Aylward, Stephen",
+    "author_place": 8,
+    "persona_email": "stephen.aylward@kitware.com",
+    "persona_firstname": "Stephen",
+    "persona_id": 1,
+    "persona_lastname": "Aylward"
+   },
+   {
+    "author_fullname": "Cleary, Kevin",
+    "author_place": 9,
+    "persona_email": "cleary@georgetown.edu",
+    "persona_firstname": "Kevin",
+    "persona_id": 368,
+    "persona_lastname": "Cleary"
+   }
+  ],
+  "categories": [],
+  "comments": [],
+  "date_submitted": "2005-08-05T06:27:18Z",
+  "handles": [
+   {
+    "handle": "1926/31",
+    "handle_url": "http://hdl.handle.net/1926/31"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 26,
+  "submitted_by_author": {
+   "author_email": "luis.ibanez@kitware.com",
+   "author_firstname": "Luis",
+   "author_id": 4,
+   "author_institution": "KITWARE Inc.",
+   "author_lastname": "Ibanez"
+  },
+  "tags": [
+   "Open Source Software",
+   "Image Guided Surgery",
+   "State Machines",
+   "Mission Critical Applications"
+  ],
+  "title": "IGSTK: A State Machine Architecture for an Open Source Software Toolkit for Image-Guided Surgery Applications"
+ }
 }

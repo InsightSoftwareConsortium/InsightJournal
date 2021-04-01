@@ -1,59 +1,64 @@
 {
-  "publication": {
-    "abstract": "The rapid and \ufb02exible visualization of large amounts of com- \nplex data has become a crucial part in medical image analysis. In re- \ncent years the Visualization Toolkit (VTK) has evolved as the de-facto \nstandard for open-source medical data visualization. It features a clean \ndesign based on a data \ufb02ow paradigm, which the existing wrappers for \nVTK (Python, Tcl/Tk, Simulink) closely follow. This allows to elegantly \nmodel many types of algorithms, but presents a steep learning curve for \nbeginners. In contrast to existing approaches we propose a framework \nfor accessing VTK\u2019s capabilities from within MATLAB, using a syntax \nwhich closely follows MATLAB\u2019s graphics primitives. While providing \nusers with the advanced, fast 3D visualization capabilities MATLAB \ndoes not provide, it is easy to learn while being \ufb02exible enough to allow \nfor complex plots, large amounts of data and combinations of visualiza- \ntions. The proposed framework will be made available as open source \nwith detailed documentation and example data sets. ",
-    "authors": [
-      {
-        "author_fullname": "Birngruber, Erich",
-        "author_place": 1,
-        "persona_email": "erich.birngruber@meduniwien.ac.at",
-        "persona_firstname": "Erich",
-        "persona_id": 2197,
-        "persona_lastname": "Birngruber"
-      },
-      {
-        "author_fullname": "Donner, Ren\u00e9",
-        "author_place": 2,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Langs, Georg",
-        "author_place": 3,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2009-08-25 10:55:09",
-    "handles": [
-      {
-        "handle": "10380/3076",
-        "handle_url": "http://hdl.handle.net/10380/3076"
-      }
-    ],
-    "id": 650,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 34,
-        "journal_name": "MICCAI 2009 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "erich.birngruber@meduniwien.ac.at",
-      "author_firstname": "Erich",
-      "author_id": 2197,
-      "author_institution": "Computational Image Analysis and Radiology Lab, Department of Radiology, Medical University of Vienna, Austria",
-      "author_lastname": "Birngruber"
-    },
-    "tags": [
-      "matlab",
-      "vtk",
-      "visualization",
-      "volume rendering",
-      "wrapper",
-      "framework"
-    ],
-    "title": "MatVTK - 3D Visualization for Matlab"
-  }
+ "publication": {
+  "abstract": "The rapid and \ufb02exible visualization of large amounts of com- \nplex data has become a crucial part in medical image analysis. In re- \ncent years the Visualization Toolkit (VTK) has evolved as the de-facto \nstandard for open-source medical data visualization. It features a clean \ndesign based on a data \ufb02ow paradigm, which the existing wrappers for \nVTK (Python, Tcl/Tk, Simulink) closely follow. This allows to elegantly \nmodel many types of algorithms, but presents a steep learning curve for \nbeginners. In contrast to existing approaches we propose a framework \nfor accessing VTK\u2019s capabilities from within MATLAB, using a syntax \nwhich closely follows MATLAB\u2019s graphics primitives. While providing \nusers with the advanced, fast 3D visualization capabilities MATLAB \ndoes not provide, it is easy to learn while being \ufb02exible enough to allow \nfor complex plots, large amounts of data and combinations of visualiza- \ntions. The proposed framework will be made available as open source \nwith detailed documentation and example data sets. ",
+  "authors": [
+   {
+    "author_fullname": "Birngruber, Erich",
+    "author_place": 1,
+    "persona_email": "erich.birngruber@meduniwien.ac.at",
+    "persona_firstname": "Erich",
+    "persona_id": 2197,
+    "persona_lastname": "Birngruber"
+   },
+   {
+    "author_fullname": "Donner, Ren\u00e9",
+    "author_place": 2,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Langs, Georg",
+    "author_place": 3,
+    "persona_id": null
+   }
+  ],
+  "categories": [
+   "Language binding",
+   "Objects"
+  ],
+  "comments": [],
+  "date_submitted": "2009-08-25 10:55:09",
+  "handles": [
+   {
+    "handle": "10380/3076",
+    "handle_url": "http://hdl.handle.net/10380/3076"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 34,
+    "journal_name": "MICCAI 2009 Workshops"
+   }
+  ],
+  "publication_id": 650,
+  "submitted_by_author": {
+   "author_email": "erich.birngruber@meduniwien.ac.at",
+   "author_firstname": "Erich",
+   "author_id": 2197,
+   "author_institution": "Computational Image Analysis and Radiology Lab, Department of Radiology, Medical University of Vienna, Austria",
+   "author_lastname": "Birngruber"
+  },
+  "tags": [
+   "matlab",
+   "vtk",
+   "visualization",
+   "volume rendering",
+   "wrapper",
+   "framework"
+  ],
+  "title": "MatVTK - 3D Visualization for Matlab"
+ }
 }

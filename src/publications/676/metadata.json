@@ -1,54 +1,59 @@
 {
-  "publication": {
-    "abstract": "Diffeomorphic demons registration was widely used for medical image registration. This document describes the addition of mask processing mode with spatial objects for itkDiffeomorphicemonsRegistrationFilter when just considering the deformation field at the region of interest.",
-    "authors": [
-      {
-        "author_fullname": "Zhao, Yongqiang",
-        "author_place": 1,
-        "persona_email": "zhaoyq76@gmail.com",
-        "persona_firstname": "Yongqiang",
-        "persona_id": 1045,
-        "persona_lastname": "Zhao"
-      },
-      {
-        "author_fullname": "Johnson, Hans",
-        "author_place": 2,
-        "persona_email": "hans-johnson@uiowa.edu",
-        "persona_firstname": "Hans",
-        "persona_id": 21,
-        "persona_lastname": "Johnson"
-      }
-    ],
-    "date_submitted": "2009-07-24 19:49:36",
-    "handles": [
-      {
-        "handle": "10380/3105",
-        "handle_url": "http://hdl.handle.net/10380/3105"
-      }
-    ],
-    "id": 676,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "zhaoyq76@gmail.com",
-      "author_firstname": "Yongqiang",
-      "author_id": 1045,
-      "author_institution": "the University of Iowa",
-      "author_lastname": "Zhao"
-    },
-    "tags": [
-      "ImageMaskSpatialObject",
-      "diffeomorphic ",
-      "registration"
-    ],
-    "title": "DiffeomorphicDemonsRegistrationWithMaskFilter"
-  }
+ "publication": {
+  "abstract": "Diffeomorphic demons registration was widely used for medical image registration. This document describes the addition of mask processing mode with spatial objects for itkDiffeomorphicemonsRegistrationFilter when just considering the deformation field at the region of interest.",
+  "authors": [
+   {
+    "author_fullname": "Zhao, Yongqiang",
+    "author_place": 1,
+    "persona_email": "zhaoyq76@gmail.com",
+    "persona_firstname": "Yongqiang",
+    "persona_id": 1045,
+    "persona_lastname": "Zhao"
+   },
+   {
+    "author_fullname": "Johnson, Hans",
+    "author_place": 2,
+    "persona_email": "hans-johnson@uiowa.edu",
+    "persona_firstname": "Hans",
+    "persona_id": 21,
+    "persona_lastname": "Johnson"
+   }
+  ],
+  "categories": [
+   "Deformable registration",
+   "Registration"
+  ],
+  "comments": [],
+  "date_submitted": "2009-07-24 19:49:36",
+  "handles": [
+   {
+    "handle": "10380/3105",
+    "handle_url": "http://hdl.handle.net/10380/3105"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 676,
+  "submitted_by_author": {
+   "author_email": "zhaoyq76@gmail.com",
+   "author_firstname": "Yongqiang",
+   "author_id": 1045,
+   "author_institution": "the University of Iowa",
+   "author_lastname": "Zhao"
+  },
+  "tags": [
+   "ImageMaskSpatialObject",
+   "diffeomorphic ",
+   "registration"
+  ],
+  "title": "DiffeomorphicDemonsRegistrationWithMaskFilter"
+ }
 }

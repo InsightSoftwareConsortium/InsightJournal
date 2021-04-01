@@ -1,47 +1,61 @@
 {
-  "publication": {
-    "abstract": "This paper describes a set of pixel accessors that transform RGB pixel values to a different color space. Accessors for the HSI, XYZ, Yuv, YUV, HSV, Lab, Luv, HSL, CMY, and CMYK color spaces are provided here. This paper is accompanied with source code for the pixel accessors and test, test images and parameters, and expected output images. \n\nNote: Set() methods are incorrect. Will provide revision by 12.17.2010.",
-    "authors": [
-      {
-        "author_fullname": "Tamburo, Robert",
-        "author_place": 1,
-        "persona_email": "robert.tamburo@gmail.com",
-        "persona_firstname": "Robert",
-        "persona_id": 59,
-        "persona_lastname": "Tamburo"
-      }
-    ],
-    "date_submitted": "2010-12-10 16:23:54",
-    "handles": [
-      {
-        "handle": "10380/3237",
-        "handle_url": "http://hdl.handle.net/10380/3237"
-      }
-    ],
-    "id": 780,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "robert.tamburo@gmail.com",
-      "author_firstname": "Robert",
-      "author_id": 59,
-      "author_institution": " ",
-      "author_lastname": "Tamburo"
-    },
-    "tags": [
-      "HSI, XYZ, Yuv, YUV, HSV, Lab, Luv, HSL, CMY, CMYK",
-      "transformation",
-      "color space",
-      "rgb "
-    ],
-    "title": "RGB Image Color Space Transformations"
-  }
+ "publication": {
+  "abstract": "This paper describes a set of pixel accessors that transform RGB pixel values to a different color space. Accessors for the HSI, XYZ, Yuv, YUV, HSV, Lab, Luv, HSL, CMY, and CMYK color spaces are provided here. This paper is accompanied with source code for the pixel accessors and test, test images and parameters, and expected output images. \n\nNote: Set() methods are incorrect. Will provide revision by 12.17.2010.",
+  "authors": [
+   {
+    "author_fullname": "Tamburo, Robert",
+    "author_place": 1,
+    "persona_email": "robert.tamburo@gmail.com",
+    "persona_firstname": "Robert",
+    "persona_id": 59,
+    "persona_lastname": "Tamburo"
+   }
+  ],
+  "categories": [
+   "Data Representation",
+   "Image"
+  ],
+  "comments": [
+   {
+    "content": "For some of these classes, I found that it is possible to relax the restriction of using itk::RGBPixel<T> as the pixel type of the image that is adapted (to allow something like itk::CovariantVector<unsigned char, 3> by adding a template argument:\r\n\r\ntemplate <class TInput, class TOutput, typename TInternalType = RGBPixel<TInput> >\r\n\r\nand replacing the InternalType typedef with:\r\n\r\ntypedef TInternalType InternalType;",
+    "date": "2012-11-19T14:36:27",
+    "persona_email": "daviddoria@gmail.com",
+    "persona_firstname": "David",
+    "persona_id": 2205,
+    "persona_lastname": "Doria"
+   }
+  ],
+  "date_submitted": "2010-12-10 16:23:54",
+  "handles": [
+   {
+    "handle": "10380/3237",
+    "handle_url": "http://hdl.handle.net/10380/3237"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 780,
+  "submitted_by_author": {
+   "author_email": "robert.tamburo@gmail.com",
+   "author_firstname": "Robert",
+   "author_id": 59,
+   "author_institution": " ",
+   "author_lastname": "Tamburo"
+  },
+  "tags": [
+   "HSI, XYZ, Yuv, YUV, HSV, Lab, Luv, HSL, CMY, CMYK",
+   "transformation",
+   "color space",
+   "rgb "
+  ],
+  "title": "RGB Image Color Space Transformations"
+ }
 }

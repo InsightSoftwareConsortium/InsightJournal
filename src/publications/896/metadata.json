@@ -1,72 +1,86 @@
 {
-  "publication": {
-    "abstract": "This document describes an implementation for GPU and CPU of Young and Van Vliet's recursive Gaussian smoothing as an external module for the Insight Toolkit ITK, version 4.* www.itk.org. In the absence of an OpenCL-capable platform, the code will run the CPU implementation as an alternative to the existing Deriche recursive Gaussian smoothing filter in ITK.",
-    "authors": [
-      {
-        "author_fullname": "Vidal-Migallon, Irina",
-        "author_place": 1,
-        "persona_email": "irina.vidal@gmail.com",
-        "persona_firstname": "Irina",
-        "persona_id": 7441,
-        "persona_lastname": "Vidal-Migallon"
-      },
-      {
-        "author_fullname": "Commowick, Olivier",
-        "author_place": 2,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Pennec, Xavier",
-        "author_place": 3,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Dauguet, Julien",
-        "author_place": 4,
-        "persona_email": "dauguet@bwh.harvard.edu",
-        "persona_firstname": "Julien",
-        "persona_id": 145,
-        "persona_lastname": "Dauguet"
-      },
-      {
-        "author_fullname": "Vercauteren, Tom",
-        "author_place": 5,
-        "persona_email": "tom.vercauteren@gmail.com",
-        "persona_firstname": "Tom",
-        "persona_id": 156,
-        "persona_lastname": "Vercauteren"
-      }
-    ],
-    "date_submitted": "2013-07-12 13:10:12",
-    "handles": [
-      {
-        "handle": "10380/3425",
-        "handle_url": "http://hdl.handle.net/10380/3425"
-      }
-    ],
-    "id": 896,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "irina.vidal@gmail.com",
-      "author_firstname": "Irina",
-      "author_id": 7441,
-      "author_institution": "Asclepios Research Group, INRIA Sophia Antipolis",
-      "author_lastname": "Vidal-Migallon"
-    },
-    "tags": [
-      "GPU",
-      "OpenCL",
-      "Recursive Gaussian Smoothing"
-    ],
-    "title": "GPU and CPU implementation of Young - Van Vliet's Recursive Gaussian Smoothing Filter"
-  }
+ "publication": {
+  "abstract": "This document describes an implementation for GPU and CPU of Young and Van Vliet's recursive Gaussian smoothing as an external module for the Insight Toolkit ITK, version 4.* www.itk.org. In the absence of an OpenCL-capable platform, the code will run the CPU implementation as an alternative to the existing Deriche recursive Gaussian smoothing filter in ITK.",
+  "authors": [
+   {
+    "author_fullname": "Vidal-Migallon, Irina",
+    "author_place": 1,
+    "persona_email": "irina.vidal@gmail.com",
+    "persona_firstname": "Irina",
+    "persona_id": 7441,
+    "persona_lastname": "Vidal-Migallon"
+   },
+   {
+    "author_fullname": "Commowick, Olivier",
+    "author_place": 2,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Pennec, Xavier",
+    "author_place": 3,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Dauguet, Julien",
+    "author_place": 4,
+    "persona_email": "dauguet@bwh.harvard.edu",
+    "persona_firstname": "Julien",
+    "persona_id": 145,
+    "persona_lastname": "Dauguet"
+   },
+   {
+    "author_fullname": "Vercauteren, Tom",
+    "author_place": 5,
+    "persona_email": "tom.vercauteren@gmail.com",
+    "persona_firstname": "Tom",
+    "persona_id": 156,
+    "persona_lastname": "Vercauteren"
+   }
+  ],
+  "categories": [
+   "Blurring filters",
+   "Parallelization, SMP"
+  ],
+  "comments": [
+   {
+    "content": "Very nice contribution overall.\r\n\r\nI just downloaded the source code and gave it a run for the CPU version.\r\nAll four tests passed!\r\n\r\nThe automatic dashboard testing results (the CPU part) should appear in the review section. I will check again later.\r\n\r\nIf  you (the authors) would like to put the code onto git hub and provide the url for this module to make it an ITK remote module, which can be downloaded easily/automatically at CMake configuration time, please provide a nightly dashboard submission to the \\\"Nightly External\\\" section of the ITK dashboard. Please let me know if you need some help.\r\n\r\nThank you!",
+    "date": "2013-07-15T13:23:32",
+    "persona_email": "xiaoxiao.liu@kitware.com",
+    "persona_firstname": "Xiaoxiao",
+    "persona_id": 3102,
+    "persona_lastname": "Liu"
+   }
+  ],
+  "date_submitted": "2013-07-12 13:10:12",
+  "handles": [
+   {
+    "handle": "10380/3425",
+    "handle_url": "http://hdl.handle.net/10380/3425"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 896,
+  "submitted_by_author": {
+   "author_email": "irina.vidal@gmail.com",
+   "author_firstname": "Irina",
+   "author_id": 7441,
+   "author_institution": "Asclepios Research Group, INRIA Sophia Antipolis",
+   "author_lastname": "Vidal-Migallon"
+  },
+  "tags": [
+   "GPU",
+   "OpenCL",
+   "Recursive Gaussian Smoothing"
+  ],
+  "title": "GPU and CPU implementation of Young - Van Vliet's Recursive Gaussian Smoothing Filter"
+ }
 }

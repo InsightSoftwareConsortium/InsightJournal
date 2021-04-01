@@ -1,71 +1,73 @@
 {
-  "publication": {
-    "abstract": "The aim of this paper is to present the integration of new filters computing fuzzy mathematical morphology and spatial relationships into ITK and to share our experience with the Open source community. \r\nOur implementation architecture follows the essential system concepts of ITK. An illustrative application is provided to help ITK users and developers to evaluate the capabilities of these filters.",
-    "authors": [
-      {
-        "author_fullname": "Atif, Jamal",
-        "author_place": 1,
-        "persona_email": "atif@enst.fr",
-        "persona_firstname": "Jamal",
-        "persona_id": 88,
-        "persona_lastname": "Atif"
-      },
-      {
-        "author_fullname": "Nempont, Olivier",
-        "author_place": 2,
-        "persona_email": "nempont@tsi.enst.fr",
-        "persona_firstname": "Olivier",
-        "persona_id": 128,
-        "persona_lastname": "Nempont"
-      },
-      {
-        "author_fullname": "Angelini, Elsa",
-        "author_place": 3,
-        "persona_email": "elsa.angelini@enst.fr",
-        "persona_firstname": "Elsa",
-        "persona_id": 253,
-        "persona_lastname": "Angelini"
-      },
-      {
-        "author_fullname": "Bloch, Isabelle",
-        "author_place": 4,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2005-08-02T15:54:04Z",
-    "handles": [
-      {
-        "handle": "1926/28",
-        "handle_url": "http://hdl.handle.net/1926/28"
-      },
-      {
-        "handle": "/3470",
-        "handle_url": "http://hdl.handle.net//3470"
-      }
-    ],
-    "id": 22,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "atif@enst.fr",
-      "author_firstname": "Jamal",
-      "author_id": 88,
-      "author_institution": "LIMSI-CNRS",
-      "author_lastname": "Atif"
-    },
-    "tags": [
-      "Fuzzy Mathematical Morphology",
-      "ITK filters",
-      "Fuzzy spatial relationships"
-    ],
-    "title": "Integration of Fuzzy Mathematical Morphology and Fuzzy Spatial Relationships into ITK"
-  }
+ "publication": {
+  "abstract": "The aim of this paper is to present the integration of new filters computing fuzzy mathematical morphology and spatial relationships into ITK and to share our experience with the Open source community. \r\nOur implementation architecture follows the essential system concepts of ITK. An illustrative application is provided to help ITK users and developers to evaluate the capabilities of these filters.",
+  "authors": [
+   {
+    "author_fullname": "Atif, Jamal",
+    "author_place": 1,
+    "persona_email": "atif@enst.fr",
+    "persona_firstname": "Jamal",
+    "persona_id": 88,
+    "persona_lastname": "Atif"
+   },
+   {
+    "author_fullname": "Nempont, Olivier",
+    "author_place": 2,
+    "persona_email": "nempont@tsi.enst.fr",
+    "persona_firstname": "Olivier",
+    "persona_id": 128,
+    "persona_lastname": "Nempont"
+   },
+   {
+    "author_fullname": "Angelini, Elsa",
+    "author_place": 3,
+    "persona_email": "elsa.angelini@enst.fr",
+    "persona_firstname": "Elsa",
+    "persona_id": 253,
+    "persona_lastname": "Angelini"
+   },
+   {
+    "author_fullname": "Bloch, Isabelle",
+    "author_place": 4,
+    "persona_id": null
+   }
+  ],
+  "categories": [],
+  "comments": [],
+  "date_submitted": "2005-08-02T15:54:04Z",
+  "handles": [
+   {
+    "handle": "1926/28",
+    "handle_url": "http://hdl.handle.net/1926/28"
+   },
+   {
+    "handle": "/3470",
+    "handle_url": "http://hdl.handle.net//3470"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 22,
+  "submitted_by_author": {
+   "author_email": "atif@enst.fr",
+   "author_firstname": "Jamal",
+   "author_id": 88,
+   "author_institution": "LIMSI-CNRS",
+   "author_lastname": "Atif"
+  },
+  "tags": [
+   "Fuzzy Mathematical Morphology",
+   "ITK filters",
+   "Fuzzy spatial relationships"
+  ],
+  "title": "Integration of Fuzzy Mathematical Morphology and Fuzzy Spatial Relationships into ITK"
+ }
 }

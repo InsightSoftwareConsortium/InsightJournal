@@ -1,45 +1,47 @@
 {
-  "publication": {
-    "abstract": "ITK currently supports real to complex conjugate forward and inverse Fourier transformation's through dedicated filters. In turn, these utilize one of a number of Fourier transform implementations, such as that available through VNL, through FFTW or through Intel's implementation of the FFTW API.\r\nWhen dealing directly with complex data, such as may be acquired by an MRI scanner, it is convenient to have dedicated filters supporting Complex to Complex transformations. It is also convenient to have filter classes that can convert between complex data and real and imaginary component and magnitude and phase component representations.",
-    "authors": [
-      {
-        "author_fullname": "Warfield, Simon",
-        "author_place": 1,
-        "persona_email": "simon.warfield@childrens.harvard.edu",
-        "persona_firstname": "Simon",
-        "persona_id": 514,
-        "persona_lastname": "Warfield"
-      }
-    ],
-    "date_submitted": "2006-10-22T20:29:07Z",
-    "handles": [
-      {
-        "handle": "1926/326",
-        "handle_url": "http://hdl.handle.net/1926/326"
-      }
-    ],
-    "id": 128,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "simon.warfield@childrens.harvard.edu",
-      "author_firstname": "Simon",
-      "author_id": 514,
-      "author_institution": "Harvard Medical School",
-      "author_lastname": "Warfield"
-    },
-    "tags": [
-      "FFT",
-      "ITK"
-    ],
-    "title": "FFT Complex to Complex filters and helper classes"
-  }
+ "publication": {
+  "abstract": "ITK currently supports real to complex conjugate forward and inverse Fourier transformation's through dedicated filters. In turn, these utilize one of a number of Fourier transform implementations, such as that available through VNL, through FFTW or through Intel's implementation of the FFTW API.\r\nWhen dealing directly with complex data, such as may be acquired by an MRI scanner, it is convenient to have dedicated filters supporting Complex to Complex transformations. It is also convenient to have filter classes that can convert between complex data and real and imaginary component and magnitude and phase component representations.",
+  "authors": [
+   {
+    "author_fullname": "Warfield, Simon",
+    "author_place": 1,
+    "persona_email": "simon.warfield@childrens.harvard.edu",
+    "persona_firstname": "Simon",
+    "persona_id": 514,
+    "persona_lastname": "Warfield"
+   }
+  ],
+  "categories": [],
+  "comments": [],
+  "date_submitted": "2006-10-22T20:29:07Z",
+  "handles": [
+   {
+    "handle": "1926/326",
+    "handle_url": "http://hdl.handle.net/1926/326"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 128,
+  "submitted_by_author": {
+   "author_email": "simon.warfield@childrens.harvard.edu",
+   "author_firstname": "Simon",
+   "author_id": 514,
+   "author_institution": "Harvard Medical School",
+   "author_lastname": "Warfield"
+  },
+  "tags": [
+   "FFT",
+   "ITK"
+  ],
+  "title": "FFT Complex to Complex filters and helper classes"
+ }
 }

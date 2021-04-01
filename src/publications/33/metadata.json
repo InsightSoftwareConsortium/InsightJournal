@@ -1,66 +1,68 @@
 {
-  "publication": {
-    "abstract": "Diffusion tensor imaging (DTI) allows a quantitative study of the\r\nunderlying geometry and architecture of white matter. We have\r\ndeveloped a suite of open source tools for quantitative analysis of\r\nDTI suitable for use in clinical research studies. We have leveraged\r\nopen source tools for file IO, image processing, visualization, and\r\nuser interface. The tools are designed to provide several\r\ninterconnected modules to perform quantitative analysis of DTI data\r\nbased on fiber tracts generated from tractography.",
-    "authors": [
-      {
-        "author_fullname": "Goodlett, Casey",
-        "author_place": 1,
-        "persona_email": "gcasey@cs.unc.edu",
-        "persona_firstname": "Casey",
-        "persona_id": 40,
-        "persona_lastname": "Goodlett"
-      },
-      {
-        "author_fullname": "Corouge, Isabelle",
-        "author_place": 2,
-        "persona_email": "corouge@unc.edu",
-        "persona_firstname": "Isabelle",
-        "persona_id": 47,
-        "persona_lastname": "Corouge"
-      },
-      {
-        "author_fullname": "Jomier, Matthieu",
-        "author_place": 3,
-        "persona_email": "matthieu@jomier.com",
-        "persona_firstname": "Matthieu",
-        "persona_id": 38,
-        "persona_lastname": "Jomier"
-      },
-      {
-        "author_fullname": "Gerig, Guido",
-        "author_place": 4,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2005-08-05T19:50:43Z",
-    "handles": [
-      {
-        "handle": "1926/39",
-        "handle_url": "http://hdl.handle.net/1926/39"
-      }
-    ],
-    "id": 33,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "gcasey@cs.unc.edu",
-      "author_firstname": "Casey",
-      "author_id": 40,
-      "author_institution": "University of North Carolina - Department of Computer Science",
-      "author_lastname": "Goodlett"
-    },
-    "tags": [
-      "DTI",
-      "ITK"
-    ],
-    "title": "A Quantitative DTI Fiber Tract Analysis Suite"
-  }
+ "publication": {
+  "abstract": "Diffusion tensor imaging (DTI) allows a quantitative study of the\r\nunderlying geometry and architecture of white matter. We have\r\ndeveloped a suite of open source tools for quantitative analysis of\r\nDTI suitable for use in clinical research studies. We have leveraged\r\nopen source tools for file IO, image processing, visualization, and\r\nuser interface. The tools are designed to provide several\r\ninterconnected modules to perform quantitative analysis of DTI data\r\nbased on fiber tracts generated from tractography.",
+  "authors": [
+   {
+    "author_fullname": "Goodlett, Casey",
+    "author_place": 1,
+    "persona_email": "gcasey@cs.unc.edu",
+    "persona_firstname": "Casey",
+    "persona_id": 40,
+    "persona_lastname": "Goodlett"
+   },
+   {
+    "author_fullname": "Corouge, Isabelle",
+    "author_place": 2,
+    "persona_email": "corouge@unc.edu",
+    "persona_firstname": "Isabelle",
+    "persona_id": 47,
+    "persona_lastname": "Corouge"
+   },
+   {
+    "author_fullname": "Jomier, Matthieu",
+    "author_place": 3,
+    "persona_email": "matthieu@jomier.com",
+    "persona_firstname": "Matthieu",
+    "persona_id": 38,
+    "persona_lastname": "Jomier"
+   },
+   {
+    "author_fullname": "Gerig, Guido",
+    "author_place": 4,
+    "persona_id": null
+   }
+  ],
+  "categories": [],
+  "comments": [],
+  "date_submitted": "2005-08-05T19:50:43Z",
+  "handles": [
+   {
+    "handle": "1926/39",
+    "handle_url": "http://hdl.handle.net/1926/39"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 33,
+  "submitted_by_author": {
+   "author_email": "gcasey@cs.unc.edu",
+   "author_firstname": "Casey",
+   "author_id": 40,
+   "author_institution": "University of North Carolina - Department of Computer Science",
+   "author_lastname": "Goodlett"
+  },
+  "tags": [
+   "DTI",
+   "ITK"
+  ],
+  "title": "A Quantitative DTI Fiber Tract Analysis Suite"
+ }
 }

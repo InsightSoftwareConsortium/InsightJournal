@@ -1,98 +1,104 @@
 {
-  "publication": {
-    "abstract": "This document describes the latest efforts in integrating the Lesion Sizing Toolkit (LSTK) into ITK v4 as an external/remote module providing an Open Science dashboard website with a large open image archive of lung cancer CT images for LSTK development and testing.",
-    "authors": [
-      {
-        "author_fullname": "Reynolds, Patrick",
-        "author_place": 4,
-        "persona_email": "cpreynolds@gmail.com",
-        "persona_firstname": "Patrick",
-        "persona_id": 6056,
-        "persona_lastname": "Reynolds"
-      },
-      {
-        "author_fullname": "McCormick, Matthew",
-        "author_place": 5,
-        "persona_email": "matthew.m.mccormick@gmail.com",
-        "persona_firstname": "Matthew",
-        "persona_id": 2509,
-        "persona_lastname": "Mccormick"
-      },
-      {
-        "author_fullname": "Turner, Wes",
-        "author_place": 6,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Ib\u00e1\u00f1ez, Luis",
-        "author_place": 7,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Liu, Xiaoxiao",
-        "author_place": 1,
-        "persona_email": "xiaoxiao.liu@kitware.com",
-        "persona_firstname": "Xiaoxiao",
-        "persona_id": 3102,
-        "persona_lastname": "Liu"
-      },
-      {
-        "author_fullname": "Helba, Brian",
-        "author_place": 2,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Krishnan, Karthik",
-        "author_place": 3,
-        "persona_email": "karthik.krshnan@gmail.com",
-        "persona_firstname": "Karthik",
-        "persona_id": 132,
-        "persona_lastname": "Krishnan"
-      },
-      {
-        "author_fullname": "Yankelevitz, David",
-        "author_place": 8,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Avila, Rick",
-        "author_place": 9,
-        "persona_email": "rick.avila@kitware.com",
-        "persona_firstname": "Rick",
-        "persona_id": 214,
-        "persona_lastname": "Avila"
-      }
-    ],
-    "date_submitted": "2012-07-19 13:34:56",
-    "handles": [
-      {
-        "handle": "10380/3369",
-        "handle_url": "http://hdl.handle.net/10380/3369"
-      }
-    ],
-    "id": 869,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "xiaoxiao.liu@kitware.com",
-      "author_firstname": "Xiaoxiao",
-      "author_id": 3102,
-      "author_institution": "Kitware Inc",
-      "author_lastname": "Liu"
-    },
-    "tags": [
-      "Lesion Sizing Toolkit",
-      "Open Science",
-      "Lung Tumor Segmentation"
-    ],
-    "title": "Fostering Open Science in Lung Cancer Lesion Sizing with ITK module LSTK"
-  }
+ "publication": {
+  "abstract": "This document describes the latest efforts in integrating the Lesion Sizing Toolkit (LSTK) into ITK v4 as an external/remote module providing an Open Science dashboard website with a large open image archive of lung cancer CT images for LSTK development and testing.",
+  "authors": [
+   {
+    "author_fullname": "Reynolds, Patrick",
+    "author_place": 4,
+    "persona_email": "cpreynolds@gmail.com",
+    "persona_firstname": "Patrick",
+    "persona_id": 6056,
+    "persona_lastname": "Reynolds"
+   },
+   {
+    "author_fullname": "McCormick, Matthew",
+    "author_place": 5,
+    "persona_email": "matthew.m.mccormick@gmail.com",
+    "persona_firstname": "Matthew",
+    "persona_id": 2509,
+    "persona_lastname": "Mccormick"
+   },
+   {
+    "author_fullname": "Turner, Wes",
+    "author_place": 6,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Ib\u00e1\u00f1ez, Luis",
+    "author_place": 7,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Liu, Xiaoxiao",
+    "author_place": 1,
+    "persona_email": "xiaoxiao.liu@kitware.com",
+    "persona_firstname": "Xiaoxiao",
+    "persona_id": 3102,
+    "persona_lastname": "Liu"
+   },
+   {
+    "author_fullname": "Helba, Brian",
+    "author_place": 2,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Krishnan, Karthik",
+    "author_place": 3,
+    "persona_email": "karthik.krshnan@gmail.com",
+    "persona_firstname": "Karthik",
+    "persona_id": 132,
+    "persona_lastname": "Krishnan"
+   },
+   {
+    "author_fullname": "Yankelevitz, David",
+    "author_place": 8,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Avila, Rick",
+    "author_place": 9,
+    "persona_email": "rick.avila@kitware.com",
+    "persona_firstname": "Rick",
+    "persona_id": 214,
+    "persona_lastname": "Avila"
+   }
+  ],
+  "categories": [
+   "Feature extraction",
+   "Level sets",
+   "Segmentation"
+  ],
+  "comments": [],
+  "date_submitted": "2012-07-19 13:34:56",
+  "handles": [
+   {
+    "handle": "10380/3369",
+    "handle_url": "http://hdl.handle.net/10380/3369"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 869,
+  "submitted_by_author": {
+   "author_email": "xiaoxiao.liu@kitware.com",
+   "author_firstname": "Xiaoxiao",
+   "author_id": 3102,
+   "author_institution": "Kitware Inc",
+   "author_lastname": "Liu"
+  },
+  "tags": [
+   "Lesion Sizing Toolkit",
+   "Open Science",
+   "Lung Tumor Segmentation"
+  ],
+  "title": "Fostering Open Science in Lung Cancer Lesion Sizing with ITK module LSTK"
+ }
 }

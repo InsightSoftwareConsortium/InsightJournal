@@ -1,49 +1,54 @@
 {
-  "publication": {
-    "abstract": "Region growing is a technique that can be used to propagate information over a mesh. In a previous submission, \"A Mesh Front Iterator for VTK\", we introduced an iterator that can be used with vtkPointSet subclasses to traverse a mesh. It is sometimes useful to visit only vertices that are \"similar\" to their neighbors by some definition. This concept can be used to select many types of common regions, including planar regions or regions with similar color, to name a few. In this paper, we propose an iterator which propagates on a mesh using a condition test which can be easily modified.\n\nThe latest code is available here: https://github.com/daviddoria/MeshConditionalFrontIterator",
-    "authors": [
-      {
-        "author_fullname": "Doria, David",
-        "author_place": 1,
-        "persona_email": "daviddoria@gmail.com",
-        "persona_firstname": "David",
-        "persona_id": 2205,
-        "persona_lastname": "Doria"
-      }
-    ],
-    "date_submitted": "2011-07-27 08:19:16",
-    "handles": [
-      {
-        "handle": "10380/3166",
-        "handle_url": "http://hdl.handle.net/10380/3166"
-      }
-    ],
-    "id": 725,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 35,
-        "journal_name": "The VTK Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "daviddoria@gmail.com",
-      "author_firstname": "David",
-      "author_id": 2205,
-      "author_institution": "Rensselaer Polytechnic Institute",
-      "author_lastname": "Doria"
-    },
-    "tags": [
-      "region growing",
-      "conditional region",
-      "ground selection",
-      "ground removal",
-      "planar region",
-      "mesh"
-    ],
-    "title": "A Conditional Mesh Front Iterator for VTK"
-  }
+ "publication": {
+  "abstract": "Region growing is a technique that can be used to propagate information over a mesh. In a previous submission, \"A Mesh Front Iterator for VTK\", we introduced an iterator that can be used with vtkPointSet subclasses to traverse a mesh. It is sometimes useful to visit only vertices that are \"similar\" to their neighbors by some definition. This concept can be used to select many types of common regions, including planar regions or regions with similar color, to name a few. In this paper, we propose an iterator which propagates on a mesh using a condition test which can be easily modified.\n\nThe latest code is available here: https://github.com/daviddoria/MeshConditionalFrontIterator",
+  "authors": [
+   {
+    "author_fullname": "Doria, David",
+    "author_place": 1,
+    "persona_email": "daviddoria@gmail.com",
+    "persona_firstname": "David",
+    "persona_id": 2205,
+    "persona_lastname": "Doria"
+   }
+  ],
+  "categories": [
+   "Mesh",
+   "Region growing"
+  ],
+  "comments": [],
+  "date_submitted": "2011-07-27 08:19:16",
+  "handles": [
+   {
+    "handle": "10380/3166",
+    "handle_url": "http://hdl.handle.net/10380/3166"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 35,
+    "journal_name": "The VTK Journal"
+   }
+  ],
+  "publication_id": 725,
+  "submitted_by_author": {
+   "author_email": "daviddoria@gmail.com",
+   "author_firstname": "David",
+   "author_id": 2205,
+   "author_institution": "Rensselaer Polytechnic Institute",
+   "author_lastname": "Doria"
+  },
+  "tags": [
+   "region growing",
+   "conditional region",
+   "ground selection",
+   "ground removal",
+   "planar region",
+   "mesh"
+  ],
+  "title": "A Conditional Mesh Front Iterator for VTK"
+ }
 }

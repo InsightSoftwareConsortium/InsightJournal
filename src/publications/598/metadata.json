@@ -1,63 +1,69 @@
 {
-  "publication": {
-    "abstract": "We present in this paper an application of minimal surfaces and\r\nMarkov random fields to the segmentation of liver tumors. The\r\noriginality of the work consists in applying these models to the\r\nregion adjacency graph of a watershed transform. We detail the\r\nassumptions and the approximations introduced in these models by\r\nusing a region graph instead of a pixel graph. This strategy leads\r\nto an interactive method that we use to delineate tumors in 3D CT\r\nimages. We detail our strategy to achieve relevant segmentations of\r\nthese structures and compare our results to hand made segmentations\r\ndone by experienced radiologists. This paper summarizes our\r\nparticipation to the MICCAI 2008 workshop called: \"3D segmentation in the clinic : A\r\nGrand Challenge II\".",
-    "authors": [
-      {
-        "author_fullname": "stawiaski, Jean",
-        "author_place": 1,
-        "persona_email": "jean.stawiaski@ensmp.fr",
-        "persona_firstname": "Jean",
-        "persona_id": 905,
-        "persona_lastname": "Stawiaski"
-      },
-      {
-        "author_fullname": "Decenciere, Etienne",
-        "author_place": 2,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Bidault, Francois",
-        "author_place": 3,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2008-07-01T00:00:00Z",
-    "handles": [
-      {
-        "handle": "10380/1416",
-        "handle_url": "http://hdl.handle.net/10380/1416"
-      }
-    ],
-    "id": 598,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 45,
-        "journal_name": "MICCAI 2016 Workshops"
-      },
-      {
-        "journal_id": 33,
-        "journal_name": "MICCAI 2008 Workshops"
-      },
-      {
-        "journal_id": 33,
-        "journal_name": "MICCAI 2008 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "jean.stawiaski@ensmp.fr",
-      "author_firstname": "Jean",
-      "author_id": 905,
-      "author_institution": "Centre de Morphologie Math\u00c3\u00a9matique",
-      "author_lastname": "Stawiaski"
-    },
-    "tags": [
-      "Watershed",
-      "graph cuts"
-    ],
-    "title": "Interactive Liver Tumor Segmentation Using Graph-cuts and Watershed"
-  }
+ "publication": {
+  "abstract": "We present in this paper an application of minimal surfaces and\r\nMarkov random fields to the segmentation of liver tumors. The\r\noriginality of the work consists in applying these models to the\r\nregion adjacency graph of a watershed transform. We detail the\r\nassumptions and the approximations introduced in these models by\r\nusing a region graph instead of a pixel graph. This strategy leads\r\nto an interactive method that we use to delineate tumors in 3D CT\r\nimages. We detail our strategy to achieve relevant segmentations of\r\nthese structures and compare our results to hand made segmentations\r\ndone by experienced radiologists. This paper summarizes our\r\nparticipation to the MICCAI 2008 workshop called: \"3D segmentation in the clinic : A\r\nGrand Challenge II\".",
+  "authors": [
+   {
+    "author_fullname": "stawiaski, Jean",
+    "author_place": 1,
+    "persona_email": "jean.stawiaski@ensmp.fr",
+    "persona_firstname": "Jean",
+    "persona_id": 905,
+    "persona_lastname": "Stawiaski"
+   },
+   {
+    "author_fullname": "Decenciere, Etienne",
+    "author_place": 2,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Bidault, Francois",
+    "author_place": 3,
+    "persona_id": null
+   }
+  ],
+  "categories": [
+   "Feature extraction",
+   "Segmentation",
+   "Watersheds"
+  ],
+  "comments": [],
+  "date_submitted": "2008-07-01T00:00:00Z",
+  "handles": [
+   {
+    "handle": "10380/1416",
+    "handle_url": "http://hdl.handle.net/10380/1416"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 45,
+    "journal_name": "MICCAI 2016 Workshops"
+   },
+   {
+    "journal_id": 33,
+    "journal_name": "MICCAI 2008 Workshops"
+   },
+   {
+    "journal_id": 33,
+    "journal_name": "MICCAI 2008 Workshops"
+   }
+  ],
+  "publication_id": 598,
+  "submitted_by_author": {
+   "author_email": "jean.stawiaski@ensmp.fr",
+   "author_firstname": "Jean",
+   "author_id": 905,
+   "author_institution": "Centre de Morphologie Math\u00c3\u00a9matique",
+   "author_lastname": "Stawiaski"
+  },
+  "tags": [
+   "Watershed",
+   "graph cuts"
+  ],
+  "title": "Interactive Liver Tumor Segmentation Using Graph-cuts and Watershed"
+ }
 }

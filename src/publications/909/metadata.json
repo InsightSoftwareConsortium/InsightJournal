@@ -1,50 +1,55 @@
 {
-  "publication": {
-    "abstract": "An automated method of MR Brain image segmentation is presented. A block based Expectation Maximization method is presented for the tissue classification of MR Brain images. The standard Gaussian Mixture Model is the most widely used method for MR Brain Image Segmentation and Expectation Maximization algorithm is used to estimate the model parameters. The Gaussian Mixture Model considers each pixel as independent and does not take into account the spatial correlation between the neighbouring pixels. Hence the segmentation result obtained using standard GMM is highly sensitive to Inensity Non-Uniformity and noise. The image is divided into blocks before applying EM since the GMM is preserved in the local image blocks. Also, Nonsubsampled Contourlet Transform is employed to incorporate the spatial correlation among the neighbouring pixels. The method is applied to the 12 MR Brain volumes of MRBRAINS13 test data and the White Matter, Gray Matter and CSF structures were segmented.",
-    "authors": [
-      {
-        "author_fullname": "R, Meena Prakash",
-        "author_place": 1,
-        "persona_email": "meenaprakash73@gmail.com",
-        "persona_firstname": "Meena prakash",
-        "persona_id": 8772,
-        "persona_lastname": "R"
-      },
-      {
-        "author_fullname": "R, Shantha Selva Kumari",
-        "author_place": 2,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2013-10-23 12:18:48",
-    "handles": [
-      {
-        "handle": "10380/3445",
-        "handle_url": "http://hdl.handle.net/10380/3445"
-      }
-    ],
-    "id": 909,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 41,
-        "journal_name": "MICCAI 2013 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "meenaprakash73@gmail.com",
-      "author_firstname": "Meena prakash",
-      "author_id": 8772,
-      "author_institution": "P.S.R.Engineering College, Sivakasi-626140, Tamil Nadu, India",
-      "author_lastname": "R"
-    },
-    "tags": [
-      "MR Brain Image Segmentation",
-      "Expectation Maximzation"
-    ],
-    "title": "Modified Expectation Maximization Method for Automatic Segmentation of MR Brain Images"
-  }
+ "publication": {
+  "abstract": "An automated method of MR Brain image segmentation is presented. A block based Expectation Maximization method is presented for the tissue classification of MR Brain images. The standard Gaussian Mixture Model is the most widely used method for MR Brain Image Segmentation and Expectation Maximization algorithm is used to estimate the model parameters. The Gaussian Mixture Model considers each pixel as independent and does not take into account the spatial correlation between the neighbouring pixels. Hence the segmentation result obtained using standard GMM is highly sensitive to Inensity Non-Uniformity and noise. The image is divided into blocks before applying EM since the GMM is preserved in the local image blocks. Also, Nonsubsampled Contourlet Transform is employed to incorporate the spatial correlation among the neighbouring pixels. The method is applied to the 12 MR Brain volumes of MRBRAINS13 test data and the White Matter, Gray Matter and CSF structures were segmented.",
+  "authors": [
+   {
+    "author_fullname": "R, Meena Prakash",
+    "author_place": 1,
+    "persona_email": "meenaprakash73@gmail.com",
+    "persona_firstname": "Meena prakash",
+    "persona_id": 8772,
+    "persona_lastname": "R"
+   },
+   {
+    "author_fullname": "R, Shantha Selva Kumari",
+    "author_place": 2,
+    "persona_id": null
+   }
+  ],
+  "categories": [
+   "Segmentation",
+   "Unsupervised learning and clustering"
+  ],
+  "comments": [],
+  "date_submitted": "2013-10-23 12:18:48",
+  "handles": [
+   {
+    "handle": "10380/3445",
+    "handle_url": "http://hdl.handle.net/10380/3445"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 41,
+    "journal_name": "MICCAI 2013 Workshops"
+   }
+  ],
+  "publication_id": 909,
+  "submitted_by_author": {
+   "author_email": "meenaprakash73@gmail.com",
+   "author_firstname": "Meena prakash",
+   "author_id": 8772,
+   "author_institution": "P.S.R.Engineering College, Sivakasi-626140, Tamil Nadu, India",
+   "author_lastname": "R"
+  },
+  "tags": [
+   "MR Brain Image Segmentation",
+   "Expectation Maximzation"
+  ],
+  "title": "Modified Expectation Maximization Method for Automatic Segmentation of MR Brain Images"
+ }
 }

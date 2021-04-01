@@ -1,53 +1,55 @@
 {
-  "publication": {
-    "abstract": "noindent This document describes two new classes that facilitate the use of\r\nthe doxygen{BSplineDeformableTransform} in multiresolution registration\r\nalgorithms. The first class, doxygen{GridScheduleComputer}, defines the\r\nB-spline grid, based on a user-specified grid spacing and an input image (the\r\nfixed image in registration). A different grid is determined for each\r\nresolution level of the registration, given a multiresolution schedule similar\r\nto that of the image pyramids. The second class,\r\ndoxygen{UpsampleBSplineParametersFilter}, resamples (usually upsamples) the\r\nB-spline coefficients to a new control point grid having a different\r\nspacing/origin/size. This can be used to transfer the result from one\r\nresolution level to that of the next level. Summarising, suitable grid\r\ndefinitions follow from the first class, and are used as input for the second\r\nclass, which performs the actual resampling.\r\n\r\nThe classes are implemented using the Insight Toolkit url{www.itk.org}. This\r\npaper is accompanied with the source code, including a test program.",
-    "authors": [
-      {
-        "author_fullname": "Staring, Marius",
-        "author_place": 1,
-        "persona_email": "marius.staring@gmail.com",
-        "persona_firstname": "Marius",
-        "persona_id": 208,
-        "persona_lastname": "Staring"
-      },
-      {
-        "author_fullname": "Klein, Stefan",
-        "author_place": 2,
-        "persona_email": "s.klein@erasmusmc.nl",
-        "persona_firstname": "Stefan",
-        "persona_id": 551,
-        "persona_lastname": "Klein"
-      }
-    ],
-    "date_submitted": "2008-07-09T10:55:56Z",
-    "handles": [
-      {
-        "handle": "1926/1438",
-        "handle_url": "http://hdl.handle.net/1926/1438"
-      }
-    ],
-    "id": 272,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "s.klein@erasmusmc.nl",
-      "author_firstname": "Stefan",
-      "author_id": 551,
-      "author_institution": "Biomedical Imaging Group Rotterdam, Departments of Radiology & Medical Informatics, Erasmus MC, Rotterdam, The Netherlands.",
-      "author_lastname": "Klein"
-    },
-    "tags": [
-      "BSplineDeformableTransform",
-      "MultiResolutionImageRegistrationMethod"
-    ],
-    "title": "Helper classes for the BSplineDeformableTransform"
-  }
+ "publication": {
+  "abstract": "noindent This document describes two new classes that facilitate the use of\r\nthe doxygen{BSplineDeformableTransform} in multiresolution registration\r\nalgorithms. The first class, doxygen{GridScheduleComputer}, defines the\r\nB-spline grid, based on a user-specified grid spacing and an input image (the\r\nfixed image in registration). A different grid is determined for each\r\nresolution level of the registration, given a multiresolution schedule similar\r\nto that of the image pyramids. The second class,\r\ndoxygen{UpsampleBSplineParametersFilter}, resamples (usually upsamples) the\r\nB-spline coefficients to a new control point grid having a different\r\nspacing/origin/size. This can be used to transfer the result from one\r\nresolution level to that of the next level. Summarising, suitable grid\r\ndefinitions follow from the first class, and are used as input for the second\r\nclass, which performs the actual resampling.\r\n\r\nThe classes are implemented using the Insight Toolkit url{www.itk.org}. This\r\npaper is accompanied with the source code, including a test program.",
+  "authors": [
+   {
+    "author_fullname": "Staring, Marius",
+    "author_place": 1,
+    "persona_email": "marius.staring@gmail.com",
+    "persona_firstname": "Marius",
+    "persona_id": 208,
+    "persona_lastname": "Staring"
+   },
+   {
+    "author_fullname": "Klein, Stefan",
+    "author_place": 2,
+    "persona_email": "s.klein@erasmusmc.nl",
+    "persona_firstname": "Stefan",
+    "persona_id": 551,
+    "persona_lastname": "Klein"
+   }
+  ],
+  "categories": [],
+  "comments": [],
+  "date_submitted": "2008-07-09T10:55:56Z",
+  "handles": [
+   {
+    "handle": "1926/1438",
+    "handle_url": "http://hdl.handle.net/1926/1438"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 272,
+  "submitted_by_author": {
+   "author_email": "s.klein@erasmusmc.nl",
+   "author_firstname": "Stefan",
+   "author_id": 551,
+   "author_institution": "Biomedical Imaging Group Rotterdam, Departments of Radiology & Medical Informatics, Erasmus MC, Rotterdam, The Netherlands.",
+   "author_lastname": "Klein"
+  },
+  "tags": [
+   "BSplineDeformableTransform",
+   "MultiResolutionImageRegistrationMethod"
+  ],
+  "title": "Helper classes for the BSplineDeformableTransform"
+ }
 }

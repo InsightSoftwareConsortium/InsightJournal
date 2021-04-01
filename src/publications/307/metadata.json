@@ -1,45 +1,50 @@
 {
-  "publication": {
-    "abstract": "This document describes a new class for the Insight Toolkit~(ITK www.itk.org) for reading images across a network. Network access is handled by CURL (http://curl.haxx.se/libcurl/), an Open Source library for client-side URL transfer. CURL supports the FTP, FTPS, HTTP, HTTPS, SCP, SFTP, TFTP, TELNET, DICT, LDAP, LDAPS and FILE protocols.\r\n\r\nThis paper is accompanied with source code and a test to load a NRRD file across the network and verify that is is read properly.\r\n",
-    "authors": [
-      {
-        "author_fullname": "Blezek, Daniel",
-        "author_place": 1,
-        "persona_email": "daniel.blezek@gmail.com",
-        "persona_firstname": "Daniel",
-        "persona_id": 1018,
-        "persona_lastname": "Blezek"
-      }
-    ],
-    "date_submitted": "2008-11-24 21:42:54",
-    "handles": [
-      {
-        "handle": "1926/1505",
-        "handle_url": "http://hdl.handle.net/1926/1505"
-      }
-    ],
-    "id": 307,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "daniel.blezek@gmail.com",
-      "author_firstname": "Daniel",
-      "author_id": 1018,
-      "author_institution": "Mayo Clinic",
-      "author_lastname": "Blezek"
-    },
-    "tags": [
-      "Network",
-      "ImageSource"
-    ],
-    "title": "ImageNetworkReader: an ITK Class for Loading Images Across a Network"
-  }
+ "publication": {
+  "abstract": "This document describes a new class for the Insight Toolkit~(ITK www.itk.org) for reading images across a network. Network access is handled by CURL (http://curl.haxx.se/libcurl/), an Open Source library for client-side URL transfer. CURL supports the FTP, FTPS, HTTP, HTTPS, SCP, SFTP, TFTP, TELNET, DICT, LDAP, LDAPS and FILE protocols.\r\n\r\nThis paper is accompanied with source code and a test to load a NRRD file across the network and verify that is is read properly.\r\n",
+  "authors": [
+   {
+    "author_fullname": "Blezek, Daniel",
+    "author_place": 1,
+    "persona_email": "daniel.blezek@gmail.com",
+    "persona_firstname": "Daniel",
+    "persona_id": 1018,
+    "persona_lastname": "Blezek"
+   }
+  ],
+  "categories": [
+   "Images",
+   "IO"
+  ],
+  "comments": [],
+  "date_submitted": "2008-11-24 21:42:54",
+  "handles": [
+   {
+    "handle": "1926/1505",
+    "handle_url": "http://hdl.handle.net/1926/1505"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 307,
+  "submitted_by_author": {
+   "author_email": "daniel.blezek@gmail.com",
+   "author_firstname": "Daniel",
+   "author_id": 1018,
+   "author_institution": "Mayo Clinic",
+   "author_lastname": "Blezek"
+  },
+  "tags": [
+   "Network",
+   "ImageSource"
+  ],
+  "title": "ImageNetworkReader: an ITK Class for Loading Images Across a Network"
+ }
 }

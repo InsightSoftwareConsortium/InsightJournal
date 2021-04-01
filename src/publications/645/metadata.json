@@ -1,65 +1,87 @@
 {
-  "publication": {
-    "abstract": "This document describes a contribution to the Insight Toolkit intended to support the process of registering two Meshes. The methods included here are restricted to Meshes with a Spherical geometry and topology, and with scalar values associated to their nodes.\nThis paper is accompanied with the source code, input data, parameters and output data that we used for validating the algorithm described in this paper. This adheres to the fundamental principle that scientific publications must facilitate reproducibility of the reported results.",
-    "authors": [
-      {
-        "author_fullname": "Ibanez, Luis",
-        "author_place": 1,
-        "persona_email": "luis.ibanez@kitware.com",
-        "persona_firstname": "Luis",
-        "persona_id": 4,
-        "persona_lastname": "Ibanez"
-      },
-      {
-        "author_fullname": "Audette, Michel",
-        "author_place": 2,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Yeo, B.T. Thomas",
-        "author_place": 3,
-        "persona_email": "ythomas@csail.mit.edu",
-        "persona_firstname": "B.t. thomas",
-        "persona_id": 2237,
-        "persona_lastname": "Yeo"
-      },
-      {
-        "author_fullname": "Golland, Polina",
-        "author_place": 4,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2010-04-25 22:00:42",
-    "handles": [
-      {
-        "handle": "10380/3063",
-        "handle_url": "http://hdl.handle.net/10380/3063"
-      }
-    ],
-    "id": 645,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "luis.ibanez@kitware.com",
-      "author_firstname": "Luis",
-      "author_id": 4,
-      "author_institution": "KITWARE Inc.",
-      "author_lastname": "Ibanez"
-    },
-    "tags": [
-      "Mesh Registration",
-      "QuadEdgeMesh",
-      "Mesh",
-      "Registration"
-    ],
-    "title": "Rotational Registration of Spherical Surfaces Represented as QuadEdge Meshes"
-  }
+ "publication": {
+  "abstract": "This document describes a contribution to the Insight Toolkit intended to support the process of registering two Meshes. The methods included here are restricted to Meshes with a Spherical geometry and topology, and with scalar values associated to their nodes.\nThis paper is accompanied with the source code, input data, parameters and output data that we used for validating the algorithm described in this paper. This adheres to the fundamental principle that scientific publications must facilitate reproducibility of the reported results.",
+  "authors": [
+   {
+    "author_fullname": "Ibanez, Luis",
+    "author_place": 1,
+    "persona_email": "luis.ibanez@kitware.com",
+    "persona_firstname": "Luis",
+    "persona_id": 4,
+    "persona_lastname": "Ibanez"
+   },
+   {
+    "author_fullname": "Audette, Michel",
+    "author_place": 2,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Yeo, B.T. Thomas",
+    "author_place": 3,
+    "persona_email": "ythomas@csail.mit.edu",
+    "persona_firstname": "B.t. thomas",
+    "persona_id": 2237,
+    "persona_lastname": "Yeo"
+   },
+   {
+    "author_fullname": "Golland, Polina",
+    "author_place": 4,
+    "persona_id": null
+   }
+  ],
+  "categories": [
+   "Mesh",
+   "Registration"
+  ],
+  "comments": [
+   {
+    "content": "This requires:\r\nITK must be build with ITK_USE_OPTIMIZED_REGISTRATION_METHODS turned ON\r\n\r\n\r\nLatest ITK does not have this flag.",
+    "date": "2013-02-07T10:22:27",
+    "persona_email": "jinwoo.choi@mail.utoronto.ca",
+    "persona_firstname": "Jin",
+    "persona_id": 7274,
+    "persona_lastname": "Choi"
+   },
+   {
+    "content": "ITK must be build with ITKOptimizers_LOADED turned ON\"",
+    "date": "2017-01-24T08:02:27",
+    "persona_email": "liguangxu@tjpu.edu.cn",
+    "persona_firstname": "Guangxu",
+    "persona_id": 10150,
+    "persona_lastname": "Li"
+   }
+  ],
+  "date_submitted": "2010-04-25 22:00:42",
+  "handles": [
+   {
+    "handle": "10380/3063",
+    "handle_url": "http://hdl.handle.net/10380/3063"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 645,
+  "submitted_by_author": {
+   "author_email": "luis.ibanez@kitware.com",
+   "author_firstname": "Luis",
+   "author_id": 4,
+   "author_institution": "KITWARE Inc.",
+   "author_lastname": "Ibanez"
+  },
+  "tags": [
+   "Mesh Registration",
+   "QuadEdgeMesh",
+   "Mesh",
+   "Registration"
+  ],
+  "title": "Rotational Registration of Spherical Surfaces Represented as QuadEdge Meshes"
+ }
 }

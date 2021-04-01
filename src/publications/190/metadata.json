@@ -1,45 +1,47 @@
 {
-  "publication": {
-    "abstract": "This document describes a tiny application developed using the Insight Toolkit, ITK www.itk.org. The goal of the document is to facilitate ease of use of the application by following the guidelines given in the document. The application does not claim to achieve anything more than the segmentation of the data given with this submission. This paper is accompanied with the source code, input data, parameters and output data that the authors used for validating the algorithm described in this paper. This adheres to the fundamental principle that scientific publications must facilitate reproducibility of the reported results.",
-    "authors": [
-      {
-        "author_fullname": "Narayanaswamy, Arunachalam",
-        "author_place": 1,
-        "persona_email": "naraya3@rpi.edu",
-        "persona_firstname": "Arunachalam",
-        "persona_id": 707,
-        "persona_lastname": "Narayanaswamy"
-      }
-    ],
-    "date_submitted": "2007-10-18T19:25:56Z",
-    "handles": [
-      {
-        "handle": "1926/1303",
-        "handle_url": "http://hdl.handle.net/1926/1303"
-      }
-    ],
-    "id": 190,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "naraya3@rpi.edu",
-      "author_firstname": "Arunachalam",
-      "author_id": 707,
-      "author_institution": "RPI",
-      "author_lastname": "Narayanaswamy"
-    },
-    "tags": [
-      "Confidence Connected",
-      "Segmentation"
-    ],
-    "title": "Confidence connected segmentation"
-  }
+ "publication": {
+  "abstract": "This document describes a tiny application developed using the Insight Toolkit, ITK www.itk.org. The goal of the document is to facilitate ease of use of the application by following the guidelines given in the document. The application does not claim to achieve anything more than the segmentation of the data given with this submission. This paper is accompanied with the source code, input data, parameters and output data that the authors used for validating the algorithm described in this paper. This adheres to the fundamental principle that scientific publications must facilitate reproducibility of the reported results.",
+  "authors": [
+   {
+    "author_fullname": "Narayanaswamy, Arunachalam",
+    "author_place": 1,
+    "persona_email": "naraya3@rpi.edu",
+    "persona_firstname": "Arunachalam",
+    "persona_id": 707,
+    "persona_lastname": "Narayanaswamy"
+   }
+  ],
+  "categories": [],
+  "comments": [],
+  "date_submitted": "2007-10-18T19:25:56Z",
+  "handles": [
+   {
+    "handle": "1926/1303",
+    "handle_url": "http://hdl.handle.net/1926/1303"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 190,
+  "submitted_by_author": {
+   "author_email": "naraya3@rpi.edu",
+   "author_firstname": "Arunachalam",
+   "author_id": 707,
+   "author_institution": "RPI",
+   "author_lastname": "Narayanaswamy"
+  },
+  "tags": [
+   "Confidence Connected",
+   "Segmentation"
+  ],
+  "title": "Confidence connected segmentation"
+ }
 }

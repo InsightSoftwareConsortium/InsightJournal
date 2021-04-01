@@ -1,48 +1,50 @@
 {
-  "publication": {
-    "abstract": "This is a companion paper describing the process and parameters for tagged volume rendering of the heart. We firstly review the relevant concepts and consider the problem of visualising the coronary arteries from computed tomography angiography (CTA) images. We then discuss the implementation using the SharpImage prototyping environment. Finally, we list the set of commands capable of reproducing our results using the accompanying dataset.",
-    "authors": [
-      {
-        "author_fullname": "Mueller, Daniel",
-        "author_place": 1,
-        "persona_email": "dan.muel@gmail.com",
-        "persona_firstname": "Dan",
-        "persona_id": 286,
-        "persona_lastname": "Mueller"
-      }
-    ],
-    "date_submitted": "2007-07-06T09:43:24Z",
-    "handles": [
-      {
-        "handle": "1926/557",
-        "handle_url": "http://hdl.handle.net/1926/557"
-      }
-    ],
-    "id": 162,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "dan.muel@gmail.com",
-      "author_firstname": "Dan",
-      "author_id": 286,
-      "author_institution": "Philips Healthcare",
-      "author_lastname": "Mueller"
-    },
-    "tags": [
-      "heart",
-      "ITK",
-      "SharpImage",
-      "tagged volume rendering",
-      "coronary arteries"
-    ],
-    "title": "Tagged Volume Rendering of the Heart: A Case Study"
-  }
+ "publication": {
+  "abstract": "This is a companion paper describing the process and parameters for tagged volume rendering of the heart. We firstly review the relevant concepts and consider the problem of visualising the coronary arteries from computed tomography angiography (CTA) images. We then discuss the implementation using the SharpImage prototyping environment. Finally, we list the set of commands capable of reproducing our results using the accompanying dataset.",
+  "authors": [
+   {
+    "author_fullname": "Mueller, Daniel",
+    "author_place": 1,
+    "persona_email": "dan.muel@gmail.com",
+    "persona_firstname": "Dan",
+    "persona_id": 286,
+    "persona_lastname": "Mueller"
+   }
+  ],
+  "categories": [],
+  "comments": [],
+  "date_submitted": "2007-07-06T09:43:24Z",
+  "handles": [
+   {
+    "handle": "1926/557",
+    "handle_url": "http://hdl.handle.net/1926/557"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 162,
+  "submitted_by_author": {
+   "author_email": "dan.muel@gmail.com",
+   "author_firstname": "Dan",
+   "author_id": 286,
+   "author_institution": "Philips Healthcare",
+   "author_lastname": "Mueller"
+  },
+  "tags": [
+   "heart",
+   "ITK",
+   "SharpImage",
+   "tagged volume rendering",
+   "coronary arteries"
+  ],
+  "title": "Tagged Volume Rendering of the Heart: A Case Study"
+ }
 }

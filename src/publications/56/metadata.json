@@ -1,44 +1,51 @@
 {
-  "publication": {
-    "abstract": "This filter will allow support for file reading and writting in ITK for the Zeiss (LSM) file format.",
-    "authors": [
-      {
-        "author_fullname": "Malaterre, Mathieu",
-        "author_place": 1,
-        "persona_email": "mathieu.malaterre@gmail.com",
-        "persona_firstname": "Mathieu",
-        "persona_id": 310,
-        "persona_lastname": "Malaterre"
-      }
-    ],
-    "date_submitted": "2005-11-10T13:25:36Z",
-    "handles": [
-      {
-        "handle": "1926/139",
-        "handle_url": "http://hdl.handle.net/1926/139"
-      }
-    ],
-    "id": 56,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "mathieu.malaterre@gmail.com",
-      "author_firstname": "Mathieu",
-      "author_id": 310,
-      "author_institution": "BioImaging SAS",
-      "author_lastname": "Malaterre"
-    },
-    "tags": [
-      "Zeiss, LSM, Confocal Microscopy"
-    ],
-    "title": "Zeiss (LSM) file format support"
-  }
+ "publication": {
+  "abstract": "This filter will allow support for file reading and writting in ITK for the Zeiss (LSM) file format.",
+  "authors": [
+   {
+    "author_fullname": "Malaterre, Mathieu",
+    "author_place": 1,
+    "persona_email": "mathieu.malaterre@gmail.com",
+    "persona_firstname": "Mathieu",
+    "persona_id": 310,
+    "persona_lastname": "Malaterre"
+   }
+  ],
+  "categories": [
+   "CMake",
+   "Images",
+   "IO",
+   "Programming"
+  ],
+  "comments": [],
+  "date_submitted": "2005-11-10T13:25:36Z",
+  "handles": [
+   {
+    "handle": "1926/139",
+    "handle_url": "http://hdl.handle.net/1926/139"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 56,
+  "submitted_by_author": {
+   "author_email": "mathieu.malaterre@gmail.com",
+   "author_firstname": "Mathieu",
+   "author_id": 310,
+   "author_institution": "BioImaging SAS",
+   "author_lastname": "Malaterre"
+  },
+  "tags": [
+   "Zeiss, LSM, Confocal Microscopy"
+  ],
+  "title": "Zeiss (LSM) file format support"
+ }
 }

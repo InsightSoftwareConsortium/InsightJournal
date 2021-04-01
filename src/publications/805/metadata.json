@@ -1,63 +1,70 @@
 {
-  "publication": {
-    "abstract": "Today, OR planning is supported by different clinical information systems. However, relevant patient information is distributed and spread over separate heterogeneous information systems (HIS, RIS, PACS), where each requires its own login and user interaction scheme. Furthermore, transfer of different planning data objects into the OR is currently not accomplished in a consistent electronic manner. This work proposes a framework, which integrates heterogeneous clinical information systems using a portal application with single-sign on and single-patient-lookup functionality. OR planning data can be composed into a digital planning record, which is seamlessly transferred to the modular integrated OR system. Data acquired or generated during surgery is automatically labeled with the electronic patient context, thus ensuring simple and consistent OR documentation.",
-    "authors": [
-      {
-        "author_fullname": "Bohn, Stefan",
-        "author_place": 1,
-        "persona_email": "stefan.bohn@medizin.uni-leipzig.de",
-        "persona_firstname": "Stefan",
-        "persona_id": 2191,
-        "persona_lastname": "Bohn"
-      },
-      {
-        "author_fullname": "Lindner, Dirk",
-        "author_place": 2,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Petzold, Christian",
-        "author_place": 3,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Burgert, Oliver",
-        "author_place": 4,
-        "persona_email": "oliver.burgert@reutlingen-university.de",
-        "persona_firstname": "Oliver",
-        "persona_id": 8050,
-        "persona_lastname": "Burgert"
-      }
-    ],
-    "date_submitted": "2011-08-05 07:29:25",
-    "handles": [
-      {
-        "handle": "10380/3270",
-        "handle_url": "http://hdl.handle.net/10380/3270"
-      }
-    ],
-    "id": 805,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 38,
-        "journal_name": "MICCAI 2011 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "stefan.bohn@medizin.uni-leipzig.de",
-      "author_firstname": "Stefan",
-      "author_id": 2191,
-      "author_institution": "University of Leipzig, Innovation Center Computer Assisted Surgery (ICCAS)",
-      "author_lastname": "Bohn"
-    },
-    "tags": [
-      "integrated or",
-      "context integration"
-    ],
-    "title": "A framework for data and context integration in the modular digital OR"
-  }
+ "publication": {
+  "abstract": "Today, OR planning is supported by different clinical information systems. However, relevant patient information is distributed and spread over separate heterogeneous information systems (HIS, RIS, PACS), where each requires its own login and user interaction scheme. Furthermore, transfer of different planning data objects into the OR is currently not accomplished in a consistent electronic manner. This work proposes a framework, which integrates heterogeneous clinical information systems using a portal application with single-sign on and single-patient-lookup functionality. OR planning data can be composed into a digital planning record, which is seamlessly transferred to the modular integrated OR system. Data acquired or generated during surgery is automatically labeled with the electronic patient context, thus ensuring simple and consistent OR documentation.",
+  "authors": [
+   {
+    "author_fullname": "Bohn, Stefan",
+    "author_place": 1,
+    "persona_email": "stefan.bohn@medizin.uni-leipzig.de",
+    "persona_firstname": "Stefan",
+    "persona_id": 2191,
+    "persona_lastname": "Bohn"
+   },
+   {
+    "author_fullname": "Lindner, Dirk",
+    "author_place": 2,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Petzold, Christian",
+    "author_place": 3,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Burgert, Oliver",
+    "author_place": 4,
+    "persona_email": "oliver.burgert@reutlingen-university.de",
+    "persona_firstname": "Oliver",
+    "persona_id": 8050,
+    "persona_lastname": "Burgert"
+   }
+  ],
+  "categories": [
+   "Data",
+   "Images",
+   "IO",
+   "Objects"
+  ],
+  "comments": [],
+  "date_submitted": "2011-08-05 07:29:25",
+  "handles": [
+   {
+    "handle": "10380/3270",
+    "handle_url": "http://hdl.handle.net/10380/3270"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 38,
+    "journal_name": "MICCAI 2011 Workshops"
+   }
+  ],
+  "publication_id": 805,
+  "submitted_by_author": {
+   "author_email": "stefan.bohn@medizin.uni-leipzig.de",
+   "author_firstname": "Stefan",
+   "author_id": 2191,
+   "author_institution": "University of Leipzig, Innovation Center Computer Assisted Surgery (ICCAS)",
+   "author_lastname": "Bohn"
+  },
+  "tags": [
+   "integrated or",
+   "context integration"
+  ],
+  "title": "A framework for data and context integration in the modular digital OR"
+ }
 }

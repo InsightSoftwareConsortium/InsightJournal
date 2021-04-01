@@ -1,67 +1,72 @@
 {
-  "publication": {
-    "abstract": "We present a fully automatic method for segmenting mandible in CT images using anatomic landmarks and prior knowledge. The aim is to utilize spatial relationship of anatomic landmarks with image processing techniques to detect mandible robustly and efficiently. Applying prior knowledge and reliable anatomical landmarks to define an optimal Region of Interest (ROI) which contains the mandible is an effective way for fast localization and successful segmentation. This approach can be used to segment other structures such as optic nerves by defining a new set of relevant landmarks. This approach is robust to CT data with different scanner setting and does not require large training data sets.",
-    "authors": [
-      {
-        "author_fullname": "Aghdasi, Nava",
-        "author_place": 1,
-        "persona_email": "navaa@uw.edu",
-        "persona_firstname": "Nava ",
-        "persona_id": 9737,
-        "persona_lastname": "Aghdasi"
-      },
-      {
-        "author_fullname": "Li, Yangming",
-        "author_place": 2,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Berens, Angelique",
-        "author_place": 3,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Moe, Kris",
-        "author_place": 4,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Hannaford, Blake",
-        "author_place": 5,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2016-03-14 20:43:38",
-    "handles": [
-      {
-        "handle": "10380/3545",
-        "handle_url": "http://hdl.handle.net/10380/3545"
-      }
-    ],
-    "id": 971,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 44,
-        "journal_name": "MICCAI 2015 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "navaa@uw.edu",
-      "author_firstname": "Nava ",
-      "author_id": 9737,
-      "author_institution": "University of washington",
-      "author_lastname": "Aghdasi"
-    },
-    "tags": [
-      "Mandible",
-      "CT",
-      "Optic nerve",
-      "Anatomical Knowledge"
-    ],
-    "title": "Automatic Mandible Segmentation on CT Images Using Prior Anatomical Knowledge"
-  }
+ "publication": {
+  "abstract": "We present a fully automatic method for segmenting mandible in CT images using anatomic landmarks and prior knowledge. The aim is to utilize spatial relationship of anatomic landmarks with image processing techniques to detect mandible robustly and efficiently. Applying prior knowledge and reliable anatomical landmarks to define an optimal Region of Interest (ROI) which contains the mandible is an effective way for fast localization and successful segmentation. This approach can be used to segment other structures such as optic nerves by defining a new set of relevant landmarks. This approach is robust to CT data with different scanner setting and does not require large training data sets.",
+  "authors": [
+   {
+    "author_fullname": "Aghdasi, Nava",
+    "author_place": 1,
+    "persona_email": "navaa@uw.edu",
+    "persona_firstname": "Nava ",
+    "persona_id": 9737,
+    "persona_lastname": "Aghdasi"
+   },
+   {
+    "author_fullname": "Li, Yangming",
+    "author_place": 2,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Berens, Angelique",
+    "author_place": 3,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Moe, Kris",
+    "author_place": 4,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Hannaford, Blake",
+    "author_place": 5,
+    "persona_id": null
+   }
+  ],
+  "categories": [
+   "Probability",
+   "Segmentation"
+  ],
+  "comments": [],
+  "date_submitted": "2016-03-14 20:43:38",
+  "handles": [
+   {
+    "handle": "10380/3545",
+    "handle_url": "http://hdl.handle.net/10380/3545"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 44,
+    "journal_name": "MICCAI 2015 Workshops"
+   }
+  ],
+  "publication_id": 971,
+  "submitted_by_author": {
+   "author_email": "navaa@uw.edu",
+   "author_firstname": "Nava ",
+   "author_id": 9737,
+   "author_institution": "University of washington",
+   "author_lastname": "Aghdasi"
+  },
+  "tags": [
+   "Mandible",
+   "CT",
+   "Optic nerve",
+   "Anatomical Knowledge"
+  ],
+  "title": "Automatic Mandible Segmentation on CT Images Using Prior Anatomical Knowledge"
+ }
 }

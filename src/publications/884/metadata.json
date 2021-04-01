@@ -1,58 +1,113 @@
 {
-  "publication": {
-    "abstract": "Nonrigid image registration is an important, but resource demanding and time-consuming task in medical image analysis. This limits its application in time-critical clinical routines. In this report we explore acceleration of two time-consuming parts of a registration algorithm by means of parallel processing using the GPU. We built upon the OpenCL-based GPU image processing framework of the recent ITK4 release, and implemented Gaussian multi-resolution strategies and a general resampling framework. We evaluated the performance gain on two multi-core machines with NVidia GPUs, and compared to an existing ITK4 CPU implementation. A speedup factor of ~2-4 was realized for the multi-resolution strategies and a speedup factor of ~10-46 was achieved for resampling, for larger images (~10^8 voxels).",
-    "authors": [
-      {
-        "author_fullname": "Staring, Marius",
-        "author_place": 3,
-        "persona_email": "marius.staring@gmail.com",
-        "persona_firstname": "Marius",
-        "persona_id": 208,
-        "persona_lastname": "Staring"
-      },
-      {
-        "author_fullname": "Shamonin, Denis",
-        "author_place": 2,
-        "persona_email": "D.P.Shamonin@lumc.nl",
-        "persona_firstname": "Denis",
-        "persona_id": 7069,
-        "persona_lastname": "Shamonin"
-      }
-    ],
-    "date_submitted": "2012-12-18 08:16:11",
-    "handles": [
-      {
-        "handle": "10380/3393",
-        "handle_url": "http://hdl.handle.net/10380/3393"
-      }
-    ],
-    "id": 884,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "D.P.Shamonin@lumc.nl",
-      "author_firstname": "Denis",
-      "author_id": 7069,
-      "author_institution": "Division of Image Processing, Department of Radiology, Leiden, The Netherlands",
-      "author_lastname": "Shamonin"
-    },
-    "tags": [
-      "OpenCL",
-      "GPUResampleImageFilter",
-      "elastix",
-      "GenericMultiResolutionPyramidImageFilter",
-      "image registration",
-      "parallelization",
-      "GPU"
-    ],
-    "title": "An OpenCL implementation of the Gaussian pyramid and the resampler"
-  }
+ "publication": {
+  "abstract": "Nonrigid image registration is an important, but resource demanding and time-consuming task in medical image analysis. This limits its application in time-critical clinical routines. In this report we explore acceleration of two time-consuming parts of a registration algorithm by means of parallel processing using the GPU. We built upon the OpenCL-based GPU image processing framework of the recent ITK4 release, and implemented Gaussian multi-resolution strategies and a general resampling framework. We evaluated the performance gain on two multi-core machines with NVidia GPUs, and compared to an existing ITK4 CPU implementation. A speedup factor of ~2-4 was realized for the multi-resolution strategies and a speedup factor of ~10-46 was achieved for resampling, for larger images (~10^8 voxels).",
+  "authors": [
+   {
+    "author_fullname": "Staring, Marius",
+    "author_place": 3,
+    "persona_email": "marius.staring@gmail.com",
+    "persona_firstname": "Marius",
+    "persona_id": 208,
+    "persona_lastname": "Staring"
+   },
+   {
+    "author_fullname": "Shamonin, Denis",
+    "author_place": 2,
+    "persona_email": "D.P.Shamonin@lumc.nl",
+    "persona_firstname": "Denis",
+    "persona_id": 7069,
+    "persona_lastname": "Shamonin"
+   }
+  ],
+  "categories": [
+   "Image pyramids",
+   "Resampling",
+   "Transforms"
+  ],
+  "comments": [
+   {
+    "content": "1. The source code has been merged with elastix: http://elastix.isi.uu.nl/news.php\r\n2. The source code builds could be checked using elastix dashboard: http://my.cdash.org/index.php?project=elastix\r\n3. The work is described in this paper: http://journal.frontiersin.org/Journal/10.3389/fninf.2013.00050/full\r\n",
+    "date": "2015-01-26T06:06:52",
+    "persona_email": "D.P.Shamonin@lumc.nl",
+    "persona_firstname": "Denis",
+    "persona_id": 7069,
+    "persona_lastname": "Shamonin"
+   },
+   {
+    "content": "1. The source code has been merged with latest elastix (trunkpublic) see https://svn.bigr.nl/elastix/trunkpublic\r\n2. The source code has been tested with latest ITK (4.9.1 Tue 12 Apr 2016) see FixLog.txt comments on the build\r\n3. The source code builds and tests performed using elastix dashboard:\r\n   http://my.cdash.org/index.php?project=elastix\r\n4. The full paper:\r\n   http://journal.frontiersin.org/article/10.3389/fninf.2013.00050/full\r\n5. The latest GPU performance results could be found in section supplemental data of the full paper:\r\n   http://journal.frontiersin.org/File/DownloadFile/65120/octet-stream/Presentation%201.PDF/12/1/66699\r\n6. The recent GPU performance experiments could be found in directory test_logs see source code.\r\n",
+    "date": "2016-04-13T05:34:51",
+    "persona_email": "D.P.Shamonin@lumc.nl",
+    "persona_firstname": "Denis",
+    "persona_id": 7069,
+    "persona_lastname": "Shamonin"
+   },
+   {
+    "content": "1. The source code has been merged with latest elastix (trunkpublic) see https://svn.bigr.nl/elastix/trunkpublic\r\n2. The source code has been tested with latest ITK (4.10.0; 6 Jun 2016)\r\n3. The source code builds and tests performed using elastix dashboard:\r\n   http://my.cdash.org/index.php?project=elastix\r\n4. The full paper:\r\n   http://journal.frontiersin.org/article/10.3389/fninf.2013.00050/full\r\n5. The latest GPU performance results could be found in section supplemental data of the full paper:\r\n   http://journal.frontiersin.org/File/DownloadFile/65120/octet-stream/Presentation%201.PDF/12/1/66699\r\n6. The recent GPU performance experiments could be found in directory test_logs see source code.\r\n",
+    "date": "2016-06-06T05:42:56",
+    "persona_email": "D.P.Shamonin@lumc.nl",
+    "persona_firstname": "Denis",
+    "persona_id": 7069,
+    "persona_lastname": "Shamonin"
+   },
+   {
+    "content": "1. The source code has been merged with latest elastix 4.8 see http://elastix.isi.uu.nl/news.php\r\n2. The source code has been tested with latest ITK (v4.9rc03) see fixlog.txt comments on the build\r\n3. The source code builds and tests performed using elastix dashboard:\r\n   http://my.cdash.org/index.php?project=elastix\r\n4. The full paper:\r\n   http://journal.frontiersin.org/article/10.3389/fninf.2013.00050/full\r\n5. The latest GPU performance results could be found in section supplemental data of the full paper:\r\n   http://journal.frontiersin.org/File/DownloadFile/65120/octet-stream/Presentation%201.PDF/12/1/66699",
+    "date": "2016-01-18T09:20:06",
+    "persona_email": "D.P.Shamonin@lumc.nl",
+    "persona_firstname": "Denis",
+    "persona_id": 7069,
+    "persona_lastname": "Shamonin"
+   },
+   {
+    "content": "1. The source code has been merged with elastix trunk, see http://elastix.isi.uu.nl/news.php\r\n2. The source code builds and tests performed using elastix dashboard:\r\n   http://my.cdash.org/index.php?project=elastix\r\n3. The full paper:\r\n   http://journal.frontiersin.org/article/10.3389/fninf.2013.00050/full\r\n4. The latest GPU performance results could be found in section supplemental data of the full paper:\r\n   http://journal.frontiersin.org/File/DownloadFile/65120/octet-stream/Presentation%201.PDF/12/1/66699",
+    "date": "2015-02-17T05:44:10",
+    "persona_email": "D.P.Shamonin@lumc.nl",
+    "persona_firstname": "Denis",
+    "persona_id": 7069,
+    "persona_lastname": "Shamonin"
+   },
+   {
+    "content": "1. The source code has been merged with latest elastix (trunkpublic) see https://svn.bigr.nl/elastix/trunkpublic\r\n2. The source code has been tested with latest ITK (4.9.1 Wed 20 Apr 2016) see FixLog.txt comments on the build\r\n3. The source code builds and tests performed using elastix dashboard:\r\n   http://my.cdash.org/index.php?project=elastix\r\n4. The full paper:\r\n   http://journal.frontiersin.org/article/10.3389/fninf.2013.00050/full\r\n5. The latest GPU performance results could be found in section supplemental data of the full paper:\r\n   http://journal.frontiersin.org/File/DownloadFile/65120/octet-stream/Presentation%201.PDF/12/1/66699\r\n6. The recent GPU performance experiments could be found in directory test_logs see source code.\r\n",
+    "date": "2016-04-20T03:37:06",
+    "persona_email": "D.P.Shamonin@lumc.nl",
+    "persona_firstname": "Denis",
+    "persona_id": 7069,
+    "persona_lastname": "Shamonin"
+   }
+  ],
+  "date_submitted": "2012-12-18 08:16:11",
+  "handles": [
+   {
+    "handle": "10380/3393",
+    "handle_url": "http://hdl.handle.net/10380/3393"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 884,
+  "submitted_by_author": {
+   "author_email": "D.P.Shamonin@lumc.nl",
+   "author_firstname": "Denis",
+   "author_id": 7069,
+   "author_institution": "Division of Image Processing, Department of Radiology, Leiden, The Netherlands",
+   "author_lastname": "Shamonin"
+  },
+  "tags": [
+   "OpenCL",
+   "GPUResampleImageFilter",
+   "elastix",
+   "GenericMultiResolutionPyramidImageFilter",
+   "image registration",
+   "parallelization",
+   "GPU"
+  ],
+  "title": "An OpenCL implementation of the Gaussian pyramid and the resampler"
+ }
 }

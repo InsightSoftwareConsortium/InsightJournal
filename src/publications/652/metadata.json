@@ -1,69 +1,78 @@
 {
-  "publication": {
-    "abstract": "To achieve longterm survival after resection of liver tumors, accurate resection margins are essential. Image guided surgery with navigational support has the potential to increase surgical accuracy significantly, thus making the operation more reliable. In this article we describe an image guided navigation system for liver surgery. Our platform uses GPU acceleration to display in real-time reconstructed 3-dimensional freehand ultrasound volumes in combination with tracked surgical instruments. We evaluated the accuracy and the performance of our system on a phantom study. The results of our study demonstrate that our image guided navigation system has the potential to introduce significant improvements in the field of liver surgery.",
-    "authors": [
-      {
-        "author_fullname": "Gumprecht, Jan",
-        "author_place": 1,
-        "persona_email": "jgumprec@bwh.harvard.edu",
-        "persona_firstname": "Jan",
-        "persona_id": 2186,
-        "persona_lastname": "Gumprecht"
-      },
-      {
-        "author_fullname": "Tokuda, Junichi",
-        "author_place": 2,
-        "persona_email": "tokuda@bwh.harvard.edu",
-        "persona_firstname": "Junichi",
-        "persona_id": 761,
-        "persona_lastname": "Tokuda"
-      },
-      {
-        "author_fullname": "Liu, Haiying",
-        "author_place": 3,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Hata, Nobuhiko",
-        "author_place": 4,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2009-07-10 16:25:58",
-    "handles": [
-      {
-        "handle": "10380/3077",
-        "handle_url": "http://hdl.handle.net/10380/3077"
-      }
-    ],
-    "id": 652,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 34,
-        "journal_name": "MICCAI 2009 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "jgumprec@bwh.harvard.edu",
-      "author_firstname": "Jan",
-      "author_id": 2186,
-      "author_institution": "Birgham and Women's Hospital and Harvard Medical School",
-      "author_lastname": "Gumprecht"
-    },
-    "tags": [
-      "Image guided Surgery",
-      "Open-Source",
-      "Freehand",
-      "Real-Time",
-      "3D",
-      "Ultrasound",
-      "Navigation",
-      "Liver"
-    ],
-    "title": "Development and Validation of an Open-Source Real-Time Freehand 3-Dimensional Ultrasound Navigation System for Liver Surgery with GPGPU Acceleration"
-  }
+ "publication": {
+  "abstract": "To achieve longterm survival after resection of liver tumors, accurate resection margins are essential. Image guided surgery with navigational support has the potential to increase surgical accuracy significantly, thus making the operation more reliable. In this article we describe an image guided navigation system for liver surgery. Our platform uses GPU acceleration to display in real-time reconstructed 3-dimensional freehand ultrasound volumes in combination with tracked surgical instruments. We evaluated the accuracy and the performance of our system on a phantom study. The results of our study demonstrate that our image guided navigation system has the potential to introduce significant improvements in the field of liver surgery.",
+  "authors": [
+   {
+    "author_fullname": "Gumprecht, Jan",
+    "author_place": 1,
+    "persona_email": "jgumprec@bwh.harvard.edu",
+    "persona_firstname": "Jan",
+    "persona_id": 2186,
+    "persona_lastname": "Gumprecht"
+   },
+   {
+    "author_fullname": "Tokuda, Junichi",
+    "author_place": 2,
+    "persona_email": "tokuda@bwh.harvard.edu",
+    "persona_firstname": "Junichi",
+    "persona_id": 761,
+    "persona_lastname": "Tokuda"
+   },
+   {
+    "author_fullname": "Liu, Haiying",
+    "author_place": 3,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Hata, Nobuhiko",
+    "author_place": 4,
+    "persona_id": null
+   }
+  ],
+  "categories": [
+   "CMake",
+   "Code speed optimization",
+   "Geometric transforms",
+   "Image",
+   "Images",
+   "Parallelization, SMP"
+  ],
+  "comments": [],
+  "date_submitted": "2009-07-10 16:25:58",
+  "handles": [
+   {
+    "handle": "10380/3077",
+    "handle_url": "http://hdl.handle.net/10380/3077"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 34,
+    "journal_name": "MICCAI 2009 Workshops"
+   }
+  ],
+  "publication_id": 652,
+  "submitted_by_author": {
+   "author_email": "jgumprec@bwh.harvard.edu",
+   "author_firstname": "Jan",
+   "author_id": 2186,
+   "author_institution": "Birgham and Women's Hospital and Harvard Medical School",
+   "author_lastname": "Gumprecht"
+  },
+  "tags": [
+   "Image guided Surgery",
+   "Open-Source",
+   "Freehand",
+   "Real-Time",
+   "3D",
+   "Ultrasound",
+   "Navigation",
+   "Liver"
+  ],
+  "title": "Development and Validation of an Open-Source Real-Time Freehand 3-Dimensional Ultrasound Navigation System for Liver Surgery with GPGPU Acceleration"
+ }
 }

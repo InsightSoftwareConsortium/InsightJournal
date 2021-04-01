@@ -1,52 +1,57 @@
 {
-  "publication": {
-    "abstract": "Simbionix\u00ae Ltd, world-leader in surgical simulation, just pioneered the commercial use of patient-specific simulation: a tool for rehearsing an operation prior to performing it. Carotid stenting was chosen as the first release of a patient-specific simulated operation. Simbionix partnered with Shina Systems\u00ae in making the Segmentation module. The resulting tool is presented and discussed herein.",
-    "authors": [
-      {
-        "author_fullname": "Namer, Einav",
-        "author_place": 1,
-        "persona_email": "einav@simbionix.com",
-        "persona_firstname": "Einav",
-        "persona_id": 2216,
-        "persona_lastname": "Namer"
-      },
-      {
-        "author_fullname": "Shilon, Ofek",
-        "author_place": 2,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2009-07-20 11:07:48",
-    "handles": [
-      {
-        "handle": "10380/3098",
-        "handle_url": "http://hdl.handle.net/10380/3098"
-      }
-    ],
-    "id": 664,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 34,
-        "journal_name": "MICCAI 2009 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "einav@simbionix.com",
-      "author_firstname": "Einav",
-      "author_id": 2216,
-      "author_institution": "Simbionix Ltd",
-      "author_lastname": "Namer"
-    },
-    "tags": [
-      "Simulation",
-      "Patient-Specific ",
-      "Carotids Segmentation",
-      "Simbionix"
-    ],
-    "title": "Carotids Segmentation in the context of Patient-Specific Simulation"
-  }
+ "publication": {
+  "abstract": "Simbionix\u00ae Ltd, world-leader in surgical simulation, just pioneered the commercial use of patient-specific simulation: a tool for rehearsing an operation prior to performing it. Carotid stenting was chosen as the first release of a patient-specific simulated operation. Simbionix partnered with Shina Systems\u00ae in making the Segmentation module. The resulting tool is presented and discussed herein.",
+  "authors": [
+   {
+    "author_fullname": "Namer, Einav",
+    "author_place": 1,
+    "persona_email": "einav@simbionix.com",
+    "persona_firstname": "Einav",
+    "persona_id": 2216,
+    "persona_lastname": "Namer"
+   },
+   {
+    "author_fullname": "Shilon, Ofek",
+    "author_place": 2,
+    "persona_id": null
+   }
+  ],
+  "categories": [
+   "Region growing",
+   "Segmentation"
+  ],
+  "comments": [],
+  "date_submitted": "2009-07-20 11:07:48",
+  "handles": [
+   {
+    "handle": "10380/3098",
+    "handle_url": "http://hdl.handle.net/10380/3098"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 34,
+    "journal_name": "MICCAI 2009 Workshops"
+   }
+  ],
+  "publication_id": 664,
+  "submitted_by_author": {
+   "author_email": "einav@simbionix.com",
+   "author_firstname": "Einav",
+   "author_id": 2216,
+   "author_institution": "Simbionix Ltd",
+   "author_lastname": "Namer"
+  },
+  "tags": [
+   "Simulation",
+   "Patient-Specific ",
+   "Carotids Segmentation",
+   "Simbionix"
+  ],
+  "title": "Carotids Segmentation in the context of Patient-Specific Simulation"
+ }
 }

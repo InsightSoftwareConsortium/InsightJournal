@@ -1,45 +1,50 @@
 {
-  "publication": {
-    "abstract": "It is often useful to be able to compute the component of image gradient in a direction defined by a shape of some form, rather than relative to the image axis. This article introduces a simple method for doing this based on distance transforms that is potentially useful in a number of applications.\n",
-    "authors": [
-      {
-        "author_fullname": "Beare, Richard",
-        "author_place": 1,
-        "persona_email": "richard.beare@ieee.org",
-        "persona_firstname": "Richard",
-        "persona_id": 197,
-        "persona_lastname": "Beare"
-      }
-    ],
-    "date_submitted": "2011-05-19 07:54:17",
-    "handles": [
-      {
-        "handle": "10380/3265",
-        "handle_url": "http://hdl.handle.net/10380/3265"
-      }
-    ],
-    "id": 799,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "richard.beare@ieee.org",
-      "author_firstname": "Richard",
-      "author_id": 197,
-      "author_institution": "Monash University",
-      "author_lastname": "Beare"
-    },
-    "tags": [
-      "distance transform",
-      "image gradient"
-    ],
-    "title": "Simple directional gradients"
-  }
+ "publication": {
+  "abstract": "It is often useful to be able to compute the component of image gradient in a direction defined by a shape of some form, rather than relative to the image axis. This article introduces a simple method for doing this based on distance transforms that is potentially useful in a number of applications.\n",
+  "authors": [
+   {
+    "author_fullname": "Beare, Richard",
+    "author_place": 1,
+    "persona_email": "richard.beare@ieee.org",
+    "persona_firstname": "Richard",
+    "persona_id": 197,
+    "persona_lastname": "Beare"
+   }
+  ],
+  "categories": [
+   "Distance maps",
+   "Edge Detection"
+  ],
+  "comments": [],
+  "date_submitted": "2011-05-19 07:54:17",
+  "handles": [
+   {
+    "handle": "10380/3265",
+    "handle_url": "http://hdl.handle.net/10380/3265"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 799,
+  "submitted_by_author": {
+   "author_email": "richard.beare@ieee.org",
+   "author_firstname": "Richard",
+   "author_id": 197,
+   "author_institution": "Monash University",
+   "author_lastname": "Beare"
+  },
+  "tags": [
+   "distance transform",
+   "image gradient"
+  ],
+  "title": "Simple directional gradients"
+ }
 }

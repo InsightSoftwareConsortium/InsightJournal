@@ -1,84 +1,86 @@
 {
-  "publication": {
-    "abstract": "BioImage Suite is an NIH-supported medical image analysis software suite developed at Yale. It\r\nleverages both the Visualization Toolkit (VTK) and the Insight Toolkit (ITK) and it includes many additional\r\nalgorithms for image analysis especially in the areas of segmentation, registration, diffusion\r\nweighted image processing and fMRI analysis. BioImage Suite has a user-friendly user interface developed\r\nin the Tcl scripting language. A final beta version is freely available for download.",
-    "authors": [
-      {
-        "author_fullname": "Papademetris, Xenophon",
-        "author_place": 1,
-        "persona_email": "xenophon.papademetris@yale.edu",
-        "persona_firstname": "Xenophon",
-        "persona_id": 79,
-        "persona_lastname": "Papademetris"
-      },
-      {
-        "author_fullname": "Jackowski, Marcel",
-        "author_place": 2,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Rajeevan, Nallkkandi",
-        "author_place": 3,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "DiStasio, Marcello",
-        "author_place": 4,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Okuda, Hirohito",
-        "author_place": 5,
-        "persona_email": "hirohito.okuda@ge.com",
-        "persona_firstname": "Hirohito",
-        "persona_id": 1094,
-        "persona_lastname": "Okuda"
-      },
-      {
-        "author_fullname": "Constable, R. Todd",
-        "author_place": 6,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Staib, Lawrence",
-        "author_place": 7,
-        "persona_email": "lawrence.staib@yale.edu",
-        "persona_firstname": "Lawrence",
-        "persona_id": 27,
-        "persona_lastname": "Staib"
-      }
-    ],
-    "date_submitted": "2006-06-30T21:46:33Z",
-    "handles": [
-      {
-        "handle": "1926/209",
-        "handle_url": "http://hdl.handle.net/1926/209"
-      }
-    ],
-    "id": 95,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "xenophon.papademetris@yale.edu",
-      "author_firstname": "Xenophon",
-      "author_id": 79,
-      "author_institution": "Yale University",
-      "author_lastname": "Papademetris"
-    },
-    "tags": [
-      "Surface Editing",
-      "DTI",
-      "Medical Image Analysis Software",
-      "Registration",
-      "Segmentation"
-    ],
-    "title": "BioImage Suite: An integrated medical image analysis suite: An update"
-  }
+ "publication": {
+  "abstract": "BioImage Suite is an NIH-supported medical image analysis software suite developed at Yale. It\r\nleverages both the Visualization Toolkit (VTK) and the Insight Toolkit (ITK) and it includes many additional\r\nalgorithms for image analysis especially in the areas of segmentation, registration, diffusion\r\nweighted image processing and fMRI analysis. BioImage Suite has a user-friendly user interface developed\r\nin the Tcl scripting language. A final beta version is freely available for download.",
+  "authors": [
+   {
+    "author_fullname": "Papademetris, Xenophon",
+    "author_place": 1,
+    "persona_email": "xenophon.papademetris@yale.edu",
+    "persona_firstname": "Xenophon",
+    "persona_id": 79,
+    "persona_lastname": "Papademetris"
+   },
+   {
+    "author_fullname": "Jackowski, Marcel",
+    "author_place": 2,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Rajeevan, Nallkkandi",
+    "author_place": 3,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "DiStasio, Marcello",
+    "author_place": 4,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Okuda, Hirohito",
+    "author_place": 5,
+    "persona_email": "hirohito.okuda@ge.com",
+    "persona_firstname": "Hirohito",
+    "persona_id": 1094,
+    "persona_lastname": "Okuda"
+   },
+   {
+    "author_fullname": "Constable, R. Todd",
+    "author_place": 6,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Staib, Lawrence",
+    "author_place": 7,
+    "persona_email": "lawrence.staib@yale.edu",
+    "persona_firstname": "Lawrence",
+    "persona_id": 27,
+    "persona_lastname": "Staib"
+   }
+  ],
+  "categories": [],
+  "comments": [],
+  "date_submitted": "2006-06-30T21:46:33Z",
+  "handles": [
+   {
+    "handle": "1926/209",
+    "handle_url": "http://hdl.handle.net/1926/209"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 95,
+  "submitted_by_author": {
+   "author_email": "xenophon.papademetris@yale.edu",
+   "author_firstname": "Xenophon",
+   "author_id": 79,
+   "author_institution": "Yale University",
+   "author_lastname": "Papademetris"
+  },
+  "tags": [
+   "Surface Editing",
+   "DTI",
+   "Medical Image Analysis Software",
+   "Registration",
+   "Segmentation"
+  ],
+  "title": "BioImage Suite: An integrated medical image analysis suite: An update"
+ }
 }
