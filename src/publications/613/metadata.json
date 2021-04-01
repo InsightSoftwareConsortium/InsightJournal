@@ -1,64 +1,66 @@
 {
-  "publication": {
-    "abstract": "Multiple sclerosis diagnosis and patient follow-up can be helped by an evaluation of the lesion load in MRI sequences. A lot of automatic methods to segment these lesions are available in the literature. The MICCAI workshop Multiple Sclerosis (MS) lesion segmentation Challenge 08 allows to test and compare these algorithms. This paper presents a method designed to detect hyperintense signal area on T2-FLAIR sequence and its results on the Challenge test data. The proposed algorithm uses only three conventional MRI sequences: T1, T2 and T2-FLAIR. First, images are cropped, spatially unbiased and skull-stripped. A segmentation of the brain into its different compartments is performed on the T1 and the T2 sequences. From these segmentations, a threshold for the T2-FLAIR sequence is automatically computed. Then postprocessing operations select the most plausible lesions in the obtained hyperintense signals. Global result on the test data (80/100) is close to the inter-expert variability (90/100).",
-    "authors": [
-      {
-        "author_fullname": "Souplet, Jean-Christophe",
-        "author_place": 1,
-        "persona_email": "jean-christophe.souplet@sophia.inria.fr",
-        "persona_firstname": "Jean-christophe",
-        "persona_id": 927,
-        "persona_lastname": "Souplet"
-      },
-      {
-        "author_fullname": "Lebrun, Christine",
-        "author_place": 2,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Ayache, Nicholas",
-        "author_place": 3,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Malandain, Gregoire",
-        "author_place": 4,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2008-07-15T13:51:28Z",
-    "handles": [
-      {
-        "handle": "10380/1451",
-        "handle_url": "http://hdl.handle.net/10380/1451"
-      }
-    ],
-    "id": 613,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 44,
-        "journal_name": "MICCAI 2015 Workshops"
-      },
-      {
-        "journal_id": 33,
-        "journal_name": "MICCAI 2008 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "jean-christophe.souplet@sophia.inria.fr",
-      "author_firstname": "Jean-christophe",
-      "author_id": 927,
-      "author_institution": "INRIA",
-      "author_lastname": "Souplet"
-    },
-    "tags": [
-      "segmentation",
-      "Multiple sclerosis"
-    ],
-    "title": "An Automatic Segmentation of T2-FLAIR Multiple Sclerosis Lesions"
-  }
+ "publication": {
+  "abstract": "Multiple sclerosis diagnosis and patient follow-up can be helped by an evaluation of the lesion load in MRI sequences. A lot of automatic methods to segment these lesions are available in the literature. The MICCAI workshop Multiple Sclerosis (MS) lesion segmentation Challenge 08 allows to test and compare these algorithms. This paper presents a method designed to detect hyperintense signal area on T2-FLAIR sequence and its results on the Challenge test data. The proposed algorithm uses only three conventional MRI sequences: T1, T2 and T2-FLAIR. First, images are cropped, spatially unbiased and skull-stripped. A segmentation of the brain into its different compartments is performed on the T1 and the T2 sequences. From these segmentations, a threshold for the T2-FLAIR sequence is automatically computed. Then postprocessing operations select the most plausible lesions in the obtained hyperintense signals. Global result on the test data (80/100) is close to the inter-expert variability (90/100).",
+  "authors": [
+   {
+    "author_fullname": "Souplet, Jean-Christophe",
+    "author_place": 1,
+    "persona_email": "jean-christophe.souplet@sophia.inria.fr",
+    "persona_firstname": "Jean-christophe",
+    "persona_id": 927,
+    "persona_lastname": "Souplet"
+   },
+   {
+    "author_fullname": "Lebrun, Christine",
+    "author_place": 2,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Ayache, Nicholas",
+    "author_place": 3,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Malandain, Gregoire",
+    "author_place": 4,
+    "persona_id": null
+   }
+  ],
+  "categories": [],
+  "comments": [],
+  "date_submitted": "2008-07-15T13:51:28Z",
+  "handles": [
+   {
+    "handle": "10380/1451",
+    "handle_url": "http://hdl.handle.net/10380/1451"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 44,
+    "journal_name": "MICCAI 2015 Workshops"
+   },
+   {
+    "journal_id": 33,
+    "journal_name": "MICCAI 2008 Workshops"
+   }
+  ],
+  "publication_id": 613,
+  "submitted_by_author": {
+   "author_email": "jean-christophe.souplet@sophia.inria.fr",
+   "author_firstname": "Jean-christophe",
+   "author_id": 927,
+   "author_institution": "INRIA",
+   "author_lastname": "Souplet"
+  },
+  "tags": [
+   "segmentation",
+   "Multiple sclerosis"
+  ],
+  "title": "An Automatic Segmentation of T2-FLAIR Multiple Sclerosis Lesions"
+ }
 }

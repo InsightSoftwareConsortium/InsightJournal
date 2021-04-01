@@ -1,58 +1,76 @@
 {
-  "publication": {
-    "abstract": "Volumetric layers often encountered in medical image analysis are characterized by double and nested bounding surfaces. The thickness of a volumetric layer at a point on the bounding surface is the distance from that point to the opposite surface. There exist several definitions for the layer thickness. A newly proposed thickness definition is the radial thickness, which is defined as the distance between each pair of corresponding points on the two surfaces with the same polar coordinate. The thickness values calculated by the radial thickness definition are unique and does not depend on the starting surface. In this paper, we describe a class for calculating the radial thickness of one volumetric layer represented as coupled and nested triangle meshes. \r\n\r\nThe class, vtkRadialThicknessCalculate, is implemented using the Visualization Toolkit (VTK). In this document, we describe the radial thickness calculation algorithm and provide the user with the source code and the input data to reproduce the results. The radial thickness calculation described in this paper has a variety of applications including the thickness calculation for the skull vault, which is the original motivation for this work.",
-    "authors": [
-      {
-        "author_fullname": "Wang, Defeng",
-        "author_place": 1,
-        "persona_email": "dfwang@cse.cuhk.edu.hk",
-        "persona_firstname": "Defeng",
-        "persona_id": 618,
-        "persona_lastname": "Wang"
-      },
-      {
-        "author_fullname": "Shi, Lin",
-        "author_place": 2,
-        "persona_email": "lshi@cse.cuhk.edu.hk",
-        "persona_firstname": "Lin",
-        "persona_id": 619,
-        "persona_lastname": "Shi"
-      },
-      {
-        "author_fullname": "Heng, Pheng Ann",
-        "author_place": 3,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2007-07-02",
-    "handles": [
-      {
-        "handle": "1926/552",
-        "handle_url": "http://hdl.handle.net/1926/552"
-      }
-    ],
-    "id": 158,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "dfwang@cse.cuhk.edu.hk",
-      "author_firstname": "Defeng",
-      "author_id": 618,
-      "author_institution": "The Chinese University of Hong Kong",
-      "author_lastname": "Wang"
-    },
-    "tags": [
-      "Volumetric Layers",
-      "Radial Thickness"
-    ],
-    "title": "Radial Thickness Calculation and Visualization for Volumetric Layers"
-  }
+ "publication": {
+  "abstract": "Volumetric layers often encountered in medical image analysis are characterized by double and nested bounding surfaces. The thickness of a volumetric layer at a point on the bounding surface is the distance from that point to the opposite surface. There exist several definitions for the layer thickness. A newly proposed thickness definition is the radial thickness, which is defined as the distance between each pair of corresponding points on the two surfaces with the same polar coordinate. The thickness values calculated by the radial thickness definition are unique and does not depend on the starting surface. In this paper, we describe a class for calculating the radial thickness of one volumetric layer represented as coupled and nested triangle meshes. \r\n\r\nThe class, vtkRadialThicknessCalculate, is implemented using the Visualization Toolkit (VTK). In this document, we describe the radial thickness calculation algorithm and provide the user with the source code and the input data to reproduce the results. The radial thickness calculation described in this paper has a variety of applications including the thickness calculation for the skull vault, which is the original motivation for this work.",
+  "authors": [
+   {
+    "author_fullname": "Wang, Defeng",
+    "author_place": 1,
+    "persona_email": "dfwang@cse.cuhk.edu.hk",
+    "persona_firstname": "Defeng",
+    "persona_id": 618,
+    "persona_lastname": "Wang"
+   },
+   {
+    "author_fullname": "Shi, Lin",
+    "author_place": 2,
+    "persona_email": "lshi@cse.cuhk.edu.hk",
+    "persona_firstname": "Lin",
+    "persona_id": 619,
+    "persona_lastname": "Shi"
+   },
+   {
+    "author_fullname": "Heng, Pheng Ann",
+    "author_place": 3,
+    "persona_id": null
+   }
+  ],
+  "categories": [
+   "Active appearance models",
+   "CMake",
+   "Code memory optimization",
+   "Code speed optimization",
+   "Data",
+   "Data Representation",
+   "Generic Programming",
+   "IO",
+   "Iterators",
+   "Linear Algebra",
+   "Mathematics",
+   "Mesh",
+   "Optimization",
+   "Programming",
+   "Statistical shape models"
+  ],
+  "comments": [],
+  "date_submitted": "2007-07-02",
+  "handles": [
+   {
+    "handle": "1926/552",
+    "handle_url": "http://hdl.handle.net/1926/552"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 158,
+  "submitted_by_author": {
+   "author_email": "dfwang@cse.cuhk.edu.hk",
+   "author_firstname": "Defeng",
+   "author_id": 618,
+   "author_institution": "The Chinese University of Hong Kong",
+   "author_lastname": "Wang"
+  },
+  "tags": [
+   "Volumetric Layers",
+   "Radial Thickness"
+  ],
+  "title": "Radial Thickness Calculation and Visualization for Volumetric Layers"
+ }
 }

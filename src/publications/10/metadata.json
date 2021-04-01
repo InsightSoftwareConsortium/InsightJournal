@@ -1,50 +1,52 @@
 {
-  "publication": {
-    "abstract": "This paper focuses on the important role of open-source software in the development of a fully-automatic and accurate registration system for images of Quadrature Tomographic Microscopy. The system is correspondence-based, using the framework provided by open-source RGRL(Rensselear Generalized Registration Library). The library implements several well-known techniques and the ability to mix-and-match techniques for components of the framework allows testing of ideas and\r\ndevelopment of the robust system in a timely fashion.",
-    "authors": [
-      {
-        "author_fullname": "Tsai, Chia-Ling",
-        "author_place": 1,
-        "persona_email": "tsaic@cs.ccu.edu.tw",
-        "persona_firstname": "Chia-ling",
-        "persona_id": 53,
-        "persona_lastname": "Tsai"
-      }
-    ],
-    "date_submitted": "2005-07-25T16:03:43Z",
-    "handles": [
-      {
-        "handle": "1926/457",
-        "handle_url": "http://hdl.handle.net/1926/457"
-      },
-      {
-        "handle": "1926/10",
-        "handle_url": "http://hdl.handle.net/1926/10"
-      }
-    ],
-    "id": 10,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "tsaic@cs.ccu.edu.tw",
-      "author_firstname": "Chia-ling",
-      "author_id": 53,
-      "author_institution": "National Chung Cheng University, Taiwan",
-      "author_lastname": "Tsai"
-    },
-    "tags": [
-      "Quadrature Tomographic Microscopy",
-      "Registration",
-      "embryogenesis"
-    ],
-    "title": "The Role of Open-Source Software in the Study of Embryogenesis"
-  }
+ "publication": {
+  "abstract": "This paper focuses on the important role of open-source software in the development of a fully-automatic and accurate registration system for images of Quadrature Tomographic Microscopy. The system is correspondence-based, using the framework provided by open-source RGRL(Rensselear Generalized Registration Library). The library implements several well-known techniques and the ability to mix-and-match techniques for components of the framework allows testing of ideas and\r\ndevelopment of the robust system in a timely fashion.",
+  "authors": [
+   {
+    "author_fullname": "Tsai, Chia-Ling",
+    "author_place": 1,
+    "persona_email": "tsaic@cs.ccu.edu.tw",
+    "persona_firstname": "Chia-ling",
+    "persona_id": 53,
+    "persona_lastname": "Tsai"
+   }
+  ],
+  "categories": [],
+  "comments": [],
+  "date_submitted": "2005-07-25T16:03:43Z",
+  "handles": [
+   {
+    "handle": "1926/457",
+    "handle_url": "http://hdl.handle.net/1926/457"
+   },
+   {
+    "handle": "1926/10",
+    "handle_url": "http://hdl.handle.net/1926/10"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 10,
+  "submitted_by_author": {
+   "author_email": "tsaic@cs.ccu.edu.tw",
+   "author_firstname": "Chia-ling",
+   "author_id": 53,
+   "author_institution": "National Chung Cheng University, Taiwan",
+   "author_lastname": "Tsai"
+  },
+  "tags": [
+   "Quadrature Tomographic Microscopy",
+   "Registration",
+   "embryogenesis"
+  ],
+  "title": "The Role of Open-Source Software in the Study of Embryogenesis"
+ }
 }

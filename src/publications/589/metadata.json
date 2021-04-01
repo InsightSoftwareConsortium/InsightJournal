@@ -1,66 +1,95 @@
 {
-  "publication": {
-    "abstract": "Liver cancer is the fifth most commonly diagnosed cancer and the third most common cause of death\r\nfrom cancer worldwide. A precise analysis of the lesions would help in the staging of the tumor and\r\nin the evaluation of the possible applicable therapies. In this paper we present the workflow we have\r\ndeveloped for the semi-automatic segmentation of liver tumors in the datasets provided for the MICCAI\r\nLiver Tumor Segmentation contest. Since we wanted to develop a system that could be as automatic\r\nas possible and to follow the segmentation process in every single step starting from the image loading\r\nto the lesion extraction, we decided to subdivide the workflow in two main steps: first we focus on the\r\nsegmentation of the liver and once we have extracted the organ structure we segment the lesions applying\r\nan adaptive multi-thresholding system.",
-    "authors": [
-      {
-        "author_fullname": "Choudhary, Anirudh",
-        "author_place": 1,
-        "persona_email": "ani.iitkgp@gmail.com",
-        "persona_firstname": "Anirudh",
-        "persona_id": 2092,
-        "persona_lastname": "Choudhary"
-      },
-      {
-        "author_fullname": "Moretto, Nicola",
-        "author_place": 2,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Pizzorni Ferrarese, Francesca",
-        "author_place": 3,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Zamboni, Giulia A.",
-        "author_place": 4,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2008-07-08T01:26:27Z",
-    "handles": [
-      {
-        "handle": "10380/1430",
-        "handle_url": "http://hdl.handle.net/10380/1430"
-      }
-    ],
-    "id": 589,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 45,
-        "journal_name": "MICCAI 2016 Workshops"
-      },
-      {
-        "journal_id": 33,
-        "journal_name": "MICCAI 2008 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "francesca.pizzorni@gmail.com",
-      "author_firstname": "Francesca",
-      "author_id": 867,
-      "author_institution": "university of verona",
-      "author_lastname": "Pizzorni"
-    },
-    "tags": [
-      "De-noising",
-      "Multi-thresholding",
-      "Liver tumors",
-      "Segmentation"
-    ],
-    "title": "An entropy based multi-thresholding method for semi-automatic segmentation of liver tumors"
-  }
+ "publication": {
+  "abstract": "Liver cancer is the fifth most commonly diagnosed cancer and the third most common cause of death\r\nfrom cancer worldwide. A precise analysis of the lesions would help in the staging of the tumor and\r\nin the evaluation of the possible applicable therapies. In this paper we present the workflow we have\r\ndeveloped for the semi-automatic segmentation of liver tumors in the datasets provided for the MICCAI\r\nLiver Tumor Segmentation contest. Since we wanted to develop a system that could be as automatic\r\nas possible and to follow the segmentation process in every single step starting from the image loading\r\nto the lesion extraction, we decided to subdivide the workflow in two main steps: first we focus on the\r\nsegmentation of the liver and once we have extracted the organ structure we segment the lesions applying\r\nan adaptive multi-thresholding system.",
+  "authors": [
+   {
+    "author_fullname": "Choudhary, Anirudh",
+    "author_place": 1,
+    "persona_email": "ani.iitkgp@gmail.com",
+    "persona_firstname": "Anirudh",
+    "persona_id": 2092,
+    "persona_lastname": "Choudhary"
+   },
+   {
+    "author_fullname": "Moretto, Nicola",
+    "author_place": 2,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Pizzorni Ferrarese, Francesca",
+    "author_place": 3,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Zamboni, Giulia A.",
+    "author_place": 4,
+    "persona_id": null
+   }
+  ],
+  "categories": [
+   "Anisotropic blurring filters",
+   "Classification",
+   "CMake",
+   "Component Analysis and Discriminants",
+   "Data",
+   "Data Representation",
+   "Edge Detection",
+   "Feature extraction",
+   "Filtering",
+   "Generic Programming",
+   "Image",
+   "Images",
+   "Information Theory",
+   "IO",
+   "Level sets",
+   "Mathematical Morphology",
+   "Mathematics",
+   "Neighborhood filters",
+   "Optimization",
+   "Parameter Techniques",
+   "PointSet",
+   "Programming",
+   "Region growing",
+   "Segmentation",
+   "Thresholding",
+   "Watersheds"
+  ],
+  "comments": [],
+  "date_submitted": "2008-07-08T01:26:27Z",
+  "handles": [
+   {
+    "handle": "10380/1430",
+    "handle_url": "http://hdl.handle.net/10380/1430"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 45,
+    "journal_name": "MICCAI 2016 Workshops"
+   },
+   {
+    "journal_id": 33,
+    "journal_name": "MICCAI 2008 Workshops"
+   }
+  ],
+  "publication_id": 589,
+  "submitted_by_author": {
+   "author_email": "francesca.pizzorni@gmail.com",
+   "author_firstname": "Francesca",
+   "author_id": 867,
+   "author_institution": "university of verona",
+   "author_lastname": "Pizzorni"
+  },
+  "tags": [
+   "De-noising",
+   "Multi-thresholding",
+   "Liver tumors",
+   "Segmentation"
+  ],
+  "title": "An entropy based multi-thresholding method for semi-automatic segmentation of liver tumors"
+ }
 }

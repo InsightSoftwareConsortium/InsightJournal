@@ -1,70 +1,75 @@
 {
-  "publication": {
-    "abstract": "This study investigates a fully automatic left ventricle segmentation method from cine short axis MR images. Advantages of this method include that it: 1) is image-driven and does not require manually drawn initial contours. 2) provides not only endocardial and epicardial contours, but also papillary muscles and trabeculations\u2019 contours; 3) introduces a roundness measure that is fast and automatically locates the left ventricle; 4) simplifies the epicardial contour segmentation by mapping the pixels from Cartesian to approximately polar coordinates; and 5) applies a fast Fourier transform to smooth the endocardial and epicardial contours. Quantitative evaluation was performed on the 15 subjects of the MICCAI 2009 Cardiac MR Left Ventricle Segmentation hallenge. The average perpendicular distance between manually drawn and automatically selected contours over all slices, all studies, and two phases (end-diastole and end-systole) was 2.07 0.61 mm for endocardial and 1.91 0.63 mm for epicardial contours. These results indicate a promising method for automatic segmentation of left ventricle for clinical use.",
-    "authors": [
-      {
-        "author_fullname": "Lu, YingLi",
-        "author_place": 1,
-        "persona_email": "yinglilu@gmail.com",
-        "persona_firstname": "Yingli",
-        "persona_id": 1059,
-        "persona_lastname": "Lu"
-      },
-      {
-        "author_fullname": "Radau, Perry",
-        "author_place": 2,
-        "persona_email": "perry.radau@gmail.com",
-        "persona_firstname": "Perry",
-        "persona_id": 2183,
-        "persona_lastname": "Radau"
-      },
-      {
-        "author_fullname": "Connelly, Kim",
-        "author_place": 3,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Dick, Alexander",
-        "author_place": 4,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Wright, Graham",
-        "author_place": 5,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2009-07-26 19:19:25",
-    "handles": [
-      {
-        "handle": "10380/3109",
-        "handle_url": "http://hdl.handle.net/10380/3109"
-      }
-    ],
-    "id": 679,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 34,
-        "journal_name": "MICCAI 2009 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "yinglilu@gmail.com",
-      "author_firstname": "Yingli",
-      "author_id": 1059,
-      "author_institution": "University of Toronto",
-      "author_lastname": "Lu"
-    },
-    "tags": [
-      "segmentation",
-      "cardiac",
-      "left ventricle",
-      "MR"
-    ],
-    "title": "Automatic Image-Driven Segmentation of Left Ventricle in Cardiac Cine MRI"
-  }
+ "publication": {
+  "abstract": "This study investigates a fully automatic left ventricle segmentation method from cine short axis MR images. Advantages of this method include that it: 1) is image-driven and does not require manually drawn initial contours. 2) provides not only endocardial and epicardial contours, but also papillary muscles and trabeculations\u2019 contours; 3) introduces a roundness measure that is fast and automatically locates the left ventricle; 4) simplifies the epicardial contour segmentation by mapping the pixels from Cartesian to approximately polar coordinates; and 5) applies a fast Fourier transform to smooth the endocardial and epicardial contours. Quantitative evaluation was performed on the 15 subjects of the MICCAI 2009 Cardiac MR Left Ventricle Segmentation hallenge. The average perpendicular distance between manually drawn and automatically selected contours over all slices, all studies, and two phases (end-diastole and end-systole) was 2.07 0.61 mm for endocardial and 1.91 0.63 mm for epicardial contours. These results indicate a promising method for automatic segmentation of left ventricle for clinical use.",
+  "authors": [
+   {
+    "author_fullname": "Lu, YingLi",
+    "author_place": 1,
+    "persona_email": "yinglilu@gmail.com",
+    "persona_firstname": "Yingli",
+    "persona_id": 1059,
+    "persona_lastname": "Lu"
+   },
+   {
+    "author_fullname": "Radau, Perry",
+    "author_place": 2,
+    "persona_email": "perry.radau@gmail.com",
+    "persona_firstname": "Perry",
+    "persona_id": 2183,
+    "persona_lastname": "Radau"
+   },
+   {
+    "author_fullname": "Connelly, Kim",
+    "author_place": 3,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Dick, Alexander",
+    "author_place": 4,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Wright, Graham",
+    "author_place": 5,
+    "persona_id": null
+   }
+  ],
+  "categories": [
+   "Feature extraction",
+   "Segmentation"
+  ],
+  "comments": [],
+  "date_submitted": "2009-07-26 19:19:25",
+  "handles": [
+   {
+    "handle": "10380/3109",
+    "handle_url": "http://hdl.handle.net/10380/3109"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 34,
+    "journal_name": "MICCAI 2009 Workshops"
+   }
+  ],
+  "publication_id": 679,
+  "submitted_by_author": {
+   "author_email": "yinglilu@gmail.com",
+   "author_firstname": "Yingli",
+   "author_id": 1059,
+   "author_institution": "University of Toronto",
+   "author_lastname": "Lu"
+  },
+  "tags": [
+   "segmentation",
+   "cardiac",
+   "left ventricle",
+   "MR"
+  ],
+  "title": "Automatic Image-Driven Segmentation of Left Ventricle in Cardiac Cine MRI"
+ }
 }

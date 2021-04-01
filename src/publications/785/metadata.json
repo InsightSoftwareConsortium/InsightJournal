@@ -1,45 +1,51 @@
 {
-  "publication": {
-    "abstract": "This paper tests MPI in the Insight Journal testing environment.",
-    "authors": [
-      {
-        "author_fullname": "Hobbs, Kevin",
-        "author_place": 1,
-        "persona_email": "hobbsk@ohiou.edu",
-        "persona_firstname": "Kevin",
-        "persona_id": 465,
-        "persona_lastname": "Hobbs"
-      }
-    ],
-    "date_submitted": "2010-12-28 13:11:31",
-    "handles": [
-      {
-        "handle": "10380/3246",
-        "handle_url": "http://hdl.handle.net/10380/3246"
-      }
-    ],
-    "id": 785,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "hobbsk@ohiou.edu",
-      "author_firstname": "Kevin",
-      "author_id": 465,
-      "author_institution": "Ohio University",
-      "author_lastname": "Hobbs"
-    },
-    "tags": [
-      "MPI",
-      "Distributed Memory"
-    ],
-    "title": "MPI Read Write"
-  }
+ "publication": {
+  "abstract": "This paper tests MPI in the Insight Journal testing environment.",
+  "authors": [
+   {
+    "author_fullname": "Hobbs, Kevin",
+    "author_place": 1,
+    "persona_email": "hobbsk@ohiou.edu",
+    "persona_firstname": "Kevin",
+    "persona_id": 465,
+    "persona_lastname": "Hobbs"
+   }
+  ],
+  "categories": [
+   "Distributed computation",
+   "Images",
+   "Streaming"
+  ],
+  "comments": [],
+  "date_submitted": "2010-12-28 13:11:31",
+  "handles": [
+   {
+    "handle": "10380/3246",
+    "handle_url": "http://hdl.handle.net/10380/3246"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 785,
+  "submitted_by_author": {
+   "author_email": "hobbsk@ohiou.edu",
+   "author_firstname": "Kevin",
+   "author_id": 465,
+   "author_institution": "Ohio University",
+   "author_lastname": "Hobbs"
+  },
+  "tags": [
+   "MPI",
+   "Distributed Memory"
+  ],
+  "title": "MPI Read Write"
+ }
 }

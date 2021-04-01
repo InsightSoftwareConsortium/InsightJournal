@@ -1,47 +1,49 @@
 {
-  "publication": {
-    "abstract": "This document describes an algorithm implemented using the Insight Toolkit ITK www.itk.org. This paper is \r\naccompanied with the source code, input data, parameters and output data that the authors used for validating the \r\nalgorithm described in this paper. This adheres to the fundamental principle that scientific publications must facilitate \r\nreproducibility of the reported results.",
-    "authors": [
-      {
-        "author_fullname": "OConnor, Kayleigh",
-        "author_place": 1,
-        "persona_email": "oconnk@rpi.edu",
-        "persona_firstname": "Kayleigh",
-        "persona_id": 699,
-        "persona_lastname": "OConnor"
-      }
-    ],
-    "date_submitted": "2007-10-18T16:26:10Z",
-    "handles": [
-      {
-        "handle": "1926/1301",
-        "handle_url": "http://hdl.handle.net/1926/1301"
-      }
-    ],
-    "id": 187,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "oconnk@rpi.edu",
-      "author_firstname": "Kayleigh",
-      "author_id": 699,
-      "author_institution": "RPI",
-      "author_lastname": "OConnor"
-    },
-    "tags": [
-      "Image",
-      "Threshold",
-      "Connected",
-      "Segmentation"
-    ],
-    "title": "Image Segmentation"
-  }
+ "publication": {
+  "abstract": "This document describes an algorithm implemented using the Insight Toolkit ITK www.itk.org. This paper is \r\naccompanied with the source code, input data, parameters and output data that the authors used for validating the \r\nalgorithm described in this paper. This adheres to the fundamental principle that scientific publications must facilitate \r\nreproducibility of the reported results.",
+  "authors": [
+   {
+    "author_fullname": "OConnor, Kayleigh",
+    "author_place": 1,
+    "persona_email": "oconnk@rpi.edu",
+    "persona_firstname": "Kayleigh",
+    "persona_id": 699,
+    "persona_lastname": "OConnor"
+   }
+  ],
+  "categories": [],
+  "comments": [],
+  "date_submitted": "2007-10-18T16:26:10Z",
+  "handles": [
+   {
+    "handle": "1926/1301",
+    "handle_url": "http://hdl.handle.net/1926/1301"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 187,
+  "submitted_by_author": {
+   "author_email": "oconnk@rpi.edu",
+   "author_firstname": "Kayleigh",
+   "author_id": 699,
+   "author_institution": "RPI",
+   "author_lastname": "OConnor"
+  },
+  "tags": [
+   "Image",
+   "Threshold",
+   "Connected",
+   "Segmentation"
+  ],
+  "title": "Image Segmentation"
+ }
 }

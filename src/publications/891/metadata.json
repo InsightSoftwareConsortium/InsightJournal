@@ -1,45 +1,59 @@
 {
-  "publication": {
-    "abstract": "The computation of geodesic distances on a triangle mesh has many applications in geometry processing. The fast marching method provides an approximation of the true geodesic distance field. We provide VTK classes to compute geodesics on triangulated surface meshes. This includes classes for computing the geodesic distance field from a set of seeds and to compute the geodesic curve between source and destination point(s) by back-tracking along the gradient of the distance field. The fast marching toolkit (Peyre et. al.) is internally used. A variety of options are exposed to guide front propagation including the ability to specify propagation weights, constrain to a region, specify exclusion regions, and distance based termination criteria. Interpolators that plug into a contour widget, are provided to enable interactive tracing of paths on meshes.",
-    "authors": [
-      {
-        "author_fullname": "Krishnan, Karthik",
-        "author_place": 1,
-        "persona_email": "karthik.krshnan@gmail.com",
-        "persona_firstname": "Karthik",
-        "persona_id": 132,
-        "persona_lastname": "Krishnan"
-      }
-    ],
-    "date_submitted": "2013-06-26 22:33:53",
-    "handles": [
-      {
-        "handle": "10380/3415",
-        "handle_url": "http://hdl.handle.net/10380/3415"
-      }
-    ],
-    "id": 891,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 35,
-        "journal_name": "The VTK Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "karthik.krshnan@gmail.com",
-      "author_firstname": "Karthik",
-      "author_id": 132,
-      "author_institution": "Kitware Inc",
-      "author_lastname": "Krishnan"
-    },
-    "tags": [
-      "Fast marching",
-      "Geodesics"
-    ],
-    "title": "Geodesic Computations on Surfaces"
-  }
+ "publication": {
+  "abstract": "The computation of geodesic distances on a triangle mesh has many applications in geometry processing. The fast marching method provides an approximation of the true geodesic distance field. We provide VTK classes to compute geodesics on triangulated surface meshes. This includes classes for computing the geodesic distance field from a set of seeds and to compute the geodesic curve between source and destination point(s) by back-tracking along the gradient of the distance field. The fast marching toolkit (Peyre et. al.) is internally used. A variety of options are exposed to guide front propagation including the ability to specify propagation weights, constrain to a region, specify exclusion regions, and distance based termination criteria. Interpolators that plug into a contour widget, are provided to enable interactive tracing of paths on meshes.",
+  "authors": [
+   {
+    "author_fullname": "Krishnan, Karthik",
+    "author_place": 1,
+    "persona_email": "karthik.krshnan@gmail.com",
+    "persona_firstname": "Karthik",
+    "persona_id": 132,
+    "persona_lastname": "Krishnan"
+   }
+  ],
+  "categories": [
+   "Mesh",
+   "Path"
+  ],
+  "comments": [
+   {
+    "content": "Just a note regarding compilation on c++ (GCC) 4.4.5. Failed to compile until I changed:\r\n./FastMarching/gw_maths/GW_MathsConfig.h:#ifdef __UNIX__ to #ifdef __unix__\r\n\r\nAlso the following has a similar #ifdef __UNIX__ but WIN32 is explicitly defined even though I\\'m running on a linux system.\r\n\r\n\r\n./FastMarching/gw_core/GW_Config.h:#ifdef __UNIX__ to #ifdef __unix__\r\n\r\n",
+    "date": "2013-06-27T13:45:38",
+    "persona_email": "bill.lorensen@gmail.com",
+    "persona_firstname": "Bill",
+    "persona_id": 2746,
+    "persona_lastname": "Lorensen"
+   }
+  ],
+  "date_submitted": "2013-06-26 22:33:53",
+  "handles": [
+   {
+    "handle": "10380/3415",
+    "handle_url": "http://hdl.handle.net/10380/3415"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 35,
+    "journal_name": "The VTK Journal"
+   }
+  ],
+  "publication_id": 891,
+  "submitted_by_author": {
+   "author_email": "karthik.krshnan@gmail.com",
+   "author_firstname": "Karthik",
+   "author_id": 132,
+   "author_institution": "Kitware Inc",
+   "author_lastname": "Krishnan"
+  },
+  "tags": [
+   "Fast marching",
+   "Geodesics"
+  ],
+  "title": "Geodesic Computations on Surfaces"
+ }
 }

@@ -1,46 +1,48 @@
 {
-  "publication": {
-    "abstract": "This document describes the process used in implementing image segmentation through a region growing algorithm with the use of the Insight Toolkit (ITK) imaging program. The code used to implement the region growing algorithm is documented in the ITK Software Guide and makes use of the ITK library. This paper is accompanied with all source code, input data, parameters and output data that were originally used in developing the image segmentation application, except where prior laws or agreements prohibit redistribution of such material. The only data subject to not being redistributable was the input file used for testing which was a brain dataset from Kitware\u2019s MIDAS collection named Normal090-T2.mha. The rest of this scientific publication is written in a manner such that it facilitates reproducibility of the reported results.",
-    "authors": [
-      {
-        "author_fullname": "Lajara, Julio",
-        "author_place": 1,
-        "persona_email": "lajarj@rpi.edu",
-        "persona_firstname": "Julio",
-        "persona_id": 714,
-        "persona_lastname": "Lajara"
-      }
-    ],
-    "date_submitted": "2007-10-19T03:45:48Z",
-    "handles": [
-      {
-        "handle": "1926/1308",
-        "handle_url": "http://hdl.handle.net/1926/1308"
-      }
-    ],
-    "id": 196,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "lajarj@rpi.edu",
-      "author_firstname": "Julio",
-      "author_id": 714,
-      "author_institution": "Rensselaer Polytechnic Institute",
-      "author_lastname": "Lajara"
-    },
-    "tags": [
-      "region growing",
-      "ventricle",
-      "image segmentation"
-    ],
-    "title": "Image Segmentation: Ventricle Isolation Using Region Growing"
-  }
+ "publication": {
+  "abstract": "This document describes the process used in implementing image segmentation through a region growing algorithm with the use of the Insight Toolkit (ITK) imaging program. The code used to implement the region growing algorithm is documented in the ITK Software Guide and makes use of the ITK library. This paper is accompanied with all source code, input data, parameters and output data that were originally used in developing the image segmentation application, except where prior laws or agreements prohibit redistribution of such material. The only data subject to not being redistributable was the input file used for testing which was a brain dataset from Kitware\u2019s MIDAS collection named Normal090-T2.mha. The rest of this scientific publication is written in a manner such that it facilitates reproducibility of the reported results.",
+  "authors": [
+   {
+    "author_fullname": "Lajara, Julio",
+    "author_place": 1,
+    "persona_email": "lajarj@rpi.edu",
+    "persona_firstname": "Julio",
+    "persona_id": 714,
+    "persona_lastname": "Lajara"
+   }
+  ],
+  "categories": [],
+  "comments": [],
+  "date_submitted": "2007-10-19T03:45:48Z",
+  "handles": [
+   {
+    "handle": "1926/1308",
+    "handle_url": "http://hdl.handle.net/1926/1308"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 196,
+  "submitted_by_author": {
+   "author_email": "lajarj@rpi.edu",
+   "author_firstname": "Julio",
+   "author_id": 714,
+   "author_institution": "Rensselaer Polytechnic Institute",
+   "author_lastname": "Lajara"
+  },
+  "tags": [
+   "region growing",
+   "ventricle",
+   "image segmentation"
+  ],
+  "title": "Image Segmentation: Ventricle Isolation Using Region Growing"
+ }
 }

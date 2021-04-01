@@ -1,58 +1,60 @@
 {
-  "publication": {
-    "abstract": "The assignment of bone material properties to finite element model is a fundamental step in finite element analysis and has great influence on analysis results. Most work done in this area has adopted isotropic assignment strategy as its simplicity. However, bone material is widely recognized as being anisotropic rather than isotropic. Therefore, this work is aimed to simulate the inhomogeneity and anisotropy of femur by assigning each element of the mesh model the material properties with a numerical integration method and properly defining the principal material orientation, and then compare the biomechanical analysis results of isotropic model with that of anisotropic model under six different loading conditions. Based on the analysis results of the equivalent Von Mises stress and the nodal displacement, four different regions of interest are chosen to achieve this comparison. The results show that significant differences between the two material property assignments exist in the regions where anisotropic material property is sensitive to orientation definition. Thus, orientation definition is important to finite element simulation of bone material properties.",
-    "authors": [
-      {
-        "author_fullname": "Yang, Haisheng",
-        "author_place": 1,
-        "persona_email": "hs.yang@siat.ac.cn",
-        "persona_firstname": "Haisheng",
-        "persona_id": 800,
-        "persona_lastname": "Yang"
-      },
-      {
-        "author_fullname": "Guo, Tongtong",
-        "author_place": 2,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Ma, Xin",
-        "author_place": 3,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2008-05-30T08:58:52Z",
-    "handles": [
-      {
-        "handle": "10380/1376",
-        "handle_url": "http://hdl.handle.net/10380/1376"
-      }
-    ],
-    "id": 561,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 33,
-        "journal_name": "MICCAI 2008 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": null,
-      "author_firstname": null,
-      "author_id": null,
-      "author_institution": "siat",
-      "author_lastname": null
-    },
-    "tags": [
-      "Material properties",
-      "Orientation definition",
-      "Finite element analysis",
-      "Anisotropy",
-      "Inhomogeneity"
-    ],
-    "title": "Orientation definition of anisotropy is important to finite element simulation of bone material properties"
-  }
+ "publication": {
+  "abstract": "The assignment of bone material properties to finite element model is a fundamental step in finite element analysis and has great influence on analysis results. Most work done in this area has adopted isotropic assignment strategy as its simplicity. However, bone material is widely recognized as being anisotropic rather than isotropic. Therefore, this work is aimed to simulate the inhomogeneity and anisotropy of femur by assigning each element of the mesh model the material properties with a numerical integration method and properly defining the principal material orientation, and then compare the biomechanical analysis results of isotropic model with that of anisotropic model under six different loading conditions. Based on the analysis results of the equivalent Von Mises stress and the nodal displacement, four different regions of interest are chosen to achieve this comparison. The results show that significant differences between the two material property assignments exist in the regions where anisotropic material property is sensitive to orientation definition. Thus, orientation definition is important to finite element simulation of bone material properties.",
+  "authors": [
+   {
+    "author_fullname": "Yang, Haisheng",
+    "author_place": 1,
+    "persona_email": "hs.yang@siat.ac.cn",
+    "persona_firstname": "Haisheng",
+    "persona_id": 800,
+    "persona_lastname": "Yang"
+   },
+   {
+    "author_fullname": "Guo, Tongtong",
+    "author_place": 2,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Ma, Xin",
+    "author_place": 3,
+    "persona_id": null
+   }
+  ],
+  "categories": [],
+  "comments": [],
+  "date_submitted": "2008-05-30T08:58:52Z",
+  "handles": [
+   {
+    "handle": "10380/1376",
+    "handle_url": "http://hdl.handle.net/10380/1376"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 33,
+    "journal_name": "MICCAI 2008 Workshops"
+   }
+  ],
+  "publication_id": 561,
+  "submitted_by_author": {
+   "author_email": null,
+   "author_firstname": null,
+   "author_id": null,
+   "author_institution": "siat",
+   "author_lastname": null
+  },
+  "tags": [
+   "Material properties",
+   "Orientation definition",
+   "Finite element analysis",
+   "Anisotropy",
+   "Inhomogeneity"
+  ],
+  "title": "Orientation definition of anisotropy is important to finite element simulation of bone material properties"
+ }
 }

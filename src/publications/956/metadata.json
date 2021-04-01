@@ -1,45 +1,50 @@
 {
-  "publication": {
-    "abstract": "The Fast Marching algorithm is an efficient numerical method for computing the distance and shortest path between points of a domain. For that purpose, it solves a front propagation problem, which can be of interest in itself. The method has numerous applications, ranging from motion planning to image segmentation. The unit of length, for computing the path length, may vary on the domain.\nMotivated by applications, we generalize the algorithm to the case where the unit of length also depends on the path direction. Segmentation methods can take advantage of this flexibility to achieve greater sensitivity and specificity, for a comparable computation time.\n",
-    "authors": [
-      {
-        "author_fullname": "Mirebeau, Jean-Marie",
-        "author_place": 2,
-        "persona_email": "jm.mirebeau@gmail.com",
-        "persona_firstname": "Jean-marie",
-        "persona_id": 9351,
-        "persona_lastname": "Mirebeau"
-      }
-    ],
-    "date_submitted": "2015-06-04 09:52:17",
-    "handles": [
-      {
-        "handle": "10380/3518",
-        "handle_url": "http://hdl.handle.net/10380/3518"
-      }
-    ],
-    "id": 956,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "jm.mirebeau@gmail.com",
-      "author_firstname": "Jean-marie",
-      "author_id": 9351,
-      "author_institution": "Laboratory Ceremade, University Paris-Dauphine, CNRS, France",
-      "author_lastname": "Mirebeau"
-    },
-    "tags": [
-      "Anisotropic",
-      "Fast Marching"
-    ],
-    "title": "Anisotropic Fast Marching in ITK"
-  }
+ "publication": {
+  "abstract": "The Fast Marching algorithm is an efficient numerical method for computing the distance and shortest path between points of a domain. For that purpose, it solves a front propagation problem, which can be of interest in itself. The method has numerous applications, ranging from motion planning to image segmentation. The unit of length, for computing the path length, may vary on the domain.\nMotivated by applications, we generalize the algorithm to the case where the unit of length also depends on the path direction. Segmentation methods can take advantage of this flexibility to achieve greater sensitivity and specificity, for a comparable computation time.\n",
+  "authors": [
+   {
+    "author_fullname": "Mirebeau, Jean-Marie",
+    "author_place": 2,
+    "persona_email": "jm.mirebeau@gmail.com",
+    "persona_firstname": "Jean-marie",
+    "persona_id": 9351,
+    "persona_lastname": "Mirebeau"
+   }
+  ],
+  "categories": [
+   "Distance maps",
+   "Level sets"
+  ],
+  "comments": [],
+  "date_submitted": "2015-06-04 09:52:17",
+  "handles": [
+   {
+    "handle": "10380/3518",
+    "handle_url": "http://hdl.handle.net/10380/3518"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 956,
+  "submitted_by_author": {
+   "author_email": "jm.mirebeau@gmail.com",
+   "author_firstname": "Jean-marie",
+   "author_id": 9351,
+   "author_institution": "Laboratory Ceremade, University Paris-Dauphine, CNRS, France",
+   "author_lastname": "Mirebeau"
+  },
+  "tags": [
+   "Anisotropic",
+   "Fast Marching"
+  ],
+  "title": "Anisotropic Fast Marching in ITK"
+ }
 }

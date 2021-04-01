@@ -1,54 +1,62 @@
 {
-  "publication": {
-    "abstract": "Fractal analysis for medical image classification and analysis was introduced in cite{Chen1989}. According to the authors, when viewed as an intensity surface, Mandelbrot\\'s fractal theory provides an informative framework for characterizing such a surface. Using the fractional Brownian motion model, the authors provide an algorithm for converting a scalar image to a fractal dimension image for classification purposes or edge enhancement. This submission constitutes a report on the ITK implementation of this algorithm. ",
-    "authors": [
-      {
-        "author_fullname": "Tustison, Nicholas",
-        "author_place": 1,
-        "persona_email": "ntustison@gmail.com",
-        "persona_firstname": "Nicholas J.",
-        "persona_id": 8833,
-        "persona_lastname": "Tustison"
-      },
-      {
-        "author_fullname": "Gee, James",
-        "author_place": 2,
-        "persona_email": "gee@mail.med.upenn.edu",
-        "persona_firstname": "James",
-        "persona_id": 236,
-        "persona_lastname": "Gee"
-      }
-    ],
-    "date_submitted": "2009-04-28 20:34:40",
-    "handles": [
-      {
-        "handle": "1926/1525",
-        "handle_url": "http://hdl.handle.net/1926/1525"
-      }
-    ],
-    "id": 318,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "ntustison@gmail.com",
-      "author_firstname": "Nicholas J.",
-      "author_id": 8833,
-      "author_institution": "",
-      "author_lastname": "Tustison"
-    },
-    "tags": [
-      "edge enhancement",
-      "fractal",
-      "texture"
-    ],
-    "title": "Stochastic Fractal Dimension Image"
-  }
+ "publication": {
+  "abstract": "Fractal analysis for medical image classification and analysis was introduced in cite{Chen1989}. According to the authors, when viewed as an intensity surface, Mandelbrot\\'s fractal theory provides an informative framework for characterizing such a surface. Using the fractional Brownian motion model, the authors provide an algorithm for converting a scalar image to a fractal dimension image for classification purposes or edge enhancement. This submission constitutes a report on the ITK implementation of this algorithm. ",
+  "authors": [
+   {
+    "author_fullname": "Tustison, Nicholas",
+    "author_place": 1,
+    "persona_email": "ntustison@gmail.com",
+    "persona_firstname": "Nicholas J.",
+    "persona_id": 8833,
+    "persona_lastname": "Tustison"
+   },
+   {
+    "author_fullname": "Gee, James",
+    "author_place": 2,
+    "persona_email": "gee@mail.med.upenn.edu",
+    "persona_firstname": "James",
+    "persona_id": 236,
+    "persona_lastname": "Gee"
+   }
+  ],
+  "categories": [
+   "Classification",
+   "Deformable registration",
+   "Edge Detection",
+   "Image",
+   "Neighborhood filters"
+  ],
+  "comments": [],
+  "date_submitted": "2009-04-28 20:34:40",
+  "handles": [
+   {
+    "handle": "1926/1525",
+    "handle_url": "http://hdl.handle.net/1926/1525"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 318,
+  "submitted_by_author": {
+   "author_email": "ntustison@gmail.com",
+   "author_firstname": "Nicholas J.",
+   "author_id": 8833,
+   "author_institution": "",
+   "author_lastname": "Tustison"
+  },
+  "tags": [
+   "edge enhancement",
+   "fractal",
+   "texture"
+  ],
+  "title": "Stochastic Fractal Dimension Image"
+ }
 }

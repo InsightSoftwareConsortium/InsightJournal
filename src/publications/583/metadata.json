@@ -1,59 +1,76 @@
 {
-  "publication": {
-    "abstract": "This document describes a user-steered method to interactively track centerlines of tubular objects in 3D space. The method is developed as a plug-in of ImageJ using Java language. To evaluate the tracking ability and tracking accuracy, this method has been applied to coronary artery tracking in coronary CT angiography data. Its potential as a user-steered 3D centerline tracking tool has been discussed as well as its limitations and possible improvements.",
-    "authors": [
-      {
-        "author_fullname": "Zhang, Yong",
-        "author_place": 1,
-        "persona_email": "yzhang@tmhs.org",
-        "persona_firstname": "Yong",
-        "persona_id": 906,
-        "persona_lastname": "Zhang"
-      },
-      {
-        "author_fullname": "Chen, Kun",
-        "author_place": 2,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Wong, Stephen",
-        "author_place": 3,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2008-07-07T17:16:56Z",
-    "handles": [
-      {
-        "handle": "10380/1417",
-        "handle_url": "http://hdl.handle.net/10380/1417"
-      }
-    ],
-    "id": 583,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 43,
-        "journal_name": "ISBI 2015 Workshops"
-      },
-      {
-        "journal_id": 33,
-        "journal_name": "MICCAI 2008 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "yzhang@tmhs.org",
-      "author_firstname": "Yong",
-      "author_id": 906,
-      "author_institution": "The Methodist Hospital",
-      "author_lastname": "Zhang"
-    },
-    "tags": [
-      "Tubular Structure",
-      "centerline extraction"
-    ],
-    "title": "3D Interactive Centerline Extraction"
-  }
+ "publication": {
+  "abstract": "This document describes a user-steered method to interactively track centerlines of tubular objects in 3D space. The method is developed as a plug-in of ImageJ using Java language. To evaluate the tracking ability and tracking accuracy, this method has been applied to coronary artery tracking in coronary CT angiography data. Its potential as a user-steered 3D centerline tracking tool has been discussed as well as its limitations and possible improvements.",
+  "authors": [
+   {
+    "author_fullname": "Zhang, Yong",
+    "author_place": 1,
+    "persona_email": "yzhang@tmhs.org",
+    "persona_firstname": "Yong",
+    "persona_id": 906,
+    "persona_lastname": "Zhang"
+   },
+   {
+    "author_fullname": "Chen, Kun",
+    "author_place": 2,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Wong, Stephen",
+    "author_place": 3,
+    "persona_id": null
+   }
+  ],
+  "categories": [
+   "Derivatives and Integrals",
+   "Filtering",
+   "Higher order derivatives",
+   "Image",
+   "Images",
+   "IO",
+   "Mathematical Morphology",
+   "Mathematics",
+   "Optimization",
+   "Path",
+   "PointSet",
+   "Probability",
+   "Resampling",
+   "Spatial Objects"
+  ],
+  "comments": [],
+  "date_submitted": "2008-07-07T17:16:56Z",
+  "handles": [
+   {
+    "handle": "10380/1417",
+    "handle_url": "http://hdl.handle.net/10380/1417"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 43,
+    "journal_name": "ISBI 2015 Workshops"
+   },
+   {
+    "journal_id": 33,
+    "journal_name": "MICCAI 2008 Workshops"
+   }
+  ],
+  "publication_id": 583,
+  "submitted_by_author": {
+   "author_email": "yzhang@tmhs.org",
+   "author_firstname": "Yong",
+   "author_id": 906,
+   "author_institution": "The Methodist Hospital",
+   "author_lastname": "Zhang"
+  },
+  "tags": [
+   "Tubular Structure",
+   "centerline extraction"
+  ],
+  "title": "3D Interactive Centerline Extraction"
+ }
 }

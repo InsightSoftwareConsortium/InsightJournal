@@ -1,92 +1,117 @@
 {
-  "publication": {
-    "abstract": "Automatic segmentation of liver tumorous regions often fails due to high noise and large variance of tumors. In this work, a semi-automatic algorithm is proposed to segment liver tumors from computed tomography (CT) images. To cope with the variance of tumors, their intensity probability density functions (PDF) are modeled as a bag of Gaussians unlike the previous works where the tumor is modeled as a single Gaussian, and employ a three-dimensional seeded region growing (SRG) method. The bag of Gaussians are initialized at manually selected seeds and updated during growing process iteratively. There are two criteria to be ful&#64257;lled for growing: one is the Bayesian decision rule, and the other is a model matching measure. Once the growing is terminated, morphological operations are performed to re&#64257;ne the result. This method, showing promising performance, has been evaluated using ten CT scans of livers with twenty tumors provided by the organizer of the 3D Liver Tumor Segmentation Challenge 2008.",
-    "authors": [
-      {
-        "author_fullname": "Qi, Yingyi",
-        "author_place": 1,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Xiong, Wei",
-        "author_place": 2,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Leow, Wee Keng",
-        "author_place": 3,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Tian, Qi",
-        "author_place": 4,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Zhou, Jiayin",
-        "author_place": 5,
-        "persona_email": "jiayin.zhou@gmail.com",
-        "persona_firstname": "Jiayin",
-        "persona_id": 902,
-        "persona_lastname": "Zhou"
-      },
-      {
-        "author_fullname": "Liu, Jiang",
-        "author_place": 6,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Han, Thazin",
-        "author_place": 7,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Venkatesh, Sudhakar",
-        "author_place": 8,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Wang, Shih-chang",
-        "author_place": 9,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2008-07-08T03:13:48Z",
-    "handles": [
-      {
-        "handle": "10380/1431",
-        "handle_url": "http://hdl.handle.net/10380/1431"
-      }
-    ],
-    "id": 591,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 45,
-        "journal_name": "MICCAI 2016 Workshops"
-      },
-      {
-        "journal_id": 33,
-        "journal_name": "MICCAI 2008 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "jiayin.zhou@gmail.com",
-      "author_firstname": "Jiayin",
-      "author_id": 902,
-      "author_institution": "National University of Singapore",
-      "author_lastname": "Zhou"
-    },
-    "tags": [
-      "Liver tumor",
-      "Region growing",
-      "Computed tomography",
-      "Bayesian model",
-      "Image segmentation"
-    ],
-    "title": "Semi-automatic Segmentation of Liver Tumors from CT Scans Using Bayesian Rule-based 3D Region Growing"
-  }
+ "publication": {
+  "abstract": "Automatic segmentation of liver tumorous regions often fails due to high noise and large variance of tumors. In this work, a semi-automatic algorithm is proposed to segment liver tumors from computed tomography (CT) images. To cope with the variance of tumors, their intensity probability density functions (PDF) are modeled as a bag of Gaussians unlike the previous works where the tumor is modeled as a single Gaussian, and employ a three-dimensional seeded region growing (SRG) method. The bag of Gaussians are initialized at manually selected seeds and updated during growing process iteratively. There are two criteria to be ful&#64257;lled for growing: one is the Bayesian decision rule, and the other is a model matching measure. Once the growing is terminated, morphological operations are performed to re&#64257;ne the result. This method, showing promising performance, has been evaluated using ten CT scans of livers with twenty tumors provided by the organizer of the 3D Liver Tumor Segmentation Challenge 2008.",
+  "authors": [
+   {
+    "author_fullname": "Qi, Yingyi",
+    "author_place": 1,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Xiong, Wei",
+    "author_place": 2,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Leow, Wee Keng",
+    "author_place": 3,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Tian, Qi",
+    "author_place": 4,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Zhou, Jiayin",
+    "author_place": 5,
+    "persona_email": "jiayin.zhou@gmail.com",
+    "persona_firstname": "Jiayin",
+    "persona_id": 902,
+    "persona_lastname": "Zhou"
+   },
+   {
+    "author_fullname": "Liu, Jiang",
+    "author_place": 6,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Han, Thazin",
+    "author_place": 7,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Venkatesh, Sudhakar",
+    "author_place": 8,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Wang, Shih-chang",
+    "author_place": 9,
+    "persona_id": null
+   }
+  ],
+  "categories": [
+   "Anisotropic blurring filters",
+   "Bayesian Decision Theory",
+   "Blurring filters",
+   "Classification",
+   "CMake",
+   "Code speed optimization",
+   "Data",
+   "Data Representation",
+   "Density Estimation",
+   "Density Functions",
+   "Filtering",
+   "Image",
+   "IO",
+   "Mathematical Morphology",
+   "Mathematics",
+   "Neighborhood filters",
+   "Parameter Techniques",
+   "Probability",
+   "Programming",
+   "Region growing",
+   "Segmentation",
+   "Thresholding"
+  ],
+  "comments": [],
+  "date_submitted": "2008-07-08T03:13:48Z",
+  "handles": [
+   {
+    "handle": "10380/1431",
+    "handle_url": "http://hdl.handle.net/10380/1431"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 45,
+    "journal_name": "MICCAI 2016 Workshops"
+   },
+   {
+    "journal_id": 33,
+    "journal_name": "MICCAI 2008 Workshops"
+   }
+  ],
+  "publication_id": 591,
+  "submitted_by_author": {
+   "author_email": "jiayin.zhou@gmail.com",
+   "author_firstname": "Jiayin",
+   "author_id": 902,
+   "author_institution": "National University of Singapore",
+   "author_lastname": "Zhou"
+  },
+  "tags": [
+   "Liver tumor",
+   "Region growing",
+   "Computed tomography",
+   "Bayesian model",
+   "Image segmentation"
+  ],
+  "title": "Semi-automatic Segmentation of Liver Tumors from CT Scans Using Bayesian Rule-based 3D Region Growing"
+ }
 }

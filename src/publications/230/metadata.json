@@ -1,62 +1,68 @@
 {
-  "publication": {
-    "abstract": "Semi-automatic image segmentation algorithms depend on interaction with the user to accurately define a region of interest within an image. Once such method is a dynamic programming approach called {em Intelligent Scissors} developed by Mortenson and Barret cite{Mortensen1992,Mortensen1995,Barrett1996,Barrett1997}. Standard interaction involves the user-placement of a seed point on or near the boundary of the object to be extracted. Using a gradient-based cost function, a {em live-wire} image path from the seed point to a subsequently placed boundary point is determined. As this free point is manipulated with the mouse cursor, the live-wire boundary, which extends from the seed point to the varying free point, locks onto nearby edges within the image. Although some applications do not require such user-interaction (e.g. cite{Hu2001}) warranting inclusion within the toolkit, incorporating live-wire capabilities into ITK-SNAP cite{Yushkevich2006} has been discussed and, therefore, we would like to, as a preliminary step, vet the code within the ITK community.",
-    "authors": [
-      {
-        "author_fullname": "Tustison, Nicholas",
-        "author_place": 1,
-        "persona_email": "ntustison@gmail.com",
-        "persona_firstname": "Nicholas J.",
-        "persona_id": 8833,
-        "persona_lastname": "Tustison"
-      },
-      {
-        "author_fullname": "Yushkevich, Paul",
-        "author_place": 2,
-        "persona_email": "pauly@despammed.com",
-        "persona_firstname": "Paul",
-        "persona_id": 51,
-        "persona_lastname": "Yushkevich"
-      },
-      {
-        "author_fullname": "Gee, James",
-        "author_place": 3,
-        "persona_email": "gee@mail.med.upenn.edu",
-        "persona_firstname": "James",
-        "persona_id": 236,
-        "persona_lastname": "Gee"
-      }
-    ],
-    "date_submitted": "2009-01-20 14:07:51",
-    "handles": [
-      {
-        "handle": "1926/1372",
-        "handle_url": "http://hdl.handle.net/1926/1372"
-      }
-    ],
-    "id": 230,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "ntustison@gmail.com",
-      "author_firstname": "Nicholas J.",
-      "author_id": 8833,
-      "author_institution": "",
-      "author_lastname": "Tustison"
-    },
-    "tags": [
-      "live-wire",
-      "segmentation",
-      "intelligent scissors"
-    ],
-    "title": "Live-Wire-ing the Insight Toolkit with Intelligent Scissors"
-  }
+ "publication": {
+  "abstract": "Semi-automatic image segmentation algorithms depend on interaction with the user to accurately define a region of interest within an image. Once such method is a dynamic programming approach called {em Intelligent Scissors} developed by Mortenson and Barret cite{Mortensen1992,Mortensen1995,Barrett1996,Barrett1997}. Standard interaction involves the user-placement of a seed point on or near the boundary of the object to be extracted. Using a gradient-based cost function, a {em live-wire} image path from the seed point to a subsequently placed boundary point is determined. As this free point is manipulated with the mouse cursor, the live-wire boundary, which extends from the seed point to the varying free point, locks onto nearby edges within the image. Although some applications do not require such user-interaction (e.g. cite{Hu2001}) warranting inclusion within the toolkit, incorporating live-wire capabilities into ITK-SNAP cite{Yushkevich2006} has been discussed and, therefore, we would like to, as a preliminary step, vet the code within the ITK community.",
+  "authors": [
+   {
+    "author_fullname": "Tustison, Nicholas",
+    "author_place": 1,
+    "persona_email": "ntustison@gmail.com",
+    "persona_firstname": "Nicholas J.",
+    "persona_id": 8833,
+    "persona_lastname": "Tustison"
+   },
+   {
+    "author_fullname": "Yushkevich, Paul",
+    "author_place": 2,
+    "persona_email": "pauly@despammed.com",
+    "persona_firstname": "Paul",
+    "persona_id": 51,
+    "persona_lastname": "Yushkevich"
+   },
+   {
+    "author_fullname": "Gee, James",
+    "author_place": 3,
+    "persona_email": "gee@mail.med.upenn.edu",
+    "persona_firstname": "James",
+    "persona_id": 236,
+    "persona_lastname": "Gee"
+   }
+  ],
+  "categories": [
+   "Feature extraction",
+   "Image",
+   "Segmentation"
+  ],
+  "comments": [],
+  "date_submitted": "2009-01-20 14:07:51",
+  "handles": [
+   {
+    "handle": "1926/1372",
+    "handle_url": "http://hdl.handle.net/1926/1372"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 230,
+  "submitted_by_author": {
+   "author_email": "ntustison@gmail.com",
+   "author_firstname": "Nicholas J.",
+   "author_id": 8833,
+   "author_institution": "",
+   "author_lastname": "Tustison"
+  },
+  "tags": [
+   "live-wire",
+   "segmentation",
+   "intelligent scissors"
+  ],
+  "title": "Live-Wire-ing the Insight Toolkit with Intelligent Scissors"
+ }
 }

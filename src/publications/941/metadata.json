@@ -1,76 +1,81 @@
 {
-  "publication": {
-    "abstract": "In this work, we try to develop a fast converging method for\nsegmentation assisted deformable registration. The segmentation step\nconsists of a piece-wise constant Mumford-Shah energy model while reg-\nistration is driven by the sum of squared distances of both initial images\nand segmented mask with a diffusion regularization. In order to solve\nthis energy minimization problem, a second order Gauss-Newton opti-\nmization method is used. For the numerical experiments we used CT\ndata sets from the EMPIRE10 challenge. In this preliminary study, we\nshow high accuracy of our algorithm.\n",
-    "authors": [
-      {
-        "author_fullname": "Jurisic, Miro",
-        "author_place": 1,
-        "persona_email": "mjurisic86@gmail.com",
-        "persona_firstname": "Miro",
-        "persona_id": 9247,
-        "persona_lastname": "Jurisic"
-      },
-      {
-        "author_fullname": "Fechter, Tobias",
-        "author_place": 2,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Hauler, Frida",
-        "author_place": 3,
-        "persona_email": "frida.hauler@meduniwien.ac.at",
-        "persona_firstname": "Frida",
-        "persona_id": 9239,
-        "persona_lastname": "Hauler"
-      },
-      {
-        "author_fullname": "Furtado, Hugo",
-        "author_place": 4,
-        "persona_email": "hugo.furtado@meduniwien.ac.at",
-        "persona_firstname": "Hugo",
-        "persona_id": 9253,
-        "persona_lastname": "Furtado"
-      },
-      {
-        "author_fullname": "Nestle, Ursula",
-        "author_place": 5,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Birkfellner, Wolfgang",
-        "author_place": 6,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2014-10-20 11:15:24",
-    "handles": [
-      {
-        "handle": "10380/3492",
-        "handle_url": "http://hdl.handle.net/10380/3492"
-      }
-    ],
-    "id": 941,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 42,
-        "journal_name": "MICCAI 2014 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "mjurisic86@gmail.com",
-      "author_firstname": "Miro",
-      "author_id": 9247,
-      "author_institution": "Medical University of Vienna",
-      "author_lastname": "Jurisic"
-    },
-    "tags": [
-      "energy based segmentation",
-      " deformable registration"
-    ],
-    "title": "Gauss-Newton Method for Segmentation assisted Deformable Registration"
-  }
+ "publication": {
+  "abstract": "In this work, we try to develop a fast converging method for\nsegmentation assisted deformable registration. The segmentation step\nconsists of a piece-wise constant Mumford-Shah energy model while reg-\nistration is driven by the sum of squared distances of both initial images\nand segmented mask with a diffusion regularization. In order to solve\nthis energy minimization problem, a second order Gauss-Newton opti-\nmization method is used. For the numerical experiments we used CT\ndata sets from the EMPIRE10 challenge. In this preliminary study, we\nshow high accuracy of our algorithm.\n",
+  "authors": [
+   {
+    "author_fullname": "Jurisic, Miro",
+    "author_place": 1,
+    "persona_email": "mjurisic86@gmail.com",
+    "persona_firstname": "Miro",
+    "persona_id": 9247,
+    "persona_lastname": "Jurisic"
+   },
+   {
+    "author_fullname": "Fechter, Tobias",
+    "author_place": 2,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Hauler, Frida",
+    "author_place": 3,
+    "persona_email": "frida.hauler@meduniwien.ac.at",
+    "persona_firstname": "Frida",
+    "persona_id": 9239,
+    "persona_lastname": "Hauler"
+   },
+   {
+    "author_fullname": "Furtado, Hugo",
+    "author_place": 4,
+    "persona_email": "hugo.furtado@meduniwien.ac.at",
+    "persona_firstname": "Hugo",
+    "persona_id": 9253,
+    "persona_lastname": "Furtado"
+   },
+   {
+    "author_fullname": "Nestle, Ursula",
+    "author_place": 5,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Birkfellner, Wolfgang",
+    "author_place": 6,
+    "persona_id": null
+   }
+  ],
+  "categories": [
+   "Deformable registration",
+   "Segmentation"
+  ],
+  "comments": [],
+  "date_submitted": "2014-10-20 11:15:24",
+  "handles": [
+   {
+    "handle": "10380/3492",
+    "handle_url": "http://hdl.handle.net/10380/3492"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 42,
+    "journal_name": "MICCAI 2014 Workshops"
+   }
+  ],
+  "publication_id": 941,
+  "submitted_by_author": {
+   "author_email": "mjurisic86@gmail.com",
+   "author_firstname": "Miro",
+   "author_id": 9247,
+   "author_institution": "Medical University of Vienna",
+   "author_lastname": "Jurisic"
+  },
+  "tags": [
+   "energy based segmentation",
+   " deformable registration"
+  ],
+  "title": "Gauss-Newton Method for Segmentation assisted Deformable Registration"
+ }
 }

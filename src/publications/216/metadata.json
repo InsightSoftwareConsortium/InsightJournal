@@ -1,66 +1,71 @@
 {
-  "publication": {
-    "abstract": "This document describes a simple helper class intended for making easy to initialize the grid parameters of a BSplineDeformableTranform. This paper is accompanied with the source code, input data, parameters and output data that we used for validating the algorithm described in this paper. This adheres to the fundamental principle that scientific publications must facilitate reproducibility of the reported results.",
-    "authors": [
-      {
-        "author_fullname": "Ibanez, Luis",
-        "author_place": 1,
-        "persona_email": "luis.ibanez@kitware.com",
-        "persona_firstname": "Luis",
-        "persona_id": 4,
-        "persona_lastname": "Ibanez"
-      },
-      {
-        "author_fullname": "Turek, Matt",
-        "author_place": 2,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Aylward, Stephen",
-        "author_place": 3,
-        "persona_email": "stephen.aylward@kitware.com",
-        "persona_firstname": "Stephen",
-        "persona_id": 1,
-        "persona_lastname": "Aylward"
-      },
-      {
-        "author_fullname": "Audette, Michel",
-        "author_place": 4,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2009-05-14 12:35:24",
-    "handles": [
-      {
-        "handle": "1926/1338",
-        "handle_url": "http://hdl.handle.net/1926/1338"
-      }
-    ],
-    "id": 216,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "luis.ibanez@kitware.com",
-      "author_firstname": "Luis",
-      "author_id": 4,
-      "author_institution": "KITWARE Inc.",
-      "author_lastname": "Ibanez"
-    },
-    "tags": [
-      "Transforms",
-      "Initialization",
-      "Resampling",
-      "Deformable Registration",
-      "BSpline"
-    ],
-    "title": "Helper class for initializing the grid parameters of a BSpline deformable transform by using an image as reference"
-  }
+ "publication": {
+  "abstract": "This document describes a simple helper class intended for making easy to initialize the grid parameters of a BSplineDeformableTranform. This paper is accompanied with the source code, input data, parameters and output data that we used for validating the algorithm described in this paper. This adheres to the fundamental principle that scientific publications must facilitate reproducibility of the reported results.",
+  "authors": [
+   {
+    "author_fullname": "Ibanez, Luis",
+    "author_place": 1,
+    "persona_email": "luis.ibanez@kitware.com",
+    "persona_firstname": "Luis",
+    "persona_id": 4,
+    "persona_lastname": "Ibanez"
+   },
+   {
+    "author_fullname": "Turek, Matt",
+    "author_place": 2,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Aylward, Stephen",
+    "author_place": 3,
+    "persona_email": "stephen.aylward@kitware.com",
+    "persona_firstname": "Stephen",
+    "persona_id": 1,
+    "persona_lastname": "Aylward"
+   },
+   {
+    "author_fullname": "Audette, Michel",
+    "author_place": 4,
+    "persona_id": null
+   }
+  ],
+  "categories": [
+   "Deformable registration",
+   "Resampling"
+  ],
+  "comments": [],
+  "date_submitted": "2009-05-14 12:35:24",
+  "handles": [
+   {
+    "handle": "1926/1338",
+    "handle_url": "http://hdl.handle.net/1926/1338"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 216,
+  "submitted_by_author": {
+   "author_email": "luis.ibanez@kitware.com",
+   "author_firstname": "Luis",
+   "author_id": 4,
+   "author_institution": "KITWARE Inc.",
+   "author_lastname": "Ibanez"
+  },
+  "tags": [
+   "Transforms",
+   "Initialization",
+   "Resampling",
+   "Deformable Registration",
+   "BSpline"
+  ],
+  "title": "Helper class for initializing the grid parameters of a BSpline deformable transform by using an image as reference"
+ }
 }

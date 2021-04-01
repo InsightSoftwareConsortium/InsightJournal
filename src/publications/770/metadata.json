@@ -1,53 +1,58 @@
 {
-  "publication": {
-    "abstract": "In this document we present an ITK image filter that outputs a new image with identical voxel contents but with modified physical space representation. The physical space representation of an image is modified to reflect the physical space transform on the input image. The advantage of this filter is that it is free from interpolation error.\nThis paper is accompanied with the source code, input data, parameters and output data that the au- thors used for validating the algorithm described in this paper. This adheres to the fundamental principle that scientific publications must facilitate reproducibility of the reported results.",
-    "authors": [
-      {
-        "author_fullname": "Lu, Wei",
-        "author_place": 1,
-        "persona_email": "wei-lu@uiowa.edu",
-        "persona_firstname": "Wei",
-        "persona_id": 2769,
-        "persona_lastname": "Lu"
-      },
-      {
-        "author_fullname": "Johnson, Hans",
-        "author_place": 2,
-        "persona_email": "hans-johnson@uiowa.edu",
-        "persona_firstname": "Hans",
-        "persona_id": 21,
-        "persona_lastname": "Johnson"
-      }
-    ],
-    "date_submitted": "2010-10-28 22:37:07",
-    "handles": [
-      {
-        "handle": "10380/3224",
-        "handle_url": "http://hdl.handle.net/10380/3224"
-      }
-    ],
-    "id": 770,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "wei-lu@uiowa.edu",
-      "author_firstname": "Wei",
-      "author_id": 2769,
-      "author_institution": "The University of Iowa",
-      "author_lastname": "Lu"
-    },
-    "tags": [
-      "ITK ImageToImage filter",
-      "resample in-place"
-    ],
-    "title": "Introduction to ITK Resample In-Place Image Filter"
-  }
+ "publication": {
+  "abstract": "In this document we present an ITK image filter that outputs a new image with identical voxel contents but with modified physical space representation. The physical space representation of an image is modified to reflect the physical space transform on the input image. The advantage of this filter is that it is free from interpolation error.\nThis paper is accompanied with the source code, input data, parameters and output data that the au- thors used for validating the algorithm described in this paper. This adheres to the fundamental principle that scientific publications must facilitate reproducibility of the reported results.",
+  "authors": [
+   {
+    "author_fullname": "Lu, Wei",
+    "author_place": 1,
+    "persona_email": "wei-lu@uiowa.edu",
+    "persona_firstname": "Wei",
+    "persona_id": 2769,
+    "persona_lastname": "Lu"
+   },
+   {
+    "author_fullname": "Johnson, Hans",
+    "author_place": 2,
+    "persona_email": "hans-johnson@uiowa.edu",
+    "persona_firstname": "Hans",
+    "persona_id": 21,
+    "persona_lastname": "Johnson"
+   }
+  ],
+  "categories": [
+   "Filtering",
+   "Resampling"
+  ],
+  "comments": [],
+  "date_submitted": "2010-10-28 22:37:07",
+  "handles": [
+   {
+    "handle": "10380/3224",
+    "handle_url": "http://hdl.handle.net/10380/3224"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 770,
+  "submitted_by_author": {
+   "author_email": "wei-lu@uiowa.edu",
+   "author_firstname": "Wei",
+   "author_id": 2769,
+   "author_institution": "The University of Iowa",
+   "author_lastname": "Lu"
+  },
+  "tags": [
+   "ITK ImageToImage filter",
+   "resample in-place"
+  ],
+  "title": "Introduction to ITK Resample In-Place Image Filter"
+ }
 }

@@ -1,66 +1,71 @@
 {
-  "publication": {
-    "abstract": "This study investigates a method for brain tissue segmentation from 3D T1 weighted (T1w) MR images via convex relaxation with a hierarchical ordering constraint. It employs a multi-atlas-based initialization from 5 training images and is tested on 12 T1w MR images provided by the MICCAI 2013 MRBrainS segmentation challenge. The registered atlas images, fully segmented into eight different brain structures, are used to formulate shape and intensity priors for a Maximum A-Posteriori (MAP) energy that is subsequently minimized with a dual hierarchical max-flow computation. The algorithm makes use of a hierarchical label ordering constraint to regularize label families individually and its inherently globally optimal results guarantee robust segmentations. Major parts of the image processing pipeline are implemented using General-Purpose Programming on Graphics Processing Units (GPGPU) for a substantial increase in computation speed.",
-    "authors": [
-      {
-        "author_fullname": "Rajchl, Martin",
-        "author_place": 1,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Baxter, John S. H.",
-        "author_place": 2,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Yuan, Jing",
-        "author_place": 3,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Peters, Terry M.",
-        "author_place": 4,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Khan, Ali R.",
-        "author_place": 5,
-        "persona_email": "alik@robarts.ca",
-        "persona_firstname": "Ali",
-        "persona_id": 8760,
-        "persona_lastname": "Khan"
-      }
-    ],
-    "date_submitted": "2013-10-21 13:07:15",
-    "handles": [
-      {
-        "handle": "10380/3438",
-        "handle_url": "http://hdl.handle.net/10380/3438"
-      }
-    ],
-    "id": 902,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 41,
-        "journal_name": "MICCAI 2013 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "alik@robarts.ca",
-      "author_firstname": "Ali",
-      "author_id": 8760,
-      "author_institution": "Western University",
-      "author_lastname": "Khan"
-    },
-    "tags": [
-      "Brain MRI",
-      "Segmentation",
-      "Convex Max-Flow"
-    ],
-    "title": "Multi-Atlas-based Segmentation with Hierarchical Max-Flow"
-  }
+ "publication": {
+  "abstract": "This study investigates a method for brain tissue segmentation from 3D T1 weighted (T1w) MR images via convex relaxation with a hierarchical ordering constraint. It employs a multi-atlas-based initialization from 5 training images and is tested on 12 T1w MR images provided by the MICCAI 2013 MRBrainS segmentation challenge. The registered atlas images, fully segmented into eight different brain structures, are used to formulate shape and intensity priors for a Maximum A-Posteriori (MAP) energy that is subsequently minimized with a dual hierarchical max-flow computation. The algorithm makes use of a hierarchical label ordering constraint to regularize label families individually and its inherently globally optimal results guarantee robust segmentations. Major parts of the image processing pipeline are implemented using General-Purpose Programming on Graphics Processing Units (GPGPU) for a substantial increase in computation speed.",
+  "authors": [
+   {
+    "author_fullname": "Rajchl, Martin",
+    "author_place": 1,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Baxter, John S. H.",
+    "author_place": 2,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Yuan, Jing",
+    "author_place": 3,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Peters, Terry M.",
+    "author_place": 4,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Khan, Ali R.",
+    "author_place": 5,
+    "persona_email": "alik@robarts.ca",
+    "persona_firstname": "Ali",
+    "persona_id": 8760,
+    "persona_lastname": "Khan"
+   }
+  ],
+  "categories": [
+   "Atlas-based segmentation",
+   "Segmentation"
+  ],
+  "comments": [],
+  "date_submitted": "2013-10-21 13:07:15",
+  "handles": [
+   {
+    "handle": "10380/3438",
+    "handle_url": "http://hdl.handle.net/10380/3438"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 41,
+    "journal_name": "MICCAI 2013 Workshops"
+   }
+  ],
+  "publication_id": 902,
+  "submitted_by_author": {
+   "author_email": "alik@robarts.ca",
+   "author_firstname": "Ali",
+   "author_id": 8760,
+   "author_institution": "Western University",
+   "author_lastname": "Khan"
+  },
+  "tags": [
+   "Brain MRI",
+   "Segmentation",
+   "Convex Max-Flow"
+  ],
+  "title": "Multi-Atlas-based Segmentation with Hierarchical Max-Flow"
+ }
 }

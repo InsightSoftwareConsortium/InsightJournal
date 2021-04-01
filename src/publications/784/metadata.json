@@ -1,47 +1,54 @@
 {
-  "publication": {
-    "abstract": "This document describes an ITK-based implementation of intensity-based 2D/3D rigid image registration for patient setup assessment in external beam radiotherapy. The registration framework was designed to simultaneously register two projection images to a 3D image volume. The projection geometry was set up to simulate the x-ray imaging system that attached to a medical linear accelerator for cancer treatment. The normalized correlation was used as the similarity measure and the Powell's optimizer was used as the optimization method. Siddon-Jacobs fast ray-tracing algorithm was implemented to compute projection images from a 3D image volume.",
-    "authors": [
-      {
-        "author_fullname": "Wu, Jian",
-        "author_place": 1,
-        "persona_email": "eewujian@hotmail.com",
-        "persona_firstname": "Jian",
-        "persona_id": 391,
-        "persona_lastname": "Wu"
-      }
-    ],
-    "date_submitted": "2010-12-24 01:08:05",
-    "handles": [
-      {
-        "handle": "10380/3245",
-        "handle_url": "http://hdl.handle.net/10380/3245"
-      }
-    ],
-    "id": 784,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "eewujian@hotmail.com",
-      "author_firstname": "Jian",
-      "author_id": 391,
-      "author_institution": "Virginia Commonwealth University",
-      "author_lastname": "Wu"
-    },
-    "tags": [
-      "ray-tracing algorithm",
-      "patient setup",
-      "2D/3D registration",
-      "radiotherapy"
-    ],
-    "title": "ITK-Based Implementation of Two-Projection 2D/3D Registration Method with an Application in Patient Setup for External Beam Radiotherapy"
-  }
+ "publication": {
+  "abstract": "This document describes an ITK-based implementation of intensity-based 2D/3D rigid image registration for patient setup assessment in external beam radiotherapy. The registration framework was designed to simultaneously register two projection images to a 3D image volume. The projection geometry was set up to simulate the x-ray imaging system that attached to a medical linear accelerator for cancer treatment. The normalized correlation was used as the similarity measure and the Powell's optimizer was used as the optimization method. Siddon-Jacobs fast ray-tracing algorithm was implemented to compute projection images from a 3D image volume.",
+  "authors": [
+   {
+    "author_fullname": "Wu, Jian",
+    "author_place": 1,
+    "persona_email": "eewujian@hotmail.com",
+    "persona_firstname": "Jian",
+    "persona_id": 391,
+    "persona_lastname": "Wu"
+   }
+  ],
+  "categories": [
+   "Registration",
+   "Registration metrics",
+   "Resampling",
+   "Transforms"
+  ],
+  "comments": [],
+  "date_submitted": "2010-12-24 01:08:05",
+  "handles": [
+   {
+    "handle": "10380/3245",
+    "handle_url": "http://hdl.handle.net/10380/3245"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 784,
+  "submitted_by_author": {
+   "author_email": "eewujian@hotmail.com",
+   "author_firstname": "Jian",
+   "author_id": 391,
+   "author_institution": "Virginia Commonwealth University",
+   "author_lastname": "Wu"
+  },
+  "tags": [
+   "ray-tracing algorithm",
+   "patient setup",
+   "2D/3D registration",
+   "radiotherapy"
+  ],
+  "title": "ITK-Based Implementation of Two-Projection 2D/3D Registration Method with an Application in Patient Setup for External Beam Radiotherapy"
+ }
 }

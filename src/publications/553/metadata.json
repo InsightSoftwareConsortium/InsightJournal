@@ -1,53 +1,77 @@
 {
-  "publication": {
-    "abstract": "Soft tissue characterization with finite element (FE) modeling is important to develop a realistic model for medical simulation, since it is possible to display complex tool-tissue interactions during medical interventions. However, it is difficult to integrate large deformation and geometrical boundary conditions to the FE computations. In this paper, the force responses and surface deformation fields of the tissues against the indentation were measured by a force transducer and three-dimensional optical system. Large indentation experiments on porcine liver were performed to estimate the radius of influence from the indented point up to 8 mm indentation and to measure the force response for 7mm indentation. The radius of influence region was plotted against various indentation depths and indenter shapes, and it could be used to determine the model size for the characterization. The tissue behavior of large deformation considering influence of the boundary conditions was characterized with FE modeling via hyperelastic and linear viscoelastic model.",
-    "authors": [
-      {
-        "author_fullname": "Ahn, Bummo",
-        "author_place": 1,
-        "persona_email": "bummo@kaist.ac.kr",
-        "persona_firstname": "Bummo",
-        "persona_id": 824,
-        "persona_lastname": "Ahn"
-      },
-      {
-        "author_fullname": "Kim, Jung",
-        "author_place": 2,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2008-05-20T02:05:02Z",
-    "handles": [
-      {
-        "handle": "10380/1359",
-        "handle_url": "http://hdl.handle.net/10380/1359"
-      }
-    ],
-    "id": 553,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 33,
-        "journal_name": "MICCAI 2008 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "bummo@kaist.ac.kr",
-      "author_firstname": "Bummo",
-      "author_id": 824,
-      "author_institution": "Korea Advanced Institute of Science and Technology (KAIST)",
-      "author_lastname": "Ahn"
-    },
-    "tags": [
-      "Inverse FE parameter optimization algorithm",
-      "Surface deformation",
-      "Soft tissue characterization",
-      "Finite element method",
-      "Indentation experiment"
-    ],
-    "title": "Integration of Geometrical Boundary Conditions on Soft Tissue Characterization under large deformation"
-  }
+ "publication": {
+  "abstract": "Soft tissue characterization with finite element (FE) modeling is important to develop a realistic model for medical simulation, since it is possible to display complex tool-tissue interactions during medical interventions. However, it is difficult to integrate large deformation and geometrical boundary conditions to the FE computations. In this paper, the force responses and surface deformation fields of the tissues against the indentation were measured by a force transducer and three-dimensional optical system. Large indentation experiments on porcine liver were performed to estimate the radius of influence from the indented point up to 8 mm indentation and to measure the force response for 7mm indentation. The radius of influence region was plotted against various indentation depths and indenter shapes, and it could be used to determine the model size for the characterization. The tissue behavior of large deformation considering influence of the boundary conditions was characterized with FE modeling via hyperelastic and linear viscoelastic model.",
+  "authors": [
+   {
+    "author_fullname": "Ahn, Bummo",
+    "author_place": 1,
+    "persona_email": "bummo@kaist.ac.kr",
+    "persona_firstname": "Bummo",
+    "persona_id": 824,
+    "persona_lastname": "Ahn"
+   },
+   {
+    "author_fullname": "Kim, Jung",
+    "author_place": 2,
+    "persona_id": null
+   }
+  ],
+  "categories": [
+   "Classification",
+   "Code speed optimization",
+   "Data",
+   "Data Representation",
+   "Error Estimation",
+   "Extreme Programming",
+   "Filtering",
+   "Generic Programming",
+   "Hypothesis Testing",
+   "Image",
+   "Images",
+   "Information Theory",
+   "Iterators",
+   "Language binding",
+   "Linear Algebra",
+   "Mathematics",
+   "Optimization",
+   "Parameter Techniques",
+   "Path",
+   "Probability",
+   "Resampling"
+  ],
+  "comments": [],
+  "date_submitted": "2008-05-20T02:05:02Z",
+  "handles": [
+   {
+    "handle": "10380/1359",
+    "handle_url": "http://hdl.handle.net/10380/1359"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 33,
+    "journal_name": "MICCAI 2008 Workshops"
+   }
+  ],
+  "publication_id": 553,
+  "submitted_by_author": {
+   "author_email": "bummo@kaist.ac.kr",
+   "author_firstname": "Bummo",
+   "author_id": 824,
+   "author_institution": "Korea Advanced Institute of Science and Technology (KAIST)",
+   "author_lastname": "Ahn"
+  },
+  "tags": [
+   "Inverse FE parameter optimization algorithm",
+   "Surface deformation",
+   "Soft tissue characterization",
+   "Finite element method",
+   "Indentation experiment"
+  ],
+  "title": "Integration of Geometrical Boundary Conditions on Soft Tissue Characterization under large deformation"
+ }
 }

@@ -1,67 +1,87 @@
 {
-  "publication": {
-    "abstract": "We propose an open source and cross platform medical image viewer, named VV, designed for qualita tive evaluation of images registration, in particular for deformable registration of 4D CT images. VV can display multiple spatio-temporal image sequences (2D+t or 3D+t) and contains several tools for comparing images using transparency or fusion, for visualizing deformation \ufb01elds, for de\ufb01ning landmarks. It is used in the \ufb01eld of radiation therapy to help researchers and clinicians evaluate deformation in 4D CT images of the thorax. It is implemented in C++, with ITK, VTK and QT open source version, runs on Linux and windows and is freely available to the community.",
-    "authors": [
-      {
-        "author_fullname": "Seroul, Pierre",
-        "author_place": 1,
-        "persona_email": "pierre.seroul@gmail.com",
-        "persona_firstname": "Pierre",
-        "persona_id": 523,
-        "persona_lastname": "Seroul"
-      },
-      {
-        "author_fullname": "Sarrut, David",
-        "author_place": 2,
-        "persona_email": "dsarrut@gmail.com",
-        "persona_firstname": "David",
-        "persona_id": 42,
-        "persona_lastname": "Sarrut"
-      },
-      {
-        "author_fullname": "Sarrut, David",
-        "author_place": 2,
-        "persona_email": "david.sarrut@gmail.com",
-        "persona_firstname": "David",
-        "persona_id": 2426,
-        "persona_lastname": "Sarrut"
-      }
-    ],
-    "date_submitted": "2008-07-01T00:00:00Z",
-    "handles": [
-      {
-        "handle": "10380/1458",
-        "handle_url": "http://hdl.handle.net/10380/1458"
-      }
-    ],
-    "id": 617,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 40,
-        "journal_name": "MICCAI 2012 Workshops"
-      },
-      {
-        "journal_id": 33,
-        "journal_name": "MICCAI 2008 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "pierre.seroul@gmail.com",
-      "author_firstname": "Pierre",
-      "author_id": 523,
-      "author_institution": "Creatis LRMN",
-      "author_lastname": "Seroul"
-    },
-    "tags": [
-      "spatio-temporal images",
-      "radiotherapy",
-      "registration",
-      "viewer"
-    ],
-    "title": "VV: a viewer for the evaluation of 4D image registration"
-  }
+ "publication": {
+  "abstract": "We propose an open source and cross platform medical image viewer, named VV, designed for qualita tive evaluation of images registration, in particular for deformable registration of 4D CT images. VV can display multiple spatio-temporal image sequences (2D+t or 3D+t) and contains several tools for comparing images using transparency or fusion, for visualizing deformation \ufb01elds, for de\ufb01ning landmarks. It is used in the \ufb01eld of radiation therapy to help researchers and clinicians evaluate deformation in 4D CT images of the thorax. It is implemented in C++, with ITK, VTK and QT open source version, runs on Linux and windows and is freely available to the community.",
+  "authors": [
+   {
+    "author_fullname": "Seroul, Pierre",
+    "author_place": 1,
+    "persona_email": "pierre.seroul@gmail.com",
+    "persona_firstname": "Pierre",
+    "persona_id": 523,
+    "persona_lastname": "Seroul"
+   },
+   {
+    "author_fullname": "Sarrut, David",
+    "author_place": 2,
+    "persona_email": "dsarrut@gmail.com",
+    "persona_firstname": "David",
+    "persona_id": 42,
+    "persona_lastname": "Sarrut"
+   },
+   {
+    "author_fullname": "Sarrut, David",
+    "author_place": 2,
+    "persona_email": "david.sarrut@gmail.com",
+    "persona_firstname": "David",
+    "persona_id": 2426,
+    "persona_lastname": "Sarrut"
+   }
+  ],
+  "categories": [
+   "CMake",
+   "Code memory optimization",
+   "Code speed optimization",
+   "Data",
+   "Data Representation",
+   "Deformable registration",
+   "Filtering",
+   "Generic Programming",
+   "Geometric transforms",
+   "Image",
+   "Images",
+   "IO",
+   "Iterators",
+   "PointSet",
+   "Programming",
+   "Registration",
+   "Transforms"
+  ],
+  "comments": [],
+  "date_submitted": "2008-07-01T00:00:00Z",
+  "handles": [
+   {
+    "handle": "10380/1458",
+    "handle_url": "http://hdl.handle.net/10380/1458"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 40,
+    "journal_name": "MICCAI 2012 Workshops"
+   },
+   {
+    "journal_id": 33,
+    "journal_name": "MICCAI 2008 Workshops"
+   }
+  ],
+  "publication_id": 617,
+  "submitted_by_author": {
+   "author_email": "pierre.seroul@gmail.com",
+   "author_firstname": "Pierre",
+   "author_id": 523,
+   "author_institution": "Creatis LRMN",
+   "author_lastname": "Seroul"
+  },
+  "tags": [
+   "spatio-temporal images",
+   "radiotherapy",
+   "registration",
+   "viewer"
+  ],
+  "title": "VV: a viewer for the evaluation of 4D image registration"
+ }
 }

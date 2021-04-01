@@ -1,58 +1,64 @@
 {
-  "publication": {
-    "abstract": "In this paper, we propose a Mix-resolution Bone-related Statistical Deformable Model (mBr-SDM) to improve the predicting accuracy of orthognathic surgery, particularly for the main deformation region. Mix-resolution Br-SDM consists of two separate Br-SDM of different resolutions: a high-resolution Br-SDM which is trained with more samples to capture the detail deforming variations in the main deforming regions of interest, together with a low-resolution Br-SDM which is trained with a smaller number of samples to capture the major variations of the remaining facial points. The experiments have shown that the mix-resolution Br-SDM is able to significantly reduce the predicting error compared with the corresponding Finite Element Model, while giving a low computational cost which is characteristic of the SDM approach.",
-    "authors": [
-      {
-        "author_fullname": "Qizhen, He",
-        "author_place": 1,
-        "persona_email": "qizhenhe2@student.cityu.edu.hk",
-        "persona_firstname": "He",
-        "persona_id": 816,
-        "persona_lastname": "Qizhen"
-      },
-      {
-        "author_fullname": "Horace, Ip",
-        "author_place": 2,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Xia, James",
-        "author_place": 3,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2008-05-19T07:14:03Z",
-    "handles": [
-      {
-        "handle": "10380/1358",
-        "handle_url": "http://hdl.handle.net/10380/1358"
-      }
-    ],
-    "id": 551,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 33,
-        "journal_name": "MICCAI 2008 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "qizhenhe2@student.cityu.edu.hk",
-      "author_firstname": "He",
-      "author_id": 816,
-      "author_institution": "City University of Hong Kong",
-      "author_lastname": "Qizhen"
-    },
-    "tags": [
-      "Surgical Planning",
-      "Finite Element Model",
-      "Statistical Model",
-      "Mix-resolution Br-SDM",
-      "Orthognathic Surgery"
-    ],
-    "title": "A Mix-resolution Bone-related Statistical Deformable Model (mBr-SDM) for Soft Tissue Prediction in Orthognathic Surgery Planning"
-  }
+ "publication": {
+  "abstract": "In this paper, we propose a Mix-resolution Bone-related Statistical Deformable Model (mBr-SDM) to improve the predicting accuracy of orthognathic surgery, particularly for the main deformation region. Mix-resolution Br-SDM consists of two separate Br-SDM of different resolutions: a high-resolution Br-SDM which is trained with more samples to capture the detail deforming variations in the main deforming regions of interest, together with a low-resolution Br-SDM which is trained with a smaller number of samples to capture the major variations of the remaining facial points. The experiments have shown that the mix-resolution Br-SDM is able to significantly reduce the predicting error compared with the corresponding Finite Element Model, while giving a low computational cost which is characteristic of the SDM approach.",
+  "authors": [
+   {
+    "author_fullname": "Qizhen, He",
+    "author_place": 1,
+    "persona_email": "qizhenhe2@student.cityu.edu.hk",
+    "persona_firstname": "He",
+    "persona_id": 816,
+    "persona_lastname": "Qizhen"
+   },
+   {
+    "author_fullname": "Horace, Ip",
+    "author_place": 2,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Xia, James",
+    "author_place": 3,
+    "persona_id": null
+   }
+  ],
+  "categories": [
+   "Mathematics",
+   "Point distribution models",
+   "Statistical shape models"
+  ],
+  "comments": [],
+  "date_submitted": "2008-05-19T07:14:03Z",
+  "handles": [
+   {
+    "handle": "10380/1358",
+    "handle_url": "http://hdl.handle.net/10380/1358"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 33,
+    "journal_name": "MICCAI 2008 Workshops"
+   }
+  ],
+  "publication_id": 551,
+  "submitted_by_author": {
+   "author_email": "qizhenhe2@student.cityu.edu.hk",
+   "author_firstname": "He",
+   "author_id": 816,
+   "author_institution": "City University of Hong Kong",
+   "author_lastname": "Qizhen"
+  },
+  "tags": [
+   "Surgical Planning",
+   "Finite Element Model",
+   "Statistical Model",
+   "Mix-resolution Br-SDM",
+   "Orthognathic Surgery"
+  ],
+  "title": "A Mix-resolution Bone-related Statistical Deformable Model (mBr-SDM) for Soft Tissue Prediction in Orthognathic Surgery Planning"
+ }
 }

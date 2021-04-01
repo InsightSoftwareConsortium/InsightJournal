@@ -1,50 +1,52 @@
 {
-  "publication": {
-    "abstract": "This article presents an approach for decreasing the computational time for converting a sparse SpatialObject to an Image. The method is applicable for SpatialObjects which occupy less volume than the total output Image (which occurs often, especially when using TubeSpatialObjects to represent vessels). A new filter MaskedSpatialObjectToImageFilter is introduced which dramatically decreases the execution time by creating a mask of relevant pixels. The mask is computed by calling the conventional SpatialObjectToImageFilter at a lower resolution, which is significantly faster for large images. The mask is then up-sampled to control which areas are further processed.",
-    "authors": [
-      {
-        "author_fullname": "Mueller, Dan",
-        "author_place": 1,
-        "persona_email": "dan.muel@gmail.com",
-        "persona_firstname": "Dan",
-        "persona_id": 286,
-        "persona_lastname": "Mueller"
-      }
-    ],
-    "date_submitted": "2006-07-22T21:44:38Z",
-    "handles": [
-      {
-        "handle": "1926/272",
-        "handle_url": "http://hdl.handle.net/1926/272"
-      }
-    ],
-    "id": 117,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "dan.muel@gmail.com",
-      "author_firstname": "Dan",
-      "author_id": 286,
-      "author_institution": "Philips Healthcare",
-      "author_lastname": "Mueller"
-    },
-    "tags": [
-      "speed",
-      "SpatialObject",
-      "Image",
-      "convert",
-      "fast",
-      "ITK",
-      "time"
-    ],
-    "title": "Using a Mask to Decrease Computation Time for SpatialObject to Image Conversions"
-  }
+ "publication": {
+  "abstract": "This article presents an approach for decreasing the computational time for converting a sparse SpatialObject to an Image. The method is applicable for SpatialObjects which occupy less volume than the total output Image (which occurs often, especially when using TubeSpatialObjects to represent vessels). A new filter MaskedSpatialObjectToImageFilter is introduced which dramatically decreases the execution time by creating a mask of relevant pixels. The mask is computed by calling the conventional SpatialObjectToImageFilter at a lower resolution, which is significantly faster for large images. The mask is then up-sampled to control which areas are further processed.",
+  "authors": [
+   {
+    "author_fullname": "Mueller, Dan",
+    "author_place": 1,
+    "persona_email": "dan.muel@gmail.com",
+    "persona_firstname": "Dan",
+    "persona_id": 286,
+    "persona_lastname": "Mueller"
+   }
+  ],
+  "categories": [],
+  "comments": [],
+  "date_submitted": "2006-07-22T21:44:38Z",
+  "handles": [
+   {
+    "handle": "1926/272",
+    "handle_url": "http://hdl.handle.net/1926/272"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 117,
+  "submitted_by_author": {
+   "author_email": "dan.muel@gmail.com",
+   "author_firstname": "Dan",
+   "author_id": 286,
+   "author_institution": "Philips Healthcare",
+   "author_lastname": "Mueller"
+  },
+  "tags": [
+   "speed",
+   "SpatialObject",
+   "Image",
+   "convert",
+   "fast",
+   "ITK",
+   "time"
+  ],
+  "title": "Using a Mask to Decrease Computation Time for SpatialObject to Image Conversions"
+ }
 }

@@ -1,52 +1,57 @@
 {
-  "publication": {
-    "abstract": "Segmentation of the left ventricle endocardium in 3D echocardiography is a critical step for the diagnosis of heart disease. Although recent work has shown effective endocardial edge detection, these techniques still preserve spurious anatomical edge responses that undermine overall ventricle segmentation. In this paper we propose a robust semiautomatic framework based on 2D structured learning that facilitates full 3D model-based endocardial segmentation. This method is evaluated on 30 publicly available datasets from different brands of ultrasound machines. Results show that the proposed method accurately finds the endocardium and effectively converges an explicit and continuous surface model to it.",
-    "authors": [
-      {
-        "author_fullname": "Domingos, Joao S.",
-        "author_place": 1,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Stebbing, Richard V.",
-        "author_place": 2,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Noble, Alison J.",
-        "author_place": 3,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2014-10-24 19:05:22",
-    "handles": [
-      {
-        "handle": "10380/3483",
-        "handle_url": "http://hdl.handle.net/10380/3483"
-      }
-    ],
-    "id": 930,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 42,
-        "journal_name": "MICCAI 2014 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "olivier.bernard@creatis.insa-lyon.fr",
-      "author_firstname": "Olivier",
-      "author_id": 5768,
-      "author_institution": "CREATIS",
-      "author_lastname": "Bernard"
-    },
-    "tags": [
-      "3D ultrasound imaging",
-      "Segmentation"
-    ],
-    "title": "Endocardial Segmentation using Structured Random Forests in 3D Echocardiography"
-  }
+ "publication": {
+  "abstract": "Segmentation of the left ventricle endocardium in 3D echocardiography is a critical step for the diagnosis of heart disease. Although recent work has shown effective endocardial edge detection, these techniques still preserve spurious anatomical edge responses that undermine overall ventricle segmentation. In this paper we propose a robust semiautomatic framework based on 2D structured learning that facilitates full 3D model-based endocardial segmentation. This method is evaluated on 30 publicly available datasets from different brands of ultrasound machines. Results show that the proposed method accurately finds the endocardium and effectively converges an explicit and continuous surface model to it.",
+  "authors": [
+   {
+    "author_fullname": "Domingos, Joao S.",
+    "author_place": 1,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Stebbing, Richard V.",
+    "author_place": 2,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Noble, Alison J.",
+    "author_place": 3,
+    "persona_id": null
+   }
+  ],
+  "categories": [
+   "Segmentation",
+   "Unsupervised learning and clustering"
+  ],
+  "comments": [],
+  "date_submitted": "2014-10-24 19:05:22",
+  "handles": [
+   {
+    "handle": "10380/3483",
+    "handle_url": "http://hdl.handle.net/10380/3483"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 42,
+    "journal_name": "MICCAI 2014 Workshops"
+   }
+  ],
+  "publication_id": 930,
+  "submitted_by_author": {
+   "author_email": "olivier.bernard@creatis.insa-lyon.fr",
+   "author_firstname": "Olivier",
+   "author_id": 5768,
+   "author_institution": "CREATIS",
+   "author_lastname": "Bernard"
+  },
+  "tags": [
+   "3D ultrasound imaging",
+   "Segmentation"
+  ],
+  "title": "Endocardial Segmentation using Structured Random Forests in 3D Echocardiography"
+ }
 }

@@ -1,67 +1,73 @@
 {
-  "publication": {
-    "abstract": "The goal of the Cardiac MR Left Ventricle Segmentation Challenge at MICCAI 2009 is to compare state-of-the-art LV segmentation methods. This goal is facilitated through an evaluation system and a database of cardiac cine MR images, as well as expert contours, now freely available on the internet for research purposes. This challenge is important because the analysis and the segmentation of 3D+t sequences of MR cardiac images is fastidious, time consuming and error-prone for human operators, due to the large amount of data. Conversely, automated segmentation of cardiac images is well-known to be a challenging task.\nThis paper describes the method that our group submitted for the challenge, based on 4D discrete mathematical morphology. This method leads to discrete segmentations, i.e, binary masks (bitmaps) of the left ventricular myocardiums that are both spatially and temporally consistent.",
-    "authors": [
-      {
-        "author_fullname": "Marak, L\u00e1szl\u00f3",
-        "author_place": 1,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Cousty, Jean",
-        "author_place": 2,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Najman, Laurent",
-        "author_place": 3,
-        "persona_email": "l.najman@esiee.fr",
-        "persona_firstname": "Laurent ",
-        "persona_id": 605,
-        "persona_lastname": "Najman"
-      },
-      {
-        "author_fullname": "Talbot, Hugues",
-        "author_place": 4,
-        "persona_email": "h.talbot@esiee.fr",
-        "persona_firstname": "Hugues",
-        "persona_id": 2202,
-        "persona_lastname": "Talbot"
-      }
-    ],
-    "date_submitted": "2009-07-13 17:53:20",
-    "handles": [
-      {
-        "handle": "10380/3085",
-        "handle_url": "http://hdl.handle.net/10380/3085"
-      }
-    ],
-    "id": 677,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 34,
-        "journal_name": "MICCAI 2009 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "h.talbot@esiee.fr",
-      "author_firstname": "Hugues",
-      "author_id": 2202,
-      "author_institution": "Universit\u00e9 Paris Est, laboratoire d'informatique Gaspard-Monge",
-      "author_lastname": "Talbot"
-    },
-    "tags": [
-      "heart segmentation",
-      "validation",
-      "medical imaging",
-      "mathematical morphology",
-      "watershed",
-      "interactive procedure"
-    ],
-    "title": "4D Morphological segmentation and the MICCAI LV-segmentation grand challenge"
-  }
+ "publication": {
+  "abstract": "The goal of the Cardiac MR Left Ventricle Segmentation Challenge at MICCAI 2009 is to compare state-of-the-art LV segmentation methods. This goal is facilitated through an evaluation system and a database of cardiac cine MR images, as well as expert contours, now freely available on the internet for research purposes. This challenge is important because the analysis and the segmentation of 3D+t sequences of MR cardiac images is fastidious, time consuming and error-prone for human operators, due to the large amount of data. Conversely, automated segmentation of cardiac images is well-known to be a challenging task.\nThis paper describes the method that our group submitted for the challenge, based on 4D discrete mathematical morphology. This method leads to discrete segmentations, i.e, binary masks (bitmaps) of the left ventricular myocardiums that are both spatially and temporally consistent.",
+  "authors": [
+   {
+    "author_fullname": "Marak, L\u00e1szl\u00f3",
+    "author_place": 1,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Cousty, Jean",
+    "author_place": 2,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Najman, Laurent",
+    "author_place": 3,
+    "persona_email": "l.najman@esiee.fr",
+    "persona_firstname": "Laurent ",
+    "persona_id": 605,
+    "persona_lastname": "Najman"
+   },
+   {
+    "author_fullname": "Talbot, Hugues",
+    "author_place": 4,
+    "persona_email": "h.talbot@esiee.fr",
+    "persona_firstname": "Hugues",
+    "persona_id": 2202,
+    "persona_lastname": "Talbot"
+   }
+  ],
+  "categories": [
+   "Mathematical Morphology",
+   "Region growing",
+   "Watersheds"
+  ],
+  "comments": [],
+  "date_submitted": "2009-07-13 17:53:20",
+  "handles": [
+   {
+    "handle": "10380/3085",
+    "handle_url": "http://hdl.handle.net/10380/3085"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 34,
+    "journal_name": "MICCAI 2009 Workshops"
+   }
+  ],
+  "publication_id": 677,
+  "submitted_by_author": {
+   "author_email": "h.talbot@esiee.fr",
+   "author_firstname": "Hugues",
+   "author_id": 2202,
+   "author_institution": "Universit\u00e9 Paris Est, laboratoire d'informatique Gaspard-Monge",
+   "author_lastname": "Talbot"
+  },
+  "tags": [
+   "heart segmentation",
+   "validation",
+   "medical imaging",
+   "mathematical morphology",
+   "watershed",
+   "interactive procedure"
+  ],
+  "title": "4D Morphological segmentation and the MICCAI LV-segmentation grand challenge"
+ }
 }

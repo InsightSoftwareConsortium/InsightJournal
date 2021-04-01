@@ -1,71 +1,114 @@
 {
-  "publication": {
-    "abstract": "This paper introduces an integrated 3D medical image\r\nprocessing and analyzing software platform which is open interface\r\nand freely available. The platform consists of the Medical Imaging\r\nToolkit (MITK) and the 3-Dimensional Medical Image Processing and\r\nAnalyzing System (3DMed). MITK is an algorithm toolkit for research\r\nand software development, while 3DMed is a MITK based application\r\nsystem with a plug-in framework. The overall architecture and main\r\ncapabilities of the platform are described in detail. Presented\r\nevaluations demonstrate that the platform can benefit the\r\ndevelopment of computer assisted intervention systems.",
-    "authors": [
-      {
-        "author_fullname": "Tian, Jie",
-        "author_place": 1,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Dai, Yakang",
-        "author_place": 2,
-        "persona_email": "yakang.dai@ia.ac.cn",
-        "persona_firstname": "Yakang",
-        "persona_id": 854,
-        "persona_lastname": "Dai"
-      },
-      {
-        "author_fullname": "Deng, Kexin",
-        "author_place": 3,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Zheng, Jian",
-        "author_place": 4,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Dai, Xiaoqian",
-        "author_place": 5,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2008-07-17T16:28:07Z",
-    "handles": [
-      {
-        "handle": "10380/1456",
-        "handle_url": "http://hdl.handle.net/10380/1456"
-      }
-    ],
-    "id": 572,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 40,
-        "journal_name": "MICCAI 2012 Workshops"
-      },
-      {
-        "journal_id": 33,
-        "journal_name": "MICCAI 2008 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "yakang.dai@ia.ac.cn",
-      "author_firstname": "Yakang",
-      "author_id": 854,
-      "author_institution": "Institute of Automation, Chinese Academy of Sciences",
-      "author_lastname": "Dai"
-    },
-    "tags": [
-      "software platform",
-      "analyzing",
-      "processing",
-      "medical image"
-    ],
-    "title": "MITK & 3DMed : An Integrated Platform Applicable for the Development of Computer Assisted Intervention Systems"
-  }
+ "publication": {
+  "abstract": "This paper introduces an integrated 3D medical image\r\nprocessing and analyzing software platform which is open interface\r\nand freely available. The platform consists of the Medical Imaging\r\nToolkit (MITK) and the 3-Dimensional Medical Image Processing and\r\nAnalyzing System (3DMed). MITK is an algorithm toolkit for research\r\nand software development, while 3DMed is a MITK based application\r\nsystem with a plug-in framework. The overall architecture and main\r\ncapabilities of the platform are described in detail. Presented\r\nevaluations demonstrate that the platform can benefit the\r\ndevelopment of computer assisted intervention systems.",
+  "authors": [
+   {
+    "author_fullname": "Tian, Jie",
+    "author_place": 1,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Dai, Yakang",
+    "author_place": 2,
+    "persona_email": "yakang.dai@ia.ac.cn",
+    "persona_firstname": "Yakang",
+    "persona_id": 854,
+    "persona_lastname": "Dai"
+   },
+   {
+    "author_fullname": "Deng, Kexin",
+    "author_place": 3,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Zheng, Jian",
+    "author_place": 4,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Dai, Xiaoqian",
+    "author_place": 5,
+    "persona_id": null
+   }
+  ],
+  "categories": [
+   "Classification",
+   "Code memory optimization",
+   "Code speed optimization",
+   "Data",
+   "Data Representation",
+   "Deformable registration",
+   "Derivatives and Integrals",
+   "DICOM",
+   "Edge Detection",
+   "Error Estimation",
+   "Filtering",
+   "Generic Programming",
+   "Geometric transforms",
+   "Higher order derivatives",
+   "Image",
+   "Images",
+   "IO",
+   "Iterators",
+   "Level sets",
+   "Linear Algebra",
+   "Mathematics",
+   "Mesh",
+   "Mixture of densities",
+   "Multi-modality registration",
+   "Neighborhood filters",
+   "Objects",
+   "Optimization",
+   "Parameter Techniques",
+   "Programming",
+   "Region growing",
+   "Registration",
+   "Registration metrics",
+   "Registration optimizers",
+   "Resampling",
+   "Segmentation",
+   "Streaming",
+   "Surface extraction",
+   "Thresholding",
+   "Transforms",
+   "Watersheds"
+  ],
+  "comments": [],
+  "date_submitted": "2008-07-17T16:28:07Z",
+  "handles": [
+   {
+    "handle": "10380/1456",
+    "handle_url": "http://hdl.handle.net/10380/1456"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 40,
+    "journal_name": "MICCAI 2012 Workshops"
+   },
+   {
+    "journal_id": 33,
+    "journal_name": "MICCAI 2008 Workshops"
+   }
+  ],
+  "publication_id": 572,
+  "submitted_by_author": {
+   "author_email": "yakang.dai@ia.ac.cn",
+   "author_firstname": "Yakang",
+   "author_id": 854,
+   "author_institution": "Institute of Automation, Chinese Academy of Sciences",
+   "author_lastname": "Dai"
+  },
+  "tags": [
+   "software platform",
+   "analyzing",
+   "processing",
+   "medical image"
+  ],
+  "title": "MITK & 3DMed : An Integrated Platform Applicable for the Development of Computer Assisted Intervention Systems"
+ }
 }

@@ -1,46 +1,48 @@
 {
-  "publication": {
-    "abstract": "Computation of local image derivatives is an important operation in many image processing tasks that\r\ninvolve feature detection and extraction, such as edges, corners or more complicated features. However,\r\nderivative computation in discrete images is an ill-posed problem and derivative operators without\r\nany prior smoothing are known to enhance noise. Here we present a new convolution operator, the\r\nGaussianDerivativeOperator, that allows to calculate locally Gaussian derivatives of N order. Furthermore,\r\nwe present some useful classes and examples that make use of this new operator.",
-    "authors": [
-      {
-        "author_fullname": "Macia, Ivan",
-        "author_place": 1,
-        "persona_email": "imacia@vicomtech.org",
-        "persona_firstname": "Ivan",
-        "persona_id": 164,
-        "persona_lastname": "Macia"
-      }
-    ],
-    "date_submitted": "2007-10-01T00:00:00Z",
-    "handles": [
-      {
-        "handle": "1926/1290",
-        "handle_url": "http://hdl.handle.net/1926/1290"
-      }
-    ],
-    "id": 179,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "imacia@vicomtech.org",
-      "author_firstname": "Ivan",
-      "author_id": 164,
-      "author_institution": "Vicomtech Foundation",
-      "author_lastname": "Macia"
-    },
-    "tags": [
-      "Gaussian derivatives",
-      "scale-space",
-      "kernel"
-    ],
-    "title": "Generalized Computation of Gaussian Derivatives Using ITK"
-  }
+ "publication": {
+  "abstract": "Computation of local image derivatives is an important operation in many image processing tasks that\r\ninvolve feature detection and extraction, such as edges, corners or more complicated features. However,\r\nderivative computation in discrete images is an ill-posed problem and derivative operators without\r\nany prior smoothing are known to enhance noise. Here we present a new convolution operator, the\r\nGaussianDerivativeOperator, that allows to calculate locally Gaussian derivatives of N order. Furthermore,\r\nwe present some useful classes and examples that make use of this new operator.",
+  "authors": [
+   {
+    "author_fullname": "Macia, Ivan",
+    "author_place": 1,
+    "persona_email": "imacia@vicomtech.org",
+    "persona_firstname": "Ivan",
+    "persona_id": 164,
+    "persona_lastname": "Macia"
+   }
+  ],
+  "categories": [],
+  "comments": [],
+  "date_submitted": "2007-10-01T00:00:00Z",
+  "handles": [
+   {
+    "handle": "1926/1290",
+    "handle_url": "http://hdl.handle.net/1926/1290"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 179,
+  "submitted_by_author": {
+   "author_email": "imacia@vicomtech.org",
+   "author_firstname": "Ivan",
+   "author_id": 164,
+   "author_institution": "Vicomtech Foundation",
+   "author_lastname": "Macia"
+  },
+  "tags": [
+   "Gaussian derivatives",
+   "scale-space",
+   "kernel"
+  ],
+  "title": "Generalized Computation of Gaussian Derivatives Using ITK"
+ }
 }

@@ -1,80 +1,96 @@
 {
-  "publication": {
-    "abstract": "This paper documents on-going work to facilitate ITK-based processing and 3D Slicer scene management in ParaView. We believe this will broaden the use of ParaView for high performance computing and visualization in the medical imaging research community. The effort is focused on developing ParaView plug-ins for managing VTK structures from 3D Slicer MRML scenes and encapsulating ITK filters for deployment in ParaView. In this paper, we present KWScene, an open source cross-platform library that is being developed to support implementation of these types of plugins. We describe the overall design of the library and provide implementation details and conclude by presenting a concrete example that demonstrates the use of the KWScene library in computational anatomy research at Johns Hopkins Center for Imaging Science.",
-    "authors": [
-      {
-        "author_fullname": "Enquobahrie, Andinet",
-        "author_place": 1,
-        "persona_email": "andinet.enqu@kitware.com",
-        "persona_firstname": "Andinet",
-        "persona_id": 68,
-        "persona_lastname": "Enquobahrie"
-      },
-      {
-        "author_fullname": "Bowers, Michael",
-        "author_place": 2,
-        "persona_email": "michaelbowersjhu@gmail.com",
-        "persona_firstname": "Michael",
-        "persona_id": 2380,
-        "persona_lastname": "Bowers"
-      },
-      {
-        "author_fullname": "Ibanez, Luis",
-        "author_place": 3,
-        "persona_email": "luis.ibanez@kitware.com",
-        "persona_firstname": "Luis",
-        "persona_id": 4,
-        "persona_lastname": "Ibanez"
-      },
-      {
-        "author_fullname": "Finet, Julien",
-        "author_place": 4,
-        "persona_email": "julien.finet@kitware.com",
-        "persona_firstname": "Julien",
-        "persona_id": 6449,
-        "persona_lastname": "Finet"
-      },
-      {
-        "author_fullname": "Audette, Michel",
-        "author_place": 5,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Kolasny, Anthony",
-        "author_place": 6,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2012-02-28 13:23:47",
-    "handles": [
-      {
-        "handle": "10380/3344",
-        "handle_url": "http://hdl.handle.net/10380/3344"
-      }
-    ],
-    "id": 854,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 35,
-        "journal_name": "The VTK Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "andinet.enqu@kitware.com",
-      "author_firstname": "Andinet",
-      "author_id": 68,
-      "author_institution": "Kitware, Inc.",
-      "author_lastname": "Enquobahrie"
-    },
-    "tags": [
-      "Slicer",
-      "ParaView",
-      "ITK"
-    ],
-    "title": "Enabling ITK-based processing and 3D Slicer MRML scene management in ParaView"
-  }
+ "publication": {
+  "abstract": "This paper documents on-going work to facilitate ITK-based processing and 3D Slicer scene management in ParaView. We believe this will broaden the use of ParaView for high performance computing and visualization in the medical imaging research community. The effort is focused on developing ParaView plug-ins for managing VTK structures from 3D Slicer MRML scenes and encapsulating ITK filters for deployment in ParaView. In this paper, we present KWScene, an open source cross-platform library that is being developed to support implementation of these types of plugins. We describe the overall design of the library and provide implementation details and conclude by presenting a concrete example that demonstrates the use of the KWScene library in computational anatomy research at Johns Hopkins Center for Imaging Science.",
+  "authors": [
+   {
+    "author_fullname": "Enquobahrie, Andinet",
+    "author_place": 1,
+    "persona_email": "andinet.enqu@kitware.com",
+    "persona_firstname": "Andinet",
+    "persona_id": 68,
+    "persona_lastname": "Enquobahrie"
+   },
+   {
+    "author_fullname": "Bowers, Michael",
+    "author_place": 2,
+    "persona_email": "michaelbowersjhu@gmail.com",
+    "persona_firstname": "Michael",
+    "persona_id": 2380,
+    "persona_lastname": "Bowers"
+   },
+   {
+    "author_fullname": "Ibanez, Luis",
+    "author_place": 3,
+    "persona_email": "luis.ibanez@kitware.com",
+    "persona_firstname": "Luis",
+    "persona_id": 4,
+    "persona_lastname": "Ibanez"
+   },
+   {
+    "author_fullname": "Finet, Julien",
+    "author_place": 4,
+    "persona_email": "julien.finet@kitware.com",
+    "persona_firstname": "Julien",
+    "persona_id": 6449,
+    "persona_lastname": "Finet"
+   },
+   {
+    "author_fullname": "Audette, Michel",
+    "author_place": 5,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Kolasny, Anthony",
+    "author_place": 6,
+    "persona_id": null
+   }
+  ],
+  "categories": [
+   "Data",
+   "Image",
+   "Images",
+   "Mesh"
+  ],
+  "comments": [
+   {
+    "content": "Very nice work! Can you load volumes with arbitrary axis orientation (direction cosines)?",
+    "date": "2012-02-28T16:44:08",
+    "persona_email": "lasso@cs.queensu.ca",
+    "persona_firstname": "Andras",
+    "persona_id": 2170,
+    "persona_lastname": "Lasso"
+   }
+  ],
+  "date_submitted": "2012-02-28 13:23:47",
+  "handles": [
+   {
+    "handle": "10380/3344",
+    "handle_url": "http://hdl.handle.net/10380/3344"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 35,
+    "journal_name": "The VTK Journal"
+   }
+  ],
+  "publication_id": 854,
+  "submitted_by_author": {
+   "author_email": "andinet.enqu@kitware.com",
+   "author_firstname": "Andinet",
+   "author_id": 68,
+   "author_institution": "Kitware, Inc.",
+   "author_lastname": "Enquobahrie"
+  },
+  "tags": [
+   "Slicer",
+   "ParaView",
+   "ITK"
+  ],
+  "title": "Enabling ITK-based processing and 3D Slicer MRML scene management in ParaView"
+ }
 }

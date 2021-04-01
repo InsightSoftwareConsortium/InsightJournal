@@ -1,57 +1,59 @@
 {
-  "publication": {
-    "abstract": "To facilitate the analysis of medical image data in research environment, MATITK is developed to allow ITK algorithms to be called in MATLAB. ITK is a powerful open-source image analysis toolkit, but it requires the knowledge of C++ to use it. With the help of MATITK, researchers familiar with MATLAB can harness the power of ITK without learning C++ and worrying about low-level programming issues. A common set of C++ classes have also been produced to allow future ITK methods to be added to MATITK therefore callable in MATLAB without the bothersome translation between MATLAB and ITK.",
-    "authors": [
-      {
-        "author_fullname": "Chu, Vincent",
-        "author_place": 1,
-        "persona_email": "vwchu@sfu.ca",
-        "persona_firstname": "Vincent",
-        "persona_id": 342,
-        "persona_lastname": "Chu"
-      },
-      {
-        "author_fullname": "Hamarneh, Ghassan",
-        "author_place": 2,
-        "persona_email": "hamarneh@cs.sfu.ca",
-        "persona_firstname": "Ghassan",
-        "persona_id": 10,
-        "persona_lastname": "Hamarneh"
-      }
-    ],
-    "date_submitted": "2005-12-29T06:10:32Z",
-    "handles": [
-      {
-        "handle": "1926/155",
-        "handle_url": "http://hdl.handle.net/1926/155"
-      }
-    ],
-    "id": 66,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "vwchu@sfu.ca",
-      "author_firstname": "Vincent",
-      "author_id": 342,
-      "author_institution": "Simon Fraser University",
-      "author_lastname": "Chu"
-    },
-    "tags": [
-      "MATLAB",
-      "ITK",
-      "Medical image analysis",
-      "filtering",
-      "segmentation",
-      "registration"
-    ],
-    "title": "MATITK: EXTENDING MATLAB WITH ITK"
-  }
+ "publication": {
+  "abstract": "To facilitate the analysis of medical image data in research environment, MATITK is developed to allow ITK algorithms to be called in MATLAB. ITK is a powerful open-source image analysis toolkit, but it requires the knowledge of C++ to use it. With the help of MATITK, researchers familiar with MATLAB can harness the power of ITK without learning C++ and worrying about low-level programming issues. A common set of C++ classes have also been produced to allow future ITK methods to be added to MATITK therefore callable in MATLAB without the bothersome translation between MATLAB and ITK.",
+  "authors": [
+   {
+    "author_fullname": "Chu, Vincent",
+    "author_place": 1,
+    "persona_email": "vwchu@sfu.ca",
+    "persona_firstname": "Vincent",
+    "persona_id": 342,
+    "persona_lastname": "Chu"
+   },
+   {
+    "author_fullname": "Hamarneh, Ghassan",
+    "author_place": 2,
+    "persona_email": "hamarneh@cs.sfu.ca",
+    "persona_firstname": "Ghassan",
+    "persona_id": 10,
+    "persona_lastname": "Hamarneh"
+   }
+  ],
+  "categories": [],
+  "comments": [],
+  "date_submitted": "2005-12-29T06:10:32Z",
+  "handles": [
+   {
+    "handle": "1926/155",
+    "handle_url": "http://hdl.handle.net/1926/155"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 66,
+  "submitted_by_author": {
+   "author_email": "vwchu@sfu.ca",
+   "author_firstname": "Vincent",
+   "author_id": 342,
+   "author_institution": "Simon Fraser University",
+   "author_lastname": "Chu"
+  },
+  "tags": [
+   "MATLAB",
+   "ITK",
+   "Medical image analysis",
+   "filtering",
+   "segmentation",
+   "registration"
+  ],
+  "title": "MATITK: EXTENDING MATLAB WITH ITK"
+ }
 }

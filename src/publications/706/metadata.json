@@ -1,48 +1,57 @@
 {
-  "publication": {
-    "abstract": "This guide is intended as a very brief introduction of the main tools in the Computational Morphometry Toolkit (CMTK), which is available in source code and as precompiled binaries from http://www.nitrc.org/projects/cmtk/. The target audience of this document are CMTK users, who might use this document as a reference to the most common processing tasks, and prospective users, who may find this information useful to determine whether CMTK provides functionality that they can use. We focus in particular on a simplified workflow for deformation morphometry studies based on magnetic resonance images: DICOM conversion, artifact correction, affine and nonlinear image registration, reformatting, Jacobian determinant map generation, and statistical hypothesis testing.",
-    "authors": [
-      {
-        "author_fullname": "Rohlfing, Torsten",
-        "author_place": 1,
-        "persona_email": "torsten@synapse.sri.com",
-        "persona_firstname": "Torsten",
-        "persona_id": 168,
-        "persona_lastname": "Rohlfing"
-      }
-    ],
-    "date_submitted": "2011-03-23 15:40:11",
-    "handles": [
-      {
-        "handle": "10380/3140",
-        "handle_url": "http://hdl.handle.net/10380/3140"
-      }
-    ],
-    "id": 706,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "torsten@synapse.sri.com",
-      "author_firstname": "Torsten",
-      "author_id": 168,
-      "author_institution": "SRI International",
-      "author_lastname": "Rohlfing"
-    },
-    "tags": [
-      "CMTK",
-      "toolkit",
-      "morphometry",
-      "user guide",
-      "registration"
-    ],
-    "title": "User Guide to The Computational Morphometry Toolkit"
-  }
+ "publication": {
+  "abstract": "This guide is intended as a very brief introduction of the main tools in the Computational Morphometry Toolkit (CMTK), which is available in source code and as precompiled binaries from http://www.nitrc.org/projects/cmtk/. The target audience of this document are CMTK users, who might use this document as a reference to the most common processing tasks, and prospective users, who may find this information useful to determine whether CMTK provides functionality that they can use. We focus in particular on a simplified workflow for deformation morphometry studies based on magnetic resonance images: DICOM conversion, artifact correction, affine and nonlinear image registration, reformatting, Jacobian determinant map generation, and statistical hypothesis testing.",
+  "authors": [
+   {
+    "author_fullname": "Rohlfing, Torsten",
+    "author_place": 1,
+    "persona_email": "torsten@synapse.sri.com",
+    "persona_firstname": "Torsten",
+    "persona_id": 168,
+    "persona_lastname": "Rohlfing"
+   }
+  ],
+  "categories": [
+   "Atlas-based segmentation",
+   "Deformable registration",
+   "Groupwise registration",
+   "Level sets",
+   "Multi-modality registration",
+   "Registration"
+  ],
+  "comments": [],
+  "date_submitted": "2011-03-23 15:40:11",
+  "handles": [
+   {
+    "handle": "10380/3140",
+    "handle_url": "http://hdl.handle.net/10380/3140"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 706,
+  "submitted_by_author": {
+   "author_email": "torsten@synapse.sri.com",
+   "author_firstname": "Torsten",
+   "author_id": 168,
+   "author_institution": "SRI International",
+   "author_lastname": "Rohlfing"
+  },
+  "tags": [
+   "CMTK",
+   "toolkit",
+   "morphometry",
+   "user guide",
+   "registration"
+  ],
+  "title": "User Guide to The Computational Morphometry Toolkit"
+ }
 }

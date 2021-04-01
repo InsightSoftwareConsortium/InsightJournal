@@ -1,61 +1,66 @@
 {
-  "publication": {
-    "abstract": "We present a generic interpolator for label images. The basic idea is to interpolate each label with an ordinary image interpolator, and return the label with the highest value. This is the idea used by the itk::LabelImageGaussianInterpolateImageFunction interpolator. Unfortunately, this class is currently limited to Gaussian interpolation. Using generic programming, our proposed interpolator extends this idea to any image interpolator. Combined with linear interpolation, this results in similar or better accuracy and much improved computation speeds on a test image.",
-    "authors": [
-      {
-        "author_fullname": "Schaerer, Jo\u00ebl",
-        "author_place": 1,
-        "persona_email": "joelthelion@laposte.net",
-        "persona_firstname": "Jo\u00ebl",
-        "persona_id": 2935,
-        "persona_lastname": "Schaerer"
-      },
-      {
-        "author_fullname": "Roche, Florent",
-        "author_place": 2,
-        "persona_email": "f.roche@medpace.com",
-        "persona_firstname": "Florent",
-        "persona_id": 10369,
-        "persona_lastname": "Roche"
-      },
-      {
-        "author_fullname": "Belaroussi, Boubakeur",
-        "author_place": 3,
-        "persona_email": "bbelaroussi@newtone.fr",
-        "persona_firstname": "Boubakeur",
-        "persona_id": 484,
-        "persona_lastname": "Belaroussi"
-      }
-    ],
-    "date_submitted": "2014-12-22 10:05:11",
-    "handles": [
-      {
-        "handle": "10380/3506",
-        "handle_url": "http://hdl.handle.net/10380/3506"
-      }
-    ],
-    "id": 950,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "joelthelion@laposte.net",
-      "author_firstname": "Jo\u00ebl",
-      "author_id": 2935,
-      "author_institution": "Bioclinica SAS, Lyon",
-      "author_lastname": "Schaerer"
-    },
-    "tags": [
-      "Interpolation",
-      "ITK"
-    ],
-    "title": "A generic interpolator for multi-label images"
-  }
+ "publication": {
+  "abstract": "We present a generic interpolator for label images. The basic idea is to interpolate each label with an ordinary image interpolator, and return the label with the highest value. This is the idea used by the itk::LabelImageGaussianInterpolateImageFunction interpolator. Unfortunately, this class is currently limited to Gaussian interpolation. Using generic programming, our proposed interpolator extends this idea to any image interpolator. Combined with linear interpolation, this results in similar or better accuracy and much improved computation speeds on a test image.",
+  "authors": [
+   {
+    "author_fullname": "Schaerer, Jo\u00ebl",
+    "author_place": 1,
+    "persona_email": "joelthelion@laposte.net",
+    "persona_firstname": "Jo\u00ebl",
+    "persona_id": 2935,
+    "persona_lastname": "Schaerer"
+   },
+   {
+    "author_fullname": "Roche, Florent",
+    "author_place": 2,
+    "persona_email": "f.roche@medpace.com",
+    "persona_firstname": "Florent",
+    "persona_id": 10369,
+    "persona_lastname": "Roche"
+   },
+   {
+    "author_fullname": "Belaroussi, Boubakeur",
+    "author_place": 3,
+    "persona_email": "bbelaroussi@newtone.fr",
+    "persona_firstname": "Boubakeur",
+    "persona_id": 484,
+    "persona_lastname": "Belaroussi"
+   }
+  ],
+  "categories": [
+   "Generic Programming",
+   "Resampling"
+  ],
+  "comments": [],
+  "date_submitted": "2014-12-22 10:05:11",
+  "handles": [
+   {
+    "handle": "10380/3506",
+    "handle_url": "http://hdl.handle.net/10380/3506"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 950,
+  "submitted_by_author": {
+   "author_email": "joelthelion@laposte.net",
+   "author_firstname": "Jo\u00ebl",
+   "author_id": 2935,
+   "author_institution": "Bioclinica SAS, Lyon",
+   "author_lastname": "Schaerer"
+  },
+  "tags": [
+   "Interpolation",
+   "ITK"
+  ],
+  "title": "A generic interpolator for multi-label images"
+ }
 }

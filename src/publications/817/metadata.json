@@ -1,61 +1,66 @@
 {
-  "publication": {
-    "abstract": "A software architecture has been developed for image-guided robot-assisted cell manipulation. The system provides tools for positioning and navigation of multiple micromanipulators under live microscope images. The main application of this system is in multi-electrode patch clamp electrophysiology; however the same architecture can be used for any other type of cell micromanipulation as well as other applications such as micro-assembly.",
-    "authors": [
-      {
-        "author_fullname": "Azizian, Mahdi",
-        "author_place": 1,
-        "persona_email": "mazizian@uwo.ca",
-        "persona_firstname": "Mahdi",
-        "persona_id": 3004,
-        "persona_lastname": "Azizian"
-      },
-      {
-        "author_fullname": "Patel, Rajni",
-        "author_place": 2,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Gavrilovici, Cezar",
-        "author_place": 3,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Poulter, Michael",
-        "author_place": 4,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2011-08-05 15:07:23",
-    "handles": [
-      {
-        "handle": "10380/3283",
-        "handle_url": "http://hdl.handle.net/10380/3283"
-      }
-    ],
-    "id": 817,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 38,
-        "journal_name": "MICCAI 2011 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "mazizian@uwo.ca",
-      "author_firstname": "Mahdi",
-      "author_id": 3004,
-      "author_institution": "The University of Western Ontario",
-      "author_lastname": "Azizian"
-    },
-    "tags": [
-      "Patch Clamping",
-      "Cell Manipulation",
-      "Image-Guided Robotics"
-    ],
-    "title": "A software architecture for cell manipulation"
-  }
+ "publication": {
+  "abstract": "A software architecture has been developed for image-guided robot-assisted cell manipulation. The system provides tools for positioning and navigation of multiple micromanipulators under live microscope images. The main application of this system is in multi-electrode patch clamp electrophysiology; however the same architecture can be used for any other type of cell micromanipulation as well as other applications such as micro-assembly.",
+  "authors": [
+   {
+    "author_fullname": "Azizian, Mahdi",
+    "author_place": 1,
+    "persona_email": "mazizian@uwo.ca",
+    "persona_firstname": "Mahdi",
+    "persona_id": 3004,
+    "persona_lastname": "Azizian"
+   },
+   {
+    "author_fullname": "Patel, Rajni",
+    "author_place": 2,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Gavrilovici, Cezar",
+    "author_place": 3,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Poulter, Michael",
+    "author_place": 4,
+    "persona_id": null
+   }
+  ],
+  "categories": [
+   "IO",
+   "Programming"
+  ],
+  "comments": [],
+  "date_submitted": "2011-08-05 15:07:23",
+  "handles": [
+   {
+    "handle": "10380/3283",
+    "handle_url": "http://hdl.handle.net/10380/3283"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 38,
+    "journal_name": "MICCAI 2011 Workshops"
+   }
+  ],
+  "publication_id": 817,
+  "submitted_by_author": {
+   "author_email": "mazizian@uwo.ca",
+   "author_firstname": "Mahdi",
+   "author_id": 3004,
+   "author_institution": "The University of Western Ontario",
+   "author_lastname": "Azizian"
+  },
+  "tags": [
+   "Patch Clamping",
+   "Cell Manipulation",
+   "Image-Guided Robotics"
+  ],
+  "title": "A software architecture for cell manipulation"
+ }
 }

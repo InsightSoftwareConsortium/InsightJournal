@@ -1,58 +1,64 @@
 {
-  "publication": {
-    "abstract": "We have previously developed a new surface mesh data structure in itk (\\code{itk::QuadEdgeMesh}~\\cite{itkQE}). In this document we describe a new filter (\\code{itk::QENormalFilter}) to estimate normals for a given triangular surface mesh in this data structure. Here we describe the implementation and use of this filter for calculating normals of a \\code{itk::QuadEdgeMesh}.",
-    "authors": [
-      {
-        "author_fullname": "Gelas, Arnaud",
-        "author_place": 1,
-        "persona_email": "arnaudgelas@gmail.com",
-        "persona_firstname": "Arnaud",
-        "persona_id": 7896,
-        "persona_lastname": "Gelas"
-      },
-      {
-        "author_fullname": "Gouaillard, Alexandre ",
-        "author_place": 2,
-        "persona_email": "agouaillard@gmail.com",
-        "persona_firstname": "Alexandre",
-        "persona_id": 322,
-        "persona_lastname": "Gouaillard"
-      },
-      {
-        "author_fullname": "Megason, Sean",
-        "author_place": 3,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2008-09-07 17:39:55",
-    "handles": [
-      {
-        "handle": "1926/1495",
-        "handle_url": "http://hdl.handle.net/1926/1495"
-      }
-    ],
-    "id": 303,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": null,
-      "author_firstname": null,
-      "author_id": null,
-      "author_institution": "Harvard Medical School",
-      "author_lastname": null
-    },
-    "tags": [
-      "normal estimation",
-      "surface mesh"
-    ],
-    "title": "Surface Mesh Normals Filter"
-  }
+ "publication": {
+  "abstract": "We have previously developed a new surface mesh data structure in itk (\\code{itk::QuadEdgeMesh}~\\cite{itkQE}). In this document we describe a new filter (\\code{itk::QENormalFilter}) to estimate normals for a given triangular surface mesh in this data structure. Here we describe the implementation and use of this filter for calculating normals of a \\code{itk::QuadEdgeMesh}.",
+  "authors": [
+   {
+    "author_fullname": "Gelas, Arnaud",
+    "author_place": 1,
+    "persona_email": "arnaudgelas@gmail.com",
+    "persona_firstname": "Arnaud",
+    "persona_id": 7896,
+    "persona_lastname": "Gelas"
+   },
+   {
+    "author_fullname": "Gouaillard, Alexandre ",
+    "author_place": 2,
+    "persona_email": "agouaillard@gmail.com",
+    "persona_firstname": "Alexandre",
+    "persona_id": 322,
+    "persona_lastname": "Gouaillard"
+   },
+   {
+    "author_fullname": "Megason, Sean",
+    "author_place": 3,
+    "persona_id": null
+   }
+  ],
+  "categories": [
+   "Filtering",
+   "Mathematics",
+   "Mesh"
+  ],
+  "comments": [],
+  "date_submitted": "2008-09-07 17:39:55",
+  "handles": [
+   {
+    "handle": "1926/1495",
+    "handle_url": "http://hdl.handle.net/1926/1495"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 303,
+  "submitted_by_author": {
+   "author_email": null,
+   "author_firstname": null,
+   "author_id": null,
+   "author_institution": "Harvard Medical School",
+   "author_lastname": null
+  },
+  "tags": [
+   "normal estimation",
+   "surface mesh"
+  ],
+  "title": "Surface Mesh Normals Filter"
+ }
 }

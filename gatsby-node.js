@@ -19,11 +19,11 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       basePath: "data/publications",
     })
     // Creates new query'able field with name of 'slug'
-    const id = String(node.publication.id)
+    const publication_id = String(node.publication.publication_id)
     createNodeField({
       node,
       name: "slug",
-      value: `/browse/publication/${id}`,
+      value: `/browse/publication/${publication_id}`,
     })
   }
 }
@@ -52,7 +52,7 @@ exports.createPages = async ({ graphql, actions }) => {
                     slug,
                 }
                 publication {
-                    id,
+                    publication_id,
                 }
             }
         }
@@ -66,7 +66,7 @@ exports.createPages = async ({ graphql, actions }) => {
       context: {
         // Data passed to context is available in page queries as GraphQL variables.
         slug: node.fields.slug,
-        cover: `${String(node.publication.id)}/cover.jpeg`,
+        cover: `${String(node.publication.publication_id)}/cover.jpeg`,
       },
     })
   })

@@ -1,45 +1,50 @@
 {
-  "publication": {
-    "abstract": "This paper describes a simple class for serial transformations, i.e., the concatenation of other transformations. This can be used for\r\n\\doxygen{ResampleImageFilter}.",
-    "authors": [
-      {
-        "author_fullname": "Rohlfing, Torsten",
-        "author_place": 1,
-        "persona_email": "torsten@synapse.sri.com",
-        "persona_firstname": "Torsten",
-        "persona_id": 168,
-        "persona_lastname": "Rohlfing"
-      }
-    ],
-    "date_submitted": "2007-02-13T23:05:32Z",
-    "handles": [
-      {
-        "handle": "1926/487",
-        "handle_url": "http://hdl.handle.net/1926/487"
-      }
-    ],
-    "id": 143,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "torsten@synapse.sri.com",
-      "author_firstname": "Torsten",
-      "author_id": 168,
-      "author_institution": "SRI International",
-      "author_lastname": "Rohlfing"
-    },
-    "tags": [
-      "serial transformation",
-      "ITK"
-    ],
-    "title": "Class for Serial Transformations"
-  }
+ "publication": {
+  "abstract": "This paper describes a simple class for serial transformations, i.e., the concatenation of other transformations. This can be used for\r\n\\doxygen{ResampleImageFilter}.",
+  "authors": [
+   {
+    "author_fullname": "Rohlfing, Torsten",
+    "author_place": 1,
+    "persona_email": "torsten@synapse.sri.com",
+    "persona_firstname": "Torsten",
+    "persona_id": 168,
+    "persona_lastname": "Rohlfing"
+   }
+  ],
+  "categories": [
+   "Registration",
+   "Transforms"
+  ],
+  "comments": [],
+  "date_submitted": "2007-02-13T23:05:32Z",
+  "handles": [
+   {
+    "handle": "1926/487",
+    "handle_url": "http://hdl.handle.net/1926/487"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 143,
+  "submitted_by_author": {
+   "author_email": "torsten@synapse.sri.com",
+   "author_firstname": "Torsten",
+   "author_id": 168,
+   "author_institution": "SRI International",
+   "author_lastname": "Rohlfing"
+  },
+  "tags": [
+   "serial transformation",
+   "ITK"
+  ],
+  "title": "Class for Serial Transformations"
+ }
 }

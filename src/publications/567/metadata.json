@@ -1,76 +1,90 @@
 {
-  "publication": {
-    "abstract": "Very little is known about the deformation effects of tumour growth within the brain. Computer simulations have the potential to\r\ncalculate such deformations. A method for computing localised high deformations within the brain's soft tissue is presented. Such\r\nknowledge would be significant towards neuroscience and neurosurgery, particularly for quantifying tumour aggressiveness,\r\ntherapy planning, as well as surgical planning and simulation. A Finite Element mesh used in the vicinity of a growing tumour is\r\nvery quickly destroyed and cannot be used reliably unless complicated automatic re-meshing exists. Mesh-free methods are\r\ncapable of handling much larger deformations, however are known to be less reliable that Finite Element analysis for moderate\r\ndeformations. A mixed-mesh approach utilises mesh-free regions within localised high-deformation zones, with the remaining\r\nmodel comprised of a Finite Element mesh. In this study, a new algorithm is proposed coupling the Finite Element and Element\r\nFree Galerkin methods for use in applications of high localised deformation, such as brain tumour growth. The algorithm is\r\nverified against a number of separate Finite Element and mesh-free problems solved via validated/commercial software.\r\nMaximum errors of less than 0.85 mm were maintained, corresponding to the working resolution of an MRI scan. A mixed-mesh\r\nbrain model is analysed with respect to different tumour growth volumes located behind the left ventricle. Significant\r\ndisplacements of up to 9.66 mm surrounding a 4118 mm3 sized tumour are noted, with 14.5% of the brain mesh suffering\r\ndeformation greater than 5 mm.",
-    "authors": [
-      {
-        "author_fullname": "Berger, Jamie",
-        "author_place": 1,
-        "persona_email": "bergej03@student.uwa.edu.au",
-        "persona_firstname": "Jamie",
-        "persona_id": 852,
-        "persona_lastname": "Berger"
-      },
-      {
-        "author_fullname": "Horton, Asley",
-        "author_place": 2,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Joldes, Grand",
-        "author_place": 3,
-        "persona_email": "grandj@mech.uwa.edu.au",
-        "persona_firstname": "Grand roman",
-        "persona_id": 832,
-        "persona_lastname": "Joldes"
-      },
-      {
-        "author_fullname": "Wittek, Adam",
-        "author_place": 4,
-        "persona_email": "adwit@mech.uwa.edu.au",
-        "persona_firstname": "Adam",
-        "persona_id": 864,
-        "persona_lastname": "Wittek"
-      },
-      {
-        "author_fullname": "Miller, Karol",
-        "author_place": 5,
-        "persona_email": "kmiller@mech.uwa.edu.au",
-        "persona_firstname": "Karol",
-        "persona_id": 791,
-        "persona_lastname": "Miller"
-      }
-    ],
-    "date_submitted": "2008-06-05T04:42:48Z",
-    "handles": [
-      {
-        "handle": "10380/1383",
-        "handle_url": "http://hdl.handle.net/10380/1383"
-      }
-    ],
-    "id": 567,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 33,
-        "journal_name": "MICCAI 2008 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "grandj@mech.uwa.edu.au",
-      "author_firstname": "Grand roman",
-      "author_id": 832,
-      "author_institution": "The University of Western Australia",
-      "author_lastname": "Joldes"
-    },
-    "tags": [
-      "finite element",
-      "brain deformation",
-      "mesh-free",
-      "tumour grow"
-    ],
-    "title": "Coupling Finite Element and Mesh-free Methods for Modelling Brain Deformation in Response to Tumour Growth"
-  }
+ "publication": {
+  "abstract": "Very little is known about the deformation effects of tumour growth within the brain. Computer simulations have the potential to\r\ncalculate such deformations. A method for computing localised high deformations within the brain's soft tissue is presented. Such\r\nknowledge would be significant towards neuroscience and neurosurgery, particularly for quantifying tumour aggressiveness,\r\ntherapy planning, as well as surgical planning and simulation. A Finite Element mesh used in the vicinity of a growing tumour is\r\nvery quickly destroyed and cannot be used reliably unless complicated automatic re-meshing exists. Mesh-free methods are\r\ncapable of handling much larger deformations, however are known to be less reliable that Finite Element analysis for moderate\r\ndeformations. A mixed-mesh approach utilises mesh-free regions within localised high-deformation zones, with the remaining\r\nmodel comprised of a Finite Element mesh. In this study, a new algorithm is proposed coupling the Finite Element and Element\r\nFree Galerkin methods for use in applications of high localised deformation, such as brain tumour growth. The algorithm is\r\nverified against a number of separate Finite Element and mesh-free problems solved via validated/commercial software.\r\nMaximum errors of less than 0.85 mm were maintained, corresponding to the working resolution of an MRI scan. A mixed-mesh\r\nbrain model is analysed with respect to different tumour growth volumes located behind the left ventricle. Significant\r\ndisplacements of up to 9.66 mm surrounding a 4118 mm3 sized tumour are noted, with 14.5% of the brain mesh suffering\r\ndeformation greater than 5 mm.",
+  "authors": [
+   {
+    "author_fullname": "Berger, Jamie",
+    "author_place": 1,
+    "persona_email": "bergej03@student.uwa.edu.au",
+    "persona_firstname": "Jamie",
+    "persona_id": 852,
+    "persona_lastname": "Berger"
+   },
+   {
+    "author_fullname": "Horton, Asley",
+    "author_place": 2,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Joldes, Grand",
+    "author_place": 3,
+    "persona_email": "grandj@mech.uwa.edu.au",
+    "persona_firstname": "Grand roman",
+    "persona_id": 832,
+    "persona_lastname": "Joldes"
+   },
+   {
+    "author_fullname": "Wittek, Adam",
+    "author_place": 4,
+    "persona_email": "adwit@mech.uwa.edu.au",
+    "persona_firstname": "Adam",
+    "persona_id": 864,
+    "persona_lastname": "Wittek"
+   },
+   {
+    "author_fullname": "Miller, Karol",
+    "author_place": 5,
+    "persona_email": "kmiller@mech.uwa.edu.au",
+    "persona_firstname": "Karol",
+    "persona_id": 791,
+    "persona_lastname": "Miller"
+   }
+  ],
+  "categories": [
+   "Data Representation",
+   "Deformable registration",
+   "Derivatives and Integrals",
+   "Feature extraction",
+   "Mathematics",
+   "Mesh",
+   "PointSet",
+   "Region growing",
+   "Registration",
+   "Segmentation",
+   "Spatial Objects"
+  ],
+  "comments": [],
+  "date_submitted": "2008-06-05T04:42:48Z",
+  "handles": [
+   {
+    "handle": "10380/1383",
+    "handle_url": "http://hdl.handle.net/10380/1383"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 33,
+    "journal_name": "MICCAI 2008 Workshops"
+   }
+  ],
+  "publication_id": 567,
+  "submitted_by_author": {
+   "author_email": "grandj@mech.uwa.edu.au",
+   "author_firstname": "Grand roman",
+   "author_id": 832,
+   "author_institution": "The University of Western Australia",
+   "author_lastname": "Joldes"
+  },
+  "tags": [
+   "finite element",
+   "brain deformation",
+   "mesh-free",
+   "tumour grow"
+  ],
+  "title": "Coupling Finite Element and Mesh-free Methods for Modelling Brain Deformation in Response to Tumour Growth"
+ }
 }

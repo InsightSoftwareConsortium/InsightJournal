@@ -1,96 +1,102 @@
 {
-  "publication": {
-    "abstract": "Very preterm birth coincides with a period of major development in the brain, with striking changes in volume, cortex folding and significant change at the microstructural level. Diffusion MRI is sensitive to motion of water on the scale of microns, allowing us to investigate some of these changes. Mapping of diffusion tensors is a challenging process, and existing methods fail to account for the major changes that take place between 30 and 40 weeks equivalent gestational age. In this paper we introduce the spectral matching in the context of non-linear registration of diffusion images. Spatial correspondences are defined with respect to the main spectral modes of the images, which are global descriptors of the tensor information. We apply tensor spectral matching (TSM) in two different ways: by estimation of spatial correspondences uniquely based on the spectral decomposition of diffusion tensor images, and by combination of TSM with a standard diffusion tensor registration algorithm (TSM-DTI-TK). We validate the proposed approaches on 20 adult controls, and we compare it to the state-of-art registration method. We then apply these methods to longitudinal diffusion data acquired from 6 extremely preterm-born infants scanned shortly after birth and at term equivalent age. The experimental results combining TSM with standard tensor registration outperform the state-of-art when applied to both adult and preterm data. Having a reliable anatomical correspondence in preterm infants allows us to quantify microstructural changes and to work towards developing biomarkers of neurological impairment.",
-    "authors": [
-      {
-        "author_fullname": "Orasanu, Eliza",
-        "author_place": 2,
-        "persona_email": "eliza.orasanu.12@ucl.ac.uk",
-        "persona_firstname": "Eliza",
-        "persona_id": 9643,
-        "persona_lastname": "Orasanu"
-      },
-      {
-        "author_fullname": "Melbourne, Andrew",
-        "author_place": 3,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Lorenzi, Marco",
-        "author_place": 4,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Modat, Marc",
-        "author_place": 5,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Lombaert, Herve",
-        "author_place": 6,
-        "persona_email": "herve.lombaert@polymtl.ca",
-        "persona_firstname": "Herve",
-        "persona_id": 9639,
-        "persona_lastname": "Lombaert"
-      },
-      {
-        "author_fullname": "Eaton-Rosen, Zach",
-        "author_place": 7,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Robertson, Nicola J.",
-        "author_place": 8,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Kendall, Giles S.",
-        "author_place": 9,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Marlow, Neil",
-        "author_place": 10,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Ourselin, Sebastien",
-        "author_place": 11,
-        "persona_email": "sebastien.ourselin",
-        "persona_firstname": "Sebastien",
-        "persona_id": 305,
-        "persona_lastname": "Ourselin"
-      }
-    ],
-    "date_submitted": "2015-10-12 08:34:26",
-    "handles": [
-      {
-        "handle": "10380/3528",
-        "handle_url": "http://hdl.handle.net/10380/3528"
-      }
-    ],
-    "id": 961,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 44,
-        "journal_name": "MICCAI 2015 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "eliza.orasanu.12@ucl.ac.uk",
-      "author_firstname": "Eliza",
-      "author_id": 9643,
-      "author_institution": "University College London",
-      "author_lastname": "Orasanu"
-    },
-    "tags": [
-      "tensor registration",
-      "preterm brain"
-    ],
-    "title": "Tensor Spectral Matching of Diffusion Weighted Images"
-  }
+ "publication": {
+  "abstract": "Very preterm birth coincides with a period of major development in the brain, with striking changes in volume, cortex folding and significant change at the microstructural level. Diffusion MRI is sensitive to motion of water on the scale of microns, allowing us to investigate some of these changes. Mapping of diffusion tensors is a challenging process, and existing methods fail to account for the major changes that take place between 30 and 40 weeks equivalent gestational age. In this paper we introduce the spectral matching in the context of non-linear registration of diffusion images. Spatial correspondences are defined with respect to the main spectral modes of the images, which are global descriptors of the tensor information. We apply tensor spectral matching (TSM) in two different ways: by estimation of spatial correspondences uniquely based on the spectral decomposition of diffusion tensor images, and by combination of TSM with a standard diffusion tensor registration algorithm (TSM-DTI-TK). We validate the proposed approaches on 20 adult controls, and we compare it to the state-of-art registration method. We then apply these methods to longitudinal diffusion data acquired from 6 extremely preterm-born infants scanned shortly after birth and at term equivalent age. The experimental results combining TSM with standard tensor registration outperform the state-of-art when applied to both adult and preterm data. Having a reliable anatomical correspondence in preterm infants allows us to quantify microstructural changes and to work towards developing biomarkers of neurological impairment.",
+  "authors": [
+   {
+    "author_fullname": "Orasanu, Eliza",
+    "author_place": 2,
+    "persona_email": "eliza.orasanu.12@ucl.ac.uk",
+    "persona_firstname": "Eliza",
+    "persona_id": 9643,
+    "persona_lastname": "Orasanu"
+   },
+   {
+    "author_fullname": "Melbourne, Andrew",
+    "author_place": 3,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Lorenzi, Marco",
+    "author_place": 4,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Modat, Marc",
+    "author_place": 5,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Lombaert, Herve",
+    "author_place": 6,
+    "persona_email": "herve.lombaert@polymtl.ca",
+    "persona_firstname": "Herve",
+    "persona_id": 9639,
+    "persona_lastname": "Lombaert"
+   },
+   {
+    "author_fullname": "Eaton-Rosen, Zach",
+    "author_place": 7,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Robertson, Nicola J.",
+    "author_place": 8,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Kendall, Giles S.",
+    "author_place": 9,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Marlow, Neil",
+    "author_place": 10,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Ourselin, Sebastien",
+    "author_place": 11,
+    "persona_email": "sebastien.ourselin",
+    "persona_firstname": "Sebastien",
+    "persona_id": 305,
+    "persona_lastname": "Ourselin"
+   }
+  ],
+  "categories": [
+   "Deformable registration",
+   "Reformating and tensor reorientation",
+   "Registration metrics"
+  ],
+  "comments": [],
+  "date_submitted": "2015-10-12 08:34:26",
+  "handles": [
+   {
+    "handle": "10380/3528",
+    "handle_url": "http://hdl.handle.net/10380/3528"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 44,
+    "journal_name": "MICCAI 2015 Workshops"
+   }
+  ],
+  "publication_id": 961,
+  "submitted_by_author": {
+   "author_email": "eliza.orasanu.12@ucl.ac.uk",
+   "author_firstname": "Eliza",
+   "author_id": 9643,
+   "author_institution": "University College London",
+   "author_lastname": "Orasanu"
+  },
+  "tags": [
+   "tensor registration",
+   "preterm brain"
+  ],
+  "title": "Tensor Spectral Matching of Diffusion Weighted Images"
+ }
 }

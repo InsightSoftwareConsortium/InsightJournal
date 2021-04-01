@@ -1,45 +1,50 @@
 {
-  "publication": {
-    "abstract": "An implementation of the minimum error thresholding algorithm is presented. In this implementation, two versions of the minimum error thresholding algorithm are made available, one utilizing a Gaussian- and the other utilizing a Poisson- mixture model. Two ITK classes are created: The first one (MinErrorThresholdImageCalculator) is used to compute the threshold; the second (MinErrorThresholdImageFilter) is used as an image-thresholding filter. The results indicate code correctness and are comparable to those of Otsu\u2019s thresholding algorithm.",
-    "authors": [
-      {
-        "author_fullname": "Al-Kofahi, Yousef",
-        "author_place": 1,
-        "persona_email": "yousef.kofahi@gmail.com",
-        "persona_firstname": "Yousef",
-        "persona_id": 1013,
-        "persona_lastname": "Al-kofahi"
-      }
-    ],
-    "date_submitted": "2008-12-03 19:59:24",
-    "handles": [
-      {
-        "handle": "1926/1506",
-        "handle_url": "http://hdl.handle.net/1926/1506"
-      }
-    ],
-    "id": 308,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "yousef.kofahi@gmail.com",
-      "author_firstname": "Yousef",
-      "author_id": 1013,
-      "author_institution": "CompuCyte Corporation",
-      "author_lastname": "Al-kofahi"
-    },
-    "tags": [
-      "Otsu thresholding",
-      "Minimum error thresholding"
-    ],
-    "title": "ITK Implementation Of The Minimum Error Image Thresholding Algorithm"
-  }
+ "publication": {
+  "abstract": "An implementation of the minimum error thresholding algorithm is presented. In this implementation, two versions of the minimum error thresholding algorithm are made available, one utilizing a Gaussian- and the other utilizing a Poisson- mixture model. Two ITK classes are created: The first one (MinErrorThresholdImageCalculator) is used to compute the threshold; the second (MinErrorThresholdImageFilter) is used as an image-thresholding filter. The results indicate code correctness and are comparable to those of Otsu\u2019s thresholding algorithm.",
+  "authors": [
+   {
+    "author_fullname": "Al-Kofahi, Yousef",
+    "author_place": 1,
+    "persona_email": "yousef.kofahi@gmail.com",
+    "persona_firstname": "Yousef",
+    "persona_id": 1013,
+    "persona_lastname": "Al-kofahi"
+   }
+  ],
+  "categories": [
+   "Filtering",
+   "Segmentation"
+  ],
+  "comments": [],
+  "date_submitted": "2008-12-03 19:59:24",
+  "handles": [
+   {
+    "handle": "1926/1506",
+    "handle_url": "http://hdl.handle.net/1926/1506"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 308,
+  "submitted_by_author": {
+   "author_email": "yousef.kofahi@gmail.com",
+   "author_firstname": "Yousef",
+   "author_id": 1013,
+   "author_institution": "CompuCyte Corporation",
+   "author_lastname": "Al-kofahi"
+  },
+  "tags": [
+   "Otsu thresholding",
+   "Minimum error thresholding"
+  ],
+  "title": "ITK Implementation Of The Minimum Error Image Thresholding Algorithm"
+ }
 }

@@ -1,69 +1,74 @@
 {
-  "publication": {
-    "abstract": "CustusX version 3 is an in-house application for research in image-guided therapy with a focus on intraoperative use and ultrasound imaging. It is built upon open source toolkits such as the Insight Toolkit (ITK), the Visualization Toolkit (VTK), Qt and others. CustusX has a layered architecture based on services, and is extensible through the use of plugins. Key features are a user interface configurable by the user, an abstraction of the VTK pipeline, cross-platform video acquisition including temporal calibration, and a patient model. This paper gives an overview of the architecture and a description of the key concepts.",
-    "authors": [
-      {
-        "author_fullname": "Askeland, Christian",
-        "author_place": 1,
-        "persona_email": "christian.askeland@sintef.no",
-        "persona_firstname": "Christian",
-        "persona_id": 3123,
-        "persona_lastname": "Askeland"
-      },
-      {
-        "author_fullname": "Lindseth, Frank",
-        "author_place": 2,
-        "persona_email": "Frank.Lindseth@sintef.no",
-        "persona_firstname": "Frank",
-        "persona_id": 97,
-        "persona_lastname": "Lindseth"
-      },
-      {
-        "author_fullname": "Lervik Bakeng, Janne Beate",
-        "author_place": 3,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Solberg, Ole Vegard",
-        "author_place": 4,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Tangen, Geir Arne",
-        "author_place": 5,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2011-05-31 04:30:24",
-    "handles": [
-      {
-        "handle": "10380/3273",
-        "handle_url": "http://hdl.handle.net/10380/3273"
-      }
-    ],
-    "id": 808,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 38,
-        "journal_name": "MICCAI 2011 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "christian.askeland@sintef.no",
-      "author_firstname": "Christian",
-      "author_id": 3123,
-      "author_institution": "SINTEF",
-      "author_lastname": "Askeland"
-    },
-    "tags": [
-      "software architecture",
-      "image guided therapy",
-      "ultrasound"
-    ],
-    "title": "CustusX: A Research Application for Image-Guided Therapy"
-  }
+ "publication": {
+  "abstract": "CustusX version 3 is an in-house application for research in image-guided therapy with a focus on intraoperative use and ultrasound imaging. It is built upon open source toolkits such as the Insight Toolkit (ITK), the Visualization Toolkit (VTK), Qt and others. CustusX has a layered architecture based on services, and is extensible through the use of plugins. Key features are a user interface configurable by the user, an abstraction of the VTK pipeline, cross-platform video acquisition including temporal calibration, and a patient model. This paper gives an overview of the architecture and a description of the key concepts.",
+  "authors": [
+   {
+    "author_fullname": "Askeland, Christian",
+    "author_place": 1,
+    "persona_email": "christian.askeland@sintef.no",
+    "persona_firstname": "Christian",
+    "persona_id": 3123,
+    "persona_lastname": "Askeland"
+   },
+   {
+    "author_fullname": "Lindseth, Frank",
+    "author_place": 2,
+    "persona_email": "Frank.Lindseth@sintef.no",
+    "persona_firstname": "Frank",
+    "persona_id": 97,
+    "persona_lastname": "Lindseth"
+   },
+   {
+    "author_fullname": "Lervik Bakeng, Janne Beate",
+    "author_place": 3,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Solberg, Ole Vegard",
+    "author_place": 4,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Tangen, Geir Arne",
+    "author_place": 5,
+    "persona_id": null
+   }
+  ],
+  "categories": [
+   "Programming",
+   "Registration"
+  ],
+  "comments": [],
+  "date_submitted": "2011-05-31 04:30:24",
+  "handles": [
+   {
+    "handle": "10380/3273",
+    "handle_url": "http://hdl.handle.net/10380/3273"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 38,
+    "journal_name": "MICCAI 2011 Workshops"
+   }
+  ],
+  "publication_id": 808,
+  "submitted_by_author": {
+   "author_email": "christian.askeland@sintef.no",
+   "author_firstname": "Christian",
+   "author_id": 3123,
+   "author_institution": "SINTEF",
+   "author_lastname": "Askeland"
+  },
+  "tags": [
+   "software architecture",
+   "image guided therapy",
+   "ultrasound"
+  ],
+  "title": "CustusX: A Research Application for Image-Guided Therapy"
+ }
 }

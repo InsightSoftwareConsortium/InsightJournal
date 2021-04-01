@@ -1,55 +1,61 @@
 {
-  "publication": {
-    "abstract": "This document describes the implementation in ITK of the Straight Walk in a Triangulation algorithm proposed by Devillers et al. Using the exact discrete geometrical orientation predicate, and the itk::QuadEdgeMesh API of ITK, we propose an efficient implementation that locates a point in a triangulated mesh structure. This paper is accompanied with the source code and examples that should provide enough details for users. This work has for principal intended an exact and robust implementation of a Delaunay triangulation / Voronoi tesselation in ITK, which will be presented in a separate paper, once done.",
-    "authors": [
-      {
-        "author_fullname": "Rigaud, Stephane",
-        "author_place": 1,
-        "persona_email": "rigaud.stephane@gmail.com",
-        "persona_firstname": "Stephane",
-        "persona_id": 6540,
-        "persona_lastname": "Rigaud"
-      },
-      {
-        "author_fullname": "Gouaillard, Alexandre",
-        "author_place": 2,
-        "persona_email": "agouaillard@gmail.com",
-        "persona_firstname": "Alexandre",
-        "persona_id": 322,
-        "persona_lastname": "Gouaillard"
-      }
-    ],
-    "date_submitted": "2012-02-14 07:31:37",
-    "handles": [
-      {
-        "handle": "10380/3341",
-        "handle_url": "http://hdl.handle.net/10380/3341"
-      }
-    ],
-    "id": 851,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "agouaillard@gmail.com",
-      "author_firstname": "Alexandre",
-      "author_id": 322,
-      "author_institution": "Singapore Agency for Science Technology and Research",
-      "author_lastname": "Gouaillard"
-    },
-    "tags": [
-      "QuadEdgeMesh",
-      "Search",
-      "Planar Mesh",
-      "ITK"
-    ],
-    "title": "Walk In A Triangulation : Straight Walk"
-  }
+ "publication": {
+  "abstract": "This document describes the implementation in ITK of the Straight Walk in a Triangulation algorithm proposed by Devillers et al. Using the exact discrete geometrical orientation predicate, and the itk::QuadEdgeMesh API of ITK, we propose an efficient implementation that locates a point in a triangulated mesh structure. This paper is accompanied with the source code and examples that should provide enough details for users. This work has for principal intended an exact and robust implementation of a Delaunay triangulation / Voronoi tesselation in ITK, which will be presented in a separate paper, once done.",
+  "authors": [
+   {
+    "author_fullname": "Rigaud, Stephane",
+    "author_place": 1,
+    "persona_email": "rigaud.stephane@gmail.com",
+    "persona_firstname": "Stephane",
+    "persona_id": 6540,
+    "persona_lastname": "Rigaud"
+   },
+   {
+    "author_fullname": "Gouaillard, Alexandre",
+    "author_place": 2,
+    "persona_email": "agouaillard@gmail.com",
+    "persona_firstname": "Alexandre",
+    "persona_id": 322,
+    "persona_lastname": "Gouaillard"
+   }
+  ],
+  "categories": [
+   "Code speed optimization",
+   "Data Representation",
+   "Mesh"
+  ],
+  "comments": [],
+  "date_submitted": "2012-02-14 07:31:37",
+  "handles": [
+   {
+    "handle": "10380/3341",
+    "handle_url": "http://hdl.handle.net/10380/3341"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 851,
+  "submitted_by_author": {
+   "author_email": "agouaillard@gmail.com",
+   "author_firstname": "Alexandre",
+   "author_id": 322,
+   "author_institution": "Singapore Agency for Science Technology and Research",
+   "author_lastname": "Gouaillard"
+  },
+  "tags": [
+   "QuadEdgeMesh",
+   "Search",
+   "Planar Mesh",
+   "ITK"
+  ],
+  "title": "Walk In A Triangulation : Straight Walk"
+ }
 }

@@ -1,47 +1,49 @@
 {
-  "publication": {
-    "abstract": "This presentation is a satire of the current obsession with intellectual property, innovation and originality that plagues the field of medical image analysis.\r\n\r\nThe presentation makes the point that most Journals and Conferences focus on Originality and despise Reproducibility and Verification, demonstrating great disrespect for the essential elements of the scientific method. The practice of \\\"peer-review\\\" is offered in most cases as an insufficient substitute for the actual verification of reproducibility.\r\n\r\nIn a nutshell, this presentation intends to brings awareness to the fact that authors of papers are treated by Publishers as if they were writers of Novels instead as reporters of scientific findings. In that confusion, authors are required to be \\\"original\\\" (as if they were writing Novels or Plays) instead of being required to report \\\"reproducible\\\" findings. Such practice obliterates critical thinking and erodes the basic principles of the scientific community.",
-    "authors": [
-      {
-        "author_fullname": "Ibanez, Luis",
-        "author_place": 1,
-        "persona_email": "luis.ibanez@kitware.com",
-        "persona_firstname": "Luis",
-        "persona_id": 4,
-        "persona_lastname": "Ibanez"
-      }
-    ],
-    "date_submitted": "2007-11-01T00:00:00Z",
-    "handles": [
-      {
-        "handle": "1926/1314",
-        "handle_url": "http://hdl.handle.net/1926/1314"
-      }
-    ],
-    "id": 201,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "luis.ibanez@kitware.com",
-      "author_firstname": "Luis",
-      "author_id": 4,
-      "author_institution": "KITWARE Inc.",
-      "author_lastname": "Ibanez"
-    },
-    "tags": [
-      "Obsessive Innovation",
-      "Intellectual Property",
-      "Scientific Method",
-      "Absense of Reproducibility"
-    ],
-    "title": "Principles and Practices of Scientific Originology"
-  }
+ "publication": {
+  "abstract": "This presentation is a satire of the current obsession with intellectual property, innovation and originality that plagues the field of medical image analysis.\r\n\r\nThe presentation makes the point that most Journals and Conferences focus on Originality and despise Reproducibility and Verification, demonstrating great disrespect for the essential elements of the scientific method. The practice of \\\"peer-review\\\" is offered in most cases as an insufficient substitute for the actual verification of reproducibility.\r\n\r\nIn a nutshell, this presentation intends to brings awareness to the fact that authors of papers are treated by Publishers as if they were writers of Novels instead as reporters of scientific findings. In that confusion, authors are required to be \\\"original\\\" (as if they were writing Novels or Plays) instead of being required to report \\\"reproducible\\\" findings. Such practice obliterates critical thinking and erodes the basic principles of the scientific community.",
+  "authors": [
+   {
+    "author_fullname": "Ibanez, Luis",
+    "author_place": 1,
+    "persona_email": "luis.ibanez@kitware.com",
+    "persona_firstname": "Luis",
+    "persona_id": 4,
+    "persona_lastname": "Ibanez"
+   }
+  ],
+  "categories": [],
+  "comments": [],
+  "date_submitted": "2007-11-01T00:00:00Z",
+  "handles": [
+   {
+    "handle": "1926/1314",
+    "handle_url": "http://hdl.handle.net/1926/1314"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 201,
+  "submitted_by_author": {
+   "author_email": "luis.ibanez@kitware.com",
+   "author_firstname": "Luis",
+   "author_id": 4,
+   "author_institution": "KITWARE Inc.",
+   "author_lastname": "Ibanez"
+  },
+  "tags": [
+   "Obsessive Innovation",
+   "Intellectual Property",
+   "Scientific Method",
+   "Absense of Reproducibility"
+  ],
+  "title": "Principles and Practices of Scientific Originology"
+ }
 }

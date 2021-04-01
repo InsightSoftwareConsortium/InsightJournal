@@ -1,46 +1,48 @@
 {
-  "publication": {
-    "abstract": "A large number of pathological conditions result in significant changes of the mechanical properties of the aortic wall. Using the Pulse Wave Velocity (PWV) as an indicator of aortic stiffness has been proposed for several decades. Pulse Wave Imaging (PWI) is an ultrasonography-based imaging method that has been developed to map and quantify the pulse wave (PW) propagation along the abdominal aortic wall and measure its local properties. We present a finite-element-based approach that aims at improving our understanding of the complex PW patterns observed by PWI and their relationship to the underlying mechanical properties. A Fluid-Structure Interaction (FSI) coupled model was developed based on an idealized axisymmetric aorta geometry. The accuracy of the model as well as its ability to reproduce realistic PW propagation were evaluated by performing a parametric analysis on aortic elasticity, by varying the aortic Young\ufffds modulus between 20 kPa and 2000 kPa. The Finite-Element model was able to predict with good accuracy the expected PWV values in different theoretical cases, with an averaged relative difference of 14% in the 20kPa-100kPa, which corresponds to a wide physiologic range for stiffness of the healthy aorta. This study allows to validate the proposed FE model as a tool that is capable of representing quantitatively the pulse wave patterns in the aorta.",
-    "authors": [
-      {
-        "author_fullname": "Vappou, Jonathan",
-        "author_place": 1,
-        "persona_email": "jv2273@columbia.edu",
-        "persona_firstname": "Jonathan",
-        "persona_id": 859,
-        "persona_lastname": "Vappou"
-      }
-    ],
-    "date_submitted": "2008-06-16T16:25:12Z",
-    "handles": [
-      {
-        "handle": "10380/1385",
-        "handle_url": "http://hdl.handle.net/10380/1385"
-      }
-    ],
-    "id": 568,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 33,
-        "journal_name": "MICCAI 2008 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "jv2273@columbia.edu",
-      "author_firstname": "Jonathan",
-      "author_id": 859,
-      "author_institution": "Columbia University",
-      "author_lastname": "Vappou"
-    },
-    "tags": [
-      "Arterial Biomechanics",
-      "Pulse Wave",
-      "Fluid-Structure Interaction"
-    ],
-    "title": "Finite Element Modeling of the Pulse Wave propagation in the aorta for simulation of the Pulse Wave Imaging (PWI) method"
-  }
+ "publication": {
+  "abstract": "A large number of pathological conditions result in significant changes of the mechanical properties of the aortic wall. Using the Pulse Wave Velocity (PWV) as an indicator of aortic stiffness has been proposed for several decades. Pulse Wave Imaging (PWI) is an ultrasonography-based imaging method that has been developed to map and quantify the pulse wave (PW) propagation along the abdominal aortic wall and measure its local properties. We present a finite-element-based approach that aims at improving our understanding of the complex PW patterns observed by PWI and their relationship to the underlying mechanical properties. A Fluid-Structure Interaction (FSI) coupled model was developed based on an idealized axisymmetric aorta geometry. The accuracy of the model as well as its ability to reproduce realistic PW propagation were evaluated by performing a parametric analysis on aortic elasticity, by varying the aortic Young\ufffds modulus between 20 kPa and 2000 kPa. The Finite-Element model was able to predict with good accuracy the expected PWV values in different theoretical cases, with an averaged relative difference of 14% in the 20kPa-100kPa, which corresponds to a wide physiologic range for stiffness of the healthy aorta. This study allows to validate the proposed FE model as a tool that is capable of representing quantitatively the pulse wave patterns in the aorta.",
+  "authors": [
+   {
+    "author_fullname": "Vappou, Jonathan",
+    "author_place": 1,
+    "persona_email": "jv2273@columbia.edu",
+    "persona_firstname": "Jonathan",
+    "persona_id": 859,
+    "persona_lastname": "Vappou"
+   }
+  ],
+  "categories": [],
+  "comments": [],
+  "date_submitted": "2008-06-16T16:25:12Z",
+  "handles": [
+   {
+    "handle": "10380/1385",
+    "handle_url": "http://hdl.handle.net/10380/1385"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 33,
+    "journal_name": "MICCAI 2008 Workshops"
+   }
+  ],
+  "publication_id": 568,
+  "submitted_by_author": {
+   "author_email": "jv2273@columbia.edu",
+   "author_firstname": "Jonathan",
+   "author_id": 859,
+   "author_institution": "Columbia University",
+   "author_lastname": "Vappou"
+  },
+  "tags": [
+   "Arterial Biomechanics",
+   "Pulse Wave",
+   "Fluid-Structure Interaction"
+  ],
+  "title": "Finite Element Modeling of the Pulse Wave propagation in the aorta for simulation of the Pulse Wave Imaging (PWI) method"
+ }
 }

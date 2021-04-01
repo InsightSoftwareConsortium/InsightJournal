@@ -1,76 +1,83 @@
 {
-  "publication": {
-    "abstract": "This paper describes a 3D CTA image segmentation method submitted to the CLS09 contest (Carotid Lumen Segmentation and Stenosis Quantification) held in conjunction with the MICCAI 2009 conference. First, images are denoised to improve image quality and posterior segmentation. Second, region-based measurements are performed to differentiate possible vessels from other structures. Then, edge-driven metrics are used to allow vessel separation from nearby structures. Using, both edge-driven and region-based metrics a filter is used to enhance the vessels. The vessels of interest are extracted by use of the provided initialization points and of a model-driven segmentation algorithm. Using the obtained result, the final stage is devoted to stenosis quantification.",
-    "authors": [
-      {
-        "author_fullname": "Zuluaga, Maria A.",
-        "author_place": 1,
-        "persona_email": "maria.zuluaga@creatis.insa-lyon.fr",
-        "persona_firstname": "Maria A.",
-        "persona_id": 2228,
-        "persona_lastname": "Zuluaga"
-      },
-      {
-        "author_fullname": "Orkisz, Maciej",
-        "author_place": 2,
-        "persona_email": "maciejorkisz@gmail.com",
-        "persona_firstname": "Maciej",
-        "persona_id": 879,
-        "persona_lastname": "Orkisz"
-      },
-      {
-        "author_fullname": "Delgado Leyton, Edgar J.F.",
-        "author_place": 3,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Dore, Vincent",
-        "author_place": 4,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Morales Pinzon, Alfredo",
-        "author_place": 5,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Hernandez Hoyos, Marcela",
-        "author_place": 6,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2010-02-02 11:00:08",
-    "handles": [
-      {
-        "handle": "10380/3102",
-        "handle_url": "http://hdl.handle.net/10380/3102"
-      }
-    ],
-    "id": 671,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 34,
-        "journal_name": "MICCAI 2009 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "maciejorkisz@gmail.com",
-      "author_firstname": "Maciej",
-      "author_id": 879,
-      "author_institution": "Universite de Lyon; Universite Lyon 1; INSA-LYON; CNRS UMR 5220, CREATIS; Inserm U630; France",
-      "author_lastname": "Orkisz"
-    },
-    "tags": [
-      "image moments",
-      "3D image segmentation",
-      "centerline extraction",
-      "adaptive threshold",
-      "eigen-analysis"
-    ],
-    "title": "Adaptations of MARACAS algorithm to the segmentation of the carotid bifurcation and stenosis quantification in CTA images"
-  }
+ "publication": {
+  "abstract": "This paper describes a 3D CTA image segmentation method submitted to the CLS09 contest (Carotid Lumen Segmentation and Stenosis Quantification) held in conjunction with the MICCAI 2009 conference. First, images are denoised to improve image quality and posterior segmentation. Second, region-based measurements are performed to differentiate possible vessels from other structures. Then, edge-driven metrics are used to allow vessel separation from nearby structures. Using, both edge-driven and region-based metrics a filter is used to enhance the vessels. The vessels of interest are extracted by use of the provided initialization points and of a model-driven segmentation algorithm. Using the obtained result, the final stage is devoted to stenosis quantification.",
+  "authors": [
+   {
+    "author_fullname": "Zuluaga, Maria A.",
+    "author_place": 1,
+    "persona_email": "maria.zuluaga@creatis.insa-lyon.fr",
+    "persona_firstname": "Maria A.",
+    "persona_id": 2228,
+    "persona_lastname": "Zuluaga"
+   },
+   {
+    "author_fullname": "Orkisz, Maciej",
+    "author_place": 2,
+    "persona_email": "maciejorkisz@gmail.com",
+    "persona_firstname": "Maciej",
+    "persona_id": 879,
+    "persona_lastname": "Orkisz"
+   },
+   {
+    "author_fullname": "Delgado Leyton, Edgar J.F.",
+    "author_place": 3,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Dore, Vincent",
+    "author_place": 4,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Morales Pinzon, Alfredo",
+    "author_place": 5,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Hernandez Hoyos, Marcela",
+    "author_place": 6,
+    "persona_id": null
+   }
+  ],
+  "categories": [
+   "Feature extraction",
+   "Filtering",
+   "Segmentation",
+   "Thresholding"
+  ],
+  "comments": [],
+  "date_submitted": "2010-02-02 11:00:08",
+  "handles": [
+   {
+    "handle": "10380/3102",
+    "handle_url": "http://hdl.handle.net/10380/3102"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 34,
+    "journal_name": "MICCAI 2009 Workshops"
+   }
+  ],
+  "publication_id": 671,
+  "submitted_by_author": {
+   "author_email": "maciejorkisz@gmail.com",
+   "author_firstname": "Maciej",
+   "author_id": 879,
+   "author_institution": "Universite de Lyon; Universite Lyon 1; INSA-LYON; CNRS UMR 5220, CREATIS; Inserm U630; France",
+   "author_lastname": "Orkisz"
+  },
+  "tags": [
+   "image moments",
+   "3D image segmentation",
+   "centerline extraction",
+   "adaptive threshold",
+   "eigen-analysis"
+  ],
+  "title": "Adaptations of MARACAS algorithm to the segmentation of the carotid bifurcation and stenosis quantification in CTA images"
+ }
 }

@@ -46,7 +46,7 @@ const Render = ({ data }) => {
   const classes = useStyles();
   const publication = data.json.publication;
   const allIssues = data.allJson.edges.filter(e => e.node.issue)
-  const publicationIssues = allIssues.filter(e => e.node.issue.publications.includes(publication.id))
+  const publicationIssues = allIssues.filter(e => e.node.issue.publications.includes(publication.publication_id))
 
   const targetJournal = data.site.siteMetadata.targetJournal
   const { logo, logoAlt } = targetJournalLogo(targetJournal)
@@ -133,9 +133,16 @@ export const query = graphql`
           author_firstname
           author_lastname
         }
-        id
+        publication_id
         handles {
           handle_url
+        }
+        categories
+        comments {
+          content
+          date
+          persona_firstname
+          persona_lastname
         }
       }
     }

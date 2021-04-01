@@ -1,47 +1,52 @@
 {
-  "publication": {
-    "abstract": "Purpose\nThe lack of interfaces for system integration in the Operating Room (OR) has been recognized as one of the major factors to impede efficient OR turnover procedures as well as efficient intraoperative data handling and ergonomics in the OR. A software interface for application-layer connection between data processing units in the OR is presented.\nMethods\nThe requirements for data exchange in the OR were derived, mostly from the literature. A c++ class library was developed according to these requirements. The efficiency of the data exchange and the limits of the system were investigated by a series of experiments. An examplary application was built using the library to show its applicability under realistic conditions.\nResults\nWe present the software library TiCoLi for automatic OR network configuration, device and service discovery (\"surgical plug-and-play\"), message exchange, data streaming, and remote access to device parameters and functionalities through an Ethernet network. The system is based on a modular, object-oriented software design, which guarantees high flexibility regarding the adaptation of its subsystems to the needs of a particular clinical application.\nConclusions\nThe TiCoLi package is the first open source software library which was developed for system integration in the OR which covers message exchange, data streaming, and auto configuration.",
-    "authors": [
-      {
-        "author_fullname": "Burgert, Oliver",
-        "author_place": 1,
-        "persona_email": "oliver.burgert@reutlingen-university.de",
-        "persona_firstname": "Oliver",
-        "persona_id": 8050,
-        "persona_lastname": "Burgert"
-      }
-    ],
-    "date_submitted": "2011-06-29 06:37:55",
-    "handles": [
-      {
-        "handle": "10380/3291",
-        "handle_url": "http://hdl.handle.net/10380/3291"
-      }
-    ],
-    "id": 821,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 38,
-        "journal_name": "MICCAI 2011 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "oliver.burgert@reutlingen-university.de",
-      "author_firstname": "Oliver",
-      "author_id": 8050,
-      "author_institution": "Reutlingen University",
-      "author_lastname": "Burgert"
-    },
-    "tags": [
-      "Operating Room Integration",
-      "Systems Interconnectivity",
-      "Surgical Plug-and-Play",
-      "Digital Operating Room"
-    ],
-    "title": "TiCoLi - An Open Software Library for Device Integration in the Digital OR based on Open Software and Open Standards"
-  }
+ "publication": {
+  "abstract": "Purpose\nThe lack of interfaces for system integration in the Operating Room (OR) has been recognized as one of the major factors to impede efficient OR turnover procedures as well as efficient intraoperative data handling and ergonomics in the OR. A software interface for application-layer connection between data processing units in the OR is presented.\nMethods\nThe requirements for data exchange in the OR were derived, mostly from the literature. A c++ class library was developed according to these requirements. The efficiency of the data exchange and the limits of the system were investigated by a series of experiments. An examplary application was built using the library to show its applicability under realistic conditions.\nResults\nWe present the software library TiCoLi for automatic OR network configuration, device and service discovery (\"surgical plug-and-play\"), message exchange, data streaming, and remote access to device parameters and functionalities through an Ethernet network. The system is based on a modular, object-oriented software design, which guarantees high flexibility regarding the adaptation of its subsystems to the needs of a particular clinical application.\nConclusions\nThe TiCoLi package is the first open source software library which was developed for system integration in the OR which covers message exchange, data streaming, and auto configuration.",
+  "authors": [
+   {
+    "author_fullname": "Burgert, Oliver",
+    "author_place": 1,
+    "persona_email": "oliver.burgert@reutlingen-university.de",
+    "persona_firstname": "Oliver",
+    "persona_id": 8050,
+    "persona_lastname": "Burgert"
+   }
+  ],
+  "categories": [
+   "IO",
+   "Programming"
+  ],
+  "comments": [],
+  "date_submitted": "2011-06-29 06:37:55",
+  "handles": [
+   {
+    "handle": "10380/3291",
+    "handle_url": "http://hdl.handle.net/10380/3291"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 38,
+    "journal_name": "MICCAI 2011 Workshops"
+   }
+  ],
+  "publication_id": 821,
+  "submitted_by_author": {
+   "author_email": "oliver.burgert@reutlingen-university.de",
+   "author_firstname": "Oliver",
+   "author_id": 8050,
+   "author_institution": "Reutlingen University",
+   "author_lastname": "Burgert"
+  },
+  "tags": [
+   "Operating Room Integration",
+   "Systems Interconnectivity",
+   "Surgical Plug-and-Play",
+   "Digital Operating Room"
+  ],
+  "title": "TiCoLi - An Open Software Library for Device Integration in the Digital OR based on Open Software and Open Standards"
+ }
 }

@@ -1,53 +1,58 @@
 {
-  "publication": {
-    "abstract": "In this paper, a software application is introduced for image registration. BrainDemonsWarp is a com- \r\nmand line program using Thirion and diffeomorphic demons algorithms. The program takes in a template \r\nimage and a target image along with other optional parameters and registers the template image onto the \r\ntarget image. The resultant deformation \ufb01elds and metric values can be written to a \ufb01le. The program \r\nuses the Insight Toolkit (www.ITK.org) for all the computations, and can operate on any of the image \r\ntypes supported by that library.",
-    "authors": [
-      {
-        "author_fullname": "Johnson, Hans",
-        "author_place": 1,
-        "persona_email": "hans-johnson@uiowa.edu",
-        "persona_firstname": "Hans",
-        "persona_id": 21,
-        "persona_lastname": "Johnson"
-      },
-      {
-        "author_fullname": "Zhao, Yongqiang",
-        "author_place": 2,
-        "persona_email": "zhaoyq76@gmail.com",
-        "persona_firstname": "Yongqiang",
-        "persona_id": 1045,
-        "persona_lastname": "Zhao"
-      }
-    ],
-    "date_submitted": "2009-01-20 10:37:10",
-    "handles": [
-      {
-        "handle": "1926/1517",
-        "handle_url": "http://hdl.handle.net/1926/1517"
-      }
-    ],
-    "id": 312,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "zhaoyq76@gmail.com",
-      "author_firstname": "Yongqiang",
-      "author_id": 1045,
-      "author_institution": "the University of Iowa",
-      "author_lastname": "Zhao"
-    },
-    "tags": [
-      "registration",
-      "diffeomorphic demons"
-    ],
-    "title": "BRAINSDemonWarp: An Applicaton to Perform Demons Registration"
-  }
+ "publication": {
+  "abstract": "In this paper, a software application is introduced for image registration. BrainDemonsWarp is a com- \r\nmand line program using Thirion and diffeomorphic demons algorithms. The program takes in a template \r\nimage and a target image along with other optional parameters and registers the template image onto the \r\ntarget image. The resultant deformation \ufb01elds and metric values can be written to a \ufb01le. The program \r\nuses the Insight Toolkit (www.ITK.org) for all the computations, and can operate on any of the image \r\ntypes supported by that library.",
+  "authors": [
+   {
+    "author_fullname": "Johnson, Hans",
+    "author_place": 1,
+    "persona_email": "hans-johnson@uiowa.edu",
+    "persona_firstname": "Hans",
+    "persona_id": 21,
+    "persona_lastname": "Johnson"
+   },
+   {
+    "author_fullname": "Zhao, Yongqiang",
+    "author_place": 2,
+    "persona_email": "zhaoyq76@gmail.com",
+    "persona_firstname": "Yongqiang",
+    "persona_id": 1045,
+    "persona_lastname": "Zhao"
+   }
+  ],
+  "categories": [
+   "Deformable registration",
+   "Registration"
+  ],
+  "comments": [],
+  "date_submitted": "2009-01-20 10:37:10",
+  "handles": [
+   {
+    "handle": "1926/1517",
+    "handle_url": "http://hdl.handle.net/1926/1517"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 312,
+  "submitted_by_author": {
+   "author_email": "zhaoyq76@gmail.com",
+   "author_firstname": "Yongqiang",
+   "author_id": 1045,
+   "author_institution": "the University of Iowa",
+   "author_lastname": "Zhao"
+  },
+  "tags": [
+   "registration",
+   "diffeomorphic demons"
+  ],
+  "title": "BRAINSDemonWarp: An Applicaton to Perform Demons Registration"
+ }
 }

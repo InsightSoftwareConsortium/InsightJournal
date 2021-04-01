@@ -1,68 +1,70 @@
 {
-  "publication": {
-    "abstract": "A modification is made to Otsu thresholding method. It provides better results for ICV (Intracranial volume) segmentation on one kind of T2-weighted MRI data.",
-    "authors": [
-      {
-        "author_fullname": "Li, Andrew",
-        "author_place": 1,
-        "persona_email": "andrew.li@synarc.com",
-        "persona_firstname": "Andrew",
-        "persona_id": 31,
-        "persona_lastname": "Li"
-      },
-      {
-        "author_fullname": "Sivaramakrishna, Radhika",
-        "author_place": 2,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Ortendahl, Doug",
-        "author_place": 3,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Swarnakar, Vivek",
-        "author_place": 4,
-        "persona_email": "vivek.swarnakar@synarc.com",
-        "persona_firstname": "Vivek",
-        "persona_id": 22,
-        "persona_lastname": "Swarnakar"
-      }
-    ],
-    "date_submitted": "2005-07-30",
-    "handles": [
-      {
-        "handle": "1926/17",
-        "handle_url": "http://hdl.handle.net/1926/17"
-      },
-      {
-        "handle": "/3051",
-        "handle_url": "http://hdl.handle.net//3051"
-      }
-    ],
-    "id": 16,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "andrew.li@synarc.com",
-      "author_firstname": "Andrew",
-      "author_id": 31,
-      "author_institution": "Synarc ",
-      "author_lastname": "Li"
-    },
-    "tags": [
-      "Segmentation",
-      "Thresholding",
-      "Otsu Method"
-    ],
-    "title": "A Modification to Otsu Thresholding Method for ICV Segmentation"
-  }
+ "publication": {
+  "abstract": "A modification is made to Otsu thresholding method. It provides better results for ICV (Intracranial volume) segmentation on one kind of T2-weighted MRI data.",
+  "authors": [
+   {
+    "author_fullname": "Li, Andrew",
+    "author_place": 1,
+    "persona_email": "andrew.li@synarc.com",
+    "persona_firstname": "Andrew",
+    "persona_id": 31,
+    "persona_lastname": "Li"
+   },
+   {
+    "author_fullname": "Sivaramakrishna, Radhika",
+    "author_place": 2,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Ortendahl, Doug",
+    "author_place": 3,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Swarnakar, Vivek",
+    "author_place": 4,
+    "persona_email": "vivek.swarnakar@synarc.com",
+    "persona_firstname": "Vivek",
+    "persona_id": 22,
+    "persona_lastname": "Swarnakar"
+   }
+  ],
+  "categories": [],
+  "comments": [],
+  "date_submitted": "2005-07-30",
+  "handles": [
+   {
+    "handle": "1926/17",
+    "handle_url": "http://hdl.handle.net/1926/17"
+   },
+   {
+    "handle": "/3051",
+    "handle_url": "http://hdl.handle.net//3051"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 16,
+  "submitted_by_author": {
+   "author_email": "andrew.li@synarc.com",
+   "author_firstname": "Andrew",
+   "author_id": 31,
+   "author_institution": "Synarc ",
+   "author_lastname": "Li"
+  },
+  "tags": [
+   "Segmentation",
+   "Thresholding",
+   "Otsu Method"
+  ],
+  "title": "A Modification to Otsu Thresholding Method for ICV Segmentation"
+ }
 }

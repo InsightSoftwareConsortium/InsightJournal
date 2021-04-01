@@ -1,45 +1,47 @@
 {
-  "publication": {
-    "abstract": "The subject of the paper is to introduce a new class of 4D filters to itk.While it is very easy to load a 3D volume stored as a series of DICOM images with ITK, some convenience functions that are already available for 3D volumes are not yet available for the 4D case. Especially for MR data (and to a certain limit also for CT data) it is very important to look at the full 4D series, since the radiologist usually does not make a diagnosis based on a single volume but on the full time series of volumes which shows the temporal flow of the contrast agent. As an example, for breast imaging the radiologist typically examines parameter maps like MIPt (maximum intensity over time), TTP (time to peak) or WI (Wash-In). These parameter maps are the 3D result of post-processing the entire 4D time series. The goal of proposing the denoted 4D filters is to provide ITK with functionality that enables a postprocessing job to handle the entire 4D series as one entity and not as a loose collection of 3D volumes.",
-    "authors": [
-      {
-        "author_fullname": "Roettger, Stefan",
-        "author_place": 1,
-        "persona_email": "stefan@stereofx.org",
-        "persona_firstname": "Stefan",
-        "persona_id": 575,
-        "persona_lastname": "Roettger"
-      }
-    ],
-    "date_submitted": "2007-04-06T09:04:10Z",
-    "handles": [
-      {
-        "handle": "1926/498",
-        "handle_url": "http://hdl.handle.net/1926/498"
-      }
-    ],
-    "id": 148,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "stefan@stereofx.org",
-      "author_firstname": "Stefan",
-      "author_id": 575,
-      "author_institution": "stereoFX / Siemens",
-      "author_lastname": "Roettger"
-    },
-    "tags": [
-      "4D medical postprocessing",
-      "itk 4D filter"
-    ],
-    "title": "How to use the itk::NaryElevateImageFilter and itk::UnaryRetractImageFilter for the post-processing of medical 4D data"
-  }
+ "publication": {
+  "abstract": "The subject of the paper is to introduce a new class of 4D filters to itk.While it is very easy to load a 3D volume stored as a series of DICOM images with ITK, some convenience functions that are already available for 3D volumes are not yet available for the 4D case. Especially for MR data (and to a certain limit also for CT data) it is very important to look at the full 4D series, since the radiologist usually does not make a diagnosis based on a single volume but on the full time series of volumes which shows the temporal flow of the contrast agent. As an example, for breast imaging the radiologist typically examines parameter maps like MIPt (maximum intensity over time), TTP (time to peak) or WI (Wash-In). These parameter maps are the 3D result of post-processing the entire 4D time series. The goal of proposing the denoted 4D filters is to provide ITK with functionality that enables a postprocessing job to handle the entire 4D series as one entity and not as a loose collection of 3D volumes.",
+  "authors": [
+   {
+    "author_fullname": "Roettger, Stefan",
+    "author_place": 1,
+    "persona_email": "stefan@stereofx.org",
+    "persona_firstname": "Stefan",
+    "persona_id": 575,
+    "persona_lastname": "Roettger"
+   }
+  ],
+  "categories": [],
+  "comments": [],
+  "date_submitted": "2007-04-06T09:04:10Z",
+  "handles": [
+   {
+    "handle": "1926/498",
+    "handle_url": "http://hdl.handle.net/1926/498"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 148,
+  "submitted_by_author": {
+   "author_email": "stefan@stereofx.org",
+   "author_firstname": "Stefan",
+   "author_id": 575,
+   "author_institution": "stereoFX / Siemens",
+   "author_lastname": "Roettger"
+  },
+  "tags": [
+   "4D medical postprocessing",
+   "itk 4D filter"
+  ],
+  "title": "How to use the itk::NaryElevateImageFilter and itk::UnaryRetractImageFilter for the post-processing of medical 4D data"
+ }
 }

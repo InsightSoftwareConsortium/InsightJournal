@@ -1,45 +1,50 @@
 {
-  "publication": {
-    "abstract": "Open interfaces/frameworks increase the pace of research and discovery by promoting collaborations within and between clinicians, biomedical engineers, and software developers. These systems usually employ modular architectures to model the complexity involved in surgical assistance systems. Hence, standards are critical to allow for cross-framework interoperability of systems, and modules. SACAI workshop aims to establish a forum for discussing systems and architectures for computer assisted discussing intervention (CAI) applications. Continuing the success of the series, the workshop will focus on open interfaces, interoperability, and standards. In addition, this year, we will discuss clinical applications and future directions of CAI systems and frameworks. The workshop will continue to include the robust discussion between industry and academia. \n",
-    "authors": [
-      {
-        "author_fullname": "Enquobahrie, Andinet",
-        "author_place": 1,
-        "persona_email": "andinet.enqu@kitware.com",
-        "persona_firstname": "Andinet",
-        "persona_id": 68,
-        "persona_lastname": "Enquobahrie"
-      }
-    ],
-    "date_submitted": "2012-04-27 16:39:04",
-    "handles": [
-      {
-        "handle": "10380/3352",
-        "handle_url": "http://hdl.handle.net/10380/3352"
-      }
-    ],
-    "id": 858,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 40,
-        "journal_name": "MICCAI 2012 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "andinet.enqu@kitware.com",
-      "author_firstname": "Andinet",
-      "author_id": 68,
-      "author_institution": "Kitware, Inc.",
-      "author_lastname": "Enquobahrie"
-    },
-    "tags": [
-      "Computer assisted interventions",
-      "Open interface"
-    ],
-    "title": "Fifth International Workshop on Systems and Architectures for Computer Assisted Interventions"
-  }
+ "publication": {
+  "abstract": "Open interfaces/frameworks increase the pace of research and discovery by promoting collaborations within and between clinicians, biomedical engineers, and software developers. These systems usually employ modular architectures to model the complexity involved in surgical assistance systems. Hence, standards are critical to allow for cross-framework interoperability of systems, and modules. SACAI workshop aims to establish a forum for discussing systems and architectures for computer assisted discussing intervention (CAI) applications. Continuing the success of the series, the workshop will focus on open interfaces, interoperability, and standards. In addition, this year, we will discuss clinical applications and future directions of CAI systems and frameworks. The workshop will continue to include the robust discussion between industry and academia. \n",
+  "authors": [
+   {
+    "author_fullname": "Enquobahrie, Andinet",
+    "author_place": 1,
+    "persona_email": "andinet.enqu@kitware.com",
+    "persona_firstname": "Andinet",
+    "persona_id": 68,
+    "persona_lastname": "Enquobahrie"
+   }
+  ],
+  "categories": [
+   "Registration",
+   "Segmentation"
+  ],
+  "comments": [],
+  "date_submitted": "2012-04-27 16:39:04",
+  "handles": [
+   {
+    "handle": "10380/3352",
+    "handle_url": "http://hdl.handle.net/10380/3352"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 40,
+    "journal_name": "MICCAI 2012 Workshops"
+   }
+  ],
+  "publication_id": 858,
+  "submitted_by_author": {
+   "author_email": "andinet.enqu@kitware.com",
+   "author_firstname": "Andinet",
+   "author_id": 68,
+   "author_institution": "Kitware, Inc.",
+   "author_lastname": "Enquobahrie"
+  },
+  "tags": [
+   "Computer assisted interventions",
+   "Open interface"
+  ],
+  "title": "Fifth International Workshop on Systems and Architectures for Computer Assisted Interventions"
+ }
 }

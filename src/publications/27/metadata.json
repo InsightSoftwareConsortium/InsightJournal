@@ -1,53 +1,55 @@
 {
-  "publication": {
-    "abstract": "Mathematical models are often used to describe natural phenomena, organisms and anatomy. This paper presents a Model-Image Registration framework that can be used to evaluate models of anatomical shape. An optimisation process is applied to the model parameters to fit the model to an organ of interest in a volumetric image. The fit is obtained by maximising a metric that measures how closely the model surface atches the image edge features, according to gradient magnitude and orientation with respect to the surface normal. The system was tested using a spiral shell model, with generated data as ground truth, and also with CT scans of the temporal bone. The parameters converge to within a close tolerance after a few hundred iterations on the test data, and show promising results on registering with the clinical data.",
-    "authors": [
-      {
-        "author_fullname": "Baker, Gavin",
-        "author_place": 1,
-        "persona_email": "gavinb@cs.mu.oz.au",
-        "persona_firstname": "Gavin",
-        "persona_id": 8,
-        "persona_lastname": "Baker"
-      },
-      {
-        "author_fullname": "Barnes, Nick",
-        "author_place": 2,
-        "persona_email": "nick.barnes@nicta.com.au",
-        "persona_firstname": "Nick",
-        "persona_id": 123,
-        "persona_lastname": "Barnes"
-      }
-    ],
-    "date_submitted": "2005-08-05T07:27:02Z",
-    "handles": [
-      {
-        "handle": "1926/32",
-        "handle_url": "http://hdl.handle.net/1926/32"
-      }
-    ],
-    "id": 27,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "gavinb@cs.mu.oz.au",
-      "author_firstname": "Gavin",
-      "author_id": 8,
-      "author_institution": "The University of Melbourne",
-      "author_lastname": "Baker"
-    },
-    "tags": [
-      "modelling",
-      "registration"
-    ],
-    "title": "Model-Image Registration of Parametric Shape Models: Fitting a Shell to the Cochlea"
-  }
+ "publication": {
+  "abstract": "Mathematical models are often used to describe natural phenomena, organisms and anatomy. This paper presents a Model-Image Registration framework that can be used to evaluate models of anatomical shape. An optimisation process is applied to the model parameters to fit the model to an organ of interest in a volumetric image. The fit is obtained by maximising a metric that measures how closely the model surface atches the image edge features, according to gradient magnitude and orientation with respect to the surface normal. The system was tested using a spiral shell model, with generated data as ground truth, and also with CT scans of the temporal bone. The parameters converge to within a close tolerance after a few hundred iterations on the test data, and show promising results on registering with the clinical data.",
+  "authors": [
+   {
+    "author_fullname": "Baker, Gavin",
+    "author_place": 1,
+    "persona_email": "gavinb@cs.mu.oz.au",
+    "persona_firstname": "Gavin",
+    "persona_id": 8,
+    "persona_lastname": "Baker"
+   },
+   {
+    "author_fullname": "Barnes, Nick",
+    "author_place": 2,
+    "persona_email": "nick.barnes@nicta.com.au",
+    "persona_firstname": "Nick",
+    "persona_id": 123,
+    "persona_lastname": "Barnes"
+   }
+  ],
+  "categories": [],
+  "comments": [],
+  "date_submitted": "2005-08-05T07:27:02Z",
+  "handles": [
+   {
+    "handle": "1926/32",
+    "handle_url": "http://hdl.handle.net/1926/32"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 27,
+  "submitted_by_author": {
+   "author_email": "gavinb@cs.mu.oz.au",
+   "author_firstname": "Gavin",
+   "author_id": 8,
+   "author_institution": "The University of Melbourne",
+   "author_lastname": "Baker"
+  },
+  "tags": [
+   "modelling",
+   "registration"
+  ],
+  "title": "Model-Image Registration of Parametric Shape Models: Fitting a Shell to the Cochlea"
+ }
 }

@@ -1,46 +1,51 @@
 {
-  "publication": {
-    "abstract": "This document presents a VTK implementation of the algorithm described in \n\"A clustering method for efficient segmentation of 3D laser data\" by Klasing, Klaas Wollherr, Dirk, and Buss, Martin. The algorithm .\n\nThe code is available here:\nhttps://github.com/daviddoria/ClusteringSegmentation",
-    "authors": [
-      {
-        "author_fullname": "Doria, David",
-        "author_place": 1,
-        "persona_email": "daviddoria@gmail.com",
-        "persona_firstname": "David",
-        "persona_id": 2205,
-        "persona_lastname": "Doria"
-      }
-    ],
-    "date_submitted": "2011-08-02 12:36:19",
-    "handles": [
-      {
-        "handle": "10380/3309",
-        "handle_url": "http://hdl.handle.net/10380/3309"
-      }
-    ],
-    "id": 833,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 35,
-        "journal_name": "The VTK Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "daviddoria@gmail.com",
-      "author_firstname": "David",
-      "author_id": 2205,
-      "author_institution": "Rensselaer Polytechnic Institute",
-      "author_lastname": "Doria"
-    },
-    "tags": [
-      "Point clouds",
-      "Clustering",
-      "Segmentation"
-    ],
-    "title": "Clustering Segmentation for VTK"
-  }
+ "publication": {
+  "abstract": "This document presents a VTK implementation of the algorithm described in \n\"A clustering method for efficient segmentation of 3D laser data\" by Klasing, Klaas Wollherr, Dirk, and Buss, Martin. The algorithm .\n\nThe code is available here:\nhttps://github.com/daviddoria/ClusteringSegmentation",
+  "authors": [
+   {
+    "author_fullname": "Doria, David",
+    "author_place": 1,
+    "persona_email": "daviddoria@gmail.com",
+    "persona_firstname": "David",
+    "persona_id": 2205,
+    "persona_lastname": "Doria"
+   }
+  ],
+  "categories": [
+   "Region growing",
+   "Segmentation"
+  ],
+  "comments": [],
+  "date_submitted": "2011-08-02 12:36:19",
+  "handles": [
+   {
+    "handle": "10380/3309",
+    "handle_url": "http://hdl.handle.net/10380/3309"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 35,
+    "journal_name": "The VTK Journal"
+   }
+  ],
+  "publication_id": 833,
+  "submitted_by_author": {
+   "author_email": "daviddoria@gmail.com",
+   "author_firstname": "David",
+   "author_id": 2205,
+   "author_institution": "Rensselaer Polytechnic Institute",
+   "author_lastname": "Doria"
+  },
+  "tags": [
+   "Point clouds",
+   "Clustering",
+   "Segmentation"
+  ],
+  "title": "Clustering Segmentation for VTK"
+ }
 }

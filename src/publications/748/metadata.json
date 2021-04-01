@@ -1,60 +1,75 @@
 {
-  "publication": {
-    "abstract": "This paper describes implementation of local structure tensor and anisotropic enhancement diffusion filters using the Insight Toolkit. The anisotropic diffusion filters are implemented using ITK's finite difference solver framework. The filters are used to implement the 3D edge-enhancing diffusion ( EED), coherence-enhancing diffusion (CED) and hybrid diffusion with continuous switch(HDCS) noise filtering algorithms described in Mendrik et al[1].\n\nThe most up-to-date version of the code presented in this paper is distributed with the TubeTK project:\nhttp://public.kitware.com/Wiki/TubeTK\n",
-    "authors": [
-      {
-        "author_fullname": "Enquobahrie, Andinet",
-        "author_place": 1,
-        "persona_email": "andinet.enqu@kitware.com",
-        "persona_firstname": "Andinet",
-        "persona_id": 68,
-        "persona_lastname": "Enquobahrie"
-      },
-      {
-        "author_fullname": "Yang, Hua",
-        "author_place": 2,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Aylward, Stephen",
-        "author_place": 3,
-        "persona_email": "stephen.aylward@kitware.com",
-        "persona_firstname": "Stephen",
-        "persona_id": 1,
-        "persona_lastname": "Aylward"
-      }
-    ],
-    "date_submitted": "2010-08-17 14:49:42",
-    "handles": [
-      {
-        "handle": "10380/3199",
-        "handle_url": "http://hdl.handle.net/10380/3199"
-      }
-    ],
-    "id": 748,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "andinet.enqu@kitware.com",
-      "author_firstname": "Andinet",
-      "author_id": 68,
-      "author_institution": "Kitware, Inc.",
-      "author_lastname": "Enquobahrie"
-    },
-    "tags": [
-      "Anisotropic",
-      "Diffusion",
-      "Tensor",
-      "Noise filtering"
-    ],
-    "title": "Implementation of local structure tensor and enhancement anisotropic diffusion filters in ITK"
-  }
+ "publication": {
+  "abstract": "This paper describes implementation of local structure tensor and anisotropic enhancement diffusion filters using the Insight Toolkit. The anisotropic diffusion filters are implemented using ITK's finite difference solver framework. The filters are used to implement the 3D edge-enhancing diffusion ( EED), coherence-enhancing diffusion (CED) and hybrid diffusion with continuous switch(HDCS) noise filtering algorithms described in Mendrik et al[1].\n\nThe most up-to-date version of the code presented in this paper is distributed with the TubeTK project:\nhttp://public.kitware.com/Wiki/TubeTK\n",
+  "authors": [
+   {
+    "author_fullname": "Enquobahrie, Andinet",
+    "author_place": 1,
+    "persona_email": "andinet.enqu@kitware.com",
+    "persona_firstname": "Andinet",
+    "persona_id": 68,
+    "persona_lastname": "Enquobahrie"
+   },
+   {
+    "author_fullname": "Yang, Hua",
+    "author_place": 2,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Aylward, Stephen",
+    "author_place": 3,
+    "persona_email": "stephen.aylward@kitware.com",
+    "persona_firstname": "Stephen",
+    "persona_id": 1,
+    "persona_lastname": "Aylward"
+   }
+  ],
+  "categories": [
+   "Anisotropic blurring filters",
+   "Blurring filters",
+   "Filtering"
+  ],
+  "comments": [
+   {
+    "content": "Adrienne and Fethallah, \r\n\r\nThanks for your feedback. We have uploaded a revised version of the source code incorporating your bug fixes.\r\n\r\nLet us know if you have any more questions.\r\n\r\nAndinet",
+    "date": "2012-05-28T19:43:07",
+    "persona_email": "andinet.enqu@kitware.com",
+    "persona_firstname": "Andinet",
+    "persona_id": 68,
+    "persona_lastname": "Enquobahrie"
+   }
+  ],
+  "date_submitted": "2010-08-17 14:49:42",
+  "handles": [
+   {
+    "handle": "10380/3199",
+    "handle_url": "http://hdl.handle.net/10380/3199"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 748,
+  "submitted_by_author": {
+   "author_email": "andinet.enqu@kitware.com",
+   "author_firstname": "Andinet",
+   "author_id": 68,
+   "author_institution": "Kitware, Inc.",
+   "author_lastname": "Enquobahrie"
+  },
+  "tags": [
+   "Anisotropic",
+   "Diffusion",
+   "Tensor",
+   "Noise filtering"
+  ],
+  "title": "Implementation of local structure tensor and enhancement anisotropic diffusion filters in ITK"
+ }
 }

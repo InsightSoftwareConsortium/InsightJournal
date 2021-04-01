@@ -1,45 +1,50 @@
 {
-  "publication": {
-    "abstract": "Mean shift clustering is an excellent technique for clustering points when the number of clusters is not known. We present a implementation (vtkMeanShiftClustering) of the simplest version of the algorithm written in a VTK context.\n\nThe code is currently hosted at http://github.com/daviddoria/vtkMeanShiftClustering .",
-    "authors": [
-      {
-        "author_fullname": "Doria, David",
-        "author_place": 1,
-        "persona_email": "daviddoria@gmail.com",
-        "persona_firstname": "David",
-        "persona_id": 2205,
-        "persona_lastname": "Doria"
-      }
-    ],
-    "date_submitted": "2010-09-23 07:25:27",
-    "handles": [
-      {
-        "handle": "10380/3219",
-        "handle_url": "http://hdl.handle.net/10380/3219"
-      }
-    ],
-    "id": 765,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 35,
-        "journal_name": "The VTK Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "daviddoria@gmail.com",
-      "author_firstname": "David",
-      "author_id": 2205,
-      "author_institution": "Rensselaer Polytechnic Institute",
-      "author_lastname": "Doria"
-    },
-    "tags": [
-      "Mean shift",
-      "clustering"
-    ],
-    "title": "A Mean Shift Clustering Implementation for VTK"
-  }
+ "publication": {
+  "abstract": "Mean shift clustering is an excellent technique for clustering points when the number of clusters is not known. We present a implementation (vtkMeanShiftClustering) of the simplest version of the algorithm written in a VTK context.\n\nThe code is currently hosted at http://github.com/daviddoria/vtkMeanShiftClustering .",
+  "authors": [
+   {
+    "author_fullname": "Doria, David",
+    "author_place": 1,
+    "persona_email": "daviddoria@gmail.com",
+    "persona_firstname": "David",
+    "persona_id": 2205,
+    "persona_lastname": "Doria"
+   }
+  ],
+  "categories": [
+   "Density Functions",
+   "Iterative clustering"
+  ],
+  "comments": [],
+  "date_submitted": "2010-09-23 07:25:27",
+  "handles": [
+   {
+    "handle": "10380/3219",
+    "handle_url": "http://hdl.handle.net/10380/3219"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 35,
+    "journal_name": "The VTK Journal"
+   }
+  ],
+  "publication_id": 765,
+  "submitted_by_author": {
+   "author_email": "daviddoria@gmail.com",
+   "author_firstname": "David",
+   "author_id": 2205,
+   "author_institution": "Rensselaer Polytechnic Institute",
+   "author_lastname": "Doria"
+  },
+  "tags": [
+   "Mean shift",
+   "clustering"
+  ],
+  "title": "A Mean Shift Clustering Implementation for VTK"
+ }
 }

@@ -1,55 +1,69 @@
 {
-  "publication": {
-    "abstract": "The current ITK release 2.6 does not contain a way to combine transforms in a structural way. This document describes a contribution to the Insight Toolkit ITK \\url{www.itk.org}, which implements what we call an \\doxygen{CombinationTransform}. Two ways to combine transforms are implemented, by addition and by composition. Depending on this selection, different implementations of the \\code{TransformPoint()} are provided. Also the expressions for the Jacobian and the inverse transform depend on the way transforms are combined. By using function pointers expensive \\code{if}-statements are avoided. This paper is accompanied with the\r\nsource code.",
-    "authors": [
-      {
-        "author_fullname": "Klein, Stefan",
-        "author_place": 1,
-        "persona_email": "s.klein@erasmusmc.nl",
-        "persona_firstname": "Stefan",
-        "persona_id": 551,
-        "persona_lastname": "Klein"
-      },
-      {
-        "author_fullname": "Staring, Marius",
-        "author_place": 2,
-        "persona_email": "marius.staring@gmail.com",
-        "persona_firstname": "Marius",
-        "persona_id": 208,
-        "persona_lastname": "Staring"
-      }
-    ],
-    "date_submitted": "2006-05-22T11:03:01Z",
-    "handles": [
-      {
-        "handle": "1926/197",
-        "handle_url": "http://hdl.handle.net/1926/197"
-      }
-    ],
-    "id": 91,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "marius.staring@gmail.com",
-      "author_firstname": "Marius",
-      "author_id": 208,
-      "author_institution": "Leiden University Medical Center",
-      "author_lastname": "Staring"
-    },
-    "tags": [
-      "concatenation",
-      "transforms",
-      "addition",
-      "itk::CombinationTransform"
-    ],
-    "title": "Combining Transforms in ITK"
-  }
+ "publication": {
+  "abstract": "The current ITK release 2.6 does not contain a way to combine transforms in a structural way. This document describes a contribution to the Insight Toolkit ITK \\url{www.itk.org}, which implements what we call an \\doxygen{CombinationTransform}. Two ways to combine transforms are implemented, by addition and by composition. Depending on this selection, different implementations of the \\code{TransformPoint()} are provided. Also the expressions for the Jacobian and the inverse transform depend on the way transforms are combined. By using function pointers expensive \\code{if}-statements are avoided. This paper is accompanied with the\r\nsource code.",
+  "authors": [
+   {
+    "author_fullname": "Klein, Stefan",
+    "author_place": 1,
+    "persona_email": "s.klein@erasmusmc.nl",
+    "persona_firstname": "Stefan",
+    "persona_id": 551,
+    "persona_lastname": "Klein"
+   },
+   {
+    "author_fullname": "Staring, Marius",
+    "author_place": 2,
+    "persona_email": "marius.staring@gmail.com",
+    "persona_firstname": "Marius",
+    "persona_id": 208,
+    "persona_lastname": "Staring"
+   }
+  ],
+  "categories": [
+   "CMake",
+   "Data Representation",
+   "Derivatives and Integrals",
+   "Filtering",
+   "Geometric transforms",
+   "Image",
+   "Mathematics",
+   "Programming",
+   "Registration",
+   "Resampling",
+   "Transforms"
+  ],
+  "comments": [],
+  "date_submitted": "2006-05-22T11:03:01Z",
+  "handles": [
+   {
+    "handle": "1926/197",
+    "handle_url": "http://hdl.handle.net/1926/197"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 91,
+  "submitted_by_author": {
+   "author_email": "marius.staring@gmail.com",
+   "author_firstname": "Marius",
+   "author_id": 208,
+   "author_institution": "Leiden University Medical Center",
+   "author_lastname": "Staring"
+  },
+  "tags": [
+   "concatenation",
+   "transforms",
+   "addition",
+   "itk::CombinationTransform"
+  ],
+  "title": "Combining Transforms in ITK"
+ }
 }

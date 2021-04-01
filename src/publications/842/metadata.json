@@ -1,46 +1,51 @@
 {
-  "publication": {
-    "abstract": "Non-destructive evaluation(NDE) is a group of analysis techniques used in industry to evaluate the property of a material, component or product without causing damage. Among all the techniques, radiology and thermography are two most common methods that are used to inspect the property of the interior of product and combining the knowledge contained in images of two modalites requires the space alignment. In this article, a 2D/3D multi-modality image registration scheme is presented to find the alignment between thermal infrared(IR) image and CT image of a engine blade. ",
-    "authors": [
-      {
-        "author_fullname": "Jia, Zhen",
-        "author_place": 1,
-        "persona_email": "jiazhen6@gmail.com",
-        "persona_firstname": "Zhen",
-        "persona_id": 5769,
-        "persona_lastname": "Jia"
-      }
-    ],
-    "date_submitted": "2011-11-14 09:59:36",
-    "handles": [
-      {
-        "handle": "10380/3327",
-        "handle_url": "http://hdl.handle.net/10380/3327"
-      }
-    ],
-    "id": 842,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 35,
-        "journal_name": "The VTK Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "jiazhen6@gmail.com",
-      "author_firstname": "Zhen",
-      "author_id": 5769,
-      "author_institution": "University of Cincinnati",
-      "author_lastname": "Jia"
-    },
-    "tags": [
-      "Multi-modality",
-      "Image registration",
-      "Non-Destructive Evaluation"
-    ],
-    "title": "2D/3D Multi-Modality Image Registration in Non-Destructive Evaluation"
-  }
+ "publication": {
+  "abstract": "Non-destructive evaluation(NDE) is a group of analysis techniques used in industry to evaluate the property of a material, component or product without causing damage. Among all the techniques, radiology and thermography are two most common methods that are used to inspect the property of the interior of product and combining the knowledge contained in images of two modalites requires the space alignment. In this article, a 2D/3D multi-modality image registration scheme is presented to find the alignment between thermal infrared(IR) image and CT image of a engine blade. ",
+  "authors": [
+   {
+    "author_fullname": "Jia, Zhen",
+    "author_place": 1,
+    "persona_email": "jiazhen6@gmail.com",
+    "persona_firstname": "Zhen",
+    "persona_id": 5769,
+    "persona_lastname": "Jia"
+   }
+  ],
+  "categories": [
+   "Multi-modality registration",
+   "Registration metrics"
+  ],
+  "comments": [],
+  "date_submitted": "2011-11-14 09:59:36",
+  "handles": [
+   {
+    "handle": "10380/3327",
+    "handle_url": "http://hdl.handle.net/10380/3327"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 35,
+    "journal_name": "The VTK Journal"
+   }
+  ],
+  "publication_id": 842,
+  "submitted_by_author": {
+   "author_email": "jiazhen6@gmail.com",
+   "author_firstname": "Zhen",
+   "author_id": 5769,
+   "author_institution": "University of Cincinnati",
+   "author_lastname": "Jia"
+  },
+  "tags": [
+   "Multi-modality",
+   "Image registration",
+   "Non-Destructive Evaluation"
+  ],
+  "title": "2D/3D Multi-Modality Image Registration in Non-Destructive Evaluation"
+ }
 }

@@ -1,46 +1,48 @@
 {
-  "publication": {
-    "abstract": "Nonlinear finite element methods are described in which cyclic organ motion is implied from 4D scan data. The equations of motion corresponding to an explicit integration of the total Lagrangian formulation are reversed, such that the sequence of node forces which produces known changes in displacement is recovered. The forces are resolved from the global coordinate system into systems local to each element, and at every simulation time step are expressed as weighted sums of edge vectors. In the presence of large deformations and rotations, this facilitates the combination of external forces, such as tool-tissue interactions, and also positional constraints. Applications in the areas of surgery simulation and minimally invasive robotic interventions are discussed, and the methods are illustrated using CT images of a pneumatically-operated beating heart phantom.",
-    "authors": [
-      {
-        "author_fullname": "Pratt, Philip",
-        "author_place": 1,
-        "persona_email": "p.pratt@imperial.ac.uk",
-        "persona_firstname": "Philip",
-        "persona_id": 828,
-        "persona_lastname": "Pratt"
-      }
-    ],
-    "date_submitted": "2008-05-18T18:30:46Z",
-    "handles": [
-      {
-        "handle": "10380/1357",
-        "handle_url": "http://hdl.handle.net/10380/1357"
-      }
-    ],
-    "id": 550,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 33,
-        "journal_name": "MICCAI 2008 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "p.pratt@imperial.ac.uk",
-      "author_firstname": "Philip",
-      "author_id": 828,
-      "author_institution": "Imperial College, London",
-      "author_lastname": "Pratt"
-    },
-    "tags": [
-      "Surgery Simulation",
-      "Inverse Nonlinear Finite Element Method",
-      "Image Guidance"
-    ],
-    "title": "Inverse Nonlinear Finite Element Methods for Surgery Simulation and Image Guidance"
-  }
+ "publication": {
+  "abstract": "Nonlinear finite element methods are described in which cyclic organ motion is implied from 4D scan data. The equations of motion corresponding to an explicit integration of the total Lagrangian formulation are reversed, such that the sequence of node forces which produces known changes in displacement is recovered. The forces are resolved from the global coordinate system into systems local to each element, and at every simulation time step are expressed as weighted sums of edge vectors. In the presence of large deformations and rotations, this facilitates the combination of external forces, such as tool-tissue interactions, and also positional constraints. Applications in the areas of surgery simulation and minimally invasive robotic interventions are discussed, and the methods are illustrated using CT images of a pneumatically-operated beating heart phantom.",
+  "authors": [
+   {
+    "author_fullname": "Pratt, Philip",
+    "author_place": 1,
+    "persona_email": "p.pratt@imperial.ac.uk",
+    "persona_firstname": "Philip",
+    "persona_id": 828,
+    "persona_lastname": "Pratt"
+   }
+  ],
+  "categories": [],
+  "comments": [],
+  "date_submitted": "2008-05-18T18:30:46Z",
+  "handles": [
+   {
+    "handle": "10380/1357",
+    "handle_url": "http://hdl.handle.net/10380/1357"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 33,
+    "journal_name": "MICCAI 2008 Workshops"
+   }
+  ],
+  "publication_id": 550,
+  "submitted_by_author": {
+   "author_email": "p.pratt@imperial.ac.uk",
+   "author_firstname": "Philip",
+   "author_id": 828,
+   "author_institution": "Imperial College, London",
+   "author_lastname": "Pratt"
+  },
+  "tags": [
+   "Surgery Simulation",
+   "Inverse Nonlinear Finite Element Method",
+   "Image Guidance"
+  ],
+  "title": "Inverse Nonlinear Finite Element Methods for Surgery Simulation and Image Guidance"
+ }
 }

@@ -1,98 +1,104 @@
 {
-  "publication": {
-    "abstract": "Four-dimensional imaging is a necessary step in computer-assisted interventions (CAI) performed on moving surgical targets, such as those located within the beating heart or influenced by respiratory motion. Ultrasound (US) is often the best imaging modality for this application, as it provides good contrast and spatial resolution while remaining simple to integrate into the operating room. However, conventional 2D US imaging is often insufficient for preoperative planning and surgical guidance, real-time 3D ultrasound imaging using matrix array probes has a smaller field of view and lower spatial resolution, and 3D volumes created using 3D US reconstruction suffer from motion artifacts. As an alternative, gated 4D ultrasound reconstruction using a tracked 2D US probe is a promising technology. In this paper, we present SynchroGrab4D to the open-source community. SynchroGrab4D performs 3D and 4D US reconstruction in real-time while visualizing the output volume(s) within an OpenIGTLink-compliant CAI system, such as 3D Slicer. Also included are VTK classes that perform ECG-gating and that interface with several commercial tracking systems, as well as a 4D Imaging module in 3D Slicer. Our open-source imaging system can be used to collect the 4D image data required for computer-assisted surgical planning and intraoperative guidance for a variety of moving organs.",
-    "authors": [
-      {
-        "author_fullname": "Pace, Danielle",
-        "author_place": 1,
-        "persona_email": "danielle.pace@kitware.com",
-        "persona_firstname": "Danielle",
-        "persona_id": 643,
-        "persona_lastname": "Pace"
-      },
-      {
-        "author_fullname": "Gobbi, David",
-        "author_place": 2,
-        "persona_email": "david.gobbi@gmail.com",
-        "persona_firstname": "David",
-        "persona_id": 881,
-        "persona_lastname": "Gobbi"
-      },
-      {
-        "author_fullname": "Wedlake, Chris",
-        "author_place": 3,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Gumprecht, Jan",
-        "author_place": 4,
-        "persona_email": "jgumprec@bwh.harvard.edu",
-        "persona_firstname": "Jan",
-        "persona_id": 2186,
-        "persona_lastname": "Gumprecht"
-      },
-      {
-        "author_fullname": "Boisvert, Jonathan",
-        "author_place": 5,
-        "persona_email": "boisvert@cs.queensu.ca",
-        "persona_firstname": "Jonathan",
-        "persona_id": 935,
-        "persona_lastname": "Boisvert"
-      },
-      {
-        "author_fullname": "Tokuda, Junichi",
-        "author_place": 6,
-        "persona_email": "tokuda@bwh.harvard.edu",
-        "persona_firstname": "Junichi",
-        "persona_id": 761,
-        "persona_lastname": "Tokuda"
-      },
-      {
-        "author_fullname": "Hata, Nobuhiko",
-        "author_place": 7,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Peters, Terry",
-        "author_place": 8,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2009-08-16 00:43:19",
-    "handles": [
-      {
-        "handle": "10380/3083",
-        "handle_url": "http://hdl.handle.net/10380/3083"
-      }
-    ],
-    "id": 655,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 34,
-        "journal_name": "MICCAI 2009 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "danielle.pace@kitware.com",
-      "author_firstname": "Danielle",
-      "author_id": 643,
-      "author_institution": "Kitware Inc",
-      "author_lastname": "Pace"
-    },
-    "tags": [
-      "Gating",
-      "Intraoperative imaging",
-      "Computer assisted interventions",
-      "Respiratory motion",
-      "Cardiac procedures",
-      "Four-dimensional imaging",
-      "Image-guided therapy",
-      "Ultrasound reconstruction"
-    ],
-    "title": "An open-source real-time ultrasound reconstruction system for four-dimensional imaging of moving organs"
-  }
+ "publication": {
+  "abstract": "Four-dimensional imaging is a necessary step in computer-assisted interventions (CAI) performed on moving surgical targets, such as those located within the beating heart or influenced by respiratory motion. Ultrasound (US) is often the best imaging modality for this application, as it provides good contrast and spatial resolution while remaining simple to integrate into the operating room. However, conventional 2D US imaging is often insufficient for preoperative planning and surgical guidance, real-time 3D ultrasound imaging using matrix array probes has a smaller field of view and lower spatial resolution, and 3D volumes created using 3D US reconstruction suffer from motion artifacts. As an alternative, gated 4D ultrasound reconstruction using a tracked 2D US probe is a promising technology. In this paper, we present SynchroGrab4D to the open-source community. SynchroGrab4D performs 3D and 4D US reconstruction in real-time while visualizing the output volume(s) within an OpenIGTLink-compliant CAI system, such as 3D Slicer. Also included are VTK classes that perform ECG-gating and that interface with several commercial tracking systems, as well as a 4D Imaging module in 3D Slicer. Our open-source imaging system can be used to collect the 4D image data required for computer-assisted surgical planning and intraoperative guidance for a variety of moving organs.",
+  "authors": [
+   {
+    "author_fullname": "Pace, Danielle",
+    "author_place": 1,
+    "persona_email": "danielle.pace@kitware.com",
+    "persona_firstname": "Danielle",
+    "persona_id": 643,
+    "persona_lastname": "Pace"
+   },
+   {
+    "author_fullname": "Gobbi, David",
+    "author_place": 2,
+    "persona_email": "david.gobbi@gmail.com",
+    "persona_firstname": "David",
+    "persona_id": 881,
+    "persona_lastname": "Gobbi"
+   },
+   {
+    "author_fullname": "Wedlake, Chris",
+    "author_place": 3,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Gumprecht, Jan",
+    "author_place": 4,
+    "persona_email": "jgumprec@bwh.harvard.edu",
+    "persona_firstname": "Jan",
+    "persona_id": 2186,
+    "persona_lastname": "Gumprecht"
+   },
+   {
+    "author_fullname": "Boisvert, Jonathan",
+    "author_place": 5,
+    "persona_email": "boisvert@cs.queensu.ca",
+    "persona_firstname": "Jonathan",
+    "persona_id": 935,
+    "persona_lastname": "Boisvert"
+   },
+   {
+    "author_fullname": "Tokuda, Junichi",
+    "author_place": 6,
+    "persona_email": "tokuda@bwh.harvard.edu",
+    "persona_firstname": "Junichi",
+    "persona_id": 761,
+    "persona_lastname": "Tokuda"
+   },
+   {
+    "author_fullname": "Hata, Nobuhiko",
+    "author_place": 7,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Peters, Terry",
+    "author_place": 8,
+    "persona_id": null
+   }
+  ],
+  "categories": [
+   "Programming",
+   "Resampling",
+   "Streaming"
+  ],
+  "comments": [],
+  "date_submitted": "2009-08-16 00:43:19",
+  "handles": [
+   {
+    "handle": "10380/3083",
+    "handle_url": "http://hdl.handle.net/10380/3083"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 34,
+    "journal_name": "MICCAI 2009 Workshops"
+   }
+  ],
+  "publication_id": 655,
+  "submitted_by_author": {
+   "author_email": "danielle.pace@kitware.com",
+   "author_firstname": "Danielle",
+   "author_id": 643,
+   "author_institution": "Kitware Inc",
+   "author_lastname": "Pace"
+  },
+  "tags": [
+   "Gating",
+   "Intraoperative imaging",
+   "Computer assisted interventions",
+   "Respiratory motion",
+   "Cardiac procedures",
+   "Four-dimensional imaging",
+   "Image-guided therapy",
+   "Ultrasound reconstruction"
+  ],
+  "title": "An open-source real-time ultrasound reconstruction system for four-dimensional imaging of moving organs"
+ }
 }

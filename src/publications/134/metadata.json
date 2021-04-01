@@ -1,45 +1,51 @@
 {
-  "publication": {
-    "abstract": "Robust Automatic Threshold Selection (RATS) is a fast and noise robust\r\nautomatic thresholding method based on gradients in the image. The basic idea is to choose\r\nthe threshold at the intensity where the gradient are the highest.",
-    "authors": [
-      {
-        "author_fullname": "Lehmann, Gaetan",
-        "author_place": 1,
-        "persona_email": "gaetan.lehmann@gmail.com",
-        "persona_firstname": "Gaetan",
-        "persona_id": 328,
-        "persona_lastname": "Lehmann"
-      }
-    ],
-    "date_submitted": "2006-11-17T15:39:49Z",
-    "handles": [
-      {
-        "handle": "1926/370",
-        "handle_url": "http://hdl.handle.net/1926/370"
-      }
-    ],
-    "id": 134,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "gaetan.lehmann@gmail.com",
-      "author_firstname": "Gaetan",
-      "author_id": 328,
-      "author_institution": "INRA",
-      "author_lastname": "Lehmann"
-    },
-    "tags": [
-      "automatic threshold",
-      "gradient"
-    ],
-    "title": "Robust Automatic Threshold Selection"
-  }
+ "publication": {
+  "abstract": "Robust Automatic Threshold Selection (RATS) is a fast and noise robust\r\nautomatic thresholding method based on gradients in the image. The basic idea is to choose\r\nthe threshold at the intensity where the gradient are the highest.",
+  "authors": [
+   {
+    "author_fullname": "Lehmann, Gaetan",
+    "author_place": 1,
+    "persona_email": "gaetan.lehmann@gmail.com",
+    "persona_firstname": "Gaetan",
+    "persona_id": 328,
+    "persona_lastname": "Lehmann"
+   }
+  ],
+  "categories": [
+   "Filtering",
+   "Generic Programming",
+   "Thresholding"
+  ],
+  "comments": [],
+  "date_submitted": "2006-11-17T15:39:49Z",
+  "handles": [
+   {
+    "handle": "1926/370",
+    "handle_url": "http://hdl.handle.net/1926/370"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 134,
+  "submitted_by_author": {
+   "author_email": "gaetan.lehmann@gmail.com",
+   "author_firstname": "Gaetan",
+   "author_id": 328,
+   "author_institution": "INRA",
+   "author_lastname": "Lehmann"
+  },
+  "tags": [
+   "automatic threshold",
+   "gradient"
+  ],
+  "title": "Robust Automatic Threshold Selection"
+ }
 }

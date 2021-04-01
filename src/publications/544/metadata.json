@@ -1,62 +1,64 @@
 {
-  "publication": {
-    "abstract": "The goal of this workshop is to establish a forum for discussing open source toolkits and open\r\ninterfaces and how they have been applied in the development of computer assisted intervention\r\nsystems. The intent is to establish a dialogue between the open source community, industry, and\r\nresearchers in the field. The workshop will include presentations and panel discussions about: 1)\r\nexisting open source toolkits, 2) open (research) interfaces to medical products, and 3) integrated\r\nsystems for computer assisted interventions.",
-    "authors": [
-      {
-        "author_fullname": "Ibanez, Luis",
-        "author_place": 3,
-        "persona_email": "luis.ibanez@kitware.com",
-        "persona_firstname": "Luis",
-        "persona_id": 4,
-        "persona_lastname": "Ibanez"
-      },
-      {
-        "author_fullname": "Kazanzides, Peter",
-        "author_place": 1,
-        "persona_email": "pkaz@cs.jhu.edu",
-        "persona_firstname": "Peter",
-        "persona_id": 63,
-        "persona_lastname": "Kazanzides"
-      },
-      {
-        "author_fullname": "Hata, Nobuhiko",
-        "author_place": 2,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": null,
-    "handles": [
-      {
-        "handle": "10380/1336",
-        "handle_url": "http://hdl.handle.net/10380/1336"
-      }
-    ],
-    "id": 544,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 40,
-        "journal_name": "MICCAI 2012 Workshops"
-      },
-      {
-        "journal_id": 33,
-        "journal_name": "MICCAI 2008 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "stephen.aylward@kitware.com",
-      "author_firstname": "Stephen",
-      "author_id": 1,
-      "author_institution": "Kitware, Inc.",
-      "author_lastname": "Aylward"
-    },
-    "tags": [
-      "open source",
-      "Open architecture"
-    ],
-    "title": "Systems and Architectures for Computer-Assisted Interventions"
-  }
+ "publication": {
+  "abstract": "The goal of this workshop is to establish a forum for discussing open source toolkits and open\r\ninterfaces and how they have been applied in the development of computer assisted intervention\r\nsystems. The intent is to establish a dialogue between the open source community, industry, and\r\nresearchers in the field. The workshop will include presentations and panel discussions about: 1)\r\nexisting open source toolkits, 2) open (research) interfaces to medical products, and 3) integrated\r\nsystems for computer assisted interventions.",
+  "authors": [
+   {
+    "author_fullname": "Ibanez, Luis",
+    "author_place": 3,
+    "persona_email": "luis.ibanez@kitware.com",
+    "persona_firstname": "Luis",
+    "persona_id": 4,
+    "persona_lastname": "Ibanez"
+   },
+   {
+    "author_fullname": "Kazanzides, Peter",
+    "author_place": 1,
+    "persona_email": "pkaz@cs.jhu.edu",
+    "persona_firstname": "Peter",
+    "persona_id": 63,
+    "persona_lastname": "Kazanzides"
+   },
+   {
+    "author_fullname": "Hata, Nobuhiko",
+    "author_place": 2,
+    "persona_id": null
+   }
+  ],
+  "categories": [],
+  "comments": [],
+  "date_submitted": null,
+  "handles": [
+   {
+    "handle": "10380/1336",
+    "handle_url": "http://hdl.handle.net/10380/1336"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 40,
+    "journal_name": "MICCAI 2012 Workshops"
+   },
+   {
+    "journal_id": 33,
+    "journal_name": "MICCAI 2008 Workshops"
+   }
+  ],
+  "publication_id": 544,
+  "submitted_by_author": {
+   "author_email": "stephen.aylward@kitware.com",
+   "author_firstname": "Stephen",
+   "author_id": 1,
+   "author_institution": "Kitware, Inc.",
+   "author_lastname": "Aylward"
+  },
+  "tags": [
+   "open source",
+   "Open architecture"
+  ],
+  "title": "Systems and Architectures for Computer-Assisted Interventions"
+ }
 }

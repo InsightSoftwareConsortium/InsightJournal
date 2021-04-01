@@ -1,46 +1,80 @@
 {
-  "publication": {
-    "abstract": "In this article, a spline driven image slicer algorithm is presented. It is concretized through a vtkAlgorithm-inherited class that takes two inputs and gives two outputs. The first input is the volume from which the slice should reconstructed while the second one is the spline which tangent vector is used as slicing plane normal. The first output is a 2D image resliced from the volume.\nThe second output gives the geometric information of the slice plane location in the volume space. An example of use is given through a simulation of a dental panoramic view from a MDCT volume.",
-    "authors": [
-      {
-        "author_fullname": "Velut, Jerome",
-        "author_place": 1,
-        "persona_email": "jerome.velut@kitware.com",
-        "persona_firstname": "Jerome",
-        "persona_id": 2453,
-        "persona_lastname": "Velut"
-      }
-    ],
-    "date_submitted": "2011-09-19 14:42:59",
-    "handles": [
-      {
-        "handle": "10380/3318",
-        "handle_url": "http://hdl.handle.net/10380/3318"
-      }
-    ],
-    "id": 838,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 35,
-        "journal_name": "The VTK Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "jerome.velut@kitware.com",
-      "author_firstname": "Jerome",
-      "author_id": 2453,
-      "author_institution": "Kitware SAS",
-      "author_lastname": "Velut"
-    },
-    "tags": [
-      "Frenet frame",
-      "slicer",
-      "Curved planar reformatted volume"
-    ],
-    "title": "A Spline-Driven Image Slicer"
-  }
+ "publication": {
+  "abstract": "In this article, a spline driven image slicer algorithm is presented. It is concretized through a vtkAlgorithm-inherited class that takes two inputs and gives two outputs. The first input is the volume from which the slice should reconstructed while the second one is the spline which tangent vector is used as slicing plane normal. The first output is a 2D image resliced from the volume.\nThe second output gives the geometric information of the slice plane location in the volume space. An example of use is given through a simulation of a dental panoramic view from a MDCT volume.",
+  "authors": [
+   {
+    "author_fullname": "Velut, Jerome",
+    "author_place": 1,
+    "persona_email": "jerome.velut@kitware.com",
+    "persona_firstname": "Jerome",
+    "persona_id": 2453,
+    "persona_lastname": "Velut"
+   }
+  ],
+  "categories": [
+   "Data Representation",
+   "Derivatives and Integrals",
+   "Filtering",
+   "Image",
+   "Path",
+   "Resampling"
+  ],
+  "comments": [
+   {
+    "content": "Good commentary ! I am thankful for the info  Does anyone know if my business might locate a sample a form example to fill in ?\r\n",
+    "date": "2016-04-02T03:24:25",
+    "persona_email": "jorgepdf09@gmail.com",
+    "persona_firstname": "Macie",
+    "persona_id": 9760,
+    "persona_lastname": "Rawson"
+   },
+   {
+    "content": "great materia !.\r\n\r\nThe class is great.\r\n\r\nIs all one needs to have a panoramic view. Where can I find a support for this class?",
+    "date": "2015-04-28T12:54:18",
+    "persona_email": "jose.de.paula@live.com",
+    "persona_firstname": "Jos\u00e9",
+    "persona_id": 9492,
+    "persona_lastname": "Teixeira de paula"
+   },
+   {
+    "content": "when I build cmake this error raised \r\nCMake Error at Filters/CMakeLists.txt:4 (INCLUDE):\r\n  include called with wrong number of arguments.  include() only takes one\r\n  file.\r\n\r\n\r\nCMake Error at Tests/CMakeLists.txt:2 (INCLUDE):\r\n  include could not find load file:\r\n\r\n    /usr/share/cmake-3.5/Modules/FindVTK.cmake\r\n\r\n\r\n-- Configuring incomplete errors occurred!\r\n",
+    "date": "2017-04-04T07:40:58",
+    "persona_email": "r.saad@nu.edu.eg",
+    "persona_firstname": "Rana",
+    "persona_id": 10309,
+    "persona_lastname": "Elrobi"
+   }
+  ],
+  "date_submitted": "2011-09-19 14:42:59",
+  "handles": [
+   {
+    "handle": "10380/3318",
+    "handle_url": "http://hdl.handle.net/10380/3318"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 35,
+    "journal_name": "The VTK Journal"
+   }
+  ],
+  "publication_id": 838,
+  "submitted_by_author": {
+   "author_email": "jerome.velut@kitware.com",
+   "author_firstname": "Jerome",
+   "author_id": 2453,
+   "author_institution": "Kitware SAS",
+   "author_lastname": "Velut"
+  },
+  "tags": [
+   "Frenet frame",
+   "slicer",
+   "Curved planar reformatted volume"
+  ],
+  "title": "A Spline-Driven Image Slicer"
+ }
 }

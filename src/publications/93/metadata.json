@@ -1,45 +1,47 @@
 {
-  "publication": {
-    "abstract": "Classes to provide IO capabilities for the ITK Neural Networks library.",
-    "authors": [
-      {
-        "author_fullname": "Venkatram, Raghu",
-        "author_place": 1,
-        "persona_email": "raghu.venkatram@unc.edu",
-        "persona_firstname": "Raghu",
-        "persona_id": 196,
-        "persona_lastname": "Venkatram"
-      }
-    ],
-    "date_submitted": "2006-06-29T15:13:24Z",
-    "handles": [
-      {
-        "handle": "1926/203",
-        "handle_url": "http://hdl.handle.net/1926/203"
-      }
-    ],
-    "id": 93,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "raghu.venkatram@unc.edu",
-      "author_firstname": "Raghu",
-      "author_id": 196,
-      "author_institution": "University of North Carolina, Chapel Hill",
-      "author_lastname": "Venkatram"
-    },
-    "tags": [
-      "Neural Networks",
-      "IO"
-    ],
-    "title": "ITK Neural Networks IO Classes"
-  }
+ "publication": {
+  "abstract": "Classes to provide IO capabilities for the ITK Neural Networks library.",
+  "authors": [
+   {
+    "author_fullname": "Venkatram, Raghu",
+    "author_place": 1,
+    "persona_email": "raghu.venkatram@unc.edu",
+    "persona_firstname": "Raghu",
+    "persona_id": 196,
+    "persona_lastname": "Venkatram"
+   }
+  ],
+  "categories": [],
+  "comments": [],
+  "date_submitted": "2006-06-29T15:13:24Z",
+  "handles": [
+   {
+    "handle": "1926/203",
+    "handle_url": "http://hdl.handle.net/1926/203"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 93,
+  "submitted_by_author": {
+   "author_email": "raghu.venkatram@unc.edu",
+   "author_firstname": "Raghu",
+   "author_id": 196,
+   "author_institution": "University of North Carolina, Chapel Hill",
+   "author_lastname": "Venkatram"
+  },
+  "tags": [
+   "Neural Networks",
+   "IO"
+  ],
+  "title": "ITK Neural Networks IO Classes"
+ }
 }

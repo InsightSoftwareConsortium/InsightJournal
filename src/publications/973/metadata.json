@@ -1,45 +1,50 @@
 {
-  "publication": {
-    "abstract": "Binary morphological operations are fundamental tools in image processing but the processing time scales with the number of pixels thus making them expensive operations on the CPU for larger 3D datasets that typically appear in medical imaging. Since erosion and dilatation are special neighborhood operators, each pixel in the output depends only on the neighborhood region which makes them fit for massive GPU parallelization. This document introduces a new ITK module that implements generic (OpenCL based) GPU accelerated binary morphology image filters for erosion and dilatation. The filter can be executed within the standard ITKGPU pipeline.",
-    "authors": [
-      {
-        "author_fullname": "Bardosi, Zoltan",
-        "author_place": 1,
-        "persona_email": "zoltan.bardosi@i-med.ac.at",
-        "persona_firstname": "Zoltan",
-        "persona_id": 9499,
-        "persona_lastname": "Bardosi"
-      }
-    ],
-    "date_submitted": "2015-10-02 07:25:57",
-    "handles": [
-      {
-        "handle": "10380/3525",
-        "handle_url": "http://hdl.handle.net/10380/3525"
-      }
-    ],
-    "id": 973,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "zoltan.bardosi@i-med.ac.at",
-      "author_firstname": "Zoltan",
-      "author_id": 9499,
-      "author_institution": "Medical University of Innsbruck",
-      "author_lastname": "Bardosi"
-    },
-    "tags": [
-      "GPU",
-      "binary morphology"
-    ],
-    "title": "OpenCL accelerated GPU binary morphology image filters for ITK"
-  }
+ "publication": {
+  "abstract": "Binary morphological operations are fundamental tools in image processing but the processing time scales with the number of pixels thus making them expensive operations on the CPU for larger 3D datasets that typically appear in medical imaging. Since erosion and dilatation are special neighborhood operators, each pixel in the output depends only on the neighborhood region which makes them fit for massive GPU parallelization. This document introduces a new ITK module that implements generic (OpenCL based) GPU accelerated binary morphology image filters for erosion and dilatation. The filter can be executed within the standard ITKGPU pipeline.",
+  "authors": [
+   {
+    "author_fullname": "Bardosi, Zoltan",
+    "author_place": 1,
+    "persona_email": "zoltan.bardosi@i-med.ac.at",
+    "persona_firstname": "Zoltan",
+    "persona_id": 9499,
+    "persona_lastname": "Bardosi"
+   }
+  ],
+  "categories": [
+   "Code speed optimization",
+   "Mathematical Morphology"
+  ],
+  "comments": [],
+  "date_submitted": "2015-10-02 07:25:57",
+  "handles": [
+   {
+    "handle": "10380/3525",
+    "handle_url": "http://hdl.handle.net/10380/3525"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 973,
+  "submitted_by_author": {
+   "author_email": "zoltan.bardosi@i-med.ac.at",
+   "author_firstname": "Zoltan",
+   "author_id": 9499,
+   "author_institution": "Medical University of Innsbruck",
+   "author_lastname": "Bardosi"
+  },
+  "tags": [
+   "GPU",
+   "binary morphology"
+  ],
+  "title": "OpenCL accelerated GPU binary morphology image filters for ITK"
+ }
 }

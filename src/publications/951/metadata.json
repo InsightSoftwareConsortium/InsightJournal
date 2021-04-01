@@ -1,57 +1,70 @@
 {
-  "publication": {
-    "abstract": "The presented ParaView plugin allows easy access to the algorithm described in Ref 1. It enables analysis of faceted objects that exhibit distortions in their digital representation, e.g. due to tomographic reconstruction artifacts.\nThe contributed functionality can also be used outside ParaView in e.g. command-line programs. The code, data, a test and an example program are included.",
-    "authors": [
-      {
-        "author_fullname": "Grothausmann, Roman",
-        "author_place": 2,
-        "persona_email": "Grothausmann.Roman@mh-hannover.de",
-        "persona_firstname": "Roman",
-        "persona_id": 6854,
-        "persona_lastname": "Grothausmann"
-      },
-      {
-        "author_fullname": "Beare, Richard",
-        "author_place": 3,
-        "persona_email": "richard.beare@ieee.org",
-        "persona_firstname": "Richard",
-        "persona_id": 197,
-        "persona_lastname": "Beare"
-      }
-    ],
-    "date_submitted": "2015-02-05 06:18:10",
-    "handles": [
-      {
-        "handle": "10380/3510",
-        "handle_url": "http://hdl.handle.net/10380/3510"
-      }
-    ],
-    "id": 951,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 31,
-        "journal_name": "The MIDAS Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "Grothausmann.Roman@mh-hannover.de",
-      "author_firstname": "Roman",
-      "author_id": 6854,
-      "author_institution": "Medizinische Hochschule Hannover",
-      "author_lastname": "Grothausmann"
-    },
-    "tags": [
-      "ParaView",
-      "interplanar angles",
-      "facets",
-      "tomography",
-      "ITK",
-      "VTK"
-    ],
-    "title": "Facet Analyser: ParaView plugin for automated facet detection and measurement of interplanar angles of tomographic objects"
-  }
+ "publication": {
+  "abstract": "The presented ParaView plugin allows easy access to the algorithm described in Ref 1. It enables analysis of faceted objects that exhibit distortions in their digital representation, e.g. due to tomographic reconstruction artifacts.\nThe contributed functionality can also be used outside ParaView in e.g. command-line programs. The code, data, a test and an example program are included.",
+  "authors": [
+   {
+    "author_fullname": "Grothausmann, Roman",
+    "author_place": 2,
+    "persona_email": "Grothausmann.Roman@mh-hannover.de",
+    "persona_firstname": "Roman",
+    "persona_id": 6854,
+    "persona_lastname": "Grothausmann"
+   },
+   {
+    "author_fullname": "Beare, Richard",
+    "author_place": 3,
+    "persona_email": "richard.beare@ieee.org",
+    "persona_firstname": "Richard",
+    "persona_id": 197,
+    "persona_lastname": "Beare"
+   }
+  ],
+  "categories": [
+   "Edge Detection",
+   "Error Estimation",
+   "Geometric transforms",
+   "Image",
+   "Mesh",
+   "Neighborhood filters",
+   "Probability",
+   "Surface extraction",
+   "Thresholding",
+   "Watersheds"
+  ],
+  "comments": [],
+  "date_submitted": "2015-02-05 06:18:10",
+  "handles": [
+   {
+    "handle": "10380/3510",
+    "handle_url": "http://hdl.handle.net/10380/3510"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 31,
+    "journal_name": "The MIDAS Journal"
+   }
+  ],
+  "publication_id": 951,
+  "submitted_by_author": {
+   "author_email": "Grothausmann.Roman@mh-hannover.de",
+   "author_firstname": "Roman",
+   "author_id": 6854,
+   "author_institution": "Medizinische Hochschule Hannover",
+   "author_lastname": "Grothausmann"
+  },
+  "tags": [
+   "ParaView",
+   "interplanar angles",
+   "facets",
+   "tomography",
+   "ITK",
+   "VTK"
+  ],
+  "title": "Facet Analyser: ParaView plugin for automated facet detection and measurement of interplanar angles of tomographic objects"
+ }
 }

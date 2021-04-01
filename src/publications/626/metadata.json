@@ -1,118 +1,123 @@
 {
-  "publication": {
-    "abstract": "This paper is a position statement on the benefits that an Open Source toolkit can bring to the field of image guided surgery. The particular example discussed here is the IGSTK toolkit. IGSTK is an open source software project designed for supporting the development of image guided surgery software applications. It provides functionalities for interfacing with optical and electromagnetic trackers, reading and visualizing DICOM datasets, as well as loading and displaying geometrical models resulting from image segmentation. These functionalities are enveloped by a simplified API implemented in a layer designed with emphasis on patient safety. The Toolkit is designed to ease the development of IGS applications, providing the basic functionalities related to the management of basic components. IGSTK is based on the Insight Toolkit (ITK) and the Visualization Toolkit (VTK), and can be combined with GUI toolkits such as FLTK and Qt. The IGSTK toolkit is distributed under a BSD license. \r\nEnter the names of any sponsors and/or funding codes in the box below.",
-    "authors": [
-      {
-        "author_fullname": "Ibanez, Luis",
-        "author_place": 1,
-        "persona_email": "luis.ibanez@kitware.com",
-        "persona_firstname": "Luis",
-        "persona_id": 4,
-        "persona_lastname": "Ibanez"
-      },
-      {
-        "author_fullname": "Enquobahrie, Andinet",
-        "author_place": 2,
-        "persona_email": "andinet.enqu@kitware.com",
-        "persona_firstname": "Andinet",
-        "persona_id": 68,
-        "persona_lastname": "Enquobahrie"
-      },
-      {
-        "author_fullname": "Turek, Matt",
-        "author_place": 3,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Jomier, Julien",
-        "author_place": 4,
-        "persona_email": "julien@jomier.com",
-        "persona_firstname": "Julien",
-        "persona_id": 3,
-        "persona_lastname": "Jomier"
-      },
-      {
-        "author_fullname": "Avila, Rick",
-        "author_place": 5,
-        "persona_email": "rick.avila@kitware.com",
-        "persona_firstname": "Rick",
-        "persona_id": 214,
-        "persona_lastname": "Avila"
-      },
-      {
-        "author_fullname": "Cheng, Patrick",
-        "author_place": 6,
-        "persona_email": "cheng@isis.georgetown.edu",
-        "persona_firstname": "Patrick",
-        "persona_id": 456,
-        "persona_lastname": "Cheng"
-      },
-      {
-        "author_fullname": "Yaniv, Ziv",
-        "author_place": 7,
-        "persona_email": "zivy@isis.georgetown.edu",
-        "persona_firstname": "Ziv",
-        "persona_id": 201,
-        "persona_lastname": "Yaniv"
-      },
-      {
-        "author_fullname": "Lindseth, Frank",
-        "author_place": 8,
-        "persona_email": "Frank.Lindseth@sintef.no",
-        "persona_firstname": "Frank",
-        "persona_id": 97,
-        "persona_lastname": "Lindseth"
-      },
-      {
-        "author_fullname": "Gary, Kevin",
-        "author_place": 9,
-        "persona_email": "kgary@asu.edu",
-        "persona_firstname": "Kevin",
-        "persona_id": 274,
-        "persona_lastname": "Gary"
-      },
-      {
-        "author_fullname": "Cleary, Kevin",
-        "author_place": 10,
-        "persona_email": "cleary@georgetown.edu",
-        "persona_firstname": "Kevin",
-        "persona_id": 368,
-        "persona_lastname": "Cleary"
-      }
-    ],
-    "date_submitted": "2008-07-31T23:30:42Z",
-    "handles": [
-      {
-        "handle": "10380/1470",
-        "handle_url": "http://hdl.handle.net/10380/1470"
-      }
-    ],
-    "id": 626,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 40,
-        "journal_name": "MICCAI 2012 Workshops"
-      },
-      {
-        "journal_id": 33,
-        "journal_name": "MICCAI 2008 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "luis.ibanez@kitware.com",
-      "author_firstname": "Luis",
-      "author_id": 4,
-      "author_institution": "KITWARE Inc.",
-      "author_lastname": "Ibanez"
-    },
-    "tags": [
-      "Open-Source",
-      "Image-Guided Surgery"
-    ],
-    "title": "IGSTK: Building High Quality Roads with Open Source Software"
-  }
+ "publication": {
+  "abstract": "This paper is a position statement on the benefits that an Open Source toolkit can bring to the field of image guided surgery. The particular example discussed here is the IGSTK toolkit. IGSTK is an open source software project designed for supporting the development of image guided surgery software applications. It provides functionalities for interfacing with optical and electromagnetic trackers, reading and visualizing DICOM datasets, as well as loading and displaying geometrical models resulting from image segmentation. These functionalities are enveloped by a simplified API implemented in a layer designed with emphasis on patient safety. The Toolkit is designed to ease the development of IGS applications, providing the basic functionalities related to the management of basic components. IGSTK is based on the Insight Toolkit (ITK) and the Visualization Toolkit (VTK), and can be combined with GUI toolkits such as FLTK and Qt. The IGSTK toolkit is distributed under a BSD license. \r\nEnter the names of any sponsors and/or funding codes in the box below.",
+  "authors": [
+   {
+    "author_fullname": "Ibanez, Luis",
+    "author_place": 1,
+    "persona_email": "luis.ibanez@kitware.com",
+    "persona_firstname": "Luis",
+    "persona_id": 4,
+    "persona_lastname": "Ibanez"
+   },
+   {
+    "author_fullname": "Enquobahrie, Andinet",
+    "author_place": 2,
+    "persona_email": "andinet.enqu@kitware.com",
+    "persona_firstname": "Andinet",
+    "persona_id": 68,
+    "persona_lastname": "Enquobahrie"
+   },
+   {
+    "author_fullname": "Turek, Matt",
+    "author_place": 3,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Jomier, Julien",
+    "author_place": 4,
+    "persona_email": "julien@jomier.com",
+    "persona_firstname": "Julien",
+    "persona_id": 3,
+    "persona_lastname": "Jomier"
+   },
+   {
+    "author_fullname": "Avila, Rick",
+    "author_place": 5,
+    "persona_email": "rick.avila@kitware.com",
+    "persona_firstname": "Rick",
+    "persona_id": 214,
+    "persona_lastname": "Avila"
+   },
+   {
+    "author_fullname": "Cheng, Patrick",
+    "author_place": 6,
+    "persona_email": "cheng@isis.georgetown.edu",
+    "persona_firstname": "Patrick",
+    "persona_id": 456,
+    "persona_lastname": "Cheng"
+   },
+   {
+    "author_fullname": "Yaniv, Ziv",
+    "author_place": 7,
+    "persona_email": "zivy@isis.georgetown.edu",
+    "persona_firstname": "Ziv",
+    "persona_id": 201,
+    "persona_lastname": "Yaniv"
+   },
+   {
+    "author_fullname": "Lindseth, Frank",
+    "author_place": 8,
+    "persona_email": "Frank.Lindseth@sintef.no",
+    "persona_firstname": "Frank",
+    "persona_id": 97,
+    "persona_lastname": "Lindseth"
+   },
+   {
+    "author_fullname": "Gary, Kevin",
+    "author_place": 9,
+    "persona_email": "kgary@asu.edu",
+    "persona_firstname": "Kevin",
+    "persona_id": 274,
+    "persona_lastname": "Gary"
+   },
+   {
+    "author_fullname": "Cleary, Kevin",
+    "author_place": 10,
+    "persona_email": "cleary@georgetown.edu",
+    "persona_firstname": "Kevin",
+    "persona_id": 368,
+    "persona_lastname": "Cleary"
+   }
+  ],
+  "categories": [
+   "Programming",
+   "Registration"
+  ],
+  "comments": [],
+  "date_submitted": "2008-07-31T23:30:42Z",
+  "handles": [
+   {
+    "handle": "10380/1470",
+    "handle_url": "http://hdl.handle.net/10380/1470"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 40,
+    "journal_name": "MICCAI 2012 Workshops"
+   },
+   {
+    "journal_id": 33,
+    "journal_name": "MICCAI 2008 Workshops"
+   }
+  ],
+  "publication_id": 626,
+  "submitted_by_author": {
+   "author_email": "luis.ibanez@kitware.com",
+   "author_firstname": "Luis",
+   "author_id": 4,
+   "author_institution": "KITWARE Inc.",
+   "author_lastname": "Ibanez"
+  },
+  "tags": [
+   "Open-Source",
+   "Image-Guided Surgery"
+  ],
+  "title": "IGSTK: Building High Quality Roads with Open Source Software"
+ }
 }

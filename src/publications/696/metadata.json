@@ -1,73 +1,83 @@
 {
-  "publication": {
-    "abstract": "Many neuroanatomy studies rely on brain tissue segmentation in Magnetic Resonance images (MRI). The Expectation-Maximization (EM) theory offers a popular framework for this task. We studied the EM algorithm developed at the Surgical Planning Laboratory (SPL) at Harvard Medical School and implemented in the Slicer3 software. We observed that the segmentation lacks accuracy if the image exhibits some intensity inhomogeneity. Moreover the optimum parameters are challenging to estimate. This document aims at describing our solutions within the context of statistical modeling. Our contributions range from algorithm improvements to novel representations of the statistical distribution model. First we added a bias field correction module and exposed the most significant parameters. Second we proposed a new way to select the distribution of the tissues to be segmented. Finally we designed a set of interactive tools to make the segmentation process easier and more accurate. To validate the new segmentation pipeline, we performed our experiments on MRI data and a clinical expert evaluated our results.\n\nThe source code developed for this work, i.e. the code of the MRIBiasFieldCorrection and EMSegment modules, is part of Slicer3 version 3.5 and can be downloaded by this command: svn co http://svn.slicer.org/Slicer3/trunk Slicer3",
-    "authors": [
-      {
-        "author_fullname": "Rannou, Nicolas",
-        "author_place": 1,
-        "persona_email": "nrannou@bwh.harvard.edu",
-        "persona_firstname": "Nicolas",
-        "persona_id": 2142,
-        "persona_lastname": "Rannou"
-      },
-      {
-        "author_fullname": "Jaume, Sylvain",
-        "author_place": 2,
-        "persona_email": "sylvainjaume@gmail.com",
-        "persona_firstname": "Sylvain",
-        "persona_id": 102,
-        "persona_lastname": "Jaume"
-      },
-      {
-        "author_fullname": "Pieper, Steve",
-        "author_place": 3,
-        "persona_email": "pieper@bwh.harvard.edu",
-        "persona_firstname": "Steve ",
-        "persona_id": 75,
-        "persona_lastname": "Pieper"
-      },
-      {
-        "author_fullname": "Kikinis, Ron",
-        "author_place": 4,
-        "persona_email": "kikinis@bwh.harvard.edu",
-        "persona_firstname": "Ron",
-        "persona_id": 238,
-        "persona_lastname": "Kikinis"
-      }
-    ],
-    "date_submitted": "2009-09-15 21:58:23",
-    "handles": [
-      {
-        "handle": "10380/3127",
-        "handle_url": "http://hdl.handle.net/10380/3127"
-      }
-    ],
-    "id": 696,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "sylvainjaume@gmail.com",
-      "author_firstname": "Sylvain",
-      "author_id": 102,
-      "author_institution": "MIT CSAIL",
-      "author_lastname": "Jaume"
-    },
-    "tags": [
-      "segmentation",
-      "MRI inhomogeneity",
-      "Gaussian distribution",
-      "statistical modeling",
-      "bias field correction",
-      "expectation maximization"
-    ],
-    "title": "New Expectation Maximization Segmentation Pipeline in Slicer 3"
-  }
+ "publication": {
+  "abstract": "Many neuroanatomy studies rely on brain tissue segmentation in Magnetic Resonance images (MRI). The Expectation-Maximization (EM) theory offers a popular framework for this task. We studied the EM algorithm developed at the Surgical Planning Laboratory (SPL) at Harvard Medical School and implemented in the Slicer3 software. We observed that the segmentation lacks accuracy if the image exhibits some intensity inhomogeneity. Moreover the optimum parameters are challenging to estimate. This document aims at describing our solutions within the context of statistical modeling. Our contributions range from algorithm improvements to novel representations of the statistical distribution model. First we added a bias field correction module and exposed the most significant parameters. Second we proposed a new way to select the distribution of the tissues to be segmented. Finally we designed a set of interactive tools to make the segmentation process easier and more accurate. To validate the new segmentation pipeline, we performed our experiments on MRI data and a clinical expert evaluated our results.\n\nThe source code developed for this work, i.e. the code of the MRIBiasFieldCorrection and EMSegment modules, is part of Slicer3 version 3.5 and can be downloaded by this command: svn co http://svn.slicer.org/Slicer3/trunk Slicer3",
+  "authors": [
+   {
+    "author_fullname": "Rannou, Nicolas",
+    "author_place": 1,
+    "persona_email": "nrannou@bwh.harvard.edu",
+    "persona_firstname": "Nicolas",
+    "persona_id": 2142,
+    "persona_lastname": "Rannou"
+   },
+   {
+    "author_fullname": "Jaume, Sylvain",
+    "author_place": 2,
+    "persona_email": "sylvainjaume@gmail.com",
+    "persona_firstname": "Sylvain",
+    "persona_id": 102,
+    "persona_lastname": "Jaume"
+   },
+   {
+    "author_fullname": "Pieper, Steve",
+    "author_place": 3,
+    "persona_email": "pieper@bwh.harvard.edu",
+    "persona_firstname": "Steve ",
+    "persona_id": 75,
+    "persona_lastname": "Pieper"
+   },
+   {
+    "author_fullname": "Kikinis, Ron",
+    "author_place": 4,
+    "persona_email": "kikinis@bwh.harvard.edu",
+    "persona_firstname": "Ron",
+    "persona_id": 238,
+    "persona_lastname": "Kikinis"
+   }
+  ],
+  "categories": [
+   "Atlas-based segmentation",
+   "Bayesian Decision Theory",
+   "Classification",
+   "Information Theory",
+   "Mathematics",
+   "Probability",
+   "Segmentation"
+  ],
+  "comments": [],
+  "date_submitted": "2009-09-15 21:58:23",
+  "handles": [
+   {
+    "handle": "10380/3127",
+    "handle_url": "http://hdl.handle.net/10380/3127"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 696,
+  "submitted_by_author": {
+   "author_email": "sylvainjaume@gmail.com",
+   "author_firstname": "Sylvain",
+   "author_id": 102,
+   "author_institution": "MIT CSAIL",
+   "author_lastname": "Jaume"
+  },
+  "tags": [
+   "segmentation",
+   "MRI inhomogeneity",
+   "Gaussian distribution",
+   "statistical modeling",
+   "bias field correction",
+   "expectation maximization"
+  ],
+  "title": "New Expectation Maximization Segmentation Pipeline in Slicer 3"
+ }
 }

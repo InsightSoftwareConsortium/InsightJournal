@@ -1,47 +1,49 @@
 {
-  "publication": {
-    "abstract": null,
-    "authors": [
-      {
-        "author_fullname": "Brandvein, Jonathan",
-        "author_place": 1,
-        "persona_email": "brandj2@rpi.edu",
-        "persona_firstname": "Jonathan",
-        "persona_id": 703,
-        "persona_lastname": "Brandvein"
-      }
-    ],
-    "date_submitted": "2007-10-18T07:46:43Z",
-    "handles": [
-      {
-        "handle": "1926/1298",
-        "handle_url": "http://hdl.handle.net/1926/1298"
-      }
-    ],
-    "id": 189,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "brandj2@rpi.edu",
-      "author_firstname": "Jonathan",
-      "author_id": 703,
-      "author_institution": "Rensselaer Polytechnic Institution",
-      "author_lastname": "Brandvein"
-    },
-    "tags": [
-      "Connected",
-      "Threshold",
-      "Ventricle",
-      "RPI"
-    ],
-    "title": "RPI OSSP Ventricle ConnectedThreshold Segmentation"
-  }
+ "publication": {
+  "abstract": null,
+  "authors": [
+   {
+    "author_fullname": "Brandvein, Jonathan",
+    "author_place": 1,
+    "persona_email": "brandj2@rpi.edu",
+    "persona_firstname": "Jonathan",
+    "persona_id": 703,
+    "persona_lastname": "Brandvein"
+   }
+  ],
+  "categories": [],
+  "comments": [],
+  "date_submitted": "2007-10-18T07:46:43Z",
+  "handles": [
+   {
+    "handle": "1926/1298",
+    "handle_url": "http://hdl.handle.net/1926/1298"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 189,
+  "submitted_by_author": {
+   "author_email": "brandj2@rpi.edu",
+   "author_firstname": "Jonathan",
+   "author_id": 703,
+   "author_institution": "Rensselaer Polytechnic Institution",
+   "author_lastname": "Brandvein"
+  },
+  "tags": [
+   "Connected",
+   "Threshold",
+   "Ventricle",
+   "RPI"
+  ],
+  "title": "RPI OSSP Ventricle ConnectedThreshold Segmentation"
+ }
 }

@@ -1,58 +1,63 @@
 {
-  "publication": {
-    "abstract": "Although many variations of active contour segmentation algorithms exist, most are based on solely edge criteria and breakdown or leak at weak boundaries. One solution to this problem is constraining the segmented area to only statistically possible shapes with the guidance of a shape model. The purpose of this document is to fill the void in the ITK user guide on building active shape models. We describe how to create a 2d active shape model of articular femoral knee cartilage using ITK\u2019s ImagePCAShapeModelEstimator. Sample code and example images are provided for displaying the initial principle components of variation. Shape models built with our code can be used for segmentation with itk::GeodesicActiveContourShapePriorLevelSetImageFilter.",
-    "authors": [
-      {
-        "author_fullname": "Durkin, John",
-        "author_place": 1,
-        "persona_email": "john.r.durkin@gmail.com",
-        "persona_firstname": "John",
-        "persona_id": 2445,
-        "persona_lastname": "Durkin"
-      },
-      {
-        "author_fullname": "Miller, David",
-        "author_place": 2,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Urish, Kenneth",
-        "author_place": 3,
-        "persona_email": "ken.urish@gmail.com",
-        "persona_firstname": "Kenneth",
-        "persona_id": 55,
-        "persona_lastname": "Urish"
-      }
-    ],
-    "date_submitted": "2011-06-14 09:16:27",
-    "handles": [
-      {
-        "handle": "10380/3282",
-        "handle_url": "http://hdl.handle.net/10380/3282"
-      }
-    ],
-    "id": 812,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "john.r.durkin@gmail.com",
-      "author_firstname": "John",
-      "author_id": 2445,
-      "author_institution": "",
-      "author_lastname": "Durkin"
-    },
-    "tags": [
-      "Segmentation",
-      "Active shape model"
-    ],
-    "title": "Creating a 2D Active Shape Model Using itk::ImagePCAShapeModelEstimator"
-  }
+ "publication": {
+  "abstract": "Although many variations of active contour segmentation algorithms exist, most are based on solely edge criteria and breakdown or leak at weak boundaries. One solution to this problem is constraining the segmented area to only statistically possible shapes with the guidance of a shape model. The purpose of this document is to fill the void in the ITK user guide on building active shape models. We describe how to create a 2d active shape model of articular femoral knee cartilage using ITK\u2019s ImagePCAShapeModelEstimator. Sample code and example images are provided for displaying the initial principle components of variation. Shape models built with our code can be used for segmentation with itk::GeodesicActiveContourShapePriorLevelSetImageFilter.",
+  "authors": [
+   {
+    "author_fullname": "Durkin, John",
+    "author_place": 1,
+    "persona_email": "john.r.durkin@gmail.com",
+    "persona_firstname": "John",
+    "persona_id": 2445,
+    "persona_lastname": "Durkin"
+   },
+   {
+    "author_fullname": "Miller, David",
+    "author_place": 2,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Urish, Kenneth",
+    "author_place": 3,
+    "persona_email": "ken.urish@gmail.com",
+    "persona_firstname": "Kenneth",
+    "persona_id": 55,
+    "persona_lastname": "Urish"
+   }
+  ],
+  "categories": [
+   "Segmentation",
+   "Statistical shape models"
+  ],
+  "comments": [],
+  "date_submitted": "2011-06-14 09:16:27",
+  "handles": [
+   {
+    "handle": "10380/3282",
+    "handle_url": "http://hdl.handle.net/10380/3282"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 812,
+  "submitted_by_author": {
+   "author_email": "john.r.durkin@gmail.com",
+   "author_firstname": "John",
+   "author_id": 2445,
+   "author_institution": "",
+   "author_lastname": "Durkin"
+  },
+  "tags": [
+   "Segmentation",
+   "Active shape model"
+  ],
+  "title": "Creating a 2D Active Shape Model Using itk::ImagePCAShapeModelEstimator"
+ }
 }

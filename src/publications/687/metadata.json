@@ -1,65 +1,70 @@
 {
-  "publication": {
-    "abstract": "As demonstrated by the example videos accompanying this submission of the\nmultiresolution implementation of Spherical Demons, the registration appears\nreasonable. However, we are still unable to replicate the warps from the\nstable and well verified implementation of this algorithm\nurl{http://sites.google.com/site/yeoyeo02/software/sphericaldemonsrelease}.\n\nWe find the average warp discrepancies between the original implementation and ITK\nimplementation to be about 5.3 mm on a sphere of radius 100.0 mm (note that\nwe do not expect a 100% agreement because of implementation differences, but\n5.3 mm is relatively large). The submission also includes cortical surface\nmeshes of 39 subjects and the corresponding segmentation labels of the cortical\nsurfaces. Ultimately, the best validation would be to compare the overlap of\nthese segmentation labels after registration. We welcome fellow ITK developers\nto work on this.\n\nPlease note that this ITK implementation of the algorithm is\ncurrently being reviewed and tested in the NAMIC Sandbox at:\nurl{http://svn.na-mic.org/NAMICSandBox/trunk/QuadEdgeMeshSphericalDiffeomorphicDemonsRegistration/}.\n\n\nIf you want access to the stable and well verified implementation of this\nalgorithm, please use the MATLAB code available at:\nurl{http://sites.google.com/site/yeoyeo02/software/sphericaldemonsrelease}.\n\n\nThis document describes a contribution to the Insight Toolkit intended to support the process of performing deformable registration on two Meshes. The method implemented here is restricted to Meshes with a Spherical geometry and topology, and with scalar values associated to their nodes. The code described here is an implementation of the paper \u201cSpherical Demons: Fast Diffeomorphic Landmark-Free Surface Registration\u201d by Yeo, Sabuncu, Vercauteren, Ayache, Fischl and Golland [3, 4].\n\nThis paper is accompanied with the source code, input data, parameters and output data that we used for validating the algorithm described in this paper. This adheres to the fundamental principle that scientific publications must facilitate reproducibility of the reported results.",
-    "authors": [
-      {
-        "author_fullname": "Ibanez, Luis",
-        "author_place": 1,
-        "persona_email": "luis.ibanez@kitware.com",
-        "persona_firstname": "Luis",
-        "persona_id": 4,
-        "persona_lastname": "Ibanez"
-      },
-      {
-        "author_fullname": "Audette, Michel",
-        "author_place": 2,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Yeo, B.T. Thomas",
-        "author_place": 3,
-        "persona_email": "ythomas@csail.mit.edu",
-        "persona_firstname": "B.t. thomas",
-        "persona_id": 2237,
-        "persona_lastname": "Yeo"
-      },
-      {
-        "author_fullname": "Goland, Polina",
-        "author_place": 4,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2010-05-17 19:07:17",
-    "handles": [
-      {
-        "handle": "10380/3117",
-        "handle_url": "http://hdl.handle.net/10380/3117"
-      }
-    ],
-    "id": 687,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "luis.ibanez@kitware.com",
-      "author_firstname": "Luis",
-      "author_id": 4,
-      "author_institution": "KITWARE Inc.",
-      "author_lastname": "Ibanez"
-    },
-    "tags": [
-      "Demons Registration",
-      "Diffeomorphic",
-      "QuadEdgeMesh",
-      "Landmark-Free"
-    ],
-    "title": "Spherical Demons Registration of Spherical Surfaces"
-  }
+ "publication": {
+  "abstract": "As demonstrated by the example videos accompanying this submission of the\nmultiresolution implementation of Spherical Demons, the registration appears\nreasonable. However, we are still unable to replicate the warps from the\nstable and well verified implementation of this algorithm\nurl{http://sites.google.com/site/yeoyeo02/software/sphericaldemonsrelease}.\n\nWe find the average warp discrepancies between the original implementation and ITK\nimplementation to be about 5.3 mm on a sphere of radius 100.0 mm (note that\nwe do not expect a 100% agreement because of implementation differences, but\n5.3 mm is relatively large). The submission also includes cortical surface\nmeshes of 39 subjects and the corresponding segmentation labels of the cortical\nsurfaces. Ultimately, the best validation would be to compare the overlap of\nthese segmentation labels after registration. We welcome fellow ITK developers\nto work on this.\n\nPlease note that this ITK implementation of the algorithm is\ncurrently being reviewed and tested in the NAMIC Sandbox at:\nurl{http://svn.na-mic.org/NAMICSandBox/trunk/QuadEdgeMeshSphericalDiffeomorphicDemonsRegistration/}.\n\n\nIf you want access to the stable and well verified implementation of this\nalgorithm, please use the MATLAB code available at:\nurl{http://sites.google.com/site/yeoyeo02/software/sphericaldemonsrelease}.\n\n\nThis document describes a contribution to the Insight Toolkit intended to support the process of performing deformable registration on two Meshes. The method implemented here is restricted to Meshes with a Spherical geometry and topology, and with scalar values associated to their nodes. The code described here is an implementation of the paper \u201cSpherical Demons: Fast Diffeomorphic Landmark-Free Surface Registration\u201d by Yeo, Sabuncu, Vercauteren, Ayache, Fischl and Golland [3, 4].\n\nThis paper is accompanied with the source code, input data, parameters and output data that we used for validating the algorithm described in this paper. This adheres to the fundamental principle that scientific publications must facilitate reproducibility of the reported results.",
+  "authors": [
+   {
+    "author_fullname": "Ibanez, Luis",
+    "author_place": 1,
+    "persona_email": "luis.ibanez@kitware.com",
+    "persona_firstname": "Luis",
+    "persona_id": 4,
+    "persona_lastname": "Ibanez"
+   },
+   {
+    "author_fullname": "Audette, Michel",
+    "author_place": 2,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Yeo, B.T. Thomas",
+    "author_place": 3,
+    "persona_email": "ythomas@csail.mit.edu",
+    "persona_firstname": "B.t. thomas",
+    "persona_id": 2237,
+    "persona_lastname": "Yeo"
+   },
+   {
+    "author_fullname": "Goland, Polina",
+    "author_place": 4,
+    "persona_id": null
+   }
+  ],
+  "categories": [
+   "Deformable registration",
+   "Mesh"
+  ],
+  "comments": [],
+  "date_submitted": "2010-05-17 19:07:17",
+  "handles": [
+   {
+    "handle": "10380/3117",
+    "handle_url": "http://hdl.handle.net/10380/3117"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 687,
+  "submitted_by_author": {
+   "author_email": "luis.ibanez@kitware.com",
+   "author_firstname": "Luis",
+   "author_id": 4,
+   "author_institution": "KITWARE Inc.",
+   "author_lastname": "Ibanez"
+  },
+  "tags": [
+   "Demons Registration",
+   "Diffeomorphic",
+   "QuadEdgeMesh",
+   "Landmark-Free"
+  ],
+  "title": "Spherical Demons Registration of Spherical Surfaces"
+ }
 }

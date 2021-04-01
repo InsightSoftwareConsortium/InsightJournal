@@ -1,45 +1,59 @@
 {
-  "publication": {
-    "abstract": "This papers describes an image filter that counts the number of neighbors a pixel has storing that value at the pixel's image index. Functionality is provided to 1) adjust the neighborhood size, 2) count only those pixels within a specific value range, and 3) only record a neighbor count for specific pixels of interest. This paper is accompanied with source code for the filter and test, test images and parameters, and expected output images.",
-    "authors": [
-      {
-        "author_fullname": "Tamburo, Robert",
-        "author_place": 1,
-        "persona_email": "robert.tamburo@gmail.com",
-        "persona_firstname": "Robert",
-        "persona_id": 59,
-        "persona_lastname": "Tamburo"
-      }
-    ],
-    "date_submitted": "2011-07-05 12:48:16",
-    "handles": [
-      {
-        "handle": "10380/3267",
-        "handle_url": "http://hdl.handle.net/10380/3267"
-      }
-    ],
-    "id": 801,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "robert.tamburo@gmail.com",
-      "author_firstname": "Robert",
-      "author_id": 59,
-      "author_institution": " ",
-      "author_lastname": "Tamburo"
-    },
-    "tags": [
-      "neighbor counting",
-      "image filter"
-    ],
-    "title": "An Image Filter for Counting Pixel Neighbors"
-  }
+ "publication": {
+  "abstract": "This papers describes an image filter that counts the number of neighbors a pixel has storing that value at the pixel's image index. Functionality is provided to 1) adjust the neighborhood size, 2) count only those pixels within a specific value range, and 3) only record a neighbor count for specific pixels of interest. This paper is accompanied with source code for the filter and test, test images and parameters, and expected output images.",
+  "authors": [
+   {
+    "author_fullname": "Tamburo, Robert",
+    "author_place": 1,
+    "persona_email": "robert.tamburo@gmail.com",
+    "persona_firstname": "Robert",
+    "persona_id": 59,
+    "persona_lastname": "Tamburo"
+   }
+  ],
+  "categories": [
+   "Filtering",
+   "Neighborhood filters"
+  ],
+  "comments": [
+   {
+    "content": "I tested the filer with a 2d binary image, but the result was wrong.",
+    "date": "2012-05-21T07:52:33",
+    "persona_email": "shisanage999@163.com",
+    "persona_firstname": "Ruoxiu",
+    "persona_id": 6244,
+    "persona_lastname": "Xiao"
+   }
+  ],
+  "date_submitted": "2011-07-05 12:48:16",
+  "handles": [
+   {
+    "handle": "10380/3267",
+    "handle_url": "http://hdl.handle.net/10380/3267"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 801,
+  "submitted_by_author": {
+   "author_email": "robert.tamburo@gmail.com",
+   "author_firstname": "Robert",
+   "author_id": 59,
+   "author_institution": " ",
+   "author_lastname": "Tamburo"
+  },
+  "tags": [
+   "neighbor counting",
+   "image filter"
+  ],
+  "title": "An Image Filter for Counting Pixel Neighbors"
+ }
 }

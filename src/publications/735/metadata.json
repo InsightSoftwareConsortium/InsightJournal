@@ -1,58 +1,63 @@
 {
-  "publication": {
-    "abstract": "IHE (Integrating the Healthcare Enterprise) gives guidelines on which standards in medicine shall be used in which way to achieve a specific goal. Therefore, IHE can serve as a basis to promote the usage of open standards in Computer Assisted Interventions. The paper motivates the usage of IHE in Surgery and Computer Assisted Therapy and gives examples of first IHE supplements based on already existing DICOM Supplements. An outlook on the possible focus of IHE in Surgery is given.",
-    "authors": [
-      {
-        "author_fullname": "Burgert, Oliver",
-        "author_place": 1,
-        "persona_email": "oliver.burgert@reutlingen-university.de",
-        "persona_firstname": "Oliver",
-        "persona_id": 8050,
-        "persona_lastname": "Burgert"
-      },
-      {
-        "author_fullname": "Treichel, Thomas",
-        "author_place": 2,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Bohn, Stefan",
-        "author_place": 3,
-        "persona_email": "stefan.bohn@medizin.uni-leipzig.de",
-        "persona_firstname": "Stefan",
-        "persona_id": 2191,
-        "persona_lastname": "Bohn"
-      }
-    ],
-    "date_submitted": "2010-08-17 06:04:19",
-    "handles": [
-      {
-        "handle": "10380/3180",
-        "handle_url": "http://hdl.handle.net/10380/3180"
-      }
-    ],
-    "id": 735,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 37,
-        "journal_name": "MICCAI 2010 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "oliver.burgert@reutlingen-university.de",
-      "author_firstname": "Oliver",
-      "author_id": 8050,
-      "author_institution": "Reutlingen University",
-      "author_lastname": "Burgert"
-    },
-    "tags": [
-      "IHE",
-      "Standards"
-    ],
-    "title": "IHE in Surgery - Proposal for a new IHE domain"
-  }
+ "publication": {
+  "abstract": "IHE (Integrating the Healthcare Enterprise) gives guidelines on which standards in medicine shall be used in which way to achieve a specific goal. Therefore, IHE can serve as a basis to promote the usage of open standards in Computer Assisted Interventions. The paper motivates the usage of IHE in Surgery and Computer Assisted Therapy and gives examples of first IHE supplements based on already existing DICOM Supplements. An outlook on the possible focus of IHE in Surgery is given.",
+  "authors": [
+   {
+    "author_fullname": "Burgert, Oliver",
+    "author_place": 1,
+    "persona_email": "oliver.burgert@reutlingen-university.de",
+    "persona_firstname": "Oliver",
+    "persona_id": 8050,
+    "persona_lastname": "Burgert"
+   },
+   {
+    "author_fullname": "Treichel, Thomas",
+    "author_place": 2,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Bohn, Stefan",
+    "author_place": 3,
+    "persona_email": "stefan.bohn@medizin.uni-leipzig.de",
+    "persona_firstname": "Stefan",
+    "persona_id": 2191,
+    "persona_lastname": "Bohn"
+   }
+  ],
+  "categories": [
+   "Programming",
+   "Segmentation"
+  ],
+  "comments": [],
+  "date_submitted": "2010-08-17 06:04:19",
+  "handles": [
+   {
+    "handle": "10380/3180",
+    "handle_url": "http://hdl.handle.net/10380/3180"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 37,
+    "journal_name": "MICCAI 2010 Workshops"
+   }
+  ],
+  "publication_id": 735,
+  "submitted_by_author": {
+   "author_email": "oliver.burgert@reutlingen-university.de",
+   "author_firstname": "Oliver",
+   "author_id": 8050,
+   "author_institution": "Reutlingen University",
+   "author_lastname": "Burgert"
+  },
+  "tags": [
+   "IHE",
+   "Standards"
+  ],
+  "title": "IHE in Surgery - Proposal for a new IHE domain"
+ }
 }

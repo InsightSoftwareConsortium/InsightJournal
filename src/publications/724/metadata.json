@@ -1,47 +1,53 @@
 {
-  "publication": {
-    "abstract": "Region growing is a technique that can be used to propagate information over a mesh. We provide an iterator that can be used with vtkPointSet subclasses to traverse a mesh in a reasonable fashion. A \"front\" is emanated from a selected starting vertex, and the iterator provides the ID of the next vertex on this front.",
-    "authors": [
-      {
-        "author_fullname": "Doria, David",
-        "author_place": 1,
-        "persona_email": "daviddoria@gmail.com",
-        "persona_firstname": "David",
-        "persona_id": 2205,
-        "persona_lastname": "Doria"
-      }
-    ],
-    "date_submitted": "2010-04-09 15:33:00",
-    "handles": [
-      {
-        "handle": "10380/3162",
-        "handle_url": "http://hdl.handle.net/10380/3162"
-      }
-    ],
-    "id": 724,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 35,
-        "journal_name": "The VTK Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "daviddoria@gmail.com",
-      "author_firstname": "David",
-      "author_id": 2205,
-      "author_institution": "Rensselaer Polytechnic Institute",
-      "author_lastname": "Doria"
-    },
-    "tags": [
-      "Mesh",
-      "region growing",
-      "Propagation",
-      "Iterator"
-    ],
-    "title": "A Mesh Front Iterator for VTK"
-  }
+ "publication": {
+  "abstract": "Region growing is a technique that can be used to propagate information over a mesh. We provide an iterator that can be used with vtkPointSet subclasses to traverse a mesh in a reasonable fashion. A \"front\" is emanated from a selected starting vertex, and the iterator provides the ID of the next vertex on this front.",
+  "authors": [
+   {
+    "author_fullname": "Doria, David",
+    "author_place": 1,
+    "persona_email": "daviddoria@gmail.com",
+    "persona_firstname": "David",
+    "persona_id": 2205,
+    "persona_lastname": "Doria"
+   }
+  ],
+  "categories": [
+   "Mesh",
+   "Path",
+   "Region growing"
+  ],
+  "comments": [],
+  "date_submitted": "2010-04-09 15:33:00",
+  "handles": [
+   {
+    "handle": "10380/3162",
+    "handle_url": "http://hdl.handle.net/10380/3162"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 35,
+    "journal_name": "The VTK Journal"
+   }
+  ],
+  "publication_id": 724,
+  "submitted_by_author": {
+   "author_email": "daviddoria@gmail.com",
+   "author_firstname": "David",
+   "author_id": 2205,
+   "author_institution": "Rensselaer Polytechnic Institute",
+   "author_lastname": "Doria"
+  },
+  "tags": [
+   "Mesh",
+   "region growing",
+   "Propagation",
+   "Iterator"
+  ],
+  "title": "A Mesh Front Iterator for VTK"
+ }
 }

@@ -1,47 +1,61 @@
 {
-  "publication": {
-    "abstract": "In this paper we present a generalization of Frangi's vesselness measure \\cite{Frangi1998} for \r\nthe enhacement of M-dimensional shapes in N-dimensional images, together \r\nwith the implementation of the corresponding Insight Toolkit (ITK) filter \\cite{ITKSoftwareGuide}. Inspired \r\nby the implementation of a multiscale vesselness measure recently presented on \r\nthe Insight Journal \\cite{Enquobahrie2007}, we also propose a unified framework for the evaluation of \r\ngeneric multiscale Hessian-based measures. The manuscript is accompanied by \r\nsource code and examples.",
-    "authors": [
-      {
-        "author_fullname": "Antiga, Luca",
-        "author_place": 1,
-        "persona_email": "luca.antiga@gmail.com",
-        "persona_firstname": "Luca",
-        "persona_id": 25,
-        "persona_lastname": "Antiga"
-      }
-    ],
-    "date_submitted": "2007-08-03T12:38:37Z",
-    "handles": [
-      {
-        "handle": "1926/576",
-        "handle_url": "http://hdl.handle.net/1926/576"
-      }
-    ],
-    "id": 175,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "luca.antiga@gmail.com",
-      "author_firstname": "Luca",
-      "author_id": 25,
-      "author_institution": "Mario Negri Institute",
-      "author_lastname": "Antiga"
-    },
-    "tags": [
-      "Image enhancement",
-      "Multiscale",
-      "Vesselness",
-      "Hessian"
-    ],
-    "title": "Generalizing vesselness with respect to dimensionality and shape"
-  }
+ "publication": {
+  "abstract": "In this paper we present a generalization of Frangi's vesselness measure \\cite{Frangi1998} for \r\nthe enhacement of M-dimensional shapes in N-dimensional images, together \r\nwith the implementation of the corresponding Insight Toolkit (ITK) filter \\cite{ITKSoftwareGuide}. Inspired \r\nby the implementation of a multiscale vesselness measure recently presented on \r\nthe Insight Journal \\cite{Enquobahrie2007}, we also propose a unified framework for the evaluation of \r\ngeneric multiscale Hessian-based measures. The manuscript is accompanied by \r\nsource code and examples.",
+  "authors": [
+   {
+    "author_fullname": "Antiga, Luca",
+    "author_place": 1,
+    "persona_email": "luca.antiga@gmail.com",
+    "persona_firstname": "Luca",
+    "persona_id": 25,
+    "persona_lastname": "Antiga"
+   }
+  ],
+  "categories": [
+   "Data Representation",
+   "Derivatives and Integrals",
+   "Feature extraction",
+   "Filtering",
+   "Generic Programming",
+   "Higher order derivatives",
+   "Image",
+   "Mathematics",
+   "Programming",
+   "Segmentation",
+   "Statistics on tensors"
+  ],
+  "comments": [],
+  "date_submitted": "2007-08-03T12:38:37Z",
+  "handles": [
+   {
+    "handle": "1926/576",
+    "handle_url": "http://hdl.handle.net/1926/576"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 175,
+  "submitted_by_author": {
+   "author_email": "luca.antiga@gmail.com",
+   "author_firstname": "Luca",
+   "author_id": 25,
+   "author_institution": "Mario Negri Institute",
+   "author_lastname": "Antiga"
+  },
+  "tags": [
+   "Image enhancement",
+   "Multiscale",
+   "Vesselness",
+   "Hessian"
+  ],
+  "title": "Generalizing vesselness with respect to dimensionality and shape"
+ }
 }

@@ -1,81 +1,83 @@
 {
-  "publication": {
-    "abstract": "This document examines the application of a new parametric method on the segmentation of MS \r\nlesions in brain sMRI, as applied to the data provided for the MS Lesion Segmentation Challenge at \r\nMICCAI 2008. The method uses the vector image joint histogram, built over a training set, as an explicit \r\nmodel of the feature vectors indicating lesion. The histogram is used to predict lesions in the test data by \r\nlabeling feature vectors consistent with lesion feature vectors in the training set. The results are evaluated \r\nusing STAPLE to compare against two separate human raters.",
-    "authors": [
-      {
-        "author_fullname": "Scully, Mark",
-        "author_place": 1,
-        "persona_email": "mscully@mrn.org",
-        "persona_firstname": "Mark",
-        "persona_id": 922,
-        "persona_lastname": "Scully"
-      },
-      {
-        "author_fullname": "Magnotta, Vince",
-        "author_place": 2,
-        "persona_email": "vincent-magnotta@uiowa.edu",
-        "persona_firstname": "Vincent",
-        "persona_id": 54,
-        "persona_lastname": "Magnotta"
-      },
-      {
-        "author_fullname": "Gasparovic, Charles",
-        "author_place": 3,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Pelligrimo, Peter",
-        "author_place": 4,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Feis, Delia",
-        "author_place": 5,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Bockholt, H. Jeremy",
-        "author_place": 6,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2008-07-14T21:32:58Z",
-    "handles": [
-      {
-        "handle": "10380/1449",
-        "handle_url": "http://hdl.handle.net/10380/1449"
-      }
-    ],
-    "id": 611,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 44,
-        "journal_name": "MICCAI 2015 Workshops"
-      },
-      {
-        "journal_id": 33,
-        "journal_name": "MICCAI 2008 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "mscully@mrn.org",
-      "author_firstname": "Mark",
-      "author_id": 922,
-      "author_institution": "The Mind Research Network",
-      "author_lastname": "Scully"
-    },
-    "tags": [
-      "MICCAI",
-      "segmentation",
-      "lesion",
-      "joint histogram",
-      "multiple sclerosis",
-      "challenge"
-    ],
-    "title": "3D Segmentation In The Clinic: A Grand Challenge II at MICCAI 2008 - MS Lesion Segmentation"
-  }
+ "publication": {
+  "abstract": "This document examines the application of a new parametric method on the segmentation of MS \r\nlesions in brain sMRI, as applied to the data provided for the MS Lesion Segmentation Challenge at \r\nMICCAI 2008. The method uses the vector image joint histogram, built over a training set, as an explicit \r\nmodel of the feature vectors indicating lesion. The histogram is used to predict lesions in the test data by \r\nlabeling feature vectors consistent with lesion feature vectors in the training set. The results are evaluated \r\nusing STAPLE to compare against two separate human raters.",
+  "authors": [
+   {
+    "author_fullname": "Scully, Mark",
+    "author_place": 1,
+    "persona_email": "mscully@mrn.org",
+    "persona_firstname": "Mark",
+    "persona_id": 922,
+    "persona_lastname": "Scully"
+   },
+   {
+    "author_fullname": "Magnotta, Vince",
+    "author_place": 2,
+    "persona_email": "vincent-magnotta@uiowa.edu",
+    "persona_firstname": "Vincent",
+    "persona_id": 54,
+    "persona_lastname": "Magnotta"
+   },
+   {
+    "author_fullname": "Gasparovic, Charles",
+    "author_place": 3,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Pelligrimo, Peter",
+    "author_place": 4,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Feis, Delia",
+    "author_place": 5,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Bockholt, H. Jeremy",
+    "author_place": 6,
+    "persona_id": null
+   }
+  ],
+  "categories": [],
+  "comments": [],
+  "date_submitted": "2008-07-14T21:32:58Z",
+  "handles": [
+   {
+    "handle": "10380/1449",
+    "handle_url": "http://hdl.handle.net/10380/1449"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 44,
+    "journal_name": "MICCAI 2015 Workshops"
+   },
+   {
+    "journal_id": 33,
+    "journal_name": "MICCAI 2008 Workshops"
+   }
+  ],
+  "publication_id": 611,
+  "submitted_by_author": {
+   "author_email": "mscully@mrn.org",
+   "author_firstname": "Mark",
+   "author_id": 922,
+   "author_institution": "The Mind Research Network",
+   "author_lastname": "Scully"
+  },
+  "tags": [
+   "MICCAI",
+   "segmentation",
+   "lesion",
+   "joint histogram",
+   "multiple sclerosis",
+   "challenge"
+  ],
+  "title": "3D Segmentation In The Clinic: A Grand Challenge II at MICCAI 2008 - MS Lesion Segmentation"
+ }
 }

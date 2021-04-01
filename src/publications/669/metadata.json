@@ -1,74 +1,79 @@
 {
-  "publication": {
-    "abstract": "This paper presents automated segmentation of structures in the Head and Neck (H&N) region, using an active contour-based joint registration and segmentation model. A new atlas selection strategy is also used. Segmentation is performed based on the dense deformation field computed from the registration of selected structures in the atlas image that have distinct boundaries, onto the patient's image. This approach results in robust segmentation of the structures of interest, even in the presence of tumors, or anatomical differences between the atlas and the patient image. For each patient, an atlas image is selected from the available atlas-database, based on the similarity metric value, computed after performing an affine registration between each image in the atlas-database and the patient's image. Unlike many of the previous approaches in the literature, the similarity metric is not computed over the entire image region; rather, it is computed only in the regions of soft tissue structures to be segmented. Qualitative and quantitative evaluation of the results is presented.",
-    "authors": [
-      {
-        "author_fullname": "Gorthi, Subrahmanyam",
-        "author_place": 1,
-        "persona_email": "subrahmanyam.gorthi@gmail.com",
-        "persona_firstname": "Subrahmanyam",
-        "persona_id": 769,
-        "persona_lastname": "Gorthi"
-      },
-      {
-        "author_fullname": "Duay, Val\u00e9rie",
-        "author_place": 2,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Bach Cuadra, Meritxell",
-        "author_place": 3,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Tercier, Pierre-Alain",
-        "author_place": 4,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Allal, Abdelkarim S.",
-        "author_place": 5,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Thiran, Jean-Philippe",
-        "author_place": 6,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2009-09-09 11:09:28",
-    "handles": [
-      {
-        "handle": "10380/3092",
-        "handle_url": "http://hdl.handle.net/10380/3092"
-      }
-    ],
-    "id": 669,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 34,
-        "journal_name": "MICCAI 2009 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "subrahmanyam.gorthi@gmail.com",
-      "author_firstname": "Subrahmanyam",
-      "author_id": 769,
-      "author_institution": "EPFL",
-      "author_lastname": "Gorthi"
-    },
-    "tags": [
-      "IMRT",
-      "Atlas selection",
-      "Non-rigid Registration",
-      "Atlas-based segmentation",
-      "Head and Neck",
-      "Radiotherapy"
-    ],
-    "title": "Active Contour-Based Segmentation of Head and Neck with Adaptive Atlas Selection"
-  }
+ "publication": {
+  "abstract": "This paper presents automated segmentation of structures in the Head and Neck (H&N) region, using an active contour-based joint registration and segmentation model. A new atlas selection strategy is also used. Segmentation is performed based on the dense deformation field computed from the registration of selected structures in the atlas image that have distinct boundaries, onto the patient's image. This approach results in robust segmentation of the structures of interest, even in the presence of tumors, or anatomical differences between the atlas and the patient image. For each patient, an atlas image is selected from the available atlas-database, based on the similarity metric value, computed after performing an affine registration between each image in the atlas-database and the patient's image. Unlike many of the previous approaches in the literature, the similarity metric is not computed over the entire image region; rather, it is computed only in the regions of soft tissue structures to be segmented. Qualitative and quantitative evaluation of the results is presented.",
+  "authors": [
+   {
+    "author_fullname": "Gorthi, Subrahmanyam",
+    "author_place": 1,
+    "persona_email": "subrahmanyam.gorthi@gmail.com",
+    "persona_firstname": "Subrahmanyam",
+    "persona_id": 769,
+    "persona_lastname": "Gorthi"
+   },
+   {
+    "author_fullname": "Duay, Val\u00e9rie",
+    "author_place": 2,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Bach Cuadra, Meritxell",
+    "author_place": 3,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Tercier, Pierre-Alain",
+    "author_place": 4,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Allal, Abdelkarim S.",
+    "author_place": 5,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Thiran, Jean-Philippe",
+    "author_place": 6,
+    "persona_id": null
+   }
+  ],
+  "categories": [
+   "Atlas-based segmentation",
+   "Level sets"
+  ],
+  "comments": [],
+  "date_submitted": "2009-09-09 11:09:28",
+  "handles": [
+   {
+    "handle": "10380/3092",
+    "handle_url": "http://hdl.handle.net/10380/3092"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 34,
+    "journal_name": "MICCAI 2009 Workshops"
+   }
+  ],
+  "publication_id": 669,
+  "submitted_by_author": {
+   "author_email": "subrahmanyam.gorthi@gmail.com",
+   "author_firstname": "Subrahmanyam",
+   "author_id": 769,
+   "author_institution": "EPFL",
+   "author_lastname": "Gorthi"
+  },
+  "tags": [
+   "IMRT",
+   "Atlas selection",
+   "Non-rigid Registration",
+   "Atlas-based segmentation",
+   "Head and Neck",
+   "Radiotherapy"
+  ],
+  "title": "Active Contour-Based Segmentation of Head and Neck with Adaptive Atlas Selection"
+ }
 }

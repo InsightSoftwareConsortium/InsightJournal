@@ -1,62 +1,72 @@
 {
-  "publication": {
-    "abstract": "Ultrasound is a very useful and convenient modality in medical imaging, due to its relatively small footprint, high resolution, negligible adverse effects, and real-time imaging capability -- in spite of its well-known artifacts. However, it is fairly difficult to fully benefit from its resolution and speed in advanced imaging research because of the closed nature of most ultrasound systems.\n\nWe propose a modular and extensible open-source toolkit MUSiiC S/W for rapid development and system setup for ultrasound research. Aimed at algorithm and experimental system builders as well as at clinical research, it allows standardized access to various types of ultrasound-derived real-time data streams, incorporates various tracking facilities, volume reconstruction, and connections to external software tools. By providing well-defined open standard interfaces between those building blocks, we aim at easy extensibility for third-party researchers.",
-    "authors": [
-      {
-        "author_fullname": "Stolka, Philipp",
-        "author_place": 1,
-        "persona_email": "pjs@jhu.edu",
-        "persona_firstname": "Philipp",
-        "persona_id": 2557,
-        "persona_lastname": "Stolka"
-      },
-      {
-        "author_fullname": "Kang, Hyun-Jae",
-        "author_place": 2,
-        "persona_email": "hjkang@jhu.edu",
-        "persona_firstname": "Hyun-jae",
-        "persona_id": 3222,
-        "persona_lastname": "Kang"
-      },
-      {
-        "author_fullname": "Boctor, Emad",
-        "author_place": 3,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2010-08-16 00:11:01",
-    "handles": [
-      {
-        "handle": "10380/3172",
-        "handle_url": "http://hdl.handle.net/10380/3172"
-      }
-    ],
-    "id": 730,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 37,
-        "journal_name": "MICCAI 2010 Workshops"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "pjs@jhu.edu",
-      "author_firstname": "Philipp",
-      "author_id": 2557,
-      "author_institution": "Johns Hopkins University",
-      "author_lastname": "Stolka"
-    },
-    "tags": [
-      "modular",
-      "toolkit",
-      "ultrasound",
-      "real-time",
-      "parallel",
-      "open-source"
-    ],
-    "title": "The MUSiiC Toolkit: Modular Real-Time Toolkit for Advanced Ultrasound Research"
-  }
+ "publication": {
+  "abstract": "Ultrasound is a very useful and convenient modality in medical imaging, due to its relatively small footprint, high resolution, negligible adverse effects, and real-time imaging capability -- in spite of its well-known artifacts. However, it is fairly difficult to fully benefit from its resolution and speed in advanced imaging research because of the closed nature of most ultrasound systems.\n\nWe propose a modular and extensible open-source toolkit MUSiiC S/W for rapid development and system setup for ultrasound research. Aimed at algorithm and experimental system builders as well as at clinical research, it allows standardized access to various types of ultrasound-derived real-time data streams, incorporates various tracking facilities, volume reconstruction, and connections to external software tools. By providing well-defined open standard interfaces between those building blocks, we aim at easy extensibility for third-party researchers.",
+  "authors": [
+   {
+    "author_fullname": "Stolka, Philipp",
+    "author_place": 1,
+    "persona_email": "pjs@jhu.edu",
+    "persona_firstname": "Philipp",
+    "persona_id": 2557,
+    "persona_lastname": "Stolka"
+   },
+   {
+    "author_fullname": "Kang, Hyun-Jae",
+    "author_place": 2,
+    "persona_email": "hjkang@jhu.edu",
+    "persona_firstname": "Hyun-jae",
+    "persona_id": 3222,
+    "persona_lastname": "Kang"
+   },
+   {
+    "author_fullname": "Boctor, Emad",
+    "author_place": 3,
+    "persona_id": null
+   }
+  ],
+  "categories": [
+   "Data",
+   "Distributed computation",
+   "Image",
+   "Images",
+   "Parallelization, SMP",
+   "Path",
+   "Streaming"
+  ],
+  "comments": [],
+  "date_submitted": "2010-08-16 00:11:01",
+  "handles": [
+   {
+    "handle": "10380/3172",
+    "handle_url": "http://hdl.handle.net/10380/3172"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 37,
+    "journal_name": "MICCAI 2010 Workshops"
+   }
+  ],
+  "publication_id": 730,
+  "submitted_by_author": {
+   "author_email": "pjs@jhu.edu",
+   "author_firstname": "Philipp",
+   "author_id": 2557,
+   "author_institution": "Johns Hopkins University",
+   "author_lastname": "Stolka"
+  },
+  "tags": [
+   "modular",
+   "toolkit",
+   "ultrasound",
+   "real-time",
+   "parallel",
+   "open-source"
+  ],
+  "title": "The MUSiiC Toolkit: Modular Real-Time Toolkit for Advanced Ultrasound Research"
+ }
 }

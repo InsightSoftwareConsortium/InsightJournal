@@ -1,45 +1,47 @@
 {
-  "publication": {
-    "abstract": "It is sometimes useful to apply a filter to a region defined by a\r\nmask. This article introduces a simple ``mask adaptor'' filter that\r\nallows this type of operation to be tested easily. It is applicable to filters that do not need any pixel location information, such as histogram operations, which can't necessarily be achieved by simple masking approaches.",
-    "authors": [
-      {
-        "author_fullname": "Beare, Richard",
-        "author_place": 1,
-        "persona_email": "richard.beare@ieee.org",
-        "persona_firstname": "Richard",
-        "persona_id": 197,
-        "persona_lastname": "Beare"
-      }
-    ],
-    "date_submitted": "2007-08-01T05:42:59Z",
-    "handles": [
-      {
-        "handle": "1926/575",
-        "handle_url": "http://hdl.handle.net/1926/575"
-      }
-    ],
-    "id": 174,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "richard.beare@ieee.org",
-      "author_firstname": "Richard",
-      "author_id": 197,
-      "author_institution": "Monash University",
-      "author_lastname": "Beare"
-    },
-    "tags": [
-      "masking",
-      "region selection"
-    ],
-    "title": "Image mask adaptor for pixel order independent filters"
-  }
+ "publication": {
+  "abstract": "It is sometimes useful to apply a filter to a region defined by a\r\nmask. This article introduces a simple ``mask adaptor'' filter that\r\nallows this type of operation to be tested easily. It is applicable to filters that do not need any pixel location information, such as histogram operations, which can't necessarily be achieved by simple masking approaches.",
+  "authors": [
+   {
+    "author_fullname": "Beare, Richard",
+    "author_place": 1,
+    "persona_email": "richard.beare@ieee.org",
+    "persona_firstname": "Richard",
+    "persona_id": 197,
+    "persona_lastname": "Beare"
+   }
+  ],
+  "categories": [],
+  "comments": [],
+  "date_submitted": "2007-08-01T05:42:59Z",
+  "handles": [
+   {
+    "handle": "1926/575",
+    "handle_url": "http://hdl.handle.net/1926/575"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 174,
+  "submitted_by_author": {
+   "author_email": "richard.beare@ieee.org",
+   "author_firstname": "Richard",
+   "author_id": 197,
+   "author_institution": "Monash University",
+   "author_lastname": "Beare"
+  },
+  "tags": [
+   "masking",
+   "region selection"
+  ],
+  "title": "Image mask adaptor for pixel order independent filters"
+ }
 }

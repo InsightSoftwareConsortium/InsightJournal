@@ -1,67 +1,69 @@
 {
-  "publication": {
-    "abstract": "Various metrics have been proposed in the literature for performing intrinsic automatic image to image registration. Among these measures, mutual information is a very popular one because of its robustness and accuracy for a wide variety of applications. In this paper, we propose a filter for performing non-rigid registration by estimating a dense deformation field derived from the mutual information metric. This filter takes place in the ITK PDE deformable registration design like the Demons algorithm of Thirion. We also show how the concept of metric flow is conceptually linked to the concept of metric derivative for a prior transformation model by the transformation jacobian. We also suggest a sparse implementation of the GetJacobian() method for reducing the computation time of a metric derivative for local transformations models.",
-    "authors": [
-      {
-        "author_fullname": "De Craene, Mathieu",
-        "author_place": 1,
-        "persona_email": "decraene@gmail.com",
-        "persona_firstname": "Mathieu ",
-        "persona_id": 5877,
-        "persona_lastname": "De craene"
-      },
-      {
-        "author_fullname": "du Bois d'Aische, Aloys",
-        "author_place": 2,
-        "persona_email": "duboisda@tele.ucl.ac.be",
-        "persona_firstname": "Aloys",
-        "persona_id": 165,
-        "persona_lastname": "Du bois d'aische"
-      },
-      {
-        "author_fullname": "Macq, Benoit",
-        "author_place": 3,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Warfield, Simon K",
-        "author_place": 4,
-        "persona_email": "simon.warfield@childrens.harvard.edu",
-        "persona_firstname": "Simon",
-        "persona_id": 514,
-        "persona_lastname": "Warfield"
-      }
-    ],
-    "date_submitted": "2006-03-08T10:37:57Z",
-    "handles": [
-      {
-        "handle": "1926/183",
-        "handle_url": "http://hdl.handle.net/1926/183"
-      }
-    ],
-    "id": 83,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "decraene@tele.ucl.ac.be",
-      "author_firstname": "Mathieu",
-      "author_id": 263,
-      "author_institution": "universite catholique de louvain - communications and remote sensing lab",
-      "author_lastname": "Decraene"
-    },
-    "tags": [
-      "Non-rigid registration",
-      "Local Jacobian",
-      "Metric flow"
-    ],
-    "title": "Incorporating Metric Flows and Sparse Jacobian Transformations in ITK"
-  }
+ "publication": {
+  "abstract": "Various metrics have been proposed in the literature for performing intrinsic automatic image to image registration. Among these measures, mutual information is a very popular one because of its robustness and accuracy for a wide variety of applications. In this paper, we propose a filter for performing non-rigid registration by estimating a dense deformation field derived from the mutual information metric. This filter takes place in the ITK PDE deformable registration design like the Demons algorithm of Thirion. We also show how the concept of metric flow is conceptually linked to the concept of metric derivative for a prior transformation model by the transformation jacobian. We also suggest a sparse implementation of the GetJacobian() method for reducing the computation time of a metric derivative for local transformations models.",
+  "authors": [
+   {
+    "author_fullname": "De Craene, Mathieu",
+    "author_place": 1,
+    "persona_email": "decraene@gmail.com",
+    "persona_firstname": "Mathieu ",
+    "persona_id": 5877,
+    "persona_lastname": "De craene"
+   },
+   {
+    "author_fullname": "du Bois d'Aische, Aloys",
+    "author_place": 2,
+    "persona_email": "duboisda@tele.ucl.ac.be",
+    "persona_firstname": "Aloys",
+    "persona_id": 165,
+    "persona_lastname": "Du bois d'aische"
+   },
+   {
+    "author_fullname": "Macq, Benoit",
+    "author_place": 3,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Warfield, Simon K",
+    "author_place": 4,
+    "persona_email": "simon.warfield@childrens.harvard.edu",
+    "persona_firstname": "Simon",
+    "persona_id": 514,
+    "persona_lastname": "Warfield"
+   }
+  ],
+  "categories": [],
+  "comments": [],
+  "date_submitted": "2006-03-08T10:37:57Z",
+  "handles": [
+   {
+    "handle": "1926/183",
+    "handle_url": "http://hdl.handle.net/1926/183"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 83,
+  "submitted_by_author": {
+   "author_email": "decraene@tele.ucl.ac.be",
+   "author_firstname": "Mathieu",
+   "author_id": 263,
+   "author_institution": "universite catholique de louvain - communications and remote sensing lab",
+   "author_lastname": "Decraene"
+  },
+  "tags": [
+   "Non-rigid registration",
+   "Local Jacobian",
+   "Metric flow"
+  ],
+  "title": "Incorporating Metric Flows and Sparse Jacobian Transformations in ITK"
+ }
 }

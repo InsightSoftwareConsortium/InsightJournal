@@ -1,72 +1,74 @@
 {
-  "publication": {
-    "abstract": "This workshop features peer-reviewed submissions that describe the available data and software of MICCAI.",
-    "authors": [
-      {
-        "author_fullname": "Kapur, Tina",
-        "author_place": 4,
-        "persona_email": "tkapur@bwh.harvard.edu",
-        "persona_firstname": "Tina",
-        "persona_id": 96,
-        "persona_lastname": "Kapur"
-      },
-      {
-        "author_fullname": "Ibanez, Luis",
-        "author_place": 3,
-        "persona_email": "luis.ibanez@kitware.com",
-        "persona_firstname": "Luis",
-        "persona_id": 4,
-        "persona_lastname": "Ibanez"
-      },
-      {
-        "author_fullname": "Cleary, Kevin",
-        "author_place": 2,
-        "persona_email": "cleary@georgetown.edu",
-        "persona_firstname": "Kevin",
-        "persona_id": 368,
-        "persona_lastname": "Cleary"
-      },
-      {
-        "author_fullname": "Aylward, Stephen",
-        "author_place": 1,
-        "persona_email": "stephen.aylward@kitware.com",
-        "persona_firstname": "Stephen",
-        "persona_id": 1,
-        "persona_lastname": "Aylward"
-      }
-    ],
-    "date_submitted": "2007-03-28T14:32:00Z",
-    "handles": [
-      {
-        "handle": "1926/497",
-        "handle_url": "http://hdl.handle.net/1926/497"
-      }
-    ],
-    "id": 147,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "stephen.aylward@kitware.com",
-      "author_firstname": "Stephen",
-      "author_id": 1,
-      "author_institution": "Kitware, Inc.",
-      "author_lastname": "Aylward"
-    },
-    "tags": [
-      "Workshop",
-      "NA-MIC",
-      "ISC",
-      "MICCAI",
-      "Open Source"
-    ],
-    "title": "Open Source and Open Data for MICCAI - Announcement and Program"
-  }
+ "publication": {
+  "abstract": "This workshop features peer-reviewed submissions that describe the available data and software of MICCAI.",
+  "authors": [
+   {
+    "author_fullname": "Kapur, Tina",
+    "author_place": 4,
+    "persona_email": "tkapur@bwh.harvard.edu",
+    "persona_firstname": "Tina",
+    "persona_id": 96,
+    "persona_lastname": "Kapur"
+   },
+   {
+    "author_fullname": "Ibanez, Luis",
+    "author_place": 3,
+    "persona_email": "luis.ibanez@kitware.com",
+    "persona_firstname": "Luis",
+    "persona_id": 4,
+    "persona_lastname": "Ibanez"
+   },
+   {
+    "author_fullname": "Cleary, Kevin",
+    "author_place": 2,
+    "persona_email": "cleary@georgetown.edu",
+    "persona_firstname": "Kevin",
+    "persona_id": 368,
+    "persona_lastname": "Cleary"
+   },
+   {
+    "author_fullname": "Aylward, Stephen",
+    "author_place": 1,
+    "persona_email": "stephen.aylward@kitware.com",
+    "persona_firstname": "Stephen",
+    "persona_id": 1,
+    "persona_lastname": "Aylward"
+   }
+  ],
+  "categories": [],
+  "comments": [],
+  "date_submitted": "2007-03-28T14:32:00Z",
+  "handles": [
+   {
+    "handle": "1926/497",
+    "handle_url": "http://hdl.handle.net/1926/497"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 147,
+  "submitted_by_author": {
+   "author_email": "stephen.aylward@kitware.com",
+   "author_firstname": "Stephen",
+   "author_id": 1,
+   "author_institution": "Kitware, Inc.",
+   "author_lastname": "Aylward"
+  },
+  "tags": [
+   "Workshop",
+   "NA-MIC",
+   "ISC",
+   "MICCAI",
+   "Open Source"
+  ],
+  "title": "Open Source and Open Data for MICCAI - Announcement and Program"
+ }
 }

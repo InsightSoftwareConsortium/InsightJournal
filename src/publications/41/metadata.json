@@ -1,77 +1,79 @@
 {
-  "publication": {
-    "abstract": "We are developing open source software for computer assisted intervention systems. Our primary experience has been with medical\r\nrobots, but the concepts (and software) apply to many physical devices that interact with the real world.\r\nThe real-time performance requirements permeate all levels of our software, including common tools (such as logging, class and object registers),\r\nvectors, matrices and transformations. Our software libraries are written in C++, but are also accessible from Python, which\r\nprovides a convenient environment for rapid prototyping and interactive testing.\r\nThe real-time support includes a device (hardware) interface and a task library. Device-specific modules such as robot servo control and trajectory generation can be provided by tasks or by external devices.\r\nUltimately, we intend to provide a framework that supports extension via dynamically loaded plug-in modules.\r\nOur development process utilizes a multitude of open source tools, including CVS, CMake, Swig, CppUnit, Dart, CVSTrac, Doxygen\r\nand LaTeX. These tools help to ensure compliance with our software development procedure.",
-    "authors": [
-      {
-        "author_fullname": "Kazanzides, Peter",
-        "author_place": 1,
-        "persona_email": "pkaz@cs.jhu.edu",
-        "persona_firstname": "Peter",
-        "persona_id": 63,
-        "persona_lastname": "Kazanzides"
-      },
-      {
-        "author_fullname": "Deguet, Anton",
-        "author_place": 2,
-        "persona_email": "anton.deguet@jhu.edu",
-        "persona_firstname": "Anton",
-        "persona_id": 635,
-        "persona_lastname": "Deguet"
-      },
-      {
-        "author_fullname": "Kapoor, Ankur",
-        "author_place": 3,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Sadowsky, Ofri",
-        "author_place": 4,
-        "persona_email": "ofri@cs.jhu.edu",
-        "persona_firstname": "Ofri",
-        "persona_id": 615,
-        "persona_lastname": "Sadowsky"
-      },
-      {
-        "author_fullname": "LaMora, Andy",
-        "author_place": 5,
-        "persona_id": null
-      },
-      {
-        "author_fullname": "Taylor, Russell",
-        "author_place": 6,
-        "persona_id": null
-      }
-    ],
-    "date_submitted": "2005-08-05T22:14:26Z",
-    "handles": [
-      {
-        "handle": "1926/46",
-        "handle_url": "http://hdl.handle.net/1926/46"
-      }
-    ],
-    "id": 41,
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
-    "journals": [
-      {
-        "journal_id": 3,
-        "journal_name": "The Insight Journal"
-      }
-    ],
-    "submitted_by_author": {
-      "author_email": "pkaz@cs.jhu.edu",
-      "author_firstname": "Peter",
-      "author_id": 63,
-      "author_institution": "Johns Hopkins University",
-      "author_lastname": "Kazanzides"
-    },
-    "tags": [
-      "computer-assisted surgery",
-      "open source software",
-      "medical robotics"
-    ],
-    "title": "Development of open source software for computer-assisted intervention systems"
-  }
+ "publication": {
+  "abstract": "We are developing open source software for computer assisted intervention systems. Our primary experience has been with medical\r\nrobots, but the concepts (and software) apply to many physical devices that interact with the real world.\r\nThe real-time performance requirements permeate all levels of our software, including common tools (such as logging, class and object registers),\r\nvectors, matrices and transformations. Our software libraries are written in C++, but are also accessible from Python, which\r\nprovides a convenient environment for rapid prototyping and interactive testing.\r\nThe real-time support includes a device (hardware) interface and a task library. Device-specific modules such as robot servo control and trajectory generation can be provided by tasks or by external devices.\r\nUltimately, we intend to provide a framework that supports extension via dynamically loaded plug-in modules.\r\nOur development process utilizes a multitude of open source tools, including CVS, CMake, Swig, CppUnit, Dart, CVSTrac, Doxygen\r\nand LaTeX. These tools help to ensure compliance with our software development procedure.",
+  "authors": [
+   {
+    "author_fullname": "Kazanzides, Peter",
+    "author_place": 1,
+    "persona_email": "pkaz@cs.jhu.edu",
+    "persona_firstname": "Peter",
+    "persona_id": 63,
+    "persona_lastname": "Kazanzides"
+   },
+   {
+    "author_fullname": "Deguet, Anton",
+    "author_place": 2,
+    "persona_email": "anton.deguet@jhu.edu",
+    "persona_firstname": "Anton",
+    "persona_id": 635,
+    "persona_lastname": "Deguet"
+   },
+   {
+    "author_fullname": "Kapoor, Ankur",
+    "author_place": 3,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Sadowsky, Ofri",
+    "author_place": 4,
+    "persona_email": "ofri@cs.jhu.edu",
+    "persona_firstname": "Ofri",
+    "persona_id": 615,
+    "persona_lastname": "Sadowsky"
+   },
+   {
+    "author_fullname": "LaMora, Andy",
+    "author_place": 5,
+    "persona_id": null
+   },
+   {
+    "author_fullname": "Taylor, Russell",
+    "author_place": 6,
+    "persona_id": null
+   }
+  ],
+  "categories": [],
+  "comments": [],
+  "date_submitted": "2005-08-05T22:14:26Z",
+  "handles": [
+   {
+    "handle": "1926/46",
+    "handle_url": "http://hdl.handle.net/1926/46"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 41,
+  "submitted_by_author": {
+   "author_email": "pkaz@cs.jhu.edu",
+   "author_firstname": "Peter",
+   "author_id": 63,
+   "author_institution": "Johns Hopkins University",
+   "author_lastname": "Kazanzides"
+  },
+  "tags": [
+   "computer-assisted surgery",
+   "open source software",
+   "medical robotics"
+  ],
+  "title": "Development of open source software for computer-assisted intervention systems"
+ }
 }
