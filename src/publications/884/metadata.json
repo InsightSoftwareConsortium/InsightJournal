@@ -34,8 +34,8 @@
     "persona_lastname": "Shamonin"
    },
    {
-    "content": "1. The source code has been merged with latest elastix (trunkpublic) see https://svn.bigr.nl/elastix/trunkpublic\r\n2. The source code has been tested with latest ITK (4.9.1 Tue 12 Apr 2016) see FixLog.txt comments on the build\r\n3. The source code builds and tests performed using elastix dashboard:\r\n   http://my.cdash.org/index.php?project=elastix\r\n4. The full paper:\r\n   http://journal.frontiersin.org/article/10.3389/fninf.2013.00050/full\r\n5. The latest GPU performance results could be found in section supplemental data of the full paper:\r\n   http://journal.frontiersin.org/File/DownloadFile/65120/octet-stream/Presentation%201.PDF/12/1/66699\r\n6. The recent GPU performance experiments could be found in directory test_logs see source code.\r\n",
-    "date": "2016-04-13T05:34:51",
+    "content": "1. The source code has been merged with latest elastix 4.8 see http://elastix.isi.uu.nl/news.php\r\n2. The source code has been tested with latest ITK (v4.9rc03) see fixlog.txt comments on the build\r\n3. The source code builds and tests performed using elastix dashboard:\r\n   http://my.cdash.org/index.php?project=elastix\r\n4. The full paper:\r\n   http://journal.frontiersin.org/article/10.3389/fninf.2013.00050/full\r\n5. The latest GPU performance results could be found in section supplemental data of the full paper:\r\n   http://journal.frontiersin.org/File/DownloadFile/65120/octet-stream/Presentation%201.PDF/12/1/66699",
+    "date": "2016-01-18T09:20:06",
     "persona_email": "D.P.Shamonin@lumc.nl",
     "persona_firstname": "Denis",
     "persona_id": 7069,
@@ -50,8 +50,8 @@
     "persona_lastname": "Shamonin"
    },
    {
-    "content": "1. The source code has been merged with latest elastix 4.8 see http://elastix.isi.uu.nl/news.php\r\n2. The source code has been tested with latest ITK (v4.9rc03) see fixlog.txt comments on the build\r\n3. The source code builds and tests performed using elastix dashboard:\r\n   http://my.cdash.org/index.php?project=elastix\r\n4. The full paper:\r\n   http://journal.frontiersin.org/article/10.3389/fninf.2013.00050/full\r\n5. The latest GPU performance results could be found in section supplemental data of the full paper:\r\n   http://journal.frontiersin.org/File/DownloadFile/65120/octet-stream/Presentation%201.PDF/12/1/66699",
-    "date": "2016-01-18T09:20:06",
+    "content": "1. The source code has been merged with latest elastix (trunkpublic) see https://svn.bigr.nl/elastix/trunkpublic\r\n2. The source code has been tested with latest ITK (4.9.1 Wed 20 Apr 2016) see FixLog.txt comments on the build\r\n3. The source code builds and tests performed using elastix dashboard:\r\n   http://my.cdash.org/index.php?project=elastix\r\n4. The full paper:\r\n   http://journal.frontiersin.org/article/10.3389/fninf.2013.00050/full\r\n5. The latest GPU performance results could be found in section supplemental data of the full paper:\r\n   http://journal.frontiersin.org/File/DownloadFile/65120/octet-stream/Presentation%201.PDF/12/1/66699\r\n6. The recent GPU performance experiments could be found in directory test_logs see source code.\r\n",
+    "date": "2016-04-20T03:37:06",
     "persona_email": "D.P.Shamonin@lumc.nl",
     "persona_firstname": "Denis",
     "persona_id": 7069,
@@ -66,8 +66,16 @@
     "persona_lastname": "Shamonin"
    },
    {
-    "content": "1. The source code has been merged with latest elastix (trunkpublic) see https://svn.bigr.nl/elastix/trunkpublic\r\n2. The source code has been tested with latest ITK (4.9.1 Wed 20 Apr 2016) see FixLog.txt comments on the build\r\n3. The source code builds and tests performed using elastix dashboard:\r\n   http://my.cdash.org/index.php?project=elastix\r\n4. The full paper:\r\n   http://journal.frontiersin.org/article/10.3389/fninf.2013.00050/full\r\n5. The latest GPU performance results could be found in section supplemental data of the full paper:\r\n   http://journal.frontiersin.org/File/DownloadFile/65120/octet-stream/Presentation%201.PDF/12/1/66699\r\n6. The recent GPU performance experiments could be found in directory test_logs see source code.\r\n",
-    "date": "2016-04-20T03:37:06",
+    "content": "1. The source code has been merged with latest elastix (trunkpublic) see https://svn.bigr.nl/elastix/trunkpublic\r\n2. The source code has been tested with latest ITK (4.9.1 Tue 12 Apr 2016) see FixLog.txt comments on the build\r\n3. The source code builds and tests performed using elastix dashboard:\r\n   http://my.cdash.org/index.php?project=elastix\r\n4. The full paper:\r\n   http://journal.frontiersin.org/article/10.3389/fninf.2013.00050/full\r\n5. The latest GPU performance results could be found in section supplemental data of the full paper:\r\n   http://journal.frontiersin.org/File/DownloadFile/65120/octet-stream/Presentation%201.PDF/12/1/66699\r\n6. The recent GPU performance experiments could be found in directory test_logs see source code.\r\n",
+    "date": "2016-04-13T05:34:51",
+    "persona_email": "D.P.Shamonin@lumc.nl",
+    "persona_firstname": "Denis",
+    "persona_id": 7069,
+    "persona_lastname": "Shamonin"
+   },
+   {
+    "content": "1. The source code has been merged with latest elastix see https://github.com/SuperElastix/elastix\r\n2. The source code has been tested with latest ITK \r\n   ITK 4.12.2 (25 Oct 2017)\r\n   CUDA/v8.0 (NVidia driver 378.49)\r\n   Intel OpenCL SDK (version 7.0.0.2519) on CPU\r\n3. The source code builds and tests performed using elastix dashboard:\r\n   http://my.cdash.org/index.php?project=elastix\r\n4. The full paper:\r\n   http://journal.frontiersin.org/article/10.3389/fninf.2013.00050/full\r\n5. The latest GPU performance results could be found in section supplemental data of the full paper:\r\n   http://journal.frontiersin.org/File/DownloadFile/65120/octet-stream/Presentation%201.PDF/12/1/66699\r\n6. The recent GPU/CPU performance experiments could be found in directory test_logs see source code.",
+    "date": "2017-10-25T09:43:37",
     "persona_email": "D.P.Shamonin@lumc.nl",
     "persona_firstname": "Denis",
     "persona_id": 7069,
@@ -96,18 +104,19 @@
   "submitted_by_author": {
    "author_email": "D.P.Shamonin@lumc.nl",
    "author_firstname": "Denis",
+   "author_fullname": "Shamonin, Denis",
    "author_id": 7069,
    "author_institution": "Division of Image Processing, Department of Radiology, Leiden, The Netherlands",
    "author_lastname": "Shamonin"
   },
   "tags": [
-   "OpenCL",
-   "GPUResampleImageFilter",
-   "elastix",
-   "GenericMultiResolutionPyramidImageFilter",
    "image registration",
    "parallelization",
-   "GPU"
+   "GPU",
+   "OpenCL",
+   "GPUResampleImageFilter",
+   "GenericMultiResolutionPyramidImageFilter",
+   "elastix"
   ],
   "title": "An OpenCL implementation of the Gaussian pyramid and the resampler"
  }

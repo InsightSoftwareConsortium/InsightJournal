@@ -58,9 +58,9 @@
    },
    {
     "author": {
-     "author_email": "blezek.daniel@mayo.edu",
+     "author_email": "daniel.blezek@gmail.com",
      "author_firstname": "Daniel",
-     "author_id": 786,
+     "author_id": 1018,
      "author_lastname": "Blezek"
     },
     "content": "<p><strong>Summary:</strong></p><p>This submission is an implementation of an ITK Image IO object and factory for reading Analyze ObjectMaps. The code provides a helper class enabling the formation of object maps within ITK and writing them to disk.</p><p> <br /><strong>Hypothesis:</strong><br /> N/A</p><p> <br /> <strong>Evidence:</strong><br />N/A<br /> <br /> <strong>Open Science:</strong></p><p>All code and examples provided. Highly readable and written in the correct ITK style. The submission shows a deep understanding of ITK and the IO mechanisms.</p><p><br /><strong>Reproducibility:</strong></p><p>While I did not compile the examples and test, after review of the code, I dropped it immediately into my application. No compilation problems and the code works nicely. The static block failed to register the factory however. </p><p><br /> <strong>Use of Open Source Software:</strong></p><p>Library implemented using ITK, with VTK used for visualization. </p><p><br /> <strong>Open Source Contributions:</strong></p><p>No problems compiling and using the code. </p><p> <strong>Code Quality:</strong></p><p>Code compiled cleanly on Win and Linux. Static block failed to register the factory, but I manually initialized the library without issue. Fully documented and written in the ITK style. Was very impressed that the authors support all versions of Analyze&#39;s ObjectMap format.</p><p> <strong>Applicability to other problems:</strong><br />N/A</p><p><br /> <strong>Suggestions for future work:</strong></p><p>Develop a similar, but more flexible format for ITK. Would be useful to have object labels and be able to include a voxel in more than one object, perhaps with different levels of membership or probability. </p><p><br /> <strong>Requests for additional information from authors:</strong><br />N/A</p><p><br /> <strong>Additional Comments:</strong><br />Thanks for the very valuable contribution to ITK!<br /> </p>",
@@ -71,15 +71,16 @@
   "submitted_by_author": {
    "author_email": "woofton_9@eaglescrag.net",
    "author_firstname": "Jeffrey",
+   "author_fullname": "Hawley, Jeffrey",
    "author_id": 637,
    "author_institution": "University of Iowa",
    "author_lastname": "Hawley"
   },
   "tags": [
-   "Writer",
-   "Analyze Object Map",
    "Reader",
-   "IO"
+   "Writer",
+   "IO",
+   "Analyze Object Map"
   ],
   "title": "Reader/Writer for Analyze Object Maps for ITK"
  }

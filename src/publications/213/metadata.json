@@ -49,15 +49,16 @@
   "submitted_by_author": {
    "author_email": "dan.muel@gmail.com",
    "author_firstname": "Dan",
+   "author_fullname": "Mueller, Dan",
    "author_id": 286,
    "author_institution": "Philips Healthcare",
    "author_lastname": "Mueller"
   },
   "tags": [
-   "centerline",
-   "minimal path",
    "ITK",
-   "vessel segmentation"
+   "vessel segmentation",
+   "centerline",
+   "minimal path"
   ],
   "title": "Fast Marching Minimal Path Extraction in ITK"
  }

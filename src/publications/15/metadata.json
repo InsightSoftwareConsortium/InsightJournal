@@ -44,12 +44,12 @@
   "date_submitted": "2005-07-30T21:22:54Z",
   "handles": [
    {
-    "handle": "1926/20",
-    "handle_url": "http://hdl.handle.net/1926/20"
-   },
-   {
     "handle": "1926/464",
     "handle_url": "http://hdl.handle.net/1926/464"
+   },
+   {
+    "handle": "1926/20",
+    "handle_url": "http://hdl.handle.net/1926/20"
    }
   ],
   "identifiers": {
@@ -67,13 +67,14 @@
   "submitted_by_author": {
    "author_email": "pauly@despammed.com",
    "author_firstname": "Paul",
+   "author_fullname": "Yushkevich, Paul",
    "author_id": 51,
    "author_institution": "University of Pennsylvania",
    "author_lastname": "Yushkevich"
   },
   "tags": [
-   "Level sets",
    "Segmentation",
+   "Level sets",
    "ITK",
    "SNAP"
   ],

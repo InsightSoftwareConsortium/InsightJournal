@@ -31,7 +31,7 @@
     "persona_email": "pablo.hernandez.cerdan@outlook.com",
     "persona_firstname": "Pablo",
     "persona_id": 9689,
-    "persona_lastname": "Hernandez cerdan"
+    "persona_lastname": "Hernandez-Cerdan"
    },
    {
     "content": "Hello Juju\r\nI think those errors in the macros can be solved if you update ITK. Not sure what is the minimum version but some people reported similar errors that were solved for 4.10 maybe? (http://public.kitware.com/pipermail/community/2016-June/011491.html). This module is tested using the latest ITK (from master) and it has no errors in any platform there. Hope it helps.",
@@ -39,7 +39,7 @@
     "persona_email": "pablo.hernandez.cerdan@outlook.com",
     "persona_firstname": "Pablo",
     "persona_id": 9689,
-    "persona_lastname": "Hernandez cerdan"
+    "persona_lastname": "Hernandez-Cerdan"
    }
   ],
   "date_submitted": "2016-07-16 22:53:38",
@@ -64,21 +64,22 @@
   "submitted_by_author": {
    "author_email": "pablo.hernandez.cerdan@outlook.com",
    "author_firstname": "Pablo",
+   "author_fullname": "Hernandez-Cerdan, Pablo",
    "author_id": 9689,
    "author_institution": "Institute of Fundamental Sciences. Massey University",
    "author_lastname": "Hernandez-Cerdan"
   },
   "tags": [
-   "Denoise",
-   "Feature Detection",
-   "External",
-   "MRA",
    "Isotropic",
+   "Filter Bank",
+   "Denoise",
+   "Wavelet",
+   "External",
+   "Feature Detection",
    "Riesz",
    "Phase",
-   "Pyramid",
-   "Filter Bank",
-   "Wavelet"
+   "MRA",
+   "Pyramid"
   ],
   "title": "Isotropic and Steerable Wavelets in N Dimensions. A multiresolution analysis framework."
  }

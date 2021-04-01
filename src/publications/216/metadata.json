@@ -56,16 +56,17 @@
   "submitted_by_author": {
    "author_email": "luis.ibanez@kitware.com",
    "author_firstname": "Luis",
+   "author_fullname": "Ibanez, Luis",
    "author_id": 4,
    "author_institution": "KITWARE Inc.",
    "author_lastname": "Ibanez"
   },
   "tags": [
-   "Transforms",
+   "Deformable Registration",
    "Initialization",
    "Resampling",
-   "Deformable Registration",
-   "BSpline"
+   "BSpline",
+   "Transforms"
   ],
   "title": "Helper class for initializing the grid parameters of a BSpline deformable transform by using an image as reference"
  }

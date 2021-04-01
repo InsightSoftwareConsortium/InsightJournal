@@ -31,6 +31,14 @@
     "persona_firstname": "Amir",
     "persona_id": 6301,
     "persona_lastname": "Khojaste"
+   },
+   {
+    "content": "nice to meet i hope you are a good person\r\nemail me mb9658218@gmail.com \r\n",
+    "date": "2019-11-27T09:56:57",
+    "persona_email": "jasmineibrahim2@gmail.com",
+    "persona_firstname": "Mornica",
+    "persona_id": 11865,
+    "persona_lastname": "Brown"
    }
   ],
   "date_submitted": "2010-12-07 20:13:48",
@@ -55,15 +63,16 @@
   "submitted_by_author": {
    "author_email": "ntustison@gmail.com",
    "author_firstname": "Nicholas J.",
+   "author_fullname": "Tustison, Nicholas J.",
    "author_id": 8833,
    "author_institution": "",
    "author_lastname": "Tustison"
   },
   "tags": [
    "inhomogeneity",
-   "ninjas",
    "MRI",
-   "bias field"
+   "bias field",
+   "ninjas"
   ],
   "title": "N4ITK: Nick's N3 ITK Implementation For MRI Bias Field Correction"
  }

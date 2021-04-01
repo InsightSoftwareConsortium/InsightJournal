@@ -34,6 +34,28 @@
   "reviews": [
    {
     "author": {
+     "author_email": "jordi.inglada@cnes.fr",
+     "author_firstname": "Jordi",
+     "author_id": 511,
+     "author_lastname": "Inglada"
+    },
+    "content": "<p><strong>Summary:</strong><br />The problem addressed is the one of providing an easy access to complex valued images. Helper classes for conversion between cartesian and polar complex representations are given.<br /> <br /> <strong>Hypothesis:</strong><br />Non Applicable</p><p><br /> <strong>Evidence:</strong><br />Non Applicable<br /> <br /> <strong>Open Science:</strong><br />Source code is given.</p><p> <strong>Reproducibility:</strong><br />I was able to successfully compile and run the code.</p><p><strong>Use of Open Source Software:</strong><br />ITK is used.</p><p><br /> <strong>Open Source Contributions:</strong><br />Source code is available.</p><p><br /> <strong>Code Quality:</strong><br />Seems to follow the ITK guidelines.<br /> <br /> <strong>Applicability to other problems:</strong><br />Very interesting for other image processing fields where comples images are used (radar images in remote sensing, for instance).</p><p> <strong>Suggestions for future work:</strong><br />Helper classes for filter design in the Fourier domain would be useful. Time-frequency analysis for complex data (short-time Fourier transform, Wigner-Ville and other transforms from the Cohen&#39;s class could be easily implemented) as well as Doppler analysis functionnalities would be useful for complex valued images. </p><p>&nbsp;</p><p><br /> <strong>Requests for additional information from authors:</strong></p><p>A more detailed description of the source code would be appreciated. The paper text is only ine page long! </p><p> <strong>Additional Comments:</strong><br />None.<br /> <br /> </p>",
+    "date": "11-14-2006",
+    "review_id": 434
+   },
+   {
+    "author": {
+     "author_email": "vpage@univ-ag.fr",
+     "author_firstname": "Page",
+     "author_id": 410,
+     "author_lastname": "Vincent"
+    },
+    "content": "<p><strong>Summary:</strong><br />It s not a paper. The author implements a Complex to Complex FFT algorithms and some associated filters for the Insight Library.</p><p>As I have not been able to make/cmake the code, I guess that this review is of poor help.</p><br /><p><br /> <strong>Open Science:</strong></p><p>Sure It is open science !</p><p>&nbsp;</p><p><strong>Reproducibility:</strong><br /> I was not able to compile ... I spend 4 hours to re-compile the whole ITK with respect to the procedure of the README file, and then discovered that It&#39;s been of no help...I tried many other compilations, but no results either. Maybe I missed something but I guess that I would have done a better work as a reviewer if :</p><p>- the install part (compilation) was more detailed.</p><p>- a test procedure would be welcome ?</p><p>- I guess it is possible to compile only the new parts (and test them). There might be a standard procedure for this ... </p><p>&nbsp;</p>",
+    "date": "12-11-2006",
+    "review_id": 443
+   },
+   {
+    "author": {
      "author_email": "jakub.bican@matfyz.cz",
      "author_firstname": "Jakub",
      "author_id": 81,
@@ -53,33 +75,12 @@
     "content": "<p><strong>Summary:</strong><br /> Proposes adding ComplexToComplex FFT operations to ITK</p><p><br /> <strong>Hypothesis:</strong><br /> Author hypothesizes that adding ComplexToComplex FFT filters to ITK would be a good thing.</p><p> <strong>Evidence:</strong><br />Source Code</p><p><br /> <strong>Open Science:</strong></p><p>Freely available source code... </p><p><strong>Reproducibility:</strong></p><p>I downloaded the code and read the paper, such as it was. It&#39;s more like an abstract for a paper than an actual paper. The code being proposed for inclusion in ITK is very specific and concise, but a brief description of the new classes introduced, and why they have the class signature they do would be useful. </p><p><strong>Use of Open Source Software:</strong></p><p>As far as I can tell, completely open. </p><p> <strong>Open Source Contributions:</strong><br />Source Code is included and is nominally useful and mostly correct.</p><p><strong>Code Quality:</strong><br />Suggestions: This code was derived by editing the existing FFT/FFTW real-to-complex and complex-to-real source code. That origional code has changed slightly since the author appropriated it to produce this new set of classes. In order to be compatible with the current FFTW it&#39;s necessary to make copies of the input data, since it gets scribbled on by the fftwX_plan function. Also, the current FFTW/FFT code in Code/Algorithms allocates buffers and preserves the plan memory, so you can instantiate a filter, and re-use it without re-generating the plan. This is a big performance win. </p><p><strong>Applicability to other problems:</strong><br />Generally applicable to FFT based image processing, in cases where Complex image data is the input. This includes use in a pipeline that requires more than one FFT/IFFT operation in an ITK Pipeline, as the intermediate image results can remain in complex numbers. </p><p> <strong>Suggestions for future work:</strong><br /> Revisit the real-to-complex and complex-to-real FFTW filters and incorporate the changes detailed above. Provide some &#39;real world&#39; examples, implementing at least one common use case for FFT in Image processing. </p><p> <strong>Requests for additional information from authors:</strong><br /></p><p><strong>Additional Comments:</strong><br />It&#39;s suggested that the source code provided be copied into the Insight source tree for building and testing. For the purposes of a journal submission, a standalone project that can be built using an already-installed ITK would be a better choice. If the code passes review it can be copied into the Insight source tree one time. </p>",
     "date": "11-17-2006",
     "review_id": 437
-   },
-   {
-    "author": {
-     "author_email": "vpage@univ-ag.fr",
-     "author_firstname": "Page",
-     "author_id": 410,
-     "author_lastname": "Vincent"
-    },
-    "content": "<p><strong>Summary:</strong><br />It s not a paper. The author implements a Complex to Complex FFT algorithms and some associated filters for the Insight Library.</p><p>As I have not been able to make/cmake the code, I guess that this review is of poor help.</p><br /><p><br /> <strong>Open Science:</strong></p><p>Sure It is open science !</p><p>&nbsp;</p><p><strong>Reproducibility:</strong><br /> I was not able to compile ... I spend 4 hours to re-compile the whole ITK with respect to the procedure of the README file, and then discovered that It&#39;s been of no help...I tried many other compilations, but no results either. Maybe I missed something but I guess that I would have done a better work as a reviewer if :</p><p>- the install part (compilation) was more detailed.</p><p>- a test procedure would be welcome ?</p><p>- I guess it is possible to compile only the new parts (and test them). There might be a standard procedure for this ... </p><p>&nbsp;</p>",
-    "date": "12-11-2006",
-    "review_id": 443
-   },
-   {
-    "author": {
-     "author_email": "jordi.inglada@cnes.fr",
-     "author_firstname": "Jordi",
-     "author_id": 511,
-     "author_lastname": "Inglada"
-    },
-    "content": "<p><strong>Summary:</strong><br />The problem addressed is the one of providing an easy access to complex valued images. Helper classes for conversion between cartesian and polar complex representations are given.<br /> <br /> <strong>Hypothesis:</strong><br />Non Applicable</p><p><br /> <strong>Evidence:</strong><br />Non Applicable<br /> <br /> <strong>Open Science:</strong><br />Source code is given.</p><p> <strong>Reproducibility:</strong><br />I was able to successfully compile and run the code.</p><p><strong>Use of Open Source Software:</strong><br />ITK is used.</p><p><br /> <strong>Open Source Contributions:</strong><br />Source code is available.</p><p><br /> <strong>Code Quality:</strong><br />Seems to follow the ITK guidelines.<br /> <br /> <strong>Applicability to other problems:</strong><br />Very interesting for other image processing fields where comples images are used (radar images in remote sensing, for instance).</p><p> <strong>Suggestions for future work:</strong><br />Helper classes for filter design in the Fourier domain would be useful. Time-frequency analysis for complex data (short-time Fourier transform, Wigner-Ville and other transforms from the Cohen&#39;s class could be easily implemented) as well as Doppler analysis functionnalities would be useful for complex valued images. </p><p>&nbsp;</p><p><br /> <strong>Requests for additional information from authors:</strong></p><p>A more detailed description of the source code would be appreciated. The paper text is only ine page long! </p><p> <strong>Additional Comments:</strong><br />None.<br /> <br /> </p>",
-    "date": "11-14-2006",
-    "review_id": 434
    }
   ],
   "submitted_by_author": {
    "author_email": "simon.warfield@childrens.harvard.edu",
    "author_firstname": "Simon",
+   "author_fullname": "Warfield, Simon",
    "author_id": 514,
    "author_institution": "Harvard Medical School",
    "author_lastname": "Warfield"

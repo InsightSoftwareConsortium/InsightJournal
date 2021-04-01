@@ -18,20 +18,20 @@
   ],
   "comments": [
    {
-    "content": "I just now realized that for small sigmas, this filter requires immense amounts of memory! Domain sigma=1.0 with image size 448x448x15 requires 12GB of intermediate storage.",
-    "date": "2012-11-22T05:33:17",
-    "persona_email": "dzenanz@gmail.com",
-    "persona_firstname": "D\u017eenan",
-    "persona_id": 2260,
-    "persona_lastname": "Zuki\u0107"
-   },
-   {
     "content": "For 3d (and 4d) datasets, a small domain sigma may be appropriate in the x and y direction but the distance between slices in the z direction is typically much larger than the pixel spacing in x and y. This leads to a significant increase in memory usage because the small sigma leads to many bins between slices.\r\n\r\nI haven\\'t looked at the code in some time, but I am aware that this is a problem and I have been meaning to look at it again.",
     "date": "2013-05-08T12:31:19",
     "persona_email": "jordanwoehr@gmail.com",
     "persona_firstname": "Jordan",
     "persona_id": 2279,
     "persona_lastname": "Woehr"
+   },
+   {
+    "content": "I just now realized that for small sigmas, this filter requires immense amounts of memory! Domain sigma=1.0 with image size 448x448x15 requires 12GB of intermediate storage.",
+    "date": "2012-11-22T05:33:17",
+    "persona_email": "dzenanz@gmail.com",
+    "persona_firstname": "D\u017eenan",
+    "persona_id": 2260,
+    "persona_lastname": "Zuki\u0107"
    }
   ],
   "date_submitted": "2009-08-28 11:27:07",
@@ -56,13 +56,14 @@
   "submitted_by_author": {
    "author_email": "jordanwoehr@gmail.com",
    "author_firstname": "Jordan",
+   "author_fullname": "Woehr, Jordan",
    "author_id": 2279,
    "author_institution": "University of Calgary",
    "author_lastname": "Woehr"
   },
   "tags": [
-   "Bilateral filter",
-   "Image processing"
+   "Image processing",
+   "Bilateral filter"
   ],
   "title": "A Fast Approximation to the Bilateral Filter for ITK"
  }

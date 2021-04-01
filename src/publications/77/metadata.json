@@ -51,17 +51,6 @@
   "reviews": [
    {
     "author": {
-     "author_email": "gaetan.lehmann@gmail.com",
-     "author_firstname": "Gaetan",
-     "author_id": 328,
-     "author_lastname": "Lehmann"
-    },
-    "content": "<b>Summary:</b>\r\nThe paper describe a new filter to compute the distance map of a binary image. The author provides a more efficient filter than the current filter available in ITK\r\n \r\n<b>Evidence:</b>\r\nThe author provides source code and input and output images so it\\\\\\'s easy to validate the behavior of the filter.\r\n\r\n<b>Open Science:</b>\r\nThe author provides a good description of is filter, the source code, and the input and output image. It can be even better by also providing the source code of the timing test.\r\n\r\n<b>Reproducibility:</b>\r\nI was able to reproduce the work, with some small problems: I\\\\\\'m used to build the code in a \\\\\\\"build\\\\\\\" directory. The build succeed, but the test failed when run out of the source directory.\r\nI compile and run the code on a mandriva linux 2006.0 with a pentium 4 and 2GB of RAM.\r\nAs said above, it would have been easier with the source code of the timing test.\r\n\r\n<b>Open Source Contributions:</b>\r\nThe code is easily usable - it is really closed itk\\\\\\'s danielsson filter.\r\n\r\n<b>Code Quality:</b>\r\nThe code quality is quite good, but the core of the implementation is not documented - it should be done before inclusion in ITK to make modification of the code easier.\r\nIndentation doesn\\\\\\'t follow the ITK convention.\r\n\r\n<b>Applicability to other problems:</b>\r\nDistance transform is the base of lots of algorithms - This efficient version will be useful in lots of cases.\r\n\r\n<b>Suggestions for future work:</b>\r\nIn the title, it\\\\\\'s said that the filter perform the computation in linear time. It would be great to see a graph which show that in the paper - \\\\\\\"time = f( number of pixels)\\\\\\\" instead of \\\\\\\"time = f( number of pixels per dimension )\\\\\\\".\r\nThe filter should report its progress - it currently doesn\\\\\\'t report it.\r\nThe ability to select the background color is interesting, but unless the common usage of this filter is for labeled images, I think it would be better to be able to select the foreground value, like it\\\\\\'s done in other filters which manipulate binary images.\r\nFinally, I would suggest to implement the squared option in a separate filter. The progress report would be easier to implement this way, and it would be possible to implement concept check for pixel types.\r\n\r\n<b>Additional Comments:</b>\r\nNote that a template for IJ contribution is available at http://voxel.jouy.inra.fr/darcs/contrib-itk/template/, and should avoid the problems of build directory, for example.\r\nThanks for that filter !\r\n",
-    "date": "02-19-2006",
-    "review_id": 193
-   },
-   {
-    "author": {
      "author_email": "luis.ibanez@kitware.com",
      "author_firstname": "Luis",
      "author_id": 4,
@@ -81,11 +70,23 @@
     "content": "<b>Summary:</b>\r\nITK filter to perform signed distance transform.\r\n \r\n<b>Reproducibility:</b>\r\nI was able to download, compile, and run the work. \r\n\r\n<b>Use of Open Source Software:</b>\r\nThis is clearly Open Source code. It is written completely in itk\r\n\r\n<b>Open Source Contributions:</b>\r\nThe authors provide the full source code and documentation. It took me about 10 minutes to download and run the code.\r\n\r\n<b>Code Quality:</b>\r\nThe code quality is very good. It is easy to understand. The author provide documentation along with the code.\r\n\r\n\r\n<b>Additional Comments:</b>\r\nThis is a very useful filter to perform fast distance transforms.\r\nOur team is implementing a warping algorithm for which we use the signed distance transform on 3d images. Generating the signed distance transform is the most time consuming part of our algorithm. Due to this filter there is a 10 fold improvement in speed of our algorithm . \r\nThanks for this addition to ITK.\r\n",
     "date": "02-19-2006",
     "review_id": 192
+   },
+   {
+    "author": {
+     "author_email": "gaetan.lehmann@gmail.com",
+     "author_firstname": "Gaetan",
+     "author_id": 328,
+     "author_lastname": "Lehmann"
+    },
+    "content": "<b>Summary:</b>\r\nThe paper describe a new filter to compute the distance map of a binary image. The author provides a more efficient filter than the current filter available in ITK\r\n \r\n<b>Evidence:</b>\r\nThe author provides source code and input and output images so it\\\\\\'s easy to validate the behavior of the filter.\r\n\r\n<b>Open Science:</b>\r\nThe author provides a good description of is filter, the source code, and the input and output image. It can be even better by also providing the source code of the timing test.\r\n\r\n<b>Reproducibility:</b>\r\nI was able to reproduce the work, with some small problems: I\\\\\\'m used to build the code in a \\\\\\\"build\\\\\\\" directory. The build succeed, but the test failed when run out of the source directory.\r\nI compile and run the code on a mandriva linux 2006.0 with a pentium 4 and 2GB of RAM.\r\nAs said above, it would have been easier with the source code of the timing test.\r\n\r\n<b>Open Source Contributions:</b>\r\nThe code is easily usable - it is really closed itk\\\\\\'s danielsson filter.\r\n\r\n<b>Code Quality:</b>\r\nThe code quality is quite good, but the core of the implementation is not documented - it should be done before inclusion in ITK to make modification of the code easier.\r\nIndentation doesn\\\\\\'t follow the ITK convention.\r\n\r\n<b>Applicability to other problems:</b>\r\nDistance transform is the base of lots of algorithms - This efficient version will be useful in lots of cases.\r\n\r\n<b>Suggestions for future work:</b>\r\nIn the title, it\\\\\\'s said that the filter perform the computation in linear time. It would be great to see a graph which show that in the paper - \\\\\\\"time = f( number of pixels)\\\\\\\" instead of \\\\\\\"time = f( number of pixels per dimension )\\\\\\\".\r\nThe filter should report its progress - it currently doesn\\\\\\'t report it.\r\nThe ability to select the background color is interesting, but unless the common usage of this filter is for labeled images, I think it would be better to be able to select the foreground value, like it\\\\\\'s done in other filters which manipulate binary images.\r\nFinally, I would suggest to implement the squared option in a separate filter. The progress report would be easier to implement this way, and it would be possible to implement concept check for pixel types.\r\n\r\n<b>Additional Comments:</b>\r\nNote that a template for IJ contribution is available at http://voxel.jouy.inra.fr/darcs/contrib-itk/template/, and should avoid the problems of build directory, for example.\r\nThanks for that filter !\r\n",
+    "date": "02-19-2006",
+    "review_id": 193
    }
   ],
   "submitted_by_author": {
    "author_email": "ntustison@gmail.com",
    "author_firstname": "Nicholas J.",
+   "author_fullname": "Tustison, Nicholas J.",
    "author_id": 8833,
    "author_institution": "",
    "author_lastname": "Tustison"

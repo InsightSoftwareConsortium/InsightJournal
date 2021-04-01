@@ -48,17 +48,6 @@
   "reviews": [
    {
     "author": {
-     "author_email": "sylvain@bwh.harvard.edu",
-     "author_firstname": "Sylvain",
-     "author_id": 87,
-     "author_lastname": "Bouix"
-    },
-    "content": "<b>Summary:</b>\r\nThis paper describes a validation study of the segmentation of skull infiltrated tumors.\r\nTwo segmentation pipelines implemented in ITK are presented, one based on region growing, one based on level sets.\r\nThey are then validated agains one expert\\\\\\'s segmentations using five similarity measurement: sensitivity, specificity, Dice, X2 and Hausdorff\r\n\r\n<b>Hypothesis:</b>\r\nNon applicable\r\n\r\n<b>Evidence:</b>\r\nFour datasets were used, 3 patients with manual tracings by 1 human expert and 1 phantom with ground truth.\r\nThe experimetns are clearly explained and sufficient evidence is provided.\r\n\r\n<b>Open Science:</b>\r\nThere is enough information in the paper to reproduce the experiment, but no data or source code is provided. \r\n\r\n<b>Use of Open Source Software:</b>\r\nAuthors used ITK for the segmentation pipelines and Hausdorff measurements\r\n\r\n<b>Open Source Contributions:</b>\r\nNo code provided.\r\n\r\n<b>Applicability to other problems:</b>\r\nThe main contribution of the paper is to question certain measurement when validating segmentation technique, which I think is important for the community in general. They partiucularly caution the reader in using specificity and sensitivity as the sole validation parameters as they are dependent on the image size vs. object size relationship. They later show that these measures actually rank region growing higher than level sets even though other measures disagree. \r\n\r\n<b>Suggestions for future work :</b>\r\nIn the context of open science, I suggest the author incorporate the validation measurements into ITK and share their data and source code so experiments can be reproduced elsewhere.\r\nI also suggest they investigate other similarity measures found in the statistic litterature. The article by Hripcsakk abd Heitjjan on \\\\\\\"Measuring Agreement in medical informatics reliability studies\\\\\\\" is a good starting point. \r\n\r\n",
-    "date": "08-24-2005",
-    "review_id": 38
-   },
-   {
-    "author": {
      "author_email": "luis.ibanez@kitware.com",
      "author_firstname": "Luis",
      "author_id": 4,
@@ -67,21 +56,33 @@
     "content": "<b>Summary:</b>\r\nThis papers describes the application of algorithms available in ITK to the segmentation of brain-tumors infiltrating the skull. It also implements a methodology for evaluating their results compared to a human expert.\r\n \r\n<b>Hypothesis:</b>\r\nThis paper hypothesis that segmentation methods from the Insight Toolkit can be used for delineating skull infiltrated tumors. In order to test this hypothesis, the authors selected multiple segmentation methods from the toolkit, ran segmentation on test data and implemented an evaluation methodology for comparing the results from the software-based segmentation with the human expert segmentations.\r\n\r\n<b>Evidence:</b>\r\nThe authors present abundant evidence from the result of their segmentation experiments. The comparision of the segmentation methods reveals that the authors invested a significan amount of work in exploring the applicability of the many segmentation methods compared here. It is unfortunate that the full material of those experiments was not shared with the readers, who would have derived great benefits from being able to apply the same set of experiments to other medical segmentation problems.\r\n\r\n<b>Open Science:</b>\r\nThe paper describe the segmentation methods evaluated in this case, and the evaluation methodology used for comparing the results. This evaluation methodology seems to be the most valuable contribution of the paper, since it reveals that a wide set of segmentation tools were systematically tested. Unfortunately the authors did not share the source code used for their test and for their evaluation methodology. Despite the fact that their code is based on ITK filters, it would take a reader a significant amount of time to replicate the work of the authros, since the reader will have to reimplement the code for all the tests.\r\n\r\n<b>Reproducibility:</b>\r\nThe work can hardly be reproduced. Not enough coding details are provided by the authors, and in particular, no details regarding the many numerical parameters of the segmentation methods are mentioned. In the current form it is impossible to replicate the work performed by the authors. A reader could run an equivalent set of experiments, by using ITK filters, but the lack of the input images, and the lack of details regarding the parameters will make impossible to ensure that the reader\\'s set of test is equivalent to the one reported by the authors.\r\n\r\n\r\n<b>Use of Open Source Software:</b>\r\nThe authors make extensive use of the Insight Toolkit, and took care of using ITK filters as building blocks. Their study of the applicability of ITK segmentation filters is certainly valuable for the readers, since it guides them towards the segmentation methods that displayed the best performance (compared to a human expert) for segmenting the skull-infiltrated tumors.\r\n\r\n\r\n\r\n<b>Open Source Contributions:</b>\r\nThe authors did not provide their source code.\r\n\r\n\r\n<b>Code Quality:</b>\r\nReviewer\\'s speculation: Judgging from the description in the paper it seems that the authors made a good use of the code available in the Insight Toolkit, by combining ITK filters as building blocks for their segmenation pipelines. \r\n\r\n<b>Applicability to other problems:</b>\r\nThe generic problem faced by the authors is indeed quite challenging since the intensity of the image alone is not enough for segmenting the objets. The ITK methods that the authors found to be more appropriate for this problem, will probably perform well for other segmentation situations where the intensity of the object to be extracted is similar to the intensity of adjacent structures.\r\n\r\n\r\n<b>Suggestions for future work:</b>\r\nMany of the methods used in VALMET (Gerig, G., Jomier, M., Chakos, M.) are now available in ITK in the form of filters. In particular the overlap measures, the Haussdorf distance and surface mean distance. It could be interesting to create a reusable framework for segmentation validation that any authors could use during the validation stages of their segmentation work.\r\n\r\n\r\n\r\n<b>Requests for additional information from authors:</b>\r\nIt will be very useful if the authors share their source code with the community. In particular all the parameters setting of the segmentation methods. The source code of their evaluation framework will also be extremely useful for anybody performing a segmentation evaluation study.\r\n\r\n\r\n<b>Additional Comments:</b>\r\nSince the authors found the Chi squared value to be a convenient measure for comparing the segmentation results to the human expert delineation, it seems to be interesting to create that measure as an ITK filter.\r\n\r\n\r\n",
     "date": "09-18-2005",
     "review_id": 105
+   },
+   {
+    "author": {
+     "author_email": "sylvain@bwh.harvard.edu",
+     "author_firstname": "Sylvain",
+     "author_id": 87,
+     "author_lastname": "Bouix"
+    },
+    "content": "<b>Summary:</b>\r\nThis paper describes a validation study of the segmentation of skull infiltrated tumors.\r\nTwo segmentation pipelines implemented in ITK are presented, one based on region growing, one based on level sets.\r\nThey are then validated agains one expert\\\\\\'s segmentations using five similarity measurement: sensitivity, specificity, Dice, X2 and Hausdorff\r\n\r\n<b>Hypothesis:</b>\r\nNon applicable\r\n\r\n<b>Evidence:</b>\r\nFour datasets were used, 3 patients with manual tracings by 1 human expert and 1 phantom with ground truth.\r\nThe experimetns are clearly explained and sufficient evidence is provided.\r\n\r\n<b>Open Science:</b>\r\nThere is enough information in the paper to reproduce the experiment, but no data or source code is provided. \r\n\r\n<b>Use of Open Source Software:</b>\r\nAuthors used ITK for the segmentation pipelines and Hausdorff measurements\r\n\r\n<b>Open Source Contributions:</b>\r\nNo code provided.\r\n\r\n<b>Applicability to other problems:</b>\r\nThe main contribution of the paper is to question certain measurement when validating segmentation technique, which I think is important for the community in general. They partiucularly caution the reader in using specificity and sensitivity as the sole validation parameters as they are dependent on the image size vs. object size relationship. They later show that these measures actually rank region growing higher than level sets even though other measures disagree. \r\n\r\n<b>Suggestions for future work :</b>\r\nIn the context of open science, I suggest the author incorporate the validation measurements into ITK and share their data and source code so experiments can be reproduced elsewhere.\r\nI also suggest they investigate other similarity measures found in the statistic litterature. The article by Hripcsakk abd Heitjjan on \\\\\\\"Measuring Agreement in medical informatics reliability studies\\\\\\\" is a good starting point. \r\n\r\n",
+    "date": "08-24-2005",
+    "review_id": 38
    }
   ],
   "submitted_by_author": {
    "author_email": "popovic@hia.rwth-aachen.de",
    "author_firstname": "Aleksandra",
+   "author_fullname": "Popovic, Aleksandra",
    "author_id": 50,
    "author_institution": "Helmholtz Institute for Biomedical Engineerning, RWTH Aachen University",
    "author_lastname": "Popovic"
   },
   "tags": [
-   "Segmentation",
-   "Level Sets",
+   "ITK",
    "Region Growing",
+   "Level Sets",
    "Validation",
-   "ITK"
+   "Segmentation"
   ],
   "title": "Segmentation of Skull-infiltrated Tumors Using ITK: Methods and Validation"
  }

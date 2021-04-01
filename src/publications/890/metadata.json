@@ -18,20 +18,20 @@
   ],
   "comments": [
    {
-    "content": "The source code has already been migrated to ITK.\r\n\r\nhashtag: 6c86b9f",
-    "date": "2016-05-24T11:36:26",
-    "persona_email": "andinet.enqu@kitware.com",
-    "persona_firstname": "Andinet",
-    "persona_id": 68,
-    "persona_lastname": "Enquobahrie"
-   },
-   {
     "content": "References please",
     "date": "2013-07-06T17:18:12",
     "persona_email": "mhd.mayya@gmail.com",
     "persona_firstname": "Mohammad",
     "persona_id": 6260,
     "persona_lastname": "Mayya"
+   },
+   {
+    "content": "The source code has already been migrated to ITK.\r\n\r\nhashtag: 6c86b9f",
+    "date": "2016-05-24T11:36:26",
+    "persona_email": "andinet.enqu@kitware.com",
+    "persona_firstname": "Andinet",
+    "persona_id": 68,
+    "persona_lastname": "Enquobahrie"
    }
   ],
   "date_submitted": "2013-06-16 11:18:12",
@@ -56,16 +56,17 @@
   "submitted_by_author": {
    "author_email": "arnaudgelas@gmail.com",
    "author_firstname": "Arnaud",
+   "author_fullname": "Gelas, Arnaud",
    "author_id": 7896,
    "author_institution": "",
    "author_lastname": "Gelas"
   },
   "tags": [
-   "Laplacian",
-   "Deformation",
    "QuadEdgeMesh",
    "ITK filter",
-   "Mesh"
+   "Laplacian",
+   "Mesh",
+   "Deformation"
   ],
   "title": "Laplacian Mesh Deformation"
  }

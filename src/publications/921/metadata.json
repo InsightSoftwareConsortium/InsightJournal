@@ -66,19 +66,20 @@
   "submitted_by_author": {
    "author_email": "luis.ibanez@kitware.com",
    "author_firstname": "Luis",
+   "author_fullname": "Ibanez, Luis",
    "author_id": 4,
    "author_institution": "KITWARE Inc.",
    "author_lastname": "Ibanez"
   },
   "tags": [
    "notebook",
-   "docker",
-   "github",
    "Reproducibility",
    "Tardigrades",
    "Scipy",
    "IPython",
-   "dexy"
+   "dexy",
+   "github",
+   "docker"
   ],
   "title": "Reproducible Research Training at Scipy 2014"
  }

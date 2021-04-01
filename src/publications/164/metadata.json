@@ -65,15 +65,16 @@
   "submitted_by_author": {
    "author_email": "Pierre.Fillard@sophia.inria.fr",
    "author_firstname": "Pierre",
+   "author_fullname": "Fillard, Pierre",
    "author_id": 261,
    "author_institution": "INRIA",
    "author_lastname": "Fillard"
   },
   "tags": [
-   "synchronization",
-   "spatiotemporal",
    "VTK",
-   "interaction"
+   "synchronization",
+   "interaction",
+   "spatiotemporal"
   ],
   "title": "vtkINRIA3D: A VTK Extension for Spatiotemporal Data Synchronization, Visualization and Management"
  }

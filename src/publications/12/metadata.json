@@ -52,36 +52,36 @@
   "date_submitted": "2005-07-29T13:15:43Z",
   "handles": [
    {
-    "handle": "1926/186",
-    "handle_url": "http://hdl.handle.net/1926/186"
-   },
-   {
-    "handle": "1926/540",
-    "handle_url": "http://hdl.handle.net/1926/540"
+    "handle": "1926/112",
+    "handle_url": "http://hdl.handle.net/1926/112"
    },
    {
     "handle": "1926/12",
     "handle_url": "http://hdl.handle.net/1926/12"
    },
    {
-    "handle": "1926/577",
-    "handle_url": "http://hdl.handle.net/1926/577"
-   },
-   {
-    "handle": "1926/542",
-    "handle_url": "http://hdl.handle.net/1926/542"
-   },
-   {
-    "handle": "1926/538",
-    "handle_url": "http://hdl.handle.net/1926/538"
+    "handle": "1926/540",
+    "handle_url": "http://hdl.handle.net/1926/540"
    },
    {
     "handle": "1926/594",
     "handle_url": "http://hdl.handle.net/1926/594"
    },
    {
-    "handle": "1926/112",
-    "handle_url": "http://hdl.handle.net/1926/112"
+    "handle": "1926/577",
+    "handle_url": "http://hdl.handle.net/1926/577"
+   },
+   {
+    "handle": "1926/538",
+    "handle_url": "http://hdl.handle.net/1926/538"
+   },
+   {
+    "handle": "1926/186",
+    "handle_url": "http://hdl.handle.net/1926/186"
+   },
+   {
+    "handle": "1926/542",
+    "handle_url": "http://hdl.handle.net/1926/542"
    }
   ],
   "identifiers": {
@@ -99,16 +99,17 @@
   "submitted_by_author": {
    "author_email": "rexilius@mevis.de",
    "author_firstname": "Jan",
+   "author_fullname": "Rexilius, Jan",
    "author_id": 33,
    "author_institution": "MeVis",
    "author_lastname": "Rexilius"
   },
   "tags": [
-   "Visual Programming",
-   "Clinical Application Prototyping",
-   "Algorithm Evaluation",
    "MeVisLab",
-   "ITK"
+   "Algorithm Evaluation",
+   "ITK",
+   "Visual Programming",
+   "Clinical Application Prototyping"
   ],
   "title": "A Framework for Algorithm Evaluation and Clinical Application Prototyping using ITK"
  }

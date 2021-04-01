@@ -53,15 +53,16 @@
   "submitted_by_author": {
    "author_email": "luis.ibanez@kitware.com",
    "author_firstname": "Luis",
+   "author_fullname": "Ibanez, Luis",
    "author_id": 4,
    "author_institution": "KITWARE Inc.",
    "author_lastname": "Ibanez"
   },
   "tags": [
+   "Mesh Processing",
    "Mesh Data Smoothing",
    "QuadEdgeMesh",
-   "Parallel Transport",
-   "Mesh Processing"
+   "Parallel Transport"
   ],
   "title": "Iterative Smoothing of Field Data in Spherical Meshes"
  }

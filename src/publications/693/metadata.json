@@ -40,15 +40,16 @@
   "submitted_by_author": {
    "author_email": "daviddoria@gmail.com",
    "author_firstname": "David",
+   "author_fullname": "Doria, David",
    "author_id": 2205,
    "author_institution": "Rensselaer Polytechnic Institute",
    "author_lastname": "Doria"
   },
   "tags": [
-   "mesh",
    "lidar",
-   "ptx",
-   "reader"
+   "mesh",
+   "reader",
+   "ptx"
   ],
   "title": "Reading a PTX file into an itkMesh"
  }

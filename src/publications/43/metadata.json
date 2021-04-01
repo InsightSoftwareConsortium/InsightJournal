@@ -44,25 +44,14 @@
   "reviews": [
    {
     "author": {
-     "author_email": "agouaillard@gmail.com",
-     "author_firstname": "Alexandre",
-     "author_id": 322,
-     "author_lastname": "Gouaillard"
+     "author_email": "bill.lorensen@gmail.com",
+     "author_firstname": "Bill",
+     "author_id": 2746,
+     "author_lastname": "Lorensen"
     },
-    "content": "<b>Summary:</b>\r\nThis paper deals with topological correction of brain isosurface. The main idea is to mix surface approach (for handle detection) and image approach (for the correction part, faster and robust).\r\n \r\n<b>Open Science:</b>\r\nThis paper is most definitly within the scope of open science. The code is based on VTK and everything (data, code and documentation) is given. Moreover, there is no publicly available toolkit for topology management so far. (note: guskov2001 papers goes with a binary). It should be noted that we are still lacking (in the open community) a suitable Data Structurefor rigorous topological work on surface meshes. The authors implemented an HE data structure that manage orientability and other components. Unfortunatly it seems to be bundled with application specific code. See below for a discussion on how this could be best profitable to open source community. \r\n\r\n<b>Reproducibility:</b>\r\nI did not download the code and test it yet as the code is reported as not working.\r\nThis approach look pretty much alike the one from Wood04 where the authors used the isosurface (well, reeb-graph of iso surfaces and isocontours of the original image) to find the handles and \\\"repaired\\\" the mesh using the image. There too, MC was an intermediate step to recompute the corrected surface. This approach seems to be much simpler (which is a good thing) but the reader is left with no clue whatsoever about the underlying \\\"handle detection\\\" algorithm which unfortunatly is the core of the method. They seems to use a front propagation method on the isosurface to define a distance map (to what?), followed by a second pass where they detect the handles. The thing is, for each handle you have two specific \\\"class\\\" of loops (generators) that can be used to remove the handle. the first question is, how do you decide if you \\\"pintch\\\" the handle or \\\"fill\\\" the handle (dual operation, depending on the orientation of your surface)? Both operation lead to a genus - 1 surface, but very different ones. The second issue is that topology and geometry are disconnected. There is an infinity of loops that would be suitable to remove an handle in a topological sense. Here the authors seems to try to find the shortest one. Is that correct ? and if it is, why this one ? Are the authors sure they are getting the shortest one? I\\'m pretty much sure that the authors managed to removed all the handles in a topological sense (genus down to zero), I\\'m still wondering about if it\\'s done properly (and the definition of properly in this case is also an issue to be discussed with the biologists... Whatever \\\"properly\\\" is, it should be stated from the start as it impacts significantly the algorithm).\r\n\r\n<b>Use of Open Source Software:</b>\r\nThey do use open source (VTK). \r\n\r\n<b>Open Source Contributions:</b>\r\nFew details are given in the MICCAI paper, but the ppt contents more details. Most interestingly they somehow show that VTK does not contains the good structure for mesh processing. Even if the proposed structure contains some algorithm specific features, they implemented an Half-edge data-structure over the vtkPolyData. It would be interesting to see if the HE datastructure could be detached from the algorithm specific part (vtkPolyData -> vtkHalfEdgeMesh -> author code) and added to VTK toolkit. It would be also interesting to wonder if mesh processing features should be added to a VIZUALIZATION toolkit or to ITK which is dedicated to processing. The answer is most probably it should be integrated in ITK, but right now itk is lacking all the basic mesh processing filters vtk is providing..... A C-GAL - like mesh structure is definitly needed for mesh processing. By the way, how do the author insure closedness, 2-manifoldness (HE provides the orientation layer that vtkPolyData was not providing). Without those issues addressed, it seems difficult to treat topology rigorously (homology vs homotopy when the surface is not closed - we are working with surface of solid objects thus we should have 2-manifold, shall we let the end user handle that, or shall we enforce the 2-manfoldness in the DataStructure - ...).\r\n\r\n<b>Code Quality:</b>\r\nDid not check that. Compilation reported broken. I believe the author to have several years experience with VTK from belgium to caltech, INRIA, MIT and now kitware, so the code should be well written.\r\n\r\n<b>Applicability to other problems:</b>\r\nthat topological could be of interest if control over the topology was given. The subject is verey active in graphical, mechanical and computational field. In medical field most people focus on brain, as the genus is known. It would be interesting to open the problem to a larger scale.\r\n\r\n<b>Suggestions for future work:</b>\r\nHere are somef works on a possible solution for the all-surface approach (which does not address some of the \\\"mesh modification\\\" problems). I\\'m still somehow working on it, if the author want to have some discussions on the problem, I\\'m open.\r\nA. GOUAILLARD, C. ODET, X. GU, \u00e2\u0080\u009cComputing Shortest Cycles on Discrete Surfaces for Acurate Topological Modifications of Medical Image Isosurfaces\u00e2\u0080\u009d, In Proceedings of IEEE EMBC\u00e2\u0080\u009905, Shanghai, September 11th-14th 2005. To appear.\r\nA. GOUAILLARD, T. KANAI, C. ODET, X. GU, \u00e2\u0080\u009cOptimal Localization of Topological Artefacts on 3D Meshes\u00e2\u0080\u009d, The 11th Int. Conf. on Geometry and Graphics, 1-5 Aug., 2004, Guangzhou, China.\r\n\r\n<b>Requests for additional information from authors:</b>\r\nI would definitly need some information on the handle detection part. There is nothing about it in the paper althought it\\'s the core of the method IMHO.\r\n\r\n<b>Additional Comments:</b>\r\nOpen to discussion on the subject.\r\n\r\n",
-    "date": "11-14-2005",
-    "review_id": 131
-   },
-   {
-    "author": {
-     "author_email": "donna@brainvis.wustl.edu",
-     "author_firstname": "Donna",
-     "author_id": 127,
-     "author_lastname": "Dierker"
-    },
-    "content": "We have read the other paper these authors cite and have been interested in implementing one of these methods. But none of them makes the code so readily available. At the very least, we will test this method. If we like the results, we will integrate the code into Caret, giving appropriate credit and following the licensing guidelines.\r\n\r\nDonna Hanlon\r\nVan Essen Lab\r\nhttp://brainvis.wustl.edu",
-    "date": "08-08-2005",
-    "review_id": 22
+    "content": "<b>Summary:</b>\r\nA suite of approximately 20 programs to manipulate isosurfaces.\r\n\r\n<b>Open Science:</b>\r\nMost of the source code is available. Although some code is missing. There is no sample data provided. The algorithm is not suffieicently described in the paper.\r\n\r\n<b>Reproducibility:</b>\r\nI downloaded the file, but it would not compile. The file macros.h was missing.\r\n\r\n<b>Use of Open Source Software:</b>\r\nThe authors used the open source vtk toolkit. It seems that about 5 new vtk classes are provided.\r\n\r\n<b>Open Source Contributions:</b>\r\nThe software cannot be built as distributed because of missing source code. Also, the CMakeLists.tst files contain user-specific paths. ALl of the CMakeLists.txt files need editing. A high level CMakeLists.txt file is not provided. This wouold ease the constrcution of all of the programs.\r\n\r\n<b>Code Quality:</b>\r\nCoding style is reasonable.\r\n\r\n<b>Suggestions for future work:</b>\r\n<UL>\r\n<LI>This looks like a useful set of tools to manipulate and improve isosurfaces.\r\n<LI>Some work is needed with the distriubtion and the cmake files.\r\n<LI>There is not a good description of the topology repair algorithm.\r\n</UL>\r\n",
+    "date": "02-01-2006",
+    "review_id": 163
    },
    {
     "author": {
@@ -77,31 +66,43 @@
    },
    {
     "author": {
-     "author_email": "lorensen@crd.ge.com",
-     "author_firstname": "Bill",
-     "author_id": 17,
-     "author_lastname": "Lorensen"
+     "author_email": "donna@brainvis.wustl.edu",
+     "author_firstname": "Donna",
+     "author_id": 127,
+     "author_lastname": "Dierker"
     },
-    "content": "<b>Summary:</b>\r\nA suite of approximately 20 programs to manipulate isosurfaces.\r\n\r\n<b>Open Science:</b>\r\nMost of the source code is available. Although some code is missing. There is no sample data provided. The algorithm is not suffieicently described in the paper.\r\n\r\n<b>Reproducibility:</b>\r\nI downloaded the file, but it would not compile. The file macros.h was missing.\r\n\r\n<b>Use of Open Source Software:</b>\r\nThe authors used the open source vtk toolkit. It seems that about 5 new vtk classes are provided.\r\n\r\n<b>Open Source Contributions:</b>\r\nThe software cannot be built as distributed because of missing source code. Also, the CMakeLists.tst files contain user-specific paths. ALl of the CMakeLists.txt files need editing. A high level CMakeLists.txt file is not provided. This wouold ease the constrcution of all of the programs.\r\n\r\n<b>Code Quality:</b>\r\nCoding style is reasonable.\r\n\r\n<b>Suggestions for future work:</b>\r\n<UL>\r\n<LI>This looks like a useful set of tools to manipulate and improve isosurfaces.\r\n<LI>Some work is needed with the distriubtion and the cmake files.\r\n<LI>There is not a good description of the topology repair algorithm.\r\n</UL>\r\n",
-    "date": "02-01-2006",
-    "review_id": 163
+    "content": "We have read the other paper these authors cite and have been interested in implementing one of these methods. But none of them makes the code so readily available. At the very least, we will test this method. If we like the results, we will integrate the code into Caret, giving appropriate credit and following the licensing guidelines.\r\n\r\nDonna Hanlon\r\nVan Essen Lab\r\nhttp://brainvis.wustl.edu",
+    "date": "08-08-2005",
+    "review_id": 22
+   },
+   {
+    "author": {
+     "author_email": "agouaillard@gmail.com",
+     "author_firstname": "Alexandre",
+     "author_id": 322,
+     "author_lastname": "Gouaillard"
+    },
+    "content": "<b>Summary:</b>\r\nThis paper deals with topological correction of brain isosurface. The main idea is to mix surface approach (for handle detection) and image approach (for the correction part, faster and robust).\r\n \r\n<b>Open Science:</b>\r\nThis paper is most definitly within the scope of open science. The code is based on VTK and everything (data, code and documentation) is given. Moreover, there is no publicly available toolkit for topology management so far. (note: guskov2001 papers goes with a binary). It should be noted that we are still lacking (in the open community) a suitable Data Structurefor rigorous topological work on surface meshes. The authors implemented an HE data structure that manage orientability and other components. Unfortunatly it seems to be bundled with application specific code. See below for a discussion on how this could be best profitable to open source community. \r\n\r\n<b>Reproducibility:</b>\r\nI did not download the code and test it yet as the code is reported as not working.\r\nThis approach look pretty much alike the one from Wood04 where the authors used the isosurface (well, reeb-graph of iso surfaces and isocontours of the original image) to find the handles and \\\"repaired\\\" the mesh using the image. There too, MC was an intermediate step to recompute the corrected surface. This approach seems to be much simpler (which is a good thing) but the reader is left with no clue whatsoever about the underlying \\\"handle detection\\\" algorithm which unfortunatly is the core of the method. They seems to use a front propagation method on the isosurface to define a distance map (to what?), followed by a second pass where they detect the handles. The thing is, for each handle you have two specific \\\"class\\\" of loops (generators) that can be used to remove the handle. the first question is, how do you decide if you \\\"pintch\\\" the handle or \\\"fill\\\" the handle (dual operation, depending on the orientation of your surface)? Both operation lead to a genus - 1 surface, but very different ones. The second issue is that topology and geometry are disconnected. There is an infinity of loops that would be suitable to remove an handle in a topological sense. Here the authors seems to try to find the shortest one. Is that correct ? and if it is, why this one ? Are the authors sure they are getting the shortest one? I\\'m pretty much sure that the authors managed to removed all the handles in a topological sense (genus down to zero), I\\'m still wondering about if it\\'s done properly (and the definition of properly in this case is also an issue to be discussed with the biologists... Whatever \\\"properly\\\" is, it should be stated from the start as it impacts significantly the algorithm).\r\n\r\n<b>Use of Open Source Software:</b>\r\nThey do use open source (VTK). \r\n\r\n<b>Open Source Contributions:</b>\r\nFew details are given in the MICCAI paper, but the ppt contents more details. Most interestingly they somehow show that VTK does not contains the good structure for mesh processing. Even if the proposed structure contains some algorithm specific features, they implemented an Half-edge data-structure over the vtkPolyData. It would be interesting to see if the HE datastructure could be detached from the algorithm specific part (vtkPolyData -> vtkHalfEdgeMesh -> author code) and added to VTK toolkit. It would be also interesting to wonder if mesh processing features should be added to a VIZUALIZATION toolkit or to ITK which is dedicated to processing. The answer is most probably it should be integrated in ITK, but right now itk is lacking all the basic mesh processing filters vtk is providing..... A C-GAL - like mesh structure is definitly needed for mesh processing. By the way, how do the author insure closedness, 2-manifoldness (HE provides the orientation layer that vtkPolyData was not providing). Without those issues addressed, it seems difficult to treat topology rigorously (homology vs homotopy when the surface is not closed - we are working with surface of solid objects thus we should have 2-manifold, shall we let the end user handle that, or shall we enforce the 2-manfoldness in the DataStructure - ...).\r\n\r\n<b>Code Quality:</b>\r\nDid not check that. Compilation reported broken. I believe the author to have several years experience with VTK from belgium to caltech, INRIA, MIT and now kitware, so the code should be well written.\r\n\r\n<b>Applicability to other problems:</b>\r\nthat topological could be of interest if control over the topology was given. The subject is verey active in graphical, mechanical and computational field. In medical field most people focus on brain, as the genus is known. It would be interesting to open the problem to a larger scale.\r\n\r\n<b>Suggestions for future work:</b>\r\nHere are somef works on a possible solution for the all-surface approach (which does not address some of the \\\"mesh modification\\\" problems). I\\'m still somehow working on it, if the author want to have some discussions on the problem, I\\'m open.\r\nA. GOUAILLARD, C. ODET, X. GU, \u00e2\u0080\u009cComputing Shortest Cycles on Discrete Surfaces for Acurate Topological Modifications of Medical Image Isosurfaces\u00e2\u0080\u009d, In Proceedings of IEEE EMBC\u00e2\u0080\u009905, Shanghai, September 11th-14th 2005. To appear.\r\nA. GOUAILLARD, T. KANAI, C. ODET, X. GU, \u00e2\u0080\u009cOptimal Localization of Topological Artefacts on 3D Meshes\u00e2\u0080\u009d, The 11th Int. Conf. on Geometry and Graphics, 1-5 Aug., 2004, Guangzhou, China.\r\n\r\n<b>Requests for additional information from authors:</b>\r\nI would definitly need some information on the handle detection part. There is nothing about it in the paper althought it\\'s the core of the method IMHO.\r\n\r\n<b>Additional Comments:</b>\r\nOpen to discussion on the subject.\r\n\r\n",
+    "date": "11-14-2005",
+    "review_id": 131
    }
   ],
   "submitted_by_author": {
    "author_email": "sylvainjaume@gmail.com",
    "author_firstname": "Sylvain",
+   "author_fullname": "Jaume, Sylvain",
    "author_id": 102,
    "author_institution": "MIT CSAIL",
    "author_lastname": "Jaume"
   },
   "tags": [
+   "topology correction",
+   "digital topology",
+   "triangle mesh",
    "Marching Cubes",
    "brain cortex",
    "handles",
-   "digital topology",
-   "topology correction",
-   "isosurface",
-   "triangle mesh"
+   "isosurface"
   ],
   "title": "Open Topology: A Toolkit for Brain Isosurface Correction"
  }

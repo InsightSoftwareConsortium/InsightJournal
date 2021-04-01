@@ -1,0 +1,69 @@
+{
+ "publication": {
+  "abstract": "In this paper, we describe a set of filters, implemented in the Insight Toolkit www.itk.org, for converting an image from Cartesian co-ordinate space to Polar co-ordinate space and vice-versa. Cartesian to Polar conversion of an image is a useful operation in preprocessing stage of certain image-processing algorithm where feature of interest has simplified representation in the polar space. This paper is accompanied with the source code, input data, parameters and output data that the authors used for validating the algorithm described in this paper. This adheres to the fundamental principle that scientific publications must facilitate reproducibility of the reported results.",
+  "authors": [
+   {
+    "author_fullname": "Ajani, Bhavya",
+    "author_place": 1,
+    "persona_email": "ajanibhavya@gmail.com",
+    "persona_firstname": "Bhavya",
+    "persona_id": 9648,
+    "persona_lastname": "Ajani"
+   },
+   {
+    "author_fullname": "Sharda, Sikander",
+    "author_place": 2,
+    "persona_email": "sikander.s@samsung.com",
+    "persona_firstname": "Sikander",
+    "persona_id": 11620,
+    "persona_lastname": "Sharda"
+   }
+  ],
+  "categories": [
+   "Geometric transforms",
+   "Resampling"
+  ],
+  "comments": [
+   {
+    "content": "This is an interesting contribution and correctly implemented but apart from the log-scale can already be realize by providing ITKPolarTransform to the itkResampleImageFilter.\r\nWhere is the test image from?",
+    "date": "2020-02-21T05:57:14",
+    "persona_email": "Grothausmann.Roman@mh-hannover.de",
+    "persona_firstname": "Roman",
+    "persona_id": 6854,
+    "persona_lastname": "Grothausmann"
+   }
+  ],
+  "date_submitted": "2019-12-19 05:43:53",
+  "handles": [
+   {
+    "handle": "10380/3605",
+    "handle_url": "http://hdl.handle.net/10380/3605"
+   }
+  ],
+  "identifiers": {
+   "doi": null,
+   "pubmed": null
+  },
+  "journals": [
+   {
+    "journal_id": 3,
+    "journal_name": "The Insight Journal"
+   }
+  ],
+  "publication_id": 992,
+  "reviews": [],
+  "submitted_by_author": {
+   "author_email": "ajanibhavya@gmail.com",
+   "author_firstname": "Bhavya",
+   "author_fullname": "Ajani, Bhavya",
+   "author_id": 9648,
+   "author_institution": "",
+   "author_lastname": "Ajani"
+  },
+  "tags": [
+   "polar to cartesian",
+   "Cartesian to polar"
+  ],
+  "title": "CartesianToPolar and PolarToCartesian Image Filters"
+ }
+}

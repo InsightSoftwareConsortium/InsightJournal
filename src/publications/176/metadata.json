@@ -43,28 +43,6 @@
   "reviews": [
    {
     "author": {
-     "author_email": "juanparedeswall@yahoo.com",
-     "author_firstname": "Juan",
-     "author_id": 561,
-     "author_lastname": "Paredes"
-    },
-    "content": "<p><strong>Summary:</strong><br />ITK lacks classes for computing shape-based attributes of objects contained in binary and labeled images. This paper contributes new classes for calculating such kind of attributes on those kind of images and allow users to conduct morphological operations based on the value of the attributes. </p><p><strong>Hypothesis:</strong><br />Non Applicable.</p><p> <strong>Evidence:</strong><br />Author provided enough background, technical information and implementation detail as evidence of his work. </p><p><br /> <strong>Open Science:</strong><br /> Author adheres to the concept of Open Science. Author provides source code, test images and enough details for readers to be able to replicate his work.</p><p> <strong>Reproducibility:</strong><br /> I downloaded, compiled and run the source code. I&#39;ve got the same results that were reported in the paper.<br /> <br /> <strong>Use of Open Source Software:</strong><br /> Author used ITK toolkit.<br /> <br /> <strong>Open Source Contributions:</strong><br />Author provided source code. Usage examples are also provided. Users can reproduce the author&#39;s work. <br /> <br /> <strong>Code Quality:</strong><br />Code is easy to read. I tested it on Linux (Ubuntu) and gcc 4.1.2. <br /> <br /> <strong>Applicability to other problems:</strong><br />Many computer vision applications use object-based image analysis. Many of them can take advantage of this contribution. </p><p><strong>Suggestions for future work:</strong><br />Author could include other shape-based attributes of objects like perimeter, perimeter/area and lenght/width. Some minor grammatical bugs could be fixed. </p><p><strong>Requests for additional information from authors:</strong><br />None. </p><p><strong>Additional Comments:</strong><br />This is a very valuable contribution. Very well documented and easy to read. Very well done!!!.<br /> <br /> </p>",
-    "date": "09-16-2007",
-    "review_id": 583
-   },
-   {
-    "author": {
-     "author_email": "blezek.daniel@mayo.edu",
-     "author_firstname": "Daniel",
-     "author_id": 786,
-     "author_lastname": "Blezek"
-    },
-    "content": "<strong>Summary:</strong><br />Classes for efficient as a representation of labels and objects ITK.<br /> <br /> <strong>Hypothesis:</strong><br /> Not applicable.<br /> <br /> <strong>Evidence:</strong><br /> not applicable<br /> <br /> <strong>Open Science:</strong><br /> the software described in this article is completely open including many examples.<br /> <br /> <strong>Reproducibility:</strong><br />&nbsp;&nbsp; Was able to download and compile the code without any issues at all.&nbsp; Code is well documented and very usable.<br /> <br /> <strong>Use of Open Source Software:</strong><br />this package is completely built on ITK.<br /> <br /> <strong>Open Source Contributions:</strong><br />I was able to immediately use the code and incorporated into an internal project.<br /> <br /> <strong>Code Quality:</strong><br />the code does conform to the ITK coding style&nbsp; and is very readable.<br /> <br /> <strong>Applicability to other problems:</strong><br /><br /> <br /> <strong>Suggestions for future work:</strong><br />the main suggestion that I would have for this work is to connect it to the excellence analyze object map reader contributed by Hans Johnson.<br /> <br /> <strong>Requests for additional information from authors:</strong><br /><br /> <br /> <strong>Additional Comments:</strong><br />This contribution to the insight journal is a very welcome addition to the capabilities of ITK.ITK has long lacked classes and facilities for creating and manipulating label images or object maps.&nbsp; In general researchers use ad hoc methods to represent objects and communicate those objects to other programs.&nbsp; With this addition to ITK these ad hoc methods will no longer be required and researchers will be able to use consistent and well written classes for the representation of objects.&nbsp; I was particularly pleased that the object storage method is run length encoding which allows for efficient morphological operators but also consumes less space.<br /> <br /> ",
-    "date": "07-09-2008",
-    "review_id": 700
-   },
-   {
-    "author": {
      "author_email": "xabiarta@unav.es",
      "author_firstname": "Xabier",
      "author_id": 480,
@@ -73,18 +51,41 @@
     "content": "<p><strong>Summary:</strong><br /> [Short description of the paper. In two or three phrases describe the problem that was addressed by the authors and the approach they took to solve it.]</p><p>The author presents a complete group of ITK classes to represent and manipulate label objects in ITK. This contribution fulfills a current need within the ITK toolkit. </p><p> <br /> <strong>Evidence:</strong><br /> [Describe the evidence that the authors provide in order to support their claims in the paper. This is a key component on Open Science, opinions that are not supported by evidence should be labeled as &quot;speculations&quot; or &quot;author&#39;s opinion&quot; while. The same rule applies to the text of the reviews: claims should be supported by evidence]</p><p>The author provides enough evidence to all the claims in the paper. Many example images show how the presented filters work. <br /> <br /> <strong>Open Science:</strong><br /> [Describe how much the paper and its addendums adhere to the concept of Open Science. Do the authors provide the source code of the programs used in their experiments? Do the authors provide the input images that they used? Or are those images publicly available? Do the authors provide the output images that they show in the paper? Do the authors provide enough details for you to be able to replicate their work?]</p><p>The paper adheres perfectly to the concept of Open Science. The source code and the images are provided, together with enough explanations to reproduce the results.</p><p><strong>Reproducibility:</strong></p><p>I did not reproduce all the results. I re-used a part of the code for label map creation, label object manipulation and binary image generation from label map image.</p><p> <strong>Use of Open Source Software:</strong><br /> [Did the authors use Open Source software in their work? Do they describe their experience with it, advantages and disadvantages? Do they provide advice for future users of those Open Source packages?]</p><p>The author makes use of ITK. The lack of and need for specific classes for label object manipulation is pointed out. I agree with that point. </p><p> <br /> <strong>Open Source Contributions:</strong><br /> Do the author&#39;s provide their source code?</p><p>Yes&nbsp;</p><p> Is it in a form that is usable?</p><p>Yes, there are ITK classes and practical usage examples.&nbsp;</p><p>Do they describe clearly how to use of the code?</p><p>There are not examples for all classes, but the available examples may be enough to be able to use all the classes.</p><p>How long did it take you to use that code?</p><p>One&nbsp; day.</p><p> <br /> <strong>Code Quality:</strong><br /> If the authors provided their source code: Was the code easy to read? </p><p>Yes</p><p>Did they use a modern coding style?</p><p>Yes, it adheres to the ITK style.&nbsp;</p><p>Was it suitable for multiple-platforms?</p><p>Yes</p><p> <br /> <strong>Applicability to other problems:</strong><br /></p><p>As shown in the article, the presented classes can be used in principle for any kind of images containing different objects, since they can be used for basic label object manipulation.</p><p> <strong>Suggestions for future work:</strong><br /></p><p>Maybe more attributes could be computed. </p><p> <strong>Requests for additional information from authors:</strong><br /><br /> <br /> <strong>Additional Comments:</strong><br />This is a very complete contribution which would be very useful to have inside ITK. </p>",
     "date": "04-16-2008",
     "review_id": 652
+   },
+   {
+    "author": {
+     "author_email": "daniel.blezek@gmail.com",
+     "author_firstname": "Daniel",
+     "author_id": 1018,
+     "author_lastname": "Blezek"
+    },
+    "content": "<strong>Summary:</strong><br />Classes for efficient as a representation of labels and objects ITK.<br /> <br /> <strong>Hypothesis:</strong><br /> Not applicable.<br /> <br /> <strong>Evidence:</strong><br /> not applicable<br /> <br /> <strong>Open Science:</strong><br /> the software described in this article is completely open including many examples.<br /> <br /> <strong>Reproducibility:</strong><br />&nbsp;&nbsp; Was able to download and compile the code without any issues at all.&nbsp; Code is well documented and very usable.<br /> <br /> <strong>Use of Open Source Software:</strong><br />this package is completely built on ITK.<br /> <br /> <strong>Open Source Contributions:</strong><br />I was able to immediately use the code and incorporated into an internal project.<br /> <br /> <strong>Code Quality:</strong><br />the code does conform to the ITK coding style&nbsp; and is very readable.<br /> <br /> <strong>Applicability to other problems:</strong><br /><br /> <br /> <strong>Suggestions for future work:</strong><br />the main suggestion that I would have for this work is to connect it to the excellence analyze object map reader contributed by Hans Johnson.<br /> <br /> <strong>Requests for additional information from authors:</strong><br /><br /> <br /> <strong>Additional Comments:</strong><br />This contribution to the insight journal is a very welcome addition to the capabilities of ITK.ITK has long lacked classes and facilities for creating and manipulating label images or object maps.&nbsp; In general researchers use ad hoc methods to represent objects and communicate those objects to other programs.&nbsp; With this addition to ITK these ad hoc methods will no longer be required and researchers will be able to use consistent and well written classes for the representation of objects.&nbsp; I was particularly pleased that the object storage method is run length encoding which allows for efficient morphological operators but also consumes less space.<br /> <br /> ",
+    "date": "07-09-2008",
+    "review_id": 700
+   },
+   {
+    "author": {
+     "author_email": "juanparedeswall@yahoo.com",
+     "author_firstname": "Juan",
+     "author_id": 561,
+     "author_lastname": "Paredes"
+    },
+    "content": "<p><strong>Summary:</strong><br />ITK lacks classes for computing shape-based attributes of objects contained in binary and labeled images. This paper contributes new classes for calculating such kind of attributes on those kind of images and allow users to conduct morphological operations based on the value of the attributes. </p><p><strong>Hypothesis:</strong><br />Non Applicable.</p><p> <strong>Evidence:</strong><br />Author provided enough background, technical information and implementation detail as evidence of his work. </p><p><br /> <strong>Open Science:</strong><br /> Author adheres to the concept of Open Science. Author provides source code, test images and enough details for readers to be able to replicate his work.</p><p> <strong>Reproducibility:</strong><br /> I downloaded, compiled and run the source code. I&#39;ve got the same results that were reported in the paper.<br /> <br /> <strong>Use of Open Source Software:</strong><br /> Author used ITK toolkit.<br /> <br /> <strong>Open Source Contributions:</strong><br />Author provided source code. Usage examples are also provided. Users can reproduce the author&#39;s work. <br /> <br /> <strong>Code Quality:</strong><br />Code is easy to read. I tested it on Linux (Ubuntu) and gcc 4.1.2. <br /> <br /> <strong>Applicability to other problems:</strong><br />Many computer vision applications use object-based image analysis. Many of them can take advantage of this contribution. </p><p><strong>Suggestions for future work:</strong><br />Author could include other shape-based attributes of objects like perimeter, perimeter/area and lenght/width. Some minor grammatical bugs could be fixed. </p><p><strong>Requests for additional information from authors:</strong><br />None. </p><p><strong>Additional Comments:</strong><br />This is a very valuable contribution. Very well documented and easy to read. Very well done!!!.<br /> <br /> </p>",
+    "date": "09-16-2007",
+    "review_id": 583
    }
   ],
   "submitted_by_author": {
    "author_email": "gaetan.lehmann@gmail.com",
    "author_firstname": "Gaetan",
+   "author_fullname": "Lehmann, Gaetan",
    "author_id": 328,
    "author_institution": "INRA",
    "author_lastname": "Lehmann"
   },
   "tags": [
-   "label object",
-   "mathematical morpholgy"
+   "mathematical morpholgy",
+   "label object"
   ],
   "title": "Label object representation and manipulation with ITK"
  }

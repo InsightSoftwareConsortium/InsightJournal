@@ -39,16 +39,17 @@
   "submitted_by_author": {
    "author_email": "luis.ibanez@kitware.com",
    "author_firstname": "Luis",
+   "author_fullname": "Ibanez, Luis",
    "author_id": 4,
    "author_institution": "KITWARE Inc.",
    "author_lastname": "Ibanez"
   },
   "tags": [
+   "MeshIO",
    "STL",
    "3D Printing",
    "QuadEdgeMesh",
-   "Mesh",
-   "MeshIO"
+   "Mesh"
   ],
   "title": "STL file format MeshIO class for ITK"
  }

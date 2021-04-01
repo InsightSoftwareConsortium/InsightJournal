@@ -31,30 +31,19 @@
    }
   ],
   "publication_id": 196,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "johnsk7@rpi.edu",
-     "author_firstname": "Kenneth",
-     "author_id": 713,
-     "author_lastname": "Johnson"
-    },
-    "content": "<strong>Summary:</strong><br />Julio Lajara clearly explains how to perform Image Segmentation: Ventricle Isolation using Region Growing with attached code that he wrote.&nbsp; He also includes a sample output .mha file to compare to the one the reader of this submission might create, using Julio&#39;s instructions.<br /> <br /> <strong>Evidence:</strong><br />Julio includes clear diagrams and explanations (with cited references).<br /> <br /> <strong>Open Science:</strong><br />Julio included his source code, and cleverly did not include the source .mha file which he does not have permission to redistribute.&nbsp; He did however include a derivative work, his .mha output which I was easily able to reproduce using the included instructions.<br /> <br /> <strong>Reproducibility:</strong><br />I was able to reproduce Julio&#39;s included .mha file perfectly, after downloading the publicly available source .mha file and following his instructions.<br /> <br /> <strong>Open Source Contributions:</strong><br />Source code is included, it took me about 10 minutes to download the required .mha file, and reproduce Julio&#39;s results using his code and instructions - very easy to follow.<br /> <br /> <strong>Code Quality:</strong><br /> Code is very readable, well commented.<br /> <br /> <strong>Applicability to other problems:</strong><br /> Julio analyzed a different Image Segmentation method than I did, but it looks similar to the one I chose.&nbsp; I would imagine that Julio&#39;s process would apply well to other segmentation methods as well.<br /> <br /> <strong>Requests for additional information from authors:</strong><br /> The homework assignment looks 100% complete to me!<br /> <br /> <strong>Additional Comments:</strong><br />Nice job!<br /> <br /> ",
-    "date": "10-25-2007",
-    "review_id": 604
-   }
-  ],
+  "reviews": [],
   "submitted_by_author": {
    "author_email": "lajarj@rpi.edu",
    "author_firstname": "Julio",
+   "author_fullname": "Lajara, Julio",
    "author_id": 714,
    "author_institution": "Rensselaer Polytechnic Institute",
    "author_lastname": "Lajara"
   },
   "tags": [
    "region growing",
-   "ventricle",
-   "image segmentation"
+   "image segmentation",
+   "ventricle"
   ],
   "title": "Image Segmentation: Ventricle Isolation Using Region Growing"
  }

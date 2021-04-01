@@ -29,16 +29,16 @@
   "date_submitted": "2005-08-03T16:33:51Z",
   "handles": [
    {
-    "handle": "/3477",
-    "handle_url": "http://hdl.handle.net//3477"
+    "handle": "/3507",
+    "handle_url": "http://hdl.handle.net//3507"
    },
    {
     "handle": "1926/29",
     "handle_url": "http://hdl.handle.net/1926/29"
    },
    {
-    "handle": "/3507",
-    "handle_url": "http://hdl.handle.net//3507"
+    "handle": "/3477",
+    "handle_url": "http://hdl.handle.net//3477"
    }
   ],
   "identifiers": {
@@ -79,6 +79,7 @@
   "submitted_by_author": {
    "author_email": "tolga@sci.utah.edu",
    "author_firstname": "Tolga",
+   "author_fullname": "Tasdizen, Tolga",
    "author_id": 57,
    "author_institution": "University of Utah",
    "author_lastname": "Tasdizen"
@@ -86,8 +87,8 @@
   "tags": [
    "MRI segmentation",
    "ITK",
-   "Parzen window",
-   "MRI tissue classification"
+   "MRI tissue classification",
+   "Parzen window"
   ],
   "title": "A nonparametric, entropy-minimizing MRI tissue classification algorithm implementation using ITK"
  }

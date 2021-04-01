@@ -35,16 +35,17 @@
   "submitted_by_author": {
    "author_email": "zpincus@stanford.edu",
    "author_firstname": "Zachary",
+   "author_fullname": "Pincus, Zachary",
    "author_id": 138,
    "author_institution": "Stanford University School of Medicine",
    "author_lastname": "Pincus"
   },
   "tags": [
-   "polylineparametricpath",
    "marching squares",
    "contour",
-   "path",
    "isocontour",
+   "polylineparametricpath",
+   "path",
    "marching cubes"
   ],
   "title": "ContourExtractor2DImageFilter: A subpixel-precision image isocontour extraction filter."

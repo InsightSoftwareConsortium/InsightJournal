@@ -48,13 +48,14 @@
   "submitted_by_author": {
    "author_email": "blloyd@ee.ethz.ch",
    "author_firstname": "Bryn",
+   "author_fullname": "Lloyd, Bryn",
    "author_id": 23,
    "author_institution": "ETH Zurich, Computer Vision Laboratory",
    "author_lastname": "Lloyd"
   },
   "tags": [
-   "itkImageToMeshFilter",
    "local maxima",
+   "itkImageToMeshFilter",
    "point extraction"
   ],
   "title": "itkLocalMaximaImageFilter"

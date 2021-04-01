@@ -27,20 +27,20 @@
   ],
   "comments": [
    {
-    "content": "The code was developed & compiled on  ITK 3.10.1 (patch 1) version that time and it hasn't been updated later for the later versions.\r\n\r\nYou may try compiling on the same ITK version:\r\nhttp://sourceforge.net/projects/itk/files/itk/3.10/\r\n\r\nGood Luck!\r\n",
-    "date": "2015-06-13T08:53:27",
-    "persona_email": "subrahmanyam.gorthi@gmail.com",
-    "persona_firstname": "Subrahmanyam",
-    "persona_id": 769,
-    "persona_lastname": "Gorthi"
-   },
-   {
     "content": "Hello. I compiled your code with ITK 4.7.2 and I am getting the following error when running mask2contour using your example:\r\n \r\nExceptionObject caught!\r\n\r\nitk::ExceptionObject (0x2354300)\r\nLocation: \"void itk::ExtractImageFilterTInputImage TOutputImage::GenerateOutputInformation() [with TInputImage = itk::Imageunsigned char 3u TOutputImage = itk::Imageunsigned char 2u]\"\r\nFile: /homes/5/amamonov/src/InsightToolkit-4.7.2/Modules/Core/Common/include/itkExtractImageFilter.hxx\r\nLine: 244\r\nDescription: itk::ERROR: ExtractImageFilter(0x2353d10): It is required that the strategy for collapsing the direction matrix be explicitly specified. Set with either myfilter-SetDirectionCollapseToIdentity() or myfilter-SetDirectionCollapseToSubmatrix() PN3itk9ImageBaseILj3EEE\r\n\r\nPlease advise.",
     "date": "2015-06-12T18:20:33",
     "persona_email": "amamonov@mgh.harvard.edu",
     "persona_firstname": "Artem",
     "persona_id": 9546,
     "persona_lastname": "Mamonov"
+   },
+   {
+    "content": "The code was developed & compiled on  ITK 3.10.1 (patch 1) version that time and it hasn't been updated later for the later versions.\r\n\r\nYou may try compiling on the same ITK version:\r\nhttp://sourceforge.net/projects/itk/files/itk/3.10/\r\n\r\nGood Luck!\r\n",
+    "date": "2015-06-13T08:53:27",
+    "persona_email": "subrahmanyam.gorthi@gmail.com",
+    "persona_firstname": "Subrahmanyam",
+    "persona_id": 769,
+    "persona_lastname": "Gorthi"
    }
   ],
   "date_submitted": "2009-01-30 09:25:10",
@@ -65,14 +65,15 @@
   "submitted_by_author": {
    "author_email": "subrahmanyam.gorthi@gmail.com",
    "author_firstname": "Subrahmanyam",
+   "author_fullname": "Gorthi, Subrahmanyam",
    "author_id": 769,
    "author_institution": "EPFL",
    "author_lastname": "Gorthi"
   },
   "tags": [
-   "Radiotherapy",
+   "RTSTRUCT",
    "DICOM-RT",
-   "RTSTRUCT"
+   "Radiotherapy"
   ],
   "title": "Exporting Contours to DICOM-RT Structure Set"
  }

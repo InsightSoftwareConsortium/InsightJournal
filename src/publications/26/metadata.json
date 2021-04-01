@@ -99,7 +99,7 @@
    {
     "author": {
      "author_email": "baghdadi@phenogenomics.ca",
-     "author_firstname": "Leila ",
+     "author_firstname": "Leila",
      "author_id": 7,
      "author_lastname": "Baghdadi"
     },
@@ -133,15 +133,16 @@
   "submitted_by_author": {
    "author_email": "luis.ibanez@kitware.com",
    "author_firstname": "Luis",
+   "author_fullname": "Ibanez, Luis",
    "author_id": 4,
    "author_institution": "KITWARE Inc.",
    "author_lastname": "Ibanez"
   },
   "tags": [
-   "Open Source Software",
-   "Image Guided Surgery",
    "State Machines",
-   "Mission Critical Applications"
+   "Mission Critical Applications",
+   "Open Source Software",
+   "Image Guided Surgery"
   ],
   "title": "IGSTK: A State Machine Architecture for an Open Source Software Toolkit for Image-Guided Surgery Applications"
  }

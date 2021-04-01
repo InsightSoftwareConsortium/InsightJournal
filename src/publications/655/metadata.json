@@ -86,19 +86,20 @@
   "submitted_by_author": {
    "author_email": "danielle.pace@kitware.com",
    "author_firstname": "Danielle",
+   "author_fullname": "Pace, Danielle",
    "author_id": 643,
    "author_institution": "Kitware Inc",
    "author_lastname": "Pace"
   },
   "tags": [
-   "Gating",
-   "Intraoperative imaging",
-   "Computer assisted interventions",
-   "Respiratory motion",
-   "Cardiac procedures",
+   "Ultrasound reconstruction",
    "Four-dimensional imaging",
-   "Image-guided therapy",
-   "Ultrasound reconstruction"
+   "Gating",
+   "Cardiac procedures",
+   "Respiratory motion",
+   "Computer assisted interventions",
+   "Intraoperative imaging",
+   "Image-guided therapy"
   ],
   "title": "An open-source real-time ultrasound reconstruction system for four-dimensional imaging of moving organs"
  }

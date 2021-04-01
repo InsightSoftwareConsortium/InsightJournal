@@ -45,16 +45,17 @@
   "submitted_by_author": {
    "author_email": "blowekamp@mail.nih.gov",
    "author_firstname": "Bradley",
+   "author_fullname": "Lowekamp, Bradley",
    "author_id": 1026,
    "author_institution": "Lockheed Martin Contractor for Office of High Performance Computing and Communications National Library of Medicine ",
    "author_lastname": "Lowekamp"
   },
   "tags": [
-   "file format",
-   "MRC",
-   "VTK",
    "microscopy",
-   "streaming"
+   "streaming",
+   "VTK",
+   "MRC",
+   "file format"
   ],
   "title": "A Streaming IO Base Class and Support for Streaming the MRC and VTK File Format"
  }

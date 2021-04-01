@@ -48,7 +48,16 @@
    "Segmentation",
    "Watersheds"
   ],
-  "comments": [],
+  "comments": [
+   {
+    "content": "can you provide matlab code for it?",
+    "date": "2018-06-06T01:48:05",
+    "persona_email": "umarmehdi.shah@ucp.edu.pk",
+    "persona_firstname": "Umar ",
+    "persona_id": 11447,
+    "persona_lastname": "Shah"
+   }
+  ],
   "date_submitted": "2009-07-09 10:16:48",
   "handles": [
    {
@@ -71,15 +80,16 @@
   "submitted_by_author": {
    "author_email": "perry.radau@gmail.com",
    "author_firstname": "Perry",
+   "author_fullname": "Radau, Perry",
    "author_id": 2183,
    "author_institution": "Sunnybrook Hospital",
    "author_lastname": "Radau"
   },
   "tags": [
-   "MRI",
+   "cardiac",
    "segmentation",
    "evaluation",
-   "cardiac"
+   "MRI"
   ],
   "title": "Evaluation Framework for Algorithms Segmenting Short Axis Cardiac MRI."
  }

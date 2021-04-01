@@ -32,12 +32,12 @@
   "date_submitted": "2006-03-13T16:49:24Z",
   "handles": [
    {
-    "handle": "10380/3513",
-    "handle_url": "http://hdl.handle.net/10380/3513"
-   },
-   {
     "handle": "1926/187",
     "handle_url": "http://hdl.handle.net/1926/187"
+   },
+   {
+    "handle": "10380/3513",
+    "handle_url": "http://hdl.handle.net/10380/3513"
    }
   ],
   "identifiers": {
@@ -55,15 +55,16 @@
   "submitted_by_author": {
    "author_email": "stephen.aylward@kitware.com",
    "author_firstname": "Stephen",
+   "author_fullname": "Aylward, Stephen",
    "author_id": 1,
    "author_institution": "Kitware, Inc.",
    "author_lastname": "Aylward"
   },
   "tags": [
-   "ISC",
-   "Announcement",
    "MICCAI",
-   "NA-MIC"
+   "Announcement",
+   "NA-MIC",
+   "ISC"
   ],
   "title": "2006 MICCAI Open Workshop Announcement"
  }

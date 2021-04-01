@@ -71,16 +71,16 @@
   ],
   "comments": [
    {
-    "content": "Please note that more information about Statismo can be found on the <a href=\\\"http://statismo.github.com\\\">project page</a> and the <a href=\\\"https://github.com/statismo/statismo/wiki\\\">project wiki</a>",
-    "date": "2012-08-03T05:29:33",
+    "content": "There is now a <a href=\\\"https://groups.google.com/forum/#!forum/statismo-users\\\"> mailing list </a> for Statismo.",
+    "date": "2012-12-10T11:37:48",
     "persona_email": "marcel.luethi@unibas.ch",
     "persona_firstname": "Marcel ",
     "persona_id": 2738,
     "persona_lastname": "Luethi"
    },
    {
-    "content": "There is now a <a href=\\\"https://groups.google.com/forum/#!forum/statismo-users\\\"> mailing list </a> for Statismo.",
-    "date": "2012-12-10T11:37:48",
+    "content": "Please note that more information about Statismo can be found on the <a href=\\\"http://statismo.github.com\\\">project page</a> and the <a href=\\\"https://github.com/statismo/statismo/wiki\\\">project wiki</a>",
+    "date": "2012-08-03T05:29:33",
     "persona_email": "marcel.luethi@unibas.ch",
     "persona_firstname": "Marcel ",
     "persona_id": 2738,
@@ -109,14 +109,15 @@
   "submitted_by_author": {
    "author_email": "marcel.luethi@unibas.ch",
    "author_firstname": "Marcel ",
+   "author_fullname": "Luethi, Marcel ",
    "author_id": 2738,
    "author_institution": "University of Basel",
    "author_lastname": "Luethi"
   },
   "tags": [
+   "Registration",
    "Statistical Shape Models",
-   "Statistical Deformation Models",
-   "Registration"
+   "Statistical Deformation Models"
   ],
   "title": "Statismo - A framework for PCA based statistical models"
  }

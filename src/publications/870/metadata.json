@@ -5,7 +5,7 @@
    {
     "author_fullname": "Rigaud, Stephane",
     "author_place": 1,
-    "persona_email": "rigaud.stephane@gmail.com",
+    "persona_email": "stephane.rigaud@pasteur.fr",
     "persona_firstname": "Stephane",
     "persona_id": 6540,
     "persona_lastname": "Rigaud"
@@ -44,16 +44,17 @@
   "publication_id": 870,
   "reviews": [],
   "submitted_by_author": {
-   "author_email": "rigaud.stephane@gmail.com",
+   "author_email": "stephane.rigaud@pasteur.fr",
    "author_firstname": "Stephane",
+   "author_fullname": "Rigaud, Stephane",
    "author_id": 6540,
-   "author_institution": "IPAL-CNRS",
+   "author_institution": "Insitut Pasteur",
    "author_lastname": "Rigaud"
   },
   "tags": [
-   "ITK",
    "Planar Mesh",
    "QuadEdgeMesh",
+   "ITK",
    "Triangulation"
   ],
   "title": "Incremental Delaunay Triangulation"

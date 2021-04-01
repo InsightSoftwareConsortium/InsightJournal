@@ -48,17 +48,18 @@
   "submitted_by_author": {
    "author_email": "stephen.obrien32@mail.dcu.ie",
    "author_firstname": "Stephen",
+   "author_fullname": "O'brien, Stephen",
    "author_id": 2240,
    "author_institution": "Dublin City University, Dublin 9, Ireland",
    "author_lastname": "O'brien"
   },
   "tags": [
+   "active shape model",
    "left ventricle",
-   "coupled ASM",
-   "adaptive weighting",
-   "segmentation",
    "non-rigid model",
-   "active shape model"
+   "segmentation",
+   "coupled ASM",
+   "adaptive weighting"
   ],
   "title": "Segmenting the Left Ventricle in 3D Using a Coupled ASM and a Learned Non-Rigid Spatial Model"
  }

@@ -40,13 +40,14 @@
   "submitted_by_author": {
    "author_email": "julien.michel@c-s.fr",
    "author_firstname": "Julien",
+   "author_fullname": "Michel, Julien",
    "author_id": 996,
    "author_institution": "CS",
    "author_lastname": "Michel"
   },
   "tags": [
-   "Streaming",
-   "Multi-threading"
+   "Multi-threading",
+   "Streaming"
   ],
   "title": "Giving streaming and multi-threading capabilities to non-streamable ITK filters"
  }

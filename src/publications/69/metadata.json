@@ -11,6 +11,14 @@
     "persona_lastname": "Melonakos"
    },
    {
+    "author_fullname": "Melonakos, John",
+    "author_place": 1,
+    "persona_email": "john@arrayfire.com",
+    "persona_firstname": "John",
+    "persona_id": 11869,
+    "persona_lastname": "Melonakos"
+   },
+   {
     "author_fullname": "Krishnan, Karthik",
     "author_place": 2,
     "persona_email": "karthik.krshnan@gmail.com",
@@ -48,15 +56,16 @@
   "submitted_by_author": {
    "author_email": "jmelonak@ece.gatech.edu",
    "author_firstname": "John",
+   "author_fullname": "Melonakos, John",
    "author_id": 37,
    "author_institution": "Georgia Tech",
    "author_lastname": "Melonakos"
   },
   "tags": [
-   "Segmentation",
+   "Bayesian",
    "ITK",
    "Brains",
-   "Bayesian"
+   "Segmentation"
   ],
   "title": "An ITK Filter for Bayesian Segmentation: itkBayesianClassifierImageFilter"
  }

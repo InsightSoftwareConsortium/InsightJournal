@@ -61,6 +61,7 @@
   "submitted_by_author": {
    "author_email": "andinet.enqu@kitware.com",
    "author_firstname": "Andinet",
+   "author_fullname": "Enquobahrie, Andinet",
    "author_id": 68,
    "author_institution": "Kitware, Inc.",
    "author_lastname": "Enquobahrie"
@@ -68,8 +69,8 @@
   "tags": [
    "Anisotropic",
    "Diffusion",
-   "Tensor",
-   "Noise filtering"
+   "Noise filtering",
+   "Tensor"
   ],
   "title": "Implementation of local structure tensor and enhancement anisotropic diffusion filters in ITK"
  }

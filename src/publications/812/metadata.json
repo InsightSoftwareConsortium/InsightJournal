@@ -51,13 +51,14 @@
   "submitted_by_author": {
    "author_email": "john.r.durkin@gmail.com",
    "author_firstname": "John",
+   "author_fullname": "Durkin, John",
    "author_id": 2445,
    "author_institution": "",
    "author_lastname": "Durkin"
   },
   "tags": [
-   "Segmentation",
-   "Active shape model"
+   "Active shape model",
+   "Segmentation"
   ],
   "title": "Creating a 2D Active Shape Model Using itk::ImagePCAShapeModelEstimator"
  }

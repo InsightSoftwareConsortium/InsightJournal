@@ -34,6 +34,17 @@
   "reviews": [
    {
     "author": {
+     "author_email": "hans-johnson@uiowa.edu",
+     "author_firstname": "Hans",
+     "author_id": 21,
+     "author_lastname": "Johnson"
+    },
+    "content": "<b>Summary:</b>\r\nThis article describes a proposed new filter that is a specialization similar to that of the SpatialObjectToImageFilter that is optimized for creating a boundary of an ellipse.\r\n \r\n<b>Hypothesis:</b>\r\nGenerating an image of the boundary of an ellipse is an important and commonly used task.\r\n\r\n<b>Evidence:</b>\r\nNo evidence given.\r\n\r\n\r\n<b>Open Science:</b>\r\nNot much science here, just specialization to fill a need.\r\n\r\n<b>Reproducibility:</b>\r\nI did not compile this source code in my environment.\r\n\r\n<b>Use of Open Source Software:</b>\r\nThis is intended to be incorporated into ITK.\r\n\r\n<b>Open Source Contributions:</b>\r\nSource code is provided, along with a minimalistic test case.\r\n\r\n<b>Code Quality:</b>\r\nThis is a specialization of similar ITK filters, and it follows the ITK conventions for coding style.\r\n\r\n<b>Applicability to other problems:</b>\r\nIt seems that this is one of many specializations for converting spatial objects into images.\r\n\r\n\r\n<b>Suggestions for future work:</b>\r\nNone\r\n\r\n<b>Requests for additional information from authors:</b>\r\nNone\r\n\r\n<b>Additional Comments:</b>\r\nNone\r\n",
+    "date": "10-09-2006",
+    "review_id": 407
+   },
+   {
+    "author": {
      "author_email": "dan.muel@gmail.com",
      "author_firstname": "Dan",
      "author_id": 286,
@@ -53,22 +64,12 @@
     "content": "<b>Summary:</b>\r\nThis filter creates an image from an ellipse spatial object.\r\n \r\n<b>Hypothesis:</b>\r\nNot Applicable\r\n\r\n<b>Evidence:</b>\r\nThe author has written a filter which is faster than alternative exitsing methods in ITK. The speedup is not given and has not been measured or documented.\r\n\r\n<b>Open Science:</b>\r\nThis is open.\r\n\r\n<b>Reproducibility:</b>\r\n[Did you reproduce the authors\u00e2\u0080\u0099 work? yes\r\nDid you download their code? Did you compile it? Did you run it? yes\r\nDid you managed to get the same results that they reported? yes, using his parameters. For larger radius the method fails.\r\n\r\n<b>Use of Open Source Software:</b>\r\nThis is open.\r\n\r\n<b>Open Source Contributions:</b>\r\nThe code is written in ITK-style and is easy follow. The test gives an example of how to use the filter.\r\n\r\n<b>Code Quality:</b>\r\nThe code is written in the ITK-style. Very easy to compile, it passes all it\\'s tests. If the radius of the ellipse is increased though (e.g. to 50), the method produces an ellipse with holes/gaps. This happens because the method samples the surface and uses constant sampling angle-differences. The sampled points are then passed to a PointSetToImageFilter. On the other hand, if the radius is small too many sampling points are used.\r\n\r\n<b>Applicability to other problems:</b>\r\nNot sure how applicable this is to other projects/applications. The author does not say what the application is and why it needs to be fast.\r\n\r\n<b>Suggestions for future work:</b>\r\n\r\n<b>Requests for additional information from authors:</b>\r\n\r\n<b>Additional Comments:</b>\r\n\r\n",
     "date": "08-28-2006",
     "review_id": 332
-   },
-   {
-    "author": {
-     "author_email": "hans-johnson@uiowa.edu",
-     "author_firstname": "Hans",
-     "author_id": 21,
-     "author_lastname": "Johnson"
-    },
-    "content": "<b>Summary:</b>\r\nThis article describes a proposed new filter that is a specialization similar to that of the SpatialObjectToImageFilter that is optimized for creating a boundary of an ellipse.\r\n \r\n<b>Hypothesis:</b>\r\nGenerating an image of the boundary of an ellipse is an important and commonly used task.\r\n\r\n<b>Evidence:</b>\r\nNo evidence given.\r\n\r\n\r\n<b>Open Science:</b>\r\nNot much science here, just specialization to fill a need.\r\n\r\n<b>Reproducibility:</b>\r\nI did not compile this source code in my environment.\r\n\r\n<b>Use of Open Source Software:</b>\r\nThis is intended to be incorporated into ITK.\r\n\r\n<b>Open Source Contributions:</b>\r\nSource code is provided, along with a minimalistic test case.\r\n\r\n<b>Code Quality:</b>\r\nThis is a specialization of similar ITK filters, and it follows the ITK conventions for coding style.\r\n\r\n<b>Applicability to other problems:</b>\r\nIt seems that this is one of many specializations for converting spatial objects into images.\r\n\r\n\r\n<b>Suggestions for future work:</b>\r\nNone\r\n\r\n<b>Requests for additional information from authors:</b>\r\nNone\r\n\r\n<b>Additional Comments:</b>\r\nNone\r\n",
-    "date": "10-09-2006",
-    "review_id": 407
    }
   ],
   "submitted_by_author": {
    "author_email": "kurtzhao@gmail.com",
    "author_firstname": "Zheen",
+   "author_fullname": "Zhao, Zheen",
    "author_id": 56,
    "author_institution": "Duke University",
    "author_lastname": "Zhao"

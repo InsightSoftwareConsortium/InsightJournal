@@ -18,12 +18,12 @@
   "date_submitted": "2006-02-19T11:51:55Z",
   "handles": [
    {
-    "handle": "1926/172",
-    "handle_url": "http://hdl.handle.net/1926/172"
-   },
-   {
     "handle": "10380/3151",
     "handle_url": "http://hdl.handle.net/10380/3151"
+   },
+   {
+    "handle": "1926/172",
+    "handle_url": "http://hdl.handle.net/1926/172"
    }
   ],
   "identifiers": {
@@ -41,14 +41,15 @@
   "submitted_by_author": {
    "author_email": "gaetan.lehmann@gmail.com",
    "author_firstname": "Gaetan",
+   "author_fullname": "Lehmann, Gaetan",
    "author_id": 328,
    "author_institution": "INRA",
    "author_lastname": "Lehmann"
   },
   "tags": [
-   "label",
+   "BinaryFunctorImageFilter",
    "overlay",
-   "BinaryFunctorImageFilter"
+   "label"
   ],
   "title": "Label overlay"
  }

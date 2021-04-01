@@ -50,21 +50,22 @@
   "submitted_by_author": {
    "author_email": "preetj@sfu.ca",
    "author_firstname": "Preet",
+   "author_fullname": "Jassi, Preet",
    "author_id": 3051,
    "author_institution": "Simon Fraser University",
    "author_lastname": "Jassi"
   },
   "tags": [
-   "vasculature",
-   "ground-truth",
+   "simulation",
    "3D images",
+   "ground-truth",
+   "bifurcation",
+   "vasculature",
+   "tree like",
    "tubular",
    "segmentation",
    "medical image analysis",
-   "validation",
-   "simulation",
-   "tree like",
-   "bifurcation"
+   "validation"
   ],
   "title": "VascuSynth: Vascular Tree Synthesis Software"
  }

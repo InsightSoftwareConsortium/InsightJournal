@@ -27,20 +27,12 @@
   ],
   "comments": [
    {
-    "content": "Hello,\r\n\r\nIn the CMakeLists.txt inside the folder vtkGPUVolumeRayCastMapper2 there is a line to activate some flags in case of being compiled in windows. However, it seems that it gives an error in your case. The piece of code is:\r\n\r\nIF(CMAKE_HOST_WIN32)\r\n SET(CMAKE_CXX_FLAGS \\\"${CMAKE_CXX_FLAGS} /arch:SSE2 /MP\\\"\r\n)\r\nENDIF(CMAKE_HOST_WIN32)\r\n\r\nStarts in line 82. If you comment or erase said piece of code it should not give you that error. We will see how it can be changed so that those options can be used when available, thanks for telling!\r\n\r\nI hope this solves your problem!",
-    "date": "2013-08-26T10:07:59",
-    "persona_email": "iherrera@ceit.es",
-    "persona_firstname": "Imanol",
-    "persona_id": 6166,
-    "persona_lastname": "Herrera"
-   },
-   {
-    "content": "I have tried to reproduce the error but was not able to do it, using cmake in the folder created a build just fine and it compiled without problems. However, it does not seem that the changes you say are the cause for such an error. It seems as if the vtkGPUVolumeRayCastMapper2 was not included, I guess you are using the the cmake in the main folder to create the project right? \r\n\r\nAdditionally, just to make sure, this lib needs VTK 5.8 or higher, as it uses a class that is not present in earlier versions (which is the reason why the automatic testing could not be done).\r\n\r\nDo any of these comments help?\r\n",
-    "date": "2013-08-26T11:08:21",
-    "persona_email": "iherrera@ceit.es",
-    "persona_firstname": "Imanol",
-    "persona_id": 6166,
-    "persona_lastname": "Herrera"
+    "content": "Somebody know how i can resolve it please ?",
+    "date": "2013-08-26T10:01:00",
+    "persona_email": "kpoand@yahoo.fr",
+    "persona_firstname": "Andr\u00e9",
+    "persona_id": 8477,
+    "persona_lastname": "Kpozehoue"
    },
    {
     "content": "thank to your answer,\r\neffectively, i commented these lines but, but he give after this error : \r\nC:\\\\Codes\\\\SourceCode3_Source\\\\vtkGPUVolumeRayCastMapper2\\\\vtkDemo.cpp:197: erreur : undefined reference to `_imp___ZN26vtkGPUVolumeRayCastMapper23NewEv\\'\r\n\r\nBefore, i changed changed also some lines as : \r\n - scanf_s(\\\"%d\\\",&isoval) : line 279 (in vtkDemo.cpp file), i replace by scanf\r\ni do the same thing with printf_s also",
@@ -59,12 +51,20 @@
     "persona_lastname": "Kpozehoue"
    },
    {
-    "content": "Somebody know how i can resolve it please ?",
-    "date": "2013-08-26T10:01:00",
-    "persona_email": "kpoand@yahoo.fr",
-    "persona_firstname": "Andr\u00e9",
-    "persona_id": 8477,
-    "persona_lastname": "Kpozehoue"
+    "content": "Hello,\r\n\r\nIn the CMakeLists.txt inside the folder vtkGPUVolumeRayCastMapper2 there is a line to activate some flags in case of being compiled in windows. However, it seems that it gives an error in your case. The piece of code is:\r\n\r\nIF(CMAKE_HOST_WIN32)\r\n SET(CMAKE_CXX_FLAGS \\\"${CMAKE_CXX_FLAGS} /arch:SSE2 /MP\\\"\r\n)\r\nENDIF(CMAKE_HOST_WIN32)\r\n\r\nStarts in line 82. If you comment or erase said piece of code it should not give you that error. We will see how it can be changed so that those options can be used when available, thanks for telling!\r\n\r\nI hope this solves your problem!",
+    "date": "2013-08-26T10:07:59",
+    "persona_email": "iherrera@ceit.es",
+    "persona_firstname": "Imanol",
+    "persona_id": 6166,
+    "persona_lastname": "Herrera"
+   },
+   {
+    "content": "I have tried to reproduce the error but was not able to do it, using cmake in the folder created a build just fine and it compiled without problems. However, it does not seem that the changes you say are the cause for such an error. It seems as if the vtkGPUVolumeRayCastMapper2 was not included, I guess you are using the the cmake in the main folder to create the project right? \r\n\r\nAdditionally, just to make sure, this lib needs VTK 5.8 or higher, as it uses a class that is not present in earlier versions (which is the reason why the automatic testing could not be done).\r\n\r\nDo any of these comments help?\r\n",
+    "date": "2013-08-26T11:08:21",
+    "persona_email": "iherrera@ceit.es",
+    "persona_firstname": "Imanol",
+    "persona_id": 6166,
+    "persona_lastname": "Herrera"
    }
   ],
   "date_submitted": "2012-10-05 02:31:00",
@@ -89,14 +89,15 @@
   "submitted_by_author": {
    "author_email": "iherrera@ceit.es",
    "author_firstname": "Imanol",
+   "author_fullname": "Herrera, Imanol",
    "author_id": 6166,
    "author_institution": "CEIT",
    "author_lastname": "Herrera"
   },
   "tags": [
    "Shadow Mapping",
-   "GPU",
    "Volume Rendering",
+   "GPU",
    "Isosurface rendering"
   ],
   "title": "Adding Refined Isosurface Rendering and Shadow Mapping to vtkGPUVolumeRayCastMapper"

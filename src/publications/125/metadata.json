@@ -34,6 +34,17 @@
   "reviews": [
    {
     "author": {
+     "author_email": null,
+     "author_firstname": null,
+     "author_id": null,
+     "author_lastname": null
+    },
+    "content": "<strong>Summary:</strong><br /><div>The author presents a simple, yet useful filter for swapping image halves across dimensions.\u00c2\u00a0 Such a filter is useful for visualizing low frequency components of the Fourier transform at the center of the output image.\u00c2\u00a0 Many readers will recognize similar functionality offered by the &#39;fftshift&#39; function in Matlab.</div><div><br /> <strong>Evidence:</strong><br /> </div><div>The author provides two images to demonstrate functionality as well as the output images.</div><div><br /> <strong>Open Science:</strong><br /> </div><div>The author&#39;s submission adheres to the standards of open science (e.g. source code transparency, input images with corresponding output images).\u00c2\u00a0</div><div> <br /> <strong>Reproducibility:</strong><br /> I did reproduce the work of the authors in addition to testing the filter with two of my own 2-D and 3-D images.\u00c2\u00a0 Fortunately, the filter was simple enough to determine usage.\u00c2\u00a0 However, it would be helpful to have a usage print-out in the test code itself.\u00c2\u00a0 In addition, although the filter is indeed simple, it would also be helpful for further explanation of the included figures (e.g. the author simply refers to &quot;the figure below&quot; in discussing the SetInverse() function).\u00c2\u00a0\u00c2\u00a0</div><div><br /></div><div><strong>Use of Open Source Software:</strong><br />The filter constitutes an extension of ITK.</div><div><br /> <strong>Open Source Contributions:</strong><br /></div><div>The author provides the source code.</div><div><br /> <strong>Code Quality:</strong><br />Code quality is good.</div><div><br /> <strong>Suggestions for future work:</strong><br /></div><div>No suggestions.</div><div><br /> <strong>Requests for additional information from authors:</strong><br />None.<br /><br /></div>",
+    "date": "11-03-2006",
+    "review_id": 426
+   },
+   {
+    "author": {
      "author_email": "jakub.bican@matfyz.cz",
      "author_firstname": "Jakub",
      "author_id": 81,
@@ -53,22 +64,12 @@
     "content": "<p><strong>Summary:</strong><br />Similarly to the fftshift and ifftshift functions of Matlab, this filter swaps the &quot;half-spaces&quot; of the input image along each dimension.<br /> <br /> <strong>Evidence:</strong><br />The author provides two input images and their corresponding outputs using or not the &quot;inverse&quot; option.<br /> <br /> <strong>Open Science:</strong><br />The author provides the source code and an example to reproduce his experiments. He also provides the images.<br /><br /> <strong>Reproducibility:</strong><br />I compiled the code using CMake 2.4 and Visual C++ 2005 Express on Windows XP SP2, there is no error or warning. I ran it with different types of image supported by ITK (png, jpg, tiff, gif, 24-bit bitmap) and it works great.<br />The results are easily reproducible with the information from the paper.<br /><br /> <strong>Use of Open Source Software:</strong><br />The authors use ITK.<br /><br /> <strong>Open Source Contributions:</strong><br />The author provides his source code and describes clearly how to use it.<br /><br /> <strong>Code Quality:</strong><br />The code is easy to read and all the necessary comments are presents.<br /><br /> <strong>Requests for additional information from authors:</strong><br />Maybe the author could shortly describe how the filter puts the zero-frequency component in the center of the image (swapping parts of the image) in the pdf file. </p>",
     "date": "12-05-2006",
     "review_id": 441
-   },
-   {
-    "author": {
-     "author_email": "ntustison@wustl.edu",
-     "author_firstname": "Nick",
-     "author_id": 105,
-     "author_lastname": "Tustison"
-    },
-    "content": "<strong>Summary:</strong><br /><div>The author presents a simple, yet useful filter for swapping image halves across dimensions.\u00c2\u00a0 Such a filter is useful for visualizing low frequency components of the Fourier transform at the center of the output image.\u00c2\u00a0 Many readers will recognize similar functionality offered by the &#39;fftshift&#39; function in Matlab.</div><div><br /> <strong>Evidence:</strong><br /> </div><div>The author provides two images to demonstrate functionality as well as the output images.</div><div><br /> <strong>Open Science:</strong><br /> </div><div>The author&#39;s submission adheres to the standards of open science (e.g. source code transparency, input images with corresponding output images).\u00c2\u00a0</div><div> <br /> <strong>Reproducibility:</strong><br /> I did reproduce the work of the authors in addition to testing the filter with two of my own 2-D and 3-D images.\u00c2\u00a0 Fortunately, the filter was simple enough to determine usage.\u00c2\u00a0 However, it would be helpful to have a usage print-out in the test code itself.\u00c2\u00a0 In addition, although the filter is indeed simple, it would also be helpful for further explanation of the included figures (e.g. the author simply refers to &quot;the figure below&quot; in discussing the SetInverse() function).\u00c2\u00a0\u00c2\u00a0</div><div><br /></div><div><strong>Use of Open Source Software:</strong><br />The filter constitutes an extension of ITK.</div><div><br /> <strong>Open Source Contributions:</strong><br /></div><div>The author provides the source code.</div><div><br /> <strong>Code Quality:</strong><br />Code quality is good.</div><div><br /> <strong>Suggestions for future work:</strong><br /></div><div>No suggestions.</div><div><br /> <strong>Requests for additional information from authors:</strong><br />None.<br /><br /></div>",
-    "date": "11-03-2006",
-    "review_id": 426
    }
   ],
   "submitted_by_author": {
    "author_email": "gaetan.lehmann@gmail.com",
    "author_firstname": "Gaetan",
+   "author_fullname": "Lehmann, Gaetan",
    "author_id": 328,
    "author_institution": "INRA",
    "author_lastname": "Lehmann"
