@@ -11,13 +11,14 @@ import { graphql } from "gatsby"
 
 export default function Index({ data }) {
   const targetJournal = data.site.siteMetadata.targetJournal
+  const title = data.site.siteMetadata.title
   return (
     // TODO v5: remove once migration to emotion is completed
     <StyledEngineProvider injectFirst>
       <Container maxWidth="sm">
         <Box sx={{ my: 4 }}>
           <Logo targetJournal={ targetJournal }/>
-          <Title targetJournal={ targetJournal }/>
+          <Title title={ title }/>
           <ProTip />
           <Copyright />
         </Box>
@@ -30,7 +31,8 @@ export const query = graphql`
   query {
     site {
       siteMetadata {
-        targetJournal
+        targetJournal,
+        title
       }
     }
   }

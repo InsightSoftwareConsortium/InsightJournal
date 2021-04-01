@@ -3,6 +3,7 @@ const path = require(`path`)
 module.exports = {
   plugins: [
     'gatsby-plugin-top-layout',
+    'gatsby-plugin-image',
     {
       resolve: 'gatsby-plugin-material-ui',
       // If you want to use styled components you should change the injection order.
@@ -51,5 +52,6 @@ module.exports = {
     // 31: MIDAS Journal
     // 35: VTK Journal
     targetJournal: 31,
+    title: "The MIDAS Journal",
   },
 };
