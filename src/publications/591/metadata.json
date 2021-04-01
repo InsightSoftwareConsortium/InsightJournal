@@ -98,6 +98,19 @@
    }
   ],
   "publication_id": 591,
+  "reviews": [
+   {
+    "author": {
+     "author_email": "dengxiang05@gmail.com",
+     "author_firstname": "Xiang",
+     "author_id": 872,
+     "author_lastname": "Deng"
+    },
+    "content": "<p>This paper presents a semi-automatic live tumor segmentation technique. <br />In this method, the tumor is segmented using 3D region growing and Bayesian classification. </p><p>Detailed comments:</p><p>1) Could the authors provide more detailed information about selection of seed points, i.e., how many seed points should be used for inhomogeneous lesions?</p><p>2) Since the selection of seed point is the only user-intervention required, it would be helpful to test the sensitivity/repeatability of the proposed technique against independent initialization.</p><p><br />3) How are the multiple Gaussian distributions combined into one?</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>",
+    "date": "07-25-2008",
+    "review_id": 1519
+   }
+  ],
   "submitted_by_author": {
    "author_email": "jiayin.zhou@gmail.com",
    "author_firstname": "Jiayin",

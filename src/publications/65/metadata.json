@@ -39,6 +39,19 @@
    }
   ],
   "publication_id": 65,
+  "reviews": [
+   {
+    "author": {
+     "author_email": "dan.muel@gmail.com",
+     "author_firstname": "Dan",
+     "author_id": 286,
+     "author_lastname": "Mueller"
+    },
+    "content": "<b>Summary:</b>\r\nThe authors discuss how to extract regional minima/maxima regions from binary/greyscale images. Two approaches are presented and compared: 1. the current ITK approach using the HConvexImageFilter and HConcaveImageFilter, and 2. a new approach using a simple flooding-based algorithm (referred to by the authors as <i>ValuedRegionalExtremaImageFilter</i>).\r\n \r\n<b>Hypothesis:</b>\r\nThe hypothesis is that the ValuedRegionalExtremaImageFilter approach is computational faster than the HConvexImageFilter/HConcaveImageFilter approach. Test results indicate that the proposed approach (ValuedRegionalExtremaImageFilter) is faster.\r\n\r\n<b>Evidence:</b>\r\nEach approach has been implemented in ITK and execution times reported in the paper.\r\n\r\n<b>Open Science:</b>\r\nFull open source for the filters, examples and tests, as well as input images, are provided. \r\n\r\n<b>Reproducibility:</b>\r\nI was able to download, compile, and run the work. However, I had some minor problems compiling the code because I was using an older version of ITK (InsightToolkit-2.2.0). Compiling with InsightToolkit-2.4.1 was successful. I was also unable to run the tests because they rely on the DART Image Compare program. (Does anyone know how I can obtain the Image Compare program for testing Insight Journal articles? The IJ WIKI mentions that DART tests use Image Compare, but it does not explain how to obtain it for desktop testing/reproducibility.)\r\n\r\n<b>Use of Open Source Software:</b>\r\nUses ITK.\r\n\r\n<b>Open Source Contributions:</b>\r\nThe source code was relatively easy to get going (besides the minor unrelated issues listed above).\r\n\r\n<b>Code Quality:</b>\r\nThe code quality is fairly easy to read. However, I would like to see more comments within ValuedRegionalExtremaImageFilter::GenerateData() more fully explaining the algorithm - I find it hard to read what is being done and why.\r\n\r\n<b>Final Thoughts:</b>\r\nThanks for this addition to ITK. The speed increases for finding regional maxima/minima will help enhance various segmentation tasks. A comprehensive, well presented paper.\r\n\r\n",
+    "date": "01-09-2006",
+    "review_id": 147
+   }
+  ],
   "submitted_by_author": {
    "author_email": "richard.beare@ieee.org",
    "author_firstname": "Richard",

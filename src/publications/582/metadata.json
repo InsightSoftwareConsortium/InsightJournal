@@ -57,6 +57,19 @@
    }
   ],
   "publication_id": 582,
+  "reviews": [
+   {
+    "author": {
+     "author_email": "dengxiang05@gmail.com",
+     "author_firstname": "Xiang",
+     "author_id": 872,
+     "author_lastname": "Deng"
+    },
+    "content": "<p>This paper presents an automatic live tumor segmentation technique. <br />This technique is composed of two steps.<br />First, the liver is segmented using a heuristic thresholding method. Second, the tumors&nbsp;are segmented using a multi-thresholding algorithm.</p><p><br />Detailed comments:</p><p>1) The authors should provide more details of the liver and liver tumor segmentation algorithms. From my point of view, this is the core part of the workshop paper, which has only been briefly described in the manuscript.</p><p>2) Fig. 3 is not referenced in the manuscript.</p><p>3) Could the authors speculate on the main reason that causes the over-segmentation in the results?</p><p>&nbsp;</p>",
+    "date": "07-25-2008",
+    "review_id": 1521
+   }
+  ],
   "submitted_by_author": {
    "author_email": "jkim@definiens.com",
    "author_firstname": "Johann",

@@ -35,6 +35,19 @@
    }
   ],
   "publication_id": 127,
+  "reviews": [
+   {
+    "author": {
+     "author_email": "gaetan.lehmann@gmail.com",
+     "author_firstname": "Gaetan",
+     "author_id": 328,
+     "author_lastname": "Lehmann"
+    },
+    "content": "<strong>Summary:</strong><br /> The author present a new filter to combine several binary image in a single labeled image. <strong>Open Science:</strong><br /> The source code is provided, as well as the input images, but not the result image. It is easy to reproduce the example. <strong>Reproducibility:</strong><br /> I have downloaded, compile without problem. The test program can&#39;t run as it is: the ${CMAKE_SOURCE_DIR} string in images/testfiles is not expanded when read by the test program. Even by replacing manually the string above by the full path, I failed to get the expected output: the image is all black. <strong>Use of Open Source Software:</strong><br /> fully ITK <strong>Open Source Contributions:</strong><br /> The source code provided is designed to be reused, and is provided as a contribution to ITK <strong>Code Quality:</strong><br /> The code does not fully follow the ITK coding style (indentation, brackets, ...) - a minor issue - and doesn&#39;t use the pipeline architecture of ITK - this time, a major issue. <strong>Applicability to other problems:</strong><br /> It seem to be a quite common need to combine the result of different segmentations procedures in a labeled image. This code may be reused in many cases. <strong>Suggestions for future work:</strong><br /><ul><li> use the ITK pipeline architecture. You can avoid doing most of the work by implementing your class as a subclass of NaryFunctorImageFilter. </li><li> provide the output image </li><li> fix the test. You should test the output image with ImageCompare </li><li> implement the collision case </li><li> perhaps call it NaryBinaryImageToLabelImageFilter ? </li></ul><strong>Additional Comments:</strong><br /> The problems above looks like small beginner&#39;s mistakes. Please contact me if you need some help to fix the problems above. I&#39;d be pleased to help&nbsp;:-) ",
+    "date": "10-31-2006",
+    "review_id": 424
+   }
+  ],
   "submitted_by_author": {
    "author_email": "robert.tamburo@gmail.com",
    "author_firstname": "Robert",

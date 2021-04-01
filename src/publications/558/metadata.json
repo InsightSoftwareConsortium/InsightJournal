@@ -82,6 +82,30 @@
    }
   ],
   "publication_id": 558,
+  "reviews": [
+   {
+    "author": {
+     "author_email": "heye.zhang@auckland.ac.nz",
+     "author_firstname": "Heye",
+     "author_id": 894,
+     "author_lastname": "Zhang"
+    },
+    "content": "Please, rank the following on the scale from 1 (worst) to 5 (best)<br />Originality 4<br />Methodological originality 4<br />Biologic originality 3<br />Completeness of discussion 3<br />Appropriate references 4<br />Organisation 4<br />Clarity 4<br />Is the technical treatment plausible and free from technical errors?<br />Have you checked the equations&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; No<br />Are you aware of prior publication or presentation of this work No<br />Is the paper too long No<br />Recommendation:<br />&nbsp;&nbsp;&nbsp;&nbsp; (A) Accept<br />&nbsp;&nbsp;&nbsp;&nbsp; (B) Accept subject to minor revisions<br />&nbsp;&nbsp;&nbsp;&nbsp; (C) Accept with major revisions<br />&nbsp;&nbsp;&nbsp;&nbsp; (D) Reject<br />&nbsp;&nbsp;&nbsp;&nbsp; My recommendation: Accept<br />Should this paper be presented as poster or as podium presentation (this recommendation does not reflect<br />upon the relative quality of the paper)?<br />oral<br />Comments to the manuscript:<br />This paper present a multi-scale feature tracking algorithm. It is quite interesting, but it is still in<br />preliminary stage. Authors may apply their work into more clinical data to demonstrate the ability of their<br />approach.<br />",
+    "date": "07-03-2008",
+    "review_id": 1493
+   },
+   {
+    "author": {
+     "author_email": "a.young@auckland.ac.nz",
+     "author_firstname": "Alistair",
+     "author_id": 882,
+     "author_lastname": "Young"
+    },
+    "content": "<p style=\"margin: 0cm 0cm 0pt\" class=\"MsoNormal\"><span><font face=\"Times New Roman\" size=\"2\">This paper presents a method for myocardial motion estimation from HARP-like MRI tagged images, based on multiscale optical flow methods. The paper is well written and clearly presented. The method of topological number for feature classification is interesting. </font></span></p><span><font face=\"Times New Roman\" size=\"2\">&nbsp;</font></span> <p style=\"margin: 0cm 0cm 0pt\" class=\"MsoNormal\"><span><font face=\"Times New Roman\" size=\"2\">Specific Points:</font></span></p><ol style=\"margin-top: 0cm\"><li class=\"MsoNormal\" style=\"margin: 0cm 0cm 0pt; tab-stops: list 36.0pt\"><span><font size=\"2\"><font face=\"Times New Roman\">The experiments only report validation against rigid body translations. Validation on a deformation field would be more convincing. It would also be necessary to validate against an accepted tag tracking method.</font></font></span></li><li class=\"MsoNormal\" style=\"margin: 0cm 0cm 0pt; tab-stops: list 36.0pt\"><span><font size=\"2\"><font face=\"Times New Roman\">typo &ldquo;asses&rdquo; on page 7</font></font></span></li><li class=\"MsoNormal\" style=\"margin: 0cm 0cm 0pt; tab-stops: list 36.0pt\"><span><font size=\"2\"><font face=\"Times New Roman\">Include discussion on how these methods can be used in biomechanical modelling, eg to validate models. This would make it more applicable to the goals of the CBM workshop.</font></font></span></li></ol><span><font face=\"Times New Roman\" size=\"2\">&nbsp;</font></span><span><font face=\"Times New Roman\" size=\"2\">&nbsp;</font></span><span><font face=\"Times New Roman\" size=\"2\">&nbsp;</font></span><span><font face=\"Times New Roman\" size=\"2\">&nbsp;</font></span> <p style=\"margin: 0cm 0cm 0pt; text-align: justify\" class=\"MsoNormal\"><span><font face=\"Times New Roman\" size=\"2\">References</font></span></p><ol style=\"margin-top: 0cm\"><li class=\"MsoNormal\" style=\"margin: 0cm 0cm 0pt; tab-stops: list 36.0pt\"><font size=\"2\"><font face=\"Times New Roman\"><span>Dougherty et al.<span>&nbsp; </span></span><span>IEEE TMI 1999;18,359&ndash;363. was one of the first applications of optical flow methods to tagged MRI and should be referenced. </span></font></font></li></ol><span><font face=\"Times New Roman\" size=\"2\">&nbsp;</font></span> <p>&nbsp;</p>",
+    "date": "06-30-2008",
+    "review_id": 1487
+   }
+  ],
   "submitted_by_author": {
    "author_email": "a.becciu@tue.nl",
    "author_firstname": "Alessandro",

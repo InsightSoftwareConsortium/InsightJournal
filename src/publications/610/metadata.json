@@ -63,6 +63,30 @@
    }
   ],
   "publication_id": 610,
+  "reviews": [
+   {
+    "author": {
+     "author_email": "simon.warfield@childrens.harvard.edu",
+     "author_firstname": "Simon",
+     "author_id": 514,
+     "author_lastname": "Warfield"
+    },
+    "content": "<p><br /> This paper describes an algorithm for the segmentation of MRI scans of MS patients.</p><p>The contribution utilizes features derived from signal intensity and coordinates in space. In order for the features to be commensurate, they are normalized to have zero mean and unit variance.&nbsp; Posterior probabilities are estimated through KNN density estimation.</p><p>&nbsp;The comparison of the algorithm with data from manual segmentation and other algorithms demonstrates the advantages of this approach.</p><p>&nbsp;</p><p>Minor problems:</p><p>tenser should be tensor</p><p>On page 4, was also compare should be was also compared.&nbsp;</p><p>&nbsp;On page 7, consequently should be consistently. </p>",
+    "date": "07-25-2008",
+    "review_id": 1529
+   },
+   {
+    "author": {
+     "author_email": "martin_styner@ieee.org",
+     "author_firstname": "Martin",
+     "author_id": 28,
+     "author_lastname": "Styner"
+    },
+    "content": "<p>The paper presents a voxelwise KNN tissue classification for MS lesion detection.</p><p>Can you elaborate why only T1 and FLAIR was employed, when more MR scans were available? </p><p>Overall the results are quite good as they are similar to the CHB rater&#39;s performance (the rater used in the training), while they are still appropriate as compared to the UNC rater. </p><p>Also, the STAPLE segmentation incorporate all segmentation results used in this competition and the majority of the segmentations seem to oversegment the MS lesions. This explains why your results indicate an over segmentation as compared to the human raters and under segmentation as compared to the STAPLE computation. </p><p>Another revision, maybe by an english native speaker, would improve the quality of the submission. </p><p>Minor:&nbsp;</p><p>Abstract: &quot;It is based the K-...&quot; should be &quot;It is based on the K-...&quot;, &quot;that accurate&quot; should be &quot;that is accurate&quot; </p><p>Image Processing section: &quot;..performed before they were provided&quot; should be &quot;....performed as provided by the workshop organizers.&quot;</p><p>&nbsp;</p>",
+    "date": "07-29-2008",
+    "review_id": 1539
+   }
+  ],
   "submitted_by_author": {
    "author_email": "p.anbeek@umcutrecht.nl",
    "author_firstname": "Petronella",

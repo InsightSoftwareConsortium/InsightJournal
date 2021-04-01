@@ -63,6 +63,30 @@
    }
   ],
   "publication_id": 611,
+  "reviews": [
+   {
+    "author": {
+     "author_email": "martin_styner@ieee.org",
+     "author_firstname": "Martin",
+     "author_id": 28,
+     "author_lastname": "Styner"
+    },
+    "content": "<p>Overall a well written paper with an interesting new method using an explicit intensity model of MS lesions with a vector image joint histogram.</p><p>The data quality section is a bit too negative, especially given that all methods use the same training and testing data. Also, I think that the issue of inter-rater variability is not really related to data quality here, as inter-rater variability is an inherent fact of MS lesion segmentation. This inter-rater variability is one of the main reasons towards automated methods. Furthermore, the methods are evaluated with respect to this inter-rater variability, i.e. if a method varies from one rater as much as another rater then it would get a score of 90.&nbsp;&nbsp; </p><p>Also, it seems that the authors were unaware of the updated training datasets that were available several weeks before the submission due date. The updated training datasets had a full set of segmentation from the CHB rater for all datasets. It may very well be that the method would perform better if this updated training would have been employed. </p><p>The authors chose a bias field correction algorithm that also normalizes the image intensity. Can you add a sentence why additional image normalization was necessary.</p><p>The method seems to penalize peri-ventricular lesions, as MS lesions within 2 voxels of CSF are rejected. Can you discuss the possibility of a bias against peri-ventricular lesions. </p><p>&nbsp;</p><p>&nbsp;</p>",
+    "date": "07-29-2008",
+    "review_id": 1540
+   },
+   {
+    "author": {
+     "author_email": "simon.warfield@childrens.harvard.edu",
+     "author_firstname": "Simon",
+     "author_id": 514,
+     "author_lastname": "Warfield"
+    },
+    "content": "<p><br /> This paper describes an approach using histogram analysis to explicitly construct a discretized feature space, and applies this to the segmentation of lesions in MRI of MS patients.</p><p>The paper provides an interesting analysis of the effectiveness of certain feature vectors for characterizing lesions, and is able to demonstrate that there is considerable overlap of these features between healthy tissue and lesions.</p><p>Minor problems: </p><p>The results section says &#39;good specificity, or true positive rate&#39; but here specificity should instead be sensitivity, later in the same sentence sensitivity should be replaced by specificity.</p><p>The authors apparently did not obtain the set of manual segmentations from the CHB rater which included segmentations of all CHB and all UNC cases. This data is available now. At the workshop and afterwards, segmentations by the UNC rater for all cases will also be available.</p><p>&nbsp;</p>",
+    "date": "07-25-2008",
+    "review_id": 1527
+   }
+  ],
   "submitted_by_author": {
    "author_email": "mscully@mrn.org",
    "author_firstname": "Mark",

@@ -47,6 +47,30 @@
    }
   ],
   "publication_id": 606,
+  "reviews": [
+   {
+    "author": {
+     "author_email": "martin_styner@ieee.org",
+     "author_firstname": "Martin",
+     "author_id": 28,
+     "author_lastname": "Styner"
+    },
+    "content": "<p>This paper presents the use of a robust EM classification method to segment MS lesions. The EM classifier needs a prior bias field correction and skull stripping, unlike other methods that incorporate these steps as part of the EM loop. First the normal brain tissue classes are determined via the robust EM, followed by an outlier detection for a rule based MS lesion segmentation. </p><p>Good results, but it is not clear what happened with cases UNC 07 and CHB 15 which have an empty image (no lesions). </p><p>Well written paper overall, no major revisions needed. </p>",
+    "date": "07-29-2008",
+    "review_id": 1542
+   },
+   {
+    "author": {
+     "author_email": "simon.warfield@childrens.harvard.edu",
+     "author_firstname": "Simon",
+     "author_id": 514,
+     "author_lastname": "Warfield"
+    },
+    "content": "<p><br /> This paper describes an algorithm for the segmentation of MS lesions that is fully automated.</p><p>The approach utilizes a trimmed likelihood estimator to avoid outliers influencing the calculation of the mixture model parameters.</p><p>The evaluation of the method indicates it performs well.</p><p>Typos:</p><p>apperaring - appearing</p><p>datasets where - datasets were&nbsp;</p>",
+    "date": "07-25-2008",
+    "review_id": 1535
+   }
+  ],
   "submitted_by_author": {
    "author_email": "dgarcia@irisa.fr",
    "author_firstname": "Daniel",

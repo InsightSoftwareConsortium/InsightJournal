@@ -31,6 +31,19 @@
    }
   ],
   "publication_id": 148,
+  "reviews": [
+   {
+    "author": {
+     "author_email": "mathieu.malaterre@gmail.com",
+     "author_firstname": "Mathieu",
+     "author_id": 310,
+     "author_lastname": "Malaterre"
+    },
+    "content": "<p><strong>Summary:</strong><br />How to user ITK when dealing with 4D dataset<br /> <br /> <strong>Reproducibility:</strong><br /> [Did you reproduce the authors&#39; work?</p><p>yes<br /> Did you download their code? Did you compile it? Did you run it?</p><p>Compilation went fine on linux debian/gcc 4.2 (some warnings). It did run fine.</p><p><br /> Did you managed to get the same results that they reported?</p><p>I did get the exact same results</p><p> Were there information missing from the paper, that was necessary for you to reproduce the work? Suggest improvements that will make easier for future readers to reproduce this work.</p><p>Paper is cristal clear.</p><p> <br /> <strong>Open Source Contributions:</strong><br />Author did provide the source code. It is fairly easy to read.</p><p> <br /> <strong>Code Quality:</strong><br />The code is simple and fairly well written.</p><p>What need to be done for inclusion in ITK:</p><p>- Add concept checking (Input image is 4D, output is 3D)</p><p>- The filter is describe as being multithreaded in the documentation, but implement GenerateData in the txx file (single threaded version). The filter needs to be rewritten to implement the correct threaded version. This is highly important for such massive amount of data (4D dataset).</p><p> - Fix all the warnings</p><p><br /> <strong>Applicability to other problems:</strong><br />The filter is very generic and can be used in multiple situation involving most actual data extraction from 4D dataset.<br /> <br /> <strong>Suggestions for future work:</strong></p><p>See code quality</p><p><br /> <strong>Additional Comments:</strong><br />I would highly urge the community to push this filter in ITK for the next release. </p><p>&nbsp;</p><p>The document also adress a current issue in ITK to deal with 4D dataset and DICOM. Most manufacturer are providing 4D dataset for MR as a set of 2D images. Unfortunately ITK ImageSeriesReader are only able to reader N into N+1 image. Whereas we would need a N into N+2 ImageSeriesReader.&nbsp;</p><p>&nbsp;</p>",
+    "date": "08-27-2007",
+    "review_id": 538
+   }
+  ],
   "submitted_by_author": {
    "author_email": "stefan@stereofx.org",
    "author_firstname": "Stefan",

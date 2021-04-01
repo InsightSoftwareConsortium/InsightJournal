@@ -69,6 +69,19 @@
    }
   ],
   "publication_id": 549,
+  "reviews": [
+   {
+    "author": {
+     "author_email": "grandj@mech.uwa.edu.au",
+     "author_firstname": "Grand roman",
+     "author_id": 832,
+     "author_lastname": "Joldes"
+    },
+    "content": "<p><span style=\"font-family: &#39;Times New Roman&#39;,&#39;serif&#39;\"><font size=\"3\">&nbsp;&nbsp;&nbsp; In this paper the authors propose a registration method that combines a registration metric, a nonlinear elastic regularization and an unbiased registration constraint. The registration metric can be defined in terms of intensity matching or as mutual information. An additional unknown that approximates the Jacobian matrix is introduced in order to simplify the minimization process.</font></span></p><p><font size=\"3\"><span style=\"font-family: &#39;Times New Roman&#39;,&#39;serif&#39;\">&nbsp;&nbsp; </span><span style=\"font-family: &#39;Times New Roman&#39;,&#39;serif&#39;\">Although the authors say they are interested in parameter free registration methods, the proposed method has quite a few parameters (&lambda;, &beta;, &nu;, &mu;), whose selection criteria is not described in the paper. </span></font></p><p><font size=\"3\"><span style=\"font-family: &#39;Times New Roman&#39;,&#39;serif&#39;\">&nbsp;&nbsp; </span><span style=\"font-family: &#39;Times New Roman&#39;,&#39;serif&#39;\">One important part missing from this paper is the validation of the proposed algorithm (accuracy, convergence) using quantitative results. The qualitative results presented do not give any indication about the performance of the algorithm.</span></font></p><p><font size=\"3\"><span style=\"font-family: &#39;Times New Roman&#39;,&#39;serif&#39;\">&nbsp;&nbsp; </span><span style=\"font-family: &#39;Times New Roman&#39;,&#39;serif&#39;\">Paragraph 2.1: some references describing the metrics would be useful, especially for the mutual information metric derivation and computation of the intensity distributions.</span></font></p><p><font size=\"3\"><span style=\"font-family: &#39;Times New Roman&#39;,&#39;serif&#39;\">&nbsp;&nbsp; </span><span style=\"font-family: &#39;Times New Roman&#39;,&#39;serif&#39;\">Paragraph 2.2:<span>&nbsp; </span>the regularization term might not correctly describe the elastic behavior of the organ. For example, an organ could have sections with different material properties (both for the stored energy function and for the elastic material constants). In such a case the regularization term might introduce more errors instead of making the solution more accurate.</span><span style=\"font-family: &#39;Times New Roman&#39;,&#39;serif&#39;\"><span>&nbsp;</span></span><span style=\"font-family: &#39;Times New Roman&#39;,&#39;serif&#39;\">&nbsp;</span></font> </p><p>&nbsp;</p>",
+    "date": "06-30-2008",
+    "review_id": 1485
+   }
+  ],
   "submitted_by_author": {
    "author_email": "igor.yanovsky@gmail.com",
    "author_firstname": "Igor",

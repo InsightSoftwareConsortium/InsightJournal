@@ -44,6 +44,30 @@
    }
   ],
   "publication_id": 121,
+  "reviews": [
+   {
+    "author": {
+     "author_email": "millerjv@research.ge.com",
+     "author_firstname": "Jim",
+     "author_id": 232,
+     "author_lastname": "Miller"
+    },
+    "content": "<b>Summary:</b>\r\nThis paper describes an contribution to ITK to generate well composed images. In well composed images, all foreground and background pixels are 4-connected. This simplifies post-processing algorithms.\r\n \r\n<b>Hypothesis:</b>\r\nNon applicable\r\n\r\n<b>Evidence:</b>\r\nExample images of the results are provided. The motivating images in Figure 1 are difficult discern the benefit of well-composed. Perhaps this image can be annotated for the reader.\r\n\r\n<b>Open Science:</b>\r\nThe paper uses ITK and extends itkInplaceImageFilter\r\n\r\n<b>Reproducibility:</b>\r\nCode built without issue\r\n\r\n<b>Use of Open Source Software:</b>\r\nCode uses ITK. \r\n\r\n<b>Open Source Contributions:</b>\r\nSource code provided\r\n\r\n<b>Code Quality:</b>\r\nCode provides separate implementations for 2D and 3D processing. Can these two implementations be combined into one filter? The use of the InPlaceFilter is nice.\r\n\r\n\r\n<b>Applicability to other problems:</b>\r\n\r\n\r\n<b>Suggestions for future work:</b>\r\n\r\n\r\n<b>Requests for additional information from authors:</b>\r\nDetails on the specific algorithms should be provided in the paper. The paper describes the \\\\\\\\\\\\\\\"what\\\\\\\\\\\\\\\" but not the \\\\\\\\\\\\\\\"how\\\\\\\\\\\\\\\". The reader is directed to the references for the \\\\\\\\\\\\\\\"how\\\\\\\\\\\\\\'s\\\\\\\\\\\\\\\".\r\n\r\n<b>Additional Comments:</b>\r\n[This is a free-form field]\r\n\r\n",
+    "date": "08-31-2006",
+    "review_id": 347
+   },
+   {
+    "author": {
+     "author_email": "torsten@synapse.sri.com",
+     "author_firstname": "Torsten",
+     "author_id": 168,
+     "author_lastname": "Rohlfing"
+    },
+    "content": "<b>Summary:</b>\r\nThe paper describes the implementation of filters for repairing morphological defects in 2D and 3D binary images.\r\n \r\n<b>Hypothesis:</b>\r\nNot applicable.\r\n\r\n<b>Evidence:</b>\r\n2D and 3D test data and results are provided.\r\n\r\n<b>Open Science:</b>\r\nThe algorithm is implemented in ITK; source code is included. Two test images (one 2d, one 3d) are also included.\r\n\r\n<b>Reproducibility:</b>\r\nCode compiles and runs, but the name of one example file (brain3d.mha) does not match the name coded into the test program (brain3D.mha with capital \\\\\\\"D\\\\\\\").\r\n\r\n<b>Use of Open Source Software:</b>\r\nThe algorithm is implemented using ITK and fits within the ITK design.\r\n\r\n<b>Open Source Contributions:</b>\r\nSource code is provided. The paper does an excellent job of explaining how to use the implemented filter. \r\n\r\n<b>Code Quality:</b>\r\nThe code seems quite well written and the style conforms with ITKs coding style. Documentation is lacking (this is why I am rating 4 out of 5) - many fields in the filter class are undocumented. Critical sections of the actual implementation should also be documented in the txx file.\r\n\r\n<b>Applicability to other problems:</b>\r\nSee Suggestions for future work\r\n\r\n<b>Suggestions for future work:</b>\r\nI am wondering - can these algorithms be extended to accomodate multi-label images? One could of course treat each label separately and then merge the resulting corrected binary images back into a corrected multi-label image. Is there anything in the algorithm that prevents ambiguities in such a merging step (it is not a shortcoming of the algorithm if there isn\\\\\\'t such a property, but it would be immensely useful if it did).\r\n\r\nAlternatively - is it conceivable to truly extend the method to multi-label situations and fixing all labels simultaneously?\r\n\r\nI am asking because bad configurations like the ones described here often result when I combine multiple segmentations of a single image using label voting. We have recently proposed \\\\\\\"shape-based averaging\\\\\\\" based on the Euclidean distance transform (Rohlfing & Maurer, MICCAI 2005; IEEE-TIP paper in press December 2006). But that algorithm is extremely computationally expensive (one signed EDT per label and input image), so a morphological algorithm like the one proposed here might be a good alternative.\r\n\r\n<b>Requests for additional information from authors:</b>\r\nOne of the beautiful aspects of the proposed algorithms is that it seems to be completely parameter-free. So the description is naturally quite complete.\r\n\r\n<b>Additional Comments:</b>\r\nThis is an extremely well-written paper. Complete yet compact, to the point, and very carefully illustrated. Excellent work, and a pleasure to read!\r\n\r\n",
+    "date": "09-22-2006",
+    "review_id": 395
+   }
+  ],
   "submitted_by_author": {
    "author_email": "ntustison@gmail.com",
    "author_firstname": "Nicholas J.",

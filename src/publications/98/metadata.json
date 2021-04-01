@@ -46,6 +46,41 @@
    }
   ],
   "publication_id": 98,
+  "reviews": [
+   {
+    "author": {
+     "author_email": "holmes.david3@mayo.edu",
+     "author_firstname": "David",
+     "author_id": 20,
+     "author_lastname": "Holmes"
+    },
+    "content": "<b>Summary:</b>\r\nThe authors describe ImageLib which is both a development platform and GUI application. The application includes basic image manipluation tools and the plug-in interface allows for including custom processing algorithms. The text describes both the application and the plug-in interface. The paper concludes by stating \\\"Neither the library code nor processing plug-in are publicly available on the website for now, but it remains possible to obtain some of them by contacting the authors.\\\"\r\n \r\n<b>Hypothesis:</b>\r\nN/A. This is a straightforward description of the application and plug-in interface at a high level.\r\n\r\n<b>Evidence:</b>\r\nN/A. I suppose that the evidence is the application that is included with the submission.\r\n\r\n<b>Open Science:</b>\r\nThis really doesn\\'t fit the open science model. The methods described are proprietary to the Borland compiler and the code is not available. However, the interface between the application and plug-ins is open, therefore, allowing users of the package to build custom, open plug-ins. Indeed, this model is exactly the same used by Kitware for VolView. The plug-in architecture is open, so that some aspects of the work could be published openly much like ITK plugs into VolView. Nonetheless, one might be concerned about how the application could manipulate the data before and after the application calls the plug-in. This aspect of the work could not be evaluated openly.\r\n\r\n<b>Reproducibility:</b>\r\nN/A\r\n\r\n<b>Use of Open Source Software:</b>\r\nThere is no discussion of (or implication of) the use of open source software. In addition, it appears that the application is proprietary to the Borland compiler. This is not a big issue given that the code is not readily available, but it does imply that the code would be very proprietary if it were available.\r\n\r\n<b>Open Source Contributions:</b>\r\nN/A\r\n\r\n<b>Code Quality:</b>\r\nN/A\r\n\r\n<b>Applicability to other problems:</b>\r\n[Do you find that the authors methods can be applied to other image analysis problems? Suggest other disciplines or even other specific projects that could take advantage of this work]\r\n\r\n<b>Suggestions for future work:</b>\r\n[Suggest to authors future directions for improving their methods, or other domains from which they could learn technique that could help them advance in their research.]\r\n\r\n<b>Requests for additional information from authors:</b>\r\n[Did you find that information was missing from the paper? Maybe parameters for running the tests? Maybe some images were missing? Would you like to get more details on how the diagrams, or plots were generated?]\r\n\r\n<b>Additional Comments:</b>\r\n[This is a free-form field]\r\n\r\n",
+    "date": "09-05-2006",
+    "review_id": 370
+   },
+   {
+    "author": {
+     "author_email": "marfGm@gmail.com",
+     "author_firstname": "Miguel Angel",
+     "author_id": 445,
+     "author_lastname": "Rodriguez-Florido"
+    },
+    "content": "<b>Summary:</b>\r\n Authors propose a new version of a programming environment for 3D biomedical images. The environment provides all the required tools to add image\r\nprocessing functions. A fast prototyping application is proposed. The component-oriented architecture makes it posible to share image processing and \r\nhandling resources under windows. \r\n<b>Hypothesis:</b>\r\nNon Applicable\r\n<b>Evidence:</b>\r\nNon Applicable\r\n<b>Open Science:</b>\r\nThe environment is described with enough detail to understand how it works, but I have tried to download the binaries, but I get an error: \\\\\\\"The requested URL /erim/Logiciels\\\\\\\\ImageLib\\\\\\\\download_new.html was not found on this server.\\\\\\\" , so I am not able to run and try the environment.\r\nIn addition, authors don\\\\\\'t provide the source code, and the software only runs under windows.\r\n<b>Reproducibility:</b>\r\nSoftware is not available at http://www.u-clermont1.fr/erim/Logiciels%5CImageLib%5Cdownload_new.html\r\n<b>Use of Open Source Software:</b>\r\nAuthors use their own software under C++, and they have developed this environment joining their own processing modules.\r\n<b>Open Source Contributions:</b>\r\nAuthors don\\\\\\'t provide their source code. They comment in their paper that code and processing plugin are not available on the website for now.\r\n<b>Code Quality:</b>\r\nThey don\\\\\\'t provide their source code, but the paper says that they use C++ templates.\r\n<b>Applicability to other problems:</b>\r\nI think this project is very interesting, but it should be better if it runs under other platforms. Moreover, if they would provide the source code \r\nmany users will work under their environment, and could contribute to it.\r\nIn any case, this software could be used to many kinds of problems in medical image processing.\r\n<b>Suggestions for future work:</b>\r\nI would suggest to authors to open the source code, and include it under sourceforge. I think that it would help so much in their research.\r\n<b>Requests for additional information from authors:</b>\r\nNon Applicable\r\n<b>Additional Comments:</b>\r\nI think that this is a good work and the result of the work for many years, and the collaboration between many researchers/developers. It would be great\r\nif this environment was open source.\r\nMy rating is based on the IJ reviewer guidelines.\r\n\r\n",
+    "date": "07-21-2006",
+    "review_id": 274
+   },
+   {
+    "author": {
+     "author_email": "i.wolf@dkfz.de",
+     "author_firstname": "Ivo",
+     "author_id": 6,
+     "author_lastname": "Wolf"
+    },
+    "content": "<b>Summary:</b>\r\nThe paper describes the software package \u00e2\u0080\u009cImageLib\u00e2\u0080\u009d which aims at rapid application development and prototyping in the field of biomedical image processing. The focus of the package is its extensibility by user-written components, which is technically detailed in the paper. The implementation relies on Borland C++ Builder and, on the visualization side, seems to be restricted to displaying 2D images (no volume or surface rendering).\r\n\r\n<b>Open Science:</b>\r\nThe source code is not provided. The compiled package and all described tools are supposed to be available for download at http://www.u-clermont1.fr/erim/.\r\n\r\n<b>Reproducibility:</b>\r\nThe link to the actual package (http://www.u-clermont1.fr/erim/Logiciels/ImgeLib/ipfulib/imagelibcpp.zip) on the page http://www.u-clermont1.fr/erim/Logiciels/ImageLib/download_new%20sauvegarde.html did not work.\r\n\r\n<b>Use of Open Source Software:</b>\r\nNo open source software mentioned.\r\n\r\n<b>Open Source Contributions:</b>\r\nThe source code is not provided, but it is describe how to extend the package and how to use the provided tools.\r\n \r\n<b>Code Quality:</b>\r\nNo code available.\r\n\r\n<b>Requests for additional information from authors:</b>\r\nAre there ready-to-use modules for typical image processing tasks available? Is it planned to wrap ITK or VTK for use within the package? A discussion of the advantages/disadvantages compared to other systems would be interesting, e.g., compared to VolView (http://www.volview.org), 3D Slicer (http://www.slicer.org), SCIRun (http://software.sci.utah.edu/scirun.html), or MeVisLab (http:// www.mevislab.de).\r\n",
+    "date": "08-22-2006",
+    "review_id": 308
+   }
+  ],
   "submitted_by_author": {
    "author_email": "alice.villeger@laposte.net",
    "author_firstname": "Alice",

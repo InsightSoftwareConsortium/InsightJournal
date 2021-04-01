@@ -31,6 +31,19 @@
    }
   ],
   "publication_id": 550,
+  "reviews": [
+   {
+    "author": {
+     "author_email": "grandj@mech.uwa.edu.au",
+     "author_firstname": "Grand roman",
+     "author_id": 832,
+     "author_lastname": "Joldes"
+    },
+    "content": "<p><br /><span style=\"font-family: &#39;Times New Roman&#39;,&#39;serif&#39;\"><font size=\"3\">&nbsp;&nbsp; In this paper the authors propose a method of computing external forces that would reproduce the cyclical movement of an organ when applied to a FEM model of the respective organ. The recovered external forces for each node are divided between elements surrounding the node and expressed in local coordinate systems created from the surrounding elements&rsquo; geometry in order to accommodate large deformations or rigid motion of the organ. External forces from a surgical tool can be added to the recovered forces in order to simulate the interaction between the tool and the organ.</font></span></p><p><font size=\"3\"><span style=\"font-family: &#39;Times New Roman&#39;,&#39;serif&#39;\">&nbsp;&nbsp; </span><span style=\"font-family: &#39;Times New Roman&#39;,&#39;serif&#39;\">The displacements of the nodes are computed using a B-spline registration method, which register the original mesh to following deformation phases. Clearly these displacements might not correspond to the real ones, and the recovered forces will depend on the registration method used. Therefore, the stress state inside the organ might not be represented properly and the predicted organ&rsquo;s response to external forces might not be accurate (especially for non-linear material models). The representation of the recovered nodal forces in the local coordinate system might also introduce additional errors. These aspects should be considered and a careful validation of the method must be done. No validation results are presented in the paper.<span>&nbsp;&nbsp;&nbsp; </span></span></font></p>",
+    "date": "06-30-2008",
+    "review_id": 1481
+   }
+  ],
   "submitted_by_author": {
    "author_email": "p.pratt@imperial.ac.uk",
    "author_firstname": "Philip",

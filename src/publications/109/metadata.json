@@ -51,6 +51,30 @@
    }
   ],
   "publication_id": 109,
+  "reviews": [
+   {
+    "author": {
+     "author_email": "yi.gao@gatech.edu",
+     "author_firstname": "Yi",
+     "author_id": 468,
+     "author_lastname": "Gao"
+    },
+    "content": "<b>Summary:</b>\r\nThis paper is about a NHLBI sponsored project, LTRC, which creates an open repository of histological, radiological, and clinical data for the studying of COPD and IPF.\r\n \r\n<b>Hypothesis:</b>\r\n1. Open this database will speed up the research process on lung diseases.\r\n2. Image processing community will benefit from the opening of data set.\r\n3. Base on same data set, both clinical and engineering researchers has a common platform to compare there results.\r\n\r\n<b>Evidence:</b>\r\nThere have been some work based on this data set, as given in the reference.\r\n\r\n<b>Open Science:</b>\r\nOpen Science is much more than only Open Source Code. Such opening of data set is extremely welcomed.\r\n\r\n<b>Reproducibility:</b>\r\nN/A\r\n\r\n<b>Use of Open Source Software:</b>\r\nIt didn\\'t use Open Source Software but it will definitely used by many Open Source Software.\r\n\r\n<b>Open Source Contributions:</b>\r\nN/A\r\n\r\n<b>Code Quality:</b>\r\nN/A\r\n\r\n<b>Applicability to other problems:</b>\r\nApart from clinical research of lung disease and medical image analysis area, many other fields like the teaching of lung pathology can make use of this data set.\r\n\r\n<b>Suggestions for future work:</b>\r\n[Suggest to authors future directions for improving their methods, or other domains from which they could learn technique that could help them advance in their research.]\r\n\r\n<b>Requests for additional information from authors:</b>\r\n[Did you find that information was missing from the paper? Maybe parameters for running the tests? Maybe some images were missing? Would you like to get more details on how the diagrams, or plots were generated?]\r\n\r\n<b>Additional Comments:</b>\r\n[This is a free-form field]\r\n\r\n\r\n",
+    "date": "08-18-2006",
+    "review_id": 301
+   },
+   {
+    "author": {
+     "author_email": "andinet.enqu@kitware.com",
+     "author_firstname": "Andinet",
+     "author_id": 68,
+     "author_lastname": "Enquobahrie"
+    },
+    "content": "</b>\r\nThis paper describes initiative for development of an open database containing histological, radiological and clinical data for study of COPD and IPF.\r\n\r\n<b>Hypothesis:</b>\r\nThe hypothesis is that the availability of an open and publicly available database spurs medical research and development efforts for COPD and IPF. Furthermore, performance of image analysis algorithms can be truly compared when evaluated on common database.\r\n\r\n<b>Evidence:</b>\r\nSome research work is already done using this database as listed in the reference section. With the completion and official release of the database, more investigational work using this database is expected.\r\n\r\n<b>Open Science:</b>\r\nOpen database is the backbone of open science. This paper presenting development of an open database definitely adheres to the basic concepts of open science.\r\n\r\n<b>Reproducibility:</b>\r\nNot applicable\r\n\r\n<b>Use of Open Source Software:</b>\r\nNot applicable\r\n\r\n<b>Open Source Contributions:</b>\r\nNot applicable\r\n\r\n<b>Code Quality:</b>\r\nNot applicable\r\n\r\n<b>Applicability to other problems:</b>\r\nDevelopment of an open and publicly accessible database is something that other areas of medical image research should adopt.\r\n\r\n<b>Suggestions for future work:</b>\r\nIt would be very instructive if the authors share their experiences in this project which involves collaboration between multiple institutions and medical professionals. The lessons learned would be valuable for other initiatives which are planning to pull resources/institutions together for database development.\r\n\r\n<b>Requests for additional information from authors:</b>\r\nThe website link provided in the paper seems to have a problem ( www.ctascstudies.com) I was wondering if this was a temporary server or a general Internet traffic issue.\r\n\r\n<b>Additional Comments:</b>\r\n[This is a free-form field]\r\n\r\n",
+    "date": "07-12-2006",
+    "review_id": 259
+   }
+  ],
   "submitted_by_author": {
    "author_email": "holmes.david3@mayo.edu",
    "author_firstname": "David",

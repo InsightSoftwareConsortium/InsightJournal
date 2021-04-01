@@ -31,6 +31,30 @@
    }
   ],
   "publication_id": 71,
+  "reviews": [
+   {
+    "author": {
+     "author_email": "millerjv@research.ge.com",
+     "author_firstname": "Jim",
+     "author_id": 232,
+     "author_lastname": "Miller"
+    },
+    "content": "This submission provides a functor style filter to perform operations similar to the AccumulateImageFilter.\r\n\r\nThe difference with respect to the AccumulateImageFilter is that this filter is templated over a functor. This allows a variety of accumulation methods (mean, min, max, median, etc.). This makes a nice design, allowing it to be easily extended by providing a new functor to perform the \\\"accumulation\\\" of a dimension.\r\n\r\nWe have discussed extending the AccumulateImageFilter with additional methods using a set of modes. The functor style allows for the filter to be extended more easily.\r\n\r\nThe author indicates the AccumulateImageFilter cannot be modified to do this without jeapordizing backward compatibility. I offer two suggestions that may address this:\r\n\r\n1. AccumulateImageFilter could be made a subclass of the ProjectionImageFilter, where the subclass specifies a functor that allows the current AccumulateImageFilter functionality (mean and sum).\r\n2. Or, the AccumulateImageFilter could be extended to have an extra template parameter (the functor) but that template parameter will default to the function that provides the current AccumulateImageFilter functionality.\r\n\r\nA comment on the API. The AccumulateImageFilter use Set/GetAccumulateDimension() methods to indicate the projection direction. The filter in this submission provides a Set/GetAxe() method. I suggest the Set/GetAxe be renamed to Set/GetAccumulateDimension(). Alternatively, the method could be Set/GetAxis(). However, in ITK we never refer to a dimension as an axis. So the method should really be Set/Get*Dimension() (perhaps Set/GetProjectionDimension()).\r\n\r\n\r\n\r\n",
+    "date": "02-11-2006",
+    "review_id": 179
+   },
+   {
+    "author": {
+     "author_email": "todd.gable@ge.com",
+     "author_firstname": "Todd",
+     "author_id": 526,
+     "author_lastname": "Gable"
+    },
+    "content": "I found the AccumulateImageFilter incomplete, it only collapses the last dimension and with only the option to use the mean. The Image projection filter did exactly what I wanted with the flexibility of choosing which functor to use (mean, median, max, etc.). I was surprised something like this didn&#39;t already exist in ITK, Image projection should be added to an ITK release soon.",
+    "date": "12-05-2006",
+    "review_id": 442
+   }
+  ],
   "submitted_by_author": {
    "author_email": "gaetan.lehmann@gmail.com",
    "author_firstname": "Gaetan",

@@ -40,6 +40,30 @@
    }
   ],
   "publication_id": 616,
+  "reviews": [
+   {
+    "author": {
+     "author_email": "simon.warfield@childrens.harvard.edu",
+     "author_firstname": "Simon",
+     "author_id": 514,
+     "author_lastname": "Warfield"
+    },
+    "content": "<p>&nbsp;</p><p>This paper describes a fully automated algorithm for the segmentation of brain MRI of patients with MS lesions.</p><p>MS lesions are detected by identifying regions which are different in the patient scan from a brain atlas.</p><p>A robust estimator is utilized to prevent outliers from influencing the estimation of parameters of a Gaussian mixture model likelihood function.</p><p>&nbsp;The results indicate the method has high specificity but lower sensitivity, indicating a conservative lesion segmentation outcome. </p>",
+    "date": "07-25-2008",
+    "review_id": 1533
+   },
+   {
+    "author": {
+     "author_email": "martin_styner@ieee.org",
+     "author_firstname": "Martin",
+     "author_id": 28,
+     "author_lastname": "Styner"
+    },
+    "content": "<p>This paper presents an MS lesion segmentation approach via outlier detection from an atlas based tissue classification. The classification procedure assign voxels to regions, which in turn are classified in tissue classes, MS lesions detected as outliers and corrected for intensity inhomogeneity within Expectation Maximization loop.</p><p>The results clearly indicate the conservative&nbsp; nature of the current approach, sensitivity is quite low, while specificty and false-positive rate are great. </p><p>It is not clear to what sense the training cases were used, as the approach seems to be based on an existing prior atlas. Was it used to fine-tune any parameters? </p><p>Overall well written paper. </p>",
+    "date": "07-28-2008",
+    "review_id": 1537
+   }
+  ],
   "submitted_by_author": {
    "author_email": "prastawa@sci.utah.edu",
    "author_firstname": "Marcel",

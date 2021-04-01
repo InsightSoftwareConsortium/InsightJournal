@@ -31,6 +31,30 @@
    }
   ],
   "publication_id": 75,
+  "reviews": [
+   {
+    "author": {
+     "author_email": "gaetan.lehmann@gmail.com",
+     "author_firstname": "Gaetan",
+     "author_id": 328,
+     "author_lastname": "Lehmann"
+    },
+    "content": "<b>Summary:</b>\r\nThe author describe some methods to improve the performance of the connected component filter, including a new algorithm, and show an important increase of performance.\r\n \r\n<b>Evidence:</b>\r\nThe author compare the output of the current itk\\'s filter and his modified ones. However he doesn\\'t show the result images, thing that shouold be done to validate his program of comparison of labeled images.\r\n\r\n<b>Open Science:</b>\r\nThe autho provide a good description of his work on current filter, and of the new algorithm, and even give some comment on optimization methods. This is open science.\r\n\r\n<b>Reproducibility:</b>\r\nSeveral test are failing, both on my 32 and 64 bits linux box. It should be fixed before including the result in ITK\r\n\r\n<b>Open Source Contributions:</b>\r\nThe code is usable without problem\r\n\r\n<b>Code Quality:</b>\r\nCode have very good quality\r\n\r\n<b>Applicability to other problems:</b>\r\nAgain a filter which can be used as the base of lots of image analysis methods\r\n\r\n<b>Suggestions for future work:</b>\r\nI think the algorithm can be threaded, and thus, give another performance improvement.\r\nAlso, I think you should use an internal type which support a higher range of values (for example NumericTraits< PixelType >::AccumulateType), so the labeling can succeed even if the number of values is near the maximum value of the type. This addition would require to change the labels (with a new equivalency table ?) and would also avoid the problem of relabeling after the labeling process only to have labels set like 0, 1 and 18. The cost of shouldn\\'t be too high.\r\n\r\n<b>Additional Comments:</b>\r\nthe \\\"only\\\" 4 starts are only for the broken tests; it\\'s a very good contribution.\r\nI will send you the error messages.",
+    "date": "02-20-2006",
+    "review_id": 195
+   },
+   {
+    "author": {
+     "author_email": "sylvainjaume@gmail.com",
+     "author_firstname": "Sylvain",
+     "author_id": 102,
+     "author_lastname": "Jaume"
+    },
+    "content": "<b>Summary:</b>\r\nThe paper describes two connected component algorithms and analyzes their improved performance compared to the connected component filter in the InsightToolkit.\r\nIn a three-step process, every connected component in a binary image receives a different label. The pixel intensity inside every component is replaced with the value of its label.\r\nThis operation is particularly useful as a pre-processing step to extract the largest component in an image or to measure the size of anatomical structures.\r\n\r\n<b>Evidence:</b>\r\nThe author describes his experiments in details and gives useful tips for researchers interested in optimizing their algorithms.\r\nThe code and data for the performance analysis are provided. However a pair of example input/output images would help to check if the executable gives the expected result.\r\n\r\n<b>Open Science:</b>\r\nFully Open Science. Almost Open Data: the input images are provided, not the output images.\r\nI understand that this was not intentional but the author did not see the need for providing the output images. Those images could be easily added as a revision.\r\nI really appreciate that the author comments his experiment process and mentions other directions.\r\n\r\n<b>Reproducibility:</b>\r\nI compiled the code with MS VS8 and run it. The process is seamless.\r\nI could not compare the output image I got with what the code is expected to return (see above comment).\r\n\r\n<b>Open Source:</b>\r\n100% ITK. Excellent code quality.\r\n\r\n<b>Requests for additional information from authors:</b>\r\nI would like to see a pair of input/output images in the paper and the archive, along with the list of arguments used.\r\n\r\n<b>Additional Comments:</b>\r\nWhat would be impact on the performance to collapse the labels in a way that all labels from 0 to number_of_components are used?\r\nI tried the code on an image with 2 components on a black background, and the result image had labels 0, 1 and <b>18</b>.\r\nI would like to avoid having a second filter to re-label 0, 1 and 18 to 0, 1 and 2.",
+    "date": "02-15-2006",
+    "review_id": 188
+   }
+  ],
   "submitted_by_author": {
    "author_email": "richard.beare@ieee.org",
    "author_firstname": "Richard",

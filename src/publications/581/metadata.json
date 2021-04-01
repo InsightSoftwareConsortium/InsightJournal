@@ -67,6 +67,19 @@
    }
   ],
   "publication_id": 581,
+  "reviews": [
+   {
+    "author": {
+     "author_email": "dengxiang05@gmail.com",
+     "author_firstname": "Xiang",
+     "author_id": 872,
+     "author_lastname": "Deng"
+    },
+    "content": "<p>This paper presents a level-set based semi-automatic live tumor segmentation technique. <br />The segmentation is initialized using a user-defined ROI. The level set is evolved according to a speed function computed using&nbsp;fuzzy pixel classification technique.</p><p><br />Detailed comments:</p><p>1) What makes liver tumor segmentation a challenging task is the large variation of lesion&#39;s shape, size and contrast in CT images. A tumor segmentation technique with potential of clinical application should be able to handle both homogeneous and round shaped lesions, as well as not well-defined ones.&nbsp; </p><p>2) In the last paragraph of &quot;Discussion&quot; section, the authors said that &quot;user intelligence was reduced when placing the two seeds&quot;. From my point of view, it would be helpful to test the reproducibility of the proposed technique on the training and testing data, before making such a conclusion.</p><p>3) What is the stop criterion of the level-set evolution?</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>",
+    "date": "07-25-2008",
+    "review_id": 1523
+   }
+  ],
   "submitted_by_author": {
    "author_email": "dirk.smeets@gmail.com",
    "author_firstname": "Dirk",
