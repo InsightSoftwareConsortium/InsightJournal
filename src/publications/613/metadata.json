@@ -50,6 +50,30 @@
    }
   ],
   "publication_id": 613,
+  "reviews": [
+   {
+    "author": {
+     "author_email": "martin_styner@ieee.org",
+     "author_firstname": "Martin",
+     "author_id": 28,
+     "author_lastname": "Styner"
+    },
+    "content": "<p>The paper presents a MS lesion segmentation method that focuses on the detection of hyper-intense T2-FLAIR regions. This detection is supported by an extensive set of preprocessing steps, including bias correction, skull stripping, intensity normalization, and EM loop based multi-channel tissue segmentation. The brain tissue segmentation is used to estimate the intensity parameters of the normal/healthy tissues. Based on the GM tissue parameter, a lesion segmentation is estimated and postprocessed with a set of rules. </p><p>It seems that in case of a severe MS case, the initial brain tissue segmentation would consist for WM to a larger degree of lesions. Thus, the parameters for the normal tissue (both WM and GM) would be off and the lesions would quite underestimated. Could you discuss this in your paper? </p><p>Overall nice paper with good results, a few minor revisions needed.</p><p>&nbsp;</p><p>&nbsp;</p>",
+    "date": "07-29-2008",
+    "review_id": 1545
+   },
+   {
+    "author": {
+     "author_email": "simon.warfield@childrens.harvard.edu",
+     "author_firstname": "Simon",
+     "author_id": 514,
+     "author_lastname": "Warfield"
+    },
+    "content": "<p>This paper describes an algorithm for the segmentation of lesions from brain MRI of MS patients.</p><p>The approach utilizes preprocessing followed by the estimation of a threshold for lesions in FLAIR images based on the signal intensity of the gray matter distribution.</p><p>The evaluation indicates the method performs well.</p><p>Minor problems:</p><p>I suggest to rewrite the sentence with the word unity to use a different word.</p><p>The table of Figure 6 adds up to 90 minutes of processing, but says 96 mins. &nbsp;</p>",
+    "date": "07-25-2008",
+    "review_id": 1532
+   }
+  ],
   "submitted_by_author": {
    "author_email": "jean-christophe.souplet@sophia.inria.fr",
    "author_firstname": "Jean-christophe",

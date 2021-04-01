@@ -40,6 +40,19 @@
    }
   ],
   "publication_id": 607,
+  "reviews": [
+   {
+    "author": {
+     "author_email": "dengxiang05@gmail.com",
+     "author_firstname": "Xiang",
+     "author_id": 872,
+     "author_lastname": "Deng"
+    },
+    "content": "<p>This paper presents an automatic live tumor segmentation technique. <br />In this method,&nbsp;probalistic intensity models of the tumor and surrounding liver tissue are first estimated using a non-parametric technique. Second, the tumors are segmented using a 3D active contour model that can minimize the intensity variance inside and outside the object of interest.</p><p><br />Detailed comments:</p><p>1) The active surface model used in the segmentation seems to require some kind of initialization, e.g., manually defined&nbsp;initial contour. If that&#39;s the case, the method should be semi-automatic. Could the authors clarify this point?</p><p>2) The meaning of symbols in equation (1) in section 2.1 are not clearly defined, i.e., does &quot;measure of the region of the tumor&quot; mean the volume of the tumor? what does |Vol_{in}| stand for?</p><p>3) In &quot;Experimental results&quot; section, the statement &quot;the small relative difference between the intensity of the tumor and the healthy part this cause that any energy based segmentation of the normalized intensity values will not work&quot; is too strong.</p><p>4) In &quot;Experimental results&quot; section, I don&#39;t see a clear advatange of the proposed distribution estimation method from Figures 2 and 3. Could the authors show some quantitative comparison?</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>",
+    "date": "07-25-2008",
+    "review_id": 1517
+   }
+  ],
   "submitted_by_author": {
    "author_email": "itaybd@gmail.com",
    "author_firstname": "Itay",

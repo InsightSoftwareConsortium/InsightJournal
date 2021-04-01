@@ -36,6 +36,30 @@
    }
   ],
   "publication_id": 56,
+  "reviews": [
+   {
+    "author": {
+     "author_email": "gaetan.lehmann@gmail.com",
+     "author_firstname": "Gaetan",
+     "author_id": 328,
+     "author_lastname": "Lehmann"
+    },
+    "content": "I successfully run it on my host. I\\\\\\\\\\\\\\'m able to read lsm files in 3D with the good spacing which is very nice\r\nHowever,\r\n<ul>\r\n<li>I have to replace <pre>#include \\\\\\\\\\\\\\\"tiffio/tiffio.h\\\\\\\\\\\\\\\"</pre> by <pre>#include \\\\\\\\\\\\\\\"tiffio.h\\\\\\\\\\\\\\\"</pre> in itkLSMImageIO.cxx to build the test.\r\n<li>the reader works only if there is only one chanel, and return a quite strange \\\\\\\\\\\\\\\"Cannot open the file!\\\\\\\\\\\\\\\" if the lsm contains 2 chanels. You can get a (big) lsm file with 2 chanels at <a href=\\\\\\\"http://voxel.jouy.inra.fr/blastocyste.lsm\\\\\\\">http://voxel.jouy.inra.fr/blastocyste.lsm</a> if needed.\r\n</ul>\r\nIt really nice to have a LSM reader for ITK.\r\nThanks for that work !\r\n",
+    "date": "11-14-2005",
+    "review_id": 130
+   },
+   {
+    "author": {
+     "author_email": "mathieu.malaterre@gmail.com",
+     "author_firstname": "Mathieu",
+     "author_id": 310,
+     "author_lastname": "Malaterre"
+    },
+    "content": "<b>Build errors:</b>\r\nThere are build errors on the Insight Journal, because the version used is ITK 2.2.1 whereas the code <b>needs</b> ITK CVS, due to some very recent change in ITK CVS, in particular TIFFImageIO and the tiff library.\r\n",
+    "date": "11-14-2005",
+    "review_id": 129
+   }
+  ],
   "submitted_by_author": {
    "author_email": "mathieu.malaterre@gmail.com",
    "author_firstname": "Mathieu",

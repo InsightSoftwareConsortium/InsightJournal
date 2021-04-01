@@ -61,6 +61,19 @@
    }
   ],
   "publication_id": 554,
+  "reviews": [
+   {
+    "author": {
+     "author_email": "adwit@mech.uwa.edu.au",
+     "author_firstname": "Adam",
+     "author_id": 864,
+     "author_lastname": "Wittek"
+    },
+    "content": "<p><em>(This review can be also viewed by opening the attached PDF file)</em></p><p>The paper addresses an important problem of the design of orthopaedic implants to to<br />ensure that they fit the maximum of the target population. The Authors build statistical<br />shape model of a tibia and use to optimise the implant position. They also conduct<br />modelling analysis (FE method is used) biomechanical performance of bone-implant<br />construct. The methodology appears to be original and technically sound. However, some<br />aspects (bone-to-bone and bone-to-implant interactions) of the modelling conduct require<br />further clarification. Therefore, my opinion is that before the paper can be regarded as<br />ready for publication/presentation in the Workshop, the Authors should answer the<br />questions given below and modify the paper following them.</p><p><br /><strong>Major comments</strong><br />1) Biomechanical FE Simulations: How were the interactions between two split (as a<br />result of fracture) bone parts and between the bones and implant modelled?<br />The Authors write that &ldquo;3D beam elements were used to fix implant to the bone&rdquo;<br />and that &ldquo;Attachment of the beam to the bone was preformed using an embedded<br />element technique&rdquo;. However, in order for such modelling of attachment to be<br />meaningful, the implant should be allowed to move/slide in relation to the bone. This<br />would require application of contact interface (or similar type of constrain) between<br />the implant and bone, and between two split bone parts. The paper does not mention<br />existence of any type of such interface between the bone and implant and between<br />two split bone parts.</p><p><br />2) What finite element solver was used and what type of finite element analysis (i.e.<br />geometrically linear or non-linear) was applied?</p><p><br />3) Legend of Table 1 (p. 8): Was the bone-implant distance determined using imagebased<br />methods described in Sections 2-4?</p><p><br /><strong>Minor comments</strong><br />1) P. 2 reference [Rueckert] is missing in the Reference list</p><p><br />2) P. 2, figure 1 caption. Is: &ldquo;axis&rdquo;, should be: &ldquo;axes&rdquo; (plural)</p><p><br />3) P. 3, second column, second paragraph. Is: &ldquo;the fracture should be a continuous&rdquo;,<br />should be: &ldquo;the fracture should be continuous&rdquo;</p><p><br />4) P. 4, last sentence. Is &ldquo;in Eq. 3&rdquo;, should be: &ldquo;in Eq. 4&rdquo;. </p>",
+    "date": "06-30-2008",
+    "review_id": 1478
+   }
+  ],
   "submitted_by_author": {
    "author_email": "serena.bonaretti@istb.unibe.ch",
    "author_firstname": "Serena",

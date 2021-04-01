@@ -35,6 +35,19 @@
    }
   ],
   "publication_id": 597,
+  "reviews": [
+   {
+    "author": {
+     "author_email": "dengxiang05@gmail.com",
+     "author_firstname": "Xiang",
+     "author_id": 872,
+     "author_lastname": "Deng"
+    },
+    "content": "<p>The authors present an automatic live tumor segmentation technique. <br />In this technique, candidate tumor sites are first identified and segmented by intensity thresholding and region growing. The segmented regions are then filtered using a set of hueristic criteria. The remaining segmentations are refined using competition-diffusion algorithm. Finally, segmented tumors with size below and above certain thresholds are eliminated.</p><p>Detailed comments:</p><p>1) The proposed tumor segmentation algorithm uses a lot of heuristic methods, as well as empirically determined parameters.<br />As a result, the algorithm could be very sensitive to the large variation&nbsp;of clinical liver tumor images, in terms of size, shape and contrast.</p><p>2) The number of false positive in the segmentation results would make clinical application of this technique difficult.</p><p>3) The edge of tumors may not be well-defined in the original CT images. The down-sampling used in the pre-processing stage will further blur the boundary, which could cause over-segmentation in intensity thresholding based segmentation methods.</p><p>&nbsp;</p>",
+    "date": "07-25-2008",
+    "review_id": 1513
+   }
+  ],
   "submitted_by_author": {
    "author_email": "kubota@susqu.edu",
    "author_firstname": "Toshiro",

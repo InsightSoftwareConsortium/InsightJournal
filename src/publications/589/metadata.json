@@ -77,6 +77,19 @@
    }
   ],
   "publication_id": 589,
+  "reviews": [
+   {
+    "author": {
+     "author_email": "dengxiang05@gmail.com",
+     "author_firstname": "Xiang",
+     "author_id": 872,
+     "author_lastname": "Deng"
+    },
+    "content": "<p>The authors presented a semi-automatic live tumor segmentation technique. In this method, the liver is first segmented using watershed algorithm, tumors are then segmented using a minimum cross-entropy multi-thresholding algorithm. The tumor segmentation is further refined with region growing and level-set based surface smoothing methods.</p><p>Detailed comments:</p><p>1) Overall, this is a nice workshop paper. The presentation is clear.</p><p>2) In the multi-thresholding tumor segmentation, the number of thresholds applied in multi-thresholding is 3, with the first and third thresholds set for hypodense and hyperdense tumors respectively. What is the second threshold for?</p><p>3) In segmentation refinement, why are the threshold limits not symmetric with respect to the mean value?</p><p>4) Could the user manually identified point in the initialization be an arbitrary point in the liver, e.g. a point&nbsp;in normal liver tissue or in the lesion?</p>",
+    "date": "07-25-2008",
+    "review_id": 1525
+   }
+  ],
   "submitted_by_author": {
    "author_email": "francesca.pizzorni@gmail.com",
    "author_firstname": "Francesca",

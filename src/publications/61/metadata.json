@@ -33,6 +33,30 @@
    }
   ],
   "publication_id": 61,
+  "reviews": [
+   {
+    "author": {
+     "author_email": "lorensen@crd.ge.com",
+     "author_firstname": "Bill",
+     "author_id": 17,
+     "author_lastname": "Lorensen"
+    },
+    "content": "<b>Summary:</b>\r\nAn itk UnaryImageFilter that computes the modulus of an image.\r\n \r\n<b>Evidence:</b>\r\nThe figures in the paper illustrate the technique. A test is also provided with both input and output images.\r\n\r\n<b>Open Science:</b>\r\nAll the code is present.\r\n\r\n<b>Reproducibility:</b>\r\nI downloaded the code. It compiled on both Visual Studio 7 and Borland.\r\nI had to edit the CMakeLists.txt file to add ${EXECUTABLE_OUTPUT_PATH} to the ADD_TEST command so that I could run the tests with ctest.\r\n<pre>\r\nADD_TEST(Modulus ${EXECUTABLE_OUTPUT_PATH}/modulus ${CMAKE_SOURCE_DIR}/Spots.png out.png distance.png)\r\nADD_TEST(CompareImage ${EXECUTABLE_OUTPUT_PATH}/ImageCompare out.png ${CMAKE_SOURCE_DIR}/modulus.png)\r\n</pre>\r\n\r\n<b>Use of Open Source Software:</b>\r\nThe author used CMake and itk.\r\n\r\n<b>Open Source Contributions:</b>\r\nAll source and test code was provided.\r\n\r\n<b>Code Quality:</b>\r\nProgramming style conforms to itk style. Name of class and methods are acceptable. A PrintSelf method is provided.\r\n\r\n<b>Suggestions for future work:</b>\r\nBefore adding to itk, the operator== and operator!= methods should be added to the Functor. This corresponds to recent changes in itk. Also, the test should be modified to use the itk testing framework before adding to itk. This work can be done by the itk Shepard for this code.\r\n",
+    "date": "01-30-2006",
+    "review_id": 160
+   },
+   {
+    "author": {
+     "author_email": "millerjv@research.ge.com",
+     "author_firstname": "Jim",
+     "author_id": 232,
+     "author_lastname": "Miller"
+    },
+    "content": "<b>Summary:</b>\r\nUnary functor filter to perform the modulus operator per pixel.\r\n\r\n\r\n<b>Use of Open Source Software:</b>\r\nThis is subclass of UnaryFunctorImageFilter\r\n\r\n<b>Code Quality:</b>\r\nVisual inspection of the code looks fine.\r\n\r\n\r\n<b>Suggestions for future work:</b>\r\nShould probably use the ConceptChecking facilities to ensure the input image type is integral.\r\n\r\n",
+    "date": "01-27-2006",
+    "review_id": 153
+   }
+  ],
   "submitted_by_author": {
    "author_email": "gaetan.lehmann@gmail.com",
    "author_firstname": "Gaetan",

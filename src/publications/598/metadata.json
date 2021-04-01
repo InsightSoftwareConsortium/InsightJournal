@@ -53,6 +53,19 @@
    }
   ],
   "publication_id": 598,
+  "reviews": [
+   {
+    "author": {
+     "author_email": "dengxiang05@gmail.com",
+     "author_firstname": "Xiang",
+     "author_id": 872,
+     "author_lastname": "Deng"
+    },
+    "content": "<p>This paper presents an interactive live tumor segmentation technique. The liver is first segmented using combined graph-cut and watershed algorithm, tumors are then segmented with a maximum a posteriori method. Manual editing is followed to refine the tumor segmentation.</p><p>Detailed comments:</p><p>1) Could the author briefly describe the average computation time of tumor segmentation and time for manual editing?<br />That would give readers some sense of the potential of clincial application of the proposed method.</p><p>2) For Table 4 in the manuscript, please use the same table as what we provided in the evaluation (tumor name,&nbsp; metric value, score, etc.) for the sake of consistency. The caption could be &quot;Results of comparison metrics and scores for all ten test tumors&quot;</p><p>3) As the authors state in the manuscript, &quot;the first step of our method is manual definition of a sub volume containing one or more tumors that need to be segmented.&quot; If manually defined ROI is required to initialize the tumor segmentation, what&#39;s the point of extraction of liver boundary in Section 3.3</p><p>&nbsp;</p>",
+    "date": "07-25-2008",
+    "review_id": 1515
+   }
+  ],
   "submitted_by_author": {
    "author_email": "jean.stawiaski@ensmp.fr",
    "author_firstname": "Jean",

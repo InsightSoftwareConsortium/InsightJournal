@@ -60,6 +60,19 @@
    }
   ],
   "publication_id": 584,
+  "reviews": [
+   {
+    "author": {
+     "author_email": "dengxiang05@gmail.com",
+     "author_firstname": "Xiang",
+     "author_id": 872,
+     "author_lastname": "Deng"
+    },
+    "content": "<p>This paper presents a semi-automatic live tumor segmentation technique. <br />The segmentation is initialized with a user-drawn stroke across the lesion. The tumors are then segmented using adaptive thresholding followed with refinement by morphological operation. </p><p>Detailed comments:</p><p>1) The proposed technique requires a user-drawn stroke to initialize the segmentation, and some manual editing in refinement. In my opinion, this algorithm should belong to &quot;Interactive system&quot;.</p><p>2) It would be helpful if the authors could provide some information regarding the sensitivity of the proposed algorithm to the initial stroke, i.e., variation of segmentation against different positions of the initial stroke.</p><p>3) In Table 1, please use the provided tumor name, e.g., IMG05_L1.</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>",
+    "date": "07-25-2008",
+    "review_id": 1522
+   }
+  ],
   "submitted_by_author": {
    "author_email": "jan.moltz@mevis.de",
    "author_firstname": "Jan hendrik",

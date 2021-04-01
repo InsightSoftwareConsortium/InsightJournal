@@ -88,6 +88,19 @@
    }
   ],
   "publication_id": 588,
+  "reviews": [
+   {
+    "author": {
+     "author_email": "dengxiang05@gmail.com",
+     "author_firstname": "Xiang",
+     "author_id": 872,
+     "author_lastname": "Deng"
+    },
+    "content": "<p>This paper presents a semi-automatic live tumor segmentation technique. <br />The segmentation is initialized with a user defined ROI. The tumors are then segmented using region growing followed with refinement by morphological operation. </p><p><br />Detailed comments:</p><p>1) The amount of user intervention needed in this method may be under-estimated, <br />because it requires user-defined ROI on each tumor bearing slice.<br />For processing large amount of data in routine clinical use, this could become a labor-intensive and time-consuming task . </p><p>2) it is not clear to me why the Knowledge-based constraints should be used to refine the segmentation.<br />What&#39;s the difference between the ROI and &quot;larger area&quot; mentioned in section 2.3?<br />Why can&#39;t the segmentation start with a &quot;larger area&quot; in the first run?<br />Could the authors briefly address this algorithm&#39;s sensitivity to initialization?</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>",
+    "date": "07-25-2008",
+    "review_id": 1524
+   }
+  ],
   "submitted_by_author": {
    "author_email": "wkwong@i2r.a-star.edu.sg",
    "author_firstname": "Damon",

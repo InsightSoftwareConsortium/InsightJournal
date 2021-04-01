@@ -91,6 +91,19 @@
    }
   ],
   "publication_id": 565,
+  "reviews": [
+   {
+    "author": {
+     "author_email": "grandj@mech.uwa.edu.au",
+     "author_firstname": "Grand roman",
+     "author_id": 832,
+     "author_lastname": "Joldes"
+    },
+    "content": "<p style=\"margin: 0cm 0cm 0pt\" class=\"MsoNormal\"><font face=\"Times New Roman\" size=\"3\">&nbsp;&nbsp; In this paper the authors propose the use of the Optimal Mass Transport theory for identifying the cortical structures by mapping a brain atlas to the MRI scan of a patient. </font></p><p style=\"margin: 0cm 0cm 0pt\" class=\"MsoNormal\">&nbsp;</p><p style=\"margin: 0cm 0cm 0pt\" class=\"MsoNormal\"><font size=\"3\"><font face=\"Times New Roman\">&nbsp;&nbsp; Most of the solution algorithm derivation and implementation described in this paper was presented in previous papers [1]. The authors contribute by proposing the use of a different direction for minimization and by enforcing the mass preserving property after each iteration step.</font></font></p><p style=\"margin: 0cm 0cm 0pt\" class=\"MsoNormal\"><font size=\"3\"><font face=\"Times New Roman\"><span>&nbsp;&nbsp; </span></font></font></p><p style=\"margin: 0cm 0cm 0pt\" class=\"MsoNormal\"><font face=\"Times New Roman\" size=\"3\">&nbsp;&nbsp; The method requires as a pre-requisite a segmentation of the patient MRI scan into the major tissue classes - it is not specified in the paper how this problem is solved. It also requires that the intensities of the two input images (atlas and MRI) be normalized and rescaled to make sure that both have the same mass (intensity). This will certainly influence the results especially if the intensity distribution differs considerably between the atlas and the MRI scan (scanning sequences or sensors are very different).</font></p><p style=\"margin: 0cm 0cm 0pt\" class=\"MsoNormal\">&nbsp;</p><p style=\"margin: 0cm 0cm 0pt\" class=\"MsoNormal\"><font face=\"Times New Roman\" size=\"3\">&nbsp;&nbsp; The authors present the difference in white matter intensity between the patient MRI and the re-sampled atlas image as a proof of accuracy. Nevertheless, this only proves that the algorithm can morph one image into the other, not that the folds are accurately aligned (as shown in the presented results, some atlas labels are propagated to the wrong regions). The matching of anatomical landmarks would be more appropriate for quantifying the accuracy of the method.</font></p><font face=\"Times New Roman\" size=\"3\">&nbsp;</font><font face=\"Times New Roman\" size=\"3\">&nbsp;</font> <p style=\"margin: 0cm 0cm 0pt; text-indent: 0cm\" class=\"MsoNormal\"><font face=\"Times New Roman\" size=\"3\">References</font></p><font face=\"Times New Roman\" size=\"3\">&nbsp;</font> <p style=\"margin: 0cm 0cm 0pt; text-indent: 0cm\" class=\"MsoNormal\"><font face=\"Times New Roman\" size=\"3\">1. <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Haker, S., Zhu, L., Tannenbaum, A., Angenent, S., 2004, Optimal mass transport for registration and warping. International Journal of Computer Vision 60 (3), 225&ndash;240.</font></p><p>&nbsp;</p>",
+    "date": "06-30-2008",
+    "review_id": 1482
+   }
+  ],
   "submitted_by_author": {
    "author_email": "tauseef@ece.gatech.edu",
    "author_firstname": "Tauseef",

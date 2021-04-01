@@ -80,6 +80,19 @@
    }
   ],
   "publication_id": 590,
+  "reviews": [
+   {
+    "author": {
+     "author_email": "dengxiang05@gmail.com",
+     "author_firstname": "Xiang",
+     "author_id": 872,
+     "author_lastname": "Deng"
+    },
+    "content": "<p>This paper presents a semi-automatic live tumor segmentation technique. <br />In this method, the tumor is first segmented in one slice using an SVM classifier. The contour is then propagated to other slices and refined using an updated SVM classifier to obtain&nbsp; segmentation of the whole lesion. </p><p>Detailed comments:</p><p>1) If the tumor has an asymmetric shape, I don&#39;t see a clear advantage to start the segmentation in the mid section of the lesion.</p><p>2) It is not clear to me how the segmentation procedure can be stopped during the propagation so that user can manually adjust the initial ROI. </p><p><br />3) While the proposed technique does not need manual editing of the segmented contour, it does require some user-intervention in initialization and in the middle of segmentation procedure. In my opinion, the proposed technique is an interactive segmentation technique.</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>",
+    "date": "07-25-2008",
+    "review_id": 1520
+   }
+  ],
   "submitted_by_author": {
    "author_email": "jiayin.zhou@gmail.com",
    "author_firstname": "Jiayin",

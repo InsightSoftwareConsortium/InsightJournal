@@ -33,6 +33,30 @@
    }
   ],
   "publication_id": 63,
+  "reviews": [
+   {
+    "author": {
+     "author_email": "luis.ibanez@kitware.com",
+     "author_firstname": "Luis",
+     "author_id": 4,
+     "author_lastname": "Ibanez"
+    },
+    "content": "<b>Summary:</b>\r\nThis paper describes an implementation of an image processing filter that given an image and a mask, will take the minimum value of the image among the pixels indicated by the mask, and will fill the image pixels (under the mask) with that value.\r\n \r\n<b>Hypothesis:</b>\r\nNonApplicable\r\n\r\n<b>Evidence:</b>\r\nThe authors provide their source code, input images and outpur images, as well as a test. The output image provided by the author was replicated by this reviewer.\r\n\r\n<b>Open Science:</b>\r\nThe paper follows quite well the principles of Open Science. The source code, and images are provided, as well as a test that makes very easy to run the filter.\r\nI wished the author would have added a bit more on the background of this filter, althought the references to the book by Soille is probably what I should follow. A more compeling example of the applicability of this filter would have been nice too. For example, the original motivation of the author for implementing this filter, but again, the author refers to other publications for details on applications for which this filter is suitable.\r\n\r\n<b>Reproducibility:</b>\r\nThe author work was easy to reproduce. All the material was included in the submission. The reviewed configured, compiled and ran the code without modifications and with minimal effort. The reviewer tested this code in a Linux Debian machine with a dual pentium IV at 2.4Ghz, and 1Gbyte of RAM. The output of the test matched well the image provided by the author. There was no information missing as far as replicating the work was concerned.\r\n\r\n\r\n<b>Use of Open Source Software:</b>\r\nThe author uses ITK and contributes a new ITK image filter, actually based on a previous contribution by the same author.\r\n\r\n<b>Open Source Contributions:</b>\r\nThe author contributes his source code, there are some questionable practices in the implementation of the filter, such as the arbitrary shifting of the image intensities, but they are at least well documented upfront, so the use is aware that they are being performed when the filter is executed.\r\n\r\n<b>Code Quality:</b>\r\nThe code has good quality. It should run in multiple platforms, although the reviewer only tried it on Linux with gcc 3.4. The code respects most of the ITK coding style. Minimal modifications would be needed for including this filter in the ITK toolkit.\r\n\r\n<b>Applicability to other problems:</b>\r\nI would have to consult the references cited by the author in order to get more familiar with potential applications.\r\n\r\n<b>Suggestions for future work:</b>\r\nIt would seem that a similar filter could be implemented for imposing the maxima from a mask.\r\n\r\n<b>Requests for additional information from authors:</b>\r\nAs I mention before, it would have been nice to have a more compeling story for the need of this filter, and its applications. The author went quite to the point on how the filter was implemented and how to use it. An example of what the author is actually doing with this filter would have improve the paper.\r\n\r\n<b>Additional Comments:</b>\r\n\r\n\r\n",
+    "date": "02-01-2006",
+    "review_id": 165
+   },
+   {
+    "author": {
+     "author_email": "sylvainjaume@gmail.com",
+     "author_firstname": "Sylvain",
+     "author_id": 102,
+     "author_lastname": "Jaume"
+    },
+    "content": "<b>Summary:</b>\r\nThe paper describes a morphological filter to fill every regions but a region marked by the user.\r\nThe filter takes two inputs: an image and a marker image. The pixels with a non-zero intensity in the marker image define the marked region.\r\n \r\n<b>Evidence:</b>\r\nThe testing example clearly demonstrates the applicability of the filter. However the paper could explain the result with more details.\r\nIn a reply to the previous review, the author gives some context information about the minima-imposition technique and the problem he tries to address.\r\nAn illustration of this problem could help potential users understand how this filter could be useful in their applications.\r\nBesides some theoretical background would not hurt (given only the table of contents of the book of Soille is Open Science!).\r\n\r\n<b>Open Science:</b>\r\nI very much appreciate the author\\\\\\'s initiative to provide not only the materials to reproduce the results, but also the TeX files to reproduce the paper.\r\nOpen Science all the way!\r\n\r\n<b>Reproducibility:</b>\r\nI reproduced the reported result using the input image provided: the resulting image looks identical as the test image that comes in the tar file.\r\nThe code compiled smoothly with MS VS8.\r\n\r\n<b>Open Source:</b>\r\nThe code is implemented as an ITK filter that embeds a sequence of filters. Code quality is excellent.\r\nCould the algorithm be modified to remove the shift filter and gain additional performance?\r\n\r\n<b>Suggestions for future work:</b>\r\nI would suggest to describe an application where this filter could be useful, or even better to illustrate such an application with an example.",
+    "date": "02-10-2006",
+    "review_id": 178
+   }
+  ],
   "submitted_by_author": {
    "author_email": "gaetan.lehmann@gmail.com",
    "author_firstname": "Gaetan",

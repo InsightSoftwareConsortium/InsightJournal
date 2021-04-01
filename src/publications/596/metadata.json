@@ -45,6 +45,19 @@
    }
   ],
   "publication_id": 596,
+  "reviews": [
+   {
+    "author": {
+     "author_email": "dengxiang05@gmail.com",
+     "author_firstname": "Xiang",
+     "author_id": 872,
+     "author_lastname": "Deng"
+    },
+    "content": "<p>This paper presents an contrast enhancement technique for live tumor segmentation.</p><p><br />Detailed comments:</p><p>1) Contrast enhancement is&nbsp;a preprocessing step&nbsp;of liver tumor segmentation.<br />The authors should provide detailed description of the segmentation algroithm. <br />Otherwise, it is difficult to compare this segmentation techniques with others.</p>",
+    "date": "07-25-2008",
+    "review_id": 1514
+   }
+  ],
   "submitted_by_author": {
    "author_email": "hanungadin@gmail.com",
    "author_firstname": "Hanung adi",

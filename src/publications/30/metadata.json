@@ -54,6 +54,30 @@
    }
   ],
   "publication_id": 30,
+  "reviews": [
+   {
+    "author": {
+     "author_email": "ibitter@nih.gov",
+     "author_firstname": "Ingmar",
+     "author_id": 45,
+     "author_lastname": "Bitter"
+    },
+    "content": "<b>Summary:</b>\r\nThe paper presents a suite of bio-medical applications for visualization and analysis of neuro, cardiac, abdominal and other MRI and CT images. The applications use VTK, ITK and Tcl and all have a similar look and feel, but are very targeted to particular clinical needs.\r\n \r\n<b>Hypothesis:</b>\r\nThat the application suite can efficiently address various clinical image analysis needs.\r\n\r\n<b>Evidence:</b>\r\nThere are several screen shots of the various applications in action, but no measurable results, no comparison to other applications and no details of the underlying math.\r\n\r\n<b>Open Science:</b>\r\nThe paper states that the code is based on and extents ITK and VTK. However, none of the code is presently available and none of the datasets used to make the images are posted.\r\n\r\n<b>Reproducibility:</b>\r\nReproducing the work is impossible without the data and the code or applications.\r\n\r\n<b>Use of Open Source Software:</b>\r\nThe described software is planned to be open source in the future. None of the implementation specifics are described in the paper.\r\n\r\n<b>Open Source Contributions:</b>\r\nI could not evaluate their contribution.\r\n\r\n<b>Code Quality:</b>\r\nI could not evaluate the code.\r\n\r\n<b>Applicability to other problems:</b>\r\nWhile the the applications are very task specific, the set of modules and classes should allow many new applications.\r\n\r\n<b>Suggestions for future work:</b>\r\nMake the code and applications available. Make example data available, post measurable results and make it easy for others to reproduce those results.\r\n\r\n<b>Requests for additional information from authors:</b>\r\n\r\n<b>Additional Comments:</b>\r\n\r\n<b>Conclusion:</b>\r\nThe described applications are most likely very valuable, but it is hard to evaluate without access to the applications and data. But at least the screenshots look promising. The application suite does address a need in the community and probably other applications that can be build based on this work. \r\nI'll be happy to change my review if a revision of the paper adds the missing evidence and makes it easy to reproduce the results.",
+    "date": "09-08-2005",
+    "review_id": 49
+   },
+   {
+    "author": {
+     "author_email": "tkapur@bwh.harvard.edu",
+     "author_firstname": "Tina",
+     "author_id": 96,
+     "author_lastname": "Kapur"
+    },
+    "content": "<b>Summary:</b>\r\nThis paper describes BioImage Suite, a collection of GUI driven medical image analysis applications as well as command line tools and support for batch processing. The applications are all created from a common set of underlying modules and have similar look and feel. This suite of applications is in use in various labs at Yale, and the authors expect that it will be publicly available by the end of 2005. The paper provides a listing of the algorithms and applications in the package (on pages 2 and 3) and the takeaway is that most major areas of medical image analysis research is covered in some form in this suite (bias correction for segmentation, deformable registration, fmri activation detection/roi analysis, diffusion image analysis, shape based cardiac deformation are some examples). An interesting feature that is unique to BioImage Suite is that it has an interface to a commercial Image-Guided Surgery System (Brainlab).\r\n\r\n<b>Open Science/Reproducibility/Open Source Contributions/Code Quality</b>\r\nThis work does not currently contribute much to open science/source since the programs (either executables or source) are not available at this time. However, the authors intend to make the software publicly accessisble by the end of the year. If I understand the intended licensing plan correct, it is to (a) make all algorithm implementations available under GPL and (b) to make all GUI-based applications available under a dual license (like mySQL) in which a GPL license is available to those who intend to keep the modified source code open, and a commercial license to those who intend to restrict access to the source.\r\n\r\n<b>Use of Open Source Software:</b>\r\nThe authors report using VTK/ITK/TCL/TK.\r\n\r\n<b>Suggestions for future work:</b>\r\n- My recommendation to the authors would be to try to pick the brains of a research group that has recently converted their in-house tools (and licenses) to an open source model.\r\n- A few typos in the paper: search for \"BuiImage suite includes a clean\" and remove the \"is included in BioImage Suite\" from the end of the sentence. Search for \"The later also\" and replace with \"The latter also\". In the Graphical Applications section: the numbering of tools starts with (v) at the fmriTool - add numbers to the ones listed earlier in the section. Search for \"the SPECT processing toll written by\" and add \"(b)\" in front of it. Search for \" the PET processing package developed\" and add \"(c)\" in front of it. Search for \"will be release using the\" and replace with \"will be released using the\".\r\n\r\n<b> Other Comments </b>\r\n\r\n- The interface to the Brainlab Image-Guided Surgery system is a unique attribute of this package. I believe that such interfaces will allow easier transition of cutting edge algorithms/applications from research labs to widely used IGS systems. This work, combined with the IGSTK toolkit for image-guided surgery (also an entry in this journal issue), are all steps in the right direction for the field of image-guided surgery.",
+    "date": "09-19-2005",
+    "review_id": 97
+   }
+  ],
   "submitted_by_author": {
    "author_email": "xenophon.papademetris@yale.edu",
    "author_firstname": "Xenophon",

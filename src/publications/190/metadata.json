@@ -31,6 +31,19 @@
    }
   ],
   "publication_id": 190,
+  "reviews": [
+   {
+    "author": {
+     "author_email": "edmanm2@cs.rpi.edu",
+     "author_firstname": "Matt",
+     "author_id": 704,
+     "author_lastname": "Edman"
+    },
+    "content": "<p><strong>Summary:</strong><br />The author uses a confidence connected region growing algorithm to segment the ventricles of the brain in a medical image.<br /> <br /> </p><p><strong>Evidence:</strong><br />For evidence, the author has provided his source code, sample input, and expected output so a reviewer can independently verify the results.</p><p> <br /><strong>Open Science:</strong><br />This paper adheres to the concept of Open Science by including all source code, documentation, and sample data necessary to reproduce the author&#39;s work.</p><p><br /> <strong>Reproducibility:</strong><br />I reproduced the author&#39;s work by downloading, compiling, and running the code. I was able to get the same results given in the paper. The output produced by the source code was also the same as the sample output included with the paper. In this reviewer&#39;s opinion, no further improvements are necessary for future readers to reproduce this work. </p><p><br /> <strong>Use of Open Source Software:</strong><br />The author did use open source software in his work. No particular experiences or advantages of using open source were described in the paper.</p><p> <br /> <strong>Open Source Contributions:</strong><br />The author&#39;s source code was provided and is in a usable form. No particular instructions were included as to how to compile the code, but anyone mildly familiar with CMake and C++ will have no trouble building the executable. The author did describe the command line arguments required by the resulting executable.</p><p> <br /> <strong>Code Quality:</strong><br />The authors code is easy to read and does not appear to rely on any platform-specific mechanisms. Thus, it should be sufficiently portable. The coding style is not one preferred by this reviewer, but it is consistent with the Insight Toolkit. The source file did contain Windows-specific line endings (CRLF instead of LF), but any compiler worth using has no trouble with either form of line ending. </p><p> <br /> <strong>Applicability to other problems:</strong><br />The authors methods seem applicable to any image analysis problem where a confidence connected region growing algorithm is appropriate.</p><p> <br /> <strong>Suggestions for future work:</strong><br />A link to the online database from which you obtained the sample input data could be useful.</p><p> <br /><strong>Requests for additional information from authors:</strong><br />None.<br /> </p><p><strong>Additional Comments:</strong><br /> <br /> </p>",
+    "date": "10-25-2007",
+    "review_id": 605
+   }
+  ],
   "submitted_by_author": {
    "author_email": "naraya3@rpi.edu",
    "author_firstname": "Arunachalam",

@@ -55,6 +55,30 @@
    }
   ],
   "publication_id": 612,
+  "reviews": [
+   {
+    "author": {
+     "author_email": "martin_styner@ieee.org",
+     "author_firstname": "Martin",
+     "author_id": 28,
+     "author_lastname": "Styner"
+    },
+    "content": "<p>The paper employs a hidden markov chain based tissue model and a trimmed likelihood classifier within an EM loop to segment the MS lesions as outliers to the classification. </p><p>It is not clear whether the training datasets were used at all. Were they used for the estimation of the best parameter settings such as the trimming parameter h?&nbsp; </p><p>Nice paper with very good results, but could use an additional revision to improve the writing. Some sentences should be reformulated, as they are somewhat convoluted. </p> <div id=\\\"doc\\\"> </div> ",
+    "date": "07-29-2008",
+    "review_id": 1544
+   },
+   {
+    "author": {
+     "author_email": "simon.warfield@childrens.harvard.edu",
+     "author_firstname": "Simon",
+     "author_id": 514,
+     "author_lastname": "Warfield"
+    },
+    "content": "<p>This paper develops and applies a new approach to segment MRI images of MS patients.</p><p>Particularly interesting contributions are the use of a Hilbert-Peano curve to enable the use of a 1D Markov Chain model, reducing computational complexity compared to a Markov Random Field model, and the use of a trimmed likelihood estimator to reject outliers in the process of estimating a Gaussian mixture model likelihood function.</p><p>The authors note that in addition to the lesion class, CSF in particular, but also other tissue classes, may have outlier voxels.</p><p>Lesion size criteria and an atlas constraint were utilized to reduce misclassifications.</p><p>&nbsp;</p>",
+    "date": "07-25-2008",
+    "review_id": 1528
+   }
+  ],
   "submitted_by_author": {
    "author_email": "bricq@lsiit.u-strasbg.fr",
    "author_firstname": "Stephanie",

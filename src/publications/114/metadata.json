@@ -31,6 +31,41 @@
    }
   ],
   "publication_id": 114,
+  "reviews": [
+   {
+    "author": {
+     "author_email": "dan.muel@gmail.com",
+     "author_firstname": "Dan",
+     "author_id": 286,
+     "author_lastname": "Mueller"
+    },
+    "content": "<b>Summary:</b>\r\nThis paper presents a new fitler (derived from SpatialObjectToImageFilter) which converts only the boundary of an Ellipse SpatialObject to an image.\r\n\r\n<b>Open Science:</b>\r\nAll source and tests are available. However, no baseline output images were provided to test my output with the \\'expected\\' output.\r\n\r\n<b>Reproducibility:</b>\r\nI reproduced the work. I compiled the project on WinXP, with MSVC 8.0, using CMake 2.4.2 with no problems. I ran the test provided with the project and it reportedly passed. I added the #define SAVEIMAGE in itkEllipseBoundaryToImageFilterTest.cxx to force the output image to written to disk - the output was as described in the paper.\r\n\r\nAs meantioned above, it would be useful to provide a baseline output image with the paper.\r\n\r\n<b>Open Source Contributions:</b>\r\nUses ITK.\r\n\r\n<b>Code Quality:</b>\r\nThe code is in the ITK coding style, however some more comments would be good. I am also concerned regarding the use of \\'magic numbers\\':\r\n1. PI is defined as a const in EllipseBoundaryToImageFilter::ConvertOneSOToPoints. Try using \\' #include \\\"vnl/vnl_math.h\\\" \\' and then \\'vnl_math::pi\\' (make sure that the project is linked with the VNL libraries).\r\n2. What is the magic number \\'10.0\\' for in the following line: \\' double numOfIter = maxRadius * 10.0 ; \\' ? Is it possible to compute this number from the input SO? Will this number be correct for all cases? Perhaps I am misunderstanding what it is used for, some more comments would help...\r\n\r\n<b>Suggestions for future work:</b>\r\n1. Use vnl_math::pi (see above).\r\n2. Think about the \\'magic number\\' 10.0 (see above).\r\n3. It\\'s probably wise to separate the single test function into multiple tests. If one test fails, it appears that they <i>all</i> fail, even if this is not the case (because they are in the same function). Have a look at the CMake documentation and ITK test code for how to register multiple tests per project.\r\n4. It seems the code for automatically computing the Size, Spacing, and Origin is disabled - it would be good if the filter could automatically compute these using the SO bounding box, etc.\r\n5. Add a baseline output image (see above).",
+    "date": "09-14-2006",
+    "review_id": 385
+   },
+   {
+    "author": {
+     "author_email": "blloyd@ee.ethz.ch",
+     "author_firstname": "Bryn",
+     "author_id": 23,
+     "author_lastname": "Lloyd"
+    },
+    "content": "<b>Summary:</b>\r\nThis filter creates an image from an ellipse spatial object.\r\n \r\n<b>Hypothesis:</b>\r\nNot Applicable\r\n\r\n<b>Evidence:</b>\r\nThe author has written a filter which is faster than alternative exitsing methods in ITK. The speedup is not given and has not been measured or documented.\r\n\r\n<b>Open Science:</b>\r\nThis is open.\r\n\r\n<b>Reproducibility:</b>\r\n[Did you reproduce the authors\u00e2\u0080\u0099 work? yes\r\nDid you download their code? Did you compile it? Did you run it? yes\r\nDid you managed to get the same results that they reported? yes, using his parameters. For larger radius the method fails.\r\n\r\n<b>Use of Open Source Software:</b>\r\nThis is open.\r\n\r\n<b>Open Source Contributions:</b>\r\nThe code is written in ITK-style and is easy follow. The test gives an example of how to use the filter.\r\n\r\n<b>Code Quality:</b>\r\nThe code is written in the ITK-style. Very easy to compile, it passes all it\\'s tests. If the radius of the ellipse is increased though (e.g. to 50), the method produces an ellipse with holes/gaps. This happens because the method samples the surface and uses constant sampling angle-differences. The sampled points are then passed to a PointSetToImageFilter. On the other hand, if the radius is small too many sampling points are used.\r\n\r\n<b>Applicability to other problems:</b>\r\nNot sure how applicable this is to other projects/applications. The author does not say what the application is and why it needs to be fast.\r\n\r\n<b>Suggestions for future work:</b>\r\n\r\n<b>Requests for additional information from authors:</b>\r\n\r\n<b>Additional Comments:</b>\r\n\r\n",
+    "date": "08-28-2006",
+    "review_id": 332
+   },
+   {
+    "author": {
+     "author_email": "hans-johnson@uiowa.edu",
+     "author_firstname": "Hans",
+     "author_id": 21,
+     "author_lastname": "Johnson"
+    },
+    "content": "<b>Summary:</b>\r\nThis article describes a proposed new filter that is a specialization similar to that of the SpatialObjectToImageFilter that is optimized for creating a boundary of an ellipse.\r\n \r\n<b>Hypothesis:</b>\r\nGenerating an image of the boundary of an ellipse is an important and commonly used task.\r\n\r\n<b>Evidence:</b>\r\nNo evidence given.\r\n\r\n\r\n<b>Open Science:</b>\r\nNot much science here, just specialization to fill a need.\r\n\r\n<b>Reproducibility:</b>\r\nI did not compile this source code in my environment.\r\n\r\n<b>Use of Open Source Software:</b>\r\nThis is intended to be incorporated into ITK.\r\n\r\n<b>Open Source Contributions:</b>\r\nSource code is provided, along with a minimalistic test case.\r\n\r\n<b>Code Quality:</b>\r\nThis is a specialization of similar ITK filters, and it follows the ITK conventions for coding style.\r\n\r\n<b>Applicability to other problems:</b>\r\nIt seems that this is one of many specializations for converting spatial objects into images.\r\n\r\n\r\n<b>Suggestions for future work:</b>\r\nNone\r\n\r\n<b>Requests for additional information from authors:</b>\r\nNone\r\n\r\n<b>Additional Comments:</b>\r\nNone\r\n",
+    "date": "10-09-2006",
+    "review_id": 407
+   }
+  ],
   "submitted_by_author": {
    "author_email": "kurtzhao@gmail.com",
    "author_firstname": "Zheen",

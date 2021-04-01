@@ -56,6 +56,30 @@
    }
   ],
   "publication_id": 123,
+  "reviews": [
+   {
+    "author": {
+     "author_email": "ntustison@wustl.edu",
+     "author_firstname": "Nick",
+     "author_id": 105,
+     "author_lastname": "Tustison"
+    },
+    "content": "<b>Summary:</b>\r\nThe authors implement a parallelized 3-D version of Maurer\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\'s signed distance transform algorithm. This is compared with the existing Maurer distance \r\ntransform.\r\n \r\n<b>Hypothesis:</b>\r\nNA\r\n\r\n<b>Evidence:</b>\r\nParallelization for compatible algorithms should obviously execute much faster. The authors do an excellent job of demonstrating this by not only comparing times \r\nwith the existing Maurer ITK filter in the paper but also creating a test \u0003executable in which the number of threads can be selected and the algorithm can be timed. \r\n\r\n<b>Open Science:</b>\r\nSince this is an ITK filter, the source code and paper all adhere to the expectations of open science. \r\n\r\n<b>Reproducibility:</b>\r\nI was able to download the authors\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\' work, run it, and reproduce the results they achieved. \r\n\r\n<b>Use of Open Source Software:</b>\r\nITK is used.\r\n\r\n<b>Open Source Contributions:</b>\r\nUsing the code was simple as the explanation was clear and implemented within the ITK framework.\r\n\r\n<b>Code Quality:</b>\r\nSeems to be ITK conforming. Did the authors pass the code through the KWSYS for checking code conformability with ITK standards?\r\n\r\n<b>Applicability to other problems:</b>\r\nThe signed distance transform has widespread applicability. Optimizing for speed is clearly advantageous.\r\n\r\n<b>Suggestions for future work:</b>\r\n*Please* extend the method to n-D (hence the four star rating).\r\n\r\n<b>Requests for additional information from authors:</b>\r\nThe only recommendation for additional information is that the authors should include 2-D slices of the 3-D images on which they ran their tests.\r\n\r\n<b>Additional Comments:</b>\r\n\r\n",
+    "date": "10-12-2006",
+    "review_id": 412
+   },
+   {
+    "author": {
+     "author_email": "gaetan.lehmann@gmail.com",
+     "author_firstname": "Gaetan",
+     "author_id": 328,
+     "author_lastname": "Lehmann"
+    },
+    "content": "<b>Summary:</b>\r\nThe author presents a new parallel implementation of the SignedMaurerDistanceMapImageFilter, and show an important increase of performance on SMP computers\r\n \r\n<b>Evidence:</b>\r\nThe author show some figures to prove the performance gain with several processors, and the linear complexity of the algorithm\r\n\r\n<b>Open Science:</b>\r\nSource code is provided, but some programs are missing to reproduce the results shown in the paper\r\n\r\n<b>Reproducibility:</b>\r\nI was not able to build the project. The PROJECT_NAME() macro is called with a wrong number of arguments, and some files (itkMaurerSignedDistanceTransformImageFilter.h) seems to not has been package in the archive.\r\nAlso, no tests are provided (with ADD_TEST()) to easily validate the filter, and the program used to get the execution time is not provided.\r\n\r\n\r\n<b>Use of Open Source Software:</b>\r\nITK, ITK, ITK\r\n\r\n<b>Open Source Contributions:</b>\r\nSource code is provide, as well as instruction oabout how to use it and examples\r\n\r\n<b>Code Quality:</b>\r\nCode quality seems quite good, but a quick look show several problems:\r\n<ul><li> the use of exit() in the code instead of throwing an exception\r\n<li>display error message to std::err make the error invisible to everyone use the program without running it from a terminal\r\n<li> the limitation to dimension 3 while nothing seems to limit the algorithm to this dimension make the filter hardly acceptable for ITK, where dimension independance is a main feature\r\n<li>the filter doesn\\\\\\'t use the standard itk threading system\r\n</ul>\r\n\r\n<b>Applicability to other problems:</b>\r\nAs the current Maurer distance transform, this filter may be used in many cases. The parallel implementation will give important increase of performance on SMP computers - computers which are more and more common with the democratisation of dual core processors\r\n\r\n<b>Suggestions for future work:</b>\r\n<ul>\r\n<li>fix the build\r\n<li>implement the filter for any dimension\r\n<li>detail in the article why the standard ITK threading method can\\\\\\'t be used, and how it is implemented in the filter\r\n<li>provide tests with ADD_TEST()\r\n<li>provide the program used to measure the threading performance\r\n<li>use the current Maurer filter name: the user should be able to replace the current filter by the new one in its ITK sources without problem. The result must be the same, only the implementation is different.\r\n</ul>\r\n\r\n<b>Additional Comments:</b>\r\nThreading support is going to be an important feature in the near future with the dual core processors. That\\\\\\'s nice to see some contributions of parallel algorithms.\r\n",
+    "date": "09-17-2006",
+    "review_id": 387
+   }
+  ],
   "submitted_by_author": {
    "author_email": "rdstau@wm.edu",
    "author_firstname": "Robert",

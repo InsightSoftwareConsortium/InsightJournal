@@ -44,6 +44,30 @@
    }
   ],
   "publication_id": 178,
+  "reviews": [
+   {
+    "author": {
+     "author_email": "gaetan.lehmann@gmail.com",
+     "author_firstname": "Gaetan",
+     "author_id": 328,
+     "author_lastname": "Lehmann"
+    },
+    "content": "<p><strong>Summary:</strong><br /> The authors describe a set of nez ITK classes made to read and write analyze map files, and to manipulate the object within them with ITK.</p><p>Some background about that review: I&#39;m not using the analyze map files, and thus my expertise on that point is quite limited. However, the way the objects are represented in that file format seem really closed to the one I used in the contribution about label object manipulation. I&#39;m reviewing that code with the hope to find some goo ideas, as well as a reader and a writer for the label object contribution. </p><p> <br /> <strong>Open Science:</strong><br />Source code, test programs and teste data are provided - fully open science.<br /> <br /> <strong>Reproducibility:</strong><br />I didn&#39;t reproduced the work. Using that code requires to install it in the ITK tree - I haven&#39;t done it yet. </p><p> <strong>Use of Open Source Software:</strong><br />ITK all the way<br /> <br /> <strong>Open Source Contributions:</strong><br />The authors are providing the source code. I read it, but didn&#39;t use it directly.</p><p><br /> <strong>Code Quality:</strong><br />Code quality is well documented and easy to read.&nbsp;</p><p> <strong>Applicability to other problems:</strong></p><p>That contribution will be useful for everyone who wants to store its label objects (a pretty common need). </p><p> <br /> <strong>Additional Comments:</strong></p><p>While this contribution look very promising to store the label object at the first read, it may be a bit difficult in practice, because of the limitation to 255 objects per map. This limit may not be reached by everybody, but really, it can happen quite easily.</p><p>&nbsp;About the way the&nbsp; way the data associated with the objects: I found quite interesting to have the map stored in a standard image, and the data associated with the objects in that image stored in the metadata of the image. However, I believe that storing the object in memory with the run-length encoding, as it is done in the analyze file format, also have some advantages:</p><p>- a low memory usage&nbsp; (most of the time)</p><p>- a high efficiency for some computations</p><p>- the ability to store the data associated to the object directly in the objects, which make the manipulation of the object easier, and ensure that no metadata will be still there if an object is removed for example </p><p>and some problems:</p><p>- it&#39;s more difficult to ensure the validity of the image (a pixel contain only one object for example)</p><p>- it&#39;s highly inefficient when the neighbors need to be visited</p><p>- it&#39;s a very different image representation than the itk::Image, and thus, it can&#39;t be used in the usual ITK filters (but some filters are available to convert from/to itk::Image)</p><p>&nbsp;</p><p>There are some advantages on both sides, however, I don&#39;t think that&#39;s a good idea to introduce both representation in the toolkit.</p><p>I hope we can discuss about how to integrate those 2 contributions soon :-)&nbsp;</p>",
+    "date": "09-13-2007",
+    "review_id": 572
+   },
+   {
+    "author": {
+     "author_email": "blezek.daniel@mayo.edu",
+     "author_firstname": "Daniel",
+     "author_id": 786,
+     "author_lastname": "Blezek"
+    },
+    "content": "<p><strong>Summary:</strong></p><p>This submission is an implementation of an ITK Image IO object and factory for reading Analyze ObjectMaps. The code provides a helper class enabling the formation of object maps within ITK and writing them to disk.</p><p> <br /><strong>Hypothesis:</strong><br /> N/A</p><p> <br /> <strong>Evidence:</strong><br />N/A<br /> <br /> <strong>Open Science:</strong></p><p>All code and examples provided. Highly readable and written in the correct ITK style. The submission shows a deep understanding of ITK and the IO mechanisms.</p><p><br /><strong>Reproducibility:</strong></p><p>While I did not compile the examples and test, after review of the code, I dropped it immediately into my application. No compilation problems and the code works nicely. The static block failed to register the factory however. </p><p><br /> <strong>Use of Open Source Software:</strong></p><p>Library implemented using ITK, with VTK used for visualization. </p><p><br /> <strong>Open Source Contributions:</strong></p><p>No problems compiling and using the code. </p><p> <strong>Code Quality:</strong></p><p>Code compiled cleanly on Win and Linux. Static block failed to register the factory, but I manually initialized the library without issue. Fully documented and written in the ITK style. Was very impressed that the authors support all versions of Analyze&#39;s ObjectMap format.</p><p> <strong>Applicability to other problems:</strong><br />N/A</p><p><br /> <strong>Suggestions for future work:</strong></p><p>Develop a similar, but more flexible format for ITK. Would be useful to have object labels and be able to include a voxel in more than one object, perhaps with different levels of membership or probability. </p><p><br /> <strong>Requests for additional information from authors:</strong><br />N/A</p><p><br /> <strong>Additional Comments:</strong><br />Thanks for the very valuable contribution to ITK!<br /> </p>",
+    "date": "03-04-2008",
+    "review_id": 647
+   }
+  ],
   "submitted_by_author": {
    "author_email": "woofton_9@eaglescrag.net",
    "author_firstname": "Jeffrey",
