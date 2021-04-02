@@ -3,6 +3,7 @@ import { StaticQuery, graphql } from 'gatsby'
 import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 import MuiLink from '@material-ui/core/Link';
+import kitwareLogo from '../assets/logoKitware.png';
 
 export default function Copyright() {
   return (
@@ -33,15 +34,17 @@ export default function Copyright() {
       .
     </Typography>
     <Typography paragraph={true} variant="body2" color="text.secondary" align="center">
-        <MuiLink color="inherit" href="https://www.kitware.com/privacy/#privacy-policy">
-          Privacy Notice
-        </MuiLink>
-     {'.'}
       <br/>
       Site developed by{' '}
       <MuiLink color="inherit" href="https://www.kitware.com/">
         Kitware, Inc.
       </MuiLink>{' '}
+        <p><MuiLink color="inherit" href="https://www.kitware.com/">
+          <img src={kitwareLogo} alt="Kitware, Inc" /></MuiLink></p>
+      <MuiLink color="inherit" href="https://www.kitware.com/privacy/#privacy-policy">
+        Privacy Notice
+      </MuiLink>
+     {'.'}
     </Typography>
   </Container>
       )}
