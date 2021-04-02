@@ -5,6 +5,7 @@ import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import theme from '../theme';
 import Link from '../components/Link';
+import Layout from '../components/Layout';
 import { GatsbyImage } from "gatsby-plugin-image"
 import MuiLink from '@material-ui/core/Link';
 import targetJournalLogo from '../components/targetJournalLogo';
@@ -94,6 +95,7 @@ const Render = ({ data }) => {
   return (
     <>
       <ThemeProvider theme={theme}>
+        <Layout>
 	<Box component="div"  id="publication">
 	  <Box component="div"  className={classes.pubTitle}>
 	    <Typography variant="h4" component="h1" align="center" color="primary.main">{publication.title}</Typography></Box>
@@ -108,6 +110,7 @@ const Render = ({ data }) => {
 	<Box component="div" className={classes.submittedBy} color="error">Submitted by {submit_auth} on {publication.date_submitted}.</Box>
         <Typography variant="body1">{publication.abstract}</Typography>
 	</Box>
+        </Layout>
       </ThemeProvider>
     </>
   );
@@ -157,7 +160,7 @@ export const query = graphql`
           gatsbyImageData(layout: FIXED)
         }
       }
-    defaultCoverImage: file(relativePath: { eq: "logoInsightJournal.png" }) {
+    defaultCoverImage: file(relativePath: { eq: "logoInsightToolkit.png" }) {
         childImageSharp {
           gatsbyImageData(layout: FIXED)
         }

@@ -24,7 +24,7 @@ export default function NotFound({ data }) {
       <Container maxWidth="sm">
         <Box sx={{ my: 4 }}>
           <Typography variant="h4" component="h1" gutterBottom>
-            404 Page not found.
+            Page not found.
           </Typography>
           <Link to="/">Go to the main page</Link>
 
