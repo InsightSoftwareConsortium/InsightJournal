@@ -4,36 +4,18 @@ import Container from '@material-ui/core/Container';
 import Box from '@material-ui/core/Box';
 import ProTip from '../components/ProTip';
 // import Link from '../components/Link';
-import Copyright from '../components/Copyright';
-import Logo from '../components/Logo';
-import Title from '../components/Title';
-import { graphql } from "gatsby"
+import Layout from '../components/Layout';
 
 export default function Index({ data }) {
-  const targetJournal = data.site.siteMetadata.targetJournal
-  const title = data.site.siteMetadata.title
   return (
-    // TODO v5: remove once migration to emotion is completed
     <StyledEngineProvider injectFirst>
-      <Container maxWidth="sm">
-        <Box sx={{ my: 4 }}>
-          <Logo targetJournal={ targetJournal }/>
-          <Title title={ title }/>
-          <ProTip />
-          <Copyright />
-        </Box>
-      </Container>
+      <Layout>
+        <Container maxWidth="sm">
+          <Box sx={{ my: 4 }}>
+            <ProTip />
+          </Box>
+        </Container>
+      </Layout>
     </StyledEngineProvider>
   );
 }
-
-export const query = graphql`
-  query {
-    site {
-      siteMetadata {
-        targetJournal,
-        title
-      }
-    }
-  }
-`

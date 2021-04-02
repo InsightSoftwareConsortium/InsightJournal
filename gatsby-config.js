@@ -53,5 +53,6 @@ module.exports = {
     // 35: VTK Journal
     targetJournal: 31,
     title: "The MIDAS Journal",
+    copyrightHolder: "Kitware, Inc.",
   },
 };
