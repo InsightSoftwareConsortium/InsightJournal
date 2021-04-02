@@ -4,6 +4,7 @@ import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 import MuiLink from '@material-ui/core/Link';
 import kitwareLogo from '../assets/logoKitware.png';
+import GitHubIcon from '@material-ui/icons/GitHub';
 
 export default function Copyright() {
   return (
@@ -34,7 +35,11 @@ export default function Copyright() {
       .
     </Typography>
     <Typography paragraph={true} variant="body2" color="text.secondary" align="center">
-      <br/>
+      <MuiLink color="inherit" href="https://github.com/InsightSoftwareConsortium/InsightJournal">
+        <p>
+          <GitHubIcon fontSize="large" />
+        </p>
+      </MuiLink>
       Site developed by{' '}
       <MuiLink color="inherit" href="https://www.kitware.com/">
         Kitware, Inc.
