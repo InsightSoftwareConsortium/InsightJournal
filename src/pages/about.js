@@ -1,26 +1,43 @@
 import * as React from 'react';
-import StyledEngineProvider from '@material-ui/core/StyledEngineProvider';
 import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
-import ProTip from '../components/ProTip';
-import Link from '../components/Link';
-import Copyright from '../components/Copyright';
+import Layout from '../components/Layout';
 
 export default function About() {
   return (
-    // TODO v5: remove once migration to emotion is completed
-    <StyledEngineProvider injectFirst>
-      <Container maxWidth="sm">
+    <Layout>
+      <Container maxWidth="md">
         <Box sx={{ my: 4 }}>
           <Typography variant="h4" component="h1" gutterBottom>
-            Gatsby v5-alpha example
+            About the Insight Journal
           </Typography>
-          <Link to="/">Go to the main page</Link>
-          <ProTip />
-          <Copyright />
+          <Typography variant="subtitle2" paragraph={true}>
+            The Insight Journal and the Scientific Method!
+          </Typography>
+          <Typography variant="overline" paragraph={true}>
+            The Insight Journal seeks to provide a realistic support for the endeavor of scientific research in the domain of medical image processing.
+          </Typography>
+          <Typography variant="body1" paragraph={true}>
+            The main motivation for creating the Journal was the insufficiency of the current publications in this domain. Most of those other publications' main purpose is to support the evaluation of scientific productivty for institutions where researchers are employed and for those institutions that provide research funds.
+          </Typography>
+          <Typography variant="body1" paragraph={true}>
+            The delusional character of the current publishing system is clearly visible in its motto:
+          </Typography>
+          <Typography align="center" color="textSecondary" variant="body1" paragraph={true}>
+            "Publish or Perish!"
+          </Typography>
+          <Typography variant="body1" paragraph={true}>
+            Note that it does not say:
+          </Typography>
+          <Typography align="center" color="textSecondary" variant="body1" paragraph={true}>
+            "Research or Perish!"
+          </Typography>
+          <Typography variant="body1" paragraph={true}>
+            This nuance have resulted in the inversion of roles where researchers do work <strong>"in order to publish it"</strong>, not because that research work has a significant impact on their society. As a consequence, researchers only embark on publisheable activities, which of course does not include any significant depart from the views currently held by the establishment of Experts who serve as reviewers of journals.
+          </Typography>
         </Box>
       </Container>
-    </StyledEngineProvider>
+    </Layout>
   );
 }
