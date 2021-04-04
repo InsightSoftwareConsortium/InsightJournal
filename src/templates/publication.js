@@ -119,7 +119,7 @@ const Render = ({ data }) => {
 export default Render;
 
 export const query = graphql`
-  query Metadata($slug: String!, $cover: String!) {
+  query PublicationQuery($slug: String!, $cover: String!) {
     json(fields: { slug: { eq: $slug } }) {
       publication {
         title
