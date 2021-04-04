@@ -1,5 +1,14 @@
-InsightJournal
---------------
+Insight Journal
+---------------
+
+The Insight Journal is an on-line open science publication covering the domain of medical image processing and visualization.
+
+The unique characteristics of the Insight Journal include:
+
+- Open-access to articles, data, code, and reviews
+- Open peer-review that invites discussion between reviewers and authors
+- Emphasis on reproducible science via continuous integration testing
+- Support for continuous revision of articles, code, and reviews
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/2a241820-33ec-4c71-b43d-7d8a12e6ece3/deploy-status)](https://app.netlify.com/sites/insight-journal/deploys)
 
