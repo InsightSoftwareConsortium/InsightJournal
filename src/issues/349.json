@@ -1,6 +1,6 @@
 {
   "issue": {
-    "id": 349,
+    "issue_id": 349,
     "introductory_text": "The goal of this challenge is to compare fully automatic methods for segmenting anatomical structures in head and neck CT data used in radiotherapy planning. One bony structure -mandible- and one soft tissue structure -brainstem- are offered for the competition. They both represent important organs at risk, which need to be accurately delineated in preparation for radiation treatment.",
     "name": "Head and Neck Auto-Segmentation Challenge",
     "publications": [
