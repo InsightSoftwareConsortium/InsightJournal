@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { StaticQuery, graphql } from 'gatsby'
+import Grid from '@material-ui/core/Grid';
 import Title from './Title';
 import Logo from './Logo';
 import JournalMenuButton from './JournalMenuButton'
@@ -18,14 +19,25 @@ const Header = () => {
         }
       `}
       render={data => (
-
-        <div align="center">
-        <Title siteTitle={ data.site.siteMetadata.title }/>
-        <Logo targetJournal={ data.site.siteMetadata.targetJournal }/>
-        {JournalMenuButton("Home",[], ["/"])}
-        {JournalMenuButton("Submit",[], [])}
-        {JournalMenuButton("Help",[], ["/help"])}
-        </div>
+        <Grid container spacing={0}>
+          <Grid item>
+              <Logo targetJournal={ data.site.siteMetadata.targetJournal }/>
+          </Grid>
+          <Grid item>
+              <Title siteTitle={ data.site.siteMetadata.title }/>
+          </Grid>
+          <Grid container spacing={3}>
+            <Grid item>
+                {JournalMenuButton("Home",[], ["/"])}
+            </Grid>
+            <Grid item>
+                {JournalMenuButton("Submit",[], [])}
+            </Grid>
+            <Grid item>
+                {JournalMenuButton("Help",[], ["/help"])}
+            </Grid>
+          </Grid>
+        </Grid>
       )}
     />
   );
