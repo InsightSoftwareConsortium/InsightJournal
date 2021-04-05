@@ -1,7 +1,5 @@
 import React from 'react';
-import { ThemeProvider, makeStyles } from '@material-ui/core/styles';
 import Menu from '@material-ui/core/Menu';
-import ClickAwayListener from '@material-ui/core/ClickAwayListener';
 import MenuItem from '@material-ui/core/MenuItem';
 import Button from '@material-ui/core/Button';
 import Link from '../components/Link';
