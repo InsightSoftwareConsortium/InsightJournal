@@ -78,7 +78,7 @@ exports.createPages = async ({ graphql, actions }) => {
       context: {
         // Data passed to context is available in page queries as GraphQL variables.
         slug: node.fields.slug,
-        cover: `${String(node.publication.publication_id)}/cover.jpeg`,
+        cover: `${node.publication.publication_id}/cover.jpeg`,
       },
     })
   })
@@ -111,12 +111,15 @@ exports.createPages = async ({ graphql, actions }) => {
     const issuePublicationIds = new Set(node.issue.publications)
     return isSuperset(journalPublicationIds, issuePublicationIds)
   }).forEach(({ node }) => {
+    const thumbnails = node.issue.publications.map((p) => `${p}/thumbnail.jpeg`)
     createPage({
       path: node.fields.slug,
       component: issueTemplate,
       context: {
         // Data passed to context is available in page queries as GraphQL variables.
         slug: node.fields.slug,
+        publications: node.issue.publications,
+        thumbnails,
       },
     })
   })

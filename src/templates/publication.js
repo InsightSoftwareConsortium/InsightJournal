@@ -87,7 +87,8 @@ const Render = ({ data }) => {
   if (publicationIssues.length) {
     issueLinks = publicationIssues.map((issue) => {
       const name = issue.node.issue.name
-      return (<Link to="/" key={name}> - {name}</Link>)
+      const issuePath = `/browse/issue/${issue.node.issue.issue_id}`
+      return (<Link to={issuePath} key={name}> - {name}</Link>)
     })
   }
 
@@ -127,8 +128,6 @@ export const query = graphql`
         date_submitted
         authors {
           author_fullname
-          persona_firstname
-          persona_lastname
           author_place
         }
         submitted_by_author {
@@ -170,6 +169,7 @@ export const query = graphql`
         node {
           issue {
             name
+            issue_id
             publications
           }
         }
