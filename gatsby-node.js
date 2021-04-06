@@ -11,26 +11,38 @@ const path = require('path')
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
-  if (node.internal.type === 'Json' && node.publication) {
-    // Use `createFilePath` to turn json files in our `src/publications` directory into ``
-    const relativeFilePath = createFilePath({
-      node,
-      getNode,
-      basePath: "data/publications",
-    })
-    // Creates new query'able field with name of 'slug'
-    const publication_id = String(node.publication.publication_id)
-    createNodeField({
-      node,
-      name: "slug",
-      value: `/browse/publication/${publication_id}`,
-    })
+  if (node.internal.type === 'Json') {
+    if (node.publication) {
+      const publication_id = String(node.publication.publication_id)
+      createNodeField({
+        node,
+        name: "slug",
+        value: `/browse/publication/${publication_id}`,
+      })
+    } else if (node.issue) {
+      const issue_id = String(node.issue.issue_id)
+      createNodeField({
+        node,
+        name: "slug",
+        value: `/browse/issue/${issue_id}`,
+      })
+    }
   }
+}
+
+function isSuperset(set, subset) {
+  for (let elem of subset) {
+    if (!set.has(elem)) {
+      return false
+    }
+  }
+  return true
 }
 
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
   const publicationTemplate = path.resolve(`src/templates/publication.js`)
+  const issueTemplate = path.resolve(`src/templates/issue.js`)
   // **Note:** The graphql function call returns a Promise
   // see: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise for more info
   const siteMetadata = await graphql(`
@@ -66,7 +78,48 @@ exports.createPages = async ({ graphql, actions }) => {
       context: {
         // Data passed to context is available in page queries as GraphQL variables.
         slug: node.fields.slug,
-        cover: `${String(node.publication.publication_id)}/cover.jpeg`,
+        cover: `${node.publication.publication_id}/cover.jpeg`,
+      },
+    })
+  })
+
+  const journalPublicationIds = new Set(publications.data.allJson.edges.map(({ node }) => {
+    return node.publication.publication_id
+  }))
+
+  const issues = await graphql(`
+{
+  allJson(
+    filter: {issue: {issue_id: {gt: 0}}}
+    sort: {fields: issue___issue_id, order: DESC}
+  ) {
+    edges {
+      node {
+	fields {
+	    slug,
+	}
+        issue {
+          issue_id
+	  publications
+        }
+      }
+    }
+  }
+}
+`)
+  issues.data.allJson.edges.filter(({ node }) => {
+    const issuePublicationIds = new Set(node.issue.publications)
+    return isSuperset(journalPublicationIds, issuePublicationIds)
+  }).forEach(({ node }) => {
+    const thumbnails = node.issue.publications.map((p) => `${p}/thumbnail.jpeg`)
+    createPage({
+      path: node.fields.slug,
+      component: issueTemplate,
+      context: {
+        // Data passed to context is available in page queries as GraphQL variables.
+        slug: node.fields.slug,
+        publications: node.issue.publications,
+        thumbnails,
       },
     })
   })

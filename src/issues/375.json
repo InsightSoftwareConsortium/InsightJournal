@@ -1,6 +1,6 @@
 {
   "issue": {
-    "id": 375,
+    "issue_id": 375,
     "introductory_text": "The MICCAI Grand Challenge on MR Brain Image Segmentation (MRBrainS13) workshop was held on September 26, 2013 in Nagoya, Japan. It was organized by dr. Adri\u00ebnne M. Mendrik of the Image Sciences Institute (UMC Utrecht, the Netherlands).\n \nThe aim of the MRBrainS challenge was to compare (semi-)automatic algorithms for segmentation of grey matter, white matter and cerebrospinal fluid on multi-sequence (T1-weighted, T1-weighted inversion recovery and FLAIR) 3 Tesla MRI scans of the brain. The challenge consisted of an off-site and on-site part. For the off-site part, teams could register on the MRBrainS website, download 5 training datasets (MRI scans + manual segmentations) and 12 test datasets (only MRI scans), train their algorithm, apply it to the test datasets and submit their results. In total 86 teams registered on the website, of which 58 teams signed the confidentiality agreement and downloaded the data. Twelve teams submitted the obtained results and a workshop paper for the MICCAI MRBrainS13 workshop with a description of their algorithm. The workshop papers are available here.",
     "name": "The MICCAI Grand Challenge on MR Brain Image Segmentation (MRBrainS13) ",
     "publications": [
