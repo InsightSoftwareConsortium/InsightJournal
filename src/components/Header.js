@@ -3,6 +3,7 @@ import { StaticQuery, graphql } from 'gatsby'
 import Grid from '@material-ui/core/Grid';
 import Title from './Title';
 import Logo from './Logo';
+import Search from './Search';
 import JournalMenuButton from './JournalMenuButton'
 
 const Header = () => {
@@ -15,6 +16,9 @@ const Header = () => {
               targetJournal,
               title
             }
+          },
+          siteSearchIndex {
+            index
           }
         }
       `}
@@ -35,6 +39,9 @@ const Header = () => {
             </Grid>
             <Grid item>
                 {JournalMenuButton("Help",[], ["/help"])}
+            </Grid>
+            <Grid item>
+              <Search align="right" searchIndex={data.siteSearchIndex.index} />
             </Grid>
           </Grid>
         </Grid>

@@ -5,6 +5,7 @@
   "dependencies": {
     "@emotion/react": "latest",
     "@emotion/styled": "latest",
+    "@gatsby-contrib/gatsby-plugin-elasticlunr-search": "^3.0.2",
     "@material-ui/core": "next",
     "@material-ui/data-grid": "^4.0.0-alpha.24",
     "@material-ui/icons": "^4.11.2",

@@ -13,6 +13,47 @@ module.exports = {
         // },
       },
     },
+    {
+      resolve: `@gatsby-contrib/gatsby-plugin-elasticlunr-search`,
+      options: {
+        // Fields to index
+        fields: [`title`, `abstract`, `categories`, `publication_id`],
+        // How to resolve each field`s value for a supported node type
+        resolvers: {
+          // For any node of type MarkdownRemark, list how to resolve the fields` values
+          Json: {
+            title: (node) => {
+              if(node.publication) {
+                return node.publication.title;
+              } else {
+                return "";
+              }
+            },
+            abstract: (node) => {
+              if(node.publication) {
+                return node.publication.abstract;
+              } else {
+                return "";
+              }
+            },
+            categories: (node) => {
+              if(node.publication) {
+                return node.publication.categories;
+              } else {
+                return "";
+              }
+            },
+            publication_id: (node) => {
+              if(node.publication) {
+                return node.publication.publication_id;
+              } else {
+                return "";
+              }
+            },
+          },
+        },
+      },
+    },
     // If you want to use styled components you should add the plugin here.
     // 'gatsby-plugin-styled-components',
     'gatsby-plugin-react-helmet',
