@@ -13,11 +13,11 @@ const Layout = ({ children }) => {
           margin: `0 auto`,
           maxWidth: 960,
           padding: `0px 1.0875rem 1.45rem`,
-          paddingTop: 100,
+          paddingTop: 40,
         }}
       >
         <main>{children}</main>
-        <footer style={{ paddingTop: 30 }}>
+        <footer style={{ paddingTop: 100 }}>
           <Copyright />
         </footer>
       </div>
