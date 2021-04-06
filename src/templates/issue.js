@@ -1,67 +1,16 @@
 import * as React from "react";
 import { graphql } from "gatsby";
-import { ThemeProvider, makeStyles } from '@material-ui/core/styles';
+import { ThemeProvider } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
-import Box from '@material-ui/core/Box';
 import theme from '../theme';
-import Link from '../components/Link';
 import Layout from '../components/Layout';
-import { GatsbyImage } from "gatsby-plugin-image"
-
-import { DataGrid } from '@material-ui/data-grid';
-
-const columns = [
-  {
-    field: 'thumbnail',
-    headerName: ' ',
-    width: 150,
-    renderCell: (params) => {
-      if (params.value) {
-        return (<div><GatsbyImage image={params.value} alt="Publication thumbnail" /></div>)
-      }
-      return (<div/>)
-    },
-  },
-  {
-    field: 'title',
-    headerName: 'Title',
-    width: 300,
-    renderCell: (params) => {
-      const pubPath= `/browse/publication/${params.id}`
-      return (
-        <Link to={pubPath}>
-      <Typography variant="body1" style={{ whiteSpace: 'normal', wordWrap: "break-word" }} >{params.value}</Typography>
-      </Link>
-    )
-    }
-  },
-  { field: 'authors',
-    headerName: 'Authors',
-    width: 230,
-    renderCell: (params) => (
-      <div>
-      <Typography variant="body2" style={{ whiteSpace: 'normal', wordWrap: "break-word" }} >{params.value}</Typography>
-      </div>
-    )
-  },
-  {
-    field: 'keywords',
-    headerName: 'Keywords',
-    width: 180,
-  },
-];
+import PublicationsTable from '../components/PublicationsTable';
 
 
-const useStyles = makeStyles({
-  publicationTable: {
-    height: 780,
-  },
-});
 
 const Render = ({ data }) => {
   const issue = data.json.issue;
-  const classes = useStyles();
   const thumbnails = new Map()
   data.allFile.edges.forEach((f) => {
     const pub = parseInt(f.node.relativePath.split('/')[0])
@@ -96,9 +45,7 @@ const Render = ({ data }) => {
           <Typography variant="subtitle2" paragraph={true}>
             {issue.introductory_text}
           </Typography>
-        <Box className={classes.publicationTable}>
-          <DataGrid rowHeight={80} rows={rows} columns={columns} pageSize={8}/>
-        </Box>
+          <PublicationsTable rows={rows} />
         </Container>
         </Layout>
       </ThemeProvider>
