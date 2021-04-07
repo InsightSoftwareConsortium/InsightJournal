@@ -1,4 +1,20 @@
 const path = require(`path`)
+let targetJournal = 31;
+
+const findSearchData = (node, entry) => {
+
+  var data = ""
+  if(node.publication) {
+    for(var i = 0; i < node.publication.journals.length; i++) {
+      let journal_data = node.publication.journals[i];
+      if (journal_data.journal_id == targetJournal) {
+          data = node.publication[entry];
+          break
+      }
+    }
+  }
+  return data;
+}
 
 module.exports = {
   plugins: [
@@ -22,34 +38,10 @@ module.exports = {
         resolvers: {
           // For any node of type MarkdownRemark, list how to resolve the fields` values
           Json: {
-            title: (node) => {
-              if(node.publication) {
-                return node.publication.title;
-              } else {
-                return "";
-              }
-            },
-            abstract: (node) => {
-              if(node.publication) {
-                return node.publication.abstract;
-              } else {
-                return "";
-              }
-            },
-            categories: (node) => {
-              if(node.publication) {
-                return node.publication.categories;
-              } else {
-                return "";
-              }
-            },
-            publication_id: (node) => {
-              if(node.publication) {
-                return node.publication.publication_id;
-              } else {
-                return "";
-              }
-            },
+            title: (node) => findSearchData(node, "title"),
+            abstract: (node) => findSearchData(node, "abstract"),
+            categories: (node ) => findSearchData(node, "categories"),
+            publication_id: (node) => findSearchData(node, "publication_id"),
           },
         },
       },
@@ -92,7 +84,7 @@ module.exports = {
     // 3: Insight Journal
     // 31: MIDAS Journal
     // 35: VTK Journal
-    targetJournal: 31,
+    targetJournal: targetJournal,
     title: "The MIDAS Journal",
     copyrightHolder: "Kitware, Inc.",
   },
