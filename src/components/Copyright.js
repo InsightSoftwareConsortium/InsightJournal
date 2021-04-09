@@ -22,7 +22,7 @@ export default function Copyright() {
   <Container maxWidth="sm">
     <Typography paragraph={true} variant="body2" color="text.secondary" align="center">
       {'Copyright © '}{ data.site.siteMetadata.copyrightHolder }{' '}
-      {new Date().getFullYear()}{'. '}
+      {new Date().getFullYear()}
       <br/>
       This work is licensed under a{' '}
       <MuiLink
@@ -32,24 +32,28 @@ export default function Copyright() {
       >
         Creative Commons Attribution 4.0 International License
       </MuiLink>
-      .
+      {'. '}
     </Typography>
     <Typography paragraph={true} variant="body2" color="text.secondary" align="center">
-      <MuiLink color="inherit" href="https://github.com/InsightSoftwareConsortium/InsightJournal">
-        <p>
-          <GitHubIcon fontSize="large" />
-        </p>
-      </MuiLink>
+        <MuiLink color="inherit" href="https://github.com/InsightSoftwareConsortium/InsightJournal">
+            <GitHubIcon fontSize="large" />
+        </MuiLink>
+    </Typography>
+    <Typography paragraph={true} variant="body2" color="text.secondary" align="center">
       Site developed by{' '}
       <MuiLink color="inherit" href="https://www.kitware.com/">
         Kitware, Inc.
       </MuiLink>{' '}
-        <p><MuiLink color="inherit" href="https://www.kitware.com/">
-          <img src={kitwareLogo} alt="Kitware, Inc" /></MuiLink></p>
+    </Typography>
+    <Typography paragraph={true} variant="body2" color="text.secondary" align="center">
+        <MuiLink color="inherit" href="https://www.kitware.com/">
+          <img src={kitwareLogo} alt="Kitware, Inc" />
+        </MuiLink>
+    </Typography>
+    <Typography paragraph={true} variant="body2" color="text.secondary" align="center">
       <MuiLink color="inherit" href="https://www.kitware.com/privacy/#privacy-policy">
         Privacy Notice
       </MuiLink>
-     {'.'}
     </Typography>
   </Container>
       )}

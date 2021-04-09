@@ -7,8 +7,6 @@ import theme from '../theme';
 import Layout from '../components/Layout';
 import PublicationsTable from '../components/PublicationsTable';
 
-
-
 const Render = ({ data }) => {
   const issue = data.json.issue;
   const thumbnails = new Map()

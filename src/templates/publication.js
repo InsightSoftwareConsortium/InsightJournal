@@ -174,6 +174,6 @@ export const query = graphql`
           }
         }
       }
-  }
-  }
+    }
+}
 `;
