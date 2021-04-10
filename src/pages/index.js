@@ -8,7 +8,8 @@ import Layout from '../components/Layout';
 import PublicationsTable from '../components/PublicationsTable';
 
 export default function Index({ data }) {
-  console.log(data)
+  console.log(data.site.siteMetadata)
+
   const thumbnails = new Map()
   data.allFile.edges.forEach((f) => {
     const pub = parseInt(f.node.relativePath.split('/')[0])
@@ -84,6 +85,8 @@ export const query = graphql`
     site {
       siteMetadata {
         targetJournal
+        description
+        extendedDescription
       }
     }
 }
