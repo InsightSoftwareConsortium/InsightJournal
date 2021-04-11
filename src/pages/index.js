@@ -3,12 +3,18 @@ import { graphql } from "gatsby";
 import StyledEngineProvider from '@material-ui/core/StyledEngineProvider';
 import Container from '@material-ui/core/Container';
 import Box from '@material-ui/core/Box';
-// import Link from '../components/Link';
 import Layout from '../components/Layout';
 import PublicationsTable from '../components/PublicationsTable';
+import Accordion from '@material-ui/core/Accordion';
+import AccordionSummary from '@material-ui/core/AccordionSummary';
+import AccordionDetails from '@material-ui/core/AccordionDetails';
+import Typography from '@material-ui/core/Typography';
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import parse from 'html-react-parser';
 
 export default function Index({ data }) {
-  console.log(data.site.siteMetadata)
+  const siteMetadata = data.site.siteMetadata
+  console.log(siteMetadata)
 
   const thumbnails = new Map()
   data.allFile.edges.forEach((f) => {
@@ -37,6 +43,16 @@ export default function Index({ data }) {
     <StyledEngineProvider injectFirst>
       <Layout>
         <Container maxWidth="lg">
+	  <Accordion>
+	    <AccordionSummary
+	      expandIcon={<ExpandMoreIcon />}
+	    >
+	      <Typography>{parse(siteMetadata.description)}</Typography>
+	    </AccordionSummary>
+	    <AccordionDetails>
+	      <Typography>{parse(siteMetadata.extendedDescription)}</Typography>
+	    </AccordionDetails>
+	  </Accordion>
           <Box sx={{ my: 2 }}>
             <PublicationsTable rows={rows} />
           </Box>

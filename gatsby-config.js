@@ -1,5 +1,4 @@
 const path = require(`path`)
-const targetJournal = 31;
 
 const findSearchData = (node, entry) => {
 
@@ -15,6 +14,8 @@ const findSearchData = (node, entry) => {
   }
   return data;
 }
+
+const siteMetadata = require('./src/siteMetadata/midasJournal.json')
 
 module.exports = {
   plugins: [
@@ -80,12 +81,5 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
   ],
-  siteMetadata: {
-    // 3: Insight Journal
-    // 31: MIDAS Journal
-    // 35: VTK Journal
-    targetJournal: targetJournal,
-    title: "The MIDAS Journal",
-    copyrightHolder: "Kitware, Inc.",
-  },
+  siteMetadata,
 };
