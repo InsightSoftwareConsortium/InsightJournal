@@ -3,10 +3,12 @@ import { Index } from "elasticlunr"
 import { Link } from "gatsby"
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
+import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 
 export default class Search extends Component {
     handleSearch = event => {
+      event.preventDefault();
       this.setState({ anchorEl: event.currentTarget });
     };
 
@@ -29,10 +31,12 @@ export default class Search extends Component {
     const { anchorEl } = this.state
     return (
       <div>
-        <input type="text" placeholder="Search..." onChange={this.updateQuery}/>
-        <Button aria-controls="simple-menu" aria-haspopup="true" onClick={this.search}>
-        SEARCH
-        </Button>
+        <form onSubmit={this.search}>
+          <TextField id="outlined-basic" label="Search..." variant="outlined" onChange={this.updateQuery}/>
+          <Button aria-controls="simple-menu" aria-haspopup="true" onClick={this.search}>
+            SEARCH
+          </Button>
+        </form>
         <Menu
         anchorEl={anchorEl}
         onClose={this.handleClose}

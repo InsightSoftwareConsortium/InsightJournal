@@ -1,13 +1,13 @@
 const path = require(`path`)
-let targetJournal = 31;
+const targetJournal = 31;
 
 const findSearchData = (node, entry) => {
 
-  var data = ""
+  let data = ""
   if(node.publication) {
     for(var i = 0; i < node.publication.journals.length; i++) {
       let journal_data = node.publication.journals[i];
-      if (journal_data.journal_id == targetJournal) {
+      if (journal_data.journal_id === targetJournal) {
           data = node.publication[entry];
           break
       }
