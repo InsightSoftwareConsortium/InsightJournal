@@ -2,6 +2,7 @@ const path = require(`path`)
 
 module.exports = {
   plugins: [
+    'gatsby-plugin-sitemap',
     'gatsby-plugin-top-layout',
     'gatsby-plugin-image',
     {
@@ -54,5 +55,6 @@ module.exports = {
     targetJournal: 31,
     title: "The MIDAS Journal",
     copyrightHolder: "Kitware, Inc.",
+    siteUrl: 'https://www.midasjournal.org',
   },
 };
