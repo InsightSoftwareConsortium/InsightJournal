@@ -5,8 +5,17 @@ import Title from './Title';
 import Logo from './Logo';
 import Search from './Search';
 import JournalMenuButton from './JournalMenuButton'
+import { makeStyles } from '@material-ui/core/styles';
+
+const useStyles = makeStyles((theme) => ({
+  root: {
+    flexGrow: 1,
+    paddingBottom: 30,
+  },
+}));
 
 const Header = () => {
+  const classes = useStyles();
   return (
     <StaticQuery
       query={graphql`
@@ -23,28 +32,28 @@ const Header = () => {
         }
       `}
       render={data => (
-        <Grid container spacing={0}>
-          <Grid item>
+        <div className={classes.root}>
+        <Grid container spacing={0} alignItems="flex-start" justify="center">
+          <Grid item xs={3}>
               <Logo targetJournal={ data.site.siteMetadata.targetJournal }/>
           </Grid>
-          <Grid item>
+          <Grid item xs={3}>
               <Title siteTitle={ data.site.siteMetadata.title }/>
           </Grid>
-          <Grid container spacing={3}>
-            <Grid item>
-                {JournalMenuButton("Home",[], ["/"])}
-            </Grid>
-            <Grid item>
-                {JournalMenuButton("Submit",[], [])}
-            </Grid>
-            <Grid item>
-                {JournalMenuButton("Help",[], ["/help"])}
-            </Grid>
-            <Grid item>
-              <Search align="right" searchIndex={data.siteSearchIndex.index} />
-            </Grid>
+	  <Grid item xs={1}>
+	      {JournalMenuButton("Home",[], ["/"])}
+	  </Grid>
+	  <Grid item xs={1}>
+	      {JournalMenuButton("About",[], ["/about"])}
+	  </Grid>
+	  <Grid item xs={1}>
+	      {JournalMenuButton("Submit",[], [])}
+	  </Grid>
+	  <Grid item xs={3}>
+	    <Search align="right" searchIndex={data.siteSearchIndex.index} />
           </Grid>
         </Grid>
+        </div>
       )}
     />
   );

@@ -1,5 +1,8 @@
 const path = require(`path`)
 
+const siteMetadata = require('./src/siteMetadata/midasJournal.json')
+const targetJournal = siteMetadata.targetJournal
+
 const findSearchData = (node, entry) => {
 
   let data = ""
@@ -14,8 +17,6 @@ const findSearchData = (node, entry) => {
   }
   return data;
 }
-
-const siteMetadata = require('./src/siteMetadata/midasJournal.json')
 
 module.exports = {
   plugins: [
