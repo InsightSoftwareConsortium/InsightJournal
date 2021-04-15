@@ -123,7 +123,7 @@ export default function Index({ data }) {
 		  <Typography>{parse(siteMetadata.description)}</Typography>
 		</AccordionSummary>
 		<AccordionDetails>
-                  <Typography>{parse(siteMetadata.extendedDescription, parseOptions)}</Typography>
+                  <Typography component={'span'}>{parse(siteMetadata.extendedDescription, parseOptions)}</Typography>
 		</AccordionDetails>
 	      </Accordion>
             </Grid>
