@@ -8,7 +8,7 @@ import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles({
   publicationTable: {
-    height: 940,
+    height: 640,
   },
 });
 
@@ -60,7 +60,7 @@ export default function PublicationsTable({ rows }) {
   return (
     <>
       <Box className={classes.publicationTable}>
-        <DataGrid rowHeight={100} rows={rows} columns={columns} pageSize={8}/>
+        <DataGrid rowHeight={100} rows={rows} columns={columns} pageSize={5}/>
       </Box>
     </>
   );
