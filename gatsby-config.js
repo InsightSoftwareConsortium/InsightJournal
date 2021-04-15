@@ -5,7 +5,7 @@ const findSearchData = (node, entry) => {
 
   let data = ""
   if(node.publication) {
-    for(var i = 0; i < node.publication.journals.length; i++) {
+    for(let i = 0; i < node.publication.journals.length; i++) {
       let journal_data = node.publication.journals[i];
       if (journal_data.journal_id === targetJournal) {
           data = node.publication[entry];
