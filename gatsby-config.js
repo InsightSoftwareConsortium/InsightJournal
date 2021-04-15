@@ -28,14 +28,14 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'publications',
-        path: './src/publications',
+        path: path.join(__dirname, 'data', 'publications'),
       },
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'issues',
-        path: './src/issues',
+        path: path.join(__dirname, 'data', 'issues'),
       },
     },
     {
