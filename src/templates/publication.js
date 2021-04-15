@@ -9,6 +9,7 @@ import Layout from '../components/Layout';
 import { GatsbyImage } from "gatsby-plugin-image"
 import MuiLink from '@material-ui/core/Link';
 import targetJournalLogo from '../components/targetJournalLogo';
+import PublicationsIcon from '@material-ui/icons/LocalLibrary';
 
 const useStyles = makeStyles({
   pubTitle: {
@@ -107,7 +108,7 @@ const Render = ({ data }) => {
 	<center>{coverImage}</center>
 	<br/>
         {citeLink}
-    <Box component="div" className={classes.journal}><Typography variant="subtitle2">Published in <Link to="/">{data.site.siteMetadata.title}</Link>{issueLinks}.</Typography></Box>
+    <Box component="div" className={classes.journal}><Typography variant="subtitle2"><PublicationsIcon />{' '}Published in <Link to="/">{data.site.siteMetadata.title}</Link>{issueLinks}.</Typography></Box>
 	<Box component="div" className={classes.submittedBy} color="error">Submitted by {submit_auth} on {publication.date_submitted}.</Box>
         <Typography variant="body1">{publication.abstract}</Typography>
 	</Box>

@@ -20,6 +20,9 @@ import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import { DataGrid } from '@material-ui/data-grid';
 import Link from '../components/Link';
+import StarIcon from '@material-ui/icons/Star';
+import IssuesIcon from '@material-ui/icons/LibraryBooksOutlined';
+import PublicationsIcon from '@material-ui/icons/LocalLibrary';
 
 function isSuperset(set, subset) {
   for (let elem of subset) {
@@ -53,7 +56,7 @@ const parseOptions = {
     if (domNode.type === "tag" && domNode.name === "ul") {
       return (<List>{domToReact(domNode.children, parseOptions)}</List>)
     } else if(domNode.type === "tag" && domNode.name === "li") {
-      return (<ListItem>{domToReact(domNode.children, parseOptions)}</ListItem>)
+      return (<ListItem><ListItemIcon><StarIcon /></ListItemIcon><ListItemText>{domToReact(domNode.children, parseOptions)}</ListItemText></ListItem>)
     }
     return domNode
   },
@@ -129,7 +132,7 @@ export default function Index({ data }) {
             </Grid>
             <Grid item xs={12} sm={6} zeroMinWidth>
 	      <Paper elevation={3}>
-		 <Typography variant="h5" component="h2" align="center">Issues</Typography>
+                <Typography variant="h5" component="h2" align="center"><IssuesIcon/>{' '}Issues</Typography>
                   <Box className={classes.issueTable}>
                     <DataGrid headerHeight={38} rowHeight={30} rows={issueRows} columns={issueColumns} pageSize={4}/>
                   </Box>
@@ -137,7 +140,7 @@ export default function Index({ data }) {
             </Grid>
           </Grid>
           <Box sx={{ my: 4 }}>
-	    <Typography variant="h5" component="h2">Publications</Typography>
+            <Typography variant="h5" component="h2"><PublicationsIcon/>{' '}Publications</Typography>
             <PublicationsTable rows={publicationRows} />
           </Box>
         </Container>
