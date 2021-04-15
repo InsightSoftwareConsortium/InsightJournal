@@ -17,7 +17,7 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer style={{ paddingTop: 100 }}>
+        <footer style={{ paddingTop: 80 }}>
           <Copyright />
         </footer>
       </div>

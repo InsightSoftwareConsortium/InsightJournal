@@ -16,6 +16,7 @@ const columns = [
   {
     field: 'thumbnail',
     headerName: ' ',
+    disableColumnMenu: true,
     width: 80,
     renderCell: (params) => {
       if (params.value) {
