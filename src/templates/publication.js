@@ -122,11 +122,12 @@ const Render = ({ data, pageContext }) => {
 	<center>{coverImage}</center>
 	<br/>
         {citeLink}
-        <Citation publication={publication}/>
   <Box component="div" className={classes.journal}><Typography variant="subtitle2"><PublicationsIcon />{' '}Published in <Link to="/">{data.site.siteMetadata.title}</Link>{issueLinks}.</Typography></Box>
 	<Box component="div" className={classes.submittedBy} color="error">Submitted by {submit_auth} on {publication.date_submitted}.</Box>
         <Typography variant="body1">{publication.abstract}</Typography>
 	</Box>
+  <br/>
+  <Citation publication={publication}/>
         <Box align="right" className={classes.prevNext}>
           <Tooltip title="Previous publication" placement="top" TransitionComponent={Fade} TransitionProps={{ timeout: 400 }}><Link to={previousLink}><Button disabled={pageContext.prev_id === null}><NavigateBeforeIcon fontSize="large"/></Button></Link></Tooltip>
           <Tooltip title="Next publication" placement="top" TransitionComponent={Fade} TransitionProps={{ timeout: 400 }}><Link to={nextLink}><Button disabled={pageContext.next_id === null}><NavigateNextIcon fontSize="large"/></Button></Link></Tooltip>
