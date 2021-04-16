@@ -8,7 +8,7 @@ import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles({
   publicationTable: {
-    height: 780,
+    height: 640,
   },
 });
 
@@ -16,7 +16,8 @@ const columns = [
   {
     field: 'thumbnail',
     headerName: ' ',
-    width: 150,
+    disableColumnMenu: true,
+    width: 80,
     renderCell: (params) => {
       if (params.value) {
         return (<div><GatsbyImage image={params.value} alt="Publication thumbnail" /></div>)
@@ -39,7 +40,7 @@ const columns = [
   },
   { field: 'authors',
     headerName: 'Authors',
-    width: 230,
+    width: 240,
     renderCell: (params) => (
       <div>
       <Typography variant="body2" style={{ whiteSpace: 'normal', wordWrap: "break-word" }} >{params.value}</Typography>
@@ -49,7 +50,7 @@ const columns = [
   {
     field: 'keywords',
     headerName: 'Keywords',
-    width: 180,
+    width: 220,
   },
 ];
 
@@ -59,7 +60,7 @@ export default function PublicationsTable({ rows }) {
   return (
     <>
       <Box className={classes.publicationTable}>
-        <DataGrid rowHeight={80} rows={rows} columns={columns} pageSize={8}/>
+        <DataGrid rowHeight={100} rows={rows} columns={columns} pageSize={5}/>
       </Box>
     </>
   );

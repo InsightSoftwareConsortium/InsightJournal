@@ -9,6 +9,15 @@
 const { createFilePath } = require('gatsby-source-filesystem')
 const path = require('path')
 
+function isSuperset(set, subset) {
+  for (let elem of subset) {
+    if (!set.has(elem)) {
+      return false
+    }
+  }
+  return true
+}
+
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
   if (node.internal.type === 'Json') {
@@ -28,15 +37,6 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       })
     }
   }
-}
-
-function isSuperset(set, subset) {
-  for (let elem of subset) {
-    if (!set.has(elem)) {
-      return false
-    }
-  }
-  return true
 }
 
 exports.createPages = async ({ graphql, actions }) => {

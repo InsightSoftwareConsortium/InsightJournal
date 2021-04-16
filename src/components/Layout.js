@@ -7,7 +7,6 @@ import Copyright from './Copyright';
 const Layout = ({ children }) => {
   return (
     <div style={{ minHeight: '100vh', backgroundColor: '#FFF' }}>
-      <Header />
       <div
         style={{
           margin: `0 auto`,
@@ -16,8 +15,9 @@ const Layout = ({ children }) => {
           paddingTop: 40,
         }}
       >
+      <Header />
         <main>{children}</main>
-        <footer style={{ paddingTop: 100 }}>
+        <footer style={{ paddingTop: 80 }}>
           <Copyright />
         </footer>
       </div>

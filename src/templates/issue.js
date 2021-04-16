@@ -6,8 +6,7 @@ import Container from '@material-ui/core/Container';
 import theme from '../theme';
 import Layout from '../components/Layout';
 import PublicationsTable from '../components/PublicationsTable';
-
-
+import IssuesIcon from '@material-ui/icons/LibraryBooksOutlined';
 
 const Render = ({ data }) => {
   const issue = data.json.issue;
@@ -34,10 +33,10 @@ const Render = ({ data }) => {
         <Layout>
         <Container maxWidth="md">
           <Typography variant="h5" component="h1" gutterBottom>
-            {issue.name}
+             <IssuesIcon/>{' '}{issue.name}
           </Typography>
           <Typography variant="overline" paragraph={true}>
-            Issue
+           Issue
           </Typography>
           <Typography variant="subtitle1" paragraph={true}>
             {issue.short_description}
