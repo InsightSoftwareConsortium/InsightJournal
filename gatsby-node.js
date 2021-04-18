@@ -79,6 +79,7 @@ exports.createPages = async ({ graphql, actions }) => {
         // Data passed to context is available in page queries as GraphQL variables.
         slug: node.fields.slug,
         cover: `${node.publication.publication_id}/cover.jpeg`,
+        pub_id: node.publication.publication_id,
       },
     })
   })

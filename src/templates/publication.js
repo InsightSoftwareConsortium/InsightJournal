@@ -47,8 +47,7 @@ function authorSort(a, b) {
 const Render = ({ data }) => {
   const classes = useStyles();
   const publication = data.json.publication;
-  const allIssues = data.allJson.edges.filter(e => e.node.issue)
-  const publicationIssues = allIssues.filter(e => e.node.issue.publications.includes(publication.publication_id))
+  const publicationIssues = data.allJson.edges
 
   const targetJournal = data.site.siteMetadata.targetJournal
   const { logo, logoAlt } = targetJournalLogo(targetJournal)
@@ -84,7 +83,6 @@ const Render = ({ data }) => {
   }
 
   let issueLinks = ""
-  // todo: add a link to issue page
   if (publicationIssues.length) {
     issueLinks = publicationIssues.map((issue) => {
       const name = issue.node.issue.name
@@ -121,7 +119,7 @@ const Render = ({ data }) => {
 export default Render;
 
 export const query = graphql`
-  query PublicationQuery($slug: String!, $cover: String!) {
+  query PublicationQuery($slug: String!, $cover: String!, $pub_id: Int) {
     json(fields: { slug: { eq: $slug } }) {
       publication {
         title
@@ -165,7 +163,7 @@ export const query = graphql`
           gatsbyImageData(layout: FIXED)
         }
       }
-    allJson {
+    allJson(filter: {issue: {publications: {in: [$pub_id]}}}) {
       edges {
         node {
           issue {
