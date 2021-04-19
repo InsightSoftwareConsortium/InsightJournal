@@ -71,7 +71,15 @@ exports.createPages = async ({ graphql, actions }) => {
     }
 }
   `)
-  publications.data.allJson.edges.forEach(({ node }) => {
+  publications.data.allJson.edges.forEach(({ node }, index) => {
+    let prev_id = null
+    if (index-1 >= 0) {
+      prev_id = publications.data.allJson.edges[index-1].node.publication.publication_id
+    }
+    let next_id = null
+    if (index + 1 < publications.data.allJson.edges.length) {
+      next_id = publications.data.allJson.edges[index+1].node.publication.publication_id
+    }
     createPage({
       path: node.fields.slug,
       component: publicationTemplate,
@@ -79,6 +87,9 @@ exports.createPages = async ({ graphql, actions }) => {
         // Data passed to context is available in page queries as GraphQL variables.
         slug: node.fields.slug,
         cover: `${node.publication.publication_id}/cover.jpeg`,
+        pub_id: node.publication.publication_id,
+        prev_id,
+        next_id,
       },
     })
   })
@@ -107,10 +118,22 @@ exports.createPages = async ({ graphql, actions }) => {
   }
 }
 `)
-  issues.data.allJson.edges.filter(({ node }) => {
+  const issuesOfInterest = issues.data.allJson.edges.filter(({ node }) => {
+    if (node.issue.publications.length < 1) {
+      return false
+    }
     const issuePublicationIds = new Set(node.issue.publications)
     return isSuperset(journalPublicationIds, issuePublicationIds)
-  }).forEach(({ node }) => {
+  })
+  issuesOfInterest.forEach(({ node }, index) => {
+    let prev_id = null
+    if (index-1 >= 0) {
+      prev_id = issuesOfInterest[index-1].node.issue.issue_id
+    }
+    let next_id = null
+    if (index + 1 < issuesOfInterest.length) {
+      next_id = issuesOfInterest[index+1].node.issue.issue_id
+    }
     const thumbnails = node.issue.publications.map((p) => `${p}/thumbnail.jpeg`)
     createPage({
       path: node.fields.slug,
@@ -120,6 +143,8 @@ exports.createPages = async ({ graphql, actions }) => {
         slug: node.fields.slug,
         publications: node.issue.publications,
         thumbnails,
+        prev_id,
+        next_id,
       },
     })
   })
