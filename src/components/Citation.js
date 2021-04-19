@@ -4,16 +4,17 @@ import Button from '@material-ui/core/Button';
 import MenuItem from '@material-ui/core/MenuItem';
 import Select from '@material-ui/core/Select';
 
-export default function Citation({ publication }) {
+export default function Citation({ publication, journalTitle}) {
   let citString = ""
   // lastnames: purely last name
   let last_names = [];
   let bibtext_names = [];
-  let text_names = []
+  let text_names = [];
   let out_file = "";
+
   const authors = publication.authors
 
-  const populateAuthors = (publication) => {
+  const populateAuthors = (publication ) => {
     const has_authors = publication.authors ? true : false;
     if (has_authors) {
       for (const author of authors) {
@@ -54,7 +55,7 @@ export default function Citation({ publication }) {
 ${publication.abstract}
 </AbstractText></Abstract>`)
 
-    citData.push(`<Location>${publication.handles[publication.handles.length-1].handle_url}</Location>"`)
+    citData.push(`<Location>${publication.handles[publication.handles.length-1].handle_url}</Location>`)
     citData.push(`<Year>${submission_date.getFullYear()}</Year>`)
     citData.push(`<Month>${('0' + (submission_date.getMonth()+1)).slice(-2)}</Month>`)
     if(publication.submitted_by_author) {
@@ -84,7 +85,9 @@ ${publication.abstract}
     citString = citData.join("\n")
   }
   const generateTextCitation = (publication) => {
-    citString = `${text_names.join(", ")} ${publication.title}. ${submission_date.getFullYear()} ${submission_date.toLocaleString('default', { month: 'short' })}.`
+    citString = `${text_names.join(", ")} "${publication.title}". ${journalTitle}. `;
+    citString += `${submission_date.getFullYear()} ${submission_date.toLocaleString('default', { month: 'short' })}. `;
+    citString += `${publication.handles[publication.handles.length-1].handle_url}`;
   };
   const generateBibTextCitation = (publication) => {
 
@@ -109,7 +112,7 @@ ${publication.abstract}
     switch (event.target.value) {
       case "bibtex":
         generateBibTextCitation(publication);
-        out_file='bibtex.bib'
+        out_file='publication.bib'
         break;
       case "text":
         generateTextCitation(publication);
@@ -141,7 +144,7 @@ ${publication.abstract}
         <div>
           <label htmlFor="citationSelect" >Export Citation:  </label>
           <Select id="citationSelect" defaultValue="bibtex" onChange={handleTypeChange}>
-            <MenuItem value='bibtex'>BibTex</MenuItem>
+            <MenuItem value='bibtex'>BibTeX</MenuItem>
             <MenuItem value='text'>Text</MenuItem>
             <MenuItem value='medline'>Medline</MenuItem>
             <MenuItem value='xml'>XML</MenuItem>
