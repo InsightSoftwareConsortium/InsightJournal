@@ -10,6 +10,11 @@ import { GatsbyImage } from "gatsby-plugin-image"
 import MuiLink from '@material-ui/core/Link';
 import targetJournalLogo from '../components/targetJournalLogo';
 import PublicationsIcon from '@material-ui/icons/LocalLibrary';
+import NavigateBeforeIcon from '@material-ui/icons/NavigateBefore';
+import NavigateNextIcon from '@material-ui/icons/NavigateNext';
+import Button from '@material-ui/core/Button';
+import Tooltip from '@material-ui/core/Tooltip';
+import Fade from '@material-ui/core/Fade';
 
 const useStyles = makeStyles({
   pubTitle: {
@@ -32,6 +37,13 @@ const useStyles = makeStyles({
   authors: {
     textAlign:"center",
   },
+  prevNext: {
+    position: "fixed",
+    bottom: 0,
+    right: 0,
+    paddingBottom: "60px",
+    paddingRight: "30px",
+  },
 });
 
 function authorSort(a, b) {
@@ -44,7 +56,7 @@ function authorSort(a, b) {
   return 0
 }
 
-const Render = ({ data }) => {
+const Render = ({ data, pageContext }) => {
   const classes = useStyles();
   const publication = data.json.publication;
   const publicationIssues = data.allJson.edges
@@ -74,6 +86,9 @@ const Render = ({ data }) => {
   }
 
   const coverImage = data.coverImage ? <GatsbyImage image={data.coverImage.childImageSharp.gatsbyImageData} alt="Publication cover image"/> : <img src={logo} alt={logoAlt} />
+
+  const previousLink = pageContext.prev_id ? `/browse/publication/${pageContext.prev_id}` : `/browse/publication/${publication.publication_id}`
+  const nextLink = pageContext.next_id ? `/browse/publication/${pageContext.next_id}` : `/browse/publication/${publication.publication_id}`
 
   let citeLink = ""
   if (publication.handles && publication.handles.length) {
@@ -110,6 +125,10 @@ const Render = ({ data }) => {
 	<Box component="div" className={classes.submittedBy} color="error">Submitted by {submit_auth} on {publication.date_submitted}.</Box>
         <Typography variant="body1">{publication.abstract}</Typography>
 	</Box>
+        <Box align="right" className={classes.prevNext}>
+          <Tooltip title="Previous publication" placement="top" TransitionComponent={Fade} TransitionProps={{ timeout: 400 }}><Link to={previousLink}><Button disabled={pageContext.prev_id === null}><NavigateBeforeIcon fontSize="large"/></Button></Link></Tooltip>
+          <Tooltip title="Next publication" placement="top" TransitionComponent={Fade} TransitionProps={{ timeout: 400 }}><Link to={nextLink}><Button disabled={pageContext.next_id === null}><NavigateNextIcon fontSize="large"/></Button></Link></Tooltip>
+        </Box>
         </Layout>
       </ThemeProvider>
     </>

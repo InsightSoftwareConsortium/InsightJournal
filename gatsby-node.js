@@ -71,7 +71,15 @@ exports.createPages = async ({ graphql, actions }) => {
     }
 }
   `)
-  publications.data.allJson.edges.forEach(({ node }) => {
+  publications.data.allJson.edges.forEach(({ node }, index) => {
+    let prev_id = null
+    if (index-1 >= 0) {
+      prev_id = publications.data.allJson.edges[index-1].node.publication.publication_id
+    }
+    let next_id = null
+    if (index + 1 < publications.data.allJson.edges.length) {
+      next_id = publications.data.allJson.edges[index+1].node.publication.publication_id
+    }
     createPage({
       path: node.fields.slug,
       component: publicationTemplate,
@@ -80,6 +88,8 @@ exports.createPages = async ({ graphql, actions }) => {
         slug: node.fields.slug,
         cover: `${node.publication.publication_id}/cover.jpeg`,
         pub_id: node.publication.publication_id,
+        prev_id,
+        next_id,
       },
     })
   })
