@@ -1,72 +1,79 @@
 {
- "publication": {
-  "abstract": "Finding regional extrema of images is an important step in a number of\r\nmorphological algorithms, such as some versions of the watershed\r\ntransform\\footnote{This work started because we were trying to compare\r\ndifferent watershed algorithms}. Regional extrema may also be\r\nimportant cues of other tasks, such as splitting objects based on\r\ndistance transform information. This report provides an overview of\r\nthe methods available in ITK and compares the performance with a new\r\nfilter.",
-  "authors": [
-   {
-    "author_fullname": "Beare, Richard",
-    "author_place": 1,
-    "persona_email": "richard.beare@ieee.org",
-    "persona_firstname": "Richard",
-    "persona_id": 197,
-    "persona_lastname": "Beare"
-   },
-   {
-    "author_fullname": "Lehmann, Gaetan",
-    "author_place": 2,
-    "persona_email": "gaetan.lehmann@gmail.com",
-    "persona_firstname": "Gaetan",
-    "persona_id": 328,
-    "persona_lastname": "Lehmann"
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2005-12-22T04:51:58Z",
-  "handles": [
-   {
-    "handle": "1926/153",
-    "handle_url": "http://hdl.handle.net/1926/153"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 65,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "dan.muel@gmail.com",
-     "author_firstname": "Dan",
-     "author_id": 286,
-     "author_lastname": "Mueller"
+  "publication": {
+    "abstract": "Finding regional extrema of images is an important step in a number of\r\nmorphological algorithms, such as some versions of the watershed\r\ntransform\\footnote{This work started because we were trying to compare\r\ndifferent watershed algorithms}. Regional extrema may also be\r\nimportant cues of other tasks, such as splitting objects based on\r\ndistance transform information. This report provides an overview of\r\nthe methods available in ITK and compares the performance with a new\r\nfilter.",
+    "articles": [
+      null,
+      "bafkreihr3eihy3lsp2ktjj3ohascrzfbpdjv247acvzpkj6mkkhxluxula",
+      "bafkreicjduqx5gceeerwekhhzrlcb6ohhgiissee2bikdfstpmlwl6a7xu",
+      "bafkreicjduqx5gceeerwekhhzrlcb6ohhgiissee2bikdfstpmlwl6a7xu",
+      "bafkreifgf3ywfhbdkjifky2ubabq7t4syfvvnimnduhtfp7ohcnulwiwty"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Beare, Richard",
+        "author_place": 1,
+        "persona_email": "richard.beare@ieee.org",
+        "persona_firstname": "Richard",
+        "persona_id": 197,
+        "persona_lastname": "Beare"
+      },
+      {
+        "author_fullname": "Lehmann, Gaetan",
+        "author_place": 2,
+        "persona_email": "gaetan.lehmann@gmail.com",
+        "persona_firstname": "Gaetan",
+        "persona_id": 328,
+        "persona_lastname": "Lehmann"
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2005-12-22T04:51:58Z",
+    "handles": [
+      {
+        "handle": "1926/153",
+        "handle_url": "http://hdl.handle.net/1926/153"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<b>Summary:</b>\r\nThe authors discuss how to extract regional minima/maxima regions from binary/greyscale images. Two approaches are presented and compared: 1. the current ITK approach using the HConvexImageFilter and HConcaveImageFilter, and 2. a new approach using a simple flooding-based algorithm (referred to by the authors as <i>ValuedRegionalExtremaImageFilter</i>).\r\n \r\n<b>Hypothesis:</b>\r\nThe hypothesis is that the ValuedRegionalExtremaImageFilter approach is computational faster than the HConvexImageFilter/HConcaveImageFilter approach. Test results indicate that the proposed approach (ValuedRegionalExtremaImageFilter) is faster.\r\n\r\n<b>Evidence:</b>\r\nEach approach has been implemented in ITK and execution times reported in the paper.\r\n\r\n<b>Open Science:</b>\r\nFull open source for the filters, examples and tests, as well as input images, are provided. \r\n\r\n<b>Reproducibility:</b>\r\nI was able to download, compile, and run the work. However, I had some minor problems compiling the code because I was using an older version of ITK (InsightToolkit-2.2.0). Compiling with InsightToolkit-2.4.1 was successful. I was also unable to run the tests because they rely on the DART Image Compare program. (Does anyone know how I can obtain the Image Compare program for testing Insight Journal articles? The IJ WIKI mentions that DART tests use Image Compare, but it does not explain how to obtain it for desktop testing/reproducibility.)\r\n\r\n<b>Use of Open Source Software:</b>\r\nUses ITK.\r\n\r\n<b>Open Source Contributions:</b>\r\nThe source code was relatively easy to get going (besides the minor unrelated issues listed above).\r\n\r\n<b>Code Quality:</b>\r\nThe code quality is fairly easy to read. However, I would like to see more comments within ValuedRegionalExtremaImageFilter::GenerateData() more fully explaining the algorithm - I find it hard to read what is being done and why.\r\n\r\n<b>Final Thoughts:</b>\r\nThanks for this addition to ITK. The speed increases for finding regional maxima/minima will help enhance various segmentation tasks. A comprehensive, well presented paper.\r\n\r\n",
-    "date": "01-09-2006",
-    "review_id": 147
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "richard.beare@ieee.org",
-   "author_firstname": "Richard",
-   "author_fullname": "Beare, Richard",
-   "author_id": 197,
-   "author_institution": "Monash University",
-   "author_lastname": "Beare"
-  },
-  "tags": [
-   "regional minima",
-   "performance",
-   "flooding",
-   "mathematical morphology"
-  ],
-  "title": "Finding regional extrema - methods and performance"
- }
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 65,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "dan.muel@gmail.com",
+          "author_firstname": "Dan",
+          "author_id": 286,
+          "author_lastname": "Mueller"
+        },
+        "content": "<b>Summary:</b>\r\nThe authors discuss how to extract regional minima/maxima regions from binary/greyscale images. Two approaches are presented and compared: 1. the current ITK approach using the HConvexImageFilter and HConcaveImageFilter, and 2. a new approach using a simple flooding-based algorithm (referred to by the authors as <i>ValuedRegionalExtremaImageFilter</i>).\r\n \r\n<b>Hypothesis:</b>\r\nThe hypothesis is that the ValuedRegionalExtremaImageFilter approach is computational faster than the HConvexImageFilter/HConcaveImageFilter approach. Test results indicate that the proposed approach (ValuedRegionalExtremaImageFilter) is faster.\r\n\r\n<b>Evidence:</b>\r\nEach approach has been implemented in ITK and execution times reported in the paper.\r\n\r\n<b>Open Science:</b>\r\nFull open source for the filters, examples and tests, as well as input images, are provided. \r\n\r\n<b>Reproducibility:</b>\r\nI was able to download, compile, and run the work. However, I had some minor problems compiling the code because I was using an older version of ITK (InsightToolkit-2.2.0). Compiling with InsightToolkit-2.4.1 was successful. I was also unable to run the tests because they rely on the DART Image Compare program. (Does anyone know how I can obtain the Image Compare program for testing Insight Journal articles? The IJ WIKI mentions that DART tests use Image Compare, but it does not explain how to obtain it for desktop testing/reproducibility.)\r\n\r\n<b>Use of Open Source Software:</b>\r\nUses ITK.\r\n\r\n<b>Open Source Contributions:</b>\r\nThe source code was relatively easy to get going (besides the minor unrelated issues listed above).\r\n\r\n<b>Code Quality:</b>\r\nThe code quality is fairly easy to read. However, I would like to see more comments within ValuedRegionalExtremaImageFilter::GenerateData() more fully explaining the algorithm - I find it hard to read what is being done and why.\r\n\r\n<b>Final Thoughts:</b>\r\nThanks for this addition to ITK. The speed increases for finding regional maxima/minima will help enhance various segmentation tasks. A comprehensive, well presented paper.\r\n\r\n",
+        "date": "01-09-2006",
+        "review_id": 147
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "richard.beare@ieee.org",
+      "author_firstname": "Richard",
+      "author_fullname": "Beare, Richard",
+      "author_id": 197,
+      "author_institution": "Monash University",
+      "author_lastname": "Beare"
+    },
+    "tags": [
+      "regional minima",
+      "performance",
+      "flooding",
+      "mathematical morphology"
+    ],
+    "title": "Finding regional extrema - methods and performance"
+  }
 }

@@ -1,101 +1,113 @@
 {
- "publication": {
-  "abstract": "In this paper a specific method is presented to facilitate the semi-automatic segmentation of liver metastases in CT images. Accurate and reliable segmentation of tumors is e.g. essential for the follow-up of cancer treatment. The core of the algorithm is a level set function. The initialization is provided by a spiral-scanning technique based on dynamic programming. The level set evolves according to a speed image that is the result of a statistical pixel classification algorithm with supervised learning. This method is tested on CT images of the abdomen and compared with manual delineations of liver tumors.",
-  "authors": [
-   {
-    "author_fullname": "Smeets, Dirk",
-    "author_place": 1,
-    "persona_email": "dirk.smeets@gmail.com",
-    "persona_firstname": "Dirk",
-    "persona_id": 885,
-    "persona_lastname": "Smeets"
-   },
-   {
-    "author_fullname": "Stijnen, Bert",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Loeckx, Dirk",
-    "author_place": 3,
-    "persona_email": "dirk.loeckx@uz.kuleuven.ac.be",
-    "persona_firstname": "Dirk",
-    "persona_id": 862,
-    "persona_lastname": "Loeckx"
-   },
-   {
-    "author_fullname": "De Dobbelaer, Bart",
-    "author_place": 4,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Suetens, Paul",
-    "author_place": 5,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Distance maps",
-   "Feature extraction",
-   "Level sets",
-   "Probability",
-   "Segmentation",
-   "Statistical shape models",
-   "Surface extraction",
-   "Thresholding"
-  ],
-  "comments": [],
-  "date_submitted": "2008-07-06T16:33:21Z",
-  "handles": [
-   {
-    "handle": "10380/1407",
-    "handle_url": "http://hdl.handle.net/10380/1407"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 45,
-    "journal_name": "MICCAI 2016 Workshops"
-   },
-   {
-    "journal_id": 33,
-    "journal_name": "MICCAI 2008 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 581,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "dengxiang05@gmail.com",
-     "author_firstname": "Xiang",
-     "author_id": 872,
-     "author_lastname": "Deng"
+  "publication": {
+    "abstract": "In this paper a specific method is presented to facilitate the semi-automatic segmentation of liver metastases in CT images. Accurate and reliable segmentation of tumors is e.g. essential for the follow-up of cancer treatment. The core of the algorithm is a level set function. The initialization is provided by a spiral-scanning technique based on dynamic programming. The level set evolves according to a speed image that is the result of a statistical pixel classification algorithm with supervised learning. This method is tested on CT images of the abdomen and compared with manual delineations of liver tumors.",
+    "articles": [
+      "bafkreifccuomipbsqwayshzra7adf3lpk2i76szb6fwphskkdxd44jmbzi",
+      "bafybeifvdugcsyt7nyaton4ufteo3sjk4i5w77ara5so2c73wpck753krq",
+      null,
+      null,
+      "bafkreifank7ipbw4alagrjmvcru6mvdkcrvupxb76yz4gttxneyyywk3ty",
+      "bafkreid7e5rxjphrmnrnde33hcvbeocfpul3t4nob7et2i5krbt3yeosmu",
+      "bafybeieykl4yrkq5zkntmr6dk2lkxy64yatrimfcijnnuvuk4qmrjnzh5a",
+      "bafybeieykl4yrkq5zkntmr6dk2lkxy64yatrimfcijnnuvuk4qmrjnzh5a",
+      "bafybeieykl4yrkq5zkntmr6dk2lkxy64yatrimfcijnnuvuk4qmrjnzh5a",
+      "bafybeihz6s4zr3df2mb6pkwqrm725rhna46hnfmrs7f5d5r3vwhpd5erky"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Smeets, Dirk",
+        "author_place": 1,
+        "persona_email": "dirk.smeets@gmail.com",
+        "persona_firstname": "Dirk",
+        "persona_id": 885,
+        "persona_lastname": "Smeets"
+      },
+      {
+        "author_fullname": "Stijnen, Bert",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Loeckx, Dirk",
+        "author_place": 3,
+        "persona_email": "dirk.loeckx@uz.kuleuven.ac.be",
+        "persona_firstname": "Dirk",
+        "persona_id": 862,
+        "persona_lastname": "Loeckx"
+      },
+      {
+        "author_fullname": "De Dobbelaer, Bart",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Suetens, Paul",
+        "author_place": 5,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Distance maps",
+      "Feature extraction",
+      "Level sets",
+      "Probability",
+      "Segmentation",
+      "Statistical shape models",
+      "Surface extraction",
+      "Thresholding"
+    ],
+    "comments": [],
+    "date_submitted": "2008-07-06T16:33:21Z",
+    "handles": [
+      {
+        "handle": "10380/1407",
+        "handle_url": "http://hdl.handle.net/10380/1407"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<p>This paper presents a level-set based semi-automatic live tumor segmentation technique. <br />The segmentation is initialized using a user-defined ROI. The level set is evolved according to a speed function computed using&nbsp;fuzzy pixel classification technique.</p><p><br />Detailed comments:</p><p>1) What makes liver tumor segmentation a challenging task is the large variation of lesion&#39;s shape, size and contrast in CT images. A tumor segmentation technique with potential of clinical application should be able to handle both homogeneous and round shaped lesions, as well as not well-defined ones.&nbsp; </p><p>2) In the last paragraph of &quot;Discussion&quot; section, the authors said that &quot;user intelligence was reduced when placing the two seeds&quot;. From my point of view, it would be helpful to test the reproducibility of the proposed technique on the training and testing data, before making such a conclusion.</p><p>3) What is the stop criterion of the level-set evolution?</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>",
-    "date": "07-25-2008",
-    "review_id": 1523
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "dirk.smeets@gmail.com",
-   "author_firstname": "Dirk",
-   "author_fullname": "Smeets, Dirk",
-   "author_id": 885,
-   "author_institution": "Katholieke Universiteit Leuven, ESAT - PSI",
-   "author_lastname": "Smeets"
-  },
-  "tags": [
-   "spiral-scanning technique",
-   "liver metastases",
-   "segmentation",
-   "liver tumor",
-   "level set"
-  ],
-  "title": "Segmentation of Liver Metastases Using a Level Set Method with Spiral-Scanning Technique and Supervised Fuzzy Pixel Classification"
- }
+    "journals": [
+      {
+        "journal_id": 45,
+        "journal_name": "MICCAI 2016 Workshops"
+      },
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 581,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "dengxiang05@gmail.com",
+          "author_firstname": "Xiang",
+          "author_id": 872,
+          "author_lastname": "Deng"
+        },
+        "content": "<p>This paper presents a level-set based semi-automatic live tumor segmentation technique. <br />The segmentation is initialized using a user-defined ROI. The level set is evolved according to a speed function computed using&nbsp;fuzzy pixel classification technique.</p><p><br />Detailed comments:</p><p>1) What makes liver tumor segmentation a challenging task is the large variation of lesion&#39;s shape, size and contrast in CT images. A tumor segmentation technique with potential of clinical application should be able to handle both homogeneous and round shaped lesions, as well as not well-defined ones.&nbsp; </p><p>2) In the last paragraph of &quot;Discussion&quot; section, the authors said that &quot;user intelligence was reduced when placing the two seeds&quot;. From my point of view, it would be helpful to test the reproducibility of the proposed technique on the training and testing data, before making such a conclusion.</p><p>3) What is the stop criterion of the level-set evolution?</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>",
+        "date": "07-25-2008",
+        "review_id": 1523
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "dirk.smeets@gmail.com",
+      "author_firstname": "Dirk",
+      "author_fullname": "Smeets, Dirk",
+      "author_id": 885,
+      "author_institution": "Katholieke Universiteit Leuven, ESAT - PSI",
+      "author_lastname": "Smeets"
+    },
+    "tags": [
+      "spiral-scanning technique",
+      "liver metastases",
+      "segmentation",
+      "liver tumor",
+      "level set"
+    ],
+    "title": "Segmentation of Liver Metastases Using a Level Set Method with Spiral-Scanning Technique and Supervised Fuzzy Pixel Classification"
+  }
 }

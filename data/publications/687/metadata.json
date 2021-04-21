@@ -1,73 +1,79 @@
 {
- "publication": {
-  "abstract": "As demonstrated by the example videos accompanying this submission of the\nmultiresolution implementation of Spherical Demons, the registration appears\nreasonable. However, we are still unable to replicate the warps from the\nstable and well verified implementation of this algorithm\nurl{http://sites.google.com/site/yeoyeo02/software/sphericaldemonsrelease}.\n\nWe find the average warp discrepancies between the original implementation and ITK\nimplementation to be about 5.3 mm on a sphere of radius 100.0 mm (note that\nwe do not expect a 100% agreement because of implementation differences, but\n5.3 mm is relatively large). The submission also includes cortical surface\nmeshes of 39 subjects and the corresponding segmentation labels of the cortical\nsurfaces. Ultimately, the best validation would be to compare the overlap of\nthese segmentation labels after registration. We welcome fellow ITK developers\nto work on this.\n\nPlease note that this ITK implementation of the algorithm is\ncurrently being reviewed and tested in the NAMIC Sandbox at:\nurl{http://svn.na-mic.org/NAMICSandBox/trunk/QuadEdgeMeshSphericalDiffeomorphicDemonsRegistration/}.\n\n\nIf you want access to the stable and well verified implementation of this\nalgorithm, please use the MATLAB code available at:\nurl{http://sites.google.com/site/yeoyeo02/software/sphericaldemonsrelease}.\n\n\nThis document describes a contribution to the Insight Toolkit intended to support the process of performing deformable registration on two Meshes. The method implemented here is restricted to Meshes with a Spherical geometry and topology, and with scalar values associated to their nodes. The code described here is an implementation of the paper \u201cSpherical Demons: Fast Diffeomorphic Landmark-Free Surface Registration\u201d by Yeo, Sabuncu, Vercauteren, Ayache, Fischl and Golland [3, 4].\n\nThis paper is accompanied with the source code, input data, parameters and output data that we used for validating the algorithm described in this paper. This adheres to the fundamental principle that scientific publications must facilitate reproducibility of the reported results.",
-  "authors": [
-   {
-    "author_fullname": "Ibanez, Luis",
-    "author_place": 1,
-    "persona_email": "luis.ibanez@kitware.com",
-    "persona_firstname": "Luis",
-    "persona_id": 4,
-    "persona_lastname": "Ibanez"
-   },
-   {
-    "author_fullname": "Audette, Michel",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Yeo, B.T. Thomas",
-    "author_place": 3,
-    "persona_email": "ythomas@csail.mit.edu",
-    "persona_firstname": "B.t. thomas",
-    "persona_id": 2237,
-    "persona_lastname": "Yeo"
-   },
-   {
-    "author_fullname": "Goland, Polina",
-    "author_place": 4,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Deformable registration",
-   "Mesh"
-  ],
-  "comments": [],
-  "date_submitted": "2010-05-17 19:07:17",
-  "handles": [
-   {
-    "handle": "10380/3117",
-    "handle_url": "http://hdl.handle.net/10380/3117"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 687,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "luis.ibanez@kitware.com",
-   "author_firstname": "Luis",
-   "author_fullname": "Ibanez, Luis",
-   "author_id": 4,
-   "author_institution": "KITWARE Inc.",
-   "author_lastname": "Ibanez"
-  },
-  "tags": [
-   "Diffeomorphic",
-   "Landmark-Free",
-   "Demons Registration",
-   "QuadEdgeMesh"
-  ],
-  "title": "Spherical Demons Registration of Spherical Surfaces"
- }
+  "publication": {
+    "abstract": "As demonstrated by the example videos accompanying this submission of the\nmultiresolution implementation of Spherical Demons, the registration appears\nreasonable. However, we are still unable to replicate the warps from the\nstable and well verified implementation of this algorithm\nurl{http://sites.google.com/site/yeoyeo02/software/sphericaldemonsrelease}.\n\nWe find the average warp discrepancies between the original implementation and ITK\nimplementation to be about 5.3 mm on a sphere of radius 100.0 mm (note that\nwe do not expect a 100% agreement because of implementation differences, but\n5.3 mm is relatively large). The submission also includes cortical surface\nmeshes of 39 subjects and the corresponding segmentation labels of the cortical\nsurfaces. Ultimately, the best validation would be to compare the overlap of\nthese segmentation labels after registration. We welcome fellow ITK developers\nto work on this.\n\nPlease note that this ITK implementation of the algorithm is\ncurrently being reviewed and tested in the NAMIC Sandbox at:\nurl{http://svn.na-mic.org/NAMICSandBox/trunk/QuadEdgeMeshSphericalDiffeomorphicDemonsRegistration/}.\n\n\nIf you want access to the stable and well verified implementation of this\nalgorithm, please use the MATLAB code available at:\nurl{http://sites.google.com/site/yeoyeo02/software/sphericaldemonsrelease}.\n\n\nThis document describes a contribution to the Insight Toolkit intended to support the process of performing deformable registration on two Meshes. The method implemented here is restricted to Meshes with a Spherical geometry and topology, and with scalar values associated to their nodes. The code described here is an implementation of the paper \u201cSpherical Demons: Fast Diffeomorphic Landmark-Free Surface Registration\u201d by Yeo, Sabuncu, Vercauteren, Ayache, Fischl and Golland [3, 4].\n\nThis paper is accompanied with the source code, input data, parameters and output data that we used for validating the algorithm described in this paper. This adheres to the fundamental principle that scientific publications must facilitate reproducibility of the reported results.",
+    "articles": [
+      "bafybeifxlgosto4wz3lfapxx75lkwgtojrugudgi7ojddc574dhwh6hzym",
+      "bafybeifu3epum7c2ck5x2wasv3ac3wte5lc6youbfomw22jh6htlduu7la",
+      "bafybeifu3epum7c2ck5x2wasv3ac3wte5lc6youbfomw22jh6htlduu7la",
+      "bafybeiffjrzlvk7kkeiylg34os46jxzv3qlp76o23egzt54p4xd5n6dnkq"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Ibanez, Luis",
+        "author_place": 1,
+        "persona_email": "luis.ibanez@kitware.com",
+        "persona_firstname": "Luis",
+        "persona_id": 4,
+        "persona_lastname": "Ibanez"
+      },
+      {
+        "author_fullname": "Audette, Michel",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Yeo, B.T. Thomas",
+        "author_place": 3,
+        "persona_email": "ythomas@csail.mit.edu",
+        "persona_firstname": "B.t. thomas",
+        "persona_id": 2237,
+        "persona_lastname": "Yeo"
+      },
+      {
+        "author_fullname": "Goland, Polina",
+        "author_place": 4,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Deformable registration",
+      "Mesh"
+    ],
+    "comments": [],
+    "date_submitted": "2010-05-17 19:07:17",
+    "handles": [
+      {
+        "handle": "10380/3117",
+        "handle_url": "http://hdl.handle.net/10380/3117"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 687,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "luis.ibanez@kitware.com",
+      "author_firstname": "Luis",
+      "author_fullname": "Ibanez, Luis",
+      "author_id": 4,
+      "author_institution": "KITWARE Inc.",
+      "author_lastname": "Ibanez"
+    },
+    "tags": [
+      "Diffeomorphic",
+      "Landmark-Free",
+      "Demons Registration",
+      "QuadEdgeMesh"
+    ],
+    "title": "Spherical Demons Registration of Spherical Surfaces"
+  }
 }

@@ -1,85 +1,88 @@
 {
- "publication": {
-  "abstract": "Multiple Sclerosis (MS) is a neurodegenerative disease that is associated with\r\nbrain tissue damage primarily observed as white matter abnormalities such\r\nas lesions.\r\nWe present a novel, fully automatic segmentation method for MS lesions in brain\r\nMRI\r\nthat combines outlier detection and region partitioning.\r\nThe method is based on an atlas of healthy subjects and detects lesions\r\nas outliers, without requiring the use of training data with segmented lesions.\r\nIn order to segment lesions as spatially coherent objects and avoid spurious\r\nlesion detection,\r\nwe perform classification on regions (connected groups of voxels)\r\ninstead of individual voxels.\r\nEach voxel location is assigned to a region that would maximize overall\r\nrelative entropy or Kullback-Leibler divergence between neighboring regions.\r\nOur proposed method is fully automatic and does not require manual selection\r\nor outlining of specific brain regions.\r\nThe method can also be adapted to MR images obtained from different scanners\r\nand scanning parameters as it requires no training.",
-  "authors": [
-   {
-    "author_fullname": "Prastawa, Marcel",
-    "author_place": 1,
-    "persona_email": "prastawa@sci.utah.edu",
-    "persona_firstname": "Marcel",
-    "persona_id": 919,
-    "persona_lastname": "Prastawa"
-   },
-   {
-    "author_fullname": "Gerig, Guido",
-    "author_place": 2,
-    "persona_id": null
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2008-07-17T20:12:36Z",
-  "handles": [
-   {
-    "handle": "10380/1457",
-    "handle_url": "http://hdl.handle.net/10380/1457"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 44,
-    "journal_name": "MICCAI 2015 Workshops"
-   },
-   {
-    "journal_id": 33,
-    "journal_name": "MICCAI 2008 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 616,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "simon.warfield@childrens.harvard.edu",
-     "author_firstname": "Simon",
-     "author_id": 514,
-     "author_lastname": "Warfield"
+  "publication": {
+    "abstract": "Multiple Sclerosis (MS) is a neurodegenerative disease that is associated with\r\nbrain tissue damage primarily observed as white matter abnormalities such\r\nas lesions.\r\nWe present a novel, fully automatic segmentation method for MS lesions in brain\r\nMRI\r\nthat combines outlier detection and region partitioning.\r\nThe method is based on an atlas of healthy subjects and detects lesions\r\nas outliers, without requiring the use of training data with segmented lesions.\r\nIn order to segment lesions as spatially coherent objects and avoid spurious\r\nlesion detection,\r\nwe perform classification on regions (connected groups of voxels)\r\ninstead of individual voxels.\r\nEach voxel location is assigned to a region that would maximize overall\r\nrelative entropy or Kullback-Leibler divergence between neighboring regions.\r\nOur proposed method is fully automatic and does not require manual selection\r\nor outlining of specific brain regions.\r\nThe method can also be adapted to MR images obtained from different scanners\r\nand scanning parameters as it requires no training.",
+    "articles": [
+      "bafybeifstxulial4cbnuxii4byqxlpoloqflcxa45kg44rcz3m2yulsqoy"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Prastawa, Marcel",
+        "author_place": 1,
+        "persona_email": "prastawa@sci.utah.edu",
+        "persona_firstname": "Marcel",
+        "persona_id": 919,
+        "persona_lastname": "Prastawa"
+      },
+      {
+        "author_fullname": "Gerig, Guido",
+        "author_place": 2,
+        "persona_id": null
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2008-07-17T20:12:36Z",
+    "handles": [
+      {
+        "handle": "10380/1457",
+        "handle_url": "http://hdl.handle.net/10380/1457"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<p>&nbsp;</p><p>This paper describes a fully automated algorithm for the segmentation of brain MRI of patients with MS lesions.</p><p>MS lesions are detected by identifying regions which are different in the patient scan from a brain atlas.</p><p>A robust estimator is utilized to prevent outliers from influencing the estimation of parameters of a Gaussian mixture model likelihood function.</p><p>&nbsp;The results indicate the method has high specificity but lower sensitivity, indicating a conservative lesion segmentation outcome. </p>",
-    "date": "07-25-2008",
-    "review_id": 1533
-   },
-   {
-    "author": {
-     "author_email": "styner@cs.unc.edu",
-     "author_firstname": "Martin",
-     "author_id": 28,
-     "author_lastname": "Styner"
+    "journals": [
+      {
+        "journal_id": 44,
+        "journal_name": "MICCAI 2015 Workshops"
+      },
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 616,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "simon.warfield@childrens.harvard.edu",
+          "author_firstname": "Simon",
+          "author_id": 514,
+          "author_lastname": "Warfield"
+        },
+        "content": "<p>&nbsp;</p><p>This paper describes a fully automated algorithm for the segmentation of brain MRI of patients with MS lesions.</p><p>MS lesions are detected by identifying regions which are different in the patient scan from a brain atlas.</p><p>A robust estimator is utilized to prevent outliers from influencing the estimation of parameters of a Gaussian mixture model likelihood function.</p><p>&nbsp;The results indicate the method has high specificity but lower sensitivity, indicating a conservative lesion segmentation outcome. </p>",
+        "date": "07-25-2008",
+        "review_id": 1533
+      },
+      {
+        "author": {
+          "author_email": "styner@cs.unc.edu",
+          "author_firstname": "Martin",
+          "author_id": 28,
+          "author_lastname": "Styner"
+        },
+        "content": "<p>This paper presents an MS lesion segmentation approach via outlier detection from an atlas based tissue classification. The classification procedure assign voxels to regions, which in turn are classified in tissue classes, MS lesions detected as outliers and corrected for intensity inhomogeneity within Expectation Maximization loop.</p><p>The results clearly indicate the conservative&nbsp; nature of the current approach, sensitivity is quite low, while specificty and false-positive rate are great. </p><p>It is not clear to what sense the training cases were used, as the approach seems to be based on an existing prior atlas. Was it used to fine-tune any parameters? </p><p>Overall well written paper. </p>",
+        "date": "07-28-2008",
+        "review_id": 1537
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "prastawa@sci.utah.edu",
+      "author_firstname": "Marcel",
+      "author_fullname": "Prastawa, Marcel",
+      "author_id": 919,
+      "author_institution": "University of Utah",
+      "author_lastname": "Prastawa"
     },
-    "content": "<p>This paper presents an MS lesion segmentation approach via outlier detection from an atlas based tissue classification. The classification procedure assign voxels to regions, which in turn are classified in tissue classes, MS lesions detected as outliers and corrected for intensity inhomogeneity within Expectation Maximization loop.</p><p>The results clearly indicate the conservative&nbsp; nature of the current approach, sensitivity is quite low, while specificty and false-positive rate are great. </p><p>It is not clear to what sense the training cases were used, as the approach seems to be based on an existing prior atlas. Was it used to fine-tune any parameters? </p><p>Overall well written paper. </p>",
-    "date": "07-28-2008",
-    "review_id": 1537
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "prastawa@sci.utah.edu",
-   "author_firstname": "Marcel",
-   "author_fullname": "Prastawa, Marcel",
-   "author_id": 919,
-   "author_institution": "University of Utah",
-   "author_lastname": "Prastawa"
-  },
-  "tags": [
-   "multiple sclerosis",
-   "lesion",
-   "brain atlas",
-   "segmentation",
-   "information theory"
-  ],
-  "title": "Automatic MS Lesion Segmentation by Outlier Detection and Information Theoretic Region Partitioning"
- }
+    "tags": [
+      "multiple sclerosis",
+      "lesion",
+      "brain atlas",
+      "segmentation",
+      "information theory"
+    ],
+    "title": "Automatic MS Lesion Segmentation by Outlier Detection and Information Theoretic Region Partitioning"
+  }
 }

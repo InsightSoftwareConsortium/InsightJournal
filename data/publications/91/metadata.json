@@ -1,72 +1,75 @@
 {
- "publication": {
-  "abstract": "The current ITK release 2.6 does not contain a way to combine transforms in a structural way. This document describes a contribution to the Insight Toolkit ITK \\url{www.itk.org}, which implements what we call an \\doxygen{CombinationTransform}. Two ways to combine transforms are implemented, by addition and by composition. Depending on this selection, different implementations of the \\code{TransformPoint()} are provided. Also the expressions for the Jacobian and the inverse transform depend on the way transforms are combined. By using function pointers expensive \\code{if}-statements are avoided. This paper is accompanied with the\r\nsource code.",
-  "authors": [
-   {
-    "author_fullname": "Klein, Stefan",
-    "author_place": 1,
-    "persona_email": "s.klein@erasmusmc.nl",
-    "persona_firstname": "Stefan",
-    "persona_id": 551,
-    "persona_lastname": "Klein"
-   },
-   {
-    "author_fullname": "Staring, Marius",
-    "author_place": 2,
-    "persona_email": "marius.staring@gmail.com",
-    "persona_firstname": "Marius",
-    "persona_id": 208,
-    "persona_lastname": "Staring"
-   }
-  ],
-  "categories": [
-   "CMake",
-   "Data Representation",
-   "Derivatives and Integrals",
-   "Filtering",
-   "Geometric transforms",
-   "Image",
-   "Mathematics",
-   "Programming",
-   "Registration",
-   "Resampling",
-   "Transforms"
-  ],
-  "comments": [],
-  "date_submitted": "2006-05-22T11:03:01Z",
-  "handles": [
-   {
-    "handle": "1926/197",
-    "handle_url": "http://hdl.handle.net/1926/197"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 91,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "marius.staring@gmail.com",
-   "author_firstname": "Marius",
-   "author_fullname": "Staring, Marius",
-   "author_id": 208,
-   "author_institution": "Leiden University Medical Center",
-   "author_lastname": "Staring"
-  },
-  "tags": [
-   "itk::CombinationTransform",
-   "concatenation",
-   "addition",
-   "transforms"
-  ],
-  "title": "Combining Transforms in ITK"
- }
+  "publication": {
+    "abstract": "The current ITK release 2.6 does not contain a way to combine transforms in a structural way. This document describes a contribution to the Insight Toolkit ITK \\url{www.itk.org}, which implements what we call an \\doxygen{CombinationTransform}. Two ways to combine transforms are implemented, by addition and by composition. Depending on this selection, different implementations of the \\code{TransformPoint()} are provided. Also the expressions for the Jacobian and the inverse transform depend on the way transforms are combined. By using function pointers expensive \\code{if}-statements are avoided. This paper is accompanied with the\r\nsource code.",
+    "articles": [
+      "bafkreicbs2tc4cg4ot42lbn7favggrck7l5kmgad4quomclcuszikt3dlm"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Klein, Stefan",
+        "author_place": 1,
+        "persona_email": "s.klein@erasmusmc.nl",
+        "persona_firstname": "Stefan",
+        "persona_id": 551,
+        "persona_lastname": "Klein"
+      },
+      {
+        "author_fullname": "Staring, Marius",
+        "author_place": 2,
+        "persona_email": "marius.staring@gmail.com",
+        "persona_firstname": "Marius",
+        "persona_id": 208,
+        "persona_lastname": "Staring"
+      }
+    ],
+    "categories": [
+      "CMake",
+      "Data Representation",
+      "Derivatives and Integrals",
+      "Filtering",
+      "Geometric transforms",
+      "Image",
+      "Mathematics",
+      "Programming",
+      "Registration",
+      "Resampling",
+      "Transforms"
+    ],
+    "comments": [],
+    "date_submitted": "2006-05-22T11:03:01Z",
+    "handles": [
+      {
+        "handle": "1926/197",
+        "handle_url": "http://hdl.handle.net/1926/197"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 91,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "marius.staring@gmail.com",
+      "author_firstname": "Marius",
+      "author_fullname": "Staring, Marius",
+      "author_id": 208,
+      "author_institution": "Leiden University Medical Center",
+      "author_lastname": "Staring"
+    },
+    "tags": [
+      "itk::CombinationTransform",
+      "concatenation",
+      "addition",
+      "transforms"
+    ],
+    "title": "Combining Transforms in ITK"
+  }
 }

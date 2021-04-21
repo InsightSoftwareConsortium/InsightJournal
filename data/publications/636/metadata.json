@@ -1,55 +1,58 @@
 {
- "publication": {
-  "abstract": "We propose a new clustering algorithm. This algorithm performs clustering and manifold learning simultaneously by using a graph-theoretical approach to manifold learning. We apply this algorithm in order to cluster white matter \ufb01ber tracts obtained fromDiffusion TensorMRI (DT-MRI) through streamline tractography. Our algorithm is able perform clustering of these fiber tracts incorporating information about the shape of the \ufb01ber and a priori knowledge as the probability of the fiber belonging to known anatomical structures. This anatomical knowledge is incorporated as a volumetric white matter atlas, in this case LONI's ICBM DTI-81",
-  "authors": [
-   {
-    "author_fullname": "Wassermann , Demian",
-    "author_place": 1,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Deriche, Rachid",
-    "author_place": 2,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Mathematics",
-   "Unsupervised learning and clustering"
-  ],
-  "comments": [],
-  "date_submitted": "2008-09-12 11:59:02",
-  "handles": [
-   {
-    "handle": "10380/1504",
-    "handle_url": "http://hdl.handle.net/10380/1504"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 33,
-    "journal_name": "MICCAI 2008 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 636,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "demian.wassermann@sophia.inria.fr",
-   "author_firstname": "Demian",
-   "author_fullname": "Wassermann, Demian",
-   "author_id": 2089,
-   "author_institution": "INRIA, Sophia-Antipolis",
-   "author_lastname": "Wassermann"
-  },
-  "tags": [
-   "clustering",
-   "learning"
-  ],
-  "title": "Simultaneous Manifold Learning and Clustering: Grouping White Matter Fiber Tracts Using a Volumetric White Matter Atlas"
- }
+  "publication": {
+    "abstract": "We propose a new clustering algorithm. This algorithm performs clustering and manifold learning simultaneously by using a graph-theoretical approach to manifold learning. We apply this algorithm in order to cluster white matter \ufb01ber tracts obtained fromDiffusion TensorMRI (DT-MRI) through streamline tractography. Our algorithm is able perform clustering of these fiber tracts incorporating information about the shape of the \ufb01ber and a priori knowledge as the probability of the fiber belonging to known anatomical structures. This anatomical knowledge is incorporated as a volumetric white matter atlas, in this case LONI's ICBM DTI-81",
+    "articles": [
+      "bafybeidu373ibuwt4lc2247x2yp5slglgxtnrokoduj76ce2g7peboxusu"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Wassermann , Demian",
+        "author_place": 1,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Deriche, Rachid",
+        "author_place": 2,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Mathematics",
+      "Unsupervised learning and clustering"
+    ],
+    "comments": [],
+    "date_submitted": "2008-09-12 11:59:02",
+    "handles": [
+      {
+        "handle": "10380/1504",
+        "handle_url": "http://hdl.handle.net/10380/1504"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 636,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "demian.wassermann@sophia.inria.fr",
+      "author_firstname": "Demian",
+      "author_fullname": "Wassermann, Demian",
+      "author_id": 2089,
+      "author_institution": "INRIA, Sophia-Antipolis",
+      "author_lastname": "Wassermann"
+    },
+    "tags": [
+      "clustering",
+      "learning"
+    ],
+    "title": "Simultaneous Manifold Learning and Clustering: Grouping White Matter Fiber Tracts Using a Volumetric White Matter Atlas"
+  }
 }

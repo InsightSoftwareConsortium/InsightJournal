@@ -1,68 +1,71 @@
 {
- "publication": {
-  "abstract": "This paper describes our contribution of two new classes to the Insight Toolkit (ITK) community. This includes a base and derived ImageIO class for the JPEG2000 file formats based on the openjpeg-v2 libraries. In the current release of ITK, support for JPEG2000 is absent. Our current implementation of the JPEG2000 supports 2D images (8-bit, 16-bit and RGB) and tiling. The latest code is available in the NAMIC Sandbox SVN repository under the project JPEG2000ImageIO. We include 2D example code and tests in this submission. This code is likely to be integrated into ITKv4 very soon.",
-  "authors": [
-   {
-    "author_fullname": "Mosaliganti, Kishore",
-    "author_place": 1,
-    "persona_email": "kishoreraom@gmail.com",
-    "persona_firstname": "Kishore",
-    "persona_id": 981,
-    "persona_lastname": "Mosaliganti"
-   },
-   {
-    "author_fullname": "Ibanez, Luis",
-    "author_place": 2,
-    "persona_email": "luis.ibanez@kitware.com",
-    "persona_firstname": "Luis",
-    "persona_id": 4,
-    "persona_lastname": "Ibanez"
-   },
-   {
-    "author_fullname": "Megason, Sean",
-    "author_place": 3,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Images",
-   "IO",
-   "Programming",
-   "Streaming"
-  ],
-  "comments": [],
-  "date_submitted": "2010-08-08 20:52:21",
-  "handles": [
-   {
-    "handle": "10380/3187",
-    "handle_url": "http://hdl.handle.net/10380/3187"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 741,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "kishoreraom@gmail.com",
-   "author_firstname": "Kishore",
-   "author_fullname": "Mosaliganti, Kishore",
-   "author_id": 981,
-   "author_institution": "Harvard Medical School",
-   "author_lastname": "Mosaliganti"
-  },
-  "tags": [
-   "JPEG2000",
-   "tiling"
-  ],
-  "title": "Support for Streaming the JPEG2000 File Format"
- }
+  "publication": {
+    "abstract": "This paper describes our contribution of two new classes to the Insight Toolkit (ITK) community. This includes a base and derived ImageIO class for the JPEG2000 file formats based on the openjpeg-v2 libraries. In the current release of ITK, support for JPEG2000 is absent. Our current implementation of the JPEG2000 supports 2D images (8-bit, 16-bit and RGB) and tiling. The latest code is available in the NAMIC Sandbox SVN repository under the project JPEG2000ImageIO. We include 2D example code and tests in this submission. This code is likely to be integrated into ITKv4 very soon.",
+    "articles": [
+      "bafkreiapyhkmzbumqbchnivewm3nfcgqgjcbh4e6e2xehhjos3ylx3yufm"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Mosaliganti, Kishore",
+        "author_place": 1,
+        "persona_email": "kishoreraom@gmail.com",
+        "persona_firstname": "Kishore",
+        "persona_id": 981,
+        "persona_lastname": "Mosaliganti"
+      },
+      {
+        "author_fullname": "Ibanez, Luis",
+        "author_place": 2,
+        "persona_email": "luis.ibanez@kitware.com",
+        "persona_firstname": "Luis",
+        "persona_id": 4,
+        "persona_lastname": "Ibanez"
+      },
+      {
+        "author_fullname": "Megason, Sean",
+        "author_place": 3,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Images",
+      "IO",
+      "Programming",
+      "Streaming"
+    ],
+    "comments": [],
+    "date_submitted": "2010-08-08 20:52:21",
+    "handles": [
+      {
+        "handle": "10380/3187",
+        "handle_url": "http://hdl.handle.net/10380/3187"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 741,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "kishoreraom@gmail.com",
+      "author_firstname": "Kishore",
+      "author_fullname": "Mosaliganti, Kishore",
+      "author_id": 981,
+      "author_institution": "Harvard Medical School",
+      "author_lastname": "Mosaliganti"
+    },
+    "tags": [
+      "JPEG2000",
+      "tiling"
+    ],
+    "title": "Support for Streaming the JPEG2000 File Format"
+  }
 }

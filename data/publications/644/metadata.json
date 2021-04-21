@@ -1,88 +1,98 @@
 {
- "publication": {
-  "abstract": "This article provides an implementation of the symmetric log-domain diffeomorphic image registration algorithm, or symmetric demons algorithm for short. It generalizes Thirion's demons and the diffeomorphic demons algorithm. The main practical advantages of the symmetric demons with respect to the other demons variants is that is provides the inverse of the spatial transformation at no additional computational cost and ensures that the registration of image A to image B provides the inverse of the registration from image B to image A. The algorithm works completely in the log-domain, i.e. it uses a stationary velocity field to encode the spatial transformation as its exponential. Within the Insight Toolkit (ITK), the classical demons algorithm is implemented as part of the finite difference solver framework. Our code reuses and extends this generic framework. The source code is composed of a set of reusable ITK filters and classes together with their unit tests. We also provide a small example program that allows the user to compare the different variants of the demons algorithm. This paper gives an overview of the algorithm, an overview of its implementation and a small user guide to ease the use of the registration executable.",
-  "authors": [
-   {
-    "author_fullname": "Dru, Florence",
-    "author_place": 1,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Fillard, Pierre",
-    "author_place": 2,
-    "persona_email": "Pierre.Fillard@sophia.inria.fr",
-    "persona_firstname": "Pierre",
-    "persona_id": 261,
-    "persona_lastname": "Fillard"
-   },
-   {
-    "author_fullname": "Vercauteren, Tom",
-    "author_place": 3,
-    "persona_email": "tom.vercauteren@gmail.com",
-    "persona_firstname": "Tom",
-    "persona_id": 156,
-    "persona_lastname": "Vercauteren"
-   }
-  ],
-  "categories": [
-   "Data Representation",
-   "Deformable registration",
-   "Derivatives and Integrals",
-   "Filtering",
-   "Geometric transforms",
-   "Image",
-   "Linear Algebra",
-   "Mathematics",
-   "Optimization",
-   "Registration",
-   "Transforms"
-  ],
-  "comments": [
-   {
-    "content": "Source code repository now points to the github from BRAINSia / LogSymmetricDemons. They have been actively maintaining this code after the transition to ITK4.",
-    "date": "2014-04-07T04:26:39",
-    "persona_email": "tom.vercauteren@gmail.com",
-    "persona_firstname": "Tom",
-    "persona_id": 156,
-    "persona_lastname": "Vercauteren"
-   }
-  ],
-  "date_submitted": "2010-09-02 03:12:37",
-  "handles": [
-   {
-    "handle": "10380/3060",
-    "handle_url": "http://hdl.handle.net/10380/3060"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 644,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "tom.vercauteren@gmail.com",
-   "author_firstname": "Tom",
-   "author_fullname": "Vercauteren, Tom",
-   "author_id": 156,
-   "author_institution": "Mauna Kea Technologies",
-   "author_lastname": "Vercauteren"
-  },
-  "tags": [
-   "Inverse consistency",
-   "Demons",
-   "Deformation",
-   "Image Registration",
-   "Registration",
-   "Diffeomorphism"
-  ],
-  "title": "An ITK Implementation of the Symmetric Log-Domain Diffeomorphic Demons Algorithm"
- }
+  "publication": {
+    "abstract": "This article provides an implementation of the symmetric log-domain diffeomorphic image registration algorithm, or symmetric demons algorithm for short. It generalizes Thirion's demons and the diffeomorphic demons algorithm. The main practical advantages of the symmetric demons with respect to the other demons variants is that is provides the inverse of the spatial transformation at no additional computational cost and ensures that the registration of image A to image B provides the inverse of the registration from image B to image A. The algorithm works completely in the log-domain, i.e. it uses a stationary velocity field to encode the spatial transformation as its exponential. Within the Insight Toolkit (ITK), the classical demons algorithm is implemented as part of the finite difference solver framework. Our code reuses and extends this generic framework. The source code is composed of a set of reusable ITK filters and classes together with their unit tests. We also provide a small example program that allows the user to compare the different variants of the demons algorithm. This paper gives an overview of the algorithm, an overview of its implementation and a small user guide to ease the use of the registration executable.",
+    "articles": [
+      "bafybeie5stu6r7pmofbgfgw6fhdct22gqyllldyud727elng7bdvuw5jdu",
+      "bafybeicidyeg3exysbd2jdrn6inrw7cmoufoeky367cx6cwp6lcurn4vqu",
+      "bafybeicidyeg3exysbd2jdrn6inrw7cmoufoeky367cx6cwp6lcurn4vqu",
+      "bafybeicidyeg3exysbd2jdrn6inrw7cmoufoeky367cx6cwp6lcurn4vqu",
+      "bafybeicidyeg3exysbd2jdrn6inrw7cmoufoeky367cx6cwp6lcurn4vqu",
+      "bafybeicidyeg3exysbd2jdrn6inrw7cmoufoeky367cx6cwp6lcurn4vqu",
+      "bafybeicidyeg3exysbd2jdrn6inrw7cmoufoeky367cx6cwp6lcurn4vqu",
+      "bafybeicidyeg3exysbd2jdrn6inrw7cmoufoeky367cx6cwp6lcurn4vqu"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Dru, Florence",
+        "author_place": 1,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Fillard, Pierre",
+        "author_place": 2,
+        "persona_email": "Pierre.Fillard@sophia.inria.fr",
+        "persona_firstname": "Pierre",
+        "persona_id": 261,
+        "persona_lastname": "Fillard"
+      },
+      {
+        "author_fullname": "Vercauteren, Tom",
+        "author_place": 3,
+        "persona_email": "tom.vercauteren@gmail.com",
+        "persona_firstname": "Tom",
+        "persona_id": 156,
+        "persona_lastname": "Vercauteren"
+      }
+    ],
+    "categories": [
+      "Data Representation",
+      "Deformable registration",
+      "Derivatives and Integrals",
+      "Filtering",
+      "Geometric transforms",
+      "Image",
+      "Linear Algebra",
+      "Mathematics",
+      "Optimization",
+      "Registration",
+      "Transforms"
+    ],
+    "comments": [
+      {
+        "content": "Source code repository now points to the github from BRAINSia / LogSymmetricDemons. They have been actively maintaining this code after the transition to ITK4.",
+        "date": "2014-04-07T04:26:39",
+        "persona_email": "tom.vercauteren@gmail.com",
+        "persona_firstname": "Tom",
+        "persona_id": 156,
+        "persona_lastname": "Vercauteren"
+      }
+    ],
+    "date_submitted": "2010-09-02 03:12:37",
+    "handles": [
+      {
+        "handle": "10380/3060",
+        "handle_url": "http://hdl.handle.net/10380/3060"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 644,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "tom.vercauteren@gmail.com",
+      "author_firstname": "Tom",
+      "author_fullname": "Vercauteren, Tom",
+      "author_id": 156,
+      "author_institution": "Mauna Kea Technologies",
+      "author_lastname": "Vercauteren"
+    },
+    "tags": [
+      "Inverse consistency",
+      "Demons",
+      "Deformation",
+      "Image Registration",
+      "Registration",
+      "Diffeomorphism"
+    ],
+    "title": "An ITK Implementation of the Symmetric Log-Domain Diffeomorphic Demons Algorithm"
+  }
 }

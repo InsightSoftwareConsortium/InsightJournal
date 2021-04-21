@@ -1,68 +1,71 @@
 {
- "publication": {
-  "abstract": "Di\ufb00usion tensor imaging has become an important research and clinical tool, owing to its unique ability to infer microstructural properties of living tissue. Increased use has led to a demand for statistical tools to analyze di\ufb00usion tensor data and perform, for example, con\ufb01dence estimates, ROI analysis, and group comparisons. A \ufb01rst step towards developing a statistical framework is establishing the basic notion of distance between tensors. We investigate the properties of two previously proposed metrics that de\ufb01ne a Riemannian manifold: the a\ufb03ne-invariant and Euclidean metrics. We \ufb01nd that the Euclidean metric is more appropriate for intra-voxel comparisons, and suggest that a context-dependent metric may be required for inter-voxel comparisons.",
-  "authors": [
-   {
-    "author_fullname": "Pasternak, Ofer",
-    "author_place": 1,
-    "persona_email": "oferpas@post.tau.ac.il",
-    "persona_firstname": "Ofer",
-    "persona_id": 2086,
-    "persona_lastname": "Pasternak"
-   },
-   {
-    "author_fullname": "Verma, Ragini",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Sochen, Nir",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Basser, Peter J.",
-    "author_place": 4,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Diffusion Tensor Imaging",
-   "Mathematics"
-  ],
-  "comments": [],
-  "date_submitted": "2008-09-12 11:32:52",
-  "handles": [
-   {
-    "handle": "10380/1501",
-    "handle_url": "http://hdl.handle.net/10380/1501"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 33,
-    "journal_name": "MICCAI 2008 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 633,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "oferpas@post.tau.ac.il",
-   "author_firstname": "Ofer",
-   "author_fullname": "Pasternak, Ofer",
-   "author_id": 2086,
-   "author_institution": "School of Computer Science, Tel Aviv University, Israel, 69978.",
-   "author_lastname": "Pasternak"
-  },
-  "tags": [
-   "DTI",
-   "Manifold"
-  ],
-  "title": "On What Manifold do Diffusion Tensors Live?"
- }
+  "publication": {
+    "abstract": "Di\ufb00usion tensor imaging has become an important research and clinical tool, owing to its unique ability to infer microstructural properties of living tissue. Increased use has led to a demand for statistical tools to analyze di\ufb00usion tensor data and perform, for example, con\ufb01dence estimates, ROI analysis, and group comparisons. A \ufb01rst step towards developing a statistical framework is establishing the basic notion of distance between tensors. We investigate the properties of two previously proposed metrics that de\ufb01ne a Riemannian manifold: the a\ufb03ne-invariant and Euclidean metrics. We \ufb01nd that the Euclidean metric is more appropriate for intra-voxel comparisons, and suggest that a context-dependent metric may be required for inter-voxel comparisons.",
+    "articles": [
+      "bafkreibiwzqclm5alujq4wpkz6t5oipa7zdrwhnbjz6obbkz3l66sbsbym"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Pasternak, Ofer",
+        "author_place": 1,
+        "persona_email": "oferpas@post.tau.ac.il",
+        "persona_firstname": "Ofer",
+        "persona_id": 2086,
+        "persona_lastname": "Pasternak"
+      },
+      {
+        "author_fullname": "Verma, Ragini",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Sochen, Nir",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Basser, Peter J.",
+        "author_place": 4,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Diffusion Tensor Imaging",
+      "Mathematics"
+    ],
+    "comments": [],
+    "date_submitted": "2008-09-12 11:32:52",
+    "handles": [
+      {
+        "handle": "10380/1501",
+        "handle_url": "http://hdl.handle.net/10380/1501"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 633,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "oferpas@post.tau.ac.il",
+      "author_firstname": "Ofer",
+      "author_fullname": "Pasternak, Ofer",
+      "author_id": 2086,
+      "author_institution": "School of Computer Science, Tel Aviv University, Israel, 69978.",
+      "author_lastname": "Pasternak"
+    },
+    "tags": [
+      "DTI",
+      "Manifold"
+    ],
+    "title": "On What Manifold do Diffusion Tensors Live?"
+  }
 }

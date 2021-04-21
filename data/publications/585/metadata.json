@@ -1,88 +1,95 @@
 {
- "publication": {
-  "abstract": "Automatic tracking of coronary arteries in Computed Tomography Angiography (CTA) is a challenging task. To accomplish it we propose a method consisting of two main steps: (1) A 3D model of the heart is matched for detecting the approximate position of the heart. Based on this information candidates for origins of coronary arteries are calculated. (2) Fitting of cylindrical sampling patterns is performed for extracting the vessel tree of coronary arteries. Branching and termination are handled by depth-first search and noise level estimation respectively. Results show that -- compared to human intra-observer variations -- the presented method performs worse for accuracy measures (on average 39.4 scores), but slightly better for overlap measures (on average 51.5 scores).",
-  "authors": [
-   {
-    "author_fullname": "Zambal, Sebastian",
-    "author_place": 1,
-    "persona_email": "zambal@vrvis.at",
-    "persona_firstname": "Sebastian",
-    "persona_id": 892,
-    "persona_lastname": "Zambal"
-   },
-   {
-    "author_fullname": "Hladuvka, Jiri",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Kanitsar, Armin",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "B\ufffd, Katja",
-    "author_place": 4,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Atlas-based segmentation",
-   "Classification",
-   "Data Representation",
-   "Deformable registration",
-   "Hypothesis Testing",
-   "Image",
-   "Mesh",
-   "Missing and Noisy Features",
-   "Model-to-image registration",
-   "Multi-modality registration",
-   "Optimization",
-   "Point distribution models",
-   "PointSet",
-   "Probability",
-   "Registration metrics",
-   "Registration optimizers",
-   "Spatial Objects",
-   "Transforms"
-  ],
-  "comments": [],
-  "date_submitted": "2008-07-07T20:24:55Z",
-  "handles": [
-   {
-    "handle": "10380/1420",
-    "handle_url": "http://hdl.handle.net/10380/1420"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 43,
-    "journal_name": "ISBI 2015 Workshops"
-   },
-   {
-    "journal_id": 33,
-    "journal_name": "MICCAI 2008 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 585,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "zambal@vrvis.at",
-   "author_firstname": "Sebastian",
-   "author_fullname": "Zambal, Sebastian",
-   "author_id": 892,
-   "author_institution": "VRVis Research Center",
-   "author_lastname": "Zambal"
-  },
-  "tags": [
-   "model-based segmentation",
-   "coronary artery tracking"
-  ],
-  "title": "Shape and Appearance Models for Automatic Coronary Artery Tracking"
- }
+  "publication": {
+    "abstract": "Automatic tracking of coronary arteries in Computed Tomography Angiography (CTA) is a challenging task. To accomplish it we propose a method consisting of two main steps: (1) A 3D model of the heart is matched for detecting the approximate position of the heart. Based on this information candidates for origins of coronary arteries are calculated. (2) Fitting of cylindrical sampling patterns is performed for extracting the vessel tree of coronary arteries. Branching and termination are handled by depth-first search and noise level estimation respectively. Results show that -- compared to human intra-observer variations -- the presented method performs worse for accuracy measures (on average 39.4 scores), but slightly better for overlap measures (on average 51.5 scores).",
+    "articles": [
+      "bafybeidnv7xo54iv573pb5vaxldlptncz7jlxhf2aas2y6i76ncxy3zkxa",
+      "bafybeihhrgtd2gtnxifxx7adn5g573syjchzz4fozi5jd3jrpgnab5uv7y",
+      "bafybeife65jcdvl2q6mk34c5t2cl2wzjcpci4ja7ubsijecqlkwyfpfblu",
+      "bafybeica2llcepiqzz7tq4bqvms5v73de5nlf5rexs3t7zs4o2b4zzq654",
+      "bafybeiaocef3hvqrwmg3cd4oxknequztl66rxmwajtixp2mf46mnkojaoq"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Zambal, Sebastian",
+        "author_place": 1,
+        "persona_email": "zambal@vrvis.at",
+        "persona_firstname": "Sebastian",
+        "persona_id": 892,
+        "persona_lastname": "Zambal"
+      },
+      {
+        "author_fullname": "Hladuvka, Jiri",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Kanitsar, Armin",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "B\ufffd, Katja",
+        "author_place": 4,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Atlas-based segmentation",
+      "Classification",
+      "Data Representation",
+      "Deformable registration",
+      "Hypothesis Testing",
+      "Image",
+      "Mesh",
+      "Missing and Noisy Features",
+      "Model-to-image registration",
+      "Multi-modality registration",
+      "Optimization",
+      "Point distribution models",
+      "PointSet",
+      "Probability",
+      "Registration metrics",
+      "Registration optimizers",
+      "Spatial Objects",
+      "Transforms"
+    ],
+    "comments": [],
+    "date_submitted": "2008-07-07T20:24:55Z",
+    "handles": [
+      {
+        "handle": "10380/1420",
+        "handle_url": "http://hdl.handle.net/10380/1420"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 43,
+        "journal_name": "ISBI 2015 Workshops"
+      },
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 585,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "zambal@vrvis.at",
+      "author_firstname": "Sebastian",
+      "author_fullname": "Zambal, Sebastian",
+      "author_id": 892,
+      "author_institution": "VRVis Research Center",
+      "author_lastname": "Zambal"
+    },
+    "tags": [
+      "model-based segmentation",
+      "coronary artery tracking"
+    ],
+    "title": "Shape and Appearance Models for Automatic Coronary Artery Tracking"
+  }
 }

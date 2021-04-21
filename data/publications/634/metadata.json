@@ -1,63 +1,66 @@
 {
- "publication": {
-  "abstract": "The task of classifying or labeling cortical sulci is made difficult by the fact that individual sulci may not have unique distinguishing features and usually need to be identified by a multivariate feature set that takes the relative spatial arrangement into account. In this paper, classical multidimensional scaling (MDS), which gives a geometric interpretation to input dissimilarity data, is used to classify 180 sulci drawn from the ten major classes of sulci. Using a leave-one-out validation strategy, we acheive a success rate of 100% in the best case and 78% in the worst case. For these more difficult cases, we propose a second stage of classification using shape based features. One of these features is the geodesic distance between sulcal curves obtained from a new open curve representation in a geometric framework.\r\nWith MDS, we o\ufb00er a simple and intuitive approach to a challenging problem. Not only can we easily separate left and right brain sulci, but we also narrow the classification problem from, in this case, a 10-class to a 2-class problem. More generally, we can identify a region-of-interest (ROI) within which one can carry out further classification.",
-  "authors": [
-   {
-    "author_fullname": "Srivastava, Anuj",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Barillot, Christian",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Mani, Meena",
-    "author_place": 1,
-    "persona_email": "memani@irisa.fr",
-    "persona_firstname": "Meena",
-    "persona_id": 2087,
-    "persona_lastname": "Mani"
-   }
-  ],
-  "categories": [
-   "Classification",
-   "Mathematics"
-  ],
-  "comments": [],
-  "date_submitted": "2008-09-12 11:41:14",
-  "handles": [
-   {
-    "handle": "10380/1502",
-    "handle_url": "http://hdl.handle.net/10380/1502"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 33,
-    "journal_name": "MICCAI 2008 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 634,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "memani@irisa.fr",
-   "author_firstname": "Meena",
-   "author_fullname": "Mani, Meena",
-   "author_id": 2087,
-   "author_institution": "INRIA/INSERM, Visages Project, IRISA, Rennes, France.",
-   "author_lastname": "Mani"
-  },
-  "tags": [
-   "labeling",
-   "cortical"
-  ],
-  "title": "The Labeling of Cortical Sulci using Multidimensional Scaling"
- }
+  "publication": {
+    "abstract": "The task of classifying or labeling cortical sulci is made difficult by the fact that individual sulci may not have unique distinguishing features and usually need to be identified by a multivariate feature set that takes the relative spatial arrangement into account. In this paper, classical multidimensional scaling (MDS), which gives a geometric interpretation to input dissimilarity data, is used to classify 180 sulci drawn from the ten major classes of sulci. Using a leave-one-out validation strategy, we acheive a success rate of 100% in the best case and 78% in the worst case. For these more difficult cases, we propose a second stage of classification using shape based features. One of these features is the geodesic distance between sulcal curves obtained from a new open curve representation in a geometric framework.\r\nWith MDS, we o\ufb00er a simple and intuitive approach to a challenging problem. Not only can we easily separate left and right brain sulci, but we also narrow the classification problem from, in this case, a 10-class to a 2-class problem. More generally, we can identify a region-of-interest (ROI) within which one can carry out further classification.",
+    "articles": [
+      "bafybeiatsbindj5hxzoga65qdmalulkxjuextpjjmckmoreki2a4toq5pm"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Srivastava, Anuj",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Barillot, Christian",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Mani, Meena",
+        "author_place": 1,
+        "persona_email": "memani@irisa.fr",
+        "persona_firstname": "Meena",
+        "persona_id": 2087,
+        "persona_lastname": "Mani"
+      }
+    ],
+    "categories": [
+      "Classification",
+      "Mathematics"
+    ],
+    "comments": [],
+    "date_submitted": "2008-09-12 11:41:14",
+    "handles": [
+      {
+        "handle": "10380/1502",
+        "handle_url": "http://hdl.handle.net/10380/1502"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 634,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "memani@irisa.fr",
+      "author_firstname": "Meena",
+      "author_fullname": "Mani, Meena",
+      "author_id": 2087,
+      "author_institution": "INRIA/INSERM, Visages Project, IRISA, Rennes, France.",
+      "author_lastname": "Mani"
+    },
+    "tags": [
+      "labeling",
+      "cortical"
+    ],
+    "title": "The Labeling of Cortical Sulci using Multidimensional Scaling"
+  }
 }

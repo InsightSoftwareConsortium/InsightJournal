@@ -1,98 +1,102 @@
 {
- "publication": {
-  "abstract": "An Insight Toolkit (ITK) implementation of our knowledgebased\r\nsegmentation algorithm applied to brain MRI scans is presented\r\nin this paper. Our algorithm is a refinement of the work of Teo, Saprio,\r\nand Wandall. The basic idea is to incorporate prior knowledge into the\r\nsegmentation through Bayesrule. Image noise is removed via an affine\r\ninvariant anisotropic smoothing of the posteriors as in Haker et. al.\r\nWe present the results of this code on two different projects. First, we\r\nshow the effect of applying this code to skull-removed brain MRI scans.\r\nSecond, we show the effect of applying this code to the extraction of the\r\nDLPFC from a user-defined subregion of brain MRI data.We present our\r\nresults on brain MRI scans, comparing the results of the knowledge-based\r\nsegmentation to manual segmentations on datasets of schizophrenic patients.",
-  "authors": [
-   {
-    "author_fullname": "Melonakos, John",
-    "author_place": 1,
-    "persona_email": "jmelonak@ece.gatech.edu",
-    "persona_firstname": "John",
-    "persona_id": 37,
-    "persona_lastname": "Melonakos"
-   },
-   {
-    "author_fullname": "Melonakos, John",
-    "author_place": 1,
-    "persona_email": "john@arrayfire.com",
-    "persona_firstname": "John",
-    "persona_id": 11869,
-    "persona_lastname": "Melonakos"
-   },
-   {
-    "author_fullname": "Al-Hakim, Ramsey",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Fallon, James",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Tannenbaum, Allen",
-    "author_place": 4,
-    "persona_id": null
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2005-08-05T21:08:11Z",
-  "handles": [
-   {
-    "handle": "1926/44",
-    "handle_url": "http://hdl.handle.net/1926/44"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 35,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "vincent-magnotta@uiowa.edu",
-     "author_firstname": "Vincent",
-     "author_id": 54,
-     "author_lastname": "Magnotta"
+  "publication": {
+    "abstract": "An Insight Toolkit (ITK) implementation of our knowledgebased\r\nsegmentation algorithm applied to brain MRI scans is presented\r\nin this paper. Our algorithm is a refinement of the work of Teo, Saprio,\r\nand Wandall. The basic idea is to incorporate prior knowledge into the\r\nsegmentation through Bayesrule. Image noise is removed via an affine\r\ninvariant anisotropic smoothing of the posteriors as in Haker et. al.\r\nWe present the results of this code on two different projects. First, we\r\nshow the effect of applying this code to skull-removed brain MRI scans.\r\nSecond, we show the effect of applying this code to the extraction of the\r\nDLPFC from a user-defined subregion of brain MRI data.We present our\r\nresults on brain MRI scans, comparing the results of the knowledge-based\r\nsegmentation to manual segmentations on datasets of schizophrenic patients.",
+    "articles": [
+      "bafybeia424m3a6x3gibwumo4c45csfpzpwpmj5u5gjhwxjgg5cze2y53cu",
+      "bafkreicunqe6idr52r3oasouppp7gxehsnxqoxbqroi7pxcde5qvkj4axe"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Melonakos, John",
+        "author_place": 1,
+        "persona_email": "jmelonak@ece.gatech.edu",
+        "persona_firstname": "John",
+        "persona_id": 37,
+        "persona_lastname": "Melonakos"
+      },
+      {
+        "author_fullname": "Melonakos, John",
+        "author_place": 1,
+        "persona_email": "john@arrayfire.com",
+        "persona_firstname": "John",
+        "persona_id": 11869,
+        "persona_lastname": "Melonakos"
+      },
+      {
+        "author_fullname": "Al-Hakim, Ramsey",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Fallon, James",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Tannenbaum, Allen",
+        "author_place": 4,
+        "persona_id": null
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2005-08-05T21:08:11Z",
+    "handles": [
+      {
+        "handle": "1926/44",
+        "handle_url": "http://hdl.handle.net/1926/44"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<b>Summary:</b>\r\n[Short description of the paper. In two or three phrases describe the problem that was addressed by the authors and the approach they took to solve it.]\r\nThis paper describes a Bayes based segmentation of cortical regions using MR images and expert based definitions for training the Bayes based classification. This was used to define DLPFC. \r\n\r\n<b>Hypothesis:</b>\r\n[If Applicable: Describe the assumptions that the authors have made and they hypothesis of their work, note that not all papers will fit the model of hypothesis driven work, for example, the description of an image database, or the description of a toolkit will not be driven by an hypothesis, in which case, please simply write : \u00e2\u0080\u009cNon Applicable\u00e2\u0080\u009d in this field or delete the subtitle.]\r\nAnatomical variavbility is not sufficiently large in DLPFC to allow a Bayes based classification to be applied to this region without additional image registration.\r\n\r\n<b>Evidence:</b>\r\n[Describe the evidence that the authors provide in order to support their claims in the paper. This is a key component on Open Science, opinions that are not supported by evidence should be labeled as \u00e2\u0080\u009cspeculations\u00e2\u0080\u009d or \u00e2\u0080\u009cauthor\u00e2\u0080\u0099s opinion\u00e2\u0080\u009d while. The same rule applies to the text of the reviews: claims should be supported by evidence]\r\nThe authors present DICE measures of region agreement. It is unclear why only single slice DICE metrics are provided instead of a 3D measure.\r\n\r\n<b>Open Science:</b>\r\n[Describe how much the paper and its addendums adhere to the concept of Open Science. Do the authors provide the source code of the programs used in their experiments? Do the authors provide the input images that they used? Or are those images publicly available? Do the authors provide the output images that they show in the paper? Do the authors provide enough details for you to be able to replicate their work?\r\nThe authors provide source code. No manual defined ROIs or image data is provided.\r\n\r\n<b>Reproducibility:</b>\r\n[Did you reproduce the authors\u00e2\u0080\u0099 work?\r\nDid you download their code? Did you compile it? Did you run it?\r\nDid you managed to get the same results that they reported?\r\nWere there information missing from the paper, that was necessary for you to reproduce the work? Suggest improvements that will make easier for future readers to reproduce this work.]\r\n\r\n<b>Use of Open Source Software:</b>\r\n[Did the authors use Open Source software in their work? Do they describe their experience with it, advantages and disadvantages? Do they provide advice for future users of those Open Source packages?]\r\n\r\n\r\n<b>Open Source Contributions:</b>\r\n[Do the author\u00e2\u0080\u0099s provide their source code? Is it in a form that is usable? Do they describe clearly how to use of the code? How long did it take you to use that code?]\r\n\r\n\r\n<b>Code Quality:</b>\r\n[If the authors provided their source code: Was the code easy to read? Did they use a modern coding style? Did they rely on non-portable mechanism? Was it suitable for multiple-platforms?]\r\n\r\n<b>Applicability to other problems:</b>\r\n[Do you find that the authors methods can be applied to other image analysis problems? Suggest other disciplines or even other specific projects that could take advantage of this work]\r\nThis approach has great potential for a variety of applications. \r\n\r\n<b>Suggestions for future work :</b>\r\n[Suggest to authors future directions for improving their methods, or other domains from which they could learn technique that could help them advance in their research.]\r\n\r\n\r\n<b>Requests for additional information from authors :</b>\r\n[Did you find that information was missing from the paper? Maybe parameters for running the tests? Maybe some images were missing? Would you like to get more details on how the diagrams, or plots were generated?]\r\nThe authors may want to specifiy how this algorithm relates to the work of Fischl et al.\r\n\r\n\r\n<b>Additional Comments:</b>\r\n[This is a free-form field]\r\n\r\n",
-    "date": "08-08-2005",
-    "review_id": 26
-   },
-   {
-    "author": {
-     "author_email": "gavinb@cs.mu.oz.au",
-     "author_firstname": "Gavin",
-     "author_id": 8,
-     "author_lastname": "Baker"
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 35,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "vincent-magnotta@uiowa.edu",
+          "author_firstname": "Vincent",
+          "author_id": 54,
+          "author_lastname": "Magnotta"
+        },
+        "content": "<b>Summary:</b>\r\n[Short description of the paper. In two or three phrases describe the problem that was addressed by the authors and the approach they took to solve it.]\r\nThis paper describes a Bayes based segmentation of cortical regions using MR images and expert based definitions for training the Bayes based classification. This was used to define DLPFC. \r\n\r\n<b>Hypothesis:</b>\r\n[If Applicable: Describe the assumptions that the authors have made and they hypothesis of their work, note that not all papers will fit the model of hypothesis driven work, for example, the description of an image database, or the description of a toolkit will not be driven by an hypothesis, in which case, please simply write : \u00e2\u0080\u009cNon Applicable\u00e2\u0080\u009d in this field or delete the subtitle.]\r\nAnatomical variavbility is not sufficiently large in DLPFC to allow a Bayes based classification to be applied to this region without additional image registration.\r\n\r\n<b>Evidence:</b>\r\n[Describe the evidence that the authors provide in order to support their claims in the paper. This is a key component on Open Science, opinions that are not supported by evidence should be labeled as \u00e2\u0080\u009cspeculations\u00e2\u0080\u009d or \u00e2\u0080\u009cauthor\u00e2\u0080\u0099s opinion\u00e2\u0080\u009d while. The same rule applies to the text of the reviews: claims should be supported by evidence]\r\nThe authors present DICE measures of region agreement. It is unclear why only single slice DICE metrics are provided instead of a 3D measure.\r\n\r\n<b>Open Science:</b>\r\n[Describe how much the paper and its addendums adhere to the concept of Open Science. Do the authors provide the source code of the programs used in their experiments? Do the authors provide the input images that they used? Or are those images publicly available? Do the authors provide the output images that they show in the paper? Do the authors provide enough details for you to be able to replicate their work?\r\nThe authors provide source code. No manual defined ROIs or image data is provided.\r\n\r\n<b>Reproducibility:</b>\r\n[Did you reproduce the authors\u00e2\u0080\u0099 work?\r\nDid you download their code? Did you compile it? Did you run it?\r\nDid you managed to get the same results that they reported?\r\nWere there information missing from the paper, that was necessary for you to reproduce the work? Suggest improvements that will make easier for future readers to reproduce this work.]\r\n\r\n<b>Use of Open Source Software:</b>\r\n[Did the authors use Open Source software in their work? Do they describe their experience with it, advantages and disadvantages? Do they provide advice for future users of those Open Source packages?]\r\n\r\n\r\n<b>Open Source Contributions:</b>\r\n[Do the author\u00e2\u0080\u0099s provide their source code? Is it in a form that is usable? Do they describe clearly how to use of the code? How long did it take you to use that code?]\r\n\r\n\r\n<b>Code Quality:</b>\r\n[If the authors provided their source code: Was the code easy to read? Did they use a modern coding style? Did they rely on non-portable mechanism? Was it suitable for multiple-platforms?]\r\n\r\n<b>Applicability to other problems:</b>\r\n[Do you find that the authors methods can be applied to other image analysis problems? Suggest other disciplines or even other specific projects that could take advantage of this work]\r\nThis approach has great potential for a variety of applications. \r\n\r\n<b>Suggestions for future work :</b>\r\n[Suggest to authors future directions for improving their methods, or other domains from which they could learn technique that could help them advance in their research.]\r\n\r\n\r\n<b>Requests for additional information from authors :</b>\r\n[Did you find that information was missing from the paper? Maybe parameters for running the tests? Maybe some images were missing? Would you like to get more details on how the diagrams, or plots were generated?]\r\nThe authors may want to specifiy how this algorithm relates to the work of Fischl et al.\r\n\r\n\r\n<b>Additional Comments:</b>\r\n[This is a free-form field]\r\n\r\n",
+        "date": "08-08-2005",
+        "review_id": 26
+      },
+      {
+        "author": {
+          "author_email": "gavinb@cs.mu.oz.au",
+          "author_firstname": "Gavin",
+          "author_id": 8,
+          "author_lastname": "Baker"
+        },
+        "content": "<b>Summary:</b>\r\n\r\nThis paper presents a statistical approach to segmenting MRI brain scans. It extends a method described by Teo et al. It is an implementation of a K-means classifier.\r\n\r\n<b>Hypothesis:</b>\r\n\r\nThe first stated assumption is that \"the value of each voxel intensity in a given class can be considered as a random variable, independent across pixels\". The second assumption is that the voxel intensities are normally distributed. The hypothesis of the paper is that <i>a priori</i> intensity statistics can be derived from an image which can then be used to segment the tissue types.\r\n\r\n<b>Evidence:</b>\r\n\r\nThe authors present segmentation results on two different MRI data sets. These results could not be reproduced, as the data and parameters were not provided.\r\n\r\nThe data used for validation was first from coronal MRI scans. The data was hand-segmented and compared with the classified output of the program. The correspondence in all 10 cases was very good (>0.7). The second test involved a single ROI from an MRI of the prefrontal cortex. The correspondence with manual segmentation was similarly high.\r\n\r\n<b>Open Science:</b>\r\n\r\nThe paper includes full source, but no data or parameters.\r\n\r\nThe full details of the algorithm are not included in this paper, apparently due to space constraints. This makes it difficult to evaluate the algorithm, verify the claims and implementation.\r\n\r\n<b>Reproducibility:</b>\r\n\r\nNo data was provided to reproduce the findings in the paper. At least one data set and accompanying parameters should be supplied, in order to enable people to reproduce the results.\r\n\r\nI downloaded, compiled and ran the program. It was built on a Debian GNU/Linux Pentium 4 system with GCC 3.3 and ITK CVS.\r\n\r\nIn the absence of any test data, I obtained a data set from BrainWeb (http://www.bic.mni.mcgill.ca/brainweb/). The dataset selected was Modality=T1, Protocol=ICBM, Phantom_name=normal, Slice_thickness=1mm, Noise=3%, INU=20%. Since the implementation works in 2D, I selected slice 87 for testing (being close to those shown in the paper, with bone, white matter, grey matter, and CSF - bone was note removed as mentioned in the paper). The histogram of this slice reveals 4 peaks (at approx 3.5, 42.1, 99.0, 133.2) representing the four classes mentioned above.\r\n\r\nThe program was run, specifying 2 filter passes and 4 classes. The output is shown below:\r\n\r\n<pre>\r\ncluster[0]-- \r\n estimated mean : 4.70918\r\n estimated covariance : 27.4318\r\ncluster[1]-- \r\n estimated mean : 46.2727\r\n estimated covariance : 136.147\r\ncluster[2]-- \r\n estimated mean : 97.0753\r\n estimated covariance : 98.3453\r\ncluster[3]-- \r\n estimated mean : 133.666\r\n estimated covariance : 103.385\r\nPrior image in initial section [0.25, 0.25, 0.25, 0.25]\r\nRawData image in initial section 0\r\nData image in initial section [1.79769e+308, 1.79769e+308, 1.79769e+308, 1.79769e+308]\r\nInitial Posteriors [4.49423e+307, 4.49423e+307, 4.49423e+307, 4.49423e+307]\r\nAfter renormalizing in initial section [0, 0, 0, 0]\r\nPosteriors after smoothing in initial section [nan, nan, nan, nan]\r\nLabel image in initial section 0\r\nPosteriors after decision rule in initial section [nan, nan, nan, nan]\r\n</pre>\r\n\r\nThe K-means clustering correctly identified the peaks in the histogram corresponding to the 4 classes to within a small degree. The labelled output was blank, presumably due to the zeros and nans in the results above. It appears the program failed to calculate the initial posteriors correctly. Further results were not persued.\r\n\r\n<b>Use of Open Source Software:</b>\r\n\r\nThe implementation is an extension of ITK, and adds a utility class. The algorithm described is intended to ultimately be contributed also, once it has been rewritten as a proper ITK filter.\r\n\r\n<b>Open Source Contributions:</b>\r\n\r\nSource is provided to test the algorithm in the form of a command-line program, which appears to be portable. The paper describes how to use the code. However as it stands the algorithm is implemented as one monolithic function as main(), and is not reusable in its current form.\r\n\r\n<b>Code Quality:</b>\r\n\r\nThe code did not build as published. The CMakeLists file needed to be changed to refer to the main driver program, and some corrections needed to be applied to KnowledgeBasedSegmentation.cxx in order to compile and run correctly:\r\n\r\n<pre>\r\n--- orig/KnowledgeBasedSegmentation.cxx 2005-09-16 18:03:11.898713993 +1000\r\n+++ ./KnowledgeBasedSegmentation.cxx 2005-09-16 19:27:30.498662560 +1000\r\n@@ -37,7 +37,7 @@\r\n int main( int argc, char * argv [] )\r\n {\r\n \r\n- if( argc < 8 )\r\n+ if( argc < 5 )\r\n {\r\n std::cerr << \"Missing command line arguments\" << std::endl;\r\n std::cerr << \"Parameters: inputFileName outputFileName nSmoothingIterations nClasses\" << std::endl;\r\n@@ -46,8 +46,8 @@\r\n \r\n char * rawDataFileName = argv[1];\r\n char * labelMapFileName = argv[2];\r\n- int nSmoothingIterations = argv[3]; // USER VARIABLE (DEFAULT = 10)\r\n- unsigned int nClasses = argv[4];\r\n+ int nSmoothingIterations = atoi(argv[3]); // USER VARIABLE (DEFAULT = 10)\r\n+ unsigned int nClasses = atoi(argv[4]);\r\n float timeStep = 0.1; // USER VARIABLE (DEFAULT = 0.1)\r\n float conductance = 3.0; // USER VARIABLE (DEFAULT = 3.0)\r\n</pre>\r\n\r\nThe implementation is provided largely in one very large main() function. This does not follow the principles of modular design, and prevents the algorithm being reused in other projects. The coding style is fairly consistent but sparsely commented.\r\n\r\nAs shown above, the program did not appear to run correctly to completion, so no real results were obtained.\r\n\r\nThe code uses only standard ITK and C library functions, and should be easily portable to common platforms.\r\n\r\n<b>Applicability to other problems:</b>\r\n\r\nThis technique could be developed further and extended to apply to other k-class segmentation problems.\r\n\r\n<b>Suggestions for future work:</b>\r\n\r\nThe explanation of the algorithm design could benefit from expansion.\r\n\r\n<b>Requests for additional information from authors:</b>\r\n\r\nWhy is the algorithm only working in 2D with individual slices?\r\n\r\nWhy does \"removing\" the bone improve the results? Surely it is simply another tissue class?\r\n\r\nWhy did you choose DICE to compare the segmentation results?\r\n\r\nIt would be very helpful to provide at least one test data set and the parameters required to reproduce the data you describe in the paper.\r\n\r\nSteps 2-4 need further explanation and discussion.\r\n\r\n<b>Additional Comments:</b>\r\n\r\nMany people view the term \"knowledge-based\" as a fairly significant claim, often overused, in that \"knowledge\" is a very high-level concept implying experience, ideas and inferences. In other words, much more than just facts, data or statistics. In this case, the segmentation is ostensibly based on <i>a priori</i> statistics, which is arguably not the same as \"knowledge\".\r\n\r\nIn this instance, <i>a priori</i> information is not gathered from other training data sets. The statistics are gathered from the one image, and the cluster means are used to classify each voxel using a MAP approach. It is probably a stretch to call this \"knowledge-based\".\r\n\r\nThe paper does not discuss other statistical approaches, nor contextualise this research.\r\n\r\nAs the paper suggests this is part of ongoing work, the newer more developed versions could serve as a useful addition to the ITK codebase.\r\n",
+        "date": "09-16-2005",
+        "review_id": 85
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "jmelonak@ece.gatech.edu",
+      "author_firstname": "John",
+      "author_fullname": "Melonakos, John",
+      "author_id": 37,
+      "author_institution": "Georgia Tech",
+      "author_lastname": "Melonakos"
     },
-    "content": "<b>Summary:</b>\r\n\r\nThis paper presents a statistical approach to segmenting MRI brain scans. It extends a method described by Teo et al. It is an implementation of a K-means classifier.\r\n\r\n<b>Hypothesis:</b>\r\n\r\nThe first stated assumption is that \"the value of each voxel intensity in a given class can be considered as a random variable, independent across pixels\". The second assumption is that the voxel intensities are normally distributed. The hypothesis of the paper is that <i>a priori</i> intensity statistics can be derived from an image which can then be used to segment the tissue types.\r\n\r\n<b>Evidence:</b>\r\n\r\nThe authors present segmentation results on two different MRI data sets. These results could not be reproduced, as the data and parameters were not provided.\r\n\r\nThe data used for validation was first from coronal MRI scans. The data was hand-segmented and compared with the classified output of the program. The correspondence in all 10 cases was very good (>0.7). The second test involved a single ROI from an MRI of the prefrontal cortex. The correspondence with manual segmentation was similarly high.\r\n\r\n<b>Open Science:</b>\r\n\r\nThe paper includes full source, but no data or parameters.\r\n\r\nThe full details of the algorithm are not included in this paper, apparently due to space constraints. This makes it difficult to evaluate the algorithm, verify the claims and implementation.\r\n\r\n<b>Reproducibility:</b>\r\n\r\nNo data was provided to reproduce the findings in the paper. At least one data set and accompanying parameters should be supplied, in order to enable people to reproduce the results.\r\n\r\nI downloaded, compiled and ran the program. It was built on a Debian GNU/Linux Pentium 4 system with GCC 3.3 and ITK CVS.\r\n\r\nIn the absence of any test data, I obtained a data set from BrainWeb (http://www.bic.mni.mcgill.ca/brainweb/). The dataset selected was Modality=T1, Protocol=ICBM, Phantom_name=normal, Slice_thickness=1mm, Noise=3%, INU=20%. Since the implementation works in 2D, I selected slice 87 for testing (being close to those shown in the paper, with bone, white matter, grey matter, and CSF - bone was note removed as mentioned in the paper). The histogram of this slice reveals 4 peaks (at approx 3.5, 42.1, 99.0, 133.2) representing the four classes mentioned above.\r\n\r\nThe program was run, specifying 2 filter passes and 4 classes. The output is shown below:\r\n\r\n<pre>\r\ncluster[0]-- \r\n estimated mean : 4.70918\r\n estimated covariance : 27.4318\r\ncluster[1]-- \r\n estimated mean : 46.2727\r\n estimated covariance : 136.147\r\ncluster[2]-- \r\n estimated mean : 97.0753\r\n estimated covariance : 98.3453\r\ncluster[3]-- \r\n estimated mean : 133.666\r\n estimated covariance : 103.385\r\nPrior image in initial section [0.25, 0.25, 0.25, 0.25]\r\nRawData image in initial section 0\r\nData image in initial section [1.79769e+308, 1.79769e+308, 1.79769e+308, 1.79769e+308]\r\nInitial Posteriors [4.49423e+307, 4.49423e+307, 4.49423e+307, 4.49423e+307]\r\nAfter renormalizing in initial section [0, 0, 0, 0]\r\nPosteriors after smoothing in initial section [nan, nan, nan, nan]\r\nLabel image in initial section 0\r\nPosteriors after decision rule in initial section [nan, nan, nan, nan]\r\n</pre>\r\n\r\nThe K-means clustering correctly identified the peaks in the histogram corresponding to the 4 classes to within a small degree. The labelled output was blank, presumably due to the zeros and nans in the results above. It appears the program failed to calculate the initial posteriors correctly. Further results were not persued.\r\n\r\n<b>Use of Open Source Software:</b>\r\n\r\nThe implementation is an extension of ITK, and adds a utility class. The algorithm described is intended to ultimately be contributed also, once it has been rewritten as a proper ITK filter.\r\n\r\n<b>Open Source Contributions:</b>\r\n\r\nSource is provided to test the algorithm in the form of a command-line program, which appears to be portable. The paper describes how to use the code. However as it stands the algorithm is implemented as one monolithic function as main(), and is not reusable in its current form.\r\n\r\n<b>Code Quality:</b>\r\n\r\nThe code did not build as published. The CMakeLists file needed to be changed to refer to the main driver program, and some corrections needed to be applied to KnowledgeBasedSegmentation.cxx in order to compile and run correctly:\r\n\r\n<pre>\r\n--- orig/KnowledgeBasedSegmentation.cxx 2005-09-16 18:03:11.898713993 +1000\r\n+++ ./KnowledgeBasedSegmentation.cxx 2005-09-16 19:27:30.498662560 +1000\r\n@@ -37,7 +37,7 @@\r\n int main( int argc, char * argv [] )\r\n {\r\n \r\n- if( argc < 8 )\r\n+ if( argc < 5 )\r\n {\r\n std::cerr << \"Missing command line arguments\" << std::endl;\r\n std::cerr << \"Parameters: inputFileName outputFileName nSmoothingIterations nClasses\" << std::endl;\r\n@@ -46,8 +46,8 @@\r\n \r\n char * rawDataFileName = argv[1];\r\n char * labelMapFileName = argv[2];\r\n- int nSmoothingIterations = argv[3]; // USER VARIABLE (DEFAULT = 10)\r\n- unsigned int nClasses = argv[4];\r\n+ int nSmoothingIterations = atoi(argv[3]); // USER VARIABLE (DEFAULT = 10)\r\n+ unsigned int nClasses = atoi(argv[4]);\r\n float timeStep = 0.1; // USER VARIABLE (DEFAULT = 0.1)\r\n float conductance = 3.0; // USER VARIABLE (DEFAULT = 3.0)\r\n</pre>\r\n\r\nThe implementation is provided largely in one very large main() function. This does not follow the principles of modular design, and prevents the algorithm being reused in other projects. The coding style is fairly consistent but sparsely commented.\r\n\r\nAs shown above, the program did not appear to run correctly to completion, so no real results were obtained.\r\n\r\nThe code uses only standard ITK and C library functions, and should be easily portable to common platforms.\r\n\r\n<b>Applicability to other problems:</b>\r\n\r\nThis technique could be developed further and extended to apply to other k-class segmentation problems.\r\n\r\n<b>Suggestions for future work:</b>\r\n\r\nThe explanation of the algorithm design could benefit from expansion.\r\n\r\n<b>Requests for additional information from authors:</b>\r\n\r\nWhy is the algorithm only working in 2D with individual slices?\r\n\r\nWhy does \"removing\" the bone improve the results? Surely it is simply another tissue class?\r\n\r\nWhy did you choose DICE to compare the segmentation results?\r\n\r\nIt would be very helpful to provide at least one test data set and the parameters required to reproduce the data you describe in the paper.\r\n\r\nSteps 2-4 need further explanation and discussion.\r\n\r\n<b>Additional Comments:</b>\r\n\r\nMany people view the term \"knowledge-based\" as a fairly significant claim, often overused, in that \"knowledge\" is a very high-level concept implying experience, ideas and inferences. In other words, much more than just facts, data or statistics. In this case, the segmentation is ostensibly based on <i>a priori</i> statistics, which is arguably not the same as \"knowledge\".\r\n\r\nIn this instance, <i>a priori</i> information is not gathered from other training data sets. The statistics are gathered from the one image, and the cluster means are used to classify each voxel using a MAP approach. It is probably a stretch to call this \"knowledge-based\".\r\n\r\nThe paper does not discuss other statistical approaches, nor contextualise this research.\r\n\r\nAs the paper suggests this is part of ongoing work, the newer more developed versions could serve as a useful addition to the ITK codebase.\r\n",
-    "date": "09-16-2005",
-    "review_id": 85
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "jmelonak@ece.gatech.edu",
-   "author_firstname": "John",
-   "author_fullname": "Melonakos, John",
-   "author_id": 37,
-   "author_institution": "Georgia Tech",
-   "author_lastname": "Melonakos"
-  },
-  "tags": [
-   "DLPFC",
-   "Knowledge-Based Segmentation",
-   "Brain MRI Scans",
-   "Bayes' Rule"
-  ],
-  "title": "Knowledge-Based Segmentation of Brain MRI Scans Using the Insight Toolkit"
- }
+    "tags": [
+      "DLPFC",
+      "Knowledge-Based Segmentation",
+      "Brain MRI Scans",
+      "Bayes' Rule"
+    ],
+    "title": "Knowledge-Based Segmentation of Brain MRI Scans Using the Insight Toolkit"
+  }
 }

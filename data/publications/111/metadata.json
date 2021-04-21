@@ -1,125 +1,139 @@
 {
- "publication": {
-  "abstract": "Statistical Shape Models are a popular method for segmenting three-dimensional medical images. To\r\nobtain the required landmark correspondences, various automatic approaches have been proposed. In\r\nthis work, we present an improved version of minimizing the description length (MDL) of the model. To\r\ninitialize the algorithm, we describe a method to distribute landmarks on the training shapes using a conformal\r\nparameterization function. Then, we introduce a novel procedure to modify landmark positions\r\nlocally without disturbing established correspondences. We employ a gradient descent optimization to\r\nminimize the MDL cost function, speeding up automatic model building by several orders of magnitude\r\nwhen compared to the original MDL approach. The necessary gradient information is estimated from\r\na singular value decomposition, a more accurate technique to calculate the PCA than the commonly\r\nused eigendecomposition of the covariance matrix. In this work, we first present a basic version where\r\nspatial locations are used in the MDL cost function; next, we introduce an extended version where any\r\ncombination of features can be used as a metric. As an example application, we present results based on\r\nlocal curvature measurements. Finally, we present results for synthetic and real-world datasets demonstrating\r\nthe efficiency of our procedures and give details about the implementation using the Insight\r\nToolkit (ITK).",
-  "authors": [
-   {
-    "author_fullname": "Heimann, Tobias",
-    "author_place": 1,
-    "persona_email": "t.heimann@dkfz-heidelberg.de",
-    "persona_firstname": "Tobias",
-    "persona_id": 210,
-    "persona_lastname": "Heimann"
-   },
-   {
-    "author_fullname": "Oguz, Ipek",
-    "author_place": 2,
-    "persona_email": "ipek@cs.unc.edu",
-    "persona_firstname": "Ipek",
-    "persona_id": 122,
-    "persona_lastname": "Oguz"
-   },
-   {
-    "author_fullname": "Wolf, Ivo",
-    "author_place": 3,
-    "persona_email": "i.wolf@dkfz.de",
-    "persona_firstname": "Ivo",
-    "persona_id": 6,
-    "persona_lastname": "Wolf"
-   },
-   {
-    "author_fullname": "Styner, Martin",
-    "author_place": 4,
-    "persona_email": "styner@cs.unc.edu",
-    "persona_firstname": "Martin",
-    "persona_id": 28,
-    "persona_lastname": "Styner"
-   },
-   {
-    "author_fullname": "Meinzer, Hans-Peter",
-    "author_place": 5,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Data",
-   "Programming"
-  ],
-  "comments": [
-   {
-    "content": "Just to point out that the implementation as reported in the paper is NOT full MDL, but the simplification as used by Thodberg. This is, in effect, what we used to initialise the full MDL objective function, hence it is really no surprise that other methods can out perform this Thodberg pseudo-MDL, and out performing this DOESN\\'T mean that your results are better than the full MDL objective function, the proper Davies et al one from Manchester.",
-    "date": "2011-09-01T09:55:54",
-    "persona_email": "carole.twining@manchester.ac.uk",
-    "persona_firstname": "Carole",
-    "persona_id": 4118,
-    "persona_lastname": "Twining"
-   }
-  ],
-  "date_submitted": "2006-07-11T02:10:48Z",
-  "handles": [
-   {
-    "handle": "1926/224",
-    "handle_url": "http://hdl.handle.net/1926/224"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 111,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "hamarneh@cs.sfu.ca",
-     "author_firstname": "Ghassan",
-     "author_id": 10,
-     "author_lastname": "Hamarneh"
+  "publication": {
+    "abstract": "Statistical Shape Models are a popular method for segmenting three-dimensional medical images. To\r\nobtain the required landmark correspondences, various automatic approaches have been proposed. In\r\nthis work, we present an improved version of minimizing the description length (MDL) of the model. To\r\ninitialize the algorithm, we describe a method to distribute landmarks on the training shapes using a conformal\r\nparameterization function. Then, we introduce a novel procedure to modify landmark positions\r\nlocally without disturbing established correspondences. We employ a gradient descent optimization to\r\nminimize the MDL cost function, speeding up automatic model building by several orders of magnitude\r\nwhen compared to the original MDL approach. The necessary gradient information is estimated from\r\na singular value decomposition, a more accurate technique to calculate the PCA than the commonly\r\nused eigendecomposition of the covariance matrix. In this work, we first present a basic version where\r\nspatial locations are used in the MDL cost function; next, we introduce an extended version where any\r\ncombination of features can be used as a metric. As an example application, we present results based on\r\nlocal curvature measurements. Finally, we present results for synthetic and real-world datasets demonstrating\r\nthe efficiency of our procedures and give details about the implementation using the Insight\r\nToolkit (ITK).",
+    "articles": [
+      "bafybeienfki74mxok4gnsrvdvvbarn445yoj26ofwncgb5hgt52zceo4au",
+      "bafybeigcfxdmzzcj7gsukpos5i4j3ejpqegfpzp7qcy7ul3irfryw2nkou",
+      "bafybeigcfxdmzzcj7gsukpos5i4j3ejpqegfpzp7qcy7ul3irfryw2nkou",
+      "bafybeigcfxdmzzcj7gsukpos5i4j3ejpqegfpzp7qcy7ul3irfryw2nkou",
+      "bafybeifusir3pbniiusoocuca33dhdjkrt33jobwo6qp6zhh6z2emgmnoq",
+      "bafybeifusir3pbniiusoocuca33dhdjkrt33jobwo6qp6zhh6z2emgmnoq",
+      "bafybeifusir3pbniiusoocuca33dhdjkrt33jobwo6qp6zhh6z2emgmnoq",
+      "bafybeigcfxdmzzcj7gsukpos5i4j3ejpqegfpzp7qcy7ul3irfryw2nkou",
+      "bafybeigcfxdmzzcj7gsukpos5i4j3ejpqegfpzp7qcy7ul3irfryw2nkou",
+      "bafybeigcfxdmzzcj7gsukpos5i4j3ejpqegfpzp7qcy7ul3irfryw2nkou",
+      "bafybeigcfxdmzzcj7gsukpos5i4j3ejpqegfpzp7qcy7ul3irfryw2nkou",
+      "bafybeigcfxdmzzcj7gsukpos5i4j3ejpqegfpzp7qcy7ul3irfryw2nkou"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Heimann, Tobias",
+        "author_place": 1,
+        "persona_email": "t.heimann@dkfz-heidelberg.de",
+        "persona_firstname": "Tobias",
+        "persona_id": 210,
+        "persona_lastname": "Heimann"
+      },
+      {
+        "author_fullname": "Oguz, Ipek",
+        "author_place": 2,
+        "persona_email": "ipek@cs.unc.edu",
+        "persona_firstname": "Ipek",
+        "persona_id": 122,
+        "persona_lastname": "Oguz"
+      },
+      {
+        "author_fullname": "Wolf, Ivo",
+        "author_place": 3,
+        "persona_email": "i.wolf@dkfz.de",
+        "persona_firstname": "Ivo",
+        "persona_id": 6,
+        "persona_lastname": "Wolf"
+      },
+      {
+        "author_fullname": "Styner, Martin",
+        "author_place": 4,
+        "persona_email": "styner@cs.unc.edu",
+        "persona_firstname": "Martin",
+        "persona_id": 28,
+        "persona_lastname": "Styner"
+      },
+      {
+        "author_fullname": "Meinzer, Hans-Peter",
+        "author_place": 5,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Data",
+      "Programming"
+    ],
+    "comments": [
+      {
+        "content": "Just to point out that the implementation as reported in the paper is NOT full MDL, but the simplification as used by Thodberg. This is, in effect, what we used to initialise the full MDL objective function, hence it is really no surprise that other methods can out perform this Thodberg pseudo-MDL, and out performing this DOESN\\'T mean that your results are better than the full MDL objective function, the proper Davies et al one from Manchester.",
+        "date": "2011-09-01T09:55:54",
+        "persona_email": "carole.twining@manchester.ac.uk",
+        "persona_firstname": "Carole",
+        "persona_id": 4118,
+        "persona_lastname": "Twining"
+      }
+    ],
+    "date_submitted": "2006-07-11T02:10:48Z",
+    "handles": [
+      {
+        "handle": "1926/224",
+        "handle_url": "http://hdl.handle.net/1926/224"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<b>Summary:</b>\r\n\r\nThe authors present a pipeline for establishing 3D shape correspondence. The implementation is based on concepts from earlier work [2-7], including MDL, shape index and curvedness local features, and establishing correspondence on the unit sphere.\r\n\r\n<b>Hypothesis:</b>\r\n\r\n<li> The importance of statistical shape analysis in clinical applications. \r\n<li> The need for open source code and software for establishing 3D shape correspondence statistical model building.\r\n<li> The author\u00e2\u0080\u0099s submission provides a means to perform 3D statistical shape analysis.\r\n\r\n<b>Evidence:</b>\r\n\r\nThe authors describe and provide code and sample data for creating statistical shape models. The authors made particular choices regarding how these models are created (e.g. MDL-based, specific local features, specific shape representation).\r\n\r\n<b>Open Science:</b>\r\n\r\nSee next section.\r\n\r\n<b>Reproducibility:</b>\r\n\r\nITK classes, code and data are provided. See below.\r\n\r\nI downloaded all the files including the source code, but did not build the code. The authors provide an application (see main.cpp), a single data set of cuboids, and an example of command line argument.\r\n\r\nThe authors write: \u00e2\u0080\u009cA detailed overview of how the example application works is useful to demonstrate how the various classes work together. Initially, an instance\u00e2\u0080\u00a6.\u00e2\u0080\u009d. This paragraph is useful for understanding the framework. It would have been helpful to refer the reader to specific lines from the main.cpp file.\r\n\r\n\r\nThe authors write that the framework is flexible enough allowing the use of other local shape features. However, details describing which classes, source code, or virtual functions (?) need to be implemented or modified to accomplish this. I was expecting to find something like: \r\n\r\n ssmCalculator->SetLocalFeatures( ShapeIndexAndCurvedness);\r\n\r\nIn this way the framework may be used to compare the correspondence results and statistical model created when different local features are used. \r\n\r\n<b>Use of Open Source Software:</b>\r\n\r\nThe authors make use of CMAKE and ITK coding style. Experience or advice related to open source are not given.\r\n\r\n<b>Open Source Contributions:</b>\r\n\r\nThe authors provide the source code (and sample data). Users familiar with CMAKE should be able to build the provided application. CMakeLists.txt is provided.\r\n\r\n<b>Code Quality:</b>\r\n\r\nMain.cpp hardly has any comments. Other random files checked do not have any comments at all.\r\n\r\n<b>Applicability to other problems:</b>\r\n\r\nCode can be applied to general shape correspondence problems in non-medical applications, for example for shape modelling, geometry processing, and computer graphics.\r\n\r\n<b>Suggestions for future work:</b>\r\n\r\nI think that it would be valuable to provide a class\r\nitk::SpatialObjectToSpatialObjectRegistrationMethod\r\nwhere this work would be an instantiation of.\r\n\r\nPerhaps ImageToImage, SpatialObjectToSpatialObject, ImageToSpatialObject, and SpatialObjectToImage should all inherit from a higher level ObjectToObjectRegistrationMethod.\r\n\r\nIt would be valuable to be able to specify the different components of the shape correspondence (or the SpatialObjectToSpatialObject \u00e2\u0080\u00a6) framework in a manner similar to the current image registration framework of ITK. In the image registration framework the user can set the transform, similarity metric, optimization, interpolation etc. It seems to me it is natural to have a similar framework for shape \u00e2\u0080\u0098registration\u00e2\u0080\u0099, where the following can be set: contours vs surfaces, shape representation, correspondence/mapping representation, local features, cost functions, optimization strategy, etc. This will require a substantial investment in designing such a framework, similar to what has been undertaken for the image registration framework (perhaps even learning from that experience to provide improvements). Such a new framework will be more welcoming for other researchers and developers to create other modules (e.g. a new local feature or cost function). The current submission under review could be thought of as a single instantiation of such a general shape correspondence pipeline. The current submission does have some aspects of this general pipeline. \r\nA tutorial similar to the: \u00e2\u0080\u009cHello World\u00e2\u0080\u009d Registration (section 8.2 in the ITK guide, edition 2, ITK2.4) would be beneficial.\r\n\r\nThe MDL approach ties the correspondence problem with building the statistical shape model. It might be beneficial in some cases to examine different statistical analyses or model building approaches assuming an already established correspondence.\r\n\r\n\r\n\r\n<b>Requests for additional information from authors:</b>\r\n\r\n\r\nIt is hard to read the text in the flowchart of Figure 4 in the PDF submission. A higher resolution figure would be good.\r\n\r\nCan the framework be applied in 2D to match contours (not surfaces) of shapes?\r\n\r\nIt appears that the software or code used to produce the images and coloring in Figure 2 is not provided. How can these figures be generated?\r\n\r\n<b>Additional Comments:</b>",
-    "date": "08-30-2006",
-    "review_id": 345
-   },
-   {
-    "author": {
-     "author_email": "millerjv@research.ge.com",
-     "author_firstname": "James",
-     "author_id": 232,
-     "author_lastname": "Miller"
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 111,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "hamarneh@cs.sfu.ca",
+          "author_firstname": "Ghassan",
+          "author_id": 10,
+          "author_lastname": "Hamarneh"
+        },
+        "content": "<b>Summary:</b>\r\n\r\nThe authors present a pipeline for establishing 3D shape correspondence. The implementation is based on concepts from earlier work [2-7], including MDL, shape index and curvedness local features, and establishing correspondence on the unit sphere.\r\n\r\n<b>Hypothesis:</b>\r\n\r\n<li> The importance of statistical shape analysis in clinical applications. \r\n<li> The need for open source code and software for establishing 3D shape correspondence statistical model building.\r\n<li> The author\u00e2\u0080\u0099s submission provides a means to perform 3D statistical shape analysis.\r\n\r\n<b>Evidence:</b>\r\n\r\nThe authors describe and provide code and sample data for creating statistical shape models. The authors made particular choices regarding how these models are created (e.g. MDL-based, specific local features, specific shape representation).\r\n\r\n<b>Open Science:</b>\r\n\r\nSee next section.\r\n\r\n<b>Reproducibility:</b>\r\n\r\nITK classes, code and data are provided. See below.\r\n\r\nI downloaded all the files including the source code, but did not build the code. The authors provide an application (see main.cpp), a single data set of cuboids, and an example of command line argument.\r\n\r\nThe authors write: \u00e2\u0080\u009cA detailed overview of how the example application works is useful to demonstrate how the various classes work together. Initially, an instance\u00e2\u0080\u00a6.\u00e2\u0080\u009d. This paragraph is useful for understanding the framework. It would have been helpful to refer the reader to specific lines from the main.cpp file.\r\n\r\n\r\nThe authors write that the framework is flexible enough allowing the use of other local shape features. However, details describing which classes, source code, or virtual functions (?) need to be implemented or modified to accomplish this. I was expecting to find something like: \r\n\r\n ssmCalculator->SetLocalFeatures( ShapeIndexAndCurvedness);\r\n\r\nIn this way the framework may be used to compare the correspondence results and statistical model created when different local features are used. \r\n\r\n<b>Use of Open Source Software:</b>\r\n\r\nThe authors make use of CMAKE and ITK coding style. Experience or advice related to open source are not given.\r\n\r\n<b>Open Source Contributions:</b>\r\n\r\nThe authors provide the source code (and sample data). Users familiar with CMAKE should be able to build the provided application. CMakeLists.txt is provided.\r\n\r\n<b>Code Quality:</b>\r\n\r\nMain.cpp hardly has any comments. Other random files checked do not have any comments at all.\r\n\r\n<b>Applicability to other problems:</b>\r\n\r\nCode can be applied to general shape correspondence problems in non-medical applications, for example for shape modelling, geometry processing, and computer graphics.\r\n\r\n<b>Suggestions for future work:</b>\r\n\r\nI think that it would be valuable to provide a class\r\nitk::SpatialObjectToSpatialObjectRegistrationMethod\r\nwhere this work would be an instantiation of.\r\n\r\nPerhaps ImageToImage, SpatialObjectToSpatialObject, ImageToSpatialObject, and SpatialObjectToImage should all inherit from a higher level ObjectToObjectRegistrationMethod.\r\n\r\nIt would be valuable to be able to specify the different components of the shape correspondence (or the SpatialObjectToSpatialObject \u00e2\u0080\u00a6) framework in a manner similar to the current image registration framework of ITK. In the image registration framework the user can set the transform, similarity metric, optimization, interpolation etc. It seems to me it is natural to have a similar framework for shape \u00e2\u0080\u0098registration\u00e2\u0080\u0099, where the following can be set: contours vs surfaces, shape representation, correspondence/mapping representation, local features, cost functions, optimization strategy, etc. This will require a substantial investment in designing such a framework, similar to what has been undertaken for the image registration framework (perhaps even learning from that experience to provide improvements). Such a new framework will be more welcoming for other researchers and developers to create other modules (e.g. a new local feature or cost function). The current submission under review could be thought of as a single instantiation of such a general shape correspondence pipeline. The current submission does have some aspects of this general pipeline. \r\nA tutorial similar to the: \u00e2\u0080\u009cHello World\u00e2\u0080\u009d Registration (section 8.2 in the ITK guide, edition 2, ITK2.4) would be beneficial.\r\n\r\nThe MDL approach ties the correspondence problem with building the statistical shape model. It might be beneficial in some cases to examine different statistical analyses or model building approaches assuming an already established correspondence.\r\n\r\n\r\n\r\n<b>Requests for additional information from authors:</b>\r\n\r\n\r\nIt is hard to read the text in the flowchart of Figure 4 in the PDF submission. A higher resolution figure would be good.\r\n\r\nCan the framework be applied in 2D to match contours (not surfaces) of shapes?\r\n\r\nIt appears that the software or code used to produce the images and coloring in Figure 2 is not provided. How can these figures be generated?\r\n\r\n<b>Additional Comments:</b>",
+        "date": "08-30-2006",
+        "review_id": 345
+      },
+      {
+        "author": {
+          "author_email": "millerjv@research.ge.com",
+          "author_firstname": "James",
+          "author_id": 232,
+          "author_lastname": "Miller"
+        },
+        "content": "<b>Summary:</b>\r\nThis paper describes (and provides) methods for generating statistical shape models. A minimum description length landmark generation method is implemented. Additional features can also be used to control the selection of landmarks.\r\n\r\nAutomated generation of statistical shape models in important. While specifying shape models manually in 2D is not too taxing, the problem becomes very burdonsome for 3D objects. The methods provided here will increase the use of statistical shape models in ITK.\r\n \r\n<b>Hypothesis:</b>\r\nNon Applicable\r\n\r\n<b>Evidence:</b>\r\n\r\n\r\n<b>Open Science:</b>\r\nPaper provides source code and data.\r\n\r\n<b>Reproducibility:</b>\r\nThe software built without issue for me.\r\n\r\n<b>Use of Open Source Software:</b>\r\nProvides an ITK framework for constructing shape models.\r\n\r\n<b>Open Source Contributions:</b>\r\nSource code provided. While in an ITK framework, many of object inherit from itkObject. Does it make sense for some of the algorithms to be implemented as filters?\r\n\r\nThis paper only covers the construction of the statistical shape model, not its application.\r\n\r\n<b>Code Quality:</b>\r\nSee the above note.\r\n\r\n<b>Applicability to other problems:</b>\r\nStatistical shape models are an important component of medical image analysis. They are not utilized more because of the difficulty in specifying the models in 3D. \r\n\r\n<b>Suggestions for future work:</b>\r\n\r\n\r\n<b>Requests for additional information from authors:</b>\r\n\r\nThis paper only covers the construction of the statistical shape model, not its application. Is there another paper on the application or do the authors use existing ITK methods to fit a statistical shape model to an image?\r\n\r\n<b>Additional Comments:</b>\r\n",
+        "date": "08-30-2006",
+        "review_id": 346
+      },
+      {
+        "author": {
+          "author_email": "syrkina@vision.ee.ethz.ch",
+          "author_firstname": "Ekaterina",
+          "author_id": 529,
+          "author_lastname": "Syrkina"
+        },
+        "content": "<p><strong>Summary:</strong><br />With this work authors present flexible software for establishing correspondence between shape boundaries over a given training set. This is the main step in statistical shape model building. Application is restricted to the objects with spherical topology. Framework for the model building itself (after establishing correspondence) is not provided, but this is the minor step in the problem.<br /> <br /> <strong>Hypothesis:</strong><br />Not applicable<br /> <br /> <strong>Evidence:</strong><br />As far as I know, presented work is the first open source for this particular problem. Default settings has been proven by appropriate for the MDL approach measurements to give the best results (see authors&#39; IPMI paper), but it also possible to change some parts of the algorithm such as cost function, initial parametrisation, landmark positions, use of features and other fine tunings (up to now I&#39;ve tried only default settings). </p><p> <strong>Open Science:</strong><br /> Source code is available, but there is only one example data set (cuboids). </p><p> <strong>Reproducibility:</strong><br />I&#39;ve downloaded and compiled the code without any problems. </p><p>Running. The following statement from the paper is not correct in the current implementation: &quot;A main() function is provided along with these classes as a ready to use tool. The only parameters to this tool are an input list file, a landmark file, and a model radius.&quot; There is 4th parameter in the last version and I get segmentation fault without it (while there is the check of the number of input parameters in main.cc, I do not get the expected message: &quot;Usage: &quot; &lt;&lt; argv[0] &lt;&lt; &quot; MeshListFile LandmarkFile ModelRadius OutputLandmarkFile&quot;). Would be nice to see more detailed description when running the program (e.g. with &quot;-h&quot;). Also I get warnings with no sense for me: &quot;Couldn&#39;t convert pixel type&quot;.</p><p>Comment for Linux users: data are provided with Windows line breaks, you have to use something like dos2unix to avoid problems. It would be nice to have data for both Linux and Windows platforms. </p><p><strong>Use of Open Source Software:</strong><br />ITK, cmake </p><p> <strong>Open Source Contributions:</strong><br />Source code is provided, main classes are described, but more clear and up to date instructions how to use it are neccesary. </p><p>Classes for mesh writers in different formats are available for output (STL, ASCII). Default output format is *.meta.</p><p>Small text correction: it seems that number of vertices for cuboids given in the Table 2 (that is 486) is not correct (I&#39;ve found only 386 for cuboids data)&nbsp;</p><p><strong>Code Quality:</strong><br />Code is enough commented</p><p><br /> <strong>Applicability to other problems:</strong><br />Can be applied for any problem where statistical shape modeling for triangulated meshes is needed. It is not restricted only to medical applications. </p><p> <br /> <strong>Suggestions for future work:</strong><br />Thought the most difficult part of building statistical shape model is given, construction of the model itself (with PCA) and framework to analyse the model (e.g. calculation of measures, such as specificity and generalisation ability) would make the application more complete. Also, visualisation part is not covered and no hints to visualise data and get 3d images from the paper are given. Default output mesh format also requires some comments.</p><p><strong>Requests for additional information from authors:</strong><br />Up to date parameters to run the program<br /> <br /> <strong>Additional Comments:</strong><br />Very nice and useful job! Thanks! </p>",
+        "date": "12-12-2006",
+        "review_id": 444
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "ipek@cs.unc.edu",
+      "author_firstname": "Ipek",
+      "author_fullname": "Oguz, Ipek",
+      "author_id": 122,
+      "author_institution": "UNC",
+      "author_lastname": "Oguz"
     },
-    "content": "<b>Summary:</b>\r\nThis paper describes (and provides) methods for generating statistical shape models. A minimum description length landmark generation method is implemented. Additional features can also be used to control the selection of landmarks.\r\n\r\nAutomated generation of statistical shape models in important. While specifying shape models manually in 2D is not too taxing, the problem becomes very burdonsome for 3D objects. The methods provided here will increase the use of statistical shape models in ITK.\r\n \r\n<b>Hypothesis:</b>\r\nNon Applicable\r\n\r\n<b>Evidence:</b>\r\n\r\n\r\n<b>Open Science:</b>\r\nPaper provides source code and data.\r\n\r\n<b>Reproducibility:</b>\r\nThe software built without issue for me.\r\n\r\n<b>Use of Open Source Software:</b>\r\nProvides an ITK framework for constructing shape models.\r\n\r\n<b>Open Source Contributions:</b>\r\nSource code provided. While in an ITK framework, many of object inherit from itkObject. Does it make sense for some of the algorithms to be implemented as filters?\r\n\r\nThis paper only covers the construction of the statistical shape model, not its application.\r\n\r\n<b>Code Quality:</b>\r\nSee the above note.\r\n\r\n<b>Applicability to other problems:</b>\r\nStatistical shape models are an important component of medical image analysis. They are not utilized more because of the difficulty in specifying the models in 3D. \r\n\r\n<b>Suggestions for future work:</b>\r\n\r\n\r\n<b>Requests for additional information from authors:</b>\r\n\r\nThis paper only covers the construction of the statistical shape model, not its application. Is there another paper on the application or do the authors use existing ITK methods to fit a statistical shape model to an image?\r\n\r\n<b>Additional Comments:</b>\r\n",
-    "date": "08-30-2006",
-    "review_id": 346
-   },
-   {
-    "author": {
-     "author_email": "syrkina@vision.ee.ethz.ch",
-     "author_firstname": "Ekaterina",
-     "author_id": 529,
-     "author_lastname": "Syrkina"
-    },
-    "content": "<p><strong>Summary:</strong><br />With this work authors present flexible software for establishing correspondence between shape boundaries over a given training set. This is the main step in statistical shape model building. Application is restricted to the objects with spherical topology. Framework for the model building itself (after establishing correspondence) is not provided, but this is the minor step in the problem.<br /> <br /> <strong>Hypothesis:</strong><br />Not applicable<br /> <br /> <strong>Evidence:</strong><br />As far as I know, presented work is the first open source for this particular problem. Default settings has been proven by appropriate for the MDL approach measurements to give the best results (see authors&#39; IPMI paper), but it also possible to change some parts of the algorithm such as cost function, initial parametrisation, landmark positions, use of features and other fine tunings (up to now I&#39;ve tried only default settings). </p><p> <strong>Open Science:</strong><br /> Source code is available, but there is only one example data set (cuboids). </p><p> <strong>Reproducibility:</strong><br />I&#39;ve downloaded and compiled the code without any problems. </p><p>Running. The following statement from the paper is not correct in the current implementation: &quot;A main() function is provided along with these classes as a ready to use tool. The only parameters to this tool are an input list file, a landmark file, and a model radius.&quot; There is 4th parameter in the last version and I get segmentation fault without it (while there is the check of the number of input parameters in main.cc, I do not get the expected message: &quot;Usage: &quot; &lt;&lt; argv[0] &lt;&lt; &quot; MeshListFile LandmarkFile ModelRadius OutputLandmarkFile&quot;). Would be nice to see more detailed description when running the program (e.g. with &quot;-h&quot;). Also I get warnings with no sense for me: &quot;Couldn&#39;t convert pixel type&quot;.</p><p>Comment for Linux users: data are provided with Windows line breaks, you have to use something like dos2unix to avoid problems. It would be nice to have data for both Linux and Windows platforms. </p><p><strong>Use of Open Source Software:</strong><br />ITK, cmake </p><p> <strong>Open Source Contributions:</strong><br />Source code is provided, main classes are described, but more clear and up to date instructions how to use it are neccesary. </p><p>Classes for mesh writers in different formats are available for output (STL, ASCII). Default output format is *.meta.</p><p>Small text correction: it seems that number of vertices for cuboids given in the Table 2 (that is 486) is not correct (I&#39;ve found only 386 for cuboids data)&nbsp;</p><p><strong>Code Quality:</strong><br />Code is enough commented</p><p><br /> <strong>Applicability to other problems:</strong><br />Can be applied for any problem where statistical shape modeling for triangulated meshes is needed. It is not restricted only to medical applications. </p><p> <br /> <strong>Suggestions for future work:</strong><br />Thought the most difficult part of building statistical shape model is given, construction of the model itself (with PCA) and framework to analyse the model (e.g. calculation of measures, such as specificity and generalisation ability) would make the application more complete. Also, visualisation part is not covered and no hints to visualise data and get 3d images from the paper are given. Default output mesh format also requires some comments.</p><p><strong>Requests for additional information from authors:</strong><br />Up to date parameters to run the program<br /> <br /> <strong>Additional Comments:</strong><br />Very nice and useful job! Thanks! </p>",
-    "date": "12-12-2006",
-    "review_id": 444
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "ipek@cs.unc.edu",
-   "author_firstname": "Ipek",
-   "author_fullname": "Oguz, Ipek",
-   "author_id": 122,
-   "author_institution": "UNC",
-   "author_lastname": "Oguz"
-  },
-  "tags": [
-   "Correspondence",
-   "Statistical Shape Analysis"
-  ],
-  "title": "Implementing the Automatic Generation of 3D Statistical Shape Models with ITK"
- }
+    "tags": [
+      "Correspondence",
+      "Statistical Shape Analysis"
+    ],
+    "title": "Implementing the Automatic Generation of 3D Statistical Shape Models with ITK"
+  }
 }

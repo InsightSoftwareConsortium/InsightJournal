@@ -1,106 +1,112 @@
 {
- "publication": {
-  "abstract": "In the medical simulation world the use of isosurfaces is a common action, as the information from some sources, e.g. CTs, is very well defined, and the isosurface can be easily set. Additionally, in any simulator shadows are a necessary addition to increase the users immersion as well as its depth perception. Unfortunately, the Visualization Toolkit does not offer these features, and so in this paper a modified vtkGPUVolumeRayCastMapper is presented. This modified version allows volumetric isosurface rendering as well as receiving shadows from polygons using the usual pipeline. ",
-  "authors": [
-   {
-    "author_fullname": "Herrera, Imanol",
-    "author_place": 2,
-    "persona_email": "iherrera@ceit.es",
-    "persona_firstname": "Imanol",
-    "persona_id": 6166,
-    "persona_lastname": "Herrera"
-   },
-   {
-    "author_fullname": "Buchart, Carlos",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Borro, Diego",
-    "author_place": 4,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Distributed computation",
-   "Image"
-  ],
-  "comments": [
-   {
-    "content": "Somebody know how i can resolve it please ?",
-    "date": "2013-08-26T10:01:00",
-    "persona_email": "kpoand@yahoo.fr",
-    "persona_firstname": "Andr\u00e9",
-    "persona_id": 8477,
-    "persona_lastname": "Kpozehoue"
-   },
-   {
-    "content": "thank to your answer,\r\neffectively, i commented these lines but, but he give after this error : \r\nC:\\\\Codes\\\\SourceCode3_Source\\\\vtkGPUVolumeRayCastMapper2\\\\vtkDemo.cpp:197: erreur : undefined reference to `_imp___ZN26vtkGPUVolumeRayCastMapper23NewEv\\'\r\n\r\nBefore, i changed changed also some lines as : \r\n - scanf_s(\\\"%d\\\",&isoval) : line 279 (in vtkDemo.cpp file), i replace by scanf\r\ni do the same thing with printf_s also",
-    "date": "2013-08-26T10:56:47",
-    "persona_email": "kpoand@yahoo.fr",
-    "persona_firstname": "Andr\u00e9",
-    "persona_id": 8477,
-    "persona_lastname": "Kpozehoue"
-   },
-   {
-    "content": "Hi,\r\ni try to compile source code, but i have this error : \r\ng++.exe: erreur: /arch:SSE2: No such file or directory\r\ng++.exe: erreur: /MP: No such file or directory\r\n\r\nNote, that i use mingw with windows 7, and compile under qt creator",
-    "date": "2013-08-26T10:00:15",
-    "persona_email": "kpoand@yahoo.fr",
-    "persona_firstname": "Andr\u00e9",
-    "persona_id": 8477,
-    "persona_lastname": "Kpozehoue"
-   },
-   {
-    "content": "Hello,\r\n\r\nIn the CMakeLists.txt inside the folder vtkGPUVolumeRayCastMapper2 there is a line to activate some flags in case of being compiled in windows. However, it seems that it gives an error in your case. The piece of code is:\r\n\r\nIF(CMAKE_HOST_WIN32)\r\n SET(CMAKE_CXX_FLAGS \\\"${CMAKE_CXX_FLAGS} /arch:SSE2 /MP\\\"\r\n)\r\nENDIF(CMAKE_HOST_WIN32)\r\n\r\nStarts in line 82. If you comment or erase said piece of code it should not give you that error. We will see how it can be changed so that those options can be used when available, thanks for telling!\r\n\r\nI hope this solves your problem!",
-    "date": "2013-08-26T10:07:59",
-    "persona_email": "iherrera@ceit.es",
-    "persona_firstname": "Imanol",
-    "persona_id": 6166,
-    "persona_lastname": "Herrera"
-   },
-   {
-    "content": "I have tried to reproduce the error but was not able to do it, using cmake in the folder created a build just fine and it compiled without problems. However, it does not seem that the changes you say are the cause for such an error. It seems as if the vtkGPUVolumeRayCastMapper2 was not included, I guess you are using the the cmake in the main folder to create the project right? \r\n\r\nAdditionally, just to make sure, this lib needs VTK 5.8 or higher, as it uses a class that is not present in earlier versions (which is the reason why the automatic testing could not be done).\r\n\r\nDo any of these comments help?\r\n",
-    "date": "2013-08-26T11:08:21",
-    "persona_email": "iherrera@ceit.es",
-    "persona_firstname": "Imanol",
-    "persona_id": 6166,
-    "persona_lastname": "Herrera"
-   }
-  ],
-  "date_submitted": "2012-10-05 02:31:00",
-  "handles": [
-   {
-    "handle": "10380/3388",
-    "handle_url": "http://hdl.handle.net/10380/3388"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 35,
-    "journal_name": "The VTK Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 880,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "iherrera@ceit.es",
-   "author_firstname": "Imanol",
-   "author_fullname": "Herrera, Imanol",
-   "author_id": 6166,
-   "author_institution": "CEIT",
-   "author_lastname": "Herrera"
-  },
-  "tags": [
-   "Shadow Mapping",
-   "Volume Rendering",
-   "GPU",
-   "Isosurface rendering"
-  ],
-  "title": "Adding Refined Isosurface Rendering and Shadow Mapping to vtkGPUVolumeRayCastMapper"
- }
+  "publication": {
+    "abstract": "In the medical simulation world the use of isosurfaces is a common action, as the information from some sources, e.g. CTs, is very well defined, and the isosurface can be easily set. Additionally, in any simulator shadows are a necessary addition to increase the users immersion as well as its depth perception. Unfortunately, the Visualization Toolkit does not offer these features, and so in this paper a modified vtkGPUVolumeRayCastMapper is presented. This modified version allows volumetric isosurface rendering as well as receiving shadows from polygons using the usual pipeline. ",
+    "articles": [
+      "bafybeiapflsk7kwce3fejzhrgmipsvhwiiqixqewfzc7qmi3zrdyazo72a",
+      "bafybeifxenax5xqlxha4hbtg3e7flqhk2crghihfw2fxkytdxgwuokjeiy",
+      "bafybeidy7rqz2yxw46uiksf6l756vqkvq4ev634466b5tdewjxg5znrghq",
+      "bafybeidy7rqz2yxw46uiksf6l756vqkvq4ev634466b5tdewjxg5znrghq"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Herrera, Imanol",
+        "author_place": 2,
+        "persona_email": "iherrera@ceit.es",
+        "persona_firstname": "Imanol",
+        "persona_id": 6166,
+        "persona_lastname": "Herrera"
+      },
+      {
+        "author_fullname": "Buchart, Carlos",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Borro, Diego",
+        "author_place": 4,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Distributed computation",
+      "Image"
+    ],
+    "comments": [
+      {
+        "content": "Somebody know how i can resolve it please ?",
+        "date": "2013-08-26T10:01:00",
+        "persona_email": "kpoand@yahoo.fr",
+        "persona_firstname": "Andr\u00e9",
+        "persona_id": 8477,
+        "persona_lastname": "Kpozehoue"
+      },
+      {
+        "content": "thank to your answer,\r\neffectively, i commented these lines but, but he give after this error : \r\nC:\\\\Codes\\\\SourceCode3_Source\\\\vtkGPUVolumeRayCastMapper2\\\\vtkDemo.cpp:197: erreur : undefined reference to `_imp___ZN26vtkGPUVolumeRayCastMapper23NewEv\\'\r\n\r\nBefore, i changed changed also some lines as : \r\n - scanf_s(\\\"%d\\\",&isoval) : line 279 (in vtkDemo.cpp file), i replace by scanf\r\ni do the same thing with printf_s also",
+        "date": "2013-08-26T10:56:47",
+        "persona_email": "kpoand@yahoo.fr",
+        "persona_firstname": "Andr\u00e9",
+        "persona_id": 8477,
+        "persona_lastname": "Kpozehoue"
+      },
+      {
+        "content": "Hi,\r\ni try to compile source code, but i have this error : \r\ng++.exe: erreur: /arch:SSE2: No such file or directory\r\ng++.exe: erreur: /MP: No such file or directory\r\n\r\nNote, that i use mingw with windows 7, and compile under qt creator",
+        "date": "2013-08-26T10:00:15",
+        "persona_email": "kpoand@yahoo.fr",
+        "persona_firstname": "Andr\u00e9",
+        "persona_id": 8477,
+        "persona_lastname": "Kpozehoue"
+      },
+      {
+        "content": "Hello,\r\n\r\nIn the CMakeLists.txt inside the folder vtkGPUVolumeRayCastMapper2 there is a line to activate some flags in case of being compiled in windows. However, it seems that it gives an error in your case. The piece of code is:\r\n\r\nIF(CMAKE_HOST_WIN32)\r\n SET(CMAKE_CXX_FLAGS \\\"${CMAKE_CXX_FLAGS} /arch:SSE2 /MP\\\"\r\n)\r\nENDIF(CMAKE_HOST_WIN32)\r\n\r\nStarts in line 82. If you comment or erase said piece of code it should not give you that error. We will see how it can be changed so that those options can be used when available, thanks for telling!\r\n\r\nI hope this solves your problem!",
+        "date": "2013-08-26T10:07:59",
+        "persona_email": "iherrera@ceit.es",
+        "persona_firstname": "Imanol",
+        "persona_id": 6166,
+        "persona_lastname": "Herrera"
+      },
+      {
+        "content": "I have tried to reproduce the error but was not able to do it, using cmake in the folder created a build just fine and it compiled without problems. However, it does not seem that the changes you say are the cause for such an error. It seems as if the vtkGPUVolumeRayCastMapper2 was not included, I guess you are using the the cmake in the main folder to create the project right? \r\n\r\nAdditionally, just to make sure, this lib needs VTK 5.8 or higher, as it uses a class that is not present in earlier versions (which is the reason why the automatic testing could not be done).\r\n\r\nDo any of these comments help?\r\n",
+        "date": "2013-08-26T11:08:21",
+        "persona_email": "iherrera@ceit.es",
+        "persona_firstname": "Imanol",
+        "persona_id": 6166,
+        "persona_lastname": "Herrera"
+      }
+    ],
+    "date_submitted": "2012-10-05 02:31:00",
+    "handles": [
+      {
+        "handle": "10380/3388",
+        "handle_url": "http://hdl.handle.net/10380/3388"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 35,
+        "journal_name": "The VTK Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 880,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "iherrera@ceit.es",
+      "author_firstname": "Imanol",
+      "author_fullname": "Herrera, Imanol",
+      "author_id": 6166,
+      "author_institution": "CEIT",
+      "author_lastname": "Herrera"
+    },
+    "tags": [
+      "Shadow Mapping",
+      "Volume Rendering",
+      "GPU",
+      "Isosurface rendering"
+    ],
+    "title": "Adding Refined Isosurface Rendering and Shadow Mapping to vtkGPUVolumeRayCastMapper"
+  }
 }

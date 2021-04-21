@@ -1,55 +1,58 @@
 {
- "publication": {
-  "abstract": "The tophat transform is a well know and widely used transform based of morphological opening or closing. It is often used to remove the background in an image, where the background is defined as the zones which do not fit in the user provided kernel.\n\nSimilarly, the tophat by area is used to remove the background in an image, but the criteria of selection is the size of the connected component, either in physical size or in number of pixels, and is independent of the shape of the connected component. This property makes the tophat non dependent of the shape of the object and makes easier to describe the criteria.\n",
-  "authors": [
-   {
-    "author_fullname": "Lehmann, Gaetan",
-    "author_place": 1,
-    "persona_email": "gaetan.lehmann@gmail.com",
-    "persona_firstname": "Gaetan",
-    "persona_id": 328,
-    "persona_lastname": "Lehmann"
-   }
-  ],
-  "categories": [
-   "Filtering",
-   "Mathematics"
-  ],
-  "comments": [],
-  "date_submitted": "2010-11-02 06:41:55",
-  "handles": [
-   {
-    "handle": "10380/3228",
-    "handle_url": "http://hdl.handle.net/10380/3228"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 853,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "gaetan.lehmann@gmail.com",
-   "author_firstname": "Gaetan",
-   "author_fullname": "Lehmann, Gaetan",
-   "author_id": 328,
-   "author_institution": "INRA",
-   "author_lastname": "Lehmann"
-  },
-  "tags": [
-   "tophat",
-   "connected component",
-   "mathematical morphology",
-   "area"
-  ],
-  "title": "Tophap by area"
- }
+  "publication": {
+    "abstract": "The tophat transform is a well know and widely used transform based of morphological opening or closing. It is often used to remove the background in an image, where the background is defined as the zones which do not fit in the user provided kernel.\n\nSimilarly, the tophat by area is used to remove the background in an image, but the criteria of selection is the size of the connected component, either in physical size or in number of pixels, and is independent of the shape of the connected component. This property makes the tophat non dependent of the shape of the object and makes easier to describe the criteria.\n",
+    "articles": [
+      "bafkreiarnaotxo54hznq7gcu27zvcu3pdc323blcjzgrvkv5y5ytgorvgy"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Lehmann, Gaetan",
+        "author_place": 1,
+        "persona_email": "gaetan.lehmann@gmail.com",
+        "persona_firstname": "Gaetan",
+        "persona_id": 328,
+        "persona_lastname": "Lehmann"
+      }
+    ],
+    "categories": [
+      "Filtering",
+      "Mathematics"
+    ],
+    "comments": [],
+    "date_submitted": "2010-11-02 06:41:55",
+    "handles": [
+      {
+        "handle": "10380/3228",
+        "handle_url": "http://hdl.handle.net/10380/3228"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 853,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "gaetan.lehmann@gmail.com",
+      "author_firstname": "Gaetan",
+      "author_fullname": "Lehmann, Gaetan",
+      "author_id": 328,
+      "author_institution": "INRA",
+      "author_lastname": "Lehmann"
+    },
+    "tags": [
+      "tophat",
+      "connected component",
+      "mathematical morphology",
+      "area"
+    ],
+    "title": "Tophap by area"
+  }
 }

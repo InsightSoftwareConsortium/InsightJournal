@@ -1,52 +1,55 @@
 {
- "publication": {
-  "abstract": "Combining some labeled images is a quite common and useful task in image analysis.\r\nThat's something we may want to do to prepare the markers for a watershed from\r\nmarkers for example, or to write the output of several segmentations in a single\r\nfile.\r\nThis article comes with three new filters to make the combination\r\nof labeled images easier with ITK.\r\nThis contribution also try to provide an implementation better integrated with the\r\nITK pipeline model than the itkMultipleUnlabeledImagesToLabeledImageFilter contribution.",
-  "authors": [
-   {
-    "author_fullname": "Lehmann, Gaetan",
-    "author_place": 1,
-    "persona_email": "gaetan.lehmann@gmail.com",
-    "persona_firstname": "Gaetan",
-    "persona_id": 328,
-    "persona_lastname": "Lehmann"
-   }
-  ],
-  "categories": [
-   "Data Representation",
-   "Image"
-  ],
-  "comments": [],
-  "date_submitted": "2007-04-15T17:47:36Z",
-  "handles": [
-   {
-    "handle": "1926/499",
-    "handle_url": "http://hdl.handle.net/1926/499"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 149,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "gaetan.lehmann@gmail.com",
-   "author_firstname": "Gaetan",
-   "author_fullname": "Lehmann, Gaetan",
-   "author_id": 328,
-   "author_institution": "INRA",
-   "author_lastname": "Lehmann"
-  },
-  "tags": [
-   "label image"
-  ],
-  "title": "Combining labeled images with ITK"
- }
+  "publication": {
+    "abstract": "Combining some labeled images is a quite common and useful task in image analysis.\r\nThat's something we may want to do to prepare the markers for a watershed from\r\nmarkers for example, or to write the output of several segmentations in a single\r\nfile.\r\nThis article comes with three new filters to make the combination\r\nof labeled images easier with ITK.\r\nThis contribution also try to provide an implementation better integrated with the\r\nITK pipeline model than the itkMultipleUnlabeledImagesToLabeledImageFilter contribution.",
+    "articles": [
+      "bafkreiehxe3akns4euiyjtwem2rgmqr5q4a7jybntgz3idgfjwj5gfdaey"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Lehmann, Gaetan",
+        "author_place": 1,
+        "persona_email": "gaetan.lehmann@gmail.com",
+        "persona_firstname": "Gaetan",
+        "persona_id": 328,
+        "persona_lastname": "Lehmann"
+      }
+    ],
+    "categories": [
+      "Data Representation",
+      "Image"
+    ],
+    "comments": [],
+    "date_submitted": "2007-04-15T17:47:36Z",
+    "handles": [
+      {
+        "handle": "1926/499",
+        "handle_url": "http://hdl.handle.net/1926/499"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 149,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "gaetan.lehmann@gmail.com",
+      "author_firstname": "Gaetan",
+      "author_fullname": "Lehmann, Gaetan",
+      "author_id": 328,
+      "author_institution": "INRA",
+      "author_lastname": "Lehmann"
+    },
+    "tags": [
+      "label image"
+    ],
+    "title": "Combining labeled images with ITK"
+  }
 }

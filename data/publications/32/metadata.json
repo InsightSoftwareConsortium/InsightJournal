@@ -1,62 +1,65 @@
 {
- "publication": {
-  "abstract": "A hierarchy of path data types and basic path filters were added to ITK, providing a general framework for curves that map a scalar value to a point in n-dimensional space. The framework supports curves that are either continuous (parametric curves) or discrete (chain-codes). Example usage of the entire framework is demonstrated using a previously published 2D active contour algorithm that was converted to ITK.",
-  "authors": [
-   {
-    "author_fullname": "Galeotti, John",
-    "author_place": 1,
-    "persona_email": "jgaleotti@cmu.edu",
-    "persona_firstname": "John",
-    "persona_id": 95,
-    "persona_lastname": "Galeotti"
-   },
-   {
-    "author_fullname": "Stetten, George",
-    "author_place": 2,
-    "persona_email": "email@stetten.com",
-    "persona_firstname": "George",
-    "persona_id": 111,
-    "persona_lastname": "Stetten"
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2005-08-05T19:55:57Z",
-  "handles": [
-   {
-    "handle": "1926/40",
-    "handle_url": "http://hdl.handle.net/1926/40"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 32,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "jgaleotti@cmu.edu",
-   "author_firstname": "John",
-   "author_fullname": "Galeotti, John",
-   "author_id": 95,
-   "author_institution": "Carnegie Mellon University Robotics Institute",
-   "author_lastname": "Galeotti"
-  },
-  "tags": [
-   "swath",
-   "chain code",
-   "ITK",
-   "chain-code",
-   "parametric curve",
-   "Path"
-  ],
-  "title": "Creation and Demonstration of a Framework for Handling Paths in ITK"
- }
+  "publication": {
+    "abstract": "A hierarchy of path data types and basic path filters were added to ITK, providing a general framework for curves that map a scalar value to a point in n-dimensional space. The framework supports curves that are either continuous (parametric curves) or discrete (chain-codes). Example usage of the entire framework is demonstrated using a previously published 2D active contour algorithm that was converted to ITK.",
+    "articles": [
+      "bafybeiewj26busn5nri4q3lnmtpfyzrduhovcamxjh2zdqw2pnkieccodm"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Galeotti, John",
+        "author_place": 1,
+        "persona_email": "jgaleotti@cmu.edu",
+        "persona_firstname": "John",
+        "persona_id": 95,
+        "persona_lastname": "Galeotti"
+      },
+      {
+        "author_fullname": "Stetten, George",
+        "author_place": 2,
+        "persona_email": "email@stetten.com",
+        "persona_firstname": "George",
+        "persona_id": 111,
+        "persona_lastname": "Stetten"
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2005-08-05T19:55:57Z",
+    "handles": [
+      {
+        "handle": "1926/40",
+        "handle_url": "http://hdl.handle.net/1926/40"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 32,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "jgaleotti@cmu.edu",
+      "author_firstname": "John",
+      "author_fullname": "Galeotti, John",
+      "author_id": 95,
+      "author_institution": "Carnegie Mellon University Robotics Institute",
+      "author_lastname": "Galeotti"
+    },
+    "tags": [
+      "swath",
+      "chain code",
+      "ITK",
+      "chain-code",
+      "parametric curve",
+      "Path"
+    ],
+    "title": "Creation and Demonstration of a Framework for Handling Paths in ITK"
+  }
 }

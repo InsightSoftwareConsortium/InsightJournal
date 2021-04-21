@@ -1,61 +1,65 @@
 {
- "publication": {
-  "abstract": "Hospital Information Systems (HIS) are the primary source of information in clinical routine. In most clinics and medical centers, an electronic health record (EHR) stores relevant patient information which is passed between sub-systems using the ISO standard Health Level 7 (HL7). In Radiology, the Picture Archiving and Communication System (PACS) is used to store and transfer medical images and other image related patient data and reports. \nThe paper promotes the development of dedicated patient models based on HIS information. This allows specialized and tailored models for each purpose without the need for a commonly accepted data format.",
-  "authors": [
-   {
-    "author_fullname": "Burgert, Oliver",
-    "author_place": 1,
-    "persona_email": "oliver.burgert@reutlingen-university.de",
-    "persona_firstname": "Oliver",
-    "persona_id": 8050,
-    "persona_lastname": "Burgert"
-   },
-   {
-    "author_fullname": "Thies, Christian",
-    "author_place": 2,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Data",
-   "Data Representation",
-   "DICOM",
-   "Images",
-   "Objects"
-  ],
-  "comments": [],
-  "date_submitted": "2013-08-22 02:41:32",
-  "handles": [
-   {
-    "handle": "10380/3423",
-    "handle_url": "http://hdl.handle.net/10380/3423"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 41,
-    "journal_name": "MICCAI 2013 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 894,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "oliver.burgert@reutlingen-university.de",
-   "author_firstname": "Oliver",
-   "author_fullname": "Burgert, Oliver",
-   "author_id": 8050,
-   "author_institution": "Reutlingen University",
-   "author_lastname": "Burgert"
-  },
-  "tags": [
-   "Clinical Interoperability, HL 7 v3, Clinical Document Architecture (CDA), Continuity of Care Record (CCR), Continuity of Care Document (CCD), EHR, Reference Information Model (RIM)",
-   "DICOM"
-  ],
-  "title": "Steps towards the Integration of Model Guided Therapy Systems into the Healthcare Environment"
- }
+  "publication": {
+    "abstract": "Hospital Information Systems (HIS) are the primary source of information in clinical routine. In most clinics and medical centers, an electronic health record (EHR) stores relevant patient information which is passed between sub-systems using the ISO standard Health Level 7 (HL7). In Radiology, the Picture Archiving and Communication System (PACS) is used to store and transfer medical images and other image related patient data and reports. \nThe paper promotes the development of dedicated patient models based on HIS information. This allows specialized and tailored models for each purpose without the need for a commonly accepted data format.",
+    "articles": [
+      "bafybeie2bn6kx7sk2lg65uppco4o6a3niwtvsywwyht3ye5pymyuwq6h3m",
+      "bafybeier7hpwywafaboegfzjaznzbse26zwkbbrpvzn5fwrufz4gzm6a5a"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Burgert, Oliver",
+        "author_place": 1,
+        "persona_email": "oliver.burgert@reutlingen-university.de",
+        "persona_firstname": "Oliver",
+        "persona_id": 8050,
+        "persona_lastname": "Burgert"
+      },
+      {
+        "author_fullname": "Thies, Christian",
+        "author_place": 2,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Data",
+      "Data Representation",
+      "DICOM",
+      "Images",
+      "Objects"
+    ],
+    "comments": [],
+    "date_submitted": "2013-08-22 02:41:32",
+    "handles": [
+      {
+        "handle": "10380/3423",
+        "handle_url": "http://hdl.handle.net/10380/3423"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 41,
+        "journal_name": "MICCAI 2013 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 894,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "oliver.burgert@reutlingen-university.de",
+      "author_firstname": "Oliver",
+      "author_fullname": "Burgert, Oliver",
+      "author_id": 8050,
+      "author_institution": "Reutlingen University",
+      "author_lastname": "Burgert"
+    },
+    "tags": [
+      "Clinical Interoperability, HL 7 v3, Clinical Document Architecture (CDA), Continuity of Care Record (CCR), Continuity of Care Document (CCD), EHR, Reference Information Model (RIM)",
+      "DICOM"
+    ],
+    "title": "Steps towards the Integration of Model Guided Therapy Systems into the Healthcare Environment"
+  }
 }

@@ -1,59 +1,62 @@
 {
- "publication": {
-  "abstract": "In this paper, we present a semi-automtic method for segmenting carotid arteries in contrast enhanced (CE)-CT angiography (CTA) scans. \nThe segmentation algorithm extracts the lumen of carotid arteries between user specfied locations. Specifically, the algorithm first \ndetects the centerline representations between the user placed seed points. This centerline extraction algorithm is based on a minimal path \ndetection algorithm which operates on a {\\em medialness} map. The lumen of corotid arteries is extracted by using \nthe global optimal graph-cuts algorithm~\\cite{boykov:01} using the centerlines as input. The radius information contained \nin the centerline representation\nis used to normalize the gradient based weights of the graph. It is shown that this algorithm can sucessfully segment the carotid arteries without\nincluding calcified and non-calcified plaques in the segmentation results.",
-  "authors": [
-   {
-    "author_fullname": "Gulsun, Mehmet Akif",
-    "author_place": 1,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Tek, Huseyin",
-    "author_place": 2,
-    "persona_email": "huseyin.tek@gmail.com",
-    "persona_firstname": "Huseyin",
-    "persona_id": 2220,
-    "persona_lastname": "Tek"
-   }
-  ],
-  "categories": [
-   "Filtering",
-   "Segmentation"
-  ],
-  "comments": [],
-  "date_submitted": "2009-07-20 02:14:59",
-  "handles": [
-   {
-    "handle": "10380/3095",
-    "handle_url": "http://hdl.handle.net/10380/3095"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 34,
-    "journal_name": "MICCAI 2009 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 699,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "huseyin.tek@gmail.com",
-   "author_firstname": "Huseyin",
-   "author_fullname": "Tek, Huseyin",
-   "author_id": 2220,
-   "author_institution": "Siemens Corporate Research",
-   "author_lastname": "Tek"
-  },
-  "tags": [
-   "medialness filters",
-   "centerline extraction",
-   "graph-cuts"
-  ],
-  "title": "Segmentation of Carotid Arteries By Graph-Cuts Using Centerline Models"
- }
+  "publication": {
+    "abstract": "In this paper, we present a semi-automtic method for segmenting carotid arteries in contrast enhanced (CE)-CT angiography (CTA) scans. \nThe segmentation algorithm extracts the lumen of carotid arteries between user specfied locations. Specifically, the algorithm first \ndetects the centerline representations between the user placed seed points. This centerline extraction algorithm is based on a minimal path \ndetection algorithm which operates on a {\\em medialness} map. The lumen of corotid arteries is extracted by using \nthe global optimal graph-cuts algorithm~\\cite{boykov:01} using the centerlines as input. The radius information contained \nin the centerline representation\nis used to normalize the gradient based weights of the graph. It is shown that this algorithm can sucessfully segment the carotid arteries without\nincluding calcified and non-calcified plaques in the segmentation results.",
+    "articles": [
+      "bafybeihqhs7eolbicb6wsxgcbnoy3uqbjsnsgg5qucggy3fxc7pg244ewy"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Gulsun, Mehmet Akif",
+        "author_place": 1,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Tek, Huseyin",
+        "author_place": 2,
+        "persona_email": "huseyin.tek@gmail.com",
+        "persona_firstname": "Huseyin",
+        "persona_id": 2220,
+        "persona_lastname": "Tek"
+      }
+    ],
+    "categories": [
+      "Filtering",
+      "Segmentation"
+    ],
+    "comments": [],
+    "date_submitted": "2009-07-20 02:14:59",
+    "handles": [
+      {
+        "handle": "10380/3095",
+        "handle_url": "http://hdl.handle.net/10380/3095"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 34,
+        "journal_name": "MICCAI 2009 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 699,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "huseyin.tek@gmail.com",
+      "author_firstname": "Huseyin",
+      "author_fullname": "Tek, Huseyin",
+      "author_id": 2220,
+      "author_institution": "Siemens Corporate Research",
+      "author_lastname": "Tek"
+    },
+    "tags": [
+      "medialness filters",
+      "centerline extraction",
+      "graph-cuts"
+    ],
+    "title": "Segmentation of Carotid Arteries By Graph-Cuts Using Centerline Models"
+  }
 }

@@ -1,60 +1,65 @@
 {
- "publication": {
-  "abstract": "Uniform B-splines are used widely in image processing because they provide maximal smoothness compared to any other piecewise polynomial of the same degree and support. This paper describes VTK classes for performing two functions: image interpolation via B-splines, and non-rigid coordinate transformation via B-splines. Special attention is paid to different boundary conditions for the ends of the spline: image interpolation supports clamped, mirrored, and repeated boundary conditions while B- spline grid transformations support clamped and zero-past-boundary conditions. The use of these classes for image deformation is demonstrated.",
-  "authors": [
-   {
-    "author_fullname": "Gobbi, David G.",
-    "author_place": 1,
-    "persona_email": "david.gobbi@gmail.com",
-    "persona_firstname": "David",
-    "persona_id": 881,
-    "persona_lastname": "Gobbi"
-   },
-   {
-    "author_fullname": "Starreveld, Yves P.",
-    "author_place": 2,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Resampling",
-   "Transforms"
-  ],
-  "comments": [],
-  "date_submitted": "2011-03-02 14:55:25",
-  "handles": [
-   {
-    "handle": "10380/3252",
-    "handle_url": "http://hdl.handle.net/10380/3252"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 35,
-    "journal_name": "The VTK Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 790,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "david.gobbi@gmail.com",
-   "author_firstname": "David",
-   "author_fullname": "Gobbi, David",
-   "author_id": 881,
-   "author_institution": "University of Calgary",
-   "author_lastname": "Gobbi"
-  },
-  "tags": [
-   "imaging",
-   "B-splines",
-   "transformation",
-   "interpolation"
-  ],
-  "title": "Uniform B-Splines for the VTK Imaging Pipeline"
- }
+  "publication": {
+    "abstract": "Uniform B-splines are used widely in image processing because they provide maximal smoothness compared to any other piecewise polynomial of the same degree and support. This paper describes VTK classes for performing two functions: image interpolation via B-splines, and non-rigid coordinate transformation via B-splines. Special attention is paid to different boundary conditions for the ends of the spline: image interpolation supports clamped, mirrored, and repeated boundary conditions while B- spline grid transformations support clamped and zero-past-boundary conditions. The use of these classes for image deformation is demonstrated.",
+    "articles": [
+      "bafybeidmhho74vcvhphmejgfktdlas473bichwqbo6m6cd6ls3xo3zw6iy",
+      "bafybeidmhho74vcvhphmejgfktdlas473bichwqbo6m6cd6ls3xo3zw6iy",
+      "bafybeiagq2tyrdvq7ggdcoghl6qvjekghhdviwlkhk2aboad55zujmdtlu"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Gobbi, David G.",
+        "author_place": 1,
+        "persona_email": "david.gobbi@gmail.com",
+        "persona_firstname": "David",
+        "persona_id": 881,
+        "persona_lastname": "Gobbi"
+      },
+      {
+        "author_fullname": "Starreveld, Yves P.",
+        "author_place": 2,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Resampling",
+      "Transforms"
+    ],
+    "comments": [],
+    "date_submitted": "2011-03-02 14:55:25",
+    "handles": [
+      {
+        "handle": "10380/3252",
+        "handle_url": "http://hdl.handle.net/10380/3252"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 35,
+        "journal_name": "The VTK Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 790,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "david.gobbi@gmail.com",
+      "author_firstname": "David",
+      "author_fullname": "Gobbi, David",
+      "author_id": 881,
+      "author_institution": "University of Calgary",
+      "author_lastname": "Gobbi"
+    },
+    "tags": [
+      "imaging",
+      "B-splines",
+      "transformation",
+      "interpolation"
+    ],
+    "title": "Uniform B-Splines for the VTK Imaging Pipeline"
+  }
 }

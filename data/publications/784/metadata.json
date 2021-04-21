@@ -1,57 +1,62 @@
 {
- "publication": {
-  "abstract": "This document describes an ITK-based implementation of intensity-based 2D/3D rigid image registration for patient setup assessment in external beam radiotherapy. The registration framework was designed to simultaneously register two projection images to a 3D image volume. The projection geometry was set up to simulate the x-ray imaging system that attached to a medical linear accelerator for cancer treatment. The normalized correlation was used as the similarity measure and the Powell's optimizer was used as the optimization method. Siddon-Jacobs fast ray-tracing algorithm was implemented to compute projection images from a 3D image volume.",
-  "authors": [
-   {
-    "author_fullname": "Wu, Jian",
-    "author_place": 1,
-    "persona_email": "eewujian@hotmail.com",
-    "persona_firstname": "Jian",
-    "persona_id": 391,
-    "persona_lastname": "Wu"
-   }
-  ],
-  "categories": [
-   "Registration",
-   "Registration metrics",
-   "Resampling",
-   "Transforms"
-  ],
-  "comments": [],
-  "date_submitted": "2010-12-24 01:08:05",
-  "handles": [
-   {
-    "handle": "10380/3245",
-    "handle_url": "http://hdl.handle.net/10380/3245"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 784,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "eewujian@hotmail.com",
-   "author_firstname": "Jian",
-   "author_fullname": "Wu, Jian",
-   "author_id": 391,
-   "author_institution": "Virginia Commonwealth University",
-   "author_lastname": "Wu"
-  },
-  "tags": [
-   "2D/3D registration",
-   "ray-tracing algorithm",
-   "radiotherapy",
-   "patient setup"
-  ],
-  "title": "ITK-Based Implementation of Two-Projection 2D/3D Registration Method with an Application in Patient Setup for External Beam Radiotherapy"
- }
+  "publication": {
+    "abstract": "This document describes an ITK-based implementation of intensity-based 2D/3D rigid image registration for patient setup assessment in external beam radiotherapy. The registration framework was designed to simultaneously register two projection images to a 3D image volume. The projection geometry was set up to simulate the x-ray imaging system that attached to a medical linear accelerator for cancer treatment. The normalized correlation was used as the similarity measure and the Powell's optimizer was used as the optimization method. Siddon-Jacobs fast ray-tracing algorithm was implemented to compute projection images from a 3D image volume.",
+    "articles": [
+      "bafybeickpshurjrzuogr2abky4woev5s55wj27yzfdt4vqqdk6x6usjhfe",
+      "bafybeickpshurjrzuogr2abky4woev5s55wj27yzfdt4vqqdk6x6usjhfe",
+      "bafybeie7tpqex57cafno44eqqs7pn5dwjfoyfiks4fzuirnq6bjudn6lsq"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Wu, Jian",
+        "author_place": 1,
+        "persona_email": "eewujian@hotmail.com",
+        "persona_firstname": "Jian",
+        "persona_id": 391,
+        "persona_lastname": "Wu"
+      }
+    ],
+    "categories": [
+      "Registration",
+      "Registration metrics",
+      "Resampling",
+      "Transforms"
+    ],
+    "comments": [],
+    "date_submitted": "2010-12-24 01:08:05",
+    "handles": [
+      {
+        "handle": "10380/3245",
+        "handle_url": "http://hdl.handle.net/10380/3245"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 784,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "eewujian@hotmail.com",
+      "author_firstname": "Jian",
+      "author_fullname": "Wu, Jian",
+      "author_id": 391,
+      "author_institution": "Virginia Commonwealth University",
+      "author_lastname": "Wu"
+    },
+    "tags": [
+      "2D/3D registration",
+      "ray-tracing algorithm",
+      "radiotherapy",
+      "patient setup"
+    ],
+    "title": "ITK-Based Implementation of Two-Projection 2D/3D Registration Method with an Application in Patient Setup for External Beam Radiotherapy"
+  }
 }

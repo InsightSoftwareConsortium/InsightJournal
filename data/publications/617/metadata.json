@@ -1,113 +1,116 @@
 {
- "publication": {
-  "abstract": "We propose an open source and cross platform medical image viewer, named VV, designed for qualita tive evaluation of images registration, in particular for deformable registration of 4D CT images. VV can display multiple spatio-temporal image sequences (2D+t or 3D+t) and contains several tools for comparing images using transparency or fusion, for visualizing deformation \ufb01elds, for de\ufb01ning landmarks. It is used in the \ufb01eld of radiation therapy to help researchers and clinicians evaluate deformation in 4D CT images of the thorax. It is implemented in C++, with ITK, VTK and QT open source version, runs on Linux and windows and is freely available to the community.",
-  "authors": [
-   {
-    "author_fullname": "Seroul, Pierre",
-    "author_place": 1,
-    "persona_email": "pierre.seroul@gmail.com",
-    "persona_firstname": "Pierre",
-    "persona_id": 523,
-    "persona_lastname": "Seroul"
-   },
-   {
-    "author_fullname": "Sarrut, David",
-    "author_place": 2,
-    "persona_email": "dsarrut@gmail.com",
-    "persona_firstname": "David",
-    "persona_id": 42,
-    "persona_lastname": "Sarrut"
-   },
-   {
-    "author_fullname": "Sarrut, David",
-    "author_place": 2,
-    "persona_email": "david.sarrut@gmail.com",
-    "persona_firstname": "David",
-    "persona_id": 2426,
-    "persona_lastname": "Sarrut"
-   }
-  ],
-  "categories": [
-   "CMake",
-   "Code memory optimization",
-   "Code speed optimization",
-   "Data",
-   "Data Representation",
-   "Deformable registration",
-   "Filtering",
-   "Generic Programming",
-   "Geometric transforms",
-   "Image",
-   "Images",
-   "IO",
-   "Iterators",
-   "PointSet",
-   "Programming",
-   "Registration",
-   "Transforms"
-  ],
-  "comments": [],
-  "date_submitted": "2008-07-01T00:00:00Z",
-  "handles": [
-   {
-    "handle": "10380/1458",
-    "handle_url": "http://hdl.handle.net/10380/1458"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 40,
-    "journal_name": "MICCAI 2012 Workshops"
-   },
-   {
-    "journal_id": 33,
-    "journal_name": "MICCAI 2008 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 617,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "torsten@synapse.sri.com",
-     "author_firstname": "Torsten",
-     "author_id": 168,
-     "author_lastname": "Rohlfing"
+  "publication": {
+    "abstract": "We propose an open source and cross platform medical image viewer, named VV, designed for qualita tive evaluation of images registration, in particular for deformable registration of 4D CT images. VV can display multiple spatio-temporal image sequences (2D+t or 3D+t) and contains several tools for comparing images using transparency or fusion, for visualizing deformation \ufb01elds, for de\ufb01ning landmarks. It is used in the \ufb01eld of radiation therapy to help researchers and clinicians evaluate deformation in 4D CT images of the thorax. It is implemented in C++, with ITK, VTK and QT open source version, runs on Linux and windows and is freely available to the community.",
+    "articles": [
+      "bafybeiae3iepi534eaxfmz47ejookp7yzxkvlqjgzgpzgsu3neekeqrk6q"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Seroul, Pierre",
+        "author_place": 1,
+        "persona_email": "pierre.seroul@gmail.com",
+        "persona_firstname": "Pierre",
+        "persona_id": 523,
+        "persona_lastname": "Seroul"
+      },
+      {
+        "author_fullname": "Sarrut, David",
+        "author_place": 2,
+        "persona_email": "dsarrut@gmail.com",
+        "persona_firstname": "David",
+        "persona_id": 42,
+        "persona_lastname": "Sarrut"
+      },
+      {
+        "author_fullname": "Sarrut, David",
+        "author_place": 2,
+        "persona_email": "david.sarrut@gmail.com",
+        "persona_firstname": "David",
+        "persona_id": 2426,
+        "persona_lastname": "Sarrut"
+      }
+    ],
+    "categories": [
+      "CMake",
+      "Code memory optimization",
+      "Code speed optimization",
+      "Data",
+      "Data Representation",
+      "Deformable registration",
+      "Filtering",
+      "Generic Programming",
+      "Geometric transforms",
+      "Image",
+      "Images",
+      "IO",
+      "Iterators",
+      "PointSet",
+      "Programming",
+      "Registration",
+      "Transforms"
+    ],
+    "comments": [],
+    "date_submitted": "2008-07-01T00:00:00Z",
+    "handles": [
+      {
+        "handle": "10380/1458",
+        "handle_url": "http://hdl.handle.net/10380/1458"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<p><strong>Summary:</strong><br /> This submission contains a GUI visualization tool for 3D and 4D images, including functions to visualize fusion, overlays, and deformation fields<br /> <br /> <strong>Open Science:</strong><br />Source code and demonstration data are included.<br /> <br /> <strong>Reproducibility:</strong><br /> Compiled from source and tested with my own data. Building is a breeze (on Linux FC9 with latest CVS versions of ITK and VTK). Testing worked well, too.<br /> <br /> <strong>Use of Open Source Software:</strong><br /> Software uses only open source toolkits.<br /> <br /> <strong>Open Source Contributions:</strong><br />Full source provided.<br /> <br /> <strong>Suggestions for future work:</strong><br /> Just a few issues I found:</p><p>* There seems to be an A/P flip in axial data (tried both Analyze and Nrrd files). A is bottom of viewer, and P is top, which is counter-intuitive.</p><p>* Nrrd should be supported as a file format (listed as a file type in the Open Deformation Field dialog) for deformation fields (certainly supported by ITK).</p><p>* Why can &quot;linked&quot; images not be overlaid and fused? It&#39;s a bit inconvenient to have to re-read an image to be able to do both linked cursors and overlay of the same second data set.</p><p>* Somehow many of the Qt widgets seem to be too small for their content (e.g., window/level entries, preset drop-down list). For the widgets just below the menu bar, the problem goes away when I maximize the application window, but the widgets in the &quot;Overlay&quot; tabfor example stay too small.</p><p>* It would be nice to have anatomical labels (&quot;A/P/L/R/I/S&quot;) displayed in the viewers for orientation. </p><p>* There does not seem to be a way to change the scale of the viewer images, while there is translate interaction using the middle mouse buttom. </p><p>* It would be useful to be able to turn the text overlay in the viewers on and off (for exporting images). </p><p> <strong>Additional Comments:</strong><br />This is certainly not as powerful a tool as others, e.g., 3DSlicer, but for what it does it is exactly right. The tool does a terrific job at what it does, without the bloating and feature overload of more complex packages. Great contribution!!<br /> <br /> </p>",
-    "date": "07-30-2008",
-    "review_id": 1547
-   },
-   {
-    "author": {
-     "author_email": "luis.ibanez@kitware.com",
-     "author_firstname": "Luis",
-     "author_id": 4,
-     "author_lastname": "Ibanez"
+    "journals": [
+      {
+        "journal_id": 40,
+        "journal_name": "MICCAI 2012 Workshops"
+      },
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 617,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "torsten@synapse.sri.com",
+          "author_firstname": "Torsten",
+          "author_id": 168,
+          "author_lastname": "Rohlfing"
+        },
+        "content": "<p><strong>Summary:</strong><br /> This submission contains a GUI visualization tool for 3D and 4D images, including functions to visualize fusion, overlays, and deformation fields<br /> <br /> <strong>Open Science:</strong><br />Source code and demonstration data are included.<br /> <br /> <strong>Reproducibility:</strong><br /> Compiled from source and tested with my own data. Building is a breeze (on Linux FC9 with latest CVS versions of ITK and VTK). Testing worked well, too.<br /> <br /> <strong>Use of Open Source Software:</strong><br /> Software uses only open source toolkits.<br /> <br /> <strong>Open Source Contributions:</strong><br />Full source provided.<br /> <br /> <strong>Suggestions for future work:</strong><br /> Just a few issues I found:</p><p>* There seems to be an A/P flip in axial data (tried both Analyze and Nrrd files). A is bottom of viewer, and P is top, which is counter-intuitive.</p><p>* Nrrd should be supported as a file format (listed as a file type in the Open Deformation Field dialog) for deformation fields (certainly supported by ITK).</p><p>* Why can &quot;linked&quot; images not be overlaid and fused? It&#39;s a bit inconvenient to have to re-read an image to be able to do both linked cursors and overlay of the same second data set.</p><p>* Somehow many of the Qt widgets seem to be too small for their content (e.g., window/level entries, preset drop-down list). For the widgets just below the menu bar, the problem goes away when I maximize the application window, but the widgets in the &quot;Overlay&quot; tabfor example stay too small.</p><p>* It would be nice to have anatomical labels (&quot;A/P/L/R/I/S&quot;) displayed in the viewers for orientation. </p><p>* There does not seem to be a way to change the scale of the viewer images, while there is translate interaction using the middle mouse buttom. </p><p>* It would be useful to be able to turn the text overlay in the viewers on and off (for exporting images). </p><p> <strong>Additional Comments:</strong><br />This is certainly not as powerful a tool as others, e.g., 3DSlicer, but for what it does it is exactly right. The tool does a terrific job at what it does, without the bloating and feature overload of more complex packages. Great contribution!!<br /> <br /> </p>",
+        "date": "07-30-2008",
+        "review_id": 1547
+      },
+      {
+        "author": {
+          "author_email": "luis.ibanez@kitware.com",
+          "author_firstname": "Luis",
+          "author_id": 4,
+          "author_lastname": "Ibanez"
+        },
+        "content": "<p>&nbsp;</p><p><strong>Summary:</strong></p><p>The authors describe a visualization tool suitable for 2D+t and 3D+t data. This is a very useful visualization tool for a task for which no other tools are currently available. The implementation is very well crafted and resulted in a tool that feels very fluid to the user. Great Work !</p><p>&nbsp;</p><p><strong>Open Science:</strong></p><p> The paper provides all the material required to replicate the work described by the authors.</p><p><strong>Reproducibility:</strong></p><p>I downloaded the source code and build it under Linux Debian with Gcc 4.1. It build out of the box without any modifications.</p><p>Downloaded the data provided by the authors as well and was able to load it into the VV tool and to exercise the functionalities described in the paper.</p><p>The paper and its complementary material is a perfect example of a reproducible paper. </p><p><br /> <strong>Use of Open Source Software:</strong><br /> </p><p>The authors used the Open Source packages : ITK, VTK and QT (note that Qt has a dual-license).</p><p>The source code of the tool described in the paper is also available as Open Source software under a modified BSD license. </p><p>The authors did a great job of reusing of functionalities provided by existing toolkits and focusing on developing new functionalities that no other tool includes today.</p><p> <br /> <strong>Open Source Contributions:</strong><br /> </p><p>The source code was provided and it was very easy to build.</p><p> <br /> <strong>Code Quality:</strong></p><p>The source code was readable. The coding style is not fully consistent. Therefore it may require some style fixing if added to Insight Applications. </p><p> <br /> <strong>Applicability to other problems:</strong></p><p> This viewer is an excellent tool and it will certainly be useful in many different fields. </p><p> <br /> <strong>Suggestions for future work:</strong></p><p> <br /> <strong>Additional Comments:</strong><br /> </p><p>This is a great paper, describing a great tool.</p><p>Congratulations for a job well done, </p><p>and thanks for sharing this good software with the community. </p><p>&nbsp;</p><p>------</p><p>Very Very Minor improvements: the CMakeLists.txt file must be updated for CMake 2.6. </p><p>Several warnings were reported when building in Linux,nothing too serious, but it would be nice to clean them up. </p>",
+        "date": "07-29-2008",
+        "review_id": 1543
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "pierre.seroul@gmail.com",
+      "author_firstname": "Pierre",
+      "author_fullname": "Seroul, Pierre",
+      "author_id": 523,
+      "author_institution": "Creatis LRMN",
+      "author_lastname": "Seroul"
     },
-    "content": "<p>&nbsp;</p><p><strong>Summary:</strong></p><p>The authors describe a visualization tool suitable for 2D+t and 3D+t data. This is a very useful visualization tool for a task for which no other tools are currently available. The implementation is very well crafted and resulted in a tool that feels very fluid to the user. Great Work !</p><p>&nbsp;</p><p><strong>Open Science:</strong></p><p> The paper provides all the material required to replicate the work described by the authors.</p><p><strong>Reproducibility:</strong></p><p>I downloaded the source code and build it under Linux Debian with Gcc 4.1. It build out of the box without any modifications.</p><p>Downloaded the data provided by the authors as well and was able to load it into the VV tool and to exercise the functionalities described in the paper.</p><p>The paper and its complementary material is a perfect example of a reproducible paper. </p><p><br /> <strong>Use of Open Source Software:</strong><br /> </p><p>The authors used the Open Source packages : ITK, VTK and QT (note that Qt has a dual-license).</p><p>The source code of the tool described in the paper is also available as Open Source software under a modified BSD license. </p><p>The authors did a great job of reusing of functionalities provided by existing toolkits and focusing on developing new functionalities that no other tool includes today.</p><p> <br /> <strong>Open Source Contributions:</strong><br /> </p><p>The source code was provided and it was very easy to build.</p><p> <br /> <strong>Code Quality:</strong></p><p>The source code was readable. The coding style is not fully consistent. Therefore it may require some style fixing if added to Insight Applications. </p><p> <br /> <strong>Applicability to other problems:</strong></p><p> This viewer is an excellent tool and it will certainly be useful in many different fields. </p><p> <br /> <strong>Suggestions for future work:</strong></p><p> <br /> <strong>Additional Comments:</strong><br /> </p><p>This is a great paper, describing a great tool.</p><p>Congratulations for a job well done, </p><p>and thanks for sharing this good software with the community. </p><p>&nbsp;</p><p>------</p><p>Very Very Minor improvements: the CMakeLists.txt file must be updated for CMake 2.6. </p><p>Several warnings were reported when building in Linux,nothing too serious, but it would be nice to clean them up. </p>",
-    "date": "07-29-2008",
-    "review_id": 1543
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "pierre.seroul@gmail.com",
-   "author_firstname": "Pierre",
-   "author_fullname": "Seroul, Pierre",
-   "author_id": 523,
-   "author_institution": "Creatis LRMN",
-   "author_lastname": "Seroul"
-  },
-  "tags": [
-   "viewer",
-   "registration",
-   "spatio-temporal images",
-   "radiotherapy"
-  ],
-  "title": "VV: a viewer for the evaluation of 4D image registration"
- }
+    "tags": [
+      "viewer",
+      "registration",
+      "spatio-temporal images",
+      "radiotherapy"
+    ],
+    "title": "VV: a viewer for the evaluation of 4D image registration"
+  }
 }

@@ -1,67 +1,70 @@
 {
- "publication": {
-  "abstract": "This document describes an ITK class implementing an Adaptive Moment Estimator (Adam) optimizer algorithm within the Insight Toolkit ITK www.itk.org. Adam is an adaptive gradient descent optimizer, which independently adaptively estimates the gradient descent step for each parameter, at each iteration, based on stored past gradients. The optimizer stores exponentially decaying averages of past gradients to estimate first moment (the mean) and the second moment (the variance) of the gradients to formulate update rule for present iteration. The Adam optimizer compares favorably to other adaptive learning-method algorithms, converges faster, and is robust to saddle point. This paper is accompanied with the source code, input data, parameters and output data that the authors used for validating the algorithm described in this paper. ",
-  "authors": [
-   {
-    "author_fullname": "Ajani, Bhavya",
-    "author_place": 2,
-    "persona_email": "ajanibhavya@gmail.com",
-    "persona_firstname": "Bhavya",
-    "persona_id": 9648,
-    "persona_lastname": "Ajani"
-   },
-   {
-    "author_fullname": "Bharadwaj, Aditya",
-    "author_place": 3,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Optimization",
-   "Registration optimizers"
-  ],
-  "comments": [
-   {
-    "content": "To the Admin: Please remove all these scams comments.\r\n\r\nI tested the code above. The code compiled in ITK 5 after fixing 3 bugs see bellow. I could not read the sample images. It seems from their sizes they are broken. The code works with other images but the optimiser does not converge. I will do more testing using different transforms and metrics. \r\n\r\nThere are bugs in the testing file:\r\n\r\n \r\n    std::string imgFPath  =\"../data/FixedImage.mhd\";\r\n    std::string imgMPath  =\"../data/MovingImage.mhd\";\r\n    double b1Par = 0.9 ;\r\n    double b2Par = 0.99 ;\r\n    double stepSize = 0.1 ;\r\n    double numItr = 100 ;\r\n\r\n    if (argc  7)\t{\r\n\t\tstd::cerr  \"You must supply a fixed image and a moving image for registration\"  std::endl;\r\n        std::cout\"using default parameters .....\" std::endl;\r\n        //return EXIT_FAILURE;\r\n    }else{\r\n       std::cout\"using user argumnets.....\" std::endl;\r\n       imgFPath = argv[1] ;\r\n       imgMPath = argv[2] ;\r\n       b1Par    = atof(argv[3]) ;\r\n       b2Par    = atof(argv[4]) ;\r\n       stepSize = atof(argv[5]) ;\r\n       numItr   = atof(argv[6]) ;\r\n    }\r\n    ImageType::Pointer fixedImage ;//= NULL;\r\n// Read the fixed image file\r\n\tReaderType::Pointer fixedImageReader = ReaderType::New();\r\n\r\n    fixedImageReader-SetFileName(imgFPath);\r\n\r\n\ttry\r\n\t{\r\n\t\tfixedImageReader-UpdateLargestPossibleRegion();\r\n\t\tfixedImage = fixedImageReader-GetOutput();\r\n\t}\r\n\tcatch (itk::ExceptionObject& e)\r\n\t{\r\n        std::cerr  \"Exception detected while reading \"  imgFPath;\r\n\t\tstd::cerr  \" : \"  e.GetDescription();\r\n\t\treturn EXIT_FAILURE;\r\n\t}\r\n\r\n    ImageType::Pointer movingImage ;//= NULL;\r\n\r\n\t// Read the fixed image file\r\n\tReaderType::Pointer movingImageReader = ReaderType::New();\r\n\r\n    movingImageReader-SetFileName(imgMPath);\r\n\r\n\ttry\r\n\t{\r\n\t\tmovingImageReader-UpdateLargestPossibleRegion();\r\n\t\tmovingImage = movingImageReader-GetOutput();\r\n\t}\r\n\tcatch (itk::ExceptionObject& e)\r\n\t{\r\n        std::cerr  \"Exception detected while reading \"  imgMPath;\r\n\t\tstd::cerr  \" : \"  e.GetDescription();\r\n\t\treturn EXIT_FAILURE;\r\n\t}\r\n\r\n\r\n",
-    "date": "2020-03-23T05:23:38",
-    "persona_email": "idhamari@uni-koblenz.de",
-    "persona_firstname": "Ibraheem",
-    "persona_id": 12108,
-    "persona_lastname": "Al-dhamari"
-   }
-  ],
-  "date_submitted": "2019-06-28 03:07:40",
-  "handles": [
-   {
-    "handle": "10380/3600",
-    "handle_url": "http://hdl.handle.net/10380/3600"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 990,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "ajanibhavya@gmail.com",
-   "author_firstname": "Bhavya",
-   "author_fullname": "Ajani, Bhavya",
-   "author_id": 9648,
-   "author_institution": "",
-   "author_lastname": "Ajani"
-  },
-  "tags": [
-   "ADAM",
-   "Discrete optimization"
-  ],
-  "title": "Adaptive Moment Estimator (Adam) Optimizer in ITK v3"
- }
+  "publication": {
+    "abstract": "This document describes an ITK class implementing an Adaptive Moment Estimator (Adam) optimizer algorithm within the Insight Toolkit ITK www.itk.org. Adam is an adaptive gradient descent optimizer, which independently adaptively estimates the gradient descent step for each parameter, at each iteration, based on stored past gradients. The optimizer stores exponentially decaying averages of past gradients to estimate first moment (the mean) and the second moment (the variance) of the gradients to formulate update rule for present iteration. The Adam optimizer compares favorably to other adaptive learning-method algorithms, converges faster, and is robust to saddle point. This paper is accompanied with the source code, input data, parameters and output data that the authors used for validating the algorithm described in this paper. ",
+    "articles": [
+      "bafybeih4xqo3zmrttm3ptcx5iaw4qhhxtsk5setszisdoqmzs3kjjtnivy"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Ajani, Bhavya",
+        "author_place": 2,
+        "persona_email": "ajanibhavya@gmail.com",
+        "persona_firstname": "Bhavya",
+        "persona_id": 9648,
+        "persona_lastname": "Ajani"
+      },
+      {
+        "author_fullname": "Bharadwaj, Aditya",
+        "author_place": 3,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Optimization",
+      "Registration optimizers"
+    ],
+    "comments": [
+      {
+        "content": "To the Admin: Please remove all these scams comments.\r\n\r\nI tested the code above. The code compiled in ITK 5 after fixing 3 bugs see bellow. I could not read the sample images. It seems from their sizes they are broken. The code works with other images but the optimiser does not converge. I will do more testing using different transforms and metrics. \r\n\r\nThere are bugs in the testing file:\r\n\r\n \r\n    std::string imgFPath  =\"../data/FixedImage.mhd\";\r\n    std::string imgMPath  =\"../data/MovingImage.mhd\";\r\n    double b1Par = 0.9 ;\r\n    double b2Par = 0.99 ;\r\n    double stepSize = 0.1 ;\r\n    double numItr = 100 ;\r\n\r\n    if (argc  7)\t{\r\n\t\tstd::cerr  \"You must supply a fixed image and a moving image for registration\"  std::endl;\r\n        std::cout\"using default parameters .....\" std::endl;\r\n        //return EXIT_FAILURE;\r\n    }else{\r\n       std::cout\"using user argumnets.....\" std::endl;\r\n       imgFPath = argv[1] ;\r\n       imgMPath = argv[2] ;\r\n       b1Par    = atof(argv[3]) ;\r\n       b2Par    = atof(argv[4]) ;\r\n       stepSize = atof(argv[5]) ;\r\n       numItr   = atof(argv[6]) ;\r\n    }\r\n    ImageType::Pointer fixedImage ;//= NULL;\r\n// Read the fixed image file\r\n\tReaderType::Pointer fixedImageReader = ReaderType::New();\r\n\r\n    fixedImageReader-SetFileName(imgFPath);\r\n\r\n\ttry\r\n\t{\r\n\t\tfixedImageReader-UpdateLargestPossibleRegion();\r\n\t\tfixedImage = fixedImageReader-GetOutput();\r\n\t}\r\n\tcatch (itk::ExceptionObject& e)\r\n\t{\r\n        std::cerr  \"Exception detected while reading \"  imgFPath;\r\n\t\tstd::cerr  \" : \"  e.GetDescription();\r\n\t\treturn EXIT_FAILURE;\r\n\t}\r\n\r\n    ImageType::Pointer movingImage ;//= NULL;\r\n\r\n\t// Read the fixed image file\r\n\tReaderType::Pointer movingImageReader = ReaderType::New();\r\n\r\n    movingImageReader-SetFileName(imgMPath);\r\n\r\n\ttry\r\n\t{\r\n\t\tmovingImageReader-UpdateLargestPossibleRegion();\r\n\t\tmovingImage = movingImageReader-GetOutput();\r\n\t}\r\n\tcatch (itk::ExceptionObject& e)\r\n\t{\r\n        std::cerr  \"Exception detected while reading \"  imgMPath;\r\n\t\tstd::cerr  \" : \"  e.GetDescription();\r\n\t\treturn EXIT_FAILURE;\r\n\t}\r\n\r\n\r\n",
+        "date": "2020-03-23T05:23:38",
+        "persona_email": "idhamari@uni-koblenz.de",
+        "persona_firstname": "Ibraheem",
+        "persona_id": 12108,
+        "persona_lastname": "Al-dhamari"
+      }
+    ],
+    "date_submitted": "2019-06-28 03:07:40",
+    "handles": [
+      {
+        "handle": "10380/3600",
+        "handle_url": "http://hdl.handle.net/10380/3600"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 990,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "ajanibhavya@gmail.com",
+      "author_firstname": "Bhavya",
+      "author_fullname": "Ajani, Bhavya",
+      "author_id": 9648,
+      "author_institution": "",
+      "author_lastname": "Ajani"
+    },
+    "tags": [
+      "ADAM",
+      "Discrete optimization"
+    ],
+    "title": "Adaptive Moment Estimator (Adam) Optimizer in ITK v3"
+  }
 }

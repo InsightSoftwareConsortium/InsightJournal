@@ -1,67 +1,71 @@
 {
- "publication": {
-  "abstract": "The Hausdorff distance is a measure of the distance between sets of points. There are many advantages to using this metric compared to other similarity measures. This document describes a VTK class for computing the Hausdorff Distance between two sets of points. The main contribution, compared to other implementations, lies in the definition of the distance not only to the closest point but to the closest point in the represented surface, which yields an accurate measure even between undersampled surfaces. This is achieved by implementing a point-to-cell distance instead of a point-to-point. Furthermore, a plugin for ParaView was implemented, which is also available with the code. After introducing the interest of this distance, the VTK code is explained and illustrated with some examples.",
-  "authors": [
-   {
-    "author_fullname": "Commandeur, Fr\u00e9d\u00e9ric",
-    "author_place": 1,
-    "persona_email": "frederic.commandeur@etudiant.univ-rennes1.fr",
-    "persona_firstname": "Fr\u00e9d\u00e9ric",
-    "persona_id": 5127,
-    "persona_lastname": "Commandeur"
-   },
-   {
-    "author_fullname": "Velut, J\u00e9r\u00f4me",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Acosta, Oscar",
-    "author_place": 3,
-    "persona_email": "oscar.acosta@univ-rennes1.fr",
-    "persona_firstname": "Oscar ",
-    "persona_id": 2643,
-    "persona_lastname": "Acosta"
-   }
-  ],
-  "categories": [
-   "Mathematics",
-   "Mesh",
-   "PointSet"
-  ],
-  "comments": [],
-  "date_submitted": "2011-09-22 13:00:28",
-  "handles": [
-   {
-    "handle": "10380/3322",
-    "handle_url": "http://hdl.handle.net/10380/3322"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 35,
-    "journal_name": "The VTK Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 839,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "frederic.commandeur@etudiant.univ-rennes1.fr",
-   "author_firstname": "Fr\u00e9d\u00e9ric",
-   "author_fullname": "Commandeur, Fr\u00e9d\u00e9ric",
-   "author_id": 5127,
-   "author_institution": "INSERM, U642, Rennes, F-35000, France",
-   "author_lastname": "Commandeur"
-  },
-  "tags": [
-   "Surfaces Comparison",
-   "Hausdorff Distance"
-  ],
-  "title": "A VTK Algorithm for the Computation of the Hausdorff Distance"
- }
+  "publication": {
+    "abstract": "The Hausdorff distance is a measure of the distance between sets of points. There are many advantages to using this metric compared to other similarity measures. This document describes a VTK class for computing the Hausdorff Distance between two sets of points. The main contribution, compared to other implementations, lies in the definition of the distance not only to the closest point but to the closest point in the represented surface, which yields an accurate measure even between undersampled surfaces. This is achieved by implementing a point-to-cell distance instead of a point-to-point. Furthermore, a plugin for ParaView was implemented, which is also available with the code. After introducing the interest of this distance, the VTK code is explained and illustrated with some examples.",
+    "articles": [
+      "bafybeibquhekf3gca5mbsssj2fv2i3pm7heilo7lacadotq4dungiu5wee",
+      "bafybeibquhekf3gca5mbsssj2fv2i3pm7heilo7lacadotq4dungiu5wee"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Commandeur, Fr\u00e9d\u00e9ric",
+        "author_place": 1,
+        "persona_email": "frederic.commandeur@etudiant.univ-rennes1.fr",
+        "persona_firstname": "Fr\u00e9d\u00e9ric",
+        "persona_id": 5127,
+        "persona_lastname": "Commandeur"
+      },
+      {
+        "author_fullname": "Velut, J\u00e9r\u00f4me",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Acosta, Oscar",
+        "author_place": 3,
+        "persona_email": "oscar.acosta@univ-rennes1.fr",
+        "persona_firstname": "Oscar ",
+        "persona_id": 2643,
+        "persona_lastname": "Acosta"
+      }
+    ],
+    "categories": [
+      "Mathematics",
+      "Mesh",
+      "PointSet"
+    ],
+    "comments": [],
+    "date_submitted": "2011-09-22 13:00:28",
+    "handles": [
+      {
+        "handle": "10380/3322",
+        "handle_url": "http://hdl.handle.net/10380/3322"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 35,
+        "journal_name": "The VTK Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 839,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "frederic.commandeur@etudiant.univ-rennes1.fr",
+      "author_firstname": "Fr\u00e9d\u00e9ric",
+      "author_fullname": "Commandeur, Fr\u00e9d\u00e9ric",
+      "author_id": 5127,
+      "author_institution": "INSERM, U642, Rennes, F-35000, France",
+      "author_lastname": "Commandeur"
+    },
+    "tags": [
+      "Surfaces Comparison",
+      "Hausdorff Distance"
+    ],
+    "title": "A VTK Algorithm for the Computation of the Hausdorff Distance"
+  }
 }

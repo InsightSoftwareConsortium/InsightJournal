@@ -1,92 +1,98 @@
 {
- "publication": {
-  "abstract": "Multiple sclerosis diagnosis and patient follow-up can be helped by an evaluation of the lesion load in MRI sequences. A lot of automatic methods to segment these lesions are available in the literature. The MICCAI workshop Multiple Sclerosis (MS) lesion segmentation Challenge 08 allows to test and compare these algorithms. This paper presents a method designed to detect hyperintense signal area on T2-FLAIR sequence and its results on the Challenge test data. The proposed algorithm uses only three conventional MRI sequences: T1, T2 and T2-FLAIR. First, images are cropped, spatially unbiased and skull-stripped. A segmentation of the brain into its different compartments is performed on the T1 and the T2 sequences. From these segmentations, a threshold for the T2-FLAIR sequence is automatically computed. Then postprocessing operations select the most plausible lesions in the obtained hyperintense signals. Global result on the test data (80/100) is close to the inter-expert variability (90/100).",
-  "authors": [
-   {
-    "author_fullname": "Souplet, Jean-Christophe",
-    "author_place": 1,
-    "persona_email": "jean-christophe.souplet@sophia.inria.fr",
-    "persona_firstname": "Jean-christophe",
-    "persona_id": 927,
-    "persona_lastname": "Souplet"
-   },
-   {
-    "author_fullname": "Lebrun, Christine",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Ayache, Nicholas",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Malandain, Gregoire",
-    "author_place": 4,
-    "persona_id": null
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2008-07-15T13:51:28Z",
-  "handles": [
-   {
-    "handle": "10380/1451",
-    "handle_url": "http://hdl.handle.net/10380/1451"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 44,
-    "journal_name": "MICCAI 2015 Workshops"
-   },
-   {
-    "journal_id": 33,
-    "journal_name": "MICCAI 2008 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 613,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "simon.warfield@childrens.harvard.edu",
-     "author_firstname": "Simon",
-     "author_id": 514,
-     "author_lastname": "Warfield"
+  "publication": {
+    "abstract": "Multiple sclerosis diagnosis and patient follow-up can be helped by an evaluation of the lesion load in MRI sequences. A lot of automatic methods to segment these lesions are available in the literature. The MICCAI workshop Multiple Sclerosis (MS) lesion segmentation Challenge 08 allows to test and compare these algorithms. This paper presents a method designed to detect hyperintense signal area on T2-FLAIR sequence and its results on the Challenge test data. The proposed algorithm uses only three conventional MRI sequences: T1, T2 and T2-FLAIR. First, images are cropped, spatially unbiased and skull-stripped. A segmentation of the brain into its different compartments is performed on the T1 and the T2 sequences. From these segmentations, a threshold for the T2-FLAIR sequence is automatically computed. Then postprocessing operations select the most plausible lesions in the obtained hyperintense signals. Global result on the test data (80/100) is close to the inter-expert variability (90/100).",
+    "articles": [
+      "bafybeidr7fxxedjxovuokygxwl7o4nr2z4apuwbsswccjkf44yuszngmne",
+      "bafybeidr7fxxedjxovuokygxwl7o4nr2z4apuwbsswccjkf44yuszngmne",
+      "bafybeidr7fxxedjxovuokygxwl7o4nr2z4apuwbsswccjkf44yuszngmne",
+      "bafybeidr7fxxedjxovuokygxwl7o4nr2z4apuwbsswccjkf44yuszngmne"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Souplet, Jean-Christophe",
+        "author_place": 1,
+        "persona_email": "jean-christophe.souplet@sophia.inria.fr",
+        "persona_firstname": "Jean-christophe",
+        "persona_id": 927,
+        "persona_lastname": "Souplet"
+      },
+      {
+        "author_fullname": "Lebrun, Christine",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Ayache, Nicholas",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Malandain, Gregoire",
+        "author_place": 4,
+        "persona_id": null
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2008-07-15T13:51:28Z",
+    "handles": [
+      {
+        "handle": "10380/1451",
+        "handle_url": "http://hdl.handle.net/10380/1451"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<p>This paper describes an algorithm for the segmentation of lesions from brain MRI of MS patients.</p><p>The approach utilizes preprocessing followed by the estimation of a threshold for lesions in FLAIR images based on the signal intensity of the gray matter distribution.</p><p>The evaluation indicates the method performs well.</p><p>Minor problems:</p><p>I suggest to rewrite the sentence with the word unity to use a different word.</p><p>The table of Figure 6 adds up to 90 minutes of processing, but says 96 mins. &nbsp;</p>",
-    "date": "07-25-2008",
-    "review_id": 1532
-   },
-   {
-    "author": {
-     "author_email": "styner@cs.unc.edu",
-     "author_firstname": "Martin",
-     "author_id": 28,
-     "author_lastname": "Styner"
+    "journals": [
+      {
+        "journal_id": 44,
+        "journal_name": "MICCAI 2015 Workshops"
+      },
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 613,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "simon.warfield@childrens.harvard.edu",
+          "author_firstname": "Simon",
+          "author_id": 514,
+          "author_lastname": "Warfield"
+        },
+        "content": "<p>This paper describes an algorithm for the segmentation of lesions from brain MRI of MS patients.</p><p>The approach utilizes preprocessing followed by the estimation of a threshold for lesions in FLAIR images based on the signal intensity of the gray matter distribution.</p><p>The evaluation indicates the method performs well.</p><p>Minor problems:</p><p>I suggest to rewrite the sentence with the word unity to use a different word.</p><p>The table of Figure 6 adds up to 90 minutes of processing, but says 96 mins. &nbsp;</p>",
+        "date": "07-25-2008",
+        "review_id": 1532
+      },
+      {
+        "author": {
+          "author_email": "styner@cs.unc.edu",
+          "author_firstname": "Martin",
+          "author_id": 28,
+          "author_lastname": "Styner"
+        },
+        "content": "<p>The paper presents a MS lesion segmentation method that focuses on the detection of hyper-intense T2-FLAIR regions. This detection is supported by an extensive set of preprocessing steps, including bias correction, skull stripping, intensity normalization, and EM loop based multi-channel tissue segmentation. The brain tissue segmentation is used to estimate the intensity parameters of the normal/healthy tissues. Based on the GM tissue parameter, a lesion segmentation is estimated and postprocessed with a set of rules. </p><p>It seems that in case of a severe MS case, the initial brain tissue segmentation would consist for WM to a larger degree of lesions. Thus, the parameters for the normal tissue (both WM and GM) would be off and the lesions would quite underestimated. Could you discuss this in your paper? </p><p>Overall nice paper with good results, a few minor revisions needed.</p><p>&nbsp;</p><p>&nbsp;</p>",
+        "date": "07-29-2008",
+        "review_id": 1545
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "jean-christophe.souplet@sophia.inria.fr",
+      "author_firstname": "Jean-christophe",
+      "author_fullname": "Souplet, Jean-christophe",
+      "author_id": 927,
+      "author_institution": "INRIA",
+      "author_lastname": "Souplet"
     },
-    "content": "<p>The paper presents a MS lesion segmentation method that focuses on the detection of hyper-intense T2-FLAIR regions. This detection is supported by an extensive set of preprocessing steps, including bias correction, skull stripping, intensity normalization, and EM loop based multi-channel tissue segmentation. The brain tissue segmentation is used to estimate the intensity parameters of the normal/healthy tissues. Based on the GM tissue parameter, a lesion segmentation is estimated and postprocessed with a set of rules. </p><p>It seems that in case of a severe MS case, the initial brain tissue segmentation would consist for WM to a larger degree of lesions. Thus, the parameters for the normal tissue (both WM and GM) would be off and the lesions would quite underestimated. Could you discuss this in your paper? </p><p>Overall nice paper with good results, a few minor revisions needed.</p><p>&nbsp;</p><p>&nbsp;</p>",
-    "date": "07-29-2008",
-    "review_id": 1545
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "jean-christophe.souplet@sophia.inria.fr",
-   "author_firstname": "Jean-christophe",
-   "author_fullname": "Souplet, Jean-christophe",
-   "author_id": 927,
-   "author_institution": "INRIA",
-   "author_lastname": "Souplet"
-  },
-  "tags": [
-   "Multiple sclerosis",
-   "segmentation"
-  ],
-  "title": "An Automatic Segmentation of T2-FLAIR Multiple Sclerosis Lesions"
- }
+    "tags": [
+      "Multiple sclerosis",
+      "segmentation"
+    ],
+    "title": "An Automatic Segmentation of T2-FLAIR Multiple Sclerosis Lesions"
+  }
 }

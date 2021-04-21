@@ -1,74 +1,77 @@
 {
- "publication": {
-  "abstract": "Deforming a 3D surface mesh while preserving its local detail is useful for editing anatomical atlases or for mesh based segmentation. This contribution introduces new classes for performing hard and soft constraints deformation in a flexible design which allows user to switch easily in between Laplacian discretization operators, area weighing and solvers. The usage of these new\nclasses is demonstrated on a sphere.\n",
-  "authors": [
-   {
-    "author_fullname": "Gelas, Arnaud",
-    "author_place": 1,
-    "persona_email": "arnaudgelas@gmail.com",
-    "persona_firstname": "Arnaud",
-    "persona_id": 7896,
-    "persona_lastname": "Gelas"
-   }
-  ],
-  "categories": [
-   "Atlas-based segmentation",
-   "Filtering",
-   "Mesh"
-  ],
-  "comments": [
-   {
-    "content": "References please",
-    "date": "2013-07-06T17:18:12",
-    "persona_email": "mhd.mayya@gmail.com",
-    "persona_firstname": "Mohammad",
-    "persona_id": 6260,
-    "persona_lastname": "Mayya"
-   },
-   {
-    "content": "The source code has already been migrated to ITK.\r\n\r\nhashtag: 6c86b9f",
-    "date": "2016-05-24T11:36:26",
-    "persona_email": "andinet.enqu@kitware.com",
-    "persona_firstname": "Andinet",
-    "persona_id": 68,
-    "persona_lastname": "Enquobahrie"
-   }
-  ],
-  "date_submitted": "2013-06-16 11:18:12",
-  "handles": [
-   {
-    "handle": "10380/3410",
-    "handle_url": "http://hdl.handle.net/10380/3410"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 890,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "arnaudgelas@gmail.com",
-   "author_firstname": "Arnaud",
-   "author_fullname": "Gelas, Arnaud",
-   "author_id": 7896,
-   "author_institution": "",
-   "author_lastname": "Gelas"
-  },
-  "tags": [
-   "QuadEdgeMesh",
-   "ITK filter",
-   "Laplacian",
-   "Mesh",
-   "Deformation"
-  ],
-  "title": "Laplacian Mesh Deformation"
- }
+  "publication": {
+    "abstract": "Deforming a 3D surface mesh while preserving its local detail is useful for editing anatomical atlases or for mesh based segmentation. This contribution introduces new classes for performing hard and soft constraints deformation in a flexible design which allows user to switch easily in between Laplacian discretization operators, area weighing and solvers. The usage of these new\nclasses is demonstrated on a sphere.\n",
+    "articles": [
+      "bafkreihicqdqidfeh4gxbylpic6pehzxnc5zwqedmd4ctjgfry3qelfgu4"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Gelas, Arnaud",
+        "author_place": 1,
+        "persona_email": "arnaudgelas@gmail.com",
+        "persona_firstname": "Arnaud",
+        "persona_id": 7896,
+        "persona_lastname": "Gelas"
+      }
+    ],
+    "categories": [
+      "Atlas-based segmentation",
+      "Filtering",
+      "Mesh"
+    ],
+    "comments": [
+      {
+        "content": "References please",
+        "date": "2013-07-06T17:18:12",
+        "persona_email": "mhd.mayya@gmail.com",
+        "persona_firstname": "Mohammad",
+        "persona_id": 6260,
+        "persona_lastname": "Mayya"
+      },
+      {
+        "content": "The source code has already been migrated to ITK.\r\n\r\nhashtag: 6c86b9f",
+        "date": "2016-05-24T11:36:26",
+        "persona_email": "andinet.enqu@kitware.com",
+        "persona_firstname": "Andinet",
+        "persona_id": 68,
+        "persona_lastname": "Enquobahrie"
+      }
+    ],
+    "date_submitted": "2013-06-16 11:18:12",
+    "handles": [
+      {
+        "handle": "10380/3410",
+        "handle_url": "http://hdl.handle.net/10380/3410"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 890,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "arnaudgelas@gmail.com",
+      "author_firstname": "Arnaud",
+      "author_fullname": "Gelas, Arnaud",
+      "author_id": 7896,
+      "author_institution": "",
+      "author_lastname": "Gelas"
+    },
+    "tags": [
+      "QuadEdgeMesh",
+      "ITK filter",
+      "Laplacian",
+      "Mesh",
+      "Deformation"
+    ],
+    "title": "Laplacian Mesh Deformation"
+  }
 }

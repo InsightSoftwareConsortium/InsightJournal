@@ -1,106 +1,109 @@
 {
- "publication": {
-  "abstract": "In this article, we will present a novel interactive image registration technique using the 3D volumetric view as guidance throughout the registration process. The registration criterion used in this technique is the homogeneity of the color distribution on any given anatomic landmark, usually the skin/muscle voxels. This registration criterion has been validated using two different approaches, including comparison with automatic registration using mutual information based on the Insight Toolkits (ITK) and comparison with registered MR images with different pulse sequences acquired directly from the same MR scanner less than 5 minutes. An investigation is also made to compare this technique with the conventional interactive image registration using three orthogonal planar (3P) views, which is predominantly used in the current treatment planning in clinic. This 3D technique has shown several advantages, including improved registration accuracy and accelerated registration speed. It has also found that the 3P pixel registration technique often \"inherits\" a global positioning error, due to its partial 3D visual presentation. In addition, unlike the 3P technique, which generally cannot be used to register more than 2 images simultaneously and low resolution PET images, this 3D technique can register up to 4 imaging modalities simultaneously, including PET images, with both global view guidance and detail checking capability.",
-  "authors": [
-   {
-    "author_fullname": "Li, George",
-    "author_place": 1,
-    "persona_email": "ligeorge@mail.nih.gov",
-    "persona_firstname": "George",
-    "persona_id": 14,
-    "persona_lastname": "Li"
-   },
-   {
-    "author_fullname": "Xie, Huchen",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Ning, Holly",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Citrin, Deborah",
-    "author_place": 4,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Copala, Jacek",
-    "author_place": 5,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Arora, Barbara",
-    "author_place": 6,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Coleman, Norman",
-    "author_place": 7,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Camphausen, Kevin",
-    "author_place": 8,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Miller, Robert",
-    "author_place": 9,
-    "persona_id": null
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2005-07-22T14:08:07Z",
-  "handles": [
-   {
-    "handle": "1926/193",
-    "handle_url": "http://hdl.handle.net/1926/193"
-   },
-   {
-    "handle": "1926/379",
-    "handle_url": "http://hdl.handle.net/1926/379"
-   },
-   {
-    "handle": "1926/398",
-    "handle_url": "http://hdl.handle.net/1926/398"
-   },
-   {
-    "handle": "1926/9",
-    "handle_url": "http://hdl.handle.net/1926/9"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 9,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "ligeorge@mail.nih.gov",
-   "author_firstname": "George",
-   "author_fullname": "Li, George",
-   "author_id": 14,
-   "author_institution": "National Cancer Institute, NIH",
-   "author_lastname": "Li"
-  },
-  "tags": [
-   "Image registration",
-   "Treatment planning",
-   "Visual presentation",
-   "Novel technique",
-   "Multi-modality",
-   "voxel volume"
-  ],
-  "title": "3D Voxel-Based Volumetric Image Registration with Volume-View Guidance"
- }
+  "publication": {
+    "abstract": "In this article, we will present a novel interactive image registration technique using the 3D volumetric view as guidance throughout the registration process. The registration criterion used in this technique is the homogeneity of the color distribution on any given anatomic landmark, usually the skin/muscle voxels. This registration criterion has been validated using two different approaches, including comparison with automatic registration using mutual information based on the Insight Toolkits (ITK) and comparison with registered MR images with different pulse sequences acquired directly from the same MR scanner less than 5 minutes. An investigation is also made to compare this technique with the conventional interactive image registration using three orthogonal planar (3P) views, which is predominantly used in the current treatment planning in clinic. This 3D technique has shown several advantages, including improved registration accuracy and accelerated registration speed. It has also found that the 3P pixel registration technique often \"inherits\" a global positioning error, due to its partial 3D visual presentation. In addition, unlike the 3P technique, which generally cannot be used to register more than 2 images simultaneously and low resolution PET images, this 3D technique can register up to 4 imaging modalities simultaneously, including PET images, with both global view guidance and detail checking capability.",
+    "articles": [
+      "bafybeiddnn2u77ebsb4hwqwmofzgxt6o4gz4vc75k4e5dpeqafcnb4j6mu"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Li, George",
+        "author_place": 1,
+        "persona_email": "ligeorge@mail.nih.gov",
+        "persona_firstname": "George",
+        "persona_id": 14,
+        "persona_lastname": "Li"
+      },
+      {
+        "author_fullname": "Xie, Huchen",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Ning, Holly",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Citrin, Deborah",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Copala, Jacek",
+        "author_place": 5,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Arora, Barbara",
+        "author_place": 6,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Coleman, Norman",
+        "author_place": 7,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Camphausen, Kevin",
+        "author_place": 8,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Miller, Robert",
+        "author_place": 9,
+        "persona_id": null
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2005-07-22T14:08:07Z",
+    "handles": [
+      {
+        "handle": "1926/193",
+        "handle_url": "http://hdl.handle.net/1926/193"
+      },
+      {
+        "handle": "1926/379",
+        "handle_url": "http://hdl.handle.net/1926/379"
+      },
+      {
+        "handle": "1926/398",
+        "handle_url": "http://hdl.handle.net/1926/398"
+      },
+      {
+        "handle": "1926/9",
+        "handle_url": "http://hdl.handle.net/1926/9"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 9,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "ligeorge@mail.nih.gov",
+      "author_firstname": "George",
+      "author_fullname": "Li, George",
+      "author_id": 14,
+      "author_institution": "National Cancer Institute, NIH",
+      "author_lastname": "Li"
+    },
+    "tags": [
+      "Image registration",
+      "Treatment planning",
+      "Visual presentation",
+      "Novel technique",
+      "Multi-modality",
+      "voxel volume"
+    ],
+    "title": "3D Voxel-Based Volumetric Image Registration with Volume-View Guidance"
+  }
 }

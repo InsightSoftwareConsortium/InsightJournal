@@ -1,198 +1,202 @@
 {
- "publication": {
-  "abstract": "It is sometimes useful to be able to apply binary morphological operations, such as erosions and dilations, to labelled images in a fashion that preserves the labels. This article introduces a specialised class implementing parallel methods described in beare et al [2011] that provide very fast dilations by circles and spheres of arbitary size. Comparisons with other implementations using currently available building blocks are also made.\n",
-  "authors": [
-   {
-    "author_fullname": "Beare, Richard",
-    "author_place": 1,
-    "persona_email": "richard.beare@ieee.org",
-    "persona_firstname": "Richard",
-    "persona_id": 197,
-    "persona_lastname": "Beare"
-   },
-   {
-    "author_fullname": "Jackway, Paul",
-    "author_place": 2,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Geometric transforms",
-   "Mathematical Morphology",
-   "Watersheds"
-  ],
-  "comments": [
-   {
-    "content": "Thanks for the test - I\\'ll check it out. Note that the github version is the latest and may be different.",
-    "date": "2014-03-18T17:43:08",
-    "persona_email": "richard.beare@ieee.org",
-    "persona_firstname": "Richard",
-    "persona_id": 197,
-    "persona_lastname": "Beare"
-   },
-   {
-    "content": "Found it!\r\n\r\nIt was the function signature of\r\n\r\nitkLabelSetMorphBaseImageFilter::SplitRequestedRegion(..)\r\n\r\nITK3 expects it with int\r\nbut ITK4 !as you correctly implemented! expects unsigned int\r\n\r\nI\\'ll do some testing and commit the modifications to your github.\r\n\r\nJ. ",
-    "date": "2014-03-20T02:09:09",
-    "persona_email": "jeromeavondo@msn.com",
-    "persona_firstname": "Jerome",
-    "persona_id": 9005,
-    "persona_lastname": "Avondo"
-   },
-   {
-    "content": "I tested with ITK 4.4.2 and multi-threading on (ie: not forced to 1) and it works fine.\r\n\r\nLooking around and refreshing my memory as I had done this !sorry! seems like the main difference for ITK 3 is the function signature for ThreadedGenerateData which is changed to use itk::ThreadIdType. \r\n\r\nIn fact to make it compatible for ITK 3 all I had to do add:\r\n\r\ntypedef int ThreadIdType;\r\n\r\nat the top of the itkLabelSetMorphBaseImageFilter.h\r\n\r\nMaybe this is the issue.\r\nI will do a bit more of debugging and see what it yields.\r\n\r\nJ.",
-    "date": "2014-03-19T20:41:25",
-    "persona_email": "jeromeavondo@msn.com",
-    "persona_firstname": "Jerome",
-    "persona_id": 9005,
-    "persona_lastname": "Avondo"
-   },
-   {
-    "content": "There seems to be an issue with this filter and running it multiple times in say a loop. For example take this code (useless but shows the problem):\r\n\r\nfor(int i=0; i10; i++)\r\n{\r\n  sourceImage-DisconnectPipeline(); \r\n  dilateFilter-SetInput(sourceImage);\r\n  sourceImage = dilateFilter-GetOutput();\r\n  dilateFilter-Update();\r\n}\r\n\r\nAfter a while the dilate image will start not expanding in one dimension. It\\'s like the filter does not update the region / image bounds used for calculation in such  a scenario?\r\n\r\nNote the same logic was tested with the non-threaded itk::BinaryDilateImageFilter and works as expected.\r\n\r\nJ.",
-    "date": "2014-03-18T17:53:07",
-    "persona_email": "jeromeavondo@msn.com",
-    "persona_firstname": "Jerome",
-    "persona_id": 9005,
-    "persona_lastname": "Avondo"
-   },
-   {
-    "content": "Hi\r\n\r\nI am having issues with ellipsoid structuring elements.\r\n\r\nI did a simple test where I create a 128x128x128 image set the voxel at (64 64 64) to 255 and perform a dilate with a 10x1x10 structuring element. But I still end up with a spherical result. In fact the result obtained is identical to using a 10x10x10 structuring element.\r\n\r\nIs there any special setup required to support ellipsoid structuring elements?\r\n\r\nAlso upon further inspection of the code it seems the computation of LabelSetDilateImageFilter::m_Scale is never used.\r\n\r\nThanks\r\nJ.\r\n\r\nPS: This behavior is present in both ITK3 and ITK4.",
-    "date": "2014-05-05T11:40:01",
-    "persona_email": "jeromeavondo@msn.com",
-    "persona_firstname": "Jerome",
-    "persona_id": 9005,
-    "persona_lastname": "Avondo"
-   },
-   {
-    "content": "Hi\r\nI agree the documentation needs to make this clear. I think the main ambiguity is where the Set/Get radius in section to mentions ellipsoids.\r\n\r\nDo I think support for ellipsoids is important? Well I would have a use case for them and it would make the algorithm more generic. So I would say YES :)\r\n\r\nJ.",
-    "date": "2014-05-12T09:59:21",
-    "persona_email": "jeromeavondo@msn.com",
-    "persona_firstname": "Jerome",
-    "persona_id": 9005,
-    "persona_lastname": "Avondo"
-   },
-   {
-    "content": "Correct!\r\n\r\nThis is with ITK3. \r\nAnd setting the SetGlobalMaximumNumberOfThreads(1) does solve the issue.\r\n\r\nIs there a reason for lack of ITK3 thread support? I am happy to contribute if you have any good pointers to get me started.\r\n\r\nJ.",
-    "date": "2014-03-19T17:12:56",
-    "persona_email": "jeromeavondo@msn.com",
-    "persona_firstname": "Jerome",
-    "persona_id": 9005,
-    "persona_lastname": "Avondo"
-   },
-   {
-    "content": "Ok getting somewhere:\r\n\r\nI found the difference between ITK3 vs ITK4.\r\n\r\nQuick recap:\r\n\r\nI have that same ITK pipeline compiling in ITK3 & ITK4.\r\nI set the threads to be fixed for both SetGlobalMaximumNumberOfThreads(2).\r\nThis makes it easier to debug and ITK4 seems to have some different logic for thread allocation. So forcing to 2 makes it comparable.\r\nI\\'m focusing only on itkLabelSetDilateImageFilter for now.\r\n\r\nITK4 works as it should. ITK3 I get that clipping artifact shown in the renders in my previous post.\r\n\r\nAfter quite some hunting the difference is the size of the incoming outputRegionForThread in itkLabelSetDilateImageFilter::ThreadedGenerateData. If I verbose the \r\n\r\ns = outputRegionForThread.GetSize()[this-m_CurrentDimension];\r\n\r\nFor ITK4 the image is always split in s=128  (over 6 calls).\r\nFor ITK3 the image is split in s=128 (over 4 calls) and s=64 (last 2 calls)\r\n\r\nSeems like ITK3 is skipping some parts of the image.\r\nI haven\\'t looked upstream yet to where this could be coming from.\r\n\r\nAnyway hints/tips always welcome but I think I\\'m getting closer.\r\n\r\nJ.",
-    "date": "2014-03-20T01:54:53",
-    "persona_email": "jeromeavondo@msn.com",
-    "persona_firstname": "Jerome",
-    "persona_id": 9005,
-    "persona_lastname": "Avondo"
-   },
-   {
-    "content": "Hi\r\nThis stuff worked in the original \\\"parabolicMorphology\\\" package but I probably haven\\'t tested it here. I\\'ll check it out",
-    "date": "2014-05-05T17:30:48",
-    "persona_email": "richard.beare@ieee.org",
-    "persona_firstname": "Richard",
-    "persona_id": 197,
-    "persona_lastname": "Beare"
-   },
-   {
-    "content": "Hi\r\nI\\'ve included support for axis oriented elliptical structuring elements. The mechanism is basically the same as used to support spherical structuring elements in images with non-isotropic voxels. Some new tests and examples included. See how you go.",
-    "date": "2014-05-13T19:35:51",
-    "persona_email": "richard.beare@ieee.org",
-    "persona_firstname": "Richard",
-    "persona_id": 197,
-    "persona_lastname": "Beare"
-   },
-   {
-    "content": "Hi\r\nThat is very distinct - I wasn\\'t getting this kind of problem. I suspect a windows threading issue. Can you test while setting the threads to 1?\r\n\r\n#include \\\"itkMultiThreader.h\\\"\r\nitk::MultiThreader::SetGlobalMaximumNumberOfThreads(1);\r\n",
-    "date": "2014-03-19T16:41:48",
-    "persona_email": "richard.beare@ieee.org",
-    "persona_firstname": "Richard",
-    "persona_id": 197,
-    "persona_lastname": "Beare"
-   },
-   {
-    "content": "Thanks for the test - I\\'ll check it out. Note that the github version is the latest and may be different.",
-    "date": "2014-03-18T17:56:18",
-    "persona_email": "richard.beare@ieee.org",
-    "persona_firstname": "Richard",
-    "persona_id": 197,
-    "persona_lastname": "Beare"
-   },
-   {
-    "content": "The threading interface changed under ITK 4 - from memory it is simply a type change for the thread ID. It should be easy enough to create a branch for ITK 3 or even perhaps some tricky macros to keep the versions consistent.\r\n\r\nAre you able to test whether the issue goes away with ITK4 under windows?\r\n\r\nI should also include a check in the CMake file to cause errors if building with incorrect ITK versions.",
-    "date": "2014-03-19T19:13:35",
-    "persona_email": "richard.beare@ieee.org",
-    "persona_firstname": "Richard",
-    "persona_id": 197,
-    "persona_lastname": "Beare"
-   },
-   {
-    "content": "Ellipsoid structuring elements won\\'t work at present. I\\'ll think about whether there is a good way of adding the capability.\r\n\r\nThe algorithm is based on circles/spheres via the distance transform although there is kind of support for ellipsoid structuring elements via the image spacing - i.e. the circle/sphere radius can be specified in mm and you\\'ll get a sensible result even if the image spacing is non isotropic.\r\n\r\nThe algorithms work by dilating a mask with a parabolic structuring function to produce a kind of inverted distance transform. The first pass sets the mask to a value that defines the size of the dilation - hence only the first element of the radius has any effect.\r\n\r\nIt is probably feasible to incorporate a weighting via the image spacing term - do you think this is an important capability? Certainly the documentation needs some improvement in this regard :-)",
-    "date": "2014-05-07T01:01:53",
-    "persona_email": "richard.beare@ieee.org",
-    "persona_firstname": "Richard",
-    "persona_id": 197,
-    "persona_lastname": "Beare"
-   },
-   {
-    "content": "Another thought - just confirm that you are using ITK 4 - there are differences in threading interfaces and the labelDilate code is set up for ITK 4",
-    "date": "2014-03-19T16:50:05",
-    "persona_email": "richard.beare@ieee.org",
-    "persona_firstname": "Richard",
-    "persona_id": 197,
-    "persona_lastname": "Beare"
-   },
-   {
-    "content": "Hi\r\nI\\'ve added an example to the github version - it is called labelDilateLoopTest. It seems to behave sensibly for me. The tests in the cmake file will run it for you.\r\n\r\nA couple of points\r\n1) You don\\'t have a DisconnectPipeline call in the example loop. I think this is essential for reliable use of itk filters in loops. The BinaryDilateFilter may be a mini pipeline filter and thus do the same thing internally.\r\n\r\n2) The label filters (and the parabolic filters from which they were derived) shouldn\\'t need to be run iteratively. If you want a large dilation then simply supply a large radius. This approach is much faster and will give the correct result. The problem with the iterative approach is you tend to end up with dilations that are compositions of little rectangles and are thus like a big rectangle. If you really want a dilation by a circle (which is usually the case) then use a large radius. The tests I\\'ve added show the difference between the two cases - check out looplabdilate2d.png and looplabdilate2d50.png.\r\n\r\nIf you still see problems with this test example then it may be a platform difference - I\\'ve only tested this code on linux and mac.",
-    "date": "2014-03-18T20:21:44",
-    "persona_email": "richard.beare@ieee.org",
-    "persona_firstname": "Richard",
-    "persona_id": 197,
-    "persona_lastname": "Beare"
-   },
-   {
-    "content": "Hi\r\nI\\'ve had a play with your example. The difference isn\\'t caused by the loop - that bit appears to be working fine. It is just that the binary ball structuring element is different to the structuring element that gets used in the label dilate code. The binary ball is a bresenham circle. The label dilate code uses distance transforms internally. For a specified radius the bresenham circle is a bit bigger - a voxel that has any part less than the radius will get included in the bresenham circle. The version based on distance transforms is looking at the voxel centre - voxel centre needs to be closer than the specified radius. You can see the difference in your example if you set the iterations to 1. Neither of them do a great job of representing small spheres - thats not something that can be avoided - and the label dilate version is a little smaller. The difference grows with loop iterations.\r\n\r\nHowever there isn\\'t any need to use iterative approaches to construct a large sphere with the label code. Just use a large radius and you\\'ll get a good circle/sphere very quickly. The bianry dilate probably won\\'t be as fast. If you aren\\'t really interested in preserving labels  then check out the parabolicMorphology package also on github. Note that it assumes images with 0/1 values.",
-    "date": "2014-03-19T00:00:32",
-    "persona_email": "richard.beare@ieee.org",
-    "persona_firstname": "Richard",
-    "persona_id": 197,
-    "persona_lastname": "Beare"
-   }
-  ],
-  "date_submitted": "2013-02-23 14:49:47",
-  "handles": [
-   {
-    "handle": "10380/3399",
-    "handle_url": "http://hdl.handle.net/10380/3399"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 886,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "richard.beare@ieee.org",
-   "author_firstname": "Richard",
-   "author_fullname": "Beare, Richard",
-   "author_id": 197,
-   "author_institution": "Monash University",
-   "author_lastname": "Beare"
-  },
-  "tags": [
-   "erosion",
-   "morphology",
-   "labelled images",
-   "dilation"
-  ],
-  "title": "Parallel algorithms for erosion and dilation of label images."
- }
+  "publication": {
+    "abstract": "It is sometimes useful to be able to apply binary morphological operations, such as erosions and dilations, to labelled images in a fashion that preserves the labels. This article introduces a specialised class implementing parallel methods described in beare et al [2011] that provide very fast dilations by circles and spheres of arbitary size. Comparisons with other implementations using currently available building blocks are also made.\n",
+    "articles": [
+      "bafkreidvvz4t5mlm6hqujmwttn5jbsjl5pzcc2y5benwqsj7u4yl6q7yua",
+      "bafkreibwp2rk4ggkdbdory5hixvh5wzyxizznd7pesq5gsoktt2bmkus6q"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Beare, Richard",
+        "author_place": 1,
+        "persona_email": "richard.beare@ieee.org",
+        "persona_firstname": "Richard",
+        "persona_id": 197,
+        "persona_lastname": "Beare"
+      },
+      {
+        "author_fullname": "Jackway, Paul",
+        "author_place": 2,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Geometric transforms",
+      "Mathematical Morphology",
+      "Watersheds"
+    ],
+    "comments": [
+      {
+        "content": "Thanks for the test - I\\'ll check it out. Note that the github version is the latest and may be different.",
+        "date": "2014-03-18T17:43:08",
+        "persona_email": "richard.beare@ieee.org",
+        "persona_firstname": "Richard",
+        "persona_id": 197,
+        "persona_lastname": "Beare"
+      },
+      {
+        "content": "Found it!\r\n\r\nIt was the function signature of\r\n\r\nitkLabelSetMorphBaseImageFilter::SplitRequestedRegion(..)\r\n\r\nITK3 expects it with int\r\nbut ITK4 !as you correctly implemented! expects unsigned int\r\n\r\nI\\'ll do some testing and commit the modifications to your github.\r\n\r\nJ. ",
+        "date": "2014-03-20T02:09:09",
+        "persona_email": "jeromeavondo@msn.com",
+        "persona_firstname": "Jerome",
+        "persona_id": 9005,
+        "persona_lastname": "Avondo"
+      },
+      {
+        "content": "I tested with ITK 4.4.2 and multi-threading on (ie: not forced to 1) and it works fine.\r\n\r\nLooking around and refreshing my memory as I had done this !sorry! seems like the main difference for ITK 3 is the function signature for ThreadedGenerateData which is changed to use itk::ThreadIdType. \r\n\r\nIn fact to make it compatible for ITK 3 all I had to do add:\r\n\r\ntypedef int ThreadIdType;\r\n\r\nat the top of the itkLabelSetMorphBaseImageFilter.h\r\n\r\nMaybe this is the issue.\r\nI will do a bit more of debugging and see what it yields.\r\n\r\nJ.",
+        "date": "2014-03-19T20:41:25",
+        "persona_email": "jeromeavondo@msn.com",
+        "persona_firstname": "Jerome",
+        "persona_id": 9005,
+        "persona_lastname": "Avondo"
+      },
+      {
+        "content": "There seems to be an issue with this filter and running it multiple times in say a loop. For example take this code (useless but shows the problem):\r\n\r\nfor(int i=0; i10; i++)\r\n{\r\n  sourceImage-DisconnectPipeline(); \r\n  dilateFilter-SetInput(sourceImage);\r\n  sourceImage = dilateFilter-GetOutput();\r\n  dilateFilter-Update();\r\n}\r\n\r\nAfter a while the dilate image will start not expanding in one dimension. It\\'s like the filter does not update the region / image bounds used for calculation in such  a scenario?\r\n\r\nNote the same logic was tested with the non-threaded itk::BinaryDilateImageFilter and works as expected.\r\n\r\nJ.",
+        "date": "2014-03-18T17:53:07",
+        "persona_email": "jeromeavondo@msn.com",
+        "persona_firstname": "Jerome",
+        "persona_id": 9005,
+        "persona_lastname": "Avondo"
+      },
+      {
+        "content": "Hi\r\n\r\nI am having issues with ellipsoid structuring elements.\r\n\r\nI did a simple test where I create a 128x128x128 image set the voxel at (64 64 64) to 255 and perform a dilate with a 10x1x10 structuring element. But I still end up with a spherical result. In fact the result obtained is identical to using a 10x10x10 structuring element.\r\n\r\nIs there any special setup required to support ellipsoid structuring elements?\r\n\r\nAlso upon further inspection of the code it seems the computation of LabelSetDilateImageFilter::m_Scale is never used.\r\n\r\nThanks\r\nJ.\r\n\r\nPS: This behavior is present in both ITK3 and ITK4.",
+        "date": "2014-05-05T11:40:01",
+        "persona_email": "jeromeavondo@msn.com",
+        "persona_firstname": "Jerome",
+        "persona_id": 9005,
+        "persona_lastname": "Avondo"
+      },
+      {
+        "content": "Hi\r\nI agree the documentation needs to make this clear. I think the main ambiguity is where the Set/Get radius in section to mentions ellipsoids.\r\n\r\nDo I think support for ellipsoids is important? Well I would have a use case for them and it would make the algorithm more generic. So I would say YES :)\r\n\r\nJ.",
+        "date": "2014-05-12T09:59:21",
+        "persona_email": "jeromeavondo@msn.com",
+        "persona_firstname": "Jerome",
+        "persona_id": 9005,
+        "persona_lastname": "Avondo"
+      },
+      {
+        "content": "Correct!\r\n\r\nThis is with ITK3. \r\nAnd setting the SetGlobalMaximumNumberOfThreads(1) does solve the issue.\r\n\r\nIs there a reason for lack of ITK3 thread support? I am happy to contribute if you have any good pointers to get me started.\r\n\r\nJ.",
+        "date": "2014-03-19T17:12:56",
+        "persona_email": "jeromeavondo@msn.com",
+        "persona_firstname": "Jerome",
+        "persona_id": 9005,
+        "persona_lastname": "Avondo"
+      },
+      {
+        "content": "Ok getting somewhere:\r\n\r\nI found the difference between ITK3 vs ITK4.\r\n\r\nQuick recap:\r\n\r\nI have that same ITK pipeline compiling in ITK3 & ITK4.\r\nI set the threads to be fixed for both SetGlobalMaximumNumberOfThreads(2).\r\nThis makes it easier to debug and ITK4 seems to have some different logic for thread allocation. So forcing to 2 makes it comparable.\r\nI\\'m focusing only on itkLabelSetDilateImageFilter for now.\r\n\r\nITK4 works as it should. ITK3 I get that clipping artifact shown in the renders in my previous post.\r\n\r\nAfter quite some hunting the difference is the size of the incoming outputRegionForThread in itkLabelSetDilateImageFilter::ThreadedGenerateData. If I verbose the \r\n\r\ns = outputRegionForThread.GetSize()[this-m_CurrentDimension];\r\n\r\nFor ITK4 the image is always split in s=128  (over 6 calls).\r\nFor ITK3 the image is split in s=128 (over 4 calls) and s=64 (last 2 calls)\r\n\r\nSeems like ITK3 is skipping some parts of the image.\r\nI haven\\'t looked upstream yet to where this could be coming from.\r\n\r\nAnyway hints/tips always welcome but I think I\\'m getting closer.\r\n\r\nJ.",
+        "date": "2014-03-20T01:54:53",
+        "persona_email": "jeromeavondo@msn.com",
+        "persona_firstname": "Jerome",
+        "persona_id": 9005,
+        "persona_lastname": "Avondo"
+      },
+      {
+        "content": "Hi\r\nThis stuff worked in the original \\\"parabolicMorphology\\\" package but I probably haven\\'t tested it here. I\\'ll check it out",
+        "date": "2014-05-05T17:30:48",
+        "persona_email": "richard.beare@ieee.org",
+        "persona_firstname": "Richard",
+        "persona_id": 197,
+        "persona_lastname": "Beare"
+      },
+      {
+        "content": "Hi\r\nI\\'ve included support for axis oriented elliptical structuring elements. The mechanism is basically the same as used to support spherical structuring elements in images with non-isotropic voxels. Some new tests and examples included. See how you go.",
+        "date": "2014-05-13T19:35:51",
+        "persona_email": "richard.beare@ieee.org",
+        "persona_firstname": "Richard",
+        "persona_id": 197,
+        "persona_lastname": "Beare"
+      },
+      {
+        "content": "Hi\r\nThat is very distinct - I wasn\\'t getting this kind of problem. I suspect a windows threading issue. Can you test while setting the threads to 1?\r\n\r\n#include \\\"itkMultiThreader.h\\\"\r\nitk::MultiThreader::SetGlobalMaximumNumberOfThreads(1);\r\n",
+        "date": "2014-03-19T16:41:48",
+        "persona_email": "richard.beare@ieee.org",
+        "persona_firstname": "Richard",
+        "persona_id": 197,
+        "persona_lastname": "Beare"
+      },
+      {
+        "content": "Thanks for the test - I\\'ll check it out. Note that the github version is the latest and may be different.",
+        "date": "2014-03-18T17:56:18",
+        "persona_email": "richard.beare@ieee.org",
+        "persona_firstname": "Richard",
+        "persona_id": 197,
+        "persona_lastname": "Beare"
+      },
+      {
+        "content": "The threading interface changed under ITK 4 - from memory it is simply a type change for the thread ID. It should be easy enough to create a branch for ITK 3 or even perhaps some tricky macros to keep the versions consistent.\r\n\r\nAre you able to test whether the issue goes away with ITK4 under windows?\r\n\r\nI should also include a check in the CMake file to cause errors if building with incorrect ITK versions.",
+        "date": "2014-03-19T19:13:35",
+        "persona_email": "richard.beare@ieee.org",
+        "persona_firstname": "Richard",
+        "persona_id": 197,
+        "persona_lastname": "Beare"
+      },
+      {
+        "content": "Ellipsoid structuring elements won\\'t work at present. I\\'ll think about whether there is a good way of adding the capability.\r\n\r\nThe algorithm is based on circles/spheres via the distance transform although there is kind of support for ellipsoid structuring elements via the image spacing - i.e. the circle/sphere radius can be specified in mm and you\\'ll get a sensible result even if the image spacing is non isotropic.\r\n\r\nThe algorithms work by dilating a mask with a parabolic structuring function to produce a kind of inverted distance transform. The first pass sets the mask to a value that defines the size of the dilation - hence only the first element of the radius has any effect.\r\n\r\nIt is probably feasible to incorporate a weighting via the image spacing term - do you think this is an important capability? Certainly the documentation needs some improvement in this regard :-)",
+        "date": "2014-05-07T01:01:53",
+        "persona_email": "richard.beare@ieee.org",
+        "persona_firstname": "Richard",
+        "persona_id": 197,
+        "persona_lastname": "Beare"
+      },
+      {
+        "content": "Another thought - just confirm that you are using ITK 4 - there are differences in threading interfaces and the labelDilate code is set up for ITK 4",
+        "date": "2014-03-19T16:50:05",
+        "persona_email": "richard.beare@ieee.org",
+        "persona_firstname": "Richard",
+        "persona_id": 197,
+        "persona_lastname": "Beare"
+      },
+      {
+        "content": "Hi\r\nI\\'ve added an example to the github version - it is called labelDilateLoopTest. It seems to behave sensibly for me. The tests in the cmake file will run it for you.\r\n\r\nA couple of points\r\n1) You don\\'t have a DisconnectPipeline call in the example loop. I think this is essential for reliable use of itk filters in loops. The BinaryDilateFilter may be a mini pipeline filter and thus do the same thing internally.\r\n\r\n2) The label filters (and the parabolic filters from which they were derived) shouldn\\'t need to be run iteratively. If you want a large dilation then simply supply a large radius. This approach is much faster and will give the correct result. The problem with the iterative approach is you tend to end up with dilations that are compositions of little rectangles and are thus like a big rectangle. If you really want a dilation by a circle (which is usually the case) then use a large radius. The tests I\\'ve added show the difference between the two cases - check out looplabdilate2d.png and looplabdilate2d50.png.\r\n\r\nIf you still see problems with this test example then it may be a platform difference - I\\'ve only tested this code on linux and mac.",
+        "date": "2014-03-18T20:21:44",
+        "persona_email": "richard.beare@ieee.org",
+        "persona_firstname": "Richard",
+        "persona_id": 197,
+        "persona_lastname": "Beare"
+      },
+      {
+        "content": "Hi\r\nI\\'ve had a play with your example. The difference isn\\'t caused by the loop - that bit appears to be working fine. It is just that the binary ball structuring element is different to the structuring element that gets used in the label dilate code. The binary ball is a bresenham circle. The label dilate code uses distance transforms internally. For a specified radius the bresenham circle is a bit bigger - a voxel that has any part less than the radius will get included in the bresenham circle. The version based on distance transforms is looking at the voxel centre - voxel centre needs to be closer than the specified radius. You can see the difference in your example if you set the iterations to 1. Neither of them do a great job of representing small spheres - thats not something that can be avoided - and the label dilate version is a little smaller. The difference grows with loop iterations.\r\n\r\nHowever there isn\\'t any need to use iterative approaches to construct a large sphere with the label code. Just use a large radius and you\\'ll get a good circle/sphere very quickly. The bianry dilate probably won\\'t be as fast. If you aren\\'t really interested in preserving labels  then check out the parabolicMorphology package also on github. Note that it assumes images with 0/1 values.",
+        "date": "2014-03-19T00:00:32",
+        "persona_email": "richard.beare@ieee.org",
+        "persona_firstname": "Richard",
+        "persona_id": 197,
+        "persona_lastname": "Beare"
+      }
+    ],
+    "date_submitted": "2013-02-23 14:49:47",
+    "handles": [
+      {
+        "handle": "10380/3399",
+        "handle_url": "http://hdl.handle.net/10380/3399"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 886,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "richard.beare@ieee.org",
+      "author_firstname": "Richard",
+      "author_fullname": "Beare, Richard",
+      "author_id": 197,
+      "author_institution": "Monash University",
+      "author_lastname": "Beare"
+    },
+    "tags": [
+      "erosion",
+      "morphology",
+      "labelled images",
+      "dilation"
+    ],
+    "title": "Parallel algorithms for erosion and dilation of label images."
+  }
 }

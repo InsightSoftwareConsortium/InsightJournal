@@ -1,57 +1,62 @@
 {
- "publication": {
-  "abstract": "This document describes the implementation of a class for the Insight Toolkit (ITK) that takes an image\nwith multi-component pixels and outputs a scalar image for each component. This can be useful when\nexamining images of vectors, tensors, etc. This \ufb01lter may be easier to use and require fewer pixel visitations than an itk::ImageAdaptor with a similar purpose, but it requires additional memory allocation.\n",
-  "authors": [
-   {
-    "author_fullname": "McCormick, Matthew",
-    "author_place": 1,
-    "persona_email": "matthew.m.mccormick@gmail.com",
-    "persona_firstname": "Matthew",
-    "persona_id": 2509,
-    "persona_lastname": "Mccormick"
-   }
-  ],
-  "categories": [
-   "Data Representation",
-   "Generic Programming",
-   "Image",
-   "Reformating and tensor reorientation"
-  ],
-  "comments": [],
-  "date_submitted": "2012-07-15 13:59:21",
-  "handles": [
-   {
-    "handle": "10380/3230",
-    "handle_url": "http://hdl.handle.net/10380/3230"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 774,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "matthew.m.mccormick@gmail.com",
-   "author_firstname": "Matthew",
-   "author_fullname": "Mccormick, Matthew",
-   "author_id": 2509,
-   "author_institution": "University of Wisconsin-Madison",
-   "author_lastname": "Mccormick"
-  },
-  "tags": [
-   "multi-component",
-   "vector",
-   "tensor",
-   "covariant vector"
-  ],
-  "title": "An ITK Class that Splits Multi-Component Images"
- }
+  "publication": {
+    "abstract": "This document describes the implementation of a class for the Insight Toolkit (ITK) that takes an image\nwith multi-component pixels and outputs a scalar image for each component. This can be useful when\nexamining images of vectors, tensors, etc. This \ufb01lter may be easier to use and require fewer pixel visitations than an itk::ImageAdaptor with a similar purpose, but it requires additional memory allocation.\n",
+    "articles": [
+      "bafkreiarmdqelfkj7pba5f7ofmpevmcvwht2jjg5jljfyrp6c3gi4kcaky",
+      "bafkreiarmdqelfkj7pba5f7ofmpevmcvwht2jjg5jljfyrp6c3gi4kcaky",
+      "bafkreifczuiwx2emha3vsljnmw3cwwra7l7zwyqi5vaiwde7qvmqrgzc2u"
+    ],
+    "authors": [
+      {
+        "author_fullname": "McCormick, Matthew",
+        "author_place": 1,
+        "persona_email": "matthew.m.mccormick@gmail.com",
+        "persona_firstname": "Matthew",
+        "persona_id": 2509,
+        "persona_lastname": "Mccormick"
+      }
+    ],
+    "categories": [
+      "Data Representation",
+      "Generic Programming",
+      "Image",
+      "Reformating and tensor reorientation"
+    ],
+    "comments": [],
+    "date_submitted": "2012-07-15 13:59:21",
+    "handles": [
+      {
+        "handle": "10380/3230",
+        "handle_url": "http://hdl.handle.net/10380/3230"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 774,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "matthew.m.mccormick@gmail.com",
+      "author_firstname": "Matthew",
+      "author_fullname": "Mccormick, Matthew",
+      "author_id": 2509,
+      "author_institution": "University of Wisconsin-Madison",
+      "author_lastname": "Mccormick"
+    },
+    "tags": [
+      "multi-component",
+      "vector",
+      "tensor",
+      "covariant vector"
+    ],
+    "title": "An ITK Class that Splits Multi-Component Images"
+  }
 }

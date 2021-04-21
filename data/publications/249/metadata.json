@@ -1,60 +1,63 @@
 {
- "publication": {
-  "abstract": "BSpline registration results from an application developed by Torsten Rohlfing that is based, in part, on the RView application from Dr. Colin Studholme, Daniel Rueckert, and Julia Schnabel.",
-  "authors": [
-   {
-    "author_fullname": "Pohl, Kilian",
-    "author_place": 1,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Davis, Brad",
-    "author_place": 2,
-    "persona_email": "brad.davis@kitware.com",
-    "persona_firstname": "Brad",
-    "persona_id": 596,
-    "persona_lastname": "Davis"
-   },
-   {
-    "author_fullname": "Aylward, Stephen",
-    "author_place": 3,
-    "persona_email": "stephen.aylward@kitware.com",
-    "persona_firstname": "Stephen",
-    "persona_id": 1,
-    "persona_lastname": "Aylward"
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2008-07-05T17:04:45Z",
-  "handles": [
-   {
-    "handle": "1926/1404",
-    "handle_url": "http://hdl.handle.net/1926/1404"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 249,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "stephen.aylward@kitware.com",
-   "author_firstname": "Stephen",
-   "author_fullname": "Aylward, Stephen",
-   "author_id": 1,
-   "author_institution": "Kitware, Inc.",
-   "author_lastname": "Aylward"
-  },
-  "tags": null,
-  "title": "UNCHealthyBrainMRI-RView"
- }
+  "publication": {
+    "abstract": "BSpline registration results from an application developed by Torsten Rohlfing that is based, in part, on the RView application from Dr. Colin Studholme, Daniel Rueckert, and Julia Schnabel.",
+    "articles": [
+      null
+    ],
+    "authors": [
+      {
+        "author_fullname": "Pohl, Kilian",
+        "author_place": 1,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Davis, Brad",
+        "author_place": 2,
+        "persona_email": "brad.davis@kitware.com",
+        "persona_firstname": "Brad",
+        "persona_id": 596,
+        "persona_lastname": "Davis"
+      },
+      {
+        "author_fullname": "Aylward, Stephen",
+        "author_place": 3,
+        "persona_email": "stephen.aylward@kitware.com",
+        "persona_firstname": "Stephen",
+        "persona_id": 1,
+        "persona_lastname": "Aylward"
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2008-07-05T17:04:45Z",
+    "handles": [
+      {
+        "handle": "1926/1404",
+        "handle_url": "http://hdl.handle.net/1926/1404"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 249,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "stephen.aylward@kitware.com",
+      "author_firstname": "Stephen",
+      "author_fullname": "Aylward, Stephen",
+      "author_id": 1,
+      "author_institution": "Kitware, Inc.",
+      "author_lastname": "Aylward"
+    },
+    "tags": null,
+    "title": "UNCHealthyBrainMRI-RView"
+  }
 }

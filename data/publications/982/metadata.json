@@ -1,122 +1,125 @@
 {
- "publication": {
-  "abstract": "In an earlier Insight Journal article, we introduced an ITK implementation of the adaptive patch-based image denoising algorithm described in [3]. We follow-up up that offering with a generalized non-local, patch-based ITK class framework and a refactored denoising class. In addition, we provide two ITK implementations of related, well-known algorithms. The first is a non-local super resolution method described in [1, 2]. The second is the multivariate joint label fusion algorithm of [4, 5] with additional extensions, denoted as \u201cjoint intensity fusion\u201d, which will be described in a forthcoming manuscript. Accompanying these ITK classes are documented programming interfaces which use our previously introduced unique command line interface routines. Several 2-D examples on brain imaging data are provided to qualitatively demonstrate performance.",
-  "authors": [
-   {
-    "author_fullname": "Tustison, Nicholas J.",
-    "author_place": 1,
-    "persona_email": "ntustison@gmail.com",
-    "persona_firstname": "Nicholas J.",
-    "persona_id": 8833,
-    "persona_lastname": "Tustison"
-   },
-   {
-    "author_fullname": "Avants, Brian",
-    "author_place": 2,
-    "persona_email": "stnava@gmail.com",
-    "persona_firstname": "Brian",
-    "persona_id": 2243,
-    "persona_lastname": "Avants"
-   },
-   {
-    "author_fullname": "Wang, Hongzhi",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Xie, Long",
-    "author_place": 4,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Coupe, Pierrick",
-    "author_place": 5,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Yushkevich, Paul",
-    "author_place": 6,
-    "persona_email": "pauly@despammed.com",
-    "persona_firstname": "Paul",
-    "persona_id": 51,
-    "persona_lastname": "Yushkevich"
-   },
-   {
-    "author_fullname": "Manjon, Jose",
-    "author_place": 7,
-    "persona_email": "jmanjon@fis.upv.es",
-    "persona_firstname": "Jose",
-    "persona_id": 451,
-    "persona_lastname": "Manjon"
-   }
-  ],
-  "categories": [
-   "Atlas-based segmentation",
-   "Filtering",
-   "Resampling",
-   "Segmentation"
-  ],
-  "comments": [
-   {
-    "content": "Actually the .zip file is corrupted",
-    "date": "2017-03-16T17:36:20",
-    "persona_email": "pedro_hbd@hotmail.com",
-    "persona_firstname": "Pedro Henrique",
-    "persona_id": 9813,
-    "persona_lastname": "Bandeira Diniz"
-   },
-   {
-    "content": "Here's a direct link to the github repo:\r\n\r\nhttps://github.com/ntustison/NonLocalPatchBasedInsightJournal",
-    "date": "2017-03-16T17:45:40",
-    "persona_email": "ntustison@gmail.com",
-    "persona_firstname": "Nicholas J.",
-    "persona_id": 8833,
-    "persona_lastname": "Tustison"
-   },
-   {
-    "content": "I think \"download all\" link is corrupted. Could u verify? Thanks in advance.",
-    "date": "2017-03-16T17:34:14",
-    "persona_email": "pedro_hbd@hotmail.com",
-    "persona_firstname": "Pedro Henrique",
-    "persona_id": 9813,
-    "persona_lastname": "Bandeira Diniz"
-   }
-  ],
-  "date_submitted": "2017-03-15 19:45:35",
-  "handles": [
-   {
-    "handle": "10380/3570",
-    "handle_url": "http://hdl.handle.net/10380/3570"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 982,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "ntustison@gmail.com",
-   "author_firstname": "Nicholas J.",
-   "author_fullname": "Tustison, Nicholas J.",
-   "author_id": 8833,
-   "author_institution": "",
-   "author_lastname": "Tustison"
-  },
-  "tags": [
-   "joint fusion",
-   "Patch based ",
-   "image denoising",
-   "super-resolution",
-   "non-local"
-  ],
-  "title": "A patch-based framework for new ITK functionality: Joint fusion, denoising, and non-local super-resolution"
- }
+  "publication": {
+    "abstract": "In an earlier Insight Journal article, we introduced an ITK implementation of the adaptive patch-based image denoising algorithm described in [3]. We follow-up up that offering with a generalized non-local, patch-based ITK class framework and a refactored denoising class. In addition, we provide two ITK implementations of related, well-known algorithms. The first is a non-local super resolution method described in [1, 2]. The second is the multivariate joint label fusion algorithm of [4, 5] with additional extensions, denoted as \u201cjoint intensity fusion\u201d, which will be described in a forthcoming manuscript. Accompanying these ITK classes are documented programming interfaces which use our previously introduced unique command line interface routines. Several 2-D examples on brain imaging data are provided to qualitatively demonstrate performance.",
+    "articles": [
+      "bafkreifsuwai3qkt462xpt4sfrtanmpn4xb3qlpzqxxrue7xdt2ta4uewi"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Tustison, Nicholas J.",
+        "author_place": 1,
+        "persona_email": "ntustison@gmail.com",
+        "persona_firstname": "Nicholas J.",
+        "persona_id": 8833,
+        "persona_lastname": "Tustison"
+      },
+      {
+        "author_fullname": "Avants, Brian",
+        "author_place": 2,
+        "persona_email": "stnava@gmail.com",
+        "persona_firstname": "Brian",
+        "persona_id": 2243,
+        "persona_lastname": "Avants"
+      },
+      {
+        "author_fullname": "Wang, Hongzhi",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Xie, Long",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Coupe, Pierrick",
+        "author_place": 5,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Yushkevich, Paul",
+        "author_place": 6,
+        "persona_email": "pauly@despammed.com",
+        "persona_firstname": "Paul",
+        "persona_id": 51,
+        "persona_lastname": "Yushkevich"
+      },
+      {
+        "author_fullname": "Manjon, Jose",
+        "author_place": 7,
+        "persona_email": "jmanjon@fis.upv.es",
+        "persona_firstname": "Jose",
+        "persona_id": 451,
+        "persona_lastname": "Manjon"
+      }
+    ],
+    "categories": [
+      "Atlas-based segmentation",
+      "Filtering",
+      "Resampling",
+      "Segmentation"
+    ],
+    "comments": [
+      {
+        "content": "Actually the .zip file is corrupted",
+        "date": "2017-03-16T17:36:20",
+        "persona_email": "pedro_hbd@hotmail.com",
+        "persona_firstname": "Pedro Henrique",
+        "persona_id": 9813,
+        "persona_lastname": "Bandeira Diniz"
+      },
+      {
+        "content": "Here's a direct link to the github repo:\r\n\r\nhttps://github.com/ntustison/NonLocalPatchBasedInsightJournal",
+        "date": "2017-03-16T17:45:40",
+        "persona_email": "ntustison@gmail.com",
+        "persona_firstname": "Nicholas J.",
+        "persona_id": 8833,
+        "persona_lastname": "Tustison"
+      },
+      {
+        "content": "I think \"download all\" link is corrupted. Could u verify? Thanks in advance.",
+        "date": "2017-03-16T17:34:14",
+        "persona_email": "pedro_hbd@hotmail.com",
+        "persona_firstname": "Pedro Henrique",
+        "persona_id": 9813,
+        "persona_lastname": "Bandeira Diniz"
+      }
+    ],
+    "date_submitted": "2017-03-15 19:45:35",
+    "handles": [
+      {
+        "handle": "10380/3570",
+        "handle_url": "http://hdl.handle.net/10380/3570"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 982,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "ntustison@gmail.com",
+      "author_firstname": "Nicholas J.",
+      "author_fullname": "Tustison, Nicholas J.",
+      "author_id": 8833,
+      "author_institution": "",
+      "author_lastname": "Tustison"
+    },
+    "tags": [
+      "joint fusion",
+      "Patch based ",
+      "image denoising",
+      "super-resolution",
+      "non-local"
+    ],
+    "title": "A patch-based framework for new ITK functionality: Joint fusion, denoising, and non-local super-resolution"
+  }
 }

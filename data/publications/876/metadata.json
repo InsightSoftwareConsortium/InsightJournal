@@ -1,121 +1,124 @@
 {
- "publication": {
-  "abstract": "As part of the ITK v4 project efforts, we have developed ITK filters for physics-based non-rigid registration (PBNRR), which satisfies the following requirements: account for tissue properties in the registration, improve accuracy compared to rigid registration, and reduce execution time using GPU and multi-core accelerators. The implementation has three main components: (1) Feature Point Selection, (2) Block Matching (mapped to both multi-core and GPU processors), and (3) a Robust Finite Element Solver. The use of multi-core and GPU accelerators in ITK v4 provides substantial performance improvements. For example, in average for the non-rigid registration of brain MRIs, the performance of the Block Matching filter is about 12 times faster when 12 hyperthreaded multi-cores are used and about 540 times faster when the Quadro 6000 with 448 threads is used in Dell Workstation.",
-  "authors": [
-   {
-    "author_fullname": "Liu, Yixun",
-    "author_place": 2,
-    "persona_email": "yxliuwm@gmail.com",
-    "persona_firstname": "Yixun",
-    "persona_id": 6473,
-    "persona_lastname": "Liu"
-   },
-   {
-    "author_fullname": "Kot, Andriy",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Drakopoulos, Fotis",
-    "author_place": 4,
-    "persona_email": "fdrak001@odu.edu",
-    "persona_firstname": "Fotios",
-    "persona_id": 6120,
-    "persona_lastname": "Drakopoulos"
-   },
-   {
-    "author_fullname": "Fedorov, Andriy",
-    "author_place": 5,
-    "persona_email": "fedorov@bwh.harvard.edu",
-    "persona_firstname": "Andriy",
-    "persona_id": 16,
-    "persona_lastname": "Fedorov"
-   },
-   {
-    "author_fullname": "Enquobahrie, Andinet",
-    "author_place": 6,
-    "persona_email": "andinet.enqu@kitware.com",
-    "persona_firstname": "Andinet",
-    "persona_id": 68,
-    "persona_lastname": "Enquobahrie"
-   },
-   {
-    "author_fullname": "Clatz, Olivier",
-    "author_place": 7,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Chrisochoides, Nikos",
-    "author_place": 8,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Filtering",
-   "Registration"
-  ],
-  "comments": [
-   {
-    "content": "nice work. Does the example code run on GPU as well ? \r\nWhat version of ITK is this posted source code supposed to work with ? \r\n\r\nThe method\r\n\r\nPhysicsBasedNonRigidRegistrationMethod::CreateDeformedImage\r\n\r\nis not available in ITK 4.3.0 and throwing compiling errors\r\n\r\n?\r\n\r\n/workarea/fuentes/github/PBNRR/PBNRR.cxx: In function \u2018int main(int, char**)\u2019:\r\n/workarea/fuentes/github/PBNRR/PBNRR.cxx:149: error: \u2018class itk::fem::PhysicsBasedNonRigidRegistrationMethod<itk::Image<float, 3u>, itk::Image<float, 3u>, itk::Image<float, 3u>, itk::Mesh<float, 3u, itk::DefaultStaticMeshTraits<float, 3u, 3u, float, float, float> >, itk::Image<itk::Vector<float, 3u>, 3u> >\u2019 has no member named \u2018CreateDeformedImage\u2019\r\n/workarea/fuentes/github/PBNRR/PBNRR.cxx:153: error: using \u2018typename\u2019 outside of template\r\n",
-    "date": "2013-02-07T05:44:52",
-    "persona_email": "fuentesdt@gmail.com",
-    "persona_firstname": "David",
-    "persona_id": 7272,
-    "persona_lastname": "Fuentes"
-   },
-   {
-    "content": "Hi Fuentes,\r\nPlease refer to Fotis answer.\r\n\r\nYixun\r\n\r\nThe function CreateDeformedImage()  warps the moving image according the generated deformation field of the registration filter.\r\n\r\nYou  can download the following patch from the ITK  gerrit system : git fetch http://review.source.kitware.com/p/ITK refs/changes/36/7136/3 && git checkout FETCH_HEAD -b A2D2PBNRR\r\n \r\nor from the link : http://review.source.kitware.com/#/c/7136/3.\r\n\r\n\r\n\r\n\r\nIn the files itkPhysicsBasedNonRigidRegistrationMethod.hxx and itkPhysicsBasedNonRigidRegistrationMethod.h\r\n \r\nof this patch you will find the function  CreateDeformedImage()  that you need.\r\n",
-    "date": "2013-02-07T05:48:23",
-    "persona_email": "yxliuwm@gmail.com",
-    "persona_firstname": "Yixun",
-    "persona_id": 6473,
-    "persona_lastname": "Liu"
-   },
-   {
-    "content": "thanks. I found the Fotis comment on the link that you sent.\r\n\r\nIs there a GPU version of the block matching algorithm available that is mentioned in the abstract ? ",
-    "date": "2013-02-12T09:43:20",
-    "persona_email": "fuentesdt@gmail.com",
-    "persona_firstname": "David",
-    "persona_id": 7272,
-    "persona_lastname": "Fuentes"
-   }
-  ],
-  "date_submitted": "2012-08-21 18:20:13",
-  "handles": [
-   {
-    "handle": "10380/3382",
-    "handle_url": "http://hdl.handle.net/10380/3382"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 876,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "yxliuwm@gmail.com",
-   "author_firstname": "Yixun",
-   "author_fullname": "Liu, Yixun",
-   "author_id": 6473,
-   "author_institution": "NIH",
-   "author_lastname": "Liu"
-  },
-  "tags": [
-   "Finite Element",
-   "Multi-core",
-   "GPU",
-   "Non-rigid Registration",
-   "Physical Model",
-   "Robust Regression"
-  ],
-  "title": "An ITK Implementation of Physics-based Non-rigid Registration Method"
- }
+  "publication": {
+    "abstract": "As part of the ITK v4 project efforts, we have developed ITK filters for physics-based non-rigid registration (PBNRR), which satisfies the following requirements: account for tissue properties in the registration, improve accuracy compared to rigid registration, and reduce execution time using GPU and multi-core accelerators. The implementation has three main components: (1) Feature Point Selection, (2) Block Matching (mapped to both multi-core and GPU processors), and (3) a Robust Finite Element Solver. The use of multi-core and GPU accelerators in ITK v4 provides substantial performance improvements. For example, in average for the non-rigid registration of brain MRIs, the performance of the Block Matching filter is about 12 times faster when 12 hyperthreaded multi-cores are used and about 540 times faster when the Quadro 6000 with 448 threads is used in Dell Workstation.",
+    "articles": [
+      "bafybeihca4odqsp7xxiectbelxbhds7awqlfw5wxyxr4synmhx3yj3so6u"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Liu, Yixun",
+        "author_place": 2,
+        "persona_email": "yxliuwm@gmail.com",
+        "persona_firstname": "Yixun",
+        "persona_id": 6473,
+        "persona_lastname": "Liu"
+      },
+      {
+        "author_fullname": "Kot, Andriy",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Drakopoulos, Fotis",
+        "author_place": 4,
+        "persona_email": "fdrak001@odu.edu",
+        "persona_firstname": "Fotios",
+        "persona_id": 6120,
+        "persona_lastname": "Drakopoulos"
+      },
+      {
+        "author_fullname": "Fedorov, Andriy",
+        "author_place": 5,
+        "persona_email": "fedorov@bwh.harvard.edu",
+        "persona_firstname": "Andriy",
+        "persona_id": 16,
+        "persona_lastname": "Fedorov"
+      },
+      {
+        "author_fullname": "Enquobahrie, Andinet",
+        "author_place": 6,
+        "persona_email": "andinet.enqu@kitware.com",
+        "persona_firstname": "Andinet",
+        "persona_id": 68,
+        "persona_lastname": "Enquobahrie"
+      },
+      {
+        "author_fullname": "Clatz, Olivier",
+        "author_place": 7,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Chrisochoides, Nikos",
+        "author_place": 8,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Filtering",
+      "Registration"
+    ],
+    "comments": [
+      {
+        "content": "nice work. Does the example code run on GPU as well ? \r\nWhat version of ITK is this posted source code supposed to work with ? \r\n\r\nThe method\r\n\r\nPhysicsBasedNonRigidRegistrationMethod::CreateDeformedImage\r\n\r\nis not available in ITK 4.3.0 and throwing compiling errors\r\n\r\n?\r\n\r\n/workarea/fuentes/github/PBNRR/PBNRR.cxx: In function \u2018int main(int, char**)\u2019:\r\n/workarea/fuentes/github/PBNRR/PBNRR.cxx:149: error: \u2018class itk::fem::PhysicsBasedNonRigidRegistrationMethod<itk::Image<float, 3u>, itk::Image<float, 3u>, itk::Image<float, 3u>, itk::Mesh<float, 3u, itk::DefaultStaticMeshTraits<float, 3u, 3u, float, float, float> >, itk::Image<itk::Vector<float, 3u>, 3u> >\u2019 has no member named \u2018CreateDeformedImage\u2019\r\n/workarea/fuentes/github/PBNRR/PBNRR.cxx:153: error: using \u2018typename\u2019 outside of template\r\n",
+        "date": "2013-02-07T05:44:52",
+        "persona_email": "fuentesdt@gmail.com",
+        "persona_firstname": "David",
+        "persona_id": 7272,
+        "persona_lastname": "Fuentes"
+      },
+      {
+        "content": "Hi Fuentes,\r\nPlease refer to Fotis answer.\r\n\r\nYixun\r\n\r\nThe function CreateDeformedImage()  warps the moving image according the generated deformation field of the registration filter.\r\n\r\nYou  can download the following patch from the ITK  gerrit system : git fetch http://review.source.kitware.com/p/ITK refs/changes/36/7136/3 && git checkout FETCH_HEAD -b A2D2PBNRR\r\n \r\nor from the link : http://review.source.kitware.com/#/c/7136/3.\r\n\r\n\r\n\r\n\r\nIn the files itkPhysicsBasedNonRigidRegistrationMethod.hxx and itkPhysicsBasedNonRigidRegistrationMethod.h\r\n \r\nof this patch you will find the function  CreateDeformedImage()  that you need.\r\n",
+        "date": "2013-02-07T05:48:23",
+        "persona_email": "yxliuwm@gmail.com",
+        "persona_firstname": "Yixun",
+        "persona_id": 6473,
+        "persona_lastname": "Liu"
+      },
+      {
+        "content": "thanks. I found the Fotis comment on the link that you sent.\r\n\r\nIs there a GPU version of the block matching algorithm available that is mentioned in the abstract ? ",
+        "date": "2013-02-12T09:43:20",
+        "persona_email": "fuentesdt@gmail.com",
+        "persona_firstname": "David",
+        "persona_id": 7272,
+        "persona_lastname": "Fuentes"
+      }
+    ],
+    "date_submitted": "2012-08-21 18:20:13",
+    "handles": [
+      {
+        "handle": "10380/3382",
+        "handle_url": "http://hdl.handle.net/10380/3382"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 876,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "yxliuwm@gmail.com",
+      "author_firstname": "Yixun",
+      "author_fullname": "Liu, Yixun",
+      "author_id": 6473,
+      "author_institution": "NIH",
+      "author_lastname": "Liu"
+    },
+    "tags": [
+      "Finite Element",
+      "Multi-core",
+      "GPU",
+      "Non-rigid Registration",
+      "Physical Model",
+      "Robust Regression"
+    ],
+    "title": "An ITK Implementation of Physics-based Non-rigid Registration Method"
+  }
 }

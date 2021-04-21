@@ -1,117 +1,123 @@
 {
- "publication": {
-  "abstract": "This paper introduces an integrated 3D medical image\r\nprocessing and analyzing software platform which is open interface\r\nand freely available. The platform consists of the Medical Imaging\r\nToolkit (MITK) and the 3-Dimensional Medical Image Processing and\r\nAnalyzing System (3DMed). MITK is an algorithm toolkit for research\r\nand software development, while 3DMed is a MITK based application\r\nsystem with a plug-in framework. The overall architecture and main\r\ncapabilities of the platform are described in detail. Presented\r\nevaluations demonstrate that the platform can benefit the\r\ndevelopment of computer assisted intervention systems.",
-  "authors": [
-   {
-    "author_fullname": "Tian, Jie",
-    "author_place": 1,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Dai, Yakang",
-    "author_place": 2,
-    "persona_email": "yakang.dai@ia.ac.cn",
-    "persona_firstname": "Yakang",
-    "persona_id": 854,
-    "persona_lastname": "Dai"
-   },
-   {
-    "author_fullname": "Deng, Kexin",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Zheng, Jian",
-    "author_place": 4,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Dai, Xiaoqian",
-    "author_place": 5,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Classification",
-   "Code memory optimization",
-   "Code speed optimization",
-   "Data",
-   "Data Representation",
-   "Deformable registration",
-   "Derivatives and Integrals",
-   "DICOM",
-   "Edge Detection",
-   "Error Estimation",
-   "Filtering",
-   "Generic Programming",
-   "Geometric transforms",
-   "Higher order derivatives",
-   "Image",
-   "Images",
-   "IO",
-   "Iterators",
-   "Level sets",
-   "Linear Algebra",
-   "Mathematics",
-   "Mesh",
-   "Mixture of densities",
-   "Multi-modality registration",
-   "Neighborhood filters",
-   "Objects",
-   "Optimization",
-   "Parameter Techniques",
-   "Programming",
-   "Region growing",
-   "Registration",
-   "Registration metrics",
-   "Registration optimizers",
-   "Resampling",
-   "Segmentation",
-   "Streaming",
-   "Surface extraction",
-   "Thresholding",
-   "Transforms",
-   "Watersheds"
-  ],
-  "comments": [],
-  "date_submitted": "2008-07-17T16:28:07Z",
-  "handles": [
-   {
-    "handle": "10380/1456",
-    "handle_url": "http://hdl.handle.net/10380/1456"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 40,
-    "journal_name": "MICCAI 2012 Workshops"
-   },
-   {
-    "journal_id": 33,
-    "journal_name": "MICCAI 2008 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 572,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "yakang.dai@ia.ac.cn",
-   "author_firstname": "Yakang",
-   "author_fullname": "Dai, Yakang",
-   "author_id": 854,
-   "author_institution": "Institute of Automation, Chinese Academy of Sciences",
-   "author_lastname": "Dai"
-  },
-  "tags": [
-   "software platform",
-   "medical image",
-   "processing",
-   "analyzing"
-  ],
-  "title": "MITK & 3DMed : An Integrated Platform Applicable for the Development of Computer Assisted Intervention Systems"
- }
+  "publication": {
+    "abstract": "This paper introduces an integrated 3D medical image\r\nprocessing and analyzing software platform which is open interface\r\nand freely available. The platform consists of the Medical Imaging\r\nToolkit (MITK) and the 3-Dimensional Medical Image Processing and\r\nAnalyzing System (3DMed). MITK is an algorithm toolkit for research\r\nand software development, while 3DMed is a MITK based application\r\nsystem with a plug-in framework. The overall architecture and main\r\ncapabilities of the platform are described in detail. Presented\r\nevaluations demonstrate that the platform can benefit the\r\ndevelopment of computer assisted intervention systems.",
+    "articles": [
+      "bafybeibknmbwnpslvq3al5lqfblwlilh5pyldp2xy33744diamkel3eosa",
+      "bafybeibknmbwnpslvq3al5lqfblwlilh5pyldp2xy33744diamkel3eosa",
+      null,
+      "bafybeibpypzhxtggr2qks4vscabl4yt53k6q4rxgaoxjzlszti6bk36rvm"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Tian, Jie",
+        "author_place": 1,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Dai, Yakang",
+        "author_place": 2,
+        "persona_email": "yakang.dai@ia.ac.cn",
+        "persona_firstname": "Yakang",
+        "persona_id": 854,
+        "persona_lastname": "Dai"
+      },
+      {
+        "author_fullname": "Deng, Kexin",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Zheng, Jian",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Dai, Xiaoqian",
+        "author_place": 5,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Classification",
+      "Code memory optimization",
+      "Code speed optimization",
+      "Data",
+      "Data Representation",
+      "Deformable registration",
+      "Derivatives and Integrals",
+      "DICOM",
+      "Edge Detection",
+      "Error Estimation",
+      "Filtering",
+      "Generic Programming",
+      "Geometric transforms",
+      "Higher order derivatives",
+      "Image",
+      "Images",
+      "IO",
+      "Iterators",
+      "Level sets",
+      "Linear Algebra",
+      "Mathematics",
+      "Mesh",
+      "Mixture of densities",
+      "Multi-modality registration",
+      "Neighborhood filters",
+      "Objects",
+      "Optimization",
+      "Parameter Techniques",
+      "Programming",
+      "Region growing",
+      "Registration",
+      "Registration metrics",
+      "Registration optimizers",
+      "Resampling",
+      "Segmentation",
+      "Streaming",
+      "Surface extraction",
+      "Thresholding",
+      "Transforms",
+      "Watersheds"
+    ],
+    "comments": [],
+    "date_submitted": "2008-07-17T16:28:07Z",
+    "handles": [
+      {
+        "handle": "10380/1456",
+        "handle_url": "http://hdl.handle.net/10380/1456"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 40,
+        "journal_name": "MICCAI 2012 Workshops"
+      },
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 572,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "yakang.dai@ia.ac.cn",
+      "author_firstname": "Yakang",
+      "author_fullname": "Dai, Yakang",
+      "author_id": 854,
+      "author_institution": "Institute of Automation, Chinese Academy of Sciences",
+      "author_lastname": "Dai"
+    },
+    "tags": [
+      "software platform",
+      "medical image",
+      "processing",
+      "analyzing"
+    ],
+    "title": "MITK & 3DMed : An Integrated Platform Applicable for the Development of Computer Assisted Intervention Systems"
+  }
 }

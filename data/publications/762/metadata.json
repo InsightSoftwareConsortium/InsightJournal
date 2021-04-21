@@ -1,63 +1,66 @@
 {
- "publication": {
-  "abstract": "This documents is about the filter itkQuadEdgeMeshSimilarityCalculator. It takes inputs of two meshes and gives the similarity of the labels on them in two types of similarity measurements \u2013 Dice Similarity and Jaccard Similarity.\nThis paper is accompanied with the source code, input data, parameters and output data that we used for validating the algorithm described in this paper. This adheres to the fundamental principle that scientific publications must facilitate reproducibility of the reported results.",
-  "authors": [
-   {
-    "author_fullname": "Li, Wen",
-    "author_place": 1,
-    "persona_email": "wen-li@uiowa.edu",
-    "persona_firstname": "Wen",
-    "persona_id": 2569,
-    "persona_lastname": "Li"
-   },
-   {
-    "author_fullname": "Magnotta, Vincent",
-    "author_place": 2,
-    "persona_email": "vincent-magnotta@uiowa.edu",
-    "persona_firstname": "Vincent",
-    "persona_id": 54,
-    "persona_lastname": "Magnotta"
-   }
-  ],
-  "categories": [
-   "Mesh",
-   "Registration metrics"
-  ],
-  "comments": [],
-  "date_submitted": "2010-08-25 14:30:02",
-  "handles": [
-   {
-    "handle": "10380/3202",
-    "handle_url": "http://hdl.handle.net/10380/3202"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 762,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "wen-li@uiowa.edu",
-   "author_firstname": "Wen",
-   "author_fullname": "Li, Wen",
-   "author_id": 2569,
-   "author_institution": "University of Iowa",
-   "author_lastname": "Li"
-  },
-  "tags": [
-   "Jaccard",
-   "Similarity",
-   "QuadEdgeMesh",
-   "Dice"
-  ],
-  "title": "Mesh Similarity Calculator"
- }
+  "publication": {
+    "abstract": "This documents is about the filter itkQuadEdgeMeshSimilarityCalculator. It takes inputs of two meshes and gives the similarity of the labels on them in two types of similarity measurements \u2013 Dice Similarity and Jaccard Similarity.\nThis paper is accompanied with the source code, input data, parameters and output data that we used for validating the algorithm described in this paper. This adheres to the fundamental principle that scientific publications must facilitate reproducibility of the reported results.",
+    "articles": [
+      "bafkreicn6dmm5ynf3k5bly2erkuvsio5jn26mbniqrzqgxzacqt57fjsqi"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Li, Wen",
+        "author_place": 1,
+        "persona_email": "wen-li@uiowa.edu",
+        "persona_firstname": "Wen",
+        "persona_id": 2569,
+        "persona_lastname": "Li"
+      },
+      {
+        "author_fullname": "Magnotta, Vincent",
+        "author_place": 2,
+        "persona_email": "vincent-magnotta@uiowa.edu",
+        "persona_firstname": "Vincent",
+        "persona_id": 54,
+        "persona_lastname": "Magnotta"
+      }
+    ],
+    "categories": [
+      "Mesh",
+      "Registration metrics"
+    ],
+    "comments": [],
+    "date_submitted": "2010-08-25 14:30:02",
+    "handles": [
+      {
+        "handle": "10380/3202",
+        "handle_url": "http://hdl.handle.net/10380/3202"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 762,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "wen-li@uiowa.edu",
+      "author_firstname": "Wen",
+      "author_fullname": "Li, Wen",
+      "author_id": 2569,
+      "author_institution": "University of Iowa",
+      "author_lastname": "Li"
+    },
+    "tags": [
+      "Jaccard",
+      "Similarity",
+      "QuadEdgeMesh",
+      "Dice"
+    ],
+    "title": "Mesh Similarity Calculator"
+  }
 }

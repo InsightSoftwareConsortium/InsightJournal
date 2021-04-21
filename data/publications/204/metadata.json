@@ -1,62 +1,68 @@
 {
- "publication": {
-  "abstract": "ITK's flood filling iterator represents a way to visit pixels/voxels within an image having a specific connectivity. The iterator is initialized at known seed points and starting from these, neighbors that are within the desired connectivity are marked as to be visited and processed by the iterator in the future.\r\n\r\nThe FloodFilledFunctionConditionalConstIterator builds the foundation for the implementation of the NeighborhoodConnectedImageFilter and is currently fixed to investigating 4-neighborhoods in 2D and 6-neighborhoods in 3D. Since many existing applications use region growing algorithms that perform on full neighborhoods (i.e. 8-connected in 2D and 26-connected in 3D) it is desirable to be able to choose at least between these two standard connectivities.\r\n\r\nIn this document we describe the extension of the existing iterator to be using ShapedNeighborhoodIterators which has already been proposed in the implementation of the FloodFilledFunctionConditionalConstIterator.",
-  "authors": [
-   {
-    "author_fullname": "Groher, Martin",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Heibel, Hauke",
-    "author_place": 1,
-    "persona_email": "heibel@cs.tum.edu",
-    "persona_firstname": "Hauke",
-    "persona_id": 692,
-    "persona_lastname": "Heibel"
-   }
-  ],
-  "categories": [
-   "Iterators",
-   "Programming",
-   "Region growing",
-   "Segmentation"
-  ],
-  "comments": [],
-  "date_submitted": "2007-11-01T00:00:00Z",
-  "handles": [
-   {
-    "handle": "1926/1320",
-    "handle_url": "http://hdl.handle.net/1926/1320"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 204,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "heibel@cs.tum.edu",
-   "author_firstname": "Hauke",
-   "author_fullname": "Heibel, Hauke",
-   "author_id": 692,
-   "author_institution": "CAMP / TU M&uuml;nchen",
-   "author_lastname": "Heibel"
-  },
-  "tags": [
-   "connectivity",
-   "iterator",
-   "flood filling",
-   "region growing"
-  ],
-  "title": "Shaped Neighborhood based Flood Filled Conditional Iterators"
- }
+  "publication": {
+    "abstract": "ITK's flood filling iterator represents a way to visit pixels/voxels within an image having a specific connectivity. The iterator is initialized at known seed points and starting from these, neighbors that are within the desired connectivity are marked as to be visited and processed by the iterator in the future.\r\n\r\nThe FloodFilledFunctionConditionalConstIterator builds the foundation for the implementation of the NeighborhoodConnectedImageFilter and is currently fixed to investigating 4-neighborhoods in 2D and 6-neighborhoods in 3D. Since many existing applications use region growing algorithms that perform on full neighborhoods (i.e. 8-connected in 2D and 26-connected in 3D) it is desirable to be able to choose at least between these two standard connectivities.\r\n\r\nIn this document we describe the extension of the existing iterator to be using ShapedNeighborhoodIterators which has already been proposed in the implementation of the FloodFilledFunctionConditionalConstIterator.",
+    "articles": [
+      "bafkreiheprfiru54wdskx2ck5juzhogmyyxh6bqteegv4zytp326ifnnky",
+      "bafkreiheprfiru54wdskx2ck5juzhogmyyxh6bqteegv4zytp326ifnnky",
+      "bafkreiheprfiru54wdskx2ck5juzhogmyyxh6bqteegv4zytp326ifnnky",
+      "bafkreiheprfiru54wdskx2ck5juzhogmyyxh6bqteegv4zytp326ifnnky"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Groher, Martin",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Heibel, Hauke",
+        "author_place": 1,
+        "persona_email": "heibel@cs.tum.edu",
+        "persona_firstname": "Hauke",
+        "persona_id": 692,
+        "persona_lastname": "Heibel"
+      }
+    ],
+    "categories": [
+      "Iterators",
+      "Programming",
+      "Region growing",
+      "Segmentation"
+    ],
+    "comments": [],
+    "date_submitted": "2007-11-01T00:00:00Z",
+    "handles": [
+      {
+        "handle": "1926/1320",
+        "handle_url": "http://hdl.handle.net/1926/1320"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 204,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "heibel@cs.tum.edu",
+      "author_firstname": "Hauke",
+      "author_fullname": "Heibel, Hauke",
+      "author_id": 692,
+      "author_institution": "CAMP / TU M&uuml;nchen",
+      "author_lastname": "Heibel"
+    },
+    "tags": [
+      "connectivity",
+      "iterator",
+      "flood filling",
+      "region growing"
+    ],
+    "title": "Shaped Neighborhood based Flood Filled Conditional Iterators"
+  }
 }

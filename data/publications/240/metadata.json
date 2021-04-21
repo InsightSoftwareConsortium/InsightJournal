@@ -1,76 +1,81 @@
 {
- "publication": {
-  "abstract": "This document describes a new class that takes an \\doxygen{Transform} and\r\nevaluates the deformation at points in a user-defined region.\r\nThe class is implemented using the Insight Toolkit url{www.itk.org}. \\\r\nThis paper is accompanied with the source code, input data, parameters and\r\noutput data that the authors used for validating the algorithm described in\r\nthis paper.",
-  "authors": [
-   {
-    "author_fullname": "Staring, Marius",
-    "author_place": 1,
-    "persona_email": "marius.staring@gmail.com",
-    "persona_firstname": "Marius",
-    "persona_id": 208,
-    "persona_lastname": "Staring"
-   }
-  ],
-  "categories": [
-   "Filtering",
-   "Geometric transforms",
-   "Image",
-   "Resampling",
-   "Transforms"
-  ],
-  "comments": [],
-  "date_submitted": "2008-06-17T16:18:02Z",
-  "handles": [
-   {
-    "handle": "1926/1387",
-    "handle_url": "http://hdl.handle.net/1926/1387"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 240,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "torsten@synapse.sri.com",
-     "author_firstname": "Torsten",
-     "author_id": 168,
-     "author_lastname": "Rohlfing"
+  "publication": {
+    "abstract": "This document describes a new class that takes an \\doxygen{Transform} and\r\nevaluates the deformation at points in a user-defined region.\r\nThe class is implemented using the Insight Toolkit url{www.itk.org}. \\\r\nThis paper is accompanied with the source code, input data, parameters and\r\noutput data that the authors used for validating the algorithm described in\r\nthis paper.",
+    "articles": [
+      null,
+      null,
+      "bafkreicdqr7e55t6yhcdawx5daupmr4i2hwieoij7npkepgsyke55r6sla"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Staring, Marius",
+        "author_place": 1,
+        "persona_email": "marius.staring@gmail.com",
+        "persona_firstname": "Marius",
+        "persona_id": 208,
+        "persona_lastname": "Staring"
+      }
+    ],
+    "categories": [
+      "Filtering",
+      "Geometric transforms",
+      "Image",
+      "Resampling",
+      "Transforms"
+    ],
+    "comments": [],
+    "date_submitted": "2008-06-17T16:18:02Z",
+    "handles": [
+      {
+        "handle": "1926/1387",
+        "handle_url": "http://hdl.handle.net/1926/1387"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<p><strong>Summary:</strong><br /> </p><p>A class for generating a deformation field based on a parametric coordinate transformation.</p><p>&nbsp;<strong>Open Science:</strong><br /> </p><p>&nbsp;Source code and test data are included.</p><p><br /> <strong>Reproducibility:</strong></p><p>The code compiles out of the box with current ITK. Tests provided by the authors run successfully. Did not test withmy own data.</p><p><br /> <strong>Use of Open Source Software:</strong><br /> Extension to ITK.</p><p><br /> <strong>Open Source Contributions:</strong><br /> All source code is included and immediately usable.</p><p><br /> <strong>Code Quality:</strong></p><p>The code quality is on par with ITK. </p><p><br /> <strong>Requests for additional information from authors:</strong><br /> </p><p>The use of a reference image to define the output field structure is not documented in the paper.</p><p>Class member variables (e.g., m_OutputSize) are documented, but not using Doxygen convention.</p><p><br /> <strong>Additional Comments:</strong><br /> </p><p>This is a small and straightforward but very useful addition to ITK. It provides, for example, a systematic way to feed parametric transformations into deformable registration algorithms (PDE-type) as initial transformations.</p>",
-    "date": "06-17-2008",
-    "review_id": 663
-   },
-   {
-    "author": {
-     "author_email": "tom.vercauteren@gmail.com",
-     "author_firstname": "Tom",
-     "author_id": 156,
-     "author_lastname": "Vercauteren"
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 240,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "torsten@synapse.sri.com",
+          "author_firstname": "Torsten",
+          "author_id": 168,
+          "author_lastname": "Rohlfing"
+        },
+        "content": "<p><strong>Summary:</strong><br /> </p><p>A class for generating a deformation field based on a parametric coordinate transformation.</p><p>&nbsp;<strong>Open Science:</strong><br /> </p><p>&nbsp;Source code and test data are included.</p><p><br /> <strong>Reproducibility:</strong></p><p>The code compiles out of the box with current ITK. Tests provided by the authors run successfully. Did not test withmy own data.</p><p><br /> <strong>Use of Open Source Software:</strong><br /> Extension to ITK.</p><p><br /> <strong>Open Source Contributions:</strong><br /> All source code is included and immediately usable.</p><p><br /> <strong>Code Quality:</strong></p><p>The code quality is on par with ITK. </p><p><br /> <strong>Requests for additional information from authors:</strong><br /> </p><p>The use of a reference image to define the output field structure is not documented in the paper.</p><p>Class member variables (e.g., m_OutputSize) are documented, but not using Doxygen convention.</p><p><br /> <strong>Additional Comments:</strong><br /> </p><p>This is a small and straightforward but very useful addition to ITK. It provides, for example, a systematic way to feed parametric transformations into deformable registration algorithms (PDE-type) as initial transformations.</p>",
+        "date": "06-17-2008",
+        "review_id": 663
+      },
+      {
+        "author": {
+          "author_email": "tom.vercauteren@gmail.com",
+          "author_firstname": "Tom",
+          "author_id": 156,
+          "author_lastname": "Vercauteren"
+        },
+        "content": "<p><strong>Summary:</strong><br /> The title is pretty explicit. The author propose a filter that takes a spatial transformation as input and generates a deformation field that reproduces the spatial mapping of the input transformation. This is important for example to initialize a non-parametric registration algorithm with the result of a parametric image registration scheme. </p><p>It is great to see that the filter is multi-threaded and uses an optimized path for linear spatial transformations. </p><p>The submission is well-written but needs some more work in terms of testing and concept checking.</p><p>I would thus recommend that this submission be integrated within ITK provided that the testing be reinforced. </p><p> <br /> <strong>Hypothesis:</strong><br /> The spatial mapping to be mimicked can of course only be represented by a deformation field on a finite region of interest and with a given interpolation grid.<br /> <br /> <strong>Evidence:</strong><br /> The authors provide some unit tests to check that the filter behaves as it does on their machine. It is already a good thing to have this unit test but I would recommend increasing the testing coverage. Here is a proposed testing procedure.</p><ol><li>Generate some 2D and 3D random scalar images with different sizes/origin/spacing/direction (or use some given input images)<br /></li><li>Generate some random spatial transformations (or use some given input spatial transformations)</li><li>Use a resample filter to warp the scalar images with the spatial transformations</li><li>Generate some deformation fields from the spatial transformations using the contributed filter with different output&nbsp; sizes/origin/spacing/direction with some constraints (e.g. spacing smaller that the scalar image spacing)</li><li>Use a warp filter to warp the scalar images with the generated deformation fields</li><li>Compare the images warped through the spatial transformation with the ones warped through the deformation field<br /></li></ol><p> <br /> <strong>Open Science / </strong><strong>Use of Open Source Software / </strong><strong>Open Source Contributions</strong><strong>:</strong><br /> The contribution fully adheres to those concepts.<br /> <br /> <strong>Reproducibility:</strong><br /> Compiling and running the tests was straightforward. I would however recommend packaging the files differently to let the automatic testing system do its job.<br /> <br /> <strong>Code Quality:</strong><br /> The quality of the filter is up to ITK&#39;s standards. I would however add some concept checking to it, such as:</p><p>&nbsp;itkStaticConstMacro(PixelDimension, unsigned int,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; OutputPixelType::Dimension );</p><p>&nbsp;#ifdef ITK_USE_CONCEPT_CHECKING<br />&nbsp; /** Begin concept checking */<br />&nbsp; itkConceptMacro(SameDimensionCheck,<br />&nbsp;&nbsp;&nbsp; (Concept::SameDimension));<br />&nbsp; /** End concept checking */<br />#endif</p><p>&nbsp;</p><p>The testing code should however be better documented. </p><p> <br /> <strong>Suggestions for future work:</strong><br /> </p><ul><li>Improve the unit tests</li><li>Add some concept checking</li><li>Add a link to <a href=\\\"http://hdl.handle.net/1926/510\\\" target=\\\"_blank\\\">http://hdl.handle.net/1926/510</a> that already provided a filter doing the same thing but without the cool features presented here (multi-threading, linear transformation optimization, unit testing)</li><li>Add some documentation such as &quot;This source object expects the image to be of pixel type Vector.&quot;<br /></li></ul><p>&nbsp;</p>",
+        "date": "06-19-2008",
+        "review_id": 666
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "marius.staring@gmail.com",
+      "author_firstname": "Marius",
+      "author_fullname": "Staring, Marius",
+      "author_id": 208,
+      "author_institution": "Leiden University Medical Center",
+      "author_lastname": "Staring"
     },
-    "content": "<p><strong>Summary:</strong><br /> The title is pretty explicit. The author propose a filter that takes a spatial transformation as input and generates a deformation field that reproduces the spatial mapping of the input transformation. This is important for example to initialize a non-parametric registration algorithm with the result of a parametric image registration scheme. </p><p>It is great to see that the filter is multi-threaded and uses an optimized path for linear spatial transformations. </p><p>The submission is well-written but needs some more work in terms of testing and concept checking.</p><p>I would thus recommend that this submission be integrated within ITK provided that the testing be reinforced. </p><p> <br /> <strong>Hypothesis:</strong><br /> The spatial mapping to be mimicked can of course only be represented by a deformation field on a finite region of interest and with a given interpolation grid.<br /> <br /> <strong>Evidence:</strong><br /> The authors provide some unit tests to check that the filter behaves as it does on their machine. It is already a good thing to have this unit test but I would recommend increasing the testing coverage. Here is a proposed testing procedure.</p><ol><li>Generate some 2D and 3D random scalar images with different sizes/origin/spacing/direction (or use some given input images)<br /></li><li>Generate some random spatial transformations (or use some given input spatial transformations)</li><li>Use a resample filter to warp the scalar images with the spatial transformations</li><li>Generate some deformation fields from the spatial transformations using the contributed filter with different output&nbsp; sizes/origin/spacing/direction with some constraints (e.g. spacing smaller that the scalar image spacing)</li><li>Use a warp filter to warp the scalar images with the generated deformation fields</li><li>Compare the images warped through the spatial transformation with the ones warped through the deformation field<br /></li></ol><p> <br /> <strong>Open Science / </strong><strong>Use of Open Source Software / </strong><strong>Open Source Contributions</strong><strong>:</strong><br /> The contribution fully adheres to those concepts.<br /> <br /> <strong>Reproducibility:</strong><br /> Compiling and running the tests was straightforward. I would however recommend packaging the files differently to let the automatic testing system do its job.<br /> <br /> <strong>Code Quality:</strong><br /> The quality of the filter is up to ITK&#39;s standards. I would however add some concept checking to it, such as:</p><p>&nbsp;itkStaticConstMacro(PixelDimension, unsigned int,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; OutputPixelType::Dimension );</p><p>&nbsp;#ifdef ITK_USE_CONCEPT_CHECKING<br />&nbsp; /** Begin concept checking */<br />&nbsp; itkConceptMacro(SameDimensionCheck,<br />&nbsp;&nbsp;&nbsp; (Concept::SameDimension));<br />&nbsp; /** End concept checking */<br />#endif</p><p>&nbsp;</p><p>The testing code should however be better documented. </p><p> <br /> <strong>Suggestions for future work:</strong><br /> </p><ul><li>Improve the unit tests</li><li>Add some concept checking</li><li>Add a link to <a href=\\\"http://hdl.handle.net/1926/510\\\" target=\\\"_blank\\\">http://hdl.handle.net/1926/510</a> that already provided a filter doing the same thing but without the cool features presented here (multi-threading, linear transformation optimization, unit testing)</li><li>Add some documentation such as &quot;This source object expects the image to be of pixel type Vector.&quot;<br /></li></ul><p>&nbsp;</p>",
-    "date": "06-19-2008",
-    "review_id": 666
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "marius.staring@gmail.com",
-   "author_firstname": "Marius",
-   "author_fullname": "Staring, Marius",
-   "author_id": 208,
-   "author_institution": "Leiden University Medical Center",
-   "author_lastname": "Staring"
-  },
-  "tags": null,
-  "title": "Generating a Deformation Field from a Transform"
- }
+    "tags": null,
+    "title": "Generating a Deformation Field from a Transform"
+  }
 }

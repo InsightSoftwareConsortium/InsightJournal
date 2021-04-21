@@ -1,73 +1,76 @@
 {
- "publication": {
-  "abstract": "Thresholding is perhaps one of the most basic techniques in image processing. The Insight Toolkit (ITK) includes several threshold filters ranging from simple ones to Otsu based thresholding. Deep into the implementation of the Canny edge detection filter, ITK includes an implementation of hysteresis thresholding, but unfortunately this method can not be used as a generic filter.\nThis paper presents an implementation of the hysteresis thresholding filter that can be used as a standalone ITK filter.",
-  "authors": [
-   {
-    "author_fullname": "Vera, Sergio",
-    "author_place": 1,
-    "persona_email": "sergio.vera@alma3d.com",
-    "persona_firstname": "Sergio",
-    "persona_id": 2552,
-    "persona_lastname": "Vera"
-   },
-   {
-    "author_fullname": "Perez, Frederic",
-    "author_place": 2,
-    "persona_email": "fredericpcx@gmail.com",
-    "persona_firstname": "Frederic",
-    "persona_id": 158,
-    "persona_lastname": "Perez"
-   },
-   {
-    "author_fullname": "Lara, Laura",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Gonzalez, Miguel",
-    "author_place": 4,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Filtering",
-   "Neighborhood filters",
-   "Thresholding"
-  ],
-  "comments": [],
-  "date_submitted": "2011-12-19 04:53:22",
-  "handles": [
-   {
-    "handle": "10380/3332",
-    "handle_url": "http://hdl.handle.net/10380/3332"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 847,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "sergio.vera@alma3d.com",
-   "author_firstname": "Sergio",
-   "author_fullname": "Vera, Sergio",
-   "author_id": 2552,
-   "author_institution": "Alma IT Systems",
-   "author_lastname": "Vera"
-  },
-  "tags": [
-   "Threshold",
-   "Hysteresis",
-   "ITK"
-  ],
-  "title": "A Threshold with Hysteresis"
- }
+  "publication": {
+    "abstract": "Thresholding is perhaps one of the most basic techniques in image processing. The Insight Toolkit (ITK) includes several threshold filters ranging from simple ones to Otsu based thresholding. Deep into the implementation of the Canny edge detection filter, ITK includes an implementation of hysteresis thresholding, but unfortunately this method can not be used as a generic filter.\nThis paper presents an implementation of the hysteresis thresholding filter that can be used as a standalone ITK filter.",
+    "articles": [
+      "bafybeigvmhzuvzpecv5bw4lalif2j6nk3ghukq5gjf3k2cqjtg5dvrecmy"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Vera, Sergio",
+        "author_place": 1,
+        "persona_email": "sergio.vera@alma3d.com",
+        "persona_firstname": "Sergio",
+        "persona_id": 2552,
+        "persona_lastname": "Vera"
+      },
+      {
+        "author_fullname": "Perez, Frederic",
+        "author_place": 2,
+        "persona_email": "fredericpcx@gmail.com",
+        "persona_firstname": "Frederic",
+        "persona_id": 158,
+        "persona_lastname": "Perez"
+      },
+      {
+        "author_fullname": "Lara, Laura",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Gonzalez, Miguel",
+        "author_place": 4,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Filtering",
+      "Neighborhood filters",
+      "Thresholding"
+    ],
+    "comments": [],
+    "date_submitted": "2011-12-19 04:53:22",
+    "handles": [
+      {
+        "handle": "10380/3332",
+        "handle_url": "http://hdl.handle.net/10380/3332"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 847,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "sergio.vera@alma3d.com",
+      "author_firstname": "Sergio",
+      "author_fullname": "Vera, Sergio",
+      "author_id": 2552,
+      "author_institution": "Alma IT Systems",
+      "author_lastname": "Vera"
+    },
+    "tags": [
+      "Threshold",
+      "Hysteresis",
+      "ITK"
+    ],
+    "title": "A Threshold with Hysteresis"
+  }
 }

@@ -1,60 +1,64 @@
 {
- "publication": {
-  "abstract": "The process of outlining organs on three dimensional medical images is extremely time-consuming. In this document, we describe a new tool that can interpolate contours and also make them smooth. The tool uses geodesic snakes to perform these functions. The implementation uses The Insight Toolkit and\r\nthe implementation of geodesic snakes that comes with SNAP.",
-  "authors": [
-   {
-    "author_fullname": "Saboo, Rohit",
-    "author_place": 1,
-    "persona_email": "rohit@cs.unc.edu",
-    "persona_firstname": "Rohit",
-    "persona_id": 389,
-    "persona_lastname": "Saboo"
-   },
-   {
-    "author_fullname": "Julian, Rosenman",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Stephen, Pizer",
-    "author_place": 3,
-    "persona_id": null
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2006-07-02T02:33:33Z",
-  "handles": [
-   {
-    "handle": "1926/212",
-    "handle_url": "http://hdl.handle.net/1926/212"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 100,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "rohit@cs.unc.edu",
-   "author_firstname": "Rohit",
-   "author_fullname": "Saboo, Rohit",
-   "author_id": 389,
-   "author_institution": "UNC Chapel Hill",
-   "author_lastname": "Saboo"
-  },
-  "tags": [
-   "Geodesic Snakes",
-   "Interpolation"
-  ],
-  "title": "GeoInterp: Contour Interpolation with Geodesic Snakes\r\nGeodesic Snakes"
- }
+  "publication": {
+    "abstract": "The process of outlining organs on three dimensional medical images is extremely time-consuming. In this document, we describe a new tool that can interpolate contours and also make them smooth. The tool uses geodesic snakes to perform these functions. The implementation uses The Insight Toolkit and\r\nthe implementation of geodesic snakes that comes with SNAP.",
+    "articles": [
+      "bafkreifh25btgg4whtwh2lqkhxxizca5cxkpn6ybcms5j7wff5zitz7eoq",
+      "bafkreiapmd5yggqcwz6y4rn36jc2vl4vrbsgmky5zfp6qhijxcx66euhqq"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Saboo, Rohit",
+        "author_place": 1,
+        "persona_email": "rohit@cs.unc.edu",
+        "persona_firstname": "Rohit",
+        "persona_id": 389,
+        "persona_lastname": "Saboo"
+      },
+      {
+        "author_fullname": "Julian, Rosenman",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Stephen, Pizer",
+        "author_place": 3,
+        "persona_id": null
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2006-07-02T02:33:33Z",
+    "handles": [
+      {
+        "handle": "1926/212",
+        "handle_url": "http://hdl.handle.net/1926/212"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 100,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "rohit@cs.unc.edu",
+      "author_firstname": "Rohit",
+      "author_fullname": "Saboo, Rohit",
+      "author_id": 389,
+      "author_institution": "UNC Chapel Hill",
+      "author_lastname": "Saboo"
+    },
+    "tags": [
+      "Geodesic Snakes",
+      "Interpolation"
+    ],
+    "title": "GeoInterp: Contour Interpolation with Geodesic Snakes\r\nGeodesic Snakes"
+  }
 }

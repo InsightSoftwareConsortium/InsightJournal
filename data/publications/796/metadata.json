@@ -1,76 +1,80 @@
 {
- "publication": {
-  "abstract": "This paper describes two 3D micro-CT datasets of 23 and 5.9 Gigabytes that Creatis has made publicly available to the imaging community. These datasets were acquired using Synchrotron Radiation micro-Ct at the ESRF at a spatial resolution of 1.4 microns. The provided datasets were previously included in a study to develop\nnew 3D imaging methods to analyze, in three-dimensions, the morphology of microcracks\nhuman trabecular bone at the micrometric scale.\n\nThis paper is a pure data contribution. The datasets described here are made available in the public MIDAS database. Here we describe the content of the files to make easier for others to use this data as input for their own research work. This adheres to the fundamental principle that scientific publications must facilitate reproducibility of the reported results.",
-  "authors": [
-   {
-    "author_fullname": "Zuluaga, Maria A.",
-    "author_place": 1,
-    "persona_email": "maria.zuluaga@creatis.insa-lyon.fr",
-    "persona_firstname": "Maria A.",
-    "persona_id": 2228,
-    "persona_lastname": "Zuluaga"
-   },
-   {
-    "author_fullname": "Larrue, Aymeric",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Rattner, Aline",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Vico, Laurence",
-    "author_place": 4,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Peyrin, Fran\u00e7oise",
-    "author_place": 5,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Data",
-   "Image",
-   "Images"
-  ],
-  "comments": [],
-  "date_submitted": "2011-05-20 08:58:34",
-  "handles": [
-   {
-    "handle": "10380/3261",
-    "handle_url": "http://hdl.handle.net/10380/3261"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 31,
-    "journal_name": "The MIDAS Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 796,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "maria.zuluaga@creatis.insa-lyon.fr",
-   "author_firstname": "Maria A.",
-   "author_fullname": "Zuluaga, Maria A.",
-   "author_id": 2228,
-   "author_institution": "Creatis",
-   "author_lastname": "Zuluaga"
-  },
-  "tags": [
-   "bones",
-   "micro-CT",
-   "Synchrotron radiaton",
-   "micro-cracks"
-  ],
-  "title": "Acquisition of Synchrotron Radiation micro-CT images for the investigation of bone micro-cracks"
- }
+  "publication": {
+    "abstract": "This paper describes two 3D micro-CT datasets of 23 and 5.9 Gigabytes that Creatis has made publicly available to the imaging community. These datasets were acquired using Synchrotron Radiation micro-Ct at the ESRF at a spatial resolution of 1.4 microns. The provided datasets were previously included in a study to develop\nnew 3D imaging methods to analyze, in three-dimensions, the morphology of microcracks\nhuman trabecular bone at the micrometric scale.\n\nThis paper is a pure data contribution. The datasets described here are made available in the public MIDAS database. Here we describe the content of the files to make easier for others to use this data as input for their own research work. This adheres to the fundamental principle that scientific publications must facilitate reproducibility of the reported results.",
+    "articles": [
+      "bafybeiaqbxqv74gyas36p5jpsg2hz6scmotazgjwa47nfmikolhgjyaspu",
+      "bafybeibcef2zpfky66gid2qhdqdpqysd2qvaobkkhdadkwebkftrw7dbvy"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Zuluaga, Maria A.",
+        "author_place": 1,
+        "persona_email": "maria.zuluaga@creatis.insa-lyon.fr",
+        "persona_firstname": "Maria A.",
+        "persona_id": 2228,
+        "persona_lastname": "Zuluaga"
+      },
+      {
+        "author_fullname": "Larrue, Aymeric",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Rattner, Aline",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Vico, Laurence",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Peyrin, Fran\u00e7oise",
+        "author_place": 5,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Data",
+      "Image",
+      "Images"
+    ],
+    "comments": [],
+    "date_submitted": "2011-05-20 08:58:34",
+    "handles": [
+      {
+        "handle": "10380/3261",
+        "handle_url": "http://hdl.handle.net/10380/3261"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 31,
+        "journal_name": "The MIDAS Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 796,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "maria.zuluaga@creatis.insa-lyon.fr",
+      "author_firstname": "Maria A.",
+      "author_fullname": "Zuluaga, Maria A.",
+      "author_id": 2228,
+      "author_institution": "Creatis",
+      "author_lastname": "Zuluaga"
+    },
+    "tags": [
+      "bones",
+      "micro-CT",
+      "Synchrotron radiaton",
+      "micro-cracks"
+    ],
+    "title": "Acquisition of Synchrotron Radiation micro-CT images for the investigation of bone micro-cracks"
+  }
 }

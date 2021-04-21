@@ -1,101 +1,104 @@
 {
- "publication": {
-  "abstract": "Dynamic magnetic resonance imaging (DCE-MRI) carried out with\r\ncontrast media such as Gd-chelate complex (Gd-DTPA) allows the\r\nnon-invasive assessment of microcirculatory characteristics of\r\nmalignant lesions. Quantitative estimation of lesion parameters\r\nfrom the passage of the contrast media requires the use of\r\npharmacokinetic two-compartment model. The input to the model is\r\nthe time-intensity plot from a region of interest (ROI) covering\r\nthe lesion extent. The lengthy imaging process, elasticity of the\r\norgans and patient movement result in complex deformations in the\r\nsubject requiring 3D motion correction for ROI alignment. This\r\npaper presents results on applying the Thirion Demon's 3D elastic\r\nmatching procedure in the ITK framework on the two-compartment\r\nlesion parameters. Registration, meanwhile involves interpolation\r\nand smoothing operations thereby affecting the time-intensity\r\nplots. We explore the trade-offs that arise between registration\r\nand lesion parameter estimation. Experiments on synthesized and\r\nreal deformation are presented.",
-  "authors": [
-   {
-    "author_fullname": "Mosaliganti, Kishore",
-    "author_place": 1,
-    "persona_email": "kishoreraom@gmail.com",
-    "persona_firstname": "Kishore",
-    "persona_id": 981,
-    "persona_lastname": "Mosaliganti"
-   },
-   {
-    "author_fullname": "Jia, Guang",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Heverhagen, Johannes",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Machiraju, Raghu",
-    "author_place": 4,
-    "persona_email": "raghu.machiraju@gmail.com",
-    "persona_firstname": "raghu",
-    "persona_id": 595,
-    "persona_lastname": "machiraju"
-   },
-   {
-    "author_fullname": "Saltz, Joel",
-    "author_place": 5,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Knopp, Michael",
-    "author_place": 6,
-    "persona_id": null
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2005-08-05T22:28:22Z",
-  "handles": [
-   {
-    "handle": "1926/47",
-    "handle_url": "http://hdl.handle.net/1926/47"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 39,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "stephen.aylward@kitware.com",
-     "author_firstname": "Stephen",
-     "author_id": 1,
-     "author_lastname": "Aylward"
+  "publication": {
+    "abstract": "Dynamic magnetic resonance imaging (DCE-MRI) carried out with\r\ncontrast media such as Gd-chelate complex (Gd-DTPA) allows the\r\nnon-invasive assessment of microcirculatory characteristics of\r\nmalignant lesions. Quantitative estimation of lesion parameters\r\nfrom the passage of the contrast media requires the use of\r\npharmacokinetic two-compartment model. The input to the model is\r\nthe time-intensity plot from a region of interest (ROI) covering\r\nthe lesion extent. The lengthy imaging process, elasticity of the\r\norgans and patient movement result in complex deformations in the\r\nsubject requiring 3D motion correction for ROI alignment. This\r\npaper presents results on applying the Thirion Demon's 3D elastic\r\nmatching procedure in the ITK framework on the two-compartment\r\nlesion parameters. Registration, meanwhile involves interpolation\r\nand smoothing operations thereby affecting the time-intensity\r\nplots. We explore the trade-offs that arise between registration\r\nand lesion parameter estimation. Experiments on synthesized and\r\nreal deformation are presented.",
+    "articles": [
+      "bafybeibcotfqx352giomczflnw7vogi5azfzdx52yy4elfsmymcb3pfv2u"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Mosaliganti, Kishore",
+        "author_place": 1,
+        "persona_email": "kishoreraom@gmail.com",
+        "persona_firstname": "Kishore",
+        "persona_id": 981,
+        "persona_lastname": "Mosaliganti"
+      },
+      {
+        "author_fullname": "Jia, Guang",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Heverhagen, Johannes",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Machiraju, Raghu",
+        "author_place": 4,
+        "persona_email": "raghu.machiraju@gmail.com",
+        "persona_firstname": "raghu",
+        "persona_id": 595,
+        "persona_lastname": "machiraju"
+      },
+      {
+        "author_fullname": "Saltz, Joel",
+        "author_place": 5,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Knopp, Michael",
+        "author_place": 6,
+        "persona_id": null
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2005-08-05T22:28:22Z",
+    "handles": [
+      {
+        "handle": "1926/47",
+        "handle_url": "http://hdl.handle.net/1926/47"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<b>Summary:</b>\r\nThe authors seek to apply Thirlon's Demons deformable registration method to align MR scans taken as contrast perfuses through an organ. Contrast perfusion curves at anatomic points are analyzed to detect and localize tumors. The concept is that inter-scan deformations occur (one demonstration application is breast MR) and such deformations will confound the computation of perfusion corresponding anatomic points.\r\n\r\nThe research area is well motivated in the paper. Excellent experiments are conducted. This is a very good research paper.\r\n\r\nThe paper will ideally motivate others to apply open-source software to their clinical research.\r\n\r\nThis paper has limited benefit to the open source community. The Demons method and the use of histogram matching is already detailed in the Insight Software Guide.\r\n \r\n<b>Hypothesis:</b>\r\nOpen-source software (ITK) can be applied to register MR image sequences that contain deformations.\r\n\r\n<b>Evidence:</b>\r\nThe evaluations are excellent. Some clinical issues should perhaps be considered, but such issues are not the focus of this conference/journal.\r\n\r\n<b>Open Science:</b>\r\nThe paper makes good used of open source, and it details many of the parameters involved in the algorithms used.\r\n\r\nThe data used in the paper are not made publicly available.\r\n\r\nThe software developed for the paper is not make publicly available. The application is summarized by a pipeline / flow chart, but the code to implement that pipeline is needed to fully understand the parameters of the application. How does it differ from the work presented in the Insight Software Guide?\r\n\r\n<b>Reproducibility:</b>\r\nThere are parameters to histogram matching that are not given.\r\n\r\nThere are parameters to the demons method that are not given.\r\n\r\nExperimentation would probably be required to duplicate these results.\r\n\r\n<b>Requests for additional information from authors:</b>\r\nThis work has great potential, but its impact on the open-source community is limited without source code or implementation details. This paper would be an excellent demonstration of the clinical potential of open-source, if it provided the details/code needed for others to replicate the work. Perhaps, at a minimum, a simple text document that details the various parameter settings could also be uploaded? Ideally, source code would be made available.\r\n\r\n",
-    "date": "09-19-2005",
-    "review_id": 115
-   },
-   {
-    "author": {
-     "author_email": "vincent-magnotta@uiowa.edu",
-     "author_firstname": "Vincent",
-     "author_id": 54,
-     "author_lastname": "Magnotta"
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 39,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "stephen.aylward@kitware.com",
+          "author_firstname": "Stephen",
+          "author_id": 1,
+          "author_lastname": "Aylward"
+        },
+        "content": "<b>Summary:</b>\r\nThe authors seek to apply Thirlon's Demons deformable registration method to align MR scans taken as contrast perfuses through an organ. Contrast perfusion curves at anatomic points are analyzed to detect and localize tumors. The concept is that inter-scan deformations occur (one demonstration application is breast MR) and such deformations will confound the computation of perfusion corresponding anatomic points.\r\n\r\nThe research area is well motivated in the paper. Excellent experiments are conducted. This is a very good research paper.\r\n\r\nThe paper will ideally motivate others to apply open-source software to their clinical research.\r\n\r\nThis paper has limited benefit to the open source community. The Demons method and the use of histogram matching is already detailed in the Insight Software Guide.\r\n \r\n<b>Hypothesis:</b>\r\nOpen-source software (ITK) can be applied to register MR image sequences that contain deformations.\r\n\r\n<b>Evidence:</b>\r\nThe evaluations are excellent. Some clinical issues should perhaps be considered, but such issues are not the focus of this conference/journal.\r\n\r\n<b>Open Science:</b>\r\nThe paper makes good used of open source, and it details many of the parameters involved in the algorithms used.\r\n\r\nThe data used in the paper are not made publicly available.\r\n\r\nThe software developed for the paper is not make publicly available. The application is summarized by a pipeline / flow chart, but the code to implement that pipeline is needed to fully understand the parameters of the application. How does it differ from the work presented in the Insight Software Guide?\r\n\r\n<b>Reproducibility:</b>\r\nThere are parameters to histogram matching that are not given.\r\n\r\nThere are parameters to the demons method that are not given.\r\n\r\nExperimentation would probably be required to duplicate these results.\r\n\r\n<b>Requests for additional information from authors:</b>\r\nThis work has great potential, but its impact on the open-source community is limited without source code or implementation details. This paper would be an excellent demonstration of the clinical potential of open-source, if it provided the details/code needed for others to replicate the work. Perhaps, at a minimum, a simple text document that details the various parameter settings could also be uploaded? Ideally, source code would be made available.\r\n\r\n",
+        "date": "09-19-2005",
+        "review_id": 115
+      },
+      {
+        "author": {
+          "author_email": "vincent-magnotta@uiowa.edu",
+          "author_firstname": "Vincent",
+          "author_id": 54,
+          "author_lastname": "Magnotta"
+        },
+        "content": "It is clear that dynamic contrast MR imaging would benefit from image co-registration. Based on the image acquisition utilized in this paper, it is unclear if a nonlinear image registration is better than a rigid registration. While not described in sufficient detail in the paper, it appears that the dynamic contrast imaging has an image acquisition period of approximately 30 seconds. This is sufficient time to average several cardiac and respiratory cycles into the data causing blurring in the data as compared to non rigid motion as would be the case when using snapshot based imaging approaches. It is also unclear in the paper why histogram matching was used in comparison to a mutual information metric. The contrast changes in the area of the lesion are large (enhancement of 3 times) as shown in Figure 1. It is unclear if simple histogram matching is sufficient to allow the Thirion demon registration to work well in areas where there is a large change in contrast between the images.\r\n",
+        "date": "08-07-2005",
+        "review_id": 17
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "kishoreraom@gmail.com",
+      "author_firstname": "Kishore",
+      "author_fullname": "Mosaliganti, Kishore",
+      "author_id": 981,
+      "author_institution": "Harvard Medical School",
+      "author_lastname": "Mosaliganti"
     },
-    "content": "It is clear that dynamic contrast MR imaging would benefit from image co-registration. Based on the image acquisition utilized in this paper, it is unclear if a nonlinear image registration is better than a rigid registration. While not described in sufficient detail in the paper, it appears that the dynamic contrast imaging has an image acquisition period of approximately 30 seconds. This is sufficient time to average several cardiac and respiratory cycles into the data causing blurring in the data as compared to non rigid motion as would be the case when using snapshot based imaging approaches. It is also unclear in the paper why histogram matching was used in comparison to a mutual information metric. The contrast changes in the area of the lesion are large (enhancement of 3 times) as shown in Figure 1. It is unclear if simple histogram matching is sufficient to allow the Thirion demon registration to work well in areas where there is a large change in contrast between the images.\r\n",
-    "date": "08-07-2005",
-    "review_id": 17
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "kishoreraom@gmail.com",
-   "author_firstname": "Kishore",
-   "author_fullname": "Mosaliganti, Kishore",
-   "author_id": 981,
-   "author_institution": "Harvard Medical School",
-   "author_lastname": "Mosaliganti"
-  },
-  "tags": [
-   "elastic matching, DCE-MRI",
-   "Co-registration"
-  ],
-  "title": "Impact of motion correction on the quantitative analysis of DCE-MR Images"
- }
+    "tags": [
+      "elastic matching, DCE-MRI",
+      "Co-registration"
+    ],
+    "title": "Impact of motion correction on the quantitative analysis of DCE-MR Images"
+  }
 }

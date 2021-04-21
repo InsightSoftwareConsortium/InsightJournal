@@ -1,56 +1,70 @@
 {
- "publication": {
-  "abstract": "MevisLab [2] is a development environment for medical image processing and visualization, which supports the reading and writing of combined dicom/tiff images. In this document we provide the source code (ImageIO factory) for the Insight Toolkit (ITK) framework [4]. This image IO plugin supports 2D, 3D and 4D scalar images.\n\nNote: this class depends on version GDCM 2.0 and above.",
-  "authors": [
-   {
-    "author_fullname": "Manniesing, Rashindra",
-    "author_place": 1,
-    "persona_email": "rashindra@gmail.com",
-    "persona_firstname": "Rashindra",
-    "persona_id": 590,
-    "persona_lastname": "Manniesing"
-   }
-  ],
-  "categories": [
-   "Data Representation",
-   "DICOM",
-   "Image",
-   "Images",
-   "IO"
-  ],
-  "comments": [],
-  "date_submitted": "2011-04-18 10:07:06",
-  "handles": [
-   {
-    "handle": "1926/1514",
-    "handle_url": "http://hdl.handle.net/1926/1514"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 311,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "rashindra@gmail.com",
-   "author_firstname": "Rashindra",
-   "author_fullname": "Manniesing, Rashindra",
-   "author_id": 590,
-   "author_institution": "DIAG Nijmegen",
-   "author_lastname": "Manniesing"
-  },
-  "tags": [
-   "imageIO",
-   "MevisLab"
-  ],
-  "title": "Read and Write Support for MevisLab Dicom/Tiff Format"
- }
+  "publication": {
+    "abstract": "MevisLab [2] is a development environment for medical image processing and visualization, which supports the reading and writing of combined dicom/tiff images. In this document we provide the source code (ImageIO factory) for the Insight Toolkit (ITK) framework [4]. This image IO plugin supports 2D, 3D and 4D scalar images.\n\nNote: this class depends on version GDCM 2.0 and above.",
+    "articles": [
+      "bafkreiajygaoamn5vpbqu3npmyvytesqij2vt53gmpxmopjvfiqa33n7wm",
+      "bafkreib5lw5gkv54p3joz5g22mthilg36svmtfc7n35jzqkabai6vnkllq",
+      "bafkreiatidcb4adkryec6mzvvwcynbhx4hvlujajpduhh3dg5k6yivooci",
+      "bafkreiatidcb4adkryec6mzvvwcynbhx4hvlujajpduhh3dg5k6yivooci",
+      "bafkreicm5dyulasof32h2wmw2ewtbl7b6tlprtq3q2ckr2yih4jquap6xe",
+      "bafkreicm5dyulasof32h2wmw2ewtbl7b6tlprtq3q2ckr2yih4jquap6xe",
+      "bafkreicoxzxeivkdv56omcxklaslaouxkqtbbd57k3rjgmnrdnqpqwnpvm",
+      "bafkreicoxzxeivkdv56omcxklaslaouxkqtbbd57k3rjgmnrdnqpqwnpvm",
+      "bafkreidfh7xr7dezp5umx4lw7c7gnjybi5tfljefpret3h3e3w7v3wyx6q",
+      "bafkreid6jylaoo2eodfyqvyw2o6zo66qkg4455cx4qgyk3a27iyi22ppce",
+      "bafkreib5lw5gkv54p3joz5g22mthilg36svmtfc7n35jzqkabai6vnkllq",
+      "bafkreib5lw5gkv54p3joz5g22mthilg36svmtfc7n35jzqkabai6vnkllq"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Manniesing, Rashindra",
+        "author_place": 1,
+        "persona_email": "rashindra@gmail.com",
+        "persona_firstname": "Rashindra",
+        "persona_id": 590,
+        "persona_lastname": "Manniesing"
+      }
+    ],
+    "categories": [
+      "Data Representation",
+      "DICOM",
+      "Image",
+      "Images",
+      "IO"
+    ],
+    "comments": [],
+    "date_submitted": "2011-04-18 10:07:06",
+    "handles": [
+      {
+        "handle": "1926/1514",
+        "handle_url": "http://hdl.handle.net/1926/1514"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 311,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "rashindra@gmail.com",
+      "author_firstname": "Rashindra",
+      "author_fullname": "Manniesing, Rashindra",
+      "author_id": 590,
+      "author_institution": "DIAG Nijmegen",
+      "author_lastname": "Manniesing"
+    },
+    "tags": [
+      "imageIO",
+      "MevisLab"
+    ],
+    "title": "Read and Write Support for MevisLab Dicom/Tiff Format"
+  }
 }

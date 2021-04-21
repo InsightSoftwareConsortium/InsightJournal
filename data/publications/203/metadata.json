@@ -1,52 +1,55 @@
 {
- "publication": {
-  "abstract": "Morphological area attribute openings and closings\\cite{Cheng92,Vincent93a} are connected set\r\noperations that are able to remove parts of an image that meet certain\r\ncriteria without changing the rest of the image. This article describes a number of\r\nclasses that implement morphological area attribute operations using\r\nthe methods described by Meijster and Wilkinson \\cite{meijster02}.",
-  "authors": [
-   {
-    "author_fullname": "Beare, Richard",
-    "author_place": 1,
-    "persona_email": "richard.beare@ieee.org",
-    "persona_firstname": "Richard",
-    "persona_id": 197,
-    "persona_lastname": "Beare"
-   }
-  ],
-  "categories": [
-   "Filtering",
-   "Mathematical Morphology"
-  ],
-  "comments": [],
-  "date_submitted": "2007-11-24T10:51:25Z",
-  "handles": [
-   {
-    "handle": "1926/1316",
-    "handle_url": "http://hdl.handle.net/1926/1316"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 203,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "richard.beare@ieee.org",
-   "author_firstname": "Richard",
-   "author_fullname": "Beare, Richard",
-   "author_id": 197,
-   "author_institution": "Monash University",
-   "author_lastname": "Beare"
-  },
-  "tags": [
-   "attribute morphology"
-  ],
-  "title": "Grayscale morphological attribute operations"
- }
+  "publication": {
+    "abstract": "Morphological area attribute openings and closings\\cite{Cheng92,Vincent93a} are connected set\r\noperations that are able to remove parts of an image that meet certain\r\ncriteria without changing the rest of the image. This article describes a number of\r\nclasses that implement morphological area attribute operations using\r\nthe methods described by Meijster and Wilkinson \\cite{meijster02}.",
+    "articles": [
+      "bafkreidhay6ji6gm2oh6vgrylj7fq3ouqgcm2dzni4o7gxf3adxczt2t5u"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Beare, Richard",
+        "author_place": 1,
+        "persona_email": "richard.beare@ieee.org",
+        "persona_firstname": "Richard",
+        "persona_id": 197,
+        "persona_lastname": "Beare"
+      }
+    ],
+    "categories": [
+      "Filtering",
+      "Mathematical Morphology"
+    ],
+    "comments": [],
+    "date_submitted": "2007-11-24T10:51:25Z",
+    "handles": [
+      {
+        "handle": "1926/1316",
+        "handle_url": "http://hdl.handle.net/1926/1316"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 203,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "richard.beare@ieee.org",
+      "author_firstname": "Richard",
+      "author_fullname": "Beare, Richard",
+      "author_id": 197,
+      "author_institution": "Monash University",
+      "author_lastname": "Beare"
+    },
+    "tags": [
+      "attribute morphology"
+    ],
+    "title": "Grayscale morphological attribute operations"
+  }
 }

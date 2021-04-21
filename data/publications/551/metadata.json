@@ -1,79 +1,82 @@
 {
- "publication": {
-  "abstract": "In this paper, we propose a Mix-resolution Bone-related Statistical Deformable Model (mBr-SDM) to improve the predicting accuracy of orthognathic surgery, particularly for the main deformation region. Mix-resolution Br-SDM consists of two separate Br-SDM of different resolutions: a high-resolution Br-SDM which is trained with more samples to capture the detail deforming variations in the main deforming regions of interest, together with a low-resolution Br-SDM which is trained with a smaller number of samples to capture the major variations of the remaining facial points. The experiments have shown that the mix-resolution Br-SDM is able to significantly reduce the predicting error compared with the corresponding Finite Element Model, while giving a low computational cost which is characteristic of the SDM approach.",
-  "authors": [
-   {
-    "author_fullname": "Qizhen, He",
-    "author_place": 1,
-    "persona_email": "qizhenhe2@student.cityu.edu.hk",
-    "persona_firstname": "He",
-    "persona_id": 816,
-    "persona_lastname": "Qizhen"
-   },
-   {
-    "author_fullname": "Horace, Ip",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Xia, James",
-    "author_place": 3,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Mathematics",
-   "Point distribution models",
-   "Statistical shape models"
-  ],
-  "comments": [],
-  "date_submitted": "2008-05-19T07:14:03Z",
-  "handles": [
-   {
-    "handle": "10380/1358",
-    "handle_url": "http://hdl.handle.net/10380/1358"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 33,
-    "journal_name": "MICCAI 2008 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 551,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "tduttar@mech.uwa.edu.au",
-     "author_firstname": "Tonmoy",
-     "author_id": 899,
-     "author_lastname": "Dutta roy"
+  "publication": {
+    "abstract": "In this paper, we propose a Mix-resolution Bone-related Statistical Deformable Model (mBr-SDM) to improve the predicting accuracy of orthognathic surgery, particularly for the main deformation region. Mix-resolution Br-SDM consists of two separate Br-SDM of different resolutions: a high-resolution Br-SDM which is trained with more samples to capture the detail deforming variations in the main deforming regions of interest, together with a low-resolution Br-SDM which is trained with a smaller number of samples to capture the major variations of the remaining facial points. The experiments have shown that the mix-resolution Br-SDM is able to significantly reduce the predicting error compared with the corresponding Finite Element Model, while giving a low computational cost which is characteristic of the SDM approach.",
+    "articles": [
+      "bafkreiduo6tkys3im7ydij5cip3jwezwjbqoqm5te7ut7mskwzwepb2wri"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Qizhen, He",
+        "author_place": 1,
+        "persona_email": "qizhenhe2@student.cityu.edu.hk",
+        "persona_firstname": "He",
+        "persona_id": 816,
+        "persona_lastname": "Qizhen"
+      },
+      {
+        "author_fullname": "Horace, Ip",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Xia, James",
+        "author_place": 3,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Mathematics",
+      "Point distribution models",
+      "Statistical shape models"
+    ],
+    "comments": [],
+    "date_submitted": "2008-05-19T07:14:03Z",
+    "handles": [
+      {
+        "handle": "10380/1358",
+        "handle_url": "http://hdl.handle.net/10380/1358"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<strong><p class=\\\"\\\\\\\\\\\\&quot;MsoNormal\\\\\\\\\\\\&quot;\\\">Paper authors and title: </p><span><font face=\\\"\\\\\\\\\\\\&quot;Times\\\" size=\\\"\\\\\\\\\\\\&quot;2\\\\\\\\\\\\&quot;\\\">&nbsp;</font></span><span><font size=\\\"\\\\\\\\\\\\&quot;2\\\\\\\\\\\\&quot;\\\"><font face=\\\"\\\\\\\\\\\\&quot;Times\\\">A mix resolution Bone related statistical deformation model for soft tissue prediction in Orthognathic surgery planning</font></font></span><span><font face=\\\"\\\\\\\\\\\\&quot;Times\\\" size=\\\"\\\\\\\\\\\\&quot;2\\\\\\\\\\\\&quot;\\\">&nbsp;</font></span><font size=\\\"\\\\\\\\\\\\&quot;2\\\\\\\\\\\\&quot;\\\"><font face=\\\"\\\\\\\\\\\\&quot;Times\\\"><span>Qizhen He et al.</span></font></font><span><font face=\\\"\\\\\\\\\\\\&quot;Times\\\" size=\\\"\\\\\\\\\\\\&quot;2\\\\\\\\\\\\&quot;\\\">&nbsp;</font></span> <p class=\\\"\\\\\\\\\\\\&quot;MsoNormal\\\\\\\\\\\\&quot;\\\">Please, rank the following on the scale from 1 (worst) to 5 (best)</p><p class=\\\"\\\\\\\\\\\\&quot;MsoNormal\\\\\\\\\\\\&quot;\\\"><font face=\\\"\\\\\\\\\\\\&quot;Times\\\">Originality <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>3<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></font></p><p class=\\\"\\\\\\\\\\\\&quot;MsoNormal\\\\\\\\\\\\&quot;\\\"><font face=\\\"\\\\\\\\\\\\&quot;Times\\\">Methodological originality<span> </span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>3<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></font></p><p class=\\\"\\\\\\\\\\\\&quot;MsoNormal\\\\\\\\\\\\&quot;\\\"><font face=\\\"\\\\\\\\\\\\&quot;Times\\\">Biologic originality <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>3<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></font></p><p class=\\\"\\\\\\\\\\\\&quot;MsoNormal\\\\\\\\\\\\&quot;\\\"><font face=\\\"\\\\\\\\\\\\&quot;Times\\\">Completeness of discussion <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>3<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></font></p><p class=\\\"\\\\\\\\\\\\&quot;MsoNormal\\\\\\\\\\\\&quot;\\\"><font face=\\\"\\\\\\\\\\\\&quot;Times\\\">Appropriate references <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>3<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></font></p><p class=\\\"\\\\\\\\\\\\&quot;MsoNormal\\\\\\\\\\\\&quot;\\\"><font face=\\\"\\\\\\\\\\\\&quot;Times\\\">Organisation <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>3<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></font></p><p class=\\\"\\\\\\\\\\\\&quot;MsoNormal\\\\\\\\\\\\&quot;\\\">Clarity <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>4</p><span><font face=\\\"\\\\\\\\\\\\&quot;Times\\\" size=\\\"\\\\\\\\\\\\&quot;2\\\\\\\\\\\\&quot;\\\">&nbsp;</font></span><span><font face=\\\"\\\\\\\\\\\\&quot;Times\\\" size=\\\"\\\\\\\\\\\\&quot;2\\\\\\\\\\\\&quot;\\\">&nbsp;</font></span> <p class=\\\"\\\\\\\\\\\\&quot;MsoNormal\\\\\\\\\\\\&quot;\\\"><font face=\\\"\\\\\\\\\\\\&quot;Times\\\">Is the technical treatment plausible and free from technical errors?<span>&nbsp;&nbsp;&nbsp; </span>Yes <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></font></p><p class=\\\"\\\\\\\\\\\\&quot;MsoNormal\\\\\\\\\\\\&quot;\\\"><font face=\\\"\\\\\\\\\\\\&quot;Times\\\">Have you checked the equations<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>NA<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></font></p><p class=\\\"\\\\\\\\\\\\&quot;MsoNormal\\\\\\\\\\\\&quot;\\\">Are you aware of prior publication or presentation of this work<span> </span>No</p><p class=\\\"\\\\\\\\\\\\&quot;MsoNormal\\\\\\\\\\\\&quot;\\\">Is the paper too long<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>No</p><span><font face=\\\"\\\\\\\\\\\\&quot;Times\\\" size=\\\"\\\\\\\\\\\\&quot;2\\\\\\\\\\\\&quot;\\\">&nbsp;</font></span> <p class=\\\"\\\\\\\\\\\\&quot;MsoNormal\\\\\\\\\\\\&quot;\\\">Recommendation:</p><span><span><font size=\\\"\\\\\\\\\\\\&quot;2\\\\\\\\\\\\&quot;\\\">(A)</font><span>Accept </span></span></span><span><span><p class=\\\"\\\\\\\\\\\\&quot;MsoNormal\\\\\\\\\\\\&quot;\\\">(B) Accept subject to minor revisions</p></span><span><span><font size=\\\"\\\\\\\\\\\\&quot;2\\\\\\\\\\\\&quot;\\\">(C)</font><span>Accept with major revisions</span></span></span><span><span><span><span><font size=\\\"\\\\\\\\\\\\&quot;2\\\\\\\\\\\\&quot;\\\">(D)</font><span>Reject</span></span></span><span><span><span><font face=\\\"\\\\\\\\\\\\&quot;Times\\\" size=\\\"\\\\\\\\\\\\&quot;2\\\\\\\\\\\\&quot;\\\">&nbsp;</font></span> <p class=\\\"\\\\\\\\\\\\&quot;MsoNormal\\\\\\\\\\\\&quot;\\\">Accept with major revisions</p></span><span><font face=\\\"\\\\\\\\\\\\&quot;Times\\\" size=\\\"\\\\\\\\\\\\&quot;2\\\\\\\\\\\\&quot;\\\">&nbsp;</font></span> <p class=\\\"\\\\\\\\\\\\&quot;MsoNormal\\\\\\\\\\\\&quot;\\\">Should this paper be presented as poster or as podium presentation (this recommendation does not reflect upon the relative quality of the paper)?</p></span><span><font face=\\\"\\\\\\\\\\\\&quot;Times\\\" size=\\\"\\\\\\\\\\\\&quot;2\\\\\\\\\\\\&quot;\\\">&nbsp;</font></span> <p class=\\\"\\\\\\\\\\\\&quot;MsoNormal\\\\\\\\\\\\&quot;\\\">Poster</p></span><span><font face=\\\"\\\\\\\\\\\\&quot;Times\\\" size=\\\"\\\\\\\\\\\\&quot;2\\\\\\\\\\\\&quot;\\\">&nbsp;</font></span> <p class=\\\"\\\\\\\\\\\\&quot;MsoNormal\\\\\\\\\\\\&quot;\\\">Comments to the manuscript:</p></span><span><font face=\\\"\\\\\\\\\\\\&quot;Times\\\" size=\\\"\\\\\\\\\\\\&quot;2\\\\\\\\\\\\&quot;\\\">&nbsp;</font></span> <p class=\\\"\\\\\\\\\\\\&quot;MsoNormal\\\\\\\\\\\\&quot;\\\">An interesting approach to solving complicated solid mechanics problems. I have a few comments:</p></span><span><font face=\\\"\\\\\\\\\\\\&quot;Times\\\" size=\\\"\\\\\\\\\\\\&quot;2\\\\\\\\\\\\&quot;\\\">&nbsp;</font></span> <span><span><font size=\\\"\\\\\\\\\\\\&quot;2\\\\\\\\\\\\&quot;\\\">a)</font><span>The FEM used, is it fully non-linear (finite deformation, constitutive law and non-linear boundary conditions)? </span></span></span><span><span><span><span><font size=\\\"\\\\\\\\\\\\&quot;2\\\\\\\\\\\\&quot;\\\">b)</font><span>How have the authors determined appropriate boundary conditions for the model? The deviations in results with increased samples [Fig 4 (b)]<span>&nbsp; </span>could be due to inappropriate boundary conditions used in the FEM.</span></span></span><span><span> <p class=\\\"\\\\\\\\\\\\&quot;MsoNormal\\\\\\\\\\\\&quot;\\\">&nbsp;</p><p class=\\\"\\\\\\\\\\\\&quot;MsoNormal\\\\\\\\\\\\&quot;\\\">References</p></span></span></span></span></strong>",
-    "date": "07-07-2008",
-    "review_id": 1502
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "qizhenhe2@student.cityu.edu.hk",
-   "author_firstname": "He",
-   "author_fullname": "Qizhen, He",
-   "author_id": 816,
-   "author_institution": "City University of Hong Kong",
-   "author_lastname": "Qizhen"
-  },
-  "tags": [
-   "Finite Element Model",
-   "Surgical Planning",
-   "Orthognathic Surgery",
-   "Mix-resolution Br-SDM",
-   "Statistical Model"
-  ],
-  "title": "A Mix-resolution Bone-related Statistical Deformable Model (mBr-SDM) for Soft Tissue Prediction in Orthognathic Surgery Planning"
- }
+    "journals": [
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 551,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "tduttar@mech.uwa.edu.au",
+          "author_firstname": "Tonmoy",
+          "author_id": 899,
+          "author_lastname": "Dutta roy"
+        },
+        "content": "<strong><p class=\\\"\\\\\\\\\\\\&quot;MsoNormal\\\\\\\\\\\\&quot;\\\">Paper authors and title: </p><span><font face=\\\"\\\\\\\\\\\\&quot;Times\\\" size=\\\"\\\\\\\\\\\\&quot;2\\\\\\\\\\\\&quot;\\\">&nbsp;</font></span><span><font size=\\\"\\\\\\\\\\\\&quot;2\\\\\\\\\\\\&quot;\\\"><font face=\\\"\\\\\\\\\\\\&quot;Times\\\">A mix resolution Bone related statistical deformation model for soft tissue prediction in Orthognathic surgery planning</font></font></span><span><font face=\\\"\\\\\\\\\\\\&quot;Times\\\" size=\\\"\\\\\\\\\\\\&quot;2\\\\\\\\\\\\&quot;\\\">&nbsp;</font></span><font size=\\\"\\\\\\\\\\\\&quot;2\\\\\\\\\\\\&quot;\\\"><font face=\\\"\\\\\\\\\\\\&quot;Times\\\"><span>Qizhen He et al.</span></font></font><span><font face=\\\"\\\\\\\\\\\\&quot;Times\\\" size=\\\"\\\\\\\\\\\\&quot;2\\\\\\\\\\\\&quot;\\\">&nbsp;</font></span> <p class=\\\"\\\\\\\\\\\\&quot;MsoNormal\\\\\\\\\\\\&quot;\\\">Please, rank the following on the scale from 1 (worst) to 5 (best)</p><p class=\\\"\\\\\\\\\\\\&quot;MsoNormal\\\\\\\\\\\\&quot;\\\"><font face=\\\"\\\\\\\\\\\\&quot;Times\\\">Originality <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>3<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></font></p><p class=\\\"\\\\\\\\\\\\&quot;MsoNormal\\\\\\\\\\\\&quot;\\\"><font face=\\\"\\\\\\\\\\\\&quot;Times\\\">Methodological originality<span> </span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>3<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></font></p><p class=\\\"\\\\\\\\\\\\&quot;MsoNormal\\\\\\\\\\\\&quot;\\\"><font face=\\\"\\\\\\\\\\\\&quot;Times\\\">Biologic originality <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>3<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></font></p><p class=\\\"\\\\\\\\\\\\&quot;MsoNormal\\\\\\\\\\\\&quot;\\\"><font face=\\\"\\\\\\\\\\\\&quot;Times\\\">Completeness of discussion <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>3<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></font></p><p class=\\\"\\\\\\\\\\\\&quot;MsoNormal\\\\\\\\\\\\&quot;\\\"><font face=\\\"\\\\\\\\\\\\&quot;Times\\\">Appropriate references <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>3<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></font></p><p class=\\\"\\\\\\\\\\\\&quot;MsoNormal\\\\\\\\\\\\&quot;\\\"><font face=\\\"\\\\\\\\\\\\&quot;Times\\\">Organisation <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>3<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></font></p><p class=\\\"\\\\\\\\\\\\&quot;MsoNormal\\\\\\\\\\\\&quot;\\\">Clarity <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>4</p><span><font face=\\\"\\\\\\\\\\\\&quot;Times\\\" size=\\\"\\\\\\\\\\\\&quot;2\\\\\\\\\\\\&quot;\\\">&nbsp;</font></span><span><font face=\\\"\\\\\\\\\\\\&quot;Times\\\" size=\\\"\\\\\\\\\\\\&quot;2\\\\\\\\\\\\&quot;\\\">&nbsp;</font></span> <p class=\\\"\\\\\\\\\\\\&quot;MsoNormal\\\\\\\\\\\\&quot;\\\"><font face=\\\"\\\\\\\\\\\\&quot;Times\\\">Is the technical treatment plausible and free from technical errors?<span>&nbsp;&nbsp;&nbsp; </span>Yes <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></font></p><p class=\\\"\\\\\\\\\\\\&quot;MsoNormal\\\\\\\\\\\\&quot;\\\"><font face=\\\"\\\\\\\\\\\\&quot;Times\\\">Have you checked the equations<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>NA<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></font></p><p class=\\\"\\\\\\\\\\\\&quot;MsoNormal\\\\\\\\\\\\&quot;\\\">Are you aware of prior publication or presentation of this work<span> </span>No</p><p class=\\\"\\\\\\\\\\\\&quot;MsoNormal\\\\\\\\\\\\&quot;\\\">Is the paper too long<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>No</p><span><font face=\\\"\\\\\\\\\\\\&quot;Times\\\" size=\\\"\\\\\\\\\\\\&quot;2\\\\\\\\\\\\&quot;\\\">&nbsp;</font></span> <p class=\\\"\\\\\\\\\\\\&quot;MsoNormal\\\\\\\\\\\\&quot;\\\">Recommendation:</p><span><span><font size=\\\"\\\\\\\\\\\\&quot;2\\\\\\\\\\\\&quot;\\\">(A)</font><span>Accept </span></span></span><span><span><p class=\\\"\\\\\\\\\\\\&quot;MsoNormal\\\\\\\\\\\\&quot;\\\">(B) Accept subject to minor revisions</p></span><span><span><font size=\\\"\\\\\\\\\\\\&quot;2\\\\\\\\\\\\&quot;\\\">(C)</font><span>Accept with major revisions</span></span></span><span><span><span><span><font size=\\\"\\\\\\\\\\\\&quot;2\\\\\\\\\\\\&quot;\\\">(D)</font><span>Reject</span></span></span><span><span><span><font face=\\\"\\\\\\\\\\\\&quot;Times\\\" size=\\\"\\\\\\\\\\\\&quot;2\\\\\\\\\\\\&quot;\\\">&nbsp;</font></span> <p class=\\\"\\\\\\\\\\\\&quot;MsoNormal\\\\\\\\\\\\&quot;\\\">Accept with major revisions</p></span><span><font face=\\\"\\\\\\\\\\\\&quot;Times\\\" size=\\\"\\\\\\\\\\\\&quot;2\\\\\\\\\\\\&quot;\\\">&nbsp;</font></span> <p class=\\\"\\\\\\\\\\\\&quot;MsoNormal\\\\\\\\\\\\&quot;\\\">Should this paper be presented as poster or as podium presentation (this recommendation does not reflect upon the relative quality of the paper)?</p></span><span><font face=\\\"\\\\\\\\\\\\&quot;Times\\\" size=\\\"\\\\\\\\\\\\&quot;2\\\\\\\\\\\\&quot;\\\">&nbsp;</font></span> <p class=\\\"\\\\\\\\\\\\&quot;MsoNormal\\\\\\\\\\\\&quot;\\\">Poster</p></span><span><font face=\\\"\\\\\\\\\\\\&quot;Times\\\" size=\\\"\\\\\\\\\\\\&quot;2\\\\\\\\\\\\&quot;\\\">&nbsp;</font></span> <p class=\\\"\\\\\\\\\\\\&quot;MsoNormal\\\\\\\\\\\\&quot;\\\">Comments to the manuscript:</p></span><span><font face=\\\"\\\\\\\\\\\\&quot;Times\\\" size=\\\"\\\\\\\\\\\\&quot;2\\\\\\\\\\\\&quot;\\\">&nbsp;</font></span> <p class=\\\"\\\\\\\\\\\\&quot;MsoNormal\\\\\\\\\\\\&quot;\\\">An interesting approach to solving complicated solid mechanics problems. I have a few comments:</p></span><span><font face=\\\"\\\\\\\\\\\\&quot;Times\\\" size=\\\"\\\\\\\\\\\\&quot;2\\\\\\\\\\\\&quot;\\\">&nbsp;</font></span> <span><span><font size=\\\"\\\\\\\\\\\\&quot;2\\\\\\\\\\\\&quot;\\\">a)</font><span>The FEM used, is it fully non-linear (finite deformation, constitutive law and non-linear boundary conditions)? </span></span></span><span><span><span><span><font size=\\\"\\\\\\\\\\\\&quot;2\\\\\\\\\\\\&quot;\\\">b)</font><span>How have the authors determined appropriate boundary conditions for the model? The deviations in results with increased samples [Fig 4 (b)]<span>&nbsp; </span>could be due to inappropriate boundary conditions used in the FEM.</span></span></span><span><span> <p class=\\\"\\\\\\\\\\\\&quot;MsoNormal\\\\\\\\\\\\&quot;\\\">&nbsp;</p><p class=\\\"\\\\\\\\\\\\&quot;MsoNormal\\\\\\\\\\\\&quot;\\\">References</p></span></span></span></span></strong>",
+        "date": "07-07-2008",
+        "review_id": 1502
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "qizhenhe2@student.cityu.edu.hk",
+      "author_firstname": "He",
+      "author_fullname": "Qizhen, He",
+      "author_id": 816,
+      "author_institution": "City University of Hong Kong",
+      "author_lastname": "Qizhen"
+    },
+    "tags": [
+      "Finite Element Model",
+      "Surgical Planning",
+      "Orthognathic Surgery",
+      "Mix-resolution Br-SDM",
+      "Statistical Model"
+    ],
+    "title": "A Mix-resolution Bone-related Statistical Deformable Model (mBr-SDM) for Soft Tissue Prediction in Orthognathic Surgery Planning"
+  }
 }

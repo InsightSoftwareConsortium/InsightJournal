@@ -1,61 +1,64 @@
 {
- "publication": {
-  "abstract": "In a surgical environment, there are many tools and objects (including the patient) being used. In a computer-aided surgery, the position of each of these tools in the operating room is very critical and generally will be tracked in their own coordinate systems. To show the surgeon a real time picture of the operating environment on a computer monitor, we need to know the position of each object with respect to one common coordinate system, which in turn can be achieved by knowing each coordinate system and the transforms between them. Image-Guided Surgical Toolkit is a software toolkit designed to enable biomedical researchers to rapidly prototype and create new applications for image-guided surgery. In IGSTK, in which the coordinate systems and the transforms are being successfully used, there is no central data structure or repository, which will hold all the coordinate systems and the transforms between them. Such a data structure could help the IGSTK software developers to have more confidence in the code they have written. This project develops a tool, which will create such a data structure and dynamically show the changes to it, to help such software developers to write better code.",
-  "authors": [
-   {
-    "author_fullname": "Dandibhotla, Janakiram",
-    "author_place": 1,
-    "persona_email": "d.janakiram@gmail.com",
-    "persona_firstname": "Janakiram",
-    "persona_id": 1029,
-    "persona_lastname": "Dandibhotla"
-   },
-   {
-    "author_fullname": "Gary, Kevin",
-    "author_place": 2,
-    "persona_email": "kgary@asu.edu",
-    "persona_firstname": "Kevin",
-    "persona_id": 274,
-    "persona_lastname": "Gary"
-   }
-  ],
-  "categories": [
-   "Data Representation",
-   "Programming"
-  ],
-  "comments": [],
-  "date_submitted": "2008-12-15 13:39:42",
-  "handles": [
-   {
-    "handle": "1926/1509",
-    "handle_url": "http://hdl.handle.net/1926/1509"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 309,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "d.janakiram@gmail.com",
-   "author_firstname": "Janakiram",
-   "author_fullname": "Dandibhotla, Janakiram",
-   "author_id": 1029,
-   "author_institution": "Arizona State University",
-   "author_lastname": "Dandibhotla"
-  },
-  "tags": [
-   "Coordinate System",
-   "Scene Graph"
-  ],
-  "title": "Scene Graph: Visualization of Coordinate Systems in the Image Guided Surgical Toolkit"
- }
+  "publication": {
+    "abstract": "In a surgical environment, there are many tools and objects (including the patient) being used. In a computer-aided surgery, the position of each of these tools in the operating room is very critical and generally will be tracked in their own coordinate systems. To show the surgeon a real time picture of the operating environment on a computer monitor, we need to know the position of each object with respect to one common coordinate system, which in turn can be achieved by knowing each coordinate system and the transforms between them. Image-Guided Surgical Toolkit is a software toolkit designed to enable biomedical researchers to rapidly prototype and create new applications for image-guided surgery. In IGSTK, in which the coordinate systems and the transforms are being successfully used, there is no central data structure or repository, which will hold all the coordinate systems and the transforms between them. Such a data structure could help the IGSTK software developers to have more confidence in the code they have written. This project develops a tool, which will create such a data structure and dynamically show the changes to it, to help such software developers to write better code.",
+    "articles": [
+      "bafybeibrzhfl26434uoxgsup7emldsyoqkgpk5gihzw76rzemvnjznccfa"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Dandibhotla, Janakiram",
+        "author_place": 1,
+        "persona_email": "d.janakiram@gmail.com",
+        "persona_firstname": "Janakiram",
+        "persona_id": 1029,
+        "persona_lastname": "Dandibhotla"
+      },
+      {
+        "author_fullname": "Gary, Kevin",
+        "author_place": 2,
+        "persona_email": "kgary@asu.edu",
+        "persona_firstname": "Kevin",
+        "persona_id": 274,
+        "persona_lastname": "Gary"
+      }
+    ],
+    "categories": [
+      "Data Representation",
+      "Programming"
+    ],
+    "comments": [],
+    "date_submitted": "2008-12-15 13:39:42",
+    "handles": [
+      {
+        "handle": "1926/1509",
+        "handle_url": "http://hdl.handle.net/1926/1509"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 309,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "d.janakiram@gmail.com",
+      "author_firstname": "Janakiram",
+      "author_fullname": "Dandibhotla, Janakiram",
+      "author_id": 1029,
+      "author_institution": "Arizona State University",
+      "author_lastname": "Dandibhotla"
+    },
+    "tags": [
+      "Coordinate System",
+      "Scene Graph"
+    ],
+    "title": "Scene Graph: Visualization of Coordinate Systems in the Image Guided Surgical Toolkit"
+  }
 }

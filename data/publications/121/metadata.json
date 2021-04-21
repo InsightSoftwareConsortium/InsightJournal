@@ -1,87 +1,98 @@
 {
- "publication": {
-  "abstract": "We consider 2-D and 3-D digital binary images characterized by their well-composedness. Well-composed images exhibit important topological and geometrical properties not shared by their ill-composed counterparts. \r\nThese properties have important implications for various algorithms used by the ITK community such as thinning algorithms and Marching Cubes. We introduce two image filters which repair images that are ill-composed such that the output images are well-composed.",
-  "authors": [
-   {
-    "author_fullname": "Tustison, Nicholas",
-    "author_place": 1,
-    "persona_email": "ntustison@gmail.com",
-    "persona_firstname": "Nicholas J.",
-    "persona_id": 8833,
-    "persona_lastname": "Tustison"
-   },
-   {
-    "author_fullname": "Siqueira, Marcelo",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Gee, James",
-    "author_place": 3,
-    "persona_email": "gee@mail.med.upenn.edu",
-    "persona_firstname": "James",
-    "persona_id": 236,
-    "persona_lastname": "Gee"
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2006-08-30T15:40:22Z",
-  "handles": [
-   {
-    "handle": "1926/305",
-    "handle_url": "http://hdl.handle.net/1926/305"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 121,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "millerjv@research.ge.com",
-     "author_firstname": "James",
-     "author_id": 232,
-     "author_lastname": "Miller"
+  "publication": {
+    "abstract": "We consider 2-D and 3-D digital binary images characterized by their well-composedness. Well-composed images exhibit important topological and geometrical properties not shared by their ill-composed counterparts. \r\nThese properties have important implications for various algorithms used by the ITK community such as thinning algorithms and Marching Cubes. We introduce two image filters which repair images that are ill-composed such that the output images are well-composed.",
+    "articles": [
+      "bafybeihkyjcdxxfij3ki2pi2kj6lyviexleujehptr2eo344ecd4ws7wsi",
+      "bafybeihkyjcdxxfij3ki2pi2kj6lyviexleujehptr2eo344ecd4ws7wsi",
+      "bafybeihkyjcdxxfij3ki2pi2kj6lyviexleujehptr2eo344ecd4ws7wsi",
+      null,
+      "bafybeiaqu7mbgxensctx4um45rrm7ere76r3zyhjt4f6u7mozob7ggsphy",
+      "bafybeiaqu7mbgxensctx4um45rrm7ere76r3zyhjt4f6u7mozob7ggsphy",
+      "bafybeiaqu7mbgxensctx4um45rrm7ere76r3zyhjt4f6u7mozob7ggsphy",
+      "bafybeiaqu7mbgxensctx4um45rrm7ere76r3zyhjt4f6u7mozob7ggsphy",
+      "bafybeiaqu7mbgxensctx4um45rrm7ere76r3zyhjt4f6u7mozob7ggsphy"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Tustison, Nicholas",
+        "author_place": 1,
+        "persona_email": "ntustison@gmail.com",
+        "persona_firstname": "Nicholas J.",
+        "persona_id": 8833,
+        "persona_lastname": "Tustison"
+      },
+      {
+        "author_fullname": "Siqueira, Marcelo",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Gee, James",
+        "author_place": 3,
+        "persona_email": "gee@mail.med.upenn.edu",
+        "persona_firstname": "James",
+        "persona_id": 236,
+        "persona_lastname": "Gee"
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2006-08-30T15:40:22Z",
+    "handles": [
+      {
+        "handle": "1926/305",
+        "handle_url": "http://hdl.handle.net/1926/305"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<b>Summary:</b>\r\nThis paper describes an contribution to ITK to generate well composed images. In well composed images, all foreground and background pixels are 4-connected. This simplifies post-processing algorithms.\r\n \r\n<b>Hypothesis:</b>\r\nNon applicable\r\n\r\n<b>Evidence:</b>\r\nExample images of the results are provided. The motivating images in Figure 1 are difficult discern the benefit of well-composed. Perhaps this image can be annotated for the reader.\r\n\r\n<b>Open Science:</b>\r\nThe paper uses ITK and extends itkInplaceImageFilter\r\n\r\n<b>Reproducibility:</b>\r\nCode built without issue\r\n\r\n<b>Use of Open Source Software:</b>\r\nCode uses ITK. \r\n\r\n<b>Open Source Contributions:</b>\r\nSource code provided\r\n\r\n<b>Code Quality:</b>\r\nCode provides separate implementations for 2D and 3D processing. Can these two implementations be combined into one filter? The use of the InPlaceFilter is nice.\r\n\r\n\r\n<b>Applicability to other problems:</b>\r\n\r\n\r\n<b>Suggestions for future work:</b>\r\n\r\n\r\n<b>Requests for additional information from authors:</b>\r\nDetails on the specific algorithms should be provided in the paper. The paper describes the \\\\\\\\\\\\\\\"what\\\\\\\\\\\\\\\" but not the \\\\\\\\\\\\\\\"how\\\\\\\\\\\\\\\". The reader is directed to the references for the \\\\\\\\\\\\\\\"how\\\\\\\\\\\\\\'s\\\\\\\\\\\\\\\".\r\n\r\n<b>Additional Comments:</b>\r\n[This is a free-form field]\r\n\r\n",
-    "date": "08-31-2006",
-    "review_id": 347
-   },
-   {
-    "author": {
-     "author_email": "torsten@synapse.sri.com",
-     "author_firstname": "Torsten",
-     "author_id": 168,
-     "author_lastname": "Rohlfing"
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 121,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "millerjv@research.ge.com",
+          "author_firstname": "James",
+          "author_id": 232,
+          "author_lastname": "Miller"
+        },
+        "content": "<b>Summary:</b>\r\nThis paper describes an contribution to ITK to generate well composed images. In well composed images, all foreground and background pixels are 4-connected. This simplifies post-processing algorithms.\r\n \r\n<b>Hypothesis:</b>\r\nNon applicable\r\n\r\n<b>Evidence:</b>\r\nExample images of the results are provided. The motivating images in Figure 1 are difficult discern the benefit of well-composed. Perhaps this image can be annotated for the reader.\r\n\r\n<b>Open Science:</b>\r\nThe paper uses ITK and extends itkInplaceImageFilter\r\n\r\n<b>Reproducibility:</b>\r\nCode built without issue\r\n\r\n<b>Use of Open Source Software:</b>\r\nCode uses ITK. \r\n\r\n<b>Open Source Contributions:</b>\r\nSource code provided\r\n\r\n<b>Code Quality:</b>\r\nCode provides separate implementations for 2D and 3D processing. Can these two implementations be combined into one filter? The use of the InPlaceFilter is nice.\r\n\r\n\r\n<b>Applicability to other problems:</b>\r\n\r\n\r\n<b>Suggestions for future work:</b>\r\n\r\n\r\n<b>Requests for additional information from authors:</b>\r\nDetails on the specific algorithms should be provided in the paper. The paper describes the \\\\\\\\\\\\\\\"what\\\\\\\\\\\\\\\" but not the \\\\\\\\\\\\\\\"how\\\\\\\\\\\\\\\". The reader is directed to the references for the \\\\\\\\\\\\\\\"how\\\\\\\\\\\\\\'s\\\\\\\\\\\\\\\".\r\n\r\n<b>Additional Comments:</b>\r\n[This is a free-form field]\r\n\r\n",
+        "date": "08-31-2006",
+        "review_id": 347
+      },
+      {
+        "author": {
+          "author_email": "torsten@synapse.sri.com",
+          "author_firstname": "Torsten",
+          "author_id": 168,
+          "author_lastname": "Rohlfing"
+        },
+        "content": "<b>Summary:</b>\r\nThe paper describes the implementation of filters for repairing morphological defects in 2D and 3D binary images.\r\n \r\n<b>Hypothesis:</b>\r\nNot applicable.\r\n\r\n<b>Evidence:</b>\r\n2D and 3D test data and results are provided.\r\n\r\n<b>Open Science:</b>\r\nThe algorithm is implemented in ITK; source code is included. Two test images (one 2d, one 3d) are also included.\r\n\r\n<b>Reproducibility:</b>\r\nCode compiles and runs, but the name of one example file (brain3d.mha) does not match the name coded into the test program (brain3D.mha with capital \\\\\\\"D\\\\\\\").\r\n\r\n<b>Use of Open Source Software:</b>\r\nThe algorithm is implemented using ITK and fits within the ITK design.\r\n\r\n<b>Open Source Contributions:</b>\r\nSource code is provided. The paper does an excellent job of explaining how to use the implemented filter. \r\n\r\n<b>Code Quality:</b>\r\nThe code seems quite well written and the style conforms with ITKs coding style. Documentation is lacking (this is why I am rating 4 out of 5) - many fields in the filter class are undocumented. Critical sections of the actual implementation should also be documented in the txx file.\r\n\r\n<b>Applicability to other problems:</b>\r\nSee Suggestions for future work\r\n\r\n<b>Suggestions for future work:</b>\r\nI am wondering - can these algorithms be extended to accomodate multi-label images? One could of course treat each label separately and then merge the resulting corrected binary images back into a corrected multi-label image. Is there anything in the algorithm that prevents ambiguities in such a merging step (it is not a shortcoming of the algorithm if there isn\\\\\\'t such a property, but it would be immensely useful if it did).\r\n\r\nAlternatively - is it conceivable to truly extend the method to multi-label situations and fixing all labels simultaneously?\r\n\r\nI am asking because bad configurations like the ones described here often result when I combine multiple segmentations of a single image using label voting. We have recently proposed \\\\\\\"shape-based averaging\\\\\\\" based on the Euclidean distance transform (Rohlfing & Maurer, MICCAI 2005; IEEE-TIP paper in press December 2006). But that algorithm is extremely computationally expensive (one signed EDT per label and input image), so a morphological algorithm like the one proposed here might be a good alternative.\r\n\r\n<b>Requests for additional information from authors:</b>\r\nOne of the beautiful aspects of the proposed algorithms is that it seems to be completely parameter-free. So the description is naturally quite complete.\r\n\r\n<b>Additional Comments:</b>\r\nThis is an extremely well-written paper. Complete yet compact, to the point, and very carefully illustrated. Excellent work, and a pleasure to read!\r\n\r\n",
+        "date": "09-22-2006",
+        "review_id": 395
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "ntustison@gmail.com",
+      "author_firstname": "Nicholas J.",
+      "author_fullname": "Tustison, Nicholas J.",
+      "author_id": 8833,
+      "author_institution": "",
+      "author_lastname": "Tustison"
     },
-    "content": "<b>Summary:</b>\r\nThe paper describes the implementation of filters for repairing morphological defects in 2D and 3D binary images.\r\n \r\n<b>Hypothesis:</b>\r\nNot applicable.\r\n\r\n<b>Evidence:</b>\r\n2D and 3D test data and results are provided.\r\n\r\n<b>Open Science:</b>\r\nThe algorithm is implemented in ITK; source code is included. Two test images (one 2d, one 3d) are also included.\r\n\r\n<b>Reproducibility:</b>\r\nCode compiles and runs, but the name of one example file (brain3d.mha) does not match the name coded into the test program (brain3D.mha with capital \\\\\\\"D\\\\\\\").\r\n\r\n<b>Use of Open Source Software:</b>\r\nThe algorithm is implemented using ITK and fits within the ITK design.\r\n\r\n<b>Open Source Contributions:</b>\r\nSource code is provided. The paper does an excellent job of explaining how to use the implemented filter. \r\n\r\n<b>Code Quality:</b>\r\nThe code seems quite well written and the style conforms with ITKs coding style. Documentation is lacking (this is why I am rating 4 out of 5) - many fields in the filter class are undocumented. Critical sections of the actual implementation should also be documented in the txx file.\r\n\r\n<b>Applicability to other problems:</b>\r\nSee Suggestions for future work\r\n\r\n<b>Suggestions for future work:</b>\r\nI am wondering - can these algorithms be extended to accomodate multi-label images? One could of course treat each label separately and then merge the resulting corrected binary images back into a corrected multi-label image. Is there anything in the algorithm that prevents ambiguities in such a merging step (it is not a shortcoming of the algorithm if there isn\\\\\\'t such a property, but it would be immensely useful if it did).\r\n\r\nAlternatively - is it conceivable to truly extend the method to multi-label situations and fixing all labels simultaneously?\r\n\r\nI am asking because bad configurations like the ones described here often result when I combine multiple segmentations of a single image using label voting. We have recently proposed \\\\\\\"shape-based averaging\\\\\\\" based on the Euclidean distance transform (Rohlfing & Maurer, MICCAI 2005; IEEE-TIP paper in press December 2006). But that algorithm is extremely computationally expensive (one signed EDT per label and input image), so a morphological algorithm like the one proposed here might be a good alternative.\r\n\r\n<b>Requests for additional information from authors:</b>\r\nOne of the beautiful aspects of the proposed algorithms is that it seems to be completely parameter-free. So the description is naturally quite complete.\r\n\r\n<b>Additional Comments:</b>\r\nThis is an extremely well-written paper. Complete yet compact, to the point, and very carefully illustrated. Excellent work, and a pleasure to read!\r\n\r\n",
-    "date": "09-22-2006",
-    "review_id": 395
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "ntustison@gmail.com",
-   "author_firstname": "Nicholas J.",
-   "author_fullname": "Tustison, Nicholas J.",
-   "author_id": 8833,
-   "author_institution": "",
-   "author_lastname": "Tustison"
-  },
-  "tags": [
-   "well-composedness",
-   "digital topology",
-   "binary images"
-  ],
-  "title": "Well-Composed Image Filters for Repairing 2-D and 3-D Binary Images"
- }
+    "tags": [
+      "well-composedness",
+      "digital topology",
+      "binary images"
+    ],
+    "title": "Well-Composed Image Filters for Repairing 2-D and 3-D Binary Images"
+  }
 }

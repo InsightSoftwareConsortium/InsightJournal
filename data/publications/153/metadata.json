@@ -1,50 +1,54 @@
 {
- "publication": {
-  "abstract": "This article presents the itk::ComposeRGBAImageFilter.",
-  "authors": [
-   {
-    "author_fullname": "Mueller, Dan",
-    "author_place": 1,
-    "persona_email": "dan.muel@gmail.com",
-    "persona_firstname": "Dan",
-    "persona_id": 286,
-    "persona_lastname": "Mueller"
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2007-05-10T21:43:47Z",
-  "handles": [
-   {
-    "handle": "1926/503",
-    "handle_url": "http://hdl.handle.net/1926/503"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 153,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "dan.muel@gmail.com",
-   "author_firstname": "Dan",
-   "author_fullname": "Mueller, Dan",
-   "author_id": 286,
-   "author_institution": "Philips Healthcare",
-   "author_lastname": "Mueller"
-  },
-  "tags": [
-   "Compose",
-   "ITK"
-  ],
-  "title": "ComposeRGBA"
- }
+  "publication": {
+    "abstract": "This article presents the itk::ComposeRGBAImageFilter.",
+    "articles": [
+      "bafkreigu46twewjkjaj7zkllrwpilf2wpo2dukvatcenq4gkxgpjacmk5i",
+      "bafkreigu46twewjkjaj7zkllrwpilf2wpo2dukvatcenq4gkxgpjacmk5i"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Mueller, Dan",
+        "author_place": 1,
+        "persona_email": "dan.muel@gmail.com",
+        "persona_firstname": "Dan",
+        "persona_id": 286,
+        "persona_lastname": "Mueller"
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2007-05-10T21:43:47Z",
+    "handles": [
+      {
+        "handle": "1926/503",
+        "handle_url": "http://hdl.handle.net/1926/503"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 153,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "dan.muel@gmail.com",
+      "author_firstname": "Dan",
+      "author_fullname": "Mueller, Dan",
+      "author_id": 286,
+      "author_institution": "Philips Healthcare",
+      "author_lastname": "Mueller"
+    },
+    "tags": [
+      "Compose",
+      "ITK"
+    ],
+    "title": "ComposeRGBA"
+  }
 }

@@ -1,75 +1,78 @@
 {
- "publication": {
-  "abstract": "The development of segmentation algorithms for liver tumors in CT scans has found growing attention in recent years. The validation of these methods, however, is often treated as a subordinate task. In this article, we review existing approaches and present \frst steps towards a new methodology that evaluates the quality of an algorithm in relation to the variability of manual delineations. We obtained three manual segmentations for 50 liver lesions and computed the results of a segmentation algorithm. We compared all four masks with each other and with different ground truth estimates and calculated scores according to the validation framework from the MICCAI challenge 2008. Our results show some cases where this more elaborate evaluation reflects the segmentation quality in a more adequate way than traditional approaches. The concepts can also be extended to other similar segmentation problems.",
-  "authors": [
-   {
-    "author_fullname": "Moltz, Jan Hendrik",
-    "author_place": 1,
-    "persona_email": "jan.moltz@mevis.de",
-    "persona_firstname": "Jan hendrik",
-    "persona_id": 904,
-    "persona_lastname": "Moltz"
-   },
-   {
-    "author_fullname": "R\u00fchaak, Jan",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Engel, Christiane",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Kayser, Ulrike",
-    "author_place": 4,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Peitgen, Heinz-Otto",
-    "author_place": 5,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Classification",
-   "Segmentation"
-  ],
-  "comments": [],
-  "date_submitted": "2010-08-31 08:33:15",
-  "handles": [
-   {
-    "handle": "10380/3210",
-    "handle_url": "http://hdl.handle.net/10380/3210"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 37,
-    "journal_name": "MICCAI 2010 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 754,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "jan.moltz@mevis.de",
-   "author_firstname": "Jan hendrik",
-   "author_fullname": "Moltz, Jan hendrik",
-   "author_id": 904,
-   "author_institution": "MeVis Research GmbH, Bremen, Germany",
-   "author_lastname": "Moltz"
-  },
-  "tags": [
-   "segmentation",
-   "liver tumors",
-   "evaluation",
-   "validation"
-  ],
-  "title": "Validation of Liver Tumor Segmentation in CT Scans by Relating Manual and Algorithmic Performance - A Preliminary Study"
- }
+  "publication": {
+    "abstract": "The development of segmentation algorithms for liver tumors in CT scans has found growing attention in recent years. The validation of these methods, however, is often treated as a subordinate task. In this article, we review existing approaches and present \frst steps towards a new methodology that evaluates the quality of an algorithm in relation to the variability of manual delineations. We obtained three manual segmentations for 50 liver lesions and computed the results of a segmentation algorithm. We compared all four masks with each other and with different ground truth estimates and calculated scores according to the validation framework from the MICCAI challenge 2008. Our results show some cases where this more elaborate evaluation reflects the segmentation quality in a more adequate way than traditional approaches. The concepts can also be extended to other similar segmentation problems.",
+    "articles": [
+      "bafybeigcu2vyvkynsued6yexxsknriexnqhcuvue736p2fln2gvsruxu44"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Moltz, Jan Hendrik",
+        "author_place": 1,
+        "persona_email": "jan.moltz@mevis.de",
+        "persona_firstname": "Jan hendrik",
+        "persona_id": 904,
+        "persona_lastname": "Moltz"
+      },
+      {
+        "author_fullname": "R\u00fchaak, Jan",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Engel, Christiane",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Kayser, Ulrike",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Peitgen, Heinz-Otto",
+        "author_place": 5,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Classification",
+      "Segmentation"
+    ],
+    "comments": [],
+    "date_submitted": "2010-08-31 08:33:15",
+    "handles": [
+      {
+        "handle": "10380/3210",
+        "handle_url": "http://hdl.handle.net/10380/3210"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 37,
+        "journal_name": "MICCAI 2010 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 754,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "jan.moltz@mevis.de",
+      "author_firstname": "Jan hendrik",
+      "author_fullname": "Moltz, Jan hendrik",
+      "author_id": 904,
+      "author_institution": "MeVis Research GmbH, Bremen, Germany",
+      "author_lastname": "Moltz"
+    },
+    "tags": [
+      "segmentation",
+      "liver tumors",
+      "evaluation",
+      "validation"
+    ],
+    "title": "Validation of Liver Tumor Segmentation in CT Scans by Relating Manual and Algorithmic Performance - A Preliminary Study"
+  }
 }

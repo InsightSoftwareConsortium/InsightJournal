@@ -1,73 +1,76 @@
 {
- "publication": {
-  "abstract": "This paper describes the Datatree module of BioImage Suite, that allows for rapid and flexible reslicing\r\nof images based on a user-defined tree structure that organizes image and transformation data as well as\r\nelectrode localizations, image landmarks, and surface objects. This Datatree tool provides abstracted file\r\nloading, allowing for interface with databases, as well as multisubject capabilities, other plugins designed\r\nfor specific image modalities, and an incr Tcl based API, allowing users to extend its functionality with\r\ntheir own plugins.",
-  "authors": [
-   {
-    "author_fullname": "DiStasio, Marcello",
-    "author_place": 1,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Vives, Kenneth",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Papademetris, Xenophon",
-    "author_place": 3,
-    "persona_email": "xenophon.papademetris@yale.edu",
-    "persona_firstname": "Xenophon",
-    "persona_id": 79,
-    "persona_lastname": "Papademetris"
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2006-06-30T21:43:51Z",
-  "handles": [
-   {
-    "handle": "1926/208",
-    "handle_url": "http://hdl.handle.net/1926/208"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 96,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "holmes.david3@mayo.edu",
-     "author_firstname": "David",
-     "author_id": 20,
-     "author_lastname": "Holmes"
+  "publication": {
+    "abstract": "This paper describes the Datatree module of BioImage Suite, that allows for rapid and flexible reslicing\r\nof images based on a user-defined tree structure that organizes image and transformation data as well as\r\nelectrode localizations, image landmarks, and surface objects. This Datatree tool provides abstracted file\r\nloading, allowing for interface with databases, as well as multisubject capabilities, other plugins designed\r\nfor specific image modalities, and an incr Tcl based API, allowing users to extend its functionality with\r\ntheir own plugins.",
+    "articles": [
+      "bafybeiag2btmzzd6lm3yxp7jmfnnzcknsgfwd2ndkxgnji3yhmzqibu33u"
+    ],
+    "authors": [
+      {
+        "author_fullname": "DiStasio, Marcello",
+        "author_place": 1,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Vives, Kenneth",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Papademetris, Xenophon",
+        "author_place": 3,
+        "persona_email": "xenophon.papademetris@yale.edu",
+        "persona_firstname": "Xenophon",
+        "persona_id": 79,
+        "persona_lastname": "Papademetris"
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2006-06-30T21:43:51Z",
+    "handles": [
+      {
+        "handle": "1926/208",
+        "handle_url": "http://hdl.handle.net/1926/208"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<b>Summary:</b>\r\nThis paper describes the method of data visualization within the BioImage software. It includes a description of the software tools used to built the Datatree interface as well as applications that one might want to use the datatree tool.\r\n \r\n<b>Hypothesis:</b>\r\nN/A\r\n\r\n<b>Evidence:</b>\r\nThis submission doesn\\'t include addition information such as the software, source or applications for each of the examples. Since this is a description of the tool, there is no description of an evaluation/validation of the tool in the context of the applications.\r\n\r\n<b>Open Science:</b>\r\nOnce available, this will be open source software available for evaluation by independent investigators; however, it is now only release with registration as beta software. It will also be important to include the code for the specific examples described in the paper as these examples are the applications where the datatree tool is being used.\r\n\r\n<b>Reproducibility:</b>\r\nN/A\r\n\r\n\r\n<b>Use of Open Source Software:</b>\r\nThis is built upon open source software (with a couple of small exceptions described in the other paper on the bioimage suite).\r\n\r\n<b>Open Source Contributions:</b>\r\nThis will be a useful open source software package when fully available.\r\n\r\n<b>Code Quality:</b>\r\nCannot evaluate\r\n\r\n<b>Applicability to other problems:</b>\r\nThe authors already describe several applications of this tool. There are many more applications in the field.\r\n\r\n<b>Suggestions for future work:</b>\r\nNothing in particular.\r\n\r\n<b>Requests for additional information from authors:</b>\r\nUnfortunately, this is a case where the code really needs to be more available. I believe that the authors will eventually get there, but cannot evaluate right now. I hope that the example applications will also be available with the package in order to evaluate their utility as well as the foundation for new applications.\r\n\r\n\r\n<b>Additional Comments:</b>\r\n[This is a free-form field]\r\n\r\n",
-    "date": "09-05-2006",
-    "review_id": 371
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "xenophon.papademetris@yale.edu",
-   "author_firstname": "Xenophon",
-   "author_fullname": "Papademetris, Xenophon",
-   "author_id": 79,
-   "author_institution": "Yale University",
-   "author_lastname": "Papademetris"
-  },
-  "tags": [
-   "User Interfaces",
-   "Image Guided Navigation",
-   "Vector Vision Link"
-  ],
-  "title": "The BioImage Suite Datatree Tool: Enabling Flexible Realtime Surgical Visualizations"
- }
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 96,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "holmes.david3@mayo.edu",
+          "author_firstname": "David",
+          "author_id": 20,
+          "author_lastname": "Holmes"
+        },
+        "content": "<b>Summary:</b>\r\nThis paper describes the method of data visualization within the BioImage software. It includes a description of the software tools used to built the Datatree interface as well as applications that one might want to use the datatree tool.\r\n \r\n<b>Hypothesis:</b>\r\nN/A\r\n\r\n<b>Evidence:</b>\r\nThis submission doesn\\'t include addition information such as the software, source or applications for each of the examples. Since this is a description of the tool, there is no description of an evaluation/validation of the tool in the context of the applications.\r\n\r\n<b>Open Science:</b>\r\nOnce available, this will be open source software available for evaluation by independent investigators; however, it is now only release with registration as beta software. It will also be important to include the code for the specific examples described in the paper as these examples are the applications where the datatree tool is being used.\r\n\r\n<b>Reproducibility:</b>\r\nN/A\r\n\r\n\r\n<b>Use of Open Source Software:</b>\r\nThis is built upon open source software (with a couple of small exceptions described in the other paper on the bioimage suite).\r\n\r\n<b>Open Source Contributions:</b>\r\nThis will be a useful open source software package when fully available.\r\n\r\n<b>Code Quality:</b>\r\nCannot evaluate\r\n\r\n<b>Applicability to other problems:</b>\r\nThe authors already describe several applications of this tool. There are many more applications in the field.\r\n\r\n<b>Suggestions for future work:</b>\r\nNothing in particular.\r\n\r\n<b>Requests for additional information from authors:</b>\r\nUnfortunately, this is a case where the code really needs to be more available. I believe that the authors will eventually get there, but cannot evaluate right now. I hope that the example applications will also be available with the package in order to evaluate their utility as well as the foundation for new applications.\r\n\r\n\r\n<b>Additional Comments:</b>\r\n[This is a free-form field]\r\n\r\n",
+        "date": "09-05-2006",
+        "review_id": 371
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "xenophon.papademetris@yale.edu",
+      "author_firstname": "Xenophon",
+      "author_fullname": "Papademetris, Xenophon",
+      "author_id": 79,
+      "author_institution": "Yale University",
+      "author_lastname": "Papademetris"
+    },
+    "tags": [
+      "User Interfaces",
+      "Image Guided Navigation",
+      "Vector Vision Link"
+    ],
+    "title": "The BioImage Suite Datatree Tool: Enabling Flexible Realtime Surgical Visualizations"
+  }
 }

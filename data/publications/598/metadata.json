@@ -1,84 +1,92 @@
 {
- "publication": {
-  "abstract": "We present in this paper an application of minimal surfaces and\r\nMarkov random fields to the segmentation of liver tumors. The\r\noriginality of the work consists in applying these models to the\r\nregion adjacency graph of a watershed transform. We detail the\r\nassumptions and the approximations introduced in these models by\r\nusing a region graph instead of a pixel graph. This strategy leads\r\nto an interactive method that we use to delineate tumors in 3D CT\r\nimages. We detail our strategy to achieve relevant segmentations of\r\nthese structures and compare our results to hand made segmentations\r\ndone by experienced radiologists. This paper summarizes our\r\nparticipation to the MICCAI 2008 workshop called: \"3D segmentation in the clinic : A\r\nGrand Challenge II\".",
-  "authors": [
-   {
-    "author_fullname": "stawiaski, Jean",
-    "author_place": 1,
-    "persona_email": "jean.stawiaski@ensmp.fr",
-    "persona_firstname": "Jean",
-    "persona_id": 905,
-    "persona_lastname": "Stawiaski"
-   },
-   {
-    "author_fullname": "Decenciere, Etienne",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Bidault, Francois",
-    "author_place": 3,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Feature extraction",
-   "Segmentation",
-   "Watersheds"
-  ],
-  "comments": [],
-  "date_submitted": "2008-07-01T00:00:00Z",
-  "handles": [
-   {
-    "handle": "10380/1416",
-    "handle_url": "http://hdl.handle.net/10380/1416"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 45,
-    "journal_name": "MICCAI 2016 Workshops"
-   },
-   {
-    "journal_id": 33,
-    "journal_name": "MICCAI 2008 Workshops"
-   },
-   {
-    "journal_id": 33,
-    "journal_name": "MICCAI 2008 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 598,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "dengxiang05@gmail.com",
-     "author_firstname": "Xiang",
-     "author_id": 872,
-     "author_lastname": "Deng"
+  "publication": {
+    "abstract": "We present in this paper an application of minimal surfaces and\r\nMarkov random fields to the segmentation of liver tumors. The\r\noriginality of the work consists in applying these models to the\r\nregion adjacency graph of a watershed transform. We detail the\r\nassumptions and the approximations introduced in these models by\r\nusing a region graph instead of a pixel graph. This strategy leads\r\nto an interactive method that we use to delineate tumors in 3D CT\r\nimages. We detail our strategy to achieve relevant segmentations of\r\nthese structures and compare our results to hand made segmentations\r\ndone by experienced radiologists. This paper summarizes our\r\nparticipation to the MICCAI 2008 workshop called: \"3D segmentation in the clinic : A\r\nGrand Challenge II\".",
+    "articles": [
+      "bafybeib27c23hirswjzvzyzoumuhan7vlqv2kjqcdcg4ekcq3olfjllf3a",
+      "bafybeib27c23hirswjzvzyzoumuhan7vlqv2kjqcdcg4ekcq3olfjllf3a",
+      "bafybeignheuaf2axcca4nvbvmv5g5jbyu5jjcy2j5sq3qohvcnpj5x44li",
+      null,
+      "bafybeidmc6yhebpucdrlo3rj4r36ew2hzgdu4ujwhjxxi72sgfxorgsute",
+      "bafybeihrfupmu3crnfs574voihlj3377vic6g75audadcueth3b2atb5wa"
+    ],
+    "authors": [
+      {
+        "author_fullname": "stawiaski, Jean",
+        "author_place": 1,
+        "persona_email": "jean.stawiaski@ensmp.fr",
+        "persona_firstname": "Jean",
+        "persona_id": 905,
+        "persona_lastname": "Stawiaski"
+      },
+      {
+        "author_fullname": "Decenciere, Etienne",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Bidault, Francois",
+        "author_place": 3,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Feature extraction",
+      "Segmentation",
+      "Watersheds"
+    ],
+    "comments": [],
+    "date_submitted": "2008-07-01T00:00:00Z",
+    "handles": [
+      {
+        "handle": "10380/1416",
+        "handle_url": "http://hdl.handle.net/10380/1416"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<p>This paper presents an interactive live tumor segmentation technique. The liver is first segmented using combined graph-cut and watershed algorithm, tumors are then segmented with a maximum a posteriori method. Manual editing is followed to refine the tumor segmentation.</p><p>Detailed comments:</p><p>1) Could the author briefly describe the average computation time of tumor segmentation and time for manual editing?<br />That would give readers some sense of the potential of clincial application of the proposed method.</p><p>2) For Table 4 in the manuscript, please use the same table as what we provided in the evaluation (tumor name,&nbsp; metric value, score, etc.) for the sake of consistency. The caption could be &quot;Results of comparison metrics and scores for all ten test tumors&quot;</p><p>3) As the authors state in the manuscript, &quot;the first step of our method is manual definition of a sub volume containing one or more tumors that need to be segmented.&quot; If manually defined ROI is required to initialize the tumor segmentation, what&#39;s the point of extraction of liver boundary in Section 3.3</p><p>&nbsp;</p>",
-    "date": "07-25-2008",
-    "review_id": 1515
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "jean.stawiaski@ensmp.fr",
-   "author_firstname": "Jean",
-   "author_fullname": "Stawiaski, Jean",
-   "author_id": 905,
-   "author_institution": "Centre de Morphologie Math\u00c3\u00a9matique",
-   "author_lastname": "Stawiaski"
-  },
-  "tags": [
-   "graph cuts",
-   "Watershed"
-  ],
-  "title": "Interactive Liver Tumor Segmentation Using Graph-cuts and Watershed"
- }
+    "journals": [
+      {
+        "journal_id": 45,
+        "journal_name": "MICCAI 2016 Workshops"
+      },
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      },
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 598,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "dengxiang05@gmail.com",
+          "author_firstname": "Xiang",
+          "author_id": 872,
+          "author_lastname": "Deng"
+        },
+        "content": "<p>This paper presents an interactive live tumor segmentation technique. The liver is first segmented using combined graph-cut and watershed algorithm, tumors are then segmented with a maximum a posteriori method. Manual editing is followed to refine the tumor segmentation.</p><p>Detailed comments:</p><p>1) Could the author briefly describe the average computation time of tumor segmentation and time for manual editing?<br />That would give readers some sense of the potential of clincial application of the proposed method.</p><p>2) For Table 4 in the manuscript, please use the same table as what we provided in the evaluation (tumor name,&nbsp; metric value, score, etc.) for the sake of consistency. The caption could be &quot;Results of comparison metrics and scores for all ten test tumors&quot;</p><p>3) As the authors state in the manuscript, &quot;the first step of our method is manual definition of a sub volume containing one or more tumors that need to be segmented.&quot; If manually defined ROI is required to initialize the tumor segmentation, what&#39;s the point of extraction of liver boundary in Section 3.3</p><p>&nbsp;</p>",
+        "date": "07-25-2008",
+        "review_id": 1515
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "jean.stawiaski@ensmp.fr",
+      "author_firstname": "Jean",
+      "author_fullname": "Stawiaski, Jean",
+      "author_id": 905,
+      "author_institution": "Centre de Morphologie Math\u00c3\u00a9matique",
+      "author_lastname": "Stawiaski"
+    },
+    "tags": [
+      "graph cuts",
+      "Watershed"
+    ],
+    "title": "Interactive Liver Tumor Segmentation Using Graph-cuts and Watershed"
+  }
 }

@@ -1,75 +1,79 @@
 {
- "publication": {
-  "abstract": "The ARAMIS research platform is a telesurgical robotic system for minimally invasive surgery with focus on autonomous functionality. The original software architecture was a hierarchical one, based on the model-view-controller paradigm. To handle the growing number of devices, we introduce a new framework that facilitates the decomposition of system functionality into separate programs, as well as the data sharing between them. This allows us to integrate and test new functionality more quickly. Our work heavily utilizes the cisst libraries, developed by the Johns Hopkins University. In particular, we take advantage of cisst's multiprocess networking capabilities. As a proof of concept, we demonstrate the integration of an eye-tracking based endoscope control.",
-  "authors": [
-   {
-    "author_fullname": "Staub, Christoph",
-    "author_place": 1,
-    "persona_email": "staub@in.tum.de",
-    "persona_firstname": "Christoph",
-    "persona_id": 6390,
-    "persona_lastname": "Staub"
-   },
-   {
-    "author_fullname": "Ning, Yu",
-    "author_place": 2,
-    "persona_email": "ning@jhu.edu",
-    "persona_firstname": "Yu",
-    "persona_id": 3121,
-    "persona_lastname": "Ning"
-   },
-   {
-    "author_fullname": "Can, Salman",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Knoll, Alois",
-    "author_place": 4,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Data",
-   "Distributed computation",
-   "IO",
-   "Programming"
-  ],
-  "comments": [],
-  "date_submitted": "2011-08-01 03:23:03",
-  "handles": [
-   {
-    "handle": "10380/3274",
-    "handle_url": "http://hdl.handle.net/10380/3274"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 38,
-    "journal_name": "MICCAI 2011 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 809,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "ning@jhu.edu",
-   "author_firstname": "Yu",
-   "author_fullname": "Ning, Yu",
-   "author_id": 3121,
-   "author_institution": "Johns Hopkins University",
-   "author_lastname": "Ning"
-  },
-  "tags": [
-   "software architecture",
-   "robotic surgery",
-   "minimally invasive surgery",
-   "distributed framework"
-  ],
-  "title": "A Distributed Software Framework for Robotic Surgery"
- }
+  "publication": {
+    "abstract": "The ARAMIS research platform is a telesurgical robotic system for minimally invasive surgery with focus on autonomous functionality. The original software architecture was a hierarchical one, based on the model-view-controller paradigm. To handle the growing number of devices, we introduce a new framework that facilitates the decomposition of system functionality into separate programs, as well as the data sharing between them. This allows us to integrate and test new functionality more quickly. Our work heavily utilizes the cisst libraries, developed by the Johns Hopkins University. In particular, we take advantage of cisst's multiprocess networking capabilities. As a proof of concept, we demonstrate the integration of an eye-tracking based endoscope control.",
+    "articles": [
+      "bafkreig3zkzwipxehzh2n3hi6xraobbrt5ckqeslqwxlyjwqvkur2umsji",
+      "bafybeicklqnlu74rsc6p736d73irrek3v6helsnj4pexn5gt5kmjskw3yq"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Staub, Christoph",
+        "author_place": 1,
+        "persona_email": "staub@in.tum.de",
+        "persona_firstname": "Christoph",
+        "persona_id": 6390,
+        "persona_lastname": "Staub"
+      },
+      {
+        "author_fullname": "Ning, Yu",
+        "author_place": 2,
+        "persona_email": "ning@jhu.edu",
+        "persona_firstname": "Yu",
+        "persona_id": 3121,
+        "persona_lastname": "Ning"
+      },
+      {
+        "author_fullname": "Can, Salman",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Knoll, Alois",
+        "author_place": 4,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Data",
+      "Distributed computation",
+      "IO",
+      "Programming"
+    ],
+    "comments": [],
+    "date_submitted": "2011-08-01 03:23:03",
+    "handles": [
+      {
+        "handle": "10380/3274",
+        "handle_url": "http://hdl.handle.net/10380/3274"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 38,
+        "journal_name": "MICCAI 2011 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 809,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "ning@jhu.edu",
+      "author_firstname": "Yu",
+      "author_fullname": "Ning, Yu",
+      "author_id": 3121,
+      "author_institution": "Johns Hopkins University",
+      "author_lastname": "Ning"
+    },
+    "tags": [
+      "software architecture",
+      "robotic surgery",
+      "minimally invasive surgery",
+      "distributed framework"
+    ],
+    "title": "A Distributed Software Framework for Robotic Surgery"
+  }
 }

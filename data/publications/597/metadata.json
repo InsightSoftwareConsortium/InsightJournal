@@ -1,68 +1,72 @@
 {
- "publication": {
-  "abstract": "In this paper, we present a fully automated system that detects\r\nand segments potential liver cancer tumors from a thin slice CT\r\ndata. The system is targeted toward a tumor whose volume is\r\nlarger than $1 cm^3$, and is efficient as the average\r\ncomputation time per volume in our experiment is roughly 3.5\r\nminutes.\r\n\r\nThe system first reduces the volume size by 4x4x4 to reduce the\r\ncomputation and memory requirements. It then detects candidate\r\nlocations as local minima of the intensity fields after a\r\nvariant of textit{elastic quadratic} smoothing. It then\r\nprovides a rough segmentation at each candidate by fitting a\r\nplane at sampled points near the periphery of the concave\r\nregion in the intensity profiles. The rough segmentation is\r\nused to estimate the range of intensity values in the tumor,\r\nwhich is used to obtain a more accurate segmentation by a\r\nmethod originally developed for pulmonary nodules. The result\r\nof the second segmentation is interpolated at the resolution of\r\nthe original data.\r\n\r\nThe development of the system is a part of the 2008 3D\r\nSegmentation in the Clinic: A Grand Challenge competition. Four\r\nCT volumes containing 10 tumors were used for the development\r\nof the algorithm. Additional six CT volumes containing 10\r\ntumors were used to test the segmentation performance.",
-  "authors": [
-   {
-    "author_fullname": "Kubota, Toshiro",
-    "author_place": 1,
-    "persona_email": "kubota@susqu.edu",
-    "persona_firstname": "Toshiro",
-    "persona_id": 908,
-    "persona_lastname": "Kubota"
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2008-07-07T20:40:22Z",
-  "handles": [
-   {
-    "handle": "10380/1421",
-    "handle_url": "http://hdl.handle.net/10380/1421"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 45,
-    "journal_name": "MICCAI 2016 Workshops"
-   },
-   {
-    "journal_id": 33,
-    "journal_name": "MICCAI 2008 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 597,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "dengxiang05@gmail.com",
-     "author_firstname": "Xiang",
-     "author_id": 872,
-     "author_lastname": "Deng"
+  "publication": {
+    "abstract": "In this paper, we present a fully automated system that detects\r\nand segments potential liver cancer tumors from a thin slice CT\r\ndata. The system is targeted toward a tumor whose volume is\r\nlarger than $1 cm^3$, and is efficient as the average\r\ncomputation time per volume in our experiment is roughly 3.5\r\nminutes.\r\n\r\nThe system first reduces the volume size by 4x4x4 to reduce the\r\ncomputation and memory requirements. It then detects candidate\r\nlocations as local minima of the intensity fields after a\r\nvariant of textit{elastic quadratic} smoothing. It then\r\nprovides a rough segmentation at each candidate by fitting a\r\nplane at sampled points near the periphery of the concave\r\nregion in the intensity profiles. The rough segmentation is\r\nused to estimate the range of intensity values in the tumor,\r\nwhich is used to obtain a more accurate segmentation by a\r\nmethod originally developed for pulmonary nodules. The result\r\nof the second segmentation is interpolated at the resolution of\r\nthe original data.\r\n\r\nThe development of the system is a part of the 2008 3D\r\nSegmentation in the Clinic: A Grand Challenge competition. Four\r\nCT volumes containing 10 tumors were used for the development\r\nof the algorithm. Additional six CT volumes containing 10\r\ntumors were used to test the segmentation performance.",
+    "articles": [
+      "bafybeigibklp6gipp72esf54766f3yrucgiopbpid3bwo7id2hmes4hnje",
+      "bafybeiegdrcu3rkv267imszbltxsetp3mvcpvcqwm3dnviguz5yfspm5ii"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Kubota, Toshiro",
+        "author_place": 1,
+        "persona_email": "kubota@susqu.edu",
+        "persona_firstname": "Toshiro",
+        "persona_id": 908,
+        "persona_lastname": "Kubota"
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2008-07-07T20:40:22Z",
+    "handles": [
+      {
+        "handle": "10380/1421",
+        "handle_url": "http://hdl.handle.net/10380/1421"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<p>The authors present an automatic live tumor segmentation technique. <br />In this technique, candidate tumor sites are first identified and segmented by intensity thresholding and region growing. The segmented regions are then filtered using a set of hueristic criteria. The remaining segmentations are refined using competition-diffusion algorithm. Finally, segmented tumors with size below and above certain thresholds are eliminated.</p><p>Detailed comments:</p><p>1) The proposed tumor segmentation algorithm uses a lot of heuristic methods, as well as empirically determined parameters.<br />As a result, the algorithm could be very sensitive to the large variation&nbsp;of clinical liver tumor images, in terms of size, shape and contrast.</p><p>2) The number of false positive in the segmentation results would make clinical application of this technique difficult.</p><p>3) The edge of tumors may not be well-defined in the original CT images. The down-sampling used in the pre-processing stage will further blur the boundary, which could cause over-segmentation in intensity thresholding based segmentation methods.</p><p>&nbsp;</p>",
-    "date": "07-25-2008",
-    "review_id": 1513
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "kubota@susqu.edu",
-   "author_firstname": "Toshiro",
-   "author_fullname": "Kubota, Toshiro",
-   "author_id": 908,
-   "author_institution": "Susquehanna University",
-   "author_lastname": "Kubota"
-  },
-  "tags": [
-   "computer-aided detection",
-   "smoothing",
-   "diffusion",
-   "classfication"
-  ],
-  "title": "Efficient Automated Detection and Segmentation of Medium and Large Liver Tumors: CAD Approach"
- }
+    "journals": [
+      {
+        "journal_id": 45,
+        "journal_name": "MICCAI 2016 Workshops"
+      },
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 597,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "dengxiang05@gmail.com",
+          "author_firstname": "Xiang",
+          "author_id": 872,
+          "author_lastname": "Deng"
+        },
+        "content": "<p>The authors present an automatic live tumor segmentation technique. <br />In this technique, candidate tumor sites are first identified and segmented by intensity thresholding and region growing. The segmented regions are then filtered using a set of hueristic criteria. The remaining segmentations are refined using competition-diffusion algorithm. Finally, segmented tumors with size below and above certain thresholds are eliminated.</p><p>Detailed comments:</p><p>1) The proposed tumor segmentation algorithm uses a lot of heuristic methods, as well as empirically determined parameters.<br />As a result, the algorithm could be very sensitive to the large variation&nbsp;of clinical liver tumor images, in terms of size, shape and contrast.</p><p>2) The number of false positive in the segmentation results would make clinical application of this technique difficult.</p><p>3) The edge of tumors may not be well-defined in the original CT images. The down-sampling used in the pre-processing stage will further blur the boundary, which could cause over-segmentation in intensity thresholding based segmentation methods.</p><p>&nbsp;</p>",
+        "date": "07-25-2008",
+        "review_id": 1513
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "kubota@susqu.edu",
+      "author_firstname": "Toshiro",
+      "author_fullname": "Kubota, Toshiro",
+      "author_id": 908,
+      "author_institution": "Susquehanna University",
+      "author_lastname": "Kubota"
+    },
+    "tags": [
+      "computer-aided detection",
+      "smoothing",
+      "diffusion",
+      "classfication"
+    ],
+    "title": "Efficient Automated Detection and Segmentation of Medium and Large Liver Tumors: CAD Approach"
+  }
 }

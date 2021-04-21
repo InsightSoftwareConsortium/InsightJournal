@@ -1,94 +1,101 @@
 {
- "publication": {
-  "abstract": "Many statistical shape analysis methods produce various types of data about the analyzed surfaces, such\r\nas p-value maps, distance maps, 3D difference vectors and local covariance matrices. This data is often\r\ntoo large and thus difficult to be properly evaluated on a qualitative basis. A visual representation of\r\nthis data strongly simplifies qualitative evaluation by humans and thus greatly enhances the value of\r\nthe statistical results. In this paper we present a new tool for visualizing various datasets on surfaces\r\nrepresented as triangle meshes.\r\nOur tool, KWMeshVisu, is implemented using the Insight Toolkit ITK, www.itk.org, the Visualization\r\nToolkit VTK, www.vtk.org, and the KWWidgets user interface toolkit, www.kwwidgets.org.\r\nThe source code for KWMeshVisu, as well as input data used to generate the images in this paper, is\r\nprovided with this document.",
-  "authors": [
-   {
-    "author_fullname": "Oguz, Ipek",
-    "author_place": 1,
-    "persona_email": "ipek@cs.unc.edu",
-    "persona_firstname": "Ipek",
-    "persona_id": 122,
-    "persona_lastname": "Oguz"
-   },
-   {
-    "author_fullname": "Gerig, Guido",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Barre, Sebastien",
-    "author_place": 3,
-    "persona_email": "sebastien.barre@kitware.com",
-    "persona_firstname": "Sebastien",
-    "persona_id": 589,
-    "persona_lastname": "BARRE"
-   },
-   {
-    "author_fullname": "Styner, Martin",
-    "author_place": 4,
-    "persona_email": "styner@cs.unc.edu",
-    "persona_firstname": "Martin",
-    "persona_id": 28,
-    "persona_lastname": "Styner"
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2006-07-10T21:23:03Z",
-  "handles": [
-   {
-    "handle": "1926/220",
-    "handle_url": "http://hdl.handle.net/1926/220"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 106,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "hamarneh@cs.sfu.ca",
-     "author_firstname": "Ghassan",
-     "author_id": 10,
-     "author_lastname": "Hamarneh"
+  "publication": {
+    "abstract": "Many statistical shape analysis methods produce various types of data about the analyzed surfaces, such\r\nas p-value maps, distance maps, 3D difference vectors and local covariance matrices. This data is often\r\ntoo large and thus difficult to be properly evaluated on a qualitative basis. A visual representation of\r\nthis data strongly simplifies qualitative evaluation by humans and thus greatly enhances the value of\r\nthe statistical results. In this paper we present a new tool for visualizing various datasets on surfaces\r\nrepresented as triangle meshes.\r\nOur tool, KWMeshVisu, is implemented using the Insight Toolkit ITK, www.itk.org, the Visualization\r\nToolkit VTK, www.vtk.org, and the KWWidgets user interface toolkit, www.kwwidgets.org.\r\nThe source code for KWMeshVisu, as well as input data used to generate the images in this paper, is\r\nprovided with this document.",
+    "articles": [
+      "bafkreif7xytlxay3l5rwmygxjap2bydcafmktk524xk3zt7grwlkpkmqxe",
+      null,
+      "bafkreif7xytlxay3l5rwmygxjap2bydcafmktk524xk3zt7grwlkpkmqxe",
+      "bafybeifqcxgafxm6l26kvy4e6pp4u7jelccoaeicdb3grdv5yypmi5pxw4",
+      "bafybeifqcxgafxm6l26kvy4e6pp4u7jelccoaeicdb3grdv5yypmi5pxw4"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Oguz, Ipek",
+        "author_place": 1,
+        "persona_email": "ipek@cs.unc.edu",
+        "persona_firstname": "Ipek",
+        "persona_id": 122,
+        "persona_lastname": "Oguz"
+      },
+      {
+        "author_fullname": "Gerig, Guido",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Barre, Sebastien",
+        "author_place": 3,
+        "persona_email": "sebastien.barre@kitware.com",
+        "persona_firstname": "Sebastien",
+        "persona_id": 589,
+        "persona_lastname": "BARRE"
+      },
+      {
+        "author_fullname": "Styner, Martin",
+        "author_place": 4,
+        "persona_email": "styner@cs.unc.edu",
+        "persona_firstname": "Martin",
+        "persona_id": 28,
+        "persona_lastname": "Styner"
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2006-07-10T21:23:03Z",
+    "handles": [
+      {
+        "handle": "1926/220",
+        "handle_url": "http://hdl.handle.net/1926/220"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<b>Summary:</b>\r\n\r\nSoftware that enables overlaying colours, vectors, ellipsoids or curves over triangular meshes.\r\n \r\n<b>Hypothesis:</b>\r\n\r\nIn addition to the visualization geometric surfaces of objects (e.g. as output by segmentation techniques), there is a need to visualize different types of data associated with different locations on these surfaces. There is a need for an open source, freely available software allowing for visualizing scalar and vector fields, ellipsoids and space curves. The software provided addresses this issue.\r\n \r\n<b>Evidence:</b>\r\n\r\nI believe this is a valuable contribution to the MIA open science community specific to the area of visualization. Different example output results are shown. The software appears simple to use to generate results (see below for more comments).\r\n\r\n\r\n<b>Open Science:</b>\r\n\r\nThe authors provide the source code, the input text files for generating the different visualizations, the output files (BMPs), and the script needed to re-create most of the results.\r\n \r\n\r\n\r\n<b>Reproducibility:</b>\r\n\r\nI did not reproduce the results. However there is a readme.txt file listing what are the commands that must be called to produce (not all) the figures in the paper.\r\n\r\n<b>Use of Open Source Software:</b>\r\n\r\nThe authors use ITK, VTK, CMAKE, KWWIDGETS, TCL/TK. \r\n\r\n<b>Open Source Contributions:</b>\r\n\r\nThe authors provide a readme.txt with the commands needed to regenerate the results.\r\n\r\noutput, data, and code files should have a .tar extension and not a tar.gz extension. I was unable to untar without renaming the files.\r\n\r\nThe authors provide the command line options to generate the 2D snap-shots, with different views, background colors, etc.\r\n\r\nI was unable to locate the command that creates the space curve on the triangular mesh (Figure 5).\r\n\r\nIt is not clearly described how one should input the data for every ellipsoid; what are the 9 numbers that are provided after the header?\r\n-0.1209\t-0.068646\t0.2373\t1\t0\t0\t0\t1\t0\r\nAre these the elements of a 3x3 2nd order tensor or (Gaussian) covariance matrix? What is the order of these numbers is it 11,12,13,12,\u00e2\u0080\u00a6. Or 11,21,31,\u00e2\u0080\u00a6 If the 3x3 array is symmetric then why not provide only the 6 distinct elements?\r\n\r\n<b>Code Quality:</b>\r\n\r\nSource code files have variable amount of comments for example itkMeshTovtkPolyData.cxx has no comments at all. Other files are commented.\r\n\r\n<b>Applicability to other problems:</b>\r\n--\r\n<b>Suggestions for future work:</b>\r\n--\r\n\r\n<b>Requests for additional information from authors:</b>\r\n\r\nWhat sort of interpolation is used to color the faces of the triangles of the mesh given that only scalar values at the vertices are provided?\r\n\r\nFor building and running KWMeshVisu without the GUI, does one still require KWWIDGETS and TCL/TK? \r\n\r\n\r\n<b>Additional Comments:</b>\r\n[This is a free-form field]\r\n\r\n",
-    "date": "08-21-2006",
-    "review_id": 304
-   },
-   {
-    "author": {
-     "author_email": "ruben@ctm.ulpgc.es",
-     "author_firstname": "Ruben",
-     "author_id": 448,
-     "author_lastname": "Cardenes"
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 106,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "hamarneh@cs.sfu.ca",
+          "author_firstname": "Ghassan",
+          "author_id": 10,
+          "author_lastname": "Hamarneh"
+        },
+        "content": "<b>Summary:</b>\r\n\r\nSoftware that enables overlaying colours, vectors, ellipsoids or curves over triangular meshes.\r\n \r\n<b>Hypothesis:</b>\r\n\r\nIn addition to the visualization geometric surfaces of objects (e.g. as output by segmentation techniques), there is a need to visualize different types of data associated with different locations on these surfaces. There is a need for an open source, freely available software allowing for visualizing scalar and vector fields, ellipsoids and space curves. The software provided addresses this issue.\r\n \r\n<b>Evidence:</b>\r\n\r\nI believe this is a valuable contribution to the MIA open science community specific to the area of visualization. Different example output results are shown. The software appears simple to use to generate results (see below for more comments).\r\n\r\n\r\n<b>Open Science:</b>\r\n\r\nThe authors provide the source code, the input text files for generating the different visualizations, the output files (BMPs), and the script needed to re-create most of the results.\r\n \r\n\r\n\r\n<b>Reproducibility:</b>\r\n\r\nI did not reproduce the results. However there is a readme.txt file listing what are the commands that must be called to produce (not all) the figures in the paper.\r\n\r\n<b>Use of Open Source Software:</b>\r\n\r\nThe authors use ITK, VTK, CMAKE, KWWIDGETS, TCL/TK. \r\n\r\n<b>Open Source Contributions:</b>\r\n\r\nThe authors provide a readme.txt with the commands needed to regenerate the results.\r\n\r\noutput, data, and code files should have a .tar extension and not a tar.gz extension. I was unable to untar without renaming the files.\r\n\r\nThe authors provide the command line options to generate the 2D snap-shots, with different views, background colors, etc.\r\n\r\nI was unable to locate the command that creates the space curve on the triangular mesh (Figure 5).\r\n\r\nIt is not clearly described how one should input the data for every ellipsoid; what are the 9 numbers that are provided after the header?\r\n-0.1209\t-0.068646\t0.2373\t1\t0\t0\t0\t1\t0\r\nAre these the elements of a 3x3 2nd order tensor or (Gaussian) covariance matrix? What is the order of these numbers is it 11,12,13,12,\u00e2\u0080\u00a6. Or 11,21,31,\u00e2\u0080\u00a6 If the 3x3 array is symmetric then why not provide only the 6 distinct elements?\r\n\r\n<b>Code Quality:</b>\r\n\r\nSource code files have variable amount of comments for example itkMeshTovtkPolyData.cxx has no comments at all. Other files are commented.\r\n\r\n<b>Applicability to other problems:</b>\r\n--\r\n<b>Suggestions for future work:</b>\r\n--\r\n\r\n<b>Requests for additional information from authors:</b>\r\n\r\nWhat sort of interpolation is used to color the faces of the triangles of the mesh given that only scalar values at the vertices are provided?\r\n\r\nFor building and running KWMeshVisu without the GUI, does one still require KWWIDGETS and TCL/TK? \r\n\r\n\r\n<b>Additional Comments:</b>\r\n[This is a free-form field]\r\n\r\n",
+        "date": "08-21-2006",
+        "review_id": 304
+      },
+      {
+        "author": {
+          "author_email": "ruben@ctm.ulpgc.es",
+          "author_firstname": "Ruben",
+          "author_id": 448,
+          "author_lastname": "Cardenes"
+        },
+        "content": "<b>Summary:</b>\r\nThis paper describes a graphical interface as well as a command line tool developed using ITK, VTK, and KWWidgets, to visualize 3D meshes together with information of several types: scalar, vectorial, ellipsoidal and curves over the surface. \r\n \r\n<b>Hypothesis:</b>\r\nThe authors claim that this tool will strongly simplify qualitative evaluation of data for statistical shape analysis.\r\n\r\n<b>Evidence:</b>\r\nAs the hypothesis made by the authors is qualitative, the evidence will be demonstrated by the practice, (maybe a table with statistics about time spent by experts to analyze a given set of surfaces could be helpful to support this), but I think this is not really necessary after using the software for a while.\r\n\r\n<b>Open Science:</b>\r\nThe authors provide the source code, as well as the data they show in the main text.\r\n\r\n<b>Reproducibility:</b>\r\nI was able to download, and successfully compile and run the code in a Linux workstation (after switching from VTK 5.0 to the cvs version of VTK). I had also to compile KWWidgets in order to get the code compiled. \r\nI was able to run the graphical interface, and to load the data they provided, reproducing the images they show in the paper. \r\nThe versions of ITK, VTK and Tcl/Tk, required o suggested to compile and run the software is not provided. I managed to compile it with the cvs version of VTK (version 5.0 is not supported), ITK 2.4.1, and Tcl/Tk 8.4.\r\n\r\n<b>Use of Open Source Software:</b>\r\nThe authors used open source software (ITK, VTK and KWWidgets and Tcl/Tk), and they comment that the use of KWWidgets simplify the user interface issues, because it has many built-in support for many VTK components. They don\\'t say which version of the software you should use. \r\n\r\n<b>Open Source Contributions:</b>\r\nThe source code is completely included. The main program is a graphical user interface which is easy to use. \r\n\r\n<b>Code Quality:</b>\r\nThe code is written clear, in modern style, using some comments, and in a first view it does not seem to be quite complicated to understand and to use. It also seems to have support to be compiled in WIN32 platform. \r\n\r\n<b>Applicability to other problems:</b>\r\nThis tool can be also applied to see, for instance, thickness maps over 3D structures that could be quite helpful in areas like computer guided medical diagnosis, when the graymatter thickness is measured and visualized. \r\n\r\n<b>Suggestions for future work:</b>\r\nThe input mesh is in metafile format, and is loaded in ITK. Other formats could also be included. \r\nIt would be also interesting to add processing capabilities to this tool. \r\n\r\n<b>Requests for additional information from authors:</b>\r\nThe application crashes when you try to load an attribute with different number of points that the loaded a mesh. A restriction to avoid that would be necessary. \r\n\r\n<b>Additional Comments:</b>\r\nThe interactive colormap managing is a good tool, and can have great advantages for visualization of significances in shapes. \r\nMy final comment to the interested reader is that, although this tool is simple, it could be quite helpful for visualization of attributes over 3D meshes.\r\nThe main problem for some people to start using its own data with this tool can be the file format compatibility. \r\n\r\n",
+        "date": "08-30-2006",
+        "review_id": 318
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "ipek@cs.unc.edu",
+      "author_firstname": "Ipek",
+      "author_fullname": "Oguz, Ipek",
+      "author_id": 122,
+      "author_institution": "UNC",
+      "author_lastname": "Oguz"
     },
-    "content": "<b>Summary:</b>\r\nThis paper describes a graphical interface as well as a command line tool developed using ITK, VTK, and KWWidgets, to visualize 3D meshes together with information of several types: scalar, vectorial, ellipsoidal and curves over the surface. \r\n \r\n<b>Hypothesis:</b>\r\nThe authors claim that this tool will strongly simplify qualitative evaluation of data for statistical shape analysis.\r\n\r\n<b>Evidence:</b>\r\nAs the hypothesis made by the authors is qualitative, the evidence will be demonstrated by the practice, (maybe a table with statistics about time spent by experts to analyze a given set of surfaces could be helpful to support this), but I think this is not really necessary after using the software for a while.\r\n\r\n<b>Open Science:</b>\r\nThe authors provide the source code, as well as the data they show in the main text.\r\n\r\n<b>Reproducibility:</b>\r\nI was able to download, and successfully compile and run the code in a Linux workstation (after switching from VTK 5.0 to the cvs version of VTK). I had also to compile KWWidgets in order to get the code compiled. \r\nI was able to run the graphical interface, and to load the data they provided, reproducing the images they show in the paper. \r\nThe versions of ITK, VTK and Tcl/Tk, required o suggested to compile and run the software is not provided. I managed to compile it with the cvs version of VTK (version 5.0 is not supported), ITK 2.4.1, and Tcl/Tk 8.4.\r\n\r\n<b>Use of Open Source Software:</b>\r\nThe authors used open source software (ITK, VTK and KWWidgets and Tcl/Tk), and they comment that the use of KWWidgets simplify the user interface issues, because it has many built-in support for many VTK components. They don\\'t say which version of the software you should use. \r\n\r\n<b>Open Source Contributions:</b>\r\nThe source code is completely included. The main program is a graphical user interface which is easy to use. \r\n\r\n<b>Code Quality:</b>\r\nThe code is written clear, in modern style, using some comments, and in a first view it does not seem to be quite complicated to understand and to use. It also seems to have support to be compiled in WIN32 platform. \r\n\r\n<b>Applicability to other problems:</b>\r\nThis tool can be also applied to see, for instance, thickness maps over 3D structures that could be quite helpful in areas like computer guided medical diagnosis, when the graymatter thickness is measured and visualized. \r\n\r\n<b>Suggestions for future work:</b>\r\nThe input mesh is in metafile format, and is loaded in ITK. Other formats could also be included. \r\nIt would be also interesting to add processing capabilities to this tool. \r\n\r\n<b>Requests for additional information from authors:</b>\r\nThe application crashes when you try to load an attribute with different number of points that the loaded a mesh. A restriction to avoid that would be necessary. \r\n\r\n<b>Additional Comments:</b>\r\nThe interactive colormap managing is a good tool, and can have great advantages for visualization of significances in shapes. \r\nMy final comment to the interested reader is that, although this tool is simple, it could be quite helpful for visualization of attributes over 3D meshes.\r\nThe main problem for some people to start using its own data with this tool can be the file format compatibility. \r\n\r\n",
-    "date": "08-30-2006",
-    "review_id": 318
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "ipek@cs.unc.edu",
-   "author_firstname": "Ipek",
-   "author_fullname": "Oguz, Ipek",
-   "author_id": 122,
-   "author_institution": "UNC",
-   "author_lastname": "Oguz"
-  },
-  "tags": [
-   "Shape Analysis",
-   "Visualization"
-  ],
-  "title": "KWMeshVisu: A Mesh Visualization Tool for Shape Analysis"
- }
+    "tags": [
+      "Shape Analysis",
+      "Visualization"
+    ],
+    "title": "KWMeshVisu: A Mesh Visualization Tool for Shape Analysis"
+  }
 }

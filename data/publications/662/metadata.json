@@ -1,70 +1,74 @@
 {
- "publication": {
-  "abstract": "This document describes a contribution to the Insight Toolkit intended to smooth the values of Field data associated with the nodes of a Spherical Mesh. The Mesh Smoothing filters contributed here do not modify the geometry or the topology of the Mesh. They act only upon the pixel data values associated with the nodes. Two filters are presented, one that smooths scalar field data, and a second one that smooths vector field data.\n This paper is accompanied with the source code, input data, parameters and output data that we used for validating the algorithm described in this paper. This adheres to the fundamental principle that scientific publications must facilitate reproducibility of the reported results.\n",
-  "authors": [
-   {
-    "author_fullname": "Ibanez, Luis",
-    "author_place": 1,
-    "persona_email": "luis.ibanez@kitware.com",
-    "persona_firstname": "Luis",
-    "persona_id": 4,
-    "persona_lastname": "Ibanez"
-   },
-   {
-    "author_fullname": "Yeo, B.T. Thomas",
-    "author_place": 2,
-    "persona_email": "ythomas@csail.mit.edu",
-    "persona_firstname": "B.t. thomas",
-    "persona_id": 2237,
-    "persona_lastname": "Yeo"
-   },
-   {
-    "author_fullname": "Golland, Polina",
-    "author_place": 3,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Blurring filters",
-   "IO",
-   "Mesh",
-   "Registration"
-  ],
-  "comments": [],
-  "date_submitted": "2010-04-25 21:00:43",
-  "handles": [
-   {
-    "handle": "10380/3091",
-    "handle_url": "http://hdl.handle.net/10380/3091"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 662,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "luis.ibanez@kitware.com",
-   "author_firstname": "Luis",
-   "author_fullname": "Ibanez, Luis",
-   "author_id": 4,
-   "author_institution": "KITWARE Inc.",
-   "author_lastname": "Ibanez"
-  },
-  "tags": [
-   "Mesh Processing",
-   "Mesh Data Smoothing",
-   "QuadEdgeMesh",
-   "Parallel Transport"
-  ],
-  "title": "Iterative Smoothing of Field Data in Spherical Meshes"
- }
+  "publication": {
+    "abstract": "This document describes a contribution to the Insight Toolkit intended to smooth the values of Field data associated with the nodes of a Spherical Mesh. The Mesh Smoothing filters contributed here do not modify the geometry or the topology of the Mesh. They act only upon the pixel data values associated with the nodes. Two filters are presented, one that smooths scalar field data, and a second one that smooths vector field data.\n This paper is accompanied with the source code, input data, parameters and output data that we used for validating the algorithm described in this paper. This adheres to the fundamental principle that scientific publications must facilitate reproducibility of the reported results.\n",
+    "articles": [
+      "bafybeic7iiaxeeem6zdlm2pwujh4hvwdblm2k7ptxoj5qvbdd6bhn7htf4",
+      "bafybeideknt3suxirwfvgc34ixmdbkvhe6hag4gshnnkzno55kryx63tre"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Ibanez, Luis",
+        "author_place": 1,
+        "persona_email": "luis.ibanez@kitware.com",
+        "persona_firstname": "Luis",
+        "persona_id": 4,
+        "persona_lastname": "Ibanez"
+      },
+      {
+        "author_fullname": "Yeo, B.T. Thomas",
+        "author_place": 2,
+        "persona_email": "ythomas@csail.mit.edu",
+        "persona_firstname": "B.t. thomas",
+        "persona_id": 2237,
+        "persona_lastname": "Yeo"
+      },
+      {
+        "author_fullname": "Golland, Polina",
+        "author_place": 3,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Blurring filters",
+      "IO",
+      "Mesh",
+      "Registration"
+    ],
+    "comments": [],
+    "date_submitted": "2010-04-25 21:00:43",
+    "handles": [
+      {
+        "handle": "10380/3091",
+        "handle_url": "http://hdl.handle.net/10380/3091"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 662,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "luis.ibanez@kitware.com",
+      "author_firstname": "Luis",
+      "author_fullname": "Ibanez, Luis",
+      "author_id": 4,
+      "author_institution": "KITWARE Inc.",
+      "author_lastname": "Ibanez"
+    },
+    "tags": [
+      "Mesh Processing",
+      "Mesh Data Smoothing",
+      "QuadEdgeMesh",
+      "Parallel Transport"
+    ],
+    "title": "Iterative Smoothing of Field Data in Spherical Meshes"
+  }
 }

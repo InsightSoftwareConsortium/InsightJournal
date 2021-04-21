@@ -1,69 +1,72 @@
 {
- "publication": {
-  "abstract": "In this article, we present an implementation of a flexible framework for non-parametric variational image registration, realized as part of ITK's finite difference solver hierarchy.\n\nIn a variational registration setting, the transformation is found by minimizing an energy functional that consists of (at least) two terms: a distance measure between fixed and transformed moving image and a smoothness condition for the transformation. The specific choice of these terms depends on the particular application and requires consideration of, for example, image content and imaging modalities. Following this view, the presented framework can be seen as a generalization of the demons algorithm in which two key aspects remain exchangeable: the force term (or registration function, according to the distance measure) and the regularizer (according to the smoothness condition). Moreover, two transformation models are realized: either a dense displacement field or a stationary velocity field to restrain the transformation to the space of diffeomorphisms.\n\nIn its current state, the framework includes implementations of forces based on the Sum of Squared Differences (SSD), Normalized Cross Correlation (NCC) and the demons algorithm as well as Gaussian, diffusion and elastic smoothing. However, the implementation of further components is possible and encouraged.\n",
-  "authors": [
-   {
-    "author_fullname": "Schmidt-Richberg, Alexander",
-    "author_place": 2,
-    "persona_email": "a.schmidt-richberg@uke.uni-hamburg.de",
-    "persona_firstname": "Alexander",
-    "persona_id": 2334,
-    "persona_lastname": "Schmidt-Richberg"
-   },
-   {
-    "author_fullname": "Werner, Ren\u00e9",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Handels, Heinz",
-    "author_place": 4,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Ehrhardt, Jan",
-    "author_place": 5,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Deformable registration",
-   "Registration metrics",
-   "Transforms"
-  ],
-  "comments": [],
-  "date_submitted": "2014-05-09 11:25:37",
-  "handles": [
-   {
-    "handle": "10380/3460",
-    "handle_url": "http://hdl.handle.net/10380/3460"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 917,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "a.schmidt-richberg@uke.uni-hamburg.de",
-   "author_firstname": "Alexander",
-   "author_fullname": "Schmidt-Richberg, Alexander",
-   "author_id": 2334,
-   "author_institution": "Department of Medical Informatics, University Medical Center Hamburg-Eppendorf",
-   "author_lastname": "Schmidt-Richberg"
-  },
-  "tags": [
-   "Registration",
-   "Diffeomorphic "
-  ],
-  "title": "A Flexible Variational Registration Framework"
- }
+  "publication": {
+    "abstract": "In this article, we present an implementation of a flexible framework for non-parametric variational image registration, realized as part of ITK's finite difference solver hierarchy.\n\nIn a variational registration setting, the transformation is found by minimizing an energy functional that consists of (at least) two terms: a distance measure between fixed and transformed moving image and a smoothness condition for the transformation. The specific choice of these terms depends on the particular application and requires consideration of, for example, image content and imaging modalities. Following this view, the presented framework can be seen as a generalization of the demons algorithm in which two key aspects remain exchangeable: the force term (or registration function, according to the distance measure) and the regularizer (according to the smoothness condition). Moreover, two transformation models are realized: either a dense displacement field or a stationary velocity field to restrain the transformation to the space of diffeomorphisms.\n\nIn its current state, the framework includes implementations of forces based on the Sum of Squared Differences (SSD), Normalized Cross Correlation (NCC) and the demons algorithm as well as Gaussian, diffusion and elastic smoothing. However, the implementation of further components is possible and encouraged.\n",
+    "articles": [
+      "bafkreib5zpglqwgrebvib6zggtivhwhxw2eowjt5erqu2x3nb3lfgvjuqy"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Schmidt-Richberg, Alexander",
+        "author_place": 2,
+        "persona_email": "a.schmidt-richberg@uke.uni-hamburg.de",
+        "persona_firstname": "Alexander",
+        "persona_id": 2334,
+        "persona_lastname": "Schmidt-Richberg"
+      },
+      {
+        "author_fullname": "Werner, Ren\u00e9",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Handels, Heinz",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Ehrhardt, Jan",
+        "author_place": 5,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Deformable registration",
+      "Registration metrics",
+      "Transforms"
+    ],
+    "comments": [],
+    "date_submitted": "2014-05-09 11:25:37",
+    "handles": [
+      {
+        "handle": "10380/3460",
+        "handle_url": "http://hdl.handle.net/10380/3460"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 917,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "a.schmidt-richberg@uke.uni-hamburg.de",
+      "author_firstname": "Alexander",
+      "author_fullname": "Schmidt-Richberg, Alexander",
+      "author_id": 2334,
+      "author_institution": "Department of Medical Informatics, University Medical Center Hamburg-Eppendorf",
+      "author_lastname": "Schmidt-Richberg"
+    },
+    "tags": [
+      "Registration",
+      "Diffeomorphic "
+    ],
+    "title": "A Flexible Variational Registration Framework"
+  }
 }

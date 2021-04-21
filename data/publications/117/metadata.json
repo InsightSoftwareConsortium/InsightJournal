@@ -1,55 +1,62 @@
 {
- "publication": {
-  "abstract": "This article presents an approach for decreasing the computational time for converting a sparse SpatialObject to an Image. The method is applicable for SpatialObjects which occupy less volume than the total output Image (which occurs often, especially when using TubeSpatialObjects to represent vessels). A new filter MaskedSpatialObjectToImageFilter is introduced which dramatically decreases the execution time by creating a mask of relevant pixels. The mask is computed by calling the conventional SpatialObjectToImageFilter at a lower resolution, which is significantly faster for large images. The mask is then up-sampled to control which areas are further processed.",
-  "authors": [
-   {
-    "author_fullname": "Mueller, Dan",
-    "author_place": 1,
-    "persona_email": "dan.muel@gmail.com",
-    "persona_firstname": "Dan",
-    "persona_id": 286,
-    "persona_lastname": "Mueller"
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2006-07-22T21:44:38Z",
-  "handles": [
-   {
-    "handle": "1926/272",
-    "handle_url": "http://hdl.handle.net/1926/272"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 117,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "dan.muel@gmail.com",
-   "author_firstname": "Dan",
-   "author_fullname": "Mueller, Dan",
-   "author_id": 286,
-   "author_institution": "Philips Healthcare",
-   "author_lastname": "Mueller"
-  },
-  "tags": [
-   "speed",
-   "time",
-   "SpatialObject",
-   "Image",
-   "fast",
-   "ITK",
-   "convert"
-  ],
-  "title": "Using a Mask to Decrease Computation Time for SpatialObject to Image Conversions"
- }
+  "publication": {
+    "abstract": "This article presents an approach for decreasing the computational time for converting a sparse SpatialObject to an Image. The method is applicable for SpatialObjects which occupy less volume than the total output Image (which occurs often, especially when using TubeSpatialObjects to represent vessels). A new filter MaskedSpatialObjectToImageFilter is introduced which dramatically decreases the execution time by creating a mask of relevant pixels. The mask is computed by calling the conventional SpatialObjectToImageFilter at a lower resolution, which is significantly faster for large images. The mask is then up-sampled to control which areas are further processed.",
+    "articles": [
+      "bafkreicegwfiivb3l2kfkuqsuxtm4yydkqeuufu5x734mcp6oxnzbzxbqa",
+      "bafkreicegwfiivb3l2kfkuqsuxtm4yydkqeuufu5x734mcp6oxnzbzxbqa",
+      "bafkreicegwfiivb3l2kfkuqsuxtm4yydkqeuufu5x734mcp6oxnzbzxbqa",
+      "bafkreicegwfiivb3l2kfkuqsuxtm4yydkqeuufu5x734mcp6oxnzbzxbqa",
+      "bafkreicegwfiivb3l2kfkuqsuxtm4yydkqeuufu5x734mcp6oxnzbzxbqa"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Mueller, Dan",
+        "author_place": 1,
+        "persona_email": "dan.muel@gmail.com",
+        "persona_firstname": "Dan",
+        "persona_id": 286,
+        "persona_lastname": "Mueller"
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2006-07-22T21:44:38Z",
+    "handles": [
+      {
+        "handle": "1926/272",
+        "handle_url": "http://hdl.handle.net/1926/272"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 117,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "dan.muel@gmail.com",
+      "author_firstname": "Dan",
+      "author_fullname": "Mueller, Dan",
+      "author_id": 286,
+      "author_institution": "Philips Healthcare",
+      "author_lastname": "Mueller"
+    },
+    "tags": [
+      "speed",
+      "time",
+      "SpatialObject",
+      "Image",
+      "fast",
+      "ITK",
+      "convert"
+    ],
+    "title": "Using a Mask to Decrease Computation Time for SpatialObject to Image Conversions"
+  }
 }

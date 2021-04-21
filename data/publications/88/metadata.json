@@ -1,72 +1,75 @@
 {
- "publication": {
-  "abstract": "MINC2.0 IO support REVISED!\r\nThis revision has direction cosines and various other issues addressed.",
-  "authors": [
-   {
-    "author_fullname": "Baghdadi, Leila",
-    "author_place": 1,
-    "persona_email": "baghdadi@phenogenomics.ca",
-    "persona_firstname": "Leila",
-    "persona_id": 7,
-    "persona_lastname": "Baghdadi"
-   }
-  ],
-  "categories": [],
-  "comments": [
-   {
-    "content": "When I use these files to produce a new project,I encounter many errors \\\"error LNK2019: unresolved external symbol _miclose_volume referenced in function\u2026\u2026\\\",which is about those virtual functions defined in itkMINC2ImageIO.h.The whole error is :itkMINC2ImageIO.obj : error LNK2019: unresolved external symbol _miclose_volume referenced in function \\\"public: virtual bool __thiscall itk::MINC2ImageIO::CanReadFile(char const *)\\\" (?CanReadFile@MINC2ImageIO@itk@@UAE_NPBD@Z).Can somebody help me about this problem,many thanks!",
-    "date": "2013-06-25T10:35:11",
-    "persona_email": "ttfzzx227@126.com",
-    "persona_firstname": "Tingting",
-    "persona_id": 7965,
-    "persona_lastname": "Feng"
-   }
-  ],
-  "date_submitted": "2006-04-13T18:32:52Z",
-  "handles": [
-   {
-    "handle": "1926/191",
-    "handle_url": "http://hdl.handle.net/1926/191"
-   },
-   {
-    "handle": "10380/3593",
-    "handle_url": "http://hdl.handle.net/10380/3593"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 88,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "rupert.brooks@gmail.com",
-     "author_firstname": "Rupert",
-     "author_id": 171,
-     "author_lastname": "Brooks"
+  "publication": {
+    "abstract": "MINC2.0 IO support REVISED!\r\nThis revision has direction cosines and various other issues addressed.",
+    "articles": [
+      "bafkreihtstgdfgkqwnajpoxjrkxjwuzatuc5plq5irp2tez6f5kal37nci"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Baghdadi, Leila",
+        "author_place": 1,
+        "persona_email": "baghdadi@phenogenomics.ca",
+        "persona_firstname": "Leila",
+        "persona_id": 7,
+        "persona_lastname": "Baghdadi"
+      }
+    ],
+    "categories": [],
+    "comments": [
+      {
+        "content": "When I use these files to produce a new project,I encounter many errors \\\"error LNK2019: unresolved external symbol _miclose_volume referenced in function\u2026\u2026\\\",which is about those virtual functions defined in itkMINC2ImageIO.h.The whole error is :itkMINC2ImageIO.obj : error LNK2019: unresolved external symbol _miclose_volume referenced in function \\\"public: virtual bool __thiscall itk::MINC2ImageIO::CanReadFile(char const *)\\\" (?CanReadFile@MINC2ImageIO@itk@@UAE_NPBD@Z).Can somebody help me about this problem,many thanks!",
+        "date": "2013-06-25T10:35:11",
+        "persona_email": "ttfzzx227@126.com",
+        "persona_firstname": "Tingting",
+        "persona_id": 7965,
+        "persona_lastname": "Feng"
+      }
+    ],
+    "date_submitted": "2006-04-13T18:32:52Z",
+    "handles": [
+      {
+        "handle": "1926/191",
+        "handle_url": "http://hdl.handle.net/1926/191"
+      },
+      {
+        "handle": "10380/3593",
+        "handle_url": "http://hdl.handle.net/10380/3593"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<P><b>Summary:</b>\r\n<P>This paper is a revised version of one submitted previously. It is the submission of classes to read and write MINC2 format files within the ITK pluggable factory framework.\r\n\r\n<P>This submission is significantly improved from the last version. I will incorporate this code in my code tree and begin using it regularly. Despite a few issues, I am confident enough to trust it on simple cases. However, I recommend a good code polishing and more extensive test suite.\r\n \r\n<P><b>Hypothesis:</b>\r\n<P>n/a\r\n\r\n<P><b>Evidence:</b>\r\n<P>A test which reads a minc2 file (provided), prints out a coordinate from it, and writes it out again is provided. There is no numerical testing of the result, it is presumed that the reader will view the output themselves. In fact, the provided file is rather anomalous, as its direction cosine vectors are not normalized - if you normalize them, then it seems that the directions are just along the regular axes anyway, so i am not entirely sure that this tests what it is supposed to. However, I tested it on a file where the direction cosines are normalized and not aligned with the coordinate axes and it works fine.\r\n\r\n<P><b>Open Science:</b>\r\n<P>Source code is provided. This work will, in effect, make two large bodies of open-source medical imaging software interoperable and so is very useful to open science.\r\n\r\n<P><b>Reproducibility:</b>\r\n<P>I downloaded and compiled the code. I did not actually test the CMakeLists, i just plugged the code into my own code tree where i had a place for it. \r\n\r\n<P>One edit was required to get it to compile under Visual C++7. There were some moderately serious problems with the MINC writing part. The code had some nasty access violations - I fixed the issues enough to get the test working, but i suspect the code may still need a little polishing. See code quality section below.\r\n\r\n<P><b>Use of Open Source Software:</b>\r\n<P>The work makes ITK read the open-source minc data format. It is entirely open source.\r\n\r\n<P><b>Open Source Contributions:</b>\r\n<P>The work is open source. \r\n\r\n<P><b>Code Quality:</b>\r\n<P>There were some minor difficulties compiling this code on Windows. I also had some memory access violations on the write. I tweaked it and got it to work with the following changes. From the tweaking, my overall impression is that the code is good, but not yet perfect. \r\n\r\n<P>In particular, I would expect problems when facing files where the data is not scalar or the number of dimensions is not 3. \r\n\r\n<P>I suspect there are memory leaks in the code as well, some \\\\\\\"new\\\\\\\"s do not have corresponding deletes. See the first changes in the .cxx file below.\r\n\r\n<P>Here are my diffs to the code, interspersed with comments about why.\r\n\r\n<CODE>\r\n<BR>bash-3.00$ diff /cygdrive/c/temp/itkMINC2ImageIO.h ../src/IO/itkMINC2ImageIO.h\r\n<BR>132c132,133\r\n<BR>< int m_DimensionIndices[5];\r\n<BR>---\r\n<BR>> // int m_DimensionIndices[5];\r\n<BR>> int * m_DimensionIndices;\r\n</CODE>\r\n\r\n<P>I changed this while i was fixing the access violations. The declaration of DimensionIndices was inconsistent with the declaration of the other Dimension parameters.\r\n\r\n<CODE>\r\n<BR>bash-3.00$ diff /cygdrive/c/temp/itkMINC2ImageIO.cxx ../src/IO/itkMINC2ImageIO.cxx\r\n<BR>239a240\r\n<BR>> m_DimensionIndices = new int[MINC2_MAXDIM+1];\r\n</CODE>\r\n\r\n<P>This is to make the allocation of m_DimensionIndices compatible with the other dimension parameters. I didnt put in a corresponding delete, because i was not sure where to put it. Im not sure where the other dimension parameters are deallocated. so there is probably a memory leak.\r\n\r\n<CODE>\r\n<BR>241c242,243\r\n<BR>< for (int i = 0; i <= MINC2_MAXUSE; i++)\r\n<BR>---\r\n<BR>> // for (int i = 0; i <= MINC2_MAXUSE; i++)\r\n<BR>> for (int i = 0; i <= MINC2_MAXDIM; i++)\r\n</CODE>\r\n\r\n<P>Im not sure what the difference between MAXDIM and MAXUSE is. Further in the code, there is a loop over MAXDIM and the fact that m_DimensionName was not fully initialized caused problems.\r\n\r\n<CODE>\r\n<BR>610c612\r\n<BR>< buffer += Strides[1];\r\n<BR>---\r\n<BR>> //buffer += Strides[1];\r\n612c614,615\r\n<BR>< buffer += Strides[2];\r\n<BR>---\r\n<BR>> //buffer += Strides[2];\r\n<BR>> //std::cout<<\\\\\\\"max \\\\\\\"<<tmpmaxval<<\\\\\\\" min \\\\\\\"<<tmpminval<<std::endl;\r\n</CODE>\r\n\r\n<P>Originally there was an access violation in here. I had all kinds of problems with this function. Looking at Strides in the debugger, it doesnt look at all like i think it should and besides, if you increment buffer... why increment it by Strides again later. Anyway, i just made it increment by one each time through the loop, and all seems to work. But ultimately, i see why the author wants the more sophisticated approach - maybe this could be handled on the ITK end with an iterator?\r\n\r\n<CODE>\r\n<BR>1179c1182\r\n<BR>< unsigned long coords[m_NDims];\r\n<BR>---\r\n<BR>> unsigned long * coords=new(unsigned long[m_NDims]);\r\n</CODE>\r\n\r\n<P>This makes it compile on Windows. No, i did not put in the corresponding delete.\r\n\r\n<P><b>Applicability to other problems:</b>\r\n<P>MINC is widely used, so there are likely many projects that can make use of this work.\r\n\r\n<P><b>Suggestions for future work:</b>\r\n<P>Ultimately, it would be nice to have this completely integrated in the pluggable factory design for ITK. It simply involves including itkMINC2ImageIOFactory.h and adding the line\r\n<CODE>\r\n<P> ObjectFactoryBase::RegisterFactory( MINC2ImageIOFactory::New() ); \r\n</CODE>\r\nto the itkImageIOFactory.cxx file and should be done when this code is integrated.\r\n\r\n<P><b>Requests for additional information from authors:</b>\r\n<P>n/a\r\n\r\n<P><b>Additional Comments:</b>\r\n<P>When testing this code, I was confused at first because itk::Image does not support direction cosines at all, and one must use itk::OrientedImage to do so. This is done correctly in this project, and mentioned in comments in the test file, but it might be worth drawing the readers attention to it more specifically.\r\n\r\n<P>The paper does not follow the itkJournal typographical conventions.\r\n\r\n<P>The test file provided has direction cosines that do not have magnitude 1\r\n\r\n<P>Minor spelling and grammar issues:\r\n<UL>\r\n<LI><I>wed site</I> should be <I>web site</I>\r\n<LI><I>miset_real_value_hyperslsab</I> should be <I>miset_real_value_hyperslab</I>\r\n<LI><I>are copied into a temporary buffer one by one and send to</I> - should be <I>sent to</I>.\r\n</UL>\r\n",
-    "date": "04-20-2006",
-    "review_id": 223
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "baghdadi@phenogenomics.ca",
-   "author_firstname": "Leila",
-   "author_fullname": "Baghdadi, Leila",
-   "author_id": 7,
-   "author_institution": "MICe Imaging Centre",
-   "author_lastname": "Baghdadi"
-  },
-  "tags": null,
-  "title": "MINC2.0 IO Support for ITK"
- }
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 88,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "rupert.brooks@gmail.com",
+          "author_firstname": "Rupert",
+          "author_id": 171,
+          "author_lastname": "Brooks"
+        },
+        "content": "<P><b>Summary:</b>\r\n<P>This paper is a revised version of one submitted previously. It is the submission of classes to read and write MINC2 format files within the ITK pluggable factory framework.\r\n\r\n<P>This submission is significantly improved from the last version. I will incorporate this code in my code tree and begin using it regularly. Despite a few issues, I am confident enough to trust it on simple cases. However, I recommend a good code polishing and more extensive test suite.\r\n \r\n<P><b>Hypothesis:</b>\r\n<P>n/a\r\n\r\n<P><b>Evidence:</b>\r\n<P>A test which reads a minc2 file (provided), prints out a coordinate from it, and writes it out again is provided. There is no numerical testing of the result, it is presumed that the reader will view the output themselves. In fact, the provided file is rather anomalous, as its direction cosine vectors are not normalized - if you normalize them, then it seems that the directions are just along the regular axes anyway, so i am not entirely sure that this tests what it is supposed to. However, I tested it on a file where the direction cosines are normalized and not aligned with the coordinate axes and it works fine.\r\n\r\n<P><b>Open Science:</b>\r\n<P>Source code is provided. This work will, in effect, make two large bodies of open-source medical imaging software interoperable and so is very useful to open science.\r\n\r\n<P><b>Reproducibility:</b>\r\n<P>I downloaded and compiled the code. I did not actually test the CMakeLists, i just plugged the code into my own code tree where i had a place for it. \r\n\r\n<P>One edit was required to get it to compile under Visual C++7. There were some moderately serious problems with the MINC writing part. The code had some nasty access violations - I fixed the issues enough to get the test working, but i suspect the code may still need a little polishing. See code quality section below.\r\n\r\n<P><b>Use of Open Source Software:</b>\r\n<P>The work makes ITK read the open-source minc data format. It is entirely open source.\r\n\r\n<P><b>Open Source Contributions:</b>\r\n<P>The work is open source. \r\n\r\n<P><b>Code Quality:</b>\r\n<P>There were some minor difficulties compiling this code on Windows. I also had some memory access violations on the write. I tweaked it and got it to work with the following changes. From the tweaking, my overall impression is that the code is good, but not yet perfect. \r\n\r\n<P>In particular, I would expect problems when facing files where the data is not scalar or the number of dimensions is not 3. \r\n\r\n<P>I suspect there are memory leaks in the code as well, some \\\\\\\"new\\\\\\\"s do not have corresponding deletes. See the first changes in the .cxx file below.\r\n\r\n<P>Here are my diffs to the code, interspersed with comments about why.\r\n\r\n<CODE>\r\n<BR>bash-3.00$ diff /cygdrive/c/temp/itkMINC2ImageIO.h ../src/IO/itkMINC2ImageIO.h\r\n<BR>132c132,133\r\n<BR>< int m_DimensionIndices[5];\r\n<BR>---\r\n<BR>> // int m_DimensionIndices[5];\r\n<BR>> int * m_DimensionIndices;\r\n</CODE>\r\n\r\n<P>I changed this while i was fixing the access violations. The declaration of DimensionIndices was inconsistent with the declaration of the other Dimension parameters.\r\n\r\n<CODE>\r\n<BR>bash-3.00$ diff /cygdrive/c/temp/itkMINC2ImageIO.cxx ../src/IO/itkMINC2ImageIO.cxx\r\n<BR>239a240\r\n<BR>> m_DimensionIndices = new int[MINC2_MAXDIM+1];\r\n</CODE>\r\n\r\n<P>This is to make the allocation of m_DimensionIndices compatible with the other dimension parameters. I didnt put in a corresponding delete, because i was not sure where to put it. Im not sure where the other dimension parameters are deallocated. so there is probably a memory leak.\r\n\r\n<CODE>\r\n<BR>241c242,243\r\n<BR>< for (int i = 0; i <= MINC2_MAXUSE; i++)\r\n<BR>---\r\n<BR>> // for (int i = 0; i <= MINC2_MAXUSE; i++)\r\n<BR>> for (int i = 0; i <= MINC2_MAXDIM; i++)\r\n</CODE>\r\n\r\n<P>Im not sure what the difference between MAXDIM and MAXUSE is. Further in the code, there is a loop over MAXDIM and the fact that m_DimensionName was not fully initialized caused problems.\r\n\r\n<CODE>\r\n<BR>610c612\r\n<BR>< buffer += Strides[1];\r\n<BR>---\r\n<BR>> //buffer += Strides[1];\r\n612c614,615\r\n<BR>< buffer += Strides[2];\r\n<BR>---\r\n<BR>> //buffer += Strides[2];\r\n<BR>> //std::cout<<\\\\\\\"max \\\\\\\"<<tmpmaxval<<\\\\\\\" min \\\\\\\"<<tmpminval<<std::endl;\r\n</CODE>\r\n\r\n<P>Originally there was an access violation in here. I had all kinds of problems with this function. Looking at Strides in the debugger, it doesnt look at all like i think it should and besides, if you increment buffer... why increment it by Strides again later. Anyway, i just made it increment by one each time through the loop, and all seems to work. But ultimately, i see why the author wants the more sophisticated approach - maybe this could be handled on the ITK end with an iterator?\r\n\r\n<CODE>\r\n<BR>1179c1182\r\n<BR>< unsigned long coords[m_NDims];\r\n<BR>---\r\n<BR>> unsigned long * coords=new(unsigned long[m_NDims]);\r\n</CODE>\r\n\r\n<P>This makes it compile on Windows. No, i did not put in the corresponding delete.\r\n\r\n<P><b>Applicability to other problems:</b>\r\n<P>MINC is widely used, so there are likely many projects that can make use of this work.\r\n\r\n<P><b>Suggestions for future work:</b>\r\n<P>Ultimately, it would be nice to have this completely integrated in the pluggable factory design for ITK. It simply involves including itkMINC2ImageIOFactory.h and adding the line\r\n<CODE>\r\n<P> ObjectFactoryBase::RegisterFactory( MINC2ImageIOFactory::New() ); \r\n</CODE>\r\nto the itkImageIOFactory.cxx file and should be done when this code is integrated.\r\n\r\n<P><b>Requests for additional information from authors:</b>\r\n<P>n/a\r\n\r\n<P><b>Additional Comments:</b>\r\n<P>When testing this code, I was confused at first because itk::Image does not support direction cosines at all, and one must use itk::OrientedImage to do so. This is done correctly in this project, and mentioned in comments in the test file, but it might be worth drawing the readers attention to it more specifically.\r\n\r\n<P>The paper does not follow the itkJournal typographical conventions.\r\n\r\n<P>The test file provided has direction cosines that do not have magnitude 1\r\n\r\n<P>Minor spelling and grammar issues:\r\n<UL>\r\n<LI><I>wed site</I> should be <I>web site</I>\r\n<LI><I>miset_real_value_hyperslsab</I> should be <I>miset_real_value_hyperslab</I>\r\n<LI><I>are copied into a temporary buffer one by one and send to</I> - should be <I>sent to</I>.\r\n</UL>\r\n",
+        "date": "04-20-2006",
+        "review_id": 223
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "baghdadi@phenogenomics.ca",
+      "author_firstname": "Leila",
+      "author_fullname": "Baghdadi, Leila",
+      "author_id": 7,
+      "author_institution": "MICe Imaging Centre",
+      "author_lastname": "Baghdadi"
+    },
+    "tags": null,
+    "title": "MINC2.0 IO Support for ITK"
+  }
 }

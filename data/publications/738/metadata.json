@@ -1,64 +1,68 @@
 {
- "publication": {
-  "abstract": "The purpose of this paper is to present our extension of the MITK toolkit by a real-time navigation system for computer assisted surgery. The system was developed with laparoscopic partial nephrectomies as a first application scenario. The main goal of the application is to enable tracking of the tumor position and orientation during surgery. Our system is based on ultrasound to CT registration and electromagnetic tracking. The basic idea is to process tracking information to generate an augmented reality (AR) visualization of a tumor model in the camera image of a laparoscopic camera. Our system will enhance the surgeon\u2019s view on the current scene and therefore facilitates higher safety during the surgery. A key intention of the development was to use only open source toolkits such as VTK, MITK and OpenCV in order to implement the desired functionality. So far we have applied our system in vitro in two phantom trials with a surgeon which yielded promising results.",
-  "authors": [
-   {
-    "author_fullname": "Keil, Matthias",
-    "author_place": 1,
-    "persona_email": "matthias.keil@igd.fraunhofer.de",
-    "persona_firstname": "Matthias",
-    "persona_id": 2629,
-    "persona_lastname": "Keil"
-   },
-   {
-    "author_fullname": "Noll, Matthias",
-    "author_place": 2,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Generic Programming",
-   "Geometric transforms",
-   "Multi-modality registration"
-  ],
-  "comments": [],
-  "date_submitted": "2010-08-15 15:09:35",
-  "handles": [
-   {
-    "handle": "10380/3184",
-    "handle_url": "http://hdl.handle.net/10380/3184"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 37,
-    "journal_name": "MICCAI 2010 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 738,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "matthias.keil@igd.fraunhofer.de",
-   "author_firstname": "Matthias",
-   "author_fullname": "Keil, Matthias",
-   "author_id": 2629,
-   "author_institution": "Fraunhofer IGD",
-   "author_lastname": "Keil"
-  },
-  "tags": [
-   "navigation",
-   "MITK",
-   "VTK",
-   "AR",
-   "OpenCV",
-   "registration",
-   "IGT"
-  ],
-  "title": "Extending MITK by a real-time online video overlay navigation system for minimally invasive surgery"
- }
+  "publication": {
+    "abstract": "The purpose of this paper is to present our extension of the MITK toolkit by a real-time navigation system for computer assisted surgery. The system was developed with laparoscopic partial nephrectomies as a first application scenario. The main goal of the application is to enable tracking of the tumor position and orientation during surgery. Our system is based on ultrasound to CT registration and electromagnetic tracking. The basic idea is to process tracking information to generate an augmented reality (AR) visualization of a tumor model in the camera image of a laparoscopic camera. Our system will enhance the surgeon\u2019s view on the current scene and therefore facilitates higher safety during the surgery. A key intention of the development was to use only open source toolkits such as VTK, MITK and OpenCV in order to implement the desired functionality. So far we have applied our system in vitro in two phantom trials with a surgeon which yielded promising results.",
+    "articles": [
+      "bafybeiabdi6idd5xl3rnm33anevp3nrb43ai77twtmogugeubeoxy4klfe",
+      "bafybeicxtygx7gdpj5p7pmbzzpoq46yc32e4w4e7rubgm2rwnz7uzcamtq"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Keil, Matthias",
+        "author_place": 1,
+        "persona_email": "matthias.keil@igd.fraunhofer.de",
+        "persona_firstname": "Matthias",
+        "persona_id": 2629,
+        "persona_lastname": "Keil"
+      },
+      {
+        "author_fullname": "Noll, Matthias",
+        "author_place": 2,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Generic Programming",
+      "Geometric transforms",
+      "Multi-modality registration"
+    ],
+    "comments": [],
+    "date_submitted": "2010-08-15 15:09:35",
+    "handles": [
+      {
+        "handle": "10380/3184",
+        "handle_url": "http://hdl.handle.net/10380/3184"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 37,
+        "journal_name": "MICCAI 2010 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 738,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "matthias.keil@igd.fraunhofer.de",
+      "author_firstname": "Matthias",
+      "author_fullname": "Keil, Matthias",
+      "author_id": 2629,
+      "author_institution": "Fraunhofer IGD",
+      "author_lastname": "Keil"
+    },
+    "tags": [
+      "navigation",
+      "MITK",
+      "VTK",
+      "AR",
+      "OpenCV",
+      "registration",
+      "IGT"
+    ],
+    "title": "Extending MITK by a real-time online video overlay navigation system for minimally invasive surgery"
+  }
 }

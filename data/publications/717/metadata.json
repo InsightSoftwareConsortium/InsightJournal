@@ -1,63 +1,69 @@
 {
- "publication": {
-  "abstract": "The Fourier transform of the convolution of two images is equal to the product of their\nFourier transform. With this definition, it is possible to create a convolution filter\nbased on the Fast Fourier Transform (FFT). The interesting complexity characteristics of\nthis transform gives a very efficient convolution filter for large kernel images.\n\nThis paper provides such a filter, as well as a detailed description of the implementation\nchoices and a performance comparison with the \"simple\" itk::ConvolutionImageFilter.\n",
-  "authors": [
-   {
-    "author_fullname": "Lehmann, Gaetan",
-    "author_place": 1,
-    "persona_email": "gaetan.lehmann@gmail.com",
-    "persona_firstname": "Gaetan",
-    "persona_id": 328,
-    "persona_lastname": "Lehmann"
-   }
-  ],
-  "categories": [
-   "Filtering",
-   "Parallelization, SMP"
-  ],
-  "comments": [
-   {
-    "content": "Does it works only with ITK 4.0. I want to use it with ITK 3.20. \r\nDoesn\\'t this journal a requirement to add author\\'s email id. ",
-    "date": "2011-09-15T07:46:28",
-    "persona_email": "jothybasu@gmail.com",
-    "persona_firstname": "Jothybasu",
-    "persona_id": 5113,
-    "persona_lastname": "Selvaraj"
-   }
-  ],
-  "date_submitted": "2010-07-22 07:11:57",
-  "handles": [
-   {
-    "handle": "10380/3154",
-    "handle_url": "http://hdl.handle.net/10380/3154"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 717,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "gaetan.lehmann@gmail.com",
-   "author_firstname": "Gaetan",
-   "author_fullname": "Lehmann, Gaetan",
-   "author_id": 328,
-   "author_institution": "INRA",
-   "author_lastname": "Lehmann"
-  },
-  "tags": [
-   "FFT",
-   "Kernel",
-   "Convolution"
-  ],
-  "title": "FFT based convolution"
- }
+  "publication": {
+    "abstract": "The Fourier transform of the convolution of two images is equal to the product of their\nFourier transform. With this definition, it is possible to create a convolution filter\nbased on the Fast Fourier Transform (FFT). The interesting complexity characteristics of\nthis transform gives a very efficient convolution filter for large kernel images.\n\nThis paper provides such a filter, as well as a detailed description of the implementation\nchoices and a performance comparison with the \"simple\" itk::ConvolutionImageFilter.\n",
+    "articles": [
+      "bafybeidjvquwrctfsmxviq5cy3g3qbyj54tinstgampssxnv6st7gqv2lm",
+      "bafybeidjvquwrctfsmxviq5cy3g3qbyj54tinstgampssxnv6st7gqv2lm",
+      "bafybeidrranb5y6w5k4gusjq3zccbaggrudvqdsedpuquv3oddf6eg34bu",
+      "bafybeib26lheddzvpeva47xkf3fjal7c7u75wkyqmgi46xn7oysb4j3tbi"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Lehmann, Gaetan",
+        "author_place": 1,
+        "persona_email": "gaetan.lehmann@gmail.com",
+        "persona_firstname": "Gaetan",
+        "persona_id": 328,
+        "persona_lastname": "Lehmann"
+      }
+    ],
+    "categories": [
+      "Filtering",
+      "Parallelization, SMP"
+    ],
+    "comments": [
+      {
+        "content": "Does it works only with ITK 4.0. I want to use it with ITK 3.20. \r\nDoesn\\'t this journal a requirement to add author\\'s email id. ",
+        "date": "2011-09-15T07:46:28",
+        "persona_email": "jothybasu@gmail.com",
+        "persona_firstname": "Jothybasu",
+        "persona_id": 5113,
+        "persona_lastname": "Selvaraj"
+      }
+    ],
+    "date_submitted": "2010-07-22 07:11:57",
+    "handles": [
+      {
+        "handle": "10380/3154",
+        "handle_url": "http://hdl.handle.net/10380/3154"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 717,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "gaetan.lehmann@gmail.com",
+      "author_firstname": "Gaetan",
+      "author_fullname": "Lehmann, Gaetan",
+      "author_id": 328,
+      "author_institution": "INRA",
+      "author_lastname": "Lehmann"
+    },
+    "tags": [
+      "FFT",
+      "Kernel",
+      "Convolution"
+    ],
+    "title": "FFT based convolution"
+  }
 }

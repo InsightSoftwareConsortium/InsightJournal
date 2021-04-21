@@ -1,71 +1,76 @@
 {
- "publication": {
-  "abstract": "This document describes an implementation of an alternative bilateral filtering algorithm in ITK.\nThis class implements the fast bilateral filter algorithm in ITK by taking the input image and organizing it into the required data structure as an ITK Image with dimension one greater than the original image. The DiscreteGaussianImageFilter is then used to blur the higher dimensional image. The discrete Gaussian image filter was chosen because the kernel width used should usually be small due to the down-sampling involved when using this technique. As described in the ITK documentation, this class should outperform the recursive Gaussian algorithm due to the small kernel size DiscreteGaussianImageFilter.After the Gaussian blur has been completed the data will be interpolated and written to the output image.\n\nBy incorporating this class into the ITK framework, this more efficient algorithm will be made available to all ITK users.",
-  "authors": [
-   {
-    "author_fullname": "Woehr, Jordan",
-    "author_place": 1,
-    "persona_email": "jordanwoehr@gmail.com",
-    "persona_firstname": "Jordan",
-    "persona_id": 2279,
-    "persona_lastname": "Woehr"
-   }
-  ],
-  "categories": [
-   "Anisotropic blurring filters",
-   "Blurring filters",
-   "Edge Detection"
-  ],
-  "comments": [
-   {
-    "content": "For 3d (and 4d) datasets, a small domain sigma may be appropriate in the x and y direction but the distance between slices in the z direction is typically much larger than the pixel spacing in x and y. This leads to a significant increase in memory usage because the small sigma leads to many bins between slices.\r\n\r\nI haven\\'t looked at the code in some time, but I am aware that this is a problem and I have been meaning to look at it again.",
-    "date": "2013-05-08T12:31:19",
-    "persona_email": "jordanwoehr@gmail.com",
-    "persona_firstname": "Jordan",
-    "persona_id": 2279,
-    "persona_lastname": "Woehr"
-   },
-   {
-    "content": "I just now realized that for small sigmas, this filter requires immense amounts of memory! Domain sigma=1.0 with image size 448x448x15 requires 12GB of intermediate storage.",
-    "date": "2012-11-22T05:33:17",
-    "persona_email": "dzenanz@gmail.com",
-    "persona_firstname": "D\u017eenan",
-    "persona_id": 2260,
-    "persona_lastname": "Zuki\u0107"
-   }
-  ],
-  "date_submitted": "2009-08-28 11:27:07",
-  "handles": [
-   {
-    "handle": "10380/3122",
-    "handle_url": "http://hdl.handle.net/10380/3122"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 692,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "jordanwoehr@gmail.com",
-   "author_firstname": "Jordan",
-   "author_fullname": "Woehr, Jordan",
-   "author_id": 2279,
-   "author_institution": "University of Calgary",
-   "author_lastname": "Woehr"
-  },
-  "tags": [
-   "Image processing",
-   "Bilateral filter"
-  ],
-  "title": "A Fast Approximation to the Bilateral Filter for ITK"
- }
+  "publication": {
+    "abstract": "This document describes an implementation of an alternative bilateral filtering algorithm in ITK.\nThis class implements the fast bilateral filter algorithm in ITK by taking the input image and organizing it into the required data structure as an ITK Image with dimension one greater than the original image. The DiscreteGaussianImageFilter is then used to blur the higher dimensional image. The discrete Gaussian image filter was chosen because the kernel width used should usually be small due to the down-sampling involved when using this technique. As described in the ITK documentation, this class should outperform the recursive Gaussian algorithm due to the small kernel size DiscreteGaussianImageFilter.After the Gaussian blur has been completed the data will be interpolated and written to the output image.\n\nBy incorporating this class into the ITK framework, this more efficient algorithm will be made available to all ITK users.",
+    "articles": [
+      "bafkreictkgpncrr6w732yeceyxbed5be64suui4x7pxokjcz7uubht6jfa",
+      "bafkreictkgpncrr6w732yeceyxbed5be64suui4x7pxokjcz7uubht6jfa",
+      "bafkreictkgpncrr6w732yeceyxbed5be64suui4x7pxokjcz7uubht6jfa"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Woehr, Jordan",
+        "author_place": 1,
+        "persona_email": "jordanwoehr@gmail.com",
+        "persona_firstname": "Jordan",
+        "persona_id": 2279,
+        "persona_lastname": "Woehr"
+      }
+    ],
+    "categories": [
+      "Anisotropic blurring filters",
+      "Blurring filters",
+      "Edge Detection"
+    ],
+    "comments": [
+      {
+        "content": "For 3d (and 4d) datasets, a small domain sigma may be appropriate in the x and y direction but the distance between slices in the z direction is typically much larger than the pixel spacing in x and y. This leads to a significant increase in memory usage because the small sigma leads to many bins between slices.\r\n\r\nI haven\\'t looked at the code in some time, but I am aware that this is a problem and I have been meaning to look at it again.",
+        "date": "2013-05-08T12:31:19",
+        "persona_email": "jordanwoehr@gmail.com",
+        "persona_firstname": "Jordan",
+        "persona_id": 2279,
+        "persona_lastname": "Woehr"
+      },
+      {
+        "content": "I just now realized that for small sigmas, this filter requires immense amounts of memory! Domain sigma=1.0 with image size 448x448x15 requires 12GB of intermediate storage.",
+        "date": "2012-11-22T05:33:17",
+        "persona_email": "dzenanz@gmail.com",
+        "persona_firstname": "D\u017eenan",
+        "persona_id": 2260,
+        "persona_lastname": "Zuki\u0107"
+      }
+    ],
+    "date_submitted": "2009-08-28 11:27:07",
+    "handles": [
+      {
+        "handle": "10380/3122",
+        "handle_url": "http://hdl.handle.net/10380/3122"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 692,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "jordanwoehr@gmail.com",
+      "author_firstname": "Jordan",
+      "author_fullname": "Woehr, Jordan",
+      "author_id": 2279,
+      "author_institution": "University of Calgary",
+      "author_lastname": "Woehr"
+    },
+    "tags": [
+      "Image processing",
+      "Bilateral filter"
+    ],
+    "title": "A Fast Approximation to the Bilateral Filter for ITK"
+  }
 }

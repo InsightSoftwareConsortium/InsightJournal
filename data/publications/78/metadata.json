@@ -1,66 +1,72 @@
 {
- "publication": {
-  "abstract": "The itk::GaussianDerivativeImageFunction computes the derivative at the specified physical or pixel location. Unfortunately it has a number of deficiencies, for which I suggest possible solutions.",
-  "authors": [
-   {
-    "author_fullname": "Mueller, Dan",
-    "author_place": 1,
-    "persona_email": "dan.muel@gmail.com",
-    "persona_firstname": "Dan",
-    "persona_id": 286,
-    "persona_lastname": "Mueller"
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2006-02-17T05:46:01Z",
-  "handles": [
-   {
-    "handle": "10380/3067",
-    "handle_url": "http://hdl.handle.net/10380/3067"
-   },
-   {
-    "handle": "1926/170",
-    "handle_url": "http://hdl.handle.net/1926/170"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 78,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "julien@jomier.com",
-     "author_firstname": "Julien",
-     "author_id": 3,
-     "author_lastname": "Jomier"
+  "publication": {
+    "abstract": "The itk::GaussianDerivativeImageFunction computes the derivative at the specified physical or pixel location. Unfortunately it has a number of deficiencies, for which I suggest possible solutions.",
+    "articles": [
+      "bafkreicauareuigvo3grte7ucjz6gjd7luzh7u7bo2ekxnxle2dvutvz34",
+      "bafkreibihn47ieseqkctl7csxqkqkaj5lup4kbl5uue4txdupcv67bn6am",
+      "bafkreihysmpuwrzul6r5sysvkbn4equa3nmsnn65za5l43fzh3cj3ycfqu",
+      "bafkreie7mybborgxbymkzp7vi46uwuldru4ldumqmmkmwtalqvotz5ck74"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Mueller, Dan",
+        "author_place": 1,
+        "persona_email": "dan.muel@gmail.com",
+        "persona_firstname": "Dan",
+        "persona_id": 286,
+        "persona_lastname": "Mueller"
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2006-02-17T05:46:01Z",
+    "handles": [
+      {
+        "handle": "10380/3067",
+        "handle_url": "http://hdl.handle.net/10380/3067"
+      },
+      {
+        "handle": "1926/170",
+        "handle_url": "http://hdl.handle.net/1926/170"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<b>Summary:</b>\r\nThis paper proposes an improvement to the GaussianDerivativeImageFunction while respecting backward compatibility.\r\n \r\n<b>Reproducibility:</b>\r\nI was able to compile the code <b>but only after modifing the main CMakeLists.txt</b>.\r\nNote that since the source code is templated there is no need to create a library for it. CMake was confused about this.\r\nThe following lines:\r\n\r\n #Add Source\r\n #SUBDIRS(Source)\r\n\r\nshould be removed from the main CMakeLists.txt\r\nThis is why the code is not showing up on the Insight Journal website.\r\n\r\n<b>Code Quality:</b>\r\nThe code looks good and respects ITK style for the most part.\r\n\r\n<b>Requests for additional information from authors:</b>\r\na) I could not find the RecomputeContinuousGaussianKernel() function in the current ITK cvs class.\r\nb) The plan is to test that the current ITK cvs is broken.\r\nThe best way is to add the current test Insight/Testing/Code/Common/itkGaussianDerivativeImageFunctionTest.cxx in your publication\r\nand add a test for spaced images at the end of this test. It would be great if you can submit a new revision with this modification.\r\nc) Why is this code not working in 3D?\r\n\r\n<b>Other comments</b>\r\nThis is a very good work. Thanks for the contribution!\r\n",
-    "date": "04-28-2006",
-    "review_id": 226
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "dan.muel@gmail.com",
-   "author_firstname": "Dan",
-   "author_fullname": "Mueller, Dan",
-   "author_id": 286,
-   "author_institution": "Philips Healthcare",
-   "author_lastname": "Mueller"
-  },
-  "tags": [
-   "ImageFunction",
-   "GaussianDerivativeImageFunction"
-  ],
-  "title": "A small rework for the Gaussian Derivative Image Function"
- }
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 78,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "julien@jomier.com",
+          "author_firstname": "Julien",
+          "author_id": 3,
+          "author_lastname": "Jomier"
+        },
+        "content": "<b>Summary:</b>\r\nThis paper proposes an improvement to the GaussianDerivativeImageFunction while respecting backward compatibility.\r\n \r\n<b>Reproducibility:</b>\r\nI was able to compile the code <b>but only after modifing the main CMakeLists.txt</b>.\r\nNote that since the source code is templated there is no need to create a library for it. CMake was confused about this.\r\nThe following lines:\r\n\r\n #Add Source\r\n #SUBDIRS(Source)\r\n\r\nshould be removed from the main CMakeLists.txt\r\nThis is why the code is not showing up on the Insight Journal website.\r\n\r\n<b>Code Quality:</b>\r\nThe code looks good and respects ITK style for the most part.\r\n\r\n<b>Requests for additional information from authors:</b>\r\na) I could not find the RecomputeContinuousGaussianKernel() function in the current ITK cvs class.\r\nb) The plan is to test that the current ITK cvs is broken.\r\nThe best way is to add the current test Insight/Testing/Code/Common/itkGaussianDerivativeImageFunctionTest.cxx in your publication\r\nand add a test for spaced images at the end of this test. It would be great if you can submit a new revision with this modification.\r\nc) Why is this code not working in 3D?\r\n\r\n<b>Other comments</b>\r\nThis is a very good work. Thanks for the contribution!\r\n",
+        "date": "04-28-2006",
+        "review_id": 226
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "dan.muel@gmail.com",
+      "author_firstname": "Dan",
+      "author_fullname": "Mueller, Dan",
+      "author_id": 286,
+      "author_institution": "Philips Healthcare",
+      "author_lastname": "Mueller"
+    },
+    "tags": [
+      "ImageFunction",
+      "GaussianDerivativeImageFunction"
+    ],
+    "title": "A small rework for the Gaussian Derivative Image Function"
+  }
 }

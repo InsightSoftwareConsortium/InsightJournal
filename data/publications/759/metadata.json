@@ -1,62 +1,65 @@
 {
- "publication": {
-  "abstract": "This paper presents a method for nonlinear registration of images, where there exists no one-to-one correspondence in parts of the image. Such a situation occurs for instance in the case where an atlas of normal anatomy shall be matched to pathological data, such as tumors, resections or lesions. Our idea is to use local confidence weights and to model pathological regions with zero confidence. We integrate this concept into the efficient and publicly available diffeomorphic demons registration framework. Finally, we show that this process better captures deformations in high-confidence regions than without using the proposed modification. Furthermore, it is easy to implement and runs faster than previous approaches.",
-  "authors": [
-   {
-    "author_fullname": "Lamecker, Hans",
-    "author_place": 1,
-    "persona_email": "lamecker@zib.de",
-    "persona_firstname": "Hans",
-    "persona_id": 2694,
-    "persona_lastname": "Lamecker"
-   },
-   {
-    "author_fullname": "Pennec, Xavier",
-    "author_place": 2,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Atlas-based segmentation",
-   "Deformable registration",
-   "Registration",
-   "Segmentation"
-  ],
-  "comments": [],
-  "date_submitted": "2010-08-30 09:07:45",
-  "handles": [
-   {
-    "handle": "10380/3208",
-    "handle_url": "http://hdl.handle.net/10380/3208"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 37,
-    "journal_name": "MICCAI 2010 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 759,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "lamecker@zib.de",
-   "author_firstname": "Hans",
-   "author_fullname": "Lamecker, Hans",
-   "author_id": 2694,
-   "author_institution": "Zuse Institute Berlin (ZIB)",
-   "author_lastname": "Lamecker"
-  },
-  "tags": [
-   "non-diffeomorphic registration",
-   "oncology applications",
-   "registration with pathologies",
-   "brain imaging"
-  ],
-  "title": "Atlas to Image-with-Tumor Registration Based on Demons and Deformation Inpainting"
- }
+  "publication": {
+    "abstract": "This paper presents a method for nonlinear registration of images, where there exists no one-to-one correspondence in parts of the image. Such a situation occurs for instance in the case where an atlas of normal anatomy shall be matched to pathological data, such as tumors, resections or lesions. Our idea is to use local confidence weights and to model pathological regions with zero confidence. We integrate this concept into the efficient and publicly available diffeomorphic demons registration framework. Finally, we show that this process better captures deformations in high-confidence regions than without using the proposed modification. Furthermore, it is easy to implement and runs faster than previous approaches.",
+    "articles": [
+      "bafybeigmsrxrxvsz5woonghsk4pwju2tcb3pxkpnah2yywxfm3bq4bvjai"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Lamecker, Hans",
+        "author_place": 1,
+        "persona_email": "lamecker@zib.de",
+        "persona_firstname": "Hans",
+        "persona_id": 2694,
+        "persona_lastname": "Lamecker"
+      },
+      {
+        "author_fullname": "Pennec, Xavier",
+        "author_place": 2,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Atlas-based segmentation",
+      "Deformable registration",
+      "Registration",
+      "Segmentation"
+    ],
+    "comments": [],
+    "date_submitted": "2010-08-30 09:07:45",
+    "handles": [
+      {
+        "handle": "10380/3208",
+        "handle_url": "http://hdl.handle.net/10380/3208"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 37,
+        "journal_name": "MICCAI 2010 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 759,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "lamecker@zib.de",
+      "author_firstname": "Hans",
+      "author_fullname": "Lamecker, Hans",
+      "author_id": 2694,
+      "author_institution": "Zuse Institute Berlin (ZIB)",
+      "author_lastname": "Lamecker"
+    },
+    "tags": [
+      "non-diffeomorphic registration",
+      "oncology applications",
+      "registration with pathologies",
+      "brain imaging"
+    ],
+    "title": "Atlas to Image-with-Tumor Registration Based on Demons and Deformation Inpainting"
+  }
 }

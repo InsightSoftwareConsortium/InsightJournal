@@ -1,65 +1,68 @@
 {
- "publication": {
-  "abstract": "This document describes a filter called itkMultipleUnlabeledImagesToLabeledImageFilter, which takes multiple images as input and generates a single image of labeled pixels. Pixels to be labeled for each image are determined by an intensity threshold. Submitted with this document is the source code for the filter and source code for demonstrating filter usage via an image input as an argument. Also included is source code for testing the functionality of the filter.",
-  "authors": [
-   {
-    "author_fullname": "Tamburo, Robert",
-    "author_place": 1,
-    "persona_email": "robert.tamburo@gmail.com",
-    "persona_firstname": "Robert",
-    "persona_id": 59,
-    "persona_lastname": "Tamburo"
-   }
-  ],
-  "categories": [
-   "Filtering",
-   "Mathematical Morphology",
-   "Thresholding"
-  ],
-  "comments": [],
-  "date_submitted": "2006-10-19T05:43:44Z",
-  "handles": [
-   {
-    "handle": "1926/323",
-    "handle_url": "http://hdl.handle.net/1926/323"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 127,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "gaetan.lehmann@gmail.com",
-     "author_firstname": "Gaetan",
-     "author_id": 328,
-     "author_lastname": "Lehmann"
+  "publication": {
+    "abstract": "This document describes a filter called itkMultipleUnlabeledImagesToLabeledImageFilter, which takes multiple images as input and generates a single image of labeled pixels. Pixels to be labeled for each image are determined by an intensity threshold. Submitted with this document is the source code for the filter and source code for demonstrating filter usage via an image input as an argument. Also included is source code for testing the functionality of the filter.",
+    "articles": [
+      "bafkreidskmxbzpourjjnz64jtwkzbfmziqlruyzem5cpp4ysc62lzzs4hy"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Tamburo, Robert",
+        "author_place": 1,
+        "persona_email": "robert.tamburo@gmail.com",
+        "persona_firstname": "Robert",
+        "persona_id": 59,
+        "persona_lastname": "Tamburo"
+      }
+    ],
+    "categories": [
+      "Filtering",
+      "Mathematical Morphology",
+      "Thresholding"
+    ],
+    "comments": [],
+    "date_submitted": "2006-10-19T05:43:44Z",
+    "handles": [
+      {
+        "handle": "1926/323",
+        "handle_url": "http://hdl.handle.net/1926/323"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<strong>Summary:</strong><br /> The author present a new filter to combine several binary image in a single labeled image. <strong>Open Science:</strong><br /> The source code is provided, as well as the input images, but not the result image. It is easy to reproduce the example. <strong>Reproducibility:</strong><br /> I have downloaded, compile without problem. The test program can&#39;t run as it is: the ${CMAKE_SOURCE_DIR} string in images/testfiles is not expanded when read by the test program. Even by replacing manually the string above by the full path, I failed to get the expected output: the image is all black. <strong>Use of Open Source Software:</strong><br /> fully ITK <strong>Open Source Contributions:</strong><br /> The source code provided is designed to be reused, and is provided as a contribution to ITK <strong>Code Quality:</strong><br /> The code does not fully follow the ITK coding style (indentation, brackets, ...) - a minor issue - and doesn&#39;t use the pipeline architecture of ITK - this time, a major issue. <strong>Applicability to other problems:</strong><br /> It seem to be a quite common need to combine the result of different segmentations procedures in a labeled image. This code may be reused in many cases. <strong>Suggestions for future work:</strong><br /><ul><li> use the ITK pipeline architecture. You can avoid doing most of the work by implementing your class as a subclass of NaryFunctorImageFilter. </li><li> provide the output image </li><li> fix the test. You should test the output image with ImageCompare </li><li> implement the collision case </li><li> perhaps call it NaryBinaryImageToLabelImageFilter ? </li></ul><strong>Additional Comments:</strong><br /> The problems above looks like small beginner&#39;s mistakes. Please contact me if you need some help to fix the problems above. I&#39;d be pleased to help&nbsp;:-) ",
-    "date": "10-31-2006",
-    "review_id": 424
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "robert.tamburo@gmail.com",
-   "author_firstname": "Robert",
-   "author_fullname": "Tamburo, Robert",
-   "author_id": 59,
-   "author_institution": " ",
-   "author_lastname": "Tamburo"
-  },
-  "tags": [
-   "filter assigning labels"
-  ],
-  "title": "itkMultipleUnlabeledImagesToLabeledImageFilter"
- }
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 127,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "gaetan.lehmann@gmail.com",
+          "author_firstname": "Gaetan",
+          "author_id": 328,
+          "author_lastname": "Lehmann"
+        },
+        "content": "<strong>Summary:</strong><br /> The author present a new filter to combine several binary image in a single labeled image. <strong>Open Science:</strong><br /> The source code is provided, as well as the input images, but not the result image. It is easy to reproduce the example. <strong>Reproducibility:</strong><br /> I have downloaded, compile without problem. The test program can&#39;t run as it is: the ${CMAKE_SOURCE_DIR} string in images/testfiles is not expanded when read by the test program. Even by replacing manually the string above by the full path, I failed to get the expected output: the image is all black. <strong>Use of Open Source Software:</strong><br /> fully ITK <strong>Open Source Contributions:</strong><br /> The source code provided is designed to be reused, and is provided as a contribution to ITK <strong>Code Quality:</strong><br /> The code does not fully follow the ITK coding style (indentation, brackets, ...) - a minor issue - and doesn&#39;t use the pipeline architecture of ITK - this time, a major issue. <strong>Applicability to other problems:</strong><br /> It seem to be a quite common need to combine the result of different segmentations procedures in a labeled image. This code may be reused in many cases. <strong>Suggestions for future work:</strong><br /><ul><li> use the ITK pipeline architecture. You can avoid doing most of the work by implementing your class as a subclass of NaryFunctorImageFilter. </li><li> provide the output image </li><li> fix the test. You should test the output image with ImageCompare </li><li> implement the collision case </li><li> perhaps call it NaryBinaryImageToLabelImageFilter ? </li></ul><strong>Additional Comments:</strong><br /> The problems above looks like small beginner&#39;s mistakes. Please contact me if you need some help to fix the problems above. I&#39;d be pleased to help&nbsp;:-) ",
+        "date": "10-31-2006",
+        "review_id": 424
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "robert.tamburo@gmail.com",
+      "author_firstname": "Robert",
+      "author_fullname": "Tamburo, Robert",
+      "author_id": 59,
+      "author_institution": " ",
+      "author_lastname": "Tamburo"
+    },
+    "tags": [
+      "filter assigning labels"
+    ],
+    "title": "itkMultipleUnlabeledImagesToLabeledImageFilter"
+  }
 }

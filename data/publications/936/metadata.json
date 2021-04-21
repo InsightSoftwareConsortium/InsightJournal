@@ -1,67 +1,71 @@
 {
- "publication": {
-  "abstract": "In this paper, we propose a semi-automatic method for left ventricle segmentation. The proposed method utilizes a multi-scale quadrature filter method to enhance the 3D volume, followed by a model-based level set method to segment the endocardial surface of the left ventricle. The phase map from the quadrature filters is also used to weight the influence of contour points when updating the statistical model.",
-  "authors": [
-   {
-    "author_fullname": "Wang, Chunliang",
-    "author_place": 1,
-    "persona_email": "chunliang.wang@liu.se",
-    "persona_firstname": "Chunliang",
-    "persona_id": 8762,
-    "persona_lastname": "Wang"
-   },
-   {
-    "author_fullname": "Wang, Chunliang",
-    "author_place": 1,
-    "persona_email": "1013812915@qq.com",
-    "persona_firstname": "Chun",
-    "persona_id": 11811,
-    "persona_lastname": "Wang"
-   },
-   {
-    "author_fullname": "Smedby, Orjan",
-    "author_place": 2,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Feature extraction",
-   "Level sets",
-   "Segmentation"
-  ],
-  "comments": [],
-  "date_submitted": "2014-10-24 19:10:55",
-  "handles": [
-   {
-    "handle": "10380/3489",
-    "handle_url": "http://hdl.handle.net/10380/3489"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 42,
-    "journal_name": "MICCAI 2014 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 936,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "olivier.bernard@creatis.insa-lyon.fr",
-   "author_firstname": "Olivier",
-   "author_fullname": "Bernard, Olivier",
-   "author_id": 5768,
-   "author_institution": "CREATIS",
-   "author_lastname": "Bernard"
-  },
-  "tags": [
-   "3D ultrasound imaging",
-   "Segmentation"
-  ],
-  "title": "Model-based left ventricle segmentation in 3D ultrasound using phase image"
- }
+  "publication": {
+    "abstract": "In this paper, we propose a semi-automatic method for left ventricle segmentation. The proposed method utilizes a multi-scale quadrature filter method to enhance the 3D volume, followed by a model-based level set method to segment the endocardial surface of the left ventricle. The phase map from the quadrature filters is also used to weight the influence of contour points when updating the statistical model.",
+    "articles": [
+      "bafybeibo57bjuvdi5cvmadoixua5rfkqsgxt63ex5slggeucnycbqwztsq",
+      "bafybeicvipkkuq2kbl5ki7mjx34rkuavwmkpd3bccf32ykrqf6ljhvhr3y"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Wang, Chunliang",
+        "author_place": 1,
+        "persona_email": "chunliang.wang@liu.se",
+        "persona_firstname": "Chunliang",
+        "persona_id": 8762,
+        "persona_lastname": "Wang"
+      },
+      {
+        "author_fullname": "Wang, Chunliang",
+        "author_place": 1,
+        "persona_email": "1013812915@qq.com",
+        "persona_firstname": "Chun",
+        "persona_id": 11811,
+        "persona_lastname": "Wang"
+      },
+      {
+        "author_fullname": "Smedby, Orjan",
+        "author_place": 2,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Feature extraction",
+      "Level sets",
+      "Segmentation"
+    ],
+    "comments": [],
+    "date_submitted": "2014-10-24 19:10:55",
+    "handles": [
+      {
+        "handle": "10380/3489",
+        "handle_url": "http://hdl.handle.net/10380/3489"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 42,
+        "journal_name": "MICCAI 2014 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 936,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "olivier.bernard@creatis.insa-lyon.fr",
+      "author_firstname": "Olivier",
+      "author_fullname": "Bernard, Olivier",
+      "author_id": 5768,
+      "author_institution": "CREATIS",
+      "author_lastname": "Bernard"
+    },
+    "tags": [
+      "3D ultrasound imaging",
+      "Segmentation"
+    ],
+    "title": "Model-based left ventricle segmentation in 3D ultrasound using phase image"
+  }
 }

@@ -1,59 +1,65 @@
 {
- "publication": {
-  "abstract": "We present a filter that voxelizes the volume of a 3D structured, unstructured, or rectilinear grid into a vtkImageData with partial volume effects. The partial grid volume occupying each voxel is computed exactly from the intersection of the grid volume and the voxel volume. ",
-  "authors": [
-   {
-    "author_fullname": "Quammen, Cory",
-    "author_place": 2,
-    "persona_email": "cquammen@cs.unc.edu",
-    "persona_firstname": "Cory",
-    "persona_id": 2538,
-    "persona_lastname": "Quammen"
-   },
-   {
-    "author_fullname": "Taylor II, Russell M.",
-    "author_place": 3,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Image",
-   "Mesh",
-   "Resampling"
-  ],
-  "comments": [],
-  "date_submitted": "2011-03-01 21:58:01",
-  "handles": [
-   {
-    "handle": "10380/3254",
-    "handle_url": "http://hdl.handle.net/10380/3254"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 35,
-    "journal_name": "The VTK Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 792,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "cquammen@cs.unc.edu",
-   "author_firstname": "Cory",
-   "author_fullname": "Quammen, Cory",
-   "author_id": 2538,
-   "author_institution": "University of North Carolina at Chapel Hill",
-   "author_lastname": "Quammen"
-  },
-  "tags": [
-   "partial volume effects",
-   "voxelization"
-  ],
-  "title": "Grid voxelization with partial volume effects in VTK"
- }
+  "publication": {
+    "abstract": "We present a filter that voxelizes the volume of a 3D structured, unstructured, or rectilinear grid into a vtkImageData with partial volume effects. The partial grid volume occupying each voxel is computed exactly from the intersection of the grid volume and the voxel volume. ",
+    "articles": [
+      "bafkreick7sxlokgmzptpdjmy3tmoaccg2admdidvhlit4wc4j3va5n7q7a",
+      "bafkreick7sxlokgmzptpdjmy3tmoaccg2admdidvhlit4wc4j3va5n7q7a",
+      "bafkreick7sxlokgmzptpdjmy3tmoaccg2admdidvhlit4wc4j3va5n7q7a",
+      "bafkreick7sxlokgmzptpdjmy3tmoaccg2admdidvhlit4wc4j3va5n7q7a"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Quammen, Cory",
+        "author_place": 2,
+        "persona_email": "cquammen@cs.unc.edu",
+        "persona_firstname": "Cory",
+        "persona_id": 2538,
+        "persona_lastname": "Quammen"
+      },
+      {
+        "author_fullname": "Taylor II, Russell M.",
+        "author_place": 3,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Image",
+      "Mesh",
+      "Resampling"
+    ],
+    "comments": [],
+    "date_submitted": "2011-03-01 21:58:01",
+    "handles": [
+      {
+        "handle": "10380/3254",
+        "handle_url": "http://hdl.handle.net/10380/3254"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 35,
+        "journal_name": "The VTK Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 792,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "cquammen@cs.unc.edu",
+      "author_firstname": "Cory",
+      "author_fullname": "Quammen, Cory",
+      "author_id": 2538,
+      "author_institution": "University of North Carolina at Chapel Hill",
+      "author_lastname": "Quammen"
+    },
+    "tags": [
+      "partial volume effects",
+      "voxelization"
+    ],
+    "title": "Grid voxelization with partial volume effects in VTK"
+  }
 }

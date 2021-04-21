@@ -1,75 +1,78 @@
 {
- "publication": {
-  "abstract": "This paper describes the ITK implementation of a shortest path extraction algorithm based on graph representation of the image and the Dijkstra shortest path algorithm. The method requires the user to provide two inputs: 1. path information in the form of start, end, and neighboring mode, the form of which path is allowed to propagate between neighboring pixels, and 2. a weighting function which sets the distance metric between neighboring pixels. A number of perspectives for choosing weighting functions are given, as well as examples using real images. This paper can also serve as an example for utilizing the Boost C++ graph library into the ITK framework.",
-  "authors": [
-   {
-    "author_fullname": "Weizman, Lior",
-    "author_place": 1,
-    "persona_email": "lweizm45@cs.huji.ac.il",
-    "persona_firstname": "Lior",
-    "persona_id": 1051,
-    "persona_lastname": "Weizman"
-   },
-   {
-    "author_fullname": "Freiman, Moti",
-    "author_place": 2,
-    "persona_email": "freiman@cs.huji.ac.il",
-    "persona_firstname": "Moti",
-    "persona_id": 120,
-    "persona_lastname": "Freiman"
-   },
-   {
-    "author_fullname": "Joskowicz, Leo",
-    "author_place": 3,
-    "persona_email": "josko@cs.huji.ac.il",
-    "persona_firstname": "Leo",
-    "persona_id": 2165,
-    "persona_lastname": "Joskowicz"
-   }
-  ],
-  "categories": [
-   "Data Representation",
-   "Distance maps",
-   "Filtering",
-   "Neighborhood filters",
-   "Path"
-  ],
-  "comments": [],
-  "date_submitted": "2009-01-29 15:07:57",
-  "handles": [
-   {
-    "handle": "1926/1520",
-    "handle_url": "http://hdl.handle.net/1926/1520"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 315,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "lweizm45@cs.huji.ac.il",
-   "author_firstname": "Lior",
-   "author_fullname": "Weizman, Lior",
-   "author_id": 1051,
-   "author_institution": "Hebrew University of Jerusalem",
-   "author_lastname": "Weizman"
-  },
-  "tags": [
-   "minimal path",
-   "ITK",
-   "boost",
-   "vessel segmentation",
-   "centerline"
-  ],
-  "title": "Implementation of weighted Dijkstra\u2019s shortest-path algorithm for n-D images"
- }
+  "publication": {
+    "abstract": "This paper describes the ITK implementation of a shortest path extraction algorithm based on graph representation of the image and the Dijkstra shortest path algorithm. The method requires the user to provide two inputs: 1. path information in the form of start, end, and neighboring mode, the form of which path is allowed to propagate between neighboring pixels, and 2. a weighting function which sets the distance metric between neighboring pixels. A number of perspectives for choosing weighting functions are given, as well as examples using real images. This paper can also serve as an example for utilizing the Boost C++ graph library into the ITK framework.",
+    "articles": [
+      "bafkreibvehbpswocy3bv5wmmaldggrbblsdaqcsxmdn4uhrigyx4p7zcx4"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Weizman, Lior",
+        "author_place": 1,
+        "persona_email": "lweizm45@cs.huji.ac.il",
+        "persona_firstname": "Lior",
+        "persona_id": 1051,
+        "persona_lastname": "Weizman"
+      },
+      {
+        "author_fullname": "Freiman, Moti",
+        "author_place": 2,
+        "persona_email": "freiman@cs.huji.ac.il",
+        "persona_firstname": "Moti",
+        "persona_id": 120,
+        "persona_lastname": "Freiman"
+      },
+      {
+        "author_fullname": "Joskowicz, Leo",
+        "author_place": 3,
+        "persona_email": "josko@cs.huji.ac.il",
+        "persona_firstname": "Leo",
+        "persona_id": 2165,
+        "persona_lastname": "Joskowicz"
+      }
+    ],
+    "categories": [
+      "Data Representation",
+      "Distance maps",
+      "Filtering",
+      "Neighborhood filters",
+      "Path"
+    ],
+    "comments": [],
+    "date_submitted": "2009-01-29 15:07:57",
+    "handles": [
+      {
+        "handle": "1926/1520",
+        "handle_url": "http://hdl.handle.net/1926/1520"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 315,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "lweizm45@cs.huji.ac.il",
+      "author_firstname": "Lior",
+      "author_fullname": "Weizman, Lior",
+      "author_id": 1051,
+      "author_institution": "Hebrew University of Jerusalem",
+      "author_lastname": "Weizman"
+    },
+    "tags": [
+      "minimal path",
+      "ITK",
+      "boost",
+      "vessel segmentation",
+      "centerline"
+    ],
+    "title": "Implementation of weighted Dijkstra\u2019s shortest-path algorithm for n-D images"
+  }
 }

@@ -1,53 +1,56 @@
 {
- "publication": {
-  "abstract": "This document describes a contribution to the Insight Toolkit intended to support the process of subdivision of triangle mesh. Four approaches, linear, Loop, modified butterfly and $sqrt{3}$ subdivision schemes were introduced.",
-  "authors": [
-   {
-    "author_fullname": "Zhu, Wanlin",
-    "author_place": 1,
-    "persona_email": "wanl.zhu@gmail.com",
-    "persona_firstname": "Wanlin",
-    "persona_id": 257,
-    "persona_lastname": "Zhu"
-   }
-  ],
-  "categories": [
-   "Mesh",
-   "PointSet"
-  ],
-  "comments": [],
-  "date_submitted": "2011-07-24 09:30:51",
-  "handles": [
-   {
-    "handle": "10380/3307",
-    "handle_url": "http://hdl.handle.net/10380/3307"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 831,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "wanl.zhu@gmail.com",
-   "author_firstname": "Wanlin",
-   "author_fullname": "Zhu, Wanlin",
-   "author_id": 257,
-   "author_institution": "University of New South Wales",
-   "author_lastname": "Zhu"
-  },
-  "tags": [
-   "Subdivision",
-   "QuadEdgeMesh"
-  ],
-  "title": "Triangle Mesh Subdivision"
- }
+  "publication": {
+    "abstract": "This document describes a contribution to the Insight Toolkit intended to support the process of subdivision of triangle mesh. Four approaches, linear, Loop, modified butterfly and $sqrt{3}$ subdivision schemes were introduced.",
+    "articles": [
+      "bafybeic5utfs7o6nx7mp7h5hiaqnbmn235wwakjoavnxuh2s4t7cwzbche"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Zhu, Wanlin",
+        "author_place": 1,
+        "persona_email": "wanl.zhu@gmail.com",
+        "persona_firstname": "Wanlin",
+        "persona_id": 257,
+        "persona_lastname": "Zhu"
+      }
+    ],
+    "categories": [
+      "Mesh",
+      "PointSet"
+    ],
+    "comments": [],
+    "date_submitted": "2011-07-24 09:30:51",
+    "handles": [
+      {
+        "handle": "10380/3307",
+        "handle_url": "http://hdl.handle.net/10380/3307"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 831,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "wanl.zhu@gmail.com",
+      "author_firstname": "Wanlin",
+      "author_fullname": "Zhu, Wanlin",
+      "author_id": 257,
+      "author_institution": "University of New South Wales",
+      "author_lastname": "Zhu"
+    },
+    "tags": [
+      "Subdivision",
+      "QuadEdgeMesh"
+    ],
+    "title": "Triangle Mesh Subdivision"
+  }
 }

@@ -1,68 +1,71 @@
 {
- "publication": {
-  "abstract": "We present a method for automated brain-tissue segmentation through voxelwise classification. Our algorithm uses manually labeled training images to train a support vector machine (SVM) classifier, which is then used for the segmentation of target images. The classification incorporates voxel intensities from a T1-weighted scan, an IR scan, and a FLAIR scan; features to encode the voxel position in the image; and Gaussian-scale-space features and Gaussian-derivative features at\nmultiple scales to facilitate a smooth segmentation.\nAn experiment on data from the MRBrainS13 brain-tissue-segmentation challenge showed that our algorithm produces reasonable segmentations in a reasonable amount of time.",
-  "authors": [
-   {
-    "author_fullname": "Van Opbroek, Annegreet",
-    "author_place": 1,
-    "persona_email": "a.vanopbroek@erasmusmc.nl",
-    "persona_firstname": "Annegreet",
-    "persona_id": 8742,
-    "persona_lastname": "Van opbroek"
-   },
-   {
-    "author_fullname": "Van der Lijn, Fedde",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "De Bruijne, Marleen",
-    "author_place": 3,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Classification",
-   "Mathematics",
-   "Segmentation"
-  ],
-  "comments": [],
-  "date_submitted": "2013-10-23 09:38:24",
-  "handles": [
-   {
-    "handle": "10380/3443",
-    "handle_url": "http://hdl.handle.net/10380/3443"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 41,
-    "journal_name": "MICCAI 2013 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 907,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "a.vanopbroek@erasmusmc.nl",
-   "author_firstname": "Annegreet",
-   "author_fullname": "Van opbroek, Annegreet",
-   "author_id": 8742,
-   "author_institution": "Erasmus MC",
-   "author_lastname": "Van opbroek"
-  },
-  "tags": [
-   "Segmentation",
-   "Pattern Recognition",
-   "Classification",
-   "Machine Learning",
-   "MRI",
-   "Brain"
-  ],
-  "title": "Automated Brain-Tissue Segmentation by Multi-Feature SVM Classification"
- }
+  "publication": {
+    "abstract": "We present a method for automated brain-tissue segmentation through voxelwise classification. Our algorithm uses manually labeled training images to train a support vector machine (SVM) classifier, which is then used for the segmentation of target images. The classification incorporates voxel intensities from a T1-weighted scan, an IR scan, and a FLAIR scan; features to encode the voxel position in the image; and Gaussian-scale-space features and Gaussian-derivative features at\nmultiple scales to facilitate a smooth segmentation.\nAn experiment on data from the MRBrainS13 brain-tissue-segmentation challenge showed that our algorithm produces reasonable segmentations in a reasonable amount of time.",
+    "articles": [
+      "bafkreiapeayzk2z5qiocxbu65b4p5gzxfkx6f4iuon2dkuwaiy2fagvmli"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Van Opbroek, Annegreet",
+        "author_place": 1,
+        "persona_email": "a.vanopbroek@erasmusmc.nl",
+        "persona_firstname": "Annegreet",
+        "persona_id": 8742,
+        "persona_lastname": "Van opbroek"
+      },
+      {
+        "author_fullname": "Van der Lijn, Fedde",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "De Bruijne, Marleen",
+        "author_place": 3,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Classification",
+      "Mathematics",
+      "Segmentation"
+    ],
+    "comments": [],
+    "date_submitted": "2013-10-23 09:38:24",
+    "handles": [
+      {
+        "handle": "10380/3443",
+        "handle_url": "http://hdl.handle.net/10380/3443"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 41,
+        "journal_name": "MICCAI 2013 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 907,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "a.vanopbroek@erasmusmc.nl",
+      "author_firstname": "Annegreet",
+      "author_fullname": "Van opbroek, Annegreet",
+      "author_id": 8742,
+      "author_institution": "Erasmus MC",
+      "author_lastname": "Van opbroek"
+    },
+    "tags": [
+      "Segmentation",
+      "Pattern Recognition",
+      "Classification",
+      "Machine Learning",
+      "MRI",
+      "Brain"
+    ],
+    "title": "Automated Brain-Tissue Segmentation by Multi-Feature SVM Classification"
+  }
 }

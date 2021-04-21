@@ -1,69 +1,74 @@
 {
- "publication": {
-  "abstract": "A software architecture has been developed for image-guided robot-assisted cell manipulation. The system provides tools for positioning and navigation of multiple micromanipulators under live microscope images. The main application of this system is in multi-electrode patch clamp electrophysiology; however the same architecture can be used for any other type of cell micromanipulation as well as other applications such as micro-assembly.",
-  "authors": [
-   {
-    "author_fullname": "Azizian, Mahdi",
-    "author_place": 1,
-    "persona_email": "mazizian@uwo.ca",
-    "persona_firstname": "Mahdi",
-    "persona_id": 3004,
-    "persona_lastname": "Azizian"
-   },
-   {
-    "author_fullname": "Patel, Rajni",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Gavrilovici, Cezar",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Poulter, Michael",
-    "author_place": 4,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "IO",
-   "Programming"
-  ],
-  "comments": [],
-  "date_submitted": "2011-08-05 15:07:23",
-  "handles": [
-   {
-    "handle": "10380/3283",
-    "handle_url": "http://hdl.handle.net/10380/3283"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 38,
-    "journal_name": "MICCAI 2011 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 817,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "mazizian@uwo.ca",
-   "author_firstname": "Mahdi",
-   "author_fullname": "Azizian, Mahdi",
-   "author_id": 3004,
-   "author_institution": "The University of Western Ontario",
-   "author_lastname": "Azizian"
-  },
-  "tags": [
-   "Patch Clamping",
-   "Image-Guided Robotics",
-   "Cell Manipulation"
-  ],
-  "title": "A software architecture for cell manipulation"
- }
+  "publication": {
+    "abstract": "A software architecture has been developed for image-guided robot-assisted cell manipulation. The system provides tools for positioning and navigation of multiple micromanipulators under live microscope images. The main application of this system is in multi-electrode patch clamp electrophysiology; however the same architecture can be used for any other type of cell micromanipulation as well as other applications such as micro-assembly.",
+    "articles": [
+      "bafybeiclaclm4rnstwznpnjtmpqfrehne7imrzaqtjl2ybj5acub3lbn54",
+      "bafybeicvedav6j26zeclxgntdjwq3fy43qo3ph677tlpqhaw7et7ln5ndi",
+      "bafybeied4wmxybn3jzid57k2bnwxhcv5kgimoty4pllk4kfselqw7rxf5y"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Azizian, Mahdi",
+        "author_place": 1,
+        "persona_email": "mazizian@uwo.ca",
+        "persona_firstname": "Mahdi",
+        "persona_id": 3004,
+        "persona_lastname": "Azizian"
+      },
+      {
+        "author_fullname": "Patel, Rajni",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Gavrilovici, Cezar",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Poulter, Michael",
+        "author_place": 4,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "IO",
+      "Programming"
+    ],
+    "comments": [],
+    "date_submitted": "2011-08-05 15:07:23",
+    "handles": [
+      {
+        "handle": "10380/3283",
+        "handle_url": "http://hdl.handle.net/10380/3283"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 38,
+        "journal_name": "MICCAI 2011 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 817,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "mazizian@uwo.ca",
+      "author_firstname": "Mahdi",
+      "author_fullname": "Azizian, Mahdi",
+      "author_id": 3004,
+      "author_institution": "The University of Western Ontario",
+      "author_lastname": "Azizian"
+    },
+    "tags": [
+      "Patch Clamping",
+      "Image-Guided Robotics",
+      "Cell Manipulation"
+    ],
+    "title": "A software architecture for cell manipulation"
+  }
 }

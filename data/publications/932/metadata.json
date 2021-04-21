@@ -1,68 +1,72 @@
 {
- "publication": {
-  "abstract": "We propose a learning based approach to perform automatic segmentation of the left ventricle in 3D cardiac ultrasound images. The segmentation contour is estimated through the use of a variant of Hough forests whose object localization capabilities are coupled with a patch-wise, appearance driven, contour estimation strategy. The performance of the proposed method is evaluated on a dataset of 30 images acquired\nfrom 15 patients using different equipment and settings.",
-  "authors": [
-   {
-    "author_fullname": "Milletari, Fausto",
-    "author_place": 1,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Yigitsoy, Mehmet",
-    "author_place": 2,
-    "persona_email": "yigitsoy@in.tum.de",
-    "persona_firstname": "Mehmet",
-    "persona_id": 2238,
-    "persona_lastname": "Yigitsoy"
-   },
-   {
-    "author_fullname": "Navab, Nassir",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Ahmadi, Seyed-Ahmad",
-    "author_place": 4,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Segmentation",
-   "Unsupervised learning and clustering"
-  ],
-  "comments": [],
-  "date_submitted": "2014-10-24 19:08:58",
-  "handles": [
-   {
-    "handle": "10380/3485",
-    "handle_url": "http://hdl.handle.net/10380/3485"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 42,
-    "journal_name": "MICCAI 2014 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 932,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "olivier.bernard@creatis.insa-lyon.fr",
-   "author_firstname": "Olivier",
-   "author_fullname": "Bernard, Olivier",
-   "author_id": 5768,
-   "author_institution": "CREATIS",
-   "author_lastname": "Bernard"
-  },
-  "tags": [
-   "3D ultrasound imaging",
-   "Segmentation"
-  ],
-  "title": "Left Ventricle Segmentation in Cardiac Ultrasound Using Hough-Forests With Implicit Shape and Appearance Priors"
- }
+  "publication": {
+    "abstract": "We propose a learning based approach to perform automatic segmentation of the left ventricle in 3D cardiac ultrasound images. The segmentation contour is estimated through the use of a variant of Hough forests whose object localization capabilities are coupled with a patch-wise, appearance driven, contour estimation strategy. The performance of the proposed method is evaluated on a dataset of 30 images acquired\nfrom 15 patients using different equipment and settings.",
+    "articles": [
+      "bafybeibdsjvdqju5tui7dbt6fnhpx7jt5gwsjc62onrhp4z72aidu5yohu",
+      "bafybeietgteuwroe6q33ltfug3mzdiagefspkisudvlnjlpsc3evu57rbq"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Milletari, Fausto",
+        "author_place": 1,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Yigitsoy, Mehmet",
+        "author_place": 2,
+        "persona_email": "yigitsoy@in.tum.de",
+        "persona_firstname": "Mehmet",
+        "persona_id": 2238,
+        "persona_lastname": "Yigitsoy"
+      },
+      {
+        "author_fullname": "Navab, Nassir",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Ahmadi, Seyed-Ahmad",
+        "author_place": 4,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Segmentation",
+      "Unsupervised learning and clustering"
+    ],
+    "comments": [],
+    "date_submitted": "2014-10-24 19:08:58",
+    "handles": [
+      {
+        "handle": "10380/3485",
+        "handle_url": "http://hdl.handle.net/10380/3485"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 42,
+        "journal_name": "MICCAI 2014 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 932,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "olivier.bernard@creatis.insa-lyon.fr",
+      "author_firstname": "Olivier",
+      "author_fullname": "Bernard, Olivier",
+      "author_id": 5768,
+      "author_institution": "CREATIS",
+      "author_lastname": "Bernard"
+    },
+    "tags": [
+      "3D ultrasound imaging",
+      "Segmentation"
+    ],
+    "title": "Left Ventricle Segmentation in Cardiac Ultrasound Using Hough-Forests With Implicit Shape and Appearance Priors"
+  }
 }

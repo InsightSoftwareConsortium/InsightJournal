@@ -1,60 +1,63 @@
 {
- "publication": {
-  "abstract": "ImageCalculator is a command line program for doing simple mathematical operations to a series of images and generating an new output image and basic statistics about the output image. The program uses the Insight Toolkit (www.ITK.org) for file IO and computations, and can operate on any of the image\r\ntypes supported by that library.",
-  "authors": [
-   {
-    "author_fullname": "Jammalamadaka, Vamsi",
-    "author_place": 1,
-    "persona_email": "vamsi2200@rediffmail.com",
-    "persona_firstname": "Vamsi",
-    "persona_id": 146,
-    "persona_lastname": "Jammalamadaka"
-   },
-   {
-    "author_fullname": "Johnson, Hans",
-    "author_place": 2,
-    "persona_email": "hans-johnson@uiowa.edu",
-    "persona_firstname": "Hans",
-    "persona_id": 21,
-    "persona_lastname": "Johnson"
-   }
-  ],
-  "categories": [
-   "Filtering"
-  ],
-  "comments": [],
-  "date_submitted": "2005-12-29T20:02:42Z",
-  "handles": [
-   {
-    "handle": "1926/157",
-    "handle_url": "http://hdl.handle.net/1926/157"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 67,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "vamsi2200@rediffmail.com",
-   "author_firstname": "Vamsi",
-   "author_fullname": "Jammalamadaka, Vamsi",
-   "author_id": 146,
-   "author_institution": "university of Iowa",
-   "author_lastname": "Jammalamadaka"
-  },
-  "tags": [
-   "Program",
-   "2d and 3d Image arithmetic and statistics"
-  ],
-  "title": "Image Calculator"
- }
+  "publication": {
+    "abstract": "ImageCalculator is a command line program for doing simple mathematical operations to a series of images and generating an new output image and basic statistics about the output image. The program uses the Insight Toolkit (www.ITK.org) for file IO and computations, and can operate on any of the image\r\ntypes supported by that library.",
+    "articles": [
+      "bafkreic333ivxx7y2vr645ycogekiznxtyizzsjd3deie6r22t6eeqmfbe"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Jammalamadaka, Vamsi",
+        "author_place": 1,
+        "persona_email": "vamsi2200@rediffmail.com",
+        "persona_firstname": "Vamsi",
+        "persona_id": 146,
+        "persona_lastname": "Jammalamadaka"
+      },
+      {
+        "author_fullname": "Johnson, Hans",
+        "author_place": 2,
+        "persona_email": "hans-johnson@uiowa.edu",
+        "persona_firstname": "Hans",
+        "persona_id": 21,
+        "persona_lastname": "Johnson"
+      }
+    ],
+    "categories": [
+      "Filtering"
+    ],
+    "comments": [],
+    "date_submitted": "2005-12-29T20:02:42Z",
+    "handles": [
+      {
+        "handle": "1926/157",
+        "handle_url": "http://hdl.handle.net/1926/157"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 67,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "vamsi2200@rediffmail.com",
+      "author_firstname": "Vamsi",
+      "author_fullname": "Jammalamadaka, Vamsi",
+      "author_id": 146,
+      "author_institution": "university of Iowa",
+      "author_lastname": "Jammalamadaka"
+    },
+    "tags": [
+      "Program",
+      "2d and 3d Image arithmetic and statistics"
+    ],
+    "title": "Image Calculator"
+  }
 }

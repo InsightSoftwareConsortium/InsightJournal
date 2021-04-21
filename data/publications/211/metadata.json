@@ -1,110 +1,113 @@
 {
- "publication": {
-  "abstract": "FusionViewer is an open source and platform independent viewer that has been specifically designed for PET/CT image display. The combination of PET and CT images offers complementary functional and anatomical information. The application (FusionViewer) facilitates efficient visualization and analysis of PET/CT studies via different viewing modes (linked cursor display, alpha-blend mode, checkerboard mode and split window mode). FusionViewer is implemented in Java and uses the Java OpenGL (JOGL) library and the Insight Segmentation and Registration Toolkit (ITK) library, which make it both a fast and cross-platform application. Its intuitive graphical user interface makes it easy to be used by physicians, radiologists, and research scientists. Several analysis and display tools are already available (navigator, zoom, pan, screen snapshot, ROI, and line measure tool; alpha-blending, checkerboard display, and split window display). Along with PET/CT, several other modalities where co-registered images are often visualized simultaneously have benefited from the use of this software.",
-  "authors": [
-   {
-    "author_fullname": "Lu, Yi",
-    "author_place": 1,
-    "persona_email": "jati.lue@gmail.com",
-    "persona_firstname": "Yi",
-    "persona_id": 785,
-    "persona_lastname": "Lu"
-   },
-   {
-    "author_fullname": "Lau, Chris",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Ng, Lydia",
-    "author_place": 3,
-    "persona_email": "lydian@alleninstitute.org",
-    "persona_firstname": "Lydia",
-    "persona_id": 64,
-    "persona_lastname": "Ng"
-   },
-   {
-    "author_fullname": "Gong, Lixin",
-    "author_place": 4,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Kinahan, Paul",
-    "author_place": 5,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Alessio, Adam",
-    "author_place": 6,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Goldschneider, Jill",
-    "author_place": 7,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Pathak, Sayan",
-    "author_place": 8,
-    "persona_email": "sayanp@alleninstitute.org",
-    "persona_firstname": "Sayan",
-    "persona_id": 86,
-    "persona_lastname": "Pathak"
-   }
-  ],
-  "categories": [
-   "CMake",
-   "Data",
-   "Data Representation",
-   "DICOM",
-   "Generic Programming",
-   "Image",
-   "Images",
-   "IO",
-   "Iterators",
-   "Objects",
-   "Path",
-   "PointSet",
-   "Programming"
-  ],
-  "comments": [],
-  "date_submitted": "2008-02-18T23:10:52Z",
-  "handles": [
-   {
-    "handle": "1926/1331",
-    "handle_url": "http://hdl.handle.net/1926/1331"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 211,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "alu@insightful.com",
-   "author_firstname": "Annie",
-   "author_fullname": "Lu, Annie",
-   "author_id": 771,
-   "author_institution": "Insightful Corp. & University of Washington",
-   "author_lastname": "Lu"
-  },
-  "tags": [
-   "PET/CT fusion",
-   "open source",
-   "java",
-   "ITK",
-   "2D/3D",
-   "multimodality",
-   "image visualization"
-  ],
-  "title": "FusionViewer: An Open Source Toolkit for Viewing Multimodality Images"
- }
+  "publication": {
+    "abstract": "FusionViewer is an open source and platform independent viewer that has been specifically designed for PET/CT image display. The combination of PET and CT images offers complementary functional and anatomical information. The application (FusionViewer) facilitates efficient visualization and analysis of PET/CT studies via different viewing modes (linked cursor display, alpha-blend mode, checkerboard mode and split window mode). FusionViewer is implemented in Java and uses the Java OpenGL (JOGL) library and the Insight Segmentation and Registration Toolkit (ITK) library, which make it both a fast and cross-platform application. Its intuitive graphical user interface makes it easy to be used by physicians, radiologists, and research scientists. Several analysis and display tools are already available (navigator, zoom, pan, screen snapshot, ROI, and line measure tool; alpha-blending, checkerboard display, and split window display). Along with PET/CT, several other modalities where co-registered images are often visualized simultaneously have benefited from the use of this software.",
+    "articles": [
+      "bafybeih3a7lcip67vw2dsopx3o4ranjlpqlxswnvcjtw57a2dcym4mkc24"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Lu, Yi",
+        "author_place": 1,
+        "persona_email": "jati.lue@gmail.com",
+        "persona_firstname": "Yi",
+        "persona_id": 785,
+        "persona_lastname": "Lu"
+      },
+      {
+        "author_fullname": "Lau, Chris",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Ng, Lydia",
+        "author_place": 3,
+        "persona_email": "lydian@alleninstitute.org",
+        "persona_firstname": "Lydia",
+        "persona_id": 64,
+        "persona_lastname": "Ng"
+      },
+      {
+        "author_fullname": "Gong, Lixin",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Kinahan, Paul",
+        "author_place": 5,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Alessio, Adam",
+        "author_place": 6,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Goldschneider, Jill",
+        "author_place": 7,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Pathak, Sayan",
+        "author_place": 8,
+        "persona_email": "sayanp@alleninstitute.org",
+        "persona_firstname": "Sayan",
+        "persona_id": 86,
+        "persona_lastname": "Pathak"
+      }
+    ],
+    "categories": [
+      "CMake",
+      "Data",
+      "Data Representation",
+      "DICOM",
+      "Generic Programming",
+      "Image",
+      "Images",
+      "IO",
+      "Iterators",
+      "Objects",
+      "Path",
+      "PointSet",
+      "Programming"
+    ],
+    "comments": [],
+    "date_submitted": "2008-02-18T23:10:52Z",
+    "handles": [
+      {
+        "handle": "1926/1331",
+        "handle_url": "http://hdl.handle.net/1926/1331"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 211,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "alu@insightful.com",
+      "author_firstname": "Annie",
+      "author_fullname": "Lu, Annie",
+      "author_id": 771,
+      "author_institution": "Insightful Corp. & University of Washington",
+      "author_lastname": "Lu"
+    },
+    "tags": [
+      "PET/CT fusion",
+      "open source",
+      "java",
+      "ITK",
+      "2D/3D",
+      "multimodality",
+      "image visualization"
+    ],
+    "title": "FusionViewer: An Open Source Toolkit for Viewing Multimodality Images"
+  }
 }

@@ -1,83 +1,87 @@
 {
- "publication": {
-  "abstract": "medInria is a free medical imaging software developed at Inria, which aims at \nproviding clinicians with state-of-the-art algorithms dedicated to medical image\nprocessing and visualization. Efforts have been made to simplify the user \ninterface, while keeping high-level algorithms. In this particular article,\nwe will concentrate on its use in preoperative preparation for cardiac\ninterventions, and how we handle the difficulties arising from the lack of standard\nformat for data types such as meshes or fibers, the absence of a common\nprogramming interface for data processing algorithms, notably registration, and\nthe issues of visualisation where display conventions would be beneficial.",
-  "authors": [
-   {
-    "author_fullname": "Vichot, Florian",
-    "author_place": 1,
-    "persona_email": "florian.vichot@inria.fr",
-    "persona_firstname": "Florian",
-    "persona_id": 6385,
-    "persona_lastname": "Vichot"
-   },
-   {
-    "author_fullname": "Cochet, Hubert",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Bleuz\u00e9, Beno\u00eet",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Toussaint, Nicolas",
-    "author_place": 4,
-    "persona_email": "nicolas.toussaint@kcl.ac.uk",
-    "persona_firstname": "Nicolas",
-    "persona_id": 2608,
-    "persona_lastname": "Toussaint"
-   },
-   {
-    "author_fullname": "Ja\u00efs, Pierre",
-    "author_place": 5,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Sermesant, Maxime",
-    "author_place": 6,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Image",
-   "Mesh"
-  ],
-  "comments": [],
-  "date_submitted": "2012-08-14 13:20:59",
-  "handles": [
-   {
-    "handle": "10380/3361",
-    "handle_url": "http://hdl.handle.net/10380/3361"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 40,
-    "journal_name": "MICCAI 2012 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 863,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "florian.vichot@inria.fr",
-   "author_firstname": "Florian",
-   "author_fullname": "Vichot, Florian",
-   "author_id": 6385,
-   "author_institution": "INRIA",
-   "author_lastname": "Vichot"
-  },
-  "tags": [
-   "Registration",
-   "Standards",
-   "Data Formats",
-   "Visualisation"
-  ],
-  "title": "Cardiac Interventional Guidance using Multimodal Data Processing and Visualisation: medInria as an Interoperability Platform"
- }
+  "publication": {
+    "abstract": "medInria is a free medical imaging software developed at Inria, which aims at \nproviding clinicians with state-of-the-art algorithms dedicated to medical image\nprocessing and visualization. Efforts have been made to simplify the user \ninterface, while keeping high-level algorithms. In this particular article,\nwe will concentrate on its use in preoperative preparation for cardiac\ninterventions, and how we handle the difficulties arising from the lack of standard\nformat for data types such as meshes or fibers, the absence of a common\nprogramming interface for data processing algorithms, notably registration, and\nthe issues of visualisation where display conventions would be beneficial.",
+    "articles": [
+      "bafybeievgwukp4pooggtbkdbjihkycklxj7nkoeisj6odhqcxnfkxuappi",
+      "bafybeicbd57m3xseznq6hubfspsno6i4yavdhzjdamqo4el3libmlsovqa"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Vichot, Florian",
+        "author_place": 1,
+        "persona_email": "florian.vichot@inria.fr",
+        "persona_firstname": "Florian",
+        "persona_id": 6385,
+        "persona_lastname": "Vichot"
+      },
+      {
+        "author_fullname": "Cochet, Hubert",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Bleuz\u00e9, Beno\u00eet",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Toussaint, Nicolas",
+        "author_place": 4,
+        "persona_email": "nicolas.toussaint@kcl.ac.uk",
+        "persona_firstname": "Nicolas",
+        "persona_id": 2608,
+        "persona_lastname": "Toussaint"
+      },
+      {
+        "author_fullname": "Ja\u00efs, Pierre",
+        "author_place": 5,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Sermesant, Maxime",
+        "author_place": 6,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Image",
+      "Mesh"
+    ],
+    "comments": [],
+    "date_submitted": "2012-08-14 13:20:59",
+    "handles": [
+      {
+        "handle": "10380/3361",
+        "handle_url": "http://hdl.handle.net/10380/3361"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 40,
+        "journal_name": "MICCAI 2012 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 863,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "florian.vichot@inria.fr",
+      "author_firstname": "Florian",
+      "author_fullname": "Vichot, Florian",
+      "author_id": 6385,
+      "author_institution": "INRIA",
+      "author_lastname": "Vichot"
+    },
+    "tags": [
+      "Registration",
+      "Standards",
+      "Data Formats",
+      "Visualisation"
+    ],
+    "title": "Cardiac Interventional Guidance using Multimodal Data Processing and Visualisation: medInria as an Interoperability Platform"
+  }
 }

@@ -1,75 +1,80 @@
 {
- "publication": {
-  "abstract": "Ultrasound is a very useful and convenient modality in medical imaging, due to its relatively small footprint, high resolution, negligible adverse effects, and real-time imaging capability -- in spite of its well-known artifacts. However, it is fairly difficult to fully benefit from its resolution and speed in advanced imaging research because of the closed nature of most ultrasound systems.\n\nWe propose a modular and extensible open-source toolkit MUSiiC S/W for rapid development and system setup for ultrasound research. Aimed at algorithm and experimental system builders as well as at clinical research, it allows standardized access to various types of ultrasound-derived real-time data streams, incorporates various tracking facilities, volume reconstruction, and connections to external software tools. By providing well-defined open standard interfaces between those building blocks, we aim at easy extensibility for third-party researchers.",
-  "authors": [
-   {
-    "author_fullname": "Stolka, Philipp",
-    "author_place": 1,
-    "persona_email": "pjs@jhu.edu",
-    "persona_firstname": "Philipp",
-    "persona_id": 2557,
-    "persona_lastname": "Stolka"
-   },
-   {
-    "author_fullname": "Kang, Hyun-Jae",
-    "author_place": 2,
-    "persona_email": "hjkang@jhu.edu",
-    "persona_firstname": "Hyun-jae",
-    "persona_id": 3222,
-    "persona_lastname": "Kang"
-   },
-   {
-    "author_fullname": "Boctor, Emad",
-    "author_place": 3,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Data",
-   "Distributed computation",
-   "Image",
-   "Images",
-   "Parallelization, SMP",
-   "Path",
-   "Streaming"
-  ],
-  "comments": [],
-  "date_submitted": "2010-08-16 00:11:01",
-  "handles": [
-   {
-    "handle": "10380/3172",
-    "handle_url": "http://hdl.handle.net/10380/3172"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 37,
-    "journal_name": "MICCAI 2010 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 730,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "pjs@jhu.edu",
-   "author_firstname": "Philipp",
-   "author_fullname": "Stolka, Philipp",
-   "author_id": 2557,
-   "author_institution": "Johns Hopkins University",
-   "author_lastname": "Stolka"
-  },
-  "tags": [
-   "parallel",
-   "real-time",
-   "toolkit",
-   "modular",
-   "ultrasound",
-   "open-source"
-  ],
-  "title": "The MUSiiC Toolkit: Modular Real-Time Toolkit for Advanced Ultrasound Research"
- }
+  "publication": {
+    "abstract": "Ultrasound is a very useful and convenient modality in medical imaging, due to its relatively small footprint, high resolution, negligible adverse effects, and real-time imaging capability -- in spite of its well-known artifacts. However, it is fairly difficult to fully benefit from its resolution and speed in advanced imaging research because of the closed nature of most ultrasound systems.\n\nWe propose a modular and extensible open-source toolkit MUSiiC S/W for rapid development and system setup for ultrasound research. Aimed at algorithm and experimental system builders as well as at clinical research, it allows standardized access to various types of ultrasound-derived real-time data streams, incorporates various tracking facilities, volume reconstruction, and connections to external software tools. By providing well-defined open standard interfaces between those building blocks, we aim at easy extensibility for third-party researchers.",
+    "articles": [
+      "bafybeiakobphso3qn53cdclh2wwx5symsnxf7gvhnneu7z7tfxnt7bqwuq",
+      "bafybeigronur6zk26hbsi3he3idcnyk6nyr7cink2ashya32tpnm547aui",
+      "bafybeifyibjoforh4zsxmtqli23b3t5ktokffzwqj3y3bmxp7jdes5u2j4"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Stolka, Philipp",
+        "author_place": 1,
+        "persona_email": "pjs@jhu.edu",
+        "persona_firstname": "Philipp",
+        "persona_id": 2557,
+        "persona_lastname": "Stolka"
+      },
+      {
+        "author_fullname": "Kang, Hyun-Jae",
+        "author_place": 2,
+        "persona_email": "hjkang@jhu.edu",
+        "persona_firstname": "Hyun-jae",
+        "persona_id": 3222,
+        "persona_lastname": "Kang"
+      },
+      {
+        "author_fullname": "Boctor, Emad",
+        "author_place": 3,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Data",
+      "Distributed computation",
+      "Image",
+      "Images",
+      "Parallelization, SMP",
+      "Path",
+      "Streaming"
+    ],
+    "comments": [],
+    "date_submitted": "2010-08-16 00:11:01",
+    "handles": [
+      {
+        "handle": "10380/3172",
+        "handle_url": "http://hdl.handle.net/10380/3172"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 37,
+        "journal_name": "MICCAI 2010 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 730,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "pjs@jhu.edu",
+      "author_firstname": "Philipp",
+      "author_fullname": "Stolka, Philipp",
+      "author_id": 2557,
+      "author_institution": "Johns Hopkins University",
+      "author_lastname": "Stolka"
+    },
+    "tags": [
+      "parallel",
+      "real-time",
+      "toolkit",
+      "modular",
+      "ultrasound",
+      "open-source"
+    ],
+    "title": "The MUSiiC Toolkit: Modular Real-Time Toolkit for Advanced Ultrasound Research"
+  }
 }

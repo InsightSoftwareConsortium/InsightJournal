@@ -1,58 +1,66 @@
 {
- "publication": {
-  "abstract": "By default ITK images use a contiguous memory model. This means pixel elements are stored in a single 1-D array, where each element is adjacent in memory to the previous element. However in some situations it is not desirable to use this memory model. This document describes three alternative memory models: slice contiguous, sparse, and single-bit binary images. Slice contiguous images are three-dimensional images, in which each slice is stored in a contiguous 1-D array, but the slices are not necessarily adjacent in memory. Slice contiguous images are well suited for interoperability with applications representing images using DICOM. Sparse images are n-dimensional images, in which each pixel is stored in a hash table data structure. This memory model is well suited for images with very large dimensions, but few pixels which are actually relevant. Single-bit binary images internally represent each pixel as a single-bit, in contrast to eight-bits required to represent a boolean. Single-bit binary images allow very compact representations for on-off masks. Source code, tests, and examples are provided to allow easy reproduction and use.",
-  "authors": [
-   {
-    "author_fullname": "Mueller, Dan",
-    "author_place": 1,
-    "persona_email": "dan.muel@gmail.com",
-    "persona_firstname": "Dan",
-    "persona_id": 286,
-    "persona_lastname": "Mueller"
-   }
-  ],
-  "categories": [
-   "DICOM",
-   "Image",
-   "Images"
-  ],
-  "comments": [],
-  "date_submitted": "2009-11-14 00:57:06",
-  "handles": [
-   {
-    "handle": "10380/3068",
-    "handle_url": "http://hdl.handle.net/10380/3068"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 646,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "dan.muel@gmail.com",
-   "author_firstname": "Dan",
-   "author_fullname": "Mueller, Dan",
-   "author_id": 286,
-   "author_institution": "Philips Healthcare",
-   "author_lastname": "Mueller"
-  },
-  "tags": [
-   "image",
-   "ITK",
-   "sparse",
-   "binary image",
-   "slice contiguous",
-   "memory"
-  ],
-  "title": "Alternative Memory Models for ITK Images"
- }
+  "publication": {
+    "abstract": "By default ITK images use a contiguous memory model. This means pixel elements are stored in a single 1-D array, where each element is adjacent in memory to the previous element. However in some situations it is not desirable to use this memory model. This document describes three alternative memory models: slice contiguous, sparse, and single-bit binary images. Slice contiguous images are three-dimensional images, in which each slice is stored in a contiguous 1-D array, but the slices are not necessarily adjacent in memory. Slice contiguous images are well suited for interoperability with applications representing images using DICOM. Sparse images are n-dimensional images, in which each pixel is stored in a hash table data structure. This memory model is well suited for images with very large dimensions, but few pixels which are actually relevant. Single-bit binary images internally represent each pixel as a single-bit, in contrast to eight-bits required to represent a boolean. Single-bit binary images allow very compact representations for on-off masks. Source code, tests, and examples are provided to allow easy reproduction and use.",
+    "articles": [
+      "bafkreiemrwppjownkrdwsc77uukzwobep5jomc7u3zq3hjewefl33hkrny",
+      "bafkreifersmum5lv77jy5r6gambgou2o6xnaicclpfbujzf6sljaszx3li",
+      "bafkreidobd2fuc4i46cbn6sh7uknzbrrgv5lgqgu63enfygdqy6flspxe4",
+      "bafkreidobd2fuc4i46cbn6sh7uknzbrrgv5lgqgu63enfygdqy6flspxe4",
+      "bafkreia4ttywb6k4zfokzawc62qqooke6p754sq5sjq4abhr7pe3afvkfe",
+      "bafkreia4ttywb6k4zfokzawc62qqooke6p754sq5sjq4abhr7pe3afvkfe"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Mueller, Dan",
+        "author_place": 1,
+        "persona_email": "dan.muel@gmail.com",
+        "persona_firstname": "Dan",
+        "persona_id": 286,
+        "persona_lastname": "Mueller"
+      }
+    ],
+    "categories": [
+      "DICOM",
+      "Image",
+      "Images"
+    ],
+    "comments": [],
+    "date_submitted": "2009-11-14 00:57:06",
+    "handles": [
+      {
+        "handle": "10380/3068",
+        "handle_url": "http://hdl.handle.net/10380/3068"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 646,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "dan.muel@gmail.com",
+      "author_firstname": "Dan",
+      "author_fullname": "Mueller, Dan",
+      "author_id": 286,
+      "author_institution": "Philips Healthcare",
+      "author_lastname": "Mueller"
+    },
+    "tags": [
+      "image",
+      "ITK",
+      "sparse",
+      "binary image",
+      "slice contiguous",
+      "memory"
+    ],
+    "title": "Alternative Memory Models for ITK Images"
+  }
 }

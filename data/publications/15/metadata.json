@@ -1,84 +1,88 @@
 {
- "publication": {
-  "abstract": "Active contour segmentation and its robust implementation using level sets\r\nhave been studied thoroughly in the medical image analysis literature. Despite\r\nthe availability of these powerful methods, clinical research still largely\r\nrelies on manual slice-by-slice outlining for anatomical structure\r\nsegmentation. To bridge the gap between methodological advances and clinical\r\nroutine, we developed ITK-SNAP: an open source application intended to make\r\nlevel set segmentation easily accessible to a wide range of users with various\r\nlevels of mathematical expertise. We briefly describe this new tool and report\r\nthe results of a validation study in which ITK-SNAP was compared to manual\r\nsegmentation of the caudate in the context of an ongoing child neuroimaging\r\nautism study.",
-  "authors": [
-   {
-    "author_fullname": "Yushkevich, Paul A.",
-    "author_place": 1,
-    "persona_email": "pauly@despammed.com",
-    "persona_firstname": "Paul",
-    "persona_id": 51,
-    "persona_lastname": "Yushkevich"
-   },
-   {
-    "author_fullname": "Piven, Joseph",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Cody, Heather",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Ho, Sean",
-    "author_place": 4,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Gee, James C.",
-    "author_place": 5,
-    "persona_email": "gee@mail.med.upenn.edu",
-    "persona_firstname": "James",
-    "persona_id": 236,
-    "persona_lastname": "Gee"
-   },
-   {
-    "author_fullname": "Gerig, Guido",
-    "author_place": 6,
-    "persona_id": null
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2005-07-30T21:22:54Z",
-  "handles": [
-   {
-    "handle": "1926/464",
-    "handle_url": "http://hdl.handle.net/1926/464"
-   },
-   {
-    "handle": "1926/20",
-    "handle_url": "http://hdl.handle.net/1926/20"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 15,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "pauly@despammed.com",
-   "author_firstname": "Paul",
-   "author_fullname": "Yushkevich, Paul",
-   "author_id": 51,
-   "author_institution": "University of Pennsylvania",
-   "author_lastname": "Yushkevich"
-  },
-  "tags": [
-   "Segmentation",
-   "Level sets",
-   "ITK",
-   "SNAP"
-  ],
-  "title": "User-Guided Level Set Segmentation of Anatomical Structures with ITK-SNAP"
- }
+  "publication": {
+    "abstract": "Active contour segmentation and its robust implementation using level sets\r\nhave been studied thoroughly in the medical image analysis literature. Despite\r\nthe availability of these powerful methods, clinical research still largely\r\nrelies on manual slice-by-slice outlining for anatomical structure\r\nsegmentation. To bridge the gap between methodological advances and clinical\r\nroutine, we developed ITK-SNAP: an open source application intended to make\r\nlevel set segmentation easily accessible to a wide range of users with various\r\nlevels of mathematical expertise. We briefly describe this new tool and report\r\nthe results of a validation study in which ITK-SNAP was compared to manual\r\nsegmentation of the caudate in the context of an ongoing child neuroimaging\r\nautism study.",
+    "articles": [
+      "bafybeicfitzkzowprzzq7o4xluqk43lcedlbjcondj6fszfd2ez64n626q",
+      "bafybeiawlwp6fhs5hglznccg3qbwip6rwtcwjy2vb6culiuzxyiezg3xz4"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Yushkevich, Paul A.",
+        "author_place": 1,
+        "persona_email": "pauly@despammed.com",
+        "persona_firstname": "Paul",
+        "persona_id": 51,
+        "persona_lastname": "Yushkevich"
+      },
+      {
+        "author_fullname": "Piven, Joseph",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Cody, Heather",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Ho, Sean",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Gee, James C.",
+        "author_place": 5,
+        "persona_email": "gee@mail.med.upenn.edu",
+        "persona_firstname": "James",
+        "persona_id": 236,
+        "persona_lastname": "Gee"
+      },
+      {
+        "author_fullname": "Gerig, Guido",
+        "author_place": 6,
+        "persona_id": null
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2005-07-30T21:22:54Z",
+    "handles": [
+      {
+        "handle": "1926/464",
+        "handle_url": "http://hdl.handle.net/1926/464"
+      },
+      {
+        "handle": "1926/20",
+        "handle_url": "http://hdl.handle.net/1926/20"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 15,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "pauly@despammed.com",
+      "author_firstname": "Paul",
+      "author_fullname": "Yushkevich, Paul",
+      "author_id": 51,
+      "author_institution": "University of Pennsylvania",
+      "author_lastname": "Yushkevich"
+    },
+    "tags": [
+      "Segmentation",
+      "Level sets",
+      "ITK",
+      "SNAP"
+    ],
+    "title": "User-Guided Level Set Segmentation of Anatomical Structures with ITK-SNAP"
+  }
 }

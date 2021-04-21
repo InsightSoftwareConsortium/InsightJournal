@@ -1,62 +1,68 @@
 {
- "publication": {
-  "abstract": "This paper describes an intensity image filter for computing the variance of pixel values contained within a neighborhood centered at each input pixel. The output image contains the calculated variance at each input pixel location. Variance calculations can be restricted by setting an image mask. This paper is accompanied with source code for the filter and test, test images and parameters, and expected output images. ",
-  "authors": [
-   {
-    "author_fullname": "Tamburo, Robert",
-    "author_place": 1,
-    "persona_email": "robert.tamburo@gmail.com",
-    "persona_firstname": "Robert",
-    "persona_id": 59,
-    "persona_lastname": "Tamburo"
-   }
-  ],
-  "categories": [
-   "Filtering",
-   "Neighborhood filters"
-  ],
-  "comments": [
-   {
-    "content": "Just what I needed. Thank you!\r\n\r\nMy only suggestion would be to make the threaded methods available for ITK v4 as well as previous releases:\r\n\r\nitkVarianceImageFilter.h:\r\n\r\nvoid ThreadedGenerateData(const OutputImageRegionType& outputRegionForThread,\r\n#if ITK_VERSION_MAJOR < 4\r\n                          int threadId );\r\n#else\r\n                          ThreadIdType threadId );\r\n#endif\r\n\r\n\r\nitkVarianceImageFilter.txx:\r\n\r\ntemplate< class TInputImage, class TOutputImage>\r\nvoid\r\nVarianceImageFilter< TInputImage, TOutputImage>\r\n::ThreadedGenerateData(const OutputImageRegionType& outputRegionForThread,\r\n#if ITK_VERSION_MAJOR < 4\r\n                            int threadId )\r\n#else\r\n                            ThreadIdType threadId )\r\n#endif\r\n\r\n\r\nMaybe not the best programming style, but these changes compiled and ran fine for me using ITK v4.2.1",
-    "date": "2013-06-13T08:04:58",
-    "persona_email": "scott.p.robertson@gmail.com",
-    "persona_firstname": "Scott",
-    "persona_id": 7887,
-    "persona_lastname": "Robertson"
-   }
-  ],
-  "date_submitted": "2011-01-05 15:14:25",
-  "handles": [
-   {
-    "handle": "10380/3236",
-    "handle_url": "http://hdl.handle.net/10380/3236"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 779,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "robert.tamburo@gmail.com",
-   "author_firstname": "Robert",
-   "author_fullname": "Tamburo, Robert",
-   "author_id": 59,
-   "author_institution": " ",
-   "author_lastname": "Tamburo"
-  },
-  "tags": [
-   "variance",
-   "intensity image filter"
-  ],
-  "title": "Variance Image Filter"
- }
+  "publication": {
+    "abstract": "This paper describes an intensity image filter for computing the variance of pixel values contained within a neighborhood centered at each input pixel. The output image contains the calculated variance at each input pixel location. Variance calculations can be restricted by setting an image mask. This paper is accompanied with source code for the filter and test, test images and parameters, and expected output images. ",
+    "articles": [
+      "bafkreicpivwhauuxbcuplz6smdxezhsjz5fiq2h35vz7mqbn2qeltl6hzu",
+      "bafkreie7xfmjkzztibujiebsgdvgqynwdxphpjphq5xhzg5ekqsmooxf6q",
+      "bafkreif7afdhsiozna5mcm6e7bfuzwso533g6l4oxx32yiavl4lblhoc5m",
+      "bafkreieemcii4zj4cnoeyr4fbzrc3mo2lboamipwclbzefuvezbu3ntdaq"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Tamburo, Robert",
+        "author_place": 1,
+        "persona_email": "robert.tamburo@gmail.com",
+        "persona_firstname": "Robert",
+        "persona_id": 59,
+        "persona_lastname": "Tamburo"
+      }
+    ],
+    "categories": [
+      "Filtering",
+      "Neighborhood filters"
+    ],
+    "comments": [
+      {
+        "content": "Just what I needed. Thank you!\r\n\r\nMy only suggestion would be to make the threaded methods available for ITK v4 as well as previous releases:\r\n\r\nitkVarianceImageFilter.h:\r\n\r\nvoid ThreadedGenerateData(const OutputImageRegionType& outputRegionForThread,\r\n#if ITK_VERSION_MAJOR < 4\r\n                          int threadId );\r\n#else\r\n                          ThreadIdType threadId );\r\n#endif\r\n\r\n\r\nitkVarianceImageFilter.txx:\r\n\r\ntemplate< class TInputImage, class TOutputImage>\r\nvoid\r\nVarianceImageFilter< TInputImage, TOutputImage>\r\n::ThreadedGenerateData(const OutputImageRegionType& outputRegionForThread,\r\n#if ITK_VERSION_MAJOR < 4\r\n                            int threadId )\r\n#else\r\n                            ThreadIdType threadId )\r\n#endif\r\n\r\n\r\nMaybe not the best programming style, but these changes compiled and ran fine for me using ITK v4.2.1",
+        "date": "2013-06-13T08:04:58",
+        "persona_email": "scott.p.robertson@gmail.com",
+        "persona_firstname": "Scott",
+        "persona_id": 7887,
+        "persona_lastname": "Robertson"
+      }
+    ],
+    "date_submitted": "2011-01-05 15:14:25",
+    "handles": [
+      {
+        "handle": "10380/3236",
+        "handle_url": "http://hdl.handle.net/10380/3236"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 779,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "robert.tamburo@gmail.com",
+      "author_firstname": "Robert",
+      "author_fullname": "Tamburo, Robert",
+      "author_id": 59,
+      "author_institution": " ",
+      "author_lastname": "Tamburo"
+    },
+    "tags": [
+      "variance",
+      "intensity image filter"
+    ],
+    "title": "Variance Image Filter"
+  }
 }

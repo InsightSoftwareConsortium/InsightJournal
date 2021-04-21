@@ -1,55 +1,58 @@
 {
- "publication": {
-  "abstract": "This brief document provides an introduction to an external ITK module, DVMeshNoise. This module provides classes for perturbing the positions of the vertices of either an itk::Mesh or itk::QuadEdgeMesh with Gaussian noise. This may be useful in testing the robustness of an algorithm to small changes in the input mesh, augmenting datasets for machine learning, and counteracting deleterious effects which highly regular regions of a mesh may occasionally have on mesh processing. After demonstrating basic usage, we present a practical example to show how these classes can be incorporated into a pipeline to improve mesh quality.",
-  "authors": [
-   {
-    "author_fullname": "Vigneault, Davis",
-    "author_place": 1,
-    "persona_email": "davis.vigneault@gmail.com",
-    "persona_firstname": "Davis",
-    "persona_id": 9207,
-    "persona_lastname": "Vigneault"
-   }
-  ],
-  "categories": [
-   "Mesh",
-   "PointSet"
-  ],
-  "comments": [],
-  "date_submitted": "2016-11-25 05:16:27",
-  "handles": [
-   {
-    "handle": "10380/3567",
-    "handle_url": "http://hdl.handle.net/10380/3567"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 981,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "davis.vigneault@gmail.com",
-   "author_firstname": "Davis",
-   "author_fullname": "Vigneault, Davis",
-   "author_id": 9207,
-   "author_institution": "University of Oxford",
-   "author_lastname": "Vigneault"
-  },
-  "tags": [
-   "Gaussian Noise",
-   "Mesh Quality",
-   "QuadEdgeMesh",
-   "Mesh"
-  ],
-  "title": "Perturbing Mesh Vertices with Additive Gaussian Noise"
- }
+  "publication": {
+    "abstract": "This brief document provides an introduction to an external ITK module, DVMeshNoise. This module provides classes for perturbing the positions of the vertices of either an itk::Mesh or itk::QuadEdgeMesh with Gaussian noise. This may be useful in testing the robustness of an algorithm to small changes in the input mesh, augmenting datasets for machine learning, and counteracting deleterious effects which highly regular regions of a mesh may occasionally have on mesh processing. After demonstrating basic usage, we present a practical example to show how these classes can be incorporated into a pipeline to improve mesh quality.",
+    "articles": [
+      "bafybeicpnrrbplay4ua4dcujns43p7kxih2jskjynvmcege4kjml2t5mw4"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Vigneault, Davis",
+        "author_place": 1,
+        "persona_email": "davis.vigneault@gmail.com",
+        "persona_firstname": "Davis",
+        "persona_id": 9207,
+        "persona_lastname": "Vigneault"
+      }
+    ],
+    "categories": [
+      "Mesh",
+      "PointSet"
+    ],
+    "comments": [],
+    "date_submitted": "2016-11-25 05:16:27",
+    "handles": [
+      {
+        "handle": "10380/3567",
+        "handle_url": "http://hdl.handle.net/10380/3567"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 981,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "davis.vigneault@gmail.com",
+      "author_firstname": "Davis",
+      "author_fullname": "Vigneault, Davis",
+      "author_id": 9207,
+      "author_institution": "University of Oxford",
+      "author_lastname": "Vigneault"
+    },
+    "tags": [
+      "Gaussian Noise",
+      "Mesh Quality",
+      "QuadEdgeMesh",
+      "Mesh"
+    ],
+    "title": "Perturbing Mesh Vertices with Additive Gaussian Noise"
+  }
 }

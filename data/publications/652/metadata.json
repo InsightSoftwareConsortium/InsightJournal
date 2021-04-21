@@ -1,81 +1,84 @@
 {
- "publication": {
-  "abstract": "To achieve longterm survival after resection of liver tumors, accurate resection margins are essential. Image guided surgery with navigational support has the potential to increase surgical accuracy significantly, thus making the operation more reliable. In this article we describe an image guided navigation system for liver surgery. Our platform uses GPU acceleration to display in real-time reconstructed 3-dimensional freehand ultrasound volumes in combination with tracked surgical instruments. We evaluated the accuracy and the performance of our system on a phantom study. The results of our study demonstrate that our image guided navigation system has the potential to introduce significant improvements in the field of liver surgery.",
-  "authors": [
-   {
-    "author_fullname": "Gumprecht, Jan",
-    "author_place": 1,
-    "persona_email": "jgumprec@bwh.harvard.edu",
-    "persona_firstname": "Jan",
-    "persona_id": 2186,
-    "persona_lastname": "Gumprecht"
-   },
-   {
-    "author_fullname": "Tokuda, Junichi",
-    "author_place": 2,
-    "persona_email": "tokuda@bwh.harvard.edu",
-    "persona_firstname": "Junichi",
-    "persona_id": 761,
-    "persona_lastname": "Tokuda"
-   },
-   {
-    "author_fullname": "Liu, Haiying",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Hata, Nobuhiko",
-    "author_place": 4,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "CMake",
-   "Code speed optimization",
-   "Geometric transforms",
-   "Image",
-   "Images",
-   "Parallelization, SMP"
-  ],
-  "comments": [],
-  "date_submitted": "2009-07-10 16:25:58",
-  "handles": [
-   {
-    "handle": "10380/3077",
-    "handle_url": "http://hdl.handle.net/10380/3077"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 34,
-    "journal_name": "MICCAI 2009 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 652,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "jgumprec@bwh.harvard.edu",
-   "author_firstname": "Jan",
-   "author_fullname": "Gumprecht, Jan",
-   "author_id": 2186,
-   "author_institution": "Birgham and Women's Hospital and Harvard Medical School",
-   "author_lastname": "Gumprecht"
-  },
-  "tags": [
-   "3D",
-   "Ultrasound",
-   "Navigation",
-   "Liver",
-   "Image guided Surgery",
-   "Open-Source",
-   "Freehand",
-   "Real-Time"
-  ],
-  "title": "Development and Validation of an Open-Source Real-Time Freehand 3-Dimensional Ultrasound Navigation System for Liver Surgery with GPGPU Acceleration"
- }
+  "publication": {
+    "abstract": "To achieve longterm survival after resection of liver tumors, accurate resection margins are essential. Image guided surgery with navigational support has the potential to increase surgical accuracy significantly, thus making the operation more reliable. In this article we describe an image guided navigation system for liver surgery. Our platform uses GPU acceleration to display in real-time reconstructed 3-dimensional freehand ultrasound volumes in combination with tracked surgical instruments. We evaluated the accuracy and the performance of our system on a phantom study. The results of our study demonstrate that our image guided navigation system has the potential to introduce significant improvements in the field of liver surgery.",
+    "articles": [
+      "bafkreihdwdcefgh4dqkjv67uzcmw7ojee6xedzdetojuzjevtenxquvyku"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Gumprecht, Jan",
+        "author_place": 1,
+        "persona_email": "jgumprec@bwh.harvard.edu",
+        "persona_firstname": "Jan",
+        "persona_id": 2186,
+        "persona_lastname": "Gumprecht"
+      },
+      {
+        "author_fullname": "Tokuda, Junichi",
+        "author_place": 2,
+        "persona_email": "tokuda@bwh.harvard.edu",
+        "persona_firstname": "Junichi",
+        "persona_id": 761,
+        "persona_lastname": "Tokuda"
+      },
+      {
+        "author_fullname": "Liu, Haiying",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Hata, Nobuhiko",
+        "author_place": 4,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "CMake",
+      "Code speed optimization",
+      "Geometric transforms",
+      "Image",
+      "Images",
+      "Parallelization, SMP"
+    ],
+    "comments": [],
+    "date_submitted": "2009-07-10 16:25:58",
+    "handles": [
+      {
+        "handle": "10380/3077",
+        "handle_url": "http://hdl.handle.net/10380/3077"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 34,
+        "journal_name": "MICCAI 2009 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 652,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "jgumprec@bwh.harvard.edu",
+      "author_firstname": "Jan",
+      "author_fullname": "Gumprecht, Jan",
+      "author_id": 2186,
+      "author_institution": "Birgham and Women's Hospital and Harvard Medical School",
+      "author_lastname": "Gumprecht"
+    },
+    "tags": [
+      "3D",
+      "Ultrasound",
+      "Navigation",
+      "Liver",
+      "Image guided Surgery",
+      "Open-Source",
+      "Freehand",
+      "Real-Time"
+    ],
+    "title": "Development and Validation of an Open-Source Real-Time Freehand 3-Dimensional Ultrasound Navigation System for Liver Surgery with GPGPU Acceleration"
+  }
 }

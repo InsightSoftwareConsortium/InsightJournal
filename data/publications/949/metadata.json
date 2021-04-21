@@ -1,55 +1,59 @@
 {
- "publication": {
-  "abstract": "The contribution to VTK presented in this article is specialized on the extraction of contact surfaces (CS). This extraction can be regarded as the intersection Boolean-operation of only touching meshes. The vtkCoplanarSurfaceExtractor filter produces either polygonal or triangulated CSs by reconstructing the contact faces of co-planar triangles. Specified tolerances account for discrepancies in coplanarity of faces which might occur due to rounding effects.\nThis article is accompanied with the source code, input data, parameters and output data that were used for validating the VTK-filter.\n",
-  "authors": [
-   {
-    "author_fullname": "Grothausmann, Roman",
-    "author_place": 2,
-    "persona_email": "Grothausmann.Roman@mh-hannover.de",
-    "persona_firstname": "Roman",
-    "persona_id": 6854,
-    "persona_lastname": "Grothausmann"
-   }
-  ],
-  "categories": [
-   "Filtering",
-   "Mesh",
-   "Surface extraction"
-  ],
-  "comments": [],
-  "date_submitted": "2014-12-14 15:00:13",
-  "handles": [
-   {
-    "handle": "10380/3504",
-    "handle_url": "http://hdl.handle.net/10380/3504"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 35,
-    "journal_name": "The VTK Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 949,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "Grothausmann.Roman@mh-hannover.de",
-   "author_firstname": "Roman",
-   "author_fullname": "Grothausmann, Roman",
-   "author_id": 6854,
-   "author_institution": "Medizinische Hochschule Hannover",
-   "author_lastname": "Grothausmann"
-  },
-  "tags": [
-   "marching cubes",
-   "mesh extraction",
-   "Boolean operations"
-  ],
-  "title": "Extracting Intersections of Coplanar Surfaces (Boolean-operation on touching meshes)"
- }
+  "publication": {
+    "abstract": "The contribution to VTK presented in this article is specialized on the extraction of contact surfaces (CS). This extraction can be regarded as the intersection Boolean-operation of only touching meshes. The vtkCoplanarSurfaceExtractor filter produces either polygonal or triangulated CSs by reconstructing the contact faces of co-planar triangles. Specified tolerances account for discrepancies in coplanarity of faces which might occur due to rounding effects.\nThis article is accompanied with the source code, input data, parameters and output data that were used for validating the VTK-filter.\n",
+    "articles": [
+      "bafybeiey5vlslhkdd4zvhk4go7mj2p4rxvejgfvrljrbdaxaslgfil6jju",
+      "bafybeiey5vlslhkdd4zvhk4go7mj2p4rxvejgfvrljrbdaxaslgfil6jju"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Grothausmann, Roman",
+        "author_place": 2,
+        "persona_email": "Grothausmann.Roman@mh-hannover.de",
+        "persona_firstname": "Roman",
+        "persona_id": 6854,
+        "persona_lastname": "Grothausmann"
+      }
+    ],
+    "categories": [
+      "Filtering",
+      "Mesh",
+      "Surface extraction"
+    ],
+    "comments": [],
+    "date_submitted": "2014-12-14 15:00:13",
+    "handles": [
+      {
+        "handle": "10380/3504",
+        "handle_url": "http://hdl.handle.net/10380/3504"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 35,
+        "journal_name": "The VTK Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 949,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "Grothausmann.Roman@mh-hannover.de",
+      "author_firstname": "Roman",
+      "author_fullname": "Grothausmann, Roman",
+      "author_id": 6854,
+      "author_institution": "Medizinische Hochschule Hannover",
+      "author_lastname": "Grothausmann"
+    },
+    "tags": [
+      "marching cubes",
+      "mesh extraction",
+      "Boolean operations"
+    ],
+    "title": "Extracting Intersections of Coplanar Surfaces (Boolean-operation on touching meshes)"
+  }
 }

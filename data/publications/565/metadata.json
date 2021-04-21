@@ -1,125 +1,128 @@
 {
- "publication": {
-  "abstract": "The elastic registration of medical scans from different acquisition sequences is becoming an important topic for many research labs that would like to continue the post-processing of medical scans acquired via the new generation of high-field-strength scanners. In this note, we present a parameter-free registration algorithm that is well suited for this scenario as it requires no tuning to specific acquisition sequences. The algorithm encompasses a new numerical scheme for computing elastic registration maps based on the minimizing flow approach to optimal mass transport. The approach utilizes all of the gray-scale data in both images, and the optimal mapping from image A to image B is the inverse of the optimal mapping from B to A. Further, no landmarks need to be specified, and the minimizer of the distance functional involved is unique. We apply the algorithm to register the white matter folds of two different scans and use the results to parcellate the cortex of the target image. To the best of our knowledge, this is the first time that the optimal mass transport function has been applied to register large 3D multimodal data sets.",
-  "authors": [
-   {
-    "author_fullname": "Wald, Lawrence",
-    "author_place": 7,
-    "persona_email": "wald@nmr.mgh.harvard.edu",
-    "persona_id": 183,
-    "persona_lastname": "Wald"
-   },
-   {
-    "author_fullname": "Kikinis, Ron",
-    "author_place": 8,
-    "persona_email": "kikinis@bwh.harvard.edu",
-    "persona_firstname": "Ron",
-    "persona_id": 238,
-    "persona_lastname": "Kikinis"
-   },
-   {
-    "author_fullname": "Tannenbaum, Allen",
-    "author_place": 9,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Rehman, Tauseef",
-    "author_place": 1,
-    "persona_email": "tauseef@ece.gatech.edu",
-    "persona_firstname": "Tauseef",
-    "persona_id": 831,
-    "persona_lastname": "Rehman"
-   },
-   {
-    "author_fullname": "Haber, Eldad",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Pohl, Kilian",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Haker, Steven",
-    "author_place": 4,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Halle, Mike",
-    "author_place": 5,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Talos, Florin",
-    "author_place": 6,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Atlas-based segmentation",
-   "Data Representation",
-   "Derivatives and Integrals",
-   "Image",
-   "Linear Algebra",
-   "Mathematics",
-   "Mesh",
-   "Multi-modality registration",
-   "Optimization",
-   "PointSet",
-   "Registration",
-   "Registration metrics",
-   "Registration optimizers",
-   "Segmentation"
-  ],
-  "comments": [],
-  "date_submitted": "2008-05-31T21:08:06Z",
-  "handles": [
-   {
-    "handle": "10380/1380",
-    "handle_url": "http://hdl.handle.net/10380/1380"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 33,
-    "journal_name": "MICCAI 2008 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 565,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "grandj@mech.uwa.edu.au",
-     "author_firstname": "Grand roman",
-     "author_id": 832,
-     "author_lastname": "Joldes"
+  "publication": {
+    "abstract": "The elastic registration of medical scans from different acquisition sequences is becoming an important topic for many research labs that would like to continue the post-processing of medical scans acquired via the new generation of high-field-strength scanners. In this note, we present a parameter-free registration algorithm that is well suited for this scenario as it requires no tuning to specific acquisition sequences. The algorithm encompasses a new numerical scheme for computing elastic registration maps based on the minimizing flow approach to optimal mass transport. The approach utilizes all of the gray-scale data in both images, and the optimal mapping from image A to image B is the inverse of the optimal mapping from B to A. Further, no landmarks need to be specified, and the minimizer of the distance functional involved is unique. We apply the algorithm to register the white matter folds of two different scans and use the results to parcellate the cortex of the target image. To the best of our knowledge, this is the first time that the optimal mass transport function has been applied to register large 3D multimodal data sets.",
+    "articles": [
+      "bafybeidsqqsdzkmrghlajyy3horig6zrjco3csz7ydwddrnygxjhf2g3ky"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Wald, Lawrence",
+        "author_place": 7,
+        "persona_email": "wald@nmr.mgh.harvard.edu",
+        "persona_id": 183,
+        "persona_lastname": "Wald"
+      },
+      {
+        "author_fullname": "Kikinis, Ron",
+        "author_place": 8,
+        "persona_email": "kikinis@bwh.harvard.edu",
+        "persona_firstname": "Ron",
+        "persona_id": 238,
+        "persona_lastname": "Kikinis"
+      },
+      {
+        "author_fullname": "Tannenbaum, Allen",
+        "author_place": 9,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Rehman, Tauseef",
+        "author_place": 1,
+        "persona_email": "tauseef@ece.gatech.edu",
+        "persona_firstname": "Tauseef",
+        "persona_id": 831,
+        "persona_lastname": "Rehman"
+      },
+      {
+        "author_fullname": "Haber, Eldad",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Pohl, Kilian",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Haker, Steven",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Halle, Mike",
+        "author_place": 5,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Talos, Florin",
+        "author_place": 6,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Atlas-based segmentation",
+      "Data Representation",
+      "Derivatives and Integrals",
+      "Image",
+      "Linear Algebra",
+      "Mathematics",
+      "Mesh",
+      "Multi-modality registration",
+      "Optimization",
+      "PointSet",
+      "Registration",
+      "Registration metrics",
+      "Registration optimizers",
+      "Segmentation"
+    ],
+    "comments": [],
+    "date_submitted": "2008-05-31T21:08:06Z",
+    "handles": [
+      {
+        "handle": "10380/1380",
+        "handle_url": "http://hdl.handle.net/10380/1380"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<p style=\"margin: 0cm 0cm 0pt\" class=\"MsoNormal\"><font face=\"Times New Roman\" size=\"3\">&nbsp;&nbsp; In this paper the authors propose the use of the Optimal Mass Transport theory for identifying the cortical structures by mapping a brain atlas to the MRI scan of a patient. </font></p><p style=\"margin: 0cm 0cm 0pt\" class=\"MsoNormal\">&nbsp;</p><p style=\"margin: 0cm 0cm 0pt\" class=\"MsoNormal\"><font size=\"3\"><font face=\"Times New Roman\">&nbsp;&nbsp; Most of the solution algorithm derivation and implementation described in this paper was presented in previous papers [1]. The authors contribute by proposing the use of a different direction for minimization and by enforcing the mass preserving property after each iteration step.</font></font></p><p style=\"margin: 0cm 0cm 0pt\" class=\"MsoNormal\"><font size=\"3\"><font face=\"Times New Roman\"><span>&nbsp;&nbsp; </span></font></font></p><p style=\"margin: 0cm 0cm 0pt\" class=\"MsoNormal\"><font face=\"Times New Roman\" size=\"3\">&nbsp;&nbsp; The method requires as a pre-requisite a segmentation of the patient MRI scan into the major tissue classes - it is not specified in the paper how this problem is solved. It also requires that the intensities of the two input images (atlas and MRI) be normalized and rescaled to make sure that both have the same mass (intensity). This will certainly influence the results especially if the intensity distribution differs considerably between the atlas and the MRI scan (scanning sequences or sensors are very different).</font></p><p style=\"margin: 0cm 0cm 0pt\" class=\"MsoNormal\">&nbsp;</p><p style=\"margin: 0cm 0cm 0pt\" class=\"MsoNormal\"><font face=\"Times New Roman\" size=\"3\">&nbsp;&nbsp; The authors present the difference in white matter intensity between the patient MRI and the re-sampled atlas image as a proof of accuracy. Nevertheless, this only proves that the algorithm can morph one image into the other, not that the folds are accurately aligned (as shown in the presented results, some atlas labels are propagated to the wrong regions). The matching of anatomical landmarks would be more appropriate for quantifying the accuracy of the method.</font></p><font face=\"Times New Roman\" size=\"3\">&nbsp;</font><font face=\"Times New Roman\" size=\"3\">&nbsp;</font> <p style=\"margin: 0cm 0cm 0pt; text-indent: 0cm\" class=\"MsoNormal\"><font face=\"Times New Roman\" size=\"3\">References</font></p><font face=\"Times New Roman\" size=\"3\">&nbsp;</font> <p style=\"margin: 0cm 0cm 0pt; text-indent: 0cm\" class=\"MsoNormal\"><font face=\"Times New Roman\" size=\"3\">1. <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Haker, S., Zhu, L., Tannenbaum, A., Angenent, S., 2004, Optimal mass transport for registration and warping. International Journal of Computer Vision 60 (3), 225&ndash;240.</font></p><p>&nbsp;</p>",
-    "date": "06-30-2008",
-    "review_id": 1482
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "tauseef@ece.gatech.edu",
-   "author_firstname": "Tauseef",
-   "author_fullname": "Rehman, Tauseef",
-   "author_id": 831,
-   "author_institution": "Georgia Institute of Technology, USA",
-   "author_lastname": "Rehman"
-  },
-  "tags": [
-   "Optimal Mass Transport",
-   "Variational Methods",
-   "Monge Kantorovich",
-   "Registration",
-   "Fluid Mechanics"
-  ],
-  "title": "Multimodal Registration of White Matter Brain Data via Optimal Mass Transport"
- }
+    "journals": [
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 565,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "grandj@mech.uwa.edu.au",
+          "author_firstname": "Grand roman",
+          "author_id": 832,
+          "author_lastname": "Joldes"
+        },
+        "content": "<p style=\"margin: 0cm 0cm 0pt\" class=\"MsoNormal\"><font face=\"Times New Roman\" size=\"3\">&nbsp;&nbsp; In this paper the authors propose the use of the Optimal Mass Transport theory for identifying the cortical structures by mapping a brain atlas to the MRI scan of a patient. </font></p><p style=\"margin: 0cm 0cm 0pt\" class=\"MsoNormal\">&nbsp;</p><p style=\"margin: 0cm 0cm 0pt\" class=\"MsoNormal\"><font size=\"3\"><font face=\"Times New Roman\">&nbsp;&nbsp; Most of the solution algorithm derivation and implementation described in this paper was presented in previous papers [1]. The authors contribute by proposing the use of a different direction for minimization and by enforcing the mass preserving property after each iteration step.</font></font></p><p style=\"margin: 0cm 0cm 0pt\" class=\"MsoNormal\"><font size=\"3\"><font face=\"Times New Roman\"><span>&nbsp;&nbsp; </span></font></font></p><p style=\"margin: 0cm 0cm 0pt\" class=\"MsoNormal\"><font face=\"Times New Roman\" size=\"3\">&nbsp;&nbsp; The method requires as a pre-requisite a segmentation of the patient MRI scan into the major tissue classes - it is not specified in the paper how this problem is solved. It also requires that the intensities of the two input images (atlas and MRI) be normalized and rescaled to make sure that both have the same mass (intensity). This will certainly influence the results especially if the intensity distribution differs considerably between the atlas and the MRI scan (scanning sequences or sensors are very different).</font></p><p style=\"margin: 0cm 0cm 0pt\" class=\"MsoNormal\">&nbsp;</p><p style=\"margin: 0cm 0cm 0pt\" class=\"MsoNormal\"><font face=\"Times New Roman\" size=\"3\">&nbsp;&nbsp; The authors present the difference in white matter intensity between the patient MRI and the re-sampled atlas image as a proof of accuracy. Nevertheless, this only proves that the algorithm can morph one image into the other, not that the folds are accurately aligned (as shown in the presented results, some atlas labels are propagated to the wrong regions). The matching of anatomical landmarks would be more appropriate for quantifying the accuracy of the method.</font></p><font face=\"Times New Roman\" size=\"3\">&nbsp;</font><font face=\"Times New Roman\" size=\"3\">&nbsp;</font> <p style=\"margin: 0cm 0cm 0pt; text-indent: 0cm\" class=\"MsoNormal\"><font face=\"Times New Roman\" size=\"3\">References</font></p><font face=\"Times New Roman\" size=\"3\">&nbsp;</font> <p style=\"margin: 0cm 0cm 0pt; text-indent: 0cm\" class=\"MsoNormal\"><font face=\"Times New Roman\" size=\"3\">1. <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Haker, S., Zhu, L., Tannenbaum, A., Angenent, S., 2004, Optimal mass transport for registration and warping. International Journal of Computer Vision 60 (3), 225&ndash;240.</font></p><p>&nbsp;</p>",
+        "date": "06-30-2008",
+        "review_id": 1482
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "tauseef@ece.gatech.edu",
+      "author_firstname": "Tauseef",
+      "author_fullname": "Rehman, Tauseef",
+      "author_id": 831,
+      "author_institution": "Georgia Institute of Technology, USA",
+      "author_lastname": "Rehman"
+    },
+    "tags": [
+      "Optimal Mass Transport",
+      "Variational Methods",
+      "Monge Kantorovich",
+      "Registration",
+      "Fluid Mechanics"
+    ],
+    "title": "Multimodal Registration of White Matter Brain Data via Optimal Mass Transport"
+  }
 }

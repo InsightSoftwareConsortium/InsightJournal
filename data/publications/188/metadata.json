@@ -1,47 +1,50 @@
 {
- "publication": {
-  "abstract": "Kenneth Johnson's submission for the Open Source Software Practice course homework. Includes an implementation of Confidence Connected. Brain data, Normal007-T2.mha from MIDAS - Kitware is not included, as I don't have permission to redistribute it.",
-  "authors": [
-   {
-    "author_fullname": "Johnson, Kenneth",
-    "author_place": 1,
-    "persona_email": "johnsk7@rpi.edu",
-    "persona_firstname": "Kenneth",
-    "persona_id": 713,
-    "persona_lastname": "Johnson"
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2007-10-18T19:06:23Z",
-  "handles": [
-   {
-    "handle": "1926/1302",
-    "handle_url": "http://hdl.handle.net/1926/1302"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 188,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "johnsk7@rpi.edu",
-   "author_firstname": "Kenneth",
-   "author_fullname": "Johnson, Kenneth",
-   "author_id": 713,
-   "author_institution": "RPI",
-   "author_lastname": "Johnson"
-  },
-  "tags": null,
-  "title": "Kenneth Johnson - Confidence Connected HW"
- }
+  "publication": {
+    "abstract": "Kenneth Johnson's submission for the Open Source Software Practice course homework. Includes an implementation of Confidence Connected. Brain data, Normal007-T2.mha from MIDAS - Kitware is not included, as I don't have permission to redistribute it.",
+    "articles": [
+      "bafkreicktg6svoojhkrtniglazvfrdjfpdwhygfruzb3254kzfotdsgkxq"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Johnson, Kenneth",
+        "author_place": 1,
+        "persona_email": "johnsk7@rpi.edu",
+        "persona_firstname": "Kenneth",
+        "persona_id": 713,
+        "persona_lastname": "Johnson"
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2007-10-18T19:06:23Z",
+    "handles": [
+      {
+        "handle": "1926/1302",
+        "handle_url": "http://hdl.handle.net/1926/1302"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 188,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "johnsk7@rpi.edu",
+      "author_firstname": "Kenneth",
+      "author_fullname": "Johnson, Kenneth",
+      "author_id": 713,
+      "author_institution": "RPI",
+      "author_lastname": "Johnson"
+    },
+    "tags": null,
+    "title": "Kenneth Johnson - Confidence Connected HW"
+  }
 }

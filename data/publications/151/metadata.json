@@ -1,68 +1,76 @@
 {
- "publication": {
-  "abstract": "ManagedITK generates wrappers around ITK for .NET languages. These wrappers can be used with any CLR language, including C#, VB.NET, IronPython, and others. ManagedITK is useful for a number of reasons, including the ability to rapidly create graphical user interfaces using Windows Forms (also known as System.Windows.Forms). Full source code and many in-depth examples accompany this article. Pre-compiled .NET assemblies can also be downloaded for easy integration into standalone C# applications.",
-  "authors": [
-   {
-    "author_fullname": "Mueller, Dan",
-    "author_place": 1,
-    "persona_email": "dan.muel@gmail.com",
-    "persona_firstname": "Dan",
-    "persona_id": 286,
-    "persona_lastname": "Mueller"
-   }
-  ],
-  "categories": [
-   "Language binding"
-  ],
-  "comments": [],
-  "date_submitted": "2007-04-25",
-  "handles": [
-   {
-    "handle": "1926/501",
-    "handle_url": "http://hdl.handle.net/1926/501"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 151,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "gareth.price@physics.cr.man.ac.uk",
-     "author_firstname": "Gareth",
-     "author_id": 723,
-     "author_lastname": "Price"
+  "publication": {
+    "abstract": "ManagedITK generates wrappers around ITK for .NET languages. These wrappers can be used with any CLR language, including C#, VB.NET, IronPython, and others. ManagedITK is useful for a number of reasons, including the ability to rapidly create graphical user interfaces using Windows Forms (also known as System.Windows.Forms). Full source code and many in-depth examples accompany this article. Pre-compiled .NET assemblies can also be downloaded for easy integration into standalone C# applications.",
+    "articles": [
+      "bafybeiepohwnxag5ddl52lpoiond5suiq6mp7cum4mj3bfgoz6huehcqhm",
+      "bafybeibyzsstqylsfnbsj54peppehpqj65p22xxum55fybfjzu6truhaku",
+      "bafybeiasotfxkh4obzaredcad3t47o2kt226t4zioubkwgqs7trrnunru4",
+      "bafybeibvjxvcu6ka6u7amoh5nzojq5orb7csdcvyzfa67wu64jy3pa26oi",
+      "bafybeihgnymrjsfe2d44hf5vbjxgbuahmreqwpvoqrjzjkhnajw6et2y3u",
+      "bafybeihax2ridq4wodezem5sd4lnu4uopznsqwz7snwpdumra4ltwbqq6i"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Mueller, Dan",
+        "author_place": 1,
+        "persona_email": "dan.muel@gmail.com",
+        "persona_firstname": "Dan",
+        "persona_id": 286,
+        "persona_lastname": "Mueller"
+      }
+    ],
+    "categories": [
+      "Language binding"
+    ],
+    "comments": [],
+    "date_submitted": "2007-04-25",
+    "handles": [
+      {
+        "handle": "1926/501",
+        "handle_url": "http://hdl.handle.net/1926/501"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<strong>Summary:</strong><br /> <p style=\\\"text-align: justify\\\" class=\\\"MsoNormal\\\">The author has developed an extension of WrapITK that enables the generation of .NET wrappers for ITK classes via CMake. The wrapped classes can then be directly called from CLR languages. C# examples are included in the source code and discussed in the paper.</p> <strong>Hypothesis:</strong><br /> <p class=\\\"MsoNormal\\\">Non applicable.</p> <br /> <strong>Evidence:</strong><br /> <p class=\\\"MsoNormal\\\">The author supplies all source code for the build of the wrappers as well as source code for the C# examples that are quoted in the paper.</p> <strong>Open Science:</strong><br /> <p class=\\\"MsoNormal\\\">As stated above, all source code is provided, including examples. The images used in the examples are also included in the code bundle.</p> <strong>Reproducibility:</strong><br /> <p class=\\\"MsoNormal\\\">Rather than use the binaries provided, I built the wrappers using CMake (v2.4 patch 7) and Visual Studio 2005 (v2.0.50727 SP1), following the instructions in Section 3.2 of the paper. I managed to build the managed libraries but in my case I needed to include two extra (small) steps in the process before successful compilation. Following step 7 (opening the ManagedITK.sln solution) and before step 8 (building) I also needed to:</p> <p><em>7a. Resolve #using Dependencies:</em> The #using compiler directive needs to be told where the ManagedITK.Common.dll is. Point this to the correct directory by way of the property pages Project-&gt;Properties then Configuration Properties-&gt;C/C++-&gt;General and fill in the Resolve #using References field.</p> <p><em>7b. Set the include directory:</em> The location of the include directories are set relatively. These need to be set explicitly (e.g. C:\\\\\\\\ITK\\\\\\\\Utilities\\\\\\\\vxl\\\\\\\\core\\\\\\\\vnl instead of \\\\\\\\Utilities..). This can be set in the property pages (see 7a above) Configuration Properties-&gt;C/C++-&gt;General-&gt;Additional Include Directories.</p> <p>With regard to the examples, without any alteration they all built OK, however, when run they failed to load the ManagedITK libraries and failed. I do not write in C# and I think that this is a problem that could be easily solved given a little more experience of the language. Writing in C++/CLI, the examples, which are clearly explained in the paper, are easily converted and I have had no problems in using ManagedITK from this environment.<br /><br /> <strong>Use of Open Source Software:</strong></p><p>The author produces .NET wrappers for ITK using CMake.<br /> <br /> <strong>Open Source Contributions:</strong><br /> </p><p class=\\\"MsoNormal\\\">All source code is provided, as are binaries. The build process is well documented in the paper and required only minor modifications in my case (see Reproducibility section above).</p><strong>Code Quality:</strong><br /><p class=\\\"MsoNormal\\\">The examples provided are well documented both in the paper and throughout the source and concisely summarize the use of the wrapped classes.</p> <p class=\\\"MsoNormal\\\">I am not experienced in the use of WrapITK, or particularly so with CMake, and so don&rsquo;t feel qualified to comment on the coding relating to these aspects of the project. However, it is important to note that as a non-expert, I was able to create the wrappers from the instructions provided with little hassle (see Reproducibility above).</p> <p><strong>Applicability to other problems:</strong><br /> </p><p class=\\\"MsoNormal\\\">I feel that a well developed and validated .NET version of ITK would be very welcome. Although there will inevitably be, as acknowledged by the author in the paper, performance loss when developing applications that require managed to native transitions, the ability to rapidly develop GUI applications is very appealing. The author also includes, in Section 2, a list of the pros and cons of using managed over native code in order to enable informed choice of programming language.</p><strong>Suggestions for future work:</strong><br /><p class=\\\"MsoNormal\\\">In order to get the most from managed ITK, I feel that it is important to be able to interface smoothly and efficiently to managed VTK. Indeed the author points out that this may be used in Section 5 - FAQ. To this end it would be useful for the interface classes ImageToVTKImageFilter and vtkImageToImageFilter to be included in the wrapping.</p> <p>It would be nice if all of the ITK functionality were to be available in the managed environment (in Section 2 under the list of disadvantages the author lists those object not supported). Other issues are also highlighted in the paper by the author for future attention (e.g. location of the managed/native interface to allow for optimised iterative performance).<br /><br /> <strong>Requests for additional information from authors:</strong><br /> </p><p class=\\\"MsoNormal\\\">I think that a very useful addition to the project would be an expanded explanation of the wrapping procedure (at the moment in the FAQs under &ldquo;How do I wrap an external project&rdquo;). It would be nice if the structure of the CMake files and the effect of the various parameters therein were explicitly stated. </p> <p>Obviously the greater the knowledge of WrapITK and CMake the reader posses, the more sense this section will make. However, a detailed walk through of the wrapping of a class would, I feel, make the process much more accessible to the non-expert reader.<br /><br /> <strong>Additional Comments:<br /></strong><br />N/A<br /> <br /> </p>",
-    "date": "12-13-2007",
-    "review_id": 631
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "dan.muel@gmail.com",
-   "author_firstname": "Dan",
-   "author_fullname": "Mueller, Dan",
-   "author_id": 286,
-   "author_institution": "Philips Healthcare",
-   "author_lastname": "Mueller"
-  },
-  "tags": [
-   "C#",
-   "C++/CLI",
-   "ITK",
-   "managed",
-   ".NET",
-   "CLR"
-  ],
-  "title": "ManagedITK: .NET Wrappers for ITK"
- }
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 151,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "gareth.price@physics.cr.man.ac.uk",
+          "author_firstname": "Gareth",
+          "author_id": 723,
+          "author_lastname": "Price"
+        },
+        "content": "<strong>Summary:</strong><br /> <p style=\\\"text-align: justify\\\" class=\\\"MsoNormal\\\">The author has developed an extension of WrapITK that enables the generation of .NET wrappers for ITK classes via CMake. The wrapped classes can then be directly called from CLR languages. C# examples are included in the source code and discussed in the paper.</p> <strong>Hypothesis:</strong><br /> <p class=\\\"MsoNormal\\\">Non applicable.</p> <br /> <strong>Evidence:</strong><br /> <p class=\\\"MsoNormal\\\">The author supplies all source code for the build of the wrappers as well as source code for the C# examples that are quoted in the paper.</p> <strong>Open Science:</strong><br /> <p class=\\\"MsoNormal\\\">As stated above, all source code is provided, including examples. The images used in the examples are also included in the code bundle.</p> <strong>Reproducibility:</strong><br /> <p class=\\\"MsoNormal\\\">Rather than use the binaries provided, I built the wrappers using CMake (v2.4 patch 7) and Visual Studio 2005 (v2.0.50727 SP1), following the instructions in Section 3.2 of the paper. I managed to build the managed libraries but in my case I needed to include two extra (small) steps in the process before successful compilation. Following step 7 (opening the ManagedITK.sln solution) and before step 8 (building) I also needed to:</p> <p><em>7a. Resolve #using Dependencies:</em> The #using compiler directive needs to be told where the ManagedITK.Common.dll is. Point this to the correct directory by way of the property pages Project-&gt;Properties then Configuration Properties-&gt;C/C++-&gt;General and fill in the Resolve #using References field.</p> <p><em>7b. Set the include directory:</em> The location of the include directories are set relatively. These need to be set explicitly (e.g. C:\\\\\\\\ITK\\\\\\\\Utilities\\\\\\\\vxl\\\\\\\\core\\\\\\\\vnl instead of \\\\\\\\Utilities..). This can be set in the property pages (see 7a above) Configuration Properties-&gt;C/C++-&gt;General-&gt;Additional Include Directories.</p> <p>With regard to the examples, without any alteration they all built OK, however, when run they failed to load the ManagedITK libraries and failed. I do not write in C# and I think that this is a problem that could be easily solved given a little more experience of the language. Writing in C++/CLI, the examples, which are clearly explained in the paper, are easily converted and I have had no problems in using ManagedITK from this environment.<br /><br /> <strong>Use of Open Source Software:</strong></p><p>The author produces .NET wrappers for ITK using CMake.<br /> <br /> <strong>Open Source Contributions:</strong><br /> </p><p class=\\\"MsoNormal\\\">All source code is provided, as are binaries. The build process is well documented in the paper and required only minor modifications in my case (see Reproducibility section above).</p><strong>Code Quality:</strong><br /><p class=\\\"MsoNormal\\\">The examples provided are well documented both in the paper and throughout the source and concisely summarize the use of the wrapped classes.</p> <p class=\\\"MsoNormal\\\">I am not experienced in the use of WrapITK, or particularly so with CMake, and so don&rsquo;t feel qualified to comment on the coding relating to these aspects of the project. However, it is important to note that as a non-expert, I was able to create the wrappers from the instructions provided with little hassle (see Reproducibility above).</p> <p><strong>Applicability to other problems:</strong><br /> </p><p class=\\\"MsoNormal\\\">I feel that a well developed and validated .NET version of ITK would be very welcome. Although there will inevitably be, as acknowledged by the author in the paper, performance loss when developing applications that require managed to native transitions, the ability to rapidly develop GUI applications is very appealing. The author also includes, in Section 2, a list of the pros and cons of using managed over native code in order to enable informed choice of programming language.</p><strong>Suggestions for future work:</strong><br /><p class=\\\"MsoNormal\\\">In order to get the most from managed ITK, I feel that it is important to be able to interface smoothly and efficiently to managed VTK. Indeed the author points out that this may be used in Section 5 - FAQ. To this end it would be useful for the interface classes ImageToVTKImageFilter and vtkImageToImageFilter to be included in the wrapping.</p> <p>It would be nice if all of the ITK functionality were to be available in the managed environment (in Section 2 under the list of disadvantages the author lists those object not supported). Other issues are also highlighted in the paper by the author for future attention (e.g. location of the managed/native interface to allow for optimised iterative performance).<br /><br /> <strong>Requests for additional information from authors:</strong><br /> </p><p class=\\\"MsoNormal\\\">I think that a very useful addition to the project would be an expanded explanation of the wrapping procedure (at the moment in the FAQs under &ldquo;How do I wrap an external project&rdquo;). It would be nice if the structure of the CMake files and the effect of the various parameters therein were explicitly stated. </p> <p>Obviously the greater the knowledge of WrapITK and CMake the reader posses, the more sense this section will make. However, a detailed walk through of the wrapping of a class would, I feel, make the process much more accessible to the non-expert reader.<br /><br /> <strong>Additional Comments:<br /></strong><br />N/A<br /> <br /> </p>",
+        "date": "12-13-2007",
+        "review_id": 631
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "dan.muel@gmail.com",
+      "author_firstname": "Dan",
+      "author_fullname": "Mueller, Dan",
+      "author_id": 286,
+      "author_institution": "Philips Healthcare",
+      "author_lastname": "Mueller"
+    },
+    "tags": [
+      "C#",
+      "C++/CLI",
+      "ITK",
+      "managed",
+      ".NET",
+      "CLR"
+    ],
+    "title": "ManagedITK: .NET Wrappers for ITK"
+  }
 }

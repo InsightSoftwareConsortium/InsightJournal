@@ -1,82 +1,85 @@
 {
- "publication": {
-  "abstract": "The presented ParaView plugin allows easy access to the algorithm described in Ref 1. It enables analysis of faceted objects that exhibit distortions in their digital representation, e.g. due to tomographic reconstruction artifacts.\nThe contributed functionality can also be used outside ParaView in e.g. command-line programs. The code, data, a test and an example program are included.",
-  "authors": [
-   {
-    "author_fullname": "Grothausmann, Roman",
-    "author_place": 2,
-    "persona_email": "Grothausmann.Roman@mh-hannover.de",
-    "persona_firstname": "Roman",
-    "persona_id": 6854,
-    "persona_lastname": "Grothausmann"
-   },
-   {
-    "author_fullname": "Beare, Richard",
-    "author_place": 3,
-    "persona_email": "richard.beare@ieee.org",
-    "persona_firstname": "Richard",
-    "persona_id": 197,
-    "persona_lastname": "Beare"
-   }
-  ],
-  "categories": [
-   "Edge Detection",
-   "Error Estimation",
-   "Geometric transforms",
-   "Image",
-   "Mesh",
-   "Neighborhood filters",
-   "Probability",
-   "Surface extraction",
-   "Thresholding",
-   "Watersheds"
-  ],
-  "comments": [
-   {
-    "content": "The current source can be found at:\r\nhttp://gitlab.com/romangrothausmann/FacetAnalyser.git\r\nhttp://github.com/romangrothausmann/FacetAnalyser.git\r\n\r\nDocker images with the CLI and ParaView with the Plugin at:\r\nhttp://gitlab.com/romangrothausmann/FacetAnalyser/container_registry\r\n\r\nmaster branch for a local X without Nvidia graphics or vgl branch for Nvidia graphics (even without VGL):\r\ngit clone -b master http://gitlab.com/romangrothausmann/FacetAnalyser.git\r\ncd FacetAnalyser/demo/\r\ndocker pull registry.gitlab.com/romangrothausmann/facetanalyser/master\r\n\r\nCLI:\r\ndocker run -ti -v $(pwd):/tmp/fa --workdir=/tmp/fa/ \\\r\n registry.gitlab.com/romangrothausmann/facetanalyser/master \\\r\n FacetAnalyserCLI \\\r\n  8faced-rhombic-dodecahedron_twinned_010_deformed_wss.vtp \\\r\n  51 15 0.2 0.001 2 \\\r\n  8faced-rhombic-dodecahedron_twinned_010_deformed_wss_FA.vtp\r\n\r\nPV:\r\n../run.sh -dr --state=8faced-rhombic-dodecahedron_twinned_simp+def.pvsm\r\n",
-    "date": "2018-09-10T06:11:13",
-    "persona_email": "Grothausmann.Roman@mh-hannover.de",
-    "persona_firstname": "Roman",
-    "persona_id": 6854,
-    "persona_lastname": "Grothausmann"
-   }
-  ],
-  "date_submitted": "2015-02-05 06:18:10",
-  "handles": [
-   {
-    "handle": "10380/3510",
-    "handle_url": "http://hdl.handle.net/10380/3510"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 31,
-    "journal_name": "The MIDAS Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 951,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "Grothausmann.Roman@mh-hannover.de",
-   "author_firstname": "Roman",
-   "author_fullname": "Grothausmann, Roman",
-   "author_id": 6854,
-   "author_institution": "Medizinische Hochschule Hannover",
-   "author_lastname": "Grothausmann"
-  },
-  "tags": [
-   "ITK",
-   "ParaView",
-   "facets",
-   "tomography",
-   "interplanar angles",
-   "VTK"
-  ],
-  "title": "Facet Analyser: ParaView plugin for automated facet detection and measurement of interplanar angles of tomographic objects"
- }
+  "publication": {
+    "abstract": "The presented ParaView plugin allows easy access to the algorithm described in Ref 1. It enables analysis of faceted objects that exhibit distortions in their digital representation, e.g. due to tomographic reconstruction artifacts.\nThe contributed functionality can also be used outside ParaView in e.g. command-line programs. The code, data, a test and an example program are included.",
+    "articles": [
+      "bafybeiccdacc7jlutwrl2dboxrd4blq6ifn34jrahnnbaldn5d4ib4ktvi"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Grothausmann, Roman",
+        "author_place": 2,
+        "persona_email": "Grothausmann.Roman@mh-hannover.de",
+        "persona_firstname": "Roman",
+        "persona_id": 6854,
+        "persona_lastname": "Grothausmann"
+      },
+      {
+        "author_fullname": "Beare, Richard",
+        "author_place": 3,
+        "persona_email": "richard.beare@ieee.org",
+        "persona_firstname": "Richard",
+        "persona_id": 197,
+        "persona_lastname": "Beare"
+      }
+    ],
+    "categories": [
+      "Edge Detection",
+      "Error Estimation",
+      "Geometric transforms",
+      "Image",
+      "Mesh",
+      "Neighborhood filters",
+      "Probability",
+      "Surface extraction",
+      "Thresholding",
+      "Watersheds"
+    ],
+    "comments": [
+      {
+        "content": "The current source can be found at:\r\nhttp://gitlab.com/romangrothausmann/FacetAnalyser.git\r\nhttp://github.com/romangrothausmann/FacetAnalyser.git\r\n\r\nDocker images with the CLI and ParaView with the Plugin at:\r\nhttp://gitlab.com/romangrothausmann/FacetAnalyser/container_registry\r\n\r\nmaster branch for a local X without Nvidia graphics or vgl branch for Nvidia graphics (even without VGL):\r\ngit clone -b master http://gitlab.com/romangrothausmann/FacetAnalyser.git\r\ncd FacetAnalyser/demo/\r\ndocker pull registry.gitlab.com/romangrothausmann/facetanalyser/master\r\n\r\nCLI:\r\ndocker run -ti -v $(pwd):/tmp/fa --workdir=/tmp/fa/ \\\r\n registry.gitlab.com/romangrothausmann/facetanalyser/master \\\r\n FacetAnalyserCLI \\\r\n  8faced-rhombic-dodecahedron_twinned_010_deformed_wss.vtp \\\r\n  51 15 0.2 0.001 2 \\\r\n  8faced-rhombic-dodecahedron_twinned_010_deformed_wss_FA.vtp\r\n\r\nPV:\r\n../run.sh -dr --state=8faced-rhombic-dodecahedron_twinned_simp+def.pvsm\r\n",
+        "date": "2018-09-10T06:11:13",
+        "persona_email": "Grothausmann.Roman@mh-hannover.de",
+        "persona_firstname": "Roman",
+        "persona_id": 6854,
+        "persona_lastname": "Grothausmann"
+      }
+    ],
+    "date_submitted": "2015-02-05 06:18:10",
+    "handles": [
+      {
+        "handle": "10380/3510",
+        "handle_url": "http://hdl.handle.net/10380/3510"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 31,
+        "journal_name": "The MIDAS Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 951,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "Grothausmann.Roman@mh-hannover.de",
+      "author_firstname": "Roman",
+      "author_fullname": "Grothausmann, Roman",
+      "author_id": 6854,
+      "author_institution": "Medizinische Hochschule Hannover",
+      "author_lastname": "Grothausmann"
+    },
+    "tags": [
+      "ITK",
+      "ParaView",
+      "facets",
+      "tomography",
+      "interplanar angles",
+      "VTK"
+    ],
+    "title": "Facet Analyser: ParaView plugin for automated facet detection and measurement of interplanar angles of tomographic objects"
+  }
 }

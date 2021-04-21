@@ -1,67 +1,70 @@
 {
- "publication": {
-  "abstract": "In this paper we applied one of our regularly used processing pipelines for fully automated brain tissue segmentation. Brain tissue was segmented in cerebrospinal fluid (CSF), gray matter (GM) and white matter (WM). Our algorithms for skull stripping, tissue segmentation and white matter lesion (WML) detection were slightly adapted and applied to twelve data sets within the MRBrainS13 brain tissue segmentation challenge. Skull stripping is performed using non-rigid registration of 5 atlas masks. Our tissue segmentation is based on an automatically trained kNN-classifier. Training samples were obtained by non-rigid registration of 5 manually labeled scans followed by a pruning step in feature space to remove any residual erroneously sampled tissue voxels. The kNN-classification incorporates voxel intensities from a T1-weighted scan and a FLAIR scan. The white matter lesion detection is based on an automatically determined threshold on the FLAIR scan. The application of the algorithms on the data from the MRBrainS13 Challenge showed that our pipeline produces acceptable segmentations. Average resulting Dice scores were 77.86 (CSF), 81.22 (GM), 87.27 (WM), 93.78 (total parenchyma), and 96.26 (all intracranial structures). Total processing time was about 2 hours per subject.",
-  "authors": [
-   {
-    "author_fullname": "Vrooman, Henri",
-    "author_place": 1,
-    "persona_email": "h.vrooman@erasmusmc.nl",
-    "persona_firstname": "Henri",
-    "persona_id": 8759,
-    "persona_lastname": "Vrooman"
-   },
-   {
-    "author_fullname": "Van der Lijn, Fedde",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Niessen, Wiro",
-    "author_place": 3,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Atlas-based segmentation",
-   "Deformable registration",
-   "Non-parametric Techniques"
-  ],
-  "comments": [],
-  "date_submitted": "2013-10-21 05:15:10",
-  "handles": [
-   {
-    "handle": "10380/3436",
-    "handle_url": "http://hdl.handle.net/10380/3436"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 41,
-    "journal_name": "MICCAI 2013 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 900,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "h.vrooman@erasmusmc.nl",
-   "author_firstname": "Henri",
-   "author_fullname": "Vrooman, Henri",
-   "author_id": 8759,
-   "author_institution": "Erasmus MC University Medical Center Rotterdam",
-   "author_lastname": "Vrooman"
-  },
-  "tags": [
-   "kNN Classifier",
-   "Brain Tissue Segmentation",
-   "Automated Classifier Training",
-   "Skull Stripping",
-   "White Matter Lesion Detection"
-  ],
-  "title": "Auto-kNN: Brain Tissue Segmentation using Automatically Trained k-Nearest-Neighbor Classification"
- }
+  "publication": {
+    "abstract": "In this paper we applied one of our regularly used processing pipelines for fully automated brain tissue segmentation. Brain tissue was segmented in cerebrospinal fluid (CSF), gray matter (GM) and white matter (WM). Our algorithms for skull stripping, tissue segmentation and white matter lesion (WML) detection were slightly adapted and applied to twelve data sets within the MRBrainS13 brain tissue segmentation challenge. Skull stripping is performed using non-rigid registration of 5 atlas masks. Our tissue segmentation is based on an automatically trained kNN-classifier. Training samples were obtained by non-rigid registration of 5 manually labeled scans followed by a pruning step in feature space to remove any residual erroneously sampled tissue voxels. The kNN-classification incorporates voxel intensities from a T1-weighted scan and a FLAIR scan. The white matter lesion detection is based on an automatically determined threshold on the FLAIR scan. The application of the algorithms on the data from the MRBrainS13 Challenge showed that our pipeline produces acceptable segmentations. Average resulting Dice scores were 77.86 (CSF), 81.22 (GM), 87.27 (WM), 93.78 (total parenchyma), and 96.26 (all intracranial structures). Total processing time was about 2 hours per subject.",
+    "articles": [
+      "bafybeicjf4oh5gpm5zt6itblohnqv7fbpw6dant752iu72s4n4ao5m6rca"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Vrooman, Henri",
+        "author_place": 1,
+        "persona_email": "h.vrooman@erasmusmc.nl",
+        "persona_firstname": "Henri",
+        "persona_id": 8759,
+        "persona_lastname": "Vrooman"
+      },
+      {
+        "author_fullname": "Van der Lijn, Fedde",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Niessen, Wiro",
+        "author_place": 3,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Atlas-based segmentation",
+      "Deformable registration",
+      "Non-parametric Techniques"
+    ],
+    "comments": [],
+    "date_submitted": "2013-10-21 05:15:10",
+    "handles": [
+      {
+        "handle": "10380/3436",
+        "handle_url": "http://hdl.handle.net/10380/3436"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 41,
+        "journal_name": "MICCAI 2013 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 900,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "h.vrooman@erasmusmc.nl",
+      "author_firstname": "Henri",
+      "author_fullname": "Vrooman, Henri",
+      "author_id": 8759,
+      "author_institution": "Erasmus MC University Medical Center Rotterdam",
+      "author_lastname": "Vrooman"
+    },
+    "tags": [
+      "kNN Classifier",
+      "Brain Tissue Segmentation",
+      "Automated Classifier Training",
+      "Skull Stripping",
+      "White Matter Lesion Detection"
+    ],
+    "title": "Auto-kNN: Brain Tissue Segmentation using Automatically Trained k-Nearest-Neighbor Classification"
+  }
 }

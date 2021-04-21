@@ -1,149 +1,152 @@
 {
- "publication": {
-  "abstract": "In this work, we try to develop a fast converging method for\nsegmentation assisted deformable registration. The segmentation step\nconsists of a piece-wise constant Mumford-Shah energy model while reg-\nistration is driven by the sum of squared distances of both initial images\nand segmented mask with a diffusion regularization. In order to solve\nthis energy minimization problem, a second order Gauss-Newton opti-\nmization method is used. For the numerical experiments we used CT\ndata sets from the EMPIRE10 challenge. In this preliminary study, we\nshow high accuracy of our algorithm.\n",
-  "authors": [
-   {
-    "author_fullname": "Jurisic, Miro",
-    "author_place": 1,
-    "persona_email": "mjurisic86@gmail.com",
-    "persona_firstname": "Miro",
-    "persona_id": 9247,
-    "persona_lastname": "Jurisic"
-   },
-   {
-    "author_fullname": "Fechter, Tobias",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Hauler, Frida",
-    "author_place": 3,
-    "persona_email": "frida.hauler@meduniwien.ac.at",
-    "persona_firstname": "Frida",
-    "persona_id": 9239,
-    "persona_lastname": "Hauler"
-   },
-   {
-    "author_fullname": "Furtado, Hugo",
-    "author_place": 4,
-    "persona_email": "hugo.furtado@meduniwien.ac.at",
-    "persona_firstname": "Hugo",
-    "persona_id": 9253,
-    "persona_lastname": "Furtado"
-   },
-   {
-    "author_fullname": "Nestle, Ursula",
-    "author_place": 5,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Birkfellner, Wolfgang",
-    "author_place": 6,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Deformable registration",
-   "Segmentation"
-  ],
-  "comments": [
-   {
-    "content": "Replica Rolex klokker, replicacartierwatch.cn",
-    "date": "2020-11-13T01:35:32",
-    "persona_email": "fc573d75c@yeah.net",
-    "persona_firstname": "Nsmanrich",
-    "persona_id": 8685,
-    "persona_lastname": "Vigorda"
-   },
-   {
-    "content": "R\u00e9plica rel\u00f3gios Rolex, replicacartierwatch.cn",
-    "date": "2021-02-27T13:11:06",
-    "persona_email": "open821546@tom.com",
-    "persona_firstname": "Otertonbibi",
-    "persona_id": 7516,
-    "persona_lastname": "Vigorda"
-   },
-   {
-    "content": " R\u00e9plica rel\u00f3gios Rolex, replicacartierwatch.cn US Dollar Euro GB Pound Canadian Dollar Australian Dollar Jappen Yen Norske Krone Swedish Krone Danish Krone CNY Fatal error: Call to a member function MoveNext() on a non-object in /var/www/replicacartierwatch.cn/includes/classes/category_tree.php on line 69 ",
-    "date": "2021-02-27T13:11:04",
-    "persona_email": "open821546@tom.com",
-    "persona_firstname": "Otertonbibi",
-    "persona_id": 7516,
-    "persona_lastname": "Vigorda"
-   },
-   {
-    "content": " R\u00e9plica rel\u00f3gios Rolex, replicacartierwatch.cn US Dollar Euro GB Pound Canadian Dollar Australian Dollar Jappen Yen Norske Krone Swedish Krone Danish Krone CNY Fatal error: Call to a member function MoveNext() on a non-object in /var/www/replicacartierwatch.cn/includes/classes/category_tree.php on line 69 ",
-    "date": "2021-02-27T13:12:05",
-    "persona_email": "open821546@tom.com",
-    "persona_firstname": "Otertonbibi",
-    "persona_id": 7516,
-    "persona_lastname": "Vigorda"
-   },
-   {
-    "content": "R\u00e9plica rel\u00f3gios Rolex, replicacartierwatch.cn",
-    "date": "2021-02-27T13:12:07",
-    "persona_email": "open821546@tom.com",
-    "persona_firstname": "Otertonbibi",
-    "persona_id": 7516,
-    "persona_lastname": "Vigorda"
-   },
-   {
-    "content": " Replica Rolex klokker, replicacartierwatch.cn US Dollar Euro GB Pound Canadian Dollar Australian Dollar Jappen Yen Norske Krone Swedish Krone Danish Krone CNY Fatal error: Call to a member function MoveNext() on a non-object in /var/www/replicacartierwatch.cn/includes/classes/category_tree.php on line 69 ",
-    "date": "2020-11-13T01:35:23",
-    "persona_email": "fc573d75c@yeah.net",
-    "persona_firstname": "Nsmanrich",
-    "persona_id": 8685,
-    "persona_lastname": "Vigorda"
-   },
-   {
-    "content": " R\u00e9plica rel\u00f3gios Rolex, replicacartierwatch.top US Dollar Euro GB Pound Canadian Dollar Australian Dollar Jappen Yen Norske Krone Swedish Krone Danish Krone CNY Fatal error: Call to a member function MoveNext() on a non-object in /var/www/replicacartierwatch.top/includes/classes/category_tree.php on line 69 ",
-    "date": "2020-04-20T13:14:10",
-    "persona_email": "truskowskiwld@hotmail.com",
-    "persona_firstname": "Epinedewi",
-    "persona_id": 8683,
-    "persona_lastname": "Ken"
-   },
-   {
-    "content": "R\u00e9plica rel\u00f3gios Rolex, replicacartierwatch.top",
-    "date": "2020-04-20T13:14:12",
-    "persona_email": "truskowskiwld@hotmail.com",
-    "persona_firstname": "Epinedewi",
-    "persona_id": 8683,
-    "persona_lastname": "Ken"
-   }
-  ],
-  "date_submitted": "2014-10-20 11:15:24",
-  "handles": [
-   {
-    "handle": "10380/3492",
-    "handle_url": "http://hdl.handle.net/10380/3492"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 42,
-    "journal_name": "MICCAI 2014 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 941,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "mjurisic86@gmail.com",
-   "author_firstname": "Miro",
-   "author_fullname": "Jurisic, Miro",
-   "author_id": 9247,
-   "author_institution": "Medical University of Vienna",
-   "author_lastname": "Jurisic"
-  },
-  "tags": [
-   " deformable registration",
-   "energy based segmentation"
-  ],
-  "title": "Gauss-Newton Method for Segmentation assisted Deformable Registration"
- }
+  "publication": {
+    "abstract": "In this work, we try to develop a fast converging method for\nsegmentation assisted deformable registration. The segmentation step\nconsists of a piece-wise constant Mumford-Shah energy model while reg-\nistration is driven by the sum of squared distances of both initial images\nand segmented mask with a diffusion regularization. In order to solve\nthis energy minimization problem, a second order Gauss-Newton opti-\nmization method is used. For the numerical experiments we used CT\ndata sets from the EMPIRE10 challenge. In this preliminary study, we\nshow high accuracy of our algorithm.\n",
+    "articles": [
+      "bafybeig5ennzj3qututfgazglvobvdd6dv5lyrugux7tozkdbyr44xzp6y"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Jurisic, Miro",
+        "author_place": 1,
+        "persona_email": "mjurisic86@gmail.com",
+        "persona_firstname": "Miro",
+        "persona_id": 9247,
+        "persona_lastname": "Jurisic"
+      },
+      {
+        "author_fullname": "Fechter, Tobias",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Hauler, Frida",
+        "author_place": 3,
+        "persona_email": "frida.hauler@meduniwien.ac.at",
+        "persona_firstname": "Frida",
+        "persona_id": 9239,
+        "persona_lastname": "Hauler"
+      },
+      {
+        "author_fullname": "Furtado, Hugo",
+        "author_place": 4,
+        "persona_email": "hugo.furtado@meduniwien.ac.at",
+        "persona_firstname": "Hugo",
+        "persona_id": 9253,
+        "persona_lastname": "Furtado"
+      },
+      {
+        "author_fullname": "Nestle, Ursula",
+        "author_place": 5,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Birkfellner, Wolfgang",
+        "author_place": 6,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Deformable registration",
+      "Segmentation"
+    ],
+    "comments": [
+      {
+        "content": "Replica Rolex klokker, replicacartierwatch.cn",
+        "date": "2020-11-13T01:35:32",
+        "persona_email": "fc573d75c@yeah.net",
+        "persona_firstname": "Nsmanrich",
+        "persona_id": 8685,
+        "persona_lastname": "Vigorda"
+      },
+      {
+        "content": "R\u00e9plica rel\u00f3gios Rolex, replicacartierwatch.cn",
+        "date": "2021-02-27T13:11:06",
+        "persona_email": "open821546@tom.com",
+        "persona_firstname": "Otertonbibi",
+        "persona_id": 7516,
+        "persona_lastname": "Vigorda"
+      },
+      {
+        "content": " R\u00e9plica rel\u00f3gios Rolex, replicacartierwatch.cn US Dollar Euro GB Pound Canadian Dollar Australian Dollar Jappen Yen Norske Krone Swedish Krone Danish Krone CNY Fatal error: Call to a member function MoveNext() on a non-object in /var/www/replicacartierwatch.cn/includes/classes/category_tree.php on line 69 ",
+        "date": "2021-02-27T13:11:04",
+        "persona_email": "open821546@tom.com",
+        "persona_firstname": "Otertonbibi",
+        "persona_id": 7516,
+        "persona_lastname": "Vigorda"
+      },
+      {
+        "content": " R\u00e9plica rel\u00f3gios Rolex, replicacartierwatch.cn US Dollar Euro GB Pound Canadian Dollar Australian Dollar Jappen Yen Norske Krone Swedish Krone Danish Krone CNY Fatal error: Call to a member function MoveNext() on a non-object in /var/www/replicacartierwatch.cn/includes/classes/category_tree.php on line 69 ",
+        "date": "2021-02-27T13:12:05",
+        "persona_email": "open821546@tom.com",
+        "persona_firstname": "Otertonbibi",
+        "persona_id": 7516,
+        "persona_lastname": "Vigorda"
+      },
+      {
+        "content": "R\u00e9plica rel\u00f3gios Rolex, replicacartierwatch.cn",
+        "date": "2021-02-27T13:12:07",
+        "persona_email": "open821546@tom.com",
+        "persona_firstname": "Otertonbibi",
+        "persona_id": 7516,
+        "persona_lastname": "Vigorda"
+      },
+      {
+        "content": " Replica Rolex klokker, replicacartierwatch.cn US Dollar Euro GB Pound Canadian Dollar Australian Dollar Jappen Yen Norske Krone Swedish Krone Danish Krone CNY Fatal error: Call to a member function MoveNext() on a non-object in /var/www/replicacartierwatch.cn/includes/classes/category_tree.php on line 69 ",
+        "date": "2020-11-13T01:35:23",
+        "persona_email": "fc573d75c@yeah.net",
+        "persona_firstname": "Nsmanrich",
+        "persona_id": 8685,
+        "persona_lastname": "Vigorda"
+      },
+      {
+        "content": " R\u00e9plica rel\u00f3gios Rolex, replicacartierwatch.top US Dollar Euro GB Pound Canadian Dollar Australian Dollar Jappen Yen Norske Krone Swedish Krone Danish Krone CNY Fatal error: Call to a member function MoveNext() on a non-object in /var/www/replicacartierwatch.top/includes/classes/category_tree.php on line 69 ",
+        "date": "2020-04-20T13:14:10",
+        "persona_email": "truskowskiwld@hotmail.com",
+        "persona_firstname": "Epinedewi",
+        "persona_id": 8683,
+        "persona_lastname": "Ken"
+      },
+      {
+        "content": "R\u00e9plica rel\u00f3gios Rolex, replicacartierwatch.top",
+        "date": "2020-04-20T13:14:12",
+        "persona_email": "truskowskiwld@hotmail.com",
+        "persona_firstname": "Epinedewi",
+        "persona_id": 8683,
+        "persona_lastname": "Ken"
+      }
+    ],
+    "date_submitted": "2014-10-20 11:15:24",
+    "handles": [
+      {
+        "handle": "10380/3492",
+        "handle_url": "http://hdl.handle.net/10380/3492"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 42,
+        "journal_name": "MICCAI 2014 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 941,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "mjurisic86@gmail.com",
+      "author_firstname": "Miro",
+      "author_fullname": "Jurisic, Miro",
+      "author_id": 9247,
+      "author_institution": "Medical University of Vienna",
+      "author_lastname": "Jurisic"
+    },
+    "tags": [
+      " deformable registration",
+      "energy based segmentation"
+    ],
+    "title": "Gauss-Newton Method for Segmentation assisted Deformable Registration"
+  }
 }

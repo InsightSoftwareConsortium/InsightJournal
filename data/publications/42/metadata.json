@@ -1,95 +1,98 @@
 {
- "publication": {
-  "abstract": "Salient points are used for various applications, such as medical image registration, tracking, stereoscopic matching. The purpose of this paper is to compare two commonly used methods to extract salient points in 3D medical images. We give an interpretation of the methods and validate their performance empirically based on criteria derived for the task of image registration, displacement measurement and tracking in medical images.",
-  "authors": [
-   {
-    "author_fullname": "Lloyd, Bryn A.",
-    "author_place": 1,
-    "persona_email": "blloyd@ee.ethz.ch",
-    "persona_firstname": "Bryn",
-    "persona_id": 23,
-    "persona_lastname": "Lloyd"
-   },
-   {
-    "author_fullname": "Szekely, Gabor",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Kikinis, Ron",
-    "author_place": 3,
-    "persona_email": "kikinis@bwh.harvard.edu",
-    "persona_firstname": "Ron",
-    "persona_id": 238,
-    "persona_lastname": "Kikinis"
-   },
-   {
-    "author_fullname": "Warfield, Simon K.",
-    "author_place": 4,
-    "persona_email": "simon.warfield@childrens.harvard.edu",
-    "persona_firstname": "Simon",
-    "persona_id": 514,
-    "persona_lastname": "Warfield"
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2005-08-06T01:41:59Z",
-  "handles": [
-   {
-    "handle": "1926/49",
-    "handle_url": "http://hdl.handle.net/1926/49"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 42,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "dauguet@bwh.harvard.edu",
-     "author_firstname": "Julien",
-     "author_id": 145,
-     "author_lastname": "Dauguet"
+  "publication": {
+    "abstract": "Salient points are used for various applications, such as medical image registration, tracking, stereoscopic matching. The purpose of this paper is to compare two commonly used methods to extract salient points in 3D medical images. We give an interpretation of the methods and validate their performance empirically based on criteria derived for the task of image registration, displacement measurement and tracking in medical images.",
+    "articles": [
+      "bafkreic5yr2afol3rnwuwbety4iy2oy6xvfkiwelh43ciev46lhrhik4y4"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Lloyd, Bryn A.",
+        "author_place": 1,
+        "persona_email": "blloyd@ee.ethz.ch",
+        "persona_firstname": "Bryn",
+        "persona_id": 23,
+        "persona_lastname": "Lloyd"
+      },
+      {
+        "author_fullname": "Szekely, Gabor",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Kikinis, Ron",
+        "author_place": 3,
+        "persona_email": "kikinis@bwh.harvard.edu",
+        "persona_firstname": "Ron",
+        "persona_id": 238,
+        "persona_lastname": "Kikinis"
+      },
+      {
+        "author_fullname": "Warfield, Simon K.",
+        "author_place": 4,
+        "persona_email": "simon.warfield@childrens.harvard.edu",
+        "persona_firstname": "Simon",
+        "persona_id": 514,
+        "persona_lastname": "Warfield"
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2005-08-06T01:41:59Z",
+    "handles": [
+      {
+        "handle": "1926/49",
+        "handle_url": "http://hdl.handle.net/1926/49"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<b>Summary:</b>\r\n[Short description of the paper. In two or three phrases describe the problem that was addressed by the authors and the approach they took to solve it.]\r\nSalient points are used in image analysis to extract informative and reliable regions. This paper describes two different methods to extract salient points and compares them on thirteen MR images. \r\n\r\n<b>Hypothesis:</b>\r\n[If Applicable: Describe the assumptions that the authors have made and they hypothesis of their work, note that not all papers will fit the model of hypothesis driven work, for example, the description of an image database, or the description of a toolkit will not be driven by an hypothesis, in which case, please simply write : \u00e2\u0080\u009cNon Applicable\u00e2\u0080\u009d in this field or delete the subtitle.]\r\nThe authors chose two methods based on derivatives of intensity to extract salient points: one using the Gaussian curvature and the other using the correlation matrix.. \r\n\r\n<b>Evidence:</b>\r\n[Describe the evidence that the authors provide in order to support their claims in the paper. This is a key component on Open Science, opinions that are not supported by evidence should be labeled as \u00e2\u0080\u009cspeculations\u00e2\u0080\u009d or \u00e2\u0080\u009cauthor\u00e2\u0080\u0099s opinion\u00e2\u0080\u009d while. The same rule applies to the text of the reviews: claims should be supported by evidence]\r\nThese methods are more adapted to low signal images than those using edge detection process.\r\n\r\n\r\n<b>Open Science:</b>\r\n[Describe how much the paper and its addendums adhere to the concept of Open Science. Do the authors provide the source code of the programs used in their experiments? Do the authors provide the input images that they used? Or are those images publicly available? Do the authors provide the output images that they show in the paper? Do the authors provide enough details for you to be able to replicate their work?\r\nThe methods proposed in this paper were implemented as open source using and extending Insight ToolKit.\r\n\r\n\r\n<b>Reproducibility:</b>\r\n[Did you reproduce the authors\u00e2\u0080\u0099 work? No\r\nDid you download their code? Did you compile it? Did you run it? No\r\nDid you managed to get the same results that they reported?\r\nWere there information missing from the paper, that was necessary for you to reproduce the work? Suggest improvements that will make easier for future readers to reproduce this work.]\r\n\r\n<b>Use of Open Source Software:</b>\r\n[Did the authors use Open Source software in their work? Do they describe their experience with it, advantages and disadvantages? Do they provide advice for future users of those Open Source packages?]\r\nThey used open source ITK.\r\n\r\n<b>Open Source Contributions:</b>\r\n[Do the author\u00e2\u0080\u0099s provide their source code? Is it in a form that is usable? Do they describe clearly how to use of the code? How long did it take you to use that code?]\r\nYes, they provide their source code on the Web.\r\n\r\n<b>Code Quality:</b>\r\n[If the authors provided their source code: Was the code easy to read? Did they use a modern coding style? Did they rely on non-portable mechanism? Was it suitable for multiple-platforms?]\r\nNot read.\r\n\r\n<b>Applicability to other problems:</b>\r\n[Do you find that the authors methods can be applied to other image analysis problems? Suggest other disciplines or even other specific projects that could take advantage of this work]\r\nYes, as said in their introduction, salient points can be used in all sort of image registrations but also in tracking, stereoscopic matching.\r\n\r\n<b>Suggestions for future work :</b>\r\n[Suggest to authors future directions for improving their methods, or other domains from which they could learn technique that could help them advance in their research.]\r\nComparison with other types of salient points extraction. Tests of such methods for image registration.\r\n\r\n<b>Requests for additional information from authors :</b>\r\n[Did you find that information was missing from the paper? Maybe parameters for running the tests? Maybe some images were missing? Would you like to get more details on how the diagrams, or plots were generated?]\r\nA diagram for statistics could have been interesting.\r\n\r\n<b>Additional Comments:</b>\r\n[This is a free-form field]\r\nGood study on two methods for the extraction of salient points: it is a very interesting tool to obtain reliable displacement fields.\r\n",
-    "date": "08-19-2005",
-    "review_id": 36
-   },
-   {
-    "author": {
-     "author_email": "fletcher@sci.utah.edu",
-     "author_firstname": "Tom",
-     "author_id": 227,
-     "author_lastname": "Fletcher"
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 42,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "dauguet@bwh.harvard.edu",
+          "author_firstname": "Julien",
+          "author_id": 145,
+          "author_lastname": "Dauguet"
+        },
+        "content": "<b>Summary:</b>\r\n[Short description of the paper. In two or three phrases describe the problem that was addressed by the authors and the approach they took to solve it.]\r\nSalient points are used in image analysis to extract informative and reliable regions. This paper describes two different methods to extract salient points and compares them on thirteen MR images. \r\n\r\n<b>Hypothesis:</b>\r\n[If Applicable: Describe the assumptions that the authors have made and they hypothesis of their work, note that not all papers will fit the model of hypothesis driven work, for example, the description of an image database, or the description of a toolkit will not be driven by an hypothesis, in which case, please simply write : \u00e2\u0080\u009cNon Applicable\u00e2\u0080\u009d in this field or delete the subtitle.]\r\nThe authors chose two methods based on derivatives of intensity to extract salient points: one using the Gaussian curvature and the other using the correlation matrix.. \r\n\r\n<b>Evidence:</b>\r\n[Describe the evidence that the authors provide in order to support their claims in the paper. This is a key component on Open Science, opinions that are not supported by evidence should be labeled as \u00e2\u0080\u009cspeculations\u00e2\u0080\u009d or \u00e2\u0080\u009cauthor\u00e2\u0080\u0099s opinion\u00e2\u0080\u009d while. The same rule applies to the text of the reviews: claims should be supported by evidence]\r\nThese methods are more adapted to low signal images than those using edge detection process.\r\n\r\n\r\n<b>Open Science:</b>\r\n[Describe how much the paper and its addendums adhere to the concept of Open Science. Do the authors provide the source code of the programs used in their experiments? Do the authors provide the input images that they used? Or are those images publicly available? Do the authors provide the output images that they show in the paper? Do the authors provide enough details for you to be able to replicate their work?\r\nThe methods proposed in this paper were implemented as open source using and extending Insight ToolKit.\r\n\r\n\r\n<b>Reproducibility:</b>\r\n[Did you reproduce the authors\u00e2\u0080\u0099 work? No\r\nDid you download their code? Did you compile it? Did you run it? No\r\nDid you managed to get the same results that they reported?\r\nWere there information missing from the paper, that was necessary for you to reproduce the work? Suggest improvements that will make easier for future readers to reproduce this work.]\r\n\r\n<b>Use of Open Source Software:</b>\r\n[Did the authors use Open Source software in their work? Do they describe their experience with it, advantages and disadvantages? Do they provide advice for future users of those Open Source packages?]\r\nThey used open source ITK.\r\n\r\n<b>Open Source Contributions:</b>\r\n[Do the author\u00e2\u0080\u0099s provide their source code? Is it in a form that is usable? Do they describe clearly how to use of the code? How long did it take you to use that code?]\r\nYes, they provide their source code on the Web.\r\n\r\n<b>Code Quality:</b>\r\n[If the authors provided their source code: Was the code easy to read? Did they use a modern coding style? Did they rely on non-portable mechanism? Was it suitable for multiple-platforms?]\r\nNot read.\r\n\r\n<b>Applicability to other problems:</b>\r\n[Do you find that the authors methods can be applied to other image analysis problems? Suggest other disciplines or even other specific projects that could take advantage of this work]\r\nYes, as said in their introduction, salient points can be used in all sort of image registrations but also in tracking, stereoscopic matching.\r\n\r\n<b>Suggestions for future work :</b>\r\n[Suggest to authors future directions for improving their methods, or other domains from which they could learn technique that could help them advance in their research.]\r\nComparison with other types of salient points extraction. Tests of such methods for image registration.\r\n\r\n<b>Requests for additional information from authors :</b>\r\n[Did you find that information was missing from the paper? Maybe parameters for running the tests? Maybe some images were missing? Would you like to get more details on how the diagrams, or plots were generated?]\r\nA diagram for statistics could have been interesting.\r\n\r\n<b>Additional Comments:</b>\r\n[This is a free-form field]\r\nGood study on two methods for the extraction of salient points: it is a very interesting tool to obtain reliable displacement fields.\r\n",
+        "date": "08-19-2005",
+        "review_id": 36
+      },
+      {
+        "author": {
+          "author_email": "fletcher@sci.utah.edu",
+          "author_firstname": "Tom",
+          "author_id": 227,
+          "author_lastname": "Fletcher"
+        },
+        "content": "<b>Summary:</b>\r\nThis paper reviews and compares two methods for computing salient points in 3D medical images. A set of validation metrics are devised and used to compare the performance of the two methods on 13 MR images of the brain.\r\n \r\n<b>Hypothesis:</b>\r\nNot applicable, as this paper is a comparison of existing methods.\r\n\r\n<b>Evidence:</b>\r\nThe results of the comparison of the two corner detection methods are given on 13 MR images of the brain.\r\n\r\n<b>Open Science:</b>\r\nThe source code is available as an extension of ITK in the NA-MIC SandBox. As far as I can tell, the MR images used in the paper are not made available.\r\n\r\n<b>Reproducibility:</b>\r\nI was able to download, compile and run the author\\\\\\'s source code with relative ease. The test programs ran without errors, and I ran the corner detectors on a provided synthetic binary image of a 3D box. It would be nice if the MR images from the paper were also provided, which would make the results of the paper fully reproducable.\r\n\r\n<b>Use of Open Source Software:</b>\r\nThe software to compute the salient points is provided as an open source addition to ITK in the NA-MIC SandBox. There is little documentation on the usage of the programs, but they are simple command-line programs that are easy to figure out how to use. It might be useful to add in the top-level readme file a description of the two command line tools.\r\n\r\nThe validation metrics and the framework used to compile the statistics comparing the methods is not provided (at least I didn\\\\\\'t find them). This would be nice to have, as others might be interested in comparing yet other salient point detectors.\r\n\r\n<b>Open Source Contributions:</b>\r\nThe salient point detectors are provided, and they are a very nice addition to ITK. Using the code in new software should be rather straightforward as the methods are implemented as ITK image filters.\r\n\r\n<b>Code Quality:</b>\r\nThe code looked clean and easy to read. There was sufficient comments I think to understand what the code does, especially when combined with the detailed description of the methods in the paper. One nit-picky suggestion is to make the top-level CMakeLists.txt file also compile the two example command-line programs.\r\n\r\n<b>Applicability to other problems:</b>\r\nThis code will be very helpful to researchers that want to find salient points in images, most likely for image registration.\r\n\r\n<b>Suggestions for future work:</b>\r\n\r\n<b>Requests for additional information from authors:</b>\r\nAgain, it would be nice to have the MR images used and the framework for the validation.\r\n\r\n<b>Additional Comments:</b>\r\nI would like to see just a little discussion/analysis of why the comparisons turned out the way they did. For instance, why is it that the correlation measurement showed better reproducability than the curvature measurement? My feeling is that this is because the correlation measurement is an expectation value in a small neighborhood, which might make it more robust to scale changes and registrations. Also, why is the curvature method more correlated to the entropy?\r\n\r\nOne point of the paper that I am confused with is whether the images used in the results are of the same subject or different subjects. You mention in the description of repeatability that salient points should be robust to images \\\\\\\"scanned at different times\\\\\\\", which makes it sound like the same subject scanned multiple times. And since the registration used is rigid, it appears that it is a single subject. Rigid registration of multiple subjects would not do a good job of aligning salient points, and thus it would be a poor measurement of repeatability.",
+        "date": "09-17-2005",
+        "review_id": 95
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "blloyd@ee.ethz.ch",
+      "author_firstname": "Bryn",
+      "author_fullname": "Lloyd, Bryn",
+      "author_id": 23,
+      "author_institution": "ETH Zurich, Computer Vision Laboratory",
+      "author_lastname": "Lloyd"
     },
-    "content": "<b>Summary:</b>\r\nThis paper reviews and compares two methods for computing salient points in 3D medical images. A set of validation metrics are devised and used to compare the performance of the two methods on 13 MR images of the brain.\r\n \r\n<b>Hypothesis:</b>\r\nNot applicable, as this paper is a comparison of existing methods.\r\n\r\n<b>Evidence:</b>\r\nThe results of the comparison of the two corner detection methods are given on 13 MR images of the brain.\r\n\r\n<b>Open Science:</b>\r\nThe source code is available as an extension of ITK in the NA-MIC SandBox. As far as I can tell, the MR images used in the paper are not made available.\r\n\r\n<b>Reproducibility:</b>\r\nI was able to download, compile and run the author\\\\\\'s source code with relative ease. The test programs ran without errors, and I ran the corner detectors on a provided synthetic binary image of a 3D box. It would be nice if the MR images from the paper were also provided, which would make the results of the paper fully reproducable.\r\n\r\n<b>Use of Open Source Software:</b>\r\nThe software to compute the salient points is provided as an open source addition to ITK in the NA-MIC SandBox. There is little documentation on the usage of the programs, but they are simple command-line programs that are easy to figure out how to use. It might be useful to add in the top-level readme file a description of the two command line tools.\r\n\r\nThe validation metrics and the framework used to compile the statistics comparing the methods is not provided (at least I didn\\\\\\'t find them). This would be nice to have, as others might be interested in comparing yet other salient point detectors.\r\n\r\n<b>Open Source Contributions:</b>\r\nThe salient point detectors are provided, and they are a very nice addition to ITK. Using the code in new software should be rather straightforward as the methods are implemented as ITK image filters.\r\n\r\n<b>Code Quality:</b>\r\nThe code looked clean and easy to read. There was sufficient comments I think to understand what the code does, especially when combined with the detailed description of the methods in the paper. One nit-picky suggestion is to make the top-level CMakeLists.txt file also compile the two example command-line programs.\r\n\r\n<b>Applicability to other problems:</b>\r\nThis code will be very helpful to researchers that want to find salient points in images, most likely for image registration.\r\n\r\n<b>Suggestions for future work:</b>\r\n\r\n<b>Requests for additional information from authors:</b>\r\nAgain, it would be nice to have the MR images used and the framework for the validation.\r\n\r\n<b>Additional Comments:</b>\r\nI would like to see just a little discussion/analysis of why the comparisons turned out the way they did. For instance, why is it that the correlation measurement showed better reproducability than the curvature measurement? My feeling is that this is because the correlation measurement is an expectation value in a small neighborhood, which might make it more robust to scale changes and registrations. Also, why is the curvature method more correlated to the entropy?\r\n\r\nOne point of the paper that I am confused with is whether the images used in the results are of the same subject or different subjects. You mention in the description of repeatability that salient points should be robust to images \\\\\\\"scanned at different times\\\\\\\", which makes it sound like the same subject scanned multiple times. And since the registration used is rigid, it appears that it is a single subject. Rigid registration of multiple subjects would not do a good job of aligning salient points, and thus it would be a poor measurement of repeatability.",
-    "date": "09-17-2005",
-    "review_id": 95
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "blloyd@ee.ethz.ch",
-   "author_firstname": "Bryn",
-   "author_fullname": "Lloyd, Bryn",
-   "author_id": 23,
-   "author_institution": "ETH Zurich, Computer Vision Laboratory",
-   "author_lastname": "Lloyd"
-  },
-  "tags": [
-   "corner detection",
-   "salient points",
-   "landmarks"
-  ],
-  "title": "Comparison of Salient Point Detection Methods for 3D Medical Images"
- }
+    "tags": [
+      "corner detection",
+      "salient points",
+      "landmarks"
+    ],
+    "title": "Comparison of Salient Point Detection Methods for 3D Medical Images"
+  }
 }

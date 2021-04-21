@@ -1,72 +1,77 @@
 {
- "publication": {
-  "abstract": "ITK is a huge image analysis library, which contains lots of state of the arts\r\nalgorithms implementations. However, using it in C++ can be difficult and is\r\ndefinitively bad suited for prototyping. WrapITK aims to allow classes from ITK\r\n(and custom, classes that interact with ITK) to be \"wrapped\" for use with\r\nlanguages like Python, Tcl, and Java.",
-  "authors": [
-   {
-    "author_fullname": "Lehmann, Gaetan",
-    "author_place": 1,
-    "persona_email": "gaetan.lehmann@gmail.com",
-    "persona_firstname": "Gaetan",
-    "persona_id": 328,
-    "persona_lastname": "Lehmann"
-   },
-   {
-    "author_fullname": "Pincus, Zachary",
-    "author_place": 2,
-    "persona_email": "zpincus@stanford.edu",
-    "persona_firstname": "Zachary",
-    "persona_id": 138,
-    "persona_lastname": "Pincus"
-   },
-   {
-    "author_fullname": "Regrain, Benoit",
-    "author_place": 3,
-    "persona_id": null
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2006-03-24T19:10:27Z",
-  "handles": [
-   {
-    "handle": "1926/188",
-    "handle_url": "http://hdl.handle.net/1926/188"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 85,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "dan.muel@gmail.com",
-     "author_firstname": "Dan",
-     "author_id": 286,
-     "author_lastname": "Mueller"
+  "publication": {
+    "abstract": "ITK is a huge image analysis library, which contains lots of state of the arts\r\nalgorithms implementations. However, using it in C++ can be difficult and is\r\ndefinitively bad suited for prototyping. WrapITK aims to allow classes from ITK\r\n(and custom, classes that interact with ITK) to be \"wrapped\" for use with\r\nlanguages like Python, Tcl, and Java.",
+    "articles": [
+      "bafybeiftfvxrauf2t2wm3ouvp5buphp33l2y7shcusqz5ttnj6nvhdbame",
+      "bafybeigxwx6kawsoitaisxd45iycfjeuwqao4oekrht6f4dc6npf4xennq",
+      "bafybeigxwx6kawsoitaisxd45iycfjeuwqao4oekrht6f4dc6npf4xennq"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Lehmann, Gaetan",
+        "author_place": 1,
+        "persona_email": "gaetan.lehmann@gmail.com",
+        "persona_firstname": "Gaetan",
+        "persona_id": 328,
+        "persona_lastname": "Lehmann"
+      },
+      {
+        "author_fullname": "Pincus, Zachary",
+        "author_place": 2,
+        "persona_email": "zpincus@stanford.edu",
+        "persona_firstname": "Zachary",
+        "persona_id": 138,
+        "persona_lastname": "Pincus"
+      },
+      {
+        "author_fullname": "Regrain, Benoit",
+        "author_place": 3,
+        "persona_id": null
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2006-03-24T19:10:27Z",
+    "handles": [
+      {
+        "handle": "1926/188",
+        "handle_url": "http://hdl.handle.net/1926/188"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<b>Summary:</b>\r\nThis paper describes the implementation of an enhanced wrapping system for ITK. The wrappers allow access to ITK filters, algorithms and pipelines using Python (TCL and Java are on the way: waiting for other contributers/helpers).\r\n \r\n<b>Hypothesis:</b>\r\nThis paper suggests that the proposed wrapping system is easier to use, better documented, and more Python friendly than the current wrapping system.\r\n\r\n<b>Evidence:</b>\r\nThe authors present an easy to follow installation guide, a developers guide, and various examples demonstrating usage. The code is easy to understand and the Python functionality really streamlines prototyping with ITK. I have not personally used the existing wrapping system, but my experience with WrapITK has been extremely positivie. The claims made by the authors (ease of use, good documentation, and Python friendly) are well supported from the article examples and my own usage/exploration.\r\n\r\n<b>Open Science:</b>\r\nThe authors provide the cmake files for the wrapping system and point to other required software - all publically available (ie. CMake, ITK, and CableSwig).\r\n\r\n<b>Reproducibility:</b>\r\nI was able to download, configure, and compile WrapITK (with some minor issues - see below). \r\n\r\nMy system configuration was as follows:\r\n<ul>\r\n<li>Operating System=Windows XP SP2\r\n<li>CMake=CMake 2.4.2\r\n<li>Compiler=Microsoft.NET 2003 (7.1.3088)\r\n<li>ITK=InsightToolkit-2.8.1\r\n<li>CableSwig=CVS checkout on 10th July 2006, 9:30AM (GMT+10:00)\r\n<li>WrapITK=Nightly archive from http://voxel.jouy.inra.fr/darcs/contrib-itk/WrapITK/WrapITK.tar.gz downloaded on 10th July 2006, 8:45AM (GMT+10:00)\r\n<li>Python=Python 2.4.3 (#69, Mar 29 2006, 17:35:34) [MSC v.1310 32 bit (Intel)] on win32\r\n</ul>\r\n\r\nI applied the given patches, and I worked through most of the examples and achieved the same/similar results.\r\n\r\n<b>Use of Open Source Software:</b>\r\nUses CMake, ITK, CableSwig, GCC_XML, Python.\r\n\r\n<b>Open Source Contributions:</b>\r\nAll source code is provided.\r\n\r\n<b>Code Quality:</b>\r\nThe code is easy to read, and the installation/developer guides are easy to follow.\r\n\r\n<b>Applicability to other problems:</b>\r\nWrapITK allows for easy prototyping with ITK. I have been using ITK for various image analysis tasks for ~12months, and have found prototyping to be a somewhat tedious task (ie. create a temp CMake project, create main file, add includes, add all input arguments, compile, run, and repeat). Prototyping with WrapITK is <b><i>very</i></b> easy and can be achieved using either the command line interpreter or custom scripts. While the setup time may be large (it took me ~1 day to download, configure, and compile all components), I envisage that the time/engery/frustration I will save using WrapITK to prototype will far outweigh this initial outlay of time.\r\n\r\n<b>Requests for additional information from authors:</b>\r\nThe article should be updated to include the itk.echo(.) function and itk.pipeline class from itkExtras/__init__.py.\r\n\r\n<b>Minor issues compiling WrapITK:</b>\r\nI encountered some minor issues compiling WrapITK on Windows. I have detailed these in an email sent to insight-users@itk.org on 11th July 2006 (http://public.kitware.com/pipermail/insight-users/2006-July/018621.html).\r\n\r\nThese issues included:\r\n1. Error accessing __FUNCSIG__ in itkGDCMSeriesFileNames.h.\r\n2. Object file format limit exceeded error (C1128) when selecting extra types to wrap (ie. setting WRAP_unsigned_short=ON).\r\n3. Ambiguous call to overloaded function \\\\\\'sqrt\\\\\\' in itkSignedMaurerDistanceMapImageFilter.txx\r\n4. Error accessing protected member EnlargeOutputRequestedRegion(.) in itkScalarConnectedComponentImageFilter.cxx.\r\n5. Minor error with Python site-packages installation for Windows.\r\n6. Incorrect string formatting in Python win32.\r\n",
-    "date": "07-11-2006",
-    "review_id": 253
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "gaetan.lehmann@gmail.com",
-   "author_firstname": "Gaetan",
-   "author_fullname": "Lehmann, Gaetan",
-   "author_id": 328,
-   "author_institution": "INRA",
-   "author_lastname": "Lehmann"
-  },
-  "tags": null,
-  "title": "WrapITK: Enhanced languages support for the Insight Toolkit"
- }
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 85,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "dan.muel@gmail.com",
+          "author_firstname": "Dan",
+          "author_id": 286,
+          "author_lastname": "Mueller"
+        },
+        "content": "<b>Summary:</b>\r\nThis paper describes the implementation of an enhanced wrapping system for ITK. The wrappers allow access to ITK filters, algorithms and pipelines using Python (TCL and Java are on the way: waiting for other contributers/helpers).\r\n \r\n<b>Hypothesis:</b>\r\nThis paper suggests that the proposed wrapping system is easier to use, better documented, and more Python friendly than the current wrapping system.\r\n\r\n<b>Evidence:</b>\r\nThe authors present an easy to follow installation guide, a developers guide, and various examples demonstrating usage. The code is easy to understand and the Python functionality really streamlines prototyping with ITK. I have not personally used the existing wrapping system, but my experience with WrapITK has been extremely positivie. The claims made by the authors (ease of use, good documentation, and Python friendly) are well supported from the article examples and my own usage/exploration.\r\n\r\n<b>Open Science:</b>\r\nThe authors provide the cmake files for the wrapping system and point to other required software - all publically available (ie. CMake, ITK, and CableSwig).\r\n\r\n<b>Reproducibility:</b>\r\nI was able to download, configure, and compile WrapITK (with some minor issues - see below). \r\n\r\nMy system configuration was as follows:\r\n<ul>\r\n<li>Operating System=Windows XP SP2\r\n<li>CMake=CMake 2.4.2\r\n<li>Compiler=Microsoft.NET 2003 (7.1.3088)\r\n<li>ITK=InsightToolkit-2.8.1\r\n<li>CableSwig=CVS checkout on 10th July 2006, 9:30AM (GMT+10:00)\r\n<li>WrapITK=Nightly archive from http://voxel.jouy.inra.fr/darcs/contrib-itk/WrapITK/WrapITK.tar.gz downloaded on 10th July 2006, 8:45AM (GMT+10:00)\r\n<li>Python=Python 2.4.3 (#69, Mar 29 2006, 17:35:34) [MSC v.1310 32 bit (Intel)] on win32\r\n</ul>\r\n\r\nI applied the given patches, and I worked through most of the examples and achieved the same/similar results.\r\n\r\n<b>Use of Open Source Software:</b>\r\nUses CMake, ITK, CableSwig, GCC_XML, Python.\r\n\r\n<b>Open Source Contributions:</b>\r\nAll source code is provided.\r\n\r\n<b>Code Quality:</b>\r\nThe code is easy to read, and the installation/developer guides are easy to follow.\r\n\r\n<b>Applicability to other problems:</b>\r\nWrapITK allows for easy prototyping with ITK. I have been using ITK for various image analysis tasks for ~12months, and have found prototyping to be a somewhat tedious task (ie. create a temp CMake project, create main file, add includes, add all input arguments, compile, run, and repeat). Prototyping with WrapITK is <b><i>very</i></b> easy and can be achieved using either the command line interpreter or custom scripts. While the setup time may be large (it took me ~1 day to download, configure, and compile all components), I envisage that the time/engery/frustration I will save using WrapITK to prototype will far outweigh this initial outlay of time.\r\n\r\n<b>Requests for additional information from authors:</b>\r\nThe article should be updated to include the itk.echo(.) function and itk.pipeline class from itkExtras/__init__.py.\r\n\r\n<b>Minor issues compiling WrapITK:</b>\r\nI encountered some minor issues compiling WrapITK on Windows. I have detailed these in an email sent to insight-users@itk.org on 11th July 2006 (http://public.kitware.com/pipermail/insight-users/2006-July/018621.html).\r\n\r\nThese issues included:\r\n1. Error accessing __FUNCSIG__ in itkGDCMSeriesFileNames.h.\r\n2. Object file format limit exceeded error (C1128) when selecting extra types to wrap (ie. setting WRAP_unsigned_short=ON).\r\n3. Ambiguous call to overloaded function \\\\\\'sqrt\\\\\\' in itkSignedMaurerDistanceMapImageFilter.txx\r\n4. Error accessing protected member EnlargeOutputRequestedRegion(.) in itkScalarConnectedComponentImageFilter.cxx.\r\n5. Minor error with Python site-packages installation for Windows.\r\n6. Incorrect string formatting in Python win32.\r\n",
+        "date": "07-11-2006",
+        "review_id": 253
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "gaetan.lehmann@gmail.com",
+      "author_firstname": "Gaetan",
+      "author_fullname": "Lehmann, Gaetan",
+      "author_id": 328,
+      "author_institution": "INRA",
+      "author_lastname": "Lehmann"
+    },
+    "tags": null,
+    "title": "WrapITK: Enhanced languages support for the Insight Toolkit"
+  }
 }

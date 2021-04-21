@@ -1,66 +1,69 @@
 {
- "publication": {
-  "abstract": "A cubic spline is a spline where each curve is defined by a third-order polynomial, while a Hermite spline has each polynomial specified in Hermite form, being computed using tangent information as well as the position of the points. We propose two new classes for VTK, vtkCubicSpline and vtkHermiteSpline, which compute interpolating splines using a Cubic and a Hermite Spline Interpolation function, respectively. We also propose two new auxiliary classes, vtkParametricCubicSpline and vtkParametricHermiteSpline, that create parametric functions for the 1D interpolating aforementioned splines.",
-  "authors": [
-   {
-    "author_fullname": "Kovacs, Nicole",
-    "author_place": 1,
-    "persona_email": "nicolezk1@gmail.com",
-    "persona_firstname": "Nicole",
-    "persona_id": 9598,
-    "persona_lastname": "Kovacs"
-   },
-   {
-    "author_fullname": "Peters, Terry",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Chen, Elvis",
-    "author_place": 3,
-    "persona_email": "elvis.chen@gmail.com",
-    "persona_firstname": "Elvis",
-    "persona_id": 3113,
-    "persona_lastname": "Chen"
-   }
-  ],
-  "categories": [
-   "PointSet",
-   "Spatial Objects"
-  ],
-  "comments": [],
-  "date_submitted": "2016-08-19 08:29:56",
-  "handles": [
-   {
-    "handle": "10380/3561",
-    "handle_url": "http://hdl.handle.net/10380/3561"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 31,
-    "journal_name": "The MIDAS Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 976,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "nicolezk1@gmail.com",
-   "author_firstname": "Nicole",
-   "author_fullname": "Kovacs, Nicole",
-   "author_id": 9598,
-   "author_institution": "Robarts Research Institute",
-   "author_lastname": "Kovacs"
-  },
-  "tags": [
-   "VTK",
-   "Splines"
-  ],
-  "title": "Cubic and Hermite splines for VTK"
- }
+  "publication": {
+    "abstract": "A cubic spline is a spline where each curve is defined by a third-order polynomial, while a Hermite spline has each polynomial specified in Hermite form, being computed using tangent information as well as the position of the points. We propose two new classes for VTK, vtkCubicSpline and vtkHermiteSpline, which compute interpolating splines using a Cubic and a Hermite Spline Interpolation function, respectively. We also propose two new auxiliary classes, vtkParametricCubicSpline and vtkParametricHermiteSpline, that create parametric functions for the 1D interpolating aforementioned splines.",
+    "articles": [
+      "bafybeifxvtvt6uilnxvvpczyrnrqxkk2nnj6jp7g2c5jq4xbi7ama5js3a"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Kovacs, Nicole",
+        "author_place": 1,
+        "persona_email": "nicolezk1@gmail.com",
+        "persona_firstname": "Nicole",
+        "persona_id": 9598,
+        "persona_lastname": "Kovacs"
+      },
+      {
+        "author_fullname": "Peters, Terry",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Chen, Elvis",
+        "author_place": 3,
+        "persona_email": "elvis.chen@gmail.com",
+        "persona_firstname": "Elvis",
+        "persona_id": 3113,
+        "persona_lastname": "Chen"
+      }
+    ],
+    "categories": [
+      "PointSet",
+      "Spatial Objects"
+    ],
+    "comments": [],
+    "date_submitted": "2016-08-19 08:29:56",
+    "handles": [
+      {
+        "handle": "10380/3561",
+        "handle_url": "http://hdl.handle.net/10380/3561"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 31,
+        "journal_name": "The MIDAS Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 976,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "nicolezk1@gmail.com",
+      "author_firstname": "Nicole",
+      "author_fullname": "Kovacs, Nicole",
+      "author_id": 9598,
+      "author_institution": "Robarts Research Institute",
+      "author_lastname": "Kovacs"
+    },
+    "tags": [
+      "VTK",
+      "Splines"
+    ],
+    "title": "Cubic and Hermite splines for VTK"
+  }
 }

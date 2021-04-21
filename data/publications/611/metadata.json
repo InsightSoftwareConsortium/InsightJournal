@@ -1,109 +1,113 @@
 {
- "publication": {
-  "abstract": "This document examines the application of a new parametric method on the segmentation of MS \r\nlesions in brain sMRI, as applied to the data provided for the MS Lesion Segmentation Challenge at \r\nMICCAI 2008. The method uses the vector image joint histogram, built over a training set, as an explicit \r\nmodel of the feature vectors indicating lesion. The histogram is used to predict lesions in the test data by \r\nlabeling feature vectors consistent with lesion feature vectors in the training set. The results are evaluated \r\nusing STAPLE to compare against two separate human raters.",
-  "authors": [
-   {
-    "author_fullname": "Scully, Mark",
-    "author_place": 1,
-    "persona_email": "mscully@mrn.org",
-    "persona_firstname": "Mark",
-    "persona_id": 922,
-    "persona_lastname": "Scully"
-   },
-   {
-    "author_fullname": "Magnotta, Vince",
-    "author_place": 2,
-    "persona_email": "vincent-magnotta@uiowa.edu",
-    "persona_firstname": "Vincent",
-    "persona_id": 54,
-    "persona_lastname": "Magnotta"
-   },
-   {
-    "author_fullname": "Gasparovic, Charles",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Pelligrimo, Peter",
-    "author_place": 4,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Feis, Delia",
-    "author_place": 5,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Bockholt, H. Jeremy",
-    "author_place": 6,
-    "persona_id": null
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2008-07-14T21:32:58Z",
-  "handles": [
-   {
-    "handle": "10380/1449",
-    "handle_url": "http://hdl.handle.net/10380/1449"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 44,
-    "journal_name": "MICCAI 2015 Workshops"
-   },
-   {
-    "journal_id": 33,
-    "journal_name": "MICCAI 2008 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 611,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "simon.warfield@childrens.harvard.edu",
-     "author_firstname": "Simon",
-     "author_id": 514,
-     "author_lastname": "Warfield"
+  "publication": {
+    "abstract": "This document examines the application of a new parametric method on the segmentation of MS \r\nlesions in brain sMRI, as applied to the data provided for the MS Lesion Segmentation Challenge at \r\nMICCAI 2008. The method uses the vector image joint histogram, built over a training set, as an explicit \r\nmodel of the feature vectors indicating lesion. The histogram is used to predict lesions in the test data by \r\nlabeling feature vectors consistent with lesion feature vectors in the training set. The results are evaluated \r\nusing STAPLE to compare against two separate human raters.",
+    "articles": [
+      "bafkreia7zrbjyg6cahfgrtb7bd2h62yoywrbsnbh67slreczx5knic33qq",
+      "bafkreia7zrbjyg6cahfgrtb7bd2h62yoywrbsnbh67slreczx5knic33qq"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Scully, Mark",
+        "author_place": 1,
+        "persona_email": "mscully@mrn.org",
+        "persona_firstname": "Mark",
+        "persona_id": 922,
+        "persona_lastname": "Scully"
+      },
+      {
+        "author_fullname": "Magnotta, Vince",
+        "author_place": 2,
+        "persona_email": "vincent-magnotta@uiowa.edu",
+        "persona_firstname": "Vincent",
+        "persona_id": 54,
+        "persona_lastname": "Magnotta"
+      },
+      {
+        "author_fullname": "Gasparovic, Charles",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Pelligrimo, Peter",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Feis, Delia",
+        "author_place": 5,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Bockholt, H. Jeremy",
+        "author_place": 6,
+        "persona_id": null
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2008-07-14T21:32:58Z",
+    "handles": [
+      {
+        "handle": "10380/1449",
+        "handle_url": "http://hdl.handle.net/10380/1449"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<p><br /> This paper describes an approach using histogram analysis to explicitly construct a discretized feature space, and applies this to the segmentation of lesions in MRI of MS patients.</p><p>The paper provides an interesting analysis of the effectiveness of certain feature vectors for characterizing lesions, and is able to demonstrate that there is considerable overlap of these features between healthy tissue and lesions.</p><p>Minor problems: </p><p>The results section says &#39;good specificity, or true positive rate&#39; but here specificity should instead be sensitivity, later in the same sentence sensitivity should be replaced by specificity.</p><p>The authors apparently did not obtain the set of manual segmentations from the CHB rater which included segmentations of all CHB and all UNC cases. This data is available now. At the workshop and afterwards, segmentations by the UNC rater for all cases will also be available.</p><p>&nbsp;</p>",
-    "date": "07-25-2008",
-    "review_id": 1527
-   },
-   {
-    "author": {
-     "author_email": "styner@cs.unc.edu",
-     "author_firstname": "Martin",
-     "author_id": 28,
-     "author_lastname": "Styner"
+    "journals": [
+      {
+        "journal_id": 44,
+        "journal_name": "MICCAI 2015 Workshops"
+      },
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 611,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "simon.warfield@childrens.harvard.edu",
+          "author_firstname": "Simon",
+          "author_id": 514,
+          "author_lastname": "Warfield"
+        },
+        "content": "<p><br /> This paper describes an approach using histogram analysis to explicitly construct a discretized feature space, and applies this to the segmentation of lesions in MRI of MS patients.</p><p>The paper provides an interesting analysis of the effectiveness of certain feature vectors for characterizing lesions, and is able to demonstrate that there is considerable overlap of these features between healthy tissue and lesions.</p><p>Minor problems: </p><p>The results section says &#39;good specificity, or true positive rate&#39; but here specificity should instead be sensitivity, later in the same sentence sensitivity should be replaced by specificity.</p><p>The authors apparently did not obtain the set of manual segmentations from the CHB rater which included segmentations of all CHB and all UNC cases. This data is available now. At the workshop and afterwards, segmentations by the UNC rater for all cases will also be available.</p><p>&nbsp;</p>",
+        "date": "07-25-2008",
+        "review_id": 1527
+      },
+      {
+        "author": {
+          "author_email": "styner@cs.unc.edu",
+          "author_firstname": "Martin",
+          "author_id": 28,
+          "author_lastname": "Styner"
+        },
+        "content": "<p>Overall a well written paper with an interesting new method using an explicit intensity model of MS lesions with a vector image joint histogram.</p><p>The data quality section is a bit too negative, especially given that all methods use the same training and testing data. Also, I think that the issue of inter-rater variability is not really related to data quality here, as inter-rater variability is an inherent fact of MS lesion segmentation. This inter-rater variability is one of the main reasons towards automated methods. Furthermore, the methods are evaluated with respect to this inter-rater variability, i.e. if a method varies from one rater as much as another rater then it would get a score of 90.&nbsp;&nbsp; </p><p>Also, it seems that the authors were unaware of the updated training datasets that were available several weeks before the submission due date. The updated training datasets had a full set of segmentation from the CHB rater for all datasets. It may very well be that the method would perform better if this updated training would have been employed. </p><p>The authors chose a bias field correction algorithm that also normalizes the image intensity. Can you add a sentence why additional image normalization was necessary.</p><p>The method seems to penalize peri-ventricular lesions, as MS lesions within 2 voxels of CSF are rejected. Can you discuss the possibility of a bias against peri-ventricular lesions. </p><p>&nbsp;</p><p>&nbsp;</p>",
+        "date": "07-29-2008",
+        "review_id": 1540
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "mscully@mrn.org",
+      "author_firstname": "Mark",
+      "author_fullname": "Scully, Mark",
+      "author_id": 922,
+      "author_institution": "The Mind Research Network",
+      "author_lastname": "Scully"
     },
-    "content": "<p>Overall a well written paper with an interesting new method using an explicit intensity model of MS lesions with a vector image joint histogram.</p><p>The data quality section is a bit too negative, especially given that all methods use the same training and testing data. Also, I think that the issue of inter-rater variability is not really related to data quality here, as inter-rater variability is an inherent fact of MS lesion segmentation. This inter-rater variability is one of the main reasons towards automated methods. Furthermore, the methods are evaluated with respect to this inter-rater variability, i.e. if a method varies from one rater as much as another rater then it would get a score of 90.&nbsp;&nbsp; </p><p>Also, it seems that the authors were unaware of the updated training datasets that were available several weeks before the submission due date. The updated training datasets had a full set of segmentation from the CHB rater for all datasets. It may very well be that the method would perform better if this updated training would have been employed. </p><p>The authors chose a bias field correction algorithm that also normalizes the image intensity. Can you add a sentence why additional image normalization was necessary.</p><p>The method seems to penalize peri-ventricular lesions, as MS lesions within 2 voxels of CSF are rejected. Can you discuss the possibility of a bias against peri-ventricular lesions. </p><p>&nbsp;</p><p>&nbsp;</p>",
-    "date": "07-29-2008",
-    "review_id": 1540
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "mscully@mrn.org",
-   "author_firstname": "Mark",
-   "author_fullname": "Scully, Mark",
-   "author_id": 922,
-   "author_institution": "The Mind Research Network",
-   "author_lastname": "Scully"
-  },
-  "tags": [
-   "lesion",
-   "challenge",
-   "joint histogram",
-   "segmentation",
-   "MICCAI",
-   "multiple sclerosis"
-  ],
-  "title": "3D Segmentation In The Clinic: A Grand Challenge II at MICCAI 2008 - MS Lesion Segmentation"
- }
+    "tags": [
+      "lesion",
+      "challenge",
+      "joint histogram",
+      "segmentation",
+      "MICCAI",
+      "multiple sclerosis"
+    ],
+    "title": "3D Segmentation In The Clinic: A Grand Challenge II at MICCAI 2008 - MS Lesion Segmentation"
+  }
 }

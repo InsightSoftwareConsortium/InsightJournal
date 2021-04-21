@@ -1,73 +1,76 @@
 {
- "publication": {
-  "abstract": "Isotropic volumetric acquisition in Magnetic Resonance Imaging (MRI) is often challenging. A large number of factors such as patient or physiological motion, signal-to-noise ratio (SNR), available static magnetic field B0 and total scanning\ntime limit the acquired resolution. Super-resolution (SR) is a post-processing tech-\nnique that optimally combines several anisotropic scans into a single isotropic volume that was not - or could not be - acquired in practice. If necessary conditions are met, the resulting isotropic volume offers clear improvements over the initial acquisitions such as reduced partial volume effect, oblique visualization and improved sharpness and SNR. This paper details the misoSR implementation of a SR isotropicreconstruction algorithm using the Insight Toolkit Library (ITK) library. It is a generic implementation that reconstructs an isotropic volume from any number of anisotropic volumes acquired from any orientation. The algorithm takes advantage of the inputs header information to handle the different scans properties such as field of view (FOV), resolution parameters and orientation. Step by step details on the implementation are given, parameters are individually detailed, and results are shown on different applications as an example of SR reconstruction. The algorithm is hosted on the Creatis Virtual Imaging Platform (VIP), which allows users to run misoSR without having to install the software on their system.",
-  "authors": [
-   {
-    "author_fullname": "Van Reeth, Eric",
-    "author_place": 2,
-    "persona_email": "eric.vanreeth@gmail.com",
-    "persona_firstname": "Eric",
-    "persona_id": 9470,
-    "persona_lastname": "Van reeth"
-   },
-   {
-    "author_fullname": "Soujanya, Geetha",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Sdika, Micha\u00ebl",
-    "author_place": 4,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Cervenansky, Fr\u00e9d\u00e9ric",
-    "author_place": 5,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Poh, Chueh Loo",
-    "author_place": 6,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Data",
-   "Optimization"
-  ],
-  "comments": [],
-  "date_submitted": "2015-06-15 06:14:10",
-  "handles": [
-   {
-    "handle": "10380/3519",
-    "handle_url": "http://hdl.handle.net/10380/3519"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 31,
-    "journal_name": "The MIDAS Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 957,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "eric.vanreeth@gmail.com",
-   "author_firstname": "Eric",
-   "author_fullname": "Van reeth, Eric",
-   "author_id": 9470,
-   "author_institution": "Creatis",
-   "author_lastname": "Van reeth"
-  },
-  "tags": [
-   "Super-resolution",
-   "Isotropic reconstruction"
-  ],
-  "title": "MisoSR: Medical Image Isotropic Super-Resolution Reconstruction"
- }
+  "publication": {
+    "abstract": "Isotropic volumetric acquisition in Magnetic Resonance Imaging (MRI) is often challenging. A large number of factors such as patient or physiological motion, signal-to-noise ratio (SNR), available static magnetic field B0 and total scanning\ntime limit the acquired resolution. Super-resolution (SR) is a post-processing tech-\nnique that optimally combines several anisotropic scans into a single isotropic volume that was not - or could not be - acquired in practice. If necessary conditions are met, the resulting isotropic volume offers clear improvements over the initial acquisitions such as reduced partial volume effect, oblique visualization and improved sharpness and SNR. This paper details the misoSR implementation of a SR isotropicreconstruction algorithm using the Insight Toolkit Library (ITK) library. It is a generic implementation that reconstructs an isotropic volume from any number of anisotropic volumes acquired from any orientation. The algorithm takes advantage of the inputs header information to handle the different scans properties such as field of view (FOV), resolution parameters and orientation. Step by step details on the implementation are given, parameters are individually detailed, and results are shown on different applications as an example of SR reconstruction. The algorithm is hosted on the Creatis Virtual Imaging Platform (VIP), which allows users to run misoSR without having to install the software on their system.",
+    "articles": [
+      "bafybeihnhreffsn7mdkzsfsjqsdf4ppneydvvrlwbs5n2limqkx6tqk2la"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Van Reeth, Eric",
+        "author_place": 2,
+        "persona_email": "eric.vanreeth@gmail.com",
+        "persona_firstname": "Eric",
+        "persona_id": 9470,
+        "persona_lastname": "Van reeth"
+      },
+      {
+        "author_fullname": "Soujanya, Geetha",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Sdika, Micha\u00ebl",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Cervenansky, Fr\u00e9d\u00e9ric",
+        "author_place": 5,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Poh, Chueh Loo",
+        "author_place": 6,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Data",
+      "Optimization"
+    ],
+    "comments": [],
+    "date_submitted": "2015-06-15 06:14:10",
+    "handles": [
+      {
+        "handle": "10380/3519",
+        "handle_url": "http://hdl.handle.net/10380/3519"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 31,
+        "journal_name": "The MIDAS Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 957,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "eric.vanreeth@gmail.com",
+      "author_firstname": "Eric",
+      "author_fullname": "Van reeth, Eric",
+      "author_id": 9470,
+      "author_institution": "Creatis",
+      "author_lastname": "Van reeth"
+    },
+    "tags": [
+      "Super-resolution",
+      "Isotropic reconstruction"
+    ],
+    "title": "MisoSR: Medical Image Isotropic Super-Resolution Reconstruction"
+  }
 }

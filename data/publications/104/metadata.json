@@ -1,97 +1,100 @@
 {
- "publication": {
-  "abstract": "Medical image analysis today is based on serious mathematics. More and more methods involve PDE's, linear algebra,\r\ncomplex transforms, optimization theory etc. This paper introduces the software environment MathVisionTools that is suited for the design stage, where the emphasis\r\nlies on mathematical modeling. MathVisionTools is written in the high level language Mathematica.",
-  "authors": [
-   {
-    "author_fullname": "van Almsick, Markus A.",
-    "author_place": 1,
-    "persona_email": "m.v.almsick@tue.nl",
-    "persona_firstname": "Markus",
-    "persona_id": 494,
-    "persona_lastname": "Van almsick"
-   },
-   {
-    "author_fullname": "ter Haar Romeny, Bart M.",
-    "author_place": 2,
-    "persona_email": "b.m.terhaarromeny@tue.nl",
-    "persona_firstname": "Bart",
-    "persona_id": 453,
-    "persona_lastname": "Ter haar romeny"
-   },
-   {
-    "author_fullname": "Bennink, Edwin H.",
-    "author_place": 3,
-    "persona_id": null
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2006-07-07T15:02:03Z",
-  "handles": [
-   {
-    "handle": "1926/214",
-    "handle_url": "http://hdl.handle.net/1926/214"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 104,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "alice.villeger@laposte.net",
-     "author_firstname": "Alice",
-     "author_id": 450,
-     "author_lastname": "Villeger"
+  "publication": {
+    "abstract": "Medical image analysis today is based on serious mathematics. More and more methods involve PDE's, linear algebra,\r\ncomplex transforms, optimization theory etc. This paper introduces the software environment MathVisionTools that is suited for the design stage, where the emphasis\r\nlies on mathematical modeling. MathVisionTools is written in the high level language Mathematica.",
+    "articles": [
+      "bafybeifzunmkiuabzkw74nydzquaxgajhoboqpoodbfbaskf2vlgwd3l24"
+    ],
+    "authors": [
+      {
+        "author_fullname": "van Almsick, Markus A.",
+        "author_place": 1,
+        "persona_email": "m.v.almsick@tue.nl",
+        "persona_firstname": "Markus",
+        "persona_id": 494,
+        "persona_lastname": "Van almsick"
+      },
+      {
+        "author_fullname": "ter Haar Romeny, Bart M.",
+        "author_place": 2,
+        "persona_email": "b.m.terhaarromeny@tue.nl",
+        "persona_firstname": "Bart",
+        "persona_id": 453,
+        "persona_lastname": "Ter haar romeny"
+      },
+      {
+        "author_fullname": "Bennink, Edwin H.",
+        "author_place": 3,
+        "persona_id": null
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2006-07-07T15:02:03Z",
+    "handles": [
+      {
+        "handle": "1926/214",
+        "handle_url": "http://hdl.handle.net/1926/214"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<b>Summary:</b>\r\n<p>The authors advertise a software package to be used within the Mathematica environment: their MathVision tool can be used to quickly design (and test, and improve) prototype algorithms for medical image analysis.</p>\r\n \r\n<b>Hypothesis:</b>\r\n<p>Not Applicable</p>\r\n\r\n<b>Evidence:</b>\r\n<p>Examples are provided for two applications (differential calculus on images, and geometry-driven diffusion) and results are shown on hand and brain images.</p>\r\n\r\n<b>Open Science:</b>\r\n<p>The source code is available only to partners who contribute code to the project. The input images shown in the paper are not provided, and no output images have been submitted.</p>\r\n\r\n<b>Reproducibility:</b>\r\n<p>I do not have the Mathematica software, so I could not reproduce the work.</p>\r\n\r\n<b>Use of Open Source Software:</b>\r\n<p>This work is based on Mathematica, which is a proprietary product.</p>\r\n\r\n<b>Open Source Contributions:</b>\r\n<p>A piece of code is provided, but I could not use it as I do not have the Mathematica software.</p>\r\n\r\n<b>Code Quality:</b>\r\n<p>I cannot comment on this as I am not familiar with the Mathematica language.</p>\r\n\r\n<b>Applicability to other problems:</b>\r\n<p>The authors suggest using this tool for prototyping medical image analysis applications, but the mathematical methods involved seem generic enough to be applied to other disciplines (for instance astronomical images, or satellite images)</p>\r\n\r\n<b>Suggestions for future work:</b>\r\n<p>Not being a Mathematica user, I cannot really comment on this.</p>\r\n\r\n<b>Requests for additional information from authors:</b>\r\n<p>Data was missing.</p>\r\n\r\n<b>Additional Comments:</b>\r\n<p>The paper is fairly well written. However, it contents a few comments that should be removed: e.g. \\\"(!!! its a GIF file here, not DICOM .. do you have a DICOM version)\\\" on page 6.</p>",
-    "date": "08-31-2006",
-    "review_id": 354
-   },
-   {
-    "author": {
-     "author_email": "jmelonak@ece.gatech.edu",
-     "author_firstname": "John",
-     "author_id": 37,
-     "author_lastname": "Melonakos"
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 104,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "alice.villeger@laposte.net",
+          "author_firstname": "Alice",
+          "author_id": 450,
+          "author_lastname": "Villeger"
+        },
+        "content": "<b>Summary:</b>\r\n<p>The authors advertise a software package to be used within the Mathematica environment: their MathVision tool can be used to quickly design (and test, and improve) prototype algorithms for medical image analysis.</p>\r\n \r\n<b>Hypothesis:</b>\r\n<p>Not Applicable</p>\r\n\r\n<b>Evidence:</b>\r\n<p>Examples are provided for two applications (differential calculus on images, and geometry-driven diffusion) and results are shown on hand and brain images.</p>\r\n\r\n<b>Open Science:</b>\r\n<p>The source code is available only to partners who contribute code to the project. The input images shown in the paper are not provided, and no output images have been submitted.</p>\r\n\r\n<b>Reproducibility:</b>\r\n<p>I do not have the Mathematica software, so I could not reproduce the work.</p>\r\n\r\n<b>Use of Open Source Software:</b>\r\n<p>This work is based on Mathematica, which is a proprietary product.</p>\r\n\r\n<b>Open Source Contributions:</b>\r\n<p>A piece of code is provided, but I could not use it as I do not have the Mathematica software.</p>\r\n\r\n<b>Code Quality:</b>\r\n<p>I cannot comment on this as I am not familiar with the Mathematica language.</p>\r\n\r\n<b>Applicability to other problems:</b>\r\n<p>The authors suggest using this tool for prototyping medical image analysis applications, but the mathematical methods involved seem generic enough to be applied to other disciplines (for instance astronomical images, or satellite images)</p>\r\n\r\n<b>Suggestions for future work:</b>\r\n<p>Not being a Mathematica user, I cannot really comment on this.</p>\r\n\r\n<b>Requests for additional information from authors:</b>\r\n<p>Data was missing.</p>\r\n\r\n<b>Additional Comments:</b>\r\n<p>The paper is fairly well written. However, it contents a few comments that should be removed: e.g. \\\"(!!! its a GIF file here, not DICOM .. do you have a DICOM version)\\\" on page 6.</p>",
+        "date": "08-31-2006",
+        "review_id": 354
+      },
+      {
+        "author": {
+          "author_email": "jmelonak@ece.gatech.edu",
+          "author_firstname": "John",
+          "author_id": 37,
+          "author_lastname": "Melonakos"
+        },
+        "content": "<b>Summary:</b>\r\n[Short description of the paper. In two or three phrases describe the problem that was addressed by the authors and the approach they took to solve it.]\r\nThis paper describes a software package to be used in conjunction with the Mathematica software for the mathematical prototyping in medical image analysis. The authors make particular mention of the applicability of this tool to the design or rapid prototyping stage of medical image analysis. Their MathVisionTools, as used via Mathematica, provide an interesting resource for algorithm engineers.\r\n \r\n<b>Hypothesis:</b>\r\n[If Applicable: Describe the assumptions that the authors have made and they hypothesis of their work, note that not all papers will fit the model of hypothesis driven work, for example, the description of an image database, or the description of a toolkit will not be driven by an hypothesis, in which case, please simply write : \u00e2\u0080\u009cNon Applicable\u00e2\u0080\u009d in this field or delete the subtitle.]\r\nNot Applicable\r\n\r\n<b>Evidence:</b>\r\n[Describe the evidence that the authors provide in order to support their claims in the paper. This is a key component on Open Science, opinions that are not supported by evidence should be labeled as \u00e2\u0080\u009cspeculations\u00e2\u0080\u009d or \u00e2\u0080\u009cauthor\u00e2\u0080\u0099s opinion\u00e2\u0080\u009d while. The same rule applies to the text of the reviews: claims should be supported by evidence]\r\nThis paper provides examples on the following applications:\r\n\r\n1) Differential Calculus on Images\r\n2) Geometry-driven diffusion\r\n\r\nThey show results on hand and brain images.\r\n\r\n<b>Open Science:</b>\r\n[Describe how much the paper and its addendums adhere to the concept of Open Science. Do the authors provide the source code of the programs used in their experiments? Do the authors provide the input images that they used? Or are those images publicly available? Do the authors provide the output images that they show in the paper? Do the authors provide enough details for you to be able to replicate their work?]\r\nSource Code - The paper states that source code is available on an exchange basis for partners that contribute code to the project.\r\nData - No data is provided. The paper uses two files: \\\\\\'hands.gif\\\\\\' and \\\\\\'mr128.gif\\\\\\' which have not been included with the submission. Likewise the output images have not been submitted.\r\n\r\n<b>Reproducibility:</b>\r\n[Did you reproduce the authors\u00e2\u0080\u0099 work?\r\nDid you download their code? Did you compile it? Did you run it?\r\nDid you managed to get the same results that they reported?\r\nWere there information missing from the paper, that was necessary for you to reproduce the work? Suggest improvements that will make easier for future readers to reproduce this work.]\r\nDue to the lack of data, I was unable to reproduce the work.\r\n\r\n<b>Use of Open Source Software:</b>\r\n[Did the authors use Open Source software in their work? Do they describe their experience with it, advantages and disadvantages? Do they provide advice for future users of those Open Source packages?]\r\nThe authors use a pseudo-open source strategy by offering code to \\\\\\\"partners who contribute back to the project\\\\\\\". Additionally, this code assumes the use of proprietary Mathematica, which may not be bad considering the unparalled ability of Mathematica to work at a high level of abstraction.\r\n\r\n<b>Open Source Contributions:</b>\r\n[Do the author\u00e2\u0080\u0099s provide their source code? Is it in a form that is usable? Do they describe clearly how to use of the code? How long did it take you to use that code?]\r\nThe author\\\\\\'s do provide various pieces of the MathVisionTools. I loaded the Mathematica notebooks and was unable to run the code using Mathematica 5.0. It should be noted that I am a relatively new user of mathematica and did not know how to debug the errors.\r\n\r\n<b>Code Quality:</b>\r\n[If the authors provided their source code: Was the code easy to read? Did they use a modern coding style? Did they rely on non-portable mechanism? Was it suitable for multiple-platforms?]\r\nSince the code is written in Mathematica, it is as portable as Mathematica.\r\n\r\n<b>Applicability to other problems:</b>\r\n[Do you find that the authors methods can be applied to other image analysis problems? Suggest other disciplines or even other specific projects that could take advantage of this work]\r\nThere are many disciplines which can benefit from a Mathematica rapid prototyping tool. This is very nice work which may be extended to other applications.\r\n\r\n<b>Suggestions for future work:</b>\r\n[Suggest to authors future directions for improving their methods, or other domains from which they could learn technique that could help them advance in their research.]\r\nPerhaps you could include more instructions to aid Mathematica beginners to use these tools.\r\n\r\n<b>Requests for additional information from authors:</b>\r\n[Did you find that information was missing from the paper? Maybe parameters for running the tests? Maybe some images were missing? Would you like to get more details on how the diagrams, or plots were generated?]\r\nThe data would be nice along with a description of how to run the notebook.\r\n\r\n<b>Additional Comments:</b>\r\n[This is a free-form field]\r\nThere are several spots in the paper which include proofreading comments which should be cut out for the final submitted version.\r\n\r\nThis is very nice work that deserves much credit. My review, however, is based on the Insight Journal reviewer guidelines.\r\n",
+        "date": "08-22-2006",
+        "review_id": 309
+      },
+      {
+        "author": {
+          "author_email": "luis.ibanez@kitware.com",
+          "author_firstname": "Luis",
+          "author_id": 4,
+          "author_lastname": "Ibanez"
+        },
+        "content": "<b>Summary:</b>\r\nThis paper describes a framework for applying high level mathematical operations to medical image processing problems. The paper addresses the need of the commuinty for having tools suitable for performing high level operations when analyzing images. The authors develop a toolkit based on \\\\\\\"Mathematica\\\\\\\". The toolkit is available to everybody but the download process requires to get a username/password, the request is always granted.\r\n \r\n<b>Hypothesis:</b>\r\nThe paper advances the hypothesis that high level mathematical operations are needed in order to solve complex problems in medical image analysis.\r\n\r\n<b>Evidence:</b>\r\nThe paper in itself does not provide any evicence supporting the claims of the hypothesis, other than citations to previous publications.\r\n\r\n<b>Open Science:</b>\r\nThe paper does not satisfy the basic criteria of Open Science. The source code of the tools is only available upon request. The toolkit itself requires users to have licenses of a commercial product (Mathematica). The autors do not provide input images, nor output images, nor parameters that may make possible for a reader to repeat any of the examples presented in the paper. There is no easy way of verifying what the authors did. The paper is mostly focused on providing verbal support for the notion that they toolkit is extremely powerful and that it provides a cost-effective solution to medical imaging problems.\r\n\r\n<b>Reproducibility:</b>\r\nAfter contacting the authors, and receiving guidance from them, the reviewer was able to download the toolkit. However this reviewer was not able to reproduce the work reported by the authors due to the lack of an available license of Mathematica. The paper does not provide facilitate the process of replicating the work. In this regards it fails to satisfy the basic criteria of a scientific paper: \\\\\\\"Reproducibility\\\\\\\".\r\n\r\n<b>Use of Open Source Software:</b>\r\nThe authors distribute their work as Open Source software, the download process requires to apply for a username/password with the authors, at www.mathvisiontools.net. In order to use the toolkit, the users must have a license of Mathematica.\r\n\r\n<b>Open Source Contributions:</b>\r\nThe authors provide the source code upon request. The final paragraph of the paper states that the authors are interested on establishing collaborations with academic and industrial institutions on \\\\\\\"exchange basis\\\\\\\". \r\nIt is not clear what this means in practice. This reviewer suggest that the authors should clarify their position on Open Source, in particular, they should specify the terms under which they are willing to share the source code of the toolkit described in the paper.\r\n\r\n<b>Code Quality:</b>\r\nIt was not possible for this reviewer to evaluate the quality of the source code, given that a license of Mathematica was required.\r\n\r\n<b>Applicability to other problems:</b>\r\nThe work of the authors seems to be applicable to a wide range of problems, but this can only be judge so far from the verbal description presented in their paper. At this point there is no way for readers or reviewers to verify the suitability of the MathVisionTools for such potential uses.\r\n\r\n<b>Suggestions for future work:</b>\r\nThe authors should clarify their position in Open Source. \r\n\r\n<b>Requests for additional information from authors:</b>\r\nIt seems that they are suggesting a novel licensing agreement for sharing source code. This is worth discussing in detail, since it may be a license that other institutions may want to use too. Currently, there are many different licenses for open source software, and it is always good to have additional alternatives. I would seem that the authors suggest to provide a license based on reciprocity. That is, they may be willing to share their private source with other institutions on the basis that those institutions will also share their private source code with them. This may be too burdersome for the general public to pursue, but still worth considering for specific inter-institutional collaborations.\r\n\r\n\r\n<b>Additional Comments:</b>\r\nThis reviewer wished the authors could have valued better the opportunity to participate in an Open Science event based on the concepts of enforcing the reproducibility of technical reports. Their paper however is based on the traditional and now outdated approach of providing verbal support for the advantages of their methodology, instead of making it possible for the commuity at large to directly verify such claims by their own experimentation.\r\n",
+        "date": "09-04-2006",
+        "review_id": 358
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "b.m.terhaarromeny@tue.nl",
+      "author_firstname": "Bart",
+      "author_fullname": "Ter haar romeny, Bart",
+      "author_id": 453,
+      "author_institution": "Eindhoven University of Technology",
+      "author_lastname": "Ter haar romeny"
     },
-    "content": "<b>Summary:</b>\r\n[Short description of the paper. In two or three phrases describe the problem that was addressed by the authors and the approach they took to solve it.]\r\nThis paper describes a software package to be used in conjunction with the Mathematica software for the mathematical prototyping in medical image analysis. The authors make particular mention of the applicability of this tool to the design or rapid prototyping stage of medical image analysis. Their MathVisionTools, as used via Mathematica, provide an interesting resource for algorithm engineers.\r\n \r\n<b>Hypothesis:</b>\r\n[If Applicable: Describe the assumptions that the authors have made and they hypothesis of their work, note that not all papers will fit the model of hypothesis driven work, for example, the description of an image database, or the description of a toolkit will not be driven by an hypothesis, in which case, please simply write : \u00e2\u0080\u009cNon Applicable\u00e2\u0080\u009d in this field or delete the subtitle.]\r\nNot Applicable\r\n\r\n<b>Evidence:</b>\r\n[Describe the evidence that the authors provide in order to support their claims in the paper. This is a key component on Open Science, opinions that are not supported by evidence should be labeled as \u00e2\u0080\u009cspeculations\u00e2\u0080\u009d or \u00e2\u0080\u009cauthor\u00e2\u0080\u0099s opinion\u00e2\u0080\u009d while. The same rule applies to the text of the reviews: claims should be supported by evidence]\r\nThis paper provides examples on the following applications:\r\n\r\n1) Differential Calculus on Images\r\n2) Geometry-driven diffusion\r\n\r\nThey show results on hand and brain images.\r\n\r\n<b>Open Science:</b>\r\n[Describe how much the paper and its addendums adhere to the concept of Open Science. Do the authors provide the source code of the programs used in their experiments? Do the authors provide the input images that they used? Or are those images publicly available? Do the authors provide the output images that they show in the paper? Do the authors provide enough details for you to be able to replicate their work?]\r\nSource Code - The paper states that source code is available on an exchange basis for partners that contribute code to the project.\r\nData - No data is provided. The paper uses two files: \\\\\\'hands.gif\\\\\\' and \\\\\\'mr128.gif\\\\\\' which have not been included with the submission. Likewise the output images have not been submitted.\r\n\r\n<b>Reproducibility:</b>\r\n[Did you reproduce the authors\u00e2\u0080\u0099 work?\r\nDid you download their code? Did you compile it? Did you run it?\r\nDid you managed to get the same results that they reported?\r\nWere there information missing from the paper, that was necessary for you to reproduce the work? Suggest improvements that will make easier for future readers to reproduce this work.]\r\nDue to the lack of data, I was unable to reproduce the work.\r\n\r\n<b>Use of Open Source Software:</b>\r\n[Did the authors use Open Source software in their work? Do they describe their experience with it, advantages and disadvantages? Do they provide advice for future users of those Open Source packages?]\r\nThe authors use a pseudo-open source strategy by offering code to \\\\\\\"partners who contribute back to the project\\\\\\\". Additionally, this code assumes the use of proprietary Mathematica, which may not be bad considering the unparalled ability of Mathematica to work at a high level of abstraction.\r\n\r\n<b>Open Source Contributions:</b>\r\n[Do the author\u00e2\u0080\u0099s provide their source code? Is it in a form that is usable? Do they describe clearly how to use of the code? How long did it take you to use that code?]\r\nThe author\\\\\\'s do provide various pieces of the MathVisionTools. I loaded the Mathematica notebooks and was unable to run the code using Mathematica 5.0. It should be noted that I am a relatively new user of mathematica and did not know how to debug the errors.\r\n\r\n<b>Code Quality:</b>\r\n[If the authors provided their source code: Was the code easy to read? Did they use a modern coding style? Did they rely on non-portable mechanism? Was it suitable for multiple-platforms?]\r\nSince the code is written in Mathematica, it is as portable as Mathematica.\r\n\r\n<b>Applicability to other problems:</b>\r\n[Do you find that the authors methods can be applied to other image analysis problems? Suggest other disciplines or even other specific projects that could take advantage of this work]\r\nThere are many disciplines which can benefit from a Mathematica rapid prototyping tool. This is very nice work which may be extended to other applications.\r\n\r\n<b>Suggestions for future work:</b>\r\n[Suggest to authors future directions for improving their methods, or other domains from which they could learn technique that could help them advance in their research.]\r\nPerhaps you could include more instructions to aid Mathematica beginners to use these tools.\r\n\r\n<b>Requests for additional information from authors:</b>\r\n[Did you find that information was missing from the paper? Maybe parameters for running the tests? Maybe some images were missing? Would you like to get more details on how the diagrams, or plots were generated?]\r\nThe data would be nice along with a description of how to run the notebook.\r\n\r\n<b>Additional Comments:</b>\r\n[This is a free-form field]\r\nThere are several spots in the paper which include proofreading comments which should be cut out for the final submitted version.\r\n\r\nThis is very nice work that deserves much credit. My review, however, is based on the Insight Journal reviewer guidelines.\r\n",
-    "date": "08-22-2006",
-    "review_id": 309
-   },
-   {
-    "author": {
-     "author_email": "luis.ibanez@kitware.com",
-     "author_firstname": "Luis",
-     "author_id": 4,
-     "author_lastname": "Ibanez"
-    },
-    "content": "<b>Summary:</b>\r\nThis paper describes a framework for applying high level mathematical operations to medical image processing problems. The paper addresses the need of the commuinty for having tools suitable for performing high level operations when analyzing images. The authors develop a toolkit based on \\\\\\\"Mathematica\\\\\\\". The toolkit is available to everybody but the download process requires to get a username/password, the request is always granted.\r\n \r\n<b>Hypothesis:</b>\r\nThe paper advances the hypothesis that high level mathematical operations are needed in order to solve complex problems in medical image analysis.\r\n\r\n<b>Evidence:</b>\r\nThe paper in itself does not provide any evicence supporting the claims of the hypothesis, other than citations to previous publications.\r\n\r\n<b>Open Science:</b>\r\nThe paper does not satisfy the basic criteria of Open Science. The source code of the tools is only available upon request. The toolkit itself requires users to have licenses of a commercial product (Mathematica). The autors do not provide input images, nor output images, nor parameters that may make possible for a reader to repeat any of the examples presented in the paper. There is no easy way of verifying what the authors did. The paper is mostly focused on providing verbal support for the notion that they toolkit is extremely powerful and that it provides a cost-effective solution to medical imaging problems.\r\n\r\n<b>Reproducibility:</b>\r\nAfter contacting the authors, and receiving guidance from them, the reviewer was able to download the toolkit. However this reviewer was not able to reproduce the work reported by the authors due to the lack of an available license of Mathematica. The paper does not provide facilitate the process of replicating the work. In this regards it fails to satisfy the basic criteria of a scientific paper: \\\\\\\"Reproducibility\\\\\\\".\r\n\r\n<b>Use of Open Source Software:</b>\r\nThe authors distribute their work as Open Source software, the download process requires to apply for a username/password with the authors, at www.mathvisiontools.net. In order to use the toolkit, the users must have a license of Mathematica.\r\n\r\n<b>Open Source Contributions:</b>\r\nThe authors provide the source code upon request. The final paragraph of the paper states that the authors are interested on establishing collaborations with academic and industrial institutions on \\\\\\\"exchange basis\\\\\\\". \r\nIt is not clear what this means in practice. This reviewer suggest that the authors should clarify their position on Open Source, in particular, they should specify the terms under which they are willing to share the source code of the toolkit described in the paper.\r\n\r\n<b>Code Quality:</b>\r\nIt was not possible for this reviewer to evaluate the quality of the source code, given that a license of Mathematica was required.\r\n\r\n<b>Applicability to other problems:</b>\r\nThe work of the authors seems to be applicable to a wide range of problems, but this can only be judge so far from the verbal description presented in their paper. At this point there is no way for readers or reviewers to verify the suitability of the MathVisionTools for such potential uses.\r\n\r\n<b>Suggestions for future work:</b>\r\nThe authors should clarify their position in Open Source. \r\n\r\n<b>Requests for additional information from authors:</b>\r\nIt seems that they are suggesting a novel licensing agreement for sharing source code. This is worth discussing in detail, since it may be a license that other institutions may want to use too. Currently, there are many different licenses for open source software, and it is always good to have additional alternatives. I would seem that the authors suggest to provide a license based on reciprocity. That is, they may be willing to share their private source with other institutions on the basis that those institutions will also share their private source code with them. This may be too burdersome for the general public to pursue, but still worth considering for specific inter-institutional collaborations.\r\n\r\n\r\n<b>Additional Comments:</b>\r\nThis reviewer wished the authors could have valued better the opportunity to participate in an Open Science event based on the concepts of enforcing the reproducibility of technical reports. Their paper however is based on the traditional and now outdated approach of providing verbal support for the advantages of their methodology, instead of making it possible for the commuity at large to directly verify such claims by their own experimentation.\r\n",
-    "date": "09-04-2006",
-    "review_id": 358
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "b.m.terhaarromeny@tue.nl",
-   "author_firstname": "Bart",
-   "author_fullname": "Ter haar romeny, Bart",
-   "author_id": 453,
-   "author_institution": "Eindhoven University of Technology",
-   "author_lastname": "Ter haar romeny"
-  },
-  "tags": [
-   "prototyping, Mathematica, multi-scale",
-   "computer vision, symbolic and numeric, differential geometry"
-  ],
-  "title": "MathVisionTools: mathematical prototyping in medical image analysis"
- }
+    "tags": [
+      "prototyping, Mathematica, multi-scale",
+      "computer vision, symbolic and numeric, differential geometry"
+    ],
+    "title": "MathVisionTools: mathematical prototyping in medical image analysis"
+  }
 }

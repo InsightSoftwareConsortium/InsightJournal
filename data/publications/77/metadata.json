@@ -1,100 +1,103 @@
 {
- "publication": {
-  "abstract": "Fast computation of distance transforms find direct application\r\nin various computer vision problems. Currently there exists \r\ntwo image filters in the ITK library which can be used to generate\r\ndistance maps. Unfortunately, these \r\nfilters produce only approximations to the Euclidean Distance\r\nTransform (EDT). We introduce into the ITK library a third EDT \r\nfilter which was developed by Maurer {\\em et al.} \\cite{Maurer2003}.\r\nIn contrast to other algorithms, this algorithm produces the \r\nexact signed squared EDT using integer arithmetic. The complexity,\r\nwhich is formally verified, is $O(n)$ with a small time constant\r\nwhere $n$ is the number of image pixels.",
-  "authors": [
-   {
-    "author_fullname": "Tustison, Nicholas J.",
-    "author_place": 1,
-    "persona_email": "ntustison@gmail.com",
-    "persona_firstname": "Nicholas J.",
-    "persona_id": 8833,
-    "persona_lastname": "Tustison"
-   },
-   {
-    "author_fullname": "Siqueira, Marcelo",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Gee, James C.",
-    "author_place": 3,
-    "persona_email": "gee@mail.med.upenn.edu",
-    "persona_firstname": "James",
-    "persona_id": 236,
-    "persona_lastname": "Gee"
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2003-08",
-  "handles": [
-   {
-    "handle": "1926/171",
-    "handle_url": "http://hdl.handle.net/1926/171"
-   },
-   {
-    "handle": "10380/3120",
-    "handle_url": "http://hdl.handle.net/10380/3120"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 77,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "luis.ibanez@kitware.com",
-     "author_firstname": "Luis",
-     "author_id": 4,
-     "author_lastname": "Ibanez"
+  "publication": {
+    "abstract": "Fast computation of distance transforms find direct application\r\nin various computer vision problems. Currently there exists \r\ntwo image filters in the ITK library which can be used to generate\r\ndistance maps. Unfortunately, these \r\nfilters produce only approximations to the Euclidean Distance\r\nTransform (EDT). We introduce into the ITK library a third EDT \r\nfilter which was developed by Maurer {\\em et al.} \\cite{Maurer2003}.\r\nIn contrast to other algorithms, this algorithm produces the \r\nexact signed squared EDT using integer arithmetic. The complexity,\r\nwhich is formally verified, is $O(n)$ with a small time constant\r\nwhere $n$ is the number of image pixels.",
+    "articles": [
+      "bafkreibpqvtvdcjzjwx2dykuyefkheyv6roqhm6yfb5vkalmpn3vadkine"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Tustison, Nicholas J.",
+        "author_place": 1,
+        "persona_email": "ntustison@gmail.com",
+        "persona_firstname": "Nicholas J.",
+        "persona_id": 8833,
+        "persona_lastname": "Tustison"
+      },
+      {
+        "author_fullname": "Siqueira, Marcelo",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Gee, James C.",
+        "author_place": 3,
+        "persona_email": "gee@mail.med.upenn.edu",
+        "persona_firstname": "James",
+        "persona_id": 236,
+        "persona_lastname": "Gee"
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2003-08",
+    "handles": [
+      {
+        "handle": "1926/171",
+        "handle_url": "http://hdl.handle.net/1926/171"
+      },
+      {
+        "handle": "10380/3120",
+        "handle_url": "http://hdl.handle.net/10380/3120"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<b>Summary:</b>\r\nThis papers describes the implementation of a exact signed distance map as an ITK filter according to the paper by Maurer et al. This implementation is compared against the current Danielsson distance map existing in ITK.\r\n\r\n \r\n<b>Hypothesis:</b>\r\nIt was claimed that the Maurer algorithm for computing distance maps was more efficient than the method by Danielsson. The ITK toolkit only had an implementation of the Danielsson filter and was lacking the implementation of Maurer\\\\\\'s algorithm. By providing now open source implementation of these two very useful methods, it becomes possible to experimentally verify the performance ratio between these two algorithms. It is reasonable to expect that the availability of this comparison will encourage improvements in the open source implementations of each one of them.\r\n\r\n<b>Evidence:</b>\r\nThe authors ran the existing Danielsson distance map and their new implementation of the Maurer\\\\\\'s algorigthm in a set of synthetic binary images, both in 2D and 3D. Computational times for these test are reported in the paper.\r\n\r\n<b>Open Science:</b>\r\nThe papers is an excellent example of the Open Science methodology. The description of the problem is clear and direct. The authors provide the source code of the implemented filter as well as tests for running the filter in several synthetc images. The input images and output images are provided. \r\n\r\n<b>Reproducibility:</b>\r\nThe material provided by the authors was sufficient for reproducing the work. It took only about 30 minutes to download, configure, build and run the code with its tests.\r\n\r\nThe only minor drawback was that the CMakeLists.txt file provided by the authors assumes that the code is going to be built in-place, and that the images resulting from the tests will be put in the Source directory also. This reviewer used the code in an out-of-source build, and therefore was forced to make a couple of changes in the CMakeLists.txt file. The section changed was the following:\r\n\r\n\r\n\r\nADD_TEST(Run1 ${SignedMaurerDistanceMapImageFilterTest} \r\n ${CMAKE_SOURCE_DIR}/binaryPhantom.hdr ${CMAKE_BINARY_DIR}/out1.hdr)\r\nADD_TEST(CompareImage1 ImageCompare ${CMAKE_BINARY_DIR}/out1.hdr\r\n ${CMAKE_SOURCE_DIR}/binaryPhantom_out.hdr)\r\n\r\nADD_TEST(Run2 ${SignedMaurerDistanceMapImageFilterTest} \r\n ${CMAKE_SOURCE_DIR}/SquareBinary201.hdr ${CMAKE_BINARY_DIR}/out2.hdr)\r\nADD_TEST(CompareImage2 ImageCompare ${CMAKE_BINARY_DIR}/out2.hdr\r\n ${CMAKE_SOURCE_DIR}/SquareBinary201_out.hdr)\r\n\r\nADD_TEST(Run3 ${SignedMaurerDistanceMapImageFilterTest} \r\n ${CMAKE_SOURCE_DIR}/peep0_seg01.hdr ${CMAKE_BINARY_DIR}/out3.hdr)\r\nADD_TEST(CompareImage3 ImageCompare ${CMAKE_BINARY_DIR}/out3.hdr\r\n ${CMAKE_SOURCE_DIR}/peep0_seg01_out.hdr)\r\n\r\n\r\nWhere the \\\\\\\"${CMAKE_BINARY_DIR}\\\\\\\" was added before \\\\\\\"out.hdr\\\\\\\"\r\n\r\n\r\n\r\nIt will also be desirable to use names out1.hdr, out2.hdr, and out3.hdr for each one of the test,\r\nin that way the three images will still be availble at the end of the test. There is not need to reuse\r\nthe filename, since these images are pretty small anyways.\r\n\r\nThe reviewer used this code in Cygwing wth gcc 3.4, in a laptop Dell D810 with Pentium 4 at 1.86Ghz.\r\n\r\n<b>Use of Open Source Software:</b>\r\nThe authors made the optimal combination of open source use. Their work is based on open source tools (ITK), and their contribution is also sent back as an open source filter .\r\n\r\n<b>Open Source Contributions:</b>\r\nThe source code is in very good shape. It was possible to use it without any modifications. The distance map filter contributed by the authors is already in the form of an ITK filter, and could be included in the ITK toolkit with minimal modifications, mostly related to coding style.\r\n\r\n<b>Code Quality:</b>\r\nThe provided has good quality and already follows most of the ITK coding practices. The authors also included in their implementation a very similar API to the one of the Danielsson distance. It is therefore very easy to replace one with the other in the places where a distance map filter is needed.\r\n\r\n<b>Applicability to other problems:</b>\r\nThe Distance Map filter is an extremely useful tool in medical image processing. The superior performance of the Maurer\\\\\\'s algorithm with respect to the Danielsson algorithms seems to indicate that this new implementation should replace the Danielsson distance in some places in the Toolkit. For example in the CannyLevelSet segmentation filter.\r\n\r\n\r\n<b>Suggestions for future work:</b>\r\nThe RemoveEDT() method could probably be speed up by using an inlined implementation. \r\nThe use of acronyms such as EDT is dicouraged in ITK. It will be more convenient to use the full spelling : ExactDistanceTransform.\r\n\r\n<b>Requests for additional information from authors:</b>\r\nThe authors mention in the paper, evaluations of the method in 3D images. It would have been nice to include those 3D images along with the 2D ones. The infrastructure of the Insight Journal would have supported those images easily, and will have provided a convincing evidence to readers that the filter is effective in 3D.\r\n\r\nThe comparision of the output between the Maurer\\'s and Danielsson\\'s filter should have included a subtraction of the two output images. The paper presents the two images, which at naked eye look identical. It is interesting however to compute the difference and illustrates the kind of patterns that the difference image will have. This will be useful for those who need to make a decision regarding which one of these two filters to use. The filter SquaredDifferencesImageFilter could provided this comparison easily.\r\n\r\nhttp://www.itk.org/Insight/Doxygen/html/classitk_1_1SquaredDifferenceImageFilter.html\r\n\r\n\r\n\r\nThis reviewer was able to verify the good behavior of the filter in a 3D image, by just chaning the dimension of the image in the test provided by the authors.\r\n\r\n\r\n\r\n<b>Additional Comments:</b>\r\nThis is an excellent contribution to the medical image processing community, and a success story for the approach of Open Science and electronic publishing. The posting of this paper made possible in a single day to improve performance in method used by other groups in the country. Despite the fact that this algorithm has been published for about 3 years, this new open source implementation raises its impact by making it inmediately available to readers. We anticipate that this filter will make it soon to a future release of the ITK toolkit.\r\n\r\n",
-    "date": "04-14-2006",
-    "review_id": 221
-   },
-   {
-    "author": {
-     "author_email": "vamsi2200@rediffmail.com",
-     "author_firstname": "Vamsi",
-     "author_id": 146,
-     "author_lastname": "Jammalamadaka"
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 77,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "luis.ibanez@kitware.com",
+          "author_firstname": "Luis",
+          "author_id": 4,
+          "author_lastname": "Ibanez"
+        },
+        "content": "<b>Summary:</b>\r\nThis papers describes the implementation of a exact signed distance map as an ITK filter according to the paper by Maurer et al. This implementation is compared against the current Danielsson distance map existing in ITK.\r\n\r\n \r\n<b>Hypothesis:</b>\r\nIt was claimed that the Maurer algorithm for computing distance maps was more efficient than the method by Danielsson. The ITK toolkit only had an implementation of the Danielsson filter and was lacking the implementation of Maurer\\\\\\'s algorithm. By providing now open source implementation of these two very useful methods, it becomes possible to experimentally verify the performance ratio between these two algorithms. It is reasonable to expect that the availability of this comparison will encourage improvements in the open source implementations of each one of them.\r\n\r\n<b>Evidence:</b>\r\nThe authors ran the existing Danielsson distance map and their new implementation of the Maurer\\\\\\'s algorigthm in a set of synthetic binary images, both in 2D and 3D. Computational times for these test are reported in the paper.\r\n\r\n<b>Open Science:</b>\r\nThe papers is an excellent example of the Open Science methodology. The description of the problem is clear and direct. The authors provide the source code of the implemented filter as well as tests for running the filter in several synthetc images. The input images and output images are provided. \r\n\r\n<b>Reproducibility:</b>\r\nThe material provided by the authors was sufficient for reproducing the work. It took only about 30 minutes to download, configure, build and run the code with its tests.\r\n\r\nThe only minor drawback was that the CMakeLists.txt file provided by the authors assumes that the code is going to be built in-place, and that the images resulting from the tests will be put in the Source directory also. This reviewer used the code in an out-of-source build, and therefore was forced to make a couple of changes in the CMakeLists.txt file. The section changed was the following:\r\n\r\n\r\n\r\nADD_TEST(Run1 ${SignedMaurerDistanceMapImageFilterTest} \r\n ${CMAKE_SOURCE_DIR}/binaryPhantom.hdr ${CMAKE_BINARY_DIR}/out1.hdr)\r\nADD_TEST(CompareImage1 ImageCompare ${CMAKE_BINARY_DIR}/out1.hdr\r\n ${CMAKE_SOURCE_DIR}/binaryPhantom_out.hdr)\r\n\r\nADD_TEST(Run2 ${SignedMaurerDistanceMapImageFilterTest} \r\n ${CMAKE_SOURCE_DIR}/SquareBinary201.hdr ${CMAKE_BINARY_DIR}/out2.hdr)\r\nADD_TEST(CompareImage2 ImageCompare ${CMAKE_BINARY_DIR}/out2.hdr\r\n ${CMAKE_SOURCE_DIR}/SquareBinary201_out.hdr)\r\n\r\nADD_TEST(Run3 ${SignedMaurerDistanceMapImageFilterTest} \r\n ${CMAKE_SOURCE_DIR}/peep0_seg01.hdr ${CMAKE_BINARY_DIR}/out3.hdr)\r\nADD_TEST(CompareImage3 ImageCompare ${CMAKE_BINARY_DIR}/out3.hdr\r\n ${CMAKE_SOURCE_DIR}/peep0_seg01_out.hdr)\r\n\r\n\r\nWhere the \\\\\\\"${CMAKE_BINARY_DIR}\\\\\\\" was added before \\\\\\\"out.hdr\\\\\\\"\r\n\r\n\r\n\r\nIt will also be desirable to use names out1.hdr, out2.hdr, and out3.hdr for each one of the test,\r\nin that way the three images will still be availble at the end of the test. There is not need to reuse\r\nthe filename, since these images are pretty small anyways.\r\n\r\nThe reviewer used this code in Cygwing wth gcc 3.4, in a laptop Dell D810 with Pentium 4 at 1.86Ghz.\r\n\r\n<b>Use of Open Source Software:</b>\r\nThe authors made the optimal combination of open source use. Their work is based on open source tools (ITK), and their contribution is also sent back as an open source filter .\r\n\r\n<b>Open Source Contributions:</b>\r\nThe source code is in very good shape. It was possible to use it without any modifications. The distance map filter contributed by the authors is already in the form of an ITK filter, and could be included in the ITK toolkit with minimal modifications, mostly related to coding style.\r\n\r\n<b>Code Quality:</b>\r\nThe provided has good quality and already follows most of the ITK coding practices. The authors also included in their implementation a very similar API to the one of the Danielsson distance. It is therefore very easy to replace one with the other in the places where a distance map filter is needed.\r\n\r\n<b>Applicability to other problems:</b>\r\nThe Distance Map filter is an extremely useful tool in medical image processing. The superior performance of the Maurer\\\\\\'s algorithm with respect to the Danielsson algorithms seems to indicate that this new implementation should replace the Danielsson distance in some places in the Toolkit. For example in the CannyLevelSet segmentation filter.\r\n\r\n\r\n<b>Suggestions for future work:</b>\r\nThe RemoveEDT() method could probably be speed up by using an inlined implementation. \r\nThe use of acronyms such as EDT is dicouraged in ITK. It will be more convenient to use the full spelling : ExactDistanceTransform.\r\n\r\n<b>Requests for additional information from authors:</b>\r\nThe authors mention in the paper, evaluations of the method in 3D images. It would have been nice to include those 3D images along with the 2D ones. The infrastructure of the Insight Journal would have supported those images easily, and will have provided a convincing evidence to readers that the filter is effective in 3D.\r\n\r\nThe comparision of the output between the Maurer\\'s and Danielsson\\'s filter should have included a subtraction of the two output images. The paper presents the two images, which at naked eye look identical. It is interesting however to compute the difference and illustrates the kind of patterns that the difference image will have. This will be useful for those who need to make a decision regarding which one of these two filters to use. The filter SquaredDifferencesImageFilter could provided this comparison easily.\r\n\r\nhttp://www.itk.org/Insight/Doxygen/html/classitk_1_1SquaredDifferenceImageFilter.html\r\n\r\n\r\n\r\nThis reviewer was able to verify the good behavior of the filter in a 3D image, by just chaning the dimension of the image in the test provided by the authors.\r\n\r\n\r\n\r\n<b>Additional Comments:</b>\r\nThis is an excellent contribution to the medical image processing community, and a success story for the approach of Open Science and electronic publishing. The posting of this paper made possible in a single day to improve performance in method used by other groups in the country. Despite the fact that this algorithm has been published for about 3 years, this new open source implementation raises its impact by making it inmediately available to readers. We anticipate that this filter will make it soon to a future release of the ITK toolkit.\r\n\r\n",
+        "date": "04-14-2006",
+        "review_id": 221
+      },
+      {
+        "author": {
+          "author_email": "vamsi2200@rediffmail.com",
+          "author_firstname": "Vamsi",
+          "author_id": 146,
+          "author_lastname": "Jammalamadaka"
+        },
+        "content": "<b>Summary:</b>\r\nITK filter to perform signed distance transform.\r\n \r\n<b>Reproducibility:</b>\r\nI was able to download, compile, and run the work. \r\n\r\n<b>Use of Open Source Software:</b>\r\nThis is clearly Open Source code. It is written completely in itk\r\n\r\n<b>Open Source Contributions:</b>\r\nThe authors provide the full source code and documentation. It took me about 10 minutes to download and run the code.\r\n\r\n<b>Code Quality:</b>\r\nThe code quality is very good. It is easy to understand. The author provide documentation along with the code.\r\n\r\n\r\n<b>Additional Comments:</b>\r\nThis is a very useful filter to perform fast distance transforms.\r\nOur team is implementing a warping algorithm for which we use the signed distance transform on 3d images. Generating the signed distance transform is the most time consuming part of our algorithm. Due to this filter there is a 10 fold improvement in speed of our algorithm . \r\nThanks for this addition to ITK.\r\n",
+        "date": "02-19-2006",
+        "review_id": 192
+      },
+      {
+        "author": {
+          "author_email": "gaetan.lehmann@gmail.com",
+          "author_firstname": "Gaetan",
+          "author_id": 328,
+          "author_lastname": "Lehmann"
+        },
+        "content": "<b>Summary:</b>\r\nThe paper describe a new filter to compute the distance map of a binary image. The author provides a more efficient filter than the current filter available in ITK\r\n \r\n<b>Evidence:</b>\r\nThe author provides source code and input and output images so it\\\\\\'s easy to validate the behavior of the filter.\r\n\r\n<b>Open Science:</b>\r\nThe author provides a good description of is filter, the source code, and the input and output image. It can be even better by also providing the source code of the timing test.\r\n\r\n<b>Reproducibility:</b>\r\nI was able to reproduce the work, with some small problems: I\\\\\\'m used to build the code in a \\\\\\\"build\\\\\\\" directory. The build succeed, but the test failed when run out of the source directory.\r\nI compile and run the code on a mandriva linux 2006.0 with a pentium 4 and 2GB of RAM.\r\nAs said above, it would have been easier with the source code of the timing test.\r\n\r\n<b>Open Source Contributions:</b>\r\nThe code is easily usable - it is really closed itk\\\\\\'s danielsson filter.\r\n\r\n<b>Code Quality:</b>\r\nThe code quality is quite good, but the core of the implementation is not documented - it should be done before inclusion in ITK to make modification of the code easier.\r\nIndentation doesn\\\\\\'t follow the ITK convention.\r\n\r\n<b>Applicability to other problems:</b>\r\nDistance transform is the base of lots of algorithms - This efficient version will be useful in lots of cases.\r\n\r\n<b>Suggestions for future work:</b>\r\nIn the title, it\\\\\\'s said that the filter perform the computation in linear time. It would be great to see a graph which show that in the paper - \\\\\\\"time = f( number of pixels)\\\\\\\" instead of \\\\\\\"time = f( number of pixels per dimension )\\\\\\\".\r\nThe filter should report its progress - it currently doesn\\\\\\'t report it.\r\nThe ability to select the background color is interesting, but unless the common usage of this filter is for labeled images, I think it would be better to be able to select the foreground value, like it\\\\\\'s done in other filters which manipulate binary images.\r\nFinally, I would suggest to implement the squared option in a separate filter. The progress report would be easier to implement this way, and it would be possible to implement concept check for pixel types.\r\n\r\n<b>Additional Comments:</b>\r\nNote that a template for IJ contribution is available at http://voxel.jouy.inra.fr/darcs/contrib-itk/template/, and should avoid the problems of build directory, for example.\r\nThanks for that filter !\r\n",
+        "date": "02-19-2006",
+        "review_id": 193
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "ntustison@gmail.com",
+      "author_firstname": "Nicholas J.",
+      "author_fullname": "Tustison, Nicholas J.",
+      "author_id": 8833,
+      "author_institution": "",
+      "author_lastname": "Tustison"
     },
-    "content": "<b>Summary:</b>\r\nITK filter to perform signed distance transform.\r\n \r\n<b>Reproducibility:</b>\r\nI was able to download, compile, and run the work. \r\n\r\n<b>Use of Open Source Software:</b>\r\nThis is clearly Open Source code. It is written completely in itk\r\n\r\n<b>Open Source Contributions:</b>\r\nThe authors provide the full source code and documentation. It took me about 10 minutes to download and run the code.\r\n\r\n<b>Code Quality:</b>\r\nThe code quality is very good. It is easy to understand. The author provide documentation along with the code.\r\n\r\n\r\n<b>Additional Comments:</b>\r\nThis is a very useful filter to perform fast distance transforms.\r\nOur team is implementing a warping algorithm for which we use the signed distance transform on 3d images. Generating the signed distance transform is the most time consuming part of our algorithm. Due to this filter there is a 10 fold improvement in speed of our algorithm . \r\nThanks for this addition to ITK.\r\n",
-    "date": "02-19-2006",
-    "review_id": 192
-   },
-   {
-    "author": {
-     "author_email": "gaetan.lehmann@gmail.com",
-     "author_firstname": "Gaetan",
-     "author_id": 328,
-     "author_lastname": "Lehmann"
-    },
-    "content": "<b>Summary:</b>\r\nThe paper describe a new filter to compute the distance map of a binary image. The author provides a more efficient filter than the current filter available in ITK\r\n \r\n<b>Evidence:</b>\r\nThe author provides source code and input and output images so it\\\\\\'s easy to validate the behavior of the filter.\r\n\r\n<b>Open Science:</b>\r\nThe author provides a good description of is filter, the source code, and the input and output image. It can be even better by also providing the source code of the timing test.\r\n\r\n<b>Reproducibility:</b>\r\nI was able to reproduce the work, with some small problems: I\\\\\\'m used to build the code in a \\\\\\\"build\\\\\\\" directory. The build succeed, but the test failed when run out of the source directory.\r\nI compile and run the code on a mandriva linux 2006.0 with a pentium 4 and 2GB of RAM.\r\nAs said above, it would have been easier with the source code of the timing test.\r\n\r\n<b>Open Source Contributions:</b>\r\nThe code is easily usable - it is really closed itk\\\\\\'s danielsson filter.\r\n\r\n<b>Code Quality:</b>\r\nThe code quality is quite good, but the core of the implementation is not documented - it should be done before inclusion in ITK to make modification of the code easier.\r\nIndentation doesn\\\\\\'t follow the ITK convention.\r\n\r\n<b>Applicability to other problems:</b>\r\nDistance transform is the base of lots of algorithms - This efficient version will be useful in lots of cases.\r\n\r\n<b>Suggestions for future work:</b>\r\nIn the title, it\\\\\\'s said that the filter perform the computation in linear time. It would be great to see a graph which show that in the paper - \\\\\\\"time = f( number of pixels)\\\\\\\" instead of \\\\\\\"time = f( number of pixels per dimension )\\\\\\\".\r\nThe filter should report its progress - it currently doesn\\\\\\'t report it.\r\nThe ability to select the background color is interesting, but unless the common usage of this filter is for labeled images, I think it would be better to be able to select the foreground value, like it\\\\\\'s done in other filters which manipulate binary images.\r\nFinally, I would suggest to implement the squared option in a separate filter. The progress report would be easier to implement this way, and it would be possible to implement concept check for pixel types.\r\n\r\n<b>Additional Comments:</b>\r\nNote that a template for IJ contribution is available at http://voxel.jouy.inra.fr/darcs/contrib-itk/template/, and should avoid the problems of build directory, for example.\r\nThanks for that filter !\r\n",
-    "date": "02-19-2006",
-    "review_id": 193
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "ntustison@gmail.com",
-   "author_firstname": "Nicholas J.",
-   "author_fullname": "Tustison, Nicholas J.",
-   "author_id": 8833,
-   "author_institution": "",
-   "author_lastname": "Tustison"
-  },
-  "tags": [
-   "Euclidean Distance Transform"
-  ],
-  "title": "N-D Linear Time Exact Signed Euclidean Distance Transform"
- }
+    "tags": [
+      "Euclidean Distance Transform"
+    ],
+    "title": "N-D Linear Time Exact Signed Euclidean Distance Transform"
+  }
 }

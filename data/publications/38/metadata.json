@@ -1,85 +1,89 @@
 {
- "publication": {
-  "abstract": "Using the path framework we previously added to ITK, we implemented a novel algorithm for n-dimensional path optimization, which we call the ND Swath (NDS). NDS uses dynamic programming to globally optimize the placement of a path within an image, subject to several constraints and a user-supplied merit function. The NDS algorithm is presented in this paper along with a description of how it was implemented using ITK.",
-  "authors": [
-   {
-    "author_fullname": "Galeotti, John",
-    "author_place": 1,
-    "persona_email": "jgaleotti@cmu.edu",
-    "persona_firstname": "John",
-    "persona_id": 95,
-    "persona_lastname": "Galeotti"
-   },
-   {
-    "author_fullname": "Stetten, George",
-    "author_place": 2,
-    "persona_email": "email@stetten.com",
-    "persona_firstname": "George",
-    "persona_id": 111,
-    "persona_lastname": "Stetten"
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2005-08-05T20:24:14Z",
-  "handles": [
-   {
-    "handle": "1926/42",
-    "handle_url": "http://hdl.handle.net/1926/42"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 38,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "ibitter@nih.gov",
-     "author_firstname": "Ingmar",
-     "author_id": 45,
-     "author_lastname": "Bitter"
+  "publication": {
+    "abstract": "Using the path framework we previously added to ITK, we implemented a novel algorithm for n-dimensional path optimization, which we call the ND Swath (NDS). NDS uses dynamic programming to globally optimize the placement of a path within an image, subject to several constraints and a user-supplied merit function. The NDS algorithm is presented in this paper along with a description of how it was implemented using ITK.",
+    "articles": [
+      "bafybeieanuf57rsvo6qizrdemzsonyj2xegrlvhcjgha24w6er33cvqdhy",
+      "bafybeieanuf57rsvo6qizrdemzsonyj2xegrlvhcjgha24w6er33cvqdhy"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Galeotti, John",
+        "author_place": 1,
+        "persona_email": "jgaleotti@cmu.edu",
+        "persona_firstname": "John",
+        "persona_id": 95,
+        "persona_lastname": "Galeotti"
+      },
+      {
+        "author_fullname": "Stetten, George",
+        "author_place": 2,
+        "persona_email": "email@stetten.com",
+        "persona_firstname": "George",
+        "persona_id": 111,
+        "persona_lastname": "Stetten"
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2005-08-05T20:24:14Z",
+    "handles": [
+      {
+        "handle": "1926/42",
+        "handle_url": "http://hdl.handle.net/1926/42"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<b>Summary:</b>\r\nThe paper presents a novel N-dimensional path optimization algorithm called NDS.\r\n \r\n<b>Hypothesis:</b>\r\nThat the new NDS algorithm can find optimal path given reasonably close initial paths.\r\n\r\n<b>Evidence:</b>\r\nA description of the algorithm, a description of it\u00e2\u0080\u0099s implementation, complexity analysis and a single 2D example. No higher dimensional examples were provided.\r\n\r\n<b>Open Science:</b>\r\nNo source code, nor executables, nor input/output data are available.\r\n\r\n<b>Reproducibility:</b>\r\nThe paper does not facilitate reproducing the work described within. Adding the described work as extensions to ITK as was done with the underlying path classes would make reproduction easy.\r\n\r\n<b>Use of Open Source Software:</b>\r\nThe work is based on and extends ITK. \r\n\r\n<b>Open Source Contributions:</b>\r\nNo code was provided.\r\n\r\n<b>Code Quality:</b>\r\nNo code was provided.\r\n\r\n<b>Applicability to other problems:</b>\r\nThe method would apply to may problems.\r\n\r\n<b>Suggestions for future work:</b>\r\nThe method seems to be very similar to the Dijkstra method for optimal shortest paths. Please add a comparison to that algorithm to the paper. Especially for open paths from source to sink you may find equivalence in the optimal path. I used Dijkstra and a special merit function to find optimal chain-code path centerlines and skeletons in a 2001 TVCG paper called \u00e2\u0080\u009cPenalized-Distance Volumetric Skeleton Algorithm\u00e2\u0080\u009d.\r\nIt is not clear what you mean when you talk about \u00e2\u0080\u009cscale space\u00e2\u0080\u009d. Please add a reference.\r\n\r\n<b>Requests for additional information from authors:</b>\r\nPlease provide more examples, including higher dimensional ones, as you claim the method does work in N dimensions.\r\n\r\n<b>Additional Comments:</b>\r\nI assume that by design this only works for chain-code paths, not for parametric paths. In case it can work for both, please clarify in the paper.\r\n\r\n<b> Conclusions:</b>\r\nThis paper does not adhere to open science standards, and is lacking some evidence that it will work on a variety of inputs of different dimensionality. It also could improve its background analysis. Once those things are ironed out it will be applicable to a wide range of problems. \r\n\r\n\r\n",
-    "date": "09-09-2005",
-    "review_id": 62
-   },
-   {
-    "author": {
-     "author_email": "luis.ibanez@kitware.com",
-     "author_firstname": "Luis",
-     "author_id": 4,
-     "author_lastname": "Ibanez"
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 38,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "ibitter@nih.gov",
+          "author_firstname": "Ingmar",
+          "author_id": 45,
+          "author_lastname": "Bitter"
+        },
+        "content": "<b>Summary:</b>\r\nThe paper presents a novel N-dimensional path optimization algorithm called NDS.\r\n \r\n<b>Hypothesis:</b>\r\nThat the new NDS algorithm can find optimal path given reasonably close initial paths.\r\n\r\n<b>Evidence:</b>\r\nA description of the algorithm, a description of it\u00e2\u0080\u0099s implementation, complexity analysis and a single 2D example. No higher dimensional examples were provided.\r\n\r\n<b>Open Science:</b>\r\nNo source code, nor executables, nor input/output data are available.\r\n\r\n<b>Reproducibility:</b>\r\nThe paper does not facilitate reproducing the work described within. Adding the described work as extensions to ITK as was done with the underlying path classes would make reproduction easy.\r\n\r\n<b>Use of Open Source Software:</b>\r\nThe work is based on and extends ITK. \r\n\r\n<b>Open Source Contributions:</b>\r\nNo code was provided.\r\n\r\n<b>Code Quality:</b>\r\nNo code was provided.\r\n\r\n<b>Applicability to other problems:</b>\r\nThe method would apply to may problems.\r\n\r\n<b>Suggestions for future work:</b>\r\nThe method seems to be very similar to the Dijkstra method for optimal shortest paths. Please add a comparison to that algorithm to the paper. Especially for open paths from source to sink you may find equivalence in the optimal path. I used Dijkstra and a special merit function to find optimal chain-code path centerlines and skeletons in a 2001 TVCG paper called \u00e2\u0080\u009cPenalized-Distance Volumetric Skeleton Algorithm\u00e2\u0080\u009d.\r\nIt is not clear what you mean when you talk about \u00e2\u0080\u009cscale space\u00e2\u0080\u009d. Please add a reference.\r\n\r\n<b>Requests for additional information from authors:</b>\r\nPlease provide more examples, including higher dimensional ones, as you claim the method does work in N dimensions.\r\n\r\n<b>Additional Comments:</b>\r\nI assume that by design this only works for chain-code paths, not for parametric paths. In case it can work for both, please clarify in the paper.\r\n\r\n<b> Conclusions:</b>\r\nThis paper does not adhere to open science standards, and is lacking some evidence that it will work on a variety of inputs of different dimensionality. It also could improve its background analysis. Once those things are ironed out it will be applicable to a wide range of problems. \r\n\r\n\r\n",
+        "date": "09-09-2005",
+        "review_id": 62
+      },
+      {
+        "author": {
+          "author_email": "luis.ibanez@kitware.com",
+          "author_firstname": "Luis",
+          "author_id": 4,
+          "author_lastname": "Ibanez"
+        },
+        "content": "<b>Summary:</b>\r\nThis paper presents an algorithm for optimizing a path through pixels in an image. The algorithm is based on dynamic programing and accepts a user-provided optimization criterion. The paper provides a nice description of the mathematical principles behind the optimization approach, and a brief description of how those principles are implemented in an open source software.\r\n \r\n<b>Hypothesis:</b>\r\nThe paper presents the hypothesis that dynamic programming methods are suitable for optimizing paths on digital images.\r\n\r\n<b>Evidence:</b>\r\nThe paper does not provide evidence for the hypothesis. \r\n\r\n<b>Open Science:</b>\r\nThe paper does not satisfy the criteria of open science since no material is provided that will allow the readers to verify the claims in the paper.\r\n\r\n<b>Reproducibility:</b>\r\nThe paper did not provided enough elements for enabling reproducibility. The paper is too focused on the mathematical description of the algorithm and not enough on its implementation and usability.\r\n\r\n<b>Use of Open Source Software:</b>\r\nThe authors used the Insight Toolkit as development platform.\r\n\r\n<b>Open Source Contributions:</b>\r\nThe authors mention that their code was implemented in the form of ITK classes, but do not indicate where the reader can find these classes, or whether they are available.\r\n\r\n<b>Code Quality:</b>\r\nThere was no code available that would have allowed the reviewer to verify the quality.\r\n\r\n<b>Applicability to other problems:</b>\r\nAn algorithm for path optimization will have a wide range of applications. In particular on segmentation of anatomical structures.\r\n\r\n<b>Suggestions for future work:</b>\r\nThe reviewer encourage the authors to provide more examples of the use of their code.\r\n\r\n<b>Requests for additional information from authors:</b>\r\nThe reviewer will appreciate if the authors address more details on how their classes where implemented and how they can be used by others in order to foster their research.\r\n\r\n<b>Additional Comments:</b>\r\nIt is remarkable that the authors adopted the N-Dimensional philosophy of the Insight Toolkit. Implementing N-D algorithms require a significant amount of effort, but also provides a significant amount of return, since the algorithm can be applied to a larger set of problems.\r\n",
+        "date": "09-19-2005",
+        "review_id": 113
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "jgaleotti@cmu.edu",
+      "author_firstname": "John",
+      "author_fullname": "Galeotti, John",
+      "author_id": 95,
+      "author_institution": "Carnegie Mellon University Robotics Institute",
+      "author_lastname": "Galeotti"
     },
-    "content": "<b>Summary:</b>\r\nThis paper presents an algorithm for optimizing a path through pixels in an image. The algorithm is based on dynamic programing and accepts a user-provided optimization criterion. The paper provides a nice description of the mathematical principles behind the optimization approach, and a brief description of how those principles are implemented in an open source software.\r\n \r\n<b>Hypothesis:</b>\r\nThe paper presents the hypothesis that dynamic programming methods are suitable for optimizing paths on digital images.\r\n\r\n<b>Evidence:</b>\r\nThe paper does not provide evidence for the hypothesis. \r\n\r\n<b>Open Science:</b>\r\nThe paper does not satisfy the criteria of open science since no material is provided that will allow the readers to verify the claims in the paper.\r\n\r\n<b>Reproducibility:</b>\r\nThe paper did not provided enough elements for enabling reproducibility. The paper is too focused on the mathematical description of the algorithm and not enough on its implementation and usability.\r\n\r\n<b>Use of Open Source Software:</b>\r\nThe authors used the Insight Toolkit as development platform.\r\n\r\n<b>Open Source Contributions:</b>\r\nThe authors mention that their code was implemented in the form of ITK classes, but do not indicate where the reader can find these classes, or whether they are available.\r\n\r\n<b>Code Quality:</b>\r\nThere was no code available that would have allowed the reviewer to verify the quality.\r\n\r\n<b>Applicability to other problems:</b>\r\nAn algorithm for path optimization will have a wide range of applications. In particular on segmentation of anatomical structures.\r\n\r\n<b>Suggestions for future work:</b>\r\nThe reviewer encourage the authors to provide more examples of the use of their code.\r\n\r\n<b>Requests for additional information from authors:</b>\r\nThe reviewer will appreciate if the authors address more details on how their classes where implemented and how they can be used by others in order to foster their research.\r\n\r\n<b>Additional Comments:</b>\r\nIt is remarkable that the authors adopted the N-Dimensional philosophy of the Insight Toolkit. Implementing N-D algorithms require a significant amount of effort, but also provides a significant amount of return, since the algorithm can be applied to a larger set of problems.\r\n",
-    "date": "09-19-2005",
-    "review_id": 113
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "jgaleotti@cmu.edu",
-   "author_firstname": "John",
-   "author_fullname": "Galeotti, John",
-   "author_id": 95,
-   "author_institution": "Carnegie Mellon University Robotics Institute",
-   "author_lastname": "Galeotti"
-  },
-  "tags": [
-   "path",
-   "chain code",
-   "chain-code",
-   "ITK",
-   "swath",
-   "NDS"
-  ],
-  "title": "N-Dimensional Path Optimization: The Implementation of a Novel Algorithm in ITK"
- }
+    "tags": [
+      "path",
+      "chain code",
+      "chain-code",
+      "ITK",
+      "swath",
+      "NDS"
+    ],
+    "title": "N-Dimensional Path Optimization: The Implementation of a Novel Algorithm in ITK"
+  }
 }

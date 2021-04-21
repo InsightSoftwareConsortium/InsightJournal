@@ -1,71 +1,78 @@
 {
- "publication": {
-  "abstract": "This document presents a VTK wrapper of an extracted portion of \u20183DTK - The 3D Toolkit\u2019\n(http://threedtk.de) to enable a developer to \ufb01nd planes in 3D point cloud data.",
-  "authors": [
-   {
-    "author_fullname": "Borrmann, Dorit",
-    "author_place": 1,
-    "persona_email": "dborrman@uos.de",
-    "persona_firstname": "Dorit",
-    "persona_id": 4058,
-    "persona_lastname": "Borrmann"
-   },
-   {
-    "author_fullname": "Doria, David",
-    "author_place": 2,
-    "persona_email": "daviddoria@gmail.com",
-    "persona_firstname": "David",
-    "persona_id": 2205,
-    "persona_lastname": "Doria"
-   }
-  ],
-  "categories": [
-   "Feature extraction",
-   "Iterative clustering"
-  ],
-  "comments": [
-   {
-    "content": "How can I use Hough Transform Plane Detector in C#?",
-    "date": "2019-10-11T10:09:04",
-    "persona_email": "reddevilck50@gmail.com",
-    "persona_firstname": "Tran",
-    "persona_id": 11851,
-    "persona_lastname": "Huy"
-   }
-  ],
-  "date_submitted": "2011-10-14 03:26:21",
-  "handles": [
-   {
-    "handle": "10380/3290",
-    "handle_url": "http://hdl.handle.net/10380/3290"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 35,
-    "journal_name": "The VTK Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 820,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "dborrman@uos.de",
-   "author_firstname": "Dorit",
-   "author_fullname": "Borrmann, Dorit",
-   "author_id": 4058,
-   "author_institution": "Jacobs University Bremen",
-   "author_lastname": "Borrmann"
-  },
-  "tags": [
-   "hough",
-   "point cloud",
-   "planes"
-  ],
-  "title": "Hough Transform Plane Detector"
- }
+  "publication": {
+    "abstract": "This document presents a VTK wrapper of an extracted portion of \u20183DTK - The 3D Toolkit\u2019\n(http://threedtk.de) to enable a developer to \ufb01nd planes in 3D point cloud data.",
+    "articles": [
+      "bafybeietqrp4i3utuhw54lis43ltpzftoszq4q5jjmvomfchtktdl4cyoe",
+      "bafybeietqrp4i3utuhw54lis43ltpzftoszq4q5jjmvomfchtktdl4cyoe",
+      "bafybeietqrp4i3utuhw54lis43ltpzftoszq4q5jjmvomfchtktdl4cyoe",
+      "bafybeihmy32ero6pu7u5nf62bm4uvouya7sanm3mbi32oq2b4as6klxxsq",
+      "bafybeihmy32ero6pu7u5nf62bm4uvouya7sanm3mbi32oq2b4as6klxxsq"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Borrmann, Dorit",
+        "author_place": 1,
+        "persona_email": "dborrman@uos.de",
+        "persona_firstname": "Dorit",
+        "persona_id": 4058,
+        "persona_lastname": "Borrmann"
+      },
+      {
+        "author_fullname": "Doria, David",
+        "author_place": 2,
+        "persona_email": "daviddoria@gmail.com",
+        "persona_firstname": "David",
+        "persona_id": 2205,
+        "persona_lastname": "Doria"
+      }
+    ],
+    "categories": [
+      "Feature extraction",
+      "Iterative clustering"
+    ],
+    "comments": [
+      {
+        "content": "How can I use Hough Transform Plane Detector in C#?",
+        "date": "2019-10-11T10:09:04",
+        "persona_email": "reddevilck50@gmail.com",
+        "persona_firstname": "Tran",
+        "persona_id": 11851,
+        "persona_lastname": "Huy"
+      }
+    ],
+    "date_submitted": "2011-10-14 03:26:21",
+    "handles": [
+      {
+        "handle": "10380/3290",
+        "handle_url": "http://hdl.handle.net/10380/3290"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 35,
+        "journal_name": "The VTK Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 820,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "dborrman@uos.de",
+      "author_firstname": "Dorit",
+      "author_fullname": "Borrmann, Dorit",
+      "author_id": 4058,
+      "author_institution": "Jacobs University Bremen",
+      "author_lastname": "Borrmann"
+    },
+    "tags": [
+      "hough",
+      "point cloud",
+      "planes"
+    ],
+    "title": "Hough Transform Plane Detector"
+  }
 }

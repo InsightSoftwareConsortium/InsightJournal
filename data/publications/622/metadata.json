@@ -1,64 +1,69 @@
 {
- "publication": {
-  "abstract": "The da Vinci research interface allows third party developers and research collaborators to retrieve a real-time stream of kinematic and user event data from the da Vinci Surgical System during clinical use. This data includes the motion of all master and slave manipulators, as well as a number of user console events such as button and pedal activations. This paper provides a brief outline of the technical scope of the da Vinci research interface, as well as some discussion of the criteria for accessing this interface, and requirements for establishing a research partnership with Intuitive Surgical Inc.",
-  "authors": [
-   {
-    "author_fullname": "DiMaio, Simon",
-    "author_place": 1,
-    "persona_email": "simon.dimaio@intusurg.com",
-    "persona_firstname": "Simon",
-    "persona_id": 937,
-    "persona_lastname": "Dimaio"
-   },
-   {
-    "author_fullname": "Hasser, Christopher",
-    "author_place": 2,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Data",
-   "IO"
-  ],
-  "comments": [],
-  "date_submitted": "2008-07-22T07:00:36Z",
-  "handles": [
-   {
-    "handle": "10380/1464",
-    "handle_url": "http://hdl.handle.net/10380/1464"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 40,
-    "journal_name": "MICCAI 2012 Workshops"
-   },
-   {
-    "journal_id": 33,
-    "journal_name": "MICCAI 2008 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 622,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "simon.dimaio@intusurg.com",
-   "author_firstname": "Simon",
-   "author_fullname": "Dimaio, Simon",
-   "author_id": 937,
-   "author_institution": "Intuitive Surgical Inc.",
-   "author_lastname": "Dimaio"
-  },
-  "tags": [
-   "robot-assisted endoscopic surgery",
-   "medical robotics",
-   "minimally-invasive surgery",
-   "robot API"
-  ],
-  "title": "The da Vinci Research Interface"
- }
+  "publication": {
+    "abstract": "The da Vinci research interface allows third party developers and research collaborators to retrieve a real-time stream of kinematic and user event data from the da Vinci Surgical System during clinical use. This data includes the motion of all master and slave manipulators, as well as a number of user console events such as button and pedal activations. This paper provides a brief outline of the technical scope of the da Vinci research interface, as well as some discussion of the criteria for accessing this interface, and requirements for establishing a research partnership with Intuitive Surgical Inc.",
+    "articles": [
+      "bafybeiaozdsbrkar5mxsgj4aggwxwccudal5krtkycfoildzrw76w5lxyu",
+      "bafybeiaozdsbrkar5mxsgj4aggwxwccudal5krtkycfoildzrw76w5lxyu",
+      "bafybeibkrj7lrfirtjdpckkmkw3nvnmzvs7hlva3om4rspelzu62vq34ti"
+    ],
+    "authors": [
+      {
+        "author_fullname": "DiMaio, Simon",
+        "author_place": 1,
+        "persona_email": "simon.dimaio@intusurg.com",
+        "persona_firstname": "Simon",
+        "persona_id": 937,
+        "persona_lastname": "Dimaio"
+      },
+      {
+        "author_fullname": "Hasser, Christopher",
+        "author_place": 2,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Data",
+      "IO"
+    ],
+    "comments": [],
+    "date_submitted": "2008-07-22T07:00:36Z",
+    "handles": [
+      {
+        "handle": "10380/1464",
+        "handle_url": "http://hdl.handle.net/10380/1464"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 40,
+        "journal_name": "MICCAI 2012 Workshops"
+      },
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 622,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "simon.dimaio@intusurg.com",
+      "author_firstname": "Simon",
+      "author_fullname": "Dimaio, Simon",
+      "author_id": 937,
+      "author_institution": "Intuitive Surgical Inc.",
+      "author_lastname": "Dimaio"
+    },
+    "tags": [
+      "robot-assisted endoscopic surgery",
+      "medical robotics",
+      "minimally-invasive surgery",
+      "robot API"
+    ],
+    "title": "The da Vinci Research Interface"
+  }
 }

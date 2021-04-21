@@ -1,79 +1,82 @@
 {
- "publication": {
-  "abstract": "This work is integrated in the MICCAI Grand Challenge: MR Brain Image Segmentation 2013. It aims for the automatic segmentation of brain into Cerebrospinal fluid (CSF), Gray matter (GM) and White matter (WM). The provided dataset contains patients with white matter lesions, which makes the segmentation task more challenging. The proposed algorithm uses multi-sequence MR images to extract meaningful features and learn a Random Decision Forest that classifies each voxel of the image. The results show that it is robust to the presence of the white matter lesions, and the metrics show that the overall results are competitive.",
-  "authors": [
-   {
-    "author_fullname": "Pereira, S\u00e9rgio",
-    "author_place": 2,
-    "persona_email": "pereirasrm@gmail.com",
-    "persona_firstname": "S\u00e9rgio",
-    "persona_id": 8771,
-    "persona_lastname": "Pereira"
-   },
-   {
-    "author_fullname": "Festa, Joana",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Mariz, Jos\u00e9 Ant\u00f3nio",
-    "author_place": 4,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Sousa, Nuno",
-    "author_place": 5,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Silva, Carlos A.",
-    "author_place": 6,
-    "persona_email": "csilvaab@gmail.com",
-    "persona_firstname": "Carlos",
-    "persona_id": 7239,
-    "persona_lastname": "Silva"
-   }
-  ],
-  "categories": [
-   "Classification",
-   "Decision trees and non-metric classification",
-   "Segmentation"
-  ],
-  "comments": [],
-  "date_submitted": "2013-10-23 10:53:23",
-  "handles": [
-   {
-    "handle": "10380/3444",
-    "handle_url": "http://hdl.handle.net/10380/3444"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 41,
-    "journal_name": "MICCAI 2013 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 908,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "pereirasrm@gmail.com",
-   "author_firstname": "S\u00e9rgio",
-   "author_fullname": "Pereira, S\u00e9rgio",
-   "author_id": 8771,
-   "author_institution": "University of Minho",
-   "author_lastname": "Pereira"
-  },
-  "tags": [
-   "Brain tissue segmentation",
-   "Random decision forests",
-   "MRI",
-   "multi-sequence"
-  ],
-  "title": "Automatic Brain Tissue Segmentation of Multi-sequence MR Images Using Random Decision Forests"
- }
+  "publication": {
+    "abstract": "This work is integrated in the MICCAI Grand Challenge: MR Brain Image Segmentation 2013. It aims for the automatic segmentation of brain into Cerebrospinal fluid (CSF), Gray matter (GM) and White matter (WM). The provided dataset contains patients with white matter lesions, which makes the segmentation task more challenging. The proposed algorithm uses multi-sequence MR images to extract meaningful features and learn a Random Decision Forest that classifies each voxel of the image. The results show that it is robust to the presence of the white matter lesions, and the metrics show that the overall results are competitive.",
+    "articles": [
+      "bafybeiak4qfltgrk2mh6jcj5lxqwwhomvmb72jcrhqt67oppnxl4sqi2ga"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Pereira, S\u00e9rgio",
+        "author_place": 2,
+        "persona_email": "pereirasrm@gmail.com",
+        "persona_firstname": "S\u00e9rgio",
+        "persona_id": 8771,
+        "persona_lastname": "Pereira"
+      },
+      {
+        "author_fullname": "Festa, Joana",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Mariz, Jos\u00e9 Ant\u00f3nio",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Sousa, Nuno",
+        "author_place": 5,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Silva, Carlos A.",
+        "author_place": 6,
+        "persona_email": "csilvaab@gmail.com",
+        "persona_firstname": "Carlos",
+        "persona_id": 7239,
+        "persona_lastname": "Silva"
+      }
+    ],
+    "categories": [
+      "Classification",
+      "Decision trees and non-metric classification",
+      "Segmentation"
+    ],
+    "comments": [],
+    "date_submitted": "2013-10-23 10:53:23",
+    "handles": [
+      {
+        "handle": "10380/3444",
+        "handle_url": "http://hdl.handle.net/10380/3444"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 41,
+        "journal_name": "MICCAI 2013 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 908,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "pereirasrm@gmail.com",
+      "author_firstname": "S\u00e9rgio",
+      "author_fullname": "Pereira, S\u00e9rgio",
+      "author_id": 8771,
+      "author_institution": "University of Minho",
+      "author_lastname": "Pereira"
+    },
+    "tags": [
+      "Brain tissue segmentation",
+      "Random decision forests",
+      "MRI",
+      "multi-sequence"
+    ],
+    "title": "Automatic Brain Tissue Segmentation of Multi-sequence MR Images Using Random Decision Forests"
+  }
 }

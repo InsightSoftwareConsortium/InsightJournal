@@ -1,127 +1,131 @@
 {
- "publication": {
-  "abstract": "This paper presents a local feature vector based method for automated Multiple Sclerosis (MS) lesion segmentation of multi spectral MRI data. Twenty datasets from MS patients with FLAIR, T1,T2, MD and FA data with expert annotations are available as training set from the MICCAI 2008 challenge on MS, and 24 test datasets. Our local feature vector method contains neighbourhood voxel intensities, histogram and MS probability atlas information. Principal Component Analysis(PCA) \\cite{PCA} with log-likelihood ratio is used to classify each voxel. MRI suffers from intensity inhomogenities. We try to correct this ''bias field'' with 3 methods: a genetic algorithm, edge preserving filtering and atlas based correction. A large observer variability exist between expert classifications, but the similarity scores between model and expert classifications are often lower. Our model gives the best classification results with raw data, because bias correction gives artifacts at the edges and flatten large MS lesions.",
-  "authors": [
-   {
-    "author_fullname": "Kroon, Dirk-Jan",
-    "author_place": 1,
-    "persona_email": "d.kroon@utwente.nl",
-    "persona_firstname": "Dirk-jan",
-    "persona_id": 890,
-    "persona_lastname": "Kroon"
-   },
-   {
-    "author_fullname": "van Oort, Erik",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Slump, Kees",
-    "author_place": 3,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Anisotropic blurring filters",
-   "Atlas-based segmentation",
-   "Blurring filters",
-   "Classification",
-   "Component Analysis and Discriminants",
-   "Data",
-   "Deformable registration",
-   "Density Estimation",
-   "Density Functions",
-   "Distance maps",
-   "Edge Detection",
-   "Error Estimation",
-   "Feature extraction",
-   "Filtering",
-   "Generic Programming",
-   "Images",
-   "IO",
-   "Linear Algebra",
-   "Mathematics",
-   "Missing and Noisy Features",
-   "Multi-modality registration",
-   "Optimization",
-   "Parameter Techniques",
-   "Probability",
-   "Programming",
-   "Registration",
-   "Registration metrics",
-   "Registration optimizers",
-   "Resampling",
-   "Segmentation",
-   "Spatial Objects",
-   "Thresholding",
-   "Transforms"
-  ],
-  "comments": [],
-  "date_submitted": "2008-07-12T21:30:17Z",
-  "handles": [
-   {
-    "handle": "10380/1441",
-    "handle_url": "http://hdl.handle.net/10380/1441"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 44,
-    "journal_name": "MICCAI 2015 Workshops"
-   },
-   {
-    "journal_id": 33,
-    "journal_name": "MICCAI 2008 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 604,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "simon.warfield@childrens.harvard.edu",
-     "author_firstname": "Simon",
-     "author_id": 514,
-     "author_lastname": "Warfield"
+  "publication": {
+    "abstract": "This paper presents a local feature vector based method for automated Multiple Sclerosis (MS) lesion segmentation of multi spectral MRI data. Twenty datasets from MS patients with FLAIR, T1,T2, MD and FA data with expert annotations are available as training set from the MICCAI 2008 challenge on MS, and 24 test datasets. Our local feature vector method contains neighbourhood voxel intensities, histogram and MS probability atlas information. Principal Component Analysis(PCA) \\cite{PCA} with log-likelihood ratio is used to classify each voxel. MRI suffers from intensity inhomogenities. We try to correct this ''bias field'' with 3 methods: a genetic algorithm, edge preserving filtering and atlas based correction. A large observer variability exist between expert classifications, but the similarity scores between model and expert classifications are often lower. Our model gives the best classification results with raw data, because bias correction gives artifacts at the edges and flatten large MS lesions.",
+    "articles": [
+      "bafybeign5eg5wksghp65emvvz3xivlejy5ookohnpfqt7seglrfvtimsuq",
+      "bafybeibbvk7hzexlqmsg5mxk55mimdchkexqgpsknnqximedsf6bi4ndxy"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Kroon, Dirk-Jan",
+        "author_place": 1,
+        "persona_email": "d.kroon@utwente.nl",
+        "persona_firstname": "Dirk-jan",
+        "persona_id": 890,
+        "persona_lastname": "Kroon"
+      },
+      {
+        "author_fullname": "van Oort, Erik",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Slump, Kees",
+        "author_place": 3,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Anisotropic blurring filters",
+      "Atlas-based segmentation",
+      "Blurring filters",
+      "Classification",
+      "Component Analysis and Discriminants",
+      "Data",
+      "Deformable registration",
+      "Density Estimation",
+      "Density Functions",
+      "Distance maps",
+      "Edge Detection",
+      "Error Estimation",
+      "Feature extraction",
+      "Filtering",
+      "Generic Programming",
+      "Images",
+      "IO",
+      "Linear Algebra",
+      "Mathematics",
+      "Missing and Noisy Features",
+      "Multi-modality registration",
+      "Optimization",
+      "Parameter Techniques",
+      "Probability",
+      "Programming",
+      "Registration",
+      "Registration metrics",
+      "Registration optimizers",
+      "Resampling",
+      "Segmentation",
+      "Spatial Objects",
+      "Thresholding",
+      "Transforms"
+    ],
+    "comments": [],
+    "date_submitted": "2008-07-12T21:30:17Z",
+    "handles": [
+      {
+        "handle": "10380/1441",
+        "handle_url": "http://hdl.handle.net/10380/1441"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<p>This paper describes an approach to the detection of MS lesions from brain MRI.</p><p>It utilizes a local feature estimation approach.</p><p>Interestingly, the paper finds improved results without the use of intensity inhomogeneity artifact compensation, due to edge artifacts created by the intensity inhomogeneity compensation algorithm.&nbsp;</p><p>&nbsp;The results are promising and with further work may be comparable to those of human raters.</p><p>&nbsp;</p><p>Typo:&nbsp;</p><p>methode should be method&nbsp;</p>",
-    "date": "07-25-2008",
-    "review_id": 1534
-   },
-   {
-    "author": {
-     "author_email": "styner@cs.unc.edu",
-     "author_firstname": "Martin",
-     "author_id": 28,
-     "author_lastname": "Styner"
+    "journals": [
+      {
+        "journal_id": 44,
+        "journal_name": "MICCAI 2015 Workshops"
+      },
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 604,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "simon.warfield@childrens.harvard.edu",
+          "author_firstname": "Simon",
+          "author_id": 514,
+          "author_lastname": "Warfield"
+        },
+        "content": "<p>This paper describes an approach to the detection of MS lesions from brain MRI.</p><p>It utilizes a local feature estimation approach.</p><p>Interestingly, the paper finds improved results without the use of intensity inhomogeneity artifact compensation, due to edge artifacts created by the intensity inhomogeneity compensation algorithm.&nbsp;</p><p>&nbsp;The results are promising and with further work may be comparable to those of human raters.</p><p>&nbsp;</p><p>Typo:&nbsp;</p><p>methode should be method&nbsp;</p>",
+        "date": "07-25-2008",
+        "review_id": 1534
+      },
+      {
+        "author": {
+          "author_email": "styner@cs.unc.edu",
+          "author_firstname": "Martin",
+          "author_id": 28,
+          "author_lastname": "Styner"
+        },
+        "content": "<p>The paper presents a MS lesion segmentation using a PCA based local feature vector classification incorporating a given voxel neighborhood. </p><p>The evaluations show that the method surprisingly performs better without intensity inhomogeneity correction. This may be an artifact of the employed bias correction methods. A tissue classification based bias correction (Well, Leemput, and many others) may help in this case. </p><p>The paper could use another revision and feels in part like a technical report. </p><p>Minor:</p><p>Page 5 top: &quot;affine fitted&quot; should be &quot;affinely fitted&quot;</p><p>Page 7 middle: &quot;non-rigid fit&quot; should be &quot;non-rigidly fit&quot; </p><p>Conclusion section: &quot;by by&quot; should be simply &quot;by&quot; </p><p>&nbsp;</p>",
+        "date": "07-28-2008",
+        "review_id": 1538
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "d.kroon@utwente.nl",
+      "author_firstname": "Dirk-jan",
+      "author_fullname": "Kroon, Dirk-jan",
+      "author_id": 890,
+      "author_institution": "University of Twente",
+      "author_lastname": "Kroon"
     },
-    "content": "<p>The paper presents a MS lesion segmentation using a PCA based local feature vector classification incorporating a given voxel neighborhood. </p><p>The evaluations show that the method surprisingly performs better without intensity inhomogeneity correction. This may be an artifact of the employed bias correction methods. A tissue classification based bias correction (Well, Leemput, and many others) may help in this case. </p><p>The paper could use another revision and feels in part like a technical report. </p><p>Minor:</p><p>Page 5 top: &quot;affine fitted&quot; should be &quot;affinely fitted&quot;</p><p>Page 7 middle: &quot;non-rigid fit&quot; should be &quot;non-rigidly fit&quot; </p><p>Conclusion section: &quot;by by&quot; should be simply &quot;by&quot; </p><p>&nbsp;</p>",
-    "date": "07-28-2008",
-    "review_id": 1538
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "d.kroon@utwente.nl",
-   "author_firstname": "Dirk-jan",
-   "author_fullname": "Kroon, Dirk-jan",
-   "author_id": 890,
-   "author_institution": "University of Twente",
-   "author_lastname": "Kroon"
-  },
-  "tags": [
-   "Non-rigid Registration",
-   "FLAIR",
-   "Feature Vector",
-   "Multiple Sclerosis",
-   "Lesions",
-   "PCA",
-   "MR",
-   "Bias Field"
-  ],
-  "title": "Multiple Sclerosis Detection in Multispectral Magnetic Resonance Images with Principal Components Analysis."
- }
+    "tags": [
+      "Non-rigid Registration",
+      "FLAIR",
+      "Feature Vector",
+      "Multiple Sclerosis",
+      "Lesions",
+      "PCA",
+      "MR",
+      "Bias Field"
+    ],
+    "title": "Multiple Sclerosis Detection in Multispectral Magnetic Resonance Images with Principal Components Analysis."
+  }
 }

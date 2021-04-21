@@ -1,105 +1,108 @@
 {
- "publication": {
-  "abstract": "We are developing open source software for computer assisted intervention systems. Our primary experience has been with medical\r\nrobots, but the concepts (and software) apply to many physical devices that interact with the real world.\r\nThe real-time performance requirements permeate all levels of our software, including common tools (such as logging, class and object registers),\r\nvectors, matrices and transformations. Our software libraries are written in C++, but are also accessible from Python, which\r\nprovides a convenient environment for rapid prototyping and interactive testing.\r\nThe real-time support includes a device (hardware) interface and a task library. Device-specific modules such as robot servo control and trajectory generation can be provided by tasks or by external devices.\r\nUltimately, we intend to provide a framework that supports extension via dynamically loaded plug-in modules.\r\nOur development process utilizes a multitude of open source tools, including CVS, CMake, Swig, CppUnit, Dart, CVSTrac, Doxygen\r\nand LaTeX. These tools help to ensure compliance with our software development procedure.",
-  "authors": [
-   {
-    "author_fullname": "Kazanzides, Peter",
-    "author_place": 1,
-    "persona_email": "pkaz@cs.jhu.edu",
-    "persona_firstname": "Peter",
-    "persona_id": 63,
-    "persona_lastname": "Kazanzides"
-   },
-   {
-    "author_fullname": "Deguet, Anton",
-    "author_place": 2,
-    "persona_email": "anton.deguet@jhu.edu",
-    "persona_firstname": "Anton",
-    "persona_id": 635,
-    "persona_lastname": "Deguet"
-   },
-   {
-    "author_fullname": "Kapoor, Ankur",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Sadowsky, Ofri",
-    "author_place": 4,
-    "persona_email": "ofri@cs.jhu.edu",
-    "persona_firstname": "Ofri",
-    "persona_id": 615,
-    "persona_lastname": "Sadowsky"
-   },
-   {
-    "author_fullname": "LaMora, Andy",
-    "author_place": 5,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Taylor, Russell",
-    "author_place": 6,
-    "persona_id": null
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2005-08-05T22:14:26Z",
-  "handles": [
-   {
-    "handle": "1926/46",
-    "handle_url": "http://hdl.handle.net/1926/46"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 41,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "julien@jomier.com",
-     "author_firstname": "Julien",
-     "author_id": 3,
-     "author_lastname": "Jomier"
+  "publication": {
+    "abstract": "We are developing open source software for computer assisted intervention systems. Our primary experience has been with medical\r\nrobots, but the concepts (and software) apply to many physical devices that interact with the real world.\r\nThe real-time performance requirements permeate all levels of our software, including common tools (such as logging, class and object registers),\r\nvectors, matrices and transformations. Our software libraries are written in C++, but are also accessible from Python, which\r\nprovides a convenient environment for rapid prototyping and interactive testing.\r\nThe real-time support includes a device (hardware) interface and a task library. Device-specific modules such as robot servo control and trajectory generation can be provided by tasks or by external devices.\r\nUltimately, we intend to provide a framework that supports extension via dynamically loaded plug-in modules.\r\nOur development process utilizes a multitude of open source tools, including CVS, CMake, Swig, CppUnit, Dart, CVSTrac, Doxygen\r\nand LaTeX. These tools help to ensure compliance with our software development procedure.",
+    "articles": [
+      "bafybeiglz5tvanxg56cjzlvrndi25fcaq26wxde42oklekod5djdshwkhu"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Kazanzides, Peter",
+        "author_place": 1,
+        "persona_email": "pkaz@cs.jhu.edu",
+        "persona_firstname": "Peter",
+        "persona_id": 63,
+        "persona_lastname": "Kazanzides"
+      },
+      {
+        "author_fullname": "Deguet, Anton",
+        "author_place": 2,
+        "persona_email": "anton.deguet@jhu.edu",
+        "persona_firstname": "Anton",
+        "persona_id": 635,
+        "persona_lastname": "Deguet"
+      },
+      {
+        "author_fullname": "Kapoor, Ankur",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Sadowsky, Ofri",
+        "author_place": 4,
+        "persona_email": "ofri@cs.jhu.edu",
+        "persona_firstname": "Ofri",
+        "persona_id": 615,
+        "persona_lastname": "Sadowsky"
+      },
+      {
+        "author_fullname": "LaMora, Andy",
+        "author_place": 5,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Taylor, Russell",
+        "author_place": 6,
+        "persona_id": null
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2005-08-05T22:14:26Z",
+    "handles": [
+      {
+        "handle": "1926/46",
+        "handle_url": "http://hdl.handle.net/1926/46"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<p><strong>Summary:</strong> This paper presents an open-source develoment software for computer-assisted intervention. The paper focuses on the real-time issue that is inherent in a clinical environment. </p><p><strong>Hypothesis:</strong> NA </p><p><strong>Evidence:</strong> NA </p><p><strong>Open Science:</strong> The software package really fits in the Open Science spirit by using a lot of Open Source packages and will be open-source in the future. It will be a great package to have when developing surgical guidance software. </p><p><strong>Reproducibility:</strong> Did you download their code? Yes Did you compile it? No source code provided Did you run it? Yes Did you managed to get the same results that they reported? Most of the examples need a tracker to run, so no test were performed. </p><p><strong>Use of Open Source Software:</strong> The authors use a lot of open source packages: CMake, Swig, Dart, CppUnit, PyUnit, CVSTrac. This is definitively one strength of the paper and the software. </p><p><strong>Open Source Contributions:</strong> The authors provides only the pre-compiled libraries. They ensure that the code will be open-source, but the type of license is not specified. </p><p><strong>Code Quality:</strong> Only the header files are provided at this point. The coding style looks really good. The portability looks good. </p><p><strong>Applicability to other problems:</strong> I don&#39;t see any other applications for the moment. </p><p><strong>Suggestions for future work:</strong> No suggestion. </p><p><strong>Requests for additional information from authors:</strong> - The type of license should be stated in the paper. - It would be nice to have some timing comparison with other real-time software. - Is the warping Python only? How about TCL and other wrappers? - References to SWIG, cmake (the URLs) will be good to have. </p><p><strong>Additional Comments:</strong> This sounds like a very good package.&nbsp;</p>",
-    "date": "10-24-2006",
-    "review_id": 42
-   },
-   {
-    "author": {
-     "author_email": "luis.ibanez@kitware.com",
-     "author_firstname": "Luis",
-     "author_id": 4,
-     "author_lastname": "Ibanez"
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 41,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "julien@jomier.com",
+          "author_firstname": "Julien",
+          "author_id": 3,
+          "author_lastname": "Jomier"
+        },
+        "content": "<p><strong>Summary:</strong> This paper presents an open-source develoment software for computer-assisted intervention. The paper focuses on the real-time issue that is inherent in a clinical environment. </p><p><strong>Hypothesis:</strong> NA </p><p><strong>Evidence:</strong> NA </p><p><strong>Open Science:</strong> The software package really fits in the Open Science spirit by using a lot of Open Source packages and will be open-source in the future. It will be a great package to have when developing surgical guidance software. </p><p><strong>Reproducibility:</strong> Did you download their code? Yes Did you compile it? No source code provided Did you run it? Yes Did you managed to get the same results that they reported? Most of the examples need a tracker to run, so no test were performed. </p><p><strong>Use of Open Source Software:</strong> The authors use a lot of open source packages: CMake, Swig, Dart, CppUnit, PyUnit, CVSTrac. This is definitively one strength of the paper and the software. </p><p><strong>Open Source Contributions:</strong> The authors provides only the pre-compiled libraries. They ensure that the code will be open-source, but the type of license is not specified. </p><p><strong>Code Quality:</strong> Only the header files are provided at this point. The coding style looks really good. The portability looks good. </p><p><strong>Applicability to other problems:</strong> I don&#39;t see any other applications for the moment. </p><p><strong>Suggestions for future work:</strong> No suggestion. </p><p><strong>Requests for additional information from authors:</strong> - The type of license should be stated in the paper. - It would be nice to have some timing comparison with other real-time software. - Is the warping Python only? How about TCL and other wrappers? - References to SWIG, cmake (the URLs) will be good to have. </p><p><strong>Additional Comments:</strong> This sounds like a very good package.&nbsp;</p>",
+        "date": "10-24-2006",
+        "review_id": 42
+      },
+      {
+        "author": {
+          "author_email": "luis.ibanez@kitware.com",
+          "author_firstname": "Luis",
+          "author_id": 4,
+          "author_lastname": "Ibanez"
+        },
+        "content": "<b>Summary:</b>\r\nThis paper describes an open source library for computer-assisted interventions. The software is distributed under an open source license.\r\n\r\nThe library provides very valuable resources for groups that develop software for computer-assisted intervention.\r\nIn particular\r\n\r\n* Support for Tracking devices\r\n* Robot control\r\n* Support for real time\r\n* Logging\r\n* Mathematical classes\r\n\r\n \r\n<b>Hypothesis:</b>\r\nThis paper advances the hypotesis that the development of computer-assited intervention systems can be simplified by using an open source library that offers support for the basic functionalities that are commonly required in these systems.\r\n\r\n<b>Evidence:</b>\r\nThe paper focuses on describing the architecture of the software. A set of examples is included with the source code that is downloadable from www.cisst.org\r\nA detailed description of the architecture is presented, as well as an overview of the classes that will be available in the toolkit.\r\n\r\n<b>Open Science:</b>\r\nThe paper does fully adhere to the principles of Open Science, since the software is distributed and the readers can check with the software the claims in the paper.\r\n\r\n<b>Reproducibility:</b>\r\nThe reviewer downloaded the source code and built it under Cygwin, with gcc 3.4 and CMake 2.0.6.\r\n\r\nThe configuration of the software when smoothly without a single warning,\r\nThe compilation didn't generate errors or warnings, which indicates that the authors really put in place an effective system of quality control.\r\n\r\n<b>Use of Open Source Software:</b>\r\nThe authors used \r\n\r\n* the netlib library (www.netlib.org) \r\n* the SWIG wrapper tool. \r\n* Cmake configuration tool\r\n* CVS for revision control\r\n* Dart for testing\r\n* Doxygen for code documentation\r\n* CVSTrac for bug tracking\r\n* CPPUnit and PyUnit for testing\r\n\r\n\r\n<b>Open Source Contributions:</b>\r\nThe authors distribute the source code at www.cisst.org\r\nDoxygen documentation is also available online and in a downloadable zip file.\r\n\r\n<b>Code Quality:</b>\r\nThe source code has a very standard of quality.\r\nIt is very structured, and follows a formal object oriented methodology. The authors used state of the art software engineering methodologies in the design, implementation and testing of the software. All of which is critical for software that is intended to be used in surgical applications.\r\n\r\nThe documentation of the classes is available online, \r\nhttp://www.cisst.org/resources/software/cisst-0.1.0/doc/doxygen/main.html\r\n\r\n\r\n<b>Applicability to other problems:</b>\r\nThe software described in the paper seems to be suitable for robotics applicaitons outside of the medical field, and the tracker functionalities can probably be used too in virtual reality applications.\r\n\r\n<b>Suggestions for future work:</b>\r\nThe authors are strongly encouraged to follow the methodology of releasing early and releasing often. This maximize the feedback from the community and encourage the use of the software by a larger number of people.\r\n\r\n<b>Additional Comments</b>\r\nThe authors really need to make the download option more visible in their web site. This reviewer missed the option even after multiple passes through the page. \r\nReaders may easily get the impression that the software is not yet available.\r\n\r\nWhen visiting the web page of an open source software package the reviewer would expect the \"Download\" option to be close to the top, and quite highlighted.\r\n\r\n\r\n\r\n\r\n",
+        "date": "09-20-2005",
+        "review_id": 116
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "pkaz@cs.jhu.edu",
+      "author_firstname": "Peter",
+      "author_fullname": "Kazanzides, Peter",
+      "author_id": 63,
+      "author_institution": "Johns Hopkins University",
+      "author_lastname": "Kazanzides"
     },
-    "content": "<b>Summary:</b>\r\nThis paper describes an open source library for computer-assisted interventions. The software is distributed under an open source license.\r\n\r\nThe library provides very valuable resources for groups that develop software for computer-assisted intervention.\r\nIn particular\r\n\r\n* Support for Tracking devices\r\n* Robot control\r\n* Support for real time\r\n* Logging\r\n* Mathematical classes\r\n\r\n \r\n<b>Hypothesis:</b>\r\nThis paper advances the hypotesis that the development of computer-assited intervention systems can be simplified by using an open source library that offers support for the basic functionalities that are commonly required in these systems.\r\n\r\n<b>Evidence:</b>\r\nThe paper focuses on describing the architecture of the software. A set of examples is included with the source code that is downloadable from www.cisst.org\r\nA detailed description of the architecture is presented, as well as an overview of the classes that will be available in the toolkit.\r\n\r\n<b>Open Science:</b>\r\nThe paper does fully adhere to the principles of Open Science, since the software is distributed and the readers can check with the software the claims in the paper.\r\n\r\n<b>Reproducibility:</b>\r\nThe reviewer downloaded the source code and built it under Cygwin, with gcc 3.4 and CMake 2.0.6.\r\n\r\nThe configuration of the software when smoothly without a single warning,\r\nThe compilation didn't generate errors or warnings, which indicates that the authors really put in place an effective system of quality control.\r\n\r\n<b>Use of Open Source Software:</b>\r\nThe authors used \r\n\r\n* the netlib library (www.netlib.org) \r\n* the SWIG wrapper tool. \r\n* Cmake configuration tool\r\n* CVS for revision control\r\n* Dart for testing\r\n* Doxygen for code documentation\r\n* CVSTrac for bug tracking\r\n* CPPUnit and PyUnit for testing\r\n\r\n\r\n<b>Open Source Contributions:</b>\r\nThe authors distribute the source code at www.cisst.org\r\nDoxygen documentation is also available online and in a downloadable zip file.\r\n\r\n<b>Code Quality:</b>\r\nThe source code has a very standard of quality.\r\nIt is very structured, and follows a formal object oriented methodology. The authors used state of the art software engineering methodologies in the design, implementation and testing of the software. All of which is critical for software that is intended to be used in surgical applications.\r\n\r\nThe documentation of the classes is available online, \r\nhttp://www.cisst.org/resources/software/cisst-0.1.0/doc/doxygen/main.html\r\n\r\n\r\n<b>Applicability to other problems:</b>\r\nThe software described in the paper seems to be suitable for robotics applicaitons outside of the medical field, and the tracker functionalities can probably be used too in virtual reality applications.\r\n\r\n<b>Suggestions for future work:</b>\r\nThe authors are strongly encouraged to follow the methodology of releasing early and releasing often. This maximize the feedback from the community and encourage the use of the software by a larger number of people.\r\n\r\n<b>Additional Comments</b>\r\nThe authors really need to make the download option more visible in their web site. This reviewer missed the option even after multiple passes through the page. \r\nReaders may easily get the impression that the software is not yet available.\r\n\r\nWhen visiting the web page of an open source software package the reviewer would expect the \"Download\" option to be close to the top, and quite highlighted.\r\n\r\n\r\n\r\n\r\n",
-    "date": "09-20-2005",
-    "review_id": 116
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "pkaz@cs.jhu.edu",
-   "author_firstname": "Peter",
-   "author_fullname": "Kazanzides, Peter",
-   "author_id": 63,
-   "author_institution": "Johns Hopkins University",
-   "author_lastname": "Kazanzides"
-  },
-  "tags": [
-   "medical robotics",
-   "open source software",
-   "computer-assisted surgery"
-  ],
-  "title": "Development of open source software for computer-assisted intervention systems"
- }
+    "tags": [
+      "medical robotics",
+      "open source software",
+      "computer-assisted surgery"
+    ],
+    "title": "Development of open source software for computer-assisted intervention systems"
+  }
 }

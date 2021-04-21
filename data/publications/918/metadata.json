@@ -1,58 +1,61 @@
 {
- "publication": {
-  "abstract": "This talk presents the Open-Source toolkits developed by Kitware for big data analysis.",
-  "authors": [
-   {
-    "author_fullname": "Jomier, Julien",
-    "author_place": 1,
-    "persona_email": "julien@jomier.com",
-    "persona_firstname": "Julien",
-    "persona_id": 3,
-    "persona_lastname": "Jomier"
-   },
-   {
-    "author_fullname": "Pouderoux, Joachim",
-    "author_place": 2,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Data Representation",
-   "Programming"
-  ],
-  "comments": [],
-  "date_submitted": "2014-06-17 11:50:00",
-  "handles": [
-   {
-    "handle": "10380/3461",
-    "handle_url": "http://hdl.handle.net/10380/3461"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 31,
-    "journal_name": "The MIDAS Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 918,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "julien@jomier.com",
-   "author_firstname": "Julien",
-   "author_fullname": "Jomier, Julien",
-   "author_id": 3,
-   "author_institution": "Kitware Inc.",
-   "author_lastname": "Jomier"
-  },
-  "tags": [
-   "Big Data",
-   "Analysis"
-  ],
-  "title": "Big Data Analysis and Visualization with Open Source Tools"
- }
+  "publication": {
+    "abstract": "This talk presents the Open-Source toolkits developed by Kitware for big data analysis.",
+    "articles": [
+      "bafybeigwoidtjnneyrxoc557vgun23slmkvhcfbhbcypyivir6xvzlpthi"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Jomier, Julien",
+        "author_place": 1,
+        "persona_email": "julien@jomier.com",
+        "persona_firstname": "Julien",
+        "persona_id": 3,
+        "persona_lastname": "Jomier"
+      },
+      {
+        "author_fullname": "Pouderoux, Joachim",
+        "author_place": 2,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Data Representation",
+      "Programming"
+    ],
+    "comments": [],
+    "date_submitted": "2014-06-17 11:50:00",
+    "handles": [
+      {
+        "handle": "10380/3461",
+        "handle_url": "http://hdl.handle.net/10380/3461"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 31,
+        "journal_name": "The MIDAS Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 918,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "julien@jomier.com",
+      "author_firstname": "Julien",
+      "author_fullname": "Jomier, Julien",
+      "author_id": 3,
+      "author_institution": "Kitware Inc.",
+      "author_lastname": "Jomier"
+    },
+    "tags": [
+      "Big Data",
+      "Analysis"
+    ],
+    "title": "Big Data Analysis and Visualization with Open Source Tools"
+  }
 }
