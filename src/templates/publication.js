@@ -6,6 +6,7 @@ import Box from '@material-ui/core/Box';
 import theme from '../theme';
 import Link from '../components/Link';
 import Layout from '../components/Layout';
+import Citation from '../components/Citation';
 import { GatsbyImage } from "gatsby-plugin-image"
 import MuiLink from '@material-ui/core/Link';
 import targetJournalLogo from '../components/targetJournalLogo';
@@ -121,10 +122,12 @@ const Render = ({ data, pageContext }) => {
 	<center>{coverImage}</center>
 	<br/>
         {citeLink}
-    <Box component="div" className={classes.journal}><Typography variant="subtitle2"><PublicationsIcon />{' '}Published in <Link to="/">{data.site.siteMetadata.title}</Link>{issueLinks}.</Typography></Box>
+  <Box component="div" className={classes.journal}><Typography variant="subtitle2"><PublicationsIcon />{' '}Published in <Link to="/">{data.site.siteMetadata.title}</Link>{issueLinks}.</Typography></Box>
 	<Box component="div" className={classes.submittedBy} color="error">Submitted by {submit_auth} on {publication.date_submitted}.</Box>
         <Typography variant="body1">{publication.abstract}</Typography>
 	</Box>
+  <br/>
+  <Citation publication={publication} journalTitle={data.site.siteMetadata.title}/>
         <Box align="right" className={classes.prevNext}>
           <Tooltip title="Previous publication" placement="top" TransitionComponent={Fade} TransitionProps={{ timeout: 400 }}><Link to={previousLink}><Button disabled={pageContext.prev_id === null}><NavigateBeforeIcon fontSize="large"/></Button></Link></Tooltip>
           <Tooltip title="Next publication" placement="top" TransitionComponent={Fade} TransitionProps={{ timeout: 400 }}><Link to={nextLink}><Button disabled={pageContext.next_id === null}><NavigateNextIcon fontSize="large"/></Button></Link></Tooltip>
