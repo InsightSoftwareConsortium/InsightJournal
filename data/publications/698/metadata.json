@@ -1,74 +1,77 @@
 {
- "publication": {
-  "abstract": "An Insight Toolkit (ITK) algorithm for detection of spherical objects using Hough methods with voting is presented in this paper. Currently, the usage of Hough methods for detecting linear and circular elements exists for 2D images in ITK. The current work extends those filters in several ways. Firstly, the new filters operate on N-dimensional images. Secondly, they work in physical coordinates which is quite essential in medical imaging modalities. Thirdly, they are optimized (multi-threaded execution, stratified sampling etc.) for usage on large datasets and show a significant speedup even in 2D and on small images. Our implementation follows the same underlying mathematics of Hough transforms (as implemented by the 2D filters) but with some minor variations. The main variation lies in the pattern of voting that involves selecting voting regions easily and efficiently accessible to region iterators rather than cones that are difficult to generalize in higher dimensions. We include 2D example code, parameter settings and show the results generated on embryonic images of the zebrafish from optical microscopy.",
-  "authors": [
-   {
-    "author_fullname": "Mosaliganti, Kishore",
-    "author_place": 1,
-    "persona_email": "kishoreraom@gmail.com",
-    "persona_firstname": "Kishore",
-    "persona_id": 981,
-    "persona_lastname": "Mosaliganti"
-   },
-   {
-    "author_fullname": "Gelas, Arnaud",
-    "author_place": 2,
-    "persona_email": "arnaudgelas@gmail.com",
-    "persona_firstname": "Arnaud",
-    "persona_id": 7896,
-    "persona_lastname": "Gelas"
-   },
-   {
-    "author_fullname": "Cowgill, Paul",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Megason, Sean",
-    "author_place": 4,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Code speed optimization",
-   "Parallelization, SMP",
-   "Programming",
-   "Segmentation"
-  ],
-  "comments": [],
-  "date_submitted": "2009-09-30 14:35:28",
-  "handles": [
-   {
-    "handle": "10380/3129",
-    "handle_url": "http://hdl.handle.net/10380/3129"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 698,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "kishoreraom@gmail.com",
-   "author_firstname": "Kishore",
-   "author_fullname": "Mosaliganti, Kishore",
-   "author_id": 981,
-   "author_institution": "Harvard Medical School",
-   "author_lastname": "Mosaliganti"
-  },
-  "tags": [
-   "segmentation",
-   "hough",
-   "spherical objects"
-  ],
-  "title": "An Optimized N-Dimensional Hough Filter for Detecting Spherical Image Objects"
- }
+  "publication": {
+    "abstract": "An Insight Toolkit (ITK) algorithm for detection of spherical objects using Hough methods with voting is presented in this paper. Currently, the usage of Hough methods for detecting linear and circular elements exists for 2D images in ITK. The current work extends those filters in several ways. Firstly, the new filters operate on N-dimensional images. Secondly, they work in physical coordinates which is quite essential in medical imaging modalities. Thirdly, they are optimized (multi-threaded execution, stratified sampling etc.) for usage on large datasets and show a significant speedup even in 2D and on small images. Our implementation follows the same underlying mathematics of Hough transforms (as implemented by the 2D filters) but with some minor variations. The main variation lies in the pattern of voting that involves selecting voting regions easily and efficiently accessible to region iterators rather than cones that are difficult to generalize in higher dimensions. We include 2D example code, parameter settings and show the results generated on embryonic images of the zebrafish from optical microscopy.",
+    "articles": [
+      "bafybeibvtlzo3codnx3cqt6kjyaeppjadhcumxh26yd7d55o2vhhoiveqq"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Mosaliganti, Kishore",
+        "author_place": 1,
+        "persona_email": "kishoreraom@gmail.com",
+        "persona_firstname": "Kishore",
+        "persona_id": 981,
+        "persona_lastname": "Mosaliganti"
+      },
+      {
+        "author_fullname": "Gelas, Arnaud",
+        "author_place": 2,
+        "persona_email": "arnaudgelas@gmail.com",
+        "persona_firstname": "Arnaud",
+        "persona_id": 7896,
+        "persona_lastname": "Gelas"
+      },
+      {
+        "author_fullname": "Cowgill, Paul",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Megason, Sean",
+        "author_place": 4,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Code speed optimization",
+      "Parallelization, SMP",
+      "Programming",
+      "Segmentation"
+    ],
+    "comments": [],
+    "date_submitted": "2009-09-30 14:35:28",
+    "handles": [
+      {
+        "handle": "10380/3129",
+        "handle_url": "http://hdl.handle.net/10380/3129"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 698,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "kishoreraom@gmail.com",
+      "author_firstname": "Kishore",
+      "author_fullname": "Mosaliganti, Kishore",
+      "author_id": 981,
+      "author_institution": "Harvard Medical School",
+      "author_lastname": "Mosaliganti"
+    },
+    "tags": [
+      "segmentation",
+      "hough",
+      "spherical objects"
+    ],
+    "title": "An Optimized N-Dimensional Hough Filter for Detecting Spherical Image Objects"
+  }
 }

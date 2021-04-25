@@ -1,109 +1,115 @@
 {
- "publication": {
-  "abstract": "This paper proposes a new method for fully automated multiple sclerosis (MS) lesion segmentation in cranial magnetic resonance (MR) imaging. The algorithm uses the T1-weighted and the fluid attenuation inversion recovery scans. It is based the K-Nearest Neighbor (KNN) classification technique. The data has been acquired at the Children\ufffds Hospital Boston (CHB) and the University of North Carolina (UNC). Manual segmentations, composed by a human expert of the CHB, were used for training of the KNN-classification. The method uses voxel location and signal intensity information for determination of the probability being a lesion per voxel, thus generating probabilistic segmentation images. By applying a threshold on the probabilistic images binary segmentations are derived. Automatic segmentations were performed on a set of testing images, and compared with manual segmentations from a CHB and a UNC expert rater. Furthermore, a combined segmentation was composed from segmentations from different algorithms, and used for evaluation. The proposed method shows good resemblance with the segmentations of the CHB rater. High specificity and lower specificity has been observed in comparison with the combined segmentations. Over- and undersegmentation can be easily corrected in this procedure by varying the threshold on the probabilistic segmentation image. The proposed method offers an automated and fully reproducible approach that accurate and applicable on standard clinical MR images.",
-  "authors": [
-   {
-    "author_fullname": "Viergever, Max A.",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Anbeek, Petronella",
-    "author_place": 1,
-    "persona_email": "p.anbeek@umcutrecht.nl",
-    "persona_firstname": "Petronella",
-    "persona_id": 925,
-    "persona_lastname": "Anbeek"
-   },
-   {
-    "author_fullname": "Vincken, Koen L.",
-    "author_place": 2,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Bayesian Decision Theory",
-   "Classification",
-   "Data",
-   "Data Representation",
-   "Density Estimation",
-   "Feature extraction",
-   "Filtering",
-   "Image",
-   "Images",
-   "Mathematics",
-   "Neural networks",
-   "Parameter Techniques",
-   "Probability",
-   "Programming",
-   "Registration",
-   "Segmentation",
-   "Thresholding"
-  ],
-  "comments": [],
-  "date_submitted": "2008-07-14T21:00:48Z",
-  "handles": [
-   {
-    "handle": "10380/1448",
-    "handle_url": "http://hdl.handle.net/10380/1448"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 44,
-    "journal_name": "MICCAI 2015 Workshops"
-   },
-   {
-    "journal_id": 33,
-    "journal_name": "MICCAI 2008 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 610,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "simon.warfield@childrens.harvard.edu",
-     "author_firstname": "Simon",
-     "author_id": 514,
-     "author_lastname": "Warfield"
+  "publication": {
+    "abstract": "This paper proposes a new method for fully automated multiple sclerosis (MS) lesion segmentation in cranial magnetic resonance (MR) imaging. The algorithm uses the T1-weighted and the fluid attenuation inversion recovery scans. It is based the K-Nearest Neighbor (KNN) classification technique. The data has been acquired at the Children\ufffds Hospital Boston (CHB) and the University of North Carolina (UNC). Manual segmentations, composed by a human expert of the CHB, were used for training of the KNN-classification. The method uses voxel location and signal intensity information for determination of the probability being a lesion per voxel, thus generating probabilistic segmentation images. By applying a threshold on the probabilistic images binary segmentations are derived. Automatic segmentations were performed on a set of testing images, and compared with manual segmentations from a CHB and a UNC expert rater. Furthermore, a combined segmentation was composed from segmentations from different algorithms, and used for evaluation. The proposed method shows good resemblance with the segmentations of the CHB rater. High specificity and lower specificity has been observed in comparison with the combined segmentations. Over- and undersegmentation can be easily corrected in this procedure by varying the threshold on the probabilistic segmentation image. The proposed method offers an automated and fully reproducible approach that accurate and applicable on standard clinical MR images.",
+    "articles": [
+      "bafkreiesyjhyrxjup73qki53lov3ff2zsr7dskddpryiefbud2re2mbvlu",
+      "bafkreiesyjhyrxjup73qki53lov3ff2zsr7dskddpryiefbud2re2mbvlu",
+      "bafkreih3urckowpxhiyy7ktwyi6gghkmrwcslbrbeu43t3qg7v6zbhpwye",
+      "bafkreidtcyi7feoqt5ha7zjbnqhcgmqmbgb7ngs7hbrgnugqe4mhqotuda"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Viergever, Max A.",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Anbeek, Petronella",
+        "author_place": 1,
+        "persona_email": "p.anbeek@umcutrecht.nl",
+        "persona_firstname": "Petronella",
+        "persona_id": 925,
+        "persona_lastname": "Anbeek"
+      },
+      {
+        "author_fullname": "Vincken, Koen L.",
+        "author_place": 2,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Bayesian Decision Theory",
+      "Classification",
+      "Data",
+      "Data Representation",
+      "Density Estimation",
+      "Feature extraction",
+      "Filtering",
+      "Image",
+      "Images",
+      "Mathematics",
+      "Neural networks",
+      "Parameter Techniques",
+      "Probability",
+      "Programming",
+      "Registration",
+      "Segmentation",
+      "Thresholding"
+    ],
+    "comments": [],
+    "date_submitted": "2008-07-14T21:00:48Z",
+    "handles": [
+      {
+        "handle": "10380/1448",
+        "handle_url": "http://hdl.handle.net/10380/1448"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<p><br /> This paper describes an algorithm for the segmentation of MRI scans of MS patients.</p><p>The contribution utilizes features derived from signal intensity and coordinates in space. In order for the features to be commensurate, they are normalized to have zero mean and unit variance.&nbsp; Posterior probabilities are estimated through KNN density estimation.</p><p>&nbsp;The comparison of the algorithm with data from manual segmentation and other algorithms demonstrates the advantages of this approach.</p><p>&nbsp;</p><p>Minor problems:</p><p>tenser should be tensor</p><p>On page 4, was also compare should be was also compared.&nbsp;</p><p>&nbsp;On page 7, consequently should be consistently. </p>",
-    "date": "07-25-2008",
-    "review_id": 1529
-   },
-   {
-    "author": {
-     "author_email": "styner@cs.unc.edu",
-     "author_firstname": "Martin",
-     "author_id": 28,
-     "author_lastname": "Styner"
+    "journals": [
+      {
+        "journal_id": 44,
+        "journal_name": "MICCAI 2015 Workshops"
+      },
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 610,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "simon.warfield@childrens.harvard.edu",
+          "author_firstname": "Simon",
+          "author_id": 514,
+          "author_lastname": "Warfield"
+        },
+        "content": "<p><br /> This paper describes an algorithm for the segmentation of MRI scans of MS patients.</p><p>The contribution utilizes features derived from signal intensity and coordinates in space. In order for the features to be commensurate, they are normalized to have zero mean and unit variance.&nbsp; Posterior probabilities are estimated through KNN density estimation.</p><p>&nbsp;The comparison of the algorithm with data from manual segmentation and other algorithms demonstrates the advantages of this approach.</p><p>&nbsp;</p><p>Minor problems:</p><p>tenser should be tensor</p><p>On page 4, was also compare should be was also compared.&nbsp;</p><p>&nbsp;On page 7, consequently should be consistently. </p>",
+        "date": "07-25-2008",
+        "review_id": 1529
+      },
+      {
+        "author": {
+          "author_email": "styner@cs.unc.edu",
+          "author_firstname": "Martin",
+          "author_id": 28,
+          "author_lastname": "Styner"
+        },
+        "content": "<p>The paper presents a voxelwise KNN tissue classification for MS lesion detection.</p><p>Can you elaborate why only T1 and FLAIR was employed, when more MR scans were available? </p><p>Overall the results are quite good as they are similar to the CHB rater&#39;s performance (the rater used in the training), while they are still appropriate as compared to the UNC rater. </p><p>Also, the STAPLE segmentation incorporate all segmentation results used in this competition and the majority of the segmentations seem to oversegment the MS lesions. This explains why your results indicate an over segmentation as compared to the human raters and under segmentation as compared to the STAPLE computation. </p><p>Another revision, maybe by an english native speaker, would improve the quality of the submission. </p><p>Minor:&nbsp;</p><p>Abstract: &quot;It is based the K-...&quot; should be &quot;It is based on the K-...&quot;, &quot;that accurate&quot; should be &quot;that is accurate&quot; </p><p>Image Processing section: &quot;..performed before they were provided&quot; should be &quot;....performed as provided by the workshop organizers.&quot;</p><p>&nbsp;</p>",
+        "date": "07-29-2008",
+        "review_id": 1539
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "p.anbeek@umcutrecht.nl",
+      "author_firstname": "Petronella",
+      "author_fullname": "Anbeek, Petronella",
+      "author_id": 925,
+      "author_institution": "Image Sciences Institute, University Medical Center Utrecht",
+      "author_lastname": "Anbeek"
     },
-    "content": "<p>The paper presents a voxelwise KNN tissue classification for MS lesion detection.</p><p>Can you elaborate why only T1 and FLAIR was employed, when more MR scans were available? </p><p>Overall the results are quite good as they are similar to the CHB rater&#39;s performance (the rater used in the training), while they are still appropriate as compared to the UNC rater. </p><p>Also, the STAPLE segmentation incorporate all segmentation results used in this competition and the majority of the segmentations seem to oversegment the MS lesions. This explains why your results indicate an over segmentation as compared to the human raters and under segmentation as compared to the STAPLE computation. </p><p>Another revision, maybe by an english native speaker, would improve the quality of the submission. </p><p>Minor:&nbsp;</p><p>Abstract: &quot;It is based the K-...&quot; should be &quot;It is based on the K-...&quot;, &quot;that accurate&quot; should be &quot;that is accurate&quot; </p><p>Image Processing section: &quot;..performed before they were provided&quot; should be &quot;....performed as provided by the workshop organizers.&quot;</p><p>&nbsp;</p>",
-    "date": "07-29-2008",
-    "review_id": 1539
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "p.anbeek@umcutrecht.nl",
-   "author_firstname": "Petronella",
-   "author_fullname": "Anbeek, Petronella",
-   "author_id": 925,
-   "author_institution": "Image Sciences Institute, University Medical Center Utrecht",
-   "author_lastname": "Anbeek"
-  },
-  "tags": [
-   "lesion",
-   "MS",
-   "Multiple Sclerosis",
-   "brain",
-   "segmentation",
-   "white matter"
-  ],
-  "title": "Automated MS-Lesion Segmentation by K-Nearest Neighbor Classification"
- }
+    "tags": [
+      "lesion",
+      "MS",
+      "Multiple Sclerosis",
+      "brain",
+      "segmentation",
+      "white matter"
+    ],
+    "title": "Automated MS-Lesion Segmentation by K-Nearest Neighbor Classification"
+  }
 }

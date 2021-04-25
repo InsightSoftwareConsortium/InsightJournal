@@ -1,135 +1,138 @@
 {
- "publication": {
-  "abstract": "Open source technologies are increasing in popularity for software development. Many open source projects rely on skilled development teams whose members are distributed throughout the world. Often, agile development methods are employed by these teams, as the focus is on concurrent development and fast production over requirements management and quality assurance. The image-guided surgery toolkit (IGSTK) is an open source development project that relies on the collaboration of a skilled and distributed development team, yet addresses a domain that demands managing requirements as well as implementing a high degree of robustness and addressing safety concerns. Due to this unique cross-section of open source technology and the surgical domain, the IGSTK team has developed a set of best practices and requirements techniques to augment commonly applied agile methods. This paper presents the lessons we have learned as we have engaged in the software development process.",
-  "authors": [
-   {
-    "author_fullname": "Kim, Hee-Su",
-    "author_place": 6,
-    "persona_email": "wizardhs@gmail.com",
-    "persona_firstname": "Hee-su",
-    "persona_id": 278,
-    "persona_lastname": "Kim"
-   },
-   {
-    "author_fullname": "Gary, Kevin",
-    "author_place": 1,
-    "persona_email": "kgary@asu.edu",
-    "persona_firstname": "Kevin",
-    "persona_id": 274,
-    "persona_lastname": "Gary"
-   },
-   {
-    "author_fullname": "Blake, Brian",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Aylward, Stephen",
-    "author_place": 3,
-    "persona_email": "stephen.aylward@kitware.com",
-    "persona_firstname": "Stephen",
-    "persona_id": 1,
-    "persona_lastname": "Aylward"
-   },
-   {
-    "author_fullname": "Jomier, Julien",
-    "author_place": 4,
-    "persona_email": "julien@jomier.com",
-    "persona_firstname": "Julien",
-    "persona_id": 3,
-    "persona_lastname": "Jomier"
-   },
-   {
-    "author_fullname": "Gobbi, David",
-    "author_place": 5,
-    "persona_email": "david.gobbi@gmail.com",
-    "persona_firstname": "David",
-    "persona_id": 881,
-    "persona_lastname": "Gobbi"
-   },
-   {
-    "author_fullname": "Avila, Rick",
-    "author_place": 7,
-    "persona_email": "rick.avila@kitware.com",
-    "persona_firstname": "Rick",
-    "persona_id": 214,
-    "persona_lastname": "Avila"
-   },
-   {
-    "author_fullname": "Ibanez, Luis",
-    "author_place": 8,
-    "persona_email": "luis.ibanez@kitware.com",
-    "persona_firstname": "Luis",
-    "persona_id": 4,
-    "persona_lastname": "Ibanez"
-   },
-   {
-    "author_fullname": "Cleary, Kevin",
-    "author_place": 9,
-    "persona_email": "cleary@georgetown.edu",
-    "persona_firstname": "Kevin",
-    "persona_id": 368,
-    "persona_lastname": "Cleary"
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2005-07-30T18:34:04Z",
-  "handles": [
-   {
-    "handle": "/3163",
-    "handle_url": "http://hdl.handle.net//3163"
-   },
-   {
-    "handle": "1926/19",
-    "handle_url": "http://hdl.handle.net/1926/19"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 21,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "tkapur@bwh.harvard.edu",
-     "author_firstname": "Tina",
-     "author_id": 96,
-     "author_lastname": "Kapur"
+  "publication": {
+    "abstract": "Open source technologies are increasing in popularity for software development. Many open source projects rely on skilled development teams whose members are distributed throughout the world. Often, agile development methods are employed by these teams, as the focus is on concurrent development and fast production over requirements management and quality assurance. The image-guided surgery toolkit (IGSTK) is an open source development project that relies on the collaboration of a skilled and distributed development team, yet addresses a domain that demands managing requirements as well as implementing a high degree of robustness and addressing safety concerns. Due to this unique cross-section of open source technology and the surgical domain, the IGSTK team has developed a set of best practices and requirements techniques to augment commonly applied agile methods. This paper presents the lessons we have learned as we have engaged in the software development process.",
+    "articles": [
+      "bafkreicdkbmded2rxo7z2xrsozooyhbwl6ejx7hwmwdpmxqbgfrfewh6cy"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Kim, Hee-Su",
+        "author_place": 6,
+        "persona_email": "wizardhs@gmail.com",
+        "persona_firstname": "Hee-su",
+        "persona_id": 278,
+        "persona_lastname": "Kim"
+      },
+      {
+        "author_fullname": "Gary, Kevin",
+        "author_place": 1,
+        "persona_email": "kgary@asu.edu",
+        "persona_firstname": "Kevin",
+        "persona_id": 274,
+        "persona_lastname": "Gary"
+      },
+      {
+        "author_fullname": "Blake, Brian",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Aylward, Stephen",
+        "author_place": 3,
+        "persona_email": "stephen.aylward@kitware.com",
+        "persona_firstname": "Stephen",
+        "persona_id": 1,
+        "persona_lastname": "Aylward"
+      },
+      {
+        "author_fullname": "Jomier, Julien",
+        "author_place": 4,
+        "persona_email": "julien@jomier.com",
+        "persona_firstname": "Julien",
+        "persona_id": 3,
+        "persona_lastname": "Jomier"
+      },
+      {
+        "author_fullname": "Gobbi, David",
+        "author_place": 5,
+        "persona_email": "david.gobbi@gmail.com",
+        "persona_firstname": "David",
+        "persona_id": 881,
+        "persona_lastname": "Gobbi"
+      },
+      {
+        "author_fullname": "Avila, Rick",
+        "author_place": 7,
+        "persona_email": "rick.avila@kitware.com",
+        "persona_firstname": "Rick",
+        "persona_id": 214,
+        "persona_lastname": "Avila"
+      },
+      {
+        "author_fullname": "Ibanez, Luis",
+        "author_place": 8,
+        "persona_email": "luis.ibanez@kitware.com",
+        "persona_firstname": "Luis",
+        "persona_id": 4,
+        "persona_lastname": "Ibanez"
+      },
+      {
+        "author_fullname": "Cleary, Kevin",
+        "author_place": 9,
+        "persona_email": "cleary@georgetown.edu",
+        "persona_firstname": "Kevin",
+        "persona_id": 368,
+        "persona_lastname": "Cleary"
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2005-07-30T18:34:04Z",
+    "handles": [
+      {
+        "handle": "/3163",
+        "handle_url": "http://hdl.handle.net//3163"
+      },
+      {
+        "handle": "1926/19",
+        "handle_url": "http://hdl.handle.net/1926/19"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<b>Summary:</b>\r\nThis paper describes the software development process for IGSTK, an open source image guided surgery toolkit whose architecture is described in a separate paper in this issue of the journal. It points out that in contrast to most open source projects, IGSTK needs to closely document the traceability of each requirement specification to its software implementation and testing in order to be compliant with the FDA (Food and Drug Administration) standards for medical devices. In particular, it details a collaborative method used in the project for capturing its evolving requirements.\r\n\r\n<b> Hypothesis </b>\r\nA hypothesis is that it is faster/cheaper/better to capture requirements with the proposed method than it is to manually update the requirements documentation.\r\n\r\n<b> Evidence </b>\r\nIt is still early in the project to determine this.\r\n\r\n<b> Comments </b>\r\n-\tSome of the IGSTK team members have carried over best practices from their participation in other open source projects to IGSTK, which is a good way to propagate these through the medical image analysis research community.\r\n-\tNote on the term \u00e2\u0080\u009cbest practice\u00e2\u0080\u009d: it is usually used to describe a practice that is deemed \u00e2\u0080\u009cbest\u00e2\u0080\u009d because it helped make an aspect of a project successful. Since IGSTK is still in its infancy, and its practice of capturing requirements collaboratively for traceability purposes has not yet been proven one way or another, it might be too early to knight it. \r\n-\tAs another reviewer pointed out, a trace matrix would be useful since it is a commonly used format to demonstrate traceability for FDA review. Such a three column matrix contains one row for each requirement of the project and lists (1) the requirement text (2) the sections of the code that implement it, and (3) the sections of the code that test it.\r\n-\tI think that the automatic generation of updates to requirements documents (and potentially trace matrices) is appealing for commercial medical device development, and could be a useful tool in its own right.\r\n\r\n\r\n",
-    "date": "09-17-2005",
-    "review_id": 94
-   },
-   {
-    "author": {
-     "author_email": "pkaz@cs.jhu.edu",
-     "author_firstname": "Peter",
-     "author_id": 63,
-     "author_lastname": "Kazanzides"
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 21,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "tkapur@bwh.harvard.edu",
+          "author_firstname": "Tina",
+          "author_id": 96,
+          "author_lastname": "Kapur"
+        },
+        "content": "<b>Summary:</b>\r\nThis paper describes the software development process for IGSTK, an open source image guided surgery toolkit whose architecture is described in a separate paper in this issue of the journal. It points out that in contrast to most open source projects, IGSTK needs to closely document the traceability of each requirement specification to its software implementation and testing in order to be compliant with the FDA (Food and Drug Administration) standards for medical devices. In particular, it details a collaborative method used in the project for capturing its evolving requirements.\r\n\r\n<b> Hypothesis </b>\r\nA hypothesis is that it is faster/cheaper/better to capture requirements with the proposed method than it is to manually update the requirements documentation.\r\n\r\n<b> Evidence </b>\r\nIt is still early in the project to determine this.\r\n\r\n<b> Comments </b>\r\n-\tSome of the IGSTK team members have carried over best practices from their participation in other open source projects to IGSTK, which is a good way to propagate these through the medical image analysis research community.\r\n-\tNote on the term \u00e2\u0080\u009cbest practice\u00e2\u0080\u009d: it is usually used to describe a practice that is deemed \u00e2\u0080\u009cbest\u00e2\u0080\u009d because it helped make an aspect of a project successful. Since IGSTK is still in its infancy, and its practice of capturing requirements collaboratively for traceability purposes has not yet been proven one way or another, it might be too early to knight it. \r\n-\tAs another reviewer pointed out, a trace matrix would be useful since it is a commonly used format to demonstrate traceability for FDA review. Such a three column matrix contains one row for each requirement of the project and lists (1) the requirement text (2) the sections of the code that implement it, and (3) the sections of the code that test it.\r\n-\tI think that the automatic generation of updates to requirements documents (and potentially trace matrices) is appealing for commercial medical device development, and could be a useful tool in its own right.\r\n\r\n\r\n",
+        "date": "09-17-2005",
+        "review_id": 94
+      },
+      {
+        "author": {
+          "author_email": "pkaz@cs.jhu.edu",
+          "author_firstname": "Peter",
+          "author_id": 63,
+          "author_lastname": "Kazanzides"
+        },
+        "content": "<b>Summary:</b>\r\nThis paper presents some best practices and a method for requirements capture during agile software development of the IGSTK toolkit.\r\n \r\n<b>Hypothesis:</b>\r\nOne hypothesis is that requirements for a medical software toolkit can be captured during development (as they emerge).\r\n\r\n<b>Evidence:</b>\r\nNot applicable\r\n\r\n<b>Open Science:</b>\r\nThe paper adheres to the concept of open science quite well. IGSTK source code is freely available. Some of the developer documentation requires a login and password. The nightly generated requirements are also freely available on the web site. I would have liked to see the guidelines for defining requirements (for example, why is a requirement numbered REQ 06.02.13?) as well as the scripts that are used for extracting the requirements from the bug tracker. If done well, this could be as useful to the community as the IGSTK software itself (for example, CMake was developed to support ITK development and is a useful tool on its own).\r\n\r\n<b>Reproducibility:</b>\r\nNot really applicable. It should be possible to reproduce the requirements generation if the scripts were publically available.\r\n\r\n<b>Use of Open Source Software:</b>\r\nYes, the authors use quite a bit of open source software packages (ITK, VTK, FLTK) and development tools (CMake, Dart, CVS, PHPBugTracker) and extoll their virtues appropriately.\r\n\r\n<b>Open Source Contributions:</b>\r\nIGSTK is a work in process, so I have not yet tried it though I plan to use it in the future. I am not sure if I will use the requirements capture method -- that depends on how much it evolves.\r\n\r\n<b>Code Quality:</b>\r\nNot applicable. This paper was not about the code, but about the best practices and requirements definition.\r\n\r\n<b>Applicability to other problems:</b>\r\nThe development process identified in this paper is applicable to nearly every medical software development effort, especially if clinical use is anticipated.\r\n\r\n<b>Suggestions for future work:</b>\r\nThe problem of capturing requirements and maintaining traceability (and consistency) between requirements, software implementation and testing is of critical importance. The current solution of using the bug tracker is a good start, but much more could be done. The nightly-generated requirements document is just a sorted list (based on the requirement number, which is somehow assigned by the programmer) and is not as easy to read as a typical manually-created requirements document. In my opinion, it would be nice to have a hyperlinked traceability matrix in which you can easily navigate between requirement, source code implementation, test procedure and test result.\r\n\r\n<b>Requests for additional information from authors:</b>\r\nI would like more information about the way in which the requirements are numbered.\r\n\r\n<b>Additional Comments:</b>\r\nI am an advisor to this project and am listed in the Acknowledgments.\r\n\r\n",
+        "date": "09-09-2005",
+        "review_id": 56
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "blakeb@cs.georgetown.edu",
+      "author_firstname": "M. brian",
+      "author_fullname": "Blake, M. brian",
+      "author_id": 80,
+      "author_institution": "Georgetown University",
+      "author_lastname": "Blake"
     },
-    "content": "<b>Summary:</b>\r\nThis paper presents some best practices and a method for requirements capture during agile software development of the IGSTK toolkit.\r\n \r\n<b>Hypothesis:</b>\r\nOne hypothesis is that requirements for a medical software toolkit can be captured during development (as they emerge).\r\n\r\n<b>Evidence:</b>\r\nNot applicable\r\n\r\n<b>Open Science:</b>\r\nThe paper adheres to the concept of open science quite well. IGSTK source code is freely available. Some of the developer documentation requires a login and password. The nightly generated requirements are also freely available on the web site. I would have liked to see the guidelines for defining requirements (for example, why is a requirement numbered REQ 06.02.13?) as well as the scripts that are used for extracting the requirements from the bug tracker. If done well, this could be as useful to the community as the IGSTK software itself (for example, CMake was developed to support ITK development and is a useful tool on its own).\r\n\r\n<b>Reproducibility:</b>\r\nNot really applicable. It should be possible to reproduce the requirements generation if the scripts were publically available.\r\n\r\n<b>Use of Open Source Software:</b>\r\nYes, the authors use quite a bit of open source software packages (ITK, VTK, FLTK) and development tools (CMake, Dart, CVS, PHPBugTracker) and extoll their virtues appropriately.\r\n\r\n<b>Open Source Contributions:</b>\r\nIGSTK is a work in process, so I have not yet tried it though I plan to use it in the future. I am not sure if I will use the requirements capture method -- that depends on how much it evolves.\r\n\r\n<b>Code Quality:</b>\r\nNot applicable. This paper was not about the code, but about the best practices and requirements definition.\r\n\r\n<b>Applicability to other problems:</b>\r\nThe development process identified in this paper is applicable to nearly every medical software development effort, especially if clinical use is anticipated.\r\n\r\n<b>Suggestions for future work:</b>\r\nThe problem of capturing requirements and maintaining traceability (and consistency) between requirements, software implementation and testing is of critical importance. The current solution of using the bug tracker is a good start, but much more could be done. The nightly-generated requirements document is just a sorted list (based on the requirement number, which is somehow assigned by the programmer) and is not as easy to read as a typical manually-created requirements document. In my opinion, it would be nice to have a hyperlinked traceability matrix in which you can easily navigate between requirement, source code implementation, test procedure and test result.\r\n\r\n<b>Requests for additional information from authors:</b>\r\nI would like more information about the way in which the requirements are numbered.\r\n\r\n<b>Additional Comments:</b>\r\nI am an advisor to this project and am listed in the Acknowledgments.\r\n\r\n",
-    "date": "09-09-2005",
-    "review_id": 56
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "blakeb@cs.georgetown.edu",
-   "author_firstname": "M. brian",
-   "author_fullname": "Blake, M. brian",
-   "author_id": 80,
-   "author_institution": "Georgetown University",
-   "author_lastname": "Blake"
-  },
-  "tags": null,
-  "title": "IGSTK: Development Process and Project Management Best Practices for an Open Source Software Toolkit for Image-Guided Surgery Applications"
- }
+    "tags": null,
+    "title": "IGSTK: Development Process and Project Management Best Practices for an Open Source Software Toolkit for Image-Guided Surgery Applications"
+  }
 }

@@ -1,86 +1,89 @@
 {
- "publication": {
-  "abstract": "We present a VTK-based implementation of our non-parametric vessel detection method that identifies vascular structures using a polar neighborhood profile. To accelerate the computationally intensive parts of the algorithm, we leverage the hardware capabilities in commodity graphics hardware using Compute Unified Device Architecture (CUDA). We present the results of our performance analysis and provide source code and examples to validate the reproducibility of our results.",
-  "authors": [
-   {
-    "author_fullname": "Alpoge, Levent",
-    "author_place": 1,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Joshi, Alark",
-    "author_place": 2,
-    "persona_email": "alark.joshi@yale.edu",
-    "persona_firstname": "Alark",
-    "persona_id": 2154,
-    "persona_lastname": "Joshi"
-   },
-   {
-    "author_fullname": "Scheinost, Dustin",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Onofrey, John",
-    "author_place": 4,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Qian, Xiaoning",
-    "author_place": 5,
-    "persona_email": "xiaoning.qian@gmail.com",
-    "persona_firstname": "Xiaoning",
-    "persona_id": 487,
-    "persona_lastname": "Qian"
-   },
-   {
-    "author_fullname": "Papademetris, Xenophon",
-    "author_place": 6,
-    "persona_email": "xenophon.papademetris@yale.edu",
-    "persona_firstname": "Xenophon",
-    "persona_id": 79,
-    "persona_lastname": "Papademetris"
-   }
-  ],
-  "categories": [
-   "Feature extraction",
-   "Neighborhood filters"
-  ],
-  "comments": [],
-  "date_submitted": "2010-01-25 16:46:36",
-  "handles": [
-   {
-    "handle": "10380/3146",
-    "handle_url": "http://hdl.handle.net/10380/3146"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 35,
-    "journal_name": "The VTK Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 710,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "alark.joshi@yale.edu",
-   "author_firstname": "Alark",
-   "author_fullname": "Joshi, Alark",
-   "author_id": 2154,
-   "author_institution": "Yale University",
-   "author_lastname": "Joshi"
-  },
-  "tags": [
-   "polar profile",
-   "vessel detection",
-   "hardware acceleration",
-   "CUDA"
-  ],
-  "title": "A VTK-based, CUDA-optimized Non-Parametric Vessel Detection Method"
- }
+  "publication": {
+    "abstract": "We present a VTK-based implementation of our non-parametric vessel detection method that identifies vascular structures using a polar neighborhood profile. To accelerate the computationally intensive parts of the algorithm, we leverage the hardware capabilities in commodity graphics hardware using Compute Unified Device Architecture (CUDA). We present the results of our performance analysis and provide source code and examples to validate the reproducibility of our results.",
+    "articles": [
+      "bafybeick6zqm2gdolmq236ou7qljmjngpj2uk2mpyd452zwfappuvz23ay"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Alpoge, Levent",
+        "author_place": 1,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Joshi, Alark",
+        "author_place": 2,
+        "persona_email": "alark.joshi@yale.edu",
+        "persona_firstname": "Alark",
+        "persona_id": 2154,
+        "persona_lastname": "Joshi"
+      },
+      {
+        "author_fullname": "Scheinost, Dustin",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Onofrey, John",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Qian, Xiaoning",
+        "author_place": 5,
+        "persona_email": "xiaoning.qian@gmail.com",
+        "persona_firstname": "Xiaoning",
+        "persona_id": 487,
+        "persona_lastname": "Qian"
+      },
+      {
+        "author_fullname": "Papademetris, Xenophon",
+        "author_place": 6,
+        "persona_email": "xenophon.papademetris@yale.edu",
+        "persona_firstname": "Xenophon",
+        "persona_id": 79,
+        "persona_lastname": "Papademetris"
+      }
+    ],
+    "categories": [
+      "Feature extraction",
+      "Neighborhood filters"
+    ],
+    "comments": [],
+    "date_submitted": "2010-01-25 16:46:36",
+    "handles": [
+      {
+        "handle": "10380/3146",
+        "handle_url": "http://hdl.handle.net/10380/3146"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 35,
+        "journal_name": "The VTK Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 710,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "alark.joshi@yale.edu",
+      "author_firstname": "Alark",
+      "author_fullname": "Joshi, Alark",
+      "author_id": 2154,
+      "author_institution": "Yale University",
+      "author_lastname": "Joshi"
+    },
+    "tags": [
+      "polar profile",
+      "vessel detection",
+      "hardware acceleration",
+      "CUDA"
+    ],
+    "title": "A VTK-based, CUDA-optimized Non-Parametric Vessel Detection Method"
+  }
 }

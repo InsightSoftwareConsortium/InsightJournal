@@ -1,61 +1,64 @@
 {
- "publication": {
-  "abstract": "In this document we present an ITK image filter that outputs a new image with identical voxel contents but with modified physical space representation. The physical space representation of an image is modified to reflect the physical space transform on the input image. The advantage of this filter is that it is free from interpolation error.\nThis paper is accompanied with the source code, input data, parameters and output data that the au- thors used for validating the algorithm described in this paper. This adheres to the fundamental principle that scientific publications must facilitate reproducibility of the reported results.",
-  "authors": [
-   {
-    "author_fullname": "Lu, Wei",
-    "author_place": 1,
-    "persona_email": "wei-lu@uiowa.edu",
-    "persona_firstname": "Wei",
-    "persona_id": 2769,
-    "persona_lastname": "Lu"
-   },
-   {
-    "author_fullname": "Johnson, Hans",
-    "author_place": 2,
-    "persona_email": "hans-johnson@uiowa.edu",
-    "persona_firstname": "Hans",
-    "persona_id": 21,
-    "persona_lastname": "Johnson"
-   }
-  ],
-  "categories": [
-   "Filtering",
-   "Resampling"
-  ],
-  "comments": [],
-  "date_submitted": "2010-10-28 22:37:07",
-  "handles": [
-   {
-    "handle": "10380/3224",
-    "handle_url": "http://hdl.handle.net/10380/3224"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 770,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "wei-lu@uiowa.edu",
-   "author_firstname": "Wei",
-   "author_fullname": "Lu, Wei",
-   "author_id": 2769,
-   "author_institution": "The University of Iowa",
-   "author_lastname": "Lu"
-  },
-  "tags": [
-   "resample in-place",
-   "ITK ImageToImage filter"
-  ],
-  "title": "Introduction to ITK Resample In-Place Image Filter"
- }
+  "publication": {
+    "abstract": "In this document we present an ITK image filter that outputs a new image with identical voxel contents but with modified physical space representation. The physical space representation of an image is modified to reflect the physical space transform on the input image. The advantage of this filter is that it is free from interpolation error.\nThis paper is accompanied with the source code, input data, parameters and output data that the au- thors used for validating the algorithm described in this paper. This adheres to the fundamental principle that scientific publications must facilitate reproducibility of the reported results.",
+    "articles": [
+      "bafkreiexp6tp6bst43ru2sr5h2gcz5bhsud6mkiqrmbwsh6uyfxp33zlda"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Lu, Wei",
+        "author_place": 1,
+        "persona_email": "wei-lu@uiowa.edu",
+        "persona_firstname": "Wei",
+        "persona_id": 2769,
+        "persona_lastname": "Lu"
+      },
+      {
+        "author_fullname": "Johnson, Hans",
+        "author_place": 2,
+        "persona_email": "hans-johnson@uiowa.edu",
+        "persona_firstname": "Hans",
+        "persona_id": 21,
+        "persona_lastname": "Johnson"
+      }
+    ],
+    "categories": [
+      "Filtering",
+      "Resampling"
+    ],
+    "comments": [],
+    "date_submitted": "2010-10-28 22:37:07",
+    "handles": [
+      {
+        "handle": "10380/3224",
+        "handle_url": "http://hdl.handle.net/10380/3224"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 770,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "wei-lu@uiowa.edu",
+      "author_firstname": "Wei",
+      "author_fullname": "Lu, Wei",
+      "author_id": 2769,
+      "author_institution": "The University of Iowa",
+      "author_lastname": "Lu"
+    },
+    "tags": [
+      "resample in-place",
+      "ITK ImageToImage filter"
+    ],
+    "title": "Introduction to ITK Resample In-Place Image Filter"
+  }
 }

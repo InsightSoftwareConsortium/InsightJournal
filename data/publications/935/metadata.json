@@ -1,71 +1,75 @@
 {
- "publication": {
-  "abstract": "Segmentation of 3D echocardiograms (3DEs) is still a challenging task due to the low signal-to-noise ratio, the limited field of view, and typical ultrasound artifacts. We propose to segment the left ventricular endocardial surface by using Active Appearance Models (AAMs). Separate end-diastolic (ED) and end-systolic (ES) AAMs were built from presegmented 3DEs of the CETUS training data and 25 previously acquired 3DEs, imaged using various 3DE equipment. The AAMs fully automatically segmented the 15 training sets in a leave-one-out cross validation, comparing two training populations and various initialization strategies. All segmentations took about 15 seconds per patient. The comparison on the CETUS training data shows that the AAM benefits from additional training data and more accurate initialization. The results on the CETUS training and testing data confirm good ED and ES segmentation accuracy on multi-center, multi-vendor, multi-pathology data, and corresponding EF estimation. Selection from different initialization strategies, based on the minimal residual error, and propagation of detected ED contours to initialize ES detection, contributed to more accurate segmentations in this heterogeneous population.",
-  "authors": [
-   {
-    "author_fullname": "Van Stralen, Marijn",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Haak, Alexander",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Leung, K Esther",
-    "author_place": 4,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Van Burken, Gerard",
-    "author_place": 5,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Bosch, Johan G.",
-    "author_place": 6,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Active appearance models",
-   "Segmentation",
-   "Statistical shape models"
-  ],
-  "comments": [],
-  "date_submitted": "2014-10-27 17:57:21",
-  "handles": [
-   {
-    "handle": "10380/3488",
-    "handle_url": "http://hdl.handle.net/10380/3488"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 42,
-    "journal_name": "MICCAI 2014 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 935,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "olivier.bernard@creatis.insa-lyon.fr",
-   "author_firstname": "Olivier",
-   "author_fullname": "Bernard, Olivier",
-   "author_id": 5768,
-   "author_institution": "CREATIS",
-   "author_lastname": "Bernard"
-  },
-  "tags": [
-   "3D ultrasound imaging",
-   "Segmentation"
-  ],
-  "title": "Segmentation of Multi-Center 3D Left Ventricular Echocardiograms by Active Appearance Models"
- }
+  "publication": {
+    "abstract": "Segmentation of 3D echocardiograms (3DEs) is still a challenging task due to the low signal-to-noise ratio, the limited field of view, and typical ultrasound artifacts. We propose to segment the left ventricular endocardial surface by using Active Appearance Models (AAMs). Separate end-diastolic (ED) and end-systolic (ES) AAMs were built from presegmented 3DEs of the CETUS training data and 25 previously acquired 3DEs, imaged using various 3DE equipment. The AAMs fully automatically segmented the 15 training sets in a leave-one-out cross validation, comparing two training populations and various initialization strategies. All segmentations took about 15 seconds per patient. The comparison on the CETUS training data shows that the AAM benefits from additional training data and more accurate initialization. The results on the CETUS training and testing data confirm good ED and ES segmentation accuracy on multi-center, multi-vendor, multi-pathology data, and corresponding EF estimation. Selection from different initialization strategies, based on the minimal residual error, and propagation of detected ED contours to initialize ES detection, contributed to more accurate segmentations in this heterogeneous population.",
+    "articles": [
+      "bafybeiggylj527gf2nkvtjss6eoy5ne4rlcn5lpdrkylvc2cnczilpxugu",
+      "bafybeibxfw6oqeez2uo3zmgpsrccqyul5ob63k7tareqfmvvkjkbqmmzvq"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Van Stralen, Marijn",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Haak, Alexander",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Leung, K Esther",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Van Burken, Gerard",
+        "author_place": 5,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Bosch, Johan G.",
+        "author_place": 6,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Active appearance models",
+      "Segmentation",
+      "Statistical shape models"
+    ],
+    "comments": [],
+    "date_submitted": "2014-10-27 17:57:21",
+    "handles": [
+      {
+        "handle": "10380/3488",
+        "handle_url": "http://hdl.handle.net/10380/3488"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 42,
+        "journal_name": "MICCAI 2014 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 935,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "olivier.bernard@creatis.insa-lyon.fr",
+      "author_firstname": "Olivier",
+      "author_fullname": "Bernard, Olivier",
+      "author_id": 5768,
+      "author_institution": "CREATIS",
+      "author_lastname": "Bernard"
+    },
+    "tags": [
+      "3D ultrasound imaging",
+      "Segmentation"
+    ],
+    "title": "Segmentation of Multi-Center 3D Left Ventricular Echocardiograms by Active Appearance Models"
+  }
 }

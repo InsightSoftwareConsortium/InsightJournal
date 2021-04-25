@@ -1,98 +1,102 @@
 {
- "publication": {
-  "abstract": "In this paper, we present a new automatic robust algorithm to segment multimodal brain MR images with Multiple Sclerosis (MS) lesions. The method performs tissue classification using a Hidden Markov Chain (HMC) model and detects MS lesions as outliers to the model. For this aim, we use the Trimmed Likelihood Estimator (TLE) to extract outliers. Furthermore, neighborhood information is included using the HMC model and we propose to incorporate a priori information brought by a probabilistic atlas.",
-  "authors": [
-   {
-    "author_fullname": "Bricq, Stephanie",
-    "author_place": 1,
-    "persona_email": "bricq@lsiit.u-strasbg.fr",
-    "persona_firstname": "Stephanie",
-    "persona_id": 926,
-    "persona_lastname": "Bricq"
-   },
-   {
-    "author_fullname": "Collet, Christophe",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Armspach, Jean-Paul",
-    "author_place": 3,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Atlas-based segmentation",
-   "Bayesian Decision Theory",
-   "Classification",
-   "Density Estimation",
-   "Density Functions",
-   "Missing and Noisy Features",
-   "Mixture of densities",
-   "Segmentation",
-   "Unsupervised learning and clustering"
-  ],
-  "comments": [],
-  "date_submitted": "2008-07-15T06:39:12Z",
-  "handles": [
-   {
-    "handle": "10380/1450",
-    "handle_url": "http://hdl.handle.net/10380/1450"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 44,
-    "journal_name": "MICCAI 2015 Workshops"
-   },
-   {
-    "journal_id": 33,
-    "journal_name": "MICCAI 2008 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 612,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "styner@cs.unc.edu",
-     "author_firstname": "Martin",
-     "author_id": 28,
-     "author_lastname": "Styner"
+  "publication": {
+    "abstract": "In this paper, we present a new automatic robust algorithm to segment multimodal brain MR images with Multiple Sclerosis (MS) lesions. The method performs tissue classification using a Hidden Markov Chain (HMC) model and detects MS lesions as outliers to the model. For this aim, we use the Trimmed Likelihood Estimator (TLE) to extract outliers. Furthermore, neighborhood information is included using the HMC model and we propose to incorporate a priori information brought by a probabilistic atlas.",
+    "articles": [
+      "bafybeibjidippbfftzhjunjzsuz26azytsfpdrnlrvrah76a7ug3wynnmy",
+      "bafybeibjidippbfftzhjunjzsuz26azytsfpdrnlrvrah76a7ug3wynnmy"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Bricq, Stephanie",
+        "author_place": 1,
+        "persona_email": "bricq@lsiit.u-strasbg.fr",
+        "persona_firstname": "Stephanie",
+        "persona_id": 926,
+        "persona_lastname": "Bricq"
+      },
+      {
+        "author_fullname": "Collet, Christophe",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Armspach, Jean-Paul",
+        "author_place": 3,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Atlas-based segmentation",
+      "Bayesian Decision Theory",
+      "Classification",
+      "Density Estimation",
+      "Density Functions",
+      "Missing and Noisy Features",
+      "Mixture of densities",
+      "Segmentation",
+      "Unsupervised learning and clustering"
+    ],
+    "comments": [],
+    "date_submitted": "2008-07-15T06:39:12Z",
+    "handles": [
+      {
+        "handle": "10380/1450",
+        "handle_url": "http://hdl.handle.net/10380/1450"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<p>The paper employs a hidden markov chain based tissue model and a trimmed likelihood classifier within an EM loop to segment the MS lesions as outliers to the classification. </p><p>It is not clear whether the training datasets were used at all. Were they used for the estimation of the best parameter settings such as the trimming parameter h?&nbsp; </p><p>Nice paper with very good results, but could use an additional revision to improve the writing. Some sentences should be reformulated, as they are somewhat convoluted. </p> <div id=\\\"doc\\\"> </div> ",
-    "date": "07-29-2008",
-    "review_id": 1544
-   },
-   {
-    "author": {
-     "author_email": "simon.warfield@childrens.harvard.edu",
-     "author_firstname": "Simon",
-     "author_id": 514,
-     "author_lastname": "Warfield"
+    "journals": [
+      {
+        "journal_id": 44,
+        "journal_name": "MICCAI 2015 Workshops"
+      },
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 612,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "styner@cs.unc.edu",
+          "author_firstname": "Martin",
+          "author_id": 28,
+          "author_lastname": "Styner"
+        },
+        "content": "<p>The paper employs a hidden markov chain based tissue model and a trimmed likelihood classifier within an EM loop to segment the MS lesions as outliers to the classification. </p><p>It is not clear whether the training datasets were used at all. Were they used for the estimation of the best parameter settings such as the trimming parameter h?&nbsp; </p><p>Nice paper with very good results, but could use an additional revision to improve the writing. Some sentences should be reformulated, as they are somewhat convoluted. </p> <div id=\\\"doc\\\"> </div> ",
+        "date": "07-29-2008",
+        "review_id": 1544
+      },
+      {
+        "author": {
+          "author_email": "simon.warfield@childrens.harvard.edu",
+          "author_firstname": "Simon",
+          "author_id": 514,
+          "author_lastname": "Warfield"
+        },
+        "content": "<p>This paper develops and applies a new approach to segment MRI images of MS patients.</p><p>Particularly interesting contributions are the use of a Hilbert-Peano curve to enable the use of a 1D Markov Chain model, reducing computational complexity compared to a Markov Random Field model, and the use of a trimmed likelihood estimator to reject outliers in the process of estimating a Gaussian mixture model likelihood function.</p><p>The authors note that in addition to the lesion class, CSF in particular, but also other tissue classes, may have outlier voxels.</p><p>Lesion size criteria and an atlas constraint were utilized to reduce misclassifications.</p><p>&nbsp;</p>",
+        "date": "07-25-2008",
+        "review_id": 1528
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "bricq@lsiit.u-strasbg.fr",
+      "author_firstname": "Stephanie",
+      "author_fullname": "Bricq, Stephanie",
+      "author_id": 926,
+      "author_institution": "LSIIT",
+      "author_lastname": "Bricq"
     },
-    "content": "<p>This paper develops and applies a new approach to segment MRI images of MS patients.</p><p>Particularly interesting contributions are the use of a Hilbert-Peano curve to enable the use of a 1D Markov Chain model, reducing computational complexity compared to a Markov Random Field model, and the use of a trimmed likelihood estimator to reject outliers in the process of estimating a Gaussian mixture model likelihood function.</p><p>The authors note that in addition to the lesion class, CSF in particular, but also other tissue classes, may have outlier voxels.</p><p>Lesion size criteria and an atlas constraint were utilized to reduce misclassifications.</p><p>&nbsp;</p>",
-    "date": "07-25-2008",
-    "review_id": 1528
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "bricq@lsiit.u-strasbg.fr",
-   "author_firstname": "Stephanie",
-   "author_fullname": "Bricq, Stephanie",
-   "author_id": 926,
-   "author_institution": "LSIIT",
-   "author_lastname": "Bricq"
-  },
-  "tags": [
-   "Markov models",
-   "outlier detection",
-   "probabilistic atlas"
-  ],
-  "title": "MS Lesion Segmentation based on Hidden Markov Chains"
- }
+    "tags": [
+      "Markov models",
+      "outlier detection",
+      "probabilistic atlas"
+    ],
+    "title": "MS Lesion Segmentation based on Hidden Markov Chains"
+  }
 }

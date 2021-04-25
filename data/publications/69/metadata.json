@@ -1,73 +1,78 @@
 {
- "publication": {
-  "abstract": "An Insight Toolkit (ITK) filter for image segmentation with\r\napplications to brain MRI scans is presented in this paper. Previously, we\r\nshowed how ITK could be used to implement our algorithm. This paper\r\npresents our new ITK filter for Bayesian segmentation along with results\r\non brain MRI scans. Our algorithm is a refinement of the work of Teo,\r\nSaprio, and Wandall. The basic idea is to incorporate prior knowledge\r\ninto the segmentation through Bayes rule. Image noise is removed via an\r\naffine invariant anisotropic smoothing of the posteriors as in Haker et. al.\r\nSpecifically, we present the implementation of our Bayesian segmentation\r\nalgorithm applied to brain MRI scans.",
-  "authors": [
-   {
-    "author_fullname": "Melonakos, John",
-    "author_place": 1,
-    "persona_email": "jmelonak@ece.gatech.edu",
-    "persona_firstname": "John",
-    "persona_id": 37,
-    "persona_lastname": "Melonakos"
-   },
-   {
-    "author_fullname": "Melonakos, John",
-    "author_place": 1,
-    "persona_email": "john@arrayfire.com",
-    "persona_firstname": "John",
-    "persona_id": 11869,
-    "persona_lastname": "Melonakos"
-   },
-   {
-    "author_fullname": "Krishnan, Karthik",
-    "author_place": 2,
-    "persona_email": "karthik.krshnan@gmail.com",
-    "persona_firstname": "Karthik",
-    "persona_id": 132,
-    "persona_lastname": "Krishnan"
-   },
-   {
-    "author_fullname": "Tannenbaum, Allen",
-    "author_place": 3,
-    "persona_id": null
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2006-01-09T16:14:37Z",
-  "handles": [
-   {
-    "handle": "1926/160",
-    "handle_url": "http://hdl.handle.net/1926/160"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 69,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "jmelonak@ece.gatech.edu",
-   "author_firstname": "John",
-   "author_fullname": "Melonakos, John",
-   "author_id": 37,
-   "author_institution": "Georgia Tech",
-   "author_lastname": "Melonakos"
-  },
-  "tags": [
-   "Bayesian",
-   "ITK",
-   "Brains",
-   "Segmentation"
-  ],
-  "title": "An ITK Filter for Bayesian Segmentation: itkBayesianClassifierImageFilter"
- }
+  "publication": {
+    "abstract": "An Insight Toolkit (ITK) filter for image segmentation with\r\napplications to brain MRI scans is presented in this paper. Previously, we\r\nshowed how ITK could be used to implement our algorithm. This paper\r\npresents our new ITK filter for Bayesian segmentation along with results\r\non brain MRI scans. Our algorithm is a refinement of the work of Teo,\r\nSaprio, and Wandall. The basic idea is to incorporate prior knowledge\r\ninto the segmentation through Bayes rule. Image noise is removed via an\r\naffine invariant anisotropic smoothing of the posteriors as in Haker et. al.\r\nSpecifically, we present the implementation of our Bayesian segmentation\r\nalgorithm applied to brain MRI scans.",
+    "articles": [
+      "bafkreiffvdstlwdmu7db2lh47efuxf6pfdm3qvr7qqacrhyme2s46kj3u4",
+      "bafkreiffvdstlwdmu7db2lh47efuxf6pfdm3qvr7qqacrhyme2s46kj3u4",
+      "bafkreiffvdstlwdmu7db2lh47efuxf6pfdm3qvr7qqacrhyme2s46kj3u4"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Melonakos, John",
+        "author_place": 1,
+        "persona_email": "jmelonak@ece.gatech.edu",
+        "persona_firstname": "John",
+        "persona_id": 37,
+        "persona_lastname": "Melonakos"
+      },
+      {
+        "author_fullname": "Melonakos, John",
+        "author_place": 1,
+        "persona_email": "john@arrayfire.com",
+        "persona_firstname": "John",
+        "persona_id": 11869,
+        "persona_lastname": "Melonakos"
+      },
+      {
+        "author_fullname": "Krishnan, Karthik",
+        "author_place": 2,
+        "persona_email": "karthik.krshnan@gmail.com",
+        "persona_firstname": "Karthik",
+        "persona_id": 132,
+        "persona_lastname": "Krishnan"
+      },
+      {
+        "author_fullname": "Tannenbaum, Allen",
+        "author_place": 3,
+        "persona_id": null
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2006-01-09T16:14:37Z",
+    "handles": [
+      {
+        "handle": "1926/160",
+        "handle_url": "http://hdl.handle.net/1926/160"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 69,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "jmelonak@ece.gatech.edu",
+      "author_firstname": "John",
+      "author_fullname": "Melonakos, John",
+      "author_id": 37,
+      "author_institution": "Georgia Tech",
+      "author_lastname": "Melonakos"
+    },
+    "tags": [
+      "Bayesian",
+      "ITK",
+      "Brains",
+      "Segmentation"
+    ],
+    "title": "An ITK Filter for Bayesian Segmentation: itkBayesianClassifierImageFilter"
+  }
 }

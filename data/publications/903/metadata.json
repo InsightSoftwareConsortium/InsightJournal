@@ -1,69 +1,72 @@
 {
- "publication": {
-  "abstract": " A fully automatic brain segmentation method is presented. First the skull is stripped using a model-based level set on T1-weighted inversion recovery images, then the brain ventricles and basal ganglia are segmented using the same method on T1-weighted images. The central white matter is segmented using a regular level set method but with high curvature regulation. To segment the cortical gray matter, a skeleton-based model is created by extracting the mid-surface of the gray matter from a preliminary segmentation using a threshold-based level set. An implicit model is then built by defining the thickness of the gray matter to be 2.7 mm. This model is incorporated into the level set framework and used to guide a second round more precise segmentation. Preliminary experiments show that the proposed method can provide relatively accurate results compared with the segmentation done by human observers. The processing time is considerably shorter than most conventional automatic brain segmentation methods. ",
-  "authors": [
-   {
-    "author_fullname": "Wang, Chunliang",
-    "author_place": 2,
-    "persona_email": "chunliang.wang@liu.se",
-    "persona_firstname": "Chunliang",
-    "persona_id": 8762,
-    "persona_lastname": "Wang"
-   },
-   {
-    "author_fullname": "Wang, Chunliang",
-    "author_place": 2,
-    "persona_email": "1013812915@qq.com",
-    "persona_firstname": "Chun",
-    "persona_id": 11811,
-    "persona_lastname": "Wang"
-   },
-   {
-    "author_fullname": "Smedby, \u00d6rjan",
-    "author_place": 3,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Level sets",
-   "Segmentation",
-   "Statistical shape models"
-  ],
-  "comments": [],
-  "date_submitted": "2013-10-21 17:14:16",
-  "handles": [
-   {
-    "handle": "10380/3439",
-    "handle_url": "http://hdl.handle.net/10380/3439"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 41,
-    "journal_name": "MICCAI 2013 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 903,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "chunliang.wang@liu.se",
-   "author_firstname": "Chunliang",
-   "author_fullname": "Wang, Chunliang",
-   "author_id": 8762,
-   "author_institution": "Link\u00f6ping University, Link\u00f6ping, Sweden",
-   "author_lastname": "Wang"
-  },
-  "tags": [
-   "Level set",
-   "Brain Segmentation",
-   "coherent propagation",
-   "Skeleton Based Model"
-  ],
-  "title": "Fully automatic brain segmentation using model-guided level sets and skeleton-based models"
- }
+  "publication": {
+    "abstract": " A fully automatic brain segmentation method is presented. First the skull is stripped using a model-based level set on T1-weighted inversion recovery images, then the brain ventricles and basal ganglia are segmented using the same method on T1-weighted images. The central white matter is segmented using a regular level set method but with high curvature regulation. To segment the cortical gray matter, a skeleton-based model is created by extracting the mid-surface of the gray matter from a preliminary segmentation using a threshold-based level set. An implicit model is then built by defining the thickness of the gray matter to be 2.7 mm. This model is incorporated into the level set framework and used to guide a second round more precise segmentation. Preliminary experiments show that the proposed method can provide relatively accurate results compared with the segmentation done by human observers. The processing time is considerably shorter than most conventional automatic brain segmentation methods. ",
+    "articles": [
+      "bafybeie7rurjmvlkh6mwkey2yxu2iekqr2l5xr46p3e4vutxfq5ixsznau"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Wang, Chunliang",
+        "author_place": 2,
+        "persona_email": "chunliang.wang@liu.se",
+        "persona_firstname": "Chunliang",
+        "persona_id": 8762,
+        "persona_lastname": "Wang"
+      },
+      {
+        "author_fullname": "Wang, Chunliang",
+        "author_place": 2,
+        "persona_email": "1013812915@qq.com",
+        "persona_firstname": "Chun",
+        "persona_id": 11811,
+        "persona_lastname": "Wang"
+      },
+      {
+        "author_fullname": "Smedby, \u00d6rjan",
+        "author_place": 3,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Level sets",
+      "Segmentation",
+      "Statistical shape models"
+    ],
+    "comments": [],
+    "date_submitted": "2013-10-21 17:14:16",
+    "handles": [
+      {
+        "handle": "10380/3439",
+        "handle_url": "http://hdl.handle.net/10380/3439"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 41,
+        "journal_name": "MICCAI 2013 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 903,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "chunliang.wang@liu.se",
+      "author_firstname": "Chunliang",
+      "author_fullname": "Wang, Chunliang",
+      "author_id": 8762,
+      "author_institution": "Link\u00f6ping University, Link\u00f6ping, Sweden",
+      "author_lastname": "Wang"
+    },
+    "tags": [
+      "Level set",
+      "Brain Segmentation",
+      "coherent propagation",
+      "Skeleton Based Model"
+    ],
+    "title": "Fully automatic brain segmentation using model-guided level sets and skeleton-based models"
+  }
 }

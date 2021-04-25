@@ -1,65 +1,70 @@
 {
- "publication": {
-  "abstract": "This document describes the workflow for unwarping echo planar MR images (EPI), in particular diffusion-weighted images, using an acquisition method with reversed phase encoding and the tools of the Computational Morphometry Toolkit (CMTK). This technique requires an additional acquisition (additional b=0 image for diffusion imaging) with reversed phase encoding direction, but no field map. Simple 6-direction diffusion data are provided with this article for demonstration.",
-  "authors": [
-   {
-    "author_fullname": "Rohlfing, Torsten",
-    "author_place": 1,
-    "persona_email": "torsten@synapse.sri.com",
-    "persona_firstname": "Torsten",
-    "persona_id": 168,
-    "persona_lastname": "Rohlfing"
-   }
-  ],
-  "categories": [
-   "Deformable registration",
-   "Diffusion Tensor Imaging",
-   "Registration"
-  ],
-  "comments": [
-   {
-    "content": "Please provide a reference to the actual publication and the source code.",
-    "date": "2014-03-19T05:50:11",
-    "persona_email": "sven.prevrhal@philips.com",
-    "persona_firstname": "Sven",
-    "persona_id": 9007,
-    "persona_lastname": "Prevrhal"
-   }
-  ],
-  "date_submitted": "2012-10-01 18:22:11",
-  "handles": [
-   {
-    "handle": "10380/3384",
-    "handle_url": "http://hdl.handle.net/10380/3384"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 875,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "torsten@synapse.sri.com",
-   "author_firstname": "Torsten",
-   "author_fullname": "Rohlfing, Torsten",
-   "author_id": 168,
-   "author_institution": "SRI International",
-   "author_lastname": "Rohlfing"
-  },
-  "tags": [
-   "distortion correction",
-   "diffusion imaging",
-   "pe polar",
-   "echo planar imaging"
-  ],
-  "title": "Unwarping Echo Planar Images Using CMTK"
- }
+  "publication": {
+    "abstract": "This document describes the workflow for unwarping echo planar MR images (EPI), in particular diffusion-weighted images, using an acquisition method with reversed phase encoding and the tools of the Computational Morphometry Toolkit (CMTK). This technique requires an additional acquisition (additional b=0 image for diffusion imaging) with reversed phase encoding direction, but no field map. Simple 6-direction diffusion data are provided with this article for demonstration.",
+    "articles": [
+      "bafybeic2pcjhpwjxna6p6ly2vycp5puobpwmyk36nzttctoxrv6unghzd4",
+      "bafybeiebpdqdvr5bdbjzndfjrpnnbcaq2zbc3wjopfj3io5yduupegswmu",
+      "bafybeih7ibjwqdjx2j3maorjv7w6fx7nurpvkh6pe73rahgt6lzyfugrry"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Rohlfing, Torsten",
+        "author_place": 1,
+        "persona_email": "torsten@synapse.sri.com",
+        "persona_firstname": "Torsten",
+        "persona_id": 168,
+        "persona_lastname": "Rohlfing"
+      }
+    ],
+    "categories": [
+      "Deformable registration",
+      "Diffusion Tensor Imaging",
+      "Registration"
+    ],
+    "comments": [
+      {
+        "content": "Please provide a reference to the actual publication and the source code.",
+        "date": "2014-03-19T05:50:11",
+        "persona_email": "sven.prevrhal@philips.com",
+        "persona_firstname": "Sven",
+        "persona_id": 9007,
+        "persona_lastname": "Prevrhal"
+      }
+    ],
+    "date_submitted": "2012-10-01 18:22:11",
+    "handles": [
+      {
+        "handle": "10380/3384",
+        "handle_url": "http://hdl.handle.net/10380/3384"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 875,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "torsten@synapse.sri.com",
+      "author_firstname": "Torsten",
+      "author_fullname": "Rohlfing, Torsten",
+      "author_id": 168,
+      "author_institution": "SRI International",
+      "author_lastname": "Rohlfing"
+    },
+    "tags": [
+      "distortion correction",
+      "diffusion imaging",
+      "pe polar",
+      "echo planar imaging"
+    ],
+    "title": "Unwarping Echo Planar Images Using CMTK"
+  }
 }

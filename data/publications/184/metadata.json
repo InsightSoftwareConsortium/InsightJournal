@@ -1,62 +1,66 @@
 {
- "publication": {
-  "abstract": "This technical report describes how to use Insight Toolkit to perform elementary ventricle segmentation on data from the Designed Database of MR Brain Images of Healthy Volunteers hosted at MIDAS.",
-  "authors": [
-   {
-    "author_fullname": "Marion, Patrick",
-    "author_place": 1,
-    "persona_email": "marioj@rpi.edu",
-    "persona_firstname": "Pat",
-    "persona_id": 701,
-    "persona_lastname": "Marion"
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2007-10-18T04:29:29Z",
-  "handles": [
-   {
-    "handle": "1926/1297",
-    "handle_url": "http://hdl.handle.net/1926/1297"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 184,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "stephen.aylward@kitware.com",
-     "author_firstname": "Stephen",
-     "author_id": 1,
-     "author_lastname": "Aylward"
+  "publication": {
+    "abstract": "This technical report describes how to use Insight Toolkit to perform elementary ventricle segmentation on data from the Designed Database of MR Brain Images of Healthy Volunteers hosted at MIDAS.",
+    "articles": [
+      "bafkreiawqrffbtelzcth2qy6l7kygn7fv3lpazerwzrnx7ekchwfod3r6u",
+      "bafkreib6ciuagvabz4j5xjbi5vp35u7aze7a55uuvehagog5bje3msmqfu"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Marion, Patrick",
+        "author_place": 1,
+        "persona_email": "marioj@rpi.edu",
+        "persona_firstname": "Pat",
+        "persona_id": 701,
+        "persona_lastname": "Marion"
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2007-10-18T04:29:29Z",
+    "handles": [
+      {
+        "handle": "1926/1297",
+        "handle_url": "http://hdl.handle.net/1926/1297"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<p>When using open-source data, please include any citations requested by the person who donated the data, as well as the link to where the data can be found</p><p>The details on the data used are published on MIDAS:</p><p>http://insight-journal.org/midas/view_community.php?communityid=21</p><p>The data was donated by Dr. Bullitt at UNC and she has provided a reference.</p>",
-    "date": "10-18-2007",
-    "review_id": 598
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "marioj@rpi.edu",
-   "author_firstname": "Pat",
-   "author_fullname": "Marion, Pat",
-   "author_id": 701,
-   "author_institution": "RPI",
-   "author_lastname": "Marion"
-  },
-  "tags": [
-   "ventricle",
-   "segmentation"
-  ],
-  "title": "Reproducible Ventricle Segmentation Using Insight Toolkit"
- }
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 184,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "stephen.aylward@kitware.com",
+          "author_firstname": "Stephen",
+          "author_id": 1,
+          "author_lastname": "Aylward"
+        },
+        "content": "<p>When using open-source data, please include any citations requested by the person who donated the data, as well as the link to where the data can be found</p><p>The details on the data used are published on MIDAS:</p><p>http://insight-journal.org/midas/view_community.php?communityid=21</p><p>The data was donated by Dr. Bullitt at UNC and she has provided a reference.</p>",
+        "date": "10-18-2007",
+        "review_id": 598
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "marioj@rpi.edu",
+      "author_firstname": "Pat",
+      "author_fullname": "Marion, Pat",
+      "author_id": 701,
+      "author_institution": "RPI",
+      "author_lastname": "Marion"
+    },
+    "tags": [
+      "ventricle",
+      "segmentation"
+    ],
+    "title": "Reproducible Ventricle Segmentation Using Insight Toolkit"
+  }
 }

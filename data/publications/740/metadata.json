@@ -1,64 +1,69 @@
 {
- "publication": {
-  "abstract": "This article describes an ITK implementation of the \"cuberille\" method for poloygonization of implicit surfaces. The method operates by dividing the surface into a number of small cubes called cuberilles. Each cuberille is centered at a pixel lying on the iso-surface and then quadrilaterals are generated for each face. The original approach is improved by projecting the vertices of each cuberille onto the implicit surface, smoothing the typical block-like resultant mesh. Source code and examples are provided to demonstrate the method.",
-  "authors": [
-   {
-    "author_fullname": "Mueller, Dan",
-    "author_place": 1,
-    "persona_email": "dan.muel@gmail.com",
-    "persona_firstname": "Dan",
-    "persona_id": 286,
-    "persona_lastname": "Mueller"
-   }
-  ],
-  "categories": [
-   "Mesh",
-   "PointSet"
-  ],
-  "comments": [
-   {
-    "content": "Since ITK 4.9.0 this module is available in the ITK source tree as a Remote module. To enable it set:\r\n\r\nModule_Cuberille:BOOL=ON\r\n\r\nin ITK's CMake build configuration.",
-    "date": "2015-11-29T21:36:02",
-    "persona_email": "dan.muel@gmail.com",
-    "persona_firstname": "Dan",
-    "persona_id": 286,
-    "persona_lastname": "Mueller"
-   }
-  ],
-  "date_submitted": "2010-07-22 11:45:00",
-  "handles": [
-   {
-    "handle": "10380/3186",
-    "handle_url": "http://hdl.handle.net/10380/3186"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 740,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "dan.muel@gmail.com",
-   "author_firstname": "Dan",
-   "author_fullname": "Mueller, Dan",
-   "author_id": 286,
-   "author_institution": "Philips Healthcare",
-   "author_lastname": "Mueller"
-  },
-  "tags": [
-   "mesh",
-   "cuberille",
-   "implicit surface",
-   "polygonization"
-  ],
-  "title": "Cuberille Implicit Surface Polygonization for ITK"
- }
+  "publication": {
+    "abstract": "This article describes an ITK implementation of the \"cuberille\" method for poloygonization of implicit surfaces. The method operates by dividing the surface into a number of small cubes called cuberilles. Each cuberille is centered at a pixel lying on the iso-surface and then quadrilaterals are generated for each face. The original approach is improved by projecting the vertices of each cuberille onto the implicit surface, smoothing the typical block-like resultant mesh. Source code and examples are provided to demonstrate the method.",
+    "articles": [
+      "bafybeia7fns4cmpdt4zbftexud4rywrlwrhzlc7caueenm76eeh6wawfcy",
+      "bafybeia7fns4cmpdt4zbftexud4rywrlwrhzlc7caueenm76eeh6wawfcy",
+      "bafybeia7fns4cmpdt4zbftexud4rywrlwrhzlc7caueenm76eeh6wawfcy"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Mueller, Dan",
+        "author_place": 1,
+        "persona_email": "dan.muel@gmail.com",
+        "persona_firstname": "Dan",
+        "persona_id": 286,
+        "persona_lastname": "Mueller"
+      }
+    ],
+    "categories": [
+      "Mesh",
+      "PointSet"
+    ],
+    "comments": [
+      {
+        "content": "Since ITK 4.9.0 this module is available in the ITK source tree as a Remote module. To enable it set:\r\n\r\nModule_Cuberille:BOOL=ON\r\n\r\nin ITK's CMake build configuration.",
+        "date": "2015-11-29T21:36:02",
+        "persona_email": "dan.muel@gmail.com",
+        "persona_firstname": "Dan",
+        "persona_id": 286,
+        "persona_lastname": "Mueller"
+      }
+    ],
+    "date_submitted": "2010-07-22 11:45:00",
+    "handles": [
+      {
+        "handle": "10380/3186",
+        "handle_url": "http://hdl.handle.net/10380/3186"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 740,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "dan.muel@gmail.com",
+      "author_firstname": "Dan",
+      "author_fullname": "Mueller, Dan",
+      "author_id": 286,
+      "author_institution": "Philips Healthcare",
+      "author_lastname": "Mueller"
+    },
+    "tags": [
+      "mesh",
+      "cuberille",
+      "implicit surface",
+      "polygonization"
+    ],
+    "title": "Cuberille Implicit Surface Polygonization for ITK"
+  }
 }

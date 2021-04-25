@@ -1,57 +1,62 @@
 {
- "publication": {
-  "abstract": "Morphological erosion and dilation filters employ a structuring function, with flat structuring functions being the most common example. This article will use the term ``parabolic\\'\\', but much of the literature uses ``quadratic\\'\\' structuring functions are less well known but theoretically very important and practically very useful. This paper briefly introduces morphology using parabolic structuring functions, describes the ITK classes used to implement them and includes a number of sample applications.",
-  "authors": [
-   {
-    "author_fullname": "Beare, Richard",
-    "author_place": 1,
-    "persona_email": "richard.beare@ieee.org",
-    "persona_firstname": "Richard",
-    "persona_id": 197,
-    "persona_lastname": "Beare"
-   }
-  ],
-  "categories": [
-   "Filtering",
-   "Geometric transforms",
-   "Mathematical Morphology"
-  ],
-  "comments": [],
-  "date_submitted": "2008-12-16 01:20:40",
-  "handles": [
-   {
-    "handle": "1926/1370",
-    "handle_url": "http://hdl.handle.net/1926/1370"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 228,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "richard.beare@ieee.org",
-   "author_firstname": "Richard",
-   "author_fullname": "Beare, Richard",
-   "author_id": 197,
-   "author_institution": "Monash University",
-   "author_lastname": "Beare"
-  },
-  "tags": [
-   "sharpening",
-   "distance transforms",
-   "parabolic structuring functions",
-   "mathematical morphology",
-   "quadratic structuring functions"
-  ],
-  "title": "Morphology with parabolic structuring elements"
- }
+  "publication": {
+    "abstract": "Morphological erosion and dilation filters employ a structuring function, with flat structuring functions being the most common example. This article will use the term ``parabolic\\'\\', but much of the literature uses ``quadratic\\'\\' structuring functions are less well known but theoretically very important and practically very useful. This paper briefly introduces morphology using parabolic structuring functions, describes the ITK classes used to implement them and includes a number of sample applications.",
+    "articles": [
+      null,
+      "bafkreigmpzz6s2jdwp6ewfvosnq262nixnhtreptlv6bztbdnppnzi465m",
+      "bafkreidwvviy3w5fkyzylimfjxkz3mja4ulthzlzzdvzcspmihpebt6a2q"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Beare, Richard",
+        "author_place": 1,
+        "persona_email": "richard.beare@ieee.org",
+        "persona_firstname": "Richard",
+        "persona_id": 197,
+        "persona_lastname": "Beare"
+      }
+    ],
+    "categories": [
+      "Filtering",
+      "Geometric transforms",
+      "Mathematical Morphology"
+    ],
+    "comments": [],
+    "date_submitted": "2008-12-16 01:20:40",
+    "handles": [
+      {
+        "handle": "1926/1370",
+        "handle_url": "http://hdl.handle.net/1926/1370"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 228,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "richard.beare@ieee.org",
+      "author_firstname": "Richard",
+      "author_fullname": "Beare, Richard",
+      "author_id": 197,
+      "author_institution": "Monash University",
+      "author_lastname": "Beare"
+    },
+    "tags": [
+      "sharpening",
+      "distance transforms",
+      "parabolic structuring functions",
+      "mathematical morphology",
+      "quadratic structuring functions"
+    ],
+    "title": "Morphology with parabolic structuring elements"
+  }
 }

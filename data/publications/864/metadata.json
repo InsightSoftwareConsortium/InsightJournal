@@ -1,95 +1,100 @@
 {
- "publication": {
-  "abstract": "We present preliminary results of our work to develop an augmented display for improved visualization\nof the prostate and surrounding critical anatomy for robot-assisted prostate surgery. Prostate\ncancer is the second leading cause of cancer-related deaths in men in the United States. Early stage\nprostate cancer is potentially cured by surgery, which can be performed in a traditional, open fashion\nor laparoscopically. Recently, robot-assisted laparoscopic radical prostatectomy (RALP) using the da\nVinci surgical robot system has gained wide acceptance. Robotic systems improve surgeon dexterity\nby incorporating additional degrees of freedom at the end of the tools and offer increased precision\nand stability of movements. However, since the procedure is performed through small incisions, this\ntechnique reduces free sight and tactile feedback compared to open surgery. Surgeons also lose the ability\nto palpate the prostate to locate tumors and other critical structures such as neurovascular bundles\n(NVB). Surgeons must rely on visual cues from the video monitor and mentally correlate them with\nthe underlying anatomy, often using information from medical images obtained prior to the procedure.\nFurther complications arise from local deformations in the prostate tissue that occurs throughout the\nprostatectomy procedure due to the interaction between the surgical instruments and the prostate tissue.\nSubsequently, the anatomical model generated pre-operatively will need to be updated during the procedure\nto reflect this deformation. To address the clinical need for more accurate and reliable guidance,\nwe are developing a navigation system that provides surgeons with an augmented reality (AR) view that\nfuses a pre-operative MRI model of the prostate, tumor and surrounding tissues with the da Vinci system\nlaparoscopic video, while compensating for non-rigid prostate tissue deformation using intra-operative\ntransrectal ultrasound (TRUS) imaging. The work focuses on three components: (i) Developing and\nevaluating algorithm for registration of MRI and ultrasound images (2) Building and testing an augmented\nreality, with 3D Slicer, Surgical Assistant Workstation (SAW) and the da Vinci surgical robotic\nsystem. (3) Evaluate the system using a multi-modality prostate phantom.",
-  "authors": [
-   {
-    "author_fullname": "Enquobahrie, Andinet",
-    "author_place": 1,
-    "persona_email": "andinet.enqu@kitware.com",
-    "persona_firstname": "Andinet",
-    "persona_id": 68,
-    "persona_lastname": "Enquobahrie"
-   },
-   {
-    "author_fullname": "Kelly, Martin",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Deguet, Anton",
-    "author_place": 3,
-    "persona_email": "anton.deguet@jhu.edu",
-    "persona_firstname": "Anton",
-    "persona_id": 635,
-    "persona_lastname": "Deguet"
-   },
-   {
-    "author_fullname": "Shivaprabhu, Vikas",
-    "author_place": 4,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Boctor, Emad",
-    "author_place": 5,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Stringham, Jerry",
-    "author_place": 6,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Lee, David",
-    "author_place": 7,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Kazanzides, Peter",
-    "author_place": 8,
-    "persona_email": "pkaz@cs.jhu.edu",
-    "persona_firstname": "Peter",
-    "persona_id": 63,
-    "persona_lastname": "Kazanzides"
-   }
-  ],
-  "categories": [
-   "Deformable registration",
-   "Registration metrics"
-  ],
-  "comments": [],
-  "date_submitted": "2012-09-06 13:35:09",
-  "handles": [
-   {
-    "handle": "10380/3362",
-    "handle_url": "http://hdl.handle.net/10380/3362"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 40,
-    "journal_name": "MICCAI 2012 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 864,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "andinet.enqu@kitware.com",
-   "author_firstname": "Andinet",
-   "author_fullname": "Enquobahrie, Andinet",
-   "author_id": 68,
-   "author_institution": "Kitware, Inc.",
-   "author_lastname": "Enquobahrie"
-  },
-  "tags": [
-   "Robotics",
-   "Augmented reality",
-   "registration"
-  ],
-  "title": "Robot assisted prostate surgery using augmented reality with deformable models"
- }
+  "publication": {
+    "abstract": "We present preliminary results of our work to develop an augmented display for improved visualization\nof the prostate and surrounding critical anatomy for robot-assisted prostate surgery. Prostate\ncancer is the second leading cause of cancer-related deaths in men in the United States. Early stage\nprostate cancer is potentially cured by surgery, which can be performed in a traditional, open fashion\nor laparoscopically. Recently, robot-assisted laparoscopic radical prostatectomy (RALP) using the da\nVinci surgical robot system has gained wide acceptance. Robotic systems improve surgeon dexterity\nby incorporating additional degrees of freedom at the end of the tools and offer increased precision\nand stability of movements. However, since the procedure is performed through small incisions, this\ntechnique reduces free sight and tactile feedback compared to open surgery. Surgeons also lose the ability\nto palpate the prostate to locate tumors and other critical structures such as neurovascular bundles\n(NVB). Surgeons must rely on visual cues from the video monitor and mentally correlate them with\nthe underlying anatomy, often using information from medical images obtained prior to the procedure.\nFurther complications arise from local deformations in the prostate tissue that occurs throughout the\nprostatectomy procedure due to the interaction between the surgical instruments and the prostate tissue.\nSubsequently, the anatomical model generated pre-operatively will need to be updated during the procedure\nto reflect this deformation. To address the clinical need for more accurate and reliable guidance,\nwe are developing a navigation system that provides surgeons with an augmented reality (AR) view that\nfuses a pre-operative MRI model of the prostate, tumor and surrounding tissues with the da Vinci system\nlaparoscopic video, while compensating for non-rigid prostate tissue deformation using intra-operative\ntransrectal ultrasound (TRUS) imaging. The work focuses on three components: (i) Developing and\nevaluating algorithm for registration of MRI and ultrasound images (2) Building and testing an augmented\nreality, with 3D Slicer, Surgical Assistant Workstation (SAW) and the da Vinci surgical robotic\nsystem. (3) Evaluate the system using a multi-modality prostate phantom.",
+    "articles": [
+      "bafkreib4cxfcdefbjkw6ckd2pn4x2fvqekvr6ld2kzwcudflvygihzwm2u",
+      "bafybeidtk3mevvmqoaycv2rxs6dhh3grg7yjdqscbpcrijz3e726vmhnky",
+      "bafybeicww5nwwyejcpwqguoktyr3xiiqiuhtixnlhyrp272u2k6apmkojy"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Enquobahrie, Andinet",
+        "author_place": 1,
+        "persona_email": "andinet.enqu@kitware.com",
+        "persona_firstname": "Andinet",
+        "persona_id": 68,
+        "persona_lastname": "Enquobahrie"
+      },
+      {
+        "author_fullname": "Kelly, Martin",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Deguet, Anton",
+        "author_place": 3,
+        "persona_email": "anton.deguet@jhu.edu",
+        "persona_firstname": "Anton",
+        "persona_id": 635,
+        "persona_lastname": "Deguet"
+      },
+      {
+        "author_fullname": "Shivaprabhu, Vikas",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Boctor, Emad",
+        "author_place": 5,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Stringham, Jerry",
+        "author_place": 6,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Lee, David",
+        "author_place": 7,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Kazanzides, Peter",
+        "author_place": 8,
+        "persona_email": "pkaz@cs.jhu.edu",
+        "persona_firstname": "Peter",
+        "persona_id": 63,
+        "persona_lastname": "Kazanzides"
+      }
+    ],
+    "categories": [
+      "Deformable registration",
+      "Registration metrics"
+    ],
+    "comments": [],
+    "date_submitted": "2012-09-06 13:35:09",
+    "handles": [
+      {
+        "handle": "10380/3362",
+        "handle_url": "http://hdl.handle.net/10380/3362"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 40,
+        "journal_name": "MICCAI 2012 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 864,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "andinet.enqu@kitware.com",
+      "author_firstname": "Andinet",
+      "author_fullname": "Enquobahrie, Andinet",
+      "author_id": 68,
+      "author_institution": "Kitware, Inc.",
+      "author_lastname": "Enquobahrie"
+    },
+    "tags": [
+      "Robotics",
+      "Augmented reality",
+      "registration"
+    ],
+    "title": "Robot assisted prostate surgery using augmented reality with deformable models"
+  }
 }

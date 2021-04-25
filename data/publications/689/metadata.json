@@ -1,57 +1,60 @@
 {
- "publication": {
-  "abstract": "In this paper, color image segmentation based on fuzzy logic has been studied. Anefficient Fuzzy logic inference engine based on magnetic fields has been implemented in this project so as to intelligently extract color information in the given image and classify it into the predominant color pyramid with the help of artificial color magnets. This also forms the basis for the priority based edge detection. Sobel operator is used in this project which is intelligently fused with the result of the above mentioned method to enhance the output so as to obtain a priority based enhanced edge detection output. \nExperimental results have demonstrated the effectiveness and superiority of the proposed method after extensive set of color images was tested.\n",
-  "authors": [
-   {
-    "author_fullname": "George, Christy",
-    "author_place": 1,
-    "persona_email": "cgeorge.personal@gmail.com",
-    "persona_firstname": "Christy",
-    "persona_id": 1073,
-    "persona_lastname": "George"
-   }
-  ],
-  "categories": [
-   "Images",
-   "Segmentation"
-  ],
-  "comments": [],
-  "date_submitted": "2009-08-06 10:54:50",
-  "handles": [
-   {
-    "handle": "10380/3118",
-    "handle_url": "http://hdl.handle.net/10380/3118"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 31,
-    "journal_name": "The MIDAS Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 689,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "cgeorge.personal@gmail.com",
-   "author_firstname": "Christy",
-   "author_fullname": "George, Christy",
-   "author_id": 1073,
-   "author_institution": "st. vincent pallotti,nagpur",
-   "author_lastname": "George"
-  },
-  "tags": [
-   "fuzzy",
-   "color magnets",
-   "magnetic field, sensitivity, color pyramid",
-   "Sobel, priority, edge detection",
-   "predominant color",
-   "image segmentation"
-  ],
-  "title": "Fuzzy Magnetic Color Image Segmentation and Advanced Edge Detection"
- }
+  "publication": {
+    "abstract": "In this paper, color image segmentation based on fuzzy logic has been studied. Anefficient Fuzzy logic inference engine based on magnetic fields has been implemented in this project so as to intelligently extract color information in the given image and classify it into the predominant color pyramid with the help of artificial color magnets. This also forms the basis for the priority based edge detection. Sobel operator is used in this project which is intelligently fused with the result of the above mentioned method to enhance the output so as to obtain a priority based enhanced edge detection output. \nExperimental results have demonstrated the effectiveness and superiority of the proposed method after extensive set of color images was tested.\n",
+    "articles": [
+      "bafybeicer2ci5novn26kmaf4oxbhcvtpnnsmg6dmpxgcfmlapzjepact5y"
+    ],
+    "authors": [
+      {
+        "author_fullname": "George, Christy",
+        "author_place": 1,
+        "persona_email": "cgeorge.personal@gmail.com",
+        "persona_firstname": "Christy",
+        "persona_id": 1073,
+        "persona_lastname": "George"
+      }
+    ],
+    "categories": [
+      "Images",
+      "Segmentation"
+    ],
+    "comments": [],
+    "date_submitted": "2009-08-06 10:54:50",
+    "handles": [
+      {
+        "handle": "10380/3118",
+        "handle_url": "http://hdl.handle.net/10380/3118"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 31,
+        "journal_name": "The MIDAS Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 689,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "cgeorge.personal@gmail.com",
+      "author_firstname": "Christy",
+      "author_fullname": "George, Christy",
+      "author_id": 1073,
+      "author_institution": "st. vincent pallotti,nagpur",
+      "author_lastname": "George"
+    },
+    "tags": [
+      "fuzzy",
+      "color magnets",
+      "magnetic field, sensitivity, color pyramid",
+      "Sobel, priority, edge detection",
+      "predominant color",
+      "image segmentation"
+    ],
+    "title": "Fuzzy Magnetic Color Image Segmentation and Advanced Edge Detection"
+  }
 }

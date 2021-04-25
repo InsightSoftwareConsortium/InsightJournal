@@ -1,66 +1,69 @@
 {
- "publication": {
-  "abstract": "Connected component is a well known and very useful notion in binary case. As often in mathematical morphology, this notion can be extended to the grayscale case, and allow to perform lot of the useful transforms based on binary connected components in the grayscale images. This article describe the component tree, a data structure able to ef?ciently represent the grayscale connected components in an grayscale image, as well as the algorithm used to build the component tree. All the source codes are provided, as well as a full set of tests and several usage examples of the new classes.",
-  "authors": [
-   {
-    "author_fullname": "Lehmann, Gaetan",
-    "author_place": 1,
-    "persona_email": "gaetan.lehmann@gmail.com",
-    "persona_firstname": "Gaetan",
-    "persona_id": 328,
-    "persona_lastname": "Lehmann"
-   }
-  ],
-  "categories": [
-   "Code memory optimization",
-   "Code speed optimization",
-   "Data Representation",
-   "Extreme Programming",
-   "Filtering",
-   "Generic Programming",
-   "Image",
-   "Images",
-   "Mathematical Morphology",
-   "Objects"
-  ],
-  "comments": [],
-  "date_submitted": "2007-12-31T21:35:54Z",
-  "handles": [
-   {
-    "handle": "1926/1328",
-    "handle_url": "http://hdl.handle.net/1926/1328"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 210,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "gaetan.lehmann@gmail.com",
-   "author_firstname": "Gaetan",
-   "author_fullname": "Lehmann, Gaetan",
-   "author_id": 328,
-   "author_institution": "INRA",
-   "author_lastname": "Lehmann"
-  },
-  "tags": [
-   "connectivity",
-   "component tree",
-   "max-tree",
-   "min-tree",
-   "mathematical morphology",
-   "connected component",
-   "attribute"
-  ],
-  "title": "Component tree: an efficient representation of grayscale connected components"
- }
+  "publication": {
+    "abstract": "Connected component is a well known and very useful notion in binary case. As often in mathematical morphology, this notion can be extended to the grayscale case, and allow to perform lot of the useful transforms based on binary connected components in the grayscale images. This article describe the component tree, a data structure able to ef?ciently represent the grayscale connected components in an grayscale image, as well as the algorithm used to build the component tree. All the source codes are provided, as well as a full set of tests and several usage examples of the new classes.",
+    "articles": [
+      "bafkreicep4gbx42pextzihhivbytpgk6u3u4wjdxz3dk5tfyhvozefueuu"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Lehmann, Gaetan",
+        "author_place": 1,
+        "persona_email": "gaetan.lehmann@gmail.com",
+        "persona_firstname": "Gaetan",
+        "persona_id": 328,
+        "persona_lastname": "Lehmann"
+      }
+    ],
+    "categories": [
+      "Code memory optimization",
+      "Code speed optimization",
+      "Data Representation",
+      "Extreme Programming",
+      "Filtering",
+      "Generic Programming",
+      "Image",
+      "Images",
+      "Mathematical Morphology",
+      "Objects"
+    ],
+    "comments": [],
+    "date_submitted": "2007-12-31T21:35:54Z",
+    "handles": [
+      {
+        "handle": "1926/1328",
+        "handle_url": "http://hdl.handle.net/1926/1328"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 210,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "gaetan.lehmann@gmail.com",
+      "author_firstname": "Gaetan",
+      "author_fullname": "Lehmann, Gaetan",
+      "author_id": 328,
+      "author_institution": "INRA",
+      "author_lastname": "Lehmann"
+    },
+    "tags": [
+      "connectivity",
+      "component tree",
+      "max-tree",
+      "min-tree",
+      "mathematical morphology",
+      "connected component",
+      "attribute"
+    ],
+    "title": "Component tree: an efficient representation of grayscale connected components"
+  }
 }

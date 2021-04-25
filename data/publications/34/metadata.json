@@ -1,113 +1,116 @@
 {
- "publication": {
-  "abstract": "This paper investigates an Open Framework for Medical Simulation (named SOFA for Simulation Open Framework Architecture), and proposes ideas for structuring and supporting its expansion. Lately, through a joint effort between the Sim Group at CIMIT and the Alcove group at INRIA, we have investigated the foundations for a more extensive, flexible, and comprehensive framework. In addition, five internationally renowned research groups have contributed to this initiative by converting their algorithms into compatible modules. Although still in its very early developmental phase, the current project illustrates some of the key concepts we believe will enable collaboration and interoperability in Medical Simulation. The main objective of SOFA research is to foster collaboration among research groups. It is our hope that SOFA will simplify the development cycles, reduce production costs, and provide a means to share components through a common interface.",
-  "authors": [
-   {
-    "author_fullname": "Cotin, Stephane",
-    "author_place": 1,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Neumann, Paul",
-    "author_place": 2,
-    "persona_email": "pneumann@partners.org",
-    "persona_firstname": "Paul",
-    "persona_id": 76,
-    "persona_lastname": "Neumann"
-   },
-   {
-    "author_fullname": "Wu, Xunlei",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Fonteneau, Sylvere",
-    "author_place": 4,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Bensoussan, Pierre-Jean",
-    "author_place": 5,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Dequidt, Jeremie",
-    "author_place": 6,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Marchal, Damien",
-    "author_place": 7,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Grisoni, Laurent",
-    "author_place": 8,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Karpf, Sylvain",
-    "author_place": 9,
-    "persona_id": null
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2005-08-05T20:09:27Z",
-  "handles": [
-   {
-    "handle": "1926/41",
-    "handle_url": "http://hdl.handle.net/1926/41"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 34,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "gk@bwh.harvard.edu",
-     "author_firstname": "Gordon",
-     "author_id": 131,
-     "author_lastname": "Kindlmann"
+  "publication": {
+    "abstract": "This paper investigates an Open Framework for Medical Simulation (named SOFA for Simulation Open Framework Architecture), and proposes ideas for structuring and supporting its expansion. Lately, through a joint effort between the Sim Group at CIMIT and the Alcove group at INRIA, we have investigated the foundations for a more extensive, flexible, and comprehensive framework. In addition, five internationally renowned research groups have contributed to this initiative by converting their algorithms into compatible modules. Although still in its very early developmental phase, the current project illustrates some of the key concepts we believe will enable collaboration and interoperability in Medical Simulation. The main objective of SOFA research is to foster collaboration among research groups. It is our hope that SOFA will simplify the development cycles, reduce production costs, and provide a means to share components through a common interface.",
+    "articles": [
+      "bafybeibl7hcg7jyghgq4wxcime7iqmbmwcry3tcltb7rooyiwjqadyjxjy"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Cotin, Stephane",
+        "author_place": 1,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Neumann, Paul",
+        "author_place": 2,
+        "persona_email": "pneumann@partners.org",
+        "persona_firstname": "Paul",
+        "persona_id": 76,
+        "persona_lastname": "Neumann"
+      },
+      {
+        "author_fullname": "Wu, Xunlei",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Fonteneau, Sylvere",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Bensoussan, Pierre-Jean",
+        "author_place": 5,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Dequidt, Jeremie",
+        "author_place": 6,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Marchal, Damien",
+        "author_place": 7,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Grisoni, Laurent",
+        "author_place": 8,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Karpf, Sylvain",
+        "author_place": 9,
+        "persona_id": null
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2005-08-05T20:09:27Z",
+    "handles": [
+      {
+        "handle": "1926/41",
+        "handle_url": "http://hdl.handle.net/1926/41"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<b>Summary:</b>\r\nThe paper lays out software and framework considerations for a multi-site approach to medical simulation, including issues such as collision detection. The approach described as based on mapping and multi-representation, so that different computational and physical aspects of interacting objects can be communicated. The details of how the system actually works are very sparse, however.\r\n\r\n<b>Hypothesis:</b>\r\nNon Applicable\r\n\r\n<b>Evidence:</b>\r\nThe substantial lack of references/citations hinders the evaluation of this work, because it makes it difficult to asses the novelty of the framework presented. The Introduction, in particular, lacked references to any other work in medical simulation or its computational components. The discussion of collision detection did not reference any of the large computer graphics literature on the subject (for example, a variety of datastructures have evolved to support efficient evaluation of collision detection). The actual evidence in the paper, such as it was, was in the form of Section 3 (\\\"Proof of concept\\\"), which is more in outline form than a textual exposition. The details are sufficiently sparse that it is hard to know how rudimentary a system created Figures 2 and 3.\r\n\r\n<b>Open Science:</b>\r\nUnfortunately there are few if any specific contributions to Open Science in this paper, although it may well be that when released the \\\"Open Framework\\\" described will be a significant contribution. As this paper is essentially a report about an proof-of-concept (and unreleased) implemenetation.\r\n\r\n<b>Reproducibility:</b>\r\nUnfortunately there is no means of Reproducibility here because there was no code release and no instructions on how to regenerate results. \r\n\r\n<b>Use of Open Source Software:</b>\r\nThere is a distinct lack of detail in this respect. It is not clear from the paper what software generated Figures 2 and 3, for example, and whether it is Open Source. In general, the paper describes an \\\"Open Framework\\\", but the text of the paper does not describe if the software developed the framework will all be open source. Reference 4 mentions \\\"open source\\\", but it is not clear what role that software plays in the work described. \r\n\r\n<b>Open Source Contributions:</b>\r\nNo code was made availble. There is mention of something being done for Medicine Meets Virtual Reality 2006, but there is no code release associated with whatever generated Figures 2 and 3.\r\n\r\n<b>Code Quality:</b>\r\nNo code was made available for this paper, or was any described in sufficient detail to answer this point. Issues of language choice, platform specificity, performance, and testing, are not addressed.\r\n\r\n<b>Applicability to other problems:</b>\r\nGeneral computational frameworks for this sort of problem would be a useful back-end for any number of medical imaging efforts. At the current level of detail, it hard to suggest specific connections to other problems or efforts.\r\n\r\n<b>Suggestions for future work:</b>\r\nI look forward to seeing a more fleshed-out version of the work described in Section 3!\r\n\r\n<b>Requests for additional information from authors:</b>\r\nNo specific information is needed from the authors. As noted above, the paper is lacking references and implementation specifics.\r\n\r\n",
-    "date": "09-14-2005",
-    "review_id": 73
-   },
-   {
-    "author": {
-     "author_email": "luis.ibanez@kitware.com",
-     "author_firstname": "Luis",
-     "author_id": 4,
-     "author_lastname": "Ibanez"
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 34,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "gk@bwh.harvard.edu",
+          "author_firstname": "Gordon",
+          "author_id": 131,
+          "author_lastname": "Kindlmann"
+        },
+        "content": "<b>Summary:</b>\r\nThe paper lays out software and framework considerations for a multi-site approach to medical simulation, including issues such as collision detection. The approach described as based on mapping and multi-representation, so that different computational and physical aspects of interacting objects can be communicated. The details of how the system actually works are very sparse, however.\r\n\r\n<b>Hypothesis:</b>\r\nNon Applicable\r\n\r\n<b>Evidence:</b>\r\nThe substantial lack of references/citations hinders the evaluation of this work, because it makes it difficult to asses the novelty of the framework presented. The Introduction, in particular, lacked references to any other work in medical simulation or its computational components. The discussion of collision detection did not reference any of the large computer graphics literature on the subject (for example, a variety of datastructures have evolved to support efficient evaluation of collision detection). The actual evidence in the paper, such as it was, was in the form of Section 3 (\\\"Proof of concept\\\"), which is more in outline form than a textual exposition. The details are sufficiently sparse that it is hard to know how rudimentary a system created Figures 2 and 3.\r\n\r\n<b>Open Science:</b>\r\nUnfortunately there are few if any specific contributions to Open Science in this paper, although it may well be that when released the \\\"Open Framework\\\" described will be a significant contribution. As this paper is essentially a report about an proof-of-concept (and unreleased) implemenetation.\r\n\r\n<b>Reproducibility:</b>\r\nUnfortunately there is no means of Reproducibility here because there was no code release and no instructions on how to regenerate results. \r\n\r\n<b>Use of Open Source Software:</b>\r\nThere is a distinct lack of detail in this respect. It is not clear from the paper what software generated Figures 2 and 3, for example, and whether it is Open Source. In general, the paper describes an \\\"Open Framework\\\", but the text of the paper does not describe if the software developed the framework will all be open source. Reference 4 mentions \\\"open source\\\", but it is not clear what role that software plays in the work described. \r\n\r\n<b>Open Source Contributions:</b>\r\nNo code was made availble. There is mention of something being done for Medicine Meets Virtual Reality 2006, but there is no code release associated with whatever generated Figures 2 and 3.\r\n\r\n<b>Code Quality:</b>\r\nNo code was made available for this paper, or was any described in sufficient detail to answer this point. Issues of language choice, platform specificity, performance, and testing, are not addressed.\r\n\r\n<b>Applicability to other problems:</b>\r\nGeneral computational frameworks for this sort of problem would be a useful back-end for any number of medical imaging efforts. At the current level of detail, it hard to suggest specific connections to other problems or efforts.\r\n\r\n<b>Suggestions for future work:</b>\r\nI look forward to seeing a more fleshed-out version of the work described in Section 3!\r\n\r\n<b>Requests for additional information from authors:</b>\r\nNo specific information is needed from the authors. As noted above, the paper is lacking references and implementation specifics.\r\n\r\n",
+        "date": "09-14-2005",
+        "review_id": 73
+      },
+      {
+        "author": {
+          "author_email": "luis.ibanez@kitware.com",
+          "author_firstname": "Luis",
+          "author_id": 4,
+          "author_lastname": "Ibanez"
+        },
+        "content": "<b>Summary:</b>\r\nThis papers describes an open framework for performing medical simulation. This simulation is done at the organ level by generating geometrical models and providing support for collision detection functionalities, as well as simulating physical properties of biological tissues. The framework supports haptic interfaces. Physiology is not currently part of the simulation. The work seems to be currently at the design and prototyping stages.\r\n \r\n<b>Hypothesis:</b>\r\nThe paper advances the hypothesis that anatomical some physical aspects of anatomical organs can be simulated in software with enough accuracy for being used in medical applications such as training.\r\n\r\n<b>Evidence:</b>\r\nThe paper does not provide evidence to support the hypothesis. Instead it describes the design rationale of the framework, and provides an overview of the functionalities that will be implemented.\r\n\r\n<b>Open Science:</b>\r\nThe paper does not adhere to the practice of open science, since readers are not given the elements that will allow them to verify the claims made on the paper.\r\n\r\n<b>Reproducibility:</b>\r\nThe paper do not enable reproducibility since it is centered in describing a set of design criteria and a set of software requirements.\r\n\r\n<b>Use of Open Source Software:</b>\r\nThe authors do not explicity specify whether the final simulation framework will be made open source.\r\nThe reviewer speculates that this is the case, but still remains to be seen what licensing mechanism is selected by the developers of the framework.\r\n\r\n<b>Open Source Contributions:</b>\r\nThe authors do not provide source code, and it is not clear if they will do it in the future, once the framework is implemented.\r\n\r\n<b>Code Quality:</b>\r\nCode quality could not be assesed due to the lack of source code availability.\r\n\r\n<b>Applicability to other problems:</b>\r\nThe reviewer considers that a medical simulation tool will have a large set of application, but given that there are similar ongoing efforts it is unclear why users will prefer this framework to other medical simulation software.\r\n\r\n<b>Suggestions for future work:</b>\r\nIf the authors are interested in making their software available, the reviewer suggest that they consider the approach of \\\"release early, release often\\\".\r\n\r\n<b>Requests for additional information from authors:</b>\r\nThe reviewer will appreciate if the authors can clarify their use of open source tools, and their intention on the final distribution of their software.\r\n\r\n<b>Additional Comments:</b>\r\n\r\n\r\n",
+        "date": "09-19-2005",
+        "review_id": 112
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "pneumann@partners.org",
+      "author_firstname": "Paul",
+      "author_fullname": "Neumann, Paul",
+      "author_id": 76,
+      "author_institution": "The SIM Group, CIMIT/Massachusetts General Hospital",
+      "author_lastname": "Neumann"
     },
-    "content": "<b>Summary:</b>\r\nThis papers describes an open framework for performing medical simulation. This simulation is done at the organ level by generating geometrical models and providing support for collision detection functionalities, as well as simulating physical properties of biological tissues. The framework supports haptic interfaces. Physiology is not currently part of the simulation. The work seems to be currently at the design and prototyping stages.\r\n \r\n<b>Hypothesis:</b>\r\nThe paper advances the hypothesis that anatomical some physical aspects of anatomical organs can be simulated in software with enough accuracy for being used in medical applications such as training.\r\n\r\n<b>Evidence:</b>\r\nThe paper does not provide evidence to support the hypothesis. Instead it describes the design rationale of the framework, and provides an overview of the functionalities that will be implemented.\r\n\r\n<b>Open Science:</b>\r\nThe paper does not adhere to the practice of open science, since readers are not given the elements that will allow them to verify the claims made on the paper.\r\n\r\n<b>Reproducibility:</b>\r\nThe paper do not enable reproducibility since it is centered in describing a set of design criteria and a set of software requirements.\r\n\r\n<b>Use of Open Source Software:</b>\r\nThe authors do not explicity specify whether the final simulation framework will be made open source.\r\nThe reviewer speculates that this is the case, but still remains to be seen what licensing mechanism is selected by the developers of the framework.\r\n\r\n<b>Open Source Contributions:</b>\r\nThe authors do not provide source code, and it is not clear if they will do it in the future, once the framework is implemented.\r\n\r\n<b>Code Quality:</b>\r\nCode quality could not be assesed due to the lack of source code availability.\r\n\r\n<b>Applicability to other problems:</b>\r\nThe reviewer considers that a medical simulation tool will have a large set of application, but given that there are similar ongoing efforts it is unclear why users will prefer this framework to other medical simulation software.\r\n\r\n<b>Suggestions for future work:</b>\r\nIf the authors are interested in making their software available, the reviewer suggest that they consider the approach of \\\"release early, release often\\\".\r\n\r\n<b>Requests for additional information from authors:</b>\r\nThe reviewer will appreciate if the authors can clarify their use of open source tools, and their intention on the final distribution of their software.\r\n\r\n<b>Additional Comments:</b>\r\n\r\n\r\n",
-    "date": "09-19-2005",
-    "review_id": 112
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "pneumann@partners.org",
-   "author_firstname": "Paul",
-   "author_fullname": "Neumann, Paul",
-   "author_id": 76,
-   "author_institution": "The SIM Group, CIMIT/Massachusetts General Hospital",
-   "author_lastname": "Neumann"
-  },
-  "tags": [
-   "Open Framework",
-   "Medical Simulation"
-  ],
-  "title": "Collaborative Development of an open framework for medical simulation"
- }
+    "tags": [
+      "Open Framework",
+      "Medical Simulation"
+    ],
+    "title": "Collaborative Development of an open framework for medical simulation"
+  }
 }

@@ -1,67 +1,70 @@
 {
- "publication": {
-  "abstract": "The Johns Hopkins University Surgical Assistant Workstation (SAW) modular software framework provides support for robotic devices, imaging sensors and a visualization pipeline for rapid prototyping, primarily for surgical research systems. We extend the SAW architecture for \"steady hand\" micromanipulation in biomanipulation laboratory tasks. The proposed system integrates direct \"steady-hand\" manipulation, teleoperation, and automated manipulation in a single two-handed system. System architecture, implementation and initial performance measurement experiments are detailed.",
-  "authors": [
-   {
-    "author_fullname": "Gao, Yixin",
-    "author_place": 1,
-    "persona_email": "ygao20@jhu.edu",
-    "persona_firstname": "Yixin",
-    "persona_id": 2611,
-    "persona_lastname": "Gao"
-   },
-   {
-    "author_fullname": "Taylor, Russell",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Kumar, Rajesh",
-    "author_place": 3,
-    "persona_email": "rajesh@jhu.edu",
-    "persona_firstname": "Rajesh",
-    "persona_id": 944,
-    "persona_lastname": "Kumar"
-   }
-  ],
-  "categories": [
-   "Data Representation",
-   "IO"
-  ],
-  "comments": [],
-  "date_submitted": "2010-08-15 20:39:20",
-  "handles": [
-   {
-    "handle": "10380/3195",
-    "handle_url": "http://hdl.handle.net/10380/3195"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 37,
-    "journal_name": "MICCAI 2010 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 744,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "ygao20@jhu.edu",
-   "author_firstname": "Yixin",
-   "author_fullname": "Gao, Yixin",
-   "author_id": 2611,
-   "author_institution": "The Johns Hopkins University",
-   "author_lastname": "Gao"
-  },
-  "tags": [
-   "cisst",
-   "biomanipulation",
-   "SAW"
-  ],
-  "title": "A modular architecture for biomanipulation"
- }
+  "publication": {
+    "abstract": "The Johns Hopkins University Surgical Assistant Workstation (SAW) modular software framework provides support for robotic devices, imaging sensors and a visualization pipeline for rapid prototyping, primarily for surgical research systems. We extend the SAW architecture for \"steady hand\" micromanipulation in biomanipulation laboratory tasks. The proposed system integrates direct \"steady-hand\" manipulation, teleoperation, and automated manipulation in a single two-handed system. System architecture, implementation and initial performance measurement experiments are detailed.",
+    "articles": [
+      "bafybeiagolkwvbxdbrvdvrx4x7rexahgohzxnz2p4i2ylfgx426zyr57qa"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Gao, Yixin",
+        "author_place": 1,
+        "persona_email": "ygao20@jhu.edu",
+        "persona_firstname": "Yixin",
+        "persona_id": 2611,
+        "persona_lastname": "Gao"
+      },
+      {
+        "author_fullname": "Taylor, Russell",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Kumar, Rajesh",
+        "author_place": 3,
+        "persona_email": "rajesh@jhu.edu",
+        "persona_firstname": "Rajesh",
+        "persona_id": 944,
+        "persona_lastname": "Kumar"
+      }
+    ],
+    "categories": [
+      "Data Representation",
+      "IO"
+    ],
+    "comments": [],
+    "date_submitted": "2010-08-15 20:39:20",
+    "handles": [
+      {
+        "handle": "10380/3195",
+        "handle_url": "http://hdl.handle.net/10380/3195"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 37,
+        "journal_name": "MICCAI 2010 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 744,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "ygao20@jhu.edu",
+      "author_firstname": "Yixin",
+      "author_fullname": "Gao, Yixin",
+      "author_id": 2611,
+      "author_institution": "The Johns Hopkins University",
+      "author_lastname": "Gao"
+    },
+    "tags": [
+      "cisst",
+      "biomanipulation",
+      "SAW"
+    ],
+    "title": "A modular architecture for biomanipulation"
+  }
 }

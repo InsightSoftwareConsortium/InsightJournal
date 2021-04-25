@@ -1,67 +1,71 @@
 {
- "publication": {
-  "abstract": "Computing local curvatures of a given surface is important for applications, shape analysis, surface segmentation, meshing, and surface evolution. For a given smooth surface (with a given analytical expression which is sufficiently differentiable) curvatures can be analytically and directly computed. However in real applications, one often deals with a surface mesh which is an insufficiently differentiable approximation, and thus curvatures must be estimated. Based on a surface mesh data structure (\\code{itk::QuadEdgeMesh}~\\cite{itkQE}), we introduce and implement curvature estimators following the approach of Meyer\\etal\\cite{Meyer02}. We show on a sphere that this method results in more stable curvature approximations than the commonly used discrete estimators (as used in VTK: \\code{vtkCurvatures}).",
-  "authors": [
-   {
-    "author_fullname": "Gelas, Arnaud",
-    "author_place": 1,
-    "persona_email": "arnaudgelas@gmail.com",
-    "persona_firstname": "Arnaud",
-    "persona_id": 7896,
-    "persona_lastname": "Gelas"
-   },
-   {
-    "author_fullname": "Gouaillard, Alexandre ",
-    "author_place": 2,
-    "persona_email": "agouaillard@gmail.com",
-    "persona_firstname": "Alexandre",
-    "persona_id": 322,
-    "persona_lastname": "Gouaillard"
-   },
-   {
-    "author_fullname": "Megason, Sean ",
-    "author_place": 3,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Filtering",
-   "Mathematics",
-   "Mesh"
-  ],
-  "comments": [],
-  "date_submitted": "2008-09-07 17:33:30",
-  "handles": [
-   {
-    "handle": "1926/1494",
-    "handle_url": "http://hdl.handle.net/1926/1494"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 302,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": null,
-   "author_firstname": null,
-   "author_fullname": ", ",
-   "author_id": null,
-   "author_institution": "Harvard Medical School",
-   "author_lastname": null
-  },
-  "tags": [
-   "curvature",
-   "surface mesh"
-  ],
-  "title": "Surface Mesh Discrete Curvature Estimators"
- }
+  "publication": {
+    "abstract": "Computing local curvatures of a given surface is important for applications, shape analysis, surface segmentation, meshing, and surface evolution. For a given smooth surface (with a given analytical expression which is sufficiently differentiable) curvatures can be analytically and directly computed. However in real applications, one often deals with a surface mesh which is an insufficiently differentiable approximation, and thus curvatures must be estimated. Based on a surface mesh data structure (\\code{itk::QuadEdgeMesh}~\\cite{itkQE}), we introduce and implement curvature estimators following the approach of Meyer\\etal\\cite{Meyer02}. We show on a sphere that this method results in more stable curvature approximations than the commonly used discrete estimators (as used in VTK: \\code{vtkCurvatures}).",
+    "articles": [
+      "bafybeiehzh7remaguvxoi6qwkxs23xoijl5mse6lejgp3whicy3t4hsujq",
+      "bafybeiehzh7remaguvxoi6qwkxs23xoijl5mse6lejgp3whicy3t4hsujq"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Gelas, Arnaud",
+        "author_place": 1,
+        "persona_email": "arnaudgelas@gmail.com",
+        "persona_firstname": "Arnaud",
+        "persona_id": 7896,
+        "persona_lastname": "Gelas"
+      },
+      {
+        "author_fullname": "Gouaillard, Alexandre ",
+        "author_place": 2,
+        "persona_email": "agouaillard@gmail.com",
+        "persona_firstname": "Alexandre",
+        "persona_id": 322,
+        "persona_lastname": "Gouaillard"
+      },
+      {
+        "author_fullname": "Megason, Sean ",
+        "author_place": 3,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Filtering",
+      "Mathematics",
+      "Mesh"
+    ],
+    "comments": [],
+    "date_submitted": "2008-09-07 17:33:30",
+    "handles": [
+      {
+        "handle": "1926/1494",
+        "handle_url": "http://hdl.handle.net/1926/1494"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 302,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": null,
+      "author_firstname": null,
+      "author_fullname": ", ",
+      "author_id": null,
+      "author_institution": "Harvard Medical School",
+      "author_lastname": null
+    },
+    "tags": [
+      "curvature",
+      "surface mesh"
+    ],
+    "title": "Surface Mesh Discrete Curvature Estimators"
+  }
 }

@@ -1,71 +1,76 @@
 {
- "publication": {
-  "abstract": "This document describes an open source, high performance ultrasound B-Mode implementation based on the Insight Toolkit (ITK). ITK extensions are presented to calculate the radio-frequency (RF) signal envelope. A variety of 1D Fast Fourier Transform options are introduced including VNL, FFTW, and an OpenCL solution. Scan conversion is implemented for phased array or curvilinear transducers. The entire image processing pipeline is streamable to limit memory consumption during multi-frame or 3D acquisitions with the introduction of an itk::StreamingResampleImageFilter.\n",
-  "authors": [
-   {
-    "author_fullname": "McCormick, Matthew",
-    "author_place": 1,
-    "persona_email": "matthew.m.mccormick@gmail.com",
-    "persona_firstname": "Matthew",
-    "persona_id": 2509,
-    "persona_lastname": "Mccormick"
-   }
-  ],
-  "categories": [
-   "Code memory optimization",
-   "Code speed optimization",
-   "Filtering",
-   "Parallelization, SMP",
-   "Programming",
-   "Resampling",
-   "Streaming",
-   "Transforms"
-  ],
-  "comments": [
-   {
-    "content": "Hi. Can see you in facebook?",
-    "date": "2014-10-30T13:06:49",
-    "persona_email": "dzyk@mail.ru",
-    "persona_firstname": "Dzyk",
-    "persona_id": 8049,
-    "persona_lastname": "Mike"
-   }
-  ],
-  "date_submitted": "2010-05-08 22:35:40",
-  "handles": [
-   {
-    "handle": "10380/3159",
-    "handle_url": "http://hdl.handle.net/10380/3159"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 722,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "matthew.m.mccormick@gmail.com",
-   "author_firstname": "Matthew",
-   "author_fullname": "Mccormick, Matthew",
-   "author_id": 2509,
-   "author_institution": "University of Wisconsin-Madison",
-   "author_lastname": "Mccormick"
-  },
-  "tags": [
-   "Ultrasound",
-   "OpenCL",
-   "Streaming",
-   "FFT",
-   "B-Mode"
-  ],
-  "title": "An Open Source, Fast Ultrasound B-Mode Implementation for Commodity Hardware"
- }
+  "publication": {
+    "abstract": "This document describes an open source, high performance ultrasound B-Mode implementation based on the Insight Toolkit (ITK). ITK extensions are presented to calculate the radio-frequency (RF) signal envelope. A variety of 1D Fast Fourier Transform options are introduced including VNL, FFTW, and an OpenCL solution. Scan conversion is implemented for phased array or curvilinear transducers. The entire image processing pipeline is streamable to limit memory consumption during multi-frame or 3D acquisitions with the introduction of an itk::StreamingResampleImageFilter.\n",
+    "articles": [
+      "bafkreic6gqlqmtcscvrdyewdygyqtgggkldo4niopqc7l5sw7sujt22t4a",
+      "bafkreic6gqlqmtcscvrdyewdygyqtgggkldo4niopqc7l5sw7sujt22t4a",
+      "bafkreic6gqlqmtcscvrdyewdygyqtgggkldo4niopqc7l5sw7sujt22t4a"
+    ],
+    "authors": [
+      {
+        "author_fullname": "McCormick, Matthew",
+        "author_place": 1,
+        "persona_email": "matthew.m.mccormick@gmail.com",
+        "persona_firstname": "Matthew",
+        "persona_id": 2509,
+        "persona_lastname": "Mccormick"
+      }
+    ],
+    "categories": [
+      "Code memory optimization",
+      "Code speed optimization",
+      "Filtering",
+      "Parallelization, SMP",
+      "Programming",
+      "Resampling",
+      "Streaming",
+      "Transforms"
+    ],
+    "comments": [
+      {
+        "content": "Hi. Can see you in facebook?",
+        "date": "2014-10-30T13:06:49",
+        "persona_email": "dzyk@mail.ru",
+        "persona_firstname": "Dzyk",
+        "persona_id": 8049,
+        "persona_lastname": "Mike"
+      }
+    ],
+    "date_submitted": "2010-05-08 22:35:40",
+    "handles": [
+      {
+        "handle": "10380/3159",
+        "handle_url": "http://hdl.handle.net/10380/3159"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 722,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "matthew.m.mccormick@gmail.com",
+      "author_firstname": "Matthew",
+      "author_fullname": "Mccormick, Matthew",
+      "author_id": 2509,
+      "author_institution": "University of Wisconsin-Madison",
+      "author_lastname": "Mccormick"
+    },
+    "tags": [
+      "Ultrasound",
+      "OpenCL",
+      "Streaming",
+      "FFT",
+      "B-Mode"
+    ],
+    "title": "An Open Source, Fast Ultrasound B-Mode Implementation for Commodity Hardware"
+  }
 }

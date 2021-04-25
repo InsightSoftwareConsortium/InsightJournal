@@ -1,91 +1,96 @@
 {
- "publication": {
-  "abstract": "A fully automatic workflow for Multiple Sclerosis (MS) lesion segmentation is described. Fully automatic means that no user interaction is performed in any of the steps and that all parameters are fixed for all the images processed in beforehand. Our workflow is composed of three steps: an intensity inhomogeneity (IIH) correction, skull-stripping and MS lesions segmentation. A validation comparing our results with two experts is done on MS MRI datasets of 24 MS patients from two different sites.",
-  "authors": [
-   {
-    "author_fullname": "Garcia-Lorenzo, Daniel",
-    "author_place": 1,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Prima, Sylvain",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Morrissey, Sean P.",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Barillot, Christian",
-    "author_place": 4,
-    "persona_id": null
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2008-07-14T19:51:35Z",
-  "handles": [
-   {
-    "handle": "10380/1445",
-    "handle_url": "http://hdl.handle.net/10380/1445"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 44,
-    "journal_name": "MICCAI 2015 Workshops"
-   },
-   {
-    "journal_id": 33,
-    "journal_name": "MICCAI 2008 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 606,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "simon.warfield@childrens.harvard.edu",
-     "author_firstname": "Simon",
-     "author_id": 514,
-     "author_lastname": "Warfield"
+  "publication": {
+    "abstract": "A fully automatic workflow for Multiple Sclerosis (MS) lesion segmentation is described. Fully automatic means that no user interaction is performed in any of the steps and that all parameters are fixed for all the images processed in beforehand. Our workflow is composed of three steps: an intensity inhomogeneity (IIH) correction, skull-stripping and MS lesions segmentation. A validation comparing our results with two experts is done on MS MRI datasets of 24 MS patients from two different sites.",
+    "articles": [
+      "bafybeibi27bfukogijhkea3r7hu2vvan52qczkophwibaheopvhkotvyfa",
+      "bafybeibmhav6mizhfdbngebsrbuljv4rh5hobleup4mdwgtg67gohszyvi",
+      "bafybeibnnmkzhyd5cgsqyhbabvpgobet4ncmihyy2brhg3i3fnpxk3veti"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Garcia-Lorenzo, Daniel",
+        "author_place": 1,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Prima, Sylvain",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Morrissey, Sean P.",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Barillot, Christian",
+        "author_place": 4,
+        "persona_id": null
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2008-07-14T19:51:35Z",
+    "handles": [
+      {
+        "handle": "10380/1445",
+        "handle_url": "http://hdl.handle.net/10380/1445"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<p><br /> This paper describes an algorithm for the segmentation of MS lesions that is fully automated.</p><p>The approach utilizes a trimmed likelihood estimator to avoid outliers influencing the calculation of the mixture model parameters.</p><p>The evaluation of the method indicates it performs well.</p><p>Typos:</p><p>apperaring - appearing</p><p>datasets where - datasets were&nbsp;</p>",
-    "date": "07-25-2008",
-    "review_id": 1535
-   },
-   {
-    "author": {
-     "author_email": "styner@cs.unc.edu",
-     "author_firstname": "Martin",
-     "author_id": 28,
-     "author_lastname": "Styner"
+    "journals": [
+      {
+        "journal_id": 44,
+        "journal_name": "MICCAI 2015 Workshops"
+      },
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 606,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "simon.warfield@childrens.harvard.edu",
+          "author_firstname": "Simon",
+          "author_id": 514,
+          "author_lastname": "Warfield"
+        },
+        "content": "<p><br /> This paper describes an algorithm for the segmentation of MS lesions that is fully automated.</p><p>The approach utilizes a trimmed likelihood estimator to avoid outliers influencing the calculation of the mixture model parameters.</p><p>The evaluation of the method indicates it performs well.</p><p>Typos:</p><p>apperaring - appearing</p><p>datasets where - datasets were&nbsp;</p>",
+        "date": "07-25-2008",
+        "review_id": 1535
+      },
+      {
+        "author": {
+          "author_email": "styner@cs.unc.edu",
+          "author_firstname": "Martin",
+          "author_id": 28,
+          "author_lastname": "Styner"
+        },
+        "content": "<p>This paper presents the use of a robust EM classification method to segment MS lesions. The EM classifier needs a prior bias field correction and skull stripping, unlike other methods that incorporate these steps as part of the EM loop. First the normal brain tissue classes are determined via the robust EM, followed by an outlier detection for a rule based MS lesion segmentation. </p><p>Good results, but it is not clear what happened with cases UNC 07 and CHB 15 which have an empty image (no lesions). </p><p>Well written paper overall, no major revisions needed. </p>",
+        "date": "07-29-2008",
+        "review_id": 1542
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "dgarcia@irisa.fr",
+      "author_firstname": "Daniel",
+      "author_fullname": "Garcia lorenzo, Daniel",
+      "author_id": 913,
+      "author_institution": "Visages, INRIA",
+      "author_lastname": "Garcia lorenzo"
     },
-    "content": "<p>This paper presents the use of a robust EM classification method to segment MS lesions. The EM classifier needs a prior bias field correction and skull stripping, unlike other methods that incorporate these steps as part of the EM loop. First the normal brain tissue classes are determined via the robust EM, followed by an outlier detection for a rule based MS lesion segmentation. </p><p>Good results, but it is not clear what happened with cases UNC 07 and CHB 15 which have an empty image (no lesions). </p><p>Well written paper overall, no major revisions needed. </p>",
-    "date": "07-29-2008",
-    "review_id": 1542
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "dgarcia@irisa.fr",
-   "author_firstname": "Daniel",
-   "author_fullname": "Garcia lorenzo, Daniel",
-   "author_id": 913,
-   "author_institution": "Visages, INRIA",
-   "author_lastname": "Garcia lorenzo"
-  },
-  "tags": [
-   "segmentation",
-   "EM",
-   "workflow",
-   "MS"
-  ],
-  "title": "A robust Expectation-Maximization algorithm for Multiple Sclerosis lesion segmentation"
- }
+    "tags": [
+      "segmentation",
+      "EM",
+      "workflow",
+      "MS"
+    ],
+    "title": "A robust Expectation-Maximization algorithm for Multiple Sclerosis lesion segmentation"
+  }
 }

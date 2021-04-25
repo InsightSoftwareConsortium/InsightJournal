@@ -1,66 +1,72 @@
 {
- "publication": {
-  "abstract": "This program, based completely on ITK, converts between the different file types available in the ITK. Casting between the different pixel component types is available as an option. Currently, only scalar pixel types are supported.",
-  "authors": [
-   {
-    "author_fullname": "Staring, Marius",
-    "author_place": 1,
-    "persona_email": "marius.staring@gmail.com",
-    "persona_firstname": "Marius",
-    "persona_id": 208,
-    "persona_lastname": "Staring"
-   },
-   {
-    "author_fullname": "Klein, Stefan",
-    "author_place": 2,
-    "persona_email": "s.klein@erasmusmc.nl",
-    "persona_firstname": "Stefan",
-    "persona_id": 551,
-    "persona_lastname": "Klein"
-   }
-  ],
-  "categories": [
-   "CMake",
-   "Data",
-   "Data Representation",
-   "Generic Programming",
-   "Image",
-   "Images",
-   "IO",
-   "Programming"
-  ],
-  "comments": [],
-  "date_submitted": "2005-09-09T07:50:32Z",
-  "handles": [
-   {
-    "handle": "1926/77",
-    "handle_url": "http://hdl.handle.net/1926/77"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 46,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "marius.staring@gmail.com",
-   "author_firstname": "Marius",
-   "author_fullname": "Staring, Marius",
-   "author_id": 208,
-   "author_institution": "Leiden University Medical Center",
-   "author_lastname": "Staring"
-  },
-  "tags": [
-   "cast, convert"
-  ],
-  "title": "A program to cast and convert image files"
- }
+  "publication": {
+    "abstract": "This program, based completely on ITK, converts between the different file types available in the ITK. Casting between the different pixel component types is available as an option. Currently, only scalar pixel types are supported.",
+    "articles": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "authors": [
+      {
+        "author_fullname": "Staring, Marius",
+        "author_place": 1,
+        "persona_email": "marius.staring@gmail.com",
+        "persona_firstname": "Marius",
+        "persona_id": 208,
+        "persona_lastname": "Staring"
+      },
+      {
+        "author_fullname": "Klein, Stefan",
+        "author_place": 2,
+        "persona_email": "s.klein@erasmusmc.nl",
+        "persona_firstname": "Stefan",
+        "persona_id": 551,
+        "persona_lastname": "Klein"
+      }
+    ],
+    "categories": [
+      "CMake",
+      "Data",
+      "Data Representation",
+      "Generic Programming",
+      "Image",
+      "Images",
+      "IO",
+      "Programming"
+    ],
+    "comments": [],
+    "date_submitted": "2005-09-09T07:50:32Z",
+    "handles": [
+      {
+        "handle": "1926/77",
+        "handle_url": "http://hdl.handle.net/1926/77"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 46,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "marius.staring@gmail.com",
+      "author_firstname": "Marius",
+      "author_fullname": "Staring, Marius",
+      "author_id": 208,
+      "author_institution": "Leiden University Medical Center",
+      "author_lastname": "Staring"
+    },
+    "tags": [
+      "cast, convert"
+    ],
+    "title": "A program to cast and convert image files"
+  }
 }

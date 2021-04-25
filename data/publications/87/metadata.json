@@ -1,56 +1,60 @@
 {
- "publication": {
-  "abstract": "This document describes contributions on the\r\nNormalizedCorrelationImageToImageMetric and the MeanSquaresImageToImageMetric of the Insight Toolkit ITK \\url{www.itk.org}. For the first metric a two time speed-up can be\r\nachieved by rewriting the code to loop only once over the fixed image. This is instead of the two times that is used in the current ITK code. The reduction in computation time comes at the cost of an additional storage of a parameters array. For both metric we have\r\nimplemented the option to use only a random subset of the fixed image voxels for calculating the metric value and its derivatives. This reduces the computation time (substantially), while convergence\r\nproperties are maintained. This paper is accompanied with the source code.",
-  "authors": [
-   {
-    "author_fullname": "Staring, Marius",
-    "author_place": 1,
-    "persona_email": "marius.staring@gmail.com",
-    "persona_firstname": "Marius",
-    "persona_id": 208,
-    "persona_lastname": "Staring"
-   }
-  ],
-  "categories": [
-   "Programming"
-  ],
-  "comments": [],
-  "date_submitted": "2006-04-10T15:11:07Z",
-  "handles": [
-   {
-    "handle": "10380/3547",
-    "handle_url": "http://hdl.handle.net/10380/3547"
-   },
-   {
-    "handle": "1926/190",
-    "handle_url": "http://hdl.handle.net/1926/190"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 87,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "marius.staring@gmail.com",
-   "author_firstname": "Marius",
-   "author_fullname": "Staring, Marius",
-   "author_id": 208,
-   "author_institution": "Leiden University Medical Center",
-   "author_lastname": "Staring"
-  },
-  "tags": [
-   "Normalized Correlation",
-   "Mean Square Difference"
-  ],
-  "title": "Contributions to the Normalized Correlation and the Mean Squares Metric"
- }
+  "publication": {
+    "abstract": "This document describes contributions on the\r\nNormalizedCorrelationImageToImageMetric and the MeanSquaresImageToImageMetric of the Insight Toolkit ITK \\url{www.itk.org}. For the first metric a two time speed-up can be\r\nachieved by rewriting the code to loop only once over the fixed image. This is instead of the two times that is used in the current ITK code. The reduction in computation time comes at the cost of an additional storage of a parameters array. For both metric we have\r\nimplemented the option to use only a random subset of the fixed image voxels for calculating the metric value and its derivatives. This reduces the computation time (substantially), while convergence\r\nproperties are maintained. This paper is accompanied with the source code.",
+    "articles": [
+      "bafkreicgqexxnfri2fds7jngfjasmopf5alovyu7z7avnnqihmu6irvvga",
+      "bafkreicgqexxnfri2fds7jngfjasmopf5alovyu7z7avnnqihmu6irvvga"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Staring, Marius",
+        "author_place": 1,
+        "persona_email": "marius.staring@gmail.com",
+        "persona_firstname": "Marius",
+        "persona_id": 208,
+        "persona_lastname": "Staring"
+      }
+    ],
+    "categories": [
+      "Programming"
+    ],
+    "comments": [],
+    "date_submitted": "2006-04-10T15:11:07Z",
+    "handles": [
+      {
+        "handle": "10380/3547",
+        "handle_url": "http://hdl.handle.net/10380/3547"
+      },
+      {
+        "handle": "1926/190",
+        "handle_url": "http://hdl.handle.net/1926/190"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 87,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "marius.staring@gmail.com",
+      "author_firstname": "Marius",
+      "author_fullname": "Staring, Marius",
+      "author_id": 208,
+      "author_institution": "Leiden University Medical Center",
+      "author_lastname": "Staring"
+    },
+    "tags": [
+      "Normalized Correlation",
+      "Mean Square Difference"
+    ],
+    "title": "Contributions to the Normalized Correlation and the Mean Squares Metric"
+  }
 }

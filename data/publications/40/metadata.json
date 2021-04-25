@@ -1,62 +1,66 @@
 {
- "publication": {
-  "abstract": "The gold standard for measuring muscle regeneration in muscular dystrophy therapies is counting the number of dystrophin-positive muscle fibers on a cryostat muscle section immunostained for dystrophin. The standard process of manually counting a few thousand myofibers is tedious, time consuming, and limits quantitative analysis of a therapy success. We present an unsupervised method for segmenting and counting the number of myofibers on an immunofluorescent microscopy image. The key threshold selection problem is resolved by maximizing the number of sub-threshold connected components. Components significantly smaller than the known lower bound myofiber area, the only input parameter, are ignored to reduce noise. Validation on a series of images (n=63) revealed that our algorithm varied by less than 10% from manual counts in the relevant range of operation. The algorithm allows us to quantify three-dimensional dystrophin expression and design experiments that address a major limitation in muscular dystrophy therapies, the limited distribution of dystrophin after treatment. Further we have extended this method to segment and count objects in other immunofluorescent images. The method was quickly developed and tested using the Insight Toolkit (ITK), an open source C++ library for the development of image analysis software.",
-  "authors": [
-   {
-    "author_fullname": "Urish, Kenneth",
-    "author_place": 1,
-    "persona_email": "ken.urish@gmail.com",
-    "persona_firstname": "Kenneth",
-    "persona_id": 55,
-    "persona_lastname": "Urish"
-   },
-   {
-    "author_fullname": "August, Jonas",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Huard, Johnny",
-    "author_place": 3,
-    "persona_id": null
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2005-08-06",
-  "handles": [
-   {
-    "handle": "1926/48",
-    "handle_url": "http://hdl.handle.net/1926/48"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 40,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "ken.urish@gmail.com",
-   "author_firstname": "Kenneth",
-   "author_fullname": "Urish, Kenneth",
-   "author_id": 55,
-   "author_institution": "Univeristy of Pittsburgh",
-   "author_lastname": "Urish"
-  },
-  "tags": [
-   "Micropscopy Images",
-   "Automatic Thresholding",
-   "Immunofluorescent Images",
-   "Unsupervised Thresholding"
-  ],
-  "title": "Unsupervised Segmentation for Myofiber Counting in Immunofluorescent Microscopy Images"
- }
+  "publication": {
+    "abstract": "The gold standard for measuring muscle regeneration in muscular dystrophy therapies is counting the number of dystrophin-positive muscle fibers on a cryostat muscle section immunostained for dystrophin. The standard process of manually counting a few thousand myofibers is tedious, time consuming, and limits quantitative analysis of a therapy success. We present an unsupervised method for segmenting and counting the number of myofibers on an immunofluorescent microscopy image. The key threshold selection problem is resolved by maximizing the number of sub-threshold connected components. Components significantly smaller than the known lower bound myofiber area, the only input parameter, are ignored to reduce noise. Validation on a series of images (n=63) revealed that our algorithm varied by less than 10% from manual counts in the relevant range of operation. The algorithm allows us to quantify three-dimensional dystrophin expression and design experiments that address a major limitation in muscular dystrophy therapies, the limited distribution of dystrophin after treatment. Further we have extended this method to segment and count objects in other immunofluorescent images. The method was quickly developed and tested using the Insight Toolkit (ITK), an open source C++ library for the development of image analysis software.",
+    "articles": [
+      "bafybeiccr3p7f4h7chyd6ctcasiqgyz4tqm5t5aprtab7skrwxwycsizxy",
+      "bafybeiccr3p7f4h7chyd6ctcasiqgyz4tqm5t5aprtab7skrwxwycsizxy"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Urish, Kenneth",
+        "author_place": 1,
+        "persona_email": "ken.urish@gmail.com",
+        "persona_firstname": "Kenneth",
+        "persona_id": 55,
+        "persona_lastname": "Urish"
+      },
+      {
+        "author_fullname": "August, Jonas",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Huard, Johnny",
+        "author_place": 3,
+        "persona_id": null
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2005-08-06",
+    "handles": [
+      {
+        "handle": "1926/48",
+        "handle_url": "http://hdl.handle.net/1926/48"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 40,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "ken.urish@gmail.com",
+      "author_firstname": "Kenneth",
+      "author_fullname": "Urish, Kenneth",
+      "author_id": 55,
+      "author_institution": "Univeristy of Pittsburgh",
+      "author_lastname": "Urish"
+    },
+    "tags": [
+      "Micropscopy Images",
+      "Automatic Thresholding",
+      "Immunofluorescent Images",
+      "Unsupervised Thresholding"
+    ],
+    "title": "Unsupervised Segmentation for Myofiber Counting in Immunofluorescent Microscopy Images"
+  }
 }

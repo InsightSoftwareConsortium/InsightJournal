@@ -1,92 +1,97 @@
 {
- "publication": {
-  "abstract": "We present a new method for the simultaneous, nearly automatic segmentation of liver contours, vessels,\r\nand tumors from abdominal CTA scans. The method repeatedly applies multi-resolution, multi-class\r\nsmoothed Bayesian classification followed by morphological adjustment and active contours refinement.\r\nIt uses multi-class and voxel neighborhood information to compute an accurate intensity distribution\r\nfunction for each class. Only one user-defined voxel seed for the liver and additional seeds according\r\nto the number of tumors inside the liver are required for initialization. The algorithm do not require\r\nmanual adjustment of internal parameters. In this work, a retrospective study on a validated clinical\r\ndataset totaling 20 tumors from 9 patients CTAs\ufffd was performed. An aggregated competition score of\r\n61 was obtained on the test set of this database. In addition we measured the robustness of our algorithm\r\nto different seeds initializations. These results suggest that our method is clinically applicable, accurate,\r\nefficient, and robust to seed selection compared to manually generated ground truth segmentation and to\r\nother semi-automatic segmentation methods.",
-  "authors": [
-   {
-    "author_fullname": "Taieb, Yoav",
-    "author_place": 1,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Eliassaf, Ofer",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Freiman, Moti",
-    "author_place": 3,
-    "persona_email": "freiman@cs.huji.ac.il",
-    "persona_firstname": "Moti",
-    "persona_id": 120,
-    "persona_lastname": "Freiman"
-   },
-   {
-    "author_fullname": "Joskowicz, Leo",
-    "author_place": 4,
-    "persona_email": "josko@cs.huji.ac.il",
-    "persona_firstname": "Leo",
-    "persona_id": 2165,
-    "persona_lastname": "Joskowicz"
-   },
-   {
-    "author_fullname": "Sosna, Jacob",
-    "author_place": 5,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Bayesian Decision Theory",
-   "Segmentation"
-  ],
-  "comments": [],
-  "date_submitted": "2008-07-06T04:29:59Z",
-  "handles": [
-   {
-    "handle": "10380/1405",
-    "handle_url": "http://hdl.handle.net/10380/1405"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 45,
-    "journal_name": "MICCAI 2016 Workshops"
-   },
-   {
-    "journal_id": 33,
-    "journal_name": "MICCAI 2008 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 579,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "dengxiang05@gmail.com",
-     "author_firstname": "Xiang",
-     "author_id": 872,
-     "author_lastname": "Deng"
+  "publication": {
+    "abstract": "We present a new method for the simultaneous, nearly automatic segmentation of liver contours, vessels,\r\nand tumors from abdominal CTA scans. The method repeatedly applies multi-resolution, multi-class\r\nsmoothed Bayesian classification followed by morphological adjustment and active contours refinement.\r\nIt uses multi-class and voxel neighborhood information to compute an accurate intensity distribution\r\nfunction for each class. Only one user-defined voxel seed for the liver and additional seeds according\r\nto the number of tumors inside the liver are required for initialization. The algorithm do not require\r\nmanual adjustment of internal parameters. In this work, a retrospective study on a validated clinical\r\ndataset totaling 20 tumors from 9 patients CTAs\ufffd was performed. An aggregated competition score of\r\n61 was obtained on the test set of this database. In addition we measured the robustness of our algorithm\r\nto different seeds initializations. These results suggest that our method is clinically applicable, accurate,\r\nefficient, and robust to seed selection compared to manually generated ground truth segmentation and to\r\nother semi-automatic segmentation methods.",
+    "articles": [
+      "bafybeigv5auhz6epgl6ud4mgejp6iskv7r7taks2phfujooqndn2lnymgq",
+      "bafybeigv5auhz6epgl6ud4mgejp6iskv7r7taks2phfujooqndn2lnymgq",
+      "bafybeigv5auhz6epgl6ud4mgejp6iskv7r7taks2phfujooqndn2lnymgq"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Taieb, Yoav",
+        "author_place": 1,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Eliassaf, Ofer",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Freiman, Moti",
+        "author_place": 3,
+        "persona_email": "freiman@cs.huji.ac.il",
+        "persona_firstname": "Moti",
+        "persona_id": 120,
+        "persona_lastname": "Freiman"
+      },
+      {
+        "author_fullname": "Joskowicz, Leo",
+        "author_place": 4,
+        "persona_email": "josko@cs.huji.ac.il",
+        "persona_firstname": "Leo",
+        "persona_id": 2165,
+        "persona_lastname": "Joskowicz"
+      },
+      {
+        "author_fullname": "Sosna, Jacob",
+        "author_place": 5,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Bayesian Decision Theory",
+      "Segmentation"
+    ],
+    "comments": [],
+    "date_submitted": "2008-07-06T04:29:59Z",
+    "handles": [
+      {
+        "handle": "10380/1405",
+        "handle_url": "http://hdl.handle.net/10380/1405"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<p>This paper presents a semi-automatic live tumor segmentation technique. <br />In this method, the liver tumors are first segmented using a multi-resolution multi-class Bayesian classification <br />algorithm . Morphological operation and active contour method are then used to refine the segmentation.</p><p>Detailed comments:</p><p>1) This is a well-organized workshop paper. The presentation is clear.</p><p>2) From my point of view, the multi-resolution approach might cause difficulty in segmenting small liver tumors, given the large variability of lesion size. Could the authors briefly address this issue?&nbsp; </p><p>3) The liver tumors may appear as either hypo-intensity or hyper-intensity, compared to the surrounding liver tissue. <br />Is this taken into account in the 5-class intensity model?</p><p>4) Could the user manually identified point in the initialization be an arbitrary point in the liver, e.g. a point either in normal liver tissue or in the lesion?</p><p>5) In Table 2, the values of the five metrics are good enough to show the reproducibility of the proposed method.<br />The last column on the right should be deleted, because those scores are not generated by comparision with provided reference segmentation.</p>",
-    "date": "07-25-2008",
-    "review_id": 1526
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "freiman@cs.huji.ac.il",
-   "author_firstname": "Moti",
-   "author_fullname": "Freiman, Moti",
-   "author_id": 120,
-   "author_institution": "Hebrew University",
-   "author_lastname": "Freiman"
-  },
-  "tags": [
-   "tumor segmentation",
-   "Liver segmentation"
-  ],
-  "title": "An iterative Bayesian approach for liver analysis: tumors validation study"
- }
+    "journals": [
+      {
+        "journal_id": 45,
+        "journal_name": "MICCAI 2016 Workshops"
+      },
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 579,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "dengxiang05@gmail.com",
+          "author_firstname": "Xiang",
+          "author_id": 872,
+          "author_lastname": "Deng"
+        },
+        "content": "<p>This paper presents a semi-automatic live tumor segmentation technique. <br />In this method, the liver tumors are first segmented using a multi-resolution multi-class Bayesian classification <br />algorithm . Morphological operation and active contour method are then used to refine the segmentation.</p><p>Detailed comments:</p><p>1) This is a well-organized workshop paper. The presentation is clear.</p><p>2) From my point of view, the multi-resolution approach might cause difficulty in segmenting small liver tumors, given the large variability of lesion size. Could the authors briefly address this issue?&nbsp; </p><p>3) The liver tumors may appear as either hypo-intensity or hyper-intensity, compared to the surrounding liver tissue. <br />Is this taken into account in the 5-class intensity model?</p><p>4) Could the user manually identified point in the initialization be an arbitrary point in the liver, e.g. a point either in normal liver tissue or in the lesion?</p><p>5) In Table 2, the values of the five metrics are good enough to show the reproducibility of the proposed method.<br />The last column on the right should be deleted, because those scores are not generated by comparision with provided reference segmentation.</p>",
+        "date": "07-25-2008",
+        "review_id": 1526
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "freiman@cs.huji.ac.il",
+      "author_firstname": "Moti",
+      "author_fullname": "Freiman, Moti",
+      "author_id": 120,
+      "author_institution": "Hebrew University",
+      "author_lastname": "Freiman"
+    },
+    "tags": [
+      "tumor segmentation",
+      "Liver segmentation"
+    ],
+    "title": "An iterative Bayesian approach for liver analysis: tumors validation study"
+  }
 }

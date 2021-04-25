@@ -1,102 +1,109 @@
 {
- "publication": {
-  "abstract": "This document describes a suite of new multi-threaded classes for calculating magnetic resonance (MR) T2 and T1 parameter maps implemented using the Insight Toolkit ITK (www.itk.org). Similar to MR diffusion tensor imaging (DTI), MR T2 and T1 parameter maps provide a non-invasive means for quantitatively measuring disease or pathology in-vivo. Included in the suite are classes for reading proprietary Bruker 2dseq and Philips PAR/REC images and example programs and data for validating the new classes.",
-  "authors": [
-   {
-    "author_fullname": "Bigler, Don",
-    "author_place": 1,
-    "persona_email": "d.bigler1@gmail.com",
-    "persona_firstname": "Don",
-    "persona_id": 612,
-    "persona_lastname": "Bigler"
-   },
-   {
-    "author_fullname": "Meadowcroft, Mark",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Sun, Xiaoyu",
-    "author_place": 3,
-    "persona_email": "xsunx003@odu.edu",
-    "persona_firstname": "Xiaoyan",
-    "persona_id": 3106,
-    "persona_lastname": "Sun"
-   },
-   {
-    "author_fullname": "Vesek, Jeffrey",
-    "author_place": 4,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Dresner, Alex",
-    "author_place": 5,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Smith, Michael",
-    "author_place": 6,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Yang, Qing",
-    "author_place": 7,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Filtering",
-   "Images",
-   "IO",
-   "Mathematics",
-   "Optimization"
-  ],
-  "comments": [
-   {
-    "content": "nice to meet i hope you are a good person\r\nemail me mb9658218@gmail.com \r\n",
-    "date": "2019-11-27T09:55:27",
-    "persona_email": "jasmineibrahim2@gmail.com",
-    "persona_firstname": "Mornica",
-    "persona_id": 11865,
-    "persona_lastname": "Brown"
-   }
-  ],
-  "date_submitted": "2008-06-03T03:24:19Z",
-  "handles": [
-   {
-    "handle": "1926/1381",
-    "handle_url": "http://hdl.handle.net/1926/1381"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 237,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "d.bigler1@gmail.com",
-   "author_firstname": "Don",
-   "author_fullname": "Bigler, Don",
-   "author_id": 612,
-   "author_institution": "UT Southwestern Medical Center",
-   "author_lastname": "Bigler"
-  },
-  "tags": [
-   "voxel-based relaxometry",
-   "multi-threaded filter",
-   "Philips PAR/REC",
-   "T1 parameter map",
-   "Bruker 2dseq",
-   "T2 parameter map"
-  ],
-  "title": "MR Parameter Map Suite: ITK Classes for Calculating Magnetic Resonance T2 and T1 Parameter Maps"
- }
+  "publication": {
+    "abstract": "This document describes a suite of new multi-threaded classes for calculating magnetic resonance (MR) T2 and T1 parameter maps implemented using the Insight Toolkit ITK (www.itk.org). Similar to MR diffusion tensor imaging (DTI), MR T2 and T1 parameter maps provide a non-invasive means for quantitatively measuring disease or pathology in-vivo. Included in the suite are classes for reading proprietary Bruker 2dseq and Philips PAR/REC images and example programs and data for validating the new classes.",
+    "articles": [
+      "bafybeia4v7xoefpbnllw47prldbrpwejrrfz4uox3ry7dhcjtcldqbckau",
+      "bafybeia4v7xoefpbnllw47prldbrpwejrrfz4uox3ry7dhcjtcldqbckau",
+      "bafybeia4v7xoefpbnllw47prldbrpwejrrfz4uox3ry7dhcjtcldqbckau",
+      "bafybeidurz3sg363yq6uxkmxdxjn4sv7av6gpbwkr4hluutcqy7zmpuk3q",
+      "bafybeib76hkuokph2ypqklx56min4vjkqkvjwh55szz7bfv34i6mnr4csm"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Bigler, Don",
+        "author_place": 1,
+        "persona_email": "d.bigler1@gmail.com",
+        "persona_firstname": "Don",
+        "persona_id": 612,
+        "persona_lastname": "Bigler"
+      },
+      {
+        "author_fullname": "Meadowcroft, Mark",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Sun, Xiaoyu",
+        "author_place": 3,
+        "persona_email": "xsunx003@odu.edu",
+        "persona_firstname": "Xiaoyan",
+        "persona_id": 3106,
+        "persona_lastname": "Sun"
+      },
+      {
+        "author_fullname": "Vesek, Jeffrey",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Dresner, Alex",
+        "author_place": 5,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Smith, Michael",
+        "author_place": 6,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Yang, Qing",
+        "author_place": 7,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Filtering",
+      "Images",
+      "IO",
+      "Mathematics",
+      "Optimization"
+    ],
+    "comments": [
+      {
+        "content": "nice to meet i hope you are a good person\r\nemail me mb9658218@gmail.com \r\n",
+        "date": "2019-11-27T09:55:27",
+        "persona_email": "jasmineibrahim2@gmail.com",
+        "persona_firstname": "Mornica",
+        "persona_id": 11865,
+        "persona_lastname": "Brown"
+      }
+    ],
+    "date_submitted": "2008-06-03T03:24:19Z",
+    "handles": [
+      {
+        "handle": "1926/1381",
+        "handle_url": "http://hdl.handle.net/1926/1381"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 237,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "d.bigler1@gmail.com",
+      "author_firstname": "Don",
+      "author_fullname": "Bigler, Don",
+      "author_id": 612,
+      "author_institution": "UT Southwestern Medical Center",
+      "author_lastname": "Bigler"
+    },
+    "tags": [
+      "voxel-based relaxometry",
+      "multi-threaded filter",
+      "Philips PAR/REC",
+      "T1 parameter map",
+      "Bruker 2dseq",
+      "T2 parameter map"
+    ],
+    "title": "MR Parameter Map Suite: ITK Classes for Calculating Magnetic Resonance T2 and T1 Parameter Maps"
+  }
 }

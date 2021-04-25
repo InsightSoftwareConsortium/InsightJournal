@@ -1,94 +1,97 @@
 {
- "publication": {
-  "abstract": "Visualizing metabolic phenotypes, tracking phenotype dynamics, and screening molecular interventions all require comprehensive,\r\nquantitative measures of micromolecular patterns across cell classes. In this project we develop an easy-to-use interface that permits the same sequence of operations as described in Marc and Jones [1] and is based on Cell Kit developed by Marc's lab. Work products for this project include: user application software (Matlab), user manual and if possible, a web portal interface to allow internet access and application of the system. The MORPHIAS system will be implemented by means of a Matlab function which creates a GUI which allows the user to import molecular signature images (in TIFF format), and then to perform classification using a clustering algorithm, and to then perform data analysis on the result.",
-  "authors": [
-   {
-    "author_fullname": "Henderson, Thomas",
-    "author_place": 1,
-    "persona_email": "tch@cs.utah.edu",
-    "persona_firstname": "Thomas",
-    "persona_id": 77,
-    "persona_lastname": "Henderson"
-   },
-   {
-    "author_fullname": "Marc, Robert",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Wang, Hao",
-    "author_place": 3,
-    "persona_id": null
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2005-07-29T20:58:55Z",
-  "handles": [
-   {
-    "handle": "1926/16",
-    "handle_url": "http://hdl.handle.net/1926/16"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 20,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "pauly@despammed.com",
-     "author_firstname": "Paul",
-     "author_id": 51,
-     "author_lastname": "Yushkevich"
+  "publication": {
+    "abstract": "Visualizing metabolic phenotypes, tracking phenotype dynamics, and screening molecular interventions all require comprehensive,\r\nquantitative measures of micromolecular patterns across cell classes. In this project we develop an easy-to-use interface that permits the same sequence of operations as described in Marc and Jones [1] and is based on Cell Kit developed by Marc's lab. Work products for this project include: user application software (Matlab), user manual and if possible, a web portal interface to allow internet access and application of the system. The MORPHIAS system will be implemented by means of a Matlab function which creates a GUI which allows the user to import molecular signature images (in TIFF format), and then to perform classification using a clustering algorithm, and to then perform data analysis on the result.",
+    "articles": [
+      "bafkreiaonkklri52qwwosqklnxzxgbqd2kgljw37e34jc3voqkpcgqiu4u"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Henderson, Thomas",
+        "author_place": 1,
+        "persona_email": "tch@cs.utah.edu",
+        "persona_firstname": "Thomas",
+        "persona_id": 77,
+        "persona_lastname": "Henderson"
+      },
+      {
+        "author_fullname": "Marc, Robert",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Wang, Hao",
+        "author_place": 3,
+        "persona_id": null
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2005-07-29T20:58:55Z",
+    "handles": [
+      {
+        "handle": "1926/16",
+        "handle_url": "http://hdl.handle.net/1926/16"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<b>Summary:</b>\r\nThis paper describes a MATLAB program to visualize and analyze metabolic phenotypes\r\n \r\n\r\n<b>Hypothesis:</b>\r\nNA\r\n\r\n<b>Evidence:</b>\r\nNo evidence is provided. The paper only has an introduction, a brief info about the GUI and a few lines describing functionality. No examples are presented\r\n\r\n<b>Open Science:</b>\r\nSource code is probably open, but no links are given. No output images are shown in the paper. There are no details\r\n\r\n<b>Reproducibility:</b>\r\nNo details -> No reproducibility\r\n\r\n<b>Use of Open Source Software:</b>\r\nNone\r\n\r\n<b>Open Source Contributions:</b>\r\nNot stated in the paper\r\n\r\n<b>Code Quality:</b>\r\nN/A\r\n\r\n<b>Applicability to other problems:</b>\r\nThis is not really an image analysis paper. Applicability is not discussed\r\n\r\n<b>Requests for additional information from authors :</b>\r\nProvide details of the application, some illustrations, impact.\r\n\r\n<b>Additional Comments:</b>\r\nThis paper seems incomplete and its quality is not comparable to typical MICCAI material\r\n\r\n",
-    "date": "08-25-2005",
-    "review_id": 39
-   },
-   {
-    "author": {
-     "author_email": "stephen.aylward@kitware.com",
-     "author_firstname": "Stephen",
-     "author_id": 1,
-     "author_lastname": "Aylward"
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 20,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "pauly@despammed.com",
+          "author_firstname": "Paul",
+          "author_id": 51,
+          "author_lastname": "Yushkevich"
+        },
+        "content": "<b>Summary:</b>\r\nThis paper describes a MATLAB program to visualize and analyze metabolic phenotypes\r\n \r\n\r\n<b>Hypothesis:</b>\r\nNA\r\n\r\n<b>Evidence:</b>\r\nNo evidence is provided. The paper only has an introduction, a brief info about the GUI and a few lines describing functionality. No examples are presented\r\n\r\n<b>Open Science:</b>\r\nSource code is probably open, but no links are given. No output images are shown in the paper. There are no details\r\n\r\n<b>Reproducibility:</b>\r\nNo details -> No reproducibility\r\n\r\n<b>Use of Open Source Software:</b>\r\nNone\r\n\r\n<b>Open Source Contributions:</b>\r\nNot stated in the paper\r\n\r\n<b>Code Quality:</b>\r\nN/A\r\n\r\n<b>Applicability to other problems:</b>\r\nThis is not really an image analysis paper. Applicability is not discussed\r\n\r\n<b>Requests for additional information from authors :</b>\r\nProvide details of the application, some illustrations, impact.\r\n\r\n<b>Additional Comments:</b>\r\nThis paper seems incomplete and its quality is not comparable to typical MICCAI material\r\n\r\n",
+        "date": "08-25-2005",
+        "review_id": 39
+      },
+      {
+        "author": {
+          "author_email": "stephen.aylward@kitware.com",
+          "author_firstname": "Stephen",
+          "author_id": 1,
+          "author_lastname": "Aylward"
+        },
+        "content": "<b>Summary:</b>\r\nDiscusses the on-going development of a Matlab-based tool for studying the multivariate space that describes the metabolic environment of a cell. The tool allows for the menu-based selection of different types of clustering methods (termination criterion, etc.) to explore that multivariate space.\r\n\r\nNo specific mention of open-source (use or delivery) is mentioned.\r\n\r\n<b>Evidence:</b>\r\nA prototype system is mentioned and a screenshot (without data loaded) is presented. The paper speaks mainly of work that will be accomplished in the future. The paper is extremely sparse on details. The data analysis methods mentioned are straightforward and readily developed using Matlab.\r\n\r\n<b>Open Science:</b>\r\nI did some investigation on the web based on one sentence in the abstract...This work is intended to replicate and extend functionality currently available in a toolkit that was developed by the same people and that has been released as a \"pre-compiled\" IDL application. See http://prometheus.med.utah.edu/~marclab/protocols_cellkit.html It is not re-assuring that no mention of open-source is made and that previous work from this group appears to not be open-source. \r\n\r\nThe difficult balance faced by many and reflected in this work is that making freely-available software is very useful and should be applauded - however, Matlab is not freely available. Additionally, for data exploration it is often important to know the implementation details of the algorithms being applied and to be able to extend/modify those implementations.\r\n\r\n<b>Applicability to other problems:</b>\r\nThis work may be applicable to other multivariate data/cluster exploration problems - which are quite common. More details, however, are needed to determine how generic the methods and implementation will truly be.\r\n\r\n<b>Suggestions for future work:</b>\r\nI look forward to future revisions of this submission to include more details in the paper, demonstration data, and the matlab source code. The scope of the problem and the solution being pursued seem like idea areas for open-source efforts to florish.\r\n",
+        "date": "09-18-2005",
+        "review_id": 102
+      },
+      {
+        "author": {
+          "author_email": "luis.ibanez@kitware.com",
+          "author_firstname": "Luis",
+          "author_id": 4,
+          "author_lastname": "Ibanez"
+        },
+        "content": "<b>Summary:</b>\r\nThis paper describes the very early stages of a software system for performing Molecular Phenotyping through the use of image analysis.\r\n \r\n<b>Hypothesis:</b>\r\nThe paper suggests that the combination of image analysis and computational molecular phenotyping can be used successfully for identifiying cell classes in tissue samples.\r\n\r\n<b>Evidence:</b>\r\nThe paper does not provide any evidence of the claims. The system seems to be in the stages of design and prototyping.\r\n\r\n<b>Open Science:</b>\r\nAlthough the field of application of this paper is extremly interesting, the actual state of the software seems to be in a very early stage. \r\nThe paper does not satisfy the requirements of open science since there are no actual experiments reported, and there is no sharing of source code of data that could be used by others in order to verify the work of the authors.\r\n\r\n<b>Reproducibility:</b>\r\nThe content of the paper describe a project in the early stages of developement. It does not seem to be ready for being tested by others.\r\n\r\n<b>Use of Open Source Software:</b>\r\nThe authors don\\\\\\\\\\\\\\'t mention the use of Open Source code. The system is designed with Matlab, and it is not indicated whether the author\\\\\\\\\\\\\\'s software will be made available once it is ready to be used.\r\n\r\n<b>Open Source Contributions:</b>\r\nThere are no Open Source Contributions in this paper.\r\n\r\n<b>Code Quality:</b>\r\nNo code was available. The project is in early stages of design and prototyping.\r\n\r\n<b>Applicability to other problems:</b>\r\nThe methodology suggested by the authors is based on the use of K-Means for classifying the images. The novelty of their work is the application of these well stablished image classification algorithms to a leading edge field, by combining it with molecular marking of the cellular tissues.\r\n\r\n<b>Suggestions for future work:</b>\r\nIt seems to be too early for this work to have been published. However, it is certainly an exciting application field for image analysis techniques, and it will be interesting to see the results of their work once the code reaches higher levels of maturity.\r\n\r\n<b>Requests for additional information from authors:</b>\r\nThe authors should indicate if they made use of open source tools, or if they are planning to release their own tools as open source resources.\r\n\r\n\r\n\r\n",
+        "date": "09-18-2005",
+        "review_id": 101
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "tch@cs.utah.edu",
+      "author_firstname": "Thomas",
+      "author_fullname": "Henderson, Thomas",
+      "author_id": 77,
+      "author_institution": "University of Utah",
+      "author_lastname": "Henderson"
     },
-    "content": "<b>Summary:</b>\r\nDiscusses the on-going development of a Matlab-based tool for studying the multivariate space that describes the metabolic environment of a cell. The tool allows for the menu-based selection of different types of clustering methods (termination criterion, etc.) to explore that multivariate space.\r\n\r\nNo specific mention of open-source (use or delivery) is mentioned.\r\n\r\n<b>Evidence:</b>\r\nA prototype system is mentioned and a screenshot (without data loaded) is presented. The paper speaks mainly of work that will be accomplished in the future. The paper is extremely sparse on details. The data analysis methods mentioned are straightforward and readily developed using Matlab.\r\n\r\n<b>Open Science:</b>\r\nI did some investigation on the web based on one sentence in the abstract...This work is intended to replicate and extend functionality currently available in a toolkit that was developed by the same people and that has been released as a \"pre-compiled\" IDL application. See http://prometheus.med.utah.edu/~marclab/protocols_cellkit.html It is not re-assuring that no mention of open-source is made and that previous work from this group appears to not be open-source. \r\n\r\nThe difficult balance faced by many and reflected in this work is that making freely-available software is very useful and should be applauded - however, Matlab is not freely available. Additionally, for data exploration it is often important to know the implementation details of the algorithms being applied and to be able to extend/modify those implementations.\r\n\r\n<b>Applicability to other problems:</b>\r\nThis work may be applicable to other multivariate data/cluster exploration problems - which are quite common. More details, however, are needed to determine how generic the methods and implementation will truly be.\r\n\r\n<b>Suggestions for future work:</b>\r\nI look forward to future revisions of this submission to include more details in the paper, demonstration data, and the matlab source code. The scope of the problem and the solution being pursued seem like idea areas for open-source efforts to florish.\r\n",
-    "date": "09-18-2005",
-    "review_id": 102
-   },
-   {
-    "author": {
-     "author_email": "luis.ibanez@kitware.com",
-     "author_firstname": "Luis",
-     "author_id": 4,
-     "author_lastname": "Ibanez"
-    },
-    "content": "<b>Summary:</b>\r\nThis paper describes the very early stages of a software system for performing Molecular Phenotyping through the use of image analysis.\r\n \r\n<b>Hypothesis:</b>\r\nThe paper suggests that the combination of image analysis and computational molecular phenotyping can be used successfully for identifiying cell classes in tissue samples.\r\n\r\n<b>Evidence:</b>\r\nThe paper does not provide any evidence of the claims. The system seems to be in the stages of design and prototyping.\r\n\r\n<b>Open Science:</b>\r\nAlthough the field of application of this paper is extremly interesting, the actual state of the software seems to be in a very early stage. \r\nThe paper does not satisfy the requirements of open science since there are no actual experiments reported, and there is no sharing of source code of data that could be used by others in order to verify the work of the authors.\r\n\r\n<b>Reproducibility:</b>\r\nThe content of the paper describe a project in the early stages of developement. It does not seem to be ready for being tested by others.\r\n\r\n<b>Use of Open Source Software:</b>\r\nThe authors don\\\\\\\\\\\\\\'t mention the use of Open Source code. The system is designed with Matlab, and it is not indicated whether the author\\\\\\\\\\\\\\'s software will be made available once it is ready to be used.\r\n\r\n<b>Open Source Contributions:</b>\r\nThere are no Open Source Contributions in this paper.\r\n\r\n<b>Code Quality:</b>\r\nNo code was available. The project is in early stages of design and prototyping.\r\n\r\n<b>Applicability to other problems:</b>\r\nThe methodology suggested by the authors is based on the use of K-Means for classifying the images. The novelty of their work is the application of these well stablished image classification algorithms to a leading edge field, by combining it with molecular marking of the cellular tissues.\r\n\r\n<b>Suggestions for future work:</b>\r\nIt seems to be too early for this work to have been published. However, it is certainly an exciting application field for image analysis techniques, and it will be interesting to see the results of their work once the code reaches higher levels of maturity.\r\n\r\n<b>Requests for additional information from authors:</b>\r\nThe authors should indicate if they made use of open source tools, or if they are planning to release their own tools as open source resources.\r\n\r\n\r\n\r\n",
-    "date": "09-18-2005",
-    "review_id": 101
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "tch@cs.utah.edu",
-   "author_firstname": "Thomas",
-   "author_fullname": "Henderson, Thomas",
-   "author_id": 77,
-   "author_institution": "University of Utah",
-   "author_lastname": "Henderson"
-  },
-  "tags": [
-   "Computational Molecular Phenotyping",
-   "Image Analsyis"
-  ],
-  "title": "MORPHIAS: Molecular Phenotyping Image Analysis System"
- }
+    "tags": [
+      "Computational Molecular Phenotyping",
+      "Image Analsyis"
+    ],
+    "title": "MORPHIAS: Molecular Phenotyping Image Analysis System"
+  }
 }

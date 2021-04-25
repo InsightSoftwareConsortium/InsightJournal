@@ -1,81 +1,84 @@
 {
- "publication": {
-  "abstract": "We implemented the shape-based interpolation method described by Raya and Udupa in 1990 for three-dimensional images, and created two standalone filters using the Insight Toolkit ITK. The image to be interpolated must be a 3D binary image which represents an object as a series of 2D slices with pixel values at 1 inside the object and 0 outside by convention. The first filter takes as input a 3D binary image wherein the object of interest is represented in full, that is, on all contiguous slices that comprise it. Such filter yields an upsampled 3D binary image. The second filter takes as input a 3D binary image wherein the object of interest is represented only on certain slices that are regularly spaced. It yields a 3D binary image of the same size as that of the input and wherein the object is represented on all contiguous slices that comprise it. This paper is provided with the source code as well as the data used for validation.",
-  "authors": [
-   {
-    "author_fullname": "Boydev, Christine",
-    "author_place": 2,
-    "persona_email": "boydevc@gmail.com",
-    "persona_firstname": "Christine",
-    "persona_id": 6851,
-    "persona_lastname": "Boydev"
-   },
-   {
-    "author_fullname": "Pasquier, David",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Derraz, Foued",
-    "author_place": 4,
-    "persona_email": "fdrz70@gmail.com",
-    "persona_firstname": "Foued",
-    "persona_id": 6239,
-    "persona_lastname": "Derraz"
-   },
-   {
-    "author_fullname": "Peyrodie, Laurent",
-    "author_place": 5,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Taleb-Ahmed, Abdelmalik",
-    "author_place": 6,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Thiran, Jean-Philippe",
-    "author_place": 7,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Filtering",
-   "Segmentation"
-  ],
-  "comments": [],
-  "date_submitted": "2012-10-08 09:54:22",
-  "handles": [
-   {
-    "handle": "10380/3390",
-    "handle_url": "http://hdl.handle.net/10380/3390"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 881,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "boydevc@gmail.com",
-   "author_firstname": "Christine",
-   "author_fullname": "Boydev, Christine",
-   "author_id": 6851,
-   "author_institution": "Ecole Polytechnique F\u00e9d\u00e9rale de Lausanne (EPFL, Switzerland) and Universit\u00e9 de Valenciennes et du Hainaut-Cambr\u00e9sis (UVHC, France)",
-   "author_lastname": "Boydev"
-  },
-  "tags": [
-   "shape-based interpolation",
-   "segmentation"
-  ],
-  "title": "Shape-based Interpolation of a Set of 2D Slices"
- }
+  "publication": {
+    "abstract": "We implemented the shape-based interpolation method described by Raya and Udupa in 1990 for three-dimensional images, and created two standalone filters using the Insight Toolkit ITK. The image to be interpolated must be a 3D binary image which represents an object as a series of 2D slices with pixel values at 1 inside the object and 0 outside by convention. The first filter takes as input a 3D binary image wherein the object of interest is represented in full, that is, on all contiguous slices that comprise it. Such filter yields an upsampled 3D binary image. The second filter takes as input a 3D binary image wherein the object of interest is represented only on certain slices that are regularly spaced. It yields a 3D binary image of the same size as that of the input and wherein the object is represented on all contiguous slices that comprise it. This paper is provided with the source code as well as the data used for validation.",
+    "articles": [
+      "bafybeic5feimkmmdvowqssctffgkvazkugopnbioepx3jakqqekxpyybza"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Boydev, Christine",
+        "author_place": 2,
+        "persona_email": "boydevc@gmail.com",
+        "persona_firstname": "Christine",
+        "persona_id": 6851,
+        "persona_lastname": "Boydev"
+      },
+      {
+        "author_fullname": "Pasquier, David",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Derraz, Foued",
+        "author_place": 4,
+        "persona_email": "fdrz70@gmail.com",
+        "persona_firstname": "Foued",
+        "persona_id": 6239,
+        "persona_lastname": "Derraz"
+      },
+      {
+        "author_fullname": "Peyrodie, Laurent",
+        "author_place": 5,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Taleb-Ahmed, Abdelmalik",
+        "author_place": 6,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Thiran, Jean-Philippe",
+        "author_place": 7,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Filtering",
+      "Segmentation"
+    ],
+    "comments": [],
+    "date_submitted": "2012-10-08 09:54:22",
+    "handles": [
+      {
+        "handle": "10380/3390",
+        "handle_url": "http://hdl.handle.net/10380/3390"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 881,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "boydevc@gmail.com",
+      "author_firstname": "Christine",
+      "author_fullname": "Boydev, Christine",
+      "author_id": 6851,
+      "author_institution": "Ecole Polytechnique F\u00e9d\u00e9rale de Lausanne (EPFL, Switzerland) and Universit\u00e9 de Valenciennes et du Hainaut-Cambr\u00e9sis (UVHC, France)",
+      "author_lastname": "Boydev"
+    },
+    "tags": [
+      "shape-based interpolation",
+      "segmentation"
+    ],
+    "title": "Shape-based Interpolation of a Set of 2D Slices"
+  }
 }

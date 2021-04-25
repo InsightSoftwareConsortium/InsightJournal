@@ -1,66 +1,69 @@
 {
- "publication": {
-  "abstract": "Introduction. Computed tomography (CT) is the standard imaging modality for radiation therapy treatment planning (RTTP) because of its ability to provide information on electron density. However, magnetic resonance (MR) imaging provides superior soft tissue contrast, especially in small animal imaging, facilitating the precise selection of the target volume. This makes the technique interesting for irradiation of brain tumors. The aim of this study was to present an MR-only based workflow for RTTP on a small animal radiation research platform (SARRP) by investigating the potential of probabilistic classification of voxels using multiple MR sequences.\nMethods. Six female Fisher rats were anesthetized using isoflurane and individually fixed on an in-house made multimodality bed before starting MR and CT acquisitions. MR measurements were performed on a 7-Tesla system using a rat brain volume coil. Four different MR sequences were acquired for each animal, including a T1-weighted (MDEFT) sequence, a T2-weighted (RARE) sequence, an ultra-short echo time sequence with 20 \u03bcs echo time (UTE1) and an ultra- short echo time sequence with 2 ms echo time (UTE2). UTE offers the opportunity to acquire images from proton-poor structures with very short transverse relaxation times, such as bone, by using a rapid readout of the fast decaying signal. Following MR, the animals were moved to the SARRP to start a cone-beam CT (CB-CT) by acquiring 720 projections over 360\u00b0. Cone-beam CT projection data were reconstructed by filtered back-projection to obtain the standard-CT for RTTP. Then the images were bias field corrected and manually co-registered to the CB-CT. After that, images were segmented in three tissue classes (air, soft tissue and bone) with k-means for the CB-CT and fuzzy c-means segmentation algorithm (FCM) for the MR images with multiple MR images as input. The membership probability can be between 0 and 1, with one indicating 100% probability and zero indicating 0% probability to belong to a specific tissue class. To obtain a pseudo-CT image, voxels were assigned to the tissue class having the highest membership probability. The dice coefficient was used to evaluate the correctness of the segmentation for soft-tissue and bone. The pseudo-CT images with the highest similarity index were used for further radiotherapy treatment planning (RTTP), in addition, to the standard UTE1-UTE2. The target of the RTTP that was selected in the primary cortex (M1) and three different beam arrangements were investigated to compare CB-CT and MR-based dose calculations. The dose plans were a single static beam of 3x3 mm, using a single arc (3x3 mm beam size, 120\u00b0 arc, couch at 0\u00b0), and three non-coplanar arcs (3x3 mm beam size, 120\u00b0 arc, couch at 0\u00b0, 45\u00b0 and 90\u00b0). Dose distributions were calculated using the TPS of the SARRP and cumulative dose volume histograms (DVHs) of the target and normal brain tissue were obtained for the three dose plans.\nResults The highest dice coefficient was obtained for the T1-UTE1-T2 combination, which was used for further RTTP. The contribution of bone to the total dice coefficient did not exceed 27%. However, bone accounts for only 2% of the image, therefore a misclassified bone pixel has a bigger effect in the dice coefficient than a misclassified soft tissue pixel. Using only 1 beam, both MR combinations underestimate the dose to be delivered to the target. When more complex beam configurations were used to irradiate the target, very small differences were observed between CB-CT and MR based dose calculations.",
-  "authors": [
-   {
-    "author_fullname": "Gutierrez Diaz, Shandra",
-    "author_place": 1,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Van Holen, Roel",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Descamps, Benedicte",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Vanhove, Christian",
-    "author_place": 4,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Segmentation",
-   "Unsupervised learning and clustering"
-  ],
-  "comments": [],
-  "date_submitted": "2014-11-05 03:10:07",
-  "handles": [
-   {
-    "handle": "10380/3502",
-    "handle_url": "http://hdl.handle.net/10380/3502"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 42,
-    "journal_name": "MICCAI 2014 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 948,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "shandra.gutierrezdiaz@ugent.be",
-   "author_firstname": "Shandra",
-   "author_fullname": "Gutierrez, Shandra",
-   "author_id": 9287,
-   "author_institution": "Ugent University",
-   "author_lastname": "Gutierrez"
-  },
-  "tags": [
-   "Oncology applications",
-   "SARRP",
-   "MRI"
-  ],
-  "title": "Pseudo-CT generation from multiple MR images for small animal irradiation"
- }
+  "publication": {
+    "abstract": "Introduction. Computed tomography (CT) is the standard imaging modality for radiation therapy treatment planning (RTTP) because of its ability to provide information on electron density. However, magnetic resonance (MR) imaging provides superior soft tissue contrast, especially in small animal imaging, facilitating the precise selection of the target volume. This makes the technique interesting for irradiation of brain tumors. The aim of this study was to present an MR-only based workflow for RTTP on a small animal radiation research platform (SARRP) by investigating the potential of probabilistic classification of voxels using multiple MR sequences.\nMethods. Six female Fisher rats were anesthetized using isoflurane and individually fixed on an in-house made multimodality bed before starting MR and CT acquisitions. MR measurements were performed on a 7-Tesla system using a rat brain volume coil. Four different MR sequences were acquired for each animal, including a T1-weighted (MDEFT) sequence, a T2-weighted (RARE) sequence, an ultra-short echo time sequence with 20 \u03bcs echo time (UTE1) and an ultra- short echo time sequence with 2 ms echo time (UTE2). UTE offers the opportunity to acquire images from proton-poor structures with very short transverse relaxation times, such as bone, by using a rapid readout of the fast decaying signal. Following MR, the animals were moved to the SARRP to start a cone-beam CT (CB-CT) by acquiring 720 projections over 360\u00b0. Cone-beam CT projection data were reconstructed by filtered back-projection to obtain the standard-CT for RTTP. Then the images were bias field corrected and manually co-registered to the CB-CT. After that, images were segmented in three tissue classes (air, soft tissue and bone) with k-means for the CB-CT and fuzzy c-means segmentation algorithm (FCM) for the MR images with multiple MR images as input. The membership probability can be between 0 and 1, with one indicating 100% probability and zero indicating 0% probability to belong to a specific tissue class. To obtain a pseudo-CT image, voxels were assigned to the tissue class having the highest membership probability. The dice coefficient was used to evaluate the correctness of the segmentation for soft-tissue and bone. The pseudo-CT images with the highest similarity index were used for further radiotherapy treatment planning (RTTP), in addition, to the standard UTE1-UTE2. The target of the RTTP that was selected in the primary cortex (M1) and three different beam arrangements were investigated to compare CB-CT and MR-based dose calculations. The dose plans were a single static beam of 3x3 mm, using a single arc (3x3 mm beam size, 120\u00b0 arc, couch at 0\u00b0), and three non-coplanar arcs (3x3 mm beam size, 120\u00b0 arc, couch at 0\u00b0, 45\u00b0 and 90\u00b0). Dose distributions were calculated using the TPS of the SARRP and cumulative dose volume histograms (DVHs) of the target and normal brain tissue were obtained for the three dose plans.\nResults The highest dice coefficient was obtained for the T1-UTE1-T2 combination, which was used for further RTTP. The contribution of bone to the total dice coefficient did not exceed 27%. However, bone accounts for only 2% of the image, therefore a misclassified bone pixel has a bigger effect in the dice coefficient than a misclassified soft tissue pixel. Using only 1 beam, both MR combinations underestimate the dose to be delivered to the target. When more complex beam configurations were used to irradiate the target, very small differences were observed between CB-CT and MR based dose calculations.",
+    "articles": [
+      "bafybeigj5w5qzpw24qwwntb4hu33rtstc6nw7bptgnmbr7q2gwf5645q4y"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Gutierrez Diaz, Shandra",
+        "author_place": 1,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Van Holen, Roel",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Descamps, Benedicte",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Vanhove, Christian",
+        "author_place": 4,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Segmentation",
+      "Unsupervised learning and clustering"
+    ],
+    "comments": [],
+    "date_submitted": "2014-11-05 03:10:07",
+    "handles": [
+      {
+        "handle": "10380/3502",
+        "handle_url": "http://hdl.handle.net/10380/3502"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 42,
+        "journal_name": "MICCAI 2014 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 948,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "shandra.gutierrezdiaz@ugent.be",
+      "author_firstname": "Shandra",
+      "author_fullname": "Gutierrez, Shandra",
+      "author_id": 9287,
+      "author_institution": "Ugent University",
+      "author_lastname": "Gutierrez"
+    },
+    "tags": [
+      "Oncology applications",
+      "SARRP",
+      "MRI"
+    ],
+    "title": "Pseudo-CT generation from multiple MR images for small animal irradiation"
+  }
 }

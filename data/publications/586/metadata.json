@@ -1,71 +1,78 @@
 {
- "publication": {
-  "abstract": "We present a method for tracking a coronary artery centerline given a single user supplied distal endpoint. Briefly, we first isolate the aorta and compute its surface. Next, we apply a novel two-stage Hough-like election scheme to the image volume to detect points which exhibit axial symmetry (vessel centerpoints). From the axial symmetry image a graph is constructed. This graph is searched for the optimal path from the user supplied point to any point on the surface of the aorta. Our technique falls under Challenge 2 of the Coronary Artery Tracking Challenge.",
-  "authors": [
-   {
-    "author_fullname": "Dikici, Engin",
-    "author_place": 1,
-    "persona_email": "engin.dikici@jax.ufl.edu",
-    "persona_firstname": "Engin",
-    "persona_id": 909,
-    "persona_lastname": "Dikici"
-   },
-   {
-    "author_fullname": "O'Donnell, Thomas",
-    "author_place": 2,
-    "persona_email": "tom.odonnell@siemens.com",
-    "persona_firstname": "Thomas",
-    "persona_id": 897,
-    "persona_lastname": "O'donnell"
-   },
-   {
-    "author_fullname": "Grady, Leo",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "White, Richard",
-    "author_place": 4,
-    "persona_id": null
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2008-07-07T22:11:56Z",
-  "handles": [
-   {
-    "handle": "10380/1425",
-    "handle_url": "http://hdl.handle.net/10380/1425"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 43,
-    "journal_name": "ISBI 2015 Workshops"
-   },
-   {
-    "journal_id": 33,
-    "journal_name": "MICCAI 2008 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 586,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "engin.dikici@jax.ufl.edu",
-   "author_firstname": "Engin",
-   "author_fullname": "Dikici, Engin",
-   "author_id": 909,
-   "author_institution": "University of Florida College of Medicine-Jacksonville",
-   "author_lastname": "Dikici"
-  },
-  "tags": [
-   "Vessel Segmentation"
-  ],
-  "title": "Coronary Artery Centerline Tracking Using Axial Symmetries"
- }
+  "publication": {
+    "abstract": "We present a method for tracking a coronary artery centerline given a single user supplied distal endpoint. Briefly, we first isolate the aorta and compute its surface. Next, we apply a novel two-stage Hough-like election scheme to the image volume to detect points which exhibit axial symmetry (vessel centerpoints). From the axial symmetry image a graph is constructed. This graph is searched for the optimal path from the user supplied point to any point on the surface of the aorta. Our technique falls under Challenge 2 of the Coronary Artery Tracking Challenge.",
+    "articles": [
+      "bafkreidomcatgre6skrv3lrz5wubvl2elcztkvnnntavuftwsfhsqksu2u",
+      "bafkreidomcatgre6skrv3lrz5wubvl2elcztkvnnntavuftwsfhsqksu2u",
+      "bafkreidomcatgre6skrv3lrz5wubvl2elcztkvnnntavuftwsfhsqksu2u",
+      "bafkreidomcatgre6skrv3lrz5wubvl2elcztkvnnntavuftwsfhsqksu2u",
+      "bafkreidomcatgre6skrv3lrz5wubvl2elcztkvnnntavuftwsfhsqksu2u"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Dikici, Engin",
+        "author_place": 1,
+        "persona_email": "engin.dikici@jax.ufl.edu",
+        "persona_firstname": "Engin",
+        "persona_id": 909,
+        "persona_lastname": "Dikici"
+      },
+      {
+        "author_fullname": "O'Donnell, Thomas",
+        "author_place": 2,
+        "persona_email": "tom.odonnell@siemens.com",
+        "persona_firstname": "Thomas",
+        "persona_id": 897,
+        "persona_lastname": "O'donnell"
+      },
+      {
+        "author_fullname": "Grady, Leo",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "White, Richard",
+        "author_place": 4,
+        "persona_id": null
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2008-07-07T22:11:56Z",
+    "handles": [
+      {
+        "handle": "10380/1425",
+        "handle_url": "http://hdl.handle.net/10380/1425"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 43,
+        "journal_name": "ISBI 2015 Workshops"
+      },
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 586,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "engin.dikici@jax.ufl.edu",
+      "author_firstname": "Engin",
+      "author_fullname": "Dikici, Engin",
+      "author_id": 909,
+      "author_institution": "University of Florida College of Medicine-Jacksonville",
+      "author_lastname": "Dikici"
+    },
+    "tags": [
+      "Vessel Segmentation"
+    ],
+    "title": "Coronary Artery Centerline Tracking Using Axial Symmetries"
+  }
 }

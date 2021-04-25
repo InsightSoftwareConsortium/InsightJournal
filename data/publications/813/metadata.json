@@ -1,88 +1,92 @@
 {
- "publication": {
-  "abstract": "This paper presents the rationale for the use of a component-based architecture for computer-assisted intervention (CAI) systems, including the ability to reuse components and to easily develop distributed systems. We introduce three additional capabilities, however, that we believe are especially important for research and development of CAI systems. The first is the ability to deploy components among different processes (as conventionally done) or within the same process (for optimal real-time performance), without requiring source-level modifications to the component. This is particularly relevant for real-time video processing, where the use of multiple processes could cause perceptible delays in the video stream. The second key feature is the ability to dynamically reconfigure the system. In a system composed of multiple processes on multiple computers, this allows one process to be restarted (e.g., after correcting a problem) and reconnected to the rest of the system, which is more convenient than restarting the entire distributed application and enables better fault recovery. The third key feature is the availability of run-time tools for data collection, interactive control, and introspection, and offline tools for data analysis and playback. The above features are provided by the open-source cisst software package, which forms the basis for the Surgical Assistant Workstation (SAW) framework. A complex computer-assisted intervention system for retinal microsurgery is presented as an example that relies on these features. This system integrates robotics, stereo microscopy, force sensing, and optical coherence tomography (OCT) imaging to transcend the current limitations of vitreoretinal surgery.\n",
-  "authors": [
-   {
-    "author_fullname": "Kazanzides, Peter",
-    "author_place": 1,
-    "persona_email": "pkaz@cs.jhu.edu",
-    "persona_firstname": "Peter",
-    "persona_id": 63,
-    "persona_lastname": "Kazanzides"
-   },
-   {
-    "author_fullname": "Jung, Min Yang",
-    "author_place": 2,
-    "persona_email": "myj@jhu.edu",
-    "persona_firstname": "Min Yang",
-    "persona_id": 2198,
-    "persona_lastname": "Jung"
-   },
-   {
-    "author_fullname": "Deguet, Anton",
-    "author_place": 3,
-    "persona_email": "anton.deguet@jhu.edu",
-    "persona_firstname": "Anton",
-    "persona_id": 635,
-    "persona_lastname": "Deguet"
-   },
-   {
-    "author_fullname": "Vagvolgyi, Balazs",
-    "author_place": 4,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Balicki, Marcin",
-    "author_place": 5,
-    "persona_email": "marcin@jhu.edu",
-    "persona_firstname": "Marcin",
-    "persona_id": 3169,
-    "persona_lastname": "Balicki"
-   },
-   {
-    "author_fullname": "Taylor, Russell",
-    "author_place": 6,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Distributed computation",
-   "Generic Programming",
-   "Programming"
-  ],
-  "comments": [],
-  "date_submitted": "2011-08-01 03:04:37",
-  "handles": [
-   {
-    "handle": "10380/3284",
-    "handle_url": "http://hdl.handle.net/10380/3284"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 38,
-    "journal_name": "MICCAI 2011 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 813,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "pkaz@cs.jhu.edu",
-   "author_firstname": "Peter",
-   "author_fullname": "Kazanzides, Peter",
-   "author_id": 63,
-   "author_institution": "Johns Hopkins University",
-   "author_lastname": "Kazanzides"
-  },
-  "tags": [
-   "component-based software",
-   "software architecture"
-  ],
-  "title": "Component-based software for dynamic configuration and control of computer assisted intervention systems"
- }
+  "publication": {
+    "abstract": "This paper presents the rationale for the use of a component-based architecture for computer-assisted intervention (CAI) systems, including the ability to reuse components and to easily develop distributed systems. We introduce three additional capabilities, however, that we believe are especially important for research and development of CAI systems. The first is the ability to deploy components among different processes (as conventionally done) or within the same process (for optimal real-time performance), without requiring source-level modifications to the component. This is particularly relevant for real-time video processing, where the use of multiple processes could cause perceptible delays in the video stream. The second key feature is the ability to dynamically reconfigure the system. In a system composed of multiple processes on multiple computers, this allows one process to be restarted (e.g., after correcting a problem) and reconnected to the rest of the system, which is more convenient than restarting the entire distributed application and enables better fault recovery. The third key feature is the availability of run-time tools for data collection, interactive control, and introspection, and offline tools for data analysis and playback. The above features are provided by the open-source cisst software package, which forms the basis for the Surgical Assistant Workstation (SAW) framework. A complex computer-assisted intervention system for retinal microsurgery is presented as an example that relies on these features. This system integrates robotics, stereo microscopy, force sensing, and optical coherence tomography (OCT) imaging to transcend the current limitations of vitreoretinal surgery.\n",
+    "articles": [
+      "bafkreibcix7ogb4wa7asw4zs43g62e64humalyn2fknldtdz5jynuzz74i",
+      "bafybeih5pgywvpipsmze5466kbbvcvvf63s5yoadcmtcxxx5rsgkdxnhcm"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Kazanzides, Peter",
+        "author_place": 1,
+        "persona_email": "pkaz@cs.jhu.edu",
+        "persona_firstname": "Peter",
+        "persona_id": 63,
+        "persona_lastname": "Kazanzides"
+      },
+      {
+        "author_fullname": "Jung, Min Yang",
+        "author_place": 2,
+        "persona_email": "myj@jhu.edu",
+        "persona_firstname": "Min Yang",
+        "persona_id": 2198,
+        "persona_lastname": "Jung"
+      },
+      {
+        "author_fullname": "Deguet, Anton",
+        "author_place": 3,
+        "persona_email": "anton.deguet@jhu.edu",
+        "persona_firstname": "Anton",
+        "persona_id": 635,
+        "persona_lastname": "Deguet"
+      },
+      {
+        "author_fullname": "Vagvolgyi, Balazs",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Balicki, Marcin",
+        "author_place": 5,
+        "persona_email": "marcin@jhu.edu",
+        "persona_firstname": "Marcin",
+        "persona_id": 3169,
+        "persona_lastname": "Balicki"
+      },
+      {
+        "author_fullname": "Taylor, Russell",
+        "author_place": 6,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Distributed computation",
+      "Generic Programming",
+      "Programming"
+    ],
+    "comments": [],
+    "date_submitted": "2011-08-01 03:04:37",
+    "handles": [
+      {
+        "handle": "10380/3284",
+        "handle_url": "http://hdl.handle.net/10380/3284"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 38,
+        "journal_name": "MICCAI 2011 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 813,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "pkaz@cs.jhu.edu",
+      "author_firstname": "Peter",
+      "author_fullname": "Kazanzides, Peter",
+      "author_id": 63,
+      "author_institution": "Johns Hopkins University",
+      "author_lastname": "Kazanzides"
+    },
+    "tags": [
+      "component-based software",
+      "software architecture"
+    ],
+    "title": "Component-based software for dynamic configuration and control of computer assisted intervention systems"
+  }
 }

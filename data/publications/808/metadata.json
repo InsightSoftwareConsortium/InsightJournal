@@ -1,77 +1,80 @@
 {
- "publication": {
-  "abstract": "CustusX version 3 is an in-house application for research in image-guided therapy with a focus on intraoperative use and ultrasound imaging. It is built upon open source toolkits such as the Insight Toolkit (ITK), the Visualization Toolkit (VTK), Qt and others. CustusX has a layered architecture based on services, and is extensible through the use of plugins. Key features are a user interface configurable by the user, an abstraction of the VTK pipeline, cross-platform video acquisition including temporal calibration, and a patient model. This paper gives an overview of the architecture and a description of the key concepts.",
-  "authors": [
-   {
-    "author_fullname": "Askeland, Christian",
-    "author_place": 1,
-    "persona_email": "christian.askeland@sintef.no",
-    "persona_firstname": "Christian",
-    "persona_id": 3123,
-    "persona_lastname": "Askeland"
-   },
-   {
-    "author_fullname": "Lindseth, Frank",
-    "author_place": 2,
-    "persona_email": "Frank.Lindseth@sintef.no",
-    "persona_firstname": "Frank",
-    "persona_id": 97,
-    "persona_lastname": "Lindseth"
-   },
-   {
-    "author_fullname": "Lervik Bakeng, Janne Beate",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Solberg, Ole Vegard",
-    "author_place": 4,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Tangen, Geir Arne",
-    "author_place": 5,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Programming",
-   "Registration"
-  ],
-  "comments": [],
-  "date_submitted": "2011-05-31 04:30:24",
-  "handles": [
-   {
-    "handle": "10380/3273",
-    "handle_url": "http://hdl.handle.net/10380/3273"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 38,
-    "journal_name": "MICCAI 2011 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 808,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "christian.askeland@sintef.no",
-   "author_firstname": "Christian",
-   "author_fullname": "Askeland, Christian",
-   "author_id": 3123,
-   "author_institution": "SINTEF",
-   "author_lastname": "Askeland"
-  },
-  "tags": [
-   "software architecture",
-   "image guided therapy",
-   "ultrasound"
-  ],
-  "title": "CustusX: A Research Application for Image-Guided Therapy"
- }
+  "publication": {
+    "abstract": "CustusX version 3 is an in-house application for research in image-guided therapy with a focus on intraoperative use and ultrasound imaging. It is built upon open source toolkits such as the Insight Toolkit (ITK), the Visualization Toolkit (VTK), Qt and others. CustusX has a layered architecture based on services, and is extensible through the use of plugins. Key features are a user interface configurable by the user, an abstraction of the VTK pipeline, cross-platform video acquisition including temporal calibration, and a patient model. This paper gives an overview of the architecture and a description of the key concepts.",
+    "articles": [
+      "bafybeieuyx3mfokkiwnqz2xpn3j45twz2q6wzxkdhlm6qtobxirgplnlri"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Askeland, Christian",
+        "author_place": 1,
+        "persona_email": "christian.askeland@sintef.no",
+        "persona_firstname": "Christian",
+        "persona_id": 3123,
+        "persona_lastname": "Askeland"
+      },
+      {
+        "author_fullname": "Lindseth, Frank",
+        "author_place": 2,
+        "persona_email": "Frank.Lindseth@sintef.no",
+        "persona_firstname": "Frank",
+        "persona_id": 97,
+        "persona_lastname": "Lindseth"
+      },
+      {
+        "author_fullname": "Lervik Bakeng, Janne Beate",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Solberg, Ole Vegard",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Tangen, Geir Arne",
+        "author_place": 5,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Programming",
+      "Registration"
+    ],
+    "comments": [],
+    "date_submitted": "2011-05-31 04:30:24",
+    "handles": [
+      {
+        "handle": "10380/3273",
+        "handle_url": "http://hdl.handle.net/10380/3273"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 38,
+        "journal_name": "MICCAI 2011 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 808,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "christian.askeland@sintef.no",
+      "author_firstname": "Christian",
+      "author_fullname": "Askeland, Christian",
+      "author_id": 3123,
+      "author_institution": "SINTEF",
+      "author_lastname": "Askeland"
+    },
+    "tags": [
+      "software architecture",
+      "image guided therapy",
+      "ultrasound"
+    ],
+    "title": "CustusX: A Research Application for Image-Guided Therapy"
+  }
 }

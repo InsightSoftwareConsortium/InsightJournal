@@ -1,81 +1,84 @@
 {
- "publication": {
-  "abstract": "This document describes the implementation using the Insight Toolkit of an algorithm for detecting creases (ridges and valleys) in N-dimensional images, based on the Local Structure Tensor of the image. In addition to the filter used to calculate the creaseness image, a filter for the computation of the structure tensor is also included in this submission.",
-  "authors": [
-   {
-    "author_fullname": "Vera, Sergio",
-    "author_place": 1,
-    "persona_email": "sergio.vera@alma3d.com",
-    "persona_firstname": "Sergio",
-    "persona_id": 2552,
-    "persona_lastname": "Vera"
-   },
-   {
-    "author_fullname": "Gil, Debora",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "L\u00f3pez, Antonio",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Gonz\u00e1lez, Miguel A.",
-    "author_place": 4,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Derivatives and Integrals",
-   "Feature extraction",
-   "Higher order derivatives"
-  ],
-  "comments": [
-   {
-    "content": "If you have an error c2244 , change\r\n\r\n\r\n\r\nIn itkstructuretensorimagefilter.h \r\n\r\n  typedef typename          TensorImageType::Pointer       TensorImagePointer;\r\n  typedef typename          GradientImageType::Pointer     GradientImagePointer;\r\n\r\nto\r\n\r\n  typedef typename          TOutputImage::Pointer       TensorImagePointer;\r\n  typedef typename          TOutputImage2::Pointer     GradientImagePointer;\r\n\r\n\r\nand it works...",
-    "date": "2012-03-24T15:37:17",
-    "persona_email": "annihilaatio@yahoo.com",
-    "persona_firstname": "Toni",
-    "persona_id": 6087,
-    "persona_lastname": "Sdga"
-   }
-  ],
-  "date_submitted": "2012-01-10 07:26:54",
-  "handles": [
-   {
-    "handle": "10380/3338",
-    "handle_url": "http://hdl.handle.net/10380/3338"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 848,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "sergio.vera@alma3d.com",
-   "author_firstname": "Sergio",
-   "author_fullname": "Vera, Sergio",
-   "author_id": 2552,
-   "author_institution": "Alma IT Systems",
-   "author_lastname": "Vera"
-  },
-  "tags": [
-   "Structure Tensor",
-   "Skeleton",
-   "Creaseness",
-   "Valley",
-   "Ridges"
-  ],
-  "title": "Multilocal Creaseness Measure"
- }
+  "publication": {
+    "abstract": "This document describes the implementation using the Insight Toolkit of an algorithm for detecting creases (ridges and valleys) in N-dimensional images, based on the Local Structure Tensor of the image. In addition to the filter used to calculate the creaseness image, a filter for the computation of the structure tensor is also included in this submission.",
+    "articles": [
+      "bafybeigyqbzojkkehtiv7vu6pjckc3ztj4d3welb66a47xx4aginrsoj2y"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Vera, Sergio",
+        "author_place": 1,
+        "persona_email": "sergio.vera@alma3d.com",
+        "persona_firstname": "Sergio",
+        "persona_id": 2552,
+        "persona_lastname": "Vera"
+      },
+      {
+        "author_fullname": "Gil, Debora",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "L\u00f3pez, Antonio",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Gonz\u00e1lez, Miguel A.",
+        "author_place": 4,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Derivatives and Integrals",
+      "Feature extraction",
+      "Higher order derivatives"
+    ],
+    "comments": [
+      {
+        "content": "If you have an error c2244 , change\r\n\r\n\r\n\r\nIn itkstructuretensorimagefilter.h \r\n\r\n  typedef typename          TensorImageType::Pointer       TensorImagePointer;\r\n  typedef typename          GradientImageType::Pointer     GradientImagePointer;\r\n\r\nto\r\n\r\n  typedef typename          TOutputImage::Pointer       TensorImagePointer;\r\n  typedef typename          TOutputImage2::Pointer     GradientImagePointer;\r\n\r\n\r\nand it works...",
+        "date": "2012-03-24T15:37:17",
+        "persona_email": "annihilaatio@yahoo.com",
+        "persona_firstname": "Toni",
+        "persona_id": 6087,
+        "persona_lastname": "Sdga"
+      }
+    ],
+    "date_submitted": "2012-01-10 07:26:54",
+    "handles": [
+      {
+        "handle": "10380/3338",
+        "handle_url": "http://hdl.handle.net/10380/3338"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 848,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "sergio.vera@alma3d.com",
+      "author_firstname": "Sergio",
+      "author_fullname": "Vera, Sergio",
+      "author_id": 2552,
+      "author_institution": "Alma IT Systems",
+      "author_lastname": "Vera"
+    },
+    "tags": [
+      "Structure Tensor",
+      "Skeleton",
+      "Creaseness",
+      "Valley",
+      "Ridges"
+    ],
+    "title": "Multilocal Creaseness Measure"
+  }
 }

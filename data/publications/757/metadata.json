@@ -1,68 +1,71 @@
 {
- "publication": {
-  "abstract": "In this paper, we analyze the relationship between parameters of brain tumors obtained through in vivo magnetic resonance imaging (MRI), in vivo magneticnresonance spectroscopy (MRS), and ex vivo immunohistochemistry (IHC). The goal of our project is to provide a quantitative definition of tumor cellularity based on the in vivo parameters. Biopsy samples obtained from previously untreated patients with a diagnosis of GBM are used to find the link between imaging parameters at the specific biopsy locations and IHC parameters from the corresponding tissue samples. A functional tree (FT) model of tumor cellularity is learned from the in vivo parameters and the remaining histological parameters. The tumor cellularity model is then tested on examples which contain only in vivo parameters, by first estimating the remaining IHC parameters by applying the Expectation Maximization (EM) algorithm, and then using the complete parameter vector for classification.",
-  "authors": [
-   {
-    "author_fullname": "Constantin, Alexandra",
-    "author_place": 1,
-    "persona_email": "alexacon@eecs.berkeley.edu",
-    "persona_firstname": "Alexandra",
-    "persona_id": 2714,
-    "persona_lastname": "Constantin"
-   },
-   {
-    "author_fullname": "Nelson, Sarah",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Bajcsy, Ruzena",
-    "author_place": 3,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Classification",
-   "Decision trees and non-metric classification",
-   "Missing and Noisy Features"
-  ],
-  "comments": [],
-  "date_submitted": "2010-09-08 01:16:09",
-  "handles": [
-   {
-    "handle": "10380/3213",
-    "handle_url": "http://hdl.handle.net/10380/3213"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 37,
-    "journal_name": "MICCAI 2010 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 757,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "alexacon@eecs.berkeley.edu",
-   "author_firstname": "Alexandra",
-   "author_fullname": "Constantin, Alexandra",
-   "author_id": 2714,
-   "author_institution": "University of California, Berkeley",
-   "author_lastname": "Constantin"
-  },
-  "tags": [
-   "MRS",
-   "tumor cellularity",
-   "spectroscopy",
-   "classification",
-   "multivariate model",
-   "MRI"
-  ],
-  "title": "Modeling Tumor Cellularity in Newly Diagnosed GBMs using MR Imaging and Spectroscopy"
- }
+  "publication": {
+    "abstract": "In this paper, we analyze the relationship between parameters of brain tumors obtained through in vivo magnetic resonance imaging (MRI), in vivo magneticnresonance spectroscopy (MRS), and ex vivo immunohistochemistry (IHC). The goal of our project is to provide a quantitative definition of tumor cellularity based on the in vivo parameters. Biopsy samples obtained from previously untreated patients with a diagnosis of GBM are used to find the link between imaging parameters at the specific biopsy locations and IHC parameters from the corresponding tissue samples. A functional tree (FT) model of tumor cellularity is learned from the in vivo parameters and the remaining histological parameters. The tumor cellularity model is then tested on examples which contain only in vivo parameters, by first estimating the remaining IHC parameters by applying the Expectation Maximization (EM) algorithm, and then using the complete parameter vector for classification.",
+    "articles": [
+      "bafybeihjbeiradzlc4uuhyhmqdd4kvd24mj6bywceivinsqgadex3wk4wu"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Constantin, Alexandra",
+        "author_place": 1,
+        "persona_email": "alexacon@eecs.berkeley.edu",
+        "persona_firstname": "Alexandra",
+        "persona_id": 2714,
+        "persona_lastname": "Constantin"
+      },
+      {
+        "author_fullname": "Nelson, Sarah",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Bajcsy, Ruzena",
+        "author_place": 3,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Classification",
+      "Decision trees and non-metric classification",
+      "Missing and Noisy Features"
+    ],
+    "comments": [],
+    "date_submitted": "2010-09-08 01:16:09",
+    "handles": [
+      {
+        "handle": "10380/3213",
+        "handle_url": "http://hdl.handle.net/10380/3213"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 37,
+        "journal_name": "MICCAI 2010 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 757,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "alexacon@eecs.berkeley.edu",
+      "author_firstname": "Alexandra",
+      "author_fullname": "Constantin, Alexandra",
+      "author_id": 2714,
+      "author_institution": "University of California, Berkeley",
+      "author_lastname": "Constantin"
+    },
+    "tags": [
+      "MRS",
+      "tumor cellularity",
+      "spectroscopy",
+      "classification",
+      "multivariate model",
+      "MRI"
+    ],
+    "title": "Modeling Tumor Cellularity in Newly Diagnosed GBMs using MR Imaging and Spectroscopy"
+  }
 }

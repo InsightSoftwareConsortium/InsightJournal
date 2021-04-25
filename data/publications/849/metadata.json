@@ -1,79 +1,82 @@
 {
- "publication": {
-  "abstract": "The recent ITKv4 refactoring includes several enhancements to the existing registration framework. These additional transform classes provide access to mappings described by dense displacement fields and their corresponding optimization which complement the popular free-form deformation (FFD) ap- proach already in ITK. Innovation motivated by previous work [5] and recent diffeomorphic image regis- tration developments in which the characteristic velocity field is represented by spatiotemporal B-splines [2], resulted in a diffeomorphic B-spline-based image registration algorithm combining and extending these techniques which we make available in ITK through the gerrit system. Additionally, we include two command line tools showcasing the new elements of the registration refactoring for 1) computing mappings between two images (antsRegistration) including the family of transforms discussed in this article and 2) applying those transformations to images (antsApplyTransforms). NB: The user must download the patch available at http://review.source.kitware.com/#/c/3606/ in or- der to compile the code accompanying this article.",
-  "authors": [
-   {
-    "author_fullname": "Tustison, Nicholas J.",
-    "author_place": 1,
-    "persona_email": "ntustison@gmail.com",
-    "persona_firstname": "Nicholas J.",
-    "persona_id": 8833,
-    "persona_lastname": "Tustison"
-   },
-   {
-    "author_fullname": "Avants, Brian",
-    "author_place": 2,
-    "persona_email": "stnava@gmail.com",
-    "persona_firstname": "Brian",
-    "persona_id": 2243,
-    "persona_lastname": "Avants"
-   }
-  ],
-  "categories": [
-   "Deformable registration",
-   "Registration",
-   "Transforms"
-  ],
-  "comments": [
-   {
-    "content": "Hi Mathieu,\r\n\r\nThanks for the review and you\\'re absolutely right---we do need to incorporate the handling of image series instead of just image pairs.  We plan to do that but haven\\'t yet as we have other priorities with respect to the contract that is funding this work.  Even our pairwise velocity field work continues to be refined (e.g.  http://review.source.kitware.com/#/c/7080/).  Perhaps we can communicate with you in the future regarding this request.\r\n\r\nThanks again,\r\nNick",
-    "date": "2012-08-29T10:25:58",
-    "persona_email": "ntustison@gmail.com",
-    "persona_firstname": "Nicholas J.",
-    "persona_id": 8833,
-    "persona_lastname": "Tustison"
-   },
-   {
-    "content": "Thanks for the info. Would be great to have a chat on this. The project is progressing fast :)",
-    "date": "2012-08-29T10:50:46",
-    "persona_email": "decraene@gmail.com",
-    "persona_firstname": "Mathieu ",
-    "persona_id": 5877,
-    "persona_lastname": "De craene"
-   }
-  ],
-  "date_submitted": "2012-01-03 15:20:06",
-  "handles": [
-   {
-    "handle": "10380/3334",
-    "handle_url": "http://hdl.handle.net/10380/3334"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 849,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "ntustison@gmail.com",
-   "author_firstname": "Nicholas J.",
-   "author_fullname": "Tustison, Nicholas J.",
-   "author_id": 8833,
-   "author_institution": "",
-   "author_lastname": "Tustison"
-  },
-  "tags": [
-   "ants",
-   "registration"
-  ],
-  "title": "The TVDMFFDVR Algorithm"
- }
+  "publication": {
+    "abstract": "The recent ITKv4 refactoring includes several enhancements to the existing registration framework. These additional transform classes provide access to mappings described by dense displacement fields and their corresponding optimization which complement the popular free-form deformation (FFD) ap- proach already in ITK. Innovation motivated by previous work [5] and recent diffeomorphic image regis- tration developments in which the characteristic velocity field is represented by spatiotemporal B-splines [2], resulted in a diffeomorphic B-spline-based image registration algorithm combining and extending these techniques which we make available in ITK through the gerrit system. Additionally, we include two command line tools showcasing the new elements of the registration refactoring for 1) computing mappings between two images (antsRegistration) including the family of transforms discussed in this article and 2) applying those transformations to images (antsApplyTransforms). NB: The user must download the patch available at http://review.source.kitware.com/#/c/3606/ in or- der to compile the code accompanying this article.",
+    "articles": [
+      "bafybeigvirylszuhx53soenh3ymu7gfdpctlohagm277ebhqdfhmkovvwa"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Tustison, Nicholas J.",
+        "author_place": 1,
+        "persona_email": "ntustison@gmail.com",
+        "persona_firstname": "Nicholas J.",
+        "persona_id": 8833,
+        "persona_lastname": "Tustison"
+      },
+      {
+        "author_fullname": "Avants, Brian",
+        "author_place": 2,
+        "persona_email": "stnava@gmail.com",
+        "persona_firstname": "Brian",
+        "persona_id": 2243,
+        "persona_lastname": "Avants"
+      }
+    ],
+    "categories": [
+      "Deformable registration",
+      "Registration",
+      "Transforms"
+    ],
+    "comments": [
+      {
+        "content": "Hi Mathieu,\r\n\r\nThanks for the review and you\\'re absolutely right---we do need to incorporate the handling of image series instead of just image pairs.  We plan to do that but haven\\'t yet as we have other priorities with respect to the contract that is funding this work.  Even our pairwise velocity field work continues to be refined (e.g.  http://review.source.kitware.com/#/c/7080/).  Perhaps we can communicate with you in the future regarding this request.\r\n\r\nThanks again,\r\nNick",
+        "date": "2012-08-29T10:25:58",
+        "persona_email": "ntustison@gmail.com",
+        "persona_firstname": "Nicholas J.",
+        "persona_id": 8833,
+        "persona_lastname": "Tustison"
+      },
+      {
+        "content": "Thanks for the info. Would be great to have a chat on this. The project is progressing fast :)",
+        "date": "2012-08-29T10:50:46",
+        "persona_email": "decraene@gmail.com",
+        "persona_firstname": "Mathieu ",
+        "persona_id": 5877,
+        "persona_lastname": "De craene"
+      }
+    ],
+    "date_submitted": "2012-01-03 15:20:06",
+    "handles": [
+      {
+        "handle": "10380/3334",
+        "handle_url": "http://hdl.handle.net/10380/3334"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 849,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "ntustison@gmail.com",
+      "author_firstname": "Nicholas J.",
+      "author_fullname": "Tustison, Nicholas J.",
+      "author_id": 8833,
+      "author_institution": "",
+      "author_lastname": "Tustison"
+    },
+    "tags": [
+      "ants",
+      "registration"
+    ],
+    "title": "The TVDMFFDVR Algorithm"
+  }
 }

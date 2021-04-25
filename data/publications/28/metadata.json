@@ -1,73 +1,76 @@
 {
- "publication": {
-  "abstract": "We propose a novel framework at MICCAI 2005 to predict pacing sites in the left ventricle (LV) of a heart. This framework can be used to assist pacemaker implantation and programming in cardiac resynchronization therapy (CRT) that is a widely adopted therapy for heart failure patients. Hierarchical agglomerative clustering technique is performed to the time series of LV wall thickness to identify pacing site candidates. Meanwhile, pearson correlation coefficients of wall motion series show the dissimilarity between them. These main components of our clustering based prediction framework are implemented by using open source software toolkit PRTools.",
-  "authors": [
-   {
-    "author_fullname": "Huang, Heng",
-    "author_place": 1,
-    "persona_email": "hh@cs.dartmouth.edu",
-    "persona_firstname": "Heng",
-    "persona_id": 30,
-    "persona_lastname": "Huang"
-   },
-   {
-    "author_fullname": "Shen, Li",
-    "author_place": 2,
-    "persona_email": "lshen@umassd.edu",
-    "persona_firstname": "Li",
-    "persona_id": 110,
-    "persona_lastname": "Shen"
-   },
-   {
-    "author_fullname": "Zhang, Rong",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Makedon, Fillia",
-    "author_place": 4,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Pearlman, Justin",
-    "author_place": 5,
-    "persona_id": null
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2005-08-05T08:58:18Z",
-  "handles": [
-   {
-    "handle": "1926/33",
-    "handle_url": "http://hdl.handle.net/1926/33"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 28,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "hh@cs.dartmouth.edu",
-   "author_firstname": "Heng",
-   "author_fullname": "Huang, Heng",
-   "author_id": 30,
-   "author_institution": "Dartmouth College",
-   "author_lastname": "Huang"
-  },
-  "tags": [
-   "computer science",
-   "medical imaging application"
-  ],
-  "title": "Clustering Based Cardiac Resynchronization Therapy Prediction using Open Source Toolkit PRTools"
- }
+  "publication": {
+    "abstract": "We propose a novel framework at MICCAI 2005 to predict pacing sites in the left ventricle (LV) of a heart. This framework can be used to assist pacemaker implantation and programming in cardiac resynchronization therapy (CRT) that is a widely adopted therapy for heart failure patients. Hierarchical agglomerative clustering technique is performed to the time series of LV wall thickness to identify pacing site candidates. Meanwhile, pearson correlation coefficients of wall motion series show the dissimilarity between them. These main components of our clustering based prediction framework are implemented by using open source software toolkit PRTools.",
+    "articles": [
+      "bafkreigcywlxc5kxpbjslrujmcee4xcc24522qvo6uqvq3rttcm6dz7xy4"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Huang, Heng",
+        "author_place": 1,
+        "persona_email": "hh@cs.dartmouth.edu",
+        "persona_firstname": "Heng",
+        "persona_id": 30,
+        "persona_lastname": "Huang"
+      },
+      {
+        "author_fullname": "Shen, Li",
+        "author_place": 2,
+        "persona_email": "lshen@umassd.edu",
+        "persona_firstname": "Li",
+        "persona_id": 110,
+        "persona_lastname": "Shen"
+      },
+      {
+        "author_fullname": "Zhang, Rong",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Makedon, Fillia",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Pearlman, Justin",
+        "author_place": 5,
+        "persona_id": null
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2005-08-05T08:58:18Z",
+    "handles": [
+      {
+        "handle": "1926/33",
+        "handle_url": "http://hdl.handle.net/1926/33"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 28,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "hh@cs.dartmouth.edu",
+      "author_firstname": "Heng",
+      "author_fullname": "Huang, Heng",
+      "author_id": 30,
+      "author_institution": "Dartmouth College",
+      "author_lastname": "Huang"
+    },
+    "tags": [
+      "computer science",
+      "medical imaging application"
+    ],
+    "title": "Clustering Based Cardiac Resynchronization Therapy Prediction using Open Source Toolkit PRTools"
+  }
 }

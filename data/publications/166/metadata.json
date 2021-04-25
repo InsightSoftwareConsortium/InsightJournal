@@ -1,63 +1,68 @@
 {
- "publication": {
-  "abstract": "Performance validation of nonlinear registration algorithms is a difficult problem due to the lack of a suitable ground truth in most applications. However, the ill-posed nature of the nonlinear registration problem and the large space of possible solutions makes the quantitative evaluation of algorithms extremely\r\nimportant. We argue that finding a standardized way of performing evaluation and comparing existing and new algorithms currently is more important than inventing novel methods. While there are already existing evaluation frameworks for nonlinear inter-subject brain registration applications, there is still a lack of protocols for intra-subject studies or soft tissue organs. In this work we present\r\nsuch a framework which is designed in an \u201dopen-source\u201d and \u201dopen-data\u201d manner around the Insight Segmentation & Registration Toolkit. The goal of our work is to provide the research community with the basis framework that should be extended by interested people in a community effort to gain importance for evaluation studies. We demonstrate our proposed framework on a sample evaluation and release its implementation and associated tools to the public domain.",
-  "authors": [
-   {
-    "author_fullname": "Urschler, Martin",
-    "author_place": 1,
-    "persona_email": "urschler@icg.tu-graz.ac.at",
-    "persona_firstname": "Martin",
-    "persona_id": 610,
-    "persona_lastname": "Urschler"
-   },
-   {
-    "author_fullname": "Kluckner, Stefan",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Bischof, Horst",
-    "author_place": 3,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Deformable registration",
-   "Image pyramids"
-  ],
-  "comments": [],
-  "date_submitted": "2007-07-15T17:57:53Z",
-  "handles": [
-   {
-    "handle": "1926/561",
-    "handle_url": "http://hdl.handle.net/1926/561"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 166,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "urschler@icg.tu-graz.ac.at",
-   "author_firstname": "Martin",
-   "author_fullname": "Urschler, Martin",
-   "author_id": 610,
-   "author_institution": "Institute for Computer Graphics and Vision, Graz University of Technology, Austria",
-   "author_lastname": "Urschler"
-  },
-  "tags": [
-   "nonlinear registration",
-   "evaluation"
-  ],
-  "title": "A Framework for Comparison and Evaluation of Nonlinear Intra-Subject Image Registration Algorithms"
- }
+  "publication": {
+    "abstract": "Performance validation of nonlinear registration algorithms is a difficult problem due to the lack of a suitable ground truth in most applications. However, the ill-posed nature of the nonlinear registration problem and the large space of possible solutions makes the quantitative evaluation of algorithms extremely\r\nimportant. We argue that finding a standardized way of performing evaluation and comparing existing and new algorithms currently is more important than inventing novel methods. While there are already existing evaluation frameworks for nonlinear inter-subject brain registration applications, there is still a lack of protocols for intra-subject studies or soft tissue organs. In this work we present\r\nsuch a framework which is designed in an \u201dopen-source\u201d and \u201dopen-data\u201d manner around the Insight Segmentation & Registration Toolkit. The goal of our work is to provide the research community with the basis framework that should be extended by interested people in a community effort to gain importance for evaluation studies. We demonstrate our proposed framework on a sample evaluation and release its implementation and associated tools to the public domain.",
+    "articles": [
+      "bafybeiaz4zt62yj5gm3udnx4lwrdqavhwlqtiwt247mhbx6x4rj2dqyyby",
+      "bafybeihpwasfzesjkydbrelveuo44zqukog7g7qbv6cpb4xxknbwqr3ac4",
+      "bafybeihpwasfzesjkydbrelveuo44zqukog7g7qbv6cpb4xxknbwqr3ac4"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Urschler, Martin",
+        "author_place": 1,
+        "persona_email": "urschler@icg.tu-graz.ac.at",
+        "persona_firstname": "Martin",
+        "persona_id": 610,
+        "persona_lastname": "Urschler"
+      },
+      {
+        "author_fullname": "Kluckner, Stefan",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Bischof, Horst",
+        "author_place": 3,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Deformable registration",
+      "Image pyramids"
+    ],
+    "comments": [],
+    "date_submitted": "2007-07-15T17:57:53Z",
+    "handles": [
+      {
+        "handle": "1926/561",
+        "handle_url": "http://hdl.handle.net/1926/561"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 166,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "urschler@icg.tu-graz.ac.at",
+      "author_firstname": "Martin",
+      "author_fullname": "Urschler, Martin",
+      "author_id": 610,
+      "author_institution": "Institute for Computer Graphics and Vision, Graz University of Technology, Austria",
+      "author_lastname": "Urschler"
+    },
+    "tags": [
+      "nonlinear registration",
+      "evaluation"
+    ],
+    "title": "A Framework for Comparison and Evaluation of Nonlinear Intra-Subject Image Registration Algorithms"
+  }
 }

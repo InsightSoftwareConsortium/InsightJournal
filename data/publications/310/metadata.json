@@ -1,57 +1,60 @@
 {
- "publication": {
-  "abstract": "This technical note presents an alternative threading model for the Insight Toolkit. The existing ITK threading model is based on a \\\"scatter / gather\\\" model and divides work evenly amongst all threads. Though suitable for many filters, considerations such as memory allocation per thread are important in some classes of filters. We propose to use the ZThread (http://sourceforge.net/projects/zthread/) library to explore a threading model based on an execution pool. The ZThread library is a cross platform, open source thread abstraction library loosely based on Java\\'s threading model.",
-  "authors": [
-   {
-    "author_fullname": "Blezek, Daniel",
-    "author_place": 1,
-    "persona_email": "daniel.blezek@gmail.com",
-    "persona_firstname": "Daniel",
-    "persona_id": 1018,
-    "persona_lastname": "Blezek"
-   }
-  ],
-  "categories": [
-   "Filtering",
-   "Parallelization, SMP"
-  ],
-  "comments": [],
-  "date_submitted": "2008-12-21 21:24:00",
-  "handles": [
-   {
-    "handle": "1926/1510",
-    "handle_url": "http://hdl.handle.net/1926/1510"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 310,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "daniel.blezek@gmail.com",
-   "author_firstname": "Daniel",
-   "author_fullname": "Blezek, Daniel",
-   "author_id": 1018,
-   "author_institution": "Mayo Clinic",
-   "author_lastname": "Blezek"
-  },
-  "tags": [
-   "Insight Toolkit",
-   "Threading",
-   "ZThread",
-   "Large Memory Filters",
-   "Multi-core",
-   "Parallelism"
-  ],
-  "title": "An alternative threading model for the Insight Toolkit"
- }
+  "publication": {
+    "abstract": "This technical note presents an alternative threading model for the Insight Toolkit. The existing ITK threading model is based on a \\\"scatter / gather\\\" model and divides work evenly amongst all threads. Though suitable for many filters, considerations such as memory allocation per thread are important in some classes of filters. We propose to use the ZThread (http://sourceforge.net/projects/zthread/) library to explore a threading model based on an execution pool. The ZThread library is a cross platform, open source thread abstraction library loosely based on Java\\'s threading model.",
+    "articles": [
+      "bafkreihvncehrrph4scyxtafsajpa6dq7adndp5gj6j4ty65v3n7z4ghre"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Blezek, Daniel",
+        "author_place": 1,
+        "persona_email": "daniel.blezek@gmail.com",
+        "persona_firstname": "Daniel",
+        "persona_id": 1018,
+        "persona_lastname": "Blezek"
+      }
+    ],
+    "categories": [
+      "Filtering",
+      "Parallelization, SMP"
+    ],
+    "comments": [],
+    "date_submitted": "2008-12-21 21:24:00",
+    "handles": [
+      {
+        "handle": "1926/1510",
+        "handle_url": "http://hdl.handle.net/1926/1510"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 310,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "daniel.blezek@gmail.com",
+      "author_firstname": "Daniel",
+      "author_fullname": "Blezek, Daniel",
+      "author_id": 1018,
+      "author_institution": "Mayo Clinic",
+      "author_lastname": "Blezek"
+    },
+    "tags": [
+      "Insight Toolkit",
+      "Threading",
+      "ZThread",
+      "Large Memory Filters",
+      "Multi-core",
+      "Parallelism"
+    ],
+    "title": "An alternative threading model for the Insight Toolkit"
+  }
 }

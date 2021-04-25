@@ -1,54 +1,57 @@
 {
- "publication": {
-  "abstract": "This document presents a VTK implementation of the algorithm described in \n\"A clustering method for efficient segmentation of 3D laser data\" by Klasing, Klaas Wollherr, Dirk, and Buss, Martin. The algorithm .\n\nThe code is available here:\nhttps://github.com/daviddoria/ClusteringSegmentation",
-  "authors": [
-   {
-    "author_fullname": "Doria, David",
-    "author_place": 1,
-    "persona_email": "daviddoria@gmail.com",
-    "persona_firstname": "David",
-    "persona_id": 2205,
-    "persona_lastname": "Doria"
-   }
-  ],
-  "categories": [
-   "Region growing",
-   "Segmentation"
-  ],
-  "comments": [],
-  "date_submitted": "2011-08-02 12:36:19",
-  "handles": [
-   {
-    "handle": "10380/3309",
-    "handle_url": "http://hdl.handle.net/10380/3309"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 35,
-    "journal_name": "The VTK Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 833,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "daviddoria@gmail.com",
-   "author_firstname": "David",
-   "author_fullname": "Doria, David",
-   "author_id": 2205,
-   "author_institution": "Rensselaer Polytechnic Institute",
-   "author_lastname": "Doria"
-  },
-  "tags": [
-   "Clustering",
-   "Segmentation",
-   "Point clouds"
-  ],
-  "title": "Clustering Segmentation for VTK"
- }
+  "publication": {
+    "abstract": "This document presents a VTK implementation of the algorithm described in \n\"A clustering method for efficient segmentation of 3D laser data\" by Klasing, Klaas Wollherr, Dirk, and Buss, Martin. The algorithm .\n\nThe code is available here:\nhttps://github.com/daviddoria/ClusteringSegmentation",
+    "articles": [
+      "bafkreic4idwbkpggbu4oic3nfxygzbn6dn2feqvikeu36n446qm7bqhxmq"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Doria, David",
+        "author_place": 1,
+        "persona_email": "daviddoria@gmail.com",
+        "persona_firstname": "David",
+        "persona_id": 2205,
+        "persona_lastname": "Doria"
+      }
+    ],
+    "categories": [
+      "Region growing",
+      "Segmentation"
+    ],
+    "comments": [],
+    "date_submitted": "2011-08-02 12:36:19",
+    "handles": [
+      {
+        "handle": "10380/3309",
+        "handle_url": "http://hdl.handle.net/10380/3309"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 35,
+        "journal_name": "The VTK Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 833,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "daviddoria@gmail.com",
+      "author_firstname": "David",
+      "author_fullname": "Doria, David",
+      "author_id": 2205,
+      "author_institution": "Rensselaer Polytechnic Institute",
+      "author_lastname": "Doria"
+    },
+    "tags": [
+      "Clustering",
+      "Segmentation",
+      "Point clouds"
+    ],
+    "title": "Clustering Segmentation for VTK"
+  }
 }

@@ -1,72 +1,75 @@
 {
- "publication": {
-  "abstract": "Segmentation of the human cerebrum from magnetic resonance images (MRI) into its component tissues has been a defining problem in medical imaging. Until recently, this has been solved as the tissue classification of the T1-weighted (T1-w) MRI, with numerous solutions for this problem having appeared in the literature. The clinical demands of understanding lesions, which are indistinguishable from gray matter in T1-w images, has necessitated the incorporation of T2-weighted Fluid Attenuated Inversion Recovery (FLAIR) images to improve segmentation of the cerebrum. Many of the existing methods fail to handle the second data channel gracefully, because of assumptions about their model. In our new approach, we explore a model free algorithm which uses a classification technique based on ensembles of decision trees to learn the mapping from an image feature to the corresponding tissue label. We use corresponding image patches from a registered set of T1-w and FLAIR images with a manual segmentation to construct our decision\ntree ensembles. Our method is \u000eefficient, taking less than two minutes on a 240x240x48 volume. We conduct experiments on five training sets in a leave-one-out fashion, as well as validation on an additional twelve subjects, and a landmark validation experiment on another cohort of five\nsubjects.",
-  "authors": [
-   {
-    "author_fullname": "Jog, Amod",
-    "author_place": 1,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Roy, Snehashis",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Prince, Jerry L.",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Carass, Aaron",
-    "author_place": 4,
-    "persona_email": "aaron_carass@jhu.edu",
-    "persona_firstname": "Aaron",
-    "persona_id": 8766,
-    "persona_lastname": "Carass"
-   }
-  ],
-  "categories": [
-   "Atlas-based segmentation",
-   "Decision trees and non-metric classification"
-  ],
-  "comments": [],
-  "date_submitted": "2013-10-22 17:52:43",
-  "handles": [
-   {
-    "handle": "10380/3441",
-    "handle_url": "http://hdl.handle.net/10380/3441"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 41,
-    "journal_name": "MICCAI 2013 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 905,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "aaron_carass@jhu.edu",
-   "author_firstname": "Aaron",
-   "author_fullname": "Carass, Aaron",
-   "author_id": 8766,
-   "author_institution": "Johns Hopkins University",
-   "author_lastname": "Carass"
-  },
-  "tags": [
-   "Patches",
-   "Classification",
-   "Decision Trees",
-   "Random Forests",
-   "Brain MRI",
-   "Brain Segmentation"
-  ],
-  "title": "MR Brain Segmentation using Decision Trees"
- }
+  "publication": {
+    "abstract": "Segmentation of the human cerebrum from magnetic resonance images (MRI) into its component tissues has been a defining problem in medical imaging. Until recently, this has been solved as the tissue classification of the T1-weighted (T1-w) MRI, with numerous solutions for this problem having appeared in the literature. The clinical demands of understanding lesions, which are indistinguishable from gray matter in T1-w images, has necessitated the incorporation of T2-weighted Fluid Attenuated Inversion Recovery (FLAIR) images to improve segmentation of the cerebrum. Many of the existing methods fail to handle the second data channel gracefully, because of assumptions about their model. In our new approach, we explore a model free algorithm which uses a classification technique based on ensembles of decision trees to learn the mapping from an image feature to the corresponding tissue label. We use corresponding image patches from a registered set of T1-w and FLAIR images with a manual segmentation to construct our decision\ntree ensembles. Our method is \u000eefficient, taking less than two minutes on a 240x240x48 volume. We conduct experiments on five training sets in a leave-one-out fashion, as well as validation on an additional twelve subjects, and a landmark validation experiment on another cohort of five\nsubjects.",
+    "articles": [
+      "bafybeiddaj2ycjdggzgsxsh6jzckrmwwglwexaokxlv7foo3lmpex22bbe"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Jog, Amod",
+        "author_place": 1,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Roy, Snehashis",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Prince, Jerry L.",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Carass, Aaron",
+        "author_place": 4,
+        "persona_email": "aaron_carass@jhu.edu",
+        "persona_firstname": "Aaron",
+        "persona_id": 8766,
+        "persona_lastname": "Carass"
+      }
+    ],
+    "categories": [
+      "Atlas-based segmentation",
+      "Decision trees and non-metric classification"
+    ],
+    "comments": [],
+    "date_submitted": "2013-10-22 17:52:43",
+    "handles": [
+      {
+        "handle": "10380/3441",
+        "handle_url": "http://hdl.handle.net/10380/3441"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 41,
+        "journal_name": "MICCAI 2013 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 905,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "aaron_carass@jhu.edu",
+      "author_firstname": "Aaron",
+      "author_fullname": "Carass, Aaron",
+      "author_id": 8766,
+      "author_institution": "Johns Hopkins University",
+      "author_lastname": "Carass"
+    },
+    "tags": [
+      "Patches",
+      "Classification",
+      "Decision Trees",
+      "Random Forests",
+      "Brain MRI",
+      "Brain Segmentation"
+    ],
+    "title": "MR Brain Segmentation using Decision Trees"
+  }
 }

@@ -1,63 +1,67 @@
 {
- "publication": {
-  "abstract": "Surgery simulation is a technology based on interactive biomechanics as well as haptic and visual rendering for training novice surgeons. Another important component of a surgery simulator is the representation of a patient's anatomy in terms of simple shapes, typically triangles and tetrahedra, coinciding with relevant tissues, whose manipulation, cutting and resection is simulated. While this technology has so far emphasized generic simulators, increasingly researchers are emphasizing models that derive from the images of patients whose pathology collectively are predictive of a significant proportion of the future caseload of surgeons. In addition, our philosophy of producing patient-specific neurosurgery simulators is to organize the architecture in terms of two parameters: the choice of approach- pterional, trans-nasal, frontal and so on, and the nature of the pathology, which in turn determines the specific nature of the treatment and choice of tools. This paper describes on-going work on the refinement of an open-source software pipeline for producing patient-specific neurosurgery simulation, based on segmentation tools such as those available in Slicer and BrainVisa, surface and volume meshing, such as public VTK-based tools and Tetgen respectively, and the SOFA simulation platform. Practical requirements of the various components of the pipeline, such as resolution control and fidelity of surface and volume meshing, and interactive nonlinear mechanics in the biomechanics engine, are discussed.",
-  "authors": [
-   {
-    "author_fullname": "Enquobahrie, Andinet",
-    "author_place": 1,
-    "persona_email": "andinet.enqu@kitware.com",
-    "persona_firstname": "Andinet",
-    "persona_id": 68,
-    "persona_lastname": "Enquobahrie"
-   },
-   {
-    "author_fullname": "Audette, Michel",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Lee, Huai-ping",
-    "author_place": 3,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Atlas-based segmentation",
-   "Mesh"
-  ],
-  "comments": [],
-  "date_submitted": "2011-08-08 17:49:01",
-  "handles": [
-   {
-    "handle": "10380/3287",
-    "handle_url": "http://hdl.handle.net/10380/3287"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 38,
-    "journal_name": "MICCAI 2011 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 816,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "andinet.enqu@kitware.com",
-   "author_firstname": "Andinet",
-   "author_fullname": "Enquobahrie, Andinet",
-   "author_id": 68,
-   "author_institution": "Kitware, Inc.",
-   "author_lastname": "Enquobahrie"
-  },
-  "tags": [
-   "Simulation",
-   "Neurosurgery"
-  ],
-  "title": "Towards an open-source pipeline for patient-specific neurosurgery simulation"
- }
+  "publication": {
+    "abstract": "Surgery simulation is a technology based on interactive biomechanics as well as haptic and visual rendering for training novice surgeons. Another important component of a surgery simulator is the representation of a patient's anatomy in terms of simple shapes, typically triangles and tetrahedra, coinciding with relevant tissues, whose manipulation, cutting and resection is simulated. While this technology has so far emphasized generic simulators, increasingly researchers are emphasizing models that derive from the images of patients whose pathology collectively are predictive of a significant proportion of the future caseload of surgeons. In addition, our philosophy of producing patient-specific neurosurgery simulators is to organize the architecture in terms of two parameters: the choice of approach- pterional, trans-nasal, frontal and so on, and the nature of the pathology, which in turn determines the specific nature of the treatment and choice of tools. This paper describes on-going work on the refinement of an open-source software pipeline for producing patient-specific neurosurgery simulation, based on segmentation tools such as those available in Slicer and BrainVisa, surface and volume meshing, such as public VTK-based tools and Tetgen respectively, and the SOFA simulation platform. Practical requirements of the various components of the pipeline, such as resolution control and fidelity of surface and volume meshing, and interactive nonlinear mechanics in the biomechanics engine, are discussed.",
+    "articles": [
+      "bafkreihczwxmpk6uv3sgvvp3jfvlbybzbstjz4sxexmrrxcx4ddi2zxq5u",
+      "bafybeibbrkpqspqpo2akeb42b3ov2ewafctgffbr7jadqj4kijncsbzehm"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Enquobahrie, Andinet",
+        "author_place": 1,
+        "persona_email": "andinet.enqu@kitware.com",
+        "persona_firstname": "Andinet",
+        "persona_id": 68,
+        "persona_lastname": "Enquobahrie"
+      },
+      {
+        "author_fullname": "Audette, Michel",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Lee, Huai-ping",
+        "author_place": 3,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Atlas-based segmentation",
+      "Mesh"
+    ],
+    "comments": [],
+    "date_submitted": "2011-08-08 17:49:01",
+    "handles": [
+      {
+        "handle": "10380/3287",
+        "handle_url": "http://hdl.handle.net/10380/3287"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 38,
+        "journal_name": "MICCAI 2011 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 816,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "andinet.enqu@kitware.com",
+      "author_firstname": "Andinet",
+      "author_fullname": "Enquobahrie, Andinet",
+      "author_id": 68,
+      "author_institution": "Kitware, Inc.",
+      "author_lastname": "Enquobahrie"
+    },
+    "tags": [
+      "Simulation",
+      "Neurosurgery"
+    ],
+    "title": "Towards an open-source pipeline for patient-specific neurosurgery simulation"
+  }
 }

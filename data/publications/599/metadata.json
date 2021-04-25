@@ -1,98 +1,103 @@
 {
- "publication": {
-  "abstract": "This paper describes an ensemble segmentation trained by the AdaBoost algorithm, which finds a sequence of weak hypotheses, each of which is appropriate for the distribution on training example, and combines the weak hypotheses by a weighted majority vote. In our study, a weak hypothesis corresponds to a weak segmentation process. This paper shows a procedure for generating an ensemble segmentation algorithm using AdaBoost, and applies it to a liver lesion extraction problem from a contrast enhanced abdominal CT volume. A leave-one-patient-out validation test using 16 CT volumes demonstrated the effectiveness of the generated ensemble segmentation algorithm. In addition, we evaluated the performance by applying the algorithm to unknown test data provided by the \ufffd3D Liver Tumor Segmentation Challenge 2008\ufffd.",
-  "authors": [
-   {
-    "author_fullname": "SHIMIZU, Akinobu",
-    "author_place": 1,
-    "persona_email": "akinobu.shimizu@gmail.com",
-    "persona_firstname": "Akinobu",
-    "persona_id": 901,
-    "persona_lastname": "Shimizu"
-   },
-   {
-    "author_fullname": "NARIHIRA, Takuya",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "FURUKAWA, Daisuke",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "KOBATAKE, Hidefumi",
-    "author_place": 4,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "NAWANO, Shigeru",
-    "author_place": 5,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "SHINOZAKI, Kenji",
-    "author_place": 6,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Feature extraction",
-   "Segmentation"
-  ],
-  "comments": [],
-  "date_submitted": "2008-07-07T09:42:25Z",
-  "handles": [
-   {
-    "handle": "10380/1411",
-    "handle_url": "http://hdl.handle.net/10380/1411"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 45,
-    "journal_name": "MICCAI 2016 Workshops"
-   },
-   {
-    "journal_id": 33,
-    "journal_name": "MICCAI 2008 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 599,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "dengxiang05@gmail.com",
-     "author_firstname": "Xiang",
-     "author_id": 872,
-     "author_lastname": "Deng"
+  "publication": {
+    "abstract": "This paper describes an ensemble segmentation trained by the AdaBoost algorithm, which finds a sequence of weak hypotheses, each of which is appropriate for the distribution on training example, and combines the weak hypotheses by a weighted majority vote. In our study, a weak hypothesis corresponds to a weak segmentation process. This paper shows a procedure for generating an ensemble segmentation algorithm using AdaBoost, and applies it to a liver lesion extraction problem from a contrast enhanced abdominal CT volume. A leave-one-patient-out validation test using 16 CT volumes demonstrated the effectiveness of the generated ensemble segmentation algorithm. In addition, we evaluated the performance by applying the algorithm to unknown test data provided by the \ufffd3D Liver Tumor Segmentation Challenge 2008\ufffd.",
+    "articles": [
+      "bafybeihg3k5voqyjagbfxh52p6hjhxxgrfitr6jgbu5pive2cfeg5s3cmy",
+      null,
+      "bafybeicvhfuhd6wtdjb4sp6re7wfsbmryormu3ibblsw4atp372esewwym"
+    ],
+    "authors": [
+      {
+        "author_fullname": "SHIMIZU, Akinobu",
+        "author_place": 1,
+        "persona_email": "akinobu.shimizu@gmail.com",
+        "persona_firstname": "Akinobu",
+        "persona_id": 901,
+        "persona_lastname": "Shimizu"
+      },
+      {
+        "author_fullname": "NARIHIRA, Takuya",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "FURUKAWA, Daisuke",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "KOBATAKE, Hidefumi",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "NAWANO, Shigeru",
+        "author_place": 5,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "SHINOZAKI, Kenji",
+        "author_place": 6,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Feature extraction",
+      "Segmentation"
+    ],
+    "comments": [],
+    "date_submitted": "2008-07-07T09:42:25Z",
+    "handles": [
+      {
+        "handle": "10380/1411",
+        "handle_url": "http://hdl.handle.net/10380/1411"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<p>This paper presents an automatic live tumor segmentation technique. <br />In this method, tumors are segmented using an AdaBoosting based algorithm. Morphological operation is followed to refine the segmentation.</p><p><br />Detailed comments:</p><p>1) Many empirically determined parameters are used to compute the 54 features in the proposed tumor segmentation algorithm. <br />This could make this technique sensitive to&nbsp;size and characteristics of training data. Could the authors briefly address this point?</p><p>2) While the focus of this contest is accuracy of tumor segmentation techniques, it would be helpful if the authors could provide some information regarding the false positives in the results, because it is an important indicator of potential of clinical application.</p><p>3) What&#39;s the difference between the segmentation algorithms for small and large lesions?<br />How do the authors determine small and large lesions?</p><p>&nbsp;</p><p>&nbsp;</p>",
-    "date": "07-25-2008",
-    "review_id": 1516
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": null,
-   "author_firstname": null,
-   "author_fullname": ", ",
-   "author_id": null,
-   "author_institution": "Tokyo University of Agriculture and Technology",
-   "author_lastname": null
-  },
-  "tags": [
-   "CT volume",
-   "lesion extraction",
-   "liver",
-   "AdaBoost",
-   "metastasis",
-   "ensemble segmentation"
-  ],
-  "title": "Ensemble segmentation using AdaBoost with application to liver lesion extraction from a CT volume"
- }
+    "journals": [
+      {
+        "journal_id": 45,
+        "journal_name": "MICCAI 2016 Workshops"
+      },
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 599,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "dengxiang05@gmail.com",
+          "author_firstname": "Xiang",
+          "author_id": 872,
+          "author_lastname": "Deng"
+        },
+        "content": "<p>This paper presents an automatic live tumor segmentation technique. <br />In this method, tumors are segmented using an AdaBoosting based algorithm. Morphological operation is followed to refine the segmentation.</p><p><br />Detailed comments:</p><p>1) Many empirically determined parameters are used to compute the 54 features in the proposed tumor segmentation algorithm. <br />This could make this technique sensitive to&nbsp;size and characteristics of training data. Could the authors briefly address this point?</p><p>2) While the focus of this contest is accuracy of tumor segmentation techniques, it would be helpful if the authors could provide some information regarding the false positives in the results, because it is an important indicator of potential of clinical application.</p><p>3) What&#39;s the difference between the segmentation algorithms for small and large lesions?<br />How do the authors determine small and large lesions?</p><p>&nbsp;</p><p>&nbsp;</p>",
+        "date": "07-25-2008",
+        "review_id": 1516
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": null,
+      "author_firstname": null,
+      "author_fullname": ", ",
+      "author_id": null,
+      "author_institution": "Tokyo University of Agriculture and Technology",
+      "author_lastname": null
+    },
+    "tags": [
+      "CT volume",
+      "lesion extraction",
+      "liver",
+      "AdaBoost",
+      "metastasis",
+      "ensemble segmentation"
+    ],
+    "title": "Ensemble segmentation using AdaBoost with application to liver lesion extraction from a CT volume"
+  }
 }

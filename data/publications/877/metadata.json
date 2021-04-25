@@ -1,78 +1,82 @@
 {
- "publication": {
-  "abstract": "Intensity inhomogeneities often occur in medical images, especially when using magnetic resonance imaging. In these images, the standard Chan-and-Vese levelset segmentation method may not work properly, as it assumes constant intensity distributions for foreground and background. Recently, a novel method was published that models the intensities as piece-wise smooth, and thus is more suitable to segment images with intensity homogeneities. However, this method was not yet implemented in ITK. This submission introduces our implementation of the region-scalable-fitting levelset segmentation method within the ITKv4 levelset framework.\n",
-  "authors": [
-   {
-    "author_fullname": "Van Walsum, Theo",
-    "author_place": 5,
-    "persona_email": "t.vanwalsum@erasmusmc.nl",
-    "persona_firstname": "Theo",
-    "persona_id": 874,
-    "persona_lastname": "van Walsum"
-   },
-   {
-    "author_fullname": "Tang, Hui",
-    "author_place": 2,
-    "persona_email": "tanghui.seu@gmail.com",
-    "persona_firstname": "Hui",
-    "persona_id": 6428,
-    "persona_lastname": "Tang"
-   },
-   {
-    "author_fullname": "Hameeteman, Reinhard",
-    "author_place": 3,
-    "persona_email": "Reinhard@Hameeteman.net",
-    "persona_firstname": "Reinhard",
-    "persona_id": 2164,
-    "persona_lastname": "Hameeteman"
-   },
-   {
-    "author_fullname": "Gelas, Arnaud",
-    "author_place": 4,
-    "persona_email": "arnaudgelas@gmail.com",
-    "persona_firstname": "Arnaud",
-    "persona_id": 7896,
-    "persona_lastname": "Gelas"
-   }
-  ],
-  "categories": [
-   "Level sets",
-   "Segmentation"
-  ],
-  "comments": [],
-  "date_submitted": "2012-08-22 10:21:05",
-  "handles": [
-   {
-    "handle": "10380/3383",
-    "handle_url": "http://hdl.handle.net/10380/3383"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 877,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "tanghui.seu@gmail.com",
-   "author_firstname": "Hui",
-   "author_fullname": "Tang, Hui",
-   "author_id": 6428,
-   "author_institution": "Delft University of Technology",
-   "author_lastname": "Tang"
-  },
-  "tags": [
-   "piecewise smooth",
-   "intensity inhomogeneity",
-   "levelsets"
-  ],
-  "title": "An implementation of the minimization of region-scalable fitting energy levelsets"
- }
+  "publication": {
+    "abstract": "Intensity inhomogeneities often occur in medical images, especially when using magnetic resonance imaging. In these images, the standard Chan-and-Vese levelset segmentation method may not work properly, as it assumes constant intensity distributions for foreground and background. Recently, a novel method was published that models the intensities as piece-wise smooth, and thus is more suitable to segment images with intensity homogeneities. However, this method was not yet implemented in ITK. This submission introduces our implementation of the region-scalable-fitting levelset segmentation method within the ITKv4 levelset framework.\n",
+    "articles": [
+      "bafybeibug2ecbv2unn6sk3mp2qvypyaksqlorukq6uovrnk3gbgs5q2s3i",
+      "bafybeibug2ecbv2unn6sk3mp2qvypyaksqlorukq6uovrnk3gbgs5q2s3i"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Van Walsum, Theo",
+        "author_place": 5,
+        "persona_email": "t.vanwalsum@erasmusmc.nl",
+        "persona_firstname": "Theo",
+        "persona_id": 874,
+        "persona_lastname": "van Walsum"
+      },
+      {
+        "author_fullname": "Tang, Hui",
+        "author_place": 2,
+        "persona_email": "tanghui.seu@gmail.com",
+        "persona_firstname": "Hui",
+        "persona_id": 6428,
+        "persona_lastname": "Tang"
+      },
+      {
+        "author_fullname": "Hameeteman, Reinhard",
+        "author_place": 3,
+        "persona_email": "Reinhard@Hameeteman.net",
+        "persona_firstname": "Reinhard",
+        "persona_id": 2164,
+        "persona_lastname": "Hameeteman"
+      },
+      {
+        "author_fullname": "Gelas, Arnaud",
+        "author_place": 4,
+        "persona_email": "arnaudgelas@gmail.com",
+        "persona_firstname": "Arnaud",
+        "persona_id": 7896,
+        "persona_lastname": "Gelas"
+      }
+    ],
+    "categories": [
+      "Level sets",
+      "Segmentation"
+    ],
+    "comments": [],
+    "date_submitted": "2012-08-22 10:21:05",
+    "handles": [
+      {
+        "handle": "10380/3383",
+        "handle_url": "http://hdl.handle.net/10380/3383"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 877,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "tanghui.seu@gmail.com",
+      "author_firstname": "Hui",
+      "author_fullname": "Tang, Hui",
+      "author_id": 6428,
+      "author_institution": "Delft University of Technology",
+      "author_lastname": "Tang"
+    },
+    "tags": [
+      "piecewise smooth",
+      "intensity inhomogeneity",
+      "levelsets"
+    ],
+    "title": "An implementation of the minimization of region-scalable fitting energy levelsets"
+  }
 }

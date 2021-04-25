@@ -1,74 +1,77 @@
 {
- "publication": {
-  "abstract": "Superpixel algorithms have proven to be a useful initial step for segmentation and subsequent processing of images, reducing computational complexity by replacing the use of expensive per-pixel primitives with a higher-level abstraction, superpixels. They have been successfully applied both in the context of traditional image analysis and deep learning based approaches. In this work, we present a general- ized implementation of the simple linear iterative clustering (SLIC) superpixel algorithm that has been generalized for n-dimensional scalar and multi-channel images. Additionally, the standard iterative im- plementation is replaced by a parallel, multi-threaded one. We describe the implementation details and analyze its scalability using a strong scaling formulation. Quantitative evaluation is performed using a 3D image, the Visible Human cryosection dataset, and a 2D image from the same dataset. Results show good scalability with runtime gains even when using a large number of threads that exceeds the physical number of available cores (hyperthreading).",
-  "authors": [
-   {
-    "author_fullname": "Lowekamp, Bradley",
-    "author_place": 1,
-    "persona_email": "blowekamp@mail.nih.gov",
-    "persona_firstname": "Bradley",
-    "persona_id": 1026,
-    "persona_lastname": "Lowekamp"
-   },
-   {
-    "author_fullname": "Chen, David",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Yaniv, Ziv",
-    "author_place": 3,
-    "persona_email": "zivy@isis.georgetown.edu",
-    "persona_firstname": "Ziv",
-    "persona_id": 201,
-    "persona_lastname": "Yaniv"
-   },
-   {
-    "author_fullname": "Yoo, Terry",
-    "author_place": 4,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Filtering",
-   "Parallelization, SMP",
-   "Segmentation"
-  ],
-  "comments": [],
-  "date_submitted": "2018-07-23 09:56:37",
-  "handles": [
-   {
-    "handle": "10380/3596",
-    "handle_url": "http://hdl.handle.net/10380/3596"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 989,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "blowekamp@mail.nih.gov",
-   "author_firstname": "Bradley",
-   "author_fullname": "Lowekamp, Bradley",
-   "author_id": 1026,
-   "author_institution": "Lockheed Martin Contractor for Office of High Performance Computing and Communications National Library of Medicine ",
-   "author_lastname": "Lowekamp"
-  },
-  "tags": [
-   "Superpixels",
-   "Parallel",
-   "Performance",
-   "Segmentation"
-  ],
-  "title": "Scalable Simple Linear Iterative Clustering (SSLIC) Using a Generic and Parallel Approach"
- }
+  "publication": {
+    "abstract": "Superpixel algorithms have proven to be a useful initial step for segmentation and subsequent processing of images, reducing computational complexity by replacing the use of expensive per-pixel primitives with a higher-level abstraction, superpixels. They have been successfully applied both in the context of traditional image analysis and deep learning based approaches. In this work, we present a general- ized implementation of the simple linear iterative clustering (SLIC) superpixel algorithm that has been generalized for n-dimensional scalar and multi-channel images. Additionally, the standard iterative im- plementation is replaced by a parallel, multi-threaded one. We describe the implementation details and analyze its scalability using a strong scaling formulation. Quantitative evaluation is performed using a 3D image, the Visible Human cryosection dataset, and a 2D image from the same dataset. Results show good scalability with runtime gains even when using a large number of threads that exceeds the physical number of available cores (hyperthreading).",
+    "articles": [
+      "bafybeicupzwvkmwu6jqpzmuaepsuf4avj5zoe2eyh4z5gr3idowjksgfri"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Lowekamp, Bradley",
+        "author_place": 1,
+        "persona_email": "blowekamp@mail.nih.gov",
+        "persona_firstname": "Bradley",
+        "persona_id": 1026,
+        "persona_lastname": "Lowekamp"
+      },
+      {
+        "author_fullname": "Chen, David",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Yaniv, Ziv",
+        "author_place": 3,
+        "persona_email": "zivy@isis.georgetown.edu",
+        "persona_firstname": "Ziv",
+        "persona_id": 201,
+        "persona_lastname": "Yaniv"
+      },
+      {
+        "author_fullname": "Yoo, Terry",
+        "author_place": 4,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Filtering",
+      "Parallelization, SMP",
+      "Segmentation"
+    ],
+    "comments": [],
+    "date_submitted": "2018-07-23 09:56:37",
+    "handles": [
+      {
+        "handle": "10380/3596",
+        "handle_url": "http://hdl.handle.net/10380/3596"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 989,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "blowekamp@mail.nih.gov",
+      "author_firstname": "Bradley",
+      "author_fullname": "Lowekamp, Bradley",
+      "author_id": 1026,
+      "author_institution": "Lockheed Martin Contractor for Office of High Performance Computing and Communications National Library of Medicine ",
+      "author_lastname": "Lowekamp"
+    },
+    "tags": [
+      "Superpixels",
+      "Parallel",
+      "Performance",
+      "Segmentation"
+    ],
+    "title": "Scalable Simple Linear Iterative Clustering (SSLIC) Using a Generic and Parallel Approach"
+  }
 }

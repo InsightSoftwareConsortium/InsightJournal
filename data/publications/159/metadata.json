@@ -1,117 +1,121 @@
 {
- "publication": {
-  "abstract": "At the Johns Hopkins University\u2019s Engineering Research Center for Computer-Integrated Surgical Systems and Technology (ERC-CISST) laboratory, we have designed and developed a platformindependent C++ software package, called the nArray library, that provides a unified framework for efficiently working with multidimensional data sets. In this paper, we present and discuss the core elements of the library, including its intuitive and uniform API, efficient arithmetic engine algorithm, and efficient sub-volume algorithm. We then compare the performance of the nArray library with that of an existing multidimensional array toolkit, ITK. We conclude that the nArray library is more efficient than ITK in many situations, especially in operations on sub-arrays, and that the two packages have comparable performance in many other scenarios. The underlying algorithms, if incorporated in ITK, can help improve its performance.",
-  "authors": [
-   {
-    "author_fullname": "Sadowsky, Ofri",
-    "author_place": 1,
-    "persona_email": "ofri@cs.jhu.edu",
-    "persona_firstname": "Ofri",
-    "persona_id": 615,
-    "persona_lastname": "Sadowsky"
-   },
-   {
-    "author_fullname": "Li, Daniel",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Deguet, Anton",
-    "author_place": 3,
-    "persona_email": "anton.deguet@jhu.edu",
-    "persona_firstname": "Anton",
-    "persona_id": 635,
-    "persona_lastname": "Deguet"
-   },
-   {
-    "author_fullname": "Kazanzides, Peter",
-    "author_place": 4,
-    "persona_email": "pkaz@cs.jhu.edu",
-    "persona_firstname": "Peter",
-    "persona_id": 63,
-    "persona_lastname": "Kazanzides"
-   }
-  ],
-  "categories": [
-   "CMake",
-   "Code memory optimization",
-   "Code speed optimization",
-   "Data Representation",
-   "Extreme Programming",
-   "Generic Programming",
-   "Image",
-   "Iterators",
-   "Linear Algebra",
-   "Mathematics",
-   "Programming",
-   "Spatial Objects"
-  ],
-  "comments": [],
-  "date_submitted": "2007-07-02",
-  "handles": [
-   {
-    "handle": "1926/553",
-    "handle_url": "http://hdl.handle.net/1926/553"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 159,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "luis.ibanez@kitware.com",
-     "author_firstname": "Luis",
-     "author_id": 4,
-     "author_lastname": "Ibanez"
+  "publication": {
+    "abstract": "At the Johns Hopkins University\u2019s Engineering Research Center for Computer-Integrated Surgical Systems and Technology (ERC-CISST) laboratory, we have designed and developed a platformindependent C++ software package, called the nArray library, that provides a unified framework for efficiently working with multidimensional data sets. In this paper, we present and discuss the core elements of the library, including its intuitive and uniform API, efficient arithmetic engine algorithm, and efficient sub-volume algorithm. We then compare the performance of the nArray library with that of an existing multidimensional array toolkit, ITK. We conclude that the nArray library is more efficient than ITK in many situations, especially in operations on sub-arrays, and that the two packages have comparable performance in many other scenarios. The underlying algorithms, if incorporated in ITK, can help improve its performance.",
+    "articles": [
+      "bafybeibmbt23amaragvce5o7c5h76vqxuj3sljqm6b6xu5hzeyl7cy7ymi",
+      "bafybeiawhyiswf3tdmgu6nrgchsxdwb6nk74juc2kom7oxljcw4ow44t5m"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Sadowsky, Ofri",
+        "author_place": 1,
+        "persona_email": "ofri@cs.jhu.edu",
+        "persona_firstname": "Ofri",
+        "persona_id": 615,
+        "persona_lastname": "Sadowsky"
+      },
+      {
+        "author_fullname": "Li, Daniel",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Deguet, Anton",
+        "author_place": 3,
+        "persona_email": "anton.deguet@jhu.edu",
+        "persona_firstname": "Anton",
+        "persona_id": 635,
+        "persona_lastname": "Deguet"
+      },
+      {
+        "author_fullname": "Kazanzides, Peter",
+        "author_place": 4,
+        "persona_email": "pkaz@cs.jhu.edu",
+        "persona_firstname": "Peter",
+        "persona_id": 63,
+        "persona_lastname": "Kazanzides"
+      }
+    ],
+    "categories": [
+      "CMake",
+      "Code memory optimization",
+      "Code speed optimization",
+      "Data Representation",
+      "Extreme Programming",
+      "Generic Programming",
+      "Image",
+      "Iterators",
+      "Linear Algebra",
+      "Mathematics",
+      "Programming",
+      "Spatial Objects"
+    ],
+    "comments": [],
+    "date_submitted": "2007-07-02",
+    "handles": [
+      {
+        "handle": "1926/553",
+        "handle_url": "http://hdl.handle.net/1926/553"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<p><strong>Summary:</strong></p><p>This paper describes nArray, and open source library for manipulating N-Dimensional arrays, and compares it usage with equivalent operations in N-Dimensional images in ITK. </p><p> <br /> <strong>Hypothesis:</strong><br /> </p><p>N/A<br /> <br /> <strong>Evidence:</strong><br /> </p><p>N/A</p><p><br /> <strong>Open Science:</strong></p><p>The paper fully complies with the requirements of Open Science. The authors provide their source code and detailed instructions (in the form of well configured tests) on how to run the same benchmarks that are presented in the paper.</p><p><br /> <strong>Reproducibility:</strong></p><p>It was straight forward to reproduce the work that the authors describe in their paper.</p><p>The source code of the library was provided with the paper, along with the source code of the benchmarks that compared nArray performance against ITK.</p><p>It was very easy to configure, build and run the code.</p><p>I build it on Debian Linux, in a dual processon Xeon 2.4GHz, 3Gb RAM, build with gcc 4.1, for Release </p><p>&nbsp;</p><p>Given that the machine I used is different from what the authors used, the actual numerical output of the Benchmarks are different from what appears in the paper. </p><p>&nbsp;However, this simply highlight how important is that benchmark comparisons have to be performed by providing readers the means of repeating the benchmark on their own local environment. </p><p>The authors did a great job of organizing and configuring the benchmark test s in such a way that they are almost trivial to execute. </p><p>The outputs in my system are:</p><ul><li>ImageAdd_ITK_Benchmark Window Extract 21032 Sum 18100 WindowsExtract and sum 39119 <br /></li><li>ImageAdd_nArray_Benchmark SumOf time 7488 operator + time 14076</li><li>Subarray_ITK_Benchmark Fill time 416537 Window time 10926 Slice time 478 Permute time 231274<br /></li><li>Subarray_nArray_Benchmark Fill time&nbsp; 360814&nbsp; Window time 5225&nbsp; Slice time 214&nbsp; Permute time 192745<br /></li></ul><p> It wasn&#39;t obvious how to map these numbers into the corresponding cells of the Table 3, in page 13 of the paper.... </p><p>&nbsp;</p><p>The benchmark conclusions are a bit misleading in the abstract and the conclusions sections. Specially given that several of the comparison showed that nArray methods are faster in some cases and slower in some other cases.&nbsp; In any case, the advantage of the paper is that the source code for both ITK and nArray is available, and the authors made the benchmarks available for inspections to the readers. This makes possible to verify how the code performs in other platform combinations.&nbsp;</p><p><br /> <strong>Use of Open Source Software:</strong></p><p>The authors used ITK as a reference to compare the performance of nArray.</p><p>nArray was also configured using CMake&nbsp;</p><p> <br /> <strong>Open Source Contributions:</strong></p><p>The authors provide the source code of nArray and distribute it under a thoughtful license. </p><p>The code is very well organized, and it was straight forward to use. <br /><br /> <br /> <strong>Code Quality:</strong></p><p><br />The source code is very well written. It uses a consistent coding style. The coding style is different from ITK&#39;s but that&#39;s not a concern given that nArray is a library and if used from ITK it will probably be included in the Utilities directory and then its functionalities will be invoked from there. </p><p>I build the code only in Linux, so I didn&#39;t verified the portability of the code. However the authors present results for Linux and Windows, and from the structure of the code there are no reasons to believe that it couldn&#39;t be widely portable. </p><p> <br /> <strong>Applicability to other problems:</strong></p><p>Since the nArray library provide such a fundamental functionality of storage, data access and basic data processing there is an endless list of applications for it. </p><p>It is certainly worth to explore mechanisms for integrating this library with ITK, whether by making easy for users to use simultaneously ITK images and nArrays, for example via ImageAdaptors, or via specialized version of the nArray___Ref classes that could actually point to an ITK image allocated buffer.<br /><br /> <br /> <strong>Suggestions for future work:</strong></p><p>Exploring combinations of ITK and nArray are probably the most interesting next step. This will make possible for application developers to take advantage of nArray qualities in certain operations of their applications, while using ITK for other operations, and in this way get the best of each world. This could be implemented as</p><ul><li>An itkImage-like class that reuses the memory allocated by an nArray, maskarading the nArray iterations as an itkPixelContainer</li><li>An nArray___Ref class that connects to an ITK image buffer instead of an actual memory block allocated by an nArray class.</li></ul><p> <br /> <strong>Requests for additional information from authors:</strong></p><p>I missed from the paper some comments regarding the impact of multi-threading. Specially considering the fact that one of the machines used by the authors is a dual processor, and that the AddImageFilter in ITK is multi-threaded. We assume that the nArray algorithms are multi-threaded, but there is no explicit mention of it in the paper. If nArray, is not multi-threader, then the timing reported are even more impressive, since it will mean that (at least in one platform) their speed more that doubled ITK performance.</p><p>A quick grepping on the source code of the authors seem to indicate that no multi-threading is being used in nArray. If that&#39;s the case, the results of the benchmark must be re-analized under this light, and,.... it also becomes interesting to consider multi-threading nArray, in order to get even better performance.</p><p><br /> <strong>Additional Comments:</strong></p><p>It will be very interesting, and very useful to the ITK community to explore mechanisms for bringing the advantages of nArray into ITK. </p><p>Several mechanisms come to mind</p><ul><li>Creating specialized ITK filters whose internal implementation uses nArray</li><li>Studying the internal implementation of nArray and compare it to ITK image iterators, to improve the implementation of the ITK iterators. Such improvements will then automatically improve the performance of ITK filters since almost all of them are based on image iterators.</li><li>Making easy to combine ITK images and nArray via ImageAdaptors (or nArray adaptors), so that an existing nArray could be accessed as an ITK image, or an ITK image be access like an nArray. Both options seem to be perfectly feasible. </li></ul>",
-    "date": "09-12-2007",
-    "review_id": 568
-   },
-   {
-    "author": {
-     "author_email": "zuhars@gmail.com",
-     "author_firstname": "Joel",
-     "author_id": 669,
-     "author_lastname": "Zuhars"
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 159,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "luis.ibanez@kitware.com",
+          "author_firstname": "Luis",
+          "author_id": 4,
+          "author_lastname": "Ibanez"
+        },
+        "content": "<p><strong>Summary:</strong></p><p>This paper describes nArray, and open source library for manipulating N-Dimensional arrays, and compares it usage with equivalent operations in N-Dimensional images in ITK. </p><p> <br /> <strong>Hypothesis:</strong><br /> </p><p>N/A<br /> <br /> <strong>Evidence:</strong><br /> </p><p>N/A</p><p><br /> <strong>Open Science:</strong></p><p>The paper fully complies with the requirements of Open Science. The authors provide their source code and detailed instructions (in the form of well configured tests) on how to run the same benchmarks that are presented in the paper.</p><p><br /> <strong>Reproducibility:</strong></p><p>It was straight forward to reproduce the work that the authors describe in their paper.</p><p>The source code of the library was provided with the paper, along with the source code of the benchmarks that compared nArray performance against ITK.</p><p>It was very easy to configure, build and run the code.</p><p>I build it on Debian Linux, in a dual processon Xeon 2.4GHz, 3Gb RAM, build with gcc 4.1, for Release </p><p>&nbsp;</p><p>Given that the machine I used is different from what the authors used, the actual numerical output of the Benchmarks are different from what appears in the paper. </p><p>&nbsp;However, this simply highlight how important is that benchmark comparisons have to be performed by providing readers the means of repeating the benchmark on their own local environment. </p><p>The authors did a great job of organizing and configuring the benchmark test s in such a way that they are almost trivial to execute. </p><p>The outputs in my system are:</p><ul><li>ImageAdd_ITK_Benchmark Window Extract 21032 Sum 18100 WindowsExtract and sum 39119 <br /></li><li>ImageAdd_nArray_Benchmark SumOf time 7488 operator + time 14076</li><li>Subarray_ITK_Benchmark Fill time 416537 Window time 10926 Slice time 478 Permute time 231274<br /></li><li>Subarray_nArray_Benchmark Fill time&nbsp; 360814&nbsp; Window time 5225&nbsp; Slice time 214&nbsp; Permute time 192745<br /></li></ul><p> It wasn&#39;t obvious how to map these numbers into the corresponding cells of the Table 3, in page 13 of the paper.... </p><p>&nbsp;</p><p>The benchmark conclusions are a bit misleading in the abstract and the conclusions sections. Specially given that several of the comparison showed that nArray methods are faster in some cases and slower in some other cases.&nbsp; In any case, the advantage of the paper is that the source code for both ITK and nArray is available, and the authors made the benchmarks available for inspections to the readers. This makes possible to verify how the code performs in other platform combinations.&nbsp;</p><p><br /> <strong>Use of Open Source Software:</strong></p><p>The authors used ITK as a reference to compare the performance of nArray.</p><p>nArray was also configured using CMake&nbsp;</p><p> <br /> <strong>Open Source Contributions:</strong></p><p>The authors provide the source code of nArray and distribute it under a thoughtful license. </p><p>The code is very well organized, and it was straight forward to use. <br /><br /> <br /> <strong>Code Quality:</strong></p><p><br />The source code is very well written. It uses a consistent coding style. The coding style is different from ITK&#39;s but that&#39;s not a concern given that nArray is a library and if used from ITK it will probably be included in the Utilities directory and then its functionalities will be invoked from there. </p><p>I build the code only in Linux, so I didn&#39;t verified the portability of the code. However the authors present results for Linux and Windows, and from the structure of the code there are no reasons to believe that it couldn&#39;t be widely portable. </p><p> <br /> <strong>Applicability to other problems:</strong></p><p>Since the nArray library provide such a fundamental functionality of storage, data access and basic data processing there is an endless list of applications for it. </p><p>It is certainly worth to explore mechanisms for integrating this library with ITK, whether by making easy for users to use simultaneously ITK images and nArrays, for example via ImageAdaptors, or via specialized version of the nArray___Ref classes that could actually point to an ITK image allocated buffer.<br /><br /> <br /> <strong>Suggestions for future work:</strong></p><p>Exploring combinations of ITK and nArray are probably the most interesting next step. This will make possible for application developers to take advantage of nArray qualities in certain operations of their applications, while using ITK for other operations, and in this way get the best of each world. This could be implemented as</p><ul><li>An itkImage-like class that reuses the memory allocated by an nArray, maskarading the nArray iterations as an itkPixelContainer</li><li>An nArray___Ref class that connects to an ITK image buffer instead of an actual memory block allocated by an nArray class.</li></ul><p> <br /> <strong>Requests for additional information from authors:</strong></p><p>I missed from the paper some comments regarding the impact of multi-threading. Specially considering the fact that one of the machines used by the authors is a dual processor, and that the AddImageFilter in ITK is multi-threaded. We assume that the nArray algorithms are multi-threaded, but there is no explicit mention of it in the paper. If nArray, is not multi-threader, then the timing reported are even more impressive, since it will mean that (at least in one platform) their speed more that doubled ITK performance.</p><p>A quick grepping on the source code of the authors seem to indicate that no multi-threading is being used in nArray. If that&#39;s the case, the results of the benchmark must be re-analized under this light, and,.... it also becomes interesting to consider multi-threading nArray, in order to get even better performance.</p><p><br /> <strong>Additional Comments:</strong></p><p>It will be very interesting, and very useful to the ITK community to explore mechanisms for bringing the advantages of nArray into ITK. </p><p>Several mechanisms come to mind</p><ul><li>Creating specialized ITK filters whose internal implementation uses nArray</li><li>Studying the internal implementation of nArray and compare it to ITK image iterators, to improve the implementation of the ITK iterators. Such improvements will then automatically improve the performance of ITK filters since almost all of them are based on image iterators.</li><li>Making easy to combine ITK images and nArray via ImageAdaptors (or nArray adaptors), so that an existing nArray could be accessed as an ITK image, or an ITK image be access like an nArray. Both options seem to be perfectly feasible. </li></ul>",
+        "date": "09-12-2007",
+        "review_id": 568
+      },
+      {
+        "author": {
+          "author_email": "zuhars@gmail.com",
+          "author_firstname": "Joel",
+          "author_id": 669,
+          "author_lastname": "Zuhars"
+        },
+        "content": "<p><span style=\\\\\\\"font-size: 9pt; color: black; font-family: Verdana\\\\\\\"><strong>Summary:</strong></span></p><p><span style=\\\\\\\"font-size: 9pt; color: black; font-family: Verdana\\\\\\\">The authors describe a multidimensional array package that both has a uniform interface across all levels of dimensionality for ease of usability, and is comparable or superior in performance to existing packages, such as ITK. This was done using a templated interface approach and some novel implementation techniques.<br /><span>&nbsp;</span><br /><strong>Evidence:</strong></span></p><p><span style=\\\\\\\"font-size: 9pt; color: black; font-family: Verdana\\\\\\\">Table 1 provides a sampling of the API, and discussions on nArray engines and iterators, plus the associated code samples, illustrate key aspects of the API usage and support the notion that the interface is generally easy to use.</span></p><p><span style=\\\\\\\"font-size: 9pt; color: black; font-family: Verdana\\\\\\\">I would have liked to see a more complete treatment of the API in the paper, rather than referring to the package itself for more details, and more specific examples of how the API is superior to ITK, given that the ease of use improvement was one of the primary goals.</span></p><p><span style=\\\\\\\"font-size: 9pt; color: black; font-family: Verdana\\\\\\\">Section 4 details the performance benchmarking strategy versus ITK, provides references to the source code used, identifies the two system configurations used, and provides the numerical performance results along with a results analysis.</span></p><p><span style=\\\\\\\"font-size: 9pt; color: black; font-family: Verdana\\\\\\\">The performance results and analysis supported the claim that the package is at least comparable to ITK, but I would have liked to see that done more conclusively, given that this was a primary goal of the work. Although it can be exceptionally difficult or impossible to hunt down the root causes for the wide variability in performance in such packages, a serious effort in this regard, including platform specific optimizations, if necessary, could possibly take this package to the level of a standard.</span></p><p><span style=\\\\\\\"font-size: 9pt; color: black; font-family: Verdana\\\\\\\"><strong>Open Science:</strong></span></p><p><span style=\\\\\\\"font-size: 9pt; color: black; font-family: Verdana\\\\\\\">A link to the CISST Software Package is provided in the references. I assumed it would be straightforward to locate and compile the nArray library from the package, but did not do so myself. References to the source code used for benchmarking are provided in the text. I assumed these are located in the CISST Software Package.</span></p><p><span style=\\\\\\\"font-size: 9pt; color: black; font-family: Verdana\\\\\\\"><strong>Reproducibility:</strong></span></p><p><span style=\\\\\\\"font-size: 9pt; color: black; font-family: Verdana\\\\\\\">I have not attempted to reproduce the author&rsquo;s work.</span></p><p><span style=\\\\\\\"font-size: 9pt; color: black; font-family: Verdana\\\\\\\"><strong>Use of Open Source Software:</strong></span></p><p><span style=\\\\\\\"font-size: 9pt; color: black; font-family: Verdana\\\\\\\">The authors directly compared their work to ITK.</span></p><p><span style=\\\\\\\"font-size: 9pt; color: black; font-family: Verdana\\\\\\\"><strong>Open Source Contributions:</strong></span></p><p><span style=\\\\\\\"font-size: 9pt; color: black; font-family: Verdana\\\\\\\">The authors provide links to their source code. I did not see a reference to the applicable licenses for the code, which would be an improvement if added.</span></p><p><span style=\\\\\\\"font-size: 9pt; color: black; font-family: Verdana\\\\\\\"><strong>Code Quality:</strong></span></p><p><span style=\\\\\\\"font-size: 9pt; color: black; font-family: Verdana\\\\\\\">The code is clearly suitable for multi-platform use. The implementation discussion leads one to assume that the code is of excellent quality, in particular, the appropriate use of templates, and the stated accomplishment of conformance with STL&rsquo;s specification for a random access iterator.</span></p><p><span style=\\\\\\\"font-size: 9pt; color: black; font-family: Verdana\\\\\\\"><strong>Applicability to other problems:</strong></span></p><p><span style=\\\\\\\"font-size: 9pt; color: black; font-family: Verdana\\\\\\\">The authors are attempting to improve on a fundamental aspect of image analysis programming. This work would be applicable to a wide variety of problems, not limited to the image analysis domain.</span></p><p><span style=\\\\\\\"font-size: 9pt; color: black; font-family: Verdana\\\\\\\"><strong>Suggestions for future work:</strong></span></p><p><span style=\\\\\\\"font-size: 9pt; color: black; font-family: Verdana\\\\\\\">See evidence section.</span></p><p><span style=\\\\\\\"font-size: 9pt; color: black; font-family: Verdana\\\\\\\">Also, it was not clear if the recursive function in section 3.3 was actual code from the package or presented to support the explanation only. If it represents the actual code, I would be interested in seeing if any performance difference can be derived by using a much less elegant non-recursive version, since use of recursion in such cases can be inefficient.</span></p><p><span style=\\\\\\\"font-size: 9pt; color: black; font-family: Verdana\\\\\\\"><strong>Additional Comments:</strong></span></p><p><span style=\\\\\\\"font-size: 9pt; color: black; font-family: Verdana\\\\\\\">In general, I felt as though this has the potential to be a valuable contribution to the field, and that the ITK implementation could indeed be improved through the use of the described methods. The paper, however, seemed to lose focus from its objectives somewhat, in that it shifts to detailing the novelties of the implementation, rather than proving out it&rsquo;s goals, which seemed the more appropriate use of the reader&rsquo;s time at this level. The implementation details were, of course, also very interesting.</span></p><p>&nbsp;</p>",
+        "date": "09-11-2007",
+        "review_id": 560
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "ofri@cs.jhu.edu",
+      "author_firstname": "Ofri",
+      "author_fullname": "Sadowsky, Ofri",
+      "author_id": 615,
+      "author_institution": "Johns Hopkins University",
+      "author_lastname": "Sadowsky"
     },
-    "content": "<p><span style=\\\\\\\"font-size: 9pt; color: black; font-family: Verdana\\\\\\\"><strong>Summary:</strong></span></p><p><span style=\\\\\\\"font-size: 9pt; color: black; font-family: Verdana\\\\\\\">The authors describe a multidimensional array package that both has a uniform interface across all levels of dimensionality for ease of usability, and is comparable or superior in performance to existing packages, such as ITK. This was done using a templated interface approach and some novel implementation techniques.<br /><span>&nbsp;</span><br /><strong>Evidence:</strong></span></p><p><span style=\\\\\\\"font-size: 9pt; color: black; font-family: Verdana\\\\\\\">Table 1 provides a sampling of the API, and discussions on nArray engines and iterators, plus the associated code samples, illustrate key aspects of the API usage and support the notion that the interface is generally easy to use.</span></p><p><span style=\\\\\\\"font-size: 9pt; color: black; font-family: Verdana\\\\\\\">I would have liked to see a more complete treatment of the API in the paper, rather than referring to the package itself for more details, and more specific examples of how the API is superior to ITK, given that the ease of use improvement was one of the primary goals.</span></p><p><span style=\\\\\\\"font-size: 9pt; color: black; font-family: Verdana\\\\\\\">Section 4 details the performance benchmarking strategy versus ITK, provides references to the source code used, identifies the two system configurations used, and provides the numerical performance results along with a results analysis.</span></p><p><span style=\\\\\\\"font-size: 9pt; color: black; font-family: Verdana\\\\\\\">The performance results and analysis supported the claim that the package is at least comparable to ITK, but I would have liked to see that done more conclusively, given that this was a primary goal of the work. Although it can be exceptionally difficult or impossible to hunt down the root causes for the wide variability in performance in such packages, a serious effort in this regard, including platform specific optimizations, if necessary, could possibly take this package to the level of a standard.</span></p><p><span style=\\\\\\\"font-size: 9pt; color: black; font-family: Verdana\\\\\\\"><strong>Open Science:</strong></span></p><p><span style=\\\\\\\"font-size: 9pt; color: black; font-family: Verdana\\\\\\\">A link to the CISST Software Package is provided in the references. I assumed it would be straightforward to locate and compile the nArray library from the package, but did not do so myself. References to the source code used for benchmarking are provided in the text. I assumed these are located in the CISST Software Package.</span></p><p><span style=\\\\\\\"font-size: 9pt; color: black; font-family: Verdana\\\\\\\"><strong>Reproducibility:</strong></span></p><p><span style=\\\\\\\"font-size: 9pt; color: black; font-family: Verdana\\\\\\\">I have not attempted to reproduce the author&rsquo;s work.</span></p><p><span style=\\\\\\\"font-size: 9pt; color: black; font-family: Verdana\\\\\\\"><strong>Use of Open Source Software:</strong></span></p><p><span style=\\\\\\\"font-size: 9pt; color: black; font-family: Verdana\\\\\\\">The authors directly compared their work to ITK.</span></p><p><span style=\\\\\\\"font-size: 9pt; color: black; font-family: Verdana\\\\\\\"><strong>Open Source Contributions:</strong></span></p><p><span style=\\\\\\\"font-size: 9pt; color: black; font-family: Verdana\\\\\\\">The authors provide links to their source code. I did not see a reference to the applicable licenses for the code, which would be an improvement if added.</span></p><p><span style=\\\\\\\"font-size: 9pt; color: black; font-family: Verdana\\\\\\\"><strong>Code Quality:</strong></span></p><p><span style=\\\\\\\"font-size: 9pt; color: black; font-family: Verdana\\\\\\\">The code is clearly suitable for multi-platform use. The implementation discussion leads one to assume that the code is of excellent quality, in particular, the appropriate use of templates, and the stated accomplishment of conformance with STL&rsquo;s specification for a random access iterator.</span></p><p><span style=\\\\\\\"font-size: 9pt; color: black; font-family: Verdana\\\\\\\"><strong>Applicability to other problems:</strong></span></p><p><span style=\\\\\\\"font-size: 9pt; color: black; font-family: Verdana\\\\\\\">The authors are attempting to improve on a fundamental aspect of image analysis programming. This work would be applicable to a wide variety of problems, not limited to the image analysis domain.</span></p><p><span style=\\\\\\\"font-size: 9pt; color: black; font-family: Verdana\\\\\\\"><strong>Suggestions for future work:</strong></span></p><p><span style=\\\\\\\"font-size: 9pt; color: black; font-family: Verdana\\\\\\\">See evidence section.</span></p><p><span style=\\\\\\\"font-size: 9pt; color: black; font-family: Verdana\\\\\\\">Also, it was not clear if the recursive function in section 3.3 was actual code from the package or presented to support the explanation only. If it represents the actual code, I would be interested in seeing if any performance difference can be derived by using a much less elegant non-recursive version, since use of recursion in such cases can be inefficient.</span></p><p><span style=\\\\\\\"font-size: 9pt; color: black; font-family: Verdana\\\\\\\"><strong>Additional Comments:</strong></span></p><p><span style=\\\\\\\"font-size: 9pt; color: black; font-family: Verdana\\\\\\\">In general, I felt as though this has the potential to be a valuable contribution to the field, and that the ITK implementation could indeed be improved through the use of the described methods. The paper, however, seemed to lose focus from its objectives somewhat, in that it shifts to detailing the novelties of the implementation, rather than proving out it&rsquo;s goals, which seemed the more appropriate use of the reader&rsquo;s time at this level. The implementation details were, of course, also very interesting.</span></p><p>&nbsp;</p>",
-    "date": "09-11-2007",
-    "review_id": 560
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "ofri@cs.jhu.edu",
-   "author_firstname": "Ofri",
-   "author_fullname": "Sadowsky, Ofri",
-   "author_id": 615,
-   "author_institution": "Johns Hopkins University",
-   "author_lastname": "Sadowsky"
-  },
-  "tags": [
-   "object-oriented",
-   "generic programming",
-   "template library",
-   "C++",
-   "software library",
-   "API",
-   "software toolkit",
-   "scientific computing",
-   "data structures",
-   "multidimensional arrays",
-   "vectors and matrices",
-   "multidimensional data"
-  ],
-  "title": "Multidimensional Arrays and the nArray Package"
- }
+    "tags": [
+      "object-oriented",
+      "generic programming",
+      "template library",
+      "C++",
+      "software library",
+      "API",
+      "software toolkit",
+      "scientific computing",
+      "data structures",
+      "multidimensional arrays",
+      "vectors and matrices",
+      "multidimensional data"
+    ],
+    "title": "Multidimensional Arrays and the nArray Package"
+  }
 }

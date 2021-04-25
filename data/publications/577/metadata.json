@@ -1,67 +1,72 @@
 {
- "publication": {
-  "abstract": "The extraction of the coronary artery central lumen lines from CTA datasets is a necessary prerequisite for the computerized assessment of heart related disease. In this work, we present an automatic approach for this task that consists of generic methods for detection of tubular objects, extraction of their centerlines, grouping of the single centerlines into complete tree structures, and some application specific adaptions for the identification of the coronary arteries. The tube detection approach is based on the Gradient Vector Flow and an analysis of the resulting vector field. Contrary to conventional tube detection filters this approach avoids multi-scale analysis with related scale space problems and is able to identify tubular objects surrounded by different tissues such as blood vessels in proximity of calcifications. After identification of the tubular structures their centerlines are extracted and grouped into complete tree structures. Based on gray value information and centerline length tubular structures not belonging to the coronary arteries are removed. The approach has been evaluated on 16 clinical datasets showing a high overlap of 94% with known reference centerlines and an average distance of 0.58mm.",
-  "authors": [
-   {
-    "author_fullname": "Bauer, Christian",
-    "author_place": 1,
-    "persona_email": "cbauer@sbox.tugraz.at",
-    "persona_firstname": "Christian",
-    "persona_id": 877,
-    "persona_lastname": "Bauer"
-   },
-   {
-    "author_fullname": "Bischof, Horst",
-    "author_place": 2,
-    "persona_id": null
-   }
-  ],
-  "categories": [],
-  "comments": [
-   {
-    "content": "hello\r\nMay I ask you to send\r\n me the centerline extraction source code from CTA images?",
-    "date": "2014-06-26T16:11:42",
-    "persona_email": "ezzati_1385@yahoo.com",
-    "persona_firstname": "Elnaz",
-    "persona_id": 9153,
-    "persona_lastname": "Ezzati"
-   }
-  ],
-  "date_submitted": "2008-07-04T16:24:07Z",
-  "handles": [
-   {
-    "handle": "10380/1403",
-    "handle_url": "http://hdl.handle.net/10380/1403"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 43,
-    "journal_name": "ISBI 2015 Workshops"
-   },
-   {
-    "journal_id": 33,
-    "journal_name": "MICCAI 2008 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 577,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "cbauer@sbox.tugraz.at",
-   "author_firstname": "Christian",
-   "author_fullname": "Bauer, Christian",
-   "author_id": 877,
-   "author_institution": "Institute for Computer Graphics and Vision, Graz University of Technology",
-   "author_lastname": "Bauer"
-  },
-  "tags": [
-   "Tube Detection"
-  ],
-  "title": "Edge Based Tube Detection for Coronary Artery Centerline Extraction"
- }
+  "publication": {
+    "abstract": "The extraction of the coronary artery central lumen lines from CTA datasets is a necessary prerequisite for the computerized assessment of heart related disease. In this work, we present an automatic approach for this task that consists of generic methods for detection of tubular objects, extraction of their centerlines, grouping of the single centerlines into complete tree structures, and some application specific adaptions for the identification of the coronary arteries. The tube detection approach is based on the Gradient Vector Flow and an analysis of the resulting vector field. Contrary to conventional tube detection filters this approach avoids multi-scale analysis with related scale space problems and is able to identify tubular objects surrounded by different tissues such as blood vessels in proximity of calcifications. After identification of the tubular structures their centerlines are extracted and grouped into complete tree structures. Based on gray value information and centerline length tubular structures not belonging to the coronary arteries are removed. The approach has been evaluated on 16 clinical datasets showing a high overlap of 94% with known reference centerlines and an average distance of 0.58mm.",
+    "articles": [
+      "bafybeigkmri5z472irm2f5zrg52d2tuwcbut23st2julvgscv44kcsibwy",
+      "bafybeigkmri5z472irm2f5zrg52d2tuwcbut23st2julvgscv44kcsibwy",
+      "bafybeihovzbqjfgdrmccj4q2ahvz3ln6rmgvajur3blkqw6nasnxc7dt6y"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Bauer, Christian",
+        "author_place": 1,
+        "persona_email": "cbauer@sbox.tugraz.at",
+        "persona_firstname": "Christian",
+        "persona_id": 877,
+        "persona_lastname": "Bauer"
+      },
+      {
+        "author_fullname": "Bischof, Horst",
+        "author_place": 2,
+        "persona_id": null
+      }
+    ],
+    "categories": [],
+    "comments": [
+      {
+        "content": "hello\r\nMay I ask you to send\r\n me the centerline extraction source code from CTA images?",
+        "date": "2014-06-26T16:11:42",
+        "persona_email": "ezzati_1385@yahoo.com",
+        "persona_firstname": "Elnaz",
+        "persona_id": 9153,
+        "persona_lastname": "Ezzati"
+      }
+    ],
+    "date_submitted": "2008-07-04T16:24:07Z",
+    "handles": [
+      {
+        "handle": "10380/1403",
+        "handle_url": "http://hdl.handle.net/10380/1403"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 43,
+        "journal_name": "ISBI 2015 Workshops"
+      },
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 577,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "cbauer@sbox.tugraz.at",
+      "author_firstname": "Christian",
+      "author_fullname": "Bauer, Christian",
+      "author_id": 877,
+      "author_institution": "Institute for Computer Graphics and Vision, Graz University of Technology",
+      "author_lastname": "Bauer"
+    },
+    "tags": [
+      "Tube Detection"
+    ],
+    "title": "Edge Based Tube Detection for Coronary Artery Centerline Extraction"
+  }
 }

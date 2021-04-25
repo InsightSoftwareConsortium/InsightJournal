@@ -1,80 +1,83 @@
 {
- "publication": {
-  "abstract": "Modern medical imaging makes use of high performance computing to accelerate image acquisition, image reconstruction, image visualization and image analysis. Software libraries that provide implementations of key medical imaging algorithms need to efficiently exploit modern CPU architectures. In particular, workstations with small numbers of cores are being replaced by very high core count architectures, and by many integrated core architectures, which offer acceleration by vectorization and multi-threading.\n\nThe Insight Toolkit (ITK) is the premier open source implementation of medical imaging algorithms, with a generic design for image processing filters that allows for many developers to rapidly incorporate these algorithms in to new applications. While ITK filters benefit from a generic, platform independent multithreading capability, the current implementation is difficult to exploit to achieve very high performance. Specifically, ITK relies on a static decomposition of the image into subsets of equal size which can be highly inefficient. Threads that terminate early due to uneven work throughout the image finish early and do not contribute further to the processing of more complex regions, leading to idle computational resources and longer execution times. Performance is also difficult to coordinate across multiple algorithms, as the ITK filter assumes each filter operates independently but the global implementation has an impact across filters. \n\nIn this work, we propose a novel, simple to use, high performance multithreading capability for ITK that accelerates the itk::ImageToImageFilter. We utilise a workpile data decomposition strategy, and leave the task of optimal job scheduling on CPU cores to the library called Threading Building Blocks (TBB). We demonstrate the efficacy of multi-threading with TBB in comparison to the itk::Multithreader class, through three simple example image analysis algorithms. \n\nOur implementation provides a new multi-threaded itk::ImageToImageFilter that can be conveniently reused to provide simple and efficient multi-threaded code across applications and algorithm libraries. Our new implementation is distributed as open-source software to the community and is straightforward to adopt.",
-  "authors": [
-   {
-    "author_fullname": "Jaberzadeh, Amir",
-    "author_place": 2,
-    "persona_email": "amir.jaberzadeh@childrens.harvard.edu",
-    "persona_firstname": "Amir",
-    "persona_id": 9818,
-    "persona_lastname": "Jaberzadeh"
-   },
-   {
-    "author_fullname": "Scherrer, Benoit",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Warfield, Simon",
-    "author_place": 4,
-    "persona_email": "simon.warfield@childrens.harvard.edu",
-    "persona_firstname": "Simon",
-    "persona_id": 514,
-    "persona_lastname": "Warfield"
-   }
-  ],
-  "categories": [
-   "Diffusion Tensor Imaging",
-   "Image",
-   "Parallelization, SMP",
-   "Statistics on tensors",
-   "Tensor image reconstruction"
-  ],
-  "comments": [
-   {
-    "content": "In this article, the authors summarize challenges related to parallelism\r\nin modern high performance computing and present improvements to the Insight\r\nToolkit (ITK) with Threading Building Blocks (TBB).\r\n\r\nThe hypothesis is that threads in many-core CPUs are starved for work given\r\nthe way that data is divided and distributed among threads. A more\r\nfine-grained and dynamic data decomposition and improved job scheduling will\r\nimprove performance.\r\n\r\nThe authors provide source code, data, and bash scripts for a quality,\r\nreproducible open science publication. Proposed improvements to ITK image\r\nprocessing filters with TBB are described, and evidence for the improvements\r\nare provided with example, realistic DWI processing.\r\n\r\nOverall, this is an excellent publication that describes the high performance\r\ncomputing challenges in ITK well and touches on an appropriate solution with\r\nTBB. While the hypothesis that performance gains are likely partially related\r\nto idle threads as proposed, much of the performance gains are also likely due\r\nto reduce overhead from spawning and destroying threads. This work has the\r\npotential to be very high impact. The improvements to a very large number of\r\nalgorithms available in ITK are significant. While the benchmarking performed\r\nwas on a 12-core Xeon system, which is a common system today, systems are coming\r\navailable, like the Knight's Landing Phi processor, which will experience\r\neven greater performance improvements.\r\n\r\nThe following improvements and next steps will ensure this work is high\r\nimpact:\r\n\r\nThe main code should be submitted to the Gerrit code review system, and\r\nimprovements should be made to ensure it works on all supported platforms,\r\nfollows ITK style guidelines, etc. This process is described here:\r\n\r\n  https://itk.org/ITKSoftwareGuide/html/Book1/ITKSoftwareGuide-Book1ch10.html\r\n\r\n\r\nIn practice, it is not possible to have a hard dependency on TBB for ITK. TBB\r\ncannot be bundled with ITK because of its size, its license, and its build\r\nsystem. It can be difficult to obtain and configure against. It does not\r\nsupport all platforms that people use with ITK. So, the addition should be an\r\noptional ITK configuration setting enabled with CMake.\r\n\r\nSince it is not practical to maintain two duplicate version of all filters,\r\nthe proposed code should be added to itk::ImageSource when TBB is available\r\nwhich will not require duplication or modification of existing filters.\r\n\r\nIt may be possible for existing filters to re-use their\r\nThreadedGenerateData method by passing the tbb::block_range::begin() value as a\r\nsubstitute for the ThreadIdType argument. While this is not the thread id, it\r\nmay fulfill the needs of how many filters, which currently use the\r\nargument to conditionally performing operations when its value is 0, perform\r\nprogress reporting, etc. An optional specialized TBB method could be\r\nimplemented by filters and used when available.\r\n\r\nIn terms of data division, another improvement would implement the proposed\r\nstrategy as an implementation of the itk::ImageRegionSplitterBase or\r\nitk::ThreadedDomainPartitioner class, and set this new class as the default when TBB\r\nis enabled. This will make it possible to override the strategy with other\r\nimplementations in the future.\r\n",
-    "date": "2016-07-31T14:37:54",
-    "persona_email": "matthew.m.mccormick@gmail.com",
-    "persona_firstname": "Matthew",
-    "persona_id": 2509,
-    "persona_lastname": "Mccormick"
-   }
-  ],
-  "date_submitted": "2016-07-21 14:58:08",
-  "handles": [
-   {
-    "handle": "10380/3560",
-    "handle_url": "http://hdl.handle.net/10380/3560"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 974,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "amir.jaberzadeh@childrens.harvard.edu",
-   "author_firstname": "Amir",
-   "author_fullname": "Jaberzadeh, Amir",
-   "author_id": 9818,
-   "author_institution": "Harvard Medical School",
-   "author_lastname": "Jaberzadeh"
-  },
-  "tags": [
-   "ImageToImageFilter",
-   "Multithreading",
-   "TBB",
-   "dynamic scheduling"
-  ],
-  "title": "A new implementation of itk::ImageToImageFilter for efficient parallelization of image processing algorithms using Intel Threading Building Blocks"
- }
+  "publication": {
+    "abstract": "Modern medical imaging makes use of high performance computing to accelerate image acquisition, image reconstruction, image visualization and image analysis. Software libraries that provide implementations of key medical imaging algorithms need to efficiently exploit modern CPU architectures. In particular, workstations with small numbers of cores are being replaced by very high core count architectures, and by many integrated core architectures, which offer acceleration by vectorization and multi-threading.\n\nThe Insight Toolkit (ITK) is the premier open source implementation of medical imaging algorithms, with a generic design for image processing filters that allows for many developers to rapidly incorporate these algorithms in to new applications. While ITK filters benefit from a generic, platform independent multithreading capability, the current implementation is difficult to exploit to achieve very high performance. Specifically, ITK relies on a static decomposition of the image into subsets of equal size which can be highly inefficient. Threads that terminate early due to uneven work throughout the image finish early and do not contribute further to the processing of more complex regions, leading to idle computational resources and longer execution times. Performance is also difficult to coordinate across multiple algorithms, as the ITK filter assumes each filter operates independently but the global implementation has an impact across filters. \n\nIn this work, we propose a novel, simple to use, high performance multithreading capability for ITK that accelerates the itk::ImageToImageFilter. We utilise a workpile data decomposition strategy, and leave the task of optimal job scheduling on CPU cores to the library called Threading Building Blocks (TBB). We demonstrate the efficacy of multi-threading with TBB in comparison to the itk::Multithreader class, through three simple example image analysis algorithms. \n\nOur implementation provides a new multi-threaded itk::ImageToImageFilter that can be conveniently reused to provide simple and efficient multi-threaded code across applications and algorithm libraries. Our new implementation is distributed as open-source software to the community and is straightforward to adopt.",
+    "articles": [
+      "bafybeiakhsg2yo5blaq66pj65npnzhvfi7hghpqcg27wgpxr5oa4pcsqfa"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Jaberzadeh, Amir",
+        "author_place": 2,
+        "persona_email": "amir.jaberzadeh@childrens.harvard.edu",
+        "persona_firstname": "Amir",
+        "persona_id": 9818,
+        "persona_lastname": "Jaberzadeh"
+      },
+      {
+        "author_fullname": "Scherrer, Benoit",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Warfield, Simon",
+        "author_place": 4,
+        "persona_email": "simon.warfield@childrens.harvard.edu",
+        "persona_firstname": "Simon",
+        "persona_id": 514,
+        "persona_lastname": "Warfield"
+      }
+    ],
+    "categories": [
+      "Diffusion Tensor Imaging",
+      "Image",
+      "Parallelization, SMP",
+      "Statistics on tensors",
+      "Tensor image reconstruction"
+    ],
+    "comments": [
+      {
+        "content": "In this article, the authors summarize challenges related to parallelism\r\nin modern high performance computing and present improvements to the Insight\r\nToolkit (ITK) with Threading Building Blocks (TBB).\r\n\r\nThe hypothesis is that threads in many-core CPUs are starved for work given\r\nthe way that data is divided and distributed among threads. A more\r\nfine-grained and dynamic data decomposition and improved job scheduling will\r\nimprove performance.\r\n\r\nThe authors provide source code, data, and bash scripts for a quality,\r\nreproducible open science publication. Proposed improvements to ITK image\r\nprocessing filters with TBB are described, and evidence for the improvements\r\nare provided with example, realistic DWI processing.\r\n\r\nOverall, this is an excellent publication that describes the high performance\r\ncomputing challenges in ITK well and touches on an appropriate solution with\r\nTBB. While the hypothesis that performance gains are likely partially related\r\nto idle threads as proposed, much of the performance gains are also likely due\r\nto reduce overhead from spawning and destroying threads. This work has the\r\npotential to be very high impact. The improvements to a very large number of\r\nalgorithms available in ITK are significant. While the benchmarking performed\r\nwas on a 12-core Xeon system, which is a common system today, systems are coming\r\navailable, like the Knight's Landing Phi processor, which will experience\r\neven greater performance improvements.\r\n\r\nThe following improvements and next steps will ensure this work is high\r\nimpact:\r\n\r\nThe main code should be submitted to the Gerrit code review system, and\r\nimprovements should be made to ensure it works on all supported platforms,\r\nfollows ITK style guidelines, etc. This process is described here:\r\n\r\n  https://itk.org/ITKSoftwareGuide/html/Book1/ITKSoftwareGuide-Book1ch10.html\r\n\r\n\r\nIn practice, it is not possible to have a hard dependency on TBB for ITK. TBB\r\ncannot be bundled with ITK because of its size, its license, and its build\r\nsystem. It can be difficult to obtain and configure against. It does not\r\nsupport all platforms that people use with ITK. So, the addition should be an\r\noptional ITK configuration setting enabled with CMake.\r\n\r\nSince it is not practical to maintain two duplicate version of all filters,\r\nthe proposed code should be added to itk::ImageSource when TBB is available\r\nwhich will not require duplication or modification of existing filters.\r\n\r\nIt may be possible for existing filters to re-use their\r\nThreadedGenerateData method by passing the tbb::block_range::begin() value as a\r\nsubstitute for the ThreadIdType argument. While this is not the thread id, it\r\nmay fulfill the needs of how many filters, which currently use the\r\nargument to conditionally performing operations when its value is 0, perform\r\nprogress reporting, etc. An optional specialized TBB method could be\r\nimplemented by filters and used when available.\r\n\r\nIn terms of data division, another improvement would implement the proposed\r\nstrategy as an implementation of the itk::ImageRegionSplitterBase or\r\nitk::ThreadedDomainPartitioner class, and set this new class as the default when TBB\r\nis enabled. This will make it possible to override the strategy with other\r\nimplementations in the future.\r\n",
+        "date": "2016-07-31T14:37:54",
+        "persona_email": "matthew.m.mccormick@gmail.com",
+        "persona_firstname": "Matthew",
+        "persona_id": 2509,
+        "persona_lastname": "Mccormick"
+      }
+    ],
+    "date_submitted": "2016-07-21 14:58:08",
+    "handles": [
+      {
+        "handle": "10380/3560",
+        "handle_url": "http://hdl.handle.net/10380/3560"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 974,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "amir.jaberzadeh@childrens.harvard.edu",
+      "author_firstname": "Amir",
+      "author_fullname": "Jaberzadeh, Amir",
+      "author_id": 9818,
+      "author_institution": "Harvard Medical School",
+      "author_lastname": "Jaberzadeh"
+    },
+    "tags": [
+      "ImageToImageFilter",
+      "Multithreading",
+      "TBB",
+      "dynamic scheduling"
+    ],
+    "title": "A new implementation of itk::ImageToImageFilter for efficient parallelization of image processing algorithms using Intel Threading Building Blocks"
+  }
 }

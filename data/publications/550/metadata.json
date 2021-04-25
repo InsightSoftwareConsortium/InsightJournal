@@ -1,63 +1,68 @@
 {
- "publication": {
-  "abstract": "Nonlinear finite element methods are described in which cyclic organ motion is implied from 4D scan data. The equations of motion corresponding to an explicit integration of the total Lagrangian formulation are reversed, such that the sequence of node forces which produces known changes in displacement is recovered. The forces are resolved from the global coordinate system into systems local to each element, and at every simulation time step are expressed as weighted sums of edge vectors. In the presence of large deformations and rotations, this facilitates the combination of external forces, such as tool-tissue interactions, and also positional constraints. Applications in the areas of surgery simulation and minimally invasive robotic interventions are discussed, and the methods are illustrated using CT images of a pneumatically-operated beating heart phantom.",
-  "authors": [
-   {
-    "author_fullname": "Pratt, Philip",
-    "author_place": 1,
-    "persona_email": "p.pratt@imperial.ac.uk",
-    "persona_firstname": "Philip",
-    "persona_id": 828,
-    "persona_lastname": "Pratt"
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2008-05-18T18:30:46Z",
-  "handles": [
-   {
-    "handle": "10380/1357",
-    "handle_url": "http://hdl.handle.net/10380/1357"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 33,
-    "journal_name": "MICCAI 2008 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 550,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "grandj@mech.uwa.edu.au",
-     "author_firstname": "Grand roman",
-     "author_id": 832,
-     "author_lastname": "Joldes"
+  "publication": {
+    "abstract": "Nonlinear finite element methods are described in which cyclic organ motion is implied from 4D scan data. The equations of motion corresponding to an explicit integration of the total Lagrangian formulation are reversed, such that the sequence of node forces which produces known changes in displacement is recovered. The forces are resolved from the global coordinate system into systems local to each element, and at every simulation time step are expressed as weighted sums of edge vectors. In the presence of large deformations and rotations, this facilitates the combination of external forces, such as tool-tissue interactions, and also positional constraints. Applications in the areas of surgery simulation and minimally invasive robotic interventions are discussed, and the methods are illustrated using CT images of a pneumatically-operated beating heart phantom.",
+    "articles": [
+      "bafybeiam62mzlks2t2k2schuolnlehvvyevka2gfey3hiutgvchrna5pqq",
+      "bafybeiam62mzlks2t2k2schuolnlehvvyevka2gfey3hiutgvchrna5pqq",
+      "bafybeid672wi333xvrshqc3uvpr437njwhktyf3y7kups6khundqnphmda"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Pratt, Philip",
+        "author_place": 1,
+        "persona_email": "p.pratt@imperial.ac.uk",
+        "persona_firstname": "Philip",
+        "persona_id": 828,
+        "persona_lastname": "Pratt"
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2008-05-18T18:30:46Z",
+    "handles": [
+      {
+        "handle": "10380/1357",
+        "handle_url": "http://hdl.handle.net/10380/1357"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<p><br /><span style=\"font-family: &#39;Times New Roman&#39;,&#39;serif&#39;\"><font size=\"3\">&nbsp;&nbsp; In this paper the authors propose a method of computing external forces that would reproduce the cyclical movement of an organ when applied to a FEM model of the respective organ. The recovered external forces for each node are divided between elements surrounding the node and expressed in local coordinate systems created from the surrounding elements&rsquo; geometry in order to accommodate large deformations or rigid motion of the organ. External forces from a surgical tool can be added to the recovered forces in order to simulate the interaction between the tool and the organ.</font></span></p><p><font size=\"3\"><span style=\"font-family: &#39;Times New Roman&#39;,&#39;serif&#39;\">&nbsp;&nbsp; </span><span style=\"font-family: &#39;Times New Roman&#39;,&#39;serif&#39;\">The displacements of the nodes are computed using a B-spline registration method, which register the original mesh to following deformation phases. Clearly these displacements might not correspond to the real ones, and the recovered forces will depend on the registration method used. Therefore, the stress state inside the organ might not be represented properly and the predicted organ&rsquo;s response to external forces might not be accurate (especially for non-linear material models). The representation of the recovered nodal forces in the local coordinate system might also introduce additional errors. These aspects should be considered and a careful validation of the method must be done. No validation results are presented in the paper.<span>&nbsp;&nbsp;&nbsp; </span></span></font></p>",
-    "date": "06-30-2008",
-    "review_id": 1481
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "p.pratt@imperial.ac.uk",
-   "author_firstname": "Philip",
-   "author_fullname": "Pratt, Philip",
-   "author_id": 828,
-   "author_institution": "Imperial College, London",
-   "author_lastname": "Pratt"
-  },
-  "tags": [
-   "Surgery Simulation",
-   "Inverse Nonlinear Finite Element Method",
-   "Image Guidance"
-  ],
-  "title": "Inverse Nonlinear Finite Element Methods for Surgery Simulation and Image Guidance"
- }
+    "journals": [
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 550,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "grandj@mech.uwa.edu.au",
+          "author_firstname": "Grand roman",
+          "author_id": 832,
+          "author_lastname": "Joldes"
+        },
+        "content": "<p><br /><span style=\"font-family: &#39;Times New Roman&#39;,&#39;serif&#39;\"><font size=\"3\">&nbsp;&nbsp; In this paper the authors propose a method of computing external forces that would reproduce the cyclical movement of an organ when applied to a FEM model of the respective organ. The recovered external forces for each node are divided between elements surrounding the node and expressed in local coordinate systems created from the surrounding elements&rsquo; geometry in order to accommodate large deformations or rigid motion of the organ. External forces from a surgical tool can be added to the recovered forces in order to simulate the interaction between the tool and the organ.</font></span></p><p><font size=\"3\"><span style=\"font-family: &#39;Times New Roman&#39;,&#39;serif&#39;\">&nbsp;&nbsp; </span><span style=\"font-family: &#39;Times New Roman&#39;,&#39;serif&#39;\">The displacements of the nodes are computed using a B-spline registration method, which register the original mesh to following deformation phases. Clearly these displacements might not correspond to the real ones, and the recovered forces will depend on the registration method used. Therefore, the stress state inside the organ might not be represented properly and the predicted organ&rsquo;s response to external forces might not be accurate (especially for non-linear material models). The representation of the recovered nodal forces in the local coordinate system might also introduce additional errors. These aspects should be considered and a careful validation of the method must be done. No validation results are presented in the paper.<span>&nbsp;&nbsp;&nbsp; </span></span></font></p>",
+        "date": "06-30-2008",
+        "review_id": 1481
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "p.pratt@imperial.ac.uk",
+      "author_firstname": "Philip",
+      "author_fullname": "Pratt, Philip",
+      "author_id": 828,
+      "author_institution": "Imperial College, London",
+      "author_lastname": "Pratt"
+    },
+    "tags": [
+      "Surgery Simulation",
+      "Inverse Nonlinear Finite Element Method",
+      "Image Guidance"
+    ],
+    "title": "Inverse Nonlinear Finite Element Methods for Surgery Simulation and Image Guidance"
+  }
 }

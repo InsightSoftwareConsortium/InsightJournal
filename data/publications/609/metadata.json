@@ -1,106 +1,111 @@
 {
- "publication": {
-  "abstract": "Automatically segmenting subcortical structures in brain images has the potential to greatly accelerate drug trials and population studies of disease. Here we propose an automatic subcortical segmentation algorithm using the auto context model. Unlike many segmentation algorithms that separately compute a shape prior and an image appearance model, we develop a framework based on machine learning to learn a unified appearance and context model. In order to test the method, specificity and sensitivity measurements were obtained on a standardized dataset provided by the competition organizers. Our overall score of 77 seems to be competitive with others who's overall score was in the range of 50 - 90.",
-  "authors": [
-   {
-    "author_fullname": "Morra, Jonathan",
-    "author_place": 1,
-    "persona_email": "jonmorra@gmail.com",
-    "persona_firstname": "Jonathan",
-    "persona_id": 924,
-    "persona_lastname": "Morra"
-   },
-   {
-    "author_fullname": "Tu, Zhuowen",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Toga, Arthur",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Thompson, Paul",
-    "author_place": 4,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Bayesian Decision Theory",
-   "Classification",
-   "Decision trees and non-metric classification",
-   "Discriminant Functions",
-   "Feature extraction",
-   "Filtering",
-   "Image",
-   "Information Theory",
-   "Mathematics",
-   "Neighborhood filters",
-   "Probability",
-   "Segmentation"
-  ],
-  "comments": [],
-  "date_submitted": "2008-07-14T18:02:18Z",
-  "handles": [
-   {
-    "handle": "10380/1444",
-    "handle_url": "http://hdl.handle.net/10380/1444"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 44,
-    "journal_name": "MICCAI 2015 Workshops"
-   },
-   {
-    "journal_id": 33,
-    "journal_name": "MICCAI 2008 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 609,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "simon.warfield@childrens.harvard.edu",
-     "author_firstname": "Simon",
-     "author_id": 514,
-     "author_lastname": "Warfield"
+  "publication": {
+    "abstract": "Automatically segmenting subcortical structures in brain images has the potential to greatly accelerate drug trials and population studies of disease. Here we propose an automatic subcortical segmentation algorithm using the auto context model. Unlike many segmentation algorithms that separately compute a shape prior and an image appearance model, we develop a framework based on machine learning to learn a unified appearance and context model. In order to test the method, specificity and sensitivity measurements were obtained on a standardized dataset provided by the competition organizers. Our overall score of 77 seems to be competitive with others who's overall score was in the range of 50 - 90.",
+    "articles": [
+      "bafkreieq6mu6ndicl6k7pxblzb5ntjwapdbqh7anwrxmu5rmk5wnpbbjdu",
+      "bafkreifwlubouja5e7vptyr7rcabzrehceytrwuucipf7bijq3whmysu2q",
+      "bafkreihkr5unjrnxfdrtj6vyonedyre4a3uysndflczdjktrn7dl5e6kia"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Morra, Jonathan",
+        "author_place": 1,
+        "persona_email": "jonmorra@gmail.com",
+        "persona_firstname": "Jonathan",
+        "persona_id": 924,
+        "persona_lastname": "Morra"
+      },
+      {
+        "author_fullname": "Tu, Zhuowen",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Toga, Arthur",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Thompson, Paul",
+        "author_place": 4,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Bayesian Decision Theory",
+      "Classification",
+      "Decision trees and non-metric classification",
+      "Discriminant Functions",
+      "Feature extraction",
+      "Filtering",
+      "Image",
+      "Information Theory",
+      "Mathematics",
+      "Neighborhood filters",
+      "Probability",
+      "Segmentation"
+    ],
+    "comments": [],
+    "date_submitted": "2008-07-14T18:02:18Z",
+    "handles": [
+      {
+        "handle": "10380/1444",
+        "handle_url": "http://hdl.handle.net/10380/1444"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<p>This paper describes an algorithm for the segmentation of brain MRI images of MS patients.</p><p>The approach utilizes an auto-context model (ACM) to discover features that are characteristic. A novel choice is the use of probability estimates of image patches as a feature, which is then used to evolve the posterior probabilities.</p><p>&nbsp;Evaluation of performance indicates the method achieves results similar to those of the manual segmentations. </p><p>There is a typo in the word &#39;deliniation&#39; and the acronym ACM is not defined at its first use.</p><p>&nbsp;</p>",
-    "date": "07-25-2008",
-    "review_id": 1530
-   },
-   {
-    "author": {
-     "author_email": "styner@cs.unc.edu",
-     "author_firstname": "Martin",
-     "author_id": 28,
-     "author_lastname": "Styner"
+    "journals": [
+      {
+        "journal_id": 44,
+        "journal_name": "MICCAI 2015 Workshops"
+      },
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 609,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "simon.warfield@childrens.harvard.edu",
+          "author_firstname": "Simon",
+          "author_id": 514,
+          "author_lastname": "Warfield"
+        },
+        "content": "<p>This paper describes an algorithm for the segmentation of brain MRI images of MS patients.</p><p>The approach utilizes an auto-context model (ACM) to discover features that are characteristic. A novel choice is the use of probability estimates of image patches as a feature, which is then used to evolve the posterior probabilities.</p><p>&nbsp;Evaluation of performance indicates the method achieves results similar to those of the manual segmentations. </p><p>There is a typo in the word &#39;deliniation&#39; and the acronym ACM is not defined at its first use.</p><p>&nbsp;</p>",
+        "date": "07-25-2008",
+        "review_id": 1530
+      },
+      {
+        "author": {
+          "author_email": "styner@cs.unc.edu",
+          "author_firstname": "Martin",
+          "author_id": 28,
+          "author_lastname": "Styner"
+        },
+        "content": "<p><strong>Summary:</strong><br /> The authors present a MS lesions segmentation method using an efficient method combining appearance and context models. The model is generated in an auto-context modeling approach that iteratively refines the feature selection.<br /> </p><p>The method in general performs well, especially for the CHB dataset.</p><p>It is surprising though that the authors used two separate training datasets, as a segmentation from the CHB rater was available for the whole training data. The performance for the UNC case may actually be better when using the CHB rater, as the method seems to emulate that rater more appropriately and the final scores are averaged between the testing segmentations of the UNC and CHB rater. Also, there seems to have been a problem with UNC test 07 (empty image, no lesions detected), can you elaborate on the result in that case.</p><p><br /> A real discussion section is missing. It would great if you describe situations when the algorithm performs well (e.g. UNC test 03), or not that well (e.g. UNC test 10). Also no information about future directions of this research is given.<br /> <br /> </p>",
+        "date": "07-28-2008",
+        "review_id": 1536
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "jonmorra@gmail.com",
+      "author_firstname": "Jonathan",
+      "author_fullname": "Morra, Jonathan",
+      "author_id": 924,
+      "author_institution": "Laboratory of NeuroImaging at UCLA",
+      "author_lastname": "Morra"
     },
-    "content": "<p><strong>Summary:</strong><br /> The authors present a MS lesions segmentation method using an efficient method combining appearance and context models. The model is generated in an auto-context modeling approach that iteratively refines the feature selection.<br /> </p><p>The method in general performs well, especially for the CHB dataset.</p><p>It is surprising though that the authors used two separate training datasets, as a segmentation from the CHB rater was available for the whole training data. The performance for the UNC case may actually be better when using the CHB rater, as the method seems to emulate that rater more appropriately and the final scores are averaged between the testing segmentations of the UNC and CHB rater. Also, there seems to have been a problem with UNC test 07 (empty image, no lesions detected), can you elaborate on the result in that case.</p><p><br /> A real discussion section is missing. It would great if you describe situations when the algorithm performs well (e.g. UNC test 03), or not that well (e.g. UNC test 10). Also no information about future directions of this research is given.<br /> <br /> </p>",
-    "date": "07-28-2008",
-    "review_id": 1536
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "jonmorra@gmail.com",
-   "author_firstname": "Jonathan",
-   "author_fullname": "Morra, Jonathan",
-   "author_id": 924,
-   "author_institution": "Laboratory of NeuroImaging at UCLA",
-   "author_lastname": "Morra"
-  },
-  "tags": [
-   "Automated Segmentation",
-   "AdaBoost",
-   "Machine Learning"
-  ],
-  "title": "Automatic Segmentation of MS Lesions Using a Contextual Model for the MICCAI Grand Challenge"
- }
+    "tags": [
+      "Automated Segmentation",
+      "AdaBoost",
+      "Machine Learning"
+    ],
+    "title": "Automatic Segmentation of MS Lesions Using a Contextual Model for the MICCAI Grand Challenge"
+  }
 }

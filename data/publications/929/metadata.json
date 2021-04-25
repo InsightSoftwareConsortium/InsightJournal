@@ -1,61 +1,65 @@
 {
- "publication": {
-  "abstract": "In this paper, we present a fast and interactive graph cut method for 3D segmentation of the endocardial wall of the left ventricle (LV) given 3D echocardiographic images. This is a challenging task due to the poor contrast and the low signal-to-noise ratio typical of echocardiographic images. The method is carried out in 3 steps. First, 3D sampling of the LV cavity is made in a spherical-cylindrical coordinate system. Then, a gradient-based energy term is assigned to each voxel, some of which being given an infinite energy to make sure the resulting volume passes through key anatomical points. Then, a graph-cut procedure provides delineation of the endocardial surface. Results obtained on 30 exams from the 2014 CETUS MICCAI challenge dataset reveal that our method takes between 5 and 10 seconds to segment a 3D volume with an overall mean surface distance lower than 2.3 mm and an ejection fraction error of less than 5% compared to a manual tracing by an expert.",
-  "authors": [
-   {
-    "author_fullname": "Bernier, Michael",
-    "author_place": 1,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Jodoin, Pierre-Marc",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Lalande, Alain",
-    "author_place": 3,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Feature extraction",
-   "Segmentation"
-  ],
-  "comments": [],
-  "date_submitted": "2014-10-24 19:03:59",
-  "handles": [
-   {
-    "handle": "10380/3482",
-    "handle_url": "http://hdl.handle.net/10380/3482"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 42,
-    "journal_name": "MICCAI 2014 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 929,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "olivier.bernard@creatis.insa-lyon.fr",
-   "author_firstname": "Olivier",
-   "author_fullname": "Bernard, Olivier",
-   "author_id": 5768,
-   "author_institution": "CREATIS",
-   "author_lastname": "Bernard"
-  },
-  "tags": [
-   "3D ultrasound imaging",
-   "Graph cuts",
-   "Segmentation"
-  ],
-  "title": "Automatized Evaluation of the Left Ventricular Ejection Fraction from Echocardiographic Images Using Graph Cut"
- }
+  "publication": {
+    "abstract": "In this paper, we present a fast and interactive graph cut method for 3D segmentation of the endocardial wall of the left ventricle (LV) given 3D echocardiographic images. This is a challenging task due to the poor contrast and the low signal-to-noise ratio typical of echocardiographic images. The method is carried out in 3 steps. First, 3D sampling of the LV cavity is made in a spherical-cylindrical coordinate system. Then, a gradient-based energy term is assigned to each voxel, some of which being given an infinite energy to make sure the resulting volume passes through key anatomical points. Then, a graph-cut procedure provides delineation of the endocardial surface. Results obtained on 30 exams from the 2014 CETUS MICCAI challenge dataset reveal that our method takes between 5 and 10 seconds to segment a 3D volume with an overall mean surface distance lower than 2.3 mm and an ejection fraction error of less than 5% compared to a manual tracing by an expert.",
+    "articles": [
+      "bafybeialkudinllbuceguvjr2g2gegq3uljw5rv4haswpjscqh4n57qrpu",
+      "bafybeicpms7cj6q33vdcwnodj7ohlrmdu4twkj5niaqye7cik3bcxlu2sm"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Bernier, Michael",
+        "author_place": 1,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Jodoin, Pierre-Marc",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Lalande, Alain",
+        "author_place": 3,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Feature extraction",
+      "Segmentation"
+    ],
+    "comments": [],
+    "date_submitted": "2014-10-24 19:03:59",
+    "handles": [
+      {
+        "handle": "10380/3482",
+        "handle_url": "http://hdl.handle.net/10380/3482"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 42,
+        "journal_name": "MICCAI 2014 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 929,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "olivier.bernard@creatis.insa-lyon.fr",
+      "author_firstname": "Olivier",
+      "author_fullname": "Bernard, Olivier",
+      "author_id": 5768,
+      "author_institution": "CREATIS",
+      "author_lastname": "Bernard"
+    },
+    "tags": [
+      "3D ultrasound imaging",
+      "Graph cuts",
+      "Segmentation"
+    ],
+    "title": "Automatized Evaluation of the Left Ventricular Ejection Fraction from Echocardiographic Images Using Graph Cut"
+  }
 }

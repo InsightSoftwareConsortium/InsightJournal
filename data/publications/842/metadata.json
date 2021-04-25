@@ -1,54 +1,57 @@
 {
- "publication": {
-  "abstract": "Non-destructive evaluation(NDE) is a group of analysis techniques used in industry to evaluate the property of a material, component or product without causing damage. Among all the techniques, radiology and thermography are two most common methods that are used to inspect the property of the interior of product and combining the knowledge contained in images of two modalites requires the space alignment. In this article, a 2D/3D multi-modality image registration scheme is presented to find the alignment between thermal infrared(IR) image and CT image of a engine blade. ",
-  "authors": [
-   {
-    "author_fullname": "Jia, Zhen",
-    "author_place": 1,
-    "persona_email": "jiazhen6@gmail.com",
-    "persona_firstname": "Zhen",
-    "persona_id": 5769,
-    "persona_lastname": "Jia"
-   }
-  ],
-  "categories": [
-   "Multi-modality registration",
-   "Registration metrics"
-  ],
-  "comments": [],
-  "date_submitted": "2011-11-14 09:59:36",
-  "handles": [
-   {
-    "handle": "10380/3327",
-    "handle_url": "http://hdl.handle.net/10380/3327"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 35,
-    "journal_name": "The VTK Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 842,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "jiazhen6@gmail.com",
-   "author_firstname": "Zhen",
-   "author_fullname": "Jia, Zhen",
-   "author_id": 5769,
-   "author_institution": "University of Cincinnati",
-   "author_lastname": "Jia"
-  },
-  "tags": [
-   "Non-Destructive Evaluation",
-   "Image registration",
-   "Multi-modality"
-  ],
-  "title": "2D/3D Multi-Modality Image Registration in Non-Destructive Evaluation"
- }
+  "publication": {
+    "abstract": "Non-destructive evaluation(NDE) is a group of analysis techniques used in industry to evaluate the property of a material, component or product without causing damage. Among all the techniques, radiology and thermography are two most common methods that are used to inspect the property of the interior of product and combining the knowledge contained in images of two modalites requires the space alignment. In this article, a 2D/3D multi-modality image registration scheme is presented to find the alignment between thermal infrared(IR) image and CT image of a engine blade. ",
+    "articles": [
+      "bafkreiav7xqrrzbtvmpuh7kf4od23nzm4dxvrbtiomxv7rp2u7vmnlikui"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Jia, Zhen",
+        "author_place": 1,
+        "persona_email": "jiazhen6@gmail.com",
+        "persona_firstname": "Zhen",
+        "persona_id": 5769,
+        "persona_lastname": "Jia"
+      }
+    ],
+    "categories": [
+      "Multi-modality registration",
+      "Registration metrics"
+    ],
+    "comments": [],
+    "date_submitted": "2011-11-14 09:59:36",
+    "handles": [
+      {
+        "handle": "10380/3327",
+        "handle_url": "http://hdl.handle.net/10380/3327"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 35,
+        "journal_name": "The VTK Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 842,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "jiazhen6@gmail.com",
+      "author_firstname": "Zhen",
+      "author_fullname": "Jia, Zhen",
+      "author_id": 5769,
+      "author_institution": "University of Cincinnati",
+      "author_lastname": "Jia"
+    },
+    "tags": [
+      "Non-Destructive Evaluation",
+      "Image registration",
+      "Multi-modality"
+    ],
+    "title": "2D/3D Multi-Modality Image Registration in Non-Destructive Evaluation"
+  }
 }

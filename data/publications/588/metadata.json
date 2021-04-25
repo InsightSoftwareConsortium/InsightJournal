@@ -1,120 +1,125 @@
 {
- "publication": {
-  "abstract": "Liver tumour segmentation from computed tomography (CT) scans is a challenging task. A semi-automatic method based on 2D region growing with knowledge-based constraints is proposed to segment lesions from constituent 2D slices obtained from 3D CT images. Minimal user involvement is required to define an approximate region of interest around the suspected legion area. The seed point and feature vectors are then calculated and voxels are labeled using a region-growing approach. Knowledge-based constraints are incorporated into the method to ensure the size and shape of the segmented region is within acceptable parameters. The individual segmented lesions can then be stacked together to generate a 3D volume. The proposed method was tested on a training set of 10 tumours and a testing set of 10 tumours. To evaluate the results quantitatively, various measures were used to generate scores. Based on the results obtained from the 10 testing tumours, the method was resulted in an average score of 64.",
-  "authors": [
-   {
-    "author_fullname": "Wong, Damon",
-    "author_place": 1,
-    "persona_email": "wkwong@i2r.a-star.edu.sg",
-    "persona_firstname": "Damon",
-    "persona_id": 903,
-    "persona_lastname": "Wong"
-   },
-   {
-    "author_fullname": "Liu, Jiang",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Yin, Fengshou",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Tian, Qi",
-    "author_place": 4,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Xiong, Wei",
-    "author_place": 5,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Zhou, Jiayin",
-    "author_place": 6,
-    "persona_email": "jiayin.zhou@gmail.com",
-    "persona_firstname": "Jiayin",
-    "persona_id": 902,
-    "persona_lastname": "Zhou"
-   },
-   {
-    "author_fullname": "Yingyi, Qi",
-    "author_place": 7,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Han, Thazin",
-    "author_place": 8,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Venkatesh, Sudhakar",
-    "author_place": 9,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Wang, Shih-Chang",
-    "author_place": 10,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Image",
-   "Region growing",
-   "Segmentation",
-   "Unsupervised learning and clustering"
-  ],
-  "comments": [],
-  "date_submitted": "2008-07-08",
-  "handles": [
-   {
-    "handle": "10380/1428",
-    "handle_url": "http://hdl.handle.net/10380/1428"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 45,
-    "journal_name": "MICCAI 2016 Workshops"
-   },
-   {
-    "journal_id": 33,
-    "journal_name": "MICCAI 2008 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 588,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "dengxiang05@gmail.com",
-     "author_firstname": "Xiang",
-     "author_id": 872,
-     "author_lastname": "Deng"
+  "publication": {
+    "abstract": "Liver tumour segmentation from computed tomography (CT) scans is a challenging task. A semi-automatic method based on 2D region growing with knowledge-based constraints is proposed to segment lesions from constituent 2D slices obtained from 3D CT images. Minimal user involvement is required to define an approximate region of interest around the suspected legion area. The seed point and feature vectors are then calculated and voxels are labeled using a region-growing approach. Knowledge-based constraints are incorporated into the method to ensure the size and shape of the segmented region is within acceptable parameters. The individual segmented lesions can then be stacked together to generate a 3D volume. The proposed method was tested on a training set of 10 tumours and a testing set of 10 tumours. To evaluate the results quantitatively, various measures were used to generate scores. Based on the results obtained from the 10 testing tumours, the method was resulted in an average score of 64.",
+    "articles": [
+      "bafybeiejbiydz5jkkb5oxwqgvyi2gvtiyvnxumviqvepp4l4n56ocg7smy",
+      "bafybeibg62zufyls2lzer7qpjpo5hiu5wx25umnqkuej2k7t42vqgomi3u",
+      "bafybeicusywfkmavgm7voehtlpg46pia7j3bipqmu2pnqabiteynfpswai"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Wong, Damon",
+        "author_place": 1,
+        "persona_email": "wkwong@i2r.a-star.edu.sg",
+        "persona_firstname": "Damon",
+        "persona_id": 903,
+        "persona_lastname": "Wong"
+      },
+      {
+        "author_fullname": "Liu, Jiang",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Yin, Fengshou",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Tian, Qi",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Xiong, Wei",
+        "author_place": 5,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Zhou, Jiayin",
+        "author_place": 6,
+        "persona_email": "jiayin.zhou@gmail.com",
+        "persona_firstname": "Jiayin",
+        "persona_id": 902,
+        "persona_lastname": "Zhou"
+      },
+      {
+        "author_fullname": "Yingyi, Qi",
+        "author_place": 7,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Han, Thazin",
+        "author_place": 8,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Venkatesh, Sudhakar",
+        "author_place": 9,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Wang, Shih-Chang",
+        "author_place": 10,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Image",
+      "Region growing",
+      "Segmentation",
+      "Unsupervised learning and clustering"
+    ],
+    "comments": [],
+    "date_submitted": "2008-07-08",
+    "handles": [
+      {
+        "handle": "10380/1428",
+        "handle_url": "http://hdl.handle.net/10380/1428"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<p>This paper presents a semi-automatic live tumor segmentation technique. <br />The segmentation is initialized with a user defined ROI. The tumors are then segmented using region growing followed with refinement by morphological operation. </p><p><br />Detailed comments:</p><p>1) The amount of user intervention needed in this method may be under-estimated, <br />because it requires user-defined ROI on each tumor bearing slice.<br />For processing large amount of data in routine clinical use, this could become a labor-intensive and time-consuming task . </p><p>2) it is not clear to me why the Knowledge-based constraints should be used to refine the segmentation.<br />What&#39;s the difference between the ROI and &quot;larger area&quot; mentioned in section 2.3?<br />Why can&#39;t the segmentation start with a &quot;larger area&quot; in the first run?<br />Could the authors briefly address this algorithm&#39;s sensitivity to initialization?</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>",
-    "date": "07-25-2008",
-    "review_id": 1524
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "wkwong@i2r.a-star.edu.sg",
-   "author_firstname": "Damon",
-   "author_fullname": "Wong, Damon",
-   "author_id": 903,
-   "author_institution": "I2R",
-   "author_lastname": "Wong"
-  },
-  "tags": [
-   "liver tumor",
-   "region-growing",
-   "segmentation"
-  ],
-  "title": "A semi-automated method for liver tumor segmentation based on 2D region growing with"
- }
+    "journals": [
+      {
+        "journal_id": 45,
+        "journal_name": "MICCAI 2016 Workshops"
+      },
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 588,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "dengxiang05@gmail.com",
+          "author_firstname": "Xiang",
+          "author_id": 872,
+          "author_lastname": "Deng"
+        },
+        "content": "<p>This paper presents a semi-automatic live tumor segmentation technique. <br />The segmentation is initialized with a user defined ROI. The tumors are then segmented using region growing followed with refinement by morphological operation. </p><p><br />Detailed comments:</p><p>1) The amount of user intervention needed in this method may be under-estimated, <br />because it requires user-defined ROI on each tumor bearing slice.<br />For processing large amount of data in routine clinical use, this could become a labor-intensive and time-consuming task . </p><p>2) it is not clear to me why the Knowledge-based constraints should be used to refine the segmentation.<br />What&#39;s the difference between the ROI and &quot;larger area&quot; mentioned in section 2.3?<br />Why can&#39;t the segmentation start with a &quot;larger area&quot; in the first run?<br />Could the authors briefly address this algorithm&#39;s sensitivity to initialization?</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>",
+        "date": "07-25-2008",
+        "review_id": 1524
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "wkwong@i2r.a-star.edu.sg",
+      "author_firstname": "Damon",
+      "author_fullname": "Wong, Damon",
+      "author_id": 903,
+      "author_institution": "I2R",
+      "author_lastname": "Wong"
+    },
+    "tags": [
+      "liver tumor",
+      "region-growing",
+      "segmentation"
+    ],
+    "title": "A semi-automated method for liver tumor segmentation based on 2D region growing with"
+  }
 }

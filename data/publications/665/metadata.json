@@ -1,53 +1,57 @@
 {
- "publication": {
-  "abstract": "We propose a method for segmenting and labeling the main head and neck vessels (common, internal, external carotid and vertebral arteries) from a contrast enhanced computed tomography angiography (CTA) volume. First, an initial centerline of each vessel is extracted. Next, the vessels are segmented using 3D active objects initialized using the first step. Finally, the true centerline is identified by smoothly deforming it away from the segmented mask edges using a spline-snake. \n\nWe focus particularly on the initial centerline extraction technique. It uses a locally adaptive front propagation algorithm that attempts to find the optimal path connecting the ends of the vessel, typically from the lowest image of the scan to the Circle of Willis in the brain. It uses a patient adapted anatomical model of the different vessels both to initialize and constrain this fast marching, thus eliminating the need for manual selection of seed points. \n\nThe method is evaluated by applying it to the datasets of the MICCAI 2009 carotid bifurcation challenge, for which this paper is the only fully automatic method submitted. \n",
-  "authors": [
-   {
-    "author_fullname": "Cuisenaire, Olivier",
-    "author_place": 1,
-    "persona_email": "olivier.cuisenaire@philips.com",
-    "persona_firstname": "Olivier",
-    "persona_id": 2225,
-    "persona_lastname": "Cuisenaire"
-   }
-  ],
-  "categories": [
-   "Atlas-based segmentation",
-   "Segmentation"
-  ],
-  "comments": [],
-  "date_submitted": "2009-08-20 12:02:17",
-  "handles": [
-   {
-    "handle": "10380/3100",
-    "handle_url": "http://hdl.handle.net/10380/3100"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 34,
-    "journal_name": "MICCAI 2009 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 665,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "olivier.cuisenaire@philips.com",
-   "author_firstname": "Olivier",
-   "author_fullname": "Cuisenaire, Olivier",
-   "author_id": 2225,
-   "author_institution": "Philips Healthcare",
-   "author_lastname": "Cuisenaire"
-  },
-  "tags": [
-   "carotid",
-   "CTA"
-  ],
-  "title": "Fully automated segmentation of carotid and vertebral arteries from CTA"
- }
+  "publication": {
+    "abstract": "We propose a method for segmenting and labeling the main head and neck vessels (common, internal, external carotid and vertebral arteries) from a contrast enhanced computed tomography angiography (CTA) volume. First, an initial centerline of each vessel is extracted. Next, the vessels are segmented using 3D active objects initialized using the first step. Finally, the true centerline is identified by smoothly deforming it away from the segmented mask edges using a spline-snake. \n\nWe focus particularly on the initial centerline extraction technique. It uses a locally adaptive front propagation algorithm that attempts to find the optimal path connecting the ends of the vessel, typically from the lowest image of the scan to the Circle of Willis in the brain. It uses a patient adapted anatomical model of the different vessels both to initialize and constrain this fast marching, thus eliminating the need for manual selection of seed points. \n\nThe method is evaluated by applying it to the datasets of the MICCAI 2009 carotid bifurcation challenge, for which this paper is the only fully automatic method submitted. \n",
+    "articles": [
+      "bafybeidorc2v7setch3f3cs7n6c6opkzti74ilboc2vvoyxplk47pbzqfq",
+      "bafybeiaepf2ox7bycp5mbraj7m7dch4zcg32mmazwre6dl2llkb4ty2te4"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Cuisenaire, Olivier",
+        "author_place": 1,
+        "persona_email": "olivier.cuisenaire@philips.com",
+        "persona_firstname": "Olivier",
+        "persona_id": 2225,
+        "persona_lastname": "Cuisenaire"
+      }
+    ],
+    "categories": [
+      "Atlas-based segmentation",
+      "Segmentation"
+    ],
+    "comments": [],
+    "date_submitted": "2009-08-20 12:02:17",
+    "handles": [
+      {
+        "handle": "10380/3100",
+        "handle_url": "http://hdl.handle.net/10380/3100"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 34,
+        "journal_name": "MICCAI 2009 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 665,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "olivier.cuisenaire@philips.com",
+      "author_firstname": "Olivier",
+      "author_fullname": "Cuisenaire, Olivier",
+      "author_id": 2225,
+      "author_institution": "Philips Healthcare",
+      "author_lastname": "Cuisenaire"
+    },
+    "tags": [
+      "carotid",
+      "CTA"
+    ],
+    "title": "Fully automated segmentation of carotid and vertebral arteries from CTA"
+  }
 }

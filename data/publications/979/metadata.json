@@ -1,62 +1,65 @@
 {
- "publication": {
-  "abstract": "This document describes an ITK implementation of the adaptive patch-based\nimage denoising algorithm described in cite{Manjon:2010aa}. This offering consists\nof the templated class itkPatchBasedDenoisingImageFilter interfaced through\nthe DenoiseImage program which includes its own interface program. We include\na couple of examples.",
-  "authors": [
-   {
-    "author_fullname": "Tustison, Nicholas J.",
-    "author_place": 2,
-    "persona_email": "ntustison@gmail.com",
-    "persona_firstname": "Nicholas J.",
-    "persona_id": 8833,
-    "persona_lastname": "Tustison"
-   },
-   {
-    "author_fullname": "Manjon, Jose V.",
-    "author_place": 3,
-    "persona_email": "jmanjon@fis.upv.es",
-    "persona_firstname": "Jose",
-    "persona_id": 451,
-    "persona_lastname": "Manjon"
-   }
-  ],
-  "categories": [
-   "Anisotropic blurring filters",
-   "Filtering",
-   "Neighborhood filters"
-  ],
-  "comments": [],
-  "date_submitted": "2016-08-27 11:37:14",
-  "handles": [
-   {
-    "handle": "10380/3564",
-    "handle_url": "http://hdl.handle.net/10380/3564"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 979,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "ntustison@gmail.com",
-   "author_firstname": "Nicholas J.",
-   "author_fullname": "Tustison, Nicholas J.",
-   "author_id": 8833,
-   "author_institution": "",
-   "author_lastname": "Tustison"
-  },
-  "tags": [
-   "MRI",
-   "Denoising"
-  ],
-  "title": "Two Luis Miguel fans walk into a bar in Nagoya ---> (yada, yada, yada) ---> an ITK-implementation of a popular patch-based denoising filter"
- }
+  "publication": {
+    "abstract": "This document describes an ITK implementation of the adaptive patch-based\nimage denoising algorithm described in cite{Manjon:2010aa}. This offering consists\nof the templated class itkPatchBasedDenoisingImageFilter interfaced through\nthe DenoiseImage program which includes its own interface program. We include\na couple of examples.",
+    "articles": [
+      "bafybeiajyl5tsiovovhi5bvh3khexg2tvm2tzfsfautcril2twcoakn6ki"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Tustison, Nicholas J.",
+        "author_place": 2,
+        "persona_email": "ntustison@gmail.com",
+        "persona_firstname": "Nicholas J.",
+        "persona_id": 8833,
+        "persona_lastname": "Tustison"
+      },
+      {
+        "author_fullname": "Manjon, Jose V.",
+        "author_place": 3,
+        "persona_email": "jmanjon@fis.upv.es",
+        "persona_firstname": "Jose",
+        "persona_id": 451,
+        "persona_lastname": "Manjon"
+      }
+    ],
+    "categories": [
+      "Anisotropic blurring filters",
+      "Filtering",
+      "Neighborhood filters"
+    ],
+    "comments": [],
+    "date_submitted": "2016-08-27 11:37:14",
+    "handles": [
+      {
+        "handle": "10380/3564",
+        "handle_url": "http://hdl.handle.net/10380/3564"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 979,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "ntustison@gmail.com",
+      "author_firstname": "Nicholas J.",
+      "author_fullname": "Tustison, Nicholas J.",
+      "author_id": 8833,
+      "author_institution": "",
+      "author_lastname": "Tustison"
+    },
+    "tags": [
+      "MRI",
+      "Denoising"
+    ],
+    "title": "Two Luis Miguel fans walk into a bar in Nagoya ---> (yada, yada, yada) ---> an ITK-implementation of a popular patch-based denoising filter"
+  }
 }

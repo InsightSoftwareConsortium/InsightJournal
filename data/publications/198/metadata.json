@@ -1,49 +1,53 @@
 {
- "publication": {
-  "abstract": "This document describes some experiments for segmentation using the Insight Toolkit\r\nITK \\url{www.itk.org}. The code of the experiment is written following the\r\nITK CodingStyle as described in the directory \\code{Insight/Documentation/Style.pdf}.\r\n\r\nSegmentation is still an open problem and there are quite a lot of algorithms \r\nspecific to application domains and data being used. In this experiment I've used \r\na 3-D MRA scan of Brain retrieved from MIDAS website. This paper is accompanied \r\nwith the source code, input data, parameters and output data that the author used for experimenting with the algorithm.",
-  "authors": [
-   {
-    "author_fullname": "Bilgin, Cemal Cagatay",
-    "author_place": 1,
-    "persona_email": "bilgincc@gmail.com",
-    "persona_firstname": "Cemal Cagatay",
-    "persona_id": 6593,
-    "persona_lastname": "Bilgin"
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2007-10-19T07:07:39Z",
-  "handles": [
-   {
-    "handle": "1926/1310",
-    "handle_url": "http://hdl.handle.net/1926/1310"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 198,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "bilgincc@gmail.com",
-   "author_firstname": "Cemal Cagatay",
-   "author_fullname": "Bilgin, Cemal Cagatay",
-   "author_id": 6593,
-   "author_institution": "",
-   "author_lastname": "Bilgin"
-  },
-  "tags": [
-   "ventricle segmentation, connected threshold,"
-  ],
-  "title": "Experimenting with Segmentation in ITK"
- }
+  "publication": {
+    "abstract": "This document describes some experiments for segmentation using the Insight Toolkit\r\nITK \\url{www.itk.org}. The code of the experiment is written following the\r\nITK CodingStyle as described in the directory \\code{Insight/Documentation/Style.pdf}.\r\n\r\nSegmentation is still an open problem and there are quite a lot of algorithms \r\nspecific to application domains and data being used. In this experiment I've used \r\na 3-D MRA scan of Brain retrieved from MIDAS website. This paper is accompanied \r\nwith the source code, input data, parameters and output data that the author used for experimenting with the algorithm.",
+    "articles": [
+      "bafkreiar3wjfb3dqer5dadmzxzg7qxyokw4oshoqfbnuikfx5einnw4ybi",
+      "bafkreiar3wjfb3dqer5dadmzxzg7qxyokw4oshoqfbnuikfx5einnw4ybi"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Bilgin, Cemal Cagatay",
+        "author_place": 1,
+        "persona_email": "bilgincc@gmail.com",
+        "persona_firstname": "Cemal Cagatay",
+        "persona_id": 6593,
+        "persona_lastname": "Bilgin"
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2007-10-19T07:07:39Z",
+    "handles": [
+      {
+        "handle": "1926/1310",
+        "handle_url": "http://hdl.handle.net/1926/1310"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 198,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "bilgincc@gmail.com",
+      "author_firstname": "Cemal Cagatay",
+      "author_fullname": "Bilgin, Cemal Cagatay",
+      "author_id": 6593,
+      "author_institution": "",
+      "author_lastname": "Bilgin"
+    },
+    "tags": [
+      "ventricle segmentation, connected threshold,"
+    ],
+    "title": "Experimenting with Segmentation in ITK"
+  }
 }

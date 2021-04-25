@@ -1,60 +1,64 @@
 {
- "publication": {
-  "abstract": "A new patch based label fusion method based on generative approach is proposed for segmentation of mandible, brainstem, parotid and submandibular glands, optic nerves and the optic chiasm in head and neck CT images. The proposal constructs local classifiers from a dictionary of patches and weights their contribution using a generative probabilistic criterion. Also, a gaussian slide window is used to weight the multiples estimations of neighboring voxels. The proposed method was evaluated on a set of 15 CT images (10 off-site and 5 onsite) provided by the organizers of the Head and neck Auto-Segmentation challenge(MICCAI 2015), where the obtained results are comparable to many of the other methods used in the challenge.",
-  "authors": [
-   {
-    "author_fullname": "Orbes Arteaga, Mauricio",
-    "author_place": 1,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Cardenas Pe\u00f1a, David",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Castellanos Dominguez, Germ\u00e1n",
-    "author_place": 3,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Segmentation",
-   "Statistical shape models"
-  ],
-  "comments": [],
-  "date_submitted": "2016-10-14 12:06:54",
-  "handles": [
-   {
-    "handle": "10380/3539",
-    "handle_url": "http://hdl.handle.net/10380/3539"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 44,
-    "journal_name": "MICCAI 2015 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 965,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "mauricio.orbes@gmail.com",
-   "author_firstname": "Mauricio",
-   "author_fullname": "Orbes, Mauricio",
-   "author_id": 9712,
-   "author_institution": "Universidad Nacional De colombia",
-   "author_lastname": "Orbes"
-  },
-  "tags": [
-   "Head and neck segmentation",
-   "patch based "
-  ],
-  "title": "Head and Neck Auto Segmentation Challenge based on Non-Local Generative Models"
- }
+  "publication": {
+    "abstract": "A new patch based label fusion method based on generative approach is proposed for segmentation of mandible, brainstem, parotid and submandibular glands, optic nerves and the optic chiasm in head and neck CT images. The proposal constructs local classifiers from a dictionary of patches and weights their contribution using a generative probabilistic criterion. Also, a gaussian slide window is used to weight the multiples estimations of neighboring voxels. The proposed method was evaluated on a set of 15 CT images (10 off-site and 5 onsite) provided by the organizers of the Head and neck Auto-Segmentation challenge(MICCAI 2015), where the obtained results are comparable to many of the other methods used in the challenge.",
+    "articles": [
+      "bafybeigjdbe2uxsw5mn4yzu5gqnbxppkd2rddvuomy6msgwlfpw6ptbiy4",
+      "bafybeih7lezvgnvb2h433vfocsvughrfhdmtourzva7samyjzqvqer4s4e"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Orbes Arteaga, Mauricio",
+        "author_place": 1,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Cardenas Pe\u00f1a, David",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Castellanos Dominguez, Germ\u00e1n",
+        "author_place": 3,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Segmentation",
+      "Statistical shape models"
+    ],
+    "comments": [],
+    "date_submitted": "2016-10-14 12:06:54",
+    "handles": [
+      {
+        "handle": "10380/3539",
+        "handle_url": "http://hdl.handle.net/10380/3539"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 44,
+        "journal_name": "MICCAI 2015 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 965,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "mauricio.orbes@gmail.com",
+      "author_firstname": "Mauricio",
+      "author_fullname": "Orbes, Mauricio",
+      "author_id": 9712,
+      "author_institution": "Universidad Nacional De colombia",
+      "author_lastname": "Orbes"
+    },
+    "tags": [
+      "Head and neck segmentation",
+      "patch based "
+    ],
+    "title": "Head and Neck Auto Segmentation Challenge based on Non-Local Generative Models"
+  }
 }

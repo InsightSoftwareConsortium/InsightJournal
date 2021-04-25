@@ -1,70 +1,73 @@
 {
- "publication": {
-  "abstract": "This document describes a plug-in for Blender (www.blender.org) that allows to rasterize 3D mesh objects into 3D voxel data, i. e. it allows to voxelize Blender meshes. In 2D, this process can be compared to rasterization of vector graphics into pixel graphics. The voxelization is done by VTK (www.vtk.org) functions. A simple GUI allows to choose the type of voxelization and to specify necessary parameters. Depending on the type chosen, only the surface of the mesh objects is voxelized or the enclosed volume, i. e.\u201cfilled\u201d. Beside the size of the output, one can specify if the result should be \u201canti-aliased\u201d or not.\nThis paper is accompanied with the source code, input data, parameters and output data that the authors used for validating the script described in this paper.\n",
-  "authors": [
-   {
-    "author_fullname": "Grothausmann, Roman",
-    "author_place": 2,
-    "persona_email": "Grothausmann.Roman@mh-hannover.de",
-    "persona_firstname": "Roman",
-    "persona_id": 6854,
-    "persona_lastname": "Grothausmann"
-   },
-   {
-    "author_fullname": "Gout, Julien",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "K\u00fchnel, Mark",
-    "author_place": 4,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Image",
-   "Images",
-   "Mesh",
-   "Resampling",
-   "Surface extraction"
-  ],
-  "comments": [],
-  "date_submitted": "2012-11-09 06:55:57",
-  "handles": [
-   {
-    "handle": "10380/3391",
-    "handle_url": "http://hdl.handle.net/10380/3391"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 31,
-    "journal_name": "The MIDAS Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 882,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "Grothausmann.Roman@mh-hannover.de",
-   "author_firstname": "Roman",
-   "author_fullname": "Grothausmann, Roman",
-   "author_id": 6854,
-   "author_institution": "Medizinische Hochschule Hannover",
-   "author_lastname": "Grothausmann"
-  },
-  "tags": [
-   "mesh to image conversion",
-   "GUI",
-   "rasterization",
-   "Blender",
-   "plug-in",
-   "voxelization"
-  ],
-  "title": "Voxelizer plug-in for Blender"
- }
+  "publication": {
+    "abstract": "This document describes a plug-in for Blender (www.blender.org) that allows to rasterize 3D mesh objects into 3D voxel data, i. e. it allows to voxelize Blender meshes. In 2D, this process can be compared to rasterization of vector graphics into pixel graphics. The voxelization is done by VTK (www.vtk.org) functions. A simple GUI allows to choose the type of voxelization and to specify necessary parameters. Depending on the type chosen, only the surface of the mesh objects is voxelized or the enclosed volume, i. e.\u201cfilled\u201d. Beside the size of the output, one can specify if the result should be \u201canti-aliased\u201d or not.\nThis paper is accompanied with the source code, input data, parameters and output data that the authors used for validating the script described in this paper.\n",
+    "articles": [
+      "bafybeiccskusa4rnj76u7hbksiagypmbjtasjnt5g3w24cvmz2cct3bq3a"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Grothausmann, Roman",
+        "author_place": 2,
+        "persona_email": "Grothausmann.Roman@mh-hannover.de",
+        "persona_firstname": "Roman",
+        "persona_id": 6854,
+        "persona_lastname": "Grothausmann"
+      },
+      {
+        "author_fullname": "Gout, Julien",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "K\u00fchnel, Mark",
+        "author_place": 4,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Image",
+      "Images",
+      "Mesh",
+      "Resampling",
+      "Surface extraction"
+    ],
+    "comments": [],
+    "date_submitted": "2012-11-09 06:55:57",
+    "handles": [
+      {
+        "handle": "10380/3391",
+        "handle_url": "http://hdl.handle.net/10380/3391"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 31,
+        "journal_name": "The MIDAS Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 882,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "Grothausmann.Roman@mh-hannover.de",
+      "author_firstname": "Roman",
+      "author_fullname": "Grothausmann, Roman",
+      "author_id": 6854,
+      "author_institution": "Medizinische Hochschule Hannover",
+      "author_lastname": "Grothausmann"
+    },
+    "tags": [
+      "mesh to image conversion",
+      "GUI",
+      "rasterization",
+      "Blender",
+      "plug-in",
+      "voxelization"
+    ],
+    "title": "Voxelizer plug-in for Blender"
+  }
 }

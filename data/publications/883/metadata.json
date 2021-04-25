@@ -1,71 +1,74 @@
 {
- "publication": {
-  "abstract": "This document describes an extension of ITK to handle both primal and dual meshes simultaneously. This paper describe in particular the data structure, an extension of itk::QuadEdgeMesh, a filter to compute and add to the the structure the dual of an existing mesh, and an adaptor which let a down- ward pipeline process the dual mesh as if it was a native itk::QuadEdgeMesh. The new data structure, itk::QuadEdgeMeshWithDual, is an extension of the already existing itk::QuadEdgeMesh, which already included by default the due topology, to handle dual geometry as well. Two types of primal meshes have been specifically illustrated: triangular / simplex meshes and Voronoi / Delaunay. A functor mechanism has been implemented to allow for different kind of computation of the dual geometry. This paper is accompanied with the source code and examples.",
-  "authors": [
-   {
-    "author_fullname": "Irshad, Humayun",
-    "author_place": 1,
-    "persona_email": "humayun.irshad@gmail.com",
-    "persona_firstname": "Humayun",
-    "persona_id": 9856,
-    "persona_lastname": "Irshad"
-   },
-   {
-    "author_fullname": "Rigaud, Stephane",
-    "author_place": 2,
-    "persona_email": "stephane.rigaud@pasteur.fr",
-    "persona_firstname": "Stephane",
-    "persona_id": 6540,
-    "persona_lastname": "Rigaud"
-   },
-   {
-    "author_fullname": "Gouaillard, Alexandre",
-    "author_place": 3,
-    "persona_email": "agouaillard@gmail.com",
-    "persona_firstname": "Alexandre",
-    "persona_id": 322,
-    "persona_lastname": "Gouaillard"
-   }
-  ],
-  "categories": [
-   "Data Representation",
-   "Mesh"
-  ],
-  "comments": [],
-  "date_submitted": "2012-11-15 20:47:19",
-  "handles": [
-   {
-    "handle": "10380/3392",
-    "handle_url": "http://hdl.handle.net/10380/3392"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 883,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "stephane.rigaud@pasteur.fr",
-   "author_firstname": "Stephane",
-   "author_fullname": "Rigaud, Stephane",
-   "author_id": 6540,
-   "author_institution": "Insitut Pasteur",
-   "author_lastname": "Rigaud"
-  },
-  "tags": [
-   "Simplex Mesh",
-   "QuadEdgeMesh",
-   "Primal Dual Mesh",
-   "ITK"
-  ],
-  "title": "Primal/Dual Mesh with Application to Triangular/Simplex Mesh and Delaunay/Voronoi"
- }
+  "publication": {
+    "abstract": "This document describes an extension of ITK to handle both primal and dual meshes simultaneously. This paper describe in particular the data structure, an extension of itk::QuadEdgeMesh, a filter to compute and add to the the structure the dual of an existing mesh, and an adaptor which let a down- ward pipeline process the dual mesh as if it was a native itk::QuadEdgeMesh. The new data structure, itk::QuadEdgeMeshWithDual, is an extension of the already existing itk::QuadEdgeMesh, which already included by default the due topology, to handle dual geometry as well. Two types of primal meshes have been specifically illustrated: triangular / simplex meshes and Voronoi / Delaunay. A functor mechanism has been implemented to allow for different kind of computation of the dual geometry. This paper is accompanied with the source code and examples.",
+    "articles": [
+      "bafybeidfnb3gusngjwktwlebrcfexfzcu5ww5z22zeuqj75qmxkbklcic4"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Irshad, Humayun",
+        "author_place": 1,
+        "persona_email": "humayun.irshad@gmail.com",
+        "persona_firstname": "Humayun",
+        "persona_id": 9856,
+        "persona_lastname": "Irshad"
+      },
+      {
+        "author_fullname": "Rigaud, Stephane",
+        "author_place": 2,
+        "persona_email": "stephane.rigaud@pasteur.fr",
+        "persona_firstname": "Stephane",
+        "persona_id": 6540,
+        "persona_lastname": "Rigaud"
+      },
+      {
+        "author_fullname": "Gouaillard, Alexandre",
+        "author_place": 3,
+        "persona_email": "agouaillard@gmail.com",
+        "persona_firstname": "Alexandre",
+        "persona_id": 322,
+        "persona_lastname": "Gouaillard"
+      }
+    ],
+    "categories": [
+      "Data Representation",
+      "Mesh"
+    ],
+    "comments": [],
+    "date_submitted": "2012-11-15 20:47:19",
+    "handles": [
+      {
+        "handle": "10380/3392",
+        "handle_url": "http://hdl.handle.net/10380/3392"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 883,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "stephane.rigaud@pasteur.fr",
+      "author_firstname": "Stephane",
+      "author_fullname": "Rigaud, Stephane",
+      "author_id": 6540,
+      "author_institution": "Insitut Pasteur",
+      "author_lastname": "Rigaud"
+    },
+    "tags": [
+      "Simplex Mesh",
+      "QuadEdgeMesh",
+      "Primal Dual Mesh",
+      "ITK"
+    ],
+    "title": "Primal/Dual Mesh with Application to Triangular/Simplex Mesh and Delaunay/Voronoi"
+  }
 }

@@ -1,116 +1,119 @@
 {
- "publication": {
-  "abstract": "OpenTissue is a multidisciplinary, open source programming toolkit\r\n for physics-based simulation, collision detection, scientific\r\n visualization, and medical imaging. The toolkit was initiated in\r\n 2001, is driven by academia, and is used by several universities.\r\n It implements several cutting edge simulators using cutting edge\r\n programming techniques. OpenTissue is available under Windows and\r\n Linux, and it implements almost all algorithms presented in the\r\n accompanying book, Erleben et al. Physics-Based Animation, Charles River Media, 2005. This\r\n presentation will give an overview of OpenTissue: what it can do,\r\n how it is done, and where the toolkit is going",
-  "authors": [
-   {
-    "author_fullname": "Erleben, Kenny",
-    "author_place": 1,
-    "persona_email": "kenny@diku.dk",
-    "persona_firstname": "Kenny",
-    "persona_id": 2572,
-    "persona_lastname": "Erleben"
-   },
-   {
-    "author_fullname": "Sporring, Jon",
-    "author_place": 2,
-    "persona_email": "sporring@diku.dk",
-    "persona_firstname": "Jon",
-    "persona_id": 103,
-    "persona_lastname": "Sporring"
-   },
-   {
-    "author_fullname": "Dohlmann, Henrik",
-    "author_place": 3,
-    "persona_email": "henrikd@diku.dk",
-    "persona_firstname": "Henrik",
-    "persona_id": 125,
-    "persona_lastname": "Dohlmann"
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2005-08-05T13:26:52Z",
-  "handles": [
-   {
-    "handle": "1926/34",
-    "handle_url": "http://hdl.handle.net/1926/34"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 44,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "julien@jomier.com",
-     "author_firstname": "Julien",
-     "author_id": 3,
-     "author_lastname": "Jomier"
+  "publication": {
+    "abstract": "OpenTissue is a multidisciplinary, open source programming toolkit\r\n for physics-based simulation, collision detection, scientific\r\n visualization, and medical imaging. The toolkit was initiated in\r\n 2001, is driven by academia, and is used by several universities.\r\n It implements several cutting edge simulators using cutting edge\r\n programming techniques. OpenTissue is available under Windows and\r\n Linux, and it implements almost all algorithms presented in the\r\n accompanying book, Erleben et al. Physics-Based Animation, Charles River Media, 2005. This\r\n presentation will give an overview of OpenTissue: what it can do,\r\n how it is done, and where the toolkit is going",
+    "articles": [
+      "bafybeihgbdjmewbbh6au55ama3uyc5s6e4lttnlvfxsdgqwnxnfkqrybci"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Erleben, Kenny",
+        "author_place": 1,
+        "persona_email": "kenny@diku.dk",
+        "persona_firstname": "Kenny",
+        "persona_id": 2572,
+        "persona_lastname": "Erleben"
+      },
+      {
+        "author_fullname": "Sporring, Jon",
+        "author_place": 2,
+        "persona_email": "sporring@diku.dk",
+        "persona_firstname": "Jon",
+        "persona_id": 103,
+        "persona_lastname": "Sporring"
+      },
+      {
+        "author_fullname": "Dohlmann, Henrik",
+        "author_place": 3,
+        "persona_email": "henrikd@diku.dk",
+        "persona_firstname": "Henrik",
+        "persona_id": 125,
+        "persona_lastname": "Dohlmann"
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2005-08-05T13:26:52Z",
+    "handles": [
+      {
+        "handle": "1926/34",
+        "handle_url": "http://hdl.handle.net/1926/34"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<b>Summary:</b>\r\nThis paper presents an open-source toolkit for physics-based animation. The toolkit can be applied to Medical Imaging analysis and simulation.\r\n \r\n<b>Hypothesis:</b>\r\nNA\r\n\r\n<b>Evidence:</b>\r\nNA\r\n\r\n<b>Open Science:</b>\r\nThe paper fully supports the concept of Open-Science.\r\n\r\n<b>Reproducibility:</b>\r\nI did not download the source code.\r\n\r\n<b>Use of Open Source Software:</b>\r\nThe toolkit is fully open-source. It uses some third party packages that may limit its portability.\r\n\r\n<b>Open Source Contributions:</b>\r\nThe source code is available under GNU LGPL.\r\n\r\n<b>Code Quality:</b>\r\nThe code uses modern coding style. Heavily templated. The documentation looks very good and complete.\r\n\r\n<b>Applicability to other problems:</b>\r\nThe toolkit can be applied to many different fields.\r\n\r\n<b>Suggestions for future work:</b>\r\nThe authors should continue to support the toolkit and advertise it more.\r\n\r\n<b>Requests for additional information from authors:</b>\r\nMaybe some concret applications and example on real cases would have been a plus for this paper.\r\nI could not find the list of supported platforms/compilers...\r\nDo you use any regression testing to make sure your code compiles regularly on all the platforms?\r\nAny plan to use CMake (www.cmake.org) to build this toolkit in the future?\r\n\r\n<b>Additional Comments:</b>\r\nThe paper is well written. The examples are very nice and the videos are impressive.\r\nVery nice job!\r\n",
-    "date": "09-15-2005",
-    "review_id": 79
-   },
-   {
-    "author": {
-     "author_email": "andinet.enqu@kitware.com",
-     "author_firstname": "Andinet",
-     "author_id": 68,
-     "author_lastname": "Enquobahrie"
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 44,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "julien@jomier.com",
+          "author_firstname": "Julien",
+          "author_id": 3,
+          "author_lastname": "Jomier"
+        },
+        "content": "<b>Summary:</b>\r\nThis paper presents an open-source toolkit for physics-based animation. The toolkit can be applied to Medical Imaging analysis and simulation.\r\n \r\n<b>Hypothesis:</b>\r\nNA\r\n\r\n<b>Evidence:</b>\r\nNA\r\n\r\n<b>Open Science:</b>\r\nThe paper fully supports the concept of Open-Science.\r\n\r\n<b>Reproducibility:</b>\r\nI did not download the source code.\r\n\r\n<b>Use of Open Source Software:</b>\r\nThe toolkit is fully open-source. It uses some third party packages that may limit its portability.\r\n\r\n<b>Open Source Contributions:</b>\r\nThe source code is available under GNU LGPL.\r\n\r\n<b>Code Quality:</b>\r\nThe code uses modern coding style. Heavily templated. The documentation looks very good and complete.\r\n\r\n<b>Applicability to other problems:</b>\r\nThe toolkit can be applied to many different fields.\r\n\r\n<b>Suggestions for future work:</b>\r\nThe authors should continue to support the toolkit and advertise it more.\r\n\r\n<b>Requests for additional information from authors:</b>\r\nMaybe some concret applications and example on real cases would have been a plus for this paper.\r\nI could not find the list of supported platforms/compilers...\r\nDo you use any regression testing to make sure your code compiles regularly on all the platforms?\r\nAny plan to use CMake (www.cmake.org) to build this toolkit in the future?\r\n\r\n<b>Additional Comments:</b>\r\nThe paper is well written. The examples are very nice and the videos are impressive.\r\nVery nice job!\r\n",
+        "date": "09-15-2005",
+        "review_id": 79
+      },
+      {
+        "author": {
+          "author_email": "andinet.enqu@kitware.com",
+          "author_firstname": "Andinet",
+          "author_id": 68,
+          "author_lastname": "Enquobahrie"
+        },
+        "content": "<b>Summary:</b>\r\nThe authors introduced an open source toolkit that is useful for physics-based simulations, analysis and visualization.\r\n \r\n<b>Hypothesis:</b>\r\nNon applicable\r\n\r\n<b>Evidence:</b>\r\nNon applicable\r\n\r\n<b>Open Science:</b>\r\nThe toolkit is freely available for use. \r\n\r\n<b>Reproducibility:</b>\r\nDemos of different applications using the toolkit were provided by the authors. However, source code for the applicatioons hasn\\\\\\'t been provided. The reproducibility of the demos could not been tested. \r\n\r\n<b>Use of Open Source Software:</b>\r\nThe authors have described well the advantage of their toolkit compared to other commerical softwares and open source softwares.\r\n\r\n<b>Open Source Contributions:</b>\r\nA souce code hasn\\\\\\'t been provided.\r\n\r\n<b>Code Quality:</b>\r\nNon applicable\r\n\r\n<b>Applicability to other problems:</b>\r\nThe toolkit would be useful for image analysis technqiues based on physics principles such as simulated annealing segmentation algorithms.\r\n\r\n<b>Suggestions for future work:</b>\r\n\r\n<b>Requests for additional information from authors:</b>\r\n\r\n<b>Additional Comments:</b>\r\n\r\n",
+        "date": "09-14-2005",
+        "review_id": 74
+      },
+      {
+        "author": {
+          "author_email": "marfGm@gmail.com",
+          "author_firstname": "Miguel Angel",
+          "author_id": 445,
+          "author_lastname": "Rodriguez-Florido"
+        },
+        "content": "<b>Summary:</b>\r\nAuthors present an open source programming toolkit for physics-based simulation, collision detection, deformation, etc. First, they describe the origin of the\r\ntoolkit. Later, they comment the basic features, and finally they discuss the pros and cons of the toolkit.\r\n \r\n<b>Hypothesis:</b>\r\nNon Applicable\r\n\r\n<b>Evidence:</b>\r\nAuthors don\\'t provide any \\\"speculation\\\", but they assume that the third-party dependences ensure a common framework.\r\n\r\n<b>Open Science:</b>\r\nThis work is the result of a great workgroup (PhD and Master Thesis students, researchers, etc.), and they provide a web site for code, data, etc, and their work is a contribution to Open Science.\r\n\r\n<b>Reproducibility:</b>\r\nI have downloaded the code and data, but in my opinion it\\'s difficult to compile it correctly. I have tried some demos but I got some errors. These errors are the result of the strong third-party dependences. How the say in their ToDo.txt fie: \\\"Automize cross-compilation (windows vs. linux) so compatibility can be easily tested with a minimum of human interaction\\\" is needed.\r\nPerhaps, it would be useful a small quick-start guide in the paper (annexes or similar).\r\n\r\n<b>Use of Open Source Software:</b>\r\nThey comment something about the utility of OpenSource for accessing to the implementations details, and their developments are done under OpenSource.\r\n\r\n<b>Open Source Contributions:</b>\r\nThey provide all the code, but I have had some problems to compile and use it. This is due to the strongly dependence with third-parties.\r\n\r\n<b>Code Quality:</b>\r\nI have compiled under linux and it works. We hope to try it under windows. I haven\\'t checked the source code style, but they say in their paper that they have used template programming\r\nand metaprogramming.\r\n\r\n<b>Applicability to other problems:</b>\r\nI think that this work is very useful in surgical simulation. Our group is working in this discipline, and thanks to the Open Source philosophy, we are installing/running/testing the toolkit to study the viability of including some of their work in our applications.\r\n\r\n<b>Suggestions for future work:</b>\r\nAvoid the strong third-parties dependences. However, they say in their paper that one of their aim is to complete the transition of all code into a completely generic programming\r\nframework.\r\n\r\n<b>Requests for additional information from authors:</b>\r\nA quick-start guide for running demos.\r\n\r\n<b>Additional Comments:</b>\r\nIt is a great and interesting work. Congratulations.\r\nMy rating is based on the IJ reviewer guidelines.\r\n\r\n\r\n",
+        "date": "06-27-2006",
+        "review_id": 230
+      },
+      {
+        "author": {
+          "author_email": "delfin@cc.gatech.edu",
+          "author_firstname": "Delphine",
+          "author_id": 136,
+          "author_lastname": "Nain"
+        },
+        "content": "<b>Summary:</b>\r\n[Short description of the paper. In two or three phrases describe the problem that was addressed by the authors and the approach they took to solve it.]\r\n\r\nThis paper describes an open source toolkit for physics based simulation that has been used for research and education since 2001. The toolkit provides implementation of state of the art physics based algorithms and has been used for a variety of physics-based simulations, as demonstrated by the demos that accompany this paper.\r\n \r\n<b>Hypothesis:</b>\r\n[If Applicable: Describe the assumptions that the authors have made and they hypothesis of their work, note that not all papers will fit the model of hypothesis driven work, for example, the description of an image database, or the description of a toolkit will not be driven by an hypothesis, in which case, please simply write : \u00e2\u0080\u009cNon Applicable\u00e2\u0080\u009d in this field or delete the subtitle.]\r\n\r\nnot applicable\r\n\r\n<b>Evidence:</b>\r\n[Describe the evidence that the authors provide in order to support their claims in the paper. This is a key component on Open Science, opinions that are not supported by evidence should be labeled as \u00e2\u0080\u009cspeculations\u00e2\u0080\u009d or \u00e2\u0080\u009cauthor\u00e2\u0080\u0099s opinion\u00e2\u0080\u009d while. The same rule applies to the text of the reviews: claims should be supported by evidence]\r\n\r\nnot applicable\r\n\r\n<b>Open Science:</b>\r\n[Describe how much the paper and its addendums adhere to the concept of Open Science. Do the authors provide the source code of the programs used in their experiments? Do the authors provide the input images that they used? Or are those images publicly available? Do the authors provide the output images that they show in the paper? Do the authors provide enough details for you to be able to replicate their work?]\r\n\r\nThis paper adheres to the principle of open science. The source code is free and openly available for download with demos available. The user can either use the code as it is or adapt the source code for its own experiments/algorithms. The images are freely available.\r\nI have not downloaded the code for my own use, but the authors point out there is a steep learning curve to use the toolkit due to delayed documentation and advanced programming techniques such as generic and metaprogramming. However, the toolkit is used in the classroom, indicating that it can be used by university students.\r\n\r\n<b>Reproducibility:</b>\r\n[Did you reproduce the authors\u00e2\u0080\u0099 work?\r\nDid you download their code? Did you compile it? Did you run it?\r\nDid you managed to get the same results that they reported?\r\nWere there information missing from the paper, that was necessary for you to reproduce the work? Suggest improvements that will make easier for future readers to reproduce this work.]\r\nI have not downloaded the code.\r\n\r\n<b>Use of Open Source Software:</b>\r\n[Did the authors use Open Source software in their work? Do they describe their experience with it, advantages and disadvantages? Do they provide advice for future users of those Open Source packages?]\r\n\r\nThe authors used open source software released under the GNU Lesser General Public License.\r\nIn section 2, the authors point out that OpenTissue contains a variety of algorithms, but they fail to specify how many developers contributed, the number of principal developers and their experience in collaborating to develop open source code. This would be valuable information for other toolkit developers.\r\nIn section 3, the authors motivate the coding style of the toolkit (generic and metaprogramming) with the advantages (flexibility, more concise code, etc), disadvantages (compiler support, compiler errors). This is valuable information. The authors should also point out if they decided to use this coding style from the start, why, and if not, what made them decide to switch to this coding style.\r\nIn section 4, the authors point out that there is no clickable drag and drop GUI and motivate that choice.\r\n\r\n<b>Open Source Contributions:</b>\r\n[Do the author\u00e2\u0080\u0099s provide their source code? Is it in a form that is usable? Do they describe clearly how to use of the code? How long did it take you to use that code?]\r\nyes, the authors provide source code. \r\nThe other questions are not applicable since I didn\\\\\\'t download the code.\r\n\r\n<b>Code Quality:</b>\r\n[If the authors provided their source code: Was the code easy to read? Did they use a modern coding style? Did they rely on non-portable mechanism? Was it suitable for multiple-platforms?]\r\nyes, the code uses modern coding style. The code relies on third party libraries (section 4), which limits it portability. The authors point out how to reduce that dependency.\r\n\r\n<b>Applicability to other problems:</b>\r\n[Do you find that the authors methods can be applied to other image analysis problems? Suggest other disciplines or even other specific projects that could take advantage of this work]\r\nyes, this toolkit would be very useful for a computer graphics class, or even a physics class.\r\n\r\n<b>Suggestions for future work:</b>\r\n[Suggest to authors future directions for improving their methods, or other domains from which they could learn technique that could help them advance in their research.]\r\n\r\nfuture directions: since the toolkit is used in a classroom setting, this provide an ideal environment to conduct user studies. THe authors could set up experiments to learn how long it takes a student to learn particular skills, such as 1) basic use of the toolkit 2) does the toolkit improve their understanding of physics-based animation concepts? 3) how long/how easily did students learn modern programming skills 4) was the toolkit successful in helping students develop new algorithms?\r\n\r\nAnother improvement would be to find ways to improve the delayed documentation. In particular, are there ways to help the developers easily document code? Should documentation be mandatory? Should there be a template for documentation? \r\n\r\n<b>Requests for additional information from authors:</b>\r\n[Did you find that information was missing from the paper? Maybe parameters for running the tests? Maybe some images were missing? Would you like to get more details on how the diagrams, or plots were generated?]\r\n\r\n<b>Additional Comments:</b>\r\n[This is a free-form field]\r\nThe demos are very impressive! This paper nicely presents the toolkit with its features, advantages and disadvantages. The multidisciplinary aspect of the toolkit is also very nice.\r\n\r\nTypo: there is a word missing at the end of the 4th sentence in section 2 (after \\\"physics-based\\\").\r\n",
+        "date": "09-11-2005",
+        "review_id": 64
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "sporring@diku.dk",
+      "author_firstname": "Jon",
+      "author_fullname": "Sporring, Jon",
+      "author_id": 103,
+      "author_institution": "Department of Computer Science, University of Copenhagen",
+      "author_lastname": "Sporring"
     },
-    "content": "<b>Summary:</b>\r\nThe authors introduced an open source toolkit that is useful for physics-based simulations, analysis and visualization.\r\n \r\n<b>Hypothesis:</b>\r\nNon applicable\r\n\r\n<b>Evidence:</b>\r\nNon applicable\r\n\r\n<b>Open Science:</b>\r\nThe toolkit is freely available for use. \r\n\r\n<b>Reproducibility:</b>\r\nDemos of different applications using the toolkit were provided by the authors. However, source code for the applicatioons hasn\\\\\\'t been provided. The reproducibility of the demos could not been tested. \r\n\r\n<b>Use of Open Source Software:</b>\r\nThe authors have described well the advantage of their toolkit compared to other commerical softwares and open source softwares.\r\n\r\n<b>Open Source Contributions:</b>\r\nA souce code hasn\\\\\\'t been provided.\r\n\r\n<b>Code Quality:</b>\r\nNon applicable\r\n\r\n<b>Applicability to other problems:</b>\r\nThe toolkit would be useful for image analysis technqiues based on physics principles such as simulated annealing segmentation algorithms.\r\n\r\n<b>Suggestions for future work:</b>\r\n\r\n<b>Requests for additional information from authors:</b>\r\n\r\n<b>Additional Comments:</b>\r\n\r\n",
-    "date": "09-14-2005",
-    "review_id": 74
-   },
-   {
-    "author": {
-     "author_email": "marfGm@gmail.com",
-     "author_firstname": "Miguel Angel",
-     "author_id": 445,
-     "author_lastname": "Rodriguez-Florido"
-    },
-    "content": "<b>Summary:</b>\r\nAuthors present an open source programming toolkit for physics-based simulation, collision detection, deformation, etc. First, they describe the origin of the\r\ntoolkit. Later, they comment the basic features, and finally they discuss the pros and cons of the toolkit.\r\n \r\n<b>Hypothesis:</b>\r\nNon Applicable\r\n\r\n<b>Evidence:</b>\r\nAuthors don\\'t provide any \\\"speculation\\\", but they assume that the third-party dependences ensure a common framework.\r\n\r\n<b>Open Science:</b>\r\nThis work is the result of a great workgroup (PhD and Master Thesis students, researchers, etc.), and they provide a web site for code, data, etc, and their work is a contribution to Open Science.\r\n\r\n<b>Reproducibility:</b>\r\nI have downloaded the code and data, but in my opinion it\\'s difficult to compile it correctly. I have tried some demos but I got some errors. These errors are the result of the strong third-party dependences. How the say in their ToDo.txt fie: \\\"Automize cross-compilation (windows vs. linux) so compatibility can be easily tested with a minimum of human interaction\\\" is needed.\r\nPerhaps, it would be useful a small quick-start guide in the paper (annexes or similar).\r\n\r\n<b>Use of Open Source Software:</b>\r\nThey comment something about the utility of OpenSource for accessing to the implementations details, and their developments are done under OpenSource.\r\n\r\n<b>Open Source Contributions:</b>\r\nThey provide all the code, but I have had some problems to compile and use it. This is due to the strongly dependence with third-parties.\r\n\r\n<b>Code Quality:</b>\r\nI have compiled under linux and it works. We hope to try it under windows. I haven\\'t checked the source code style, but they say in their paper that they have used template programming\r\nand metaprogramming.\r\n\r\n<b>Applicability to other problems:</b>\r\nI think that this work is very useful in surgical simulation. Our group is working in this discipline, and thanks to the Open Source philosophy, we are installing/running/testing the toolkit to study the viability of including some of their work in our applications.\r\n\r\n<b>Suggestions for future work:</b>\r\nAvoid the strong third-parties dependences. However, they say in their paper that one of their aim is to complete the transition of all code into a completely generic programming\r\nframework.\r\n\r\n<b>Requests for additional information from authors:</b>\r\nA quick-start guide for running demos.\r\n\r\n<b>Additional Comments:</b>\r\nIt is a great and interesting work. Congratulations.\r\nMy rating is based on the IJ reviewer guidelines.\r\n\r\n\r\n",
-    "date": "06-27-2006",
-    "review_id": 230
-   },
-   {
-    "author": {
-     "author_email": "delfin@cc.gatech.edu",
-     "author_firstname": "Delphine",
-     "author_id": 136,
-     "author_lastname": "Nain"
-    },
-    "content": "<b>Summary:</b>\r\n[Short description of the paper. In two or three phrases describe the problem that was addressed by the authors and the approach they took to solve it.]\r\n\r\nThis paper describes an open source toolkit for physics based simulation that has been used for research and education since 2001. The toolkit provides implementation of state of the art physics based algorithms and has been used for a variety of physics-based simulations, as demonstrated by the demos that accompany this paper.\r\n \r\n<b>Hypothesis:</b>\r\n[If Applicable: Describe the assumptions that the authors have made and they hypothesis of their work, note that not all papers will fit the model of hypothesis driven work, for example, the description of an image database, or the description of a toolkit will not be driven by an hypothesis, in which case, please simply write : \u00e2\u0080\u009cNon Applicable\u00e2\u0080\u009d in this field or delete the subtitle.]\r\n\r\nnot applicable\r\n\r\n<b>Evidence:</b>\r\n[Describe the evidence that the authors provide in order to support their claims in the paper. This is a key component on Open Science, opinions that are not supported by evidence should be labeled as \u00e2\u0080\u009cspeculations\u00e2\u0080\u009d or \u00e2\u0080\u009cauthor\u00e2\u0080\u0099s opinion\u00e2\u0080\u009d while. The same rule applies to the text of the reviews: claims should be supported by evidence]\r\n\r\nnot applicable\r\n\r\n<b>Open Science:</b>\r\n[Describe how much the paper and its addendums adhere to the concept of Open Science. Do the authors provide the source code of the programs used in their experiments? Do the authors provide the input images that they used? Or are those images publicly available? Do the authors provide the output images that they show in the paper? Do the authors provide enough details for you to be able to replicate their work?]\r\n\r\nThis paper adheres to the principle of open science. The source code is free and openly available for download with demos available. The user can either use the code as it is or adapt the source code for its own experiments/algorithms. The images are freely available.\r\nI have not downloaded the code for my own use, but the authors point out there is a steep learning curve to use the toolkit due to delayed documentation and advanced programming techniques such as generic and metaprogramming. However, the toolkit is used in the classroom, indicating that it can be used by university students.\r\n\r\n<b>Reproducibility:</b>\r\n[Did you reproduce the authors\u00e2\u0080\u0099 work?\r\nDid you download their code? Did you compile it? Did you run it?\r\nDid you managed to get the same results that they reported?\r\nWere there information missing from the paper, that was necessary for you to reproduce the work? Suggest improvements that will make easier for future readers to reproduce this work.]\r\nI have not downloaded the code.\r\n\r\n<b>Use of Open Source Software:</b>\r\n[Did the authors use Open Source software in their work? Do they describe their experience with it, advantages and disadvantages? Do they provide advice for future users of those Open Source packages?]\r\n\r\nThe authors used open source software released under the GNU Lesser General Public License.\r\nIn section 2, the authors point out that OpenTissue contains a variety of algorithms, but they fail to specify how many developers contributed, the number of principal developers and their experience in collaborating to develop open source code. This would be valuable information for other toolkit developers.\r\nIn section 3, the authors motivate the coding style of the toolkit (generic and metaprogramming) with the advantages (flexibility, more concise code, etc), disadvantages (compiler support, compiler errors). This is valuable information. The authors should also point out if they decided to use this coding style from the start, why, and if not, what made them decide to switch to this coding style.\r\nIn section 4, the authors point out that there is no clickable drag and drop GUI and motivate that choice.\r\n\r\n<b>Open Source Contributions:</b>\r\n[Do the author\u00e2\u0080\u0099s provide their source code? Is it in a form that is usable? Do they describe clearly how to use of the code? How long did it take you to use that code?]\r\nyes, the authors provide source code. \r\nThe other questions are not applicable since I didn\\\\\\'t download the code.\r\n\r\n<b>Code Quality:</b>\r\n[If the authors provided their source code: Was the code easy to read? Did they use a modern coding style? Did they rely on non-portable mechanism? Was it suitable for multiple-platforms?]\r\nyes, the code uses modern coding style. The code relies on third party libraries (section 4), which limits it portability. The authors point out how to reduce that dependency.\r\n\r\n<b>Applicability to other problems:</b>\r\n[Do you find that the authors methods can be applied to other image analysis problems? Suggest other disciplines or even other specific projects that could take advantage of this work]\r\nyes, this toolkit would be very useful for a computer graphics class, or even a physics class.\r\n\r\n<b>Suggestions for future work:</b>\r\n[Suggest to authors future directions for improving their methods, or other domains from which they could learn technique that could help them advance in their research.]\r\n\r\nfuture directions: since the toolkit is used in a classroom setting, this provide an ideal environment to conduct user studies. THe authors could set up experiments to learn how long it takes a student to learn particular skills, such as 1) basic use of the toolkit 2) does the toolkit improve their understanding of physics-based animation concepts? 3) how long/how easily did students learn modern programming skills 4) was the toolkit successful in helping students develop new algorithms?\r\n\r\nAnother improvement would be to find ways to improve the delayed documentation. In particular, are there ways to help the developers easily document code? Should documentation be mandatory? Should there be a template for documentation? \r\n\r\n<b>Requests for additional information from authors:</b>\r\n[Did you find that information was missing from the paper? Maybe parameters for running the tests? Maybe some images were missing? Would you like to get more details on how the diagrams, or plots were generated?]\r\n\r\n<b>Additional Comments:</b>\r\n[This is a free-form field]\r\nThe demos are very impressive! This paper nicely presents the toolkit with its features, advantages and disadvantages. The multidisciplinary aspect of the toolkit is also very nice.\r\n\r\nTypo: there is a word missing at the end of the 4th sentence in section 2 (after \\\"physics-based\\\").\r\n",
-    "date": "09-11-2005",
-    "review_id": 64
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "sporring@diku.dk",
-   "author_firstname": "Jon",
-   "author_fullname": "Sporring, Jon",
-   "author_id": 103,
-   "author_institution": "Department of Computer Science, University of Copenhagen",
-   "author_lastname": "Sporring"
-  },
-  "tags": [
-   "Simulation",
-   "Visualization",
-   "Templates",
-   "Metaprogramming",
-   "Open Source",
-   "Animation",
-   "Segmentation"
-  ],
-  "title": "OpenTissue - An Open Source Toolkit for Physics-Based Animation"
- }
+    "tags": [
+      "Simulation",
+      "Visualization",
+      "Templates",
+      "Metaprogramming",
+      "Open Source",
+      "Animation",
+      "Segmentation"
+    ],
+    "title": "OpenTissue - An Open Source Toolkit for Physics-Based Animation"
+  }
 }

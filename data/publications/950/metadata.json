@@ -1,69 +1,72 @@
 {
- "publication": {
-  "abstract": "We present a generic interpolator for label images. The basic idea is to interpolate each label with an ordinary image interpolator, and return the label with the highest value. This is the idea used by the itk::LabelImageGaussianInterpolateImageFunction interpolator. Unfortunately, this class is currently limited to Gaussian interpolation. Using generic programming, our proposed interpolator extends this idea to any image interpolator. Combined with linear interpolation, this results in similar or better accuracy and much improved computation speeds on a test image.",
-  "authors": [
-   {
-    "author_fullname": "Schaerer, Jo\u00ebl",
-    "author_place": 1,
-    "persona_email": "joelthelion@laposte.net",
-    "persona_firstname": "Jo\u00ebl",
-    "persona_id": 2935,
-    "persona_lastname": "Schaerer"
-   },
-   {
-    "author_fullname": "Roche, Florent",
-    "author_place": 2,
-    "persona_email": "f.roche@medpace.com",
-    "persona_firstname": "Florent",
-    "persona_id": 10369,
-    "persona_lastname": "Roche"
-   },
-   {
-    "author_fullname": "Belaroussi, Boubakeur",
-    "author_place": 3,
-    "persona_email": "bbelaroussi@newtone.fr",
-    "persona_firstname": "Boubakeur",
-    "persona_id": 484,
-    "persona_lastname": "Belaroussi"
-   }
-  ],
-  "categories": [
-   "Generic Programming",
-   "Resampling"
-  ],
-  "comments": [],
-  "date_submitted": "2014-12-22 10:05:11",
-  "handles": [
-   {
-    "handle": "10380/3506",
-    "handle_url": "http://hdl.handle.net/10380/3506"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 950,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "joelthelion@laposte.net",
-   "author_firstname": "Jo\u00ebl",
-   "author_fullname": "Schaerer, Jo\u00ebl",
-   "author_id": 2935,
-   "author_institution": "Bioclinica SAS, Lyon",
-   "author_lastname": "Schaerer"
-  },
-  "tags": [
-   "Interpolation",
-   "ITK"
-  ],
-  "title": "A generic interpolator for multi-label images"
- }
+  "publication": {
+    "abstract": "We present a generic interpolator for label images. The basic idea is to interpolate each label with an ordinary image interpolator, and return the label with the highest value. This is the idea used by the itk::LabelImageGaussianInterpolateImageFunction interpolator. Unfortunately, this class is currently limited to Gaussian interpolation. Using generic programming, our proposed interpolator extends this idea to any image interpolator. Combined with linear interpolation, this results in similar or better accuracy and much improved computation speeds on a test image.",
+    "articles": [
+      "bafybeiap4rxse6xo77ft5k4d2djrqbbdsqnphnhw4ifrfhnb4drmg7jtbe"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Schaerer, Jo\u00ebl",
+        "author_place": 1,
+        "persona_email": "joelthelion@laposte.net",
+        "persona_firstname": "Jo\u00ebl",
+        "persona_id": 2935,
+        "persona_lastname": "Schaerer"
+      },
+      {
+        "author_fullname": "Roche, Florent",
+        "author_place": 2,
+        "persona_email": "f.roche@medpace.com",
+        "persona_firstname": "Florent",
+        "persona_id": 10369,
+        "persona_lastname": "Roche"
+      },
+      {
+        "author_fullname": "Belaroussi, Boubakeur",
+        "author_place": 3,
+        "persona_email": "bbelaroussi@newtone.fr",
+        "persona_firstname": "Boubakeur",
+        "persona_id": 484,
+        "persona_lastname": "Belaroussi"
+      }
+    ],
+    "categories": [
+      "Generic Programming",
+      "Resampling"
+    ],
+    "comments": [],
+    "date_submitted": "2014-12-22 10:05:11",
+    "handles": [
+      {
+        "handle": "10380/3506",
+        "handle_url": "http://hdl.handle.net/10380/3506"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 950,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "joelthelion@laposte.net",
+      "author_firstname": "Jo\u00ebl",
+      "author_fullname": "Schaerer, Jo\u00ebl",
+      "author_id": 2935,
+      "author_institution": "Bioclinica SAS, Lyon",
+      "author_lastname": "Schaerer"
+    },
+    "tags": [
+      "Interpolation",
+      "ITK"
+    ],
+    "title": "A generic interpolator for multi-label images"
+  }
 }

@@ -1,93 +1,99 @@
 {
- "publication": {
-  "abstract": "This paper presents a new fully automatic method for segmentation of\r\nbrain images that possess multiple sclerosis (MS) lesions.\r\nMultichannel magnetic resonance images are used to delineate multiple\r\nsclerosis lesions while segmenting the brain into its major\r\nstructures. The method is an atlas based segmentation\r\ntechnique employing a topological atlas as well as a statistical\r\natlas. An advantage of this approach is that all segmented structures\r\nare topologically constrained, thereby allowing subsequent processing\r\nwith cortical unfolding or diffeomorphic shape analysis techniques.\r\nValidation on data from two studies demonstrates that the method has\r\nan accuracy comparable with other MS lesion segmentation methods,\r\nwhile simultaneously segmenting the whole brain.",
-  "authors": [
-   {
-    "author_fullname": "Shiee, Navid",
-    "author_place": 1,
-    "persona_email": "navid_shiee@yahoo.com",
-    "persona_firstname": "Navid",
-    "persona_id": 921,
-    "persona_lastname": "Shiee"
-   },
-   {
-    "author_fullname": "Bazin, Pierre-Louis",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Pham, Dzung L.",
-    "author_place": 3,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Atlas-based segmentation",
-   "Iterative clustering",
-   "Segmentation",
-   "Unsupervised learning and clustering"
-  ],
-  "comments": [],
-  "date_submitted": "2008-10-02 16:13:54",
-  "handles": [
-   {
-    "handle": "10380/1442",
-    "handle_url": "http://hdl.handle.net/10380/1442"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 44,
-    "journal_name": "MICCAI 2015 Workshops"
-   },
-   {
-    "journal_id": 33,
-    "journal_name": "MICCAI 2008 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 605,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "styner@cs.unc.edu",
-     "author_firstname": "Martin",
-     "author_id": 28,
-     "author_lastname": "Styner"
+  "publication": {
+    "abstract": "This paper presents a new fully automatic method for segmentation of\r\nbrain images that possess multiple sclerosis (MS) lesions.\r\nMultichannel magnetic resonance images are used to delineate multiple\r\nsclerosis lesions while segmenting the brain into its major\r\nstructures. The method is an atlas based segmentation\r\ntechnique employing a topological atlas as well as a statistical\r\natlas. An advantage of this approach is that all segmented structures\r\nare topologically constrained, thereby allowing subsequent processing\r\nwith cortical unfolding or diffeomorphic shape analysis techniques.\r\nValidation on data from two studies demonstrates that the method has\r\nan accuracy comparable with other MS lesion segmentation methods,\r\nwhile simultaneously segmenting the whole brain.",
+    "articles": [
+      "bafybeibm727odxdofcytpnnhwq7r3xhqvwnedhjsfsjhkdcgswmve2ttfi",
+      "bafybeibt3ooreqxzlcjnl5xqkfrw4aeqxe55c75gsboo2clvvwn6eqr3w4",
+      "bafybeibimrva3plxobzdsu2d7ga4jswbmsjp3i5mhgcv5ygm7mhmrhlzk4",
+      "bafybeiben6qaok24pfzgy6sxofbnuo27ejym7exxousyoscxdbmzc5l6wy"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Shiee, Navid",
+        "author_place": 1,
+        "persona_email": "navid_shiee@yahoo.com",
+        "persona_firstname": "Navid",
+        "persona_id": 921,
+        "persona_lastname": "Shiee"
+      },
+      {
+        "author_fullname": "Bazin, Pierre-Louis",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Pham, Dzung L.",
+        "author_place": 3,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Atlas-based segmentation",
+      "Iterative clustering",
+      "Segmentation",
+      "Unsupervised learning and clustering"
+    ],
+    "comments": [],
+    "date_submitted": "2008-10-02 16:13:54",
+    "handles": [
+      {
+        "handle": "10380/1442",
+        "handle_url": "http://hdl.handle.net/10380/1442"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<p>This methods extends the existing frameworks for topologically constrained tissue segmentation by Bazin to incorporate an MS lesion model. WM and lesions are grouped together for the topological constraint. Within this joint MS+WM region, each voxel is then classified either as WM or MS based on the computed tissue classification model (unlike WM, lesions have no prior weight in the classification).</p><p>The method is quite appealing with good results. Good discussion.</p><p>The paper is overall well written and no major revisions are needed.</p><p>&nbsp;</p><p>&nbsp;</p>",
-    "date": "07-29-2008",
-    "review_id": 1541
-   },
-   {
-    "author": {
-     "author_email": "simon.warfield@childrens.harvard.edu",
-     "author_firstname": "Simon",
-     "author_id": 514,
-     "author_lastname": "Warfield"
+    "journals": [
+      {
+        "journal_id": 44,
+        "journal_name": "MICCAI 2015 Workshops"
+      },
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 605,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "styner@cs.unc.edu",
+          "author_firstname": "Martin",
+          "author_id": 28,
+          "author_lastname": "Styner"
+        },
+        "content": "<p>This methods extends the existing frameworks for topologically constrained tissue segmentation by Bazin to incorporate an MS lesion model. WM and lesions are grouped together for the topological constraint. Within this joint MS+WM region, each voxel is then classified either as WM or MS based on the computed tissue classification model (unlike WM, lesions have no prior weight in the classification).</p><p>The method is quite appealing with good results. Good discussion.</p><p>The paper is overall well written and no major revisions are needed.</p><p>&nbsp;</p><p>&nbsp;</p>",
+        "date": "07-29-2008",
+        "review_id": 1541
+      },
+      {
+        "author": {
+          "author_email": "simon.warfield@childrens.harvard.edu",
+          "author_firstname": "Simon",
+          "author_id": 514,
+          "author_lastname": "Warfield"
+        },
+        "content": "<p>This paper describes an algorithm for the segmentation of brain MRI of MS patients.</p><p>The primary contribution of this work is the introduction of a topological constraint, which ensures that the segmentation of patients is topologically equivalent to that of healthy subjects.</p><p>&nbsp;The evaluation of the method indicates it achieves good performance.</p><p>&nbsp;</p>",
+        "date": "07-25-2008",
+        "review_id": 1531
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "navid_shiee@yahoo.com",
+      "author_firstname": "Navid",
+      "author_fullname": "Shiee, Navid",
+      "author_id": 921,
+      "author_institution": "Johns Hopkins University",
+      "author_lastname": "Shiee"
     },
-    "content": "<p>This paper describes an algorithm for the segmentation of brain MRI of MS patients.</p><p>The primary contribution of this work is the introduction of a topological constraint, which ensures that the segmentation of patients is topologically equivalent to that of healthy subjects.</p><p>&nbsp;The evaluation of the method indicates it achieves good performance.</p><p>&nbsp;</p>",
-    "date": "07-25-2008",
-    "review_id": 1531
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "navid_shiee@yahoo.com",
-   "author_firstname": "Navid",
-   "author_fullname": "Shiee, Navid",
-   "author_id": 921,
-   "author_institution": "Johns Hopkins University",
-   "author_lastname": "Shiee"
-  },
-  "tags": [
-   "Tissue Classification",
-   "Multiple Sclerosis",
-   "Magnetic Resonance Imaging"
-  ],
-  "title": "Multiple Sclerosis Lesion Segmentation Using Statistical and Topological Atlases"
- }
+    "tags": [
+      "Tissue Classification",
+      "Multiple Sclerosis",
+      "Magnetic Resonance Imaging"
+    ],
+    "title": "Multiple Sclerosis Lesion Segmentation Using Statistical and Topological Atlases"
+  }
 }

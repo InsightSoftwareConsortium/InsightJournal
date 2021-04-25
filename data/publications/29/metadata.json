@@ -1,107 +1,110 @@
 {
- "publication": {
-  "abstract": "We describe the open source implementation of an adaptive tetrahedral mesh generator particularly targeted for non-rigid FEM registration of MR images. While many medical imaging applications require robust mesh generation, there are few codes available. Moreover, most of the practical implementations are commercial. The algorithm we have implemented has been previously evaluated for simulations of highly deformable objects, and the preliminary results show its applicability to the targeted application. The implementation we describe is open source and will be available within Insight Toolkit.",
-  "authors": [
-   {
-    "author_fullname": "Fedorov, Andriy",
-    "author_place": 1,
-    "persona_email": "fedorov@bwh.harvard.edu",
-    "persona_firstname": "Andriy",
-    "persona_id": 16,
-    "persona_lastname": "Fedorov"
-   },
-   {
-    "author_fullname": "Chrisochoides, Nikos",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Kikinis, Ron",
-    "author_place": 3,
-    "persona_email": "kikinis@bwh.harvard.edu",
-    "persona_firstname": "Ron",
-    "persona_id": 238,
-    "persona_lastname": "Kikinis"
-   },
-   {
-    "author_fullname": "Warfield, Simon",
-    "author_place": 4,
-    "persona_email": "simon.warfield@childrens.harvard.edu",
-    "persona_firstname": "Simon",
-    "persona_id": 514,
-    "persona_lastname": "Warfield"
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2005-08-05T13:59:15Z",
-  "handles": [
-   {
-    "handle": "1926/35",
-    "handle_url": "http://hdl.handle.net/1926/35"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 29,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "stephen.aylward@kitware.com",
-     "author_firstname": "Stephen",
-     "author_id": 1,
-     "author_lastname": "Aylward"
+  "publication": {
+    "abstract": "We describe the open source implementation of an adaptive tetrahedral mesh generator particularly targeted for non-rigid FEM registration of MR images. While many medical imaging applications require robust mesh generation, there are few codes available. Moreover, most of the practical implementations are commercial. The algorithm we have implemented has been previously evaluated for simulations of highly deformable objects, and the preliminary results show its applicability to the targeted application. The implementation we describe is open source and will be available within Insight Toolkit.",
+    "articles": [
+      "bafkreig6ot3nietqpoenfj66nh7wd7deerp22vkh2pwabzp633npd2ke5e"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Fedorov, Andriy",
+        "author_place": 1,
+        "persona_email": "fedorov@bwh.harvard.edu",
+        "persona_firstname": "Andriy",
+        "persona_id": 16,
+        "persona_lastname": "Fedorov"
+      },
+      {
+        "author_fullname": "Chrisochoides, Nikos",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Kikinis, Ron",
+        "author_place": 3,
+        "persona_email": "kikinis@bwh.harvard.edu",
+        "persona_firstname": "Ron",
+        "persona_id": 238,
+        "persona_lastname": "Kikinis"
+      },
+      {
+        "author_fullname": "Warfield, Simon",
+        "author_place": 4,
+        "persona_email": "simon.warfield@childrens.harvard.edu",
+        "persona_firstname": "Simon",
+        "persona_id": 514,
+        "persona_lastname": "Warfield"
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2005-08-05T13:59:15Z",
+    "handles": [
+      {
+        "handle": "1926/35",
+        "handle_url": "http://hdl.handle.net/1926/35"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<b>Summary:</b>\r\nDescribes an toolkit for generating meshes for MR volumes. Summarizes the software architecture, illustrates results, and provides experimental results from comparison with a commercial package.\r\n\r\nThe documentation provided with the code states that the software is for non-commecial-use only. I wish the authors had stated that in their paper. I also wish they would clarify if this includes its use in grant funded research which has been ruled to be a commecial use by the courts. This limited licensing dampens my enthusiam for the software.\r\n\r\nMy main focus during this review has been the installation of the software. My initial experiences are given next.\r\n\r\n<b>Installation Notes:</b>\r\nI attempted to download and install this package.\r\n\r\n<ol>\r\n<li> It requires the installation of subversion to access the package </li>\r\n<li> The package requires three other software packages. The authors did not provide links to those packages in the documentation distributed with the code.\r\n<ol> \r\n <li> http://www.lam-mpi.org/ A message passing interface for parallel computation - does not use cmake </li>\r\n <li> http://www-unix.mcs.anl.gov/petsc/petsc-as/download/index.html This software also requires the installation of Python and the rebase modules for Cygwin. </li>\r\n <li> VTK is also required - but this is not mentioned in the paper or in the documentation provided with the code - uses cmake </li>\r\n</ol>\r\n<li> The MPI license is open source - YEAH!\r\n<li> The PETsc license requires special compilation options to turn off GNU licensed code that otherwise restricts the binary redistribution and use of the code. See: http://www-unix.mcs.anl.gov/petsc/petsc-as/documentation/copyright.html\r\n<li> My laptop ran out of disk space when installing python and rebase on cygwin </li>\r\n</ol>\r\n\r\nOverall, the software seems to be simple to install, but the process is more complex and time consuming than the authors imply in their paper. The use of other open source packages is applauded, but in this case, the mix of technologies used by those packages confounds the installation process. \r\n\r\nThe reality is, however, that there are few, if any, alternative solutions to the problems being addressed by this package. It is an important contribution to the field. Its burden is light relative to the potential benefits.\r\n\r\n<b>Evidence:</b>\r\nThe paper provides illustrative and experimental results.\r\n\r\nThe illustrative results are clearly presented.\r\n\r\nThe experiment results are convincing. The authors compared their method with a commercial system. The commercial system was deemed the gold standard. Their system produced a mean Hausdorff distances of ~2mm and a max distance of ~7mm compared to the commercial system. These measures were calculated using MR data from three neurosurgical patients. The time required for mesh generation is 5 minutes for pre-processing and 10-25 seconds for mesh generation.\r\n\r\n<b>Open Science:</b>\r\nThe code is a mix of open and limited-open source. The main code is limited to non-commercial use. The secondary packages require the specification of compilation options to eliminate code with GNU licensing restrictions. It is unclear what impact the use of the alternative code will have on the performance of the system.\r\n\r\nThe data used in the experiments are not publicly available, but some testing data is provided with the code.\r\n\r\n\r\n<b>Reproducibility:</b>\r\nI am fairly confident that I could reproduce the results stated.\r\n\r\n<b>Open Source Software:</b>\r\nThe system is not completely open-source - it is not available for commecial use - it is unclear if it can be used for grant funded research.\r\n\r\nThe packages used are open-source, but they have very different installation needs. This complicates the installation process.\r\n\r\nThe intended application is intra-operative processing for surgical guidance. Therefore a parallel implementation is being pursued. However, for more general use, it would be nice if requirement for an MPI library could be turned-off as a cmake option.\r\n\r\n<b>Code Quality:</b>\r\nThe installation code has holes as noted above.\r\n\r\nMost of the source code is very well documented. Doxygen comments are very good in most files. The ITK coding style is followed in most files.\r\n\r\nCertain files (e.g., tetra_mesh.h) appear to be converted C code. They do not use doxygen comment style or ITK coding style.\r\n\r\nThe authors' intent is to integrate this code with ITK. The non-conforming files would need to be updated prior to such integration.\r\n\r\n<b>Applicability to other problems:</b>\r\nThe algorithms is much needed by the field and broadly applicable. I look forward to the refinement of the code and the installation process.\r\n\r\n",
-    "date": "09-19-2005",
-    "review_id": 107
-   },
-   {
-    "author": {
-     "author_email": "duboisda@tele.ucl.ac.be",
-     "author_firstname": "Aloys",
-     "author_id": 165,
-     "author_lastname": "Du bois d'aische"
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 29,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "stephen.aylward@kitware.com",
+          "author_firstname": "Stephen",
+          "author_id": 1,
+          "author_lastname": "Aylward"
+        },
+        "content": "<b>Summary:</b>\r\nDescribes an toolkit for generating meshes for MR volumes. Summarizes the software architecture, illustrates results, and provides experimental results from comparison with a commercial package.\r\n\r\nThe documentation provided with the code states that the software is for non-commecial-use only. I wish the authors had stated that in their paper. I also wish they would clarify if this includes its use in grant funded research which has been ruled to be a commecial use by the courts. This limited licensing dampens my enthusiam for the software.\r\n\r\nMy main focus during this review has been the installation of the software. My initial experiences are given next.\r\n\r\n<b>Installation Notes:</b>\r\nI attempted to download and install this package.\r\n\r\n<ol>\r\n<li> It requires the installation of subversion to access the package </li>\r\n<li> The package requires three other software packages. The authors did not provide links to those packages in the documentation distributed with the code.\r\n<ol> \r\n <li> http://www.lam-mpi.org/ A message passing interface for parallel computation - does not use cmake </li>\r\n <li> http://www-unix.mcs.anl.gov/petsc/petsc-as/download/index.html This software also requires the installation of Python and the rebase modules for Cygwin. </li>\r\n <li> VTK is also required - but this is not mentioned in the paper or in the documentation provided with the code - uses cmake </li>\r\n</ol>\r\n<li> The MPI license is open source - YEAH!\r\n<li> The PETsc license requires special compilation options to turn off GNU licensed code that otherwise restricts the binary redistribution and use of the code. See: http://www-unix.mcs.anl.gov/petsc/petsc-as/documentation/copyright.html\r\n<li> My laptop ran out of disk space when installing python and rebase on cygwin </li>\r\n</ol>\r\n\r\nOverall, the software seems to be simple to install, but the process is more complex and time consuming than the authors imply in their paper. The use of other open source packages is applauded, but in this case, the mix of technologies used by those packages confounds the installation process. \r\n\r\nThe reality is, however, that there are few, if any, alternative solutions to the problems being addressed by this package. It is an important contribution to the field. Its burden is light relative to the potential benefits.\r\n\r\n<b>Evidence:</b>\r\nThe paper provides illustrative and experimental results.\r\n\r\nThe illustrative results are clearly presented.\r\n\r\nThe experiment results are convincing. The authors compared their method with a commercial system. The commercial system was deemed the gold standard. Their system produced a mean Hausdorff distances of ~2mm and a max distance of ~7mm compared to the commercial system. These measures were calculated using MR data from three neurosurgical patients. The time required for mesh generation is 5 minutes for pre-processing and 10-25 seconds for mesh generation.\r\n\r\n<b>Open Science:</b>\r\nThe code is a mix of open and limited-open source. The main code is limited to non-commercial use. The secondary packages require the specification of compilation options to eliminate code with GNU licensing restrictions. It is unclear what impact the use of the alternative code will have on the performance of the system.\r\n\r\nThe data used in the experiments are not publicly available, but some testing data is provided with the code.\r\n\r\n\r\n<b>Reproducibility:</b>\r\nI am fairly confident that I could reproduce the results stated.\r\n\r\n<b>Open Source Software:</b>\r\nThe system is not completely open-source - it is not available for commecial use - it is unclear if it can be used for grant funded research.\r\n\r\nThe packages used are open-source, but they have very different installation needs. This complicates the installation process.\r\n\r\nThe intended application is intra-operative processing for surgical guidance. Therefore a parallel implementation is being pursued. However, for more general use, it would be nice if requirement for an MPI library could be turned-off as a cmake option.\r\n\r\n<b>Code Quality:</b>\r\nThe installation code has holes as noted above.\r\n\r\nMost of the source code is very well documented. Doxygen comments are very good in most files. The ITK coding style is followed in most files.\r\n\r\nCertain files (e.g., tetra_mesh.h) appear to be converted C code. They do not use doxygen comment style or ITK coding style.\r\n\r\nThe authors' intent is to integrate this code with ITK. The non-conforming files would need to be updated prior to such integration.\r\n\r\n<b>Applicability to other problems:</b>\r\nThe algorithms is much needed by the field and broadly applicable. I look forward to the refinement of the code and the installation process.\r\n\r\n",
+        "date": "09-19-2005",
+        "review_id": 107
+      },
+      {
+        "author": {
+          "author_email": "duboisda@tele.ucl.ac.be",
+          "author_firstname": "Aloys",
+          "author_id": 165,
+          "author_lastname": "Du bois d'aische"
+        },
+        "content": "\r\nThe authors present what looks to be a very nice implementation of Molino's paper. This paper does not describe the details of the method which may be found in the original paper but brings forward the efficiency of their implementation in terms of speed and quality of the elements generated.\r\nThis opensource implementation may be an important contribution for all the algorithms using ITK and which need meshes composed of well-shaped elements.\r\n\r\n\r\n",
+        "date": "08-22-2005",
+        "review_id": 37
+      },
+      {
+        "author": {
+          "author_email": "sylvainjaume@gmail.com",
+          "author_firstname": "Sylvain",
+          "author_id": 102,
+          "author_lastname": "Jaume"
+        },
+        "content": "<b>Summary:</b>\r\nThe authors provide some code to address a generic issue in Medical Imaging and beyond: the creation of 3D meshes from binary images.\r\nThey implement the method of Molino et al. using ITK, VTK, PETSc and some code written by Jonathan Shewchuk.\r\n\r\n<b>Hypothesis:</b>\r\nThe authors make the reasonable assumption that the mesh quality can be assessed by tetrahedron aspect ratio and minimum dihedral angle.\r\n\r\n<b>Evidence:</b>\r\nThe authors provide a convincing comparison with the commercial mesher GHS3D. The paper is clearly presented and illustrated with renderings and statistics.\r\nWhat is the justification of the resampling? Does this impact the quality of the results?\r\n\r\n<b>Open Science:</b>\r\nCould the authors provide the data they used (case #1, case #2, and case #3)?\r\nOther data are provided, but having the exact same data would make possible the reproduction of the results and the comparison with future methods.\r\n\r\n<b>Reproducibility:</b>\r\nI did not reproduce the authors results since I did not install all the required packages (for example PETSc).\r\nI believe that it is possible to reproduce the results shown in the paper when all the packages are installed and the same data is available.\r\n\r\n<b>Use of Open Source Software:</b>\r\nThe authors use other Open Source packages. Dependence on MPI, PETSc and Shewchuk\\'s code could be painful for installation and maintenance.\r\nDo the authors plan to remove those dependencies? or provide a CMakeLists.txt that would simplify the build?\r\n\r\n<b>Open Source Contributions:</b>\r\nThe authors provide all their source code in a clean directory structure. Thanks! :-)\r\n\r\n<b>Code Quality:</b>\r\nThe code looks very good and is easy to read. I did not check if the code compiles on different platforms.\r\nCould the authors comment on that?\r\n\r\n<b>Applicability to other problems:</b>\r\nI believe that this implementation could be very useful to many applications in Medical Imaging and other disciplines.\r\n\r\n<b>Suggestions for future work:</b>\r\nI would be interested to see the application of this very valuable implementation to more sophisticated geometries and to the surgery of highly deformable anatomical structures.\r\n\r\n<b>Requests for additional information from authors:</b>\r\nThe results section is very clear. Additionally I would suggest the comparison of this method with the method of Alliez et al., Variational Tetrahedral Meshing, 2005.\r\n\r\n<b>Additional Comments:</b>\r\nThe URL might have changed since the first publication of this paper. I found the source code at\r\nhttp://www.na-mic.org:8000/svn/NAMICSandBox/trunk/TetrahedralMeshGeneration/\r\n(the URL on page 4 does not have the /trunk)",
+        "date": "02-01-2006",
+        "review_id": 167
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "fedorov@bwh.harvard.edu",
+      "author_firstname": "Andriy",
+      "author_fullname": "Fedorov, Andriy",
+      "author_id": 16,
+      "author_institution": "College of William and Mary",
+      "author_lastname": "Fedorov"
     },
-    "content": "\r\nThe authors present what looks to be a very nice implementation of Molino's paper. This paper does not describe the details of the method which may be found in the original paper but brings forward the efficiency of their implementation in terms of speed and quality of the elements generated.\r\nThis opensource implementation may be an important contribution for all the algorithms using ITK and which need meshes composed of well-shaped elements.\r\n\r\n\r\n",
-    "date": "08-22-2005",
-    "review_id": 37
-   },
-   {
-    "author": {
-     "author_email": "sylvainjaume@gmail.com",
-     "author_firstname": "Sylvain",
-     "author_id": 102,
-     "author_lastname": "Jaume"
-    },
-    "content": "<b>Summary:</b>\r\nThe authors provide some code to address a generic issue in Medical Imaging and beyond: the creation of 3D meshes from binary images.\r\nThey implement the method of Molino et al. using ITK, VTK, PETSc and some code written by Jonathan Shewchuk.\r\n\r\n<b>Hypothesis:</b>\r\nThe authors make the reasonable assumption that the mesh quality can be assessed by tetrahedron aspect ratio and minimum dihedral angle.\r\n\r\n<b>Evidence:</b>\r\nThe authors provide a convincing comparison with the commercial mesher GHS3D. The paper is clearly presented and illustrated with renderings and statistics.\r\nWhat is the justification of the resampling? Does this impact the quality of the results?\r\n\r\n<b>Open Science:</b>\r\nCould the authors provide the data they used (case #1, case #2, and case #3)?\r\nOther data are provided, but having the exact same data would make possible the reproduction of the results and the comparison with future methods.\r\n\r\n<b>Reproducibility:</b>\r\nI did not reproduce the authors results since I did not install all the required packages (for example PETSc).\r\nI believe that it is possible to reproduce the results shown in the paper when all the packages are installed and the same data is available.\r\n\r\n<b>Use of Open Source Software:</b>\r\nThe authors use other Open Source packages. Dependence on MPI, PETSc and Shewchuk\\'s code could be painful for installation and maintenance.\r\nDo the authors plan to remove those dependencies? or provide a CMakeLists.txt that would simplify the build?\r\n\r\n<b>Open Source Contributions:</b>\r\nThe authors provide all their source code in a clean directory structure. Thanks! :-)\r\n\r\n<b>Code Quality:</b>\r\nThe code looks very good and is easy to read. I did not check if the code compiles on different platforms.\r\nCould the authors comment on that?\r\n\r\n<b>Applicability to other problems:</b>\r\nI believe that this implementation could be very useful to many applications in Medical Imaging and other disciplines.\r\n\r\n<b>Suggestions for future work:</b>\r\nI would be interested to see the application of this very valuable implementation to more sophisticated geometries and to the surgery of highly deformable anatomical structures.\r\n\r\n<b>Requests for additional information from authors:</b>\r\nThe results section is very clear. Additionally I would suggest the comparison of this method with the method of Alliez et al., Variational Tetrahedral Meshing, 2005.\r\n\r\n<b>Additional Comments:</b>\r\nThe URL might have changed since the first publication of this paper. I found the source code at\r\nhttp://www.na-mic.org:8000/svn/NAMICSandBox/trunk/TetrahedralMeshGeneration/\r\n(the URL on page 4 does not have the /trunk)",
-    "date": "02-01-2006",
-    "review_id": 167
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "fedorov@bwh.harvard.edu",
-   "author_firstname": "Andriy",
-   "author_fullname": "Fedorov, Andriy",
-   "author_id": 16,
-   "author_institution": "College of William and Mary",
-   "author_lastname": "Fedorov"
-  },
-  "tags": [
-   "surgical planning",
-   "mesh generation",
-   "non-rigid image registration",
-   "FEM"
-  ],
-  "title": "Tetrahedral mesh generation for medical imaging"
- }
+    "tags": [
+      "surgical planning",
+      "mesh generation",
+      "non-rigid image registration",
+      "FEM"
+    ],
+    "title": "Tetrahedral mesh generation for medical imaging"
+  }
 }

@@ -1,75 +1,78 @@
 {
- "publication": {
-  "abstract": "Although phase data can take on any value, it is generally only possible to measure phase as a principle value, i.e., wrapped within the range (-pi,pi]. Determining the unwrapped phase from its principle value is a topic of considerable interest in magnetic resonance imaging (MRI), as well as many non-medical disciplines. Despite their importance in image analysis, filters for manipulating phase information have not been incorporated into ITK. This article introduces the ITKPhase module, containing filters useful for understanding, analyzing, and unwrapping n-dimensional phase data, and also serves as a practical introduction to phase unwrapping.",
-  "authors": [
-   {
-    "author_fullname": "Vigneault, Davis",
-    "author_place": 1,
-    "persona_email": "davis.vigneault@gmail.com",
-    "persona_firstname": "Davis",
-    "persona_id": 9207,
-    "persona_lastname": "Vigneault"
-   },
-   {
-    "author_fullname": "Wang, Wen-Tung",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Tee, Michael",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Bluemke, David",
-    "author_place": 4,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Noble, Alison",
-    "author_place": 5,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Filtering",
-   "Neighborhood filters",
-   "Surface extraction"
-  ],
-  "comments": [],
-  "date_submitted": "2015-05-15 09:47:13",
-  "handles": [
-   {
-    "handle": "10380/3516",
-    "handle_url": "http://hdl.handle.net/10380/3516"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 954,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "davis.vigneault@gmail.com",
-   "author_firstname": "Davis",
-   "author_fullname": "Vigneault, Davis",
-   "author_id": 9207,
-   "author_institution": "University of Oxford",
-   "author_lastname": "Vigneault"
-  },
-  "tags": [
-   "Phase Unwrapping",
-   "Laplacian",
-   "Discrete Cosine Transform"
-  ],
-  "title": "N-Dimensional Phase Unwrapping"
- }
+  "publication": {
+    "abstract": "Although phase data can take on any value, it is generally only possible to measure phase as a principle value, i.e., wrapped within the range (-pi,pi]. Determining the unwrapped phase from its principle value is a topic of considerable interest in magnetic resonance imaging (MRI), as well as many non-medical disciplines. Despite their importance in image analysis, filters for manipulating phase information have not been incorporated into ITK. This article introduces the ITKPhase module, containing filters useful for understanding, analyzing, and unwrapping n-dimensional phase data, and also serves as a practical introduction to phase unwrapping.",
+    "articles": [
+      "bafybeifi5ykyecll2ratltmnz5jb2zskc5fd6nbqa5w5kvqpm3m2hjszby"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Vigneault, Davis",
+        "author_place": 1,
+        "persona_email": "davis.vigneault@gmail.com",
+        "persona_firstname": "Davis",
+        "persona_id": 9207,
+        "persona_lastname": "Vigneault"
+      },
+      {
+        "author_fullname": "Wang, Wen-Tung",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Tee, Michael",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Bluemke, David",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Noble, Alison",
+        "author_place": 5,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Filtering",
+      "Neighborhood filters",
+      "Surface extraction"
+    ],
+    "comments": [],
+    "date_submitted": "2015-05-15 09:47:13",
+    "handles": [
+      {
+        "handle": "10380/3516",
+        "handle_url": "http://hdl.handle.net/10380/3516"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 954,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "davis.vigneault@gmail.com",
+      "author_firstname": "Davis",
+      "author_fullname": "Vigneault, Davis",
+      "author_id": 9207,
+      "author_institution": "University of Oxford",
+      "author_lastname": "Vigneault"
+    },
+    "tags": [
+      "Phase Unwrapping",
+      "Laplacian",
+      "Discrete Cosine Transform"
+    ],
+    "title": "N-Dimensional Phase Unwrapping"
+  }
 }

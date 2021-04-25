@@ -1,62 +1,67 @@
 {
- "publication": {
-  "abstract": "A method for automatic liver tumor segmentation from computer tomography (CT) images is presented in this paper. Segmentation is an important operation before surgery planning, and automatic methods offer an alternative to laborious manual segmentation. In addition, segmentations of automatic methods are reproducible, so they can be reliably evaluated and they do not depend on the performer of the segmentation. In this work, the segmentation is performed in two stages. First a rough segmentation of tumors is obtained by simple thresholding and morphological operations. \r\nThe second stage refines the rough segmentation result using fuzzy clustering and a geometric deformable model (GDM) that is fitted on the clustering result. \r\nThe method was evaluated with data provided by Liver Tumor Segmentation Challenge 08, to which the method also participated. The data included 10 \r\nimages from which 20 tumors were segmented. The method showed promising results.",
-  "authors": [
-   {
-    "author_fullname": "Hame, Yrjo",
-    "author_place": 1,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Segmentation"
-  ],
-  "comments": [],
-  "date_submitted": "2008-07-10T17:27:09Z",
-  "handles": [
-   {
-    "handle": "10380/1440",
-    "handle_url": "http://hdl.handle.net/10380/1440"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 45,
-    "journal_name": "MICCAI 2016 Workshops"
-   },
-   {
-    "journal_id": 33,
-    "journal_name": "MICCAI 2008 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 603,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "dengxiang05@gmail.com",
-     "author_firstname": "Xiang",
-     "author_id": 872,
-     "author_lastname": "Deng"
+  "publication": {
+    "abstract": "A method for automatic liver tumor segmentation from computer tomography (CT) images is presented in this paper. Segmentation is an important operation before surgery planning, and automatic methods offer an alternative to laborious manual segmentation. In addition, segmentations of automatic methods are reproducible, so they can be reliably evaluated and they do not depend on the performer of the segmentation. In this work, the segmentation is performed in two stages. First a rough segmentation of tumors is obtained by simple thresholding and morphological operations. \r\nThe second stage refines the rough segmentation result using fuzzy clustering and a geometric deformable model (GDM) that is fitted on the clustering result. \r\nThe method was evaluated with data provided by Liver Tumor Segmentation Challenge 08, to which the method also participated. The data included 10 \r\nimages from which 20 tumors were segmented. The method showed promising results.",
+    "articles": [
+      "bafybeibk7q27keenv7jiidkiqcnj3j43awhwuuehaucruyygpmrbj444fu",
+      "bafybeigrv4dxyo5yxsqdqqhlucttvh54qystai52w7gijql6vhem4pofnu",
+      "bafybeialmqltuozrmnjjsrdlm6suzo2lh4rrlhmn7ighrmu5ywco7ihiu4"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Hame, Yrjo",
+        "author_place": 1,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Segmentation"
+    ],
+    "comments": [],
+    "date_submitted": "2008-07-10T17:27:09Z",
+    "handles": [
+      {
+        "handle": "10380/1440",
+        "handle_url": "http://hdl.handle.net/10380/1440"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<p>The authors presented an automatic liver tumor segmentation technique.<br />In this method, the tumor is first segmented by thresholding and morphological operation, and then refined using fuzzy C-means clustering and level-set based surface smoothing.</p><p>Detailed comments:</p><p>1) A lot of empirically determined parameters are used in the &quot;rough segmentation&quot; stage, which could make the algorithm sensitive to data. Such effect may have been demonstrated in Tables 1-3 by the difference in performance on the training and testing datasets.</p><p>2) In Table 3, please include the evaluation table we provided as it is. You can split the results from training and testing datasets in Table 3 into two tables.</p><p>&nbsp;</p>",
-    "date": "07-25-2008",
-    "review_id": 1518
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "yrjo.hame@tkk.fi",
-   "author_firstname": "Yrj\u00f6",
-   "author_fullname": "H\u00e4me, Yrj\u00f6",
-   "author_id": 917,
-   "author_institution": "Helsinki University of Technology",
-   "author_lastname": "H\u00e4me"
-  },
-  "tags": null,
-  "title": "Liver Tumor Segmentation Using Implicit Surface Evolution"
- }
+    "journals": [
+      {
+        "journal_id": 45,
+        "journal_name": "MICCAI 2016 Workshops"
+      },
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 603,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "dengxiang05@gmail.com",
+          "author_firstname": "Xiang",
+          "author_id": 872,
+          "author_lastname": "Deng"
+        },
+        "content": "<p>The authors presented an automatic liver tumor segmentation technique.<br />In this method, the tumor is first segmented by thresholding and morphological operation, and then refined using fuzzy C-means clustering and level-set based surface smoothing.</p><p>Detailed comments:</p><p>1) A lot of empirically determined parameters are used in the &quot;rough segmentation&quot; stage, which could make the algorithm sensitive to data. Such effect may have been demonstrated in Tables 1-3 by the difference in performance on the training and testing datasets.</p><p>2) In Table 3, please include the evaluation table we provided as it is. You can split the results from training and testing datasets in Table 3 into two tables.</p><p>&nbsp;</p>",
+        "date": "07-25-2008",
+        "review_id": 1518
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "yrjo.hame@tkk.fi",
+      "author_firstname": "Yrj\u00f6",
+      "author_fullname": "H\u00e4me, Yrj\u00f6",
+      "author_id": 917,
+      "author_institution": "Helsinki University of Technology",
+      "author_lastname": "H\u00e4me"
+    },
+    "tags": null,
+    "title": "Liver Tumor Segmentation Using Implicit Surface Evolution"
+  }
 }

@@ -1,63 +1,66 @@
 {
- "publication": {
-  "abstract": "This document describes the role of DICOM as one major standard which will enable interoperability between systems used for surgical planning, intraoperative surgical assist systems and postoperative documentation. We first give an brief overview about DICOM and how it is constantly adapted and extended to cover the needs of new devices and application fields. We describe some of the recent additions which are relevant for image processing and intraoperative support in more detail, followed by a description of the current and future work of DICOM working group 24 \"Surgery\".",
-  "authors": [
-   {
-    "author_fullname": "Burgert, Oliver",
-    "author_place": 1,
-    "persona_email": "oliver.burgert@reutlingen-university.de",
-    "persona_firstname": "Oliver",
-    "persona_id": 8050,
-    "persona_lastname": "Burgert"
-   },
-   {
-    "author_fullname": "Treichel, Thomas",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Gessat, Michael",
-    "author_place": 3,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Data Representation",
-   "Programming"
-  ],
-  "comments": [],
-  "date_submitted": "2009-07-12 15:49:00",
-  "handles": [
-   {
-    "handle": "10380/3082",
-    "handle_url": "http://hdl.handle.net/10380/3082"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 34,
-    "journal_name": "MICCAI 2009 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 656,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "oliver.burgert@reutlingen-university.de",
-   "author_firstname": "Oliver",
-   "author_fullname": "Burgert, Oliver",
-   "author_id": 8050,
-   "author_institution": "Reutlingen University",
-   "author_lastname": "Burgert"
-  },
-  "tags": [
-   "Standards",
-   "DICOM"
-  ],
-  "title": "The Role of DICOM for Modular Perioperative Surgical Assist Systems Design"
- }
+  "publication": {
+    "abstract": "This document describes the role of DICOM as one major standard which will enable interoperability between systems used for surgical planning, intraoperative surgical assist systems and postoperative documentation. We first give an brief overview about DICOM and how it is constantly adapted and extended to cover the needs of new devices and application fields. We describe some of the recent additions which are relevant for image processing and intraoperative support in more detail, followed by a description of the current and future work of DICOM working group 24 \"Surgery\".",
+    "articles": [
+      "bafkreig4jdg57xka7vgt7s6w7g4fypvbr5tuvd3ltowxhmkwepoe52lv5m"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Burgert, Oliver",
+        "author_place": 1,
+        "persona_email": "oliver.burgert@reutlingen-university.de",
+        "persona_firstname": "Oliver",
+        "persona_id": 8050,
+        "persona_lastname": "Burgert"
+      },
+      {
+        "author_fullname": "Treichel, Thomas",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Gessat, Michael",
+        "author_place": 3,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Data Representation",
+      "Programming"
+    ],
+    "comments": [],
+    "date_submitted": "2009-07-12 15:49:00",
+    "handles": [
+      {
+        "handle": "10380/3082",
+        "handle_url": "http://hdl.handle.net/10380/3082"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 34,
+        "journal_name": "MICCAI 2009 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 656,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "oliver.burgert@reutlingen-university.de",
+      "author_firstname": "Oliver",
+      "author_fullname": "Burgert, Oliver",
+      "author_id": 8050,
+      "author_institution": "Reutlingen University",
+      "author_lastname": "Burgert"
+    },
+    "tags": [
+      "Standards",
+      "DICOM"
+    ],
+    "title": "The Role of DICOM for Modular Perioperative Surgical Assist Systems Design"
+  }
 }

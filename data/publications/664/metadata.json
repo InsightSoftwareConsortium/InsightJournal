@@ -1,60 +1,63 @@
 {
- "publication": {
-  "abstract": "Simbionix\u00ae Ltd, world-leader in surgical simulation, just pioneered the commercial use of patient-specific simulation: a tool for rehearsing an operation prior to performing it. Carotid stenting was chosen as the first release of a patient-specific simulated operation. Simbionix partnered with Shina Systems\u00ae in making the Segmentation module. The resulting tool is presented and discussed herein.",
-  "authors": [
-   {
-    "author_fullname": "Namer, Einav",
-    "author_place": 1,
-    "persona_email": "einav@simbionix.com",
-    "persona_firstname": "Einav",
-    "persona_id": 2216,
-    "persona_lastname": "Namer"
-   },
-   {
-    "author_fullname": "Shilon, Ofek",
-    "author_place": 2,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Region growing",
-   "Segmentation"
-  ],
-  "comments": [],
-  "date_submitted": "2009-07-20 11:07:48",
-  "handles": [
-   {
-    "handle": "10380/3098",
-    "handle_url": "http://hdl.handle.net/10380/3098"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 34,
-    "journal_name": "MICCAI 2009 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 664,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "einav@simbionix.com",
-   "author_firstname": "Einav",
-   "author_fullname": "Namer, Einav",
-   "author_id": 2216,
-   "author_institution": "Simbionix Ltd",
-   "author_lastname": "Namer"
-  },
-  "tags": [
-   "Carotids Segmentation",
-   "Simulation",
-   "Simbionix",
-   "Patient-Specific "
-  ],
-  "title": "Carotids Segmentation in the context of Patient-Specific Simulation"
- }
+  "publication": {
+    "abstract": "Simbionix\u00ae Ltd, world-leader in surgical simulation, just pioneered the commercial use of patient-specific simulation: a tool for rehearsing an operation prior to performing it. Carotid stenting was chosen as the first release of a patient-specific simulated operation. Simbionix partnered with Shina Systems\u00ae in making the Segmentation module. The resulting tool is presented and discussed herein.",
+    "articles": [
+      null
+    ],
+    "authors": [
+      {
+        "author_fullname": "Namer, Einav",
+        "author_place": 1,
+        "persona_email": "einav@simbionix.com",
+        "persona_firstname": "Einav",
+        "persona_id": 2216,
+        "persona_lastname": "Namer"
+      },
+      {
+        "author_fullname": "Shilon, Ofek",
+        "author_place": 2,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Region growing",
+      "Segmentation"
+    ],
+    "comments": [],
+    "date_submitted": "2009-07-20 11:07:48",
+    "handles": [
+      {
+        "handle": "10380/3098",
+        "handle_url": "http://hdl.handle.net/10380/3098"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 34,
+        "journal_name": "MICCAI 2009 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 664,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "einav@simbionix.com",
+      "author_firstname": "Einav",
+      "author_fullname": "Namer, Einav",
+      "author_id": 2216,
+      "author_institution": "Simbionix Ltd",
+      "author_lastname": "Namer"
+    },
+    "tags": [
+      "Carotids Segmentation",
+      "Simulation",
+      "Simbionix",
+      "Patient-Specific "
+    ],
+    "title": "Carotids Segmentation in the context of Patient-Specific Simulation"
+  }
 }

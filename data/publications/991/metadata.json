@@ -1,53 +1,56 @@
 {
- "publication": {
-  "abstract": "Recently, the scientific community has been proposing several automatic algorithms to biomedical image segmentation procedure, being an interesting and helpful approach to assist both technicians and radiologists in this time-consuming and subjective task. One of these interesting and widely used image segmentation method could be the voxel intensity-based algorithms, e.g. image histogram threshold methods, which have been intensively improved in the past decades. Recently, an interesting approach that gained focus is the logistic classification (LC) for object detection in biomedical images. Even though the general concept behind the LC method is fairly known, the proper method's optimization still commonly adjusted by hand which naturally adds a level of uncertainty and subjectivity in the general segmentation performance. Therefore, an empirical LC optimization is presented, offering a ITK class that performs the LC parameters optimization based on empirical input data analysis. It is worth mentioning that the LogisticContrastEnhancementImageFilter class showed here is also applied on others computational problems, being briefly explained in this document.",
-  "authors": [
-   {
-    "author_fullname": "Senra Filho, Antonio Carlos",
-    "author_place": 2,
-    "persona_email": "acsenrafilho@gmail.com",
-    "persona_firstname": "Antonio Carlos da Silva",
-    "persona_id": 9445,
-    "persona_lastname": "Senra Filho"
-   }
-  ],
-  "categories": [
-   "Mixture of densities",
-   "Parameter Techniques"
-  ],
-  "comments": [],
-  "date_submitted": "2019-09-07 13:06:57",
-  "handles": [
-   {
-    "handle": "10380/3603",
-    "handle_url": "http://hdl.handle.net/10380/3603"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 991,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "acsenrafilho@gmail.com",
-   "author_firstname": "Antonio Carlos da Silva",
-   "author_fullname": "Senra Filho, Antonio Carlos da Silva",
-   "author_id": 9445,
-   "author_institution": "University of Sao Paulo",
-   "author_lastname": "Senra Filho"
-  },
-  "tags": [
-   "Unsupervised learning",
-   "Classification"
-  ],
-  "title": "An Empirical Optimization to Logistic Classification Model"
- }
+  "publication": {
+    "abstract": "Recently, the scientific community has been proposing several automatic algorithms to biomedical image segmentation procedure, being an interesting and helpful approach to assist both technicians and radiologists in this time-consuming and subjective task. One of these interesting and widely used image segmentation method could be the voxel intensity-based algorithms, e.g. image histogram threshold methods, which have been intensively improved in the past decades. Recently, an interesting approach that gained focus is the logistic classification (LC) for object detection in biomedical images. Even though the general concept behind the LC method is fairly known, the proper method's optimization still commonly adjusted by hand which naturally adds a level of uncertainty and subjectivity in the general segmentation performance. Therefore, an empirical LC optimization is presented, offering a ITK class that performs the LC parameters optimization based on empirical input data analysis. It is worth mentioning that the LogisticContrastEnhancementImageFilter class showed here is also applied on others computational problems, being briefly explained in this document.",
+    "articles": [
+      "bafybeicngsk7m3jubvlpfnfxzb3ja7yh74n7fbmqtw35eu6er3khhzmr64"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Senra Filho, Antonio Carlos",
+        "author_place": 2,
+        "persona_email": "acsenrafilho@gmail.com",
+        "persona_firstname": "Antonio Carlos da Silva",
+        "persona_id": 9445,
+        "persona_lastname": "Senra Filho"
+      }
+    ],
+    "categories": [
+      "Mixture of densities",
+      "Parameter Techniques"
+    ],
+    "comments": [],
+    "date_submitted": "2019-09-07 13:06:57",
+    "handles": [
+      {
+        "handle": "10380/3603",
+        "handle_url": "http://hdl.handle.net/10380/3603"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 991,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "acsenrafilho@gmail.com",
+      "author_firstname": "Antonio Carlos da Silva",
+      "author_fullname": "Senra Filho, Antonio Carlos da Silva",
+      "author_id": 9445,
+      "author_institution": "University of Sao Paulo",
+      "author_lastname": "Senra Filho"
+    },
+    "tags": [
+      "Unsupervised learning",
+      "Classification"
+    ],
+    "title": "An Empirical Optimization to Logistic Classification Model"
+  }
 }

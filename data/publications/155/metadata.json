@@ -1,92 +1,96 @@
 {
- "publication": {
-  "abstract": "This paper describes the Insight Toolkit (ITK) Spherical Wavelet object: itkSWaveletSource. This\r\nITK object is an implementation of a paper by Schr\u00a8oder and W. Sweldens, \u201cSpherical Wavelets: Effi-\r\nciently Representing Functions on the Sphere\u201d [8], with pseudo-code given in their paper entitled \u201cSpherical\r\nwavelets: Texture processing\u201d [7]. In these papers, Swelden et. al. show how to do decompose a\r\nscalar signal defined on a spherical mesh into spherical wavelet coefficients (analysis step, also called\r\nforward transform), and vice-versa (synthesis step, also called inverse transform). We have implemented\r\nthe spherical wavelet transform in ITK entitled itkSWaveletSource object, which will take the scalar\r\nfunction defined on a spherical mesh as input and apply spherical wavelet analysis and synthesis on it.\r\nIn this paper, we describe our code and provide the user with enough details to reproduce the results\r\nwhich we present in this paper. This filter has a variety of applications including shape representation\r\nand shape analysis of brain surfaces, which was the initial motivation for this work.\r\nThis paper is accompanied with the source code, input data, parameters and output data that the\r\nauthors used for validating the spherical wavelet transform described in this paper.",
-  "authors": [
-   {
-    "author_fullname": "Gao, Yi",
-    "author_place": 1,
-    "persona_email": "yi.gao@gatech.edu",
-    "persona_firstname": "Yi",
-    "persona_id": 468,
-    "persona_lastname": "Gao"
-   },
-   {
-    "author_fullname": "Nain, Delphine",
-    "author_place": 2,
-    "persona_email": "delfin@cc.gatech.edu",
-    "persona_firstname": "Delphine",
-    "persona_id": 136,
-    "persona_lastname": "Nain"
-   },
-   {
-    "author_fullname": "LeFaucheur, Xavier",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Tannenbaum, Allen",
-    "author_place": 4,
-    "persona_id": null
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2007-06-13",
-  "handles": [
-   {
-    "handle": "1926/544",
-    "handle_url": "http://hdl.handle.net/1926/544"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 155,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "luis.ibanez@kitware.com",
-     "author_firstname": "Luis",
-     "author_id": 4,
-     "author_lastname": "Ibanez"
+  "publication": {
+    "abstract": "This paper describes the Insight Toolkit (ITK) Spherical Wavelet object: itkSWaveletSource. This\r\nITK object is an implementation of a paper by Schr\u00a8oder and W. Sweldens, \u201cSpherical Wavelets: Effi-\r\nciently Representing Functions on the Sphere\u201d [8], with pseudo-code given in their paper entitled \u201cSpherical\r\nwavelets: Texture processing\u201d [7]. In these papers, Swelden et. al. show how to do decompose a\r\nscalar signal defined on a spherical mesh into spherical wavelet coefficients (analysis step, also called\r\nforward transform), and vice-versa (synthesis step, also called inverse transform). We have implemented\r\nthe spherical wavelet transform in ITK entitled itkSWaveletSource object, which will take the scalar\r\nfunction defined on a spherical mesh as input and apply spherical wavelet analysis and synthesis on it.\r\nIn this paper, we describe our code and provide the user with enough details to reproduce the results\r\nwhich we present in this paper. This filter has a variety of applications including shape representation\r\nand shape analysis of brain surfaces, which was the initial motivation for this work.\r\nThis paper is accompanied with the source code, input data, parameters and output data that the\r\nauthors used for validating the spherical wavelet transform described in this paper.",
+    "articles": [
+      "bafybeidvrko7gvcg7iwbf7rbqahpc5akoqoixcmezzjg2exh4ls7qyua5q",
+      "bafybeidvrko7gvcg7iwbf7rbqahpc5akoqoixcmezzjg2exh4ls7qyua5q"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Gao, Yi",
+        "author_place": 1,
+        "persona_email": "yi.gao@gatech.edu",
+        "persona_firstname": "Yi",
+        "persona_id": 468,
+        "persona_lastname": "Gao"
+      },
+      {
+        "author_fullname": "Nain, Delphine",
+        "author_place": 2,
+        "persona_email": "delfin@cc.gatech.edu",
+        "persona_firstname": "Delphine",
+        "persona_id": 136,
+        "persona_lastname": "Nain"
+      },
+      {
+        "author_fullname": "LeFaucheur, Xavier",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Tannenbaum, Allen",
+        "author_place": 4,
+        "persona_id": null
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2007-06-13",
+    "handles": [
+      {
+        "handle": "1926/544",
+        "handle_url": "http://hdl.handle.net/1926/544"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<p>&nbsp;</p><p><strong>Summary:</strong></p><p>This paper contributes a filter that generates a Wavelet decomposition of a function defined on the unit sphere, and a filter that recompose a function from a set of wavelet coefficients<br /> </p><p> <strong>Open Science:</strong></p><p>This paper seems to be a great example of Open Science.</p><p>The material needed for replicating the work seems to be provided by the athors.</p><p>However, compilation problems and run time error made a bit harder to verify whether the material provided was complete or not.<br />After the compilation error were dealt with, it was possible to use the material easily and to verify the results presented by the authors. </p><p> <br /><br /> <strong>Reproducibility:</strong></p><p>I was able to compile the code without mayor problem.</p><p>Only had to fix three warning due to lack of explicit casting from double to int and unsigned long:</p><p>The changes were made in the following lines: </p><p>itkSWaveletSource.txx:308: unsigned long nOfVerts = static_cast( 10.0 * pow(4, i ) + 2 ); // for icosahedron.<br />itkSWaveletSource.txx:309: unsigned long nOfNewVerts = static_cast( 10.0 * pow(4,i+1) + 2 ); // for icosahedron.<br />itkSWaveletSource.txx:841: int resolution = static_cast( 1 + floor(log((nOriVerts-2)/10)/log(4)) );</p><p>I was surprised to find that four of the five tests were commented out in the CMakeLists.txt file.</p><p>&nbsp;</p><p>The only enabled test crashes at run time with the following message:</p><p> testing task 5:<br /> step 1.1 we have a scalar function defined on the vertexes of the finest mesh. Here we just use the z-coordinates as the function.<br /> step 1.2 Do a wavelet transform of the function and we get wavelet coefficients.<br /> step 1.3 Do a wavelet inverse transform from the coefficients to reconstruct the original function.<br /> step 1.4 Compare the original functin with the reconstructed function to show the fedelity of the transform.<br /> terminate called after throwing an instance of &#39;std::bad_alloc&#39;<br /> what(): St9bad_alloc<br /> zsh: abort ./itkSWaveletTest5</p><p>When enabling the other tests, they failed to compile.</p><p>IJ-Spherical_Wavelet_ITK_Filter.1/itkSWaveletTest/itkSWaveletTest.cxx:146: error: expected unqualified-id before &lsquo;else&rsquo;<br />IJ-Spherical_Wavelet_ITK_Filter.1/itkSWaveletTest/itkSWaveletTest.cxx:150: error: expected declaration before &lsquo;}&rsquo; token<br />IJ-Spherical_Wavelet_ITK_Filter.1/itkSWaveletTest/itkSWaveletSource.txx: In member function &lsquo;void itk::SWaveletSource::SetWaveletCoefficientAtScale(int, int, double) [with TOutputMesh = itk::Mesh &gt;]&rsquo;:</p><p>The error seemed to arise from a copy/paste mistake.</p><p>After fixing it, the code compiled fine.</p><p>&nbsp;</p><p>---</p><p>It was pretty easy to reproduce the results of Figure 2, following the clear instructions on page 6 of the paper.</p><p>The visualization of each one of the different sphere resolutions matched the images in Figure 2.</p><p> -- </p><p> The paper fails to mention that the code of section 2.3 is available in the test</p><p>itkSWaveletTest2.cxx </p><p>This test prints out the reconstruction error for the level of resolution provided by the in the command line.</p><p>The errors reported are indeed in the range of 10^-6, as the paper indicates:</p><p>Resolution Error </p><p> 1 ==&gt; 1.11022e-16<br /> 2 ==&gt; 2.18535e-19<br /> 3 ==&gt; 2.22045e-16<br /> 4 ==&gt; 1.11022e-16<br /> 5 ==&gt; 3.33067e-16<br /> 6 ==&gt; 3.33067e-16<br /> </p><p>&nbsp;---</p><p>&nbsp;In section 2.4 It should probably state that the corresponding source code is in the example</p><p>&nbsp;itkSWaveletTest.cxx</p><p>&nbsp;That being, said,</p><p>by running this example I got the following files:</p><p>&nbsp;reconstructedFnKWVisuChanged.txt<br />reconstructedFnKWVisu.txt<br />reconstructedFn.txt<br />ScalingFnKWVisu.txt</p><p>but couldn&#39;t load them in KWMeshVisu because this appication expects files with extension .meta</p><p>or .vtk.&nbsp; Simply renaming the files to change the extension didn&#39;t allowed me to load the files.</p><p>&nbsp;It would have been useful to have simple instructions on how to load the files in KWMeshVisu.</p><p>I had to add to the code the following line:</p><p>mySphereMeshSource-&gt;WriteMeshToMetaFile(&quot;Mesh.meta&quot;,n);</p><p>To save the Mesh itself into a file, and then be able to use KWMeshVisu.</p><p>From KWMeshVisu I loaded the &quot;Mesh.meta&quot; file as&nbsp; a mesh, and then loaded&nbsp; the files as 1D scalar properties</p><p>reconstructedFnKWVisuChanged.txt<br />reconstructedFnKWVisu.txt<br />reconstructedFn.txt<br />ScalingFnKWVisu.txt<br />WaveletFnKWVisu.txt</p><p>&nbsp;</p><p>&nbsp;The paper fails to mention that the mesh files are along with the source code in a meta directory.</p><p>&nbsp;The CMakeLists.txt file could have been formated for making the different figures a test by using the ADD_TEST command. In that way these different usage details could have been provided explicitly.</p><p>&nbsp;</p><p>----&nbsp;</p><p>&nbsp;In section 3, the authors refer to a &quot;filteringShape.cxx&quot; file that is not included with the contribution. </p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p> <strong>Use of Open Source Software:</strong></p><ul><li>The authors used the Insight Toolkit (ITK), <br /></li><li>The Visualization Toolkit (VTK) <br /></li><li>and suggested the use of a previous IJ paper (KWVisu) for visualizing the mesh results: http://insight-journal.org/dspace/handle/1926/220</li></ul><p>&nbsp;</p><p> <strong>Open Source Contributions:</strong></p><p>The authors provide their source code, and the paper provide examples on how to use it.</p><p>Unfortunately only one of the examples is enabled for compilation. </p><p>&nbsp;</p><p><strong>Code Quality:</strong><br /> [If the authors provided their source code: Was the code easy to read? Did they use a modern coding style? Did they rely on non-portable mechanism? Was it suitable for multiple-platforms?]<br /> <br /> <strong>Applicability to other problems:</strong></p><p> [Do you find that the authors methods can be applied to other image analysis problems? Suggest other disciplines or even other specific projects that could take advantage of this work]<br /> <br /> <strong>Suggestions for future work:</strong><br /> [Suggest to authors future directions for improving their methods, or other domains from which they could learn technique that could help them advance in their research.]<br /> <br /> <strong>Requests for additional information from authors:</strong><br /> [Did you find that information was missing from the paper? Maybe parameters for running the tests? Maybe some images were missing? Would you like to get more details on how the diagrams, or plots were generated?]<br /> <br /> <strong>Additional Comments:</strong><br /> [This is a free-form field]<br /> <br /> </p>",
-    "date": "09-11-2007",
-    "review_id": 554
-   },
-   {
-    "author": {
-     "author_email": "agouaillard@gmail.com",
-     "author_firstname": "Alexandre",
-     "author_id": 322,
-     "author_lastname": "Gouaillard"
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 155,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "luis.ibanez@kitware.com",
+          "author_firstname": "Luis",
+          "author_id": 4,
+          "author_lastname": "Ibanez"
+        },
+        "content": "<p>&nbsp;</p><p><strong>Summary:</strong></p><p>This paper contributes a filter that generates a Wavelet decomposition of a function defined on the unit sphere, and a filter that recompose a function from a set of wavelet coefficients<br /> </p><p> <strong>Open Science:</strong></p><p>This paper seems to be a great example of Open Science.</p><p>The material needed for replicating the work seems to be provided by the athors.</p><p>However, compilation problems and run time error made a bit harder to verify whether the material provided was complete or not.<br />After the compilation error were dealt with, it was possible to use the material easily and to verify the results presented by the authors. </p><p> <br /><br /> <strong>Reproducibility:</strong></p><p>I was able to compile the code without mayor problem.</p><p>Only had to fix three warning due to lack of explicit casting from double to int and unsigned long:</p><p>The changes were made in the following lines: </p><p>itkSWaveletSource.txx:308: unsigned long nOfVerts = static_cast( 10.0 * pow(4, i ) + 2 ); // for icosahedron.<br />itkSWaveletSource.txx:309: unsigned long nOfNewVerts = static_cast( 10.0 * pow(4,i+1) + 2 ); // for icosahedron.<br />itkSWaveletSource.txx:841: int resolution = static_cast( 1 + floor(log((nOriVerts-2)/10)/log(4)) );</p><p>I was surprised to find that four of the five tests were commented out in the CMakeLists.txt file.</p><p>&nbsp;</p><p>The only enabled test crashes at run time with the following message:</p><p> testing task 5:<br /> step 1.1 we have a scalar function defined on the vertexes of the finest mesh. Here we just use the z-coordinates as the function.<br /> step 1.2 Do a wavelet transform of the function and we get wavelet coefficients.<br /> step 1.3 Do a wavelet inverse transform from the coefficients to reconstruct the original function.<br /> step 1.4 Compare the original functin with the reconstructed function to show the fedelity of the transform.<br /> terminate called after throwing an instance of &#39;std::bad_alloc&#39;<br /> what(): St9bad_alloc<br /> zsh: abort ./itkSWaveletTest5</p><p>When enabling the other tests, they failed to compile.</p><p>IJ-Spherical_Wavelet_ITK_Filter.1/itkSWaveletTest/itkSWaveletTest.cxx:146: error: expected unqualified-id before &lsquo;else&rsquo;<br />IJ-Spherical_Wavelet_ITK_Filter.1/itkSWaveletTest/itkSWaveletTest.cxx:150: error: expected declaration before &lsquo;}&rsquo; token<br />IJ-Spherical_Wavelet_ITK_Filter.1/itkSWaveletTest/itkSWaveletSource.txx: In member function &lsquo;void itk::SWaveletSource::SetWaveletCoefficientAtScale(int, int, double) [with TOutputMesh = itk::Mesh &gt;]&rsquo;:</p><p>The error seemed to arise from a copy/paste mistake.</p><p>After fixing it, the code compiled fine.</p><p>&nbsp;</p><p>---</p><p>It was pretty easy to reproduce the results of Figure 2, following the clear instructions on page 6 of the paper.</p><p>The visualization of each one of the different sphere resolutions matched the images in Figure 2.</p><p> -- </p><p> The paper fails to mention that the code of section 2.3 is available in the test</p><p>itkSWaveletTest2.cxx </p><p>This test prints out the reconstruction error for the level of resolution provided by the in the command line.</p><p>The errors reported are indeed in the range of 10^-6, as the paper indicates:</p><p>Resolution Error </p><p> 1 ==&gt; 1.11022e-16<br /> 2 ==&gt; 2.18535e-19<br /> 3 ==&gt; 2.22045e-16<br /> 4 ==&gt; 1.11022e-16<br /> 5 ==&gt; 3.33067e-16<br /> 6 ==&gt; 3.33067e-16<br /> </p><p>&nbsp;---</p><p>&nbsp;In section 2.4 It should probably state that the corresponding source code is in the example</p><p>&nbsp;itkSWaveletTest.cxx</p><p>&nbsp;That being, said,</p><p>by running this example I got the following files:</p><p>&nbsp;reconstructedFnKWVisuChanged.txt<br />reconstructedFnKWVisu.txt<br />reconstructedFn.txt<br />ScalingFnKWVisu.txt</p><p>but couldn&#39;t load them in KWMeshVisu because this appication expects files with extension .meta</p><p>or .vtk.&nbsp; Simply renaming the files to change the extension didn&#39;t allowed me to load the files.</p><p>&nbsp;It would have been useful to have simple instructions on how to load the files in KWMeshVisu.</p><p>I had to add to the code the following line:</p><p>mySphereMeshSource-&gt;WriteMeshToMetaFile(&quot;Mesh.meta&quot;,n);</p><p>To save the Mesh itself into a file, and then be able to use KWMeshVisu.</p><p>From KWMeshVisu I loaded the &quot;Mesh.meta&quot; file as&nbsp; a mesh, and then loaded&nbsp; the files as 1D scalar properties</p><p>reconstructedFnKWVisuChanged.txt<br />reconstructedFnKWVisu.txt<br />reconstructedFn.txt<br />ScalingFnKWVisu.txt<br />WaveletFnKWVisu.txt</p><p>&nbsp;</p><p>&nbsp;The paper fails to mention that the mesh files are along with the source code in a meta directory.</p><p>&nbsp;The CMakeLists.txt file could have been formated for making the different figures a test by using the ADD_TEST command. In that way these different usage details could have been provided explicitly.</p><p>&nbsp;</p><p>----&nbsp;</p><p>&nbsp;In section 3, the authors refer to a &quot;filteringShape.cxx&quot; file that is not included with the contribution. </p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p> <strong>Use of Open Source Software:</strong></p><ul><li>The authors used the Insight Toolkit (ITK), <br /></li><li>The Visualization Toolkit (VTK) <br /></li><li>and suggested the use of a previous IJ paper (KWVisu) for visualizing the mesh results: http://insight-journal.org/dspace/handle/1926/220</li></ul><p>&nbsp;</p><p> <strong>Open Source Contributions:</strong></p><p>The authors provide their source code, and the paper provide examples on how to use it.</p><p>Unfortunately only one of the examples is enabled for compilation. </p><p>&nbsp;</p><p><strong>Code Quality:</strong><br /> [If the authors provided their source code: Was the code easy to read? Did they use a modern coding style? Did they rely on non-portable mechanism? Was it suitable for multiple-platforms?]<br /> <br /> <strong>Applicability to other problems:</strong></p><p> [Do you find that the authors methods can be applied to other image analysis problems? Suggest other disciplines or even other specific projects that could take advantage of this work]<br /> <br /> <strong>Suggestions for future work:</strong><br /> [Suggest to authors future directions for improving their methods, or other domains from which they could learn technique that could help them advance in their research.]<br /> <br /> <strong>Requests for additional information from authors:</strong><br /> [Did you find that information was missing from the paper? Maybe parameters for running the tests? Maybe some images were missing? Would you like to get more details on how the diagrams, or plots were generated?]<br /> <br /> <strong>Additional Comments:</strong><br /> [This is a free-form field]<br /> <br /> </p>",
+        "date": "09-11-2007",
+        "review_id": 554
+      },
+      {
+        "author": {
+          "author_email": "agouaillard@gmail.com",
+          "author_firstname": "Alexandre",
+          "author_id": 322,
+          "author_lastname": "Gouaillard"
+        },
+        "content": "<strong>Summary:</strong><br /><p>This paper is an implementation of the original spherical wavelet paper by Swelden. The main goal is to be able to do analysis of (genus 0 = parameterizable on the sphere) shapes. It is becoming a standard approach when coupled with the spherical parameterization for brain surface analysis for example.<br /> <br /> <strong>Hypothesis:<br /></strong><br /><br /><br /> <strong>Evidence:</strong><br /><br /> <strong>Open Science:</strong><br />The paper is clear and explain with sufficient detail the implementation. The implementation seems to be as close as possible to the paper.</p><p><strong>Reproducibility:</strong><br />I downloaded the code, and comfigure it with for the following configuration:<br />cmake 2.4.6, Win32 on top of win64 (XP) MSVC++ 2005 (32bits).</p><p>I needed to apply the following minor changes for the code to compile:<br />itkSWaveletSource.txx:308,309<br />&lt; unsigned long nOfVerts = 10*pow(4,i) + 2; // for icosahedron.<br />&lt; unsigned long nOfNewVerts = 10*pow(4,i+1) + 2; // for icosahedron.<br />---<br />&gt; unsigned long nOfVerts = 10*pow(4.0,(int)i) + 2; // for icosahedron.<br />&gt; unsigned long nOfNewVerts = 10*pow(4.0,(int)i+1) + 2; // for icosahedron.<br />itkSWaveletSource.txx:841<br />&lt; int resolution = 1 + floor(log((nOriVerts-2)/10)/log(4));<br />---<br />&gt; int resolution = 1 + floor(log((nOriVerts-2.0)/10.0)/log(4.0));</p><p>Thedefault example did not work. It seems to exhaust the memory trying to read a file:<br />itkSWaveletTest5.cxx:60 getScalarFn(&quot;x10.txt&quot;, oriF);<br />itkSWaveletTest5.cxx:99 scalarFn.push_back(a);<br />[...]<br />Unhandled exception at 0x7d4e2366 in itkSWaveletTest5.exe: Microsoft C++ exception: std::bad_alloc at memory location 0x0139fb6c..</p><p>It came from my building in a separate tree. The example assumes that you are running it at the sme level as the files. Moreover, the getScalarFn that reads from disk does not check if the file was found and is open before it tries to read from it.<br />Here are the corresponding fixes:<br /> :60,61:<br />getScalarFn(&quot;../x10.txt&quot;, oriF);<br />mySphereMeshSource-&gt;SetScalarFunctionWithSphere( &quot;../para10.meta&quot;, oriF);</p><p>:92,105:<br />void getScalarFn(char* scalarFileName, std::vector&lt; double &gt;&amp; scalarFn)<br />{<br />&nbsp; std::ifstream f(scalarFileName);<br />&nbsp; if( f.fail( ) )<br />&nbsp;&nbsp;&nbsp; {<br />&nbsp;&nbsp;&nbsp; // print an error here<br />&nbsp;&nbsp;&nbsp; exit( EXIT_FAILURE );<br />&nbsp;&nbsp;&nbsp; }<br />&nbsp; double a;<br />&nbsp; while(!f.eof())<br />&nbsp;&nbsp;&nbsp; {<br />&nbsp;&nbsp;&nbsp; f&gt;&gt;a;<br />&nbsp;&nbsp;&nbsp; scalarFn.push_back(a);<br />&nbsp;&nbsp;&nbsp; }</p><p><strong>Use of Open Source Software:</strong><br />The filter is written on top of ITK.</p><p> <strong>Open Source Contributions:</strong><br />The paper is clear and explain with sufficient detail the implementation.</p><p><strong>Code Quality:</strong><br />As for the design, I love the work on the wavelet coefficients. Being able to access both the mesh and the corresponding wavelet at any level of decomposition is a great idea. It open the way to a lot of applications (compression, watermarking, any filtering, ...).</p><p>The code is not yet up to ITK standard: there seems to be a lot of commented out code. the debug and warning macro are not used (cerr is used instead) and it seems to have be written using arrays first. Some parts have been rewritten using stl (vector) but some parts still used arrays. Testing it through the web interface of KWStyle could help the authors enhance the style greatly (http://66.194.253.24/KWStyle/).</p><p>The types are hard coded, and ,as the author themselves admit, templating it depending on the mesh traits or on other arithmetic types would be great.</p><p>The code is written on top of itk::Mesh and thus must deal with a lot of shortcomings. The authors reimplement a pointToCell array and assume orientability, orientation consistency as well as 2-manifoldness. I&#39;m pretty sure the code would break if you use as input a sphere of which one triangle or more would be flipped inside-out. It would also be nice to check if the mesh is triangular first. I would recommand, if the author had the time, to rewrite it on top of an itkQuadEdgeMesh. One itkMeshToMeshFilter enforcing the orientation would still be need though. </p><p>It would be nice to have the subdivision part separated from the wavelet feature. We could think of a general 1 to 4 subdivision filter (abstract, topology only) with a set of functions implementing the geometrical behavior (new point function of old point + mask). That open the way to subdivision filters in ITK, as well as predictive filtering for wavelet compression, lazy wavelets and so on. </p><p><strong>Applicability to other problems:</strong><br />There is the direct problem the authors are addressing: (brain surface) shape analysis, but having access to the wavelet and to the inverse transform, you can think about almost any kind of filtering in wavelet space including:<br />- denoising (wavelet coefficient thresholding)<br />- compression,<br />- watermarking,<br />- optimization of active surface algorithms,<br />You can see those two pages for ideas:<br />http://www.creatis.insa-lyon.fr/~agouaillard/Research.htm<br />http://www.creatis.insa-lyon.fr/~valette/publis.htm </p><p><strong>Suggestions for future work:<br /></strong>- write a test suite to enforce the expected behavior, it would help reviewers make some experiments with the code and even add fonctionalities.<br />- template over meshtraits / arithmetic types.<br /> - rewrite on top of of QEMesh (much easier to code, much easier to maintain, faster)<br />- separate subdivision from wavelet<br />- would pluggable wavelet functions be too hard to code (I sincerely have no idea) ?<br /><br /> <strong>Requests for additional information from authors:</strong><br />I loved the paper.</p><p> <strong>Additional Comments:</strong><br />i&#39;d like to help the authors fix the problems, and even implement some of my recommendations.</p>",
+        "date": "07-26-2007",
+        "review_id": 515
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "yi.gao@gatech.edu",
+      "author_firstname": "Yi",
+      "author_fullname": "Gao, Yi",
+      "author_id": 468,
+      "author_institution": "Georgia Institute of Technology",
+      "author_lastname": "Gao"
     },
-    "content": "<strong>Summary:</strong><br /><p>This paper is an implementation of the original spherical wavelet paper by Swelden. The main goal is to be able to do analysis of (genus 0 = parameterizable on the sphere) shapes. It is becoming a standard approach when coupled with the spherical parameterization for brain surface analysis for example.<br /> <br /> <strong>Hypothesis:<br /></strong><br /><br /><br /> <strong>Evidence:</strong><br /><br /> <strong>Open Science:</strong><br />The paper is clear and explain with sufficient detail the implementation. The implementation seems to be as close as possible to the paper.</p><p><strong>Reproducibility:</strong><br />I downloaded the code, and comfigure it with for the following configuration:<br />cmake 2.4.6, Win32 on top of win64 (XP) MSVC++ 2005 (32bits).</p><p>I needed to apply the following minor changes for the code to compile:<br />itkSWaveletSource.txx:308,309<br />&lt; unsigned long nOfVerts = 10*pow(4,i) + 2; // for icosahedron.<br />&lt; unsigned long nOfNewVerts = 10*pow(4,i+1) + 2; // for icosahedron.<br />---<br />&gt; unsigned long nOfVerts = 10*pow(4.0,(int)i) + 2; // for icosahedron.<br />&gt; unsigned long nOfNewVerts = 10*pow(4.0,(int)i+1) + 2; // for icosahedron.<br />itkSWaveletSource.txx:841<br />&lt; int resolution = 1 + floor(log((nOriVerts-2)/10)/log(4));<br />---<br />&gt; int resolution = 1 + floor(log((nOriVerts-2.0)/10.0)/log(4.0));</p><p>Thedefault example did not work. It seems to exhaust the memory trying to read a file:<br />itkSWaveletTest5.cxx:60 getScalarFn(&quot;x10.txt&quot;, oriF);<br />itkSWaveletTest5.cxx:99 scalarFn.push_back(a);<br />[...]<br />Unhandled exception at 0x7d4e2366 in itkSWaveletTest5.exe: Microsoft C++ exception: std::bad_alloc at memory location 0x0139fb6c..</p><p>It came from my building in a separate tree. The example assumes that you are running it at the sme level as the files. Moreover, the getScalarFn that reads from disk does not check if the file was found and is open before it tries to read from it.<br />Here are the corresponding fixes:<br /> :60,61:<br />getScalarFn(&quot;../x10.txt&quot;, oriF);<br />mySphereMeshSource-&gt;SetScalarFunctionWithSphere( &quot;../para10.meta&quot;, oriF);</p><p>:92,105:<br />void getScalarFn(char* scalarFileName, std::vector&lt; double &gt;&amp; scalarFn)<br />{<br />&nbsp; std::ifstream f(scalarFileName);<br />&nbsp; if( f.fail( ) )<br />&nbsp;&nbsp;&nbsp; {<br />&nbsp;&nbsp;&nbsp; // print an error here<br />&nbsp;&nbsp;&nbsp; exit( EXIT_FAILURE );<br />&nbsp;&nbsp;&nbsp; }<br />&nbsp; double a;<br />&nbsp; while(!f.eof())<br />&nbsp;&nbsp;&nbsp; {<br />&nbsp;&nbsp;&nbsp; f&gt;&gt;a;<br />&nbsp;&nbsp;&nbsp; scalarFn.push_back(a);<br />&nbsp;&nbsp;&nbsp; }</p><p><strong>Use of Open Source Software:</strong><br />The filter is written on top of ITK.</p><p> <strong>Open Source Contributions:</strong><br />The paper is clear and explain with sufficient detail the implementation.</p><p><strong>Code Quality:</strong><br />As for the design, I love the work on the wavelet coefficients. Being able to access both the mesh and the corresponding wavelet at any level of decomposition is a great idea. It open the way to a lot of applications (compression, watermarking, any filtering, ...).</p><p>The code is not yet up to ITK standard: there seems to be a lot of commented out code. the debug and warning macro are not used (cerr is used instead) and it seems to have be written using arrays first. Some parts have been rewritten using stl (vector) but some parts still used arrays. Testing it through the web interface of KWStyle could help the authors enhance the style greatly (http://66.194.253.24/KWStyle/).</p><p>The types are hard coded, and ,as the author themselves admit, templating it depending on the mesh traits or on other arithmetic types would be great.</p><p>The code is written on top of itk::Mesh and thus must deal with a lot of shortcomings. The authors reimplement a pointToCell array and assume orientability, orientation consistency as well as 2-manifoldness. I&#39;m pretty sure the code would break if you use as input a sphere of which one triangle or more would be flipped inside-out. It would also be nice to check if the mesh is triangular first. I would recommand, if the author had the time, to rewrite it on top of an itkQuadEdgeMesh. One itkMeshToMeshFilter enforcing the orientation would still be need though. </p><p>It would be nice to have the subdivision part separated from the wavelet feature. We could think of a general 1 to 4 subdivision filter (abstract, topology only) with a set of functions implementing the geometrical behavior (new point function of old point + mask). That open the way to subdivision filters in ITK, as well as predictive filtering for wavelet compression, lazy wavelets and so on. </p><p><strong>Applicability to other problems:</strong><br />There is the direct problem the authors are addressing: (brain surface) shape analysis, but having access to the wavelet and to the inverse transform, you can think about almost any kind of filtering in wavelet space including:<br />- denoising (wavelet coefficient thresholding)<br />- compression,<br />- watermarking,<br />- optimization of active surface algorithms,<br />You can see those two pages for ideas:<br />http://www.creatis.insa-lyon.fr/~agouaillard/Research.htm<br />http://www.creatis.insa-lyon.fr/~valette/publis.htm </p><p><strong>Suggestions for future work:<br /></strong>- write a test suite to enforce the expected behavior, it would help reviewers make some experiments with the code and even add fonctionalities.<br />- template over meshtraits / arithmetic types.<br /> - rewrite on top of of QEMesh (much easier to code, much easier to maintain, faster)<br />- separate subdivision from wavelet<br />- would pluggable wavelet functions be too hard to code (I sincerely have no idea) ?<br /><br /> <strong>Requests for additional information from authors:</strong><br />I loved the paper.</p><p> <strong>Additional Comments:</strong><br />i&#39;d like to help the authors fix the problems, and even implement some of my recommendations.</p>",
-    "date": "07-26-2007",
-    "review_id": 515
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "yi.gao@gatech.edu",
-   "author_firstname": "Yi",
-   "author_fullname": "Gao, Yi",
-   "author_id": 468,
-   "author_institution": "Georgia Institute of Technology",
-   "author_lastname": "Gao"
-  },
-  "tags": [
-   "Spherical Wavelet",
-   "ITK",
-   "Shape analysis"
-  ],
-  "title": "Spherical Wavelet ITK Filter"
- }
+    "tags": [
+      "Spherical Wavelet",
+      "ITK",
+      "Shape analysis"
+    ],
+    "title": "Spherical Wavelet ITK Filter"
+  }
 }

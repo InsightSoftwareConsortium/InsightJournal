@@ -1,110 +1,114 @@
 {
- "publication": {
-  "abstract": "Liver cancer is the fifth most commonly diagnosed cancer and the third most common cause of death\r\nfrom cancer worldwide. A precise analysis of the lesions would help in the staging of the tumor and\r\nin the evaluation of the possible applicable therapies. In this paper we present the workflow we have\r\ndeveloped for the semi-automatic segmentation of liver tumors in the datasets provided for the MICCAI\r\nLiver Tumor Segmentation contest. Since we wanted to develop a system that could be as automatic\r\nas possible and to follow the segmentation process in every single step starting from the image loading\r\nto the lesion extraction, we decided to subdivide the workflow in two main steps: first we focus on the\r\nsegmentation of the liver and once we have extracted the organ structure we segment the lesions applying\r\nan adaptive multi-thresholding system.",
-  "authors": [
-   {
-    "author_fullname": "Choudhary, Anirudh",
-    "author_place": 1,
-    "persona_email": "ani.iitkgp@gmail.com",
-    "persona_firstname": "Anirudh",
-    "persona_id": 2092,
-    "persona_lastname": "Choudhary"
-   },
-   {
-    "author_fullname": "Moretto, Nicola",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Pizzorni Ferrarese, Francesca",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Zamboni, Giulia A.",
-    "author_place": 4,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Anisotropic blurring filters",
-   "Classification",
-   "CMake",
-   "Component Analysis and Discriminants",
-   "Data",
-   "Data Representation",
-   "Edge Detection",
-   "Feature extraction",
-   "Filtering",
-   "Generic Programming",
-   "Image",
-   "Images",
-   "Information Theory",
-   "IO",
-   "Level sets",
-   "Mathematical Morphology",
-   "Mathematics",
-   "Neighborhood filters",
-   "Optimization",
-   "Parameter Techniques",
-   "PointSet",
-   "Programming",
-   "Region growing",
-   "Segmentation",
-   "Thresholding",
-   "Watersheds"
-  ],
-  "comments": [],
-  "date_submitted": "2008-07-08T01:26:27Z",
-  "handles": [
-   {
-    "handle": "10380/1430",
-    "handle_url": "http://hdl.handle.net/10380/1430"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 45,
-    "journal_name": "MICCAI 2016 Workshops"
-   },
-   {
-    "journal_id": 33,
-    "journal_name": "MICCAI 2008 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 589,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "dengxiang05@gmail.com",
-     "author_firstname": "Xiang",
-     "author_id": 872,
-     "author_lastname": "Deng"
+  "publication": {
+    "abstract": "Liver cancer is the fifth most commonly diagnosed cancer and the third most common cause of death\r\nfrom cancer worldwide. A precise analysis of the lesions would help in the staging of the tumor and\r\nin the evaluation of the possible applicable therapies. In this paper we present the workflow we have\r\ndeveloped for the semi-automatic segmentation of liver tumors in the datasets provided for the MICCAI\r\nLiver Tumor Segmentation contest. Since we wanted to develop a system that could be as automatic\r\nas possible and to follow the segmentation process in every single step starting from the image loading\r\nto the lesion extraction, we decided to subdivide the workflow in two main steps: first we focus on the\r\nsegmentation of the liver and once we have extracted the organ structure we segment the lesions applying\r\nan adaptive multi-thresholding system.",
+    "articles": [
+      "bafybeifcriaxu2yizmjjxtefr4xtms6bq56upufw6k3x2uo7h7r2nfwgh4",
+      "bafybeiepwnw6uoewucebe2mafvg5y32d56vbfzsuy5ttcrloycjq4v2b6e"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Choudhary, Anirudh",
+        "author_place": 1,
+        "persona_email": "ani.iitkgp@gmail.com",
+        "persona_firstname": "Anirudh",
+        "persona_id": 2092,
+        "persona_lastname": "Choudhary"
+      },
+      {
+        "author_fullname": "Moretto, Nicola",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Pizzorni Ferrarese, Francesca",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Zamboni, Giulia A.",
+        "author_place": 4,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Anisotropic blurring filters",
+      "Classification",
+      "CMake",
+      "Component Analysis and Discriminants",
+      "Data",
+      "Data Representation",
+      "Edge Detection",
+      "Feature extraction",
+      "Filtering",
+      "Generic Programming",
+      "Image",
+      "Images",
+      "Information Theory",
+      "IO",
+      "Level sets",
+      "Mathematical Morphology",
+      "Mathematics",
+      "Neighborhood filters",
+      "Optimization",
+      "Parameter Techniques",
+      "PointSet",
+      "Programming",
+      "Region growing",
+      "Segmentation",
+      "Thresholding",
+      "Watersheds"
+    ],
+    "comments": [],
+    "date_submitted": "2008-07-08T01:26:27Z",
+    "handles": [
+      {
+        "handle": "10380/1430",
+        "handle_url": "http://hdl.handle.net/10380/1430"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<p>The authors presented a semi-automatic live tumor segmentation technique. In this method, the liver is first segmented using watershed algorithm, tumors are then segmented using a minimum cross-entropy multi-thresholding algorithm. The tumor segmentation is further refined with region growing and level-set based surface smoothing methods.</p><p>Detailed comments:</p><p>1) Overall, this is a nice workshop paper. The presentation is clear.</p><p>2) In the multi-thresholding tumor segmentation, the number of thresholds applied in multi-thresholding is 3, with the first and third thresholds set for hypodense and hyperdense tumors respectively. What is the second threshold for?</p><p>3) In segmentation refinement, why are the threshold limits not symmetric with respect to the mean value?</p><p>4) Could the user manually identified point in the initialization be an arbitrary point in the liver, e.g. a point&nbsp;in normal liver tissue or in the lesion?</p>",
-    "date": "07-25-2008",
-    "review_id": 1525
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "francesca.pizzorni@gmail.com",
-   "author_firstname": "Francesca",
-   "author_fullname": "Pizzorni, Francesca",
-   "author_id": 867,
-   "author_institution": "university of verona",
-   "author_lastname": "Pizzorni"
-  },
-  "tags": [
-   "De-noising",
-   "Multi-thresholding",
-   "Liver tumors",
-   "Segmentation"
-  ],
-  "title": "An entropy based multi-thresholding method for semi-automatic segmentation of liver tumors"
- }
+    "journals": [
+      {
+        "journal_id": 45,
+        "journal_name": "MICCAI 2016 Workshops"
+      },
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 589,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "dengxiang05@gmail.com",
+          "author_firstname": "Xiang",
+          "author_id": 872,
+          "author_lastname": "Deng"
+        },
+        "content": "<p>The authors presented a semi-automatic live tumor segmentation technique. In this method, the liver is first segmented using watershed algorithm, tumors are then segmented using a minimum cross-entropy multi-thresholding algorithm. The tumor segmentation is further refined with region growing and level-set based surface smoothing methods.</p><p>Detailed comments:</p><p>1) Overall, this is a nice workshop paper. The presentation is clear.</p><p>2) In the multi-thresholding tumor segmentation, the number of thresholds applied in multi-thresholding is 3, with the first and third thresholds set for hypodense and hyperdense tumors respectively. What is the second threshold for?</p><p>3) In segmentation refinement, why are the threshold limits not symmetric with respect to the mean value?</p><p>4) Could the user manually identified point in the initialization be an arbitrary point in the liver, e.g. a point&nbsp;in normal liver tissue or in the lesion?</p>",
+        "date": "07-25-2008",
+        "review_id": 1525
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "francesca.pizzorni@gmail.com",
+      "author_firstname": "Francesca",
+      "author_fullname": "Pizzorni, Francesca",
+      "author_id": 867,
+      "author_institution": "university of verona",
+      "author_lastname": "Pizzorni"
+    },
+    "tags": [
+      "De-noising",
+      "Multi-thresholding",
+      "Liver tumors",
+      "Segmentation"
+    ],
+    "title": "An entropy based multi-thresholding method for semi-automatic segmentation of liver tumors"
+  }
 }

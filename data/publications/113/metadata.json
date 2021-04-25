@@ -1,84 +1,87 @@
 {
- "publication": {
-  "abstract": "As open source software projects gain acceptance in mission critical domains of a technology-enabled society, they must adapt their lightweight processes and tools to address the quality needs of these domains. One such domain is technology-supported surgical interventions. This paper presents an in-development toolset for validating the architecture of the open source Image-guided Surgical Toolkit (IGSTK). IGSTK components must conform to a specific architecture pattern based on state machines. Applications built on top of the IGSTK framework process and route instructions under specific constraints imposed by the architecture. This toolset focuses on validating that component state machines in IGSTK are designed and implemented in accordance with the architecture\u2019s constraints. These tools employ open source components as well, and apply theoretical concepts from computer science to a practical problem of guaranteeing safety in a mission critical domain.",
-  "authors": [
-   {
-    "author_fullname": "Gary, Kevin",
-    "author_place": 1,
-    "persona_email": "kgary@asu.edu",
-    "persona_firstname": "Kevin",
-    "persona_id": 274,
-    "persona_lastname": "Gary"
-   },
-   {
-    "author_fullname": "Kokoori, Shylaja",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "David, Beulah",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Otoom, Mwaffaq",
-    "author_place": 4,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Blake, M. Brian",
-    "author_place": 5,
-    "persona_email": "blakeb@cs.georgetown.edu",
-    "persona_firstname": "M. brian",
-    "persona_id": 80,
-    "persona_lastname": "Blake"
-   },
-   {
-    "author_fullname": "Cleary, Kevin",
-    "author_place": 6,
-    "persona_email": "cleary@georgetown.edu",
-    "persona_firstname": "Kevin",
-    "persona_id": 368,
-    "persona_lastname": "Cleary"
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2006-07-11T04:55:01Z",
-  "handles": [
-   {
-    "handle": "1926/226",
-    "handle_url": "http://hdl.handle.net/1926/226"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 113,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "kgary@asu.edu",
-   "author_firstname": "Kevin",
-   "author_fullname": "Gary, Kevin",
-   "author_id": 274,
-   "author_institution": "Arizona State University's Polytechnic Division of Computing Studies",
-   "author_lastname": "Gary"
-  },
-  "tags": [
-   "validation",
-   "software tools",
-   "image guided surgery",
-   "architecture",
-   "open source"
-  ],
-  "title": "An Architecture Validation Toolset for Ensuring Patient Safety in an Open Source Software Toolkit for Image-Guided Surgery Applications"
- }
+  "publication": {
+    "abstract": "As open source software projects gain acceptance in mission critical domains of a technology-enabled society, they must adapt their lightweight processes and tools to address the quality needs of these domains. One such domain is technology-supported surgical interventions. This paper presents an in-development toolset for validating the architecture of the open source Image-guided Surgical Toolkit (IGSTK). IGSTK components must conform to a specific architecture pattern based on state machines. Applications built on top of the IGSTK framework process and route instructions under specific constraints imposed by the architecture. This toolset focuses on validating that component state machines in IGSTK are designed and implemented in accordance with the architecture\u2019s constraints. These tools employ open source components as well, and apply theoretical concepts from computer science to a practical problem of guaranteeing safety in a mission critical domain.",
+    "articles": [
+      null
+    ],
+    "authors": [
+      {
+        "author_fullname": "Gary, Kevin",
+        "author_place": 1,
+        "persona_email": "kgary@asu.edu",
+        "persona_firstname": "Kevin",
+        "persona_id": 274,
+        "persona_lastname": "Gary"
+      },
+      {
+        "author_fullname": "Kokoori, Shylaja",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "David, Beulah",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Otoom, Mwaffaq",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Blake, M. Brian",
+        "author_place": 5,
+        "persona_email": "blakeb@cs.georgetown.edu",
+        "persona_firstname": "M. brian",
+        "persona_id": 80,
+        "persona_lastname": "Blake"
+      },
+      {
+        "author_fullname": "Cleary, Kevin",
+        "author_place": 6,
+        "persona_email": "cleary@georgetown.edu",
+        "persona_firstname": "Kevin",
+        "persona_id": 368,
+        "persona_lastname": "Cleary"
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2006-07-11T04:55:01Z",
+    "handles": [
+      {
+        "handle": "1926/226",
+        "handle_url": "http://hdl.handle.net/1926/226"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 113,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "kgary@asu.edu",
+      "author_firstname": "Kevin",
+      "author_fullname": "Gary, Kevin",
+      "author_id": 274,
+      "author_institution": "Arizona State University's Polytechnic Division of Computing Studies",
+      "author_lastname": "Gary"
+    },
+    "tags": [
+      "validation",
+      "software tools",
+      "image guided surgery",
+      "architecture",
+      "open source"
+    ],
+    "title": "An Architecture Validation Toolset for Ensuring Patient Safety in an Open Source Software Toolkit for Image-Guided Surgery Applications"
+  }
 }

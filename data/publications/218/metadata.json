@@ -1,72 +1,75 @@
 {
- "publication": {
-  "abstract": "We present and implement an error estimation protocol in the Insight Toolkit (ITK) for assessing the\r\naccuracy of image alignment. We base this error estimation on a robust version of the HausdorffDistance\r\n(HD) metric applied to the recovered edges of the images. The robust modifications we introduce to\r\nthe HD metric significantly reduce the amount of outliers in the local distance error estimation. We\r\nevaluate the accuracy of our protocol on synthetically deformed images. We provide the source code\r\nand datasets to reproduce this evaluation. The proposed method is shown to improve error assessment\r\nwhen it is compared with conventional HD methods. This approach has many applications including\r\nlocal estimation and visual assessment of registration error and registration parameter selection.",
-  "authors": [
-   {
-    "author_fullname": "Billet, Eric",
-    "author_place": 1,
-    "persona_email": "ebillet22@gmail.com",
-    "persona_firstname": "Eric",
-    "persona_id": 809,
-    "persona_lastname": "Billet"
-   },
-   {
-    "author_fullname": "Fedorov, Andriy",
-    "author_place": 2,
-    "persona_email": "fedorov@bwh.harvard.edu",
-    "persona_firstname": "Andriy",
-    "persona_id": 16,
-    "persona_lastname": "Fedorov"
-   },
-   {
-    "author_fullname": "Chrisochoides, Nikos",
-    "author_place": 3,
-    "persona_id": null
-   }
-  ],
-  "categories": [],
-  "comments": [
-   {
-    "content": "priere d\\'inserer le code utiliser pour mettre en place cet algo\r\n",
-    "date": "2014-03-24T15:59:46",
-    "persona_email": "aminalfna@hotmail.com",
-    "persona_firstname": "Amina",
-    "persona_id": 9017,
-    "persona_lastname": "Kharbach"
-   }
-  ],
-  "date_submitted": "2008-05-05T13:56:11Z",
-  "handles": [
-   {
-    "handle": "1926/1354",
-    "handle_url": "http://hdl.handle.net/1926/1354"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 218,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "ebillet22@gmail.com",
-   "author_firstname": "Eric",
-   "author_fullname": "Billet, Eric",
-   "author_id": 809,
-   "author_institution": "College of William and Mary",
-   "author_lastname": "Billet"
-  },
-  "tags": [
-   "local Hausdorff",
-   "Accuracy assessment"
-  ],
-  "title": "The Use of Robust Local Hausdorff Distances in Accuracy Assessment for Image Alignment of Brain MRI"
- }
+  "publication": {
+    "abstract": "We present and implement an error estimation protocol in the Insight Toolkit (ITK) for assessing the\r\naccuracy of image alignment. We base this error estimation on a robust version of the HausdorffDistance\r\n(HD) metric applied to the recovered edges of the images. The robust modifications we introduce to\r\nthe HD metric significantly reduce the amount of outliers in the local distance error estimation. We\r\nevaluate the accuracy of our protocol on synthetically deformed images. We provide the source code\r\nand datasets to reproduce this evaluation. The proposed method is shown to improve error assessment\r\nwhen it is compared with conventional HD methods. This approach has many applications including\r\nlocal estimation and visual assessment of registration error and registration parameter selection.",
+    "articles": [
+      "bafybeiftc2kv7btx5edezrw3un34do57mano4zggi3uzmpps6b6i6bgdva"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Billet, Eric",
+        "author_place": 1,
+        "persona_email": "ebillet22@gmail.com",
+        "persona_firstname": "Eric",
+        "persona_id": 809,
+        "persona_lastname": "Billet"
+      },
+      {
+        "author_fullname": "Fedorov, Andriy",
+        "author_place": 2,
+        "persona_email": "fedorov@bwh.harvard.edu",
+        "persona_firstname": "Andriy",
+        "persona_id": 16,
+        "persona_lastname": "Fedorov"
+      },
+      {
+        "author_fullname": "Chrisochoides, Nikos",
+        "author_place": 3,
+        "persona_id": null
+      }
+    ],
+    "categories": [],
+    "comments": [
+      {
+        "content": "priere d\\'inserer le code utiliser pour mettre en place cet algo\r\n",
+        "date": "2014-03-24T15:59:46",
+        "persona_email": "aminalfna@hotmail.com",
+        "persona_firstname": "Amina",
+        "persona_id": 9017,
+        "persona_lastname": "Kharbach"
+      }
+    ],
+    "date_submitted": "2008-05-05T13:56:11Z",
+    "handles": [
+      {
+        "handle": "1926/1354",
+        "handle_url": "http://hdl.handle.net/1926/1354"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 218,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "ebillet22@gmail.com",
+      "author_firstname": "Eric",
+      "author_fullname": "Billet, Eric",
+      "author_id": 809,
+      "author_institution": "College of William and Mary",
+      "author_lastname": "Billet"
+    },
+    "tags": [
+      "local Hausdorff",
+      "Accuracy assessment"
+    ],
+    "title": "The Use of Robust Local Hausdorff Distances in Accuracy Assessment for Image Alignment of Brain MRI"
+  }
 }

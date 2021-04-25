@@ -1,83 +1,101 @@
 {
- "publication": {
-  "abstract": "Since the 1970's B-splines have evolved to become the {\\em de facto} \r\nstandard for curve and surface representation due to many\r\nof their salient properties. Conventional least-squares \r\nscattered data fitting techniques for B-splines require the inversion \r\nof potentially large matrices. This is time-consuming as well \r\nas susceptible to ill-conditioning which leads to undesired\r\nresults. Lee {\\em et al.} proposed a novel B-spline \r\nalgorithm for fitting a 2-D cubic B-spline surface to scattered \r\ndata in \\cite{Lee}. The proposed algorithm utilizes an \r\noptional multilevel approach for better fitting results. \r\nWe generalize this technique to support $N$-dimensional \r\ndata fitting as well as arbitrary degree of B-spline. In addition, \r\nwe generalize the B-spline kernel function class to accommodate \r\nthis new image filter.",
-  "authors": [
-   {
-    "author_fullname": "Tustison, Nicholas J.",
-    "author_place": 1,
-    "persona_email": "ntustison@gmail.com",
-    "persona_firstname": "Nicholas J.",
-    "persona_id": 8833,
-    "persona_lastname": "Tustison"
-   },
-   {
-    "author_fullname": "Gee, James C.",
-    "author_place": 2,
-    "persona_email": "gee@mail.med.upenn.edu",
-    "persona_firstname": "James",
-    "persona_id": 236,
-    "persona_lastname": "Gee"
-   }
-  ],
-  "categories": [],
-  "comments": [
-   {
-    "content": "Thanks for this.  I just added a test for the ITK repository here:\r\n\r\nhttp://review.source.kitware.com/#/c/20010/",
-    "date": "2015-07-20T15:10:33",
-    "persona_email": "ntustison@gmail.com",
-    "persona_firstname": "Nicholas J.",
-    "persona_id": 8833,
-    "persona_lastname": "Tustison"
-   },
-   {
-    "content": "Thanks for this.  I just added a test for the ITK repository here:\r\n\r\nhttp://review.source.kitware.com/#/c/20010/",
-    "date": "2015-07-20T15:10:35",
-    "persona_email": "ntustison@gmail.com",
-    "persona_firstname": "Nicholas J.",
-    "persona_id": 8833,
-    "persona_lastname": "Tustison"
-   },
-   {
-    "content": "Has the code been tested for the case where the N-D contour (to be interpolated) is a \"closed\" contour? The documentation talks about this - but there are no examples provided. The closed-contour use case is not as well documented (from a quick read through) as the open-contour case.",
-    "date": "2015-07-20T06:25:54",
-    "persona_email": "k.patwardhan@samsung.com",
-    "persona_firstname": "Kedar",
-    "persona_id": 9594,
-    "persona_lastname": "Patwardhan"
-   }
-  ],
-  "date_submitted": "2005-11-15T20:39:45Z",
-  "handles": [
-   {
-    "handle": "1926/140",
-    "handle_url": "http://hdl.handle.net/1926/140"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 57,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "ntustison@gmail.com",
-   "author_firstname": "Nicholas J.",
-   "author_fullname": "Tustison, Nicholas J.",
-   "author_id": 8833,
-   "author_institution": "",
-   "author_lastname": "Tustison"
-  },
-  "tags": [
-   "B-splines",
-   "data approximation"
-  ],
-  "title": "N-D $C^k$ B-Spline Scattered Data Approximation"
- }
+  "publication": {
+    "abstract": "Since the 1970's B-splines have evolved to become the {\\em de facto} \r\nstandard for curve and surface representation due to many\r\nof their salient properties. Conventional least-squares \r\nscattered data fitting techniques for B-splines require the inversion \r\nof potentially large matrices. This is time-consuming as well \r\nas susceptible to ill-conditioning which leads to undesired\r\nresults. Lee {\\em et al.} proposed a novel B-spline \r\nalgorithm for fitting a 2-D cubic B-spline surface to scattered \r\ndata in \\cite{Lee}. The proposed algorithm utilizes an \r\noptional multilevel approach for better fitting results. \r\nWe generalize this technique to support $N$-dimensional \r\ndata fitting as well as arbitrary degree of B-spline. In addition, \r\nwe generalize the B-spline kernel function class to accommodate \r\nthis new image filter.",
+    "articles": [
+      "bafybeiccq4ba76tjftohxmk52uen7hkev7i6rreec7wyy3cvtr7gbwmgsa",
+      "bafybeidwpl2tzakqwsfbhg6pwf3zbfm4cckdag6rpuazy6bulletadfnyu",
+      "bafybeidwpl2tzakqwsfbhg6pwf3zbfm4cckdag6rpuazy6bulletadfnyu",
+      "bafybeidwpl2tzakqwsfbhg6pwf3zbfm4cckdag6rpuazy6bulletadfnyu",
+      "bafybeidwpl2tzakqwsfbhg6pwf3zbfm4cckdag6rpuazy6bulletadfnyu",
+      "bafybeidwpl2tzakqwsfbhg6pwf3zbfm4cckdag6rpuazy6bulletadfnyu",
+      "bafybeidwpl2tzakqwsfbhg6pwf3zbfm4cckdag6rpuazy6bulletadfnyu",
+      "bafybeidwpl2tzakqwsfbhg6pwf3zbfm4cckdag6rpuazy6bulletadfnyu",
+      "bafkreia4k3kqdmjbrhdu25iktay2w3wr6zcq7ikh2ebfxwntssdwswo6qi",
+      "bafkreia4k3kqdmjbrhdu25iktay2w3wr6zcq7ikh2ebfxwntssdwswo6qi",
+      "bafybeidwpl2tzakqwsfbhg6pwf3zbfm4cckdag6rpuazy6bulletadfnyu",
+      "bafybeidwpl2tzakqwsfbhg6pwf3zbfm4cckdag6rpuazy6bulletadfnyu",
+      "bafybeidwpl2tzakqwsfbhg6pwf3zbfm4cckdag6rpuazy6bulletadfnyu",
+      "bafybeidwpl2tzakqwsfbhg6pwf3zbfm4cckdag6rpuazy6bulletadfnyu",
+      "bafybeidwpl2tzakqwsfbhg6pwf3zbfm4cckdag6rpuazy6bulletadfnyu",
+      "bafybeidwpl2tzakqwsfbhg6pwf3zbfm4cckdag6rpuazy6bulletadfnyu"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Tustison, Nicholas J.",
+        "author_place": 1,
+        "persona_email": "ntustison@gmail.com",
+        "persona_firstname": "Nicholas J.",
+        "persona_id": 8833,
+        "persona_lastname": "Tustison"
+      },
+      {
+        "author_fullname": "Gee, James C.",
+        "author_place": 2,
+        "persona_email": "gee@mail.med.upenn.edu",
+        "persona_firstname": "James",
+        "persona_id": 236,
+        "persona_lastname": "Gee"
+      }
+    ],
+    "categories": [],
+    "comments": [
+      {
+        "content": "Thanks for this.  I just added a test for the ITK repository here:\r\n\r\nhttp://review.source.kitware.com/#/c/20010/",
+        "date": "2015-07-20T15:10:33",
+        "persona_email": "ntustison@gmail.com",
+        "persona_firstname": "Nicholas J.",
+        "persona_id": 8833,
+        "persona_lastname": "Tustison"
+      },
+      {
+        "content": "Thanks for this.  I just added a test for the ITK repository here:\r\n\r\nhttp://review.source.kitware.com/#/c/20010/",
+        "date": "2015-07-20T15:10:35",
+        "persona_email": "ntustison@gmail.com",
+        "persona_firstname": "Nicholas J.",
+        "persona_id": 8833,
+        "persona_lastname": "Tustison"
+      },
+      {
+        "content": "Has the code been tested for the case where the N-D contour (to be interpolated) is a \"closed\" contour? The documentation talks about this - but there are no examples provided. The closed-contour use case is not as well documented (from a quick read through) as the open-contour case.",
+        "date": "2015-07-20T06:25:54",
+        "persona_email": "k.patwardhan@samsung.com",
+        "persona_firstname": "Kedar",
+        "persona_id": 9594,
+        "persona_lastname": "Patwardhan"
+      }
+    ],
+    "date_submitted": "2005-11-15T20:39:45Z",
+    "handles": [
+      {
+        "handle": "1926/140",
+        "handle_url": "http://hdl.handle.net/1926/140"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 57,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "ntustison@gmail.com",
+      "author_firstname": "Nicholas J.",
+      "author_fullname": "Tustison, Nicholas J.",
+      "author_id": 8833,
+      "author_institution": "",
+      "author_lastname": "Tustison"
+    },
+    "tags": [
+      "B-splines",
+      "data approximation"
+    ],
+    "title": "N-D $C^k$ B-Spline Scattered Data Approximation"
+  }
 }

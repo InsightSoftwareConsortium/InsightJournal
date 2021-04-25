@@ -1,55 +1,60 @@
 {
- "publication": {
-  "abstract": "Image-guided interventional systems become an essential part of the modern minimally invasive surgical procedures, especially for the cardiac surgery. Transapical aortic valve implantation (TAVI) is a recently developed surgical technique to treat severe aortic valve stenosis in elderly and high-risk patients. The placement of stented aortic valve prosthesis is crucial and typically performed under live 2-D fluoroscopy guidance. To assist the placement of the prosthesis during the surgical procedure, a few image-guided TAVI systems have been developed. This work therefore presents current difficulties and challenges of these guidance systems, with consideration of future prospects.",
-  "authors": [
-   {
-    "author_fullname": "Karar, Mohamed Esmail",
-    "author_place": 1,
-    "persona_email": "mekarar@ieee.org",
-    "persona_firstname": "Mohamed",
-    "persona_id": 8090,
-    "persona_lastname": "Karar"
-   }
-  ],
-  "categories": [
-   "Registration",
-   "Segmentation"
-  ],
-  "comments": [],
-  "date_submitted": "2013-08-05 15:54:06",
-  "handles": [
-   {
-    "handle": "10380/3426",
-    "handle_url": "http://hdl.handle.net/10380/3426"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 41,
-    "journal_name": "MICCAI 2013 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 897,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "mekarar@ieee.org",
-   "author_firstname": "Mohamed",
-   "author_fullname": "Karar, Mohamed",
-   "author_id": 8090,
-   "author_institution": "Faculty of Electronic Engineering, Menofia University",
-   "author_lastname": "Karar"
-  },
-  "tags": [
-   "X-ray fluoroscopy",
-   "computer-assisted intervention",
-   "minimally invasive cardiac surgery",
-   "C-arm CT system"
-  ],
-  "title": "Perspectives on Image-Guided Transapical Beating Heart Aortic Valve Intervention"
- }
+  "publication": {
+    "abstract": "Image-guided interventional systems become an essential part of the modern minimally invasive surgical procedures, especially for the cardiac surgery. Transapical aortic valve implantation (TAVI) is a recently developed surgical technique to treat severe aortic valve stenosis in elderly and high-risk patients. The placement of stented aortic valve prosthesis is crucial and typically performed under live 2-D fluoroscopy guidance. To assist the placement of the prosthesis during the surgical procedure, a few image-guided TAVI systems have been developed. This work therefore presents current difficulties and challenges of these guidance systems, with consideration of future prospects.",
+    "articles": [
+      "bafybeido2uz3m3heeryjevse2yrjcdwdlw5zw4vpj3u65c3dab7yswiaz4",
+      "bafybeif5bdhwy3irpzufgiyqbt6jhzsgq2wfuchhtyz5dlbn7gbrjky62q",
+      "bafybeiao2kmbkqw2wsic7mskwfwqsmuts4lvxuwz76muhdxpe2ch5w6ygi"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Karar, Mohamed Esmail",
+        "author_place": 1,
+        "persona_email": "mekarar@ieee.org",
+        "persona_firstname": "Mohamed",
+        "persona_id": 8090,
+        "persona_lastname": "Karar"
+      }
+    ],
+    "categories": [
+      "Registration",
+      "Segmentation"
+    ],
+    "comments": [],
+    "date_submitted": "2013-08-05 15:54:06",
+    "handles": [
+      {
+        "handle": "10380/3426",
+        "handle_url": "http://hdl.handle.net/10380/3426"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 41,
+        "journal_name": "MICCAI 2013 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 897,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "mekarar@ieee.org",
+      "author_firstname": "Mohamed",
+      "author_fullname": "Karar, Mohamed",
+      "author_id": 8090,
+      "author_institution": "Faculty of Electronic Engineering, Menofia University",
+      "author_lastname": "Karar"
+    },
+    "tags": [
+      "X-ray fluoroscopy",
+      "computer-assisted intervention",
+      "minimally invasive cardiac surgery",
+      "C-arm CT system"
+    ],
+    "title": "Perspectives on Image-Guided Transapical Beating Heart Aortic Valve Intervention"
+  }
 }

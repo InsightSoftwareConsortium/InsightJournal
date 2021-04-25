@@ -1,59 +1,69 @@
 {
- "publication": {
-  "abstract": "In this paper we attempt to segment the lateral ventricles using the ITK provided Confidence \r\nConnected algorithm. An ITK application was used to explore the various input parameters \r\nto produce an image of acceptable presentation. Input MRI data of healthy individual \r\nwas provided through the MIDAS repository resulting in a segmented image.",
-  "authors": [
-   {
-    "author_fullname": "Radin, Philip",
-    "author_place": 1,
-    "persona_email": "pradin@gmail.com",
-    "persona_firstname": "Philip",
-    "persona_id": 702,
-    "persona_lastname": "Radin"
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2007-10-18T02:24:28Z",
-  "handles": [
-   {
-    "handle": "1926/1296",
-    "handle_url": "http://hdl.handle.net/1926/1296"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 183,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "stephen.aylward@kitware.com",
-     "author_firstname": "Stephen",
-     "author_id": 1,
-     "author_lastname": "Aylward"
+  "publication": {
+    "abstract": "In this paper we attempt to segment the lateral ventricles using the ITK provided Confidence \r\nConnected algorithm. An ITK application was used to explore the various input parameters \r\nto produce an image of acceptable presentation. Input MRI data of healthy individual \r\nwas provided through the MIDAS repository resulting in a segmented image.",
+    "articles": [
+      "bafybeiayyvqv6kfcl3ijiwdacdxk7asuaflap5qdvsdjwrhvuuun67rhpi",
+      "bafybeieaxg2q545jqon2qxpfxxufboevhl5vtch63x7gajmr3wp4wpihli",
+      "bafybeieaxg2q545jqon2qxpfxxufboevhl5vtch63x7gajmr3wp4wpihli",
+      "bafybeieaxg2q545jqon2qxpfxxufboevhl5vtch63x7gajmr3wp4wpihli",
+      "bafybeieaxg2q545jqon2qxpfxxufboevhl5vtch63x7gajmr3wp4wpihli",
+      "bafybeieaxg2q545jqon2qxpfxxufboevhl5vtch63x7gajmr3wp4wpihli",
+      "bafybeieaxg2q545jqon2qxpfxxufboevhl5vtch63x7gajmr3wp4wpihli",
+      "bafybeieaxg2q545jqon2qxpfxxufboevhl5vtch63x7gajmr3wp4wpihli"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Radin, Philip",
+        "author_place": 1,
+        "persona_email": "pradin@gmail.com",
+        "persona_firstname": "Philip",
+        "persona_id": 702,
+        "persona_lastname": "Radin"
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2007-10-18T02:24:28Z",
+    "handles": [
+      {
+        "handle": "1926/1296",
+        "handle_url": "http://hdl.handle.net/1926/1296"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<p>When using open-source data, please include any citations requested by the person who donated the data, as well as the link to where the data can be found.</p><p><br />The details on the data used are published on MIDAS:</p><p>http://insight-journal.org/midas/view_community.php?communityid=21</p><p>The data was donated by Dr. Bullitt at UNC and she has provided a reference.</p>",
-    "date": "10-18-2007",
-    "review_id": 599
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "pradin@gmail.com",
-   "author_firstname": "Philip",
-   "author_fullname": "Radin, Philip",
-   "author_id": 702,
-   "author_institution": "Rensselaer Polytechnic Institute",
-   "author_lastname": "Radin"
-  },
-  "tags": null,
-  "title": "Confidence Connected Segmentation of the Lateral Ventricles"
- }
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 183,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "stephen.aylward@kitware.com",
+          "author_firstname": "Stephen",
+          "author_id": 1,
+          "author_lastname": "Aylward"
+        },
+        "content": "<p>When using open-source data, please include any citations requested by the person who donated the data, as well as the link to where the data can be found.</p><p><br />The details on the data used are published on MIDAS:</p><p>http://insight-journal.org/midas/view_community.php?communityid=21</p><p>The data was donated by Dr. Bullitt at UNC and she has provided a reference.</p>",
+        "date": "10-18-2007",
+        "review_id": 599
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "pradin@gmail.com",
+      "author_firstname": "Philip",
+      "author_fullname": "Radin, Philip",
+      "author_id": 702,
+      "author_institution": "Rensselaer Polytechnic Institute",
+      "author_lastname": "Radin"
+    },
+    "tags": null,
+    "title": "Confidence Connected Segmentation of the Lateral Ventricles"
+  }
 }

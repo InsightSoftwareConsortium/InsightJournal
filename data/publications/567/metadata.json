@@ -1,116 +1,120 @@
 {
- "publication": {
-  "abstract": "Very little is known about the deformation effects of tumour growth within the brain. Computer simulations have the potential to\r\ncalculate such deformations. A method for computing localised high deformations within the brain's soft tissue is presented. Such\r\nknowledge would be significant towards neuroscience and neurosurgery, particularly for quantifying tumour aggressiveness,\r\ntherapy planning, as well as surgical planning and simulation. A Finite Element mesh used in the vicinity of a growing tumour is\r\nvery quickly destroyed and cannot be used reliably unless complicated automatic re-meshing exists. Mesh-free methods are\r\ncapable of handling much larger deformations, however are known to be less reliable that Finite Element analysis for moderate\r\ndeformations. A mixed-mesh approach utilises mesh-free regions within localised high-deformation zones, with the remaining\r\nmodel comprised of a Finite Element mesh. In this study, a new algorithm is proposed coupling the Finite Element and Element\r\nFree Galerkin methods for use in applications of high localised deformation, such as brain tumour growth. The algorithm is\r\nverified against a number of separate Finite Element and mesh-free problems solved via validated/commercial software.\r\nMaximum errors of less than 0.85 mm were maintained, corresponding to the working resolution of an MRI scan. A mixed-mesh\r\nbrain model is analysed with respect to different tumour growth volumes located behind the left ventricle. Significant\r\ndisplacements of up to 9.66 mm surrounding a 4118 mm3 sized tumour are noted, with 14.5% of the brain mesh suffering\r\ndeformation greater than 5 mm.",
-  "authors": [
-   {
-    "author_fullname": "Berger, Jamie",
-    "author_place": 1,
-    "persona_email": "bergej03@student.uwa.edu.au",
-    "persona_firstname": "Jamie",
-    "persona_id": 852,
-    "persona_lastname": "Berger"
-   },
-   {
-    "author_fullname": "Horton, Asley",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Joldes, Grand",
-    "author_place": 3,
-    "persona_email": "grandj@mech.uwa.edu.au",
-    "persona_firstname": "Grand roman",
-    "persona_id": 832,
-    "persona_lastname": "Joldes"
-   },
-   {
-    "author_fullname": "Wittek, Adam",
-    "author_place": 4,
-    "persona_email": "adwit@mech.uwa.edu.au",
-    "persona_firstname": "Adam",
-    "persona_id": 864,
-    "persona_lastname": "Wittek"
-   },
-   {
-    "author_fullname": "Miller, Karol",
-    "author_place": 5,
-    "persona_email": "kmiller@mech.uwa.edu.au",
-    "persona_firstname": "Karol",
-    "persona_id": 791,
-    "persona_lastname": "Miller"
-   }
-  ],
-  "categories": [
-   "Data Representation",
-   "Deformable registration",
-   "Derivatives and Integrals",
-   "Feature extraction",
-   "Mathematics",
-   "Mesh",
-   "PointSet",
-   "Region growing",
-   "Registration",
-   "Segmentation",
-   "Spatial Objects"
-  ],
-  "comments": [],
-  "date_submitted": "2008-06-05T04:42:48Z",
-  "handles": [
-   {
-    "handle": "10380/1383",
-    "handle_url": "http://hdl.handle.net/10380/1383"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 33,
-    "journal_name": "MICCAI 2008 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 567,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "heye.zhang@auckland.ac.nz",
-     "author_firstname": "Heye",
-     "author_id": 894,
-     "author_lastname": "Zhang"
+  "publication": {
+    "abstract": "Very little is known about the deformation effects of tumour growth within the brain. Computer simulations have the potential to\r\ncalculate such deformations. A method for computing localised high deformations within the brain's soft tissue is presented. Such\r\nknowledge would be significant towards neuroscience and neurosurgery, particularly for quantifying tumour aggressiveness,\r\ntherapy planning, as well as surgical planning and simulation. A Finite Element mesh used in the vicinity of a growing tumour is\r\nvery quickly destroyed and cannot be used reliably unless complicated automatic re-meshing exists. Mesh-free methods are\r\ncapable of handling much larger deformations, however are known to be less reliable that Finite Element analysis for moderate\r\ndeformations. A mixed-mesh approach utilises mesh-free regions within localised high-deformation zones, with the remaining\r\nmodel comprised of a Finite Element mesh. In this study, a new algorithm is proposed coupling the Finite Element and Element\r\nFree Galerkin methods for use in applications of high localised deformation, such as brain tumour growth. The algorithm is\r\nverified against a number of separate Finite Element and mesh-free problems solved via validated/commercial software.\r\nMaximum errors of less than 0.85 mm were maintained, corresponding to the working resolution of an MRI scan. A mixed-mesh\r\nbrain model is analysed with respect to different tumour growth volumes located behind the left ventricle. Significant\r\ndisplacements of up to 9.66 mm surrounding a 4118 mm3 sized tumour are noted, with 14.5% of the brain mesh suffering\r\ndeformation greater than 5 mm.",
+    "articles": [
+      "bafybeie42tunz6vet5nlesrzrxfxi2xzgtmiuw3pnospkhf63egllulraa",
+      "bafybeigitx56kp2crkqcgb7byuvh3jzyejinsvrh5goqrlwd2si4vhz4vm"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Berger, Jamie",
+        "author_place": 1,
+        "persona_email": "bergej03@student.uwa.edu.au",
+        "persona_firstname": "Jamie",
+        "persona_id": 852,
+        "persona_lastname": "Berger"
+      },
+      {
+        "author_fullname": "Horton, Asley",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Joldes, Grand",
+        "author_place": 3,
+        "persona_email": "grandj@mech.uwa.edu.au",
+        "persona_firstname": "Grand roman",
+        "persona_id": 832,
+        "persona_lastname": "Joldes"
+      },
+      {
+        "author_fullname": "Wittek, Adam",
+        "author_place": 4,
+        "persona_email": "adwit@mech.uwa.edu.au",
+        "persona_firstname": "Adam",
+        "persona_id": 864,
+        "persona_lastname": "Wittek"
+      },
+      {
+        "author_fullname": "Miller, Karol",
+        "author_place": 5,
+        "persona_email": "kmiller@mech.uwa.edu.au",
+        "persona_firstname": "Karol",
+        "persona_id": 791,
+        "persona_lastname": "Miller"
+      }
+    ],
+    "categories": [
+      "Data Representation",
+      "Deformable registration",
+      "Derivatives and Integrals",
+      "Feature extraction",
+      "Mathematics",
+      "Mesh",
+      "PointSet",
+      "Region growing",
+      "Registration",
+      "Segmentation",
+      "Spatial Objects"
+    ],
+    "comments": [],
+    "date_submitted": "2008-06-05T04:42:48Z",
+    "handles": [
+      {
+        "handle": "10380/1383",
+        "handle_url": "http://hdl.handle.net/10380/1383"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "Originality 4<br />Methodological originality 3<br />Biologic originality 4<br />Completeness of discussion 4<br />Appropriate references 4<br />Organisation 3<br />Clarity 3<br />Is the technical treatment plausible and free from technical errors?<br />Have you checked the equations&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; No<br />Are you aware of prior publication or presentation of this work No<br />Is the paper too long Yes<br />Recommendation:<br />&nbsp;&nbsp;&nbsp;&nbsp; (A) Accept<br />&nbsp;&nbsp;&nbsp;&nbsp; (B) Accept subject to minor revisions<br />&nbsp;&nbsp;&nbsp;&nbsp; (C) Accept with major revisions<br />&nbsp;&nbsp;&nbsp;&nbsp; (D) Reject<br />&nbsp;&nbsp;&nbsp;&nbsp; My recommendation: Accept<br />Should this paper be presented as poster or as podium presentation (this recommendation does not reflect<br />upon the relative quality of the paper)?<br />Oral<br />Comments to the manuscript:<br />The method, coupling of FEM and EFG, has been applied into mechanical application for a while. In this<br />paper, authors adopted this method into new biological application, brain tumor, and shown with nice<br />numerical validation. I can follow mathematical parts of EFG, but authors may need to add more details<br />into section 3.2, Analysis Solver. Because the format of Total Largrange equation is not easy to be<br />understood.<br />Since meshfree method is the key selling point of this paper, authors should discuss more details of EFG<br />implementation. EFG has been proved with enough stability and consisitency in mechanical application in<br />many papers. Penalty method has been proposed to handle essenstial conditions very well. But authors<br />claim that a solely mesh-free Element Free Galerkin (EFG) model will prove to be inefficient, suffering<br />from consistency and stability issues, as well as Dirichlet boundary difficulties (page 1). If it is in this<br />particular application, brain tumor, authors should use numerical experiments to support their claims. If it<br />has been proved in other papers, authors should add more details and put enough references over there.<br />Authors also claims that FEM on its own will be inaccurate and problematic for modelling the brain<br />deformation response to tumour growth, since the mesh surrounding the tumour is easily distorted,<br />consequently destroying elements. Yes, it is true. but authors should also metion that remesh in this<br />situatuon is very time-consuming even though FEM can handle large deformation after remehsing.<br />Section 3.1.2 Mixed-Mesh Reader, and Figure 3.1: Block diagram of the preprocessing phase (red) and<br />analysis solver (green) may not be able to help understand FEM and EFG so much. It is a little bit far away<br />from coupling of FEM and EFG. The details of implementation, such as how to do integeration for EFG,<br />how to chose the density of nodes in EFG and how to handle the interface of FEM and EFG may help a lot.<br />",
-    "date": "07-03-2008",
-    "review_id": 1494
-   },
-   {
-    "author": {
-     "author_email": "v.rajagopal@auckland.ac.nz",
-     "author_firstname": "Vijayaraghavan",
-     "author_id": 875,
-     "author_lastname": "Rajagopal"
+    "journals": [
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 567,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "heye.zhang@auckland.ac.nz",
+          "author_firstname": "Heye",
+          "author_id": 894,
+          "author_lastname": "Zhang"
+        },
+        "content": "Originality 4<br />Methodological originality 3<br />Biologic originality 4<br />Completeness of discussion 4<br />Appropriate references 4<br />Organisation 3<br />Clarity 3<br />Is the technical treatment plausible and free from technical errors?<br />Have you checked the equations&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; No<br />Are you aware of prior publication or presentation of this work No<br />Is the paper too long Yes<br />Recommendation:<br />&nbsp;&nbsp;&nbsp;&nbsp; (A) Accept<br />&nbsp;&nbsp;&nbsp;&nbsp; (B) Accept subject to minor revisions<br />&nbsp;&nbsp;&nbsp;&nbsp; (C) Accept with major revisions<br />&nbsp;&nbsp;&nbsp;&nbsp; (D) Reject<br />&nbsp;&nbsp;&nbsp;&nbsp; My recommendation: Accept<br />Should this paper be presented as poster or as podium presentation (this recommendation does not reflect<br />upon the relative quality of the paper)?<br />Oral<br />Comments to the manuscript:<br />The method, coupling of FEM and EFG, has been applied into mechanical application for a while. In this<br />paper, authors adopted this method into new biological application, brain tumor, and shown with nice<br />numerical validation. I can follow mathematical parts of EFG, but authors may need to add more details<br />into section 3.2, Analysis Solver. Because the format of Total Largrange equation is not easy to be<br />understood.<br />Since meshfree method is the key selling point of this paper, authors should discuss more details of EFG<br />implementation. EFG has been proved with enough stability and consisitency in mechanical application in<br />many papers. Penalty method has been proposed to handle essenstial conditions very well. But authors<br />claim that a solely mesh-free Element Free Galerkin (EFG) model will prove to be inefficient, suffering<br />from consistency and stability issues, as well as Dirichlet boundary difficulties (page 1). If it is in this<br />particular application, brain tumor, authors should use numerical experiments to support their claims. If it<br />has been proved in other papers, authors should add more details and put enough references over there.<br />Authors also claims that FEM on its own will be inaccurate and problematic for modelling the brain<br />deformation response to tumour growth, since the mesh surrounding the tumour is easily distorted,<br />consequently destroying elements. Yes, it is true. but authors should also metion that remesh in this<br />situatuon is very time-consuming even though FEM can handle large deformation after remehsing.<br />Section 3.1.2 Mixed-Mesh Reader, and Figure 3.1: Block diagram of the preprocessing phase (red) and<br />analysis solver (green) may not be able to help understand FEM and EFG so much. It is a little bit far away<br />from coupling of FEM and EFG. The details of implementation, such as how to do integeration for EFG,<br />how to chose the density of nodes in EFG and how to handle the interface of FEM and EFG may help a lot.<br />",
+        "date": "07-03-2008",
+        "review_id": 1494
+      },
+      {
+        "author": {
+          "author_email": "v.rajagopal@auckland.ac.nz",
+          "author_firstname": "Vijayaraghavan",
+          "author_id": 875,
+          "author_lastname": "Rajagopal"
+        },
+        "content": " <p style=\\\"text-align: justify; line-height: 150%\\\" class=\\\"MsoNormal\\\"><strong><span>Please, rank the following on the scale from 1 (worst) to 5 (best)</span></strong></p> <p style=\\\"text-align: justify; line-height: 150%\\\" class=\\\"MsoNormal\\\"><span>Originality <span> </span>3</span></p> <p style=\\\"text-align: justify; line-height: 150%\\\" class=\\\"MsoNormal\\\"><span>Methodological originality<span> </span><span> </span>3</span></p> <p style=\\\"text-align: justify; line-height: 150%\\\" class=\\\"MsoNormal\\\"><span>Biologic originality <span> </span>3<span> </span></span></p> <p style=\\\"text-align: justify; line-height: 150%\\\" class=\\\"MsoNormal\\\"><span>Completeness of discussion <span> </span>2</span></p> <p style=\\\"text-align: justify; line-height: 150%\\\" class=\\\"MsoNormal\\\"><span>Appropriate references <span> </span>4</span></p> <p style=\\\"text-align: justify; line-height: 150%\\\" class=\\\"MsoNormal\\\"><span>Organisation <span> </span>4</span></p> <p style=\\\"text-align: justify; line-height: 150%\\\" class=\\\"MsoNormal\\\"><span>Clarity <span> </span><span> </span>4</span></p> <p style=\\\"text-align: justify; line-height: 150%\\\" class=\\\"MsoNormal\\\"><span> </span></p> <p style=\\\"text-align: justify; line-height: 150%\\\" class=\\\"MsoNormal\\\"><span> </span></p> <p style=\\\"text-align: justify; line-height: 150%\\\" class=\\\"MsoNormal\\\"><strong><span>Is the technical treatment plausible and free from technical errors? </span></strong><span><span> </span><span> </span>yes</span></p> <p style=\\\"text-align: justify; line-height: 150%\\\" class=\\\"MsoNormal\\\"><strong><span>Have you checked the equations<span> </span></span></strong></p> <p style=\\\"text-align: justify; line-height: 150%\\\" class=\\\"MsoNormal\\\"><strong><span>Are you aware of prior publication or presentation of this work</span></strong><span><span> </span>no</span></p> <p style=\\\"text-align: justify; line-height: 150%\\\" class=\\\"MsoNormal\\\"><strong><span>Is the paper too long</span></strong><span><span> </span>yes, 15 pages long, when max limit is 12.</span></p> <p style=\\\"text-align: justify; line-height: 150%\\\" class=\\\"MsoNormal\\\"><strong><span>Recommendation:</span></strong></p> <p style=\\\"margin-left: 0.5in; text-align: justify; text-indent: -0.25in; line-height: 150%\\\" class=\\\"MsoNormal\\\"><!--[if !supportLists]--><span><span>(A)<span> </span></span></span><!--[endif]--><span>Accept </span></p> <p style=\\\"margin-left: 0.25in; text-align: justify; line-height: 150%\\\" class=\\\"MsoNormal\\\"><span>(B) Accept subject to minor revisions</span></p> <p style=\\\"margin-left: 0.5in; text-align: justify; text-indent: -0.25in; line-height: 150%\\\" class=\\\"MsoNormal\\\"><!--[if !supportLists]--><span><span>(C)<span> </span></span></span><!--[endif]--><span>Accept with major revisions</span></p> <p style=\\\"margin-left: 0.5in; text-align: justify; text-indent: -0.25in; line-height: 150%\\\" class=\\\"MsoNormal\\\"><!--[if !supportLists]--><span><span>(D)<span> </span></span></span><!--[endif]--><span>Reject</span></p> <p style=\\\"text-align: justify; line-height: 150%\\\" class=\\\"MsoNormal\\\"><span>B, accept with minor revisions.</span></p> <p style=\\\"text-align: justify\\\" class=\\\"MsoNormal\\\"><strong><span>Should this paper be presented as poster or as podium presentation (this recommendation does not reflect upon the relative quality of the paper)?</span></strong><span> Poster</span></p> <p style=\\\"text-align: justify\\\" class=\\\"MsoNormal\\\"><span> </span></p> <p class=\\\"MsoNormal\\\"><strong><span>Comments to the manuscript:</span></strong></p> <p style=\\\"text-align: justify\\\" class=\\\"MsoNormal\\\"><span>The paper presents an elegant technique to couple mesh-free and finite element mesh methods to solve finite elasticity on complex geometries. The paper is novel in tackling the difficulties with mesh methods using meshless techniques. </span></p> <p style=\\\"text-align: justify\\\" class=\\\"MsoNormal\\\"><span>1. The paper will be much stronger if the author also provides the analytic solution to the deformation of a cylinder. The results from FE, EFG and FE/EFG coupled simulations could then be compared to the analytic solution to provide a more robust validation. </span></p> <p style=\\\"text-align: justify\\\" class=\\\"MsoNormal\\\"><span>2. Variable notation in eqn 3.8 need to be explained. W(d)?</span></p> <p style=\\\"text-align: justify\\\" class=\\\"MsoNormal\\\"><span>3. The discussion should inform the accuracy of the modelling technique for inhomogeneous bodies. Is the cylinder model assumed to be homogeneous? What would the accuracy of the method be for inhomogeneous bodies?</span></p> <p style=\\\"text-align: justify\\\" class=\\\"MsoNormal\\\"><span> </span></p> <p style=\\\"text-align: justify\\\" class=\\\"MsoNormal\\\"><strong><span>References</span></strong></p> <p style=\\\"text-align: justify\\\" class=\\\"MsoNormal\\\"><span> </span></p> <p style=\\\"text-align: justify\\\" class=\\\"MsoNormal\\\"><span> </span></p> ",
+        "date": "07-04-2008",
+        "review_id": 1497
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "grandj@mech.uwa.edu.au",
+      "author_firstname": "Grand roman",
+      "author_fullname": "Joldes, Grand roman",
+      "author_id": 832,
+      "author_institution": "The University of Western Australia",
+      "author_lastname": "Joldes"
     },
-    "content": " <p style=\\\"text-align: justify; line-height: 150%\\\" class=\\\"MsoNormal\\\"><strong><span>Please, rank the following on the scale from 1 (worst) to 5 (best)</span></strong></p> <p style=\\\"text-align: justify; line-height: 150%\\\" class=\\\"MsoNormal\\\"><span>Originality <span> </span>3</span></p> <p style=\\\"text-align: justify; line-height: 150%\\\" class=\\\"MsoNormal\\\"><span>Methodological originality<span> </span><span> </span>3</span></p> <p style=\\\"text-align: justify; line-height: 150%\\\" class=\\\"MsoNormal\\\"><span>Biologic originality <span> </span>3<span> </span></span></p> <p style=\\\"text-align: justify; line-height: 150%\\\" class=\\\"MsoNormal\\\"><span>Completeness of discussion <span> </span>2</span></p> <p style=\\\"text-align: justify; line-height: 150%\\\" class=\\\"MsoNormal\\\"><span>Appropriate references <span> </span>4</span></p> <p style=\\\"text-align: justify; line-height: 150%\\\" class=\\\"MsoNormal\\\"><span>Organisation <span> </span>4</span></p> <p style=\\\"text-align: justify; line-height: 150%\\\" class=\\\"MsoNormal\\\"><span>Clarity <span> </span><span> </span>4</span></p> <p style=\\\"text-align: justify; line-height: 150%\\\" class=\\\"MsoNormal\\\"><span> </span></p> <p style=\\\"text-align: justify; line-height: 150%\\\" class=\\\"MsoNormal\\\"><span> </span></p> <p style=\\\"text-align: justify; line-height: 150%\\\" class=\\\"MsoNormal\\\"><strong><span>Is the technical treatment plausible and free from technical errors? </span></strong><span><span> </span><span> </span>yes</span></p> <p style=\\\"text-align: justify; line-height: 150%\\\" class=\\\"MsoNormal\\\"><strong><span>Have you checked the equations<span> </span></span></strong></p> <p style=\\\"text-align: justify; line-height: 150%\\\" class=\\\"MsoNormal\\\"><strong><span>Are you aware of prior publication or presentation of this work</span></strong><span><span> </span>no</span></p> <p style=\\\"text-align: justify; line-height: 150%\\\" class=\\\"MsoNormal\\\"><strong><span>Is the paper too long</span></strong><span><span> </span>yes, 15 pages long, when max limit is 12.</span></p> <p style=\\\"text-align: justify; line-height: 150%\\\" class=\\\"MsoNormal\\\"><strong><span>Recommendation:</span></strong></p> <p style=\\\"margin-left: 0.5in; text-align: justify; text-indent: -0.25in; line-height: 150%\\\" class=\\\"MsoNormal\\\"><!--[if !supportLists]--><span><span>(A)<span> </span></span></span><!--[endif]--><span>Accept </span></p> <p style=\\\"margin-left: 0.25in; text-align: justify; line-height: 150%\\\" class=\\\"MsoNormal\\\"><span>(B) Accept subject to minor revisions</span></p> <p style=\\\"margin-left: 0.5in; text-align: justify; text-indent: -0.25in; line-height: 150%\\\" class=\\\"MsoNormal\\\"><!--[if !supportLists]--><span><span>(C)<span> </span></span></span><!--[endif]--><span>Accept with major revisions</span></p> <p style=\\\"margin-left: 0.5in; text-align: justify; text-indent: -0.25in; line-height: 150%\\\" class=\\\"MsoNormal\\\"><!--[if !supportLists]--><span><span>(D)<span> </span></span></span><!--[endif]--><span>Reject</span></p> <p style=\\\"text-align: justify; line-height: 150%\\\" class=\\\"MsoNormal\\\"><span>B, accept with minor revisions.</span></p> <p style=\\\"text-align: justify\\\" class=\\\"MsoNormal\\\"><strong><span>Should this paper be presented as poster or as podium presentation (this recommendation does not reflect upon the relative quality of the paper)?</span></strong><span> Poster</span></p> <p style=\\\"text-align: justify\\\" class=\\\"MsoNormal\\\"><span> </span></p> <p class=\\\"MsoNormal\\\"><strong><span>Comments to the manuscript:</span></strong></p> <p style=\\\"text-align: justify\\\" class=\\\"MsoNormal\\\"><span>The paper presents an elegant technique to couple mesh-free and finite element mesh methods to solve finite elasticity on complex geometries. The paper is novel in tackling the difficulties with mesh methods using meshless techniques. </span></p> <p style=\\\"text-align: justify\\\" class=\\\"MsoNormal\\\"><span>1. The paper will be much stronger if the author also provides the analytic solution to the deformation of a cylinder. The results from FE, EFG and FE/EFG coupled simulations could then be compared to the analytic solution to provide a more robust validation. </span></p> <p style=\\\"text-align: justify\\\" class=\\\"MsoNormal\\\"><span>2. Variable notation in eqn 3.8 need to be explained. W(d)?</span></p> <p style=\\\"text-align: justify\\\" class=\\\"MsoNormal\\\"><span>3. The discussion should inform the accuracy of the modelling technique for inhomogeneous bodies. Is the cylinder model assumed to be homogeneous? What would the accuracy of the method be for inhomogeneous bodies?</span></p> <p style=\\\"text-align: justify\\\" class=\\\"MsoNormal\\\"><span> </span></p> <p style=\\\"text-align: justify\\\" class=\\\"MsoNormal\\\"><strong><span>References</span></strong></p> <p style=\\\"text-align: justify\\\" class=\\\"MsoNormal\\\"><span> </span></p> <p style=\\\"text-align: justify\\\" class=\\\"MsoNormal\\\"><span> </span></p> ",
-    "date": "07-04-2008",
-    "review_id": 1497
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "grandj@mech.uwa.edu.au",
-   "author_firstname": "Grand roman",
-   "author_fullname": "Joldes, Grand roman",
-   "author_id": 832,
-   "author_institution": "The University of Western Australia",
-   "author_lastname": "Joldes"
-  },
-  "tags": [
-   "finite element",
-   "brain deformation",
-   "tumour grow",
-   "mesh-free"
-  ],
-  "title": "Coupling Finite Element and Mesh-free Methods for Modelling Brain Deformation in Response to Tumour Growth"
- }
+    "tags": [
+      "finite element",
+      "brain deformation",
+      "tumour grow",
+      "mesh-free"
+    ],
+    "title": "Coupling Finite Element and Mesh-free Methods for Modelling Brain Deformation in Response to Tumour Growth"
+  }
 }

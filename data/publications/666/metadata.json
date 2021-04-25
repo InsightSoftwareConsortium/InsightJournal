@@ -1,77 +1,86 @@
 {
- "publication": {
-  "abstract": "We present a fully automatic method for 3D segmentation of the mandibular bone from CT data. The method includes an adaptation of statistical shape models of the mandible, the skull base and the midfacial bones, followed by a simultaneous graph-based optimization of adjacent deformable models. The adaptation of the models to the image data is performed according to a heuristic model of the typical intensity distribution in the vincinity of the bone boundary, with special focus on an accurate discrimination of adjacent bones in joint regions. An evaluation of our method based on 18 CT scans shows that a manual correction of the automatic segmentations is not necessary in approx. 60% of the axial slices that contain the mandible.",
-  "authors": [
-   {
-    "author_fullname": "Kainmueller, Dagmar",
-    "author_place": 1,
-    "persona_email": "kainmueller@zib.de",
-    "persona_firstname": "Dagmar",
-    "persona_id": 2224,
-    "persona_lastname": "Kainmueller"
-   },
-   {
-    "author_fullname": "Lamecker, Hans",
-    "author_place": 2,
-    "persona_email": "lamecker@zib.de",
-    "persona_firstname": "Hans",
-    "persona_id": 2694,
-    "persona_lastname": "Lamecker"
-   },
-   {
-    "author_fullname": "Seim, Heiko",
-    "author_place": 3,
-    "persona_email": "seim@zib.de",
-    "persona_firstname": "Heiko",
-    "persona_id": 2223,
-    "persona_lastname": "Seim"
-   },
-   {
-    "author_fullname": "Zachow, Stefan",
-    "author_place": 4,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Point distribution models",
-   "Segmentation",
-   "Statistical shape models"
-  ],
-  "comments": [],
-  "date_submitted": "2009-09-09 10:41:18",
-  "handles": [
-   {
-    "handle": "10380/3099",
-    "handle_url": "http://hdl.handle.net/10380/3099"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 34,
-    "journal_name": "MICCAI 2009 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 666,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "kainmueller@zib.de",
-   "author_firstname": "Dagmar",
-   "author_fullname": "Kainmueller, Dagmar",
-   "author_id": 2224,
-   "author_institution": "Zuse Institute Berlin",
-   "author_lastname": "Kainmueller"
-  },
-  "tags": [
-   "automatic segmentation",
-   "mandible",
-   "statistical shape model",
-   "multi-object segmentation"
-  ],
-  "title": "Multi-object Segmentation of Head Bones"
- }
+  "publication": {
+    "abstract": "We present a fully automatic method for 3D segmentation of the mandibular bone from CT data. The method includes an adaptation of statistical shape models of the mandible, the skull base and the midfacial bones, followed by a simultaneous graph-based optimization of adjacent deformable models. The adaptation of the models to the image data is performed according to a heuristic model of the typical intensity distribution in the vincinity of the bone boundary, with special focus on an accurate discrimination of adjacent bones in joint regions. An evaluation of our method based on 18 CT scans shows that a manual correction of the automatic segmentations is not necessary in approx. 60% of the axial slices that contain the mandible.",
+    "articles": [
+      "bafybeifqdzp36gamhn3heojrtmmqxldg7ox5nat4kcw4dvgcb6fld5gvme",
+      "bafybeiejn7eoclljmw7nqjvvl3ym3fuiwijhwdqdz7x2gmwuu3xq6pwcoa",
+      "bafybeiet2kkul7j6j55rcw6jriy24m2napzyzy3zgoahpssbf5bxb64vhu",
+      "bafybeigwvwclzbeba33tllmspjaqkcf3rfucfcsetco3val4fi442ditr4",
+      "bafybeifzwxtf263bcphlmuxnvskynnrc4nmnrh5c3vbwwg5cbcub4rc57a",
+      "bafybeihhgjpthjc2nryuzkl3d2yoqkssmf6us4uiouknw6ad37xx5lvrsa",
+      "bafybeicugru52e25ihnuoyephqxrcj2esqc3spfsstyifsxldelimitqzi"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Kainmueller, Dagmar",
+        "author_place": 1,
+        "persona_email": "kainmueller@zib.de",
+        "persona_firstname": "Dagmar",
+        "persona_id": 2224,
+        "persona_lastname": "Kainmueller"
+      },
+      {
+        "author_fullname": "Lamecker, Hans",
+        "author_place": 2,
+        "persona_email": "lamecker@zib.de",
+        "persona_firstname": "Hans",
+        "persona_id": 2694,
+        "persona_lastname": "Lamecker"
+      },
+      {
+        "author_fullname": "Seim, Heiko",
+        "author_place": 3,
+        "persona_email": "seim@zib.de",
+        "persona_firstname": "Heiko",
+        "persona_id": 2223,
+        "persona_lastname": "Seim"
+      },
+      {
+        "author_fullname": "Zachow, Stefan",
+        "author_place": 4,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Point distribution models",
+      "Segmentation",
+      "Statistical shape models"
+    ],
+    "comments": [],
+    "date_submitted": "2009-09-09 10:41:18",
+    "handles": [
+      {
+        "handle": "10380/3099",
+        "handle_url": "http://hdl.handle.net/10380/3099"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 34,
+        "journal_name": "MICCAI 2009 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 666,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "kainmueller@zib.de",
+      "author_firstname": "Dagmar",
+      "author_fullname": "Kainmueller, Dagmar",
+      "author_id": 2224,
+      "author_institution": "Zuse Institute Berlin",
+      "author_lastname": "Kainmueller"
+    },
+    "tags": [
+      "automatic segmentation",
+      "mandible",
+      "statistical shape model",
+      "multi-object segmentation"
+    ],
+    "title": "Multi-object Segmentation of Head Bones"
+  }
 }

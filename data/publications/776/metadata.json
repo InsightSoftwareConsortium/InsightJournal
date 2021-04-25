@@ -1,107 +1,113 @@
 {
- "publication": {
-  "abstract": "Recently, Birkfellner et al. proposed a novel image-to-image merit function (stochastic rank correlation, SRC) for robust intensity-based 2D/3D image registration. In this work, we summarize the basic idea of SRC, and present a generic ITK-based implementation of this image-to-image metric including tests for software veri\ufb01cation. Moreover, we provide two simple examples that demonstrate the usage of this metric: a) within the native ITK 2D/3D image registration method, and b) within a recently published extended ITK-based 2D/3D registration framework. It is, however, important to note, that this paper neither covers a comprehensive evaluation of SRC, nor a comparison with other metrics. It rather shows that SRC appears to succeed on a femoral and a porcine data set in the course of ITK-based 2D/3D image registration.\n",
-  "authors": [
-   {
-    "author_fullname": "Steininger, Philipp",
-    "author_place": 1,
-    "persona_email": "phil.steininger@gmail.com",
-    "persona_firstname": "Philipp",
-    "persona_id": 1001,
-    "persona_lastname": "Steininger"
-   },
-   {
-    "author_fullname": "Neuner, Markus",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Birkfellner, Wolfgang",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Gendrin, Christelle",
-    "author_place": 4,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Mooslechner, Michaela",
-    "author_place": 5,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Bloch, Christoph",
-    "author_place": 6,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Pawiro, Supyianto",
-    "author_place": 7,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Sedlmayer, Felix",
-    "author_place": 8,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Deutschmann, Heinrich",
-    "author_place": 9,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Filtering",
-   "Registration",
-   "Registration metrics"
-  ],
-  "comments": [
-   {
-    "content": "A lot of errors during building with Visual Studio 2010... Doesn\\'t work at all :(",
-    "date": "2013-09-17T07:34:56",
-    "persona_email": "sebastian.sauppe@sirona.com",
-    "persona_firstname": "Sebastian",
-    "persona_id": 8651,
-    "persona_lastname": "Sauppe"
-   }
-  ],
-  "date_submitted": "2010-11-10 14:49:57",
-  "handles": [
-   {
-    "handle": "10380/3229",
-    "handle_url": "http://hdl.handle.net/10380/3229"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 776,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "phil.steininger@gmail.com",
-   "author_firstname": "Philipp",
-   "author_fullname": "Steininger, Philipp",
-   "author_id": 1001,
-   "author_institution": "Institute for Research and Development on Advanced Radiation Technologies (radART), Paracelsus Medical University (PMU), Salzburg, AUSTRIA",
-   "author_lastname": "Steininger"
-  },
-  "tags": [
-   "SRC",
-   "ITK",
-   "stochastic rank correlation",
-   "intensity-based",
-   "2d/3d image registration",
-   "metric"
-  ],
-  "title": "An ITK-based Implementation of the Stochastic Rank Correlation (SRC) Metric"
- }
+  "publication": {
+    "abstract": "Recently, Birkfellner et al. proposed a novel image-to-image merit function (stochastic rank correlation, SRC) for robust intensity-based 2D/3D image registration. In this work, we summarize the basic idea of SRC, and present a generic ITK-based implementation of this image-to-image metric including tests for software veri\ufb01cation. Moreover, we provide two simple examples that demonstrate the usage of this metric: a) within the native ITK 2D/3D image registration method, and b) within a recently published extended ITK-based 2D/3D registration framework. It is, however, important to note, that this paper neither covers a comprehensive evaluation of SRC, nor a comparison with other metrics. It rather shows that SRC appears to succeed on a femoral and a porcine data set in the course of ITK-based 2D/3D image registration.\n",
+    "articles": [
+      "bafybeigher6fgo3kfuzt6wrjlhtwtjh2jdvahpg5poj34udqu7p3itu6ny",
+      "bafybeigher6fgo3kfuzt6wrjlhtwtjh2jdvahpg5poj34udqu7p3itu6ny",
+      "bafybeigher6fgo3kfuzt6wrjlhtwtjh2jdvahpg5poj34udqu7p3itu6ny",
+      "bafybeigher6fgo3kfuzt6wrjlhtwtjh2jdvahpg5poj34udqu7p3itu6ny"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Steininger, Philipp",
+        "author_place": 1,
+        "persona_email": "phil.steininger@gmail.com",
+        "persona_firstname": "Philipp",
+        "persona_id": 1001,
+        "persona_lastname": "Steininger"
+      },
+      {
+        "author_fullname": "Neuner, Markus",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Birkfellner, Wolfgang",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Gendrin, Christelle",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Mooslechner, Michaela",
+        "author_place": 5,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Bloch, Christoph",
+        "author_place": 6,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Pawiro, Supyianto",
+        "author_place": 7,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Sedlmayer, Felix",
+        "author_place": 8,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Deutschmann, Heinrich",
+        "author_place": 9,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Filtering",
+      "Registration",
+      "Registration metrics"
+    ],
+    "comments": [
+      {
+        "content": "A lot of errors during building with Visual Studio 2010... Doesn\\'t work at all :(",
+        "date": "2013-09-17T07:34:56",
+        "persona_email": "sebastian.sauppe@sirona.com",
+        "persona_firstname": "Sebastian",
+        "persona_id": 8651,
+        "persona_lastname": "Sauppe"
+      }
+    ],
+    "date_submitted": "2010-11-10 14:49:57",
+    "handles": [
+      {
+        "handle": "10380/3229",
+        "handle_url": "http://hdl.handle.net/10380/3229"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 776,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "phil.steininger@gmail.com",
+      "author_firstname": "Philipp",
+      "author_fullname": "Steininger, Philipp",
+      "author_id": 1001,
+      "author_institution": "Institute for Research and Development on Advanced Radiation Technologies (radART), Paracelsus Medical University (PMU), Salzburg, AUSTRIA",
+      "author_lastname": "Steininger"
+    },
+    "tags": [
+      "SRC",
+      "ITK",
+      "stochastic rank correlation",
+      "intensity-based",
+      "2d/3d image registration",
+      "metric"
+    ],
+    "title": "An ITK-based Implementation of the Stochastic Rank Correlation (SRC) Metric"
+  }
 }

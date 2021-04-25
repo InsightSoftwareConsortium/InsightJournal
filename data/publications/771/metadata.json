@@ -1,56 +1,59 @@
 {
- "publication": {
-  "abstract": "\nWe think about interoperability only in today\u2019s terms. Looking ahead, the demands that future technologies will make on health information exchange could be large, as could the health because of interoperability. This paper would present the description on Healthcare Information System organizations and communities as a standard to underpin clinical information exchange. A number of signi\ufb01cant problems results are directly from the way the computable entries in clinical documents exchange represented currently. In this paper, the information exchange with other system and also supporting communication of electronic healthcare records across organization boundaries. The CCD is an XML-based specification for exchange of clinical summary information. The HL7 Reference Information Models expressed in the Clinical Document Architecture Release 2 (CDA R2), an information exchange specification generic to any type of clinical information. Hence, the patient\u2019s health information is easily communicated points of care and improves quality services. \n",
-  "authors": [
-   {
-    "author_fullname": "Patel, Gunjan",
-    "author_place": 1,
-    "persona_email": "gunjannpatel@gmail.com",
-    "persona_firstname": "Gunjan",
-    "persona_id": 2151,
-    "persona_lastname": "Patel"
-   }
-  ],
-  "categories": [
-   "Data",
-   "Distributed computation",
-   "Information Theory",
-   "IO",
-   "Objects"
-  ],
-  "comments": [],
-  "date_submitted": "2010-10-29 10:40:34",
-  "handles": [
-   {
-    "handle": "10380/3225",
-    "handle_url": "http://hdl.handle.net/10380/3225"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 31,
-    "journal_name": "The MIDAS Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 771,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "gunjannpatel@gmail.com",
-   "author_firstname": "Gunjan",
-   "author_fullname": "Patel, Gunjan",
-   "author_id": 2151,
-   "author_institution": "MCIS,Manipal University",
-   "author_lastname": "Patel"
-  },
-  "tags": [
-   "Clinical Interoperability, HL 7 v3, Clinical Document Architecture (CDA), Continuity of Care Record (CCR), Continuity of Care Document (CCD), EHR, Reference Information Model (RIM)",
-   "XML, HIS"
-  ],
-  "title": "HL7 CCD - Clinical Interoperability to Improve Quality and the Point-of-Care of EHR"
- }
+  "publication": {
+    "abstract": "\nWe think about interoperability only in today\u2019s terms. Looking ahead, the demands that future technologies will make on health information exchange could be large, as could the health because of interoperability. This paper would present the description on Healthcare Information System organizations and communities as a standard to underpin clinical information exchange. A number of signi\ufb01cant problems results are directly from the way the computable entries in clinical documents exchange represented currently. In this paper, the information exchange with other system and also supporting communication of electronic healthcare records across organization boundaries. The CCD is an XML-based specification for exchange of clinical summary information. The HL7 Reference Information Models expressed in the Clinical Document Architecture Release 2 (CDA R2), an information exchange specification generic to any type of clinical information. Hence, the patient\u2019s health information is easily communicated points of care and improves quality services. \n",
+    "articles": [
+      "bafybeigl5aoxfvfucsiakk3mtonawi3mtxiawfgfrorn4o3lllnotkc6ze"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Patel, Gunjan",
+        "author_place": 1,
+        "persona_email": "gunjannpatel@gmail.com",
+        "persona_firstname": "Gunjan",
+        "persona_id": 2151,
+        "persona_lastname": "Patel"
+      }
+    ],
+    "categories": [
+      "Data",
+      "Distributed computation",
+      "Information Theory",
+      "IO",
+      "Objects"
+    ],
+    "comments": [],
+    "date_submitted": "2010-10-29 10:40:34",
+    "handles": [
+      {
+        "handle": "10380/3225",
+        "handle_url": "http://hdl.handle.net/10380/3225"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 31,
+        "journal_name": "The MIDAS Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 771,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "gunjannpatel@gmail.com",
+      "author_firstname": "Gunjan",
+      "author_fullname": "Patel, Gunjan",
+      "author_id": 2151,
+      "author_institution": "MCIS,Manipal University",
+      "author_lastname": "Patel"
+    },
+    "tags": [
+      "Clinical Interoperability, HL 7 v3, Clinical Document Architecture (CDA), Continuity of Care Record (CCR), Continuity of Care Document (CCD), EHR, Reference Information Model (RIM)",
+      "XML, HIS"
+    ],
+    "title": "HL7 CCD - Clinical Interoperability to Improve Quality and the Point-of-Care of EHR"
+  }
 }

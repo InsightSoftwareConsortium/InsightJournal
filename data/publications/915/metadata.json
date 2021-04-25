@@ -1,70 +1,74 @@
 {
- "publication": {
-  "abstract": "Several applications such as multi-atlas segmentation require frequent iteration over multiple image volumes at the same time.\nDoing so with the regular ITK iterators is tedious and error prone as it requires updating each iterator at end of each iteration. Failing to do so results in hard to debug errors and crashes.\nThe MultipleImageIterator is a simple wrapper class that tries to make this more convenient.\n",
-  "authors": [
-   {
-    "author_fullname": "Schaerer, Jo\u00ebl",
-    "author_place": 2,
-    "persona_email": "joelthelion@laposte.net",
-    "persona_firstname": "Jo\u00ebl",
-    "persona_id": 2935,
-    "persona_lastname": "Schaerer"
-   }
-  ],
-  "categories": [
-   "Iterators",
-   "Programming"
-  ],
-  "comments": [
-   {
-    "content": "Git repository of the remote module:\r\nhttps://github.com/KitwareMedical/MultipleImageIterator",
-    "date": "2016-05-30T09:51:51",
-    "persona_email": "dzenanz@gmail.com",
-    "persona_firstname": "D\u017eenan",
-    "persona_id": 2260,
-    "persona_lastname": "Zuki\u0107"
-   },
-   {
-    "content": "This will be part of ITK 4.11.0 release as a remote module.",
-    "date": "2016-05-25T16:10:19",
-    "persona_email": "dzenanz@gmail.com",
-    "persona_firstname": "D\u017eenan",
-    "persona_id": 2260,
-    "persona_lastname": "Zuki\u0107"
-   }
-  ],
-  "date_submitted": "2014-02-20 03:23:44",
-  "handles": [
-   {
-    "handle": "10380/3455",
-    "handle_url": "http://hdl.handle.net/10380/3455"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 915,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "joelthelion@laposte.net",
-   "author_firstname": "Jo\u00ebl",
-   "author_fullname": "Schaerer, Jo\u00ebl",
-   "author_id": 2935,
-   "author_institution": "Bioclinica SAS, Lyon",
-   "author_lastname": "Schaerer"
-  },
-  "tags": [
-   "Iterator",
-   "ITK"
-  ],
-  "title": "A MultipleImageIterator for iterating over multiple images simultaneously"
- }
+  "publication": {
+    "abstract": "Several applications such as multi-atlas segmentation require frequent iteration over multiple image volumes at the same time.\nDoing so with the regular ITK iterators is tedious and error prone as it requires updating each iterator at end of each iteration. Failing to do so results in hard to debug errors and crashes.\nThe MultipleImageIterator is a simple wrapper class that tries to make this more convenient.\n",
+    "articles": [
+      "bafkreid3m5vd3hbwra4vut25rs4itchub5d7kxnsolaxgcwebwe2syziga",
+      "bafkreib3mxgfxtg75apxuhq6xftkcfjdf3yedqbl23zmfynz7tmnii63ce"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Schaerer, Jo\u00ebl",
+        "author_place": 2,
+        "persona_email": "joelthelion@laposte.net",
+        "persona_firstname": "Jo\u00ebl",
+        "persona_id": 2935,
+        "persona_lastname": "Schaerer"
+      }
+    ],
+    "categories": [
+      "Iterators",
+      "Programming"
+    ],
+    "comments": [
+      {
+        "content": "Git repository of the remote module:\r\nhttps://github.com/KitwareMedical/MultipleImageIterator",
+        "date": "2016-05-30T09:51:51",
+        "persona_email": "dzenanz@gmail.com",
+        "persona_firstname": "D\u017eenan",
+        "persona_id": 2260,
+        "persona_lastname": "Zuki\u0107"
+      },
+      {
+        "content": "This will be part of ITK 4.11.0 release as a remote module.",
+        "date": "2016-05-25T16:10:19",
+        "persona_email": "dzenanz@gmail.com",
+        "persona_firstname": "D\u017eenan",
+        "persona_id": 2260,
+        "persona_lastname": "Zuki\u0107"
+      }
+    ],
+    "date_submitted": "2014-02-20 03:23:44",
+    "handles": [
+      {
+        "handle": "10380/3455",
+        "handle_url": "http://hdl.handle.net/10380/3455"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 915,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "joelthelion@laposte.net",
+      "author_firstname": "Jo\u00ebl",
+      "author_fullname": "Schaerer, Jo\u00ebl",
+      "author_id": 2935,
+      "author_institution": "Bioclinica SAS, Lyon",
+      "author_lastname": "Schaerer"
+    },
+    "tags": [
+      "Iterator",
+      "ITK"
+    ],
+    "title": "A MultipleImageIterator for iterating over multiple images simultaneously"
+  }
 }

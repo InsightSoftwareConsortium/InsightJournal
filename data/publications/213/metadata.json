@@ -1,66 +1,74 @@
 {
- "publication": {
-  "abstract": "This paper describes the ITK implementation of a minimal path extraction framework based on Fast Marching arrival functions. The method requires the user to provide three inputs: 1. a meaningful speed function to generate an arrival function, 2. path information in the form of start, end, and way-points (which the path must pass near), and 3. an optimizer which steps along the resultant arrival function perpendicular to the Fast Marching front. A number of perspectives for choosing speed functions and optimizers are given, as well as examples using synthetic and real images.",
-  "authors": [
-   {
-    "author_fullname": "Mueller, Daniel",
-    "author_place": 1,
-    "persona_email": "dan.muel@gmail.com",
-    "persona_firstname": "Dan",
-    "persona_id": 286,
-    "persona_lastname": "Mueller"
-   }
-  ],
-  "categories": [
-   "Feature extraction",
-   "Optimization",
-   "Path",
-   "Segmentation"
-  ],
-  "comments": [
-   {
-    "content": "This article has been merged into ITK as a Remote module in 4.8.0 as the \"MinimalPathExtraction\" module.",
-    "date": "2015-07-27T10:08:52",
-    "persona_email": "matthew.m.mccormick@gmail.com",
-    "persona_firstname": "Matthew",
-    "persona_id": 2509,
-    "persona_lastname": "Mccormick"
-   }
-  ],
-  "date_submitted": "2008-03-01T00:00:00Z",
-  "handles": [
-   {
-    "handle": "1926/1332",
-    "handle_url": "http://hdl.handle.net/1926/1332"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 213,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "dan.muel@gmail.com",
-   "author_firstname": "Dan",
-   "author_fullname": "Mueller, Dan",
-   "author_id": 286,
-   "author_institution": "Philips Healthcare",
-   "author_lastname": "Mueller"
-  },
-  "tags": [
-   "ITK",
-   "vessel segmentation",
-   "centerline",
-   "minimal path"
-  ],
-  "title": "Fast Marching Minimal Path Extraction in ITK"
- }
+  "publication": {
+    "abstract": "This paper describes the ITK implementation of a minimal path extraction framework based on Fast Marching arrival functions. The method requires the user to provide three inputs: 1. a meaningful speed function to generate an arrival function, 2. path information in the form of start, end, and way-points (which the path must pass near), and 3. an optimizer which steps along the resultant arrival function perpendicular to the Fast Marching front. A number of perspectives for choosing speed functions and optimizers are given, as well as examples using synthetic and real images.",
+    "articles": [
+      "bafybeiaum5zqipw3l47g2usivajfpsbosww3zgos42vnauazewbnvn5lby",
+      "bafybeiaum5zqipw3l47g2usivajfpsbosww3zgos42vnauazewbnvn5lby",
+      "bafybeiaum5zqipw3l47g2usivajfpsbosww3zgos42vnauazewbnvn5lby",
+      "bafybeiaum5zqipw3l47g2usivajfpsbosww3zgos42vnauazewbnvn5lby",
+      "bafybeiaum5zqipw3l47g2usivajfpsbosww3zgos42vnauazewbnvn5lby",
+      "bafybeiaum5zqipw3l47g2usivajfpsbosww3zgos42vnauazewbnvn5lby"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Mueller, Daniel",
+        "author_place": 1,
+        "persona_email": "dan.muel@gmail.com",
+        "persona_firstname": "Dan",
+        "persona_id": 286,
+        "persona_lastname": "Mueller"
+      }
+    ],
+    "categories": [
+      "Feature extraction",
+      "Optimization",
+      "Path",
+      "Segmentation"
+    ],
+    "comments": [
+      {
+        "content": "This article has been merged into ITK as a Remote module in 4.8.0 as the \"MinimalPathExtraction\" module.",
+        "date": "2015-07-27T10:08:52",
+        "persona_email": "matthew.m.mccormick@gmail.com",
+        "persona_firstname": "Matthew",
+        "persona_id": 2509,
+        "persona_lastname": "Mccormick"
+      }
+    ],
+    "date_submitted": "2008-03-01T00:00:00Z",
+    "handles": [
+      {
+        "handle": "1926/1332",
+        "handle_url": "http://hdl.handle.net/1926/1332"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 213,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "dan.muel@gmail.com",
+      "author_firstname": "Dan",
+      "author_fullname": "Mueller, Dan",
+      "author_id": 286,
+      "author_institution": "Philips Healthcare",
+      "author_lastname": "Mueller"
+    },
+    "tags": [
+      "ITK",
+      "vessel segmentation",
+      "centerline",
+      "minimal path"
+    ],
+    "title": "Fast Marching Minimal Path Extraction in ITK"
+  }
 }

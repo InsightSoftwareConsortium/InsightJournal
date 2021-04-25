@@ -1,58 +1,61 @@
 {
- "publication": {
-  "abstract": "Logic operations such as $I > J$, where I and J are images are useful\r\nwhen generating masks. This submission includes $==$, $>$, $>=$, $<$\r\nand $<=$ filters based on the existing logic filters. This is a very\r\nminor submission - there may already be easy ways of performing the\r\nlogic operations defined by these filters, but I couldn't find them.",
-  "authors": [
-   {
-    "author_fullname": "Beare, Richard",
-    "author_place": 1,
-    "persona_email": "richard.beare@ieee.org",
-    "persona_firstname": "Richard",
-    "persona_id": 197,
-    "persona_lastname": "Beare"
-   }
-  ],
-  "categories": [],
-  "comments": [
-   {
-    "content": "These additional functor look like they would be quite practical and a quite usefull addition to SimpleITK. However, the current submission is brief on test.",
-    "date": "2012-10-16T16:21:47",
-    "persona_email": "blowekamp@mail.nih.gov",
-    "persona_firstname": "Bradley",
-    "persona_id": 1026,
-    "persona_lastname": "Lowekamp"
-   }
-  ],
-  "date_submitted": "2007-02-12T22:31:10Z",
-  "handles": [
-   {
-    "handle": "1926/486",
-    "handle_url": "http://hdl.handle.net/1926/486"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 142,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "richard.beare@ieee.org",
-   "author_firstname": "Richard",
-   "author_fullname": "Beare, Richard",
-   "author_id": 197,
-   "author_institution": "Monash University",
-   "author_lastname": "Beare"
-  },
-  "tags": [
-   "image logic operations"
-  ],
-  "title": "Some extra image logical operations"
- }
+  "publication": {
+    "abstract": "Logic operations such as $I > J$, where I and J are images are useful\r\nwhen generating masks. This submission includes $==$, $>$, $>=$, $<$\r\nand $<=$ filters based on the existing logic filters. This is a very\r\nminor submission - there may already be easy ways of performing the\r\nlogic operations defined by these filters, but I couldn't find them.",
+    "articles": [
+      "bafkreidhf3bm3uuxmseixfupq6hkk4bppfd642wj6h57bqy22pcvdftqkq"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Beare, Richard",
+        "author_place": 1,
+        "persona_email": "richard.beare@ieee.org",
+        "persona_firstname": "Richard",
+        "persona_id": 197,
+        "persona_lastname": "Beare"
+      }
+    ],
+    "categories": [],
+    "comments": [
+      {
+        "content": "These additional functor look like they would be quite practical and a quite usefull addition to SimpleITK. However, the current submission is brief on test.",
+        "date": "2012-10-16T16:21:47",
+        "persona_email": "blowekamp@mail.nih.gov",
+        "persona_firstname": "Bradley",
+        "persona_id": 1026,
+        "persona_lastname": "Lowekamp"
+      }
+    ],
+    "date_submitted": "2007-02-12T22:31:10Z",
+    "handles": [
+      {
+        "handle": "1926/486",
+        "handle_url": "http://hdl.handle.net/1926/486"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 142,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "richard.beare@ieee.org",
+      "author_firstname": "Richard",
+      "author_fullname": "Beare, Richard",
+      "author_id": 197,
+      "author_institution": "Monash University",
+      "author_lastname": "Beare"
+    },
+    "tags": [
+      "image logic operations"
+    ],
+    "title": "Some extra image logical operations"
+  }
 }

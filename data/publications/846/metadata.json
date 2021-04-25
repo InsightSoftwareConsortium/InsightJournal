@@ -1,58 +1,63 @@
 {
- "publication": {
-  "abstract": "We have implemented filters for computing phase symmetry (PS) in ITK using steerable filters computed and applied in the Fourier domain. In some recent publications, phase symmetry has been shown to be a useful pre-processing measure for performing image registration and segmentation. Matlab implementations of the code are currently available, but may be slower than C++ versions and most importantly, do not work with volumetric (3D) data. In this paper we briefly provide background information and list some applications of PS filters from the literature. We then provide instructions and examples of how to use the classes and executables.",
-  "authors": [
-   {
-    "author_fullname": "Hatt, Charles",
-    "author_place": 1,
-    "persona_email": "charlesrayhatt@gmail.com",
-    "persona_firstname": "Charles",
-    "persona_id": 5871,
-    "persona_lastname": "Hatt"
-   }
-  ],
-  "categories": [
-   "Edge Detection",
-   "Feature extraction",
-   "Filtering",
-   "Image",
-   "Registration",
-   "Segmentation"
-  ],
-  "comments": [],
-  "date_submitted": "2012-03-22 23:59:01",
-  "handles": [
-   {
-    "handle": "10380/3330",
-    "handle_url": "http://hdl.handle.net/10380/3330"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 846,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "charlesrayhatt@gmail.com",
-   "author_firstname": "Charles",
-   "author_fullname": "Hatt, Charles",
-   "author_id": 5871,
-   "author_institution": "University of Wisconsin - Madison",
-   "author_lastname": "Hatt"
-  },
-  "tags": [
-   "Phase Symmetry",
-   "Wavelet",
-   "Local Phase"
-  ],
-  "title": "Multi-scale Steerable Phase-Symmetry Filters for ITK"
- }
+  "publication": {
+    "abstract": "We have implemented filters for computing phase symmetry (PS) in ITK using steerable filters computed and applied in the Fourier domain. In some recent publications, phase symmetry has been shown to be a useful pre-processing measure for performing image registration and segmentation. Matlab implementations of the code are currently available, but may be slower than C++ versions and most importantly, do not work with volumetric (3D) data. In this paper we briefly provide background information and list some applications of PS filters from the literature. We then provide instructions and examples of how to use the classes and executables.",
+    "articles": [
+      "bafybeid4ijvbl2b6nh3b2dpig73s4rtsvkjo6pcvaysdhaif26oowcmwha",
+      "bafybeid4ijvbl2b6nh3b2dpig73s4rtsvkjo6pcvaysdhaif26oowcmwha",
+      "bafybeif7jnlxss4eklx7iearhp7v4r7gpqon7f5odp76hwraeeyko72hmm"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Hatt, Charles",
+        "author_place": 1,
+        "persona_email": "charlesrayhatt@gmail.com",
+        "persona_firstname": "Charles",
+        "persona_id": 5871,
+        "persona_lastname": "Hatt"
+      }
+    ],
+    "categories": [
+      "Edge Detection",
+      "Feature extraction",
+      "Filtering",
+      "Image",
+      "Registration",
+      "Segmentation"
+    ],
+    "comments": [],
+    "date_submitted": "2012-03-22 23:59:01",
+    "handles": [
+      {
+        "handle": "10380/3330",
+        "handle_url": "http://hdl.handle.net/10380/3330"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 846,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "charlesrayhatt@gmail.com",
+      "author_firstname": "Charles",
+      "author_fullname": "Hatt, Charles",
+      "author_id": 5871,
+      "author_institution": "University of Wisconsin - Madison",
+      "author_lastname": "Hatt"
+    },
+    "tags": [
+      "Phase Symmetry",
+      "Wavelet",
+      "Local Phase"
+    ],
+    "title": "Multi-scale Steerable Phase-Symmetry Filters for ITK"
+  }
 }

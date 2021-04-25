@@ -1,74 +1,77 @@
 {
- "publication": {
-  "abstract": "Morphological reconstruction may be implemented in a number of\r\ndifferent ways. ITK has an iterative method and a non iterative\r\nmethod. This article compares the performance of another non iterative\r\nmethod and finds a significant improvement.",
-  "authors": [
-   {
-    "author_fullname": "Beare, Richard",
-    "author_place": 1,
-    "persona_email": "richard.beare@ieee.org",
-    "persona_firstname": "Richard",
-    "persona_id": 197,
-    "persona_lastname": "Beare"
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2006-02-15T01:31:01Z",
-  "handles": [
-   {
-    "handle": "1926/169",
-    "handle_url": "http://hdl.handle.net/1926/169"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 76,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "kevin.robinson@eeng.dcu.ie",
-     "author_firstname": "Kevin",
-     "author_id": 557,
-     "author_lastname": "Robinson"
+  "publication": {
+    "abstract": "Morphological reconstruction may be implemented in a number of\r\ndifferent ways. ITK has an iterative method and a non iterative\r\nmethod. This article compares the performance of another non iterative\r\nmethod and finds a significant improvement.",
+    "articles": [
+      "bafkreihxahnmah66xflfh4nchvzb2coilfjkj254xqh3ozkwvxd46eesfm"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Beare, Richard",
+        "author_place": 1,
+        "persona_email": "richard.beare@ieee.org",
+        "persona_firstname": "Richard",
+        "persona_id": 197,
+        "persona_lastname": "Beare"
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2006-02-15T01:31:01Z",
+    "handles": [
+      {
+        "handle": "1926/169",
+        "handle_url": "http://hdl.handle.net/1926/169"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<strong>Summary:<br /></strong><font size=\\\"\\\\\\\\\\\\\\\">The author demonstrates that Vincent&#39;s reconstruction by dilation algorithm is more suitable for processing non-integer data than Robinson&#39;s (which was the one then implemented in ITK)</font><br /><br /><strong>Evidence:<br /></strong><font size=\\\"\\\\\\\\\\\\\\\">Tests of the author&#39;s implementation of Vincent&#39;s algorithm produce identical results in less time.</font><br /><strong><br />Open Science:<br /></strong><font size=\\\"\\\\\\\\\\\\\\\">Satisfactory information seems to be provided in all respects.</font><br /><strong><br /></strong><strong>Open Source Contributions:<br /></strong><font size=\\\"\\\\\\\\\\\\\\\">Drop in replacement routines are provided.</font><br /><strong><br /></strong><strong>Applicability to other problems:<br /></strong><font size=\\\"\\\\\\\\\\\\\\\">See comments below.</font><br /><strong><br /></strong><strong>Additional Comments:</strong><br /><font size=\\\"\\\\\\\\\\\\\\\">It was interesting to discover that the downhill filter algorithm had been implemented in ITK, even if I only found out after it had been superseded. I would like to pass on a few thoughts on the subject.<br /></font><font size=\\\"\\\\\\\\\\\\\\\"><br />I would certainly agree with the author&#39;s comment on page 2, that the `pure&#39; implementation may perform better than the one implemented in ITK. At the heart of the original downhill algorithm was an assumption of integer data. I wouldn&#39;t hesitate in recommending Vincent&#39;s algorithm over my own where non-integer data is to be accommodated. I have never so far found myself working with other than integer data in my career in medical image analysis, hence my own design decisions in this regard. The core of the algorithm is the dynamically allocated `istart&#39; array (see [1], Appendix B, page B-15) which effectively implements an ordered array of lifo lists. This approach cannot be taken with non-integer data. For full details of the algorithm see Chapter 4 of [1], which is an expanded version of the Pattern Recognition Letters paper cited by the author.<br /><br />It is interesting to note (though not necessarily significant) that the time for processing the `cthead&#39; test image (0.0218) reported in the authors paper is identical to that reported in [1] for the same (Vincent) algorithm applied to another 256x256 test image (Study 2 MIP, see [1], Table 4.2, p110). In this case the downhill algorithm took just 0.0094 seconds to perform the same processing, while the modified ITK version reported in the author&#39;s paper took 0.1324. I would conclude (not having examined the ITK code in detail) that the port to a non-integer handling algorithm has, of necessity, neutralised the performance gains of the original downhill filter design.<br /><br />Finally it may be of interest that a number of other image processing filters can be approached in a similar way, for instance the grassfire distance transform. Again see Chapter 4 and Appendix B of [1], for more details.<br /><br />[1] Efficient pre-segmentation filtering in mrcp, K Robinson. Ph.D. Thesis, Dublin City University, Ireland, 2005, <a href=\\\"http://www.eeng.dcu.ie/~robinsok/pdfs/Robinson_PhDThesis2005.pdf\\\">http://www.eeng.dcu.ie/~robinsok/pdfs/Robinson_PhDThesis2005.pdf</a></font>",
-    "date": "02-26-2007",
-    "review_id": 458
-   },
-   {
-    "author": {
-     "author_email": "gaetan.lehmann@gmail.com",
-     "author_firstname": "Gaetan",
-     "author_id": 328,
-     "author_lastname": "Lehmann"
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 76,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "kevin.robinson@eeng.dcu.ie",
+          "author_firstname": "Kevin",
+          "author_id": 557,
+          "author_lastname": "Robinson"
+        },
+        "content": "<strong>Summary:<br /></strong><font size=\\\"\\\\\\\\\\\\\\\">The author demonstrates that Vincent&#39;s reconstruction by dilation algorithm is more suitable for processing non-integer data than Robinson&#39;s (which was the one then implemented in ITK)</font><br /><br /><strong>Evidence:<br /></strong><font size=\\\"\\\\\\\\\\\\\\\">Tests of the author&#39;s implementation of Vincent&#39;s algorithm produce identical results in less time.</font><br /><strong><br />Open Science:<br /></strong><font size=\\\"\\\\\\\\\\\\\\\">Satisfactory information seems to be provided in all respects.</font><br /><strong><br /></strong><strong>Open Source Contributions:<br /></strong><font size=\\\"\\\\\\\\\\\\\\\">Drop in replacement routines are provided.</font><br /><strong><br /></strong><strong>Applicability to other problems:<br /></strong><font size=\\\"\\\\\\\\\\\\\\\">See comments below.</font><br /><strong><br /></strong><strong>Additional Comments:</strong><br /><font size=\\\"\\\\\\\\\\\\\\\">It was interesting to discover that the downhill filter algorithm had been implemented in ITK, even if I only found out after it had been superseded. I would like to pass on a few thoughts on the subject.<br /></font><font size=\\\"\\\\\\\\\\\\\\\"><br />I would certainly agree with the author&#39;s comment on page 2, that the `pure&#39; implementation may perform better than the one implemented in ITK. At the heart of the original downhill algorithm was an assumption of integer data. I wouldn&#39;t hesitate in recommending Vincent&#39;s algorithm over my own where non-integer data is to be accommodated. I have never so far found myself working with other than integer data in my career in medical image analysis, hence my own design decisions in this regard. The core of the algorithm is the dynamically allocated `istart&#39; array (see [1], Appendix B, page B-15) which effectively implements an ordered array of lifo lists. This approach cannot be taken with non-integer data. For full details of the algorithm see Chapter 4 of [1], which is an expanded version of the Pattern Recognition Letters paper cited by the author.<br /><br />It is interesting to note (though not necessarily significant) that the time for processing the `cthead&#39; test image (0.0218) reported in the authors paper is identical to that reported in [1] for the same (Vincent) algorithm applied to another 256x256 test image (Study 2 MIP, see [1], Table 4.2, p110). In this case the downhill algorithm took just 0.0094 seconds to perform the same processing, while the modified ITK version reported in the author&#39;s paper took 0.1324. I would conclude (not having examined the ITK code in detail) that the port to a non-integer handling algorithm has, of necessity, neutralised the performance gains of the original downhill filter design.<br /><br />Finally it may be of interest that a number of other image processing filters can be approached in a similar way, for instance the grassfire distance transform. Again see Chapter 4 and Appendix B of [1], for more details.<br /><br />[1] Efficient pre-segmentation filtering in mrcp, K Robinson. Ph.D. Thesis, Dublin City University, Ireland, 2005, <a href=\\\"http://www.eeng.dcu.ie/~robinsok/pdfs/Robinson_PhDThesis2005.pdf\\\">http://www.eeng.dcu.ie/~robinsok/pdfs/Robinson_PhDThesis2005.pdf</a></font>",
+        "date": "02-26-2007",
+        "review_id": 458
+      },
+      {
+        "author": {
+          "author_email": "gaetan.lehmann@gmail.com",
+          "author_firstname": "Gaetan",
+          "author_id": 328,
+          "author_lastname": "Lehmann"
+        },
+        "content": "<b>Summary:</b>\r\nThe paper describe a new implementation of the morphological reconstruction filters, and show an important increase of performance.\r\n \r\n<b>Evidence:</b>\r\nThe author show that the output of the new filter is exactly the same the output of the old one.\r\n\r\n<b>Open Science:</b>\r\nThe author provides a good description of his filter, the source code, and the input images. The output images are produced by the filters without problem.\r\n\r\n<b>Reproducibility:</b>\r\nI was able to build the project and run the test on linux mandriva 32 and 64 bits without any problem.\r\n\r\n<b>Open Source Contributions:</b>\r\nThe code can be replace without any problem the old one - I\\'m already using that code as a replacement of the old filters.\r\n\r\n<b>Code Quality:</b>\r\nThe code quality is very good and well documented. The usage of functor avoid duplication of code - that was not the case with the old filters.\r\n\r\n<b>Applicability to other problems:</b>\r\nMorphological reconstruction is very useful, and is already used in several filters in ITK. It is a base transform for the family of connected filters.\r\n\r\n<b>Suggestions for future work:</b>\r\nContinue to implement such efficient filters :-)\r\n",
+        "date": "02-20-2006",
+        "review_id": 194
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "richard.beare@ieee.org",
+      "author_firstname": "Richard",
+      "author_fullname": "Beare, Richard",
+      "author_id": 197,
+      "author_institution": "Monash University",
+      "author_lastname": "Beare"
     },
-    "content": "<b>Summary:</b>\r\nThe paper describe a new implementation of the morphological reconstruction filters, and show an important increase of performance.\r\n \r\n<b>Evidence:</b>\r\nThe author show that the output of the new filter is exactly the same the output of the old one.\r\n\r\n<b>Open Science:</b>\r\nThe author provides a good description of his filter, the source code, and the input images. The output images are produced by the filters without problem.\r\n\r\n<b>Reproducibility:</b>\r\nI was able to build the project and run the test on linux mandriva 32 and 64 bits without any problem.\r\n\r\n<b>Open Source Contributions:</b>\r\nThe code can be replace without any problem the old one - I\\'m already using that code as a replacement of the old filters.\r\n\r\n<b>Code Quality:</b>\r\nThe code quality is very good and well documented. The usage of functor avoid duplication of code - that was not the case with the old filters.\r\n\r\n<b>Applicability to other problems:</b>\r\nMorphological reconstruction is very useful, and is already used in several filters in ITK. It is a base transform for the family of connected filters.\r\n\r\n<b>Suggestions for future work:</b>\r\nContinue to implement such efficient filters :-)\r\n",
-    "date": "02-20-2006",
-    "review_id": 194
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "richard.beare@ieee.org",
-   "author_firstname": "Richard",
-   "author_fullname": "Beare, Richard",
-   "author_id": 197,
-   "author_institution": "Monash University",
-   "author_lastname": "Beare"
-  },
-  "tags": [
-   "geodesic erosion",
-   "morphological reconstruction",
-   "geodesic dilation"
-  ],
-  "title": "Improving performance of morphological reconstruction"
- }
+    "tags": [
+      "geodesic erosion",
+      "morphological reconstruction",
+      "geodesic dilation"
+    ],
+    "title": "Improving performance of morphological reconstruction"
+  }
 }

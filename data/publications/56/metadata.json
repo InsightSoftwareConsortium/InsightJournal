@@ -1,77 +1,80 @@
 {
- "publication": {
-  "abstract": "This filter will allow support for file reading and writting in ITK for the Zeiss (LSM) file format.",
-  "authors": [
-   {
-    "author_fullname": "Malaterre, Mathieu",
-    "author_place": 1,
-    "persona_email": "mathieu.malaterre@gmail.com",
-    "persona_firstname": "Mathieu",
-    "persona_id": 310,
-    "persona_lastname": "Malaterre"
-   }
-  ],
-  "categories": [
-   "CMake",
-   "Images",
-   "IO",
-   "Programming"
-  ],
-  "comments": [],
-  "date_submitted": "2005-11-10T13:25:36Z",
-  "handles": [
-   {
-    "handle": "1926/139",
-    "handle_url": "http://hdl.handle.net/1926/139"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 56,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "gaetan.lehmann@gmail.com",
-     "author_firstname": "Gaetan",
-     "author_id": 328,
-     "author_lastname": "Lehmann"
+  "publication": {
+    "abstract": "This filter will allow support for file reading and writting in ITK for the Zeiss (LSM) file format.",
+    "articles": [
+      null
+    ],
+    "authors": [
+      {
+        "author_fullname": "Malaterre, Mathieu",
+        "author_place": 1,
+        "persona_email": "mathieu.malaterre@gmail.com",
+        "persona_firstname": "Mathieu",
+        "persona_id": 310,
+        "persona_lastname": "Malaterre"
+      }
+    ],
+    "categories": [
+      "CMake",
+      "Images",
+      "IO",
+      "Programming"
+    ],
+    "comments": [],
+    "date_submitted": "2005-11-10T13:25:36Z",
+    "handles": [
+      {
+        "handle": "1926/139",
+        "handle_url": "http://hdl.handle.net/1926/139"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "I successfully run it on my host. I\\\\\\\\\\\\\\'m able to read lsm files in 3D with the good spacing which is very nice\r\nHowever,\r\n<ul>\r\n<li>I have to replace <pre>#include \\\\\\\\\\\\\\\"tiffio/tiffio.h\\\\\\\\\\\\\\\"</pre> by <pre>#include \\\\\\\\\\\\\\\"tiffio.h\\\\\\\\\\\\\\\"</pre> in itkLSMImageIO.cxx to build the test.\r\n<li>the reader works only if there is only one chanel, and return a quite strange \\\\\\\\\\\\\\\"Cannot open the file!\\\\\\\\\\\\\\\" if the lsm contains 2 chanels. You can get a (big) lsm file with 2 chanels at <a href=\\\\\\\"http://voxel.jouy.inra.fr/blastocyste.lsm\\\\\\\">http://voxel.jouy.inra.fr/blastocyste.lsm</a> if needed.\r\n</ul>\r\nIt really nice to have a LSM reader for ITK.\r\nThanks for that work !\r\n",
-    "date": "11-14-2005",
-    "review_id": 130
-   },
-   {
-    "author": {
-     "author_email": "mathieu.malaterre@gmail.com",
-     "author_firstname": "Mathieu",
-     "author_id": 310,
-     "author_lastname": "Malaterre"
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 56,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "gaetan.lehmann@gmail.com",
+          "author_firstname": "Gaetan",
+          "author_id": 328,
+          "author_lastname": "Lehmann"
+        },
+        "content": "I successfully run it on my host. I\\\\\\\\\\\\\\'m able to read lsm files in 3D with the good spacing which is very nice\r\nHowever,\r\n<ul>\r\n<li>I have to replace <pre>#include \\\\\\\\\\\\\\\"tiffio/tiffio.h\\\\\\\\\\\\\\\"</pre> by <pre>#include \\\\\\\\\\\\\\\"tiffio.h\\\\\\\\\\\\\\\"</pre> in itkLSMImageIO.cxx to build the test.\r\n<li>the reader works only if there is only one chanel, and return a quite strange \\\\\\\\\\\\\\\"Cannot open the file!\\\\\\\\\\\\\\\" if the lsm contains 2 chanels. You can get a (big) lsm file with 2 chanels at <a href=\\\\\\\"http://voxel.jouy.inra.fr/blastocyste.lsm\\\\\\\">http://voxel.jouy.inra.fr/blastocyste.lsm</a> if needed.\r\n</ul>\r\nIt really nice to have a LSM reader for ITK.\r\nThanks for that work !\r\n",
+        "date": "11-14-2005",
+        "review_id": 130
+      },
+      {
+        "author": {
+          "author_email": "mathieu.malaterre@gmail.com",
+          "author_firstname": "Mathieu",
+          "author_id": 310,
+          "author_lastname": "Malaterre"
+        },
+        "content": "<b>Build errors:</b>\r\nThere are build errors on the Insight Journal, because the version used is ITK 2.2.1 whereas the code <b>needs</b> ITK CVS, due to some very recent change in ITK CVS, in particular TIFFImageIO and the tiff library.\r\n",
+        "date": "11-14-2005",
+        "review_id": 129
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "mathieu.malaterre@gmail.com",
+      "author_firstname": "Mathieu",
+      "author_fullname": "Malaterre, Mathieu",
+      "author_id": 310,
+      "author_institution": "BioImaging SAS",
+      "author_lastname": "Malaterre"
     },
-    "content": "<b>Build errors:</b>\r\nThere are build errors on the Insight Journal, because the version used is ITK 2.2.1 whereas the code <b>needs</b> ITK CVS, due to some very recent change in ITK CVS, in particular TIFFImageIO and the tiff library.\r\n",
-    "date": "11-14-2005",
-    "review_id": 129
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "mathieu.malaterre@gmail.com",
-   "author_firstname": "Mathieu",
-   "author_fullname": "Malaterre, Mathieu",
-   "author_id": 310,
-   "author_institution": "BioImaging SAS",
-   "author_lastname": "Malaterre"
-  },
-  "tags": [
-   "Zeiss, LSM, Confocal Microscopy"
-  ],
-  "title": "Zeiss (LSM) file format support"
- }
+    "tags": [
+      "Zeiss, LSM, Confocal Microscopy"
+    ],
+    "title": "Zeiss (LSM) file format support"
+  }
 }

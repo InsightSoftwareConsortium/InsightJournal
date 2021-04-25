@@ -1,92 +1,98 @@
 {
- "publication": {
-  "abstract": "This article presents an algorithm for the segmentation of liver metastases in CT scans. It is a hybrid method that combines adaptive thresholding based on a gray value analysis of the ROI with model-based morphological processing. We show the results of the MICCAI liver tumor segmentation competition 2008 which were successful for all ten tumors.",
-  "authors": [
-   {
-    "author_fullname": "Moltz, Jan Hendrik",
-    "author_place": 1,
-    "persona_email": "jan.moltz@mevis.de",
-    "persona_firstname": "Jan hendrik",
-    "persona_id": 904,
-    "persona_lastname": "Moltz"
-   },
-   {
-    "author_fullname": "Bornemann, Lars",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Dicken, Volker",
-    "author_place": 3,
-    "persona_email": "volker.dicken@mevis.fraunhofer.de",
-    "persona_firstname": "Volker",
-    "persona_id": 2332,
-    "persona_lastname": "Dicken"
-   },
-   {
-    "author_fullname": "Peitgen, Heinz-Otto",
-    "author_place": 4,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Distance maps",
-   "Filtering",
-   "Mathematical Morphology",
-   "Region growing",
-   "Segmentation",
-   "Thresholding"
-  ],
-  "comments": [],
-  "date_submitted": "2008-07-07T19:34:55Z",
-  "handles": [
-   {
-    "handle": "10380/1419",
-    "handle_url": "http://hdl.handle.net/10380/1419"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 45,
-    "journal_name": "MICCAI 2016 Workshops"
-   },
-   {
-    "journal_id": 33,
-    "journal_name": "MICCAI 2008 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 584,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "dengxiang05@gmail.com",
-     "author_firstname": "Xiang",
-     "author_id": 872,
-     "author_lastname": "Deng"
+  "publication": {
+    "abstract": "This article presents an algorithm for the segmentation of liver metastases in CT scans. It is a hybrid method that combines adaptive thresholding based on a gray value analysis of the ROI with model-based morphological processing. We show the results of the MICCAI liver tumor segmentation competition 2008 which were successful for all ten tumors.",
+    "articles": [
+      "bafybeifdgjw52tejr2xzcu74bgocpkemorlw2qjgfanq44sy4wxlccml4m",
+      "bafybeifdgjw52tejr2xzcu74bgocpkemorlw2qjgfanq44sy4wxlccml4m",
+      "bafybeihhgimprfrrqho3dpoaaa2fqq4g6sur4y3hi6ju7fzm7sftxwj7ae",
+      "bafybeihhgimprfrrqho3dpoaaa2fqq4g6sur4y3hi6ju7fzm7sftxwj7ae"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Moltz, Jan Hendrik",
+        "author_place": 1,
+        "persona_email": "jan.moltz@mevis.de",
+        "persona_firstname": "Jan hendrik",
+        "persona_id": 904,
+        "persona_lastname": "Moltz"
+      },
+      {
+        "author_fullname": "Bornemann, Lars",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Dicken, Volker",
+        "author_place": 3,
+        "persona_email": "volker.dicken@mevis.fraunhofer.de",
+        "persona_firstname": "Volker",
+        "persona_id": 2332,
+        "persona_lastname": "Dicken"
+      },
+      {
+        "author_fullname": "Peitgen, Heinz-Otto",
+        "author_place": 4,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Distance maps",
+      "Filtering",
+      "Mathematical Morphology",
+      "Region growing",
+      "Segmentation",
+      "Thresholding"
+    ],
+    "comments": [],
+    "date_submitted": "2008-07-07T19:34:55Z",
+    "handles": [
+      {
+        "handle": "10380/1419",
+        "handle_url": "http://hdl.handle.net/10380/1419"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<p>This paper presents a semi-automatic live tumor segmentation technique. <br />The segmentation is initialized with a user-drawn stroke across the lesion. The tumors are then segmented using adaptive thresholding followed with refinement by morphological operation. </p><p>Detailed comments:</p><p>1) The proposed technique requires a user-drawn stroke to initialize the segmentation, and some manual editing in refinement. In my opinion, this algorithm should belong to &quot;Interactive system&quot;.</p><p>2) It would be helpful if the authors could provide some information regarding the sensitivity of the proposed algorithm to the initial stroke, i.e., variation of segmentation against different positions of the initial stroke.</p><p>3) In Table 1, please use the provided tumor name, e.g., IMG05_L1.</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>",
-    "date": "07-25-2008",
-    "review_id": 1522
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "jan.moltz@mevis.de",
-   "author_firstname": "Jan hendrik",
-   "author_fullname": "Moltz, Jan hendrik",
-   "author_id": 904,
-   "author_institution": "MeVis Research GmbH, Bremen, Germany",
-   "author_lastname": "Moltz"
-  },
-  "tags": [
-   "MICCAI competition",
-   "segmentation",
-   "liver metastases"
-  ],
-  "title": "Segmentation of Liver Metastases in CT Scans by Adaptive Thresholding and Morphological Processing"
- }
+    "journals": [
+      {
+        "journal_id": 45,
+        "journal_name": "MICCAI 2016 Workshops"
+      },
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 584,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "dengxiang05@gmail.com",
+          "author_firstname": "Xiang",
+          "author_id": 872,
+          "author_lastname": "Deng"
+        },
+        "content": "<p>This paper presents a semi-automatic live tumor segmentation technique. <br />The segmentation is initialized with a user-drawn stroke across the lesion. The tumors are then segmented using adaptive thresholding followed with refinement by morphological operation. </p><p>Detailed comments:</p><p>1) The proposed technique requires a user-drawn stroke to initialize the segmentation, and some manual editing in refinement. In my opinion, this algorithm should belong to &quot;Interactive system&quot;.</p><p>2) It would be helpful if the authors could provide some information regarding the sensitivity of the proposed algorithm to the initial stroke, i.e., variation of segmentation against different positions of the initial stroke.</p><p>3) In Table 1, please use the provided tumor name, e.g., IMG05_L1.</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>",
+        "date": "07-25-2008",
+        "review_id": 1522
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "jan.moltz@mevis.de",
+      "author_firstname": "Jan hendrik",
+      "author_fullname": "Moltz, Jan hendrik",
+      "author_id": 904,
+      "author_institution": "MeVis Research GmbH, Bremen, Germany",
+      "author_lastname": "Moltz"
+    },
+    "tags": [
+      "MICCAI competition",
+      "segmentation",
+      "liver metastases"
+    ],
+    "title": "Segmentation of Liver Metastases in CT Scans by Adaptive Thresholding and Morphological Processing"
+  }
 }

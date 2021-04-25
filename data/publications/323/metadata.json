@@ -1,83 +1,88 @@
 {
- "publication": {
-  "abstract": "An Insight Toolkit (ITK) processing framework for simultaneous segmentation of multiple objects using \r\nactive contours without edges is presented in this paper. These techniques are also popularly referred to \r\nas multiphase methods. Earlier, we had an implemented the Chan and Vese [1] algorithm that uses level- \r\nsets to accomplish region segmentation in images with poor or no gradient information. The current \r\nwork extends that submission to use multiple level sets that evolve concurrently. The basic idea is to \r\npartion the image into several sets of piecewise constant intensity regions. This work is in contrast to \r\nthe level-set methods currently available in ITK which necessarily require gradient information and also \r\nnecessarily segment a single object-of-interest. Similar to those methods, the methods presented in this \r\npaper are also made ef\ufb01cient using a sparse implementation strategy that solves the contour evolution \r\nPDE at the level-set boundary. This work does not introduce any new \ufb01lter but extends the earlier \r\nsubmitted to \ufb01lters to process multiple objects. We include 2D/3D example code, parameter settings and \r\nshow the results generated on a 2D cardiac image.",
-  "authors": [
-   {
-    "author_fullname": "mosaliganti, kishore ",
-    "author_place": 1,
-    "persona_email": "kishoreraom@gmail.com",
-    "persona_firstname": "Kishore",
-    "persona_id": 981,
-    "persona_lastname": "Mosaliganti"
-   },
-   {
-    "author_fullname": "smith, benjamin",
-    "author_place": 2,
-    "persona_email": "benjii.man.smith@gmail.com",
-    "persona_firstname": "Benjamin",
-    "persona_id": 2340,
-    "persona_lastname": "Smith"
-   },
-   {
-    "author_fullname": "gelas, arnaud",
-    "author_place": 3,
-    "persona_email": "arnaudgelas@gmail.com",
-    "persona_firstname": "Arnaud",
-    "persona_id": 7896,
-    "persona_lastname": "Gelas"
-   },
-   {
-    "author_fullname": "gouaillard, alexandre",
-    "author_place": 4,
-    "persona_email": "agouaillard@gmail.com",
-    "persona_firstname": "Alexandre",
-    "persona_id": 322,
-    "persona_lastname": "Gouaillard"
-   },
-   {
-    "author_fullname": "megason, sean",
-    "author_place": 5,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Level sets",
-   "Region growing"
-  ],
-  "comments": [],
-  "date_submitted": "2009-04-10 20:44:59",
-  "handles": [
-   {
-    "handle": "1926/1533",
-    "handle_url": "http://hdl.handle.net/1926/1533"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 323,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "agouaillard@gmail.com",
-   "author_firstname": "Alexandre",
-   "author_fullname": "Gouaillard, Alexandre",
-   "author_id": 322,
-   "author_institution": "Singapore Agency for Science Technology and Research",
-   "author_lastname": "Gouaillard"
-  },
-  "tags": [
-   "multiphase",
-   "level set",
-   "chan and vese"
-  ],
-  "title": "level set segmentation using coupled active surfaces"
- }
+  "publication": {
+    "abstract": "An Insight Toolkit (ITK) processing framework for simultaneous segmentation of multiple objects using \r\nactive contours without edges is presented in this paper. These techniques are also popularly referred to \r\nas multiphase methods. Earlier, we had an implemented the Chan and Vese [1] algorithm that uses level- \r\nsets to accomplish region segmentation in images with poor or no gradient information. The current \r\nwork extends that submission to use multiple level sets that evolve concurrently. The basic idea is to \r\npartion the image into several sets of piecewise constant intensity regions. This work is in contrast to \r\nthe level-set methods currently available in ITK which necessarily require gradient information and also \r\nnecessarily segment a single object-of-interest. Similar to those methods, the methods presented in this \r\npaper are also made ef\ufb01cient using a sparse implementation strategy that solves the contour evolution \r\nPDE at the level-set boundary. This work does not introduce any new \ufb01lter but extends the earlier \r\nsubmitted to \ufb01lters to process multiple objects. We include 2D/3D example code, parameter settings and \r\nshow the results generated on a 2D cardiac image.",
+    "articles": [
+      "bafybeihj765sk4bjyu2ftihp6de43ru3ve4jjidjh2rdc3hpoc3lky77ea",
+      "bafybeihj765sk4bjyu2ftihp6de43ru3ve4jjidjh2rdc3hpoc3lky77ea",
+      "bafybeihj765sk4bjyu2ftihp6de43ru3ve4jjidjh2rdc3hpoc3lky77ea"
+    ],
+    "authors": [
+      {
+        "author_fullname": "mosaliganti, kishore ",
+        "author_place": 1,
+        "persona_email": "kishoreraom@gmail.com",
+        "persona_firstname": "Kishore",
+        "persona_id": 981,
+        "persona_lastname": "Mosaliganti"
+      },
+      {
+        "author_fullname": "smith, benjamin",
+        "author_place": 2,
+        "persona_email": "benjii.man.smith@gmail.com",
+        "persona_firstname": "Benjamin",
+        "persona_id": 2340,
+        "persona_lastname": "Smith"
+      },
+      {
+        "author_fullname": "gelas, arnaud",
+        "author_place": 3,
+        "persona_email": "arnaudgelas@gmail.com",
+        "persona_firstname": "Arnaud",
+        "persona_id": 7896,
+        "persona_lastname": "Gelas"
+      },
+      {
+        "author_fullname": "gouaillard, alexandre",
+        "author_place": 4,
+        "persona_email": "agouaillard@gmail.com",
+        "persona_firstname": "Alexandre",
+        "persona_id": 322,
+        "persona_lastname": "Gouaillard"
+      },
+      {
+        "author_fullname": "megason, sean",
+        "author_place": 5,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Level sets",
+      "Region growing"
+    ],
+    "comments": [],
+    "date_submitted": "2009-04-10 20:44:59",
+    "handles": [
+      {
+        "handle": "1926/1533",
+        "handle_url": "http://hdl.handle.net/1926/1533"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 323,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "agouaillard@gmail.com",
+      "author_firstname": "Alexandre",
+      "author_fullname": "Gouaillard, Alexandre",
+      "author_id": 322,
+      "author_institution": "Singapore Agency for Science Technology and Research",
+      "author_lastname": "Gouaillard"
+    },
+    "tags": [
+      "multiphase",
+      "level set",
+      "chan and vese"
+    ],
+    "title": "level set segmentation using coupled active surfaces"
+  }
 }

@@ -1,63 +1,66 @@
 {
- "publication": {
-  "abstract": "This paper describes our contribution of three new classes to the Insight Toolkit community. We present a new ImageIO base class for streaming image file, along with two derived ImageIO classes for the VTK and the MRC file formats.",
-  "authors": [
-   {
-    "author_fullname": "Lowekamp, Bradley",
-    "author_place": 1,
-    "persona_email": "blowekamp@mail.nih.gov",
-    "persona_firstname": "Bradley",
-    "persona_id": 1026,
-    "persona_lastname": "Lowekamp"
-   },
-   {
-    "author_fullname": "Chen, David",
-    "author_place": 2,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Images",
-   "IO",
-   "Programming",
-   "Streaming"
-  ],
-  "comments": [],
-  "date_submitted": "2010-06-09 09:54:25",
-  "handles": [
-   {
-    "handle": "10380/3171",
-    "handle_url": "http://hdl.handle.net/10380/3171"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 729,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "blowekamp@mail.nih.gov",
-   "author_firstname": "Bradley",
-   "author_fullname": "Lowekamp, Bradley",
-   "author_id": 1026,
-   "author_institution": "Lockheed Martin Contractor for Office of High Performance Computing and Communications National Library of Medicine ",
-   "author_lastname": "Lowekamp"
-  },
-  "tags": [
-   "microscopy",
-   "streaming",
-   "VTK",
-   "MRC",
-   "file format"
-  ],
-  "title": "A Streaming IO Base Class and Support for Streaming the MRC and VTK File Format"
- }
+  "publication": {
+    "abstract": "This paper describes our contribution of three new classes to the Insight Toolkit community. We present a new ImageIO base class for streaming image file, along with two derived ImageIO classes for the VTK and the MRC file formats.",
+    "articles": [
+      "bafkreie26addgyruqf2bodjkbim7yzydjsabh2e57ybpzkc2zivu22b7pi"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Lowekamp, Bradley",
+        "author_place": 1,
+        "persona_email": "blowekamp@mail.nih.gov",
+        "persona_firstname": "Bradley",
+        "persona_id": 1026,
+        "persona_lastname": "Lowekamp"
+      },
+      {
+        "author_fullname": "Chen, David",
+        "author_place": 2,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Images",
+      "IO",
+      "Programming",
+      "Streaming"
+    ],
+    "comments": [],
+    "date_submitted": "2010-06-09 09:54:25",
+    "handles": [
+      {
+        "handle": "10380/3171",
+        "handle_url": "http://hdl.handle.net/10380/3171"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 729,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "blowekamp@mail.nih.gov",
+      "author_firstname": "Bradley",
+      "author_fullname": "Lowekamp, Bradley",
+      "author_id": 1026,
+      "author_institution": "Lockheed Martin Contractor for Office of High Performance Computing and Communications National Library of Medicine ",
+      "author_lastname": "Lowekamp"
+    },
+    "tags": [
+      "microscopy",
+      "streaming",
+      "VTK",
+      "MRC",
+      "file format"
+    ],
+    "title": "A Streaming IO Base Class and Support for Streaming the MRC and VTK File Format"
+  }
 }

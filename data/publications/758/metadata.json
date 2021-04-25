@@ -1,72 +1,75 @@
 {
- "publication": {
-  "abstract": "This paper presents a technique for immunostaining biomarker detection in digital slides. We treat immunostaining detection as a color image analysis problem and build statistical color models using a large number of labeled positive and negative immunostaining pixels. We have implemented the statistical models in different color spaces and show that the opponent chromaticity signals effectively characterize the color distributions of the immunostaining biomarkers and that the luminance is an unreliable and distractive signal. We have applied the technique to the detection of positive P53 immunostaining in digital slides of oesophagitis and colorectal biopsies. We present experimental results and show that the technique can achieve a biomarker detection rate of over 98% with 5% false positives. ",
-  "authors": [
-   {
-    "author_fullname": "Shu, Jie",
-    "author_place": 1,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Qiu, Guoping",
-    "author_place": 2,
-    "persona_email": "qiu@cs.nott.ac.uk",
-    "persona_firstname": "Guoping",
-    "persona_id": 2705,
-    "persona_lastname": "Qiu"
-   },
-   {
-    "author_fullname": "Ilyas, Mohammad",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Kaye, Philip",
-    "author_place": 4,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Classification",
-   "Segmentation"
-  ],
-  "comments": [],
-  "date_submitted": "2010-09-03 04:42:25",
-  "handles": [
-   {
-    "handle": "10380/3211",
-    "handle_url": "http://hdl.handle.net/10380/3211"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 37,
-    "journal_name": "MICCAI 2010 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 758,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "qiu@cs.nott.ac.uk",
-   "author_firstname": "Guoping",
-   "author_fullname": "Qiu, Guoping",
-   "author_id": 2705,
-   "author_institution": "University of Nottingham",
-   "author_lastname": "Qiu"
-  },
-  "tags": [
-   "color image analysis",
-   "Immunostaining",
-   "whole slide imaging",
-   " digital pathology",
-   "statistical models",
-   "ImageJ"
-  ],
-  "title": "Biomarker Detection in Whole Slide Imaging based on Statistical Color Models"
- }
+  "publication": {
+    "abstract": "This paper presents a technique for immunostaining biomarker detection in digital slides. We treat immunostaining detection as a color image analysis problem and build statistical color models using a large number of labeled positive and negative immunostaining pixels. We have implemented the statistical models in different color spaces and show that the opponent chromaticity signals effectively characterize the color distributions of the immunostaining biomarkers and that the luminance is an unreliable and distractive signal. We have applied the technique to the detection of positive P53 immunostaining in digital slides of oesophagitis and colorectal biopsies. We present experimental results and show that the technique can achieve a biomarker detection rate of over 98% with 5% false positives. ",
+    "articles": [
+      "bafybeiehlli3izpnz6d5on3agacfqad6zdwre4tnjzslytvvkgxk4nnkua"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Shu, Jie",
+        "author_place": 1,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Qiu, Guoping",
+        "author_place": 2,
+        "persona_email": "qiu@cs.nott.ac.uk",
+        "persona_firstname": "Guoping",
+        "persona_id": 2705,
+        "persona_lastname": "Qiu"
+      },
+      {
+        "author_fullname": "Ilyas, Mohammad",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Kaye, Philip",
+        "author_place": 4,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Classification",
+      "Segmentation"
+    ],
+    "comments": [],
+    "date_submitted": "2010-09-03 04:42:25",
+    "handles": [
+      {
+        "handle": "10380/3211",
+        "handle_url": "http://hdl.handle.net/10380/3211"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 37,
+        "journal_name": "MICCAI 2010 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 758,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "qiu@cs.nott.ac.uk",
+      "author_firstname": "Guoping",
+      "author_fullname": "Qiu, Guoping",
+      "author_id": 2705,
+      "author_institution": "University of Nottingham",
+      "author_lastname": "Qiu"
+    },
+    "tags": [
+      "color image analysis",
+      "Immunostaining",
+      "whole slide imaging",
+      " digital pathology",
+      "statistical models",
+      "ImageJ"
+    ],
+    "title": "Biomarker Detection in Whole Slide Imaging based on Statistical Color Models"
+  }
 }

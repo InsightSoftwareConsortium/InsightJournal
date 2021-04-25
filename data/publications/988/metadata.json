@@ -1,83 +1,86 @@
 {
- "publication": {
-  "abstract": "This document describes a new remote module implemented for the Insight Toolkit (ITK), itkBoneMorphometry. This module contains bone analysis filters that compute features from N-dimensional images that represent the internal architecture of bone. The computation of the bone morphometry features in this module is based on well known methods. The two filters contained in this module are itkBoneMorphometryFeaturesFilter. which computes a set of features that describe the whole input image in the form of a feature vector, and itkBoneMorphometryFeaturesImageFilter, which computes an N-D feature map that locally describes the input image (i.e. for every voxel). itkBoneMorphometryFeaturesImageFilter can be configured based in the locality of the desired morphometry features by specifying the neighborhood size. This paper is accompanied by the source code, the input data, the choice of parameters and the output data that we have used for validating the algorithms described. This adheres to the fundamental principle that scientific publications must facilitate reproducibility of the reported results.",
-  "authors": [
-   {
-    "author_fullname": "Vimort, Jean-Baptiste",
-    "author_place": 2,
-    "persona_email": "jb.vimort@kitware.com",
-    "persona_firstname": "Jean-baptiste",
-    "persona_id": 10349,
-    "persona_lastname": "Vimort"
-   },
-   {
-    "author_fullname": "McCormick, Matthew",
-    "author_place": 3,
-    "persona_email": "matthew.m.mccormick@gmail.com",
-    "persona_firstname": "Matthew",
-    "persona_id": 2509,
-    "persona_lastname": "Mccormick"
-   },
-   {
-    "author_fullname": "Paniagua, Beatriz",
-    "author_place": 4,
-    "persona_email": "beatriz_paniagua@dentistry.unc.edu",
-    "persona_firstname": "Beatriz",
-    "persona_id": 2161,
-    "persona_lastname": "Paniagua"
-   }
-  ],
-  "categories": [
-   "CMake",
-   "Code speed optimization",
-   "Image",
-   "Images",
-   "Iterators",
-   "Optimization"
-  ],
-  "comments": [
-   {
-    "content": "Nice fast implementation. However be careful contrary to what's indicated in the Github description this filter compute Tb.Sp and Tb.Th through the MIL method and not directly on a 3D measure.",
-    "date": "2018-04-11T12:00:12",
-    "persona_email": "thomas.janvier@univ-orleans.fr",
-    "persona_firstname": "Thomas",
-    "persona_id": 11318,
-    "persona_lastname": "Janvier"
-   }
-  ],
-  "date_submitted": "2017-11-02 15:41:14",
-  "handles": [
-   {
-    "handle": "10380/3588",
-    "handle_url": "http://hdl.handle.net/10380/3588"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 988,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "jb.vimort@kitware.com",
-   "author_firstname": "Jean-baptiste",
-   "author_fullname": "Vimort, Jean-baptiste",
-   "author_id": 10349,
-   "author_institution": "Kitware Inc.",
-   "author_lastname": "Vimort"
-  },
-  "tags": [
-   "remote module",
-   "Image feature",
-   "Bone Morphometry"
-  ],
-  "title": "Computing Bone Morphometric Feature Maps from 3-Dimensional Images"
- }
+  "publication": {
+    "abstract": "This document describes a new remote module implemented for the Insight Toolkit (ITK), itkBoneMorphometry. This module contains bone analysis filters that compute features from N-dimensional images that represent the internal architecture of bone. The computation of the bone morphometry features in this module is based on well known methods. The two filters contained in this module are itkBoneMorphometryFeaturesFilter. which computes a set of features that describe the whole input image in the form of a feature vector, and itkBoneMorphometryFeaturesImageFilter, which computes an N-D feature map that locally describes the input image (i.e. for every voxel). itkBoneMorphometryFeaturesImageFilter can be configured based in the locality of the desired morphometry features by specifying the neighborhood size. This paper is accompanied by the source code, the input data, the choice of parameters and the output data that we have used for validating the algorithms described. This adheres to the fundamental principle that scientific publications must facilitate reproducibility of the reported results.",
+    "articles": [
+      "bafybeiagesos3uhq5rkc3jrwg5daygtwezlquj4a5ejhx3hk2km7quyq74"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Vimort, Jean-Baptiste",
+        "author_place": 2,
+        "persona_email": "jb.vimort@kitware.com",
+        "persona_firstname": "Jean-baptiste",
+        "persona_id": 10349,
+        "persona_lastname": "Vimort"
+      },
+      {
+        "author_fullname": "McCormick, Matthew",
+        "author_place": 3,
+        "persona_email": "matthew.m.mccormick@gmail.com",
+        "persona_firstname": "Matthew",
+        "persona_id": 2509,
+        "persona_lastname": "Mccormick"
+      },
+      {
+        "author_fullname": "Paniagua, Beatriz",
+        "author_place": 4,
+        "persona_email": "beatriz_paniagua@dentistry.unc.edu",
+        "persona_firstname": "Beatriz",
+        "persona_id": 2161,
+        "persona_lastname": "Paniagua"
+      }
+    ],
+    "categories": [
+      "CMake",
+      "Code speed optimization",
+      "Image",
+      "Images",
+      "Iterators",
+      "Optimization"
+    ],
+    "comments": [
+      {
+        "content": "Nice fast implementation. However be careful contrary to what's indicated in the Github description this filter compute Tb.Sp and Tb.Th through the MIL method and not directly on a 3D measure.",
+        "date": "2018-04-11T12:00:12",
+        "persona_email": "thomas.janvier@univ-orleans.fr",
+        "persona_firstname": "Thomas",
+        "persona_id": 11318,
+        "persona_lastname": "Janvier"
+      }
+    ],
+    "date_submitted": "2017-11-02 15:41:14",
+    "handles": [
+      {
+        "handle": "10380/3588",
+        "handle_url": "http://hdl.handle.net/10380/3588"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 988,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "jb.vimort@kitware.com",
+      "author_firstname": "Jean-baptiste",
+      "author_fullname": "Vimort, Jean-baptiste",
+      "author_id": 10349,
+      "author_institution": "Kitware Inc.",
+      "author_lastname": "Vimort"
+    },
+    "tags": [
+      "remote module",
+      "Image feature",
+      "Bone Morphometry"
+    ],
+    "title": "Computing Bone Morphometric Feature Maps from 3-Dimensional Images"
+  }
 }

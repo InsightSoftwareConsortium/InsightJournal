@@ -1,63 +1,67 @@
 {
- "publication": {
-  "abstract": "Polar transform is a geometric transform, that transforms points form cartesian coordinates to so-called polar coordinates. In case of 2D space, a point in polar coordinate system is addressed by radius and angle. In image processing, polar transform is usually used to convert rotations around the origin of polar coordinate system to translations. \r\n\r\nThis submission contains the implementation of forward and inverse polar transforms in two very simple classes for the Insight Toolkit.",
-  "authors": [
-   {
-    "author_fullname": "Bican, Jakub",
-    "author_place": 1,
-    "persona_email": "jakub.bican@matfyz.cz",
-    "persona_firstname": "Jakub",
-    "persona_id": 81,
-    "persona_lastname": "Bican"
-   }
-  ],
-  "categories": [
-   "Geometric transforms",
-   "Transforms"
-  ],
-  "comments": [
-   {
-    "content": "I downloaded version 1.2, and transforming from cartesian to polar for point (1, 1) gives the result in (theta, radius). I don\\'t know if it was intentionally so; but it looks like an error, because the conversion from polar to cartesian considers the input to be (radius, theta).",
-    "date": "2011-11-25T07:52:47",
-    "persona_email": "rina.rudyanto@gmail.com",
-    "persona_firstname": "Rina",
-    "persona_id": 5834,
-    "persona_lastname": "Rudyanto"
-   }
-  ],
-  "date_submitted": "2006-10-30T15:06:34Z",
-  "handles": [
-   {
-    "handle": "1926/342",
-    "handle_url": "http://hdl.handle.net/1926/342"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 130,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "jakub.bican@matfyz.cz",
-   "author_firstname": "Jakub",
-   "author_fullname": "Bican, Jakub",
-   "author_id": 81,
-   "author_institution": "Institute of Information Theory and Automation, Academy of Sciences of the Czech Republic",
-   "author_lastname": "Bican"
-  },
-  "tags": [
-   "ITK",
-   "transform",
-   "polar transform"
-  ],
-  "title": "Polar Transforms for ITK"
- }
+  "publication": {
+    "abstract": "Polar transform is a geometric transform, that transforms points form cartesian coordinates to so-called polar coordinates. In case of 2D space, a point in polar coordinate system is addressed by radius and angle. In image processing, polar transform is usually used to convert rotations around the origin of polar coordinate system to translations. \r\n\r\nThis submission contains the implementation of forward and inverse polar transforms in two very simple classes for the Insight Toolkit.",
+    "articles": [
+      "bafkreif3msavqaudppxxvbgsnbj6p74xzj4lw55fku7bw6gmuh7ocoyzsu",
+      "bafkreic5g2ot6yyviy5gxquhcik4falc3xcdmasx2ctaen2qqcx3ygp6ui"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Bican, Jakub",
+        "author_place": 1,
+        "persona_email": "jakub.bican@matfyz.cz",
+        "persona_firstname": "Jakub",
+        "persona_id": 81,
+        "persona_lastname": "Bican"
+      }
+    ],
+    "categories": [
+      "Geometric transforms",
+      "Transforms"
+    ],
+    "comments": [
+      {
+        "content": "I downloaded version 1.2, and transforming from cartesian to polar for point (1, 1) gives the result in (theta, radius). I don\\'t know if it was intentionally so; but it looks like an error, because the conversion from polar to cartesian considers the input to be (radius, theta).",
+        "date": "2011-11-25T07:52:47",
+        "persona_email": "rina.rudyanto@gmail.com",
+        "persona_firstname": "Rina",
+        "persona_id": 5834,
+        "persona_lastname": "Rudyanto"
+      }
+    ],
+    "date_submitted": "2006-10-30T15:06:34Z",
+    "handles": [
+      {
+        "handle": "1926/342",
+        "handle_url": "http://hdl.handle.net/1926/342"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 130,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "jakub.bican@matfyz.cz",
+      "author_firstname": "Jakub",
+      "author_fullname": "Bican, Jakub",
+      "author_id": 81,
+      "author_institution": "Institute of Information Theory and Automation, Academy of Sciences of the Czech Republic",
+      "author_lastname": "Bican"
+    },
+    "tags": [
+      "ITK",
+      "transform",
+      "polar transform"
+    ],
+    "title": "Polar Transforms for ITK"
+  }
 }

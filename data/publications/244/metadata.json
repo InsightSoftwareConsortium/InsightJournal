@@ -1,66 +1,73 @@
 {
- "publication": {
-  "abstract": "When dealing with functional minimization, or maximization, it can sometimes be solved by a greedy algorithm. To implement greedy algorithm one needs priority queue container, i.e. get for a very low cost the lowest or highest element present in a sorted container. Whenever the priority of one element present in the queue needs to be modified, standard implementations, like \\code{std::priority\\_queue}, can not be applied directly. VTK has is own implementation \\code{vtkPriorityQueue} which is not templated and can only be applied for \\code{vtkIdType} and for the minimizing the functional. We propose here an implementation of a mutable priority queue container where element, priority, and objective (minimization or maximization) are given by template arguments. Our implementation allows to minimize or maximize a given functional, and any element can be modified, deleted at any time, and with a low cost.",
-  "authors": [
-   {
-    "author_fullname": "Gelas, Arnaud",
-    "author_place": 1,
-    "persona_email": "arnaudgelas@gmail.com",
-    "persona_firstname": "Arnaud",
-    "persona_id": 7896,
-    "persona_lastname": "Gelas"
-   },
-   {
-    "author_fullname": "Gouaillard, Alexandre",
-    "author_place": 2,
-    "persona_email": "agouaillard@gmail.com",
-    "persona_firstname": "Alexandre",
-    "persona_id": 322,
-    "persona_lastname": "Gouaillard"
-   },
-   {
-    "author_fullname": "Megason, Sean",
-    "author_place": 3,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Code speed optimization",
-   "Generic Programming"
-  ],
-  "comments": [],
-  "date_submitted": "2008-06-30",
-  "handles": [
-   {
-    "handle": "1926/1395",
-    "handle_url": "http://hdl.handle.net/1926/1395"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 244,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "agouaillard@gmail.com",
-   "author_firstname": "Alexandre",
-   "author_fullname": "Gouaillard, Alexandre",
-   "author_id": 322,
-   "author_institution": "Singapore Agency for Science Technology and Research",
-   "author_lastname": "Gouaillard"
-  },
-  "tags": [
-   "priority queue",
-   "mutable"
-  ],
-  "title": "Mutable Priority Queue Container"
- }
+  "publication": {
+    "abstract": "When dealing with functional minimization, or maximization, it can sometimes be solved by a greedy algorithm. To implement greedy algorithm one needs priority queue container, i.e. get for a very low cost the lowest or highest element present in a sorted container. Whenever the priority of one element present in the queue needs to be modified, standard implementations, like \\code{std::priority\\_queue}, can not be applied directly. VTK has is own implementation \\code{vtkPriorityQueue} which is not templated and can only be applied for \\code{vtkIdType} and for the minimizing the functional. We propose here an implementation of a mutable priority queue container where element, priority, and objective (minimization or maximization) are given by template arguments. Our implementation allows to minimize or maximize a given functional, and any element can be modified, deleted at any time, and with a low cost.",
+    "articles": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "authors": [
+      {
+        "author_fullname": "Gelas, Arnaud",
+        "author_place": 1,
+        "persona_email": "arnaudgelas@gmail.com",
+        "persona_firstname": "Arnaud",
+        "persona_id": 7896,
+        "persona_lastname": "Gelas"
+      },
+      {
+        "author_fullname": "Gouaillard, Alexandre",
+        "author_place": 2,
+        "persona_email": "agouaillard@gmail.com",
+        "persona_firstname": "Alexandre",
+        "persona_id": 322,
+        "persona_lastname": "Gouaillard"
+      },
+      {
+        "author_fullname": "Megason, Sean",
+        "author_place": 3,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Code speed optimization",
+      "Generic Programming"
+    ],
+    "comments": [],
+    "date_submitted": "2008-06-30",
+    "handles": [
+      {
+        "handle": "1926/1395",
+        "handle_url": "http://hdl.handle.net/1926/1395"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 244,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "agouaillard@gmail.com",
+      "author_firstname": "Alexandre",
+      "author_fullname": "Gouaillard, Alexandre",
+      "author_id": 322,
+      "author_institution": "Singapore Agency for Science Technology and Research",
+      "author_lastname": "Gouaillard"
+    },
+    "tags": [
+      "priority queue",
+      "mutable"
+    ],
+    "title": "Mutable Priority Queue Container"
+  }
 }

@@ -1,115 +1,120 @@
 {
- "publication": {
-  "abstract": "This paper describes the setup of a segmentation competition for the automatic extraction of Multiple Sclerosis (MS) lesions from brain Magnetic Resonance Imaging (MRI) data. This competition is one of three competitions that make up a comparison workshop at the 2008 Medical Image Computing and Computer Assisted Intervention (MICCAI) conference and was modeled after the successful comparison workshop on liver and caudate segmentation at the 2007 MICCAI conference. In this paper, the rationale for organizing the competition is discussed, the training and test data sets for both segmentation tasks are described and the scoring system used to evaluate the segmentation is presented.",
-  "authors": [
-   {
-    "author_fullname": "Warfield, Simon ",
-    "author_place": 9,
-    "persona_email": "simon.warfield@childrens.harvard.edu",
-    "persona_firstname": "Simon",
-    "persona_id": 514,
-    "persona_lastname": "Warfield"
-   },
-   {
-    "author_fullname": "Styner, Martin",
-    "author_place": 1,
-    "persona_email": "styner@cs.unc.edu",
-    "persona_firstname": "Martin",
-    "persona_id": 28,
-    "persona_lastname": "Styner"
-   },
-   {
-    "author_fullname": "Lee, Joohwi",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Chin, Brian",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Chin, Matthew S",
-    "author_place": 4,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Commowick, Olivier",
-    "author_place": 5,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Tran, Hoai-Huong ",
-    "author_place": 6,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Markovic-Plese, Silva",
-    "author_place": 7,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Jewells, Valerie",
-    "author_place": 8,
-    "persona_email": "valerie_jewells@med.unc.edu",
-    "persona_firstname": "Valerie",
-    "persona_id": 248,
-    "persona_lastname": "Jewells"
-   }
-  ],
-  "categories": [
-   "Classification",
-   "Segmentation",
-   "Unsupervised learning and clustering"
-  ],
-  "comments": [
-   {
-    "content": "I would be grateful if you could submit the source code of the proposed approach.",
-    "date": "2014-06-11T02:36:17",
-    "persona_email": "bakkari.abdelkhalek@hotmail.fr",
-    "persona_firstname": "Abdelkhalek",
-    "persona_id": 9131,
-    "persona_lastname": "Bakkari"
-   }
-  ],
-  "date_submitted": "2008-11-05 16:55:42",
-  "handles": [
-   {
-    "handle": "10380/1509",
-    "handle_url": "http://hdl.handle.net/10380/1509"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 44,
-    "journal_name": "MICCAI 2015 Workshops"
-   },
-   {
-    "journal_id": 33,
-    "journal_name": "MICCAI 2008 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 638,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": null,
-   "author_firstname": null,
-   "author_fullname": ", ",
-   "author_id": null,
-   "author_institution": "University of North Carolina",
-   "author_lastname": null
-  },
-  "tags": [
-   "MRI",
-   "MS lesions",
-   "Segmentation evaluation",
-   "Lesion segmentation"
-  ],
-  "title": "3D Segmentation in the Clinic: A Grand Challenge II: MS lesion segmentation"
- }
+  "publication": {
+    "abstract": "This paper describes the setup of a segmentation competition for the automatic extraction of Multiple Sclerosis (MS) lesions from brain Magnetic Resonance Imaging (MRI) data. This competition is one of three competitions that make up a comparison workshop at the 2008 Medical Image Computing and Computer Assisted Intervention (MICCAI) conference and was modeled after the successful comparison workshop on liver and caudate segmentation at the 2007 MICCAI conference. In this paper, the rationale for organizing the competition is discussed, the training and test data sets for both segmentation tasks are described and the scoring system used to evaluate the segmentation is presented.",
+    "articles": [
+      "bafkreie4dfljg7yynqnz27dvnpqi4c33aurqoteo6sqm3rmdatd2njxmji",
+      "bafkreias2cacksgevjajkfmpi2r54qmdlxhh3r565ikxizmw7yteita6zy",
+      "bafkreid64xl27ti42mgrscrcjxkmsc3363aaxmymi33jggbvvp7ky3z6t4"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Warfield, Simon ",
+        "author_place": 9,
+        "persona_email": "simon.warfield@childrens.harvard.edu",
+        "persona_firstname": "Simon",
+        "persona_id": 514,
+        "persona_lastname": "Warfield"
+      },
+      {
+        "author_fullname": "Styner, Martin",
+        "author_place": 1,
+        "persona_email": "styner@cs.unc.edu",
+        "persona_firstname": "Martin",
+        "persona_id": 28,
+        "persona_lastname": "Styner"
+      },
+      {
+        "author_fullname": "Lee, Joohwi",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Chin, Brian",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Chin, Matthew S",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Commowick, Olivier",
+        "author_place": 5,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Tran, Hoai-Huong ",
+        "author_place": 6,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Markovic-Plese, Silva",
+        "author_place": 7,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Jewells, Valerie",
+        "author_place": 8,
+        "persona_email": "valerie_jewells@med.unc.edu",
+        "persona_firstname": "Valerie",
+        "persona_id": 248,
+        "persona_lastname": "Jewells"
+      }
+    ],
+    "categories": [
+      "Classification",
+      "Segmentation",
+      "Unsupervised learning and clustering"
+    ],
+    "comments": [
+      {
+        "content": "I would be grateful if you could submit the source code of the proposed approach.",
+        "date": "2014-06-11T02:36:17",
+        "persona_email": "bakkari.abdelkhalek@hotmail.fr",
+        "persona_firstname": "Abdelkhalek",
+        "persona_id": 9131,
+        "persona_lastname": "Bakkari"
+      }
+    ],
+    "date_submitted": "2008-11-05 16:55:42",
+    "handles": [
+      {
+        "handle": "10380/1509",
+        "handle_url": "http://hdl.handle.net/10380/1509"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 44,
+        "journal_name": "MICCAI 2015 Workshops"
+      },
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 638,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": null,
+      "author_firstname": null,
+      "author_fullname": ", ",
+      "author_id": null,
+      "author_institution": "University of North Carolina",
+      "author_lastname": null
+    },
+    "tags": [
+      "MRI",
+      "MS lesions",
+      "Segmentation evaluation",
+      "Lesion segmentation"
+    ],
+    "title": "3D Segmentation in the Clinic: A Grand Challenge II: MS lesion segmentation"
+  }
 }

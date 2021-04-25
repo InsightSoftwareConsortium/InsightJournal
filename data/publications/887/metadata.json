@@ -1,57 +1,61 @@
 {
- "publication": {
-  "abstract": "This paper presents code for reading contours from DICOM RT structure set files into binary labels. This is a common requirement for transferring expert manual segmentations from radiotherapy treatment planning software into external image analysis environments (such as ITK). An implementation of RT structure set importing is provided with sample data from a prostate cancer radiotherapy planning volume. This is an update to the 2009 Insight Journal paper \"Importing Contours from DICOM-RT Structure Sets\" which worked with ITK 3.x and a local GDCM2 install.\n\nUpdates:\nMar 2013 Now correctly handles holes within structures. Thanks to Sebastian Steger for the code fix.",
-  "authors": [
-   {
-    "author_fullname": "Dowling, Jason",
-    "author_place": 2,
-    "persona_email": "dowlingjad@gmail.com",
-    "persona_firstname": "Jason",
-    "persona_id": 2286,
-    "persona_lastname": "Dowling"
-   }
-  ],
-  "categories": [
-   "Data",
-   "DICOM",
-   "Image",
-   "Images",
-   "Objects",
-   "PointSet"
-  ],
-  "comments": [],
-  "date_submitted": "2013-02-26 19:07:02",
-  "handles": [
-   {
-    "handle": "10380/3401",
-    "handle_url": "http://hdl.handle.net/10380/3401"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 887,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "dowlingjad@gmail.com",
-   "author_firstname": "Jason",
-   "author_fullname": "Dowling, Jason",
-   "author_id": 2286,
-   "author_institution": "CSIRO",
-   "author_lastname": "Dowling"
-  },
-  "tags": [
-   "Radiation treatment planning",
-   "DICOM-RT Structure"
-  ],
-  "title": "Importing Contours from DICOM-RT Structure Sets with ITK4"
- }
+  "publication": {
+    "abstract": "This paper presents code for reading contours from DICOM RT structure set files into binary labels. This is a common requirement for transferring expert manual segmentations from radiotherapy treatment planning software into external image analysis environments (such as ITK). An implementation of RT structure set importing is provided with sample data from a prostate cancer radiotherapy planning volume. This is an update to the 2009 Insight Journal paper \"Importing Contours from DICOM-RT Structure Sets\" which worked with ITK 3.x and a local GDCM2 install.\n\nUpdates:\nMar 2013 Now correctly handles holes within structures. Thanks to Sebastian Steger for the code fix.",
+    "articles": [
+      "bafybeibbqxbib4ml6huszfmxtwipnj6dj3a44rd2ce4ggkv45hf44nch5a",
+      "bafybeibbqxbib4ml6huszfmxtwipnj6dj3a44rd2ce4ggkv45hf44nch5a"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Dowling, Jason",
+        "author_place": 2,
+        "persona_email": "dowlingjad@gmail.com",
+        "persona_firstname": "Jason",
+        "persona_id": 2286,
+        "persona_lastname": "Dowling"
+      }
+    ],
+    "categories": [
+      "Data",
+      "DICOM",
+      "Image",
+      "Images",
+      "Objects",
+      "PointSet"
+    ],
+    "comments": [],
+    "date_submitted": "2013-02-26 19:07:02",
+    "handles": [
+      {
+        "handle": "10380/3401",
+        "handle_url": "http://hdl.handle.net/10380/3401"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 887,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "dowlingjad@gmail.com",
+      "author_firstname": "Jason",
+      "author_fullname": "Dowling, Jason",
+      "author_id": 2286,
+      "author_institution": "CSIRO",
+      "author_lastname": "Dowling"
+    },
+    "tags": [
+      "Radiation treatment planning",
+      "DICOM-RT Structure"
+    ],
+    "title": "Importing Contours from DICOM-RT Structure Sets with ITK4"
+  }
 }

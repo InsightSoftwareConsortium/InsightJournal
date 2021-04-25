@@ -1,132 +1,140 @@
 {
- "publication": {
-  "abstract": "Automatic segmentation of liver tumorous regions often fails due to high noise and large variance of tumors. In this work, a semi-automatic algorithm is proposed to segment liver tumors from computed tomography (CT) images. To cope with the variance of tumors, their intensity probability density functions (PDF) are modeled as a bag of Gaussians unlike the previous works where the tumor is modeled as a single Gaussian, and employ a three-dimensional seeded region growing (SRG) method. The bag of Gaussians are initialized at manually selected seeds and updated during growing process iteratively. There are two criteria to be ful&#64257;lled for growing: one is the Bayesian decision rule, and the other is a model matching measure. Once the growing is terminated, morphological operations are performed to re&#64257;ne the result. This method, showing promising performance, has been evaluated using ten CT scans of livers with twenty tumors provided by the organizer of the 3D Liver Tumor Segmentation Challenge 2008.",
-  "authors": [
-   {
-    "author_fullname": "Qi, Yingyi",
-    "author_place": 1,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Xiong, Wei",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Leow, Wee Keng",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Tian, Qi",
-    "author_place": 4,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Zhou, Jiayin",
-    "author_place": 5,
-    "persona_email": "jiayin.zhou@gmail.com",
-    "persona_firstname": "Jiayin",
-    "persona_id": 902,
-    "persona_lastname": "Zhou"
-   },
-   {
-    "author_fullname": "Liu, Jiang",
-    "author_place": 6,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Han, Thazin",
-    "author_place": 7,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Venkatesh, Sudhakar",
-    "author_place": 8,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Wang, Shih-chang",
-    "author_place": 9,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Anisotropic blurring filters",
-   "Bayesian Decision Theory",
-   "Blurring filters",
-   "Classification",
-   "CMake",
-   "Code speed optimization",
-   "Data",
-   "Data Representation",
-   "Density Estimation",
-   "Density Functions",
-   "Filtering",
-   "Image",
-   "IO",
-   "Mathematical Morphology",
-   "Mathematics",
-   "Neighborhood filters",
-   "Parameter Techniques",
-   "Probability",
-   "Programming",
-   "Region growing",
-   "Segmentation",
-   "Thresholding"
-  ],
-  "comments": [],
-  "date_submitted": "2008-07-08T03:13:48Z",
-  "handles": [
-   {
-    "handle": "10380/1431",
-    "handle_url": "http://hdl.handle.net/10380/1431"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 45,
-    "journal_name": "MICCAI 2016 Workshops"
-   },
-   {
-    "journal_id": 33,
-    "journal_name": "MICCAI 2008 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 591,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "dengxiang05@gmail.com",
-     "author_firstname": "Xiang",
-     "author_id": 872,
-     "author_lastname": "Deng"
+  "publication": {
+    "abstract": "Automatic segmentation of liver tumorous regions often fails due to high noise and large variance of tumors. In this work, a semi-automatic algorithm is proposed to segment liver tumors from computed tomography (CT) images. To cope with the variance of tumors, their intensity probability density functions (PDF) are modeled as a bag of Gaussians unlike the previous works where the tumor is modeled as a single Gaussian, and employ a three-dimensional seeded region growing (SRG) method. The bag of Gaussians are initialized at manually selected seeds and updated during growing process iteratively. There are two criteria to be ful&#64257;lled for growing: one is the Bayesian decision rule, and the other is a model matching measure. Once the growing is terminated, morphological operations are performed to re&#64257;ne the result. This method, showing promising performance, has been evaluated using ten CT scans of livers with twenty tumors provided by the organizer of the 3D Liver Tumor Segmentation Challenge 2008.",
+    "articles": [
+      null,
+      null,
+      null,
+      null,
+      "bafkreibsykyx6kdr3eoyopfkrdikup2z4d4m3rpzv2t3ow6qrh6ublltau",
+      null
+    ],
+    "authors": [
+      {
+        "author_fullname": "Qi, Yingyi",
+        "author_place": 1,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Xiong, Wei",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Leow, Wee Keng",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Tian, Qi",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Zhou, Jiayin",
+        "author_place": 5,
+        "persona_email": "jiayin.zhou@gmail.com",
+        "persona_firstname": "Jiayin",
+        "persona_id": 902,
+        "persona_lastname": "Zhou"
+      },
+      {
+        "author_fullname": "Liu, Jiang",
+        "author_place": 6,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Han, Thazin",
+        "author_place": 7,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Venkatesh, Sudhakar",
+        "author_place": 8,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Wang, Shih-chang",
+        "author_place": 9,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Anisotropic blurring filters",
+      "Bayesian Decision Theory",
+      "Blurring filters",
+      "Classification",
+      "CMake",
+      "Code speed optimization",
+      "Data",
+      "Data Representation",
+      "Density Estimation",
+      "Density Functions",
+      "Filtering",
+      "Image",
+      "IO",
+      "Mathematical Morphology",
+      "Mathematics",
+      "Neighborhood filters",
+      "Parameter Techniques",
+      "Probability",
+      "Programming",
+      "Region growing",
+      "Segmentation",
+      "Thresholding"
+    ],
+    "comments": [],
+    "date_submitted": "2008-07-08T03:13:48Z",
+    "handles": [
+      {
+        "handle": "10380/1431",
+        "handle_url": "http://hdl.handle.net/10380/1431"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<p>This paper presents a semi-automatic live tumor segmentation technique. <br />In this method, the tumor is segmented using 3D region growing and Bayesian classification. </p><p>Detailed comments:</p><p>1) Could the authors provide more detailed information about selection of seed points, i.e., how many seed points should be used for inhomogeneous lesions?</p><p>2) Since the selection of seed point is the only user-intervention required, it would be helpful to test the sensitivity/repeatability of the proposed technique against independent initialization.</p><p><br />3) How are the multiple Gaussian distributions combined into one?</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>",
-    "date": "07-25-2008",
-    "review_id": 1519
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "jiayin.zhou@gmail.com",
-   "author_firstname": "Jiayin",
-   "author_fullname": "Zhou, Jiayin",
-   "author_id": 902,
-   "author_institution": "National University of Singapore",
-   "author_lastname": "Zhou"
-  },
-  "tags": [
-   "Liver tumor",
-   "Bayesian model",
-   "Computed tomography",
-   "Region growing",
-   "Image segmentation"
-  ],
-  "title": "Semi-automatic Segmentation of Liver Tumors from CT Scans Using Bayesian Rule-based 3D Region Growing"
- }
+    "journals": [
+      {
+        "journal_id": 45,
+        "journal_name": "MICCAI 2016 Workshops"
+      },
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 591,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "dengxiang05@gmail.com",
+          "author_firstname": "Xiang",
+          "author_id": 872,
+          "author_lastname": "Deng"
+        },
+        "content": "<p>This paper presents a semi-automatic live tumor segmentation technique. <br />In this method, the tumor is segmented using 3D region growing and Bayesian classification. </p><p>Detailed comments:</p><p>1) Could the authors provide more detailed information about selection of seed points, i.e., how many seed points should be used for inhomogeneous lesions?</p><p>2) Since the selection of seed point is the only user-intervention required, it would be helpful to test the sensitivity/repeatability of the proposed technique against independent initialization.</p><p><br />3) How are the multiple Gaussian distributions combined into one?</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>",
+        "date": "07-25-2008",
+        "review_id": 1519
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "jiayin.zhou@gmail.com",
+      "author_firstname": "Jiayin",
+      "author_fullname": "Zhou, Jiayin",
+      "author_id": 902,
+      "author_institution": "National University of Singapore",
+      "author_lastname": "Zhou"
+    },
+    "tags": [
+      "Liver tumor",
+      "Bayesian model",
+      "Computed tomography",
+      "Region growing",
+      "Image segmentation"
+    ],
+    "title": "Semi-automatic Segmentation of Liver Tumors from CT Scans Using Bayesian Rule-based 3D Region Growing"
+  }
 }

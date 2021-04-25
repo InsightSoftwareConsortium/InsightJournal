@@ -1,64 +1,67 @@
 {
- "publication": {
-  "abstract": "This document describes the implementation in ITK of the Straight Walk in a Triangulation algorithm proposed by Devillers et al. Using the exact discrete geometrical orientation predicate, and the itk::QuadEdgeMesh API of ITK, we propose an efficient implementation that locates a point in a triangulated mesh structure. This paper is accompanied with the source code and examples that should provide enough details for users. This work has for principal intended an exact and robust implementation of a Delaunay triangulation / Voronoi tesselation in ITK, which will be presented in a separate paper, once done.",
-  "authors": [
-   {
-    "author_fullname": "Rigaud, Stephane",
-    "author_place": 1,
-    "persona_email": "stephane.rigaud@pasteur.fr",
-    "persona_firstname": "Stephane",
-    "persona_id": 6540,
-    "persona_lastname": "Rigaud"
-   },
-   {
-    "author_fullname": "Gouaillard, Alexandre",
-    "author_place": 2,
-    "persona_email": "agouaillard@gmail.com",
-    "persona_firstname": "Alexandre",
-    "persona_id": 322,
-    "persona_lastname": "Gouaillard"
-   }
-  ],
-  "categories": [
-   "Code speed optimization",
-   "Data Representation",
-   "Mesh"
-  ],
-  "comments": [],
-  "date_submitted": "2012-02-14 07:31:37",
-  "handles": [
-   {
-    "handle": "10380/3341",
-    "handle_url": "http://hdl.handle.net/10380/3341"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 851,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "agouaillard@gmail.com",
-   "author_firstname": "Alexandre",
-   "author_fullname": "Gouaillard, Alexandre",
-   "author_id": 322,
-   "author_institution": "Singapore Agency for Science Technology and Research",
-   "author_lastname": "Gouaillard"
-  },
-  "tags": [
-   "ITK",
-   "QuadEdgeMesh",
-   "Search",
-   "Planar Mesh"
-  ],
-  "title": "Walk In A Triangulation : Straight Walk"
- }
+  "publication": {
+    "abstract": "This document describes the implementation in ITK of the Straight Walk in a Triangulation algorithm proposed by Devillers et al. Using the exact discrete geometrical orientation predicate, and the itk::QuadEdgeMesh API of ITK, we propose an efficient implementation that locates a point in a triangulated mesh structure. This paper is accompanied with the source code and examples that should provide enough details for users. This work has for principal intended an exact and robust implementation of a Delaunay triangulation / Voronoi tesselation in ITK, which will be presented in a separate paper, once done.",
+    "articles": [
+      "bafybeifosjwjb7fmc6n3o3hzgnkry44giwmwjrs7rm6h2cb4pj7mb37fay"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Rigaud, Stephane",
+        "author_place": 1,
+        "persona_email": "stephane.rigaud@pasteur.fr",
+        "persona_firstname": "Stephane",
+        "persona_id": 6540,
+        "persona_lastname": "Rigaud"
+      },
+      {
+        "author_fullname": "Gouaillard, Alexandre",
+        "author_place": 2,
+        "persona_email": "agouaillard@gmail.com",
+        "persona_firstname": "Alexandre",
+        "persona_id": 322,
+        "persona_lastname": "Gouaillard"
+      }
+    ],
+    "categories": [
+      "Code speed optimization",
+      "Data Representation",
+      "Mesh"
+    ],
+    "comments": [],
+    "date_submitted": "2012-02-14 07:31:37",
+    "handles": [
+      {
+        "handle": "10380/3341",
+        "handle_url": "http://hdl.handle.net/10380/3341"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 851,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "agouaillard@gmail.com",
+      "author_firstname": "Alexandre",
+      "author_fullname": "Gouaillard, Alexandre",
+      "author_id": 322,
+      "author_institution": "Singapore Agency for Science Technology and Research",
+      "author_lastname": "Gouaillard"
+    },
+    "tags": [
+      "ITK",
+      "QuadEdgeMesh",
+      "Search",
+      "Planar Mesh"
+    ],
+    "title": "Walk In A Triangulation : Straight Walk"
+  }
 }

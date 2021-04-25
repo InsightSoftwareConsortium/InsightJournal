@@ -1,87 +1,90 @@
 {
- "publication": {
-  "abstract": "This document describes the implementation of the external module ITKIsotropicWavelets, a multiresolution (MRA) analysis framework using isotropic and steerable wavelets in the frequency domain. This framework provides the backbone for state of the art filters for denoising, feature detection or phase analysis in N-dimensions. It focus on reusability, and highly decoupled modules for easy extension and implementation of new filters, and it contains a filter for multiresolution phase analysis,\n\nThe backbone of the multi-scale analysis is provided by an isotropic band-limited wavelet pyramid, and the detection of directional features is provided by coupling the pyramid with a generalized Riesz transform.\nThe generalized Riesz transform of order N behaves like a smoothed version of the Nth order derivatives of the signal. Also, it is steerable: its components impulse responses can be rotated to any spatial orientation, reducing computation time when detecting directional features.\n\nThis paper is accompanied with the source code, input data, parameters and\noutput data that the author used for validating the algorithm described in\nthis paper. This adheres to the fundamental principle that scientific\npublications must facilitate reproducibility of the reported results.\n",
-  "authors": [
-   {
-    "author_fullname": "Hernandez-Cerdan, Pablo",
-    "author_place": 2,
-    "persona_email": "pablo.hernandez.cerdan@outlook.com",
-    "persona_firstname": "Pablo",
-    "persona_id": 9689,
-    "persona_lastname": "Hernandez-Cerdan"
-   }
-  ],
-  "categories": [
-   "Image",
-   "Information Theory",
-   "Iterators"
-  ],
-  "comments": [
-   {
-    "content": "Hello\r\nThank you for this implementation.\r\n\r\nI Have same bugs when I try to test your project\r\n\r\nitkFFTPadPositiveIndexImageFilterTest.cxx:55:24: error: macro \"EXERCISE_BASIC_OBJECT_METHODS\" passed 3 arguments but takes just 2\r\n\r\n\r\nitkFFTPadPositiveIndexImageFilterTest.cxx:21:\r\nitkFFTPadPositiveIndexImageFilter.h:109: error: ISO C++ forbids declaration of 'ITK_DISALLOW_COPY_AND_ASSIGN' with no type  \r\n\r\nitkFFTPadPositiveIndexImageFilterTest.cxx: In function 'itkFFTPadPositiveIndexImageFilterTest(int char**)':\r\nitkFFTPadPositiveIndexImageFilterTest.cxx:54: error: 'EXERCISE_BASIC_OBJECT_METHODS'was not declared in this scope\r\n\r\n\r\nthank you\r\n",
-    "date": "2017-06-19T10:31:50",
-    "persona_email": "diouweltandiang@gmail.com",
-    "persona_firstname": "Juju",
-    "persona_id": 10363,
-    "persona_lastname": "Tardon"
-   },
-   {
-    "content": "Nice! Good to know that you are working on this. I have implemented the itkRieszRotationMatrix --S_U-- and also the StructureTensor --J(x_0)--. I will read more carefully your manuscript and the Matlab code but maybe isn't that much work to implement it in ITK?. I am busy right now writing up but I am sure in the future I'll tackle more of this. Thanks for pointing it.",
-    "date": "2017-06-07T06:16:10",
-    "persona_email": "pablo.hernandez.cerdan@outlook.com",
-    "persona_firstname": "Pablo",
-    "persona_id": 9689,
-    "persona_lastname": "Hernandez-Cerdan"
-   },
-   {
-    "content": "Hello Juju\r\nI think those errors in the macros can be solved if you update ITK. Not sure what is the minimum version but some people reported similar errors that were solved for 4.10 maybe? (http://public.kitware.com/pipermail/community/2016-June/011491.html). This module is tested using the latest ITK (from master) and it has no errors in any platform there. Hope it helps.",
-    "date": "2017-06-21T17:53:37",
-    "persona_email": "pablo.hernandez.cerdan@outlook.com",
-    "persona_firstname": "Pablo",
-    "persona_id": 9689,
-    "persona_lastname": "Hernandez-Cerdan"
-   }
-  ],
-  "date_submitted": "2016-07-16 22:53:38",
-  "handles": [
-   {
-    "handle": "10380/3558",
-    "handle_url": "http://hdl.handle.net/10380/3558"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 986,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "pablo.hernandez.cerdan@outlook.com",
-   "author_firstname": "Pablo",
-   "author_fullname": "Hernandez-Cerdan, Pablo",
-   "author_id": 9689,
-   "author_institution": "Institute of Fundamental Sciences. Massey University",
-   "author_lastname": "Hernandez-Cerdan"
-  },
-  "tags": [
-   "Isotropic",
-   "Filter Bank",
-   "Denoise",
-   "Wavelet",
-   "External",
-   "Feature Detection",
-   "Riesz",
-   "Phase",
-   "MRA",
-   "Pyramid"
-  ],
-  "title": "Isotropic and Steerable Wavelets in N Dimensions. A multiresolution analysis framework."
- }
+  "publication": {
+    "abstract": "This document describes the implementation of the external module ITKIsotropicWavelets, a multiresolution (MRA) analysis framework using isotropic and steerable wavelets in the frequency domain. This framework provides the backbone for state of the art filters for denoising, feature detection or phase analysis in N-dimensions. It focus on reusability, and highly decoupled modules for easy extension and implementation of new filters, and it contains a filter for multiresolution phase analysis,\n\nThe backbone of the multi-scale analysis is provided by an isotropic band-limited wavelet pyramid, and the detection of directional features is provided by coupling the pyramid with a generalized Riesz transform.\nThe generalized Riesz transform of order N behaves like a smoothed version of the Nth order derivatives of the signal. Also, it is steerable: its components impulse responses can be rotated to any spatial orientation, reducing computation time when detecting directional features.\n\nThis paper is accompanied with the source code, input data, parameters and\noutput data that the author used for validating the algorithm described in\nthis paper. This adheres to the fundamental principle that scientific\npublications must facilitate reproducibility of the reported results.\n",
+    "articles": [
+      "bafybeicnspxcjq2fitustfgfs2ig6qd7xg42ormdq26f56f2hrchenqe5y"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Hernandez-Cerdan, Pablo",
+        "author_place": 2,
+        "persona_email": "pablo.hernandez.cerdan@outlook.com",
+        "persona_firstname": "Pablo",
+        "persona_id": 9689,
+        "persona_lastname": "Hernandez-Cerdan"
+      }
+    ],
+    "categories": [
+      "Image",
+      "Information Theory",
+      "Iterators"
+    ],
+    "comments": [
+      {
+        "content": "Hello\r\nThank you for this implementation.\r\n\r\nI Have same bugs when I try to test your project\r\n\r\nitkFFTPadPositiveIndexImageFilterTest.cxx:55:24: error: macro \"EXERCISE_BASIC_OBJECT_METHODS\" passed 3 arguments but takes just 2\r\n\r\n\r\nitkFFTPadPositiveIndexImageFilterTest.cxx:21:\r\nitkFFTPadPositiveIndexImageFilter.h:109: error: ISO C++ forbids declaration of 'ITK_DISALLOW_COPY_AND_ASSIGN' with no type  \r\n\r\nitkFFTPadPositiveIndexImageFilterTest.cxx: In function 'itkFFTPadPositiveIndexImageFilterTest(int char**)':\r\nitkFFTPadPositiveIndexImageFilterTest.cxx:54: error: 'EXERCISE_BASIC_OBJECT_METHODS'was not declared in this scope\r\n\r\n\r\nthank you\r\n",
+        "date": "2017-06-19T10:31:50",
+        "persona_email": "diouweltandiang@gmail.com",
+        "persona_firstname": "Juju",
+        "persona_id": 10363,
+        "persona_lastname": "Tardon"
+      },
+      {
+        "content": "Nice! Good to know that you are working on this. I have implemented the itkRieszRotationMatrix --S_U-- and also the StructureTensor --J(x_0)--. I will read more carefully your manuscript and the Matlab code but maybe isn't that much work to implement it in ITK?. I am busy right now writing up but I am sure in the future I'll tackle more of this. Thanks for pointing it.",
+        "date": "2017-06-07T06:16:10",
+        "persona_email": "pablo.hernandez.cerdan@outlook.com",
+        "persona_firstname": "Pablo",
+        "persona_id": 9689,
+        "persona_lastname": "Hernandez-Cerdan"
+      },
+      {
+        "content": "Hello Juju\r\nI think those errors in the macros can be solved if you update ITK. Not sure what is the minimum version but some people reported similar errors that were solved for 4.10 maybe? (http://public.kitware.com/pipermail/community/2016-June/011491.html). This module is tested using the latest ITK (from master) and it has no errors in any platform there. Hope it helps.",
+        "date": "2017-06-21T17:53:37",
+        "persona_email": "pablo.hernandez.cerdan@outlook.com",
+        "persona_firstname": "Pablo",
+        "persona_id": 9689,
+        "persona_lastname": "Hernandez-Cerdan"
+      }
+    ],
+    "date_submitted": "2016-07-16 22:53:38",
+    "handles": [
+      {
+        "handle": "10380/3558",
+        "handle_url": "http://hdl.handle.net/10380/3558"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 986,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "pablo.hernandez.cerdan@outlook.com",
+      "author_firstname": "Pablo",
+      "author_fullname": "Hernandez-Cerdan, Pablo",
+      "author_id": 9689,
+      "author_institution": "Institute of Fundamental Sciences. Massey University",
+      "author_lastname": "Hernandez-Cerdan"
+    },
+    "tags": [
+      "Isotropic",
+      "Filter Bank",
+      "Denoise",
+      "Wavelet",
+      "External",
+      "Feature Detection",
+      "Riesz",
+      "Phase",
+      "MRA",
+      "Pyramid"
+    ],
+    "title": "Isotropic and Steerable Wavelets in N Dimensions. A multiresolution analysis framework."
+  }
 }

@@ -1,85 +1,88 @@
 {
- "publication": {
-  "abstract": "The Gyrification Index (GI) quantifies the amount of folding of a cortical surface. In this paper, we show the efficiency of spectral analysis to perform such a task, and in particular we explain how the graph windowed Fourier transform can be used as a tool to define new GIs with multiscale properties. We propose two different GIs and study their effect on a set of subjects whose cortical surfaces are modeled with triangular meshes.",
-  "authors": [
-   {
-    "author_fullname": "Anton, Jean-Luc",
-    "author_place": 5,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Coulon, Olivier",
-    "author_place": 6,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Roth, Muriel",
-    "author_place": 4,
-    "persona_email": "murielroth@free.fr",
-    "persona_firstname": "Muriel",
-    "persona_id": 9642,
-    "persona_lastname": "Roth"
-   },
-   {
-    "author_fullname": "Rabiei, Hamed",
-    "author_place": 2,
-    "persona_email": "hamed.rabiei10@gmail.com",
-    "persona_firstname": "Hamed",
-    "persona_id": 9646,
-    "persona_lastname": "Rabiei"
-   },
-   {
-    "author_fullname": "Richard, Frederic",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Lefevre, Julien",
-    "author_place": 7,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Feature extraction",
-   "Images",
-   "Mesh"
-  ],
-  "comments": [],
-  "date_submitted": "2015-10-05 17:37:57",
-  "handles": [
-   {
-    "handle": "10380/3527",
-    "handle_url": "http://hdl.handle.net/10380/3527"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 44,
-    "journal_name": "MICCAI 2015 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 962,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "hamed.rabiei10@gmail.com",
-   "author_firstname": "Hamed",
-   "author_fullname": "Rabiei, Hamed",
-   "author_id": 9646,
-   "author_institution": "Aix-Marseille university",
-   "author_lastname": "Rabiei"
-  },
-  "tags": [
-   "gyrifiation index",
-   "spectral analysis",
-   "computational anatomy",
-   "windowed Fourier transform",
-   "Laplace-Beltrami operator"
-  ],
-  "title": "The graph windowed Fourier transform: a tool to quantify the gyrification of the cerebral cortex"
- }
+  "publication": {
+    "abstract": "The Gyrification Index (GI) quantifies the amount of folding of a cortical surface. In this paper, we show the efficiency of spectral analysis to perform such a task, and in particular we explain how the graph windowed Fourier transform can be used as a tool to define new GIs with multiscale properties. We propose two different GIs and study their effect on a set of subjects whose cortical surfaces are modeled with triangular meshes.",
+    "articles": [
+      "bafybeifscxbw4mmvsqhshyhixj4jtyj7jwuclufeodch34ernlzyj3fnz4"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Anton, Jean-Luc",
+        "author_place": 5,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Coulon, Olivier",
+        "author_place": 6,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Roth, Muriel",
+        "author_place": 4,
+        "persona_email": "murielroth@free.fr",
+        "persona_firstname": "Muriel",
+        "persona_id": 9642,
+        "persona_lastname": "Roth"
+      },
+      {
+        "author_fullname": "Rabiei, Hamed",
+        "author_place": 2,
+        "persona_email": "hamed.rabiei10@gmail.com",
+        "persona_firstname": "Hamed",
+        "persona_id": 9646,
+        "persona_lastname": "Rabiei"
+      },
+      {
+        "author_fullname": "Richard, Frederic",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Lefevre, Julien",
+        "author_place": 7,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Feature extraction",
+      "Images",
+      "Mesh"
+    ],
+    "comments": [],
+    "date_submitted": "2015-10-05 17:37:57",
+    "handles": [
+      {
+        "handle": "10380/3527",
+        "handle_url": "http://hdl.handle.net/10380/3527"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 44,
+        "journal_name": "MICCAI 2015 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 962,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "hamed.rabiei10@gmail.com",
+      "author_firstname": "Hamed",
+      "author_fullname": "Rabiei, Hamed",
+      "author_id": 9646,
+      "author_institution": "Aix-Marseille university",
+      "author_lastname": "Rabiei"
+    },
+    "tags": [
+      "gyrifiation index",
+      "spectral analysis",
+      "computational anatomy",
+      "windowed Fourier transform",
+      "Laplace-Beltrami operator"
+    ],
+    "title": "The graph windowed Fourier transform: a tool to quantify the gyrification of the cerebral cortex"
+  }
 }

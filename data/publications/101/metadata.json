@@ -1,94 +1,101 @@
 {
- "publication": {
-  "abstract": "Shape analysis has become of increasing interest to\nthe neuroimaging community due to its potential to precisely locate\nmorphological changes between healthy and pathological structures.\nThis manuscript presents a comprehensive set of tools for the computation of 3D structural statistical shape analysis. It has been applied in several studies on brain morphometry, but can potentially be employed in other 3D shape problems. Its main limitations is the necessity of spherical topology. \n\nThe input of the proposed shape analysis is a set of binary segmentation of a single brain structure, such as the hippocampus or caudate. These segmentations are converted into a corresponding spherical harmonic description (SPHARM), which is then sampled into a triangulated surfaces (SPHARM-PDM). After alignment, differences between groups of surfaces are computed using the Hotelling $T^2$ two sample metric. Statistical p-values, both raw and corrected for multiple comparisons, result in significance maps. Additional visualization of the group tests are provided via mean difference magnitude and vector maps, as well as maps of the group covariance information.\n\nThe correction for multiple comparisons is performed via two separate methods that each have a distinct view of the problem. The first one aims to control the family-wise error rate (FWER) or false-positives via the extrema histogram of non-parametric permutations. The second method controls the false discovery rate and results in a less conservative estimate of the false-negatives.\n\n<a href=\"http://www.nitrc.org/projects/spharm-pdm\"> New NITRC page for binary distribution </a>\n ",
-  "authors": [
-   {
-    "author_fullname": "Styner, Martin",
-    "author_place": 1,
-    "persona_email": "styner@cs.unc.edu",
-    "persona_firstname": "Martin",
-    "persona_id": 28,
-    "persona_lastname": "Styner"
-   },
-   {
-    "author_fullname": "Oguz, Ipek",
-    "author_place": 2,
-    "persona_email": "ipek@cs.unc.edu",
-    "persona_firstname": "Ipek",
-    "persona_id": 122,
-    "persona_lastname": "Oguz"
-   },
-   {
-    "author_fullname": "Xu, Shun",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Brechbuehler, Christian",
-    "author_place": 4,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Pantazis, Dimitrios",
-    "author_place": 5,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Levitt, James J",
-    "author_place": 6,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Shenton, Martha E",
-    "author_place": 7,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Gerig, Guido",
-    "author_place": 8,
-    "persona_id": null
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2006-07-01T00:00:00Z",
-  "handles": [
-   {
-    "handle": "1926/215",
-    "handle_url": "http://hdl.handle.net/1926/215"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 101,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "styner@cs.unc.edu",
-   "author_firstname": "Martin",
-   "author_fullname": "Styner, Martin",
-   "author_id": 28,
-   "author_institution": "University of North Carolina, Departments of Computer Science and Psychiatry",
-   "author_lastname": "Styner"
-  },
-  "tags": [
-   "Multiple Comparison Problem",
-   "Statistical Shape Analysis",
-   "Brain Morphometry",
-   "Brain Structures Analysis",
-   "False Discovery Rate",
-   "Permutation Tests",
-   "Spherical Parameterization",
-   "Spherical harmonics"
-  ],
-  "title": "Framework for the Statistical Shape Analysis of Brain Structures using SPHARM-PDM"
- }
+  "publication": {
+    "abstract": "Shape analysis has become of increasing interest to\nthe neuroimaging community due to its potential to precisely locate\nmorphological changes between healthy and pathological structures.\nThis manuscript presents a comprehensive set of tools for the computation of 3D structural statistical shape analysis. It has been applied in several studies on brain morphometry, but can potentially be employed in other 3D shape problems. Its main limitations is the necessity of spherical topology. \n\nThe input of the proposed shape analysis is a set of binary segmentation of a single brain structure, such as the hippocampus or caudate. These segmentations are converted into a corresponding spherical harmonic description (SPHARM), which is then sampled into a triangulated surfaces (SPHARM-PDM). After alignment, differences between groups of surfaces are computed using the Hotelling $T^2$ two sample metric. Statistical p-values, both raw and corrected for multiple comparisons, result in significance maps. Additional visualization of the group tests are provided via mean difference magnitude and vector maps, as well as maps of the group covariance information.\n\nThe correction for multiple comparisons is performed via two separate methods that each have a distinct view of the problem. The first one aims to control the family-wise error rate (FWER) or false-positives via the extrema histogram of non-parametric permutations. The second method controls the false discovery rate and results in a less conservative estimate of the false-negatives.\n\n<a href=\"http://www.nitrc.org/projects/spharm-pdm\"> New NITRC page for binary distribution </a>\n ",
+    "articles": [
+      "bafybeiaj4k2vh4c4ulabclerdrksixsav42gfw6wvrrirsqydtys52yflq",
+      "bafybeihgl7jgagjalvrubytjwpxy4zczzritr6en5lnefvacotduhdqyg4",
+      "bafybeihl4p6bphmd3abuwsnux74blwaks5j6it3gw4htd25cvgs3zt2cnm",
+      "bafybeihbzg5tqbxbdf7nfgfjyrpqbeldmutl4fpprygbwsihzpwzdcokga",
+      "bafybeieoouecqemxthcfb53tqktcr6t2nissfitp6k6afq4g2wdbn26f4q"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Styner, Martin",
+        "author_place": 1,
+        "persona_email": "styner@cs.unc.edu",
+        "persona_firstname": "Martin",
+        "persona_id": 28,
+        "persona_lastname": "Styner"
+      },
+      {
+        "author_fullname": "Oguz, Ipek",
+        "author_place": 2,
+        "persona_email": "ipek@cs.unc.edu",
+        "persona_firstname": "Ipek",
+        "persona_id": 122,
+        "persona_lastname": "Oguz"
+      },
+      {
+        "author_fullname": "Xu, Shun",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Brechbuehler, Christian",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Pantazis, Dimitrios",
+        "author_place": 5,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Levitt, James J",
+        "author_place": 6,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Shenton, Martha E",
+        "author_place": 7,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Gerig, Guido",
+        "author_place": 8,
+        "persona_id": null
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2006-07-01T00:00:00Z",
+    "handles": [
+      {
+        "handle": "1926/215",
+        "handle_url": "http://hdl.handle.net/1926/215"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 101,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "styner@cs.unc.edu",
+      "author_firstname": "Martin",
+      "author_fullname": "Styner, Martin",
+      "author_id": 28,
+      "author_institution": "University of North Carolina, Departments of Computer Science and Psychiatry",
+      "author_lastname": "Styner"
+    },
+    "tags": [
+      "Multiple Comparison Problem",
+      "Statistical Shape Analysis",
+      "Brain Morphometry",
+      "Brain Structures Analysis",
+      "False Discovery Rate",
+      "Permutation Tests",
+      "Spherical Parameterization",
+      "Spherical harmonics"
+    ],
+    "title": "Framework for the Statistical Shape Analysis of Brain Structures using SPHARM-PDM"
+  }
 }

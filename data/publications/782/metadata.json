@@ -1,55 +1,58 @@
 {
- "publication": {
-  "abstract": "Distributed anisotropic diffusion provides a wrapper program around ITK's anisotropic diffusion filters that allows an input image to be spread across the memory of several computers and the processors of all of the computers to work simultaneously on the output. Distributed anisotropic diffusion allows the Visible Woman Head dataset to be smoothed with 100 iterations of the vector gradient magnitude anisotropic diffusion filter in 47 minutes on an 8 node 64 core cluster versus 53 minutes for just 10 iterations of standard vector gradient magnitude anisotropic diffusion on a single node.",
-  "authors": [
-   {
-    "author_fullname": "Hobbs, Kevin",
-    "author_place": 1,
-    "persona_email": "hobbsk@ohiou.edu",
-    "persona_firstname": "Kevin",
-    "persona_id": 465,
-    "persona_lastname": "Hobbs"
-   }
-  ],
-  "categories": [
-   "Anisotropic blurring filters",
-   "Distributed computation"
-  ],
-  "comments": [],
-  "date_submitted": "2010-12-15 13:29:16",
-  "handles": [
-   {
-    "handle": "10380/3242",
-    "handle_url": "http://hdl.handle.net/10380/3242"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 782,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "hobbsk@ohiou.edu",
-   "author_firstname": "Kevin",
-   "author_fullname": "Hobbs, Kevin",
-   "author_id": 465,
-   "author_institution": "Ohio University",
-   "author_lastname": "Hobbs"
-  },
-  "tags": [
-   "MPI",
-   "Smoothing",
-   "Anisotropic",
-   "Distributed"
-  ],
-  "title": "Distributed Anisotropic Diffusion"
- }
+  "publication": {
+    "abstract": "Distributed anisotropic diffusion provides a wrapper program around ITK's anisotropic diffusion filters that allows an input image to be spread across the memory of several computers and the processors of all of the computers to work simultaneously on the output. Distributed anisotropic diffusion allows the Visible Woman Head dataset to be smoothed with 100 iterations of the vector gradient magnitude anisotropic diffusion filter in 47 minutes on an 8 node 64 core cluster versus 53 minutes for just 10 iterations of standard vector gradient magnitude anisotropic diffusion on a single node.",
+    "articles": [
+      "bafkreiest4e4f5lkirwpmz5ym7k225f6bsqdd4yukqvk2umx3ffrvb2wni"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Hobbs, Kevin",
+        "author_place": 1,
+        "persona_email": "hobbsk@ohiou.edu",
+        "persona_firstname": "Kevin",
+        "persona_id": 465,
+        "persona_lastname": "Hobbs"
+      }
+    ],
+    "categories": [
+      "Anisotropic blurring filters",
+      "Distributed computation"
+    ],
+    "comments": [],
+    "date_submitted": "2010-12-15 13:29:16",
+    "handles": [
+      {
+        "handle": "10380/3242",
+        "handle_url": "http://hdl.handle.net/10380/3242"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 782,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "hobbsk@ohiou.edu",
+      "author_firstname": "Kevin",
+      "author_fullname": "Hobbs, Kevin",
+      "author_id": 465,
+      "author_institution": "Ohio University",
+      "author_lastname": "Hobbs"
+    },
+    "tags": [
+      "MPI",
+      "Smoothing",
+      "Anisotropic",
+      "Distributed"
+    ],
+    "title": "Distributed Anisotropic Diffusion"
+  }
 }

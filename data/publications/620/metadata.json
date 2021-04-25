@@ -1,103 +1,109 @@
 {
- "publication": {
-  "abstract": "We have created open-source Simulink block libraries for ITK and VTK that allow pipelines for these toolkits to be built in a visual, drag-and-drop style within MATLAB. Each block contains an instance of an ITK or VTK class. Any block connections and parameters that the user makes within MATLAB's Simulink visual environment are converted into connections and parameters for the ITK and VTK pipelines. In addition, we provide conversion of images to and from MATLAB arrays to allow MATLAB image processing blocks to be mixed with ITK and VTK blocks. The code for our block libraries is generated automatically from XML descriptions of the inputs, outputs, and parameters of the ITK and VTK classes. We have used these block libraries to build some example pipelines and believe that they will be useful for developing applications in image analysis and image-guided therapy.",
-  "authors": [
-   {
-    "author_fullname": "Gobbi, David",
-    "author_place": 1,
-    "persona_email": "david.gobbi@gmail.com",
-    "persona_firstname": "David",
-    "persona_id": 881,
-    "persona_lastname": "Gobbi"
-   },
-   {
-    "author_fullname": "Mousavi, Parvin",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Li, Karen",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Xiang, Jing",
-    "author_place": 4,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Campigotto, Adam",
-    "author_place": 5,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "LaPointe, Adrien",
-    "author_place": 6,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Fichtinger, Gabor",
-    "author_place": 7,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Abolmaesumi, Purang",
-    "author_place": 8,
-    "persona_email": "purang@ece.ubc.ca",
-    "persona_firstname": "Purang",
-    "persona_id": 2818,
-    "persona_lastname": "Abolmaesumi"
-   }
-  ],
-  "categories": [
-   "CMake",
-   "Filtering",
-   "Language binding",
-   "Programming",
-   "Registration",
-   "Segmentation"
-  ],
-  "comments": [],
-  "date_submitted": "2010-06-30 00:10:04",
-  "handles": [
-   {
-    "handle": "10380/1461",
-    "handle_url": "http://hdl.handle.net/10380/1461"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 40,
-    "journal_name": "MICCAI 2012 Workshops"
-   },
-   {
-    "journal_id": 33,
-    "journal_name": "MICCAI 2008 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 620,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "david.gobbi@gmail.com",
-   "author_firstname": "David",
-   "author_fullname": "Gobbi, David",
-   "author_id": 881,
-   "author_institution": "University of Calgary",
-   "author_lastname": "Gobbi"
-  },
-  "tags": [
-   "VTK",
-   "ITK",
-   "MATLAB",
-   "Simulink",
-   "visual programming",
-   "image-guided therapy"
-  ],
-  "title": "Simulink Libraries for Visual Programming of VTK and ITK"
- }
+  "publication": {
+    "abstract": "We have created open-source Simulink block libraries for ITK and VTK that allow pipelines for these toolkits to be built in a visual, drag-and-drop style within MATLAB. Each block contains an instance of an ITK or VTK class. Any block connections and parameters that the user makes within MATLAB's Simulink visual environment are converted into connections and parameters for the ITK and VTK pipelines. In addition, we provide conversion of images to and from MATLAB arrays to allow MATLAB image processing blocks to be mixed with ITK and VTK blocks. The code for our block libraries is generated automatically from XML descriptions of the inputs, outputs, and parameters of the ITK and VTK classes. We have used these block libraries to build some example pipelines and believe that they will be useful for developing applications in image analysis and image-guided therapy.",
+    "articles": [
+      null,
+      null,
+      null,
+      "bafkreiawo5pnuyzcwi6idw574avapjxvthrfsxpyn6iztvflxwkkf5wly4"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Gobbi, David",
+        "author_place": 1,
+        "persona_email": "david.gobbi@gmail.com",
+        "persona_firstname": "David",
+        "persona_id": 881,
+        "persona_lastname": "Gobbi"
+      },
+      {
+        "author_fullname": "Mousavi, Parvin",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Li, Karen",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Xiang, Jing",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Campigotto, Adam",
+        "author_place": 5,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "LaPointe, Adrien",
+        "author_place": 6,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Fichtinger, Gabor",
+        "author_place": 7,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Abolmaesumi, Purang",
+        "author_place": 8,
+        "persona_email": "purang@ece.ubc.ca",
+        "persona_firstname": "Purang",
+        "persona_id": 2818,
+        "persona_lastname": "Abolmaesumi"
+      }
+    ],
+    "categories": [
+      "CMake",
+      "Filtering",
+      "Language binding",
+      "Programming",
+      "Registration",
+      "Segmentation"
+    ],
+    "comments": [],
+    "date_submitted": "2010-06-30 00:10:04",
+    "handles": [
+      {
+        "handle": "10380/1461",
+        "handle_url": "http://hdl.handle.net/10380/1461"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 40,
+        "journal_name": "MICCAI 2012 Workshops"
+      },
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 620,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "david.gobbi@gmail.com",
+      "author_firstname": "David",
+      "author_fullname": "Gobbi, David",
+      "author_id": 881,
+      "author_institution": "University of Calgary",
+      "author_lastname": "Gobbi"
+    },
+    "tags": [
+      "VTK",
+      "ITK",
+      "MATLAB",
+      "Simulink",
+      "visual programming",
+      "image-guided therapy"
+    ],
+    "title": "Simulink Libraries for Visual Programming of VTK and ITK"
+  }
 }

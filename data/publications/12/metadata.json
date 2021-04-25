@@ -1,117 +1,120 @@
 {
- "publication": {
-  "abstract": "The usage of image processing has become an important and continuous growing field in medical imaging. Although a large amount of algorithms is available, only few are routinely applied within applications for clinical diagnosis support and treatment planning. New tools are required that allow for efficient evaluation and comparison of algorithms as well as the \r\ngeneration of dedicated user interfaces with sophisticated visualization for clinical applications. We propose a generic integration of ITK algorithms into the visual programming and rapid prototyping platform MeVisLab. One of the main limitation of ITK is its lack of visualization and interaction functionality through a dedicated development platform. MeVisLab provides a modular visual programming interface with a comprehensive suite of image processing and visualization tools. The linkage of ITK algorithms to MeVisLab is based on a two step process that consists of a generic XML description for each ITK algorithm and an automatic code generator to create new MeVisLab modules, which will be made publicly available within the free version of MeVisLab. Each module can handle different image types and data dimensions dynamically at runtime. Example applications using registration, segmentation, and visualization modules are presented in order to show the capabilities of the described integration concept.",
-  "authors": [
-   {
-    "author_fullname": "Rexilius, Jan",
-    "author_place": 1,
-    "persona_email": "rexilius@mevis.de",
-    "persona_firstname": "Jan",
-    "persona_id": 33,
-    "persona_lastname": "Rexilius"
-   },
-   {
-    "author_fullname": "Spindler, Wolf",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Jomier, Julien",
-    "author_place": 3,
-    "persona_email": "julien@jomier.com",
-    "persona_firstname": "Julien",
-    "persona_id": 3,
-    "persona_lastname": "Jomier"
-   },
-   {
-    "author_fullname": "Koenig, Matthias",
-    "author_place": 4,
-    "persona_email": "koenig@mevis.de",
-    "persona_firstname": "Matthias",
-    "persona_id": 298,
-    "persona_lastname": "Koenig"
-   },
-   {
-    "author_fullname": "Hahn, Horst",
-    "author_place": 5,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Link, Florian",
-    "author_place": 6,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Peitgen, Heinz-Otto",
-    "author_place": 7,
-    "persona_id": null
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2005-07-29T13:15:43Z",
-  "handles": [
-   {
-    "handle": "1926/112",
-    "handle_url": "http://hdl.handle.net/1926/112"
-   },
-   {
-    "handle": "1926/12",
-    "handle_url": "http://hdl.handle.net/1926/12"
-   },
-   {
-    "handle": "1926/540",
-    "handle_url": "http://hdl.handle.net/1926/540"
-   },
-   {
-    "handle": "1926/594",
-    "handle_url": "http://hdl.handle.net/1926/594"
-   },
-   {
-    "handle": "1926/577",
-    "handle_url": "http://hdl.handle.net/1926/577"
-   },
-   {
-    "handle": "1926/538",
-    "handle_url": "http://hdl.handle.net/1926/538"
-   },
-   {
-    "handle": "1926/186",
-    "handle_url": "http://hdl.handle.net/1926/186"
-   },
-   {
-    "handle": "1926/542",
-    "handle_url": "http://hdl.handle.net/1926/542"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 12,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "rexilius@mevis.de",
-   "author_firstname": "Jan",
-   "author_fullname": "Rexilius, Jan",
-   "author_id": 33,
-   "author_institution": "MeVis",
-   "author_lastname": "Rexilius"
-  },
-  "tags": [
-   "MeVisLab",
-   "Algorithm Evaluation",
-   "ITK",
-   "Visual Programming",
-   "Clinical Application Prototyping"
-  ],
-  "title": "A Framework for Algorithm Evaluation and Clinical Application Prototyping using ITK"
- }
+  "publication": {
+    "abstract": "The usage of image processing has become an important and continuous growing field in medical imaging. Although a large amount of algorithms is available, only few are routinely applied within applications for clinical diagnosis support and treatment planning. New tools are required that allow for efficient evaluation and comparison of algorithms as well as the \r\ngeneration of dedicated user interfaces with sophisticated visualization for clinical applications. We propose a generic integration of ITK algorithms into the visual programming and rapid prototyping platform MeVisLab. One of the main limitation of ITK is its lack of visualization and interaction functionality through a dedicated development platform. MeVisLab provides a modular visual programming interface with a comprehensive suite of image processing and visualization tools. The linkage of ITK algorithms to MeVisLab is based on a two step process that consists of a generic XML description for each ITK algorithm and an automatic code generator to create new MeVisLab modules, which will be made publicly available within the free version of MeVisLab. Each module can handle different image types and data dimensions dynamically at runtime. Example applications using registration, segmentation, and visualization modules are presented in order to show the capabilities of the described integration concept.",
+    "articles": [
+      "bafybeidbie4scd6d5ku7b4dnyw5owhaxafmovawxrfocvzlbx2qexzyfa4"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Rexilius, Jan",
+        "author_place": 1,
+        "persona_email": "rexilius@mevis.de",
+        "persona_firstname": "Jan",
+        "persona_id": 33,
+        "persona_lastname": "Rexilius"
+      },
+      {
+        "author_fullname": "Spindler, Wolf",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Jomier, Julien",
+        "author_place": 3,
+        "persona_email": "julien@jomier.com",
+        "persona_firstname": "Julien",
+        "persona_id": 3,
+        "persona_lastname": "Jomier"
+      },
+      {
+        "author_fullname": "Koenig, Matthias",
+        "author_place": 4,
+        "persona_email": "koenig@mevis.de",
+        "persona_firstname": "Matthias",
+        "persona_id": 298,
+        "persona_lastname": "Koenig"
+      },
+      {
+        "author_fullname": "Hahn, Horst",
+        "author_place": 5,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Link, Florian",
+        "author_place": 6,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Peitgen, Heinz-Otto",
+        "author_place": 7,
+        "persona_id": null
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2005-07-29T13:15:43Z",
+    "handles": [
+      {
+        "handle": "1926/112",
+        "handle_url": "http://hdl.handle.net/1926/112"
+      },
+      {
+        "handle": "1926/12",
+        "handle_url": "http://hdl.handle.net/1926/12"
+      },
+      {
+        "handle": "1926/540",
+        "handle_url": "http://hdl.handle.net/1926/540"
+      },
+      {
+        "handle": "1926/594",
+        "handle_url": "http://hdl.handle.net/1926/594"
+      },
+      {
+        "handle": "1926/577",
+        "handle_url": "http://hdl.handle.net/1926/577"
+      },
+      {
+        "handle": "1926/538",
+        "handle_url": "http://hdl.handle.net/1926/538"
+      },
+      {
+        "handle": "1926/186",
+        "handle_url": "http://hdl.handle.net/1926/186"
+      },
+      {
+        "handle": "1926/542",
+        "handle_url": "http://hdl.handle.net/1926/542"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 12,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "rexilius@mevis.de",
+      "author_firstname": "Jan",
+      "author_fullname": "Rexilius, Jan",
+      "author_id": 33,
+      "author_institution": "MeVis",
+      "author_lastname": "Rexilius"
+    },
+    "tags": [
+      "MeVisLab",
+      "Algorithm Evaluation",
+      "ITK",
+      "Visual Programming",
+      "Clinical Application Prototyping"
+    ],
+    "title": "A Framework for Algorithm Evaluation and Clinical Application Prototyping using ITK"
+  }
 }

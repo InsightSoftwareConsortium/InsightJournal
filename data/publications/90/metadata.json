@@ -1,96 +1,100 @@
 {
- "publication": {
-  "abstract": "This document describes the implementation of an algorithm that computes a generalization of the distance transform with the squared euclidean metric.\n\nThe generalization allows for interesting image operators, e.g. a morphologic dilation with euclidean ball structure elements that can vary in size across the image. Voronoi maps and the standard distance transform can be computed as well.\n\nThe algorithm is provided as an image processing filter for ITK. Several example programs demonstrate its applications.",
-  "authors": [
-   {
-    "author_fullname": "King, Benjamin",
-    "author_place": 1,
-    "persona_email": "benjaminking@web.de",
-    "persona_firstname": "Benjamin",
-    "persona_id": 294,
-    "persona_lastname": "King"
-   },
-   {
-    "author_fullname": "D\u00f6ker, Rolf",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Meier, Simone",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Shin, Hoen-oh",
-    "author_place": 4,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Galanski, Michael",
-    "author_place": 5,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Mathematics",
-   "Programming"
-  ],
-  "comments": [],
-  "date_submitted": "2006-05-22T08:19:12Z",
-  "handles": [
-   {
-    "handle": "1926/196",
-    "handle_url": "http://hdl.handle.net/1926/196"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 90,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "heibel@cs.tum.edu",
-     "author_firstname": "Hauke",
-     "author_id": 692,
-     "author_lastname": "Heibel"
+  "publication": {
+    "abstract": "This document describes the implementation of an algorithm that computes a generalization of the distance transform with the squared euclidean metric.\n\nThe generalization allows for interesting image operators, e.g. a morphologic dilation with euclidean ball structure elements that can vary in size across the image. Voronoi maps and the standard distance transform can be computed as well.\n\nThe algorithm is provided as an image processing filter for ITK. Several example programs demonstrate its applications.",
+    "articles": [
+      "bafybeiduvcvvge5gdnlkltn3njlh3p2tici7gx2ymaryhlqk2jm7xh5wjm",
+      "bafybeiduvcvvge5gdnlkltn3njlh3p2tici7gx2ymaryhlqk2jm7xh5wjm"
+    ],
+    "authors": [
+      {
+        "author_fullname": "King, Benjamin",
+        "author_place": 1,
+        "persona_email": "benjaminking@web.de",
+        "persona_firstname": "Benjamin",
+        "persona_id": 294,
+        "persona_lastname": "King"
+      },
+      {
+        "author_fullname": "D\u00f6ker, Rolf",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Meier, Simone",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Shin, Hoen-oh",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Galanski, Michael",
+        "author_place": 5,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Mathematics",
+      "Programming"
+    ],
+    "comments": [],
+    "date_submitted": "2006-05-22T08:19:12Z",
+    "handles": [
+      {
+        "handle": "1926/196",
+        "handle_url": "http://hdl.handle.net/1926/196"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<p><strong>Summary:</strong><br />The authors are providing very well documented code and classes to compute a generalized euclidean distance transform.<br /> <br /> <strong>Open Science:</strong><br />The given publication offers an efficient way to compute euclidean distance transforms in 2D as well as 3D being integrated as an ImageToImageFilter into the ITK framework. For the computation of non-squared distances as well as signed distance maps, the authors utilize existing ITK algorithms on top of their own so they are following the paradigm of reusing as much existing code as possible.<br /><br /> <strong>Reproducibility:</strong><br />I did not ran the author&#39;s tests but tested the algorithm (extensively) in my own framework. The integration was done within minutes due to well written examples which are present within the publication.<br /><br /> <strong>Open Source Contributions:</strong><br />The algorithm implements the distance transform based on &quot;Distance Transforms of Sampled Functions.&quot; by Pedro F. Felzenszwalb and Daniel P. Huttenlocher which is new in the ITK framework.<br /><br /> <strong>Code Quality:</strong><br />All code is very well documented as well as very well structured and designed. A few abbreviations are used but they are already marked as to be replaced by the according long versions.</p><p> <strong>Applicability to other problems:</strong><br />Euclidean distance transforms are used in many applications/algorithms (registration, skeletonizing, etc.) and thus they are an important part within the ITK framework.</p><p>The work of the authors is probably of special interest to those who are computing distance transforms on &quot;large&quot; volumes, since it does not only have reasonable performance (~31s on 512x512x488, UseSpacing = true) but also a low memory print as opposed to the parallel maurer version introduced recently.</p><p><strong>Suggestions for future work:</strong> <br />Force the &#39;pow&#39; calls in the itkLowerEnvelopeOfParabolas.txx to float/double precision to prevent compile errors.</p><p>E.g. change </p><p>::minimalSpacing = static_cast&lt;SpacingType&gt;(pow(10, -MinimalSpacingPrecision));&nbsp;</p><p>to</p><p>::minimalSpacing = static_cast&lt;SpacingType&gt;(pow(10.0, -1.0*MinimalSpacingPrecision));</p><p><strong>Requests for additional information from authors:</strong><br />I&#39;ve stumbled over a small problem when I was reading binary unsigned short images from HD and wanted to perform a distance transform on them. I was wondering why the assert</p><p>assert(std::numeric_limits::is_signed);</p><p>was failing (itkLowerEnvelopeOfParabolas.txx l. 321). My input image was as said before unsigned short and my output image was float. After looking at the publication into section 3.1 at the description of the template parameters I found that you state that normally the TApexHeightType &quot;is the type of voxels in the distance image&quot;, i.e. TDistanceImage::PixelType.</p><p>This is now confusing me, since within the itk::GeneralizedDistanceTransformImageFilter the parameter is typedef&#39;ed to TFunctionImage::PixelType.</p><p>What is the correct version? I personally just did a quick-hack-test and interchanged TFunctionImage with TDistanceImage within the LEOP typedef but since I am not sure about the side effects I am not really happy with it, even though now I am getting correct distance transforms when enabling pixel spacing. </p><p> <strong>Additional Comments:</strong><br /> Great work and I am still giving full credit even in presence of the small issue mentioned above since the rest of the publication is so well done.&nbsp;</p>",
-    "date": "11-17-2007",
-    "review_id": 608
-   },
-   {
-    "author": {
-     "author_email": "gaetan.lehmann@gmail.com",
-     "author_firstname": "Gaetan",
-     "author_id": 328,
-     "author_lastname": "Lehmann"
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 90,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "heibel@cs.tum.edu",
+          "author_firstname": "Hauke",
+          "author_id": 692,
+          "author_lastname": "Heibel"
+        },
+        "content": "<p><strong>Summary:</strong><br />The authors are providing very well documented code and classes to compute a generalized euclidean distance transform.<br /> <br /> <strong>Open Science:</strong><br />The given publication offers an efficient way to compute euclidean distance transforms in 2D as well as 3D being integrated as an ImageToImageFilter into the ITK framework. For the computation of non-squared distances as well as signed distance maps, the authors utilize existing ITK algorithms on top of their own so they are following the paradigm of reusing as much existing code as possible.<br /><br /> <strong>Reproducibility:</strong><br />I did not ran the author&#39;s tests but tested the algorithm (extensively) in my own framework. The integration was done within minutes due to well written examples which are present within the publication.<br /><br /> <strong>Open Source Contributions:</strong><br />The algorithm implements the distance transform based on &quot;Distance Transforms of Sampled Functions.&quot; by Pedro F. Felzenszwalb and Daniel P. Huttenlocher which is new in the ITK framework.<br /><br /> <strong>Code Quality:</strong><br />All code is very well documented as well as very well structured and designed. A few abbreviations are used but they are already marked as to be replaced by the according long versions.</p><p> <strong>Applicability to other problems:</strong><br />Euclidean distance transforms are used in many applications/algorithms (registration, skeletonizing, etc.) and thus they are an important part within the ITK framework.</p><p>The work of the authors is probably of special interest to those who are computing distance transforms on &quot;large&quot; volumes, since it does not only have reasonable performance (~31s on 512x512x488, UseSpacing = true) but also a low memory print as opposed to the parallel maurer version introduced recently.</p><p><strong>Suggestions for future work:</strong> <br />Force the &#39;pow&#39; calls in the itkLowerEnvelopeOfParabolas.txx to float/double precision to prevent compile errors.</p><p>E.g. change </p><p>::minimalSpacing = static_cast&lt;SpacingType&gt;(pow(10, -MinimalSpacingPrecision));&nbsp;</p><p>to</p><p>::minimalSpacing = static_cast&lt;SpacingType&gt;(pow(10.0, -1.0*MinimalSpacingPrecision));</p><p><strong>Requests for additional information from authors:</strong><br />I&#39;ve stumbled over a small problem when I was reading binary unsigned short images from HD and wanted to perform a distance transform on them. I was wondering why the assert</p><p>assert(std::numeric_limits::is_signed);</p><p>was failing (itkLowerEnvelopeOfParabolas.txx l. 321). My input image was as said before unsigned short and my output image was float. After looking at the publication into section 3.1 at the description of the template parameters I found that you state that normally the TApexHeightType &quot;is the type of voxels in the distance image&quot;, i.e. TDistanceImage::PixelType.</p><p>This is now confusing me, since within the itk::GeneralizedDistanceTransformImageFilter the parameter is typedef&#39;ed to TFunctionImage::PixelType.</p><p>What is the correct version? I personally just did a quick-hack-test and interchanged TFunctionImage with TDistanceImage within the LEOP typedef but since I am not sure about the side effects I am not really happy with it, even though now I am getting correct distance transforms when enabling pixel spacing. </p><p> <strong>Additional Comments:</strong><br /> Great work and I am still giving full credit even in presence of the small issue mentioned above since the rest of the publication is so well done.&nbsp;</p>",
+        "date": "11-17-2007",
+        "review_id": 608
+      },
+      {
+        "author": {
+          "author_email": "gaetan.lehmann@gmail.com",
+          "author_firstname": "Gaetan",
+          "author_id": 328,
+          "author_lastname": "Lehmann"
+        },
+        "content": "<b>Summary:</b>\r\nThe authors are providing code and detailed paper for a new distance transform for ITK, and examples of applications\r\n \r\n<b>Reproducibility:</b>\r\nThe articl lack of a test infrastructure. CMake let the developer define very easily some test (see modified code)\r\n\r\n<b>Open Source Contributions:</b>\r\nAll the sources are there, and the test program are documented. Configuring and building the code was done in a few minutes\r\n[Do the author\u00e2\u0080\u0099s provide their source code? Is it in a form that is usable? Do they describe clearly how to use of the code? How long did it take you to use that code?]\r\n\r\n<b>Code Quality:</b>\r\nThe code is very clean\r\n\r\n<b>Applicability to other problems:</b>\r\ndistance transform is very important in image analysis, so this code will be useful in many cases\r\n\r\n<b>Suggestions for future work:</b>\r\n<ul>\r\n<li>use cmake\\\\\\'s tests\r\n<li>avoid using too much template parameters (they are difficult to wrap), and static attributes (they are not supported by the wrappers)\r\n<li>use concept checking rather than assert when possible, so we get the error at compile time, and we get it even if compiled in release mode\r\n</ul>\r\n\r\n<b>Requests for additional information from authors:</b>\r\nOne thing I\\\\\\'m not sure, is the usage of maxApexHeight. It has the type of the distance map pixel, but is used with the function pixel type in your examples. Does it mean that we must use the same type for distance map and function ?\r\n\r\n<b>Additional Comments:</b>\r\nI have modified your contribution to:\r\n<ul>\r\n<li> run tests with cmake\r\n<li> drop some template parameter - the parameter can now be chosen at run time\r\n<li> add progress report\r\n<li> set a GetMaximumApexHeight() static method, so it can be used with wrappers\r\n<li> wrap the classes and run a python test\r\n<li> fix a warning when function and distance type are different\r\n</ul>\r\nI will send you a tarball of the modified code. It can also be downloaded at http://voxel.jouy.inra.fr/darcsweb/darcsweb.cgi?r=generalizedDistanceTransform\r\n\r\nvery nice article\r\n",
+        "date": "07-06-2006",
+        "review_id": 241
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "benjaminking@web.de",
+      "author_firstname": "Benjamin",
+      "author_fullname": "King, Benjamin",
+      "author_id": 294,
+      "author_institution": "none",
+      "author_lastname": "King"
     },
-    "content": "<b>Summary:</b>\r\nThe authors are providing code and detailed paper for a new distance transform for ITK, and examples of applications\r\n \r\n<b>Reproducibility:</b>\r\nThe articl lack of a test infrastructure. CMake let the developer define very easily some test (see modified code)\r\n\r\n<b>Open Source Contributions:</b>\r\nAll the sources are there, and the test program are documented. Configuring and building the code was done in a few minutes\r\n[Do the author\u00e2\u0080\u0099s provide their source code? Is it in a form that is usable? Do they describe clearly how to use of the code? How long did it take you to use that code?]\r\n\r\n<b>Code Quality:</b>\r\nThe code is very clean\r\n\r\n<b>Applicability to other problems:</b>\r\ndistance transform is very important in image analysis, so this code will be useful in many cases\r\n\r\n<b>Suggestions for future work:</b>\r\n<ul>\r\n<li>use cmake\\\\\\'s tests\r\n<li>avoid using too much template parameters (they are difficult to wrap), and static attributes (they are not supported by the wrappers)\r\n<li>use concept checking rather than assert when possible, so we get the error at compile time, and we get it even if compiled in release mode\r\n</ul>\r\n\r\n<b>Requests for additional information from authors:</b>\r\nOne thing I\\\\\\'m not sure, is the usage of maxApexHeight. It has the type of the distance map pixel, but is used with the function pixel type in your examples. Does it mean that we must use the same type for distance map and function ?\r\n\r\n<b>Additional Comments:</b>\r\nI have modified your contribution to:\r\n<ul>\r\n<li> run tests with cmake\r\n<li> drop some template parameter - the parameter can now be chosen at run time\r\n<li> add progress report\r\n<li> set a GetMaximumApexHeight() static method, so it can be used with wrappers\r\n<li> wrap the classes and run a python test\r\n<li> fix a warning when function and distance type are different\r\n</ul>\r\nI will send you a tarball of the modified code. It can also be downloaded at http://voxel.jouy.inra.fr/darcsweb/darcsweb.cgi?r=generalizedDistanceTransform\r\n\r\nvery nice article\r\n",
-    "date": "07-06-2006",
-    "review_id": 241
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "benjaminking@web.de",
-   "author_firstname": "Benjamin",
-   "author_fullname": "King, Benjamin",
-   "author_id": 294,
-   "author_institution": "none",
-   "author_lastname": "King"
-  },
-  "tags": [
-   "Voronoi Map",
-   "Distance Transform"
-  ],
-  "title": "A Generalized Squared Euclidean Distance Transform with Voronoi Maps"
- }
+    "tags": [
+      "Voronoi Map",
+      "Distance Transform"
+    ],
+    "title": "A Generalized Squared Euclidean Distance Transform with Voronoi Maps"
+  }
 }

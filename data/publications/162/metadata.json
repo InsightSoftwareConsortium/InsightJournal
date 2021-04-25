@@ -1,65 +1,69 @@
 {
- "publication": {
-  "abstract": "This is a companion paper describing the process and parameters for tagged volume rendering of the heart. We firstly review the relevant concepts and consider the problem of visualising the coronary arteries from computed tomography angiography (CTA) images. We then discuss the implementation using the SharpImage prototyping environment. Finally, we list the set of commands capable of reproducing our results using the accompanying dataset.",
-  "authors": [
-   {
-    "author_fullname": "Mueller, Daniel",
-    "author_place": 1,
-    "persona_email": "dan.muel@gmail.com",
-    "persona_firstname": "Dan",
-    "persona_id": 286,
-    "persona_lastname": "Mueller"
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2007-07-06T09:43:24Z",
-  "handles": [
-   {
-    "handle": "1926/557",
-    "handle_url": "http://hdl.handle.net/1926/557"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 162,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "holmes.david3@mayo.edu",
-     "author_firstname": "David",
-     "author_id": 20,
-     "author_lastname": "Holmes"
+  "publication": {
+    "abstract": "This is a companion paper describing the process and parameters for tagged volume rendering of the heart. We firstly review the relevant concepts and consider the problem of visualising the coronary arteries from computed tomography angiography (CTA) images. We then discuss the implementation using the SharpImage prototyping environment. Finally, we list the set of commands capable of reproducing our results using the accompanying dataset.",
+    "articles": [
+      "bafybeiapuff3rqxnfzf6yksbhjl6dk77re5uonzbhdz2gvqz45yq4dsouu",
+      "bafybeic2zvv25ltqtu2zt2sqol3tjedvgrskhwxctiwpyvoh4xot3w6bgy"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Mueller, Daniel",
+        "author_place": 1,
+        "persona_email": "dan.muel@gmail.com",
+        "persona_firstname": "Dan",
+        "persona_id": 286,
+        "persona_lastname": "Mueller"
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2007-07-06T09:43:24Z",
+    "handles": [
+      {
+        "handle": "1926/557",
+        "handle_url": "http://hdl.handle.net/1926/557"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<p><strong>Summary:</strong><br />The authors describe the tools that they have built for volume rendering heart data.&nbsp; The details include segmentation and rendering.&nbsp; All of the necessary processing steps are described along with how to built the code.</p><p><br /><strong>Hypothesis:</strong><br />Not Applicable</p><p><br /><strong>Evidence:</strong><br />The authors include, in great detail, the process to create segmented volumes and render them.&nbsp; There is ample support also from the nice references provided.<br /><br /><strong>Open Science:</strong><br />This is completely open science.&nbsp; Both the source code and data are provided.</p><p><strong>Reproducibility:</strong><br />I admit that I did not compile the code.&nbsp; I did look at it and found there is not actually any code in it because it makes great use of other packages, so most&nbsp;of the files are cmake files for compiling existing tools.<br /><br /><strong>Use of Open Source Software:</strong><br />[Did the authors use Open Source software in their work? Do they describe their experience with it, advantages and disadvantages? Do they provide advice for future users of those Open Source packages?]<br /><br /><strong>Open Source Contributions:</strong><br />From my perspective, the primary contribution is&nbsp;the form and detail of the paper -- it is a nice template for others who would like to write a case study.&nbsp; Having access to the code is also valuable.<br /><br /><strong>Code Quality:</strong><br />Unevaluated</p><p><br /><strong>Applicability to other problems:</strong><br />At this point, I think it is probably applicable, but that has not yet been shown.&nbsp; The specific algorithms are tuned for the application.&nbsp;</p><p><strong>Suggestions for future work:</strong><br />More rendering examples and analysis will be beneficial.&nbsp; I also think that this can be used to show the value of visualization to the clinician which requires a study all by itself.</p><p>&nbsp;</p>",
-    "date": "09-01-2007",
-    "review_id": 543
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "dan.muel@gmail.com",
-   "author_firstname": "Dan",
-   "author_fullname": "Mueller, Dan",
-   "author_id": 286,
-   "author_institution": "Philips Healthcare",
-   "author_lastname": "Mueller"
-  },
-  "tags": [
-   "SharpImage",
-   "tagged volume rendering",
-   "coronary arteries",
-   "ITK",
-   "heart"
-  ],
-  "title": "Tagged Volume Rendering of the Heart: A Case Study"
- }
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 162,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "holmes.david3@mayo.edu",
+          "author_firstname": "David",
+          "author_id": 20,
+          "author_lastname": "Holmes"
+        },
+        "content": "<p><strong>Summary:</strong><br />The authors describe the tools that they have built for volume rendering heart data.&nbsp; The details include segmentation and rendering.&nbsp; All of the necessary processing steps are described along with how to built the code.</p><p><br /><strong>Hypothesis:</strong><br />Not Applicable</p><p><br /><strong>Evidence:</strong><br />The authors include, in great detail, the process to create segmented volumes and render them.&nbsp; There is ample support also from the nice references provided.<br /><br /><strong>Open Science:</strong><br />This is completely open science.&nbsp; Both the source code and data are provided.</p><p><strong>Reproducibility:</strong><br />I admit that I did not compile the code.&nbsp; I did look at it and found there is not actually any code in it because it makes great use of other packages, so most&nbsp;of the files are cmake files for compiling existing tools.<br /><br /><strong>Use of Open Source Software:</strong><br />[Did the authors use Open Source software in their work? Do they describe their experience with it, advantages and disadvantages? Do they provide advice for future users of those Open Source packages?]<br /><br /><strong>Open Source Contributions:</strong><br />From my perspective, the primary contribution is&nbsp;the form and detail of the paper -- it is a nice template for others who would like to write a case study.&nbsp; Having access to the code is also valuable.<br /><br /><strong>Code Quality:</strong><br />Unevaluated</p><p><br /><strong>Applicability to other problems:</strong><br />At this point, I think it is probably applicable, but that has not yet been shown.&nbsp; The specific algorithms are tuned for the application.&nbsp;</p><p><strong>Suggestions for future work:</strong><br />More rendering examples and analysis will be beneficial.&nbsp; I also think that this can be used to show the value of visualization to the clinician which requires a study all by itself.</p><p>&nbsp;</p>",
+        "date": "09-01-2007",
+        "review_id": 543
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "dan.muel@gmail.com",
+      "author_firstname": "Dan",
+      "author_fullname": "Mueller, Dan",
+      "author_id": 286,
+      "author_institution": "Philips Healthcare",
+      "author_lastname": "Mueller"
+    },
+    "tags": [
+      "SharpImage",
+      "tagged volume rendering",
+      "coronary arteries",
+      "ITK",
+      "heart"
+    ],
+    "title": "Tagged Volume Rendering of the Heart: A Case Study"
+  }
 }

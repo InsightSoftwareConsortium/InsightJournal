@@ -1,132 +1,139 @@
 {
- "publication": {
-  "abstract": "This paper describes the Carotid Lumen Segmentation and Stenosis Grading Challenge, which was part of the workshop ``3D Segmentation in the Clinic: A Grand Challenge''. This workshop was part of the 12th conference on Medical Image Computing and Computer Assisted Interventions, held in London in September 2009. We introduce the purpose and background of the challenge and describe the data, reference standard and evaluation measures that were used in this challenge. We also provide the results of the data that were submitted by industrial and academic research institutes.",
-  "authors": [
-   {
-    "author_fullname": "Hameeteman, K.",
-    "author_place": 1,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Freiman, M.",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Zuluaga, M. A.",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Joskowicz, L.",
-    "author_place": 4,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Rozie, S.",
-    "author_place": 5,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Van Gils, M. J.",
-    "author_place": 6,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Van den Borne, L.",
-    "author_place": 7,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Sosna, J.",
-    "author_place": 8,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Berman, P.",
-    "author_place": 9,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Cohen, N.",
-    "author_place": 10,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Douek, P.",
-    "author_place": 11,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Sanchez, I.",
-    "author_place": 12,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Aissat, M.",
-    "author_place": 13,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Van der Lugt, A.",
-    "author_place": 14,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Krestin, G. P.",
-    "author_place": 15,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Niessen, W. J.",
-    "author_place": 16,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Van Walsum, T.",
-    "author_place": 17,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Feature extraction",
-   "Segmentation"
-  ],
-  "comments": [],
-  "date_submitted": "2010-03-22 06:21:51",
-  "handles": [
-   {
-    "handle": "10380/3128",
-    "handle_url": "http://hdl.handle.net/10380/3128"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 34,
-    "journal_name": "MICCAI 2009 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 697,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "t.vanwalsum@erasmusmc.nl",
-   "author_firstname": "Theo",
-   "author_fullname": "van Walsum, Theo",
-   "author_id": 874,
-   "author_institution": "Biomedical Imaging Group Rottedam, Erasmus MC",
-   "author_lastname": "van Walsum"
-  },
-  "tags": [
-   "Evaluation framework",
-   "Carotid",
-   "Segmentation",
-   "Stenosis"
-  ],
-  "title": "Carotid Lumen Segmentation and Stenosis Grading Challenge"
- }
+  "publication": {
+    "abstract": "This paper describes the Carotid Lumen Segmentation and Stenosis Grading Challenge, which was part of the workshop ``3D Segmentation in the Clinic: A Grand Challenge''. This workshop was part of the 12th conference on Medical Image Computing and Computer Assisted Interventions, held in London in September 2009. We introduce the purpose and background of the challenge and describe the data, reference standard and evaluation measures that were used in this challenge. We also provide the results of the data that were submitted by industrial and academic research institutes.",
+    "articles": [
+      "bafkreiexbg5axq62xcubcccoy5dz2kfojk4gos6wururs2bcvp6je7hdye",
+      "bafybeifoq3siufye4v3accypomb6upptpcibtgn2snh77hjlhylsvdngye",
+      "bafybeidua4mdayxmtacycclaom7s6v7oalpq3suw32i7gwjr5z3wovkig4",
+      "bafybeie4nkvhdjuuaiv65doxgay2ad26p2yxnjuqip27xtdfadspa4l5ga",
+      "bafybeibqi72g5cgtd3fjklwbyyvqti5mzhwn7tk36cqrehcszdchpkcmne"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Hameeteman, K.",
+        "author_place": 1,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Freiman, M.",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Zuluaga, M. A.",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Joskowicz, L.",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Rozie, S.",
+        "author_place": 5,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Van Gils, M. J.",
+        "author_place": 6,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Van den Borne, L.",
+        "author_place": 7,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Sosna, J.",
+        "author_place": 8,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Berman, P.",
+        "author_place": 9,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Cohen, N.",
+        "author_place": 10,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Douek, P.",
+        "author_place": 11,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Sanchez, I.",
+        "author_place": 12,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Aissat, M.",
+        "author_place": 13,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Van der Lugt, A.",
+        "author_place": 14,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Krestin, G. P.",
+        "author_place": 15,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Niessen, W. J.",
+        "author_place": 16,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Van Walsum, T.",
+        "author_place": 17,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Feature extraction",
+      "Segmentation"
+    ],
+    "comments": [],
+    "date_submitted": "2010-03-22 06:21:51",
+    "handles": [
+      {
+        "handle": "10380/3128",
+        "handle_url": "http://hdl.handle.net/10380/3128"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 34,
+        "journal_name": "MICCAI 2009 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 697,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "t.vanwalsum@erasmusmc.nl",
+      "author_firstname": "Theo",
+      "author_fullname": "van Walsum, Theo",
+      "author_id": 874,
+      "author_institution": "Biomedical Imaging Group Rottedam, Erasmus MC",
+      "author_lastname": "van Walsum"
+    },
+    "tags": [
+      "Evaluation framework",
+      "Carotid",
+      "Segmentation",
+      "Stenosis"
+    ],
+    "title": "Carotid Lumen Segmentation and Stenosis Grading Challenge"
+  }
 }

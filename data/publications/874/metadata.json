@@ -1,69 +1,72 @@
 {
- "publication": {
-  "abstract": "Modern medical imaging analyses often involve the concatenation of multiple steps, and neuroimaging analysis is no exception. The Java Image Science Toolkit (JIST) has provided a framework for both end users and engineers to synthesize processing modules into tailored, automatic multi-step processing pipelines (\u201clayouts\u201d) and rapid prototyping of module development. Since its release, JIST has facilitated substantial neuroimaging research and fulfilled much of its intended goal. However, key weaknesses must be addressed for JIST to more fully realize its potential and become accessible to an even broader community base. Herein, we identify three core challenges facing traditional JIST (JIST-I) and present the solutions in the next generation JIST (JIST-II). First, in response to community demand, we have introduced seamless data visualization; users can now click \u2018show this data\u2019 through the program interfaces and avoid the need to locating files on the disk. Second, as JIST is an open-source community effort by-design; any developer may add modules to the distribution and extend existing functionality for release. However, the large number of developers and different use cases introduced instability into the overall JIST-I framework, causing users to freeze on different, incompatible versions of JIST-I, and the JIST community began to fracture. JIST-II addresses the problem of compilation instability by performing continuous integration checks nightly to ensure community implemented changes do not negatively impact overall JIST-II functionality. Third, JIST-II allows developers and users to ensure that functionality is preserved by running functionality checks nightly using the continuous integration framework. With JIST-II, users can submit layout test cases and quality control criteria through a new GUI. These test cases capture all runtime parameters and help to ensure that the module produces results within tolerance, despite changes in the underlying architecture. These three \u201cnext generation\u201d improvements increase the fidelity of the JIST framework and enhance utility by allowing researchers to more seamlessly and robustly build, manage, and understand medical image analysis processing pipelines.",
-  "authors": [
-   {
-    "author_fullname": "Li, Bo",
-    "author_place": 1,
-    "persona_email": "lxbosky@gmail.com",
-    "persona_firstname": "Bo",
-    "persona_id": 6509,
-    "persona_lastname": "Li"
-   },
-   {
-    "author_fullname": "Bryan, Frederick",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Landman, Bennett",
-    "author_place": 3,
-    "persona_email": "bennett.landman@vanderbilt.edu",
-    "persona_firstname": "Bennett",
-    "persona_id": 6074,
-    "persona_lastname": "Landman"
-   }
-  ],
-  "categories": [
-   "Data Representation",
-   "Programming"
-  ],
-  "comments": [],
-  "date_submitted": "2012-08-14 19:15:25",
-  "handles": [
-   {
-    "handle": "10380/3378",
-    "handle_url": "http://hdl.handle.net/10380/3378"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 874,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "lxbosky@gmail.com",
-   "author_firstname": "Bo",
-   "author_fullname": "Li, Bo",
-   "author_id": 6509,
-   "author_institution": "Vanderbilt University",
-   "author_lastname": "Li"
-  },
-  "tags": [
-   "visualization",
-   "JIST next generation",
-   "medical image analysis",
-   "continuous integration",
-   "fidelity"
-  ],
-  "title": "Next Generation of the JAVA Image Science Toolkit (JIST) Visualization and Validation"
- }
+  "publication": {
+    "abstract": "Modern medical imaging analyses often involve the concatenation of multiple steps, and neuroimaging analysis is no exception. The Java Image Science Toolkit (JIST) has provided a framework for both end users and engineers to synthesize processing modules into tailored, automatic multi-step processing pipelines (\u201clayouts\u201d) and rapid prototyping of module development. Since its release, JIST has facilitated substantial neuroimaging research and fulfilled much of its intended goal. However, key weaknesses must be addressed for JIST to more fully realize its potential and become accessible to an even broader community base. Herein, we identify three core challenges facing traditional JIST (JIST-I) and present the solutions in the next generation JIST (JIST-II). First, in response to community demand, we have introduced seamless data visualization; users can now click \u2018show this data\u2019 through the program interfaces and avoid the need to locating files on the disk. Second, as JIST is an open-source community effort by-design; any developer may add modules to the distribution and extend existing functionality for release. However, the large number of developers and different use cases introduced instability into the overall JIST-I framework, causing users to freeze on different, incompatible versions of JIST-I, and the JIST community began to fracture. JIST-II addresses the problem of compilation instability by performing continuous integration checks nightly to ensure community implemented changes do not negatively impact overall JIST-II functionality. Third, JIST-II allows developers and users to ensure that functionality is preserved by running functionality checks nightly using the continuous integration framework. With JIST-II, users can submit layout test cases and quality control criteria through a new GUI. These test cases capture all runtime parameters and help to ensure that the module produces results within tolerance, despite changes in the underlying architecture. These three \u201cnext generation\u201d improvements increase the fidelity of the JIST framework and enhance utility by allowing researchers to more seamlessly and robustly build, manage, and understand medical image analysis processing pipelines.",
+    "articles": [
+      "bafybeiaqt537lmdbmd25s2f7nynj5tnm6yc5rgd6ssylu7n2q6qiwgvyye"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Li, Bo",
+        "author_place": 1,
+        "persona_email": "lxbosky@gmail.com",
+        "persona_firstname": "Bo",
+        "persona_id": 6509,
+        "persona_lastname": "Li"
+      },
+      {
+        "author_fullname": "Bryan, Frederick",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Landman, Bennett",
+        "author_place": 3,
+        "persona_email": "bennett.landman@vanderbilt.edu",
+        "persona_firstname": "Bennett",
+        "persona_id": 6074,
+        "persona_lastname": "Landman"
+      }
+    ],
+    "categories": [
+      "Data Representation",
+      "Programming"
+    ],
+    "comments": [],
+    "date_submitted": "2012-08-14 19:15:25",
+    "handles": [
+      {
+        "handle": "10380/3378",
+        "handle_url": "http://hdl.handle.net/10380/3378"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 874,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "lxbosky@gmail.com",
+      "author_firstname": "Bo",
+      "author_fullname": "Li, Bo",
+      "author_id": 6509,
+      "author_institution": "Vanderbilt University",
+      "author_lastname": "Li"
+    },
+    "tags": [
+      "visualization",
+      "JIST next generation",
+      "medical image analysis",
+      "continuous integration",
+      "fidelity"
+    ],
+    "title": "Next Generation of the JAVA Image Science Toolkit (JIST) Visualization and Validation"
+  }
 }

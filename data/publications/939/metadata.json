@@ -1,84 +1,87 @@
 {
- "publication": {
-  "abstract": "Purpose: Recent years have seen growing interest in adaptive radiation therapy (RT), but the existing software tools are not ideal for research use, as they are either expensive and closed proprietary applications or free open-source packages with limited scope, extensibility, reliability, or user support. To address these limitations, we have developed SlicerRT, an open-source toolkit for RT research, providing fast computations and user-friendly interface for researchers. It is a medium for RT researchers to integrate their workflows in, assists clinical translation of experimental approaches, and enables comparative testing.\n\nMethods: SlicerRT builds on the widely used medical image visualization and analysis platform, 3D Slicer (www.slicer.org). In addition to the tools that 3D Slicer offers for visualization, registration and segmentation, the toolkit provides functions specifically designed for RT research. Established development processes as well as testing and validation environment ensure software quality. Standardized software development mechanisms of 3D Slicer were applied for documentation, distribution, and user support. The design and architecture of the toolkit was outlined in [1]. SlicerRT has evolved to contain the most widely used features in the field (see www.slicerrt.org), which have been defined through consensus discussions with a large pool of RT researchers.\n\nResults: Numerous modules have been developed for RT-specific features such as DICOM-RT data import and export, as well as dose analysis tools including dose volume histogram, dose accumulation, dose comparison, and isodose line and surface generation. The toolkit also includes contour analysis modules for handling various contour representations, contour morphology, and contour comparison. Advanced registration tools are provided by the included Plastimatch library [2]. The main new features developed in the last year are RT plan and RT image import and the subject hierarchy module, which arranges the loaded data to a structure familiar to clinicians, while providing advanced automation features through the underlying extendible mechanism. The toolkit is being used by several research groups to support and evaluate adaptive radiation therapy workflows. SlicerRT is available for download through the Extension Manager component of 3D Slicer 4.3 or later (see instructions on our website).\n\nFuture work: As SlicerRT has matured to contain most of the planned functions, our focus has shifted from feature development to usability and stability. The subject hierarchy module, and its features such as bulk deformation of studies embodies our efforts toward usability, while the integration of the subject hierarchy and the advanced contour handling mechanism into the 3D Slicer core points towards stability, also benefiting the whole 3D Slicer community. There is ongoing work to evaluate and potentially standardize the way the 2D contours are rasterized into 3D volumes, thus mitigating the great variability between the different solutions for this problem. Current funding ensures continuous development for several years, so SlicerRT is expected to develop further.\n\nAcknowledgement: This work was in part funded by Cancer Care Ontario through Applied Cancer Research Unit and Research Chair in Cancer Imaging grants, and the Ontario Consortium for Adaptive Invention in Radiation Oncology (OCAIRO).\n",
-  "authors": [
-   {
-    "author_fullname": "Pinter, Csaba",
-    "author_place": 1,
-    "persona_email": "csaba.pinter@queensu.ca",
-    "persona_firstname": "Csaba",
-    "persona_id": 9258,
-    "persona_lastname": "Pinter"
-   },
-   {
-    "author_fullname": "Lasso, Andras",
-    "author_place": 2,
-    "persona_email": "lasso@cs.queensu.ca",
-    "persona_firstname": "Andras",
-    "persona_id": 2170,
-    "persona_lastname": "Lasso"
-   },
-   {
-    "author_fullname": "Wang, An",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Sharp, Gregory C.",
-    "author_place": 4,
-    "persona_email": "gcsharp@partners.org",
-    "persona_firstname": "Greg",
-    "persona_id": 2425,
-    "persona_lastname": "Sharp"
-   },
-   {
-    "author_fullname": "Jaffray, David",
-    "author_place": 5,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Fichtinger, Gabor",
-    "author_place": 6,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Data Representation",
-   "DICOM"
-  ],
-  "comments": [],
-  "date_submitted": "2014-10-22 14:06:23",
-  "handles": [
-   {
-    "handle": "10380/3494",
-    "handle_url": "http://hdl.handle.net/10380/3494"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 42,
-    "journal_name": "MICCAI 2014 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 939,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "csaba.pinter@queensu.ca",
-   "author_firstname": "Csaba",
-   "author_fullname": "Pinter, Csaba",
-   "author_id": 9258,
-   "author_institution": "Queen's University",
-   "author_lastname": "Pinter"
-  },
-  "tags": [
-   "Radiation therapy",
-   "DICOM-RT"
-  ],
-  "title": "Improvements in SlicerRT, the radiation therapy research toolkit for 3D Slicer"
- }
+  "publication": {
+    "abstract": "Purpose: Recent years have seen growing interest in adaptive radiation therapy (RT), but the existing software tools are not ideal for research use, as they are either expensive and closed proprietary applications or free open-source packages with limited scope, extensibility, reliability, or user support. To address these limitations, we have developed SlicerRT, an open-source toolkit for RT research, providing fast computations and user-friendly interface for researchers. It is a medium for RT researchers to integrate their workflows in, assists clinical translation of experimental approaches, and enables comparative testing.\n\nMethods: SlicerRT builds on the widely used medical image visualization and analysis platform, 3D Slicer (www.slicer.org). In addition to the tools that 3D Slicer offers for visualization, registration and segmentation, the toolkit provides functions specifically designed for RT research. Established development processes as well as testing and validation environment ensure software quality. Standardized software development mechanisms of 3D Slicer were applied for documentation, distribution, and user support. The design and architecture of the toolkit was outlined in [1]. SlicerRT has evolved to contain the most widely used features in the field (see www.slicerrt.org), which have been defined through consensus discussions with a large pool of RT researchers.\n\nResults: Numerous modules have been developed for RT-specific features such as DICOM-RT data import and export, as well as dose analysis tools including dose volume histogram, dose accumulation, dose comparison, and isodose line and surface generation. The toolkit also includes contour analysis modules for handling various contour representations, contour morphology, and contour comparison. Advanced registration tools are provided by the included Plastimatch library [2]. The main new features developed in the last year are RT plan and RT image import and the subject hierarchy module, which arranges the loaded data to a structure familiar to clinicians, while providing advanced automation features through the underlying extendible mechanism. The toolkit is being used by several research groups to support and evaluate adaptive radiation therapy workflows. SlicerRT is available for download through the Extension Manager component of 3D Slicer 4.3 or later (see instructions on our website).\n\nFuture work: As SlicerRT has matured to contain most of the planned functions, our focus has shifted from feature development to usability and stability. The subject hierarchy module, and its features such as bulk deformation of studies embodies our efforts toward usability, while the integration of the subject hierarchy and the advanced contour handling mechanism into the 3D Slicer core points towards stability, also benefiting the whole 3D Slicer community. There is ongoing work to evaluate and potentially standardize the way the 2D contours are rasterized into 3D volumes, thus mitigating the great variability between the different solutions for this problem. Current funding ensures continuous development for several years, so SlicerRT is expected to develop further.\n\nAcknowledgement: This work was in part funded by Cancer Care Ontario through Applied Cancer Research Unit and Research Chair in Cancer Imaging grants, and the Ontario Consortium for Adaptive Invention in Radiation Oncology (OCAIRO).\n",
+    "articles": [
+      "bafybeiakrrqx6nbmvzdnd7sicf3ss4hknhbnjtlw3fdg47v3px2ew6ex5m"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Pinter, Csaba",
+        "author_place": 1,
+        "persona_email": "csaba.pinter@queensu.ca",
+        "persona_firstname": "Csaba",
+        "persona_id": 9258,
+        "persona_lastname": "Pinter"
+      },
+      {
+        "author_fullname": "Lasso, Andras",
+        "author_place": 2,
+        "persona_email": "lasso@cs.queensu.ca",
+        "persona_firstname": "Andras",
+        "persona_id": 2170,
+        "persona_lastname": "Lasso"
+      },
+      {
+        "author_fullname": "Wang, An",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Sharp, Gregory C.",
+        "author_place": 4,
+        "persona_email": "gcsharp@partners.org",
+        "persona_firstname": "Greg",
+        "persona_id": 2425,
+        "persona_lastname": "Sharp"
+      },
+      {
+        "author_fullname": "Jaffray, David",
+        "author_place": 5,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Fichtinger, Gabor",
+        "author_place": 6,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Data Representation",
+      "DICOM"
+    ],
+    "comments": [],
+    "date_submitted": "2014-10-22 14:06:23",
+    "handles": [
+      {
+        "handle": "10380/3494",
+        "handle_url": "http://hdl.handle.net/10380/3494"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 42,
+        "journal_name": "MICCAI 2014 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 939,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "csaba.pinter@queensu.ca",
+      "author_firstname": "Csaba",
+      "author_fullname": "Pinter, Csaba",
+      "author_id": 9258,
+      "author_institution": "Queen's University",
+      "author_lastname": "Pinter"
+    },
+    "tags": [
+      "Radiation therapy",
+      "DICOM-RT"
+    ],
+    "title": "Improvements in SlicerRT, the radiation therapy research toolkit for 3D Slicer"
+  }
 }

@@ -1,89 +1,94 @@
 {
- "publication": {
-  "abstract": "The Definiens Cognition Network Technology is applied to detect automatically tumors in a human liver. On the basis of a test data set containing ten tumors we show first quantitative results which are compared to manual segmentations provided by medical experts.",
-  "authors": [
-   {
-    "author_fullname": "Schmidt, Guenter",
-    "author_place": 1,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Binnig, Gerd",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Kietzmann, Markus",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Kim, Johann",
-    "author_place": 4,
-    "persona_email": "jkim@definiens.com",
-    "persona_firstname": "Johann",
-    "persona_id": 884,
-    "persona_lastname": "Kim"
-   }
-  ],
-  "categories": [
-   "Edge Detection",
-   "Feature extraction",
-   "Filtering",
-   "Region growing",
-   "Segmentation",
-   "Thresholding"
-  ],
-  "comments": [],
-  "date_submitted": "2008-07-07T16:21:28Z",
-  "handles": [
-   {
-    "handle": "10380/1415",
-    "handle_url": "http://hdl.handle.net/10380/1415"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 45,
-    "journal_name": "MICCAI 2016 Workshops"
-   },
-   {
-    "journal_id": 33,
-    "journal_name": "MICCAI 2008 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 582,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "dengxiang05@gmail.com",
-     "author_firstname": "Xiang",
-     "author_id": 872,
-     "author_lastname": "Deng"
+  "publication": {
+    "abstract": "The Definiens Cognition Network Technology is applied to detect automatically tumors in a human liver. On the basis of a test data set containing ten tumors we show first quantitative results which are compared to manual segmentations provided by medical experts.",
+    "articles": [
+      "bafybeiacpnb7jzjbikw347r7s6hshhgw3mwv7yjsuoro3jitcoksp57664",
+      "bafybeib3dgurtfk5oecbylhbkefjk6gd4mmie4q3rfeog6ptal332sincq",
+      "bafybeiar5gy2vywpgoc32x5chxsfeic7zlszfmimhat6jpanrhyxc5ibw4"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Schmidt, Guenter",
+        "author_place": 1,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Binnig, Gerd",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Kietzmann, Markus",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Kim, Johann",
+        "author_place": 4,
+        "persona_email": "jkim@definiens.com",
+        "persona_firstname": "Johann",
+        "persona_id": 884,
+        "persona_lastname": "Kim"
+      }
+    ],
+    "categories": [
+      "Edge Detection",
+      "Feature extraction",
+      "Filtering",
+      "Region growing",
+      "Segmentation",
+      "Thresholding"
+    ],
+    "comments": [],
+    "date_submitted": "2008-07-07T16:21:28Z",
+    "handles": [
+      {
+        "handle": "10380/1415",
+        "handle_url": "http://hdl.handle.net/10380/1415"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<p>This paper presents an automatic live tumor segmentation technique. <br />This technique is composed of two steps.<br />First, the liver is segmented using a heuristic thresholding method. Second, the tumors&nbsp;are segmented using a multi-thresholding algorithm.</p><p><br />Detailed comments:</p><p>1) The authors should provide more details of the liver and liver tumor segmentation algorithms. From my point of view, this is the core part of the workshop paper, which has only been briefly described in the manuscript.</p><p>2) Fig. 3 is not referenced in the manuscript.</p><p>3) Could the authors speculate on the main reason that causes the over-segmentation in the results?</p><p>&nbsp;</p>",
-    "date": "07-25-2008",
-    "review_id": 1521
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "jkim@definiens.com",
-   "author_firstname": "Johann",
-   "author_fullname": "Kim, Johann",
-   "author_id": 884,
-   "author_institution": "Definiens AG",
-   "author_lastname": "Kim"
-  },
-  "tags": [
-   "liver",
-   "segmentation",
-   "tumor"
-  ],
-  "title": "Cognition Network Technology for a Fully Automated 3D Segmentation of Liver Tumors"
- }
+    "journals": [
+      {
+        "journal_id": 45,
+        "journal_name": "MICCAI 2016 Workshops"
+      },
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 582,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "dengxiang05@gmail.com",
+          "author_firstname": "Xiang",
+          "author_id": 872,
+          "author_lastname": "Deng"
+        },
+        "content": "<p>This paper presents an automatic live tumor segmentation technique. <br />This technique is composed of two steps.<br />First, the liver is segmented using a heuristic thresholding method. Second, the tumors&nbsp;are segmented using a multi-thresholding algorithm.</p><p><br />Detailed comments:</p><p>1) The authors should provide more details of the liver and liver tumor segmentation algorithms. From my point of view, this is the core part of the workshop paper, which has only been briefly described in the manuscript.</p><p>2) Fig. 3 is not referenced in the manuscript.</p><p>3) Could the authors speculate on the main reason that causes the over-segmentation in the results?</p><p>&nbsp;</p>",
+        "date": "07-25-2008",
+        "review_id": 1521
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "jkim@definiens.com",
+      "author_firstname": "Johann",
+      "author_fullname": "Kim, Johann",
+      "author_id": 884,
+      "author_institution": "Definiens AG",
+      "author_lastname": "Kim"
+    },
+    "tags": [
+      "liver",
+      "segmentation",
+      "tumor"
+    ],
+    "title": "Cognition Network Technology for a Fully Automated 3D Segmentation of Liver Tumors"
+  }
 }

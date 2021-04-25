@@ -1,129 +1,135 @@
 {
- "publication": {
-  "abstract": "Medical image registration is becoming a more and more useful component of a large number of applications. The presented method aims to enrich the ITK library. This method, called Morphon registration algorithm, computes a dense deformation field accepting inputs from different intensity contrasts. This article presents its implementation within the Insight Toolkit.\r\nIn this paper, we provide a brief description of the algorithm, a presentation of the implementation, the justification of our modified classes and the results given by the algorithm. We demonstrate the algorithm in application of different images intesity constrasts and dimensions.",
-  "authors": [
-   {
-    "author_fullname": "Plumat, Jerome",
-    "author_place": 1,
-    "persona_email": "j.plumat@gmail.com",
-    "persona_firstname": "Jerome",
-    "persona_id": 1017,
-    "persona_lastname": "Plumat"
-   },
-   {
-    "author_fullname": "Andersson, Mats",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Janssens, Guillaume",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Orban de Xivry , Jonathan",
-    "author_place": 4,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Knutsson, Hans ",
-    "author_place": 5,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Macq, Benoit",
-    "author_place": 6,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Deformable registration",
-   "PointSet",
-   "Registration"
-  ],
-  "comments": [
-   {
-    "content": "Hi,\r\nI don\\'t have the parameters (long time ago I did not have a look on this code!).\r\nAccording to me the error is mostly due the fact that the size along z axis is not sufficient. The filters have sizes 9 (along all directions). Thus, you may have a sufficiently big volume to let the convolution take sense. The strict minimum is of course 9 but due to padding in the convolution you may ask for bigger sizes.\r\n\r\nAlso note that the 3D convolution is very slow in ITK!\r\n\r\nBest",
-    "date": "2012-02-21T10:25:12",
-    "persona_email": "j.plumat@gmail.com",
-    "persona_firstname": "Jerome",
-    "persona_id": 1017,
-    "persona_lastname": "Plumat"
-   },
-   {
-    "content": "Hello,\r\nThanks for using this code.\r\nFirst of all, I have not been work on this code nor with ITK since a while and my answers may be no so precise.\r\n\r\nFirst, the command I gave as example should work on the hand image. If not I suggest to have a look on the convolution filters and on the image reader.\r\n\r\nThe deformation field is updated and weighted thanks to the certainty matrix. The certainty matrix has no \\\"real interest\\\" by itself (according to the best of my knowledges). It is the respond, at a certain sampling, of the convolution of the image by the directional filters. The certainties are a linear transformation of the convoluted image.\r\n\r\nThe certainty matrix is the result of Pr. Andersson and Knutsson works from Linkoping University. I recommend the following papers\r\n- Non-rigid registration using morphons (at http://130.236.96.13/mi_old/Publications/pdfs/pettersson06.pdf#page=59 page 25 to 36)\r\n- Normalised convolution and morphons for non-rigid registration (at http://130.236.96.13/mi_old/Publications/pdfs/pkb06c.pdf )\r\n- Morphons: Paint on Priors and Elastic Canvas (http://130.236.96.13/mi_old/Publications/pdfs/ka05c.pdf)\r\nWell, also all the work of Knutsson. It mostly weights the deformation fields depending of the information on the image (a line or an edge has a higher certainty than a smooth area for example).\r\n\r\nI hope this helps.\r\n",
-    "date": "2012-07-19T05:47:18",
-    "persona_email": "j.plumat@gmail.com",
-    "persona_firstname": "Jerome",
-    "persona_id": 1017,
-    "persona_lastname": "Plumat"
-   },
-   {
-    "content": "Could you please post the parameters you used for the 3D registration? I tried \\\"10 1.5 10 1.5 10 4.5 10 4.5 10 4.5 10 2 10 2 10 2 10 2 10 2 10 2 10 3.5 10 2.5\\\" you mentioned in the 2D registration case but failed. It keeps throw exception out. \r\n\r\nHere is the exception information:\r\nDescription: itk::ERROR: RecursiveGaussianImageFilter(0000000002AA69D0): The number of pixels along direction 2 is less than 4. This filter requires a minimum of four pixels along the dimension to be processed.",
-    "date": "2012-02-20T00:23:44",
-    "persona_email": "huangcheng1987928@gmail.com",
-    "persona_firstname": "Huang",
-    "persona_id": 6032,
-    "persona_lastname": "Cheng"
-   },
-   {
-    "content": "Hy Jerome,\r\nI finally find were was the problem. The ApplyUpdate was not doing using ITK 4.1 and ITK 4.2. Another thing was that I found a bug (I suppose)  in the class NeighborhoodInnerProduct. \r\n\r\nTo compile and execute your code using ITK 4.1.0 or 4.2.0 I have needed to do this:\r\n\r\n1) I duplicate the class NeighborhoodInnerProduct and use the new class instead the ITK version.\r\n\r\n2) I changed the following lines into the methods operator():\r\n\r\ntypedef typename NumericTraits< InputPixelRealType >::AccumulateType  AccumulateRealType;\r\ntypedef typename NumericTraits<OutputPixelType>::ValueType   OutputPixelValueType;\r\n\r\nfor this\r\n\r\ntypedef typename NumericTraits< TOperator >::AccumulateType  AccumulateRealType;\r\ntypedef typename NumericTraits<OutputPixelType>::RealType OutputPixelValueType;\r\n\r\n\r\n\r\n3) I changed the class declaration of the method ApplyUpdate into MorphonRegistrationFilter for:\r\nApplyUpdate(const TimeStepType& dt) ",
-    "date": "2012-07-20T09:19:30",
-    "persona_email": "curiale@gmail.com",
-    "persona_firstname": "Ariel Hern\u00e1n",
-    "persona_id": 6521,
-    "persona_lastname": "Curiale"
-   },
-   {
-    "content": "Hi,\r\nI can\\'t reproduce the registration result using ITK4.1 or 4.2. I don\\'t understand very well how are computed the coefficient and  why the metric is go up instead go down. The result of the registration is really bad, the algorithm  destroy the accumulated image in each iteration.\r\n",
-    "date": "2012-07-18T12:02:33",
-    "persona_email": "curiale@gmail.com",
-    "persona_firstname": "Ariel Hern\u00e1n",
-    "persona_id": 6521,
-    "persona_lastname": "Curiale"
-   },
-   {
-    "content": "I changed the level numbers to 10 and it works without throwing any exception. I guess the number of slices in z-axis is too small, so after resampling 13 times, the number goes down to smaller than 4 and cause the exception.\r\n\r\nHere is the parameter I used for testing:\r\n10 1.5 10 1.5 10 1.5 10 1.5 10 1.5 10 1.5 10 1.5 10 1.5 10 1.5 10 1.5",
-    "date": "2012-02-20T00:34:50",
-    "persona_email": "huangcheng1987928@gmail.com",
-    "persona_firstname": "Huang",
-    "persona_id": 6032,
-    "persona_lastname": "Cheng"
-   }
-  ],
-  "date_submitted": "2009-03-05 08:18:46",
-  "handles": [
-   {
-    "handle": "1926/1527",
-    "handle_url": "http://hdl.handle.net/1926/1527"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 320,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "j.plumat@gmail.com",
-   "author_firstname": "Jerome",
-   "author_fullname": "Plumat, Jerome",
-   "author_id": 1017,
-   "author_institution": "University of Auckland",
-   "author_lastname": "Plumat"
-  },
-  "tags": [
-   "registration",
-   "Morphon",
-   "dense deformation field"
-  ],
-  "title": "Image registration using the Morphon algorithm: an ITK implementation"
- }
+  "publication": {
+    "abstract": "Medical image registration is becoming a more and more useful component of a large number of applications. The presented method aims to enrich the ITK library. This method, called Morphon registration algorithm, computes a dense deformation field accepting inputs from different intensity contrasts. This article presents its implementation within the Insight Toolkit.\r\nIn this paper, we provide a brief description of the algorithm, a presentation of the implementation, the justification of our modified classes and the results given by the algorithm. We demonstrate the algorithm in application of different images intesity constrasts and dimensions.",
+    "articles": [
+      "bafybeiemffq5m52d3dxy7ipxgqzbtuie2vm4innpotnomuohadfop7f4me",
+      "bafybeiemffq5m52d3dxy7ipxgqzbtuie2vm4innpotnomuohadfop7f4me",
+      "bafybeiemffq5m52d3dxy7ipxgqzbtuie2vm4innpotnomuohadfop7f4me",
+      "bafybeidbt7rnotayzi3ucuowai7nfg7rcnzwd73onecsfqrzji2lbblyai"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Plumat, Jerome",
+        "author_place": 1,
+        "persona_email": "j.plumat@gmail.com",
+        "persona_firstname": "Jerome",
+        "persona_id": 1017,
+        "persona_lastname": "Plumat"
+      },
+      {
+        "author_fullname": "Andersson, Mats",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Janssens, Guillaume",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Orban de Xivry , Jonathan",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Knutsson, Hans ",
+        "author_place": 5,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Macq, Benoit",
+        "author_place": 6,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Deformable registration",
+      "PointSet",
+      "Registration"
+    ],
+    "comments": [
+      {
+        "content": "Hi,\r\nI don\\'t have the parameters (long time ago I did not have a look on this code!).\r\nAccording to me the error is mostly due the fact that the size along z axis is not sufficient. The filters have sizes 9 (along all directions). Thus, you may have a sufficiently big volume to let the convolution take sense. The strict minimum is of course 9 but due to padding in the convolution you may ask for bigger sizes.\r\n\r\nAlso note that the 3D convolution is very slow in ITK!\r\n\r\nBest",
+        "date": "2012-02-21T10:25:12",
+        "persona_email": "j.plumat@gmail.com",
+        "persona_firstname": "Jerome",
+        "persona_id": 1017,
+        "persona_lastname": "Plumat"
+      },
+      {
+        "content": "Hello,\r\nThanks for using this code.\r\nFirst of all, I have not been work on this code nor with ITK since a while and my answers may be no so precise.\r\n\r\nFirst, the command I gave as example should work on the hand image. If not I suggest to have a look on the convolution filters and on the image reader.\r\n\r\nThe deformation field is updated and weighted thanks to the certainty matrix. The certainty matrix has no \\\"real interest\\\" by itself (according to the best of my knowledges). It is the respond, at a certain sampling, of the convolution of the image by the directional filters. The certainties are a linear transformation of the convoluted image.\r\n\r\nThe certainty matrix is the result of Pr. Andersson and Knutsson works from Linkoping University. I recommend the following papers\r\n- Non-rigid registration using morphons (at http://130.236.96.13/mi_old/Publications/pdfs/pettersson06.pdf#page=59 page 25 to 36)\r\n- Normalised convolution and morphons for non-rigid registration (at http://130.236.96.13/mi_old/Publications/pdfs/pkb06c.pdf )\r\n- Morphons: Paint on Priors and Elastic Canvas (http://130.236.96.13/mi_old/Publications/pdfs/ka05c.pdf)\r\nWell, also all the work of Knutsson. It mostly weights the deformation fields depending of the information on the image (a line or an edge has a higher certainty than a smooth area for example).\r\n\r\nI hope this helps.\r\n",
+        "date": "2012-07-19T05:47:18",
+        "persona_email": "j.plumat@gmail.com",
+        "persona_firstname": "Jerome",
+        "persona_id": 1017,
+        "persona_lastname": "Plumat"
+      },
+      {
+        "content": "Could you please post the parameters you used for the 3D registration? I tried \\\"10 1.5 10 1.5 10 4.5 10 4.5 10 4.5 10 2 10 2 10 2 10 2 10 2 10 2 10 3.5 10 2.5\\\" you mentioned in the 2D registration case but failed. It keeps throw exception out. \r\n\r\nHere is the exception information:\r\nDescription: itk::ERROR: RecursiveGaussianImageFilter(0000000002AA69D0): The number of pixels along direction 2 is less than 4. This filter requires a minimum of four pixels along the dimension to be processed.",
+        "date": "2012-02-20T00:23:44",
+        "persona_email": "huangcheng1987928@gmail.com",
+        "persona_firstname": "Huang",
+        "persona_id": 6032,
+        "persona_lastname": "Cheng"
+      },
+      {
+        "content": "Hy Jerome,\r\nI finally find were was the problem. The ApplyUpdate was not doing using ITK 4.1 and ITK 4.2. Another thing was that I found a bug (I suppose)  in the class NeighborhoodInnerProduct. \r\n\r\nTo compile and execute your code using ITK 4.1.0 or 4.2.0 I have needed to do this:\r\n\r\n1) I duplicate the class NeighborhoodInnerProduct and use the new class instead the ITK version.\r\n\r\n2) I changed the following lines into the methods operator():\r\n\r\ntypedef typename NumericTraits< InputPixelRealType >::AccumulateType  AccumulateRealType;\r\ntypedef typename NumericTraits<OutputPixelType>::ValueType   OutputPixelValueType;\r\n\r\nfor this\r\n\r\ntypedef typename NumericTraits< TOperator >::AccumulateType  AccumulateRealType;\r\ntypedef typename NumericTraits<OutputPixelType>::RealType OutputPixelValueType;\r\n\r\n\r\n\r\n3) I changed the class declaration of the method ApplyUpdate into MorphonRegistrationFilter for:\r\nApplyUpdate(const TimeStepType& dt) ",
+        "date": "2012-07-20T09:19:30",
+        "persona_email": "curiale@gmail.com",
+        "persona_firstname": "Ariel Hern\u00e1n",
+        "persona_id": 6521,
+        "persona_lastname": "Curiale"
+      },
+      {
+        "content": "Hi,\r\nI can\\'t reproduce the registration result using ITK4.1 or 4.2. I don\\'t understand very well how are computed the coefficient and  why the metric is go up instead go down. The result of the registration is really bad, the algorithm  destroy the accumulated image in each iteration.\r\n",
+        "date": "2012-07-18T12:02:33",
+        "persona_email": "curiale@gmail.com",
+        "persona_firstname": "Ariel Hern\u00e1n",
+        "persona_id": 6521,
+        "persona_lastname": "Curiale"
+      },
+      {
+        "content": "I changed the level numbers to 10 and it works without throwing any exception. I guess the number of slices in z-axis is too small, so after resampling 13 times, the number goes down to smaller than 4 and cause the exception.\r\n\r\nHere is the parameter I used for testing:\r\n10 1.5 10 1.5 10 1.5 10 1.5 10 1.5 10 1.5 10 1.5 10 1.5 10 1.5 10 1.5",
+        "date": "2012-02-20T00:34:50",
+        "persona_email": "huangcheng1987928@gmail.com",
+        "persona_firstname": "Huang",
+        "persona_id": 6032,
+        "persona_lastname": "Cheng"
+      }
+    ],
+    "date_submitted": "2009-03-05 08:18:46",
+    "handles": [
+      {
+        "handle": "1926/1527",
+        "handle_url": "http://hdl.handle.net/1926/1527"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 320,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "j.plumat@gmail.com",
+      "author_firstname": "Jerome",
+      "author_fullname": "Plumat, Jerome",
+      "author_id": 1017,
+      "author_institution": "University of Auckland",
+      "author_lastname": "Plumat"
+    },
+    "tags": [
+      "registration",
+      "Morphon",
+      "dense deformation field"
+    ],
+    "title": "Image registration using the Morphon algorithm: an ITK implementation"
+  }
 }

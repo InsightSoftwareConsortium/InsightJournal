@@ -1,75 +1,81 @@
 {
- "publication": {
-  "abstract": "The assignment of bone material properties to finite element model is a fundamental step in finite element analysis and has great influence on analysis results. Most work done in this area has adopted isotropic assignment strategy as its simplicity. However, bone material is widely recognized as being anisotropic rather than isotropic. Therefore, this work is aimed to simulate the inhomogeneity and anisotropy of femur by assigning each element of the mesh model the material properties with a numerical integration method and properly defining the principal material orientation, and then compare the biomechanical analysis results of isotropic model with that of anisotropic model under six different loading conditions. Based on the analysis results of the equivalent Von Mises stress and the nodal displacement, four different regions of interest are chosen to achieve this comparison. The results show that significant differences between the two material property assignments exist in the regions where anisotropic material property is sensitive to orientation definition. Thus, orientation definition is important to finite element simulation of bone material properties.",
-  "authors": [
-   {
-    "author_fullname": "Yang, Haisheng",
-    "author_place": 1,
-    "persona_email": "hs.yang@siat.ac.cn",
-    "persona_firstname": "Haisheng",
-    "persona_id": 800,
-    "persona_lastname": "Yang"
-   },
-   {
-    "author_fullname": "Guo, Tongtong",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Ma, Xin",
-    "author_place": 3,
-    "persona_id": null
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2008-05-30T08:58:52Z",
-  "handles": [
-   {
-    "handle": "10380/1376",
-    "handle_url": "http://hdl.handle.net/10380/1376"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 33,
-    "journal_name": "MICCAI 2008 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 561,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "adwit@mech.uwa.edu.au",
-     "author_firstname": "Adam",
-     "author_id": 864,
-     "author_lastname": "Wittek"
+  "publication": {
+    "abstract": "The assignment of bone material properties to finite element model is a fundamental step in finite element analysis and has great influence on analysis results. Most work done in this area has adopted isotropic assignment strategy as its simplicity. However, bone material is widely recognized as being anisotropic rather than isotropic. Therefore, this work is aimed to simulate the inhomogeneity and anisotropy of femur by assigning each element of the mesh model the material properties with a numerical integration method and properly defining the principal material orientation, and then compare the biomechanical analysis results of isotropic model with that of anisotropic model under six different loading conditions. Based on the analysis results of the equivalent Von Mises stress and the nodal displacement, four different regions of interest are chosen to achieve this comparison. The results show that significant differences between the two material property assignments exist in the regions where anisotropic material property is sensitive to orientation definition. Thus, orientation definition is important to finite element simulation of bone material properties.",
+    "articles": [
+      "bafybeidzufpslj2whc6khroygui5v4kfstkpky5qbzdz6lbos5kqzsv6we",
+      "bafybeidzufpslj2whc6khroygui5v4kfstkpky5qbzdz6lbos5kqzsv6we",
+      "bafybeiexn7rezhgw543bdbpewf4vjosaeyynbh6q4koi4hdfiq47uq5ste",
+      "bafybeidehgbw36dzpyhgtt52a5vyjzrmequ76saxz4luq74nh4yaqyudwm"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Yang, Haisheng",
+        "author_place": 1,
+        "persona_email": "hs.yang@siat.ac.cn",
+        "persona_firstname": "Haisheng",
+        "persona_id": 800,
+        "persona_lastname": "Yang"
+      },
+      {
+        "author_fullname": "Guo, Tongtong",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Ma, Xin",
+        "author_place": 3,
+        "persona_id": null
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2008-05-30T08:58:52Z",
+    "handles": [
+      {
+        "handle": "10380/1376",
+        "handle_url": "http://hdl.handle.net/10380/1376"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<p><em>(This review can be also viewed by opening the attached PDF file)</em></p><p><br />The paper addresses an important problem of the bone tissue anisotropy in finite element<br />modelling of long bones (femur is used) and, as such, fits well within the scope of the<br />Workshop. However, description of the modelling methods used is insufficient to fully<br />evaluate whether the study is technically sound. Therefore, my opinion is that the paper<br />can be accepted for publication in the Workshop only if the Authors answer the<br />questions/comments given below and modify their manuscript following them.</p><p><br /><strong>Major comments</strong><br />1) What were the boundary conditions for the finite element model used? Figure 2<br />shows the force applied to the femoral head, but no information is given how the<br />bone was supported. Was the force applied to a single node or distributed over a set<br />of nodes?</p><p><br />2) On p. 3 the Authors write that linear hexahedral element were used. Were they fullyintegrated<br />or under-integrated hexahedrals?</p><p><br />3) What finite element solver was used and what type of finite element analysis (i.e.<br />geometrically linear or non-linear) was applied?</p><p><br />4) P. 6 Eqs. (7) and (8): How the parameters &Delta;u and &Delta;&sigma; in a given region of interest<br />were calculated? Were they averaged over the elements and nodes in a given region<br />or they were calculated for the selected nodes and elements?</p><p><br />5) In the last paragraph of Discussion the Authors state that the models developed so far<br />&ldquo;cannot reproduce exactly in vivo conditions&rdquo; and suggest that their method has<br />features that ensure such &ldquo;reproducibility&rdquo;. Can the Authors explain what do they<br />mean by &ldquo;in vivo conditions&rdquo; and how they can be sure that their method can<br />represent them given the fact that the study contains no validation of the modelling<br />results.</p><p><br />6) Figure 3: The regions of interests are not indicated.</p><p><br />7) Figure 4: What material properties are shown in this figure and what are their units?</p><p><br />8) Eqs. (1)-(6): Were Eqs. (1)-(6) derived by the Authors or were they obtained from<br />the literature. If they were obtained from the literature, the references should be<br />given.</p><p><br /><strong>Minor comments:</strong><br />1) The title &ldquo;Orientation definition of anisotropy is important to finite element<br />simulation of bone material properties&rdquo; does not correspond well to the scope and<br />content of the study. The study indicates that there are important differences between<br />the Von Mises stress and nodal displacements determined using isotropic and<br />orthotropic material models in regions where the principal material orientations vary.<br />The &ldquo;finite element simulation of bone material properties&rdquo; as such is not addressed<br />despite reference to such simulation in the title. Therefore, the Authors should<br />modify the title so it signals the study scope and results to the readers in a<br />meaningful way.</p><p><br />2) First sentence of Introduction: What do the Authors mean by stating that Finite<br />element (FE) analysis is &ldquo;non-invasive method&rdquo;. Finite element analysis is a<br />numerical method for solving partial differential equations and it does make much<br />sense to refer to it as either &ldquo;invasive&rdquo; or &ldquo;non-invasive&rdquo;.</p><p><br />3) Does MP refer to MPa (mega Pascals) and GP to GPa (giga Pascals)?</p><p><br />4) What are the units for density and Young&rsquo;s modulus in Eqs. (3) and (4). </p>",
-    "date": "06-30-2008",
-    "review_id": 1476
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": null,
-   "author_firstname": null,
-   "author_fullname": ", ",
-   "author_id": null,
-   "author_institution": "siat",
-   "author_lastname": null
-  },
-  "tags": [
-   "Inhomogeneity",
-   "Material properties",
-   "Finite element analysis",
-   "Orientation definition",
-   "Anisotropy"
-  ],
-  "title": "Orientation definition of anisotropy is important to finite element simulation of bone material properties"
- }
+    "journals": [
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 561,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "adwit@mech.uwa.edu.au",
+          "author_firstname": "Adam",
+          "author_id": 864,
+          "author_lastname": "Wittek"
+        },
+        "content": "<p><em>(This review can be also viewed by opening the attached PDF file)</em></p><p><br />The paper addresses an important problem of the bone tissue anisotropy in finite element<br />modelling of long bones (femur is used) and, as such, fits well within the scope of the<br />Workshop. However, description of the modelling methods used is insufficient to fully<br />evaluate whether the study is technically sound. Therefore, my opinion is that the paper<br />can be accepted for publication in the Workshop only if the Authors answer the<br />questions/comments given below and modify their manuscript following them.</p><p><br /><strong>Major comments</strong><br />1) What were the boundary conditions for the finite element model used? Figure 2<br />shows the force applied to the femoral head, but no information is given how the<br />bone was supported. Was the force applied to a single node or distributed over a set<br />of nodes?</p><p><br />2) On p. 3 the Authors write that linear hexahedral element were used. Were they fullyintegrated<br />or under-integrated hexahedrals?</p><p><br />3) What finite element solver was used and what type of finite element analysis (i.e.<br />geometrically linear or non-linear) was applied?</p><p><br />4) P. 6 Eqs. (7) and (8): How the parameters &Delta;u and &Delta;&sigma; in a given region of interest<br />were calculated? Were they averaged over the elements and nodes in a given region<br />or they were calculated for the selected nodes and elements?</p><p><br />5) In the last paragraph of Discussion the Authors state that the models developed so far<br />&ldquo;cannot reproduce exactly in vivo conditions&rdquo; and suggest that their method has<br />features that ensure such &ldquo;reproducibility&rdquo;. Can the Authors explain what do they<br />mean by &ldquo;in vivo conditions&rdquo; and how they can be sure that their method can<br />represent them given the fact that the study contains no validation of the modelling<br />results.</p><p><br />6) Figure 3: The regions of interests are not indicated.</p><p><br />7) Figure 4: What material properties are shown in this figure and what are their units?</p><p><br />8) Eqs. (1)-(6): Were Eqs. (1)-(6) derived by the Authors or were they obtained from<br />the literature. If they were obtained from the literature, the references should be<br />given.</p><p><br /><strong>Minor comments:</strong><br />1) The title &ldquo;Orientation definition of anisotropy is important to finite element<br />simulation of bone material properties&rdquo; does not correspond well to the scope and<br />content of the study. The study indicates that there are important differences between<br />the Von Mises stress and nodal displacements determined using isotropic and<br />orthotropic material models in regions where the principal material orientations vary.<br />The &ldquo;finite element simulation of bone material properties&rdquo; as such is not addressed<br />despite reference to such simulation in the title. Therefore, the Authors should<br />modify the title so it signals the study scope and results to the readers in a<br />meaningful way.</p><p><br />2) First sentence of Introduction: What do the Authors mean by stating that Finite<br />element (FE) analysis is &ldquo;non-invasive method&rdquo;. Finite element analysis is a<br />numerical method for solving partial differential equations and it does make much<br />sense to refer to it as either &ldquo;invasive&rdquo; or &ldquo;non-invasive&rdquo;.</p><p><br />3) Does MP refer to MPa (mega Pascals) and GP to GPa (giga Pascals)?</p><p><br />4) What are the units for density and Young&rsquo;s modulus in Eqs. (3) and (4). </p>",
+        "date": "06-30-2008",
+        "review_id": 1476
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": null,
+      "author_firstname": null,
+      "author_fullname": ", ",
+      "author_id": null,
+      "author_institution": "siat",
+      "author_lastname": null
+    },
+    "tags": [
+      "Inhomogeneity",
+      "Material properties",
+      "Finite element analysis",
+      "Orientation definition",
+      "Anisotropy"
+    ],
+    "title": "Orientation definition of anisotropy is important to finite element simulation of bone material properties"
+  }
 }

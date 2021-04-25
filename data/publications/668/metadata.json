@@ -1,80 +1,84 @@
 {
- "publication": {
-  "abstract": "In this paper, we present an atlas-based level set automatic method for segmenting anatomical structures in head and neck CT data, such as mandible and brainstem. The proposed method is a hybrid method that combines two aspects. First, we register the atlas image to the image to be segmented using an intensity-based non-rigid image registration algorithm based on B-spline, the corresponding binary image of the atlas is also resampled into the reference image coordinate system according to the deformation field obtained from the registration process. Second, based on the initialization of the deformed atlas binary mask, the level set function is evolved to segment the object of interest in the test image. The proposed method was tested on CT images of head and neck and compared with expert segmentation of mandible and brainstem. The evaluation results show the method is available and effective.",
-  "authors": [
-   {
-    "author_fullname": "Zhang, Xing",
-    "author_place": 1,
-    "persona_email": "xing.zhang@ia.ac.cn",
-    "persona_firstname": "Xing",
-    "persona_id": 2218,
-    "persona_lastname": "Zhang"
-   },
-   {
-    "author_fullname": "Tian, Jie",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Wu, Yongfang",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Zheng, Jian",
-    "author_place": 4,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Deng, Kexin",
-    "author_place": 5,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Atlas-based segmentation",
-   "Deformable registration",
-   "Level sets",
-   "Registration",
-   "Segmentation"
-  ],
-  "comments": [],
-  "date_submitted": "2009-08-25 03:59:07",
-  "handles": [
-   {
-    "handle": "10380/3094",
-    "handle_url": "http://hdl.handle.net/10380/3094"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 34,
-    "journal_name": "MICCAI 2009 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 668,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "xing.zhang@ia.ac.cn",
-   "author_firstname": "Xing",
-   "author_fullname": "Zhang, Xing",
-   "author_id": 2218,
-   "author_institution": "Institute of Automation, Chinese Academy of Sciences",
-   "author_lastname": "Zhang"
-  },
-  "tags": [
-   "B-spline",
-   "level set",
-   "shape prior",
-   "segmentation",
-   "registration",
-   "atlas"
-  ],
-  "title": "Segmentation of Head and Neck CT Scans Using Atlas-based Level Set Method"
- }
+  "publication": {
+    "abstract": "In this paper, we present an atlas-based level set automatic method for segmenting anatomical structures in head and neck CT data, such as mandible and brainstem. The proposed method is a hybrid method that combines two aspects. First, we register the atlas image to the image to be segmented using an intensity-based non-rigid image registration algorithm based on B-spline, the corresponding binary image of the atlas is also resampled into the reference image coordinate system according to the deformation field obtained from the registration process. Second, based on the initialization of the deformed atlas binary mask, the level set function is evolved to segment the object of interest in the test image. The proposed method was tested on CT images of head and neck and compared with expert segmentation of mandible and brainstem. The evaluation results show the method is available and effective.",
+    "articles": [
+      "bafybeigwu7fkbtdkdo23kcfgni6r7ky4k6lkraojishkcvdz3wmzuiyiny",
+      "bafybeiahaqu6u4ypkvhpcwcyconh5fyx4lkk77yjduivd5qqcuku24b5ke"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Zhang, Xing",
+        "author_place": 1,
+        "persona_email": "xing.zhang@ia.ac.cn",
+        "persona_firstname": "Xing",
+        "persona_id": 2218,
+        "persona_lastname": "Zhang"
+      },
+      {
+        "author_fullname": "Tian, Jie",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Wu, Yongfang",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Zheng, Jian",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Deng, Kexin",
+        "author_place": 5,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Atlas-based segmentation",
+      "Deformable registration",
+      "Level sets",
+      "Registration",
+      "Segmentation"
+    ],
+    "comments": [],
+    "date_submitted": "2009-08-25 03:59:07",
+    "handles": [
+      {
+        "handle": "10380/3094",
+        "handle_url": "http://hdl.handle.net/10380/3094"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 34,
+        "journal_name": "MICCAI 2009 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 668,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "xing.zhang@ia.ac.cn",
+      "author_firstname": "Xing",
+      "author_fullname": "Zhang, Xing",
+      "author_id": 2218,
+      "author_institution": "Institute of Automation, Chinese Academy of Sciences",
+      "author_lastname": "Zhang"
+    },
+    "tags": [
+      "B-spline",
+      "level set",
+      "shape prior",
+      "segmentation",
+      "registration",
+      "atlas"
+    ],
+    "title": "Segmentation of Head and Neck CT Scans Using Atlas-based Level Set Method"
+  }
 }

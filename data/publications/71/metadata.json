@@ -1,73 +1,80 @@
 {
- "publication": {
-  "abstract": "Image projection is a very common task in image analysis to reduce the dimension of an image. A base filter is provided, with some specialized filters which implement different projection methods.",
-  "authors": [
-   {
-    "author_fullname": "Lehmann, Gaetan",
-    "author_place": 1,
-    "persona_email": "gaetan.lehmann@gmail.com",
-    "persona_firstname": "Gaetan",
-    "persona_id": 328,
-    "persona_lastname": "Lehmann"
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2006-01-27T19:41:35Z",
-  "handles": [
-   {
-    "handle": "1926/164",
-    "handle_url": "http://hdl.handle.net/1926/164"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 71,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "millerjv@research.ge.com",
-     "author_firstname": "James",
-     "author_id": 232,
-     "author_lastname": "Miller"
+  "publication": {
+    "abstract": "Image projection is a very common task in image analysis to reduce the dimension of an image. A base filter is provided, with some specialized filters which implement different projection methods.",
+    "articles": [
+      "bafkreih7mjgnt2h6sd72rgpnj4xn425y33fn7wnezxxjidcl3lrrlvlm5y",
+      "bafkreifsmweokc7lkecvaai234eyvfbquolp3b7pc2efjc4iytatu4pxvi",
+      "bafybeiaqo5az5gzq3yx5xkkk32qcv77wd3s6qwkkhrae3ewwrsd2m4ns4m",
+      "bafybeiaqo5az5gzq3yx5xkkk32qcv77wd3s6qwkkhrae3ewwrsd2m4ns4m",
+      "bafybeiev73yg5awa6vp7jq5fmyg37wpvsdd62rmonn7f54eezwbmsxcewm"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Lehmann, Gaetan",
+        "author_place": 1,
+        "persona_email": "gaetan.lehmann@gmail.com",
+        "persona_firstname": "Gaetan",
+        "persona_id": 328,
+        "persona_lastname": "Lehmann"
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2006-01-27T19:41:35Z",
+    "handles": [
+      {
+        "handle": "1926/164",
+        "handle_url": "http://hdl.handle.net/1926/164"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "This submission provides a functor style filter to perform operations similar to the AccumulateImageFilter.\r\n\r\nThe difference with respect to the AccumulateImageFilter is that this filter is templated over a functor. This allows a variety of accumulation methods (mean, min, max, median, etc.). This makes a nice design, allowing it to be easily extended by providing a new functor to perform the \\\"accumulation\\\" of a dimension.\r\n\r\nWe have discussed extending the AccumulateImageFilter with additional methods using a set of modes. The functor style allows for the filter to be extended more easily.\r\n\r\nThe author indicates the AccumulateImageFilter cannot be modified to do this without jeapordizing backward compatibility. I offer two suggestions that may address this:\r\n\r\n1. AccumulateImageFilter could be made a subclass of the ProjectionImageFilter, where the subclass specifies a functor that allows the current AccumulateImageFilter functionality (mean and sum).\r\n2. Or, the AccumulateImageFilter could be extended to have an extra template parameter (the functor) but that template parameter will default to the function that provides the current AccumulateImageFilter functionality.\r\n\r\nA comment on the API. The AccumulateImageFilter use Set/GetAccumulateDimension() methods to indicate the projection direction. The filter in this submission provides a Set/GetAxe() method. I suggest the Set/GetAxe be renamed to Set/GetAccumulateDimension(). Alternatively, the method could be Set/GetAxis(). However, in ITK we never refer to a dimension as an axis. So the method should really be Set/Get*Dimension() (perhaps Set/GetProjectionDimension()).\r\n\r\n\r\n\r\n",
-    "date": "02-11-2006",
-    "review_id": 179
-   },
-   {
-    "author": {
-     "author_email": "todd.gable@ge.com",
-     "author_firstname": "Todd",
-     "author_id": 526,
-     "author_lastname": "Gable"
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 71,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "millerjv@research.ge.com",
+          "author_firstname": "James",
+          "author_id": 232,
+          "author_lastname": "Miller"
+        },
+        "content": "This submission provides a functor style filter to perform operations similar to the AccumulateImageFilter.\r\n\r\nThe difference with respect to the AccumulateImageFilter is that this filter is templated over a functor. This allows a variety of accumulation methods (mean, min, max, median, etc.). This makes a nice design, allowing it to be easily extended by providing a new functor to perform the \\\"accumulation\\\" of a dimension.\r\n\r\nWe have discussed extending the AccumulateImageFilter with additional methods using a set of modes. The functor style allows for the filter to be extended more easily.\r\n\r\nThe author indicates the AccumulateImageFilter cannot be modified to do this without jeapordizing backward compatibility. I offer two suggestions that may address this:\r\n\r\n1. AccumulateImageFilter could be made a subclass of the ProjectionImageFilter, where the subclass specifies a functor that allows the current AccumulateImageFilter functionality (mean and sum).\r\n2. Or, the AccumulateImageFilter could be extended to have an extra template parameter (the functor) but that template parameter will default to the function that provides the current AccumulateImageFilter functionality.\r\n\r\nA comment on the API. The AccumulateImageFilter use Set/GetAccumulateDimension() methods to indicate the projection direction. The filter in this submission provides a Set/GetAxe() method. I suggest the Set/GetAxe be renamed to Set/GetAccumulateDimension(). Alternatively, the method could be Set/GetAxis(). However, in ITK we never refer to a dimension as an axis. So the method should really be Set/Get*Dimension() (perhaps Set/GetProjectionDimension()).\r\n\r\n\r\n\r\n",
+        "date": "02-11-2006",
+        "review_id": 179
+      },
+      {
+        "author": {
+          "author_email": "todd.gable@ge.com",
+          "author_firstname": "Todd",
+          "author_id": 526,
+          "author_lastname": "Gable"
+        },
+        "content": "I found the AccumulateImageFilter incomplete, it only collapses the last dimension and with only the option to use the mean. The Image projection filter did exactly what I wanted with the flexibility of choosing which functor to use (mean, median, max, etc.). I was surprised something like this didn&#39;t already exist in ITK, Image projection should be added to an ITK release soon.",
+        "date": "12-05-2006",
+        "review_id": 442
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "gaetan.lehmann@gmail.com",
+      "author_firstname": "Gaetan",
+      "author_fullname": "Lehmann, Gaetan",
+      "author_id": 328,
+      "author_institution": "INRA",
+      "author_lastname": "Lehmann"
     },
-    "content": "I found the AccumulateImageFilter incomplete, it only collapses the last dimension and with only the option to use the mean. The Image projection filter did exactly what I wanted with the flexibility of choosing which functor to use (mean, median, max, etc.). I was surprised something like this didn&#39;t already exist in ITK, Image projection should be added to an ITK release soon.",
-    "date": "12-05-2006",
-    "review_id": 442
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "gaetan.lehmann@gmail.com",
-   "author_firstname": "Gaetan",
-   "author_fullname": "Lehmann, Gaetan",
-   "author_id": 328,
-   "author_institution": "INRA",
-   "author_lastname": "Lehmann"
-  },
-  "tags": [
-   "projection",
-   "functor"
-  ],
-  "title": "Image projections along an axis"
- }
+    "tags": [
+      "projection",
+      "functor"
+    ],
+    "title": "Image projections along an axis"
+  }
 }

@@ -1,90 +1,93 @@
 {
- "publication": {
-  "abstract": "In this paper, we propose a vision based navigation system to guide an endoscope inside human colon. The target to pursue is a dark spot on colonoscopic images, called \u201cpattern\u201d. A novel methodology for \"pattern\" extraction and tracking was designed. Surgeons observations leads to the basic idea of this technique. Information about target position is then continues and makes possible prediction of the \u201cpattern\u201d position. A set of endoscopic images is tested to demonstrate the effectiveness of the vision technique. An experiment tool to simulate the endoscope navigation was employed to achieve real time performance. An interpretation of the results and the possible amelioration is presented.",
-  "authors": [
-   {
-    "author_fullname": "Chettaoui, Hanene",
-    "author_place": 1,
-    "persona_email": "hchettaoui@yahoo.fr",
-    "persona_firstname": "Hanene",
-    "persona_id": 449,
-    "persona_lastname": "Chettaoui"
-   },
-   {
-    "author_fullname": "Thomann, Guillaume",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Ben Amar, Chokri",
-    "author_place": 3,
-    "persona_email": "chokri.benamar@ieee.org",
-    "persona_firstname": "Chokri",
-    "persona_id": 2498,
-    "persona_lastname": "Ben amar"
-   },
-   {
-    "author_fullname": "Redarce, Tanneguy",
-    "author_place": 4,
-    "persona_id": null
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2006-06-30T16:51:03Z",
-  "handles": [
-   {
-    "handle": "1926/206",
-    "handle_url": "http://hdl.handle.net/1926/206"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 105,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "jmelonak@ece.gatech.edu",
-     "author_firstname": "John",
-     "author_id": 37,
-     "author_lastname": "Melonakos"
+  "publication": {
+    "abstract": "In this paper, we propose a vision based navigation system to guide an endoscope inside human colon. The target to pursue is a dark spot on colonoscopic images, called \u201cpattern\u201d. A novel methodology for \"pattern\" extraction and tracking was designed. Surgeons observations leads to the basic idea of this technique. Information about target position is then continues and makes possible prediction of the \u201cpattern\u201d position. A set of endoscopic images is tested to demonstrate the effectiveness of the vision technique. An experiment tool to simulate the endoscope navigation was employed to achieve real time performance. An interpretation of the results and the possible amelioration is presented.",
+    "articles": [
+      null
+    ],
+    "authors": [
+      {
+        "author_fullname": "Chettaoui, Hanene",
+        "author_place": 1,
+        "persona_email": "hchettaoui@yahoo.fr",
+        "persona_firstname": "Hanene",
+        "persona_id": 449,
+        "persona_lastname": "Chettaoui"
+      },
+      {
+        "author_fullname": "Thomann, Guillaume",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Ben Amar, Chokri",
+        "author_place": 3,
+        "persona_email": "chokri.benamar@ieee.org",
+        "persona_firstname": "Chokri",
+        "persona_id": 2498,
+        "persona_lastname": "Ben amar"
+      },
+      {
+        "author_fullname": "Redarce, Tanneguy",
+        "author_place": 4,
+        "persona_id": null
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2006-06-30T16:51:03Z",
+    "handles": [
+      {
+        "handle": "1926/206",
+        "handle_url": "http://hdl.handle.net/1926/206"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<b>Summary:</b>\r\n[Short description of the paper. In two or three phrases describe the problem that was addressed by the authors and the approach they took to solve it.]\r\nThis paper presents an algorithm for colonoscopic navigation. The algorithm specifically seeks to address the dynamical nature of the colon due to the anatomical contraction and expanding of the colon. The authors present results on one dataset and point out limitations to their method.\r\n \r\n<b>Hypothesis:</b>\r\n[If Applicable: Describe the assumptions that the authors have made and they hypothesis of their work, note that not all papers will fit the model of hypothesis driven work, for example, the description of an image database, or the description of a toolkit will not be driven by an hypothesis, in which case, please simply write : \u00e2\u0080\u009cNon Applicable\u00e2\u0080\u009d in this field or delete the subtitle.]\r\nNot Applicable\r\n\r\n<b>Evidence:</b>\r\n[Describe the evidence that the authors provide in order to support their claims in the paper. This is a key component on Open Science, opinions that are not supported by evidence should be labeled as \u00e2\u0080\u009cspeculations\u00e2\u0080\u009d or \u00e2\u0080\u009cauthor\u00e2\u0080\u0099s opinion\u00e2\u0080\u009d while. The same rule applies to the text of the reviews: claims should be supported by evidence]\r\nThe authors show preliminary results on one dataset.\r\n\r\n<b>Open Science:</b>\r\n[Describe how much the paper and its addendums adhere to the concept of Open Science. Do the authors provide the source code of the programs used in their experiments? Do the authors provide the input images that they used? Or are those images publicly available? Do the authors provide the output images that they show in the paper? Do the authors provide enough details for you to be able to replicate their work?]\r\nNo source code or data is provided.\r\n\r\n<b>Reproducibility:</b>\r\n[Did you reproduce the authors\u00e2\u0080\u0099 work?\r\nDid you download their code? Did you compile it? Did you run it?\r\nDid you managed to get the same results that they reported?\r\nWere there information missing from the paper, that was necessary for you to reproduce the work? Suggest improvements that will make easier for future readers to reproduce this work.]\r\nI was unable to reproduce the results due to lack of source code and data.\r\n\r\n<b>Use of Open Source Software:</b>\r\n[Did the authors use Open Source software in their work? Do they describe their experience with it, advantages and disadvantages? Do they provide advice for future users of those Open Source packages?]\r\nAs far as I can tell, the authors make no mention of the platform on which they developed their code.\r\n\r\n<b>Open Source Contributions:</b>\r\n[Do the author\u00e2\u0080\u0099s provide their source code? Is it in a form that is usable? Do they describe clearly how to use of the code? How long did it take you to use that code?]\r\nNo source code was provided.\r\n\r\n<b>Code Quality:</b>\r\n[If the authors provided their source code: Was the code easy to read? Did they use a modern coding style? Did they rely on non-portable mechanism? Was it suitable for multiple-platforms?]\r\nNot Applicable\r\n\r\n<b>Applicability to other problems:</b>\r\n[Do you find that the authors methods can be applied to other image analysis problems? Suggest other disciplines or even other specific projects that could take advantage of this work]\r\nThis work is highly optimized for endoscopic navigation and thus may apply to any problems relating to endoscopic navigation.\r\n\r\n<b>Suggestions for future work:</b>\r\n[Suggest to authors future directions for improving their methods, or other domains from which they could learn technique that could help them advance in their research.]\r\nThe authors may wish to look to control theory results for some inspiration (perhaps the Kalman filter could be used)?\r\n\r\n<b>Requests for additional information from authors:</b>\r\n[Did you find that information was missing from the paper? Maybe parameters for running the tests? Maybe some images were missing? Would you like to get more details on how the diagrams, or plots were generated?]\r\nData and source code are needed.\r\n\r\n<b>Additional Comments:</b>\r\n[This is a free-form field]\r\nThis appears to be nice work for the guidance of endoscopes. The paper nicely formulates the problem and motivates the research. The paper also details the limitations of the proposed method and includes details for future work.\r\n\r\nThe review score is based on the Insight Journal reviewer guidelines. See: http://insightsoftwareconsortium.org/wiki/index.php/IJ-Reviewer-Guidelines\r\n",
-    "date": "08-22-2006",
-    "review_id": 310
-   },
-   {
-    "author": {
-     "author_email": "samset@bwh.harvard.edu",
-     "author_firstname": "Eigil",
-     "author_id": 447,
-     "author_lastname": "Samset"
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 105,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "jmelonak@ece.gatech.edu",
+          "author_firstname": "John",
+          "author_id": 37,
+          "author_lastname": "Melonakos"
+        },
+        "content": "<b>Summary:</b>\r\n[Short description of the paper. In two or three phrases describe the problem that was addressed by the authors and the approach they took to solve it.]\r\nThis paper presents an algorithm for colonoscopic navigation. The algorithm specifically seeks to address the dynamical nature of the colon due to the anatomical contraction and expanding of the colon. The authors present results on one dataset and point out limitations to their method.\r\n \r\n<b>Hypothesis:</b>\r\n[If Applicable: Describe the assumptions that the authors have made and they hypothesis of their work, note that not all papers will fit the model of hypothesis driven work, for example, the description of an image database, or the description of a toolkit will not be driven by an hypothesis, in which case, please simply write : \u00e2\u0080\u009cNon Applicable\u00e2\u0080\u009d in this field or delete the subtitle.]\r\nNot Applicable\r\n\r\n<b>Evidence:</b>\r\n[Describe the evidence that the authors provide in order to support their claims in the paper. This is a key component on Open Science, opinions that are not supported by evidence should be labeled as \u00e2\u0080\u009cspeculations\u00e2\u0080\u009d or \u00e2\u0080\u009cauthor\u00e2\u0080\u0099s opinion\u00e2\u0080\u009d while. The same rule applies to the text of the reviews: claims should be supported by evidence]\r\nThe authors show preliminary results on one dataset.\r\n\r\n<b>Open Science:</b>\r\n[Describe how much the paper and its addendums adhere to the concept of Open Science. Do the authors provide the source code of the programs used in their experiments? Do the authors provide the input images that they used? Or are those images publicly available? Do the authors provide the output images that they show in the paper? Do the authors provide enough details for you to be able to replicate their work?]\r\nNo source code or data is provided.\r\n\r\n<b>Reproducibility:</b>\r\n[Did you reproduce the authors\u00e2\u0080\u0099 work?\r\nDid you download their code? Did you compile it? Did you run it?\r\nDid you managed to get the same results that they reported?\r\nWere there information missing from the paper, that was necessary for you to reproduce the work? Suggest improvements that will make easier for future readers to reproduce this work.]\r\nI was unable to reproduce the results due to lack of source code and data.\r\n\r\n<b>Use of Open Source Software:</b>\r\n[Did the authors use Open Source software in their work? Do they describe their experience with it, advantages and disadvantages? Do they provide advice for future users of those Open Source packages?]\r\nAs far as I can tell, the authors make no mention of the platform on which they developed their code.\r\n\r\n<b>Open Source Contributions:</b>\r\n[Do the author\u00e2\u0080\u0099s provide their source code? Is it in a form that is usable? Do they describe clearly how to use of the code? How long did it take you to use that code?]\r\nNo source code was provided.\r\n\r\n<b>Code Quality:</b>\r\n[If the authors provided their source code: Was the code easy to read? Did they use a modern coding style? Did they rely on non-portable mechanism? Was it suitable for multiple-platforms?]\r\nNot Applicable\r\n\r\n<b>Applicability to other problems:</b>\r\n[Do you find that the authors methods can be applied to other image analysis problems? Suggest other disciplines or even other specific projects that could take advantage of this work]\r\nThis work is highly optimized for endoscopic navigation and thus may apply to any problems relating to endoscopic navigation.\r\n\r\n<b>Suggestions for future work:</b>\r\n[Suggest to authors future directions for improving their methods, or other domains from which they could learn technique that could help them advance in their research.]\r\nThe authors may wish to look to control theory results for some inspiration (perhaps the Kalman filter could be used)?\r\n\r\n<b>Requests for additional information from authors:</b>\r\n[Did you find that information was missing from the paper? Maybe parameters for running the tests? Maybe some images were missing? Would you like to get more details on how the diagrams, or plots were generated?]\r\nData and source code are needed.\r\n\r\n<b>Additional Comments:</b>\r\n[This is a free-form field]\r\nThis appears to be nice work for the guidance of endoscopes. The paper nicely formulates the problem and motivates the research. The paper also details the limitations of the proposed method and includes details for future work.\r\n\r\nThe review score is based on the Insight Journal reviewer guidelines. See: http://insightsoftwareconsortium.org/wiki/index.php/IJ-Reviewer-Guidelines\r\n",
+        "date": "08-22-2006",
+        "review_id": 310
+      },
+      {
+        "author": {
+          "author_email": "samset@bwh.harvard.edu",
+          "author_firstname": "Eigil",
+          "author_id": 447,
+          "author_lastname": "Samset"
+        },
+        "content": "<b>Summary:</b>\r\nA system for colonoscopy navigation is presented. A computer vision based method based on pattern extraction and tracking was described.\r\n \r\n<b>Hypothesis:</b>\r\nNon applicable\r\n\r\n<b>Evidence:</b>\r\nThe method was tested one image, and some illustrations are given in the paper. Quantitative validation is missing\r\n\r\n<b>Open Science:</b>\r\nNo source code is provided. The software systems used are not described.\r\n\r\n<b>Reproducibility:</b>\r\nNo source code and no image data was provided\r\n\r\n<b>Use of Open Source Software:</b>\r\nNot described\r\n\r\n<b>Open Source Contributions:</b>\r\nNo source code provided\r\n\r\n<b>Code Quality:</b>\r\nNo source code provided\r\n\r\n<b>Applicability to other problems:</b>\r\nThe method might be applicable to other endoscopic procedures.\r\n\r\n\r\n",
+        "date": "08-23-2006",
+        "review_id": 313
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "hchettaoui@yahoo.fr",
+      "author_firstname": "Hanene",
+      "author_fullname": "Chettaoui, Hanene",
+      "author_id": 449,
+      "author_institution": "LAI INSA Lyon ",
+      "author_lastname": "Chettaoui"
     },
-    "content": "<b>Summary:</b>\r\nA system for colonoscopy navigation is presented. A computer vision based method based on pattern extraction and tracking was described.\r\n \r\n<b>Hypothesis:</b>\r\nNon applicable\r\n\r\n<b>Evidence:</b>\r\nThe method was tested one image, and some illustrations are given in the paper. Quantitative validation is missing\r\n\r\n<b>Open Science:</b>\r\nNo source code is provided. The software systems used are not described.\r\n\r\n<b>Reproducibility:</b>\r\nNo source code and no image data was provided\r\n\r\n<b>Use of Open Source Software:</b>\r\nNot described\r\n\r\n<b>Open Source Contributions:</b>\r\nNo source code provided\r\n\r\n<b>Code Quality:</b>\r\nNo source code provided\r\n\r\n<b>Applicability to other problems:</b>\r\nThe method might be applicable to other endoscopic procedures.\r\n\r\n\r\n",
-    "date": "08-23-2006",
-    "review_id": 313
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "hchettaoui@yahoo.fr",
-   "author_firstname": "Hanene",
-   "author_fullname": "Chettaoui, Hanene",
-   "author_id": 449,
-   "author_institution": "LAI INSA Lyon ",
-   "author_lastname": "Chettaoui"
-  },
-  "tags": [
-   "Surgical Robotic, Colonoscopy, Minimally Invasive Surgery, Medical Imaging, Visual control."
-  ],
-  "title": "A new Gray-Level Picture Thresholding method for colonoscopic navigation"
- }
+    "tags": [
+      "Surgical Robotic, Colonoscopy, Minimally Invasive Surgery, Medical Imaging, Visual control."
+    ],
+    "title": "A new Gray-Level Picture Thresholding method for colonoscopic navigation"
+  }
 }

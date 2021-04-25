@@ -1,61 +1,66 @@
 {
- "publication": {
-  "abstract": "Several kind of noise can be found in real images, mostly depending on the modality\nof acquisition. It is often useful to be able to simulate that noise, for example\nto test the behavior of an algorithm in the presence of a known amount of noise.\n\nThis contribution provides the filters to generate four kind of noise -- additive\ngaussian, shot, speckle and salt and pepper -- as well as a PSNR calculator.\n",
-  "authors": [
-   {
-    "author_fullname": "Lehmann, Gaetan",
-    "author_place": 1,
-    "persona_email": "gaetan.lehmann@gmail.com",
-    "persona_firstname": "Gaetan",
-    "persona_id": 328,
-    "persona_lastname": "Lehmann"
-   }
-  ],
-  "categories": [
-   "Filtering",
-   "Parallelization, SMP"
-  ],
-  "comments": [],
-  "date_submitted": "2010-07-22 08:13:29",
-  "handles": [
-   {
-    "handle": "10380/3158",
-    "handle_url": "http://hdl.handle.net/10380/3158"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 721,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "gaetan.lehmann@gmail.com",
-   "author_firstname": "Gaetan",
-   "author_fullname": "Lehmann, Gaetan",
-   "author_id": 328,
-   "author_institution": "INRA",
-   "author_lastname": "Lehmann"
-  },
-  "tags": [
-   "impulse noise",
-   "speckle noise",
-   "multiplicative noise",
-   "salt and pepper noise",
-   "additive gaussian noise",
-   "shot noise",
-   "poisson noise",
-   "photon noise",
-   "PSNR",
-   "noise"
-  ],
-  "title": "Noise simulation"
- }
+  "publication": {
+    "abstract": "Several kind of noise can be found in real images, mostly depending on the modality\nof acquisition. It is often useful to be able to simulate that noise, for example\nto test the behavior of an algorithm in the presence of a known amount of noise.\n\nThis contribution provides the filters to generate four kind of noise -- additive\ngaussian, shot, speckle and salt and pepper -- as well as a PSNR calculator.\n",
+    "articles": [
+      "bafkreia4bjka5wovgbnvftxe55chrbk7urkp5lkmdj2av4k7qdff3xiyty",
+      "bafkreigofkafv3lelg3hed6nym7w3sotpbmvodmdxmpz7b67xe7ecv2qta",
+      "bafkreiagdsbfyvmpqnkff2bngfd7iqfwhuj3swsfepfz4upma532yunxcq"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Lehmann, Gaetan",
+        "author_place": 1,
+        "persona_email": "gaetan.lehmann@gmail.com",
+        "persona_firstname": "Gaetan",
+        "persona_id": 328,
+        "persona_lastname": "Lehmann"
+      }
+    ],
+    "categories": [
+      "Filtering",
+      "Parallelization, SMP"
+    ],
+    "comments": [],
+    "date_submitted": "2010-07-22 08:13:29",
+    "handles": [
+      {
+        "handle": "10380/3158",
+        "handle_url": "http://hdl.handle.net/10380/3158"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 721,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "gaetan.lehmann@gmail.com",
+      "author_firstname": "Gaetan",
+      "author_fullname": "Lehmann, Gaetan",
+      "author_id": 328,
+      "author_institution": "INRA",
+      "author_lastname": "Lehmann"
+    },
+    "tags": [
+      "impulse noise",
+      "speckle noise",
+      "multiplicative noise",
+      "salt and pepper noise",
+      "additive gaussian noise",
+      "shot noise",
+      "poisson noise",
+      "photon noise",
+      "PSNR",
+      "noise"
+    ],
+    "title": "Noise simulation"
+  }
 }

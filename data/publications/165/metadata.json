@@ -1,74 +1,79 @@
 {
- "publication": {
-  "abstract": "In this document it is described the implementation of the flux driven automatic centerline extraction\nalgorithm proposed by Bouix et al. in 2004. This is based on a skeletonisation algorithm initially\nproposed by Siddiqi et al. in 2002, using properties of an average outward flux measure to distinguish\nskeletal points from non-skeletal ones. This information is combined with a topology preserving thinning\nprocedure to obtain the final result. This implementation combines this skeletonisation algorithm with\nother techniques as described in the paper of Bouix et al. to produce an ITK filter that generates as output\nthe skeleton, as a binary object represented in an image, of the input surface, represented as a distance\ntransform image. In this work is described this medial curve extraction procedure following the ITK\nphilosophy.",
-  "authors": [
-   {
-    "author_fullname": "Mellado, Xavier",
-    "author_place": 1,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Larrabide, Ignacio",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Hernandez, Monica",
-    "author_place": 3,
-    "persona_email": "mhg@unizar.es",
-    "persona_firstname": "Monica",
-    "persona_id": 1044,
-    "persona_lastname": "Hernandez"
-   },
-   {
-    "author_fullname": "Frangi, Alejandro",
-    "author_place": 4,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Filtering",
-   "Mathematical Morphology"
-  ],
-  "comments": [],
-  "date_submitted": "2010-10-21 10:59:27",
-  "handles": [
-   {
-    "handle": "1926/560",
-    "handle_url": "http://hdl.handle.net/1926/560"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 165,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "kenshiro@gmail.com",
-   "author_firstname": "Xavier",
-   "author_fullname": "Mellado Esteban, Xavier",
-   "author_id": 638,
-   "author_institution": "Universitat Pompeu Fabra",
-   "author_lastname": "Mellado Esteban"
-  },
-  "tags": [
-   "medial curve",
-   "software",
-   "computer science",
-   "programming",
-   "image analysis",
-   "skeletonization",
-   "centerline extraction",
-   "ITK filter"
-  ],
-  "title": "Flux driven medial curve extraction"
- }
+  "publication": {
+    "abstract": "In this document it is described the implementation of the flux driven automatic centerline extraction\nalgorithm proposed by Bouix et al. in 2004. This is based on a skeletonisation algorithm initially\nproposed by Siddiqi et al. in 2002, using properties of an average outward flux measure to distinguish\nskeletal points from non-skeletal ones. This information is combined with a topology preserving thinning\nprocedure to obtain the final result. This implementation combines this skeletonisation algorithm with\nother techniques as described in the paper of Bouix et al. to produce an ITK filter that generates as output\nthe skeleton, as a binary object represented in an image, of the input surface, represented as a distance\ntransform image. In this work is described this medial curve extraction procedure following the ITK\nphilosophy.",
+    "articles": [
+      null,
+      null,
+      "bafybeiebtge5xragx3zio56wiyfewcvmxxmjyptv5te5rwnnimtrhk53gy"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Mellado, Xavier",
+        "author_place": 1,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Larrabide, Ignacio",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Hernandez, Monica",
+        "author_place": 3,
+        "persona_email": "mhg@unizar.es",
+        "persona_firstname": "Monica",
+        "persona_id": 1044,
+        "persona_lastname": "Hernandez"
+      },
+      {
+        "author_fullname": "Frangi, Alejandro",
+        "author_place": 4,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Filtering",
+      "Mathematical Morphology"
+    ],
+    "comments": [],
+    "date_submitted": "2010-10-21 10:59:27",
+    "handles": [
+      {
+        "handle": "1926/560",
+        "handle_url": "http://hdl.handle.net/1926/560"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 165,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "kenshiro@gmail.com",
+      "author_firstname": "Xavier",
+      "author_fullname": "Mellado Esteban, Xavier",
+      "author_id": 638,
+      "author_institution": "Universitat Pompeu Fabra",
+      "author_lastname": "Mellado Esteban"
+    },
+    "tags": [
+      "medial curve",
+      "software",
+      "computer science",
+      "programming",
+      "image analysis",
+      "skeletonization",
+      "centerline extraction",
+      "ITK filter"
+    ],
+    "title": "Flux driven medial curve extraction"
+  }
 }

@@ -1,113 +1,117 @@
 {
- "publication": {
-  "abstract": "A semi-automatic scheme was developed for the segmentation of 3D liver tumors from computed tomography (CT) images. First a support vector machine (SVM) classifier was trained to extract tumor region from one single 2D slice in the intermediate part of a tumor by voxel classification. Then the extracted tumor contour, after some morphological operations, was projected to its neighboring slices for automated sampling, learning and further voxel classification in neighboring slices. This propagation procedure continued till all tumor-containing slices were processed. The method was tested using 3D CT images with 10 liver tumors and a set of quantitative measures were computed, resulted in an averaged overall performance score of 72.",
-  "authors": [
-   {
-    "author_fullname": "Zhou, Jiayin",
-    "author_place": 1,
-    "persona_email": "jiayin.zhou@gmail.com",
-    "persona_firstname": "Jiayin",
-    "persona_id": 902,
-    "persona_lastname": "Zhou"
-   },
-   {
-    "author_fullname": "Xiong, Wei",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Tian, Qi",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Qi, Yingyi",
-    "author_place": 4,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Liu, Jiang",
-    "author_place": 5,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Leow, Wee Keng",
-    "author_place": 6,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Han, Thazin",
-    "author_place": 7,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Venkatesh, Sudhakar",
-    "author_place": 8,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Wang, Shih-chang",
-    "author_place": 9,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Discriminant Functions",
-   "Feature extraction",
-   "Optimization",
-   "Segmentation"
-  ],
-  "comments": [],
-  "date_submitted": "2008-07-07T14:32:21Z",
-  "handles": [
-   {
-    "handle": "10380/1413",
-    "handle_url": "http://hdl.handle.net/10380/1413"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 45,
-    "journal_name": "MICCAI 2016 Workshops"
-   },
-   {
-    "journal_id": 33,
-    "journal_name": "MICCAI 2008 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 590,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "dengxiang05@gmail.com",
-     "author_firstname": "Xiang",
-     "author_id": 872,
-     "author_lastname": "Deng"
+  "publication": {
+    "abstract": "A semi-automatic scheme was developed for the segmentation of 3D liver tumors from computed tomography (CT) images. First a support vector machine (SVM) classifier was trained to extract tumor region from one single 2D slice in the intermediate part of a tumor by voxel classification. Then the extracted tumor contour, after some morphological operations, was projected to its neighboring slices for automated sampling, learning and further voxel classification in neighboring slices. This propagation procedure continued till all tumor-containing slices were processed. The method was tested using 3D CT images with 10 liver tumors and a set of quantitative measures were computed, resulted in an averaged overall performance score of 72.",
+    "articles": [
+      "bafybeihkeq6ydhpvdn27ransyzhvgj4tbiirscse4wqxkh7kdof4ca6v6i",
+      "bafybeihxd77ssn2edynnavxbvryh3gyc33jkvusnuhlckqf6ahbyt4icje"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Zhou, Jiayin",
+        "author_place": 1,
+        "persona_email": "jiayin.zhou@gmail.com",
+        "persona_firstname": "Jiayin",
+        "persona_id": 902,
+        "persona_lastname": "Zhou"
+      },
+      {
+        "author_fullname": "Xiong, Wei",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Tian, Qi",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Qi, Yingyi",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Liu, Jiang",
+        "author_place": 5,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Leow, Wee Keng",
+        "author_place": 6,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Han, Thazin",
+        "author_place": 7,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Venkatesh, Sudhakar",
+        "author_place": 8,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Wang, Shih-chang",
+        "author_place": 9,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Discriminant Functions",
+      "Feature extraction",
+      "Optimization",
+      "Segmentation"
+    ],
+    "comments": [],
+    "date_submitted": "2008-07-07T14:32:21Z",
+    "handles": [
+      {
+        "handle": "10380/1413",
+        "handle_url": "http://hdl.handle.net/10380/1413"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<p>This paper presents a semi-automatic live tumor segmentation technique. <br />In this method, the tumor is first segmented in one slice using an SVM classifier. The contour is then propagated to other slices and refined using an updated SVM classifier to obtain&nbsp; segmentation of the whole lesion. </p><p>Detailed comments:</p><p>1) If the tumor has an asymmetric shape, I don&#39;t see a clear advantage to start the segmentation in the mid section of the lesion.</p><p>2) It is not clear to me how the segmentation procedure can be stopped during the propagation so that user can manually adjust the initial ROI. </p><p><br />3) While the proposed technique does not need manual editing of the segmented contour, it does require some user-intervention in initialization and in the middle of segmentation procedure. In my opinion, the proposed technique is an interactive segmentation technique.</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>",
-    "date": "07-25-2008",
-    "review_id": 1520
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "jiayin.zhou@gmail.com",
-   "author_firstname": "Jiayin",
-   "author_fullname": "Zhou, Jiayin",
-   "author_id": 902,
-   "author_institution": "National University of Singapore",
-   "author_lastname": "Zhou"
-  },
-  "tags": [
-   "image segmentation",
-   "liver tumor",
-   "computed tomography",
-   "support vector machine"
-  ],
-  "title": "Semi-automatic Segmentation of 3D Liver Tumors from CT Scans Using Voxel Classification and Propagational Learning"
- }
+    "journals": [
+      {
+        "journal_id": 45,
+        "journal_name": "MICCAI 2016 Workshops"
+      },
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 590,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "dengxiang05@gmail.com",
+          "author_firstname": "Xiang",
+          "author_id": 872,
+          "author_lastname": "Deng"
+        },
+        "content": "<p>This paper presents a semi-automatic live tumor segmentation technique. <br />In this method, the tumor is first segmented in one slice using an SVM classifier. The contour is then propagated to other slices and refined using an updated SVM classifier to obtain&nbsp; segmentation of the whole lesion. </p><p>Detailed comments:</p><p>1) If the tumor has an asymmetric shape, I don&#39;t see a clear advantage to start the segmentation in the mid section of the lesion.</p><p>2) It is not clear to me how the segmentation procedure can be stopped during the propagation so that user can manually adjust the initial ROI. </p><p><br />3) While the proposed technique does not need manual editing of the segmented contour, it does require some user-intervention in initialization and in the middle of segmentation procedure. In my opinion, the proposed technique is an interactive segmentation technique.</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>",
+        "date": "07-25-2008",
+        "review_id": 1520
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "jiayin.zhou@gmail.com",
+      "author_firstname": "Jiayin",
+      "author_fullname": "Zhou, Jiayin",
+      "author_id": 902,
+      "author_institution": "National University of Singapore",
+      "author_lastname": "Zhou"
+    },
+    "tags": [
+      "image segmentation",
+      "liver tumor",
+      "computed tomography",
+      "support vector machine"
+    ],
+    "title": "Semi-automatic Segmentation of 3D Liver Tumors from CT Scans Using Voxel Classification and Propagational Learning"
+  }
 }

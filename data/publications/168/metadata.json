@@ -1,68 +1,76 @@
 {
- "publication": {
-  "abstract": "This paper describes the ITK implementation of a transform initializer to produce a rigid 3-D transform able to center a given point on an arbitrary plane. The resultant transform allows the user to \"look at\" a point from a given direction. The resultant transform can also be used to obtain an oblique section: a single arbitrary 2-D slice through a 3-D image.",
-  "authors": [
-   {
-    "author_fullname": "Mueller, Dan",
-    "author_place": 1,
-    "persona_email": "dan.muel@gmail.com",
-    "persona_firstname": "Dan",
-    "persona_id": 286,
-    "persona_lastname": "Mueller"
-   }
-  ],
-  "categories": [
-   "Filtering",
-   "Geometric transforms",
-   "Resampling"
-  ],
-  "comments": [],
-  "date_submitted": "2007-07-16T02:02:25Z",
-  "handles": [
-   {
-    "handle": "1926/563",
-    "handle_url": "http://hdl.handle.net/1926/563"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 168,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "imacia@vicomtech.org",
-     "author_firstname": "Ivan",
-     "author_id": 164,
-     "author_lastname": "Macia"
+  "publication": {
+    "abstract": "This paper describes the ITK implementation of a transform initializer to produce a rigid 3-D transform able to center a given point on an arbitrary plane. The resultant transform allows the user to \"look at\" a point from a given direction. The resultant transform can also be used to obtain an oblique section: a single arbitrary 2-D slice through a 3-D image.",
+    "articles": [
+      "bafkreiatumvexfouu23hpqv4soqmxprssq3jsseq3lfi4sd6rlhdpnwzlq",
+      "bafkreiatumvexfouu23hpqv4soqmxprssq3jsseq3lfi4sd6rlhdpnwzlq",
+      "bafkreiatumvexfouu23hpqv4soqmxprssq3jsseq3lfi4sd6rlhdpnwzlq",
+      "bafkreiatumvexfouu23hpqv4soqmxprssq3jsseq3lfi4sd6rlhdpnwzlq",
+      "bafkreiatumvexfouu23hpqv4soqmxprssq3jsseq3lfi4sd6rlhdpnwzlq",
+      "bafkreiatumvexfouu23hpqv4soqmxprssq3jsseq3lfi4sd6rlhdpnwzlq"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Mueller, Dan",
+        "author_place": 1,
+        "persona_email": "dan.muel@gmail.com",
+        "persona_firstname": "Dan",
+        "persona_id": 286,
+        "persona_lastname": "Mueller"
+      }
+    ],
+    "categories": [
+      "Filtering",
+      "Geometric transforms",
+      "Resampling"
+    ],
+    "comments": [],
+    "date_submitted": "2007-07-16T02:02:25Z",
+    "handles": [
+      {
+        "handle": "1926/563",
+        "handle_url": "http://hdl.handle.net/1926/563"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<p><strong>Summary:</strong><br />The paper describes a method to specify a transform given the center point of a section, the section normal and the output size. Then it incorporates this transformation into a filter in order to obtain a 2D section image from a 3D image.<br /> <br /> <strong>Hypothesis:</strong><br /> Not applicable.<br /> <br /> <strong>Evidence:</strong><br />The author demonstrates the efficiency of the method by providing some examples and tests with synthetic and real data.<br /> <br /> <strong>Open Science:</strong><br /> </p><p>The work adheres to the concept of Open Science. Source code, test images and images shown in the paper are provided. </p><p><strong>Reproducibility:</strong><br /> </p><p>I managed to compile the source code and run the tests. Results were reproduced without problem as some tests with parameters were available. <br /> <br /> <strong>Use of Open Source Software:</strong></p><p>The implementation uses and extends ITK. </p><p><strong>Open Source Contributions:</strong></p><p>Source code is provided and its usage is straightforward.</p><p><strong>Code Quality:</strong><br /> </p><p>In my opinion it is better to create a LookUpTransform that inherits from Rigid3DTransform instead of using initializer. I did this and incorporated some other changes (see attachment). These include:</p><p>- LookAtTransformInitializer changed to LookAtTransform that inherits Rigid3DTransform.</p><p>- m_Image is no longer a member as it is unnecessary just to specify output spacing. This spacing is incorporated as argument to the call SetPlane().</p><p>- The output spacing does not need to be the same as the input image spacing. Changed this (see previous).</p><p>- The template parameter for the transform is the 2D image, not the 3D image. This makes more sense in my opinion.</p><p> With respects to the tests, there is no usage information for command line as in ITK examples.</p><p> <br /> <strong>Applicability to other problems:</strong></p><p>The method can be applied to any problem that requires the extraction of a section given its center and normal. </p><p> <strong>Suggestions for future work:</strong><br /> </p><p>None. </p><p><strong>Requests for additional information from authors:</strong></p><p>None. </p><p> <strong>Additional Comments:</strong></p><p>There is an error in the figure description. It says first and second row where it should say first and second column. </p>",
-    "date": "04-26-2008",
-    "review_id": 654
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "dan.muel@gmail.com",
-   "author_firstname": "Dan",
-   "author_fullname": "Mueller, Dan",
-   "author_id": 286,
-   "author_institution": "Philips Healthcare",
-   "author_lastname": "Mueller"
-  },
-  "tags": [
-   "plane",
-   "oblique section",
-   "ITK",
-   "resample"
-  ],
-  "title": "LookAt Transform Initializer and Oblique Section Image Filter"
- }
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 168,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "imacia@vicomtech.org",
+          "author_firstname": "Ivan",
+          "author_id": 164,
+          "author_lastname": "Macia"
+        },
+        "content": "<p><strong>Summary:</strong><br />The paper describes a method to specify a transform given the center point of a section, the section normal and the output size. Then it incorporates this transformation into a filter in order to obtain a 2D section image from a 3D image.<br /> <br /> <strong>Hypothesis:</strong><br /> Not applicable.<br /> <br /> <strong>Evidence:</strong><br />The author demonstrates the efficiency of the method by providing some examples and tests with synthetic and real data.<br /> <br /> <strong>Open Science:</strong><br /> </p><p>The work adheres to the concept of Open Science. Source code, test images and images shown in the paper are provided. </p><p><strong>Reproducibility:</strong><br /> </p><p>I managed to compile the source code and run the tests. Results were reproduced without problem as some tests with parameters were available. <br /> <br /> <strong>Use of Open Source Software:</strong></p><p>The implementation uses and extends ITK. </p><p><strong>Open Source Contributions:</strong></p><p>Source code is provided and its usage is straightforward.</p><p><strong>Code Quality:</strong><br /> </p><p>In my opinion it is better to create a LookUpTransform that inherits from Rigid3DTransform instead of using initializer. I did this and incorporated some other changes (see attachment). These include:</p><p>- LookAtTransformInitializer changed to LookAtTransform that inherits Rigid3DTransform.</p><p>- m_Image is no longer a member as it is unnecessary just to specify output spacing. This spacing is incorporated as argument to the call SetPlane().</p><p>- The output spacing does not need to be the same as the input image spacing. Changed this (see previous).</p><p>- The template parameter for the transform is the 2D image, not the 3D image. This makes more sense in my opinion.</p><p> With respects to the tests, there is no usage information for command line as in ITK examples.</p><p> <br /> <strong>Applicability to other problems:</strong></p><p>The method can be applied to any problem that requires the extraction of a section given its center and normal. </p><p> <strong>Suggestions for future work:</strong><br /> </p><p>None. </p><p><strong>Requests for additional information from authors:</strong></p><p>None. </p><p> <strong>Additional Comments:</strong></p><p>There is an error in the figure description. It says first and second row where it should say first and second column. </p>",
+        "date": "04-26-2008",
+        "review_id": 654
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "dan.muel@gmail.com",
+      "author_firstname": "Dan",
+      "author_fullname": "Mueller, Dan",
+      "author_id": 286,
+      "author_institution": "Philips Healthcare",
+      "author_lastname": "Mueller"
+    },
+    "tags": [
+      "plane",
+      "oblique section",
+      "ITK",
+      "resample"
+    ],
+    "title": "LookAt Transform Initializer and Oblique Section Image Filter"
+  }
 }

@@ -1,73 +1,76 @@
 {
- "publication": {
-  "abstract": "This paper describes a multimodal deformable image registration method on the GPU. It is a CUDA-based implementation of a paper by E. D'Agostino et. al, ''A viscous fluid model for multimodal non-rigid image registration using mutual information''. In addition, we incorporate an alternative metric as opposed to mutual information, called Bhattacharyya Distance, in the recent work of Lou and Tannenbaum. This paper is accompanied with the source code, input data, parameters and output data that the authors used for validating the algorithm.",
-  "authors": [
-   {
-    "author_fullname": "Jia, Xun",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Gu, Xuejun",
-    "author_place": 3,
-    "persona_email": "x2gu@ucsd.edu",
-    "persona_firstname": "Xuejun",
-    "persona_id": 3131,
-    "persona_lastname": "Gu"
-   },
-   {
-    "author_fullname": "Tannenbaum, Allen",
-    "author_place": 4,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Lou, Yifei",
-    "author_place": 1,
-    "persona_email": "louyifei@gmail.com",
-    "persona_firstname": "Yifei",
-    "persona_id": 3059,
-    "persona_lastname": "Lou"
-   }
-  ],
-  "categories": [
-   "Deformable registration",
-   "Multi-modality registration",
-   "Registration metrics"
-  ],
-  "comments": [],
-  "date_submitted": "2011-05-24 13:54:15",
-  "handles": [
-   {
-    "handle": "10380/3268",
-    "handle_url": "http://hdl.handle.net/10380/3268"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 803,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "louyifei@gmail.com",
-   "author_firstname": "Yifei",
-   "author_fullname": "Lou, Yifei",
-   "author_id": 3059,
-   "author_institution": "School of Electrical and Computer Engineering, Georgia Institute of Technology",
-   "author_lastname": "Lou"
-  },
-  "tags": [
-   "Multimodal deformable registration",
-   "Mutual Information",
-   "Bhattacharyya Distance"
-  ],
-  "title": "A GPU-based Implementation of Multimodal Deformable Image Registration Based on Mutual Information or Bhattacharyya Distance"
- }
+  "publication": {
+    "abstract": "This paper describes a multimodal deformable image registration method on the GPU. It is a CUDA-based implementation of a paper by E. D'Agostino et. al, ''A viscous fluid model for multimodal non-rigid image registration using mutual information''. In addition, we incorporate an alternative metric as opposed to mutual information, called Bhattacharyya Distance, in the recent work of Lou and Tannenbaum. This paper is accompanied with the source code, input data, parameters and output data that the authors used for validating the algorithm.",
+    "articles": [
+      "bafybeig4ydisi7s7f6dfso2jauykrm66j6oqczj2hhgula5q5rdf7omuae"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Jia, Xun",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Gu, Xuejun",
+        "author_place": 3,
+        "persona_email": "x2gu@ucsd.edu",
+        "persona_firstname": "Xuejun",
+        "persona_id": 3131,
+        "persona_lastname": "Gu"
+      },
+      {
+        "author_fullname": "Tannenbaum, Allen",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Lou, Yifei",
+        "author_place": 1,
+        "persona_email": "louyifei@gmail.com",
+        "persona_firstname": "Yifei",
+        "persona_id": 3059,
+        "persona_lastname": "Lou"
+      }
+    ],
+    "categories": [
+      "Deformable registration",
+      "Multi-modality registration",
+      "Registration metrics"
+    ],
+    "comments": [],
+    "date_submitted": "2011-05-24 13:54:15",
+    "handles": [
+      {
+        "handle": "10380/3268",
+        "handle_url": "http://hdl.handle.net/10380/3268"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 803,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "louyifei@gmail.com",
+      "author_firstname": "Yifei",
+      "author_fullname": "Lou, Yifei",
+      "author_id": 3059,
+      "author_institution": "School of Electrical and Computer Engineering, Georgia Institute of Technology",
+      "author_lastname": "Lou"
+    },
+    "tags": [
+      "Multimodal deformable registration",
+      "Mutual Information",
+      "Bhattacharyya Distance"
+    ],
+    "title": "A GPU-based Implementation of Multimodal Deformable Image Registration Based on Mutual Information or Bhattacharyya Distance"
+  }
 }

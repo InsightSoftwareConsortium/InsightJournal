@@ -1,76 +1,79 @@
 {
- "publication": {
-  "abstract": "Abstract. Statistical shape models (SSM) capture the variation of shape across a population, in order to allow further analysis. Previous work demonstrates that deformation fields contain global transformation components, even if global pre-\r\nregistration is performed. It is crucial to construction of SSMs to remove these global transformation components from the local deformations - thus obtaining minimal deformations - prior to using these as input for SSM construction. In medical image processing, parameterized SSMs based on control points of free-form deformations (FFD) are a popular choice, since they offer several advantages compared to SSMs based on dense deformation \ufb01elds. In this work, we extend the previous approach by presenting a framework for construction of both, unparameterized and FFD-based SSMs from minimal deformations. The core of the method is computation of minimal deformations by extraction of the linear part from the original dense deformations. For FFD-based SSMs, the FFD-parameterization of the minimal deformations is performed by projection onto the space of FFDs. Both steps are computed by close-form solutions optimally in the least-square sense. The proposed method is evaluated on a data set of 62 MR images of the corpus callosum. The results show a significant improvement achieved by the proposed method for SSMs built on dense \ufb01elds, as well as on FFD-based SSMs.",
-  "authors": [
-   {
-    "author_fullname": "Zikic, Darko",
-    "author_place": 1,
-    "persona_email": "zikic@cs.tum.edu",
-    "persona_firstname": "Darko",
-    "persona_id": 2088,
-    "persona_lastname": "Zikic"
-   },
-   {
-    "author_fullname": "Glocker, Ben",
-    "author_place": 2,
-    "persona_email": "b.glocker@imperial.ac.uk",
-    "persona_firstname": "Ben",
-    "persona_id": 9815,
-    "persona_lastname": "Glocker"
-   },
-   {
-    "author_fullname": "Sass Hansen, Micheal",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Khamene, Ali",
-    "author_place": 4,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Navab, Nassir",
-    "author_place": 5,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Mathematics",
-   "Statistical shape models"
-  ],
-  "comments": [],
-  "date_submitted": "2008-09-12 11:52:15",
-  "handles": [
-   {
-    "handle": "10380/1503",
-    "handle_url": "http://hdl.handle.net/10380/1503"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 33,
-    "journal_name": "MICCAI 2008 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 635,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "zikic@cs.tum.edu",
-   "author_firstname": "Darko",
-   "author_fullname": "Zikic, Darko",
-   "author_id": 2088,
-   "author_institution": "Computer Aided Medical Procedures (CAMP), TUM, Munich, Germany,",
-   "author_lastname": "Zikic"
-  },
-  "tags": [
-   "Shape Models",
-   "Statistics"
-  ],
-  "title": "Construction of Statistical Shape Models from Minimal Deformations"
- }
+  "publication": {
+    "abstract": "Abstract. Statistical shape models (SSM) capture the variation of shape across a population, in order to allow further analysis. Previous work demonstrates that deformation fields contain global transformation components, even if global pre-\r\nregistration is performed. It is crucial to construction of SSMs to remove these global transformation components from the local deformations - thus obtaining minimal deformations - prior to using these as input for SSM construction. In medical image processing, parameterized SSMs based on control points of free-form deformations (FFD) are a popular choice, since they offer several advantages compared to SSMs based on dense deformation \ufb01elds. In this work, we extend the previous approach by presenting a framework for construction of both, unparameterized and FFD-based SSMs from minimal deformations. The core of the method is computation of minimal deformations by extraction of the linear part from the original dense deformations. For FFD-based SSMs, the FFD-parameterization of the minimal deformations is performed by projection onto the space of FFDs. Both steps are computed by close-form solutions optimally in the least-square sense. The proposed method is evaluated on a data set of 62 MR images of the corpus callosum. The results show a significant improvement achieved by the proposed method for SSMs built on dense \ufb01elds, as well as on FFD-based SSMs.",
+    "articles": [
+      "bafybeihswnmoptqbj6a2rumlc2vrcxcjghq2pcqbakeotq2l3vpa34ekfm"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Zikic, Darko",
+        "author_place": 1,
+        "persona_email": "zikic@cs.tum.edu",
+        "persona_firstname": "Darko",
+        "persona_id": 2088,
+        "persona_lastname": "Zikic"
+      },
+      {
+        "author_fullname": "Glocker, Ben",
+        "author_place": 2,
+        "persona_email": "b.glocker@imperial.ac.uk",
+        "persona_firstname": "Ben",
+        "persona_id": 9815,
+        "persona_lastname": "Glocker"
+      },
+      {
+        "author_fullname": "Sass Hansen, Micheal",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Khamene, Ali",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Navab, Nassir",
+        "author_place": 5,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Mathematics",
+      "Statistical shape models"
+    ],
+    "comments": [],
+    "date_submitted": "2008-09-12 11:52:15",
+    "handles": [
+      {
+        "handle": "10380/1503",
+        "handle_url": "http://hdl.handle.net/10380/1503"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 635,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "zikic@cs.tum.edu",
+      "author_firstname": "Darko",
+      "author_fullname": "Zikic, Darko",
+      "author_id": 2088,
+      "author_institution": "Computer Aided Medical Procedures (CAMP), TUM, Munich, Germany,",
+      "author_lastname": "Zikic"
+    },
+    "tags": [
+      "Shape Models",
+      "Statistics"
+    ],
+    "title": "Construction of Statistical Shape Models from Minimal Deformations"
+  }
 }

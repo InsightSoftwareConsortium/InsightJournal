@@ -1,94 +1,98 @@
 {
- "publication": {
-  "abstract": "VoxBo (www.voxbo.org) is a distributed processing framework, developed at the Center of Functional Neuroimaging at the University of Penssylvania, with the purpose of processing and analyzing brain functional MRI data. \r\nVoxBo is written in C++, and it is escentially a fair translation of some SPM functionality, originally written in Matlab. Along with the software, VoxBo defines two new image formats:\r\n1) .cub, a 3D image format, used for anatomical data and single EPI frames. It is important to notice that this format defines a proper origin field, lacking, for instance, in Analyze.\r\n2) .tes, a 4D image format, designed to contain the temporal EPI information. It is worth noticing that this format organizes the voxels in such a way to optimize longitudinal (temporal) voxel access.\r\nFurthermore, the tes format is compressed through encoding of the functional voxels alone, i.e., background voxels are not stored for each frame, but only for the first one.\r\n\r\nIn this work we present the necessary IO classes that allow ImageFileReader and ImageFileWriter to properly identify, read and write .cub files only. We will provide .tes support in a subsequent work.\r\nThis effort is carried out with the purpose of letting VoxBo implementors to take advantage of ITK's power and overcome the limitations currently afflicting VoxBo.",
-  "authors": [
-   {
-    "author_fullname": "Burstein, Pablo D.",
-    "author_place": 1,
-    "persona_email": "pablob@grasp.cis.upenn.edu",
-    "persona_firstname": "Pablo",
-    "persona_id": 435,
-    "persona_lastname": "Burstein"
-   },
-   {
-    "author_fullname": "Yushkevich, Paul",
-    "author_place": 2,
-    "persona_email": "pauly@despammed.com",
-    "persona_firstname": "Paul",
-    "persona_id": 51,
-    "persona_lastname": "Yushkevich"
-   },
-   {
-    "author_fullname": "Gee, James C.",
-    "author_place": 3,
-    "persona_email": "gee@mail.med.upenn.edu",
-    "persona_firstname": "James",
-    "persona_id": 236,
-    "persona_lastname": "Gee"
-   }
-  ],
-  "categories": [
-   "Data",
-   "Data Representation",
-   "Programming"
-  ],
-  "comments": [],
-  "date_submitted": "2006-08-21T16:59:23Z",
-  "handles": [
-   {
-    "handle": "1926/303",
-    "handle_url": "http://hdl.handle.net/1926/303"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 118,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "cates@sci.utah.edu",
-     "author_firstname": "Josh",
-     "author_id": 133,
-     "author_lastname": "Cates"
+  "publication": {
+    "abstract": "VoxBo (www.voxbo.org) is a distributed processing framework, developed at the Center of Functional Neuroimaging at the University of Penssylvania, with the purpose of processing and analyzing brain functional MRI data. \r\nVoxBo is written in C++, and it is escentially a fair translation of some SPM functionality, originally written in Matlab. Along with the software, VoxBo defines two new image formats:\r\n1) .cub, a 3D image format, used for anatomical data and single EPI frames. It is important to notice that this format defines a proper origin field, lacking, for instance, in Analyze.\r\n2) .tes, a 4D image format, designed to contain the temporal EPI information. It is worth noticing that this format organizes the voxels in such a way to optimize longitudinal (temporal) voxel access.\r\nFurthermore, the tes format is compressed through encoding of the functional voxels alone, i.e., background voxels are not stored for each frame, but only for the first one.\r\n\r\nIn this work we present the necessary IO classes that allow ImageFileReader and ImageFileWriter to properly identify, read and write .cub files only. We will provide .tes support in a subsequent work.\r\nThis effort is carried out with the purpose of letting VoxBo implementors to take advantage of ITK's power and overcome the limitations currently afflicting VoxBo.",
+    "articles": [
+      "bafkreickjuw54wpdq6q3wnkebmgyi2fke7brxh2cfblpbwnrt3zdb7ywde",
+      "bafkreifoaplxab45es5bndnmfg3vhay24wlunnhtcfz6pljinu76semg7u"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Burstein, Pablo D.",
+        "author_place": 1,
+        "persona_email": "pablob@grasp.cis.upenn.edu",
+        "persona_firstname": "Pablo",
+        "persona_id": 435,
+        "persona_lastname": "Burstein"
+      },
+      {
+        "author_fullname": "Yushkevich, Paul",
+        "author_place": 2,
+        "persona_email": "pauly@despammed.com",
+        "persona_firstname": "Paul",
+        "persona_id": 51,
+        "persona_lastname": "Yushkevich"
+      },
+      {
+        "author_fullname": "Gee, James C.",
+        "author_place": 3,
+        "persona_email": "gee@mail.med.upenn.edu",
+        "persona_firstname": "James",
+        "persona_id": 236,
+        "persona_lastname": "Gee"
+      }
+    ],
+    "categories": [
+      "Data",
+      "Data Representation",
+      "Programming"
+    ],
+    "comments": [],
+    "date_submitted": "2006-08-21T16:59:23Z",
+    "handles": [
+      {
+        "handle": "1926/303",
+        "handle_url": "http://hdl.handle.net/1926/303"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<p>Summary:<br />This work is an itk file reader for the VoxBo CUB image format.&nbsp; It supports compressed and uncompressed <br />files using zlib.&nbsp; An imageIO class and IO factory are provided, along with a test .cub file and a simple test <br />program.&nbsp; The code conforms to ITK style guidelines, follows the ITK Image IO design pattern and passes <br />the supplied tests.&nbsp; Some additional work on the testing and documentation might be worth considering. </p><p>Open Science:<br />Both the source code and test data are provided.&nbsp; Revision 2 of this submission includes a CMakeLists.txt file.<br /><br />Reproducibility: <br />The code provided compiled without errors on 64-bit SUSE Linux<br />under gcc 4.1.0 and ITK 2.8.1.&nbsp; I was able to run the test examples given in<br />the paper without error.&nbsp; Unfortunately I do not have any way to validate the<br />files produced (see Additional Comments for some suggestions).&nbsp; I did not find<br />inputTestImage.cub.gz included with the submission.&nbsp; Should the line from page<br />3 reading &quot;convertImage inputTestImage.cub.gz outputTestImage2.cub&quot; be edited<br />to read &quot;convertImage outputTestImage1.cub.gz outputTestImage2.cub&quot; instead?<br /><br />Open Source Contributions:<br />This code is certainly a valuable contribution for users of the VoxBo software, which is itself an open-source<br />project.<br /><br />Code Quality:<br />The code is written to conform to the ITK style guidelines and is easy to read.&nbsp; If this code is to be considered <br />for inclusion in ITK, the comment field for the itk::VoxBoCUBImageIO class should be expanded.&nbsp; A <br />short paragraph that summarizes the Background section of the paper would probably suffice.<br /><br />Additional Comments:<br />Note that ITK distributes a version of zlib, so you could use this one instead of relying on the system zlib.<br /><br />For a more robust test that would be supported by the ITK Dartboard image diff system, you might consider <br />extracting a 2D slice from the output of convertImage to compare against a known reference image.&nbsp; <br />Alternatively, you could compute a checksum from the output image data that you compare to a known value.&nbsp;</p>",
-    "date": "10-30-2006",
-    "review_id": 421
-   },
-   {
-    "author": {
-     "author_email": "sylvainjaume@gmail.com",
-     "author_firstname": "Sylvain",
-     "author_id": 102,
-     "author_lastname": "Jaume"
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 118,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "cates@sci.utah.edu",
+          "author_firstname": "Josh",
+          "author_id": 133,
+          "author_lastname": "Cates"
+        },
+        "content": "<p>Summary:<br />This work is an itk file reader for the VoxBo CUB image format.&nbsp; It supports compressed and uncompressed <br />files using zlib.&nbsp; An imageIO class and IO factory are provided, along with a test .cub file and a simple test <br />program.&nbsp; The code conforms to ITK style guidelines, follows the ITK Image IO design pattern and passes <br />the supplied tests.&nbsp; Some additional work on the testing and documentation might be worth considering. </p><p>Open Science:<br />Both the source code and test data are provided.&nbsp; Revision 2 of this submission includes a CMakeLists.txt file.<br /><br />Reproducibility: <br />The code provided compiled without errors on 64-bit SUSE Linux<br />under gcc 4.1.0 and ITK 2.8.1.&nbsp; I was able to run the test examples given in<br />the paper without error.&nbsp; Unfortunately I do not have any way to validate the<br />files produced (see Additional Comments for some suggestions).&nbsp; I did not find<br />inputTestImage.cub.gz included with the submission.&nbsp; Should the line from page<br />3 reading &quot;convertImage inputTestImage.cub.gz outputTestImage2.cub&quot; be edited<br />to read &quot;convertImage outputTestImage1.cub.gz outputTestImage2.cub&quot; instead?<br /><br />Open Source Contributions:<br />This code is certainly a valuable contribution for users of the VoxBo software, which is itself an open-source<br />project.<br /><br />Code Quality:<br />The code is written to conform to the ITK style guidelines and is easy to read.&nbsp; If this code is to be considered <br />for inclusion in ITK, the comment field for the itk::VoxBoCUBImageIO class should be expanded.&nbsp; A <br />short paragraph that summarizes the Background section of the paper would probably suffice.<br /><br />Additional Comments:<br />Note that ITK distributes a version of zlib, so you could use this one instead of relying on the system zlib.<br /><br />For a more robust test that would be supported by the ITK Dartboard image diff system, you might consider <br />extracting a 2D slice from the output of convertImage to compare against a known reference image.&nbsp; <br />Alternatively, you could compute a checksum from the output image data that you compare to a known value.&nbsp;</p>",
+        "date": "10-30-2006",
+        "review_id": 421
+      },
+      {
+        "author": {
+          "author_email": "sylvainjaume@gmail.com",
+          "author_firstname": "Sylvain",
+          "author_id": 102,
+          "author_lastname": "Jaume"
+        },
+        "content": "<b>Summary:</b>\r\nThe paper describes new ITK classes to read and write in CUB format (used by the application VoxBo).\r\n\r\n<b>Evidence:</b>\r\nI would like to see a 2D slice of the input image and the same slice after conversion.\r\nThe abstract says \\\\\\\\\\\\\\'no extensive testing is presented and no examples are shown.\\\\\\\\\\\\\\' But really it should!\r\n\r\n<b>Open Science:</b>\r\nThe paper fully adheres to the concept of Open Science. Source code for the classes and for an application are included. The CMakeLists.txt is missing. Please upload a CMakeLists.txt similar to this one:\r\n\r\nPROJECT(VoxBo)\r\n\r\nFIND_PACKAGE( ITK REQUIRED )\r\nINCLUDE( ${ITK_USE_FILE} )\r\n\r\nADD_EXECUTABLE(ConvertImage ConvertImage.cxx itkVoxBoCUBImageIO.cxx itkVoxBoCUBImageIOFactory.cxx)\r\nTARGET_LINK_LIBRARIES(ConvertImage ITKIO ITKCommon)\r\n\r\nADD_TEST(ConvertImage\r\n ${OUTPUT_EXECUTABLE_PATH}/ConvertImage inputTestImage.cub outputTestImage.cub)\r\n\r\nOne input image is included. However the paper mentions other input images. They should all be included.\r\nThe output images should also be included as a reference. So the reader could check she/he gets the same output.\r\nThe author could mention whether the input and output files are exact copies (in which case typing \\\\\\\\\\\\\\'diff inputFile outputFile\\\\\\\\\\\\\\' would suffice to check the result).\r\n\r\n<b>Reproducibility:</b>\r\nI could not compile the code. I tried on Windows and Mac. The compiler complains about missing zlib.h.\r\nI believe you did run your code and got the results you report in the paper.\r\nSo please write a CMakeLists.txt with some tests and upload it to the InsightJournal.\r\nIt will create a Dashboard and, if there is any error when compiling or running your code, you could check the messages and fix the code.\r\n\r\n<b>Use of Open Source Software:</b>\r\nThe author mentions an application called VoxBo. However VoxBo is not required to run the code, but just to check the results.\r\n\r\n<b>Open Source Contributions:</b>\r\nThe author decided to contribute all his source code for the benefit of the community. Thanks!\r\nHe just misses the CMakeLists.txt which makes this contribution more challenging to test and use.\r\n\r\n<b>Code Quality:</b>\r\nI discourage using #define. Image dimension and number of arguments could simply be hardcoded since your file format is for 3D images and your application always takes 2 arguments.\r\nSecond, it is a good idea to insert the Update calls into try/catch blocks particularly for readers/writers:\r\n\r\n try\r\n {\r\n reader->Update();\r\n }\r\n catch ( itk::ExceptionObject &err )\r\n {\r\n std::cerr << \\\\\\\\\\\\\\\"Exception caught in reader!\\\\\\\\\\\\\\\" << std::endl;\r\n std::cerr << err << std::endl;\r\n return EXIT_FAILURE;\r\n }\r\n \r\n writer->SetInput( reader->GetOutput() );\r\n writer->SetFileName( argv[2] );\r\n try\r\n {\r\n writer->Write();\r\n }\r\n catch ( itk::ExceptionObject &err )\r\n {\r\n std::cerr << \\\\\\\\\\\\\\\"Exception caught in writer!\\\\\\\\\\\\\\\" << std::endl;\r\n std::cerr << err << std::endl;\r\n return EXIT_FAILURE;\r\n }\r\n\r\n<b>Suggestions for future work:</b>\r\nI would like to see testing of the conversion from/to CUB and other formats (e.g. MetaImage, Analyze, DICOM).\r\nI do understand that some fields may not be propagated.\r\n\r\n<b>Requests for additional information from authors:</b>\r\nCMakeLists.txt with tests, outputTestImage.cub, and outputTestImage in other formats.\r\nMake sure it runs on your platform and other platforms.\r\n\r\n<b>Other comments:</b>\r\nWriting reader/writer classes is of paramount importance and is often overlooked by the community.\r\nIt can be very involved to make it successful on all the variants of the file format (consider DICOM!).\r\nA big piece of work has been achieved in this contribution, and I believe only some touch-ups are necessary to have this code used by many.",
+        "date": "09-05-2006",
+        "review_id": 374
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "pablob@grasp.cis.upenn.edu",
+      "author_firstname": "Pablo",
+      "author_fullname": "Burstein, Pablo",
+      "author_id": 435,
+      "author_institution": "University of Pennsylvania",
+      "author_lastname": "Burstein"
     },
-    "content": "<b>Summary:</b>\r\nThe paper describes new ITK classes to read and write in CUB format (used by the application VoxBo).\r\n\r\n<b>Evidence:</b>\r\nI would like to see a 2D slice of the input image and the same slice after conversion.\r\nThe abstract says \\\\\\\\\\\\\\'no extensive testing is presented and no examples are shown.\\\\\\\\\\\\\\' But really it should!\r\n\r\n<b>Open Science:</b>\r\nThe paper fully adheres to the concept of Open Science. Source code for the classes and for an application are included. The CMakeLists.txt is missing. Please upload a CMakeLists.txt similar to this one:\r\n\r\nPROJECT(VoxBo)\r\n\r\nFIND_PACKAGE( ITK REQUIRED )\r\nINCLUDE( ${ITK_USE_FILE} )\r\n\r\nADD_EXECUTABLE(ConvertImage ConvertImage.cxx itkVoxBoCUBImageIO.cxx itkVoxBoCUBImageIOFactory.cxx)\r\nTARGET_LINK_LIBRARIES(ConvertImage ITKIO ITKCommon)\r\n\r\nADD_TEST(ConvertImage\r\n ${OUTPUT_EXECUTABLE_PATH}/ConvertImage inputTestImage.cub outputTestImage.cub)\r\n\r\nOne input image is included. However the paper mentions other input images. They should all be included.\r\nThe output images should also be included as a reference. So the reader could check she/he gets the same output.\r\nThe author could mention whether the input and output files are exact copies (in which case typing \\\\\\\\\\\\\\'diff inputFile outputFile\\\\\\\\\\\\\\' would suffice to check the result).\r\n\r\n<b>Reproducibility:</b>\r\nI could not compile the code. I tried on Windows and Mac. The compiler complains about missing zlib.h.\r\nI believe you did run your code and got the results you report in the paper.\r\nSo please write a CMakeLists.txt with some tests and upload it to the InsightJournal.\r\nIt will create a Dashboard and, if there is any error when compiling or running your code, you could check the messages and fix the code.\r\n\r\n<b>Use of Open Source Software:</b>\r\nThe author mentions an application called VoxBo. However VoxBo is not required to run the code, but just to check the results.\r\n\r\n<b>Open Source Contributions:</b>\r\nThe author decided to contribute all his source code for the benefit of the community. Thanks!\r\nHe just misses the CMakeLists.txt which makes this contribution more challenging to test and use.\r\n\r\n<b>Code Quality:</b>\r\nI discourage using #define. Image dimension and number of arguments could simply be hardcoded since your file format is for 3D images and your application always takes 2 arguments.\r\nSecond, it is a good idea to insert the Update calls into try/catch blocks particularly for readers/writers:\r\n\r\n try\r\n {\r\n reader->Update();\r\n }\r\n catch ( itk::ExceptionObject &err )\r\n {\r\n std::cerr << \\\\\\\\\\\\\\\"Exception caught in reader!\\\\\\\\\\\\\\\" << std::endl;\r\n std::cerr << err << std::endl;\r\n return EXIT_FAILURE;\r\n }\r\n \r\n writer->SetInput( reader->GetOutput() );\r\n writer->SetFileName( argv[2] );\r\n try\r\n {\r\n writer->Write();\r\n }\r\n catch ( itk::ExceptionObject &err )\r\n {\r\n std::cerr << \\\\\\\\\\\\\\\"Exception caught in writer!\\\\\\\\\\\\\\\" << std::endl;\r\n std::cerr << err << std::endl;\r\n return EXIT_FAILURE;\r\n }\r\n\r\n<b>Suggestions for future work:</b>\r\nI would like to see testing of the conversion from/to CUB and other formats (e.g. MetaImage, Analyze, DICOM).\r\nI do understand that some fields may not be propagated.\r\n\r\n<b>Requests for additional information from authors:</b>\r\nCMakeLists.txt with tests, outputTestImage.cub, and outputTestImage in other formats.\r\nMake sure it runs on your platform and other platforms.\r\n\r\n<b>Other comments:</b>\r\nWriting reader/writer classes is of paramount importance and is often overlooked by the community.\r\nIt can be very involved to make it successful on all the variants of the file format (consider DICOM!).\r\nA big piece of work has been achieved in this contribution, and I believe only some touch-ups are necessary to have this code used by many.",
-    "date": "09-05-2006",
-    "review_id": 374
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "pablob@grasp.cis.upenn.edu",
-   "author_firstname": "Pablo",
-   "author_fullname": "Burstein, Pablo",
-   "author_id": 435,
-   "author_institution": "University of Pennsylvania",
-   "author_lastname": "Burstein"
-  },
-  "tags": [
-   "Image file format",
-   "VoxBo",
-   "cub"
-  ],
-  "title": "Support for \"cub\" image format"
- }
+    "tags": [
+      "Image file format",
+      "VoxBo",
+      "cub"
+    ],
+    "title": "Support for \"cub\" image format"
+  }
 }

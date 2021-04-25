@@ -1,74 +1,77 @@
 {
- "publication": {
-  "abstract": "A novel fiber tracking algorithm (GTRACT) was developed to enhance tracking through ambiguous regions where cross fibers, fiber merging or fanning may be occurring. The software was developed using several cross platform open-source toolkits (ITK, VTK, and FLTK). The algorithm was evaluated using a freely available digital phantom dataset provided by King's College London. The results show that the GTRACT algorithm performed significantly better than standard streamline approaches and is less affected by noise.",
-  "authors": [
-   {
-    "author_fullname": "Magnotta, Vincent",
-    "author_place": 1,
-    "persona_email": "vincent-magnotta@uiowa.edu",
-    "persona_firstname": "Vincent",
-    "persona_id": 54,
-    "persona_lastname": "Magnotta"
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2005-07-27T13:24:29Z",
-  "handles": [
-   {
-    "handle": "1926/158",
-    "handle_url": "http://hdl.handle.net/1926/158"
-   },
-   {
-    "handle": "1926/541",
-    "handle_url": "http://hdl.handle.net/1926/541"
-   },
-   {
-    "handle": "1926/533",
-    "handle_url": "http://hdl.handle.net/1926/533"
-   },
-   {
-    "handle": "1926/570",
-    "handle_url": "http://hdl.handle.net/1926/570"
-   },
-   {
-    "handle": "1926/539",
-    "handle_url": "http://hdl.handle.net/1926/539"
-   },
-   {
-    "handle": "1926/11",
-    "handle_url": "http://hdl.handle.net/1926/11"
-   },
-   {
-    "handle": "1926/111",
-    "handle_url": "http://hdl.handle.net/1926/111"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 11,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "vincent-magnotta@uiowa.edu",
-   "author_firstname": "Vincent",
-   "author_fullname": "Magnotta, Vincent",
-   "author_id": 54,
-   "author_institution": "The University of Iowa",
-   "author_lastname": "Magnotta"
-  },
-  "tags": [
-   "Image Processing",
-   "Diffusion Tensor"
-  ],
-  "title": "Guided Diffusion Tensor Tractography with GTRACT: A Validation Study"
- }
+  "publication": {
+    "abstract": "A novel fiber tracking algorithm (GTRACT) was developed to enhance tracking through ambiguous regions where cross fibers, fiber merging or fanning may be occurring. The software was developed using several cross platform open-source toolkits (ITK, VTK, and FLTK). The algorithm was evaluated using a freely available digital phantom dataset provided by King's College London. The results show that the GTRACT algorithm performed significantly better than standard streamline approaches and is less affected by noise.",
+    "articles": [
+      "bafkreiedhzgf3oytzygfke47bklzbjjpoi4dzhfobjeh5jxwpb3siujtpu"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Magnotta, Vincent",
+        "author_place": 1,
+        "persona_email": "vincent-magnotta@uiowa.edu",
+        "persona_firstname": "Vincent",
+        "persona_id": 54,
+        "persona_lastname": "Magnotta"
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2005-07-27T13:24:29Z",
+    "handles": [
+      {
+        "handle": "1926/158",
+        "handle_url": "http://hdl.handle.net/1926/158"
+      },
+      {
+        "handle": "1926/541",
+        "handle_url": "http://hdl.handle.net/1926/541"
+      },
+      {
+        "handle": "1926/533",
+        "handle_url": "http://hdl.handle.net/1926/533"
+      },
+      {
+        "handle": "1926/570",
+        "handle_url": "http://hdl.handle.net/1926/570"
+      },
+      {
+        "handle": "1926/539",
+        "handle_url": "http://hdl.handle.net/1926/539"
+      },
+      {
+        "handle": "1926/11",
+        "handle_url": "http://hdl.handle.net/1926/11"
+      },
+      {
+        "handle": "1926/111",
+        "handle_url": "http://hdl.handle.net/1926/111"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 11,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "vincent-magnotta@uiowa.edu",
+      "author_firstname": "Vincent",
+      "author_fullname": "Magnotta, Vincent",
+      "author_id": 54,
+      "author_institution": "The University of Iowa",
+      "author_lastname": "Magnotta"
+    },
+    "tags": [
+      "Image Processing",
+      "Diffusion Tensor"
+    ],
+    "title": "Guided Diffusion Tensor Tractography with GTRACT: A Validation Study"
+  }
 }

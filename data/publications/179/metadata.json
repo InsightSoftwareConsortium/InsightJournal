@@ -1,51 +1,58 @@
 {
- "publication": {
-  "abstract": "Computation of local image derivatives is an important operation in many image processing tasks that\r\ninvolve feature detection and extraction, such as edges, corners or more complicated features. However,\r\nderivative computation in discrete images is an ill-posed problem and derivative operators without\r\nany prior smoothing are known to enhance noise. Here we present a new convolution operator, the\r\nGaussianDerivativeOperator, that allows to calculate locally Gaussian derivatives of N order. Furthermore,\r\nwe present some useful classes and examples that make use of this new operator.",
-  "authors": [
-   {
-    "author_fullname": "Macia, Ivan",
-    "author_place": 1,
-    "persona_email": "imacia@vicomtech.org",
-    "persona_firstname": "Ivan",
-    "persona_id": 164,
-    "persona_lastname": "Macia"
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2007-10-01T00:00:00Z",
-  "handles": [
-   {
-    "handle": "1926/1290",
-    "handle_url": "http://hdl.handle.net/1926/1290"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 179,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "imacia@vicomtech.org",
-   "author_firstname": "Ivan",
-   "author_fullname": "Macia, Ivan",
-   "author_id": 164,
-   "author_institution": "Vicomtech Foundation",
-   "author_lastname": "Macia"
-  },
-  "tags": [
-   "scale-space",
-   "Gaussian derivatives",
-   "kernel"
-  ],
-  "title": "Generalized Computation of Gaussian Derivatives Using ITK"
- }
+  "publication": {
+    "abstract": "Computation of local image derivatives is an important operation in many image processing tasks that\r\ninvolve feature detection and extraction, such as edges, corners or more complicated features. However,\r\nderivative computation in discrete images is an ill-posed problem and derivative operators without\r\nany prior smoothing are known to enhance noise. Here we present a new convolution operator, the\r\nGaussianDerivativeOperator, that allows to calculate locally Gaussian derivatives of N order. Furthermore,\r\nwe present some useful classes and examples that make use of this new operator.",
+    "articles": [
+      "bafybeidplitmk7fjgt2lu26hx6dctyszev2afonahyqyspzbnou4pylwey",
+      "bafybeidplitmk7fjgt2lu26hx6dctyszev2afonahyqyspzbnou4pylwey",
+      "bafybeidplitmk7fjgt2lu26hx6dctyszev2afonahyqyspzbnou4pylwey",
+      "bafybeidplitmk7fjgt2lu26hx6dctyszev2afonahyqyspzbnou4pylwey",
+      "bafybeidplitmk7fjgt2lu26hx6dctyszev2afonahyqyspzbnou4pylwey"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Macia, Ivan",
+        "author_place": 1,
+        "persona_email": "imacia@vicomtech.org",
+        "persona_firstname": "Ivan",
+        "persona_id": 164,
+        "persona_lastname": "Macia"
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2007-10-01T00:00:00Z",
+    "handles": [
+      {
+        "handle": "1926/1290",
+        "handle_url": "http://hdl.handle.net/1926/1290"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 179,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "imacia@vicomtech.org",
+      "author_firstname": "Ivan",
+      "author_fullname": "Macia, Ivan",
+      "author_id": 164,
+      "author_institution": "Vicomtech Foundation",
+      "author_lastname": "Macia"
+    },
+    "tags": [
+      "scale-space",
+      "Gaussian derivatives",
+      "kernel"
+    ],
+    "title": "Generalized Computation of Gaussian Derivatives Using ITK"
+  }
 }

@@ -1,71 +1,74 @@
 {
- "publication": {
-  "abstract": "ITK currently comes with a 2D binary thinning (skeletonisation) method, but does not support 3D or higher. This paper documents a new itkBinaryThinningImageFilter3D and recommends to rename the current filter as itkBinaryThinningImageFilter2D.\r\n\r\nThe 3D method suggested here is a direct implementation of the work of Lee et al. [2] who have demonstrated that their algorithm can find all deletable surface points at every iteration and is thus very fast. The code was tested on six clinical datasets.",
-  "authors": [
-   {
-    "author_fullname": "Homann, Hanno",
-    "author_place": 1,
-    "persona_email": "hanno.homann@freenet.de",
-    "persona_firstname": "Hanno",
-    "persona_id": 697,
-    "persona_lastname": "Homann"
-   }
-  ],
-  "categories": [
-   "CMake",
-   "Code memory optimization",
-   "Code speed optimization",
-   "DART",
-   "Filtering",
-   "Generic Programming",
-   "Iterators",
-   "Mathematical Morphology",
-   "Parallelization, SMP",
-   "Programming",
-   "Surface extraction"
-  ],
-  "comments": [
-   {
-    "content": "I tried out this filter with a sphere and a cylindar as input and the output was always that every voxel is set to zero... no values bigger than zero are left... anyone familiar with that?",
-    "date": "2015-03-30T04:49:59",
-    "persona_email": "johannesweber@gmx.at",
-    "persona_firstname": "Johannes",
-    "persona_id": 9466,
-    "persona_lastname": "Weber"
-   }
-  ],
-  "date_submitted": "2007-10-12T06:26:27Z",
-  "handles": [
-   {
-    "handle": "1926/1292",
-    "handle_url": "http://hdl.handle.net/1926/1292"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 181,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "hanno.homann@freenet.de",
-   "author_firstname": "Hanno",
-   "author_fullname": "Homann, Hanno",
-   "author_id": 697,
-   "author_institution": "Oxford University",
-   "author_lastname": "Homann"
-  },
-  "tags": [
-   "skeletonization",
-   "3D thinning"
-  ],
-  "title": "Implementation of a 3D thinning algorithm"
- }
+  "publication": {
+    "abstract": "ITK currently comes with a 2D binary thinning (skeletonisation) method, but does not support 3D or higher. This paper documents a new itkBinaryThinningImageFilter3D and recommends to rename the current filter as itkBinaryThinningImageFilter2D.\r\n\r\nThe 3D method suggested here is a direct implementation of the work of Lee et al. [2] who have demonstrated that their algorithm can find all deletable surface points at every iteration and is thus very fast. The code was tested on six clinical datasets.",
+    "articles": [
+      null
+    ],
+    "authors": [
+      {
+        "author_fullname": "Homann, Hanno",
+        "author_place": 1,
+        "persona_email": "hanno.homann@freenet.de",
+        "persona_firstname": "Hanno",
+        "persona_id": 697,
+        "persona_lastname": "Homann"
+      }
+    ],
+    "categories": [
+      "CMake",
+      "Code memory optimization",
+      "Code speed optimization",
+      "DART",
+      "Filtering",
+      "Generic Programming",
+      "Iterators",
+      "Mathematical Morphology",
+      "Parallelization, SMP",
+      "Programming",
+      "Surface extraction"
+    ],
+    "comments": [
+      {
+        "content": "I tried out this filter with a sphere and a cylindar as input and the output was always that every voxel is set to zero... no values bigger than zero are left... anyone familiar with that?",
+        "date": "2015-03-30T04:49:59",
+        "persona_email": "johannesweber@gmx.at",
+        "persona_firstname": "Johannes",
+        "persona_id": 9466,
+        "persona_lastname": "Weber"
+      }
+    ],
+    "date_submitted": "2007-10-12T06:26:27Z",
+    "handles": [
+      {
+        "handle": "1926/1292",
+        "handle_url": "http://hdl.handle.net/1926/1292"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 181,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "hanno.homann@freenet.de",
+      "author_firstname": "Hanno",
+      "author_fullname": "Homann, Hanno",
+      "author_id": 697,
+      "author_institution": "Oxford University",
+      "author_lastname": "Homann"
+    },
+    "tags": [
+      "skeletonization",
+      "3D thinning"
+    ],
+    "title": "Implementation of a 3D thinning algorithm"
+  }
 }

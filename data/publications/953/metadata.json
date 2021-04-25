@@ -1,125 +1,128 @@
 {
- "publication": {
-  "abstract": "Anisotropic Non-Linear Diffusion is a powerful image processing technique, which allows to simultaneously remove the noise and enhance sharp features in two or three dimensional images. Anisotropic Diffusion is understood here in the sense of Weickert, meaning that diffusion tensors are anisotropic and reflect the local orientation of image features. This is in contrast with the non-linear diffusion filter of Perona and Malik, which only involves scalar diffusion coefficients, in other words isotropic diffusion tensors. \nIn this paper, we present an anisotropic non-linear diffusion technique we implemented in ITK. This technique is based on a recent adaptive scheme making the diffusion stable and requiring limited numerical resources. ",
-  "authors": [
-   {
-    "author_fullname": "Mirebeau, Jean-Marie",
-    "author_place": 1,
-    "persona_email": "jm.mirebeau@gmail.com",
-    "persona_firstname": "Jean-marie",
-    "persona_id": 9351,
-    "persona_lastname": "Mirebeau"
-   },
-   {
-    "author_fullname": "Fehrenbach, J\u00e9r\u00f4me",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Risser, Laurent",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Tobji, Shaza",
-    "author_place": 4,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Anisotropic blurring filters",
-   "Filtering"
-  ],
-  "comments": [
-   {
-    "content": "Important notice : \r\nThe ITK team (specifically Matthew McCormick) has been kind enough to include the code accompanying this publication as an ITK REMOTE MODULE. A number of compilation issues affecting various platforms have been solved in the process. \r\n\r\nReaders are thus encouraged to use the REMOTE MODULE version (more portable and updated) instead of the original version available on this page. ",
-    "date": "2015-08-06T16:21:09",
-    "persona_email": "jm.mirebeau@gmail.com",
-    "persona_firstname": "Jean-marie",
-    "persona_id": 9351,
-    "persona_lastname": "Mirebeau"
-   },
-   {
-    "content": "I use a mac with ITK 4.6.1\r\ng++ -v yields \r\nApple LLVM version 6.1.0 (clang-602.0.49) (based on LLVM 3.6.0svn)\r\nTarget: x86_64-apple-darwin14.3.0",
-    "date": "2015-05-22T18:06:57",
-    "persona_email": "jm.mirebeau@gmail.com",
-    "persona_firstname": "Jean-marie",
-    "persona_id": 9351,
-    "persona_lastname": "Mirebeau"
-   },
-   {
-    "content": "Important notice : \r\nThe ITK team (specifically Matthew McCormick) has been kind enough to include the code accompanying this publication as an ITK REMOTE MODULE. A number of compilation issues affecting various platforms have been solved in the process. \r\n\r\nReaders are thus encouraged to use the REMOTE MODULE version (more portable and updated) instead of the original version available on this page. ",
-    "date": "2015-08-06T16:21:08",
-    "persona_email": "jm.mirebeau@gmail.com",
-    "persona_firstname": "Jean-marie",
-    "persona_id": 9351,
-    "persona_lastname": "Mirebeau"
-   },
-   {
-    "content": "This work is available in ITK 4.9 by enabling the CMake configuration option Module_AnisotropicDiffusionLBR.  It can also be executed and reproduced in the browser here:\r\n\r\n  https://insightsoftwareconsortium.github.io/ITKAnisotropicDiffusionLBR/",
-    "date": "2015-11-23T16:55:29",
-    "persona_email": "matthew.m.mccormick@gmail.com",
-    "persona_firstname": "Matthew",
-    "persona_id": 2509,
-    "persona_lastname": "Mccormick"
-   },
-   {
-    "content": "This work is available in ITK 4.9 by enabling the CMake configuration option Module_AnisotropicDiffusionLBR.  It can also be executed and reproduced in the browser here:\r\n\r\n  https://insightsoftwareconsortium.github.io/ITKAnisotropicDiffusionLBR/",
-    "date": "2015-11-23T16:55:14",
-    "persona_email": "matthew.m.mccormick@gmail.com",
-    "persona_firstname": "Matthew",
-    "persona_id": 2509,
-    "persona_lastname": "Mccormick"
-   },
-   {
-    "content": "I could not compile the module too. I copied the unzipped module folder into the Modules/External directory of ITK 4.8 and turn on the module in ccmake. I got the following error: \r\n============== begin log =================\r\n 41%] Building CXX object Modules/External/AnisotropicDiffusionLBR/src/CMakeFiles/ITKAnisotropicDiffusionLBR.dir/CoherenceEnhancingDiffusion.cxx.o                                           \r\nIn file included from /home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.h:89                                             \r\n                 from /home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/AnisotropicDiffusionLBRImageFilter.h:13                                     \r\n                 from /home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/CoherenceEnhancingDiffusionFilter.h:12                                      \r\n                 from /home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/CoherenceEnhancingDiffusionCommandLine.h:14                                 \r\n                 from /home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/CoherenceEnhancingDiffusion.cxx:3:                                                   \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:29: error: 'Self' has not been declared                             \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx: In member function 'void itk::StructureTensorImageFilterTImage TTensorImage::IntermediateFilterDummy true::operator()(int*)':                                                                                                                              \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:30: error: 'ImageType' was not declared in this scope               \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:30: error: 'CovariantImageType' was not declared in this scope      \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:30: error: template argument 1 is invalid                           \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:30: error: template argument 2 is invalid                           \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:30: error: invalid type in declaration before ';' token             \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:31: error: 'GradientFilterType' is not a class or namespace         \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:31: error: expected '(' before 'gradientFilter'                     \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:31: error: expected ';' before 'gradientFilter'                     \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:32: error: 'gradientFilter' was not declared in this scope          \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:32: error: request for member 'GetInput' in 'self-' which is of non-class type 'int'                                                                                                                                                                            \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:33: error: request for member 'm_NoiseScale' in 'self-' which is of non-class type 'int'                                                                                                                                                                        \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:35: error: 'CovariantImageType' cannot appear in a constant-expression                                                                                                                                                                                            \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:35: error: 'TensorImageType' was not declared in this scope         \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:36: error: 'OuterFunctor' was not declared in this scope            \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:36: error: template argument 1 is invalid                           \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:36: error: template argument 2 is invalid                           \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:36: error: template argument 3 is invalid                           \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:36: error: invalid type in declaration before ';' token             \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:37: error: 'OuterFilterType' is not a class or namespace            \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:37: error: expected '(' before 'outerFilter'                        \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:37: error: expected ';' before 'outerFilter'                        \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:38: error: 'outerFilter' was not declared in this scope             \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:41: error: request for member 'intermediateResult' in 'self-' which is of non-class type 'int'     \r\n============ end of log ====================\r\nI used gcc 4.4.7 on centos. ITK build OK before I added this module. \r\n\r\nAny insights? The module looks very promising.                                                                                                                                               \r\n",
-    "date": "2015-08-05T14:57:54",
-    "persona_email": "weiliu620@gmail.com",
-    "persona_firstname": "Wei",
-    "persona_id": 9613,
-    "persona_lastname": "Liu"
-   },
-   {
-    "content": "I could not compile the module. Which version of g++ is needed for compilation?\r\n",
-    "date": "2015-05-22T10:46:10",
-    "persona_email": "chafas@gmail.com",
-    "persona_firstname": "Rafael",
-    "persona_id": 8688,
-    "persona_lastname": "Namias"
-   }
-  ],
-  "date_submitted": "2014-12-17 11:23:24",
-  "handles": [
-   {
-    "handle": "10380/3505",
-    "handle_url": "http://hdl.handle.net/10380/3505"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 953,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "jm.mirebeau@gmail.com",
-   "author_firstname": "Jean-marie",
-   "author_fullname": "Mirebeau, Jean-marie",
-   "author_id": 9351,
-   "author_institution": "Laboratory Ceremade, University Paris-Dauphine, CNRS, France",
-   "author_lastname": "Mirebeau"
-  },
-  "tags": [
-   "Denoising",
-   "Anisotropic Diffusion"
-  ],
-  "title": "Anisotropic Diffusion in ITK"
- }
+  "publication": {
+    "abstract": "Anisotropic Non-Linear Diffusion is a powerful image processing technique, which allows to simultaneously remove the noise and enhance sharp features in two or three dimensional images. Anisotropic Diffusion is understood here in the sense of Weickert, meaning that diffusion tensors are anisotropic and reflect the local orientation of image features. This is in contrast with the non-linear diffusion filter of Perona and Malik, which only involves scalar diffusion coefficients, in other words isotropic diffusion tensors. \nIn this paper, we present an anisotropic non-linear diffusion technique we implemented in ITK. This technique is based on a recent adaptive scheme making the diffusion stable and requiring limited numerical resources. ",
+    "articles": [
+      "bafybeic2ksczrs5w5dulrlmb52s4a6wfg7klrcukrt26bvjzaark27wpiu"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Mirebeau, Jean-Marie",
+        "author_place": 1,
+        "persona_email": "jm.mirebeau@gmail.com",
+        "persona_firstname": "Jean-marie",
+        "persona_id": 9351,
+        "persona_lastname": "Mirebeau"
+      },
+      {
+        "author_fullname": "Fehrenbach, J\u00e9r\u00f4me",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Risser, Laurent",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Tobji, Shaza",
+        "author_place": 4,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Anisotropic blurring filters",
+      "Filtering"
+    ],
+    "comments": [
+      {
+        "content": "Important notice : \r\nThe ITK team (specifically Matthew McCormick) has been kind enough to include the code accompanying this publication as an ITK REMOTE MODULE. A number of compilation issues affecting various platforms have been solved in the process. \r\n\r\nReaders are thus encouraged to use the REMOTE MODULE version (more portable and updated) instead of the original version available on this page. ",
+        "date": "2015-08-06T16:21:09",
+        "persona_email": "jm.mirebeau@gmail.com",
+        "persona_firstname": "Jean-marie",
+        "persona_id": 9351,
+        "persona_lastname": "Mirebeau"
+      },
+      {
+        "content": "I use a mac with ITK 4.6.1\r\ng++ -v yields \r\nApple LLVM version 6.1.0 (clang-602.0.49) (based on LLVM 3.6.0svn)\r\nTarget: x86_64-apple-darwin14.3.0",
+        "date": "2015-05-22T18:06:57",
+        "persona_email": "jm.mirebeau@gmail.com",
+        "persona_firstname": "Jean-marie",
+        "persona_id": 9351,
+        "persona_lastname": "Mirebeau"
+      },
+      {
+        "content": "Important notice : \r\nThe ITK team (specifically Matthew McCormick) has been kind enough to include the code accompanying this publication as an ITK REMOTE MODULE. A number of compilation issues affecting various platforms have been solved in the process. \r\n\r\nReaders are thus encouraged to use the REMOTE MODULE version (more portable and updated) instead of the original version available on this page. ",
+        "date": "2015-08-06T16:21:08",
+        "persona_email": "jm.mirebeau@gmail.com",
+        "persona_firstname": "Jean-marie",
+        "persona_id": 9351,
+        "persona_lastname": "Mirebeau"
+      },
+      {
+        "content": "This work is available in ITK 4.9 by enabling the CMake configuration option Module_AnisotropicDiffusionLBR.  It can also be executed and reproduced in the browser here:\r\n\r\n  https://insightsoftwareconsortium.github.io/ITKAnisotropicDiffusionLBR/",
+        "date": "2015-11-23T16:55:29",
+        "persona_email": "matthew.m.mccormick@gmail.com",
+        "persona_firstname": "Matthew",
+        "persona_id": 2509,
+        "persona_lastname": "Mccormick"
+      },
+      {
+        "content": "This work is available in ITK 4.9 by enabling the CMake configuration option Module_AnisotropicDiffusionLBR.  It can also be executed and reproduced in the browser here:\r\n\r\n  https://insightsoftwareconsortium.github.io/ITKAnisotropicDiffusionLBR/",
+        "date": "2015-11-23T16:55:14",
+        "persona_email": "matthew.m.mccormick@gmail.com",
+        "persona_firstname": "Matthew",
+        "persona_id": 2509,
+        "persona_lastname": "Mccormick"
+      },
+      {
+        "content": "I could not compile the module too. I copied the unzipped module folder into the Modules/External directory of ITK 4.8 and turn on the module in ccmake. I got the following error: \r\n============== begin log =================\r\n 41%] Building CXX object Modules/External/AnisotropicDiffusionLBR/src/CMakeFiles/ITKAnisotropicDiffusionLBR.dir/CoherenceEnhancingDiffusion.cxx.o                                           \r\nIn file included from /home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.h:89                                             \r\n                 from /home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/AnisotropicDiffusionLBRImageFilter.h:13                                     \r\n                 from /home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/CoherenceEnhancingDiffusionFilter.h:12                                      \r\n                 from /home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/CoherenceEnhancingDiffusionCommandLine.h:14                                 \r\n                 from /home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/CoherenceEnhancingDiffusion.cxx:3:                                                   \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:29: error: 'Self' has not been declared                             \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx: In member function 'void itk::StructureTensorImageFilterTImage TTensorImage::IntermediateFilterDummy true::operator()(int*)':                                                                                                                              \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:30: error: 'ImageType' was not declared in this scope               \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:30: error: 'CovariantImageType' was not declared in this scope      \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:30: error: template argument 1 is invalid                           \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:30: error: template argument 2 is invalid                           \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:30: error: invalid type in declaration before ';' token             \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:31: error: 'GradientFilterType' is not a class or namespace         \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:31: error: expected '(' before 'gradientFilter'                     \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:31: error: expected ';' before 'gradientFilter'                     \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:32: error: 'gradientFilter' was not declared in this scope          \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:32: error: request for member 'GetInput' in 'self-' which is of non-class type 'int'                                                                                                                                                                            \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:33: error: request for member 'm_NoiseScale' in 'self-' which is of non-class type 'int'                                                                                                                                                                        \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:35: error: 'CovariantImageType' cannot appear in a constant-expression                                                                                                                                                                                            \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:35: error: 'TensorImageType' was not declared in this scope         \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:36: error: 'OuterFunctor' was not declared in this scope            \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:36: error: template argument 1 is invalid                           \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:36: error: template argument 2 is invalid                           \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:36: error: template argument 3 is invalid                           \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:36: error: invalid type in declaration before ';' token             \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:37: error: 'OuterFilterType' is not a class or namespace            \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:37: error: expected '(' before 'outerFilter'                        \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:37: error: expected ';' before 'outerFilter'                        \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:38: error: 'outerFilter' was not declared in this scope             \r\n/home/wliu8/apps/InsightToolkit-4.8.0/Modules/External/AnisotropicDiffusionLBR/src/Headers/StructureTensorImageFilter.hxx:41: error: request for member 'intermediateResult' in 'self-' which is of non-class type 'int'     \r\n============ end of log ====================\r\nI used gcc 4.4.7 on centos. ITK build OK before I added this module. \r\n\r\nAny insights? The module looks very promising.                                                                                                                                               \r\n",
+        "date": "2015-08-05T14:57:54",
+        "persona_email": "weiliu620@gmail.com",
+        "persona_firstname": "Wei",
+        "persona_id": 9613,
+        "persona_lastname": "Liu"
+      },
+      {
+        "content": "I could not compile the module. Which version of g++ is needed for compilation?\r\n",
+        "date": "2015-05-22T10:46:10",
+        "persona_email": "chafas@gmail.com",
+        "persona_firstname": "Rafael",
+        "persona_id": 8688,
+        "persona_lastname": "Namias"
+      }
+    ],
+    "date_submitted": "2014-12-17 11:23:24",
+    "handles": [
+      {
+        "handle": "10380/3505",
+        "handle_url": "http://hdl.handle.net/10380/3505"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 953,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "jm.mirebeau@gmail.com",
+      "author_firstname": "Jean-marie",
+      "author_fullname": "Mirebeau, Jean-marie",
+      "author_id": 9351,
+      "author_institution": "Laboratory Ceremade, University Paris-Dauphine, CNRS, France",
+      "author_lastname": "Mirebeau"
+    },
+    "tags": [
+      "Denoising",
+      "Anisotropic Diffusion"
+    ],
+    "title": "Anisotropic Diffusion in ITK"
+  }
 }

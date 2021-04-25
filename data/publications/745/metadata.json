@@ -1,89 +1,92 @@
 {
- "publication": {
-  "abstract": "Teleoperation is currently the dominant form of instrument control for surgical robotics. For example, the mechanical masters in the da Vinci surgical system provides a stable, precise interface for teleoperation, allowing execution of delicate tasks in complex surgical procedures. However, conventional teleoperation also adds the complexity of false feedback to the user from the interaction of the master manipulators with each other and other elements of the surgical console. Conventional teleoperation also has other inherent performance and accuracy limitations due to the mechanical devices integrated in such a system. As an alternative, we outline a hands-free system that could be improved without significant hardware redesign, and provide a sterile master workspace. Our ReachIN prototype is implemented by extending the Johns Hopkins University Surgical Assistant Workstation (SAW) framework to include additional vision interfaces and control methods. We present the design of this prototype and results from initial validation experiments.",
-  "authors": [
-   {
-    "author_fullname": "Guerin, Kelleher",
-    "author_place": 1,
-    "persona_email": "kguerin2@jhu.edu",
-    "persona_firstname": "Kelleher",
-    "persona_id": 2610,
-    "persona_lastname": "Guerin"
-   },
-   {
-    "author_fullname": "Vagvolgyi, Balazs",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Deguet, Anton",
-    "author_place": 3,
-    "persona_email": "anton.deguet@jhu.edu",
-    "persona_firstname": "Anton",
-    "persona_id": 635,
-    "persona_lastname": "Deguet"
-   },
-   {
-    "author_fullname": "Chen, Chi Chiung Grace",
-    "author_place": 4,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Yuh, David",
-    "author_place": 5,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Kumar, Rajesh",
-    "author_place": 6,
-    "persona_email": "rajesh@jhu.edu",
-    "persona_firstname": "Rajesh",
-    "persona_id": 944,
-    "persona_lastname": "Kumar"
-   }
-  ],
-  "categories": [
-   "Feature extraction",
-   "Images",
-   "IO"
-  ],
-  "comments": [],
-  "date_submitted": "2010-08-14 21:22:15",
-  "handles": [
-   {
-    "handle": "10380/3191",
-    "handle_url": "http://hdl.handle.net/10380/3191"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 37,
-    "journal_name": "MICCAI 2010 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 745,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "kguerin2@jhu.edu",
-   "author_firstname": "Kelleher",
-   "author_fullname": "Guerin, Kelleher",
-   "author_id": 2610,
-   "author_institution": "Johns Hopkins University",
-   "author_lastname": "Guerin"
-  },
-  "tags": [
-   "SAW",
-   "CISST",
-   "Teleoperation",
-   "Vision",
-   "Telemanipulation",
-   "Gestural"
-  ],
-  "title": "ReachIN: A Modular Vision Based Interface for Teleoperation"
- }
+  "publication": {
+    "abstract": "Teleoperation is currently the dominant form of instrument control for surgical robotics. For example, the mechanical masters in the da Vinci surgical system provides a stable, precise interface for teleoperation, allowing execution of delicate tasks in complex surgical procedures. However, conventional teleoperation also adds the complexity of false feedback to the user from the interaction of the master manipulators with each other and other elements of the surgical console. Conventional teleoperation also has other inherent performance and accuracy limitations due to the mechanical devices integrated in such a system. As an alternative, we outline a hands-free system that could be improved without significant hardware redesign, and provide a sterile master workspace. Our ReachIN prototype is implemented by extending the Johns Hopkins University Surgical Assistant Workstation (SAW) framework to include additional vision interfaces and control methods. We present the design of this prototype and results from initial validation experiments.",
+    "articles": [
+      "bafybeibcaiy7bgkkcrhh6i6stnubmgwdfeag5ad4e6qne4xzkmrlvoi4vm"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Guerin, Kelleher",
+        "author_place": 1,
+        "persona_email": "kguerin2@jhu.edu",
+        "persona_firstname": "Kelleher",
+        "persona_id": 2610,
+        "persona_lastname": "Guerin"
+      },
+      {
+        "author_fullname": "Vagvolgyi, Balazs",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Deguet, Anton",
+        "author_place": 3,
+        "persona_email": "anton.deguet@jhu.edu",
+        "persona_firstname": "Anton",
+        "persona_id": 635,
+        "persona_lastname": "Deguet"
+      },
+      {
+        "author_fullname": "Chen, Chi Chiung Grace",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Yuh, David",
+        "author_place": 5,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Kumar, Rajesh",
+        "author_place": 6,
+        "persona_email": "rajesh@jhu.edu",
+        "persona_firstname": "Rajesh",
+        "persona_id": 944,
+        "persona_lastname": "Kumar"
+      }
+    ],
+    "categories": [
+      "Feature extraction",
+      "Images",
+      "IO"
+    ],
+    "comments": [],
+    "date_submitted": "2010-08-14 21:22:15",
+    "handles": [
+      {
+        "handle": "10380/3191",
+        "handle_url": "http://hdl.handle.net/10380/3191"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 37,
+        "journal_name": "MICCAI 2010 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 745,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "kguerin2@jhu.edu",
+      "author_firstname": "Kelleher",
+      "author_fullname": "Guerin, Kelleher",
+      "author_id": 2610,
+      "author_institution": "Johns Hopkins University",
+      "author_lastname": "Guerin"
+    },
+    "tags": [
+      "SAW",
+      "CISST",
+      "Teleoperation",
+      "Vision",
+      "Telemanipulation",
+      "Gestural"
+    ],
+    "title": "ReachIN: A Modular Vision Based Interface for Teleoperation"
+  }
 }

@@ -1,100 +1,103 @@
 {
- "publication": {
-  "abstract": "This document describes a module that extends the Insight Toolkit, ITK, which reads DICOM Spatial Rogistration Object files in itk::Transform's. Currently, DICOM files are read by applying the DCMTK library as a backend. An itk::DCMTKTransformIO class can be registration with the IO factory mechanism so itk::TransformFileReadertemplate will recognize and read these files.\n\nThis paper is accompanied with the source code, input data, parameters and output data that the authors used for validating the algorithm described in this paper. This adhere to the fundamental principle that scientific publications must facilitate reproducibility of the reported results.",
-  "authors": [
-   {
-    "author_fullname": "McCormick, Matthew",
-    "author_place": 1,
-    "persona_email": "matthew.m.mccormick@gmail.com",
-    "persona_firstname": "Matthew",
-    "persona_id": 2509,
-    "persona_lastname": "Mccormick"
-   },
-   {
-    "author_fullname": "Wang, Kevin",
-    "author_place": 2,
-    "persona_email": "kwang.ca@gmail.com",
-    "persona_firstname": "Kevin",
-    "persona_id": 106,
-    "persona_lastname": "Wang"
-   },
-   {
-    "author_fullname": "Wang, Kevin",
-    "author_place": 2,
-    "persona_email": "blueappleguy@gmail.com",
-    "persona_firstname": "Kevin",
-    "persona_id": 2735,
-    "persona_lastname": "Wang"
-   },
-   {
-    "author_fullname": "Lasso, Andras",
-    "author_place": 3,
-    "persona_email": "lasso@cs.queensu.ca",
-    "persona_firstname": "Andras",
-    "persona_id": 2170,
-    "persona_lastname": "Lasso"
-   },
-   {
-    "author_fullname": "Sharp, Gregory",
-    "author_place": 4,
-    "persona_email": "gcsharp@partners.org",
-    "persona_firstname": "Greg",
-    "persona_id": 2425,
-    "persona_lastname": "Sharp"
-   },
-   {
-    "author_fullname": "Pieper, Steve",
-    "author_place": 5,
-    "persona_email": "pieper@bwh.harvard.edu",
-    "persona_firstname": "Steve ",
-    "persona_id": 75,
-    "persona_lastname": "Pieper"
-   }
-  ],
-  "categories": [
-   "Data",
-   "DICOM",
-   "IO",
-   "Objects",
-   "Resampling",
-   "Transforms"
-  ],
-  "comments": [],
-  "date_submitted": "2014-09-11 17:34:12",
-  "handles": [
-   {
-    "handle": "10380/3468",
-    "handle_url": "http://hdl.handle.net/10380/3468"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 923,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "matthew.m.mccormick@gmail.com",
-   "author_firstname": "Matthew",
-   "author_fullname": "Mccormick, Matthew",
-   "author_id": 2509,
-   "author_institution": "University of Wisconsin-Madison",
-   "author_lastname": "Mccormick"
-  },
-  "tags": [
-   "DICOM",
-   "Registration",
-   "Resampling",
-   "Transform",
-   "DICOM-RT"
-  ],
-  "title": "DICOM Spatial Transform IO in the Insight Toolkit"
- }
+  "publication": {
+    "abstract": "This document describes a module that extends the Insight Toolkit, ITK, which reads DICOM Spatial Rogistration Object files in itk::Transform's. Currently, DICOM files are read by applying the DCMTK library as a backend. An itk::DCMTKTransformIO class can be registration with the IO factory mechanism so itk::TransformFileReadertemplate will recognize and read these files.\n\nThis paper is accompanied with the source code, input data, parameters and output data that the authors used for validating the algorithm described in this paper. This adhere to the fundamental principle that scientific publications must facilitate reproducibility of the reported results.",
+    "articles": [
+      "bafkreiacvgwdxjbbdqpx2ica6zotx5vncvmidv2wfscodgk64v6ay4h2bi"
+    ],
+    "authors": [
+      {
+        "author_fullname": "McCormick, Matthew",
+        "author_place": 1,
+        "persona_email": "matthew.m.mccormick@gmail.com",
+        "persona_firstname": "Matthew",
+        "persona_id": 2509,
+        "persona_lastname": "Mccormick"
+      },
+      {
+        "author_fullname": "Wang, Kevin",
+        "author_place": 2,
+        "persona_email": "kwang.ca@gmail.com",
+        "persona_firstname": "Kevin",
+        "persona_id": 106,
+        "persona_lastname": "Wang"
+      },
+      {
+        "author_fullname": "Wang, Kevin",
+        "author_place": 2,
+        "persona_email": "blueappleguy@gmail.com",
+        "persona_firstname": "Kevin",
+        "persona_id": 2735,
+        "persona_lastname": "Wang"
+      },
+      {
+        "author_fullname": "Lasso, Andras",
+        "author_place": 3,
+        "persona_email": "lasso@cs.queensu.ca",
+        "persona_firstname": "Andras",
+        "persona_id": 2170,
+        "persona_lastname": "Lasso"
+      },
+      {
+        "author_fullname": "Sharp, Gregory",
+        "author_place": 4,
+        "persona_email": "gcsharp@partners.org",
+        "persona_firstname": "Greg",
+        "persona_id": 2425,
+        "persona_lastname": "Sharp"
+      },
+      {
+        "author_fullname": "Pieper, Steve",
+        "author_place": 5,
+        "persona_email": "pieper@bwh.harvard.edu",
+        "persona_firstname": "Steve ",
+        "persona_id": 75,
+        "persona_lastname": "Pieper"
+      }
+    ],
+    "categories": [
+      "Data",
+      "DICOM",
+      "IO",
+      "Objects",
+      "Resampling",
+      "Transforms"
+    ],
+    "comments": [],
+    "date_submitted": "2014-09-11 17:34:12",
+    "handles": [
+      {
+        "handle": "10380/3468",
+        "handle_url": "http://hdl.handle.net/10380/3468"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 923,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "matthew.m.mccormick@gmail.com",
+      "author_firstname": "Matthew",
+      "author_fullname": "Mccormick, Matthew",
+      "author_id": 2509,
+      "author_institution": "University of Wisconsin-Madison",
+      "author_lastname": "Mccormick"
+    },
+    "tags": [
+      "DICOM",
+      "Registration",
+      "Resampling",
+      "Transform",
+      "DICOM-RT"
+    ],
+    "title": "DICOM Spatial Transform IO in the Insight Toolkit"
+  }
 }

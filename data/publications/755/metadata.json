@@ -1,81 +1,84 @@
 {
- "publication": {
-  "abstract": "ITK is one of the most powerful image segmentation and registration libraries available as an open source toolkit. Motivated by the recent popularization of the iPhone, iPod touch, and iPad, in this work, we describe the set of required steps for integrating the ITK framework into Apple\u2019s iOS mobile operating system. Our focus in this paper is on the process of importing the C++ based ITK to the Objective-C based iOS, and creating a simple application that demonstrates the ITK libraries are integrated. This paper brings to the reader a user-manual on how to integrate the ITK libraries into iOS applications and code. We present here the series of steps we performed in order to import the ITK libraries as well as report the results of importing them under different versions of the iOS and under different architectures (the Simulator and Device architecture).",
-  "authors": [
-   {
-    "author_fullname": "Shabash, Boris",
-    "author_place": 1,
-    "persona_email": "bshabash@hotmail.com",
-    "persona_firstname": "Boris",
-    "persona_id": 2559,
-    "persona_lastname": "Shabash"
-   },
-   {
-    "author_fullname": "Hamarneh, Ghassan",
-    "author_place": 2,
-    "persona_email": "hamarneh@cs.sfu.ca",
-    "persona_firstname": "Ghassan",
-    "persona_id": 10,
-    "persona_lastname": "Hamarneh"
-   },
-   {
-    "author_fullname": "Huang, Zhi Feng",
-    "author_place": 3,
-    "persona_email": "zfh@sfu.ca",
-    "persona_firstname": "Zhi feng",
-    "persona_id": 2699,
-    "persona_lastname": "Huang"
-   },
-   {
-    "author_fullname": "Ibanez, Luis",
-    "author_place": 4,
-    "persona_email": "luis.ibanez@kitware.com",
-    "persona_firstname": "Luis",
-    "persona_id": 4,
-    "persona_lastname": "Ibanez"
-   }
-  ],
-  "categories": [
-   "Generic Programming",
-   "Programming"
-  ],
-  "comments": [],
-  "date_submitted": "2010-08-31 00:34:34",
-  "handles": [
-   {
-    "handle": "10380/3209",
-    "handle_url": "http://hdl.handle.net/10380/3209"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 755,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "bshabash@hotmail.com",
-   "author_firstname": "Boris",
-   "author_fullname": "Shabash, Boris",
-   "author_id": 2559,
-   "author_institution": "Simon Fraser University",
-   "author_lastname": "Shabash"
-  },
-  "tags": [
-   "ITK",
-   "Objective-C",
-   "iOS",
-   "iPod",
-   "iPhone",
-   "iPad"
-  ],
-  "title": "ITK on the iOS"
- }
+  "publication": {
+    "abstract": "ITK is one of the most powerful image segmentation and registration libraries available as an open source toolkit. Motivated by the recent popularization of the iPhone, iPod touch, and iPad, in this work, we describe the set of required steps for integrating the ITK framework into Apple\u2019s iOS mobile operating system. Our focus in this paper is on the process of importing the C++ based ITK to the Objective-C based iOS, and creating a simple application that demonstrates the ITK libraries are integrated. This paper brings to the reader a user-manual on how to integrate the ITK libraries into iOS applications and code. We present here the series of steps we performed in order to import the ITK libraries as well as report the results of importing them under different versions of the iOS and under different architectures (the Simulator and Device architecture).",
+    "articles": [
+      "bafybeidiovdc46gtwrjwj557rlfvftz37h67gxcjwmkwphxnfstdsxnc6q"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Shabash, Boris",
+        "author_place": 1,
+        "persona_email": "bshabash@hotmail.com",
+        "persona_firstname": "Boris",
+        "persona_id": 2559,
+        "persona_lastname": "Shabash"
+      },
+      {
+        "author_fullname": "Hamarneh, Ghassan",
+        "author_place": 2,
+        "persona_email": "hamarneh@cs.sfu.ca",
+        "persona_firstname": "Ghassan",
+        "persona_id": 10,
+        "persona_lastname": "Hamarneh"
+      },
+      {
+        "author_fullname": "Huang, Zhi Feng",
+        "author_place": 3,
+        "persona_email": "zfh@sfu.ca",
+        "persona_firstname": "Zhi feng",
+        "persona_id": 2699,
+        "persona_lastname": "Huang"
+      },
+      {
+        "author_fullname": "Ibanez, Luis",
+        "author_place": 4,
+        "persona_email": "luis.ibanez@kitware.com",
+        "persona_firstname": "Luis",
+        "persona_id": 4,
+        "persona_lastname": "Ibanez"
+      }
+    ],
+    "categories": [
+      "Generic Programming",
+      "Programming"
+    ],
+    "comments": [],
+    "date_submitted": "2010-08-31 00:34:34",
+    "handles": [
+      {
+        "handle": "10380/3209",
+        "handle_url": "http://hdl.handle.net/10380/3209"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 755,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "bshabash@hotmail.com",
+      "author_firstname": "Boris",
+      "author_fullname": "Shabash, Boris",
+      "author_id": 2559,
+      "author_institution": "Simon Fraser University",
+      "author_lastname": "Shabash"
+    },
+    "tags": [
+      "ITK",
+      "Objective-C",
+      "iOS",
+      "iPod",
+      "iPhone",
+      "iPad"
+    ],
+    "title": "ITK on the iOS"
+  }
 }

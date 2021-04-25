@@ -1,105 +1,108 @@
 {
- "publication": {
-  "abstract": "Transitive consistency of pairwise transformations is a desirable property of groupwise image registration procedures. The transformation synchronisation method (Bernard et al., 2015) is able to retrieve transitively consistent pairwise transformations from pairwise transformations that are initially not transitively consistent. In the present paper, we present a numerically stable implementation of the transformation synchronisation method for affine transformations, which can deal with very large translations, such as those occurring in medical images where the coordinate origins may be far away from each other. By using this method in conjunction with any pairwise (affine) image registration algorithm, a transitively consistent and unbiased groupwise image registration can be achieved.\nExperiments involving the average template generation from 3D brain images demonstrate that the method is more robust with respect to outliers and achieves higher registration accuracy compared to reference-based registration.",
-  "authors": [
-   {
-    "author_fullname": "Bernard, Florian",
-    "author_place": 1,
-    "persona_email": "f.bernardpi@gmail.com",
-    "persona_firstname": "Florian",
-    "persona_id": 9645,
-    "persona_lastname": "Bernard"
-   },
-   {
-    "author_fullname": "Thunberg, Johan",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Husch, Andreas",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Salamanca, Luis",
-    "author_place": 4,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Gemmar, Peter",
-    "author_place": 5,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Hertel, Frank",
-    "author_place": 6,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Goncalves, Jorge",
-    "author_place": 7,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Groupwise registration",
-   "Linear Algebra",
-   "Optimization",
-   "Transforms"
-  ],
-  "comments": [
-   {
-    "content": "Code is available here: https://sites.google.com/site/fbernardpi/code",
-    "date": "2015-10-16T02:12:03",
-    "persona_email": "f.bernardpi@gmail.com",
-    "persona_firstname": "Florian",
-    "persona_id": 9645,
-    "persona_lastname": "Bernard"
-   },
-   {
-    "content": "Are you going to publish source code?",
-    "date": "2015-10-15T14:07:11",
-    "persona_email": "dzenanz@gmail.com",
-    "persona_firstname": "D\u017eenan",
-    "persona_id": 2260,
-    "persona_lastname": "Zuki\u0107"
-   }
-  ],
-  "date_submitted": "2015-10-05 10:25:46",
-  "handles": [
-   {
-    "handle": "10380/3526",
-    "handle_url": "http://hdl.handle.net/10380/3526"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 44,
-    "journal_name": "MICCAI 2015 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 960,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "f.bernardpi@gmail.com",
-   "author_firstname": "Florian",
-   "author_fullname": "Bernard, Florian",
-   "author_id": 9645,
-   "author_institution": "Centre Hospitalier de Luxembourg",
-   "author_lastname": "Bernard"
-  },
-  "tags": [
-   "multi-alignment",
-   "transformation synchronisation",
-   "groupwise registration",
-   "multi-image registration",
-   "template construction"
-  ],
-  "title": "Transitively Consistent and Unbiased Multi-Image Registration using Numerically Stable Transformation Synchronisation"
- }
+  "publication": {
+    "abstract": "Transitive consistency of pairwise transformations is a desirable property of groupwise image registration procedures. The transformation synchronisation method (Bernard et al., 2015) is able to retrieve transitively consistent pairwise transformations from pairwise transformations that are initially not transitively consistent. In the present paper, we present a numerically stable implementation of the transformation synchronisation method for affine transformations, which can deal with very large translations, such as those occurring in medical images where the coordinate origins may be far away from each other. By using this method in conjunction with any pairwise (affine) image registration algorithm, a transitively consistent and unbiased groupwise image registration can be achieved.\nExperiments involving the average template generation from 3D brain images demonstrate that the method is more robust with respect to outliers and achieves higher registration accuracy compared to reference-based registration.",
+    "articles": [
+      "bafybeihnajueabjmceoj6elqcebjwixsjp7t7odkcs6dy7qbikfg5enpvi"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Bernard, Florian",
+        "author_place": 1,
+        "persona_email": "f.bernardpi@gmail.com",
+        "persona_firstname": "Florian",
+        "persona_id": 9645,
+        "persona_lastname": "Bernard"
+      },
+      {
+        "author_fullname": "Thunberg, Johan",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Husch, Andreas",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Salamanca, Luis",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Gemmar, Peter",
+        "author_place": 5,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Hertel, Frank",
+        "author_place": 6,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Goncalves, Jorge",
+        "author_place": 7,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Groupwise registration",
+      "Linear Algebra",
+      "Optimization",
+      "Transforms"
+    ],
+    "comments": [
+      {
+        "content": "Code is available here: https://sites.google.com/site/fbernardpi/code",
+        "date": "2015-10-16T02:12:03",
+        "persona_email": "f.bernardpi@gmail.com",
+        "persona_firstname": "Florian",
+        "persona_id": 9645,
+        "persona_lastname": "Bernard"
+      },
+      {
+        "content": "Are you going to publish source code?",
+        "date": "2015-10-15T14:07:11",
+        "persona_email": "dzenanz@gmail.com",
+        "persona_firstname": "D\u017eenan",
+        "persona_id": 2260,
+        "persona_lastname": "Zuki\u0107"
+      }
+    ],
+    "date_submitted": "2015-10-05 10:25:46",
+    "handles": [
+      {
+        "handle": "10380/3526",
+        "handle_url": "http://hdl.handle.net/10380/3526"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 44,
+        "journal_name": "MICCAI 2015 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 960,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "f.bernardpi@gmail.com",
+      "author_firstname": "Florian",
+      "author_fullname": "Bernard, Florian",
+      "author_id": 9645,
+      "author_institution": "Centre Hospitalier de Luxembourg",
+      "author_lastname": "Bernard"
+    },
+    "tags": [
+      "multi-alignment",
+      "transformation synchronisation",
+      "groupwise registration",
+      "multi-image registration",
+      "template construction"
+    ],
+    "title": "Transitively Consistent and Unbiased Multi-Image Registration using Numerically Stable Transformation Synchronisation"
+  }
 }

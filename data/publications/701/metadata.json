@@ -1,75 +1,82 @@
 {
- "publication": {
-  "abstract": "This paper presents parsing software for importing contours from DICOM RT structure set files into binary image files. This is a common requirement for transferring expert manual segmentations from radiotherapy treatment planning software into external image analysis environments (such as ITK). We provide an implementation of RT structure set importing and give some example results from prostate cancer radiotherapy planning volumes. \n\nPlease note that this implementation requires GDCM 2.0 to be installed (this is trivial; however this requirement is the reason for the low automatic testing score by the Insight-Journal Dashboard).\n\nPlease Note: Updated June 2010 for a couple of minor issues (pls. see comments in .cxx) and to remove the requirement for image template. This code now reads the dcm directory and creates a 3D volume and associated binary structure volumes (all in NIfTI format).\nUsage: itkDICOMRT DicomDirectory inputDICOMRTImageFile OutputFilePrefix\n\nFeb 2013: Please note that this code won't work with ITK4 and above - instead please see: http://hdl.handle.net/10380/3401 . There is also a new test DICOM-RT directory with that paper. \n\nMar 2013 Now correctly handles holes within structures. Thanks to Sebastian Steger for the code fix.\n",
-  "authors": [
-   {
-    "author_fullname": "Dowling, Jason",
-    "author_place": 2,
-    "persona_email": "dowlingjad@gmail.com",
-    "persona_firstname": "Jason",
-    "persona_id": 2286,
-    "persona_lastname": "Dowling"
-   },
-   {
-    "author_fullname": "Malaterre, Mathieu",
-    "author_place": 3,
-    "persona_email": "mathieu.malaterre@gmail.com",
-    "persona_firstname": "Mathieu",
-    "persona_id": 310,
-    "persona_lastname": "Malaterre"
-   },
-   {
-    "author_fullname": "Greer, Peter B",
-    "author_place": 4,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Salvado, Olivier",
-    "author_place": 5,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Data",
-   "DICOM",
-   "Image",
-   "Images",
-   "Objects"
-  ],
-  "comments": [],
-  "date_submitted": "2009-10-25 20:29:40",
-  "handles": [
-   {
-    "handle": "10380/3132",
-    "handle_url": "http://hdl.handle.net/10380/3132"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 701,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "dowlingjad@gmail.com",
-   "author_firstname": "Jason",
-   "author_fullname": "Dowling, Jason",
-   "author_id": 2286,
-   "author_institution": "CSIRO",
-   "author_lastname": "Dowling"
-  },
-  "tags": [
-   "DICOM-RT",
-   "Radiotherapy planning",
-   "DICOM Structure"
-  ],
-  "title": "Importing Contours from DICOM-RT Structure Sets"
- }
+  "publication": {
+    "abstract": "This paper presents parsing software for importing contours from DICOM RT structure set files into binary image files. This is a common requirement for transferring expert manual segmentations from radiotherapy treatment planning software into external image analysis environments (such as ITK). We provide an implementation of RT structure set importing and give some example results from prostate cancer radiotherapy planning volumes. \n\nPlease note that this implementation requires GDCM 2.0 to be installed (this is trivial; however this requirement is the reason for the low automatic testing score by the Insight-Journal Dashboard).\n\nPlease Note: Updated June 2010 for a couple of minor issues (pls. see comments in .cxx) and to remove the requirement for image template. This code now reads the dcm directory and creates a 3D volume and associated binary structure volumes (all in NIfTI format).\nUsage: itkDICOMRT DicomDirectory inputDICOMRTImageFile OutputFilePrefix\n\nFeb 2013: Please note that this code won't work with ITK4 and above - instead please see: http://hdl.handle.net/10380/3401 . There is also a new test DICOM-RT directory with that paper. \n\nMar 2013 Now correctly handles holes within structures. Thanks to Sebastian Steger for the code fix.\n",
+    "articles": [
+      "bafybeicypgux5oetasff3mgpidbdosh5xn4rw35553hrblxaxzvezojywq",
+      "bafybeifohmva24ovew7kc2d4r47cf6hf45ikyjh556whncuvwl2ganeb64",
+      "bafybeifohmva24ovew7kc2d4r47cf6hf45ikyjh556whncuvwl2ganeb64",
+      "bafybeifohmva24ovew7kc2d4r47cf6hf45ikyjh556whncuvwl2ganeb64",
+      "bafybeifohmva24ovew7kc2d4r47cf6hf45ikyjh556whncuvwl2ganeb64"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Dowling, Jason",
+        "author_place": 2,
+        "persona_email": "dowlingjad@gmail.com",
+        "persona_firstname": "Jason",
+        "persona_id": 2286,
+        "persona_lastname": "Dowling"
+      },
+      {
+        "author_fullname": "Malaterre, Mathieu",
+        "author_place": 3,
+        "persona_email": "mathieu.malaterre@gmail.com",
+        "persona_firstname": "Mathieu",
+        "persona_id": 310,
+        "persona_lastname": "Malaterre"
+      },
+      {
+        "author_fullname": "Greer, Peter B",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Salvado, Olivier",
+        "author_place": 5,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Data",
+      "DICOM",
+      "Image",
+      "Images",
+      "Objects"
+    ],
+    "comments": [],
+    "date_submitted": "2009-10-25 20:29:40",
+    "handles": [
+      {
+        "handle": "10380/3132",
+        "handle_url": "http://hdl.handle.net/10380/3132"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 701,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "dowlingjad@gmail.com",
+      "author_firstname": "Jason",
+      "author_fullname": "Dowling, Jason",
+      "author_id": 2286,
+      "author_institution": "CSIRO",
+      "author_lastname": "Dowling"
+    },
+    "tags": [
+      "DICOM-RT",
+      "Radiotherapy planning",
+      "DICOM Structure"
+    ],
+    "title": "Importing Contours from DICOM-RT Structure Sets"
+  }
 }

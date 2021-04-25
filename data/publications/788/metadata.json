@@ -1,53 +1,58 @@
 {
- "publication": {
-  "abstract": "This document describes a set of classes that designs a generic explicit deformable model in VTK. The iterative mechanism is first introduced through an inheritance of the vtkPolyDataAlgorithm class. This vtkIterativePolyDataAlgorithm is then a base for an implementation of the deformation. Two examples of deformation are presented through an inheritance of this base class. The provided source code may be used to build a ParaView plugin that harnesses the animation feature.\n",
-  "authors": [
-   {
-    "author_fullname": "Velut, J\u00e9r\u00f4me",
-    "author_place": 1,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Filtering",
-   "Mesh",
-   "PointSet",
-   "Segmentation",
-   "Surface extraction"
-  ],
-  "comments": [],
-  "date_submitted": "2011-02-08 14:58:00",
-  "handles": [
-   {
-    "handle": "10380/3251",
-    "handle_url": "http://hdl.handle.net/10380/3251"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 35,
-    "journal_name": "The VTK Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 788,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "jerome.velut@kitware.com",
-   "author_firstname": "Jerome",
-   "author_fullname": "Velut, Jerome",
-   "author_id": 2453,
-   "author_institution": "Kitware SAS",
-   "author_lastname": "Velut"
-  },
-  "tags": [
-   "deformable model",
-   "Iterative PolyData algorithm"
-  ],
-  "title": "Explicit Deformable Model in VTK"
- }
+  "publication": {
+    "abstract": "This document describes a set of classes that designs a generic explicit deformable model in VTK. The iterative mechanism is first introduced through an inheritance of the vtkPolyDataAlgorithm class. This vtkIterativePolyDataAlgorithm is then a base for an implementation of the deformation. Two examples of deformation are presented through an inheritance of this base class. The provided source code may be used to build a ParaView plugin that harnesses the animation feature.\n",
+    "articles": [
+      "bafybeif52kpzzxvlnn6gl2few24uctgbmtqihaudtvlfdabl7smcnpimjq",
+      "bafybeif52kpzzxvlnn6gl2few24uctgbmtqihaudtvlfdabl7smcnpimjq",
+      "bafybeif52kpzzxvlnn6gl2few24uctgbmtqihaudtvlfdabl7smcnpimjq"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Velut, J\u00e9r\u00f4me",
+        "author_place": 1,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Filtering",
+      "Mesh",
+      "PointSet",
+      "Segmentation",
+      "Surface extraction"
+    ],
+    "comments": [],
+    "date_submitted": "2011-02-08 14:58:00",
+    "handles": [
+      {
+        "handle": "10380/3251",
+        "handle_url": "http://hdl.handle.net/10380/3251"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 35,
+        "journal_name": "The VTK Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 788,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "jerome.velut@kitware.com",
+      "author_firstname": "Jerome",
+      "author_fullname": "Velut, Jerome",
+      "author_id": 2453,
+      "author_institution": "Kitware SAS",
+      "author_lastname": "Velut"
+    },
+    "tags": [
+      "deformable model",
+      "Iterative PolyData algorithm"
+    ],
+    "title": "Explicit Deformable Model in VTK"
+  }
 }

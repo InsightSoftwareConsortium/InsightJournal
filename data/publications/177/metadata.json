@@ -1,69 +1,73 @@
 {
- "publication": {
-  "abstract": "We present an open-source ITK implementation of a direct Fourier method for tomographic reconstruction, applicable to parallel-beam x-ray images. Direct Fourier reconstruction makes use of the central-slice theorem to build a polar 2D Fourier space from the 1D transformed projections of the scanned object, that is resampled into a Cartesian grid. Inverse 2D Fourier transform eventually yields the reconstructed image. Additionally, we provide a complex wrapper to the BSplineInterpolateImageFunction to overcome ITK\u2019s current lack for image interpolators dealing with complex data types. A sample application is presented and extensively illustrated on the Shepp-Logan head phantom. We show that appropriate input zeropadding and 2D-DFT oversampling rates together with radial cubic b-spline interpolation improve 2D-DFT interpolation quality and are efficient remedies to reduce reconstruction artifacts.",
-  "authors": [
-   {
-    "author_fullname": "Zosso, Dominique",
-    "author_place": 1,
-    "persona_email": "dominique.zosso@epfl.ch",
-    "persona_firstname": "Dominique",
-    "persona_id": 651,
-    "persona_lastname": "Zosso"
-   },
-   {
-    "author_fullname": "Bach Cuadra, Meritxell",
-    "author_place": 2,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Thiran, Jean-Philippe",
-    "author_place": 3,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Blurring filters",
-   "Derivatives and Integrals",
-   "Filtering",
-   "Geometric transforms",
-   "Mathematics",
-   "Resampling"
-  ],
-  "comments": [],
-  "date_submitted": "2007-08-24T10:21:19Z",
-  "handles": [
-   {
-    "handle": "1926/585",
-    "handle_url": "http://hdl.handle.net/1926/585"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 177,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "dominique.zosso@epfl.ch",
-   "author_firstname": "Dominique",
-   "author_fullname": "Zosso, Dominique",
-   "author_id": 651,
-   "author_institution": "EPFL Signal Processing Institute",
-   "author_lastname": "Zosso"
-  },
-  "tags": [
-   "CT",
-   "Direct Fourier Method",
-   "Tomographic Reconstruction",
-   "Image-To-Image Filter"
-  ],
-  "title": "Direct Fourier Tomographic Reconstruction Image-To-Image Filter"
- }
+  "publication": {
+    "abstract": "We present an open-source ITK implementation of a direct Fourier method for tomographic reconstruction, applicable to parallel-beam x-ray images. Direct Fourier reconstruction makes use of the central-slice theorem to build a polar 2D Fourier space from the 1D transformed projections of the scanned object, that is resampled into a Cartesian grid. Inverse 2D Fourier transform eventually yields the reconstructed image. Additionally, we provide a complex wrapper to the BSplineInterpolateImageFunction to overcome ITK\u2019s current lack for image interpolators dealing with complex data types. A sample application is presented and extensively illustrated on the Shepp-Logan head phantom. We show that appropriate input zeropadding and 2D-DFT oversampling rates together with radial cubic b-spline interpolation improve 2D-DFT interpolation quality and are efficient remedies to reduce reconstruction artifacts.",
+    "articles": [
+      "bafybeibnka5ursoj3a3nt7mn4f3sfycuwfqb67w76yg2qd5ndqepvit4p4",
+      "bafybeibnka5ursoj3a3nt7mn4f3sfycuwfqb67w76yg2qd5ndqepvit4p4"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Zosso, Dominique",
+        "author_place": 1,
+        "persona_email": "dominique.zosso@epfl.ch",
+        "persona_firstname": "Dominique",
+        "persona_id": 651,
+        "persona_lastname": "Zosso"
+      },
+      {
+        "author_fullname": "Bach Cuadra, Meritxell",
+        "author_place": 2,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Thiran, Jean-Philippe",
+        "author_place": 3,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Blurring filters",
+      "Derivatives and Integrals",
+      "Filtering",
+      "Geometric transforms",
+      "Mathematics",
+      "Resampling"
+    ],
+    "comments": [],
+    "date_submitted": "2007-08-24T10:21:19Z",
+    "handles": [
+      {
+        "handle": "1926/585",
+        "handle_url": "http://hdl.handle.net/1926/585"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 177,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "dominique.zosso@epfl.ch",
+      "author_firstname": "Dominique",
+      "author_fullname": "Zosso, Dominique",
+      "author_id": 651,
+      "author_institution": "EPFL Signal Processing Institute",
+      "author_lastname": "Zosso"
+    },
+    "tags": [
+      "CT",
+      "Direct Fourier Method",
+      "Tomographic Reconstruction",
+      "Image-To-Image Filter"
+    ],
+    "title": "Direct Fourier Tomographic Reconstruction Image-To-Image Filter"
+  }
 }

@@ -1,52 +1,61 @@
 {
- "publication": {
-  "abstract": "Image fusion provides a mechanism to combine multiple images into a single representation to aid human visual perception and image processing tasks. Such algorithms endeavour to create a fused image containing the salient information from each source image, without introducing artefacts or inconsistencies. Image fusion is applicable for numerous fields including: defence systems, remote sensing and geoscience, robotics and industrial engineering, and medical imaging. In the medical imaging domain, image fusion may aid diagnosis and surgical planning tasks requiring the segmentation, feature extraction, and/or visualisation of multi-modal datasets.\r\n\r\nThis paper discusses the implementation of an image fusion toolkit built upon the Insight Toolkit (ITK). Based on an existing architecture, the proposed framework (GIFT) offers a 'plug-and-play' environment for the construction of n-D multi-scale image fusion methods. We give a brief overview of the toolkit design and demonstrate how to construct image fusion algorithms from low-level components (such as multi-scale methods and feature generators). A number of worked examples for medical applications are presented in Appendix A, including quadrature mirror filter discrete wavelet transform (QMF DWT) image fusion.",
-  "authors": [
-   {
-    "author_fullname": "Mueller, Daniel; Maeder, Anthony; O'Shea, Peter",
-    "author_place": 1,
-    "persona_email": "dan.muel@gmail.com",
-    "persona_firstname": "Dan",
-    "persona_id": 286,
-    "persona_lastname": "Mueller"
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2006-07-08T07:36:35Z",
-  "handles": [
-   {
-    "handle": "1926/216",
-    "handle_url": "http://hdl.handle.net/1926/216"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 103,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "dan.muel@gmail.com",
-   "author_firstname": "Dan",
-   "author_fullname": "Mueller, Dan",
-   "author_id": 286,
-   "author_institution": "Philips Healthcare",
-   "author_lastname": "Mueller"
-  },
-  "tags": [
-   "wavelet",
-   "image fusion",
-   "multi-modal",
-   "ITK"
-  ],
-  "title": "The Generalised Image Fusion Toolkit (GIFT)"
- }
+  "publication": {
+    "abstract": "Image fusion provides a mechanism to combine multiple images into a single representation to aid human visual perception and image processing tasks. Such algorithms endeavour to create a fused image containing the salient information from each source image, without introducing artefacts or inconsistencies. Image fusion is applicable for numerous fields including: defence systems, remote sensing and geoscience, robotics and industrial engineering, and medical imaging. In the medical imaging domain, image fusion may aid diagnosis and surgical planning tasks requiring the segmentation, feature extraction, and/or visualisation of multi-modal datasets.\r\n\r\nThis paper discusses the implementation of an image fusion toolkit built upon the Insight Toolkit (ITK). Based on an existing architecture, the proposed framework (GIFT) offers a 'plug-and-play' environment for the construction of n-D multi-scale image fusion methods. We give a brief overview of the toolkit design and demonstrate how to construct image fusion algorithms from low-level components (such as multi-scale methods and feature generators). A number of worked examples for medical applications are presented in Appendix A, including quadrature mirror filter discrete wavelet transform (QMF DWT) image fusion.",
+    "articles": [
+      "bafybeigoekeevtevx4bu3kzb7ik5guseuasusj6nliqi72viozt2b6atbi",
+      "bafybeiat3zxftzrxtdho6qbclcyrja5s6yriryugp3sxl3w2q2xezxcviq",
+      "bafybeiat3zxftzrxtdho6qbclcyrja5s6yriryugp3sxl3w2q2xezxcviq",
+      "bafybeiat3zxftzrxtdho6qbclcyrja5s6yriryugp3sxl3w2q2xezxcviq",
+      "bafybeiat3zxftzrxtdho6qbclcyrja5s6yriryugp3sxl3w2q2xezxcviq",
+      "bafybeie3azwwzwqcb2ewtd67fngeirbfovyhkqhsge3f3wvurojqcgntnq",
+      "bafybeie3azwwzwqcb2ewtd67fngeirbfovyhkqhsge3f3wvurojqcgntnq"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Mueller, Daniel; Maeder, Anthony; O'Shea, Peter",
+        "author_place": 1,
+        "persona_email": "dan.muel@gmail.com",
+        "persona_firstname": "Dan",
+        "persona_id": 286,
+        "persona_lastname": "Mueller"
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2006-07-08T07:36:35Z",
+    "handles": [
+      {
+        "handle": "1926/216",
+        "handle_url": "http://hdl.handle.net/1926/216"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 103,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "dan.muel@gmail.com",
+      "author_firstname": "Dan",
+      "author_fullname": "Mueller, Dan",
+      "author_id": 286,
+      "author_institution": "Philips Healthcare",
+      "author_lastname": "Mueller"
+    },
+    "tags": [
+      "wavelet",
+      "image fusion",
+      "multi-modal",
+      "ITK"
+    ],
+    "title": "The Generalised Image Fusion Toolkit (GIFT)"
+  }
 }

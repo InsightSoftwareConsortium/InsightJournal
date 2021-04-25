@@ -1,68 +1,71 @@
 {
- "publication": {
-  "abstract": "The original design of the ITK registration framework was based around the itk::Image class, which\r\nassumed that the pixel axes were aligned with the coordinate system axes. The itk::OrientedImage\r\nwas added later as a subclass, but problems remain with its gradient calculations. Furthermore, general\r\ncode that uses the itk::OrientedImage will suffer an unnecessary penalty when the image is oriented\r\nparallel to the image axes. We propose a new itk::FastOrientedImage class that alleviates these\r\nperformance problems, and a change to the design of itk::ImageToImageMetric that resolves the\r\ngradient issue, and adds a number of additional capacities to the image metrics",
-  "authors": [
-   {
-    "author_fullname": "Brooks, Rupert",
-    "author_place": 1,
-    "persona_email": "rupert.brooks@gmail.com",
-    "persona_firstname": "Rupert",
-    "persona_id": 171,
-    "persona_lastname": "Brooks"
-   },
-   {
-    "author_fullname": "Arbel, Tal",
-    "author_place": 2,
-    "persona_id": null
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2007-10-12T18:51:54Z",
-  "handles": [
-   {
-    "handle": "1926/1293",
-    "handle_url": "http://hdl.handle.net/1926/1293"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 182,
-  "reviews": [
-   {
-    "author": {
-     "author_email": "tom.vercauteren@gmail.com",
-     "author_firstname": "Tom",
-     "author_id": 156,
-     "author_lastname": "Vercauteren"
+  "publication": {
+    "abstract": "The original design of the ITK registration framework was based around the itk::Image class, which\r\nassumed that the pixel axes were aligned with the coordinate system axes. The itk::OrientedImage\r\nwas added later as a subclass, but problems remain with its gradient calculations. Furthermore, general\r\ncode that uses the itk::OrientedImage will suffer an unnecessary penalty when the image is oriented\r\nparallel to the image axes. We propose a new itk::FastOrientedImage class that alleviates these\r\nperformance problems, and a change to the design of itk::ImageToImageMetric that resolves the\r\ngradient issue, and adds a number of additional capacities to the image metrics",
+    "articles": [
+      "bafkreiebtguqh2acbu3eizhsefxqigdmmvrcuuatol65njvb4xizdyidqq"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Brooks, Rupert",
+        "author_place": 1,
+        "persona_email": "rupert.brooks@gmail.com",
+        "persona_firstname": "Rupert",
+        "persona_id": 171,
+        "persona_lastname": "Brooks"
+      },
+      {
+        "author_fullname": "Arbel, Tal",
+        "author_place": 2,
+        "persona_id": null
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2007-10-12T18:51:54Z",
+    "handles": [
+      {
+        "handle": "1926/1293",
+        "handle_url": "http://hdl.handle.net/1926/1293"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
     },
-    "content": "<p><strong>Summary:</strong><br />The authors propose a new image class that takes into account an orientation matrix in addition to a diagonal spacing matrix and an origin point. The aim is to optimize the conversion of points and gradients between pixel space and physical space in the most commonly used cases. The focus is on providing a solution that is generic enough to cover all possible cases. This topic is very important for registration problems where the conversion can be needed millions of times. The solution proposed by the authors is based on function pointers.</p><p>Overall I think it is a good approach. I would suggest using this idea in the basic itk::Image class and deprecate the itk::OrientedImage class. </p><p> <br /> <strong>Hypothesis:</strong><br />I fully agree with the hypothesis made by the authors:<br />1) Most ITK users will typically use images with a simple combination of orientation matrix, spacing vector and origin<br />2) Many users will need non trivial orientation matrices<br />3) All users care about the performance of registration </p><p> <br /> <strong>Evidence:</strong><br />The authors claim that their solution:<br />1) is as generic as the oriented image class<br />2) can deal with the orientation of gradients<br />3) is often even more efficient than the standard image class<br />55 timing tests are provided to support the author claims. </p><p><br /> <strong>Open Science:</strong><br />The paper fully adheres to the open science concept. The code, the testing framework and the data are provided. The code uses only ITK.</p><p><strong><br />Reproducibility:<br /></strong>I have been able to reproduce the authors work. The only thing I needed to change was a #define SPEEDTESTNUM which by default was set to a ridiculously low value and did not allow me to compare the time taken by the different implementations. On my platform (ubuntu, x86, gcc 4.1.2), the authors fast implementation compared even better with respect to the standard image class.</p><p>A very small README file would be useful to tell the reader what the log files refer to.<br /> </p><p><br /> <strong>Use of Open Source Software:</strong><br />The work uses ITK. The author give a brief comparison of their approach to gradient orientation problems with the one being proposed by the ITK team.</p><p><strong>Open Source Contributions:</strong><br />It took me very little time to compile and run the tests.</p><p><br /> <strong>Code Quality:</strong><br />The code needs a little cleanup to give it a consistent indentation, move out the #define printouts and so on. In itkFastOrientedImage.h a few #include are nor necessary. </p><p> <br /> <strong>Applicability to other problems:</strong><br />The idea of using function pointers to use specialized optimized functions could be used in many ITK classes. A lot of filters could be optimized if, during their initialization, a function pointer was set to point to an efficient specialized function. </p><p> <br /> <strong>Suggestions for future work:</strong><br />As mentioned by the authors, the use of function pointers forbids the compiler to inline the function. This has a performance price. The author claim that using specialized template classes would lead to an even better performance. This approach is however less generic than the previous one as it has to be decided at compile-time rather than run-time. For some users, compile-time may be fine. It would thus be great to include for example a very basic image class that only allows for unit orientation, unit spacing and zero origin. This would prove the author claim and let the user decide whether the added performance is worth the loss of genericness.</p><p>Many specific cases are not addressed. If the orientation matrix (including spacing or not) is composed of only 1s and -1s, optimized version can also be designed. It would be nice to have all those specialized versions, even though it becomes tricky :)<br /><br /> <br /> <strong>Additional Comments:</strong><br />In the current constructor, the orientation and spacing are set to the identity and the origin is set to zero but the function pointers are set to the generic cases. I would be more consistent and make more sense to point to the specialized version.</p><p>The authors claim that &quot;there is no point implementing a set of functions for TransformPhysicalPointToIndex&quot;. At first this puzzled me. It would be clearer to say something like &quot;there is no point implementing a set of specialized functions for TransformPhysicalPointToIndex because the generic one cannot really be improved.&quot;</p><p>In the code, I saw:<br /> // cast to integer is really really slow... maybe rewrite in assembly later.<br />#define RealToInt(A) static_cast(A)<br />A first improvement may come from using vcl functions. Then it might be worth looking at how this issue is addressed in the BSplineInterpolator. See http://www.itk.org/Bug/view.php?id=2078 for a discussion of its accuracy.<br /> </p>",
-    "date": "10-15-2007",
-    "review_id": 594
-   }
-  ],
-  "submitted_by_author": {
-   "author_email": "rupert.brooks@gmail.com",
-   "author_firstname": "Rupert",
-   "author_fullname": "Brooks, Rupert",
-   "author_id": 171,
-   "author_institution": "Elekta LTD, Soft Tissue Imaging",
-   "author_lastname": "Brooks"
-  },
-  "tags": [
-   "image gradients",
-   "image registration",
-   "Oriented image"
-  ],
-  "title": "Improving The Oriented Image Class For Use In The Registration Framework"
- }
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 182,
+    "reviews": [
+      {
+        "author": {
+          "author_email": "tom.vercauteren@gmail.com",
+          "author_firstname": "Tom",
+          "author_id": 156,
+          "author_lastname": "Vercauteren"
+        },
+        "content": "<p><strong>Summary:</strong><br />The authors propose a new image class that takes into account an orientation matrix in addition to a diagonal spacing matrix and an origin point. The aim is to optimize the conversion of points and gradients between pixel space and physical space in the most commonly used cases. The focus is on providing a solution that is generic enough to cover all possible cases. This topic is very important for registration problems where the conversion can be needed millions of times. The solution proposed by the authors is based on function pointers.</p><p>Overall I think it is a good approach. I would suggest using this idea in the basic itk::Image class and deprecate the itk::OrientedImage class. </p><p> <br /> <strong>Hypothesis:</strong><br />I fully agree with the hypothesis made by the authors:<br />1) Most ITK users will typically use images with a simple combination of orientation matrix, spacing vector and origin<br />2) Many users will need non trivial orientation matrices<br />3) All users care about the performance of registration </p><p> <br /> <strong>Evidence:</strong><br />The authors claim that their solution:<br />1) is as generic as the oriented image class<br />2) can deal with the orientation of gradients<br />3) is often even more efficient than the standard image class<br />55 timing tests are provided to support the author claims. </p><p><br /> <strong>Open Science:</strong><br />The paper fully adheres to the open science concept. The code, the testing framework and the data are provided. The code uses only ITK.</p><p><strong><br />Reproducibility:<br /></strong>I have been able to reproduce the authors work. The only thing I needed to change was a #define SPEEDTESTNUM which by default was set to a ridiculously low value and did not allow me to compare the time taken by the different implementations. On my platform (ubuntu, x86, gcc 4.1.2), the authors fast implementation compared even better with respect to the standard image class.</p><p>A very small README file would be useful to tell the reader what the log files refer to.<br /> </p><p><br /> <strong>Use of Open Source Software:</strong><br />The work uses ITK. The author give a brief comparison of their approach to gradient orientation problems with the one being proposed by the ITK team.</p><p><strong>Open Source Contributions:</strong><br />It took me very little time to compile and run the tests.</p><p><br /> <strong>Code Quality:</strong><br />The code needs a little cleanup to give it a consistent indentation, move out the #define printouts and so on. In itkFastOrientedImage.h a few #include are nor necessary. </p><p> <br /> <strong>Applicability to other problems:</strong><br />The idea of using function pointers to use specialized optimized functions could be used in many ITK classes. A lot of filters could be optimized if, during their initialization, a function pointer was set to point to an efficient specialized function. </p><p> <br /> <strong>Suggestions for future work:</strong><br />As mentioned by the authors, the use of function pointers forbids the compiler to inline the function. This has a performance price. The author claim that using specialized template classes would lead to an even better performance. This approach is however less generic than the previous one as it has to be decided at compile-time rather than run-time. For some users, compile-time may be fine. It would thus be great to include for example a very basic image class that only allows for unit orientation, unit spacing and zero origin. This would prove the author claim and let the user decide whether the added performance is worth the loss of genericness.</p><p>Many specific cases are not addressed. If the orientation matrix (including spacing or not) is composed of only 1s and -1s, optimized version can also be designed. It would be nice to have all those specialized versions, even though it becomes tricky :)<br /><br /> <br /> <strong>Additional Comments:</strong><br />In the current constructor, the orientation and spacing are set to the identity and the origin is set to zero but the function pointers are set to the generic cases. I would be more consistent and make more sense to point to the specialized version.</p><p>The authors claim that &quot;there is no point implementing a set of functions for TransformPhysicalPointToIndex&quot;. At first this puzzled me. It would be clearer to say something like &quot;there is no point implementing a set of specialized functions for TransformPhysicalPointToIndex because the generic one cannot really be improved.&quot;</p><p>In the code, I saw:<br /> // cast to integer is really really slow... maybe rewrite in assembly later.<br />#define RealToInt(A) static_cast(A)<br />A first improvement may come from using vcl functions. Then it might be worth looking at how this issue is addressed in the BSplineInterpolator. See http://www.itk.org/Bug/view.php?id=2078 for a discussion of its accuracy.<br /> </p>",
+        "date": "10-15-2007",
+        "review_id": 594
+      }
+    ],
+    "submitted_by_author": {
+      "author_email": "rupert.brooks@gmail.com",
+      "author_firstname": "Rupert",
+      "author_fullname": "Brooks, Rupert",
+      "author_id": 171,
+      "author_institution": "Elekta LTD, Soft Tissue Imaging",
+      "author_lastname": "Brooks"
+    },
+    "tags": [
+      "image gradients",
+      "image registration",
+      "Oriented image"
+    ],
+    "title": "Improving The Oriented Image Class For Use In The Registration Framework"
+  }
 }

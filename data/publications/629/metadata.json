@@ -1,63 +1,66 @@
 {
- "publication": {
-  "abstract": "The finite element (FE) method is a powerful tool for the study of biomechanics. One of the limiting factors in transitioning this tool into the clinic is the time required to generate high quality meshes for analysis. Previously, we developed a mapped meshing technique that utilized force control and a finite element solver to warp a template mesh onto subject specific surfaces. This paper describes a displacement based method that directly warps the template mesh onto subject specific surfaces using distance as the driving measure for the deformable registration. The resulting meshes were evaluated for mesh quality and compared to the force based method. An initial evaluation was performed using a mathematical phantom. The algorithm was then applied to generate meshes for the phalanx bones of the human hand. The algorithm successfully mapped the template bone to all of the bony surfaces, with the exception of the distal phalanx bone. In this one case, significant differences existed between the geometries of the template mesh and the distal phalanx. Further refinement of the algorithm may allow the algorithm to successfully generate meshes even in the presence of large geometric shape differences.",
-  "authors": [
-   {
-    "author_fullname": "Magnotta, Vincent",
-    "author_place": 1,
-    "persona_email": "vincent-magnotta@uiowa.edu",
-    "persona_firstname": "Vincent",
-    "persona_id": 54,
-    "persona_lastname": "Magnotta"
-   },
-   {
-    "author_fullname": "Li, Wen",
-    "author_place": 2,
-    "persona_email": "wen-li@uiowa.edu",
-    "persona_firstname": "Wen",
-    "persona_id": 2569,
-    "persona_lastname": "Li"
-   },
-   {
-    "author_fullname": "Grosland, Nicole",
-    "author_place": 3,
-    "persona_id": null
-   }
-  ],
-  "categories": [],
-  "comments": [],
-  "date_submitted": "2008-08-14T14:18:16Z",
-  "handles": [
-   {
-    "handle": "10380/1490",
-    "handle_url": "http://hdl.handle.net/10380/1490"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 33,
-    "journal_name": "MICCAI 2008 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 629,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "vincent-magnotta@uiowa.edu",
-   "author_firstname": "Vincent",
-   "author_fullname": "Magnotta, Vincent",
-   "author_id": 54,
-   "author_institution": "The University of Iowa",
-   "author_lastname": "Magnotta"
-  },
-  "tags": [
-   "Finite Element",
-   "Hexahedral Meshing"
-  ],
-  "title": "Comparison of Displacement-Based and Force-Based Mapped Meshing"
- }
+  "publication": {
+    "abstract": "The finite element (FE) method is a powerful tool for the study of biomechanics. One of the limiting factors in transitioning this tool into the clinic is the time required to generate high quality meshes for analysis. Previously, we developed a mapped meshing technique that utilized force control and a finite element solver to warp a template mesh onto subject specific surfaces. This paper describes a displacement based method that directly warps the template mesh onto subject specific surfaces using distance as the driving measure for the deformable registration. The resulting meshes were evaluated for mesh quality and compared to the force based method. An initial evaluation was performed using a mathematical phantom. The algorithm was then applied to generate meshes for the phalanx bones of the human hand. The algorithm successfully mapped the template bone to all of the bony surfaces, with the exception of the distal phalanx bone. In this one case, significant differences existed between the geometries of the template mesh and the distal phalanx. Further refinement of the algorithm may allow the algorithm to successfully generate meshes even in the presence of large geometric shape differences.",
+    "articles": [
+      "bafybeihx527w5hyqajo2tocqy5o3zlcjamydt7nmm4qqkgub363um2ehnq"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Magnotta, Vincent",
+        "author_place": 1,
+        "persona_email": "vincent-magnotta@uiowa.edu",
+        "persona_firstname": "Vincent",
+        "persona_id": 54,
+        "persona_lastname": "Magnotta"
+      },
+      {
+        "author_fullname": "Li, Wen",
+        "author_place": 2,
+        "persona_email": "wen-li@uiowa.edu",
+        "persona_firstname": "Wen",
+        "persona_id": 2569,
+        "persona_lastname": "Li"
+      },
+      {
+        "author_fullname": "Grosland, Nicole",
+        "author_place": 3,
+        "persona_id": null
+      }
+    ],
+    "categories": [],
+    "comments": [],
+    "date_submitted": "2008-08-14T14:18:16Z",
+    "handles": [
+      {
+        "handle": "10380/1490",
+        "handle_url": "http://hdl.handle.net/10380/1490"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 33,
+        "journal_name": "MICCAI 2008 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 629,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "vincent-magnotta@uiowa.edu",
+      "author_firstname": "Vincent",
+      "author_fullname": "Magnotta, Vincent",
+      "author_id": 54,
+      "author_institution": "The University of Iowa",
+      "author_lastname": "Magnotta"
+    },
+    "tags": [
+      "Finite Element",
+      "Hexahedral Meshing"
+    ],
+    "title": "Comparison of Displacement-Based and Force-Based Mapped Meshing"
+  }
 }

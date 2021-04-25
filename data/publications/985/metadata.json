@@ -1,82 +1,88 @@
 {
- "publication": {
-  "abstract": "This document describes a new remote module implemented for the Insight Toolkit ITK, itkTextureFeatures. This module contains two texture analysis filters that are used to compute feature maps of N-Dimensional images using two well-known texture analysis methods. The two filters contained in this module are itkScalarImageToTextureFeaturesImageFilter (which computes textural features based on intensity-based co-occurrence matrices in the image) and itkScalarImageToRunLengthFeaturesImageFilter (which computes textural features based on equally valued intensity clusters of different sizes or run lengths in the image). The output of this module is a vector image of the same size than the input that contains a multidimensional vector in each pixel/voxel. Filters can be configured based in the locality of the textural features (neighborhood size), offset directions for co-ocurrence and run length computation, the number of bins for the intensity histograms, the intensity range or the range of run lengths. This paper is accompanied with the source code, input data, parameters and output data that we have used for validating the algorithm described in this paper. This adheres to the fundamental principle that scientific publications must facilitate reproducibility of the reported results.",
-  "authors": [
-   {
-    "author_fullname": "Budin, Francois",
-    "author_place": 3,
-    "persona_email": "fbudin@unc.edu",
-    "persona_firstname": "Francois",
-    "persona_id": 2586,
-    "persona_lastname": "Budin"
-   },
-   {
-    "author_fullname": "Vimort, Jean-Baptiste",
-    "author_place": 1,
-    "persona_email": "jb.vimort@kitware.com",
-    "persona_firstname": "Jean-baptiste",
-    "persona_id": 10349,
-    "persona_lastname": "Vimort"
-   },
-   {
-    "author_fullname": "McCormick, Matthew",
-    "author_place": 2,
-    "persona_email": "matthew.m.mccormick@gmail.com",
-    "persona_firstname": "Matthew",
-    "persona_id": 2509,
-    "persona_lastname": "Mccormick"
-   },
-   {
-    "author_fullname": "Paniagua, Beatriz",
-    "author_place": 4,
-    "persona_email": "beatriz_paniagua@dentistry.unc.edu",
-    "persona_firstname": "Beatriz",
-    "persona_id": 2161,
-    "persona_lastname": "Paniagua"
-   }
-  ],
-  "categories": [
-   "Code speed optimization",
-   "Image",
-   "Images",
-   "Iterators",
-   "Neighborhood filters",
-   "Parallelization, SMP"
-  ],
-  "comments": [],
-  "date_submitted": "2017-07-06 10:03:58",
-  "handles": [
-   {
-    "handle": "10380/3574",
-    "handle_url": "http://hdl.handle.net/10380/3574"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 3,
-    "journal_name": "The Insight Journal"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 985,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "jb.vimort@kitware.com",
-   "author_firstname": "Jean-baptiste",
-   "author_fullname": "Vimort, Jean-baptiste",
-   "author_id": 10349,
-   "author_institution": "Kitware Inc.",
-   "author_lastname": "Vimort"
-  },
-  "tags": [
-   "ITK filter",
-   "Feature maps",
-   "Texture Features"
-  ],
-  "title": "Computing Textural Feature Maps for N-Dimensional images"
- }
+  "publication": {
+    "abstract": "This document describes a new remote module implemented for the Insight Toolkit ITK, itkTextureFeatures. This module contains two texture analysis filters that are used to compute feature maps of N-Dimensional images using two well-known texture analysis methods. The two filters contained in this module are itkScalarImageToTextureFeaturesImageFilter (which computes textural features based on intensity-based co-occurrence matrices in the image) and itkScalarImageToRunLengthFeaturesImageFilter (which computes textural features based on equally valued intensity clusters of different sizes or run lengths in the image). The output of this module is a vector image of the same size than the input that contains a multidimensional vector in each pixel/voxel. Filters can be configured based in the locality of the textural features (neighborhood size), offset directions for co-ocurrence and run length computation, the number of bins for the intensity histograms, the intensity range or the range of run lengths. This paper is accompanied with the source code, input data, parameters and output data that we have used for validating the algorithm described in this paper. This adheres to the fundamental principle that scientific publications must facilitate reproducibility of the reported results.",
+    "articles": [
+      "bafybeifz3xvn7yojwvftoo4xgijcfcgjqv2q6ly2luozvrwo5jgw5b7coe",
+      "bafybeifyhwm3sbdowtrxilvllycz4cyg66yfw63vsxen5s7p46zc2t65xm",
+      "bafybeif7ellx5rae4lnchwqb2sew6essbr76n6qe4cwhbu5ytuephxxuze",
+      "bafybeiezgarpdea5axa4sbvn32m5pimwu3luqtaljociaopsp5asyazgmu"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Budin, Francois",
+        "author_place": 3,
+        "persona_email": "fbudin@unc.edu",
+        "persona_firstname": "Francois",
+        "persona_id": 2586,
+        "persona_lastname": "Budin"
+      },
+      {
+        "author_fullname": "Vimort, Jean-Baptiste",
+        "author_place": 1,
+        "persona_email": "jb.vimort@kitware.com",
+        "persona_firstname": "Jean-baptiste",
+        "persona_id": 10349,
+        "persona_lastname": "Vimort"
+      },
+      {
+        "author_fullname": "McCormick, Matthew",
+        "author_place": 2,
+        "persona_email": "matthew.m.mccormick@gmail.com",
+        "persona_firstname": "Matthew",
+        "persona_id": 2509,
+        "persona_lastname": "Mccormick"
+      },
+      {
+        "author_fullname": "Paniagua, Beatriz",
+        "author_place": 4,
+        "persona_email": "beatriz_paniagua@dentistry.unc.edu",
+        "persona_firstname": "Beatriz",
+        "persona_id": 2161,
+        "persona_lastname": "Paniagua"
+      }
+    ],
+    "categories": [
+      "Code speed optimization",
+      "Image",
+      "Images",
+      "Iterators",
+      "Neighborhood filters",
+      "Parallelization, SMP"
+    ],
+    "comments": [],
+    "date_submitted": "2017-07-06 10:03:58",
+    "handles": [
+      {
+        "handle": "10380/3574",
+        "handle_url": "http://hdl.handle.net/10380/3574"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 3,
+        "journal_name": "The Insight Journal"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 985,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "jb.vimort@kitware.com",
+      "author_firstname": "Jean-baptiste",
+      "author_fullname": "Vimort, Jean-baptiste",
+      "author_id": 10349,
+      "author_institution": "Kitware Inc.",
+      "author_lastname": "Vimort"
+    },
+    "tags": [
+      "ITK filter",
+      "Feature maps",
+      "Texture Features"
+    ],
+    "title": "Computing Textural Feature Maps for N-Dimensional images"
+  }
 }

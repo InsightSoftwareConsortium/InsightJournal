@@ -1,75 +1,78 @@
 {
- "publication": {
-  "abstract": "In this paper, we validate our proposed segmentation algorithm called Bayesian-based adaptive mean-shift (BAMS) on real mul-timodal MR images provided by the MRBrainS challenge. BAMS is a fully automatic unsupervised segmentation algorithm. It is based on the adaptive mean shift wherein the adaptive bandwidth of the kernel for each feature point is estimated using our proposed Bayesian approach [1]. BAMS is designed to segment the brain into three tissues; white matter (WM), gray matter (GM) and cerebrospinal fluid (CSF). The performance of the algorithm is evaluated relative to the manual segmentation (ground truth). The results of our proposed algorithm show the average Dice index 0.8377\u00b10.036 for the WM, 0.7637\u00b10.038 for the GM and 0.6835 \u00b10.023 for the CSF.",
-  "authors": [
-   {
-    "author_fullname": "Mahmood, Qaiser",
-    "author_place": 2,
-    "persona_email": "qaiserm@chalmers.se",
-    "persona_firstname": "Qaiser",
-    "persona_id": 8781,
-    "persona_lastname": "Mahmood"
-   },
-   {
-    "author_fullname": "Alipoor, Mohammad",
-    "author_place": 3,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Chodorowski, Artur",
-    "author_place": 4,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Mehnert1, Andrew",
-    "author_place": 5,
-    "persona_id": null
-   },
-   {
-    "author_fullname": "Persson, Mikael",
-    "author_place": 6,
-    "persona_id": null
-   }
-  ],
-  "categories": [
-   "Segmentation",
-   "Unsupervised learning and clustering"
-  ],
-  "comments": [],
-  "date_submitted": "2013-10-28 17:20:42",
-  "handles": [
-   {
-    "handle": "10380/3446",
-    "handle_url": "http://hdl.handle.net/10380/3446"
-   }
-  ],
-  "identifiers": {
-   "doi": null,
-   "pubmed": null
-  },
-  "journals": [
-   {
-    "journal_id": 41,
-    "journal_name": "MICCAI 2013 Workshops"
-   }
-  ],
-  "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
-  "publication_id": 910,
-  "reviews": [],
-  "submitted_by_author": {
-   "author_email": "qaiserm@chalmers.se",
-   "author_firstname": "Qaiser",
-   "author_fullname": "Mahmood, Qaiser",
-   "author_id": 8781,
-   "author_institution": "chalmers",
-   "author_lastname": "Mahmood"
-  },
-  "tags": [
-   "MagneticResonance",
-   "meanshift",
-   "Bayesian",
-   "Brain Segmentation"
-  ],
-  "title": "Multimodal MR Brain Segmentation Using Bayesian-based Adaptive Mean-Shift (BAMS)"
- }
+  "publication": {
+    "abstract": "In this paper, we validate our proposed segmentation algorithm called Bayesian-based adaptive mean-shift (BAMS) on real mul-timodal MR images provided by the MRBrainS challenge. BAMS is a fully automatic unsupervised segmentation algorithm. It is based on the adaptive mean shift wherein the adaptive bandwidth of the kernel for each feature point is estimated using our proposed Bayesian approach [1]. BAMS is designed to segment the brain into three tissues; white matter (WM), gray matter (GM) and cerebrospinal fluid (CSF). The performance of the algorithm is evaluated relative to the manual segmentation (ground truth). The results of our proposed algorithm show the average Dice index 0.8377\u00b10.036 for the WM, 0.7637\u00b10.038 for the GM and 0.6835 \u00b10.023 for the CSF.",
+    "articles": [
+      "bafybeihdgh67cqjyvl63sdgewydnafzfuqe7vcm7ws2vwqvxpug4md5wvq"
+    ],
+    "authors": [
+      {
+        "author_fullname": "Mahmood, Qaiser",
+        "author_place": 2,
+        "persona_email": "qaiserm@chalmers.se",
+        "persona_firstname": "Qaiser",
+        "persona_id": 8781,
+        "persona_lastname": "Mahmood"
+      },
+      {
+        "author_fullname": "Alipoor, Mohammad",
+        "author_place": 3,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Chodorowski, Artur",
+        "author_place": 4,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Mehnert1, Andrew",
+        "author_place": 5,
+        "persona_id": null
+      },
+      {
+        "author_fullname": "Persson, Mikael",
+        "author_place": 6,
+        "persona_id": null
+      }
+    ],
+    "categories": [
+      "Segmentation",
+      "Unsupervised learning and clustering"
+    ],
+    "comments": [],
+    "date_submitted": "2013-10-28 17:20:42",
+    "handles": [
+      {
+        "handle": "10380/3446",
+        "handle_url": "http://hdl.handle.net/10380/3446"
+      }
+    ],
+    "identifiers": {
+      "doi": null,
+      "pubmed": null
+    },
+    "journals": [
+      {
+        "journal_id": 41,
+        "journal_name": "MICCAI 2013 Workshops"
+      }
+    ],
+    "license": "You are licensing your work to Kitware Inc. under the\nCreative Commons Attribution License Version 3.0.\n\nKitware Inc. agrees to the following:\n\nKitware is free\n * to copy, distribute, display, and perform the work\n * to make derivative works\n * to make commercial use of the work\n\nUnder the following conditions:\n\\\"by Attribution\\\" - Kitware must attribute the work in the manner specified by the author or licensor.\n\n * For any reuse or distribution, they must make clear to others the license terms of this work.\n * Any of these conditions can be waived if they get permission from the copyright holder.\n\nYour fair use and other rights are in no way affected by the above.\n\nThis is a human-readable summary of the Legal Code (the full license) available at\nhttp://creativecommons.org/licenses/by/3.0/legalcode",
+    "publication_id": 910,
+    "reviews": [],
+    "submitted_by_author": {
+      "author_email": "qaiserm@chalmers.se",
+      "author_firstname": "Qaiser",
+      "author_fullname": "Mahmood, Qaiser",
+      "author_id": 8781,
+      "author_institution": "chalmers",
+      "author_lastname": "Mahmood"
+    },
+    "tags": [
+      "MagneticResonance",
+      "meanshift",
+      "Bayesian",
+      "Brain Segmentation"
+    ],
+    "title": "Multimodal MR Brain Segmentation Using Bayesian-based Adaptive Mean-Shift (BAMS)"
+  }
 }
