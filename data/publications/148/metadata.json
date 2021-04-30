@@ -20,16 +20,6 @@
     "categories": [],
     "comments": [],
     "date_submitted": "2007-04-06T09:04:10Z",
-    "handles": [
-      {
-        "handle": "1926/498",
-        "handle_url": "http://hdl.handle.net/1926/498"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 3,
@@ -51,6 +41,18 @@
         "review_id": 538
       }
     ],
+    "revisions": [
+      {
+        "article": null,
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "1926/498",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "stefan@stereofx.org",
       "author_firstname": "Stefan",

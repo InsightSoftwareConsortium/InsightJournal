@@ -78,20 +78,6 @@
     "categories": [],
     "comments": [],
     "date_submitted": "2005-07-30T18:34:04Z",
-    "handles": [
-      {
-        "handle": "/3163",
-        "handle_url": "http://hdl.handle.net//3163"
-      },
-      {
-        "handle": "1926/19",
-        "handle_url": "http://hdl.handle.net/1926/19"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 3,
@@ -124,6 +110,27 @@
         "review_id": 56
       }
     ],
+    "revisions": [
+      {
+        "article": "bafkreicdkbmded2rxo7z2xrsozooyhbwl6ejx7hwmwdpmxqbgfrfewh6cy",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "/3163",
+        "source_code": null,
+        "source_code_git_ref": null
+      },
+      {
+        "article": "bafkreicdkbmded2rxo7z2xrsozooyhbwl6ejx7hwmwdpmxqbgfrfewh6cy",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "1926/19",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "blakeb@cs.georgetown.edu",
       "author_firstname": "M. brian",

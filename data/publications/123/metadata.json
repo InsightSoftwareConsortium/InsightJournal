@@ -50,16 +50,6 @@
     ],
     "comments": [],
     "date_submitted": "2006-09-16T09:55:22Z",
-    "handles": [
-      {
-        "handle": "1926/307",
-        "handle_url": "http://hdl.handle.net/1926/307"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 3,
@@ -92,6 +82,18 @@
         "review_id": 387
       }
     ],
+    "revisions": [
+      {
+        "article": "bafkreidewicohpg7ydw5nddokyi4vmntbsqcq46fyysf5ko43zazil26ri",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "1926/307",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "rdstau@wm.edu",
       "author_firstname": "Robert",

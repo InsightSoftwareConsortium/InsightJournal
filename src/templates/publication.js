@@ -92,9 +92,9 @@ const Render = ({ data, pageContext }) => {
   const nextLink = pageContext.next_id ? `/browse/publication/${pageContext.next_id}` : `/browse/publication/${publication.publication_id}`
 
   let citeLink = ""
-  if (publication.handles && publication.handles.length) {
-    const numHandles = publication.handles.length
-    const handleURL = publication.handles[numHandles-1].handle_url
+  if (publication.revisions && publication.revisions.length) {
+    const numHandles = publication.revisions.length
+    const handleURL = `http://hdl.handle.net/${publication.revisions[numHandles-1].handle}`
     citeLink = <Typography variant="subtitle1" align="center">Please use this identifier to cite or link to this publication: <MuiLink href={handleURL}>{handleURL}</MuiLink></Typography>
   }
 
@@ -157,8 +157,8 @@ export const query = graphql`
           author_lastname
         }
         publication_id
-        handles {
-          handle_url
+        revisions {
+          handle
         }
         categories
         comments {

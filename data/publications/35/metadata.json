@@ -41,16 +41,6 @@
     "categories": [],
     "comments": [],
     "date_submitted": "2005-08-05T21:08:11Z",
-    "handles": [
-      {
-        "handle": "1926/44",
-        "handle_url": "http://hdl.handle.net/1926/44"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 3,
@@ -83,6 +73,18 @@
         "review_id": 85
       }
     ],
+    "revisions": [
+      {
+        "article": "bafybeia424m3a6x3gibwumo4c45csfpzpwpmj5u5gjhwxjgg5cze2y53cu",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "1926/44",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "jmelonak@ece.gatech.edu",
       "author_firstname": "John",

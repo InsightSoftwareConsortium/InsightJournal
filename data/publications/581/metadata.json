@@ -58,16 +58,6 @@
     ],
     "comments": [],
     "date_submitted": "2008-07-06T16:33:21Z",
-    "handles": [
-      {
-        "handle": "10380/1407",
-        "handle_url": "http://hdl.handle.net/10380/1407"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 45,
@@ -93,6 +83,18 @@
         "review_id": 1523
       }
     ],
+    "revisions": [
+      {
+        "article": "bafkreifccuomipbsqwayshzra7adf3lpk2i76szb6fwphskkdxd44jmbzi",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "10380/1407",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "dirk.smeets@gmail.com",
       "author_firstname": "Dirk",

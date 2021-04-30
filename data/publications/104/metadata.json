@@ -30,16 +30,6 @@
     "categories": [],
     "comments": [],
     "date_submitted": "2006-07-07T15:02:03Z",
-    "handles": [
-      {
-        "handle": "1926/214",
-        "handle_url": "http://hdl.handle.net/1926/214"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 3,
@@ -83,6 +73,18 @@
         "review_id": 358
       }
     ],
+    "revisions": [
+      {
+        "article": "bafybeifzunmkiuabzkw74nydzquaxgajhoboqpoodbfbaskf2vlgwd3l24",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "1926/214",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "b.m.terhaarromeny@tue.nl",
       "author_firstname": "Bart",

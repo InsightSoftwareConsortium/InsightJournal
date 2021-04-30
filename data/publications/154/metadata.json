@@ -59,16 +59,6 @@
       }
     ],
     "date_submitted": "2008-11-24 07:54:09",
-    "handles": [
-      {
-        "handle": "1926/510",
-        "handle_url": "http://hdl.handle.net/1926/510"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 3,
@@ -101,6 +91,18 @@
         "review_id": 561
       }
     ],
+    "revisions": [
+      {
+        "article": "bafkreibxaqfe2hwmgjuuc4nadjfkyk7fxj7ewd4nxhmru4jpcm7plg2nlu",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "1926/510",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "tom.vercauteren@gmail.com",
       "author_firstname": "Tom",

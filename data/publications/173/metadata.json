@@ -62,16 +62,6 @@
       }
     ],
     "date_submitted": "2007-07-17T18:44:11Z",
-    "handles": [
-      {
-        "handle": "1926/568",
-        "handle_url": "http://hdl.handle.net/1926/568"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 3,
@@ -104,6 +94,18 @@
         "review_id": 638
       }
     ],
+    "revisions": [
+      {
+        "article": "bafybeie5c7sfln3jo3dpgf2zfeha5e4c5xvwuwwbyieltjyhuexgy6cx6u",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "1926/568",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "serdar@csail.mit.edu",
       "author_firstname": "Serdar",

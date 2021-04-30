@@ -19,16 +19,6 @@
     "categories": [],
     "comments": [],
     "date_submitted": "2008-05-18T18:30:46Z",
-    "handles": [
-      {
-        "handle": "10380/1357",
-        "handle_url": "http://hdl.handle.net/10380/1357"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 33,
@@ -50,6 +40,18 @@
         "review_id": 1481
       }
     ],
+    "revisions": [
+      {
+        "article": "bafybeiam62mzlks2t2k2schuolnlehvvyevka2gfey3hiutgvchrna5pqq",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "10380/1357",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "p.pratt@imperial.ac.uk",
       "author_firstname": "Philip",

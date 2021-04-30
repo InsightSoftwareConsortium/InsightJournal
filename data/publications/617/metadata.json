@@ -51,16 +51,6 @@
     ],
     "comments": [],
     "date_submitted": "2008-07-01T00:00:00Z",
-    "handles": [
-      {
-        "handle": "10380/1458",
-        "handle_url": "http://hdl.handle.net/10380/1458"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 40,
@@ -97,6 +87,18 @@
         "review_id": 1543
       }
     ],
+    "revisions": [
+      {
+        "article": "bafybeiae3iepi534eaxfmz47ejookp7yzxkvlqjgzgpzgsu3neekeqrk6q",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "10380/1458",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "pierre.seroul@gmail.com",
       "author_firstname": "Pierre",

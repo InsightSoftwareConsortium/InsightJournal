@@ -65,16 +65,6 @@
     ],
     "comments": [],
     "date_submitted": "2008-05-30T20:57:31Z",
-    "handles": [
-      {
-        "handle": "10380/1378",
-        "handle_url": "http://hdl.handle.net/10380/1378"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 33,
@@ -107,6 +97,18 @@
         "review_id": 1491
       }
     ],
+    "revisions": [
+      {
+        "article": "bafybeigqopxdphky5g2z7ahwqfipcsc7qsceqenpksk36mrtcobv6eohm4",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "10380/1378",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "florence.billet@sophia.inria.fr",
       "author_firstname": "Florence",

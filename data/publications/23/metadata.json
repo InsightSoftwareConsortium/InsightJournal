@@ -27,28 +27,6 @@
     "categories": [],
     "comments": [],
     "date_submitted": "2005-07-30T18:07:06Z",
-    "handles": [
-      {
-        "handle": "1926/537",
-        "handle_url": "http://hdl.handle.net/1926/537"
-      },
-      {
-        "handle": "1926/18",
-        "handle_url": "http://hdl.handle.net/1926/18"
-      },
-      {
-        "handle": "/3134",
-        "handle_url": "http://hdl.handle.net//3134"
-      },
-      {
-        "handle": "1926/554",
-        "handle_url": "http://hdl.handle.net/1926/554"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 3,
@@ -92,6 +70,45 @@
         "review_id": 106
       }
     ],
+    "revisions": [
+      {
+        "article": "bafkreiaxay4gfsvi6xdpiach3l6utb46erkofb2dgc4bjlenfymgzglcum",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "1926/537",
+        "source_code": null,
+        "source_code_git_ref": null
+      },
+      {
+        "article": "bafkreiaxay4gfsvi6xdpiach3l6utb46erkofb2dgc4bjlenfymgzglcum",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "1926/18",
+        "source_code": null,
+        "source_code_git_ref": null
+      },
+      {
+        "article": "bafkreiaxay4gfsvi6xdpiach3l6utb46erkofb2dgc4bjlenfymgzglcum",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "/3134",
+        "source_code": null,
+        "source_code_git_ref": null
+      },
+      {
+        "article": "bafkreiaxay4gfsvi6xdpiach3l6utb46erkofb2dgc4bjlenfymgzglcum",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "1926/554",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "marietta.scott@manchester.ac.uk",
       "author_firstname": "Marietta",

@@ -31,16 +31,6 @@
       }
     ],
     "date_submitted": "2006-08-23T21:40:15Z",
-    "handles": [
-      {
-        "handle": "1926/304",
-        "handle_url": "http://hdl.handle.net/1926/304"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 3,
@@ -117,6 +107,18 @@
         "review_id": 406
       }
     ],
+    "revisions": [
+      {
+        "article": "bafkreiahv3du6wjdbbkjfen3fm7qkllrft3mx3ufmmzack73a6cao7qaxe",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "1926/304",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "lamy@unistra.fr",
       "author_firstname": "Julien",

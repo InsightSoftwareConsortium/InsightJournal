@@ -38,16 +38,6 @@
     "categories": [],
     "comments": [],
     "date_submitted": "2007-07-16T04:51:54Z",
-    "handles": [
-      {
-        "handle": "1926/565",
-        "handle_url": "http://hdl.handle.net/1926/565"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 3,
@@ -113,6 +103,18 @@
         "review_id": 571
       }
     ],
+    "revisions": [
+      {
+        "article": "bafybeighpmwdgt3l223qjb75nsi2qjq3elgqwdxcffexicwbjwzjxp52pu",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "1926/565",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "agouaillard@gmail.com",
       "author_firstname": "Alexandre",

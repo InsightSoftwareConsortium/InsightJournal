@@ -69,16 +69,6 @@
     ],
     "comments": [],
     "date_submitted": "2008-05-01T00:00:00Z",
-    "handles": [
-      {
-        "handle": "10380/1371",
-        "handle_url": "http://hdl.handle.net/10380/1371"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 33,
@@ -111,6 +101,18 @@
         "review_id": 1493
       }
     ],
+    "revisions": [
+      {
+        "article": "bafybeiee5rig5ciwcviwqzcbp2n3fvupc7wwzkyzw6tgfmrdy2plma32ua",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "10380/1371",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "a.becciu@tue.nl",
       "author_firstname": "Alessandro",

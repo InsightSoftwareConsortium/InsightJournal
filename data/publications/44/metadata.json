@@ -33,16 +33,6 @@
     "categories": [],
     "comments": [],
     "date_submitted": "2005-08-05T13:26:52Z",
-    "handles": [
-      {
-        "handle": "1926/34",
-        "handle_url": "http://hdl.handle.net/1926/34"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 3,
@@ -97,6 +87,18 @@
         "review_id": 64
       }
     ],
+    "revisions": [
+      {
+        "article": "bafybeihgbdjmewbbh6au55ama3uyc5s6e4lttnlvfxsdgqwnxnfkqrybci",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "1926/34",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "sporring@diku.dk",
       "author_firstname": "Jon",

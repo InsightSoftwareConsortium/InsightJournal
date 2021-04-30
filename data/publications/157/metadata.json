@@ -56,16 +56,6 @@
     ],
     "comments": [],
     "date_submitted": "2007-06-29T15:37:05Z",
-    "handles": [
-      {
-        "handle": "1926/550",
-        "handle_url": "http://hdl.handle.net/1926/550"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 3,
@@ -120,6 +110,18 @@
         "review_id": 498
       }
     ],
+    "revisions": [
+      {
+        "article": "bafkreibfbkx7xqdqejxabwajdyhiju2ux5wa6atymqhwhmojd6o6c3mhve",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "1926/550",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "l.najman@esiee.fr",
       "author_firstname": "Laurent ",

@@ -41,16 +41,6 @@
     ],
     "comments": [],
     "date_submitted": "2008-07-07T16:21:28Z",
-    "handles": [
-      {
-        "handle": "10380/1415",
-        "handle_url": "http://hdl.handle.net/10380/1415"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 45,
@@ -76,6 +66,18 @@
         "review_id": 1521
       }
     ],
+    "revisions": [
+      {
+        "article": "bafybeiacpnb7jzjbikw347r7s6hshhgw3mwv7yjsuoro3jitcoksp57664",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "10380/1415",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "jkim@definiens.com",
       "author_firstname": "Johann",

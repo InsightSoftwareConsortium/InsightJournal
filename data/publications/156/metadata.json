@@ -41,16 +41,6 @@
     ],
     "comments": [],
     "date_submitted": "2006-11-29",
-    "handles": [
-      {
-        "handle": "1926/549",
-        "handle_url": "http://hdl.handle.net/1926/549"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 3,
@@ -94,6 +84,18 @@
         "review_id": 565
       }
     ],
+    "revisions": [
+      {
+        "article": "bafkreiavt75zrvgdhnn4ngnhoes4cm4sczoxezobbr3yu5yio5qrxr4hei",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "1926/549",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "esuarez@itccanarias.org",
       "author_firstname": "Eduardo",

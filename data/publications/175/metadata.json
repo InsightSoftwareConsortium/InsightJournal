@@ -36,16 +36,6 @@
     ],
     "comments": [],
     "date_submitted": "2007-08-03T12:38:37Z",
-    "handles": [
-      {
-        "handle": "1926/576",
-        "handle_url": "http://hdl.handle.net/1926/576"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 3,
@@ -67,6 +57,18 @@
         "review_id": 590
       }
     ],
+    "revisions": [
+      {
+        "article": "bafybeiejdg2mpi3kgjmuwt2ljvgyqb6lyhjyr7zfnd7qgy6jbr4avmovw4",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "1926/576",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "luca.antiga@gmail.com",
       "author_firstname": "Luca",

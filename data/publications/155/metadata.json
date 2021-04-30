@@ -36,16 +36,6 @@
     "categories": [],
     "comments": [],
     "date_submitted": "2007-06-13",
-    "handles": [
-      {
-        "handle": "1926/544",
-        "handle_url": "http://hdl.handle.net/1926/544"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 3,
@@ -78,6 +68,18 @@
         "review_id": 515
       }
     ],
+    "revisions": [
+      {
+        "article": "bafybeidvrko7gvcg7iwbf7rbqahpc5akoqoixcmezzjg2exh4ls7qyua5q",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "1926/544",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "yi.gao@gatech.edu",
       "author_firstname": "Yi",

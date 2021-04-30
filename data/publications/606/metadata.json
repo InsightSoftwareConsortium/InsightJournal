@@ -31,16 +31,6 @@
     "categories": [],
     "comments": [],
     "date_submitted": "2008-07-14T19:51:35Z",
-    "handles": [
-      {
-        "handle": "10380/1445",
-        "handle_url": "http://hdl.handle.net/10380/1445"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 44,
@@ -77,6 +67,18 @@
         "review_id": 1542
       }
     ],
+    "revisions": [
+      {
+        "article": "bafybeibi27bfukogijhkea3r7hu2vvan52qczkophwibaheopvhkotvyfa",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "10380/1445",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "dgarcia@irisa.fr",
       "author_firstname": "Daniel",

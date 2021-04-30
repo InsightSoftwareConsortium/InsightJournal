@@ -45,16 +45,6 @@
     ],
     "comments": [],
     "date_submitted": "2008-05-20T02:05:02Z",
-    "handles": [
-      {
-        "handle": "10380/1359",
-        "handle_url": "http://hdl.handle.net/10380/1359"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 33,
@@ -76,6 +66,18 @@
         "review_id": 1501
       }
     ],
+    "revisions": [
+      {
+        "article": null,
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "10380/1359",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "bummo@kaist.ac.kr",
       "author_firstname": "Bummo",

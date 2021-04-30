@@ -19,16 +19,6 @@
     ],
     "comments": [],
     "date_submitted": "2005-11-24T14:39:05Z",
-    "handles": [
-      {
-        "handle": "1926/146",
-        "handle_url": "http://hdl.handle.net/1926/146"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 3,
@@ -61,6 +51,18 @@
         "review_id": 178
       }
     ],
+    "revisions": [
+      {
+        "article": "bafkreieny2yog7z3qvqdyogszgafemmh5o5icwrzvpbvgz33k77atxebiq",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "1926/146",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "gaetan.lehmann@gmail.com",
       "author_firstname": "Gaetan",

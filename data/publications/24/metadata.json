@@ -30,24 +30,6 @@
     "categories": [],
     "comments": [],
     "date_submitted": "2005-08-03T16:33:51Z",
-    "handles": [
-      {
-        "handle": "/3507",
-        "handle_url": "http://hdl.handle.net//3507"
-      },
-      {
-        "handle": "1926/29",
-        "handle_url": "http://hdl.handle.net/1926/29"
-      },
-      {
-        "handle": "/3477",
-        "handle_url": "http://hdl.handle.net//3477"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 3,
@@ -80,6 +62,36 @@
         "review_id": 54
       }
     ],
+    "revisions": [
+      {
+        "article": "bafkreiervwid5tf6ts2n5xdtevfl2krcs3ce6ctzfx47ajez5uqe6ls6ta",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "/3507",
+        "source_code": null,
+        "source_code_git_ref": null
+      },
+      {
+        "article": "bafkreiervwid5tf6ts2n5xdtevfl2krcs3ce6ctzfx47ajez5uqe6ls6ta",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "1926/29",
+        "source_code": null,
+        "source_code_git_ref": null
+      },
+      {
+        "article": "bafkreiervwid5tf6ts2n5xdtevfl2krcs3ce6ctzfx47ajez5uqe6ls6ta",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "/3477",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "tolga@sci.utah.edu",
       "author_firstname": "Tolga",

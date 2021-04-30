@@ -38,16 +38,6 @@
     "categories": [],
     "comments": [],
     "date_submitted": "2005-08-06T01:41:59Z",
-    "handles": [
-      {
-        "handle": "1926/49",
-        "handle_url": "http://hdl.handle.net/1926/49"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 3,
@@ -80,6 +70,18 @@
         "review_id": 95
       }
     ],
+    "revisions": [
+      {
+        "article": "bafkreic5yr2afol3rnwuwbety4iy2oy6xvfkiwelh43ciev46lhrhik4y4",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "1926/49",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "blloyd@ee.ethz.ch",
       "author_firstname": "Bryn",

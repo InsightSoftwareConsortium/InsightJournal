@@ -22,16 +22,6 @@
     "categories": [],
     "comments": [],
     "date_submitted": "2007-10-12T18:51:54Z",
-    "handles": [
-      {
-        "handle": "1926/1293",
-        "handle_url": "http://hdl.handle.net/1926/1293"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 3,
@@ -53,6 +43,18 @@
         "review_id": 594
       }
     ],
+    "revisions": [
+      {
+        "article": "bafkreiebtguqh2acbu3eizhsefxqigdmmvrcuuatol65njvb4xizdyidqq",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "1926/1293",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "rupert.brooks@gmail.com",
       "author_firstname": "Rupert",

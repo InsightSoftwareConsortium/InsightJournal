@@ -55,7 +55,7 @@ export default function Citation({ publication, journalTitle}) {
 ${publication.abstract}
 </AbstractText></Abstract>`)
 
-    citData.push(`<Location>${publication.handles[publication.handles.length-1].handle_url}</Location>`)
+    citData.push(`<Location>http://hdl.handle.net/${publication.revisions[publication.revisions.length-1].handle}</Location>`)
     citData.push(`<Year>${submission_date.getFullYear()}</Year>`)
     citData.push(`<Month>${('0' + (submission_date.getMonth()+1)).slice(-2)}</Month>`)
     if(publication.submitted_by_author) {
@@ -87,7 +87,7 @@ ${publication.abstract}
   const generateTextCitation = (publication) => {
     citString = `${text_names.join(", ")} "${publication.title}". ${journalTitle}. `;
     citString += `${submission_date.getFullYear()} ${submission_date.toLocaleString('default', { month: 'short' })}. `;
-    citString += `${publication.handles[publication.handles.length-1].handle_url}`;
+    citString += `http://hdl.handle.net/${publication.revisions[publication.revisions.length-1].handle}`;
   };
   const generateBibTextCitation = (publication) => {
 
@@ -96,7 +96,7 @@ ${publication.abstract}
     citData.push(`@Article{${last_names.join("+")}${submission_date.getFullYear()}`)
     citData.push(`Authors = "${bibtext_names.join(" and ")}",`)
     citData.push(`Title = "${publication.title}",`)
-    citData.push(`howpublished = "\\url{${publication.handles[publication.handles.length-1].handle_url}}",`)
+    citData.push(`howpublished = "\\url{http://hdl.handle.net/${publication.revisions[publication.revisions.length-1].handle}}",`)
     citData.push(`Year = ${submission_date.getFullYear()},`)
     citData.push(`Month = ${('0' + (submission_date.getMonth()+1)).slice(-2)},`)
     citData.push(`Abstract = "${publication.abstract}",`)

@@ -33,16 +33,6 @@
     ],
     "comments": [],
     "date_submitted": "2013-03-15 10:39:39",
-    "handles": [
-      {
-        "handle": "1926/1493",
-        "handle_url": "http://hdl.handle.net/1926/1493"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 3,
@@ -86,6 +76,18 @@
         "review_id": 750
       }
     ],
+    "revisions": [
+      {
+        "article": "bafkreiafpsgumdsxx6zcnshbthwuirmzkl5auhovsbr3fwhz6pwokyvkoe",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "1926/1493",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "padfield@research.ge.com",
       "author_firstname": "Dirk",

@@ -72,16 +72,6 @@
     ],
     "comments": [],
     "date_submitted": "2008-07-08",
-    "handles": [
-      {
-        "handle": "10380/1428",
-        "handle_url": "http://hdl.handle.net/10380/1428"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 45,
@@ -107,6 +97,18 @@
         "review_id": 1524
       }
     ],
+    "revisions": [
+      {
+        "article": "bafybeiejbiydz5jkkb5oxwqgvyi2gvtiyvnxumviqvepp4l4n56ocg7smy",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "10380/1428",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "wkwong@i2r.a-star.edu.sg",
       "author_firstname": "Damon",

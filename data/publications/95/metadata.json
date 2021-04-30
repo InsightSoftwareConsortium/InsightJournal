@@ -53,16 +53,6 @@
     "categories": [],
     "comments": [],
     "date_submitted": "2006-06-30T21:46:33Z",
-    "handles": [
-      {
-        "handle": "1926/209",
-        "handle_url": "http://hdl.handle.net/1926/209"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 3,
@@ -117,6 +107,18 @@
         "review_id": 311
       }
     ],
+    "revisions": [
+      {
+        "article": "bafybeiav2h2h5tszdb4flfwbac3pvffp67gz3ome564tbfyvlorqwdpzhe",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "1926/209",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "xenophon.papademetris@yale.edu",
       "author_firstname": "Xenophon",

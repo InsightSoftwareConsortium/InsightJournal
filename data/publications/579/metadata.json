@@ -45,16 +45,6 @@
     ],
     "comments": [],
     "date_submitted": "2008-07-06T04:29:59Z",
-    "handles": [
-      {
-        "handle": "10380/1405",
-        "handle_url": "http://hdl.handle.net/10380/1405"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 45,
@@ -80,6 +70,18 @@
         "review_id": 1526
       }
     ],
+    "revisions": [
+      {
+        "article": "bafybeigv5auhz6epgl6ud4mgejp6iskv7r7taks2phfujooqndn2lnymgq",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "10380/1405",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "freiman@cs.huji.ac.il",
       "author_firstname": "Moti",

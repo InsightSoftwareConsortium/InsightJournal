@@ -38,16 +38,6 @@
     ],
     "comments": [],
     "date_submitted": "2008-07-15T06:39:12Z",
-    "handles": [
-      {
-        "handle": "10380/1450",
-        "handle_url": "http://hdl.handle.net/10380/1450"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 44,
@@ -84,6 +74,18 @@
         "review_id": 1528
       }
     ],
+    "revisions": [
+      {
+        "article": "bafybeibjidippbfftzhjunjzsuz26azytsfpdrnlrvrah76a7ug3wynnmy",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "10380/1450",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "bricq@lsiit.u-strasbg.fr",
       "author_firstname": "Stephanie",

@@ -39,16 +39,6 @@
     "categories": [],
     "comments": [],
     "date_submitted": "2008-05-31",
-    "handles": [
-      {
-        "handle": "10380/1379",
-        "handle_url": "http://hdl.handle.net/10380/1379"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 33,
@@ -81,6 +71,18 @@
         "review_id": 1499
       }
     ],
+    "revisions": [
+      {
+        "article": "bafybeictxuj6tfgdn2mqte5rzdgnoymkvw6qpj4nfd3zdfwlisrnc2j5nu",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "10380/1379",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "peter.hammer@childrens.harvard.edu",
       "author_firstname": "Peter",

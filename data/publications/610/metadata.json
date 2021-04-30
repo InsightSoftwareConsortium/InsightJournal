@@ -48,16 +48,6 @@
     ],
     "comments": [],
     "date_submitted": "2008-07-14T21:00:48Z",
-    "handles": [
-      {
-        "handle": "10380/1448",
-        "handle_url": "http://hdl.handle.net/10380/1448"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 44,
@@ -94,6 +84,18 @@
         "review_id": 1539
       }
     ],
+    "revisions": [
+      {
+        "article": "bafkreiesyjhyrxjup73qki53lov3ff2zsr7dskddpryiefbud2re2mbvlu",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "10380/1448",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "p.anbeek@umcutrecht.nl",
       "author_firstname": "Petronella",

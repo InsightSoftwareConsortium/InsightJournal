@@ -17,16 +17,6 @@
     "categories": [],
     "comments": [],
     "date_submitted": "2006-10-22T20:29:07Z",
-    "handles": [
-      {
-        "handle": "1926/326",
-        "handle_url": "http://hdl.handle.net/1926/326"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 3,
@@ -81,6 +71,18 @@
         "review_id": 437
       }
     ],
+    "revisions": [
+      {
+        "article": null,
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "1926/326",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "simon.warfield@childrens.harvard.edu",
       "author_firstname": "Simon",
