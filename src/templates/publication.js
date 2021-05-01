@@ -16,6 +16,11 @@ import NavigateNextIcon from '@material-ui/icons/NavigateNext';
 import Button from '@material-ui/core/Button';
 import Tooltip from '@material-ui/core/Tooltip';
 import Fade from '@material-ui/core/Fade';
+import Tab from '@material-ui/core/Tab';
+import TabList from '@material-ui/lab/TabList';
+import TabPanel from '@material-ui/lab/TabPanel';
+import TabContext from '@material-ui/lab/TabContext';
+import LinearProgress from '@material-ui/core/LinearProgress';
 
 const useStyles = makeStyles({
   pubTitle: {
@@ -24,6 +29,9 @@ const useStyles = makeStyles({
     paddingBottom:"10px",
   },
   journal: {
+    paddingTop:"10px",
+  },
+  loading: {
     paddingTop:"10px",
   },
   submittedBy: {
@@ -107,33 +115,47 @@ const Render = ({ data, pageContext }) => {
     })
   }
 
+  const [tab, setTab] = React.useState('1');
+  const handleTabChange = (event, newValue) => {
+    console.log(event, newValue)
+    setTab(newValue)
+  }
+
+  const [articleContent, setArticleContent] = React.useState(<><Typography m={2}>Loading...</Typography><LinearProgress color="secondary" /></>)
+  const loadArticle = () => {
+  }
 
   return (
     <>
-      <ThemeProvider theme={theme}>
-        <Layout>
-	<Box component="div"  id="publication">
-	  <Box component="div"  className={classes.pubTitle}>
-	    <Typography variant="h4" component="h1" align="center" color="primary.main">{publication.title}</Typography></Box>
+    <ThemeProvider theme={theme}>
+      <Layout>
+      <Box component="div"  id="publication">
+        <Box component="div"  className={classes.pubTitle}><Typography variant="h4" component="h1" align="center" color="primary.main">{publication.title}</Typography></Box>
 
-	<Box component="div" color="secondary.main" className={classes.authors}>{ordered_authors.join(", ")}</Box>
-    <Box component="div" color="secondary.main" className={classes.institution}><Typography variant="caption">{submit_inst}</Typography></Box>
-
-	<center>{coverImage}</center>
-	<br/>
+        <Box component="div" color="secondary.main" className={classes.authors}>{ordered_authors.join(", ")}</Box>
+        <Box component="div" color="secondary.main" className={classes.institution}><Typography variant="caption">{submit_inst}</Typography></Box>
+        <center>{coverImage}</center>
+        <br/>
         {citeLink}
-  <Box component="div" className={classes.journal}><Typography variant="subtitle2"><PublicationsIcon />{' '}Published in <Link to="/">{data.site.siteMetadata.title}</Link>{issueLinks}.</Typography></Box>
-	<Box component="div" className={classes.submittedBy} color="error">Submitted by {submit_auth} on {publication.date_submitted}.</Box>
-        <Typography variant="body1">{publication.abstract}</Typography>
-	</Box>
-  <br/>
-  <Citation publication={publication} journalTitle={data.site.siteMetadata.title}/>
-        <Box align="right" className={classes.prevNext}>
-          <Tooltip title="Previous publication" placement="top" TransitionComponent={Fade} TransitionProps={{ timeout: 400 }}><Link to={previousLink}><Button disabled={pageContext.prev_id === null}><NavigateBeforeIcon fontSize="large"/></Button></Link></Tooltip>
-          <Tooltip title="Next publication" placement="top" TransitionComponent={Fade} TransitionProps={{ timeout: 400 }}><Link to={nextLink}><Button disabled={pageContext.next_id === null}><NavigateNextIcon fontSize="large"/></Button></Link></Tooltip>
-        </Box>
-        </Layout>
-      </ThemeProvider>
+        <Box component="div" className={classes.journal}><Typography variant="subtitle2"><PublicationsIcon />{' '}Published in <Link to="/">{data.site.siteMetadata.title}</Link>{issueLinks}.</Typography></Box>
+        <Box component="div" className={classes.submittedBy} color="error">Submitted by {submit_auth} on {publication.date_submitted}.</Box>
+        <TabContext value={tab}>
+          <TabList indicatorColor="primary" textColor="primary" aria-label="publication component" onChange={handleTabChange}>
+            <Tab label="Abstract" value="1" />
+            <Tab label="Article" value="2" />
+          </TabList>
+          <TabPanel value="1"><Typography variant="body1">{publication.abstract}</Typography></TabPanel>
+          <TabPanel value="2">{articleContent}</TabPanel>
+        </TabContext>
+      </Box>
+<br/>
+<Citation publication={publication} journalTitle={data.site.siteMetadata.title}/>
+      <Box align="right" className={classes.prevNext}>
+        <Tooltip title="Previous publication" placement="top" TransitionComponent={Fade} TransitionProps={{ timeout: 400 }}><Link to={previousLink}><Button disabled={pageContext.prev_id === null}><NavigateBeforeIcon fontSize="large"/></Button></Link></Tooltip>
+        <Tooltip title="Next publication" placement="top" TransitionComponent={Fade} TransitionProps={{ timeout: 400 }}><Link to={nextLink}><Button disabled={pageContext.next_id === null}><NavigateNextIcon fontSize="large"/></Button></Link></Tooltip>
+      </Box>
+      </Layout>
+    </ThemeProvider>
     </>
   );
 };
