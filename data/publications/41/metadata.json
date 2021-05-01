@@ -48,16 +48,6 @@
     "categories": [],
     "comments": [],
     "date_submitted": "2005-08-05T22:14:26Z",
-    "handles": [
-      {
-        "handle": "1926/46",
-        "handle_url": "http://hdl.handle.net/1926/46"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 3,
@@ -90,6 +80,18 @@
         "review_id": 116
       }
     ],
+    "revisions": [
+      {
+        "article": "bafybeiglz5tvanxg56cjzlvrndi25fcaq26wxde42oklekod5djdshwkhu",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "1926/46",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "pkaz@cs.jhu.edu",
       "author_firstname": "Peter",

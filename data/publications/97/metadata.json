@@ -51,16 +51,6 @@
     "categories": [],
     "comments": [],
     "date_submitted": "2006-06-30T20:32:40Z",
-    "handles": [
-      {
-        "handle": "1926/207",
-        "handle_url": "http://hdl.handle.net/1926/207"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 3,
@@ -137,6 +127,18 @@
         "review_id": 298
       }
     ],
+    "revisions": [
+      {
+        "article": "bafybeif3zxyn2iigpu35r6c6xct656zus7cuc3d5qyfih5iw4pljms5ycq",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "1926/207",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "samset@bwh.harvard.edu",
       "author_firstname": "Eigil",

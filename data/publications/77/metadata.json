@@ -30,20 +30,6 @@
     "categories": [],
     "comments": [],
     "date_submitted": "2003-08",
-    "handles": [
-      {
-        "handle": "1926/171",
-        "handle_url": "http://hdl.handle.net/1926/171"
-      },
-      {
-        "handle": "10380/3120",
-        "handle_url": "http://hdl.handle.net/10380/3120"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 3,
@@ -87,6 +73,27 @@
         "review_id": 193
       }
     ],
+    "revisions": [
+      {
+        "article": "bafkreibpqvtvdcjzjwx2dykuyefkheyv6roqhm6yfb5vkalmpn3vadkine",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "1926/171",
+        "source_code": null,
+        "source_code_git_ref": null
+      },
+      {
+        "article": "bafkreibpqvtvdcjzjwx2dykuyefkheyv6roqhm6yfb5vkalmpn3vadkine",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "10380/3120",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "ntustison@gmail.com",
       "author_firstname": "Nicholas J.",

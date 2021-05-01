@@ -18,16 +18,6 @@
     "categories": [],
     "comments": [],
     "date_submitted": "2007-07-06T09:43:24Z",
-    "handles": [
-      {
-        "handle": "1926/557",
-        "handle_url": "http://hdl.handle.net/1926/557"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 3,
@@ -49,6 +39,18 @@
         "review_id": 543
       }
     ],
+    "revisions": [
+      {
+        "article": "bafybeiapuff3rqxnfzf6yksbhjl6dk77re5uonzbhdz2gvqz45yq4dsouu",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "1926/557",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "dan.muel@gmail.com",
       "author_firstname": "Dan",

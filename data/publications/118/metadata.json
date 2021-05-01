@@ -38,16 +38,6 @@
     ],
     "comments": [],
     "date_submitted": "2006-08-21T16:59:23Z",
-    "handles": [
-      {
-        "handle": "1926/303",
-        "handle_url": "http://hdl.handle.net/1926/303"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 3,
@@ -80,6 +70,18 @@
         "review_id": 374
       }
     ],
+    "revisions": [
+      {
+        "article": "bafkreickjuw54wpdq6q3wnkebmgyi2fke7brxh2cfblpbwnrt3zdb7ywde",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "1926/303",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "pablob@grasp.cis.upenn.edu",
       "author_firstname": "Pablo",

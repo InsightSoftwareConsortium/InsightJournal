@@ -63,16 +63,6 @@
     ],
     "comments": [],
     "date_submitted": "2008-07-07T14:32:21Z",
-    "handles": [
-      {
-        "handle": "10380/1413",
-        "handle_url": "http://hdl.handle.net/10380/1413"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 45,
@@ -98,6 +88,18 @@
         "review_id": 1520
       }
     ],
+    "revisions": [
+      {
+        "article": "bafybeihkeq6ydhpvdn27ransyzhvgj4tbiirscse4wqxkh7kdof4ca6v6i",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "10380/1413",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "jiayin.zhou@gmail.com",
       "author_firstname": "Jiayin",

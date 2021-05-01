@@ -26,16 +26,6 @@
     "categories": [],
     "comments": [],
     "date_submitted": "2005-08-05T20:24:14Z",
-    "handles": [
-      {
-        "handle": "1926/42",
-        "handle_url": "http://hdl.handle.net/1926/42"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 3,
@@ -68,6 +58,18 @@
         "review_id": 113
       }
     ],
+    "revisions": [
+      {
+        "article": "bafybeieanuf57rsvo6qizrdemzsonyj2xegrlvhcjgha24w6er33cvqdhy",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "1926/42",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "jgaleotti@cmu.edu",
       "author_firstname": "John",

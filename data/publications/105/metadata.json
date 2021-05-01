@@ -35,16 +35,6 @@
     "categories": [],
     "comments": [],
     "date_submitted": "2006-06-30T16:51:03Z",
-    "handles": [
-      {
-        "handle": "1926/206",
-        "handle_url": "http://hdl.handle.net/1926/206"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 3,
@@ -77,6 +67,18 @@
         "review_id": 313
       }
     ],
+    "revisions": [
+      {
+        "article": null,
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "1926/206",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "hchettaoui@yahoo.fr",
       "author_firstname": "Hanene",

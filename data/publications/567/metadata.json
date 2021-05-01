@@ -59,16 +59,6 @@
     ],
     "comments": [],
     "date_submitted": "2008-06-05T04:42:48Z",
-    "handles": [
-      {
-        "handle": "10380/1383",
-        "handle_url": "http://hdl.handle.net/10380/1383"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 33,
@@ -101,6 +91,18 @@
         "review_id": 1497
       }
     ],
+    "revisions": [
+      {
+        "article": "bafybeie42tunz6vet5nlesrzrxfxi2xzgtmiuw3pnospkhf63egllulraa",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "10380/1383",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "grandj@mech.uwa.edu.au",
       "author_firstname": "Grand roman",

@@ -22,16 +22,6 @@
     "categories": [],
     "comments": [],
     "date_submitted": "2008-07-14T16:33:05Z",
-    "handles": [
-      {
-        "handle": "10380/1443",
-        "handle_url": "http://hdl.handle.net/10380/1443"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 45,
@@ -57,6 +47,18 @@
         "review_id": 1517
       }
     ],
+    "revisions": [
+      {
+        "article": "bafybeifml2r5mfvscakd6micc7backupzpua72mxmrlbwxouutnvf674be",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "10380/1443",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "itaybd@gmail.com",
       "author_firstname": "Itay",

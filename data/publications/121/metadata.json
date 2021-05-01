@@ -38,16 +38,6 @@
     "categories": [],
     "comments": [],
     "date_submitted": "2006-08-30T15:40:22Z",
-    "handles": [
-      {
-        "handle": "1926/305",
-        "handle_url": "http://hdl.handle.net/1926/305"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 3,
@@ -80,6 +70,18 @@
         "review_id": 395
       }
     ],
+    "revisions": [
+      {
+        "article": "bafybeihkyjcdxxfij3ki2pi2kj6lyviexleujehptr2eo344ecd4ws7wsi",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "1926/305",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "ntustison@gmail.com",
       "author_firstname": "Nicholas J.",

@@ -21,16 +21,6 @@
     ],
     "comments": [],
     "date_submitted": "2006-10-19T05:43:44Z",
-    "handles": [
-      {
-        "handle": "1926/323",
-        "handle_url": "http://hdl.handle.net/1926/323"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 3,
@@ -52,6 +42,18 @@
         "review_id": 424
       }
     ],
+    "revisions": [
+      {
+        "article": "bafkreidskmxbzpourjjnz64jtwkzbfmziqlruyzem5cpp4ysc62lzzs4hy",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "1926/323",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "robert.tamburo@gmail.com",
       "author_firstname": "Robert",

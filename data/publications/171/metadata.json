@@ -41,16 +41,6 @@
     ],
     "comments": [],
     "date_submitted": "2007-07-01T00:00:00Z",
-    "handles": [
-      {
-        "handle": "1926/567",
-        "handle_url": "http://hdl.handle.net/1926/567"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 3,
@@ -105,6 +95,18 @@
         "review_id": 544
       }
     ],
+    "revisions": [
+      {
+        "article": "bafybeiepxabn62lan7md242wlayvcrgkxi6snme5a6uoxakop35dekugdq",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "1926/567",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "danielle.pace@kitware.com",
       "author_firstname": "Danielle",

@@ -33,16 +33,6 @@
     "categories": [],
     "comments": [],
     "date_submitted": "2005-08-05T17:01:04Z",
-    "handles": [
-      {
-        "handle": "1926/36",
-        "handle_url": "http://hdl.handle.net/1926/36"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 3,
@@ -75,6 +65,18 @@
         "review_id": 27
       }
     ],
+    "revisions": [
+      {
+        "article": "bafkreiady247celdq2gvkcouaoxxnwxu6uellusnvk5mzv5n2tz3voioi4",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "1926/36",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "dalal@bnl.gov",
       "author_firstname": "Dhaval",

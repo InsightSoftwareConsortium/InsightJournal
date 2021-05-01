@@ -47,16 +47,6 @@
     ],
     "comments": [],
     "date_submitted": "2007-07-02",
-    "handles": [
-      {
-        "handle": "1926/552",
-        "handle_url": "http://hdl.handle.net/1926/552"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 3,
@@ -78,6 +68,18 @@
         "review_id": 569
       }
     ],
+    "revisions": [
+      {
+        "article": "bafkreidtiqvfk5mtjwtx5nas4l6jzmjout6yiwzqiws2ston52zqngy7jy",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "1926/552",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "dfwang@cse.cuhk.edu.hk",
       "author_firstname": "Defeng",

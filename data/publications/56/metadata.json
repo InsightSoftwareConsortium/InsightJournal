@@ -22,16 +22,6 @@
     ],
     "comments": [],
     "date_submitted": "2005-11-10T13:25:36Z",
-    "handles": [
-      {
-        "handle": "1926/139",
-        "handle_url": "http://hdl.handle.net/1926/139"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 3,
@@ -64,6 +54,18 @@
         "review_id": 129
       }
     ],
+    "revisions": [
+      {
+        "article": null,
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "1926/139",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "mathieu.malaterre@gmail.com",
       "author_firstname": "Mathieu",

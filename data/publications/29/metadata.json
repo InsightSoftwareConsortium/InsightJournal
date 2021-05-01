@@ -38,16 +38,6 @@
     "categories": [],
     "comments": [],
     "date_submitted": "2005-08-05T13:59:15Z",
-    "handles": [
-      {
-        "handle": "1926/35",
-        "handle_url": "http://hdl.handle.net/1926/35"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 3,
@@ -91,6 +81,18 @@
         "review_id": 167
       }
     ],
+    "revisions": [
+      {
+        "article": "bafkreig6ot3nietqpoenfj66nh7wd7deerp22vkh2pwabzp633npd2ke5e",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "1926/35",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "fedorov@bwh.harvard.edu",
       "author_firstname": "Andriy",

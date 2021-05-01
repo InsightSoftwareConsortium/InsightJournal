@@ -47,16 +47,6 @@
     ],
     "comments": [],
     "date_submitted": "2008-07-14T18:02:18Z",
-    "handles": [
-      {
-        "handle": "10380/1444",
-        "handle_url": "http://hdl.handle.net/10380/1444"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 44,
@@ -93,6 +83,18 @@
         "review_id": 1536
       }
     ],
+    "revisions": [
+      {
+        "article": "bafkreieq6mu6ndicl6k7pxblzb5ntjwapdbqh7anwrxmu5rmk5wnpbbjdu",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "10380/1444",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "jonmorra@gmail.com",
       "author_firstname": "Jonathan",

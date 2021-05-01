@@ -22,16 +22,6 @@
     "categories": [],
     "comments": [],
     "date_submitted": "2008-07-17T20:12:36Z",
-    "handles": [
-      {
-        "handle": "10380/1457",
-        "handle_url": "http://hdl.handle.net/10380/1457"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 44,
@@ -68,6 +58,18 @@
         "review_id": 1537
       }
     ],
+    "revisions": [
+      {
+        "article": "bafybeifstxulial4cbnuxii4byqxlpoloqflcxa45kg44rcz3m2yulsqoy",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "10380/1457",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "prastawa@sci.utah.edu",
       "author_firstname": "Marcel",

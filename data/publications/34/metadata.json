@@ -57,16 +57,6 @@
     "categories": [],
     "comments": [],
     "date_submitted": "2005-08-05T20:09:27Z",
-    "handles": [
-      {
-        "handle": "1926/41",
-        "handle_url": "http://hdl.handle.net/1926/41"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 3,
@@ -99,6 +89,18 @@
         "review_id": 112
       }
     ],
+    "revisions": [
+      {
+        "article": "bafybeibl7hcg7jyghgq4wxcime7iqmbmwcry3tcltb7rooyiwjqadyjxjy",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "1926/41",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "pneumann@partners.org",
       "author_firstname": "Paul",

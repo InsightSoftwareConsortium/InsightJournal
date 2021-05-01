@@ -33,16 +33,6 @@
     "categories": [],
     "comments": [],
     "date_submitted": "2006-07-01T18:21:10Z",
-    "handles": [
-      {
-        "handle": "1926/210",
-        "handle_url": "http://hdl.handle.net/1926/210"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 3,
@@ -86,6 +76,18 @@
         "review_id": 274
       }
     ],
+    "revisions": [
+      {
+        "article": "bafkreigh7wqjwik2o3j7rrzsxnvlvovuzgyusuiv3tdiy3rdsv36ynlxdy",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "1926/210",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "alice.villeger@laposte.net",
       "author_firstname": "Alice",

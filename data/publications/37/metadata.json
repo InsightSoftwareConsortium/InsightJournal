@@ -33,16 +33,6 @@
     "categories": [],
     "comments": [],
     "date_submitted": "2005-08-05T21:30:12Z",
-    "handles": [
-      {
-        "handle": "1926/45",
-        "handle_url": "http://hdl.handle.net/1926/45"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 3,
@@ -64,6 +54,18 @@
         "review_id": 82
       }
     ],
+    "revisions": [
+      {
+        "article": "bafybeihmlvtvzqzlt2uncdcmdjpugb6w7wwdp5bcav35fjj5fw3rlht7f4",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "1926/45",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "david@wangmd.com",
       "author_firstname": "David",

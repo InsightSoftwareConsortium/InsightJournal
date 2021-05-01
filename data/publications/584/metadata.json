@@ -45,16 +45,6 @@
     ],
     "comments": [],
     "date_submitted": "2008-07-07T19:34:55Z",
-    "handles": [
-      {
-        "handle": "10380/1419",
-        "handle_url": "http://hdl.handle.net/10380/1419"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 45,
@@ -80,6 +70,18 @@
         "review_id": 1522
       }
     ],
+    "revisions": [
+      {
+        "article": "bafybeifdgjw52tejr2xzcu74bgocpkemorlw2qjgfanq44sy4wxlccml4m",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "10380/1419",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "jan.moltz@mevis.de",
       "author_firstname": "Jan hendrik",

@@ -31,16 +31,6 @@
     ],
     "comments": [],
     "date_submitted": "2008-05-19T07:14:03Z",
-    "handles": [
-      {
-        "handle": "10380/1358",
-        "handle_url": "http://hdl.handle.net/10380/1358"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 33,
@@ -62,6 +52,18 @@
         "review_id": 1502
       }
     ],
+    "revisions": [
+      {
+        "article": "bafkreiduo6tkys3im7ydij5cip3jwezwjbqoqm5te7ut7mskwzwepb2wri",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "10380/1358",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "qizhenhe2@student.cityu.edu.hk",
       "author_firstname": "He",

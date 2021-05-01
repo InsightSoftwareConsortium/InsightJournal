@@ -69,24 +69,6 @@
     "categories": [],
     "comments": [],
     "date_submitted": "2005-07-29T16:39:01Z",
-    "handles": [
-      {
-        "handle": "1926/380",
-        "handle_url": "http://hdl.handle.net/1926/380"
-      },
-      {
-        "handle": "1926/14",
-        "handle_url": "http://hdl.handle.net/1926/14"
-      },
-      {
-        "handle": "1926/1389",
-        "handle_url": "http://hdl.handle.net/1926/1389"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 3,
@@ -119,6 +101,36 @@
         "review_id": 28
       }
     ],
+    "revisions": [
+      {
+        "article": "bafybeibqkhfwhewzllrgc2teg3ludkff4qwz6tjrsqiohjpaa6adsaie6u",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "1926/380",
+        "source_code": null,
+        "source_code_git_ref": null
+      },
+      {
+        "article": "bafybeibqkhfwhewzllrgc2teg3ludkff4qwz6tjrsqiohjpaa6adsaie6u",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "1926/14",
+        "source_code": null,
+        "source_code_git_ref": null
+      },
+      {
+        "article": "bafybeibqkhfwhewzllrgc2teg3ludkff4qwz6tjrsqiohjpaa6adsaie6u",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "1926/1389",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "i.wolf@dkfz.de",
       "author_firstname": "Ivo",

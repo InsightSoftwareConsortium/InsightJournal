@@ -21,16 +21,6 @@
     "categories": [],
     "comments": [],
     "date_submitted": "2006-02-15T01:06:35Z",
-    "handles": [
-      {
-        "handle": "1926/168",
-        "handle_url": "http://hdl.handle.net/1926/168"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 3,
@@ -63,6 +53,18 @@
         "review_id": 195
       }
     ],
+    "revisions": [
+      {
+        "article": "bafkreicnqzw3dasprg6rb4iz2fgv3aa2rhcstw35bxayhh6yi6csmcrmcu",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "1926/168",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "richard.beare@ieee.org",
       "author_firstname": "Richard",

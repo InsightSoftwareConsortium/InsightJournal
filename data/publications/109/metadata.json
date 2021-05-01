@@ -38,16 +38,6 @@
     "categories": [],
     "comments": [],
     "date_submitted": "2006-07-01T00:00:00Z",
-    "handles": [
-      {
-        "handle": "1926/221",
-        "handle_url": "http://hdl.handle.net/1926/221"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 3,
@@ -80,6 +70,18 @@
         "review_id": 259
       }
     ],
+    "revisions": [
+      {
+        "article": "bafybeie5niufqrjozc4bpcodtv7t6utw2zcredil3cnng65tpuumlrqnm4",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "1926/221",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "holmes.david3@mayo.edu",
       "author_firstname": "David",

@@ -52,16 +52,6 @@
     ],
     "comments": [],
     "date_submitted": "2007-07-02",
-    "handles": [
-      {
-        "handle": "1926/553",
-        "handle_url": "http://hdl.handle.net/1926/553"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 3,
@@ -94,6 +84,18 @@
         "review_id": 560
       }
     ],
+    "revisions": [
+      {
+        "article": "bafybeibmbt23amaragvce5o7c5h76vqxuj3sljqm6b6xu5hzeyl7cy7ymi",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "1926/553",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "ofri@cs.jhu.edu",
       "author_firstname": "Ofri",

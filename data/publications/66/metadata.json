@@ -26,16 +26,6 @@
     "categories": [],
     "comments": [],
     "date_submitted": "2005-12-29T06:10:32Z",
-    "handles": [
-      {
-        "handle": "1926/155",
-        "handle_url": "http://hdl.handle.net/1926/155"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 3,
@@ -57,6 +47,18 @@
         "review_id": 159
       }
     ],
+    "revisions": [
+      {
+        "article": "bafybeigbgqtl7o3c3vrjnfjtsbg5uwkmecaezv537n4cxzcgyz3yjyxtwa",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "1926/155",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "vwchu@sfu.ca",
       "author_firstname": "Vincent",

@@ -24,16 +24,6 @@
     "categories": [],
     "comments": [],
     "date_submitted": "2007-10-18T02:24:28Z",
-    "handles": [
-      {
-        "handle": "1926/1296",
-        "handle_url": "http://hdl.handle.net/1926/1296"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 3,
@@ -55,6 +45,18 @@
         "review_id": 599
       }
     ],
+    "revisions": [
+      {
+        "article": "bafybeiayyvqv6kfcl3ijiwdacdxk7asuaflap5qdvsdjwrhvuuun67rhpi",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "1926/1296",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "pradin@gmail.com",
       "author_firstname": "Philip",

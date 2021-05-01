@@ -18,16 +18,6 @@
     ],
     "comments": [],
     "date_submitted": "2008-07-10T17:27:09Z",
-    "handles": [
-      {
-        "handle": "10380/1440",
-        "handle_url": "http://hdl.handle.net/10380/1440"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 45,
@@ -53,6 +43,18 @@
         "review_id": 1518
       }
     ],
+    "revisions": [
+      {
+        "article": "bafybeibk7q27keenv7jiidkiqcnj3j43awhwuuehaucruyygpmrbj444fu",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "10380/1440",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "yrjo.hame@tkk.fi",
       "author_firstname": "Yrj\u00f6",

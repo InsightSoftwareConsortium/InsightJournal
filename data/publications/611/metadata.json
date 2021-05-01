@@ -46,16 +46,6 @@
     "categories": [],
     "comments": [],
     "date_submitted": "2008-07-14T21:32:58Z",
-    "handles": [
-      {
-        "handle": "10380/1449",
-        "handle_url": "http://hdl.handle.net/10380/1449"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 44,
@@ -92,6 +82,18 @@
         "review_id": 1540
       }
     ],
+    "revisions": [
+      {
+        "article": "bafkreia7zrbjyg6cahfgrtb7bd2h62yoywrbsnbh67slreczx5knic33qq",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "10380/1449",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "mscully@mrn.org",
       "author_firstname": "Mark",

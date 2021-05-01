@@ -35,16 +35,6 @@
     "categories": [],
     "comments": [],
     "date_submitted": "2008-07-15T13:51:28Z",
-    "handles": [
-      {
-        "handle": "10380/1451",
-        "handle_url": "http://hdl.handle.net/10380/1451"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 44,
@@ -81,6 +71,18 @@
         "review_id": 1545
       }
     ],
+    "revisions": [
+      {
+        "article": "bafybeidr7fxxedjxovuokygxwl7o4nr2z4apuwbsswccjkf44yuszngmne",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "10380/1451",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "jean-christophe.souplet@sophia.inria.fr",
       "author_firstname": "Jean-christophe",

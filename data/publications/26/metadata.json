@@ -81,16 +81,6 @@
     "categories": [],
     "comments": [],
     "date_submitted": "2005-08-05T06:27:18Z",
-    "handles": [
-      {
-        "handle": "1926/31",
-        "handle_url": "http://hdl.handle.net/1926/31"
-      }
-    ],
-    "identifiers": {
-      "doi": null,
-      "pubmed": null
-    },
     "journals": [
       {
         "journal_id": 3,
@@ -134,6 +124,18 @@
         "review_id": 70
       }
     ],
+    "revisions": [
+      {
+        "article": "bafkreicgjtpw654dd3btzeoysdbdvzz6ihef4kgai72j6cfqeqh6c4l674",
+        "dapp": null,
+        "dataset": null,
+        "doi": null,
+        "handle": "1926/31",
+        "source_code": null,
+        "source_code_git_ref": null
+      }
+    ],
+    "source_code_git_repo": null,
     "submitted_by_author": {
       "author_email": "luis.ibanez@kitware.com",
       "author_firstname": "Luis",
