@@ -26,7 +26,8 @@ import InputLabel from '@material-ui/core/InputLabel';
 import MenuItem from '@material-ui/core/MenuItem';
 import Grid from '@material-ui/core/Grid';
 import FormControl from '@material-ui/core/FormControl';
-import IPFS from 'ipfs-core';
+import useIpfsFactory from '../hooks/use-ipfs-factory.js'
+import useIpfs from '../hooks/use-ipfs.js'
 
 const useStyles = makeStyles({
   pubTitle: {
@@ -89,6 +90,8 @@ function authorSort(a, b) {
 
 
 const Render = ({ data, pageContext }) => {
+  const { ipfs, ipfsInitError } = useIpfsFactory({ commands: ['id'] })
+  console.log(ipfs, ipfsInitError)
   const classes = useStyles();
   const publication = data.json.publication;
   const publicationIssues = data.allJson.edges
