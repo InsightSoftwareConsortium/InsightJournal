@@ -8,6 +8,31 @@
 // }
 const { createFilePath } = require('gatsby-source-filesystem')
 const path = require('path')
+const NodePolyfillPlugin = require('node-polyfill-webpack-plugin')
+const webpack = require('webpack')
+
+exports.onCreateWebpackConfig = ({
+  stage,
+  rules,
+  loaders,
+  plugins,
+  actions,
+}) => {
+  actions.setWebpackConfig({
+    plugins: [
+      // fixes Module not found: Error: Can't resolve 'stream' in '.../node_modules/nofilter/lib'
+      new NodePolyfillPlugin(),
+      // Note: stream-browserify has assumption about `Buffer` global in its
+      // dependencies causing runtime errors. This is a workaround to provide
+      // global `Buffer` until https://github.com/isaacs/core-util-is/issues/29
+      // is fixed.
+      new webpack.ProvidePlugin({
+        Buffer: ['buffer', 'Buffer'],
+        process: 'process/browser'
+      })
+    ],
+  })
+}
 
 function isSuperset(set, subset) {
   for (let elem of subset) {

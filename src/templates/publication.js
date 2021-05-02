@@ -26,6 +26,7 @@ import InputLabel from '@material-ui/core/InputLabel';
 import MenuItem from '@material-ui/core/MenuItem';
 import Grid from '@material-ui/core/Grid';
 import FormControl from '@material-ui/core/FormControl';
+import IPFS from 'ipfs-core';
 
 const useStyles = makeStyles({
   pubTitle: {
@@ -85,6 +86,7 @@ function authorSort(a, b) {
   }
   return 0
 }
+
 
 const Render = ({ data, pageContext }) => {
   const classes = useStyles();
