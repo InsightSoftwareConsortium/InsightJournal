@@ -21,6 +21,11 @@ import TabList from '@material-ui/lab/TabList';
 import TabPanel from '@material-ui/lab/TabPanel';
 import TabContext from '@material-ui/lab/TabContext';
 import LinearProgress from '@material-ui/core/LinearProgress';
+import Select from '@material-ui/core/Select';
+import InputLabel from '@material-ui/core/InputLabel';
+import MenuItem from '@material-ui/core/MenuItem';
+import Grid from '@material-ui/core/Grid';
+import FormControl from '@material-ui/core/FormControl';
 
 const useStyles = makeStyles({
   pubTitle: {
@@ -29,9 +34,6 @@ const useStyles = makeStyles({
     paddingBottom:"10px",
   },
   journal: {
-    paddingTop:"10px",
-  },
-  loading: {
     paddingTop:"10px",
   },
   submittedBy: {
@@ -53,7 +55,26 @@ const useStyles = makeStyles({
     paddingBottom: "60px",
     paddingRight: "30px",
   },
+  revisionFormControl: {
+    margin: theme.spacing(1),
+    minWidth: 30,
+  },
 });
+
+const revisionNumbers = [
+  "One",
+  "Two",
+  "Three",
+  "Four",
+  "Five",
+  "Six",
+  "Seven",
+  "Eight",
+  "Nine",
+  "Ten",
+  "Eleven",
+  "Twelve",
+]
 
 function authorSort(a, b) {
   if (a.author_place < b.author_place) {
@@ -125,6 +146,11 @@ const Render = ({ data, pageContext }) => {
   const loadArticle = () => {
   }
 
+  const [revision, setRevision] = React.useState(publication.revisions.length-1)
+  const handleRevisionChange = (event) => {
+    setRevision(event.target.value)
+  }
+
   return (
     <>
     <ThemeProvider theme={theme}>
@@ -148,8 +174,20 @@ const Render = ({ data, pageContext }) => {
           <TabPanel value="2">{articleContent}</TabPanel>
         </TabContext>
       </Box>
-<br/>
-<Citation publication={publication} journalTitle={data.site.siteMetadata.title}/>
+      <br/>
+    <Grid container justify='space-between' spacing={2}>
+        <Grid item xs>
+          <Citation publication={publication} journalTitle={data.site.siteMetadata.title}/>
+        </Grid>
+        <Grid item xs>
+          <FormControl variant="standard" margin="none" className={classes.revisionFormControl}>
+            <InputLabel id="select-revision-label">Revision</InputLabel>
+              <Select labelId="select-revision-label" id="select-revision" value={revision} onChange={handleRevisionChange}>
+    {publication.revisions.map((r, i) => <MenuItem key={i} value={i}>{i < revisionNumbers.length ? revisionNumbers[i]: i}</MenuItem>)}
+              </Select>
+          </FormControl>
+        </Grid>
+      </Grid>
       <Box align="right" className={classes.prevNext}>
         <Tooltip title="Previous publication" placement="top" TransitionComponent={Fade} TransitionProps={{ timeout: 400 }}><Link to={previousLink}><Button disabled={pageContext.prev_id === null}><NavigateBeforeIcon fontSize="large"/></Button></Link></Tooltip>
         <Tooltip title="Next publication" placement="top" TransitionComponent={Fade} TransitionProps={{ timeout: 400 }}><Link to={nextLink}><Button disabled={pageContext.next_id === null}><NavigateNextIcon fontSize="large"/></Button></Link></Tooltip>
