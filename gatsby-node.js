@@ -19,9 +19,32 @@ exports.onCreateWebpackConfig = ({
   actions,
 }) => {
   actions.setWebpackConfig({
+    node: {
+      fs: "empty",
+    },
+    resolve: {
+      fallback: {
+        fs: false, stream: require.resolve('stream-browserify'),
+      }
+      // Some of our dependencies have `browser` field in their package.json
+      // that should be interpreted as aliases
+      //aliasFields: ['browser'],
+    },
+    module: {
+      rules: [
+        {
+          test: /electron-fetch/,
+          use: loaders.null(),
+        },
+        {
+          test: /fs-extra/,
+          use: loaders.null(),
+        },
+      ],
+    },
     plugins: [
       // fixes Module not found: Error: Can't resolve 'stream' in '.../node_modules/nofilter/lib'
-      new NodePolyfillPlugin(),
+      //new NodePolyfillPlugin(),
       // Note: stream-browserify has assumption about `Buffer` global in its
       // dependencies causing runtime errors. This is a workaround to provide
       // global `Buffer` until https://github.com/isaacs/core-util-is/issues/29

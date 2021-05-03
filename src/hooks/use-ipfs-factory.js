@@ -2,6 +2,7 @@ import Ipfs from 'ipfs-core'
 import { useEffect, useState } from 'react'
 
 let ipfs = null
+const isBrowser = typeof window !== "undefined"
 
 /*
  * A quick demo using React hooks to create an ipfs instance.
@@ -24,7 +25,7 @@ export default function useIpfsFactory () {
     async function startIpfs () {
       if (ipfs) {
         console.log('IPFS already started')
-      } else if (window.ipfs && window.ipfs.enable) {
+      } else if (isBrowser && window.ipfs && window.ipfs.enable) {
         console.log('Found window.ipfs')
         ipfs = await window.ipfs.enable({ commands: ['id'] })
       } else {
