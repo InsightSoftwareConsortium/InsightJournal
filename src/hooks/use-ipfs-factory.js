@@ -1,8 +1,21 @@
-import Ipfs from 'ipfs-core'
 import { useEffect, useState } from 'react'
 
 let ipfs = null
 const isBrowser = typeof window !== "undefined"
+
+const loadScript = function(url) {
+    return new Promise(function(resolve, reject) {
+        const script = document.createElement('script');
+        script.src = url;
+
+        script.addEventListener('load', function() {
+            // The script is loaded completely
+            resolve(true);
+        });
+
+        document.head.appendChild(script);
+    });
+}
 
 /*
  * A quick demo using React hooks to create an ipfs instance.
@@ -25,13 +38,12 @@ export default function useIpfsFactory () {
     async function startIpfs () {
       if (ipfs) {
         console.log('IPFS already started')
-      } else if (isBrowser && window.ipfs && window.ipfs.enable) {
-        console.log('Found window.ipfs')
-        ipfs = await window.ipfs.enable({ commands: ['id'] })
       } else {
         try {
+          console.log('Loading IPFS library')
+          await loadScript('/ipfs-core.min.js')
           console.time('IPFS Started')
-          ipfs = await Ipfs.create()
+          ipfs = await window.IpfsCore.create()
           console.timeEnd('IPFS Started')
         } catch (error) {
           console.error('IPFS init error:', error)

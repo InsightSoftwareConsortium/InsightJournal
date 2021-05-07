@@ -12,11 +12,12 @@
     "@material-ui/lab": "^4.0.0-alpha.58",
     "@material-ui/styles": "next",
     "@material/menu": "next",
+    "copy-webpack-plugin": "^8.1.1",
     "gatsby": "latest",
     "gatsby-plugin-emotion": "latest",
     "gatsby-plugin-image": "^1.2.0",
     "gatsby-plugin-material-ui": "latest",
-    "gatsby-plugin-react-helmet": "latest",
+    "gatsby-plugin-react-helmet": "^4.4.0",
     "gatsby-plugin-sharp": "^3.2.0",
     "gatsby-source-filesystem": "latest",
     "gatsby-transformer-json": "latest",
@@ -25,15 +26,11 @@
     "ipfs-core": "^0.5.4",
     "react": "latest",
     "react-dom": "latest",
-    "react-helmet": "latest"
+    "react-helmet": "^6.1.0"
   },
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve"
-  },
-  "devDependencies": {
-    "node-polyfill-webpack-plugin": "^1.1.0",
-    "stream-browserify": "^3.0.0"
   }
 }

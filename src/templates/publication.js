@@ -88,9 +88,17 @@ function authorSort(a, b) {
   return 0
 }
 
+const isBrowser = typeof window !== "undefined"
 
 const Render = ({ data, pageContext }) => {
-  //const { ipfs, ipfsInitError } = useIpfsFactory({ commands: ['id'] })
+  if (isBrowser) {
+    const preloadLink = document.createElement('link')
+    preloadLink.href = "/ipfs-core.min.js"
+    preloadLink.rel = "preload"
+    preloadLink.as = "script"
+    document.head.appendChild(preloadLink)
+  }
+  const { ipfs, ipfsInitError } = useIpfsFactory()
   //console.log(ipfs, ipfsInitError)
   const classes = useStyles();
   const publication = data.json.publication;
