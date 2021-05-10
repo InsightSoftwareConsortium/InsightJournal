@@ -29,6 +29,10 @@ import FormControl from '@material-ui/core/FormControl';
 import useIpfsFactory from '../hooks/use-ipfs-factory.js'
 import pWaitFor from 'p-wait-for';
 import uint8arrays from 'uint8arrays';
+import { Base64 } from 'js-base64';
+import PDFViewer from 'pdf-viewer-reactjs'
+import DownloadIcon from '@material-ui/icons/CloudDownload';
+import { saveAs } from 'file-saver';
 
 const useStyles = makeStyles({
   pubTitle: {
@@ -172,28 +176,29 @@ const Render = ({ data, pageContext }) => {
       console.log(ipfs)
 
       try {
-        await ipfs.files.stat('/articles')
+        await ipfs.files.stat(`/articles/${publication.publication_id}`)
       } catch (error) {
-        await ipfs.files.mkdir('/articles', { cidVersion: 1 })
+        await ipfs.files.mkdir(`/articles/${publication.publication_id}`, { cidVersion: 1 })
       }
 
       try {
-        await ipfs.files.stat(`/articles/${revision}.pdf`)
+        await ipfs.files.stat(`/articles/${publication.publication_id}/${revision}.pdf`)
       } catch (error) {
-        await ipfs.files.cp(`/ipfs/${articleCid}`, `/articles/${revision}.pdf`, { cidVersion: 1 })
+        await ipfs.files.cp(`/ipfs/${articleCid}`, `/articles/${publication.publication_id}/${revision}.pdf`, { cidVersion: 1 })
       }
 
       const chunks = []
-      let bytes = 0
-      for await (const chunk of ipfs.files.read(`/articles/${revision}.pdf`)) {
+      for await (const chunk of ipfs.files.read(`/articles/${publication.publication_id}/${revision}.pdf`)) {
         chunks.push(chunk)
-        bytes += chunk.byteLength
         const chunkNum = `${chunks.length}`
         setArticleContent(<><LinearProgressWithLabel variant="indeterminate" color="secondary" label={`loading chunk ${chunkNum}`} /></>)
       }
       setArticleContent(<><LinearProgressWithLabel color="primary" variant="determinate" value={100} label={`loading complete`} /></>)
       const pdf = uint8arrays.concat(chunks)
-      console.log(pdf)
+      const pdfBlob = new Blob([pdf.buffer])
+      const pdfBase64 = Base64.fromUint8Array(pdf)
+      const titleForFile = publication.title.split(' ').join('_')
+      setArticleContent(<><Button onClick={() => { saveAs(pdfBlob, `IJ-${publication.publication_id}-${titleForFile}.pdf`)}} startIcon={<DownloadIcon />} variant="contained">Download PDF</Button><PDFViewer scale={1.4} minScale={1} maxScale={5} scaleStep={0.4} document={{ base64: pdfBase64 }} showThumbnail={{ scale: 1 }} /></>)
     }
   }
 
