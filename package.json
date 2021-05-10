@@ -24,9 +24,11 @@
     "gatsby-transformer-sharp": "^3.2.0",
     "html-react-parser": "^1.2.4",
     "ipfs-core": "^0.5.4",
+    "p-wait-for": "^4.0.0",
     "react": "latest",
     "react-dom": "latest",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "uint8arrays": "^2.1.5"
   },
   "scripts": {
     "develop": "gatsby develop",

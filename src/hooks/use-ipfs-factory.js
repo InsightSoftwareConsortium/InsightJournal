@@ -4,17 +4,17 @@ let ipfs = null
 const isBrowser = typeof window !== "undefined"
 
 const loadScript = function(url) {
-    return new Promise(function(resolve, reject) {
-        const script = document.createElement('script');
-        script.src = url;
+  return new Promise(function(resolve, reject) {
+    const script = document.createElement('script');
+    script.src = url;
 
-        script.addEventListener('load', function() {
-            // The script is loaded completely
-            resolve(true);
-        });
-
-        document.head.appendChild(script);
+    script.addEventListener('load', function() {
+        // The script is loaded completely
+        resolve(true);
     });
+
+    document.head.appendChild(script);
+  });
 }
 
 /*

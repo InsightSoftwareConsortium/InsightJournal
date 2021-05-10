@@ -27,7 +27,8 @@ import MenuItem from '@material-ui/core/MenuItem';
 import Grid from '@material-ui/core/Grid';
 import FormControl from '@material-ui/core/FormControl';
 import useIpfsFactory from '../hooks/use-ipfs-factory.js'
-//import useIpfs from '../hooks/use-ipfs.js'
+import pWaitFor from 'p-wait-for';
+import uint8arrays from 'uint8arrays';
 
 const useStyles = makeStyles({
   pubTitle: {
@@ -90,6 +91,19 @@ function authorSort(a, b) {
 
 const isBrowser = typeof window !== "undefined"
 
+function LinearProgressWithLabel(props) {
+  return (
+    <Box display="flex" alignItems="center">
+      <Box width="70%" mr={1}>
+        <LinearProgress {...props} />
+      </Box>
+      <Box minWidth={35}>
+        <Typography variant="body2" color="textSecondary">{props.label}</Typography>
+      </Box>
+    </Box>
+  );
+}
+
 const Render = ({ data, pageContext }) => {
   if (isBrowser) {
     const preloadLink = document.createElement('link')
@@ -98,8 +112,7 @@ const Render = ({ data, pageContext }) => {
     preloadLink.as = "script"
     document.head.appendChild(preloadLink)
   }
-  const { ipfs, ipfsInitError } = useIpfsFactory()
-  //console.log(ipfs, ipfsInitError)
+  const { ipfs, isIpfsReady, ipfsInitError } = useIpfsFactory()
   const classes = useStyles();
   const publication = data.json.publication;
   const publicationIssues = data.allJson.edges
@@ -149,19 +162,59 @@ const Render = ({ data, pageContext }) => {
     })
   }
 
-  const [tab, setTab] = React.useState('1');
-  const handleTabChange = (event, newValue) => {
-    console.log(event, newValue)
-    setTab(newValue)
+  const [articleContent, setArticleContent] = React.useState(<><LinearProgressWithLabel color="secondary" variant="indeterminate" label="loading..."/></>)
+  const loadArticle = async () => {
+    const articleCid = publication.revisions[revision].article
+    if (!articleCid) {
+      setArticleContent(<><Typography m={2}>Article not found.</Typography></>)
+    } else {
+      await pWaitFor(() => isIpfsReady, { interval: 100 })
+      console.log(ipfs)
+
+      try {
+        await ipfs.files.stat('/articles')
+      } catch (error) {
+        await ipfs.files.mkdir('/articles', { cidVersion: 1 })
+      }
+
+      try {
+        await ipfs.files.stat(`/articles/${revision}.pdf`)
+      } catch (error) {
+        await ipfs.files.cp(`/ipfs/${articleCid}`, `/articles/${revision}.pdf`, { cidVersion: 1 })
+      }
+
+      const chunks = []
+      let bytes = 0
+      for await (const chunk of ipfs.files.read(`/articles/${revision}.pdf`)) {
+        chunks.push(chunk)
+        bytes += chunk.byteLength
+        const chunkNum = `${chunks.length}`
+        setArticleContent(<><LinearProgressWithLabel variant="indeterminate" color="secondary" label={`loading chunk ${chunkNum}`} /></>)
+      }
+      setArticleContent(<><LinearProgressWithLabel color="primary" variant="determinate" value={100} label={`loading complete`} /></>)
+      const pdf = uint8arrays.concat(chunks)
+      console.log(pdf)
+    }
   }
 
-  const [articleContent, setArticleContent] = React.useState(<><Typography m={2}>Loading...</Typography><LinearProgress color="secondary" /></>)
-  const loadArticle = () => {
+  const [tab, setTab] = React.useState('1');
+  const handleTabChange = (event, newValue) => {
+    setTab(newValue)
+    switch (newValue) {
+    case '1':
+      break
+    case '2':
+      loadArticle()
+      break
+    default:
+      console.error(`Encountered unsupported tab value: ${newValue}`)
+    }
   }
 
   const [revision, setRevision] = React.useState(publication.revisions.length-1)
   const handleRevisionChange = (event) => {
     setRevision(event.target.value)
+    handleTabChange({}, tab)
   }
 
   return (
@@ -231,6 +284,7 @@ export const query = graphql`
         }
         publication_id
         revisions {
+          article
           handle
         }
         categories
