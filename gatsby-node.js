@@ -31,6 +31,9 @@ exports.onCreateWebpackConfig = ({
   actions.setWebpackConfig({
     plugins: [
     ],
+    resolve: {
+      fallback: { canvas: false },
+    }
   })
 }
 

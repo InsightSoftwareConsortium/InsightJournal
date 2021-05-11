@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react'
 
 let ipfs = null
-const isBrowser = typeof window !== "undefined"
 
 const loadScript = function(url) {
   return new Promise(function(resolve, reject) {

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 import { graphql } from "gatsby";
 import { ThemeProvider, makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
@@ -30,9 +30,12 @@ import useIpfsFactory from '../hooks/use-ipfs-factory.js'
 import pWaitFor from 'p-wait-for';
 import uint8arrays from 'uint8arrays';
 import { Base64 } from 'js-base64';
-import PDFViewer from 'pdf-viewer-reactjs'
 import DownloadIcon from '@material-ui/icons/CloudDownload';
 import { saveAs } from 'file-saver';
+import { lazy } from "@loadable/component"
+
+//const LoadablePDFViewer = lazy(() => import("../components/LoadablePDFViewer"))
+const LoadablePDFViewer = lazy(() => import("pdf-viewer-reactjs"))
 
 const useStyles = makeStyles({
   pubTitle: {
@@ -116,7 +119,7 @@ const Render = ({ data, pageContext }) => {
     preloadLink.as = "script"
     document.head.appendChild(preloadLink)
   }
-  const { ipfs, isIpfsReady, ipfsInitError } = useIpfsFactory()
+  const { ipfs, isIpfsReady } = useIpfsFactory()
   const classes = useStyles();
   const publication = data.json.publication;
   const publicationIssues = data.allJson.edges
@@ -178,7 +181,7 @@ const Render = ({ data, pageContext }) => {
       try {
         await ipfs.files.stat(`/articles/${publication.publication_id}`)
       } catch (error) {
-        await ipfs.files.mkdir(`/articles/${publication.publication_id}`, { cidVersion: 1 })
+        await ipfs.files.mkdir(`/articles/${publication.publication_id}`, { cidVersion: 1, parents: true })
       }
 
       try {
@@ -198,7 +201,7 @@ const Render = ({ data, pageContext }) => {
       const pdfBlob = new Blob([pdf.buffer])
       const pdfBase64 = Base64.fromUint8Array(pdf)
       const titleForFile = publication.title.split(' ').join('_')
-      setArticleContent(<><Button onClick={() => { saveAs(pdfBlob, `IJ-${publication.publication_id}-${titleForFile}.pdf`)}} startIcon={<DownloadIcon />} variant="contained">Download PDF</Button><PDFViewer scale={1.4} minScale={1} maxScale={5} scaleStep={0.4} document={{ base64: pdfBase64 }} showThumbnail={{ scale: 1 }} /></>)
+      setArticleContent(<><Button onClick={() => { saveAs(pdfBlob, `IJ-${publication.publication_id}-${titleForFile}.pdf`)}} startIcon={<DownloadIcon />} variant="contained">Download PDF</Button><Suspense fallback={<div>Loading</div>}><LoadablePDFViewer scale={1.4} minScale={1} maxScale={5} scaleStep={0.4} document={{ base64: pdfBase64 }} showThumbnail={{ scale: 1 }} /></Suspense></>)
     }
   }
 
