@@ -176,7 +176,10 @@ const Render = ({ data, pageContext }) => {
       setArticleContent(<><Typography m={2}>Article not found.</Typography></>)
     } else {
       await pWaitFor(() => isIpfsReady, { interval: 100 })
-      console.log(ipfs)
+      const isOnline = await ipfs.isOnline()
+      if (!isOnline) {
+        await ipfs.start()
+      }
 
       try {
         await ipfs.files.stat(`/articles/${publication.publication_id}`)
