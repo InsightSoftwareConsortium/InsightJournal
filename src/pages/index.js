@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { graphql } from "gatsby";
 import StyledEngineProvider from '@material-ui/core/StyledEngineProvider';
-import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/styles';
 import Container from '@material-ui/core/Container';
 import Box from '@material-ui/core/Box';
 import Layout from '../components/Layout';

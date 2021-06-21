@@ -1,6 +1,6 @@
 import React, { Suspense } from "react";
 import { graphql } from "gatsby";
-import { ThemeProvider, makeStyles } from '@material-ui/core/styles';
+import { ThemeProvider, makeStyles } from '@material-ui/styles';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import theme from '../theme';
@@ -30,11 +30,15 @@ import useIpfsFactory from '../hooks/use-ipfs-factory.js'
 import pWaitFor from 'p-wait-for';
 import uint8arrays from 'uint8arrays';
 import { Base64 } from 'js-base64';
-import DownloadIcon from '@material-ui/icons/CloudDownload';
+//import DownloadIcon from '@material-ui/icons/CloudDownload';
+import FolderIcon from '@material-ui/icons/Folder';
+import FileIcon from '@material-ui/icons/InsertDriveFile';
+import DownloadIcon from '@material-ui/icons/GetApp';
+import ZipDownloadIcon from '@material-ui/icons/Archive';
+import { DataGrid } from '@material-ui/data-grid';
 import { saveAs } from 'file-saver';
 import { lazy } from "@loadable/component"
 
-//const LoadablePDFViewer = lazy(() => import("../components/LoadablePDFViewer"))
 const LoadablePDFViewer = lazy(() => import("pdf-viewer-reactjs"))
 
 const useStyles = makeStyles({
@@ -68,6 +72,14 @@ const useStyles = makeStyles({
   revisionFormControl: {
     margin: theme.spacing(1),
     minWidth: 30,
+  },
+  treeRoot: {
+    height: 240,
+    flexGrow: 1,
+    maxWidth: 400,
+  },
+  fileTreeTable: {
+    height: 440,
   },
 });
 
@@ -208,6 +220,122 @@ const Render = ({ data, pageContext }) => {
     }
   }
 
+  const [sourceCodeContent, setSourceCodeContent] = React.useState(<><LinearProgressWithLabel color="secondary" variant="indeterminate" label="loading..."/></>)
+  const loadSourceCode = async () => {
+    const sourceCodeCid = publication.revisions[revision].source_code
+    if (!sourceCodeCid) {
+      setSourceCodeContent(<><Typography m={2}>Source code not found.</Typography></>)
+    } else {
+      await pWaitFor(() => isIpfsReady, { interval: 100 })
+      const isOnline = await ipfs.isOnline()
+      if (!isOnline) {
+        await ipfs.start()
+      }
+
+      try {
+        await ipfs.files.stat(`/sourceCodes/${publication.publication_id}`)
+      } catch (error) {
+        await ipfs.files.mkdir(`/sourceCodes/${publication.publication_id}`, { cidVersion: 1, parents: true })
+      }
+
+      const revPath = `/sourceCodes/${publication.publication_id}/${revision}`
+      try {
+        await ipfs.files.stat(revPath)
+      } catch (error) {
+        await ipfs.files.cp(`/ipfs/${sourceCodeCid}`, revPath, { cidVersion: 1 })
+      }
+      const rows = []
+      for await (const file of ipfs.files.ls(revPath)) {
+        const cid = file.cid.toString()
+        rows.push({
+          type: file.type,
+          name: file.name,
+          size: file.size,
+          id: cid,
+          cid,
+        })
+      }
+      console.log(rows)
+
+      const columns = [
+        {
+          field: 'type',
+          headerName: 'Type',
+          disableColumnMenu: true,
+          width: 40,
+          renderCell: (params) => {
+            if (params.value === "file") {
+              return (<FileIcon />)
+            }
+            return (<FolderIcon />)
+          },
+        },
+        {
+          field: 'name',
+          headerName: 'Name',
+          width: 400,
+          renderCell: (params) => {
+            return (
+            <div>
+              <Typography variant="body1" style={{ whitespace: 'normal', wordwrap: "break-word" }} >{params.value}</Typography>
+            </div>
+          )
+          }
+        },
+        { field: 'size',
+          headerName: 'Size',
+          description: 'Size (bytes)',
+          width: 120,
+          renderCell: (params) => {
+            console.log(params)
+            if (params.value > 0) {
+              return (
+              <div>
+              <Typography variant="body2" style={{ whitespace: 'normal', wordwrap: "break-word" }} >{params.value}</Typography>
+              </div>
+              )
+            }
+            return (<div />)
+          }
+        },
+        {
+          field: 'download',
+          disableColumnMenu: true,
+          headerName: ' ',
+          description: 'Download',
+          width: 60,
+          renderCell: (params) => {
+            return (<DownloadIcon />)
+          },
+        },
+        {
+          field: 'zipdownload',
+          disableColumnMenu: true,
+          disableColumnSelector: true,
+          headerName: ' ',
+          description: 'Download as a Zip archive',
+          width: 60,
+          renderCell: (params) => {
+            return (<ZipDownloadIcon />)
+          },
+        },
+        {
+          field: 'cid',
+          description: 'IPFS Content Identifier (CID)',
+          disableColumnMenu: true,
+          headerName: 'CID',
+          width: 140,
+        },
+      ];
+
+      setSourceCodeContent(
+        <Box className={classes.fileTreeTable}>
+          <DataGrid disableColumnReorder={true} hideFooterSelectedRowCount={true} headerHeight={42} rowHeight={42} rows={rows} columns={columns} pageSize={8}/>
+        </Box>
+      )
+    }
+  }
+
   const [tab, setTab] = React.useState('1');
   const handleTabChange = (event, newValue) => {
     setTab(newValue)
@@ -216,6 +344,9 @@ const Render = ({ data, pageContext }) => {
       break
     case '2':
       loadArticle()
+      break
+    case '3':
+      loadSourceCode()
       break
     default:
       console.error(`Encountered unsupported tab value: ${newValue}`)
@@ -246,9 +377,11 @@ const Render = ({ data, pageContext }) => {
           <TabList indicatorColor="primary" textColor="primary" aria-label="publication component" onChange={handleTabChange}>
             <Tab label="Abstract" value="1" />
             <Tab label="Article" value="2" />
+            <Tab label="Source Code" value="3" />
           </TabList>
           <TabPanel value="1"><Typography variant="body1">{publication.abstract}</Typography></TabPanel>
           <TabPanel value="2">{articleContent}</TabPanel>
+          <TabPanel value="3">{sourceCodeContent}</TabPanel>
         </TabContext>
       </Box>
       <br/>
@@ -297,6 +430,7 @@ export const query = graphql`
         revisions {
           article
           handle
+          source_code
         }
         categories
         comments {

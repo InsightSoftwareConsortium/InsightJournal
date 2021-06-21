@@ -1,5 +1,5 @@
 import * as React from "react";
-import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/styles';
 import { GatsbyImage } from "gatsby-plugin-image"
 import { DataGrid } from '@material-ui/data-grid';
 import Link from '../components/Link';
