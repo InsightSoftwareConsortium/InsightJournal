@@ -38,8 +38,8 @@
     "uint8arrays": "^2.1.5"
   },
   "scripts": {
-    "develop": "gatsby develop",
+    "develop": "gatsby develop --port 8081",
     "build": "gatsby build",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve --port 8081"
   }
 }
