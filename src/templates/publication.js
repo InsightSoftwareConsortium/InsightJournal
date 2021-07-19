@@ -81,6 +81,9 @@ const useStyles = makeStyles({
   fileTreeTable: {
     height: 440,
   },
+  noMaxWidth: {
+    maxWidth: 'none',
+  },
 });
 
 const revisionNumbers = [
@@ -273,7 +276,7 @@ const Render = ({ data, pageContext }) => {
         {
           field: 'name',
           headerName: 'Name',
-          width: 400,
+          width: 440,
           renderCell: (params) => {
             return (
             <div>
@@ -324,7 +327,12 @@ const Render = ({ data, pageContext }) => {
           description: 'IPFS Content Identifier (CID)',
           disableColumnMenu: true,
           headerName: 'CID',
-          width: 140,
+          width: 100,
+          renderCell: (params) => {
+            console.log(params.value)
+            const short = `${params.value.substring(0, 8)}...`
+            return (<Tooltip placement="left-start" title={params.value} aria-label="cid" classes={{ tooltip: classes.noMaxWidth }} interactive><Typography>{short}</Typography></Tooltip>)
+          },
         },
       ];
 
