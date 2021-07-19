@@ -260,6 +260,20 @@ const Render = ({ data, pageContext }) => {
       }
       console.log(rows)
 
+      const saveFileCID = async (cid, name) => {
+        const chunks = []
+        console.log(cid, name)
+        for await (const chunk of ipfs.cat(cid)) {
+          chunks.push(chunk)
+          //const chunkNum = `${chunks.length}`
+          //setArticleContent(<><LinearProgressWithLabel variant="indeterminate" color="secondary" label={`loading chunk ${chunkNum}`} /></>)
+        }
+        const file = uint8arrays.concat(chunks)
+        const fileBlob = new Blob([file.buffer])
+        console.log(fileBlob,name)
+        saveAs(fileBlob, name)
+      }
+
       const columns = [
         {
           field: 'type',
@@ -290,7 +304,6 @@ const Render = ({ data, pageContext }) => {
           description: 'Size (bytes)',
           width: 120,
           renderCell: (params) => {
-            console.log(params)
             if (params.value > 0) {
               return (
               <div>
@@ -308,7 +321,8 @@ const Render = ({ data, pageContext }) => {
           description: 'Download',
           width: 60,
           renderCell: (params) => {
-            return (<DownloadIcon />)
+            console.log(params)
+            return (<DownloadIcon onClick={() => {saveFileCID(params.row.cid, params.row.name)}} />)
           },
         },
         {
@@ -329,9 +343,8 @@ const Render = ({ data, pageContext }) => {
           headerName: 'CID',
           width: 100,
           renderCell: (params) => {
-            console.log(params.value)
             const short = `${params.value.substring(0, 8)}...`
-            return (<Tooltip placement="left-start" title={params.value} aria-label="cid" classes={{ tooltip: classes.noMaxWidth }} interactive><Typography>{short}</Typography></Tooltip>)
+            return (<Tooltip placement="left-start" title={params.value} aria-label="cid" classes={{ tooltip: classes.noMaxWidth }} interactive="true"><Typography>{short}</Typography></Tooltip>)
           },
         },
       ];
