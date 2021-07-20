@@ -25,6 +25,7 @@ import Select from '@material-ui/core/Select';
 import InputLabel from '@material-ui/core/InputLabel';
 import MenuItem from '@material-ui/core/MenuItem';
 import Grid from '@material-ui/core/Grid';
+import Breadcrumbs from '@material-ui/core/Breadcrumbs';
 import FormControl from '@material-ui/core/FormControl';
 import useIpfsFactory from '../hooks/use-ipfs-factory.js'
 import pWaitFor from 'p-wait-for';
@@ -176,6 +177,21 @@ async function showFileContents(ipfs, cid, name, setFileContent) {
   )
 }
 
+async function sourceCodeTreeRows(ipfs, revPath, treePath) {
+  const treeRows = []
+  for await (const file of ipfs.files.ls(`${revPath}/${treePath.slice(1).join('/')}`)) {
+    const cid = file.cid.toString()
+    treeRows.push({
+      type: file.type,
+      name: file.name,
+      size: file.size,
+      id: cid,
+      cid,
+    })
+  }
+  return treeRows
+}
+
 async function loadArticle(ipfs, isIpfsReady, publication, revision, setArticleContent) {
   const articleCid = publication.revisions[revision].article
   if (!articleCid) {
@@ -248,6 +264,7 @@ async function loadSourceCode(ipfs, isIpfsReady, publication, revision, setSourc
         cid,
       })
     }
+    let treePath = ['<root>']
 
     const columns = [
       {
@@ -323,9 +340,35 @@ async function loadSourceCode(ipfs, isIpfsReady, publication, revision, setSourc
       },
     ];
 
-    function onRowClick(params) {
+    async function renderTreePath(path) {
+      const treeRows = await sourceCodeTreeRows(ipfs, revPath, path)
+      treePath = path
+      setNestedSourceCodeContent(path, treeRows)
+    }
+    function setNestedSourceCodeContent(path, treeRows) {
+      setSourceCodeContent(
+        <>
+        <Box className={classes.fileTreeTable}>
+          <DataGrid disableColumnReorder={true} hideFooterSelectedRowCount={true} headerHeight={42} rowHeight={42} rows={treeRows} columns={columns} pageSize={8} onRowClick={onRowClick}/>
+        </Box>
+        <Breadcrumbs>
+          {path.map((r, i) => {
+            const pathSlice = path.slice(0, i+1)
+            const onTreePathClick = () => renderTreePath(pathSlice)
+            return (<Typography onClick={onTreePathClick} key={i}>{r}</Typography>)
+          })}
+        </Breadcrumbs>
+        </>
+      )
+    }
+
+    async function onRowClick(params) {
       if (isBrowser && params.row.type === 'file') {
         showFileContents(ipfs, params.row.cid, params.row.name, setFileContent)
+      } else {
+        treePath.push(params.row.name)
+        const treeRows = await sourceCodeTreeRows(ipfs, revPath, treePath)
+        setNestedSourceCodeContent(treePath, treeRows)
       }
     }
 
