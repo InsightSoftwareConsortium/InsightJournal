@@ -141,8 +141,35 @@ async function saveFileZipCID(ipfs, cid, name) {
     //setArticleContent(<><LinearProgressWithLabel variant="indeterminate" color="secondary" label={`loading chunk ${chunkNum}`} /></>)
   }
   const file = uint8arrays.concat(chunks)
-  let zip = new JSZip()
+  const zip = new JSZip()
   zip.file(name, file)
+  zip.generateAsync({ type: 'blob' }).then((content) => {
+    saveAs(content, `${name}.zip`)
+  })
+}
+
+async function saveFileZip(ipfs, zip, path, cid) {
+  const chunks = []
+  for await (const chunk of ipfs.cat(cid)) {
+    chunks.push(chunk)
+  }
+  const file = uint8arrays.concat(chunks)
+  zip.file(path, file)
+}
+
+async function saveDirectoryZip(ipfs, zip, prefix, cid) {
+  for await (const file of ipfs.ls(cid)) {
+    const cid = file.cid.toString()
+    if (file.type === 'directory') {
+      await saveDirectoryZip(ipfs, zip, `${prefix}/${file.name}`, cid)
+    }
+    await saveFileZip(ipfs, zip, `${prefix}/${file.name}`, cid)
+  }
+}
+
+async function saveDirectoryZipCID(ipfs, cid, name) {
+  const zip = new JSZip()
+  await saveDirectoryZip(ipfs, zip, name, cid)
   zip.generateAsync({ type: 'blob' }).then((content) => {
     saveAs(content, `${name}.zip`)
   })
@@ -313,6 +340,9 @@ async function loadSourceCode(ipfs, isIpfsReady, publication, revision, setSourc
         description: 'Download',
         width: 60,
         renderCell: (params) => {
+          if (params.row.type === 'directory') {
+            return (<></>)
+          }
           return (<DownloadIcon onClick={() => {saveFileCID(ipfs, params.row.cid, params.row.name)}} />)
         },
       },
@@ -324,6 +354,9 @@ async function loadSourceCode(ipfs, isIpfsReady, publication, revision, setSourc
         description: 'Download as a Zip archive',
         width: 60,
         renderCell: (params) => {
+          if (params.row.type === 'directory') {
+            return (<ZipDownloadIcon onClick={() => {saveDirectoryZipCID(ipfs, params.row.cid, params.row.name)}} />)
+          }
           return (<ZipDownloadIcon onClick={() => {saveFileZipCID(ipfs, params.row.cid, params.row.name)}} />)
         },
       },
