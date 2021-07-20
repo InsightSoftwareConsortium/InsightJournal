@@ -37,6 +37,7 @@ import DownloadIcon from '@material-ui/icons/GetApp';
 import ZipDownloadIcon from '@material-ui/icons/Archive';
 import { DataGrid } from '@material-ui/data-grid';
 import { saveAs } from 'file-saver';
+import JSZip from 'jszip';
 import { lazy } from "@loadable/component"
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import { docco } from 'react-syntax-highlighter/dist/esm/styles/hljs';
@@ -129,6 +130,21 @@ async function saveFileCID(ipfs, cid, name) {
   const file = uint8arrays.concat(chunks)
   const fileBlob = new Blob([file.buffer])
   saveAs(fileBlob, name)
+}
+
+async function saveFileZipCID(ipfs, cid, name) {
+  const chunks = []
+  for await (const chunk of ipfs.cat(cid)) {
+    chunks.push(chunk)
+    //const chunkNum = `${chunks.length}`
+    //setArticleContent(<><LinearProgressWithLabel variant="indeterminate" color="secondary" label={`loading chunk ${chunkNum}`} /></>)
+  }
+  const file = uint8arrays.concat(chunks)
+  let zip = new JSZip()
+  zip.file(name, file)
+  zip.generateAsync({ type: 'blob' }).then((content) => {
+    saveAs(content, `${name}.zip`)
+  })
 }
 
 function LinearProgressWithLabel(props) {
@@ -291,7 +307,7 @@ async function loadSourceCode(ipfs, isIpfsReady, publication, revision, setSourc
         description: 'Download as a Zip archive',
         width: 60,
         renderCell: (params) => {
-          return (<ZipDownloadIcon />)
+          return (<ZipDownloadIcon onClick={() => {saveFileZipCID(ipfs, params.row.cid, params.row.name)}} />)
         },
       },
       {
