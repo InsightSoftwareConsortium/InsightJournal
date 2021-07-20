@@ -38,6 +38,8 @@ import ZipDownloadIcon from '@material-ui/icons/Archive';
 import { DataGrid } from '@material-ui/data-grid';
 import { saveAs } from 'file-saver';
 import { lazy } from "@loadable/component"
+import SyntaxHighlighter from 'react-syntax-highlighter';
+import { docco } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 
 const LoadablePDFViewer = lazy(() => import("pdf-viewer-reactjs"))
 
@@ -81,6 +83,10 @@ const useStyles = makeStyles({
   fileTreeTable: {
     height: 440,
   },
+  fileContent: {
+    maxHeight: 600,
+    overflowY: "auto !important",
+  },
   noMaxWidth: {
     maxWidth: 'none',
   },
@@ -113,9 +119,8 @@ function authorSort(a, b) {
 
 const isBrowser = typeof window !== "undefined"
 
-const saveFileCID = async (ipfs, cid, name) => {
+async function saveFileCID(ipfs, cid, name) {
   const chunks = []
-  console.log(cid, name)
   for await (const chunk of ipfs.cat(cid)) {
     chunks.push(chunk)
     //const chunkNum = `${chunks.length}`
@@ -123,7 +128,6 @@ const saveFileCID = async (ipfs, cid, name) => {
   }
   const file = uint8arrays.concat(chunks)
   const fileBlob = new Blob([file.buffer])
-  console.log(fileBlob,name)
   saveAs(fileBlob, name)
 }
 
@@ -140,7 +144,23 @@ function LinearProgressWithLabel(props) {
   );
 }
 
-const loadArticle = async (ipfs, isIpfsReady, publication, revision, setArticleContent) => {
+async function showFileContents(ipfs, cid, name, setFileContent) {
+  const chunks = []
+  for await (const chunk of ipfs.cat(cid)) {
+    chunks.push(chunk)
+    const chunkNum = `${chunks.length}`
+    setFileContent(<><LinearProgressWithLabel variant="indeterminate" color="secondary" label={`loading chunk ${chunkNum}`} /></>)
+  }
+  const file = uint8arrays.concat(chunks)
+  const code = new TextDecoder().decode(file)
+  setFileContent(
+    <SyntaxHighlighter showLineNumbers={true} wrapLines={true} style={docco}>
+      {code}
+    </SyntaxHighlighter>
+  )
+}
+
+async function loadArticle(ipfs, isIpfsReady, publication, revision, setArticleContent) {
   const articleCid = publication.revisions[revision].article
   if (!articleCid) {
     setArticleContent(<><Typography m={2}>Article not found.</Typography></>)
@@ -178,7 +198,7 @@ const loadArticle = async (ipfs, isIpfsReady, publication, revision, setArticleC
   }
 }
 
-const loadSourceCode = async (ipfs, isIpfsReady, publication, revision, setSourceCodeContent, classes) => {
+async function loadSourceCode(ipfs, isIpfsReady, publication, revision, setSourceCodeContent, setFileContent, classes) {
   const sourceCodeCid = publication.revisions[revision].source_code
   if (!sourceCodeCid) {
     setSourceCodeContent(<><Typography m={2}>Source code not found.</Typography></>)
@@ -212,7 +232,6 @@ const loadSourceCode = async (ipfs, isIpfsReady, publication, revision, setSourc
         cid,
       })
     }
-    console.log(rows)
 
     const columns = [
       {
@@ -261,7 +280,6 @@ const loadSourceCode = async (ipfs, isIpfsReady, publication, revision, setSourc
         description: 'Download',
         width: 60,
         renderCell: (params) => {
-          console.log(params)
           return (<DownloadIcon onClick={() => {saveFileCID(ipfs, params.row.cid, params.row.name)}} />)
         },
       },
@@ -289,10 +307,18 @@ const loadSourceCode = async (ipfs, isIpfsReady, publication, revision, setSourc
       },
     ];
 
+    function onRowClick(params) {
+      if (isBrowser && params.row.type === 'file') {
+        showFileContents(ipfs, params.row.cid, params.row.name, setFileContent)
+      }
+    }
+
     setSourceCodeContent(
+      <>
       <Box className={classes.fileTreeTable}>
-        <DataGrid disableColumnReorder={true} hideFooterSelectedRowCount={true} headerHeight={42} rowHeight={42} rows={rows} columns={columns} pageSize={8}/>
+        <DataGrid disableColumnReorder={true} hideFooterSelectedRowCount={true} headerHeight={42} rowHeight={42} rows={rows} columns={columns} pageSize={8} onRowClick={onRowClick}/>
       </Box>
+      </>
     )
   }
 }
@@ -359,17 +385,22 @@ const Render = ({ data, pageContext }) => {
 
   const [sourceCodeContent, setSourceCodeContent] = React.useState(<><LinearProgressWithLabel color="secondary" variant="indeterminate" label="loading..."/></>)
 
+  const [fileContent, setFileContent] = React.useState(<></>)
+
   const [tab, setTab] = React.useState('1');
   const handleTabChange = (event, newValue) => {
     setTab(newValue)
     switch (newValue) {
     case '1':
+      setFileContent(<></>)
       break
     case '2':
       loadArticle(ipfs, isIpfsReady, publication, revision, setArticleContent)
+      setFileContent(<></>)
       break
     case '3':
-      loadSourceCode(ipfs, isIpfsReady, publication, revision, setSourceCodeContent, classes)
+      loadSourceCode(ipfs, isIpfsReady, publication, revision, setSourceCodeContent, setFileContent, classes)
+      setFileContent(<></>)
       break
     default:
       console.error(`Encountered unsupported tab value: ${newValue}`)
@@ -406,6 +437,9 @@ const Render = ({ data, pageContext }) => {
           <TabPanel value="2">{articleContent}</TabPanel>
           <TabPanel value="3">{sourceCodeContent}</TabPanel>
         </TabContext>
+      </Box>
+      <Box component="div" id="fileContent" className={classes.fileContent}>
+       {fileContent}
       </Box>
       <br/>
     <Grid container justify='space-between' spacing={2}>
