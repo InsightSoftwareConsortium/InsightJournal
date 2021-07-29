@@ -1,6 +1,6 @@
 import React, { Suspense } from "react";
 import { graphql } from "gatsby";
-import { ThemeProvider, makeStyles } from '@material-ui/core/styles';
+import { ThemeProvider, makeStyles } from '@material-ui/styles';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import theme from '../theme';
@@ -25,16 +25,24 @@ import Select from '@material-ui/core/Select';
 import InputLabel from '@material-ui/core/InputLabel';
 import MenuItem from '@material-ui/core/MenuItem';
 import Grid from '@material-ui/core/Grid';
+import Breadcrumbs from '@material-ui/core/Breadcrumbs';
 import FormControl from '@material-ui/core/FormControl';
 import useIpfsFactory from '../hooks/use-ipfs-factory.js'
 import pWaitFor from 'p-wait-for';
 import uint8arrays from 'uint8arrays';
 import { Base64 } from 'js-base64';
-import DownloadIcon from '@material-ui/icons/CloudDownload';
+//import DownloadIcon from '@material-ui/icons/CloudDownload';
+import FolderIcon from '@material-ui/icons/Folder';
+import FileIcon from '@material-ui/icons/InsertDriveFile';
+import DownloadIcon from '@material-ui/icons/GetApp';
+import ZipDownloadIcon from '@material-ui/icons/Archive';
+import { DataGrid } from '@material-ui/data-grid';
 import { saveAs } from 'file-saver';
+import JSZip from 'jszip';
 import { lazy } from "@loadable/component"
+import SyntaxHighlighter from 'react-syntax-highlighter';
+import { docco } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 
-//const LoadablePDFViewer = lazy(() => import("../components/LoadablePDFViewer"))
 const LoadablePDFViewer = lazy(() => import("pdf-viewer-reactjs"))
 
 const useStyles = makeStyles({
@@ -69,6 +77,21 @@ const useStyles = makeStyles({
     margin: theme.spacing(1),
     minWidth: 30,
   },
+  treeRoot: {
+    height: 240,
+    flexGrow: 1,
+    maxWidth: 400,
+  },
+  fileTreeTable: {
+    height: 440,
+  },
+  fileContent: {
+    maxHeight: 600,
+    overflowY: "auto !important",
+  },
+  noMaxWidth: {
+    maxWidth: 'none',
+  },
 });
 
 const revisionNumbers = [
@@ -98,6 +121,60 @@ function authorSort(a, b) {
 
 const isBrowser = typeof window !== "undefined"
 
+async function saveFileCID(ipfs, cid, name) {
+  const chunks = []
+  for await (const chunk of ipfs.cat(cid)) {
+    chunks.push(chunk)
+    //const chunkNum = `${chunks.length}`
+    //setArticleContent(<><LinearProgressWithLabel variant="indeterminate" color="secondary" label={`loading chunk ${chunkNum}`} /></>)
+  }
+  const file = uint8arrays.concat(chunks)
+  const fileBlob = new Blob([file.buffer])
+  saveAs(fileBlob, name)
+}
+
+async function saveFileZipCID(ipfs, cid, name) {
+  const chunks = []
+  for await (const chunk of ipfs.cat(cid)) {
+    chunks.push(chunk)
+    //const chunkNum = `${chunks.length}`
+    //setArticleContent(<><LinearProgressWithLabel variant="indeterminate" color="secondary" label={`loading chunk ${chunkNum}`} /></>)
+  }
+  const file = uint8arrays.concat(chunks)
+  const zip = new JSZip()
+  zip.file(name, file)
+  zip.generateAsync({ type: 'blob' }).then((content) => {
+    saveAs(content, `${name}.zip`)
+  })
+}
+
+async function saveFileZip(ipfs, zip, path, cid) {
+  const chunks = []
+  for await (const chunk of ipfs.cat(cid)) {
+    chunks.push(chunk)
+  }
+  const file = uint8arrays.concat(chunks)
+  zip.file(path, file)
+}
+
+async function saveDirectoryZip(ipfs, zip, prefix, cid) {
+  for await (const file of ipfs.ls(cid)) {
+    const cid = file.cid.toString()
+    if (file.type === 'directory') {
+      await saveDirectoryZip(ipfs, zip, `${prefix}/${file.name}`, cid)
+    }
+    await saveFileZip(ipfs, zip, `${prefix}/${file.name}`, cid)
+  }
+}
+
+async function saveDirectoryZipCID(ipfs, cid, name) {
+  const zip = new JSZip()
+  await saveDirectoryZip(ipfs, zip, name, cid)
+  zip.generateAsync({ type: 'blob' }).then((content) => {
+    saveAs(content, `${name}.zip`)
+  })
+}
+
 function LinearProgressWithLabel(props) {
   return (
     <Box display="flex" alignItems="center">
@@ -109,6 +186,233 @@ function LinearProgressWithLabel(props) {
       </Box>
     </Box>
   );
+}
+
+async function showFileContents(ipfs, cid, name, setFileContent) {
+  const chunks = []
+  for await (const chunk of ipfs.cat(cid)) {
+    chunks.push(chunk)
+    const chunkNum = `${chunks.length}`
+    setFileContent(<><LinearProgressWithLabel variant="indeterminate" color="secondary" label={`loading chunk ${chunkNum}`} /></>)
+  }
+  const file = uint8arrays.concat(chunks)
+  const code = new TextDecoder().decode(file)
+  setFileContent(
+    <SyntaxHighlighter showLineNumbers={true} wrapLines={true} style={docco}>
+      {code}
+    </SyntaxHighlighter>
+  )
+}
+
+async function sourceCodeTreeRows(ipfs, revPath, treePath) {
+  const treeRows = []
+  for await (const file of ipfs.files.ls(`${revPath}/${treePath.slice(1).join('/')}`)) {
+    const cid = file.cid.toString()
+    treeRows.push({
+      type: file.type,
+      name: file.name,
+      size: file.size,
+      id: cid,
+      cid,
+    })
+  }
+  return treeRows
+}
+
+async function loadArticle(ipfs, isIpfsReady, publication, revision, setArticleContent) {
+  const articleCid = publication.revisions[revision].article
+  if (!articleCid) {
+    setArticleContent(<><Typography m={2}>Article not found.</Typography></>)
+  } else {
+    await pWaitFor(() => isIpfsReady, { interval: 100 })
+    const isOnline = await ipfs.isOnline()
+    if (!isOnline) {
+      await ipfs.start()
+    }
+
+    try {
+      await ipfs.files.stat(`/articles/${publication.publication_id}`)
+    } catch (error) {
+      await ipfs.files.mkdir(`/articles/${publication.publication_id}`, { cidVersion: 1, parents: true })
+    }
+
+    try {
+      await ipfs.files.stat(`/articles/${publication.publication_id}/${revision}.pdf`)
+    } catch (error) {
+      await ipfs.files.cp(`/ipfs/${articleCid}`, `/articles/${publication.publication_id}/${revision}.pdf`, { cidVersion: 1 })
+    }
+
+    const chunks = []
+    for await (const chunk of ipfs.files.read(`/articles/${publication.publication_id}/${revision}.pdf`)) {
+      chunks.push(chunk)
+      const chunkNum = `${chunks.length}`
+      setArticleContent(<><LinearProgressWithLabel variant="indeterminate" color="secondary" label={`loading chunk ${chunkNum}`} /></>)
+    }
+    setArticleContent(<><LinearProgressWithLabel color="primary" variant="determinate" value={100} label={`loading complete`} /></>)
+    const pdf = uint8arrays.concat(chunks)
+    const pdfBlob = new Blob([pdf.buffer])
+    const pdfBase64 = Base64.fromUint8Array(pdf)
+    const titleForFile = publication.title.split(' ').join('_')
+    setArticleContent(<><Button onClick={() => { saveAs(pdfBlob, `IJ-${publication.publication_id}-${titleForFile}.pdf`)}} startIcon={<DownloadIcon />} variant="contained">Download PDF</Button><Suspense fallback={<div>Loading</div>}><LoadablePDFViewer scale={1.4} minScale={1} maxScale={5} scaleStep={0.4} document={{ base64: pdfBase64 }} showThumbnail={{ scale: 1 }} /></Suspense></>)
+  }
+}
+
+async function loadSourceCode(ipfs, isIpfsReady, publication, revision, setSourceCodeContent, setFileContent, classes) {
+  const sourceCodeCid = publication.revisions[revision].source_code
+  if (!sourceCodeCid) {
+    setSourceCodeContent(<><Typography m={2}>Source code not found.</Typography></>)
+  } else {
+    await pWaitFor(() => isIpfsReady, { interval: 100 })
+    const isOnline = await ipfs.isOnline()
+    if (!isOnline) {
+      await ipfs.start()
+    }
+
+    try {
+      await ipfs.files.stat(`/sourceCodes/${publication.publication_id}`)
+    } catch (error) {
+      await ipfs.files.mkdir(`/sourceCodes/${publication.publication_id}`, { cidVersion: 1, parents: true })
+    }
+
+    const revPath = `/sourceCodes/${publication.publication_id}/${revision}`
+    try {
+      await ipfs.files.stat(revPath)
+    } catch (error) {
+      await ipfs.files.cp(`/ipfs/${sourceCodeCid}`, revPath, { cidVersion: 1 })
+    }
+    const rows = []
+    for await (const file of ipfs.files.ls(revPath)) {
+      const cid = file.cid.toString()
+      rows.push({
+        type: file.type,
+        name: file.name,
+        size: file.size,
+        id: cid,
+        cid,
+      })
+    }
+    let treePath = ['<root>']
+
+    const columns = [
+      {
+        field: 'type',
+        headerName: 'Type',
+        disableColumnMenu: true,
+        width: 40,
+        renderCell: (params) => {
+          if (params.value === "file") {
+            return (<FileIcon />)
+          }
+          return (<FolderIcon />)
+        },
+      },
+      {
+        field: 'name',
+        headerName: 'Name',
+        width: 440,
+        renderCell: (params) => {
+          return (
+          <div>
+            <Typography variant="body1" style={{ whitespace: 'normal', wordwrap: "break-word" }} >{params.value}</Typography>
+          </div>
+        )
+        }
+      },
+      { field: 'size',
+        headerName: 'Size',
+        description: 'Size (bytes)',
+        width: 120,
+        renderCell: (params) => {
+          if (params.value > 0) {
+            return (
+            <div>
+            <Typography variant="body2" style={{ whitespace: 'normal', wordwrap: "break-word" }} >{params.value}</Typography>
+            </div>
+            )
+          }
+          return (<div />)
+        }
+      },
+      {
+        field: 'download',
+        disableColumnMenu: true,
+        headerName: ' ',
+        description: 'Download',
+        width: 60,
+        renderCell: (params) => {
+          if (params.row.type === 'directory') {
+            return (<></>)
+          }
+          return (<DownloadIcon onClick={() => {saveFileCID(ipfs, params.row.cid, params.row.name)}} />)
+        },
+      },
+      {
+        field: 'zipdownload',
+        disableColumnMenu: true,
+        disableColumnSelector: true,
+        headerName: ' ',
+        description: 'Download as a Zip archive',
+        width: 60,
+        renderCell: (params) => {
+          if (params.row.type === 'directory') {
+            return (<ZipDownloadIcon onClick={() => {saveDirectoryZipCID(ipfs, params.row.cid, params.row.name)}} />)
+          }
+          return (<ZipDownloadIcon onClick={() => {saveFileZipCID(ipfs, params.row.cid, params.row.name)}} />)
+        },
+      },
+      {
+        field: 'cid',
+        description: 'IPFS Content Identifier (CID)',
+        disableColumnMenu: true,
+        headerName: 'CID',
+        width: 100,
+        renderCell: (params) => {
+          const short = `${params.value.substring(0, 8)}...`
+          return (<Tooltip placement="left-start" title={params.value} aria-label="cid" classes={{ tooltip: classes.noMaxWidth }} interactive="true"><Typography>{short}</Typography></Tooltip>)
+        },
+      },
+    ];
+
+    async function renderTreePath(path) {
+      const treeRows = await sourceCodeTreeRows(ipfs, revPath, path)
+      treePath = path
+      setNestedSourceCodeContent(path, treeRows)
+    }
+    function setNestedSourceCodeContent(path, treeRows) {
+      setSourceCodeContent(
+        <>
+        <Box className={classes.fileTreeTable}>
+          <DataGrid disableColumnReorder={true} hideFooterSelectedRowCount={true} headerHeight={42} rowHeight={42} rows={treeRows} columns={columns} pageSize={8} onRowClick={onRowClick}/>
+        </Box>
+        <Breadcrumbs>
+          {path.map((r, i) => {
+            const pathSlice = path.slice(0, i+1)
+            const onTreePathClick = () => renderTreePath(pathSlice)
+            return (<Typography onClick={onTreePathClick} key={i}>{r}</Typography>)
+          })}
+        </Breadcrumbs>
+        </>
+      )
+    }
+
+    async function onRowClick(params) {
+      if (isBrowser && params.row.type === 'file') {
+        showFileContents(ipfs, params.row.cid, params.row.name, setFileContent)
+      } else {
+        treePath.push(params.row.name)
+        const treeRows = await sourceCodeTreeRows(ipfs, revPath, treePath)
+        setNestedSourceCodeContent(treePath, treeRows)
+      }
+    }
+
+    setSourceCodeContent(
+      <>
+      <Box className={classes.fileTreeTable}>
+        <DataGrid disableColumnReorder={true} hideFooterSelectedRowCount={true} headerHeight={42} rowHeight={42} rows={rows} columns={columns} pageSize={8} onRowClick={onRowClick}/>
+      </Box>
+      </>
+    )
+  }
 }
 
 const Render = ({ data, pageContext }) => {
@@ -170,52 +474,25 @@ const Render = ({ data, pageContext }) => {
   }
 
   const [articleContent, setArticleContent] = React.useState(<><LinearProgressWithLabel color="secondary" variant="indeterminate" label="loading..."/></>)
-  const loadArticle = async () => {
-    const articleCid = publication.revisions[revision].article
-    if (!articleCid) {
-      setArticleContent(<><Typography m={2}>Article not found.</Typography></>)
-    } else {
-      await pWaitFor(() => isIpfsReady, { interval: 100 })
-      const isOnline = await ipfs.isOnline()
-      if (!isOnline) {
-        await ipfs.start()
-      }
 
-      try {
-        await ipfs.files.stat(`/articles/${publication.publication_id}`)
-      } catch (error) {
-        await ipfs.files.mkdir(`/articles/${publication.publication_id}`, { cidVersion: 1, parents: true })
-      }
+  const [sourceCodeContent, setSourceCodeContent] = React.useState(<><LinearProgressWithLabel color="secondary" variant="indeterminate" label="loading..."/></>)
 
-      try {
-        await ipfs.files.stat(`/articles/${publication.publication_id}/${revision}.pdf`)
-      } catch (error) {
-        await ipfs.files.cp(`/ipfs/${articleCid}`, `/articles/${publication.publication_id}/${revision}.pdf`, { cidVersion: 1 })
-      }
-
-      const chunks = []
-      for await (const chunk of ipfs.files.read(`/articles/${publication.publication_id}/${revision}.pdf`)) {
-        chunks.push(chunk)
-        const chunkNum = `${chunks.length}`
-        setArticleContent(<><LinearProgressWithLabel variant="indeterminate" color="secondary" label={`loading chunk ${chunkNum}`} /></>)
-      }
-      setArticleContent(<><LinearProgressWithLabel color="primary" variant="determinate" value={100} label={`loading complete`} /></>)
-      const pdf = uint8arrays.concat(chunks)
-      const pdfBlob = new Blob([pdf.buffer])
-      const pdfBase64 = Base64.fromUint8Array(pdf)
-      const titleForFile = publication.title.split(' ').join('_')
-      setArticleContent(<><Button onClick={() => { saveAs(pdfBlob, `IJ-${publication.publication_id}-${titleForFile}.pdf`)}} startIcon={<DownloadIcon />} variant="contained">Download PDF</Button><Suspense fallback={<div>Loading</div>}><LoadablePDFViewer scale={1.4} minScale={1} maxScale={5} scaleStep={0.4} document={{ base64: pdfBase64 }} showThumbnail={{ scale: 1 }} /></Suspense></>)
-    }
-  }
+  const [fileContent, setFileContent] = React.useState(<></>)
 
   const [tab, setTab] = React.useState('1');
   const handleTabChange = (event, newValue) => {
     setTab(newValue)
     switch (newValue) {
     case '1':
+      setFileContent(<></>)
       break
     case '2':
-      loadArticle()
+      loadArticle(ipfs, isIpfsReady, publication, revision, setArticleContent)
+      setFileContent(<></>)
+      break
+    case '3':
+      loadSourceCode(ipfs, isIpfsReady, publication, revision, setSourceCodeContent, setFileContent, classes)
+      setFileContent(<></>)
       break
     default:
       console.error(`Encountered unsupported tab value: ${newValue}`)
@@ -246,10 +523,15 @@ const Render = ({ data, pageContext }) => {
           <TabList indicatorColor="primary" textColor="primary" aria-label="publication component" onChange={handleTabChange}>
             <Tab label="Abstract" value="1" />
             <Tab label="Article" value="2" />
+            <Tab label="Source Code" value="3" />
           </TabList>
           <TabPanel value="1"><Typography variant="body1">{publication.abstract}</Typography></TabPanel>
           <TabPanel value="2">{articleContent}</TabPanel>
+          <TabPanel value="3">{sourceCodeContent}</TabPanel>
         </TabContext>
+      </Box>
+      <Box component="div" id="fileContent" className={classes.fileContent}>
+       {fileContent}
       </Box>
       <br/>
     <Grid container justify='space-between' spacing={2}>
@@ -297,6 +579,7 @@ export const query = graphql`
         revisions {
           article
           handle
+          source_code
         }
         categories
         comments {

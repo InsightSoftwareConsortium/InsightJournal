@@ -8,11 +8,11 @@
     "@gatsby-contrib/gatsby-plugin-elasticlunr-search": "^3.0.2",
     "@loadable/component": "^5.15.0",
     "@material-ui/core": "next",
-    "@material-ui/data-grid": "^4.0.0-alpha.27",
+    "@material-ui/data-grid": "^4.0.0-alpha.31",
     "@material-ui/icons": "next",
-    "@material-ui/lab": "^4.0.0-alpha.58",
+    "@material-ui/lab": "^5.0.0-alpha.40",
     "@material-ui/styles": "next",
-    "@material/menu": "next",
+    "@material/menu": "11.0.0",
     "bulma": "^0.9.2",
     "bulma-helpers": "^0.4.0",
     "copy-webpack-plugin": "^8.1.1",
@@ -27,19 +27,21 @@
     "gatsby-transformer-json": "latest",
     "gatsby-transformer-sharp": "^3.2.0",
     "html-react-parser": "^1.2.4",
-    "ipfs-core": "^0.6.1",
+    "ipfs-core": "^0.8.0",
     "js-base64": "^3.6.0",
+    "jszip": "^3.6.0",
     "material-design-icons": "^3.0.1",
     "p-wait-for": "^4.0.0",
     "pdf-viewer-reactjs": "^2.2.3",
     "react": "latest",
     "react-dom": "latest",
     "react-helmet": "^6.1.0",
+    "react-syntax-highlighter": "^15.4.3",
     "uint8arrays": "^2.1.5"
   },
   "scripts": {
-    "develop": "gatsby develop",
+    "develop": "gatsby develop --port 8081",
     "build": "gatsby build",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve --port 8081"
   }
 }
