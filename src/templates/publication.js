@@ -253,7 +253,7 @@ async function loadArticle(ipfs, isIpfsReady, publication, revision, setArticleC
     const pdfBlob = new Blob([pdf.buffer])
     const pdfBase64 = Base64.fromUint8Array(pdf)
     const titleForFile = publication.title.split(' ').join('_')
-    setArticleContent(<><Button onClick={() => { saveAs(pdfBlob, `IJ-${publication.publication_id}-${titleForFile}.pdf`)}} startIcon={<DownloadIcon />} variant="contained">Download PDF</Button><Suspense fallback={<div>Loading</div>}><LoadablePDFViewer scale={1.4} minScale={1} maxScale={5} scaleStep={0.4} document={{ base64: pdfBase64 }} showThumbnail={{ scale: 1 }} /></Suspense></>)
+    setArticleContent(<><Suspense fallback={<div>Loading</div>}><LoadablePDFViewer scale={1.4} minScale={1} maxScale={5} scaleStep={0.4} document={{ base64: pdfBase64 }} showThumbnail={{ scale: 1 }} /><Button onClick={() => { saveAs(pdfBlob, `IJ-${publication.publication_id}-${titleForFile}.pdf`)}} startIcon={<DownloadIcon />} variant="contained">Download PDF</Button></Suspense></>)
   }
 }
 
