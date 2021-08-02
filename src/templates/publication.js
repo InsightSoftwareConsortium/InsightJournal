@@ -403,6 +403,7 @@ async function loadSourceCode(ipfs, isIpfsReady, publication, revision, setSourc
           <Button disabled={!!chunksLoaded} onClick={() => {saveDirectoryZipCID(ipfs, sourceCodeCid, titleForFile, setChunksLoaded)}} startIcon={<DownloadIcon />} variant="contained">Download Source Code</Button>
           {!!chunksLoaded && <CircularProgress size={24} color="secondary" value={chunksLoaded} className={classes.buttonProgress} />}
         </Box>
+          {publication.source_code_git_repo && <Box><Typography><code>git clone <MuiLink target="_blank" href={publication.source_code_git_repo}>{publication.source_code_git_repo}</MuiLink></code></Typography></Box>}
       </div>)
     }
 
@@ -483,7 +484,7 @@ const Render = ({ data, pageContext }) => {
   }
   let submit_inst = "";
   let submit_auth = "";
-  if(publication.submitted_by_author) {
+  if (publication.submitted_by_author) {
     submit_inst = publication.submitted_by_author.author_institution
     submit_auth = `${publication.submitted_by_author.author_firstname} ${publication.submitted_by_author.author_lastname}`
   }
@@ -612,6 +613,7 @@ export const query = graphql`
           author_lastname
         }
         publication_id
+        source_code_git_repo
         revisions {
           article
           handle
