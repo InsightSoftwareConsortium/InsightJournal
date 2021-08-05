@@ -21,6 +21,7 @@ import TabList from '@material-ui/lab/TabList';
 import TabPanel from '@material-ui/lab/TabPanel';
 import TabContext from '@material-ui/lab/TabContext';
 import LinearProgress from '@material-ui/core/LinearProgress';
+import CircularProgress from '@material-ui/core/CircularProgress';
 import Select from '@material-ui/core/Select';
 import InputLabel from '@material-ui/core/InputLabel';
 import MenuItem from '@material-ui/core/MenuItem';
@@ -85,6 +86,21 @@ const useStyles = makeStyles({
   fileTreeTable: {
     height: 440,
   },
+  sourceCodeDownload: {
+    paddingTop:"20px",
+    paddingBottom:"15px",
+  },
+  buttonProgress: {
+    position: 'absolute',
+    top: '50%',
+    left: '50%',
+    marginTop: -12,
+    marginLeft: -12,
+  },
+  downloadWrapper: {
+    margin: theme.spacing(1),
+    position: 'relative',
+  },
   fileContent: {
     maxHeight: 600,
     overflowY: "auto !important",
@@ -148,28 +164,35 @@ async function saveFileZipCID(ipfs, cid, name) {
   })
 }
 
-async function saveFileZip(ipfs, zip, path, cid) {
+async function saveFileZip(ipfs, zip, path, cid, chunksLoaded, setChunksLoaded) {
   const chunks = []
   for await (const chunk of ipfs.cat(cid)) {
+    setChunksLoaded && setChunksLoaded(chunksLoaded++)
     chunks.push(chunk)
   }
   const file = uint8arrays.concat(chunks)
   zip.file(path, file)
+  return chunksLoaded
 }
 
-async function saveDirectoryZip(ipfs, zip, prefix, cid) {
+async function saveDirectoryZip(ipfs, zip, prefix, cid, chunksLoaded, setChunksLoaded) {
+  setChunksLoaded && setChunksLoaded(chunksLoaded++)
   for await (const file of ipfs.ls(cid)) {
     const cid = file.cid.toString()
-    if (file.type === 'directory') {
-      await saveDirectoryZip(ipfs, zip, `${prefix}/${file.name}`, cid)
+    if (file.type === 'dir') {
+      chunksLoaded = await saveDirectoryZip(ipfs, zip, `${prefix}/${file.name}`, cid, chunksLoaded, setChunksLoaded)
+    } else {
+      chunksLoaded = await saveFileZip(ipfs, zip, `${prefix}/${file.name}`, cid, chunksLoaded, setChunksLoaded)
     }
-    await saveFileZip(ipfs, zip, `${prefix}/${file.name}`, cid)
   }
+  return chunksLoaded
 }
 
-async function saveDirectoryZipCID(ipfs, cid, name) {
+async function saveDirectoryZipCID(ipfs, cid, name, setChunksLoaded) {
   const zip = new JSZip()
-  await saveDirectoryZip(ipfs, zip, name, cid)
+  let chunksLoaded = 0
+  await saveDirectoryZip(ipfs, zip, name, cid, chunksLoaded, setChunksLoaded)
+  setChunksLoaded && setChunksLoaded(0)
   zip.generateAsync({ type: 'blob' }).then((content) => {
     saveAs(content, `${name}.zip`)
   })
@@ -253,7 +276,7 @@ async function loadArticle(ipfs, isIpfsReady, publication, revision, setArticleC
     const pdfBlob = new Blob([pdf.buffer])
     const pdfBase64 = Base64.fromUint8Array(pdf)
     const titleForFile = publication.title.split(' ').join('_')
-    setArticleContent(<><Button onClick={() => { saveAs(pdfBlob, `IJ-${publication.publication_id}-${titleForFile}.pdf`)}} startIcon={<DownloadIcon />} variant="contained">Download PDF</Button><Suspense fallback={<div>Loading</div>}><LoadablePDFViewer scale={1.4} minScale={1} maxScale={5} scaleStep={0.4} document={{ base64: pdfBase64 }} showThumbnail={{ scale: 1 }} /></Suspense></>)
+    setArticleContent(<><Suspense fallback={<div>Loading</div>}><LoadablePDFViewer scale={1.4} minScale={1} maxScale={5} scaleStep={0.4} document={{ base64: pdfBase64 }} showThumbnail={{ scale: 1 }} /><Button onClick={() => { saveAs(pdfBlob, `IJ-${publication.publication_id}-${titleForFile}.pdf`)}} startIcon={<DownloadIcon />} variant="contained">Download PDF</Button></Suspense></>)
   }
 }
 
@@ -357,7 +380,7 @@ async function loadSourceCode(ipfs, isIpfsReady, publication, revision, setSourc
           if (params.row.type === 'directory') {
             return (<ZipDownloadIcon onClick={() => {saveDirectoryZipCID(ipfs, params.row.cid, params.row.name)}} />)
           }
-          return (<ZipDownloadIcon onClick={() => {saveFileZipCID(ipfs, params.row.cid, params.row.name)}} />)
+          return (<ZipDownloadIcon onClick={() => {saveFileZipCID(ipfs, params.row.cid, params.row.name, 0)}} />)
         },
       },
       {
@@ -372,6 +395,17 @@ async function loadSourceCode(ipfs, isIpfsReady, publication, revision, setSourc
         },
       },
     ];
+
+    function FullDownloadInterface() {
+      const [chunksLoaded, setChunksLoaded] = React.useState(0);
+      return (<div className={classes.downloadWrapper}>
+        <Box className={classes.sourceCodeDownload}>
+          <Button disabled={!!chunksLoaded} onClick={() => {saveDirectoryZipCID(ipfs, sourceCodeCid, titleForFile, setChunksLoaded)}} startIcon={<DownloadIcon />} variant="contained">Download Source Code</Button>
+          {!!chunksLoaded && <CircularProgress size={24} color="secondary" value={chunksLoaded} className={classes.buttonProgress} />}
+        </Box>
+          {publication.source_code_git_repo && <Box><Typography><code>git clone <MuiLink target="_blank" href={publication.source_code_git_repo}>{publication.source_code_git_repo}</MuiLink></code></Typography></Box>}
+      </div>)
+    }
 
     async function renderTreePath(path) {
       const treeRows = await sourceCodeTreeRows(ipfs, revPath, path)
@@ -391,6 +425,7 @@ async function loadSourceCode(ipfs, isIpfsReady, publication, revision, setSourc
             return (<Typography onClick={onTreePathClick} key={i}>{r}</Typography>)
           })}
         </Breadcrumbs>
+        <FullDownloadInterface/>
         </>
       )
     }
@@ -405,11 +440,13 @@ async function loadSourceCode(ipfs, isIpfsReady, publication, revision, setSourc
       }
     }
 
+    const titleForFile = publication.title.split(' ').join('_')
     setSourceCodeContent(
       <>
       <Box className={classes.fileTreeTable}>
         <DataGrid disableColumnReorder={true} hideFooterSelectedRowCount={true} headerHeight={42} rowHeight={42} rows={rows} columns={columns} pageSize={8} onRowClick={onRowClick}/>
       </Box>
+      <FullDownloadInterface/>
       </>
     )
   }
@@ -447,7 +484,7 @@ const Render = ({ data, pageContext }) => {
   }
   let submit_inst = "";
   let submit_auth = "";
-  if(publication.submitted_by_author) {
+  if (publication.submitted_by_author) {
     submit_inst = publication.submitted_by_author.author_institution
     submit_auth = `${publication.submitted_by_author.author_firstname} ${publication.submitted_by_author.author_lastname}`
   }
@@ -576,6 +613,7 @@ export const query = graphql`
           author_lastname
         }
         publication_id
+        source_code_git_repo
         revisions {
           article
           handle
