@@ -4,7 +4,7 @@ import Button from '@material-ui/core/Button';
 import MenuItem from '@material-ui/core/MenuItem';
 import Select from '@material-ui/core/Select';
 
-export default function Citation({ publication, journalTitle}) {
+export default function Citation({ publication, journal }) {
   let citString = ""
   // lastnames: purely last name
   let last_names = [];
@@ -85,25 +85,34 @@ ${publication.abstract}
     citString = citData.join("\n")
   }
   const generateTextCitation = (publication) => {
-    citString = `${text_names.join(", ")} "${publication.title}". ${journalTitle}. `;
+    citString = `${text_names.join(", ")} "${publication.title}". ${journal.title}. `;
     citString += `${submission_date.getFullYear()} ${submission_date.toLocaleString('default', { month: 'short' })}. `;
     citString += `http://hdl.handle.net/${publication.revisions[publication.revisions.length-1].handle}`;
   };
   const generateBibTextCitation = (publication) => {
 
-    let citData = [`@comment{This file has been generated}`]
+    let citData = []
 
-    citData.push(`@Article{${last_names.join("+")}${submission_date.getFullYear()}`)
-    citData.push(`Authors = "${bibtext_names.join(" and ")}",`)
-    citData.push(`Title = "${publication.title}",`)
+    citData.push(`@article{${last_names.join("_")}${submission_date.getFullYear()}`)
+    citData.push(`author = "${bibtext_names.join(" and ")}",`)
+    citData.push(`title = "${publication.title}",`)
     citData.push(`howpublished = "\\url{http://hdl.handle.net/${publication.revisions[publication.revisions.length-1].handle}}",`)
-    citData.push(`Year = ${submission_date.getFullYear()},`)
-    citData.push(`Month = ${('0' + (submission_date.getMonth()+1)).slice(-2)},`)
-    citData.push(`Abstract = "${publication.abstract}",`)
+    citData.push(`year = ${submission_date.getFullYear()},`)
+    citData.push(`month = ${('0' + (submission_date.getMonth()+1)).slice(-2)},`)
+    citData.push(`abstract = "${publication.abstract}",`)
     if(publication.submitted_by_author) {
-      citData.push(`Institution = "${publication.submitted_by_author.author_institution}",`)
+      citData.push(`institution = "${publication.submitted_by_author.author_institution}",`)
     }
-    // Keyword information goes here
+    if(journal.issn) {
+      citData.push(`issn = "${journal.issn}",`)
+    }
+    citData.push(`publisher = "${journal.title}",`)
+    const last_revision_doi = publication.revisions[publication.revisions.length-1].doi
+    console.log("last_revision_doi", last_revision_doi)
+    if(last_revision_doi) {
+      // doi (with no http://)
+      citData.push(`doi = "${last_revision_doi}",`)
+    }
     citData.push("}")
     citString = citData.join("\n")
   };

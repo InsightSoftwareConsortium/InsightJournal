@@ -573,7 +573,7 @@ const Render = ({ data, pageContext }) => {
       <br/>
     <Grid container justify='space-between' spacing={2}>
         <Grid item xs>
-          <Citation publication={publication} journalTitle={data.site.siteMetadata.title}/>
+          <Citation publication={publication} journal={data.site.siteMetadata}/>
         </Grid>
         <Grid item xs>
           <FormControl variant="standard" margin="none" className={classes.revisionFormControl}>
