@@ -2,8 +2,8 @@
   "publication": {
     "abstract": "We present a nearly automatic tool for the accurate segmentation\nof vascular structures in volumetric CTA images. Its inputs are a start\nand an end seed points inside the vessel. The two-step graph-based energy\nminimization method starts by computing the weighted shortest path between\nthe vessel seed endpoints based on local image and seed intensities and\nvessel path geometric characteristics. It then automatically defines a\nVessel Region Of Interest (VROI) from the shortest path and the estimated\nvessel radius, and extracts the vessels boundaries by minimize the energy\non a corresponding graph cut.\n\nWe evaluate our method within the 2009 MICCAI 3D Segmentation Challenge for\nClinical Applications Workshop. Experimental results on the 46 carotid\nbifurcations from clinical CTAs, compared to ground-truth genrated by\naveraging three manual annotations, \nyield an average symmetric surface distance of\n0.83mm and a Dice similarity of 81.8%, with only three input seeds.\nThese results indicates that our method is easy to use, produces accurate\nsegmentations of vessels lumen, and is robust to intensity variations\ninside the vessels, radius changes, bifurcations, and nearby anatomical\nstructures with similar intensity values.",
     "articles": [
-      "bafybeigzbmwm6cqjnii365aavuugdfwv4xqy5rpqeavcuxf7m2uyyq5bka",
-      "bafybeidrxa42dcwraklu4wu4b5h5tdihjgrexfx4xbvqmt7tk4ae4pfvam"
+      "bafybeicdx3d6xx5otferdru47x42lgcwzjfluhmrsgnaze6drid2tlyizu",
+      "bafybeihfziu4uw4n53pidgr4mioc7f65zzzxk3ozrpt5tvknoo6hop5nze"
     ],
     "authors": [
       {

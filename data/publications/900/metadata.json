@@ -2,7 +2,7 @@
   "publication": {
     "abstract": "In this paper we applied one of our regularly used processing pipelines for fully automated brain tissue segmentation. Brain tissue was segmented in cerebrospinal fluid (CSF), gray matter (GM) and white matter (WM). Our algorithms for skull stripping, tissue segmentation and white matter lesion (WML) detection were slightly adapted and applied to twelve data sets within the MRBrainS13 brain tissue segmentation challenge. Skull stripping is performed using non-rigid registration of 5 atlas masks. Our tissue segmentation is based on an automatically trained kNN-classifier. Training samples were obtained by non-rigid registration of 5 manually labeled scans followed by a pruning step in feature space to remove any residual erroneously sampled tissue voxels. The kNN-classification incorporates voxel intensities from a T1-weighted scan and a FLAIR scan. The white matter lesion detection is based on an automatically determined threshold on the FLAIR scan. The application of the algorithms on the data from the MRBrainS13 Challenge showed that our pipeline produces acceptable segmentations. Average resulting Dice scores were 77.86 (CSF), 81.22 (GM), 87.27 (WM), 93.78 (total parenchyma), and 96.26 (all intracranial structures). Total processing time was about 2 hours per subject.",
     "articles": [
-      "bafybeicjf4oh5gpm5zt6itblohnqv7fbpw6dant752iu72s4n4ao5m6rca"
+      "bafkreieojkaitf4xedqkttwtj5pmnc3rrnjp5h5p6zjnkfxgiecddb56du"
     ],
     "authors": [
       {

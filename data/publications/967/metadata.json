@@ -2,7 +2,7 @@
   "publication": {
     "abstract": "We present a fully automatic model based system for segmenting the mandible, parotid and submandibular glands, brainstem, optic nerves and the optic chiasm in CT images, which won the MICCAI 2015 Head and Neck Auto Segmentation Grand Challenge. The method is based on Active Appearance Models (AAM) built from manually segmented examples via a cancer imaging archive provided by the challenge organisers. High quality anatomical correspondences for the models are generated using a Minimum Description Length (MDL) Groupwise Image Registration method. A multi start optimisation scheme is used to robustly match the model to new images. The model has been cross validated on the training data to a good degree of accuracy, and successfully segmented all the test data. \n",
     "articles": [
-      "bafybeigu3772kwlm2tulqrpjkjydphmql56k7rhqgvh2nfitj2r4r4zw3q"
+      "bafkreicd4ekxmd73lf46eiqa6bp7e5sybsge7par4gn7r6amr3ot67zdhq"
     ],
     "authors": [
       {

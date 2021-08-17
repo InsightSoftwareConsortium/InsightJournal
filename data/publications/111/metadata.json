@@ -2,18 +2,18 @@
   "publication": {
     "abstract": "Statistical Shape Models are a popular method for segmenting three-dimensional medical images. To\r\nobtain the required landmark correspondences, various automatic approaches have been proposed. In\r\nthis work, we present an improved version of minimizing the description length (MDL) of the model. To\r\ninitialize the algorithm, we describe a method to distribute landmarks on the training shapes using a conformal\r\nparameterization function. Then, we introduce a novel procedure to modify landmark positions\r\nlocally without disturbing established correspondences. We employ a gradient descent optimization to\r\nminimize the MDL cost function, speeding up automatic model building by several orders of magnitude\r\nwhen compared to the original MDL approach. The necessary gradient information is estimated from\r\na singular value decomposition, a more accurate technique to calculate the PCA than the commonly\r\nused eigendecomposition of the covariance matrix. In this work, we first present a basic version where\r\nspatial locations are used in the MDL cost function; next, we introduce an extended version where any\r\ncombination of features can be used as a metric. As an example application, we present results based on\r\nlocal curvature measurements. Finally, we present results for synthetic and real-world datasets demonstrating\r\nthe efficiency of our procedures and give details about the implementation using the Insight\r\nToolkit (ITK).",
     "articles": [
-      "bafybeienfki74mxok4gnsrvdvvbarn445yoj26ofwncgb5hgt52zceo4au",
-      "bafybeigcfxdmzzcj7gsukpos5i4j3ejpqegfpzp7qcy7ul3irfryw2nkou",
-      "bafybeigcfxdmzzcj7gsukpos5i4j3ejpqegfpzp7qcy7ul3irfryw2nkou",
-      "bafybeigcfxdmzzcj7gsukpos5i4j3ejpqegfpzp7qcy7ul3irfryw2nkou",
-      "bafybeifusir3pbniiusoocuca33dhdjkrt33jobwo6qp6zhh6z2emgmnoq",
-      "bafybeifusir3pbniiusoocuca33dhdjkrt33jobwo6qp6zhh6z2emgmnoq",
-      "bafybeifusir3pbniiusoocuca33dhdjkrt33jobwo6qp6zhh6z2emgmnoq",
-      "bafybeigcfxdmzzcj7gsukpos5i4j3ejpqegfpzp7qcy7ul3irfryw2nkou",
-      "bafybeigcfxdmzzcj7gsukpos5i4j3ejpqegfpzp7qcy7ul3irfryw2nkou",
-      "bafybeigcfxdmzzcj7gsukpos5i4j3ejpqegfpzp7qcy7ul3irfryw2nkou",
-      "bafybeigcfxdmzzcj7gsukpos5i4j3ejpqegfpzp7qcy7ul3irfryw2nkou",
-      "bafybeigcfxdmzzcj7gsukpos5i4j3ejpqegfpzp7qcy7ul3irfryw2nkou"
+      "bafkreieegklg3uv2qdffzixgvzkwt5b7y6ucknmxkxyfaj22qfeexf4dba",
+      "bafkreig2iius3ktuxbzrfygifw7ecpc7hjbldln6ifjwt7sizlbp4hqxbu",
+      "bafkreig2iius3ktuxbzrfygifw7ecpc7hjbldln6ifjwt7sizlbp4hqxbu",
+      "bafkreig2iius3ktuxbzrfygifw7ecpc7hjbldln6ifjwt7sizlbp4hqxbu",
+      "bafkreidc42dqu67bs6huke43rluscb4h3iatxj5pufc3ux6i6bheotzzvi",
+      "bafkreidc42dqu67bs6huke43rluscb4h3iatxj5pufc3ux6i6bheotzzvi",
+      "bafkreidc42dqu67bs6huke43rluscb4h3iatxj5pufc3ux6i6bheotzzvi",
+      "bafkreig2iius3ktuxbzrfygifw7ecpc7hjbldln6ifjwt7sizlbp4hqxbu",
+      "bafkreig2iius3ktuxbzrfygifw7ecpc7hjbldln6ifjwt7sizlbp4hqxbu",
+      "bafkreig2iius3ktuxbzrfygifw7ecpc7hjbldln6ifjwt7sizlbp4hqxbu",
+      "bafkreig2iius3ktuxbzrfygifw7ecpc7hjbldln6ifjwt7sizlbp4hqxbu",
+      "bafkreig2iius3ktuxbzrfygifw7ecpc7hjbldln6ifjwt7sizlbp4hqxbu"
     ],
     "authors": [
       {

@@ -2,9 +2,9 @@
   "publication": {
     "abstract": "Topological considerations for segmentation results are important for such applications as proper brain segmentation from digital image data. We present an enhancement of the FastMarchingImageFilter which allows for topologically constrained evolution of the level set. Identical to the original functionality of the FastMarchingImageFilter, the evolution of the level set of a single or multiple genus zero, well-composed seed objects proceeds according to the specified parameters. With our proposed enhancements, the user can either choose to prevent the level set from merging with itself such that the original topology of the initial seed object(s) is not violated or that no handles are created during the evolution process. However, in contrast to earlier approaches which relied on the concept of the simple point implicitly requiring the definition of a user-specified foreground/background connectivity, we use the related, but more restrictive concept of well-composed sets to topologically constrain the evolution of the level set. Utility of our submission is demonstrated on both 2-D and 3-D brain images. Note that this submission is a companion piece to a more theoretical discussion of our work given in [9]",
     "articles": [
-      "bafybeicohelml6p5puqsssktzznqgz5ub4tdtgutitzsok57palelilemm",
-      "bafybeicbeyibwditj7t6sjwibbvzansuauhjzzi2bl2tmyuhmq72o6q54i",
-      "bafybeicohelml6p5puqsssktzznqgz5ub4tdtgutitzsok57palelilemm"
+      "bafybeieykk6d7i4ecmdnc6oq7p3zndtyv3izr3yw2vichbijm4wsqk3pii",
+      "bafybeigyhn5khbanvo2jjbyppb5tlqrqtwvzlapjbloaf32rrgsmz2i5ou",
+      "bafybeieykk6d7i4ecmdnc6oq7p3zndtyv3izr3yw2vichbijm4wsqk3pii"
     ],
     "authors": [
       {

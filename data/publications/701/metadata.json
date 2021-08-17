@@ -2,11 +2,11 @@
   "publication": {
     "abstract": "This paper presents parsing software for importing contours from DICOM RT structure set files into binary image files. This is a common requirement for transferring expert manual segmentations from radiotherapy treatment planning software into external image analysis environments (such as ITK). We provide an implementation of RT structure set importing and give some example results from prostate cancer radiotherapy planning volumes. \n\nPlease note that this implementation requires GDCM 2.0 to be installed (this is trivial; however this requirement is the reason for the low automatic testing score by the Insight-Journal Dashboard).\n\nPlease Note: Updated June 2010 for a couple of minor issues (pls. see comments in .cxx) and to remove the requirement for image template. This code now reads the dcm directory and creates a 3D volume and associated binary structure volumes (all in NIfTI format).\nUsage: itkDICOMRT DicomDirectory inputDICOMRTImageFile OutputFilePrefix\n\nFeb 2013: Please note that this code won't work with ITK4 and above - instead please see: http://hdl.handle.net/10380/3401 . There is also a new test DICOM-RT directory with that paper. \n\nMar 2013 Now correctly handles holes within structures. Thanks to Sebastian Steger for the code fix.\n",
     "articles": [
-      "bafybeicypgux5oetasff3mgpidbdosh5xn4rw35553hrblxaxzvezojywq",
-      "bafybeifohmva24ovew7kc2d4r47cf6hf45ikyjh556whncuvwl2ganeb64",
-      "bafybeifohmva24ovew7kc2d4r47cf6hf45ikyjh556whncuvwl2ganeb64",
-      "bafybeifohmva24ovew7kc2d4r47cf6hf45ikyjh556whncuvwl2ganeb64",
-      "bafybeifohmva24ovew7kc2d4r47cf6hf45ikyjh556whncuvwl2ganeb64"
+      "bafkreid3cbk4sac6bqi6gv7ni2ijp7hcovyiq4tdt7ilfyuzsqjkcy2yla",
+      "bafkreieagv2mpksz7vzt4xjpnm4i2yhwrsqsnp65fuvpocvw2hfiwb75au",
+      "bafkreieagv2mpksz7vzt4xjpnm4i2yhwrsqsnp65fuvpocvw2hfiwb75au",
+      "bafkreieagv2mpksz7vzt4xjpnm4i2yhwrsqsnp65fuvpocvw2hfiwb75au",
+      "bafkreieagv2mpksz7vzt4xjpnm4i2yhwrsqsnp65fuvpocvw2hfiwb75au"
     ],
     "authors": [
       {

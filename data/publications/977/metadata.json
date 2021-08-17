@@ -2,7 +2,7 @@
   "publication": {
     "abstract": "This document describes a new class, itk::MorphologicalContourInterpolator,\nwhich implements a method proposed by Albu et al. in 2008.\nInterpolation is done by first determining correspondence between shapes on adjacent\nsegmented slices by detecting overlaps, then aligning the corresponding shapes,\ngenerating transition sequence of one-pixel dilations and taking the median as result.\nRecursion is employed if the original segmented slices are separated by more than one empty slice.\n\nThis class is n-dimensional, and supports inputs of 3 or more dimensions.\n`Slices' are n-1-dimensional, and can be both automatically detected and manually set.\nThe class is efficient in both memory used and execution time.\nIt requires little memory in addition to allocation of input and output images.\nThe implementation is multi-threaded, and processing one of the test inputs\ntakes around 1-2 seconds on a quad-core processor.\n\nThe class is tested to operate on both itk::Image and itk::RLEImage.\nSince all the processing is done on extracted slices,\nusage of itk::RLEImage for input and/or output affects performance to a limited degree.\n\nThis class is implemented to ease manual segmentation in ITK-SNAP (www.itksnap.org).\nThe class, along with test data and automated regression tests is packaged as an ITK\nremote module https://github.com/KitwareMedical/ITKMorphologicalContourInterpolation.",
     "articles": [
-      "bafybeidq6pueor6momzsswhumuoru4twergazusxt3w2xr47c5yuvetvrm"
+      "bafybeicngw6h2u3hnx5k4skalyxv7xr7dywfjxhq356gwd2mxmngwmqbuy"
     ],
     "authors": [
       {

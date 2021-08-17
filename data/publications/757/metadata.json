@@ -2,7 +2,7 @@
   "publication": {
     "abstract": "In this paper, we analyze the relationship between parameters of brain tumors obtained through in vivo magnetic resonance imaging (MRI), in vivo magneticnresonance spectroscopy (MRS), and ex vivo immunohistochemistry (IHC). The goal of our project is to provide a quantitative definition of tumor cellularity based on the in vivo parameters. Biopsy samples obtained from previously untreated patients with a diagnosis of GBM are used to find the link between imaging parameters at the specific biopsy locations and IHC parameters from the corresponding tissue samples. A functional tree (FT) model of tumor cellularity is learned from the in vivo parameters and the remaining histological parameters. The tumor cellularity model is then tested on examples which contain only in vivo parameters, by first estimating the remaining IHC parameters by applying the Expectation Maximization (EM) algorithm, and then using the complete parameter vector for classification.",
     "articles": [
-      "bafybeihjbeiradzlc4uuhyhmqdd4kvd24mj6bywceivinsqgadex3wk4wu"
+      "bafkreigz64cnsskxit43okafku3u7jg2hj7iqky3fxd7435ayy62dqsar4"
     ],
     "authors": [
       {

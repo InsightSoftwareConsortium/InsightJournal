@@ -2,9 +2,6 @@
   "publication": {
     "abstract": "We have created open-source Simulink block libraries for ITK and VTK that allow pipelines for these toolkits to be built in a visual, drag-and-drop style within MATLAB. Each block contains an instance of an ITK or VTK class. Any block connections and parameters that the user makes within MATLAB's Simulink visual environment are converted into connections and parameters for the ITK and VTK pipelines. In addition, we provide conversion of images to and from MATLAB arrays to allow MATLAB image processing blocks to be mixed with ITK and VTK blocks. The code for our block libraries is generated automatically from XML descriptions of the inputs, outputs, and parameters of the ITK and VTK classes. We have used these block libraries to build some example pipelines and believe that they will be useful for developing applications in image analysis and image-guided therapy.",
     "articles": [
-      null,
-      null,
-      null,
       "bafkreiawo5pnuyzcwi6idw574avapjxvthrfsxpyn6iztvflxwkkf5wly4"
     ],
     "authors": [

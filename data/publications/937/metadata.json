@@ -2,7 +2,7 @@
   "publication": {
     "abstract": "Malignant gliomas are highly heterogeneous brain tumors with complex an-\nisotropic growth patterns and occult invasion. Computational modeling of cell migration and proliferation has been subject of intensive research aiming at a deeper understanding of the tumor biology and the ability to predict growth and thus improve therapy. However, current modeling techniques follow a generative approach and make strong assumptions about underlying mechanisms. The tumor is so far treated as homogeneous entity with behavioral parameters extrapolated from previous longitudinal image information.\nWe present a novel way of approaching this problem by employing data driven, discrim-\ninative modeling techniques that learn relevant features from observed growth patterns and are able to make meaningful predictions solely on basis of local and regional tissue characteristics at one given point in time.\nWe demonstrate superior performance of the proposed discriminative method (DICE score\n83) compared to the state of the art generative approach (DICE score 72) on six patients and a total of nine different time intervals. Our approach can help estimating occult invasion as well as it can advance our understanding of the tumor biology and lead to valuable predictions of tumor growth patterns that could guide and improve radio therapy.",
     "articles": [
-      "bafybeibi7vvan3uyjgmkgowdupnlvlmvjcsetb5vzn6risid6usz4jnm54"
+      "bafkreiekckbuhr7t5t6way66vlqqz2sxuhqdqd3csq54praijxi3eulrfy"
     ],
     "authors": [
       {

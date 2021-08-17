@@ -2,7 +2,7 @@
   "publication": {
     "abstract": "Superpixel algorithms have proven to be a useful initial step for segmentation and subsequent processing of images, reducing computational complexity by replacing the use of expensive per-pixel primitives with a higher-level abstraction, superpixels. They have been successfully applied both in the context of traditional image analysis and deep learning based approaches. In this work, we present a general- ized implementation of the simple linear iterative clustering (SLIC) superpixel algorithm that has been generalized for n-dimensional scalar and multi-channel images. Additionally, the standard iterative im- plementation is replaced by a parallel, multi-threaded one. We describe the implementation details and analyze its scalability using a strong scaling formulation. Quantitative evaluation is performed using a 3D image, the Visible Human cryosection dataset, and a 2D image from the same dataset. Results show good scalability with runtime gains even when using a large number of threads that exceeds the physical number of available cores (hyperthreading).",
     "articles": [
-      "bafybeicupzwvkmwu6jqpzmuaepsuf4avj5zoe2eyh4z5gr3idowjksgfri"
+      "bafybeiaoaik3vrjrmifgauwzm4usnqgbkj3cvrqzacwguoxnp6izczljze"
     ],
     "authors": [
       {

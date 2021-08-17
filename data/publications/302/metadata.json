@@ -2,8 +2,8 @@
   "publication": {
     "abstract": "Computing local curvatures of a given surface is important for applications, shape analysis, surface segmentation, meshing, and surface evolution. For a given smooth surface (with a given analytical expression which is sufficiently differentiable) curvatures can be analytically and directly computed. However in real applications, one often deals with a surface mesh which is an insufficiently differentiable approximation, and thus curvatures must be estimated. Based on a surface mesh data structure (\\code{itk::QuadEdgeMesh}~\\cite{itkQE}), we introduce and implement curvature estimators following the approach of Meyer\\etal\\cite{Meyer02}. We show on a sphere that this method results in more stable curvature approximations than the commonly used discrete estimators (as used in VTK: \\code{vtkCurvatures}).",
     "articles": [
-      "bafybeiehzh7remaguvxoi6qwkxs23xoijl5mse6lejgp3whicy3t4hsujq",
-      "bafybeiehzh7remaguvxoi6qwkxs23xoijl5mse6lejgp3whicy3t4hsujq"
+      "bafybeiasdbp2xxu7oswx6be3lt4fjosu5uxqyrypeyxgnmxefpsu3gyudq",
+      "bafybeiasdbp2xxu7oswx6be3lt4fjosu5uxqyrypeyxgnmxefpsu3gyudq"
     ],
     "authors": [
       {

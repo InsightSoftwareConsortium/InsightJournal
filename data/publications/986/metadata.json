@@ -2,7 +2,7 @@
   "publication": {
     "abstract": "This document describes the implementation of the external module ITKIsotropicWavelets, a multiresolution (MRA) analysis framework using isotropic and steerable wavelets in the frequency domain. This framework provides the backbone for state of the art filters for denoising, feature detection or phase analysis in N-dimensions. It focus on reusability, and highly decoupled modules for easy extension and implementation of new filters, and it contains a filter for multiresolution phase analysis,\n\nThe backbone of the multi-scale analysis is provided by an isotropic band-limited wavelet pyramid, and the detection of directional features is provided by coupling the pyramid with a generalized Riesz transform.\nThe generalized Riesz transform of order N behaves like a smoothed version of the Nth order derivatives of the signal. Also, it is steerable: its components impulse responses can be rotated to any spatial orientation, reducing computation time when detecting directional features.\n\nThis paper is accompanied with the source code, input data, parameters and\noutput data that the author used for validating the algorithm described in\nthis paper. This adheres to the fundamental principle that scientific\npublications must facilitate reproducibility of the reported results.\n",
     "articles": [
-      "bafybeicnspxcjq2fitustfgfs2ig6qd7xg42ormdq26f56f2hrchenqe5y"
+      "bafybeihhqyhhs2v23nbhu5fdbypwqm64br27uji7lbro4pfwry5pceuee4"
     ],
     "authors": [
       {

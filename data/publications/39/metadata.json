@@ -2,7 +2,7 @@
   "publication": {
     "abstract": "Dynamic magnetic resonance imaging (DCE-MRI) carried out with\r\ncontrast media such as Gd-chelate complex (Gd-DTPA) allows the\r\nnon-invasive assessment of microcirculatory characteristics of\r\nmalignant lesions. Quantitative estimation of lesion parameters\r\nfrom the passage of the contrast media requires the use of\r\npharmacokinetic two-compartment model. The input to the model is\r\nthe time-intensity plot from a region of interest (ROI) covering\r\nthe lesion extent. The lengthy imaging process, elasticity of the\r\norgans and patient movement result in complex deformations in the\r\nsubject requiring 3D motion correction for ROI alignment. This\r\npaper presents results on applying the Thirion Demon's 3D elastic\r\nmatching procedure in the ITK framework on the two-compartment\r\nlesion parameters. Registration, meanwhile involves interpolation\r\nand smoothing operations thereby affecting the time-intensity\r\nplots. We explore the trade-offs that arise between registration\r\nand lesion parameter estimation. Experiments on synthesized and\r\nreal deformation are presented.",
     "articles": [
-      "bafybeibcotfqx352giomczflnw7vogi5azfzdx52yy4elfsmymcb3pfv2u"
+      "bafkreid2sdh6c6irjq24tyg5oogncdootw54pjqu5clihbm3r2hhw3a5yy"
     ],
     "authors": [
       {

@@ -2,7 +2,7 @@
   "publication": {
     "abstract": "As part of the ITK v4 project efforts, we have developed ITK filters for physics-based non-rigid registration (PBNRR), which satisfies the following requirements: account for tissue properties in the registration, improve accuracy compared to rigid registration, and reduce execution time using GPU and multi-core accelerators. The implementation has three main components: (1) Feature Point Selection, (2) Block Matching (mapped to both multi-core and GPU processors), and (3) a Robust Finite Element Solver. The use of multi-core and GPU accelerators in ITK v4 provides substantial performance improvements. For example, in average for the non-rigid registration of brain MRIs, the performance of the Block Matching filter is about 12 times faster when 12 hyperthreaded multi-cores are used and about 540 times faster when the Quadro 6000 with 448 threads is used in Dell Workstation.",
     "articles": [
-      "bafybeihca4odqsp7xxiectbelxbhds7awqlfw5wxyxr4synmhx3yj3so6u"
+      "bafkreib356n3tit3fieimjse4vw2k65hnq44d4n3qezteqecqrq3cfrakq"
     ],
     "authors": [
       {

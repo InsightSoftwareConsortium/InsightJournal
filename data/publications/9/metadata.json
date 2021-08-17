@@ -2,7 +2,7 @@
   "publication": {
     "abstract": "In this article, we will present a novel interactive image registration technique using the 3D volumetric view as guidance throughout the registration process. The registration criterion used in this technique is the homogeneity of the color distribution on any given anatomic landmark, usually the skin/muscle voxels. This registration criterion has been validated using two different approaches, including comparison with automatic registration using mutual information based on the Insight Toolkits (ITK) and comparison with registered MR images with different pulse sequences acquired directly from the same MR scanner less than 5 minutes. An investigation is also made to compare this technique with the conventional interactive image registration using three orthogonal planar (3P) views, which is predominantly used in the current treatment planning in clinic. This 3D technique has shown several advantages, including improved registration accuracy and accelerated registration speed. It has also found that the 3P pixel registration technique often \"inherits\" a global positioning error, due to its partial 3D visual presentation. In addition, unlike the 3P technique, which generally cannot be used to register more than 2 images simultaneously and low resolution PET images, this 3D technique can register up to 4 imaging modalities simultaneously, including PET images, with both global view guidance and detail checking capability.",
     "articles": [
-      "bafybeiddnn2u77ebsb4hwqwmofzgxt6o4gz4vc75k4e5dpeqafcnb4j6mu"
+      "bafkreicr374v547srhi4r43u43krx3sckoyqhzff7ws2ltu7opb2yzlwq4"
     ],
     "authors": [
       {

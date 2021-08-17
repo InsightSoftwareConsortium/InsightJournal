@@ -3,7 +3,7 @@
     "abstract": "Mathematical models are often used to describe natural phenomena, organisms and anatomy. This paper presents a Model-Image Registration framework that can be used to evaluate models of anatomical shape. An optimisation process is applied to the model parameters to fit the model to an organ of interest in a volumetric image. The fit is obtained by maximising a metric that measures how closely the model surface atches the image edge features, according to gradient magnitude and orientation with respect to the surface normal. The system was tested using a spiral shell model, with generated data as ground truth, and also with CT scans of the temporal bone. The parameters converge to within a close tolerance after a few hundred iterations on the test data, and show promising results on registering with the clinical data.",
     "articles": [
       "bafkreic4qilvmk45serikzlbzi7plvmky2jryxauqts2pb43pdusvk3sei",
-      "bafybeibyebwmnxjgyngtzfldpavr7yue4bpyrlwcpbemhqr4niwchgw6uy"
+      "bafybeie3hccfxp7o2u7yoxqzlpmci3jksokyyy3d422v36n7cwlfuj63iq"
     ],
     "authors": [
       {

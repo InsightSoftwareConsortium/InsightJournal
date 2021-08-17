@@ -2,13 +2,13 @@
   "publication": {
     "abstract": "Image fusion provides a mechanism to combine multiple images into a single representation to aid human visual perception and image processing tasks. Such algorithms endeavour to create a fused image containing the salient information from each source image, without introducing artefacts or inconsistencies. Image fusion is applicable for numerous fields including: defence systems, remote sensing and geoscience, robotics and industrial engineering, and medical imaging. In the medical imaging domain, image fusion may aid diagnosis and surgical planning tasks requiring the segmentation, feature extraction, and/or visualisation of multi-modal datasets.\r\n\r\nThis paper discusses the implementation of an image fusion toolkit built upon the Insight Toolkit (ITK). Based on an existing architecture, the proposed framework (GIFT) offers a 'plug-and-play' environment for the construction of n-D multi-scale image fusion methods. We give a brief overview of the toolkit design and demonstrate how to construct image fusion algorithms from low-level components (such as multi-scale methods and feature generators). A number of worked examples for medical applications are presented in Appendix A, including quadrature mirror filter discrete wavelet transform (QMF DWT) image fusion.",
     "articles": [
-      "bafybeigoekeevtevx4bu3kzb7ik5guseuasusj6nliqi72viozt2b6atbi",
-      "bafybeiat3zxftzrxtdho6qbclcyrja5s6yriryugp3sxl3w2q2xezxcviq",
-      "bafybeiat3zxftzrxtdho6qbclcyrja5s6yriryugp3sxl3w2q2xezxcviq",
-      "bafybeiat3zxftzrxtdho6qbclcyrja5s6yriryugp3sxl3w2q2xezxcviq",
-      "bafybeiat3zxftzrxtdho6qbclcyrja5s6yriryugp3sxl3w2q2xezxcviq",
-      "bafybeie3azwwzwqcb2ewtd67fngeirbfovyhkqhsge3f3wvurojqcgntnq",
-      "bafybeie3azwwzwqcb2ewtd67fngeirbfovyhkqhsge3f3wvurojqcgntnq"
+      "bafkreia2c64uqq226j3ion6muy75pvm6ayomqrgpqrmvuq2tyrsfcr6jpm",
+      "bafkreidxfj6ou7cd4l4l6ftio7neagj5vxsqinz6yjm6ofgilb7qu4l2vy",
+      "bafkreidxfj6ou7cd4l4l6ftio7neagj5vxsqinz6yjm6ofgilb7qu4l2vy",
+      "bafkreidxfj6ou7cd4l4l6ftio7neagj5vxsqinz6yjm6ofgilb7qu4l2vy",
+      "bafkreidxfj6ou7cd4l4l6ftio7neagj5vxsqinz6yjm6ofgilb7qu4l2vy",
+      "bafkreigtm4syqopxpzr7gvpagdmn36a4g3avvnsmzm2a7dycvalclpzs4i",
+      "bafkreigtm4syqopxpzr7gvpagdmn36a4g3avvnsmzm2a7dycvalclpzs4i"
     ],
     "authors": [
       {

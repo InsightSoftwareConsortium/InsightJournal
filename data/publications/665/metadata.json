@@ -2,8 +2,8 @@
   "publication": {
     "abstract": "We propose a method for segmenting and labeling the main head and neck vessels (common, internal, external carotid and vertebral arteries) from a contrast enhanced computed tomography angiography (CTA) volume. First, an initial centerline of each vessel is extracted. Next, the vessels are segmented using 3D active objects initialized using the first step. Finally, the true centerline is identified by smoothly deforming it away from the segmented mask edges using a spline-snake. \n\nWe focus particularly on the initial centerline extraction technique. It uses a locally adaptive front propagation algorithm that attempts to find the optimal path connecting the ends of the vessel, typically from the lowest image of the scan to the Circle of Willis in the brain. It uses a patient adapted anatomical model of the different vessels both to initialize and constrain this fast marching, thus eliminating the need for manual selection of seed points. \n\nThe method is evaluated by applying it to the datasets of the MICCAI 2009 carotid bifurcation challenge, for which this paper is the only fully automatic method submitted. \n",
     "articles": [
-      "bafybeidorc2v7setch3f3cs7n6c6opkzti74ilboc2vvoyxplk47pbzqfq",
-      "bafybeiaepf2ox7bycp5mbraj7m7dch4zcg32mmazwre6dl2llkb4ty2te4"
+      "bafybeif2jznfrg5bb7ssu35t73glmps5yw3keznvap5jfuc2xyl5digxiy",
+      "bafybeigiwr377dmv5eshmamfqong4n6dcieyv5hwmtxsqmsqowd54wt4zm"
     ],
     "authors": [
       {

@@ -2,7 +2,7 @@
   "publication": {
     "abstract": "This document describes an ITK class implementing an Adaptive Moment Estimator (Adam) optimizer algorithm within the Insight Toolkit ITK www.itk.org. Adam is an adaptive gradient descent optimizer, which independently adaptively estimates the gradient descent step for each parameter, at each iteration, based on stored past gradients. The optimizer stores exponentially decaying averages of past gradients to estimate first moment (the mean) and the second moment (the variance) of the gradients to formulate update rule for present iteration. The Adam optimizer compares favorably to other adaptive learning-method algorithms, converges faster, and is robust to saddle point. This paper is accompanied with the source code, input data, parameters and output data that the authors used for validating the algorithm described in this paper. ",
     "articles": [
-      "bafybeih4xqo3zmrttm3ptcx5iaw4qhhxtsk5setszisdoqmzs3kjjtnivy"
+      "bafkreiazv3oeahn7if5rq6bhgk5qyhdhlshldamubghqgu2aiic5m4f7pm"
     ],
     "authors": [
       {

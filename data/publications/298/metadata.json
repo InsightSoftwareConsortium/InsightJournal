@@ -2,8 +2,8 @@
   "publication": {
     "abstract": "When dealing with meshes, it is often preferable to work with a lower resolution mesh for computational\ntime purpose, display. The process of reducing a given mesh, mesh decimation, is thus an important step\nin most of pipeline dealing with meshes. Incremental decimation algorithms, the most popular ones,\nconsists of iteratively removing one point of the mesh, by Euler operations such as vertex removal or\nedge collapse. Here we focus on edge collapse based decimation approaches and propose a general\nframework based on a surface mesh data structure (itk::QuadEdgeMesh [3]). Our implementation intends\nto be as general and as flexible as possible. Indeed it can theoretically be applied on any polygonal\nmesh1; the measure, functional to be optimized at each iteration, the objective to be reached, and optional\nmethods like point relocation to enhance the geometry of the resulting mesh, are given by the user.\nWe provide here two specific implementations: itk::QuadEdgeMeshSquaredEdgeLengthDecimation\nand itk::QuadEdgeMeshQuadricDecimation, that could be used as example to implement additional\nalgorithms.",
     "articles": [
-      "bafybeiae4zcoli5znyjewxcd6eoizklya27klbwzdh4q5rljdhw7xrnd2q",
-      "bafybeiae4zcoli5znyjewxcd6eoizklya27klbwzdh4q5rljdhw7xrnd2q"
+      "bafkreicuxzaqmgo37s4jfdsq3iubnzdqu565wxnuyu2a6omdzocgvnb2te",
+      "bafkreicuxzaqmgo37s4jfdsq3iubnzdqu565wxnuyu2a6omdzocgvnb2te"
     ],
     "authors": [
       {

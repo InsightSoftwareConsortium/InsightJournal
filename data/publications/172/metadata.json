@@ -2,9 +2,8 @@
   "publication": {
     "abstract": "This document describes work-in-progress for refactoring ITK\u2019s registration methods to exploit the parallel, computation power of multi-processor, shared-memory systems. Refactoring includes making the methods multi-threaded as well as optimizing the algorithms. API backward compatibility is being maintained. Helper classes that solve common registration tasks are also being developed.\r\n\r\n\r\nThe refactoring has reduced computation times by factors of 2 to 200 for metrics, interpolators, and transforms computed on multi-processor systems. Extensive sets of tests are being developed to further test operation and backward compatibility.",
     "articles": [
-      null,
-      "bafybeib3h24tslnkhgswrwibw6d6h5wmbcgbgazlwq72rzhywx2ibnzai4",
-      "bafybeihrwfiwnq7x2wblnq3edffoygwemjka75qjyhmuzmawztugziye6a"
+      "bafkreibpmliz3ubexsmhjvpvxalltg2weoo6ogrjfeivrdlbedkpwevz3e",
+      "bafkreihu7x56jamlhkc77jjwrehpv2ylikr3yfkfl3orjgc3r5qi3hjeiy"
     ],
     "authors": [
       {

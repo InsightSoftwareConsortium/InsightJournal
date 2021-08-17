@@ -2,9 +2,9 @@
   "publication": {
     "abstract": "This paper presents an extension of the Visualization ToolKit dedicated to spatiotemporal data synchronization, visualization and management. It basically consists in a versatile library providing functionalities to help developers setting up sophisticated applications with minimal development effort. In the medical imaging context, various types of data are often encountered, which raises the need for adapted visualization and synchronization techniques. Moreover, the management of these data (organization, creation, deletion, access) can become a burden. We propose in vtkINRIA3D a strategy to synchronize interactions between datasets representations, to manipulate complex objects (e.g., neural fibers as obtained in DT-MRI), as well as a managing framework for organizing data (including temporal sequences). The efficiency of vtkINRIA3D is illustrated with two applications: MedINRIA (general medical image processing software) and CardioViz3D (cardiac image visualization). vtkINRIA3D is open-source, and comes with a set of examples, test data and softwares built upon it: http://www-sop.inria.fr/asclepios/software/vtkINRIA3D.",
     "articles": [
-      "bafybeibhs4b32hg25plmmzufxdmvsrhde6nu2mvxjd2p5zs5me6fxgbsty",
-      "bafybeigvw3ey26ajagjbj6vjcqxjcvlzaqh523iw2kxjf2hzzpddo2tk5u",
-      "bafybeif5yr4nzse5dledjagwajnuh344sgiu536qewsqlvhgqfpl3xn3oa"
+      "bafybeihtcdk6g5hsd3ykso7s6dnoxq7ggxv7dr4hkoizifed3zrvugf2ie",
+      "bafybeicit3ucvnm4vx2c6tn5r32ohbsj5ihejho5v2k6jmbvskeh4oj3ui",
+      "bafybeifa5eo6gufclz2zt4ussyhimmwk7dhrgumzy7ysdyalmtm22b34bq"
     ],
     "authors": [
       {

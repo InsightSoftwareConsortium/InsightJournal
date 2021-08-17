@@ -2,7 +2,6 @@
   "publication": {
     "abstract": "The subject of the paper is to introduce a new class of 4D filters to itk.While it is very easy to load a 3D volume stored as a series of DICOM images with ITK, some convenience functions that are already available for 3D volumes are not yet available for the 4D case. Especially for MR data (and to a certain limit also for CT data) it is very important to look at the full 4D series, since the radiologist usually does not make a diagnosis based on a single volume but on the full time series of volumes which shows the temporal flow of the contrast agent. As an example, for breast imaging the radiologist typically examines parameter maps like MIPt (maximum intensity over time), TTP (time to peak) or WI (Wash-In). These parameter maps are the 3D result of post-processing the entire 4D time series. The goal of proposing the denoted 4D filters is to provide ITK with functionality that enables a postprocessing job to handle the entire 4D series as one entity and not as a loose collection of 3D volumes.",
     "articles": [
-      null,
       "bafkreibixn6w5oz2u64mmip6iu5obfjuu5nqo2rdnif747ytffahqwlwpu",
       "bafkreibixn6w5oz2u64mmip6iu5obfjuu5nqo2rdnif747ytffahqwlwpu",
       "bafkreibixn6w5oz2u64mmip6iu5obfjuu5nqo2rdnif747ytffahqwlwpu"

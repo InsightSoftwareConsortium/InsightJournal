@@ -2,7 +2,7 @@
   "publication": {
     "abstract": "This document describes a filter called itkOrthogonalBisectImageFilter, which bisects an input image and copies each divided region into two separate output images. Pixel values are copied while maintaining their original pixel location. The output images are of the same size, dimension, and pixel type as the input image. Pixels that have not been copied from the input image are set to a user-specified value. This filter is restricted to bisection along a cardinal axis, i.e., in a direction orthogonal to a bisecting slice (line for 2D images or plane for 3D images). Submitted with this document is the source code for the filter and source code for demonstrating filter usage via an image input as an argument. Also included is source code for testing the functionality of the filter.",
     "articles": [
-      "bafybeif3l4ohaiwn7jcwmpkyxmf6fqlo555uafutzryy7k3xychpkfusj4"
+      "bafybeieosj3gbtocgfqegxg3qz5ncxkyc7fsu3ndujvoqoyypnwdyrv22e"
     ],
     "authors": [
       {

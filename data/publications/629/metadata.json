@@ -2,7 +2,7 @@
   "publication": {
     "abstract": "The finite element (FE) method is a powerful tool for the study of biomechanics. One of the limiting factors in transitioning this tool into the clinic is the time required to generate high quality meshes for analysis. Previously, we developed a mapped meshing technique that utilized force control and a finite element solver to warp a template mesh onto subject specific surfaces. This paper describes a displacement based method that directly warps the template mesh onto subject specific surfaces using distance as the driving measure for the deformable registration. The resulting meshes were evaluated for mesh quality and compared to the force based method. An initial evaluation was performed using a mathematical phantom. The algorithm was then applied to generate meshes for the phalanx bones of the human hand. The algorithm successfully mapped the template bone to all of the bony surfaces, with the exception of the distal phalanx bone. In this one case, significant differences existed between the geometries of the template mesh and the distal phalanx. Further refinement of the algorithm may allow the algorithm to successfully generate meshes even in the presence of large geometric shape differences.",
     "articles": [
-      "bafybeihx527w5hyqajo2tocqy5o3zlcjamydt7nmm4qqkgub363um2ehnq"
+      "bafkreifrqkwr2esfl4l7i3mhm6gzsx7ui3gpkxlayvjl474skdn4snm3se"
     ],
     "authors": [
       {

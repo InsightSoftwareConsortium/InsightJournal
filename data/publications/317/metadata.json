@@ -2,13 +2,13 @@
   "publication": {
     "abstract": "Our previous contributions to the ITK community include a generalized B-spline approximation scheme as well as a generalized information-theoretic measure for assessing point-set correspondence known as the Jensen-Havrda-Charvat-Tsallis (JHCT) divergence. In this submission, we combine these two contributions for the registration of labeled point-sets. The transformation model which uses the former contribution is denoted as directly manipulated free-form deformation (DMFFD) and has been used for image registration. The information-theoretic approach described not only eliminates exact cardinality constraints which plague exact landmark matching algorithms, but it also incorporates the local point-set structure into the similarity measure calculation. Although theoretical discussion of these two components is deferred to other venues, the implementation details given in this submission should be adequate for those wishing to use our algorithm. Visualization of results is aided by another of our previous contributions. Additionally, we provide the rudimentary command line parsing classes used in our testing routines which were written in the ITK style and also available to use consistent with the open-source paradigm.",
     "articles": [
-      "bafybeiaajsumrholog435bnvdjgs4vdebimuq4245zkypmkqh475mxzbmq",
-      "bafybeiaajsumrholog435bnvdjgs4vdebimuq4245zkypmkqh475mxzbmq",
-      "bafybeiaajsumrholog435bnvdjgs4vdebimuq4245zkypmkqh475mxzbmq",
-      "bafybeiaajsumrholog435bnvdjgs4vdebimuq4245zkypmkqh475mxzbmq",
-      "bafybeiaajsumrholog435bnvdjgs4vdebimuq4245zkypmkqh475mxzbmq",
-      "bafybeiaajsumrholog435bnvdjgs4vdebimuq4245zkypmkqh475mxzbmq",
-      "bafybeiezkjnwvhrd3agzwq4n347wznx3gb3ekhtzw4iit4uzwo7o6g4nca"
+      "bafkreibtehu3cwvfrxv3yy2oac2fda7x3dwylycw2rsid3cckt7iv4p7du",
+      "bafkreibtehu3cwvfrxv3yy2oac2fda7x3dwylycw2rsid3cckt7iv4p7du",
+      "bafkreibtehu3cwvfrxv3yy2oac2fda7x3dwylycw2rsid3cckt7iv4p7du",
+      "bafkreibtehu3cwvfrxv3yy2oac2fda7x3dwylycw2rsid3cckt7iv4p7du",
+      "bafkreibtehu3cwvfrxv3yy2oac2fda7x3dwylycw2rsid3cckt7iv4p7du",
+      "bafkreibtehu3cwvfrxv3yy2oac2fda7x3dwylycw2rsid3cckt7iv4p7du",
+      "bafkreicet67yqozwkfp45ejizq2jurvkkct3qsvubxdytb4mzn6op7fww4"
     ],
     "authors": [
       {

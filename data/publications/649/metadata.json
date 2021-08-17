@@ -2,8 +2,8 @@
   "publication": {
     "abstract": "Various frameworks and toolkits have been proposed for rapid development of computer assisted intervention (CAI) software. In this paper, we investigate how the open-source 3D Slicer application framework can be used for this purpose. We defined common requirements for CAI software to evaluate and enhance 3D Slicer for interventional applications in general. 3D Slicer is found to be an appropriate end-user deployment environment for CAI software, as its built-in functions fulfill many requirements and missing functionalities can be conveniently added. We describe the implementation of a CAI software based on extending core 3D Slicer functions. Three enhancements are described in detail: the management of workflow, DICOM image transfer, and multiple views. The resulting software fulfills general CAI requirements and supports two different MRI-guided prostate biopsy systems (each with a different imaging mode, robotic manipulator and calibration method), thereby demonstrating the usability of Slicer for implementing different CAI applications.",
     "articles": [
-      "bafybeigdhyzrqbmbq2r5ldxj6xrwg4zpuxmp3i2vxyliftfiokkzwzvsm4",
-      "bafybeig3kud6sbdcfn5ulsp46dg7omm5vyu3u27ybtibjrysbz5djhxt2a"
+      "bafkreihuihk7wp3ged6d2l2cpxn5x2gt7yf3ki3n4wi23ftlr4sshmht2i",
+      "bafkreid3dbkwrrtk6fkweqsv53k5gnvsarrkr3uxejmwrapdds4tmrxri4"
     ],
     "authors": [
       {

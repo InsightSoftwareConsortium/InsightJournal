@@ -3,7 +3,7 @@
     "abstract": "The ARAMIS research platform is a telesurgical robotic system for minimally invasive surgery with focus on autonomous functionality. The original software architecture was a hierarchical one, based on the model-view-controller paradigm. To handle the growing number of devices, we introduce a new framework that facilitates the decomposition of system functionality into separate programs, as well as the data sharing between them. This allows us to integrate and test new functionality more quickly. Our work heavily utilizes the cisst libraries, developed by the Johns Hopkins University. In particular, we take advantage of cisst's multiprocess networking capabilities. As a proof of concept, we demonstrate the integration of an eye-tracking based endoscope control.",
     "articles": [
       "bafkreig3zkzwipxehzh2n3hi6xraobbrt5ckqeslqwxlyjwqvkur2umsji",
-      "bafybeicklqnlu74rsc6p736d73irrek3v6helsnj4pexn5gt5kmjskw3yq"
+      "bafybeibqt7b4426gmftxsw7m35qlct4yvamslwnllskg6aaieoch6w77pe"
     ],
     "authors": [
       {

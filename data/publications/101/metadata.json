@@ -2,11 +2,11 @@
   "publication": {
     "abstract": "Shape analysis has become of increasing interest to\nthe neuroimaging community due to its potential to precisely locate\nmorphological changes between healthy and pathological structures.\nThis manuscript presents a comprehensive set of tools for the computation of 3D structural statistical shape analysis. It has been applied in several studies on brain morphometry, but can potentially be employed in other 3D shape problems. Its main limitations is the necessity of spherical topology. \n\nThe input of the proposed shape analysis is a set of binary segmentation of a single brain structure, such as the hippocampus or caudate. These segmentations are converted into a corresponding spherical harmonic description (SPHARM), which is then sampled into a triangulated surfaces (SPHARM-PDM). After alignment, differences between groups of surfaces are computed using the Hotelling $T^2$ two sample metric. Statistical p-values, both raw and corrected for multiple comparisons, result in significance maps. Additional visualization of the group tests are provided via mean difference magnitude and vector maps, as well as maps of the group covariance information.\n\nThe correction for multiple comparisons is performed via two separate methods that each have a distinct view of the problem. The first one aims to control the family-wise error rate (FWER) or false-positives via the extrema histogram of non-parametric permutations. The second method controls the false discovery rate and results in a less conservative estimate of the false-negatives.\n\n<a href=\"http://www.nitrc.org/projects/spharm-pdm\"> New NITRC page for binary distribution </a>\n ",
     "articles": [
-      "bafybeiaj4k2vh4c4ulabclerdrksixsav42gfw6wvrrirsqydtys52yflq",
-      "bafybeihgl7jgagjalvrubytjwpxy4zczzritr6en5lnefvacotduhdqyg4",
-      "bafybeihl4p6bphmd3abuwsnux74blwaks5j6it3gw4htd25cvgs3zt2cnm",
-      "bafybeihbzg5tqbxbdf7nfgfjyrpqbeldmutl4fpprygbwsihzpwzdcokga",
-      "bafybeieoouecqemxthcfb53tqktcr6t2nissfitp6k6afq4g2wdbn26f4q"
+      "bafybeiag66br4oux64p3q2eujsl7fja2gbexuzathv3nzyfxvxq2ep6oci",
+      "bafybeifiycwk3et6m5bscrxhfqnqbg5wxefiw3e3awyyhzvvhrnf5o4zqi",
+      "bafybeieozwsyhu4ijsq5loztedn6goenkujdqwhdfszcuq77pfnm6co7z4",
+      "bafybeiblfdga4iilreuxk7uldek6jgrxfiqkgrp3jmx6py5b7wpvenbi7y",
+      "bafybeibpryxegmwu3vnmkw7g5635stmtedjs7gwvvxl623ihfxvn2odcli"
     ],
     "authors": [
       {

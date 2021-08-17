@@ -2,7 +2,7 @@
   "publication": {
     "abstract": "An Insight Toolkit (ITK) algorithm for detection of spherical objects using Hough methods with voting is presented in this paper. Currently, the usage of Hough methods for detecting linear and circular elements exists for 2D images in ITK. The current work extends those filters in several ways. Firstly, the new filters operate on N-dimensional images. Secondly, they work in physical coordinates which is quite essential in medical imaging modalities. Thirdly, they are optimized (multi-threaded execution, stratified sampling etc.) for usage on large datasets and show a significant speedup even in 2D and on small images. Our implementation follows the same underlying mathematics of Hough transforms (as implemented by the 2D filters) but with some minor variations. The main variation lies in the pattern of voting that involves selecting voting regions easily and efficiently accessible to region iterators rather than cones that are difficult to generalize in higher dimensions. We include 2D example code, parameter settings and show the results generated on embryonic images of the zebrafish from optical microscopy.",
     "articles": [
-      "bafybeibvtlzo3codnx3cqt6kjyaeppjadhcumxh26yd7d55o2vhhoiveqq"
+      "bafybeibatr3vv2axpsyceickrtrjgzrk67slxvr6l7hw4t4pjta5edp2vi"
     ],
     "authors": [
       {

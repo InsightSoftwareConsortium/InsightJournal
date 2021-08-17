@@ -2,9 +2,9 @@
   "publication": {
     "abstract": "This paper describes a 3D CTA image segmentation method submitted to the CLS09 contest (Carotid Lumen Segmentation and Stenosis Quantification) held in conjunction with the MICCAI 2009 conference. First, images are denoised to improve image quality and posterior segmentation. Second, region-based measurements are performed to differentiate possible vessels from other structures. Then, edge-driven metrics are used to allow vessel separation from nearby structures. Using, both edge-driven and region-based metrics a filter is used to enhance the vessels. The vessels of interest are extracted by use of the provided initialization points and of a model-driven segmentation algorithm. Using the obtained result, the final stage is devoted to stenosis quantification.",
     "articles": [
-      "bafybeicbw4semr76fidgclyqokatrljaifbaogqlzgp4zxturcbvmvylve",
-      "bafybeiblpdys5p6xnc36uzvkljpqmlv3xyzgqyizmby6ida5ewwlmfi5dy",
-      "bafybeicwocaj2dpnnpicmy4oewnfdqzfffuiax6wduit3cgkkliuo45fri"
+      "bafybeifk4f7jb7wluxbalzwaaydabdph6r37jq5eldvesywehu64hsdjty",
+      "bafybeidejglzegyje3jdw47xd7zexhffl3sifzflfl2szgid54gp7jm6qi",
+      "bafybeihzfn4jedumgocdffu7z65mlhr4otat4ey5gucn53gfy3avm7lt4u"
     ],
     "authors": [
       {
