@@ -2,8 +2,8 @@
   "publication": {
     "abstract": "This paper presents code for reading contours from DICOM RT structure set files into binary labels. This is a common requirement for transferring expert manual segmentations from radiotherapy treatment planning software into external image analysis environments (such as ITK). An implementation of RT structure set importing is provided with sample data from a prostate cancer radiotherapy planning volume. This is an update to the 2009 Insight Journal paper \"Importing Contours from DICOM-RT Structure Sets\" which worked with ITK 3.x and a local GDCM2 install.\n\nUpdates:\nMar 2013 Now correctly handles holes within structures. Thanks to Sebastian Steger for the code fix.",
     "articles": [
-      "bafybeibbqxbib4ml6huszfmxtwipnj6dj3a44rd2ce4ggkv45hf44nch5a",
-      "bafybeibbqxbib4ml6huszfmxtwipnj6dj3a44rd2ce4ggkv45hf44nch5a"
+      "bafkreifbbredjvjlawu4j2xvh5q3wcwttjqmoy7zmb2io67a2an467xgpu",
+      "bafkreifbbredjvjlawu4j2xvh5q3wcwttjqmoy7zmb2io67a2an467xgpu"
     ],
     "authors": [
       {

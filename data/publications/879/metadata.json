@@ -2,7 +2,7 @@
   "publication": {
     "abstract": "The Insight Segmentation and Registration Toolkit (ITK) previously provided a framework for parsing Extensible Markup Language (XML) documents using the Simple API for XML (SAX) framework. While this programming model is memory efficient, it places most of the implementation burden on the user. We provide an implementation of the Document Object Model (DOM) framework for parsing XML documents. Using this model, user code is greatly simplified, shifting most of the implementation burden from the user to the framework. \nThe provided implementation consists of two tiers. The lower level tier provides functionality for parsing XML documents and loading the tree structure into memory. It then allows the user to query and retrieve specific entries. The upper tier uses this functionality to provide an interface for mimicking a serialization and de-serialization mechanism for ITK objects. The implementation described in this document was incorporated into ITK as part of release 4.2.",
     "articles": [
-      "bafybeihxxev45irvecoqwulysm3htaixrwlgfcjq5cu2qprafijl4l2fba"
+      "bafkreidchdha6toyeduwwjalgycd5j74iuumusn44l5ww4jkboucasggzy"
     ],
     "authors": [
       {

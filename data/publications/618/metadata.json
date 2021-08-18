@@ -2,7 +2,7 @@
   "publication": {
     "abstract": "Ultrasound has become a very important modality in image-guided therapy. At present, however, the collection, synchronization and transfer of ultrasonic images are more cumbersome than necessary. This paper presents a reusable solution to these problems. We propose a software package called SynchroGrab, which allows the collection of interventional ultrasound images as well as their synchronization with a stream of pose measurements. The software includes support for an open-interface ultrasound system, namely the Sonix RP, from Ultrasonix (Vancouver, Canada). Using an open-interface system like the Sonix RP allows customization of the imaging process and the capture of the ultrasound images directly from memory without the need for a frame-grabbing card. Pose measurement is currently performed with an Optotrak Certus by Northern Digital (Waterloo, Canada). However, extensibility was a primary goal in the design of this software, so the support of new devices can be achieved simply by sub-classing the relevant base class. SynchroGrab also performs reconstruction of 3D ultrasound volumes from synchronized data streams. Moreover, the recorded images, volumes and tracking information are available for visualization or further processing either directly from the file system or from a network connection compliant with the OpenIGTLink protocol, which is supported by Slicer 3.",
     "articles": [
-      "bafybeiaajpg2zrkoegwwcdniixi2dorfpsp74gbgbzjiupeg6fpz5gzhmi"
+      "bafybeietxiqqa4pdwvdxkpjqy4myfzdqtx7j6zqqdub5jjlgkl54pdhjs4"
     ],
     "authors": [
       {

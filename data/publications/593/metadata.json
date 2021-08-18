@@ -2,9 +2,9 @@
   "publication": {
     "abstract": "An algorithm for minimally interactive coronary artery tracking is presented. Tracking ability and accuracy results are demonstrated on 16 images CTA images.\r\nFirst, a region of interest is automatically selected and a denoising filter applied. Then, for each voxel the probability of belonging to a coronary vessel is estimated from a feature space and a vesselness measure is used to obtain a cost function. The vessel starting point is obtained automatically, while the end point is provided by the user. Finally, the centerline is obtained as the minimal cost path between both points.",
     "articles": [
-      "bafybeicpu7gu4nj7szwnb6rn2hze4zzxl5jkvpbhr42xueee5yaukafnku",
-      "bafybeicpu7gu4nj7szwnb6rn2hze4zzxl5jkvpbhr42xueee5yaukafnku",
-      "bafybeicpu7gu4nj7szwnb6rn2hze4zzxl5jkvpbhr42xueee5yaukafnku"
+      "bafkreigsbwbmzdkti3s4porzlzglnnfe5qth5tay5b6zdqind52gjehww4",
+      "bafkreigsbwbmzdkti3s4porzlzglnnfe5qth5tay5b6zdqind52gjehww4",
+      "bafkreigsbwbmzdkti3s4porzlzglnnfe5qth5tay5b6zdqind52gjehww4"
     ],
     "authors": [
       {

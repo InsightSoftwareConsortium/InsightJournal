@@ -2,7 +2,7 @@
   "publication": {
     "abstract": "ABSTRACT\nBrain tissue segmentation is important in many medical image applications. We augmented the Expectation-Maximization segmentation algorithm in Slicer3 (www.spl.harvard.edu) . Currently, in the EM Segmenter module in Slicer3 user input is necessary to set tissue-class (Gray Matter, White Matter etc.) intensity values. Our contribution to the current pipeline is to automatically compute such values using k-means clustering. Our method can be applied to scans of varying intensity profiles and thus we obviate the need for a normalization step. We applied this pipeline on multiple datasets and our method was able to accurately classify tissue-classes. The implementation was done as a standalone utility in the Python programming language (www.python.org) and work is underway to incorporate it in the EM processing pipeline. ",
     "articles": [
-      "bafybeibh3suqzbpbvoakucwzcmcw2v7eobbjc6755xjfrdcrtpbpqepplq"
+      "bafkreid6gl3h3uy7lqbwqkglmytqxnqs62izkmnbtdbmflwmuscl25xrke"
     ],
     "authors": [
       {

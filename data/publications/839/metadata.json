@@ -2,8 +2,8 @@
   "publication": {
     "abstract": "The Hausdorff distance is a measure of the distance between sets of points. There are many advantages to using this metric compared to other similarity measures. This document describes a VTK class for computing the Hausdorff Distance between two sets of points. The main contribution, compared to other implementations, lies in the definition of the distance not only to the closest point but to the closest point in the represented surface, which yields an accurate measure even between undersampled surfaces. This is achieved by implementing a point-to-cell distance instead of a point-to-point. Furthermore, a plugin for ParaView was implemented, which is also available with the code. After introducing the interest of this distance, the VTK code is explained and illustrated with some examples.",
     "articles": [
-      "bafybeibquhekf3gca5mbsssj2fv2i3pm7heilo7lacadotq4dungiu5wee",
-      "bafybeibquhekf3gca5mbsssj2fv2i3pm7heilo7lacadotq4dungiu5wee"
+      "bafybeif44lyy5ijqwbzpp7dccyfztdl7ara4acez5w2ka3fiu4f2omulv4",
+      "bafybeif44lyy5ijqwbzpp7dccyfztdl7ara4acez5w2ka3fiu4f2omulv4"
     ],
     "authors": [
       {

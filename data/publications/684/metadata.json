@@ -2,7 +2,7 @@
   "publication": {
     "abstract": "This paper describes a fully automatic system to segment the left ventricle in all slices and all phases of a magnetic resonance cardiac cine study. After localizing the left ventricle blood pool using motion, thresholding and clustering, slices are segmented sequentially. For each slice, deformable registration is used to align all the phases, candidate contours are recovered in the average image using shortest paths, and a minimal surface is built to generate the final contours. The advantage of our method is that the resulting contours follow the edges in each phase and are consistent over time. As part of the MICCAI grand challenge on left ventricle segmentation, we demonstrate using 15 training datasets and 15 validation datasets that the results are very good with average errors around 2 mm and the method is ready for clinical routine.",
     "articles": [
-      "bafybeic6mwuzepda27xi4fece34rr7shsanj52tqvtxp3gajq43wpbifhi"
+      "bafkreiejti2vwngny7pu6mgeekpr3gtcyhcyhzwuzyscca6czsaafn6luq"
     ],
     "authors": [
       {

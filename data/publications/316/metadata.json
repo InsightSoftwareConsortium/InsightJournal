@@ -2,12 +2,12 @@
   "publication": {
     "abstract": "This paper presents an ITK implementation for exporting the contours of the automated segmentation results to DICOM-RT Structure Set format. The \u201cradiotherapy structure set\u201d (RTSTRUCT) object of the DICOM standard is used for the transfer of patient structures and related data, between the devices found within and outside the radiotherapy department. It mainly contains the information of regions of interest (ROIs) and points of interest (E.g. dose reference points). In many cases, rather than manually drawing these ROIs on the CT images, one can indeed benefit from the automated segmentation algorithms already implemented in ITK. But at present, it is not possible to export the ROIs obtained from ITK to RTSTRUCT format. In order to bridge this gap, we have developed a framework for exporting contour data to RTSTRUCT. We provide here the complete implementation of RTSTRUCT exporter and present the details of the pipeline used. Results on a 3-D CT image of the Head and Neck (H&N) region are presented.",
     "articles": [
-      "bafybeifi3yn4e4o7tw5u46ifafqowujiscgijnt6eei5kcea7memarj7uq",
-      "bafybeigefu3tjbr4qeamfcvscvwjb744tcrwabmvtryqnuf4pheyqbtwta",
-      "bafybeigefu3tjbr4qeamfcvscvwjb744tcrwabmvtryqnuf4pheyqbtwta",
-      "bafybeigefu3tjbr4qeamfcvscvwjb744tcrwabmvtryqnuf4pheyqbtwta",
-      "bafybeiftnh6mxdrm5pgkaamwwpfh5bedshmcjgsmlikyfxky5bkawext3u",
-      "bafybeiadlfsfvo7euvmhgorg6zi5krzja54pkk67yccznt6hbdcbqdjfsm"
+      "bafkreiapvnevuaesllqrzcexiush74qpj7dbflpd57anabxmjemj5o2kwy",
+      "bafkreic5pv6yb7zao5a5mwagyy7a2dps3iqbi6di43dzy6vexzcgxaqyry",
+      "bafkreic5pv6yb7zao5a5mwagyy7a2dps3iqbi6di43dzy6vexzcgxaqyry",
+      "bafkreic5pv6yb7zao5a5mwagyy7a2dps3iqbi6di43dzy6vexzcgxaqyry",
+      "bafkreiepkqte6h3eq7bsuzxgtm2l25jpwykanslnn4cye2o2i2vwoh7oie",
+      "bafkreicnsspoaqwgjjownifwve6wmhp7py4kkwlqg5uxpeorqfz4um2fcq"
     ],
     "authors": [
       {

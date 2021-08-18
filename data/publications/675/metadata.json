@@ -2,9 +2,9 @@
   "publication": {
     "abstract": "The arterial lumen is modeled by a spatially continuous right generalized cylinder with piece-wise constant parameters. The method is the identifies the parameters of each cylinder piece from a series of planar contours extracted along an approximate axis of the artery. This curve is defined by a minimal path between the artery end-points. The contours are extracted by use of a 2D Fast Marching algorithm. The identification of the axial parameters is based on a geometrical analogy with piece-wise helical curves, while the identification of the surface parameters uses the Fourier series decomposition of the contours. Thus identified parameters are used as observations in a Kalman optimal estimation scheme that manages the spatial consistency from each piece to another. The method was was evaluated on 15 training and 31 testing datasets from the MICCAI 3D Segmentation in the Clinic Grand Challenge: Carotid Bifurcation Lumen Segmentation and Stenosis Grading (http://cls2009.bigr.nl/).",
     "articles": [
-      "bafybeifo5zpf26pofmnl3i4thrm2h4qhhmy7skkr4mu4zsad3uaz4oss3q",
-      "bafybeic73dnvffqtl3mkbk3fkj72vbfkpccm74d4njrni2bdt5rhcs6jd4",
-      "bafybeid4ecqqbowmocpc7zdnrbtyf3m6rjxhmmrrj3mldvmjaxbkbn2gey"
+      "bafkreib5t7mutxa44odzxr7uqg4geyv4rm2uxyzbovezkyd3cxjvxyxu74",
+      "bafkreigcanjjufi6vpdwqkd6cenqrjb5zjzq5sdgp3nww6tx24w74lkaui",
+      "bafkreidc4bn4ra2wvp7akgp4ex3w25yivjnlpdw6povqg2mp3wukcsvqt4"
     ],
     "authors": [
       {

@@ -2,8 +2,8 @@
   "publication": {
     "abstract": "Although many variations of active contour segmentation algorithms exist, most are based on solely edge criteria and breakdown or leak at weak boundaries. One solution to this problem is constraining the segmented area to only statistically possible shapes with the guidance of a shape model. The purpose of this document is to fill the void in the ITK user guide on building active shape models. We describe how to create a 2d active shape model of articular femoral knee cartilage using ITK\u2019s ImagePCAShapeModelEstimator. Sample code and example images are provided for displaying the initial principle components of variation. Shape models built with our code can be used for segmentation with itk::GeodesicActiveContourShapePriorLevelSetImageFilter.",
     "articles": [
-      "bafybeibpi6wpj4x5i4i6djujsydssfvujonmda2ninzwrsggtdgakd3dii",
-      "bafybeibpi6wpj4x5i4i6djujsydssfvujonmda2ninzwrsggtdgakd3dii"
+      "bafkreigkkikwgh6upvout7hq6z2vg4x2d5odj3s7kfkore22erjlimhvma",
+      "bafkreigkkikwgh6upvout7hq6z2vg4x2d5odj3s7kfkore22erjlimhvma"
     ],
     "authors": [
       {

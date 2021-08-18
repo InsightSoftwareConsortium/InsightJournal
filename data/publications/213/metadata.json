@@ -2,12 +2,12 @@
   "publication": {
     "abstract": "This paper describes the ITK implementation of a minimal path extraction framework based on Fast Marching arrival functions. The method requires the user to provide three inputs: 1. a meaningful speed function to generate an arrival function, 2. path information in the form of start, end, and way-points (which the path must pass near), and 3. an optimizer which steps along the resultant arrival function perpendicular to the Fast Marching front. A number of perspectives for choosing speed functions and optimizers are given, as well as examples using synthetic and real images.",
     "articles": [
-      "bafybeiaum5zqipw3l47g2usivajfpsbosww3zgos42vnauazewbnvn5lby",
-      "bafybeiaum5zqipw3l47g2usivajfpsbosww3zgos42vnauazewbnvn5lby",
-      "bafybeiaum5zqipw3l47g2usivajfpsbosww3zgos42vnauazewbnvn5lby",
-      "bafybeiaum5zqipw3l47g2usivajfpsbosww3zgos42vnauazewbnvn5lby",
-      "bafybeiaum5zqipw3l47g2usivajfpsbosww3zgos42vnauazewbnvn5lby",
-      "bafybeiaum5zqipw3l47g2usivajfpsbosww3zgos42vnauazewbnvn5lby"
+      "bafkreihsuax56g24m5vgdo4mvjv2khaxmgnjs5wfdgoal52zwwxaos2hky",
+      "bafkreihsuax56g24m5vgdo4mvjv2khaxmgnjs5wfdgoal52zwwxaos2hky",
+      "bafkreihsuax56g24m5vgdo4mvjv2khaxmgnjs5wfdgoal52zwwxaos2hky",
+      "bafkreihsuax56g24m5vgdo4mvjv2khaxmgnjs5wfdgoal52zwwxaos2hky",
+      "bafkreihsuax56g24m5vgdo4mvjv2khaxmgnjs5wfdgoal52zwwxaos2hky",
+      "bafkreihsuax56g24m5vgdo4mvjv2khaxmgnjs5wfdgoal52zwwxaos2hky"
     ],
     "authors": [
       {

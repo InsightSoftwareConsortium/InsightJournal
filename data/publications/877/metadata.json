@@ -2,8 +2,8 @@
   "publication": {
     "abstract": "Intensity inhomogeneities often occur in medical images, especially when using magnetic resonance imaging. In these images, the standard Chan-and-Vese levelset segmentation method may not work properly, as it assumes constant intensity distributions for foreground and background. Recently, a novel method was published that models the intensities as piece-wise smooth, and thus is more suitable to segment images with intensity homogeneities. However, this method was not yet implemented in ITK. This submission introduces our implementation of the region-scalable-fitting levelset segmentation method within the ITKv4 levelset framework.\n",
     "articles": [
-      "bafybeibug2ecbv2unn6sk3mp2qvypyaksqlorukq6uovrnk3gbgs5q2s3i",
-      "bafybeibug2ecbv2unn6sk3mp2qvypyaksqlorukq6uovrnk3gbgs5q2s3i"
+      "bafkreicy5z4qnx6dyydwzi5u53odpihvpt6sstvbzljgtcxjhfipu5yzbq",
+      "bafkreicy5z4qnx6dyydwzi5u53odpihvpt6sstvbzljgtcxjhfipu5yzbq"
     ],
     "authors": [
       {

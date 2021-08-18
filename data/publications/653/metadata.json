@@ -3,7 +3,7 @@
     "abstract": "The Surgical Assistant Workstation (SAW) modular software framework provides integrated support\nfor robotic devices, imaging sensors, and a visualization pipeline for rapid prototyping of telesurgical\nresearch systems. Subsystems of a telesurgical system, such as the master and slave robots and the visualization\nengine, form a distributed environment that requires an efficient inter-process communication\n(IPC) mechanism. This paper describes the extension of the component-based framework provided by\nthe cisst libraries, on which the SAW depends, from a multi-threaded (local) to a multi-process (networked)\nenvironment. The current implementation uses the Internet Communication Engine (ICE) middleware\npackage, but the design does not depend on ICE and can accomodate other middleware choices.\nA telesurgical robot system based on the da Vinci hardware platform is used as a test case, with a research\napplication that requires coordination between the left and right robot arms (a bimanual knot tying task).\nPerformance measurements on this platform indicate minimal overhead due to the networking.",
     "articles": [
       "bafkreieyhoiujqzy36amzhypsc22pcykiiw4ldig6eokkfjowjnblu45vu",
-      "bafybeihfjaig5dq6o5mxv4ikvncutdfotzrrxxptixmcf67mkjivx6j7l4"
+      "bafkreigsyqqfe4v2qknfu4qhxlbapvpds5likw6ue2iv6xkukgkjzwt4vu"
     ],
     "authors": [
       {

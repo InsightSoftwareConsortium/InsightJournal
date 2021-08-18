@@ -2,8 +2,8 @@
   "publication": {
     "abstract": "This paper presents a local feature vector based method for automated Multiple Sclerosis (MS) lesion segmentation of multi spectral MRI data. Twenty datasets from MS patients with FLAIR, T1,T2, MD and FA data with expert annotations are available as training set from the MICCAI 2008 challenge on MS, and 24 test datasets. Our local feature vector method contains neighbourhood voxel intensities, histogram and MS probability atlas information. Principal Component Analysis(PCA) \\cite{PCA} with log-likelihood ratio is used to classify each voxel. MRI suffers from intensity inhomogenities. We try to correct this ''bias field'' with 3 methods: a genetic algorithm, edge preserving filtering and atlas based correction. A large observer variability exist between expert classifications, but the similarity scores between model and expert classifications are often lower. Our model gives the best classification results with raw data, because bias correction gives artifacts at the edges and flatten large MS lesions.",
     "articles": [
-      "bafybeign5eg5wksghp65emvvz3xivlejy5ookohnpfqt7seglrfvtimsuq",
-      "bafybeibbvk7hzexlqmsg5mxk55mimdchkexqgpsknnqximedsf6bi4ndxy"
+      "bafkreidheuwv5lhbsekvdt5kwy65uzgx3xa4ivnejysra5zdhygid2tmny",
+      "bafkreid4ngxxxypaqgghmksbuvikhjd6g6oo7q6qcsvmqa7lvcn4dbchuu"
     ],
     "authors": [
       {

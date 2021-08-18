@@ -2,7 +2,7 @@
   "publication": {
     "abstract": "Recently, the scientific community has been proposing several automatic algorithms to biomedical image segmentation procedure, being an interesting and helpful approach to assist both technicians and radiologists in this time-consuming and subjective task. One of these interesting and widely used image segmentation method could be the voxel intensity-based algorithms, e.g. image histogram threshold methods, which have been intensively improved in the past decades. Recently, an interesting approach that gained focus is the logistic classification (LC) for object detection in biomedical images. Even though the general concept behind the LC method is fairly known, the proper method's optimization still commonly adjusted by hand which naturally adds a level of uncertainty and subjectivity in the general segmentation performance. Therefore, an empirical LC optimization is presented, offering a ITK class that performs the LC parameters optimization based on empirical input data analysis. It is worth mentioning that the LogisticContrastEnhancementImageFilter class showed here is also applied on others computational problems, being briefly explained in this document.",
     "articles": [
-      "bafybeicngsk7m3jubvlpfnfxzb3ja7yh74n7fbmqtw35eu6er3khhzmr64"
+      "bafkreicrm7ggmvnrf4glgjh6dbxhzziupnn5zpc2uwbfksggiajssbccd4"
     ],
     "authors": [
       {

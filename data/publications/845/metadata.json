@@ -2,8 +2,8 @@
   "publication": {
     "abstract": "In this document we present the implementation of three fuzzy clustering algorithms using the Insight Toolkit ITK. Firstly, we developed the conventional Fuzzy C-Means that will serve as the basis for the rest of the proposed algorithms. The next algorithms are the FCM with spatial constraints based on kernel-induced distance and the Modified Spatial Kernelized Fuzzy C-Means. Both of these introduce a Kernel function, replacing the Euclidean distance of the FCM, and spatial information into the membership function.\n\nThese algorithms have been implemented in a threaded version to take advantage of the multicore processors. Moreover, providing an useful implementation make it possible that classes work with 2D/3D images, different kernels and spatial shapes.\n\nWe included the source code as well as different 2D/3D examples, using several input parameters for the algorithms and obtaining the results generated on 2D/3D CT lung studies.",
     "articles": [
-      "bafybeiangofwbpqtutqjujbgfkbjnwmhegpu3nnpbtl3obnjk3u5wnf3ty",
-      "bafybeiangofwbpqtutqjujbgfkbjnwmhegpu3nnpbtl3obnjk3u5wnf3ty"
+      "bafkreiba7uztunaw5zzyrflhlb4txa4dycohlzcutrkjywpzuoh3spilme",
+      "bafkreiba7uztunaw5zzyrflhlb4txa4dycohlzcutrkjywpzuoh3spilme"
     ],
     "authors": [
       {

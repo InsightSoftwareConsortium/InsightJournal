@@ -2,8 +2,8 @@
   "publication": {
     "abstract": "The 2009 MICCAI Head and Neck Auto-Segmentation Challenge was aimed at assessing algorithms for automated segmentation of the brain stem and mandible from CT images for use in radiotherapy planning. The organisers provided 10 datasets with associated manual segmentations by experts, and 8 test datasets on which the algorithms had to be run. In two of the test datasets (subjects 13 and 15) the field of view was truncated. The results were independently analysed by the organisers.\n\nTo address the problem posed by the challenge we describe a method based on active appearance models (AAMs) which involves four stages: Initialisation with a parts-and-geometry model, search with a global AAM followed by search with local AAMs, then post-processing using linear regressors.\n\nApplication of the method to the test images resulted in a mean (excluding subject 13) Dice overlap value of 76.1 +/- 5.1% for the mandible, and 72.9 +/- 24.6% for the brainstem. The method failed to segment both the mandible and brainstem in subject 13, and the whilst giving a successful segmentation of the mandible in subject 15, gave poor results on the brainstem. It takes about 10 minutes to run on a 64 bit Linux workstation with 2GB RAM, and a 2GHz pentium processor. We were encouraged by its performance on this dataset, and believe that its accuracy can be improved with some modifications to the segmentation pipeline.\n",
     "articles": [
-      "bafybeia4fdm2aume374adshvtwnkr3ogb227o223xxcuh2nbls726kwxha",
-      "bafybeicfqibuu66vepjzypjzfhua3m7gohwhhd2cele5w6ldijbfijpxwq"
+      "bafkreic5pnna77mftgximyaian63is4f2tv6djo5xzszbbj6dp2zc5jfhy",
+      "bafkreib5qy2757ik6m2yr72hdvti2ipu7ysllq654em2cn7lldlxffj7fa"
     ],
     "authors": [
       {

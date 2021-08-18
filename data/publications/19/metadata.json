@@ -2,7 +2,7 @@
   "publication": {
     "abstract": "Inactivation of the retinoblastoma gene in mouse embryos results\r\nin morphological changes in the placenta, which has been shown to\r\naffect fetal survivability. The construction of a 3D virtual\r\nplacenta aids in accurately quantifying structural changes using\r\nimage analysis. The placenta dataset consisted of 786 images\r\ntotaling 550 GB in size, which were registered into a volumetric\r\ndataset using ITK's registration framework. The registration\r\nprocess faces many challenges arising from the large image sizes,\r\ndamages during sectioning, staining gradients both within and\r\nacross sections, and background noise leading to local solutions.\r\nIn this work, we implement a rigorous ITK-based preprocessing\r\npipeline for removing noise and employ a novel 2-level\r\noptimization strategy for enhanced registration in ITK. We provide\r\n3D visualizations and numerical results to demonstrate our\r\nimprovements.",
     "articles": [
-      "bafybeihsysy66y3r6rzwd4izlnsv6whxdhrybiwz66qircpwsgzmsc3f3y"
+      "bafkreibaqqt4qjo5cbxyy7oolbavlpf3sweqho76izkpky547rf75lccde"
     ],
     "authors": [
       {

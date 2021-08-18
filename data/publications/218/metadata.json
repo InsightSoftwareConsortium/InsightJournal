@@ -2,7 +2,7 @@
   "publication": {
     "abstract": "We present and implement an error estimation protocol in the Insight Toolkit (ITK) for assessing the\r\naccuracy of image alignment. We base this error estimation on a robust version of the HausdorffDistance\r\n(HD) metric applied to the recovered edges of the images. The robust modifications we introduce to\r\nthe HD metric significantly reduce the amount of outliers in the local distance error estimation. We\r\nevaluate the accuracy of our protocol on synthetically deformed images. We provide the source code\r\nand datasets to reproduce this evaluation. The proposed method is shown to improve error assessment\r\nwhen it is compared with conventional HD methods. This approach has many applications including\r\nlocal estimation and visual assessment of registration error and registration parameter selection.",
     "articles": [
-      "bafybeiftc2kv7btx5edezrw3un34do57mano4zggi3uzmpps6b6i6bgdva"
+      "bafkreie5bdjulaq74zmvge3eup3we5njhmjdjanmozjufy3q75uumphjdy"
     ],
     "authors": [
       {

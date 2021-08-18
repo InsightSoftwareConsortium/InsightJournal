@@ -2,10 +2,10 @@
   "publication": {
     "abstract": "Recently, Birkfellner et al. proposed a novel image-to-image merit function (stochastic rank correlation, SRC) for robust intensity-based 2D/3D image registration. In this work, we summarize the basic idea of SRC, and present a generic ITK-based implementation of this image-to-image metric including tests for software veri\ufb01cation. Moreover, we provide two simple examples that demonstrate the usage of this metric: a) within the native ITK 2D/3D image registration method, and b) within a recently published extended ITK-based 2D/3D registration framework. It is, however, important to note, that this paper neither covers a comprehensive evaluation of SRC, nor a comparison with other metrics. It rather shows that SRC appears to succeed on a femoral and a porcine data set in the course of ITK-based 2D/3D image registration.\n",
     "articles": [
-      "bafybeigher6fgo3kfuzt6wrjlhtwtjh2jdvahpg5poj34udqu7p3itu6ny",
-      "bafybeigher6fgo3kfuzt6wrjlhtwtjh2jdvahpg5poj34udqu7p3itu6ny",
-      "bafybeigher6fgo3kfuzt6wrjlhtwtjh2jdvahpg5poj34udqu7p3itu6ny",
-      "bafybeigher6fgo3kfuzt6wrjlhtwtjh2jdvahpg5poj34udqu7p3itu6ny"
+      "bafybeib4txqctmgl62z6fhiwhvzbao5hiopij66fv6phudz7q4qivgnfvm",
+      "bafybeib4txqctmgl62z6fhiwhvzbao5hiopij66fv6phudz7q4qivgnfvm",
+      "bafybeib4txqctmgl62z6fhiwhvzbao5hiopij66fv6phudz7q4qivgnfvm",
+      "bafybeib4txqctmgl62z6fhiwhvzbao5hiopij66fv6phudz7q4qivgnfvm"
     ],
     "authors": [
       {

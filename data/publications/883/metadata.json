@@ -2,7 +2,7 @@
   "publication": {
     "abstract": "This document describes an extension of ITK to handle both primal and dual meshes simultaneously. This paper describe in particular the data structure, an extension of itk::QuadEdgeMesh, a filter to compute and add to the the structure the dual of an existing mesh, and an adaptor which let a down- ward pipeline process the dual mesh as if it was a native itk::QuadEdgeMesh. The new data structure, itk::QuadEdgeMeshWithDual, is an extension of the already existing itk::QuadEdgeMesh, which already included by default the due topology, to handle dual geometry as well. Two types of primal meshes have been specifically illustrated: triangular / simplex meshes and Voronoi / Delaunay. A functor mechanism has been implemented to allow for different kind of computation of the dual geometry. This paper is accompanied with the source code and examples.",
     "articles": [
-      "bafybeidfnb3gusngjwktwlebrcfexfzcu5ww5z22zeuqj75qmxkbklcic4"
+      "bafybeihanxlolybhhqmxrtnkjwrqvv6545nxz6yawumgmbiqzmw63bcn5a"
     ],
     "authors": [
       {

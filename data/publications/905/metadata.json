@@ -2,7 +2,7 @@
   "publication": {
     "abstract": "Segmentation of the human cerebrum from magnetic resonance images (MRI) into its component tissues has been a defining problem in medical imaging. Until recently, this has been solved as the tissue classification of the T1-weighted (T1-w) MRI, with numerous solutions for this problem having appeared in the literature. The clinical demands of understanding lesions, which are indistinguishable from gray matter in T1-w images, has necessitated the incorporation of T2-weighted Fluid Attenuated Inversion Recovery (FLAIR) images to improve segmentation of the cerebrum. Many of the existing methods fail to handle the second data channel gracefully, because of assumptions about their model. In our new approach, we explore a model free algorithm which uses a classification technique based on ensembles of decision trees to learn the mapping from an image feature to the corresponding tissue label. We use corresponding image patches from a registered set of T1-w and FLAIR images with a manual segmentation to construct our decision\ntree ensembles. Our method is \u000eefficient, taking less than two minutes on a 240x240x48 volume. We conduct experiments on five training sets in a leave-one-out fashion, as well as validation on an additional twelve subjects, and a landmark validation experiment on another cohort of five\nsubjects.",
     "articles": [
-      "bafybeiddaj2ycjdggzgsxsh6jzckrmwwglwexaokxlv7foo3lmpex22bbe"
+      "bafybeibki65xzznuunsyrkjra43ksx6lav3tyth4l5avggna2shntim674"
     ],
     "authors": [
       {

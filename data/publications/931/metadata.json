@@ -2,8 +2,8 @@
   "publication": {
     "abstract": "In this paper, we present the use of a generic image segmentation method, namely a succession of Random Forest classifiers in an autocontext framework, for the MICCAI 2014 Challenge on Endocardial 3D Ultrasound Segmentation (CETUS). The proposed method segments each frame independently in 90 sec, without requiring temporal information such as end-diastolic or end-systolic time points nor any registration. For better segmentation accuracy, non-local means denoising can be applied to the images at the cost of an increased run-time. The mean Dice score on the testing dataset was 84.4% without denoising and 86.4% with denoising. The originality of our approach lies in the introduction of two classes, the myocardium and the mitral valve, in addition to the left ventricle and the background classes, in order to gain contextual information for the segmentation task.",
     "articles": [
-      "bafybeibzcctm33anjynebl7oteh66i4p3viww3jij3fsf4onnjyzzk6t54",
-      "bafybeidq2o3x5rgmlogpzh4jgsmxhzxmye634b3xuf5k7yln5hhfoe5a5q"
+      "bafkreic56gy4laak6gozsme2cojjctfjgeyz7rayjoonofm3r7puussubi",
+      "bafkreiarcisqjcu3nbgl3d36jubv6ios4vxguo23r6j6vxd4nlgcekzdcq"
     ],
     "authors": [
       {

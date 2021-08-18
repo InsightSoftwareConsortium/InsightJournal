@@ -2,7 +2,7 @@
   "publication": {
     "abstract": "This document describes a plug-in for Blender (www.blender.org) that allows to rasterize 3D mesh objects into 3D voxel data, i. e. it allows to voxelize Blender meshes. In 2D, this process can be compared to rasterization of vector graphics into pixel graphics. The voxelization is done by VTK (www.vtk.org) functions. A simple GUI allows to choose the type of voxelization and to specify necessary parameters. Depending on the type chosen, only the surface of the mesh objects is voxelized or the enclosed volume, i. e.\u201cfilled\u201d. Beside the size of the output, one can specify if the result should be \u201canti-aliased\u201d or not.\nThis paper is accompanied with the source code, input data, parameters and output data that the authors used for validating the script described in this paper.\n",
     "articles": [
-      "bafybeiccskusa4rnj76u7hbksiagypmbjtasjnt5g3w24cvmz2cct3bq3a"
+      "bafkreigtlwhyd5jlqt5yxxsw5j3a6vnovhgsa4czf4kiumpxw7xn6ygwwy"
     ],
     "authors": [
       {

@@ -2,7 +2,7 @@
   "publication": {
     "abstract": "The Insight Toolkit (ITK) utilizes a generic design for image processing filters that allows many developers to rapidly implement new algorithms. While ITK filters benefit from a platform-independent and versatile multithreading capability, the current implementation does not easily achieve high performance. First, ITK relies on a static decomposition of the image into subsets of equal size which is highly inefficient when the computational complexity varies between subsets (unbalanced workloads). Second, the current domain decomposition is limited to subdivide the input domain along a single dimension (typically the slice dimension in a 3-D volume), which causes a multithreading under-utilization when the number of threads is larger than the size of this dimension when using massively parallel compute systems. We previously presented a new itk::TBBImageToImageFilter class that replaced the static task decomposition by a dynamic task decomposition for improved workload balancing, in which the job scheduling task was optimized using the Intel\u00ae Threading Building Blocks (TBB) library. In this work, we propose a new multidimensional dynamic image decomposition approach that allows decomposition over an arbitrary number of dimensions. This new generic multithreading capability, combined with the TBB dynamic task scheduler, substantially improves multithreading performance when using massively parallel processors.",
     "articles": [
-      "bafybeiglztn4ydg5zj2ddv6muvaekhrlycqj2arnpdw4qfa2b4wz6oeusi"
+      "bafkreibbizkkglhh754m7o7zvzoq3xkzf6s2wqbcxx4jzojtvlxfpt27nm"
     ],
     "authors": [
       {

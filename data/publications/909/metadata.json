@@ -2,7 +2,7 @@
   "publication": {
     "abstract": "An automated method of MR Brain image segmentation is presented. A block based Expectation Maximization method is presented for the tissue classification of MR Brain images. The standard Gaussian Mixture Model is the most widely used method for MR Brain Image Segmentation and Expectation Maximization algorithm is used to estimate the model parameters. The Gaussian Mixture Model considers each pixel as independent and does not take into account the spatial correlation between the neighbouring pixels. Hence the segmentation result obtained using standard GMM is highly sensitive to Inensity Non-Uniformity and noise. The image is divided into blocks before applying EM since the GMM is preserved in the local image blocks. Also, Nonsubsampled Contourlet Transform is employed to incorporate the spatial correlation among the neighbouring pixels. The method is applied to the 12 MR Brain volumes of MRBRAINS13 test data and the White Matter, Gray Matter and CSF structures were segmented.",
     "articles": [
-      "bafybeidtnmuknhtfiftjsyuz3otx3eh5n76unifwz6fxtkjw7chp6g7peq"
+      "bafkreieeqfoacnqk2iyxumhtbsmk7y474p3ohuhjjnaau5pqixszpkdlqq"
     ],
     "authors": [
       {

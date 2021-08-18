@@ -2,7 +2,7 @@
   "publication": {
     "abstract": "This documents is about the filter itk::WarpQuadEdgeMeshFilter. It takes two input meshes (fixed and moving meshes) and one deformation field. It produces one output mesh. Each point on the fixed mesh is warped according to the displacement vector saved in the deformation field and gets a scalar value assigned by interpolating the scalar value from the moving mesh. An interpolator is needed to apply this filter.\nThis paper is accompanied with the source code, input data, parameters and output data that we used for validating the algorithm described in this paper. This adheres to the fundamental principle that scientific publications must facilitate reproducibility of the reported results.",
     "articles": [
-      "bafybeiemnk2qfekvnkdnphzvpooblqqxmbo3x6mudjoscdrqbi2ksyqbgm"
+      "bafkreidss2ftw7nlp2v2xmos4umi3mgs23cl3xce6alkg7al5cstbmv5u4"
     ],
     "authors": [
       {

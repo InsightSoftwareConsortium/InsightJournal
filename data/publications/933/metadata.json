@@ -2,8 +2,8 @@
   "publication": {
     "abstract": "As part of the CETUS challenge, we present a multi-atlas segmentation framework to delineate the left-ventricle endocardium in echocardiographic images. To increase the robustness of the registration step, we introduce a speckle reduction step and a new shape representation based on sparse coding and manifold approximation in dictionary\nspace. The shape representation, unlike intensity values, provides consistent shape information across different images. The validation results on the test set show that registration based on our shape representation significantly improves the performance of multi-atlas segmentation compared to intensity based registration. To our knowledge it is the first time that multi-atlas segmentation achieves state-of-the-art results for echocardiographic images.",
     "articles": [
-      "bafybeiezar72cppa6zuubzxpbbhdv7frzea57x6efu6pbqqzehwu4e6zwq",
-      "bafybeifxpda5n4iqfd7ae5ltbwzglhq3nquvgfzlngjhcufumezxxhieqi"
+      "bafybeih2n22p3xhfmla3f4pllw436jcyqisjv4wyukmm6wcz4gwersab5e",
+      "bafybeia5kqsqjm5xa2dheqkah2twgnhpy46drpiuvwfugdq6e7ejkzh3v4"
     ],
     "authors": [
       {

@@ -2,12 +2,7 @@
   "publication": {
     "abstract": "Automatic segmentation of liver tumorous regions often fails due to high noise and large variance of tumors. In this work, a semi-automatic algorithm is proposed to segment liver tumors from computed tomography (CT) images. To cope with the variance of tumors, their intensity probability density functions (PDF) are modeled as a bag of Gaussians unlike the previous works where the tumor is modeled as a single Gaussian, and employ a three-dimensional seeded region growing (SRG) method. The bag of Gaussians are initialized at manually selected seeds and updated during growing process iteratively. There are two criteria to be ful&#64257;lled for growing: one is the Bayesian decision rule, and the other is a model matching measure. Once the growing is terminated, morphological operations are performed to re&#64257;ne the result. This method, showing promising performance, has been evaluated using ten CT scans of livers with twenty tumors provided by the organizer of the 3D Liver Tumor Segmentation Challenge 2008.",
     "articles": [
-      null,
-      null,
-      null,
-      null,
-      "bafkreibsykyx6kdr3eoyopfkrdikup2z4d4m3rpzv2t3ow6qrh6ublltau",
-      null
+      "bafkreibsykyx6kdr3eoyopfkrdikup2z4d4m3rpzv2t3ow6qrh6ublltau"
     ],
     "authors": [
       {

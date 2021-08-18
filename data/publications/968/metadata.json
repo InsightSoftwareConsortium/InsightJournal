@@ -2,7 +2,7 @@
   "publication": {
     "abstract": "We describe a segmentation method that was used in the Head and Neck Auto Segmentation Challenge held at the MICCAI 2015 conference. The algorithm consists of two building blocks. First, we employ a multi-atlas segmentation to obtain an initial segmentation for the considered organs at risk. Secondly, we use an Active Shape Model (ASM) segmentation to refine the initial segmentation of some of the organs. Leave-one-out experiments with the training data were used to determine suitable parameters for the individual steps of the segmentation. The ASM refinement resulted in improved segmentation for the optic nerves and submandibular glands, while for the brain stem, parotid glands, chiasm, and mandibular bone, the multi-atlas segmentation was preferable. Our submission achieved the second rank in the challenge.",
     "articles": [
-      "bafybeie4ni3kg6t7gsymno6474ytti2ne6aowwod5ru6vadzrveznxmmle"
+      "bafkreiao4obr76bijnehajxdpnfwp6lvb2f6y5byj5hikmphai5rndea2a"
     ],
     "authors": [
       {

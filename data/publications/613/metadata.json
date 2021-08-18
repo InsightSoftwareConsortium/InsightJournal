@@ -2,10 +2,10 @@
   "publication": {
     "abstract": "Multiple sclerosis diagnosis and patient follow-up can be helped by an evaluation of the lesion load in MRI sequences. A lot of automatic methods to segment these lesions are available in the literature. The MICCAI workshop Multiple Sclerosis (MS) lesion segmentation Challenge 08 allows to test and compare these algorithms. This paper presents a method designed to detect hyperintense signal area on T2-FLAIR sequence and its results on the Challenge test data. The proposed algorithm uses only three conventional MRI sequences: T1, T2 and T2-FLAIR. First, images are cropped, spatially unbiased and skull-stripped. A segmentation of the brain into its different compartments is performed on the T1 and the T2 sequences. From these segmentations, a threshold for the T2-FLAIR sequence is automatically computed. Then postprocessing operations select the most plausible lesions in the obtained hyperintense signals. Global result on the test data (80/100) is close to the inter-expert variability (90/100).",
     "articles": [
-      "bafybeidr7fxxedjxovuokygxwl7o4nr2z4apuwbsswccjkf44yuszngmne",
-      "bafybeidr7fxxedjxovuokygxwl7o4nr2z4apuwbsswccjkf44yuszngmne",
-      "bafybeidr7fxxedjxovuokygxwl7o4nr2z4apuwbsswccjkf44yuszngmne",
-      "bafybeidr7fxxedjxovuokygxwl7o4nr2z4apuwbsswccjkf44yuszngmne"
+      "bafkreif6r4ccwp7mo2su3hnscdnly5ihu6fln3od7sojkjjypkp2bmifzm",
+      "bafkreif6r4ccwp7mo2su3hnscdnly5ihu6fln3od7sojkjjypkp2bmifzm",
+      "bafkreif6r4ccwp7mo2su3hnscdnly5ihu6fln3od7sojkjjypkp2bmifzm",
+      "bafkreif6r4ccwp7mo2su3hnscdnly5ihu6fln3od7sojkjjypkp2bmifzm"
     ],
     "authors": [
       {

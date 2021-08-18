@@ -2,9 +2,9 @@
   "publication": {
     "abstract": "We have implemented filters for computing phase symmetry (PS) in ITK using steerable filters computed and applied in the Fourier domain. In some recent publications, phase symmetry has been shown to be a useful pre-processing measure for performing image registration and segmentation. Matlab implementations of the code are currently available, but may be slower than C++ versions and most importantly, do not work with volumetric (3D) data. In this paper we briefly provide background information and list some applications of PS filters from the literature. We then provide instructions and examples of how to use the classes and executables.",
     "articles": [
-      "bafybeid4ijvbl2b6nh3b2dpig73s4rtsvkjo6pcvaysdhaif26oowcmwha",
-      "bafybeid4ijvbl2b6nh3b2dpig73s4rtsvkjo6pcvaysdhaif26oowcmwha",
-      "bafybeif7jnlxss4eklx7iearhp7v4r7gpqon7f5odp76hwraeeyko72hmm"
+      "bafkreia4l6rrso2u53224wmps5ak6z4c4lczruzkolqtmjnn3ul5p7ffw4",
+      "bafkreia4l6rrso2u53224wmps5ak6z4c4lczruzkolqtmjnn3ul5p7ffw4",
+      "bafkreihqipuxcjwbsuu7n7fu3e5jrg6xn6ldrc7pbiyz774uequicpkkwu"
     ],
     "authors": [
       {
