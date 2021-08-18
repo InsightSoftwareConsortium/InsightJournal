@@ -13,13 +13,11 @@ const fs = require('fs')
 
 const staticDir = path.join(__dirname, 'static')
 const ipfsScript = path.join(staticDir, 'ipfs-core.min.js')
-if (!fs.existsSync(ipfsScript)) {
-  if (!fs.existsSync(staticDir)) {
-    fs.mkdirSync(staticDir)
-  }
-  fs.copyFileSync(path.join(__dirname, 'node_modules', 'ipfs-core', 'dist', 'index.min.js'),
-    ipfsScript)
+if (!fs.existsSync(staticDir)) {
+  fs.mkdirSync(staticDir)
 }
+fs.copyFileSync(path.join(__dirname, 'node_modules', 'ipfs-core', 'dist', 'index.min.js'),
+  ipfsScript)
 
 exports.onCreateWebpackConfig = ({
   stage,
