@@ -47,6 +47,53 @@
     "revisions": [
       {
         "article": "bafkreie22cule7jgyx2mbavgateiziiav5wxy3t6gjttbgguamf7rnyq7q",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 39.737617,
+            "unstructured": "Implementation of weighted Dijkstra's shortest-path algorithm for n-D images+Insight Journal+2009+1+2+1+L. J. L. Weizman"
+          },
+          {
+            "key": "ref2",
+            "score": 14.50298,
+            "unstructured": "(document)+1+2+4"
+          },
+          {
+            "doi": "10.1007/s11263-006-7934-5",
+            "key": "ref3",
+            "score": 70.51538,
+            "unstructured": "\u201d Int. J. of Comp. Vision+1+2+1+131+2006+Y. Boykov+G. Funka-Lea+Efficient N-D Image"
+          },
+          {
+            "doi": "10.1007/978-3-642-10470-1_1",
+            "key": "ref4",
+            "score": 162.3071,
+            "unstructured": "Vessels-Cut: A Graph Based Approach to Patient-Specific Carotid Arteries Modeling,\u201d+in Proc. of the 2nd 3D Physiological Human workshop, 3DPH'09+5903+1+12+2009+M. Freiman+N. Broide+M. Natanzon+L. Weizman+E. Nammer+O. Shilon+J. Frank+L. Joskowicz+J. Sosna"
+          },
+          {
+            "doi": "10.1007/978-3-642-10470-1_1",
+            "key": "ref5",
+            "score": 95.71495,
+            "unstructured": "Nearly automatic vessels segmentation using graph-based energy minimization,\u201d in 3D Segmentation in the Clinic: Carotid Lumen Segmentation and Stenosis Grading Challenge (http://cls2009+nl)+2009+M. Freiman+J. Frank+L. Weizman+E. Nammer+O. Shilon+L. Joskowicz+J. Sosna"
+          },
+          {
+            "doi": "10.1007/bfb0056195",
+            "key": "ref6",
+            "score": 73.735,
+            "unstructured": "MICCAI'98+1496+130+137+1998+A. Frangi+W. Niessen+K. Vincken+M. Viergever"
+          },
+          {
+            "doi": "10.1118/1.4802751",
+            "key": "ref7",
+            "score": 96.145164,
+            "unstructured": "\u201c3D segmentation in the clinic: Carotid lumen segmentation and stenosis grading challenge,\u201d in 3D Segmentation in the Clinic: Carotid Lumen Segmentation+2009+nl. 3+R. Hameeteman+M. Zuluaga+L. Joskowicz+M. Freiman"
+          },
+          {
+            "key": "ref8",
+            "score": 9.322861,
+            "unstructured": "org. 4"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

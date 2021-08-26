@@ -30,6 +30,60 @@
     "revisions": [
       {
         "article": "bafybeiacpmqqw5lml3kkdzg34k6hhbqnkerbm2ivgs4oknuusbspwqp4na",
+        "citation_list": [
+          {
+            "doi": "10.1109/tpami.1987.4767965",
+            "key": "ref1",
+            "score": 105.9741,
+            "unstructured": "Least-squares fitting of two 3-D point sets+IEEE Trans. on Pattern Analysis and Machine Intelligence+2+3+2+700+Sep 1987+K.S. Arun+T.S. Huang+S.D. Blostein"
+          },
+          {
+            "doi": "10.1118/1.2241741",
+            "key": "ref2",
+            "score": 107.546234,
+            "unstructured": "PO2 measurements in animal tumors using an image-guided robotic system+In AAPM 48th Annual Meeting+Aug 2006+4+J. Chang+B. Wen+P. Kazanzides+P. Zanzonico+R. Finn+C. Ling"
+          },
+          {
+            "doi": "10.1109/42.736021",
+            "key": "ref3",
+            "score": 108.91403,
+            "unstructured": "Predicting error in rigid-body point-based registration+IEEE Trans. on Medical Imaging+17+5+1+702+Oct 1998+J.M. Fitzpatrick+J.B. West+C.R. Maurer"
+          },
+          {
+            "doi": "10.1109/robot.2006.1642285",
+            "key": "ref4",
+            "score": 101.38667,
+            "unstructured": "Software components and frameworks for medical robot control+In IEEE Intl. Conf. on Robotics and Automation+2+3818+2006+2+A. Kapoor+A. Deguet+P. Kazanzides"
+          },
+          {
+            "key": "ref5",
+            "score": 52.949043,
+            "unstructured": "(document+2006+1+1+2+P. Kazanzides+J. Chang+I. Iordachita+J. Li+C. Ling+G. Fichtinger"
+          },
+          {
+            "key": "ref6",
+            "score": 45.40291,
+            "unstructured": "Development of open source software for computer-assisted intervention systems+1+2+4+P. Kazanzides+A. Deguet+A. Kapoor+O. Sadowsky+R. Taylor"
+          },
+          {
+            "doi": "10.1109/robot.1992.220224",
+            "key": "ref7",
+            "score": 107.28432,
+            "unstructured": "Force sensing and control for a surgical robot+In IEEE Intl. Conf. on Robotics and Automation+1+617+1992+2+3+P. Kazanzides+J. Zuhars+B. Mittelstadt+R.H. Taylor"
+          },
+          {
+            "doi": "10.1109/42.611354",
+            "key": "ref8",
+            "score": 130.7445,
+            "unstructured": "Registration of head volume images using implantable fiducial markers+IEEE Trans. on Medical Imaging+3+4+2+462+Aug 1997+C.R. Maurer+J.M. Fitzpatrick+M.Y. Wang+R.L. Galloway+R.J. Maciunas+G.S. Allen"
+          },
+          {
+            "doi": "10.1109/34.88573",
+            "key": "ref9",
+            "score": 101.60359,
+            "unstructured": "Least-squares estimation of transformation parameters between two point patterns+IEEE Trans. Pattern Anal. and Mach+2+3+2+380+Apr 1991+S. Umeyama"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

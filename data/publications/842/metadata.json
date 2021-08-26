@@ -32,6 +32,30 @@
     "revisions": [
       {
         "article": "bafkreiav7xqrrzbtvmpuh7kf4od23nzm4dxvrbtiomxv7rp2u7vmnlikui",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 23.833055,
+            "unstructured": "first edition+2003+L. Ibanez+W. Schroeder+L. Ng+J. Cates"
+          },
+          {
+            "doi": "10.1063/1.1373798",
+            "key": "ref2",
+            "score": 89.09887,
+            "unstructured": "Synthetic thermal time-of-flight(sttof) depth imaging+20+487+491+2001+H. I. RingerMacher+D. R. Howard"
+          },
+          {
+            "key": "ref3",
+            "score": 47.314846,
+            "unstructured": "Nondestructive Evaluation: Theory+2002+P. J. Shull+Applications"
+          },
+          {
+            "doi": "10.1016/s0031-3203(98)00091-0",
+            "key": "ref4",
+            "score": 126.7587,
+            "unstructured": "An overlap invariant entropy measure of 3d medical image alignment+Pattern Recognition+32+71+86+1999+C. Studholme+D. L. G. Hill+D. J. Hawkes"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

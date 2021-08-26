@@ -34,6 +34,30 @@
     "revisions": [
       {
         "article": null,
+        "citation_list": [
+          {
+            "doi": "10.1007/978-1-4613-0469-2_17",
+            "key": "ref1",
+            "score": 146.36916,
+            "unstructured": "Quadratic structuring functions in mathematical morphology+Mathematical Morphology and its Applications to Image and Signal Processing+3+154+1996+1+R. van den Boomgaard+L.S. Makram-Ebeid+J. Schavemaker"
+          },
+          {
+            "key": "ref2",
+            "score": 25.994806,
+            "unstructured": "The ITK Software Guide+2003+L. Ibanez+W. Schroeder"
+          },
+          {
+            "key": "ref3",
+            "score": 17.668854,
+            "unstructured": "Kitware"
+          },
+          {
+            "doi": "10.1016/s0031-3203(99)00160-0",
+            "key": "ref4",
+            "score": 120.48557,
+            "unstructured": "Image sharpening by morphological filtering+Pattern Recognition+4+6+1+1012+2000+J. Schavemaker+M. Reinders+J. Gerbrands+E. Backer"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

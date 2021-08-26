@@ -113,6 +113,68 @@
     "revisions": [
       {
         "article": "bafkreibfbkx7xqdqejxabwajdyhiju2ux5wa6atymqhwhmojd6o6c3mhve",
+        "citation_list": [
+          {
+            "doi": "10.1109/icme.2002.1035879",
+            "key": "ref1",
+            "score": 122.88405,
+            "unstructured": "measuring errors between surfaces using the Hausdorff distance+In IEEE International Conference in Multimedia and Expo+4+1+708+2002+N. Aspert+D. Santa-Cruz+T. Ebrahimi"
+          },
+          {
+            "doi": "10.1002/hbm.20023",
+            "key": "ref2",
+            "score": 93.36042,
+            "unstructured": "Protocol for volumetric segmentation of temporal structures using high-resolution 3-d magnetic resonance imaging+Human Brain Mapping+2004+4+2+Leonardo Bonilha+Li"
+          },
+          {
+            "doi": "10.1016/0735-1097(89)90304-5",
+            "key": "ref3",
+            "score": 144.86098,
+            "unstructured": "Noninvasive evaluation of global left ventricular function with use of cine nuclear magnetic resonance+Journal of the American College of Cardiology+2+13+1294+1300+1989+P. T. Buser+W. Auffermann+W. W. Holt+S. Wagner+B. Kircher+C. Wolfe+C. B. Higgins"
+          },
+          {
+            "doi": "10.1007/978-3-540-72907-5_48",
+            "key": "ref4",
+            "score": 125.90245,
+            "unstructured": "accurate and fast segmentation of 4d cardiac mr images+of LLNCS+3+2+483+2007+J. Cousty+L. Najman+M. Couprie+S.+T. Guinaudeau+J. Goissen+Garot+B. Sachse"
+          },
+          {
+            "doi": "10.1007/978-3-540-39966-7_22",
+            "key": "ref5",
+            "score": 98.20105,
+            "unstructured": "Discrete frontiers. In Discrete geometry for computer imagery+4+1+245+2003+X. Daragon+M. Couprie+G. Bertrand"
+          },
+          {
+            "doi": "10.1016/j.media.2004.06.015",
+            "key": "ref6",
+            "score": 101.263725,
+            "unstructured": "Automated segmentation of the left ventricle in cardiac MRI. Medical Image Analysis+8+245+254+2004+R. Michael+Vladimir Kaus+Pekar"
+          },
+          {
+            "doi": "10.1007/978-3-540-39899-8_55",
+            "key": "ref7",
+            "score": 104.49263,
+            "unstructured": "Segmentation of 4D cardiac MR images using a probabilistic atlas and the EM algorithm+Medical Image Analysis+10+286+303+2006+M. Lorenzo-Valde+G. I. Sanchez-Ortiz+A. G. Elington+R. H. Mohiaddin+D. Rueckert"
+          },
+          {
+            "doi": "10.1016/j.media.2004.06.013",
+            "key": "ref8",
+            "score": 124.65081,
+            "unstructured": "Statistical shape model of atria, ventricles and epicardium from short- and long-axis MR images+Medical Image Analysis+8+371+386+2004+J. Lo+J. Koikkalainen+D. Smutek+K. Lauerma"
+          },
+          {
+            "doi": "10.1016/j.media.2005.12.001",
+            "key": "ref9",
+            "score": 163.92157,
+            "unstructured": "SPASM: A 3D-ASM for segmentation of sparse and arbitrarily oriented cardiac MRI data+Medical Image Analysis+10+286+303+2006+H. van Assen+M. G. Danilouchkine+A. F. Frangi+J. J. M. Westenberg+J. H. C. Reiber+B. P. F. Lelieveldt"
+          },
+          {
+            "doi": "10.1097/00004728-199709000-00019",
+            "key": "ref10",
+            "score": 139.59857,
+            "unstructured": "Reiber. Comparison between manual and semiautomated analysis of left ventricular parameters from short-axis MR images+Journal of Computer Assisted Tomography+21+756+765+1997+J. van der Geest Rob+Hildo J. Vincent G. M. Buller+Lamb+Leo H. B. Baur+Johan H. C."
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

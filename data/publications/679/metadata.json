@@ -55,6 +55,67 @@
     "revisions": [
       {
         "article": "bafybeiffmxuajxr6xo4sulw7mzbsuxso7fs2zvo55ezllxijmjes442f4m",
+        "citation_list": [
+          {
+            "doi": "10.1186/1532-429x-12-s1-p238",
+            "key": "ref1",
+            "score": 79.71673,
+            "unstructured": "Evaluation Framework for Algorithms Segmenting Short Axis Cardiac MRI+The MIDAS Journal-Cardiac MR Left Ventricle Segmentation Challenge+P. Radau+Y. Lu+K. Connelly+Paul G. Dick+A.J. Wright+G.A."
+          },
+          {
+            "doi": "10.1109/tsmc.1979.4310076",
+            "key": "ref2",
+            "score": 101.72513,
+            "unstructured": "A Threshold Selection Method from Gray-Level Histograms+IEEE Transactions on Systems, Man, and Cybernetics+9+1+62+66+1979+Otsu"
+          },
+          {
+            "key": "ref3",
+            "score": 18.105537,
+            "unstructured": "2001+R.C. Gonzalez+R.E. Woods"
+          },
+          {
+            "doi": "10.1109/tmi.2007.904681",
+            "key": "ref4",
+            "score": 127.85109,
+            "unstructured": "Segmentation of the left ventricle of the heart in 3-D+t MRI data using an optimized nonrigid temporal model+IEEE Trans Med Imaging+27+2+195+203+2008+M. Lynch+O. Ghita+P.F. Whelan"
+          },
+          {
+            "doi": "10.1117/12.274120",
+            "key": "ref5",
+            "score": 79.27591,
+            "unstructured": "Automatic heart localization from 4D MRI datasets+SPIE : Med+3034+333+344+1997+W. Sorgel+V. Vaerman"
+          },
+          {
+            "doi": "10.1007/11866565_89",
+            "key": "ref6",
+            "score": 99.64124,
+            "unstructured": "Automated detection of left ventricle in 4D MR images: experience from a large study+Med Image Comp Comp Assist Interv. 9(Pt 1)+728+735+2006+X. Lin+B.R. Cowan+A.A. Young"
+          },
+          {
+            "doi": "10.1109/tbme.2006.873684",
+            "key": "ref7",
+            "score": 147.7594,
+            "unstructured": "Automated left ventricular segmentation in cardiac MRI+IEEE Trans Biomed Eng+53+7+1425+1428+2006+A. Pednekar+U. Kurkure+R. Muthupillai+S. Flamm+I.A. Kakadiaris"
+          },
+          {
+            "doi": "10.1109/42.925294",
+            "key": "ref8",
+            "score": 144.89397,
+            "unstructured": "Multistage hybrid active appearance model matching: segmentation of left and right ventricles in cardiac MR images+IEEE Trans Med Imaging+20+5+415+423+2001+B.P. Lelieveldt+H.G. Bosch+J.H. Reiber+M. Sonka"
+          },
+          {
+            "doi": "10.1148/radiol.2353040601",
+            "key": "ref9",
+            "score": 171.01195,
+            "unstructured": "Effect of endocardial trabeculae on left ventricular measurements and measurement reproducibility at cardiovascular MR imaging+Radiology+236+1+57+64+2005+T. Papavassiliu+H.P. K\u00fchl+M. Schr\u00f6der+T. S\u00fcselbeck+O. Bondarenko+C.K. B\u00f6hm+A. Beek+Hofman M.M.+A.C. van Rossum"
+          },
+          {
+            "doi": "10.1016/j.ijcard.2007.04.179",
+            "key": "ref10",
+            "score": 161.28906,
+            "unstructured": "Left ventricular papillary muscles and trabeculae are significant determinants of cardiac MRI volumetric measurements: effects on clinical standards in patients with advanced systolic dysfunction+Int J Cardiol+126+3+359+65+2008+J.W. Weinsaft+Cham M.D.+M. Janik+J.K. Min+C.I. Henschke+D.F. Yankelevitz+Devereux R"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

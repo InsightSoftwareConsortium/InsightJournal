@@ -52,6 +52,37 @@
     "revisions": [
       {
         "article": "bafkreiffvdstlwdmu7db2lh47efuxf6pfdm3qvr7qqacrhyme2s46kj3u4",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 44.006943,
+            "unstructured": "Knowledge-based segmentation of brain mri scans using the insight toolkit+Insight Journal+1926+J. Melonakos+J. Fallon+A. Tannenbaum"
+          },
+          {
+            "doi": "10.1109/42.650881",
+            "key": "ref2",
+            "score": 132.21452,
+            "unstructured": "Creating connected representations of cortical gray matter for functional MRI visualization+IEEE Trans. Med+16+1997+852+863+P. Teo+G. Sapiro+B. Wandell"
+          },
+          {
+            "doi": "10.1109/83.821747",
+            "key": "ref3",
+            "score": 104.72953,
+            "unstructured": "Knowledge-based segmentation of SAR data with learned priors+IEEE Trans. Image Proc. 9+2000+298+302+S. Haker+G. Sapiro+A. Tannenbaum"
+          },
+          {
+            "doi": "10.1109/icip.1997.648003",
+            "key": "ref4",
+            "score": 80.10974,
+            "unstructured": "Anisotropic smoothing of posterior probabilities+In: In Proc. ICIP+1997+P. Teo+G. Sapiro+B. Wandell+Barbara Santa"
+          },
+          {
+            "doi": "10.1109/42.363096",
+            "key": "ref5",
+            "score": 101.60169,
+            "unstructured": "Morphometric analysis of white matter lesions in mr images: Methods and validation+IEEE TMI 13+1994+716+724+A. Zijdenbos+B. Dawant+Marjolin"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

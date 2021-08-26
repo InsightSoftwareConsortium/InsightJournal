@@ -45,6 +45,42 @@
     "revisions": [
       {
         "article": "bafybeie356wttnnv2mgoitnm7fuf25cfza6cdkalvayo7fec7xawqx4pwm",
+        "citation_list": [
+          {
+            "doi": "10.1007/s11548-006-0051-7",
+            "key": "ref1",
+            "score": 88.70275,
+            "unstructured": "The operating room and the need for an IT infrastructure and standards+International Journal of Computer Assisted Radiology and Surgery 1+117+121+2006+H. U. Lemke+M. W. Vannier"
+          },
+          {
+            "doi": "10.1117/12.769485",
+            "key": "ref2",
+            "score": 91.54555,
+            "unstructured": "A general framework for data streaming in the digital operating room+In SPIE Medical Imaging+6919+33+2008+R. Mayoral+A. V\u00e1zquez+O. Burgert"
+          },
+          {
+            "key": "ref3",
+            "score": 48.110317,
+            "unstructured": "Digital Imaging and Communications in Medicine (DICOM)+2008+National Electrical Manufacturers Association"
+          },
+          {
+            "key": "ref4",
+            "score": 35.97529,
+            "unstructured": "Supplement+106+JPEG 2000 Interactive Protocol+Supplement106+2006+National Electrical Manufacturers Association"
+          },
+          {
+            "doi": "10.17487/rfc3550",
+            "key": "ref5",
+            "score": 104.876724,
+            "unstructured": "RTP: A Transport Protocol for Real-Time Applications+July 2003+H. Schulzrinne+S. Casner+R. Frederick+V. Jacobson"
+          },
+          {
+            "doi": "10.1016/j.comnet.2006.11.009",
+            "key": "ref6",
+            "score": 114.47878,
+            "unstructured": "Udp-based data transfer for high-speed wide area networks+Computer Networks+51+7+1777+1799+2007+Y. Gu+R.L. Grossman"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

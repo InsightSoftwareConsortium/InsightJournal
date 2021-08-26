@@ -74,6 +74,66 @@
     "revisions": [
       {
         "article": "bafybeib3luwmp5hupa4qbyamt6f3tzisczttjfbkjltyacvcz2w262kxeu",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 6.9398255,
+            "unstructured": "2009"
+          },
+          {
+            "key": "ref2",
+            "score": 26.598797,
+            "unstructured": "2009+VR-Render"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2007.04.026",
+            "key": "ref3",
+            "score": 165.13115,
+            "unstructured": "Challenges in imageguided therapy system design+Neuroimage+144+151+2007+K. Cleary+S. Aylward+P. Kazanzides+K. Vosburgh+R. Ellis+J. Duncan+K. Farahani+H. Lemke+D. Gobbi+J. Haller+S. Pizer+R. Taylor+N. Hata+K. Lawson+C. Tempany+R. Kikinis+F. Jolesz+S. Dimaio+T. Kapur"
+          },
+          {
+            "doi": "10.1007/s11548-008-0243-4",
+            "key": "ref4",
+            "score": 144.05118,
+            "unstructured": "Designing tracking software for image-guided surgery applications: IGSTK experience+International Journal of Computer Assisted Radiology and Surgery+1+5+3+403+2008+A. Enquobahrie+D. Gobbi+M. Turek+Z. Yaniv+F. Lindseth+K. Cleary"
+          },
+          {
+            "doi": "10.1109/icip.2006.312517",
+            "key": "ref5",
+            "score": 86.758644,
+            "unstructured": "A XML based component oriented architecture for image guided surgery: illustration for the video based tracking of a surgical tool+Insight Journal, Workshop on Systems and Architectures for Computer Assisted Interventions, 11th International Conference on Medical Image Computing and Computer Assisted Intervention+2008+1+2+4+J. J.-B. Fasquel+L. Waechter+S. Goffin+V. Nicolau+L. Agnus+J. Soler+Marescaux"
+          },
+          {
+            "doi": "10.1007/978-3-540-75757-3_60",
+            "key": "ref6",
+            "score": 166.32535,
+            "unstructured": "Application of open source image guided therapy software in MR-guided therapies+In International Conference on Medical Image Computing and Computer Assisted Intervention+2007+N. Hata+S. Piper+F. Jolesz+C. Tempany+P. Black+S. Morikawa+H. Iseki+M. Hashizume+R. Kikinis"
+          },
+          {
+            "doi": "10.1109/robot.2006.1642285",
+            "key": "ref7",
+            "score": 114.54917,
+            "unstructured": "Software components and frameworks for medical robot control+In Proceedings of the 2006 IEEE International Conference on Robotics and Automation+3813+3818+2006+A Kapoor+A. Deguet+P. Kazanzides"
+          },
+          {
+            "doi": "10.1002/(sici)1096-9942(1996)2:3<143::aid-tapo2>3.0.co;2-x",
+            "key": "ref8",
+            "score": 90.70838,
+            "unstructured": "Roles: conceptual abstraction theory and practical language issues+Theory and Practice of Object Systems+1+2+160+1996+B.B. Kristensen+K. Osterbye"
+          },
+          {
+            "doi": "10.1109/tse.2007.70726",
+            "key": "ref9",
+            "score": 88.401634,
+            "unstructured": "Software component models+IEEE Transactions on software engineering+33+10+709+724+2007+Z. K.-K. Lau+Wang"
+          },
+          {
+            "doi": "10.1109/tbme.2009.2024213",
+            "key": "ref10",
+            "score": 106.923744,
+            "unstructured": "Simultaneous physiological motion cancellation and depth adaptation in flexible endoscopy+IEEE Transactions on Biomedical Engineering+1+4+2009+F. Ott+P. Nageotte+Zanne"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

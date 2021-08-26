@@ -46,6 +46,30 @@
     "revisions": [
       {
         "article": "bafybeiae4zcoli5znyjewxcd6eoizklya27klbwzdh4q5rljdhw7xrnd2q",
+        "citation_list": [
+          {
+            "doi": "10.1145/258734.258849",
+            "key": "ref1",
+            "score": 137.327,
+            "unstructured": "Surface simplification using quadric error metrics+In SIGGRAPH '97: Proceedings of the 24th annual conference on Computer graphics and interactive techniques+209+216+1997+Michael Garland+Paul S. Heckbert"
+          },
+          {
+            "key": "ref2",
+            "score": 28.03336,
+            "unstructured": "Mutable priority queue container+Insight Journal+1926+Arnaud Gelas+Sean Megason"
+          },
+          {
+            "key": "ref3",
+            "score": 38.45173,
+            "unstructured": "Leonardo Florez-Valencia, and Eric Boix. itkQuadEdgeMesh: A discrete orientable 2-manifold data structure for image processing+Insight Journal, July-December+1926+Alexandre Gouaillard"
+          },
+          {
+            "doi": "10.1111/1467-8659.1530067",
+            "key": "ref4",
+            "score": 97.47787,
+            "unstructured": "Full-range approximation of triangulated polyhedra+Proceeding of Eurographics+15+3+67+76+August 1996+Remi Ronfard+Jarek Rossignac"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

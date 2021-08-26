@@ -53,6 +53,52 @@
     "revisions": [
       {
         "article": "bafybeie2ggvvndya3hs3tcte5hdeljx2mve72hgqdgfg3o473yxm7suoke",
+        "citation_list": [
+          {
+            "doi": "10.1109/vis.2005.113",
+            "key": "ref1",
+            "score": 123.76968,
+            "unstructured": "Enabling interactive multiple-view visualizations+org. 1+135+142+2005+L. Bavoil+S.P. Callahan+P.J. Crossno+J. Freire+C.E. Scheidegger+C.T. Silva+H.T. Vo"
+          },
+          {
+            "doi": "10.1109/tvcg.2007.1001",
+            "key": "ref2",
+            "score": 133.46693,
+            "unstructured": "Comparison of four freely available frameworks for image processing and visualization that use ITK+IEEE Trans. Vis+13+483+493+2007+I. Bitter+R. Van Uitert+I. Wolf+L.+J.-M. Kuhnigk"
+          },
+          {
+            "key": "ref3",
+            "score": 34.116127,
+            "unstructured": "Hybrid scheduling in the DeVIDE dataflow visualisation environment+Proc. Simulation and Visualization+309+322+2008+C.P. Botha+F.H. Post+S. Strassburger"
+          },
+          {
+            "doi": "10.1117/12.878254",
+            "key": "ref4",
+            "score": 62.366646,
+            "unstructured": "Simulink libraries for visual programming of VTK and ITK. In Systems and Architectures for Computer Assisted Interventions+net/10380/1461+2008+D.G. Gobbi+P. Mousavi+K.M. Li+J. Xiang+A. Campigotto+P. Abolmaesumi"
+          },
+          {
+            "key": "ref5",
+            "score": 20.103207,
+            "unstructured": "2010+org. 2+K. Martin+B. Hoffman"
+          },
+          {
+            "key": "ref6",
+            "score": 52.52021,
+            "unstructured": "A scientific programming environment for computational steering+org/. 1+1995+S.G. Parker+C.R. Johnson"
+          },
+          {
+            "key": "ref7",
+            "score": 59.58273,
+            "unstructured": "An Object-Oriented Approach to 3D Graphics. Kitware, Inc+2006+org/. 1+W. Schroeder+K.W. Martin+and W. Lorensen"
+          },
+          {
+            "doi": "10.1117/12.844924",
+            "key": "ref8",
+            "score": 174.25623,
+            "unstructured": "Integrating the visualization concept of the medical imaging interaction toolkit (MITK) into the XIP-Builder visual programming environment+Medical Imaging+2010+7625+I. Wolf+M. Nolden+T. Schwarz+H.-P. Meinzer+M.I. Miga+Image-Guided Procedures"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

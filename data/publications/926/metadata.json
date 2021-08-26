@@ -100,6 +100,44 @@
     "revisions": [
       {
         "article": "bafybeiha3ayv3cwdapijblxxc4idx3ed66blylizatgeekmqir7q74tqai",
+        "citation_list": [
+          {
+            "doi": "10.1016/j.jacc.2012.01.037",
+            "key": "ref1",
+            "score": 110.72326,
+            "unstructured": "Performance of 3-dimensional echocardiography in measuring left ventricular volumes and ejection fraction+J Am Coll Cardiol+1799+20+2012+J. Dorosz+D. Lezotte+D. Weitzenkamp+L. Allen+Salcedo"
+          },
+          {
+            "doi": "10.1016/j.ultrasmedbio.2011.01.010",
+            "key": "ref2",
+            "score": 129.20041,
+            "unstructured": "Left ventricular border tracking using cardiac motion models and optical ow+Ultrasound Med Biol+605+4+616+2011+E. Leung+Danilouchkine+M. van Stralen+A. van der Steen+Bosch"
+          },
+          {
+            "doi": "10.1093/ejechocard/jeq005",
+            "key": "ref3",
+            "score": 87.91292,
+            "unstructured": "Automated border detection in three-dimensional echocardiography: principles and promises+Eur J Echocardiogr+97+2+108+2010+K. Leung+Bosch"
+          },
+          {
+            "doi": "10.1109/cic.2008.4748968",
+            "key": "ref4",
+            "score": 187.58156,
+            "unstructured": "Real-time 3-dimensional echocardiographic quanti cation of left ventricular volumes: Multicenter study for validation with magnetic resonance imaging and investigation of sources of error+JACC: Cardiovasc Im+413+4+423+2008+V. Mor-Avi+C. Jenkins+H. Kuhl+H. Nesser+T. Marwick+A. Franke+C. Ebner+B. Freed+R. Steringer-Mascherbauer+H. Pollard+L. Niel+J. Sugeng+L. Lang+R."
+          },
+          {
+            "doi": "10.1016/j.echo.2017.06.027",
+            "key": "ref5",
+            "score": 114.26168,
+            "unstructured": "Clinical expert delineation of 3d left ventricular echocardiograms for the cetus segmentation challenge+In: Proc. of MICCAI Workshop: Challenge on Endocardial Three-dimensional Ultrasound Segmentation+2014+A. Papachristidis+M. Geleijnse+E. Galli+B. Heyde+M. Alessandrini+D. Barbosa+E. Donal+M. Monaghan+O. Bernard+D'+J.G. Bosch"
+          },
+          {
+            "doi": "10.1109/tmi.2011.2158440",
+            "key": "ref6",
+            "score": 142.33073,
+            "unstructured": "Prediction based collaborative trackers (PCT): A robust and accurate approach toward 3D medical object tracking+IEEE T Med Imaging+30+11+2011+L. Yang+B. Georgescu+Y. Zheng+Y. Wang+P. Meer+Comaniciu"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

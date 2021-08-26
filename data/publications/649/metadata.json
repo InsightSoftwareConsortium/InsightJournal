@@ -60,6 +60,113 @@
     "revisions": [
       {
         "article": "bafybeigdhyzrqbmbq2r5ldxj6xrwg4zpuxmp3i2vxyliftfiokkzwzvsm4",
+        "citation_list": [
+          {
+            "doi": "10.1007/s10278-007-9054-3",
+            "key": "ref1",
+            "score": 159.69873,
+            "unstructured": "The imageguided surgery toolkit IGSTK: an open source C++ software toolkit+J Digit Imaging+20+Suppl 1+21+33+2007+A. Enquobahrie+L. Ibanez+D. Gobbi+F. Lindseth+Z. Yaniv+S. Aylward+J. Jomier+K. Cleary"
+          },
+          {
+            "doi": "10.1117/12.706079",
+            "key": "ref2",
+            "score": 60.230507,
+            "unstructured": "Device connectivity for imageguided medical applications+Stud Health Technol Inform+2007+125+482+4+J. von Spiczak+D. Schmalstieg+C. Burghart+R. Kikinis"
+          },
+          {
+            "doi": "10.1007/978-3-540-75759-7_7",
+            "key": "ref3",
+            "score": 60.46621,
+            "unstructured": "Data for Medical Image Computing+1926+E. Samset+A. Hans+S. DiMaio+R. Ellis+N. Hata+F. Jolesz+Intervention Computer-Assisted"
+          },
+          {
+            "key": "ref4",
+            "score": 34.76093,
+            "unstructured": "The MIDAS Journal+B Vagvolgyi+P. Kazanzides.+R. Kumar+C. Hasser+R. Taylor"
+          },
+          {
+            "doi": "10.1016/j.media.2005.04.005",
+            "key": "ref5",
+            "score": 115.20701,
+            "unstructured": "The Medical Imaging Interaction Toolkit. Med Image Anal+2005+9+6+594+604+I. Wolf+M. Vetter+T. B\u00f6ttger+M. Nolden+M. Sch\u00f6binger+M. Hastenteufel"
+          },
+          {
+            "doi": "10.1109/isbi.2006.1624960",
+            "key": "ref6",
+            "score": 116.5101,
+            "unstructured": "Development of a research interface for image guided intervention: Initial application to epilepsy neurosurgery+International Symposium on Biomedical Imaging ISBI+2006+490+3+X. Papademetris+M.+M. Neff+S. Flossman+N. Frielinghaus+H. Zaveri+H. Blumenfeld"
+          },
+          {
+            "doi": "10.1109/isbi.2004.1398617",
+            "key": "ref7",
+            "score": 61.23449,
+            "unstructured": "3D Slicer+1+632+635+April 2004+S. Pieper+M. Halle+R. Kikinis"
+          },
+          {
+            "doi": "10.1002/jmri.1139",
+            "key": "ref8",
+            "score": 115.55988,
+            "unstructured": "An integrated visualization system for surgical planning and guidance using image fusion and an open MR+J Magn Reson Imaging+2001+13+6+967+75+DT. Gering+A. Nabavi+R. Kikinis+N. Hata+WM. Wells. LJ. O'Donnell"
+          },
+          {
+            "doi": "10.1148/radiology.220.1.r01jl44263",
+            "key": "ref9",
+            "score": 170.94258,
+            "unstructured": "MR imaging-guided prostate biopsy with surgical navigation software: device validation and feasibility+Radiology+220+1+263+8+N. Hata+M. Jinzaki+D. Kacher+R. Cormak+D. Gering+A. Nabavi+S.G. Silverman+D A.V. Kikinis+R. Jolesz+F.A. Tempany+C.M."
+          },
+          {
+            "doi": "10.1016/s1076-6332(03)00508-7",
+            "key": "ref10",
+            "score": 144.43852,
+            "unstructured": "Advanced computer assistance for magnetic resonance-guided microwave thermocoagulation of liver tumors+Acad Radiol+2003+10+12+1442+9+S. Morikawa+T. Inubushi+T. Kurumi+S. Naka+K. Sato+K. Demura+J. Tokuda+N. Hata"
+          },
+          {
+            "doi": "10.1002/rcs.274",
+            "key": "ref11",
+            "score": 129.10448,
+            "unstructured": "OpenIGTLink: An Open Network Protocol for Image-Guided Therapy Environment+Int J Med Robot Comput Assist Surg+2009+J. Tokuda+X. Papademetris+Z. Yaniv+L. Ibanez+J. Blevins+J. Arata+A. Golby+T. Kapur+N. Hata."
+          },
+          {
+            "doi": "10.1109/tmech.2008.924044",
+            "key": "ref12",
+            "score": 123.98066,
+            "unstructured": "MRI-Compatible Pneumatic Robot for Transperineal Prostate Needle Placement+2008+13+3+295+30+I. GS. Fischer+C. Iordachita+J. Csoma+N. Tokuda+G. Fichtinger. Hata"
+          },
+          {
+            "doi": "10.1007/978-3-540-75759-7_8",
+            "key": "ref13",
+            "score": 157.24806,
+            "unstructured": "Fichtinger, LL. Whitcomb. Design and Preliminary Accuracy Studies of an MRI-Guided Transrectal Prostate Intervention System Medical Image Computing+2007+October 29 - November 2+4792+59+67+A. Krieger+C. Csoma+I. Iordachita+G.+Intervention - MICCAI Computer-Assisted+II Part"
+          },
+          {
+            "doi": "10.1109/ieeestd.1998.88286",
+            "key": "ref14",
+            "score": 62.39226,
+            "unstructured": "-1998, IEEE Recommended Practice for Software Requirements Specifications+1998+IEEE Std"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2007.04.026",
+            "key": "ref15",
+            "score": 221.71323,
+            "unstructured": "NeuroImage+Challenges in image-guided therapy system design+2007+37+S144+S151+S. DiMaio+K. Cleary+S. Aylward+P. Kazanzides+K. Vosburgh+R. Ellis+J. Duncan+K. Farahani+H. Lemke+T. Peters+W. Lorensen+D. Gobbi+J. Haller+L. Clarke+S. Pizer+R. Taylor+G. Galloway+N. Fichtinger+K. Hata+C. Lawson+R. Tempany+F. Kikinis+Jolesz"
+          },
+          {
+            "key": "ref16",
+            "score": 57.436222,
+            "unstructured": "The National Electrical Manufacturers Association (NEMA). Digital Imaging and Communication in Medicine (DICOM)+NEMA Publications PS 31-318+2007"
+          },
+          {
+            "doi": "10.1007/s11548-006-0051-7",
+            "key": "ref17",
+            "score": 83.560326,
+            "unstructured": "The operating room and the need for an IT infrastructure and standards+International Journal of Computer Assisted Radiology and Surgery+2006+1+3+117+21+H. Lemke+M. Vannier"
+          },
+          {
+            "key": "ref18",
+            "score": 36.64685,
+            "unstructured": "[18] DCMTK - DICOM Toolkit, version 3.5.4+2005"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

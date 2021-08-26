@@ -96,6 +96,72 @@
     "revisions": [
       {
         "article": "bafybeie5c7sfln3jo3dpgf2zfeha5e4c5xvwuwwbyieltjyhuexgy6cx6u",
+        "citation_list": [
+          {
+            "doi": "10.1109/isbi.2004.1398686",
+            "key": "ref1",
+            "score": 109.68654,
+            "unstructured": "Consistent groupwise non-rigid registration for atlas construction+In IEEE ISBI+2004+2+2+2+K K Bhatia+J V Hajnal+B K Puri+A D Edwards+D Rueckert"
+          },
+          {
+            "doi": "10.1259/bjr/25329214",
+            "key": "ref2",
+            "score": 83.46325,
+            "unstructured": "Non-rigid image registration: Theory and practice+The British Journal of Radiology+77+140+153+2004+W R Crum+T Hartkens+D L G"
+          },
+          {
+            "key": "ref3",
+            "score": 47.365776,
+            "unstructured": "1973+2+1+R.O. Duda+P.E. Hart. Pattern Classification+Scene Analysis"
+          },
+          {
+            "key": "ref4",
+            "score": 23.805683,
+            "unstructured": "first edition+2003+L. Ibanez+W. Schroeder+L. Ng+J. Cates"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2004.07.068",
+            "key": "ref5",
+            "score": 108.30368,
+            "unstructured": "Unbiased diffeomorphic atlas construction for computational anatomy+NeuroImage+3+1+160+2004+S Joshi+Matthieu Jomier+Guido Gerig"
+          },
+          {
+            "doi": "10.1007/11784012_19",
+            "key": "ref6",
+            "score": 80.74025,
+            "unstructured": "A comparison of acceleration techniques for nonrigid medical image registration+In WBIR+1+159+2006+3+Stefan Klein+Josien P.W. Pluim"
+          },
+          {
+            "doi": "10.1109/cvpr.2000.855856",
+            "key": "ref7",
+            "score": 102.066444,
+            "unstructured": "Learning from one example through shared densities on transforms+In IEEE CVPR+2+471+2000+1+E. Miller+N. Matsakis+P. Viola"
+          },
+          {
+            "doi": "10.1109/42.796284",
+            "key": "ref8",
+            "score": 77.01957,
+            "unstructured": "Nonrigid registration using free-form deformations: Application to breast mr images+IEEE TMI+2+2+128+2003+D. Rueckert"
+          },
+          {
+            "doi": "10.1016/s0262-8856(00)00055-x",
+            "key": "ref9",
+            "score": 91.31336,
+            "unstructured": "The role of image registration in brain mapping+Image and Vision Computing+19+3+24+2001+A Toga+P Thompson"
+          },
+          {
+            "doi": "10.1016/s0262-8856(03)00137-9",
+            "key": "ref10",
+            "score": 94.89868,
+            "unstructured": "Image registration methods: A survey+Image and Vision Computing+21+977+1000+2003+Barbara Zitova+Jan Flusser"
+          },
+          {
+            "doi": "10.1007/11569541_30",
+            "key": "ref11",
+            "score": 67.48865,
+            "unstructured": "Efficient population registration of 3d data. In Computer Vision for Biomedical Image Applications+2+301+2005+1+Lilla Zollei"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

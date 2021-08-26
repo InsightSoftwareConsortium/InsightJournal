@@ -48,6 +48,76 @@
     "revisions": [
       {
         "article": "bafkreib5zpglqwgrebvib6zggtivhwhxw2eowjt5erqu2x3nb3lfgvjuqy",
+        "citation_list": [
+          {
+            "doi": "10.1007/11866565_113",
+            "key": "ref1",
+            "score": 81.59415,
+            "unstructured": "A Log-Euclidean Framework for Statistics on Diffeomorphisms+Med Image Comput Comput Assist Interv+2+931+2006+2+Vincent Arsigny+Nicholas Ayache"
+          },
+          {
+            "doi": "10.1016/j.media.2007.06.004",
+            "key": "ref2",
+            "score": 123.28241,
+            "unstructured": "Symmetric Diffeomorphic Image Registration with Cross-Correlation: Evaluating Automated Labeling of Elderly and Neurodegenerative Brain+Med Image Anal+2+1+3+41+February 2008+B Brian+M Avants+Grossman"
+          },
+          {
+            "doi": "10.1088/0031-9155/54/7/001",
+            "key": "ref3",
+            "score": 122.46007,
+            "unstructured": "A framework for evaluation of deformable image registration spatial accuracy using large landmark point sets+Phys Med Biol+54+1849+1870+2009+Richard Castillo+McPhail Travis+Thomas Guerrero"
+          },
+          {
+            "doi": "10.1109/tmi.2010.2076299",
+            "key": "ref4",
+            "score": 70.762085,
+            "unstructured": "(document)+IEEE Trans Med Imag+30+2+251+265+February 2011+Jan Ehrhardt+Alexander Schmidt-Richberg+Heinz Handels"
+          },
+          {
+            "key": "ref5",
+            "score": 52.556816,
+            "unstructured": "Numerical Methods for Image Registration+2004+2+2+4+Jan Modersitzki"
+          },
+          {
+            "doi": "10.1137/1.9780898718843",
+            "key": "ref6",
+            "score": 67.8522,
+            "unstructured": "Flexible Algorithms for Image Registration. Fundamentals of Algorithms+SIAM: Society for Industrial and Applied Mathematics+2009+2+3+Jan Modersitzki"
+          },
+          {
+            "key": "ref7",
+            "score": 55.211002,
+            "unstructured": "Evaluation of Registration Methods on Thoracic CT: The EMPIRE10 Challenge+IEEE Trans Med Imag+30+11+1901+1920+2011+Keelin Murphy+Sven Joseph M Reinhardt+Kai Kabus+Ding"
+          },
+          {
+            "doi": "10.1007/10704282_64",
+            "key": "ref8",
+            "score": 78.71754,
+            "unstructured": "Understanding the \u201cDemon's Algorithm\u201d: 3D Non-rigid Registration by Gradient Descent+Med Image Comput Comput Assist Interv+3+605+1999+2+Xavier Pennec"
+          },
+          {
+            "key": "ref9",
+            "score": 47.96127,
+            "unstructured": "Medical Image Analysis for the Clinic: A Grand Challenge+2010+1+62+Alexander Schmidt-Richberg+and Heinz Handels+Keelin Murphy+MICCAI"
+          },
+          {
+            "doi": "10.1016/s1361-8415(98)80022-4",
+            "key": "ref10",
+            "score": 83.41134,
+            "unstructured": "Image matching as a diffusion process: an analogy with Maxwell's demons+Med Image Anal+2+3+3+260+September 1998+Jean-Philippe Thirion"
+          },
+          {
+            "key": "ref11",
+            "score": 42.361214,
+            "unstructured": "The POPI-model, a point-validated pixelbased breathing thorax model+In Proc ICCR. Conference on the Use of Computers . . .+2007+Vandemeulebroucke Jef+and Patrick Clarysse"
+          },
+          {
+            "doi": "10.1088/0031-9155/59/15/4247",
+            "key": "ref12",
+            "score": 83.17125,
+            "unstructured": "Estimation of lung motion fields in 4DCT data by variational non-linear intensity-based registration: A comparison and evaluation study+(document)+2+3+Rene+Heinz Alexander+Jan Handels+Ehrhardt"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

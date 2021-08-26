@@ -87,6 +87,54 @@
     "revisions": [
       {
         "article": "bafkreiesyjhyrxjup73qki53lov3ff2zsr7dskddpryiefbud2re2mbvlu",
+        "citation_list": [
+          {
+            "doi": "10.3174/ajnr.a0795",
+            "key": "ref1",
+            "score": 134.04073,
+            "unstructured": "Segmentation of subtraction images for the measurement of lesion change in multiple sclerosis+AJNR Am J Neuroradiol+2008+29+2+340+6+Y. Duan+P.G. Hildenbraind+M.P. Sampat+D.F. Tate+I. Csapo+B. Moraal+R. Bakshi+F. Barkhof+D.S. Meier+C.R. Guttmann"
+          },
+          {
+            "doi": "10.1109/42.938237",
+            "key": "ref2",
+            "score": 143.65707,
+            "unstructured": "Automated segmentation of multiple sclerosis lesions by model outlier detection+IEEE Trans Med Imaging+2001+20+8+677+88+K. Van Leemput+F. Maes+D. Vandermeulen+A. Colchester+P. Suetens"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2007.09.058",
+            "key": "ref3",
+            "score": 106.89713,
+            "unstructured": "Texture-based segmentation of diffuse lesions of the brain's white matter+Neuroimage+2008+39+3+987+96+F. Kruggel+J.S. Paul+H.J. Gertz"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2003.10.012",
+            "key": "ref4",
+            "score": 146.79593,
+            "unstructured": "Probabilistic segmentation of white matter lesions in MR imaging+Neuroimage+2004+21+3+1037+44+P. Anbeek+K.L. Vincken+M.J.P van Osch R.H.C Bisschops+J. van der Grond"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2005.05.046",
+            "key": "ref5",
+            "score": 156.51184,
+            "unstructured": "Probabilistic segmentation of brain tissue in MR imaging+Neuroimage+2005+27+4+795+804+P. Anbeek+K.L. Vincken+G.S. van Bochove M.J.P. van Osch+J. van der Grond"
+          },
+          {
+            "key": "ref6",
+            "score": 49.639507,
+            "unstructured": "Neural Networks for Pattern Recognition+Hum Brain Mapp+1995+17+3+143+155+S.M. Smith.+C.M. Bishop"
+          },
+          {
+            "key": "ref7",
+            "score": 43.552498,
+            "unstructured": "2001+R.O. Duda+P.E. Hart+D.G. Stork. Pattern Classification"
+          },
+          {
+            "doi": "10.1109/tmi.2004.828354",
+            "key": "ref8",
+            "score": 121.78572,
+            "unstructured": "Simultaneous truth and performance level estimation (STAPLE): an algorithm for the validation of image segmentation+IEEE Trans Med Imaging+2004+23+7+903+21+S.K. Warfield+K.H. Zou+W.M. Wells"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

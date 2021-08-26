@@ -84,6 +84,132 @@
     "revisions": [
       {
         "article": "bafkreifccuomipbsqwayshzra7adf3lpk2i76szb6fwphskkdxd44jmbzi",
+        "citation_list": [
+          {
+            "doi": "10.1093/jnci/djj403",
+            "key": "ref1",
+            "score": 110.18185,
+            "unstructured": "Sometimes size doesn't matter: Reevaluating RECIST and tumor response rate endpoints,\"+Journal of the National Cancer Institute+1272+1274+September 2006"
+          },
+          {
+            "doi": "10.1148/radiol.2252011604",
+            "key": "ref2",
+            "score": 112.88323,
+            "unstructured": "\\CT tumor measurement for therapeutic response assessment: comparison of unidimensional, bidimensional, and volumetric techniques initial observations,\"+Radiology+416+9+2002+S. Prasad+K. Jhaveri+November"
+          },
+          {
+            "doi": "10.1016/j.acra.2004.09.004",
+            "key": "ref3",
+            "score": 166.72333,
+            "unstructured": "Comparison of treatment response classi\u00afcations between unidimensional, bidimensional, and volumetric measurements of metastatic lung lesions on chest computed tomography,\"+Academic Radiology+1355+1360+2004+L. N. Tran+M. S. Brown+J. G. Goldin+X. Yan+R. C. Pais+M. F. McNitt-Gray+D. Gjertson+S. R. Rogers+D. R. Aberle+-Dec Nov"
+          },
+          {
+            "doi": "10.1007/s003300050180",
+            "key": "ref4",
+            "score": 151.1263,
+            "unstructured": "Evaluation of manual vs semi-automated delineation of liver lesions on CT images,\"+European Radiology+7+432438+1997+E. Bellon+M. Feron+F. Maes+L. V. Hoe+D. Delaere+F. Haven+S. Sunaert+A. Baert+P. Suetens"
+          },
+          {
+            "doi": "10.1007/978-3-540-49197-2_9",
+            "key": "ref5",
+            "score": 126.25368,
+            "unstructured": "Computer-aided interactive object delineation using an intelligent paintbrush technique,\"+in Lecture Notes in Computer Science (N. Ayache, ed.)+77+83+1995+F. Maes+D. Vandermeulen+P. Suetens"
+          },
+          {
+            "key": "ref6",
+            "score": 54.785713,
+            "unstructured": "Automatic image partitioning for generic object segmentation in medical images,\" in Computational Imaging+eds.)+215+226+1995+F. Maes+D. Vandermeulen+P. Suetens+C. Vision (Y. Bizais+Barillot"
+          },
+          {
+            "doi": "10.1109/cbms.2003.1212810",
+            "key": "ref7",
+            "score": 147.50949,
+            "unstructured": "Volumetry of hepatic metastases in computed tomography using the watershed and active contour algorithms,\"+in Proceedings of the 16th IEEE Symposium on Computer-Based Medical Systems, IEEE Computer Society+2003+P. J. Yim+D. J. Foran"
+          },
+          {
+            "doi": "10.1118/1.598605",
+            "key": "ref8",
+            "score": 98.81391,
+            "unstructured": "Two-dimensional multi-criterion segmentation of pulmonary nodules on helical CT images,\"+Medical Physics+4678+4689+1999+B. Zhao+D. Yankelevitz+Juni"
+          },
+          {
+            "doi": "10.1118/1.2799885",
+            "key": "ref9",
+            "score": 106.64438,
+            "unstructured": "\\Segmentation of pulmonary nodules in threedimensional CT images by use of a spiral-scanning technique,\"+Medical Physics+4678+4689+December 2007+J. Wang+R. Engelmann"
+          },
+          {
+            "key": "ref10",
+            "score": 49.755337,
+            "unstructured": "Medical Image Computing and Computer-Assisted Intervention, \\3D segmentation in the clinic: A grand challenge II.\" http://grand-challenge2008.bigr+2008"
+          },
+          {
+            "doi": "10.1109/iccv.1995.466871",
+            "key": "ref11",
+            "score": 75.09657,
+            "unstructured": "Geodesic active contours,\"+International Journal of Computer Vision+1+6179+1997+V. Caselles+R. Kimmel"
+          },
+          {
+            "doi": "10.1007/0-387-22746-6_1",
+            "key": "ref12",
+            "score": 77.389114,
+            "unstructured": "Level Set Methods and Dynamic Implicit Surfaces+2003+S. Osher+R. Fedkiw"
+          },
+          {
+            "key": "ref13",
+            "score": 8.174356,
+            "unstructured": "2002"
+          },
+          {
+            "doi": "10.1109/iembs.2005.1615771",
+            "key": "ref14",
+            "score": 67.05484,
+            "unstructured": "Hybrid feature vector extraction in unsupervised learning neural classi\u00afer,\"+Engineering in Medicine and Biology+5664+5667+September 2005"
+          },
+          {
+            "key": "ref15",
+            "score": 41.38365,
+            "unstructured": "ISPA 2001+Proceedings of the 2nd International Symposium on+2001+373+376"
+          },
+          {
+            "key": "ref16",
+            "score": 55.45781,
+            "unstructured": "The liver: 3D visualization and quanti\u00afcation of metastases,\" master thesis, Katholieke Universiteit Leuven: departement Elektrotechniek, biomedische technologie+June 2008+D. Smeets+B. Stijnen"
+          },
+          {
+            "key": "ref17",
+            "score": 36.42758,
+            "unstructured": "2003+S. Osher+N. Paragios"
+          },
+          {
+            "key": "ref18",
+            "score": 46.31659,
+            "unstructured": " MeVis Research GmbH, \\MeVisLab.\" http://www.mevislab.de."
+          },
+          {
+            "key": "ref19",
+            "score": 39.966045,
+            "unstructured": "Automatic segmentation of liver tumors from MRI images,\"+Master's thesis+November 2005"
+          },
+          {
+            "doi": "10.1109/tsmc.1973.4309314",
+            "key": "ref20",
+            "score": 71.85503,
+            "unstructured": "Textural features for image classi\u00afcation,\"+SMC-3+610+621+1973+K. R. M. Haralick+Shanmugam+November"
+          },
+          {
+            "doi": "10.1109/42.938237",
+            "key": "ref21",
+            "score": 107.09294,
+            "unstructured": "Automated segmentation of multiple sclerosis lesions by model outlier detection,\"+Tech. Rep. 0004+Juni 2000+F. K. Van Leemput+D. Maes+A. Vandermeulen+P. Colchester+Suetens"
+          },
+          {
+            "doi": "10.1148/radiology.202.3.9051014",
+            "key": "ref22",
+            "score": 140.70042,
+            "unstructured": "Size quanti\u00afcation of liver metastasis in patients undergoing cancer treatment: reproducibility of one-, two-, and three-dimensial measurements determined with spiral CT,\"+675+671+1997+E. Van Cutsem Hoe+I. Vergote+A. L. Baert+P. Dupont+Radiology"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

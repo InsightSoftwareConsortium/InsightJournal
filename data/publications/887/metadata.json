@@ -37,6 +37,53 @@
     "revisions": [
       {
         "article": "bafybeibbqxbib4ml6huszfmxtwipnj6dj3a44rd2ce4ggkv45hf44nch5a",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 32.575287,
+            "unstructured": "2009+Importing Contours from DICOM-RT structure sets+Insight Journal+J. Dowling"
+          },
+          {
+            "doi": "10.1118/1.4754659",
+            "key": "ref2",
+            "score": 96.92009,
+            "unstructured": "- Radiation therapy research toolkit for 3D Slicer, Med+39+10+6332+6338+2012+C. Pinter"
+          },
+          {
+            "key": "ref3",
+            "score": 32.599266,
+            "unstructured": "2009+Exporting Contours to DICOM-RT Structure Sets+Insight Journal+S. Gorthi"
+          },
+          {
+            "key": "ref4",
+            "score": 24.952297,
+            "unstructured": "GDCM 2.1.0 Reference Manual+2011+M. Malaterre"
+          },
+          {
+            "doi": "10.1007/978-3-642-15989-3_6",
+            "key": "ref5",
+            "score": 88.1265,
+            "unstructured": "2010+Atlas Based Segmentation and Mapping of Organs at Risk from Planning CT for the Development of Voxel-Wise Predictive Models of Toxicity in Prostate Radiotherapy+6367+42+51+O. Acosta"
+          },
+          {
+            "doi": "10.1007/978-3-642-15989-3_4",
+            "key": "ref6",
+            "score": 99.86226,
+            "unstructured": "September 2010+Automatic MRI atlas-based external beam radiation therapy treatment planning for prostate cancer+International Workshop on Prostate Cancer Imaging+6367+25+24+33+J. Dowling"
+          },
+          {
+            "doi": "10.1016/j.ijrobp.2011.11.056",
+            "key": "ref7",
+            "score": 123.0425,
+            "unstructured": "2012+An atlas-based electron density mapping method for magnetic resonance imaging (MRI)-alone treatment planning and adaptive MRI-based prostate radiation therapy+International Journal of Radiation Oncology+83+1+e5+11+J. A. Dowling"
+          },
+          {
+            "doi": "10.1109/tmi.2012.2211377",
+            "key": "ref8",
+            "score": 67.868324,
+            "unstructured": "2012+Patient Specific Prostate Segmentation in 3D Magnetic Resonance Images+IEEE Transactions on Medical Imaging+31+10+S. Chandra"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

@@ -57,6 +57,60 @@
     "revisions": [
       {
         "article": "bafybeicvrhcti55uwnxea4ziwfq4iq47bgjqgo2ibnia3daflafphl4bze",
+        "citation_list": [
+          {
+            "doi": "10.3322/canjclin.57.1.43",
+            "key": "ref1",
+            "score": 66.58372,
+            "unstructured": "2007+57+43+66+A. Jemal+R. Siegel+E. Ward+T. Murray+J. Xu+Thun"
+          },
+          {
+            "key": "ref2",
+            "score": 39.657833,
+            "unstructured": "2002+W. R. Hendee+E.R. Ritenour"
+          },
+          {
+            "doi": "10.1109/10.678613",
+            "key": "ref3",
+            "score": 94.35963,
+            "unstructured": "An Automatic Diagnostic System for CT Liver Image Classification+IEEE Trans. Biomed. Eng+45+1998+E.L. Chen+P.C. Chung+C.L. Chen+H.M. Tsai+C.I. Chang"
+          },
+          {
+            "doi": "10.1109/tnb.2003.813930",
+            "key": "ref4",
+            "score": 80.37665,
+            "unstructured": "On the Accurate Counting of Tumor Cells+IEEE Trans. Bioscience+2+94+103+2003+F. Bin+W. Hsu+Mong Li+L."
+          },
+          {
+            "doi": "10.1016/s1386-5056(98)00162-2",
+            "key": "ref5",
+            "score": 128.05634,
+            "unstructured": "Virtual Planning of Liver Resections:Image Processing, Visualization+Int. J. Med. Informatics+53+225+1999+G. Glombitza+W. Lamade+A.M. Demiris+M.R. Gopfert+A. Mayer+M.L. Bahner+H.P. Meinzer+G. Ritchter+T. Lehnert+C. Herfarth+Volumetric Evaluation"
+          },
+          {
+            "doi": "10.1109/adcom.2006.4289897",
+            "key": "ref6",
+            "score": 147.42729,
+            "unstructured": "Wavelet based Texture Analysis of Liver Tumor from Computed Tomography Images for Characterization Using Linear Vector Quantization Neural Network+International Conference on Advanced Computing and Communications 267-270+2006+K. Mala+Sadasivam"
+          },
+          {
+            "key": "ref7",
+            "score": 33.975155,
+            "unstructured": "1992+R. C. Gonzales+R. E.: Digital Woods+Image Processing. Addison-Wesley Longman Publishing"
+          },
+          {
+            "doi": "10.1201/9781420042382",
+            "key": "ref8",
+            "score": 60.20493,
+            "unstructured": "Handbook of Computer Vision Algorithms in Image Algebra+2000+G. X. Ritter+J. N."
+          },
+          {
+            "doi": "10.1109/tsmc.1979.4310076",
+            "key": "ref9",
+            "score": 101.71761,
+            "unstructured": "A Threshold Selection Method from Gray-Level Histograms+IEEE Transactions on Systems, Man, and Cybernetics+9+62+66+1979+Otsu"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

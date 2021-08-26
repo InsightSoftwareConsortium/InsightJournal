@@ -41,6 +41,48 @@
     "revisions": [
       {
         "article": "bafkreictjgfsytmqobyaywpfjrelfdu6y6gntyawsf3ewuqbczrgihoy3u",
+        "citation_list": [
+          {
+            "doi": "10.1007/s11263-008-0168-y",
+            "key": "ref1",
+            "score": 119.08291,
+            "unstructured": "Adaptive stochastic gradient descent optimisation for image registration+International Journal of Computer Vision+81+3+227+239+2009+S. Klein+J. P. W. Pluim+M. Staring+M. A. Viergever"
+          },
+          {
+            "doi": "10.1109/tmi.2009.2035616",
+            "key": "ref2",
+            "score": 117.64746,
+            "unstructured": "elastix: a toolbox for intensitybased medical image registration+IEEE Transactions on Medical Imaging+1+1+1+205+2010+S. Klein+M. Staring+K. Murphy+M.A. Viergever+J.P.W. Pluim"
+          },
+          {
+            "doi": "10.1109/tip.2007.909412",
+            "key": "ref3",
+            "score": 135.15544,
+            "unstructured": "Evaluation of optimization methods for nonrigid medical image registration using mutual information and B-splines+IEEE Transactions on Image Processing+16+12+1+2890+December 2007+S. Klein+M. Staring+J. P. W. Pluim"
+          },
+          {
+            "key": "ref4",
+            "score": 25.930187,
+            "unstructured": "Combining transforms in ITK+2006+Insight Journal+Stefan Klein+Marius Staring"
+          },
+          {
+            "doi": "10.1109/tmi.2003.814791",
+            "key": "ref5",
+            "score": 164.50334,
+            "unstructured": "Volume-preserving nonrigid registration of MR breast images using free-form deformation with an incompressibility constraint+IEEE Transactions on Medical Imaging+22+6+730+741+2003+T. Rohlfing+C. R. Maurer Jr.+D. A Bluemke+M. A. Jacobs"
+          },
+          {
+            "doi": "10.1109/42.796284",
+            "key": "ref6",
+            "score": 130.713,
+            "unstructured": "Nonrigid registration using free-form deformations: Application to breast MR images+IEEE Transactions on Medical Imaging+18+8+712+721+1999+D. Rueckert+L. I. Sonoda+C. Hayes"
+          },
+          {
+            "key": "ref7",
+            "score": 28.561222,
+            "unstructured": "An image sampling framework for the ITK+net/10380/3190+2010+Marius Staring+Stefan Klein"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

@@ -51,6 +51,34 @@
     "revisions": [
       {
         "article": "bafkreibvehbpswocy3bv5wmmaldggrbblsdaqcsxmdn4uhrigyx4p7zcx4",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 9.323732,
+            "unstructured": "org. 4"
+          },
+          {
+            "key": "ref2",
+            "score": 9.325064,
+            "unstructured": "org. 4"
+          },
+          {
+            "key": "ref3",
+            "score": 9.323732,
+            "unstructured": "org. 2+1+4"
+          },
+          {
+            "doi": "10.1007/bf01386390",
+            "key": "ref4",
+            "score": 89.931595,
+            "unstructured": "A note on two problems in connexion with graphs+Numerische Mathematik+1+269+271+1959+E. W. Dijkstra"
+          },
+          {
+            "key": "ref5",
+            "score": 31.167803,
+            "unstructured": "Fast marching minimal path extraction in ITK+2008+D. Mueller+Insight Journal"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

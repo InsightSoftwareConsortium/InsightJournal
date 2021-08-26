@@ -72,6 +72,32 @@
     "revisions": [
       {
         "article": "bafybeidq6pueor6momzsswhumuoru4twergazusxt3w2xr47c5yuvetvrm",
+        "citation_list": [
+          {
+            "doi": "10.1109/tbme.2008.921158",
+            "key": "ref1",
+            "score": 117.61098,
+            "unstructured": "A morphology-based approach for interslice interpolation of anatomical slices from volumetric images+IEEE Transactions on Biomedical Engineering+1+8+2+2038+Aug 2008+Alexandra Branzan+Albu+Denis Laurendeau"
+          },
+          {
+            "doi": "10.1088/0031-9155/57/24/8357",
+            "key": "ref2",
+            "score": 106.074684,
+            "unstructured": "Automated detection, 3D segmentation and analysis of high resolution spine MR images using statistical shape models+Physics in Medicine and Biology+9+8357+8376+2012+Ales\u02c7 Neubert"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2006.01.015",
+            "key": "ref3",
+            "score": 141.79094,
+            "unstructured": "Gee, and Guido Gerig. User-guided 3D active contour segmentation of anatomical structures: Significantly improved efficiency and reliability+Neuroimage+31+3+1116+1128+2006+Paul A. Yushkevich+Sean Ho"
+          },
+          {
+            "doi": "10.1111/cgf.12343",
+            "key": "ref4",
+            "score": 119.92055,
+            "unstructured": "Robust detection and segmentation for diagnosis of vertebral diseases using routine mr images+Computer Graphics Forum+33+6+190+204+2014+Dz\u02c7enan Zukic+Andreas Kolb"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

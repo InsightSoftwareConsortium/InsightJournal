@@ -73,6 +73,61 @@
     "revisions": [
       {
         "article": "bafybeifdgjw52tejr2xzcu74bgocpkemorlw2qjgfanq44sy4wxlccml4m",
+        "citation_list": [
+          {
+            "doi": "10.1109/iembs.2005.1617181",
+            "key": "ref1",
+            "score": 79.37006,
+            "unstructured": "Liver tumor volume estimation by semiautomatic segmentation method+In: Proc. IEEE EMBS+2005+3296+3299+R. Lu+P. Marziliano+C.H. Thng"
+          },
+          {
+            "doi": "10.1007/11428831_116",
+            "key": "ref2",
+            "score": 102.05246,
+            "unstructured": "Automatic hepatic tumor segmentation using statistical optimal threshold+In: Proc. ICCS+2005+934+940+S.J. Park+K.S. Seo+J.A. Park"
+          },
+          {
+            "doi": "10.1007/978-3-540-73055-2_8",
+            "key": "ref3",
+            "score": 94.01876,
+            "unstructured": "Automatic segmentation of single and multiple neoplastic hepatic lesions in CT images+In: Proc. IWINAC+2007+63+71+M. Ciecholewski+M.R. Ogiela"
+          },
+          {
+            "doi": "10.1109/icpr.2006.93",
+            "key": "ref4",
+            "score": 97.93789,
+            "unstructured": "A machine learning approach for locating boundaries of liver tumors in ct images+In: Proc. ICPR+2006+400+403+Y. Li+S. Hara+K.: Shimura"
+          },
+          {
+            "doi": "10.1117/12.770516",
+            "key": "ref5",
+            "score": 73.21812,
+            "unstructured": "Simultaneous detection of multiple elastic surfaces with application to tumor segmentation in CT images+In: Proc. SPIE+6914+K. Li+M.P. Jolly"
+          },
+          {
+            "doi": "10.1109/isbi.2008.4541116",
+            "key": "ref6",
+            "score": 63.5145,
+            "unstructured": "3d general lesion segmentation in CT+In: Proc. ISBI+2008+796+799+M.P. Jolly+L. Grady"
+          },
+          {
+            "doi": "10.1007/s11548-006-0059-z",
+            "key": "ref7",
+            "score": 160.15485,
+            "unstructured": "OncoTREAT: a software assistant for cancer therapy monitoring+Int. J. CARS+231+5+2007+242+L. Bornemann+V. Dicken+J.M. Kuhnigk+D. Wormanns+H.O. Shin+H.C. Bauknecht+V. Diehl+M. Fabel+S. Meier+O. Kress+S. Krass+H.O.: Peitgen"
+          },
+          {
+            "doi": "10.1109/tmi.2006.871547",
+            "key": "ref8",
+            "score": 169.1652,
+            "unstructured": "Morphological segmentation and partial volume analysis for volumetry of solid pulmonary lesions in thoracic CT scans+IEEE Trans. Med+417+4+2006+434+J.M. Kuhnigk+V. Dicken+L. Bornemann+A. Bakai+D. Wormanns+S. Krass+H.O. Peitgen"
+          },
+          {
+            "key": "ref9",
+            "score": 38.07763,
+            "unstructured": "3d liver tumor segmentation challenge 2008+T. Niessen+C. Metz+M. Schaap+M. Styner+War eld+X. Deng+Heimann+B. van Ginneken"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

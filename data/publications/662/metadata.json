@@ -48,6 +48,20 @@
     "revisions": [
       {
         "article": "bafybeic7iiaxeeem6zdlm2pwujh4hvwdblm2k7ptxoj5qvbdd6bhn7htf4",
+        "citation_list": [
+          {
+            "doi": "10.1007/978-3-540-85988-8_89",
+            "key": "ref1",
+            "score": 160.02435,
+            "unstructured": "Spherical demons: Fast surface registration+In MICCAI'2008 International Conference on Medical Image Computing and Computer-Assisted Intervention, Lecture Notes in Computer Science+1+753+September 2008+1+2+B. T. T. Yeo+M. Sabuncu+T. Vercauteren+N. Ayache+B. Fisch+P. Golland"
+          },
+          {
+            "doi": "10.1109/tmi.2009.2030797",
+            "key": "ref2",
+            "score": 153.60631,
+            "unstructured": "Spherical demons: Fast diffeomorphic landmark-free surface registration+IEEE Transactions on Medical Imaging+1+2+1+668+2010+B. T. T. Yeo+M. Sabuncu+T. Vercauteren+N. Ayache+B. Fischl+P. Golland"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

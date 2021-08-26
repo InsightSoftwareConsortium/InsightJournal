@@ -61,6 +61,100 @@
     "revisions": [
       {
         "article": "bafybeiacg6tfrvw37uide2vg2gl3suyevt7ixa7rfu4jd7yif23eh6u4fa",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 36.757248,
+            "unstructured": "(+In: Proc. ISBI+2006+462+465+C. Teng+L. Shapiro+I. Kalet"
+          },
+          {
+            "key": "ref2",
+            "score": 22.25741,
+            "unstructured": "(+In: ESTRO+2007+1+A. Isambert+F. Bidault"
+          },
+          {
+            "doi": "10.1016/j.ijrobp.2007.01.038",
+            "key": "ref3",
+            "score": 127.14636,
+            "unstructured": "Automatic delineation of on-line head-and-neck computed tomography images: Towards on-line adaptive radiotherapy+Int. J. Radiation Oncology Biol. Phys+68+2+2007+522+530+T. Zhang+Y. Chi+E. Meldolesi+D. Yan"
+          },
+          {
+            "doi": "10.1016/j.radonc.2008.01.018",
+            "key": "ref4",
+            "score": 90.4007,
+            "unstructured": "Atlas-based delineation of lymph node levels in head and neck CT images+Radiother. Oncol+2008+1+2+1+O. Commowick+Malandain"
+          },
+          {
+            "doi": "10.1007/978-3-540-85990-1_52",
+            "key": "ref5",
+            "score": 83.553925,
+            "unstructured": "Part II+In: MICCAI+2008+4+441+2+X. Han+M. Hoogeman+P. Levendag+L. Hibbard+D. Teguh+P. Voet+A. Cowen+T. Wolf"
+          },
+          {
+            "doi": "10.1109/jstsp.2008.2011104",
+            "key": "ref6",
+            "score": 174.59889,
+            "unstructured": "Segmentation of head and neck lymph node regions for radiotherapy planning, using active contour based atlas registration+IEEE J. Selected Topics in Signal Proc. 3+2009+135+147+S. Gorthi+V. Duay+N. Houhou+M. Cuadra+U. Schick+M. Becker+A. Allal+J.P. Thiran"
+          },
+          {
+            "doi": "10.1007/0-306-48608-3_11",
+            "key": "ref7",
+            "score": 119.69073,
+            "unstructured": "Quo vadis, atlas-based segmentation? In: The Handbook of Medical Image Analysis+2005+1+486+T. Rohlfing+R. Brandt+R. Menzel+D. Russakoff+C. Maurer"
+          },
+          {
+            "doi": "10.1109/tmi.2004.828354",
+            "key": "ref8",
+            "score": 115.19389,
+            "unstructured": "Simultaneous truth and performance level estimation (STAPLE): An algorithm for the validation of image segmentation+IEEE Trans. Med+23+7+2004+1+921+S. Warfield+K. Zou+W. Wells"
+          },
+          {
+            "doi": "10.1109/iccv.1995.466930",
+            "key": "ref9",
+            "score": 63.741295,
+            "unstructured": "Alignment by maximization of mutual information+Int. J. Comput. Vision+24+2+1997+4+154+P. Viola+W. Wells"
+          },
+          {
+            "doi": "10.1007/11784012_15",
+            "key": "ref10",
+            "score": 145.1627,
+            "unstructured": "A fast and log-Euclidean polyaffine framework for locally rigid or affine registration+In: Int. Workshop Biomed. Image Registration. LNCS 4057+2006+3+7+2+V. Arsigny+O. Commowick+X. Pennec+Ayache"
+          },
+          {
+            "doi": "10.1007/978-3-540-45210-2_55",
+            "key": "ref11",
+            "score": 112.95194,
+            "unstructured": "Fast entropy-based nonrigid registration+In: EUROCAST 2003. LNCS 2809+2003+3+615+J. Santana+E. Rovaris+C. Westin+J. Ruiz-Alzola+Spinger"
+          },
+          {
+            "doi": "10.1016/j.media.2004.06.010",
+            "key": "ref12",
+            "score": 100.549835,
+            "unstructured": "Grid powered nonlinear image registration with locally adaptive regularization+Image Anal+8+2004+4+342+R. Stefanescu+X. Pennec+Ayache"
+          },
+          {
+            "doi": "10.1109/mmbia.2001.991692",
+            "key": "ref13",
+            "score": 71.01888,
+            "unstructured": "2+In: MMBIA 2009: IEEE Workshop on Mathematical Methods in Biomedical Image Analysis+2009+2+4+X. Han+L. Hibbard+Willcut"
+          },
+          {
+            "doi": "10.1016/s1077-3142(03)00116-4",
+            "key": "ref14",
+            "score": 93.28253,
+            "unstructured": "Point similarity measures for non-rigid registration of multi-modal data+Comput. Vis. Imag. Under+92+2003+4+140+P. Rogelj+S. Kovac\u02c7ic\u02c7+Gee"
+          },
+          {
+            "key": "ref15",
+            "score": 24.322947,
+            "unstructured": "2+2008+4+NVIDIA Corporation"
+          },
+          {
+            "key": "ref16",
+            "score": 17.663588,
+            "unstructured": "ca/Evaluation.pdf. 3+3+Pekar"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

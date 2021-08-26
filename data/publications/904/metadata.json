@@ -71,6 +71,178 @@
     "revisions": [
       {
         "article": "bafybeiblgfcx5d2ri22cwgf4uzhmwbkmczz7prueppto4hv6ylf2aea3qe",
+        "citation_list": [
+          {
+            "doi": "10.1007/s10462-010-9155-0",
+            "key": "ref1",
+            "score": 85.21672,
+            "unstructured": "Review of Brain MRI Image Segmentation Methods+IEEE Trans. Medical Imaging+26+9+1201+12+2007+M.A. Balafar+A.R. Ramli+M.I. Saripan+S. Mashohor"
+          },
+          {
+            "doi": "10.1203/pdr.0b013e31815ed071",
+            "key": "ref2",
+            "score": 120.38868,
+            "unstructured": "Probabilistic Brain Tissue Segmentation in Neonatal Magnetic Resonance Imaging+Pediatr Res+63+2+158+63+2008+P. Anbeek+K.L. Vincken+F. Groenendaal+Koeman"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2007.07.030",
+            "key": "ref3",
+            "score": 131.47556,
+            "unstructured": "Automatic Segmentation and Reconstruction of The Cortex From Neonatal MRI+NeuroImage+38+3+461+477+2007+H. Xue+L. Srinivasan+S. Jiang+M. Rutherford+A.D. Edwards+D. Rueckert+J.V. Hajnal"
+          },
+          {
+            "doi": "10.1109/tnn.2007.891635",
+            "key": "ref4",
+            "score": 122.39915,
+            "unstructured": "Neural Network for Partial Volume Segmentation in Brain MR Image+IEEE Trans. on Neural Network+18+5+1424+1432+2007+T. Song+M.M. Jamshidi+R.R. Lee+M. Huang+A Modified Probabilistic"
+          },
+          {
+            "doi": "10.1109/cvprw.2012.6239246",
+            "key": "ref5",
+            "score": 125.21126,
+            "unstructured": "Atlas-Based Segmentation of Brain Magnetic Resonance Imaging Using Random Walks+In: Computer Vision and Pattern Recognition Workshops (CVPRW)+2012+44+49+J.P. Morin+C. Desrosiers+L. Duong"
+          },
+          {
+            "doi": "10.1137/080732730",
+            "key": "ref6",
+            "score": 114.37725,
+            "unstructured": "ASIFT: A New Framework for Fully Affine Invariant Image Comparison+SIAM Journal on Imaging Sciences+2+2+438+469+2009+J.M. Morel+G. Yu"
+          },
+          {
+            "doi": "10.1007/11744023_32",
+            "key": "ref7",
+            "score": 90.21652,
+            "unstructured": "Surf: Speeded Up Robust Features+In: Computer VisionECCV+2006+404+417+H. Bay+T. Tuytelaars+L. Van Gool"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2009.10.026",
+            "key": "ref8",
+            "score": 153.99365,
+            "unstructured": "Fast and Robust Multi-Atlas Segmentation of Brain Magnetic Resonance Images+NeuroImage+49+3+2352+2365+2010+J. M. Ltjnen+R. Wolz+J. R. Koikkalainen+L. Thurfjell+G. Waldemar+H. Soininen+D. Rueckert"
+          },
+          {
+            "doi": "10.1109/tmi.2009.2014372",
+            "key": "ref9",
+            "score": 144.7043,
+            "unstructured": "Combination Strategies in Multi-Atlas Image Segmentation: Application to Brain MR Data+IEEE Trans. Med+28+8+1266+1277+2009+X. Artaechevarria+A. Munoz-Barrutia+C. Ortiz-de-Solorzano"
+          },
+          {
+            "doi": "10.1109/tmi.2011.2168420",
+            "key": "ref10",
+            "score": 136.68652,
+            "unstructured": "2012+Automated Brain Structure Segmentation Based on Atlas Registration and Appearance Models. IEEE Trans. Med+31+2+276+286+van der Lijn+M. de Bruijne+S. Klein+Hoogendam+M.MB. Breteler+A. Niessen+W. J."
+          },
+          {
+            "doi": "10.1109/tmi.2010.2050897",
+            "key": "ref11",
+            "score": 131.38687,
+            "unstructured": "A Generative Model for Image Segmentation Based on Label Fusion+IEEE Trans. Med+29+10+1714+1729+2010+M.R. Sabuncu+B. Yeo+K. Van Leemput+B. Fischl+P. Golland"
+          },
+          {
+            "doi": "10.1117/12.535860",
+            "key": "ref12",
+            "score": 60.54801,
+            "unstructured": "Image processing+In Proc. SPIE Medical Imaging+2004+5370+526+537+E.D. Angelini+T. Song+B.D. Mensh+A.F. Laine"
+          },
+          {
+            "doi": "10.1016/j.patcog.2006.02.022",
+            "key": "ref13",
+            "score": 128.55391,
+            "unstructured": "Integration of Fuzzy Spatial Relations in Deformable ModelsApplication to Brain MRI Segmentation+Pattern Recognition+39+8+1401+1414+2006+O. Colliot+O. Camara+I. Bloch"
+          },
+          {
+            "doi": "10.1109/tbme.2009.2017509",
+            "key": "ref14",
+            "score": 111.43267,
+            "unstructured": "A Hybrid GeometricStatistical Deformable Model for Automated 3-D Segmentation in Brain MRI+IEEE Trans. Biomed+56+7+1838+1848+2009+Huang Albert+A. Abugharbieh+R. Tam"
+          },
+          {
+            "doi": "10.1016/j.jneumeth.2010.03.004",
+            "key": "ref15",
+            "score": 129.36296,
+            "unstructured": "Level Set Segmentation of Brain Magnetic Resonance Images Based on Local Gaussian Distribution Fitting Energy+Journal of Neuroscience Methods+188+2+316+325+2010+L. Wang+Y. Chen+X. Pan+X. Hong+D. Xia"
+          },
+          {
+            "doi": "10.1016/j.media.2009.02.008",
+            "key": "ref16",
+            "score": 123.3944,
+            "unstructured": "Atlas-Based Segmentation of 3D Cerebral Structures with Competitive Level Sets+Medical Image Analysis+456+3+2009+C. Ciofolo+C. Barillot+Fuzzy Control"
+          },
+          {
+            "doi": "10.1109/iccv.1995.466930",
+            "key": "ref17",
+            "score": 72.43848,
+            "unstructured": "Alignment by Maximization of Mutual Information+International Journal of Computer Vision+24+2+137+154+1997+P. Viola+III Wells"
+          },
+          {
+            "doi": "10.1109/tip.2005.863949",
+            "key": "ref18",
+            "score": 106.30017,
+            "unstructured": "Precise Segmentation of Multimodal Images+IEEE Trans. Image Process+15+4+952+968+2006+A. Farag+A. El-Baz+Gimel"
+          },
+          {
+            "doi": "10.1109/icpr.2004.1334556",
+            "key": "ref19",
+            "score": 109.02273,
+            "unstructured": "Expectation-Maximization for a Linear Combination of Gaussians+In: Proceedings of IEEE International Conference on Pattern Recognition, ICPR+2004+4+422+425+Gimel+A. Farag+A. El-Baz"
+          },
+          {
+            "doi": "10.1109/icip.2004.1421442",
+            "key": "ref20",
+            "score": 126.600006,
+            "unstructured": "Density Estimation Using Modified Expectation Maximization for a Linear Combination of Gaussians+In: Proceedings of IEEE International Conference on Image Processing, ICIP+2004+3+1871+1874+A. Farag+A. El-Baz+Gimel"
+          },
+          {
+            "doi": "10.1109/icip.2007.4380032",
+            "key": "ref21",
+            "score": 114.329926,
+            "unstructured": "EM Based Approximation of Empirical Distributions with Linear Combinations of Discrete Gaussians+In: IEEE International Conference on Image Processing, ICIP+2007+4+373+376+A. El-Baz+Gimel"
+          },
+          {
+            "doi": "10.1109/tbme.2012.2196434",
+            "key": "ref22",
+            "score": 116.16264,
+            "unstructured": "Precise Segmentation of 3-D Magnetic Resonance Angiography+IEEE Trans. Biomed+59+7+2019+2029+2012+A. El-Baz+A. Elnakib+F. Khalifa+M. Abou+P. McClure+A. Soliman+Gimel"
+          },
+          {
+            "key": "ref23",
+            "score": 41.031548,
+            "unstructured": "Statistical pattern recognition+Wiley+2003+A.R. Webb"
+          },
+          {
+            "doi": "10.1109/42.811277",
+            "key": "ref24",
+            "score": 99.4934,
+            "unstructured": "An Adaptive Segmentation Algorithm for Time-of-Flight MRA Data+IEEE Trans. Med+18+10+938+945+1999+D.L. Noble+J.A."
+          },
+          {
+            "key": "ref25",
+            "score": 44.003605,
+            "unstructured": "Novel Stochastic Models for Medical Image Analysis+PhD Dissertation+2006+A. S. El-Baz"
+          },
+          {
+            "key": "ref26",
+            "score": 21.889603,
+            "unstructured": "2002+J. D. Humphrey"
+          },
+          {
+            "doi": "10.1002/hbm.10062",
+            "key": "ref27",
+            "score": 86.61685,
+            "unstructured": "Fast Robust Automated Brain Extraction. Human brain mapping+17+3+143+155+2002+S.M. Smith"
+          },
+          {
+            "key": "ref28",
+            "score": 44.098083,
+            "unstructured": "Eleventh annual meeting of the organization for human brain mapping+17+2005+M. Jenkinson+M. Pechaud+S.: Smith"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2009.05.029",
+            "key": "ref29",
+            "score": 157.17445,
+            "unstructured": "An Evaluation of Four Automatic Methods of Segmenting The Subcortical Structures in The Brain+47+4+1435+1447+2009+K.O. Babalola+B. Patenaude+P. Aljabar+J. Schnabel+D. Kennedy+W. Crum+S. Smith+T. Cootes+M. Jenkinson+D. Rueckert"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

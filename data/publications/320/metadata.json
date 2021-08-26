@@ -110,6 +110,68 @@
     "revisions": [
       {
         "article": "bafybeiemffq5m52d3dxy7ipxgqzbtuie2vm4innpotnomuohadfop7f4me",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 44.776432,
+            "unstructured": "Non-rigid groupwise registration using b-spline deformation model+insight-journal.org+1+8+1926+S.K. Balci+P. Golland+W.M. Wells"
+          },
+          {
+            "key": "ref2",
+            "score": 25.273846,
+            "unstructured": "Efficient implementation of kernel filtering+insight-journal.org+6+2+18+1926+Richard Beare+Gaetan Lehmann"
+          },
+          {
+            "doi": "10.1016/s1361-8415(98)80022-4",
+            "key": "ref3",
+            "score": 100.873116,
+            "unstructured": "Image matching as a diffusion process: an analogy with maxwell's demons+Medical Image Analysis+2+3+243+260+1998+J.-P. Thirion"
+          },
+          {
+            "key": "ref4",
+            "score": 33.496044,
+            "unstructured": "Report LiTH-ISY-I-1019+In The 6th Scandinavian Conference on Image Analysis+1+251+1989+2+H. Knutsson"
+          },
+          {
+            "doi": "10.1109/icpr.1994.577149",
+            "key": "ref5",
+            "score": 63.476772,
+            "unstructured": "Normalized convolution: A technique for filtering incomplete and uncertain data+Norwegian Society for Image Processing and Pattern Recognition. Report LiTH-ISY-I-1528. 2.3+1993+H. Knutsson+C-F. Westin"
+          },
+          {
+            "key": "ref6",
+            "score": 45.963776,
+            "unstructured": "ICIP 2005+Image Processing+2005+1+2+1226+Hans Knutsson+Mats Andersson"
+          },
+          {
+            "doi": "10.1007/10704282_64",
+            "key": "ref7",
+            "score": 93.04359,
+            "unstructured": "Understanding the demon's algorithm: 3d nonrigid registration by gradient descent. Medical Image Computing+1+605+1999+ISBN 978-3-540-66503-8+Xavier Pennec+Intervention Computer-Assisted"
+          },
+          {
+            "key": "ref8",
+            "score": 41.4577,
+            "unstructured": "Fast blockmatching registration with entropy-based similarity+insight-journal.org+1+8+1926+Eduardo Suarez-Santana+Carl-Fredrik Westin+Juan"
+          },
+          {
+            "key": "ref9",
+            "score": 45.27159,
+            "unstructured": "Medicalstudio: a medical component-based framework+2007+G. Daniela+Luciana P. Trevisan+Nedel"
+          },
+          {
+            "doi": "10.1109/icsmc.2006.384753",
+            "key": "ref10",
+            "score": 94.55023,
+            "unstructured": "A correspondencebased software toolkit for image registration+Systems, Man and Cybernetics+2006+5+3972+3977+C.V. Chia-Ling Tsai+A. Stewart+Perera+Lee Ying-Lin+M. Gehua Yang+Sofka"
+          },
+          {
+            "doi": "10.1007/11499145_51",
+            "key": "ref11",
+            "score": 84.74264,
+            "unstructured": "Non-rigid registration using morphons+Lecture notes in computer science (Lect. notes comput. sci.)+June 2005+2+4+Wrangsj Andreas+Hans Knutsson"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

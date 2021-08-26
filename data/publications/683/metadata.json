@@ -56,6 +56,56 @@
     "revisions": [
       {
         "article": "bafkreiaujiqpzq4oxaddmyiz5m4tfy6jtafc2reutevqcnziccbcoe2zse",
+        "citation_list": [
+          {
+            "doi": "10.1186/1532-429x-12-s1-p238",
+            "key": "ref1",
+            "score": 79.747116,
+            "unstructured": "Evaluation Framework for Algorithms Segmenting Short Axis Cardiac MRI+The MIDAS Journal - Cardiac MR Left Ventricle Segmentation Challenge+P Radau+Y Lu+K Connelly+G Paul+AJ Dick+GA Wright"
+          },
+          {
+            "doi": "10.1016/s0734-189x(88)80033-1",
+            "key": "ref2",
+            "score": 96.55304,
+            "unstructured": "A survey of the Hough transform+Computer Vision Graphics and Image Processing+44+87+116+1988+J.K. Illingworth"
+          },
+          {
+            "doi": "10.1109/42.925294",
+            "key": "ref3",
+            "score": 154.58934,
+            "unstructured": "Multistage hybrid active appearance model matching: Segmentation of left and right ventricles in cardiac MR images+IEEE Trans Med Imag+20+415+423+2001+van der Geest R.J. Lelieveldt+J.G. Bosch+J.H.C. Reiber+M. Sonka"
+          },
+          {
+            "doi": "10.1097/rli.0b013e318070dc93",
+            "key": "ref4",
+            "score": 141.26733,
+            "unstructured": ": Automated contour detection in cardiac MRI using active appearance models: the effect of the composition of the training set+Invest Radiol+42+10+697+703+2007+E. Angeli\u00e9+E.R. Oost+D. Hendriksen+B.P.F. Lelieveldt+Van der Geest R.J.+Reiber J.H.C."
+          },
+          {
+            "doi": "10.1097/00004728-199709000-00019",
+            "key": "ref5",
+            "score": 130.3572,
+            "unstructured": "Comparison between manual and automated analysis of left ventricular volume parameters from short axis MR images+J Comput Assist Tomogr+21+5+756+765+1997+van der Geest R.J.+V.G.M. Buller+E. Jansen+H.J. Lamb+Baur L.H+A. de Roos+J.H.C. Reiber"
+          },
+          {
+            "doi": "10.1016/j.media.2005.12.001",
+            "key": "ref6",
+            "score": 165.0351,
+            "unstructured": "SPASM: a 3D-ASM for segmentation of sparse and arbitrarily oriented cardiac MRI data+Med Image Anal+10+2+286+303+2006+H.C. van Assen+M.G. Danilouchkine+A.F. Frangi+S. Ord\u00e1s+J.J. Westenberg+J.H.C. Reiber+B.P.F. Lelieveldt"
+          },
+          {
+            "doi": "10.1002/jmri.21451",
+            "key": "ref7",
+            "score": 156.54764,
+            "unstructured": "Automatic image-driven segmentation of the ventricles in cardiac cine MRI+J Magn Reson Imaging+28+366+374+2008+C.A. Cocosco+W.J. Niessen+T. Netsch+E.J. Vonken+G. Lund+A. Stork+M.A. Viergever"
+          },
+          {
+            "doi": "10.1148/radiol.2482072016",
+            "key": "ref8",
+            "score": 149.6056,
+            "unstructured": "Automated segmentation by using myocardial effusion threshold reduction and intravoxel computation at MR imaging+Radiology+248+1004+1012+2008+N.C. Codella+J.W. Weinsaft+Cham M.D.+M. Janik+M.R. Prince+Y. Wang"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

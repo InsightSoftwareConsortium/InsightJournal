@@ -51,6 +51,80 @@
     "revisions": [
       {
         "article": "bafybeiepzwdefbccfevwdf2z7gfendwwbeauh6uxsekkds2sfsh2zttvhy",
+        "citation_list": [
+          {
+            "doi": "10.1002/mrm.10074",
+            "key": "ref1",
+            "score": 163.53735,
+            "unstructured": "Imaging cortical association tracts in the human brain using diffusion-tensor-based axonal tracking+Magnetic Resonance in Medicine+47+2002+215+223+S. Mori+C. Davatzikos+B. Stieltjes+L. Amodei+K. Fredericksen+G.D. Pearlson+E.R. Melhem+M. Solaiyappan+G.V. Raymond+P.C. Moser"
+          },
+          {
+            "doi": "10.1109/iembs.2004.1404229",
+            "key": "ref2",
+            "score": 87.2817,
+            "unstructured": "Analysis of brain white matter via fiber tract modeling+ISBN: 0-7803-8440-7+426+04CH37558C+2004+G. Gerig+S. Gouttard+I. Corouge"
+          },
+          {
+            "key": "ref3",
+            "score": 26.646784,
+            "unstructured": "The ITK Software Guide. Kitware Inc+2003+L. Ibanez+W. Schroeder+L. Ng+J. Cates"
+          },
+          {
+            "key": "ref4",
+            "score": 49.118908,
+            "unstructured": "The Visualization Toolkit, Third Edition+2004+W. Schroeder+K. Martin+W.: Lorensen"
+          },
+          {
+            "key": "ref5",
+            "score": 7.6279306,
+            "unstructured": "2005"
+          },
+          {
+            "doi": "10.1007/978-3-540-39903-2_126",
+            "key": "ref6",
+            "score": 112.580956,
+            "unstructured": "Analysis tool for diffusion tensor MRI+In: Proc. of Medical Image Computing and Computer-Assisted Intervention+2879+2003+967+968+P. Fillard+G. Gerig"
+          },
+          {
+            "doi": "10.1016/s1361-8415(02)00053-1",
+            "key": "ref7",
+            "score": 132.05153,
+            "unstructured": "Processing and visualization for diffusion tensor MRI+Medical Image Analysis+6+2002+93+108+C.F. Westin+S. Maier+H. Mamata+A. Nabavi+F. Jolesz+R. Kikinis"
+          },
+          {
+            "doi": "10.1006/nimg.2002.1285",
+            "key": "ref8",
+            "score": 111.13867,
+            "unstructured": "A framework for callosal fiber distribution analysis+NeuroImage+17+2002+1131+1143+D. Xu+S. Mori+P.C. Solaiyappan+C. Davatzikos"
+          },
+          {
+            "key": "ref9",
+            "score": 23.224737,
+            "unstructured": "Insight-SNAP+2004+Cognitica Corporation"
+          },
+          {
+            "doi": "10.1109/34.868688",
+            "key": "ref10",
+            "score": 108.043915,
+            "unstructured": "Normalized cuts and image segmentation+IEEE Transactions on Pattern Analysis and Machine Intelligence+22+2000+888+905+J. Shi+Malik"
+          },
+          {
+            "doi": "10.1007/978-3-540-30136-3_82",
+            "key": "ref11",
+            "score": 152.1877,
+            "unstructured": "A statistical shape model of individual fiber tracts extracted from diffusion tensor MRI+In: Proceedings of Medical Image Computing and Computer-Assisted Intervention+3217+2004+671+679+I. Corouge+S. Gouttard+Gerig"
+          },
+          {
+            "key": "ref12",
+            "score": 28.852316,
+            "unstructured": "Statistical variability in nonlinear spaces: Application to shape analysis and DT-MRI+PhD thesis+2004+Fletcher"
+          },
+          {
+            "key": "ref13",
+            "score": 48.62065,
+            "unstructured": "Quantitative analysis of diffusion properties of white matter fiber tracts: A validation study+In: ISMRM+2005+G. Gerig+I. Corouge+C. Vachet+K. Krishnan+MacFall"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

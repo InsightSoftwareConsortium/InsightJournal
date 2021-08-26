@@ -96,6 +96,60 @@
     "revisions": [
       {
         "article": "bafybeihca4odqsp7xxiectbelxbhds7awqlfw5wxyxr4synmhx3yj3so6u",
+        "citation_list": [
+          {
+            "doi": "10.1109/tmi.2005.856734",
+            "key": "ref1",
+            "score": 169.96194,
+            "unstructured": "\"Robust nonrigid registration to capture brain shift from intra-operative MRI\"+IEEE Trans. Med+24+11+1417+27+2005+O. Clatz+H. Delingette+I.-F. Talos+A. Golby+R. Kikinis+F. Jolesz+N. Ayache+S. Warfield"
+          },
+          {
+            "doi": "10.1109/bibm.2009.10",
+            "key": "ref2",
+            "score": 97.38665,
+            "unstructured": "Real-time Non-rigid Registration of Medical Images on a Cooperative Parallel Architecture\u201d+IEEE International Conference on Bioinformatics & Biomedicine+401+404+2009+Yixun Liu"
+          },
+          {
+            "key": "ref3",
+            "score": 18.70834,
+            "unstructured": "1996+K. Bathe"
+          },
+          {
+            "doi": "10.1002/0471725382",
+            "key": "ref4",
+            "score": 73.936714,
+            "unstructured": "Robust regression and outlier detection\u201d+1987+P. J. Rousseeuw+A. M. Leroy"
+          },
+          {
+            "doi": "10.1038/317314a0",
+            "key": "ref5",
+            "score": 79.57993,
+            "unstructured": "Computational vision+\u201d Nature+317+314+319+1985+S. Shimojo+G. H. Silverman+K. Nakayama+T. Poggio+V. Torre+C. Koch"
+          },
+          {
+            "key": "ref6",
+            "score": 51.57437,
+            "unstructured": "Displacement estimation by hierarchical block matching+Proc. SPIE Vis. Comm. and Image Proc+1001+1988+942951+M. Bierling"
+          },
+          {
+            "doi": "10.1109/icess.2008.35",
+            "key": "ref7",
+            "score": 110.91722,
+            "unstructured": "Block matching algorithm based on particle swarm optimization for motion estimation+in: ICESS '08: Proceedings of the 2008 International Conference on Embedded Software and Systems+2008+191+195+X. Yuan+X. Shen"
+          },
+          {
+            "doi": "10.1109/iciap.2007.4362859",
+            "key": "ref8",
+            "score": 96.488144,
+            "unstructured": "Efficient and optimal block matching for motion estimation+in: ICIAP '07: Proceedings of the 14th International Conference on Image Analysis and Processing+2007+705+710+M. Stefano+T. Federico+S. L. Di+P. Marco"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2006.11.060",
+            "key": "ref9",
+            "score": 210.42989,
+            "unstructured": "Non-rigid alignment of preoperative MRI, fMRI, DT-MRI, with intraoperative MRI for enchanced visualization and navigation in image guided neurosurgery+\u201d Neuroimage+35+2+609+624+2007+N. Archip+O. Clatz+A. Fedorov+A. Kot+S. Whalen+D. Kacher+N. Chrisochoides+F. Jolesz+A. Golby+P. Black+S. K. Warfield"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

@@ -57,6 +57,67 @@
     "revisions": [
       {
         "article": "bafybeihrdlo752p63qhzzkkbsdm7lhejqs26hcdpim66bpio4ch6jfxwo4",
+        "citation_list": [
+          {
+            "doi": "10.1186/1748-717x-7-102",
+            "key": "ref1",
+            "score": 162.1779,
+            "unstructured": "Image-guided robotic stereotactic radiation therapy with fiducial-free tumor tracking for lung cancer+Radiation Oncology+7+1+2012+J.E. Bibault+B. Prevost+E. Dansin+X. Mirabel+T. Lacornerie+E. Lartigau"
+          },
+          {
+            "doi": "10.1016/j.radonc.2012.12.015",
+            "key": "ref2",
+            "score": 230.76251,
+            "unstructured": "Initial assessment of tumor tracking with a gimbaled linac system in clinical circumstances: A patient simulation study+Radiotherapy and Oncology+106+2+236+240+2013+T. Depuydt+K. Poels+D. Verellen+B. Engels+C. Collen+C. Haverbeke+T. Gevaert+Buls+G. Van Gompel+T. Reynders+M. Duchateau+K. Tournel+M. Boussaer+F. Steenbeke+F. Vandenbroucke+M. De Ridder"
+          },
+          {
+            "doi": "10.3109/0284186x.2013.814152",
+            "key": "ref3",
+            "score": 177.56746,
+            "unstructured": "Real-time 2d/3d registration using kv-mv image pairs for tumor motion tracking in image guided radiotherapy+Acta Oncologica+52+7+1464+1471+2013+H. Furtado+E. Steiner+M. Stock+D. Georg+W. Birkfellner"
+          },
+          {
+            "doi": "10.1016/j.radonc.2011.07.031",
+            "key": "ref4",
+            "score": 186.99715,
+            "unstructured": "Monitoring tumor motion by real time 2d/3d registration during radiotherapy+Radiotherapy and Oncology+102+2+274+280+2012+C. Gendrin+H. Furtado+C. Weber+C. Bloch+M. Figl+S. Pawiro+H. Bergmann+M. Stock+G. Fichtinger+D. Georg+W. Birkfellner"
+          },
+          {
+            "doi": "10.1118/1.3553403",
+            "key": "ref5",
+            "score": 199.53354,
+            "unstructured": "Validation for 2d/3d registration ii : The comparison of intensity and gradient based merit functions using a new gold standard data set+Med. Phys+38+3+1491+1502+2011+C. Gendrin+P. Markelj+S.A. Pawiro+J. Spoerk+C. Bloch+C. Weber+M. Figl+H. Bergmann+W. Birkfellner+B. Likar+Pernu\u02c7s"
+          },
+          {
+            "key": "ref6",
+            "score": 48.4353,
+            "unstructured": "Errors and margins in radiotherapy+Semin Radiat Oncol+14+1+52+64+2004+M."
+          },
+          {
+            "doi": "10.1109/42.563664",
+            "key": "ref7",
+            "score": 127.187485,
+            "unstructured": "Multimodality image registration by maximization of mutual information+IEEE Trans. Med+2+187+198+1997+F. Maes+A. Collignon+D. Vandermeulen+G. Marchal+P. Suetens"
+          },
+          {
+            "doi": "10.1016/j.media.2010.03.005",
+            "key": "ref8",
+            "score": 119.01244,
+            "unstructured": "A review of 3d/2d registration methods for image-guided interventions+Medical Image Analysis+16+3+642+661+2012+P. Markelj+D. Tomaevi+B. Likar+F. Pernu"
+          },
+          {
+            "doi": "10.3109/0284186x.2013.764009",
+            "key": "ref9",
+            "score": 158.83765,
+            "unstructured": "Percutaneously implanted markers in peripheral lung tumours: Report of complications+Acta Oncologica+52+6+1225+1229+2013+G. Persson+M. Josipovic+D. Nygaard+P. Recke+M. Aznar+T. Juhler-Nottrup+P. Rosenschld+S. Korreman+L. Specht"
+          },
+          {
+            "doi": "10.1007/0-387-30065-1_16",
+            "key": "ref10",
+            "score": 105.36426,
+            "unstructured": "Nonconvex Optimization and Its Applications, chap. The NEWUOA sorftware for unconstrained optimization without derivatives+255+297+2006+M. Powell"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

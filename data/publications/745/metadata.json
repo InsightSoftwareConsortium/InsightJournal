@@ -64,6 +64,57 @@
     "revisions": [
       {
         "article": "bafybeibcaiy7bgkkcrhh6i6stnubmgwdfeag5ad4e6qne4xzkmrlvoi4vm",
+        "citation_list": [
+          {
+            "doi": "10.1109/tpami.1987.4767965",
+            "key": "ref1",
+            "score": 104.36299,
+            "unstructured": "Least-squares fitting of two 3-d point sets+IEEE Trans. Pattern Anal. Mach+2+5+2+700+1987+K. S. Arun+T. S. Huang+S. D. Blostein"
+          },
+          {
+            "key": "ref2",
+            "score": 29.31989,
+            "unstructured": "Camera calibration toolbox for matlab+2008+2+2+J. Y. Bouguet"
+          },
+          {
+            "key": "ref3",
+            "score": 36.699886,
+            "unstructured": "The cisst libraries for computer assisted intervention systems+Midas Journal+2008+1+2+2+A. Deguet+R. Kumar+R. H. Taylor+P. Kazanzides"
+          },
+          {
+            "doi": "10.1109/robot.2000.844121",
+            "key": "ref4",
+            "score": 77.12075,
+            "unstructured": "The IntuitiveT M telesurgery system: Overview and application+Proc. IEEE International Conference on Robots and Automation+1+618+621+2000+G. Guthart+J. Salisbury"
+          },
+          {
+            "doi": "10.1109/cvpr.2004.1315112",
+            "key": "ref5",
+            "score": 79.886154,
+            "unstructured": "Multiple kernel tracking with ssd+Computer Vision+2+2+797+2004+G. D. Hager+M. Dewan+C. V. Stewart"
+          },
+          {
+            "key": "ref6",
+            "score": 53.658028,
+            "unstructured": "A surgical assistant workstation (saw) application for a teleoperated surgical robot system+Midas Journal+2009+1+2+2+M. Y. Jung+R. Kumar+A. Deguet+R. Taylor+P. Kazanzides"
+          },
+          {
+            "key": "ref7",
+            "score": 55.136307,
+            "unstructured": "The surgical assistant workstation (saw) in minimally-invasive surgery and microsurgery+Midas Journal+2009+P. Kazanzides+S. P. DiMaio+A. Deguet+B. Vagvolgyi+M. Balicki+C. Schneider+R. Kumar+A. Jog+B. Itkowitz+C. Hasser+R. Taylor"
+          },
+          {
+            "doi": "10.1089/end.2007.9985",
+            "key": "ref8",
+            "score": 74.94533,
+            "unstructured": "Validation of surgical simulators+Journal of Endourology+21+3+244+247+2007+E. McDougall"
+          },
+          {
+            "key": "ref9",
+            "score": 33.519466,
+            "unstructured": "The surgical assistant workstation+Midas Journal+2008+1+2+2+B. Vagvolyi+P. Kazanzides+R. Kumar+C. Hasser+R. Taylor"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

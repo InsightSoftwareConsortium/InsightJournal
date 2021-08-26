@@ -58,6 +58,38 @@
     "revisions": [
       {
         "article": "bafybeihvrmuxpqicy2nks6qln26x7ixkhknszwlggvfpdwakheqh7zkhca",
+        "citation_list": [
+          {
+            "doi": "10.1016/s1361-8415(01)00046-9",
+            "key": "ref1",
+            "score": 82.625275,
+            "unstructured": "Fast extraction of minimal paths in 3D images and application to virtual endoscopy+Medical Image Analysis+1+3+3+299+2001+T. Deschamps+L. Cohen"
+          },
+          {
+            "doi": "10.1016/j.media.2009.12.003",
+            "key": "ref2",
+            "score": 85.23488,
+            "unstructured": "Multiple hypothesis template tracking of 3D vessel structures+In review. 1+2008+3+2+O. Friman+M. Hindennach+-O. Peitgen"
+          },
+          {
+            "doi": "10.1109/isbi.2008.4541179",
+            "key": "ref3",
+            "score": 125.307755,
+            "unstructured": "Template-based multiple hypotheses tracking of small vessels+In Proceedings of the 5th IEEE International Symposium on Biomedical Imaging (ISBI'08)+2008+1+3+2+O. Friman+M. Hindennach+-O. Peitgen"
+          },
+          {
+            "doi": "10.1007/978-3-540-85988-8_107",
+            "key": "ref4",
+            "score": 98.243454,
+            "unstructured": "3D segmentation in the clinic: A grand challenge II - Coronary artery tracking+In Medical Image Computing and Computer-Assisted Intervention - MICCAI'08+2008+1+2+5+C. Metz+M. Schaap+A. van der Giessen Walsum+A. Weustink+N. Mollet+W. Niessen"
+          },
+          {
+            "doi": "10.1007/bfb0029264",
+            "key": "ref5",
+            "score": 69.15905,
+            "unstructured": "Robotics in Medicine and Medical Robotics+In Proceedings of the First Joint Conference on Computer Vision+1997+3+3+Y. Sato+S. Nakajima+H. Atsumi+T. Koller+S. Yoshida+R. Kikinis+Computer-Assisted Surgery"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

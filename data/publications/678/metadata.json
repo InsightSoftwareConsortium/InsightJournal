@@ -62,6 +62,59 @@
     "revisions": [
       {
         "article": "bafkreid7ssydbthvpoz6zf25qbw7xye7xarqrlf7wkpth4uvkgq5qjrx3e",
+        "citation_list": [
+          {
+            "doi": "10.1002/jmri.21798",
+            "key": "ref1",
+            "score": 193.5005,
+            "unstructured": "An Automated Estimation of Regional Mean Transition Times and Radial Velocities from Cine Magnetic Resonance Images. Evaluation in Normal Subjects+J Magn Reson Imaging+30+1+236+342+2009+Berbari El+R. Kachenoura+N. Redheuil+A. Giron+A. Mousseaux+E. Herment+A. Bloch+I. Frouin+F."
+          },
+          {
+            "key": "ref2",
+            "score": 25.168312,
+            "unstructured": "MICCAI 2009 Segmentation Challenge"
+          },
+          {
+            "key": "ref3",
+            "score": 50.03257,
+            "unstructured": "Evaluation Framework for Algorithm Segmenting Short Axis Cardiac MRI+net/10380/3070+P. Radau+Y. Lu+K. Connelly+Paul G. Dick+A.J. Wright+G.A."
+          },
+          {
+            "doi": "10.1016/j.irbm.2009.06.002",
+            "key": "ref4",
+            "score": 219.2271,
+            "unstructured": "D\u00e9veloppement et \u00e9valuation d'un algorithme de segmentation automatis\u00e9e des ventricules gauche et droit sur des images cin\u00e9 d'IRM+2009+C. Constantinides+Berbari El+R. De Cesare+A. Chenoune+Y. Roullot+E. Herment+A. Mousseaux+E. Frouin+F."
+          },
+          {
+            "key": "ref5",
+            "score": 47.82782,
+            "unstructured": "IEEE Trans. Ima Proc+7+359+69+1998+C. Xu+L.J. Prince+Snakes"
+          },
+          {
+            "doi": "10.1109/34.993556",
+            "key": "ref6",
+            "score": 107.324036,
+            "unstructured": "A comparison of algorithms for connected set openings and closings IEEE+Trans Patt Anal Mach Intell+24+484+94+2002+A. Meijster+M., Wilkinson"
+          },
+          {
+            "doi": "10.1007/s00330-008-0991-0",
+            "key": "ref7",
+            "score": 177.67159,
+            "unstructured": "Robust assessment of the transmural extent of myocardial infarction in late Gadolinium enhanced MRI studies using appropriate angular and circumferential subdivision of the myocardium+Eur Radiol.+18+10+2140+7+2008+N. Kachenoura+A. Redheuil+A. Herment+E. Mousseaux"
+          },
+          {
+            "doi": "10.1186/1532-429x-11-s1-p182",
+            "key": "ref8",
+            "score": 151.05475,
+            "unstructured": "\"ART-FUN\": an Integrated Software for Functional Analysis of the Aorta+Journal of Cardiovascular Magnetic Resonance+11+Suppl 1+P182+2009+A. De Cesare+A. Redheuil+A. Dogui+O. Jolivet+A. Lalande+F. Frouin+E. Mousseaux+A. Herment"
+          },
+          {
+            "doi": "10.1109/icip.2014.7025178",
+            "key": "ref9",
+            "score": 83.20031,
+            "unstructured": "Initiative Multicentrique pour une Plateforme d'Evaluation en Imagerie Cardiaque+2009+A. Kissi+C. Tilmant+A. De Cesare+A. Comte+L. Najman+A. Lalande+P. Clarysse+M. Garreau+L. Sarry+F. Frouin"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

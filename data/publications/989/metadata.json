@@ -51,6 +51,112 @@
     "revisions": [
       {
         "article": "bafybeicupzwvkmwu6jqpzmuaepsuf4avj5zoe2eyh4z5gr3idowjksgfri",
+        "citation_list": [
+          {
+            "doi": "10.1109/tpami.2012.120",
+            "key": "ref1",
+            "score": 120.19385,
+            "unstructured": "Pascal Fua, and Sabine Su\u00a8sstrunk. SLIC superpixels compared to state-of-the-art superpixel methods+IEEE Trans. Pattern Anal. Mach+1+11+2+2282+2012+Radhakrishna Achanta+Kevin Smith"
+          },
+          {
+            "key": "ref2",
+            "score": 46.49479,
+            "unstructured": "The visible human project\u2122: A resource for anatomical visualization+August 14-21+1998+1+1032+4+J. Ackerman. Michael"
+          },
+          {
+            "doi": "10.1145/1465482.1465560",
+            "key": "ref3",
+            "score": 96.08438,
+            "unstructured": "Validity of the single processor approach to achieving large scale computing capabilities+In Proceedings of the April 18-20+1967+483+485+M. Gene+Amdahl"
+          },
+          {
+            "key": "ref4",
+            "score": 31.41148,
+            "unstructured": "The watershed transform in ITK - discussion and new developments+Insight Journal+06 2006+R. Beare+G. Lehmann."
+          },
+          {
+            "key": "ref5",
+            "score": 42.98368,
+            "unstructured": "jSLIC: superpixels in ImageJ+14+18+2014+Jiri Borovec+Jan Kybic"
+          },
+          {
+            "doi": "10.1109/tip.2016.2624198",
+            "key": "ref6",
+            "score": 124.06913,
+            "unstructured": "A bottomup approach for pancreas segmentation using cascaded superpixels and (deep) image patch labeling+IEEE Trans. Image Processing+26+1+386+399+2017+Amal Farag+Holger R. Roth+M. Ronald+Summers"
+          },
+          {
+            "doi": "10.1145/42411.42415",
+            "key": "ref7",
+            "score": 60.8664,
+            "unstructured": "Reevaluating amdahl's law+Commun. ACM+4+5+2+533+1988+L. Gustafson. John"
+          },
+          {
+            "doi": "10.1007/s11263-015-0822-0",
+            "key": "ref8",
+            "score": 115.4819,
+            "unstructured": "Supercnn: A superpixelwise convolutional neural network for salient object detection+International Journal of Computer Vision+115+3+330+344+2015+Shengfeng He+Qingxiong Rynson W. H. Lau+Yang"
+          },
+          {
+            "doi": "10.1109/tgrs.2017.2647815",
+            "key": "ref9",
+            "score": 117.085335,
+            "unstructured": "Superpixel-based multitask learning framework for hyperspectral image classification+IEEE Trans. Geoscience and Remote Sensing+55+5+2575+2588+2017+Sen Jia+Qingquan Li"
+          },
+          {
+            "key": "ref10",
+            "score": 41.559696,
+            "unstructured": "The design of SimpleITK+4+1+14+2013+C. Bradley+Lowekamp"
+          },
+          {
+            "doi": "10.1109/tmi.2011.2171705",
+            "key": "ref11",
+            "score": 107.72355,
+            "unstructured": "Supervoxelbased segmentation of mitochondria in EM image stacks with learned shape features+IEEE Trans. Med+31+2+474+486+2012+Radhakrishna Achanta+Pascal Fua"
+          },
+          {
+            "doi": "10.1038/nmeth.3623",
+            "key": "ref12",
+            "score": 79.22955,
+            "unstructured": "Focused ion beams in biology+Nature Reviews Clinical Oncology+12+11+2+1031+11 2015+Kedar Narayan+Sriram Subramaniam"
+          },
+          {
+            "doi": "10.1109/iccv.2003.1238308",
+            "key": "ref13",
+            "score": 75.510895,
+            "unstructured": "Learning a classification model for segmentation+In 9th IEEE International Conference on Computer Vision+10+17+2003+Xiaofeng Ren+Jitendra Malik"
+          },
+          {
+            "doi": "10.4103/jpi.jpi_74_17",
+            "key": "ref14",
+            "score": 107.49443,
+            "unstructured": "Deep Learning Nuclei Detection in Digitized Histology Images by Superpixels+Journal of Pathology Informatics+9+1+2018+Sornapudi Sudhir+William Stoecker+Rodney Long+Shelliane Frazier"
+          },
+          {
+            "doi": "10.1016/j.cviu.2017.03.007",
+            "key": "ref15",
+            "score": 84.3967,
+            "unstructured": "Superpixels: An evaluation of the state-of-theart+Computer Vision+166+1+27+2018+David Stutz+Alexander Hermans+Bastian Leibe"
+          },
+          {
+            "doi": "10.1109/tmi.2015.2496296",
+            "key": "ref16",
+            "score": 98.43653,
+            "unstructured": "Superpixel-based segmentation for 3D prostate MR images+IEEE Trans. Med+35+3+791+801+2016+Tian Zhiqiang+Baowei Fei"
+          },
+          {
+            "doi": "10.7287/peerj.preprints.336v2",
+            "key": "ref17",
+            "score": 102.54125,
+            "unstructured": "Tony Yu, and the scikit-image contributors. scikit-image: image processing in Python+PeerJ+2+4+2014+6"
+          },
+          {
+            "doi": "10.1155/2016/9093721",
+            "key": "ref18",
+            "score": 110.38195,
+            "unstructured": "Yan-hua Zhang. Automatic liver segmentation on volumetric CT images using supervoxel-based graph cuts+Comp. Math. Methods in Medicine+2016+9093721+14+9093721+Wu Weiwei+Zhuhuang Zhou+Shuicai Wu"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

@@ -49,6 +49,69 @@
     "revisions": [
       {
         "article": "bafkreigpraxpslwmonzvanrbxolcbjp5qr2jqothlchgxv5k6zipeypvdq",
+        "citation_list": [
+          {
+            "doi": "10.1016/0730-725x(93)90417-c",
+            "key": "ref1",
+            "score": 141.76154,
+            "unstructured": "Stability of three supervised segmentation techniques+Magnetic Resonance Imaging+11+95+106+1993+L. Clarke+R. Velthuizen+S. Phuphanich+J. Schellenberg+J. Arrington+M. Silbiger"
+          },
+          {
+            "key": "ref2",
+            "score": 33.768105,
+            "unstructured": "Brainweb: online interface to a 3D MRI simulated brain database+In Neuroimage+5+1997+C. Cocosco+V. Kollokian+A. Evans"
+          },
+          {
+            "key": "ref3",
+            "score": 58.681175,
+            "unstructured": "Fast k-nn classification with an optimal k-distance transformation algorithm+Proc. 10th European Signal Processing Conf+2+1368+2000+1+O. Cuisenaire+B. Macq"
+          },
+          {
+            "doi": "10.1016/0146-664x(80)90054-4",
+            "key": "ref4",
+            "score": 77.247154,
+            "unstructured": "Euclidean distance mapping+Computer Graphics Image Processor+1+2+248+1980+4+P. Danielsson"
+          },
+          {
+            "key": "ref5",
+            "score": 34.851475,
+            "unstructured": "1973+R. Duda+P. Hart+Scene Analysis"
+          },
+          {
+            "key": "ref6",
+            "score": 24.844326,
+            "unstructured": "second edition+2005+L. Ibanez+W. Schroeder+L. Ng+J. Cates"
+          },
+          {
+            "key": "ref7",
+            "score": 59.886887,
+            "unstructured": "Concepts and Applications of Voronoi Diagrams+1992+A. Okabe+B. Boots+K. Sugihara"
+          },
+          {
+            "doi": "10.1016/1049-9660(92)90050-d",
+            "key": "ref8",
+            "score": 129.80396,
+            "unstructured": "Neighborhoods for distance transformations using ordered propagation+CVGIP+56+3+399+409+1992+I. Ragnemalm+Understanding Image"
+          },
+          {
+            "doi": "10.1109/visual.1996.567752",
+            "key": "ref9",
+            "score": 71.72517,
+            "unstructured": "The Visualization Toolkit:An Object Oriented Approach to Computer Graphics+2004+W. Schroeder+K. Martin+and W. Lorensen"
+          },
+          {
+            "doi": "10.1109/34.19041",
+            "key": "ref10",
+            "score": 127.98868,
+            "unstructured": "An efficient uniform cost algorithm applied to distance transforms+IEEE Transactions on Pattern Analysis an Machine Intelligence+11+4+425+429+1989+B. Verwer+P. Verbeek+S. Dekker"
+          },
+          {
+            "doi": "10.1016/0167-8655(96)00036-0",
+            "key": "ref11",
+            "score": 96.98752,
+            "unstructured": "Fast k-nn classification for multichannel image data+Pattern Recognition Letters+1+3+4+721+1996+S. Warfield"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

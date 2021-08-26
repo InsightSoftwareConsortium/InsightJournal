@@ -49,6 +49,90 @@
     "revisions": [
       {
         "article": "bafybeiclaclm4rnstwznpnjtmpqfrehne7imrzaqtjl2ybj5acub3lbn54",
+        "citation_list": [
+          {
+            "doi": "10.1038/260799a0",
+            "key": "ref1",
+            "score": 137.90399,
+            "unstructured": "Single-channel currents recorded from membrane of denervated frog muscle fibres+Nature+260+799+802+1976+E. Neher+B. Sakmann"
+          },
+          {
+            "doi": "10.1002/0470856521",
+            "key": "ref2",
+            "score": 95.66873,
+            "unstructured": "An Introductory Guide to Patch Clamp Electrophysiology+2003+A. Molleman. Patch Clamping"
+          },
+          {
+            "doi": "10.1177/0278364902021010833",
+            "key": "ref3",
+            "score": 86.949196,
+            "unstructured": "Biological cell injection using an autonomous microrobotic system+International Journal of Robotics Research+21+1+868+October 2002+Y. Sun+B.J. Nelson"
+          },
+          {
+            "doi": "10.1177/0278364907084985",
+            "key": "ref4",
+            "score": 111.98523,
+            "unstructured": "Injection guidance system for cellular microinjections+International Journal of Robotics Research+26+1+1313+November 2007+P. Kallio+T. Ritala+M. Lukkari+S. Kuikka"
+          },
+          {
+            "doi": "10.1109/tro.2009.2017109",
+            "key": "ref5",
+            "score": 127.068924,
+            "unstructured": "Robotic cell injection system with position and force control: Toward automatic batch biomanipulation+IEEE Transactions on Robotics+25+3+727+737+2009+H.B. Huang+D. Sun+J.K. Mills+S.H. Cheng"
+          },
+          {
+            "doi": "10.1016/s1474-6670(17)30202-1",
+            "key": "ref6",
+            "score": 108.4439,
+            "unstructured": "Real-time motion control software for a micromanipulator+In Proceedings of the IFAC Workshop on Programmable Devices and Embedded Systems+304+309+2006+T. Ritala+P. Kallio+S. Kuikka"
+          },
+          {
+            "doi": "10.1007/978-3-642-38085-3_14",
+            "key": "ref7",
+            "score": 64.17644,
+            "unstructured": "The Surgical Assistant Workstation (SAW) in minimally-invasive surgery and microsurgery+In MICCAI Workshop on Systems and Architectures for Computer Assisted Interventions+2010+P. Kazanzides+A. Deguet+B. Vagvolgyi+M. Balicki+C. Schneider+R. Kumar+A. Jog+B. Itkowitz+C. Hasser+R. Taylor"
+          },
+          {
+            "key": "ref8",
+            "score": 44.19494,
+            "unstructured": "A modular architecture for biomanipulation+In MICCAI Workshop on Systems and Architectures for Computer Assisted Interventions+2010+Y. Gao+R. Taylor+R. Kumar"
+          },
+          {
+            "doi": "10.1109/robot.2010.5509762",
+            "key": "ref9",
+            "score": 114.89171,
+            "unstructured": "Computer-assisted patch clamping+In Proceedings of IEEE International Conference on Robotics and Automation (ICRA)+4131+4136+2010+M. Azizian+R. Patel+C. Gavrilovici+M.O. Poulter"
+          },
+          {
+            "doi": "10.1109/mra.2005.1577023",
+            "key": "ref10",
+            "score": 145.09697,
+            "unstructured": "ViSP for visual servoing: a generic software platform with a wide class of robot control skills+IEEE Robotics Automation Magazine+12+4+1+52+December 2005+E. Marchand+F. Spindler+F. Chaumette"
+          },
+          {
+            "doi": "10.1117/12.840773",
+            "key": "ref11",
+            "score": 84.905624,
+            "unstructured": "Manipulation, and Analysis of Biomolecules, Cells+In SPIE Imaging+7568+75681E1+12+2010+M. Azizian+R. Patel+C. Gavrilovici+M.O. Poulter+VIII Tissues"
+          },
+          {
+            "key": "ref12",
+            "score": 44.446087,
+            "unstructured": "Image-Guided Robot-Assisted Techniques with Applications in Minimally Invasive Therapy and Cell Biology+PhD thesis+2011+M. Azizian"
+          },
+          {
+            "doi": "10.1109/iros.2010.5652538",
+            "key": "ref13",
+            "score": 165.44893,
+            "unstructured": "Image-guided robot-assisted microscope objective lens positioning: Application in patch clamping+In Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)+2010+2+3+4+M. Azizian+R. Patel+C. Gavrilovici+M.O. Poulter"
+          },
+          {
+            "doi": "10.1002/rcs.274",
+            "key": "ref14",
+            "score": 112.84999,
+            "unstructured": "OpenIGTLink: an open network protocol for image-guided therapy environment+The International Journal of Medical Robotics and Computer Assisted Surgery+3+4+2+434+2009+Junichi Tokuda+G.S. Fischer+Ziv Yaniv+L. Ibanez+Jumpei Arata+A.J. Golby+Others."
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

@@ -52,6 +52,24 @@
     "revisions": [
       {
         "article": null,
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 25.964806,
+            "unstructured": "The ITK Software Guide+2003+L. Ibanez+W. Schroeder"
+          },
+          {
+            "key": "ref2",
+            "score": 41.4497,
+            "unstructured": "Morphological Image Analysis: Principles an Applications+2003+P. Soille"
+          },
+          {
+            "doi": "10.1109/83.217222",
+            "key": "ref3",
+            "score": 93.514595,
+            "unstructured": "Morphological grayscale reconstruction in image analysis: Applications and ef cient algorithms+IEEE Transactions on image processing+2+201+1993+Luc Vincent"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

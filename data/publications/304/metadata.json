@@ -50,6 +50,36 @@
     "revisions": [
       {
         "article": "bafybeig3bnmae2o5q2d6qtoxgd3qrr45j5hhnb5xfet2gsyz4gojt2mnm4",
+        "citation_list": [
+          {
+            "doi": "10.1137/1031025",
+            "key": "ref1",
+            "score": 81.82967,
+            "unstructured": "Numerical Recipes: The Art of Scientific Computing+2+edition+1992+H William+Teukolsky+T. William+Vetterling"
+          },
+          {
+            "key": "ref2",
+            "score": 49.17971,
+            "unstructured": "-spline scattered data approximation+The Insight Journal+2005+N. J. Tustison+J. C. Gee. N-d Ck"
+          },
+          {
+            "doi": "10.1109/isbi.2007.356865",
+            "key": "ref3",
+            "score": 105.38728,
+            "unstructured": "Pulmonary kinematics from 3-d hyperpolarized helium-3 tagged magnetic resonance imaging+(document)+2008+J. Nicholas+Tustison+Altes+III Mugler+C. James+Gee"
+          },
+          {
+            "key": "ref4",
+            "score": 44.193134,
+            "unstructured": "and+Advances in Neural Information Prcessing Systems+1+832+2003+1+Pascal Vincent+Yoshua Bengio"
+          },
+          {
+            "doi": "10.1109/cvpr.2006.131",
+            "key": "ref5",
+            "score": 161.23247,
+            "unstructured": "Groupwise point pattern registration using a novel CDF-based Jensen-Shannon divergence+In Proceedings of the IEEE Computer Society Conference on Computer Vision and Pattern Recognition+2006+1+1+Fei Wang+Anand Baba C. Vemuri+Rangarajan"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

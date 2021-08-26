@@ -42,6 +42,20 @@
     "revisions": [
       {
         "article": "bafybeiaxvlwlshkx6fkv5mvblgqe4hoyl4atpfuw34kdl7gxy2v3c4pnlu",
+        "citation_list": [
+          {
+            "doi": "10.1109/sibgrapi.2014.2",
+            "key": "ref1",
+            "score": 70.62939,
+            "unstructured": "Hyperflow: A heterogeneous dataflow architecture+In Eurographics Symposium on Parallel Graphics and Visualization+2012+H. T. Vo+D. K. Osmari+J. L. D. Comba+P. Lindstrom+C. T. Silva"
+          },
+          {
+            "doi": "10.1111/j.1467-8659.2009.01704.x",
+            "key": "ref2",
+            "score": 121.30309,
+            "unstructured": "Streamingenabled parallel dataflow architecture for multicore systems+Computer Graphics Forum+29+3+2010+H. T. Vo+D. K. Osmari+B. Summa+J. L. D. Comba+V. Pascucci+C. T. Silva"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

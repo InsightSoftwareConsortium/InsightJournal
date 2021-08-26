@@ -88,6 +88,81 @@
     "revisions": [
       {
         "article": "bafybeifcriaxu2yizmjjxtefr4xtms6bq56upufw6k3x2uo7h7r2nfwgh4",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 25.908007,
+            "unstructured": "Technical report, Atlanta: American Cancer Society+2008"
+          },
+          {
+            "key": "ref2",
+            "score": 29.663239,
+            "unstructured": "World health statistics 2008. Technical report+2008"
+          },
+          {
+            "doi": "10.2214/ajr.176.2.1760333",
+            "key": "ref3",
+            "score": 94.32796,
+            "unstructured": "Radiologic measurement of tumor size in clinical trials: past, present, and future+American Journal of Roentgenol+176+2+333+334+2001+S. Saini"
+          },
+          {
+            "key": "ref4",
+            "score": 55.484722,
+            "unstructured": "Boundary Tumor Segmentation of a Liver+2005+3483+836+842+K.S. Seo+T.W. Chung"
+          },
+          {
+            "doi": "10.1007/11559573_112",
+            "key": "ref5",
+            "score": 78.80731,
+            "unstructured": "Automatic hepatic tumor segmentation using composite hypotheses+In ICIAR+922+929+2005+K.S. Seo"
+          },
+          {
+            "doi": "10.1007/s00330-008-0924-y",
+            "key": "ref6",
+            "score": 119.899864,
+            "unstructured": "A new fully automatic and robust algorithm for fast segmentation of liver tissue and tumors from ct scans+Eur Radiol+2008+L. Massoptier+S. Casciaro"
+          },
+          {
+            "doi": "10.1117/12.467190",
+            "key": "ref7",
+            "score": 124.91073,
+            "unstructured": "Diaphragm dome surface segmentation in ct data sets : A 3d active appearance model approach+Progress in biomedical optics and imaging+3+1+475+484+2002+R. Beichel+G. Gotschuli+E. Sorantin"
+          },
+          {
+            "doi": "10.1109/34.87344",
+            "key": "ref8",
+            "score": 127.51682,
+            "unstructured": "Watersheds in digital spaces: An efficient algorithm based on immersion simulations+IEEE Transactions on Pattern Analysis and Machine Intelligence+13+6+583+598+1991+L. Vincent+P. Soille"
+          },
+          {
+            "doi": "10.1016/0031-3203(93)90115-d",
+            "key": "ref9",
+            "score": 93.41108,
+            "unstructured": "Minimum cross entropy thresholding+Pattern Recognition+26+4+617+625+1993+C.H. Li+C. K. Lee"
+          },
+          {
+            "key": "ref10",
+            "score": 42.850685,
+            "unstructured": "Information Theory and Statistics. Dover Publications+1968+S. Kullback"
+          },
+          {
+            "doi": "10.1108/k.2000.29.2.239.3",
+            "key": "ref11",
+            "score": 90.39329,
+            "unstructured": "Level Set Methods and Fast Marching Methods: Evolving Interfaces in Computational Geometry, Fluid Mechanics+1999+J. Sethian"
+          },
+          {
+            "key": "ref12",
+            "score": 22.26107,
+            "unstructured": "Insight Toolkit"
+          },
+          {
+            "doi": "10.1117/12.710422",
+            "key": "ref13",
+            "score": 72.800385,
+            "unstructured": "Image Processing+65124E+2007+6512+R. M. Pham+T. Susomboon+D. Disney+J. Raicu+Furst"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

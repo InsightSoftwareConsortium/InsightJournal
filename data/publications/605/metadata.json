@@ -74,6 +74,107 @@
     "revisions": [
       {
         "article": "bafybeibm727odxdofcytpnnhwq7r3xhqvwnedhjsfsjhkdcgswmve2ttfi",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 52.286304,
+            "unstructured": "Multiple sclerosis+27+1+78+85+2007+R.H.B. Benedict+J.H. Bobholz"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2006.04.211",
+            "key": "ref2",
+            "score": 139.17511,
+            "unstructured": "Automated segmentation of multiple sclerosis lesion subtypes with multichannel MRI+32+1205+1215+2006+Y. Wu+S.K. Warfield+I.L. Tan+III Wells+D.S. Meier+F. Schijndel+C.R.G. Barkhof+Guttmann."
+          },
+          {
+            "doi": "10.1109/bibe.2007.4375704",
+            "key": "ref3",
+            "score": 100.57793,
+            "unstructured": "MS lesions detection in MRI using grouping artificial immune networks+In Proc. of BIBE+2007+A.A. Younis+A.T. Soliman+M.R. Kabuka+N.M. John."
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2003.10.012",
+            "key": "ref4",
+            "score": 141.97276,
+            "unstructured": "Probabilistic segmentation of white matter lesions in MR imaging+NeuroImage+21+3+1037+1044+2004+P. Anbeek+K.L. Vincken+M.J.P van Osch+R.H.C. Bisscops+J. van der Grond"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2005.06.061",
+            "key": "ref5",
+            "score": 195.50723,
+            "unstructured": "Fully automatic segmentation of white matter hyperintensities in MR images of the elderly+NeuroImage+28+3+607+617+2005+F. Admiraal-Behloul+D.M.J. van den Heuvel+M.J.P. van Osch+J.van der Grond+M.A. van Buchem+J.H.C. Reiber"
+          },
+          {
+            "doi": "10.1016/j.acra.2007.10.012",
+            "key": "ref6",
+            "score": 161.60785,
+            "unstructured": "Computer-assisted segmentation of white matter lesions in 3d MR images using support vector machine+Academic Radiology+15+300+313+2008+Z. Lao+D. Shen+D. Liu+A.F. Jawad+E.R. Melhem+L.J. Launer+R.N. Bryan+C. Davatzikos"
+          },
+          {
+            "doi": "10.1109/icpr.2006.318",
+            "key": "ref7",
+            "score": 113.471146,
+            "unstructured": "Bayesian MS lesion classification modeling regional and local spatial information+In Proc. of ICPR+2006+R. Harmouche+D. Arnold+S. Francis+T. Arbel"
+          },
+          {
+            "key": "ref8",
+            "score": 43.126442,
+            "unstructured": "(document)+NeuroImage+23+S2+S18+2004+PM Thompson+N Gogtay"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2004.07.042",
+            "key": "ref9",
+            "score": 111.33268,
+            "unstructured": "Cortical surface segmentation and mapping+NeuroImage+23+108+118+2004+D. Tosun+M.E. Rettmann+X. Han+X. Tao+C. Xu+S.M. Resnick+D. Pham+J.L. Prince"
+          },
+          {
+            "doi": "10.1023/b:visi.0000043755.93987.aa",
+            "key": "ref10",
+            "score": 106.61308,
+            "unstructured": "Computing large deformation metric mappings via geodesic flows of diffeomorphisms+Int. J. of Computer Vision+23+2+108+118+2005+F. Beg+M. Miller+A. Trouve+L. Younes"
+          },
+          {
+            "doi": "10.1007/978-3-540-75757-3_12",
+            "key": "ref11",
+            "score": 77.6631,
+            "unstructured": "Statistical and topological atlas based brain image segmentation+In Proc. of MICCAI+2007+1+1+1+D.L. P.-L. Bazin+Pham"
+          },
+          {
+            "key": "ref12",
+            "score": 25.723404,
+            "unstructured": "Internet brain segmentation repository+1996+1+1+A. Worth"
+          },
+          {
+            "doi": "10.1006/cviu.2001.0951",
+            "key": "ref13",
+            "score": 63.988834,
+            "unstructured": "Spatial models for fuzzy clustering+Computer Vision+1+1+297+2001+1+L. Dzung+Pham"
+          },
+          {
+            "doi": "10.1109/isbi.2006.1625000",
+            "key": "ref14",
+            "score": 74.07009,
+            "unstructured": "Simultaneous registration and tissue classification using clustering algorithms+2006+1+1+Pierre-Louis Bazin Dzung L. Pham"
+          },
+          {
+            "doi": "10.1155/ijbi/2006/53186",
+            "key": "ref15",
+            "score": 112.34458,
+            "unstructured": "3D brain segmentation using dual-front active contours with optional user interaction+Int. J. of Biomedical Imaging+2006+1+17+1+H. Li+A. Yezzi+L.D. Cohen"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2009.09.005",
+            "key": "ref16",
+            "score": 86.03871,
+            "unstructured": "Topologically constrained segmentation of brain images with multiple sclerosis lesions. To be presented at the Medical Image Analysis on Multiple Sclerosis(MIAMS+2008+Shiee Navid+Bazin Pierre-Louis+and Dzung L. Calabresi+Pham"
+          },
+          {
+            "doi": "10.1109/42.712135",
+            "key": "ref17",
+            "score": 137.85829,
+            "unstructured": "Design and construction of a realistic digital brain phantom+IEEE Trans. Med+17+3+463+468+1998+D. L. Collins+A. P. Zijdenbos+V. Kollokian+J. G. Sled+N. J. Kabani+C. J. Holmes+A. C. Evans"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

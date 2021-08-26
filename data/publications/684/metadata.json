@@ -32,6 +32,98 @@
     "revisions": [
       {
         "article": "bafybeic6mwuzepda27xi4fece34rr7shsanj52tqvtxp3gajq43wpbifhi",
+        "citation_list": [
+          {
+            "doi": "10.1007/978-3-540-39899-8_55",
+            "key": "ref1",
+            "score": 97.39645,
+            "unstructured": "Segmentation of 4D cardiac MR images using a probabilistic atlas and the EM algorithm+Medical Image Analysis+8+2004+M. Sanchez-Ortiz+G. Elkington+A. Mohiaddin+R. Rueckert+D."
+          },
+          {
+            "doi": "10.1007/s11263-006-7936-3",
+            "key": "ref2",
+            "score": 89.07035,
+            "unstructured": "Automatic segmentation of the left ventricle in cardiac MR and CT images+International Journal of Computer Vision+70+2+2006+M. Jolly"
+          },
+          {
+            "doi": "10.1109/42.925294",
+            "key": "ref3",
+            "score": 148.97238,
+            "unstructured": "Multistage hybrid active appearance model matching: Segmentation of the left and right ventricles in cardiac MR images+IEEE Trans. Medical Imaging+20+5+2001+S. Lelieveldt+Geest van der+H. Bosch+J. Reiber+M. Sonka"
+          },
+          {
+            "doi": "10.1007/978-3-540-85988-8_22",
+            "key": "ref4",
+            "score": 113.88782,
+            "unstructured": "Comprehensive segmentation of cine cardiac mr images+In: MICCAI+2008+M. Fradkin+C. Ciofolo+B. Mory+G. Hautvast+M. Breeuwer"
+          },
+          {
+            "doi": "10.1109/tmi.2007.904681",
+            "key": "ref5",
+            "score": 116.95273,
+            "unstructured": "Segmentation of the left ventricle of the heart in 3-D+t MRI data using an optimized nonrigid temporal model+IEEE Trans. Medical Imaging+27+2+2008+M. Lynch+O. Ghita+P.F. Whelan"
+          },
+          {
+            "doi": "10.1109/isbi.2008.4540974",
+            "key": "ref6",
+            "score": 69.35568,
+            "unstructured": "Segmentation of the evolving left ventricle by learning the dynamics+In: ISBI+2008+M. Sun+R. Chan+A. Willsky"
+          },
+          {
+            "doi": "10.1109/tmi.2003.814785",
+            "key": "ref7",
+            "score": 102.060104,
+            "unstructured": "A level set approach for shape-driven segmentation and tracking of the left ventricle+IEEE Trans. Medical Imaging+22+6+2003+Paragios"
+          },
+          {
+            "doi": "10.1007/3-540-45786-0_79",
+            "key": "ref8",
+            "score": 113.38328,
+            "unstructured": "Atlas-based segmentation and tracking of 3D cardiac MR images using non-rigid registration+In: MICCAI+2002+M. Sanchez-Ortiz+G. Mohiaddin+R. Rueckert+D."
+          },
+          {
+            "doi": "10.1007/978-3-540-85988-8_14",
+            "key": "ref9",
+            "score": 76.229904,
+            "unstructured": "Automatic recovery of the left ventricular blood pool in cardiac cine MR images+In: MICCAI+2008+M.P. Jolly"
+          },
+          {
+            "doi": "10.1137/040609008",
+            "key": "ref10",
+            "score": 113.000854,
+            "unstructured": "Isoperimetric partitioning: A new algorithm for graph partitioning+SIAM Journal on Scientific Computing+27+6+2006+1844+1866+L. Grady+E.L. Schwartz"
+          },
+          {
+            "doi": "10.1007/978-3-642-04271-3_110",
+            "key": "ref11",
+            "score": 113.25706,
+            "unstructured": "Combining registration and minimum surfaces for the segmentation of the left ventricle in cardiac cine MR images+In: MICCAI+2009+M.P. Jolly+H. Xue+L. Grady+J.: Guehring"
+          },
+          {
+            "doi": "10.1109/isbi.2008.4541116",
+            "key": "ref12",
+            "score": 63.51979,
+            "unstructured": "3D general lesion segmentation in CT+2008+M.P. Jolly+L. Grady"
+          },
+          {
+            "doi": "10.1109/vlsm.2001.938877",
+            "key": "ref13",
+            "score": 68.53174,
+            "unstructured": "Variational methods for multimodal image matching+International Journal of Computer Vision+50+3+2002+G. Hermosillo+C. Faugeras+O."
+          },
+          {
+            "doi": "10.1109/cvpr.2006.82",
+            "key": "ref14",
+            "score": 92.01524,
+            "unstructured": "Computing extact discrete minimal surfaces: Extending and solving the shortest path problem in 3D with application to segmentation+2006+L. Grady"
+          },
+          {
+            "doi": "10.1186/1532-429x-12-s1-p238",
+            "key": "ref15",
+            "score": 79.747116,
+            "unstructured": "Evaluation framework for algorithms segmenting short axis cardiac MRI+2009+P. Radau+Y. Lu+K. Connelly+G. Paul+A.J. Dick+G.A. Wright+The MIDAS Journal - Cardiac MR Left Ventricle Segmentation Challenge"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

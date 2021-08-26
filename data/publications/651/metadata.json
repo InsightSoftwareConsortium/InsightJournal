@@ -69,6 +69,76 @@
     "revisions": [
       {
         "article": "bafybeib6ikktfectem7vfzjxqawbswbwbdc7f2y2saj7ozcfgsa3ltzyxy",
+        "citation_list": [
+          {
+            "doi": "10.1109/vecims.2006.250814",
+            "key": "ref1",
+            "score": 113.50458,
+            "unstructured": "An open-source software architecture for immersive medical imaging+In Proceedings of the IEEE International Conference on Virtual Environments, HCI and Measurement Systems+2006+A Coronato+G De Pietro+I. Marra"
+          },
+          {
+            "doi": "10.1109/isbi.2009.5193205",
+            "key": "ref2",
+            "score": 122.01859,
+            "unstructured": "An improved unbiased method for diffspect quantification in epilepsy+IEEE International Symposium on Biomedical Imaging ISBI+June 2009+3+D Scheinost+H Blumenfeld+X. Papademetris"
+          },
+          {
+            "doi": "10.1016/j.media.2005.04.005",
+            "key": "ref3",
+            "score": 124.465,
+            "unstructured": "Meinzer HP. The medical imaging interaction toolkit+In Medical Image Analysis+2+604+Dec 2005+I Wolf+M Vetter+I Wegner+T Bottger+M Nolden+M Schobinger+M Hastenteufel+T Kunert"
+          },
+          {
+            "key": "ref4",
+            "score": 45.59778,
+            "unstructured": "The ITK Software Guide: The Insight Segmentation and Registration Toolkit. Kitware+2003+L. Ibanez+W. Schroeder"
+          },
+          {
+            "key": "ref5",
+            "score": 40.551445,
+            "unstructured": "The LONI pipeline. 4+4+4+LONI"
+          },
+          {
+            "doi": "10.1109/medivis.2008.10",
+            "key": "ref6",
+            "score": 139.08409,
+            "unstructured": "Medvis: A real-time immersive visualization environment for the exploration of medical volumetric data+In Proceedings of the Fifth International Conference on BioMedical Visualization+63+68+2008+R Shen+P Boulanger+M. Noga"
+          },
+          {
+            "doi": "10.1109/isbi.2004.1398617",
+            "key": "ref7",
+            "score": 87.77106,
+            "unstructured": "3D slicer+IEEE International Symposium on Biomedical Imaging ISBI+2004+S Pieper+M Halle+R. Kikinis"
+          },
+          {
+            "doi": "10.1109/visual.1996.567752",
+            "key": "ref8",
+            "score": 78.09303,
+            "unstructured": "The Visualization Toolkit: An Object-Oriented Approach to 3D Graphics. Kitware, Inc+2003+W. Schroeder+K. Martin+and B. Lorensen"
+          },
+          {
+            "key": "ref9",
+            "score": 39.53597,
+            "unstructured": "Incr-tcl/tk] from the Ground Up+2000+1+3+C. Smith+McGraw-Hill"
+          },
+          {
+            "key": "ref10",
+            "score": 51.590935,
+            "unstructured": "Addison-Wesley Professional, 2nd edition+2002+Clemens Szyperski. Component Software: Beyond Object-Oriented Programming"
+          },
+          {
+            "doi": "10.1002/rcs.241",
+            "key": "ref11",
+            "score": 150.72835,
+            "unstructured": "Duncan J. From medical image computing to computer-aided intervention: development of a research interface for image-guided navigation+International Journal of Medical Robotics and Computer Assisted Surgery+4+3+157+2009+X Papademetris+C DeLorenzo+S Flossmann+M Neff+K Vives+D Spencer+L Staib"
+          },
+          {
+            "doi": "10.1111/j.1528-1167.2009.02425.x",
+            "key": "ref12",
+            "score": 64.0874,
+            "unstructured": "Bioimage suite: an integrated medical image analysis suite: an update+In SC/NA-MIC Workshop on Open Science at 9th MICCAI Conference+2006+X Papademetris+M Jackowski+N Rajeevan+M DiStasio+H Okuda"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

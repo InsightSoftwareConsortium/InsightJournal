@@ -37,6 +37,137 @@
     "revisions": [
       {
         "article": "bafybeihqhs7eolbicb6wsxgcbnoy3uqbjsnsgg5qucggy3fxc7pg244ewy",
+        "citation_list": [
+          {
+            "doi": "10.1007/978-3-540-40899-4_73",
+            "key": "ref1",
+            "score": 153.51694,
+            "unstructured": "An adaptive minimal path generation technique for vessel tracking in CTA/CE-MRA volume images+In Medical Image Computing+707+716+2000+B. Briant+James P. Avants+Williams+MICCAI Computer-Assisted Intervention"
+          },
+          {
+            "doi": "10.1109/42.993126",
+            "key": "ref2",
+            "score": 106.775505,
+            "unstructured": "scale in height-ridge traversal for tubular object centerline extraction+TMI+21+2+61+75+2002+S. Aylward+E. Bullitt"
+          },
+          {
+            "doi": "10.1109/mmbia.1996.534065",
+            "key": "ref3",
+            "score": 93.717995,
+            "unstructured": "Intensity ridge and widths for 3d object segmentation and description+In IEEE Proc. Workshop MMBIA+131+138+1996+S. Aylward+S. Pizer+D. Eberly"
+          },
+          {
+            "doi": "10.1109/iccv.2001.937505",
+            "key": "ref4",
+            "score": 93.36636,
+            "unstructured": "Interactive graph cuts for optimal boundary and region segmentation of objects in N-D images+2+112+2001+Y. Boykov+M.P. Jolly"
+          },
+          {
+            "doi": "10.1109/tpami.2004.60",
+            "key": "ref5",
+            "score": 116.52376,
+            "unstructured": "An experimental comparison of min-cut/max-flow algorithms for energy minimization in vision+IEEE Trans. Pattern Anal. Mach+26+9+2+1137+2004+Yuri Boykov+Vladimir Kolmogorov"
+          },
+          {
+            "doi": "10.1109/tmi.2004.834612",
+            "key": "ref6",
+            "score": 124.16391,
+            "unstructured": "-d vascular structures in mra images using hybrid pde and geometric deformable models+IEEE Transactions on Medical Imaging+23+1251+1262+2004+J. Chen+A. A. Amini"
+          },
+          {
+            "doi": "10.1007/10704282_9",
+            "key": "ref7",
+            "score": 83.14312,
+            "unstructured": "Statistical 3D vessel segmentation using a Rician distribution+In MICCAI+82+89+1999+A. Chung+J. A. Noble"
+          },
+          {
+            "doi": "10.1016/s1361-8415(01)00046-9",
+            "key": "ref8",
+            "score": 86.37048,
+            "unstructured": "Fast extraction of minimal paths in 3d images and applications to virtual endoscopy+Medical Image Analysis+1+4+2+299+2001+T. Deschamps+L.D. Cohen"
+          },
+          {
+            "doi": "10.1007/bf01386390",
+            "key": "ref9",
+            "score": 62.521667,
+            "unstructured": "A note on two problems in connections with graphs+Numerische Mathematic+1+2+271+1959+E. W. Dijkstra"
+          },
+          {
+            "doi": "10.1007/bfb0056195",
+            "key": "ref10",
+            "score": 85.98294,
+            "unstructured": "Multiscale vessel enhancement filtering+In MICCAI+82+89+1998+A. F. Frangi+W. J. Niessen+K. L. Vincken+M. A. Viergever"
+          },
+          {
+            "key": "ref11",
+            "score": 45.300858,
+            "unstructured": "Robust tree modeling+In MICCAI+2008+M. A. Gulsun+H. Tek"
+          },
+          {
+            "key": "ref12",
+            "score": 58.348194,
+            "unstructured": "2009+3d segmentation in the clinic: Carotid lumen segmentation and stenosis grading challenge+nl. 3+K. Hameeteman+M. Zuluaga+L. Joskowicz+M. Freiman+T."
+          },
+          {
+            "doi": "10.1109/iccv.1995.466846",
+            "key": "ref13",
+            "score": 75.14386,
+            "unstructured": "Multiscale detection of curvilinear structures in 2-d and 3-d image data+In ICCV+864+869+1995+G. Szekely an D. T. M. Koller+Dettwiler"
+          },
+          {
+            "doi": "10.1109/cvpr.1998.698683",
+            "key": "ref14",
+            "score": 94.058235,
+            "unstructured": "Model based multiscale detection of 3d vessels+In IEEE Conf. CVPR+1+727+1998+1+K. Krissian+N. Ayache+R. Vaillant+Y. Trousset"
+          },
+          {
+            "doi": "10.1109/tmi.2007.903696",
+            "key": "ref15",
+            "score": 107.09685,
+            "unstructured": "Vessels as 4-d curves: Global minimal 4-d paths to extract 3-d tubular surfaces and centerlines+IEEE Trans. Med+1+9+2+1223+2007+Hua Li+Anthony J. Yezzi"
+          },
+          {
+            "doi": "10.1007/978-3-540-30135-6_7",
+            "key": "ref16",
+            "score": 82.19736,
+            "unstructured": "Vessel segmentation using a shape driven flow+In MICCAI+2004+D. Nain+A. Yezzi+Greg Turk"
+          },
+          {
+            "key": "ref17",
+            "score": 39.81167,
+            "unstructured": "Level Set Methods+1996+1+2+J. A. Sethian"
+          },
+          {
+            "doi": "10.1007/3-540-44745-8_42",
+            "key": "ref18",
+            "score": 83.51606,
+            "unstructured": "3d flux maximizing flows+In International Workshop on Energy Minimizing Methods In Computer Vision+2001+K. Siddiqi+A. Vasilevskiy"
+          },
+          {
+            "doi": "10.1007/11569541_39",
+            "key": "ref19",
+            "score": 74.83421,
+            "unstructured": ". Multi-scale vessel boundary detection+In Workshop of CVBIA+388+398+2005+H. Tek+A. Ayvaci+D. Comaniciu"
+          },
+          {
+            "doi": "10.1109/tmi.2006.889722",
+            "key": "ref20",
+            "score": 76.77872,
+            "unstructured": "-d modeling of vasculature imagery using superellipsoids+IEEE Transactions on Medical Imaging+2006+1+2+James Alexander+Tyrrell Edward B. Brown+Badrinath Roysam"
+          },
+          {
+            "doi": "10.1109/tmi.2003.817756",
+            "key": "ref21",
+            "score": 165.97246,
+            "unstructured": "Level-set based artery-vein separation in blood pool agent ce-mr angiograms+IEEE Trans. Med+22+10+1224+1234+2003+M. van Bemmel Cornelis+Luuk J. Spreeuwers+Wiro J. Viergever+Niessen"
+          },
+          {
+            "doi": "10.1109/tmi.2003.819920",
+            "key": "ref22",
+            "score": 105.17639,
+            "unstructured": "Multiscale vessel tracking+IEEE Trans. on Medical Imaging+23+1+130+133+2004+O. Wink+W. J. Niessen+M. A. Viergever"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

@@ -56,6 +56,37 @@
     "revisions": [
       {
         "article": "bafybeiak4qfltgrk2mh6jcj5lxqwwhomvmb72jcrhqt67oppnxl4sqi2ga",
+        "citation_list": [
+          {
+            "doi": "10.1109/tmi.2002.803119",
+            "key": "ref1",
+            "score": 121.2986,
+            "unstructured": "Calderon e A. Fernandez-Bouzas, \u201cAn Accurate and Efficient Bayesian Method for Automatic Segmentation of Brain,\u201d+\u00ba 8+21+934+945+2002+J. L. Marroquin+B. C. Vemuri+S. Botello+F."
+          },
+          {
+            "key": "ref2",
+            "score": 45.029972,
+            "unstructured": "\u00ba 10+18+897+98+1999+F. K. Van Leemput+Maes"
+          },
+          {
+            "doi": "10.1007/s12021-011-9109-y",
+            "key": "ref3",
+            "score": 99.58849,
+            "unstructured": "An Open Source Multivariate Framework for n-Tissue Segmentation with Evaluation on Public Data+381+400+2011+B. B. Avants+N. J. Tustison+J. Wu+J. C. Gee"
+          },
+          {
+            "doi": "10.1016/s0896-6273(02)00569-x",
+            "key": "ref4",
+            "score": 171.061,
+            "unstructured": "Whole Brain Segmentation: Automated Labeling of Neuroanatomical Structures in the Human Brain,\u201d NeuroImage+33+341+355+2002+B. Fischl+D. H. Salat+M. Albert+M. Dieterich+C. Haselgrove+A. van der Kouwe+R. Killiany+D. Kennedy+S. Klaveness+A. Montillo+N. Makris+B. Rosen+A. M. Dale"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2009.02.018",
+            "key": "ref5",
+            "score": 161.52179,
+            "unstructured": "\u201cMulti-atlas based segmentation of brain images: Atlas selection and its effect on accuracy,\u201d NeuroImage+46+726+738+2009+P. Aljabar+R. A. Heckemann+A. Hammers+J. V. Hajnal+D. Rueckert"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

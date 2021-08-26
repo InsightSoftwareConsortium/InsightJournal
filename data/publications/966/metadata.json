@@ -40,6 +40,68 @@
     "revisions": [
       {
         "article": "bafybeidm6qzn3zrnejtz2yrvj7bwnojc6twgd4w27z7dmw4yl3xqkrz74q",
+        "citation_list": [
+          {
+            "doi": "10.1016/j.neuroimage.2009.02.018",
+            "key": "ref1",
+            "score": 161.68932,
+            "unstructured": ": Multi-atlas based segmentation of brain images: atlas selection and its effect on accuracy+Neuroimage+46+3+2009+726+738+P. Aljabar+R.A. Heckemann+A. Hammers+J.V. Hajnal+D. Rueckert"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2006.05.061",
+            "key": "ref2",
+            "score": 157.22533,
+            "unstructured": "Automatic anatomical brain mri segmentation combining label propagation and decision fusion+NeuroImage+33+1+2006+115+126+R.A. Heckemann+J.V. Hajnal+P. Aljabar+D. Rueckert+A. Hammers"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2003.11.010",
+            "key": "ref3",
+            "score": 159.74127,
+            "unstructured": "Evaluation of atlas selection strategies for atlas-based image segmentation with application to confocal microscopy images of bee brains+NeuroImage+21+4+2004+1428+1442+T. Rohlfing+R. Brandt+R. Menzel+C.R. Maurer"
+          },
+          {
+            "doi": "10.1109/tmi.2009.2014372",
+            "key": "ref4",
+            "score": 143.4546,
+            "unstructured": "Combination strategies in multi-atlas image segmentation: application to brain mr data+IEEE transactions on medical imaging 28(8)+August 2009+1266+77+X. Artaechevarria+A. Munoz-Barrutia+C. Ortiz-de Solorzano"
+          },
+          {
+            "doi": "10.1109/tmi.2011.2156806",
+            "key": "ref5",
+            "score": 119.15809,
+            "unstructured": "A supervised patch-based approach for human brain labeling+IEEE transactions on medical imaging 30(10)+2011+1852+1862+F. Rousseau+P.A. Habas+C. Studholme"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2010.09.018",
+            "key": "ref6",
+            "score": 142.91367,
+            "unstructured": "Patch-based segmentation using expert priors: application to hippocampus and ventricle segmentation+NeuroImage+54+2+January 2011+940+54+P.+J.V. Fonov+V. Pruessner+J. Robles+M. Collins+D.L."
+          },
+          {
+            "doi": "10.1007/978-3-642-33530-3_8",
+            "key": "ref7",
+            "score": 86.469215,
+            "unstructured": "Sparse Patch-Based Label Fusion for Multi-Atlas Segmentation+MBIA (Mv)+2012+94+102+D. Zhang+Q. Guo+G. Wu+D. Shen"
+          },
+          {
+            "doi": "10.1016/j.media.2015.06.002",
+            "key": "ref8",
+            "score": 136.24959,
+            "unstructured": "A transversal approach for patch-based label fusion via matrix completion+Medical image analysis 24(1)+2015+135+148+G. Sanroma+G. Wu+Y. Gao+K.H. Thung+Y. Guo+D.: Shen"
+          },
+          {
+            "doi": "10.1016/j.media.2013.10.013",
+            "key": "ref9",
+            "score": 121.62625,
+            "unstructured": "A generative probability model of joint label fusion for multi-atlas based brain segmentation+Medical image analysis 18(6)+August 2014+881+90+G. Wu+Q. Wang+D. Zhang+F. Nie+H. Huang+D.: Shen"
+          },
+          {
+            "doi": "10.1118/1.4871620",
+            "key": "ref10",
+            "score": 131.9527,
+            "unstructured": "Medical physics 41(5)+20+on automated image segmentation for radiotherapy+2014+050902+G. Sharp+K.D. Fritscher+V. Pekar+M. Peroni+N. Shusharina+H. Veeraraghavan+J. Yang"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

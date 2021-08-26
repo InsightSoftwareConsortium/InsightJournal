@@ -42,6 +42,91 @@
     "revisions": [
       {
         "article": "bafybeif2himajj6jdxoq6ldqk6hzjtsvibbkd5eh5gbpavvgdzm42ixxga",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 22.668417,
+            "unstructured": "Cardiovascular disease statistics+2004+W.H.O."
+          },
+          {
+            "doi": "10.1109/42.906421",
+            "key": "ref2",
+            "score": 90.71932,
+            "unstructured": "Three-dimensional modeling for functional analysis of cardiacimages, a review+IEEE Transactions on Medical Imaging+20+1+2001+5+A. Frangi+W. Niessen+M. Viergever"
+          },
+          {
+            "doi": "10.1006/cviu.1995.1004",
+            "key": "ref3",
+            "score": 101.41777,
+            "unstructured": "Active Shape ModelsTheir Training and Application+Computer Vision and Image Understanding+38+1+1995+59+T. Cootes+Taylor+D. Cooper+J. Graham"
+          },
+          {
+            "doi": "10.1007/11566465_28",
+            "key": "ref4",
+            "score": 107.78212,
+            "unstructured": "A Novel 3D Partitioned Active Shape Model for Segmentation of Brain MR Images+Lecture Notes in Computer Science+3749+2005+221+Z. Zhao+S. Aylward+Teoh"
+          },
+          {
+            "doi": "10.1007/978-3-540-85988-8_50",
+            "key": "ref5",
+            "score": 71.97729,
+            "unstructured": "Hierarchical Shape Statistical Model for Segmentation of Lung Fields in Chest Radiographs+2008+Y. Shi+D. Shen"
+          },
+          {
+            "doi": "10.1016/j.media.2007.12.003",
+            "key": "ref6",
+            "score": 103.629906,
+            "unstructured": "E cient and generalizable statistical models of shape and appearance for analysis of cardiac MRI. Medical Image Analysis (+2008+A. Andreopoulos+J.: Tsotsos"
+          },
+          {
+            "doi": "10.1007/978-3-540-85988-8_63",
+            "key": "ref7",
+            "score": 90.095634,
+            "unstructured": "Medical image computing and computer-assisted intervention: MICCAI International Conference on Medical Image Computing and ComputerAssisted Intervention+11+2008+527+R. Casero+J.: Noble"
+          },
+          {
+            "doi": "10.1109/tmi.2007.904681",
+            "key": "ref8",
+            "score": 123.74476,
+            "unstructured": "Segmentation of the Left Ventricle of the Heart in 3-D+ t MRI Data Using an Optimized Nonrigid Temporal Model+IEEE Transactions on Medical Imaging+195+2+2008+203+M. Lynch+O. Ghita+P. Whelan"
+          },
+          {
+            "doi": "10.1016/j.media.2004.06.025",
+            "key": "ref9",
+            "score": 144.53075,
+            "unstructured": "4D deformable models with temporal constraints: application to 4D cardiac image segmentation+Medical Image Analysis+87+1+2005+100+J. Montagnat+Delingette"
+          },
+          {
+            "doi": "10.1117/12.594930",
+            "key": "ref10",
+            "score": 93.67538,
+            "unstructured": "Bi-temporal 3D active appearance models with applications to unsupervised ejection fraction estimation+In: Proc. SPIE+5747+M. Stegmann+D. Pedersen"
+          },
+          {
+            "doi": "10.1109/tmi.2002.804426",
+            "key": "ref11",
+            "score": 143.4815,
+            "unstructured": "Automatic construction of multiple-object three-dimensional statistical shape models: application to cardiac modeling+IEEE Transactions on Medical Imaging+1151+9+2002+1166+A. Frangi+D. Rueckert+J. Schnabel+W. Niessen"
+          },
+          {
+            "doi": "10.1117/12.652991",
+            "key": "ref12",
+            "score": 141.64162,
+            "unstructured": "Segmentation of the left and right cardiac ventricle using a combined bi-temporal statistical model+Proceedings of the SPIE+2006+605+614+D. Fritz+D. Rinck+R. Dillmann+M. Scheuering+Image-Guided Procedures+Display+Jr"
+          },
+          {
+            "doi": "10.1007/11866565_19",
+            "key": "ref13",
+            "score": 92.72186,
+            "unstructured": "Improving Segmentation of the Left Ventricle Using a Two-Component Statistical Model+Lecture Notes In Computer Science+4190+2006+151+S. Zambal+J. Hladuvka+K. Buhler"
+          },
+          {
+            "doi": "10.1186/1532-429x-12-s1-p238",
+            "key": "ref14",
+            "score": 72.88156,
+            "unstructured": "Evaluation framework for algorithms segmenting short axis cardiac MRI+P. Radau+Y. Lu+K. Connelly+G. Paul+A. Dick+G. Wright+The MIDAS Journal - Cardiac MR Left Ventricle"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

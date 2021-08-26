@@ -43,6 +43,66 @@
     "revisions": [
       {
         "article": "bafybeihjbeiradzlc4uuhyhmqdd4kvd24mj6bywceivinsqgadex3wk4wu",
+        "citation_list": [
+          {
+            "doi": "10.1023/b:mach.0000027782.67192.13",
+            "key": "ref1",
+            "score": 72.66069,
+            "unstructured": "Functional trees+Machine Learning+55+3+219+250+2004+Gama"
+          },
+          {
+            "doi": "10.1007/978-3-540-73007-1_122",
+            "key": "ref2",
+            "score": 105.23242,
+            "unstructured": "Genomics and metabolomics research for brain tumour diagnosis based on machine learning+In: IWANN+1012+1019+2007+J. Garcia-Gomez+S. Tortajada+J. Vicente+C. Saez+X. Castells+J. Luts+M. Julia-Sape+A. Juan-Ciscar+S.V. Huffel+A. Barcelo+J. Arino+C. Arus+M. Robles"
+          },
+          {
+            "doi": "10.1007/s10994-005-0466-3",
+            "key": "ref3",
+            "score": 86.9973,
+            "unstructured": "Logistic model trees+Machine Learning+59+1-2+161+205+2005+N. Landwehr+M. Hall+Frank"
+          },
+          {
+            "doi": "10.1002/jmri.20506",
+            "key": "ref4",
+            "score": 127.25123,
+            "unstructured": "Partial-volume model for determining white matter and gray matter cerebral blood volume for analysis of gliomas+Magnetic Resonance Imaging+23+257+266+2006+M. Lee+S. Cha+S. Chang+S. Nelson"
+          },
+          {
+            "doi": "10.1007/978-1-4419-0221-4_28",
+            "key": "ref5",
+            "score": 100.323654,
+            "unstructured": "Heterogeneous data fusion to type brain tumor biopsies+In: AIAI+233+240+2009+V. Metsis+H. Huang+F. Makedon+A. Tzika"
+          },
+          {
+            "key": "ref6",
+            "score": 52.22294,
+            "unstructured": "Analysis of Incomplete Multivariate Data. Chapman and Hall+1997+J. Schafer"
+          },
+          {
+            "doi": "10.1002/nbm.919",
+            "key": "ref7",
+            "score": 139.76756,
+            "unstructured": "Combination of feature-reduced MR spectroscopic and MR imaging data for improved brain tumor classification+Nuclear Magnetic Resonance in Biomedicine+18+1+34+43+2005+A.W. Simonetti+Melssen+J.J.A. de Edelenyi+A. Heerschap+L.M.C. Buydens"
+          },
+          {
+            "doi": "10.1002/(sici)1522-2586(199901)9:1<53::aid-jmri7>3.0.co;2-2",
+            "key": "ref8",
+            "score": 177.19366,
+            "unstructured": "Usefulness of diffusion-weighted MRI with echo-planar technique in the evaluation of cellularity in gliomas+Journal of Magnetic Resonance Imaging+9+1+53+60+1999+T. Sugahara+Y. Korogi+M. Kochi+I. Ikushima+Y. Shigematu+T. Hirai+T. Okuda+L. Liang+Y. Ge+Y. Komohara+Y. Ushio+M. Takahashi"
+          },
+          {
+            "key": "ref9",
+            "score": 43.589622,
+            "unstructured": "Evaluation of cerebral glioma grade by using normal side creatine as an internal reference in multi-voxel 1H-MR spectroscopy+Diagnostic and Interventional Radiology+13+1+3+9+March 2007+H. Yerli+A. Agildere+O. Ozen+E. Geyik+B. Atalay+A. Elhan"
+          },
+          {
+            "doi": "10.1002/mrm.22147",
+            "key": "ref10",
+            "score": 134.2246,
+            "unstructured": "Classification of brain tumor type and grade using MRI texture and shape in a machine learning scheme+Magnetic Resonance in Medicine+2009+E. Zacharaki+S. Wang+S. Chawla+D. Soo Yoo+R. Wolf+E. Melhem+C. Davatzikos"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

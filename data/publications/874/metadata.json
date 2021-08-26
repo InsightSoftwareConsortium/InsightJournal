@@ -45,6 +45,20 @@
     "revisions": [
       {
         "article": "bafybeiaqt537lmdbmd25s2f7nynj5tnm6yc5rgd6ssylu7n2q6qiwgvyye",
+        "citation_list": [
+          {
+            "doi": "10.1007/s12021-009-9061-2",
+            "key": "ref1",
+            "score": 142.9837,
+            "unstructured": "\"The Java Image Science Toolkit (JIST) for rapid prototyping and publishing of neuroimaging software,\"+Neuroinformatics+8+5+17+2010+B. C. Lucas+J. A. Bogovic+A. Carass+P. L. Bazin+J. L. Prince+D. L. Pham+B. A. Landman"
+          },
+          {
+            "doi": "10.1016/s1053-8119(09)70239-3",
+            "key": "ref2",
+            "score": 131.40681,
+            "unstructured": "\"A Rapid Prototyping Environment for NeuroImaging in Java,\"+Neuroimage+47+S58+2009+B. Landman+B. Lucas+J. Bogovic+A. Carass+J. Prince"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

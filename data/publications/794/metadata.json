@@ -45,6 +45,26 @@
     "revisions": [
       {
         "article": "bafybeigmrx7xbo7pmbrppqohsvabs2rfckwvyny7fw3lqgvc2tu4cossfa",
+        "citation_list": [
+          {
+            "doi": "10.1016/j.compmedimag.2010.06.002",
+            "key": "ref1",
+            "score": 160.09776,
+            "unstructured": "VascuSynth: Simulating vascular trees for generating volumetric image data with ground truth segmentation and tree analysis+\u201d Computerized Medical Imaging and Graphics+1+4+7+616+2010+G. Hamarneh+P. Jassi"
+          },
+          {
+            "doi": "10.1002/mrm.20939",
+            "key": "ref2",
+            "score": 151.05823,
+            "unstructured": "Development of a functional magnetic resonance imaging simulator for modeling realistic rigid-body motion artifacts+\u201d Magn Reson Med+56+2+364+80+2006+I. Drobnjak+D. Gavaghan+E. Suli+J. Pitt-Francis+M. Jenkinson"
+          },
+          {
+            "doi": "10.1016/b978-0-323-02946-9.50009-x",
+            "key": "ref3",
+            "score": 63.895683,
+            "unstructured": "Simulation System for Emission Tomography (SimSET): Using simulation to research ideas in emission tomography (PET and SPECT+\u201d Journal of Nuclear Medicine+49+Meeting Abstracts 1+157P+2008+R. Harrison+S. Gillispie"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

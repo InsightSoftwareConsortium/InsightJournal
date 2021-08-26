@@ -115,6 +115,49 @@
     "revisions": [
       {
         "article": "bafybeienfki74mxok4gnsrvdvvbarn445yoj26ofwncgb5hgt52zceo4au",
+        "citation_list": [
+          {
+            "doi": "10.1006/cviu.1995.1004",
+            "key": "ref1",
+            "score": 86.34078,
+            "unstructured": "Active shape models - their training and application+Computer Vision+1+2+1+59+1995+T. F. Cootes+C. J. Taylor+D. H. Cooper+J. Graham"
+          },
+          {
+            "doi": "10.1007/3-540-47977-5_1",
+            "key": "ref2",
+            "score": 109.63079,
+            "unstructured": "3D statistical shape models using direct optimisation of description length+In Proc. European Conference on Computer Vision+2+20+2002+1+2+H. Rhodri+Carole J. Davies+Timothy F. Twining+Christopher J. Taylor. Cootes+III Part"
+          },
+          {
+            "doi": "10.1109/isbi.2008.4541029",
+            "key": "ref3",
+            "score": 75.00983,
+            "unstructured": "its application to brain surface mapping+In Proc. IPMI+4+184+2003+2+Xianfeng Gu+Tony F. Chan+Paul M. Thompson+Shing-Tung Yau"
+          },
+          {
+            "doi": "10.1007/11505730_47",
+            "key": "ref4",
+            "score": 95.922386,
+            "unstructured": "3D active shape models using gradient descent optimization of description length+In Proc. IPMI+1+577+2005+1+3+Tobias Heimann+Tomos G. Williams+Hans-Peter Meinzer"
+          },
+          {
+            "key": "ref5",
+            "score": 21.609926,
+            "unstructured": "1990+2+3+J. J. Koenderink"
+          },
+          {
+            "doi": "10.1007/978-3-540-45087-0_6",
+            "key": "ref6",
+            "score": 71.56058,
+            "unstructured": "Evaluation of 3D correspondence methods for model building+In Proc. IPMI+63+75+2003+Martin Styner+Lutz-Peter Nolte+Taylor+H. Rhodri+Davies"
+          },
+          {
+            "doi": "10.1007/978-3-540-45087-0_5",
+            "key": "ref7",
+            "score": 69.13331,
+            "unstructured": "Minimum description length shape and appearance models+In Proc. IPMI+2+62+2003+2+Hans Henrik Thodberg"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

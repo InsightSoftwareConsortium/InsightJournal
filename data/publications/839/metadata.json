@@ -47,6 +47,36 @@
     "revisions": [
       {
         "article": "bafybeibquhekf3gca5mbsssj2fv2i3pm7heilo7lacadotq4dungiu5wee",
+        "citation_list": [
+          {
+            "doi": "10.1109/icme.2002.1035879",
+            "key": "ref1",
+            "score": 94.06456,
+            "unstructured": "Measuring errors between surfaces using the hausdorff distance+ch. 1+705+708+2002+N. Aspert+D. Santa-Cruz+T. Ebrahimi"
+          },
+          {
+            "key": "ref2",
+            "score": 48.03816,
+            "unstructured": "ISCAS 2002+In Circuits and Systems+2002+5+P. Gastaldo+R. Zunino+V pages+-"
+          },
+          {
+            "key": "ref3",
+            "score": 58.364525,
+            "unstructured": "Dimension und a\u00a8u\u00dferes ma\u00df+79+157+179+1918+Felix Hausdorff"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2010.01.091",
+            "key": "ref4",
+            "score": 108.93856,
+            "unstructured": "Evaluation of volume-based and surface-based brain image registration methods+Neuroimage+51+1+1+220+2010+Arno Klein+Brian Avants+B. T T Yeo+J. J. Mann+V Ramin+Parsey"
+          },
+          {
+            "doi": "10.1109/icmlc.2005.1527845",
+            "key": "ref5",
+            "score": 114.47195,
+            "unstructured": "Image registration based on generalized and mean hausdorff distances+In Machine Learning and Cybernetics+2005+8+5117+5121+Zhang Jian-Wei+Yan Wo"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

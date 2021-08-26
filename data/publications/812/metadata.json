@@ -46,6 +46,58 @@
     "revisions": [
       {
         "article": "bafybeibpi6wpj4x5i4i6djujsydssfvujonmda2ninzwrsggtdgakd3dii",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 39.811703,
+            "unstructured": "Level Set Methods: An Act of Violance+1996+J.A. Sethian"
+          },
+          {
+            "doi": "10.1109/iccv.1995.466871",
+            "key": "ref2",
+            "score": 75.10891,
+            "unstructured": "Geodesic Active Contours\u201d+International Journal of Computer Vision+22+1+61+79+1997+V Caselles+R Kimmel"
+          },
+          {
+            "doi": "10.1007/bf00133570",
+            "key": "ref3",
+            "score": 102.81286,
+            "unstructured": "Snakes: Active Contour Models\u201d+International Journal of Computer Vision+1+4+321+331+1988+M Kass+A Witkin+D. Terzopoulos"
+          },
+          {
+            "doi": "10.1201/9781482277234-12",
+            "key": "ref4",
+            "score": 62.31404,
+            "unstructured": "The Morphological Approach of Segmentation: The Watershed Transformation\u201d+12+43+481+1992+S Beucher"
+          },
+          {
+            "doi": "10.1006/cviu.1995.1004",
+            "key": "ref5",
+            "score": 88.87479,
+            "unstructured": "Active Shape Models-Their Training and Application\u201d+Computer Vision+61+January+38+59+1995+T Cootes+C Taylor+D Cooper"
+          },
+          {
+            "key": "ref6",
+            "score": 46.824974,
+            "unstructured": "Multivariate Statistics a practical approach+1988+Flury+Hall"
+          },
+          {
+            "key": "ref7",
+            "score": 39.382088,
+            "unstructured": "A tutorial on Principal Component Analysis\u201d. 26 February+2002+Lindsay. Smith"
+          },
+          {
+            "doi": "10.1109/cvpr.2000.855835",
+            "key": "ref8",
+            "score": 111.47795,
+            "unstructured": "Statistical shape influence in geodesic active contours+In Proc. IEEE Conference on Computer Vision and Pattern Recognition. Volumne 1+316+323+2000+M Leventon+W Grimson"
+          },
+          {
+            "key": "ref9",
+            "score": 35.14577,
+            "unstructured": "The ITK Software Guide Second Edition. November 21+2005+L Ibanez+W Schroeder+L Ng+J Cates"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

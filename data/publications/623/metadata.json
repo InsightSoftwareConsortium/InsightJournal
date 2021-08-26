@@ -56,6 +56,56 @@
     "revisions": [
       {
         "article": "bafkreigah6th2t3bfsdfxrpgyccywv2e5j7uth4yd7thkpsxp5sluwo6na",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 36.01873,
+            "unstructured": "LAPACK3E - a Fortran 90-enhanced version of LAPACK+Technical report, Science Applications International Corporation+2002+3+1+E. Anderson."
+          },
+          {
+            "doi": "10.1109/robot.2003.1242011",
+            "key": "ref2",
+            "score": 116.0407,
+            "unstructured": "The real-time motion control core of the Orocos project+In IEEE Intl. Conf. on Robotics and Automation (ICRA)+2776+2771+2003+H. Bruyninckx+P. Soetens+B. Koninckx."
+          },
+          {
+            "key": "ref3",
+            "score": 28.71088,
+            "unstructured": "a programming system for automation+Technical Report CS-74-456+1974+4+1+R. A. Finkel+R. H. Taylor+R. P. Paul+J. A. Feldman"
+          },
+          {
+            "key": "ref4",
+            "score": 52.460293,
+            "unstructured": "Jan 1995+2+E. Gamma+R. Helm+R. Johnson+J. Vlissides. Design Patterns. Addison-Wesley+Professional"
+          },
+          {
+            "doi": "10.1109/robot.2006.1642285",
+            "key": "ref5",
+            "score": 111.886505,
+            "unstructured": "Software components and frameworks for medical robot control+In IEEE Intl. Conf. on Robotics and Automation (ICRA)+3813+3818+2006+A. Kapoor+A. Deguet+P. Kazanzides"
+          },
+          {
+            "key": "ref6",
+            "score": 51.79237,
+            "unstructured": "Development of open source software for computer-assisted intervention systems+2005+2+4+P. Kazanzides+A. Deguet+A. Kapoor+O. Sadowsky+R. Taylor+Software"
+          },
+          {
+            "key": "ref7",
+            "score": 30.511147,
+            "unstructured": "Multidimensional arrays and the nArray package+2007+3+1+O. Sadowsky+D. Li+A. Deguet+P. Kazanzides"
+          },
+          {
+            "doi": "10.1007/978-3-540-30136-3_3",
+            "key": "ref8",
+            "score": 108.84259,
+            "unstructured": "High dexterity snake-like robotic slaves for minimally invasive telesurgery of the upper airway+In MICCAI+1+24+Sep 2004+N. Simaan+R. Taylor+P. Flint"
+          },
+          {
+            "key": "ref9",
+            "score": 53.68746,
+            "unstructured": "The Surgical Assistant Workstation: a software framework for telesurgical robotics research+In MICCAI Workshop on Systems and Arch+2008+5+B. Vagvolgyi+P. Kazanzides+R. Kumar+C. Hasser+R. Taylor"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

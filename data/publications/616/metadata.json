@@ -61,6 +61,20 @@
     "revisions": [
       {
         "article": "bafybeifstxulial4cbnuxii4byqxlpoloqflcxa45kg44rcz3m2yulsqoy",
+        "citation_list": [
+          {
+            "doi": "10.1109/tmi.2004.828354",
+            "key": "ref1",
+            "score": 114.47671,
+            "unstructured": "Simultaneous truth and performance level estimation (STAPLE): an algorithm for the validation of image segmentation+IEEE TMI+23+7+903+921+2004+K. Simon+Warfield+Kelly H. Zou+M. William+Wells"
+          },
+          {
+            "doi": "10.1007/bfb0056229",
+            "key": "ref2",
+            "score": 108.30572,
+            "unstructured": "Automatic quantification of MS lesions in 3D MRI brain data sets: Validation of INSECT+In Proc. MICCAI+1998+1496+439+448+A. Zijdenbos+R. Forghani+A. Evans"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

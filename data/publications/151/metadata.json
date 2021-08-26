@@ -48,6 +48,28 @@
     "revisions": [
       {
         "article": "bafybeiepohwnxag5ddl52lpoiond5suiq6mp7cum4mj3bfgoz6huehcqhm",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 37.888287,
+            "unstructured": "Technical report, Wikimedia Foundation+2007+Wikipedia Community"
+          },
+          {
+            "key": "ref2",
+            "score": 24.432503,
+            "unstructured": "Digital topology+The Insight Journal, July - December+2006+Julien Lamy"
+          },
+          {
+            "key": "ref3",
+            "score": 32.162975,
+            "unstructured": "WrapITK: Enhanced languages support for the Insight Toolkit+The Insight Journal, January - June+2006+Gaetan Lehmann"
+          },
+          {
+            "key": "ref4",
+            "score": 46.44453,
+            "unstructured": "Engineering and algorithm design for an image processing API: A technical report on ITK - the Insight Toolkit+Proc. of Medicine Meets Virtual Reality+586+592+2002+T. Yoo+M. Ackerman+W. Lorensen+W. Schroeder+V. Chalana+S. Aylward+D. Metaxes+R. Whitaker"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

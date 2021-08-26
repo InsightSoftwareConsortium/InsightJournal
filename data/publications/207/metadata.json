@@ -41,6 +41,43 @@
     "revisions": [
       {
         "article": "bafkreihoz64cz3rz732mtu2a77sn55uuwpfzztb7ablbcsdbpozehnyfqy",
+        "citation_list": [
+          {
+            "doi": "10.1109/iembs.2006.260599",
+            "key": "ref1",
+            "score": 107.11302,
+            "unstructured": "Rapid multi-modality preregistration based on SIFT descriptor+In Proceedings of the 28th Annual International Conference of the IEEE Engineering in Medicine and Biology Society+2006+1437+1440+Jian Chen+Jie Tian"
+          },
+          {
+            "doi": "10.1109/isbi.2007.356953",
+            "key": "ref2",
+            "score": 131.92996,
+            "unstructured": "Ghassan Hamarneh. n-SIFT: n-dimensional scale invariant feature transform for matching medical images+In Proceedings of the Fourth IEEE International Symposium on Biomedical Imaging: From Nano to Macro+2007+5+723+1+Warren Cheung"
+          },
+          {
+            "key": "ref3",
+            "score": 48.70808,
+            "unstructured": "Brainweb: Online interface to a 3d MRI simulated brain database+In Proceedings of the 3rd International Conference on Functional Mapping of the Human Brain, NeuroImage+3+1997+1+Chris Cocosco+Alan Remi K.-S. Kwan+Evans+S425 page"
+          },
+          {
+            "doi": "10.1109/iccv.1999.790410",
+            "key": "ref4",
+            "score": 97.51346,
+            "unstructured": "Object recognition from local scale-invariant features+In Proceedings of the Seventh IEEE International Conference on Computer Vision+1999+2+David Lowe"
+          },
+          {
+            "doi": "10.1023/b:visi.0000029664.99615.94",
+            "key": "ref5",
+            "score": 103.444725,
+            "unstructured": "Distinctive image features from scale-invariant keypoints+International Journal of Computer Vision+60+91+110+2004+David Lowe"
+          },
+          {
+            "doi": "10.1016/j.ics.2005.03.042",
+            "key": "ref6",
+            "score": 104.12873,
+            "unstructured": "Medical image registration based on distinctive image features from scale-invariant (SIFT) keypoints+In Proceedings of 19th Computer-Assisted Radiology and Surgery Conference (CARS+2005+Mehdi Moradi+Purang Abolmaesumi"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

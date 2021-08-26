@@ -39,6 +39,96 @@
     "revisions": [
       {
         "article": "bafybeie7n7tpqylxk6rkdtiwdp6vdjctmfgkalsbzoq2sbdho7xduaurqm",
+        "citation_list": [
+          {
+            "doi": "10.1016/s0167-8140(12)72710-x",
+            "key": "ref1",
+            "score": 63.759327,
+            "unstructured": "Multi-atlas based segmentation: application to the head and neck region for radiotherapy planning+In proc. MICCAI 2010 Workshop Head & Neck Autosegmentation Challenge+281+288+2010+L. Ramus+Malandain"
+          },
+          {
+            "doi": "10.1007/978-3-030-67194-5_5",
+            "key": "ref2",
+            "score": 64.18094,
+            "unstructured": "Automatic segmentation of parotids in head and neck CT images using multi-atlas fusion+In proc. MICCAI 2010 Workshop Head & Neck Autosegmentation Challenge+297+304+2010+X. Han+S. Hibbard+P. O'Connell+Willcut"
+          },
+          {
+            "key": "ref3",
+            "score": 53.01822,
+            "unstructured": "Automatic segmentation of parotids from CT scans using multiple atlases+In proc. MICCAI 2010 Workshop Head & Neck Autosegmentation Challenge+323+330+2010+J. Yang+Y. Zhang+L. Dong"
+          },
+          {
+            "key": "ref4",
+            "score": 46.35809,
+            "unstructured": "(+83140P83140P)+2012+A. Chen+J.H. Noble+K.J. Niermann+M.A. Deeley+B.M.: Dawant"
+          },
+          {
+            "doi": "10.1007/978-3-642-40760-4_27",
+            "key": "ref5",
+            "score": 111.42474,
+            "unstructured": "Contour-driven regression for label inference in atlas-based segmentation+2013+211+218+C. Wachinger+G.C. Sharp+P. Golland+Intervention-MICCAI Computer-Assisted"
+          },
+          {
+            "doi": "10.1118/1.4871623",
+            "key": "ref6",
+            "score": 186.99263,
+            "unstructured": "Automatic segmentation of head and neck CT images for radiotherapy treatment planning using multiple atlases, statistical appearance models, and geodesic active contours+Med. Phys+41+5+051910+2014+K.D. Fritscher+M. Peroni+P. Zaffino+M.F. Spadea+R. Schubert+G. Sharp"
+          },
+          {
+            "doi": "10.1118/1.3654160",
+            "key": "ref7",
+            "score": 141.5882,
+            "unstructured": "Autosegmentation of normal and target structures in head and neck CT images: a feature-driven model-based approach+Med. Phys+38+11+6160+6170+2011+A.A. Qazi+V. Pekar+J. Kim+J. Xie+S.L. Breen+D.A. Jaffray"
+          },
+          {
+            "doi": "10.1088/0031-9155/56/14/021",
+            "key": "ref8",
+            "score": 122.07177,
+            "unstructured": "Comparison of manual and automatic segmentation methods for brain structures in the presence of space-occupying lesions: a multi-expert study+Physics in Medicine and Biology+56+14+4557+2011+M.A. Deeley+A. Chen+R. Datteri+J.H. Noble+A.J. Cmelak+E.F. Donnelly+B.M. Dawant"
+          },
+          {
+            "doi": "10.1088/0031-9155/57/1/93",
+            "key": "ref9",
+            "score": 125.01638,
+            "unstructured": "Evaluation of multiple-atlas-based strategies for segmentation of the thyroid gland in head and neck CT images for IMRT+Physics in medicine and biology+57+1+93+2012+A. Chen+K.J. Niermann+M.A. Deeley+B.M. Dawant"
+          },
+          {
+            "doi": "10.1118/1.3515459",
+            "key": "ref10",
+            "score": 151.3377,
+            "unstructured": "Combining registration and active shape models for the automatic segmentation of the lymph node regions in head and neck CT images+Med. Phys+37+12+6338+6346+2010+A. Chen+M.A. Deeley+K.J. Niermann+B.M.: Dawant"
+          },
+          {
+            "doi": "10.1117/1.jmi.1.3.034006",
+            "key": "ref11",
+            "score": 101.14357,
+            "unstructured": "Robust optic nerve segmentation on clinically acquired computed tomography+Journal of Medical Imaging+1+3+034006+034006+2014+R.L. Harrigan+S. Panda+B.A. Landman"
+          },
+          {
+            "doi": "10.1118/1.4871620",
+            "key": "ref12",
+            "score": 126.82503,
+            "unstructured": "Med. Phys+41+on automated image segmentation for radiotherapy+5+050902+2014+G. Sharp+K. D. Fritscher+V. Pekar+M. Peroni+N. Shusharina+H. Veeraraghavan+J. Yang"
+          },
+          {
+            "doi": "10.1006/cviu.1999.0815",
+            "key": "ref13",
+            "score": 116.090294,
+            "unstructured": "Average brain models: A convergence study+Computer vision and image understanding+77+2+192+210+2000+A. Guimond+J. Meunier+J. P. Thirion"
+          },
+          {
+            "doi": "10.1109/tmi.2003.819299",
+            "key": "ref14",
+            "score": 124.82897,
+            "unstructured": "The adaptive bases algorithm for intensity-based nonrigid image registration+Medical Imaging+22+11+1470+1479+2003+G. K. Rohde+A. Aldroubi+B. M.: Dawant"
+          },
+          {
+            "doi": "10.1016/j.media.2007.06.004",
+            "key": "ref15",
+            "score": 156.3827,
+            "unstructured": "Symmetric diffeomorphic image registration with cross-correlation: evaluating automated labeling of elderly and neurodegenerative brain+Medical Image Analysis+12+1+26+41+2008+B.B. Avants+C.L. Epstein+M. Grossman+Gee"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

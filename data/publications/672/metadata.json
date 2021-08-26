@@ -41,6 +41,59 @@
     "revisions": [
       {
         "article": "bafybeifhgocmipb6gntbzq2vq5godijnvkfit3ipjvlhrr4yazwb7736li",
+        "citation_list": [
+          {
+            "doi": "10.1016/s1361-8415(01)00046-9",
+            "key": "ref1",
+            "score": 77.03054,
+            "unstructured": "Fast extraction of minimal paths in 3d images and application to virtual endoscopy+Medical Image Analysis+2+4+December 2001+3+T. Deschamps+L.D. Cohen"
+          },
+          {
+            "key": "ref2",
+            "score": 30.834251,
+            "unstructured": "\u00a8ck. Polynomial Expansion for Orientation and Motion Estimation+Dissertation No 790. 2.1+2002+G. Farneba"
+          },
+          {
+            "key": "ref3",
+            "score": 58.348198,
+            "unstructured": "2009+3d segmentation in the clinic: Carotid lumen segmentation and stenosis grading challenge+K. Hameeteman+M. Zuluaga+L. Joskowicz+M. Freiman+T."
+          },
+          {
+            "key": "ref4",
+            "score": 49.206924,
+            "unstructured": "Minimally interactive knowledge-based coronary tracking in cta using a minimal cost path+In The MIDAS Journal - Grand Challenge Coronary Artery Tracking (MICCAI 2008 Workshop)+September 2008+2+1+K. Krissian+H. Bugunovic+J.M. Pozo+M.C. Villa-Uriol+A. Frangi"
+          },
+          {
+            "doi": "10.1109/iembs.2003.1279838",
+            "key": "ref5",
+            "score": 129.33646,
+            "unstructured": "Multiscale segmentation of the aorta in 3d ultrasound images+In 25th Annual Int. Conf. of the IEEE Engineering in Medicine and Biology Society (EMBS)+1+641+September 2003+2+K. Krissian+J. Ellsmere+K. Vosburgh+R. Kikinis+C.-F. Westin+Mexico Cancun"
+          },
+          {
+            "doi": "10.1142/9789812701046_0011",
+            "key": "ref6",
+            "score": 100.59174,
+            "unstructured": "Farneba\u00a8ck+Medical Imaging Systems Technology: Methods in Cardiovascular and Brain Systems, chapter Techniques in the Enhancement of 3D Angiograms and their Applications+1+396+2005+2+K. Krissian+G."
+          },
+          {
+            "doi": "10.1006/cviu.2000.0866",
+            "key": "ref7",
+            "score": 109.70438,
+            "unstructured": "Model based detection of tubular structures in 3d images+Computer Vision+2+2+1+171+2000+K. Krissian+N. Ayache+R. Vaillant+Y. Trousset"
+          },
+          {
+            "doi": "10.1016/j.patrec.2004.12.005",
+            "key": "ref8",
+            "score": 143.54276,
+            "unstructured": "Fast sub-voxel re-initialization of the distance map for level set methods+Pattern Recognition Letters+26+10+1532+1542+2005+K. Krissian+C.-F. Westin"
+          },
+          {
+            "doi": "10.1016/s1361-8415(01)00040-8",
+            "key": "ref9",
+            "score": 145.4421,
+            "unstructured": "Curve evolution for vessel segmentation+Medical Image Analysis+5+195+206+2001+L. M. Lorigo+O. D. Faugeras+W. E. L. Grimson+R. Keriven+R. Kikinis+A. Nabavi+C.-F. Westin"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

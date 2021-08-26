@@ -71,6 +71,42 @@
     "revisions": [
       {
         "article": "bafkreidtiqvfk5mtjwtx5nas4l6jzmjout6yiwzqiws2ston52zqngy7jy",
+        "citation_list": [
+          {
+            "doi": "10.1016/j.compmedimag.2006.03.009",
+            "key": "ref1",
+            "score": 135.29887,
+            "unstructured": "Left-ventricle myocardium segmentation using a coupled level-set with a priori knowledge+Computerized Medical Imaging and Graphics+30+255C262+2006+M. Lynch+O. Ghita+P.F. Whelan"
+          },
+          {
+            "doi": "10.1006/nimg.1999.0534",
+            "key": "ref2",
+            "score": 92.010025,
+            "unstructured": "-d extraction of inner and outer surfaces of cerebral cortex from MRI+NeuroImage+12+3+340+356+2000+D. MacDonald"
+          },
+          {
+            "doi": "10.1080/10867651.1997.10487468",
+            "key": "ref3",
+            "score": 91.64101,
+            "unstructured": "Fast, minimum storage ray/triangle intersection+Journal of Graphics Tools+2+1+5+28+1997+T. Mo+B. Trumbore"
+          },
+          {
+            "key": "ref4",
+            "score": 36.63827,
+            "unstructured": "KWMeshvisu: A mesh visualization tool for shape analysis+In IJ - 2006 MICCAI Open Science Workshop+2006+4+1+Ipek Oguz"
+          },
+          {
+            "doi": "10.1007/11866565_22",
+            "key": "ref5",
+            "score": 100.53187,
+            "unstructured": "Morphometric analysis for pathological abnormality detection in the skull vaults of adolescent idiopathic scoliosis girls+In Proc. MICCAI+175+182+2006+L. Shi+P.A. Heng"
+          },
+          {
+            "key": "ref6",
+            "score": 51.777664,
+            "unstructured": "Landmark correspondence optimization for coupled surfaces+In MICCAI+2007+1+5+L. Shi+D. Wang+P.A. Heng"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

@@ -47,6 +47,30 @@
     "revisions": [
       {
         "article": "bafybeiehzh7remaguvxoi6qwkxs23xoijl5mse6lejgp3whicy3t4hsujq",
+        "citation_list": [
+          {
+            "doi": "10.1145/1281500.1281640",
+            "key": "ref1",
+            "score": 109.49542,
+            "unstructured": "Christian Ro\u00a8ssl. Geometric modeling based on polygonal meshes+In SIGGRAPH '07: ACM SIGGRAPH 2007 courses, page 1+2007+2+4+Mario Botsch"
+          },
+          {
+            "key": "ref2",
+            "score": 34.692158,
+            "unstructured": "Triangular meshes delaunay conforming filter+Insight Journal, July-December+1926+Arnaud Gelas+Sean Megason"
+          },
+          {
+            "key": "ref3",
+            "score": 38.429905,
+            "unstructured": "Leonardo Florez-Valencia, and Eric Boix. itkQuadEdgeMesh: A discrete orientable 2-manifold data structure for image processing+Insight Journal, July-December+1926+Alexandre Gouaillard"
+          },
+          {
+            "doi": "10.1007/978-3-662-05105-4_2",
+            "key": "ref4",
+            "score": 63.04579,
+            "unstructured": "Discrete differential-geometry operators for triangulated 2-manifolds+2002+1+5+7+Mark Meyer+H. Alan+Barr"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

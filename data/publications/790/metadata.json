@@ -39,6 +39,55 @@
     "revisions": [
       {
         "article": "bafybeidmhho74vcvhphmejgfktdlas473bichwqbo6m6cd6ls3xo3zw6iy",
+        "citation_list": [
+          {
+            "doi": "10.1109/78.193220",
+            "key": "ref1",
+            "score": 91.98697,
+            "unstructured": "B-spline signal processing: Part I - Theory+41+2+821+833+1993+M. Unser+M. Aldroubi+M. Eden"
+          },
+          {
+            "doi": "10.1109/78.193221",
+            "key": "ref2",
+            "score": 108.98163,
+            "unstructured": "B-spline signal processing: Part II - Efficient design and applications+IEEE Trans. Signal Process+1+2+1+848+1993+M. Unser+M. Aldroubi+M. Eden"
+          },
+          {
+            "key": "ref3",
+            "score": 57.149284,
+            "unstructured": "Interpolation revisited+IEEE Trans. Med+1+2+2+758+2000+P. The+M. Unser"
+          },
+          {
+            "doi": "10.1093/comjnl/bxq086",
+            "key": "ref4",
+            "score": 85.394066,
+            "unstructured": "The\u00b4venaz. GPU prefilter for accurate cubic B-spline interpolation+The Computer Journal+10+2+2010+2+D. Ruijters+P."
+          },
+          {
+            "doi": "10.1109/42.796284",
+            "key": "ref5",
+            "score": 124.98009,
+            "unstructured": "Nonrigid registration using free-form deformations+IEEE Trans. Med+18+8+712+721+1999+D. Rueckert+L.I. Sonoda+C. Hayes+D.L.G. Hill+M.O. Leach+D.J. Hawkes"
+          },
+          {
+            "doi": "10.1109/tip.2007.909412",
+            "key": "ref6",
+            "score": 139.90756,
+            "unstructured": "Evaluation of optimization methods for nonrigid image registration using mutual information and B-splines+IEEE Trans. Image Process+16+12+2879+2890+2007+S. Klein+M. Staring+J.P.W. Pluim"
+          },
+          {
+            "doi": "10.1016/s0895-6111(02)00091-5",
+            "key": "ref7",
+            "score": 102.56944,
+            "unstructured": "Generalized 3D nonlinear transformations for medical imaging: An objectoriented implementation in VTK+Comput. Med. Imaging Graphics+1+1+265+2003+3+D.G. Gobbi+T.M. Peters"
+          },
+          {
+            "doi": "10.1109/tmi.2002.806567",
+            "key": "ref8",
+            "score": 119.35631,
+            "unstructured": "A three-dimensional atlas of subcortical electrophysiology for the planning and guidance of functional neurosurgery+IEEE Trans. Med+21+93+104+2003+K.W. Finnis+Y.P. Starreveld+A.G. Parrent+A.F. Sadikot+T.M. Peters"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

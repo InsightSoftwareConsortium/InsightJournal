@@ -100,6 +100,114 @@
     "revisions": [
       {
         "article": "bafybeigqopxdphky5g2z7ahwqfipcsc7qsceqenpksk36mrtcobv6eohm4",
+        "citation_list": [
+          {
+            "doi": "10.1114/1.1313771",
+            "key": "ref1",
+            "score": 90.29037,
+            "unstructured": "Strategies for the physiome project+Annals of Biomedical Engineering+28+1043+1058+2000+J. B. Bassingthwaighte"
+          },
+          {
+            "doi": "10.1007/3-540-45468-3_143",
+            "key": "ref2",
+            "score": 67.79423,
+            "unstructured": "A biomechanical model of muscle contraction+of LNCS+2+6+1161+2001+3+J. Bestel+F.+M. Sorine"
+          },
+          {
+            "key": "ref3",
+            "score": 59.876137,
+            "unstructured": "General object reconstruction based on simplex meshes+International Journal of Computer Vision+4+2+2+146+1999+H. Delingette"
+          },
+          {
+            "doi": "10.1109/42.906421",
+            "key": "ref4",
+            "score": 102.69942,
+            "unstructured": "Three-dimensional modeling for functional analysis of cardiac images: A review+IEEE Transactions on Medical Imaging+1+20+2+25+2001+A. Frangi+W. Niessen+M. Viergever"
+          },
+          {
+            "key": "ref5",
+            "score": 47.759727,
+            "unstructured": "Computational electromechanics of the heart+In Computational biology of the heart+345+407+1997+P.J. Hunter+M.P. Nash+G.B. Sands+A.V. Panfilov+A.V. Holden+Eds"
+          },
+          {
+            "doi": "10.1109/cvpr.1991.139712",
+            "key": "ref6",
+            "score": 100.39093,
+            "unstructured": "Constrained deformable superquadrics and nonrigid motion tracking+IEEE+337+343+1991+D. Metaxas+D. Terzopoulos"
+          },
+          {
+            "doi": "10.1016/j.cma.2007.08.021",
+            "key": "ref7",
+            "score": 109.195526,
+            "unstructured": "Joint state and parameter estimation for distributed mechanical systems+Computer Methods in Applied Mechanics and Engineering+1+6+677+2008+4+P. Moireau+D. Chapelle+P. Le Tallec"
+          },
+          {
+            "doi": "10.1016/j.media.2004.06.025",
+            "key": "ref8",
+            "score": 139.00873,
+            "unstructured": "4D deformable models with temporal constraints: application to 4D cardiac image segmentation+Medical Image Analysis+9+1+1+100+February 2005+J. Montagnat+H. Delingette"
+          },
+          {
+            "doi": "10.1098/rsta.2001.0820",
+            "key": "ref9",
+            "score": 77.88164,
+            "unstructured": "Models of cardiac ventricular action potentials: iterative interaction between experiment and simulation+Phil. Trans. R. Soc. Lond. A+1127+1142+2001+D. Noble+Y. Rudy"
+          },
+          {
+            "doi": "10.1007/10704282_46",
+            "key": "ref10",
+            "score": 134.57181,
+            "unstructured": "3D cardiac deformation from ultrasound images+In Medical Image Computing and Computer-Assisted Intervention (MICCAI'99)+1679+420+429+1999+X. Papademetris+A. J. Sinusas+D. P. Dione+J. S. Duncan"
+          },
+          {
+            "doi": "10.1109/tmi.2007.907286",
+            "key": "ref11",
+            "score": 155.69426,
+            "unstructured": "A computational framework for the statistical analysis of cardiac diffusion tensors: Application to a small database of canine hearts+IEEE Transactions on Medical Imaging+2+11+1+1514+November 2007+M. J-M. Peyrat+X. Sermesant+H. Pennec+C. Delingette+E. Xu+and N. McVeigh+Ayache"
+          },
+          {
+            "doi": "10.1007/11569541_11",
+            "key": "ref12",
+            "score": 121.60073,
+            "unstructured": "A learning framework for the automatic and accurate segmentation of cardiac tagged MRI images+In Computer Vision for Biomedical Image Applications+93+102+2005+Z. Qian+D. N. Metaxas+L. Axel"
+          },
+          {
+            "doi": "10.1109/cic.2001.977616",
+            "key": "ref13",
+            "score": 97.15764,
+            "unstructured": "\u00a8 ssel. Electro-mechanical modeling of the myocardium: Coupling and feedback mechanisms+In Computers in Cardiology+28+161+164+2001+F. Sachse+C. Werner+C. Riedel+O. Do"
+          },
+          {
+            "doi": "10.1109/tmi.2006.872746",
+            "key": "ref14",
+            "score": 101.77383,
+            "unstructured": "An Electromechanical Model of the Heart for Image Analysis and Simulation+IEEE Transactions in Medical Imaging+2+4+2+625+2006+M. Sermesant+H. Delingette+N. Ayache"
+          },
+          {
+            "doi": "10.1007/978-3-540-72907-5_17",
+            "key": "ref15",
+            "score": 115.59024,
+            "unstructured": "An anisotropic multi-front fast marching method for real-time simulation of cardiac electrophysiology+of LNCS+4466+2+169+9+June 2007+M. Sermesant+H. Delingette+Y. Coudiere+P. Chinchaptanam+K.S. Rhode+R. Razavi+N. Ayache"
+          },
+          {
+            "doi": "10.1016/s1361-8415(03)00066-5",
+            "key": "ref16",
+            "score": 110.55574,
+            "unstructured": "Stochastic finite element framework for simultaneous estimation of cardiac kinematic functions and material parameters+Medical Image Analysis+1+3+2+464+2003+P. Shi+H. Liu"
+          },
+          {
+            "doi": "10.1152/ajpheart.1999.276.1.h81",
+            "key": "ref17",
+            "score": 107.94341,
+            "unstructured": "Total arterial inertance as the fourth element of the windkessel model+American Journal of Physiology+2+3+8+1999+N. Stergiopulos+B. Westerhof+N. Westerhof"
+          },
+          {
+            "doi": "10.1007/11866565_88",
+            "key": "ref18",
+            "score": 86.941284,
+            "unstructured": "Physiome model based state-space framework for cardiac kinematics recovery+In MICCAI (1)+3+727+2006+1+4+H. K. C. L. Wong+P. Zhang+Shi"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

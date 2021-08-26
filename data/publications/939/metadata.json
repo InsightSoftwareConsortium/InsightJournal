@@ -63,6 +63,20 @@
     "revisions": [
       {
         "article": "bafybeiakrrqx6nbmvzdnd7sicf3ss4hknhbnjtlw3fdg47v3px2ew6ex5m",
+        "citation_list": [
+          {
+            "doi": "10.1118/1.4754659",
+            "key": "ref1",
+            "score": 140.98837,
+            "unstructured": "\"SlicerRT: Radiation therapy research toolkit for 3D Slicer\"+Med+6332+10+2012+C. Pinter+A. Lasso+A. Wang+D. Jaffray+G. Fichtinger"
+          },
+          {
+            "doi": "10.1016/b978-0-12-407741-6.00006-2",
+            "key": "ref2",
+            "score": 90.44466,
+            "unstructured": "Plastimatch - An open source software suite for radiotherapy image processing+In Proceedings of the XVI'th International Conference on the use of Computers in Radiotherapy (ICCR)+G.C. Sharp+R. Li+J. Wolfgang+G. Chen+M. Peroni+M.F. Spadea+S. Mori+J. Shackleford+N. Kandasamy"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

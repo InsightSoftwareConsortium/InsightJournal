@@ -104,6 +104,164 @@
     "revisions": [
       {
         "article": "bafybeiee5rig5ciwcviwqzcbp2n3fvupc7wwzkyzw6tgfmrdy2plma32ua",
+        "citation_list": [
+          {
+            "doi": "10.1007/978-3-540-39899-8_60",
+            "key": "ref1",
+            "score": 84.57144,
+            "unstructured": "Purely evidence based multiscale cardiac tracking using optic flow+In MICCAI 2007 workshop on Computational Biomechanics for Medicine II+84+93+2007+H.C. Van Assen+L.M.J. Florack+A. Suinesiaputra+J.J.M. Westenberg+B.M. ter Haar Romeny"
+          },
+          {
+            "doi": "10.1148/radiology.171.3.2717762",
+            "key": "ref2",
+            "score": 105.15934,
+            "unstructured": "Mr imaging of motion with spatial modulation of magnetization+Radiology+171+3+841+845+1989+L. Axel+L. Dougherty"
+          },
+          {
+            "doi": "10.1007/bf01420984",
+            "key": "ref3",
+            "score": 75.66937,
+            "unstructured": "Performance of optical flow techniques+International Journal of Computer Vision (IJCV1994)+2+1+5+77+1994+J.L. Barron+D.J. Fleet+S. Beauchemin"
+          },
+          {
+            "key": "ref4",
+            "score": 27.749723,
+            "unstructured": "The Netherlands. 2.3+1991+Dissertation for the Dutch PhD degree+J. Blom"
+          },
+          {
+            "doi": "10.1007/978-3-540-24673-2_3",
+            "key": "ref5",
+            "score": 112.07712,
+            "unstructured": "High accuracy optical flow estimation based on a theory for warping+In Proceedings of the 8th European Conference on Computer Vision+3024+25+36+2004+B. Brox+A. Bruhn+N. Papenberg+J. Weickert"
+          },
+          {
+            "doi": "10.1007/s11263-006-6616-7",
+            "key": "ref6",
+            "score": 123.14184,
+            "unstructured": "A mutigrid platform for real-time motion computation with discontinuity-preserving variational methods+International Journal of Computer Vision+70+3+257+277+2006+A. Bruhn+J. Weickert+T. Kohlberger+C. Schnoerr"
+          },
+          {
+            "doi": "10.1109/42.768845",
+            "key": "ref7",
+            "score": 127.73713,
+            "unstructured": "Validation of an optical flow method for tag displacement estimation+IEEE Transactions on Medical Imaging+18+4+359+363+1999+L. Dougherty+J.C. Asmuth+A.S. Blom+L. Axel+R. Kumar"
+          },
+          {
+            "doi": "10.1002/mrm.1910300207",
+            "key": "ref8",
+            "score": 103.82482,
+            "unstructured": "Improved myocardial tagging contrast+Magnetic Resonance in Medicine+30+2+191+200+1993+S. E. Fischer+G.C. McKinnon+S.E. Maier+P. Boesiger"
+          },
+          {
+            "key": "ref9",
+            "score": 29.164936,
+            "unstructured": "The Netherlands, first edition+1+1997+2+1+L. Florack"
+          },
+          {
+            "doi": "10.1023/a:1007922215235",
+            "key": "ref10",
+            "score": 79.46943,
+            "unstructured": "The intrinsic structure of optic flow incorporating measurement duality+International Journal of Computer Vision+27+3+263+286+1998+L. Florack+W. Niessen+M. Nielsen"
+          },
+          {
+            "doi": "10.1109/iccv.2007.4409147",
+            "key": "ref11",
+            "score": 121.8345,
+            "unstructured": "Dense multiscale motion extraction from cardiac cine mr tagging using harp technology+In Proc. Mathematical Methods in Biomedical Image Analysis. Workshop of the ICCV+2007+L.M.J. Florack and H.C. Van Assen"
+          },
+          {
+            "doi": "10.1016/0262-8856(92)90024-w",
+            "key": "ref12",
+            "score": 108.52508,
+            "unstructured": "Scale and the differential structure of images+Image and Vision Computing+2+6+3+388+1992+B.M. ter Haar L.M.J. Florack+M.A. Romeny+Viergever"
+          },
+          {
+            "doi": "10.1016/0004-3702(81)90024-2",
+            "key": "ref13",
+            "score": 72.47888,
+            "unstructured": "Determining optical flow+Artificial Intelligence+17+185+203+1981+B.K.P Horn+B.G. Shunck"
+          },
+          {
+            "key": "ref14",
+            "score": 57.700386,
+            "unstructured": "The structure of images+Biol. Cybern+2+1+370+1984+J.J. Koenderink."
+          },
+          {
+            "key": "ref15",
+            "score": 58.560257,
+            "unstructured": "Scale-Space Theory in Computer Vision+The Netherlands, first edition+1994+2+1+T. Lindeberg"
+          },
+          {
+            "key": "ref16",
+            "score": 47.0808,
+            "unstructured": "An iterative image registration technique with application to stereo vision+In Proc. DARPA+21+85+117+1981+B. Lucas+T. Kanade+Process Image"
+          },
+          {
+            "doi": "10.1006/cviu.1996.0582",
+            "key": "ref17",
+            "score": 141.50365,
+            "unstructured": "A multiscale approach to image sequence analysis+Computer Vision+65+2+259+268+1997+W.J. Niessen+J.S. Duncan+B.M. ter Haar L.M.J. Florack M. Nielsen+M.A. Romeny+Viergever"
+          },
+          {
+            "doi": "10.1117/12.208696",
+            "key": "ref18",
+            "score": 109.201195,
+            "unstructured": "Spatiotemporal analysis of left ventricular motion+In Medical Imaging+95+192+203+1995+W.J. Niessen+J.S. Duncan+B.M. ter Haar Romeny+M.A. Viergever"
+          },
+          {
+            "doi": "10.1002/(sici)1522-2594(199912)42:6<1048::aid-mrm9>3.0.co;2-m",
+            "key": "ref19",
+            "score": 134.4516,
+            "unstructured": "Cardiac motion tracking using cine harmonic phase (harp) magnetic resonance imaging+Magnetic Resonance in Medicine+42+6+1048+1060+1999+N.F. Osman+W.S. McVeigh+and J.L. Prince"
+          },
+          {
+            "key": "ref20",
+            "score": 29.985067,
+            "unstructured": "Dissertation for the Dutch PhD degree+February 2007+The Netherlands. 2.2+B. Platel"
+          },
+          {
+            "doi": "10.1161/circulationaha.107.187998",
+            "key": "ref21",
+            "score": 223.9961,
+            "unstructured": "M Wilson,+Heart Disease and Stroke Statistics 2008 Update. A Report From the American Heart Association Statistics Committee and Stroke Statistics Subcommittee. Circulation+117+e2+e122+2008+W Rosamond+K Flegal+K Furie+A Go+K Greenlund+N Haase+S M Hailpern+M Ho+V Howard+B Kissela+S Kittner+D Lloyd-Jones+M McDermott+J Meigs+C Moy+G Nichol+C O 'Donnell+V Roger+P Sorlie+T Thom+Y Hong"
+          },
+          {
+            "doi": "10.1002/mrm.10509",
+            "key": "ref22",
+            "score": 136.60063,
+            "unstructured": "Realtime imaging of twodimensional cardiac strain using a harmonic phase magnetic resonance imaging (harpmri) pulse sequence+Magnetic Resonance in Medicine+50+1+154+163+2003+S. Sampath+J.A. Derbyshire+E. Atalar+N.F. Osman+J.L. Prince"
+          },
+          {
+            "doi": "10.1007/3-540-48236-9_10",
+            "key": "ref23",
+            "score": 141.14415,
+            "unstructured": "Detection of critical structures in scale space+archive Proceedings of the Second International Conference on Scale-Space Theories in Computer Vision+2+2+116+1999+J. Staal+S. Kalitzin+B. M. ter Haar Romeny+M. Viergever"
+          },
+          {
+            "doi": "10.1007/978-3-540-39899-8_60",
+            "key": "ref24",
+            "score": 168.49362,
+            "unstructured": "Optic flow computation from cardiac mr tagging using a multiscale differential method a comparative study with velocity encoded mri+In Proceedings of the Sixth International Conference on Medical Image Computing and Computer-Assisted Intervention MICCAI+November 2003+1+490+A. Suinesiaputra+L.M.J. Florack+J.J.M. Westenberg+B.M. ter Haar Romeny+J.H.C. Reiber+B.P.F. Lelieveldt"
+          },
+          {
+            "doi": "10.1007/978-1-4020-8840-7",
+            "key": "ref25",
+            "score": 94.94006,
+            "unstructured": "Front-End Vision and Multi-Scale Image Analysis: Multiscale Computer Vision Theory+The Netherlands, first edition+2003+2+2+3+B. M. ter Haar Romeny"
+          },
+          {
+            "doi": "10.1016/j.media.2006.04.001",
+            "key": "ref26",
+            "score": 178.90233,
+            "unstructured": "Towards modelbased analysis of cardiac mr tagging data: relation between left ventricular shear strain and myofiber orientation+Medical Image Analysis+10+632+641+2006+S.W.J. Ubbink+P.H.M. Bovendeerd+T. Delhaas+T. Arts+F.N. van de Vosse."
+          },
+          {
+            "doi": "10.1148/radiology.169.1.3420283",
+            "key": "ref27",
+            "score": 110.29019,
+            "unstructured": "Human heart: tagging with mr imaginga method for noninvasive assessment of myocardial motion+Radiology+169+1+59+63+1988+E.A. Zerhouni+D.M. Parish+W.J. Rogers+A. Yang+E.P. Sapiro"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

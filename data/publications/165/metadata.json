@@ -47,6 +47,32 @@
     "revisions": [
       {
         "article": null,
+        "citation_list": [
+          {
+            "doi": "10.1016/j.media.2004.06.026",
+            "key": "ref1",
+            "score": 78.10989,
+            "unstructured": "Flux driven automatic centerline extraction+Technical Report SOCS-04.2+2004+1+1+4+S. Bouix+K. Siddiqi+A. Tannenbaum"
+          },
+          {
+            "doi": "10.4310/cag.2007.v15.n2.a5",
+            "key": "ref2",
+            "score": 72.17267,
+            "unstructured": "Global geometry of regions and boundaries via skeletal and medial integrals+Technical report+2003+J. Damon"
+          },
+          {
+            "doi": "10.1007/bf01420736",
+            "key": "ref3",
+            "score": 92.10399,
+            "unstructured": "Topological segmentation of discrete surfaces+International Journal of Computer Vision+10+2+183+197+1993+G. Malandain+N. Ayache"
+          },
+          {
+            "doi": "10.1006/gmip.1997.0438",
+            "key": "ref4",
+            "score": 144.02315,
+            "unstructured": "Geometric shock-capturing eno schemes for sub-pixel interpolation, computation and curve evolution+Graphical Models and Image Processing+59+5+278+301+1997+K. Siddiqi+B. B. Kimia+C. Shu"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

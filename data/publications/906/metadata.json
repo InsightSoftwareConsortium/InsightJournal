@@ -42,6 +42,120 @@
     "revisions": [
       {
         "article": "bafybeidcxjl5ledrroimlnzkjwpiq2tmwwolkj5x5w7lw7dmwzrc2j7ezq",
+        "citation_list": [
+          {
+            "doi": "10.1006/nimg.1997.0290",
+            "key": "ref1",
+            "score": 105.842896,
+            "unstructured": "Multimodal image coregistration and partitioning|a uni ed framework+Neuroimage+209+3+217+1997+J Ashburner+K Friston"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2009.05.029",
+            "key": "ref2",
+            "score": 126.9547,
+            "unstructured": "An evaluation of four automatic methods of segmenting the subcortical structures in the brain+Neuroimage+1435+4+1447+2009+Kolawole Oluwole+Babalola+William Crum+Stephen Smith+Tim Cootes+Mark Jenkinson+Daniel Rueckert"
+          },
+          {
+            "doi": "10.1109/tpami.1986.4767851",
+            "key": "ref3",
+            "score": 79.51994,
+            "unstructured": "A computational approach to edge detection+Pattern Analysis and Machine Intelligence+679+698+1986+John Canny"
+          },
+          {
+            "doi": "10.1016/s0730-725x(00)00218-6",
+            "key": "ref4",
+            "score": 127.70375,
+            "unstructured": "Hybrid arti cial neural network segmentation of precise and accurate inversion recovery (PAIR) images from normal human brain+Magnetic resonance imaging+1245+10+1253+2000+R Grant Steen"
+          },
+          {
+            "doi": "10.1016/j.ijdevneu.2010.06.004",
+            "key": "ref5",
+            "score": 118.54807,
+            "unstructured": "Developmental changes in cerebral grey and white matter volume from infancy to adulthood+International Journal of Developmental Neuroscience+481+6+489+2010+S Groeschel+MD King+A Connelly"
+          },
+          {
+            "doi": "10.1109/72.159057",
+            "key": "ref6",
+            "score": 138.22157,
+            "unstructured": "A comparison of neural network and fuzzy clustering techniques in segmenting magnetic resonance images of the brain+Neural Networks, IEEE Transactions on, 3+5+672+682+1992+Laurence P Clarke Amine M Bensaid+Martin S Silbiger+James C Bezdek"
+          },
+          {
+            "doi": "10.1109/iembs.2006.260480",
+            "key": "ref7",
+            "score": 103.20746,
+            "unstructured": "Segmenting brain MRI using adaptive mean shift+In Engineering in Medicine and Biology Society+2006+3114+3117+RJ Jimenez-Alaniz+M Pohi-Alfaro+V Medina-Ba+uelos+O Ya"
+          },
+          {
+            "key": "ref8",
+            "score": 31.63005,
+            "unstructured": "Making large scale SVM learning practical+1999+Thorsten Joachims"
+          },
+          {
+            "doi": "10.5353/th_b4357230",
+            "key": "ref9",
+            "score": 75.79186,
+            "unstructured": "MRI Brain Abnormality in First Episode Schizophrenia Before and After Treatment+PhD thesis+2010"
+          },
+          {
+            "doi": "10.1155/ijbi/2006/53186",
+            "key": "ref10",
+            "score": 112.12517,
+            "unstructured": "3D brain segmentation using dual-front active contours with optional user interaction+International journal of biomedical imaging+2006+Li Hua+Anthony Yezzi+Laurent D Cohen"
+          },
+          {
+            "key": "ref11",
+            "score": 58.435673,
+            "unstructured": "ICASSP 2007+In Acoustics, Speech and Signal Processing+2007+1+Li Ning+Youfu Li+I{ pages"
+          },
+          {
+            "doi": "10.1109/tmi.2003.816956",
+            "key": "ref12",
+            "score": 100.56874,
+            "unstructured": "An adaptive spatial fuzzy clustering algorithm for 3-D MR image segmentation+Medical Imaging+1063+9+1075+2003+Alan Wee-Chung Liew+Hong Yan"
+          },
+          {
+            "doi": "10.1016/j.schres.2012.04.005",
+            "key": "ref13",
+            "score": 83.543396,
+            "unstructured": "An MRI study of amygdala in schizophrenia and psychotic bipolar disorder+Schizophrenia research+2012+J Tilak Ratnanather+Patrick E Barta"
+          },
+          {
+            "doi": "10.1109/isbi.2006.1624917",
+            "key": "ref14",
+            "score": 69.0882,
+            "unstructured": "Segmentation of brain MRI by adaptive mean shift+2006+319+322+Arnaldo Mayer+Hayit Greenspan"
+          },
+          {
+            "doi": "10.1136/bmj.b3016",
+            "key": "ref15",
+            "score": 71.40737,
+            "unstructured": "Incidental ndings on brain magnetic resonance imaging: systematic review and meta-analysis+BMJ: British Medical Journal+339+2009+Morris Zoe+Lee Yi-Chung+Joanna M Wardlaw"
+          },
+          {
+            "doi": "10.1007/s00234-011-0886-7",
+            "key": "ref16",
+            "score": 83.939285,
+            "unstructured": "Segmentation of multiple sclerosis lesions in MR images: a review+Neuroradiology+299+4+320+2012+Mortazavi Daryoush+Hamid"
+          },
+          {
+            "doi": "10.1109/42.563663",
+            "key": "ref17",
+            "score": 110.57644,
+            "unstructured": "Statistical approach to segmentation of single-channel cerebral MR images+Medical Imaging+176+2+186+1997+C. Jagath+Jay N. Rajapakse+and Judith L. Giedd+Rapoport"
+          },
+          {
+            "doi": "10.1109/icbbe.2007.179",
+            "key": "ref18",
+            "score": 78.32611,
+            "unstructured": "A brain MR images segmentation method based on SOM neural network+ICBBE+2007+686+689+Dan Tian+Linan Fan"
+          },
+          {
+            "doi": "10.1109/42.906424",
+            "key": "ref19",
+            "score": 89.894844,
+            "unstructured": "Segmentation of brain MR images through a hidden Markov random eld model and the expectationmaximization algorithm+Medical Imaging+45+1+57+2001+Zhang Yongyue+Stephen Smith"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

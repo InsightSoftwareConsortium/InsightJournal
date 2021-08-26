@@ -51,6 +51,23 @@
     "revisions": [
       {
         "article": "bafybeiag2btmzzd6lm3yxp7jmfnnzcknsgfwd2ndkxgnji3yhmzqibu33u",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 45.606903,
+            "unstructured": "The ITK Software Guide: The Insight Segmentation and Registration Toolkit. Kitware+2003+L. Ibanez+W. Schroeder"
+          },
+          {
+            "key": "ref2",
+            "score": 31.797363,
+            "unstructured": " [ incr Tcl]. http://incrtcl.sourceforge.net/itcl/. 2"
+          },
+          {
+            "key": "ref3",
+            "score": 24.04576,
+            "unstructured": "[3] The Data Tree Manager Manual+1+4"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

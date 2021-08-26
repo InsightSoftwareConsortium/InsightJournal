@@ -46,6 +46,49 @@
     "revisions": [
       {
         "article": "bafybeigibklp6gipp72esf54766f3yrucgiopbpid3bwo7id2hmes4hnje",
+        "citation_list": [
+          {
+            "doi": "10.1109/iai.2004.1300971",
+            "key": "ref1",
+            "score": 106.70962,
+            "unstructured": "Snake-based liver lesion segmentation+In Southwest Symposium on Image Analysis and Interpretation+187+191+2004+C. Krishnamurthy+J.J. Rodriguez+R.J. Gillies"
+          },
+          {
+            "key": "ref2",
+            "score": 51.156143,
+            "unstructured": "Robust segmentation of pulmonary nodules of various densities: from ground-glass opacities to solid nodules+submitted. 1+T. Kubota"
+          },
+          {
+            "doi": "10.1007/11569541_33",
+            "key": "ref3",
+            "score": 122.29241,
+            "unstructured": "Estimating diameters of pulmonary nodules with competition-diffusion and robust ellipsoid fit+In Computer Vision for Biomedical Image Applications+4+334+2005+3+T. Kubota+K. Okada"
+          },
+          {
+            "doi": "10.1109/icpr.2006.93",
+            "key": "ref4",
+            "score": 106.33254,
+            "unstructured": "A machine learning approach for locating boundaries of liver tumors in ct images+In International Conference on Pattern Recognition+400+403+2006+Y.Z. Li+S. Hara+K. Shimura."
+          },
+          {
+            "doi": "10.1109/iembs.2005.1617181",
+            "key": "ref5",
+            "score": 120.56324,
+            "unstructured": "Liver tumor volume estimation by semi-automatic segmentation method+In 27th Annual International Conference of the Engineering in Medicine and Biology Society+3296+3299+2005+R. Lu+P. Marziliano+C. H. Thng"
+          },
+          {
+            "doi": "10.1109/tpami.2005.84",
+            "key": "ref6",
+            "score": 117.002625,
+            "unstructured": "Salient closed boundary extraction with ratio contour+IEEE Trans. Pattern Analysis and Machine Intelligence+3+4+2+561+April 2005+S. Wang+T. Kubota+J.M. Siskind+J. Wang"
+          },
+          {
+            "doi": "10.1109/cbms.2003.1212810",
+            "key": "ref7",
+            "score": 138.53358,
+            "unstructured": "Volumetry of hepatic metastases in computed tomography using the watershed and active contour algorithms+In 16th IEEE Symposium on Computer-Based Medical Systems+329+335+2003+J. Peter+David J. Yim+Foran"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

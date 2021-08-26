@@ -51,6 +51,88 @@
     "revisions": [
       {
         "article": "bafybeid6p7hdmteiunc3tzu73awxjgl4kysux7uuky4fo2qp5a3vw4bjla",
+        "citation_list": [
+          {
+            "doi": "10.1007/10704282_64",
+            "key": "ref1",
+            "score": 71.10675,
+            "unstructured": "Fast non-rigid matching by gradient descent : study and improvements of the \u201ddemons\u201d algorithm+Technical Report 3706+1999+1+P. Cachier+X. Pennec+N. Ayache"
+          },
+          {
+            "doi": "10.1007/978-3-540-30135-6_103",
+            "key": "ref2",
+            "score": 121.175995,
+            "unstructured": "Improved non-rigid registration of prostate mri+France. 3.2+3216+845+852+2004+A. du Bois d'Aische+S. M. De Craene+N. Haker+C. Weisenfeld+B. Tempany+S. K. Macq+Warfield"
+          },
+          {
+            "doi": "10.1016/s1361-8415(02)00060-9",
+            "key": "ref3",
+            "score": 81.95941,
+            "unstructured": "Serial Registration of Intraoperative MR Images of the Brain+Med Image Anal+3+4+2+359+2002+Matthieu Ferrant+Peter McL+Ron Jolesz+Kikinis+K. Simon+Warfield"
+          },
+          {
+            "doi": "10.1109/42.974933",
+            "key": "ref4",
+            "score": 121.66996,
+            "unstructured": "Registration of 3D Intraoperative MR Images of the Brain Using a Finite Element Biomechanical Model+IEEE Trans Med Imag+3+1+1397+Dec 2001+4+Matthieu Ferrant+Ron Jolesz+Kikinis+K. Simon+Warfield"
+          },
+          {
+            "key": "ref5",
+            "score": 57.055298,
+            "unstructured": "A variational approach to multimodal image matching+Technical report+Feb 2001+1+2+2+Gerardo Hermosillo+and Olivier Faugeras"
+          },
+          {
+            "key": "ref6",
+            "score": 24.844444,
+            "unstructured": "second edition+2005+2+3+L. Ibanez+W. Schroeder+L. Ng+J. Cates"
+          },
+          {
+            "doi": "10.1109/42.563664",
+            "key": "ref7",
+            "score": 93.26821,
+            "unstructured": "Multimodality image registration by maximization of mutual information+IEEE Transactions on Medical Imaging+16+1997+F. Maes+A. Collignon"
+          },
+          {
+            "doi": "10.1016/s1361-8415(01)80026-8",
+            "key": "ref8",
+            "score": 89.52604,
+            "unstructured": "A survey of medical image registration+Medical Image Analysis+2+1+1+36+1998+J. B. A. Maintz+M. A. Viergever"
+          },
+          {
+            "doi": "10.1109/tmi.2003.809072",
+            "key": "ref9",
+            "score": 137.62915,
+            "unstructured": "Pet-ct image registration in the chest using free-form deformations+IEEE Transaction on Medical Imaging+2+3+2+128+January 2003+D. Mattes+D.R. Haynor+H. Vesselle+T.K. Lewellen+W. Eubank"
+          },
+          {
+            "key": "ref10",
+            "score": 51.62962,
+            "unstructured": "A crystalline, red green strategy for meshing highly deformable objects with tetrahedra+In 12th International Meshing Roundtable+1+114+2003+3+4+N. Molino+R. Bridson+J. Teran+R. Fedkiw"
+          },
+          {
+            "key": "ref11",
+            "score": 38.162926,
+            "unstructured": "Overview of the simultaneous perturbation method for efficient optimization+Hopkins APL Technical Digest+19+482+492+1998+J. C. Spall"
+          },
+          {
+            "doi": "10.1109/42.845174",
+            "key": "ref12",
+            "score": 89.97256,
+            "unstructured": "Parametric estimate of inten- sity inhomogeneities applied to mri+IEEE Transactions On Medical Imaging+19+153+165+2000+M. Styner+C. Brechbuehler+G. Szekely"
+          },
+          {
+            "doi": "10.1109/83.887976",
+            "key": "ref13",
+            "score": 103.11325,
+            "unstructured": "Optimization of mutual information for multiresolution image registration+Image Processing+2+12+2+2099+Dec 2000+P. Thevenaz+M. Unser"
+          },
+          {
+            "doi": "10.1016/s1361-8415(98)80022-4",
+            "key": "ref14",
+            "score": 81.31896,
+            "unstructured": "Image matching as a diffusion process: An analogy with maxwell's demons+Med+2+3+243+260+1998+J.-P. Thirion"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

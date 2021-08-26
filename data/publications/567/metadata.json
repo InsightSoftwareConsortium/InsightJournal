@@ -94,6 +94,110 @@
     "revisions": [
       {
         "article": "bafybeie42tunz6vet5nlesrzrxfxi2xzgtmiuw3pnospkhf63egllulraa",
+        "citation_list": [
+          {
+            "doi": "10.1016/s0045-7825(96)01078-x",
+            "key": "ref1",
+            "score": 78.5398,
+            "unstructured": "1996+\"+Computer Methods in Applied Mechanics and Engineering+139+3+47+T. Belytschko+Y. Krongauz+Recent Developments"
+          },
+          {
+            "doi": "10.1007/s002340050816",
+            "key": "ref2",
+            "score": 103.58015,
+            "unstructured": "1999+\"Accuracy of MRI-guided stereotactic thalamic functional neurosurgery.\" NEURORADIOLOGY 41(9+636+645+G. Bourgeois+M. Magnin"
+          },
+          {
+            "key": "ref3",
+            "score": 36.60509,
+            "unstructured": "2004+Brain Tumour Growth Simulation+O. Clatz+P. Bondiau"
+          },
+          {
+            "doi": "10.1115/1.3167594",
+            "key": "ref4",
+            "score": 115.872505,
+            "unstructured": "1984+\"Eigenvalues and Stable Times Steps for the Uniform Strain Hexahedron and Quadrilateral.\"+Journal of Applied Mechanics+51+35+40+D. P. Flanagan+Belytschko"
+          },
+          {
+            "key": "ref5",
+            "score": 42.856487,
+            "unstructured": "2003+Classification and Overview of Meshfree Methods+Informatikbericht+03+T. P. and H. G. Fries+Matthies"
+          },
+          {
+            "key": "ref6",
+            "score": 30.687008,
+            "unstructured": "2006+LS-DYNA Theory Manual+J. O. Hallquist"
+          },
+          {
+            "key": "ref7",
+            "score": 28.588413,
+            "unstructured": "2006+Mesh Free Methods For Soft Tissue Deformation\u201d+Horton"
+          },
+          {
+            "key": "ref8",
+            "score": 28.590548,
+            "unstructured": "2007+Mesh Free Methods For Soft Tissue Deformation II\u201d+Horton"
+          },
+          {
+            "doi": "10.1007/978-3-540-75757-3_66",
+            "key": "ref9",
+            "score": 92.076164,
+            "unstructured": "2007+Subject-specific biomechanical simulation of brain indentation using a meshless method+MICCAI+Horton+Wittek"
+          },
+          {
+            "doi": "10.1002/cnm.1034",
+            "key": "ref10",
+            "score": 118.42465,
+            "unstructured": "2007+\"An efficient hourglass control implementation for the uniform strain hexahedron using the Total Lagrangian formulation.\" Communications in Numerical Methods in Engineering+G. R. Joldes+A. Wittek"
+          },
+          {
+            "key": "ref11",
+            "score": 40.143524,
+            "unstructured": "Meshfree Particle Methods+2004+S. Li+W. K. Liu"
+          },
+          {
+            "doi": "10.1016/s0021-9290(00)00120-2",
+            "key": "ref12",
+            "score": 99.12314,
+            "unstructured": "2000+\"Mechanical properties of brain tissue in-vivo: experiment and computer simulation+\" Journal of Biomechanics+33+11+1369+1376+K. Miller+K. Chinzei"
+          },
+          {
+            "doi": "10.1002/cnm.887",
+            "key": "ref13",
+            "score": 116.99256,
+            "unstructured": "2007+\"Total Lagrangian Explicit Dynamics Finite Element Algorithm for Computing Soft Tissue Deformation.\"+Communications in Numerical Methods in Engineering+23+121+134+K. Miller+G. Joldes"
+          },
+          {
+            "doi": "10.1142/s0219519405001254",
+            "key": "ref14",
+            "score": 82.33367,
+            "unstructured": "2005+\"Towards Computing Brain Deformations for Diagnosis, Prognosis, and+\" Journal of mechanics in medicine and biology 5+1+105+K. Miller+Z. Taylor+Neurosurgical Simulation"
+          },
+          {
+            "doi": "10.1212/wnl.42.3.481",
+            "key": "ref15",
+            "score": 74.69043,
+            "unstructured": "1992+\"Spontaneous intracranial hypotension \"+Neurology+42+481+T. A. Rando+R. Fishman"
+          },
+          {
+            "doi": "10.1016/j.seizure.2007.04.009",
+            "key": "ref16",
+            "score": 109.91819,
+            "unstructured": "2007+\"Correlation of MRI and histopathology in epileptogenic parietal and occipital lobe lesions+\" Seizure+16+1+608+614+H. Urbach+D. Binder"
+          },
+          {
+            "doi": "10.1080/10255840701688095",
+            "key": "ref17",
+            "score": 115.34247,
+            "unstructured": "2008+\u201cSubject-specific non-linear biomechanical model of needle insertion into brain+Computer Methods in Biomechanics and Biomedical Engineering+11+135+146+A. Wittek+T. Dutta-Roy"
+          },
+          {
+            "doi": "10.1016/j.jbiomech.2006.02.021",
+            "key": "ref18",
+            "score": 96.519325,
+            "unstructured": "2006+\"Patient-specific model of brain deformation: Application to medical image registration+\" Journal of Biomechanics+40+919+929+A. Wittek+K. Miller"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

@@ -47,6 +47,94 @@
     "revisions": [
       {
         "article": "bafybeibo57bjuvdi5cvmadoixua5rfkqsgxt63ex5slggeucnycbqwztsq",
+        "citation_list": [
+          {
+            "doi": "10.1109/icip.2005.1530283",
+            "key": "ref1",
+            "score": 102.40666,
+            "unstructured": "Morphons: segmentation using elastic canvas and paint on priors,\u201d+II-1226-9.+2005+2+H. Knutsson+M. Andersson"
+          },
+          {
+            "doi": "10.1109/titb.2010.2090889",
+            "key": "ref2",
+            "score": 132.35533,
+            "unstructured": "Phase-Based Level Set Segmentation of Ultrasound Images,\u201d+IEEE Transactions on Information Technology in Biomedicine+15+1+138+147+2011+A. Belaid+D. Boukerroui+Y. Maingourd+J.-F. Lerallut"
+          },
+          {
+            "doi": "10.1016/j.patrec.2009.09.020",
+            "key": "ref3",
+            "score": 134.01224,
+            "unstructured": "Blood vessel segmentation using multiscale quadrature filtering,\u201d Pattern Recognition Letters+31+8+762+767+2010+G. L\u00e4th\u00e9n+J. Jonasson+M. Borga"
+          },
+          {
+            "key": "ref4",
+            "score": 42.511536,
+            "unstructured": "Signal Processing for Computer Vision+1994+H. Knutsson"
+          },
+          {
+            "doi": "10.1258/ar.2011.100511",
+            "key": "ref5",
+            "score": 119.46362,
+            "unstructured": "The efficacy of 2D, nonlinear noise reduction filtering in cardiac imaging: a pilot study+\u201d Acta Radiol+52+7+716+722+2011+M. J. De Geer+Sandborg+A. Persson"
+          },
+          {
+            "doi": "10.1259/bjr/31197714",
+            "key": "ref6",
+            "score": 107.41375,
+            "unstructured": "Quantifying the potential for dose reduction with visual grading regression+2013+\u00d6. Smedby+M. Fredrikson+L. J. De Geer+M. Borgen+Sandborg"
+          },
+          {
+            "doi": "10.1155/2011/952819",
+            "key": "ref7",
+            "score": 89.0809,
+            "unstructured": "True 4D image denoising on the GPU,\u201d+Journal of Biomedical Imaging+2011+8+A. Eklund+M. Andersson+H. Knutsson"
+          },
+          {
+            "doi": "10.1109/cvpr.2000.855835",
+            "key": "ref8",
+            "score": 99.05039,
+            "unstructured": "Statistical shape influence in geodesic active contours,\u201d in Computer Vision+2002+1+316+323+M. E. Leventon+O. Grimson+Faugeras"
+          },
+          {
+            "doi": "10.1117/12.876704",
+            "key": "ref9",
+            "score": 100.25476,
+            "unstructured": "Level-set based vessel segmentation accelerated with periodic monotonic speed function+in Proceedings of the SPIE Medical Imaging Conference+2011+79621M+79621M+C. Wang+H. Frimmel"
+          },
+          {
+            "doi": "10.1118/1.4881315",
+            "key": "ref10",
+            "score": 108.58549,
+            "unstructured": "Fast Level-set Based Image Segmentation Using Coherent Propagation,\u201d Med+41+7+073501+2014+C. Wang+H. Frimmel"
+          },
+          {
+            "key": "ref11",
+            "score": 37.92176,
+            "unstructured": "Fully automatic brain segmentation using modelguided level sets and skeleton-based models,\u201d+The MIDAS Journal+2013+C. Wang"
+          },
+          {
+            "doi": "10.1109/icpr.2014.574",
+            "key": "ref12",
+            "score": 114.867744,
+            "unstructured": "Automatic multi-organ segmentation in non-enhanced CT datasets using Hierarchical Shape Priors+in Proceedings of the 22th International Conference on Pattern Recognition (ICPR)+2014+C. Wang"
+          },
+          {
+            "doi": "10.1258/ar.2012.120053",
+            "key": "ref13",
+            "score": 146.9973,
+            "unstructured": "Can segmented 3D images be used for stenosis evaluation in coronary CT angiography?+\u201d Acta Radiol+53+8+845+851+2012+C. Wang+A. Persson+J. Engvall+W. J. De Geer+A. Czekierda+Bj\u00f6rkholm"
+          },
+          {
+            "key": "ref14",
+            "score": 35.735504,
+            "unstructured": " \u201chttp://www.creatis.insa-lyon.fr/Challenge/CETUS/evaluation.html.\u201d ."
+          },
+          {
+            "key": "ref15",
+            "score": 48.555412,
+            "unstructured": "Vessel segmentation using implicit model-guided level sets,\u201d in the 3D Cardiovascular Imaging: a MICCAI segmentation challenge workshop+2012+C. Wang+R. Moreno"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

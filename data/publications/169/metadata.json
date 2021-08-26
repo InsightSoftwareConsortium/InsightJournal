@@ -46,6 +46,67 @@
     "revisions": [
       {
         "article": "bafybeigaleig5vajenfkv6gsuwbe7taso6ed3ttbbgdfi7le2ur2uobsr4",
+        "citation_list": [
+          {
+            "doi": "10.1002/1522-2594(200010)44:4<625::aid-mrm17>3.0.co;2-o",
+            "key": "ref1",
+            "score": 112.988556,
+            "unstructured": "In vivo fiber tractography using dt-mri data+Magn Reson Med+44+625+632+2000+PJ Basser+S. Pajevic"
+          },
+          {
+            "doi": "10.1002/mrm.10609",
+            "key": "ref2",
+            "score": 125.501945,
+            "unstructured": "Characterization and propagation of uncertainty in diffusionweighted mr imaging+Magnetic Resonance in Medicine+50+1077+1088+2003+T.E.J Behrens+M.W. Woolrich+M. Jenkinson+H. Johansen-Berg+R. G. Nunes+S. Clare+P.M. Matthews+J.+S.M. Smith."
+          },
+          {
+            "doi": "10.1007/3-540-45786-0_54",
+            "key": "ref3",
+            "score": 139.63019,
+            "unstructured": "Regularized stochastic white matter tractography using diffusion tensor MRI+In Fifth International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI'02)+435+442+2002+M. Bjo+R. Kikinis+C.-F. Westin"
+          },
+          {
+            "key": "ref4",
+            "score": 35.065712,
+            "unstructured": "[4] Brigham and Women's Hospital. 3d slicer medical visualization and processing environment for research+org/. 1"
+          },
+          {
+            "doi": "10.1007/11566465_14",
+            "key": "ref5",
+            "score": 118.611275,
+            "unstructured": "Uncertainty in fiber tractography+In Eighth International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI'05), Lecture Notes in Computer Science+3749+1+114+October 2005+O. Friman+C.-F. Westin"
+          },
+          {
+            "doi": "10.1109/tmi.2006.877093",
+            "key": "ref6",
+            "score": 74.12194,
+            "unstructured": "A Bayesian approach for stochastic white matter tractography+TMI+1+8+2+978+2006+Ola Friman+Carl-Fredrik Westin"
+          },
+          {
+            "doi": "10.1002/mrm.20466",
+            "key": "ref7",
+            "score": 113.3226,
+            "unstructured": "Confidence mapping in diffusion tensor magnetic resonance imaging tractography using a bootstrap approach+5+1143+1149+2005+K. Derek+Carlo Jones+Pierpaoli"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2004.08.050",
+            "key": "ref8",
+            "score": 118.415054,
+            "unstructured": "Bootstrap white matter tractography (boot-trac)+NeuroImage+24+524+532+2005+M. Lazar+A. Alexander"
+          },
+          {
+            "doi": "10.1002/1531-8249(199902)45:2<265::aid-ana21>3.0.co;2-3",
+            "key": "ref9",
+            "score": 108.14368,
+            "unstructured": "Three dimensional tracking of axonal projections in the brain by magnetic resonance imaging+Ann Neurol+45+265+269+1999+S. Mori+B. Crain+V.P. Chacko"
+          },
+          {
+            "doi": "10.1002/mrm.10268",
+            "key": "ref10",
+            "score": 63.92543,
+            "unstructured": "Measuring cortico-cortical connectivity matrices with diffusion spectrum imaging+In Proc. of the International Society for Magnetic Resonance Medicine, page 502+2001+D.S. Tuch+M.R. Wiegell+T.G. Reese+J.W. Belliveau+V.J. Weeden+Glasgow"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

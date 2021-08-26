@@ -79,6 +79,36 @@
     "revisions": [
       {
         "article": "bafkreigh7wqjwik2o3j7rrzsxnvlvovuzgyusuiv3tdiy3rdsv36ynlxdy",
+        "citation_list": [
+          {
+            "doi": "10.1109/34.748822",
+            "key": "ref1",
+            "score": 132.66115,
+            "unstructured": "Borg: a knowledge-based system for automatic generation of image processing programs+IEEE Trans. Pattern Anal. Mach+21+2+128+144+1999+R. Clouard+A. Elmoataz+C. Porquet+M. Revenu"
+          },
+          {
+            "doi": "10.1016/s1053-8119(01)91441-7",
+            "key": "ref2",
+            "score": 142.76399,
+            "unstructured": "Brainvisa: software platform for visualization and analysis of multi-modality brain data+Neuroimage+13+6+S98+2001+Y. Cointepas+J.-F. Mangin+L. Garnero+H. J.-B. Poline+Benali"
+          },
+          {
+            "doi": "10.1016/s0169-2607(97)01807-5",
+            "key": "ref3",
+            "score": 88.12999,
+            "unstructured": "A novel tool for rapid prototyping and development of simple 3d medical image processing applications on pcs+Comput. Meth. Prog. Bio.+1+3+1997+2+A. Colin+J.-Y. Boire"
+          },
+          {
+            "key": "ref4",
+            "score": 47.970734,
+            "unstructured": "The ITK software guide: the Insight segmentation and registration toolkit (version 1.4). Kitware Inc+2003+L. Ibanez+W. Schroeder+L. Ng+J. Cates"
+          },
+          {
+            "key": "ref5",
+            "score": 40.974842,
+            "unstructured": "Programming applications for Microsoft Windows (4th edition)+1999+2+4+J. Richter"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

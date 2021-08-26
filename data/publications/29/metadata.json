@@ -84,6 +84,83 @@
     "revisions": [
       {
         "article": "bafkreig6ot3nietqpoenfj66nh7wd7deerp22vkh2pwabzp633npd2ke5e",
+        "citation_list": [
+          {
+            "doi": "10.1109/42.974933",
+            "key": "ref1",
+            "score": 145.1554,
+            "unstructured": "Registration of 3D intraoperative MR images of the brain using a finite element biomechanical model+IEEE TMI 20+2001+1384+1397+M. Ferrant+A. Nabavi+B.M. Macq+F.A. Jolesz+R. Kikinis+S.K. Warfield"
+          },
+          {
+            "doi": "10.1109/tmi.2005.856734",
+            "key": "ref2",
+            "score": 144.55656,
+            "unstructured": "Robust non-rigid registration to capture brain shift from intraoperative MRI. Accepted for publication in IEEE TMI (+2005+O. Clatz+H. Delingette+I.F. Talos+A.J. Golby+R. Kikinis+F.A. Jolesz+N. Ayache+S.K. Warfield"
+          },
+          {
+            "key": "ref3",
+            "score": 23.304338,
+            "unstructured": "Mesh generation+2005"
+          },
+          {
+            "key": "ref4",
+            "score": 23.306547,
+            "unstructured": "Mesh generation+2005"
+          },
+          {
+            "key": "ref5",
+            "score": 25.402077,
+            "unstructured": "Insight toolkit+2005"
+          },
+          {
+            "key": "ref6",
+            "score": 37.406887,
+            "unstructured": "Compact Representations for Fast Nonrigid Registration of Medical Images+PhD thesis+2003+S. Timoner"
+          },
+          {
+            "doi": "10.1145/276884.276894",
+            "key": "ref7",
+            "score": 88.22963,
+            "unstructured": "Tetrahedral mesh generation by Delaunay refinement+In: Proceedings of the 14th Symposium on Computational Geometry+1998+86+95+J.R. Shewchuk"
+          },
+          {
+            "key": "ref8",
+            "score": 44.458324,
+            "unstructured": "Ultrasound Image and 3D Finite Element based Tissue Deformation Simulator for Prostate Brachytherapy+MS thesis+2004+O. Goksel"
+          },
+          {
+            "key": "ref9",
+            "score": 51.607273,
+            "unstructured": "A crystalline, red green strategy for meshing highly deformable objects with tetrahedra+In: Proceedings of the 12th International Meshing Roundtable+2003+103+114+N. Molino+R. Bridson+J. Teran+R.: Fedkiw"
+          },
+          {
+            "key": "ref10",
+            "score": 40.00042,
+            "unstructured": "PETSc: Portable, extensible toolkit for scientific computation+mcs.anl+2005"
+          },
+          {
+            "key": "ref11",
+            "score": 51.796448,
+            "unstructured": "Fast robust predicates for computational geometry+2005+J.R. Shewchuk"
+          },
+          {
+            "key": "ref12",
+            "score": 7.628173,
+            "unstructured": "GHS3D+2005"
+          },
+          {
+            "doi": "10.1109/icme.2002.1035879",
+            "key": "ref13",
+            "score": 72.335266,
+            "unstructured": "ICME)+In: Proceedings of the IEEE International Conference on Multimedia and Expo+2002+705+708+N. Aspert+D. Santa-Cruz+T. Ebrahimi"
+          },
+          {
+            "doi": "10.1007/3-540-31619-1_7",
+            "key": "ref14",
+            "score": 84.18838,
+            "unstructured": "A survey of parallel mesh generation methods+in Numerical Solutions of Partial Differential Equations on Parallel Computers+2005+Chrisochoides+P. Bjorstad+A"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

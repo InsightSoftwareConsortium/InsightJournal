@@ -49,6 +49,65 @@
     "revisions": [
       {
         "article": "bafkreicssrsplctodjcarxlqnxsnzx6bar53db6ic5xycydmnkbj5cjcy4",
+        "citation_list": [
+          {
+            "doi": "10.1007/978-3-540-85988-8_107",
+            "key": "ref1",
+            "score": 98.2435,
+            "unstructured": "3D Segmentation in the Clinic: A Grand Challenge II - Coronary Artery Tracking. Medical Image Computing+2008+C. Metz+M. Schaap+A. van der Giessen Walsum+A. Weustink+N. Mollet+G. Krestin+W. Niessen+Computer-Assisted Intervention - MICCAI"
+          },
+          {
+            "doi": "10.1145/1031120.1031121",
+            "key": "ref2",
+            "score": 102.58592,
+            "unstructured": "A review of vessel extraction techniques and algorithms+ACM Comput. Surv. 36+81+121+2004+C. Kirbas+F. Quek"
+          },
+          {
+            "doi": "10.1109/83.217222",
+            "key": "ref3",
+            "score": 98.90598,
+            "unstructured": "Morphological grayscale reconstructions in image analysis: Applications and efficient algorithms+IEEE Transactions on Image Processing+2+2+176+201+1993+L. Vincent"
+          },
+          {
+            "key": "ref4",
+            "score": 38.004307,
+            "unstructured": "Image analysis and mathematical morphology+1988+J. Serra"
+          },
+          {
+            "doi": "10.1145/361237.361242",
+            "key": "ref5",
+            "score": 96.98492,
+            "unstructured": "Use of the Hough transformation to detect lines and curves in pictures+Comm. ACM+15+11+15+1972+R. O. Duda+P. E. Hart"
+          },
+          {
+            "doi": "10.1007/978-3-540-72907-5_43",
+            "key": "ref6",
+            "score": 178.99838,
+            "unstructured": "Extraction of the coronary artery tree in cardiac computer tomographic images using morphological operators+4th International Conference on Functional Imaging and Modelling of the Heart (FIMH 2007). Lecture Notes in Computer Science+4466+424+432+2007+M. A. Luengo-Oroz+M. J. Ledesma-Carbayo+J. J. G\u00f3mez-Diego+M. A. Garc\u00eda-Fern\u00e1ndez+M. Desco+A. Santos"
+          },
+          {
+            "doi": "10.1109/cic.1997.647950",
+            "key": "ref7",
+            "score": 101.13333,
+            "unstructured": "Detection of coronary artery tree using morphological operator+Computers in Cardiology+24+525+528+1997+S. Eiho+Y. Qian"
+          },
+          {
+            "doi": "10.1109/nssmic.2004.1466397",
+            "key": "ref8",
+            "score": 134.114,
+            "unstructured": "Single-seeded coronary artery tracking in CT angiography+IEEE Nuclear Symposium Conference Record+5+3308+3311+2004+G. Lavi+J. Lessick+P. C. Johnson+D. Khullar"
+          },
+          {
+            "key": "ref9",
+            "score": 54.23853,
+            "unstructured": "Minimal path algorithms for the robust detection of linear features in gray images+Proceedings of the International Symposium on Mathematical Morphology and its Applications to Image and Signal Processing+331+338+1998+L. Vincent"
+          },
+          {
+            "key": "ref10",
+            "score": 37.054962,
+            "unstructured": "Vessel enhancing diffusion filter+MICCAI Open Science Workshop+July 2007+A. Enquobahrie+L. Iba\u00f1ez+E. Bullitt+S. Aylward"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

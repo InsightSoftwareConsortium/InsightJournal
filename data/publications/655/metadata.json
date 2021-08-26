@@ -82,6 +82,95 @@
     "revisions": [
       {
         "article": "bafybeid5m3pexkpjpvkvux44c246mvhwl7bj4gjwtoq2hkewep4ltznyai",
+        "citation_list": [
+          {
+            "doi": "10.1109/tmi.2005.856751",
+            "key": "ref1",
+            "score": 147.67097,
+            "unstructured": "Alignment of sparse freehand 3-D ultrasound with preoperative images of the liver using models of respiratory motion and deformation+IEEE Trans. Medical Imaging+24+11+1405+1416+2005+J.M. Blackall+G.P. Penney+A.P. King+D.J. Hawkes"
+          },
+          {
+            "key": "ref2",
+            "score": 44.593796,
+            "unstructured": "An open-source solution for interactive acquisition, processing and transfer of interventional ultrasound images+net/10380/1459. 1+2008+2+2+J. Boisvert+D. Gobbi+S. Vikal+R. Rohling+P. Abolmaesumi"
+          },
+          {
+            "doi": "10.1117/2.1200609.0375",
+            "key": "ref3",
+            "score": 63.17861,
+            "unstructured": "An open source C++ software library+Signature Book Printing, 4.2 edition+2009+K. Cleary+Z Image-Guided Surgery Toolkit"
+          },
+          {
+            "doi": "10.1146/annurev.bioeng.2.1.457",
+            "key": "ref4",
+            "score": 82.13699,
+            "unstructured": "Three-dimensional ultrasound imaging+Ann. Rev. Biomed. Eng.+2+457+475+2000+A. Fenster+D.B. Downey"
+          },
+          {
+            "doi": "10.1007/10704282_100",
+            "key": "ref5",
+            "score": 136.24374,
+            "unstructured": "Ultrasound probe tracking for real-time ultrasound/MRI overlay and visualization of brain shift+In Medical Image Computing and Computer Assisted Interventions+1679+920+927+1999+D.G. Gobbi+R.M. Comeau+T.M. Peters"
+          },
+          {
+            "doi": "10.1007/3-540-45787-9_20",
+            "key": "ref6",
+            "score": 102.28187,
+            "unstructured": "Interactive intra-operative 3D ultrasound reconstruction and visualization+In Medical Image Computing and Computer Assisted Interventions+1+2+163+2002+6+D.G. Gobbi+T.M. Peters"
+          },
+          {
+            "key": "ref7",
+            "score": 18.668262,
+            "unstructured": "com. 2+Atamai Inc"
+          },
+          {
+            "doi": "10.1118/1.1879152",
+            "key": "ref8",
+            "score": 149.16762,
+            "unstructured": "Four-dimensional radiotherapy planning for DMLC-based respiratory motion tracking+Med. Phys.+32+4+942+951+2005+P.J. Keall+S. Joshi+S.S. Vedam+J.V. Siebers+V.R. Kini+R. Mohan"
+          },
+          {
+            "doi": "10.3109/10929080801951160",
+            "key": "ref9",
+            "score": 119.27029,
+            "unstructured": "Virtual reality-enhanced ultrasound guidance: A novel technique for intracardiac interventions+Comput. Aid. Surg.+13+82+94+2008+C.A. Linte+J. Moore+A.D. Wiles+C. Wedlake+T.M. Peters"
+          },
+          {
+            "doi": "10.1117/12.813705",
+            "key": "ref10",
+            "score": 127.678535,
+            "unstructured": "Validation of fourdimensional ultrasound for targeting in minimally-invasive beating-heart surgery+In SPIE Medical Imaging+2009+1+2+D.F. Pace+A.D. Wiles+J. Moore+C. Wedlake+D.G. Gobbi+T.M. Peters+Image-Guided Procedures+Modeling"
+          },
+          {
+            "key": "ref11",
+            "score": 58.144123,
+            "unstructured": "In IEEE. Int. Symp. on Biomedical Imaging+2004+S. Pieper+M. Halle+R. Kikinis"
+          },
+          {
+            "doi": "10.1109/visual.1996.567752",
+            "key": "ref12",
+            "score": 78.089,
+            "unstructured": "The Visualization Toolkit: An object-oriented approach to 3D graphics+Kitware Inc., 4th edition+2006+W. Schroeder+K. Martin+and B. Lorensen"
+          },
+          {
+            "doi": "10.1016/j.ejcts.2007.06.026",
+            "key": "ref13",
+            "score": 146.20102,
+            "unstructured": "Robotic-assisted closure of atrial septal defect under real-time three-dimensional echo guide: in vitro study+Eur. J. Cardiothoracic Surg.+32+4+573+576+2007+Y. Suematsu+B. Kiaii+D.T. Bainbridge+P.J. del Nido,+R.J. Novick"
+          },
+          {
+            "doi": "10.1002/rcs.274",
+            "key": "ref14",
+            "score": 156.06288,
+            "unstructured": "OpenIGTLink: An open network protocol for image-guided therapy environment+Int. J. Med. Robot. Comput. Assist. Surg.+2009+1+3+J. Tokuda+G.S. Fischer+X. Papademetris+Z. Yaniv+L. Ibanez+J. Blevins+J. Arata+A. Golby+T. Kapur+S. Pieper+E.C. Burdette+C.M. Tempany+N. Hata"
+          },
+          {
+            "doi": "10.1109/isbi.2002.1029430",
+            "key": "ref15",
+            "score": 121.4644,
+            "unstructured": "Grey-scale gating for freehand 3D ultrasound+In IEEE. Int. Symp. on Biomedical Imaging+2002+G.M. Treece+R.W. Prager+A.H. Gee+C.J.C. Cash+L. Berman"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

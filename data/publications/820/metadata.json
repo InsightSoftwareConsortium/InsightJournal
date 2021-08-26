@@ -53,6 +53,24 @@
     "revisions": [
       {
         "article": "bafybeietqrp4i3utuhw54lis43ltpzftoszq4q5jjmvomfchtktdl4cyoe",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 27.34664,
+            "unstructured": "3+3D Research+10+2+13+2011+1+Dorit Borrmann"
+          },
+          {
+            "doi": "10.1145/361237.361242",
+            "key": "ref2",
+            "score": 67.43934,
+            "unstructured": "Use of the Hough Transformation to Detect Lines and Curves in Pictures+Technical Note 36+1971+R. O. Duda+P. E. Hart+Intelligence Center Artificial"
+          },
+          {
+            "key": "ref3",
+            "score": 27.450855,
+            "unstructured": "Method and Means for Recognizing Complex Patterns+US Patent 3069654+December 1962+2+V. C. Paul+Hough"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

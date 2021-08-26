@@ -37,6 +37,50 @@
     "revisions": [
       {
         "article": "bafybeiewj26busn5nri4q3lnmtpfyzrduhovcamxjh2zdqw2pnkieccodm",
+        "citation_list": [
+          {
+            "doi": "10.1109/34.277589",
+            "key": "ref1",
+            "score": 82.374405,
+            "unstructured": "1994+Modeling, Analysis, and Visualization of Left Ventricle Shape and Motion by Hierarchical Decomposition+16+4+342+356+C. Chen+T. Huang+M. Arrot"
+          },
+          {
+            "doi": "10.1109/34.368194",
+            "key": "ref2",
+            "score": 103.421196,
+            "unstructured": "1995+Dynamic Programming for Detecting, Tracking, and Matching Deformable Contours+17+3+294+302+D. Geiger+A. Gupta+L. Costa+J. Vlontzos"
+          },
+          {
+            "doi": "10.1109/34.566812",
+            "key": "ref3",
+            "score": 79.35901,
+            "unstructured": "1997+19+1+63+68+S. Gunn+M. Nixon+A Robust Snake Implementation: A Dual Active+Contour"
+          },
+          {
+            "doi": "10.1109/tec.1961.5219197",
+            "key": "ref4",
+            "score": 93.28037,
+            "unstructured": "1961+On the encoding of arbitrary geometric configurations+IRE Trans. Electronic Computers EC-10+260+268+H. Freeman"
+          },
+          {
+            "doi": "10.1147/sj.41.0025",
+            "key": "ref5",
+            "score": 86.44828,
+            "unstructured": "1965+Algorithm for Computer Control of a Digital Plotter+IBM Systems Journal+4+1+25+30+J. Bresenham"
+          },
+          {
+            "doi": "10.1142/s0219467801000347",
+            "key": "ref6",
+            "score": 111.14032,
+            "unstructured": "2001+Active Fourier Contour Applied to Real Time 3D Ultrasound of the Heart+International Journal of Image and Graphics+1+4+647+658+G. Stetten+R. Drezek"
+          },
+          {
+            "doi": "10.1145/362588.362594",
+            "key": "ref7",
+            "score": 89.49425,
+            "unstructured": "1971+On the optimal detection of curves in noisy pictures+Communications of the ACM+14+5+335+345+U. Montanari"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

@@ -37,6 +37,24 @@
     "revisions": [
       {
         "article": "bafkreiewi55bgyt266r4ndmpphibws6bbfumzfaqxmdsyeqmvpkagph3ve",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 25.99429,
+            "unstructured": "The ITK Software Guide+2003+L. Ibanez+W. Schroeder"
+          },
+          {
+            "key": "ref2",
+            "score": 17.66867,
+            "unstructured": "Kitware"
+          },
+          {
+            "doi": "10.1016/b978-012387582-2/50003-4",
+            "key": "ref3",
+            "score": 78.10276,
+            "unstructured": "The Visualization Toolkit, An Object Oriented Approach to 3D Graphics. Kitware Inc+1998+W. Schroeder+K. Martin+and B. Lorensen"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

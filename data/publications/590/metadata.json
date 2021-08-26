@@ -91,6 +91,64 @@
     "revisions": [
       {
         "article": "bafybeihkeq6ydhpvdn27ransyzhvgj4tbiirscse4wqxkh7kdof4ca6v6i",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 35.071377,
+            "unstructured": "Computerized tomography in the quantitative assessment of tumour response+Br. J. Cancer Suppl., 4+30+34+1980+J.M. Quivey+J.R. Castro+G.T. Chen+A. Moss+W.M.: Marks"
+          },
+          {
+            "doi": "10.1097/00004424-199902000-00007",
+            "key": "ref2",
+            "score": 119.99854,
+            "unstructured": "Usability of semiautomatic segmentation algorithm for tumor volume determination+Invest. Radiol+34+143+150+1999+A. Mahr+S Levegr\u00fcn+M.L. Kress+J. Zuna+J. Schlegel+W."
+          },
+          {
+            "doi": "10.1109/cbms.2003.1212810",
+            "key": "ref3",
+            "score": 138.5722,
+            "unstructured": "Volumetry of hepatic metastases in computed tomography using the watershed and active contour algorithms+In: Proceedings of the 16th IEEE Symposium on Computer-based Medical Systems+329+335+2003+P.J. Yim+D.J.: Foran"
+          },
+          {
+            "doi": "10.1109/iembs.2005.1617181",
+            "key": "ref4",
+            "score": 124.63804,
+            "unstructured": "Liver tumor volume estimation by semi-automatic segmentation method+In: Proceedings of the 27th Annual Conference of IEEE Engineering in Medicine and Biology+3296+3299+2005+R. Lu+P. Marziliano+C.H. Thng"
+          },
+          {
+            "key": "ref5",
+            "score": 31.121328,
+            "unstructured": "LNCS+3656+922+929+2005+K.S. Seo+M. Campilho+A"
+          },
+          {
+            "key": "ref6",
+            "score": 27.414452,
+            "unstructured": "6. 3D Segmentation in the Clinic:+II Challenge"
+          },
+          {
+            "doi": "10.1017/cbo9780511801389",
+            "key": "ref7",
+            "score": 102.57309,
+            "unstructured": "An Introduction to Support Vector Machines and Other Kernel-based Learning Methods+2000+N. Cristianini+Shawe-Taylor"
+          },
+          {
+            "doi": "10.7551/mitpress/4175.001.0001",
+            "key": "ref8",
+            "score": 97.63548,
+            "unstructured": "Learning with Kernels Support Vector Machines: Regularization, Optimization and Beyond+2002+B. Sch\u00f6lkopf+A.J. Smola"
+          },
+          {
+            "key": "ref9",
+            "score": 53.34105,
+            "unstructured": "LNCS+2001+2208+516+523+M. Gerig+M.V.: Chakos+W.J. Viergever+M.A. (Eds.) MICCAI"
+          },
+          {
+            "doi": "10.1109/iembs.2007.4353525",
+            "key": "ref10",
+            "score": 136.48009,
+            "unstructured": "Graph cut liver segmentation for interstitial ultrasound therapy+In: Proceedings of the 29th Annual Conference of IEEE Engineering in Medicine and Biology+5247+5250+2007+S. Esneault+N. Hraiech+Delabrousse+J.L. Dillenseger"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

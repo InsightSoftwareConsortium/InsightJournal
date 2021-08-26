@@ -46,6 +46,54 @@
     "revisions": [
       {
         "article": "bafybeie7rurjmvlkh6mwkey2yxu2iekqr2l5xr46p3e4vutxfq5ixsznau",
+        "citation_list": [
+          {
+            "doi": "10.1109/42.906424",
+            "key": "ref1",
+            "score": 131.99416,
+            "unstructured": "Segmentation of brain MR images through a hidden Markov random field model and the expectation-maximization algorithm,\u201d Medical Imaging, IEEE Transactions on+20+1+45+57+2001+Y. Zhang+M. Brady+S. Smith"
+          },
+          {
+            "doi": "10.1016/s0896-6273(02)00569-x",
+            "key": "ref2",
+            "score": 146.5813,
+            "unstructured": "Whole brain segmentation: automated labeling of neuroanatomical structures in the human brain,\u201d Neuron+33+3+341+355+2002+B. Fischl+D. H. Salat+M. Albert+M. Dieterich+C. Haselgrove+A. van der Kouwe+R. Killiany+D. Kennedy+S. Klaveness"
+          },
+          {
+            "doi": "10.1002/hbm.10062",
+            "key": "ref3",
+            "score": 86.596725,
+            "unstructured": "Fast robust automated brain extraction,\u201d Human Brain Mapping+17+3+143+155+2002+S. M. Smith"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2010.03.012",
+            "key": "ref4",
+            "score": 148.64894,
+            "unstructured": "Accuracy and reproducibility study of automatic MRI brain tissue segmentation methods,\u201d NeuroImage+51+3+1047+1056+2010+H. A. Vrooman+M. A. Ikram+M. W. Vernooij+A. van der Lugt M. M. B. Breteler+W. J. Niessen"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2011.02.046",
+            "key": "ref5",
+            "score": 121.83446,
+            "unstructured": "A Bayesian model of shape and appearance for subcortical brain segmentation,\u201d NeuroImage+56+3+907+922+2011+B. Patenaude+S. M. Smith+D. N. Kennedy+M. Jenkinson"
+          },
+          {
+            "doi": "10.1109/cvpr.2000.855835",
+            "key": "ref6",
+            "score": 99.05084,
+            "unstructured": "Statistical shape influence in geodesic active contours,\u201d in Computer Vision+2002+1+316+323+M. E. Leventon+O. Grimson+Faugeras"
+          },
+          {
+            "key": "ref7",
+            "score": 39.69798,
+            "unstructured": "a MICCAI segmentation Challenge\"+MICCAI Workshop \"+2012+C. Wang+R."
+          },
+          {
+            "key": "ref8",
+            "score": 21.164925,
+            "unstructured": " http://mrbrainsisi.uu.nl/"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

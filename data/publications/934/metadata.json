@@ -38,6 +38,62 @@
     "revisions": [
       {
         "article": "bafybeict3yyvf6cenlcdattszyemsm6z5rdrnpxrmdgsgjthf3oatjykm4",
+        "citation_list": [
+          {
+            "doi": "10.1115/1.3662552",
+            "key": "ref1",
+            "score": 60.993572,
+            "unstructured": "A new approach to linear ltering and prediction problems+Journal of Fluids Engineering+35+1+1960+45+R.: Kalman"
+          },
+          {
+            "doi": "10.1109/42.996341",
+            "key": "ref2",
+            "score": 133.71188,
+            "unstructured": "A shapespace-based approach to tracking myocardial borders and quantifying regional leftventricular function applied in echocardiography+IEEE transactions on medical imaging 21(3) (March+2002+226+38+G. Jacob+J.A. Noble+C. Behrenbruch+A.D. Kelion+A.P.: Banning"
+          },
+          {
+            "doi": "10.1109/mmbia.2012.6164741",
+            "key": "ref3",
+            "score": 67.97897,
+            "unstructured": "A Framework for Real-Time Left Ventricular Tracking in 3D+T Echocardiography , Using Nonlinear Deformable Contours and Kalman Filter Based Tracking+Computers in Cardiology+125+2006+128+F. Orderud"
+          },
+          {
+            "doi": "10.1007/978-3-540-75757-3_104",
+            "key": "ref4",
+            "score": 146.3623,
+            "unstructured": "Real-time tracking of the left ventricle in 3D echocardiography using a state estimation approach. Medical Image Computing and Computer-Assisted Intervention (MICCAI) 10(Pt 1)+January 2007+858+865+F. Orderud+rd Hansga+S.I. Rabben"
+          },
+          {
+            "doi": "10.1109/cvpr.2008.4587442",
+            "key": "ref5",
+            "score": 107.77412,
+            "unstructured": "Real-time 3D segmentation of the left ventricle using deformable subdivision surfaces+June 2008+1+8+F. Orderud+S.I. Rabben"
+          },
+          {
+            "doi": "10.1145/258734.258849",
+            "key": "ref6",
+            "score": 111.030136,
+            "unstructured": "Surface simpli cation using quadric error metrics+In: Proceedings of the 24th annual conference on Computer graphics and interactive techniques+1997+209+216+M. Garland+P.S. Heckbert"
+          },
+          {
+            "doi": "10.1145/1073204.1073229",
+            "key": "ref7",
+            "score": 114.67764,
+            "unstructured": "Mean Value Coordinates for Closed Triangular Meshes+ACM Transactions on Graphics+561+3+2005+566+T. Ju+S. Schaefer+Warren"
+          },
+          {
+            "doi": "10.1016/s0301-5629(99)00122-2",
+            "key": "ref8",
+            "score": 127.36283,
+            "unstructured": "Semiautomatic contour detection in ultrasound M-mode images+Ultrasound in medicine and biology 26(2)+2000+287+296+S. Rabben+A. Torp+ylen St+K. Haugen+O. Angelsen+B."
+          },
+          {
+            "doi": "10.1109/icip.2001.958278",
+            "key": "ref9",
+            "score": 79.2063,
+            "unstructured": "E cient feature extraction for 2D/3D objects in mesh representation+In: Image Processing+2001+935+938+C. Zhang+Chen"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

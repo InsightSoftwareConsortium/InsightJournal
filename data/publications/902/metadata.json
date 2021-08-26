@@ -52,6 +52,68 @@
     "revisions": [
       {
         "article": "bafybeieqf4sghgbc5htixrmve7bauam4zmebim7a4r4bnq2m5nsfveqwzq",
+        "citation_list": [
+          {
+            "doi": "10.1109/42.906424",
+            "key": "ref1",
+            "score": 89.897675,
+            "unstructured": "Segmentation of brain mr images through a hidden markov random eld model and the expectationmaximization algorithm+Medical Imaging+45+1+57+2001+Yongyue Zhang+Stephen Smith"
+          },
+          {
+            "doi": "10.1007/978-3-540-40899-4_28",
+            "key": "ref2",
+            "score": 119.13022,
+            "unstructured": "Interactive organ segmentation using graph cuts+In Medical Image Computing and Computer-Assisted Intervention{MICCAI+2000+286+Yuri Boykov+Marie-Pierre Jolly"
+          },
+          {
+            "doi": "10.1007/978-3-540-85988-8_9",
+            "key": "ref3",
+            "score": 134.48827,
+            "unstructured": "A discriminative model-constrained graph cuts approach to fully automated pediatric brain tumor segmentation in 3-d mri+In Medical Image Computing and Computer-Assisted Intervention{MICCAI+2008+75+Michael Wels+Dorin Comaniciu"
+          },
+          {
+            "doi": "10.1007/11866763_102",
+            "key": "ref4",
+            "score": 98.676384,
+            "unstructured": "Integrated graph cuts for brain mri segmentation+In Medical Image Computing and ComputerAssisted Intervention{MICCAI+2006+838+Zhuang Song+Brian Avants"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2006.07.046",
+            "key": "ref5",
+            "score": 120.63344,
+            "unstructured": "Automatic segmentation of left and right cerebral hemispheres from mri brain volumes using the graph cuts algorithm+NeuroImage+34+3+1160+2007+Lichen Liang"
+          },
+          {
+            "doi": "10.1007/978-3-642-15567-3_28",
+            "key": "ref6",
+            "score": 74.95913,
+            "unstructured": "A continuous max- ow approach to potts model+In Computer Vision{ECCV+2010+392+Jing Yuan+Yuri Boykov"
+          },
+          {
+            "doi": "10.1007/978-3-642-33415-3_81",
+            "key": "ref7",
+            "score": 139.62137,
+            "unstructured": "A fast convex optimization approach to segmenting 3d scar tissue from delayed-enhancement cardiac mr images+In Medical Image Computing and Computer-Assisted Intervention{MICCAI+2012+666+Martin Rajchl+James A White+Feng Li+Terry M Peters."
+          },
+          {
+            "doi": "10.1007/3-540-45787-9_18",
+            "key": "ref8",
+            "score": 114.42304,
+            "unstructured": "Robust registration of multi-modal images: towards real-time clinical applications+In Medical Image Computing and Computer-Assisted InterventionMICCAI+2002+147+Sebastien Ourselin+Xavier Pennec"
+          },
+          {
+            "doi": "10.1016/j.cmpb.2009.09.002",
+            "key": "ref9",
+            "score": 103.685524,
+            "unstructured": "Fast free-form deformation using graphics processing units+Computer methods and programs in biomedicine+278+3+284+2010+Marc Modat+Sebastien Ourselin"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2008.07.058",
+            "key": "ref10",
+            "score": 98.66052,
+            "unstructured": "Hippocampus segmentation in mr images using atlas registration, voxel classi cation, and graph cuts+Neuroimage+43+4+708+2008+Wiro"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

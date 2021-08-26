@@ -43,6 +43,37 @@
     "revisions": [
       {
         "article": "bafybeig4q6z6xu3oonh5e27mbqnj3uc6ea6knvgrct5mudne5lodkovlyu",
+        "citation_list": [
+          {
+            "doi": "10.1073/pnas.95.15.8431",
+            "key": "ref1",
+            "score": 78.02697,
+            "unstructured": "Computing geodesic paths on manifolds+In Procedings of the National Academy of Sciences+1+July 1998+1+R. Kimmel+J. Sethian"
+          },
+          {
+            "key": "ref2",
+            "score": 18.586777,
+            "unstructured": "com. 2+G. Peyre"
+          },
+          {
+            "doi": "10.1007/s11263-006-6859-3",
+            "key": "ref3",
+            "score": 73.992485,
+            "unstructured": "Geodesic remeshing using front propagation+International Journal of Computer Vision+1+156+2006+Gabriel Peyre+Laurent D. Cohen"
+          },
+          {
+            "doi": "10.1137/s0036144598347059",
+            "key": "ref4",
+            "score": 63.62879,
+            "unstructured": "Fast marching methods+SIAM Review+1+1+235+1998+J. A. Sethian"
+          },
+          {
+            "doi": "10.1145/1186822.1073228",
+            "key": "ref5",
+            "score": 88.008896,
+            "unstructured": "pdf. 2.3+2005+V. Surazhsky+T. Surazhsky+D. Kirsanov+S. Gortler+H. Hoppe"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

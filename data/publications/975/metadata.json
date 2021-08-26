@@ -37,6 +37,40 @@
     "revisions": [
       {
         "article": "bafybeidaaroswu7tzxxarfslzgnjaykowmrgbefsjmop7osds3eawpi77i",
+        "citation_list": [
+          {
+            "doi": "10.1145/37402.37422",
+            "key": "ref1",
+            "score": 103.5405,
+            "unstructured": "Marching cubes: A high resolution 3D surface construction algorithm+Computer Graphics+10+37422+169+July 1987+E. William+Harvey E. Lorensen+Cline"
+          },
+          {
+            "key": "ref2",
+            "score": 46.627636,
+            "unstructured": "ITK-SNAP. open source, 3.2+see Yushkevich et al. 5. 1+Paul Yushkevich"
+          },
+          {
+            "key": "ref3",
+            "score": 29.518656,
+            "unstructured": "The watershed transform in ITK - discussion and new developments+Insight Journal+92+1+24+1926+Richard Beare"
+          },
+          {
+            "key": "ref4",
+            "score": 32.809402,
+            "unstructured": "Extracting Intersections of Coplanar Surfaces (Boolean-operation on touching meshes)+publication=949. 1+10380+3504+2014+Roman Grothausmann+December"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2006.01.015",
+            "key": "ref5",
+            "score": 130.38133,
+            "unstructured": "Gee, and Guido Gerig. User-guided 3D active contour segmentation of anatomical structures: Significantly improved efficiency and reliability+NeuroImage+01+3+5+1128+2006+Paul A. Yushkevich+Sean Ho"
+          },
+          {
+            "key": "ref6",
+            "score": 41.941628,
+            "unstructured": "10380+Distributed under Creative Commons Attribution License"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

@@ -47,6 +47,86 @@
     "revisions": [
       {
         "article": "bafybeif525lnf3ehfswyufzprmaktmm2urfq7lxk5cx73476hmqymuivda",
+        "citation_list": [
+          {
+            "doi": "10.1016/j.jacc.2012.01.037",
+            "key": "ref1",
+            "score": 121.27796,
+            "unstructured": "Performance of 3-dimensional echocardiography in measuring left ventricular volumes and ejection fraction+J Am Coll Cardiol+59+20+2012+1799+1808+J. Dorosz+D. Lezotte+D. Weitzenkamp+L. Allen+Salcedo"
+          },
+          {
+            "doi": "10.1109/cic.2008.4748968",
+            "key": "ref2",
+            "score": 193.23557,
+            "unstructured": "Real-time 3-dimensional echocardiographic quantification of left ventricular volumes: Multicenter study for validation with magnetic resonance imaging and investigation of sources of error+JACC: Cardiovasc Im+1+4+2008+413+423+V. Mor-Avi+C. Jenkins+H. Kuhl+H. Nesser+T. Marwick+A. Franke+C. Ebner+B. Freed+R. Steringer-Mascherbauer+H. Pollard+L. Niel+J. Sugeng+L. Lang+R."
+          },
+          {
+            "doi": "10.1109/tmi.2011.2158440",
+            "key": "ref3",
+            "score": 153.32143,
+            "unstructured": "Prediction based collaborative trackers (PCT): A robust and accurate approach toward 3D medical object tracking+IEEE T Med Imaging+30+11+2011+1921+1932+L. Yang+B. Georgescu+Y. Zheng+Y. Wang+P. Meer+Comaniciu"
+          },
+          {
+            "doi": "10.1016/j.ultrasmedbio.2011.01.010",
+            "key": "ref4",
+            "score": 137.48746,
+            "unstructured": "Left ventricular border tracking using cardiac motion models and optical flow+Ultrasound Med Biol+37+4+2011+605+616+E. Leung+Danilouchkine+M. van Stralen+A. van der Steen+Bosch"
+          },
+          {
+            "doi": "10.1093/ejechocard/jep217",
+            "key": "ref5",
+            "score": 160.95331,
+            "unstructured": "Validation of a novel automated border-detection algorithm for rapid and accurate quantitation of left ventricular volumes based on threedimensional echocardiography+Eur J Echocardiogr+11+4+2010+359+368+D. Muraru+L. Badano+G. Piccoli+P. Gianfagna+L. Del Mestre+D. Ermacora+A. Proclemer"
+          },
+          {
+            "doi": "10.1093/ejechocard/jeq005",
+            "key": "ref6",
+            "score": 91.209404,
+            "unstructured": "Automated border detection in three-dimensional echocardiography: principles and promises+Eur J Echocardiogr+11+2+2010+97+108+K. Leung+Bosch"
+          },
+          {
+            "doi": "10.1007/978-3-642-38899-6_23",
+            "key": "ref7",
+            "score": 130.37137,
+            "unstructured": "Fast left ventricle tracking in 3D echocardiographic data using anatomical affine optical flow+In: Proc. of FIMH2013+2013+191+199+D. Barbosa+B. Heyde+T. Dietenbeck+D. Friboulet+O. Bernard"
+          },
+          {
+            "doi": "10.1109/ultsym.2013.0171",
+            "key": "ref8",
+            "score": 131.28293,
+            "unstructured": "Hybrid energy approach for real-time b-spline explicit active tracking of surfaces (heartbeats)+In: Proc. of IUS2013+2013+663+666+D. Barbosa+O. Bernard+B. Heyde+T. Dietenbeck+D. Friboulet+Dhooge"
+          },
+          {
+            "doi": "10.1109/tip.2011.2161484",
+            "key": "ref9",
+            "score": 129.28795,
+            "unstructured": "B-spline explicit active surfaces: An efficient framework for real-time 3D regionbased segmentation+IEEE T Image Process+21+1+2012+241+251+D. Barbosa+T. Dietenbeck+Schaerer+D. Friboulet+O.: Bernard"
+          },
+          {
+            "doi": "10.1016/j.ultrasmedbio.2012.08.008",
+            "key": "ref10",
+            "score": 146.02711,
+            "unstructured": "Fast and fully automatic 3D echocardiographic segmentation using bspline explicit active surfaces: Feasibility study and validation in a clinical setting+Ultrasound Med Biol+39+1+2013+89+101+D. Barbosa+T. Dietenbeck+B. Heyde+H. Houle+D. Friboulet+O. Bernard"
+          },
+          {
+            "doi": "10.1016/j.media.2014.06.001",
+            "key": "ref11",
+            "score": 120.64063,
+            "unstructured": "Fast automatic myocardial segmentation in 4D cine CMR datasets+Medical Image Analysis+2014+S. Barbosa+D. Heyde+B. Morais+P. Friboulet+D. Bernard+O. D'"
+          },
+          {
+            "doi": "10.1109/tuffc.2005.1417261",
+            "key": "ref12",
+            "score": 139.2872,
+            "unstructured": "Determination of an optimal image frame interval for frame-to-frame ultrasound image motion tracking+IEEE T Ultrason Ferr+52+3+2005+386+396+J. Ha+W. Walker+Hossack"
+          },
+          {
+            "doi": "10.1016/j.ultrasmedbio.2008.08.012",
+            "key": "ref13",
+            "score": 136.76115,
+            "unstructured": "Region-based endocardium tracking on real-time three-dimensional ultrasound+Ultrasound Med Biol+35+2+2009+256+265+Q. Duan+E. Angelini+S. Herz+C. Ingrassia+K. Costa+J. Holmes+S. Homma+A. Laine"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

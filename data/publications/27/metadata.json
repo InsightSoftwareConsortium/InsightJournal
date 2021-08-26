@@ -38,6 +38,81 @@
     "revisions": [
       {
         "article": "bafkreic4qilvmk45serikzlbzi7plvmky2jryxauqts2pb43pdusvk3sei",
+        "citation_list": [
+          {
+            "doi": "10.1109/34.368173",
+            "key": "ref1",
+            "score": 122.33881,
+            "unstructured": "Shape modeling with front propagation: a level set approach+IEEE Transactions on Pattern Analysis and Machine Intelligence+158+1995+175+R. Malladi+J. Sethian+B. Vemuri"
+          },
+          {
+            "doi": "10.1007/bf00133570",
+            "key": "ref2",
+            "score": 79.107124,
+            "unstructured": "Active contour models+International Journal of Computer Vision+321+1988+331+M. Kass+A. Witkin+D. Terzopolous"
+          },
+          {
+            "doi": "10.1109/34.166621",
+            "key": "ref3",
+            "score": 98.147934,
+            "unstructured": "Boundary nding with parametrically deformable models+IEEE Transactions on Pattern Analysis and Machine Intelligence+14+1992+L. Staib+Duncan"
+          },
+          {
+            "doi": "10.1109/10.871413",
+            "key": "ref4",
+            "score": 129.48212,
+            "unstructured": "Three-dimensional geometric modeling of the cochlea using helico-spiral approximation+IEEE Transactions on Biomedical Engineering+1392+2000+1402+S. Yoo+J. Rubinstein+M. Vannier"
+          },
+          {
+            "doi": "10.1002/(sici)1096-8644(1998)107:27+<211::aid-ajpa8>3.0.co;2-v",
+            "key": "ref5",
+            "score": 75.90367,
+            "unstructured": "Comparative review of the human bony labyrinth+Yearbook of Physical Anthropology+211+1998+251+F. Spoor+F. Zonnenveld"
+          },
+          {
+            "key": "ref6",
+            "score": 44.198406,
+            "unstructured": "Improved and simpli ed methods for specifying positions of the electrode bands of a cochlear implant array+American Journal of Otology+859+1996+865+L. Cohen+J. Xu+S. Xu+Clark"
+          },
+          {
+            "doi": "10.1007/978-3-540-30549-1_7",
+            "key": "ref7",
+            "score": 76.284134,
+            "unstructured": "Cochlea modelling: Clinical challenges and tubular extraction+In: 17th Australian Joint Conference on Arti cial Intelligence+2004+O Baker+S. 'Leary+N. Barnes+Kazmierczak"
+          },
+          {
+            "key": "ref8",
+            "score": 43.06926,
+            "unstructured": "4+Statistical Shape Analysis+1998+I. Dryden+Mardia"
+          },
+          {
+            "key": "ref9",
+            "score": 24.247444,
+            "unstructured": "1+The ITK Software Guide+2003+W. Schroeder+L. Ng+Cates+Inc"
+          },
+          {
+            "key": "ref10",
+            "score": 40.148018,
+            "unstructured": "Seashell from MathWorld { a Wolfram web resource+2005+E.W. Weisstein"
+          },
+          {
+            "doi": "10.1109/34.56205",
+            "key": "ref11",
+            "score": 107.346306,
+            "unstructured": "Scale-space and edge detection using anisotropic di usion+IEEE Transactions on Pattern Analysis and Machine Intelligence+629+1990+639+P. Perona+Malik"
+          },
+          {
+            "key": "ref12",
+            "score": 45.3252,
+            "unstructured": "General object reconstruction based on simplex meshes+International Journal of Computer Vision+111+1999+142+Delignette"
+          },
+          {
+            "doi": "10.1109/42.845174",
+            "key": "ref13",
+            "score": 104.536766,
+            "unstructured": "Parametric estimate of intensity inhomogeneities applied to MRI+IEEE Transactions On Medical Imaging+153+2000+165+M. Styner+G. Gerig+C. Brechbuehler+Szekely"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

@@ -70,6 +70,107 @@
     "revisions": [
       {
         "article": "bafybeibi27bfukogijhkea3r7hu2vvan52qczkophwibaheopvhkotvyfa",
+        "citation_list": [
+          {
+            "doi": "10.1007/11566465_51",
+            "key": "ref1",
+            "score": 122.76206,
+            "unstructured": "STREM: a robust multidimensional parametric method to segment MS lesions in MRI+Med Image Comput Comput Assist Interv Int Conf Med Image Comput Comput Assist Interv+1+4+416+2005+3+L. S.+S. Ali+P. Prima+B. Hellier+C. Carsin+Barillot"
+          },
+          {
+            "doi": "10.1093/brain/120.11.2059",
+            "key": "ref2",
+            "score": 113.14088,
+            "unstructured": "Comparison of MRI criteria at first presentation to predict conversion to clinically definite multiple sclerosis+Brain+3+4+2069+Nov 1997+F. Barkhof+M. Filippi+D. H. Miller+P. Scheltens+A. Campi+C. H. Polman+H. J. Ade`+J. Valk"
+          },
+          {
+            "doi": "10.1109/tmi.2007.906087",
+            "key": "ref3",
+            "score": 140.10423,
+            "unstructured": "An Optimized Blockwise Nonlocal Means Denoising Filter for 3-D Magnetic Resonance Images+3+4+1+441+April 2008+P. Coupe+P. Yger+S. Prima+P. Hellier+C. Kervrann+C. Barillot"
+          },
+          {
+            "doi": "10.1111/j.2517-6161.1977.tb01600.x",
+            "key": "ref4",
+            "score": 83.31646,
+            "unstructured": "Maximum Likelihood from Incomplete Data via the EM Algorithm+Journal of the Royal Statistical Society+3+1+3+38+1977+A. P. Dempster+N. M. Laird+and D. B. Rubin"
+          },
+          {
+            "doi": "10.1109/isbi.2004.1398498",
+            "key": "ref5",
+            "score": 125.37217,
+            "unstructured": "Hierarchical segmentation of multiple sclerosis lesions in multi-sequence MRI+April 2004+3+4+160+G. Dugas-Phocion+M.A. Gonzalez+C. Lebrun+S. Chanalet+C. Bensa+N. Ayache"
+          },
+          {
+            "doi": "10.1002/hbm.20161",
+            "key": "ref6",
+            "score": 114.86376,
+            "unstructured": "Quantitative evaluation of automated skull-stripping methods applied to contemporary and legacy images: effects of diagnosis, bias correction, and slice location+Hum Brain Mapping+3+2+3+113+Feb 2006+Christine Fennema-Notestine+I. Burak Ozyurt+BischoffGrethe Amanda+David E Rex"
+          },
+          {
+            "doi": "10.1111/jon199883144",
+            "key": "ref7",
+            "score": 93.528854,
+            "unstructured": "Intraobserver and interobserver variability in measuring changes in lesion volume on serial brain MR images in multiple sclerosis+AJNR Am J Neuroradiol+5+4+1+687+Apr 1998+M. Filippi+M. Rovaris+M. P. Sormani+M. A. Horsfield+M. A. Rocca+R. Capra+F. Prandini+G. Comi"
+          },
+          {
+            "key": "ref8",
+            "score": 36.50961,
+            "unstructured": "Quantitative evaluation of intensity inhomogeneity correction algorithms for Multiple Sclerosis+2008+3+2+Daniel Garc+Sylvain Lorenzo+L. Prima+J.-Y. Parkes+N. Gauvrit+S.P. Roberts+C. Morrissey+Barillot"
+          },
+          {
+            "doi": "10.1016/0730-725x(96)00018-5",
+            "key": "ref9",
+            "score": 146.8276,
+            "unstructured": "Quantification of MRI lesion load in multiple sclerosis: a comparison of three computer-assisted techniques+Magn Reson Imaging+1+5+1+505+1996+J. Grimaud+M. Lai+J. Thorpe+P. Adeleine+L. Wang+G. J. Barker+D. L. Plummer+P. S. Tofts+W. I. McDonald+and D. H. Miller"
+          },
+          {
+            "doi": "10.1109/mmbia.2000.852374",
+            "key": "ref10",
+            "score": 106.135506,
+            "unstructured": "Entropy minimization for automatic correction of intensity nonuniformity+In Mathematical Methods in Biomedical Image Analysis. IEEE Workshop on+2+169+June 2000+J.-F. Mangin"
+          },
+          {
+            "doi": "10.1016/j.csda.2006.12.024",
+            "key": "ref11",
+            "score": 143.9991,
+            "unstructured": "Robust fitting of mixtures using the trimmed likelihood estimator+Computational Statistics & Data Analysis+3+1+4+308+September 2007+N. Neykov+P. Filzmoser+R. Dimova+P. Neytchev"
+          },
+          {
+            "key": "ref12",
+            "score": 47.339413,
+            "unstructured": "A meta-algorithm for brain extraction in MRI+3+2+3+637+Oct 2004+E Rex David"
+          },
+          {
+            "doi": "10.1002/hbm.10062",
+            "key": "ref13",
+            "score": 82.21793,
+            "unstructured": "Fast robust automated brain extraction+Hum Brain Mapp+3+3+3+155+November 2002+S. M. Smith."
+          },
+          {
+            "key": "ref14",
+            "score": 33.054726,
+            "unstructured": "In 3D Segmentation in the Clinic: A Grand Challenge+Miccai Workshop+2+15+2007+4+4+B. van Ginneken+T. Heimann+M. Styner"
+          },
+          {
+            "doi": "10.1109/tmi.2004.828354",
+            "key": "ref15",
+            "score": 108.44921,
+            "unstructured": "Simultaneous truth and performance level estimation (STAPLE): an algorithm for the validation of image segmentation+Medical Imaging+4+7+1+921+July 2004+S.K. Warfield+K.H. Zou+W.M. Wells"
+          },
+          {
+            "doi": "10.1109/42.511747",
+            "key": "ref16",
+            "score": 92.248344,
+            "unstructured": "Adaptive segmentation of MRI data+Medical Imaging+3+4+4+442+1996+III Wells+W.E.L. Grimson+R. Kikinis+F.A. Jolesz"
+          },
+          {
+            "doi": "10.1109/tmi.2002.806283",
+            "key": "ref17",
+            "score": 108.98295,
+            "unstructured": "Automatic \u201dpipeline\u201d analysis of 3-D MRI data for clinical trials: application to multiple sclerosis+IEEE Trans Med Imaging+5+10+1+1291+Oct 2002+P Zijdenbos Alex+Alan C Evans"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

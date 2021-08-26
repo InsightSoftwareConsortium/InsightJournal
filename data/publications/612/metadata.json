@@ -77,6 +77,77 @@
     "revisions": [
       {
         "article": "bafybeibjidippbfftzhjunjzsuz26azytsfpdrnlrvrah76a7ug3wynnmy",
+        "citation_list": [
+          {
+            "doi": "10.1007/11566465_51",
+            "key": "ref1",
+            "score": 113.572586,
+            "unstructured": "STREM: a robust multidimensional parametric method to segment MS lesions in MRI+MICCAI'+October 2005+3749+409+416+L.S.+P. Hellier+B. Carsin+C. Barillot+Springs Palm"
+          },
+          {
+            "doi": "10.1109/icip.1999.821676",
+            "key": "ref2",
+            "score": 89.38762,
+            "unstructured": "An address generator for a 3-dimensional pseudo-Hilbert scan in acuboid region+In Proc. of IEEE Int. Conf on Image Process.+1999+Y. Bandoh+A. Kamata"
+          },
+          {
+            "doi": "10.1109/isbi.2008.4540940",
+            "key": "ref3",
+            "score": 131.07455,
+            "unstructured": "Lesions detection on 3d brain mri using trimmed likelihood estimator and probabilistic atlas+In Fifth IEEE International Symposium on Biomedical Imaging ISBI'08+2008+S. Bricq+C. Collet+J.-P. Armspach"
+          },
+          {
+            "doi": "10.1016/s0167-9473(97)00011-x",
+            "key": "ref4",
+            "score": 113.19468,
+            "unstructured": "Maximum trimmed likelihood estimators: a unified approach, examples, and algorithms+Computational Statistics and Data Analysis+3+1+272+1997+A.S. Hadi+A. Luceno"
+          },
+          {
+            "doi": "10.1007/978-3-642-57338-5_24",
+            "key": "ref5",
+            "score": 101.00702,
+            "unstructured": "\u00a8ller. Breakdown point and computation of trimmed likelihood estimators in generalized linear models+2+286+2003+3+N.M. Neykov+C.H. Mu+P. Filzmoser+U. Gatter"
+          },
+          {
+            "key": "ref6",
+            "score": 45.225994,
+            "unstructured": "A robust alternative of the MLE+90+99+100+1990+N.M. Neykov+P.N. Neytchev"
+          },
+          {
+            "doi": "10.1109/tip.2005.846026",
+            "key": "ref7",
+            "score": 154.86769,
+            "unstructured": "Registration : A Topology Preservation Scheme Based on Hierarchical Deformation Models and Interval Analysis Optimization+IEEE Transactions on Image Processing+14+5+553+566+2005+V. Noblet+C. Heinrich+F. Heitz+J.P. Armspach+D Deformable Image"
+          },
+          {
+            "key": "ref8",
+            "score": 54.97508,
+            "unstructured": "1987+P.J. Rousseeuw+A.M. Leroy+Outlier Detection"
+          },
+          {
+            "doi": "10.1109/42.700730",
+            "key": "ref9",
+            "score": 133.80634,
+            "unstructured": "Robust parameter estimation of intensity distributions for brain magnetic resonance images+IEEE Transactions on Medical Imaging+17+2+1+186+April 1998+P. Schroeter+T. J.-M. Vesin+R. Langenberger+Meuli"
+          },
+          {
+            "doi": "10.2307/3109795",
+            "key": "ref10",
+            "score": 72.85188,
+            "unstructured": "Tools for statistical inference : methods for the exploration of posterior distributions and likelihood functions+1993+M.A. Tanner"
+          },
+          {
+            "doi": "10.1109/42.938237",
+            "key": "ref11",
+            "score": 143.65385,
+            "unstructured": "Automated Segmentation of Multiple Sclerosis Lesions by Model Outlier Detection. IEEE Transactions on Medical Imaging+20+8+1+688+August 2001+F. K. Van Leemput+D. Maes+A. Vandermeulen+P. Colchester+Suetens"
+          },
+          {
+            "key": "ref12",
+            "score": 39.21805,
+            "unstructured": "Robust Maximum Likelihood in the Gaussian Case+New Directions in Data Analysis and Robustness+259+264+1993+D.L. Vandev+N.M. Neykov"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

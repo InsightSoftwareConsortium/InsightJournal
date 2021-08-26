@@ -44,6 +44,122 @@
     "revisions": [
       {
         "article": "bafybeibfewtc6x62lneffo7kchc2taqf43x7eq5j5dpgxovz5dam7sneli",
+        "citation_list": [
+          {
+            "doi": "10.1109/iembs.2010.5626376",
+            "key": "ref1",
+            "score": 108.296005,
+            "unstructured": "Soft thresholding for medical image segmentation+In EMBS Annual International Conference of the IEEE+1+4755+Sept 2010+S. Aja-Ferna+G. Vegas-Sanchez-Ferrero+M.A. Martin Fernandez"
+          },
+          {
+            "doi": "10.1016/j.knosys.2015.02.029",
+            "key": "ref2",
+            "score": 118.627945,
+            "unstructured": "A local fuzzy thresholding methodology for multiregion image segmentation+Knowledge Based Systems+83+1+12+February 2015+Santiago Aja-Ferna+Ariel H. Curiale+Ferrero"
+          },
+          {
+            "doi": "10.1016/j.ultrasmedbio.2014.07.014",
+            "key": "ref3",
+            "score": 91.99305,
+            "unstructured": "Fully automatic detection of salient features in 3D transesophageal images+Ultrasound in Med. & Biol+40+12+1+2884+December 2014+H. Ariel+Curiale+Ferrero"
+          },
+          {
+            "doi": "10.1007/978-3-642-38899-6_39",
+            "key": "ref4",
+            "score": 129.20255,
+            "unstructured": "\u00b4n Curiale, Gonzalo Vegas-Sa\u00b4nchez-Ferrero, and Santiago Aja-Ferna\u00b4ndez. Speckle tracking in interpolated echocardiography to estimate heart motion+Functional Imaging and Modeling of the Heart+7945+325+333+June 2013+Ariel Herna"
+          },
+          {
+            "doi": "10.1016/j.media.2016.04.002",
+            "key": "ref5",
+            "score": 103.3827,
+            "unstructured": "\u00b4n Curiale, Gonzalo Vegas-Sanchez-Ferrero, and Santiago Aja-Ferna\u00b4ndez. Influence of speckle tracking strategies in motion and strain estimation+Medical Image Analysis, Sent. 4+Ariel Herna"
+          },
+          {
+            "doi": "10.1016/j.media.2015.05.001",
+            "key": "ref6",
+            "score": 80.747345,
+            "unstructured": "ndez. A maximum likelihood approach to diffeomorphic speckle tracking for 3D strain estimation in echocardiography+2015 In Press. 1+Ariel Herna+Ferrero+Santiago"
+          },
+          {
+            "doi": "10.1109/tmi.2008.929098",
+            "key": "ref7",
+            "score": 138.2597,
+            "unstructured": "Segmentation in ultrasonic b-mode images of healthy carotid arteries using mixtures of nakagami distributions and stochastic optimization+IEEE Trans. Med+28+2+1+229+Feb 2009+F. Destrempes+J. Meunier+M.F. Giroux+G. Cloutier."
+          },
+          {
+            "doi": "10.1109/tuffc.2013.006228",
+            "key": "ref8",
+            "score": 145.90286,
+            "unstructured": "Segmentation of multiple heart cavities in 3d transesophageal ultrasound images+IEEE Transactions on Ultrasonics, Ferroelectrics and Frequence Control+2015+A. Haak+G. Sanchez-Ferrero+H. Mulder+B. Ren+H.A. Kirisli+C.T. Metz+G. van Burken+A.F.W. van der Steen Stralen+J.P.W. Pluim+J.G. Bosch"
+          },
+          {
+            "doi": "10.2307/2346830",
+            "key": "ref9",
+            "score": 90.71773,
+            "unstructured": "Manchek A Wong. Algorithm AS 136: A k-means clustering algorithm+Applied Statistics+28+1+100+108+1979+A Hartigan John"
+          },
+          {
+            "doi": "10.1016/j.ultrasmedbio.2007.03.003",
+            "key": "ref10",
+            "score": 107.841866,
+            "unstructured": "Statistical segmentation of surgical instruments in 3D ultrasound images+Ultrasound in Med. & Biol+33+9+1+1437+September 2007+Marius George+Linguraru Nikolay+V. Vasilyev+Robert D. Pedro J. Del Nido+Howe"
+          },
+          {
+            "doi": "10.1109/58.842062",
+            "key": "ref11",
+            "score": 115.69861,
+            "unstructured": "A general statistical model for ultrasonic backscattering from tissues+IEEE Trans. Ultrason+47+3+727+736+2000+P. Mohana Shankar+Freq"
+          },
+          {
+            "doi": "10.1109/79.543975",
+            "key": "ref12",
+            "score": 76.85194,
+            "unstructured": "The expectation-maximization algorithm+IEEE Signal Process. Mag.+1+6+1+60+November 1996+T.K. Moon"
+          },
+          {
+            "doi": "10.1016/j.ultrasmedbio.2007.10.008",
+            "key": "ref13",
+            "score": 100.90479,
+            "unstructured": "Modeling envelope statistics of blood and myocardium for segmentation of echocardiographic images+Ultrasound in Med. & Biol+34+4+1+680+April 2008+M. Maartje+Nillesen+Inge H. Gerrits+Johan M. Thijssen"
+          },
+          {
+            "doi": "10.1109/tip.2014.2371244",
+            "key": "ref14",
+            "score": 152.666,
+            "unstructured": "Anisotropic diffusion filter with memory based on speckle statistics for ultrasound images+IEEE Trans. Image Process+24+1+1+358+Jan 2015+G. Ramos-Llorden+G. Vegas-Sanchez-Ferrero+M. Martin-Fernandez+C. Alberola-Lopez+S. AjaFernandez."
+          },
+          {
+            "doi": "10.1109/tmi.2006.881376",
+            "key": "ref15",
+            "score": 132.28487,
+            "unstructured": "Evaluation of four probability distribution models for speckle in clinical cardiac ultrasound images+IEEE Trans. Med+25+11+1483+1491+2006+Zhong Tao+H.D. Tagare+J.D. Beaty"
+          },
+          {
+            "doi": "10.1007/978-3-642-15705-9_63",
+            "key": "ref16",
+            "score": 169.91208,
+            "unstructured": "Probabilistic-driven oriented speckle reducing anisotropic diffusion with application to cardiac ultrasonic images+In Medical Image Computing and Computer-Assisted Intervention+1+5+525+September 2010+G. Vegas-Sanchez-Ferrero+S. Aja-Fernandez+M. Martin-Fernandez+A.F. Frangi+C. Palencia"
+          },
+          {
+            "doi": "10.1155/2012/481923",
+            "key": "ref17",
+            "score": 117.68135,
+            "unstructured": "A generalized Gamma mixture model for ultrasonic tissue characterization+2012(Article ID 481923)+5+25+August 2012+1+1+G. Vegas-Sanchez-Ferrero+S. Aja-Fernandez+C. Palencia+M. Martin-Fernandez"
+          },
+          {
+            "doi": "10.1109/isbi.2010.5490353",
+            "key": "ref18",
+            "score": 71.88999,
+            "unstructured": "On the influence of interpolation on probabilistic models for ultrasonic images+292+295+2010+G. Vegas-Sa+D. Ferrero+C. Palencia"
+          },
+          {
+            "doi": "10.1109/tuffc.2014.6689775",
+            "key": "ref19",
+            "score": 183.50487,
+            "unstructured": "Gamma mixture classifier for plaque detection in intravascular ultrasonic images+IEEE Trans. Ultrason+1+1+5+61+January 2014+G. Vegas-Sanchez-Ferrero+J. Seabra+O. Rodriguez-Leor+A. Serrano-Vida+S. Aja-Fernandez+C. Palencia+M. Martin-Fernandez+J. Sanches+Freq"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

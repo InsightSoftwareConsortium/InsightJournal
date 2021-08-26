@@ -66,6 +66,34 @@
     "revisions": [
       {
         "article": "bafybeienkvt27eqpaxhjmclsxhdnvnm36ia4vimncrnf56c2tmdvvji2re",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 22.743334,
+            "unstructured": "[1] Gofigure2 website+(document)+1+3"
+          },
+          {
+            "key": "ref2",
+            "score": 22.151072,
+            "unstructured": "[2] Junit website+org/. 4.1"
+          },
+          {
+            "key": "ref3",
+            "score": 18.62264,
+            "unstructured": "[3] sikuli documentation+2+1"
+          },
+          {
+            "key": "ref4",
+            "score": 22.735893,
+            "unstructured": "[4] sikuli website+(document)+1+2+1"
+          },
+          {
+            "doi": "10.1145/1622176.1622213",
+            "key": "ref5",
+            "score": 143.71057,
+            "unstructured": "Sikuli: using gui screenshots for search and automation+In Proceedings of the 22nd annual ACM symposium on User interface software and technology, UIST '09+1+192+2009+1+2+Tom Yeh+Tsung-Hsiang Chang+C. Robert+Miller"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

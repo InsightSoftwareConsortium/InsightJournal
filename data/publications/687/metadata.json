@@ -53,6 +53,54 @@
     "revisions": [
       {
         "article": "bafybeifxlgosto4wz3lfapxx75lkwgtojrugudgi7ojddc574dhwh6hzym",
+        "citation_list": [
+          {
+            "doi": "10.1006/nimg.1998.0395",
+            "key": "ref1",
+            "score": 88.32794,
+            "unstructured": "Cortical surface-based analysis i: Segmentation and surface reconstruction+NeuroImage+5+2+2+194+1999+A.M. Dale+B. Fischl+M.I. Sereno."
+          },
+          {
+            "doi": "10.1109/42.906426",
+            "key": "ref2",
+            "score": 134.6935,
+            "unstructured": "Automated manifold surgery: Constructing geometrically accurate and topologically correct models of the human cerebral cortex+IEEE Transactions on Medical Imaging+5+1+2+80+2001+B. Fischl+A. Liu+A.M. Dale"
+          },
+          {
+            "doi": "10.1006/nimg.1998.0396",
+            "key": "ref3",
+            "score": 91.93846,
+            "unstructured": "Cortical surface-based analysis ii: Inflation, flattening, and a surface-based coordinate system+NeuroImage+5+2+2+207+1999+B. Fischl+M.I. Sereno+A.M. Dale"
+          },
+          {
+            "key": "ref4",
+            "score": 36.486298,
+            "unstructured": "Rotational registration of spherical surfaces represented as quadedge meshes+Insight Journal+2009+L. Ibanez+M. Audette+B. T. T. Yeo+P. Golland"
+          },
+          {
+            "key": "ref5",
+            "score": 32.373444,
+            "unstructured": "Iterative smoothing of field data in spherical meshes+Insight Journal+2009+1+3+1+L. Ibanez+B. T. T. Yeo+P. Golland"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2006.01.021",
+            "key": "ref6",
+            "score": 173.08394,
+            "unstructured": "An automated labeling system for subdividing the human cerebral cortex on mri scans into gyral based regions of interest+NeuroImage+5+3+2+980+2006+R.S. Desikan+F. Segonne+B. Fischl+B.T. Quinn+B.C. Dickerson+D. Blacker+R.L. Buckner+A.M. Dale+R.P. Maguire+B.T. Hyman+M.S. Albert,+R.J. Killiany"
+          },
+          {
+            "doi": "10.1007/978-3-540-85988-8_89",
+            "key": "ref7",
+            "score": 126.06298,
+            "unstructured": "(document), 3+In MICCAI'2008 International Conference on Medical Image Computing and Computer-Assisted Intervention, Lecture Notes in Computer Science+1+753+September 2008+B. T. T. Yeo+M. Sabuncu+T. Vercauteren+N. Ayache+B. Fisch+P. Golland"
+          },
+          {
+            "doi": "10.1109/tmi.2009.2030797",
+            "key": "ref8",
+            "score": 153.6074,
+            "unstructured": "Spherical demons: Fast diffeomorphic landmark-free surface registration+IEEE Transactions on Medical Imaging+3+3+1+668+2010+B. T. T. Yeo+M. Sabuncu+T. Vercauteren+N. Ayache+B. Fischl+P. Golland"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

@@ -48,6 +48,112 @@
     "revisions": [
       {
         "article": "bafybeibfb36c5y7gqpujobp4lzqqlddrusb3qaiketi655asrivxw4mb2u",
+        "citation_list": [
+          {
+            "doi": "10.1109/tvcg.2007.70560",
+            "key": "ref1",
+            "score": 135.31004,
+            "unstructured": "High-quality multimodal volume rendering for preoperative planning of neurosurgical interventions+IEEE Transactions on Visualization and Computer Graphics+1696+6+1703+2007+J. Beyer+M. Hadwiger+S. Wolfsberger+K."
+          },
+          {
+            "key": "ref2",
+            "score": 29.923773,
+            "unstructured": "Flexible gpubased multi-volume ray-casting+303+312+2008+R. Brecheisen+A.V. Bartroli+B. Platel+B.M.:"
+          },
+          {
+            "doi": "10.1016/j.mri.2012.05.001",
+            "key": "ref3",
+            "score": 192.52081,
+            "unstructured": "3D Slicer as an image computing platform for the quantitative imaging network+Magn. Reson. Imaging+1323+9+1341+2012+A. Fedorov+R. Beichel+J. Kalpathy-Cramer+J. Finet+J.C. Fillion-Robin+S. Pujol+C. Bauer+D. Jennings+F. Fennessy+M. Sonka+J. Buatti+S. Aylward+J.V. Miller+S. Pieper+Kikinis"
+          },
+          {
+            "doi": "10.1109/visual.2003.1250386",
+            "key": "ref4",
+            "score": 118.46094,
+            "unstructured": "High-quality two-level volume rendering of segmented data sets on consumer graphics hardware+In: Proceedings of IEEE Visualization+301+308+2003+M. Hadwiger+C. Berger+Hauser+IEEE"
+          },
+          {
+            "doi": "10.1016/j.ijmedinf.2007.05.003",
+            "key": "ref5",
+            "score": 140.31844,
+            "unstructured": "4D medical image computing and visualization of lung tumor mobility in spatiotemporal ct image data+Int. J. Med+76+S433+S439+2007+H. Handels+R. Werner+R. Schmidt+T. Frenzel+W. Lu+D. Low+J.: Ehrhardt"
+          },
+          {
+            "key": "ref6",
+            "score": 25.96474,
+            "unstructured": "The ITK Software Guide. Kitware+2005+L. Ibanez+W. Schroeder+L. Ng+J. Cates"
+          },
+          {
+            "doi": "10.1109/embc.2012.6346520",
+            "key": "ref7",
+            "score": 93.26623,
+            "unstructured": "Dual-modal visibility metrics for interactive PETCT visualization+2012 Annual International Conference of the IEEE+2696+2699+2012+Y. Jung+J. Kim+Feng+IEEE"
+          },
+          {
+            "doi": "10.1145/1661412.1618498",
+            "key": "ref8",
+            "score": 154.05882,
+            "unstructured": "Ray casting of multiple volumetric datasets with polyhedral boundaries on manycore GPUs+152:1{152:9 (Dec+28+5+2009+B. Kainz+M. Grabner+A. Bornik+S. Hauswiesner+J. Muehl+D. Schmalstieg"
+          },
+          {
+            "doi": "10.1109/visual.2003.1250384",
+            "key": "ref9",
+            "score": 75.74012,
+            "unstructured": "Acceleration techniques for gpu-based volume rendering+In: Proceedings of the 14th IEEE Visualization 2003 (VIS'03)+38+2003+J. Kruger+Westermann"
+          },
+          {
+            "doi": "10.1007/978-3-642-38085-3_5",
+            "key": "ref10",
+            "score": 74.48953,
+            "unstructured": "Visualization of organ motion during breathing from 4D datasets+34+44+2013+M. Karamalis+A. Navab"
+          },
+          {
+            "doi": "10.1088/0031-9155/54/1/r01",
+            "key": "ref11",
+            "score": 97.7453,
+            "unstructured": "Biological imaging in radiation therapy: role of positron emission tomography+R1+54+1+2009+U. Nestle+W. Weber+M. Hentschel+A.L. Grosu"
+          },
+          {
+            "key": "ref12",
+            "score": 54.721115,
+            "unstructured": "Guide (+2011+NVIDIA Corporation: NVIDIA CUDA C Programming"
+          },
+          {
+            "doi": "10.1118/1.4754659",
+            "key": "ref13",
+            "score": 127.570114,
+            "unstructured": "SlicerRT: Radiation therapy research toolkit for 3D Slicer+39+6332+2012+C. Pinter+A. Lasso+A. Wang+Ja ray+Fichtinger"
+          },
+          {
+            "doi": "10.1109/visual.1996.567752",
+            "key": "ref14",
+            "score": 63.397175,
+            "unstructured": "Visualization Toolkit: An ObjectOriented Approach to 3D Graphics. Kitware, 4th edn+2006+W. Schroeder+K. Martin+B. Lorensen"
+          },
+          {
+            "key": "ref15",
+            "score": 53.660187,
+            "unstructured": "Combining silhouettes, surface, and volume rendering for surgery education and planning+In: Proceedings of the Seventh Joint Eurographics / IEEE VGTC Conference on Visualization+05+310+2005+C. Tietjen+T. Isenberg+B. Preim"
+          },
+          {
+            "doi": "10.1016/j.media.2005.04.005",
+            "key": "ref16",
+            "score": 120.79827,
+            "unstructured": "The medical imaging interaction toolkit+Image Anal+594+6+604+2005+I. Wolf+M. Vetter+I. Wegner+T. Bttger+M. Nolden+M. Schbinger+M. Hastenteufel+T. Kunert+H.P.: Meinzer"
+          },
+          {
+            "doi": "10.1118/1.2966347",
+            "key": "ref17",
+            "score": 152.63037,
+            "unstructured": "Reconstruction of a time-averaged midposition ct scan for radiotherapy planning of lung cancer patients using deformable registration+Med. Phys+3998+9+4011+2008+J.W.H. Wolthaus+M. Sonke+E.M.F. Damen"
+          },
+          {
+            "doi": "10.1109/bibm.2013.6732506",
+            "key": "ref18",
+            "score": 98.12534,
+            "unstructured": "Visibility guided multimodal volume visualization+In: IEEE International Conference on Bioinformatics and Biomedicine (BIBM)+297+304+2013+L. Zheng+C. Correa+Ma"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

@@ -67,6 +67,113 @@
     "revisions": [
       {
         "article": "bafybeib27c23hirswjzvzyzoumuhan7vlqv2kjqcdcg4ekcq3olfjllf3a",
+        "citation_list": [
+          {
+            "doi": "10.1016/j.imavis.2009.06.017",
+            "key": "ref1",
+            "score": 84.155365,
+            "unstructured": "Some links between min-cuts, optimal spanning forests and watersheds+Procs. 8th International Symposium on Mathematical Morphology+1+253+264+2007+M. Couprie+J. Cousty+R. Keriven"
+          },
+          {
+            "doi": "10.1201/9781482277234-12",
+            "key": "ref2",
+            "score": 104.14381,
+            "unstructured": "The morphological approach to segmentation: the watershed transformation+Mathematical Morphology in Image Processing+433+481+1993+S. Beucher+F. Meyer"
+          },
+          {
+            "doi": "10.1109/iccv.2001.937505",
+            "key": "ref3",
+            "score": 110.891174,
+            "unstructured": "Interactive graph cuts for optimal boundary and region segmentation of objects in n-d images+Proceedings of the 8th International Conference on Computer Vision+1+105+112+2001+Y. Boykov+M.P. Jolly"
+          },
+          {
+            "doi": "10.1109/iccv.2003.1238310",
+            "key": "ref4",
+            "score": 115.01965,
+            "unstructured": "Computing geodesics and minimal surfaces via graph cuts+Proceedings of the 9th International Conference on Computer Vision+1+26+33+2003+Y. Boykov+V. Kolmogorov"
+          },
+          {
+            "doi": "10.1109/tpami.2004.60",
+            "key": "ref5",
+            "score": 122.99915,
+            "unstructured": "An experimental comparison of min-cut/maxflow algorithms for energy minimization in vision+IEEE Transactions on Pattern Analysis and Machine Intelligence+26+9+1124+1137+2004+Y. Boykov+V. Kolmogorov"
+          },
+          {
+            "doi": "10.1109/cvpr.1998.698673",
+            "key": "ref6",
+            "score": 116.560585,
+            "unstructured": "Markov random fields with efficient approximations+IEEE Conference on Computer Vision and Pattern Recognition+648+655+1998+Y. Boykov+O. Veksler+R. Zabih"
+          },
+          {
+            "doi": "10.1109/iccv.1995.466871",
+            "key": "ref7",
+            "score": 89.51797,
+            "unstructured": "Geodesic active contours+International Journal of Computer Vision+694+699+V. Caselles+R. Kimmel+G. Sapiro"
+          },
+          {
+            "doi": "10.1109/tpami.1984.4767596",
+            "key": "ref8",
+            "score": 136.69165,
+            "unstructured": "Stochastic relaxation, gibbs distributions, and the bayesian restoration of images+IEEE Trans. Pattern Anal. Machine Intell+6+6+721+741+1984+S. Geman+D. Geman"
+          },
+          {
+            "doi": "10.1007/bf02980577",
+            "key": "ref9",
+            "score": 83.41099,
+            "unstructured": "Beitrag zur theorie des ferromagnetismus+Z. Physik+31+235258+1925+E. Ising"
+          },
+          {
+            "doi": "10.1109/icpr.2006.93",
+            "key": "ref10",
+            "score": 114.46401,
+            "unstructured": "A machine learning approach for locating boundaries of liver tumors in ct images+Proceedings of the 18th International Conference on Pattern Recognition+400+403+2006+Y. Li+S. Hara+K. Shimura."
+          },
+          {
+            "doi": "10.1145/1186562.1015719",
+            "key": "ref11",
+            "score": 74.4881,
+            "unstructured": "Lazy snapping+SIGGRAPH+2004+23+303+308+Y. Li+J. Sun+C. Tang+H. Shum"
+          },
+          {
+            "doi": "10.1109/iembs.2005.1617181",
+            "key": "ref12",
+            "score": 115.85016,
+            "unstructured": "Liver tumor volume estimation by semiautomatic segmentation method+Proceedings of the 2005 IEEE Engineering in Medicine and Biology 27th Annual Conference Shanghai, China, September+1+4+3297+3299+2005+R. Lu+P. Marziliano+C.H. Thng"
+          },
+          {
+            "doi": "10.1016/1047-3203(90)90014-m",
+            "key": "ref13",
+            "score": 77.52061,
+            "unstructured": "Morphological segmentation+Journal of Visual Communication and Image Representation+1+1+21+46+September 1990+S. Beucher"
+          },
+          {
+            "doi": "10.1117/12.655213",
+            "key": "ref14",
+            "score": 134.74933,
+            "unstructured": "Tumor volume measurement and volume measurement comparison plug-ins for volview using itk+Proceedings of the SPIE : The International Society for Optical Engineering+6141+395+402+2006+T. Popa+L. Ibanez+E. Levy+A. White+J. Bruno+K. Cleary"
+          },
+          {
+            "key": "ref15",
+            "score": 52.111557,
+            "unstructured": "Virtual open heart surgery: Obtaining models suitable for surgical simulation+Proceedings of Medicine Meets Virtual Reality 15. Stud Health Technol Inform+2007+125+445+7+J. Stawiaski+J. Mosegaard"
+          },
+          {
+            "key": "ref16",
+            "score": 59.174324,
+            "unstructured": "`ere. Computing approximate geodesics and minimal surfaces using watershed and graph-cuts+Proceedings of the The 8th International Symposium on Mathematical Morphology+1+349+360+2007+J. Stawiaski+E. Decenci"
+          },
+          {
+            "doi": "10.5566/ias.v27.p39-45",
+            "key": "ref17",
+            "score": 60.20191,
+            "unstructured": "`ere. Combining graph-cuts and morphological segmentation+Image Analysis and Stereolgy+27+1+39+46+2008+J. Stawiaski+E. Decenci"
+          },
+          {
+            "key": "ref18",
+            "score": 55.270847,
+            "unstructured": "Virtual open heart surgery: Segmentation+Proceedings of Medicine Meets Virtual Reality 15. Stud Health Technol Inform+125+448+50+2007+J. J. Stawiaski+T.S. Mosegaard+S\u00f8rensen"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

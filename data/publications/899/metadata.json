@@ -35,6 +35,55 @@
     "revisions": [
       {
         "article": "bafybeiamre4l7hca3f4dhhqbudhess3h7bpmwm3ua2ijmrf7f2yjnlyslu",
+        "citation_list": [
+          {
+            "doi": "10.1007/bfb0056195",
+            "key": "ref1",
+            "score": 122.164566,
+            "unstructured": "Multiscale vessel enhancement filtering+In Medical Image Computing and Computer-Assisted Interventation (MICCAI)+130+137+1998+A.F. Frangi+W.J. Niessen+K.L. Vincken+M.A. Viergever"
+          },
+          {
+            "key": "ref2",
+            "score": 36.70721,
+            "unstructured": "The ITK Software Guide 2nd Ed. Kitware, Inc. ISBN 1-930934-15-7+2005+L. Ibanez+W. Schroeder+L. Ng+J. Cates"
+          },
+          {
+            "doi": "10.1109/iccv.1995.466846",
+            "key": "ref3",
+            "score": 81.48612,
+            "unstructured": "Multiscale detection of curvilinear structures in 2-d and 3-d image data+In In Proc. Fifth International Conference on Computer Vision (ICCV'95)+864+9+1995+T. M. Koller+D. Dettwiler"
+          },
+          {
+            "doi": "10.1006/cviu.2000.0866",
+            "key": "ref4",
+            "score": 120.33172,
+            "unstructured": "Model based detection of tubular structures in 3d images+Computer Vision+80+2+130+171+2000+K. Krissian+N. Ayache+R. Vaillant+Y. Trousset"
+          },
+          {
+            "doi": "10.1007/978-3-540-88693-8_27",
+            "key": "ref5",
+            "score": 69.78101,
+            "unstructured": "Three dimensional curvilinear structure detection using optimally oriented flux+volume LNCS 5305+368+82+2008+M.W.K. Law+A.C.S. Chung+A Torr D. Forsyth"
+          },
+          {
+            "doi": "10.1109/isbi.2009.5193040",
+            "key": "ref6",
+            "score": 108.46192,
+            "unstructured": "Design and study of flux-based features for 3d vascular tracking+In In Proc. of Int. Symp. Biomedical Imaging (ISBI)+286+9+2009+D. Lesage+E.D. Angelini+I. Bloch+G. Funka-Lea"
+          },
+          {
+            "doi": "10.1016/j.media.2009.07.011",
+            "key": "ref7",
+            "score": 150.10199,
+            "unstructured": "A review of 3d vessel lumen segmentation techniques: Models, features and extraction schemes+Medical Image Analysis+13+6+819+845+December 2009+D. Lesage+E.D. Angelini+I. Bloch+G. Funka-Lea"
+          },
+          {
+            "doi": "10.1007/s10115-010-0377-x",
+            "key": "ref8",
+            "score": 94.20764,
+            "unstructured": "Knowledge management in image-based analysis of blood vessel structures+Knowledge and Information Systems+30+2+457+491+2012+I. Macia+M.+C. Paloc"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

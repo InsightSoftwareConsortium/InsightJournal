@@ -51,6 +51,102 @@
     "revisions": [
       {
         "article": "bafybeifeitqooacbgrq2gmfj2htaxc5z75mpa4vi46k4rvkaqwrwgm3yei",
+        "citation_list": [
+          {
+            "doi": "10.1109/tpami.2010.161",
+            "key": "ref1",
+            "score": 101.20197,
+            "unstructured": "Contour detection and hierarchical image segmentation+IEEE Trans. on Pat. Anal. Mach. Intel+898+5+916+2011+P. Arbelaez+M. Maire+C. Fowlkes+Malik"
+          },
+          {
+            "doi": "10.1137/040616024",
+            "key": "ref2",
+            "score": 103.37633,
+            "unstructured": "A review of image denoising algorithms, with a new one+Multiscale Modeling & Simulation+490+2+530+2005+A. Buades+B. Coll+J.M.: Morel"
+          },
+          {
+            "doi": "10.1117/12.911534",
+            "key": "ref3",
+            "score": 129.25032,
+            "unstructured": "Segmentation of parotid glands in head and neck CT images using a constrained active shape model with landmark uncertainty+83140P+8314+2012+A. Chen+J.H. Noble+K.J. Niermann+M.A. Deeley+B.M.: Dawant"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2010.09.018",
+            "key": "ref4",
+            "score": 141.34479,
+            "unstructured": "Patch-based segmentation using expert priors: Application to hippocampus and ventricle segmentation+NeuroImage+940+2+954+2011+P. Coupe+J.V. Manjon+V. Fonov+J. Pruessner+M. Robles+D.L. Collins"
+          },
+          {
+            "doi": "10.1109/cvpr.2005.177",
+            "key": "ref5",
+            "score": 74.10733,
+            "unstructured": "CVPR 2005+In: Computer Vision and Pattern Recognition+2005+886+893+N. Dalal+B. Triggs+IEEE"
+          },
+          {
+            "doi": "10.1118/1.4871623",
+            "key": "ref6",
+            "score": 175.8351,
+            "unstructured": "Automatic segmentation of head and neck ct images for radiotherapy treatment planning using multiple atlases, statistical appearance models, and geodesic active contours+Medical physics 41(5)+051910+2014+K.D. Fritscher+M. Peroni+P. Spadea+M.F. Schubert+R. Sharp+G."
+          },
+          {
+            "key": "ref7",
+            "score": 38.303047,
+            "unstructured": "Medical Image Analysis for the Clinic: A Grand Challenge+297+304+2010+X. Han+L.S., Hibbard+N.P. Willcut+V."
+          },
+          {
+            "doi": "10.1016/0031-3203(91)90143-s",
+            "key": "ref8",
+            "score": 112.98033,
+            "unstructured": "Unsupervised texture segmentation using gabor lters+Pattern recognition+1167+12+1186+1991+A.K. Jain+F. Farrokhnia"
+          },
+          {
+            "doi": "10.1109/tmi.2012.2230018",
+            "key": "ref9",
+            "score": 127.12279,
+            "unstructured": "Sparse patch-based label propagation for accurate prostate localization in ct images+Medical Imaging, IEEE Transactions on 32(2)+419+434+2013+S. Liao+Y. Gao+J. Lian+D. Shen"
+          },
+          {
+            "doi": "10.1007/978-3-642-38868-2_43",
+            "key": "ref10",
+            "score": 130.23714,
+            "unstructured": "Automatic prostate mr image segmentation with sparse label propagation and domain-speci c manifold regularization+In: IPMI+511+523+2013+S. Liao+Y. Gao+Y. Shi+A. Yousuf+I. Karademir+A. Oto+D. Shen"
+          },
+          {
+            "doi": "10.1109/tpami.2014.2321376",
+            "key": "ref11",
+            "score": 95.62148,
+            "unstructured": "Scalable nearest neighbor algorithms for high dimensional data+Pattern Analysis and Machine Intelligence+36+2014+M. Muja+D.G. Lowe"
+          },
+          {
+            "doi": "10.1118/1.3654160",
+            "key": "ref12",
+            "score": 135.53206,
+            "unstructured": "Auto-segmentation of normal and target structures in head and neck CT images: A feature-driven model-based approach+Medical physics 38+6160+2011+A.A. Qazi+V. Pekar+J. Kim+J. Xie+S.L. Breen+Ja ray"
+          },
+          {
+            "key": "ref13",
+            "score": 35.729675,
+            "unstructured": "Medical Image Analysis for the Clinic: A Grand Challenge+281+288+2010+L. Ramus+Malandain"
+          },
+          {
+            "doi": "10.1109/tmi.2011.2156806",
+            "key": "ref14",
+            "score": 104.62796,
+            "unstructured": "A supervised patch-based approach for human brain labeling+IEEE Trans. Med. Imaging+30+10+2011+F. Rousseau+P.A. Habas+C. Studholme"
+          },
+          {
+            "doi": "10.1016/j.media.2011.03.001",
+            "key": "ref15",
+            "score": 99.313545,
+            "unstructured": "Entropy and laplacian images: Structural representations for multimodal registration+Medical Image Analysis+1+1+17+2012+C. Wachinger+Navab"
+          },
+          {
+            "doi": "10.1007/978-3-642-40760-4_27",
+            "key": "ref16",
+            "score": 90.93196,
+            "unstructured": "Contour-driven regression for label inference in atlas-based segmentation+In: MICCAI 2013. LNCS+2013+C. Wachinger+G. Sharp+P. Golland"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

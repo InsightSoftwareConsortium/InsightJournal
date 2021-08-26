@@ -90,6 +90,128 @@
     "revisions": [
       {
         "article": "bafybeiae3iepi534eaxfmz47ejookp7yzxkvlqjgzgpzgsu3neekeqrk6q",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 9.325281,
+            "unstructured": "org/. 1"
+          },
+          {
+            "doi": "10.1117/12.348547",
+            "key": "ref2",
+            "score": 146.1693,
+            "unstructured": "The need to develop guidelines for evaluations of medical image processing procedures+In SPIE Medical Imaging+2+1999+3+I. Buvat+V. Chameroy+F. Aubry+M. Plgrini+G. E. Fakhri+C. Huguenin+H. Benali+A. Todd-Pokropek+R. D. Paola"
+          },
+          {
+            "doi": "10.1016/s0360-3016(04)01197-6",
+            "key": "ref3",
+            "score": 177.16025,
+            "unstructured": "Image-guided radiotherapy for lung cancer: Respiration-correlated (cone-beam) CT to verify tumor position and motion characteristics during treatment delivery+(abstract) Int J Radiat Oncol Biol Phys+4+1+1+2004+E. Damen+J. Wolthaus+M. van Herk+P. Remeijer+L. Zijp+J. Belderbos+K. Jaeger+J. Lebesque+L. Boersma"
+          },
+          {
+            "key": "ref4",
+            "score": 26.931622,
+            "unstructured": "Medical Image Navigation and Research Tool by INRIA (MedINRIA) Tutorial v2.0+2007+P. Filliard+JC. Souplet ans N. Toussaint"
+          },
+          {
+            "doi": "10.1109/42.952729",
+            "key": "ref5",
+            "score": 98.25079,
+            "unstructured": "The distribution of target registration error in rigid-body point-based registration+IEEE Transactions on Medical Imaging+2+9+3+927+September 2001"
+          },
+          {
+            "key": "ref6",
+            "score": 24.844933,
+            "unstructured": "second edition+2005+L. Ibanez+W. Schroeder+L. Ng+J. Cates"
+          },
+          {
+            "doi": "10.1109/tmi.2002.806568",
+            "key": "ref7",
+            "score": 123.31877,
+            "unstructured": "Validation of medical image processing in image-guided therapy+IEEE Trans Med Imaging+2+11+3+1449+2002+P. Jannin+M. Fitzpatrick+D. Hawkes+X. Pennec+R. Shahidi+M. Vannier"
+          },
+          {
+            "doi": "10.1118/1.2349696",
+            "key": "ref8",
+            "score": 110.734024,
+            "unstructured": "The management of respiratory motion in radiation oncology report of aapm task group 76+Med Phys+33+10+1+3900+Oct 2006+Paul J Keall+Kenneth M Forster+Steve B Jiang Martin J Murphy+S. Marcel B Van Herk+Vedam Sastry+Ellen Yorke"
+          },
+          {
+            "key": "ref9",
+            "score": 52.56779,
+            "unstructured": "Amide: A completely free system for medical imaging data analysis+Journal of Nuclear Medicine+42+5+192+2001+A. Loening+S. Gambhir"
+          },
+          {
+            "doi": "10.1088/0031-9155/49/6/n03",
+            "key": "ref10",
+            "score": 85.264336,
+            "unstructured": "Four-dimensional Monte Carlo simulation of time-dependent geometries+Phys Med Biol+4+6+3+March 2004+H. Paganetti"
+          },
+          {
+            "doi": "10.1117/12.707623",
+            "key": "ref11",
+            "score": 114.690926,
+            "unstructured": "Gated cone-beam CT imaging of the thorax: a reconstruction study+In SPIE Medical Imaging+4+February 2007+1+S. Rit+D. Sarrut+S. Miguet"
+          },
+          {
+            "doi": "10.1007/s10278-004-1014-6",
+            "key": "ref12",
+            "score": 94.49526,
+            "unstructured": "An open-source software for navigating in multidimensional images+In Journal of Digital Imaging+205+216+2004+A. Rousset+L. Spadola+O. Ratib"
+          },
+          {
+            "doi": "10.1109/tmi.2007.901006",
+            "key": "ref13",
+            "score": 144.44052,
+            "unstructured": "A comparison framework for breathing motion estimation methods from 4D imaging+IEEE Transaction on Medical Imaging+26+12+1636+1648+2007+D. Sarrut+B. Delhay+V. Boldea+M. Beuve+P. Clarysse"
+          },
+          {
+            "doi": "10.1118/1.2884854",
+            "key": "ref14",
+            "score": 116.27509,
+            "unstructured": "Region-oriented ct image representation for reducing computing time of monte carlo simulations+Med Phys+4+4+3+1463+April 2008+D. Sarrut+L. Guigues"
+          },
+          {
+            "doi": "10.1078/0939-3889-00327",
+            "key": "ref15",
+            "score": 75.677925,
+            "unstructured": "Deformable registration for image-guided radiation therapy+Z Med Phys+16+4+1+297+December 2006+David Sarrut"
+          },
+          {
+            "doi": "10.1109/visual.1996.567752",
+            "key": "ref16",
+            "score": 78.093025,
+            "unstructured": "The Visualization Toolkit, An Object Oriented Approach to 3D Graphics. Kitware Inc+1998+W. Schroeder+K. Martin+and B. Lorensen"
+          },
+          {
+            "doi": "10.1118/1.2821704",
+            "key": "ref17",
+            "score": 145.69029,
+            "unstructured": "Dosimetric impact of motion in free-breathing and gated lung radiotherapy: a 4d monte carlo study of intrafraction and interfraction effects+Med Phys+4+1+3+366+Jan 2008+Seco Joao+Florian Ziji Wu+Harald Buettner+Paganetti"
+          },
+          {
+            "key": "ref18",
+            "score": 22.02583,
+            "unstructured": "application framework+2008+Trolltech. Qt"
+          },
+          {
+            "key": "ref19",
+            "score": 51.45556,
+            "unstructured": "Point-validated pixel-based breathing thorax model+page 6247+June 2007+3+J. Vandemeulebroucke+D. Sarrut+P. Clarysse"
+          },
+          {
+            "doi": "10.1088/0031-9155/48/1/304",
+            "key": "ref20",
+            "score": 100.642235,
+            "unstructured": "Acquiring a fourdimensional computed tomography dataset using an external respiratory signal+Phys Med Biol+48+1+45+62+2003+H. SS. Vedam+R. Mostafavi+Mohan"
+          },
+          {
+            "doi": "10.1097/00004728-199707000-00007",
+            "key": "ref21",
+            "score": 200.03464,
+            "unstructured": "Comparison and Evaluation of Retrospective Intermodality Image Registration Techniques+Journal of Computed Assisted Tomograpy+2+4+3+566+1997+J. West+J.M. Fitzpatrick+M.Y. Wang+B.M. Dawant+C.R. Maurer+R.M. Kessler+R.J. Maciunas+C. Barillot+D. Lemoine+A. Collignon+F. Maes+P. Suetens+D. Vandermeulen+P.A. Van Den Elsen+T. Sumanaweera+B. Harkness+P.F. Hemler+D.L.G. Hill+D.J. Hawkes+C. Studholme+J.B.A. Maintz+M.A. Viergever+G. Malandain+X. Pennec+M.E. Noz+G.Q. Maguire+M. Pollack+C.A. Pelizzari+R.A. Robb+D. Hanson+R.P. Woods"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

@@ -46,6 +46,97 @@
     "revisions": [
       {
         "article": "bafybeibk7q27keenv7jiidkiqcnj3j43awhwuuehaucruyygpmrbj444fu",
+        "citation_list": [
+          {
+            "doi": "10.1007/978-3-540-73055-2_8",
+            "key": "ref1",
+            "score": 94.02653,
+            "unstructured": "Automatic Segmentation of Single and Multiple Neoplastic Hepatic Lesions in CT Images+LNCS+4528+63+71+2007+M. Ciecholewski+M.R. Ogiela"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2004.06.043",
+            "key": "ref2",
+            "score": 132.95593,
+            "unstructured": "CRUISE: Cortical reconstruction using implicit surface evolution+NeuroImage 23+997+1012+2004+X. Han+D.L. Pham+D. Tosun+M.E. Rettmann+C. Xu+J.L. Prince"
+          },
+          {
+            "doi": "10.1109/tpami.2003.1201824",
+            "key": "ref3",
+            "score": 112.184,
+            "unstructured": "A Topology Preserving Level Set Method for Geometric Deformable Models+IEEE Transactions on Pattern Analysis and Machine Intelligence+25+6+2003+X. Han+C. Xu+J.L. Prince"
+          },
+          {
+            "doi": "10.4304/jltr.4.2.432-436",
+            "key": "ref4",
+            "score": 96.725204,
+            "unstructured": "Fig. 3. Examples of segmentations overlaid on image slices (a) IMG04 L2 and IMG04 L3, (b) IMG10 L1, (c) IMG02 L2, (d) IMG05 L1 and IMG05 L2, (e) IMG06 L2 (with overflow to adjacent structure), (f) IMG08 L1 (with overflow to adjacent structure)"
+          },
+          {
+            "doi": "10.1109/isbi.2008.4541116",
+            "key": "ref5",
+            "score": 120.62582,
+            "unstructured": "3D general lesion segmentation in CT. 5th IEEE International Symposium on Biomedical Imaging: From Nano to Macro+ISBI 2008+796+799+2008+M.-P. Jolly+L. Grady"
+          },
+          {
+            "doi": "10.1117/12.534145",
+            "key": "ref6",
+            "score": 64.61757,
+            "unstructured": "Segmentation of the Liver using a 3D Statistical Shape Model+ZIB-Report 04-09+2004+H. Lamecker+T. Lange+M. Seebass"
+          },
+          {
+            "doi": "10.1109/cbms.2001.941749",
+            "key": "ref7",
+            "score": 128.77795,
+            "unstructured": "Analysis & Visualization In Clinical Research. IEEE Computer-based Medical Systems+381+386+2001+McAuliffe M.J.+F.M. Lalonde+McGarry D. Gandler+W. Csaky+K. Trus+B.L. Medical Image+Processing"
+          },
+          {
+            "doi": "10.1007/0-387-22746-6_1",
+            "key": "ref8",
+            "score": 77.37738,
+            "unstructured": "Level set methods and dynamic implicit surfaces+2003+S.J. Osher+Fedkiw"
+          },
+          {
+            "doi": "10.1007/11428831_116",
+            "key": "ref9",
+            "score": 92.184265,
+            "unstructured": "Automatic Hepatic Tumor Segmentation Using Statistical Optimal Threshold+LNCS+3514+934+940+2005+Park+Seo+Park"
+          },
+          {
+            "doi": "10.1006/cviu.2001.0951",
+            "key": "ref10",
+            "score": 93.35482,
+            "unstructured": "Spatial Models for Fuzzy Clustering+Computer Vision and Image Understanding+84+285+297+2001+D.L. Pham"
+          },
+          {
+            "doi": "10.1146/annurev.bioeng.2.1.315",
+            "key": "ref11",
+            "score": 88.21098,
+            "unstructured": "A survey of current methods in medical image segmentation+Annu. Rev. Biomed. Eng.+2+315+337+2000+D.L. Pham+C. Xu+J.L.: Prince"
+          },
+          {
+            "doi": "10.1007/11424925_87",
+            "key": "ref12",
+            "score": 61.382225,
+            "unstructured": "Automatic Boundary Tumor Segmentation of a Liver+LNCS+3483+836+842+2005+Seo+Chung"
+          },
+          {
+            "doi": "10.1073/pnas.93.4.1591",
+            "key": "ref13",
+            "score": 118.50336,
+            "unstructured": "A fast marching level set method for monotonically advancing fronts+Proceedings of the National Academy of Sciences+93+1591+1595+1996+J.A. Sethian"
+          },
+          {
+            "doi": "10.1108/k.2000.29.2.239.3",
+            "key": "ref14",
+            "score": 101.069435,
+            "unstructured": "Level set methods and fast marching methods: evolving interfaces in computational geometry, fluid mechanics, computer vision+1999+J.A. Sethian"
+          },
+          {
+            "key": "ref15",
+            "score": 47.9487,
+            "unstructured": "A review of nonlinear diffusion filtering+LNCS+1252+3+28+1997+J.: Weickert"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

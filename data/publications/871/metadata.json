@@ -103,6 +103,133 @@
     "revisions": [
       {
         "article": "bafybeihpnlgm2gln73tpma6ubmgooh7pm3r3qplyn6hkvbe7ch3bjwwzae",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 24.613487,
+            "unstructured": "A.1+2002+Francesc Alted+Ivan Vilata"
+          },
+          {
+            "doi": "10.1007/978-3-642-04271-3_11",
+            "key": "ref2",
+            "score": 115.88181,
+            "unstructured": "Sze\u00b4kely. Conditional variability of statistical shape models based on surrogate variables+In Medical Image Computing and Computer-Assisted Intervention (MICCAI)+2009+1+5+2+R. Blanc+M. Reyes+C. Seiler+G."
+          },
+          {
+            "doi": "10.1007/978-3-642-02498-6_50",
+            "key": "ref3",
+            "score": 72.71237,
+            "unstructured": "Sze\u00b4kely. Estimating the confidence of statistical model based shape prediction+In Information Processing in Medical Imaging, page 602613+2009+4+5+R. Blanc+G."
+          },
+          {
+            "doi": "10.1109/tmi.2012.2188904",
+            "key": "ref4",
+            "score": 69.9768,
+            "unstructured": "\u00b4kely. Confidence regions for statistical model based shape prediction from sparse observations+PMID: 22374354. 4.5+February 2012+R Blanc and G Sze"
+          },
+          {
+            "doi": "10.1016/j.media.2012.04.004",
+            "key": "ref5",
+            "score": 114.46027,
+            "unstructured": "Statistical model based shape prediction from a combination of direct observations and various surrogates: Application to orthopaedic research+Medical Image Analysis, (0)+2012+Rmi Blanc+Mauricio Lutz-Peter Nolte+Reyes"
+          },
+          {
+            "doi": "10.1145/311535.311556",
+            "key": "ref6",
+            "score": 123.97507,
+            "unstructured": "A morphable model for the synthesis of 3D faces+In SIGGRAPH '99: Proceedings of the 26th annual conference on Computer graphics and interactive techniques, page 187194+1999+Volker Blanz+Thomas Vetter"
+          },
+          {
+            "doi": "10.1007/978-3-642-23629-7_50",
+            "key": "ref7",
+            "score": 117.19193,
+            "unstructured": "Minimization of intra-operative shaping of orthopaedic fixation plates: a population-based design+Medical Image Computing and ComputerAssisted InterventionMICCAI+2011+409416+H. Bou-Sleiman+L. Ritacco+L.P. Nolte+M. Reyes"
+          },
+          {
+            "doi": "10.1016/0262-8856(94)90060-4",
+            "key": "ref8",
+            "score": 112.123024,
+            "unstructured": "Use of active shape models for locating structures in medical images+Image and vision computing+12+6+355365+1994+A. T. F Cootes+Hill+J. C. J Taylor+Haslam"
+          },
+          {
+            "key": "ref9",
+            "score": 21.501873,
+            "unstructured": "Beno\u02c6\u0131t Jacob+Eigen v3+2010"
+          },
+          {
+            "doi": "10.1016/j.media.2004.11.007",
+            "key": "ref10",
+            "score": 116.88567,
+            "unstructured": "Tissue deformation and shape models in image-guided interventions: a discussion paper+Medical Image Analysis+9+2+163175+2005+DJ Hawkes+D. Barratt+C. Chan+PJ Edwards+and DLG McClelland+Hill"
+          },
+          {
+            "doi": "10.1016/j.media.2009.05.004",
+            "key": "ref11",
+            "score": 98.77055,
+            "unstructured": "Statistical shape models for 3D medical image segmentation: A review+Medical Image Analysis+2009+T. Heimann+H. P Meinzer"
+          },
+          {
+            "doi": "10.1364/josaa.4.000629",
+            "key": "ref12",
+            "score": 61.646503,
+            "unstructured": "Closed-form solution of absolute orientation using unit quaternions+4+4+629642+2+B. K.P Horn+A."
+          },
+          {
+            "doi": "10.1016/j.media.2010.02.008",
+            "key": "ref13",
+            "score": 63.696194,
+            "unstructured": "Statistical Shape Space Analysis Based on Level Sets for Optimization of Orthopaedic Implant Design+PhD thesis+2009+N. Kozic"
+          },
+          {
+            "doi": "10.1007/978-3-642-03596-8_14",
+            "key": "ref14",
+            "score": 84.34975,
+            "unstructured": "Probabilistic modeling and visualization of the flexibility in morphable models+In Proceedings of the 13th IMA International Conference on Mathematics of Surfaces XIII, page 264+2009+1+5+1+M. Lu+T. Vetter"
+          },
+          {
+            "doi": "10.1007/978-3-642-23123-0_20",
+            "key": "ref15",
+            "score": 74.33124,
+            "unstructured": "Using landmarks as a deformation prior for hybrid image registration+Pattern Recognition, page 196205+2011+5+1+M. Lu+T. Vetter"
+          },
+          {
+            "key": "ref16",
+            "score": 48.952106,
+            "unstructured": "2+1+February 1980+V. Kanti+J. T. Mardia+J. M. Bibby. Multivariate Kent+Analysis"
+          },
+          {
+            "key": "ref17",
+            "score": 45.148453,
+            "unstructured": "[19] MATLAB. version 7+R2010a+The MathWorks Inc+2010+Natick"
+          },
+          {
+            "doi": "10.1109/avss.2009.58",
+            "key": "ref18",
+            "score": 147.68636,
+            "unstructured": "A 3D face model for pose and illumination invariant face recognition+In Advanced Video and Signal Based Surveillance+2009+296301+P. Paysan+R. Knothe+B. Amberg+S. Romdhani+T. Vetter"
+          },
+          {
+            "key": "ref19",
+            "score": 26.788565,
+            "unstructured": "A Language and Environment for Statistical Computing+2011+ISBN 3-900051-07-0. A.1+R Development Core Team. R:"
+          },
+          {
+            "key": "ref20",
+            "score": 23.82035,
+            "unstructured": "EM algorithms for PCA and SPCA+2+1998+2+S. Roweis"
+          },
+          {
+            "doi": "10.1111/1467-9868.00196",
+            "key": "ref21",
+            "score": 75.15136,
+            "unstructured": "Probabilistic principal component analysis+Journal of the Royal Statistical Society+2+2+622+September 1999+E. Michael+Tipping+Christopher M. Bishop"
+          },
+          {
+            "key": "ref22",
+            "score": 37.027527,
+            "unstructured": "Statistical finite element modeling: application to orthopedic implant design+Habilitation+2011+Guoyan Zheng"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

@@ -81,6 +81,67 @@
     "revisions": [
       {
         "article": "bafybeia4v7xoefpbnllw47prldbrpwejrrfz4uox3ry7dhcjtcldqbckau",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 52.532078,
+            "unstructured": "11:4\u00a1243::AID-CMR5\u00bf3.0+Concepts in Magnetic Resonance+10+4+2+1+0534+B. Peter+Kingsley+C."
+          },
+          {
+            "doi": "10.1063/1.1684482",
+            "key": "ref2",
+            "score": 91.07753,
+            "unstructured": "Time saving in measurement of nmr and epr relaxation times+Review of Scientific Instruments+1+2+2+1970+D. C. Look+D. R. Locker"
+          },
+          {
+            "doi": "10.1002/mrm.1910260217",
+            "key": "ref3",
+            "score": 119.9362,
+            "unstructured": "Rapid t1 estimation using tagged magnetization-prepared gradient-echo mr imaging+Magnetic Resonance in Medicine+1+2+2+1992+Niitsu Mamoru+Stephen J. Riederer+Yuji Itai"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2007.09.061",
+            "key": "ref4",
+            "score": 120.2147,
+            "unstructured": "Composite voxel-based analysis of volume and t2 relaxometry in temporal lobe epilepsy+NeuroImage+1151+3+1161+2008+S. Gaby+David F. Pell+Graeme D. Abbott+Jackson"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2003.09.059",
+            "key": "ref5",
+            "score": 136.1036,
+            "unstructured": "Voxel-based relaxometry: a new approach for analysis of t2 relaxometry changes in epilepsy+NeuroImage+707+2+713+2004+S. Gaby+Pell+David F. Waites+Graeme D. Abbott+Jackson"
+          },
+          {
+            "doi": "10.1006/nimg.2001.0886",
+            "key": "ref6",
+            "score": 108.28153,
+            "unstructured": "A new method for fast multislice t1 mapping+TY - JOUR. 1.2+1175+5+1185+2001+N. J. Shah+M. Zaitsev+S. Steinhoff+K. Zilles"
+          },
+          {
+            "doi": "10.1002/mrm.1168",
+            "key": "ref7",
+            "score": 79.808395,
+            "unstructured": "Fast t1 mapping with volume coverage+Magnetic Resonance in Medicine+10+1+2+2001+S. Steinhoff+M. Zaitsev+K. Zilles+N. J. Shah"
+          },
+          {
+            "doi": "10.1002/jmri.1880040513",
+            "key": "ref8",
+            "score": 73.13864,
+            "unstructured": "A novel fast t1-mapping method+Journal of Magnetic Resonance Imaging+10+1+2+1994+Y. Chun+Frank S. Tong+Prato"
+          },
+          {
+            "doi": "10.1002/mrm.20602",
+            "key": "ref9",
+            "score": 107.25818,
+            "unstructured": "Full-brain t1 mapping through inversion recovery fast spin echo imaging with time-ef cient slice ordering+Magnetic Resonance in Medicine+10+1+2+2005+C. David+Richard D. Zhu+Penn"
+          },
+          {
+            "doi": "10.1109/42.700728",
+            "key": "ref10",
+            "score": 114.32224,
+            "unstructured": "T1 fast acquisition relaxation mapping (t1-farm): an optimized reconstruction+IEEE Transactions on Medical Imaging+155+2+2+1998+254X+Chen Zuoqun+F. S. Prato+C. McKenzie"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

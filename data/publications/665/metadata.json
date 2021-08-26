@@ -33,6 +33,61 @@
     "revisions": [
       {
         "article": "bafybeidorc2v7setch3f3cs7n6c6opkzti74ilboc2vvoyxplk47pbzqfq",
+        "citation_list": [
+          {
+            "doi": "10.1109/tmi.2003.817756",
+            "key": "ref1",
+            "score": 165.97151,
+            "unstructured": "Level-set based artery-vein separation in blood pool agent ce-mr angiograms+IEEE Trans. Med+22+10+1224+1234+2003+C. Van Bemmel+L. Spreeuwers+M. Viergever+W. Niessen"
+          },
+          {
+            "doi": "10.1117/12.770481",
+            "key": "ref2",
+            "score": 69.24242,
+            "unstructured": "Reinhardt+SPIE Medical Imaging+1+2008+3+O. Cuisenaire+S. Virmani+M.E. Olszewski+R. Ardon+J. P. W."
+          },
+          {
+            "doi": "10.1016/s1361-8415(01)00046-9",
+            "key": "ref3",
+            "score": 70.42531,
+            "unstructured": "Fast extraction of minimal paths in 3-d images and applications to virtual endoscopy+Med+5+4+281+299+2001+T. Deschamps+L. Cohen"
+          },
+          {
+            "key": "ref4",
+            "score": 58.34781,
+            "unstructured": "2009+3d segmentation in the clinic: Carotid lumen segmentation and stenosis grading challenge+nl. 1+4+K. Hameeteman+M. Zuluaga+L. Joskowicz+M. Freiman+T."
+          },
+          {
+            "doi": "10.1145/1031120.1031121",
+            "key": "ref5",
+            "score": 78.07412,
+            "unstructured": "A review of vessel extraction techniques and algorithms+36+2+81+121+2004+C. Kirbas+F. Quek"
+          },
+          {
+            "doi": "10.1109/tmi.2006.891503",
+            "key": "ref6",
+            "score": 112.499306,
+            "unstructured": "Vessel axis tracking using topology constrained surface evolution+IEEE Trans. Med+26+3+309+316+2007+R. Manniesing+M. Viergever"
+          },
+          {
+            "doi": "10.1002/mrm.10164",
+            "key": "ref7",
+            "score": 117.29433,
+            "unstructured": "-d mra coronary axis determination using a minimum cost path approach+Magn. Reson. Med+47+6+1169+1174+2002+O. Wink+A. Frangi+B. Verdonk+M. Viegever+W. Niessen"
+          },
+          {
+            "doi": "10.1109/42.848184",
+            "key": "ref8",
+            "score": 102.4659,
+            "unstructured": "Fast delineation and visualization of vessels in 3-d angiographic images+IEEE Trans. Med+19+4+337+346+2000+O. Wink+W. Niessen+M. Viegever"
+          },
+          {
+            "doi": "10.1109/tmi.2003.819920",
+            "key": "ref9",
+            "score": 93.422806,
+            "unstructured": "Multiscale vessel tracking+IEEE Trans. Med+26+1+130+133+2004+O. Wink+W. Niessen+M. Viergever"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

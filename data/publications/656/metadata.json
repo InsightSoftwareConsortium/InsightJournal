@@ -42,6 +42,24 @@
     "revisions": [
       {
         "article": "bafkreig4jdg57xka7vgt7s6w7g4fypvbr5tuvd3ltowxhmkwepoe52lv5m",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 27.149488,
+            "unstructured": "DICOM WG-10. Strategic Document. Version 9.5 March+07+2009+NEMA"
+          },
+          {
+            "doi": "10.1117/12.719536",
+            "key": "ref2",
+            "score": 114.311935,
+            "unstructured": "Summary of the White Paper of DICOM WG24 'DICOM in Surgery'. SPIE Medical Imaging: PACS and Imaging In-formatics+H U Lemke"
+          },
+          {
+            "key": "ref3",
+            "score": 57.05283,
+            "unstructured": "Geometric Meshes in Medical Applications - Steps towards a Specification of Geometric Models in DICOM+International Journal of Computer Assisted Radiology and Surgery+1+2007+440+442+M. Gessat+S. Zachow+H.U. Lemke+O. Burgert"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

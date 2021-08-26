@@ -85,6 +85,25 @@
     "revisions": [
       {
         "article": "bafybeialuzbp7xdyqlptps3hv4rupl5j3iuaozv7ziwqugwjk5q6z6m2zi",
+        "citation_list": [
+          {
+            "doi": "10.1364/oe.18.015256",
+            "key": "ref1",
+            "score": 111.629524,
+            "unstructured": "An open-source toolkit for the volumetric measurement of CT lung lesions+Optics Express+18+15256+15266+2010+Karthik Krishnan+Wesley D. Turner+S. Ricardo+Avila"
+          },
+          {
+            "doi": "10.1364/oe.18.015256",
+            "key": "ref2",
+            "score": 71.63333,
+            "unstructured": "of an open source toolkit for segmenting CT lung lesions+2009+K. [Krishnan09] Krishnan+L. Ibanez+W.D. Turner+R.S. Avila"
+          },
+          {
+            "key": "ref3",
+            "score": 49.950943,
+            "unstructured": "A. P. Reeves+A. C. Jirapatnakul+A. M. Biancardi+T. V. Apanasovich+C. Schaefer+J. J. Bowden+M. Kietzmann+R. Korn+M. Dillmann+Q. Li+J. Wang+J. H. Moltz+J. Kuhnigk+T. Hayashi+X. Zhou+H. Fujita+T. Duindam+B. van Ginneken+R. Avila+J. P. Ko+K. Melamud+H. Rusinek"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

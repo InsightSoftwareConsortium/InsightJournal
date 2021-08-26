@@ -69,6 +69,42 @@
     "revisions": [
       {
         "article": "bafybeiacpnb7jzjbikw347r7s6hshhgw3mwv7yjsuoro3jitcoksp57664",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 32.097355,
+            "unstructured": ": Proc. MICCAI Workshop+Segmentation in the Clinic: A Grand challenge+2007+T. Heimann+Styner+van Ginneken"
+          },
+          {
+            "doi": "10.1055/s-2008-1073929",
+            "key": "ref2",
+            "score": 71.88256,
+            "unstructured": "Cognition Network Technology for a Fully Automated 3D Segmentation of Liver. [1] 125{134+G. Schmidt+M. Athelogou+R. Korn+Binnig"
+          },
+          {
+            "doi": "10.1007/978-3-540-71331-9_15",
+            "key": "ref3",
+            "score": 142.11583,
+            "unstructured": "De niens cognition network technology - a novel multimodal image analysis technique for automatic identi cation and quanti cation of biological image contents+Imaging Cellular and Molecular Biological Functions+2007+407+421+M. Athelogou+G. Schmidt+A. Baatz+M. Binnig+S.L. Frischknecht"
+          },
+          {
+            "doi": "10.1016/j.mri.2006.08.013",
+            "key": "ref4",
+            "score": 165.84917,
+            "unstructured": "Automated segmentation of lateral ventricles from human and primate magnetic resonance images using cognition network technology+Magn Reson Imaging+1377+2006+1387+D. Prvulovic+A. Rotarska-Jagiela+C. Haenschel+D.E.J.: Linden"
+          },
+          {
+            "key": "ref5",
+            "score": 48.497192,
+            "unstructured": "Object-oriented and multi-scale image analysis in semantic networks+In: Proc. 2nd International Symposium on Operationalization of Remote Sensing+1999+M. Baatz+Enschede"
+          },
+          {
+            "doi": "10.1007/3-540-45468-3_62",
+            "key": "ref6",
+            "score": 156.74658,
+            "unstructured": "VALMET: A New Validation Tool for Assessing and Improving 3D Object Segmentation+In: MICCAI '01: Proceedings of the 4th International Conference on Medical Image Computing+2001+516+523+G. Gerig+M. Jomier+M.: Chakos+Intervention Computer-Assisted"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

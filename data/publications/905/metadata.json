@@ -47,6 +47,176 @@
     "revisions": [
       {
         "article": "bafybeiddaj2ycjdggzgsxsh6jzckrmwwglwexaokxlv7foo3lmpex22bbe",
+        "citation_list": [
+          {
+            "doi": "10.1016/j.neuroimage.2005.02.018",
+            "key": "ref1",
+            "score": 66.80208,
+            "unstructured": "NeuroImage+839+3+851+2005+J. Ashburner+K.J. Friston"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2009.05.029",
+            "key": "ref2",
+            "score": 163.1987,
+            "unstructured": "An evaluation of four automatic methods of segmenting the subcortical structures in the brain+NeuroImage+1435+4+1447+2009+K.O. Babalola+B. Patenaude+P. Aljabar+J. Schnabel+D. Kennedy+W. Crum+S. Smith+T. Cootes+M. Jenkinson+D.: Rueckert"
+          },
+          {
+            "doi": "10.1109/tmi.2007.893283",
+            "key": "ref3",
+            "score": 89.483986,
+            "unstructured": "Topology-Preserving Tnumber Classi cation of Magnetic Resonance Brain Images+IEEE Trans. Med+487+4+496+2007+P.L. Bazin+D.L. Pham"
+          },
+          {
+            "doi": "10.1007/bf00058655",
+            "key": "ref4",
+            "score": 70.552475,
+            "unstructured": "Machine Learning+123+2+140+1996+L.: Bagging Breiman+Predictors"
+          },
+          {
+            "doi": "10.1201/9781315139470-8",
+            "key": "ref5",
+            "score": 68.29703,
+            "unstructured": "Classi cation and Regression Trees+1984+L. Breiman+J.H. Friedman+R.A. Olshen+C.J.: Stone+U.S.A."
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2011.03.045",
+            "key": "ref6",
+            "score": 121.565704,
+            "unstructured": "Simple Paradigm for Extra-cerebral Tissue Temoval: Algorithm and Analysis+NeuroImage+56+4+2011+A. Carass+J. Cuzzocreo+M.B. Wheeler+P.L. Bazin+S.M. Resnick+J.L. Prince"
+          },
+          {
+            "doi": "10.1109/isbi.2007.356937",
+            "key": "ref7",
+            "score": 136.53073,
+            "unstructured": "A Joint Registration and Segmentation Approach to Skull Stripping+In: 4th IEEE International Symposium on Biomedical Imaging (ISBI+2007+656+659+A. Carass+M.B. Wheeler+J. Cuzzocreo+P.L. Bazin+S.S. Bassett+J.L. Prince"
+          },
+          {
+            "doi": "10.1007/11589990_156",
+            "key": "ref8",
+            "score": 69.24947,
+            "unstructured": "An Adaptive Fuzzy C-Means Algorithm with the L2 Norm+Australian Conf. on Arti cial Intel+1138+1141+2005+Cavalcanti+F. de Carvalho"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2005.07.035",
+            "key": "ref9",
+            "score": 129.04266,
+            "unstructured": "Impact of acquisition protocols and processing streams on tissue segmentation of T1 weighted MR images+NeuroImage+185+1+202+2006+K.A. Clark+R.P. Woods+D.A. Rottenber+A.W. Toga+J.C. Mazziotta"
+          },
+          {
+            "doi": "10.1109/icpr.1994.576361",
+            "key": "ref10",
+            "score": 60.87068,
+            "unstructured": "A modi ed Hausdor distance for object matching+In: Intl. Conf. on Pattern Recognition+566+568+1994+M.P. Dubuisson+A.K. Jain"
+          },
+          {
+            "doi": "10.1109/icdar.1995.598994",
+            "key": "ref11",
+            "score": 62.296467,
+            "unstructured": "Random Decision Forest+In: Proc. of the 3rd International Conference on Document Analysis and Recognition+278+16+14+August 1995+Ho"
+          },
+          {
+            "doi": "10.1109/isbi.2013.6556484",
+            "key": "ref12",
+            "score": 125.77091,
+            "unstructured": "Magnetic Resonance Image Synthesis through Patch Regression+In: 10th IEEE International Symposium on Biomedical Imaging (ISBI+2013+350+353+A. Jog+S. Roy+A. Carass+J.L. Prince"
+          },
+          {
+            "doi": "10.1109/cbms.2001.941709",
+            "key": "ref13",
+            "score": 96.85858,
+            "unstructured": "Robust fuzzy segmentation of magnetic resonance images+In: 14th IEEE Symposium on Computer-Based Medical Systems+127+131+2001+D.L. Pham"
+          },
+          {
+            "doi": "10.1007/978-3-540-88682-2_38",
+            "key": "ref14",
+            "score": 75.529175,
+            "unstructured": "Brain hallucination+In: Proceedings of the European Conference on Computer Vision (ECCV+2008+497+508+F. Rousseau+LNCS"
+          },
+          {
+            "doi": "10.1109/tmi.2011.2156806",
+            "key": "ref15",
+            "score": 94.566986,
+            "unstructured": "A Supervised Patch-Based Approach for Human Brain Labeling+IEEE Trans. Med+30+11+2011+F. Rousseau+P.A. Habas+C. Studholme"
+          },
+          {
+            "doi": "10.1109/isbi.2013.6556483",
+            "key": "ref16",
+            "score": 127.63628,
+            "unstructured": "A supervised patch-based image reconstruction technique: Apllication to brain MRI super-resolution+In: 10th IEEE International Symposium on Biomedical Imaging (ISBI+2013+346+349+F. Rousseau+C. Studholme"
+          },
+          {
+            "doi": "10.1109/isbi.2008.4541030",
+            "key": "ref17",
+            "score": 114.540695,
+            "unstructured": "Fuzzy C-Means with variable compactness+In: 5th IEEE International Symposium on Biomedical Imaging (ISBI+2008+452+455+S. Roy+H. Agarwal+A. Carass+Y. Bai+D.L. Pham+J.L. Prince"
+          },
+          {
+            "doi": "10.1117/12.877466",
+            "key": "ref18",
+            "score": 98.08679,
+            "unstructured": "Intensity inhomogeneity correction of magnetic resonance images using patches+In: Proceedings of SPIE-MI+2011+S. Roy+A. Carass+P.L. Bazin+J.L. Prince"
+          },
+          {
+            "doi": "10.1016/j.media.2011.12.001",
+            "key": "ref19",
+            "score": 115.6479,
+            "unstructured": "Consistent segmentation using a Rician classi er+Medical Image Analysis+524+2+535+2012+S. Roy+A. Carass+P.L. Bazin+S.M. Resnick+J.L. Prince"
+          },
+          {
+            "doi": "10.1117/12.844575",
+            "key": "ref20",
+            "score": 68.19948,
+            "unstructured": "Resolution through a Patch Matching Technique+2010+S. Roy+A. Carass+J.L. Prince"
+          },
+          {
+            "doi": "10.1007/978-3-642-22092-0_31",
+            "key": "ref21",
+            "score": 97.97467,
+            "unstructured": "A Compressed Sensing Approach For MR Tissue Contrast Synthesis+In: 22nd Conf. on Inf. Proc. in Medical Imaging (IPMI)+371+383+2011+S. Roy+A. Carass+J.L. Prince"
+          },
+          {
+            "doi": "10.1117/12.2043917",
+            "key": "ref22",
+            "score": 82.70732,
+            "unstructured": "Example Based Lesion Segmentation+In: Proceedings of SPIE-MI+2014+S. Roy+Q. He+A. Jog+A. Carass+P.A. Calabresi+J.L. Prince+D.L. Pham"
+          },
+          {
+            "doi": "10.1007/978-3-319-02126-3_6",
+            "key": "ref23",
+            "score": 137.50691,
+            "unstructured": "Atlas based intensity transformation of brain mr images+In: Multimodal Brain Image Analysis, Lecture Notes in Computer Science+51+62+2013+S. Roy+A. Jog+A. Carass+J.L. Prince"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2012.05.042",
+            "key": "ref24",
+            "score": 97.262344,
+            "unstructured": "Pediatric brain extraction using learning-based meta-algorithm+NeuroImage+62+3+2012+F. Shi+L. Wang+Y. Dai+J.H. Gilmore+W. Lin+D. Shen"
+          },
+          {
+            "doi": "10.1002/hbm.22409",
+            "key": "ref25",
+            "score": 141.2936,
+            "unstructured": "Robust Reconstruction of the Human Brain Cortex in the Presence of the WM Lesions: Method and Validation. Human Brain Mapping+2014+N. Shiee+P.L. Bazin+J.L. Cuzzocreo+C. Ye+B. Kishore+A. Carass+P.A. Calabresi+J.L. Prince+D.L. Pham"
+          },
+          {
+            "doi": "10.1109/42.668698",
+            "key": "ref26",
+            "score": 109.09344,
+            "unstructured": "A nonparametric method for automatic correction of intensity nonuniformity in MRI data+IEEE Trans. Med+87+1+1998+J.G. Sled+A.P. Zijdenbos+A.C. Evans"
+          },
+          {
+            "doi": "10.1109/42.811270",
+            "key": "ref27",
+            "score": 114.89757,
+            "unstructured": "Classi cation of MR Images of the Brain+IEEE Trans. Med+18+897+908+1999+K. Van Leemput+F. Maes+D. Vandermeulen+P. Suetens+Automated ModelBased Tissue"
+          },
+          {
+            "doi": "10.1109/42.906424",
+            "key": "ref28",
+            "score": 125.71675,
+            "unstructured": "Segmentation of Brain MR Images Through a Hidden Markov Random Field Model and the Expectation-Maximization Algorithm+IEEE Trans. Med+20+45+57+2001+Y. Zhang+M. Brady+S. Smith"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

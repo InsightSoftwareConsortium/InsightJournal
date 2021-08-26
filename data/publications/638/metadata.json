@@ -94,6 +94,25 @@
     "revisions": [
       {
         "article": "bafkreie4dfljg7yynqnz27dvnpqi4c33aurqoteo6sqm3rmdatd2njxmji",
+        "citation_list": [
+          {
+            "doi": "10.1109/42.796284",
+            "key": "ref1",
+            "score": 138.87799,
+            "unstructured": "Nonrigid registration using free-form deformations: application to breast mr images+IEEE Transactions On Medical Imaging+18+8+3+21+Aug 1999+D Rueckert+L I Sonoda+C Hayes+D L Hill+M O Leach+D J Hawkes"
+          },
+          {
+            "key": "ref2",
+            "score": 47.74595,
+            "unstructured": "Martin A Styner. 3d segmentation in the clinic: A grand challenge+Workshop on 3D Segmentation in the Clinic, MICCAI+2007+7+15+van Ginneken Bram+Tobias Heimann"
+          },
+          {
+            "doi": "10.1109/tmi.2004.828354",
+            "key": "ref3",
+            "score": 107.301865,
+            "unstructured": "Simultaneous truth and performance level estimation (staple): an algorithm for the validation of image segmentation+IEEE Transactions on Medical Imaging+23+7+4+21+Jul 2004+K Warfield Simon+Kelly H Zou"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

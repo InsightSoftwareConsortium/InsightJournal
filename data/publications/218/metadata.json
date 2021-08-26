@@ -51,6 +51,84 @@
     "revisions": [
       {
         "article": "bafybeiftc2kv7btx5edezrw3un34do57mano4zggi3uzmpps6b6i6bgdva",
+        "citation_list": [
+          {
+            "doi": "10.1016/j.neuroimage.2006.11.060",
+            "key": "ref1",
+            "score": 218.81218,
+            "unstructured": "Non-rigid alignment of pre-operative MRI, fMRI, and DT-MRI with intraoperative MRI for enhanced visualization and navigation in image-guided neurosurgery+Neuroimage+1+1+624+2007+4+N. Archip+O. Clatz+S. Whalen+D. Kacher+A. Fedorov+A. Kot+N. Chrisochoides+F. Jolesz+A. Golby+P. Black+S.K. Warfield"
+          },
+          {
+            "doi": "10.1007/978-3-540-75759-7_117",
+            "key": "ref2",
+            "score": 195.06999,
+            "unstructured": "Non-rigid registration of pre-procedural MR images with intra-procedural unenhanced CT images for improved targeting of tumors during liver radiofrequency ablations+Proc. of MICCAI'07+1+977+2007+1+4+N. Archip+S. Tatli+P. Morrison+F. Jolesz+S.K. Warfield+S. Silverman"
+          },
+          {
+            "doi": "10.1016/j.patcog.2007.07.011",
+            "key": "ref3",
+            "score": 104.48012,
+            "unstructured": "Binary-image comparison with local-dissimilarity classification+Pattern Recognition+1+2+1478+April 2008+2+B. Baudrier+F. Nicolier+S. Ruan"
+          },
+          {
+            "doi": "10.1109/tpami.1986.4767851",
+            "key": "ref4",
+            "score": 81.57503,
+            "unstructured": "A computational approach to edge detection+IEEE Trans. Pattern Analysis and Machine Intelligence+8+679+714+1986+J. Canny"
+          },
+          {
+            "key": "ref5",
+            "score": 33.796284,
+            "unstructured": "Brainweb: Online interface to a 3d MRI simulated brain database+NeuroImage+5+4+1997+C. Cocosco+V. Kollokian+R. Kwan+A. Evans"
+          },
+          {
+            "doi": "10.1109/34.232073",
+            "key": "ref6",
+            "score": 107.6163,
+            "unstructured": "Comparing images using the Hausdorff distance+IEEE Transactions on Pattern Analysis and Machine Intelligence+1+9+2+863+September 1993+D. Huttenlocher+D. Klanderman+A. Rucklige"
+          },
+          {
+            "doi": "10.1109/42.816072",
+            "key": "ref7",
+            "score": 88.82902,
+            "unstructured": "-based evaluation of image-processing and classification methods+IEEE Transactions on Medical Imaging+19+11+4+97+November 1999+R. Kwan+A. Evans+G. Pike. MRI"
+          },
+          {
+            "doi": "10.1109/iembs.2007.4353615",
+            "key": "ref8",
+            "score": 128.72168,
+            "unstructured": "Hausdorff distance based 3d quantification of brain tumor evolution from MRI images+Proc. of 29th Annual Intl Conf of the IEEE EMBS+5597+5600+2007+F. Morain-Nicolier+S. Lebonvallet+S. Ruan"
+          },
+          {
+            "doi": "10.1109/34.56205",
+            "key": "ref9",
+            "score": 109.55437,
+            "unstructured": "Scale-space and edge detection using anisotropic diffusion+IEEE Trans. on Pattern Analysis and Machine Intelligence+12+7+2+639+July 1990+P. Perona+J. Malik"
+          },
+          {
+            "doi": "10.1016/s1077-3142(03)00116-4",
+            "key": "ref10",
+            "score": 105.973564,
+            "unstructured": "Point similarity measures for non-rigid registration of multi-modal data+Comput. Vis. Image Underst+92+1+112+140+2003+P. Rogelj+J.C. Gee"
+          },
+          {
+            "key": "ref11",
+            "score": 54.988075,
+            "unstructured": "1987+P. Rousseeuw+A. Leroy+Outlier Detection"
+          },
+          {
+            "doi": "10.1109/83.841534",
+            "key": "ref12",
+            "score": 97.07771,
+            "unstructured": "Adaptive image contrast enhancement using generalizations of histogram equalization+IEEE Transaction on Image Processing+2000+2+J. Stark"
+          },
+          {
+            "doi": "10.1016/j.patrec.2004.09.022",
+            "key": "ref13",
+            "score": 90.947395,
+            "unstructured": "A new hausdorff distance for image matching+Pattern Recognition Letters+1+5+2+586+April 2005+C. Zhao+W. Shi+Y. Deng"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

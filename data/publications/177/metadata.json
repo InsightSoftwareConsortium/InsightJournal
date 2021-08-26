@@ -47,6 +47,43 @@
     "revisions": [
       {
         "article": "bafybeibnka5ursoj3a3nt7mn4f3sfycuwfqb67w76yg2qd5ndqepvit4p4",
+        "citation_list": [
+          {
+            "doi": "10.1109/42.845180",
+            "key": "ref1",
+            "score": 82.03623,
+            "unstructured": "\u00b4n. On the Direct Fourier Method for Computer Tomography+IEEE Transactions on Medical Imaging+19+3+223+232+2000+D. Gottlieb+B. Gustafsson+P. Forsse"
+          },
+          {
+            "key": "ref2",
+            "score": 50.00204,
+            "unstructured": "In Proceedings of the IEEE+71+390+408+1983+R. M. Lewitt"
+          },
+          {
+            "doi": "10.1109/nssmic.1992.301056",
+            "key": "ref3",
+            "score": 106.28057,
+            "unstructured": "Artefacts and Remedies in Direct Fourier Tomographic Reconstruction. Nuclear Science Symposium and Medical Imaging Conference+1+2+1140+1992+M. Magnusson+P. Edholm"
+          },
+          {
+            "doi": "10.1109/tns.1974.6499235",
+            "key": "ref4",
+            "score": 76.13926,
+            "unstructured": "The Fourier reconstruction of a head section+IEEE Transactions on Nuclear Science+4+2+43+1974+L. A. Shepp+B. F. Logan"
+          },
+          {
+            "doi": "10.1364/josa.69.001519",
+            "key": "ref5",
+            "score": 70.60421,
+            "unstructured": "Sampling theorems in polar coordinates+Journal of the Optical Society of America+4+11+2+1525+1979+H. Stark"
+          },
+          {
+            "doi": "10.1109/tassp.1981.1163528",
+            "key": "ref6",
+            "score": 131.0357,
+            "unstructured": "Direct Fourier reconstruction in computer tomography+IEEE Transactions on Acoustics, Speech, and Signal Processing [see also IEEE Transactions on Signal Processing]+29+2+1+245+April 1981+H. Stark+J. Woods+R. Hingorani"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

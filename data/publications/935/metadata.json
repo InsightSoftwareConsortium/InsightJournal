@@ -51,6 +51,78 @@
     "revisions": [
       {
         "article": "bafybeiggylj527gf2nkvtjss6eoy5ne4rlcn5lpdrkylvc2cnczilpxugu",
+        "citation_list": [
+          {
+            "doi": "10.1093/ejechocard/jeq005",
+            "key": "ref1",
+            "score": 103.35693,
+            "unstructured": "Automated border detection in three-dimensional echocardiography: principles and promises+Eur J Echocardiography+2010+11+2+97+108+KYE Leung+JG Bosch"
+          },
+          {
+            "doi": "10.1109/42.929612",
+            "key": "ref2",
+            "score": 120.75069,
+            "unstructured": "LV volume quanti - cation via spatio-temporal analysis of real-time 3D echocardiography+IEEE Transactions on Medical Imaging+2001+20+457+469+E Angelini+A Laine+S Takuma+J Holmes+S. Homma"
+          },
+          {
+            "doi": "10.1109/ultsym.2008.0429",
+            "key": "ref3",
+            "score": 130.61407,
+            "unstructured": "Automatic coupled segmentation of endo- and epicardial borders in 3D echocardiography+Proc IEEE Ultrasonics Symposium 2008+F Orderud+G Kiss+Torp H"
+          },
+          {
+            "doi": "10.1007/s10554-012-0103-8",
+            "key": "ref4",
+            "score": 144.42676,
+            "unstructured": "Quanti cation of left ventricular volume and global function using a fast automated segmentation tool: validation in a clinical setting+Int J Cardiovasc Imaging+2013+29+2+309+316+D Barbosa+B Heyde+T Dietenbeck+H Houle+D Friboulet+O Bernard+D'hooge J."
+          },
+          {
+            "doi": "10.1109/34.927467",
+            "key": "ref5",
+            "score": 103.43373,
+            "unstructured": "Active Appearance Models+IEEE Trans Pattern Anal Mach Intell+2001+23+6+681+685+TF Cootes+GJ Edwards+CJ Taylor"
+          },
+          {
+            "doi": "10.1016/j.acra.2005.06.013",
+            "key": "ref6",
+            "score": 126.0437,
+            "unstructured": "Left ventricular volume estimation in cardiac 3D ultrasound: a semi-automatic border detection approach+Academic Radiology+2005+12+1241+1249+M van Stralen+JG Bosch+MM Voormolen+G van Burken+BJ Krenning+CT Lancee"
+          },
+          {
+            "doi": "10.1109/tmi.2002.806427",
+            "key": "ref7",
+            "score": 163.27046,
+            "unstructured": "Automatic segmentation of echocardiographic sequences by Active Appearance Motion Models+IEEE Trans Med Imaging+2002+21+11+1374+1383+JG Bosch+SC Mitchell+BPF Lelieveldt+F Nijland+O Kamp+M Sonka+JHC Reiber"
+          },
+          {
+            "doi": "10.1117/12.769436",
+            "key": "ref8",
+            "score": 117.0571,
+            "unstructured": "Improving 3D Active Appearance Model segmentation of the left ventricle with Jacobian tuning+Proc SPIE Medical Imaging+2008+6914+69143B+1+11+KYE Leung+M van Stralen+MM Voormolen+JHC Reiber+JG Bosch"
+          },
+          {
+            "doi": "10.1109/34.121791",
+            "key": "ref9",
+            "score": 99.5572,
+            "unstructured": "A Method for Registration of 3+IEEE Trans Pattern Anal Mach Intell+1992+14+2+239+256+PJ Besl+ND McKay+D Shapes"
+          },
+          {
+            "doi": "10.1109/ultsym.2007.372",
+            "key": "ref10",
+            "score": 122.805786,
+            "unstructured": "Automatic Segmentation of the Left Ventricle in 3D Echocardiography Using Active Appearance Models+IEEE Ultrasonics Symposium+2007+1480+1483+M van Stralen+KYE Leung+MM Voormolen+JHC Reiber+JG Bosch"
+          },
+          {
+            "key": "ref11",
+            "score": 46.459286,
+            "unstructured": "Engineering and algorithm design for an image processing API: a technical report on ITK - the Insight Toolkit+Proc Medicine Meets Virtual Reality+2002+586+592+TS Yoo+MJ Ackerman+WE Lorensen+W Schroeder+V Chalana+S Aylward+D Metaxas+R Whitaker"
+          },
+          {
+            "key": "ref12",
+            "score": 51.107048,
+            "unstructured": "The Visualization Toolkit. 3rd edition. Kitware Inc+2003+W Schroeder"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

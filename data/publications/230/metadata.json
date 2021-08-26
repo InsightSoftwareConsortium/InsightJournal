@@ -49,6 +49,43 @@
     "revisions": [
       {
         "article": null,
+        "citation_list": [
+          {
+            "doi": "10.1007/bfb0046953",
+            "key": "ref1",
+            "score": 99.860794,
+            "unstructured": "Fast, accurate and reproducible live-wire boundary extraction+In Visualization in Biomedical Computing+2+192+1996+W. A. Barrett+E. N. Mortensen"
+          },
+          {
+            "key": "ref2",
+            "score": 58.554173,
+            "unstructured": "(document), 2+Medical Image Analysis+1+4+331+341+September 1997+W. A. Barrett+E. N. Mortensen"
+          },
+          {
+            "doi": "10.1109/42.929615",
+            "key": "ref3",
+            "score": 125.74303,
+            "unstructured": "Automatic lung segmentation for accurate quantitation of volumetric x-ray ct images+IEEE Transactions on Medical Imaging+20+6+490+498+2001+Shiying Hu+Hoffman+M. Joseph+Reinhardt"
+          },
+          {
+            "doi": "10.1145/218380.218442",
+            "key": "ref4",
+            "score": 66.12118,
+            "unstructured": "(document), 2+In PRoc. ACM SIGGRAPH 95: Computer Graphics and Interactive Techniques+191+198+August 1995+E. N. Mortensen+W. A. Barrett"
+          },
+          {
+            "doi": "10.1109/cic.1992.269378",
+            "key": "ref5",
+            "score": 98.47191,
+            "unstructured": "Adaptive boundary detection using 'live-wire' twodimensional dynamic programming+In IEEE Proc. Computers in Cardiology+2+638+1992+1+E. N. Mortensen+B. S. Morse+W. A. Barrett"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2006.01.015",
+            "key": "ref6",
+            "score": 61.067844,
+            "unstructured": "(document)+Neuroimage+31+3+1116+1128+Jul 2006+Paul A Yushkevich+Sean Ho+Guido Gerig"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

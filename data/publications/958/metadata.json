@@ -40,6 +40,108 @@
     "revisions": [
       {
         "article": "bafybeifj3lfulkmosxkhbgwbehblyv62i37jnj3ievkium3nzam6jyop7m",
+        "citation_list": [
+          {
+            "doi": "10.1088/0031-9155/54/7/001",
+            "key": "ref1",
+            "score": 135.54253,
+            "unstructured": "A framework for evaluation of deformable image registration spatial accuracy using large landmark point sets+Physics in Medicine and Biology+54+7+2009+R. Castillo+E. Castillo+R. Guerra+Johnson+T. McPhail+A.K. Garg+T. Guerrero"
+          },
+          {
+            "doi": "10.1007/s10851-010-0251-1",
+            "key": "ref2",
+            "score": 107.282585,
+            "unstructured": "A rst-order primal-dual algorithm for convex problems with applications to imaging+Journal of Mathematical Imaging and Vision+120+1+145+2011+A. Chambolle+T. Pock"
+          },
+          {
+            "key": "ref3",
+            "score": 46.46121,
+            "unstructured": "A variational approach for discontinuity-preserving image registration+In: Proceedings of ICMA-CU+266+282+2010+N. Chumchob+K. Chen"
+          },
+          {
+            "doi": "10.1007/978-3-642-23629-7_68",
+            "key": "ref4",
+            "score": 92.70252,
+            "unstructured": "Random walks for deformable image registration+In: Proceedings of MICCAI+557+565+2011+D. Cobzas+A. Sen"
+          },
+          {
+            "doi": "10.1016/j.media.2008.03.006",
+            "key": "ref5",
+            "score": 142.76471,
+            "unstructured": "Dense image registration through fMRFsg and e cient linear programming+Medical Image Analysis+731+6+741+2008+B. Glocker+N. Komodakis+G. Tziritas+N. Navab+Paragios"
+          },
+          {
+            "doi": "10.1007/3-540-45468-3_15",
+            "key": "ref6",
+            "score": 101.57706,
+            "unstructured": "Mass preserving mappings and image registration+In: Proceedings of MICCAI+120+127+2001+S. Haker+A. Tannenbaum+Kikinis"
+          },
+          {
+            "doi": "10.1109/tpami.2007.1031",
+            "key": "ref7",
+            "score": 112.14191,
+            "unstructured": "Minimizing nonsubmodular functions with graph cutsa review+IEEE Pattern Analysis and Machine Intelligence+1274+7+1279+July 2007+V. Kolmogorov+C. Rother"
+          },
+          {
+            "doi": "10.1109/cvpr.2008.4587751",
+            "key": "ref8",
+            "score": 102.67113,
+            "unstructured": "Fusion ow: Discrete-continuous optimization for optical ow estimation+In: IEEE Computer Vision and Pattern Recognition+June 2008+1+8+V. Lempitsky+S. Roth+C. Rother"
+          },
+          {
+            "doi": "10.1109/tpami.2009.143",
+            "key": "ref9",
+            "score": 72.61036,
+            "unstructured": "Fusion moves for markov random eld optimization+Tech. Rep. MSR-TR-2009-60 (May+2009+80790+V. Lempitsky+C. Rother+S. Roth+A. Blake"
+          },
+          {
+            "doi": "10.1007/978-3-642-15705-9_60",
+            "key": "ref10",
+            "score": 101.15112,
+            "unstructured": "Joint registration and segmentation of dynamic cardiac perfusion images using mrfs+In: Proceedings of MICCAI+493+501+2010+D. Mahapatra+Y. Sun"
+          },
+          {
+            "doi": "10.1007/978-3-642-33191-6_8",
+            "key": "ref11",
+            "score": 122.98743,
+            "unstructured": "Mutual information for multi-modal, discontinuity-preserving image registration+In: Advances in Visual Computing, Lecture Notes in Computer Science+70+81+2012+Panin"
+          },
+          {
+            "doi": "10.1016/j.patcog.2011.04.008",
+            "key": "ref12",
+            "score": 128.72884,
+            "unstructured": "Non-rigid image registration of brain magnetic resonance images using graph-cuts+Pattern Recognition+44+2450+2467+2011+R.W. So+C.S. Tang+A. Chung"
+          },
+          {
+            "doi": "10.1007/978-3-642-40763-5_6",
+            "key": "ref13",
+            "score": 95.4998,
+            "unstructured": "Random walks with e cient search and contextually adapted image similarity for deformable registration+In: Proceedings of MICCAI 2013+43+50+2013+L. Tang+Hamarneh"
+          },
+          {
+            "doi": "10.1007/978-3-540-75757-3_111",
+            "key": "ref14",
+            "score": 91.94629,
+            "unstructured": "Non-rigid image registration using graph-cuts+In: Proceedings of MICCAI+916+924+2007+T.W.H. Tang+A.C.S. Chung"
+          },
+          {
+            "key": "ref15",
+            "score": 44.58214,
+            "unstructured": "Image-Guided and Adaptive Radiation Therapy+2010+R. Timmerman+L. Xing"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2008.10.040",
+            "key": "ref16",
+            "score": 115.9221,
+            "unstructured": "Di eomorphic demons: E cient non-parametric image registration+In: Neuroimage+45+2009+T. Vercauteren+X. Pennec+A. Perchant+Ayache"
+          },
+          {
+            "doi": "10.1109/tvcg.2004.1260760",
+            "key": "ref17",
+            "score": 92.511314,
+            "unstructured": "Image registration using hierarchical b-splines+In: Visualization and Computer Graphics+85+94+2004+Z. Xie+G. Farin"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,
