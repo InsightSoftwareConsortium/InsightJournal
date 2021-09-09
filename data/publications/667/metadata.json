@@ -38,6 +38,62 @@
     "revisions": [
       {
         "article": "bafybeia4fdm2aume374adshvtwnkr3ogb227o223xxcuh2nbls726kwxha",
+        "citation_list": [
+          {
+            "doi": "10.1007/978-3-540-85988-8_48",
+            "key": "ref1",
+            "score": 96.264465,
+            "unstructured": "3D brain segmentation using active appearance models and local regressors+of LNCS+1+6+408+2008+2+K O Babalola+C J Twining+V Petrovic+C J Taylor."
+          },
+          {
+            "doi": "10.1109/34.927467",
+            "key": "ref2",
+            "score": 95.584564,
+            "unstructured": "Active appearance models+IEEE Transactions on Pattern Analysis and Machine Intelligence+1+2+3+685+2001+T F Cootes+G J Edwards+C J Taylor."
+          },
+          {
+            "doi": "10.1006/cviu.1995.1004",
+            "key": "ref3",
+            "score": 79.57494,
+            "unstructured": "Active Shape Models - their training and application+Computer Vision+2+1+3+59+January 1995+T F Cootes+C J Taylor+J Graham"
+          },
+          {
+            "doi": "10.5244/c.19.88",
+            "key": "ref4",
+            "score": 153.05705,
+            "unstructured": "Groupwise construction of appearance models using piece-wise affine deformations+In Proceedings of 16th British Machine Vision Conference+1+888+2005+2+T F Cootes+C J Twining+V Petrovic+R Schestowitz+C J Taylor."
+          },
+          {
+            "doi": "10.5244/c.18.30",
+            "key": "ref5",
+            "score": 107.30139,
+            "unstructured": "A multi-stage approach to facial feature detection+In 15th British Machine Vision Conference+277+286+2004+D Cristinacce+T Cootes+and I Scott"
+          },
+          {
+            "doi": "10.1023/b:visi.0000042934.15159.49",
+            "key": "ref6",
+            "score": 80.78589,
+            "unstructured": "Pictorial structures for object recognition+Int. Journal of Computer Vision+2+1+2+79+2005+P F Felzenszwalb and D P Huttenlocher"
+          },
+          {
+            "doi": "10.1109/tpami.2005.35",
+            "key": "ref7",
+            "score": 60.81446,
+            "unstructured": "Representation and detection of deformable shapes+IEEE PAMI+2+2+2+220+2005+P F Felzenszwalb and D P Huttenlocher"
+          },
+          {
+            "doi": "10.1007/978-3-540-85990-1_52",
+            "key": "ref8",
+            "score": 111.871506,
+            "unstructured": "Atlas-based auto-segmentation of head and neck CT images+of LNCS+5242+434+441+2008+X Han+P C Levendag+L S Hibbard+D N Teguh+P Voet+A C Cowen+T K Wolf"
+          },
+          {
+            "doi": "10.1109/tmi.2002.804425",
+            "key": "ref9",
+            "score": 139.19182,
+            "unstructured": "3-D active appearance models: Segmentation of cardiac MR and ultrasound images+IEEE Transactions on Medical Imaging+21+9+1167+1178+2002+S C Mitchell+R J van der Geest J G Bosch+M J H C Reiber+Sonka"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

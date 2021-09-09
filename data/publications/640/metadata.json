@@ -67,6 +67,66 @@
     "revisions": [
       {
         "article": "bafybeieaen2ibnrucbw4bvlwvsjmb2t4i3o6ups7frjslmw3jflklvd5qu",
+        "citation_list": [
+          {
+            "doi": "10.1016/j.neuroimage.2007.10.026",
+            "key": "ref1",
+            "score": 107.38712,
+            "unstructured": "Intensity non-uniformity correction using n3 on 3-t scanners with multichannel phased array coils+Neuroimage+39+4+1+1762+Feb 2008+G Boyes Richard+Derek L G Hill+Paul M Thompson+Michael W Weiner+A. D. N. I. Study."
+          },
+          {
+            "doi": "10.1137/0916069",
+            "key": "ref2",
+            "score": 97.63173,
+            "unstructured": "A limited memory algorithm for bound constrained optimization+SIAM Journal on Scientific and Statistical Computing+2+2+1208+1995+R. H. Byrd+P. Lu+J. Nocedal"
+          },
+          {
+            "doi": "10.1155/ijbi/2006/49515",
+            "key": "ref3",
+            "score": 72.511246,
+            "unstructured": "A review on mr image intensity inhomogeneity correction+Internation Journal of Biomedical Imaging+2006+1+11+Zujun Hou"
+          },
+          {
+            "doi": "10.1109/42.668698",
+            "key": "ref4",
+            "score": 61.680332,
+            "unstructured": "(document+IEEE Trans Med Imaging+1+2+3+97+Feb 1998+J. G. Sled+A. P. Zijdenbos+A. C. Evans"
+          },
+          {
+            "doi": "10.1109/42.845174",
+            "key": "ref5",
+            "score": 80.90736,
+            "unstructured": "(document)+IEEE Transactions on Medical Imaging+19+3+153+165+March 2000+M. Styner+C. Brechbuhler+G. Gerig"
+          },
+          {
+            "key": "ref6",
+            "score": 49.189674,
+            "unstructured": "-spline scattered data approximation+The Insight Journal+2005+2+3+N. J. Tustison+J. C. Gee. N-d Ck"
+          },
+          {
+            "doi": "10.1007/11812715_10",
+            "key": "ref7",
+            "score": 102.78564,
+            "unstructured": "-spline scattered data approximation with confidence values+In Proc. Third International Workshop Medical Imaging and Augmented Reality+3+83+2006+2+N. J. Tustison+J. C. Gee. Generalized+Ck"
+          },
+          {
+            "key": "ref8",
+            "score": 32.89316,
+            "unstructured": "Run-length matrices for texture analysis+Insight Journal, page published online+2008+N. J. Tustison+J. C. Gee"
+          },
+          {
+            "doi": "10.1109/tip.2008.2010072",
+            "key": "ref9",
+            "score": 105.90433,
+            "unstructured": "Directly manipulated free-form deformation image registration+IEEE Trans Image Process+18+3+3+635+Mar 2009+J Tustison Nicholas"
+          },
+          {
+            "doi": "10.1109/tmi.2006.891486",
+            "key": "ref10",
+            "score": 116.753204,
+            "unstructured": "A review of methods for correction of intensity inhomogeneity in mri+IEEE Transactions on Medical Imaging+26+3+405+421+March 2007+U. Vovk+F. Pernus+B. Likar"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

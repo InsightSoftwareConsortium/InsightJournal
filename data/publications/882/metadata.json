@@ -45,6 +45,29 @@
     "revisions": [
       {
         "article": "bafybeiccskusa4rnj76u7hbksiagypmbjtasjnt5g3w24cvmz2cct3bq3a",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 23.41766,
+            "unstructured": "VTKBlender Module+1+3+2+Chris Want+Fritz Mielert"
+          },
+          {
+            "doi": "10.1145/2629697",
+            "key": "ref2",
+            "score": 80.00352,
+            "unstructured": "Mesh Generator and a 3D Delaunay Triangulator+URL http:==tetgen:org. 2+2011+4+Hang Si. TetGen: A Quality Tetrahedral"
+          },
+          {
+            "key": "ref3",
+            "score": 48.841614,
+            "unstructured": "Grid voxelization with partial volume effects in VTK+The VTK Journal+10380+March 2011+4+2+Cory Quammen and Russell M. Taylor II"
+          },
+          {
+            "key": "ref4",
+            "score": 35.848293,
+            "unstructured": "nabble:com=Re-patch-for-turning-almost-allVTK-errors-into-Python-exceptions-IMPROVED-td1251918:html. 4+2006+1045678+P. Charl+Botha"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

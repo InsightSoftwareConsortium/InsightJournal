@@ -55,6 +55,46 @@
     "revisions": [
       {
         "article": "bafkreiab57ud2ptfc6btkacejhxjeom6mp2r44udhtaew2p3tganmgdsti",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 28.238604,
+            "unstructured": "The ITK Software Guide. Kitware, Inc. ISBN 1-930934-10-6+2003+L. Ibanez+W. Schroeder"
+          },
+          {
+            "key": "ref2",
+            "score": 38.02748,
+            "unstructured": "2004+1+4+Reinhard Klette+Ariel Rosenfeld"
+          },
+          {
+            "doi": "10.1046/j.1365-2818.2001.00899.x",
+            "key": "ref3",
+            "score": 77.96134,
+            "unstructured": "On the analysis of spatial binary images+Journal of Microscopy+2+3+2+313+2001+C. Lang+J. Ohser+R. Hilfer"
+          },
+          {
+            "doi": "10.5566/ias.v26.p83-92",
+            "key": "ref4",
+            "score": 113.01295,
+            "unstructured": "Computation of minkowski measures on 2D and 3D binary images+Image Analysis Stereology+1+2+4+92+June 2007+David Legland+Ki\u00ean Ki\u00eau+Marie-Fran\u00e7oise Devaux"
+          },
+          {
+            "doi": "10.1145/37402.37422",
+            "key": "ref5",
+            "score": 132.73878,
+            "unstructured": "Marching cubes: a high-resolution 3D surface construction algorithm+In Proceedings of the 14th ACM SIGGRAPH on Computer Graphics+21+163+169+1987+W. E. Lorensen+H. E. Cline"
+          },
+          {
+            "key": "ref6",
+            "score": 53.1982,
+            "unstructured": "Statistical Analysis of Microstructures in Materials Sciences. J+2000+2+2+Joachim Ohser+Franck M\u00fccklich"
+          },
+          {
+            "key": "ref7",
+            "score": 31.816862,
+            "unstructured": "Robustness of planar shape descriptors of particles+In Proc. IAMG'05+2005+2+4+E. Pirard+G. Dislaire"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

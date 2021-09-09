@@ -57,6 +57,38 @@
     "revisions": [
       {
         "article": "bafybeibug2ecbv2unn6sk3mp2qvypyaksqlorukq6uovrnk3gbgs5q2s3i",
+        "citation_list": [
+          {
+            "doi": "10.1109/iccv.1995.466871",
+            "key": "ref1",
+            "score": 89.53594,
+            "unstructured": "Geodesic active contours+International Journal of Computer Vision+22+1+61+79+1997+V. Caselles+R. Kimmel+G. Sapiro"
+          },
+          {
+            "doi": "10.1109/83.902291",
+            "key": "ref2",
+            "score": 101.120636,
+            "unstructured": "Active contours without edges+IEEE Transactions on Image Processing+10+2+266+277+2001+T. F. Chan+L. A. Vese"
+          },
+          {
+            "doi": "10.1109/tip.2008.2002304",
+            "key": "ref3",
+            "score": 107.85819,
+            "unstructured": "Minimization of region-scalable fitting energy for image segmentation+IEEE Transactions on Image Processing+1+3+3+1949+2008+C. Li+C. Kao+J. C. Gore+Z. Ding"
+          },
+          {
+            "doi": "10.1007/978-3-0348-8724-3_36",
+            "key": "ref4",
+            "score": 64.632095,
+            "unstructured": "Level Set Methods and Fast Marching Methods+1999+J. A Sethian"
+          },
+          {
+            "doi": "10.1109/tmi.2010.2046908",
+            "key": "ref5",
+            "score": 140.81592,
+            "unstructured": "Improved N3 bias correction+IEEE Transactions on Medical Imaging+29+6+1310+1320+2010+N.J. Tustison+B.B. Avants+P.A. Cook+Yuanjie Zheng+A. Egan+P.A. Yushkevich+J.C. Gee"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

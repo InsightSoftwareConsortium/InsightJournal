@@ -76,6 +76,37 @@
     "revisions": [
       {
         "article": "bafybeieg2l4jia554n3a64vioeomiv2rz2bjmvuq44w6zxnjrqlwuji53u",
+        "citation_list": [
+          {
+            "doi": "10.1109/isbi.2006.1624991",
+            "key": "ref1",
+            "score": 132.22757,
+            "unstructured": "Automatic heart isolation for ct coronary visualization using graph cuts+In IEEE International Symposium on Biomedical Imaging, page 614617+2006+1+2+Gareth Funka-Lea+M. P. Jolly+R. Ramaraj+D. Rinck"
+          },
+          {
+            "doi": "10.1002/mrm.1910400509",
+            "key": "ref2",
+            "score": 77.237854,
+            "unstructured": "3D MR Coronary Artery Segmentation. Magnetic Resonance in Medicine+1+3+702+1998+E. Harvey+Siegwalt Cline+Ludke"
+          },
+          {
+            "key": "ref3",
+            "score": 29.893578,
+            "unstructured": "Digital Image Processing+2001+1+4+C. Rafael+Gonzalez"
+          },
+          {
+            "doi": "10.1007/s10554-004-5341-y",
+            "key": "ref4",
+            "score": 75.10826,
+            "unstructured": "Towards quantitative analysis of coronary CTA+The International Journal of Cardiovascular Imaging+1+7+84+2005+Henk. A. Marquering+Patrick J.H. de Koning+Johan H.C."
+          },
+          {
+            "doi": "10.1007/978-3-642-02498-6_44",
+            "key": "ref5",
+            "score": 75.80709,
+            "unstructured": "3d segmentation in the clinic: A grand challenge ii coronary artery tracking+Insight Journal+2008+C. Metz+M. Schaap+A. van der Giessen Walsum+A. Weustink+N. Mollet+W. Niessen"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

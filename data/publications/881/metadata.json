@@ -60,6 +60,47 @@
     "revisions": [
       {
         "article": "bafybeic5feimkmmdvowqssctffgkvazkugopnbioepx3jakqqekxpyybza",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 51.602158,
+            "unstructured": "Euclidean distance mapping+2+3+1+248+1980+Per-Erik Danielsson"
+          },
+          {
+            "doi": "10.2307/1932409",
+            "key": "ref2",
+            "score": 76.76795,
+            "unstructured": "Measures of the amount of ecologic association between species+5+3+1+302+July 1945+Lee Raymond Dice"
+          },
+          {
+            "key": "ref3",
+            "score": 37.06913,
+            "unstructured": "Application+2007+1+3+A. Henderson. ParaView Guide+A Parallel Visualization"
+          },
+          {
+            "key": "ref4",
+            "score": 36.34113,
+            "unstructured": "The Insight Software Consortium+The ITK Software Guide. Kitware, Inc. ISBN 1-930934-15-7+2005+2+1+L. Ibanez+W. Schroeder+L. Ng+J. Cates"
+          },
+          {
+            "doi": "10.1109/42.52980",
+            "key": "ref5",
+            "score": 98.046394,
+            "unstructured": "Shape-based interpolation of multidimensional objects+IEEE Trans Med Imaging+9+1+32+42+1990+S. P. Raya+J. K. Udupa"
+          },
+          {
+            "doi": "10.1016/s0167-8140(15)30642-3",
+            "key": "ref6",
+            "score": 73.763565,
+            "unstructured": "a 4D slicer+Fourth International Workshop on Pulmonary Image Analysis+171+175+2011+S. Rit+R. Pinho+V. Delmon+M. Pech+G Bouilhol+J. Schaerer+B. Navalpakkam+J. Vandemeulebroucke+P. Seroul+D. Sarrut+MICCAI Computer-Assisted Intervention"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2006.01.015",
+            "key": "ref7",
+            "score": 130.38231,
+            "unstructured": "Gee, and Guido Gerig. User-guided 3d active contour segmentation of anatomical structures: significantly improved efficiency and reliability+Neuroimage+5+3+1+1128+Jul 2006+Paul A. Yushkevich+Sean Ho"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

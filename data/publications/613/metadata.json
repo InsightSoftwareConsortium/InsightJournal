@@ -74,6 +74,139 @@
     "revisions": [
       {
         "article": "bafybeidr7fxxedjxovuokygxwl7o4nr2z4apuwbsswccjkf44yuszngmne",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 41.19078,
+            "unstructured": "(document)+Brain+120+2059+69+November 1997+F Barkhof+M Filippi+D H Miller+P Scheltens+C H Polman+G Comi+H J Ader+N Losseff+J Valk"
+          },
+          {
+            "doi": "10.1016/j.ijrobp.2004.08.055",
+            "key": "ref2",
+            "score": 84.85034,
+            "unstructured": "Atlas-based automatic segmentation of MR images: validation study on the brainstem in radiotherapy context+Int J Radiat Oncol Biol Phys+1+1+3+98+January 2005+Bondiau Pierre-Yves+Marcy Pierre-Yves+Habrand Jean-Louis"
+          },
+          {
+            "doi": "10.1016/j.media.2008.01.002",
+            "key": "ref3",
+            "score": 100.28284,
+            "unstructured": "An efficient locally affine framework for the smooth registration of anatomical structures+Medical Image Analysis+1+4+3+441+2008+Olivier Commowick+Bondiau Pierre-Yves"
+          },
+          {
+            "doi": "10.1111/j.2517-6161.1977.tb01600.x",
+            "key": "ref4",
+            "score": 80.59378,
+            "unstructured": "Maximum likelihood for incomplete data via the EM algorithm+Journal of the Royal Statistical Society+1+1+2+38+1977+A. Dempster+N. Laird+and D. Rubin"
+          },
+          {
+            "doi": "10.1007/978-3-540-30135-6_4",
+            "key": "ref5",
+            "score": 105.24545,
+            "unstructured": "Improved EMbased tissue segmentation and partial volume effect quantification in multi-sequence brain MRI+In Proc. of MICCAI'04+2004+1+2+G. Dugas-Phocion+M.+C. Lebrun+N. Ayache"
+          },
+          {
+            "key": "ref6",
+            "score": 36.134518,
+            "unstructured": "Segmentation d'IRM Ce\u00b4re\u00b4brales Multi-Se\u00b4quences et Application a` la Scle\u00b4rose en Plaques+pdf. 1.3+2006+Guillaume Dugas-Phocion"
+          },
+          {
+            "key": "ref7",
+            "score": 40.302555,
+            "unstructured": "From Nano to Macro (ISBI'04), Arlington+April 2004+1+1+1+Guillaume Dugas-Phocion+VA"
+          },
+          {
+            "doi": "10.1109/nssmic.1993.373602",
+            "key": "ref8",
+            "score": 129.56885,
+            "unstructured": "3D statistical neuroanatomical models from 305 MRI volumes+In IEEE-Nuclear Science Symposium and Medical Imaging Conference+2+1817+1993+1+1+A. C. Evans+D. L. Collins+S. R. Mills+E. D. Brown+T. M. Kelly+Peters"
+          },
+          {
+            "key": "ref9",
+            "score": 38.193447,
+            "unstructured": "An MRI-based stereotactic brain atlas from 250 young normal subjects+In 22nd Symposium of the Society for Neuroscience, page 408+1992+1+1+2+A. C. Evans+D. L. Collins+B. Milner+Anaheim"
+          },
+          {
+            "key": "ref10",
+            "score": 53.65222,
+            "unstructured": "(document)+Lancet+364+9444+1489+96+October 2004+Filippi Massimo+Steve Smith+and Giancarlo Comi"
+          },
+          {
+            "doi": "10.1109/42.414608",
+            "key": "ref11",
+            "score": 105.52757,
+            "unstructured": "Modelbased 3d segmentation of multiple sclerosis lesions in magnetic resonance brain images+IEEE Trans Med Imaging+1+3+3+453+September 1995+Kamber Micheline+Rajjan Shinghal+C. Alan+Evans"
+          },
+          {
+            "doi": "10.1002/ana.1032",
+            "key": "ref12",
+            "score": 120.17276,
+            "unstructured": "(document)+Ann Neurol+50+1+121+7+July 2001+W I McDonald+A Compston+G Edan+D Goodkin+H P Hartung+F D Lublin+D W Paty+C H Polman+S C Reingold+M Sandberg-Wollheim+W Sibley+A Thompson+Y Weinshenker+and J S Wolinsky"
+          },
+          {
+            "doi": "10.1016/0730-725x(88)90401-8",
+            "key": "ref13",
+            "score": 113.89104,
+            "unstructured": "Compensation for surface coil sensitivity variation in magnetic resonance imaging+Magn Reson Imaging+1+3+1+4+1988+P. A. Narayana+W. W. Brey+M. V. Kulkarni+C. L. Sievenpiper"
+          },
+          {
+            "doi": "10.1007/978-3-540-40899-4_57",
+            "key": "ref14",
+            "score": 116.7578,
+            "unstructured": "Block matching: A general framework to improve robustness of rigid registration of medical images+In Proc. of MICCAI'00+1+566+2000+1+S. Ourselin+A. Roche+S. Prima+N. Ayache"
+          },
+          {
+            "key": "ref15",
+            "score": 49.92394,
+            "unstructured": "(document)+58+6+840+6+December 2005+H Polman Chris+Hans-Peter Hartung+Fred D Lublin+Henry F McFarland Luanne M Metz+Paul W O'connor+SandbergWollheim Magnhild"
+          },
+          {
+            "doi": "10.1007/3-540-45468-3_97",
+            "key": "ref16",
+            "score": 120.86029,
+            "unstructured": "Maximum likelihood estimation of the bias field in MR brain images: Investigating different modelings of the imaging process+In Proc. of MICCAI'01+1+819+2001+1+S. Prima+N. Ayache+Neil Roberts"
+          },
+          {
+            "doi": "10.1109/42.552054",
+            "key": "ref17",
+            "score": 104.94742,
+            "unstructured": "Surface-based labeling of cortical anatomy using a deformable atlas+IEEE Trans Med Imaging+1+1+1+54+February 1997+S Sandor and R Leahy"
+          },
+          {
+            "doi": "10.1006/nimg.2000.0730",
+            "key": "ref18",
+            "score": 129.10576,
+            "unstructured": "Magnetic resonance image tissue classification using a partial volume model+Neuroimage+1+5+1+76+2001+D W Shattuck+S R Sandor-Leahy+K A Schaper+D A Rottenberg+R M Leahy."
+          },
+          {
+            "doi": "10.1002/hbm.10062",
+            "key": "ref19",
+            "score": 75.663055,
+            "unstructured": "Fast robust automated brain extraction+Hum Brain Mapp+1+3+1+55+November 2002+M Stephen+Smith."
+          },
+          {
+            "doi": "10.1016/j.neurol.2008.04.009",
+            "key": "ref20",
+            "score": 124.77657,
+            "unstructured": "Revue des approches de segmentation des le\u00b4sions de scle\u00b4rose en plaques dans les se\u00b4quences conventionnelles IRM+Revue Neurologique+2008+04+009+Souplet Jean-Christophe"
+          },
+          {
+            "key": "ref21",
+            "score": 50.053146,
+            "unstructured": "(document)+AJNR Am J Neuroradiol+21+4+702+6+April 2000+M Tintore+A Rovira+M J Martinez+J Rio+P Diaz-Villoslada+L Brieva+C Borras+E Grive+J Capellades+X Montalban"
+          },
+          {
+            "doi": "10.1002/(sici)1522-712x(1995)1:6<326::aid-igs4>3.0.co;2-c",
+            "key": "ref22",
+            "score": 126.586754,
+            "unstructured": "Automatic Identification of Grey Matter Structures from MRI to Improve the Segmentation of White matter Lesions+Jounal of Image Guided Surgery+1+6+3+338+1995+S Warfield+J Dengler+J Zaers+J Hiller+R Kikinis"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2006.03.019",
+            "key": "ref23",
+            "score": 94.54273,
+            "unstructured": "Skull-stripping magnetic resonance brain images using a model-based level set+Neuroimage+1+1+1+92+August 2006+H Zhuang Audrey"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

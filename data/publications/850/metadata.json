@@ -43,6 +43,20 @@
     "revisions": [
       {
         "article": "bafkreicsftsgeowz5pdwjla4hjw37flq3cji7uxek7iq6fcbqc5eldlhee",
+        "citation_list": [
+          {
+            "doi": "10.1137/0902002",
+            "key": "ref1",
+            "score": 84.088356,
+            "unstructured": "Spline interpolation and smoothing on the sphere+SIAM Journal of Scientific and Statistical Computing+2+1+2+16+1981+G. Wahba"
+          },
+          {
+            "doi": "10.1007/978-3-540-75757-3_45",
+            "key": "ref2",
+            "score": 88.48349,
+            "unstructured": "(document)+In Proceedings of the 10th international conference on Medical image computing and computer-assisted intervention - Volume Part I, MICCAI'07+367+374+September 2007+G. Zou+J. Hua+O. Muzik"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

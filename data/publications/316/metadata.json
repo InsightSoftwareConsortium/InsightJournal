@@ -64,6 +64,33 @@
     "revisions": [
       {
         "article": "bafybeifi3yn4e4o7tw5u46ifafqowujiscgijnt6eei5kcea7memarj7uq",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 26.648615,
+            "unstructured": "Kitware, Inc. ISBN 1-930934-10-6+2003+L. Ibanez+W. Schroeder+L. Ng+J. Cates"
+          },
+          {
+            "key": "ref2",
+            "score": 19.876886,
+            "unstructured": "[2] \u201cDICOM home page+org/ 2"
+          },
+          {
+            "key": "ref3",
+            "score": 19.878506,
+            "unstructured": "[3] \u201cGDCM home page"
+          },
+          {
+            "key": "ref4",
+            "score": 26.846092,
+            "unstructured": "ContourExtractor2DImageFilter: A subpixel-precision image isocontour extraction filter+Insight Journal+1926+2+Z. Pincus"
+          },
+          {
+            "key": "ref5",
+            "score": 32.518436,
+            "unstructured": "[5] \u201cDICOM-RT viewer+cc/1/dicorview.htm 4"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

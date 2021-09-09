@@ -56,6 +56,49 @@
     "revisions": [
       {
         "article": "bafybeigwu7fkbtdkdo23kcfgni6r7ky4k6lkraojishkcvdz3wmzuiyiny",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 28.102257,
+            "unstructured": "Institute of Physics Publishing+2007+P Mayles"
+          },
+          {
+            "doi": "10.1007/978-3-540-85990-1_52",
+            "key": "ref2",
+            "score": 151.07497,
+            "unstructured": "Atlas-based auto-segmentation of head and neck ct images+In International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI'08)+434+441+2008+X Han+MS Hoogeman+PC Levendag+LS Hibbard+DN Teguh+P Voet+AC Cowen"
+          },
+          {
+            "doi": "10.1007/0-306-48608-3_11",
+            "key": "ref3",
+            "score": 60.81835,
+            "unstructured": "Atlas-Based Segmentation?+2+486+2005+1+2+T. Rohlfing+R. Brandt+R. Menzel+D. Russako"
+          },
+          {
+            "doi": "10.1109/2945.556502",
+            "key": "ref4",
+            "score": 130.36534,
+            "unstructured": "Image metamorphosis with scattered feature constraints+IEEE Transactions on Visualization and Computer Graphics+2+4+1+354+1996+Seungyong Lee+Kyung-Yong Chwa"
+          },
+          {
+            "doi": "10.1109/42.796284",
+            "key": "ref5",
+            "score": 142.17865,
+            "unstructured": "Nonrigid registration using free-form deformations: Application to breast mr images+IEEE Transactions on Medical Imaging+2+8+1+721+1999+D. Rueckert+L. I. Sonoda+C. Hayes+D. L. G. Hill+M. O. Leach+D. J. Hawkes"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2003.11.010",
+            "key": "ref6",
+            "score": 131.60466,
+            "unstructured": "Evaluation of atlas selection strategies for atlas-based image segmentation with application to confocal microscopy images of bee brains+NeuroImage+2+4+2+1442+2004+Torsten Rohlfing+R. Maurer Calvin+Jr"
+          },
+          {
+            "doi": "10.1109/cvpr.2005.213",
+            "key": "ref7",
+            "score": 156.26353,
+            "unstructured": "Level set evolution without reinitialization: A new variational formulation+In Proceedings of the 2005 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR'05)+3+436+2005+2+Chunming Li+Changfeng Gui+Martin D. Fox"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

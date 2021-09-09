@@ -47,6 +47,121 @@
     "revisions": [
       {
         "article": "bafybeidj3bjyo2ndyzscgmmugzikzwycjpoggusi4tysqwv22v76exjvvu",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 21.097874,
+            "unstructured": "Results of the web-based challenge"
+          },
+          {
+            "doi": "10.1007/978-3-540-75759-7_15",
+            "key": "ref2",
+            "score": 112.63966,
+            "unstructured": "Prior knowledge driven multiscale segmentation of brain mri (+2007+A. Akselrod-Ballin+M. Galun+J.M. Gomori+A. Brandt+Basri"
+          },
+          {
+            "doi": "10.1007/11892755_81",
+            "key": "ref3",
+            "score": 121.21069,
+            "unstructured": "Deterministic tourist walks as an image analysis methodology based+In: Progress in Pattern Recognition, Image Analysis and Applications+784+793+2006+A.R. Backes+O.M. Bruno+M.G. Campiteli+A.S.: Martinez"
+          },
+          {
+            "doi": "10.1016/j.patcog.2009.07.017",
+            "key": "ref4",
+            "score": 102.9922,
+            "unstructured": "Texture analysis and classi cation using deterministic tourist walk+Pattern Recognition+685+3+694+2010+A.R. Backes+W.N. Goncalves+A.S. Martinez+O.M. Bruno"
+          },
+          {
+            "doi": "10.1007/s10462-010-9155-0",
+            "key": "ref5",
+            "score": 112.519424,
+            "unstructured": "Review of brain mri image segmentation methods+Arti cial Intelligence Review+261+3+274+2010+M.A. Balafar+A. Ramli+M.I. Saripan+S. Mashohor"
+          },
+          {
+            "doi": "10.1103/physreve.74.026703",
+            "key": "ref6",
+            "score": 89.988914,
+            "unstructured": "Deterministic walks as an algorithm of pattern recognition+Physical Review E+026703+2+2006+M.G. Campiteli+P.D. Batista+O. Kinouchi+A.S.: Martinez"
+          },
+          {
+            "doi": "10.1109/tpami.1986.4767851",
+            "key": "ref7",
+            "score": 65.191414,
+            "unstructured": "A computational approach to edge detection+IEEE Transactions on (6)+679+698+1986+J.: Canny"
+          },
+          {
+            "doi": "10.1007/978-3-642-23687-7_32",
+            "key": "ref8",
+            "score": 92.3791,
+            "unstructured": "Dynamic texture analysis and classi cation using deterministic partially self-avoiding walks+In: Advances Concepts for Intelligent Vision Systems+349+359+2011+W.N. Goncalves+O.M. Bruno"
+          },
+          {
+            "doi": "10.1109/tpami.2006.233",
+            "key": "ref9",
+            "score": 88.56247,
+            "unstructured": "Random walks for image segmentation+Pattern Analysis and Machine Intelligence+1768+11+1783+2006+L. Grady"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2009.10.026",
+            "key": "ref10",
+            "score": 149.45181,
+            "unstructured": "Fast and robust multi-atlas segmentation of brain magnetic resonance images+NeuroImage+2352+3+2365+2010+J.M. Wolz+R. Koikkalainen+J.R. Thurfjell+L. Waldemar+G. Soininen+H. Rueckert+D."
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2011.02.046",
+            "key": "ref11",
+            "score": 116.702126,
+            "unstructured": "A bayesian model of shape and appearance for subcortical brain segmentation+Neuroimage+907+3+922+2011+B. Patenaude+S.M. Smith+D.N. Kennedy+M.: Jenkinson"
+          },
+          {
+            "doi": "10.1109/34.56205",
+            "key": "ref12",
+            "score": 85.35442,
+            "unstructured": "Scale-space and edge detection using anisotropic di usion+IEEE Transactions on 12(7)+629+639+1990+P. Perona+Malik"
+          },
+          {
+            "doi": "10.1109/42.802752",
+            "key": "ref13",
+            "score": 104.985535,
+            "unstructured": "Adaptive fuzzy segmentation of magnetic resonance images+Medical Imaging, IEEE Transactions on 18(9)+737+752+1999+D.L. Pham+J.L. Prince"
+          },
+          {
+            "doi": "10.1016/s1053-8119(03)00185-x",
+            "key": "ref14",
+            "score": 96.573,
+            "unstructured": "The loni pipeline processing environment+Neuroimage+1033+3+1048+2003+D.E. Rex+J.Q. Ma+A.W.: Toga"
+          },
+          {
+            "doi": "10.1016/s1361-8415(02)00054-3",
+            "key": "ref15",
+            "score": 103.39537,
+            "unstructured": "Brainsuite: an automated cortical surface identi - cation tool+Medical image analysis 6(2)+129+142+2002+D.W. Shattuck+R.M.: Leahy"
+          },
+          {
+            "doi": "10.1006/nimg.2000.0730",
+            "key": "ref16",
+            "score": 139.05972,
+            "unstructured": "Magnetic resonance image tissue classi cation using a partial volume model+NeuroImage+856+5+876+2001+D.W. Shattuck+S.R. Sandor-Leahy+K.A. Schaper+D.A. Rottenberg+R.M. Leahy"
+          },
+          {
+            "doi": "10.1117/12.2006653",
+            "key": "ref17",
+            "score": 74.129715,
+            "unstructured": "NeoBrainS12) (+MICCAI Grand Challenge: Neonatal Brain Segmentation+2012+V. Srhoj-Egekher+M. Benders+K.J. Kersbergen+M.A. Viergever+I. Isgum"
+          },
+          {
+            "doi": "10.1109/isbi.2013.6556411",
+            "key": "ref18",
+            "score": 122.1843,
+            "unstructured": "Endocardium Segmentation in 3D Transesophageal Echocardiography+IEEE International Symposium on Biomedical Imaging: From Macro to Nano+2013+S. Vyas+R. Mukherjee+F. Sosa+P. Burlina"
+          },
+          {
+            "doi": "10.1117/1.jbo.18.5.057008",
+            "key": "ref19",
+            "score": 133.92348,
+            "unstructured": "Estimating physiological skin parameters from hyperspectral signatures+Journal of biomedical optics 18(5)+057008+057008+2013+S. Vyas+A. Banerjee+P. Burlina"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

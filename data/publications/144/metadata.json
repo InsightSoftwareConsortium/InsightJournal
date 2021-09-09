@@ -38,6 +38,31 @@
     "revisions": [
       {
         "article": "bafkreiducwhfmgw3fbbxsoook4wl52ex5phprim34rglqfxc2lrfcajj2e",
+        "citation_list": [
+          {
+            "doi": "10.1023/b:visi.0000011205.11775.fd",
+            "key": "ref1",
+            "score": 81.18438,
+            "unstructured": "Lucas-Kanade 20 years on: A unified framework+International Journal of Computer Vision+2+3+1+255+2004+Simon Baker+Iain Matthews"
+          },
+          {
+            "doi": "10.1007/bf01900696",
+            "key": "ref2",
+            "score": 86.56448,
+            "unstructured": "Homogeneous coordinates+The Visual Computer+11+1+15+26+1994+Jules Bloomenthal+Jon Rokne"
+          },
+          {
+            "doi": "10.1017/cbo9780511811685",
+            "key": "ref3",
+            "score": 65.004585,
+            "unstructured": "Multiple View Geometry in Computer Vision+2003+Richard Hartley+Andrew Zisserman"
+          },
+          {
+            "key": "ref4",
+            "score": 38.329094,
+            "unstructured": "Visual 3d modeling from images+Online course notes+2002+Marc Pollefeys"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

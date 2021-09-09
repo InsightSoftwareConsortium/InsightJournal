@@ -85,6 +85,25 @@
     "revisions": [
       {
         "article": "bafybeigher6fgo3kfuzt6wrjlhtwtjh2jdvahpg5poj34udqu7p3itu6ny",
+        "citation_list": [
+          {
+            "doi": "10.1118/1.3553402",
+            "key": "ref1",
+            "score": 132.14812,
+            "unstructured": "Validation for 2d/3d registration. part i: A new gold standard data set+2010+3+4+3+S. A. Pawiro+P. Markelj+F. Pernus\u02c7+M. Figl+C. Weber+F. Kainberger+I. NoebauerHuhmann+M. Stock+D. Georg+H. Bergmann+W. Birkfellner"
+          },
+          {
+            "key": "ref2",
+            "score": 43.126534,
+            "unstructured": "An extended itk-based framework for intensity-based 2d/3d-registration+Technical report, radART (PMU) and IBIA (UMIT)+December 2009+4+6+Philipp Steininger+Rainer Schubert"
+          },
+          {
+            "doi": "10.1109/tmi.2005.853240",
+            "key": "ref3",
+            "score": 82.44465,
+            "unstructured": "Standardized evaluation methodology for 2-d-3-d registration+IEEE Trans. Med+2+9+1+1189+2005+Kraats Everine B. van de+Wiro J. Niessen"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

@@ -43,6 +43,49 @@
     "revisions": [
       {
         "article": "bafybeickfokknhu54j6tjo5s42qr4syzbtm33hqcbqbucq5h3e76nprjre",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 52.903633,
+            "unstructured": "Tubular anisotropy segmentation+In SSVM+2+25+2009+2+2+Fethallah Benmansour+Laurent D. Cohen"
+          },
+          {
+            "doi": "10.1109/83.902291",
+            "key": "ref2",
+            "score": 101.12214,
+            "unstructured": "Active contours without edges+IEEE Transactions on Image Processing+10+2+266+277+2001+T. Chan+L. Vese"
+          },
+          {
+            "doi": "10.1118/1.4802751",
+            "key": "ref3",
+            "score": 96.68976,
+            "unstructured": "Carotid lumen segmentation ans stenosis grading challenge+MICCAI'09 workshop, 3D Segmentation in the Clinic: A Grand Challenge - Carotid Bifurcation Lumen Segmentation and Stenosis Grading+2009+4+Reinhard Hameeteman+Zuluaga"
+          },
+          {
+            "doi": "10.1007/978-3-540-88693-8_27",
+            "key": "ref4",
+            "score": 77.982895,
+            "unstructured": "Three dimensional curvilinear structure detection using optimally oriented flux+ECCV+2+2+382+2008+W. K. Max+Albert C. S. Law+Chung"
+          },
+          {
+            "doi": "10.1109/tmi.2007.903696",
+            "key": "ref5",
+            "score": 116.00351,
+            "unstructured": "Vessels as 4-d curves: Global minimal 4-D paths to extract 3-D tubular surfaces and centerlines+Medical Imaging+26+9+1213+1223+2007+H. Li+A. Yezzi"
+          },
+          {
+            "doi": "10.1016/j.cviu.2009.05.002",
+            "key": "ref6",
+            "score": 116.92941,
+            "unstructured": "Narrow band region-based active contours and surfaces for 2D and 3D segmentation+Computer Vision+113+9+946+965+2009+J. Mille"
+          },
+          {
+            "doi": "10.1109/cvpr.2005.294",
+            "key": "ref7",
+            "score": 100.181435,
+            "unstructured": "Real-time tracking using level sets+In IEEE Computer Vision and Pattern Recognition (CVPR)+2+34+41+2005+Y. Shi+W. Karl"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

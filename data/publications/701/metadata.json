@@ -57,6 +57,19 @@
     "revisions": [
       {
         "article": "bafybeicypgux5oetasff3mgpidbdosh5xn4rw35553hrblxaxzvezojywq",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 39.79778,
+            "unstructured": "Exporting Contours to DICOM-RT Structure Sets+GDCM Reference Manual+2008+S. Gorthi+M. Bach Cuadra+J.-P. Thiran+Mathieu Malaterre"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2006.01.015",
+            "key": "ref2",
+            "score": 131.00647,
+            "unstructured": "Gee, and Guido Gerig. User-guided 3D active contour segmentation of anatomical structures: Significantly improved efficiency and reliability+Neuroimage 2006 Jul+1+3+1116+28+Paul A. Yushkevich+Sean Ho"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

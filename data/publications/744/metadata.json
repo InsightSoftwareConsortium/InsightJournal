@@ -45,6 +45,65 @@
     "revisions": [
       {
         "article": "bafybeiagolkwvbxdbrvdvrx4x7rexahgohzxnz2p4i2ylfgx426zyr57qa",
+        "citation_list": [
+          {
+            "doi": "10.1007/978-3-540-39899-8_18",
+            "key": "ref1",
+            "score": 94.703835,
+            "unstructured": "Simple Biomanipulation Tasks with Steady Hand Cooperative Manipulator+In MICCAI+3+148+2003+1+A. Kapoor+R. Kumar+R.H. Taylor"
+          },
+          {
+            "doi": "10.1109/tro.2009.2017109",
+            "key": "ref2",
+            "score": 127.30142,
+            "unstructured": "Robotic cell injection system with position and force control: Toward automatic batch biomanipulation+IEEE Transactions on Robotics+25+3+727+737+2009+H.B. Huang+Dong Sun+J.K. Mills"
+          },
+          {
+            "doi": "10.1177/0278364909354325",
+            "key": "ref3",
+            "score": 86.660904,
+            "unstructured": "Approach to a Robot-assisted Cell Microinjection System+The International Journal of Robotics Research+2009+Y Xie+D Sun+C Liu+H Y Tse+S H Cheng. A Force Control"
+          },
+          {
+            "doi": "10.1088/0960-1317/17/2/018",
+            "key": "ref4",
+            "score": 105.92615,
+            "unstructured": "A micromanipulation system with dynamic forcefeedback for automatic batch microinjection+Journal of micromechanics and microengineering+17+2+314+321+2007+Z. Lu+P.C.Y. Chen+J. Nam+R. Ge+W. Lin"
+          },
+          {
+            "doi": "10.1109/robot.2006.1641964",
+            "key": "ref5",
+            "score": 112.451805,
+            "unstructured": "Semi-automated blastocyst microinjection+In Proceedings 2006 IEEE International Conference on Robotics and Automation+1780+1785+2006+L. Mattos+E. Grant+R. Thresher"
+          },
+          {
+            "doi": "10.1177/0278364902021010833",
+            "key": "ref6",
+            "score": 86.72658,
+            "unstructured": "Biological cell injection using an autonomous microrobotic system+The International Journal of Robotics Research+21+861+86X+2002+Y. Sun+B.J. Nelson"
+          },
+          {
+            "doi": "10.1109/iros.2003.1249647",
+            "key": "ref7",
+            "score": 117.8048,
+            "unstructured": "Preliminary experiments in robot/human cooperative microinjection+In Proceedings of IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS+2003+3+3186+3191+R. Kumar+A. Kapoor+R.H. Taylor"
+          },
+          {
+            "key": "ref8",
+            "score": 44.49829,
+            "unstructured": "The cisst libraries for computer assisted intervention systems+In MICCAI Workshop on Systems and Arch+2008+1+2+2+A Deguet+R Kumar+R Taylor+P Kazanzides"
+          },
+          {
+            "key": "ref9",
+            "score": 53.66557,
+            "unstructured": "The Surgical Assistant Workstation: a software framework for telesurgical robotics research+In MICCAI Workshop on Systems and Arch+2008+1+2+5+B Vagvolgyi+P Kazanzides+C Hasser+R Taylor."
+          },
+          {
+            "key": "ref10",
+            "score": 51.591625,
+            "unstructured": "Addison-Wesley+2002+Clemens Szyperski. Component Software: Beyond Object-Oriented Programming"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

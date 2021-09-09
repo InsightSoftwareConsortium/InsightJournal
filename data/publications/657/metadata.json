@@ -51,6 +51,48 @@
     "revisions": [
       {
         "article": "bafybeihefit34uzooggpgfjrkclzs7mftljngjdd4vn2tldimy25vetzfa",
+        "citation_list": [
+          {
+            "doi": "10.1109/ispa.2001.938636",
+            "key": "ref1",
+            "score": 91.54959,
+            "unstructured": "A FEM-based deformable model for the 3D segmentation and tracking of the heart in cardiac MRI\u201d+in Proceedings of ISPA+2001+250+254+Q. PHAM+F. VINCENT+P. CROISILLE+I. MAGNIN"
+          },
+          {
+            "doi": "10.1088/0266-5611/23/3/011",
+            "key": "ref2",
+            "score": 151.23111,
+            "unstructured": "A nonlinear elastic deformable template for soft structure segmentation : application to the heart segmentation in MRI\u201d,Inverse Problems+23+1017+1035+2007+Y. ROUCHDY+J. POUSIN+J. SCHAERER"
+          },
+          {
+            "key": "ref3",
+            "score": 37.45882,
+            "unstructured": "Discrete-time signal processing+1999+A. V. OPPENHEIM+R. W. SCHAFER+J. R. BUCK"
+          },
+          {
+            "key": "ref4",
+            "score": 51.866867,
+            "unstructured": "Solution of equations in Zn.N orth \u2212 Holland+1+1990+P. G. CIARLET and J.-L. LIONS+difference methods Finite"
+          },
+          {
+            "doi": "10.1109/isbi.2008.4541279",
+            "key": "ref5",
+            "score": 108.67965,
+            "unstructured": "A new singular perturbation approach for image segmentation tracking\u201d, in Biomedical Imaging: From Nano to Macro+ISBI+2008+1445+1448+J. SCHAERER+J. POUSIN"
+          },
+          {
+            "doi": "10.1016/j.media.2010.05.009",
+            "key": "ref6",
+            "score": 70.03797,
+            "unstructured": "A dynamic elastic model for heart segmentation and motion estimation\u201d, Medical Image Analysis+in revision.+J. SCHAERER+Y. ROUCHDY+J. POUSIN"
+          },
+          {
+            "doi": "10.1186/1532-429x-12-s1-p238",
+            "key": "ref7",
+            "score": 70.845894,
+            "unstructured": "Evaluation Framework for Algorithms Segmenting Short Axis Cardiac MRI+net/10380/3070+P. RADAU+Y. LU+A.J. DICK+G.A. WRIGHT.+The MIDAS Journal - Cardiac MR Left Ventricle Segmentation Challenge"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

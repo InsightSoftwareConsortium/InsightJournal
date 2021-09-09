@@ -68,6 +68,19 @@
     "revisions": [
       {
         "article": "bafybeibi7vvan3uyjgmkgowdupnlvlmvjcsetb5vzn6risid6usz4jnm54",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 36.864914,
+            "unstructured": "Random forest+Machine Learning+45+35+1999+Leo Breiman"
+          },
+          {
+            "doi": "10.1002/mrm.20625",
+            "key": "ref2",
+            "score": 115.38671,
+            "unstructured": "Simulation of anisotropic growth of low-grade gliomas using di usion tensor imaging+Magnetic resonance in medicine : o cial journal of the Society of Magnetic Resonance in Medicine / Society of Magnetic Resonance in Medicine+616+3+24+September 2005+Remy Guillevin+Habib Benali"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

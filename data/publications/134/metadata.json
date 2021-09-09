@@ -33,6 +33,20 @@
     "revisions": [
       {
         "article": "bafkreiajou52gi72ppwaybtgmyaz377l3l3gcnswsmt3ryqaj5wstod2s4",
+        "citation_list": [
+          {
+            "doi": "10.1016/0734-189x(85)90093-3",
+            "key": "ref1",
+            "score": 88.02767,
+            "unstructured": "Threshold selection based on a simple image statistic+Computer vision+30+125+147+1985+J. Kitler+J. Illingworth+J. Foglein"
+          },
+          {
+            "doi": "10.1006/gmip.1998.0478",
+            "key": "ref2",
+            "score": 126.217445,
+            "unstructured": "Optimizing edge detectors for robust automatic threshold selection: coping with edge curvature and noise+Graph. Models Image Proc.+60+385+401+1998+M.H.F. Wilkinson"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

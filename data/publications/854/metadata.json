@@ -77,6 +77,47 @@
     "revisions": [
       {
         "article": "bafybeidmptff3nhcgkx5qw4ojsdnv4fewk2wcrf4vxruqlur6cebx5qimm",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 24.737745,
+            "unstructured": " http://www.paraview.org/"
+          },
+          {
+            "doi": "10.1109/isbi.2006.1625012",
+            "key": "ref2",
+            "score": 184.68283,
+            "unstructured": "The NA-MIC Kit: ITK, VTK, Pipelines, Grids and 3D Slicer as An Open Platform for the Medical Image Computing Community+In: Proceedings of IEEE International Symposium on Biomedical Imaging: From Nano to Macro+2006+698+701+S Pieper+B Lorensen+W Schroeder+R Kikinis"
+          },
+          {
+            "key": "ref3",
+            "score": 45.607246,
+            "unstructured": "2006+The ITK Software Guide: The Insight Segmentation+Josh Ibanez+Cates+Registration Toolkit"
+          },
+          {
+            "doi": "10.1090/qam/1668732",
+            "key": "ref4",
+            "score": 82.990265,
+            "unstructured": "1998+Computational anatomy: an emerging discipline+Q. Appl. Math. LVI, 4 (Dec+617+694+U. Grenander+M. I. Miller"
+          },
+          {
+            "doi": "10.1023/b:visi.0000043755.93987.aa",
+            "key": "ref5",
+            "score": 116.42118,
+            "unstructured": "Computing Large Deformation Metric Mappings via Geodesic Flows of Diffeomorphisms+International Journal of Computer Vision+61+2+139+157+2005+Mirza Faisal+Beg+Michael I. Miller"
+          },
+          {
+            "doi": "10.1109/tmi.2006.887380",
+            "key": "ref6",
+            "score": 96.23958,
+            "unstructured": "Miller: Large Deformation Diffeomorphism and Momentum Based Hippocampal Shape Discrimination in Dementia of the Alzheimer Type+IEEE Transactions on Medical Imaging+26+4+Lei Wang+Michael I.+2007 April"
+          },
+          {
+            "key": "ref7",
+            "score": 37.045013,
+            "unstructured": "Information Processing for Medical Imaging+2005+Marc Vaillant"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

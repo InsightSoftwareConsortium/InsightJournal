@@ -69,6 +69,42 @@
     "revisions": [
       {
         "article": "bafybeiepalttlafpyj2qm5s7x2taqbnlnjv6xtc6g45u2l24t7uijilgam",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 29.220438,
+            "unstructured": "Digital Reconstruction of Axonal and Dendritic Morphology Diadem Challenge+2010+G. A. Ascoli+K. Svoboda+Y. Liu"
+          },
+          {
+            "doi": "10.1007/s11263-010-0331-0",
+            "key": "ref2",
+            "score": 93.20584,
+            "unstructured": "Tubular structure segmentation based on minimal path method and anisotropic enhancement+92+2+192+210+2011+Fethallah Benmansour+Laurent D. Cohen"
+          },
+          {
+            "doi": "10.1007/978-3-540-88693-8_27",
+            "key": "ref3",
+            "score": 69.85997,
+            "unstructured": "Three Dimensional Curvilinear Structure Detection Using Optimally Oriented Flux+1+382+2008+1+2+M.W. Law+A.C. Chung"
+          },
+          {
+            "doi": "10.1109/tmi.2007.903696",
+            "key": "ref4",
+            "score": 80.63443,
+            "unstructured": "Vessels as 4-D curves: Global minimal 4-D paths to extract 3-D tubular surfaces+1+9+2+1223+2007+H. Li+A. Yezzi"
+          },
+          {
+            "key": "ref5",
+            "score": 31.176083,
+            "unstructured": "Fast marching minimal path extraction in itk+06+2008+1+2+2+D. Mueller"
+          },
+          {
+            "doi": "10.1108/k.2000.29.2.239.3",
+            "key": "ref6",
+            "score": 90.39854,
+            "unstructured": "Level Set Methods and Fast Marching Methods Evolving Interfaces in Computational Geometry, Fluid Mechanics+1999+J.A. Sethian"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

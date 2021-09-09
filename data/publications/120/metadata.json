@@ -110,6 +110,32 @@
     "revisions": [
       {
         "article": "bafkreiahv3du6wjdbbkjfen3fm7qkllrft3mx3ufmmzack73a6cao7qaxe",
+        "citation_list": [
+          {
+            "doi": "10.1016/s0167-8655(01)00152-0",
+            "key": "ref1",
+            "score": 118.252884,
+            "unstructured": "A three-dimensional holes closing algorithm+Pattern Recognition Letters+23+523+531+2002+Zouina Aktouf+Laurent Perroton"
+          },
+          {
+            "doi": "10.1016/0167-8655(94)90046-9",
+            "key": "ref2",
+            "score": 106.041275,
+            "unstructured": "Gre\u00b4goire Malandain. A new characterization of three-dimensional simple points+Pattern Recognition Letters+15+169+175+1994+Gilles Bertrand"
+          },
+          {
+            "doi": "10.1016/0734-189x(89)90165-5",
+            "key": "ref3",
+            "score": 97.12091,
+            "unstructured": "Finite topology as applied to image analysis+Computer Vision+46+141+161+1989+A. Vladimir+Kovalevsky+Image Processing"
+          },
+          {
+            "doi": "10.1006/cviu.1998.0680",
+            "key": "ref4",
+            "score": 126.663315,
+            "unstructured": "Distance-ordered homotopic thinning : a skeletonization algorithm for 3D digital images+Computer Vision+72+3+404+413+1998+Chris Pudney"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

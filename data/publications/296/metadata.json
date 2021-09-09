@@ -41,6 +41,52 @@
     "revisions": [
       {
         "article": "bafkreicssghc72b7zw34njur4beqr2wxdwuhxfnlvfm5ob3rqwqgbt4ndy",
+        "citation_list": [
+          {
+            "doi": "10.1137/1.9781611971538",
+            "key": "ref1",
+            "score": 152.4648,
+            "unstructured": "Templates for the Solution of Linear Systems: Building Blocks for Iterative Methods, 2nd Edition+1994+R. Barrett+M. Berry+T. F. Chan+J. Demmel+J. Donato+J. Dongarra+V. Eijkhout+R. Pozo+C. Romine+Van der Vorst"
+          },
+          {
+            "doi": "10.1080/10556789208805505",
+            "key": "ref2",
+            "score": 113.240204,
+            "unstructured": "Achieving logarithmic growth of temporal and spatial complexity in reverse automatic differentiation+Optimization Methods and Software+1+35+54+1992+Andreas Griewank"
+          },
+          {
+            "key": "ref3",
+            "score": 48.58967,
+            "unstructured": "Principles and Techniques of Algorithmic Differentiation+2000+Andreas Griewank"
+          },
+          {
+            "doi": "10.1145/229473.229474",
+            "key": "ref4",
+            "score": 99.96267,
+            "unstructured": "a package for the automatic differentiation of algorithms written in C/C+++ACM Transactions on Mathematical Software+1+2+2+167+June 1996+Andreas Griewank+and Jean Utke+ADOL-C:"
+          },
+          {
+            "doi": "10.1145/347837.347846",
+            "key": "ref5",
+            "score": 114.76208,
+            "unstructured": "ACM Transactions on Mathematical Software+1+Revolve: an implementation of checkpointing for the reverse or adjoint mode of computational differentiation+1+2+45+March 2000+Andreas Griewank+Andrea Walther"
+          },
+          {
+            "key": "ref6",
+            "score": 45.60399,
+            "unstructured": "The ITK Software Guide: The Insight Segmentation and Registration Toolkit. Kitware+2003+L. Ibanez+W. Schroeder"
+          },
+          {
+            "key": "ref7",
+            "score": 30.089981,
+            "unstructured": "Computational Strategies for Meshfree Nonrigid Registration+PhD thesis+December 2006+1+Eliezer Kahn"
+          },
+          {
+            "key": "ref8",
+            "score": 26.166004,
+            "unstructured": "1997+Andrew Mauer-Oats"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

@@ -34,6 +34,25 @@
     "revisions": [
       {
         "article": "bafybeif52kpzzxvlnn6gl2few24uctgbmtqihaudtvlfdabl7smcnpimjq",
+        "citation_list": [
+          {
+            "doi": "10.1007/bf00133570",
+            "key": "ref1",
+            "score": 66.084694,
+            "unstructured": "Snakes: Active contour models+In ICCV+259+268+1987+Michael Kass+Andrew Witkin+Demetri Terzopoulos"
+          },
+          {
+            "doi": "10.1016/s0262-8856(01)00064-6",
+            "key": "ref2",
+            "score": 141.91417,
+            "unstructured": "A review of deformable surfaces : Topology, geometry and deformation+Image and Vision Computing+19+1023+1040+2001+Johan Montagnat+H. Delingette+N. Ayache+Vision Computing"
+          },
+          {
+            "key": "ref3",
+            "score": 57.82988,
+            "unstructured": "(document)+In SIGGRAPH+205+214+1987+Demetri Terzopoulos+Kurt Fleischer"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

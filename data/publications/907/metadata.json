@@ -43,6 +43,56 @@
     "revisions": [
       {
         "article": "bafkreiapeayzk2z5qiocxbu65b4p5gzxfkx6f4iuon2dkuwaiy2fagvmli",
+        "citation_list": [
+          {
+            "doi": "10.1016/j.neuroimage.2005.05.046",
+            "key": "ref1",
+            "score": 130.76408,
+            "unstructured": "Probabilistic segmentation of brain tissue in MR imaging+Neuroimage+27+4+2005+795+P. Anbeek+K. Vincken+G. Van Bochove+M. van der Grond"
+          },
+          {
+            "doi": "10.1007/978-3-642-04271-3_68",
+            "key": "ref2",
+            "score": 96.3347,
+            "unstructured": "Medical Image Computing+2009+558+565+Z. Yi+A. Criminisi+J. Shotton+A. Blake+Intervention-MICCAI Computer-Assisted"
+          },
+          {
+            "doi": "10.1007/978-3-642-35428-1_20",
+            "key": "ref3",
+            "score": 123.88486,
+            "unstructured": "Supervised image segmentation across scanner protocols: A transfer learning approach+Machine Learning in Medical Imaging+2012+160+167+A. Ikram+M. Vernooij+de Bruijne"
+          },
+          {
+            "doi": "10.1109/tmi.2007.893283",
+            "key": "ref4",
+            "score": 112.47924,
+            "unstructured": "Topology-preserving tissue classification of magnetic resonance brain images+Medical Imaging, IEEE Transactions on 26(4)+2007+487+496+P. Bazin+D. Pham"
+          },
+          {
+            "doi": "10.1109/tmi.2009.2013850",
+            "key": "ref5",
+            "score": 109.658676,
+            "unstructured": "An adaptive mean-shift framework for MRI brain segmentation+Medical Imaging, IEEE Transactions on 28(8)+2009+1238+1250+A. Mayer+H. Greenspan"
+          },
+          {
+            "doi": "10.1016/s1361-8415(03)00037-9",
+            "key": "ref6",
+            "score": 121.802986,
+            "unstructured": "A fully automatic and robust brain MRI tissue classification method+Medical Image Analysis+7+4+2003+513+527+C. Cocosco+A. Zijdenbos+A. Evans"
+          },
+          {
+            "doi": "10.1109/42.811270",
+            "key": "ref7",
+            "score": 130.14522,
+            "unstructured": "Automated modelbased tissue classification of MR images of the brain+Medical Imaging, IEEE Transactions on 18(10)+1999+897+908+Van Leemput+K. Maes+F. Vandermeulen+D. Suetens+P."
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2005.02.018",
+            "key": "ref8",
+            "score": 90.899956,
+            "unstructured": "Unified segmentation+Neuroimage+26+3+2005+839+851+J. Ashburner+K. Friston"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

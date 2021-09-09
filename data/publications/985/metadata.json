@@ -63,6 +63,55 @@
     "revisions": [
       {
         "article": "bafybeifz3xvn7yojwvftoo4xgijcfcgjqv2q6ly2luozvrwo5jgw5b7coe",
+        "citation_list": [
+          {
+            "doi": "10.1016/0167-8655(90)90112-f",
+            "key": "ref1",
+            "score": 99.56282,
+            "unstructured": "Use of gray value distribution of run length for texture analysis+Pattern Recognition Letters+2+6+2+419+1979+A. Chu+C.M. Sehgal+J. F. Greenleaf"
+          },
+          {
+            "doi": "10.1109/tpami.1980.4767008",
+            "key": "ref2",
+            "score": 84.59153,
+            "unstructured": "A theoretical comaprison of texture algorithms+IEEE Transactions on Pattern Analysis and Machine Intelligence+2+1+222+1980+R.W. Conners+C.A. Harlow"
+          },
+          {
+            "doi": "10.1016/0734-189x(84)90197-x",
+            "key": "ref3",
+            "score": 114.37041,
+            "unstructured": "Segmentation of a high-resolution urban scene using texture operators+Computer Vision+2+1+310+1984+R.W. Conners+C.A. M.M. Trivedi+Harlow+Image Processing"
+          },
+          {
+            "doi": "10.1016/s0146-664x(75)80008-6",
+            "key": "ref4",
+            "score": 102.714775,
+            "unstructured": "Texture analysis using gray level run lengths+Computer Graphics and Image Processing+2+2+2+179+1975+M.M. Galloway"
+          },
+          {
+            "doi": "10.1109/proc.1979.11328",
+            "key": "ref5",
+            "score": 64.83218,
+            "unstructured": "Statistical and structural approaches to texture+Proceedings of the IEEE+2+1+804+1979+R.M. Haralick"
+          },
+          {
+            "doi": "10.1109/tsmc.1973.4309314",
+            "key": "ref6",
+            "score": 75.51197,
+            "unstructured": "Textural features for image classification+IEEE Transactions on Medical Imaging+2+6+1+620+1973+R.M. Haralick+K. Shanmugam+and I. Dinstein."
+          },
+          {
+            "doi": "10.1109/83.725367",
+            "key": "ref7",
+            "score": 86.049866,
+            "unstructured": "Texture information in run-length matrices+IEEE Transactions on Image Processing+2+11+2+1609+1998+X. Tang"
+          },
+          {
+            "key": "ref8",
+            "score": 46.227966,
+            "unstructured": "Run length encoding for volumetric texture+International Conference on Visualization, Imaging and Image Processing (VIIP)+2+458+2004+2+D. Xu+A. Kurani+J. Furst+D. Raicu"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

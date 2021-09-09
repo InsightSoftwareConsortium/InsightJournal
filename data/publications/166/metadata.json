@@ -44,6 +44,142 @@
     "revisions": [
       {
         "article": "bafybeiaz4zt62yj5gm3udnx4lwrdqavhwlqtiwt247mhbx6x4rj2dqyyby",
+        "citation_list": [
+          {
+            "doi": "10.1109/tpami.1986.4767851",
+            "key": "ref1",
+            "score": 89.532036,
+            "unstructured": "A Computational Approach to Edge Detection+IEEE Transactions on Pattern Analysis and Machine Intelligence+8+6+679+698+1986+John Canny"
+          },
+          {
+            "doi": "10.1007/11784012_16",
+            "key": "ref2",
+            "score": 161.33327,
+            "unstructured": "Introduction to the Non-rigid Image Registration Evaluation Project (NIREP)+In Proc Workshop on Biomedical Image Registration, volume LNCS 4057+128+135+2006+G. E. Christensen+X. Geng+J. G. Kuhl+J. Bruss+T. J. Grabowski+I. A. Pirwani+M. W. Vannier+J. S. Allen+H. Damasio"
+          },
+          {
+            "key": "ref3",
+            "score": 30.88878,
+            "unstructured": "- Multi Format Image and Data Assimilation System+2007+Insight Software Consortium. MIDAS"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2003.07.014",
+            "key": "ref4",
+            "score": 126.11841,
+            "unstructured": "Zen and the Art of Medical Image Registration: Correspondence, Homology, and Quality+NeuroImage+20+3+1425+1437+2003+W. R. Crum+L. D. Griffin+D. L. G. Hill+D. J. Hawkes"
+          },
+          {
+            "doi": "10.1023/a:1021897212261",
+            "key": "ref5",
+            "score": 68.86629,
+            "unstructured": "Curvature based image registration+Journal of Mathematical Imaging and Vision+18+1+81+85+2003+B. Fischer+J. Modersitzki"
+          },
+          {
+            "doi": "10.1007/3-540-45468-3_62",
+            "key": "ref6",
+            "score": 109.618286,
+            "unstructured": "Valmet: A new validation tool for assessing and improving 3D object segmentation+volume LNCS 2208+516+528+2001+G. Gerig+M. Jomier+M. Chakos"
+          },
+          {
+            "doi": "10.1007/11866763_19",
+            "key": "ref7",
+            "score": 95.85897,
+            "unstructured": "Performance Evaluation of Grid-Enabled Registration Algorithms Using Bronze-Standards+of LNCS+4191+2006+T. Glatard+X. Pennec+J. Montagnat+M. Nielsen"
+          },
+          {
+            "doi": "10.1109/tmi.2003.816961",
+            "key": "ref8",
+            "score": 175.56384,
+            "unstructured": "Retrospective Evaluation of Intersubject Brain Registration+IEEE Transactions on Medical Imaging+22+9+1120+1130+2003+P. Hellier+C. Barillot+I. Corouge+B. Gibaud+G. Le Goualher+D. L. Collins+A. Evans+G. Malandain+N. Ayache+G. E. Christensen+H. J. Johnson"
+          },
+          {
+            "key": "ref9",
+            "score": 42.05855,
+            "unstructured": "[9] ITK. Insight Software Consortium Segmentation and Registration Toolkit+2006"
+          },
+          {
+            "key": "ref10",
+            "score": 52.55619,
+            "unstructured": "Numerical Methods for Image Registration+2004+J. Modersitzki"
+          },
+          {
+            "key": "ref11",
+            "score": 36.29179,
+            "unstructured": "Institute (NCI)+2007+National Cancer"
+          },
+          {
+            "doi": "10.1109/cvpr.2006.19",
+            "key": "ref12",
+            "score": 137.48288,
+            "unstructured": "A Comparison and Evaluation of Multi-View Stereo Reconstruction Algorithms+In Proc Conf on Computer Vision and Pattern Recognition (CVPR)+519+526+2006+S. M. Seitz+B. Curless+J. Diebel+D. Scharstein+R. Szeliski"
+          },
+          {
+            "doi": "10.1016/j.media.2007.06.001",
+            "key": "ref13",
+            "score": 109.14234,
+            "unstructured": "Evaluation of Similarity Measures for Non-Rigid Registration+Workshop on Biomedical Image Registration, volume LNCS 4057+160+168+2006+D. Skerl+B. Likar+F. Pernus+B. Likar+F. A"
+          },
+          {
+            "doi": "10.1007/978-3-540-45210-2_55",
+            "key": "ref14",
+            "score": 62.874,
+            "unstructured": "Fast BlockMatching Registration with Entropy-based Similarity+Insight Journal - ISC/NA-MIC Workshop on Open Science at MICCAI+1926+E. Suarez-Santana+R. Nebot+C.-F. Westin+Ruiz-Alzola"
+          },
+          {
+            "doi": "10.1016/s1361-8415(98)80022-4",
+            "key": "ref15",
+            "score": 100.87239,
+            "unstructured": "Image matching as a diffusion process: An analogy with Maxwell's demons+Medical Image Analysis+2+3+243+260+1998+J.-P. Thirion"
+          },
+          {
+            "doi": "10.1007/11866763_87",
+            "key": "ref16",
+            "score": 137.60628,
+            "unstructured": "Automatic Point Landmark Matching for Regularizing Nonlinear Intensity Registration: Application to Thoracic CT Images+of LNCS+4191+710+717+2006+M. Urschler+C. Zach+H. Ditt+H. Bischof+M. Nielsen"
+          },
+          {
+            "doi": "10.1016/s1361-8415(02)00063-4",
+            "key": "ref17",
+            "score": 119.640366,
+            "unstructured": "Image registration via level-set motion: Applications to atlas-based segmentation+Medical Image Analysis+7+1+1+20+2003+B. C. Vemuri+J. Ye+Y. Chen+C. M. Leonard"
+          },
+          {
+            "doi": "10.1007/978-3-540-85988-8_90",
+            "key": "ref18",
+            "score": 78.86337,
+            "unstructured": "Diffeomorphic Demons Using ITK's Finite Difference Solver Hierarchy+Insight Journal - ISC/NA-MIC Workshop on Open Science at MICCAI+1926+T. Vercauteren+X. Pennec+A. Perchant+N. Ayache"
+          },
+          {
+            "doi": "10.1007/978-3-540-75759-7_39",
+            "key": "ref19",
+            "score": 127.75048,
+            "unstructured": "Non-parametric Diffeomorphic Image Registration with the Demons Algorithm+In Proc. Medical Image Computing and Computer Assisted Intervention (MICCAI'07)+2007+T. Vercauteren+X. Pennec+A. Perchant+N. Ayache"
+          },
+          {
+            "doi": "10.1088/0031-9155/50/12/011",
+            "key": "ref20",
+            "score": 138.27974,
+            "unstructured": "Validation of an accelerated 'demons' algorithm for deformable image registration in radiation therapy+Phys. Med+50+12+2887+2905+2005+H. Wang+L. Dong+R. J. O'Daniel+A. S. Mohan+K. K. Garden+D. A. Ang+M. Kuban+J. Y. Bonnen+R. Chang+Cheung"
+          },
+          {
+            "doi": "10.1109/42.759119",
+            "key": "ref21",
+            "score": 145.41116,
+            "unstructured": "Retrospective Intermodality Registration Techniques for Images of the Head: SurfaceBased Versus Volume-Based+IEEE Transactions on Medical Imaging+18+2+144+150+February 1999+J. West+J. M. Fitzpatrick+M. Y. Wang+B. M. Dawant+C. R. Maurer+R. M. Kessler+R. J. Maciunas"
+          },
+          {
+            "doi": "10.1097/00004728-199801000-00028",
+            "key": "ref22",
+            "score": 137.09215,
+            "unstructured": "Automated Image Registration: II. Intersubject Validation of Linear and Nonlinear Models. Journal of Computer Assisted Tomography+22+1+153+165+1998+R. P. Woods+S. T. Grafton+J. D. G. Watson+N. L. Sicotte+J. C. Mazziotta"
+          },
+          {
+            "doi": "10.1016/j.patrec.2005.10.018",
+            "key": "ref23",
+            "score": 125.45204,
+            "unstructured": "Consistent multi-modal non-rigid registration based on a variational approach+Pattern Recognition Letters+27+715+725+2006+Z. Zhang+Y. Jiang+H. Tsui"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

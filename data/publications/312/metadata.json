@@ -40,6 +40,20 @@
     "revisions": [
       {
         "article": "bafybeigcz3kes3woqtnxbo6itgnfr5yfsggm3pjqtksxtatrtvtw3cizda",
+        "citation_list": [
+          {
+            "doi": "10.1016/0004-3702(81)90024-2",
+            "key": "ref1",
+            "score": 85.73183,
+            "unstructured": "Determining optical flow+Artificial Intelligence+17+185+203+1981+B. K. P. Horn+B. G. Schunck"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2008.10.040",
+            "key": "ref2",
+            "score": 107.20947,
+            "unstructured": "Non-parametric diffeomorphic image registration with the demons algorithm+MICCAI'07. 1+T. Vercauteren+X. Pennec+A. Perchant+N. Ayache"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

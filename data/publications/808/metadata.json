@@ -55,6 +55,104 @@
     "revisions": [
       {
         "article": "bafybeieuyx3mfokkiwnqz2xpn3j45twz2q6wzxkdhlm6qtobxirgplnlri",
+        "citation_list": [
+          {
+            "doi": "10.1097/00006123-200012000-00021",
+            "key": "ref1",
+            "score": 134.28442,
+            "unstructured": "SonoWand, an ultrasound-based neuronavigation system+com/ 1+2000+47+1380+1379+A Gronningsaeter+A Kleven+S Ommedal+TE Aarseth+T Lie+F Lindseth+T Lango+G Unsgard"
+          },
+          {
+            "doi": "10.1097/00006123-199901000-00056",
+            "key": "ref2",
+            "score": 120.64811,
+            "unstructured": "BrainLab VectorVision Neuronavigation System: Technology and Clinical Experiences in 131 Cases. Neurosurgery+1999+44+1+104+HK Gumprecht+DC Widenka+CB Lumenta"
+          },
+          {
+            "doi": "10.1109/isbi.2006.1625012",
+            "key": "ref3",
+            "score": 151.78157,
+            "unstructured": ": ITK, VTK, Pipelines, Grids and 3D Slicer as an Open Platform for the Medical Image Computing Community+org/ 1+2006+1+698+701+S Pieper+B Lorensen+W Schroeder+Kikinis R The NA-MIC Kit"
+          },
+          {
+            "key": "ref4",
+            "score": 40.9319,
+            "unstructured": "The Visualization Toolkit User's Guide+2003+org/ 1+W.J. Schroeder+K.M. Martin+L.S. Avila+C.C. Law"
+          },
+          {
+            "key": "ref5",
+            "score": 23.850847,
+            "unstructured": "org/ 1+2003+L. Ibanez+W. Schroeder+L. Ng+Cates"
+          },
+          {
+            "doi": "10.1117/12.719562",
+            "key": "ref6",
+            "score": 67.03695,
+            "unstructured": "2+2007+org/ 1+K. Cleary+S. Aylward+J. Jomier+A. Enquobahrie+H. Zhang+IGSTK M. B. Blake"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2006.01.015",
+            "key": "ref7",
+            "score": 115.72701,
+            "unstructured": "Gee, and Guido Gerig. User-guided 3D active contour segmentation of anatomical structures: Significantly improved efficiency and reliability+org/ 1+1+3+1116+28+A. Paul+Sean Yushkevich+Ho"
+          },
+          {
+            "key": "ref8",
+            "score": 48.45162,
+            "unstructured": "Design Patterns: Elements of Reusable Object-Oriented Software+Addison-Wesley 1994 2+Gamma"
+          },
+          {
+            "key": "ref9",
+            "score": 28.89159,
+            "unstructured": "1996+RC. The Martin+Dependency Inversion Principle"
+          },
+          {
+            "key": "ref10",
+            "score": 24.184649,
+            "unstructured": "Northern Digital Inc+com/ 2"
+          },
+          {
+            "key": "ref11",
+            "score": 39.534595,
+            "unstructured": "Medicine (DICOM) PS 3 3+2+2009+Digital Imaging"
+          },
+          {
+            "doi": "10.1016/j.media.2007.06.008",
+            "key": "ref12",
+            "score": 114.0709,
+            "unstructured": "Clinical validation of vessel based registration for correction of brain-shift+Medical Image Analysis+2007+11+6+3+684+I Reinertsen+F Lindseth+DL Collins"
+          },
+          {
+            "doi": "10.1016/j.ultrasmedbio.2004.11.015",
+            "key": "ref13",
+            "score": 106.7643,
+            "unstructured": "A review of calibration techniques for freehand 3-D ultrasound systems+Ultrasound Med Biol+2005+31+3+471+L Mercier+T Lang\u00f8+F Lindseth+DL Collins"
+          },
+          {
+            "doi": "10.1007/978-3-540-68993-5_3",
+            "key": "ref14",
+            "score": 104.07267,
+            "unstructured": "Freehand 3D Ultrasound Calibration: A Review+In Advanced Imaging in Biology and Medicine+2008+3+84+P-W Hsu+RW Prager+AH Gee+GM Treece"
+          },
+          {
+            "doi": "10.1109/26.103043",
+            "key": "ref15",
+            "score": 77.17283,
+            "unstructured": "Internet time synchronization: The Network Time Protocol+org/ 2+October 1991+1482+1493+D. Mills"
+          },
+          {
+            "doi": "10.1016/s0301-5629(02)00735-4",
+            "key": "ref16",
+            "score": 102.86349,
+            "unstructured": "High-definition freehand 3-D ultrasound+Ultrasound Med Biol+2003+29+3+546+GM Treece+AH Gee+RW Prager+CJC Cash+LH Berman"
+          },
+          {
+            "doi": "10.1109/tmi.2006.877097",
+            "key": "ref17",
+            "score": 68.01661,
+            "unstructured": "Calibration Method for 3D Ultrasound+IEEE Trans Med Imaging+2006+25+3+Rousseau F A Novel Temporal"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

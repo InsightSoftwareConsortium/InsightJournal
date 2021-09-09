@@ -93,6 +93,116 @@
     "revisions": [
       {
         "article": "bafybeiangofwbpqtutqjujbgfkbjnwmhegpu3nnpbtl3obnjk3u5wnf3ty",
+        "citation_list": [
+          {
+            "doi": "10.1148/radiol.2323032035",
+            "key": "ref1",
+            "score": 89.431145,
+            "unstructured": "Lung Image Database Consortium: Developing a Resource for the Medical Imaging Research Community+232+739+748+2004+S.G. Armato+III+and M.F. McNitt-Gray"
+          },
+          {
+            "key": "ref2",
+            "score": 28.424911,
+            "unstructured": "PhD thesis+1973+J. C. Bezdek"
+          },
+          {
+            "doi": "10.1007/0-387-24579-0_1",
+            "key": "ref3",
+            "score": 71.34358,
+            "unstructured": "Fuzzy Models and Algorithms for Pattern Recognition+1999+1+2+1+J. C. Bezdek+Mikhil R. Pal+Image Processing"
+          },
+          {
+            "doi": "10.1109/itab.2010.5687726",
+            "key": "ref4",
+            "score": 119.149574,
+            "unstructured": "Comparison of various fuzzy clustering algo- rithms in the detection of ROI in lung CT and a modified kernelized- spatial fuzzy c-means algorithm+In Proc. of 10th IEEE Int. Conf. on Inf.Tech. and Appl+2010+2+3+A. Castro+B. Arcay+Corfu"
+          },
+          {
+            "doi": "10.1109/tsmcb.2011.2124455",
+            "key": "ref5",
+            "score": 128.5762,
+            "unstructured": "Means Algorithm for Image Segmentation+Systems, Man, and Cybernetics+41+5+1263+1274+2011+Long Chen+C.L.P. Chen+Mingzhu Lu+Multiple-Kernel Fuzzy+B Part+Cybernetics"
+          },
+          {
+            "doi": "10.1109/tsmcb.2004.831165",
+            "key": "ref6",
+            "score": 125.02447,
+            "unstructured": "Robust image segmentation using FCM with spatial constraints based on new kernel-induced distance measure+Systems, Man, and Cybernetics+1+2+2+1916+2004+S. C. Chen+D. Q. Zhang+B Part+Cybernetics"
+          },
+          {
+            "doi": "10.1016/j.compmedimag.2005.10.001",
+            "key": "ref7",
+            "score": 73.91467,
+            "unstructured": "Fuzzy c-means clustering with spatial information for image segmentation+Comp. Med. Imag. and Graph+3+15+2006+1+2+Chuang Keh-Shih+Tzeng Hong-Long+Jay Wu+Tzong-Jer Chen"
+          },
+          {
+            "doi": "10.1109/pgec.1965.264137",
+            "key": "ref8",
+            "score": 77.826004,
+            "unstructured": "Geomeasureal and statistical properties of systems of linear inequalities in pattern recognition+IEEE Trans. Electron. Comput.+2+2+334+1965+T.M. Cover"
+          },
+          {
+            "doi": "10.1017/cbo9780511801389",
+            "key": "ref9",
+            "score": 66.47176,
+            "unstructured": "\u00a8lkopf. Support vector machines and kernel methods: the new generation of learning machines+AI Magazine+23+3+31+41+2002+N. Cristianini+B. Scho"
+          },
+          {
+            "doi": "10.1016/j.patcog.2007.05.018",
+            "key": "ref10",
+            "score": 89.88192,
+            "unstructured": "A survey of kernel and spectral methods for clustering+Pattern Recogn+41+1+176+190+2008+Filippone Maurizio+Francesco Masulli"
+          },
+          {
+            "key": "ref11",
+            "score": 24.846277,
+            "unstructured": "second edition+2005+L. Ibanez+W. Schroeder+L. Ng+J. Cates"
+          },
+          {
+            "key": "ref12",
+            "score": 50.17899,
+            "unstructured": "Some methods of classification and analysis of multivariate observations+In Proceedings of the fifth berkeley symposium on mathematical statistics and probability+281+297+1967+J. B. Macqueen"
+          },
+          {
+            "doi": "10.1109/72.914517",
+            "key": "ref13",
+            "score": 60.48329,
+            "unstructured": "\u00a8lkopf. An introduction to kernel-based learning algorithms+IEEE Transactions on Neural Networks+2+2+2+201+2001+G. K-R. Mu+B. Scho"
+          },
+          {
+            "key": "ref14",
+            "score": 37.795395,
+            "unstructured": "Nonlinear Discriminant Analysis Using Kernel Functions+In NIPS'99+568+574+1999+V. Roth+V. Steinhage"
+          },
+          {
+            "key": "ref15",
+            "score": 38.030136,
+            "unstructured": "\u00a8lkopf. Support vector learning+GMD-Bericht ; 287+1997+B. Scho+Oldenbourg"
+          },
+          {
+            "doi": "10.1162/089976698300017467",
+            "key": "ref16",
+            "score": 83.7244,
+            "unstructured": "\u00a8ller. Nonlinear component analysis as a kernel eigenvalue problem+Neural Computation+10+5+1299+1319+1998+B. Scho+K-R. Mu"
+          },
+          {
+            "doi": "10.1109/iccima.2003.1238099",
+            "key": "ref17",
+            "score": 130.18752,
+            "unstructured": "Wei-xin Xie, and Jian-ping Yu. Fuzzy C-Means Clustering Algorithm Based on Kernel Method+In Proc. of the 5th Int. Conf. on Computational Intelligence and Multimedia Applications. IEEE Computer Society+2003+Zhong-dong Wu"
+          },
+          {
+            "doi": "10.1016/s0019-9958(65)90241-x",
+            "key": "ref18",
+            "score": 66.82776,
+            "unstructured": "Fuzzy sets+Information and Control+338+353+1965+L. Zadeh"
+          },
+          {
+            "key": "ref19",
+            "score": 58.651318,
+            "unstructured": "Fuzzy clustering using kernel method+In Proc. of the Int. Conf. on Control and Automation+123+127+2002+D. Q. Zhang+S. C. Chen"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

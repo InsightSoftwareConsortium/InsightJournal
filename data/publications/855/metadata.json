@@ -37,6 +37,72 @@
     "revisions": [
       {
         "article": "bafybeianagg4wcgylx4mvjvdwwvtrmy4oqmrhp6yl65blvan4vyq54k3fq",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 56.138374,
+            "unstructured": "International Journal of Computer Vision+61+2+1+157+February 2005+M. Faisal Beg+Michael I. Miller+Laurent Younes"
+          },
+          {
+            "key": "ref2",
+            "score": 53.797333,
+            "unstructured": "page 72591F+1+SPIE+2009+3+2+O. M. De Craene+B.H. Camara+Bijnens+A. F. Frangi"
+          },
+          {
+            "doi": "10.1016/j.media.2011.10.006",
+            "key": "ref3",
+            "score": 159.32304,
+            "unstructured": "Temporal diffeomorphic free-form deformation: Application to motion and strain estimation from 3d echocardiography+Medical Image Analysis+2012+1+2+2+G. M. De Craene+O. Piella+N. Camara+E. Duchateau+A. Silva+Doltra+M. J. D'hooge+Sitges+A.F. Frangi"
+          },
+          {
+            "doi": "10.1007/978-3-642-15745-5_1",
+            "key": "ref4",
+            "score": 172.27423,
+            "unstructured": "Temporal diffeomorphic free-form deformation for strain quantification in 3d-us images+In 13th Medical Image Computing and Computer-Assisted Intervention, Lecture Notes in Computer Science+2010+N. M. De Craene+E. Duchateau+A. Silva+H. Doltra+Gao+O. J. D'hooge+J Camara+M. Brugada+Sitges+A.F. Frangi"
+          },
+          {
+            "doi": "10.1007/978-3-642-28326-0_7",
+            "key": "ref5",
+            "score": 146.23059,
+            "unstructured": "Temporal diffeomorphic free form deformation (tdffd) applied to motion and deformation quantification of tagged mri sequences+Conjunction with MICCAI 2011+2011+C. M. De Craene+C. Tobon-Gomez+N. Butakoff+K.S. Duchateau+Rhode+A.F. Frangi"
+          },
+          {
+            "doi": "10.1007/978-3-642-04268-3_37",
+            "key": "ref6",
+            "score": 150.39542,
+            "unstructured": "Spatiotemporal atlas estimation for developmental delay detection in longitudinal datasets. Medical image computing and computer-assisted intervention : MICCAI+International Conference on Medical Image Computing and Computer-Assisted Intervention+12+1+304+January 2009+Stanley Durrleman+Guido Gerig"
+          },
+          {
+            "doi": "10.1109/isbi.2008.4541298",
+            "key": "ref7",
+            "score": 94.095215,
+            "unstructured": "Representation of time-varying shapes in the large deformation diffeomorphic framework+In IEEE International Symposium on Biomedical Imaging, number 1+1521+1524+2008+R. Ali+Khan"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2008.10.039",
+            "key": "ref8",
+            "score": 155.0493,
+            "unstructured": "Time sequence diffeomorphic metric mapping and parallel transport track time-dependent shape changes+NeuroImage+45+1+S51+S60+2009+A Qiu+M Albert+L Younes+M I Miller"
+          },
+          {
+            "doi": "10.1007/11866763_86",
+            "key": "ref9",
+            "score": 99.30187,
+            "unstructured": "In Medical Image Computing+4191+of LNCS+1+709+October 2006+D Rueckert+P Aljabar+R A Heckemann+J V Hajnal+A Hammers+Intervention Computer-Assisted"
+          },
+          {
+            "doi": "10.1007/978-3-642-28326-0_28",
+            "key": "ref10",
+            "score": 69.13468,
+            "unstructured": "Frame to Frame Diffeomorphic Motion Analysis from Echocardiographic Sequences+Proceedings of the Third International Workshop on Mathematical Foundations of Computational Anatomy - Geometrical and Statistical Methods for Modelling Biological Shape Variability+1+24+September 2011+2+Z. Zhang+D. Sahn+X. Song"
+          },
+          {
+            "doi": "10.1007/978-3-642-28326-0_28",
+            "key": "ref11",
+            "score": 85.88661,
+            "unstructured": "Temporal diffeomorphic motion analysis from echocardiographic sequences by using intensity transitivity consistency+Conjunction with MICCAI 2011+2011+1+Z. Zhang+D.J. Sahn+X. Song"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

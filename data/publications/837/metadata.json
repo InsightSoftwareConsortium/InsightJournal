@@ -54,6 +54,24 @@
     "revisions": [
       {
         "article": "bafkreiezvudpygb5wisdlgsyc4qtxpwwr2eqzw3jt472uxs5yzbvwvqp6a",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 33.697323,
+            "unstructured": "An MRI-based stereotactic atlas from 250 young normal subjects+In Society for Neuroscience Abstracts+18+1992+D. L. Collins+A. C. Evans+B. Milner"
+          },
+          {
+            "key": "ref2",
+            "score": 55.505226,
+            "unstructured": "Open-source diffusion-MRI reconstruction and processing+In Proceedings of the 14th Scientific Meeting of the International Society for Magnetic Resonance in Medicine+2006+P. A. Cook+Y. Bai+S. Nedjati-Gilani+K. K. Seunarine+M. G. Hall+G. J. Parker+D. C. Alexander"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2009.02.032",
+            "key": "ref3",
+            "score": 66.59773,
+            "unstructured": "(document), 1+Neuroimage+46+3+692+707+Jul 2009+Wim Van Hecke+and Alexander Jan Sijbers+Leemans"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

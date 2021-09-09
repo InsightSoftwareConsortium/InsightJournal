@@ -85,6 +85,43 @@
       },
       {
         "article": "bafkreibpqvtvdcjzjwx2dykuyefkheyv6roqhm6yfb5vkalmpn3vadkine",
+        "citation_list": [
+          {
+            "doi": "10.1016/s1361-8415(03)00037-9",
+            "key": "ref1",
+            "score": 77.3841,
+            "unstructured": "A fully automatic and robust brain MRI tissue classi cation method+Med Image Anal+3+4+2+2003+A Cocosco Chris+Alan C Evans+Dec"
+          },
+          {
+            "doi": "10.1016/0146-664x(80)90054-4",
+            "key": "ref2",
+            "score": 62.645203,
+            "unstructured": "Euclidean distance mapping+Computer Vision+14+248+1980+P. E. Danielsson"
+          },
+          {
+            "doi": "10.1109/tpami.2003.1177156",
+            "key": "ref3",
+            "score": 143.09091,
+            "unstructured": "A linear time algorithm for computing exact euclidean distance transforms of binary images in arbitrary dimensions+IEEE Transactions on Pattern Analysis and Machine Intelligence+1+2+2+2003+C. R. Maurer+Rensheng Qi+V. Raghavan"
+          },
+          {
+            "key": "ref4",
+            "score": 48.476387,
+            "unstructured": "Fast and accurate redistancing for level set methods+In EUROCAST NeuroImaging Workshop+48+1+February 2003+K. Krissian+C. F. Westin"
+          },
+          {
+            "doi": "10.1016/1049-9652(92)90072-6",
+            "key": "ref5",
+            "score": 119.44599,
+            "unstructured": "The vector distance transform in two and three dimensions+CVGIP: Graphical Models and Image Processing+54+535+1992+J. C. Mullikin"
+          },
+          {
+            "doi": "10.1016/0167-8655(93)90152-4",
+            "key": "ref6",
+            "score": 106.407486,
+            "unstructured": "The euclidean distance transform in arbitrary dimensions+Pattern Recognition Letters+14+888+1993+I. Ragnemalm."
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

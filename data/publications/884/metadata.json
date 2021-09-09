@@ -106,6 +106,36 @@
     "revisions": [
       {
         "article": "bafybeiagzmocuka2celu3236ostpg2kjzolc6ssypnqkcidmj7zibw2z2m",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 23.6529,
+            "unstructured": "The ITK software guide+2005+3+3+3+L. Iba+L. Ng+J. Cates"
+          },
+          {
+            "doi": "10.1109/tmi.2009.2035616",
+            "key": "ref2",
+            "score": 117.6476,
+            "unstructured": "elastix: a toolbox for intensitybased medical image registration+IEEE Transactions on Medical Imaging+3+1+2+205+2010+S. Klein+M. Staring+K. Murphy+M.A. Viergever+J.P.W. Pluim"
+          },
+          {
+            "key": "ref3",
+            "score": 31.538307,
+            "unstructured": "2011+4+4+4+Jim Miller+Won-Ki Jeong"
+          },
+          {
+            "doi": "10.1080/2151237x.2008.10129269",
+            "key": "ref4",
+            "score": 131.19888,
+            "unstructured": "Efficient GPU-based texture interpolation using uniform B-splines+Journal of Graphics Tools+6+3+7+69+2008+Daniel Ruijters+Haar Romeny+Paul Suetens"
+          },
+          {
+            "doi": "10.1109/78.193221",
+            "key": "ref5",
+            "score": 110.65115,
+            "unstructured": "B-Spline signal processing: Part II-Efficient design and applications+IEEE Transactions on Signal Processing+5+2+3+848+1993+M. Unser+A. Aldroubi+M. Eden"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

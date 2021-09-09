@@ -43,6 +43,29 @@
     "revisions": [
       {
         "article": "bafybeiaahzrj2izjlogvoj57sgv74njykyiu2gjfufhpnzf33ooq5oi4gy",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 39.1929,
+            "unstructured": "the Insight Software Consortium+The ITK Software Guide. Kitware, second edition+2005+2+2+L. Iba+L. Ng+J. Cates"
+          },
+          {
+            "key": "ref2",
+            "score": 41.03604,
+            "unstructured": "A streaming IO base class and support for streaming the MRC and VTK file format+The Insight Journal+3+6+2010+3+3+B. Lowekamp+D. Chen"
+          },
+          {
+            "key": "ref3",
+            "score": 47.35471,
+            "unstructured": "Enabling reproducible research: Open licensing for scientific innovation+International Journal of Communications Law and Policy+2009+1+4+25+3+V. Stodden"
+          },
+          {
+            "doi": "10.1371/journal.pone.0021297",
+            "key": "ref4",
+            "score": 62.69643,
+            "unstructured": "Acquisition of synchrotron radiation micro-CT images for the investigation of bone micro-cracks+The MIDAS Journal+4+7+2011+1+M.A. Zuluaga+A. Larrue+A. Rattner+L. Vico"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

@@ -52,6 +52,61 @@
     "revisions": [
       {
         "article": "bafybeigcu2vyvkynsued6yexxsknriexnqhcuvue736p2fln2gvsruxu44",
+        "citation_list": [
+          {
+            "doi": "10.24926/548719.081",
+            "key": "ref1",
+            "score": 64.72198,
+            "unstructured": "Editorial: 3d segmentation in the clinic: A grand challenge II - liver tumor segmentation+In: Proceedings MICCAI Workshop on 3D Segmentation in the Clinic+2008+X. Deng+Du"
+          },
+          {
+            "key": "ref2",
+            "score": 58.613136,
+            "unstructured": "Comparison and evaluation of methods for liver segmentation from CT datasets+IEEE Transactions on Medical Imaging+1251+8+1265+2009+Heimann+B. van Ginneken+M.A. Styner"
+          },
+          {
+            "doi": "10.1109/jstsp.2008.2011107",
+            "key": "ref3",
+            "score": 123.23091,
+            "unstructured": "Advanced segmentation techniques for lung nodules, liver metastases, and enlarged lymph nodes in CT scans+IEEE Journal of Selected Topics in Signal Processing+122+1+134+2009+J.H. Moltz+L. Bornemann+J.M. Kuhnigk"
+          },
+          {
+            "doi": "10.1117/12.655213",
+            "key": "ref4",
+            "score": 110.487045,
+            "unstructured": "Tumor volume measurement and volume measurement comparison plug-ins for VolView using ITK+69141B1{69141B8+6914+2006+T. Popa+L. Ibanez+E. Levy"
+          },
+          {
+            "doi": "10.1118/1.3013561",
+            "key": "ref5",
+            "score": 146.14792,
+            "unstructured": "Comparison of twodimensional and three-dimensional iterative watershed segmentation methods in hepatic tumor volumetrics+Medical Physics+5869+12+5881+2008+S. Ray+R. Hagge+M. Gillen+M. Cerejo+S. Shakeri"
+          },
+          {
+            "doi": "10.1109/tip.2006.884936",
+            "key": "ref6",
+            "score": 69.826805,
+            "unstructured": "Shape-based averaging+IEEE Transactions on Image Processing+153+1+161+2007+C.R. Maurer"
+          },
+          {
+            "doi": "10.1109/tmi.2004.828354",
+            "key": "ref7",
+            "score": 114.84749,
+            "unstructured": "Simultaneous truth and performance level estimation (STAPLE): an algorithm for the validation of image segmentation+IEEE Transactions on Medical Imaging+903+7+921+2004+K.H. Zou+W.M.: Wells"
+          },
+          {
+            "doi": "10.1109/cbms.2003.1212810",
+            "key": "ref8",
+            "score": 130.35826,
+            "unstructured": "Volumetry of hepatic metastases in computed tomography using the watershed and active contour algorithms+In: Proceedings IEEE Symposium on Computer-Based Medical Systems+329+335+2003+P.J. Yim+D.J.: Foran"
+          },
+          {
+            "doi": "10.1097/01.rli.0000236907.81400.18",
+            "key": "ref9",
+            "score": 132.21468,
+            "unstructured": "Shape-constraint region growing for delineation of hepatic metastases on contrast-enhanced computed tomograph scans+Investigative Radiology+753+10+762+2006+B. Zhao+L.H. Schwartz+L. Jiang"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

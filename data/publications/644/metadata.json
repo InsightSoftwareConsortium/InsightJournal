@@ -70,6 +70,137 @@
     "revisions": [
       {
         "article": "bafybeie5stu6r7pmofbgfgw6fhdct22gqyllldyud727elng7bdvuw5jdu",
+        "citation_list": [
+          {
+            "doi": "10.1007/11866565_113",
+            "key": "ref1",
+            "score": 117.034836,
+            "unstructured": "A Log-Euclidean framework for statistics on diffeomorphisms+Proceedings of the 9th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI'06)+1+2+931+2006+2+Vincent Arsigny+Nicholas Ayache"
+          },
+          {
+            "doi": "10.1007/bf01420984",
+            "key": "ref2",
+            "score": 79.06147,
+            "unstructured": "Performance of optical flow techniques+International Journal of Computer Vision+12+1+1+77+February 1994+David J. John L. Barron+Fleet+S. Steven+Beauchemin"
+          },
+          {
+            "doi": "10.1023/b:visi.0000043755.93987.aa",
+            "key": "ref3",
+            "score": 120.55972,
+            "unstructured": "Computing large deformation metric mappings via geodesic flows of diffeomorphisms+International Journal of Computer Vision+61+2+1+157+February 2005+M. Faisal Beg+Michael I. Miller+Laurent Younes"
+          },
+          {
+            "doi": "10.1007/978-3-540-75757-3_81",
+            "key": "ref4",
+            "score": 131.76775,
+            "unstructured": "Contributions to 3D diffeomorphic atlas estimation: Application to brain images+Proceedings of the 10th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI'07)+1+3+674+October 2007+2+Matias Bossa+Salvador Olmos"
+          },
+          {
+            "doi": "10.1016/s1077-3142(03)00002-x",
+            "key": "ref5",
+            "score": 106.7685,
+            "unstructured": "Iconic feature based nonrigid registration: The PASHA algorithm+Computer vision and image understanding+2+2+1+298+February 2003+Pascal Cachier"
+          },
+          {
+            "doi": "10.1109/isbi.2002.1029367",
+            "key": "ref6",
+            "score": 101.4651,
+            "unstructured": "'hotel, Gerardo Hermosillo, and Olivier Faugeras. Flows of diffeomorphisms for multimodal image registration+In Proceedings of the IEEE International Symposium on Biomedical Imaging: From Nano to Macro (ISBI'02)+753+756+2002+Christophe Chefd"
+          },
+          {
+            "doi": "10.1109/83.536892",
+            "key": "ref7",
+            "score": 98.29609,
+            "unstructured": "Deformable templates using large deformation kinematics+IEEE Transactions on Image Processing+5+10+1+1447+October 1996+E. Gary+Michael I. Miller. Christensen"
+          },
+          {
+            "key": "ref8",
+            "score": 31.508099,
+            "unstructured": "\u00b4n\u02dcez, Will Schroeder+The ITK Software Guide. Kitware, Inc., 2 edition+2005+Luis Iba+Josh Cates"
+          },
+          {
+            "doi": "10.1109/83.855431",
+            "key": "ref9",
+            "score": 100.618706,
+            "unstructured": "Landmark matching via large deformation diffeomorphisms+IEEE Transactions on Image Processing+9+8+1+1370+August 2000+C. Sarang+Michael I. Miller. Joshi"
+          },
+          {
+            "key": "ref10",
+            "score": 53.707497,
+            "unstructured": "The geometry of the Newton method on non-compact Liegroups+Journal of Global Optimization+2+3+2+327+August 2002+Robert Mahony+Jonathan H. Manton"
+          },
+          {
+            "doi": "10.1109/robot.2004.1308092",
+            "key": "ref11",
+            "score": 123.32296,
+            "unstructured": "Improving vision-based control using efficient second-order minimization techniques+In Proceedings of the IEEE International Conference on Robotics and Automation (ICRA'04)+April 2004+2+2+2+Ezio Malis"
+          },
+          {
+            "doi": "10.1109/tmi.2004.831228",
+            "key": "ref12",
+            "score": 136.2749,
+            "unstructured": "Constructing diffeomorphic representations for the groupwise analysis of non-rigid registrations of medical images+IEEE Transactions on Medical Imaging+23+8+1006+1020+2004+Stephen Marsland+Carole Twining"
+          },
+          {
+            "doi": "10.1016/b978-012692535-7/50083-5",
+            "key": "ref13",
+            "score": 110.855606,
+            "unstructured": "Large deformation fluid diffeomorphisms for landmark and image matching+Brain Warping+115+131+1998+I. Miller Michael+Sarang C. Joshi+Gary E. Christensen"
+          },
+          {
+            "doi": "10.1016/s1361-8415(98)80022-4",
+            "key": "ref14",
+            "score": 100.88304,
+            "unstructured": "Image matching as a diffusion process: An analogy with Maxwell's demons+Medical Image Analysis+2+3+243+260+1998+Jean-Philippe Thirion"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2004.07.023",
+            "key": "ref15",
+            "score": 102.469894,
+            "unstructured": "Statistics on diffeomorphisms via tangent space representations. Neuroimage+23+S1+161+169+2004+Marc Vaillant+Michael I. Miller+Laurent Younes"
+          },
+          {
+            "doi": "10.1007/978-3-540-73273-0_41",
+            "key": "ref16",
+            "score": 71.72855,
+            "unstructured": "Insight into efficient image registration techniques and the demons algorithm+July 2007. Springer-Verlag. 2.1+4584+495+506+Tom Vercauteren+Boudewijn P. F"
+          },
+          {
+            "key": "ref17",
+            "score": 30.52489,
+            "unstructured": "Available online with source code+Insight Journal - ISC/NA-MIC Workshop on Open Science at MICCAI+1926+Tom Vercauteren"
+          },
+          {
+            "doi": "10.1007/978-3-540-75759-7_39",
+            "key": "ref18",
+            "score": 119.76618,
+            "unstructured": "Non-parametric diffeomorphic image registration with the demons algorithm+Proceedings of the 10th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI'07)+1+3+326+October 2007+2+Tom Vercauteren"
+          },
+          {
+            "doi": "10.1007/978-3-540-85988-8_90",
+            "key": "ref19",
+            "score": 79.19502,
+            "unstructured": "Symmetric log-domain diffeomorphic registration: A demons-based approach+(document)+1+3+761+September 2008+2+Tom Vercauteren"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2008.10.040",
+            "key": "ref20",
+            "score": 116.29201,
+            "unstructured": "Diffeomorphic demons: Efficient non-parametric image registration+Neuroimage+45+1+S61+S72+March 2009+Tom Vercauteren+Supp"
+          },
+          {
+            "doi": "10.1088/0031-9155/50/12/011",
+            "key": "ref21",
+            "score": 105.556885,
+            "unstructured": "Validation of an accelerated 'demons' algorithm for deformable image registration in radiation therapy+Physics in Medicine and Biology+50+12+2887+2905+2005+Wang He+K. Jennifer O'Daniel+Kian Ang+Y. Joe+Rex Chang+Cheung"
+          },
+          {
+            "doi": "10.1016/s0730-725x(99)00044-2",
+            "key": "ref22",
+            "score": 112.71547,
+            "unstructured": "Automatic detection of hippocampal atrophy on magnetic resonance images+Magnetic Resonance Imaging+17+8+1149+1161+1999+A Webb Jocasta+Jean-Philippe Thirion"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

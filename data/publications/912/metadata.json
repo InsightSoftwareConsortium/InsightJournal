@@ -43,6 +43,31 @@
     "revisions": [
       {
         "article": "bafybeidr5dox2ptwsybciibhhfzpwpo3rufbkmk7rzngwe5mltktbbkkmm",
+        "citation_list": [
+          {
+            "doi": "10.1016/j.jsb.2006.06.006",
+            "key": "ref1",
+            "score": 84.341,
+            "unstructured": "Bsoft: Image processing and molecular modeling for electron microscopy+J. Struct. Biol+157+1+3+18+2007+J.B. Heymann+Belnap D.M."
+          },
+          {
+            "doi": "10.1006/jsbi.1996.0013",
+            "key": "ref2",
+            "score": 101.70108,
+            "unstructured": "Computer visualization of three-dimensional image data using IMOD+J. Struct. Biol+116+71+76+1996+J.R. Kremer+D.N. Mastronarde+McIntosh J.R."
+          },
+          {
+            "doi": "10.1109/visual.1994.346331",
+            "key": "ref3",
+            "score": 78.93257,
+            "unstructured": "An evaluation of reconstruction filters for volume rendering+In IEEE Visualization+100+107+1994+R. Stephen+Richard Marschner+Lobb"
+          },
+          {
+            "key": "ref4",
+            "score": 40.054073,
+            "unstructured": "Meeting Andy Warhol somewhere over the rainbow: RGB colormapping and ITK+The Insight Journal+01 2009+N. Tustison+H. Zhang+P. Yushkevich+J. Gee"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

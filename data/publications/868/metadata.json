@@ -60,6 +60,60 @@
     "revisions": [
       {
         "article": "bafkreid7i44et24lityr7mm5ukmywv7es4yb23gczcz46jmxbkkuephdpm",
+        "citation_list": [
+          {
+            "doi": "10.1007/978-3-540-85990-1_59",
+            "key": "ref1",
+            "score": 62.551346,
+            "unstructured": "2008+Architectures for Computer Assisted Interventions+In: MICCAI+1+8+J. Boisvert+D. Gobbi+S. Vikal+R. Rohling+G. Fichtinger+P. Abolmaesumi"
+          },
+          {
+            "key": "ref2",
+            "score": 50.375664,
+            "unstructured": "08+Architectures for Computer Assisted Interventions+In: MICCAI+2009+1+8+D. Pace+D. Gobbi+C. Wedlake+J. Gumprecht+J. Boisvert+J. Tokuda+N. Hata+T. Peters"
+          },
+          {
+            "doi": "10.1016/s0301-5629(02)00735-4",
+            "key": "ref3",
+            "score": 109.68221,
+            "unstructured": "Apr 2003+High-definition freehand 3-d ultrasound+Ultrasound Med Biol+29+4+529+546+G. M. Treece+A. H. Gee+R.W. Prager+C. J. C. Cash+L. H. Berman"
+          },
+          {
+            "key": "ref4",
+            "score": 43.622723,
+            "unstructured": "2010+The musiic toolkit: Modular real-time toolkit for advanced ultrasound research+In: MICCAI+P. J. Stolka+Kang+E. Boctor"
+          },
+          {
+            "doi": "10.1109/robot.2006.1642285",
+            "key": "ref5",
+            "score": 111.88866,
+            "unstructured": "2006+Software components and frameworks for medical robot control+In: Proc. IEEE Int. Conf. Robotics and Automation ICRA+3813+3818+A. Kapoor+A. Deguet+P. Kazanzides"
+          },
+          {
+            "doi": "10.1109/mc.2006.130",
+            "key": "ref6",
+            "score": 143.90244,
+            "unstructured": "2006+Igstk: an open source software toolkit for image-guided surgery+Computer+39+4+46+53+K. Gary+L. Ibanez+S. Aylward+D. Gobbi+M. B. Blake+K. Cleary"
+          },
+          {
+            "doi": "10.1016/j.ultrasmedbio.2008.07.004",
+            "key": "ref7",
+            "score": 110.844894,
+            "unstructured": "A real-time ultrasound calibration system with automatic accuracy feedback and control+Ultrasound in Med. & Biol+35+1+79+93+2009+T.K. Chen+A.D. Thurston+R.E. Ellis+P. Abolmaesumi."
+          },
+          {
+            "doi": "10.1109/isbi.2006.1625012",
+            "key": "ref8",
+            "score": 191.01843,
+            "unstructured": "2006+The na-mic kit: Itk, vtk, pipelines, grids and 3d slicer as an open platform for the medical image computing community+In: Proceedings of the 3rd IEEE International Symposium on Biomedical Imaging: From Nano to Macro+1+698+701+S. Pieper+B. Lorensen+W. Schroeder+R. Kikinis"
+          },
+          {
+            "doi": "10.1109/tbme.2012.2209881",
+            "key": "ref9",
+            "score": 161.00308,
+            "unstructured": "Navigation by Tracked Ultrasound Snapshots+IEEE Trans Biomed Eng+T. Ungi+P. Abolmaesumi+R. Jalal+M. Welch+I. Ayukawa+S. Nagpal+A. Lasso+M. Jaeger+D. P. Borschneck+G. Fichtinger+P. Mousavi+Spinal Needle"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

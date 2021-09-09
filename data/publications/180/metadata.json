@@ -55,6 +55,25 @@
     "revisions": [
       {
         "article": "bafkreiaj6krchopeqgrbtwkzpprnspn4slady6dbr7swtdvnlolipa5lam",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 45.603855,
+            "unstructured": "The ITK Software Guide: The Insight Segmentation and Registration Toolkit (version 1.4)+September 2003+(document), 1+Luis Ibanez+Josh Cates"
+          },
+          {
+            "doi": "10.1016/s0895-6111(02)00011-3",
+            "key": "ref2",
+            "score": 123.09439,
+            "unstructured": "Structural MR image processing using the BRAINS2 toolbox+Computerized Medical Imaging and Graphics+26+251+64+2002+V.A. Magnotta+N.C. Andreasen+D. Heckel"
+          },
+          {
+            "doi": "10.1109/isbi.2006.1625012",
+            "key": "ref3",
+            "score": 153.70766,
+            "unstructured": "The na-mic kit: Itk, vtk, pipelines, grids and 3d slicer as an open platform for the medical image computing community+Proceedings of IEEE International Symposium on BioMedical Imaging: From Nano to Macro+March 2006+698+701+Steve Pieper"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

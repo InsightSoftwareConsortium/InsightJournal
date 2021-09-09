@@ -86,6 +86,20 @@
     "revisions": [
       {
         "article": "bafybeiapflsk7kwce3fejzhrgmipsvhwiiqixqewfzc7qmi3zrdyazo72a",
+        "citation_list": [
+          {
+            "doi": "10.1201/b10629",
+            "key": "ref1",
+            "score": 73.363174,
+            "unstructured": "Real-time Volume Graphics. A. K. Peters+2006+2+4+Markus Hadwiger+Klaus Joe M. Kniss+Engel"
+          },
+          {
+            "doi": "10.1145/1508044.1508045",
+            "key": "ref2",
+            "score": 113.2582,
+            "unstructured": "Advanced illumination techniques for gpu volume raycasting+In ACM SIGGRAPH ASIA+2008+3+1+1+1+Markus Hadwiger+Timo Ropinski"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

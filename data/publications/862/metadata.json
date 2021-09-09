@@ -50,6 +50,45 @@
     "revisions": [
       {
         "article": "bafybeiftkb7rwh47rkuy4c2cocfybplwhihwyypberhvimgdwi6bz6djcu",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 24.869333,
+            "unstructured": " http://hamlyn.doc.ic.ac.uk/vision/. 1"
+          },
+          {
+            "key": "ref2",
+            "score": 9.322912,
+            "unstructured": "org/. 1"
+          },
+          {
+            "key": "ref3",
+            "score": 33.935177,
+            "unstructured": "Accurate camera calibration and feature based 3-D reconstruction+1997+2+1+Janne Heikkila"
+          },
+          {
+            "doi": "10.1145/1778765.1778803",
+            "key": "ref4",
+            "score": 92.450775,
+            "unstructured": "Ray Tracing Engine+ACM Transactions on Graphics+August 2010+2+1+G. Steven+Parker+David McAllister+McGuire Morgan+Martin Stich. OptiX: A General Purpose"
+          },
+          {
+            "key": "ref5",
+            "score": 37.65457,
+            "unstructured": "Advanced Driver Assistance System Testing using OptiX+NVIDIA GTC+2012+Erwin Roth"
+          },
+          {
+            "doi": "10.1109/smbv.2001.988771",
+            "key": "ref6",
+            "score": 96.02304,
+            "unstructured": "A Taxonomy and Evaluation of Dense Two-Frame Stereo Correspondence Algorithms+Int. J. Comput. Vision+1+1-3+3+42+April 2002+Daniel Scharstein+Richard Szeliski"
+          },
+          {
+            "key": "ref7",
+            "score": 46.82582,
+            "unstructured": "Robust Single-Shot Structured Light 3D Scanning+PhD thesis+2011+Christoph Schmalz"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

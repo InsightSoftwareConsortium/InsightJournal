@@ -56,6 +56,35 @@
     "revisions": [
       {
         "article": "bafybeiglztn4ydg5zj2ddv6muvaekhrlycqj2arnpdw4qfa2b4wz6oeusi",
+        "citation_list": [
+          {
+            "doi": "10.1016/b978-0-444-53632-7.00306-3",
+            "key": "ref1",
+            "score": 84.40118,
+            "unstructured": "Diffusion-weighted mri+Comprehensive Biomedical Physics+3+6+1+97+2012+Maxime Descoteaux+Cyril Poupon"
+          },
+          {
+            "key": "ref2",
+            "score": 49.96413,
+            "unstructured": "A new implementation of itk::imagetoimagefilter for efficient parallelization of image processing algorithms using intel threading building blocks+07+2016+1+1+2+Amir Jaberzadeh+Simon Warfield"
+          },
+          {
+            "doi": "10.1002/jmri.1076",
+            "key": "ref3",
+            "score": 84.21763,
+            "unstructured": "Diffusion tensor imaging: concepts and applications+Journal of magnetic resonance imaging+3+4+1+546+2001+Denis Le+Bihan+Hughes Chabriat"
+          },
+          {
+            "key": "ref4",
+            "score": 51.622574,
+            "unstructured": "Intel threading building blocks: outfitting C++ for multi-core processor parallelism+2007+2+1+James Reinders+O'Reilly Media"
+          },
+          {
+            "key": "ref5",
+            "score": 17.736774,
+            "unstructured": "Benoit Scherrer"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

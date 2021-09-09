@@ -40,6 +40,109 @@
     "revisions": [
       {
         "article": "bafybeialkudinllbuceguvjr2g2gegq3uljw5rv4haswpjscqh4n57qrpu",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 35.735413,
+            "unstructured": "2014+www.creatis.insa-lyon"
+          },
+          {
+            "doi": "10.1007/978-3-540-24670-1_33",
+            "key": "ref2",
+            "score": 80.92408,
+            "unstructured": "Interactive image segmentation using an adaptive gmmrf model+Proc. ECCV+2004+A. Blake+C. Rother+M M. Brown+P. Perez P."
+          },
+          {
+            "doi": "10.1109/tpami.2004.60",
+            "key": "ref3",
+            "score": 98.369446,
+            "unstructured": "An experimental comparison of min-cut/max- ow algorithms for energy minimization in vision+IEEE PAMI+1124+9+1137+2004+Y Boykov+V. Kolmogorov"
+          },
+          {
+            "doi": "10.1109/isbi.2010.5490181",
+            "key": "ref4",
+            "score": 103.52724,
+            "unstructured": "Robust left ventricle segmentation from ultrasound data using deep neural networks and e cient search methods+In ISBI+1085+1088+2010+G. Carneiro+J. C. Nascimento+A. Freitas"
+          },
+          {
+            "doi": "10.1016/j.media.2011.10.003",
+            "key": "ref5",
+            "score": 139.35814,
+            "unstructured": "Detection of the whole myocardium in 2d-echocardiography for multiple orientations using a geometrically constrained level-set+Med+386+2+401+2012+T. Dietenbeck+M. Alessandrini+D. Barbosa+D. J. D'hoogec+O. Friboulet+Bernard"
+          },
+          {
+            "doi": "10.3410/f.13499958.793514944",
+            "key": "ref6",
+            "score": 62.995056,
+            "unstructured": "Eae/ase recommendations for image acquisition and display using threedimensional echocardiography+European Heart Journal { Cardiovascular Imaging+13+46+2012+R. M. Lang"
+          },
+          {
+            "doi": "10.1016/j.media.2014.06.004",
+            "key": "ref7",
+            "score": 86.59622,
+            "unstructured": "Segmentation of b-mode cardiac ultrasound data by bayesian probability maps+Elsevier+2014+M. Hansson+S. S. Brandt+P. Gudmundsson+A. Jujie+A. Malmgren"
+          },
+          {
+            "doi": "10.1007/978-3-642-38899-6_37",
+            "key": "ref8",
+            "score": 121.13463,
+            "unstructured": "D'hooge. In uence of the grid topology of free-form deformation models on the performance of 3d strain estimation in echocardiography+In Functional Imaging and Modeling of the Heart+308+315+2013+B. Heyde+D. Barbosa+P. Claus+F. Maes+J."
+          },
+          {
+            "doi": "10.1109/tpami.2004.1262177",
+            "key": "ref9",
+            "score": 97.21176,
+            "unstructured": "What energy functions can be minimized via graph cuts+IEEE PAMI+147+2+159+2004+V. Kolmogorov+R. Zabih"
+          },
+          {
+            "doi": "10.1016/j.patcog.2010.01.002",
+            "key": "ref10",
+            "score": 88.35439,
+            "unstructured": "Probability density di erence-based active contour for ultrasound image segmentation+Pattern Recognit+43+6+2010+J. Liu+X. Tian+J. Tang+Liu"
+          },
+          {
+            "doi": "10.1109/iccnt.2010.110",
+            "key": "ref11",
+            "score": 144.22688,
+            "unstructured": "Automatic segmentation and ventricular border detection of 2d echocardiographic images combining k-means clustering and active contour model+In Int. Conf. on Comp. and Net+447+451+2010+S. Nandagopalan+B. S. Adiga+C. Dhanalakshmi+N. Deepak"
+          },
+          {
+            "doi": "10.1109/tmi.2003.814785",
+            "key": "ref12",
+            "score": 95.21183,
+            "unstructured": "A level set approach for shape-driven segmentation and tracking of the left ventricle+IEEE Trans. Med+22+6+2003+N. Paragios"
+          },
+          {
+            "doi": "10.1109/isbi.2011.5872480",
+            "key": "ref13",
+            "score": 122.02838,
+            "unstructured": "Automatic segmentation of the left-ventricular cavity and atrium in 3d ultrasound using graph cuts and the radial symmetry transform+In ISBI+606+609+2011+R. Juang+E. R. McVeigh+B. Ho mann+P. Burlina"
+          },
+          {
+            "doi": "10.1109/iccima.2007.368",
+            "key": "ref14",
+            "score": 83.09215,
+            "unstructured": "A novel method for echocardiogram boundary detection using adaptive neuro-fuzzy systems+In Int Conf on Comp. Int. and Mult. App+415+419+2007+N.Mal Murugan+S. Chan"
+          },
+          {
+            "doi": "10.1016/j.media.2014.01.005",
+            "key": "ref15",
+            "score": 163.12204,
+            "unstructured": "Whole myocardium tracking in 2d-echocardiography in multiple orientations using a motion constrained level-set+Med+500+3+514+2014+T. Dietenbeck+D. Barbosa+M. Alessandrini+R. Jasaityte+V. Robesyn+D. J. D'hooge+O. Friboulet+Bernard"
+          },
+          {
+            "doi": "10.1117/12.596876",
+            "key": "ref16",
+            "score": 73.88079,
+            "unstructured": "Semi-automatic border detection method for left ventricular volume estimation in 4d ultrasound data+Img. Proc.+1457+1467+2005+M. van Stralen"
+          },
+          {
+            "doi": "10.1109/34.969114",
+            "key": "ref17",
+            "score": 106.66111,
+            "unstructured": "Fast approximate energy minimization via graph cuts+IEEE PAMI+1222+11+39+2001+Y. Boykov+O. Veksler+R. Zabih"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

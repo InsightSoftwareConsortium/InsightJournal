@@ -43,6 +43,55 @@
     "revisions": [
       {
         "article": "bafybeidx2jpbxgka3outv7vqozi5pijxs25fn4agvtya3ckbsyg5jez5da",
+        "citation_list": [
+          {
+            "doi": "10.1038/nature05453",
+            "key": "ref1",
+            "score": 132.7137,
+            "unstructured": "High throughput gene expression mapping in the mouse brain+In: The Biology of Genome+2005+S. Sunkin+A. Boe+K. Brockway+L. Chen+M. Chin+J. Chong+C. Dang+N. Dee+A. Desaki+T. Desta+H. Dong+A. Ebbert+C. Frensley+K. Halverson+M. Hart+M. Hawrylycz+E. Hill+M. Ishihara+Johnson+R. Kawal+J. Kidney+R. Knapik+L. Kuan+K. Larsen+E. Lein+L. Luong+J. Michaels+N. Mosqueda+M. Mortrud+L. Ng+G. Orta+S. Pathak+O. Pearson+R. Puchalski+T. Pak+Z. Riley+S. Rowland+J. Royall+N. Sarno+N. Shapovalova+A. Sherwood+B. Smith+K. Smith+S. Smith+A. Sodt+C. Slaughterbeck+N. Stewart+K.R. Stumpf+M. Sutram+C. Teemer+C. Thaller+C. Thompson+K. Wasell+R. Whitlock+P. Wohnoutka+B. Youngstrom+X. Yuan+A. Jones"
+          },
+          {
+            "doi": "10.1186/1471-2202-8-s2-p11",
+            "key": "ref2",
+            "score": 74.071594,
+            "unstructured": "An automated informatics pipeline for computing 3d gene expression atlases+In: Society for Neuroscience, 35th Annual Meeting+2005+L. Chen+C. Dang+H.W. Dong+M. Hawrylycz+A. Jones+R. Kawal+L. Kuan+K. Larsen+C. Lein+E. Ng+L. Pathak+S. Teemer+C. Thompson+C. Sodt.+A. Sunkin+S. Wohnoutka+P.:+D.C."
+          },
+          {
+            "doi": "10.1007/978-3-540-30135-6_24",
+            "key": "ref3",
+            "score": 165.52989,
+            "unstructured": "Landmark-driven, atlas-based segmentation of mouse brain tissue images containing gene expression data+In: Proc. 7th International Conference on Medical Image Computing+2004+192+199+I. Kakadiaris+M. Bello+S. Arunachalam+W. Kang+T. Ju+J. Warren+J. Carson+W. Chiu+C. Thaller+Eichele+Intervention Computer-Assisted"
+          },
+          {
+            "doi": "10.1109/csbw.2005.49",
+            "key": "ref4",
+            "score": 69.1224,
+            "unstructured": "A geometric database for gene expression data+In: Proc. Eurographics Symposium on Geometry Processing+2003+166+176+T. Ju+J. Warren+G. Eichele+C. Thaller+W. Chiu+J.: Carson"
+          },
+          {
+            "doi": "10.1007/11784012_28",
+            "key": "ref5",
+            "score": 86.432106,
+            "unstructured": "Using MRI to build a 3D reference atlas of the mouse brain from histology images+In: Proc. Intl. Soc. Magn. Res. Med+13+2005+2809+P. Yushkevich+B. Avants+Zhang+P. Burstein+L. Ng+M. Hawrylycz+Gee"
+          },
+          {
+            "doi": "10.1109/42.52980",
+            "key": "ref6",
+            "score": 97.93761,
+            "unstructured": "Shape-based interpolation of multidimensional objects+IEEE Trans. on Medical Imaging+9+1990+32+42+S.P. Raya+J.K. Udupa"
+          },
+          {
+            "doi": "10.1109/tmi.2003.815867",
+            "key": "ref7",
+            "score": 126.48205,
+            "unstructured": "Mutual-information-based registration of medical images: a survey+IEEE Trans. on Medical Imaging+22+2003+986+1004+J. Pluim+J. Maintz+M. Viergever"
+          },
+          {
+            "key": "ref8",
+            "score": 28.25372,
+            "unstructured": "The ITK Software Guide. Kitware, Inc. ISBN 1-930934-10-6+2003+L. Ibanez+W. Schroeder+L. Ng+J. Cates"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

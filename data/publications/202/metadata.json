@@ -41,6 +41,102 @@
     "revisions": [
       {
         "article": "bafkreie252oh7wezzgqryabf43guyodgq4wgzwtxofrxqlkhvlfdsftcwu",
+        "citation_list": [
+          {
+            "doi": "10.1007/10704282_30",
+            "key": "ref1",
+            "score": 127.28158,
+            "unstructured": "Conformal geometry and brain flattening+In the 2nd International Conference on Medical Image Computing and Computer-Assisted Intervention+271+278+1999+S Angenent+S Haker+A Tannenbaum+R Kikinis"
+          },
+          {
+            "doi": "10.1007/11537908_5",
+            "key": "ref2",
+            "score": 82.52374,
+            "unstructured": "Efficient linear system solvers for mesh processing+In Invited paper at XIth IMA Conference on the Mathematics of Surfaces+2005+Mario Botsch+and Leif Kobbelt"
+          },
+          {
+            "doi": "10.1111/1467-8659.00580",
+            "key": "ref3",
+            "score": 111.12958,
+            "unstructured": "Intrinsic parameterizations of surface meshes+Computer Graphics Forum+21+209+218+2002+M. Desbrun+P. Alliez"
+          },
+          {
+            "doi": "10.1007/3-540-26808-1_9",
+            "key": "ref4",
+            "score": 137.19742,
+            "unstructured": "Surface parameterization: a tutorial and survey+Advances in Multiresolution for Geometric Modelling, Mathematics and Visualization+157+186+2005+M. S. Floater+K. Hormann+M. S. Dodgson+Floater"
+          },
+          {
+            "key": "ref5",
+            "score": 41.122746,
+            "unstructured": "Conformal flattening itk filter+In Insight Journal - 2006 MICCAI Open Science Workshop+2006+Y Gao+J Melonakos+A Tannenbaum"
+          },
+          {
+            "key": "ref6",
+            "score": 38.430626,
+            "unstructured": "itkquadedgemesh: A discrete orientable 2-manifold data structure for image processing+In Insight Journal - July - december+2006+A Gouaillard+L Florez-Valencia+E Boix"
+          },
+          {
+            "doi": "10.1109/tmi.2004.831226",
+            "key": "ref7",
+            "score": 95.71961,
+            "unstructured": "its application to brain surface mapping+IEEE Transaction on Medical Imaging+23+8+949+958+2004+X. Gu+Y. Wang+T. F. Chan+P. M. Thompson+S-T. Yau"
+          },
+          {
+            "doi": "10.1007/978-3-540-40899-4_36",
+            "key": "ref8",
+            "score": 121.962364,
+            "unstructured": "Nondistorting flattening for virtual colonoscopy+In the 3rd International Conference on Medical Image Computing and Computer-Assisted Intervention+358+366+2000+S Haker+S Angenent+A Tannenbaum+R Kikinis"
+          },
+          {
+            "doi": "10.1109/2945.856998",
+            "key": "ref9",
+            "score": 141.37236,
+            "unstructured": "Conformal surface parameterization for texture mapping+In IEEE Transaction on Visualization and Computer Graphics+181+189+2000+S Haker; S Angenent; A Tannenbaum; R Kikinis; G Sapiro; M Halle."
+          },
+          {
+            "doi": "10.1145/1128888.1128901",
+            "key": "ref10",
+            "score": 77.451805,
+            "unstructured": "Conformal virtual colon flattening+In Solid and Physics Modeling+2006+W. Hong+X. Gu+F. Qiu+M. Jin+A"
+          },
+          {
+            "doi": "10.1145/1281500.1281510",
+            "key": "ref11",
+            "score": 86.02609,
+            "unstructured": "Mesh parameterization: Theory and practice+In SIGGRAPH 2007 Course Notes+2+1+122+August 2007+K. Hormann+B.+A. Sheffer"
+          },
+          {
+            "doi": "10.1109/tmi.2007.892499",
+            "key": "ref12",
+            "score": 141.04697,
+            "unstructured": "Cortical surface shape analysis based on spherical wavelets+IEEE Transaction on Medical Imaging+26+4+582+597+2007+P Yu+P Grant+Y Qi+X Han+F Sgonne+R Pienaar+E Busa+J Pacheco+N Makris+R Buckner+P Golland"
+          },
+          {
+            "doi": "10.1080/10586458.1993.10504266",
+            "key": "ref13",
+            "score": 97.73219,
+            "unstructured": "Computing discrete minimal surfaces and their conjugates+Experimental Mathematics+2+1+15+36+1993+U. Pinkall+K. Polthier"
+          },
+          {
+            "doi": "10.1561/0600000011",
+            "key": "ref14",
+            "score": 95.0868,
+            "unstructured": "Mesh parameterization methods and their applications+Foundations and Trends in Computer Graphics and Vision+2+2+105+171+2006+A. Sheffer+K. Rose"
+          },
+          {
+            "doi": "10.1112/plms/s3-10.1.304",
+            "key": "ref15",
+            "score": 84.38902,
+            "unstructured": "Convex representations of graphs+In Proceedings of the London Mathematical Society+10+304+320+1960+W. T. Tutte"
+          },
+          {
+            "doi": "10.1112/plms/s3-13.1.743",
+            "key": "ref16",
+            "score": 85.40333,
+            "unstructured": "How to draw a graph+In Proceedings of the London Mathematical Society+13+743+767+1963+W. T. Tutte"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

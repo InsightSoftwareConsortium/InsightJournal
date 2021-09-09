@@ -43,6 +43,95 @@
     "revisions": [
       {
         "article": "bafkreihczwxmpk6uv3sgvvp3jfvlbybzbstjz4sxexmrrxcx4ddi2zxq5u",
+        "citation_list": [
+          {
+            "doi": "10.1097/00000658-200210000-00008",
+            "key": "ref1",
+            "score": 124.156204,
+            "unstructured": "Virtual reality training improves operating room performance: results of a randomized, double-blinded study+Ann Surg.+236+4+458+63+Oct 2002+N.E. Seymour+A.G. Gallagher+S.A. Roman+V.K. M.K. O'Brien+D.K. Bansal+R.M. Andersen+Satava"
+          },
+          {
+            "doi": "10.1016/j.amjsurg.2006.06.050",
+            "key": "ref2",
+            "score": 176.99313,
+            "unstructured": "Proficiency-based virtual reality training significantly reduces the error rate for residents during their first 10 laparoscopic cholecystectomies+Am J Surg.+193+6+797+804+2007+G. Ahlberg+L. Enochsson+A.G. Gallagher+L. Hedman+C. Hogman+D.A. McClusky+S. Ramel+C.D. Smith+D. Arvidsson"
+          },
+          {
+            "doi": "10.1016/s1361-8415(02)00052-x",
+            "key": "ref3",
+            "score": 127.613106,
+            "unstructured": "Automatic recognition of cortical sulci of the human brain using a congregation of neural networks+Med Image Anal.+7+4+403+16+Dec 2003+D. Rivi\u00e8re+J.F. Mangin+D. Papadopoulos-Orfanos+J.M. Martinez+V. Frouin+J. R\u00e9gis"
+          },
+          {
+            "key": "ref4",
+            "score": 53.727158,
+            "unstructured": " BrainVISA. BrainVISA / Anatomist webpage. <http://brainvisa.info/>."
+          },
+          {
+            "doi": "10.1109/tmi.2006.883453",
+            "key": "ref5",
+            "score": 143.43176,
+            "unstructured": "Twenty new digital brain phantoms for creation of validation image data bases+IEEE Trans Med Imaging+25+11+1410+6+Nov 2006+B. Aubert-Broche+M. Griffin+G.B. Pike+A.C. Evans+D.L. Collins"
+          },
+          {
+            "doi": "10.3109/10929080601167413",
+            "key": "ref6",
+            "score": 167.96782,
+            "unstructured": "A Topologically Faithful, Tissueguided, Spatially Varying Meshing Strategy for Computing Patient-specific Head Models for Endoscopic Pituitary Surgery Simulation+Journal of Computer Aided Surgery+12+1+43+52+Jan 2007+H. M.A. Audette+A. Delingette+O. Fuchs+K. Astley+Chinzei"
+          },
+          {
+            "doi": "10.1109/tvcg.2007.70430",
+            "key": "ref7",
+            "score": 139.58318,
+            "unstructured": "Generic remeshing of 3d triangular meshes with metric-dependent discrete voronoi diagrams+IEEE Trans Visu Comp Grap+14+2+369+381+2008+S. Valette+J. Chassery+R. Prost"
+          },
+          {
+            "doi": "10.1007/pl00007195",
+            "key": "ref8",
+            "score": 104.8097,
+            "unstructured": "Almost Regular Triangulations of Trimmend NURBS. Solids. Eng. Comput. (Lond.)+17+1+55+65+2001+A. Fuchs"
+          },
+          {
+            "doi": "10.1002/cnm.887",
+            "key": "ref9",
+            "score": 141.23576,
+            "unstructured": "Total Lagrangian explicit dynamics finite element algorithm for computing soft tissue deformation+Communications in Numerical Methods in Engineering+23+121+134+2006+K. Miller+G.R. Joldes+D. Lance+A. Wittek"
+          },
+          {
+            "doi": "10.1007/978-3-540-75757-3_85",
+            "key": "ref10",
+            "score": 96.73063,
+            "unstructured": "Real-time nonlinear finite element analysis for surgical simulation using graphics processing units+Proceedings of MICCAI+2007+701+708+Z.A. Taylor"
+          },
+          {
+            "doi": "10.1109/ismar-adjunct.2017.18",
+            "key": "ref11",
+            "score": 63.642597,
+            "unstructured": " SOFA. Simulation Open Framework Architecture - SOFA. <http://www.sofa-framework.org/home>."
+          },
+          {
+            "doi": "10.1007/978-3-540-70521-5_4",
+            "key": "ref12",
+            "score": 145.08148,
+            "unstructured": "Efficient Nonlinear FEM for Soft Tissue Modelling and Its GPU Implementation within the Open Source Framework SOFA+Proceedings of the 4th international symposium on Biomedical Simulation, LNCS+5104+28+39+2008+O. Comas+Z.A. Taylor+S. Ourselin+S. Cotin+J. Passenger"
+          },
+          {
+            "doi": "10.1016/j.media.2008.12.001",
+            "key": "ref13",
+            "score": 129.4318,
+            "unstructured": "Suite of finite element algorithms for accurate computation of soft tissue deformation for surgical simulation+Med Image Anal+13+6+912+919+Dec 2009+G.R. Joldes+A. Wittek+K. Miller"
+          },
+          {
+            "key": "ref14",
+            "score": 32.343033,
+            "unstructured": "An Open-Source Library for the Rapid Development of Haptic Scenes+2005+F. Conti+F. Barbagli+D. Morris+C. Sewell. CHAI"
+          },
+          {
+            "key": "ref15",
+            "score": 43.19189,
+            "unstructured": "The Application of Textbook-Based Surgical Ontologies to Neurosurgery Simulation Requirements+25th International Congress and Exhibition+2011+MPB Technologies+M. Yang+A. Audette+J. Enquobahrie+S. Barre. Finet"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

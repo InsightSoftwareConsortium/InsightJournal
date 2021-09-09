@@ -60,6 +60,138 @@
     "revisions": [
       {
         "article": "bafybeigxssw7pksohyyo3em52ei36zks4ystquqgibjjtgbzrhsopgv7hq",
+        "citation_list": [
+          {
+            "doi": "10.1109/jstsp.2008.2011104",
+            "key": "ref1",
+            "score": 170.74347,
+            "unstructured": "Segmentation of head and neck lymph node regions for radiotherapy planning using active contourbased atlas registration,\u201d+IEEE Journal on Selected Topics in Signal Processing+1+5+1+147+2009+S. Gorthi+V. Duay+N. Houhou+M. Bach Cuadra+U. Schick+M. Becker+A. S. Allal+J.-P. Thiran"
+          },
+          {
+            "doi": "10.1016/j.radonc.2003.09.011",
+            "key": "ref2",
+            "score": 237.98027,
+            "unstructured": "CT-based delineation of lymph node levels and related CTVs in the nodenegative neck: DAHANCA, EORTC, GORTEC, NCIC, RTOG consensus guidelines+\u201d Radiotherapy and Oncology+69+3+227+236+2003+V. Gre+K. K. Ang+J. Bernier+M. Braaksma+V. Budach+C. Chao+E. Coche+J. S. Cooper+G. Cosnard+A. Eisbruch+S. El-Sayed+B. Emami+C. Grau+M. Hamoir+N. Lee+P. Maingon+K. Muller+H. Reychler"
+          },
+          {
+            "doi": "10.1016/s1361-8415(02)00063-4",
+            "key": "ref3",
+            "score": 119.662506,
+            "unstructured": "Image registration via level-set motion: Applications to atlas-based segmentation,\u201d Medical Image Analysis+7+1+1+20+2003+B. C. Vemuri+J. Ye+Y. Chen+C. M. Leonard"
+          },
+          {
+            "doi": "10.1117/12.709368",
+            "key": "ref4",
+            "score": 132.94263,
+            "unstructured": "Non-rigid registration methods assessment of 3D CT images for head-neck radiotherapy+in Proceedings of SPIE Medical Imaging+February 2007+1+A. Parraga+M. D. Craene+J. Pettersson+A. Susin+B. Macq"
+          },
+          {
+            "doi": "10.1109/tmi.2003.809072",
+            "key": "ref5",
+            "score": 140.21732,
+            "unstructured": "PET-CT image registration in the chest using free-form deformations+\u201d IEEE Transactions on Medical Imaging+22+1+120+128+2003+D. Mattes+D. R. Haynor+H. Vesselle+T. K. Lewellen"
+          },
+          {
+            "doi": "10.1007/11499145_51",
+            "key": "ref6",
+            "score": 78.6546,
+            "unstructured": "Non-rigid registration using morphons+3540+2005+1+510+A. Wrangsjo\u00a8+J. Pettersson+H. Knutsson"
+          },
+          {
+            "doi": "10.1016/j.radonc.2008.01.018",
+            "key": "ref7",
+            "score": 113.93016,
+            "unstructured": "Atlas-based delineation of lymph node levels in head and neck computed tomography images+\u201d Radiotherapy Oncology+1+2+4+289+2008+O. Commowick"
+          },
+          {
+            "doi": "10.1007/978-3-540-85990-1_52",
+            "key": "ref8",
+            "score": 150.97931,
+            "unstructured": "Atlas-based auto-segmentation of head and neck ct images,\u201d+in MICCAI '08: Proceedings of the 11th International Conference on Medical Image Computing+2008+4+441+X. Han+M. S. Hoogeman+P. C. Levendag+L. S. Hibbard+D. N. Teguh+P. Voet+A. C. Cowen+T. K. Wolf+Intervention Computer-Assisted+II Part"
+          },
+          {
+            "doi": "10.1109/jstsp.2008.2011104",
+            "key": "ref9",
+            "score": 78.51505,
+            "unstructured": "Registration of multiple regions derived from the optical flow model and the active contour framework+\u201d in 15th European Signal Processing Conference (EUSIPCO)+2007+V. Duay+X. Bresson+N. Houhou+M. Bach Cuadra+J.-P. Thiran"
+          },
+          {
+            "doi": "10.1109/tmi.2003.819299",
+            "key": "ref10",
+            "score": 134.55583,
+            "unstructured": "The adaptive bases algorithm for intensity-based nonrigid image registration+\u201d IEEE Transactions on Medical Imaging+22+11+1470+1479+2003+G. Rohde+A. Aldroubi+B. Dawant"
+          },
+          {
+            "doi": "10.1016/s1361-8415(98)80022-4",
+            "key": "ref11",
+            "score": 100.87587,
+            "unstructured": "Image matching as a diffusion process: an analogy with maxwell's demons,\u201d Medical Image Analysis+2+3+243+260+1998+J.-P. Thirion"
+          },
+          {
+            "doi": "10.1006/nimg.1997.0274",
+            "key": "ref12",
+            "score": 148.86887,
+            "unstructured": "An automated registration algorithm for measuring MRI subcortical brain structures,\u201d NeuroImage+6+1+13+25+1997+D. V. Iosifescu+M. E. Shenton+S. K. Warfield+R. Kikinis+J. Dengler+F. A. Jolesz+R. W. McCarley"
+          },
+          {
+            "doi": "10.1109/42.811273",
+            "key": "ref13",
+            "score": 168.67902,
+            "unstructured": "Automatic 3-D segmentation of internal structures of the head in MR images using a combination of similarity and free-form transformations: Part II, validation on severely atrophied brains+\u201d IEEE Transactions on Medical Imaging+18+10+917+926+1999+S. L. Hartmann+M. H. Parks+P. R. Martin+and B. M. Dawant"
+          },
+          {
+            "doi": "10.1016/s1361-8415(01)00039-1",
+            "key": "ref14",
+            "score": 137.93372,
+            "unstructured": "Segmentation of brain 3D MR images using level sets and dense registration,\u201d Medical Image Analysis+5+3+185+194+2001+C. Baillard+P. Hellier+C. Barillot"
+          },
+          {
+            "doi": "10.1016/0021-9991(88)90002-2",
+            "key": "ref15",
+            "score": 129.47624,
+            "unstructured": "Fronts propagating with curvature-dependent speed - algorithms based on hamilton-jacobi formulations+\u201d Journal of Computational Physics+79+1+12+49+1988+S. Osher+J. Sethian"
+          },
+          {
+            "doi": "10.1007/bf01420984",
+            "key": "ref16",
+            "score": 83.67822,
+            "unstructured": "Performance of optical flow techniques+International Journal of Computer Vision+12+1+43+77+1994+J. L. Barron+D. J. Fleet+S. S. Beauchemin"
+          },
+          {
+            "doi": "10.1109/83.902291",
+            "key": "ref17",
+            "score": 101.12195,
+            "unstructured": "Active contours without edges+\u201d IEEE Transactions on Image Processing+10+2+266+277+2001+T. F. Chan+L. A. Vese"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2003.11.010",
+            "key": "ref18",
+            "score": 159.90155,
+            "unstructured": "Evaluation of atlas selection strategies for atlas-based image segmentation with application to confocal microscopy images of bee brains,\u201d NeuroImage+21+4+1428+1442+2004+T. Rohlfing+R. Brandt+R. Menzel+C. R. Maurer"
+          },
+          {
+            "doi": "10.1007/978-3-540-75759-7_25",
+            "key": "ref19",
+            "score": 81.344826,
+            "unstructured": "Efficient selection of the most similar image in a database for critical structures segmentation+10+Pt 2+2007+4+210+O. Commowick"
+          },
+          {
+            "doi": "10.1109/tmi.2004.828354",
+            "key": "ref20",
+            "score": 129.15532,
+            "unstructured": "Simultaneous truth and performance level estimation (STAPLE): An algorithm for the validation of image segmentation+\u201d IEEE Transactions on Medical Imaging+23+7+903+921+2004+S. K. Warfield+K. H. Zou+W. M. Wells"
+          },
+          {
+            "key": "ref21",
+            "score": 19.854774,
+            "unstructured": "ca/ 5+5+2009+Neck+7"
+          },
+          {
+            "key": "ref22",
+            "score": 31.508251,
+            "unstructured": "Kitware, Inc. ISBN 1-930934-15-7+2005+5+1+7+L. Ibanez+W. Schroeder+L. Ng+J. Cates"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

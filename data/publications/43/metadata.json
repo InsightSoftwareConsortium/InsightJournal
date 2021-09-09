@@ -86,6 +86,90 @@
     "revisions": [
       {
         "article": null,
+        "citation_list": [
+          {
+            "doi": "10.1007/bf01420736",
+            "key": "ref1",
+            "score": 100.68088,
+            "unstructured": "Topological segmentation of discrete surfaces+International Journal of Computer Vision+10+1993+183+197+G. Malandain+G. Bertrand+Ayache"
+          },
+          {
+            "doi": "10.1006/nimg.2001.0831",
+            "key": "ref2",
+            "score": 129.34584,
+            "unstructured": "An efficient algorithm for topologically correct segmentation of the cortical sheet in anatomical mr volumes+NeuroImage+14+2001+329+46+N. Kriegeskorte+R.: Goebel"
+          },
+          {
+            "doi": "10.1109/42.963819",
+            "key": "ref3",
+            "score": 100.82349,
+            "unstructured": "-based analysis and correction of cortical volume topology+IEEE Transactions on Medical Imaging+20+2001+1167+77+D.W. Shattuck+R.M. Leahy+Automated"
+          },
+          {
+            "doi": "10.1109/42.993130",
+            "key": "ref4",
+            "score": 129.26865,
+            "unstructured": "Topology correction in brain cortex segmentation using a multiscale graph-based algorithm+IEEE Transactions on Medical Imaging+21+2002+109+121+X. Han+C. Xu+U. Braga-Neto+Prince"
+          },
+          {
+            "doi": "10.1007/978-3-540-39903-2_85",
+            "key": "ref5",
+            "score": 72.36956,
+            "unstructured": "(+In: Medical Image Computing and Computer-Assisted Intervention (MICCAI)+2003+F. Fischl+B. Grimson"
+          },
+          {
+            "doi": "10.1109/42.811276",
+            "key": "ref6",
+            "score": 112.55322,
+            "unstructured": "Segmentation and measurement of the cortex from 3d mr images using coupled surfaces propagation+IEEE Transactions on Medical Imaging+18+1999+100+111+X. Zeng+L.H. Staib+Schultz+J.S. Duncan"
+          },
+          {
+            "doi": "10.1109/pccga.2002.1167868",
+            "key": "ref7",
+            "score": 84.93749,
+            "unstructured": "Isosurface reconstruction with topology control+In: Pacific Graphics Proceedings.+2002+246+255+S. Bischoff+L. Kobbelt"
+          },
+          {
+            "doi": "10.1007/978-3-642-18536-6_11",
+            "key": "ref8",
+            "score": 126.563484,
+            "unstructured": "Topologically correct extraction of the cortical surface of a brain using level-set methods+Bildverarbeitung fr die Medizin+2004+50+54+S. Bischoff+L. Kobbelt"
+          },
+          {
+            "doi": "10.1109/42.906426",
+            "key": "ref9",
+            "score": 143.62762,
+            "unstructured": "Automated manifold surgery: Constructing geometrically accurate and topologically correct models of the human cerebral cortex+IEEE Transactions on Medical Imaging+20+2001+70+80+B. Fischl+A. Liu+A.M.: Dale"
+          },
+          {
+            "key": "ref10",
+            "score": 24.06715,
+            "unstructured": "Topological noise removal+In: Graphics Interface+2001+19+26+I. Guskov+Z. Wood"
+          },
+          {
+            "doi": "10.1145/990002.990007",
+            "key": "ref11",
+            "score": 101.898254,
+            "unstructured": "Removing excess topology from isosurfaces+ACM Transactions on Graphics+23+2004+Z.J. Wood+H. Hoppe+M. Desbrun"
+          },
+          {
+            "doi": "10.1109/visual.1996.567752",
+            "key": "ref12",
+            "score": 63.394924,
+            "unstructured": "The Visualization Toolkit, An ObjectOriented Approach to 3D Graphics. 3rd edn+2002+W. Schroeder+K. Martin+B. Lorensen"
+          },
+          {
+            "key": "ref13",
+            "score": 36.382187,
+            "unstructured": "Open source toolkit for brain isosurface correction+2005+S. Jaume+P. Rondao+B. Macq"
+          },
+          {
+            "doi": "10.1145/37402.37422",
+            "key": "ref14",
+            "score": 113.866714,
+            "unstructured": "Marching cubes: A high resolution 3d surface construction algorithm+In: Computer Graphics+21+1987+163+169+W. Lorensen+Cline"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

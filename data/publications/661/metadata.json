@@ -70,6 +70,78 @@
     "revisions": [
       {
         "article": "bafybeigzbmwm6cqjnii365aavuugdfwv4xqy5rpqeavcuxf7m2uyyq5bka",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 53.694485,
+            "unstructured": "Computer-Aided Diagnosis+In Med. Imaging+2008+6915+S. Bock+H.O. Peitgen"
+          },
+          {
+            "doi": "10.1007/s11263-006-7934-5",
+            "key": "ref2",
+            "score": 105.33649,
+            "unstructured": "Graph cuts and efficient n-d image segmentation+Int. J. of Comp. Vision+70+2+109+131+2006+Y. Boykov+G. Funka-Lea"
+          },
+          {
+            "key": "ref3",
+            "score": 58.316498,
+            "unstructured": "2009+3D segmentation in the clinic: Carotid lumen segmentation and stenosis grading challenge+nl. 3+R. Hameeteman+M. Zuluaga+L. Joskowicz+M. Freiman+T."
+          },
+          {
+            "doi": "10.1109/tpami.2006.19",
+            "key": "ref4",
+            "score": 112.24149,
+            "unstructured": "Optimal surface segmentation in volumetric imagesa graph-theoretic approach+IEEE Trans. Patt. Anal. and Mach+28+1+119+134+2006+L. Kang+W. Xiaodong+D.Z. Chen+M. Sonka"
+          },
+          {
+            "doi": "10.1145/1031120.1031121",
+            "key": "ref5",
+            "score": 102.62387,
+            "unstructured": "A review of vessel extraction techniques and algorithms+ACM Comput. Surv.+36+2+81+121+2004+C. Kirbas+F.K.H. Quek"
+          },
+          {
+            "doi": "10.1109/tmi.2006.891503",
+            "key": "ref6",
+            "score": 122.82272,
+            "unstructured": "Vessel axis tracking using topology constrained surface evolution+IEEE Trans. Med+26+3+309+316+2007+R. Manniesing+M.A. Viergever+W.J. Niessen"
+          },
+          {
+            "doi": "10.1016/j.cviu.2006.11.004",
+            "key": "ref7",
+            "score": 89.333015,
+            "unstructured": "Object segmentation using graph cuts based active contours+Comp. Vision and Image Understanding+1+2+2+224+2007+X. Ning+A Narendra+B. Ravi"
+          },
+          {
+            "doi": "10.1145/1015706.1015720",
+            "key": "ref8",
+            "score": 147.83705,
+            "unstructured": "Grabcut: interactive foreground extraction using iterated graph cuts+ACM Trans. Graph+23+3+309+314+2004+C. Rother+V. Kolmogorov+A. Blake"
+          },
+          {
+            "doi": "10.1007/978-3-540-75759-7_68",
+            "key": "ref9",
+            "score": 131.7944,
+            "unstructured": "Bayesian tracking of tubular structures and its application to carotid arteries in CTA+of LNCS+4792+562+570+2007+M. Schaap+R. Manniesing+T. Van Walsum+A. Van Der Lugt+W.J. Niessen"
+          },
+          {
+            "doi": "10.1007/11866763_110",
+            "key": "ref10",
+            "score": 111.46889,
+            "unstructured": "Accurate banded graph cut segmentation of thin structures using laplacian pyramids+of LNCS+4191+896+903+2006+A.K. Sinop+L. Grady"
+          },
+          {
+            "doi": "10.1109/icip.2005.1530282",
+            "key": "ref11",
+            "score": 114.85177,
+            "unstructured": "Graph cuts segmentation using an elliptical shape prior+In Proc. of the 2005 IEEE Int. Conf. on Image Processing, ICIP'05+2+1222+5+2005+G. Slabaugh+G. Unal"
+          },
+          {
+            "doi": "10.1007/3-540-45787-9_5",
+            "key": "ref12",
+            "score": 109.83574,
+            "unstructured": "Level-set based carotid artery segmentation for stenosis grading+of LNCS+2489+36+43+2002+L.J. C.M. Van Bemmel+M.A. Spreeuwers+W.J Viergever+Niessen"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

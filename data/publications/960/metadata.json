@@ -81,6 +81,132 @@
     "revisions": [
       {
         "article": "bafybeihnajueabjmceoj6elqcebjwixsjp7t7odkcs6dy7qbikfg5enpvi",
+        "citation_list": [
+          {
+            "doi": "10.1111/j.1467-9868.2007.00574.x",
+            "key": "ref1",
+            "score": 110.59575,
+            "unstructured": "Towards a coherent statistical framework for dense deformable template estimation+Journal of the Royal Statistical Society: Series B (Statistical Methodology)+3+1+29+2007+S. Allassonniere+Y. Amit+A. Trouve"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2010.09.025",
+            "key": "ref2",
+            "score": 128.09715,
+            "unstructured": "A reproducible evaluation of ANTs similarity metric performance in brain image registration+Neuroimage+54+3+2011+B.B. Avants+N.J. Tustison+G. Song+P.A. Cook+A. Klein+J.C. Gee"
+          },
+          {
+            "key": "ref3",
+            "score": 56.489346,
+            "unstructured": "Improving the Consistency of Manual Deep Brain Structure Segmentations by Combining Variational Interpolation, Simultaneous Multi-Modality Visualisation+Biomed Tech+59+Suppl+Oct 2014+F. Bernard+P. Gemmar+A. Husch+C. Saleh+H. Neb+G. Doomes+F. Hertel+Histogram Equilisation"
+          },
+          {
+            "doi": "10.1109/cvpr.2015.7298828",
+            "key": "ref4",
+            "score": 108.5576,
+            "unstructured": "A Solution for Multi-Alignment by Transformation Synchronisation+2015+F. Bernard+J. Thunberg+P. Gemmar+F. Hertel+A. Husch+J.: Goncalves"
+          },
+          {
+            "doi": "10.1007/978-3-540-24673-2_26",
+            "key": "ref5",
+            "score": 101.30619,
+            "unstructured": "Groupwise di eomorphic non-rigid registration for automatic model building+In: ECCV+316+327+2004+T.F. Cootes+S. Marsland+C.J. Twining+K. Smith+Taylor"
+          },
+          {
+            "doi": "10.1007/978-3-642-31340-0_3",
+            "key": "ref6",
+            "score": 120.83968,
+            "unstructured": "Automatic detection of the magnitude and spatial location of error in non-rigid registration+In: Biomedical Image Registration+21+30+2012+Datteri+B.M.: Dawant"
+          },
+          {
+            "doi": "10.4153/cjm-1958-052-0",
+            "key": "ref7",
+            "score": 85.23055,
+            "unstructured": "Coverings of bipartite graphs+Canadian Journal of Mathematics+516+4+534+1958+A.L. Dulmage+N.S.: Mendelsohn"
+          },
+          {
+            "doi": "10.1117/12.2042757",
+            "key": "ref8",
+            "score": 95.838974,
+            "unstructured": "Detection and Correction of Inconsistency-based Errors in Non-Rigid Registration+90341B (Feb+2014+T. Gass+G. Szekely+O. Goksel"
+          },
+          {
+            "doi": "10.17077/etd.ni8hjlgy",
+            "key": "ref9",
+            "score": 72.42647,
+            "unstructured": "Transitive Inverse-consistent Image Registration and Evaluation+PhD thesis+2007+X. Geng"
+          },
+          {
+            "doi": "10.1109/42.836369",
+            "key": "ref10",
+            "score": 116.96513,
+            "unstructured": "Voxel similarity measures for 3-D serial MR brain image registration+TMI+94+2+2000+M. Holden+D.L. Hill+E.R. Denton+J.M. Jarosz+T.C. Cox+J. Goodey+D.J.: Hawkes"
+          },
+          {
+            "doi": "10.1016/s1361-8415(01)00036-6",
+            "key": "ref11",
+            "score": 73.60295,
+            "unstructured": "A global optimisation method for robust a ne registration of brain images+MedIA+143+2+2001+M. Jenkinson+S.: Smith"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2010.03.010",
+            "key": "ref12",
+            "score": 102.20579,
+            "unstructured": "Atlas building by self-organized registration and bundling+Neuroimage+1057+3+1070+2010+H. Jia+G. Wu+Q. Wang+D. Shen"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2004.07.068",
+            "key": "ref13",
+            "score": 118.05106,
+            "unstructured": "Unbiased di eomorphic atlas construction for computational anatomy+Neuroimage 23 Suppl+60+S151+2004+S. Joshi+B. Davis+M. Jomier+Gerig"
+          },
+          {
+            "doi": "10.1109/tpami.2006.34",
+            "key": "ref14",
+            "score": 70.24241,
+            "unstructured": "Data driven image models through continuous joint alignment+TPAMI+236+2+2006+E.G. Learned-Miller"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2012.02.084",
+            "key": "ref15",
+            "score": 134.06876,
+            "unstructured": "Within-subject template estimation for unbiased longitudinal image analysis+Neuroimage+1402+4+1418+2012+M. Reuter+N.J. Schmansky+H.D. Rosas+B. Fischl"
+          },
+          {
+            "doi": "10.1007/978-3-540-30135-6_85",
+            "key": "ref16",
+            "score": 123.44262,
+            "unstructured": "Construction of a brain template from MR images using state-of-the-art registration and segmentation techniques+In: MICCAI+696+703+2004+D. Seghers+E. D'Agostino+F. Maes+D. Vandermeulen+P. Suetens"
+          },
+          {
+            "doi": "10.1155/2008/686875",
+            "key": "ref17",
+            "score": 92.35302,
+            "unstructured": "Symmetric and Transitive Registration of Image Sequences+International Journal of Biomedical Imaging+2008+1+9+O. Skrinjar+A. Bistoquet+Tagare"
+          },
+          {
+            "key": "ref18",
+            "score": 50.02829,
+            "unstructured": "On Transitive Consistency for Linear Invertible Transformations between Euclidean Coordinate Systems+1509+2015+J. Thunberg+F. Bernard+Goncalves"
+          },
+          {
+            "doi": "10.1016/j.media.2006.06.006",
+            "key": "ref19",
+            "score": 132.26329,
+            "unstructured": "Robust mosaicing with correction of motion distortions and tissue deformations for in vivo bered microscopy+MedIA+673+5+2006+T. Vercauteren+A. Perchant+G. Malandain+X. Pennec+Ayache"
+          },
+          {
+            "doi": "10.1109/tpami.2012.196",
+            "key": "ref20",
+            "score": 78.334076,
+            "unstructured": "Simultaneous registration of multiple images: similarity metrics and e cient optimization+TPAMI+1221+5+2013+C. Wachinger+Navab"
+          },
+          {
+            "doi": "10.1007/11569541_30",
+            "key": "ref21",
+            "score": 100.510216,
+            "unstructured": "E cient population registration of 3D data+In: Computer Vision for Biomedical Image Applications+291+301+2005+E. Learned-Miller+E. Grimson+Wells"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

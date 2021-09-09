@@ -53,6 +53,42 @@
     "revisions": [
       {
         "article": "bafkreig3zkzwipxehzh2n3hi6xraobbrt5ckqeslqwxlyjwqvkur2umsji",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 13.568048,
+            "unstructured": "com. 3"
+          },
+          {
+            "doi": "10.1007/978-3-540-85990-1_74",
+            "key": "ref2",
+            "score": 61.465893,
+            "unstructured": "The cisst libraries for computer assisted intervention systems+The MIDAS Journal - Systems and Architectures for Computer Assisted Interventions (MICCAI 2008 Workshop)+2008+A. Deguet+R. Kumar+R. Taylor+P. Kazanzides"
+          },
+          {
+            "doi": "10.1145/1743666.1743695",
+            "key": "ref3",
+            "score": 151.29124,
+            "unstructured": "Low-latency combined eye and head tracking system for teleoperating a robotic head in real-time+In Proceedings of the 2010 Symposium on EyeTracking Research & Applications+117+120+2010+S. Kohlbecher+K. Bartl+S. Bardins+E. Schneider"
+          },
+          {
+            "doi": "10.1109/robot.2008.4543644",
+            "key": "ref4",
+            "score": 135.36577,
+            "unstructured": "Human-machine skill transfer extended by a scaffolding framework+In Proceedings of the IEEE International Conference on Robotics and Automation+2866+2871+2008+H. Mayer+D. Burschka+A. Knoll+E.U. Braun+R. Lange+R. Bauernschmitt"
+          },
+          {
+            "doi": "10.1109/rose52553.2021.00001",
+            "key": "ref5",
+            "score": 66.94704,
+            "unstructured": "Software development workflow in robotics+In Proceedings of the Workshop on Open Source Software in Robotics, IEEE International Conference on Robotics and Automation+2009+3+Markus Rickert+Alois Knoll"
+          },
+          {
+            "key": "ref6",
+            "score": 28.988888,
+            "unstructured": "A recursive exponential filter for time-sensitive data+Technical Report LAUR-99- 5573+1999+D. Phillip+Stroud"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

@@ -37,6 +37,73 @@
     "revisions": [
       {
         "article": "bafybeidtnmuknhtfiftjsyuz3otx3eh5n76unifwz6fxtkjw7chp6g7peq",
+        "citation_list": [
+          {
+            "doi": "10.1109/tsmcb.2011.2161284",
+            "key": "ref1",
+            "score": 122.659454,
+            "unstructured": "\"Gaussian-Mixture-Model-Based Spatial Neighborhood Relationships for Pixel Labeling Problem\"+IEEE Transactions on Systems, Man, and CyberneticsPART B: Cybernetics+42+February 2012+Thanh Minh Nguyen and Q. M. Jonathan Wu"
+          },
+          {
+            "doi": "10.1109/titb.2012.2185852",
+            "key": "ref2",
+            "score": 161.62346,
+            "unstructured": "\"Fuzzy Local Gaussian Mixture Model for Brain MR Image Segmentation\"+IEEE Transactions on Information Technology in Biomedicine+16+3+2012+339+347+Ji Zexuan+IEEE Quansen+Sun+IEEE Deshen+Xia+IEEE+MAY"
+          },
+          {
+            "doi": "10.1109/42.811270",
+            "key": "ref3",
+            "score": 89.40027,
+            "unstructured": "\"Automated Model-Based Tissue Classi cation of MR Images of the Brain\"+IEEE Transactions On Medical Imaging+10+October 1999+897+908+Frederik Maes"
+          },
+          {
+            "doi": "10.1109/tmi.2002.806587",
+            "key": "ref4",
+            "score": 98.1059,
+            "unstructured": "\"A Unifying Framework for Partial Volume Segmentation of Brain MR Images\"+IEEE Transactions On Medical Imaging+22+January 2003+105+119+Frederik Maes"
+          },
+          {
+            "doi": "10.1109/42.811268",
+            "key": "ref5",
+            "score": 100.85222,
+            "unstructured": "\"Automated Model-Based Bias Field Correction of MR Images of the Brain\"+IEEE Transactions on Medical Imaging+10+October 1999+885+896+Frederik Maes"
+          },
+          {
+            "doi": "10.1016/j.patcog.2007.03.019",
+            "key": "ref6",
+            "score": 87.35983,
+            "unstructured": "\"Distributed Markovian segmentation: Application to MRbrain scans\"Elsevier, Pattern Recognition 40 (+2007+3467+3480"
+          },
+          {
+            "doi": "10.1109/42.906424",
+            "key": "ref7",
+            "score": 111.7626,
+            "unstructured": "\"Segmentation of brain MR images through a Hidden Markov Random Field and the Expectation Maximization Algorithm\"+IEEE Transactions On Medical Imaging+20+2001+Yongyue Zhang+Stephen Smith+January"
+          },
+          {
+            "doi": "10.1109/icip.2005.1529859",
+            "key": "ref8",
+            "score": 98.700516,
+            "unstructured": "\"Nonsubsampled Contourlet Transform: Filter Design and Applications in Denoising\"+IEEE International Conference on Image Processing+September 2005+J. Cunha+Zhou+Minh N. Do"
+          },
+          {
+            "doi": "10.1109/tip.2005.859376",
+            "key": "ref9",
+            "score": 101.73131,
+            "unstructured": "\"The Contourlet Transform: An E cient Directional Multiresolution Image Representation\"+IEEE Transactions on Image Processing+12+December 2005+N. Minh+Martin Do+Vetterli"
+          },
+          {
+            "doi": "10.1109/tip.2006.877507",
+            "key": "ref10",
+            "score": 92.98309,
+            "unstructured": "\"The Nonsubsampled Contourlet Transform:Theory, Design and Applications\"+IEEE Transactions on Image Processing+10+October 2006+Minh N. Arthur L. da Cunha+Do"
+          },
+          {
+            "key": "ref11",
+            "score": 33.768543,
+            "unstructured": "\"BrainWeb: Online interface to a 3D MRI simulated brain database,\"+NeuroImage+5+4+425+1997+C.+V. Cocosco+Kollokian+R. K.-S.Kwan+A. C. Evans"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

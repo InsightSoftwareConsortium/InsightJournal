@@ -61,6 +61,51 @@
     "revisions": [
       {
         "article": "bafybeibhs4b32hg25plmmzufxdmvsrhde6nu2mvxjd2p5zs5me6fxgbsty",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 9.323549,
+            "unstructured": "org/. 5.2"
+          },
+          {
+            "key": "ref2",
+            "score": 34.43724,
+            "unstructured": "The visualization toolkit+org. 1+VTK:"
+          },
+          {
+            "key": "ref3",
+            "score": 9.323549,
+            "unstructured": "org. 2+5+1"
+          },
+          {
+            "doi": "10.1016/s0006-3495(94)80775-1",
+            "key": "ref4",
+            "score": 98.32522,
+            "unstructured": "MR diffusion tensor spectroscopy and imaging+Biophysical Journal+66+259+267+1994+P. Basser+J. Mattiello+D. Le Bihan"
+          },
+          {
+            "doi": "10.1109/tmi.2007.899173",
+            "key": "ref5",
+            "score": 107.47426,
+            "unstructured": "Clinical DT-MRI estimation, smoothing and fiber tracking with Log-Euclidean metrics+IEEE Transactions on Medical Imaging+2007+1+Pierre Fillard"
+          },
+          {
+            "key": "ref6",
+            "score": 23.830767,
+            "unstructured": "first edition+2003+L. Ibanez+W. Schroeder+L. Ng+J. Cates"
+          },
+          {
+            "key": "ref7",
+            "score": 58.846066,
+            "unstructured": "Q-ball imaging+MRM+52+1358+1372+2004+D. Tuch"
+          },
+          {
+            "doi": "10.1007/978-3-540-75759-7_39",
+            "key": "ref8",
+            "score": 68.24477,
+            "unstructured": "Non-parametric diffeomorphic image registration with the demons algorithm+In Proc. of MICCAI'07+2007+1+Tom Vercauteren"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

@@ -69,6 +69,60 @@
     "revisions": [
       {
         "article": "bafybeih7mvupmjqrerq6csqsvaukwyvg4krr5a5vbe2qjiwcvuahftk46q",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 31.22611,
+            "unstructured": "Recursively implementing the Gaussian and its derivatives+Int. Conf. Image Processing+1992+R. Deriche"
+          },
+          {
+            "doi": "10.1016/0165-1684(95)00020-e",
+            "key": "ref2",
+            "score": 78.90398,
+            "unstructured": "Recursive implementation of the Gaussian filter+Signal Processing+44+139+151+1995+I. Young"
+          },
+          {
+            "doi": "10.1109/tsp.2002.804095",
+            "key": "ref3",
+            "score": 109.1718,
+            "unstructured": "Gabor filtering+IEEE Transactions on Signal Processing+50+11+2799+2805+2002+I. Young+M. van Ginkel. Recursive Vliet"
+          },
+          {
+            "doi": "10.1109/tsp.2006.871980",
+            "key": "ref4",
+            "score": 88.2846,
+            "unstructured": "Vliet Recursive Filtering. IEEE Transactions on Signal Processing+54+5+2006+B. Triggs+M. Sdika"
+          },
+          {
+            "doi": "10.1109/tip.2003.812429",
+            "key": "ref5",
+            "score": 108.30277,
+            "unstructured": "Fast anisotropic gauss filtering+IEEE Trans. Image Processing, no. 12+938+943+2003+J. M. Geusebroek+A. W. M. Smeulders"
+          },
+          {
+            "doi": "10.1109/iscas.2010.5537757",
+            "key": "ref6",
+            "score": 69.70476,
+            "unstructured": "GPU implemention of fast gabor filters+Proc. ISCAS, no. 30+2010+X. Wang+B. Shi"
+          },
+          {
+            "doi": "10.1145/2024156.2024210",
+            "key": "ref7",
+            "score": 116.98908,
+            "unstructured": "ACM Trans. Graphics (SIGGRAPH Asia)+2011+D. Nehab+A. Maximo+R. S. Lima+H. Hoppe. GPU-Efficient Recursive+Summed-Area Tables"
+          },
+          {
+            "doi": "10.32469/10355/66752",
+            "key": "ref8",
+            "score": 63.041958,
+            "unstructured": "Precision & performance: Floating point and IEEE 754 compliance for NVIDIA GPUs+NVIDIA Technical White Paper+2011+N. Whitehead+A. Fit-Florea"
+          },
+          {
+            "key": "ref9",
+            "score": 35.43238,
+            "unstructured": "Toolkit v5+NVIDIA CUDA"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

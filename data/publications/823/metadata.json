@@ -39,6 +39,49 @@
     "revisions": [
       {
         "article": "bafkreiecktcdr5wai3gjx6i5kgxju3wvm25vw7wugqeifh3v3rhii2ntnm",
+        "citation_list": [
+          {
+            "doi": "10.1117/12.154958",
+            "key": "ref1",
+            "score": 73.23443,
+            "unstructured": "Intraoperative localization using a three-dimensional optical digitizer+SPIE Volume+1993+312+322+RD Bucholz+KR Smith+J Henderson"
+          },
+          {
+            "doi": "10.1109/42.736028",
+            "key": "ref2",
+            "score": 130.88896,
+            "unstructured": "Calibration of tracking systems in a surgical environment+IEEE transactions on medical imaging+1998+17+5+737+742+W Birkfellner+F Watzinger+F Wanschitz+R Ewers+H Bergmann"
+          },
+          {
+            "doi": "10.3171/jns.1993.78.3.0510",
+            "key": "ref3",
+            "score": 149.20993,
+            "unstructured": "Intraoperative localization using an armless, frameless stereotactic wand+Technical note. Journal of neurosurgery+1993+78+3+510+514+GH Barnett+DW Kormos+CP Steiner+J Weisenberger"
+          },
+          {
+            "doi": "10.3171/jns.1986.65.4.0545",
+            "key": "ref4",
+            "score": 143.91678,
+            "unstructured": "A frameless stereotaxic integration of computerized tomographic imaging and the operating microscope+Journal of neurosurgery+1986+65+4+545+549+DW Roberts+JW Strohbehn+JF Hatch+W Murray+H. Kettenberger"
+          },
+          {
+            "doi": "10.1002/rcs.274",
+            "key": "ref5",
+            "score": 72.56116,
+            "unstructured": "OpenIGTLink: an open network protocol for imageguided therapy environment+Int J Med Robot+2009+5+4+423+434+J Tokuda+GS Fischer+X Papademetris"
+          },
+          {
+            "doi": "10.1007/s10278-007-9054-3",
+            "key": "ref6",
+            "score": 117.13642,
+            "unstructured": "The image-guided surgery toolkit IGSTK: an open source C++ software toolkit+J Digit Imaging+2007+20+Suppl 1+21+33+A Enquobahrie+P Cheng+K Gary"
+          },
+          {
+            "key": "ref7",
+            "score": 36.699947,
+            "unstructured": "The cisst libraries for computer assisted intervention systems+Syst Archit Comput Assist Interv+2008+A Deguet+R Kumar+RH Taylor+P. Kazanzides"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

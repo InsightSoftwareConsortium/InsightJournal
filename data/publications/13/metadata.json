@@ -122,6 +122,30 @@
       },
       {
         "article": "bafybeibqkhfwhewzllrgc2teg3ludkff4qwz6tjrsqiohjpaa6adsaie6u",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 36.343052,
+            "unstructured": "The ITK Software Guide. Insight Software Consortium+2003+L. Ibanez+W. Schroeder+L. Ng+J. Cates"
+          },
+          {
+            "key": "ref2",
+            "score": 40.93236,
+            "unstructured": "The Visualization Toolkit User's Guide+2003+W.J. Schroeder+K.M. Martin+L.S. Avila+C.C. Law"
+          },
+          {
+            "doi": "10.1117/12.535112",
+            "key": "ref3",
+            "score": 93.38302,
+            "unstructured": "Visualization, ImageGuided Procedures, and Display+: SPIE Medical Imaging+2004+5367+16+27+I. Wolf+M. Vetter+I. Wegner+M. Nolden+B Hastenteufel+M.+M. Kunert+T. Meinzer+H.P.:"
+          },
+          {
+            "doi": "10.1117/12.595949",
+            "key": "ref4",
+            "score": 171.96584,
+            "unstructured": "Curved reformations using the Medical Imaging Interaction Toolkit (MITK)+: SPIE Medical Imaging+2005+5744+831+838+I. Wolf+M. Hastenteufel+I. Wegner+M. Vetter+G. Greil+A. Claussen+C.D. Meinzer+H.P.+K. Cleary+Image-Guided Procedures+Display"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

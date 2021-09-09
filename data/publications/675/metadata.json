@@ -49,6 +49,68 @@
     "revisions": [
       {
         "article": "bafybeifo5zpf26pofmnl3i4thrm2h4qhhmy7skkr4mu4zsad3uaz4oss3q",
+        "citation_list": [
+          {
+            "doi": "10.1016/s1524-0703(03)00073-0",
+            "key": "ref1",
+            "score": 128.48363,
+            "unstructured": "Deterministic and stochastic state model of right generalized cylinder (RGCsm): application in computer phantoms synthesis+Graph. Models+65+6+323+350+2003+J. Azencot+M. Orkisz"
+          },
+          {
+            "doi": "10.1109/iembs.2007.4352409",
+            "key": "ref2",
+            "score": 110.20219,
+            "unstructured": "Fast marching contours for the segmentation of vessel lumen in CTA cross-sections+In Conf. Proc. IEEE Eng. Med. Biol. Soc.+3+794+2007+3+M. Baltaxe Milwer+I.E. Magnin+M. Orkisz"
+          },
+          {
+            "doi": "10.1109/icip.2006.312770",
+            "key": "ref3",
+            "score": 126.55709,
+            "unstructured": "Segmentation and Quantification of Blood Vessels in 3D Images using a Right Generalized Cylinder State Model+In Proc. IEEE Int. Conf. Image Process.+2441+2444+2006+L. Flo+J. Azencot+F. Vincent+M. Orkisz+and I.E. Magnin"
+          },
+          {
+            "doi": "10.1007/1-4020-4179-9_52",
+            "key": "ref4",
+            "score": 101.414696,
+            "unstructured": "Fast 3D pre-segmentation of arteries in computed tomography angiograms+In Int. Conf. Comput. Vision & Graphics+87+88+2004+L. Flo\u00b4rez Valencia+F. Vincent+M. Orkisz"
+          },
+          {
+            "doi": "10.1118/1.4802751",
+            "key": "ref5",
+            "score": 64.42075,
+            "unstructured": "Segmentation in the Clinic: Carotid Lumen Segmentation+2009+nl. 4+K. Hameeteman+M. Zuluaga+L. Joskowicz+M. Freiman+T. van Walsum. 3D"
+          },
+          {
+            "doi": "10.1115/1.3662552",
+            "key": "ref6",
+            "score": 82.77027,
+            "unstructured": "A New Approach to Linear Filtering and Prediction Problems+82+35+45+1960+R.E. Kalman+Engineering ASME-J. Basic"
+          },
+          {
+            "doi": "10.1016/0734-189x(85)90093-3",
+            "key": "ref7",
+            "score": 100.879105,
+            "unstructured": "Threshold selection based on a simple image statistic+Comput. Vision Graphics Image Process+30+2+125+147+1985+Josef Kittler+J. Fglein"
+          },
+          {
+            "doi": "10.1109/tpami.2003.1177156",
+            "key": "ref8",
+            "score": 147.3255,
+            "unstructured": "A linear time algorithm for computing exact euclidean distance transforms of binary images in arbitrary dimensions+IEEE Trans. Pattern Anal. Mach+25+2+265+270+2003+R. Calvin+Maurer+Qi Rensheng+Vijay Raghavan"
+          },
+          {
+            "doi": "10.1073/pnas.93.4.1591",
+            "key": "ref9",
+            "score": 100.214294,
+            "unstructured": "A Fast Marching Level Set Method for Monotonically Advancing Fronts+In Proc. Nat. Acad. Sci.,+93+1591+1595+1996+J.A. Sethian"
+          },
+          {
+            "doi": "10.1002/mrm.10164",
+            "key": "ref10",
+            "score": 133.18782,
+            "unstructured": "3D MRA coronary axis determination using a minimum cost path approach+47+6+1169+1175+2002+O. Wink+W.J. Niessen+A.F. Frangi+B. Verdonck+M.A. Viergever"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

@@ -53,6 +53,24 @@
     "revisions": [
       {
         "article": "bafybeidx6npggmmxaju3lqc4w75rxvnb4tyu37mrcyezrnhp2b4sirtlqe",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 26.714466,
+            "unstructured": "\u00a8tan Lehmann. Label object representation and manipulation with ITK+Insight Journal+08 2007+Gae"
+          },
+          {
+            "key": "ref2",
+            "score": 38.746796,
+            "unstructured": "Run-length encoding - Wikipedia, the free encyclopedia+%20encoding&oldid=729616046+2016+1+Wikipedia"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2006.01.015",
+            "key": "ref3",
+            "score": 141.78963,
+            "unstructured": "Gee, and Guido Gerig. User-guided 3D active contour segmentation of anatomical structures: Significantly improved efficiency and reliability+Neuroimage+31+3+1116+1128+2006+Paul A. Yushkevich+Sean Ho"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

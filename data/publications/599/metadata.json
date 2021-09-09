@@ -74,6 +74,73 @@
     "revisions": [
       {
         "article": "bafybeihg3k5voqyjagbfxh52p6hjhxxgrfitr6jgbu5pive2cfeg5s3cmy",
+        "citation_list": [
+          {
+            "doi": "10.3109/10929080109145999",
+            "key": "ref1",
+            "score": 114.35931,
+            "unstructured": "Fully automatic anatomical, pathological and functional segmentation from CT scans for hepatic surgery+Computer-Aided Surgery 6+3+2001+131+142+L. Soler+H. Delingette+G. Malandin"
+          },
+          {
+            "doi": "10.1016/j.ics.2005.03.070",
+            "key": "ref2",
+            "score": 114.23492,
+            "unstructured": "Proposal of computer-aided detection system for three dimensional CT images of liver cancer+Proc. of Computer Assisted Radiology and Surgery+2005+1157+1162+A. Shimizu+T. Kawamura+Kobatake"
+          },
+          {
+            "key": "ref3",
+            "score": 30.825,
+            "unstructured": ": 3D Segmentation in the Clinic: a grand challenge+Proceeding of MICCAI2007 workshop+2007+T. Heiman+Styner"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2003.11.010",
+            "key": "ref4",
+            "score": 139.33818,
+            "unstructured": "Evaluation of atlas selection strategies for atlasbased image segmentation with application to confocal microscopy images of bee brains+Neuroimage+21+4+2004+1428+1442+T. Rohlfing+R. Brandt+R. Menzel"
+          },
+          {
+            "doi": "10.1109/tmi.2004.830803",
+            "key": "ref5",
+            "score": 157.3076,
+            "unstructured": "Performance-based classifier combination in atlas-based image segmentation using expectation-maximization parameter estimation+IEEE Trans Med Imaging+23+8+2004+983+994+T. Rohlfing+D.B. Russakoff+C.R. Maurer"
+          },
+          {
+            "doi": "10.1186/1471-2342-5-7",
+            "key": "ref6",
+            "score": 92.19517,
+            "unstructured": "Automated brain labeling with multiple atlases+BMC Med Imaging+5+1+2005+A. Klein+B. Mensh+S. Ghosh"
+          },
+          {
+            "doi": "10.1007/11866763_100",
+            "key": "ref7",
+            "score": 94.68764,
+            "unstructured": "Multiclassifier Fusion in Human Brain MR Segmentation:Modelling Convergence, MICCAI2006 LNCS4191 (+2006+815+822+R.A. Heckemann+J. V. Aljabar"
+          },
+          {
+            "doi": "10.1006/jcss.1997.1504",
+            "key": "ref8",
+            "score": 91.69548,
+            "unstructured": "A decision-theoretic generalization of on-line learning and an application to boosting+J. of Computer and System Sciences+55+1997+Y. Freund+Schapire"
+          },
+          {
+            "doi": "10.1109/icpr.2000.903598",
+            "key": "ref9",
+            "score": 80.120895,
+            "unstructured": "Nonlinear Adaptive Convergence Index Filters and Their applications+Proc. of ICPR+3+2000+526+529+H. Kobatake+W. Jun+Y. Yoshinaga"
+          },
+          {
+            "doi": "10.1109/tmi.2003.809139",
+            "key": "ref10",
+            "score": 102.19896,
+            "unstructured": "Construction of an Abdominal Probabilistic Atlas its Application in Segmentation+IEEE Trans. on Medical Imaging+22+4+2003+483+492+Park+P.H. Bland"
+          },
+          {
+            "doi": "10.1007/3-540-45468-3_62",
+            "key": "ref11",
+            "score": 125.49833,
+            "unstructured": "Valmet: A new validation tool for assessing and improving 3D object segmentation+Proc. of MICCAI+2208+2001+516+523+G. Gerig+M. Jomier+M. Chakos"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

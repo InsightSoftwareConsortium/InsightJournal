@@ -53,6 +53,90 @@
     "revisions": [
       {
         "article": "bafybeifi5ykyecll2ratltmnz5jb2zskc5fd6nbqa5w5kvqpm3m2hjszby",
+        "citation_list": [
+          {
+            "doi": "10.1148/radiology.171.3.2717762",
+            "key": "ref1",
+            "score": 80.89235,
+            "unstructured": "MR Imaging of Motion with Spatial Modulation of Magnetization+4+2+845+1989+L Axel+L Dougherty"
+          },
+          {
+            "doi": "10.1364/ao.30.003627",
+            "key": "ref2",
+            "score": 81.07254,
+            "unstructured": "Fourier fringe analysis: the two-dimensional phase unwrapping problem+Applied optics+2+2+2+3632+1991+D J Bone"
+          },
+          {
+            "doi": "10.1109/igarss.1996.516887",
+            "key": "ref3",
+            "score": 117.87539,
+            "unstructured": "-D phase unwrapping guided by a quality map+IGARSS '96. 1996 International Geoscience and Remote Sensing Symposium+3+1+2059+1996+J Thomas+Flynn. Consistent"
+          },
+          {
+            "doi": "10.1364/josaa.14.002692",
+            "key": "ref4",
+            "score": 64.76629,
+            "unstructured": "Two-dimensional phase unwrapping with minimum weighted discontinuity+1997+3+1+J. Thomas+Flynn"
+          },
+          {
+            "doi": "10.1109/jproc.2004.840301",
+            "key": "ref5",
+            "score": 79.20392,
+            "unstructured": "The Design and Implementation of FFTW3+Proc. IEEE+3+2+216+231+2005+Matteo Frigo+Steven Johnson+B.1"
+          },
+          {
+            "key": "ref6",
+            "score": 39.164078,
+            "unstructured": "Two-dimensional phase unwrapping: theory, algorithms+1998+3+5+DC Ghiglia+MD Pritt"
+          },
+          {
+            "doi": "10.1029/rs023i004p00713",
+            "key": "ref7",
+            "score": 109.05626,
+            "unstructured": "HA Zebker, and CL Werner. Satellite radar interferometry: Two-dimensional phase unwrapping+Radio Science+4+3+1+720+1988+RM Goldstein"
+          },
+          {
+            "doi": "10.1364/ao.40.003901",
+            "key": "ref8",
+            "score": 84.546646,
+            "unstructured": "Three-dimensional noise-immune phase unwrapping algorithm+Applied Optics+2+23+2+3270+2001+M Jonathan+Huntley."
+          },
+          {
+            "key": "ref9",
+            "score": 57.074203,
+            "unstructured": "Analysis of the phase unwrapping algorithm+Applied optics+1+2+1+1982+Kazuyoshi Itoh"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2010.11.088",
+            "key": "ref10",
+            "score": 90.101685,
+            "unstructured": "Quantitative susceptibility mapping of human brain reflects spatial variation in tissue composition+NeuroImage+1+4+1+56+April 2011+Li Wei+Bing Wu"
+          },
+          {
+            "doi": "10.1002/(sici)1522-2594(199912)42:6<1048::aid-mrm9>3.0.co;2-m",
+            "key": "ref11",
+            "score": 151.70049,
+            "unstructured": "Cardiac motion tracking using CINE harmonic phase (HARP) magnetic resonance imaging+Magnetic resonance in medicine : official journal of the Society of Magnetic Resonance in Medicine / Society of Magnetic Resonance in Medicine+1+6+1+60+December 1999+N F Osman+W S Kerwin+and J L Prince"
+          },
+          {
+            "doi": "10.1002/(sici)1522-2594(199912)42:6<1048::aid-mrm9>3.0.co;2-m",
+            "key": "ref12",
+            "score": 151.69516,
+            "unstructured": "Cardiac motion tracking using CINE harmonic phase (HARP) magnetic resonance imaging+Magnetic resonance in medicine : official journal of the Society of Magnetic Resonance in Medicine / Society of Magnetic Resonance in Medicine+4+6+2+60+December 1999+N F Osman+W S Kerwin+and J L Prince"
+          },
+          {
+            "doi": "10.1002/jmri.22099",
+            "key": "ref13",
+            "score": 109.80032,
+            "unstructured": "Louis Dell 'Italia, and Thomas S Denney. 3D left ventricular strain from unwrapped harmonic phase measurements+Journal of magnetic resonance imaging : JMRI+4+4+2+62+April 2010+Bharath Ambale+Venkatesh"
+          },
+          {
+            "doi": "10.1002/jmri.22665",
+            "key": "ref14",
+            "score": 126.53679,
+            "unstructured": "Louis Dell'Italia, and Thomas S Denney. Three-dimensional plus time biventricular strain from tagged MR images by phase-unwrapped harmonic phase+Journal of magnetic resonance imaging : JMRI+4+4+2+810+October 2011+Bharath Ambale+Venkatesh"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

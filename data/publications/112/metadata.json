@@ -75,6 +75,38 @@
     "revisions": [
       {
         "article": "bafybeigbq2fxyi4efa2gziq55ldzvesoyadvddi4r4i6hn2nl2qnpjtmoa",
+        "citation_list": [
+          {
+            "doi": "10.1109/42.796283",
+            "key": "ref1",
+            "score": 118.14551,
+            "unstructured": "On the Laplace-Beltrami operator and brain surface flattening+Medical Imaging+1+8+5+711+1999+S. Angenent+S. Haker+A. Tannenbaum+R. Kikinis"
+          },
+          {
+            "doi": "10.1093/cercor/5.6.506",
+            "key": "ref2",
+            "score": 107.88366,
+            "unstructured": "Computational methods for reconstructing and unfolding the cerebral cortex+Cereb. Cortex+5+6+1995+G. J. Carman+H. A. Drury+D. C. Van Essen"
+          },
+          {
+            "doi": "10.1109/42.544496",
+            "key": "ref3",
+            "score": 91.07676,
+            "unstructured": "Using a deformable surface model to obtain a shape representation of the cortex+Medical Imaging+15+6+1996+C. Davatzikos+R. N. Bryan"
+          },
+          {
+            "doi": "10.1117/12.185176",
+            "key": "ref4",
+            "score": 83.488495,
+            "unstructured": "Multiple surface identification and matching in magnetic resonance images+Visualization Biomed. Comput., page 160C169. New York: SPIE+1994+D. MacDonald+Avis+A. C. Evans"
+          },
+          {
+            "doi": "10.1109/34.35506",
+            "key": "ref5",
+            "score": 113.93212,
+            "unstructured": "A numerical solution to the generalized mapmakers problem: Flattening nonconvex polyhedral surfaces+Pattern Anal. Machine Intell+11+1005C1008+1989+E. Schwartz+A. Shaw+E. Wolfson"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

@@ -33,6 +33,66 @@
     "revisions": [
       {
         "article": "bafkreifggxjhyge4n2452wxub7yjmk6gzeyz6ttuzl3awwy42hwkkevn5e",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 18.806837,
+            "unstructured": "Auto threshold. 1+G."
+          },
+          {
+            "doi": "10.1016/0031-3203(93)90115-d",
+            "key": "ref2",
+            "score": 93.399124,
+            "unstructured": "Minimum cross entropy thresholding+Pattern Recognition+26+4+617+625+1993+C.H. Li+C.K. Lee"
+          },
+          {
+            "doi": "10.1016/s0167-8655(98)00057-9",
+            "key": "ref3",
+            "score": 111.68238,
+            "unstructured": "An iterative algorithm for minimum cross entropy thresholding+Pattern recognition letters+19+8+771+776+1998+C.H. Li and P.K.S Tam"
+          },
+          {
+            "key": "ref4",
+            "score": 28.299322,
+            "unstructured": "Histthresh toolbox for matlab. 1+A. Niemist"
+          },
+          {
+            "doi": "10.1111/j.1749-6632.1965.tb11715.x",
+            "key": "ref5",
+            "score": 84.616035,
+            "unstructured": "The analysis of cell images+Annals of the New York Academy of Sciences+128+3+1035+1053+1965+J. Prewitt+M.L. Mendelsohn"
+          },
+          {
+            "doi": "10.1109/tsmc.1978.4310039",
+            "key": "ref6",
+            "score": 97.64593,
+            "unstructured": "Picture thresholding using an iterative selection method+IEEE transactions on Systems, Man and Cybernetics+8+8+630+632+1978+T.W. Ridler+S. Calvard"
+          },
+          {
+            "doi": "10.1006/cgip.1994.1037",
+            "key": "ref7",
+            "score": 131.73671,
+            "unstructured": "Utilization of information measure as a means of image thresholding+CVGIP: Graphical Models and Image Processing+56+5+414+419+1994+A.G. Shanbhag"
+          },
+          {
+            "doi": "10.1016/0734-189x(85)90133-1",
+            "key": "ref8",
+            "score": 89.93532,
+            "unstructured": "Moment-preserving thresolding: A new approach+Computer Vision+29+3+377+393+1985+W.H. Tsai"
+          },
+          {
+            "doi": "10.1109/83.366472",
+            "key": "ref9",
+            "score": 91.787605,
+            "unstructured": "A new criterion for automatic multilevel thresholding+Image Processing+4+3+370+378+1995+J.C. Yen+F.J. Chang+S. Chang"
+          },
+          {
+            "doi": "10.1177/25.7.70454",
+            "key": "ref10",
+            "score": 110.031906,
+            "unstructured": "Automatic measurement of sister chromatid exchange frequency+Journal of Histochemistry & Cytochemistry+25+7+741+1977+G.W. Zack+W.E. Rogers+S.A. Latt"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

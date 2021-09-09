@@ -51,6 +51,120 @@
     "revisions": [
       {
         "article": "bafybeig4ydisi7s7f6dfso2jauykrm66j6oqczj2hhgula5q5rdf7omuae",
+        "citation_list": [
+          {
+            "doi": "10.1007/978-3-642-56205-1_1",
+            "key": "ref1",
+            "score": 75.53368,
+            "unstructured": "Multiscale scientific computation: review 2001+Multiscale and multiresolution Methods: thoery and applications+1+96+2001+A. Brandt+T. F. Barth+Chan"
+          },
+          {
+            "doi": "10.1007/bfb0046964",
+            "key": "ref2",
+            "score": 98.46904,
+            "unstructured": "Fast fluid registration of medical images+In Proceedings of the 4th International Conference on Visualization in Biomedical Computing+267+276+1996+M. Bro-Nielsen+C. Gramkow"
+          },
+          {
+            "doi": "10.1109/83.536892",
+            "key": "ref3",
+            "score": 108.77428,
+            "unstructured": "deformable templates using large deformation kinetics+IEEE Trans. on Image Process.+5+10+1435+1447+1996+G. E. Christensen+R. D. Rabbitt+M. I. Miller."
+          },
+          {
+            "doi": "10.1007/3-540-45787-9_68",
+            "key": "ref4",
+            "score": 129.4455,
+            "unstructured": "A viscous fluid model for multimodal nonrigid image registration using mutual information+In Proceedings of the 5th International Conference on Medical Image Computing+1+548+2002+1+1+F. E. D'Agostino+D. Maes+P. Vandermeulen+Suetens+II Computer-Assisted Intervention-Part"
+          },
+          {
+            "doi": "10.1088/0031-9155/55/1/012",
+            "key": "ref5",
+            "score": 134.45074,
+            "unstructured": "Implementation and evaluation of various demons deformable image registration algorithms on a GPU+Phys. Med+55+1+207+219+2010+X. Gu+H. Pan+Y. Liang+R. Castillo+D. Yang+D. J. Choi+E. Castillo+A. Majumdar+T. Guerrero+S. B. Jiang"
+          },
+          {
+            "doi": "10.1109/42.906425",
+            "key": "ref6",
+            "score": 146.99873,
+            "unstructured": "Three-dimensional multimodal brain warping using the demons algorithm and adaptive intensity corrections+IEEE Trans. on Med. Imaging+20+1+58+69+2001+A. Guimond+A. Roche+N. Ayache+J. Meunier"
+          },
+          {
+            "doi": "10.1016/0004-3702(81)90024-2",
+            "key": "ref7",
+            "score": 76.83316,
+            "unstructured": "Determining optical flow+ARTIFICAL INTELLIGENCE+17+185+203+1981+B. K. P. Horn+B. G. Schunck"
+          },
+          {
+            "doi": "10.1118/1.3371691",
+            "key": "ref8",
+            "score": 147.57613,
+            "unstructured": "GPU-based fast cone beam CT reconstruction from undersampled and noisy projection data via total variation+Med. Phys.+37+4+1757+1760+2010+X. Jia+Y. Lou+R. Li+W. Y. Song+S. B. Jiang"
+          },
+          {
+            "key": "ref9",
+            "score": 24.310455,
+            "unstructured": "on Image Process+2011+1+1+Y. Lou+A. Tannenbaum"
+          },
+          {
+            "doi": "10.1016/j.radonc.2007.08.010",
+            "key": "ref10",
+            "score": 119.854805,
+            "unstructured": "Correction of conebeam ct values using a planning ct for derivation of the \u201ddose of the day\u201d+Radiother Oncol.+85+2+195+200+2007+B. M. Dirkx M. Van Zijtvetd+Heijmen"
+          },
+          {
+            "doi": "10.1109/42.563664",
+            "key": "ref11",
+            "score": 128.39145,
+            "unstructured": "Multimodality image registration by maximization of mutual information+IEEE trans. on Med. Imaging+16+187+198+1997+F. Maes+A. Collignon+D. Vandermeulen+P. Suetens"
+          },
+          {
+            "doi": "10.1088/0031-9155/55/15/008",
+            "key": "ref12",
+            "score": 119.013306,
+            "unstructured": "GPU-based ultra-fast direct aperture optimization for online adaptive radiation therapy+Phys. Med+55+15+4309+4319+2010+C. Men+X. Jia+S. B. Jiang"
+          },
+          {
+            "doi": "10.1118/1.3555037",
+            "key": "ref13",
+            "score": 200.1545,
+            "unstructured": "Demons deformable registration of ct and cone-beam ct using an iterative intensity matching approach+Med. Phys.+38+4+1785+1798+2011+S. Nithiananthan+S. Schafer+A. Uneri+D. J. Mirota+J. W. Stayman+W. Zbijewski+K. K. Brock+M.J. Daly+H. Chan+J. C. Irish+J.H. Siewerdsen"
+          },
+          {
+            "doi": "10.1118/1.3483260",
+            "key": "ref14",
+            "score": 122.4623,
+            "unstructured": "Shading correction for on-board cone-beam ct in radiation therapy using planning mdct images+Med. Phys. (document)+T.Y. Niu+M.S. Sun+J. Star-Lack+H.W. Gao+Q.Y. Fan+L. Zhu"
+          },
+          {
+            "doi": "10.1007/978-3-642-15291-7_22",
+            "key": "ref15",
+            "score": 127.36406,
+            "unstructured": "A parallel GPU algorithm for mutual information based 3d nonrigid image registration+In Proceedings of the 16th international Euro-Par conference on Parallel processing:+10+223+234+2010+V. Saxena+J. Rohrerand L. Gong"
+          },
+          {
+            "doi": "10.1016/s1361-8415(98)80022-4",
+            "key": "ref16",
+            "score": 81.31352,
+            "unstructured": "Image matching as a diffusion process: an analogy with Maxwell demons+Med+2+243+260+1998+J. P. Thirion"
+          },
+          {
+            "doi": "10.1117/12.709629",
+            "key": "ref17",
+            "score": 70.08753,
+            "unstructured": "Non-rigid multi-modal registration on the GPU+In Proceedings of SPIE+6512+2007+G. Vetter+C.+R. Westermann"
+          },
+          {
+            "key": "ref18",
+            "score": 44.874367,
+            "unstructured": "(document)+Int. J. Comput. Vision+24+137+154+September 1997+P. Viola+W. M."
+          },
+          {
+            "doi": "10.1088/0031-9155/53/3/011",
+            "key": "ref19",
+            "score": 66.14431,
+            "unstructured": "(document)+Phys. Med+Q.J. Wu+D. Thongphiew+Z. Wang+B. Mathayomchan+V. Chankong+S. Yoo+W.R. Lee+F.F. Yin"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

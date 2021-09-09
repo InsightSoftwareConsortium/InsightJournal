@@ -55,6 +55,84 @@
     "revisions": [
       {
         "article": "bafkreidomcatgre6skrv3lrz5wubvl2elcztkvnnntavuftwsfhsqksu2u",
+        "citation_list": [
+          {
+            "doi": "10.1007/978-3-642-03882-2_504",
+            "key": "ref1",
+            "score": 76.65147,
+            "unstructured": "3D Segmentation in the Clinic: A Grand Challenge II - Coronary Artery Tracking+Insight Journal+2008+C. Metz+M. Schaap+A. van der Giessen Walsum+A. Weustink+N. Mollet+G. Krestin+W. Niessen"
+          },
+          {
+            "doi": "10.1145/361237.361242",
+            "key": "ref2",
+            "score": 96.98484,
+            "unstructured": "Use of the Hough Transformation to Detect Lines and Curves in Pictures+Comm. ACM+15+11+15+January+1972+R. O. and P. E. Duda+Hart"
+          },
+          {
+            "doi": "10.1016/0031-3203(81)90009-1",
+            "key": "ref3",
+            "score": 95.273125,
+            "unstructured": "Generalizing the Hough Transform to Detect Arbitrary Shapes+13+111+122+1981+D. H. Ballard"
+          },
+          {
+            "doi": "10.1006/jvci.1995.1022",
+            "key": "ref4",
+            "score": 76.13556,
+            "unstructured": "A New Generalized Hough Transform for the Detection of Irregular Objects+JVCIR(6)+September 1995+256+264+P.K. Ser+W.C. Siu"
+          },
+          {
+            "key": "ref5",
+            "score": 36.393646,
+            "unstructured": "Extending Generalized Hough Transform to Detect 3D Objects in Laser Range Data+Laser07 (206).+K. Khoshelham"
+          },
+          {
+            "doi": "10.1109/tip.2007.891154",
+            "key": "ref6",
+            "score": 83.23961,
+            "unstructured": "Iterative Voting for Inference of Structural Saliency and Characterization of Subcellular Events+16+3+615+623+Bahram Parvin+Qing Yang"
+          },
+          {
+            "doi": "10.1109/cbms.2007.5",
+            "key": "ref7",
+            "score": 89.47,
+            "unstructured": "A Fast Vessel Centerline Extraction Algorithm for Catheter Simulation+CBMS+2007+177+182+Jan Egger+Bernd Freisleben"
+          },
+          {
+            "doi": "10.1109/2945.942688",
+            "key": "ref8",
+            "score": 85.275795,
+            "unstructured": "Penalized-Distance Volumetric Skeleton Algorithm+IEEE Trans. Vis. Comput. Graph+7+3+195+206+2001+Ingmar Bitter"
+          },
+          {
+            "doi": "10.1109/tmi.2002.806409",
+            "key": "ref9",
+            "score": 100.35595,
+            "unstructured": "Automatic Centerline Extraction for Virtual Colonoscopy+IEEE Transactions On Medical Imaging+21+12+2002+1450+1460+Ming Wan"
+          },
+          {
+            "doi": "10.1109/tpami.2006.57",
+            "key": "ref10",
+            "score": 111.49278,
+            "unstructured": "Isoperimetric Graph Partitioning for Image Segmentation+IEEE Trans. Pattern Anal. Mach. Intell+28+3+469+475+2006+Leo Grady+Eric L. Schwartz"
+          },
+          {
+            "key": "ref11",
+            "score": 59.30482,
+            "unstructured": "ECCV+2006+449+462+Grady Leo+Trees - Isoperimetric Distance"
+          },
+          {
+            "doi": "10.1145/1031120.1031121",
+            "key": "ref12",
+            "score": 102.58556,
+            "unstructured": "A Review of Vessel Extraction Techniques and Algorithms+ACM Comput. Surv+36+2+81+121+2004+Kirbas Cemil+Francis K. H. Quek"
+          },
+          {
+            "doi": "10.1007/bf01386390",
+            "key": "ref13",
+            "score": 90.02593,
+            "unstructured": "A Note on Two Problems in Connexion with Graphs+Numerische Mathematik+1+1959+269+271+E. Dijkstra"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

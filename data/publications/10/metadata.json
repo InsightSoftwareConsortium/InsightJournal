@@ -38,6 +38,49 @@
       },
       {
         "article": "bafybeifrq6agqtqbhhmfjve7we4wglgkce7gpexdxhltj7zyumhk3yjc7u",
+        "citation_list": [
+          {
+            "doi": "10.1023/b:visi.0000029664.99615.94",
+            "key": "ref1",
+            "score": 84.210754,
+            "unstructured": "Distinctive image features from scale-invariant keypoints+IJCV+60+2+91+110+November 2004+D. G. Lowe"
+          },
+          {
+            "doi": "10.1109/tmi.2003.819276",
+            "key": "ref2",
+            "score": 135.67397,
+            "unstructured": "The dual-bootstrap iterative closest point algorithm with application to retinal image registration+IEEE Trans. Med+22+11+1379+1394+2003+C. Stewart+B. C.-L. Tsai+Roysam"
+          },
+          {
+            "doi": "10.1007/978-3-540-30135-6_106",
+            "key": "ref3",
+            "score": 97.53648,
+            "unstructured": "An uncertainty-driven hybrid of intensitybased and feature-based registration with application to retinal and lung CT images+In Proc. 7th MICCAI+2004+C. V. Stewart+Y.-L. Lee+C.-L. Tsai+Saint-Malo"
+          },
+          {
+            "doi": "10.1007/978-3-540-45087-0_40",
+            "key": "ref4",
+            "score": 79.83928,
+            "unstructured": "A view-based approach to registration: Theory and application to vascular image registration+In Proc. IPMI+20+2003+C. V. Stewart+C.-L. Tsai+A. Perera"
+          },
+          {
+            "key": "ref5",
+            "score": 19.264275,
+            "unstructured": "[5] The TargetJr Consortium. The VXL Book+2000"
+          },
+          {
+            "doi": "10.1117/12.591341",
+            "key": "ref6",
+            "score": 80.945145,
+            "unstructured": "Multimodal optical microscope for imaging biological systems+In Proc. SPIE Conference 3D, Mult. Micro. Image Acqu. Pro. XII+5701+136+145+2005+D. Townsend+G. L. C. DiMarzio+M. Rajadhyaksha"
+          },
+          {
+            "doi": "10.1007/11566489_115",
+            "key": "ref7",
+            "score": 80.98021,
+            "unstructured": "Accurate image registration for quadrature tomographic microscopy+In Proc. 8th MICCAI+200+W. C.-L. Tsai+C. Warger+DiMarzio"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

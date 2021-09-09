@@ -73,6 +73,41 @@
     "revisions": [
       {
         "article": "bafybeie2tfgcqhargvtqelknvyrqli24oifhguslkcjq6c2tnfqexqlsyu",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 55.571224,
+            "unstructured": "A Component-based Architecture for Flexible Integration of Robotic Systems+6107+6112+2010+MY Jung"
+          },
+          {
+            "doi": "10.1109/robot.2006.1641189",
+            "key": "ref2",
+            "score": 78.995445,
+            "unstructured": "Constrained Control for Surgical Assistant Robots+In Proceedings of IEEE ICRA+231+236+2006+A. Kapoor+M. Li+R. H. Taylor"
+          },
+          {
+            "doi": "10.1115/1.2168163",
+            "key": "ref3",
+            "score": 88.06917,
+            "unstructured": "Stable Forbidden-Region Virtual Fixtures for Bilateral Telemanipulation+Journal of Dynamic Systems+2006+Abbott JJ+Control"
+          },
+          {
+            "key": "ref4",
+            "score": 59.45192,
+            "unstructured": "Development and application of a new steady-hand manipulator for retinal surgery+In Proceedings of IEEE ICRA+623+629+2007+B Mitchell"
+          },
+          {
+            "doi": "10.1007/978-3-642-15711-0_38",
+            "key": "ref5",
+            "score": 73.164444,
+            "unstructured": "Micro-force sensing in robot assisted membrane peeling for vitreoretinal surgery+In: Proceedings of MICCAI+2010+Balicki MA"
+          },
+          {
+            "key": "ref6",
+            "score": 42.141754,
+            "unstructured": "Workstation (SAW) Application for a Teleoperated Surgical Robot System,\u201d+Midas Journal+2009+MY Jung+A Surgical Assistant"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

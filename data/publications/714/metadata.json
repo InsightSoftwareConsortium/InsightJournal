@@ -43,6 +43,25 @@
     "revisions": [
       {
         "article": "bafybeieh5ugbqy4dg5oc2app23jf5yckyhveskzb5cxicyqe5emmo4wyby",
+        "citation_list": [
+          {
+            "doi": "10.1007/3-540-26431-0_72",
+            "key": "ref1",
+            "score": 130.30879,
+            "unstructured": "Beyond mutual information: A simple and robust alternative+Bildverarbeitung fu\u00a8r die Medizin+March 2005+5+354+2+2+Eldad Haber+Jan Modersitzki+Hans-Peter Meinzer+Informatik Aktuell"
+          },
+          {
+            "doi": "10.1109/42.563664",
+            "key": "ref2",
+            "score": 107.8926,
+            "unstructured": ". Multi-modality image registration by maximization of mutual information+IEEE Trans. on Med. Imaging+16+187+198+1997+F. Maes+A. Collignon+D. Meulen+P. Suetens"
+          },
+          {
+            "key": "ref3",
+            "score": 56.232807,
+            "unstructured": "Wells III. Alignment by maximization of mutual information+IJCV+24+2+137+154+1997+P. Viola+W. M."
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

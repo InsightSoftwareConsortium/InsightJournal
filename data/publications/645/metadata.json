@@ -69,6 +69,30 @@
     "revisions": [
       {
         "article": "bafkreidtoka5keplduypup2sjuued5hiqjoo7uk4i4q5fdiewzxmq7ihty",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 38.45337,
+            "unstructured": "Itkquadedgemesh: A discrete orientable 2-manifold data structure for image processing+Insight Journal+2007+2+3+3+A. Gouaillard+L. Florez-Valencia+and E. Boix"
+          },
+          {
+            "key": "ref2",
+            "score": 24.846748,
+            "unstructured": "second edition+2005+3+2+L. Ibanez+W. Schroeder+L. Ng+J. Cates"
+          },
+          {
+            "doi": "10.1007/978-3-540-85988-8_89",
+            "key": "ref3",
+            "score": 160.02428,
+            "unstructured": "Spherical demons: Fast surface registration+In MICCAI'2008 International Conference on Medical Image Computing and Computer-Assisted Intervention, Lecture Notes in Computer Science+1+753+September 2008+B. T. T. Yeo+M. Sabuncu+T. Vercauteren+N. Ayache+B. Fisch+P. Golland"
+          },
+          {
+            "doi": "10.1109/tmi.2009.2030797",
+            "key": "ref4",
+            "score": 164.93379,
+            "unstructured": "Spherical demons: Fast diffeomorphic landmark-free surface registration+IEEE Transactions on Medical Imaging+29+3+650+668+2010+B. T. T. Yeo+M. Sabuncu+T. Vercauteren+N. Ayache+B. Fischl+P. Golland"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

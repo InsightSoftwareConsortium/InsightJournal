@@ -63,6 +63,31 @@
     "revisions": [
       {
         "article": "bafkreic34wqd2svn3u7nkuxhtxepyqkkd56sezfjtm4lpfrzzb67kgxkta",
+        "citation_list": [
+          {
+            "doi": "10.1007/bfb0056195",
+            "key": "ref1",
+            "score": 145.85588,
+            "unstructured": "Multiscale vessel enhancement filtering+MICCAI'98 Medical Image Computing and Computer-Assisted Intervention, Lecture Notes in Computer Science+1+137+1998+A. F. Frangi+W. J. Niessen+K. L. Vincken+M. A. Viergever+A. Wells+Colchester"
+          },
+          {
+            "key": "ref2",
+            "score": 26.646229,
+            "unstructured": "(document) Kitware, Inc+2003+L. Ibanez+W. Schroeder"
+          },
+          {
+            "doi": "10.1145/1031120.1031121",
+            "key": "ref3",
+            "score": 99.99228,
+            "unstructured": "A review of vessel extraction techniques and algorithms+ACM Computing Surveys+36+2+81+121+2004+C. Kirbas+F. Quek"
+          },
+          {
+            "doi": "10.1016/j.media.2006.06.003",
+            "key": "ref4",
+            "score": 100.13401,
+            "unstructured": "Vessel enhancing diffusion: A scale space representation of vessel structures+Medical Image Analysis+2006+1+1+4+R. Mannieshing+M.A. Viergever+W. J . Niessen"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

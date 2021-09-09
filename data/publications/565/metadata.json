@@ -101,6 +101,131 @@
     "revisions": [
       {
         "article": "bafybeidsqqsdzkmrghlajyy3horig6zrjco3csz7ydwddrnygxjhf2g3ky",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 18.602962,
+            "unstructured": "July 2000+1+L. Ambrosio"
+          },
+          {
+            "doi": "10.1109/42.796283",
+            "key": "ref2",
+            "score": 129.45248,
+            "unstructured": "Laplace-Beltrami operator and brain surface flattening+\u201d IEEE Trans. on Medical Imaging+18+700+711+1999+S. Angenent+S. Haker+R. Kikinis+A"
+          },
+          {
+            "doi": "10.1137/s0036141002410927",
+            "key": "ref3",
+            "score": 110.193726,
+            "unstructured": "Minimizing flows for the Monge-Kantorovich problem+\u201d SIAM J. Math. Anal.+1+1+97+2003+S. Angenent+S. Haker+A. Tannenbaum"
+          },
+          {
+            "doi": "10.1007/978-1-84800-155-8_5",
+            "key": "ref4",
+            "score": 107.72936,
+            "unstructured": "On the computation of optimal transport maps using gradient flows and multiresolution analysis,\u201d in Recent Advances in Learning and Control edited by V. Blondel, S. Boyd, and+2008+A. Dominitz+S. Angenent+A. Tannenbaum+H. Kimura"
+          },
+          {
+            "doi": "10.1007/s002110050002",
+            "key": "ref5",
+            "score": 86.08163,
+            "unstructured": "A computational fluid mechanics solution to the Monge-Kantorovich mass transfer problem+\u201d SIAM J. Math. Analy.+1+1+97+2003+J. D. Benamou+Y. Brenier"
+          },
+          {
+            "doi": "10.1007/bfb0046964",
+            "key": "ref6",
+            "score": 92.92797,
+            "unstructured": "Fast fluid registration of medical images,\u201d in Visualization in Biomedical Imaging edited by K. Ho\u00a8hne and+267+276+1996+M. Bro-Nielsen+C. Gramkow+R. Kikinis"
+          },
+          {
+            "doi": "10.1109/83.536892",
+            "key": "ref7",
+            "score": 86.30515,
+            "unstructured": "Deformable templates using large deformation kinetics+\u201d IEEE Trans. on Image Processing+5+1996+1+1447+G. E. Christensen+R. D. Rabbit+M. Miller"
+          },
+          {
+            "key": "ref8",
+            "score": 56.19846,
+            "unstructured": "Partial Differential Equations and Monge-Kantorovich Transfer. Lecture Notes+1989+L. C. Evans"
+          },
+          {
+            "doi": "10.1093/cercor/bhg087",
+            "key": "ref9",
+            "score": 94.22579,
+            "unstructured": "\u201cAutomatically Parcellating the Human Cerebral Cortex,\u201d Cerebral Cortex+1+11+4+22+2004+B. Fischlet al."
+          },
+          {
+            "doi": "10.1109/42.906425",
+            "key": "ref10",
+            "score": 132.06519,
+            "unstructured": "Three-dimensional multimodal brain warping using the demons algorithm and adaptive intensity corrections,\u201d+IEEE TMI+20+1+58+69+2001+A. Guimond+A. Roche+N. Ayache+J. Meunier"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2006.05.061",
+            "key": "ref11",
+            "score": 157.20583,
+            "unstructured": "Automatic anatomical brain MRI segmentation combining label propagation and decision fusion,\u201d+NeuroImage+33+1+115+126+2006+R. A. Heckemann+J. Hajnal+P. Aljabar+D. Rueckert+A. Hammers"
+          },
+          {
+            "doi": "10.1023/b:visi.0000036836.66311.97",
+            "key": "ref12",
+            "score": 101.51497,
+            "unstructured": "Optimal mass transport for registration and warping+\u201d Int. Jour. Computer Vision+2+4+5+240+2004+S. Haker+L. Zhu+A. Tannenbaum+S. Angenent"
+          },
+          {
+            "key": "ref13",
+            "score": 34.66599,
+            "unstructured": "On a problem of Monge,\u201d Uspekhi+3+225+226+1948+L. Kantorovich"
+          },
+          {
+            "key": "ref14",
+            "score": 48.004795,
+            "unstructured": "\u201cA digital brain atlas for surgical planning, model-drivensegmentation, and teaching+\u201d IEEE Trans. on Vis. and Comp+1+4+4+241+1996"
+          },
+          {
+            "doi": "10.1073/pnas.90.24.11944",
+            "key": "ref15",
+            "score": 73.45418,
+            "unstructured": "Mathematical textbook of deformable neuroanatomies+\u201d Proc. Nat. Acad. of Science 90+1+11948+M. Miller+G. Christensen+Y. Amit"
+          },
+          {
+            "doi": "10.1109/isbi.2004.1398479",
+            "key": "ref16",
+            "score": 111.052376,
+            "unstructured": "Anatomical guided segmentation with non-stationary tissue class distributions in an expectation-maximization framework+\u201d IEEE ISBI+81+84+2004+K. Pohl+S. Bouix+R. Kikinis"
+          },
+          {
+            "key": "ref17",
+            "score": 30.73736,
+            "unstructured": "1999+J. Nocedal+S. Wright"
+          },
+          {
+            "key": "ref18",
+            "score": 31.657677,
+            "unstructured": "Probability and Its Applications+1998+S. Rachev+Volumes I and II"
+          },
+          {
+            "doi": "10.1109/titb.2003.808506",
+            "key": "ref19",
+            "score": 111.11724,
+            "unstructured": "Nonrigid image registration in shared-memory multiprocessor environments with application to brains, breasts+\u201d IEEE Trans. on Inf. Techn+1+1+4+25+2003+T. Rohlfing+C. R. Maurer"
+          },
+          {
+            "key": "ref20",
+            "score": 52.569626,
+            "unstructured": "The earth mover's distance as a metric for image retrieval+\u201d Technical Report STANCS-TN-98-86+September 1998+Y. Rubner+C. Tomasi+J. Guibas"
+          },
+          {
+            "key": "ref21",
+            "score": 51.101467,
+            "unstructured": "Fast non-rigid matching of non-rigid images+\u201d INRIA Technical Report 2547+1995+J.-P. Thirion+Epidaure Project+INRIA"
+          },
+          {
+            "key": "ref22",
+            "score": 23.602274,
+            "unstructured": "1999+A. Toga"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

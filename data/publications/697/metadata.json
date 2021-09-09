@@ -113,6 +113,37 @@
     "revisions": [
       {
         "article": "bafkreiexbg5axq62xcubcccoy5dz2kfojk4gos6wururs2bcvp6je7hdye",
+        "citation_list": [
+          {
+            "doi": "10.1007/978-3-642-10470-1_1",
+            "key": "ref1",
+            "score": 89.05619,
+            "unstructured": "2+Nearly automatic vessels segmentation using graph-based energy minimization+The Midas Journal+3+445+453+2009+NASCET Collaborators+O. Cuisinaire+M. Freiman+J. Frank+L. Weizman+E. Nammer+O. Shilon+L. Joskowicz+J. Sosna"
+          },
+          {
+            "doi": "10.1118/1.3254077",
+            "key": "ref2",
+            "score": 74.59269,
+            "unstructured": "net/10380/3103. 4+3+\u00b4\u0131a. A minimal cost path and level set evolution approach for carotid bifurcation segmentation+2009+M.A. Gu+H. Tek+K. Krissian+S.A. Garc+C.T. Metz+M. Schaap+A.G. van der Giessen Walsum+A.C. Weustink+N.R.A. Mollet+G. P."
+          },
+          {
+            "doi": "10.1016/j.media.2011.02.004",
+            "key": "ref3",
+            "score": 93.90792,
+            "unstructured": "Ku\u00a8hnel, M. A+net/10380/3101. 4+2009+3+W.J. Krestin+Niessen+J. Mille+F. Benmansour+L.D. Cohen+M. Schaap+C.T. Metz+A.G. van der Giessen Walsum+A.C. Weustink+N.R.A. Mollet+C. Bauer+H. Bogunovic+C. Castro+X. Deng+M. T. O'Donnell+O. Frenay+P.H. Friman+K. Kitslaar+C. Krissian+M. Luengo-Oroz+O Orkisz+M. \u00a8 . Smedby+A. Styner+H. Szymczak+C. Tek+S. K. Wang+S. Warfield+Y. Zambal+G. P. Zhang+W.J. Krestin+Niessen"
+          },
+          {
+            "doi": "10.1109/icip.2006.312770",
+            "key": "ref4",
+            "score": 82.73226,
+            "unstructured": "Carotid arteries segmentation in CT images with use of a right generalized cylinder model+The Midas Journal+2+335+342+2009+G. Turk and J.F. O'Brien.+L. Florez Valencia+J. Azencot+M. Orkisz"
+          },
+          {
+            "key": "ref5",
+            "score": 49.164883,
+            "unstructured": "4+Pinzo\u00b4n, and M. Herna\u00b4ndez Hoyos. Adaptations of MARACAS algorithm to the segmentation of the carotid bifurcation and stenosis quantification in CTA images+The Midas Journal+2009+R.W.K. W.C.K. Wong+So+A.C.S. Chung+M.A. Zuluaga+M. Orkisz+E.J.F. Delgado Leyton+A. Morales"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

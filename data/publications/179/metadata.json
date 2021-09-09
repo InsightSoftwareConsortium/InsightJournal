@@ -33,6 +33,40 @@
     "revisions": [
       {
         "article": "bafybeidplitmk7fjgt2lu26hx6dctyszev2afonahyqyspzbnou4pylwey",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 38.29753,
+            "unstructured": "Scale-space filtering+In Proc. 8th Int. Joint Conf. Art. Intell.+1+1022+1983+1+A.P. Witkin"
+          },
+          {
+            "key": "ref2",
+            "score": 47.8485,
+            "unstructured": "The structure of images+Biol+1+1+370+1984+J.J. Koenderink"
+          },
+          {
+            "key": "ref3",
+            "score": 26.179438,
+            "unstructured": "Recursively implementing the gaussian and its derivatives+Technical Report+1993+1+2+R. Deriche"
+          },
+          {
+            "doi": "10.1109/34.49051",
+            "key": "ref4",
+            "score": 67.17648,
+            "unstructured": "Scale-space for discrete signals+IEEE Trans. Pat. Anal. Mach+1+3+2+254+1990+T. Lindeberg"
+          },
+          {
+            "doi": "10.1007/bf01664794",
+            "key": "ref5",
+            "score": 106.5553,
+            "unstructured": "Discrete derivative approximations with scale-space properties : A basis for low-level feature extraction+J. of Mathematical Imaging and Vision+1+4+2+376+1993+T. Lindeberg"
+          },
+          {
+            "key": "ref6",
+            "score": 20.953083,
+            "unstructured": "Scale-space implementation+1+2+Wikipedia"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

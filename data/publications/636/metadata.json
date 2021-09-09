@@ -34,6 +34,121 @@
     "revisions": [
       {
         "article": "bafybeidu373ibuwt4lc2247x2yp5slglgxtnrokoduj76ce2g7peboxusu",
+        "citation_list": [
+          {
+            "doi": "10.1006/jmrb.1996.0086",
+            "key": "ref1",
+            "score": 122.132866,
+            "unstructured": "Microstructural and physiological features of tissues elucidated by quantitative-diffusion-tensor MRI+Journal of Magnetic Resonance B+111+3+1996+209+219+P. Basser+C. Pierpaoli"
+          },
+          {
+            "doi": "10.1002/1531-8249(199902)45:2<265::aid-ana21>3.0.co;2-3",
+            "key": "ref2",
+            "score": 117.41389,
+            "unstructured": "Three-dimensional tracking of axonal projections in the brain by magnetic resonance imaging+Annals of Neurology+45+2+1999+265+269+S. Mori+B.J. Crain+V.P. Chacko+P.C.M.V. Zijl"
+          },
+          {
+            "doi": "10.1016/s1053-8119(01)91371-0",
+            "key": "ref3",
+            "score": 67.654884,
+            "unstructured": "Automated fuzzy clustering of neuronal pathways in diffusion tensor tracking+Proc. Intl. Soc. Mag. Reson. Med+10+2002+J. Shimony+A. Snyder+N. Lori+T. Conturo"
+          },
+          {
+            "doi": "10.1002/mrm.10415",
+            "key": "ref4",
+            "score": 114.47735,
+            "unstructured": "Classification and quantification of neuronal fiber pathways using diffusion tensor MRI+Magnetic Resonance in Medicine 49(4)+2003+716+721+Z. Ding+J. Gore+A. Anderson"
+          },
+          {
+            "doi": "10.1007/978-3-540-30135-6_45",
+            "key": "ref5",
+            "score": 117.882614,
+            "unstructured": "Clustering fiber traces using normalized cuts+In: Medical Image Computing and Computer-Assisted Intervention MICCAI 2004+3216+2004+518+529+A. Brun+H. Park+H. Knutsson+M.E. Shenton+C. Westin"
+          },
+          {
+            "doi": "10.1007/978-3-540-75759-7_20",
+            "key": "ref6",
+            "score": 70.294266,
+            "unstructured": "Volume 4792 of LNCS+2007+161+168+O 'Donnell+L.J. Westin+C.F. Golby+A.J.+S. Ourselin+Maeder+Intervention - MICCAI Computer-Assisted"
+          },
+          {
+            "doi": "10.1109/cvpr.2007.383096",
+            "key": "ref7",
+            "score": 123.54272,
+            "unstructured": "Fiber Tract Clustering on Manifolds With Dual Rooted-Graphs+Computer Vision and Pattern Recognition+2007+1+6+A. Tsai+C. Westin+III Hero+A. Willsky+A."
+          },
+          {
+            "doi": "10.1109/iccv.2007.4409143",
+            "key": "ref8",
+            "score": 82.03939,
+            "unstructured": "A robust algorithm for fiberbundle atlas construction+2007+U. Ziyan+M.R. Sabuncu+W.E.L. Grimson+C.F. Westin"
+          },
+          {
+            "doi": "10.1016/j.media.2007.10.003",
+            "key": "ref9",
+            "score": 130.48578,
+            "unstructured": "A unified framework for clustering and quantitative analysis of white matter fiber tracts+Medical Image Analysis+12+2+2008+191+202+M. Maddah+W.E.L. Grimson+S.K. Warfield+W.M.: Wells"
+          },
+          {
+            "doi": "10.1109/isbi.2008.4540943",
+            "key": "ref10",
+            "score": 108.545006,
+            "unstructured": "A mathematical framework for incorporating anatomical knowledge in DT-MRI analysis+In: ISBI+2008+M. Maddah+L. Zollei+W.E.L. Grimson+C.F. Westin+W.M.: Wells"
+          },
+          {
+            "doi": "10.1126/science.290.5500.2319",
+            "key": "ref11",
+            "score": 94.52958,
+            "unstructured": "Framework for Nonlinear Dimensionality Reduction+Science+290+5500+2000+2319+J. Tenenbaum+V. Silva+J.: A Global Langford+Geometric"
+          },
+          {
+            "doi": "10.1109/iccv.2007.4408978",
+            "key": "ref12",
+            "score": 96.57971,
+            "unstructured": "Mode-seeking by medoidshifts+In: IEEE International Conference on Computer Vision. Number+141+2007+Y.A. Sheikh+E. Khan+T. Kanade"
+          },
+          {
+            "doi": "10.1109/34.1000236",
+            "key": "ref13",
+            "score": 97.74018,
+            "unstructured": "Mean shift: a robust approach toward feature space analysis+IEEE PAMI 24+5+2002+603+619+D. Comaniciu+P. Meer"
+          },
+          {
+            "key": "ref14",
+            "score": 34.670822,
+            "unstructured": "Graph approximations to geodesics on embedded manifolds+2000+M. Bernstein+V. Silva+J.C. Langford+J.B. Tenenbaum"
+          },
+          {
+            "doi": "10.1109/tmi.2007.906785",
+            "key": "ref15",
+            "score": 106.41457,
+            "unstructured": "Automatic tractography segmentation using a highdimensional white matter atlas+IEEE Transactions on Medical Imaging+26+11+2007+1562+1575+O 'Donnell+L.J. Westin+C.F."
+          },
+          {
+            "doi": "10.1007/978-3-540-45210-2_47",
+            "key": "ref16",
+            "score": 147.49074,
+            "unstructured": "Coloring of dt-mri fiber traces using laplacian eigenmaps+In: Computer Aided Systems Theory - EUROCAST+2809+2003+518+529+A. Brun+H. Park+H. Knutsson+C. Westin"
+          },
+          {
+            "doi": "10.1016/j.media.2006.07.003",
+            "key": "ref17",
+            "score": 108.511116,
+            "unstructured": "Fiber tract-oriented statistics for quantitative diffusion tensor mri analysis+In: Medical Image Analysis+10+2005+786+798+I. Corouge+P.T. Fletcherb+S. Joshic+S. Gouttardd+Geriga"
+          },
+          {
+            "doi": "10.1007/11866763_30",
+            "key": "ref18",
+            "score": 95.56848,
+            "unstructured": "High-dimensional white matter atlas generation and group analysis+: MICCAI. Volume 4191 of Lecture Notes in Computer Science+2006+243+251+O 'Donnell+L. Westin+C.F.+M. Nielsen+Sporring"
+          },
+          {
+            "doi": "10.1007/s11263-008-0141-9",
+            "key": "ref19",
+            "score": 86.02352,
+            "unstructured": "Large deformation diffeomorphic metric curve mapping+International Journal of Computer Vision+2008+A. Qiu+M. Miller+L. Younes"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

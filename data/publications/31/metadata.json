@@ -54,6 +54,103 @@
     "revisions": [
       {
         "article": "bafybeicf7wvidqt3363kiyv32bxk7bj4egbcugpeddvp3erdpvyutdyrqy",
+        "citation_list": [
+          {
+            "doi": "10.1007/3-540-31272-2_5",
+            "key": "ref1",
+            "score": 85.86863,
+            "unstructured": "An introduction to computational diffusion MRI: the diuffsion tensor and beyond+: Visualization and Image Processing of Tensor Fields+2005+D.C. Alexander+Hagen"
+          },
+          {
+            "doi": "10.1016/s0006-3495(94)80775-1",
+            "key": "ref2",
+            "score": 75.90202,
+            "unstructured": "MR diuffsion tensor specstroscopy and imaging+Biophys J+66+1994+259+267+P.J. Basser+J. Mattiello+D.L. Bihan"
+          },
+          {
+            "doi": "10.1007/11566465_21",
+            "key": "ref3",
+            "score": 99.141975,
+            "unstructured": "An automated approach to connectivity-based partitioning of brain structures+In: Proc. MICCAI+2005+P. Cook+B. Avants+P. Yushkevich+D. Alexander+J. Gee+O. Ciccarelli+A. Thompson"
+          },
+          {
+            "doi": "10.1038/nn1075",
+            "key": "ref4",
+            "score": 157.49707,
+            "unstructured": "Non-invasive mapping of connections between human thalamus and cortex using diffusion imaging+Nat. Neurosci+6+2003+750+757+T.E. Behrens+H. Johansen-Berg+M.W. Woolrich+S.M. Smith+C.A. WheelerKingshott+P.A. Boulby+G.J. Barker+E.L. Sillery+K. Sheehan+O. Ciccarelli+A.J. Thompson+J.M. Brady+P.M. Matthews"
+          },
+          {
+            "doi": "10.1002/mrm.20283",
+            "key": "ref5",
+            "score": 127.52031,
+            "unstructured": "squashing peanuts and smashing pumpkins: How noise distorts diuffsion-weighted MR data+MRM+52+2004+973+993+D.K. Jones+P.J.: Basser"
+          },
+          {
+            "doi": "10.1002/mrm.20426",
+            "key": "ref6",
+            "score": 90.67038,
+            "unstructured": "6+Restore: Robust estimation of tensors by outlier rejection+MRM+52+2005+1088+1095+L.C. Chang+D.K. Jones+C. Pierpaoli"
+          },
+          {
+            "doi": "10.1002/mrm.10209",
+            "key": "ref7",
+            "score": 91.83846,
+            "unstructured": "Detection and modeling of nongaussian apparent diuffsion coefficient profiles in human brain data+MRM+48+2002+331+340+D.C. Alexander+G.J. Barker+S.R. Arridge"
+          },
+          {
+            "doi": "10.1088/0266-5611/19/5/303",
+            "key": "ref8",
+            "score": 122.357056,
+            "unstructured": "Persistent angular structure: new insights from diffusion magnetic resonance imaging data+Inverse Problems+19+2003+1031+1046+K.M. Jansons+D.C. Alexander"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2004.07.037",
+            "key": "ref9",
+            "score": 159.78763,
+            "unstructured": "Direct estimation of the fiber orientation density function from diffusion-weighted MRI data using spherical deconvolution+NeuroImage+23+2004+1176+1185+J. Tournier+F. Calamante+D.G. Gadian+A. Connelly"
+          },
+          {
+            "doi": "10.1002/mrm.20279",
+            "key": "ref10",
+            "score": 75.37742,
+            "unstructured": "Q-ball imaging+Magnetic Resonance in Medicine+52+2004+1358+1372+D.S.: Tuch"
+          },
+          {
+            "doi": "10.1006/jmrb.1996.0086",
+            "key": "ref11",
+            "score": 102.79054,
+            "unstructured": "Microstructural and physiological features of tissues elucidated by quantitative-diffusion-tensor MRI+JMR B111+1996+209+219+P.J. Basser+C. Pierpaoli"
+          },
+          {
+            "doi": "10.1098/rstb.2005.1639",
+            "key": "ref12",
+            "score": 93.50119,
+            "unstructured": "Probabilistic anatomical connectivity using persistent angular structure obtained from diffusion weighted imaging+Phil. Trans. Roy. Soc. Series B+360+2005+893+902+G.J.M. Parker+D.C. Alexander"
+          },
+          {
+            "doi": "10.1002/1522-2594(200007)44:1<41::aid-mrm8>3.0.co;2-o",
+            "key": "ref13",
+            "score": 121.74418,
+            "unstructured": "Statistical artifacts in diffusion tensor MRI (DT-MRI) caused by background noise+MRM+44+2000+41+50+P.J. Basser+S. Pajevic"
+          },
+          {
+            "doi": "10.1002/jmri.10350",
+            "key": "ref14",
+            "score": 115.83456,
+            "unstructured": "A framework for a streamline-based probabilistic index of connectivity (PICo) using a structural interpretation of MRI diuffsion measurements+JMRI+18+2003+242+254+G.J.M. Parker+C.A.M. Wheeler-Kingshott+H.A. Haroon"
+          },
+          {
+            "doi": "10.1016/j.media.2005.03.005",
+            "key": "ref15",
+            "score": 100.126305,
+            "unstructured": "Lagrangian frame dieffomorphic image registration: Morphometric comparison of human and chimpanzee cortex+MIA+B.A. Avants+P.T. Schoenemann+J.C. Gee"
+          },
+          {
+            "key": "ref16",
+            "score": 40.332657,
+            "unstructured": "Regional structural characterization of the brain of schizophrenia patients+1926+P.A. Yushkevich+J. Piven+H. Cody+S. Ho+Gerig"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

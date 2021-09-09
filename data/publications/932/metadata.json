@@ -48,6 +48,68 @@
     "revisions": [
       {
         "article": "bafybeibdsjvdqju5tui7dbt6fnhpx7jt5gwsjc62onrhp4z72aidu5yohu",
+        "citation_list": [
+          {
+            "doi": "10.1007/978-3-642-33786-4_21",
+            "key": "ref1",
+            "score": 137.78798,
+            "unstructured": "Robust and accurate shape model tting using random forest regression voting+Computer Vision ECCV 2012, Lecture Notes in Computer Science+278+291+2012+T. Cootes+M. Ionita+C. Lindner+P. Sauer+A. Lazebnik+S. Perona+P. Sato+Y. Schmid"
+          },
+          {
+            "doi": "10.1561/9781601985415",
+            "key": "ref2",
+            "score": 100.58852,
+            "unstructured": "Decision forests for classi cation, regression, density estimation, manifold learning and semi-supervised learning+Tech. rep.+2011+A. Criminisi+J. Shotton+E. Konukoglu"
+          },
+          {
+            "doi": "10.1007/978-3-642-18421-5_11",
+            "key": "ref3",
+            "score": 125.62417,
+            "unstructured": "Medical Computer Vision+Recognition Techniques and Applications in Medical Imaging, Lecture Notes in Computer Science+106+117+2011+A. Criminisi+J. Shotton+D. Robertson+Konukoglu+B. Langs+G. Tu+Z. Criminisi+A"
+          },
+          {
+            "doi": "10.1016/j.media.2009.05.004",
+            "key": "ref4",
+            "score": 113.968834,
+            "unstructured": "Statistical shape models for 3D medical image segmentation: a review+Medical Image Analysis+543+4+563+2009+T. Heimann+Meinzer"
+          },
+          {
+            "doi": "10.1109/tmi.2010.2048756",
+            "key": "ref5",
+            "score": 148.70445,
+            "unstructured": "Patient-speci c modeling and quanti cation of the aortic and mitral valves from 4-d cardiac ct and tee+Medical Imaging, IEEE Transactions on 29(9)+1636+2010+R. Ionasec+I. Voigt+B. Georgescu+Y. Wang+H. Houle+F. Vega-Higuera+N. Navab+D. Comaniciu"
+          },
+          {
+            "doi": "10.1007/978-3-642-22092-0_16",
+            "key": "ref6",
+            "score": 114.82699,
+            "unstructured": "Entangled decision forests and their application for semantic segmentation of ct images+In: IPMI+2011+A. Montillo+J. Shotton+J. Winn+J.E. Iglesias+D. Metaxas+A. Criminisi"
+          },
+          {
+            "doi": "10.1007/978-3-642-33454-2_55",
+            "key": "ref7",
+            "score": 160.66139,
+            "unstructured": "Detection of substantia nigra echogenicities in 3d transcranial ultrasound for early diagnosis of parkinson disease+Medical Image Computing and Computer-Assisted Intervention MICCAI 2012, Lecture Notes in Computer Science+443+55+2012+O. Pauly+S.A. Ahmadi+A. Plate+K. Boetzel+Navab+N. Delingette+H. Golland+P. Mori+K"
+          },
+          {
+            "doi": "10.1007/978-3-642-23626-6_30",
+            "key": "ref8",
+            "score": 124.07031,
+            "unstructured": "Fast multiple organ detection and localization in whole-body mr dixon sequences+In: Proc. MICCAI+2011+O. Pauly+B. Glocker+A. Criminisi+D. Mateus+A. Martinez-Moeller+S. Nekolla+Navab"
+          },
+          {
+            "doi": "10.1109/iccvw.2011.6130356",
+            "key": "ref9",
+            "score": 111.33071,
+            "unstructured": "E cient object detection and segmentation with a cascaded hough forest ism+2011 IEEE International Conference on+966+973+2011+K. Rematas+B. Leibe"
+          },
+          {
+            "doi": "10.1007/978-3-642-33712-3_19",
+            "key": "ref10",
+            "score": 145.55789,
+            "unstructured": "Hough regions for joining instance localization and segmentation+Computer Vision ECCV 2012, Lecture Notes in Computer Science+258+271+2012+H. Riemenschneider+S. Sternig+M. Donoser+P. Roth+Bischof+A. Lazebnik+S. Perona+P. Sato+Y. Schmid"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

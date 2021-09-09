@@ -85,6 +85,73 @@
     "revisions": [
       {
         "article": "bafkreia7zrbjyg6cahfgrtb7bd2h62yoywrbsnbh67slreczx5knic33qq",
+        "citation_list": [
+          {
+            "doi": "10.1109/icip.1995.537491",
+            "key": "ref1",
+            "score": 104.27893,
+            "unstructured": "Dynamic histogram warping of image pairs for constant image brightness+In ICIP+2366+2369+1995+J. Ingemar+S. Cox+and Sunita L. Roy+Hingorani"
+          },
+          {
+            "doi": "10.1109/42.845174",
+            "key": "ref2",
+            "score": 76.073135,
+            "unstructured": "Parametric estimate of intensity inhomogeneities applied to MRI+19+3+153+165+March 2000+M. Styner"
+          },
+          {
+            "key": "ref3",
+            "score": 30.845087,
+            "unstructured": "\u00a8ger. A new Method for MRI Intensity Standardization with Application to Lesion Detection in the Brain+2006+3+7+8+Florian Ja"
+          },
+          {
+            "doi": "10.1007/978-3-540-71091-2_92",
+            "key": "ref4",
+            "score": 82.981544,
+            "unstructured": "Whole Body MRI Intersity Standardization+Bildverarbeitung fu\u00a8r die Medizin+2007+7+463+3+Florian Ja+Joachim Hornegger+M. Thomas+Deserno+Hans-Peter Meinzer"
+          },
+          {
+            "doi": "10.1016/j.compbiomed.2007.12.005",
+            "key": "ref5",
+            "score": 138.93958,
+            "unstructured": "Fully automatic segmentation of multiple sclerosis lesions in brain mr flair images using adaptive mixtures method and markov random field model+Comput. Biol. Med+38+3+379+390+2008+Rasoul Khayati+Massood Nabavi"
+          },
+          {
+            "doi": "10.1109/isbi.2006.1624914",
+            "key": "ref6",
+            "score": 172.59601,
+            "unstructured": "Automated segmentation of white matter lesions in 3d brain mr images, using multivariate pattern classification+Biomedical Imaging: Nano to Macro+April 2006+7+310+4+Zhiqiang Lao+Dinggang Shen+A. Jawad+B. Karacali+E.R. Melhem+R.N. Bryan+C. Davatzikos"
+          },
+          {
+            "doi": "10.1109/tmi.2004.843256",
+            "key": "ref7",
+            "score": 113.62679,
+            "unstructured": "Interplay between intensity standardization and inhomogeneity correction in mr image processing+Medical Imaging+24+5+3+576+2005+A. Madabhushi+J.K. Udupa"
+          },
+          {
+            "doi": "10.1109/42.836373",
+            "key": "ref8",
+            "score": 100.8367,
+            "unstructured": "New variants of a method of mri scale standardization+Medical Imaging+19+2+3+150+Feb 2000+L.G. Nyul+J.K. Udupa+and Xuan Zhang"
+          },
+          {
+            "doi": "10.1002/hbm.10062",
+            "key": "ref9",
+            "score": 86.73157,
+            "unstructured": "Fast robust automated brain extraction+Hum Brain Mapp+17+3+3+155+November 2002+S. M. Smith."
+          },
+          {
+            "doi": "10.1109/tmi.2004.828354",
+            "key": "ref10",
+            "score": 112.3492,
+            "unstructured": "Simultaneous truth and performance level estimation (staple): an algorithm for the validation of image segmentation+Medical Imaging+23+7+6+921+July 2004+S.K. Warfield+K.H. Zou+W.M. Wells"
+          },
+          {
+            "doi": "10.1109/isbi.2004.1398484",
+            "key": "ref11",
+            "score": 117.03623,
+            "unstructured": "Normalization of joint image-intensity statistics in mri using the kullback-leibler divergence+Biomedical Imaging: Nano to Macro+2004+7+104+1+N.L. Weisenfeld+S.K. Warfteld+April"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

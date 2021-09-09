@@ -55,6 +55,94 @@
     "revisions": [
       {
         "article": "bafybeihswnmoptqbj6a2rumlc2vrcxcjghq2pcqbakeotq2l3vpa34ekfm",
+        "citation_list": [
+          {
+            "doi": "10.1109/tmi.2003.815865",
+            "key": "ref1",
+            "score": 95.66124,
+            "unstructured": "Automatic construction of 3-d statistical deformation models of the brain using nonrigid registration+TMI+22+8+2003+D. Rueckert+A. Frangi+J. Schnabel"
+          },
+          {
+            "doi": "10.5244/c.18.47",
+            "key": "ref2",
+            "score": 79.06785,
+            "unstructured": "Diffeomorphic statistical shape models+BMVC 1+2004+T. Cootes+C. Twining+Taylor"
+          },
+          {
+            "doi": "10.1007/3-540-47977-5_3",
+            "key": "ref3",
+            "score": 65.66719,
+            "unstructured": "Deforming motion, shape average and the joint registration and approximation of structures in images+IJCV+53+2+2003+A. Yezzi+S. Soatto"
+          },
+          {
+            "key": "ref4",
+            "score": 16.999386,
+            "unstructured": "Not given+2008"
+          },
+          {
+            "key": "ref5",
+            "score": 57.75883,
+            "unstructured": "8) (Aug+TMI+18+1999+D. Rueckert+L. Sonoda+C. Hayes+D. Hill+M. Leach+D. Hawkes"
+          },
+          {
+            "doi": "10.1109/tmi.2003.814791",
+            "key": "ref6",
+            "score": 130.76268,
+            "unstructured": "Volume-preserving nonrigid registration of mr breast images using free-form deformation with an incompressibility constraint+TMI+22+6+June 2003+T. Rohlfing+C.R. Maurer+J. Bluemke+D. Jacobs+M."
+          },
+          {
+            "doi": "10.1109/34.88573",
+            "key": "ref7",
+            "score": 75.36888,
+            "unstructured": "Least-squares estimation of transformation parameters between two point patterns+PAMI+13+4+1991+S. Umeyama"
+          },
+          {
+            "doi": "10.1007/11784012_38",
+            "key": "ref8",
+            "score": 79.68137,
+            "unstructured": "Point-based registration with known correspondence: Closed form optimal solutions and properties+WBIR+4057+2006+315+O. Skrinjar"
+          },
+          {
+            "doi": "10.1017/cbo9780511811685",
+            "key": "ref9",
+            "score": 64.99158,
+            "unstructured": "Multiple View Geometry in Computer Vision+2003+R. Hartley+A. Zisserman"
+          },
+          {
+            "doi": "10.1201/9781420042474.ch1",
+            "key": "ref10",
+            "score": 60.88879,
+            "unstructured": "Medical Image Registration+2001+J.V. Hajnal+D.L. Hill+Hawkes"
+          },
+          {
+            "key": "ref11",
+            "score": 36.683968,
+            "unstructured": "1997+L. Piegl+W. Tiller"
+          },
+          {
+            "doi": "10.1159/000081050",
+            "key": "ref12",
+            "score": 209.26755,
+            "unstructured": "Impact of age-related cerebral white matter changes on the transition to disability - the LADIS study: Rationale, design and methodology+Neuroepidemiology+24+1-2+2005+51+62+L. Pantoni+A.M. Basile+G. Pracucci+K. Asplund+J. Bogousslavsky+H. Chabriat+T. Erkinjuntti+F. Fazekas+J.M. Ferro+M. Hennerici+O+P. Scheltens+M.C. Visser+L.O. Wahlund+G. Waldemar+A. Wallin+D. Inzitari"
+          },
+          {
+            "key": "ref13",
+            "score": 17.097595,
+            "unstructured": "Not given+2007+-"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2004.07.068",
+            "key": "ref14",
+            "score": 119.976814,
+            "unstructured": "Unbiased diffeomorphic atlas construction for computational anatomy+NeuroImage+23+2004+151+160+S. Joshi+B. Davis+M. Jomier+Gerig"
+          },
+          {
+            "doi": "10.1109/iccv.2007.4408903",
+            "key": "ref15",
+            "score": 88.919525,
+            "unstructured": "A database and evaluation methodology for optical flow+In: ICCV. (October+2007+S. Baker+D. Scharstein+J. Lewis+S. Roth+M.J. Black+R.: Szeliski"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

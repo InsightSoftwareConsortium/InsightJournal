@@ -44,6 +44,20 @@
     "revisions": [
       {
         "article": "bafybeihiqw5pmnyznel4vpdn6x2dwmlrcwttakp5cvqufrrhwovjcodmdq",
+        "citation_list": [
+          {
+            "doi": "10.1007/978-3-642-23629-7_60",
+            "key": "ref1",
+            "score": 164.97263,
+            "unstructured": "3d active shape model segmentation with nonlinear shape priors+Medical Image Computing and Computer-Assisted Intervention MICCAI 2011, Lecture Notes in Computer Science+492+499+2011+M. Kirschner+M. Becker+S.: Wesarg+G. Martel+A. Peters"
+          },
+          {
+            "doi": "10.1109/isbi.2012.6235790",
+            "key": "ref2",
+            "score": 128.98204,
+            "unstructured": "Articulated atlas for segmentation of the skeleton from head amp; neck ct datasets+In: Biomedical Imaging (ISBI)+2012+1256+1259+S. Steger+M. Kirschner+S. Wesarg"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

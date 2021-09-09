@@ -61,6 +61,30 @@
     "revisions": [
       {
         "article": "bafybeicd5kbuk6anu6rlimvk7sv7hvfgdac2os2xhcedvksaq2kedfjrme",
+        "citation_list": [
+          {
+            "doi": "10.1007/3-540-48236-9_13",
+            "key": "ref1",
+            "score": 108.30567,
+            "unstructured": "An active contour model without edges+In Scale-Space Theories in Computer Vision+141+151+1999+T. Chan+L. Vese"
+          },
+          {
+            "doi": "10.1109/tip.2005.852790",
+            "key": "ref2",
+            "score": 155.19691,
+            "unstructured": "Segmenting and tracking fluorescent cells in dynamic 3-d microscopy with coupled active surfaces+Image Processing+14+9+1396+1410+2005+A. Dufour+V. Shinin+S. Tajbakhsh+N. Guillen-Aghion+J. C. Olivo-Marin+C. Zimmer"
+          },
+          {
+            "key": "ref3",
+            "score": 58.15708,
+            "unstructured": "Level set segmentation: Active contours without edges+The Insight Journal+2008+Kishore Mosaliganti+Benjamin Smith+Arnaud Gelas+Sean Megason"
+          },
+          {
+            "key": "ref4",
+            "score": 46.742767,
+            "unstructured": "Segmentation using coupled active surfaces+The Insight Journal+2008+Kishore Mosaliganti+Benjamin Smith+Arnaud Gelas+Sean Megason"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

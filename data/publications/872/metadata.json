@@ -37,6 +37,37 @@
     "revisions": [
       {
         "article": "bafkreiaxqek2gjixcn3pdtbkwiyp3lvniz3wcmgja27iygvheunscb6mdq",
+        "citation_list": [
+          {
+            "doi": "10.1109/tmi.2005.856734",
+            "key": "ref1",
+            "score": 159.69894,
+            "unstructured": "\"Robust non-rigid registration to capture brain shift from intra-operative MRI\"+IEEE Trans. Med+24+11+1417+27+2005+O. Clatz+H. Delingette+I.-F. Talos+A. Golby+R. Kikinis+F. Jolesz+N. Ayache+S. Warfield"
+          },
+          {
+            "key": "ref2",
+            "score": 18.70972,
+            "unstructured": "1996+K. Bathe"
+          },
+          {
+            "doi": "10.1002/0471725382",
+            "key": "ref3",
+            "score": 73.936035,
+            "unstructured": "Robust regression and outlier detection\u201d+1987+P. J. Rousseeuw+A. M. Leroy"
+          },
+          {
+            "doi": "10.1016/0042-6989(89)90047-3",
+            "key": "ref4",
+            "score": 103.85454,
+            "unstructured": "Occlusion and the solution to the aperture problem for motion\u201d+Vision Research+29+619+626+1989+S. Shimojo+G. H. Silverman+K. Nakayama"
+          },
+          {
+            "doi": "10.1038/317314a0",
+            "key": "ref5",
+            "score": 79.579994,
+            "unstructured": "Computational vision+\u201d Nature+317+314+319+1985+T. Poggio+V. Torre+C. Koch"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

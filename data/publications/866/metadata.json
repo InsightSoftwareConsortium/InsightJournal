@@ -41,6 +41,31 @@
     "revisions": [
       {
         "article": "bafybeiehgtauay57fwbi2w5ycu7tcskp5lklc7ynglr3kmkxqz723qovp4",
+        "citation_list": [
+          {
+            "doi": "10.1016/j.cmpb.2009.07.004",
+            "key": "ref1",
+            "score": 104.44233,
+            "unstructured": "Towards real-time radiation therapy: GPU accelerated superposition/convolution+98+3+285+292+2010+R. Jacques+R. Taylor+T. McNutt"
+          },
+          {
+            "key": "ref2",
+            "score": 58.145416,
+            "unstructured": "In IEEE Intl. Symp. on Biomedical Imaging (ISBI)+1+635+Apr 2004+S. D. Pieper+M. Halle+R. Kikinis"
+          },
+          {
+            "doi": "10.1002/rcs.274",
+            "key": "ref3",
+            "score": 167.64989,
+            "unstructured": "OpenIGTLink: an open network protocol for image-guided therapy environment+The International Journal of Medical Robotics and Computer Assisted Surgery+5+4+423+434+2009+J. Tokuda+G. S. Fischer+X. Papademetris+Z. Yaniv+L. Ibanez+J. Blevins+J. Arata+A. J. Golby+T. Kapur+S. Pieper+E. C. Burdette+C. M. Tempany+N. Hata"
+          },
+          {
+            "doi": "10.1016/j.ijrobp.2008.04.025",
+            "key": "ref4",
+            "score": 179.7155,
+            "unstructured": "DeWeese. High-resolution, small animal radiation research platform with x-ray tomographic guidance capabilities+International Journal of Radiation Oncology Biology Physics+71+5+1591+1599+2008+J. Wong+P. Kazanzides+I. Iordachita+H. Deng+M. Matinfar+C. Kennedy+Z. Liu+T. Chan+O. Gray+F. Verhaegen+T. McNutt+E. Ford"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

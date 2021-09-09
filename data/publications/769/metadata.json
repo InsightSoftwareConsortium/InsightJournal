@@ -32,6 +32,36 @@
     "revisions": [
       {
         "article": "bafybeie3sgfv7qlwalgnd37aaxqrzh3ctdtw4ybley6qlhpgnr6lgyoxcu",
+        "citation_list": [
+          {
+            "doi": "10.1145/358669.358692",
+            "key": "ref1",
+            "score": 123.408905,
+            "unstructured": "Random sample consensus: A paradigm for model fitting with applications to image analysis and automated cartography+Communications of the ACM+24+6+381+395+1981+M. A. Fischler+R. C. Bolles"
+          },
+          {
+            "doi": "10.1007/bf01934268",
+            "key": "ref2",
+            "score": 111.51333,
+            "unstructured": "Least-squares fitting of circles and ellipses+BIT+1+4+3+578+1994+W. Gander+G. H. Golub+R. Strebel"
+          },
+          {
+            "key": "ref3",
+            "score": 21.296333,
+            "unstructured": "1996+1+2+G. H. Golub+C. F. V. Loan"
+          },
+          {
+            "key": "ref4",
+            "score": 40.635983,
+            "unstructured": "Computer Vision+2001+1+1+R. I. Hartley+A. Zisserman"
+          },
+          {
+            "doi": "10.1109/tmi.2005.844922",
+            "key": "ref5",
+            "score": 129.79268,
+            "unstructured": "Precise robot-assisted guide positioning for distal locking of intramedullary nails+IEEE Trans. on Medical Imaging+1+5+1+635+2005+Z. Yaniv+L. Joskowicz"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

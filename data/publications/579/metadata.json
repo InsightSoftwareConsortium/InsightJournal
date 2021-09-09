@@ -73,6 +73,123 @@
     "revisions": [
       {
         "article": "bafybeigv5auhz6epgl6ud4mgejp6iskv7r7taks2phfujooqndn2lnymgq",
+        "citation_list": [
+          {
+            "doi": "10.1007/978-3-540-75757-3_11",
+            "key": "ref1",
+            "score": 115.91366,
+            "unstructured": "Automated segmentation of the liver from 3D CT images using probabilistic atlas and multi-level statistical shape model+of LNCS+4791+86+93+2007+T. Okada+R. Shimada+Y. Sato+M. Hori+K. Yokota+M. Nakamoto+Y.W. Chen+H. Nakamura+S. Tamura"
+          },
+          {
+            "doi": "10.1007/11866763_6",
+            "key": "ref2",
+            "score": 92.39394,
+            "unstructured": "Active shape models for a fully automated 3D segmentation of the liver - an evaluation on clinical data+of LNCS+4191+41+48+2006+T. Heimann+I. Wolf+H.P. Meinzer"
+          },
+          {
+            "doi": "10.1117/12.431013",
+            "key": "ref3",
+            "score": 76.40448,
+            "unstructured": "Segmentation of medical images using adaptive region growing+In SPIE Med+4322+1337+1346+2001+R. Pohle+K. Toennies"
+          },
+          {
+            "doi": "10.1007/978-3-540-40899-4_19",
+            "key": "ref4",
+            "score": 95.97933,
+            "unstructured": "Efficient semiautomatic segmentation of 3D objects in medical images+of LNCS+1935+186+195+2000+A. Schenk+G.P.M. Prause+H.O. Peitgen"
+          },
+          {
+            "doi": "10.1016/j.media.2005.04.004",
+            "key": "ref5",
+            "score": 94.74603,
+            "unstructured": "A hybrid framework for 3D medical image segmentation+Med. Image Analysis+9+6+547+565+2005+T. Chen+D. Metaxas"
+          },
+          {
+            "doi": "10.1117/12.431019",
+            "key": "ref6",
+            "score": 98.841225,
+            "unstructured": "Automatic 3d segmentation of the liver from abdominal CT images: A level-set approach+In SPIE Medical Imaging+4322+128+138+2001+S. Pan+M. Dawant"
+          },
+          {
+            "doi": "10.1007/3-540-45787-9_53",
+            "key": "ref7",
+            "score": 78.05216,
+            "unstructured": "A statistical shape model for the liver+of LNCS+2489+421+427+2002+H. Lamecker+T. Lange+M. Seebass"
+          },
+          {
+            "doi": "10.1007/11566489_102",
+            "key": "ref8",
+            "score": 106.508385,
+            "unstructured": "CT hepatic venography: 3D vascular segmentation for preoperative evaluation+of LNCS+3750+830+837+2005+C.I. Fetita+O. Lucidarme+F.J. Preteux+P. Grenier"
+          },
+          {
+            "doi": "10.1148/radiology.201.2.8888223",
+            "key": "ref9",
+            "score": 112.51421,
+            "unstructured": "Automatic liver segmentation technique for 3D visualization of CT data+Radiology+201+2+359+364+1996+L. Gao+D.G. Heath+B.S. Kuszyk+E.K. Fishman"
+          },
+          {
+            "doi": "10.3109/10929080109145999",
+            "key": "ref10",
+            "score": 189.98897,
+            "unstructured": "Fully automatic anatomical, pathological, and functional segmentation from CT scans for hepatic surgery+Computer Aided Surgery+6+3+131+142+2001+L. Soler+H. Delingette+J. Montagnat+N. Ayache+C. Koehl+O. Dourthe+B. Malassagne+M. Smith+D. Mutter+J. Marescaux"
+          },
+          {
+            "doi": "10.1007/978-3-642-56168-9_56",
+            "key": "ref11",
+            "score": 164.68938,
+            "unstructured": "Hepavision2a software assistant for preoperative planning in living related liver transplantation and oncologic liver surgery+In Proc. of the 16th Conf. on Comp. Assisted Radiology and Surgery (CARS'02)+341+346+2002+H. Bourquain+A. Schenk+F. Link+B. Preim+H.O. Peitgen."
+          },
+          {
+            "doi": "10.1007/978-3-540-85988-8_11",
+            "key": "ref12",
+            "score": 112.92473,
+            "unstructured": "A bayesian approach for liver analysis: algorithm and validation study+In Proc. of the 11th Int. Conf. of Med. Image Comp. and Computed Aided Intervention (MICCAI'08)+2008+1+M. Freiman+O. Eliassaf+Y. Taieb+L. Joskowicz+J. Sosna"
+          },
+          {
+            "key": "ref13",
+            "score": 41.059616,
+            "unstructured": "3D segmentation in the clinic: A grand challenge+org. 1+3+15+2007+B.V Ginneken+T. Heimann+M. Styner+M. Styner"
+          },
+          {
+            "key": "ref14",
+            "unstructured": "3+4"
+          },
+          {
+            "doi": "10.1109/icip.1997.648003",
+            "key": "ref15",
+            "score": 78.475685,
+            "unstructured": "Anisotropic smoothing of posterior probabilities+In Proc. of the 1997 Int. Conf. on Image Processing (ICIP'97)+2+678+1997+2+P.C. Teo+B.A. Wandell"
+          },
+          {
+            "doi": "10.1109/34.56205",
+            "key": "ref16",
+            "score": 92.01113,
+            "unstructured": "Scale-space and edge detection using anisotropic diffusion+IEEE Trans. Patt. Anal. Mach. Intelligence+2+7+2+639+1990+P. Perona+J. Malik"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2006.01.015",
+            "key": "ref17",
+            "score": 117.94444,
+            "unstructured": "Userguided 3D active contour segmentation of anatomical structures: Significantly improved efficiency and reliability+org/. 1+31+3+1116+1128+2006+P.A. Yushkevich+J. Piven+C.H. Heather+R. Gimpel Smith+H. Sean+J.C. Gee+G. Guido"
+          },
+          {
+            "doi": "10.1109/iccv.1995.466871",
+            "key": "ref18",
+            "score": 80.6163,
+            "unstructured": "Geodesic active contours+Int. J. Comp. Vision+2+1+4+97+1997+V. Caselles+R. Kimmel+G. Sapiro"
+          },
+          {
+            "key": "ref19",
+            "score": 31.59655,
+            "unstructured": "The ITK Software Guide. Kitware, Inc. ISBN 1-930934- 15-7+2005+L. Ibanez+W. Schroeder+L. Ng+J. Cates"
+          },
+          {
+            "key": "ref20",
+            "score": 35.331245,
+            "unstructured": "An ITK filter for bayesian segmentation: itkbayesianclassifierimagefilter+-journal.org+2006+J. Melonakos+K. Krishnan+A. Tannenbaum"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

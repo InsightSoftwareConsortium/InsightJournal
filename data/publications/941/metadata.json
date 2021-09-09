@@ -128,6 +128,71 @@
     "revisions": [
       {
         "article": "bafybeig5ennzj3qututfgazglvobvdd6dv5lyrugux7tozkdbyr44xzp6y",
+        "citation_list": [
+          {
+            "doi": "10.1016/s1361-8415(98)80022-4",
+            "key": "ref1",
+            "score": 80.80492,
+            "unstructured": ": Image matching as a di usion process: an analogy with Maxwells demons+Medical Image Analysis+1998+2+243260+J.-P. Thirion"
+          },
+          {
+            "doi": "10.1109/42.796284",
+            "key": "ref2",
+            "score": 116.43565,
+            "unstructured": "Hayes: Nonrigid registration using free-form deformations: Application to breast MR images+IEEE Transactions on Medical Imaging+18+1999+D. Rueckert+L. I. Sonoda+C."
+          },
+          {
+            "doi": "10.1007/978-3-540-40899-4_46",
+            "key": "ref3",
+            "score": 97.65726,
+            "unstructured": "Image registration by maximization of combined mutual information and gradient information+MICCAI+2000+103129+J. Pluim+J.B. Maintz+M. Viergever"
+          },
+          {
+            "key": "ref4",
+            "score": 33.70182,
+            "unstructured": "Pages 14231435+Medical Image Analysis+16+M. P. Heinricha+M. Jenkinson+M. Bhushana+T. Matind+F. V. Gleesond+J. A. Sir M. Bradyc+7 Issue+2012 October"
+          },
+          {
+            "doi": "10.1109/34.166621",
+            "key": "ref5",
+            "score": 73.355736,
+            "unstructured": "Duncan: Boundary Finding with Parametrically Deformable Models+PAMI+14+11+10611075+1992+L.H. Staib+J.S."
+          },
+          {
+            "doi": "10.1016/s1361-8415(03)00004-5",
+            "key": "ref6",
+            "score": 104.7588,
+            "unstructured": "Kapur: A variational framework for integrating segmentation and registration through active contours+Medical Image Analysis+7+2003+171185+A. Yezzi+L. Zollei+T."
+          },
+          {
+            "doi": "10.1002/cpa.3160420503",
+            "key": "ref7",
+            "score": 87.39019,
+            "unstructured": "Optimal approximation by piecewise smooth functions and associated variational problems+Commun. Pure Appl+42+577685+1989+D. Mumford+J. Shah"
+          },
+          {
+            "doi": "10.1109/tmi.2013.2265603",
+            "key": "ref8",
+            "score": 99.045006,
+            "unstructured": "Paragios: Deformable Medical Image Registration: A Survey. Medical Imaging+2013+1153+A. Sotiras+C. Davatzikos+N."
+          },
+          {
+            "key": "ref9",
+            "score": 35.334045,
+            "unstructured": "Numerical Methods for Image Registration+2004"
+          },
+          {
+            "key": "ref10",
+            "score": 39.814793,
+            "unstructured": "Evaluation of registration methods on thoracic CT: the EMPIRE10 challenge+IEEE Trans Med Imaging+30+11+1901+20+Murphy"
+          },
+          {
+            "doi": "10.1109/tmi.2013.2274777",
+            "key": "ref11",
+            "score": 129.2985,
+            "unstructured": "Niethammer : A locally adaptive regularization based on anisotropic di usion for deformable image registration of sliding organs+IEEE Trans Med Imaging+32+11+2114+26+S.R. D.F. Pace+M. Aylward"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

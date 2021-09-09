@@ -48,6 +48,35 @@
     "revisions": [
       {
         "article": "bafybeidfnb3gusngjwktwlebrcfexfzcu5ww5z22zeuqj75qmxkbklcic4",
+        "citation_list": [
+          {
+            "doi": "10.1109/cvpr.1994.323913",
+            "key": "ref1",
+            "score": 100.56173,
+            "unstructured": "Simplex meshes: a general representation for 3d shape reconstruction+In Computer Vision and Pattern Recognition+1994+3+859+1+H. Delingette"
+          },
+          {
+            "key": "ref2",
+            "score": 27.434834,
+            "unstructured": "(document), 3+Insight Journal+Sep 2006+1+A. Gouaillard+L. Florez-Valencia+and E. Boix"
+          },
+          {
+            "doi": "10.1016/s0925-7721(99)00007-3",
+            "key": "ref3",
+            "score": 79.66576,
+            "unstructured": "Using generic programming for designing a data structure for polyhedral surfaces+Comput. Geom. Theory Appl+1+1+90+1999+Lutz Kettner"
+          },
+          {
+            "key": "ref4",
+            "score": 26.308624,
+            "unstructured": "Exact geometrical predicate: Point in circle+Insight Journal+Nov 2011+3+3+B. Moreau+A. Gouaillard"
+          },
+          {
+            "key": "ref5",
+            "score": 39.140007,
+            "unstructured": "Incremental delaunay triangulation+Insight Journal+Jul 2012+4+2+S. Rigaud+A. Gouaillard"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

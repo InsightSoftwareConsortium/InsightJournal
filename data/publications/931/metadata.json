@@ -53,6 +53,72 @@
     "revisions": [
       {
         "article": "bafybeibzcctm33anjynebl7oteh66i4p3viww3jij3fsf4onnjyzzk6t54",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 49.828205,
+            "unstructured": "Machine Learning 45(1)+5+32+2001+L.: Random Breiman+Forests"
+          },
+          {
+            "doi": "10.1109/tip.2009.2024064",
+            "key": "ref2",
+            "score": 129.20146,
+            "unstructured": "Nonlocal Means-based Speckle Filtering for Ultrasound Images+IEEE Transactions on Image Processing+2221+10+29+2009+P. Coupe+P. Hellier+C. Kervrann+C. Barillot"
+          },
+          {
+            "doi": "10.1007/978-3-642-18421-5_11",
+            "key": "ref3",
+            "score": 72.37982,
+            "unstructured": "Medical Computer Vision+106+117+2011+A. Criminisi+J. Shotton+D. Robertson+Konukoglu"
+          },
+          {
+            "doi": "10.1007/3-540-59119-2_166",
+            "key": "ref4",
+            "score": 94.310455,
+            "unstructured": "A Desicion-theoretic Generalization of On-line Learning and an Application to Boosting+23+37+1995+Y. Freund+Schapire"
+          },
+          {
+            "doi": "10.1109/cvpr.2013.16",
+            "key": "ref5",
+            "score": 88.90372,
+            "unstructured": "Computer Vision and Pattern Recognition (CVPR)+65+72+2013+P. Kontschieder+P. Kohli+J. Shotton+A. Criminisi+IEEE"
+          },
+          {
+            "doi": "10.1007/978-3-642-01932-6_48",
+            "key": "ref6",
+            "score": 129.95747,
+            "unstructured": "Random Forest Classi cation for Automatic Delineation of Myocardium in Real-time 3D Echocardiography+In: Functional Imaging and Modeling of the Heart+447+456+2009+V. Lempitsky+M. Verhoek+J.A. Noble+A. Blake"
+          },
+          {
+            "doi": "10.1145/37402.37422",
+            "key": "ref7",
+            "score": 128.52332,
+            "unstructured": "Marching Cubes: A High Resolution 3D Surface Construction Algorithm+In: Siggraph Computer Graphics+163+169+1987+W.E. Lorensen+H.E. Cline+ACM"
+          },
+          {
+            "doi": "10.1016/0031-3203(95)00067-4",
+            "key": "ref8",
+            "score": 99.69415,
+            "unstructured": "A Comparative Study of Texture Measures with Classi cation based on Featured Distributions+Pattern Recognition+51+1+59+1996+T. Ojala+M. Harwood+D."
+          },
+          {
+            "doi": "10.1007/978-3-642-23626-6_30",
+            "key": "ref9",
+            "score": 126.30735,
+            "unstructured": "Fast Multiple Organ Detection and Localization in Whole-body MR Dixon Sequences+239+247+2011+O. Pauly+B. Glocker+A. Criminisi+D. Mateus+A. Nekolla+S. Navab"
+          },
+          {
+            "doi": "10.1016/s0167-8655(96)00110-9",
+            "key": "ref10",
+            "score": 105.40663,
+            "unstructured": "New Geodesic Distance Transforms for Gray-scale Images+Pattern Recognition Letters+437+5+450+1996+Toivanen"
+          },
+          {
+            "key": "ref11",
+            "score": 52.722927,
+            "unstructured": "Computer Vision and Pattern Recognition (CVPR)+1+8+2008+Z. Tu+IEEE"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

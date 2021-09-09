@@ -85,6 +85,30 @@
     "revisions": [
       {
         "article": "bafkreidewicohpg7ydw5nddokyi4vmntbsqcq46fyysf5ko43zazil26ri",
+        "citation_list": [
+          {
+            "doi": "10.1109/tpami.2003.1177156",
+            "key": "ref1",
+            "score": 138.06601,
+            "unstructured": "A linear time algorithm for computing exact euclidean distance transforms of binary images in arbitrary dimensions+IEEE Trans. Pattern Anal. Mach+1+2+3+270+2003+R. Calvin+Maurer+Qi Rensheng+Vijay Raghavan"
+          },
+          {
+            "doi": "10.1016/0146-664x(80)90054-4",
+            "key": "ref2",
+            "score": 95.85029,
+            "unstructured": "Euclidean distance mapping+Computer Graphics and Image Processing+14+227+248+1980+P. E. Danielsson"
+          },
+          {
+            "key": "ref3",
+            "score": 53.75653,
+            "unstructured": "Fast and accurate redistancing for level set methods+Computer Aided Systems Theory (EUROCAST'03)+1+51+24+2003+Karl Krissian+Carl-Fredrik Westin"
+          },
+          {
+            "key": "ref4",
+            "score": 41.80277,
+            "unstructured": "N-D linear time exact signed euclidean distance transform+The Insight Journal+1+4+N. J. Tustison+M. Siqueira+J. Gee"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

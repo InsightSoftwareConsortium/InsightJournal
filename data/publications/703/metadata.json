@@ -48,6 +48,64 @@
     "revisions": [
       {
         "article": "bafkreifnhowsmyzk452bqbsigiomdrhi7wdj2s72bzjalhamtzf22ubej4",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 13.184807,
+            "unstructured": "ca. 1"
+          },
+          {
+            "key": "ref2",
+            "unstructured": "1"
+          },
+          {
+            "key": "ref3",
+            "score": 19.340588,
+            "unstructured": "bigr.nl. 1"
+          },
+          {
+            "key": "ref4",
+            "score": 19.29214,
+            "unstructured": "bigr.nl. 1"
+          },
+          {
+            "key": "ref5",
+            "score": 30.46603,
+            "unstructured": " http://smial.sri.utoronto.ca/LV Challenge/Home.html. 1"
+          },
+          {
+            "key": "ref6",
+            "score": 17.18396,
+            "unstructured": "nl. 1"
+          },
+          {
+            "key": "ref7",
+            "score": 31.394367,
+            "unstructured": "AAM segmentation of the mandible and brainstem+net/10380/3097. 1+2009+3+K. Babalola+T. Cootes"
+          },
+          {
+            "doi": "10.1016/s0167-8140(15)32781-x",
+            "key": "ref8",
+            "score": 84.28656,
+            "unstructured": "Active contourbased segmentation of head and neck with adaptive atlas selection+net/10380/3092. 2+2009+3+S. Gorthi+V. Duay+M. Bach Cuadra+P. Tercier+A.S. Allal+J. Thiran"
+          },
+          {
+            "key": "ref9",
+            "score": 56.722923,
+            "unstructured": "Automatic segmentation of head and neck CT images by GPU- accelerated multi-atlas fusion+net/10380/3111. 3+2009+3+X. Han+L+N. O 'Connel+V. Willcut"
+          },
+          {
+            "doi": "10.1007/978-3-540-70521-5_8",
+            "key": "ref10",
+            "score": 65.92279,
+            "unstructured": ". Multi-object segmentation of head bones+net/10380/3099. 4+2009+3+D. Kainmueller+H. Lamecker+H. Seim+S. Zachow"
+          },
+          {
+            "key": "ref11",
+            "score": 52.236473,
+            "unstructured": "Segmentation of head and neck CT scans using atlas-based level set method+net/10380/3094. 5+2009+3+X. Zhang+Y. Wu+J. Zheng+K. Deng"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

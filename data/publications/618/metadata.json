@@ -64,6 +64,54 @@
     "revisions": [
       {
         "article": "bafybeiaajpg2zrkoegwwcdniixi2dorfpsp74gbgbzjiupeg6fpz5gzhmi",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 21.583836,
+            "unstructured": "Protocol+2+5+OpenIGT Link"
+          },
+          {
+            "doi": "10.1117/12.537776",
+            "key": "ref2",
+            "score": 97.87525,
+            "unstructured": "Visualization, Image-Guided Procedures, and Display+Proceedings of the SPIE+2004+5367+1+256+E. M. Boctor+A. Viswanathan+S. Pieper+M. A. Choti+R. H. Taylor+G. Fichtinger.+Galloway"
+          },
+          {
+            "doi": "10.1117/12.770393",
+            "key": "ref3",
+            "score": 120.845695,
+            "unstructured": "A real-time ultrasound calibration system with automatic accuracy control and incorporation of ultrasound section thickness+In Proceedings of SPIE Medical Imaging+2008+2+3+T.K. Chen+A.D. Thurston+M.H. Moghari+R.E. Ellis+P. Abolmaesumi."
+          },
+          {
+            "doi": "10.1007/s10278-007-9054-3",
+            "key": "ref4",
+            "score": 112.605736,
+            "unstructured": "The image-guided surgery toolkit IGSTK: an open source C++ software toolkit+J Digit Imaging+20+Suppl 1+21+33+2007+Andinet Enquobahrie+Kevin Cleary"
+          },
+          {
+            "doi": "10.1007/3-540-45787-9_20",
+            "key": "ref5",
+            "score": 98.38392,
+            "unstructured": "Interactive intra-operative 3D ultrasound reconstruction and visualization+In Proc. MICCAI (Lecture Notes in Computer Science+2+4+63+2002+D.G. Gobbi+T.M. Peters"
+          },
+          {
+            "doi": "10.1080/13645700701797879",
+            "key": "ref6",
+            "score": 138.23456,
+            "unstructured": "Navigation in laparoscopy-prototype research platform for improved image-guided surgery+Minim Invasive Ther Allied Technol+17+1+17+33+2008+T. Lango+G. A. Tangen+R. Marvik+B. Ystgaard+Y. Yavuz+J. H. Kaspersen+O. V. Solberg+T. A. N. Hernes"
+          },
+          {
+            "key": "ref7",
+            "score": 40.491425,
+            "unstructured": "1+1+635+April 2004+S. Pieper+M. Halle+R. Kikinis"
+          },
+          {
+            "doi": "10.1016/j.ultrasmedbio.2007.02.015",
+            "key": "ref8",
+            "score": 124.696434,
+            "unstructured": "Freehand 3D ultrasound reconstruction algorithms-a review+Ultrasound in Medicine & Biology+2+7+4+1009+2007+O.V. Solberg+F. Lindseth+H. Torp+R.E. Blake+T.A.N. Hernes"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

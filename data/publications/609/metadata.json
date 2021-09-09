@@ -86,6 +86,73 @@
     "revisions": [
       {
         "article": "bafkreieq6mu6ndicl6k7pxblzb5ntjwapdbqh7anwrxmu5rmk5wnpbbjdu",
+        "citation_list": [
+          {
+            "doi": "10.1007/978-3-540-85988-8_24",
+            "key": "ref1",
+            "score": 92.60155,
+            "unstructured": "Automatic subcortical segmentation using a contextual model+In MICCAI+2008+J.H. Morra+Z. Tu+L.G. Apostolova+A.E Green+A.W. Toga+P.M. Thompson"
+          },
+          {
+            "doi": "10.1016/j.tics.2007.09.009",
+            "key": "ref2",
+            "score": 96.75832,
+            "unstructured": "The role of context in object recognition+Trends in Cognitive Sciences+11+12+520+527+December 2007+A. Oliva+A. Torralba"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2005.11.044",
+            "key": "ref3",
+            "score": 106.83285,
+            "unstructured": "A Bayesian model for joint segmentation and registration+NeuroImage+31+1+228+239+2006+R. K.M. Pohl+W.E.L. Kikinis+W.M. Grimson+Wells"
+          },
+          {
+            "doi": "10.1007/11866763_117",
+            "key": "ref4",
+            "score": 93.21092,
+            "unstructured": "Logarithm odds maps for shape representation+In MICCAI+2006+R.W. K.M. Pohl+W.E.L. McCarley+R. Grimson+W.M. Kikinis+Wells"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2007.05.063",
+            "key": "ref5",
+            "score": 146.66994,
+            "unstructured": "Registration and machine learning based automated segmentation of subcortical and cerebellar brain structures+NeuroImage+39+1+238+247+January 2008+S. Powell+V.A. Magnotta+H. Johnson+V.K. Jammalamadaka+R. Pierson+N.C. Andreasen"
+          },
+          {
+            "doi": "10.1006/nimg.2000.0730",
+            "key": "ref6",
+            "score": 148.55598,
+            "unstructured": "Magnetic resonance image tissue classification using a partial volume model+Neuroimage+13+856+876+2001+D.W. Shattuck+S.R. Sandor-Leahy+K.A. Schaper+D.A. Rottenberg+R.M. Leahy"
+          },
+          {
+            "doi": "10.1109/iccv.2005.194",
+            "key": "ref7",
+            "score": 83.400505,
+            "unstructured": "Pobabilistic boosting tree: Learning discriminative models for classification, recognition, and clustering+In Proceedings of ICCV+2005+Z. Tu"
+          },
+          {
+            "doi": "10.1109/tmi.2007.908121",
+            "key": "ref8",
+            "score": 92.58486,
+            "unstructured": "Brain anatomical structure parsing by hybrid discriminative/generative models+IEEE TMI+2008+Z. Tu+K. Narr+I. Dinov+A. Toga"
+          },
+          {
+            "doi": "10.1007/11866763_112",
+            "key": "ref9",
+            "score": 64.811295,
+            "unstructured": "3D segmentation in the clinic: A grand challenge, workshop at medical image computing and computer assisted intervention+In MICCAI+7+15+2007+B. van Ginneken+M. Styner"
+          },
+          {
+            "key": "ref10",
+            "score": 33.03593,
+            "unstructured": "3D Segmentation in the Clinic: A Grand Challenge+Proc. of MICCAI Workshop+2007+B. van Ginneken+T. Heimann+M. Styner"
+          },
+          {
+            "doi": "10.1109/tmi.2004.830802",
+            "key": "ref11",
+            "score": 107.49495,
+            "unstructured": "Neighbor-constrained segmentation with level set based 3D deformable models+IEEE TMI+23+8+940+948+August 2004+J. Yang+L. H. Staib+J. S. Duncan"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

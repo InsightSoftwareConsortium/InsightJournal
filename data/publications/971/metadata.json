@@ -53,6 +53,31 @@
     "revisions": [
       {
         "article": "bafkreibs5bw5c6brltlngcc3o4noxvwetibhapiqynsh6v2fj4eypqcpje",
+        "citation_list": [
+          {
+            "doi": "10.1016/0031-3203(94)00124-5",
+            "key": "ref1",
+            "score": 95.77985,
+            "unstructured": "\"Knowledge-based organ identification from CT images.\"+1995+Pattern Recognition 28.4+475+491+B.G. Haffty+Learning+G. Linda+Shapiro"
+          },
+          {
+            "doi": "10.1109/cbms.2006.59",
+            "key": "ref2",
+            "score": 76.61473,
+            "unstructured": "19th IEEE International Symposium on+CBMS+2006+Teng+and Ira Chia-Chi+Kalet"
+          },
+          {
+            "key": "ref3",
+            "score": 22.430332,
+            "unstructured": "34+72+78+2015"
+          },
+          {
+            "doi": "10.3990/1.9789036532808",
+            "key": "ref4",
+            "score": 76.018105,
+            "unstructured": "Segmentation of the mandibular canal in cone-beam CT data+2011+Kroon"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

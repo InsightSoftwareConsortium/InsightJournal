@@ -66,6 +66,65 @@
     "revisions": [
       {
         "article": "bafybeiegvm5mx2bqq52xztedffgjjyioqsikqaitsh5em5xx7ktwhlxr3e",
+        "citation_list": [
+          {
+            "doi": "10.1016/j.media.2009.10.001",
+            "key": "ref1",
+            "score": 155.4803,
+            "unstructured": "Adaptive local multi-atlas segmentation: Application to the heart and the caudate nucleus+Medical Image Analysis+14+1+39+49+2010+E.M. Isgum+I. Arzhaeva+Y. Staring+M. Klein+S. Viergever+M.A. Pluim+J.P.W.+B. van Ginneken"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2003.11.010",
+            "key": "ref2",
+            "score": 152.46448,
+            "unstructured": "Evaluation of Atlas Selection Strategies for Atlas-Based Image Segmentation with Application to Confocal Microscopy Images of Bee Brains+NeuroImage+21+4+1428+42+2004+T. Rohlfing+R. Brandt+R. Menzel+C.R. Maurer"
+          },
+          {
+            "doi": "10.1007/978-3-540-75757-3_64",
+            "key": "ref3",
+            "score": 134.1269,
+            "unstructured": "Classifier selection strategies for label fusion using large atlas databases+Med Image Comput Assist Interv+10+1+523+531+2007+P. Aljabar+R. Heckemann+A. Hammers+J.V. Hajnal+D. Rueckert"
+          },
+          {
+            "key": "ref4",
+            "score": 30.11112,
+            "unstructured": "Methods and Algorithms For Image Guided Adaptive Radio-+PhD thesis+2011+M. Peroni+HardonTherapy"
+          },
+          {
+            "doi": "10.1109/tmi.2010.2050897",
+            "key": "ref5",
+            "score": 129.91222,
+            "unstructured": "A generative model for image segmentation based on label fusion+IEEE Trans Med Imaging+10+1714+1729+2010+M.R. Sabuncu+Thomas Yeo+B.T. Leemput+K.V. Fischl+P.: Golland"
+          },
+          {
+            "doi": "10.1016/s0031-3203(98)00091-0",
+            "key": "ref6",
+            "score": 126.75848,
+            "unstructured": "An overlap invariant entropy measure of 3D medical image alignment+Pattern Recognition+32+1+71+86+1999+C. Studholme+D.L.G. Hill+D.J.: Hawkes"
+          },
+          {
+            "key": "ref7",
+            "score": 6.439019,
+            "unstructured": "2014"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2009.02.018",
+            "key": "ref8",
+            "score": 161.52171,
+            "unstructured": ": Multi-atlas based segmentation of brain images: Atlas selection and its effect on accuracy+NeuroImage+46+3+726+738+2009+P. Aljabar+R.A. Heckemann+A. Hammers+J.V. Hajnal+D. Rueckert"
+          },
+          {
+            "doi": "10.1109/34.232073",
+            "key": "ref9",
+            "score": 121.93567,
+            "unstructured": "Comparing Images Using the Hausdorff Distance+Pattern Analysis and Machine Intelligence+15+9+850+863+1993+D.P. Huttenlocher+G.A. Klanderman+Rucklidge"
+          },
+          {
+            "key": "ref10",
+            "score": 19.711403,
+            "unstructured": "2014+Plastimatch"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

@@ -32,6 +32,19 @@
     "revisions": [
       {
         "article": "bafkreie24mpxvldtqtjp2venvnykgaeq6szzm664sckkzsi37sgh3kofzq",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 31.50199,
+            "unstructured": "Using Aerial Lidar Data to Segment And Model Buildings+2006+3+O. Wang"
+          },
+          {
+            "doi": "10.1109/3dpvt.2006.9",
+            "key": "ref2",
+            "score": 121.2325,
+            "unstructured": "Approach to Building Footprint Extraction from Aerial LIDAR Data+3D Data Processing, Visualization, and Transmission+2006+Wang+Lodha+D. Helmbold+A Bayesian"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

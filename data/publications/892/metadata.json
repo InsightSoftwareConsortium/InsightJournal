@@ -70,6 +70,73 @@
     "revisions": [
       {
         "article": "bafybeibkplkrk7t2vjpf2ihcyx3wrd7bm6yrb62gfb4tlyursh5eyaqr2y",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 44.49733,
+            "unstructured": "The cisst libraries for computer assisted intervention systems+In MICCAI Workshop on Systems and Arch+2008+1+A. Deguet+R. Kumar+R. Taylor+P. Kazanzides"
+          },
+          {
+            "key": "ref2",
+            "score": 32.845608,
+            "unstructured": "The da vinci research interface+In MICCAI Workshop on Systems and Arch+2008+1+S. DiMaio+C. Hasser"
+          },
+          {
+            "doi": "10.1109/mc.2006.130",
+            "key": "ref3",
+            "score": 139.12434,
+            "unstructured": "IGSTK: an open source software toolkit for image-guided surgery+IEEE Computer+39+4+1+53+Apr 2006+K. Gary+L. Ibanez+S. Aylward+D. Gobbi+M. Blake+K. Cleary"
+          },
+          {
+            "doi": "10.1109/iros.2010.5652394",
+            "key": "ref4",
+            "score": 117.31872,
+            "unstructured": "A component-based architecture for flexible integration of robotic systems+In IEEE/RSJ Intl. Conf. on Intelligent Robots and Systems (IROS)+6107+6112+2010+M. Y. Jung+A. Deguet+P. Kazanzides"
+          },
+          {
+            "doi": "10.1109/robot.2006.1642285",
+            "key": "ref5",
+            "score": 111.88858,
+            "unstructured": "Software components and frameworks for medical robot control+In IEEE Intl. Conf. on Robotics and Automation (ICRA)+1+3818+2006+A. Kapoor+A. Deguet+P. Kazanzides"
+          },
+          {
+            "key": "ref6",
+            "score": 55.136436,
+            "unstructured": "The Surgical Assistant Workstation (SAW) in minimally-invasive surgery and microsurgery+Midas Journal+Jun 2010+1+P. Kazanzides+A. Deguet+B. Vagvolgyi+M. Balicki+C. Schneider+R. Kumar+A. Jog+B. Itkowitz+C. Hasser+R. Taylor"
+          },
+          {
+            "doi": "10.1109/tepra.2008.4686678",
+            "key": "ref7",
+            "score": 103.085464,
+            "unstructured": "Centralized processing and distributed I/O for robot control+In Technologies for Practical Robot Applications (TePRA)+2+88+2008+P. Kazanzides+P. Thienphrapa"
+          },
+          {
+            "key": "ref8",
+            "score": 54.458176,
+            "unstructured": "Kinematic analysis of the Raven-II(tm) research surgical robot platform+Technical Report 2012-0006+Jun 2012+1+H. King+S. N. Kosari+B. Hannaford+J. Ma"
+          },
+          {
+            "key": "ref9",
+            "score": 58.24646,
+            "unstructured": "ROS: an open-source Robot Operating System+In ICRA Workshop on Open Source Software+2009+5+5+3+M. Quigley+K. Conley+B. Gerkey+J. Faust+J. Foote+R. Leibs+Wheeler+A. Y. Ng"
+          },
+          {
+            "doi": "10.1109/tepra.2009.5339651",
+            "key": "ref10",
+            "score": 116.84054,
+            "unstructured": "A scalable system for real-time control of dexterous surgical robots+In Technologies for Practical Robot Applications (TePRA)+1+22+Nov 2009+5+P. Thienphrapa+P. Kazanzides"
+          },
+          {
+            "key": "ref11",
+            "score": 53.68831,
+            "unstructured": "The Surgical Assistant Workstation: a software framework for telesurgical robotics research+In MICCAI Workshop on Systems and Arch+2008+1+B. Vagvolgyi+P. Kazanzides+R. Kumar+C. Hasser+R. Taylor"
+          },
+          {
+            "key": "ref12",
+            "score": 52.49369,
+            "unstructured": "Hard real-time networking on FireWire+In RT Linux Workshop+Nov 2005+5+1+Y. Zhang+B. Orlic+P. Visser+J. Broenink"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

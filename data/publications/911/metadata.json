@@ -47,6 +47,170 @@
     "revisions": [
       {
         "article": "bafybeifwbc6mf4tumuvisg4zyfiylmurpu4soztlqkhjcoapnaduh22blu",
+        "citation_list": [
+          {
+            "doi": "10.1016/j.neuroimage.2004.07.040",
+            "key": "ref1",
+            "score": 126.9939,
+            "unstructured": "Expert Knowledge-Guided Segmentation System for Brain MRI+23 Suppl 1+S85+S96+2004+A. Pitiot+H. Delingette+P.M. Thompson+Ayache"
+          },
+          {
+            "doi": "10.4018/978-1-60566-956-4.ch005",
+            "key": "ref2",
+            "score": 97.04217,
+            "unstructured": ": Machine Learning for Brain Segmentation+Biomedical Image Analysis and Machine Learning Technologies, Chapter+5+2010+J. Morra+Z. Tu+A. Toga+P. Thompson"
+          },
+          {
+            "key": "ref3",
+            "score": 30.711056,
+            "unstructured": "2+774+81+2002+D. Anders+M. Sereno+B. Fischl+S. Marrett+A. Liu+E. Halgren+K. Teich+C. Haselgrove+D. Greve+F. Segonne"
+          },
+          {
+            "doi": "10.1007/s11263-008-0141-9",
+            "key": "ref4",
+            "score": 91.995285,
+            "unstructured": "Large Deformation Di eomorphic Metric Curve Mapping+International Journal of Computer Vision+80+317+336+2008+J. Glauns+A. Qiu+M. I. Miller+L. Younes"
+          },
+          {
+            "key": "ref5",
+            "score": 18.541725,
+            "unstructured": "2012+B.A. Landman"
+          },
+          {
+            "key": "ref6",
+            "score": 36.130657,
+            "unstructured": "Robust Patch-Based Multi-Atlas Labeling by Joint Sparsity Regularization+2012+G. Wu+Q. Wang+D. Daoqiang+STMI"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2009.02.018",
+            "key": "ref7",
+            "score": 111.4955,
+            "unstructured": ": Multi-atlas Based Segmentation of Brain Images: Atlas Selection and its E ect on Accuracy+NeuroImage+46+3+726+738+2009+P. Aljabar"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2006.05.061",
+            "key": "ref8",
+            "score": 111.58975,
+            "unstructured": "Automatic Anatomical Brain MRI Segmentation Combining Label Propagation and Decision Fusion+NeuroImage+33+1+115+126+2006+R.A. Heckemann"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2010.04.193",
+            "key": "ref9",
+            "score": 137.47873,
+            "unstructured": "Towards accurate, Automatic Segmentation of the Hippocampus and Amygdala from MRI by Augmenting ANIMAL with a Template Library and Label Fusion+NeuroImage+52+4+1355+1366+2010+D.L. Pruessner+J.C."
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2011.09.015",
+            "key": "ref10",
+            "score": 69.407295,
+            "unstructured": "62+782+90+2012+M. Jenkinson+C.F. Beckmann+T.E. Behrens+M.W. Woolrich+S.M. Smith"
+          },
+          {
+            "key": "ref11",
+            "score": 44.05822,
+            "unstructured": "SUSAN - a New Approach to Low Level Image Processing+International Journal of Computer Vision+23+1+4578+1997+S.M. Smith+J.M.: Brady"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2008.12.037",
+            "key": "ref12",
+            "score": 116.548065,
+            "unstructured": "Evaluation of 14 Nonlinear Deformation Algorithms Applied to Human Brain MRI Registration+46+786+802+2009+A. Klein+J. Andersson+B. A. Ardekani+J. Ashburner+B. Avants+M.C. Chiang+G. E. Christensen+D. L. Gee+J. Hellier+P."
+          },
+          {
+            "key": "ref13",
+            "score": 21.135023,
+            "unstructured": "(Aladin and F3D Registration Software+NiftyReg"
+          },
+          {
+            "doi": "10.1016/s0262-8856(00)00052-4",
+            "key": "ref14",
+            "score": 139.7346,
+            "unstructured": "Reconstructing a 3D Structure from Serial Histological Sections+Image and Vision Computing+19+1- 2+25+31+2001+S. Ourselin+A. Roche+G. Subsol+X. Pennec+Ayache"
+          },
+          {
+            "doi": "10.1007/3-540-45787-9_18",
+            "key": "ref15",
+            "score": 102.87638,
+            "unstructured": "Robust Registration of Multi-Modal Images, Towards Real-Time Clinical Applications+2002+S. Ourselin+R. Stefanescu+X. Pennec+MICCAI"
+          },
+          {
+            "doi": "10.1016/j.cmpb.2009.09.002",
+            "key": "ref16",
+            "score": 104.304596,
+            "unstructured": "Fast Freeform Deformation Using Graphics Processing Units, Comput. Methods Programs+2009+M. Modat+G.R. Ridgway+Z.A. Taylor+M. Lehmann+J. Barnes+N.C. Fox+D.J. Hawkes+S. Ourselin"
+          },
+          {
+            "doi": "10.1109/42.796284",
+            "key": "ref17",
+            "score": 155.39465,
+            "unstructured": "Application to Breast MR Images+IEEE Trans. MEd+18+712+721+1999+D. Rueckert+L.I. Sonoda+C. Hayes+D.L.G. Hill+M.O. Leach+D.J. Hawkes+D.J.: Nonrigid Hawkes+Deformations Registration Using Free-Form"
+          },
+          {
+            "doi": "10.1002/hbm.10062",
+            "key": "ref18",
+            "score": 86.61685,
+            "unstructured": "Fast robust automated brain extraction+Human Brain Mapping+17+3+143+155+2002+S.M. Smith"
+          },
+          {
+            "key": "ref19",
+            "score": 49.93052,
+            "unstructured": "BET2, MR-based estimation of brain, skull and scalp surfaces, Eleventh Annual Meeting of the Organization for Human Brain Mapping, (+2005+M. Jenkinson+M. Pechaud+S.: Smith"
+          },
+          {
+            "doi": "10.1109/iccv.2001.937505",
+            "key": "ref20",
+            "score": 93.365715,
+            "unstructured": "Interactive Graph Cuts for Optimal Boundary and Region Segmentation of Objects in N-D+105+112+2001+Y. Boykov+M.P. Jolly+Images"
+          },
+          {
+            "doi": "10.1117/12.710434",
+            "key": "ref21",
+            "score": 84.37063,
+            "unstructured": "DT-MRI segmentation using graph cuts+Proceedings of SPIE 6512, 65121K-65121K-9+2007+Y. T. Weldeselassie+Hamarneh"
+          },
+          {
+            "doi": "10.1007/978-3-540-76390-1_14",
+            "key": "ref22",
+            "score": 147.18225,
+            "unstructured": "E cient Graph Cuts for Multiclass Interactive Image Segmentation+Computer Vision ACCV 2007 Lecture Notes in Computer Science+4844+134+144+2007+F. Lu+Z. Fu+A. Robles-Kelly"
+          },
+          {
+            "doi": "10.1007/978-3-540-85988-8_36",
+            "key": "ref23",
+            "score": 168.59848,
+            "unstructured": "Interactive separation of segmented bones in CT volumes using graph cut+Medical Image Computing and Computer-Assisted Intervention+11+296+304+2008+L. Liu+D. Raber+D. Nopachai+P. Commean+D. Sinacore+F. Prior+R. Pless+Ju"
+          },
+          {
+            "doi": "10.1109/cvpr.1998.698673",
+            "key": "ref24",
+            "score": 95.94324,
+            "unstructured": "Markov random elds with e cient approximations+Intl. Conf. on Computer Vision and Pattern Recognition+1998+Y. Boykov+O. Veksler+Zabih"
+          },
+          {
+            "doi": "10.4153/cjm-1956-045-5",
+            "key": "ref25",
+            "score": 60.743824,
+            "unstructured": "Maximal ow through a network+Canadian Journal of Mathematics 8+399404+1956+L.R. Ford+D.R. Fulkerson"
+          },
+          {
+            "doi": "10.1137/s0097539792225297",
+            "key": "ref26",
+            "score": 97.59718,
+            "unstructured": "The complexity of multiterminal cuts+SIAM J. Comput+864894+4+1994+E. Dahlhaus+D.S. Johnson+C.H. Papadimitriou+P.D. Seymour+M.: Yannakakis"
+          },
+          {
+            "doi": "10.1007/s10107-004-0510-2",
+            "key": "ref27",
+            "score": 109.51002,
+            "unstructured": "Greedy Splitting Algorithms for Approximating Multiway Partition Problems+102+167+2005+L. Zhao+H. Nagamochi+T. Ibaraki"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2009.05.029",
+            "key": "ref28",
+            "score": 167.31348,
+            "unstructured": "\"An evaluation of four automatic methods of segmenting the subcortical structures in the brain+\" Neuroimage 47+1435+1447+2009+K. O. Babalola+B. Patenaude+P. Aljabar+J. Schnabel+D. Kennedy+W. Crum+S. Smith+T. Cootes+M. Jenkinson+D. Rueckert"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

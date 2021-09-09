@@ -83,6 +83,89 @@
       },
       {
         "article": "bafkreiervwid5tf6ts2n5xdtevfl2krcs3ce6ctzfx47ajez5uqe6ls6ta",
+        "citation_list": [
+          {
+            "doi": "10.1016/s1361-8415(96)80008-9",
+            "key": "ref1",
+            "score": 90.564644,
+            "unstructured": "Segmentation of brain tissue from magentic resonance images+\u201d Med. Im. An.+1+109+127+1996+T. Kapur+W. E. L. Grimson+W. M. Wells+R. Kikinis"
+          },
+          {
+            "doi": "10.1109/42.650883",
+            "key": "ref2",
+            "score": 122.43414,
+            "unstructured": "Markov random field segmentation of brain mr images+\u201d IEEE Tr. Med. Imaging+16+6+878+886+1997+K. Held+E. R. Kops+B. J. Krause+W. M. Wells+R. Kikinis+-W."
+          },
+          {
+            "doi": "10.1109/42.811268",
+            "key": "ref3",
+            "score": 109.85562,
+            "unstructured": "-based bias field correction of mr images of the brain+\u201d IEEE Tr. Med+18+885+896+1999+K. V. Leemput+F. Maes+D. Vandermeulen+P. Seutens+Automated"
+          },
+          {
+            "doi": "10.1007/3-540-45468-3_127",
+            "key": "ref4",
+            "score": 147.05586,
+            "unstructured": "Unsupervised and adaptive segmentation of multispectral 3d magnetic resonance images of human brain: a generic approach,\u201d+in Proc. MICCAI+1067+1074+2001+C. Pachai+Y. M. Zhu+C. R. G. Guttmann+R. Kikinis+F. A. Jolesz+J.-C. Froment+C. Confavreux+S. K. Warfield"
+          },
+          {
+            "doi": "10.1109/42.906424",
+            "key": "ref5",
+            "score": 128.20169,
+            "unstructured": "Segmentation of brain mr images through a hidden markov random field model and the expectation maximization algorithm+\u201d IEEE Tr. Med. Imaging+20+45+57+2001+Y. Zhang+M. Brady+S. Smith"
+          },
+          {
+            "doi": "10.1109/42.845174",
+            "key": "ref6",
+            "score": 107.98997,
+            "unstructured": "Parametric estimate of intensity inhomogeneities applied to mri,\u201d+IEEE Tr. Med. Imaging+19+3+153+165+2000+M. Styner+C. Brechbuhler"
+          },
+          {
+            "doi": "10.1109/42.811270",
+            "key": "ref7",
+            "score": 110.45072,
+            "unstructured": "-based tissue classification of mr images of the brain+\u201d IEEE Tr. Med. Imaging+18+897+908+1999+K. V. Leemput+F. Maes+D. Vandermeulen+P. Seutens+Automated"
+          },
+          {
+            "doi": "10.1007/3-540-45786-0_70",
+            "key": "ref8",
+            "score": 149.21713,
+            "unstructured": "Incorporating non-rigid registration into expectation maximization algorithm to segment mr images,\u201d+in Proc. MICCAI+564+571+2002+W. M. K. M. Pohl+A. Wells+K. Guimond+M. E. Kasai+R. Shenton+W. E. L. Kikinis+S. K. Grimson+Warfield"
+          },
+          {
+            "doi": "10.1007/11566489_64",
+            "key": "ref9",
+            "score": 100.44326,
+            "unstructured": "Mri tissue classification with neighborhood statistics: A nonparametric, entropy-minimizing approach+2005+in Proc. MICCAI+T. Tasdizen+S. Awate+R. Whitaker"
+          },
+          {
+            "key": "ref10",
+            "score": 37.217506,
+            "unstructured": "NLM Insight Segmentation+Registration Toolkit"
+          },
+          {
+            "key": "ref11",
+            "score": 25.994806,
+            "unstructured": "2003+W. Ibanez+L. Schroeder+J. Ng+ITK Software Cates+Guide. Kitware"
+          },
+          {
+            "doi": "10.1016/s1053-8119(03)00185-x",
+            "key": "ref12",
+            "score": 89.13607,
+            "unstructured": "The loni pipeline processing environment+19+1033+1048+2003+J. Q. D. E. Rex+A. W. Ma+Toga"
+          },
+          {
+            "key": "ref13",
+            "score": 29.55688,
+            "unstructured": "2001+P. E. R. O. Duda+D. G. Hart+Stork"
+          },
+          {
+            "doi": "10.1109/tpami.2006.64",
+            "key": "ref14",
+            "score": 69.05003,
+            "unstructured": "Image denoising with unsupervised information-theoretic adaptive filtering+Pattern Anal. Mach+S. P. Awate"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

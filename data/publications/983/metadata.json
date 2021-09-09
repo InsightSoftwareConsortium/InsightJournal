@@ -32,6 +32,79 @@
     "revisions": [
       {
         "article": "bafybeighxsb3dbfd4mbfnzddyuc6futj255x4mzngx2sckxyuavg5tb5wu",
+        "citation_list": [
+          {
+            "doi": "10.1109/83.661192",
+            "key": "ref1",
+            "score": 101.63161,
+            "unstructured": "Robust Anisotropic Diffusion+IEEE Trans. Image Process.+1+3+1998+2+M J Black+G Sapiro+D H Marimont+D Heeger+D Michael J. Black"
+          },
+          {
+            "doi": "10.1109/tpami.1986.4767851",
+            "key": "ref2",
+            "score": 68.934875,
+            "unstructured": "A computational approach to edge detection+IEEE Pattern Analysis and Machine Intelligence, (6)+1986+3+1+J Canny"
+          },
+          {
+            "key": "ref3",
+            "score": 42.143044,
+            "unstructured": "Anisotropic Anomalous Filter Applied to Multimodal Magnetic Resonance Image in Multiple Sclerosis+In I Transatlantic Workshop on Methods for Multimodal Neurosciences Studies, Sa\u02dco Pedro, SP+2014"
+          },
+          {
+            "doi": "10.1109/42.141646",
+            "key": "ref4",
+            "score": 100.23979,
+            "unstructured": "Guido Gerig and Ferenc A Jolesz. Nonlinear Anisotropic Filtering of MRI Data+IEEE Trans. Med+11+2+221+1992+Ron Kikinis"
+          },
+          {
+            "doi": "10.1007/s11263-010-0330-1",
+            "key": "ref5",
+            "score": 101.59624,
+            "unstructured": "An Anisotropic Fourth-Order Diffusion Filter for Image Noise Removal+International Journal of Computer Vision+92+2+177+191+2010+Mohammad Reza Hajiaboli"
+          },
+          {
+            "doi": "10.1109/tip.2009.2025553",
+            "key": "ref6",
+            "score": 119.774414,
+            "unstructured": "Santiago Aja-Ferna`ndez. Noise-driven anisotropic diffusion filtering of MRI+IEEE transactions on image processing+18+10+2265+2274+2009+Karl Krissian"
+          },
+          {
+            "doi": "10.1109/34.56205",
+            "key": "ref7",
+            "score": 106.057335,
+            "unstructured": "Scale-space and edge detection using anisotropic diffusion+IEEE Transactions on Pattern Analysis and Machine Intelligence+1+3+1+639+1990+P Perona and J Malik"
+          },
+          {
+            "doi": "10.1109/isda.2007.139",
+            "key": "ref8",
+            "score": 118.99202,
+            "unstructured": "Edge Detection of Skin Lesions Using Anisotropic Diffusion+Seventh International Conference on Intelligent Systems Design and Applications ISDA+2007+0+363+370+V B Pires and C A Z Barcelos"
+          },
+          {
+            "doi": "10.1016/j.patcog.2012.11.012",
+            "key": "ref9",
+            "score": 94.64404,
+            "unstructured": "On the choice of the parameters for anisotropic diffusion in image processing+Pattern Recognition+1+3+1+1381+2013+Chourmouzios Tsiotsios+Maria Petrou"
+          },
+          {
+            "doi": "10.1109/msp.2004.1296541",
+            "key": "ref10",
+            "score": 109.67153,
+            "unstructured": "Estimating the gradient threshold in the perona-malik equation+IEEE Signal Processing Magazine+1+3+3+46+2004+Voci Francesco+N. Sugimoto+H. Sekiguchi"
+          },
+          {
+            "doi": "10.1016/j.mri.2009.10.001",
+            "key": "ref11",
+            "score": 96.942314,
+            "unstructured": "Efficient anisotropic filtering of diffusion tensor images+Magnetic resonance imaging+28+2+200+11+2010+Xu Qing+Zhaohua Adam W Anderson+Ding"
+          },
+          {
+            "doi": "10.1109/83.541424",
+            "key": "ref12",
+            "score": 117.713615,
+            "unstructured": "Behavioral analysis of anisotropic diffusion in image processing+IEEE transactions on image processing : a publication of the IEEE Signal Processing Society+5+11+1539+53+1996+Y L You+W Xu+A Tannenbaum+M Kaveh"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

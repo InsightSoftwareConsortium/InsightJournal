@@ -43,6 +43,146 @@
     "revisions": [
       {
         "article": "bafybeicjf4oh5gpm5zt6itblohnqv7fbpw6dant752iu72s4n4ao5m6rca",
+        "citation_list": [
+          {
+            "doi": "10.1212/01.wnl.0000154530.72969.11",
+            "key": "ref1",
+            "score": 134.29778,
+            "unstructured": "Normative estimates of cross-sectional and longitudinal brain volume decline in aging and AD+Neurology+64+2005+1032+9+A.F. Fotenos+A.Z. Snyder+L.E. Girton+J.C. Morris+R.L. Buckner"
+          },
+          {
+            "doi": "10.1016/j.neurobiolaging.2006.12.012",
+            "key": "ref2",
+            "score": 137.73248,
+            "unstructured": "Brain tissue volumes in the general elderly population+The Rotterdam Scan Study. Neurobiology of aging 29+2008+882+90+M.A. Ikram+Vrooman+F. Vernooij+Hofman+A. van der Lugt+W.J. Niessen+M.M.B. Breteler"
+          },
+          {
+            "doi": "10.1006/nimg.2001.0786",
+            "key": "ref3",
+            "score": 145.47758,
+            "unstructured": "A voxel-based morphometric study of ageing in 465 normal adult human brains+NeuroImage+14+2001+21+36+C.D. Good+I.S. Johnsrude+J. Ashburner+R.N. Henson+K.J. Friston+R.S.: Frackowiak"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2005.03.036",
+            "key": "ref4",
+            "score": 133.54985,
+            "unstructured": "-D extraction and evaluation of the inner and outer cortical surfaces using a Laplacian map and partial volume effect classification+NeuroImage+27+2005+210+21+J.S. Kim+V. Singh+J.K. Lee+J. Lerch+Ad-Dab'bagh+D. MacDonald+J.M. Lee+S.I. Kim+A.C. Evans"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2010.01.019",
+            "key": "ref5",
+            "score": 128.99718,
+            "unstructured": "Identifying population differences in whole-brain structural networks: a machine learning approach+NeuroImage+50+2010+910+9+E.C. Robinson+A. Hammers+A. Ericsson+A.D. Edwards+D. Rueckert"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2005.05.046",
+            "key": "ref6",
+            "score": 116.99333,
+            "unstructured": "Probabilistic segmentation of brain tissue in MR imaging+NeuroImage+27+2005+795+804+P. Anbeek+Vincken+M.J.P. van Bochove"
+          },
+          {
+            "doi": "10.1016/j.media.2013.02.006",
+            "key": "ref7",
+            "score": 182.96017,
+            "unstructured": "STEPS: Similarity and Truth Estimation for Propagated Segmentations and its application to hippocampal segmentation and brain parcelation+Medical image analysis 17+2013+671+684+M.J. Cardoso+K. Leung+M. Modat+S. Keihaninejad+D. Cash+J. Barnes+N.C. Fox+S.: Ourselin"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2011.02.013",
+            "key": "ref8",
+            "score": 126.25339,
+            "unstructured": "LoAd: a locally adaptive cortical segmentation algorithm+NeuroImage+56+2011+1386+97+M.J. Cardoso+M.J. Clarkson+G.R. Ridgway+M. Modat+N.C. Fox+S.: Ourselin"
+          },
+          {
+            "doi": "10.1109/42.811268",
+            "key": "ref9",
+            "score": 122.17003,
+            "unstructured": "-based bias field correction of MR images of the brain+IEEE Trans. Med+18+1999+885+96+Van Leemput+K. Maes+F. Vandermeulen+D. Suetens+P. Automated"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2005.02.018",
+            "key": "ref10",
+            "score": 81.037445,
+            "unstructured": "Unified segmentation+NeuroImage+26+2005+839+51+J. Ashburner+K.J.: Friston"
+          },
+          {
+            "doi": "10.1109/42.906424",
+            "key": "ref11",
+            "score": 125.89466,
+            "unstructured": "Segmentation of brain MR images through a hidden Markov random field model and the expectation-maximization algorithm+IEEE Trans. Med Imag+20+2001+45+57+Y. Zhang+M. Brady+S. Smith"
+          },
+          {
+            "doi": "10.1016/s1361-8415(03)00037-9",
+            "key": "ref12",
+            "score": 114.69815,
+            "unstructured": "A fully automatic and robust brain MRI tissue classification method+Medical image analysis 7+2003+513+27+C.A. Cocosco+A.P. Zijdenbos+A.C. Evans"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2007.05.018",
+            "key": "ref13",
+            "score": 184.06401,
+            "unstructured": ": Multi-spectral brain tissue segmentation using automatically trained k-Nearest-Neighbor classification+NeuroImage+37+2007+71+81+H.A. Vrooman+Cocosco+F. van der Lijn+R. Stokking+M.A. Ikram+M.W. Vernooij+M.M.B. Breteler+Niessen"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2009.01.011",
+            "key": "ref14",
+            "score": 163.84282,
+            "unstructured": "White matter lesion extension to automatic brain tissue segmentation on MRI+NeuroImage+45+2009+1151+61+Vrooman+F. van der Lijn+M.W. Vernooij+Ikram+A. van der Lugt+M.M.B. Breteler+W.J.: Niessen"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2006.05.061",
+            "key": "ref15",
+            "score": 151.4518,
+            "unstructured": "Automatic anatomical brain MRI segmentation combining label propagation and decision fusion+NeuroImage+33+2006+115+26+R.A. Heckemann+J. V Hajnal+P. Aljabar+D. Rueckert+A. Hammers"
+          },
+          {
+            "doi": "10.1016/j.cmpb.2009.09.002",
+            "key": "ref16",
+            "score": 142.88112,
+            "unstructured": "Fast free-form deformation using graphics processing units+Computer methods and programs in biomedicine 98+2010+278+84+M. Modat+G.R. Ridgway+Z.A. Taylor+M. Lehmann+J. Barnes+D.J. Hawkes+N.C. Fox+S. Ourselin"
+          },
+          {
+            "doi": "10.1016/j.media.2013.02.006",
+            "key": "ref17",
+            "score": 160.59135,
+            "unstructured": "STEPS: Similarity and Truth Estimation for Propagated Segmentations and its application to hippocampal segmentation and brain parcelation+Med+17+6+2013+671+84+J. M. Cardoso+K. Leung+M. Modat+S. Keihaninejad+D. Cash+J. Barnes+N.C. Fox+S.: Ourselin"
+          },
+          {
+            "doi": "10.1109/tmi.2004.828354",
+            "key": "ref18",
+            "score": 122.748,
+            "unstructured": ": Simultaneous truth and performance level estimation (STAPLE): An algorithm for validation of image segmentation+IEEE Trans. Med+23+7+2004+903+921+S.K. Warfield+K.H. Zou+Wells W.M."
+          },
+          {
+            "doi": "10.1109/tmi.2009.2035616",
+            "key": "ref19",
+            "score": 129.51576,
+            "unstructured": "Elastix: a toolbox for intensity-based medical image registration+IEEE Trans. Med+29+2010+196+205+S. Klein+M. Staring+K. Murphy+M.A. Viergever+J.P.W. Pluim"
+          },
+          {
+            "doi": "10.2307/1932409",
+            "key": "ref20",
+            "score": 95.99002,
+            "unstructured": "Measures of the amount of ecologic association between species+Ecology+26+3+1945+297+302+L. Dice"
+          },
+          {
+            "doi": "10.1109/34.232073",
+            "key": "ref21",
+            "score": 131.5369,
+            "unstructured": "Comparing images using the Hausdorff distance+IEEE Transactions on Pattern Analysis and Machine Intelligence+15+9+1993+850+863+D.P. Huttenlocher+G.A. Klanderman+Rucklidge"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2009.05.029",
+            "key": "ref22",
+            "score": 167.32596,
+            "unstructured": "An evaluation of four automatic methods of segmenting the subcortical structures in the brain+Neuroimage+47+4+2009+1435+1447+K.O. Babalola+B. Patenaude+P. Aljabar+J. Schnabel+D. Kennedy+W. Crum+S. Smith+T. Cootes+M. Jenkinson+D.: Rueckert"
+          },
+          {
+            "doi": "10.1109/tmi.2011.2138152",
+            "key": "ref23",
+            "score": 104.57929,
+            "unstructured": "Robust brain extraction across datasets and comparison with publicly available methods+IEEE trans. Med+30+2011+1617+34+J.E. Iglesias+Liu+P.M. Thompson+Z. Tu"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

@@ -57,6 +57,30 @@
     "revisions": [
       {
         "article": "bafybeigyqbzojkkehtiv7vu6pjckc3ztj4d3welb66a47xx4aginrsoj2y",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 35.094795,
+            "unstructured": "Implementation of local structure tensor and enhancement anisotropic diffusion filters in itk+The Insight Journal+08 2010+A. Enquobahrie+H. Yang+S. Aylward"
+          },
+          {
+            "key": "ref2",
+            "score": 24.844444,
+            "unstructured": "second edition+2005+L. Ibanez+W. Schroeder+L. Ng+J. Cates"
+          },
+          {
+            "doi": "10.1006/cviu.1999.0812",
+            "key": "ref3",
+            "score": 124.62242,
+            "unstructured": "Multilocal creaseness based on the level-set extrinsic curvature+Computer Vision+77+111+144+2000+A.M. Lopez+D. Lloret+J. Serrat+J.J. Villanueva"
+          },
+          {
+            "doi": "10.1109/34.761263",
+            "key": "ref4",
+            "score": 116.396805,
+            "unstructured": "Evaluation of methods for ridge and valley detection+IEEE Transactions on Pattern Analysis and Machine Intelligence+1+2+327+335+1999+A.M. Lopez+F. Lumbreras+J. Serrat+J.J. Villanueva"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

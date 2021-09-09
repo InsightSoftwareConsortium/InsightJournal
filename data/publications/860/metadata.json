@@ -39,6 +39,26 @@
     "revisions": [
       {
         "article": "bafybeigmvbuixh7vfomhgin4neomcgswj2gdqfmczwlff6s7fj4f6eghzm",
+        "citation_list": [
+          {
+            "doi": "10.1118/1.3116776",
+            "key": "ref1",
+            "score": 140.62701,
+            "unstructured": "Measurement of MRI scanner performance with the ADNI phantom+org/10.1118/1.3116776. 1+36+2+4+2205+2009+J. L. Gunter+M. A. Bernstein+B. J. Borowski+C. P. Ward+P. J. Britson+J. P. Felmlee+N. Schuff+M. Weiner+C. R. Jack"
+          },
+          {
+            "doi": "10.1109/2945.620490",
+            "key": "ref2",
+            "score": 82.059685,
+            "unstructured": "Scattered data interpolation with multilevel B-splines+org/ 10.1109/2945.620490. 3.5+3+3+228+244+1997+S. Lee+G. Wolberg+S. Y. Shin"
+          },
+          {
+            "doi": "10.1109/42.796284",
+            "key": "ref3",
+            "score": 133.83629,
+            "unstructured": "Nonrigid registration using free-form deformations: Application to breast MR images+org/10.1109/42.796284. 3.5+18+8+712+721+1999+D. Rueckert+L. I. Sonoda+C. Hayes+D. L. G. Hill+M. O. Leach+D. J. Hawkes"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

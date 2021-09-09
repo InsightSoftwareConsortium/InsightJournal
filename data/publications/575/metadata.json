@@ -76,6 +76,71 @@
     "revisions": [
       {
         "article": "bafybeibqv3k5dm4fasfro7jnat2ljksq4pjrjom4vz6mbdw73x5vqafqsu",
+        "citation_list": [
+          {
+            "doi": "10.1007/s11548-007-0068-6",
+            "key": "ref1",
+            "score": 94.52052,
+            "unstructured": "Recursive tracking of vascular tree axes in 3D medical images+Int J Comp Assisted Radiol Surg+1+6+331+339+2007+J.F. Carrillo+M. Orkisz"
+          },
+          {
+            "doi": "10.1007/88-470-0352-0_4",
+            "key": "ref2",
+            "score": 68.55081,
+            "unstructured": "Assessment of carotid artery stenoses in 3D contrast-enhanced magnetic resonance angiography, based on improved generation of the centerline+Mach Graphics Vision+1+4+1+378+2005+M. Herna+M. Orkisz+P.C. Douek+and I.E. Magnin"
+          },
+          {
+            "doi": "10.1007/s11548-006-0005-0",
+            "key": "ref3",
+            "score": 134.60057,
+            "unstructured": "Vascular centerline extraction in 3D MR angiograms for phase contrast MRI blood flow measurement+Int J Comp Assisted Radiol Surg+1+1+51+61+2005+M. Herna+P. Or\u0142owski+E.+P. Janko+M. Bogorodzki+Orkisz"
+          },
+          {
+            "doi": "10.1007/s11548-006-0049-1",
+            "key": "ref4",
+            "score": 121.63041,
+            "unstructured": "Evaluation of semi-automatic arterial stenosis quantification+Int J Comp Assisted Radiol Surg+1+3+167+175+2006+M. Herna+J.M. Serfaty+A. Maghiar+C. Mansard+M. Orkisz+I.E. Magnin+P.C. Douek"
+          },
+          {
+            "doi": "10.1109/isbi.2008.4540984",
+            "key": "ref5",
+            "score": 67.38287,
+            "unstructured": "(document)+In 5th IEEE Int Symp Biomed Imaging+268+271+2008+D. Lesage+E.D. Angelini+I. Bloch+G. Funka-Lea"
+          },
+          {
+            "doi": "10.1109/cvprw.2006.210",
+            "key": "ref6",
+            "score": 138.68506,
+            "unstructured": "Vessels as 4D curves: Global minimal 4D paths to extract tubular surfaces+In Computer Vision and Pattern Recognition Workshop+2006+H. Li+A. Yezzi"
+          },
+          {
+            "key": "ref7",
+            "score": 48.223198,
+            "unstructured": "(document)+In 4th IEEE Int Symp Biomed Imaging+856+859+April 2007+C. Metz+M. Schaap+W. Niessen"
+          },
+          {
+            "doi": "10.1007/978-3-642-02498-6_44",
+            "key": "ref8",
+            "score": 75.91483,
+            "unstructured": "3d segmentation in the clinic: A grand challenge ii - coronary artery tracking+Insight Journal+2008+1+2+C. Metz+M. Schaap+A. van der Giessen Walsum+A. Weustink+N. Mollet+W. Niessen"
+          },
+          {
+            "doi": "10.1016/s0531-5131(03)00307-8",
+            "key": "ref9",
+            "score": 133.76411,
+            "unstructured": "Evaluation of hessian-based filters to enhance the axis of coronary arteries in ct images+In Comp Assisted Radiol Surg+1256+1191+1196+2003+S.D. Olabarriaga+M. Breeuwer+W.J. Niessen"
+          },
+          {
+            "key": "ref10",
+            "score": 36.372757,
+            "unstructured": "(document)+In 5th IEEE Int Symp Biomed Imaging+25+28+2008+F. Renard+Y. Yang"
+          },
+          {
+            "key": "ref11",
+            "score": 44.447433,
+            "unstructured": "(document)+Proc SPIE Int Symp Med Imaging+5370+1609+1620+February 2004+S. Wesarg+E.A. Firle"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

@@ -68,6 +68,67 @@
     "revisions": [
       {
         "article": "bafybeiecwwll7z6nk2hyf5feiorvcydfabppwvlpep5jnkcyupuaz5jpmi",
+        "citation_list": [
+          {
+            "doi": "10.1201/9781420042474.ch1",
+            "key": "ref1",
+            "score": 60.87492,
+            "unstructured": "Medical Image Registration+2001+J. Hajnal+D. Hill+Hawkes"
+          },
+          {
+            "doi": "10.1109/42.952729",
+            "key": "ref2",
+            "score": 116.91013,
+            "unstructured": "The distribution of target registration error in rigid-body point-based registration+IEEE Transactions on Medical Imaging+20+9+927+2001+J.M. Fitzpatrick+J.B. West"
+          },
+          {
+            "doi": "10.1118/1.3553402",
+            "key": "ref3",
+            "score": 89.513794,
+            "unstructured": "Validation for 2D/3D registration I: A new gold standard data set+Medical Physics+38+1481+1490+2011+S.A. Pawiro"
+          },
+          {
+            "doi": "10.1109/42.611354",
+            "key": "ref4",
+            "score": 93.52775,
+            "unstructured": "Registration of head volume images using implantable ducial markers+IEEE Transactions on Medical Imaging+16+462+1997+Maurer Jr.+C.R.+Michael Fitzpatrick"
+          },
+          {
+            "key": "ref5",
+            "score": 29.173943,
+            "unstructured": "Christopher Evans: Notes on the OpenSURF Library. Lecture Notes+2009"
+          },
+          {
+            "doi": "10.1016/j.cviu.2007.09.014",
+            "key": "ref6",
+            "score": 117.33519,
+            "unstructured": "Speeded-Up Robust Features (SURF)+Computer Vision+110+359+2008+H. Bay+A. Ess+Tuytelaars+L. Van Gool"
+          },
+          {
+            "doi": "10.1109/iccv.1999.790410",
+            "key": "ref7",
+            "score": 87.98551,
+            "unstructured": "Object recognition from local scale-invariant features+Proceedings of the IEEE International Conference on Computer Vision+2+1150+1157+1999+D. G. Lowe"
+          },
+          {
+            "doi": "10.1109/icip.2005.1530351",
+            "key": "ref8",
+            "score": 127.32279,
+            "unstructured": "The multiransac algorithm and its application to detect planar homographies+Proceedings - International Conference on Image Processing, ICIP. 3+156+2005+M. Zuliani+C.S. Kenney+B.S.: Manjunath"
+          },
+          {
+            "doi": "10.1016/j.ijrobp.2008.03.063",
+            "key": "ref9",
+            "score": 176.60645,
+            "unstructured": "FDG-PET-Based Radiotherapy Planning in Lung Cancer: Optimum Breathing Protocol and Patient Positioning-An Intraindividual Comparison+International Journal of Radiation Oncology Biology Physics+73+103+111+2009+A. Grgic+U. Nestle+A. Schaefer-Schuler+S. Kremp+Kirsch+D. Hellwig"
+          },
+          {
+            "doi": "10.1016/j.ijrobp.2009.10.017",
+            "key": "ref10",
+            "score": 122.015114,
+            "unstructured": "Results of a multi-institutional benchmark test for cranial CT/MR image registration+Int J Radiation Oncology Biol Phys. 2010 Aug+1+5+1584+9+K Ulin+MM Urie+JM Cherlow"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

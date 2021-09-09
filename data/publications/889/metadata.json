@@ -60,6 +60,65 @@
     "revisions": [
       {
         "article": "bafybeihzl3ohcmzyimjlm7lgzldoab6lzcn7tnag3uxtiwar3e7lfhhlga",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 44.955772,
+            "unstructured": "1.2 13Please find a summary of CC BY-NC 3+Journal of Digital Imaging+20+1+21+33+2007+Andinet Enquobahrie+Kevin Cleary"
+          },
+          {
+            "doi": "10.1109/nssmic.2012.6551481",
+            "key": "ref2",
+            "score": 87.00707,
+            "unstructured": "EndoTOFPET-US: a Novel Multimodal Tool for Endoscopy and Positron Emission Tomography+arXiv preprint arXiv:1303.4503+2013+1+1+Erika Garutti"
+          },
+          {
+            "doi": "10.1109/mc.2006.130",
+            "key": "ref3",
+            "score": 102.996605,
+            "unstructured": "IGSTK: an open source software toolkit for image-guided surgery+Computer+1+4+2+53+2006+Kevin Gary+M Brian Blake+Kevin Cleary"
+          },
+          {
+            "key": "ref4",
+            "score": 39.891632,
+            "unstructured": "A generic computer assisted intervention plug-in module for 3D Slicer with multiple device support+2009+1+2+Tokuda Junichi+Nobuhiko Hata+Gabor Fichtinger"
+          },
+          {
+            "doi": "10.1109/embc.2013.6610267",
+            "key": "ref5",
+            "score": 118.72742,
+            "unstructured": "Combination of intra-operative freehand SPECT imaging with MR images for guidance and navigation+In IEEE Engineering in Medicine and Biology Conference (EMBC)+2013+1+Philipp Matthies+Michael Friebe"
+          },
+          {
+            "doi": "10.1118/1.4709600",
+            "key": "ref6",
+            "score": 124.47393,
+            "unstructured": "Online database of clinical MR and ultrasound images of brain tumors+Medical Physics+39+3253+2012+Laurence Mercier+Kevin Rolando F Del Maestro+Claire Petrecca+D Louis Haegelen+Collins"
+          },
+          {
+            "key": "ref7",
+            "score": 40.492294,
+            "unstructured": "2004+2+635+1+Steve Pieper+Michael Halle+Ron Kikinis"
+          },
+          {
+            "doi": "10.1007/s11548-007-0131-3",
+            "key": "ref8",
+            "score": 72.03423,
+            "unstructured": "The SIGN: A dynamic and extensible software framework for Image-Guided Therapy+2006+1+2+Eigil Samset+DiMaio Simon+Ferenc Jolesz"
+          },
+          {
+            "doi": "10.1002/rcs.274",
+            "key": "ref9",
+            "score": 93.534935,
+            "unstructured": "OpenIGTLink: an open network protocol for image-guided therapy environment+The International Journal of Medical Robotics and Computer Assisted Surgery+1+4+2+434+2009+Junichi Tokuda+J Alexandra+Pieper Steve+Clare M. Tempany"
+          },
+          {
+            "doi": "10.1007/s00259-010-1430-4",
+            "key": "ref10",
+            "score": 87.159134,
+            "unstructured": "First demonstration of 3-D lymphatic mapping in breast cancer using freehand SPECT+European journal of nuclear medicine and molecular imaging+1+8+1+1461+2010+Wendler Thomas+Marion Kiechle"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

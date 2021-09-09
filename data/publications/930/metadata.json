@@ -40,6 +40,82 @@
     "revisions": [
       {
         "article": "bafybeif63fp2ktia4f2vxcmbhvn3dh4or7vdjdu35na3cvahanaij3kgsy",
+        "citation_list": [
+          {
+            "doi": "10.1109/iccv.2013.231",
+            "key": "ref1",
+            "score": 91.987206,
+            "unstructured": "Structured forests for fast edge detection+2013 IEEE Conference on, IEEE+2013+P. Dollar+C.L. Zitnick"
+          },
+          {
+            "key": "ref2",
+            "score": 56.59809,
+            "unstructured": "Structured learning and prediction in computer vision+6+2011+S. Nowozin+C.H. Lampert"
+          },
+          {
+            "doi": "10.1007/978-3-319-10581-9_27",
+            "key": "ref3",
+            "score": 110.55005,
+            "unstructured": "Structured random forests for myocardium delineation in 3d echocardiography+In: MICCAI Workshop on Machine Learning in Medical Imaging+2014+J. Domingos+R. Stebbing+P. Leeson+Noble"
+          },
+          {
+            "doi": "10.1109/tpami.2012.68",
+            "key": "ref4",
+            "score": 106.55701,
+            "unstructured": "What shape are dolphins? Building 3D morphable models from 2D images+IEEE TPAMI 35(1)+2013+232+244+T.J. Cashman+A.W. Fitzgibbon"
+          },
+          {
+            "doi": "10.1109/cvpr.2014.88",
+            "key": "ref5",
+            "score": 125.99247,
+            "unstructured": "User-speci c hand modelling from monocular depth sequences+2014+Taylor+R.V. Stebbing+V. Ramakrishna+C. Keskin+J. Shotton+S. Izadi+A. Hertzmann+A.W.: Fitzgibbon"
+          },
+          {
+            "doi": "10.1016/j.compmedimag.2013.10.002",
+            "key": "ref6",
+            "score": 184.08754,
+            "unstructured": "Real-time 3d interactive segmentation of echocardiographic data through user-based deformation of b-spline explicit active surfaces+Computerized medical imaging and graphics 38(1)+2014+57+67+D. Barbosa+B. Heyde+M. Cikes+T. Dietenbeck+P. Claus+D. Friboulet+O. Bernard+Dhooge"
+          },
+          {
+            "doi": "10.1109/isbi.2010.5490344",
+            "key": "ref7",
+            "score": 71.52326,
+            "unstructured": "Automatic active appearance model segmentation of 3d echocardiograms+IEEE+2010+320+323+Leung+J.G. Bosch"
+          },
+          {
+            "doi": "10.1016/j.media.2013.07.001",
+            "key": "ref8",
+            "score": 114.768654,
+            "unstructured": "Delineating anatomical boundaries using the boundary fragment model+Medical image analysis 17(8)+2013+1123+1136+R.V. Stebbing+J.A. Noble"
+          },
+          {
+            "doi": "10.1145/2398356.2398381",
+            "key": "ref9",
+            "score": 148.12646,
+            "unstructured": "Real-time human pose recognition in parts from single depth images+Communications of the ACM+116+1+2013+124+J. Shotton+T. Sharp+A. Kipman+A. Fitzgibbon+M. Finocchio+A. Blake+M. Cook+R. Moore"
+          },
+          {
+            "doi": "10.1109/cvpr.2013.406",
+            "key": "ref10",
+            "score": 123.291756,
+            "unstructured": "Sketch tokens: A learned mid-level representation for contour and object detection+2013 IEEE Conference on, IEEE+2013+3158+3165+J.J. Lim+C.L. Zitnick+P. Dollar"
+          },
+          {
+            "key": "ref11",
+            "score": 35.926697,
+            "unstructured": "Smooth subdivision surfaces based on triangles+1987+C. Loop"
+          },
+          {
+            "key": "ref12",
+            "score": 38.25318,
+            "unstructured": "Evaluation of Loop subdivision surfaces+1998+J. Stam"
+          },
+          {
+            "key": "ref13",
+            "score": 29.80506,
+            "unstructured": "2010+S. Agarwal+K. Mierle"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

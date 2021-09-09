@@ -48,6 +48,54 @@
     "revisions": [
       {
         "article": "bafybeigibnn7wttcllt5s5vkexs7jbqck7whj6v37re4mtkhdsjkbg6kwi",
+        "citation_list": [
+          {
+            "doi": "10.1109/iccv.1995.466871",
+            "key": "ref1",
+            "score": 72.99115,
+            "unstructured": "Geodesic active contours+In ICCV+694+699+1995+Vincent Caselles+Ron Kimmel+Guillermo Sapiro"
+          },
+          {
+            "key": "ref2",
+            "score": 56.31698,
+            "unstructured": "On active contour models and balloons+2+2+4+218+1991+D. Laurent+Cohen"
+          },
+          {
+            "doi": "10.1007/3-540-45468-3_9",
+            "key": "ref3",
+            "score": 102.56914,
+            "unstructured": "Deformable organisms for automatic medical image analysis+In MICCAI+66+76+2001+Ghassan Hamarneh+and Demetri Tim McInerney+Terzopoulos"
+          },
+          {
+            "doi": "10.1117/12.594856",
+            "key": "ref4",
+            "score": 76.38838,
+            "unstructured": "Physics-based deformable organisms for medical image analysis+SPIE Medical Imaging+5747+326+335+2005+Ghassan Hamarneh"
+          },
+          {
+            "key": "ref5",
+            "score": 52.03382,
+            "unstructured": "Deformable Organisms for Medical Image Analysis+1+edition+2006+G. Hamarnerh+C. McIntosh"
+          },
+          {
+            "doi": "10.1007/11866565_99",
+            "key": "ref6",
+            "score": 86.82753,
+            "unstructured": "Spinal crawlers: Deformable organisms for spinal cord segmentation and analysis+MICCAI+2006+C. McIntosh+G. Hamarnerh"
+          },
+          {
+            "doi": "10.1109/cvpr.2006.329",
+            "key": "ref7",
+            "score": 113.155426,
+            "unstructured": "Vessel crawlers: 3d physically-based deformable organisms for vasulature segmentation and analysis+IEEE Conference on Computer Vision and Pattern Recognition+2006+1+1+C. McIntosh+G. Hamarnerh+B.2"
+          },
+          {
+            "doi": "10.1162/artl.1994.1.4.327",
+            "key": "ref8",
+            "score": 110.53595,
+            "unstructured": "Autonomous locomotion, perception, behavior, and learning in a simulated physical world+Artificial Life+2+4+6+351+1994+D. Terzopoulos+X. Tu+R. Grzeszczuk"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

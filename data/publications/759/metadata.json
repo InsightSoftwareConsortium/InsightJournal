@@ -39,6 +39,78 @@
     "revisions": [
       {
         "article": "bafybeigmsrxrxvsz5woonghsk4pwju2tcb3pxkpnah2yywxfm3bq4bvjai",
+        "citation_list": [
+          {
+            "doi": "10.1016/j.cmpb.2006.08.003",
+            "key": "ref1",
+            "score": 145.31232,
+            "unstructured": "Dense deformation eld estimation for atlas-based segmentation of pathological MR brain images+Comput. Methods Prog. Biomed+66+2-3+2006+75+Bach Cuadra+M. De Craene+M. Duay+V. Macq+B. Pollo+C. Thiran+J.P."
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2009.01.051",
+            "key": "ref2",
+            "score": 147.11536,
+            "unstructured": "Non-di eomorphic registration of brain tumor images by simulating tissue loss and tumor growth+NeuroImage+762+3+2009+774+E.I. Zacharaki+C.S. Hogea+D. Shen+G. Biros+C. Davatzikos"
+          },
+          {
+            "doi": "10.1007/978-3-540-30135-6_86",
+            "key": "ref3",
+            "score": 147.17865,
+            "unstructured": "Non-rigid atlas to subject registration with pathologies for conformal brain radiotherapy+: Proc. MICCAI+704+2004+711+R. Stefanescu+O. Commowick+G. Malandain+P.Y. Bondiau+N. Ayache+X. Pennec+C. Haynor+D. Hellier+Saint-Malo"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2008.10.040",
+            "key": "ref4",
+            "score": 98.25855,
+            "unstructured": "S61+NeuroImage+45+1+2009+S72+T. Vercauteren+X. Pennec+A. Perchant+Ayache+Supp"
+          },
+          {
+            "key": "ref5",
+            "score": 40.07579,
+            "unstructured": "An ITK Implementation of the Symmetric Log-Domain Di eomorphic Demons Algorithm+Insight Journal+2009+F. Dru+T. Vercauteren"
+          },
+          {
+            "doi": "10.1016/s1077-3142(03)00002-x",
+            "key": "ref6",
+            "score": 146.04684,
+            "unstructured": "Iconic Feature Based Nonrigid Registration: The PASHA Algorithm+Comp. Vision and Image Understanding+272+2-3+2003+P. Cachier+E. Bardinet+D. Dormont+X. Pennec+Ayache"
+          },
+          {
+            "doi": "10.1023/b:jmiv.0000024042.88755.4f",
+            "key": "ref7",
+            "score": 103.11803,
+            "unstructured": "Isotropic Energies, Filters and Splines for Vector Field Regularization+J. Math. Imaging Vis+251+3+2004+265+P. Cachier+Ayache"
+          },
+          {
+            "doi": "10.1002/hbm.20566",
+            "key": "ref8",
+            "score": 160.49916,
+            "unstructured": "Nonrigid registration of multiple sclerosis brain images using lesion inpainting for morphometry or lesion mapping+Human Brain Mapping+1060+4+2009+1067+M. Sdika+D. Pelletier"
+          },
+          {
+            "doi": "10.1007/978-3-642-04268-3_71",
+            "key": "ref9",
+            "score": 101.38399,
+            "unstructured": "A Demons Algorithm for Image Registration with Locally Adaptive Regularization+In: MICCAI (1)+2009+574+581+N.D. Cahill+J.A. Noble+D.J.: Hawkes"
+          },
+          {
+            "doi": "10.1016/j.media.2008.11.002",
+            "key": "ref10",
+            "score": 67.782814,
+            "unstructured": "Section on Functional Imaging and Modelling of the Heart+Medical Image Analysis+297+2+2009+M. Prastawa+E. Bullitt+Gerig+Includes Special"
+          },
+          {
+            "doi": "10.1109/42.816072",
+            "key": "ref11",
+            "score": 85.045135,
+            "unstructured": "MRI simulation-based evaluation of imageprocessing and classi cation methods+Transactions on Medical Imaging+1085+11+1999+1097+R. Kwan+A. Evans+Pike"
+          },
+          {
+            "key": "ref12",
+            "score": 32.685833,
+            "unstructured": "Inpainting and the Fundamental Problem of Image Processing+SIAM News+36+5+2003+J. Shen"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

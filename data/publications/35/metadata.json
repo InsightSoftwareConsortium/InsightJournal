@@ -76,6 +76,49 @@
     "revisions": [
       {
         "article": "bafybeia424m3a6x3gibwumo4c45csfpzpwpmj5u5gjhwxjgg5cze2y53cu",
+        "citation_list": [
+          {
+            "doi": "10.1109/42.650881",
+            "key": "ref1",
+            "score": 132.21078,
+            "unstructured": "Creating connected representations of cortical gray matter for functional MRI visualization+IEEE Trans. Med+16+1997+852+863+P. Teo+G. Sapiro+B. Wandell"
+          },
+          {
+            "doi": "10.1109/83.821747",
+            "key": "ref2",
+            "score": 104.732574,
+            "unstructured": "Knowledge-based segmentation of SAR data with learned priors+IEEE Trans. Image Proc. 9+2000+298+302+S. Haker+G. Sapiro+A. Tannenbaum"
+          },
+          {
+            "key": "ref3",
+            "score": 44.004013,
+            "unstructured": "Knowledge-based segmentation of brain mri scans+2006+J. Melonakos+A. Tannenbaum"
+          },
+          {
+            "doi": "10.1109/icip.1997.648003",
+            "key": "ref4",
+            "score": 80.10983,
+            "unstructured": "Anisotropic smoothing of posterior probabilities+In: In Proc. ICIP+1997+P. Teo+G. Sapiro+B. Wandell+Barbara Santa"
+          },
+          {
+            "doi": "10.1137/s0036139994266311",
+            "key": "ref5",
+            "score": 123.53753,
+            "unstructured": "Invariant geometric evolutions of surfaces and volumetric smoothing+SIAM J. Applied Math+57+1997+176+194+P. Olver+G. Sapiro+A. Tannenbaum"
+          },
+          {
+            "doi": "10.1109/42.363096",
+            "key": "ref6",
+            "score": 101.60066,
+            "unstructured": "Morphometric analysis of white matter lesions in mr images: Methods and validation+IEEE TMI 13+1994+716+724+A. Zijdenbos+B. Dawant+Marjolin"
+          },
+          {
+            "doi": "10.1117/12.653643",
+            "key": "ref7",
+            "score": 120.730515,
+            "unstructured": "A dorsolateral prefrontal cortex semi-automatic segmenter+2006+R. Al-Hakim+J. Fallon+D. Nain+J. Melonakos+A. Tannenbaum"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

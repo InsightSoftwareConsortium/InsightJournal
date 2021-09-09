@@ -29,6 +29,39 @@
     "revisions": [
       {
         "article": "bafkreid7pklhgm5qvc6jbjucgjqylfo55udl6fvx3yjhm3dytbnxu56wny",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 34.108566,
+            "unstructured": "The GDCM Library. CNRS+Eric Boix+Jean-Pierre Roux"
+          },
+          {
+            "key": "ref2",
+            "score": 27.426418,
+            "unstructured": "(document)+A. Descampe+F. Devaux+H. Drolon+D. Janssens+Y. Verschueren. OpenJPEG"
+          },
+          {
+            "doi": "10.1109/dcc.2000.838192",
+            "key": "ref3",
+            "score": 80.838234,
+            "unstructured": "An overview of JPEG2000+In Data Compression Conference+523+544+2000+W. Michael+Michael J. Marcellin+Martin P. Gormish+Boliek"
+          },
+          {
+            "key": "ref4",
+            "score": 34.57171,
+            "unstructured": "The dicom standard+Technical report+2004+NEMA."
+          },
+          {
+            "key": "ref5",
+            "score": 53.723648,
+            "unstructured": "Jpeg 2000 for medical imaging applications+Technical report, ISO/IEC JTC1/SC29 WG1 Committee+November 2002+1+Alexis Tzannes+Touradj Ebrahimi"
+          },
+          {
+            "key": "ref6",
+            "score": 28.450068,
+            "unstructured": "Some key advantages of jpeg 2000+Technical report+February 2002+1+1+Lev Weisfeiler"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

@@ -59,6 +59,67 @@
     "revisions": [
       {
         "article": "bafkreiateklqynbfqw7nrxi6tnjycidnvvpttk7k6csqvordc65ggsedd4",
+        "citation_list": [
+          {
+            "doi": "10.1145/1031120.1031121",
+            "key": "ref1",
+            "score": 100.00842,
+            "unstructured": "\"A review of vessel extraction techniques and algorithms,\"+ACM Computing Surveys (CSUR)+36+81+121+2004+C. Kirbas+F. Quek"
+          },
+          {
+            "doi": "10.1109/icarcv.2006.345331",
+            "key": "ref2",
+            "score": 105.59184,
+            "unstructured": "\"Image segmentation methods for detecting blood vessels in angiography,\"+in The 9th International Conference on Control, Automation, Robotics and Vision (ICARCV) Singapore+2006+A. C. Chung"
+          },
+          {
+            "doi": "10.1016/s1361-8415(97)85005-0",
+            "key": "ref3",
+            "score": 90.391846,
+            "unstructured": "\"Interactive live-wire boundary extraction,\" Medical Image Analysis+vol. 1+331+341+1996+W. A. Barrett+E. N. Mortensen"
+          },
+          {
+            "doi": "10.1006/gmip.1998.0480",
+            "key": "ref4",
+            "score": 109.4861,
+            "unstructured": "\"Interactive segmentation with intelligent scissors,\"+Graphical Models and Image Processing+60+349+384+1998+E. N. Mortensen+W. A. Barrett"
+          },
+          {
+            "doi": "10.1109/42.832960",
+            "key": "ref5",
+            "score": 115.5484,
+            "unstructured": "\"An ultra-fast user-steered image segmentation paradigm: Livewire on the fly,\"+IEEE Transactions on Medical Imaging+19+55+62+2000+A. X. Falc+J. K. Udupa+F. K. Miyazawa"
+          },
+          {
+            "doi": "10.1002/cyto.a.20022",
+            "key": "ref6",
+            "score": 149.04941,
+            "unstructured": "\"Design and validation of a tool for neurite tracing and analysis in fluorescence microscopy images,\"+Cytometry+58A+167+176+2004+E. Meijering+M. Jacob+P. J.-C. F. Sarria+H. Steiner+M. Hirling+Unser"
+          },
+          {
+            "doi": "10.1007/bfb0056195",
+            "key": "ref7",
+            "score": 108.185394,
+            "unstructured": "\"Multiscale vessel enhancement filtering,\" in 1st International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI1998) Boston+1998+A. F. Frangi+W. J. Niessen+K. L. Vincken+M. A. Viergever"
+          },
+          {
+            "doi": "10.1016/s1361-8415(98)80009-1",
+            "key": "ref8",
+            "score": 154.10712,
+            "unstructured": "\"Three-dimensional multi-scale line filter for segmentation and visualization of curvilinear structures in medical images,\" Medical Image Analysis+vol. 2+143+168+1998+Y. Sato+S. Nakajima+N. Shiraga+H. Atsumi+S. Yoshida+T. Koller+R. Kikinis"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2007.01.014",
+            "key": "ref9",
+            "score": 157.72533,
+            "unstructured": "\"Automated neurite extraction using dynamic programming for high-throughput screening of neuron-based assays,\"+NeuroImage+35+1502+1515+2007+Y. Zhang+X. Zhou+A. Degterev+M. Lipinski+D. Adjeroh+J. Yuan+S. T. C. Wong"
+          },
+          {
+            "key": "ref10",
+            "score": 47.717335,
+            "unstructured": "\"3D Segmentation in the Clinic: A Grand Challenge II - coronary artery tracking,\"+in MICCAI Workshop on 3D Segmentation in the Clinic: A Grand+2008+Niessen"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

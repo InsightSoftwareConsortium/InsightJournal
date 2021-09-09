@@ -44,6 +44,144 @@
     "revisions": [
       {
         "article": null,
+        "citation_list": [
+          {
+            "doi": "10.1145/566654.566588",
+            "key": "ref1",
+            "score": 87.5312,
+            "unstructured": "Interactive geometry remeshing+ACM Transaction on Graphics, proc. of SIGGRAPH+2002+2+354+P. Alliez+M. Desbrun"
+          },
+          {
+            "doi": "10.1145/1201775.882296",
+            "key": "ref2",
+            "score": 119.55312,
+            "unstructured": "Anisotropic polygonal remeshing+ACM Transaction on Graphics, proc. of SIGGRAPH+2003+2+493+P. Alliez+D. Cohen-Steiner+O. Devillers+B. Levy+M. Desbrun"
+          },
+          {
+            "doi": "10.1016/j.cad.2003.11.007",
+            "key": "ref3",
+            "score": 97.37498,
+            "unstructured": "Teaching meshes, subdivision and multiresolution techniques+ComputerAided Design+2004+36+2+1500+S. Bischoff+L. Kobbelt"
+          },
+          {
+            "doi": "10.1145/777792.777839",
+            "key": "ref4",
+            "score": 93.81298,
+            "unstructured": "Restricted delaunay triangulations and normal cycle+ACM Symposium on Computational Geometry+2003+2+246+D. Cohen-Steiner and J.-M. Morvan"
+          },
+          {
+            "key": "ref5",
+            "score": 47.474854,
+            "unstructured": "1993. Slides 11-13 selected at the ACM SIGGRAPH 93 Slides. 1+1+2+H. Delingette+H. Watanabe"
+          },
+          {
+            "doi": "10.1109/mnrao.1994.346242",
+            "key": "ref6",
+            "score": 98.97706,
+            "unstructured": "Adaptive and deformable models based on simplex meshes+In IEEE Workshop of NonRigid and Articulated Objects+November 1994+1+1+2+H. Delingette"
+          },
+          {
+            "key": "ref7",
+            "score": 59.8752,
+            "unstructured": "General object reconstruction based on simplex meshes+International Journal of Computer Vision+32+2+1+146+September 1999+H. Delingette"
+          },
+          {
+            "key": "ref8",
+            "score": 39.528065,
+            "unstructured": "Differential Geometry of Curves and Surfaces+1976+1+2+M. P. DoCarmo,"
+          },
+          {
+            "doi": "10.1145/218380.218440",
+            "key": "ref9",
+            "score": 109.34286,
+            "unstructured": "Multiresolution Analysis of Arbitrary Meshes, ACM computer graphics+proc. SIGGRAPH'95+173+182+1995+M. Eck+H. Hoppe+M. Lounsbery+W. Stuetzle"
+          },
+          {
+            "key": "ref10",
+            "score": 58.921337,
+            "unstructured": "Orkisz: 3D graphical models for vascular-stent pose simulation+Machine Graphics and Vision+13+2004+2+248+L. Florez-Valencia+J. Montagnat+M."
+          },
+          {
+            "doi": "10.1145/258734.258849",
+            "key": "ref11",
+            "score": 93.53617,
+            "unstructured": "Surface Simplification using quadric error metrics+ACM Computer Graphics, proc. of SIGGRAPH+1996+2+216+M. Garland+P. Heckbert"
+          },
+          {
+            "key": "ref12",
+            "score": 54.60773,
+            "unstructured": "Optimal Localization of Topological Artifacts on 3D Meshes, 11th International Conference on Geometry and Graphics, 1-5 August+2004+2+20+A. Gouaillard+H. Kawata+T. Kanai+C. Odet+X. Gu"
+          },
+          {
+            "doi": "10.1109/icip.2004.1421674",
+            "key": "ref13",
+            "score": 104.80838,
+            "unstructured": "Remeshing algorithm for multiresolution prior model in segmentation+October 24-27+2004+4+2+2756+A. Gouaillard+A. Gelas+S. Valette+E. Boix+R. Prost"
+          },
+          {
+            "doi": "10.1109/icip.2005.1529930",
+            "key": "ref14",
+            "score": 140.94865,
+            "unstructured": "Curvature-based Adaptive Remeshing for Wavelet-Based Multiresolution 3D Meshes+September 11-14+2005+2+A. Gouaillard+A. Gelas+S. Valette+E. Boix+R. Prost"
+          },
+          {
+            "key": "ref15",
+            "score": 45.56264,
+            "unstructured": "Global Conformal Surface Parameterization. Eurographics / ACM Symposium on Geometry Processing+2003+2+137+X. Gu"
+          },
+          {
+            "doi": "10.1145/282918.282923",
+            "key": "ref16",
+            "score": 103.61264,
+            "unstructured": "Primitives for the manipulation of General Subdivisions and the Computation of Voronoi Diagrams+ACM Transaction on Graphics 4:2 April+1985+2+123+3+L. Guibas+J. Stolfi"
+          },
+          {
+            "doi": "10.1145/237170.237216",
+            "key": "ref17",
+            "score": 61.732567,
+            "unstructured": "Progressive meshes+ACM Computer Graphics, proc. of SIGGRAPH+1996+2+108+H. Hoppe"
+          },
+          {
+            "doi": "10.1016/s0925-7721(99)00007-3",
+            "key": "ref18",
+            "score": 83.97263,
+            "unstructured": "Using generic programming for designing a data structure for polyhedral surfaces+Comput. Geom. Theory Appl.+1999+13+2+90+1+L. Kettner"
+          },
+          {
+            "doi": "10.1145/237748.237750",
+            "key": "ref19",
+            "score": 84.96954,
+            "unstructured": "Multiresolution Analysis for surface of Arbitrary Topological Type ACM Transactions on Graphics+1+2+73+1997+M. Lounsberry+T. Derose+J. Warren"
+          },
+          {
+            "key": "ref20",
+            "score": 48.103893,
+            "unstructured": "A compact cell structure for scientific visualization ACM Computer Graphics+SIGGRAPH Course on Multiresolution Modeling+1997+1+2+2+W. Schroeder+B. Yamrom"
+          },
+          {
+            "key": "ref21",
+            "score": 20.592518,
+            "unstructured": "1993+1+2+J. Stillwell"
+          },
+          {
+            "doi": "10.1145/218380.218473",
+            "key": "ref22",
+            "score": 79.03772,
+            "unstructured": "A signal processing approach to fair surface design+ACM Computer Graphics, proc. of SIGGRAPH+1995+2+358+G. Taubin"
+          },
+          {
+            "doi": "10.1016/b978-155860446-9/50003-x",
+            "key": "ref23",
+            "score": 60.91684,
+            "unstructured": "Subdivision Methods for Geometric Design+2001+1+2+J.D. Warren+H. Weimer"
+          },
+          {
+            "doi": "10.1145/990002.990007",
+            "key": "ref24",
+            "score": 108.38314,
+            "unstructured": "Removing excess topology from isosurfaces+ACM Transactions on Graphics+23+2004+2+208+Z. Wood+H. Hoppe+M. Desbrun+P. Schrder+April"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

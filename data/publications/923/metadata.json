@@ -76,6 +76,44 @@
     "revisions": [
       {
         "article": "bafkreiacvgwdxjbbdqpx2ica6zotx5vncvmidv2wfscodgk64v6ay4h2bi",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 35.64613,
+            "unstructured": "The dicom toolkit+Accessed: 2014-09-04+2+M. Eichelberg+M. Onken+A. Thiel"
+          },
+          {
+            "key": "ref2",
+            "score": 30.045235,
+            "unstructured": "Advance itk with modules+2014+03+Xiaoxiao Liu+Brad King+Matt McCormick"
+          },
+          {
+            "key": "ref3",
+            "score": 34.502277,
+            "unstructured": "The dicom standard+Technical report+2014+NEMA."
+          },
+          {
+            "key": "ref4",
+            "score": 26.882013,
+            "unstructured": "7+Technical Report Part 3+2014+4+NEMA.+C. Section"
+          },
+          {
+            "key": "ref5",
+            "score": 34.50291,
+            "unstructured": "The dicom standard: Spatial registration iod+Technical Report Part 3+2014+NEMA.+A. Section"
+          },
+          {
+            "key": "ref6",
+            "score": 34.502277,
+            "unstructured": "The dicom standard: Spatial registration storage sop classes+Technical Report Supp 73+2014+NEMA."
+          },
+          {
+            "doi": "10.1118/1.4754659",
+            "key": "ref7",
+            "score": 69.51424,
+            "unstructured": "(document)+Medical Physics+39+6332+2012+Csaba Pinter+Andras Lasso+An Wang+and Gabor David Jaffray+Fichtinger"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

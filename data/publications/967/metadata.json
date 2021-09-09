@@ -57,6 +57,49 @@
     "revisions": [
       {
         "article": "bafybeigu3772kwlm2tulqrpjkjydphmql56k7rhqgvh2nfitj2r4r4zw3q",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 24.549828,
+            "unstructured": "Database for Computational Anatomy+A Public Domain"
+          },
+          {
+            "doi": "10.17925/eoh.2014.10.2.98",
+            "key": "ref2",
+            "score": 65.695496,
+            "unstructured": "Neck Cancer Radiation Therapy Balancing Accuracy with E ciency in OnQ rts+European Oncology & Haematology+98+2+101+2014+Susan Barley+Andrew Hartley"
+          },
+          {
+            "doi": "10.1109/34.927467",
+            "key": "ref3",
+            "score": 103.37415,
+            "unstructured": "Active appearance models+IEEE Transactions on Pattern Analysis and Machine Intelligence+681+6+685+2001+T. F. Cootes+G. J. Edwards+C. J. Taylor"
+          },
+          {
+            "doi": "10.5244/c.19.88",
+            "key": "ref4",
+            "score": 123.214836,
+            "unstructured": "Groupwise construction of appearance models using piece-wise a ne deformations+16th British Machine Vision Conference+2+888+2005+T. F. Cootes+C. V. Petrovi+R. Schestowitz+C. Taylor"
+          },
+          {
+            "doi": "10.1186/1748-717x-8-154",
+            "key": "ref5",
+            "score": 125.3116,
+            "unstructured": "Atlas-based automatic segmentation of head and neck organs at risk and nodal target volumes: a clinical validation+Radiation Oncology+8+1+154+2013+Andreas Jean-Francois Daisne+Blumhofer"
+          },
+          {
+            "doi": "10.1016/j.media.2009.05.004",
+            "key": "ref6",
+            "score": 113.96868,
+            "unstructured": "Statistical shape models for 3d medical image segmentation: A review+Medical Image Analysis+543+4+563+2009+Tobias Heimann+Hans-Peter Meinzer"
+          },
+          {
+            "doi": "10.1186/1748-717x-7-160",
+            "key": "ref7",
+            "score": 126.13929,
+            "unstructured": "Systematic evaluation of three di erent commercial software solutions for automatic segmentation for adaptive therapy in head-and-neck, prostate and pleural cancer+Radiation Oncology+7+1+160+2012+Mariangela La+Macchia Antony J Lomax+Lamberto Widesott"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

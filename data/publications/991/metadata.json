@@ -32,6 +32,109 @@
     "revisions": [
       {
         "article": "bafybeicngsk7m3jubvlpfnfxzb3ja7yh74n7fbmqtw35eu6er3khhzmr64",
+        "citation_list": [
+          {
+            "doi": "10.1016/j.media.2012.09.004",
+            "key": "ref1",
+            "score": 105.40626,
+            "unstructured": "Review of automatic segmentation methods of multiple sclerosis white matter lesions on conventional magnetic resonance imaging+Medical Image Analysis+1+1+2+18+2013+Daniel Garc+Lorenzo+Arnold"
+          },
+          {
+            "doi": "10.1109/tmi.2011.2114671",
+            "key": "ref2",
+            "score": 135.26134,
+            "unstructured": "Trimmed-likelihood estimation for focal lesions and tissue segmentation in multisequence MRI for multiple sclerosis+IEEE Transactions on Medical Imaging+30+8+1455+1467+2011+Daniel Garc+Lorenzo+Christian Arnold+Barillot"
+          },
+          {
+            "doi": "10.1016/j.nicl.2015.05.003",
+            "key": "ref3",
+            "score": 114.2369,
+            "unstructured": "Automatic segmentation and volumetry of multiple sclerosis brain lesions from MR images+NeuroImage: Clinical+8+367+75+2015+Saurabh Jain+Martijn D. Diana M. Sima+Steenwijk+Dirk Hugo Vrenken+Smeets"
+          },
+          {
+            "doi": "10.1016/0734-189x(85)90125-2",
+            "key": "ref4",
+            "score": 111.74102,
+            "unstructured": "A new method for gray-level picture thresholding using the entropy of the histogram+Computer Vision+29+3+273+285+1985+J.N. Kapur+P.K. Sahoo+A.K.C. Wong"
+          },
+          {
+            "doi": "10.1016/j.compbiomed.2007.12.005",
+            "key": "ref5",
+            "score": 156.27678,
+            "unstructured": "Fully automatic segmentation of multiple sclerosis lesions in brain MR FLAIR images using adaptive mixtures method and markov random field model+Computers in Biology and Medicine+38+3+379+390+2008+Rasoul Khayati+Massood Nabavi"
+          },
+          {
+            "key": "ref6",
+            "score": 52.07755,
+            "unstructured": "Studies in Fuzziness and Soft Computing+2000+L Kuncheva+HD Physica-Verlag"
+          },
+          {
+            "doi": "10.1016/j.acra.2007.10.012",
+            "key": "ref7",
+            "score": 129.27971,
+            "unstructured": "Computer-Assisted Segmentation of White Matter Lesions in 3D MR Images Using Support Vector Machine+15+3+300+313+2008+Lao Zhiqiang+Lenore J. Elias R. Melhem+R. Nick Launer+Christos Bryan+Davatzikos"
+          },
+          {
+            "doi": "10.1016/j.ins.2011.10.011",
+            "key": "ref8",
+            "score": 94.90805,
+            "unstructured": "-Torrenta`, and A`lex Rovira. Segmentation of multiple sclerosis lesions in brain MRI: A review of automated approaches+Information Sciences+186+1+164+185+2012+Llado\u00b4 Xavier+Oliver Arnau"
+          },
+          {
+            "doi": "10.1007/s00234-011-0886-7",
+            "key": "ref9",
+            "score": 89.133194,
+            "unstructured": "Segmentation of multiple sclerosis lesions in MR images: a review+Neuroradiology+54+4+299+320+2012+Mortazavi Daryoush+Hamid"
+          },
+          {
+            "doi": "10.1109/tsmc.1979.4310076",
+            "key": "ref10",
+            "score": 101.4802,
+            "unstructured": "A Threshold Selection Method from Gray-Level Histograms+IEEE Transactions on Systems, Man, and Cybernetics+9+1+62+66+1979+Nobuyuki Otsu"
+          },
+          {
+            "doi": "10.1109/isbi.2006.1625012",
+            "key": "ref11",
+            "score": 179.77553,
+            "unstructured": "The NA-MIC Kit: ITK, VTK, pipelines, grids and 3D slicer as an open platform for the medical image computing community+3rd IEEE International Symposium on Biomedical Imaging: From Nano to Macro+1+701+2006+3+S Pieper+B Lorensen+W Schroeder"
+          },
+          {
+            "doi": "10.1109/isbi.2008.4540933",
+            "key": "ref12",
+            "score": 74.72267,
+            "unstructured": "An Automatic Segmentation of T2-FLAIR Multiple Sclerosis Lesions+Multiple Sclerosis+1+11+2008+J C Souplet+C Lebrun+N Ayache+G Malandain"
+          },
+          {
+            "doi": "10.1016/0734-189x(85)90133-1",
+            "key": "ref13",
+            "score": 89.93444,
+            "unstructured": "Moment-preserving thresolding: A new approach+Computer Vision+29+3+377+393+1985+Wen-Hsiang Tsai"
+          },
+          {
+            "doi": "10.1109/42.938237",
+            "key": "ref14",
+            "score": 143.41219,
+            "unstructured": "Automated segmentation of multiple sclerosis lesions by model outlier detection+IEEE transactions on medical imaging+20+8+677+88+2001+K Van Leemput+F Maes+D Vandermeulen+A Colchester+P Suetens"
+          },
+          {
+            "doi": "10.1016/j.compmedimag.2010.02.001",
+            "key": "ref15",
+            "score": 166.53442,
+            "unstructured": "Computer-aided detection of multiple sclerosis lesions in brain magnetic resonance images: False positive reduction scheme consisted of rule-based, level set method, and support vector machine+Computerized Medical Imaging and Graphics+34+5+404+413+2010+Yamamoto Daisuke+Yukunori Korogi"
+          },
+          {
+            "doi": "10.1007/s00234-014-1322-6",
+            "key": "ref16",
+            "score": 116.37626,
+            "unstructured": "Application of variable threshold intensity to segmentation for white matter hyperintensities in fluid attenuated inversion recovery magnetic resonance images+Neuroradiology+56+4+265+281+2014+Byung Il+Yoo James R. MacFall"
+          },
+          {
+            "doi": "10.1109/42.906424",
+            "key": "ref17",
+            "score": 124.36518,
+            "unstructured": "Segmentation of brain MR images through a hidden Markov random field model and the expectation-maximization algorithm+IEEE transactions on medical imaging+20+1+45+57+2001+Y Zhang+S Smith."
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

@@ -78,6 +78,75 @@
     "revisions": [
       {
         "article": null,
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 39.184494,
+            "unstructured": "Optimizing ITK's registration methods for multi-processor, shared-memory systems+paper 172+2007+2+1+S. Aylward+J. Jomier+S. Barre+B. Davis+L. Ibanez"
+          },
+          {
+            "doi": "10.1109/tvcg.2007.1001",
+            "key": "ref2",
+            "score": 133.46524,
+            "unstructured": "Comparison of four freely available frameworks for image processing and visualization that use ITK+IEEE Trans. Vis+13+483+493+2007+I. Bitter+R. Van Uitert+I. Wolf+L.+J.-M. Kuhnigk"
+          },
+          {
+            "key": "ref3",
+            "score": 39.43061,
+            "unstructured": "Image Processing+Proc. SPIE+2006+6144+3T+V. Chu+G. Hamarneh."
+          },
+          {
+            "doi": "10.1109/mc.2006.130",
+            "key": "ref4",
+            "score": 122.42392,
+            "unstructured": "An open source software toolkit for image-guided surgery+IEEE Computer+39+46+53+2006+K. Gary+D. Gobbi+M.B. Blake+K. Cleary. IGSTK"
+          },
+          {
+            "doi": "10.1007/978-3-540-75757-3_60",
+            "key": "ref5",
+            "score": 159.76173,
+            "unstructured": "Application of open source image guided therapy software in MR-guided therapies+In MICCAI 2007+491+498+2007+N. Hata+S. Piper+F.A. Jolesz+P. C.M.C. Tempany+S. Black+H. Morikawa+M. Iseki+R. Hashizume+Kikinis"
+          },
+          {
+            "doi": "10.1117/12.652102",
+            "key": "ref6",
+            "score": 89.49501,
+            "unstructured": "Image-Guided Procedures and Display+Proc. SPIE+2006+6141+20+M. Koenig+W. Spindler+J. Rexilius+J. Jomier+F. Link+-O. Peitgen"
+          },
+          {
+            "doi": "10.1109/dicta.2005.78",
+            "key": "ref7",
+            "score": 123.37325,
+            "unstructured": "Towards a visual programming environment based on ITK for medical image analysis+In Digital Image Computing: Techniques and Applications (DICTA)+558+565+2005+H.E.K. Le+R. Li+S. Ourselin"
+          },
+          {
+            "key": "ref8",
+            "score": 42.0686,
+            "unstructured": "Enhanced languages support for the Insight Toolkit+Insight Journal (www.insight-journal.org)+2006+1+2+3+G. Lehmann+Z. Pincus+B. Regrain"
+          },
+          {
+            "key": "ref9",
+            "score": 19.744522,
+            "unstructured": "2006+2+3+K. Martin+B. Hoffman"
+          },
+          {
+            "doi": "10.1145/224170.224354",
+            "key": "ref10",
+            "score": 66.09749,
+            "unstructured": "A scientific programming environment for computational steering+Proc. Supercomputing+1995+S.G. Parker+C.R. Johnson"
+          },
+          {
+            "key": "ref11",
+            "score": 32.60236,
+            "unstructured": " XIP: Extensible Imaging Platform, https://collab01a.scr.siemens.com/xipwiki/. 1"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2006.01.015",
+            "key": "ref12",
+            "score": 154.52728,
+            "unstructured": "Userguided 3D active contour segmentation of anatomical structures: Significantly improved efficiency and reliability+Neuroimage+31+3+1116+1128+2006+P.A. Yushkevich+J. Piven+H. Cody Hazlett+R. Gimpel Smith+S. Ho+J.C. Gee+G. Gerig"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

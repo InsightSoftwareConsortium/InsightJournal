@@ -53,6 +53,98 @@
     "revisions": [
       {
         "article": "bafybeiezar72cppa6zuubzxpbbhdv7frzea57x6efu6pbqqzehwu4e6zwq",
+        "citation_list": [
+          {
+            "doi": "10.1016/j.neuroimage.2009.02.018",
+            "key": "ref1",
+            "score": 145.2866,
+            "unstructured": ": Multi-atlas based segmentation of brain images: Atlas selection and its e ect on accuracy+Neuroimage+726+3+38+2009+P. Aljabar+R. Heckemann+A. Hammers+J.V. Hajnal+D. Rueckert"
+          },
+          {
+            "doi": "10.1162/089976603321780317",
+            "key": "ref2",
+            "score": 113.21504,
+            "unstructured": "Laplacian eigenmaps for dimensionality reduction and data representation+Neural computation 15(6)+1373+96+2003+M. Belkin+P. Niyogi"
+          },
+          {
+            "doi": "10.1109/tip.2009.2024064",
+            "key": "ref3",
+            "score": 129.3373,
+            "unstructured": "Nonlocal means-based speckle ltering for ultrasound images+IEEE Transactions on Image Processing+2221+10+2229+2009+P. Coupe+P. Hellier+C. Kervrann+C. Barillot"
+          },
+          {
+            "doi": "10.1109/tip.2006.881969",
+            "key": "ref4",
+            "score": 144.53902,
+            "unstructured": "Image denoising via sparse and redundant representations over learned dictionaries+IEEE Transactions on Image Processing+3736+12+3745+2006+M. Elad+M. Aharon"
+          },
+          {
+            "doi": "10.5244/c.18.34",
+            "key": "ref5",
+            "score": 92.09333,
+            "unstructured": "Spectral embedding and min cut for image segmentation+In: BMVC+1+10+2004+F.J. Estrada+A.D. Jepson+C. Chennubhotla"
+          },
+          {
+            "doi": "10.1109/tmi.2013.2246577",
+            "key": "ref6",
+            "score": 126.83509,
+            "unstructured": "MRF-based deformable registration and ventilation estimation of lung CT+IEEE Transactions on Medical Imaging+1239+7+1248+2013+M. Heinrich+M. Jenkinson+M. Brady+J.A. Schnabel"
+          },
+          {
+            "doi": "10.1109/tip.2007.911828",
+            "key": "ref7",
+            "score": 114.17126,
+            "unstructured": "Sparse representation for color image restoration+IEEE Transactions on Image Processing+53+1+69+2008+J. Mairal+M. Elad+Sapiro"
+          },
+          {
+            "doi": "10.1109/42.796284",
+            "key": "ref8",
+            "score": 149.44174,
+            "unstructured": "Nonrigid registration using free-form deformations: application to breast MR images+IEEE Transactions on Medical Imaging+712+8+721+1999+D. Rueckert+L.I. Sonoda+C. Hayes+D.L. Hill+M.O. Leach+D.J.: Hawkes"
+          },
+          {
+            "doi": "10.1109/tuffc.2005.1504017",
+            "key": "ref9",
+            "score": 130.05885,
+            "unstructured": "Maximum likelihood segmentation of ultrasound images with Rayleigh distribution+IEEE Transactions on Ultrasonics, Ferroelectrics and Frequency Control+947+6+60+2005+A. Sarti+C. Corsi+E. Mazzini+C. Lamberti"
+          },
+          {
+            "doi": "10.1007/978-3-319-10404-1_44",
+            "key": "ref10",
+            "score": 146.89017,
+            "unstructured": ": Multi-atlas spectral patchmatch: Application to cardiac image segmentation+In: Medical Image Computing and Computer-Assisted Intervention{MICCAI 2014+2014+W. Shi+H. Lombaert+W. Bai+C. Ledig+X. Zhuang+A. Marvao+T. Dawes+D. O'Regan+D. Rueckert"
+          },
+          {
+            "doi": "10.1016/j.media.2011.03.001",
+            "key": "ref11",
+            "score": 113.328896,
+            "unstructured": "Entropy and Laplacian images: Structural representations for multi-modal registration+Medical Image Analysis+1+1+17+2012+C. Wachinger+Navab"
+          },
+          {
+            "doi": "10.1109/cvpr.2010.5540018",
+            "key": "ref12",
+            "score": 108.62446,
+            "unstructured": "Locality-constrained linear coding for image classi cation+In: IEEE Conference on Computer Vision and Pattern Recognition (CVPR)+3360+3367+2010+J. Wang+J. Yang+K. Yu+F. Lv+T. Huang+Y. Gong+IEEE"
+          },
+          {
+            "doi": "10.1109/tmi.2005.852057",
+            "key": "ref13",
+            "score": 146.30331,
+            "unstructured": "Registration-assisted segmentation of real-time 3-D echocardiographic data using deformable models+IEEE Transactions on Medical Imaging+1089+9+1099+2005+V. Zagrodsky+V. Walimbe+C.R. Castro-Pareja+J.X. Qin+J.M. Song+Shekhar"
+          },
+          {
+            "doi": "10.1007/978-3-642-04268-3_26",
+            "key": "ref14",
+            "score": 144.74048,
+            "unstructured": "A dynamical shape prior for LV segmentation from RT3D echocardiography+In: Medical Image Computing and Computer-assisted Intervention{MICCAI+2009+206+213+Y. Zhu+X. Papademetris+A.J. Sinusas+J.S.: Duncan"
+          },
+          {
+            "doi": "10.1109/isbi.2010.5490183",
+            "key": "ref15",
+            "score": 131.90227,
+            "unstructured": "Registrationbased propagation for whole heart segmentation from compounded 3D echocardiography+In: IEEE International Symposium on Biomedical Imaging+1093+1096+2010+X. Zhuang+C. Yao+Y. Ma+D. Hawkes+G. Penney+S. Ourselin+IEEE"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

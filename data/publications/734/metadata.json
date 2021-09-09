@@ -95,6 +95,75 @@
     "revisions": [
       {
         "article": "bafybeico4id5mqslbjdjjylh5vwfyoo54xjk27yyk2zdmpdwpoz7b6rbvy",
+        "citation_list": [
+          {
+            "doi": "10.1007/978-3-642-04268-3_14",
+            "key": "ref1",
+            "score": 153.54175,
+            "unstructured": "Single fiber optical coherence tomography microsurgical instruments for computer and robot-assisted retinal surgery+In Medical Image Computing and Computer Assisted Intervention (MICCAI)+2+115+Sep 2009+3+M. Balicki+I+P. Gehlbach+J. Handa+R. H. Taylor+J. Kang"
+          },
+          {
+            "doi": "10.1109/iros.2005.1545523",
+            "key": "ref2",
+            "score": 106.07182,
+            "unstructured": "Towards component-based robotics+In Intl. Conf. on Intelligent Robots and Systems (IROS)+1+168+Aug 2005+A. Brooks+T. Kaupp+A. Makarenko+S. Williams+A. Oreback"
+          },
+          {
+            "doi": "10.1109/robot.2003.1242011",
+            "key": "ref3",
+            "score": 116.00725,
+            "unstructured": "The real-time motion control core of the Orocos project+In IEEE Intl. Conf. on Robotics and Automation (ICRA)+2+1+2771+Sep 2003+H. Bruyninckx+P. Soetens+B. Koninckx."
+          },
+          {
+            "key": "ref4",
+            "score": 44.48543,
+            "unstructured": "The cisst libraries for computer assisted intervention systems+In MICCAI Workshop on Systems and Arch+2008+1+2+A. Deguet+R. Kumar+R. Taylor+P. Kazanzides"
+          },
+          {
+            "key": "ref5",
+            "score": 32.841026,
+            "unstructured": "The da Vinci research interface+In MICCAI Workshop on Systems and Arch+2008+2+S. DiMaio+C. Hasser"
+          },
+          {
+            "doi": "10.1007/978-3-540-68951-5_16",
+            "key": "ref6",
+            "score": 70.20556,
+            "unstructured": "The Player/Stage project: Tools for multi-robot and distributed sensor systems+In Proc. Intl. Conf. on Advanced Robotics (ICAR)+317+323+2003+B. P. Gerkey+R. T. Vaughan+A. Howard"
+          },
+          {
+            "key": "ref7",
+            "score": 53.64246,
+            "unstructured": "Workstation (SAW) application for a teleoperated surgical robot system+In MICCAI Workshop on Systems and Arch+2009+2+M. Y. Jung+T. Xia+R. Kumar+A. Deguet+R. Taylor+P. Kazanzides. A Surgical Assistant"
+          },
+          {
+            "doi": "10.1109/tepra.2008.4686679",
+            "key": "ref8",
+            "score": 123.65291,
+            "unstructured": "An architecture for safe and efficient multi-threaded robot software+In Technologies for Practical Robot Applications (TePRA)+2+93+2008+1+P. Kazanzides+A. Deguet+A. Kapoor"
+          },
+          {
+            "key": "ref9",
+            "score": 58.28014,
+            "unstructured": "ROS: an open-source Robot Operating System+In ICRA Workshop on Open Source Software+2009+M. Quigley+K. Conley+B. Gerkey+J. Faust+J. Foote+R. Leibs+Wheeler+A. Y. Ng"
+          },
+          {
+            "doi": "10.1007/978-3-642-13711-2_7",
+            "key": "ref10",
+            "score": 103.49629,
+            "unstructured": "Robotassisted laparoscopic ultrasound+In Information Processing in Computer-Assisted Interventions (IPCAI)+Jun 2010+3+1+G. W. C. M. Schneider+II Dachs+M. A. C. J. Hasser+S. P. Choti+R. H. DiMaio+Taylor"
+          },
+          {
+            "doi": "10.1002/rcs.274",
+            "key": "ref11",
+            "score": 161.13138,
+            "unstructured": "OpenIGTLink: an open network protocol for image-guided therapy environment+Intl. Journal of Medical Robotics and Computer Assisted Surgery+5+4+1+434+Dec 2009+J. Tokuda+G. S. Fischer+X. Papademetris+Z. Yaniv+L. Ibanez+J. Blevins+J. Arata+A. J. Golby+T. Kapur+S. Pieper+E. C. Burdette+C. M. Tempany+N. Hata"
+          },
+          {
+            "key": "ref12",
+            "score": 53.644913,
+            "unstructured": "The Surgical Assistant Workstation: a software framework for telesurgical robotics research+In MICCAI Workshop on Systems and Arch+2008+2+B. Vagvolgyi+P. Kazanzides+R. Kumar+C. Hasser+R. Taylor"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

@@ -90,6 +90,55 @@
     "revisions": [
       {
         "article": "bafybeicpu7gu4nj7szwnb6rn2hze4zzxl5jkvpbhr42xueee5yaukafnku",
+        "citation_list": [
+          {
+            "doi": "10.1137/040616024",
+            "key": "ref1",
+            "score": 103.41396,
+            "unstructured": "A review of image denoising algorithms, with a new one+Multiscale Modeling and Simulation+4+2+490+530+2005+A. Buades+B. Coll+J.M. Morel"
+          },
+          {
+            "doi": "10.1109/tmi.2007.906087",
+            "key": "ref2",
+            "score": 122.19555,
+            "unstructured": "An optimized blockwise non local means denoising filter for 3D magnetic resonance images+In press. 1+P. Coupe+\u00b4+P. Yger+S. Prima+P. Hellier+C. Kervrann+C. Barillot"
+          },
+          {
+            "key": "ref3",
+            "score": 31.103365,
+            "unstructured": "\u00a8ck. Polynomial Expansion for Orientation and Motion Estimation+PhD thesis+2002+3+G. Farneba"
+          },
+          {
+            "doi": "10.1016/j.media.2007.01.002",
+            "key": "ref4",
+            "score": 146.88068,
+            "unstructured": "Non-parametric geodesic active regions: method and evaluation for cerebral aneurysms segmentation in 3DRA and CTA+Medical Image Analysis+11+3+224+241+2007+M. Hernandez+A.F. Frangi"
+          },
+          {
+            "doi": "10.1109/iembs.2003.1279838",
+            "key": "ref5",
+            "score": 129.32214,
+            "unstructured": "Multiscale segmentation of the aorta in 3d ultrasound images+In 25th Annual Int. Conf. of the IEEE Engineering in Medicine and Biology Society (EMBS)+3+641+September 2003+K. Krissian+J. Ellsmere+K. Vosburgh+R. Kikinis+C.-F. Westin+Mexico Cancun"
+          },
+          {
+            "doi": "10.1142/9789812701046_0011",
+            "key": "ref6",
+            "score": 106.96888,
+            "unstructured": "Farneba\u00a8ck+Medical Imaging Systems Technology: Methods in Cardiovascular and Brain Systems, chapter Techniques in the Enhancement of 3D Angiograms and their Applications+359+396+2005+K. Krissian+G."
+          },
+          {
+            "doi": "10.1006/cviu.2000.0866",
+            "key": "ref7",
+            "score": 109.68912,
+            "unstructured": "Model based detection of tubular structures in 3d images+Computer Vision+3+2+3+171+2000+K. Krissian+N. Ayache+R. Vaillant+Y. Trousset"
+          },
+          {
+            "doi": "10.1007/bfb0033757",
+            "key": "ref8",
+            "score": 135.78358,
+            "unstructured": "Scale-space: Its natural operators and differential invariants+In Proceedings of the 12th International Conference on Information Processing in Medical Imaging+239+255+1991+B.M. ter Haar Romeny+L. Florack+J.J. Koenderink+M.A. Viergever"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

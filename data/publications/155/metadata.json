@@ -71,6 +71,82 @@
     "revisions": [
       {
         "article": "bafybeidvrko7gvcg7iwbf7rbqahpc5akoqoixcmezzjg2exh4ls7qyua5q",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 51.86079,
+            "unstructured": "A Wavelet Tour of Signal Processing+1998+1+1+S. Mallat"
+          },
+          {
+            "doi": "10.1007/11566489_57",
+            "key": "ref2",
+            "score": 114.81326,
+            "unstructured": "Multiscale 3d shape analysis using spherical wavelets+In MICCAI, LNCS 3750+459+467+2005+D. Nain+S. Haker+A. Bobick+A. Tannenbaum"
+          },
+          {
+            "doi": "10.1007/11866565_9",
+            "key": "ref3",
+            "score": 109.128044,
+            "unstructured": "Shape-driven surface segmentation using spherical wavelets+MICCAI+66+74+2006+D. Nain+S. Haker+A. Bobick+A. Tannenbaum"
+          },
+          {
+            "key": "ref4",
+            "score": 50.36558,
+            "unstructured": "(document)+April+2007+D. Nain+S. Haker+A. Bobick+A. Tannenbaum"
+          },
+          {
+            "doi": "10.1109/isbi.2007.356825",
+            "key": "ref5",
+            "score": 153.99217,
+            "unstructured": "Statistical shape analysis of brain structures using spherical wavelets+In IEEE International Symposium on Biomedical Imaging (ISBI)+2007+4+D. Nain+M. Styner+M. Niethammer+J. J. Levitt+M. E. Shenton+G. Gerig+A. Bobick+A. Tannenbaum"
+          },
+          {
+            "key": "ref6",
+            "score": 31.421728,
+            "unstructured": "Kwmeshvisu: A mesh visualization tool for shape analysis+Insight Journal+1926+2+4+I. Oguz+S. Barre+M. Styner"
+          },
+          {
+            "doi": "10.1007/978-3-7091-9430-0_24",
+            "key": "ref7",
+            "score": 72.951805,
+            "unstructured": "Spherical wavelets: Texture processing+In Rendering Techniques '95+1995+1+1+2+P. Schro+W. Sweldens"
+          },
+          {
+            "doi": "10.1145/218380.218439",
+            "key": "ref8",
+            "score": 101.05137,
+            "unstructured": "Spherical wavelets: Efficiently representing functions on the sphere+Computer Graphics Proceedings (SIGGRAPH 95)+2+172+1995+1+Peter Schro+Wim Sweldens"
+          },
+          {
+            "doi": "10.1109/isbi.2007.356825",
+            "key": "ref9",
+            "score": 69.06755,
+            "unstructured": "Framework for the statistical shape analysis of brain structures using spharm-pdm+Insight Journal+1926+M. Styner+S. Xu+C. Brechbuehler+D. Pantazis+J. Levitt+M. Shenton+G. Gerig"
+          },
+          {
+            "doi": "10.1046/j.1365-8711.1999.02992.x",
+            "key": "ref10",
+            "score": 93.54969,
+            "unstructured": "(document)+Monthly Notices of the Royal Astronomical Society+310+3+823+December 1999+L Tenorio+A. H Jaffe+S Hanany+C. H Lineweaver"
+          },
+          {
+            "doi": "10.1016/j.cviu.2004.03.017",
+            "key": "ref11",
+            "score": 116.17028,
+            "unstructured": "Data compression with spherical wavelets and wavelets for the image-based relighting+Comput. Vis. Image Underst+96+3+327+344+2004+Wang Ze+Leung Chi-Sing+Yi-Sheng Zhu+Tien-Tsin Wong"
+          },
+          {
+            "doi": "10.1109/cvprw.2006.62",
+            "key": "ref12",
+            "score": 92.312675,
+            "unstructured": "(document)+In IEEE Computer Society Workshop on Mathematical Methods in Biomedical Image Analysis (MMBIA)+June 2006+P. Yu+X. Han+F. Segonne+R. L. Buckner+R. Pienaar+P. Golland+P. E. Grant+B. Fischl"
+          },
+          {
+            "key": "ref13",
+            "score": 50.56677,
+            "unstructured": "Shape analysis of neuroanatomical structures based on spherical wavelets+In Human Brain Mapping (HBM)+2005+P. Yu+F. Segonne+B. Fischl"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

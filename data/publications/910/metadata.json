@@ -52,6 +52,62 @@
     "revisions": [
       {
         "article": "bafybeihdgh67cqjyvl63sdgewydnafzfuqe7vcm7ws2vwqvxpug4md5wvq",
+        "citation_list": [
+          {
+            "doi": "10.1109/cbms.2012.6266304",
+            "key": "ref1",
+            "score": 144.56644,
+            "unstructured": "Approach to Adaptive Mean Shift Segmentation of Brain Images+In: 25th IEEE International Conference on Computer Based Medical Systems (CBMS)+1+6+2012+Q. Mahmood+A. Chodorowski+A. Mehnert+M. Persson+A Novel Bayesian"
+          },
+          {
+            "doi": "10.1109/42.811270",
+            "key": "ref2",
+            "score": 109.61993,
+            "unstructured": "Automated modelbased tissue classification of MR images of the brain+IEEE Trans. Med+18+897+908+1999+Van Leemput+K. Maes+F. Vandeurmeulen+D. Suetens+P."
+          },
+          {
+            "doi": "10.1109/tmi.2006.880668",
+            "key": "ref3",
+            "score": 131.77301,
+            "unstructured": "Constrained Gaussian mixture model framework for automatic segmentation of MR brain images+IEEE Trans. Med+25+1233+1245+2006+H. Greenspan+A. Ruf+Goldberger"
+          },
+          {
+            "doi": "10.1109/tmi.2009.2013850",
+            "key": "ref4",
+            "score": 94.97364,
+            "unstructured": "An adaptive mean-shift framework for MRI brain segmentation+IEEE Trans. Med+28+1238+1249+2009+A. Mayer+H. Greenspan"
+          },
+          {
+            "doi": "10.1109/tmi.2002.803119",
+            "key": "ref5",
+            "score": 110.989494,
+            "unstructured": "An accurate and ecient Bayesian method for automatic segmentation of brain MRI+IEEE Trans. Med+21+934+944+2002+J. L. Marroquin+B. C. Vemuri+S. Botello+F. Calderon"
+          },
+          {
+            "doi": "10.1109/42.906424",
+            "key": "ref6",
+            "score": 122.30485,
+            "unstructured": "Segmentation of brain MR images through a Hidden Markov Random Field Model and the Expectation Maximization algorithm+IEEE Trans. Med+20+45+57+2001+Y. Brady+M. Smith+S."
+          },
+          {
+            "doi": "10.1109/iembs.2006.260480",
+            "key": "ref7",
+            "score": 121.850586,
+            "unstructured": "Segmenting brain MRI using adaptive mean shift+In: Annual International Conference of the IEEE Engineering in Medicine and Biology Society+3114+3117+2006+R. J. Jimenez-Alaniz+M. Pohl-Alfaro+V. Medina-Bafluelos"
+          },
+          {
+            "doi": "10.1109/34.1000236",
+            "key": "ref8",
+            "score": 112.415504,
+            "unstructured": "A robust approach toward feature space analysis+IEEE Trans. Pattern Analysis Machine Intell+20+603+619+2002+D. Comaniciu+P.: Meer"
+          },
+          {
+            "doi": "10.1109/tsmcb.2009.2020688",
+            "key": "ref9",
+            "score": 92.28485,
+            "unstructured": "Kernel bandwidth estimation for nonparametric modeling+IEEE Trans. SMC 39+1543+1555+2009+A. G. Bors+Nasios"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

@@ -39,6 +39,32 @@
     "revisions": [
       {
         "article": "bafkreigle42jx5ilk4frwof2tg3uytmqilko7bsheiywn4o2qpanzo5yg4",
+        "citation_list": [
+          {
+            "doi": "10.1109/34.24792",
+            "key": "ref1",
+            "score": 118.8518,
+            "unstructured": "Principal warps: Thin-plate splines and the decomposition of deformations+IEEE Trans. Pattern Analysis and Machine Intelligence+1+6+2+585+1989+L. Fred+Bookstein"
+          },
+          {
+            "doi": "10.1109/42.585766",
+            "key": "ref2",
+            "score": 105.1201,
+            "unstructured": "A physics-based coordinate transformation for 3-d image matching+IEEE Trans. Medical Imaging+16+3+317+328+1997+H. Malcolm+Duane P. Davis+Steven E. Flamig+Harms"
+          },
+          {
+            "doi": "10.2514/3.44330",
+            "key": "ref3",
+            "score": 75.951004,
+            "unstructured": "Interpolation using surface splines+Journal of Aircraft+1+2+2+191+1972+R. L. Harder+R. N. Desmarais"
+          },
+          {
+            "doi": "10.1109/iembs.1996.652767",
+            "key": "ref4",
+            "score": 85.51889,
+            "unstructured": "Thin-plate spline approximation for image registration+In 18th Internat. Conf. of the IEEE Engineering in Medicine and Biology Society+1996+Rainer Sprengel+H. Sigfried Steihl"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

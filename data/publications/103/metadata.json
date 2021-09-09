@@ -35,6 +35,158 @@
     "revisions": [
       {
         "article": "bafybeigoekeevtevx4bu3kzb7ik5guseuasusj6nliqi72viozt2b6atbi",
+        "citation_list": [
+          {
+            "doi": "10.1109/tcom.1983.1095851",
+            "key": "ref1",
+            "score": 93.77093,
+            "unstructured": "The laplacian pyramid as a compact image code+In IEEE Transactions on Communications+3+2+540+1983+P. Burt+E. Adelson."
+          },
+          {
+            "key": "ref2",
+            "score": 28.765888,
+            "unstructured": "-image-fusion-code+zip. 2+2003+E. Canga"
+          },
+          {
+            "key": "ref3",
+            "score": 48.69471,
+            "unstructured": "Multivariate image analysis+1996+P. Geladi+H. Grahn"
+          },
+          {
+            "key": "ref4",
+            "score": 46.448162,
+            "unstructured": "Mathematical techniques in multi-sensor data fusion+Artech House+2004+D. Hall"
+          },
+          {
+            "doi": "10.1201/9781420038545",
+            "key": "ref5",
+            "score": 90.57338,
+            "unstructured": "Multisensor data fusion+The Handbook of Multisensor Data Fusion. CRC Press, Boca Raton+2001+D. Hall+J. Llinas"
+          },
+          {
+            "doi": "10.1016/j.inffus.2005.09.006",
+            "key": "ref6",
+            "score": 97.502884,
+            "unstructured": "Region-based image fusion using complex wavelets+In Seventh International Conference on Information Fusion (FUSION)+2+5+562+2004+3+J. Lewis+R O 'Callaghan+S. Nikolov+D. Bull+C. Canagarajah"
+          },
+          {
+            "doi": "10.1006/gmip.1995.1022",
+            "key": "ref7",
+            "score": 113.67423,
+            "unstructured": "Multisensor image fusion using the wavelet transform+Graphical Models and Image Processing+3+3+2+245+1995+H. Li+B. Manjunath+S. Mitra"
+          },
+          {
+            "doi": "10.1109/itsc.2003.1251928",
+            "key": "ref8",
+            "score": 88.33899,
+            "unstructured": "A region-based image fusion algorithm using multiresolution segmentation+In IIntelligent Transportation Systems+1+96+101+2003+Z. Li+Z. Jing+S. Sun+H. Leung"
+          },
+          {
+            "doi": "10.1049/ip-vis:19941184",
+            "key": "ref9",
+            "score": 107.26308,
+            "unstructured": "Multiresolution morphological fusion of MR and CT images of the human brain+IEE Proceedings- Vision, Image and Signal Processing+3+3+2+142+1994+G. Matsopoulos+S. Marshall+J. Brunt"
+          },
+          {
+            "doi": "10.1016/s0031-3203(00)00123-0",
+            "key": "ref10",
+            "score": 106.97988,
+            "unstructured": "Fusion of 2D grayscale images using multiscale morphology+Pattern Recognition+3+2+5+1949+2001+S. Mukhopadhyay+B. Chanda"
+          },
+          {
+            "doi": "10.1049/cp:19990318",
+            "key": "ref11",
+            "score": 87.08203,
+            "unstructured": "Image fusion using a 3-D wavelet transform+In Seventh International Conference on Image Processing And Its Applications+3+2+239+1999+S. Nikolov+D. Bull+C. Canagarajah+M. Halliwell+P. Wells"
+          },
+          {
+            "doi": "10.1007/978-94-015-9715-9_8",
+            "key": "ref12",
+            "score": 102.27248,
+            "unstructured": "Wavelets for image fusion+Wavelets in signal and image analysis+2+244+2001+3+S. Nikolov+P. Hill+D. Bull+C. Canagarajah"
+          },
+          {
+            "doi": "10.1109/icif.2006.301565",
+            "key": "ref13",
+            "score": 91.132324,
+            "unstructured": "Hybrid fused displays: Between pixeland region-based image fusion+Proceedings of the Seventh International Conference on Information Fusion (FUSION+2004+2+1072+1079+S. Nikolov+J. Lewis+R. O 'Callaghan+D. Bull+C. Canagarajah"
+          },
+          {
+            "doi": "10.1016/j.inffus.2005.05.001",
+            "key": "ref14",
+            "score": 79.48205,
+            "unstructured": "Subjective tests for image fusion evaluation and objective metric validation+Information Fusion+2006+V. Petrovic"
+          },
+          {
+            "doi": "10.1016/s1566-2535(03)00046-0",
+            "key": "ref15",
+            "score": 76.899284,
+            "unstructured": "A general framework for multiresolution image fusion: from pixels to regions+(document)+2002+2+3+5+G. Piella"
+          },
+          {
+            "key": "ref16",
+            "score": 44.732903,
+            "unstructured": "Adaptive wavelets and their application to image fusion and compression+PhD dissertation+2003+G. Piella"
+          },
+          {
+            "doi": "10.1016/s1566-2535(03)00046-0",
+            "key": "ref17",
+            "score": 106.908936,
+            "unstructured": "A general framework for multiresolution image fusion: from pixels to regions+Information Fusion+3+4+1+280+2003+G. Piella"
+          },
+          {
+            "doi": "10.1109/icip.2003.1247209",
+            "key": "ref18",
+            "score": 90.229294,
+            "unstructured": "A new quality metric for image fusion+IEEE International Conference on Image Processing+3+173+176+2003+G. Piella+H. Heijmans"
+          },
+          {
+            "doi": "10.1117/1.1303728",
+            "key": "ref19",
+            "score": 93.22623,
+            "unstructured": "Contrast-based image fusion using the discrete wavelet transform+Optical Engineering+39+8+2075+2082+2000+T. Pu+G. Ni"
+          },
+          {
+            "doi": "10.1049/el:20020212",
+            "key": "ref20",
+            "score": 78.69152,
+            "unstructured": "Information measure for performance of image fusion+Electronics Letters+38+7+313+315+2002+G. Qu+D. Zhang+P. Yan"
+          },
+          {
+            "doi": "10.1109/icip.1997.632093",
+            "key": "ref21",
+            "score": 104.43315,
+            "unstructured": "Image sequence fusion using a shift-invariant wavelet transform+In International Conference on Image Processing+3+2+291+1997+O. Rockinger"
+          },
+          {
+            "key": "ref22",
+            "score": 33.45996,
+            "unstructured": "Image fusion toolbox for Matlab+Technical report, Metapix+1999+2+3+2+O. Rockinger"
+          },
+          {
+            "doi": "10.1117/12.484886",
+            "key": "ref23",
+            "score": 139.76965,
+            "unstructured": "Performance comparison of different graylevel image fusion schemes through a universal image quality index+Signal Processing, Sensor Fusion, and Target Recognition XII+5096+552+561+2003+A. Toet+M. Hogervorst"
+          },
+          {
+            "key": "ref24",
+            "score": 46.444237,
+            "unstructured": "Engineering and algorithm design for an image processing API: A technical report on ITK - the Insight Toolkit+Proc. of Medicine Meets Virtual Reality+586+592+2002+T. Yoo+M. Ackerman+W. Lorensen+W. Schroeder+V. Chalana+S. Aylward+D. Metaxes+R. Whitaker"
+          },
+          {
+            "doi": "10.1117/12.523966",
+            "key": "ref25",
+            "score": 111.89873,
+            "unstructured": "An advanced image fusion algorithm based on wavelet transform: incorporation with PCA and morphological processing+In Image Processing: Algorithms and Systems III+5298+177+187+2004+Y. Zheng+B. Hansen"
+          },
+          {
+            "doi": "10.1016/j.inffus.2005.04.003",
+            "key": "ref26",
+            "score": 118.98401,
+            "unstructured": "A new metric based on extended spatial frequency and its application to DWT based fusion algorithms+Information Fusion+2006+Y. Zheng+E. Essock+B. Hansen+A. Haun"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,

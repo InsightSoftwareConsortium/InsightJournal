@@ -55,6 +55,125 @@
     "revisions": [
       {
         "article": "bafybeicprpbiuqbu3gioa55fe2t7nuhfvie2q2s5ad6h6oit6tgs2jq75m",
+        "citation_list": [
+          {
+            "key": "ref1",
+            "score": 43.400345,
+            "unstructured": "Skull-stripping for Tumor-bearing Brain Images+SSBE. arXiv:1204.0357. 1+April 2011+2+Stefan Bauer+Mauricio Lutz-Peter Nolte+Reyes"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2011.03.045",
+            "key": "ref2",
+            "score": 115.27488,
+            "unstructured": "Simple paradigm for extra-cerebral tissue removal: Algorithm and analysis+NeuroImage+56+4+1982+1992+March 2011+Aaron Carass+M Bryan Wheeler+Bazin Pierre-Louis+Susan M Resnick"
+          },
+          {
+            "key": "ref3",
+            "score": 33.785454,
+            "unstructured": "BrainWeb: Online interface to a 3D MRI simulated brain database+Neuroimage+5+4+1997+C.A. Cocosco+V. Kollokian+R.S. Kwan+A.C. Evans"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2011.09.012",
+            "key": "ref4",
+            "score": 85.82473,
+            "unstructured": "BEaST: Brain extraction based on nonlocal segmentation technique+NeuroImage+59+3+1+2373+September 2011+F Eskildsen Simon+Fonov Vladimir+D Louis"
+          },
+          {
+            "doi": "10.1002/hbm.20161",
+            "key": "ref5",
+            "score": 115.82509,
+            "unstructured": "Quantitative evaluation of automated skull-stripping methods applied to contemporary and legacy images: effects of diagnosis, bias correction, and slice location+Human brain mapping+27+2+1+113+February 2006+Christine Fennema-Notestine+I Burak Ozyurt Amanda+BischoffGrethe+David E Rex"
+          },
+          {
+            "doi": "10.1007/978-3-540-40899-4_14",
+            "key": "ref6",
+            "score": 111.108955,
+            "unstructured": "The skull stripping problem in MRI solved by a single 3D watershed transform+In Medical Image Computing and Computer-Assisted InterventionMICCAI+2000+129+145+H. Hahn+H.O. Peitgen"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2005.10.043",
+            "key": "ref7",
+            "score": 174.47911,
+            "unstructured": "AI Scher, ESC Korf, LR White, and LJ Launer. Analysis and validation of automated skull stripping tools: a validation study based on 296 MR images from the Honolulu Asia aging study+Neuroimage+30+4+1179+1186+2006+SW Hartley"
+          },
+          {
+            "key": "ref8",
+            "score": 25.99433,
+            "unstructured": "The ITK software guide. Citeseer+2003+L. Ibanez+Will Schroeder+L. Ng+J. Cates+Others"
+          },
+          {
+            "doi": "10.1109/tmi.2011.2138152",
+            "key": "ref9",
+            "score": 108.1338,
+            "unstructured": "Robust brain extraction across datasets and comparison with publicly available methods+IEEE transactions on medical imaging+30+9+1+34+September 2011+Juan Eugenio Iglesias+and Zhuowen Tu"
+          },
+          {
+            "doi": "10.1016/s0010-4825(03)00022-2",
+            "key": "ref10",
+            "score": 105.34974,
+            "unstructured": "Evaluation of automated and semi-automated skull-stripping algorithms using similarity index and segmentation error+Computers in Biology and Medicine+33+6+1+507+November 2003+J Lee"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2009.08.050",
+            "key": "ref11",
+            "score": 119.3551,
+            "unstructured": "Skull stripping using graph cuts+NeuroImage+49+1+225+239+2010+S.A. Sadananthan+M.W.L. Chee+Vitali Zagorodnov"
+          },
+          {
+            "doi": "10.1109/42.552054",
+            "key": "ref12",
+            "score": 108.80953,
+            "unstructured": "Surface-based labeling of cortical anatomy using a deformable atlas+IEEE transactions on medical imaging+16+1+1+54+February 1997+S Sandor and R Leahy"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2004.03.032",
+            "key": "ref13",
+            "score": 126.33743,
+            "unstructured": "A hybrid approach to the skull stripping problem in MRI+22+3+1060+1075+2004+F. Se+A.M. Dale+E Busa+M Glessner+D Salat+H.K. Hahn+B Fischl"
+          },
+          {
+            "doi": "10.1016/j.neuroimage.2008.10.066",
+            "key": "ref14",
+            "score": 62.61762,
+            "unstructured": "Online resource for validation of brain segmentation methods+NeuroImage+1+2+4+9+April 2009+W Shattuck David"
+          },
+          {
+            "doi": "10.1007/978-3-642-23626-6_39",
+            "key": "ref15",
+            "score": 112.0356,
+            "unstructured": "Learning-Based Meta-Algorithm for MRI Brain Extraction+MICCAI - Medical Image Computing and Computer Assisted Interventions+313+321+2011+Shi Feng+Li Wang+J Gilmore+Weili Lin+and Dinggang Shen"
+          },
+          {
+            "doi": "10.1002/hbm.10062",
+            "key": "ref16",
+            "score": 67.36425,
+            "unstructured": "Fast robust automated brain extraction+Human brain mapping+17+3+1+55+November 2002a+M Stephen+Smith."
+          },
+          {
+            "doi": "10.1007/978-3-642-23626-6_81",
+            "key": "ref17",
+            "score": 140.50348,
+            "unstructured": "Robust Skull Stripping of Clinical Glioblastoma Multiforme Data+MICCAI - Medical Image Computing and Computer Assisted Interventions+659+666+2011+William Speier+J Iglesias+L El-Kara+Zhuowen Tu+Corey Arnold"
+          },
+          {
+            "doi": "10.4310/cms.2003.v1.n4.a1",
+            "key": "ref18",
+            "score": 72.11189,
+            "unstructured": "Level Set Methods and their Applications in Image Science+Communications in Mathematical Sciences+1+4+623+656+2003+Richard Tsai+Stanley Osher"
+          },
+          {
+            "doi": "10.1007/978-3-642-23626-6_78",
+            "key": "ref19",
+            "score": 100.48075,
+            "unstructured": "Robust DeformableSurface-Based Skull-Stripping for Large-Scale Studies+MICCAI - Medical Image Computing and Computer Assisted Interventions+635+642+2011+Wang Yaping+Lei Guo+Dinggang Shen"
+          },
+          {
+            "doi": "10.1016/s0262-8856(03)00137-9",
+            "key": "ref20",
+            "score": 89.51295,
+            "unstructured": "Image registration methods: a survey+Image and Vision Computing+21+11+2+1000+October 2003+Barbara Zitova+Jan Flusser"
+          }
+        ],
         "dapp": null,
         "dataset": null,
         "doi": null,
