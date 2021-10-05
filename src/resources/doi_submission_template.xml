@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doi_batch xmlns="http://www.crossref.org/schema/4.4.2" xmlns:ai="http://www.crossref.org/AccessIndicators.xsd" xmlns:rel="http://www.crossref.org/relations.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="4.4.2" xsi:schemaLocation="http://www.crossref.org/schema/4.4.2 http://www.crossref.org/schemas/crossref4.4.2.xsd">
+  <head>
+    <doi_batch_id>{doi_batch_id}</doi_batch_id>
+    <timestamp>{timestamp}</timestamp>
+    <depositor>
+      <depositor_name>InsightJournal Bot</depositor_name>
+      <email_address>insight.journal.bot@gmail.com</email_address>
+    </depositor>
+    <registrant>Insight Software Consortium</registrant>
+  </head>
+  <body>
+    <journal>
+      <journal_metadata>
+        <full_title>{journal_name}</full_title>
+        {journal_issn_xml}
+      </journal_metadata>
+      {journal_issue_xml}
+      <journal_article publication_type="full_text">
+        <titles>
+          <title>{title}</title>
+        </titles>
+        {contributors_xml}
+        {publication_date_xml}
+        <publisher_item>
+          <identifier id_type="doi">{formatted_doi}</identifier>
+        </publisher_item>
+        <ai:program name="AccessIndicators">
+          <ai:license_ref applies_to="vor">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="am">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="tdm">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+        </ai:program>
+        <doi_data>
+          <doi>{formatted_doi}</doi>
+          <resource>{ij_resource_url}</resource>
+          {collection_xml}
+        </doi_data>
+        {citation_list_xml}
+      </journal_article>
+    </journal>
+  </body>
+</doi_batch>
