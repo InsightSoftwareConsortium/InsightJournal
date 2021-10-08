@@ -26,7 +26,8 @@ from datetime import datetime
 from dateutil.parser import parse as dateutil_parse
 import random
 import csv
-import uuid
+import string
+import secrets
 import requests
 
 
@@ -89,10 +90,13 @@ def generate_unique_doi_suffix():
 
     all_dois = get_doi_list()
 
+    alphabet = string.ascii_letters + string.digits
+    doi_length = 12
+
     id = ''
     id_is_unique = False
     while not id_is_unique:
-        id = uuid.uuid4().hex[:12]
+        id = ''.join(secrets.choice(alphabet) for i in range(doi_length))
         id_is_unique = not id in all_dois
     return id
 
