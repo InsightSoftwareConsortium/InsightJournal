@@ -212,8 +212,8 @@ def build_xml_dictionary(metadata, verbose=False):
     meta_xml["journal_issn_xml"] = '' #handle the null case
     if journal_id: # not null
         # issn
-        journal_issn = ij_journals_issn[journal_id]
-        if journal_issn:
+        journal_issn = ij_journals_issn.get(journal_id)
+        if journal_issn: # Journal with issn
             journal_issn_tag = E.issn(
                 journal_issn,
                 media_type="electronic")
