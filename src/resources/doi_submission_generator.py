@@ -347,9 +347,6 @@ if __name__ == '__main__':
 
     parser.add_argument("-i", "--input-metadata", dest="input_metadata",
                         help="Path to metadata.json associated to publication.")
-    parser.add_argument("-n", "--no-write-output-json",
-                        dest="no_write_output_json", action='store_true',
-                        help="Avoid writing .json files with citation_list")
     parser.add_argument("-v", "--verbose",
                         dest="verbose", action='store_true',
                         help="Print the output dict")
@@ -363,7 +360,7 @@ if __name__ == '__main__':
                         help="Upload to crossref. Credentials, password")
     parser.add_argument("--test", dest="test", action='store_true',
                         help="Upload to crossref. But use test server.")
-    parser.add_argument("-o, --output-folder", dest="output_folder", default="/tmp",
+    parser.add_argument("-o","--output-folder", dest="output_folder", default="/tmp",
                         help="Output folder to write down the filled xml before uploading to crossref.")
     args = parser.parse_args()
     print(args)
