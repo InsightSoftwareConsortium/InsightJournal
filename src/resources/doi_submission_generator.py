@@ -264,7 +264,7 @@ def build_xml_dictionary(metadata, verbose=False):
     # publication_date:
     meta_xml["publication_date_xml"] = ''
     date_submitted = metadata["date_submitted"]
-    if date_submitted != "null":
+    if date_submitted and date_submitted != "null":
         date_submitted_datetime = dateutil_parse(date_submitted)
         publication_date_xml = E.publication_date()
         date_periods = ['month', 'day', 'year']
