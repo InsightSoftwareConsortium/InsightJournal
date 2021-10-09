@@ -90,8 +90,8 @@ def generate_unique_doi_suffix():
 
     all_dois = get_doi_list()
 
-    alphabet = string.ascii_letters + string.digits
-    doi_length = 12
+    alphabet = string.ascii_lowercase + string.digits
+    doi_length = 6
 
     id = ''
     id_is_unique = False
