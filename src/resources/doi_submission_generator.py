@@ -250,10 +250,34 @@ def build_xml_dictionary(metadata, verbose=False):
             else:
                 person_name_tag.attrib['sequence'] = "additional"
 
-            firstname = author.get("persona_firstname")
+            # If author is a persona (IJ user):
+            firstname = ""
+            lastname = ""
+            persona_firstname = author.get("persona_firstname")
+            persona_lastname = author.get("persona_lastname")
+            author_fullname = author.get("author_fullname")
+            author_fullname_name_splits = []
+            if author_fullname:
+                author_fullname_name_splits = author_fullname.split(",")
+                if len(author_fullname_name_splits) != 2:
+                    print("WARNING: author_fullname has more or less than 2 fieldsseparated by comma ',': {}".format(author_fullname_name_splits))
+
+            if not persona_firstname and not persona_lastname and author_fullname:
+                firstname = author_fullname_name_splits[1].strip()
+                lastname = author_fullname_name_splits[0].strip()
+            else:
+                if persona_firstname:
+                    firstname = persona_firstname
+                else:
+                    firstname = author_fullname_name_splits[1].strip()
+
+                if persona_lastname:
+                    lastname = persona_lastname
+                else:
+                    lastname = author_fullname_name_splits[0].strip()
+
             if firstname:
                 person_name_tag.append(E.given_name(firstname))
-            lastname = author.get("persona_lastname")
             if lastname:
                 person_name_tag.append(E.surname(lastname))
             # TODO ORCID of the author goes here
