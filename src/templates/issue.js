@@ -40,7 +40,7 @@ const Render = ({ data, pageContext }) => {
     const row = { id: publication.publication_id,
       title: publication.title,
       authors: publication.authors.map(a => a.author_fullname).join(", "),
-      keywords: publication.tags.join(", "),
+      keywords: publication.tags ? publication.tags.join(", ") : null,
       thumbnail,
     }
     return row
