@@ -495,10 +495,17 @@ const Render = ({ data, pageContext }) => {
   const nextLink = pageContext.next_id ? `/browse/publication/${pageContext.next_id}` : `/browse/publication/${publication.publication_id}`
 
   let citeLink = ""
+  let doiLink = ""
   if (publication.revisions && publication.revisions.length) {
     const numHandles = publication.revisions.length
     const handleURL = `http://hdl.handle.net/${publication.revisions[numHandles-1].handle}`
     citeLink = <Typography variant="subtitle1" align="center">Please use this identifier to cite or link to this publication: <MuiLink href={handleURL}>{handleURL}</MuiLink></Typography>
+    const doi = publication.revisions[numHandles-1].doi
+    // doi might be falsey (null, empty)
+    if (doi) {
+      const doiURL = `https://doi.org/${doi}`
+      doiLink = <Typography variant="subtitle1" align="center"><strong>New:</strong> Prefer using the following doi: <MuiLink href={doiURL}>{doiURL}</MuiLink></Typography>
+    }
   }
 
   let issueLinks = ""
@@ -554,6 +561,7 @@ const Render = ({ data, pageContext }) => {
         <center>{coverImage}</center>
         <br/>
         {citeLink}
+        {doiLink}
         <Box component="div" className={classes.journal}><Typography variant="subtitle2"><PublicationsIcon />{' '}Published in <Link to="/">{data.site.siteMetadata.title}</Link>{issueLinks}.</Typography></Box>
         <Box component="div" className={classes.submittedBy} color="error">Submitted by {submit_auth} on {publication.date_submitted}.</Box>
         <TabContext value={tab}>
@@ -618,6 +626,7 @@ export const query = graphql`
           article
           handle
           source_code
+          doi
         }
         categories
         comments {
