@@ -1,8 +1,9 @@
 {
   "issue": {
+    "date": "2009",
     "issue_id": 348,
     "introductory_text": "This challenge is part of MICCAI 2009\u2019s 3D Segmentation Challenge for Clinical Applications (visit website). In the challenge, participants enter their best software algorithm to find LV contours automatically, with little or no user intervention. The goal of this contest is to compare state-of-the-art LV segmentation methods by providing an evaluation system and a database of cardiac cine MR images and expert contours freely available on the internet for research purposes. The database will contain 45 cine-MRI images from a range of patients and pathology, together with the manual segmentations determined by an experienced cardiologist on the end-diastolic (ED) and end-systolic (ES) phases. The data will be provided by Sunnybrook Health Sciences Centre.",
-    "name": "Cardiac MR Left Ventricle Segmentation Challenge",
+    "name": "MICCAI 2009 Workshop: Cardiac MR Left Ventricle Segmentation Challenge",
     "publications": [
       657,
       658,
