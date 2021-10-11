@@ -1,8 +1,9 @@
 {
   "issue": {
+    "date": "2014",
     "issue_id": 387,
     "introductory_text": "Real-time 3D echocardiography has already been shown to be an accurate tool for left ventricular (LV) volume assessment. However, LV border identification remains a challenging task, mainly because of the low contrast of the images combined with drop-out artifacts and speckle. Image quality may differ significantly and image characteristics depend on ultrasound machine and operator settings.\n<br><br>\nThere thus exist strong efforts in developing fully or semi-automatic algorithms able to capture the LV morphology. Many (semi-)automatic algorithms have been proposed for segmenting the LV border, but a systematic and fair comparison between such methods has so far been impossible due to lack of publicly available common datasets with expert-defined segmentations. \n<br><br>\nThe aim of this challenge is thus to gather researchers around the field of LV segmentation in 3D cardiac ultrasound by providing such common dataset enabling direct algorithm comparison. Such platform will allow consistent evaluation of the proposed segmentation solutions while highlighting the best performing ones, thus contributing to a faster clinical translation of groundbreaking technical advances.\n<br><br>",
-    "name": "Challenge on Endocardial Three-dimensional Ultrasound Segmentation",
+    "name": "MICCAI 2014 Workshop: Challenge on Endocardial Three-dimensional Ultrasound Segmentation",
     "publications": [
       926,
       927,
