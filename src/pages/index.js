@@ -37,7 +37,7 @@ const issueColumns = [
   {
     field: 'name',
     headerName: 'Name',
-    width: 300,
+    width: 400,
     renderCell: (params) => {
       const issuePath = `/browse/issue/${params.value.issue_id}`
       return (
@@ -64,7 +64,7 @@ const parseOptions = {
 
 const useStyles = makeStyles({
   issueTable: {
-    height: 190,
+    height: 400,
   },
 });
 
@@ -134,7 +134,7 @@ export default function Index({ data }) {
 	      <Paper elevation={3}>
                 <Typography variant="h5" component="h2" align="center"><IssuesIcon/>{' '}Issues</Typography>
                   <Box className={classes.issueTable}>
-                    <DataGrid headerHeight={38} rowHeight={30} rows={issueRows} columns={issueColumns} pageSize={4}/>
+                    <DataGrid headerHeight={38} rowHeight={70} rows={issueRows} columns={issueColumns} pageSize={4}/>
                   </Box>
 	      </Paper>
             </Grid>
