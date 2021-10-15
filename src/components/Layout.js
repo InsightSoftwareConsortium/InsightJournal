@@ -3,6 +3,17 @@ import PropTypes from 'prop-types'
 
 import Header from './Header'
 import Copyright from './Copyright';
+import SnackbarContent from '@material-ui/core/SnackbarContent';
+import Button from '@material-ui/core/Button';
+import Link from '../components/Link';
+
+const provideFeedback = (
+  <Link to="https://github.com/InsightSoftwareConsortium/InsightJournal/issues">
+    <Button color="secondary" size="small">
+      Provide Feedback
+    </Button>
+  </Link>
+);
 
 const Layout = ({ children }) => {
   return (
@@ -17,6 +28,7 @@ const Layout = ({ children }) => {
       >
       <Header />
         <main>{children}</main>
+        <SnackbarContent message="The journal is undergoing rebirth as a sustainable, modern website. We appreciate your thoughts and suggestions." action={provideFeedback} />
         <footer style={{ paddingTop: 80 }}>
           <Copyright />
         </footer>
