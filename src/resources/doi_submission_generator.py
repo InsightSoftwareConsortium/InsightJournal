@@ -148,6 +148,14 @@ def get_or_create_doi_suffix_for_publication(publication_id):
         append_publication_doi(publication_id, new_doi_suffix)
         return new_doi_suffix
 
+def time_string():
+    """
+    Generate a string of numbers generated from now time (UTC).
+    """
+    # UTC time up to microseconds
+    time_str = datetime.utcnow().strftime('%Y%m%d%H%M%S%f')
+    return time_str
+
 def id_from_time():
     """
     Used only for crossref doi_batch communication.
@@ -156,9 +164,7 @@ def id_from_time():
     """
     # 6 digits random number, to "avoid" time collisions. It won't reliably work on heavy duty.
     random_str = f'{random.randrange(1, 10**6):06}'
-    # UTC time up to microseconds
-    time_str = datetime.utcnow().strftime('%d%m%Y%H%M%S%f')
-    return time_str + random_str
+    return time_string() + random_str
 
 def publication_to_issue_dict():
     """
