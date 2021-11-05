@@ -321,6 +321,7 @@ def build_xml_dictionary(metadata, verbose=False):
 
                 citation_list_tag.append(citation_tag)
 
+            etree.indent(citation_list_tag, level=5)
             meta_xml["citation_list_xml"] = etree.tostring(citation_list_tag, encoding='unicode', pretty_print=True)
 
     # doi_data
