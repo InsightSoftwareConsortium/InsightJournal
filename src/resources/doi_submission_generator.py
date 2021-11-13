@@ -29,6 +29,7 @@ import csv
 import string
 import secrets
 import requests
+import pypandoc # requires pandoc-jats in the system
 
 
 def read_current_dois():
@@ -291,9 +292,23 @@ def build_xml_dictionary(metadata, verbose=False):
             contributors_tag.append(person_name_tag)
         meta_xml["contributors_xml"] = etree.tostring(contributors_tag, encoding='unicode')
 
+    # abstract: at the time of writting has to be jats formatted
+    meta_xml["abstract_xml"] = ''
+    abstract = metadata.get("abstract")
+    if abstract:
+        # Pass the abstract to pandoc using pypandoc, requires pandoc-jats installed
+        #  pandoc -f markdown file_with_abstract.md -s --mathml -t jats -o output.xml
+        abstract_jats = pypandoc.convert_text(source=abstract, to="jats", extra_args=("-C","--mathml", "--wrap=none"), format="markdown")
+        # Remove extra linebreaks from original source (in case of double \n)
+        abstract_jats = abstract_jats.replace("</p>\n", "</p>")
+        # Use namespace jats in p tags
+        abstract_jats = abstract_jats.replace("<p>", "<jats:p>").replace("</p>", "</jats:p>")
+        abstract_jats = "<jats:abstract>" + abstract_jats + "</jats:abstract>"
+        meta_xml["abstract_xml"] = abstract_jats
+
     # publication_date:
     meta_xml["publication_date_xml"] = ''
-    date_submitted = metadata["date_submitted"]
+    date_submitted = metadata.get("date_submitted")
     if date_submitted and date_submitted != "null":
         date_submitted_datetime = dateutil_parse(date_submitted)
         publication_date_xml = E.publication_date()

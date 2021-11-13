@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<doi_batch xmlns="http://www.crossref.org/schema/4.4.2" xmlns:ai="http://www.crossref.org/AccessIndicators.xsd" xmlns:rel="http://www.crossref.org/relations.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="4.4.2" xsi:schemaLocation="http://www.crossref.org/schema/4.4.2 http://www.crossref.org/schemas/crossref4.4.2.xsd">
+<doi_batch xmlns="http://www.crossref.org/schema/4.4.2" xmlns:ai="http://www.crossref.org/AccessIndicators.xsd" xmlns:rel="http://www.crossref.org/relations.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="4.4.2" xsi:schemaLocation="http://www.crossref.org/schema/4.4.2 http://www.crossref.org/schemas/crossref4.4.2.xsd" xmlns:jats="http://www.ncbi.nlm.nih.gov/JATS1"
+xmlns:mml="http://www.w3.org/1998/Math/MathML">
   <head>
     <doi_batch_id>{doi_batch_id}</doi_batch_id>
     <timestamp>{timestamp}</timestamp>
@@ -21,6 +22,7 @@
           <title>{title}</title>
         </titles>
         {contributors_xml}
+        {abstract_xml}
         {publication_date_xml}
         <publisher_item>
           <identifier id_type="doi">{formatted_doi}</identifier>
