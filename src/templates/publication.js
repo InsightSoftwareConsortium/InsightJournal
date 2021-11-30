@@ -242,32 +242,19 @@ async function sourceCodeTreeRows(ipfs, revPath, treePath) {
   return treeRows
 }
 
-async function loadArticle(ipfs, isIpfsReady, publication, revision, setArticleContent) {
+async function loadArticle(publication, revision, setArticleContent) {
   const articleCid = publication.revisions[revision].article
   if (!articleCid) {
     setArticleContent(<><Typography m={2}>Article not found.</Typography></>)
   } else {
-    await pWaitFor(() => isIpfsReady, { interval: 100 })
-    const isOnline = await ipfs.isOnline()
-    if (!isOnline) {
-      await ipfs.start()
-    }
-
-    try {
-      await ipfs.files.stat(`/articles/${publication.publication_id}`)
-    } catch (error) {
-      await ipfs.files.mkdir(`/articles/${publication.publication_id}`, { cidVersion: 1, parents: true })
-    }
-
-    try {
-      await ipfs.files.stat(`/articles/${publication.publication_id}/${revision}.pdf`)
-    } catch (error) {
-      await ipfs.files.cp(`/ipfs/${articleCid}`, `/articles/${publication.publication_id}/${revision}.pdf`, { cidVersion: 1 })
-    }
+    const response = await fetch(`https://gateway.pinata.cloud/ipfs/${articleCid}`, { mode: 'cors', headers: { 'Content-Type': 'application/octet-stream' } })
+    const reader = response.body.getReader();
 
     const chunks = []
-    for await (const chunk of ipfs.files.read(`/articles/${publication.publication_id}/${revision}.pdf`)) {
-      chunks.push(chunk)
+    while (true) {
+      const { value, done } = await reader.read();
+      if (done) break;
+      chunks.push(value)
       const chunkNum = `${chunks.length}`
       setArticleContent(<><LinearProgressWithLabel variant="indeterminate" color="secondary" label={`loading chunk ${chunkNum}`} /></>)
     }
@@ -531,7 +518,7 @@ const Render = ({ data, pageContext }) => {
       setFileContent(<></>)
       break
     case '2':
-      loadArticle(ipfs, isIpfsReady, publication, revision, setArticleContent)
+      loadArticle(publication, revision, setArticleContent)
       setFileContent(<></>)
       break
     case '3':

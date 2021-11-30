@@ -2,8 +2,8 @@
   "publication": {
     "abstract": "There is great interest in the use of graphics processing units (GPU)for general purpose applications because the highly parallel architectures used in GPUs offer the potential for huge performance increases. The use of GPUs in image analysis applications has been under investigation for a number of years. This article describes modifications to the InsightToolkit (ITK) that provide a simple architecture for transparent use of GPU enabled filters and examples of how to write GPU enabled filters using the NVIDIA CUDA tools.\n\nThis work was performed between late 2009 and early 2010 and is being published as modifications to ITK 3.20. It is hoped that publication will help inform development of more general GPU support in ITK 4.0 and facilitate experimentation by users requiring functionality of 3.20 or wishing to pursue CUDA based developments.\n",
     "articles": [
-      "bafkreia5fsrvcjpkrjtij4ltilzkjjai4qwk3c5lgftvcqh6zquqczw7b4",
-      "bafkreia44yw7ispywhat4obotmepvvgfqqfmnqgbnnp7ntgo46lrhlhiyi"
+      "bafkreia44yw7ispywhat4obotmepvvgfqqfmnqgbnnp7ntgo46lrhlhiyi",
+      "bafkreia5fsrvcjpkrjtij4ltilzkjjai4qwk3c5lgftvcqh6zquqczw7b4"
     ],
     "authors": [
       {

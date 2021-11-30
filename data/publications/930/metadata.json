@@ -2,8 +2,8 @@
   "publication": {
     "abstract": "Segmentation of the left ventricle endocardium in 3D echocardiography is a critical step for the diagnosis of heart disease. Although recent work has shown effective endocardial edge detection, these techniques still preserve spurious anatomical edge responses that undermine overall ventricle segmentation. In this paper we propose a robust semiautomatic framework based on 2D structured learning that facilitates full 3D model-based endocardial segmentation. This method is evaluated on 30 publicly available datasets from different brands of ultrasound machines. Results show that the proposed method accurately finds the endocardium and effectively converges an explicit and continuous surface model to it.",
     "articles": [
-      "bafybeifxis6pnz3iiunoch2rlxbxd5kfycbupviq34n7uouhzaefijvfde",
-      "bafybeih23o7pq6v2xgvcmutawnws73r5gqforhywwq44j47z4vfltqla2e"
+      "bafybeih23o7pq6v2xgvcmutawnws73r5gqforhywwq44j47z4vfltqla2e",
+      "bafybeifxis6pnz3iiunoch2rlxbxd5kfycbupviq34n7uouhzaefijvfde"
     ],
     "authors": [
       {

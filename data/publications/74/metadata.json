@@ -3,8 +3,8 @@
     "abstract": "I have made some changes to make itk::PathToImageFilter to make it a usable base class. There were \r\nsome problems with the CVS version, including: (1) this ase classhad actual filter functionality, (2) \r\nthe mechanism for specifying the size, spacing, origin, etc., of the output image was incomplete, contrary \r\nto ITK convention, and hard to extend, and (3) the documentation specified that the filter would calculate \r\nthe size of the output image from the path, but it did not. \r\n\r\nI solved these problems by (1) moving the filter functionality to itk::TracePathOnImageFilter, (2) \r\nrequiring that filter->GetOutput()->Set...(...) should be used to set the information for the \r\noutput image, and (3) providing methods to calculate the correct image region a path inhabits, and a \r\nboolean flag to specify whether that calculation should be done (default true).",
     "articles": [
       "bafkreifrrctavrim3yjyfw52onhzlubvthxw2pevjnoy2p346cf3o3bqme",
-      "bafkreifrrctavrim3yjyfw52onhzlubvthxw2pevjnoy2p346cf3o3bqme",
-      "bafkreid5jnltlvsdhludpmi7hi2b77l6ms22u44t3vfv73q3nqv3kaehri"
+      "bafkreid5jnltlvsdhludpmi7hi2b77l6ms22u44t3vfv73q3nqv3kaehri",
+      "bafkreifrrctavrim3yjyfw52onhzlubvthxw2pevjnoy2p346cf3o3bqme"
     ],
     "authors": [
       {

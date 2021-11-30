@@ -3,8 +3,8 @@
     "abstract": "Region growing is a technique that can be used to propagate information over a mesh. In a previous submission, \"A Mesh Front Iterator for VTK\", we introduced an iterator that can be used with vtkPointSet subclasses to traverse a mesh. It is sometimes useful to visit only vertices that are \"similar\" to their neighbors by some definition. This concept can be used to select many types of common regions, including planar regions or regions with similar color, to name a few. In this paper, we propose an iterator which propagates on a mesh using a condition test which can be easily modified.\n\nThe latest code is available here: https://github.com/daviddoria/MeshConditionalFrontIterator",
     "articles": [
       "bafkreifwcrdwauz4sffeqmtzrj4lw7ycop762fjn3awyr55tm26gphpxge",
-      "bafkreifwcrdwauz4sffeqmtzrj4lw7ycop762fjn3awyr55tm26gphpxge",
-      "bafkreiezsepiljrrma2shawsirzhximdvypovusxc5bc5ocscbpky5v6ba"
+      "bafkreiezsepiljrrma2shawsirzhximdvypovusxc5bc5ocscbpky5v6ba",
+      "bafkreifwcrdwauz4sffeqmtzrj4lw7ycop762fjn3awyr55tm26gphpxge"
     ],
     "authors": [
       {

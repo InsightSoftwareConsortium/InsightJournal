@@ -2,13 +2,13 @@
   "publication": {
     "abstract": "We present a fully automatic method for 3D segmentation of the mandibular bone from CT data. The method includes an adaptation of statistical shape models of the mandible, the skull base and the midfacial bones, followed by a simultaneous graph-based optimization of adjacent deformable models. The adaptation of the models to the image data is performed according to a heuristic model of the typical intensity distribution in the vincinity of the bone boundary, with special focus on an accurate discrimination of adjacent bones in joint regions. An evaluation of our method based on 18 CT scans shows that a manual correction of the automatic segmentations is not necessary in approx. 60% of the axial slices that contain the mandible.",
     "articles": [
-      "bafybeif4eonydn6r2e6pa3ogaaxbpewc4rep3caxaqh3x33avbo62erj5y",
-      "bafybeie4w7cu4tme2va7c56nwo66hsrjjqnidncy7gk2ezawlifzpopeuy",
       "bafybeieoxxbrrgjda4wdpxnnvsddbqabo5vd5rc7ggkzqsaa6g3g6nhkeq",
+      "bafybeie4w7cu4tme2va7c56nwo66hsrjjqnidncy7gk2ezawlifzpopeuy",
+      "bafybeidfuy3xvglv5xgjl4kkns76muhu7kberdjcwrbri6mjfq3apz3a4a",
       "bafybeidaiqyvhqgmyjqnwagxbxbxvv3j6iqmnvqkv7362cccm3kneuwpny",
       "bafybeihpzckozmlogjzpgupo3acebantt3xwofj2dbm2j3mc5cw7ycjn6a",
-      "bafybeidfuy3xvglv5xgjl4kkns76muhu7kberdjcwrbri6mjfq3apz3a4a",
-      "bafybeicgtjicgpxhysdfa7qxyktz5htp253pzydg3rrs6mq274cp7m75se"
+      "bafybeicgtjicgpxhysdfa7qxyktz5htp253pzydg3rrs6mq274cp7m75se",
+      "bafybeif4eonydn6r2e6pa3ogaaxbpewc4rep3caxaqh3x33avbo62erj5y"
     ],
     "authors": [
       {

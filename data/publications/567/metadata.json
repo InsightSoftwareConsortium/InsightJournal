@@ -2,8 +2,8 @@
   "publication": {
     "abstract": "Very little is known about the deformation effects of tumour growth within the brain. Computer simulations have the potential to\r\ncalculate such deformations. A method for computing localised high deformations within the brain's soft tissue is presented. Such\r\nknowledge would be significant towards neuroscience and neurosurgery, particularly for quantifying tumour aggressiveness,\r\ntherapy planning, as well as surgical planning and simulation. A Finite Element mesh used in the vicinity of a growing tumour is\r\nvery quickly destroyed and cannot be used reliably unless complicated automatic re-meshing exists. Mesh-free methods are\r\ncapable of handling much larger deformations, however are known to be less reliable that Finite Element analysis for moderate\r\ndeformations. A mixed-mesh approach utilises mesh-free regions within localised high-deformation zones, with the remaining\r\nmodel comprised of a Finite Element mesh. In this study, a new algorithm is proposed coupling the Finite Element and Element\r\nFree Galerkin methods for use in applications of high localised deformation, such as brain tumour growth. The algorithm is\r\nverified against a number of separate Finite Element and mesh-free problems solved via validated/commercial software.\r\nMaximum errors of less than 0.85 mm were maintained, corresponding to the working resolution of an MRI scan. A mixed-mesh\r\nbrain model is analysed with respect to different tumour growth volumes located behind the left ventricle. Significant\r\ndisplacements of up to 9.66 mm surrounding a 4118 mm3 sized tumour are noted, with 14.5% of the brain mesh suffering\r\ndeformation greater than 5 mm.",
     "articles": [
-      "bafybeiam7cd34k4ogtxzoybzdxgeynkmfjytq3uegy7e54hb5bx6xqjnbi",
-      "bafybeickda3fn2zyt47egepfoh4tqmpwjynqazftocpqatkccrmghfsigy"
+      "bafybeickda3fn2zyt47egepfoh4tqmpwjynqazftocpqatkccrmghfsigy",
+      "bafybeiam7cd34k4ogtxzoybzdxgeynkmfjytq3uegy7e54hb5bx6xqjnbi"
     ],
     "authors": [
       {

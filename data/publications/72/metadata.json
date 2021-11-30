@@ -2,9 +2,9 @@
   "publication": {
     "abstract": "This document describes itk::ContourExtractor2DImageFilter, an implementation of the arching squares2D contour-finding method using the Insight Toolkit ITK www.itk.org. This filter takes as input a 2D image (not necessarily binarized) and a contour value, and outputs zero or more itk::PolyLineParametricPath objects which represent the image contours at that value.",
     "articles": [
-      "bafkreibwh6zu2npewc5ctvwtulawpmwvdlbdd57u6dlxrvr64lmfkdib7u",
       "bafkreia4k43biyxp3hdng3xgqopz7fukmxnxxw6vmdt4clvmxwdxbz4ca4",
-      "bafkreia4k43biyxp3hdng3xgqopz7fukmxnxxw6vmdt4clvmxwdxbz4ca4"
+      "bafkreia4k43biyxp3hdng3xgqopz7fukmxnxxw6vmdt4clvmxwdxbz4ca4",
+      "bafkreibwh6zu2npewc5ctvwtulawpmwvdlbdd57u6dlxrvr64lmfkdib7u"
     ],
     "authors": [
       {

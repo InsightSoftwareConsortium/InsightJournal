@@ -2,8 +2,8 @@
   "publication": {
     "abstract": "An Insight Toolkit (ITK) implementation of our knowledgebased\r\nsegmentation algorithm applied to brain MRI scans is presented\r\nin this paper. Our algorithm is a refinement of the work of Teo, Saprio,\r\nand Wandall. The basic idea is to incorporate prior knowledge into the\r\nsegmentation through Bayesrule. Image noise is removed via an affine\r\ninvariant anisotropic smoothing of the posteriors as in Haker et. al.\r\nWe present the results of this code on two different projects. First, we\r\nshow the effect of applying this code to skull-removed brain MRI scans.\r\nSecond, we show the effect of applying this code to the extraction of the\r\nDLPFC from a user-defined subregion of brain MRI data.We present our\r\nresults on brain MRI scans, comparing the results of the knowledge-based\r\nsegmentation to manual segmentations on datasets of schizophrenic patients.",
     "articles": [
-      "bafkreibbz6n3bfvt2qhnuhp7btmhgitl56pwv3y46vcuddy7rucedweqcm",
-      "bafkreicunqe6idr52r3oasouppp7gxehsnxqoxbqroi7pxcde5qvkj4axe"
+      "bafkreicunqe6idr52r3oasouppp7gxehsnxqoxbqroi7pxcde5qvkj4axe",
+      "bafkreibbz6n3bfvt2qhnuhp7btmhgitl56pwv3y46vcuddy7rucedweqcm"
     ],
     "authors": [
       {

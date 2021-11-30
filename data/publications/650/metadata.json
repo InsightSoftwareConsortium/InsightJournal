@@ -2,10 +2,10 @@
   "publication": {
     "abstract": "The rapid and \ufb02exible visualization of large amounts of com- \nplex data has become a crucial part in medical image analysis. In re- \ncent years the Visualization Toolkit (VTK) has evolved as the de-facto \nstandard for open-source medical data visualization. It features a clean \ndesign based on a data \ufb02ow paradigm, which the existing wrappers for \nVTK (Python, Tcl/Tk, Simulink) closely follow. This allows to elegantly \nmodel many types of algorithms, but presents a steep learning curve for \nbeginners. In contrast to existing approaches we propose a framework \nfor accessing VTK\u2019s capabilities from within MATLAB, using a syntax \nwhich closely follows MATLAB\u2019s graphics primitives. While providing \nusers with the advanced, fast 3D visualization capabilities MATLAB \ndoes not provide, it is easy to learn while being \ufb02exible enough to allow \nfor complex plots, large amounts of data and combinations of visualiza- \ntions. The proposed framework will be made available as open source \nwith detailed documentation and example data sets. ",
     "articles": [
-      "bafybeidqnmvkln4iamluc7l3xms2ubu3knlz5obvgdio53of63vx2sn5te",
+      "bafybeifhqongjfy23sgn6qvuedil4zt5d72qp2xqegyvz6psc3lbiax3bq",
       "bafybeieaxklqxwjy7enuz4zqddmtqqc7gul2rcrkpkegdd7aztpmaqcxma",
       "bafybeibbnv2c5r4th2tli3qb46zhtw34hy7vykord7ttmwaftjmz6hen3y",
-      "bafybeifhqongjfy23sgn6qvuedil4zt5d72qp2xqegyvz6psc3lbiax3bq"
+      "bafybeidqnmvkln4iamluc7l3xms2ubu3knlz5obvgdio53of63vx2sn5te"
     ],
     "authors": [
       {

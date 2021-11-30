@@ -2,8 +2,8 @@
   "publication": {
     "abstract": "Treatment planning for high precision radiotherapy of head and neck (H&N) cancer patients requires accurate delineation of critical structures. Manual contouring is tedious and often suffers from large inter- and intra-rater variability. In this paper, we present a fully automated, atlas-based segmentation method and apply it to tackle the H&N CT image segmentation problem in the MICCAI 2009 3D Segmentation\nGrand Challenge. The proposed method employs a multiple atlas fusion strategy and a hierarchical atlas registration approach. We also exploit recent advancements in GPU technology to accelerate the deformable atlas registration and to make multi-atlas segmentation computationally feasible in practice. Validation results on the eight clinical datasets distributed by the MICCAI workshop showed that the proposed method gave very accurate segmentation of the mandible and the brainstem, with a volume\noverlap close to or above 90% for most subjects. These results suggest that our method is clinically applicable, accurate, and may significantly reduce manual labor and improve contouring efficiency.",
     "articles": [
-      "bafkreihj3ntkpjbmjohmtvmrqdtfhmbb2r7wqrd2ayf5a6mya2xaq5q6wq",
-      "bafkreie3epcoxfebasg4o3enlu736bjte4kgvwqyf6znlqcqsizmykf6su"
+      "bafkreie3epcoxfebasg4o3enlu736bjte4kgvwqyf6znlqcqsizmykf6su",
+      "bafkreihj3ntkpjbmjohmtvmrqdtfhmbb2r7wqrd2ayf5a6mya2xaq5q6wq"
     ],
     "authors": [
       {

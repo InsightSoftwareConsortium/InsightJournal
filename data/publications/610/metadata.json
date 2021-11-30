@@ -2,10 +2,10 @@
   "publication": {
     "abstract": "This paper proposes a new method for fully automated multiple sclerosis (MS) lesion segmentation in cranial magnetic resonance (MR) imaging. The algorithm uses the T1-weighted and the fluid attenuation inversion recovery scans. It is based the K-Nearest Neighbor (KNN) classification technique. The data has been acquired at the Children\ufffds Hospital Boston (CHB) and the University of North Carolina (UNC). Manual segmentations, composed by a human expert of the CHB, were used for training of the KNN-classification. The method uses voxel location and signal intensity information for determination of the probability being a lesion per voxel, thus generating probabilistic segmentation images. By applying a threshold on the probabilistic images binary segmentations are derived. Automatic segmentations were performed on a set of testing images, and compared with manual segmentations from a CHB and a UNC expert rater. Furthermore, a combined segmentation was composed from segmentations from different algorithms, and used for evaluation. The proposed method shows good resemblance with the segmentations of the CHB rater. High specificity and lower specificity has been observed in comparison with the combined segmentations. Over- and undersegmentation can be easily corrected in this procedure by varying the threshold on the probabilistic segmentation image. The proposed method offers an automated and fully reproducible approach that accurate and applicable on standard clinical MR images.",
     "articles": [
-      "bafkreiesyjhyrxjup73qki53lov3ff2zsr7dskddpryiefbud2re2mbvlu",
+      "bafkreidtcyi7feoqt5ha7zjbnqhcgmqmbgb7ngs7hbrgnugqe4mhqotuda",
       "bafkreiesyjhyrxjup73qki53lov3ff2zsr7dskddpryiefbud2re2mbvlu",
       "bafkreih3urckowpxhiyy7ktwyi6gghkmrwcslbrbeu43t3qg7v6zbhpwye",
-      "bafkreidtcyi7feoqt5ha7zjbnqhcgmqmbgb7ngs7hbrgnugqe4mhqotuda"
+      "bafkreiesyjhyrxjup73qki53lov3ff2zsr7dskddpryiefbud2re2mbvlu"
     ],
     "authors": [
       {

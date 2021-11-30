@@ -2,8 +2,8 @@
   "publication": {
     "abstract": "A method for real-time automatic tracking of the left ventricle (LV) in 3D ultrasound is presented. A mesh model of the LV is deformed using mean value coordinates enabling large variations. Kalman filtering and edge detection is used to track the mesh in each frame. The method is evaluated using the framework of the Challenge on Endocardial Three-dimensional Ultrasound Segmentation (CETUS). The results show that the method is able to robustly track the LV in all sequences with a mean mesh difference of about 2.5 mm",
     "articles": [
-      "bafkreigdnci3ivzzglg66pzptasw45hfafsslbfsabwokjgiqd2l4z2uei",
-      "bafkreihhtnwsw7wkuuma754yn25i5p4vbmcqyoxjroocat3n5737xsxzpy"
+      "bafkreihhtnwsw7wkuuma754yn25i5p4vbmcqyoxjroocat3n5737xsxzpy",
+      "bafkreigdnci3ivzzglg66pzptasw45hfafsslbfsabwokjgiqd2l4z2uei"
     ],
     "authors": [
       {

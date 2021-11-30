@@ -3,8 +3,8 @@
     "abstract": "This document describes an ITK-based implementation of intensity-based 2D/3D rigid image registration for patient setup assessment in external beam radiotherapy. The registration framework was designed to simultaneously register two projection images to a 3D image volume. The projection geometry was set up to simulate the x-ray imaging system that attached to a medical linear accelerator for cancer treatment. The normalized correlation was used as the similarity measure and the Powell's optimizer was used as the optimization method. Siddon-Jacobs fast ray-tracing algorithm was implemented to compute projection images from a 3D image volume.",
     "articles": [
       "bafkreigbwmr2z4bovke3d2kydfv4obu5kuxdzogpfi46smgnetocfrnlmi",
-      "bafkreigbwmr2z4bovke3d2kydfv4obu5kuxdzogpfi46smgnetocfrnlmi",
-      "bafkreifvrfseve6laxcbbvyugxdz33swj6wug4xwcxqbxzi3jlia7ftdzq"
+      "bafkreifvrfseve6laxcbbvyugxdz33swj6wug4xwcxqbxzi3jlia7ftdzq",
+      "bafkreigbwmr2z4bovke3d2kydfv4obu5kuxdzogpfi46smgnetocfrnlmi"
     ],
     "authors": [
       {

@@ -2,9 +2,9 @@
   "publication": {
     "abstract": "Ultrasound imaging is the most popular and safe diagnostic medical imaging modality. Over the past years, a considerable number of studies have been conducted on new medical ultrasound imaging modalities such as ultrasound-based elasticity imaging, photoacoustic imaging, thermal imaging, etc. Moreover, results of such advanced ultrasound research are readily integrated with Image Guided Therapy (IGT) systems due to the advantages of ultrasound imaging such as mobility and real-time data acquisition. For integrating two systems, a communication method between systems has to be devised. OpenIGTLink is a standardized TCP/IP-based protocol for the integration of medical imaging and IGT systems. However, OpenIGTLink is not sufficient for communicating between IGT and advanced ultrasound research systems, because OpenIGTLink does not define any message type for general ultrasound data and some results of ultrasound researching.\nIn this paper, we propose an extension to OpenIGTLink, called OpenIGTLinkMUSiiC, by adding new message types and new network classes. Our new message types are designed for containing raw ultrasound data, advanced ultrasound modalities, and text-based control parameters. The network classes of OpenIGTLinkMUSiiC improve upon the performance of existing network classes by implementing a multithread architecture. Finally, we present two ultrasound research applications using OpenIGTLink-MUSiiC.\n",
     "articles": [
-      "bafybeief3fxahdxkosihqgmsooohlltajhbwvaum2bfmbdyeqbprjws3pe",
       "bafybeiadbkklf46qpse7uzbej7khmrl3py2hsj4kfqk26pt7ncrzqhwt64",
-      "bafybeibmlnq3clgak3sf57nugk7hbq6by232bu46f32ndcg36tzugp2eie"
+      "bafybeibmlnq3clgak3sf57nugk7hbq6by232bu46f32ndcg36tzugp2eie",
+      "bafybeief3fxahdxkosihqgmsooohlltajhbwvaum2bfmbdyeqbprjws3pe"
     ],
     "authors": [
       {

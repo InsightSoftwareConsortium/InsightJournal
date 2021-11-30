@@ -2,10 +2,10 @@
   "publication": {
     "abstract": "The Fourier transform of the convolution of two images is equal to the product of their\nFourier transform. With this definition, it is possible to create a convolution filter\nbased on the Fast Fourier Transform (FFT). The interesting complexity characteristics of\nthis transform gives a very efficient convolution filter for large kernel images.\n\nThis paper provides such a filter, as well as a detailed description of the implementation\nchoices and a performance comparison with the \"simple\" itk::ConvolutionImageFilter.\n",
     "articles": [
-      "bafkreidoy6t57mwwzqvwcs7hbgvhkldkbe2e3crjb3mrqdypiibwy6b7c4",
+      "bafkreiddyttviyop6px5n7v66cgptnr5dfpfmap5bges3llnstdqqbbaxy",
       "bafkreidoy6t57mwwzqvwcs7hbgvhkldkbe2e3crjb3mrqdypiibwy6b7c4",
       "bafkreien62o2kofja32oic4qkiu2llvt3kqottgztqvkvpwseecgw3enlu",
-      "bafkreiddyttviyop6px5n7v66cgptnr5dfpfmap5bges3llnstdqqbbaxy"
+      "bafkreidoy6t57mwwzqvwcs7hbgvhkldkbe2e3crjb3mrqdypiibwy6b7c4"
     ],
     "authors": [
       {

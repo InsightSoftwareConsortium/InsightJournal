@@ -2,14 +2,14 @@
   "publication": {
     "abstract": "We propose a new nonlinear image registration model which is based on nonlinear elastic regularization and unbiased registration. The nonlinear elastic and the unbiased regularization terms are simplified using the change of variables by introducing an unknown that approximates the Jacobian matrix of the displacement field. This reduces the minimization to involve linear differential equations. In contrast to recently proposed unbiased fluid registration method, the new model is written in a unified variational form and is minimized using gradient descent. As a result, the new unbiased nonlinear elasticity model is computationally more efficient and easier to implement than the unbiased fluid registration. The unbiased large-deformation nonlinear elasticity method was tested using volumetric serial magnetic resonance images and shown to have some advantages for medical imaging applications.",
     "articles": [
-      "bafybeig3un2rwhdeujgvo3wiirlmbfq2ndkd7xcrzyxseixzypjlvq33mm",
-      "bafybeihmpo5mzmmmpts3dkqmqqitk7lxdkh7gwrezjgptsjn7vq3o63gia",
-      "bafybeidsb2pv3yd43hn5gbz3ydnqaebp7jgprzbzbq2x6fanfxnde5o3ua",
       "bafybeidefgn6ld5wc6lgra5xhjkn4ehdew67h4jhuwiw2a3pltluvw4hie",
       "bafybeihmpo5mzmmmpts3dkqmqqitk7lxdkh7gwrezjgptsjn7vq3o63gia",
+      "bafybeidsb2pv3yd43hn5gbz3ydnqaebp7jgprzbzbq2x6fanfxnde5o3ua",
       "bafybeihmpo5mzmmmpts3dkqmqqitk7lxdkh7gwrezjgptsjn7vq3o63gia",
       "bafybeihmpo5mzmmmpts3dkqmqqitk7lxdkh7gwrezjgptsjn7vq3o63gia",
-      "bafybeifubfaq4eu5ss3pkah7h5tfnkelgan4yj3mruxeu6jk4e2wtyf2r4"
+      "bafybeihmpo5mzmmmpts3dkqmqqitk7lxdkh7gwrezjgptsjn7vq3o63gia",
+      "bafybeifubfaq4eu5ss3pkah7h5tfnkelgan4yj3mruxeu6jk4e2wtyf2r4",
+      "bafybeig3un2rwhdeujgvo3wiirlmbfq2ndkd7xcrzyxseixzypjlvq33mm"
     ],
     "authors": [
       {

@@ -2,13 +2,13 @@
   "publication": {
     "abstract": "This document describes the surgical robot console system based on 3D Slicer for image-guided surgery. Considering the image-guided surgery, since image workstations have complex User Interface (UI) and extra functions, it is supposed that such UI is not suitable for surgeon who is the robot operator. The proposed robot console is designed as a simple UI for the robot operator, which can display the endoscopic video image, the sensor data, the robot status and simple images for guiding the surgery. Therefore, we expect that the surgeon can concentrate on the operation itself by utilizing the robot console. On the other hand, since the robot console system is based on 3D Slicer, the robot console can use the abundant image operation functions. Moreover, it can use the flexibility of tool connectivities by using the OpenIGTLink protocol. In addition, since the video image is captured by using the multifunctional library OpenCV , we can expect the extensibility about the function of the proposed system.",
     "articles": [
-      "bafkreid2724rf7ayjasgpdu3hfsvwetm6s3kseomzzh5gbisdc55ikpbqm",
+      "bafkreibzblrtci2azg6u7n7piw5rafc4kptuzbjvgc5bhkpq5jnprrt3ta",
       "bafkreicxqnxxcop53rifeyflckywez23dfdy3rteo3ykxl6nvjutlrczde",
       "bafkreicxqnxxcop53rifeyflckywez23dfdy3rteo3ykxl6nvjutlrczde",
       "bafkreibzblrtci2azg6u7n7piw5rafc4kptuzbjvgc5bhkpq5jnprrt3ta",
       "bafkreibzblrtci2azg6u7n7piw5rafc4kptuzbjvgc5bhkpq5jnprrt3ta",
       "bafkreibzblrtci2azg6u7n7piw5rafc4kptuzbjvgc5bhkpq5jnprrt3ta",
-      "bafkreibzblrtci2azg6u7n7piw5rafc4kptuzbjvgc5bhkpq5jnprrt3ta"
+      "bafkreid2724rf7ayjasgpdu3hfsvwetm6s3kseomzzh5gbisdc55ikpbqm"
     ],
     "authors": [
       {

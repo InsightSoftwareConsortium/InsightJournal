@@ -2,14 +2,14 @@
   "publication": {
     "abstract": "We present a framework for cardiac motion recovery using the adjustment of an electromechanical model of the heart to cine Magnetic Resonance Images (MRI). This approach is based on a constrained minimisation of an energy coupling the model and the data. Our method can be seen as a data assimilation of a dynamic system that allows us to weight appropriately the confidence in the model and the confidence in the data. After a short overview of the electromechanical model of the ventricles, we describe the processing of cine MR images and the methodology for motion recovery. Then, we compare this method to the methodology used in data assimilation. Presented results on motion recovery from given cine-MRI are very promising. In particular, we show that our coupling approach allows us to recover some tangential component of the ventricles motion which cannot be obtained from classical geometrical tracking approaches due to the aperture problem.",
     "articles": [
-      "bafybeiajwvbrtsvzfpfuvbbytifdkljflybz7tdzxhg2bgdawwpqjjzo44",
+      "bafybeifki4esyb4cnvwlmpr34gestsla53w3skfbfvawiqv7bywheb6z5q",
       "bafybeiahloqfsdlaesfqohqs3ppyljcwlhyvyvx2ug4supfjkzvbt3d7hy",
       "bafybeibvnkj65eisks7jrab3jnnjtjhq2jl5slds7pmwqtw3o7l4brechy",
-      "bafybeifki4esyb4cnvwlmpr34gestsla53w3skfbfvawiqv7bywheb6z5q",
+      "bafybeiga65tirhfcvhxbcay7pdqbqbtdu3olpsjyr7uspbjy2ued2cuary",
       "bafybeifdytkrvhndksniywofsnvds5axcjcklyrrkan2lo5fmzngo5xgnq",
       "bafybeiga65tirhfcvhxbcay7pdqbqbtdu3olpsjyr7uspbjy2ued2cuary",
-      "bafybeiga65tirhfcvhxbcay7pdqbqbtdu3olpsjyr7uspbjy2ued2cuary",
-      "bafybeieg5fn4y7npyvdl6ytjl3onvnugkmws4zx4ohsth6valket5bss74"
+      "bafybeieg5fn4y7npyvdl6ytjl3onvnugkmws4zx4ohsth6valket5bss74",
+      "bafybeiajwvbrtsvzfpfuvbbytifdkljflybz7tdzxhg2bgdawwpqjjzo44"
     ],
     "authors": [
       {
