@@ -2,8 +2,8 @@
   "publication": {
     "abstract": "This document describes a new class for the Insight Toolkit~(ITK www.itk.org) for reading images across a network. Network access is handled by CURL (http://curl.haxx.se/libcurl/), an Open Source library for client-side URL transfer. CURL supports the FTP, FTPS, HTTP, HTTPS, SCP, SFTP, TFTP, TELNET, DICT, LDAP, LDAPS and FILE protocols.\r\n\r\nThis paper is accompanied with source code and a test to load a NRRD file across the network and verify that is is read properly.\r\n",
     "articles": [
-      "bafkreihln5g7u7iqistyhy2ov7i6gwhbtv7uufcdehfxvwgrw5g5tk4vxu",
-      "bafkreieuy4sx37ngxlzi3wlr5ynst5z6hj75imwfwr3ia2ndhejamz4zgi"
+      "bafkreieuy4sx37ngxlzi3wlr5ynst5z6hj75imwfwr3ia2ndhejamz4zgi",
+      "bafkreihln5g7u7iqistyhy2ov7i6gwhbtv7uufcdehfxvwgrw5g5tk4vxu"
     ],
     "authors": [
       {

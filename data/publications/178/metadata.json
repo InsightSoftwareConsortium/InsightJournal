@@ -2,15 +2,15 @@
   "publication": {
     "abstract": "This document describes an addition to the Image IO Library of the Insight Toolkit (ITK). ITK has\nbeen able to read in Analyze image files but not the Analyze Object Maps that correspond to the images.\nAnalyze Object maps define regions of interest that are helpful in designating locations, giving a name to\nthose locations, as well as display characteristics. Also, Analyze Object Maps are useful to tell someone\nwhere to look in an image. With the lack of not being able to read/write Analyze Object Maps, a new set\nof classes have been developed to read/write Analyze Object Maps and manipulate the object maps.",
     "articles": [
-      "bafkreihuktmw2ii3uziofrxuzbard5jcsnwefmuknrsb2gidha52xifuqi",
       "bafkreig4ddntj7nipqshhz7qgfjs3pllsfrl4gblonhi7wrodpuefwqbam",
       "bafkreig4ddntj7nipqshhz7qgfjs3pllsfrl4gblonhi7wrodpuefwqbam",
       "bafkreig4ddntj7nipqshhz7qgfjs3pllsfrl4gblonhi7wrodpuefwqbam",
+      "bafkreidqutbplkwugn3w6yxktx5ekvsziuktk3slfg6xfq3r7dn4pnugjy",
+      "bafkreide2bef5vnrxlbgma5tz4rvnaxuldbpcenwd6ammc3y4de7tqejtm",
       "bafkreig4ddntj7nipqshhz7qgfjs3pllsfrl4gblonhi7wrodpuefwqbam",
       "bafkreiean6wiw4mwhkdfh5hrk4qpxvbmteiqmqrfotanaavq74asoa5gxe",
-      "bafkreidqutbplkwugn3w6yxktx5ekvsziuktk3slfg6xfq3r7dn4pnugjy",
       "bafkreidteobc5npr5o3vkz4qn2v2cf3n2g3tj7qw3bec7brupgp4glq4ce",
-      "bafkreide2bef5vnrxlbgma5tz4rvnaxuldbpcenwd6ammc3y4de7tqejtm"
+      "bafkreihuktmw2ii3uziofrxuzbard5jcsnwefmuknrsb2gidha52xifuqi"
     ],
     "authors": [
       {

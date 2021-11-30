@@ -3,8 +3,8 @@
     "abstract": "The extraction of the coronary artery central lumen lines from CTA datasets is a necessary prerequisite for the computerized assessment of heart related disease. In this work, we present an automatic approach for this task that consists of generic methods for detection of tubular objects, extraction of their centerlines, grouping of the single centerlines into complete tree structures, and some application specific adaptions for the identification of the coronary arteries. The tube detection approach is based on the Gradient Vector Flow and an analysis of the resulting vector field. Contrary to conventional tube detection filters this approach avoids multi-scale analysis with related scale space problems and is able to identify tubular objects surrounded by different tissues such as blood vessels in proximity of calcifications. After identification of the tubular structures their centerlines are extracted and grouped into complete tree structures. Based on gray value information and centerline length tubular structures not belonging to the coronary arteries are removed. The approach has been evaluated on 16 clinical datasets showing a high overlap of 94% with known reference centerlines and an average distance of 0.58mm.",
     "articles": [
       "bafybeigmjvl4mzaynnlsyobvbrejqz32tz66kwibwkkyn33t2iq74ozb4i",
-      "bafybeigmjvl4mzaynnlsyobvbrejqz32tz66kwibwkkyn33t2iq74ozb4i",
-      "bafybeihqwgefah6jykzlf54a2etr76662plewcbl3nsro3ibgzdyuq7yyi"
+      "bafybeihqwgefah6jykzlf54a2etr76662plewcbl3nsro3ibgzdyuq7yyi",
+      "bafybeigmjvl4mzaynnlsyobvbrejqz32tz66kwibwkkyn33t2iq74ozb4i"
     ],
     "authors": [
       {

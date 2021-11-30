@@ -2,8 +2,8 @@
   "publication": {
     "abstract": "At the Johns Hopkins University\u2019s Engineering Research Center for Computer-Integrated Surgical Systems and Technology (ERC-CISST) laboratory, we have designed and developed a platformindependent C++ software package, called the nArray library, that provides a unified framework for efficiently working with multidimensional data sets. In this paper, we present and discuss the core elements of the library, including its intuitive and uniform API, efficient arithmetic engine algorithm, and efficient sub-volume algorithm. We then compare the performance of the nArray library with that of an existing multidimensional array toolkit, ITK. We conclude that the nArray library is more efficient than ITK in many situations, especially in operations on sub-arrays, and that the two packages have comparable performance in many other scenarios. The underlying algorithms, if incorporated in ITK, can help improve its performance.",
     "articles": [
-      "bafkreid26cn2y2rmbs5usfpunenhxvs7rg6g5wygjbbwamq5enjemzreni",
-      "bafybeieq35b5d5yua4v5phgmiuxyanl6cfarvm7y2cafqbgjrslvcwt5wa"
+      "bafybeieq35b5d5yua4v5phgmiuxyanl6cfarvm7y2cafqbgjrslvcwt5wa",
+      "bafkreid26cn2y2rmbs5usfpunenhxvs7rg6g5wygjbbwamq5enjemzreni"
     ],
     "authors": [
       {

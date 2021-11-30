@@ -2,8 +2,8 @@
   "publication": {
     "abstract": "A vessel lumen centerline extraction method is presented. Its preprocessing and initialization for the application to 3D CT angiography (CTA) image volumes are also described. This approach is based upon the theory of principal curves to finding lumen axis. Meanwhile, it also estimates the lumen local width with an 1D intensity model that depicts an ideal lumen cross-sectional profile. We tested the method on 46 CTA datasets supplied with the Carotid Lumen Segmentation and Stenosis Grading Challenge (CLS) of the ``3D Segmentation in the Clinic: a Grade Challenge'', a 2009 MICCAI Workshop. The evaluation of 31 testing datasets suggests that our method can provide a good basis for post-processing if high accuracy of segmentation and stenosis grading is desired.",
     "articles": [
-      "bafkreidmwz6d4b7gxoybbbgfu5kowusk73hcl2g554hae2352zzunjoboe",
-      "bafkreic3lmga47frb35ffi776o4z23l57nxvhv7nsav73ydy7ncoqxq6gm"
+      "bafkreic3lmga47frb35ffi776o4z23l57nxvhv7nsav73ydy7ncoqxq6gm",
+      "bafkreidmwz6d4b7gxoybbbgfu5kowusk73hcl2g554hae2352zzunjoboe"
     ],
     "authors": [
       {

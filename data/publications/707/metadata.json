@@ -2,8 +2,8 @@
   "publication": {
     "abstract": "Although the KappaStatisticImageToImageMetric can be used to obtain the Dice metric (or mean overlap), there are other related measurements that are useful for evaluating results derived from various image analysis tasks. These measures include the target overlap, union overlap (or Jaccard coefficient), and false positive/negative errors. There are also related measures for multilabeled images. The class included with this submission, the itkLabelOverlapMeasuresImageFilter, is meant to provide an easy mechanism for calculating such measures.",
     "articles": [
-      "bafkreid2ojcckgrk6ufkrbogzu45in6keg7zay25qahj4r4wiyy52sdymq",
-      "bafkreiecgytn42xhsbggr72psghzddm4ib5ia2casd6pwm6uuuhn2bwqhm"
+      "bafkreiecgytn42xhsbggr72psghzddm4ib5ia2casd6pwm6uuuhn2bwqhm",
+      "bafkreid2ojcckgrk6ufkrbogzu45in6keg7zay25qahj4r4wiyy52sdymq"
     ],
     "authors": [
       {

@@ -2,13 +2,13 @@
   "publication": {
     "abstract": "This coronary-artery extraction method uses one initialization point per vessel. First, a mask is computed by use of a region-growing algorithm, which starts from the initial point and stops when no more connected voxels fall within an interactively defined intensity range. The centerline tracking is then\nperformed within the mask, starting from the same initial point. This algorithm is based on a prediction/estimation scheme. It uses the first- and second-order image moments calculated within a spherical volume that slides along the vessel, and the radius of which is automatically adjusted to the local radius\nof the vessel. The evolution of the radius of the sphere is based on the analysis of the eigenvalues of the inertia matrix in a multi-scale framework. The estimation of the current point location makes use\nof an elastic model similar to \u201dsnakes\u201d. The point iteratively moves under the action of an image-force attracting it to the local gravity center, and under the reaction of the internal forces of the model, which\nreflect its shape constraints: continuity and smoothness. The prediction makes use of the eigenvectors of\nthe inertia matrix. The stopping criteria of the centerline tracking are based on the size of the sphere and on the percentage of the masked voxels within the sphere.\nOn 8 training CT datasets, the following mean results were obtained. Overlap with reference: considering the whole length (OV) 80.1%, until the first failure (OF) 48.9%, in clinically relevant segments (radius > 1.5 mm, OT) 81.7%. Average distance from reference: considering the whole length\n(AD) 4.32 mm, limited to segments where the semiautomatic centerline remains within the vessel (AI) 0.39 mm, in clinically relevant segments (AT) 4.13 mm. On 16 testing datasets, these results were respectively: OV =80.2%, OF =39.3%, OT =82.1%, AD =5.05 mm, AI =0.41 mm and AT =4.58 mm. \nA number of failures was due to the the fact that the model does not handle the bifurcations.",
     "articles": [
-      "bafkreid32tqx3sj7gg4sieqpearbxy5vgurcmmf7cfzwe37pj2j3ks42eq",
+      "bafkreicxhxfnzqvwz3kspsvprrcewqxbtkhor5s6sehutjpdiumztquiim",
       "bafkreicxhxfnzqvwz3kspsvprrcewqxbtkhor5s6sehutjpdiumztquiim",
       "bafkreidvrzfzehntvlarpcmi2hhsovd4vyeqefthur3fbzk5jdxec2uxle",
-      "bafkreicxhxfnzqvwz3kspsvprrcewqxbtkhor5s6sehutjpdiumztquiim",
+      "bafkreicrfameemh4vqucytgs2rpk3xrspwwn76y7o2hslmqyfsaajd63xa",
       "bafkreiguby4m5eis4fc4ywvr5dkvi5ppbx65skeqxbwdj3dpmflteb3b3e",
       "bafkreicvbcr7szhhwjta4jibi4vxu5cownlo7zcu4bfoxzptrbipooocxm",
-      "bafkreicrfameemh4vqucytgs2rpk3xrspwwn76y7o2hslmqyfsaajd63xa"
+      "bafkreid32tqx3sj7gg4sieqpearbxy5vgurcmmf7cfzwe37pj2j3ks42eq"
     ],
     "authors": [
       {

@@ -2,14 +2,14 @@
   "publication": {
     "abstract": "This article provides an implementation of the symmetric log-domain diffeomorphic image registration algorithm, or symmetric demons algorithm for short. It generalizes Thirion's demons and the diffeomorphic demons algorithm. The main practical advantages of the symmetric demons with respect to the other demons variants is that is provides the inverse of the spatial transformation at no additional computational cost and ensures that the registration of image A to image B provides the inverse of the registration from image B to image A. The algorithm works completely in the log-domain, i.e. it uses a stationary velocity field to encode the spatial transformation as its exponential. Within the Insight Toolkit (ITK), the classical demons algorithm is implemented as part of the finite difference solver framework. Our code reuses and extends this generic framework. The source code is composed of a set of reusable ITK filters and classes together with their unit tests. We also provide a small example program that allows the user to compare the different variants of the demons algorithm. This paper gives an overview of the algorithm, an overview of its implementation and a small user guide to ease the use of the registration executable.",
     "articles": [
-      "bafkreibgtckzfdwctuaztasedwnawt4tpwrcfoys5fsa47azpalp6snzcm",
       "bafkreiarlizdvoe3d5bags2e6c3zz3anqtzbcq5wzbau53fpx36hkif3ai",
       "bafkreiarlizdvoe3d5bags2e6c3zz3anqtzbcq5wzbau53fpx36hkif3ai",
       "bafkreiarlizdvoe3d5bags2e6c3zz3anqtzbcq5wzbau53fpx36hkif3ai",
       "bafkreiarlizdvoe3d5bags2e6c3zz3anqtzbcq5wzbau53fpx36hkif3ai",
       "bafkreiarlizdvoe3d5bags2e6c3zz3anqtzbcq5wzbau53fpx36hkif3ai",
       "bafkreiarlizdvoe3d5bags2e6c3zz3anqtzbcq5wzbau53fpx36hkif3ai",
-      "bafkreiarlizdvoe3d5bags2e6c3zz3anqtzbcq5wzbau53fpx36hkif3ai"
+      "bafkreiarlizdvoe3d5bags2e6c3zz3anqtzbcq5wzbau53fpx36hkif3ai",
+      "bafkreibgtckzfdwctuaztasedwnawt4tpwrcfoys5fsa47azpalp6snzcm"
     ],
     "authors": [
       {

@@ -2,9 +2,9 @@
   "publication": {
     "abstract": "We extended OpenIGTLink with following useful features; 1) AgentSocket class to capsulate socket initiation for smarter socket connection with try-catch implementation, 2) XmlMessage class to handle an XML text message. Using this extension, we will implement a data-logging DB that can relay the data to multiple clients.\nThis will impact the following 1) a pair of agent takes care of establishing, maintaining, terminating the communication channel, as well as attempting re-connection in case of network trouble, 2) modern error handling, 3) arbitrary format of data transfer by formatting an XML, including MRML data transmission via OpenIGTLink, 4) data logging by XML format. The work is yet in an early stage of implementation and a simple client example will be demonstrated.",
     "articles": [
-      "bafkreib35es6kw2ij4jpxrfmytjmr3mopgvmfrkhrede6rmekndpvzybyq",
       "bafkreicu2dlsg244got7u3sakonpogrx7s23qrg2pfxthgpqbjn6bnfq74",
-      "bafybeiavtd2limexdzfiflvz4ismefr4ssqxoxo5fygdsughrqz365qz7y"
+      "bafybeiavtd2limexdzfiflvz4ismefr4ssqxoxo5fygdsughrqz365qz7y",
+      "bafkreib35es6kw2ij4jpxrfmytjmr3mopgvmfrkhrede6rmekndpvzybyq"
     ],
     "authors": [
       {

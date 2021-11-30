@@ -2,9 +2,9 @@
   "publication": {
     "abstract": "This papers describes an image filter that counts the number of neighbors a pixel has storing that value at the pixel's image index. Functionality is provided to 1) adjust the neighborhood size, 2) count only those pixels within a specific value range, and 3) only record a neighbor count for specific pixels of interest. This paper is accompanied with source code for the filter and test, test images and parameters, and expected output images.",
     "articles": [
-      "bafkreifxcnvxqsxn7wcadsw3mnbgpw2v4mixfuovbomxahtnp3yrrohbly",
       "bafkreiej537iwxuebj22khjylg7m5qxvi4ewhane6csrhpokbx2k4dphgu",
-      "bafkreiedzwnvieeoo5gobkyuvty4og6gnmf53f7ujajycnm6hpgregq3ee"
+      "bafkreiedzwnvieeoo5gobkyuvty4og6gnmf53f7ujajycnm6hpgregq3ee",
+      "bafkreifxcnvxqsxn7wcadsw3mnbgpw2v4mixfuovbomxahtnp3yrrohbly"
     ],
     "authors": [
       {

@@ -2,8 +2,8 @@
   "publication": {
     "abstract": "Kernel-based transforms such as the thin plate spline are frequently used to model deformations in medical\r\nimaging. The existing implementation in ITK is capable of being used to warp images, but does not\r\nwork in the registration framework. The existing implementation is inefficient, requiring recomputation\r\nof all cached values at every parameter change, and the Jacobian calculation is not implemented. By\r\nreversing the roles of the fixed and moving parameters, the transform can be adapted for registration use.\r\nWe present modified classes which are more efficient, and calculate the Jacobian correctly.",
     "articles": [
-      "bafkreigle42jx5ilk4frwof2tg3uytmqilko7bsheiywn4o2qpanzo5yg4",
-      "bafkreifusiov36h6hqgyhozxmsnk2wiq5jex4c5xzz44duqh6sgsnmqrxu"
+      "bafkreifusiov36h6hqgyhozxmsnk2wiq5jex4c5xzz44duqh6sgsnmqrxu",
+      "bafkreigle42jx5ilk4frwof2tg3uytmqilko7bsheiywn4o2qpanzo5yg4"
     ],
     "authors": [
       {

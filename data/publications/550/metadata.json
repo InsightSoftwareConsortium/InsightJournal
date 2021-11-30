@@ -3,8 +3,8 @@
     "abstract": "Nonlinear finite element methods are described in which cyclic organ motion is implied from 4D scan data. The equations of motion corresponding to an explicit integration of the total Lagrangian formulation are reversed, such that the sequence of node forces which produces known changes in displacement is recovered. The forces are resolved from the global coordinate system into systems local to each element, and at every simulation time step are expressed as weighted sums of edge vectors. In the presence of large deformations and rotations, this facilitates the combination of external forces, such as tool-tissue interactions, and also positional constraints. Applications in the areas of surgery simulation and minimally invasive robotic interventions are discussed, and the methods are illustrated using CT images of a pneumatically-operated beating heart phantom.",
     "articles": [
       "bafkreiaofdpvcojxbsihqk4plezkv3qxen64rbwnqknosz3hsym3qvkfsq",
-      "bafkreiaofdpvcojxbsihqk4plezkv3qxen64rbwnqknosz3hsym3qvkfsq",
-      "bafkreif6o4btria6mekgqgsk5onhqaugztakniw6oj3py5jil32z5q5pu4"
+      "bafkreif6o4btria6mekgqgsk5onhqaugztakniw6oj3py5jil32z5q5pu4",
+      "bafkreiaofdpvcojxbsihqk4plezkv3qxen64rbwnqknosz3hsym3qvkfsq"
     ],
     "authors": [
       {

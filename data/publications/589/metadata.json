@@ -2,8 +2,8 @@
   "publication": {
     "abstract": "Liver cancer is the fifth most commonly diagnosed cancer and the third most common cause of death\r\nfrom cancer worldwide. A precise analysis of the lesions would help in the staging of the tumor and\r\nin the evaluation of the possible applicable therapies. In this paper we present the workflow we have\r\ndeveloped for the semi-automatic segmentation of liver tumors in the datasets provided for the MICCAI\r\nLiver Tumor Segmentation contest. Since we wanted to develop a system that could be as automatic\r\nas possible and to follow the segmentation process in every single step starting from the image loading\r\nto the lesion extraction, we decided to subdivide the workflow in two main steps: first we focus on the\r\nsegmentation of the liver and once we have extracted the organ structure we segment the lesions applying\r\nan adaptive multi-thresholding system.",
     "articles": [
-      "bafkreibof3pqw4r67p6ktyhfkwp4gnvffjfsxbfhu65yprvsg5qtnyv7g4",
-      "bafkreicyutmbnlcvwstmt3uev7tyx2267gf5cjqi32jqbwzlmebwb2mi74"
+      "bafkreicyutmbnlcvwstmt3uev7tyx2267gf5cjqi32jqbwzlmebwb2mi74",
+      "bafkreibof3pqw4r67p6ktyhfkwp4gnvffjfsxbfhu65yprvsg5qtnyv7g4"
     ],
     "authors": [
       {

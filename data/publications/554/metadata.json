@@ -2,10 +2,10 @@
   "publication": {
     "abstract": "We present a framework for statistical finite element analysis allowing performing statistical statements of biomechanical performance of peri-articular implants across a given population. In this paper, we focus on the design of orthopaedic implants that fit a maximum percentage of the target population, both in terms of geometry and biomechanical stability. CT scans of the bone under consideration are registered non-rigidly to obtain correspondences in position between them. A statistical model of shape is computed by means of principal component analysis. A method to automatically propagate standardize fractures on the statistically-based bone population has been developed as well as tools to optimize implant position to best-fit the bone surface. Afterwards, finite element analysis is performed to analyse the biomechanical performance of the bone/implant construct. The mechanical behaviour of different PCA bone instances is compared for tibia representing the Asian and Caucasian populations.",
     "articles": [
-      "bafybeibgzyjg7byr7bf4ogptcvyqwb6hotrxrtxj56yr43jlnwqunxjxxe",
-      "bafybeieu6bsdigofdusipofroueycgsnyurbxwlyhvu7atdmtt456ifpwm",
       "bafybeiguyicaqba25jbo2u4ejogjyipuqx3zoz42cqo7mla4yvpcytymeq",
-      "bafybeicle3hjzfjjhfe6dwhc3fsk3s5bil2ibuvl7rbqfg45d2jbdl6rwa"
+      "bafybeieu6bsdigofdusipofroueycgsnyurbxwlyhvu7atdmtt456ifpwm",
+      "bafybeicle3hjzfjjhfe6dwhc3fsk3s5bil2ibuvl7rbqfg45d2jbdl6rwa",
+      "bafybeibgzyjg7byr7bf4ogptcvyqwb6hotrxrtxj56yr43jlnwqunxjxxe"
     ],
     "authors": [
       {

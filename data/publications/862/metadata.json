@@ -2,10 +2,10 @@
   "publication": {
     "abstract": "Acquiring data sets for stereo or multi-view reconstruction with known ground truth is costly and time consuming. Freely available data sets mostly focus on specific scene conditions and might not reflect the intended application scenario. We propose a GPU accelerated ray tracing framework that allows to generate realistic images with adjustable camera properties and projection geometry. Due to the nature of ray tracing, ground truth data can easily be obtained. The system also supports projectors as used e.g. for structured light systems. This facilitates to study interaction effects between different pattern designs, camera and projector properties, as well as the utilized reconstruction algorithm.",
     "articles": [
-      "bafybeig2ntnuk6rzw2oplbyjlk3s5wi5dbkdh2sknan7bpzlse7wtkl77q",
+      "bafybeia5dnw5fochgz3ihrqwqc3pxchrnx2sitpdoiodh5gplxlcz6wcdq",
       "bafybeidoxzm7f7xxb2avhjk4xwbjyvl3zvwoyqfmtu3a2gvbfnte5n4dh4",
       "bafybeihm5z5kpzbaznvq6jolsb55sprol52kfdy4ssxhlheokw5btrzowy",
-      "bafybeia5dnw5fochgz3ihrqwqc3pxchrnx2sitpdoiodh5gplxlcz6wcdq"
+      "bafybeig2ntnuk6rzw2oplbyjlk3s5wi5dbkdh2sknan7bpzlse7wtkl77q"
     ],
     "authors": [
       {

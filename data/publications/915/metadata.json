@@ -2,8 +2,8 @@
   "publication": {
     "abstract": "Several applications such as multi-atlas segmentation require frequent iteration over multiple image volumes at the same time.\nDoing so with the regular ITK iterators is tedious and error prone as it requires updating each iterator at end of each iteration. Failing to do so results in hard to debug errors and crashes.\nThe MultipleImageIterator is a simple wrapper class that tries to make this more convenient.\n",
     "articles": [
-      "bafkreid3m5vd3hbwra4vut25rs4itchub5d7kxnsolaxgcwebwe2syziga",
-      "bafkreib3mxgfxtg75apxuhq6xftkcfjdf3yedqbl23zmfynz7tmnii63ce"
+      "bafkreib3mxgfxtg75apxuhq6xftkcfjdf3yedqbl23zmfynz7tmnii63ce",
+      "bafkreid3m5vd3hbwra4vut25rs4itchub5d7kxnsolaxgcwebwe2syziga"
     ],
     "authors": [
       {

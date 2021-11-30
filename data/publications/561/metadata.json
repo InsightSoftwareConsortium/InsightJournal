@@ -2,10 +2,10 @@
   "publication": {
     "abstract": "The assignment of bone material properties to finite element model is a fundamental step in finite element analysis and has great influence on analysis results. Most work done in this area has adopted isotropic assignment strategy as its simplicity. However, bone material is widely recognized as being anisotropic rather than isotropic. Therefore, this work is aimed to simulate the inhomogeneity and anisotropy of femur by assigning each element of the mesh model the material properties with a numerical integration method and properly defining the principal material orientation, and then compare the biomechanical analysis results of isotropic model with that of anisotropic model under six different loading conditions. Based on the analysis results of the equivalent Von Mises stress and the nodal displacement, four different regions of interest are chosen to achieve this comparison. The results show that significant differences between the two material property assignments exist in the regions where anisotropic material property is sensitive to orientation definition. Thus, orientation definition is important to finite element simulation of bone material properties.",
     "articles": [
-      "bafkreiem3zmljhq6dgdhbkygyjsxabiacvogils3xpiuvxya27naeh3kvu",
+      "bafkreibklmzt6f5ezxuftve5l3vlofnidextboqdd5zkpuhu3ujdmqeraq",
       "bafkreiem3zmljhq6dgdhbkygyjsxabiacvogils3xpiuvxya27naeh3kvu",
       "bafkreic7sac4u6s7ucgrcp4nfetz5gk7xzs3hqxheltlznvo66sk2grxp4",
-      "bafkreibklmzt6f5ezxuftve5l3vlofnidextboqdd5zkpuhu3ujdmqeraq"
+      "bafkreiem3zmljhq6dgdhbkygyjsxabiacvogils3xpiuvxya27naeh3kvu"
     ],
     "authors": [
       {

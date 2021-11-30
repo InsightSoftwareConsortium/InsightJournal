@@ -2,8 +2,8 @@
   "publication": {
     "abstract": "In this paper, we present a fast and interactive graph cut method for 3D segmentation of the endocardial wall of the left ventricle (LV) given 3D echocardiographic images. This is a challenging task due to the poor contrast and the low signal-to-noise ratio typical of echocardiographic images. The method is carried out in 3 steps. First, 3D sampling of the LV cavity is made in a spherical-cylindrical coordinate system. Then, a gradient-based energy term is assigned to each voxel, some of which being given an infinite energy to make sure the resulting volume passes through key anatomical points. Then, a graph-cut procedure provides delineation of the endocardial surface. Results obtained on 30 exams from the 2014 CETUS MICCAI challenge dataset reveal that our method takes between 5 and 10 seconds to segment a 3D volume with an overall mean surface distance lower than 2.3 mm and an ejection fraction error of less than 5% compared to a manual tracing by an expert.",
     "articles": [
-      "bafybeihdhsmb3lxyq4q2skjwhabi3nw3yxhak34xjjlkl2cyjk2az4ijlm",
-      "bafybeihkl6gyc5z6uexfw6vcxf45pk4maqzhgpbaa5kw2cm7ymqwo5ysye"
+      "bafybeihkl6gyc5z6uexfw6vcxf45pk4maqzhgpbaa5kw2cm7ymqwo5ysye",
+      "bafybeihdhsmb3lxyq4q2skjwhabi3nw3yxhak34xjjlkl2cyjk2az4ijlm"
     ],
     "authors": [
       {

@@ -2,8 +2,8 @@
   "publication": {
     "abstract": "This document illustrates how to process large images (5 and 23 Gigabytes in size) by taking advantage of the streaming capabilities of the Insight Toolkit ITK. Here we illustrate two scenarios: (a) the case when the image itself is larger than the computer's RAM, (b) the case when the image is large but still can fit in the computer's RAM. This report is intended to serve as a tutorial on how to take advantage of this memory management capabilities of ITK version 4.\n\nThis paper is accompanied with the source code, input data, parameters and output data that we used for validating the algorithm described in this paper. This adheres to the fundamental principle that scientific publications must facilitate reproducibility of the reported results.",
     "articles": [
-      "bafybeidoivrekqjcm4em4r6rftsmrdppvq66y6r7kjtryx6bfsxdne3umy",
-      "bafybeifqszlv67tboorbyxyp7dwe3vujz545hc65yg5hg2hgnutwfbcdhy"
+      "bafybeifqszlv67tboorbyxyp7dwe3vujz545hc65yg5hg2hgnutwfbcdhy",
+      "bafybeidoivrekqjcm4em4r6rftsmrdppvq66y6r7kjtryx6bfsxdne3umy"
     ],
     "authors": [
       {

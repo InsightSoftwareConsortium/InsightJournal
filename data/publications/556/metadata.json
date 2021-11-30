@@ -2,8 +2,8 @@
   "publication": {
     "abstract": "Meaningful physical models are important for studying cardiac physiology, such as quantitative assessments of pathology via changes in model parameters, and recovering information from medical images. In order to achieve realistic deformation studies, an anatomically accurate cardiac model under the prolate spheroidal coordinate system has been proposed, which comprises the pole-zero constitutive law characterized by 18 material parameters. Nevertheless, the large number of parameters and the complicated mathematics under the curvilinear coordinate system make it difficult to implement and computationally expensive. In consequence, we propose a cardiac model under the cartesian coordinate system comprising the Costa law, which is tailored for medical image analysis. The Costa law is characterized by a strain energy function with only seven material parameters, but has been reported as the best among the five tested well-known models in a comparative study, including the pole-zero law. In our framework, the penalty method for material incompressibility is used to avoid introduction of extra variables. Furthermore, we introduce a simple but novel boundary condition for enforcing cardiac specific boundary displacements under the cartesian coordinate system. With the active stresses provided by cardiac electromechanical models, and also the blood pressures acting as the natural boundary conditions on the endocardial surfaces, the physiologically plausible active deformation of the heart can be simulated. Experiments have been done on a cubical object to verify the correctness of the implementation, and also on a canine heart architecture to show the physiological plausibility of the cardiac model.",
     "articles": [
-      "bafybeickz5orbuuqro2jiihoiyzdhdanvgl2tv7b35fakr5z3zshykxgbq",
-      "bafybeibjhnsdor5d2p7m7rujzcsagc4cwozc7vy4typ4zhixqtpiqsyduu"
+      "bafybeibjhnsdor5d2p7m7rujzcsagc4cwozc7vy4typ4zhixqtpiqsyduu",
+      "bafybeickz5orbuuqro2jiihoiyzdhdanvgl2tv7b35fakr5z3zshykxgbq"
     ],
     "authors": [
       {

@@ -2,14 +2,14 @@
   "publication": {
     "abstract": "In this paper a specific method is presented to facilitate the semi-automatic segmentation of liver metastases in CT images. Accurate and reliable segmentation of tumors is e.g. essential for the follow-up of cancer treatment. The core of the algorithm is a level set function. The initialization is provided by a spiral-scanning technique based on dynamic programming. The level set evolves according to a speed image that is the result of a statistical pixel classification algorithm with supervised learning. This method is tested on CT images of the abdomen and compared with manual delineations of liver tumors.",
     "articles": [
-      "bafkreifccuomipbsqwayshzra7adf3lpk2i76szb6fwphskkdxd44jmbzi",
-      "bafkreifrij3bvdgmmsdck7lnkimcz6axxiajacsce3tbnorzw2nxqiglmm",
       "bafkreifank7ipbw4alagrjmvcru6mvdkcrvupxb76yz4gttxneyyywk3ty",
+      "bafkreihm3rer7d5ykmfvdygpbzhyfnpjnrgvmdol3tbp4dkqepz7px5lbe",
+      "bafkreihwcre72fglnkkgp7tk62z52jucs4abz7qub3n6h2z7sdsorflm7i",
       "bafkreid7e5rxjphrmnrnde33hcvbeocfpul3t4nob7et2i5krbt3yeosmu",
       "bafkreihm3rer7d5ykmfvdygpbzhyfnpjnrgvmdol3tbp4dkqepz7px5lbe",
       "bafkreihm3rer7d5ykmfvdygpbzhyfnpjnrgvmdol3tbp4dkqepz7px5lbe",
-      "bafkreihm3rer7d5ykmfvdygpbzhyfnpjnrgvmdol3tbp4dkqepz7px5lbe",
-      "bafkreihwcre72fglnkkgp7tk62z52jucs4abz7qub3n6h2z7sdsorflm7i"
+      "bafkreifrij3bvdgmmsdck7lnkimcz6axxiajacsce3tbnorzw2nxqiglmm",
+      "bafkreifccuomipbsqwayshzra7adf3lpk2i76szb6fwphskkdxd44jmbzi"
     ],
     "authors": [
       {

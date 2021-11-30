@@ -2,8 +2,8 @@
   "publication": {
     "abstract": "VoxBo (www.voxbo.org) is a distributed processing framework, developed at the Center of Functional Neuroimaging at the University of Penssylvania, with the purpose of processing and analyzing brain functional MRI data. \r\nVoxBo is written in C++, and it is escentially a fair translation of some SPM functionality, originally written in Matlab. Along with the software, VoxBo defines two new image formats:\r\n1) .cub, a 3D image format, used for anatomical data and single EPI frames. It is important to notice that this format defines a proper origin field, lacking, for instance, in Analyze.\r\n2) .tes, a 4D image format, designed to contain the temporal EPI information. It is worth noticing that this format organizes the voxels in such a way to optimize longitudinal (temporal) voxel access.\r\nFurthermore, the tes format is compressed through encoding of the functional voxels alone, i.e., background voxels are not stored for each frame, but only for the first one.\r\n\r\nIn this work we present the necessary IO classes that allow ImageFileReader and ImageFileWriter to properly identify, read and write .cub files only. We will provide .tes support in a subsequent work.\r\nThis effort is carried out with the purpose of letting VoxBo implementors to take advantage of ITK's power and overcome the limitations currently afflicting VoxBo.",
     "articles": [
-      "bafkreickjuw54wpdq6q3wnkebmgyi2fke7brxh2cfblpbwnrt3zdb7ywde",
-      "bafkreifoaplxab45es5bndnmfg3vhay24wlunnhtcfz6pljinu76semg7u"
+      "bafkreifoaplxab45es5bndnmfg3vhay24wlunnhtcfz6pljinu76semg7u",
+      "bafkreickjuw54wpdq6q3wnkebmgyi2fke7brxh2cfblpbwnrt3zdb7ywde"
     ],
     "authors": [
       {

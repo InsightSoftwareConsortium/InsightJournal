@@ -2,8 +2,8 @@
   "publication": {
     "abstract": "Developing both graphical and command-line user interfaces for image analysis algorithms requires considerable effort. Generally developers provide limited to very rudimentary user interface controls to their users. These image analysis algorithms can only meet their potential if they can be used easily and frequently by their intended users. Deployment of a large suite of such algorithms on multiple platforms requires that the software be stable and appropriately tested. \n\nWe present a novel framework that allows for rapid development of image analysis algorithms along with graphical user interface controls. Additionally, our framework allows for simplified nightly testing of the algorithms to ensure stability and cross platform interoperability. It allows for development of complex algorithms by creating a custom pipeline where the output of an algorithm can serve as an input for another algorithm. All of the functionality is encapsulation into the object \nrequiring no separate source code for user interfaces, testing or deployment. This makes our framework ideal for developing novel, stable and easy-to-use algorithms for computer assisted interventions (CAI). The framework has been deployed at the Magnetic Resonance Research Center at Yale University and has been released for public use. ",
     "articles": [
-      "bafybeiha55cci2d2trgi7kp4dvtsl3wylqei3ki5fyjgxhudayn6okh4pu",
-      "bafybeibjvfsvrae6zpi32geprqgfdjgmawrtged5csztlnx4x27hgwib6q"
+      "bafybeibjvfsvrae6zpi32geprqgfdjgmawrtged5csztlnx4x27hgwib6q",
+      "bafybeiha55cci2d2trgi7kp4dvtsl3wylqei3ki5fyjgxhudayn6okh4pu"
     ],
     "authors": [
       {
