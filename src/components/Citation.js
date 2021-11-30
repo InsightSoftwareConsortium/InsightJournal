@@ -108,7 +108,6 @@ ${publication.abstract}
     }
     citData.push(`publisher = "${journal.title}",`)
     const last_revision_doi = publication.revisions[publication.revisions.length-1].doi
-    console.log("last_revision_doi", last_revision_doi)
     if(last_revision_doi) {
       // doi (with no http://)
       citData.push(`doi = "${last_revision_doi}",`)
