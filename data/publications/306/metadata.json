@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "Graph-based algorithms have enjoyed renewed interest for solving computer vision problems. These algorithms have been the subject of intense interest and research. In order to maintain the ITK library au courant, we developed a framework for graph-based methods of energy minimization in ITK which employ energy functions derived within a Markov Random Field (MRF) context. This required not only the implementation of the energy minimization methodology but also the more general requirement of introducing graph-related data structures into ITK which can be used for other graph-based algorithms pertinent to future extensions of the ITK library. \r\n\r\nPlease note that some of the algorithms described in this paper may be covered by patents and, as such, it is incumbent upon the user to seek licenses before building the binaries which utilize this code. Also note that \u201cresearch use\u201d is not exempt from acquiring such licenses. The only exemption from patent restrictions is \u201c. . . amusement, to satisfy idle curiosity, or for strictly philosophical inquiry.\u201d",
-    "articles": [
-      "bafybeidiq5ac5ewabcdyrdgcube6nx4bhoufa3nyxuvl5qjgx4r4jrraam"
-    ],
     "authors": [
       {
         "author_fullname": "Tustison, Nicholas",
@@ -69,7 +66,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeicfm65kh2oti2nt4yqqyks5dkkbsoehn5iimeipqmkdhxiu2ovtci",
+        "article": "bafybeidiq5ac5ewabcdyrdgcube6nx4bhoufa3nyxuvl5qjgx4r4jrraam",
         "citation_list": [
           {
             "doi": "10.4153/cjm-1956-045-5",

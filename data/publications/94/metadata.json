@@ -1,10 +1,6 @@
 {
   "publication": {
     "abstract": "This work describes the implementation of computational geometry algorithms developed within the Insight Toolkit (ITK): Distance Transform (DT), Voronoi diagrams, k Nearest Neighbor (kNN) transform, and finally a K Nearest Neighbor classifier for multichannel data, that is used for supervised segmentation. We have tested this algorithm for 2D and 3D medical datasets, and the results are excellent in terms of accuracy and performance. One of the strongest points of the algorithms described here is that they can be used for many other applications, because they are based on the ordered propagation paradigm. This idea consists in actually not raster scan the image but rather in start from the image objects and propagate them until the image is totally filled. This has been demonstrated to be a good approach in many algorithms as for example, computation of Distance Transforms, Voronoi Diagrams, Fast Marching, skeletons computation, etc. We show here that these algorithms have low computational complexity and it provides excellent results for clinical applications as the segmentation of brain MRI.",
-    "articles": [
-      "bafkreiggsoxoilm2zl2hpzgf6j7z43e5cboo3ytdcbqgyeyh2ldod74z2e",
-      "bafkreigpraxpslwmonzvanrbxolcbjp5qr2jqothlchgxv5k6zipeypvdq"
-    ],
     "authors": [
       {
         "author_fullname": "Cardenes, Ruben",

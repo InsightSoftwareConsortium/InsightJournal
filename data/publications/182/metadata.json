@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "The original design of the ITK registration framework was based around the itk::Image class, which\r\nassumed that the pixel axes were aligned with the coordinate system axes. The itk::OrientedImage\r\nwas added later as a subclass, but problems remain with its gradient calculations. Furthermore, general\r\ncode that uses the itk::OrientedImage will suffer an unnecessary penalty when the image is oriented\r\nparallel to the image axes. We propose a new itk::FastOrientedImage class that alleviates these\r\nperformance problems, and a change to the design of itk::ImageToImageMetric that resolves the\r\ngradient issue, and adds a number of additional capacities to the image metrics",
-    "articles": [
-      "bafkreiebtguqh2acbu3eizhsefxqigdmmvrcuuatol65njvb4xizdyidqq"
-    ],
     "authors": [
       {
         "author_fullname": "Brooks, Rupert",

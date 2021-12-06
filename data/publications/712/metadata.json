@@ -1,10 +1,6 @@
 {
   "publication": {
     "abstract": "Leica LiDAR scanners output points in the PTX file format. It is often useful to convert this format to a standard VTK point cloud or mesh format before processing. We propose a new class, vtkPTXReader, to provide this functionality.",
-    "articles": [
-      "bafybeieyddgqtkfns4u5xhrtn2wztrhvumwe5aa67hlq2yhuhbyr24eq3q",
-      "bafybeib6po5sm45df5tbb5wdgjas52uklwpzyqbsypx3qnonisblucbzse"
-    ],
     "authors": [
       {
         "author_fullname": "Doria, David",
@@ -33,7 +29,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeid5kmaqsomzzm7atrbnp634abfp7ticw7n4j6vdfo2der2djol6pe",
+        "article": "bafybeib6po5sm45df5tbb5wdgjas52uklwpzyqbsypx3qnonisblucbzse",
         "dapp": null,
         "dataset": null,
         "doi": null,

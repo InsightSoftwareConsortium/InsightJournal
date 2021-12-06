@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "An Insight Toolkit (ITK) processing framework for blob segmentation with applications to microscopy \r\nimages is presented in this paper. Our algorithm is a re\ufb01nement of the work of Mosaliganti et al. [3] for \r\nsplitting cell clusters. The basic idea is to incorporate as many cues as possible into developing a suitable \r\nlevel-set speed function so that an evolving contour exactly segments a cell/nuclei blob. We use image \r\ngradients, distance maps, multiple channel information and a shape model to drive the evolution. The \r\nframework consists of a linear pipeline of 6 new ITK \ufb01lters which are applied in succession to generate \r\nthe segmentation. The \ufb01lters extract the cell foreground, construct the speed image, \ufb01nd seed points for \r\nevolution and collect cell statistics from the segmentation. We include 2D/3D example code, parameter \r\nsettings and show the results generated on confocal images of the zebra\ufb01sh embryo.",
-    "articles": [
-      "bafkreib56zu53z4pyy3xyszhgqalibxtldqvkzxi5vtipoumvnv565maie"
-    ],
     "authors": [
       {
         "author_fullname": "Mosaliganti, kishore",
@@ -53,7 +50,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeidup57ptz7gg34bzrlcfr6k5ogidahzf6wdqre5yv6cdjazfgxf4y",
+        "article": "bafkreib56zu53z4pyy3xyszhgqalibxtldqvkzxi5vtipoumvnv565maie",
         "citation_list": [
           {
             "key": "ref1",

@@ -1,11 +1,6 @@
 {
   "publication": {
     "abstract": "An Insight Toolkit (ITK) filter for image segmentation with\r\napplications to brain MRI scans is presented in this paper. Previously, we\r\nshowed how ITK could be used to implement our algorithm. This paper\r\npresents our new ITK filter for Bayesian segmentation along with results\r\non brain MRI scans. Our algorithm is a refinement of the work of Teo,\r\nSaprio, and Wandall. The basic idea is to incorporate prior knowledge\r\ninto the segmentation through Bayes rule. Image noise is removed via an\r\naffine invariant anisotropic smoothing of the posteriors as in Haker et. al.\r\nSpecifically, we present the implementation of our Bayesian segmentation\r\nalgorithm applied to brain MRI scans.",
-    "articles": [
-      "bafkreiffvdstlwdmu7db2lh47efuxf6pfdm3qvr7qqacrhyme2s46kj3u4",
-      "bafkreiffvdstlwdmu7db2lh47efuxf6pfdm3qvr7qqacrhyme2s46kj3u4",
-      "bafkreiffvdstlwdmu7db2lh47efuxf6pfdm3qvr7qqacrhyme2s46kj3u4"
-    ],
     "authors": [
       {
         "author_fullname": "Melonakos, John",

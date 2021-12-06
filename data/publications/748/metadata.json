@@ -1,11 +1,6 @@
 {
   "publication": {
     "abstract": "This paper describes implementation of local structure tensor and anisotropic enhancement diffusion filters using the Insight Toolkit. The anisotropic diffusion filters are implemented using ITK's finite difference solver framework. The filters are used to implement the 3D edge-enhancing diffusion ( EED), coherence-enhancing diffusion (CED) and hybrid diffusion with continuous switch(HDCS) noise filtering algorithms described in Mendrik et al[1].\n\nThe most up-to-date version of the code presented in this paper is distributed with the TubeTK project:\nhttp://public.kitware.com/Wiki/TubeTK\n",
-    "articles": [
-      "bafkreiezugx7zaio4jnbdfmuqc3a2xykh5jpofbzngnuitqxhzk4f75jkm",
-      "bafkreiezugx7zaio4jnbdfmuqc3a2xykh5jpofbzngnuitqxhzk4f75jkm",
-      "bafkreiezugx7zaio4jnbdfmuqc3a2xykh5jpofbzngnuitqxhzk4f75jkm"
-    ],
     "authors": [
       {
         "author_fullname": "Enquobahrie, Andinet",

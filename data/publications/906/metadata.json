@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "This work presents an automatic brain MRI segmentation method which can classify brain voxels into one of three main tissue types: gray matter (GM), white matter (WM) and Cerebro-spinal Fluid (CSF). Intensity-model based classification of MR images has proven problematic. The statistical approach does not carry any spatial, textural and neighborhood information in it. We propose to use a computationally fast and novel feature-set to facilitate voxel wise classification based on regional intensity, texture, spatial location of voxels in addition to posterior probability estimates. Information available through T1-weighted (T1), T1-weighted inversion recovery (IR) and T2-weighted FLAIR (FLAIR) MRI sequences was also leveraged. An aggregate overlap of 90.21% for all intracranial structures was reported between the automatic classification and available expert annotation as measured by the DICE coefficient.",
-    "articles": [
-      "bafkreiffudsv7pnfhuuqwesmhgdowrhnjwbnxwdehz76yx2u5pcg3orrha"
-    ],
     "authors": [
       {
         "author_fullname": "Katyal, Ranveer",
@@ -41,7 +38,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeidcxjl5ledrroimlnzkjwpiq2tmwwolkj5x5w7lw7dmwzrc2j7ezq",
+        "article": "bafkreiffudsv7pnfhuuqwesmhgdowrhnjwbnxwdehz76yx2u5pcg3orrha",
         "citation_list": [
           {
             "doi": "10.1006/nimg.1997.0290",

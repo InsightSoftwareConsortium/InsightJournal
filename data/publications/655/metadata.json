@@ -1,11 +1,6 @@
 {
   "publication": {
     "abstract": "Four-dimensional imaging is a necessary step in computer-assisted interventions (CAI) performed on moving surgical targets, such as those located within the beating heart or influenced by respiratory motion. Ultrasound (US) is often the best imaging modality for this application, as it provides good contrast and spatial resolution while remaining simple to integrate into the operating room. However, conventional 2D US imaging is often insufficient for preoperative planning and surgical guidance, real-time 3D ultrasound imaging using matrix array probes has a smaller field of view and lower spatial resolution, and 3D volumes created using 3D US reconstruction suffer from motion artifacts. As an alternative, gated 4D ultrasound reconstruction using a tracked 2D US probe is a promising technology. In this paper, we present SynchroGrab4D to the open-source community. SynchroGrab4D performs 3D and 4D US reconstruction in real-time while visualizing the output volume(s) within an OpenIGTLink-compliant CAI system, such as 3D Slicer. Also included are VTK classes that perform ECG-gating and that interface with several commercial tracking systems, as well as a 4D Imaging module in 3D Slicer. Our open-source imaging system can be used to collect the 4D image data required for computer-assisted surgical planning and intraoperative guidance for a variety of moving organs.",
-    "articles": [
-      "bafybeiemiforcuhbm6sihefwmx7qwu367jhvzaatbpev6oy7ojsoanai5y",
-      "bafybeiemiforcuhbm6sihefwmx7qwu367jhvzaatbpev6oy7ojsoanai5y",
-      "bafybeibveyw6tikscjvtehb4j3l2zosq42lxzgjq5s7mgnn43hk3yquepi"
-    ],
     "authors": [
       {
         "author_fullname": "Pace, Danielle",
@@ -81,7 +76,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeid5m3pexkpjpvkvux44c246mvhwl7bj4gjwtoq2hkewep4ltznyai",
+        "article": "bafybeibveyw6tikscjvtehb4j3l2zosq42lxzgjq5s7mgnn43hk3yquepi",
         "citation_list": [
           {
             "doi": "10.1109/tmi.2005.856751",

@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "The current ITK release (2.8) already contains a filter that enables permuting coordinate axes of an image: PermuteAxesImageFilter. PermuteAxesTransform provides similar functionality in form if ITK transform. It enables permuting axes as a part of image resampling or it may be combined with other transforms. Such techniques save system resources as they does not require an extra filter to be present in a pipeline.",
-    "articles": [
-      "bafkreielcxisj5nyhynohxyzluq2cxkw73ztingzlzgmcif2yb2ybm4lk4"
-    ],
     "authors": [
       {
         "author_fullname": "Bican, Jakub",

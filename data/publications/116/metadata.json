@@ -1,20 +1,6 @@
 {
   "publication": {
     "abstract": "Medical image analysis is an important problem relating to\r\nthe study of various diseases. Since their inception to MICCAI in\r\n2001, ''deformable organisms'' have emerged as a fruitful\r\nmethodology with examples ranging from 2D corpus callosum\r\nsegmentation to 3D vasculature and spinal cord segmentation.\r\nEssentially we have developed an artificial life framework that\r\ncomplements classical deformable models (snakes and deformable\r\nmeshes) with high-level, anatomically-driven control mechanisms.\r\nThis paper describes the integration of deformable organisms\r\ninto the Insight Toolkit (ITK) \\url{www.itk.org}. Our code attempts\r\nto bridge the ITK framework and coding style with deformable organism\r\ndesign methodologies. In the interest of open science, as the\r\nframework develops it will serve as a basis for the community to\r\ndevelop new deformable organisms as well as experiment with those\r\nrecently published by our group.",
-    "articles": [
-      "bafybeiexghne7q237h5aebtb5q6tr45fmtq7377ptwzv66olggwlxpyezq",
-      "bafkreias6dyupno6vyah7wqbuqu3jurqwkshfs57u2fzwsxib7ezqlnpqq",
-      "bafkreigauivctgyljkbmokh3reuvhdnpen5eeo72krhuaqeymlxhqstusi",
-      "bafybeifit4kp7mnpg72sqzr5s4mt5yxz7hhdywyfch4tstmax3tekykhlu",
-      "bafybeicruyl77xlhr3edoul7vv2jhcf2di7eonle4ftfxr3clcrakc5asi",
-      "bafkreigtyhlwmftlobofwxt6b76ele2dutfvceedirmq6uozr6gsmelf44",
-      "bafybeibugf6ofvy3d43ikt42h4sdn47ug7efnebnoi54umyopwunkp43ia",
-      "bafybeia5csfjl5k25al3ywqonfl6bzpbejv2arkudatwblsrfjhd4s7tsq",
-      "bafybeiatmewlj42nxqp2cmgdxqiprodltfu5o5hoj43uumureowixbdn5a",
-      "bafkreighg3dkot7hsncjn4nwyjc457tipogdkmbbndzpcrt7xiebqxypwy",
-      "bafkreih47ed4aibw5ihtuyx6szjzbo6hzc26yvz5cu2waezsn2f3c55j6u",
-      "bafkreiaifoyhwuq2mgrikjeyk7onhjzcrxd4orekupohkup6zhzaexfe2q"
-    ],
     "authors": [
       {
         "author_fullname": "McIntosh, Chris",
@@ -47,7 +33,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeigibnn7wttcllt5s5vkexs7jbqck7whj6v37re4mtkhdsjkbg6kwi",
+        "article": "bafkreighg3dkot7hsncjn4nwyjc457tipogdkmbbndzpcrt7xiebqxypwy",
         "citation_list": [
           {
             "doi": "10.1109/iccv.1995.466871",

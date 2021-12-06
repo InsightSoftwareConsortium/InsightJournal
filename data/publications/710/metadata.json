@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "We present a VTK-based implementation of our non-parametric vessel detection method that identifies vascular structures using a polar neighborhood profile. To accelerate the computationally intensive parts of the algorithm, we leverage the hardware capabilities in commodity graphics hardware using Compute Unified Device Architecture (CUDA). We present the results of our performance analysis and provide source code and examples to validate the reproducibility of our results.",
-    "articles": [
-      "bafkreiaeuhse2utadgoi4rplw7gumh2hkeydvyi4kwcthz23toyu5l4ytm"
-    ],
     "authors": [
       {
         "author_fullname": "Alpoge, Levent",
@@ -62,7 +59,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeick6zqm2gdolmq236ou7qljmjngpj2uk2mpyd452zwfappuvz23ay",
+        "article": "bafkreiaeuhse2utadgoi4rplw7gumh2hkeydvyi4kwcthz23toyu5l4ytm",
         "citation_list": [
           {
             "key": "ref1",

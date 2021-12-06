@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "The segmentation of left ventricular structures is necessary for the evaluation of the ejection fraction (EF) and the myocardial mass (LVM). A semi-automated 2D algorithm using connected filters and a deformable model allowing an accurate endocardial detection was proposed. The epicardial border was deduced using a deformable model restricted inside a region of interest defined from the endocardial border. Papillary muscles were detected using a fuzzy k-means algorithm. The method was applied to the challenge training and validation databases, consisting of 15 subjects each. The evaluation was performed using the tools provided by the challenge. For both datasets, results show a mean Dice metric of 0.89 for endocardial borders (0.92 for epicardial borders). Overall average perpendicular distance was 2.2 mm. Very good correlation was obtained for the EF and LVM parameters. Visual overall rating given by the challenge\u2019s cardiologist was 1.2. Segmentation was robust and performed successfully on both datasets. ",
-    "articles": [
-      "bafkreid7ssydbthvpoz6zf25qbw7xye7xarqrlf7wkpth4uvkgq5qjrx3e"
-    ],
     "authors": [
       {
         "author_fullname": "Constantinides, Constantin",

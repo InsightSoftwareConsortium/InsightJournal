@@ -1,10 +1,6 @@
 {
   "publication": {
     "abstract": "This document describes contributions on the\r\nNormalizedCorrelationImageToImageMetric and the MeanSquaresImageToImageMetric of the Insight Toolkit ITK \\url{www.itk.org}. For the first metric a two time speed-up can be\r\nachieved by rewriting the code to loop only once over the fixed image. This is instead of the two times that is used in the current ITK code. The reduction in computation time comes at the cost of an additional storage of a parameters array. For both metric we have\r\nimplemented the option to use only a random subset of the fixed image voxels for calculating the metric value and its derivatives. This reduces the computation time (substantially), while convergence\r\nproperties are maintained. This paper is accompanied with the source code.",
-    "articles": [
-      "bafkreicgqexxnfri2fds7jngfjasmopf5alovyu7z7avnnqihmu6irvvga",
-      "bafkreicgqexxnfri2fds7jngfjasmopf5alovyu7z7avnnqihmu6irvvga"
-    ],
     "authors": [
       {
         "author_fullname": "Staring, Marius",

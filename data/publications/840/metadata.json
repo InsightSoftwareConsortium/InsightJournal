@@ -1,10 +1,6 @@
 {
   "publication": {
     "abstract": "A contribution to the Insight Toolkit intended to support the process of statistical\nanalysis in Computational Anatomy. The methods included here operate on open or closed triagulated surfaces (represented by a QuadEdgeMesh). The filter assigns basis function values as Point Data on each vertex of the Mesh.\nThis paper is accompanied with the source code, input data, parameters and output data that we used for validating the algorithm described in this paper. This adheres to the fundamental principle that scientific publications must facilitate reproducibility of the reported results.",
-    "articles": [
-      "bafkreickicitq7c26ebe6becoy2cvphklhu376tauggjsmizv34moxjy6m",
-      "bafkreiea3mokdokk65kyabatzok2cnns3qhbl2l5kmf7uiolmcx7xlwxdq"
-    ],
     "authors": [
       {
         "author_fullname": "Bowers, Michael",
@@ -39,7 +35,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeiats35k3jun7umyuzladkhqyd3z2fd2vj5sfrnfd6ewekwoucwhfa",
+        "article": "bafkreiea3mokdokk65kyabatzok2cnns3qhbl2l5kmf7uiolmcx7xlwxdq",
         "dapp": null,
         "dataset": null,
         "doi": null,

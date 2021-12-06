@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "Tiff images are widely used and domain and instrument specific\ninformation is often included in some tags. There isn't any standard\nway of making use of this information in ITK at present. This article\nintroduces some minor additions to the ITK tiff reader to include the\ncontent of some potentially useful tags in the image\nMetaDataDictionary, thus enabling domain specific information to be\nextracted from the tags within an ITK application.\n",
-    "articles": [
-      "bafkreieuw3ht564glisvjaeaqfvjsfxy6bauxfsdsyjsxzvms35r75zi54"
-    ],
     "authors": [
       {
         "author_fullname": "Beare, Richard",

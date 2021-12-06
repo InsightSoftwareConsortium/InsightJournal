@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "This document presents an implementation of two algorithms, Voronoi Neighbors and Binary Space Partition (BSP) Neighbors. These algorithms find neighbors of a point in a point set that are somehow ``better'' than a ``K nearest neighbors'' or a ``all neighbors within a radius'' query. This type of nearest neighbor query is more computationally expensive, but results in set of neighbors with more desirable properties. The BSP Neighbors search ensures that there is less local duplication, while the Voronoi Neighbors search ensures that the spatial arrangement of the neighbors is as uniform as possible.\n\nThese algorithms are explained in ``Point Primitives for Interactive Modeling and Processing of 3D Geometry''.\n\nThe code is available here:\nhttps://github.com/daviddoria/SmartNearestNeighbors",
-    "articles": [
-      "bafkreihmcf43qiw4y4khxugdrq5ju7dvpwlbpoqwzzlevo545qh7jdetf4"
-    ],
     "authors": [
       {
         "author_fullname": "Doria, David",

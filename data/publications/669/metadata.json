@@ -1,12 +1,6 @@
 {
   "publication": {
     "abstract": "This paper presents automated segmentation of structures in the Head and Neck (H&N) region, using an active contour-based joint registration and segmentation model. A new atlas selection strategy is also used. Segmentation is performed based on the dense deformation field computed from the registration of selected structures in the atlas image that have distinct boundaries, onto the patient's image. This approach results in robust segmentation of the structures of interest, even in the presence of tumors, or anatomical differences between the atlas and the patient image. For each patient, an atlas image is selected from the available atlas-database, based on the similarity metric value, computed after performing an affine registration between each image in the atlas-database and the patient's image. Unlike many of the previous approaches in the literature, the similarity metric is not computed over the entire image region; rather, it is computed only in the regions of soft tissue structures to be segmented. Qualitative and quantitative evaluation of the results is presented.",
-    "articles": [
-      "bafybeihjcbsdriddf3bmadoqrfu35cp5cgftwjthcjb5uvrmgo44epdsju",
-      "bafybeiatb2mlu4guotvss35np2gv7avrbsfrppd7sv3lnpxi2kc43xcjiu",
-      "bafybeifs6t2kbedbhgj7rlk2uc6lozxtfdfbcz7zzvkvcsrimvtovgrixq",
-      "bafybeicixujmxoflfmuvvbfa7f63jbmjt4zs5i7oe3ycgmex45ozoiiity"
-    ],
     "authors": [
       {
         "author_fullname": "Gorthi, Subrahmanyam",
@@ -59,7 +53,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeigxssw7pksohyyo3em52ei36zks4ystquqgibjjtgbzrhsopgv7hq",
+        "article": "bafybeicixujmxoflfmuvvbfa7f63jbmjt4zs5i7oe3ycgmex45ozoiiity",
         "citation_list": [
           {
             "doi": "10.1109/jstsp.2008.2011104",

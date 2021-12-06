@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "In this paper, we present a semi-automtic method for segmenting carotid arteries in contrast enhanced (CE)-CT angiography (CTA) scans. \nThe segmentation algorithm extracts the lumen of carotid arteries between user specfied locations. Specifically, the algorithm first \ndetects the centerline representations between the user placed seed points. This centerline extraction algorithm is based on a minimal path \ndetection algorithm which operates on a {\\em medialness} map. The lumen of corotid arteries is extracted by using \nthe global optimal graph-cuts algorithm~\\cite{boykov:01} using the centerlines as input. The radius information contained \nin the centerline representation\nis used to normalize the gradient based weights of the graph. It is shown that this algorithm can sucessfully segment the carotid arteries without\nincluding calcified and non-calcified plaques in the segmentation results.",
-    "articles": [
-      "bafybeibpwcoemlm7lmdjb73pdki6wvwaktzzphvusayrh3oiyl2tcototm"
-    ],
     "authors": [
       {
         "author_fullname": "Gulsun, Mehmet Akif",
@@ -36,7 +33,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeihqhs7eolbicb6wsxgcbnoy3uqbjsnsgg5qucggy3fxc7pg244ewy",
+        "article": "bafybeibpwcoemlm7lmdjb73pdki6wvwaktzzphvusayrh3oiyl2tcototm",
         "citation_list": [
           {
             "doi": "10.1007/978-3-540-40899-4_73",

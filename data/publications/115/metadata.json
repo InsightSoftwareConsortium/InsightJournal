@@ -1,10 +1,6 @@
 {
   "publication": {
     "abstract": "This paper describes the use of open source software in the development and testing of an image-guided robot system for small animal research, presented at MICCAI 2006. This system relied on a significant amount of open source software, including 3D Slicer,\r\nVTK, our own cisst software, the NetLib numerical methods, Python, and wxPython\r\n(which uses wxWidgets). In addition, several open source development tools were used, including CVS, CMake, and Swig. The paper will be accompanied by the source code and raw data that were used to obtain the results presented at MICCAI.",
-    "articles": [
-      "bafkreieirmrdkxenywhdwtgxpg466wi6q5wuwbw3yt5bg3hgbx55kdiydy",
-      "bafkreieirmrdkxenywhdwtgxpg466wi6q5wuwbw3yt5bg3hgbx55kdiydy"
-    ],
     "authors": [
       {
         "author_fullname": "Kazanzides, Peter",
@@ -29,7 +25,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeiacpmqqw5lml3kkdzg34k6hhbqnkerbm2ivgs4oknuusbspwqp4na",
+        "article": "bafkreieirmrdkxenywhdwtgxpg466wi6q5wuwbw3yt5bg3hgbx55kdiydy",
         "citation_list": [
           {
             "doi": "10.1109/tpami.1987.4767965",

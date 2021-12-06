@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "This code provides a base implementation of Loopy Belief Propagation on MRFs in ITK. We use binary image denoising as an example problem to demonstrate this code.\n\nThis document is intended only to describe the implementation, not the theory. A complete tutorial on loopy belief propagation on MRFs is available here:\n\nhttps://github.com/daviddoria/Tutorials/blob/master/BeliefPropagation/BeliefPropagation.pdf?raw=true\n\nThe code at the time of this submission is here:\nhttps://github.com/daviddoria/BinaryDenoising/commit/e8bd152723584c3af7e30b5e529b8a80f2f2ee5c\n\nAnd the latest version will be here:\nhttps://github.com/daviddoria/BinaryDenoising\n\n",
-    "articles": [
-      "bafkreihbygtufcfgslbaoftvrtdvpdpdaphadkihq4y6ljpu34rz4mfhpq"
-    ],
     "authors": [
       {
         "author_fullname": "Doria, David",

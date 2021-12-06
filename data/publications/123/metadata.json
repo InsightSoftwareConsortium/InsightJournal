@@ -1,17 +1,6 @@
 {
   "publication": {
     "abstract": "The computation speed for distance transforms becomes important in a wide variety of image processing applications. Current ITK library filters do not see any benefit from a multithreading environment. We introduce a three-dimensional signed parallel implementation of the exact Euclidean distance transform algorithm developed by Maurer et al. with a theoretical complexity of O(n/p) for n voxels and p threads. Through this parallelization and efficient use of data structures we obtain approximately 3\r\ntimes mean speedup on standard tests on a 4-processor machine compared with the current ITK exact Euclidean distance transform filter.",
-    "articles": [
-      "bafkreihm7ruhgf7cwsaopixc2xkao4abkbgzc5puaby5fi6zt3kx6xycgi",
-      "bafkreiarrvvop6wohf3lbxp77ssi32f35m6usqqztcbvd5gcz4cvacosgu",
-      "bafkreiarrvvop6wohf3lbxp77ssi32f35m6usqqztcbvd5gcz4cvacosgu",
-      "bafkreihm7ruhgf7cwsaopixc2xkao4abkbgzc5puaby5fi6zt3kx6xycgi",
-      "bafkreihm7ruhgf7cwsaopixc2xkao4abkbgzc5puaby5fi6zt3kx6xycgi",
-      "bafkreihm7ruhgf7cwsaopixc2xkao4abkbgzc5puaby5fi6zt3kx6xycgi",
-      "bafkreihm7ruhgf7cwsaopixc2xkao4abkbgzc5puaby5fi6zt3kx6xycgi",
-      "bafkreihm7ruhgf7cwsaopixc2xkao4abkbgzc5puaby5fi6zt3kx6xycgi",
-      "bafkreidewicohpg7ydw5nddokyi4vmntbsqcq46fyysf5ko43zazil26ri"
-    ],
     "authors": [
       {
         "author_fullname": "Staubs, Robert",

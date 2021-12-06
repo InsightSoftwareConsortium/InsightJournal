@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "Connected component is a well known and very useful notion in binary case. As often in mathematical morphology, this notion can be extended to the grayscale case, and allow to perform lot of the useful transforms based on binary connected components in the grayscale images. This article describe the component tree, a data structure able to ef?ciently represent the grayscale connected components in an grayscale image, as well as the algorithm used to build the component tree. All the source codes are provided, as well as a full set of tests and several usage examples of the new classes.",
-    "articles": [
-      "bafkreicep4gbx42pextzihhivbytpgk6u3u4wjdxz3dk5tfyhvozefueuu"
-    ],
     "authors": [
       {
         "author_fullname": "Lehmann, Gaetan",

@@ -1,12 +1,6 @@
 {
   "publication": {
     "abstract": "Finding regional extrema of images is an important step in a number of\r\nmorphological algorithms, such as some versions of the watershed\r\ntransform\\footnote{This work started because we were trying to compare\r\ndifferent watershed algorithms}. Regional extrema may also be\r\nimportant cues of other tasks, such as splitting objects based on\r\ndistance transform information. This report provides an overview of\r\nthe methods available in ITK and compares the performance with a new\r\nfilter.",
-    "articles": [
-      "bafkreicjduqx5gceeerwekhhzrlcb6ohhgiissee2bikdfstpmlwl6a7xu",
-      "bafkreihr3eihy3lsp2ktjj3ohascrzfbpdjv247acvzpkj6mkkhxluxula",
-      "bafkreicjduqx5gceeerwekhhzrlcb6ohhgiissee2bikdfstpmlwl6a7xu",
-      "bafkreifgf3ywfhbdkjifky2ubabq7t4syfvvnimnduhtfp7ohcnulwiwty"
-    ],
     "authors": [
       {
         "author_fullname": "Beare, Richard",
@@ -51,7 +45,7 @@
     ],
     "revisions": [
       {
-        "article": null,
+        "article": "bafkreihr3eihy3lsp2ktjj3ohascrzfbpdjv247acvzpkj6mkkhxluxula",
         "citation_list": [
           {
             "key": "ref1",

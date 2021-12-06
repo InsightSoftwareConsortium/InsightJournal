@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "Segmentation forms the onset for image analysis especially for medical images, making any abnormalities in tissues distinctly visible. Possible application includes the detection of tumor boundary in SPECT, MRI or electron MRI (EMRI). Nevertheless, tumors being heterogeneous pose a great problem when automatic segmentation is attempted to accurately detect the region of interest (ROI). Consequently, it is a challenging task to design an automatic segmentation algorithm without the incorporation of 'a priori' knowledge of an organ being imaged. To meet this challenge, here we propose an intelligence-based approach integrating evolutionary k-means algorithm within multi-resolution framework for feature segmentation with higher accuracy and lower user interaction cost. The approach provides several advantages. First, spherical coordinate transform (SCT) is applied on original RGB data for the identification of variegated coloring as well as for significant computational overhead reduction. Second the translation invariant property of the discrete wavelet frames (DWF) is exploited to define the features, color and texture using chromaticity of LL band and luminance of LH and HL band respectively. Finally, the genetic algorithm based K-means (GKA), which has the ability to learn intelligently the distribution of different tissue types without any prior knowledge, is adopted to cluster the feature space with optimized cluster centers. \nExperimental results of proposed algorithm using multi-modality images such as MRI, SPECT, and EMRI are presented and analyzed in terms of error measures to verify its effectiveness and feasibility for medical applications.",
-    "articles": [
-      "bafkreiemaw7oxavtp4yfw2rgkkrdqbombzzyowgzxrypacdmrx72lmompa"
-    ],
     "authors": [
       {
         "author_fullname": "V, Thavavel",
@@ -33,7 +30,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeiejzxzmmtkf75ldcjxift7dxupvx5phupr6dtql2pfy2iinzdxezi",
+        "article": "bafkreiemaw7oxavtp4yfw2rgkkrdqbombzzyowgzxrypacdmrx72lmompa",
         "citation_list": [
           {
             "doi": "10.1016/j.compmedimag.2004.07.006",

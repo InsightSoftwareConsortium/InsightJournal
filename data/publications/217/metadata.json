@@ -1,10 +1,6 @@
 {
   "publication": {
     "abstract": "ly in ITK, the only way to find the contour of the objects in a binary image is to use the BinaryErodeImageFilter, with a kernel of radius 1. This filter is a generic filter, made to support any shape and size of structuring element, and thus is not optimized for the particular case needed to detect the contours. Moreover, that filter is not multithreaded, so it can't get the performance improvements allowed by the multiprocessor systems. As a result, the contour detection can be quite time consuming currently -- for example, in SignedMaurerDistanceMapImageFilter, the contour detection takes about 33% of the execution time.\r\nThis contribution comes with a new filter which highly improve the performance of the contour detection in the binary image, and a second filter which allow the detection of the countours in label images with similar performance.",
-    "articles": [
-      "bafkreicg3tp7uisi4mo46hjmgpi6g5e7nfk3h3fgobmqsyomcciwwisl2y",
-      "bafkreiba5imtwnju7mygqhohunl6j4kyha3uk54dauasngj6benqtpck7m"
-    ],
     "authors": [
       {
         "author_fullname": "Lehmann, Gaetan",

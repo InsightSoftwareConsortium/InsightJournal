@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "Convolution is a basic operation in image analysis and the Insight Toolkit provides a well-framed mechanism for such operations (see Chapter 11 of the ITK Software Guide. The classes associated with this contribution are meant to simplify convolution operations for the user who wishes to convolve a given image with an arbitrary image kernel. This entails the use of the neighborhood iterator coupled with a image kernel neighborhood operator which we provide. A couple of examples are provided to illustrate its use.",
-    "articles": [
-      "bafkreidtk3wxj3dgvx4fr44czpepcvwk6phqymzsakorrrpkxcdlagasfa"
-    ],
     "authors": [
       {
         "author_fullname": "Tustison, Nicholas",

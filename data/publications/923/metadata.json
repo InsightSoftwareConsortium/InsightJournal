@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "This document describes a module that extends the Insight Toolkit, ITK, which reads DICOM Spatial Rogistration Object files in itk::Transform's. Currently, DICOM files are read by applying the DCMTK library as a backend. An itk::DCMTKTransformIO class can be registration with the IO factory mechanism so itk::TransformFileReadertemplate will recognize and read these files.\n\nThis paper is accompanied with the source code, input data, parameters and output data that the authors used for validating the algorithm described in this paper. This adhere to the fundamental principle that scientific publications must facilitate reproducibility of the reported results.",
-    "articles": [
-      "bafkreiacvgwdxjbbdqpx2ica6zotx5vncvmidv2wfscodgk64v6ay4h2bi"
-    ],
     "authors": [
       {
         "author_fullname": "McCormick, Matthew",

@@ -1,10 +1,6 @@
 {
   "publication": {
     "abstract": "Unlike the measure of the area in 2D or of the volume in 3D, the perimeter and the surface are not easily measurable in a discretized image.\nIn this article we describe a method based on the Crofton formula to measure those two parameters in a discritized image. The accuracy of the method is discussed and tested on several known objects. An algorithm based on the run-length encoding of binary objects is presented and compared to other approaches.\nAn implementation is provided and integrated in the LabelObject/LabelMap framework contributed earlier by the authors.",
-    "articles": [
-      "bafkreiab57ud2ptfc6btkacejhxjeom6mp2r44udhtaew2p3tganmgdsti",
-      "bafkreiab57ud2ptfc6btkacejhxjeom6mp2r44udhtaew2p3tganmgdsti"
-    ],
     "authors": [
       {
         "author_fullname": "Lehmann, Gaetan",

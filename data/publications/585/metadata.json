@@ -1,13 +1,6 @@
 {
   "publication": {
     "abstract": "Automatic tracking of coronary arteries in Computed Tomography Angiography (CTA) is a challenging task. To accomplish it we propose a method consisting of two main steps: (1) A 3D model of the heart is matched for detecting the approximate position of the heart. Based on this information candidates for origins of coronary arteries are calculated. (2) Fitting of cylindrical sampling patterns is performed for extracting the vessel tree of coronary arteries. Branching and termination are handled by depth-first search and noise level estimation respectively. Results show that -- compared to human intra-observer variations -- the presented method performs worse for accuracy measures (on average 39.4 scores), but slightly better for overlap measures (on average 51.5 scores).",
-    "articles": [
-      "bafybeicozo4js66anvtbj5vv53ka7nmdtmovaim5y7amgemly44qfz26km",
-      "bafybeihngs6z7gxxnddv5n623tbqx3hjq5n4i3qkfmhau7tdwnfew3tpsi",
-      "bafybeif67a2qt565g6ly6m2zltqcur2ybh53iukgqqf5hhahh5lxvb26hm",
-      "bafkreicvemlrmrhw5mwelovxyne56xxve6uahqaugphlpesrg64thdkg2q",
-      "bafybeiamyxcfuaqbjfi72z7mhhlwsdwvg2afcgvib5skt3ax3tu464zo2m"
-    ],
     "authors": [
       {
         "author_fullname": "Zambal, Sebastian",
@@ -66,7 +59,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeidnv7xo54iv573pb5vaxldlptncz7jlxhf2aas2y6i76ncxy3zkxa",
+        "article": "bafybeiamyxcfuaqbjfi72z7mhhlwsdwvg2afcgvib5skt3ax3tu464zo2m",
         "citation_list": [
           {
             "doi": "10.5244/c.18.47",

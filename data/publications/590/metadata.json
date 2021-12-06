@@ -1,10 +1,6 @@
 {
   "publication": {
     "abstract": "A semi-automatic scheme was developed for the segmentation of 3D liver tumors from computed tomography (CT) images. First a support vector machine (SVM) classifier was trained to extract tumor region from one single 2D slice in the intermediate part of a tumor by voxel classification. Then the extracted tumor contour, after some morphological operations, was projected to its neighboring slices for automated sampling, learning and further voxel classification in neighboring slices. This propagation procedure continued till all tumor-containing slices were processed. The method was tested using 3D CT images with 10 liver tumors and a set of quantitative measures were computed, resulted in an averaged overall performance score of 72.",
-    "articles": [
-      "bafybeidenu4nb7dtrg6ppo7jzosvw33rpr4ybfsjtsvqcfza3z22pjmsue",
-      "bafkreidnq5rwpf53taa5sk3q3jtcposklzlelyfelsykvn3urx2zo2td6e"
-    ],
     "authors": [
       {
         "author_fullname": "Zhou, Jiayin",
@@ -86,7 +82,7 @@
     ],
     "revisions": [
       {
-        "article": "bafybeihkeq6ydhpvdn27ransyzhvgj4tbiirscse4wqxkh7kdof4ca6v6i",
+        "article": "bafkreidnq5rwpf53taa5sk3q3jtcposklzlelyfelsykvn3urx2zo2td6e",
         "citation_list": [
           {
             "key": "ref1",

@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "We propose an algorithm for tracking blood vessel segments in Computed Tomographic (CT) images.\r\nOur procedure first finds core points that tend to concentrate along the centerlines of vessels. Intuitively,\r\nthe core points are centers of intensity plateaus in two-dimensional slices through the input image. The\r\nstarting and the end point of the desired vessel (S and E) are also considered core points. The weighted\r\ncore graph is built by connecting nearby core points with edges. Edge weights are designed so that edges\r\nof large weights are unlikely to follow a vessel segment. We compute the shortest path connecting S and\r\nE in the core graph. The output is the result of applying shortcutting operations to this path.",
-    "articles": [
-      "bafkreicndbxrki6iekm335yqprb4opipozugnzjqmiwuourcviiczcapva"
-    ],
     "authors": [
       {
         "author_fullname": "szymczak, andrzej",
@@ -52,7 +49,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": null,
+        "article": "bafkreicndbxrki6iekm335yqprb4opipozugnzjqmiwuourcviiczcapva",
         "dapp": null,
         "dataset": null,
         "doi": null,

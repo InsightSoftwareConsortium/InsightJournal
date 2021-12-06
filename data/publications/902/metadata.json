@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "This study investigates a method for brain tissue segmentation from 3D T1 weighted (T1w) MR images via convex relaxation with a hierarchical ordering constraint. It employs a multi-atlas-based initialization from 5 training images and is tested on 12 T1w MR images provided by the MICCAI 2013 MRBrainS segmentation challenge. The registered atlas images, fully segmented into eight different brain structures, are used to formulate shape and intensity priors for a Maximum A-Posteriori (MAP) energy that is subsequently minimized with a dual hierarchical max-flow computation. The algorithm makes use of a hierarchical label ordering constraint to regularize label families individually and its inherently globally optimal results guarantee robust segmentations. Major parts of the image processing pipeline are implemented using General-Purpose Programming on Graphics Processing Units (GPGPU) for a substantial increase in computation speed.",
-    "articles": [
-      "bafkreia3kapmuip4p42wrs7yrc4ykop75vfjgpyi2dnmyuttpz45zqmsxu"
-    ],
     "authors": [
       {
         "author_fullname": "Rajchl, Martin",
@@ -51,7 +48,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeieqf4sghgbc5htixrmve7bauam4zmebim7a4r4bnq2m5nsfveqwzq",
+        "article": "bafkreia3kapmuip4p42wrs7yrc4ykop75vfjgpyi2dnmyuttpz45zqmsxu",
         "citation_list": [
           {
             "doi": "10.1109/42.906424",

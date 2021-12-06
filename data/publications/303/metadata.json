@@ -1,10 +1,6 @@
 {
   "publication": {
     "abstract": "We have previously developed a new surface mesh data structure in itk (\\code{itk::QuadEdgeMesh}~\\cite{itkQE}). In this document we describe a new filter (\\code{itk::QENormalFilter}) to estimate normals for a given triangular surface mesh in this data structure. Here we describe the implementation and use of this filter for calculating normals of a \\code{itk::QuadEdgeMesh}.",
-    "articles": [
-      "bafkreiez4l3rhvzsrnzdi7gdaxx55at46zbr3ngpg4xe4khhmrbrc3n2ue",
-      "bafkreiez4l3rhvzsrnzdi7gdaxx55at46zbr3ngpg4xe4khhmrbrc3n2ue"
-    ],
     "authors": [
       {
         "author_fullname": "Gelas, Arnaud",

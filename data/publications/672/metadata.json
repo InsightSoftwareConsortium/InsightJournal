@@ -1,10 +1,6 @@
 {
   "publication": {
     "abstract": "We propose a new approach for semi-automatic segmentation of the carotid bifurcation as part of the Carotid Lumen Segmentation and Stenosis Grading Challenge MICCAI'2009 workshop. Three initial points are provided as input, belonging to the Common, the External and the Internal Carotid Arteries. Our algorithm is divided into two main steps: first, two minimal cost paths are tracked between the CCA and both the ECA and the ICA. The cost functions are based on a multiscale vesselness response. Second, after detecting the junction position and cutting or extending the paths based on the requested lengths, a level set segmentation is initialized as a thin tube around the computed paths and evolves until reaching the vessel wall or a maximal evolution time. Results on training and testing datasets are presented and compared to the manual segmentation by three observers, based on a ground truth and using four quality measures.\n",
-    "articles": [
-      "bafkreifuvqn5oi7mhgi4kbl6muy4yknpkvgxjadggvh4bd7pyv2f3lsymm",
-      "bafkreiegsxcbkpuuqicxpjs5rvfcfndhul2gops54llt2dbkjp3thqrdve"
-    ],
     "authors": [
       {
         "author_fullname": "Krissian, Karl",
@@ -40,7 +36,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeifhgocmipb6gntbzq2vq5godijnvkfit3ipjvlhrr4yazwb7736li",
+        "article": "bafkreiegsxcbkpuuqicxpjs5rvfcfndhul2gops54llt2dbkjp3thqrdve",
         "citation_list": [
           {
             "doi": "10.1016/s1361-8415(01)00046-9",

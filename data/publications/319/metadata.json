@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "We implement a warping method which is using the properties of elastic materials to compute the deformation between two images. The proposed elastic registration method incorporates the L2 Kantorovich-Wasserstein distance, also known as the Earth Mover\u2019s Distance (EMD), as a similarity measure. The implemented paper presents an efficient partial differential equation approach for a first-order solution of this problem that is simpler than existing works suggested high-order solutions and is computationally simpler than existing works based on linear programming.\r\n\r\nSpecifically, we implement the following paper\r\nSteven Haker, Lei Zhu, Allen Tannenbaum, and Sigurd Angenent, \u201cOptimal mass transport for registration and warping\u201d, International Journal of Computer Vision, 60(3), p. 225-240, 2004.\r\n",
-    "articles": [
-      "bafkreifp6mjwse5bhiyawxvcakbgvgkhjnzgoaeax4p7jlkppspjb4ew4q"
-    ],
     "authors": [
       {
         "author_fullname": "Shamir, Reuben R",
@@ -31,7 +28,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeibbnqqdm4oatfwmjaktvgt54swy22yfhdpexfqu6g55lzrmgynf7a",
+        "article": "bafkreifp6mjwse5bhiyawxvcakbgvgkhjnzgoaeax4p7jlkppspjb4ew4q",
         "dapp": null,
         "dataset": null,
         "doi": null,

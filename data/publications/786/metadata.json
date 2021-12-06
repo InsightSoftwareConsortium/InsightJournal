@@ -1,10 +1,6 @@
 {
   "publication": {
     "abstract": "ITK is becoming increasingly complex as it continues to grow and evolve. The SimpleITK initiative aims to address this concern by providing an easy-access layer around ITK for non-C++ expert developers. This article proposes an alternate (perhaps complementary) approach utilizing the strategy pattern. The software design pattern known as \"strategy\" allows an algorithm to be selected from a family of algorithms on-the-fly at runtime. Because ITK consists of many such algorithm families, this particular design pattern is quite interesting. This article describes a number of algorithm families which have been identified; so far thirteen families have been implemented, encapsulating nearly 130 filters/objects. Complete source code and examples are provided to demonstrate the concept.",
-    "articles": [
-      "bafkreia7agnmcxr725q2xlhy6mjr54dd7r2k3it7h7ldeawi4ngf5zyjci",
-      "bafkreia7agnmcxr725q2xlhy6mjr54dd7r2k3it7h7ldeawi4ngf5zyjci"
-    ],
     "authors": [
       {
         "author_fullname": "Mueller, Dan",

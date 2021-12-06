@@ -1,12 +1,6 @@
 {
   "publication": {
     "abstract": "This document describes an extension of the Insight Toolkit (ITK, www.itk.org) for 2D-3D registration with multiple fixed images, that is, registration of a three-dimensional dataset to a group of fixed planar projections. 2D-3D registration is possible with ITK's standard classes but with several limitations: the number of fixed images is restricted to one and the moving image's orientation axes are ignored, which greatly complicates the registration definition. Both problems are solved by the proposed framework, which permits multi-resolution intensity-based registration with an arbitrary number of fixed images, with all images defined in any orientation. In addition, the framework provides implementations of the Normalized Gradient Correlation and Pattern Intensity metrics, which are commonly used in 2D-3D registration but were not present in ITK. This article gives a detailed description of the proposed framework, along with examples that show its capabilities in registrations of real and simulated images of the spine.",
-    "articles": [
-      "bafybeifrwkm3upyz3agvmrepd5zgn6jtguofjwmcamoxktk6d5heseef6m",
-      "bafybeiexzlgiklfqayvmahtgha7h224nyzyudp4n64dadg4klrpyl5aqc4",
-      "bafybeieqxki4mfqbzvscdqbymzkvscb7tbzxhflcve3pvhxbnl5mqyk7ba",
-      "bafybeiexzlgiklfqayvmahtgha7h224nyzyudp4n64dadg4klrpyl5aqc4"
-    ],
     "authors": [
       {
         "author_fullname": "Bertelsen, Alvaro",
@@ -41,7 +35,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeic2m2i4ecoot6d5dpyxco2lpf5ydp2ehsls3r4g5zvmc34yvvdwmq",
+        "article": "bafybeiexzlgiklfqayvmahtgha7h224nyzyudp4n64dadg4klrpyl5aqc4",
         "citation_list": [
           {
             "key": "ref1",

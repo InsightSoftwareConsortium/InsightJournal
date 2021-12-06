@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "This document describes a project that can compare many images simultaneously in a synchronized manner. Such an application can be used in any ITK/VTK image processing pipelines; the programmer can use it to quickly visualize and compare intermediate results of used filters within the pipeline.The goals of this project are two folds: (i) to be integrated in gdb pretty debuggers (for visual debugging of ITK pipelines), and, (ii) to provide a visual comparison widget for image-to-image plugins (ITK or VTK based filters).\nThis project is part of the Gofigure2 development effort, an open-source, cross-platform application for visualizing, processing and analyzing of multidimensional microscopy data. ",
-    "articles": [
-      "bafkreiazwkpjz6gpygwp6ypyq3o3dbs465rv4fkpxule3hixmdmunc3na4"
-    ],
     "authors": [
       {
         "author_fullname": "Perrot-Audet, Antonin",

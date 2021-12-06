@@ -1,11 +1,6 @@
 {
   "publication": {
     "abstract": "This document describes an implementation for GPU and CPU of Young and Van Vliet's recursive Gaussian smoothing as an external module for the Insight Toolkit ITK, version 4.* www.itk.org. In the absence of an OpenCL-capable platform, the code will run the CPU implementation as an alternative to the existing Deriche recursive Gaussian smoothing filter in ITK.",
-    "articles": [
-      "bafybeif6z4a27txks6kgv2eephx6hlkbxhqm4had3f7shyak22fw4rfq6u",
-      "bafybeif6z4a27txks6kgv2eephx6hlkbxhqm4had3f7shyak22fw4rfq6u",
-      "bafybeif6z4a27txks6kgv2eephx6hlkbxhqm4had3f7shyak22fw4rfq6u"
-    ],
     "authors": [
       {
         "author_fullname": "Vidal-Migallon, Irina",
@@ -68,7 +63,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeih7mvupmjqrerq6csqsvaukwyvg4krr5a5vbe2qjiwcvuahftk46q",
+        "article": "bafybeif6z4a27txks6kgv2eephx6hlkbxhqm4had3f7shyak22fw4rfq6u",
         "citation_list": [
           {
             "key": "ref1",

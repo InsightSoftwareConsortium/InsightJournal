@@ -1,11 +1,6 @@
 {
   "publication": {
     "abstract": "We present a new method for the simultaneous, nearly automatic segmentation of liver contours, vessels,\r\nand tumors from abdominal CTA scans. The method repeatedly applies multi-resolution, multi-class\r\nsmoothed Bayesian classification followed by morphological adjustment and active contours refinement.\r\nIt uses multi-class and voxel neighborhood information to compute an accurate intensity distribution\r\nfunction for each class. Only one user-defined voxel seed for the liver and additional seeds according\r\nto the number of tumors inside the liver are required for initialization. The algorithm do not require\r\nmanual adjustment of internal parameters. In this work, a retrospective study on a validated clinical\r\ndataset totaling 20 tumors from 9 patients CTAs\ufffd was performed. An aggregated competition score of\r\n61 was obtained on the test set of this database. In addition we measured the robustness of our algorithm\r\nto different seeds initializations. These results suggest that our method is clinically applicable, accurate,\r\nefficient, and robust to seed selection compared to manually generated ground truth segmentation and to\r\nother semi-automatic segmentation methods.",
-    "articles": [
-      "bafybeibps336a5qttn2e5c37zhptjhyjnvae4b5cgztr2u7btrrlcc4qla",
-      "bafybeibps336a5qttn2e5c37zhptjhyjnvae4b5cgztr2u7btrrlcc4qla",
-      "bafybeibps336a5qttn2e5c37zhptjhyjnvae4b5cgztr2u7btrrlcc4qla"
-    ],
     "authors": [
       {
         "author_fullname": "Taieb, Yoav",
@@ -68,7 +63,7 @@
     ],
     "revisions": [
       {
-        "article": "bafybeigv5auhz6epgl6ud4mgejp6iskv7r7taks2phfujooqndn2lnymgq",
+        "article": "bafybeibps336a5qttn2e5c37zhptjhyjnvae4b5cgztr2u7btrrlcc4qla",
         "citation_list": [
           {
             "doi": "10.1007/978-3-540-75757-3_11",

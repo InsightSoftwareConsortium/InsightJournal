@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "This document presents a system to \"scribble\" on an image to mark foreground and background pixels and then feed these pixels to a graph cuts segmentation technique. The interaction is done using the Visualization Toolkit and the processing is done using the Insight Toolkit. The graph cut function itself is the maxflow-v2.21 algorithm written by Yuri Boykov and Vladimir Kolmogorov. This version of their algorithm is released under a GPL license. \n\nThe code for this paper can be found here: \nhttps://github.com/daviddoria/InteractiveImageGraphCutSegmentation/commit/259cd239169c5ea8c44cc68908886eca10cc8239\n\nUpdates will be published here: https://github.com/daviddoria/InteractiveImageGraphCutSegmentation\n\nNote: You must use the latest git version of VTK as of the date of this publication to avoid compiler errors due to newly added functions.",
-    "articles": [
-      "bafkreicxjccicvsgkya7tyf7dutp225fqdcbdvxowhdzq4tceld4oth6xm"
-    ],
     "authors": [
       {
         "author_fullname": "Doria, David",
@@ -36,7 +33,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeieb7wn3ytkkilewkjci23fxiykhxlkgma6ljy2yp6tshsei7kczfu",
+        "article": "bafkreicxjccicvsgkya7tyf7dutp225fqdcbdvxowhdzq4tceld4oth6xm",
         "citation_list": [
           {
             "key": "ref1",

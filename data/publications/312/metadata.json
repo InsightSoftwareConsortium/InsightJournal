@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "In this paper, a software application is introduced for image registration. BrainDemonsWarp is a com- \r\nmand line program using Thirion and diffeomorphic demons algorithms. The program takes in a template \r\nimage and a target image along with other optional parameters and registers the template image onto the \r\ntarget image. The resultant deformation \ufb01elds and metric values can be written to a \ufb01le. The program \r\nuses the Insight Toolkit (www.ITK.org) for all the computations, and can operate on any of the image \r\ntypes supported by that library.",
-    "articles": [
-      "bafybeiaojfov5jn3ys5udpb6ezn6pdzdwyzz2kvazcmpy4iugzcoxcorou"
-    ],
     "authors": [
       {
         "author_fullname": "Johnson, Hans",
@@ -39,7 +36,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeigcz3kes3woqtnxbo6itgnfr5yfsggm3pjqtksxtatrtvtw3cizda",
+        "article": "bafybeiaojfov5jn3ys5udpb6ezn6pdzdwyzz2kvazcmpy4iugzcoxcorou",
         "citation_list": [
           {
             "doi": "10.1016/0004-3702(81)90024-2",

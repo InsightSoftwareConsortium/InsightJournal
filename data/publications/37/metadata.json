@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "We have previously developed an algorithm for locating boundaries in an image with sub-pixel resolution, as well as estimating boundary width and image intensity within the adjoining objects. The algorithm operates by finding the parameters of a cumulative Gaussian curve that best approximates an intensity profile taken across a boundary. If intensity is sampled along the image gradient across a boundary, it is reasonable to assume the profile approximates a finite portion of a cumulative Gaussian. Given that assumption, the first derivative of the profile should be the corresponding portion of a Gaussian, completely described by its mean, standard deviation, and amplitude. We present here a simple and rapid method to find those parameters, given that we only have a potentially skewed sample of the Gaussian. The parameters are approximated first for the finite sample, and then both ends of the Gaussian are extrapolated using the resulting parameters. New parameters are then calculated and the procedure is repeated. The optimization rapidly converges, yielding boundary location (mean) with sub-pixel accuracy as well boundary width (standard deviation). Integration then reproduces the cumulative Gaussian, and a least-squares fit is applied to estimate the constant of integration, from which intensity of the adjoining regions can be estimated.",
-    "articles": [
-      "bafkreibwqy4ecbm6s2zh7p27go5ertyp5dvatiizig623wjeudtspx3yr4"
-    ],
     "authors": [
       {
         "author_fullname": "Wang, David",
@@ -56,7 +53,7 @@
     ],
     "revisions": [
       {
-        "article": "bafybeihmlvtvzqzlt2uncdcmdjpugb6w7wwdp5bcav35fjj5fw3rlht7f4",
+        "article": "bafkreibwqy4ecbm6s2zh7p27go5ertyp5dvatiizig623wjeudtspx3yr4",
         "citation_list": [
           {
             "doi": "10.1142/s0219467801000360",

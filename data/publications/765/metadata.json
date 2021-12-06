@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "Mean shift clustering is an excellent technique for clustering points when the number of clusters is not known. We present a implementation (vtkMeanShiftClustering) of the simplest version of the algorithm written in a VTK context.\n\nThe code is currently hosted at http://github.com/daviddoria/vtkMeanShiftClustering .",
-    "articles": [
-      "bafkreifc5rwgy3w7vybdzxvrih4fyndqvcvqmdjep6cmig7zgesdsnre74"
-    ],
     "authors": [
       {
         "author_fullname": "Doria, David",

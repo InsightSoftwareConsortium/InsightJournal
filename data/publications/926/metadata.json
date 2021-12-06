@@ -1,10 +1,6 @@
 {
   "publication": {
     "abstract": "Real-time 3D echocardiography has already been shown to be an accurate tool for left ventricular (LV) volume assessment. However, LV border identification remains a challenging task, mainly because of the low contrast of the images combined with drop-out artifacts. Many (semi-)automatic algorithms have been proposed to segment the LV border, but a systematic and fair comparison between such methods has so far been impossible due to a lack of publicly available common database. The aim of this MICCAI challenge was to gather researchers around the field of LV segmentation in 3D cardiac ultrasound by providing a common database to compare algorithms directly. The proposed platform will allow a consistent evaluation and ranking of the current state-of-the-art segmentation solutions and will contribute to a faster clinical translation of groundbreaking technical advances. The purpose of this paper is to describe the technical aspects of the generation of the database, give an overview of the ranking strategy and the outline of the challenge itself.",
-    "articles": [
-      "bafkreihvidy7z5e7pemxgoeeoptdko57hrrlpoabuc5k4dfwv2zypa4klm",
-      "bafkreigscchug4ghdwbvxcdum3mmvoyhisim7hpna4irdln6jkwbasutim"
-    ],
     "authors": [
       {
         "author_fullname": "Bernard, Olivier",
@@ -99,7 +95,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeiha3ayv3cwdapijblxxc4idx3ed66blylizatgeekmqir7q74tqai",
+        "article": "bafkreigscchug4ghdwbvxcdum3mmvoyhisim7hpna4irdln6jkwbasutim",
         "citation_list": [
           {
             "doi": "10.1016/j.jacc.2012.01.037",

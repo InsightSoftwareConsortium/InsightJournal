@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "Semi-automatic image segmentation algorithms depend on interaction with the user to accurately define a region of interest within an image. Once such method is a dynamic programming approach called {em Intelligent Scissors} developed by Mortenson and Barret cite{Mortensen1992,Mortensen1995,Barrett1996,Barrett1997}. Standard interaction involves the user-placement of a seed point on or near the boundary of the object to be extracted. Using a gradient-based cost function, a {em live-wire} image path from the seed point to a subsequently placed boundary point is determined. As this free point is manipulated with the mouse cursor, the live-wire boundary, which extends from the seed point to the varying free point, locks onto nearby edges within the image. Although some applications do not require such user-interaction (e.g. cite{Hu2001}) warranting inclusion within the toolkit, incorporating live-wire capabilities into ITK-SNAP cite{Yushkevich2006} has been discussed and, therefore, we would like to, as a preliminary step, vet the code within the ITK community.",
-    "articles": [
-      "bafkreici2obdiccfrn5t7g77cpb33maveuqqweoe3vkigkq75litnqgose"
-    ],
     "authors": [
       {
         "author_fullname": "Tustison, Nicholas",
@@ -48,7 +45,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": null,
+        "article": "bafkreici2obdiccfrn5t7g77cpb33maveuqqweoe3vkigkq75litnqgose",
         "citation_list": [
           {
             "doi": "10.1007/bfb0046953",

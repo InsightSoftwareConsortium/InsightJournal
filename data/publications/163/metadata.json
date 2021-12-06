@@ -1,10 +1,6 @@
 {
   "publication": {
     "abstract": "This paper describes vessel enhancing diffusion (VED) filters implemented \r\nusing the Insight Toolkit (ITK). The filters are implementation of the \r\nVED algorithm developed by Manniesing et al . The VED algorithm follows a \r\nmultiscale approach to enhance vessels using anisotropic diffusion scheme guided \r\nby vesselness measure at a pixel level. Vesselness is determined by geometrical \r\nanalysis of the Eigen system of the Hessian matrix. For this purpose, a smoothed version of the Frangi's \r\nvesselness function is formulated. Experiments were conducted to evaluate the performance\r\nof the VED filters in enhancing vessels in lung CT scan.",
-    "articles": [
-      "bafkreiaq7vrxshcye24mnrzegs5s4dbwhxraemgbyynkf72u5sz5e5h7fe",
-      "bafkreic34wqd2svn3u7nkuxhtxepyqkkd56sezfjtm4lpfrzzb67kgxkta"
-    ],
     "authors": [
       {
         "author_fullname": "Enquobahrie, Andinet",

@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "It is convenient to acquire data in a format which VTK can read directly. To enable this, we provide a wrapper of the Hokuyo UTM-30LX interface in a class vtkHokuyo. The code is currently hosted at git@github.com:daviddoria/vtkHokuyo.git. This class only works on Linux systems.",
-    "articles": [
-      "bafkreignqq6f6exqiugjln3ji5d3d45aztmbsbqgfz5j2fze5dolqp6pdq"
-    ],
     "authors": [
       {
         "author_fullname": "Doria, David",

@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "We describe the open source implementation of an adaptive tetrahedral mesh generator particularly targeted for non-rigid FEM registration of MR images. While many medical imaging applications require robust mesh generation, there are few codes available. Moreover, most of the practical implementations are commercial. The algorithm we have implemented has been previously evaluated for simulations of highly deformable objects, and the preliminary results show its applicability to the targeted application. The implementation we describe is open source and will be available within Insight Toolkit.",
-    "articles": [
-      "bafkreig6ot3nietqpoenfj66nh7wd7deerp22vkh2pwabzp633npd2ke5e"
-    ],
     "authors": [
       {
         "author_fullname": "Fedorov, Andriy",

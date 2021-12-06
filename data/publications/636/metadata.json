@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "We propose a new clustering algorithm. This algorithm performs clustering and manifold learning simultaneously by using a graph-theoretical approach to manifold learning. We apply this algorithm in order to cluster white matter \ufb01ber tracts obtained fromDiffusion TensorMRI (DT-MRI) through streamline tractography. Our algorithm is able perform clustering of these fiber tracts incorporating information about the shape of the \ufb01ber and a priori knowledge as the probability of the fiber belonging to known anatomical structures. This anatomical knowledge is incorporated as a volumetric white matter atlas, in this case LONI's ICBM DTI-81",
-    "articles": [
-      "bafkreid73fr74pme6r77wtks3cj3my4dthlmx6xqvlmstkdnlmhe2buezi"
-    ],
     "authors": [
       {
         "author_fullname": "Wassermann , Demian",
@@ -33,7 +30,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeidu373ibuwt4lc2247x2yp5slglgxtnrokoduj76ce2g7peboxusu",
+        "article": "bafkreid73fr74pme6r77wtks3cj3my4dthlmx6xqvlmstkdnlmhe2buezi",
         "citation_list": [
           {
             "doi": "10.1006/jmrb.1996.0086",

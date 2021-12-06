@@ -1,10 +1,6 @@
 {
   "publication": {
     "abstract": "This paper describes the software integration of a treatment planning system (TPS), based on the open-source 3D Slicer package, with the Small Animal Radiation Research Platform (SARRP).The TPS is designed to enable researchers to replicate their clinical techniques, allow for image fusion with other imaging modalities, and provide dose computation and graphical visualization of treatment plans consisting of multiple x-ray beams and conformable arcs. The dose computation is implemented on a GPU to achieve high performance; the dose volume for a typical treatment plan can be computed in less than a minute.\n",
-    "articles": [
-      "bafybeihenkddigo5l4dpruo7hkjq4cj3rxgs5vmyjz3um2vx4eoz4suk2m",
-      "bafybeifmgquoapeumuq5x7ckxwvritwj5nudr4cdotkppwrdg6eeustmsi"
-    ],
     "authors": [
       {
         "author_fullname": "Cho, Nathan",
@@ -40,7 +36,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeiehgtauay57fwbi2w5ycu7tcskp5lklc7ynglr3kmkxqz723qovp4",
+        "article": "bafybeifmgquoapeumuq5x7ckxwvritwj5nudr4cdotkppwrdg6eeustmsi",
         "citation_list": [
           {
             "doi": "10.1016/j.cmpb.2009.07.004",

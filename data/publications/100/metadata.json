@@ -1,10 +1,6 @@
 {
   "publication": {
     "abstract": "The process of outlining organs on three dimensional medical images is extremely time-consuming. In this document, we describe a new tool that can interpolate contours and also make them smooth. The tool uses geodesic snakes to perform these functions. The implementation uses The Insight Toolkit and\r\nthe implementation of geodesic snakes that comes with SNAP.",
-    "articles": [
-      "bafkreiapmd5yggqcwz6y4rn36jc2vl4vrbsgmky5zfp6qhijxcx66euhqq",
-      "bafkreifh25btgg4whtwh2lqkhxxizca5cxkpn6ybcms5j7wff5zitz7eoq"
-    ],
     "authors": [
       {
         "author_fullname": "Saboo, Rohit",
@@ -39,7 +35,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafkreifh25btgg4whtwh2lqkhxxizca5cxkpn6ybcms5j7wff5zitz7eoq",
+        "article": "bafkreiapmd5yggqcwz6y4rn36jc2vl4vrbsgmky5zfp6qhijxcx66euhqq",
         "citation_list": [
           {
             "doi": "10.1016/1053-4296(92)90024-f",

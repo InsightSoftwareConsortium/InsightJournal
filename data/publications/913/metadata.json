@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "This document describes the implementation of an ITK class to support the reading and writing of Meshes in STL file format. The Meshes are assumed to contain 2D manifolds embedded in a 3D space. In practice, it would be desirable to use this class mostly to read and write QuadEdgeMeshes.\n\nThis paper is accompanied with the source code, input data, parameters and output data that the authors used for validating the algorithm described in this paper. This adheres to the fundamental principle that scientific publications must facilitate reproducibility of the reported results.",
-    "articles": [
-      "bafkreiemhe42xipspzq5sl56lcwaonmxmwmwohfh64bx2rv5qhakbgbsqq"
-    ],
     "authors": [
       {
         "author_fullname": "Ibanez, Luis",

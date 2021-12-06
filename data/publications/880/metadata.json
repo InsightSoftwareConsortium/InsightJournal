@@ -1,12 +1,6 @@
 {
   "publication": {
     "abstract": "In the medical simulation world the use of isosurfaces is a common action, as the information from some sources, e.g. CTs, is very well defined, and the isosurface can be easily set. Additionally, in any simulator shadows are a necessary addition to increase the users immersion as well as its depth perception. Unfortunately, the Visualization Toolkit does not offer these features, and so in this paper a modified vtkGPUVolumeRayCastMapper is presented. This modified version allows volumetric isosurface rendering as well as receiving shadows from polygons using the usual pipeline. ",
-    "articles": [
-      "bafybeiazfidzfvp6zyimvhlsxotpfor6s6tluodhuk3oquftbs37jajb4u",
-      "bafybeiejqwgbtae5emoni2emsqpijb3lsbfwujwe7bc3fqk76jnmasm5we",
-      "bafybeiazfidzfvp6zyimvhlsxotpfor6s6tluodhuk3oquftbs37jajb4u",
-      "bafybeici6ziedklauupfdwgrcb2okmdf5hs3n5z3s5mrzzkugxvilkkkxe"
-    ],
     "authors": [
       {
         "author_fullname": "Herrera, Imanol",
@@ -85,7 +79,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeiapflsk7kwce3fejzhrgmipsvhwiiqixqewfzc7qmi3zrdyazo72a",
+        "article": "bafybeici6ziedklauupfdwgrcb2okmdf5hs3n5z3s5mrzzkugxvilkkkxe",
         "citation_list": [
           {
             "doi": "10.1201/b10629",

@@ -1,11 +1,6 @@
 {
   "publication": {
     "abstract": "A novel point-set registration algorithm was proposed in [6] based on minimization of the Jensen-Shannon divergence. In this contribution, we generalize this Jensen-Shannon divergence point-set measure framework to the Jensen-Havrda-Charvat-Tsallis divergence. This generalization permits a \ufb01ne-tuning of the actual divergence measure between robustness and speci\ufb01city. The principle contribution of this submission is theitk::JensenHavrdaCharvatTsallisPointSetMetric class which is derived from the existing itk::PointSetToPointSetMetric. In addition, we provide other classes with utility that would extend beyond the point-set measure framework that we provide in this paper. This includes a point-set analogue of the itk::ImageFunction, i.e. itk::PointSetFunction. From this class we derive the class itk::ManifoldParzenWindowsPointSetFunction which provides a Parzen windowing scheme for learning the local structure of point-sets. Finally, we include the \r\nitk::DecomposeTensorFunction class which wraps the different vnl matrix decomposition schemes for easy use within ITK. \r\n",
-    "articles": [
-      "bafkreig5fnh25bgcmyfvzjbrbuhej5pea7jfnb2ct22yszvovshauxgdq4",
-      "bafkreig5fnh25bgcmyfvzjbrbuhej5pea7jfnb2ct22yszvovshauxgdq4",
-      "bafkreig5fnh25bgcmyfvzjbrbuhej5pea7jfnb2ct22yszvovshauxgdq4"
-    ],
     "authors": [
       {
         "author_fullname": "Tustison, Nicholas",
@@ -49,7 +44,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeig3bnmae2o5q2d6qtoxgd3qrr45j5hhnb5xfet2gsyz4gojt2mnm4",
+        "article": "bafkreig5fnh25bgcmyfvzjbrbuhej5pea7jfnb2ct22yszvovshauxgdq4",
         "citation_list": [
           {
             "doi": "10.1137/1031025",

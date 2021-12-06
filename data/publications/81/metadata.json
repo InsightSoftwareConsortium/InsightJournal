@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "This document describes the iteration direction optimized Image Iterators . Comparing with the original corresponding iterators, the new iterators provide automatic iteration direction optimization and give more flexible. They are more efficient when the fastest moving direction has small size. The derived template class ImagePieceWiseLinearIteratorWithIndex is a generic class that can be replace the ImageLinearIterator and ImageSliceIterator. The paper present the implementation and examples of these classes. This paper is accompanied with the source code and experiments.",
-    "articles": [
-      "bafkreidilxwroh2v25vj3rubxnmluwutv3wpadzl6k322ufoikgjh2p4zq"
-    ],
     "authors": [
       {
         "author_fullname": "Zhu, Wanlin",

@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "This document introduces a program based on the algorithm described by Maria Cristina Tugurlan. The program uses file readers, image filters, and file writers from the Insight Toolkit ITK www.itk.org. It produces as output an image whose values are the times of first arrival of a wavefront that spreads from seed points with a speed at every point equal to the input image intensity. It performs the computation in parallel on distributed memory computers using the Message Passing Interface MPI. Each MPI process reads a small piece of the input image into memory. It computes fast marching on its piece. It sends and receives the values from fast marching at piece boundaries. It recalculates fast marching a number of times set from the command line using the new boundary values each time. Each MPI process writes only a small piece of the output file.\n\nA substantial difference is seen when the output of MPI fast marching is compared to the output of serial fast marching. This difference may be acceptable for some uses. The program should be able to handle input images that are too large to fit in the memory of a single computer.",
-    "articles": [
-      "bafkreibr4xuolczwpavzcnvv2zdhgcoujpsshkdjypsrlhjmzkschmg6my"
-    ],
     "authors": [
       {
         "author_fullname": "Hobbs, Kevin",

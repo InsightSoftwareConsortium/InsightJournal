@@ -1,10 +1,6 @@
 {
   "publication": {
     "abstract": "This document describes an ITK implementation of an interactive method for tracing curvilinear structures.\nThe basic tools provided in this framework are an oriented flux-based tubularity measure and a geodesic path \ntracer that uses the fast marching algorithm. The framework is efficient and requires minimal user \ninteraction to trace curvilinear structures such as vessels and neurites in 2D images and 3D image \nstacks.",
-    "articles": [
-      "bafybeifm4cj23ezftkchq6d2spvz7iwk5qb7vwjz2ac7eudiiy3fbhsh4i",
-      "bafybeifm4cj23ezftkchq6d2spvz7iwk5qb7vwjz2ac7eudiiy3fbhsh4i"
-    ],
     "authors": [
       {
         "author_fullname": "Benmansour, Fethallah",
@@ -68,7 +64,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeiepalttlafpyj2qm5s7x2taqbnlnjv6xtc6g45u2l24t7uijilgam",
+        "article": "bafybeifm4cj23ezftkchq6d2spvz7iwk5qb7vwjz2ac7eudiiy3fbhsh4i",
         "citation_list": [
           {
             "key": "ref1",

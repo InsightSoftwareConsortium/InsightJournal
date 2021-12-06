@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "We propose an open source and cross platform medical image viewer, named VV, designed for qualita tive evaluation of images registration, in particular for deformable registration of 4D CT images. VV can display multiple spatio-temporal image sequences (2D+t or 3D+t) and contains several tools for comparing images using transparency or fusion, for visualizing deformation \ufb01elds, for de\ufb01ning landmarks. It is used in the \ufb01eld of radiation therapy to help researchers and clinicians evaluate deformation in 4D CT images of the thorax. It is implemented in C++, with ITK, VTK and QT open source version, runs on Linux and windows and is freely available to the community.",
-    "articles": [
-      "bafkreigjh5kmldyts6pz7q74xwevx6oploo5hpyhgoiazgozhu6sspihwu"
-    ],
     "authors": [
       {
         "author_fullname": "Seroul, Pierre",
@@ -85,7 +82,7 @@
     ],
     "revisions": [
       {
-        "article": "bafybeiae3iepi534eaxfmz47ejookp7yzxkvlqjgzgpzgsu3neekeqrk6q",
+        "article": "bafkreigjh5kmldyts6pz7q74xwevx6oploo5hpyhgoiazgozhu6sspihwu",
         "citation_list": [
           {
             "key": "ref1",

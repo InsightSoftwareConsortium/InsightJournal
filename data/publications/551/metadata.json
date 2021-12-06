@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "In this paper, we propose a Mix-resolution Bone-related Statistical Deformable Model (mBr-SDM) to improve the predicting accuracy of orthognathic surgery, particularly for the main deformation region. Mix-resolution Br-SDM consists of two separate Br-SDM of different resolutions: a high-resolution Br-SDM which is trained with more samples to capture the detail deforming variations in the main deforming regions of interest, together with a low-resolution Br-SDM which is trained with a smaller number of samples to capture the major variations of the remaining facial points. The experiments have shown that the mix-resolution Br-SDM is able to significantly reduce the predicting error compared with the corresponding Finite Element Model, while giving a low computational cost which is characteristic of the SDM approach.",
-    "articles": [
-      "bafkreiduo6tkys3im7ydij5cip3jwezwjbqoqm5te7ut7mskwzwepb2wri"
-    ],
     "authors": [
       {
         "author_fullname": "Qizhen, He",

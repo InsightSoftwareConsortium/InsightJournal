@@ -1,11 +1,6 @@
 {
   "publication": {
     "abstract": "Texture analysis provides quantitative information describing properties in images such as coarseness and smoothness. Two common quantification schemes are based on co-occurence matrices and run-length matrices. Although the co-occurence measures are readily available in the Insight Toolkit, no such set of classes exists for run-length measures. This submission is meant to remedy this deficiency by providing a set of classes which are modeled after the ITK co-occurence measures classes.",
-    "articles": [
-      "bafybeicpvqhlseuxy5jksxhy75qqk7ky4w25uj35zfkmezl222gwihtxku",
-      "bafybeicpvqhlseuxy5jksxhy75qqk7ky4w25uj35zfkmezl222gwihtxku",
-      "bafybeicpvqhlseuxy5jksxhy75qqk7ky4w25uj35zfkmezl222gwihtxku"
-    ],
     "authors": [
       {
         "author_fullname": "Tustison, Nicholas",
@@ -41,7 +36,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": null,
+        "article": "bafybeicpvqhlseuxy5jksxhy75qqk7ky4w25uj35zfkmezl222gwihtxku",
         "citation_list": [
           {
             "doi": "10.1016/s0146-664x(75)80008-6",

@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "Often times developers face the need to connect ITK and VTK pipelines to handle\r\nimage data. For this purpose, image data importer and exporter classes \r\nhave been implemented both in ITK and VTK. However, as evident from frequent questions in \r\nthe ITK and VTK users and developers mailing list, usage of these classes is not \r\nstraight forward. Furthermore, the difficulty gets more challenging with the need to \r\nhandle different pixel types. For these reasons, an effort was made to write Image IO classes that \r\nencapsulate all the intricacies and provide users with easy to use API. This article \r\ndescribes these Image IO classes and present an example to demonstrate how to use\r\nthese classes.",
-    "articles": [
-      "bafkreiewi55bgyt266r4ndmpphibws6bbfumzfaqxmdsyeqmvpkagph3ve"
-    ],
     "authors": [
       {
         "author_fullname": "Enquobahrie, Andinet",

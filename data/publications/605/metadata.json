@@ -1,12 +1,6 @@
 {
   "publication": {
     "abstract": "This paper presents a new fully automatic method for segmentation of\r\nbrain images that possess multiple sclerosis (MS) lesions.\r\nMultichannel magnetic resonance images are used to delineate multiple\r\nsclerosis lesions while segmenting the brain into its major\r\nstructures. The method is an atlas based segmentation\r\ntechnique employing a topological atlas as well as a statistical\r\natlas. An advantage of this approach is that all segmented structures\r\nare topologically constrained, thereby allowing subsequent processing\r\nwith cortical unfolding or diffeomorphic shape analysis techniques.\r\nValidation on data from two studies demonstrates that the method has\r\nan accuracy comparable with other MS lesion segmentation methods,\r\nwhile simultaneously segmenting the whole brain.",
-    "articles": [
-      "bafkreifsq2mdkrrs55h6qrt3mwk5bg2f3s6vscedmbrsqu2xubnlg2vlnq",
-      "bafkreid2ymfape67tuqy2k6t2x67ieh6wlqz6p473flmkbjxivxiktk7ii",
-      "bafkreib6ss6ralzmrwe44wosbmlkty4kktk2ik2muotzbzd2xvoiblljwa",
-      "bafkreibl5y5jwccbkfoex7tzncvihaohda7c3fm6tcogzffro4ubal6c3a"
-    ],
     "authors": [
       {
         "author_fullname": "Shiee, Navid",
@@ -69,7 +63,7 @@
     ],
     "revisions": [
       {
-        "article": "bafybeibm727odxdofcytpnnhwq7r3xhqvwnedhjsfsjhkdcgswmve2ttfi",
+        "article": "bafkreibl5y5jwccbkfoex7tzncvihaohda7c3fm6tcogzffro4ubal6c3a",
         "citation_list": [
           {
             "key": "ref1",

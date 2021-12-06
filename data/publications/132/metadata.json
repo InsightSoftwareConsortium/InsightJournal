@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "When an image is mostly composed of background pixels, most of the automatic\r\nthresholding methods are failing to produce a relevant threshold. This is mainly\r\ncaused because one mode is over represented compared to the other in the histogram\r\nof the image. The Kappa-Sigma clipping, a method largely used in astronomy, don't\r\ntry to separate 2 modes in the histogram, but rather try to find the properties of\r\nthe only usable mode, the one of the background, and compute a threshold to select\r\nthe values significantly different of the background.",
-    "articles": [
-      "bafkreihrudufbua7upnmp2ff2o6bvajb2qzu5oec754ssb6wkjqbhgvstu"
-    ],
     "authors": [
       {
         "author_fullname": "Lehmann, Gaetan",

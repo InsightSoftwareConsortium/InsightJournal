@@ -1,10 +1,6 @@
 {
   "publication": {
     "abstract": "In previous work, we presented an algorithm to synthesize volumetric images of vascular trees and generate the corresponding ground truth segmentations, bifurcation locations, branch properties, and tree hierarchy. In this work, we provide the software needed to simulate these volumes. Our software expects a number of physical parameters and oxygen demand maps to produce 3D volumetric images of vasculature, as well as information about the bifurcation locations, tree hierarchy and branch radii in a GXL file. We foresee our software useful for large scale evaluation studies of medical image segmentation and analysis software.",
-    "articles": [
-      "bafybeiavwawd7ghfk7zdmalivmwuj4xnckgn7c5b7sximuhuedhwx5jkma",
-      "bafybeiavwawd7ghfk7zdmalivmwuj4xnckgn7c5b7sximuhuedhwx5jkma"
-    ],
     "authors": [
       {
         "author_fullname": "Jassi, Preet",
@@ -44,7 +40,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeigmrx7xbo7pmbrppqohsvabs2rfckwvyny7fw3lqgvc2tu4cossfa",
+        "article": "bafybeiavwawd7ghfk7zdmalivmwuj4xnckgn7c5b7sximuhuedhwx5jkma",
         "citation_list": [
           {
             "doi": "10.1016/j.compmedimag.2010.06.002",

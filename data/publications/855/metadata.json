@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "This paper describes the implementation of the LDFFD and TDFFD algorithms. Both quantify motion and deformation from an input image sequence by taking profit of the temporal dimension of velocity fields in the diffeomorphic registration framework to process the input image sequence as a single 3D+t object. The rationale behind these approaches is to formulate motion estimation in an image sequence as a multi-channel registration problem. This paper describes our implementation, currently following the original ITK registration framework without multi-threading and diffeomorphic registration framework.\nMigration to ITKv4 will be addressed in future work. We also provide code for computing strain on a segmentation represented as a VTK polydata mesh. Program usages for LDFFD and TDFFD as well as strain quantification results are given for one 3D ultrasound image sequence acquired on a healthy volunteer.",
-    "articles": [
-      "bafybeie4na6gtsy73omodimts4yh2a3oo7w23dv5cg3jjw244pyelvailm"
-    ],
     "authors": [
       {
         "author_fullname": "De Craene, Mathieu",
@@ -36,7 +33,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeianagg4wcgylx4mvjvdwwvtrmy4oqmrhp6yl65blvan4vyq54k3fq",
+        "article": "bafybeie4na6gtsy73omodimts4yh2a3oo7w23dv5cg3jjw244pyelvailm",
         "citation_list": [
           {
             "key": "ref1",

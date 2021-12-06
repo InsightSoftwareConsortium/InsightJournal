@@ -1,13 +1,6 @@
 {
   "publication": {
     "abstract": "This article presents an approach for decreasing the computational time for converting a sparse SpatialObject to an Image. The method is applicable for SpatialObjects which occupy less volume than the total output Image (which occurs often, especially when using TubeSpatialObjects to represent vessels). A new filter MaskedSpatialObjectToImageFilter is introduced which dramatically decreases the execution time by creating a mask of relevant pixels. The mask is computed by calling the conventional SpatialObjectToImageFilter at a lower resolution, which is significantly faster for large images. The mask is then up-sampled to control which areas are further processed.",
-    "articles": [
-      "bafkreicegwfiivb3l2kfkuqsuxtm4yydkqeuufu5x734mcp6oxnzbzxbqa",
-      "bafkreicegwfiivb3l2kfkuqsuxtm4yydkqeuufu5x734mcp6oxnzbzxbqa",
-      "bafkreicegwfiivb3l2kfkuqsuxtm4yydkqeuufu5x734mcp6oxnzbzxbqa",
-      "bafkreicegwfiivb3l2kfkuqsuxtm4yydkqeuufu5x734mcp6oxnzbzxbqa",
-      "bafkreicegwfiivb3l2kfkuqsuxtm4yydkqeuufu5x734mcp6oxnzbzxbqa"
-    ],
     "authors": [
       {
         "author_fullname": "Mueller, Dan",

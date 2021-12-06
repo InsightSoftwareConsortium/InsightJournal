@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "We have created a wrapper package named SimVTK that allows VTK, and third-party classes derived from VTK classes, to be seamlessly integrated with MATLAB's Simulink interface. Our package generates a loadable Simulink module for each VTK class, which is then represented as a \"block\" on the Simulink canvas, and can be connected with other blocks to form a pipeline. Each block can be double-clicked to bring up a dialog box that allows introspection and control of the VTK class. After a VTK pipeline has been built, it can be run interactively from within Simulink. The outputs of the pipeline can be displayed in an interactive render window, written to a disk file, or exported to a MATLAB variable. Within Simulink, the VTK pipeline can also be connected to the ITK pipeline through the use of our SimITK package. We generate the VTK-Simulink wrapper automatically though the use of CMake build scripts, with XML as an intermediate representation of the VTK class interfaces.\n",
-    "articles": [
-      "bafkreiggi3yerpn7tgf6hf34ocslsidpvyiqsv6amegdlpo4ppjjvfsxee"
-    ],
     "authors": [
       {
         "author_fullname": "Gobbi, David G.",
@@ -52,7 +49,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeie2ggvvndya3hs3tcte5hdeljx2mve72hgqdgfg3o473yxm7suoke",
+        "article": "bafkreiggi3yerpn7tgf6hf34ocslsidpvyiqsv6amegdlpo4ppjjvfsxee",
         "citation_list": [
           {
             "doi": "10.1109/vis.2005.113",

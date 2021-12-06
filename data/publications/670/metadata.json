@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "We present a semi-automatic algorithm for Carotid lumen segmentation on CTA images.\nOur method is based on a variant of the minimal path method that models the vessel as a centerline and boundary. This is done by adding one dimension for the local radius around the centerline. The crucial step of our method is the definition of the local metrics to minimize. We have chosen to exploit the tubular structure of the vessels one wants to extract to built an anisotropic metric giving higher speed on the center of the vessels and also when the minimal path tangent is coherent with the vessel\u2019s direction. Due to carotid stenosis or occlusions on the provided data, segmentation is refined using a region-based level sets.",
-    "articles": [
-      "bafybeihc34dwhmvoole4unjihbwt5wxlgkh57pyye4hlm53mr3hfans7mi"
-    ],
     "authors": [
       {
         "author_fullname": "BENMANSOUR, Fethallah",
@@ -42,7 +39,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeickfokknhu54j6tjo5s42qr4syzbtm33hqcbqbucq5h3e76nprjre",
+        "article": "bafybeihc34dwhmvoole4unjihbwt5wxlgkh57pyye4hlm53mr3hfans7mi",
         "citation_list": [
           {
             "key": "ref1",

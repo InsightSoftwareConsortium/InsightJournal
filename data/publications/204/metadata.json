@@ -1,12 +1,6 @@
 {
   "publication": {
     "abstract": "ITK's flood filling iterator represents a way to visit pixels/voxels within an image having a specific connectivity. The iterator is initialized at known seed points and starting from these, neighbors that are within the desired connectivity are marked as to be visited and processed by the iterator in the future.\r\n\r\nThe FloodFilledFunctionConditionalConstIterator builds the foundation for the implementation of the NeighborhoodConnectedImageFilter and is currently fixed to investigating 4-neighborhoods in 2D and 6-neighborhoods in 3D. Since many existing applications use region growing algorithms that perform on full neighborhoods (i.e. 8-connected in 2D and 26-connected in 3D) it is desirable to be able to choose at least between these two standard connectivities.\r\n\r\nIn this document we describe the extension of the existing iterator to be using ShapedNeighborhoodIterators which has already been proposed in the implementation of the FloodFilledFunctionConditionalConstIterator.",
-    "articles": [
-      "bafkreiheprfiru54wdskx2ck5juzhogmyyxh6bqteegv4zytp326ifnnky",
-      "bafkreiheprfiru54wdskx2ck5juzhogmyyxh6bqteegv4zytp326ifnnky",
-      "bafkreiheprfiru54wdskx2ck5juzhogmyyxh6bqteegv4zytp326ifnnky",
-      "bafkreiheprfiru54wdskx2ck5juzhogmyyxh6bqteegv4zytp326ifnnky"
-    ],
     "authors": [
       {
         "author_fullname": "Groher, Martin",

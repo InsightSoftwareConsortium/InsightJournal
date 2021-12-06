@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "An Insight Toolkit (ITK) algorithm for adaptively thresholding images is presented in this paper. Currently, the usage of thresholding methods in ITK has made use of global thresholds, confidence connected thresholds and neighborhood strategies. The current work extends these family of filters by setting thresholds adaptively in local image regions. The user is not required to specify seed regions apriori which greatly eases the task of automatic segmentation. The thresholds are determined using Otsu's minimization of between-class variances in local image regions that are selected randomly throughout the domain. Using non-uniformly sampled thresholds, a continuous function is reconstructed throughout the image domain using a B-Spline approximation algorithm. Hence, the image domain is adaptively sampled by making use of the reconstructed threshold function. Most imaging modalities introduce some intensity inhomogeneities that can be recovered by this method. ",
-    "articles": [
-      "bafkreibtd5xntme2jtduuxplbnyv57yqapg5mj5eiawxdjwx5iuo5ohska"
-    ],
     "authors": [
       {
         "author_fullname": "Mosaliganti, Kishore",
@@ -44,7 +41,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeiajuivgw5mggdw247ifvlrjpm6nrwp76x3e2db7lyqgr3jzwv7lty",
+        "article": "bafkreibtd5xntme2jtduuxplbnyv57yqapg5mj5eiawxdjwx5iuo5ohska",
         "dapp": null,
         "dataset": null,
         "doi": null,

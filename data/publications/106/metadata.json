@@ -1,12 +1,6 @@
 {
   "publication": {
     "abstract": "Many statistical shape analysis methods produce various types of data about the analyzed surfaces, such\r\nas p-value maps, distance maps, 3D difference vectors and local covariance matrices. This data is often\r\ntoo large and thus difficult to be properly evaluated on a qualitative basis. A visual representation of\r\nthis data strongly simplifies qualitative evaluation by humans and thus greatly enhances the value of\r\nthe statistical results. In this paper we present a new tool for visualizing various datasets on surfaces\r\nrepresented as triangle meshes.\r\nOur tool, KWMeshVisu, is implemented using the Insight Toolkit ITK, www.itk.org, the Visualization\r\nToolkit VTK, www.vtk.org, and the KWWidgets user interface toolkit, www.kwwidgets.org.\r\nThe source code for KWMeshVisu, as well as input data used to generate the images in this paper, is\r\nprovided with this document.",
-    "articles": [
-      "bafkreifpv34o3btct3ofl6nfgdnkdgp45vvkqj4t2n63pb5wfswwxiolxi",
-      "bafkreif7xytlxay3l5rwmygxjap2bydcafmktk524xk3zt7grwlkpkmqxe",
-      "bafkreifpv34o3btct3ofl6nfgdnkdgp45vvkqj4t2n63pb5wfswwxiolxi",
-      "bafkreif7xytlxay3l5rwmygxjap2bydcafmktk524xk3zt7grwlkpkmqxe"
-    ],
     "authors": [
       {
         "author_fullname": "Oguz, Ipek",

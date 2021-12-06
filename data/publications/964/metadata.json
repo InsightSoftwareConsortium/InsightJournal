@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "A multi-atlas approach is proposed for the automatic segmentation of nine different structures in a set of head and neck CT images for radiotherapy. The approach takes advantage of a training dataset of 25 images to build average head and neck atlases of high-quality. By registering patient images with the atlases at the global level, structures of interest are aligned approximately in space, which allowed multi-atlas-based segmentations and correlation-based label fusion to be performed at the local level in the following steps. Qualitative and quantitative evaluations are performed on a set of 15 testing images. As shown by the results, mandible, brainstem and parotid glands are segmented accurately (mean volume DSC>0.8). The segmentation accuracy for the optic nerves is also improved over previously reported results (mean DSC above 0.61 compared with 0.52 for previous results). ",
-    "articles": [
-      "bafkreidxevx6iqjonwacengju6utazx4fu3it4qoix5e3nlz2qk44hsi7q"
-    ],
     "authors": [
       {
         "author_fullname": "Chen, Antong",
@@ -38,7 +35,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeie7n7tpqylxk6rkdtiwdp6vdjctmfgkalsbzoq2sbdho7xduaurqm",
+        "article": "bafkreidxevx6iqjonwacengju6utazx4fu3it4qoix5e3nlz2qk44hsi7q",
         "citation_list": [
           {
             "doi": "10.1016/s0167-8140(12)72710-x",

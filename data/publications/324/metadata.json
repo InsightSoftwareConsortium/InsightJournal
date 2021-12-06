@@ -1,11 +1,6 @@
 {
   "publication": {
     "abstract": " Junctions of tubular structures (vasculature, trachea, neuron, etc) in medical images are critical for the topology of these structures. Identification of them is helpful in many applications. For example, quantification of geometric vascular features, registration of trachea movement due to respiration, tracing of neuron path. However, manual extraction of junctions can be tedious, time-consuming, and subject to operator bias. In this paper, we propose a novel method to detect them automatically and describe how to implement it in ITK framework. The input is a 2D/3D binary image that can be obtained from any segmentation techniques. The output will be positions of junctions and their sizes. There are only two parameters which need to be set by the user. We provide here the implementation as a ITK class: itk::JunctionDetectionFilter.\nPlease cite the following paper if you are interested in our work.\nG. Xiong, C. Chen, J. Chen, Y. Xie, and L. Xing, Tracking the Motion Trajectories of Junction Structures in 4D CT Images of the Lung, Vol. 57, No. 15, pp. 4905-4930, Physics in Medicine and Biology, 2012.",
-    "articles": [
-      "bafkreig4nuecwueay7ha47evp7yjqad2neelq36vzkef4lyc72cjssw7fm",
-      "bafkreig4nuecwueay7ha47evp7yjqad2neelq36vzkef4lyc72cjssw7fm",
-      "bafkreig4nuecwueay7ha47evp7yjqad2neelq36vzkef4lyc72cjssw7fm"
-    ],
     "authors": [
       {
         "author_fullname": "Xiong, Guanglei",
@@ -44,7 +39,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeifez6kgsd3a7wlnkvuxut6auu2gssuwf5wxb36picbpygh37biu64",
+        "article": "bafkreig4nuecwueay7ha47evp7yjqad2neelq36vzkef4lyc72cjssw7fm",
         "citation_list": [
           {
             "key": "ref1",

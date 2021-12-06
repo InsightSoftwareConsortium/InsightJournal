@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "This paper describes a set of pixel accessors that transform RGB pixel values to a different color space. Accessors for the HSI, XYZ, Yuv, YUV, HSV, Lab, Luv, HSL, CMY, and CMYK color spaces are provided here. This paper is accompanied with source code for the pixel accessors and test, test images and parameters, and expected output images. \n\nNote: Set() methods are incorrect. Will provide revision by 12.17.2010.",
-    "articles": [
-      "bafkreif72nkx2lfuap3fh6uklhzovgkgf3zmtj3oj2rozy7v5rkealv5vu"
-    ],
     "authors": [
       {
         "author_fullname": "Tamburo, Robert",
@@ -40,7 +37,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeifpjanjwaszuq2bcyuft3r4vga4si7p47cbtg6ryvhx66ekk4vxna",
+        "article": "bafkreif72nkx2lfuap3fh6uklhzovgkgf3zmtj3oj2rozy7v5rkealv5vu",
         "citation_list": [
           {
             "key": "ref1",

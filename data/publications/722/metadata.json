@@ -1,11 +1,6 @@
 {
   "publication": {
     "abstract": "This document describes an open source, high performance ultrasound B-Mode implementation based on the Insight Toolkit (ITK). ITK extensions are presented to calculate the radio-frequency (RF) signal envelope. A variety of 1D Fast Fourier Transform options are introduced including VNL, FFTW, and an OpenCL solution. Scan conversion is implemented for phased array or curvilinear transducers. The entire image processing pipeline is streamable to limit memory consumption during multi-frame or 3D acquisitions with the introduction of an itk::StreamingResampleImageFilter.\n",
-    "articles": [
-      "bafkreic6gqlqmtcscvrdyewdygyqtgggkldo4niopqc7l5sw7sujt22t4a",
-      "bafkreic6gqlqmtcscvrdyewdygyqtgggkldo4niopqc7l5sw7sujt22t4a",
-      "bafkreic6gqlqmtcscvrdyewdygyqtgggkldo4niopqc7l5sw7sujt22t4a"
-    ],
     "authors": [
       {
         "author_fullname": "McCormick, Matthew",

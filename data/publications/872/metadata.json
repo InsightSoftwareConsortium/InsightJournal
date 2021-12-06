@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "Many enabling technologies like non-rigid registration in medical image computing rely on the construction of a function by interpolating scattered points; however, the outliers contained in the data and the approximation error make the robust and accurate estimation difficult. This paper presents an ITK implementation of a robust Finite Element (FE) solver, which can effectively deal with the above difficulties. The experiment results of synthetic data and real cases demonstrate the characteristics of the robust solver and its typical application. ",
-    "articles": [
-      "bafkreiaxqek2gjixcn3pdtbkwiyp3lvniz3wcmgja27iygvheunscb6mdq"
-    ],
     "authors": [
       {
         "author_fullname": "Liu, Yixun",

@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "The usage of image processing has become an important and continuous growing field in medical imaging. Although a large amount of algorithms is available, only few are routinely applied within applications for clinical diagnosis support and treatment planning. New tools are required that allow for efficient evaluation and comparison of algorithms as well as the \r\ngeneration of dedicated user interfaces with sophisticated visualization for clinical applications. We propose a generic integration of ITK algorithms into the visual programming and rapid prototyping platform MeVisLab. One of the main limitation of ITK is its lack of visualization and interaction functionality through a dedicated development platform. MeVisLab provides a modular visual programming interface with a comprehensive suite of image processing and visualization tools. The linkage of ITK algorithms to MeVisLab is based on a two step process that consists of a generic XML description for each ITK algorithm and an automatic code generator to create new MeVisLab modules, which will be made publicly available within the free version of MeVisLab. Each module can handle different image types and data dimensions dynamically at runtime. Example applications using registration, segmentation, and visualization modules are presented in order to show the capabilities of the described integration concept.",
-    "articles": [
-      "bafkreigtpdpnbgnnvjcvh4dstt42z4aonrtzd4dufcpwzuu6s2xspfql3y"
-    ],
     "authors": [
       {
         "author_fullname": "Rexilius, Jan",
@@ -64,7 +61,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeidbie4scd6d5ku7b4dnyw5owhaxafmovawxrfocvzlbx2qexzyfa4",
+        "article": "bafkreigtpdpnbgnnvjcvh4dstt42z4aonrtzd4dufcpwzuu6s2xspfql3y",
         "dapp": null,
         "dataset": null,
         "doi": null,

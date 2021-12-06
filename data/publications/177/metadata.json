@@ -1,10 +1,6 @@
 {
   "publication": {
     "abstract": "We present an open-source ITK implementation of a direct Fourier method for tomographic reconstruction, applicable to parallel-beam x-ray images. Direct Fourier reconstruction makes use of the central-slice theorem to build a polar 2D Fourier space from the 1D transformed projections of the scanned object, that is resampled into a Cartesian grid. Inverse 2D Fourier transform eventually yields the reconstructed image. Additionally, we provide a complex wrapper to the BSplineInterpolateImageFunction to overcome ITK\u2019s current lack for image interpolators dealing with complex data types. A sample application is presented and extensively illustrated on the Shepp-Logan head phantom. We show that appropriate input zeropadding and 2D-DFT oversampling rates together with radial cubic b-spline interpolation improve 2D-DFT interpolation quality and are efficient remedies to reduce reconstruction artifacts.",
-    "articles": [
-      "bafybeidfghyy4cpyzqkjqwgu64bpq2vh2z5ygvuz55xvqw4nrqlpqtoqay",
-      "bafybeidfghyy4cpyzqkjqwgu64bpq2vh2z5ygvuz55xvqw4nrqlpqtoqay"
-    ],
     "authors": [
       {
         "author_fullname": "Zosso, Dominique",
@@ -46,7 +42,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeibnka5ursoj3a3nt7mn4f3sfycuwfqb67w76yg2qd5ndqepvit4p4",
+        "article": "bafybeidfghyy4cpyzqkjqwgu64bpq2vh2z5ygvuz55xvqw4nrqlpqtoqay",
         "citation_list": [
           {
             "doi": "10.1109/42.845180",

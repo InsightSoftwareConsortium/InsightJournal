@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "We implemented the shape-based interpolation method described by Raya and Udupa in 1990 for three-dimensional images, and created two standalone filters using the Insight Toolkit ITK. The image to be interpolated must be a 3D binary image which represents an object as a series of 2D slices with pixel values at 1 inside the object and 0 outside by convention. The first filter takes as input a 3D binary image wherein the object of interest is represented in full, that is, on all contiguous slices that comprise it. Such filter yields an upsampled 3D binary image. The second filter takes as input a 3D binary image wherein the object of interest is represented only on certain slices that are regularly spaced. It yields a 3D binary image of the same size as that of the input and wherein the object is represented on all contiguous slices that comprise it. This paper is provided with the source code as well as the data used for validation.",
-    "articles": [
-      "bafkreift77mvh27vpax4rryrj2pmwbltc4tdwd7h4ifkbvrw2smhem7zea"
-    ],
     "authors": [
       {
         "author_fullname": "Boydev, Christine",
@@ -59,7 +56,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeic5feimkmmdvowqssctffgkvazkugopnbioepx3jakqqekxpyybza",
+        "article": "bafkreift77mvh27vpax4rryrj2pmwbltc4tdwd7h4ifkbvrw2smhem7zea",
         "citation_list": [
           {
             "key": "ref1",

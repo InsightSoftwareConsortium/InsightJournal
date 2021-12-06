@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "A hierarchy of path data types and basic path filters were added to ITK, providing a general framework for curves that map a scalar value to a point in n-dimensional space. The framework supports curves that are either continuous (parametric curves) or discrete (chain-codes). Example usage of the entire framework is demonstrated using a previously published 2D active contour algorithm that was converted to ITK.",
-    "articles": [
-      "bafkreihcd3wyigx4gf2sa65xqlzcnmfhm6xkbhshqe35iyo7kv5bud3jvq"
-    ],
     "authors": [
       {
         "author_fullname": "Galeotti, John",
@@ -36,7 +33,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeiewj26busn5nri4q3lnmtpfyzrduhovcamxjh2zdqw2pnkieccodm",
+        "article": "bafkreihcd3wyigx4gf2sa65xqlzcnmfhm6xkbhshqe35iyo7kv5bud3jvq",
         "citation_list": [
           {
             "doi": "10.1109/34.277589",

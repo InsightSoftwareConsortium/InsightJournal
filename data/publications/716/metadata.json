@@ -1,13 +1,6 @@
 {
   "publication": {
     "abstract": "Voodoo is a popular, free structure from motion software package. It takes several, ordered images as input and computes the camera parameters of each image as well as a point cloud of an estimate of the 3D structure of the scene. This document presents a set of classes (vtkCalibratedImageCollection, vtkCalibratedImageCollectionReader, vtkVoodooReader) to enable a set of images and their associated 3D scene to be viewed in the same space. These classes are implemented using tools from VTK. The current code can be found at https://github.com/daviddoria/vtkVoodooReader .",
-    "articles": [
-      "bafkreigl5ehawwnxnhkmbg77tyn43pgieqncvk3rsejwvkj6japo75q2yq",
-      "bafkreigl5ehawwnxnhkmbg77tyn43pgieqncvk3rsejwvkj6japo75q2yq",
-      "bafkreigl5ehawwnxnhkmbg77tyn43pgieqncvk3rsejwvkj6japo75q2yq",
-      "bafkreigl5ehawwnxnhkmbg77tyn43pgieqncvk3rsejwvkj6japo75q2yq",
-      "bafkreigl5ehawwnxnhkmbg77tyn43pgieqncvk3rsejwvkj6japo75q2yq"
-    ],
     "authors": [
       {
         "author_fullname": "Doria, David",

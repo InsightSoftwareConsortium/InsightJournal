@@ -1,10 +1,6 @@
 {
   "publication": {
     "abstract": "An open standards based modular OR integration system was designed, which is modelled as component-based service-oriented architecture. Medical devices, IT hardware, and software are integrated as independent components and interconnected through a TCP/IP based Ethernet network. The integrated system facilitates service discovery, time synchronization, systems monitoring as well as component control and network administration. Each of the components exposes its semantic information about offered services as service description to peer components. The service description object is based on a generic model and contains all information about attributes, functions, streams as well as information on the used protocols that are required to access the services. An open standards based programming library for the rapid development of server/client components including example modules was developed. A prototype setup of the entire integrated OR system was realized within a demonstrator OR lab.",
-    "articles": [
-      "bafkreicegiuvbqa2ao7zi2rexrs37kh5zilrnij6mjutsw3ys7rka7izxu",
-      "bafkreiddzoqmnzxulaqptvaawepwzdfxhrtyqf5ukwmqht6nu5xkbzra54"
-    ],
     "authors": [
       {
         "author_fullname": "Bohn, Stefan",

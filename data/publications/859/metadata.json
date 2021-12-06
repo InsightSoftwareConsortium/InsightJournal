@@ -1,12 +1,6 @@
 {
   "publication": {
     "abstract": "Skull-stripping (or brain extraction) is an important pre-processing step in neuroimage analysis. This document describes a skull-stripping filter implemented using the Insight Toolkit ITK, which we named itk::StripTsImageFilter. It is a composite filter based on existing ITK classes. The filter has been implemented with usability, robustness, speed and versatility in mind, rather than accuracy. This makes it useful for many pre-processing tasks in neuroimage analysis. This paper is accompanied by the source code, input data and a testing environment.",
-    "articles": [
-      "bafkreia2jpgbcvxpifudwh27qqn4viwltfahkawgj4ocxrohx36c3vfudy",
-      "bafkreifxd2vhjtofdxyjryjduduyzfpsfpi2krrr3js4eg3o67w2sczpmm",
-      "bafkreifxd2vhjtofdxyjryjduduyzfpsfpi2krrr3js4eg3o67w2sczpmm",
-      "bafkreifxd2vhjtofdxyjryjduduyzfpsfpi2krrr3js4eg3o67w2sczpmm"
-    ],
     "authors": [
       {
         "author_fullname": "Bauer, Stefan",
@@ -54,7 +48,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeicprpbiuqbu3gioa55fe2t7nuhfvie2q2s5ad6h6oit6tgs2jq75m",
+        "article": "bafkreifxd2vhjtofdxyjryjduduyzfpsfpi2krrr3js4eg3o67w2sczpmm",
         "citation_list": [
           {
             "key": "ref1",

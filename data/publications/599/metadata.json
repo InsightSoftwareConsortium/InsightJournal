@@ -1,10 +1,6 @@
 {
   "publication": {
     "abstract": "This paper describes an ensemble segmentation trained by the AdaBoost algorithm, which finds a sequence of weak hypotheses, each of which is appropriate for the distribution on training example, and combines the weak hypotheses by a weighted majority vote. In our study, a weak hypothesis corresponds to a weak segmentation process. This paper shows a procedure for generating an ensemble segmentation algorithm using AdaBoost, and applies it to a liver lesion extraction problem from a contrast enhanced abdominal CT volume. A leave-one-patient-out validation test using 16 CT volumes demonstrated the effectiveness of the generated ensemble segmentation algorithm. In addition, we evaluated the performance by applying the algorithm to unknown test data provided by the \ufffd3D Liver Tumor Segmentation Challenge 2008\ufffd.",
-    "articles": [
-      "bafkreiful42jlf67jh5pvtwxwfr5xkgvockofafuxmul3azmgztakofc2y",
-      "bafkreic6iywu4efutnfg55smskr3shbobqeqpqqr2c5xmyftgh5kmhuqaq"
-    ],
     "authors": [
       {
         "author_fullname": "SHIMIZU, Akinobu",
@@ -69,7 +65,7 @@
     ],
     "revisions": [
       {
-        "article": "bafybeihg3k5voqyjagbfxh52p6hjhxxgrfitr6jgbu5pive2cfeg5s3cmy",
+        "article": "bafkreic6iywu4efutnfg55smskr3shbobqeqpqqr2c5xmyftgh5kmhuqaq",
         "citation_list": [
           {
             "doi": "10.3109/10929080109145999",

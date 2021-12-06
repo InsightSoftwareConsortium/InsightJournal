@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "In this work, we try to develop a fast converging method for\nsegmentation assisted deformable registration. The segmentation step\nconsists of a piece-wise constant Mumford-Shah energy model while reg-\nistration is driven by the sum of squared distances of both initial images\nand segmented mask with a diffusion regularization. In order to solve\nthis energy minimization problem, a second order Gauss-Newton opti-\nmization method is used. For the numerical experiments we used CT\ndata sets from the EMPIRE10 challenge. In this preliminary study, we\nshow high accuracy of our algorithm.\n",
-    "articles": [
-      "bafybeihm5mdeizr4cp54puiahr5dmmhz7ohc7qvjj5gppmfzhlm4jvxc2m"
-    ],
     "authors": [
       {
         "author_fullname": "Jurisic, Miro",
@@ -127,7 +124,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeig5ennzj3qututfgazglvobvdd6dv5lyrugux7tozkdbyr44xzp6y",
+        "article": "bafybeihm5mdeizr4cp54puiahr5dmmhz7ohc7qvjj5gppmfzhlm4jvxc2m",
         "citation_list": [
           {
             "doi": "10.1016/s1361-8415(98)80022-4",

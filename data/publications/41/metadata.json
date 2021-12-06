@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "We are developing open source software for computer assisted intervention systems. Our primary experience has been with medical\r\nrobots, but the concepts (and software) apply to many physical devices that interact with the real world.\r\nThe real-time performance requirements permeate all levels of our software, including common tools (such as logging, class and object registers),\r\nvectors, matrices and transformations. Our software libraries are written in C++, but are also accessible from Python, which\r\nprovides a convenient environment for rapid prototyping and interactive testing.\r\nThe real-time support includes a device (hardware) interface and a task library. Device-specific modules such as robot servo control and trajectory generation can be provided by tasks or by external devices.\r\nUltimately, we intend to provide a framework that supports extension via dynamically loaded plug-in modules.\r\nOur development process utilizes a multitude of open source tools, including CVS, CMake, Swig, CppUnit, Dart, CVSTrac, Doxygen\r\nand LaTeX. These tools help to ensure compliance with our software development procedure.",
-    "articles": [
-      "bafkreiewc43eyuvkemfhtu34abkbpkzmtlpm2htzq7cmvgz3zodqfck6zi"
-    ],
     "authors": [
       {
         "author_fullname": "Kazanzides, Peter",
@@ -82,7 +79,7 @@
     ],
     "revisions": [
       {
-        "article": "bafybeiglz5tvanxg56cjzlvrndi25fcaq26wxde42oklekod5djdshwkhu",
+        "article": "bafkreiewc43eyuvkemfhtu34abkbpkzmtlpm2htzq7cmvgz3zodqfck6zi",
         "citation_list": [
           {
             "doi": "10.1007/978-3-540-30136-3_3",

@@ -1,10 +1,6 @@
 {
   "publication": {
     "abstract": "In this paper we propose the usage of a very efficient contact implementation for modeling the brain-skull interaction. This contact algorithm is specially design for our Dynamic Relaxation solution method for solving soft-tissue registration problems. It makes possible the use of complex biomechanical models which include different nonlin-ear materials, large deformations and contacts for image registration. The computational examples prove the accuracy and the computational efficiency of our methods. For a model having more than 50000 degrees of freedom, a complete simulation can be done in less than a minute.",
-    "articles": [
-      "bafybeifgcvwwanrfva33h7b7yrwq34heih4yuorryotryswue4e3vznocm",
-      "bafybeigebs2jz654p7dwilrdbehwonanejesj5rx2vgvauokq2unvezpze"
-    ],
     "authors": [
       {
         "author_fullname": "Joldes, Grand Roman",
@@ -89,7 +85,7 @@
     ],
     "revisions": [
       {
-        "article": null,
+        "article": "bafybeifgcvwwanrfva33h7b7yrwq34heih4yuorryotryswue4e3vznocm",
         "citation_list": [
           {
             "key": "ref1",

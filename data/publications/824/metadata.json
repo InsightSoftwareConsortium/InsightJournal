@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "A C++ file reader for the VisualSonics Vevo\u00ae 770 high frequency ultrasound system is presented. The digital RF header file is read into an XML DOM representation, which can be serialized as XML, HTML, or accessed in C++ natively with data object binding. An InsightToolkit reader is also implemented.",
-    "articles": [
-      "bafkreierl7p77cndrc6wg36klz2kkrrpmxjgutpgn4y7algi3bzjfubzvq"
-    ],
     "authors": [
       {
         "author_fullname": "McCormick, Matthew",
@@ -32,7 +29,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeih6wmqqslfnemtn5mwgovw74hl6t7kmscm6hig2dsdg4747jvvega",
+        "article": "bafkreierl7p77cndrc6wg36klz2kkrrpmxjgutpgn4y7algi3bzjfubzvq",
         "citation_list": [
           {
             "key": "ref1",

@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "CustusX version 3 is an in-house application for research in image-guided therapy with a focus on intraoperative use and ultrasound imaging. It is built upon open source toolkits such as the Insight Toolkit (ITK), the Visualization Toolkit (VTK), Qt and others. CustusX has a layered architecture based on services, and is extensible through the use of plugins. Key features are a user interface configurable by the user, an abstraction of the VTK pipeline, cross-platform video acquisition including temporal calibration, and a patient model. This paper gives an overview of the architecture and a description of the key concepts.",
-    "articles": [
-      "bafkreieozwl7wwsqfrt2zd4cvvvlm7dnlieylyg3c57luwd5s3s33mousi"
-    ],
     "authors": [
       {
         "author_fullname": "Askeland, Christian",
@@ -54,7 +51,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeieuyx3mfokkiwnqz2xpn3j45twz2q6wzxkdhlm6qtobxirgplnlri",
+        "article": "bafkreieozwl7wwsqfrt2zd4cvvvlm7dnlieylyg3c57luwd5s3s33mousi",
         "citation_list": [
           {
             "doi": "10.1097/00006123-200012000-00021",

@@ -1,11 +1,6 @@
 {
   "publication": {
     "abstract": "This document describes a set of classes that designs a generic explicit deformable model in VTK. The iterative mechanism is first introduced through an inheritance of the vtkPolyDataAlgorithm class. This vtkIterativePolyDataAlgorithm is then a base for an implementation of the deformation. Two examples of deformation are presented through an inheritance of this base class. The provided source code may be used to build a ParaView plugin that harnesses the animation feature.\n",
-    "articles": [
-      "bafkreib6xumcakyww45dnwpkyk6ulnj52bqkr4oah3vhb4fjxl7qjytg2u",
-      "bafkreib6xumcakyww45dnwpkyk6ulnj52bqkr4oah3vhb4fjxl7qjytg2u",
-      "bafkreib6xumcakyww45dnwpkyk6ulnj52bqkr4oah3vhb4fjxl7qjytg2u"
-    ],
     "authors": [
       {
         "author_fullname": "Velut, J\u00e9r\u00f4me",
@@ -33,7 +28,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeif52kpzzxvlnn6gl2few24uctgbmtqihaudtvlfdabl7smcnpimjq",
+        "article": "bafkreib6xumcakyww45dnwpkyk6ulnj52bqkr4oah3vhb4fjxl7qjytg2u",
         "citation_list": [
           {
             "doi": "10.1007/bf00133570",

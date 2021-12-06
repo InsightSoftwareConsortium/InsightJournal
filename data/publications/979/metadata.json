@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "This document describes an ITK implementation of the adaptive patch-based\nimage denoising algorithm described in cite{Manjon:2010aa}. This offering consists\nof the templated class itkPatchBasedDenoisingImageFilter interfaced through\nthe DenoiseImage program which includes its own interface program. We include\na couple of examples.",
-    "articles": [
-      "bafybeiei6t76xdzsfsfjbwurcifzizdxeu3g53w6vsetbnknvf2omv4iji"
-    ],
     "authors": [
       {
         "author_fullname": "Tustison, Nicholas J.",
@@ -40,7 +37,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeiajyl5tsiovovhi5bvh3khexg2tvm2tzfsfautcril2twcoakn6ki",
+        "article": "bafybeiei6t76xdzsfsfjbwurcifzizdxeu3g53w6vsetbnknvf2omv4iji",
         "citation_list": [
           {
             "key": "ref1",

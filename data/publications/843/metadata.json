@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "This document describes the implementation in ITK of the \"point in circle\" geometrical predicate.\nBased on Jonathan Shewchuk's work which implements an exact version of the predicate using standard\nfloating point types and arithmetic, the implementation consist of an ITK wrapper around the \npublic domain C routines made available by the author of the precedent paper.\nWrapper using itk::PointSet, itk:CellInterface and itk:Mesh / itk:QuadEdgeMesh APIs are provided\nalong with corresponding examples which should provide enough details for users to directly\ncopy paste code in their application.\n\nThe application in mind for us is an exact and robust implementation of a delaunay triangulation /\nvoronoi tesselation in ITK, and will be presented in a separate paper.",
-    "articles": [
-      "bafkreiffdq7kiehujkuk2twqhr6fzzyhre3sbkhuvomesbtayvodo47z6m"
-    ],
     "authors": [
       {
         "author_fullname": "Moreau, Bertrand",

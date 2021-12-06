@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "A novel platform for realizing software prototypes in the area of medical image processing, analysis and visualization is introduced: The \\\"Medical Image Processing Platform\\\" (MIPP). A novel feature is the combination of ITK/VTK with Java/Eclipse RCP, four potential technologies complementing each other. While ITK and VTK provide comprehensive functionality for image processing and visualization, Java and Eclipse RCP facilitate the development of a modern and rich application.\r\n\r\nRCP offers everything for creating plug-in based software. The benefits of integrating ITK and VTK in such a modular architecture are reusability and extensibility. Functionality usually found in software for medical image processing and visualization (2D and 3D viewers, DICOM and application data management, etc.) is provided by the MIPP platform as plug-ins, can be easily reused by new applications and needn\\'t be re-implemented. Developers can extend the platform\\'s features by contributing new plug-ins and, again, make these available for others.\r\n\r\nThe paper describes the architecture of the MIPP platform and outlines its most important functionality. Finally, three clinical software systems implemented with MIPP are presented.",
-    "articles": [
-      "bafybeicsqa3edbp7qqli5ijst5zr65fmgavie7poizvrfr4kmwhju7datu"
-    ],
     "authors": [
       {
         "author_fullname": "Swoboda, Roland",
@@ -59,7 +56,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeigu4xl2bdlwgehw6gub5sjmmjofwnrm3mt5atuv57lrwuwv5xm6ce",
+        "article": "bafybeicsqa3edbp7qqli5ijst5zr65fmgavie7poizvrfr4kmwhju7datu",
         "citation_list": [
           {
             "key": "ref1",

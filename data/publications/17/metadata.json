@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "Methods for segmentation of skull infiltrated tumors in Computed\r\nTomography (CT) images using Insight Segmentation and Registration\r\nToolkit ITK (www.itk.org) are presented. Pipelines of filters and\r\nalgorithms from ITK are validated on the basis of different criteria: sensitivity,\r\nspecificity, dice similarity coefficient, Chi-squared, and Hausdorff\r\ndistance measure. The method to rate segmentation results in relation\r\nto validation metrics is presented together with analysis of importance of\r\ndifferent goodness measures. Results for one simulated dataset and three\r\npatient are presented.",
-    "articles": [
-      "bafkreic3rq3hvggq6tecga2pqur7xpt67v3uc3juv6tjeqt26pnvs7hihy"
-    ],
     "authors": [
       {
         "author_fullname": "Popovic, Aleksandra",

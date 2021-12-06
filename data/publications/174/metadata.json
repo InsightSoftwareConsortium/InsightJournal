@@ -1,10 +1,6 @@
 {
   "publication": {
     "abstract": "It is sometimes useful to apply a filter to a region defined by a\r\nmask. This article introduces a simple ``mask adaptor'' filter that\r\nallows this type of operation to be tested easily. It is applicable to filters that do not need any pixel location information, such as histogram operations, which can't necessarily be achieved by simple masking approaches.",
-    "articles": [
-      "bafkreihkqkiv2eykfqdi4q2t3kullf6hfcbklaskme3vtftrou7c7vabky",
-      "bafkreihkqkiv2eykfqdi4q2t3kullf6hfcbklaskme3vtftrou7c7vabky"
-    ],
     "authors": [
       {
         "author_fullname": "Beare, Richard",

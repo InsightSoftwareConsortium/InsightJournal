@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "\nThis document presents an implementation of an algorithm to find a low edge-count approximation of a complex, discrete, 2D closed contour. This implementation is based on the algorithm described in ``Using Aerial Lidar Data to Segment And Model Buildings'' and ``A Bayesian Approach to Building Footprint Extraction from Aerial LIDAR Data.''\n\nThe code is available here:\nhttps://github.com/daviddoria/ClosedLoopSimplification",
-    "articles": [
-      "bafkreie24mpxvldtqtjp2venvnykgaeq6szzm664sckkzsi37sgh3kofzq"
-    ],
     "authors": [
       {
         "author_fullname": "Doria, David",

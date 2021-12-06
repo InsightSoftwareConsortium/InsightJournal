@@ -1,10 +1,6 @@
 {
   "publication": {
     "abstract": "This paper describes the implementation of a multidimensional block-matching nonrigid registration\r\nalgorithm. The main features of the algorithm are its simplicity, its free form nature, the modularity of\r\nthe similarity measure, which makes it possible using local entropy-based similarity measures and the\r\navoidance of the optimization module. The algorithm implementation described in this paper is based\r\non the method by Suarez et al. This paper, which has already been submitted to the Insight\r\nJournal, is accompanied with the source code, input data, parameters and output data used for validating\r\nthe algorithm described in it.",
-    "articles": [
-      "bafkreiavt75zrvgdhnn4ngnhoes4cm4sczoxezobbr3yu5yio5qrxr4hei",
-      "bafkreiavt75zrvgdhnn4ngnhoes4cm4sczoxezobbr3yu5yio5qrxr4hei"
-    ],
     "authors": [
       {
         "author_fullname": "Suarez-Santana, Eduardo",

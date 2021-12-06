@@ -1,11 +1,6 @@
 {
   "publication": {
     "abstract": "Isosurface extraction from brain images often creates handles between brain folds that are anatomically separated. Although manual editing could optimally correct these anatomical errors, it is not realistic due the size of the 3D data and the convoluted geometry of the brain. We propose an algorithm to automatically repair the isosurface and we make our code available at http://www.OpenTopology.org",
-    "articles": [
-      "bafkreifzptmrlsylpjwybpjshk7oakzo6ytxurqdfvqdteidtd4roxdrhq",
-      "bafkreifzptmrlsylpjwybpjshk7oakzo6ytxurqdfvqdteidtd4roxdrhq",
-      "bafkreifzptmrlsylpjwybpjshk7oakzo6ytxurqdfvqdteidtd4roxdrhq"
-    ],
     "authors": [
       {
         "author_fullname": "Jaume, Sylvain",
@@ -85,7 +80,7 @@
     ],
     "revisions": [
       {
-        "article": null,
+        "article": "bafkreifzptmrlsylpjwybpjshk7oakzo6ytxurqdfvqdteidtd4roxdrhq",
         "citation_list": [
           {
             "doi": "10.1007/bf01420736",

@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "A cubic spline is a spline where each curve is defined by a third-order polynomial, while a Hermite spline has each polynomial specified in Hermite form, being computed using tangent information as well as the position of the points. We propose two new classes for VTK, vtkCubicSpline and vtkHermiteSpline, which compute interpolating splines using a Cubic and a Hermite Spline Interpolation function, respectively. We also propose two new auxiliary classes, vtkParametricCubicSpline and vtkParametricHermiteSpline, that create parametric functions for the 1D interpolating aforementioned splines.",
-    "articles": [
-      "bafkreicalfgh37hfqsxv3th4owrkm5o2eq6fwtw2nqumpao2rl3bda6cii"
-    ],
     "authors": [
       {
         "author_fullname": "Kovacs, Nicole",
@@ -44,7 +41,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeifxvtvt6uilnxvvpczyrnrqxkk2nnj6jp7g2c5jq4xbi7ama5js3a",
+        "article": "bafkreicalfgh37hfqsxv3th4owrkm5o2eq6fwtw2nqumpao2rl3bda6cii",
         "citation_list": [
           {
             "doi": "10.1007/978-3-642-72292-9_1",

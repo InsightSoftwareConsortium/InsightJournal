@@ -1,10 +1,6 @@
 {
   "publication": {
     "abstract": "In this paper, we present a new automatic robust algorithm to segment multimodal brain MR images with Multiple Sclerosis (MS) lesions. The method performs tissue classification using a Hidden Markov Chain (HMC) model and detects MS lesions as outliers to the model. For this aim, we use the Trimmed Likelihood Estimator (TLE) to extract outliers. Furthermore, neighborhood information is included using the HMC model and we propose to incorporate a priori information brought by a probabilistic atlas.",
-    "articles": [
-      "bafkreib2v5wmtf5rn2m67g2tz27773k5ep5gbypqku43a3tuolxapc3kz4",
-      "bafkreib2v5wmtf5rn2m67g2tz27773k5ep5gbypqku43a3tuolxapc3kz4"
-    ],
     "authors": [
       {
         "author_fullname": "Bricq, Stephanie",
@@ -72,7 +68,7 @@
     ],
     "revisions": [
       {
-        "article": "bafybeibjidippbfftzhjunjzsuz26azytsfpdrnlrvrah76a7ug3wynnmy",
+        "article": "bafkreib2v5wmtf5rn2m67g2tz27773k5ep5gbypqku43a3tuolxapc3kz4",
         "citation_list": [
           {
             "doi": "10.1007/11566465_51",

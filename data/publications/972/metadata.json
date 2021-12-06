@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "This document describes a module for the Insight Toolkit (ITK) to assist in performance\nbenchmarking and a suite of benchmarks for the toolkit. These resources provide metrics to quantify\nsoftware computational performance. This is a pre-requisite to improve performance either through\nalgorithmic advancements or better utilization of hardware resources.\nComputational performance is quantified by reducing factors that confound timing measurements and\nby estimating measurement variance. New classes are presented that increase operating system process\npriority to minimize the impact of other processes running on the system. System hardware characteristics\nare extracted and displayed. The influence of hard disk input/output on runtime measurements is\nremoved in the suite of benchmarks. Additionally, the number of threads used by each benchmark can be\nspecified. These benchmarks consist of common analysis pipelines and run on 3D magnetic resonance\nbrain image data so realistic performance is quantified. Benchmarks can be executed with multiple iterations,\nand timing statistics are recorded in tab separated value (.tsv) files, which are easily stored or\nprocessed for further analysis and visualization.\nThis paper is accompanied with the source code, input data, parameters and output data that the authors\nused for validating the algorithm described in this paper. This adheres to the fundamental principle\nthat scientific publications must facilitate reproducibility of the reported results.",
-    "articles": [
-      "bafkreigonjhi3sximyqn6tsoc2kkx5gmk3wrtbpzbatwten7bupqllveeu"
-    ],
     "authors": [
       {
         "author_fullname": "Kang, Hyun Jae",

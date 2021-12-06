@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "The Image-Guided Surgery Toolkit (IGSTK) is an Open Source software project being developed under NIH/NIBIB funding. The toolkit will provide a common platform for implementing image-guided surgery applications and for fostering research in the field. The toolkit is based on several other open source toolkits including ITK, VTK and FLTK. Its architecture is based on the use of medium size classes, each one of them containing an explicit State Machine and a minimized API that enforces fault tolerance by design. This paper describes the architecture and its rationale.",
-    "articles": [
-      "bafkreicgjtpw654dd3btzeoysdbdvzz6ihef4kgai72j6cfqeqh6c4l674"
-    ],
     "authors": [
       {
         "author_fullname": "Ibanez, Luis",
