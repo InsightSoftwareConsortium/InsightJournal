@@ -1,10 +1,6 @@
 {
   "publication": {
     "abstract": "This document describes a cost function, or metric, for use in image registration using the Insight Toolkit. The RatioVarianceImageToImageMetric class implements a metric which is calculated from the variance of the ratios of voxel values of the moving and fixed images.",
-    "articles": [
-      "bafkreidjmy6d4acocevqr5zrdiag44kcghnqdyy3axvqt6c4x7ery7r2ia",
-      "bafkreidwg6xuw57pxp2f7c5up725g3egfbfj7clath7wcplpcku3yuqxjm"
-    ],
     "authors": [
       {
         "author_fullname": "Topping, Geoffrey",

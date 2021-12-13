@@ -1,12 +1,6 @@
 {
   "publication": {
     "abstract": "We describe the implementation of smoke and bleeding simulation in the open source surgery simulator SPRING \\cite{montgomery02}, which is particularly targeted for minimally invasive surgery simulation. Many smoke and bleeding simulations offer high physical and visual accuracy, but the underlaying models are to complex to run in real-time while performing soft-tissue simulation, collision detection and haptic device support at the same time. Our algorithms are based on simple models, that allow the surgery simulation to run in real-time.",
-    "articles": [
-      "bafkreibknwvx5yajzk3fowbdvwxnbomu7oopueqeozqzhozbejayzqdlye",
-      "bafkreibvjs2gbdo6cbzfie7fn6r534j5qth7j6djg42p2aj4uancrljuse",
-      "bafkreigrmiujcye4milxuardpod54sn7qtjjujrubr57syhngqmgxgg5bq",
-      "bafkreif3pum4sed4hpp4ozicmsggikdeeypqtyhcgx7qxeqdh4nrbp3hii"
-    ],
     "authors": [
       {
         "author_fullname": "Daenzer, Stefan",
@@ -49,7 +43,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeihwxtawaoqrygfcbk32vo47374ygxctray5s2itsofkndhlyu55gm",
+        "article": "bafkreif3pum4sed4hpp4ozicmsggikdeeypqtyhcgx7qxeqdh4nrbp3hii",
         "citation_list": [
           {
             "key": "ref1",

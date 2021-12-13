@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "This document presents a new class to apply an itkImageFunction to every pixel in an itkImage. This functionality is almost identical to itkUnaryFunctorImageFilter, but it uses an itkImageFunction rather than an itk::Functor. As some functionalities in ITK seem to have been implemented as image functors (itk::Functor::AND, itk::Functor::Atan, etc.) while other seems to have been implemented as itkImageFunction's (itk::BinaryThresholdImageFunction, itk::CentralDifferenceImageFunction, etc.), it seems reasonable to be able to apply any of these operations to an entire image.\n\nThe code is available here: http://review.source.kitware.com/#change,2008",
-    "articles": [
-      "bafkreidurtdwmd63qclikpriqvxu25msdcz2ugtmhmn5bnxnam5hexaqcy"
-    ],
     "authors": [
       {
         "author_fullname": "Doria, David",

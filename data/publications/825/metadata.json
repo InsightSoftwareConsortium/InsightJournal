@@ -1,10 +1,6 @@
 {
   "publication": {
     "abstract": "This document describes an affine transformation algorithm as an additional feature for landmark based registration in ITK www.itk.org. The algorithm is based on the paper by Spath, H [1]. The author derives a set of linear equations from paired landmarks and generates an affine transform from them. The method implemented here gives more freedom in the choice of registration and/or initialization method in ITK. The submission describes ITK implementation of the algorithm.",
-    "articles": [
-      "bafkreibfbg4u37iwftotxyzlfbmn2cbnrm7rswwojuugydpywndb7ta4eu",
-      "bafkreiff6op7psvjzfkyuykf6dmologxrxbhdo6jgsi4d7ux6gajki2h3e"
-    ],
     "authors": [
       {
         "author_fullname": "Kim, Eun Young",
@@ -45,7 +41,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeichbl2xubfllywqylijyqk2cfpyo3kmsz4c4oe2mxfj5an6x3p4yi",
+        "article": "bafkreiff6op7psvjzfkyuykf6dmologxrxbhdo6jgsi4d7ux6gajki2h3e",
         "citation_list": [
           {
             "key": "ref1",

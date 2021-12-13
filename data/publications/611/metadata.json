@@ -1,10 +1,6 @@
 {
   "publication": {
     "abstract": "This document examines the application of a new parametric method on the segmentation of MS \r\nlesions in brain sMRI, as applied to the data provided for the MS Lesion Segmentation Challenge at \r\nMICCAI 2008. The method uses the vector image joint histogram, built over a training set, as an explicit \r\nmodel of the feature vectors indicating lesion. The histogram is used to predict lesions in the test data by \r\nlabeling feature vectors consistent with lesion feature vectors in the training set. The results are evaluated \r\nusing STAPLE to compare against two separate human raters.",
-    "articles": [
-      "bafkreia7zrbjyg6cahfgrtb7bd2h62yoywrbsnbh67slreczx5knic33qq",
-      "bafkreia7zrbjyg6cahfgrtb7bd2h62yoywrbsnbh67slreczx5knic33qq"
-    ],
     "authors": [
       {
         "author_fullname": "Scully, Mark",

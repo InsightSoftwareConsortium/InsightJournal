@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "Segmenting images into \"super pixels\" is lately a very hot topic. One implementation of such a technique is by Felzenszwalb and Huttenlocher. We propose a new class, vtkSuperPixelSegmentation, which has wrapped Felzenszwalb's code (with permission) to provide this functionality in the VTK framework. The latest version includes an ITK filter as well as the original VTK filter. A GUI is also now available to interactively set the filter parameters and see the resulting segments. The code is available here: https://github.com/daviddoria/SuperPixelSegmentation.",
-    "articles": [
-      "bafkreiasgd7lvc5zpjmckspdy6vgmqyyegrj5w3djcznpbrfmccopkjuye"
-    ],
     "authors": [
       {
         "author_fullname": "Doria, David",

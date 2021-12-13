@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "Many image registration algorithms are formulated as optimization \r\nproblems with a gradient descent based solver, One difficulty with \r\ndesigning and implementing such methods is in the implementation of \r\nthe gradient computation. This process can be time-consuming and \r\nerror-prone. In addition some functions do not have gradients that can \r\nbe expressed in symbolic form. Automatic differentiation is useful for \r\ncomputing gradients of complicated objective functions. It moves the \r\nburden of computing gradients from the programmer to the computer. So \r\nfar, AD has not been exploited for use in image registration. This \r\npaper describes a software library the authors have developed to \r\nautomate the process of computing gradients of registration objective \r\nfunctions. This can alleviate the job of registration designers \r\nsomewhat and potentially make it easier to design better registration \r\nalgorithms.",
-    "articles": [
-      "bafkreicssghc72b7zw34njur4beqr2wxdwuhxfnlvfm5ob3rqwqgbt4ndy"
-    ],
     "authors": [
       {
         "author_fullname": "Kahn, Eliezer",

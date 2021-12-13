@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "This document describes the derivation of the mixture models commonly used in the literature to describe the probabilistic nature of speckle: The Gaussian Mixture Model, the Rayleigh Mixture Model, the Gamma Mixture Model and the Generalized Gamma Mixture Model. New algorithms were implemented using the Insight Toolkit\nITK for tissue characterization by means of a mixture model. \nThe source code is composed of a set of reusable ITK filters and classes. In addition to an overview of our implementation, we provide the source code, input data, parameters and output data that the authors used for validating the different probabilistic tissue characterization variants described in this paper. This adheres to the fundamental principle that scientific publications must facilitate reproducibility of the reported results.",
-    "articles": [
-      "bafybeie3frbai3y3knpsaaexxzrrpmibv6ngbmq3e27f2rdk4qqzcn4au4"
-    ],
     "authors": [
       {
         "author_fullname": "Aja-Fern\u00e1ndez, Santiago",
@@ -43,7 +40,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeibfewtc6x62lneffo7kchc2taqf43x7eq5j5dpgxovz5dam7sneli",
+        "article": "bafybeie3frbai3y3knpsaaexxzrrpmibv6ngbmq3e27f2rdk4qqzcn4au4",
         "citation_list": [
           {
             "doi": "10.1109/iembs.2010.5626376",

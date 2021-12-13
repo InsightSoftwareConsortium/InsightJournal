@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "Region growing is a technique that can be used to propagate information over a mesh. We provide an iterator that can be used with vtkPointSet subclasses to traverse a mesh in a reasonable fashion. A \"front\" is emanated from a selected starting vertex, and the iterator provides the ID of the next vertex on this front.",
-    "articles": [
-      "bafkreiau5tqn7u7ssbshd267vx5ojreudyfstqhf3ne4sjvaizevn2mvfe"
-    ],
     "authors": [
       {
         "author_fullname": "Doria, David",

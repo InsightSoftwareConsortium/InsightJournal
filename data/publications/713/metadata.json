@@ -1,12 +1,6 @@
 {
   "publication": {
     "abstract": "This document presents a set of classes (vtkPointSetSurfaceReconstruction, vtkVoxelizePolyData) to produce a surface from an oriented point set. These classes are implemented as VTK filters. A Paraview plugin interface is provided to allow extremely easy experimentation with the new functionality. We propose these classes as an addition to the Visualization Toolkit. The code is available here: https://github.com/daviddoria/PointSetSurfaceReconstruction",
-    "articles": [
-      "bafkreih2amfrkro3yrrr7u3m2vf7j63rffigasfwepgrbar4jisqufcb6a",
-      "bafkreih2amfrkro3yrrr7u3m2vf7j63rffigasfwepgrbar4jisqufcb6a",
-      "bafkreih2amfrkro3yrrr7u3m2vf7j63rffigasfwepgrbar4jisqufcb6a",
-      "bafkreidvbfv3ylw4mhkc4jhkvoruec32szsm5dj4upahlfde6zslzbzxum"
-    ],
     "authors": [
       {
         "author_fullname": "Doria, David",
@@ -34,7 +28,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeicuzbzjhfzauhpqhrfakloxgoqnau62hch5be5eop5lkldcxnmdhu",
+        "article": "bafkreidvbfv3ylw4mhkc4jhkvoruec32szsm5dj4upahlfde6zslzbzxum",
         "citation_list": [
           {
             "doi": "10.1145/142920.134011",

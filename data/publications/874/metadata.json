@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "Modern medical imaging analyses often involve the concatenation of multiple steps, and neuroimaging analysis is no exception. The Java Image Science Toolkit (JIST) has provided a framework for both end users and engineers to synthesize processing modules into tailored, automatic multi-step processing pipelines (\u201clayouts\u201d) and rapid prototyping of module development. Since its release, JIST has facilitated substantial neuroimaging research and fulfilled much of its intended goal. However, key weaknesses must be addressed for JIST to more fully realize its potential and become accessible to an even broader community base. Herein, we identify three core challenges facing traditional JIST (JIST-I) and present the solutions in the next generation JIST (JIST-II). First, in response to community demand, we have introduced seamless data visualization; users can now click \u2018show this data\u2019 through the program interfaces and avoid the need to locating files on the disk. Second, as JIST is an open-source community effort by-design; any developer may add modules to the distribution and extend existing functionality for release. However, the large number of developers and different use cases introduced instability into the overall JIST-I framework, causing users to freeze on different, incompatible versions of JIST-I, and the JIST community began to fracture. JIST-II addresses the problem of compilation instability by performing continuous integration checks nightly to ensure community implemented changes do not negatively impact overall JIST-II functionality. Third, JIST-II allows developers and users to ensure that functionality is preserved by running functionality checks nightly using the continuous integration framework. With JIST-II, users can submit layout test cases and quality control criteria through a new GUI. These test cases capture all runtime parameters and help to ensure that the module produces results within tolerance, despite changes in the underlying architecture. These three \u201cnext generation\u201d improvements increase the fidelity of the JIST framework and enhance utility by allowing researchers to more seamlessly and robustly build, manage, and understand medical image analysis processing pipelines.",
-    "articles": [
-      "bafybeidrh4smbsnehflnt4zjkjhidynptz5r2x5vqmoiggz3ml6xhzfn64"
-    ],
     "authors": [
       {
         "author_fullname": "Li, Bo",
@@ -44,7 +41,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeiaqt537lmdbmd25s2f7nynj5tnm6yc5rgd6ssylu7n2q6qiwgvyye",
+        "article": "bafybeidrh4smbsnehflnt4zjkjhidynptz5r2x5vqmoiggz3ml6xhzfn64",
         "citation_list": [
           {
             "doi": "10.1007/s12021-009-9061-2",

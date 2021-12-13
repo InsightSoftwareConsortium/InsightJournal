@@ -1,10 +1,6 @@
 {
   "publication": {
     "abstract": "We propose a learning based approach to perform automatic segmentation of the left ventricle in 3D cardiac ultrasound images. The segmentation contour is estimated through the use of a variant of Hough forests whose object localization capabilities are coupled with a patch-wise, appearance driven, contour estimation strategy. The performance of the proposed method is evaluated on a dataset of 30 images acquired\nfrom 15 patients using different equipment and settings.",
-    "articles": [
-      "bafybeiawm6j5m4lxrmzb46aqw4biq256hniebis3ykkmiguumx3n33fvze",
-      "bafybeidl2hiljr44bcqyvrvm3nobzbeurwjvwor5vchwje766k2empopp4"
-    ],
     "authors": [
       {
         "author_fullname": "Milletari, Fausto",
@@ -47,7 +43,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeibdsjvdqju5tui7dbt6fnhpx7jt5gwsjc62onrhp4z72aidu5yohu",
+        "article": "bafybeidl2hiljr44bcqyvrvm3nobzbeurwjvwor5vchwje766k2empopp4",
         "citation_list": [
           {
             "doi": "10.1007/978-3-642-33786-4_21",

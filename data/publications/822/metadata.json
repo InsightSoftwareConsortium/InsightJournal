@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "In order to test our software GoFigure2 for the\nvisualization and the processing of extremely large 3D+t microscopy images,\nwe utilized the visual programming technology Sikuli to\nautomate our GUI testing. We then integrated these Sikuli tests into CTest and\nused CDash to report the results on a dashboard with the view to test our\nsoftware automatically every night and detect bugs as soon as they occur. Our\nrate of releases more than doubled as a result.",
-    "articles": [
-      "bafkreiab32eoswn7myamztstnszjfu44sjngapspltc2h2nv6epb6mf5iu"
-    ],
     "authors": [
       {
         "author_fullname": "Schwab, Evan",
@@ -65,7 +62,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeienkvt27eqpaxhjmclsxhdnvnm36ia4vimncrnf56c2tmdvvji2re",
+        "article": "bafkreiab32eoswn7myamztstnszjfu44sjngapspltc2h2nv6epb6mf5iu",
         "citation_list": [
           {
             "key": "ref1",

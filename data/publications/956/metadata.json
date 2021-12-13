@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "The Fast Marching algorithm is an efficient numerical method for computing the distance and shortest path between points of a domain. For that purpose, it solves a front propagation problem, which can be of interest in itself. The method has numerous applications, ranging from motion planning to image segmentation. The unit of length, for computing the path length, may vary on the domain.\nMotivated by applications, we generalize the algorithm to the case where the unit of length also depends on the path direction. Segmentation methods can take advantage of this flexibility to achieve greater sensitivity and specificity, for a comparable computation time.\n",
-    "articles": [
-      "bafybeifarmt46vqnkenj3ir5xeiddyojigynetmnulwb3ogqpzn7yhwexy"
-    ],
     "authors": [
       {
         "author_fullname": "Mirebeau, Jean-Marie",
@@ -31,7 +28,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeib5fiuh3mrs6cwxozkbshza5oesgr6xri76sfq446pf3mhdcazrd4",
+        "article": "bafybeifarmt46vqnkenj3ir5xeiddyojigynetmnulwb3ogqpzn7yhwexy",
         "citation_list": [
           {
             "doi": "10.1137/15m1018460",

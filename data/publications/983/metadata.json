@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "The anisotropic diffusion algorithm has been intensively studied in the past decades, which could be considered as a very efficient image denoising procedure in many biomedical applications. Several authors contributed many clever solutions for diffusion parameters fitting in specific imaging modalities. Furthermore, besides improvements regarding the image denoising quality, one important variable that must be carefully set is the conductance, which regulates the structural edges preservation among the objects presented in the image. The conductance value is strongly dependent on image noise level and an appropriate parameter setting is, usually, difficult to find for different images databases and modalities. Fortunately, thanks to many efforts from the scientific community, a few automatic methods have been proposed in order to set the conductance value automatically. Here, it is presented an ITK class which offers a simple collection of the most common automatic conductance setting approaches in order to assist researchers in image denoising procedures using anisotropic-based filtering methods (such as well described in the AnisotropicDiffusionFunction class).",
-    "articles": [
-      "bafkreidbi35hqllhva32abcq6zslao3xcokkc4dpyhq6p6l5635sz7pcwi"
-    ],
     "authors": [
       {
         "author_fullname": "Senra Filho, Antonio Carlos",
@@ -31,7 +28,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeighxsb3dbfd4mbfnzddyuc6futj255x4mzngx2sckxyuavg5tb5wu",
+        "article": "bafkreidbi35hqllhva32abcq6zslao3xcokkc4dpyhq6p6l5635sz7pcwi",
         "citation_list": [
           {
             "doi": "10.1109/83.661192",

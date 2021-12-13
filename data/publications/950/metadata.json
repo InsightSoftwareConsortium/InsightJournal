@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "We present a generic interpolator for label images. The basic idea is to interpolate each label with an ordinary image interpolator, and return the label with the highest value. This is the idea used by the itk::LabelImageGaussianInterpolateImageFunction interpolator. Unfortunately, this class is currently limited to Gaussian interpolation. Using generic programming, our proposed interpolator extends this idea to any image interpolator. Combined with linear interpolation, this results in similar or better accuracy and much improved computation speeds on a test image.",
-    "articles": [
-      "bafkreiffzaop63jseozxzeubchghylfu3qs76ogijp22k32i6y7phac6ta"
-    ],
     "authors": [
       {
         "author_fullname": "Schaerer, Jo\u00ebl",
@@ -47,7 +44,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeiap4rxse6xo77ft5k4d2djrqbbdsqnphnhw4ifrfhnb4drmg7jtbe",
+        "article": "bafkreiffzaop63jseozxzeubchghylfu3qs76ogijp22k32i6y7phac6ta",
         "dapp": null,
         "dataset": null,
         "doi": null,

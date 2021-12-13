@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "This brief document provides an introduction to an external ITK module, DVMeshNoise. This module provides classes for perturbing the positions of the vertices of either an itk::Mesh or itk::QuadEdgeMesh with Gaussian noise. This may be useful in testing the robustness of an algorithm to small changes in the input mesh, augmenting datasets for machine learning, and counteracting deleterious effects which highly regular regions of a mesh may occasionally have on mesh processing. After demonstrating basic usage, we present a practical example to show how these classes can be incorporated into a pipeline to improve mesh quality.",
-    "articles": [
-      "bafkreig3vrduz7bbmrohdxoacmp3rlkzuxjoelnm3vw3afb7w2lsub5zka"
-    ],
     "authors": [
       {
         "author_fullname": "Vigneault, Davis",
@@ -31,7 +28,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeicpnrrbplay4ua4dcujns43p7kxih2jskjynvmcege4kjml2t5mw4",
+        "article": "bafkreig3vrduz7bbmrohdxoacmp3rlkzuxjoelnm3vw3afb7w2lsub5zka",
         "dapp": null,
         "dataset": null,
         "doi": null,

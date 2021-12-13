@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "In this document we present an ITK image filter that outputs a new image with identical voxel contents but with modified physical space representation. The physical space representation of an image is modified to reflect the physical space transform on the input image. The advantage of this filter is that it is free from interpolation error.\nThis paper is accompanied with the source code, input data, parameters and output data that the au- thors used for validating the algorithm described in this paper. This adheres to the fundamental principle that scientific publications must facilitate reproducibility of the reported results.",
-    "articles": [
-      "bafkreiexp6tp6bst43ru2sr5h2gcz5bhsud6mkiqrmbwsh6uyfxp33zlda"
-    ],
     "authors": [
       {
         "author_fullname": "Lu, Wei",

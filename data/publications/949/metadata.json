@@ -1,10 +1,6 @@
 {
   "publication": {
     "abstract": "The contribution to VTK presented in this article is specialized on the extraction of contact surfaces (CS). This extraction can be regarded as the intersection Boolean-operation of only touching meshes. The vtkCoplanarSurfaceExtractor filter produces either polygonal or triangulated CSs by reconstructing the contact faces of co-planar triangles. Specified tolerances account for discrepancies in coplanarity of faces which might occur due to rounding effects.\nThis article is accompanied with the source code, input data, parameters and output data that were used for validating the VTK-filter.\n",
-    "articles": [
-      "bafkreiafkcvwvuonha7k5qh4gmqlqns6zfqwqoi65q2rtuczhutuzx5g4y",
-      "bafkreiafkcvwvuonha7k5qh4gmqlqns6zfqwqoi65q2rtuczhutuzx5g4y"
-    ],
     "authors": [
       {
         "author_fullname": "Grothausmann, Roman",
@@ -33,7 +29,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeiey5vlslhkdd4zvhk4go7mj2p4rxvejgfvrljrbdaxaslgfil6jju",
+        "article": "bafkreiafkcvwvuonha7k5qh4gmqlqns6zfqwqoi65q2rtuczhutuzx5g4y",
         "citation_list": [
           {
             "key": "ref1",

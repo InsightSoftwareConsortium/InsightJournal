@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "Diff\u000buse Reflectance Spectroscopy (DRS) is a leading technique for the detection of head and neck cancers. It can capture information regarding tissue absorption and scattering. In this research work, we propose a novel method for the identification of normal and Squamous Cell Carcinoma (SCC) mucosa tissues using the Bag Of Words (BOW) approach. The study included 70 spectra from normal mucosa tissue sites and 70 spectra from SCC mucosa tissue sites. First, the spectra are preprocessed by extracting the useful wavelength range, denoising and reducing the inter and intra patient variability. Subsequently, features are extracted from each spectrum by continuously sliding a window with a predefined length along each spectrum to extract a group of local segments. Discrete Wavelet transform (DWT) is then employed for each segment. Next, we construct the codebook to represent each spectrum by a histogram of codewords at which each bin in the histogram is a count of a codeword appeared in the spectrum. Finally, the histogram representation is used as input for classification. The maximum accuracy reported is 94.28% with sensitivity and specificity of 91.42% and 97.14% respectively.",
-    "articles": [
-      "bafybeievblsv3ymuo5iksi446ypryea6v3zarrfzi5gm6vsjfvown5xmwa"
-    ],
     "authors": [
       {
         "author_fullname": "Karam Eldaly, Ahmed",
@@ -56,7 +53,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeichwfveqkvr6cuh2vuz24biswzqf76m3to3c55kjhoy7u3r4wxim4",
+        "article": "bafybeievblsv3ymuo5iksi446ypryea6v3zarrfzi5gm6vsjfvown5xmwa",
         "citation_list": [
           {
             "doi": "10.1002/jrs.2146",

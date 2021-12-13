@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "Di\ufb00usion tensor imaging has become an important research and clinical tool, owing to its unique ability to infer microstructural properties of living tissue. Increased use has led to a demand for statistical tools to analyze di\ufb00usion tensor data and perform, for example, con\ufb01dence estimates, ROI analysis, and group comparisons. A \ufb01rst step towards developing a statistical framework is establishing the basic notion of distance between tensors. We investigate the properties of two previously proposed metrics that de\ufb01ne a Riemannian manifold: the a\ufb03ne-invariant and Euclidean metrics. We \ufb01nd that the Euclidean metric is more appropriate for intra-voxel comparisons, and suggest that a context-dependent metric may be required for inter-voxel comparisons.",
-    "articles": [
-      "bafkreibiwzqclm5alujq4wpkz6t5oipa7zdrwhnbjz6obbkz3l66sbsbym"
-    ],
     "authors": [
       {
         "author_fullname": "Pasternak, Ofer",

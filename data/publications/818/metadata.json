@@ -1,10 +1,6 @@
 {
   "publication": {
     "abstract": "As robotic surgery gains popularity [1, 2, 3], methods for improving situational awareness during tele-\noperation have become an active area of research. Literature has attempted to incorporate haptic feedback\ndisplays to enhance and improve user performance. For example, Massimino et al. [4] showed that a combi-\nnation of vibrotactile and auditory substitutions lead to task performance (peg-in hole task) comparable to\nthat using a force feedback. Kitagawa et al. [5] extended this approach by using visual force displays and\nand auditory cues, in experiments showing comparable performance in surgical tasks (knot-tying). Reiley et\nal. [6] used a visual force display in a teleoperated knot-tying task to demonstrate lower forces and reduced\nsuture breakage by trainees.\nThe above art demonstrates the need for information overlays in telerobotic surgical tasks. However, this\nliterature also used prototype software and tools intended only for the speci\fc experiments. By contrast,\nwe use the Surgical Assistant Workstation (SAW) [7, 8] in development at Johns Hopkins University to\ncreate a general information overlay, and demonstrate its utility by creating a visual warning display for\ntelerobotic surgery that detects instruments being operated outside of the \feld of view of the endoscopic\ncamera. SAW is a modular framework for rapid prototyping of new tools and methods for robotic surgery. It\nincludes methods for image guidance, registration with pre-operative and intra-operative images, and ability\nto interact with the graphical objects rendered within the display with the master or slave manipulators in\na teleoperation environment.\nThe common telesurgical system in use is the da Vinci Surgical System (Intuitive Surgical Inc.). It\nconsists of a surgeon's console containing the two master manipulators, a patient side cart with up to\nfour robotic arms - three for the slave instrument manipulators which can be equipped with the removable\ninstruments and an endoscope camera manipulator connected to a high-performance stereo vision system.\nThe da Vinci also provides a research and development application programming interface (DiMaio, et al.,\n[9]) that streams kinematics data and system events at con\fgurable rates of up to 100Hz. The SAW/cisst\nframework also contains an interface to the da Vinci API.\nWe present an overlay architecture (Figure 1) implemented using the cisst/SAW libraries to integrate\ncontextual procedure and system information for improving safety, and situational awareness during these\ndelicate and complex manipulations. While the presented methods can be modi\fed for use with any robotic\nsystem, we used our da Vinci S Surgical System (Intuitive Surgical Inc.) for the validation experiments\n(Figure 2) here. Results from validation experiments with 17 users and a total of 50 training sessions\ntotaling 214350 image frames are presented.",
-    "articles": [
-      "bafybeica4a5p4jjyb2szfynq2awmi7lkkrjvmujxne534ou247retk3dna",
-      "bafybeiej4s4xjz26katmee5pk34nlvwbi4cqxtqpezw72wpdmlaxmaw7ze"
-    ],
     "authors": [
       {
         "author_fullname": "Malpani, Anand",
@@ -46,7 +42,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeib4gy3a4aaj35z5325czfbvzj2xige7vrdrm57pefb4d5qx6quup4",
+        "article": "bafybeiej4s4xjz26katmee5pk34nlvwbi4cqxtqpezw72wpdmlaxmaw7ze",
         "citation_list": [
           {
             "doi": "10.1007/s11701-007-0011-4",

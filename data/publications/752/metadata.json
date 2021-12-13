@@ -1,11 +1,6 @@
 {
   "publication": {
     "abstract": "This documents is about the filter itk::ScalarQuadEdgeMeshToListAdaptor. It takes the input mesh and generates a list of measurement vectors according to the scalars of the mesh. The list can be fed into itk::Statistics::SampleToHistogramFilter [1, 2] to generate a histogram about the scalars on the input mesh.\nThis paper is accompanied with the source code, input data, parameters and output data that we used for validating the algorithm described in this paper. This adheres to the fundamental principle that scientific publications must facilitate reproducibility of the reported results.",
-    "articles": [
-      "bafkreia7bvqkc5slwbfirjentryqr33tecjjaiigfljvftmorh62cybqyq",
-      "bafkreifnmuyfvd6cgd2pondc3ynh3pigbgxi5x7z7gddonum2yajcowvgm",
-      "bafkreia7bvqkc5slwbfirjentryqr33tecjjaiigfljvftmorh62cybqyq"
-    ],
     "authors": [
       {
         "author_fullname": "Li, Wen",

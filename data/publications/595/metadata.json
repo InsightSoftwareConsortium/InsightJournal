@@ -1,10 +1,6 @@
 {
   "publication": {
     "abstract": "Automatic segmentation and tracking of the coronary artery tree from Cardiac Multislice-CT images is an important goal to improve the diagnosis and treatment of coronary artery disease. This paper presents a semi-automatic algorithm (one input point per vessel) based on morphological grayscale local reconstructions in 3D images devoted to the extraction of the coronary artery tree. The algorithm has been evaluated in the framework of the Coronary Artery Tracking Challenge 2008 [1], obtaining consistent results in overlapping measurements (a mean of 70% of the vessel well tracked). Poor results in accuracy measurements suggest that future work should refine the centerline extraction. The algorithm can be efficiently implemented and its general strategy can be easily extrapolated to a completely automated centerline extraction or to a user interactive vessel extraction.",
-    "articles": [
-      "bafkreiewwq4dalpv6lakdmbipq5kvejqo5lzmccjbjh2o32lsp4wzqcg2i",
-      "bafkreicssrsplctodjcarxlqnxsnzx6bar53db6ic5xycydmnkbj5cjcy4"
-    ],
     "authors": [
       {
         "author_fullname": "Castro, Carlos",

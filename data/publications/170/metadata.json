@@ -1,10 +1,6 @@
 {
   "publication": {
     "abstract": "As part of the Center of Excellence in Genomic Science at Caltech, we have initiated the Digital Fish\r\nProject. Our goal is to use in toto imaging of developing transgenic zebrafish embryos on a genomic scale\r\nto acquire digital, quantitative, cell-based, molecular data suitable for modelling the biological circuits\r\nthat turn an egg into an embryo. In toto imaging uses confocal/2-photon microscopy to capture the\r\nentire volume of organs and eventually whole embryos at cellular resolution every few minutes in living\r\nspecimens thoughout their development. The embryos are labelled such that nuclei are one color and cell\r\nmembranes another color to allow cells to be segmented and tracked as they move and divide. The use\r\nof a transgenic marker in a third color allows a variety of molecular data to be marked. In toto imaging\r\ngenerates 4-d image sets (xyzt) which can contain 100,000 to 1,000,000 images per experiment. We are\r\ndeveloping a software package called GoFigure to visualize, segment, and analyze these very large image\r\nsets. GoFigure uses a MySQL database back end for managing storage of images and segmented objects\r\nand uses VTK and ITK for visualization and segmentation. We plan to use in toto imaging to digitize the\r\ncomplete expression and subcellular localization patterns of thousands of proteins throughout zebrafish\r\nembryogenesis. This genomic data, our zebrafish lines, and GoFigure will be distributed following the\r\nOpen Data/Open Source model.",
-    "articles": [
-      "bafybeifcpwgxcdo2t6c3ol4lmrnp63tpicm2gbrznikaszsec2vm2tcqfq",
-      "bafybeig7634gsa4l2r5au4eab75murykkdoqwp5ahuvbzceuchugxcuueq"
-    ],
     "authors": [
       {
         "author_fullname": "Gouaillard, Alexandre",
@@ -105,7 +101,7 @@
     ],
     "revisions": [
       {
-        "article": "bafybeighpmwdgt3l223qjb75nsi2qjq3elgqwdxcffexicwbjwzjxp52pu",
+        "article": "bafybeig7634gsa4l2r5au4eab75murykkdoqwp5ahuvbzceuchugxcuueq",
         "citation_list": [
           {
             "key": "ref1",

@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "This paper describes the ITK implementation of a shortest path extraction algorithm based on graph representation of the image and the Dijkstra shortest path algorithm. The method requires the user to provide two inputs: 1. path information in the form of start, end, and neighboring mode, the form of which path is allowed to propagate between neighboring pixels, and 2. a weighting function which sets the distance metric between neighboring pixels. A number of perspectives for choosing weighting functions are given, as well as examples using real images. This paper can also serve as an example for utilizing the Boost C++ graph library into the ITK framework.",
-    "articles": [
-      "bafkreibvehbpswocy3bv5wmmaldggrbblsdaqcsxmdn4uhrigyx4p7zcx4"
-    ],
     "authors": [
       {
         "author_fullname": "Weizman, Lior",

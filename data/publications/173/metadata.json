@@ -1,12 +1,6 @@
 {
   "publication": {
     "abstract": "In this work, \r\nwe extend a previously demonstrated entropy based groupwise registration method\r\nto include a non-rigid deformation model based on B-splines. \r\nWe describe an open source implementation of the groupwise registration algorithm \r\nusing the Insight Toolkit ITK.\r\nWe provide the source code, parameters, input and\r\noutput data that we used for validation.\r\n\r\n\r\nWe describe an efficient implementation of the algorithm \r\nby using a stochastic optimization scheme embedded in a multi-resolution setting.\r\nThe objective function is optimized using gradient descent algorithm combined\r\nwith line search for the step size.\r\nThe derivative of the objective function is evaluated efficiently by computing Jacobian of \r\nB-spline deformation field locally.\r\n\r\n\r\nWe demonstrate the algorithm in application to different imaging modalities\r\nincluding proton density, FA, T1 and T2 MR images. \r\nWe validate the algorithm on synthetic datasets varying from 2 to 30 images\r\nby recovering randomly applied affine and B-spline transforms.",
-    "articles": [
-      "bafkreifyws2gckwozlqp2x23neg6u63h6efqnqswhyhpdltecurl3wey7m",
-      "bafkreifyws2gckwozlqp2x23neg6u63h6efqnqswhyhpdltecurl3wey7m",
-      "bafkreifxjvkowe2oqu5e7t2jrxa3ujqlnf2s6lvpt2khh5oel7jwd42gni",
-      "bafkreifyws2gckwozlqp2x23neg6u63h6efqnqswhyhpdltecurl3wey7m"
-    ],
     "authors": [
       {
         "author_fullname": "Balci, Serdar K.",
@@ -95,7 +89,7 @@
     ],
     "revisions": [
       {
-        "article": "bafybeie5c7sfln3jo3dpgf2zfeha5e4c5xvwuwwbyieltjyhuexgy6cx6u",
+        "article": "bafkreifyws2gckwozlqp2x23neg6u63h6efqnqswhyhpdltecurl3wey7m",
         "citation_list": [
           {
             "doi": "10.1109/isbi.2004.1398686",

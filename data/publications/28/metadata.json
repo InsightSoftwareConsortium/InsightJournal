@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "We propose a novel framework at MICCAI 2005 to predict pacing sites in the left ventricle (LV) of a heart. This framework can be used to assist pacemaker implantation and programming in cardiac resynchronization therapy (CRT) that is a widely adopted therapy for heart failure patients. Hierarchical agglomerative clustering technique is performed to the time series of LV wall thickness to identify pacing site candidates. Meanwhile, pearson correlation coefficients of wall motion series show the dissimilarity between them. These main components of our clustering based prediction framework are implemented by using open source software toolkit PRTools.",
-    "articles": [
-      "bafkreigcywlxc5kxpbjslrujmcee4xcc24522qvo6uqvq3rttcm6dz7xy4"
-    ],
     "authors": [
       {
         "author_fullname": "Huang, Heng",

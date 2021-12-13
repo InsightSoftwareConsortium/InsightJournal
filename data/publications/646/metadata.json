@@ -1,14 +1,6 @@
 {
   "publication": {
     "abstract": "By default ITK images use a contiguous memory model. This means pixel elements are stored in a single 1-D array, where each element is adjacent in memory to the previous element. However in some situations it is not desirable to use this memory model. This document describes three alternative memory models: slice contiguous, sparse, and single-bit binary images. Slice contiguous images are three-dimensional images, in which each slice is stored in a contiguous 1-D array, but the slices are not necessarily adjacent in memory. Slice contiguous images are well suited for interoperability with applications representing images using DICOM. Sparse images are n-dimensional images, in which each pixel is stored in a hash table data structure. This memory model is well suited for images with very large dimensions, but few pixels which are actually relevant. Single-bit binary images internally represent each pixel as a single-bit, in contrast to eight-bits required to represent a boolean. Single-bit binary images allow very compact representations for on-off masks. Source code, tests, and examples are provided to allow easy reproduction and use.",
-    "articles": [
-      "bafkreidobd2fuc4i46cbn6sh7uknzbrrgv5lgqgu63enfygdqy6flspxe4",
-      "bafkreifersmum5lv77jy5r6gambgou2o6xnaicclpfbujzf6sljaszx3li",
-      "bafkreidobd2fuc4i46cbn6sh7uknzbrrgv5lgqgu63enfygdqy6flspxe4",
-      "bafkreia4ttywb6k4zfokzawc62qqooke6p754sq5sjq4abhr7pe3afvkfe",
-      "bafkreia4ttywb6k4zfokzawc62qqooke6p754sq5sjq4abhr7pe3afvkfe",
-      "bafkreiemrwppjownkrdwsc77uukzwobep5jomc7u3zq3hjewefl33hkrny"
-    ],
     "authors": [
       {
         "author_fullname": "Mueller, Dan",

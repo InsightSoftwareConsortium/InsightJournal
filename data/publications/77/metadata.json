@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "Fast computation of distance transforms find direct application\r\nin various computer vision problems. Currently there exists \r\ntwo image filters in the ITK library which can be used to generate\r\ndistance maps. Unfortunately, these \r\nfilters produce only approximations to the Euclidean Distance\r\nTransform (EDT). We introduce into the ITK library a third EDT \r\nfilter which was developed by Maurer {\\em et al.} \\cite{Maurer2003}.\r\nIn contrast to other algorithms, this algorithm produces the \r\nexact signed squared EDT using integer arithmetic. The complexity,\r\nwhich is formally verified, is $O(n)$ with a small time constant\r\nwhere $n$ is the number of image pixels.",
-    "articles": [
-      "bafkreibpqvtvdcjzjwx2dykuyefkheyv6roqhm6yfb5vkalmpn3vadkine"
-    ],
     "authors": [
       {
         "author_fullname": "Tustison, Nicholas J.",

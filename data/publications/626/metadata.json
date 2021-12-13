@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "This paper is a position statement on the benefits that an Open Source toolkit can bring to the field of image guided surgery. The particular example discussed here is the IGSTK toolkit. IGSTK is an open source software project designed for supporting the development of image guided surgery software applications. It provides functionalities for interfacing with optical and electromagnetic trackers, reading and visualizing DICOM datasets, as well as loading and displaying geometrical models resulting from image segmentation. These functionalities are enveloped by a simplified API implemented in a layer designed with emphasis on patient safety. The Toolkit is designed to ease the development of IGS applications, providing the basic functionalities related to the management of basic components. IGSTK is based on the Insight Toolkit (ITK) and the Visualization Toolkit (VTK), and can be combined with GUI toolkits such as FLTK and Qt. The IGSTK toolkit is distributed under a BSD license. \r\nEnter the names of any sponsors and/or funding codes in the box below.",
-    "articles": [
-      "bafkreihl3zmn7bazfbtwiojs275to5ps5ju4n74qsmzw3mwaxdztijkcvi"
-    ],
     "authors": [
       {
         "author_fullname": "Ibanez, Luis",

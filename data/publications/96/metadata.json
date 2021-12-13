@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "This paper describes the Datatree module of BioImage Suite, that allows for rapid and flexible reslicing\r\nof images based on a user-defined tree structure that organizes image and transformation data as well as\r\nelectrode localizations, image landmarks, and surface objects. This Datatree tool provides abstracted file\r\nloading, allowing for interface with databases, as well as multisubject capabilities, other plugins designed\r\nfor specific image modalities, and an incr Tcl based API, allowing users to extend its functionality with\r\ntheir own plugins.",
-    "articles": [
-      "bafybeif2vzo6g27ryvbzmo5pg5jdxqcm45tul5wskghkn34uvq2ona4fna"
-    ],
     "authors": [
       {
         "author_fullname": "DiStasio, Marcello",
@@ -50,7 +47,7 @@
     ],
     "revisions": [
       {
-        "article": "bafybeiag2btmzzd6lm3yxp7jmfnnzcknsgfwd2ndkxgnji3yhmzqibu33u",
+        "article": "bafybeif2vzo6g27ryvbzmo5pg5jdxqcm45tul5wskghkn34uvq2ona4fna",
         "citation_list": [
           {
             "key": "ref1",

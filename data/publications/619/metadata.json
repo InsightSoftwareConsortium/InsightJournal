@@ -1,11 +1,6 @@
 {
   "publication": {
     "abstract": "This document describes a novel scheme for the automated extraction of the central lumen lines of\r\ncoronary arteries from computed tomography angiography (CTA) data. The scheme \ufb01rst obtains a seg-\r\nmentation of the whole coronary tree and subsequently extracts the centerlines from this segmentation.\r\nThe \ufb01rst steps of the segmentation algorithm consist of the detection of the aorta and the entire heart\r\nregion. Next, candidate coronary artery components are detected in the heart region after the masking of\r\nthe cardiac blood pools. Based on their location and geometrical properties the structures representing\r\nthe right and left arterties are selected from the candidate list. Starting from the aorta, connections\r\nbetween these structures are made resulting in a \ufb01nal segmentation of the whole coronary artery tree, A\r\nfast-marching level set method combined with a backtracking algorithm is employed to obtain the initial\r\ncenterlines within this segmentation. For all vessels a curved multiplanar reformatted image (CMPR) is\r\nconstructed and used to detect the lumen contours. The \ufb01nal centerline was then de\ufb01ned by determining\r\nthe center of gravity of the detected lumen in the transversal CMPR slices.\r\nWithin the scope of the MICCAI Challenge \"Coronary Artery Tracking 2008\", the coronary tree\r\nsegmentation and centerline extraction scheme was used to automatically detect a set of centerlines in\r\n24 datasets. For 8 data sets reference centerlines were available. This training data was used during\r\nthe development and tuning of the algorithm. Sixteen other data sets were provided as testing data.\r\nEvaluation of the proposed methodology was performed through submission of the resulting centerlines\r\nto the MICCAI Challenge website",
-    "articles": [
-      "bafkreidxyalauirqpilba6sgfwwmmkkgtxs5lmqubbz75kwvd6w3w77gru",
-      "bafkreidltuuy2utqpfuoo2yhrh5ae4vvvip2ycgy3m366yp6vwggqowucq",
-      "bafkreig5saqnt5vh37mrmhfm7hzvrwau34dsmv66xsevksf5kfsnyrsx6q"
-    ],
     "authors": [
       {
         "author_fullname": "Kitslaar, Pieter",
@@ -71,7 +66,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeieg2l4jia554n3a64vioeomiv2rz2bjmvuq44w6zxnjrqlwuji53u",
+        "article": "bafkreig5saqnt5vh37mrmhfm7hzvrwau34dsmv66xsevksf5kfsnyrsx6q",
         "citation_list": [
           {
             "doi": "10.1109/isbi.2006.1624991",

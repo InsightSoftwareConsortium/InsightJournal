@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "Distributed anisotropic diffusion provides a wrapper program around ITK's anisotropic diffusion filters that allows an input image to be spread across the memory of several computers and the processors of all of the computers to work simultaneously on the output. Distributed anisotropic diffusion allows the Visible Woman Head dataset to be smoothed with 100 iterations of the vector gradient magnitude anisotropic diffusion filter in 47 minutes on an 8 node 64 core cluster versus 53 minutes for just 10 iterations of standard vector gradient magnitude anisotropic diffusion on a single node.",
-    "articles": [
-      "bafkreiest4e4f5lkirwpmz5ym7k225f6bsqdd4yukqvk2umx3ffrvb2wni"
-    ],
     "authors": [
       {
         "author_fullname": "Hobbs, Kevin",

@@ -1,11 +1,6 @@
 {
   "publication": {
     "abstract": "This document describes the implementation of a class for the Insight Toolkit (ITK) that takes an image\nwith multi-component pixels and outputs a scalar image for each component. This can be useful when\nexamining images of vectors, tensors, etc. This \ufb01lter may be easier to use and require fewer pixel visitations than an itk::ImageAdaptor with a similar purpose, but it requires additional memory allocation.\n",
-    "articles": [
-      "bafkreiarmdqelfkj7pba5f7ofmpevmcvwht2jjg5jljfyrp6c3gi4kcaky",
-      "bafkreifczuiwx2emha3vsljnmw3cwwra7l7zwyqi5vaiwde7qvmqrgzc2u",
-      "bafkreiarmdqelfkj7pba5f7ofmpevmcvwht2jjg5jljfyrp6c3gi4kcaky"
-    ],
     "authors": [
       {
         "author_fullname": "McCormick, Matthew",

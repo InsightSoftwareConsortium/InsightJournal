@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "This document describes the implementation of several features previously developed[2], extending the\r\n2D scale invariant feature transform (SIFT)[4, 5] for images of arbitrary dimensionality, such as 3D\r\nmedical image volumes and time series, using ITK1. Specifically, we provide a scale invariant implementation\r\nof a weighted histogram of gradient feature, a rotationally invariant version of the histogram\r\nfeature, and a SIFT-like feature, adapted to handle images of arbitrary dimensionality. This paper is accompanied\r\nwith the source code, example input data, parameters and output data, allowing reproduction\r\nof the example results in this paper and the results previously reported[2]. Note that usage of SIFT in the\r\nUnited States is governed by US Patent 6,711,293.",
-    "articles": [
-      "bafkreihoz64cz3rz732mtu2a77sn55uuwpfzztb7ablbcsdbpozehnyfqy"
-    ],
     "authors": [
       {
         "author_fullname": "Cheung, Warren",

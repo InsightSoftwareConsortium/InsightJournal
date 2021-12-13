@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "This document describes the use and implementation of first and second order spatial derivatives of coordinate transformations in the Insight Toolkit url{www.itk.org}). Spatial derivatives are useful for many types of regularising or penalty terms frequently used in image registration. These derivatives are dubbed 'SpatialJacobian' and 'SpatialHessian' to distinguish with the derivative to the transformation parameters themselves, which is called `Jacobian' in the ITK.\n\nIn addition to the spatial derivatives, we derived and implemented the derivatives to the registration/transform parameters of these spatial derivatives, required for gradient descent type optimisation routines. These derivatives are implemented in a sparse manner, reducing the computation time for transformations which have local support. All of these derivatives are implemented for the most common ITK coordinate transformation, such as the rigid, affine and B-spline transformation. In addition we derive formulae and code for arbitrary compositions of transformations. The spatial derivatives were subsequently exploited by implementing the bending energy penalty term.\n\nThis paper is accompanied with the source code, input data, parameters and output data that the authors used for validating the algorithm described in this paper. This adheres to the fundamental principle that scientific publications must facilitate reproducibility of the reported results.\n",
-    "articles": [
-      "bafkreictjgfsytmqobyaywpfjrelfdu6y6gntyawsf3ewuqbczrgihoy3u"
-    ],
     "authors": [
       {
         "author_fullname": "Staring, Marius",

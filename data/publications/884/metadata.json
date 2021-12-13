@@ -1,17 +1,6 @@
 {
   "publication": {
     "abstract": "Nonrigid image registration is an important, but resource demanding and time-consuming task in medical image analysis. This limits its application in time-critical clinical routines. In this report we explore acceleration of two time-consuming parts of a registration algorithm by means of parallel processing using the GPU. We built upon the OpenCL-based GPU image processing framework of the recent ITK4 release, and implemented Gaussian multi-resolution strategies and a general resampling framework. We evaluated the performance gain on two multi-core machines with NVidia GPUs, and compared to an existing ITK4 CPU implementation. A speedup factor of ~2-4 was realized for the multi-resolution strategies and a speedup factor of ~10-46 was achieved for resampling, for larger images (~10^8 voxels).",
-    "articles": [
-      "bafkreictpmssiroucgclqqds33l4ozbks6loizfwxmi6pnarzbk72hqmnu",
-      "bafkreictpmssiroucgclqqds33l4ozbks6loizfwxmi6pnarzbk72hqmnu",
-      "bafkreictpmssiroucgclqqds33l4ozbks6loizfwxmi6pnarzbk72hqmnu",
-      "bafkreictpmssiroucgclqqds33l4ozbks6loizfwxmi6pnarzbk72hqmnu",
-      "bafkreictpmssiroucgclqqds33l4ozbks6loizfwxmi6pnarzbk72hqmnu",
-      "bafkreictpmssiroucgclqqds33l4ozbks6loizfwxmi6pnarzbk72hqmnu",
-      "bafkreictpmssiroucgclqqds33l4ozbks6loizfwxmi6pnarzbk72hqmnu",
-      "bafkreictpmssiroucgclqqds33l4ozbks6loizfwxmi6pnarzbk72hqmnu",
-      "bafkreictpmssiroucgclqqds33l4ozbks6loizfwxmi6pnarzbk72hqmnu"
-    ],
     "authors": [
       {
         "author_fullname": "Staring, Marius",
@@ -105,7 +94,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeiagzmocuka2celu3236ostpg2kjzolc6ssypnqkcidmj7zibw2z2m",
+        "article": "bafkreictpmssiroucgclqqds33l4ozbks6loizfwxmi6pnarzbk72hqmnu",
         "citation_list": [
           {
             "key": "ref1",

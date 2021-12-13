@@ -1,10 +1,6 @@
 {
   "publication": {
     "abstract": "In this paper, we present an atlas-based level set automatic method for segmenting anatomical structures in head and neck CT data, such as mandible and brainstem. The proposed method is a hybrid method that combines two aspects. First, we register the atlas image to the image to be segmented using an intensity-based non-rigid image registration algorithm based on B-spline, the corresponding binary image of the atlas is also resampled into the reference image coordinate system according to the deformation field obtained from the registration process. Second, based on the initialization of the deformed atlas binary mask, the level set function is evolved to segment the object of interest in the test image. The proposed method was tested on CT images of head and neck and compared with expert segmentation of mandible and brainstem. The evaluation results show the method is available and effective.",
-    "articles": [
-      "bafybeifpbdv6j3ppcj6kprtexv5tx366sdzaqnsd4lbr6ghwnlrmtncvdy",
-      "bafkreifct2uakgfixahb6vkxcjqhgd7mnbjcbhr4k3fh2wvunjkg5ufaku"
-    ],
     "authors": [
       {
         "author_fullname": "Zhang, Xing",
@@ -55,7 +51,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeigwu7fkbtdkdo23kcfgni6r7ky4k6lkraojishkcvdz3wmzuiyiny",
+        "article": "bafkreifct2uakgfixahb6vkxcjqhgd7mnbjcbhr4k3fh2wvunjkg5ufaku",
         "citation_list": [
           {
             "key": "ref1",

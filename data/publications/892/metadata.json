@@ -1,13 +1,6 @@
 {
   "publication": {
     "abstract": "We present our work to develop a telerobotics research platform that provides complete access to all levels of control via open-source custom electronics and software. The electronics employs an FPGA to enable a centralized computation and distributed I/O architecture in which all control computations are implemented in a familiar development environment (Linux PC) and low-latency I/O is performed over an IEEE-1394a (Firewire) bus at speeds up to 400 Mbits/sec. The mechanical components of the system are provided by the Research Kit for the da Vinci System, which consists of the Master Tool Manipulators (MTMs), Patient Side Manipulators (PSMs), and stereo console of the first-generation da Vinci surgical robot. This system is currently installed, or planned for installation, at 11 research institutions, with additional installations likely in the future, thereby creating a research community around a common open-source hardware and software platform.",
-    "articles": [
-      "bafkreiglkbyimxixcyppbdc6b6zdl5nj3tkcbvhyfummwimlod3gdrtf3i",
-      "bafkreidxvu2n6t66jhokzloulg3bp45tqyqxywebmmw5743mtr47d7f7ji",
-      "bafkreidddp4ulbxrfd7dqxqmdtfwa3xaj4nuyosowkkfinyuzle2zyixz4",
-      "bafkreifbvotalrjv3dq7wtbl2y2pd7affkwrpaibhtboblec3ngqrfjjpm",
-      "bafkreievciocqwbey353q7er5vcwiwkdgdsvv2z6rkwul6rpa2rglbb3sy"
-    ],
     "authors": [
       {
         "author_fullname": "Chen, Zihan",
@@ -69,7 +62,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeibkplkrk7t2vjpf2ihcyx3wrd7bm6yrb62gfb4tlyursh5eyaqr2y",
+        "article": "bafkreievciocqwbey353q7er5vcwiwkdgdsvv2z6rkwul6rpa2rglbb3sy",
         "citation_list": [
           {
             "key": "ref1",

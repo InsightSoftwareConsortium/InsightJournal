@@ -1,10 +1,6 @@
 {
   "publication": {
     "abstract": "This document describes some experiments for segmentation using the Insight Toolkit\r\nITK \\url{www.itk.org}. The code of the experiment is written following the\r\nITK CodingStyle as described in the directory \\code{Insight/Documentation/Style.pdf}.\r\n\r\nSegmentation is still an open problem and there are quite a lot of algorithms \r\nspecific to application domains and data being used. In this experiment I've used \r\na 3-D MRA scan of Brain retrieved from MIDAS website. This paper is accompanied \r\nwith the source code, input data, parameters and output data that the author used for experimenting with the algorithm.",
-    "articles": [
-      "bafkreiar3wjfb3dqer5dadmzxzg7qxyokw4oshoqfbnuikfx5einnw4ybi",
-      "bafkreiar3wjfb3dqer5dadmzxzg7qxyokw4oshoqfbnuikfx5einnw4ybi"
-    ],
     "authors": [
       {
         "author_fullname": "Bilgin, Cemal Cagatay",

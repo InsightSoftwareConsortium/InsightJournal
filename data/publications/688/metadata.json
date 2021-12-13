@@ -1,10 +1,6 @@
 {
   "publication": {
     "abstract": "This document presents a set of classes which implement a region growing algorithm whose criterion for growth is different than existing ITK region growing algorithms. The region is grown into the query pixel based only on the difference between the query pixel and neighboring pixels that are already members of the region. This allows the region to be grown along paths that change gradually over time and end up looking nothing like they originally did. This is usefully in many situation, including growing surface patches around bends using growth criteria on the normal vectors. The usage and structure of these classes follow the style of itkConnectedThresholdImageFilter. We propose these classes as addition to the Insight Toolkit.",
-    "articles": [
-      "bafkreicqbcae5b364pe2jihnvyhh2d5iaqpivc7fhnpny2u5surtgns2nu",
-      "bafkreicqbcae5b364pe2jihnvyhh2d5iaqpivc7fhnpny2u5surtgns2nu"
-    ],
     "authors": [
       {
         "author_fullname": "Doria, David",

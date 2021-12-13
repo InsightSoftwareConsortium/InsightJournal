@@ -1,13 +1,6 @@
 {
   "publication": {
     "abstract": "We present in this paper an application of minimal surfaces and\r\nMarkov random fields to the segmentation of liver tumors. The\r\noriginality of the work consists in applying these models to the\r\nregion adjacency graph of a watershed transform. We detail the\r\nassumptions and the approximations introduced in these models by\r\nusing a region graph instead of a pixel graph. This strategy leads\r\nto an interactive method that we use to delineate tumors in 3D CT\r\nimages. We detail our strategy to achieve relevant segmentations of\r\nthese structures and compare our results to hand made segmentations\r\ndone by experienced radiologists. This paper summarizes our\r\nparticipation to the MICCAI 2008 workshop called: \"3D segmentation in the clinic : A\r\nGrand Challenge II\".",
-    "articles": [
-      "bafybeif5b6l4rlvlfxfwd3gbxvqqy6icjmq6isi4z72aqgagamclfpxgae",
-      "bafybeiffqpmx4rn3qsenmpidapj76vrbumraxdv5rr5vy4w5yru5f52maq",
-      "bafybeic6vj5iohvets3ivyz5npndlxailboec5yu77eg7sd3kj5uuw5lim",
-      "bafybeib2ctnhndjbcbxjw7cdkcjyt4c3os5e3i5au7jq3gw3z7hkfxrtrq",
-      "bafybeif5b6l4rlvlfxfwd3gbxvqqy6icjmq6isi4z72aqgagamclfpxgae"
-    ],
     "authors": [
       {
         "author_fullname": "stawiaski, Jean",
@@ -58,7 +51,7 @@
     ],
     "revisions": [
       {
-        "article": "bafybeib27c23hirswjzvzyzoumuhan7vlqv2kjqcdcg4ekcq3olfjllf3a",
+        "article": "bafybeif5b6l4rlvlfxfwd3gbxvqqy6icjmq6isi4z72aqgagamclfpxgae",
         "citation_list": [
           {
             "doi": "10.1016/j.imavis.2009.06.017",

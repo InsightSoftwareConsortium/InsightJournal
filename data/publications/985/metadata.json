@@ -1,12 +1,6 @@
 {
   "publication": {
     "abstract": "This document describes a new remote module implemented for the Insight Toolkit ITK, itkTextureFeatures. This module contains two texture analysis filters that are used to compute feature maps of N-Dimensional images using two well-known texture analysis methods. The two filters contained in this module are itkScalarImageToTextureFeaturesImageFilter (which computes textural features based on intensity-based co-occurrence matrices in the image) and itkScalarImageToRunLengthFeaturesImageFilter (which computes textural features based on equally valued intensity clusters of different sizes or run lengths in the image). The output of this module is a vector image of the same size than the input that contains a multidimensional vector in each pixel/voxel. Filters can be configured based in the locality of the textural features (neighborhood size), offset directions for co-ocurrence and run length computation, the number of bins for the intensity histograms, the intensity range or the range of run lengths. This paper is accompanied with the source code, input data, parameters and output data that we have used for validating the algorithm described in this paper. This adheres to the fundamental principle that scientific publications must facilitate reproducibility of the reported results.",
-    "articles": [
-      "bafkreig4atsqadx5265bb2cb2p6mcs3ypecf3u42qtjq7mqcz3zk3zxvee",
-      "bafkreihpjjcq7soguy2ccadat62kyeurbjm3byd3mtwjqg2snjeq2cxnge",
-      "bafkreih66nmy6zc5j5oip6csinxyab4fpbor52jy5zauh57s7h7eng5jfi",
-      "bafkreiagzjbaeojxao4umgg7cpuwc65oupkmnklcr2pvnaforymkw7t4hy"
-    ],
     "authors": [
       {
         "author_fullname": "Budin, Francois",
@@ -62,7 +56,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeifz3xvn7yojwvftoo4xgijcfcgjqv2q6ly2luozvrwo5jgw5b7coe",
+        "article": "bafkreiagzjbaeojxao4umgg7cpuwc65oupkmnklcr2pvnaforymkw7t4hy",
         "citation_list": [
           {
             "doi": "10.1016/0167-8655(90)90112-f",

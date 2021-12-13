@@ -1,11 +1,6 @@
 {
   "publication": {
     "abstract": "In an earlier submission, we considered 2-D and 3-D digital binary images topologically characterized by their well-composedness. Well-composed images exhibit important topological and geometrical properties not shared by their ill-composed counterparts. These properties have important implications for various algorithms used by the ITK community such as thinning algorithms and Marching Cubes. \r\n\r\nA natural follow-up inquiry to our original submission concerns the possible extension of the binary algorithm to accommodate images with multiple labels. In this paper, we describe such a generalization of our previous submission which also subsumes the binary approach. For completeness and clarity of exposition, we develop the idea of well-composedness within the binary image context and later generalize the discussion to include those images with multiple labels.",
-    "articles": [
-      "bafybeidvxj2db47hivm6vmm56kqz2anebw4yaxedof2b47oswm7vv47yay",
-      "bafybeidvxj2db47hivm6vmm56kqz2anebw4yaxedof2b47oswm7vv47yay",
-      "bafybeidvxj2db47hivm6vmm56kqz2anebw4yaxedof2b47oswm7vv47yay"
-    ],
     "authors": [
       {
         "author_fullname": "Tustison, Nicholas",
@@ -43,7 +38,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeiet2k5hhvk4fynzvi4vrea44gizr4fbirnuqshm3evzhh3rur7cxm",
+        "article": "bafybeidvxj2db47hivm6vmm56kqz2anebw4yaxedof2b47oswm7vv47yay",
         "citation_list": [
           {
             "doi": "10.1006/cviu.1995.1006",

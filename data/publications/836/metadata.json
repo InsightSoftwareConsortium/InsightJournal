@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "This document presents a GUI application to manually select corresponding points in two data sets. The data sets can each be either an image or a point cloud. If both data sets are images, the functionality is equivalent to Matlab's 'cpselect' function. There are many uses of selecting correspondences. If both data sets are images, the correspondences can be used to compute the fundamental matrix, or to perform registration. If both data sets are point clouds, the correspondences can be used to compute a landmark transformation. If one data set is an image and the other is a point cloud, the camera matrix relating the two can be computed.\n",
-    "articles": [
-      "bafybeiggir7hilzc32k4c7agvi2cvhdga7hvjkcu5l6gldkmt4lngyfgrq"
-    ],
     "authors": [
       {
         "author_fullname": "Doria, David",
@@ -32,7 +29,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeie42lyesdonaq2tj33qquz524umnxs6dwhpo6eay4666beo2jhw5q",
+        "article": "bafybeiggir7hilzc32k4c7agvi2cvhdga7hvjkcu5l6gldkmt4lngyfgrq",
         "dapp": null,
         "dataset": null,
         "doi": null,

@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "In this document it is described the implementation of the flux driven automatic centerline extraction\nalgorithm proposed by Bouix et al. in 2004. This is based on a skeletonisation algorithm initially\nproposed by Siddiqi et al. in 2002, using properties of an average outward flux measure to distinguish\nskeletal points from non-skeletal ones. This information is combined with a topology preserving thinning\nprocedure to obtain the final result. This implementation combines this skeletonisation algorithm with\nother techniques as described in the paper of Bouix et al. to produce an ITK filter that generates as output\nthe skeleton, as a binary object represented in an image, of the input surface, represented as a distance\ntransform image. In this work is described this medial curve extraction procedure following the ITK\nphilosophy.",
-    "articles": [
-      "bafkreihnockr6bxznxdh7qxifj3oyorp74sw6t6iufz2swpbxi6sfeohhm"
-    ],
     "authors": [
       {
         "author_fullname": "Mellado, Xavier",
@@ -46,7 +43,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": null,
+        "article": "bafkreihnockr6bxznxdh7qxifj3oyorp74sw6t6iufz2swpbxi6sfeohhm",
         "citation_list": [
           {
             "doi": "10.1016/j.media.2004.06.026",

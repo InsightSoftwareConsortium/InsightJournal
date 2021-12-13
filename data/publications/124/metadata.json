@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "Grayscale dilation and erosion are basic transformations of mathematical morphology. Used together\r\nor with other transformations, they are very useful tools for image analysis. However, they can be very\r\ntime consuming, especially with 3D images, and with large structuring elements. Several algorithms\r\nhave been created to decrease the computation time, some of them with some limitations of shape of\r\nstructuring element. We have implemented several algorithms, studied their performance in different\r\nconditions, and shown that all of them are more efficients than the others in certain conditions.\r\n We finally introduce a new structuring element class and a some meta filter designed to select the best\r\nalgorithm depending on the image and the structuring element, and to smoothely integrate the different\r\nalgorithms available in the toolkit.",
-    "articles": [
-      "bafkreiajyqoy7yhtcrbdhwba5rb5aminx2eue7ihoqnob6cvteb3sqnsqq"
-    ],
     "authors": [
       {
         "author_fullname": "Lehmann, Gaetan",

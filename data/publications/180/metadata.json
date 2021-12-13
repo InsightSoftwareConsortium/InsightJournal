@@ -1,16 +1,6 @@
 {
   "publication": {
     "abstract": "The University of Iowa\u2019s Psychiatric Iowa Neuroimaging Consortium (PINC) has developed a program for mutual information registration of 3D brain imaging data using ITK classes, called BRAINSFit. We have written a helper class, itk::MultiModal3DMutualRegistrationHelper to simplify implementation and testing of different transform representations and optimizers. We have added a transform meeting the ITK standard, itk::ScaleVersor3DTransform. BRAINSFit is based on the registration examples from ITK, but adds new features, including the ability to employ different transform representations and optimization functions. \r\nOur goal was to determine best practices for registering 3D rigid multimodal MRI of the human brain. A version of the current program is employed here at PINC daily for automated processing of acquired brain images.\r\n\r\nThis project is managed on the NITRC site. http://www.nitrc.org/projects/multimodereg/\r\n\r\nOn the NITRC website, you can acquire the latest source code via SVN, or by downloading a compressed file which is generated every night. Binary versions are also available.\r\n",
-    "articles": [
-      "bafkreiaj6krchopeqgrbtwkzpprnspn4slady6dbr7swtdvnlolipa5lam",
-      "bafkreiaj6krchopeqgrbtwkzpprnspn4slady6dbr7swtdvnlolipa5lam",
-      "bafkreiaj6krchopeqgrbtwkzpprnspn4slady6dbr7swtdvnlolipa5lam",
-      "bafkreiaj6krchopeqgrbtwkzpprnspn4slady6dbr7swtdvnlolipa5lam",
-      "bafkreiaj6krchopeqgrbtwkzpprnspn4slady6dbr7swtdvnlolipa5lam",
-      "bafkreiaj6krchopeqgrbtwkzpprnspn4slady6dbr7swtdvnlolipa5lam",
-      "bafkreiaj6krchopeqgrbtwkzpprnspn4slady6dbr7swtdvnlolipa5lam",
-      "bafkreiaj6krchopeqgrbtwkzpprnspn4slady6dbr7swtdvnlolipa5lam"
-    ],
     "authors": [
       {
         "author_fullname": "Harris, Gregory",

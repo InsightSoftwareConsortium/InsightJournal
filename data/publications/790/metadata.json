@@ -1,11 +1,6 @@
 {
   "publication": {
     "abstract": "Uniform B-splines are used widely in image processing because they provide maximal smoothness compared to any other piecewise polynomial of the same degree and support. This paper describes VTK classes for performing two functions: image interpolation via B-splines, and non-rigid coordinate transformation via B-splines. Special attention is paid to different boundary conditions for the ends of the spline: image interpolation supports clamped, mirrored, and repeated boundary conditions while B- spline grid transformations support clamped and zero-past-boundary conditions. The use of these classes for image deformation is demonstrated.",
-    "articles": [
-      "bafybeiapkkb2xkdcg6otuj6u2xbmuymen4qpkq5cbbrqbkh7uq2552lgj4",
-      "bafybeiaznk3rx4f6xgm4vlhmstmfipq7jv23fz36bkfwrqwh5fgptupoxu",
-      "bafybeiapkkb2xkdcg6otuj6u2xbmuymen4qpkq5cbbrqbkh7uq2552lgj4"
-    ],
     "authors": [
       {
         "author_fullname": "Gobbi, David G.",
@@ -38,7 +33,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeidmhho74vcvhphmejgfktdlas473bichwqbo6m6cd6ls3xo3zw6iy",
+        "article": "bafybeiapkkb2xkdcg6otuj6u2xbmuymen4qpkq5cbbrqbkh7uq2552lgj4",
         "citation_list": [
           {
             "doi": "10.1109/78.193220",

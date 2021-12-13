@@ -1,10 +1,6 @@
 {
   "publication": {
     "abstract": "In this article, a spline driven image slicer algorithm is presented. It is concretized through a vtkAlgorithm-inherited class that takes two inputs and gives two outputs. The first input is the volume from which the slice should reconstructed while the second one is the spline which tangent vector is used as slicing plane normal. The first output is a 2D image resliced from the volume.\nThe second output gives the geometric information of the slice plane location in the volume space. An example of use is given through a simulation of a dental panoramic view from a MDCT volume.",
-    "articles": [
-      "bafybeidthtyutgiaixmrpdycuda423xnjcrafijlyuiemk64gazh5vot54",
-      "bafybeidthtyutgiaixmrpdycuda423xnjcrafijlyuiemk64gazh5vot54"
-    ],
     "authors": [
       {
         "author_fullname": "Velut, Jerome",
@@ -61,7 +57,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeice2fbmwcjlrz2sfakcufln4h56rvjz7no6psmntlc7qaixlzv3ea",
+        "article": "bafybeidthtyutgiaixmrpdycuda423xnjcrafijlyuiemk64gazh5vot54",
         "citation_list": [
           {
             "key": "ref1",

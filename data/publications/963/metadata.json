@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "Medical image analyses rely on diverse software packages assembled into a \u201cpipeline\u201d. The Java Image Science Toolkit (JIST) has served as a standalone plugin into the Medical Image Processing Analysis and Visualization (MIPAV). We addressed shortcomings that previously prevented deeper integration of JIST with other E-science platforms. First, we developed an interface for integrating externally compiled packages (similar to the interfaces in NiPy) such that the application can become a \u201cdraggable module\u201d in the module tree. This allows for connection of inputs and outputs to other JIST modules while maintaining external processing and monitoring. Second, we develop an integration interface with the Neuroimaging Informatics Tools and Resources Clearinghouse Cloud Environment (NITRC-CE). User can launch and terminate pre-configured nodes to utilize computational resources of the Amazon cloud. Finally, we define a new external data source, which can connect to the eXtensible Neuroimaging Archive Toolkit (XNAT) to query and retrieve remote data using XNAT's REST API. Specifically, we define dataflow for files that can readily be converted into volumes and collections of volumes to interface with any JIST module that expects volumetric image data as an input. Users now have the ability to run their pipelines from a well-defined external data source and no longer are required to already have data on the disk. With these upgrades we have extended JIST\u2019s capabilities outside of complied java source code and enhanced capabilities to seamlessly interface with E-science platforms. ",
-    "articles": [
-      "bafkreihui3utwegygcdjvvpq6l6enlkzbh4wsngla5wq4gddlzwzbot4ju"
-    ],
     "authors": [
       {
         "author_fullname": "Damon, Stephen",
@@ -54,7 +51,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeicdzgi6p6xauhmvr27eepm3mzatkzlruyn5zplrmeqwycluw36gfm",
+        "article": "bafkreihui3utwegygcdjvvpq6l6enlkzbh4wsngla5wq4gddlzwzbot4ju",
         "citation_list": [
           {
             "key": "ref1",

@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "An implementation of the minimum error thresholding algorithm is presented. In this implementation, two versions of the minimum error thresholding algorithm are made available, one utilizing a Gaussian- and the other utilizing a Poisson- mixture model. Two ITK classes are created: The first one (MinErrorThresholdImageCalculator) is used to compute the threshold; the second (MinErrorThresholdImageFilter) is used as an image-thresholding filter. The results indicate code correctness and are comparable to those of Otsu\u2019s thresholding algorithm.",
-    "articles": [
-      "bafkreigvisxr3oa67jbeqtkndyjqwzaslrkhyqkf7gpnn4e6p5pgm3ydey"
-    ],
     "authors": [
       {
         "author_fullname": "Al-Kofahi, Yousef",

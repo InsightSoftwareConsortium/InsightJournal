@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "Transitive consistency of pairwise transformations is a desirable property of groupwise image registration procedures. The transformation synchronisation method (Bernard et al., 2015) is able to retrieve transitively consistent pairwise transformations from pairwise transformations that are initially not transitively consistent. In the present paper, we present a numerically stable implementation of the transformation synchronisation method for affine transformations, which can deal with very large translations, such as those occurring in medical images where the coordinate origins may be far away from each other. By using this method in conjunction with any pairwise (affine) image registration algorithm, a transitively consistent and unbiased groupwise image registration can be achieved.\nExperiments involving the average template generation from 3D brain images demonstrate that the method is more robust with respect to outliers and achieves higher registration accuracy compared to reference-based registration.",
-    "articles": [
-      "bafkreiezs7h6jwjnzmyq2ut23lm5rdkw6lcwauedyyc6u6qtevr2za5efm"
-    ],
     "authors": [
       {
         "author_fullname": "Bernard, Florian",
@@ -80,7 +77,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeihnajueabjmceoj6elqcebjwixsjp7t7odkcs6dy7qbikfg5enpvi",
+        "article": "bafkreiezs7h6jwjnzmyq2ut23lm5rdkw6lcwauedyyc6u6qtevr2za5efm",
         "citation_list": [
           {
             "doi": "10.1111/j.1467-9868.2007.00574.x",

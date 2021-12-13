@@ -1,10 +1,6 @@
 {
   "publication": {
     "abstract": "The \\emph{Delaunay triangulation} is the triangulation of a set of points which maximizes the minimum angle of all angles of the triangles, and thus triangle aspect ratios. So converting a non Delaunay triangulation into a Delaunay triangulation, \\emph{Delaunay conforming}, improves the all triangle aspect ratios and avoid elongated triangles. Note that combining this filter with usual operations like smoothing will provide a better approximation and a better distribution a triangle aspect ratios. Here this document describes a new filter based on the $n$D $2$-manifold mesh data structure available in itk: \\code{itk::QuadEdgeMesh}~\\cite{itkQE} to produce (planar or surfacic) Delaunay triangulation from any non-Delaunay triangulation by edge flipping, by implementing the edge flipping method decribed in~\\cite{Dyer2007sgp}.",
-    "articles": [
-      "bafybeicrfmca3x7putqvjmp647zscn2qrvt67fnyhnxvzna2ndv7xzdu6i",
-      "bafybeicrfmca3x7putqvjmp647zscn2qrvt67fnyhnxvzna2ndv7xzdu6i"
-    ],
     "authors": [
       {
         "author_fullname": "Gelas, Arnaud",
@@ -47,7 +43,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeifrownqtzhsl5yklxxgtzlgmqlpnedtokdjt7nb5fbh3vcwhhfeyu",
+        "article": "bafybeicrfmca3x7putqvjmp647zscn2qrvt67fnyhnxvzna2ndv7xzdu6i",
         "citation_list": [
           {
             "key": "ref1",

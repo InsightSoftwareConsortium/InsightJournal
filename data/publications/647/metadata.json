@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "In the Digital Operating Room there is a need to support data streaming to create advanced integrated surgical assist systems. In this paper we propose a DICOM-based streaming mechanism which leverages the interoperability definitions offered by DICOM to offer a common interface to manage all kinds of streaming data sources, while allowing data and application-specific protocols and infrastructure for the actual data access. We have implemented the proposed solution within the ASTMA project and have shown that thanks to the flexibility in choosing an appropriate streaming protocol we can achieve the necessary streaming quality while transmitting the context information required to create valid DICOM instances. This approach ensures an early integration of streaming data with the rest of the imaging information providing for a simpler data workflow.",
-    "articles": [
-      "bafkreiho2miuatruinfcfpvo7av3e3mkqo27dbgf5jc54zykgjz2sdjvoa"
-    ],
     "authors": [
       {
         "author_fullname": "Vazquez, Adrian",
@@ -44,7 +41,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeie356wttnnv2mgoitnm7fuf25cfza6cdkalvayo7fec7xawqx4pwm",
+        "article": "bafkreiho2miuatruinfcfpvo7av3e3mkqo27dbgf5jc54zykgjz2sdjvoa",
         "citation_list": [
           {
             "doi": "10.1007/s11548-006-0051-7",

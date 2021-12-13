@@ -1,10 +1,6 @@
 {
   "publication": {
     "abstract": "The purpose of this paper is to present our extension of the MITK toolkit by a real-time navigation system for computer assisted surgery. The system was developed with laparoscopic partial nephrectomies as a first application scenario. The main goal of the application is to enable tracking of the tumor position and orientation during surgery. Our system is based on ultrasound to CT registration and electromagnetic tracking. The basic idea is to process tracking information to generate an augmented reality (AR) visualization of a tumor model in the camera image of a laparoscopic camera. Our system will enhance the surgeon\u2019s view on the current scene and therefore facilitates higher safety during the surgery. A key intention of the development was to use only open source toolkits such as VTK, MITK and OpenCV in order to implement the desired functionality. So far we have applied our system in vitro in two phantom trials with a surgeon which yielded promising results.",
-    "articles": [
-      "bafkreiaqasaibereqmzjqcw5gow4qelavb27scjpjfteefgrp6oyjls244",
-      "bafkreigt2d3sbdrhomarcpeelp2pmps32qsuwnodzm4vncssdpn2diq6ja"
-    ],
     "authors": [
       {
         "author_fullname": "Keil, Matthias",
@@ -38,7 +34,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeiabdi6idd5xl3rnm33anevp3nrb43ai77twtmogugeubeoxy4klfe",
+        "article": "bafkreigt2d3sbdrhomarcpeelp2pmps32qsuwnodzm4vncssdpn2diq6ja",
         "citation_list": [
           {
             "doi": "10.1007/s11554-009-0140-2",

@@ -1,10 +1,6 @@
 {
   "publication": {
     "abstract": "ImageLib is a free object-oriented development environment destined to biomedical image processing. The software package contains a programming library (C++ language) and an MDI user interface (kernel). The major interest is to allow the creation of fully modular applications. Both user processing functions and image read/write facilities are separately compiled as DLLs, and the resulting plugin objects are dynamically imported into the kernel. The library provides all the required wrapping material to incorporate all find of image processing functions into user-written components. A rapid prototyping application is provided to communicate with the kernel communication interface. No graphics programming skills is required to manage advanced user interactions, image display (e.g. OpenGL), and generic image processing functions based on C++ templates. The component-oriented software architecture makes it possible to share image processing and handling resources for light Windows processing applications.",
-    "articles": [
-      "bafkreigh7wqjwik2o3j7rrzsxnvlvovuzgyusuiv3tdiy3rdsv36ynlxdy",
-      "bafkreigh7wqjwik2o3j7rrzsxnvlvovuzgyusuiv3tdiy3rdsv36ynlxdy"
-    ],
     "authors": [
       {
         "author_fullname": "Flouvat, Frederic",

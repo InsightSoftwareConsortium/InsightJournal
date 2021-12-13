@@ -1,10 +1,6 @@
 {
   "publication": {
     "abstract": "RANdom SAmple Concensus (RANSAC) is an iterative method to estimate parameters of a model. It assumes that their are inliers in the data which are well explained by the chosen model. We propose a new class for VTK, vtkRANSACPlane, which estimates the best plane in a point set using the RANSAC method.",
-    "articles": [
-      "bafkreiazqdqt4wnlmslw7rf4v7dnnrt2w7g36m6est3vu3f5nkfj7qbhvq",
-      "bafkreiazqdqt4wnlmslw7rf4v7dnnrt2w7g36m6est3vu3f5nkfj7qbhvq"
-    ],
     "authors": [
       {
         "author_fullname": "Doria, David",

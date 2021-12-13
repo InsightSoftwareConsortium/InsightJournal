@@ -1,10 +1,6 @@
 {
   "publication": {
     "abstract": "In this paper, we present an automatic method for extracting center axis representations (centerlines) \r\nof coronary arteries in contrast enhanced (CE)-CT angiography scans. \r\nThe algorithm first detects the aorta which is used as an initial mask for ostia\r\ndetection~cite{grady2006:fast}. Second, the ostia locations are detected via a vessel centerline extraction method~cite{Gulsun:Tek:008} which\r\ntracks the center axis of the coronaries starting from the aorta surface. The full centerline tree of the coronary arteries are\r\ncomputed via the multi-scale medialness-based vessel tree extraction algorithm which starts a tracking process from\r\nthe ostia locations until all the braches are reached. The centerline extraction algorithm is a \r\ngraph-based optimization algorithm using multi-scale medialness filters.",
-    "articles": [
-      "bafybeibckl7yh3nqoxt4o7gviqpntuhkv5y422swvt4srvundgoikkunoq",
-      "bafybeig7hslownkjq7kkcjgv3r7tloyzsol2jrmtlugrxf3p7ymxoaziwa"
-    ],
     "authors": [
       {
         "author_fullname": "Tek, Huseyin",
@@ -36,7 +32,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeibni2o2iwntw6xeeb5ov7b2prwk3bqetb5lsvrm6rjnt6wbhhbv7q",
+        "article": "bafybeig7hslownkjq7kkcjgv3r7tloyzsol2jrmtlugrxf3p7ymxoaziwa",
         "citation_list": [
           {
             "doi": "10.1016/s1361-8415(01)00046-9",

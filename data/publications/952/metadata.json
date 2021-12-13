@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "Nonlinear optimization is a key component of many image registration algorithms. Improving registration speed is almost always desirable. One way to do this is to accelerate the optimization cost function using a parallel implementation. The purpose of this document is to provide a tutorial on how to combine the CUDA GPU computing framework with standard nonlinear optimization libraries (VNL) using CMake. The provided code can be used as a starting template for programmers looking for a relatively painless introduction to CUDA-accelerated medical image registration and other nonlinear optimization problems.",
-    "articles": [
-      "bafkreicitmposwcddcn3elnowo5g67g44rw2sfklyaehj7qiuqgqlchqhe"
-    ],
     "authors": [
       {
         "author_fullname": "Hatt, Charles",

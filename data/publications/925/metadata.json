@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "The segmentation of parotid glands in CT scans of patients with head and neck cancer is an essential part of treatment planning. We introduce a new method for the automatic segmentation of parotid glands that extends existing patch-based approaches in three ways: (1) we promote the use of image features in combination with patch intensity values to increase discrimination; (2) we work with larger search windows than established methods by using an approximate nearest neighbor search; and (3) we demonstrate that location information is a crucial discriminator and add it explicitly to the description. In our experiments, we compare a large number of features and introduce a new multi-scale descriptor. The best performance is achieved with entropy image features in combination with patches and location information.",
-    "articles": [
-      "bafkreieiqomu6qo7shewmkjtsbfqxbowazqhm3xnvaxgvaaleb3psuo7ha"
-    ],
     "authors": [
       {
         "author_fullname": "Wachinger, Christian",
@@ -50,7 +47,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeifeitqooacbgrq2gmfj2htaxc5z75mpa4vi46k4rvkaqwrwgm3yei",
+        "article": "bafkreieiqomu6qo7shewmkjtsbfqxbowazqhm3xnvaxgvaaleb3psuo7ha",
         "citation_list": [
           {
             "doi": "10.1109/tpami.2010.161",

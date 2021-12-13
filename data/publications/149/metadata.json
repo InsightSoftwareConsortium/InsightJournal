@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "Combining some labeled images is a quite common and useful task in image analysis.\r\nThat's something we may want to do to prepare the markers for a watershed from\r\nmarkers for example, or to write the output of several segmentations in a single\r\nfile.\r\nThis article comes with three new filters to make the combination\r\nof labeled images easier with ITK.\r\nThis contribution also try to provide an implementation better integrated with the\r\nITK pipeline model than the itkMultipleUnlabeledImagesToLabeledImageFilter contribution.",
-    "articles": [
-      "bafkreiehxe3akns4euiyjtwem2rgmqr5q4a7jybntgz3idgfjwj5gfdaey"
-    ],
     "authors": [
       {
         "author_fullname": "Lehmann, Gaetan",

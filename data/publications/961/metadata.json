@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "Very preterm birth coincides with a period of major development in the brain, with striking changes in volume, cortex folding and significant change at the microstructural level. Diffusion MRI is sensitive to motion of water on the scale of microns, allowing us to investigate some of these changes. Mapping of diffusion tensors is a challenging process, and existing methods fail to account for the major changes that take place between 30 and 40 weeks equivalent gestational age. In this paper we introduce the spectral matching in the context of non-linear registration of diffusion images. Spatial correspondences are defined with respect to the main spectral modes of the images, which are global descriptors of the tensor information. We apply tensor spectral matching (TSM) in two different ways: by estimation of spatial correspondences uniquely based on the spectral decomposition of diffusion tensor images, and by combination of TSM with a standard diffusion tensor registration algorithm (TSM-DTI-TK). We validate the proposed approaches on 20 adult controls, and we compare it to the state-of-art registration method. We then apply these methods to longitudinal diffusion data acquired from 6 extremely preterm-born infants scanned shortly after birth and at term equivalent age. The experimental results combining TSM with standard tensor registration outperform the state-of-art when applied to both adult and preterm data. Having a reliable anatomical correspondence in preterm infants allows us to quantify microstructural changes and to work towards developing biomarkers of neurological impairment.",
-    "articles": [
-      "bafkreigoycdqgmz2adkzl27jrzvpn74euirnim3rv5iwsfnybsqt2ortyi"
-    ],
     "authors": [
       {
         "author_fullname": "Orasanu, Eliza",
@@ -83,7 +80,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeibrdrcmzc4yvtmypjrw5sulvf4q2ccai7o6jyqkrow5k2wybxj4xe",
+        "article": "bafkreigoycdqgmz2adkzl27jrzvpn74euirnim3rv5iwsfnybsqt2ortyi",
         "citation_list": [
           {
             "doi": "10.1371/journal.pmed.0030265",

@@ -1,10 +1,6 @@
 {
   "publication": {
     "abstract": "This paper presents the results of the Head and Neck Auto-segmentationChallenge, which was part of the workshop \u201c3D Segmentation in the Clinic: A Grand Challenge\u201d. This workshop took place in London, UK, in September 2009, in conjunction with the 12th conference on Medical Image Computing and Computer Assisted Interventions (MICCAI). The aim of the challenge was to evaluate the performance of fully automated algorithms in segmenting the mandible and the brainstem in head and neck CT image data used in radiotherapy planning. We describe the motivation behind the clinical application selected for the challenge, the image data used, and the metrics applied for the quantitative assessment of the segmentation accuracy with respect to the ground truth segmentations provided by a clinical expert. The quantitative evaluation results of the auto-segmentations submitted by the workshop participants are included.",
-    "articles": [
-      "bafkreihxp4r6yne3qu42g3mkasrrqzuophwvzg3a3bbszcy4g7gqkwsaxq",
-      "bafkreifnhowsmyzk452bqbsigiomdrhi7wdj2s72bzjalhamtzf22ubej4"
-    ],
     "authors": [
       {
         "author_fullname": "Pekar, Vladimir",

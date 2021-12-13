@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "The goal of the Cardiac MR Left Ventricle Segmentation Challenge at MICCAI 2009 is to compare state-of-the-art LV segmentation methods. This goal is facilitated through an evaluation system and a database of cardiac cine MR images, as well as expert contours, now freely available on the internet for research purposes. This challenge is important because the analysis and the segmentation of 3D+t sequences of MR cardiac images is fastidious, time consuming and error-prone for human operators, due to the large amount of data. Conversely, automated segmentation of cardiac images is well-known to be a challenging task.\nThis paper describes the method that our group submitted for the challenge, based on 4D discrete mathematical morphology. This method leads to discrete segmentations, i.e, binary masks (bitmaps) of the left ventricular myocardiums that are both spatially and temporally consistent.",
-    "articles": [
-      "bafkreievdlocys2ngrww6cqgw2lw5djycnjkug6ndvnwwjkogh4jrnlsvu"
-    ],
     "authors": [
       {
         "author_fullname": "Marak, L\u00e1szl\u00f3",
@@ -50,7 +47,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeibsz32muk2r4xps6i62yth5o67bxlsyuo7vdhkmtpyntsvqy4mcta",
+        "article": "bafkreievdlocys2ngrww6cqgw2lw5djycnjkug6ndvnwwjkogh4jrnlsvu",
         "citation_list": [
           {
             "doi": "10.1007/978-3-540-72907-5_48",

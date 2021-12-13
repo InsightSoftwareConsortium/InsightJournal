@@ -1,11 +1,6 @@
 {
   "publication": {
     "abstract": "Several kind of noise can be found in real images, mostly depending on the modality\nof acquisition. It is often useful to be able to simulate that noise, for example\nto test the behavior of an algorithm in the presence of a known amount of noise.\n\nThis contribution provides the filters to generate four kind of noise -- additive\ngaussian, shot, speckle and salt and pepper -- as well as a PSNR calculator.\n",
-    "articles": [
-      "bafkreigofkafv3lelg3hed6nym7w3sotpbmvodmdxmpz7b67xe7ecv2qta",
-      "bafkreiagdsbfyvmpqnkff2bngfd7iqfwhuj3swsfepfz4upma532yunxcq",
-      "bafkreia4bjka5wovgbnvftxe55chrbk7urkp5lkmdj2av4k7qdff3xiyty"
-    ],
     "authors": [
       {
         "author_fullname": "Lehmann, Gaetan",

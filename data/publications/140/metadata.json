@@ -1,10 +1,6 @@
 {
   "publication": {
     "abstract": "Certain classes of images find disparate use amongst members of the ITK community for such purposes as visualization, simulation, testing, etc. Currently there exists two derived classes from the ImageSource class used for generating specific images for various applications, viz. RandomImageSource and GaussianImageSource. We propose to add to this set with the class GridImageSource which, obviously enough, produces a grid image. Such images are useful for visualizing deformation when used in conjunction with the WarpImageFilter, simulating magnetic resonance tagging images, or creating optical illusions with which to amaze your friends.",
-    "articles": [
-      "bafkreigz7ae3sopoadpuhsxbmd7bwkdl3ohp34agupdkdms5wh5ufpy5oe",
-      "bafkreigz7ae3sopoadpuhsxbmd7bwkdl3ohp34agupdkdms5wh5ufpy5oe"
-    ],
     "authors": [
       {
         "author_fullname": "Tustison, Nicholas",

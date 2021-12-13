@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "Many neuroanatomy studies rely on brain tissue segmentation in Magnetic Resonance images (MRI). The Expectation-Maximization (EM) theory offers a popular framework for this task. We studied the EM algorithm developed at the Surgical Planning Laboratory (SPL) at Harvard Medical School and implemented in the Slicer3 software. We observed that the segmentation lacks accuracy if the image exhibits some intensity inhomogeneity. Moreover the optimum parameters are challenging to estimate. This document aims at describing our solutions within the context of statistical modeling. Our contributions range from algorithm improvements to novel representations of the statistical distribution model. First we added a bias field correction module and exposed the most significant parameters. Second we proposed a new way to select the distribution of the tissues to be segmented. Finally we designed a set of interactive tools to make the segmentation process easier and more accurate. To validate the new segmentation pipeline, we performed our experiments on MRI data and a clinical expert evaluated our results.\n\nThe source code developed for this work, i.e. the code of the MRIBiasFieldCorrection and EMSegment modules, is part of Slicer3 version 3.5 and can be downloaded by this command: svn co http://svn.slicer.org/Slicer3/trunk Slicer3",
-    "articles": [
-      "bafybeia23sryrvrue5lemnuuv2nwng6fklnqkdpzakxdw4i2qdwt37goli"
-    ],
     "authors": [
       {
         "author_fullname": "Rannou, Nicolas",
@@ -60,7 +57,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeiey2hq2lgazznxko6psum52b7cxsraoisoplwrjhsr5i56dj3brrq",
+        "article": "bafybeia23sryrvrue5lemnuuv2nwng6fklnqkdpzakxdw4i2qdwt37goli",
         "dapp": null,
         "dataset": null,
         "doi": null,

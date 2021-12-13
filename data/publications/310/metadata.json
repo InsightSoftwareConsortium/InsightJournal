@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "This technical note presents an alternative threading model for the Insight Toolkit. The existing ITK threading model is based on a \\\"scatter / gather\\\" model and divides work evenly amongst all threads. Though suitable for many filters, considerations such as memory allocation per thread are important in some classes of filters. We propose to use the ZThread (http://sourceforge.net/projects/zthread/) library to explore a threading model based on an execution pool. The ZThread library is a cross platform, open source thread abstraction library loosely based on Java\\'s threading model.",
-    "articles": [
-      "bafkreihvncehrrph4scyxtafsajpa6dq7adndp5gj6j4ty65v3n7z4ghre"
-    ],
     "authors": [
       {
         "author_fullname": "Blezek, Daniel",

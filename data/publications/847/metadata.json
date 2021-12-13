@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "Thresholding is perhaps one of the most basic techniques in image processing. The Insight Toolkit (ITK) includes several threshold filters ranging from simple ones to Otsu based thresholding. Deep into the implementation of the Canny edge detection filter, ITK includes an implementation of hysteresis thresholding, but unfortunately this method can not be used as a generic filter.\nThis paper presents an implementation of the hysteresis thresholding filter that can be used as a standalone ITK filter.",
-    "articles": [
-      "bafkreifqhp53wzeulrfw6t4aqw76rekaobfr7m3vusapzwn6fhuxqspc7a"
-    ],
     "authors": [
       {
         "author_fullname": "Vera, Sergio",
@@ -50,7 +47,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeigvmhzuvzpecv5bw4lalif2j6nk3ghukq5gjf3k2cqjtg5dvrecmy",
+        "article": "bafkreifqhp53wzeulrfw6t4aqw76rekaobfr7m3vusapzwn6fhuxqspc7a",
         "citation_list": [
           {
             "key": "ref1",

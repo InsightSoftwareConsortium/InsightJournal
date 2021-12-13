@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "This document describes a new simple gradient descent optimizer which is a potential\nreplacement or supplement for RegularStepGradientDescentOptimizer. The optimizer requires only the gradient of the parameters and uses a simple linear model internally. However, it follows the theoretical basis of a trust-region algorithm and is able to achieve greater efficiency on certain image registration cases.\n",
-    "articles": [
-      "bafkreidwog7wt6o5klgrari275dqasg655dddb4myiygaq5zmmsohsgr2i"
-    ],
     "authors": [
       {
         "author_fullname": "Brooks, Rupert",

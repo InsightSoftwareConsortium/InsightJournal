@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "Anisotropic Non-Linear Diffusion is a powerful image processing technique, which allows to simultaneously remove the noise and enhance sharp features in two or three dimensional images. Anisotropic Diffusion is understood here in the sense of Weickert, meaning that diffusion tensors are anisotropic and reflect the local orientation of image features. This is in contrast with the non-linear diffusion filter of Perona and Malik, which only involves scalar diffusion coefficients, in other words isotropic diffusion tensors. \nIn this paper, we present an anisotropic non-linear diffusion technique we implemented in ITK. This technique is based on a recent adaptive scheme making the diffusion stable and requiring limited numerical resources. ",
-    "articles": [
-      "bafybeibtsl5p6s7ejarnt7ehquajdiabrlcrdtwa74gxf4uz47jjqkgmju"
-    ],
     "authors": [
       {
         "author_fullname": "Mirebeau, Jean-Marie",
@@ -103,7 +100,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeic2ksczrs5w5dulrlmb52s4a6wfg7klrcukrt26bvjzaark27wpiu",
+        "article": "bafybeibtsl5p6s7ejarnt7ehquajdiabrlcrdtwa74gxf4uz47jjqkgmju",
         "citation_list": [
           {
             "key": "ref1",

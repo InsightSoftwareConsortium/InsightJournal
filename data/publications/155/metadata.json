@@ -1,10 +1,6 @@
 {
   "publication": {
     "abstract": "This paper describes the Insight Toolkit (ITK) Spherical Wavelet object: itkSWaveletSource. This\r\nITK object is an implementation of a paper by Schr\u00a8oder and W. Sweldens, \u201cSpherical Wavelets: Effi-\r\nciently Representing Functions on the Sphere\u201d [8], with pseudo-code given in their paper entitled \u201cSpherical\r\nwavelets: Texture processing\u201d [7]. In these papers, Swelden et. al. show how to do decompose a\r\nscalar signal defined on a spherical mesh into spherical wavelet coefficients (analysis step, also called\r\nforward transform), and vice-versa (synthesis step, also called inverse transform). We have implemented\r\nthe spherical wavelet transform in ITK entitled itkSWaveletSource object, which will take the scalar\r\nfunction defined on a spherical mesh as input and apply spherical wavelet analysis and synthesis on it.\r\nIn this paper, we describe our code and provide the user with enough details to reproduce the results\r\nwhich we present in this paper. This filter has a variety of applications including shape representation\r\nand shape analysis of brain surfaces, which was the initial motivation for this work.\r\nThis paper is accompanied with the source code, input data, parameters and output data that the\r\nauthors used for validating the spherical wavelet transform described in this paper.",
-    "articles": [
-      "bafkreicxnw3mvrez7wkpnk4pmijsrvt4oigz32wgor5xn3eleieok2uupa",
-      "bafkreicxnw3mvrez7wkpnk4pmijsrvt4oigz32wgor5xn3eleieok2uupa"
-    ],
     "authors": [
       {
         "author_fullname": "Gao, Yi",
@@ -70,7 +66,7 @@
     ],
     "revisions": [
       {
-        "article": "bafybeidvrko7gvcg7iwbf7rbqahpc5akoqoixcmezzjg2exh4ls7qyua5q",
+        "article": "bafkreicxnw3mvrez7wkpnk4pmijsrvt4oigz32wgor5xn3eleieok2uupa",
         "citation_list": [
           {
             "key": "ref1",

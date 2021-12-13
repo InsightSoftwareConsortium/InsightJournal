@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "The recent ITKv4 refactoring includes several enhancements to the existing registration framework. These additional transform classes provide access to mappings described by dense displacement fields and their corresponding optimization which complement the popular free-form deformation (FFD) ap- proach already in ITK. Innovation motivated by previous work [5] and recent diffeomorphic image regis- tration developments in which the characteristic velocity field is represented by spatiotemporal B-splines [2], resulted in a diffeomorphic B-spline-based image registration algorithm combining and extending these techniques which we make available in ITK through the gerrit system. Additionally, we include two command line tools showcasing the new elements of the registration refactoring for 1) computing mappings between two images (antsRegistration) including the family of transforms discussed in this article and 2) applying those transformations to images (antsApplyTransforms). NB: The user must download the patch available at http://review.source.kitware.com/#/c/3606/ in or- der to compile the code accompanying this article.",
-    "articles": [
-      "bafkreic7igmst77z6vlcngp63nuhuqbhwtaodxtdmgajh4hq4etnq254iq"
-    ],
     "authors": [
       {
         "author_fullname": "Tustison, Nicholas J.",
@@ -57,7 +54,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeigvirylszuhx53soenh3ymu7gfdpctlohagm277ebhqdfhmkovvwa",
+        "article": "bafkreic7igmst77z6vlcngp63nuhuqbhwtaodxtdmgajh4hq4etnq254iq",
         "citation_list": [
           {
             "doi": "10.1007/11812715_10",

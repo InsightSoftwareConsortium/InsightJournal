@@ -1,10 +1,6 @@
 {
   "publication": {
     "abstract": "Various metrics have been proposed in the literature for performing intrinsic automatic image to image registration. Among these measures, mutual information is a very popular one because of its robustness and accuracy for a wide variety of applications. In this paper, we propose a filter for performing non-rigid registration by estimating a dense deformation field derived from the mutual information metric. This filter takes place in the ITK PDE deformable registration design like the Demons algorithm of Thirion. We also show how the concept of metric flow is conceptually linked to the concept of metric derivative for a prior transformation model by the transformation jacobian. We also suggest a sparse implementation of the GetJacobian() method for reducing the computation time of a metric derivative for local transformations models.",
-    "articles": [
-      "bafkreiehoazn47qbxgpjdfjhea4b6kmz3afc4ughxavrbgj3l6llksdos4",
-      "bafkreiehoazn47qbxgpjdfjhea4b6kmz3afc4ughxavrbgj3l6llksdos4"
-    ],
     "authors": [
       {
         "author_fullname": "De Craene, Mathieu",
@@ -50,7 +46,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeid6p7hdmteiunc3tzu73awxjgl4kysux7uuky4fo2qp5a3vw4bjla",
+        "article": "bafkreiehoazn47qbxgpjdfjhea4b6kmz3afc4ughxavrbgj3l6llksdos4",
         "citation_list": [
           {
             "doi": "10.1007/10704282_64",

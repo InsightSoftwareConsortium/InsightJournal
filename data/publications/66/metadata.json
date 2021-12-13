@@ -1,10 +1,6 @@
 {
   "publication": {
     "abstract": "To facilitate the analysis of medical image data in research environment, MATITK is developed to allow ITK algorithms to be called in MATLAB. ITK is a powerful open-source image analysis toolkit, but it requires the knowledge of C++ to use it. With the help of MATITK, researchers familiar with MATLAB can harness the power of ITK without learning C++ and worrying about low-level programming issues. A common set of C++ classes have also been produced to allow future ITK methods to be added to MATITK therefore callable in MATLAB without the bothersome translation between MATLAB and ITK.",
-    "articles": [
-      "bafkreiaowypjwzerdkrmowlsxi4a3ftk5dclnybt5lgnmobsabfkdyt6m4",
-      "bafkreihj32me2xpwlhiheg2nd2s56xops7ggwyfnuqb3tnw6o4okiefnyq"
-    ],
     "authors": [
       {
         "author_fullname": "Chu, Vincent",
@@ -49,7 +45,7 @@
     ],
     "revisions": [
       {
-        "article": "bafybeigbgqtl7o3c3vrjnfjtsbg5uwkmecaezv537n4cxzcgyz3yjyxtwa",
+        "article": "bafkreihj32me2xpwlhiheg2nd2s56xops7ggwyfnuqb3tnw6o4okiefnyq",
         "citation_list": [
           {
             "doi": "10.1117/12.652628",

@@ -1,12 +1,6 @@
 {
   "publication": {
     "abstract": "Probability distributions are a key component of clinical research. One only has to make a cursory review of clinical literature to realize that nearly all clinical publications reference some sort of statistical test; be it t-test, chi-squared test, or F-test. In this paper, we describe an architecture for providing the Insight Toolkit with access to probability distributions. The architecture can support parametric and nonparametric probability distributions. Each distribution provides access to its probability density function (PDF), cumulative distribution function (CDF), inverse cumulative distribution function (inverse CDF), mean, and variance. These methods form the basis of statistical tests.",
-    "articles": [
-      "bafkreih7wrtg7pkyh2mzmbhimgwefngpk4t4xs7ec3hqnppsynkgddd3bu",
-      "bafkreidrdtrga7svlmasavf3blkdrmyu5cpuieadqand3n6kz7sm6x64qe",
-      "bafkreidrdtrga7svlmasavf3blkdrmyu5cpuieadqand3n6kz7sm6x64qe",
-      "bafkreidrdtrga7svlmasavf3blkdrmyu5cpuieadqand3n6kz7sm6x64qe"
-    ],
     "authors": [
       {
         "author_fullname": "Miller, James",

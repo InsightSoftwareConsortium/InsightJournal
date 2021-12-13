@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "In this article, we present an implementation of a flexible framework for non-parametric variational image registration, realized as part of ITK's finite difference solver hierarchy.\n\nIn a variational registration setting, the transformation is found by minimizing an energy functional that consists of (at least) two terms: a distance measure between fixed and transformed moving image and a smoothness condition for the transformation. The specific choice of these terms depends on the particular application and requires consideration of, for example, image content and imaging modalities. Following this view, the presented framework can be seen as a generalization of the demons algorithm in which two key aspects remain exchangeable: the force term (or registration function, according to the distance measure) and the regularizer (according to the smoothness condition). Moreover, two transformation models are realized: either a dense displacement field or a stationary velocity field to restrain the transformation to the space of diffeomorphisms.\n\nIn its current state, the framework includes implementations of forces based on the Sum of Squared Differences (SSD), Normalized Cross Correlation (NCC) and the demons algorithm as well as Gaussian, diffusion and elastic smoothing. However, the implementation of further components is possible and encouraged.\n",
-    "articles": [
-      "bafkreib5zpglqwgrebvib6zggtivhwhxw2eowjt5erqu2x3nb3lfgvjuqy"
-    ],
     "authors": [
       {
         "author_fullname": "Schmidt-Richberg, Alexander",

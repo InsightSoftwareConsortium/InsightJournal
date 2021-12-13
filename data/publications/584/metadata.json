@@ -1,12 +1,6 @@
 {
   "publication": {
     "abstract": "This article presents an algorithm for the segmentation of liver metastases in CT scans. It is a hybrid method that combines adaptive thresholding based on a gray value analysis of the ROI with model-based morphological processing. We show the results of the MICCAI liver tumor segmentation competition 2008 which were successful for all ten tumors.",
-    "articles": [
-      "bafybeievjgwcruvcj74x4y5sxlr4ginnbauiv2tkcuotijpntpkopej6wy",
-      "bafybeibtp2latvigekqpkmdeehedzgst6l2wuwjopgs3dip2v35iefx3gq",
-      "bafybeievjgwcruvcj74x4y5sxlr4ginnbauiv2tkcuotijpntpkopej6wy",
-      "bafybeibtp2latvigekqpkmdeehedzgst6l2wuwjopgs3dip2v35iefx3gq"
-    ],
     "authors": [
       {
         "author_fullname": "Moltz, Jan Hendrik",
@@ -68,7 +62,7 @@
     ],
     "revisions": [
       {
-        "article": "bafybeifdgjw52tejr2xzcu74bgocpkemorlw2qjgfanq44sy4wxlccml4m",
+        "article": "bafybeibtp2latvigekqpkmdeehedzgst6l2wuwjopgs3dip2v35iefx3gq",
         "citation_list": [
           {
             "doi": "10.1109/iembs.2005.1617181",

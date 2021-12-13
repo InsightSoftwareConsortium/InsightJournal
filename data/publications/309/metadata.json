@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "In a surgical environment, there are many tools and objects (including the patient) being used. In a computer-aided surgery, the position of each of these tools in the operating room is very critical and generally will be tracked in their own coordinate systems. To show the surgeon a real time picture of the operating environment on a computer monitor, we need to know the position of each object with respect to one common coordinate system, which in turn can be achieved by knowing each coordinate system and the transforms between them. Image-Guided Surgical Toolkit is a software toolkit designed to enable biomedical researchers to rapidly prototype and create new applications for image-guided surgery. In IGSTK, in which the coordinate systems and the transforms are being successfully used, there is no central data structure or repository, which will hold all the coordinate systems and the transforms between them. Such a data structure could help the IGSTK software developers to have more confidence in the code they have written. This project develops a tool, which will create such a data structure and dynamically show the changes to it, to help such software developers to write better code.",
-    "articles": [
-      "bafkreid4riqevne4t3mxlexmedqguiru4i23rje3ngfw7icsi3gwzqestq"
-    ],
     "authors": [
       {
         "author_fullname": "Dandibhotla, Janakiram",
@@ -39,7 +36,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeibrzhfl26434uoxgsup7emldsyoqkgpk5gihzw76rzemvnjznccfa",
+        "article": "bafkreid4riqevne4t3mxlexmedqguiru4i23rje3ngfw7icsi3gwzqestq",
         "citation_list": [
           {
             "key": "ref1",

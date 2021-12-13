@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "Deformable (2D or 3D) medical image registration is a challenging problem. Existing approaches assume that the underlying deformation is smooth. This smoothness assumption allows for solving the deformable registration at a coarse resolution and interpolate for finer resolutions. However, sliding of organs and breathing motion, exhibit discontinuities. We propose a discrete optimization approach to preserve these discontinuities. Solving continuous deformations using discrete optimization requires a fine distribution of the discrete labels. Coupled with the typical size of medical image datasets, this poses challenges to compute solutions efficiently. In this paper we present a practical, multi-scale formulation. We describe how discontinuities can be preserved, and how the optimization problem is solved. Results on synthetic 2D, and real 3D data show that we can well approximate the smoothness of continuous optimization, while accurately maintaining discontinuities.",
-    "articles": [
-      "bafybeiftzmirt56gx3tvwwpyegts4duajpnyhzsgmnvbjawcwstcmqobkq"
-    ],
     "authors": [
       {
         "author_fullname": "Seo, Dohyung",
@@ -39,7 +36,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeifj3lfulkmosxkhbgwbehblyv62i37jnj3ievkium3nzam6jyop7m",
+        "article": "bafybeiftzmirt56gx3tvwwpyegts4duajpnyhzsgmnvbjawcwstcmqobkq",
         "citation_list": [
           {
             "doi": "10.1088/0031-9155/54/7/001",

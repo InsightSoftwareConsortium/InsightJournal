@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "Deforming a 3D surface mesh while preserving its local detail is useful for editing anatomical atlases or for mesh based segmentation. This contribution introduces new classes for performing hard and soft constraints deformation in a flexible design which allows user to switch easily in between Laplacian discretization operators, area weighing and solvers. The usage of these new\nclasses is demonstrated on a sphere.\n",
-    "articles": [
-      "bafkreihicqdqidfeh4gxbylpic6pehzxnc5zwqedmd4ctjgfry3qelfgu4"
-    ],
     "authors": [
       {
         "author_fullname": "Gelas, Arnaud",

@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "This code provides an implementation of a simple technique to fill small holes in an image. We use a multi-pass method that fills pixels on the border of a hole with the average of its non-hole 8-connected neighbors. This process is repeated until all holes are filled.\n\nThe code is available here: https://github.com/daviddoria/SmallHoleFiller",
-    "articles": [
-      "bafybeidfrxltg7setjyhdxwmz76jmpzpfr43bkvzqgmwcy2so4cumiswri"
-    ],
     "authors": [
       {
         "author_fullname": "Doria, David",
@@ -31,7 +28,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeiamdxzq6hvkbxzz7uh2rjmmmlfn7gklq6hfzo2djbmodsd7rbhgqi",
+        "article": "bafybeidfrxltg7setjyhdxwmz76jmpzpfr43bkvzqgmwcy2so4cumiswri",
         "dapp": null,
         "dataset": null,
         "doi": null,

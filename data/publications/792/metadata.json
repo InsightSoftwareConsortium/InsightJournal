@@ -1,12 +1,6 @@
 {
   "publication": {
     "abstract": "We present a filter that voxelizes the volume of a 3D structured, unstructured, or rectilinear grid into a vtkImageData with partial volume effects. The partial grid volume occupying each voxel is computed exactly from the intersection of the grid volume and the voxel volume. ",
-    "articles": [
-      "bafkreick7sxlokgmzptpdjmy3tmoaccg2admdidvhlit4wc4j3va5n7q7a",
-      "bafkreick7sxlokgmzptpdjmy3tmoaccg2admdidvhlit4wc4j3va5n7q7a",
-      "bafkreick7sxlokgmzptpdjmy3tmoaccg2admdidvhlit4wc4j3va5n7q7a",
-      "bafkreick7sxlokgmzptpdjmy3tmoaccg2admdidvhlit4wc4j3va5n7q7a"
-    ],
     "authors": [
       {
         "author_fullname": "Quammen, Cory",

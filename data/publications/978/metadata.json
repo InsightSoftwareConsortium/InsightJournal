@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "This document describes a new class, itk::RLEImage, which uses run-length encoding to reduce the memory needed for storage of label maps. This class is accompanied by all the iterators to make it a dropin replacement for itk::Image. By changing the image typedef to itk::RLEImage, many ITK image processing algorithms build without modification and with minimal performance overhead. However, it is not possible if the user code uses GetBufferPointer() or otherwise assumes a linear pixel layout.\n\nThis class is implemented to reduce the memory use of ITK-SNAP (www.itksnap.org), so ITKSNAP is the base for measuring the quantitative results.\n\nThe class, accompanying iterator specializations, automated regression tests, and test data are all packaged as an ITK remote module https://github.com/KitwareMedical/ITKRLEImage.",
-    "articles": [
-      "bafkreih2ajj2lowqji3636nkpd2lmbcyhs7mrogbc3q3qfiw5jqmyb3n3q"
-    ],
     "authors": [
       {
         "author_fullname": "McCormick, Matthew",
@@ -52,7 +49,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeidx6npggmmxaju3lqc4w75rxvnb4tyu37mrcyezrnhp2b4sirtlqe",
+        "article": "bafkreih2ajj2lowqji3636nkpd2lmbcyhs7mrogbc3q3qfiw5jqmyb3n3q",
         "citation_list": [
           {
             "key": "ref1",

@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "We have successfully created a software environment in which ultrasound data can be manipulated by, ITK (the Insight Tool-Kit), in real-time. We were able to access each frame generated within the resident computer of a TerasonTM Ultrasound Machine, convert it into the ITK image format, and demonstrate the concurrent operation of ITK on the same computer by writing the images to an external hard drive. At a rate of 10 frames per second, 512 by 512 pixel grayscale frames were written by ITK methods to the external hard drive through USB 2.0 while the ultrasound scan was occurring without thrashing or delay in system performance. This simple exercise demonstrates the potential of ITK in processing ultrasound images in real-time in addition to the more traditional off-line processing.",
-    "articles": [
-      "bafkreiefdy6ocqyecmxresmcafzqdmoruqo5si2yyyojm3gcyqxroir7rm"
-    ],
     "authors": [
       {
         "author_fullname": "Wang, David",

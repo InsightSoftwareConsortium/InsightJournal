@@ -1,17 +1,6 @@
 {
   "publication": {
     "abstract": "This article provides an implementation of our non-parametric diffeomorphic image registration algorithm generalizing Thirion's demons algorithm. Within the Insight Toolkit (ITK), the demons algorithm is implemented as part of the finite difference solver framework. We show that this framework can be extended to handle diffeomorphic transformations. The source code is composed of a set of reusable ITK filters and classes. In addition to an overview of our implementation, we provide a small example program that allows the user to compare the different variants of the demons algorithm.",
-    "articles": [
-      "bafkreiafgdwmxvltj4ywsmparqcjis7x7yxqkbp25yp365t3swsx3l6p5i",
-      "bafkreia7ysaeszlngmxh7rdzung3dgipcbd66j3rg5zx5yd4dmnnbgv3bq",
-      "bafkreia7ysaeszlngmxh7rdzung3dgipcbd66j3rg5zx5yd4dmnnbgv3bq",
-      "bafkreifxdezolbzmiuz67nudb7wdvy7qyv3reh5fmj7da3fcogptwj6xwi",
-      "bafkreiafgdwmxvltj4ywsmparqcjis7x7yxqkbp25yp365t3swsx3l6p5i",
-      "bafkreifxdezolbzmiuz67nudb7wdvy7qyv3reh5fmj7da3fcogptwj6xwi",
-      "bafkreibxaqfe2hwmgjuuc4nadjfkyk7fxj7ewd4nxhmru4jpcm7plg2nlu",
-      "bafkreifxdezolbzmiuz67nudb7wdvy7qyv3reh5fmj7da3fcogptwj6xwi",
-      "bafkreifxdezolbzmiuz67nudb7wdvy7qyv3reh5fmj7da3fcogptwj6xwi"
-    ],
     "authors": [
       {
         "author_fullname": "Vercauteren, Tom",

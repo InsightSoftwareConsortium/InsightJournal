@@ -1,10 +1,6 @@
 {
   "publication": {
     "abstract": "This document describes a tiny application developed using the Insight Toolkit, ITK www.itk.org. The goal of the document is to facilitate ease of use of the application by following the guidelines given in the document. The application does not claim to achieve anything more than the segmentation of the data given with this submission. This paper is accompanied with the source code, input data, parameters and output data that the authors used for validating the algorithm described in this paper. This adheres to the fundamental principle that scientific publications must facilitate reproducibility of the reported results.",
-    "articles": [
-      "bafkreigskggp4szxtlr6h6arowjvxjbw3ptiqhlt6vtojot6b32lf4z4mq",
-      "bafkreigskggp4szxtlr6h6arowjvxjbw3ptiqhlt6vtojot6b32lf4z4mq"
-    ],
     "authors": [
       {
         "author_fullname": "Narayanaswamy, Arunachalam",
@@ -41,7 +37,7 @@
     ],
     "revisions": [
       {
-        "article": null,
+        "article": "bafkreigskggp4szxtlr6h6arowjvxjbw3ptiqhlt6vtojot6b32lf4z4mq",
         "citation_list": [
           {
             "doi": "10.1016/j.acra.2005.05.027",

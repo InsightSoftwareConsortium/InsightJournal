@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "Gross shape measures such as volume have been widely used in statistical analysis of anatomical structures. Statistical shape analysis methods have emerged within the last decade to allow for a localized analysis of shape. Most shape analysis frameworks are though lacking a good statistical underpinning, as they commonly do not allow for the inclusion of independent variables such as age, gender or clinical\nscores. This work presents a unified method for local shape analysis that can accomodate different number of variates and contrasts. It also allows to include any number of associated variables in the statistical analysis of the data. Several cases of study are given to clarify the explanation of the different types of data that can be analyzed and the parameters that can be used to tune the program shapeAnalysisMANCOVA. This tool has been designed to interact seamlessly with the existing UNC SPHARM-PDM based shape analysis toolbox.",
-    "articles": [
-      "bafkreie6erpe7a5hclrbbxjc6rhqfnlycxr4kfxcc4cgxckz255camqmj4"
-    ],
     "authors": [
       {
         "author_fullname": "Pantazis, Dimitrios",
@@ -54,7 +51,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeietsjp5me5twnrfpnjstxeqokhfbhtklp24tbemqrdsbxzpsgsuky",
+        "article": "bafkreie6erpe7a5hclrbbxjc6rhqfnlycxr4kfxcc4cgxckz255camqmj4",
         "citation_list": [
           {
             "key": "ref1",

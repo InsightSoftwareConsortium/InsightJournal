@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "Visualizing metabolic phenotypes, tracking phenotype dynamics, and screening molecular interventions all require comprehensive,\r\nquantitative measures of micromolecular patterns across cell classes. In this project we develop an easy-to-use interface that permits the same sequence of operations as described in Marc and Jones [1] and is based on Cell Kit developed by Marc's lab. Work products for this project include: user application software (Matlab), user manual and if possible, a web portal interface to allow internet access and application of the system. The MORPHIAS system will be implemented by means of a Matlab function which creates a GUI which allows the user to import molecular signature images (in TIFF format), and then to perform classification using a clustering algorithm, and to then perform data analysis on the result.",
-    "articles": [
-      "bafkreiaonkklri52qwwosqklnxzxgbqd2kgljw37e34jc3voqkpcgqiu4u"
-    ],
     "authors": [
       {
         "author_fullname": "Henderson, Thomas",

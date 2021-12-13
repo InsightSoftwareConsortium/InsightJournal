@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "Isotropic volumetric acquisition in Magnetic Resonance Imaging (MRI) is often challenging. A large number of factors such as patient or physiological motion, signal-to-noise ratio (SNR), available static magnetic field B0 and total scanning\ntime limit the acquired resolution. Super-resolution (SR) is a post-processing tech-\nnique that optimally combines several anisotropic scans into a single isotropic volume that was not - or could not be - acquired in practice. If necessary conditions are met, the resulting isotropic volume offers clear improvements over the initial acquisitions such as reduced partial volume effect, oblique visualization and improved sharpness and SNR. This paper details the misoSR implementation of a SR isotropicreconstruction algorithm using the Insight Toolkit Library (ITK) library. It is a generic implementation that reconstructs an isotropic volume from any number of anisotropic volumes acquired from any orientation. The algorithm takes advantage of the inputs header information to handle the different scans properties such as field of view (FOV), resolution parameters and orientation. Step by step details on the implementation are given, parameters are individually detailed, and results are shown on different applications as an example of SR reconstruction. The algorithm is hosted on the Creatis Virtual Imaging Platform (VIP), which allows users to run misoSR without having to install the software on their system.",
-    "articles": [
-      "bafkreigx3gd4coidgnqbezssx2c76oufavva3pjqnuhmieni2zemtrvo3u"
-    ],
     "authors": [
       {
         "author_fullname": "Van Reeth, Eric",
@@ -51,7 +48,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeihnhreffsn7mdkzsfsjqsdf4ppneydvvrlwbs5n2limqkx6tqk2la",
+        "article": "bafkreigx3gd4coidgnqbezssx2c76oufavva3pjqnuhmieni2zemtrvo3u",
         "citation_list": [
           {
             "doi": "10.1002/mrm.10203",

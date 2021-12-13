@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "This code provides an implementation of two techniques from ``Poisson Image Editing'' on ITK images. First, we fill a hole in an image given only the pixel values on the boundary. Second, we copy a patch of an image into another image and make the result as smooth as possible. We also explain how these techniques can be used to reconstruct an image after perform editing operations in the gradient domain.\n\nThe code is available here: https://github.com/daviddoria/PoissonEditing",
-    "articles": [
-      "bafkreicdx24ohkq4ujlynqn3eowlobaggwd4uv5gtu2b5zszmwunyynooe"
-    ],
     "authors": [
       {
         "author_fullname": "Doria, David",
@@ -33,7 +30,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeictz2yxbty4ifufbp6nx77vddhkknbn2nwaqxin7hiry62d7zxhra",
+        "article": "bafkreicdx24ohkq4ujlynqn3eowlobaggwd4uv5gtu2b5zszmwunyynooe",
         "citation_list": [
           {
             "doi": "10.1145/882262.882269",

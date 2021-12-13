@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "We propose a new MAP-based technique for the unsupervised segmentation of different brain structures (white matter, gray matter, etc.) from T1-weighted MR brain images. In this paper, we follow a procedure like most conventional approaches, in which T1-weighted MR brain images and desired maps of regions (white matter, gray matter, etc.) are modeled by a joint Markov-Gibbs Random Field model (MGRF) of independent image signals and interdependent region labels. However, we specifically focus on the most accurate model identification that can be achieved. The proposed joint MGRF model accounts for the following three descriptors: i) a 1st-order visual appearance descriptor(empirical distribution of signal intensity), ii) a 3D probabilistic shape prior, and iii) a 3D spatially invariant 2nd-order homogeneity descriptor. To better specify the 1st-order visual appearance descriptor, each empirical distribution of signals is precisely approximated by a Linear Combination of Discrete Gaussians (LCDG) having both positive and negative components. The 3D probabilistic shape prior is learned using a subset of 3D co-aligned training T1-weighted MR brain images. The 2nd-order homogeneity descriptor is modeled by a 2nd-order translation and rotation invariant MGRF of 3D T1-weighted MR brain region labels with analytically estimated potentials. The initial segmentation, based on a 1st-order visual appearance and 3D probabilistic shape, is then iteratively refined using a 3D MGRF model with analytically estimated potentials. Experiments on twelve 3D T1-weighted MR brain images confirm the high accuracy of the proposed approach.",
-    "articles": [
-      "bafybeibrv4nm2z7oysyebbkx4bcsvun6ukkxzz3wimoltzvqa6f6idhpj4"
-    ],
     "authors": [
       {
         "author_fullname": "Alansary, Amir",
@@ -70,7 +67,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeiblgfcx5d2ri22cwgf4uzhmwbkmczz7prueppto4hv6ylf2aea3qe",
+        "article": "bafybeibrv4nm2z7oysyebbkx4bcsvun6ukkxzz3wimoltzvqa6f6idhpj4",
         "citation_list": [
           {
             "doi": "10.1007/s10462-010-9155-0",

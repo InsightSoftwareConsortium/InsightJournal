@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "We present a method for automated brain-tissue segmentation through voxelwise classification. Our algorithm uses manually labeled training images to train a support vector machine (SVM) classifier, which is then used for the segmentation of target images. The classification incorporates voxel intensities from a T1-weighted scan, an IR scan, and a FLAIR scan; features to encode the voxel position in the image; and Gaussian-scale-space features and Gaussian-derivative features at\nmultiple scales to facilitate a smooth segmentation.\nAn experiment on data from the MRBrainS13 brain-tissue-segmentation challenge showed that our algorithm produces reasonable segmentations in a reasonable amount of time.",
-    "articles": [
-      "bafkreiapeayzk2z5qiocxbu65b4p5gzxfkx6f4iuon2dkuwaiy2fagvmli"
-    ],
     "authors": [
       {
         "author_fullname": "Van Opbroek, Annegreet",

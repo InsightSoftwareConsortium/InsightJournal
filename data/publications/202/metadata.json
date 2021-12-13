@@ -1,13 +1,6 @@
 {
   "publication": {
     "abstract": "Parameterization of surfaces, sometimes alled \u201d\u2018flattening\u201d\u2019 as it maps a surface embedded in 3D into its intrinsic 2D domain, is a powerfull tool for the analysis of surfaces. For the past years, there has been a growing interest in the Community that even lead to one implementation of one special type of parameterization in ITK [1,5,8,9]. We are providing here a more general framework for parameterization of single connected surfaces of any genus. It is based on a recent addition to ITK: itkQuadEdgeMesh [6] which allows an elegant an optimal implementation of algorithm for geometry and topology processing of discrete 2-manifolds. The 5 algorithms that we implemented map the meshes into a planar domain with fixed boundary leading to more stability and speed than mapping into the spherical domain. Each of them use different kind of parameterization with different properties. The conformal parameterization is usually used as it is intrinsic to the geometry of the mesh and thus allow shape analysis independently of the connectivity. However if flattening the mesh is your only goal, then the simplest parameterization algorithm (graph theory) will give you the best speed. This is the case when you want to further process the mesh in a lower dimension. Using specific solvers, the parameterization of meshes can be done sufficiently fast (couple of seconds) to consider this approach in interactive applications.",
-    "articles": [
-      "bafkreie252oh7wezzgqryabf43guyodgq4wgzwtxofrxqlkhvlfdsftcwu",
-      "bafkreie252oh7wezzgqryabf43guyodgq4wgzwtxofrxqlkhvlfdsftcwu",
-      "bafkreie252oh7wezzgqryabf43guyodgq4wgzwtxofrxqlkhvlfdsftcwu",
-      "bafkreie252oh7wezzgqryabf43guyodgq4wgzwtxofrxqlkhvlfdsftcwu",
-      "bafkreie252oh7wezzgqryabf43guyodgq4wgzwtxofrxqlkhvlfdsftcwu"
-    ],
     "authors": [
       {
         "author_fullname": "Gelas, Arnaud",

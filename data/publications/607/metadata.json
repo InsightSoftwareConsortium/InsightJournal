@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "Liver tumors segmentation is an important prerequisite for planning of surgical interventions.\r\nFor clinical applicability, the segmentation approach must be able to cope with\r\nthe high variation in shape and gray-value appearance of the liver. We present a fully\r\nautomatic 3D segmentation method for the liver tumors from contrast-enhanced CT data.\r\nThe method consists of two main stages.\r\nFirst an initial histogram and statistical distribution functions are created, and from\r\nthem a new image is created where, in each voxel, a weighted function is attached in accordance\r\nwith the probability of the voxel grey level. Next, we use the active contour method\r\non the new image, where the active contour evolution is based upon the minimization of\r\nvariances between the liver tumor and its closest neighborhood.",
-    "articles": [
-      "bafkreigd3v4bxsrx5jcze7eqbfgps5sx3pl27dxatnh6v47ecphsfa6vj4"
-    ],
     "authors": [
       {
         "author_fullname": "Ben-Dan, Itay",
@@ -45,7 +42,7 @@
     ],
     "revisions": [
       {
-        "article": "bafybeifml2r5mfvscakd6micc7backupzpua72mxmrlbwxouutnvf674be",
+        "article": "bafkreigd3v4bxsrx5jcze7eqbfgps5sx3pl27dxatnh6v47ecphsfa6vj4",
         "citation_list": [
           {
             "doi": "10.1007/978-3-540-73273-0_4",

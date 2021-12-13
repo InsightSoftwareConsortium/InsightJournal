@@ -1,11 +1,6 @@
 {
   "publication": {
     "abstract": "Ultrasound is a very useful and convenient modality in medical imaging, due to its relatively small footprint, high resolution, negligible adverse effects, and real-time imaging capability -- in spite of its well-known artifacts. However, it is fairly difficult to fully benefit from its resolution and speed in advanced imaging research because of the closed nature of most ultrasound systems.\n\nWe propose a modular and extensible open-source toolkit MUSiiC S/W for rapid development and system setup for ultrasound research. Aimed at algorithm and experimental system builders as well as at clinical research, it allows standardized access to various types of ultrasound-derived real-time data streams, incorporates various tracking facilities, volume reconstruction, and connections to external software tools. By providing well-defined open standard interfaces between those building blocks, we aim at easy extensibility for third-party researchers.",
-    "articles": [
-      "bafybeie3zsdtrqrydv4a2lkucpgkvacbyj5al5mx5bad6kitljfvo3r67m",
-      "bafybeihviebgeeqtxqpi5itm4cdyah4c3pzp3hjhevtgr3cw7rozoyd7bq",
-      "bafybeidszhqqtz7hki6lvyas3ccwz22evyd5ogbimfp2cjwfqibpuacpti"
-    ],
     "authors": [
       {
         "author_fullname": "Stolka, Philipp",
@@ -51,7 +46,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeiakobphso3qn53cdclh2wwx5symsnxf7gvhnneu7z7tfxnt7bqwuq",
+        "article": "bafybeidszhqqtz7hki6lvyas3ccwz22evyd5ogbimfp2cjwfqibpuacpti",
         "citation_list": [
           {
             "doi": "10.1016/j.ultrasmedbio.2004.11.001",

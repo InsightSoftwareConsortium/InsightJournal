@@ -1,10 +1,6 @@
 {
   "publication": {
     "abstract": "Fractal analysis for medical image classification and analysis was introduced in cite{Chen1989}. According to the authors, when viewed as an intensity surface, Mandelbrot\\'s fractal theory provides an informative framework for characterizing such a surface. Using the fractional Brownian motion model, the authors provide an algorithm for converting a scalar image to a fractal dimension image for classification purposes or edge enhancement. This submission constitutes a report on the ITK implementation of this algorithm. ",
-    "articles": [
-      "bafybeieje4uzu6pa2glehwl4itcitnea34dq6v5aoso6zd3oxx6h5mcrra",
-      "bafybeifx6bwki6dz7wjz4wffrutgnqbwsnivbu4jbu2tam5oefa6iok6om"
-    ],
     "authors": [
       {
         "author_fullname": "Tustison, Nicholas",
@@ -43,7 +39,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeif2ppfpt7qw3s3poup7xjnuipo2cx3ape2tmam7w5o5fuwh25zu7y",
+        "article": "bafybeifx6bwki6dz7wjz4wffrutgnqbwsnivbu4jbu2tam5oefa6iok6om",
         "dapp": null,
         "dataset": null,
         "doi": null,

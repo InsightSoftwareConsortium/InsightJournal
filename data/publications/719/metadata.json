@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "This document presents an implementation of a stratified mesh sampling algorithm in the VTK framework. This code was adapted directly from the original implementation by Diego Nehab, with permission. We present a class, vtkStratifiedSampling, which uniformly samples a mesh. A Paraview plugin interface is provided to allow extremely easy experimentation with the new functionality. We propose these classes as an addition to the Visualization Toolkit.",
-    "articles": [
-      "bafkreifv4v6iejjqnmb4hy2oxom35clidu27chsll6ahwl5qzcfx6xh3wu"
-    ],
     "authors": [
       {
         "author_fullname": "Doria, David",
@@ -40,7 +37,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeicq2vfecnoidazwbq73d77b5ohwgw4rx5spc37hlz36fdjczq5zhe",
+        "article": "bafkreifv4v6iejjqnmb4hy2oxom35clidu27chsll6ahwl5qzcfx6xh3wu",
         "citation_list": [
           {
             "key": "ref1",

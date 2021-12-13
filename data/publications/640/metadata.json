@@ -1,19 +1,6 @@
 {
   "publication": {
     "abstract": "Several algorithms exist for correcting the nonuniform intensity in magnetic resonance images caused by field inhomogeneities. These algorithms constitute important preprocessing steps for subsequent image analysis tasks. One such algorithm, known as parametric bias field correction (PABIC), has already been implemented in ITK. Another popular algorithm is the nonuniform intensity normalization (N3) approach. A particularly salient advantage of this algorithm is that it does not require a prior tissue model for its application. In addition, the source code for N3 is publicly available at the McConnell Brain Imaging Centre (Montreal Neurological Institute, McGill University) which includes source code and the coordinating set of perl scripts. This submission describes an implementation of the N3 algorithm for the Insight Toolkit given as a single class, viz.\titk::N3MRIBiasFieldCorrectionImageFilter. We tried to maintain minimal difference between the publicly available MNI N3 implementation and our ITK im- plementation. The only intentional variation is the substitution of an earlier contribution, i.e. the class itk::BSplineScatteredDataPointSetToImageFilter, for the originally proposed least-squares approach for B-spline fitting used to model the bias field. In addition, we include a more extensive modification to the original N3 algorithm found in the class itk::N4MRIBiasFieldCorrectionImageFilter. The latter algorithm employs a multi-resolution approach, similar to FFD image registration strategies, and has a slightly modified iterative update scheme.",
-    "articles": [
-      "bafkreie5kpvbhnhi6jkjnatltt5q3bdvd5f2lcgsognj55hy47d64npg74",
-      "bafkreiaeutxe77nvtfnmfh76v456drpiiiktje35qabg4rxpdqqya3fa6i",
-      "bafkreie5kpvbhnhi6jkjnatltt5q3bdvd5f2lcgsognj55hy47d64npg74",
-      "bafkreif43tr3zyicmceulutdciwh4f4wvp2rh5lhyx5xikwb53o5g7p5pa",
-      "bafkreid6hkojjzwzabw3fsqkccbvehgfma7v6f3mreqois3ikk56ndatly",
-      "bafkreie5kpvbhnhi6jkjnatltt5q3bdvd5f2lcgsognj55hy47d64npg74",
-      "bafkreie5kpvbhnhi6jkjnatltt5q3bdvd5f2lcgsognj55hy47d64npg74",
-      "bafkreid6hkojjzwzabw3fsqkccbvehgfma7v6f3mreqois3ikk56ndatly",
-      "bafkreif43tr3zyicmceulutdciwh4f4wvp2rh5lhyx5xikwb53o5g7p5pa",
-      "bafkreia7zqwbiynrlparyrbi2old54dcpzc6n722ojutrqdh26suy67mxm",
-      "bafkreif43tr3zyicmceulutdciwh4f4wvp2rh5lhyx5xikwb53o5g7p5pa"
-    ],
     "authors": [
       {
         "author_fullname": "Tustison, Nicholas",
@@ -66,7 +53,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeieaen2ibnrucbw4bvlwvsjmb2t4i3o6ups7frjslmw3jflklvd5qu",
+        "article": "bafkreia7zqwbiynrlparyrbi2old54dcpzc6n722ojutrqdh26suy67mxm",
         "citation_list": [
           {
             "doi": "10.1016/j.neuroimage.2007.10.026",

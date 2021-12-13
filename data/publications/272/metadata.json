@@ -1,10 +1,6 @@
 {
   "publication": {
     "abstract": "noindent This document describes two new classes that facilitate the use of\r\nthe doxygen{BSplineDeformableTransform} in multiresolution registration\r\nalgorithms. The first class, doxygen{GridScheduleComputer}, defines the\r\nB-spline grid, based on a user-specified grid spacing and an input image (the\r\nfixed image in registration). A different grid is determined for each\r\nresolution level of the registration, given a multiresolution schedule similar\r\nto that of the image pyramids. The second class,\r\ndoxygen{UpsampleBSplineParametersFilter}, resamples (usually upsamples) the\r\nB-spline coefficients to a new control point grid having a different\r\nspacing/origin/size. This can be used to transfer the result from one\r\nresolution level to that of the next level. Summarising, suitable grid\r\ndefinitions follow from the first class, and are used as input for the second\r\nclass, which performs the actual resampling.\r\n\r\nThe classes are implemented using the Insight Toolkit url{www.itk.org}. This\r\npaper is accompanied with the source code, including a test program.",
-    "articles": [
-      "bafkreibigmgubfwlv2eqzgxbeim2rtdbiubzvu2abq2jn3fyu4upcdaeha",
-      "bafkreie7ahphlvbt76hxikwsaykwfoy2dge6lgu6jko3jh6wnym3ye5zo4"
-    ],
     "authors": [
       {
         "author_fullname": "Staring, Marius",

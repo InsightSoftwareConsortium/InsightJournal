@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "ITK includes a number of iterators including the {\\em itkImageLinearConstIteratorWithIndex} and {\\em\r\nitkImageLinearIteratorWithIndex} that support visiting voxels along\r\nlines parallel to the image axes. This is particularly useful for\r\nseparable filters. This article introduces modified versions that do\r\nnot maintain location index so that filters that don't require index\r\ninformation can perform faster.\r\n\r\nPreliminary tests indicate that the iteration speed is improved, but\r\nthat filters such as the RecursiveSmoothingGaussianImageFilter do not\r\nchange significantly.",
-    "articles": [
-      "bafkreihoa4cuv423ku4pkkfmscfstpvgejtaiflimiurfyi3ktvsm2ka5y"
-    ],
     "authors": [
       {
         "author_fullname": "Beare, Richard",

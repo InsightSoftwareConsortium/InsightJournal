@@ -1,10 +1,6 @@
 {
   "publication": {
     "abstract": "ITK has a powerful and flexible image IO framework. Reading and writing different types of image file is straightforward. The image IO could be easily extended by writing a specific image IO class for a new image file format. Whereas, there is no such framework for easily reading and writing itk::Mesh/itk::QuadEdgeMesh, At the moment, only a few specific classes to read vtk polydata format and is not easily to be extended. This paper describes our contribution to itk for providing a mesh IO framework which could be used for reading and writing some commonly used mesh file formats. The mesh IO classes worked well for both itk::Mesh and itk::QuadEdgeMesh.",
-    "articles": [
-      "bafkreihufcmgfadlgsps5r4c4kyjog4b6r5iihdlychudbitccobekvraq",
-      "bafkreihufcmgfadlgsps5r4c4kyjog4b6r5iihdlychudbitccobekvraq"
-    ],
     "authors": [
       {
         "author_fullname": "Zhu, Wanlin",

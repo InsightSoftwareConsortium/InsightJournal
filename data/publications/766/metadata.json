@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "K-Means clustering is an excellent technique for clustering points when the number of clusters is known. We present a implementation (vtkKMeanClustering) of the algorithm written in a VTK context. We also implement the K-Means++ initialization method which finds the global optimum much more frequently than a naive/random initialization.\n\nThe code is currently hosted at http://github.com/daviddoria/KMeansClustering .",
-    "articles": [
-      "bafkreihjreqdsvhnzb7tmotnrzaayawjavlhpr7mffmvecg26s5s6afgsq"
-    ],
     "authors": [
       {
         "author_fullname": "Doria, David",

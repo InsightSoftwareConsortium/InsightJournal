@@ -1,11 +1,6 @@
 {
   "publication": {
     "abstract": "A method for automatic liver tumor segmentation from computer tomography (CT) images is presented in this paper. Segmentation is an important operation before surgery planning, and automatic methods offer an alternative to laborious manual segmentation. In addition, segmentations of automatic methods are reproducible, so they can be reliably evaluated and they do not depend on the performer of the segmentation. In this work, the segmentation is performed in two stages. First a rough segmentation of tumors is obtained by simple thresholding and morphological operations. \r\nThe second stage refines the rough segmentation result using fuzzy clustering and a geometric deformable model (GDM) that is fitted on the clustering result. \r\nThe method was evaluated with data provided by Liver Tumor Segmentation Challenge 08, to which the method also participated. The data included 10 \r\nimages from which 20 tumors were segmented. The method showed promising results.",
-    "articles": [
-      "bafybeicfzw3itbrrjv3x63c4orxx43aedt7fbudwtwxoh3oheloy35ssuy",
-      "bafkreieq2jqqmjwywzbxfkg4orwhpj7usqr7idxwycnqs3ultt2wdvqzzy",
-      "bafkreifoxr5zbqy5ytrkbfjjsama3idx7i6rv4k3hkgrle6mrgurqtwryu"
-    ],
     "authors": [
       {
         "author_fullname": "Hame, Yrjo",
@@ -41,7 +36,7 @@
     ],
     "revisions": [
       {
-        "article": "bafybeibk7q27keenv7jiidkiqcnj3j43awhwuuehaucruyygpmrbj444fu",
+        "article": "bafkreifoxr5zbqy5ytrkbfjjsama3idx7i6rv4k3hkgrle6mrgurqtwryu",
         "citation_list": [
           {
             "doi": "10.1007/978-3-540-73055-2_8",

@@ -1,10 +1,6 @@
 {
   "publication": {
     "abstract": "Using the path framework we previously added to ITK, we implemented a novel algorithm for n-dimensional path optimization, which we call the ND Swath (NDS). NDS uses dynamic programming to globally optimize the placement of a path within an image, subject to several constraints and a user-supplied merit function. The NDS algorithm is presented in this paper along with a description of how it was implemented using ITK.",
-    "articles": [
-      "bafybeialm36s2t5w72b47mpqiwflpwlpbtif33msyumha6w5i4sghqbpzm",
-      "bafybeialm36s2t5w72b47mpqiwflpwlpbtif33msyumha6w5i4sghqbpzm"
-    ],
     "authors": [
       {
         "author_fullname": "Galeotti, John",
@@ -60,7 +56,7 @@
     ],
     "revisions": [
       {
-        "article": "bafybeieanuf57rsvo6qizrdemzsonyj2xegrlvhcjgha24w6er33cvqdhy",
+        "article": "bafybeialm36s2t5w72b47mpqiwflpwlpbtif33msyumha6w5i4sghqbpzm",
         "citation_list": [
           {
             "doi": "10.1109/34.277589",

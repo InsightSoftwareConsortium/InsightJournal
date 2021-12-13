@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "The elastic registration of medical scans from different acquisition sequences is becoming an important topic for many research labs that would like to continue the post-processing of medical scans acquired via the new generation of high-field-strength scanners. In this note, we present a parameter-free registration algorithm that is well suited for this scenario as it requires no tuning to specific acquisition sequences. The algorithm encompasses a new numerical scheme for computing elastic registration maps based on the minimizing flow approach to optimal mass transport. The approach utilizes all of the gray-scale data in both images, and the optimal mapping from image A to image B is the inverse of the optimal mapping from B to A. Further, no landmarks need to be specified, and the minimizer of the distance functional involved is unique. We apply the algorithm to register the white matter folds of two different scans and use the results to parcellate the cortex of the target image. To the best of our knowledge, this is the first time that the optimal mass transport function has been applied to register large 3D multimodal data sets.",
-    "articles": [
-      "bafkreihufgszri7oqbexabshjqaftgbeosbl3aftbj52q7afb3nrfedvey"
-    ],
     "authors": [
       {
         "author_fullname": "Wald, Lawrence",
@@ -100,7 +97,7 @@
     ],
     "revisions": [
       {
-        "article": "bafybeidsqqsdzkmrghlajyy3horig6zrjco3csz7ydwddrnygxjhf2g3ky",
+        "article": "bafkreihufgszri7oqbexabshjqaftgbeosbl3aftbj52q7afb3nrfedvey",
         "citation_list": [
           {
             "key": "ref1",

@@ -1,13 +1,6 @@
 {
   "publication": {
     "abstract": "We present a method for tracking a coronary artery centerline given a single user supplied distal endpoint. Briefly, we first isolate the aorta and compute its surface. Next, we apply a novel two-stage Hough-like election scheme to the image volume to detect points which exhibit axial symmetry (vessel centerpoints). From the axial symmetry image a graph is constructed. This graph is searched for the optimal path from the user supplied point to any point on the surface of the aorta. Our technique falls under Challenge 2 of the Coronary Artery Tracking Challenge.",
-    "articles": [
-      "bafkreidomcatgre6skrv3lrz5wubvl2elcztkvnnntavuftwsfhsqksu2u",
-      "bafkreidomcatgre6skrv3lrz5wubvl2elcztkvnnntavuftwsfhsqksu2u",
-      "bafkreidomcatgre6skrv3lrz5wubvl2elcztkvnnntavuftwsfhsqksu2u",
-      "bafkreidomcatgre6skrv3lrz5wubvl2elcztkvnnntavuftwsfhsqksu2u",
-      "bafkreidomcatgre6skrv3lrz5wubvl2elcztkvnnntavuftwsfhsqksu2u"
-    ],
     "authors": [
       {
         "author_fullname": "Dikici, Engin",

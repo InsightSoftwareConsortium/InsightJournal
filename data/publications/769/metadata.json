@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "The Random Sample Consensus (RANSAC) algorithm for robust parameter value estimation has been applied to a wide variety of parametric entities (e.g. plane, the fundamental matrix). In many implementations the algorithm is tightly integrated with code pertaining to a specific parametric object. In this paper we introduce a generic RANSAC implementation that is independent of the estimated object. Thus, the user is able to ignore outlying data elements potentially found in their input. To illustrate the use of the algorithm we implement the required components for estimating the parameter values of a hyperplane and hypersphere.\n",
-    "articles": [
-      "bafkreiflk53h46rhuzefhxgghmdqosu7aupqcddfsqw4ghxrn7il6r4rru"
-    ],
     "authors": [
       {
         "author_fullname": "Yaniv, Ziv",
@@ -31,7 +28,7 @@
     "reviews": [],
     "revisions": [
       {
-        "article": "bafybeie3sgfv7qlwalgnd37aaxqrzh3ctdtw4ybley6qlhpgnr6lgyoxcu",
+        "article": "bafkreiflk53h46rhuzefhxgghmdqosu7aupqcddfsqw4ghxrn7il6r4rru",
         "citation_list": [
           {
             "doi": "10.1145/358669.358692",

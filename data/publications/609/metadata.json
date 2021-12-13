@@ -1,11 +1,6 @@
 {
   "publication": {
     "abstract": "Automatically segmenting subcortical structures in brain images has the potential to greatly accelerate drug trials and population studies of disease. Here we propose an automatic subcortical segmentation algorithm using the auto context model. Unlike many segmentation algorithms that separately compute a shape prior and an image appearance model, we develop a framework based on machine learning to learn a unified appearance and context model. In order to test the method, specificity and sensitivity measurements were obtained on a standardized dataset provided by the competition organizers. Our overall score of 77 seems to be competitive with others who's overall score was in the range of 50 - 90.",
-    "articles": [
-      "bafkreifwlubouja5e7vptyr7rcabzrehceytrwuucipf7bijq3whmysu2q",
-      "bafkreihkr5unjrnxfdrtj6vyonedyre4a3uysndflczdjktrn7dl5e6kia",
-      "bafkreieq6mu6ndicl6k7pxblzb5ntjwapdbqh7anwrxmu5rmk5wnpbbjdu"
-    ],
     "authors": [
       {
         "author_fullname": "Morra, Jonathan",

@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "In this paper , we propose an extension to the National Library of Medicine's Insight Segmentation and Registration Toolkit (ITK. www.itk.org) with a companion image access and archival system that merges the image transfer capabilities of DICOM with DSpace (www.dspace.org), an open-source web-based digital library technology. We have extended and linked existing, freely-available DICOM and digital library software to create DICOM Accessible Digital Libraries (DADLs). Specifically, DICOM objects (and other medical image data formats such at Analyze,MetaImage) uploaded to a DADL can be grouped with other files such as journal articles or tracker data, viewed as thumbnails, and made publicly or privately available for others to search and download from a linked DICOM server. In that manner, once a researcher has identified the data he / she needs via an Internet search using meaningful descriptors, the data can be directly downloaded via standard DICOM query and retrieve utilities and that data will be perpetually indexed and accessible via an Internet handle.",
-    "articles": [
-      "bafkreiady247celdq2gvkcouaoxxnwxu6uellusnvk5mzv5n2tz3voioi4"
-    ],
     "authors": [
       {
         "author_fullname": "Dalal, Dhaval",

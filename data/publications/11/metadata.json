@@ -1,9 +1,6 @@
 {
   "publication": {
     "abstract": "A novel fiber tracking algorithm (GTRACT) was developed to enhance tracking through ambiguous regions where cross fibers, fiber merging or fanning may be occurring. The software was developed using several cross platform open-source toolkits (ITK, VTK, and FLTK). The algorithm was evaluated using a freely available digital phantom dataset provided by King's College London. The results show that the GTRACT algorithm performed significantly better than standard streamline approaches and is less affected by noise.",
-    "articles": [
-      "bafkreiedhzgf3oytzygfke47bklzbjjpoi4dzhfobjeh5jxwpb3siujtpu"
-    ],
     "authors": [
       {
         "author_fullname": "Magnotta, Vincent",
