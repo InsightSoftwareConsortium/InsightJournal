@@ -1,11 +1,11 @@
 import * as React from 'react';
 import { StaticQuery, graphql } from 'gatsby'
-import Grid from '@material-ui/core/Grid';
+import Grid from '@mui/material/Grid';
 import Title from './Title';
 import Logo from './Logo';
 import Search from './Search';
 import JournalMenuButton from './JournalMenuButton'
-import { makeStyles } from '@material-ui/styles';
+import { makeStyles } from '@mui/styles';
 
 const useStyles = makeStyles((theme) => ({
   root: {

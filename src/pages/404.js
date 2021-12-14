@@ -1,9 +1,9 @@
 import * as React from 'react';
-import StyledEngineProvider from '@material-ui/core/StyledEngineProvider';
-import Container from '@material-ui/core/Container';
-import Typography from '@material-ui/core/Typography';
-import Box from '@material-ui/core/Box';
-import SvgIcon from '@material-ui/core/SvgIcon';
+import StyledEngineProvider from '@mui/material/StyledEngineProvider';
+import Container from '@mui/material/Container';
+import Typography from '@mui/material/Typography';
+import Box from '@mui/material/Box';
+import SvgIcon from '@mui/material/SvgIcon';
 import Link from '../components/Link';
 import Copyright from '../components/Copyright';
 import { GatsbyImage } from "gatsby-plugin-image"

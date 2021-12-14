@@ -1,19 +1,19 @@
 import * as React from "react";
 import { graphql } from "gatsby";
-import { ThemeProvider, makeStyles } from '@material-ui/styles';
-import Typography from '@material-ui/core/Typography';
-import Box from '@material-ui/core/Box';
+import { ThemeProvider, makeStyles } from '@mui/styles';
+import Typography from '@mui/material/Typography';
+import Box from '@mui/material/Box';
 import Link from '../components/Link';
-import Container from '@material-ui/core/Container';
+import Container from '@mui/material/Container';
 import theme from '../theme';
 import Layout from '../components/Layout';
 import PublicationsTable from '../components/PublicationsTable';
-import IssuesIcon from '@material-ui/icons/LibraryBooksOutlined';
-import NavigateBeforeIcon from '@material-ui/icons/NavigateBefore';
-import NavigateNextIcon from '@material-ui/icons/NavigateNext';
-import Button from '@material-ui/core/Button';
-import Tooltip from '@material-ui/core/Tooltip';
-import Fade from '@material-ui/core/Fade';
+import IssuesIcon from '@mui/icons-material/LibraryBooksOutlined';
+import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
+import NavigateNextIcon from '@mui/icons-material/NavigateNext';
+import Button from '@mui/material/Button';
+import Tooltip from '@mui/material/Tooltip';
+import Fade from '@mui/material/Fade';
 
 const useStyles = makeStyles({
   prevNext: {

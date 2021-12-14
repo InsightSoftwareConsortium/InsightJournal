@@ -1,28 +1,28 @@
 import * as React from 'react';
 import { graphql } from "gatsby";
-import StyledEngineProvider from '@material-ui/core/StyledEngineProvider';
-import { makeStyles } from '@material-ui/styles';
-import Container from '@material-ui/core/Container';
-import Box from '@material-ui/core/Box';
+import StyledEngineProvider from '@mui/material/StyledEngineProvider';
+import { makeStyles } from '@mui/styles';
+import Container from '@mui/material/Container';
+import Box from '@mui/material/Box';
 import Layout from '../components/Layout';
 import PublicationsTable from '../components/PublicationsTable';
-import Accordion from '@material-ui/core/Accordion';
-import AccordionSummary from '@material-ui/core/AccordionSummary';
-import AccordionDetails from '@material-ui/core/AccordionDetails';
-import Typography from '@material-ui/core/Typography';
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import Accordion from '@mui/material/Accordion';
+import AccordionSummary from '@mui/material/AccordionSummary';
+import AccordionDetails from '@mui/material/AccordionDetails';
+import Typography from '@mui/material/Typography';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import parse, { domToReact } from 'html-react-parser';
-import Grid from '@material-ui/core/Grid';
-import Paper from '@material-ui/core/Paper';
-import List from '@material-ui/core/List';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemIcon from '@material-ui/core/ListItemIcon';
-import ListItemText from '@material-ui/core/ListItemText';
-import { DataGrid } from '@material-ui/data-grid';
+import Grid from '@mui/material/Grid';
+import Paper from '@mui/material/Paper';
+import List from '@mui/material/List';
+import ListItem from '@mui/material/ListItem';
+import ListItemIcon from '@mui/material/ListItemIcon';
+import ListItemText from '@mui/material/ListItemText';
+import { DataGrid } from '@mui/x-data-grid';
 import Link from '../components/Link';
-import StarIcon from '@material-ui/icons/Star';
-import IssuesIcon from '@material-ui/icons/LibraryBooksOutlined';
-import PublicationsIcon from '@material-ui/icons/LocalLibrary';
+import StarIcon from '@mui/icons-material/Star';
+import IssuesIcon from '@mui/icons-material/LibraryBooksOutlined';
+import PublicationsIcon from '@mui/icons-material/LocalLibrary';
 
 function isSuperset(set, subset) {
   for (let elem of subset) {

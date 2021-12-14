@@ -3,8 +3,8 @@ import PropTypes from 'prop-types'
 
 import Header from './Header'
 import Copyright from './Copyright';
-import SnackbarContent from '@material-ui/core/SnackbarContent';
-import Button from '@material-ui/core/Button';
+import SnackbarContent from '@mui/material/SnackbarContent';
+import Button from '@mui/material/Button';
 import Link from '../components/Link';
 
 const provideFeedback = (
