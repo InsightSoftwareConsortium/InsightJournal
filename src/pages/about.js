@@ -8,8 +8,9 @@ import TabPanel from '@material-ui/lab/TabPanel';
 import TabContext from '@material-ui/lab/TabContext';
 import Manifesto from '../components/Manifesto.js';
 import JournalTechnology from '../components/JournalTechnology.js';
+import { graphql } from 'gatsby'
 
-export default function About() {
+export default function About({ data }) {
   const [value, setValue] = React.useState('1');
 
   const handleChange = (event, newValue) => {
@@ -25,10 +26,20 @@ export default function About() {
               <Tab label="Technology" value="2" />
             </TabList>
             <TabPanel value="1"><Manifesto /></TabPanel>
-            <TabPanel value="2"><JournalTechnology /></TabPanel>
+            <TabPanel value="2"><JournalTechnology cartoon={data.file} /></TabPanel>
           </TabContext>
         </Box>
       </Container>
     </Layout>
   );
 }
+
+export const query = graphql`
+  query {
+    file(relativePath: { eq: "Merkle.png"}) {
+      childImageSharp {
+        gatsbyImageData(layout: FIXED, width: 400, height: 367)
+        }
+      }
+    }
+`
