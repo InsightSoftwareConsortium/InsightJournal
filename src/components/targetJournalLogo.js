@@ -1,4 +1,4 @@
-import logoInsightJournal from "../assets/logoInsightJournal.png";
+import logoInsightJournal from "../assets/logoInsightJournalSmall.png";
 import logoMIDASJournal from "../assets/logoMIDASJournal.png";
 import logoVTKJournal from "../assets/logoVTKJournal.png";
 
