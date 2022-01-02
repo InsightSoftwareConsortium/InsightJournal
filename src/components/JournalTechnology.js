@@ -16,7 +16,7 @@ export default function JournalTechnology({ cartoon }) {
       <Box sx={{ my: 4 }} align="center">
         <center><GatsbyImage image={cartoon.childImageSharp.gatsbyImageData} /></center>
         <Typography sx={{ mt: 6, mb: 3 }} color="text.secondary" align="center">
-          It's Merkle trees all the way down.
+          <MuiLink target="_blank" rel="noreferrer" href="https://en.wikipedia.org/wiki/Turtles_all_the_way_down">It</MuiLink>'s <MuiLink target="_blank" rel="noreferrer" href="https://en.wikipedia.org/wiki/Merkle_tree">Merkle trees</MuiLink> all the way down. The IJ3 is based on <MuiLink target="_blank" rel="noreferrer" href="https://en.wikipedia.org/wiki/Git">Git</MuiLink>, <MuiLink target="_blank" rel="noreferrer" href="https://en.wikipedia.org/wiki/InterPlanetary_File_System">the InterPlanetary File System (IPFS)</MuiLink>, and <MuiLink target="_blank" rel="noreferrer" href="https://en.wikipedia.org/wiki/Ethereum">Ethereum</MuiLink>.
         </Typography>
       </Box>
       <Typography variant="body1" paragraph={true}>
