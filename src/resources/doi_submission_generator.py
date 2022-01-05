@@ -14,7 +14,18 @@ ij_journals_issn = {
     31: None, # midas
     35: "2328-3459" # vtk
 }
-ij_web_prefix = "https://www.insight-journal.org"
+ij_journals_doi = {
+    3:  "10.54294/Insight", # insight
+    31: "10.54294/MIDAS", # midas
+    35: "10.54294/VTK" # vtk
+}
+ij_journals_web_prefix = {
+    3:  "https://www.insight-journal.org", # insight
+    31: "https://www.midasjournal.org", # midas
+    35: "https://www.vtkjournal.org/" # vtk
+}
+
+time_format_str = "%Y%m%d%H%M%S%f" # 20 digits, 6 microseconds digits
 
 import argparse
 import json
@@ -30,6 +41,7 @@ import string
 import secrets
 import requests
 import pypandoc # requires pandoc-jats in the system
+import warnings
 
 
 def read_current_dois():
@@ -154,7 +166,7 @@ def time_string():
     Generate a string of numbers generated from now time (UTC).
     """
     # UTC time up to microseconds
-    time_str = datetime.utcnow().strftime('%Y%m%d%H%M%S%f')
+    time_str = datetime.utcnow().strftime("%Y%m%d%H%M%S")
     return time_str
 
 def id_from_time():
@@ -192,7 +204,7 @@ def publication_to_issue_dict():
     return pub_to_issues
 
 
-def build_xml_dictionary(metadata, verbose=False):
+def build_xml_dictionary(metadata, verbose=False, time_format_str=time_format_str):
     """
     Return a meta_xml dictionary with all the information needed
     to fill the doi_submission_template.xml placeholders.
@@ -206,7 +218,7 @@ def build_xml_dictionary(metadata, verbose=False):
     ############## head #####################
     # For submission to crossref purposes only
     meta_xml["doi_batch_id"] = id_from_time()
-    meta_xml["timestamp"] = datetime.utcnow().strftime('%d%m%Y%H%M%S')
+    meta_xml["timestamp"] = datetime.utcnow().strftime(time_format_str)[:-3] # truncate from micro to miliseconds
 
     ############## body #####################
     # journal
@@ -218,13 +230,18 @@ def build_xml_dictionary(metadata, verbose=False):
 
     meta_xml["journal_issn_xml"] = '' #handle the null case
     if journal_id: # not null
+        # populate journal_doi_data
+        journal_doi = ij_journals_doi.get(journal_id)
+        meta_xml["journal_doi"] = journal_doi
+        journal_doi_resource = ij_journals_web_prefix.get(journal_id)
+        meta_xml["journal_doi_resource"] = journal_doi_resource
         # issn
         journal_issn = ij_journals_issn.get(journal_id)
         if journal_issn: # Journal with issn
             journal_issn_tag = E.issn(
                 journal_issn,
                 media_type="electronic")
-            meta_xml["journal_issn_xml"] = etree.tostring(journal_issn_tag, encoding='unicode')
+            meta_xml["journal_issn_xml"] = etree.tostring(journal_issn_tag, encoding='unicode', pretty_print=True)
 
     # journal_issue: issue
     pub_to_issues = publication_to_issue_dict()
@@ -236,7 +253,7 @@ def build_xml_dictionary(metadata, verbose=False):
     if issue_id:
         # <journal_issue><issue>3</issue></journal_issue>
         journal_issue_tag = E.journal_issue( E.issue(str(issue_id)) )
-        meta_xml["journal_issue_xml"] = etree.tostring(journal_issue_tag, encoding='unicode')
+        meta_xml["journal_issue_xml"] = etree.tostring(journal_issue_tag, encoding='unicode', pretty_print=True)
 
     ########## journal_article ###############
     # title: is already in metadata dict
@@ -290,7 +307,7 @@ def build_xml_dictionary(metadata, verbose=False):
             # TODO ORCID of the author goes here
 
             contributors_tag.append(person_name_tag)
-        meta_xml["contributors_xml"] = etree.tostring(contributors_tag, encoding='unicode')
+        meta_xml["contributors_xml"] = etree.tostring(contributors_tag, encoding='unicode', pretty_print=True)
 
     # abstract: at the time of writting has to be jats formatted
     meta_xml["abstract_xml"] = ''
@@ -301,8 +318,12 @@ def build_xml_dictionary(metadata, verbose=False):
         abstract_jats = pypandoc.convert_text(source=abstract, to="jats", extra_args=("-C","--mathml", "--wrap=none"), format="markdown")
         # Remove extra linebreaks from original source (in case of double \n)
         abstract_jats = abstract_jats.replace("</p>\n", "</p>")
-        # Use namespace jats in p tags
-        abstract_jats = abstract_jats.replace("<p>", "<jats:p>").replace("</p>", "</jats:p>")
+        # Use namespace jats in inner tags, added the most common ones. Very incomplete.
+        # Check https://jats.nlm.nih.gov/archiving/tag-library/1.1/element/arc-elem-sec-intro.html for the full list of jats tags
+        jats_tags = ["p", "inline-formula", "tex-math", "alternatives", "monospace"]
+        for tag in jats_tags:
+            abstract_jats = abstract_jats.replace("<"+tag+">", "<jats:"+tag+">").replace("</"+tag+">", "</jats:"+tag+">")
+
         abstract_jats = "<jats:abstract>" + abstract_jats + "</jats:abstract>"
         meta_xml["abstract_xml"] = abstract_jats
 
@@ -318,14 +339,14 @@ def build_xml_dictionary(metadata, verbose=False):
             if date_submitted_period:
                 publication_date_xml.append(getattr(E, period)(str(date_submitted_period)))
 
-        meta_xml["publication_date_xml"] = etree.tostring(publication_date_xml, encoding='unicode')
+        meta_xml["publication_date_xml"] = etree.tostring(publication_date_xml, encoding='unicode', pretty_print=True)
 
     # citation_list:
     meta_xml["citation_list_xml"] = ''
     revisions = metadata.get("revisions")
+    # TODO: Only one revision for now
+    revision_index = 0
     if revisions:
-        # Only one revision for now
-        revision_index = 0
         citation_list = revisions[revision_index].get("citation_list")
         if citation_list:
             citation_list_tag = E.citation_list()
@@ -349,15 +370,36 @@ def build_xml_dictionary(metadata, verbose=False):
     # Assign a doi to this publication and populate xml
     doi_suffix = get_or_create_doi_suffix_for_publication(publication_id)
     meta_xml["formatted_doi"] = doi_full_from_doi_suffix(doi_suffix)
-    meta_xml["ij_resource_url"] = ij_web_prefix + "/browse/publication/" + publication_id
+    journal_web_prefix = ij_journals_web_prefix.get(journal_id)
+    meta_xml["ij_resource_url"] = journal_web_prefix + "/browse/publication/" + publication_id
     # TODO add direct urls to article.pdf and source code
-    collection_xml = ''
-    # <collection property="text-mining">
-    #   <item>
-    #     <resource mime_type="application/pdf">{ij_resource_url}.pdf</resource>
-    #   </item>
-    # </collection>
-    meta_xml["collection_xml"] = collection_xml
+    meta_xml["doi_data_collection_xml"] = ''
+    meta_xml["source_code_url"] = ''
+    if revisions:
+        # <collection property="text-mining">
+        #   <item>
+        #     <resource mime_type="application/pdf">{ij_resource_url}.pdf</resource>
+        #   </item>
+        # </collection>
+        article_cid = revisions[revision_index].get("article")
+        source_code_cid = revisions[revision_index].get("source_code")
+        data_url_prefix = "https://gateway.pinata.cloud/ipfs"
+        if article_cid:
+            # TODO: the prefix url might change
+            doi_data_collection_xml = E.collection(property="text-mining")
+            if article_cid:
+                article_url = data_url_prefix + "/" + article_cid
+                doi_data_collection_xml.append(
+                    E.item(
+                        E.resource(
+                            article_url,
+                            mime_type="application/octet-stream")
+                    )
+                )
+                meta_xml["doi_data_collection_xml"] = etree.tostring(doi_data_collection_xml, encoding='unicode', pretty_print=True)
+
+        if source_code_cid:
+            meta_xml["source_code_url"] = data_url_prefix + "/" + source_code_cid
 
     if verbose:
         print("meta_xml:")
@@ -392,7 +434,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Generate valid XML from metadata.json for Crossref submission')
 
     parser.add_argument("-i", "--input-metadata", dest="input_metadata",
-                        help="Path to metadata.json associated to publication.")
+                        help="Path to metadata.json associated to publication.", type=str)
     parser.add_argument("-v", "--verbose",
                         dest="verbose", action='store_true',
                         help="Print the output dict")
@@ -400,14 +442,14 @@ if __name__ == '__main__':
                         help="Validate XML locally. Warning: slow.")
     parser.add_argument("--upload", dest="upload", action='store_true',
                         help="Upload to crossref.")
-    parser.add_argument("--email", dest="email", default=None,
+    parser.add_argument("--email", dest="email", default=None, type=str,
                         help="Upload to crossref. Credentials, email (and role for shared credentials). Example with role: myemail@abc.com/myrole")
-    parser.add_argument("--password", dest="password", default=None,
+    parser.add_argument("--password", dest="password", default=None, type=str,
                         help="Upload to crossref. Credentials, password")
     parser.add_argument("--test", dest="test", action='store_true',
                         help="Upload to crossref. But use test server.")
     parser.add_argument("-o","--output-folder", dest="output_folder", default="/tmp",
-                        help="Output folder to write down the filled xml before uploading to crossref.")
+                        help="Output folder to write down the filled xml before uploading to crossref.", type=str)
     args = parser.parse_args()
     print(args)
 
@@ -449,7 +491,8 @@ if __name__ == '__main__':
         if args.test:
             server_url = "https://test.crossref.org/servlet/deposit"
 
-        files = {'mdFile': open(output_file, 'rb')}
+        # using files automatically set encType to multipart/form-data, no need to set headers explicitly.
+        files = {'fname': open(output_file, 'rb')}
         payload = {
             'operation': 'doMDUpload',
             'login_id': str(args.email),

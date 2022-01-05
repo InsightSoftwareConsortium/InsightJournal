@@ -15,6 +15,10 @@ xmlns:mml="http://www.w3.org/1998/Math/MathML">
       <journal_metadata>
         <full_title>{journal_name}</full_title>
         {journal_issn_xml}
+        <doi_data>
+          <doi>{journal_doi}</doi>
+          <resource>{journal_doi_resource}</resource>
+        </doi_data>
       </journal_metadata>
       {journal_issue_xml}
       <journal_article publication_type="full_text">
@@ -32,10 +36,16 @@ xmlns:mml="http://www.w3.org/1998/Math/MathML">
           <ai:license_ref applies_to="am">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
           <ai:license_ref applies_to="tdm">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
         </ai:program>
+        <rel:program>
+          <rel:related_item>
+            <rel:description>Source Code</rel:description>
+            <rel:inter_work_relation relationship-type="isRelatedMaterial" identifier-type="uri" >{source_code_url}</rel:inter_work_relation>
+          </rel:related_item>
+        </rel:program>
         <doi_data>
           <doi>{formatted_doi}</doi>
           <resource>{ij_resource_url}</resource>
-          {collection_xml}
+          {doi_data_collection_xml}
         </doi_data>
         {citation_list_xml}
       </journal_article>
