@@ -1,4 +1,7 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
 
 # dependencies
 /node_modules

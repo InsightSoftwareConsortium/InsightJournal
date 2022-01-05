@@ -37,9 +37,13 @@ const Header = () => {
           <Grid item xs={3}>
               <Logo targetJournal={ data.site.siteMetadata.targetJournal }/>
           </Grid>
-          <Grid item xs={3}>
-              <Title siteTitle={ data.site.siteMetadata.title }/>
-          </Grid>
+          { data.site.siteMetadata.targetJournal !== 3 ? 
+            (
+            <Grid item xs={3}>
+                <Title siteTitle={ data.site.siteMetadata.title }/>
+            </Grid>
+            )
+          : null }
 	  <Grid item xs={1}>
 	      {JournalMenuButton("Home",[], ["/"])}
 	  </Grid>
