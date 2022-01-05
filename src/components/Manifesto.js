@@ -2,7 +2,7 @@ import * as React from 'react';
 import Typography from '@material-ui/core/Typography';
 import MuiLink from '@material-ui/core/Link';
 
-export default function Manifesto() {
+export default function Manifesto({ galileo }) {
   return (
     <div>
       <Typography variant="subtitle2" paragraph={true}>

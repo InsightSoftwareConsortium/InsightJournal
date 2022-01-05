@@ -10,6 +10,8 @@ import os
 import sys
 from pathlib import Path
 import subprocess
+from natsort import natsorted
+import warnings
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Generate valid XML from metadata.json for Crossref submission')
@@ -64,23 +66,26 @@ if __name__ == '__main__':
     print(args_template)
     args_string_template = "--input-metadata {input_metadata} {verbose} {validate} {upload} {email} {password} {test} {output_folder}"
 
-    with os.scandir(input_folder_path) as publication_folder:
-        for pub in publication_folder:
-            publication_id = pub.name
-            print("publication_id:", publication_id)
-            metadata_path = Path(pub.path) / "metadata.json"
-            if not metadata_path.exists():
-                print("  Warning: no metadata.json for pub {}".format(publication_id))
-                continue
-            # populate the args
-            args_dict = copy.deepcopy(args_template)
-            args_dict["input_metadata"] = str(metadata_path)
-            args_string = args_string_template.format(**args_dict)
 
-            # build the final command
-            command = command_base + " " + args_string
-            # print(args_template)
-            # print(args_string)
-            # print(command)
-            if not args.dry:
-                subprocess.run(args=command, shell=True, check=True)
+    publication_folders = natsorted([str(f) for f in input_folder_path.iterdir() if f.is_dir()])
+    for pub in publication_folders:
+        pub_path = Path(pub)
+        publication_id = pub_path.stem
+        print("-"*40)
+        print("publication_id:", publication_id)
+        metadata_path = pub_path / "metadata.json"
+        if not metadata_path.exists():
+            warnings.warn("No metadata.json for pub {}".format(publication_id))
+            continue
+        # populate the args
+        args_dict = copy.deepcopy(args_template)
+        args_dict["input_metadata"] = str(metadata_path)
+        args_string = args_string_template.format(**args_dict)
+
+        # build the final command
+        command = command_base + " " + args_string
+        # print(args_template)
+        # print(args_string)
+        if not args.dry:
+            subprocess.run(args=command, shell=True, check=True)
+        print("  command:", command)
