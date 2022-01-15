@@ -1,6 +1,6 @@
 const path = require(`path`)
 
-const siteMetadata = require('./src/siteMetadata/insightJournal.json')
+const siteMetadata = require('./src/siteMetadata/midasJournal.json')
 const targetJournal = siteMetadata.targetJournal
 
 const findSearchData = (node, entry) => {
