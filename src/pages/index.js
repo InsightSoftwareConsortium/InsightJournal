@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Helmet } from 'react-helmet';
 import { graphql } from "gatsby";
 import StyledEngineProvider from '@mui/material/StyledEngineProvider';
 import { makeStyles } from '@mui/styles';
@@ -23,6 +24,9 @@ import Link from '../components/Link';
 import StarIcon from '@mui/icons-material/Star';
 import IssuesIcon from '@mui/icons-material/LibraryBooksOutlined';
 import PublicationsIcon from '@mui/icons-material/LocalLibrary';
+import loadable from "@loadable/component"
+
+const LoadableNetlifyIdentityRedirect = loadable(() => import('../components/NetlifyIdentityRedirect'))
 
 function isSuperset(set, subset) {
   for (let elem of subset) {
@@ -67,6 +71,7 @@ const useStyles = makeStyles({
     height: 400,
   },
 });
+
 
 export default function Index({ data }) {
   const classes = useStyles();
@@ -115,6 +120,9 @@ export default function Index({ data }) {
 
   return (
     <StyledEngineProvider injectFirst>
+      <Helmet>
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+      </Helmet>
       <Layout>
         <Container maxWidth="lg">
 	  <Grid container spacing={3}>
@@ -144,6 +152,8 @@ export default function Index({ data }) {
             <PublicationsTable rows={publicationRows} />
           </Box>
         </Container>
+        
+        <LoadableNetlifyIdentityRedirect />
       </Layout>
     </StyledEngineProvider>
   );
