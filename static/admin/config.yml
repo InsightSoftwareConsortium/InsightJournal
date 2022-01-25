@@ -1,0 +1,31 @@
+backend:
+  name: git-gateway
+  repo: "InsightSoftwareConsortium/InsightJournal"
+  branch: "master"
+  api_root: https://api.github.com
+  site_domain: insight-journal.org
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
+  cms_label_prefix: submission/
+  preview_context: fleek/build
+
+publish_mode: editorial_workflow
+
+media_folder: "data/publications/0"
+
+collections:
+  - name: "publication" # Used in routes, e.g., /admin/collections/blog
+    label: "Submit a new publication" # Used in the UI
+    folder: "data/publications/0" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "metadata.json" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Rating (scale of 1-5)", name: "rating", widget: "number"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+display_url: https://insight-journal.org
+logo_url: https://cdn.jsdelivr.net/gh/InsightSoftwareConsortium/InsightJournal@94359d258fb24579daec7e1270c0c346da506bd1/src/assets/logoInsightJournalSmall.png
