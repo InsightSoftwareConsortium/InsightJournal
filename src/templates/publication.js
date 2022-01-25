@@ -467,7 +467,6 @@ const Render = ({ data, pageContext }) => {
         ordered_authors.push(author.author_fullname)
       }
     }
-    ordered_authors.sort();
   }
   let submit_inst = "";
   let submit_auth = "";
