@@ -1,9 +1,9 @@
 import * as React from 'react';
-import Typography from '@material-ui/core/Typography';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemText from '@material-ui/core/ListItemText';
-import List from '@material-ui/core/List';
-import Box from '@material-ui/core/Box';
+import Typography from '@mui/material/Typography';
+import ListItem from '@mui/material/ListItem';
+import ListItemText from '@mui/material/ListItemText';
+import List from '@mui/material/List';
+import Box from '@mui/material/Box';
 import { GatsbyImage } from "gatsby-plugin-image"
 
 export default function Manifesto({ galileo }) {

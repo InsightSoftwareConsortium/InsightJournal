@@ -1,7 +1,7 @@
 import * as React from 'react';
-import Typography from '@material-ui/core/Typography';
-import MuiLink from '@material-ui/core/Link';
-import Box from '@material-ui/core/Box';
+import Typography from '@mui/material/Typography';
+import MuiLink from '@mui/material/Link';
+import Box from '@mui/material/Box';
 import { GatsbyImage } from "gatsby-plugin-image"
 
 export default function JournalTechnology({ cartoon }) {

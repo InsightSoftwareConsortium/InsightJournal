@@ -1,10 +1,10 @@
 import * as React from "react";
-import { makeStyles } from '@material-ui/styles';
+import { makeStyles } from '@mui/styles';
 import { GatsbyImage } from "gatsby-plugin-image"
-import { DataGrid } from '@material-ui/data-grid';
+import { DataGrid } from '@mui/x-data-grid';
 import Link from '../components/Link';
-import Box from '@material-ui/core/Box';
-import Typography from '@material-ui/core/Typography';
+import Box from '@mui/material/Box';
+import Typography from '@mui/material/Typography';
 
 const useStyles = makeStyles({
   publicationTable: {
@@ -60,7 +60,7 @@ export default function PublicationsTable({ rows }) {
   return (
     <>
       <Box className={classes.publicationTable}>
-        <DataGrid rowHeight={100} rows={rows} columns={columns} pageSize={5}/>
+        <DataGrid autoHeight={true} rowHeight={100} rows={rows} columns={columns} pageSize={5}/>
       </Box>
     </>
   );

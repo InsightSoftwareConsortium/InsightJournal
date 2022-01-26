@@ -1,11 +1,11 @@
 import * as React from 'react';
-import Container from '@material-ui/core/Container';
-import Box from '@material-ui/core/Box';
+import Container from '@mui/material/Container';
+import Box from '@mui/material/Box';
 import Layout from '../components/Layout';
-import Tab from '@material-ui/core/Tab';
-import TabList from '@material-ui/lab/TabList';
-import TabPanel from '@material-ui/lab/TabPanel';
-import TabContext from '@material-ui/lab/TabContext';
+import Tab from '@mui/material/Tab';
+import TabList from '@mui/lab/TabList';
+import TabPanel from '@mui/lab/TabPanel';
+import TabContext from '@mui/lab/TabContext';
 import Manifesto from '../components/Manifesto.js';
 import JournalTechnology from '../components/JournalTechnology.js';
 import { graphql } from 'gatsby'

@@ -1,10 +1,10 @@
 import * as React from 'react';
 import { StaticQuery, graphql } from 'gatsby'
-import Typography from '@material-ui/core/Typography';
-import Container from '@material-ui/core/Container';
-import MuiLink from '@material-ui/core/Link';
+import Typography from '@mui/material/Typography';
+import Container from '@mui/material/Container';
+import MuiLink from '@mui/material/Link';
 import kitwareLogo from '../assets/logoKitware.png';
-import GitHubIcon from '@material-ui/icons/GitHub';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 export default function Copyright() {
   return (
