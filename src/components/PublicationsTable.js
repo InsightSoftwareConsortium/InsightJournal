@@ -60,7 +60,7 @@ export default function PublicationsTable({ rows }) {
   return (
     <>
       <Box className={classes.publicationTable}>
-        <DataGrid rowHeight={100} rows={rows} columns={columns} pageSize={5}/>
+        <DataGrid autoHeight={true} rowHeight={100} rows={rows} columns={columns} pageSize={5}/>
       </Box>
     </>
   );
