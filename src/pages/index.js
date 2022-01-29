@@ -142,7 +142,7 @@ export default function Index({ data }) {
 	      <Paper elevation={3}>
                 <Typography variant="h5" component="h2" align="center"><IssuesIcon/>{' '}Issues</Typography>
                   <Box className={classes.issueTable}>
-                    <DataGrid autoHeight={true} headerHeight={38} rowHeight={70} rows={issueRows} columns={issueColumns} pageSize={4}/>
+                    <DataGrid autoHeight={true} rowsPerPageOptions={[4]} headerHeight={38} rowHeight={70} rows={issueRows} columns={issueColumns} pageSize={4}/>
                   </Box>
 	      </Paper>
             </Grid>

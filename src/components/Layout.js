@@ -6,14 +6,14 @@ import Header from './Header'
 import Copyright from './Copyright';
 import SnackbarContent from '@mui/material/SnackbarContent';
 import Button from '@mui/material/Button';
-import Link from '../components/Link';
+import MuiLink from '@mui/material/Link';
 
 const provideFeedback = (
-  <Link to="https://github.com/InsightSoftwareConsortium/InsightJournal/issues">
+  <MuiLink href="https://github.com/InsightSoftwareConsortium/InsightJournal/issues">
     <Button color="secondary" size="small">
       Provide Feedback
     </Button>
-  </Link>
+  </MuiLink>
 );
 
 const Layout = ({ children }) => {
