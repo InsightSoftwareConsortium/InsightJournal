@@ -8,16 +8,6 @@
 // }
 const { createFilePath } = require('gatsby-source-filesystem')
 const path = require('path')
-const CopyPlugin = require('copy-webpack-plugin')
-const fs = require('fs')
-
-const staticDir = path.join(__dirname, 'static')
-const ipfsScript = path.join(staticDir, 'ipfs-core.min.js')
-if (!fs.existsSync(staticDir)) {
-  fs.mkdirSync(staticDir)
-}
-fs.copyFileSync(path.join(__dirname, 'node_modules', 'ipfs-core', 'dist', 'index.min.js'),
-  ipfsScript)
 
 exports.onCreateWebpackConfig = ({
   stage,

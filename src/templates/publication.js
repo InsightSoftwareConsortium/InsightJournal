@@ -28,8 +28,6 @@ import MenuItem from '@mui/material/MenuItem';
 import Grid from '@mui/material/Grid';
 import Breadcrumbs from '@mui/material/Breadcrumbs';
 import FormControl from '@mui/material/FormControl';
-import useIpfsFactory from '../hooks/use-ipfs-factory.js'
-import pWaitFor from 'p-wait-for';
 import uint8arrays from 'uint8arrays';
 import { Base64 } from 'js-base64';
 //import DownloadIcon from '@mui/icons-material/CloudDownload';
@@ -39,10 +37,14 @@ import DownloadIcon from '@mui/icons-material/GetApp';
 import ZipDownloadIcon from '@mui/icons-material/Archive';
 import { DataGrid } from '@mui/x-data-grid';
 import { saveAs } from 'file-saver';
-import JSZip from 'jszip';
 import { lazy } from "@loadable/component"
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import { docco } from 'react-syntax-highlighter/dist/esm/styles/hljs';
+import ipfs from '../ipfs/ipfsClient.js';
+import getLinks from '../ipfs/getLinks.js';
+import saveFileCID from '../ipfs/saveFileCID.js';
+import saveFileZipCID from '../ipfs/saveFileZipCID.js';
+import saveDirectoryZipCID from "../ipfs/saveDirectoryZipCID.js";
 
 const LoadablePDFViewer = lazy(() => import("pdf-viewer-reactjs"))
 
@@ -137,67 +139,6 @@ function authorSort(a, b) {
 
 const isBrowser = typeof window !== "undefined"
 
-async function saveFileCID(ipfs, cid, name) {
-  const chunks = []
-  for await (const chunk of ipfs.cat(cid)) {
-    chunks.push(chunk)
-    //const chunkNum = `${chunks.length}`
-    //setArticleContent(<><LinearProgressWithLabel variant="indeterminate" color="secondary" label={`loading chunk ${chunkNum}`} /></>)
-  }
-  const file = uint8arrays.concat(chunks)
-  const fileBlob = new Blob([file.buffer])
-  saveAs(fileBlob, name)
-}
-
-async function saveFileZipCID(ipfs, cid, name) {
-  const chunks = []
-  for await (const chunk of ipfs.cat(cid)) {
-    chunks.push(chunk)
-    //const chunkNum = `${chunks.length}`
-    //setArticleContent(<><LinearProgressWithLabel variant="indeterminate" color="secondary" label={`loading chunk ${chunkNum}`} /></>)
-  }
-  const file = uint8arrays.concat(chunks)
-  const zip = new JSZip()
-  zip.file(name, file)
-  zip.generateAsync({ type: 'blob' }).then((content) => {
-    saveAs(content, `${name}.zip`)
-  })
-}
-
-async function saveFileZip(ipfs, zip, path, cid, chunksLoaded, setChunksLoaded) {
-  const chunks = []
-  for await (const chunk of ipfs.cat(cid)) {
-    setChunksLoaded && setChunksLoaded(chunksLoaded++)
-    chunks.push(chunk)
-  }
-  const file = uint8arrays.concat(chunks)
-  zip.file(path, file)
-  return chunksLoaded
-}
-
-async function saveDirectoryZip(ipfs, zip, prefix, cid, chunksLoaded, setChunksLoaded) {
-  setChunksLoaded && setChunksLoaded(chunksLoaded++)
-  for await (const file of ipfs.ls(cid)) {
-    const cid = file.cid.toString()
-    if (file.type === 'dir') {
-      chunksLoaded = await saveDirectoryZip(ipfs, zip, `${prefix}/${file.name}`, cid, chunksLoaded, setChunksLoaded)
-    } else {
-      chunksLoaded = await saveFileZip(ipfs, zip, `${prefix}/${file.name}`, cid, chunksLoaded, setChunksLoaded)
-    }
-  }
-  return chunksLoaded
-}
-
-async function saveDirectoryZipCID(ipfs, cid, name, setChunksLoaded) {
-  const zip = new JSZip()
-  let chunksLoaded = 0
-  await saveDirectoryZip(ipfs, zip, name, cid, chunksLoaded, setChunksLoaded)
-  setChunksLoaded && setChunksLoaded(0)
-  zip.generateAsync({ type: 'blob' }).then((content) => {
-    saveAs(content, `${name}.zip`)
-  })
-}
-
 function LinearProgressWithLabel(props) {
   return (
     <Box display="flex" alignItems="center">
@@ -227,18 +168,11 @@ async function showFileContents(ipfs, cid, name, setFileContent) {
   )
 }
 
-async function sourceCodeTreeRows(ipfs, revPath, treePath) {
-  const treeRows = []
-  for await (const file of ipfs.files.ls(`${revPath}/${treePath.slice(1).join('/')}`)) {
-    const cid = file.cid.toString()
-    treeRows.push({
-      type: file.type,
-      name: file.name,
-      size: file.size,
-      id: cid,
-      cid,
-    })
-  }
+async function sourceCodeTreeRows(sourceCodeCid, treePath) {
+  const links = await getLinks(`/ipfs/${sourceCodeCid}/${treePath.slice(1).join('/')}`)
+  const treeRows = links.map((link) => {
+    return { type: link.type, name: link.name, size: link.size, id: link.path, cid: link.cid }
+  })
   return treeRows
 }
 
@@ -267,40 +201,17 @@ async function loadArticle(publication, revision, setArticleContent) {
   }
 }
 
-async function loadSourceCode(ipfs, isIpfsReady, publication, revision, setSourceCodeContent, setFileContent, classes) {
+async function loadSourceCode(ipfs, publication, revision, setSourceCodeContent, setFileContent, classes) {
   const sourceCodeCid = publication.revisions[revision].source_code
   if (!sourceCodeCid) {
     setSourceCodeContent(<><Typography m={2}>Source code not found.</Typography></>)
   } else {
-    await pWaitFor(() => isIpfsReady, { interval: 100 })
-    const isOnline = await ipfs.isOnline()
-    if (!isOnline) {
-      await ipfs.start()
-    }
 
-    try {
-      await ipfs.files.stat(`/sourceCodes/${publication.publication_id}`)
-    } catch (error) {
-      await ipfs.files.mkdir(`/sourceCodes/${publication.publication_id}`, { cidVersion: 1, parents: true })
-    }
+    const links = await getLinks(`/ipfs/${sourceCodeCid}`)
 
-    const revPath = `/sourceCodes/${publication.publication_id}/${revision}`
-    try {
-      await ipfs.files.stat(revPath)
-    } catch (error) {
-      await ipfs.files.cp(`/ipfs/${sourceCodeCid}`, revPath, { cidVersion: 1 })
-    }
-    const rows = []
-    for await (const file of ipfs.files.ls(revPath)) {
-      const cid = file.cid.toString()
-      rows.push({
-        type: file.type,
-        name: file.name,
-        size: file.size,
-        id: cid,
-        cid,
-      })
-    }
+    const rows = links.map((link) => {
+      return { type: link.type, name: link.name, size: link.size, id: link.path, cid: link.cid }
+    })
     let treePath = ['<root>']
 
     const columns = [
@@ -350,10 +261,10 @@ async function loadSourceCode(ipfs, isIpfsReady, publication, revision, setSourc
         description: 'Download',
         width: 60,
         renderCell: (params) => {
-          if (params.row.type === 'directory') {
+          if (params.row.type === 'dir') {
             return (<></>)
           }
-          return (<DownloadIcon onClick={() => {saveFileCID(ipfs, params.row.cid, params.row.name)}} />)
+          return (<DownloadIcon onClick={() => {saveFileCID(params.row.cid, params.row.name)}} />)
         },
       },
       {
@@ -364,10 +275,10 @@ async function loadSourceCode(ipfs, isIpfsReady, publication, revision, setSourc
         description: 'Download as a Zip archive',
         width: 60,
         renderCell: (params) => {
-          if (params.row.type === 'directory') {
-            return (<ZipDownloadIcon onClick={() => {saveDirectoryZipCID(ipfs, params.row.cid, params.row.name)}} />)
+          if (params.row.type === 'dir') {
+            return (<ZipDownloadIcon onClick={() => {saveDirectoryZipCID(params.row.cid, params.row.name)}} />)
           }
-          return (<ZipDownloadIcon onClick={() => {saveFileZipCID(ipfs, params.row.cid, params.row.name, 0)}} />)
+          return (<ZipDownloadIcon onClick={() => {saveFileZipCID(params.row.cid, params.row.name, 0)}} />)
         },
       },
       {
@@ -387,7 +298,7 @@ async function loadSourceCode(ipfs, isIpfsReady, publication, revision, setSourc
       const [chunksLoaded, setChunksLoaded] = React.useState(0);
       return (<div className={classes.downloadWrapper}>
         <Box className={classes.sourceCodeDownload}>
-          <Button disabled={!!chunksLoaded} onClick={() => {saveDirectoryZipCID(ipfs, sourceCodeCid, titleForFile, setChunksLoaded)}} startIcon={<DownloadIcon />} variant="contained">Download Source Code</Button>
+          <Button disabled={!!chunksLoaded} onClick={() => {saveDirectoryZipCID(sourceCodeCid, titleForFile, setChunksLoaded)}} startIcon={<DownloadIcon />} variant="contained">Download Source Code</Button>
           {!!chunksLoaded && <CircularProgress size={24} color="secondary" value={chunksLoaded} className={classes.buttonProgress} />}
         </Box>
           {publication.source_code_git_repo && <Box><Typography><code>git clone <MuiLink target="_blank" href={publication.source_code_git_repo}>{publication.source_code_git_repo}</MuiLink></code></Typography></Box>}
@@ -395,7 +306,7 @@ async function loadSourceCode(ipfs, isIpfsReady, publication, revision, setSourc
     }
 
     async function renderTreePath(path) {
-      const treeRows = await sourceCodeTreeRows(ipfs, revPath, path)
+      const treeRows = await sourceCodeTreeRows(sourceCodeCid, path)
       treePath = path
       setNestedSourceCodeContent(path, treeRows)
     }
@@ -403,7 +314,7 @@ async function loadSourceCode(ipfs, isIpfsReady, publication, revision, setSourc
       setSourceCodeContent(
         <>
         <Box className={classes.fileTreeTable}>
-          <DataGrid disableColumnReorder={true} hideFooterSelectedRowCount={true} headerHeight={42} rowHeight={42} rows={treeRows} columns={columns} pageSize={8} onRowClick={onRowClick}/>
+          <DataGrid disableColumnReorder={true} hideFooterSelectedRowCount={true} headerHeight={42} rowHeight={42} rows={treeRows} columns={columns} rowsPerPageOptions={[8]} pageSize={8} onRowClick={onRowClick}/>
         </Box>
         <Breadcrumbs>
           {path.map((r, i) => {
@@ -422,7 +333,7 @@ async function loadSourceCode(ipfs, isIpfsReady, publication, revision, setSourc
         showFileContents(ipfs, params.row.cid, params.row.name, setFileContent)
       } else {
         treePath.push(params.row.name)
-        const treeRows = await sourceCodeTreeRows(ipfs, revPath, treePath)
+        const treeRows = await sourceCodeTreeRows(sourceCodeCid, treePath)
         setNestedSourceCodeContent(treePath, treeRows)
       }
     }
@@ -431,7 +342,7 @@ async function loadSourceCode(ipfs, isIpfsReady, publication, revision, setSourc
     setSourceCodeContent(
       <>
       <Box className={classes.fileTreeTable}>
-        <DataGrid disableColumnReorder={true} hideFooterSelectedRowCount={true} headerHeight={42} rowHeight={42} rows={rows} columns={columns} pageSize={8} onRowClick={onRowClick}/>
+        <DataGrid disableColumnReorder={true} hideFooterSelectedRowCount={true} headerHeight={42} rowHeight={42} rows={rows} columns={columns} rowsPerPageOptions={[8]} pageSize={8} onRowClick={onRowClick}/>
       </Box>
       <FullDownloadInterface/>
       </>
@@ -440,14 +351,6 @@ async function loadSourceCode(ipfs, isIpfsReady, publication, revision, setSourc
 }
 
 const Render = ({ data, pageContext }) => {
-  if (isBrowser) {
-    const preloadLink = document.createElement('link')
-    preloadLink.href = "/ipfs-core.min.js"
-    preloadLink.rel = "preload"
-    preloadLink.as = "script"
-    document.head.appendChild(preloadLink)
-  }
-  const { ipfs, isIpfsReady } = useIpfsFactory()
   const classes = useStyles();
   const publication = data.json.publication;
   const publicationIssues = data.allJson.edges
@@ -521,7 +424,7 @@ const Render = ({ data, pageContext }) => {
       setFileContent(<></>)
       break
     case '3':
-      loadSourceCode(ipfs, isIpfsReady, publication, revision, setSourceCodeContent, setFileContent, classes)
+      loadSourceCode(ipfs, publication, revision, setSourceCodeContent, setFileContent, classes)
       setFileContent(<></>)
       break
     default:
