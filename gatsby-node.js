@@ -23,6 +23,18 @@ exports.onCreateWebpackConfig = ({
       fallback: { canvas: false },
     }
   })
+  if (stage === "build-html" || stage === "develop-html") {
+    actions.setWebpackConfig({
+      module: {
+        rules: [
+          {
+            test: /ipfs-utils|ipfs-http-client/,
+            use: loaders.null(),
+          },
+        ],
+      },
+    })
+  }
 }
 
 function isSuperset(set, subset) {
