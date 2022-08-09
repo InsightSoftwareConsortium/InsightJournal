@@ -1,3 +1,4 @@
+import axios from "axios";
 import React, { Suspense } from "react";
 import { graphql } from "gatsby";
 import { ThemeProvider, makeStyles } from '@mui/styles';
@@ -176,24 +177,19 @@ async function sourceCodeTreeRows(sourceCodeCid, treePath) {
   return treeRows
 }
 
-async function loadArticle(publication, revision, setArticleContent) {
+async function loadArticle(articlesCid, publication, revision, setArticleContent) {
   const articleCid = publication.revisions[revision].article
   if (!articleCid) {
     setArticleContent(<><Typography m={2}>Article not found.</Typography></>)
   } else {
-    const response = await fetch(`https://gateway.pinata.cloud/ipfs/${articleCid}`, { mode: 'cors', headers: { 'Content-Type': 'application/octet-stream' } })
-    const reader = response.body.getReader();
-
-    const chunks = []
-    while (true) {
-      const { value, done } = await reader.read();
-      if (done) break;
-      chunks.push(value)
-      const chunkNum = `${chunks.length}`
-      setArticleContent(<><LinearProgressWithLabel variant="indeterminate" color="secondary" label={`loading chunk ${chunkNum}`} /></>)
-    }
+    setArticleContent(<><LinearProgressWithLabel variant="indeterminate" color="secondary" label={`loading article`} /></>)
+    const pinataArticleUrl = `https://itk.mypinata.cloud/ipfs/${articlesCid}/ij-articles/${publication.publication_id}/${revision+1}/article.pdf`
+    const getPinata = axios.get(pinataArticleUrl, { responseType: 'arraybuffer' })
+    const dwebArticleUrl = `https://${articlesCid}.ipfs.dweb.link/ij-articles/${publication.publication_id}/${revision+1}/article.pdf`
+    const getDweb = axios.get(dwebArticleUrl, { responseType: 'arraybuffer' })
+    const response = await Promise.race([getPinata, getDweb])
     setArticleContent(<><LinearProgressWithLabel color="primary" variant="determinate" value={100} label={`loading complete`} /></>)
-    const pdf = uint8arrays.concat(chunks)
+    const pdf = new Uint8Array(response.data)
     const pdfBlob = new Blob([pdf.buffer])
     const pdfBase64 = Base64.fromUint8Array(pdf)
     const titleForFile = publication.title.split(' ').join('_')
@@ -420,7 +416,7 @@ const Render = ({ data, pageContext }) => {
       setFileContent(<></>)
       break
     case '2':
-      loadArticle(publication, revision, setArticleContent)
+      loadArticle(data.site.siteMetadata.articlesCid, publication, revision, setArticleContent)
       setFileContent(<></>)
       break
     case '3':
@@ -528,6 +524,7 @@ export const query = graphql`
     }
     site {
       siteMetadata {
+        articlesCid,
         targetJournal,
         title,
       }
