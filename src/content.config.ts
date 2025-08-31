@@ -95,6 +95,14 @@ const createFilteredPagesLoader = (serverConfig: MystServerConfig = {}, projectC
 
           // Todo: call processThumbnails
 
+          // Todo: fix upstream, does not follow schema
+          pageData.references = {
+            cite: {
+              order: [],
+              data: {}
+            }
+          }
+
           const publicDir = resolve(process.cwd(), "public");
           const urlPath = String(syntheticRef.url).replace(/^\/+/ , ""); // strip leading '/'
           const targetPath = join(publicDir, `${urlPath}.json`);
