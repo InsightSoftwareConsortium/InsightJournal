@@ -1,6 +1,10 @@
 ---
 // 404 Page for Astro.js using myst-awesome layout
-import Layout from '../../myst-awesome/src/layouts/Layout.astro';
+import Layout from '@awesome-myst/myst-awesome/layouts/Layout.astro';
+
+import TitanImage from '../components/TitanImage.astro';
+
+
 
 const title = "Page Not Found - The Insight Journal";
 const description = "The page you're looking for could not be found.";
@@ -17,11 +21,7 @@ const currentYear = new Date().getFullYear();
     </div>
 
     <div class="image-section">
-      <img
-        src="/titan.png"
-        alt="Titan illustration"
-        class="titan-image"
-      />
+      <TitanImage />
 
       <p class="message">
         <svg
@@ -42,14 +42,14 @@ const currentYear = new Date().getFullYear();
           <br/>
           This work is licensed under a
           <a
-            href="http://creativecommons.org/licenses/by/3.0/"
+            href="http://creativecommons.org/licenses/by/4.0/"
             rel="license"
           >
-            Creative Commons Attribution 3.0 Unported License
+            Creative Commons Attribution 4.0 Unported License
           </a>.
           <br/>
           <a
-            href="https://github.com/thewtex/InsightJournal"
+            href="https://github.com/InsightSoftwareConsortium/InsightJournal"
             class="github-link"
           >
             <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" class="github-icon">
@@ -162,6 +162,10 @@ const currentYear = new Date().getFullYear();
 
   /* Dark mode support */
   @media (prefers-color-scheme: dark) {
+    .not-found-container {
+      background-color: var(--sl-color-bg, #1a1a1a);
+    }
+
     .title {
       color: var(--sl-color-text, #f0f0f0);
     }

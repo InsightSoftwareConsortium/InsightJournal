@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-// SPDX-FileCopyrightText: 2025 NumFOCUS
+// SPDX-FileCopyrightText: 2025 NumFOCUS, Inc.
 
 import { createMystCollections, createPagesLoader, type MystServerConfig, type ProjectConfig } from "@awesome-myst/myst-astro-collections";
 import {
