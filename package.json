@@ -18,5 +18,9 @@
     "build": "astro build",
     "preview": "astro preview",
     "setup-assets": "node scripts/setup-assets.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "yaml": "^2.8.1"
   }
 }

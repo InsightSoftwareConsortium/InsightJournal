@@ -12,3 +12,4 @@ site:
   options:
     favicon: src/assets/favicon.ico
     logo: src/assets/favicon-32x32.png
+    articles: [422]  # Optional list of integer article IDs
