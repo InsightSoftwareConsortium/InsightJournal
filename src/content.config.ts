@@ -6,7 +6,6 @@ import {
   readFileSync,
   existsSync,
   mkdirSync,
-  copyFileSync,
   writeFileSync,
 } from "node:fs";
 import { parse } from "yaml";
@@ -41,8 +40,7 @@ const server: MystServerConfig = {
   // Enable fuse index generation for search
   generateSearchIndex: true,
   includeKeywords: true,
-  fuseConcurrency: 8,
-  pageFetchConcurrency: 8,
+  pageConcurrency: 8,
 }
 
 const project: ProjectConfig = {
