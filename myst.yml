@@ -1,0 +1,13 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  title: Insight Journal
+  description: The Insight Journal is decentralized science (DeSci) journal covering the domain of medical and scientific image processing and visualization.
+  keywords: ["myst", "myst-md", "journal", "decentralized", "science", "medical", "image processing", "visualization"]
+  github: "https://github.com/InsightSoftwareConsortium/InsightJournal"
+
+site:
+  title: Insight Journal
+  options:
+    favicon: src/assets/favicon.ico
+    logo: src/assets/favicon-32x32.png
