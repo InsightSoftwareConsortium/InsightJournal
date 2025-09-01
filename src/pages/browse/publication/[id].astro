@@ -7,36 +7,52 @@ import FrontmatterBlockResolver from '@awesome-myst/myst-awesome/components/Fron
 import SearchDialog from '@awesome-myst/myst-awesome/components/SearchDialog.astro';
 import Footer from '@awesome-myst/myst-awesome/components/Footer.astro';
 
+import { getCollection } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
+
 export async function getStaticPaths() {
-  // Get all publication JSON files
-  const publications = [];
-  for (let i = 390; i <= 1030; i++) {
-    try {
-      const pub = await import(`../../../../public/${i}.json`);
-      publications.push({
-        id: i.toString(),
-        data: pub.default
-      });
-    } catch (e) {
-      // Skip missing files
-    }
+  try {
+    console.log('Starting getStaticPaths for [id].astro');
+
+    const pages = await getCollection('pages');
+    const projectConfig = (await getCollection('projectFrontmatter'))[0];
+
+    console.log(`Total pages found: ${pages.length}`);
+
+    const paths = pages.map((page, index) => {
+      const id = page.id;
+
+      console.log(`Processing page ${index + 1}: "${page.id}"`);
+
+      return {
+        params: { id },
+        props: { page: page.data },
+      };
+    });
+
+    console.log(`Generated ${paths.length} paths for [id].astro`);
+    paths.forEach((path, i) => {
+      console.log(`  Path ${i + 1}: id="${path.params.id}"`);
+    });
+
+    return paths;
+  } catch (error) {
+    console.error('Error in [id].astro getStaticPaths:', error);
+    return [];
   }
-
-  return publications.map((pub) => ({
-    params: { id: pub.id },
-    props: { publication: pub.data }
-  }));
 }
 
-interface Props {
-  publication: any;
+interface PageProps {
+  page: CollectionEntry<'pages'>;
 }
 
-const { publication } = Astro.props as Props;
+const { page } = Astro.props as PageProps;
 
-const title = publication?.frontmatter?.title || 'Publication';
-const abstract = publication?.frontmatter?.abstract || '';
-const frontmatter = publication?.frontmatter;
+console.log('page', page)
+
+const title = page?.frontmatter?.title || 'Publication';
+const abstract = page?.frontmatter?.abstract || '';
+const frontmatter = page?.frontmatter;
 
 // Mock data for demonstration - in real app this would come from the publication data
 const mockFiles = [
@@ -64,7 +80,7 @@ const mockFiles = [
     <div class="ij-branding">
       <a href="/" class="brand-link">
         <wa-icon name="book" variant="solid" class="brand-icon"></wa-icon>
-        <span class="brand-text">Insight Journal</span>
+        <span class="brand-text">The Insight Journal</span>
       </a>
     </div>
 
@@ -137,7 +153,7 @@ const mockFiles = [
           <h2>Article</h2>
           <div class="pdf-viewer">
             <iframe
-              src={`/pdf/${publication.slug}.pdf`}
+              src={`/pdf/${page.slug}.pdf`}
               width="100%"
               height="800px"
               style="border: none;"
