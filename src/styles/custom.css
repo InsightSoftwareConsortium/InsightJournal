@@ -1,0 +1,15 @@
+/* Custom CSS for Insight Journal - matching arXiv typography */
+
+/* Web Awesome CSS Variables for fonts */
+:root {
+  --wa-font-family-body: "Noto Serif", "Noto Serif Fallback", serif;
+  --wa-font-family-heading: "Noto Sans", "Noto Sans Fallback", sans-serif;
+  --wa-font-family-code: "Noto Sans Mono", "Noto Sans Mono Fallback", monospace;
+  --math-font-family: "latin modern math", "Cambria Math", math;
+  --math-caligraphic-font-family: "latin modern math", "Cambria Math", math;
+}
+
+/* Import Google Fonts to ensure availability */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Noto+Serif:wght@400;700&family=Noto+Sans+Mono:wght@400;700&display=swap');
+
+/* Additional custom styles can be added here */
