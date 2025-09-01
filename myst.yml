@@ -2,7 +2,7 @@
 version: 1
 project:
   id: fd1e6bdc-8e63-4156-9d94-6a22c00c9ec7
-  title: Insight Journal
+  title: The Insight Journal
   description: The Insight Journal is decentralized science (DeSci) journal covering the domain of medical and scientific image processing and visualization.
   keywords: ["myst", "myst-md", "journal", "decentralized", "science", "medical", "image processing", "visualization"]
   github: "https://github.com/InsightSoftwareConsortium/InsightJournal"
@@ -12,4 +12,4 @@ site:
   options:
     favicon: src/assets/favicon.ico
     logo: src/assets/favicon-32x32.png
-    articles: [422]  # Optional list of integer article IDs
+    articles: [422, 423, 424]  # Optional list of integer article IDs

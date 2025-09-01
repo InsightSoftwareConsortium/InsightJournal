@@ -1,0 +1,546 @@
+---
+// SPDX-License-Identifier: MIT
+// SPDX-FileCopyrightText: 2025 Fideus Labs LLC
+
+import BasePage from '@awesome-myst/myst-awesome/layouts/BasePage.astro';
+import FrontmatterBlockResolver from '@awesome-myst/myst-awesome/components/FrontmatterBlockResolver.astro';
+import SearchDialog from '@awesome-myst/myst-awesome/components/SearchDialog.astro';
+import Footer from '@awesome-myst/myst-awesome/components/Footer.astro';
+
+export async function getStaticPaths() {
+  // Get all publication JSON files
+  const publications = [];
+  for (let i = 390; i <= 1030; i++) {
+    try {
+      const pub = await import(`../../../../public/${i}.json`);
+      publications.push({
+        id: i.toString(),
+        data: pub.default
+      });
+    } catch (e) {
+      // Skip missing files
+    }
+  }
+
+  return publications.map((pub) => ({
+    params: { id: pub.id },
+    props: { publication: pub.data }
+  }));
+}
+
+interface Props {
+  publication: any;
+}
+
+const { publication } = Astro.props as Props;
+
+const title = publication?.frontmatter?.title || 'Publication';
+const abstract = publication?.frontmatter?.abstract || '';
+const frontmatter = publication?.frontmatter;
+
+// Mock data for demonstration - in real app this would come from the publication data
+const mockFiles = [
+  { name: 'README.md', type: 'file', size: '2.3 KB' },
+  { name: 'source_code.zip', type: 'file', size: '15.7 MB' },
+  { name: 'data/', type: 'folder', size: '' },
+  { name: 'data/images/', type: 'folder', size: '' },
+  { name: 'data/images/ct_scan_001.nii.gz', type: 'file', size: '45.2 MB' },
+  { name: 'data/images/ct_scan_002.nii.gz', type: 'file', size: '38.9 MB' },
+  { name: 'scripts/', type: 'folder', size: '' },
+  { name: 'scripts/preprocessing.py', type: 'file', size: '1.8 KB' },
+  { name: 'scripts/segmentation.py', type: 'file', size: '3.2 KB' }
+];
+---
+
+<BasePage
+  title={title}
+  description={abstract}
+  theme="default"
+  colorScheme="auto"
+  mobileBreakpoint="920px"
+>
+  <!-- Header with Insight Journal branding and navigation -->
+  <div slot="header" class="ij-header">
+    <div class="ij-branding">
+      <a href="/" class="brand-link">
+        <wa-icon name="book" variant="solid" class="brand-icon"></wa-icon>
+        <span class="brand-text">Insight Journal</span>
+      </a>
+    </div>
+
+    <nav class="ij-nav">
+      <a href="/" class="nav-link">Home</a>
+      <a href="/about" class="nav-link">About</a>
+      <a href="/submit" class="nav-link">Submit</a>
+    </nav>
+
+    <div class="header-controls">
+      <!-- Color scheme toggle -->
+      <div class="color-scheme-toggle" role="group" aria-label="Color scheme">
+        <wa-button class="color-btn" appearance="plain" size="small" data-value="light" title="Light mode" aria-label="Light mode">
+          <wa-icon name="sun" variant="regular"></wa-icon>
+        </wa-button>
+        <wa-button class="color-btn" appearance="plain" size="small" data-value="dark" title="Dark mode" aria-label="Dark mode">
+          <wa-icon name="moon"></wa-icon>
+        </wa-button>
+        <wa-button class="color-btn" appearance="plain" size="small" data-value="auto" title="System" aria-label="System">
+          <wa-icon name="display"></wa-icon>
+        </wa-button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation with search -->
+  <div slot="navigation" class="ij-nav-search">
+    <SearchDialog baseDir="/" foldersOption={false} />
+  </div>
+
+  <!-- Main content -->
+  <div class="publication-content">
+    <!-- Frontmatter Block with fancy background -->
+    <div class="frontmatter-container">
+      <div class="frontmatter-background">
+        <div class="frontmatter-overlay">
+          <FrontmatterBlockResolver
+            frontmatter={frontmatter}
+            baseUrl="/scienceicons"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Tab Group for content sections -->
+    <wa-tab-group class="content-tabs">
+      <!-- Abstract Tab -->
+      <wa-tab slot="nav" panel="abstract">Abstract</wa-tab>
+      <wa-tab-panel name="abstract">
+        <div class="tab-content">
+          <h2>Abstract</h2>
+          <p>{abstract}</p>
+          {frontmatter?.keywords && (
+            <div class="keywords">
+              <h3>Keywords</h3>
+              <div class="keyword-tags">
+                {frontmatter.keywords.map((keyword: string) => (
+                  <wa-badge variant="neutral">{keyword}</wa-badge>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
+      </wa-tab-panel>
+
+      <!-- Article Tab -->
+      <wa-tab slot="nav" panel="article">Article</wa-tab>
+      <wa-tab-panel name="article">
+        <div class="tab-content">
+          <h2>Article</h2>
+          <div class="pdf-viewer">
+            <iframe
+              src={`/pdf/${publication.slug}.pdf`}
+              width="100%"
+              height="800px"
+              style="border: none;"
+              title="Article PDF"
+            ></iframe>
+          </div>
+        </div>
+      </wa-tab-panel>
+
+      <!-- Source Code and Data Tab -->
+      <wa-tab slot="nav" panel="source">Source Code and Data</wa-tab>
+      <wa-tab-panel name="source">
+        <div class="tab-content">
+          <h2>Source Code and Data</h2>
+
+          <!-- File Tree -->
+          <div class="file-tree-section">
+            <h3>Files</h3>
+            <wa-tree class="file-tree">
+              {mockFiles.map((file) => (
+                <wa-tree-item>
+                  <wa-icon
+                    slot="start"
+                    name={file.type === 'folder' ? 'folder' : 'file'}
+                    variant={file.type === 'folder' ? 'regular' : 'solid'}
+                  ></wa-icon>
+                  <span>{file.name}</span>
+                  {file.size && <span slot="end" class="file-size">{file.size}</span>}
+                </wa-tree-item>
+              ))}
+            </wa-tree>
+          </div>
+
+          <!-- Source Code Viewer -->
+          <div class="code-viewer-section">
+            <h3>Source Code</h3>
+            <div class="code-viewer">
+              <pre><code class="language-python"># Example Python code from the publication
+import numpy as np
+import itk
+
+def preprocess_image(image_path):
+    """Preprocess CT image for segmentation"""
+    # Load image
+    image = itk.imread(image_path)
+
+    # Apply preprocessing steps
+    # ... implementation details
+
+    return processed_image
+
+def segment_organs(image):
+    """Segment organs using the proposed method"""
+    # Implementation of the segmentation algorithm
+    # ... implementation details
+
+    return segmentation_result
+
+if __name__ == "__main__":
+    # Main execution
+    image = preprocess_image("data/ct_scan.nii.gz")
+    result = segment_organs(image)
+    itk.imwrite(result, "output/segmentation.nii.gz")</code></pre>
+            </div>
+          </div>
+        </div>
+      </wa-tab-panel>
+    </wa-tab-group>
+  </div>
+
+  <!-- Footer -->
+  <Footer slot="footer" lastModified={frontmatter?.date_submitted ? new Date(frontmatter.date_submitted) : undefined} />
+</BasePage>
+
+<script>
+  // Import Web Awesome components
+  import '@awesome.me/webawesome/dist/components/tab-group/tab-group.js';
+  import '@awesome.me/webawesome/dist/components/tab/tab.js';
+  import '@awesome.me/webawesome/dist/components/tab-panel/tab-panel.js';
+  import '@awesome.me/webawesome/dist/components/tree/tree.js';
+  import '@awesome.me/webawesome/dist/components/tree-item/tree-item.js';
+  import '@awesome.me/webawesome/dist/components/badge/badge.js';
+  import '@awesome.me/webawesome/dist/components/button/button.js';
+  import '@awesome.me/webawesome/dist/components/icon/icon.js';
+
+  // Color scheme switching functionality
+  document.addEventListener('DOMContentLoaded', () => {
+    const colorSchemeToggle = document.querySelector('.color-scheme-toggle');
+
+    if (colorSchemeToggle) {
+      const buttons = Array.from(colorSchemeToggle.querySelectorAll<HTMLButtonElement>('.color-btn'));
+      const order: Array<'light' | 'dark' | 'auto'> = ['light', 'dark', 'auto'];
+
+      const setActive = (value: string) => {
+        buttons.forEach((btn) => {
+          const isActive = btn.dataset.value === value;
+          btn.classList.toggle('active', isActive);
+          btn.setAttribute('aria-pressed', String(isActive));
+        });
+      };
+
+      // Initialize from localStorage
+      const initial = (localStorage.getItem('color-scheme') as 'light' | 'dark' | 'auto') || 'auto';
+      setActive(initial);
+
+      // Click-to-cycle: clicking the visible (active) button cycles to next state
+      colorSchemeToggle.addEventListener('click', (evt) => {
+        const active = colorSchemeToggle.querySelector<HTMLButtonElement>('.color-btn.active');
+        if (!active) return;
+
+        const target = evt.target as HTMLElement;
+        if (!active.contains(target)) return;
+
+        const current = (active.dataset.value as 'light' | 'dark' | 'auto') || 'auto';
+        const next = order[(order.indexOf(current) + 1) % order.length];
+        setActive(next);
+
+        if ((window as any).setColorScheme) {
+          (window as any).setColorScheme(next);
+        }
+      });
+
+      // Also support direct selection if custom UI triggers events in the future
+      buttons.forEach((btn) => {
+        btn.addEventListener('select', () => {
+          const value = (btn.dataset.value as 'light' | 'dark' | 'auto') || 'auto';
+          setActive(value);
+          if ((window as any).setColorScheme) {
+            (window as any).setColorScheme(next);
+          }
+        });
+      });
+    }
+  });
+</script>
+
+<style>
+  /* Insight Journal Header */
+  .ij-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: var(--wa-space-m);
+    flex-wrap: wrap;
+  }
+
+  .ij-branding {
+    display: flex;
+    align-items: center;
+    gap: var(--wa-space-s);
+  }
+
+  .brand-link {
+    display: flex;
+    align-items: center;
+    gap: var(--wa-space-xs);
+    text-decoration: none;
+    color: var(--wa-color-text-normal);
+    font-weight: var(--wa-font-weight-semibold);
+    font-size: var(--wa-font-size-l);
+  }
+
+  .brand-link:hover {
+    color: var(--wa-color-brand-fill-loud);
+  }
+
+  .brand-icon {
+    color: #f8b20b; /* Insight Journal orange */
+  }
+
+  .brand-text {
+    font-family: var(--wa-font-family-heading);
+    color: #004e8f; /* Dark blue */
+  }
+
+  .ij-nav {
+    display: flex;
+    gap: var(--wa-space-m);
+  }
+
+  .nav-link {
+    color: var(--wa-color-text-normal);
+    text-decoration: none;
+    font-weight: var(--wa-font-weight-medium);
+    padding: var(--wa-space-xs) var(--wa-space-s);
+    border-radius: var(--wa-border-radius-m);
+    transition: background-color var(--wa-transition-fast);
+  }
+
+  .nav-link:hover {
+    background-color: var(--wa-color-neutral-fill-quiet);
+  }
+
+  .header-controls {
+    display: flex;
+    align-items: center;
+    gap: var(--wa-space-s);
+  }
+
+  /* Color scheme toggle */
+  .color-scheme-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 2px;
+    padding: 2px;
+    background: var(--wa-color-surface-lowered);
+    border: 1px solid var(--wa-color-surface-border);
+    border-radius: var(--wa-border-radius-l);
+  }
+
+  .color-scheme-toggle .color-btn {
+    --_btn-padding-inline: 6px;
+    --_btn-padding-block: 4px;
+    border: none;
+    background: transparent;
+    color: var(--wa-color-text-quiet);
+    border-radius: var(--wa-border-radius-m);
+  }
+
+  .color-scheme-toggle .color-btn:not(.active) {
+    display: none;
+  }
+
+  .color-scheme-toggle .color-btn.active {
+    background: var(--wa-color-brand-fill-quiet);
+    color: var(--wa-color-brand-on-quiet);
+  }
+
+  /* Navigation search */
+  .ij-nav-search {
+    padding: var(--wa-space-m);
+    border-bottom: 1px solid var(--wa-color-surface-border);
+  }
+
+  /* Publication content */
+  .publication-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--wa-space-l);
+  }
+
+  /* Frontmatter container with fancy background */
+  .frontmatter-container {
+    margin-bottom: var(--wa-space-2xl);
+  }
+
+  .frontmatter-background {
+    background: linear-gradient(135deg, #ff6b35 0%, #2d3748 100%);
+    border-radius: var(--wa-border-radius-xl);
+    padding: var(--wa-space-l);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .frontmatter-background::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at 30% 20%, rgba(255, 255, 255, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 70% 80%, rgba(255, 255, 255, 0.05) 0%, transparent 50%);
+    pointer-events: none;
+  }
+
+  .frontmatter-overlay {
+    position: relative;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-radius: var(--wa-border-radius-l);
+    padding: var(--wa-space-l);
+    box-shadow: var(--wa-shadow-l);
+  }
+
+  /* Content tabs */
+  .content-tabs {
+    --track-color: var(--wa-color-surface-border);
+    --indicator-color: #ff6b35;
+  }
+
+  .tab-content {
+    padding: var(--wa-space-l);
+    background: var(--wa-color-surface-default);
+    border-radius: var(--wa-border-radius-l);
+    margin-top: var(--wa-space-m);
+  }
+
+  .tab-content h2 {
+    color: var(--wa-color-text-normal);
+    margin-bottom: var(--wa-space-m);
+    font-size: var(--wa-font-size-2xl);
+  }
+
+  .tab-content h3 {
+    color: var(--wa-color-text-normal);
+    margin-bottom: var(--wa-space-s);
+    font-size: var(--wa-font-size-xl);
+  }
+
+  /* Keywords section */
+  .keywords {
+    margin-top: var(--wa-space-l);
+  }
+
+  .keyword-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--wa-space-xs);
+    margin-top: var(--wa-space-s);
+  }
+
+  /* PDF viewer */
+  .pdf-viewer {
+    border-radius: var(--wa-border-radius-m);
+    overflow: hidden;
+    box-shadow: var(--wa-shadow-m);
+  }
+
+  /* File tree section */
+  .file-tree-section {
+    margin-bottom: var(--wa-space-2xl);
+  }
+
+  .file-tree {
+    border: 1px solid var(--wa-color-surface-border);
+    border-radius: var(--wa-border-radius-m);
+    background: var(--wa-color-surface-lowered);
+  }
+
+  .file-size {
+    font-size: var(--wa-font-size-xs);
+    color: var(--wa-color-text-quiet);
+    font-weight: var(--wa-font-weight-normal);
+  }
+
+  /* Code viewer section */
+  .code-viewer-section {
+    margin-top: var(--wa-space-l);
+  }
+
+  .code-viewer {
+    background: var(--wa-color-surface-lowered);
+    border: 1px solid var(--wa-color-surface-border);
+    border-radius: var(--wa-border-radius-m);
+    padding: var(--wa-space-m);
+    overflow-x: auto;
+  }
+
+  .code-viewer pre {
+    margin: 0;
+    background: none;
+    padding: 0;
+  }
+
+  .code-viewer code {
+    font-family: var(--wa-font-family-code);
+    font-size: var(--wa-font-size-s);
+    line-height: var(--wa-line-height-relaxed);
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .ij-header {
+      flex-direction: column;
+      align-items: stretch;
+      gap: var(--wa-space-s);
+    }
+
+    .ij-nav {
+      justify-content: center;
+      margin-bottom: var(--wa-space-s);
+    }
+
+    .header-controls {
+      justify-content: center;
+    }
+
+    .publication-content {
+      padding: var(--wa-space-m);
+    }
+
+    .frontmatter-background {
+      padding: var(--wa-space-m);
+    }
+
+    .tab-content {
+      padding: var(--wa-space-m);
+    }
+
+    .pdf-viewer iframe {
+      height: 500px;
+    }
+  }
+
+  /* Dark mode adjustments */
+  .wa-dark .brand-text {
+    color: var(--wa-color-text-normal);
+  }
+
+  .wa-dark .frontmatter-overlay {
+    background: rgba(30, 30, 30, 0.95);
+  }
+</style>

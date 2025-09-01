@@ -112,7 +112,7 @@ const createFilteredPagesLoader = (serverConfig: MystServerConfig = {}, projectC
           console.log(`✓ Saved page JSON to ${targetPath}`);
 
           return {
-            id: syntheticRef.url,
+            id: articleId.toString(),
             ...syntheticRef,
             ...pageData,
           };
