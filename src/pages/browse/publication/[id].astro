@@ -64,7 +64,9 @@ const foldersOption = false;
 const baseDir = "/";
 const showToc = typeof page.mdast.children !== "undefined";
 
-import logoImage from "./src/assets/logo-insight-journal.png";
+import logoImage from "./src/assets/logo-insight-journal-square.png";
+import logoImageDark from "./src/assets/logo-insight-journal-square-dark.png";
+import logoImageLight from "./src/assets/logo-insight-journal-square-light.png";
 
 import "../../../styles/custom.css";
 
@@ -149,14 +151,24 @@ const mockFiles = [
 
   <!-- Navigation with search -->
   <div slot="navigation-header" class="nav-header">
-    {logoImage && (
+    {(logoImageLight || logoImageDark) && (
       <div class="nav-logo">
-        <Image
-          src={logoImage}
-          alt={`Insight Journal logo`}
-          height={120}
-          class="project-logo"
-        />
+        {logoImageLight && (
+          <Image
+            src={logoImageLight}
+            alt="Insight Journal logo"
+            height={120}
+            class="project-logo logo-light"
+          />
+        )}
+        {logoImageDark && (
+          <Image
+            src={logoImageDark}
+            alt="Insight Journal logo"
+            height={120}
+            class="project-logo logo-dark"
+          />
+        )}
       </div>
     )}
     <!-- Desktop search (hidden on mobile) -->
@@ -640,6 +652,11 @@ if __name__ == "__main__":
     .desktop-search-container {
       display: none;
     }
+  }
+
+  .nav-logo {
+    margin-bottom: var(--wa-space-m);
+    text-align: center;
   }
 
 </style>
