@@ -1,5 +1,4 @@
 import { defineConfig } from 'astro/config';
-import { themeConfig } from './myst-awesome/packages/myst-awesome/astro.config.mjs';
 
 export default defineConfig({
   // Use the myst-awesome theme configuration
@@ -17,10 +16,6 @@ export default defineConfig({
     // Configure module resolution
     ssr: {
       noExternal: ["@awesome.me/webawesome"],
-    },
-    // Pass theme config to client and server
-    define: {
-      __THEME_CONFIG__: JSON.stringify(themeConfig),
     },
   },
 });
