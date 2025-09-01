@@ -64,10 +64,6 @@ const foldersOption = false;
 const baseDir = "/";
 const showToc = typeof page.mdast.children !== "undefined";
 
-import logoImage from "./src/assets/logo-insight-journal-square.png";
-import logoImageDark from "./src/assets/logo-insight-journal-square-dark.png";
-import logoImageLight from "./src/assets/logo-insight-journal-square-light.png";
-
 import "../../../styles/custom.css";
 
 // Create navigation items from all pages
@@ -151,26 +147,13 @@ const mockFiles = [
 
   <!-- Navigation with search -->
   <div slot="navigation-header" class="nav-header">
-    {(logoImageLight || logoImageDark) && (
-      <div class="nav-logo">
-        {logoImageLight && (
-          <Image
-            src={logoImageLight}
-            alt="Insight Journal logo"
-            height={120}
-            class="project-logo logo-light"
-          />
-        )}
-        {logoImageDark && (
-          <Image
-            src={logoImageDark}
-            alt="Insight Journal logo"
-            height={120}
-            class="project-logo logo-dark"
-          />
-        )}
-      </div>
-    )}
+    <div class="nav-logo">
+      <img
+        src="/assets/logo-insight-journal-square-dark.png"
+        alt="Insight Journal logo"
+        class="project-logo theme-aware-logo"
+      />
+    </div>
     <!-- Desktop search (hidden on mobile) -->
     <div class="desktop-search-container ij-nav-search">
       <SearchDialog foldersOption={false} />
@@ -351,6 +334,38 @@ if __name__ == "__main__":
         });
       });
     }
+
+    // Theme-aware logo switching
+    const updateLogoForTheme = () => {
+      const isDark = document.documentElement.classList.contains('wa-dark');
+      const logoElement = document.querySelector('.theme-aware-logo') as HTMLImageElement;
+
+      if (logoElement) {
+        // Update the src attribute based on theme
+        if (isDark) {
+          logoElement.src = '/assets/logo-insight-journal-square-dark.png';
+        } else {
+          logoElement.src = '/assets/logo-insight-journal-square-light.png';
+        }
+      }
+    };
+
+    // Initial logo update
+    updateLogoForTheme();
+
+    // Listen for theme changes
+    const observer = new MutationObserver((mutations) => {
+      mutations.forEach((mutation) => {
+        if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
+          updateLogoForTheme();
+        }
+      });
+    });
+
+    observer.observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ['class']
+    });
   });
 </script>
 
