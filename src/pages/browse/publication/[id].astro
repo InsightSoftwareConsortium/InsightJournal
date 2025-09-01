@@ -6,9 +6,13 @@ import BasePage from '@awesome-myst/myst-awesome/layouts/BasePage.astro';
 import FrontmatterBlockResolver from '@awesome-myst/myst-awesome/components/FrontmatterBlockResolver.astro';
 import SearchDialog from '@awesome-myst/myst-awesome/components/SearchDialog.astro';
 import Footer from '@awesome-myst/myst-awesome/components/Footer.astro';
+import NavigationMenu from '@awesome-myst/myst-awesome/components/NavigationMenu.astro';
 
 import { getCollection } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
+import { Image } from 'astro:assets';
+
+import { generatePageUrl } from '@awesome-myst/myst-awesome/lib/generate-page-url.ts';
 
 export async function getStaticPaths() {
   try {
@@ -48,11 +52,39 @@ interface PageProps {
 
 const { page } = Astro.props as PageProps;
 
+const allPages = await getCollection('pages');
+
 console.log('page', page)
 
 const title = page?.frontmatter?.title || 'Publication';
 const abstract = page?.frontmatter?.abstract || '';
 const frontmatter = page?.frontmatter;
+
+const foldersOption = false;
+const baseDir = "/";
+const showToc = typeof page.mdast.children !== "undefined";
+
+import logoImage from "./src/assets/logo-insight-journal.png";
+
+import "../../../styles/custom.css";
+
+// Create navigation items from all pages
+const navItems = allPages
+  .filter(p => p.id)
+  .map(p => ({
+    title: p.id === '/' ? 'Home' :
+           (p.id.slice(1).charAt(0).toUpperCase() + p.id.slice(2)) || 'Page',
+    href: generatePageUrl(p.id, foldersOption, baseDir),
+    current: p.id === page.id,
+    icon: p.id === '/' ? 'home' : 'file-text'
+  }));
+
+const tocItems = showToc ? generatePageToc(page.data) : [];
+
+// Get prev/next pages for navigation
+const currentIndex = allPages.findIndex(p => p.id === page.id);
+const prevPage = currentIndex > 0 ? allPages[currentIndex - 1] : null;
+const nextPage = currentIndex < allPages.length - 1 ? allPages[currentIndex + 1] : null;
 
 // Mock data for demonstration - in real app this would come from the publication data
 const mockFiles = [
@@ -116,8 +148,21 @@ const mockFiles = [
   </div>
 
   <!-- Navigation with search -->
-  <div slot="navigation" class="ij-nav-search">
-    <SearchDialog baseDir="/" foldersOption={false} />
+  <div slot="navigation-header" class="nav-header">
+    {logoImage && (
+      <div class="nav-logo">
+        <Image
+          src={logoImage}
+          alt={`Insight Journal logo`}
+          height={120}
+          class="project-logo"
+        />
+      </div>
+    )}
+    <!-- Desktop search (hidden on mobile) -->
+    <div class="desktop-search-container ij-nav-search">
+      <SearchDialog foldersOption={false} />
+    </div>
   </div>
 
   <!-- Main content -->
@@ -245,8 +290,6 @@ if __name__ == "__main__":
   import '@awesome.me/webawesome/dist/components/tree/tree.js';
   import '@awesome.me/webawesome/dist/components/tree-item/tree-item.js';
   import '@awesome.me/webawesome/dist/components/badge/badge.js';
-  import '@awesome.me/webawesome/dist/components/button/button.js';
-  import '@awesome.me/webawesome/dist/components/icon/icon.js';
 
   // Color scheme switching functionality
   document.addEventListener('DOMContentLoaded', () => {
@@ -404,6 +447,10 @@ if __name__ == "__main__":
   .ij-nav-search {
     padding: var(--wa-space-m);
     border-bottom: 1px solid var(--wa-color-surface-border);
+  }
+
+  .nav-search {
+    width: 100%;
   }
 
   /* Publication content */
@@ -576,4 +623,23 @@ if __name__ == "__main__":
   .wa-dark .frontmatter-overlay {
     background: rgba(30, 30, 30, 0.95);
   }
+
+  .project-logo {
+    max-width: 100%;
+    height: auto;
+    border-radius: var(--wa-border-radius-m);
+  }
+
+  .desktop-search-container {
+    display: block;
+    width: 100%;
+  }
+
+  /* Show mobile search and hide desktop search on mobile */
+  @media (max-width: 920px) {
+    .desktop-search-container {
+      display: none;
+    }
+  }
+
 </style>
