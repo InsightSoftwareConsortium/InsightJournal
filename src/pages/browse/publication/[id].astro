@@ -85,9 +85,18 @@ const mockFiles = [
     </div>
 
     <nav class="ij-nav">
-      <a href="/" class="nav-link">Home</a>
-      <a href="/about" class="nav-link">About</a>
-      <a href="/submit" class="nav-link">Submit</a>
+      <a href="/" class="nav-link">
+        <wa-icon name="house" variant="solid" class="nav-icon brand-text"></wa-icon>
+        <span class="brand-text">Home</span>
+      </a>
+      <a href="/about" class="nav-link">
+        <wa-icon name="circle-info" variant="solid" class="nav-icon brand-text"></wa-icon>
+        <span class="brand-text">About</span>
+      </a>
+      <a href="/submit" class="nav-link">
+        <wa-icon name="paper-plane" variant="solid" class="nav-icon brand-text"></wa-icon>
+        <span class="brand-text">Submit</span>
+      </a>
     </nav>
 
     <div class="header-controls">
@@ -342,10 +351,18 @@ if __name__ == "__main__":
     padding: var(--wa-space-xs) var(--wa-space-s);
     border-radius: var(--wa-border-radius-m);
     transition: background-color var(--wa-transition-fast);
+    display: flex;
+    align-items: center;
+    gap: var(--wa-space-xs);
   }
 
   .nav-link:hover {
     background-color: var(--wa-color-neutral-fill-quiet);
+  }
+
+  .nav-icon {
+    font-size: var(--wa-font-size-s);
+    flex-shrink: 0;
   }
 
   .header-controls {
