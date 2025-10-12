@@ -130,15 +130,14 @@ const mockFiles = [
     </nav>
 
     <div class="header-controls">
-      <!-- Color scheme toggle -->
       <div class="color-scheme-toggle" role="group" aria-label="Color scheme">
-        <wa-button class="color-btn" appearance="plain" size="small" data-value="light" title="Light mode" aria-label="Light mode">
+        <wa-button class="color-btn" appearance="outlined" size="small" data-value="light" title="Light mode" aria-label="Light mode">
           <wa-icon name="sun" variant="regular" label="Light mode"></wa-icon>
         </wa-button>
-        <wa-button class="color-btn" appearance="plain" size="small" data-value="dark" title="Dark mode" aria-label="Dark mode">
-          <wa-icon name="moon" label="Dark mode"></wa-icon>
+        <wa-button class="color-btn" appearance="outlined" size="small" data-value="dark" title="Dark mode" aria-label="Dark mode">
+          <wa-icon name="moon" variant="regular" label="Dark mode"></wa-icon>
         </wa-button>
-        <wa-button class="color-btn" appearance="plain" size="small" data-value="auto" title="System" aria-label="System">
+        <wa-button class="color-btn" appearance="outlined" size="small" data-value="auto" title="System" aria-label="System">
           <wa-icon name="display" label="System"></wa-icon>
         </wa-button>
       </div>
@@ -285,15 +284,17 @@ if __name__ == "__main__":
   import '@awesome.me/webawesome/dist/components/tree/tree.js';
   import '@awesome.me/webawesome/dist/components/tree-item/tree-item.js';
   import '@awesome.me/webawesome/dist/components/badge/badge.js';
+  import '@awesome.me/webawesome/dist/components/icon/icon.js';
+  import '@awesome.me/webawesome/dist/components/button/button.js';
 
-  // Color scheme switching functionality
+  // Theme-aware logo switching functionality
   document.addEventListener('DOMContentLoaded', () => {
-    const colorSchemeToggle = document.querySelector('.color-scheme-toggle');
+    // Color scheme toggle functionality
+    const colorSchemeToggle = document.querySelector('.color-scheme-toggle') as HTMLElement | null;
 
     if (colorSchemeToggle) {
       const buttons = Array.from(colorSchemeToggle.querySelectorAll<HTMLButtonElement>('.color-btn'));
       const order: Array<'light' | 'dark' | 'auto'> = ['light', 'dark', 'auto'];
-
       const setActive = (value: string) => {
         buttons.forEach((btn) => {
           const isActive = btn.dataset.value === value;
@@ -310,14 +311,13 @@ if __name__ == "__main__":
       colorSchemeToggle.addEventListener('click', (evt) => {
         const active = colorSchemeToggle.querySelector<HTMLButtonElement>('.color-btn.active');
         if (!active) return;
-
+        // Only cycle if the active button (or its contents) were clicked
         const target = evt.target as HTMLElement;
         if (!active.contains(target)) return;
 
         const current = (active.dataset.value as 'light' | 'dark' | 'auto') || 'auto';
         const next = order[(order.indexOf(current) + 1) % order.length];
         setActive(next);
-
         if ((window as any).setColorScheme) {
           (window as any).setColorScheme(next);
         }
@@ -329,7 +329,7 @@ if __name__ == "__main__":
           const value = (btn.dataset.value as 'light' | 'dark' | 'auto') || 'auto';
           setActive(value);
           if ((window as any).setColorScheme) {
-            (window as any).setColorScheme(next);
+            (window as any).setColorScheme(value);
           }
         });
       });
@@ -450,7 +450,6 @@ if __name__ == "__main__":
     border: 1px solid var(--wa-color-surface-border);
     border-radius: var(--wa-border-radius-l);
   }
-
   .color-scheme-toggle .color-btn {
     --_btn-padding-inline: 6px;
     --_btn-padding-block: 4px;
@@ -459,15 +458,18 @@ if __name__ == "__main__":
     color: var(--wa-color-text-quiet);
     border-radius: var(--wa-border-radius-m);
   }
-
+  /* Show only the active icon/button */
   .color-scheme-toggle .color-btn:not(.active) {
     display: none;
   }
-
+  .color-scheme-toggle .color-btn wa-icon {
+    font-size: 1rem;
+  }
   .color-scheme-toggle .color-btn.active {
     background: var(--wa-color-brand-fill-quiet);
     color: var(--wa-color-brand-on-quiet);
   }
+  /* A simple single icon is used for System (auto) */
 
   /* Navigation search */
   .ij-nav-search {
