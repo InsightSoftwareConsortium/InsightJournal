@@ -3,13 +3,14 @@
  * Pre-build script for docs to setup scienceicons
  */
 import path from "path";
-import { fileURLToPath } from "url";
 import { copyScienceIcons } from "@awesome-myst/myst-awesome/scripts/copy-scienceicons.mjs";
 
 async function setupScienceIconsAssets() {
   try {
     // Setup scienceicons
-    const sourceDir = path.resolve(path.join(process.cwd(), "node_modules", "scienceicons", "24", "solid"));
+    const sourceDir = path.resolve(
+      path.join(process.cwd(), "node_modules", "scienceicons", "24", "solid")
+    );
     const publicDir = path.join(process.cwd(), "public");
     const iconBaseUrl = copyScienceIcons(sourceDir, publicDir);
 
