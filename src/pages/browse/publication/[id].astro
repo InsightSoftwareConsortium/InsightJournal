@@ -3,10 +3,11 @@
 // SPDX-FileCopyrightText: 2025 NumFOCUS
 
 import BasePage from '@awesome-myst/myst-awesome/layouts/BasePage.astro';
-import FrontmatterBlockResolver from '@awesome-myst/myst-awesome/components/FrontmatterBlockResolver.astro';
 import SearchDialog from '@awesome-myst/myst-awesome/components/SearchDialog.astro';
 import Footer from '@awesome-myst/myst-awesome/components/Footer.astro';
 import NavigationMenu from '@awesome-myst/myst-awesome/components/NavigationMenu.astro';
+
+import Authors from '../../../components/Authors.astro';
 
 import { getCollection } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
@@ -165,10 +166,10 @@ const mockFiles = [
     <div class="frontmatter-container">
       <div class="frontmatter-background">
         <div class="frontmatter-overlay">
-          <FrontmatterBlockResolver
-            frontmatter={frontmatter}
-            baseUrl="/scienceicons"
-          />
+          <header>
+            <h1 class="publication-title">{title}</h1>
+          </header>
+          <Authors authors={frontmatter?.authors} affiliations={frontmatter?.affiliations} />
         </div>
       </div>
     </div>
@@ -284,8 +285,6 @@ if __name__ == "__main__":
   import '@awesome.me/webawesome/dist/components/tree/tree.js';
   import '@awesome.me/webawesome/dist/components/tree-item/tree-item.js';
   import '@awesome.me/webawesome/dist/components/badge/badge.js';
-  import '@awesome.me/webawesome/dist/components/icon/icon.js';
-  import '@awesome.me/webawesome/dist/components/button/button.js';
 
   // Theme-aware logo switching functionality
   document.addEventListener('DOMContentLoaded', () => {
@@ -521,6 +520,14 @@ if __name__ == "__main__":
     border-radius: var(--wa-border-radius-l);
     padding: var(--wa-space-l);
     box-shadow: var(--wa-shadow-l);
+  }
+
+  .publication-title {
+    font-size: var(--wa-font-size-xl);
+    font-weight: var(--wa-font-weight-bold);
+    color: var(--wa-color-text-normal);
+    margin: 0 0 var(--wa-space-m) 0;
+    line-height: var(--wa-line-height-condensed);
   }
 
   /* Content tabs */
