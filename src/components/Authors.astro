@@ -65,14 +65,14 @@ if (authors && affiliations) {
 {authors && authors.length > 0 && (
   <div style="margin-bottom: var(--wa-space-l);">
     <!-- Authors line -->
-    <div style="margin-bottom: var(--wa-space-xs); line-height: var(--wa-line-height-normal);">
+    <div style="margin-bottom: var(--wa-space-xs); line-height: var(--wa-line-height-normal); color: var(--wa-color-text-normal);">
       {authors.map((author: Contributor, index: number) => (
         <span>
-          <span style="font-weight: var(--wa-font-weight-semibold); font-size: var(--wa-font-size-m);">
+          <span style="font-weight: var(--wa-font-weight-semibold); font-size: var(--wa-font-size-m); color: var(--wa-color-text-loud);">
             {getAuthorName(author)}
           </span>
           {author.affiliations && author.affiliations.length > 0 && (
-            <sup style="font-size: var(--wa-font-size-xs); margin-left: 2px;">
+            <sup style="font-size: var(--wa-font-size-xs); margin-left: 2px; color: var(--wa-color-text-normal);">
               {author.affiliations.map((affId: any, affIndex: number) => (
                 <span>
                   {uniqueAffiliations.get(affId)}
@@ -87,9 +87,9 @@ if (authors && affiliations) {
               target="_blank"
               rel="noopener noreferrer"
               title="ORCID"
-              style="color: var(--wa-color-neutral-500); transition: color 0.2s; margin-left: var(--wa-space-2xs); text-decoration: none;"
+              style="color: var(--wa-color-text-quiet); transition: color 0.2s; margin-left: var(--wa-space-2xs); text-decoration: none;"
               onmouseover="this.style.color='var(--wa-color-success-600)'"
-              onmouseout="this.style.color='var(--wa-color-neutral-500)'"
+              onmouseout="this.style.color='var(--wa-color-text-quiet)'"
             >
               <wa-icon library="scienceicons" name="orcid" style="font-size: 0.875rem; vertical-align: middle;" />
             </a>
@@ -98,9 +98,9 @@ if (authors && affiliations) {
             <a
               href={`mailto:${author.email}`}
               title="Email"
-              style="color: var(--wa-color-neutral-500); transition: color 0.2s; margin-left: var(--wa-space-2xs); text-decoration: none;"
+              style="color: var(--wa-color-text-quiet); transition: color 0.2s; margin-left: var(--wa-space-2xs); text-decoration: none;"
               onmouseover="this.style.color='var(--wa-color-primary-600)'"
-              onmouseout="this.style.color='var(--wa-color-neutral-500)'"
+              onmouseout="this.style.color='var(--wa-color-text-quiet)'"
             >
               <wa-icon library="scienceicons" name="email" style="font-size: 0.875rem; vertical-align: middle;" />
             </a>
