@@ -1,0 +1,147 @@
+---
+// SPDX-License-Identifier: MIT
+// SPDX-FileCopyrightText: 2025 Fideus Labs LLC
+
+interface Props {
+  year?: number;
+  brandName?: string;
+  showBrand?: boolean;
+  lastModified?: Date;
+  sections?: Array<{
+    title: string;
+    links: Array<{
+      title: string;
+      href: string;
+    }>;
+  }>;
+}
+
+const {
+  year = new Date().getFullYear(),
+  brandName = "MyST Awesome Theme",
+  showBrand = true,
+  lastModified,
+  sections = [
+    {
+      title: "Documentation",
+      links: [
+        { title: "Getting Started", href: "/docs" },
+        { title: "Components", href: "/docs/components" },
+        { title: "Theming", href: "/docs/theming" }
+      ]
+    },
+    {
+      title: "Community",
+      links: [
+        { title: "Discussions", href: "/community" },
+        { title: "Contributing", href: "/contributing" },
+        { title: "Changelog", href: "/changelog" }
+      ]
+    },
+    {
+      title: "Resources",
+      links: [
+        { title: "Examples", href: "/examples" },
+        { title: "Blog", href: "/blog" },
+        { title: "Support", href: "/support" }
+      ]
+    }
+  ]
+} = Astro.props;
+---
+
+<footer class="docs-footer">
+  <div class="footer-content">
+    {sections.map(section => (
+      <div class="footer-section">
+        <h4>{section.title}</h4>
+        <ul>
+          {section.links.map(link => (
+            <li><a href={link.href}>{link.title}</a></li>
+          ))}
+        </ul>
+      </div>
+    ))}
+  </div>
+  
+  {showBrand && (
+    <div class="footer-bottom">
+      <p>&copy; {year} {brandName}. Built with Web Awesome and Astro.</p>
+      {lastModified && (
+        <time class="last-modified">
+          Last updated: {lastModified.toLocaleDateString('en-US', { 
+            year: 'numeric', 
+            month: 'long', 
+            day: 'numeric' 
+          })}
+        </time>
+      )}
+    </div>
+  )}
+</footer>
+
+<style>
+  .docs-footer {
+    width: 100%;
+  }
+
+  .footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--wa-space-l);
+    margin-bottom: var(--wa-space-l);
+  }
+
+  .footer-section h4 {
+    font-size: var(--wa-font-size-m);
+    font-weight: var(--wa-font-weight-semibold);
+    margin: 0 0 var(--wa-space-s) 0;
+    color: var(--wa-color-text-normal);
+  }
+
+  .footer-section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer-section li {
+    margin-bottom: var(--wa-space-2xs);
+  }
+
+  .footer-section a {
+    color: var(--wa-color-text-quiet);
+    text-decoration: none;
+    font-size: var(--wa-font-size-s);
+  }
+
+  .footer-section a:hover {
+    color: var(--wa-color-text-link);
+    text-decoration: underline;
+  }
+
+  .footer-bottom {
+    padding-top: var(--wa-space-l);
+    border-top: 1px solid var(--wa-color-surface-border);
+    text-align: center;
+  }
+
+  .footer-bottom time {
+    margin: 0;
+    color: var(--wa-color-text-quiet);
+    font-size: var(--wa-font-size-s);
+  }
+
+  .footer-bottom .last-modified {
+    margin-top: var(--wa-space-xs);
+    font-size: var(--wa-font-size-xs);
+    opacity: 0.8;
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 920px) {
+    .footer-content {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

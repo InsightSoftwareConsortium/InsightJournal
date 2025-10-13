@@ -12,4 +12,17 @@
   --math-caligraphic-font-family: "latin modern math", "Cambria Math", math;
 }
 
+/* Link styling with dotted underline */
+a {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+  transition: text-decoration-color 0.2s ease;
+}
+
+a:hover {
+  text-decoration-style: solid;
+}
+
 /* Additional custom styles can be added here */

@@ -1,0 +1,740 @@
+---
+// SPDX-FileCopyrightText: 2025 Insight Software Consortium
+// SPDX-License-Identifier: Apache-2.0
+
+import BasePage from '@awesome-myst/myst-awesome/layouts/BasePage.astro';
+import SearchDialog from '@awesome-myst/myst-awesome/components/SearchDialog.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+
+import '../styles/custom.css';
+
+import { Image } from 'astro:assets';
+import { Code } from 'astro:components';
+import galileoPortrait from '../assets/GalileoPortraitBySustermans.jpg';
+import merkleTrees from '../assets/Merkle.png';
+
+const title = "About - The Insight Journal";
+const description = "Learn about the Insight Journal's mission, technology, and how to contribute to open, reproducible medical image analysis research.";
+const currentYear = new Date().getFullYear();
+const lastModified = new Date();
+---
+
+<BasePage
+  title={title}
+  description={description}
+  theme="default"
+  colorScheme="auto"
+  mobileBreakpoint="920px"
+>
+  <Header slot="header" />
+
+  <!-- Navigation with search -->
+  <div slot="navigation-header" class="nav-header">
+    <div class="nav-logo">
+      <img
+        src="/assets/logo-insight-journal-square-dark.png"
+        alt="Insight Journal logo"
+        class="project-logo theme-aware-logo"
+      />
+    </div>
+    <!-- Desktop search (hidden on mobile) -->
+    <div class="desktop-search-container ij-nav-search">
+      <SearchDialog foldersOption={false} />
+    </div>
+  </div>
+
+  <main class="container">
+    <h1>About the Insight Journal</h1>
+
+    <wa-tab-group>
+      <wa-tab slot="nav" panel="manifesto">Manifesto</wa-tab>
+      <wa-tab slot="nav" panel="technology">Technology</wa-tab>
+      <wa-tab slot="nav" panel="contribute">Contribute</wa-tab>
+
+      <wa-tab-panel name="manifesto">
+        <section class="manifesto">
+          <h2>Our Vision</h2>
+          <p>
+            We envision a world where scientific research earns and maintains <strong>public trust</strong> through
+            <strong>open</strong>, <strong>transparent</strong>, and <strong>reliable</strong> publishing platforms. The Insight Journal aims to repair
+            and strengthen confidence in medical image analysis research by providing a publication
+            venue that embraces full <strong>openness</strong> and <strong>reproducibility</strong> through <strong>Decentralized Science (DeSci)</strong>.
+          </p>
+
+          <h2>Mission Statement</h2>
+          <p>
+            Enable reproducible scientific image analysis and visualization research by providing
+            an open, interactive, and decentralized platform for publishing manuscripts, data, code,
+            and research artifacts.
+          </p>
+
+          <h2>Our Values</h2>
+          <p>
+            The Insight Journal is built on three foundational pillars that align with the principles
+            of Decentralized Science (DeSci):
+          </p>
+
+          <h3>🔓 Open Science</h3>
+          <p>
+            We champion complete openness in research dissemination and validation:
+          </p>
+          <ul>
+            <li><strong>Open Access:</strong> No paywalls or publication charges. All research is freely
+                available to everyone, everywhere, forever.</li>
+            <li><strong>Reproducibility:</strong> All submissions include data, code, and parameters,
+                enabling complete verification and reuse. Research that cannot be reproduced cannot be verified.</li>
+            <li><strong>Transparency:</strong> Open peer-review with visible dialogues between reviewers
+                and authors. The review process becomes part of the scientific record, increasing trust
+                and accountability.</li>
+            <li><strong>Innovation:</strong> Interactive, web-enabled visualizations and modern publishing
+                tools (<a href="https://mystmd.org" target="_blank" rel="noopener noreferrer">MyST</a>, <a href="https://wasm.itk.org/" target="_blank" rel="noopener noreferrer">ITK-Wasm</a>) transform passive reading into active exploration and enable
+                computational reproducibility.</li>
+          </ul>
+
+          <h3>🌐 Decentralized Infrastructure</h3>
+          <p>
+            We build resilient, community-owned systems free from centralized control:
+          </p>
+          <ul>
+            <li><strong>Distributed Storage:</strong> Content stored across the <a href="https://ipfs.tech" target="_blank" rel="noopener noreferrer">Interplanetary File System (IPFS)</a> nodes ensures availability
+                even if individual servers fail. Many copies keep things safe.</li>
+            <li><strong>Verifiable Provenance:</strong> Cryptographic identifiers (<a href="https://dpid.org" target="_blank" rel="noopener noreferrer">DPIDs</a>) and blockchain-based
+                records create tamper-proof provenance for all contributions.</li>
+            <li><strong>Community Governance:</strong> Decision-making power resides with the community,
+                not corporate publishers. The journal's future belongs to its users.</li>
+            <li><strong>Sustainability:</strong> Built on open-source principles with cost-effective
+                infrastructure designed for long-term preservation and community ownership.</li>
+          </ul>
+
+          <h3>🤝 Community & Incentives</h3>
+          <p>
+            We recognize and reward all contributions to advance scientific progress:
+          </p>
+          <ul>
+            <li><strong>Contributor Recognition:</strong> All contributors—authors, reviewers, data providers—
+                receive formal credit through <a href="https://orcid.org" target="_blank" rel="noopener noreferrer">ORCID</a> integration and attestations.</li>
+            <li><strong>Reputation Systems:</strong> Quality contributions build verifiable reputation,
+                creating incentives aligned with scientific progress rather than publication counts.</li>
+            <li><strong>Global Collaboration:</strong> Open participation regardless of institutional
+                affiliation, geography, or career stage. Merit is measured by contribution, not credentials.</li>
+            <li><strong>Fairness & Equity:</strong> Equal access to publication and review opportunities,
+                removing barriers that exclude researchers from underrepresented communities.</li>
+          </ul>
+
+          <h2>The Problem with "Publish or Perish"</h2>
+          <p>
+            The current publishing system has inverted priorities. The motto
+            <strong> "Publish or Perish"</strong> reveals
+            its corruption—note that it does not say <strong>"Research or Perish!"</strong> This subtle distinction has
+            profound consequences: researchers work "in order to publish" rather than because their work
+            has significant impact on society.
+          </p>
+          <p>
+            This system forces researchers to embark only on publishable activities, which discourages
+            significant departures from views held by the establishment of experts who serve as journal
+            reviewers. Innovation is stifled; conformity is rewarded.
+          </p>
+          <p>
+            Publications are counted for career advancement, not evaluated for quality, relevance, or
+            impact. The number of publications in your CV—not their substance—matters when seeking:
+          </p>
+          <ul>
+            <li>A degree</li>
+            <li>A job in industry or academia</li>
+            <li>A tenure position in a university</li>
+            <li>A promotion</li>
+            <li>A grant from federal or state agencies</li>
+          </ul>
+
+          <h2>The Scientific Method</h2>
+          <p>
+            The Scientific Method was introduced by Galileo in the 1500s when he embarked on a series
+            of attempts to answer fundamental questions about physics by performing experiments. Galileo
+            was also at the center of the first scientific journal, published by the "Linceans," also
+            known as the Society of the Lynx. The name derived from the acute vision of this animal,
+            conveying the idea that careful observation of experiments was required for finding truth
+            about scientific matters.
+          </p>
+          <p>
+            <Image src={galileoPortrait} alt="Portrait of Galileo Galilei by Justus Sustermans" />
+            <br />
+            <small>Portrait of Galileo Galilei by Justus Sustermans</small>
+          </p>
+          <p>
+            The Insight Journal returns to these principles: careful observation, reproducible experiments,
+            and open sharing of methods and results. We seek to support the altruistic motivation of
+            performing scientific research rather than the corrupted imperative to publish for career
+            advancement.
+          </p>
+
+          <h2>Our Strategy</h2>
+          <p>
+            To establish the Insight Journal as the premier publication venue in scientific and medical
+            image analysis, we aim to:
+          </p>
+          <ul>
+            <li>Set global standards for openness and interactive scholarship</li>
+            <li>Drive progress toward a truly <a href="https://www.go-fair.org/fair-principles/" target="_blank"  rel="noopener noreferrer">FAIR (Findable, Accessible, Interoperable, Reusable)</a> and
+                transparent research ecosystem</li>
+            <li>Build robust community governance</li>
+            <li>Catalyze scientific collaboration and nurture innovation</li>
+            <li>Transform passive reading into active engagement through interactive visualizations</li>
+          </ul>
+        </section>
+      </wa-tab-panel>
+
+      <wa-tab-panel name="technology">
+        <section class="technology">
+          <h2>Sustainable Open Science with Web3 Technology</h2>
+          <p>
+            The Insight Journal 3 (IJ3) is an innovative undertaking to bring sustainability to
+            reproducible research through the power of decentralized Web3 technologies.
+          </p>
+
+          <p>
+            The IJ3 is built on a foundation of proven technologies:
+          </p>
+          <ul>
+            <li><strong>Git:</strong> Version control and collaborative development</li>
+            <li><strong>InterPlanetary File System (IPFS):</strong> Decentralized storage</li>
+            <li><strong>Ethereum:</strong> Blockchain-based verification and provenance</li>
+          </ul>
+          <p>
+            <Image src={merkleTrees} alt="Merkle tree cartoon" />
+            <small><a href="https://en.wikipedia.org/wiki/Turtles_all_the_way_down" target="_blank"  rel="noopener noreferrer">It's Merkle trees all the way down.</a></small>
+          </p>
+          <p>
+            These technologies all share a common foundation: <a href="https://en.wikipedia.org/wiki/Merkle_tree" target="_blank"  rel="noopener noreferrer">Merkle trees</a>, which provide cryptographic
+            verification and tamper-proof records. Every change, every version, every contribution is
+            permanently and verifiably recorded.
+          </p>
+
+          <h3>FAIR by Design</h3>
+          <p>
+            The platform's architecture ensures all research objects are:
+          </p>
+          <ul>
+            <li><strong>Findable:</strong> Indexed in OpenAlex, CrossRef, and Google Scholar</li>
+            <li><strong>Accessible:</strong> Open access with no paywalls or publication charges</li>
+            <li><strong>Interoperable:</strong> Standards-compliant metadata and identifiers</li>
+            <li><strong>Reusable:</strong> Open licenses, complete documentation, and included dependencies</li>
+          </ul>
+
+          <h2>DeSci Nodes Platform</h2>
+          <p>
+            The Insight Journal operates on <a href="https://nodes.desci.com/" target="_blank"  rel="noopener noreferrer">DeSci Nodes</a>, a decentralized science
+            publication platform that enables researchers to publish and share research objects—not
+            just manuscripts, but complete packages of data, code, visualizations, and documentation.
+          </p>
+
+          <h3>Key Features of DeSci Nodes</h3>
+          <ul>
+            <li><strong>Research Objects:</strong> Publish manuscripts alongside data, code, images,
+                and other artifacts in a single, coherent package</li>
+            <li><strong>Version Control:</strong> Track the evolution of research from initial ideas
+                through publication and beyond</li>
+            <li><strong>Persistent Identifiers (<a href="https://dpid.org" target="_blank"  rel="noopener noreferrer">DPIDs</a>):</strong> Content-addressed identifiers that
+                never break or require maintenance</li>
+            <li><strong>Decentralized Storage:</strong> Content stored across multiple nodes on <a href="https://ipfs.tech" target="_blank"  rel="noopener noreferrer">IPFS</a>,
+                ensuring availability and preservation</li>
+            <li><strong>CrossRef Integration:</strong> Minting DOIs for published works while maintaining
+                deterministic resolution through DPIDs</li>
+            <li><strong><a href="https://orcid.org" target="_blank"  rel="noopener noreferrer">ORCID</a> Integration:</strong> Automatic credit for authors and reviewers</li>
+            <li><strong>Attestations:</strong> Verifiable claims about research quality, openness, and
+                reproducibility</li>
+          </ul>
+
+          <h3>Addressing Traditional Publishing Limitations</h3>
+          <p>
+            Traditional publishing suffers from:
+          </p>
+          <ul>
+            <li><strong>Link rot:</strong> Within 3 years, 50% of URIs in scientific publications break;
+                nearly all break within a decade</li>
+            <li><strong>Content drift:</strong> URLs that resolve but point to different content</li>
+            <li><strong>DOI failures:</strong> Traditional DOIs fail to resolve correctly about 50% of the time</li>
+            <li><strong>Data silos:</strong> Centralized repositories create single points of failure</li>
+          </ul>
+          <p>
+            DeSci Nodes with DPIDs solves these problems through content-addressed storage, distributed
+            architecture, and cryptographic verification.
+          </p>
+
+
+          <h3>Web3 Principles</h3>
+          <p>
+            The IJ3 applies Web3 technologies based on three core principles:
+          </p>
+
+          <h3>1. Verifiability</h3>
+          <p>
+            Every component of a research object receives a cryptographic hash-based <a href="https://dpid.org" target="_blank"  rel="noopener noreferrer">decentralized persistent identifier (DPID)</a> that serves as
+            both identifier and integrity check. Any modification—even a single pixel or letter—produces
+            a different hash, ensuring you always retrieve exactly the version you expect.
+          </p>
+
+          <h3>2. Decentralization</h3>
+          <p>
+            Content is stored across multiple independent nodes on the <a href="https://ipfs.tech" target="_blank"  rel="noopener noreferrer">InterPlanetary File System (IPFS)</a>. This distributed model follows
+            the principle that "many copies keep things safe." Unlike centralized repositories that create
+            single points of failure, decentralized storage ensures content remains available even if
+            individual nodes go offline.
+          </p>
+
+          <h3>3. Incentive Engineering</h3>
+          <p>
+            Blockchain-based provenance creates tamper-proof records of contributions. This enables
+            reputation-based systems and potentially tokenized rewards for quality peer review, aligning
+            individual incentives with the broader goal of scientific progress.
+          </p>
+
+          <h2>Modern Publishing with MyST for the AI Age</h2>
+          <p>
+            The Insight Journal leverages <a href="https://mystmd.org" target="_blank"  rel="noopener noreferrer">MyST (Markedly Structured Text)</a> to enable
+            rich, interactive content that transforms articles from static PDFs into engaging, explorable research artifacts.
+          </p>
+          <p>
+            MyST Markdown's structured yet human-readable format makes research exceptionally accessible to AI systems and large language models (LLMs). 
+            Unlike proprietary formats or PDFs that obscure content structure, MyST preserves semantic meaning through its markup—equations remain 
+            interpretable, code blocks are clearly delineated, and citations maintain their relationships. This machine-readability enables AI agents 
+            to accurately extract methodologies, reproduce analyses, generate summaries, and synthesize findings across multiple papers.
+          </p>
+          <p>
+            As research increasingly leverages AI for literature review, meta-analysis, and automated hypothesis generation, MyST's transparent structure ensures 
+            that published knowledge remains computationally accessible for decades to come, bridging human scholarship and artificial intelligence.
+          </p>
+
+          <h3>MyST Example</h3>
+          <p>
+            Here's an example of MyST frontmatter showing the rich metadata and easy markdown editing features available:
+          </p>
+          <Code code={`---
+title: The Importance of Open Access in Scientific Publications
+subtitle: A Template for MyST Markdown Articles in the Insight Journal
+abstract: |
+  This document describes a new algorithm implemented using the Insight Toolkit
+  ITK (itk.org)..
+
+  This paper is accompanied with the source code, input data, parameters and
+  output data that the authors used for validating the algorithm described in
+  this paper. This adheres to the fundamental principle that scientific
+  publications must facilitate reproducibility of the reported results.
+
+keywords:
+  - open science
+  - reproducible research
+
+abbreviations:
+  FAIR: Findable, Accessible, Interoperable, and Reusable
+  ITK: Insight Toolkit
+  WASM: WebAssembly
+---
+
+Automatic detection and tracking of the solar spot movements are of fundamental
+importance for allowing the authors to dedicate more time to perfectioning
+optical instruments and less time to the supervised acquisition of reliable
+data.
+
+\`\`\`{warning}
+The reader should be warned that direct observation of the sun without proper
+equipment may result in personal injury, loss of vision and burned brains.
+\`\`\`
+
+For questions on the basis of the scientific method the reader is referred to
+{cite}\`Popper2002,Popper1971\`.
+
+## Why Image Processing Papers must include Source Code, Images and Parameters
+
+Papers to the Insight Journal are written in the spirit of facilitating and
+encouraging readers to perform replication of work. In this sense, the Insight
+Journal is compliant with essential concepts of the scientific method.
+
+### Including Figures
+
+\`\`\`{figure} ./assets/RegistrationComponentsDiagram.png
+:name: fig-registration-components
+:width: 80%
+
+The basic components of the registration framework are two input images, a transform, a metric, an interpolator and an optimizer.
+\`\`\`
+
+### Mathematical Equations
+
+To support shape-guidance, the generic level set equation
+({eq}\`eqn-shape-influence-term\`) is extended to incorporate a shape guidance
+term:
+
+\`\`\`{math}
+:label: eqn-shape-influence-term
+\\xi \\left(\\psi^{*}(\\mathbf{x}) - \\psi(\\mathbf{x})\\right)
+\`\`\`
+
+### Code Examples
+
+\`\`\`python
+# Python example
+import itk
+
+# Load an image
+image = itk.imread('data/img1.png')
+\`\`\``} lang="markdown" wrap />
+
+          <h3>Author-Friendly Features</h3>
+          <p>
+            MyST provides a modern authoring experience with powerful features for scientific publishing:
+          </p>
+          <ul>
+            <li><strong>Rich Scientific Content:</strong> Native support for figures, equations, citations, 
+                cross-references, and bibliographies using familiar Markdown syntax</li>
+            <li><strong>Multiple Export Formats:</strong> Single source generates HTML, PDF (via Typst—no LaTeX required), 
+                Microsoft Word (DOCX), and <a href="https://www.niso.org/standards-committees/meca" target="_blank" rel="noopener noreferrer">MECA</a> archives for journal submission</li>
+            <li><strong>Interactive Visualizations:</strong> Embed dynamic HTML elements, 3D visualizations, 
+                and executable code directly in manuscripts</li>
+            <li><strong>Reproducible Environments:</strong> Integrated dependency management with 
+                <a href="https://pixi.sh/latest/" target="_blank" rel="noopener noreferrer">Pixi</a> ensures 
+                consistent builds across systems</li>
+            <li><strong>Live Preview:</strong> Development server with hot reload lets you see changes instantly 
+                as you write</li>
+            <li><strong>Source Code Integration:</strong> Include and test C++, Python, or other code alongside 
+                your manuscript with automated validation</li>
+            <li><strong>Version Control Ready:</strong> Plain text Markdown format works seamlessly with Git 
+                for collaboration and tracking changes</li>
+          </ul>
+
+          <h3>Getting Started</h3>
+          <p>
+            Authors can begin with the <a href="https://github.com/InsightSoftwareConsortium/InsightJournalTemplate" target="_blank" rel="noopener noreferrer">Insight Journal Template</a>, 
+            which provides a complete authoring environment including example code, data, and documentation. 
+            The template supports both pure documentation projects and those with executable C++ or Python code.
+          </p>
+
+          <h2>Interactive Visualizations with ITK-Wasm and NiiVue</h2>
+          <p>
+            Building on the <a href="https://itk.org" target="_blank" rel="noopener noreferrer">Insight Toolkit (ITK)</a>, the journal supports browser-based visualization
+            of medical imaging datasets through <a href="https://wasm.itk.org" target="_blank" rel="noopener noreferrer">ITK-Wasm</a> and <a href="https://niivue.com" target="_blank" rel="noopener noreferrer">NiiVue</a>. This enables:
+          </p>
+          <ul>
+            <li>Direct 3D visualization of medical images in web browsers</li>
+            <li>Interactive exploration of imaging data without specialized software</li>
+            <!-- <li>Reproducible computational experiments through WebAssembly</li> -->
+            <li>Cross-platform compatibility without installation requirements</li>
+          </ul>
+
+        </section>
+      </wa-tab-panel>
+
+      <wa-tab-panel name="contribute">
+        <section class="contribute">
+          <h2>Contribute to the Insight Journal</h2>
+          <p>
+            The Insight Journal thrives on contributions from the scientific and biomedical imaging community. Whether
+            you want to submit research or review articles, we welcome your involvement.
+          </p>
+
+          <h2>Submit Your Research</h2>
+
+          <h3>Article Preparation</h3>
+          <p>
+            Begin by using our article template from the
+            <a href="https://github.com/InsightSoftwareConsortium/InsightJournalTemplate" target="_blank" rel="noopener noreferrer">InsightJournalTemplate repository</a>.
+            This template is specifically designed for Insight Journal submissions and includes:
+          </p>
+          <ul>
+            <li>LaTeX template with appropriate styling</li>
+            <li>MyST Markdown support for interactive content</li>
+            <li>Bibliography management with BibTeX</li>
+            <li>Example structure for methods, results, and discussion sections</li>
+            <li>Guidelines for including code, data, and visualizations</li>
+          </ul>
+
+          <h3>Authorship and Attribution</h3>
+          <p>
+            All authors who have made substantial contributions to the work should be listed.
+            The template supports multiple authors with institutional affiliations. Authorship
+            includes:
+          </p>
+          <ul>
+            <li>Substantial contributions to conception and design, or acquisition of data, or
+                analysis and interpretation of data</li>
+            <li>Drafting the article or revising it critically for important intellectual content</li>
+            <li>Final approval of the version to be published</li>
+          </ul>
+
+          <h3>What to Include in Your Submission</h3>
+          <p>
+            Complete research objects for the Insight Journal should include:
+          </p>
+          <ul>
+            <li><strong>Manuscript:</strong> Your paper in MyST or LaTeX format</li>
+            <li><strong>Source Code:</strong> Complete, documented, buildable code</li>
+            <li><strong>Data:</strong> Input datasets and examples</li>
+            <li><strong>Parameters:</strong> Configuration files and settings</li>
+            <li><strong>Results:</strong> Output data and visualizations</li>
+            <li><strong>Build Instructions:</strong> CMakeLists.txt or equivalent</li>
+            <li><strong>Tests:</strong> Validation and verification tests</li>
+            <li><strong>Documentation:</strong> README files and usage instructions</li>
+          </ul>
+
+          <!-- <h2>Submission Process via DeSci Nodes</h2>
+
+          <h3>Step 1: Create a Research Object</h3>
+          <p>
+            Register on the DeSci Nodes platform and create a new research object. Upload all
+            components of your submission:
+          </p>
+          <ul>
+            <li>Navigate to the DeSci Nodes platform</li>
+            <li>Create a new Node for your research</li>
+            <li>Upload your manuscript, code, data, and other materials</li>
+            <li>Add metadata (title, abstract, authors, keywords)</li>
+            <li>The platform will generate a DPID (persistent identifier) for your work</li>
+          </ul>
+
+          <h3>Step 2: Claim Attestations</h3>
+          <p>
+            Indicate the openness and quality characteristics of your work by claiming attestations:
+          </p>
+          <ul>
+            <li><strong>Open Code:</strong> Source code is publicly available</li>
+            <li><strong>Open Data:</strong> Datasets are shared openly</li>
+            <li><strong>Reproducibility Enabled:</strong> All materials needed to reproduce results are included</li>
+          </ul>
+          <p>
+            Claiming these attestations triggers review processes and, upon validation, adds these
+            verified claims to the permanent record.
+          </p>
+
+          <h3>Step 3: Submit to Insight Journal</h3>
+          <p>
+            Once your research object is ready, submit it to the Insight Journal community for review.
+            This triggers the open peer review process where referees and authors engage in public dialogue
+            about the work.
+          </p>
+
+          <h3>Step 4: Engage with Peer Review</h3>
+          <p>
+            Respond to reviewer comments through the platform. All discussions are public and become
+            part of the permanent record. Revise your work based on feedback and update your research
+            object. Each version is preserved with its own DPID.
+          </p>
+
+          <h3>Step 5: Publication</h3>
+          <p>
+            When the editorial process is complete and your manuscript is accepted, a version-of-record
+            DOI will be minted for the final published version. Your work will be indexed in CrossRef,
+            OpenAlex, and Google Scholar, and contributors will receive automatic ORCID credit.
+          </p>
+
+          <h2>Become a Reviewer</h2>
+          <p>
+            Peer review is essential to maintaining the quality and integrity of published research.
+            The Insight Journal recognizes the value of this service through:
+          </p>
+          <ul>
+            <li><strong>Public Attribution:</strong> Your reviews are signed and become part of the
+                permanent record</li>
+            <li><strong>ORCID Credit:</strong> Automatic entries in your ORCID profile for review work</li>
+            <li><strong>Reputation Building:</strong> Build your reputation through quality, constructive reviews</li>
+          </ul>
+
+          <h3>The Review Process</h3>
+          <p>
+            As a reviewer, you will:
+          </p>
+          <ol>
+            <li>Receive invitations to review submissions that match your expertise</li>
+            <li>Access the complete research object (manuscript, code, data)</li>
+            <li>Evaluate whether the work is reproducible by running the provided code</li>
+            <li>Assess claims made in the manuscript against actual results</li>
+            <li>Provide constructive feedback through public comments</li>
+            <li>Validate or request changes to claimed attestations</li>
+          </ol>
+
+          <h3>What Makes a Good Review</h3>
+          <ul>
+            <li><strong>Reproducibility Check:</strong> Did you successfully build and run the code?</li>
+            <li><strong>Results Verification:</strong> Do the provided data and code produce the claimed results?</li>
+            <li><strong>Methodological Soundness:</strong> Are the methods appropriate and well-described?</li>
+            <li><strong>Clarity:</strong> Is the manuscript clear and well-written?</li>
+            <li><strong>Completeness:</strong> Are all necessary materials included?</li>
+            <li><strong>Innovation:</strong> Does the work make a meaningful contribution?</li>
+          </ul>
+
+          <h3>Open Peer Review</h3>
+          <p>
+            The Insight Journal practices open peer review where:
+          </p>
+          <ul>
+            <li>Reviewers' identities are known to authors</li>
+            <li>Reviews are public and part of the permanent record</li>
+            <li>Author-reviewer dialogue happens in the open</li>
+            <li>The community can see the evolution of the work through review</li>
+          </ul>
+          <p>
+            This transparency increases accountability and trust while educating the broader community
+            about quality standards.
+          </p>
+
+          <h2>Join the Community</h2>
+          <p>
+            Beyond submitting and reviewing, you can contribute to the Insight Journal by:
+          </p>
+          <ul>
+            <li>Participating in community discussions</li>
+            <li>Providing feedback on platform features and policies</li>
+            <li>Helping maintain and improve the article template</li>
+            <li>Spreading awareness of open science principles</li>
+            <li>Supporting the development of ITK and related tools</li>
+          </ul> -->
+        </section>
+      </wa-tab-panel>
+    </wa-tab-group>
+  </main>
+
+  <!-- Footer -->
+  <Footer slot="footer" lastModified={lastModified} />
+</BasePage>
+
+<script>
+  // Import webawesome components
+  import '@awesome.me/webawesome/dist/components/tab-group/tab-group.js';
+  import '@awesome.me/webawesome/dist/components/tab/tab.js';
+  import '@awesome.me/webawesome/dist/components/tab-panel/tab-panel.js';
+
+  // Theme-aware logo switching functionality
+  document.addEventListener('DOMContentLoaded', () => {
+    // Theme-aware logo switching
+    const updateLogoForTheme = () => {
+      const isDark = document.documentElement.classList.contains('wa-dark');
+      const logoElement = document.querySelector('.theme-aware-logo') as HTMLImageElement;
+
+      if (logoElement) {
+        // Update the src attribute based on theme
+        if (isDark) {
+          logoElement.src = '/assets/logo-insight-journal-square-dark.png';
+        } else {
+          logoElement.src = '/assets/logo-insight-journal-square-light.png';
+        }
+      }
+    };
+
+    // Initial logo update
+    updateLogoForTheme();
+
+    // Listen for theme changes
+    const observer = new MutationObserver((mutations) => {
+      mutations.forEach((mutation) => {
+        if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
+          updateLogoForTheme();
+        }
+      });
+    });
+
+    observer.observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ['class']
+    });
+  });
+</script>
+
+<style>
+  /* Navigation search */
+  .ij-nav-search {
+    padding: var(--wa-space-m);
+    border-bottom: 1px solid var(--wa-color-surface-border);
+  }
+
+  .nav-search {
+    width: 100%;
+  }
+
+  .project-logo {
+    max-width: 100%;
+    height: auto;
+    border-radius: var(--wa-border-radius-l);
+  }
+
+  .desktop-search-container {
+    display: block;
+    width: 100%;
+  }
+
+  /* Show mobile search and hide desktop search on mobile */
+  @media (max-width: 920px) {
+    .desktop-search-container {
+      display: none;
+    }
+  }
+
+  .nav-logo {
+    margin-bottom: var(--wa-space-m);
+    text-align: center;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+  h1 {
+    color: var(--sl-color-text);
+    margin-bottom: 2rem;
+  }
+
+  h2 {
+    color: var(--sl-color-text);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  h3 {
+    color: var(--sl-color-text);
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  section {
+    line-height: 1.6;
+  }
+
+  p {
+    margin-bottom: 1rem;
+  }
+
+  ul, ol {
+    margin-bottom: 1rem;
+    padding-left: 2rem;
+  }
+
+  li {
+    margin-bottom: 0.5rem;
+  }
+
+  a {
+    color: var(--sl-color-primary);
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  strong {
+    font-weight: 600;
+  }
+
+  wa-tab-group {
+    margin-top: 2rem;
+  }
+
+  wa-tab-panel {
+    padding: 2rem 0;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    a {
+      color: var(--sl-color-primary-light);
+    }
+  }
+</style>

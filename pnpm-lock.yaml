@@ -21,8 +21,8 @@ importers:
         specifier: 3.0.0-beta.6
         version: 3.0.0-beta.6(@floating-ui/utils@0.2.10)(@types/react@19.2.2)
       astro:
-        specifier: ^5.14.4
-        version: 5.14.4(@types/node@24.7.2)(rollup@4.52.4)(typescript@5.9.3)(yaml@2.8.1)
+        specifier: ^5.14.5
+        version: 5.14.5(@types/node@24.7.2)(rollup@4.52.4)(typescript@5.9.3)(yaml@2.8.1)
       scienceicons:
         specifier: ^0.0.13
         version: 0.0.13
@@ -743,8 +743,8 @@ packages:
     engines: {node: 18.20.8 || ^20.3.0 || >=22.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
-  astro@5.14.4:
-    resolution: {integrity: sha512-yqgMAO2Whi9GmZkByyiPcG7CiiPr0Me0iBSorMa6M0g+wQk/ewnIqUyr7T/uFCPTQndoKwucnYFTrf0yfb0urw==}
+  astro@5.14.5:
+    resolution: {integrity: sha512-EHt7y3+nHYyKzBats1AL3N4Pyrvqyr+zXBC7njUa9Tfe+gsiHlunaw+lXitTT/DDVwO2R/f/qVG7Xc6rl0b2KQ==}
     engines: {node: 18.20.8 || ^20.3.0 || >=22.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -2425,7 +2425,7 @@ snapshots:
     dependencies:
       '@awesome-myst/myst-zod': 0.6.1
       '@types/node': 24.7.2
-      astro: 5.14.4(@types/node@24.7.2)(rollup@4.52.4)(typescript@5.9.3)(yaml@2.8.1)
+      astro: 5.14.5(@types/node@24.7.2)(rollup@4.52.4)(typescript@5.9.3)(yaml@2.8.1)
       p-queue: 8.1.1
       yaml: 2.8.1
     transitivePeerDependencies:
@@ -3152,7 +3152,7 @@ snapshots:
       - uploadthing
       - yaml
 
-  astro@5.14.4(@types/node@24.7.2)(rollup@4.52.4)(typescript@5.9.3)(yaml@2.8.1):
+  astro@5.14.5(@types/node@24.7.2)(rollup@4.52.4)(typescript@5.9.3)(yaml@2.8.1):
     dependencies:
       '@astrojs/compiler': 2.13.0
       '@astrojs/internal-helpers': 0.7.4

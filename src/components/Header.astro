@@ -1,0 +1,218 @@
+---
+// SPDX-License-Identifier: Apache-2.0
+// SPDX-FileCopyrightText: 2025 NumFOCUS
+---
+
+<!-- Header with Insight Journal branding and navigation -->
+<div class="ij-header">
+  <div class="ij-branding">
+    <a href="/" class="brand-link">
+      <wa-icon name="book" variant="solid" class="brand-icon"></wa-icon>
+      <span class="brand-text">The Insight Journal</span>
+    </a>
+  </div>
+
+  <nav class="ij-nav">
+    <a href="/" class="nav-link">
+      <wa-icon label="Home" name="house" variant="solid" class="nav-icon brand-text"></wa-icon>
+      <span class="brand-text">Home</span>
+    </a>
+    <a href="/about" class="nav-link">
+      <wa-icon label="About" name="circle-info" variant="solid" class="nav-icon brand-text"></wa-icon>
+      <span class="brand-text">About</span>
+    </a>
+    <a href="/submit" class="nav-link">
+      <wa-icon label="Submit" name="paper-plane" variant="solid" class="nav-icon brand-text"></wa-icon>
+      <span class="brand-text">Submit</span>
+    </a>
+  </nav>
+
+  <div class="header-controls">
+    <div class="color-scheme-toggle" role="group" aria-label="Color scheme">
+      <wa-button class="color-btn" appearance="outlined" size="small" data-value="light" title="Light mode" aria-label="Light mode">
+        <wa-icon name="sun" variant="regular" label="Light mode"></wa-icon>
+      </wa-button>
+      <wa-button class="color-btn" appearance="outlined" size="small" data-value="dark" title="Dark mode" aria-label="Dark mode">
+        <wa-icon name="moon" variant="regular" label="Dark mode"></wa-icon>
+      </wa-button>
+      <wa-button class="color-btn" appearance="outlined" size="small" data-value="auto" title="System" aria-label="System">
+        <wa-icon name="display" label="System"></wa-icon>
+      </wa-button>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Color scheme toggle functionality
+  document.addEventListener('DOMContentLoaded', () => {
+    const colorSchemeToggle = document.querySelector('.color-scheme-toggle') as HTMLElement | null;
+
+    if (colorSchemeToggle) {
+      const buttons = Array.from(colorSchemeToggle.querySelectorAll<HTMLButtonElement>('.color-btn'));
+      const order: Array<'light' | 'dark' | 'auto'> = ['light', 'dark', 'auto'];
+      const setActive = (value: string) => {
+        buttons.forEach((btn) => {
+          const isActive = btn.dataset.value === value;
+          btn.classList.toggle('active', isActive);
+          btn.setAttribute('aria-pressed', String(isActive));
+        });
+      };
+
+      // Initialize from localStorage
+      const initial = (localStorage.getItem('color-scheme') as 'light' | 'dark' | 'auto') || 'auto';
+      setActive(initial);
+
+      // Click-to-cycle: clicking the visible (active) button cycles to next state
+      colorSchemeToggle.addEventListener('click', (evt) => {
+        const active = colorSchemeToggle.querySelector<HTMLButtonElement>('.color-btn.active');
+        if (!active) return;
+        // Only cycle if the active button (or its contents) were clicked
+        const target = evt.target as HTMLElement;
+        if (!active.contains(target)) return;
+
+        const current = (active.dataset.value as 'light' | 'dark' | 'auto') || 'auto';
+        const next = order[(order.indexOf(current) + 1) % order.length];
+        setActive(next);
+        if ((window as any).setColorScheme) {
+          (window as any).setColorScheme(next);
+        }
+      });
+
+      // Also support direct selection if custom UI triggers events in the future
+      buttons.forEach((btn) => {
+        btn.addEventListener('select', () => {
+          const value = (btn.dataset.value as 'light' | 'dark' | 'auto') || 'auto';
+          setActive(value);
+          if ((window as any).setColorScheme) {
+            (window as any).setColorScheme(value);
+          }
+        });
+      });
+    }
+  });
+</script>
+
+<style>
+  /* Insight Journal Header */
+  .ij-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: var(--wa-space-m);
+    flex-wrap: wrap;
+  }
+
+  .ij-branding {
+    display: flex;
+    align-items: center;
+    gap: var(--wa-space-s);
+  }
+
+  .brand-link {
+    display: flex;
+    align-items: center;
+    gap: var(--wa-space-xs);
+    text-decoration: none;
+    color: var(--wa-color-text-normal);
+    font-weight: var(--wa-font-weight-semibold);
+    font-size: var(--wa-font-size-l);
+  }
+
+  .brand-link:hover {
+    color: var(--wa-color-brand-fill-loud);
+  }
+
+  .brand-icon {
+  }
+
+  .brand-text {
+    font-family: var(--wa-font-family-heading);
+    color: #004e8f; /* Dark blue */
+  }
+
+  .ij-nav {
+    display: flex;
+    gap: var(--wa-space-m);
+  }
+
+  .nav-link {
+    color: var(--wa-color-text-normal);
+    text-decoration: none;
+    font-weight: var(--wa-font-weight-medium);
+    padding: var(--wa-space-xs) var(--wa-space-s);
+    border-radius: var(--wa-border-radius-m);
+    transition: background-color var(--wa-transition-fast);
+    display: flex;
+    align-items: center;
+    gap: var(--wa-space-xs);
+  }
+
+  .nav-link:hover {
+    background-color: var(--wa-color-neutral-fill-quiet);
+  }
+
+  .nav-icon {
+    font-size: var(--wa-font-size-s);
+    flex-shrink: 0;
+  }
+
+  .header-controls {
+    display: flex;
+    align-items: center;
+    gap: var(--wa-space-s);
+  }
+
+  /* Color scheme toggle */
+  .color-scheme-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 2px;
+    padding: 2px;
+    background: var(--wa-color-surface-lowered);
+    border: 1px solid var(--wa-color-surface-border);
+    border-radius: var(--wa-border-radius-l);
+  }
+  .color-scheme-toggle .color-btn {
+    --_btn-padding-inline: 6px;
+    --_btn-padding-block: 4px;
+    border: none;
+    background: transparent;
+    color: var(--wa-color-text-quiet);
+    border-radius: var(--wa-border-radius-m);
+  }
+  /* Show only the active icon/button */
+  .color-scheme-toggle .color-btn:not(.active) {
+    display: none;
+  }
+  .color-scheme-toggle .color-btn wa-icon {
+    font-size: 1rem;
+  }
+  .color-scheme-toggle .color-btn.active {
+    background: var(--wa-color-brand-fill-quiet);
+    color: var(--wa-color-brand-on-quiet);
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .ij-header {
+      flex-direction: column;
+      align-items: stretch;
+      gap: var(--wa-space-s);
+    }
+
+    .ij-nav {
+      justify-content: center;
+      margin-bottom: var(--wa-space-s);
+    }
+
+    .header-controls {
+      justify-content: center;
+    }
+  }
+
+  /* Dark mode adjustments */
+  .wa-dark .brand-text {
+    color: var(--wa-color-text-normal);
+  }
+</style>
