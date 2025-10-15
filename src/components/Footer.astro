@@ -4,7 +4,6 @@
 
 interface Props {
   year?: number;
-  brandName?: string;
   showBrand?: boolean;
   lastModified?: Date;
   sections?: Array<{
@@ -18,36 +17,31 @@ interface Props {
 
 const {
   year = new Date().getFullYear(),
-  brandName = "MyST Awesome Theme",
   showBrand = true,
   lastModified,
   sections = [
     {
       title: "Documentation",
       links: [
-        { title: "Getting Started", href: "/docs" },
-        { title: "Components", href: "/docs/components" },
-        { title: "Theming", href: "/docs/theming" }
+        { title: "Manifesto", href: "/about#manifesto" },
+        { title: "Technology", href: "/about#technology" },
+        { title: "Contribution", href: "/about#contribute" }
       ]
     },
     {
-      title: "Community",
+      title: "Contribute",
       links: [
-        { title: "Discussions", href: "/community" },
-        { title: "Contributing", href: "/contributing" },
-        { title: "Changelog", href: "/changelog" }
-      ]
-    },
-    {
-      title: "Resources",
-      links: [
-        { title: "Examples", href: "/examples" },
-        { title: "Blog", href: "/blog" },
-        { title: "Support", href: "/support" }
+        { title: "Article Template", href: "https://github.com/InsightSoftwareConsortium/InsightJournalTemplate" },
+        // { title: "Submit", href: "/examples" },
+        // { title: "Review", href: "/examples" },
+        { title: "Journal GitHub", href: "https://github.com/InsightSoftwareConsortium/InsightJournal" },
       ]
     }
   ]
 } = Astro.props;
+
+import { Image } from 'astro:assets';
+import fideusLogo from '../assets/fideus-logo.svg';
 ---
 
 <footer class="docs-footer">
@@ -66,16 +60,30 @@ const {
   
   {showBrand && (
     <div class="footer-bottom">
-      <p>&copy; {year} {brandName}. Built with Web Awesome and Astro.</p>
-      {lastModified && (
-        <time class="last-modified">
-          Last updated: {lastModified.toLocaleDateString('en-US', { 
-            year: 'numeric', 
-            month: 'long', 
-            day: 'numeric' 
-          })}
-        </time>
-      )}
+      <p>
+        &copy; {year} <a href="https://numfocus.org" target="_blank" rel="noopener noreferrer">NumFOCUS Inc</a> for the <a href="https://insightsoftwareconsortium.org" target="_blank" rel="noopener noreferrer">Insight Software Consortium</a>
+        <br/>
+        This work is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">Creative Commons Attribution 4.0 International License</a>
+      </p>
+
+      <p>
+        <a href="https://fideus.io" target="_blank" rel="noopener noreferrer">
+          <Image width={100} src={fideusLogo} alt="Fideus Labs logo" />
+        </a>
+        <br/>
+        Built with <a href="https://github.com/awesome-myst/myst-awesome" target="_blank" rel="noopener noreferrer">MyST Awesome</a> by <a href="https://fideus.io" target="_blank" rel="noopener noreferrer">Fideus Labs</a>
+        <br/>
+        {lastModified && (
+          <time class="last-modified">
+            Last updated: {lastModified.toLocaleDateString('en-US', { 
+              year: 'numeric', 
+              month: 'long', 
+              day: 'numeric' 
+            })}
+          </time>
+        )}
+      </p>
+
     </div>
   )}
 </footer>
@@ -88,6 +96,7 @@ const {
   .footer-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-items: center;
     gap: var(--wa-space-l);
     margin-bottom: var(--wa-space-l);
   }
@@ -123,12 +132,13 @@ const {
   .footer-bottom {
     padding-top: var(--wa-space-l);
     border-top: 1px solid var(--wa-color-surface-border);
+    color: var(--wa-color-text-quiet);
+    font-size: var(--wa-font-size-s);
     text-align: center;
   }
 
   .footer-bottom time {
     margin: 0;
-    color: var(--wa-color-text-quiet);
     font-size: var(--wa-font-size-s);
   }
 

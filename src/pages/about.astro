@@ -52,7 +52,7 @@ const lastModified = new Date();
       <wa-tab slot="nav" panel="technology">Technology</wa-tab>
       <wa-tab slot="nav" panel="contribute">Contribute</wa-tab>
 
-      <wa-tab-panel name="manifesto">
+      <wa-tab-panel name="manifesto" id="manifesto">
         <section class="manifesto">
           <h2>Our Vision</h2>
           <p>
@@ -184,7 +184,7 @@ const lastModified = new Date();
         </section>
       </wa-tab-panel>
 
-      <wa-tab-panel name="technology">
+      <wa-tab-panel name="technology" id="technology">
         <section class="technology">
           <h2>Sustainable Open Science with Web3 Technology</h2>
           <p>
@@ -424,7 +424,7 @@ image = itk.imread('data/img1.png')
         </section>
       </wa-tab-panel>
 
-      <wa-tab-panel name="contribute">
+      <wa-tab-panel name="contribute" id="contribute">
         <section class="contribute">
           <h2>Contribute to the Insight Journal</h2>
           <p>
@@ -635,6 +635,26 @@ image = itk.imread('data/img1.png')
       attributes: true,
       attributeFilter: ['class']
     });
+
+    // Handle hash navigation for tabs
+    const handleTabFromHash = () => {
+      const hash = window.location.hash.substring(1); // Remove the # symbol
+      if (hash && ['manifesto', 'technology', 'contribute'].includes(hash)) {
+        const tabGroup = document.querySelector('wa-tab-group');
+        const targetTab = document.querySelector(`wa-tab[panel="${hash}"]`);
+        
+        if (tabGroup && targetTab) {
+          // Activate the tab
+          (targetTab as any).click();
+        }
+      }
+    };
+
+    // Handle initial hash on page load
+    handleTabFromHash();
+
+    // Handle hash changes (when clicking footer links)
+    window.addEventListener('hashchange', handleTabFromHash);
   });
 </script>
 
@@ -710,14 +730,6 @@ image = itk.imread('data/img1.png')
 
   li {
     margin-bottom: 0.5rem;
-  }
-
-  a {
-    color: var(--sl-color-primary);
-  }
-
-  a:hover {
-    text-decoration: underline;
   }
 
   strong {

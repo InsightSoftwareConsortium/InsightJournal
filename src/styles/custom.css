@@ -19,10 +19,11 @@ a {
   text-decoration-thickness: 1px;
   text-underline-offset: 2px;
   transition: text-decoration-color 0.2s ease;
+  color: var(--sl-color-primary);
 }
 
 a:hover {
-  text-decoration-style: solid;
+  text-decoration: underline;
 }
 
 /* Additional custom styles can be added here */
