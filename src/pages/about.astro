@@ -201,7 +201,8 @@ const lastModified = new Date();
             <li><strong>Ethereum:</strong> Blockchain-based verification and provenance</li>
           </ul>
           <p>
-            <Image src={merkleTrees} alt="Merkle tree cartoon" />
+            <Image src={merkleTrees} width={480} alt="Merkle tree cartoon" />
+            <br />
             <small><a href="https://en.wikipedia.org/wiki/Turtles_all_the_way_down" target="_blank"  rel="noopener noreferrer">It's Merkle trees all the way down.</a></small>
           </p>
           <p>
@@ -295,13 +296,13 @@ const lastModified = new Date();
             rich, interactive content that transforms articles from static PDFs into engaging, explorable research artifacts.
           </p>
           <p>
-            MyST Markdown's structured yet human-readable format makes research exceptionally accessible to AI systems and large language models (LLMs). 
-            Unlike proprietary formats or PDFs that obscure content structure, MyST preserves semantic meaning through its markup—equations remain 
-            interpretable, code blocks are clearly delineated, and citations maintain their relationships. This machine-readability enables AI agents 
+            MyST Markdown's structured yet human-readable format makes research exceptionally accessible to AI systems and large language models (LLMs).
+            Unlike proprietary formats or PDFs that obscure content structure, MyST preserves semantic meaning through its markup—equations remain
+            interpretable, code blocks are clearly delineated, and citations maintain their relationships. This machine-readability enables AI agents
             to accurately extract methodologies, reproduce analyses, generate summaries, and synthesize findings across multiple papers.
           </p>
           <p>
-            As research increasingly leverages AI for literature review, meta-analysis, and automated hypothesis generation, MyST's transparent structure ensures 
+            As research increasingly leverages AI for literature review, meta-analysis, and automated hypothesis generation, MyST's transparent structure ensures
             that published knowledge remains computationally accessible for decades to come, bridging human scholarship and artificial intelligence.
           </p>
 
@@ -373,7 +374,6 @@ term:
 ### Code Examples
 
 \`\`\`python
-# Python example
 import itk
 
 # Load an image
@@ -385,27 +385,27 @@ image = itk.imread('data/img1.png')
             MyST provides a modern authoring experience with powerful features for scientific publishing:
           </p>
           <ul>
-            <li><strong>Rich Scientific Content:</strong> Native support for figures, equations, citations, 
+            <li><strong>Rich Scientific Content:</strong> Native support for figures, equations, citations,
                 cross-references, and bibliographies using familiar Markdown syntax</li>
-            <li><strong>Multiple Export Formats:</strong> Single source generates HTML, PDF (via Typst—no LaTeX required), 
+            <li><strong>Multiple Export Formats:</strong> Single source generates HTML, PDF (via Typst—no LaTeX required),
                 Microsoft Word (DOCX), and <a href="https://www.niso.org/standards-committees/meca" target="_blank" rel="noopener noreferrer">MECA</a> archives for journal submission</li>
-            <li><strong>Interactive Visualizations:</strong> Embed dynamic HTML elements, 3D visualizations, 
+            <li><strong>Interactive Visualizations:</strong> Embed dynamic HTML elements, 3D visualizations,
                 and executable code directly in manuscripts</li>
-            <li><strong>Reproducible Environments:</strong> Integrated dependency management with 
-                <a href="https://pixi.sh/latest/" target="_blank" rel="noopener noreferrer">Pixi</a> ensures 
+            <li><strong>Reproducible Environments:</strong> Integrated dependency management with
+                <a href="https://pixi.sh/latest/" target="_blank" rel="noopener noreferrer">Pixi</a> ensures
                 consistent builds across systems</li>
-            <li><strong>Live Preview:</strong> Development server with hot reload lets you see changes instantly 
+            <li><strong>Live Preview:</strong> Development server with hot reload lets you see changes instantly
                 as you write</li>
-            <li><strong>Source Code Integration:</strong> Include and test C++, Python, or other code alongside 
+            <li><strong>Source Code Integration:</strong> Include and test C++, Python, or other code alongside
                 your manuscript with automated validation</li>
-            <li><strong>Version Control Ready:</strong> Plain text Markdown format works seamlessly with Git 
+            <li><strong>Version Control Ready:</strong> Plain text Markdown format works seamlessly with Git
                 for collaboration and tracking changes</li>
           </ul>
 
           <h3>Getting Started</h3>
           <p>
-            Authors can begin with the <a href="https://github.com/InsightSoftwareConsortium/InsightJournalTemplate" target="_blank" rel="noopener noreferrer">Insight Journal Template</a>, 
-            which provides a complete authoring environment including example code, data, and documentation. 
+            Authors can begin with the <a href="https://github.com/InsightSoftwareConsortium/InsightJournalTemplate" target="_blank" rel="noopener noreferrer">Insight Journal Template</a>,
+            which provides a complete authoring environment including example code, data, and documentation.
             The template supports both pure documentation projects and those with executable C++ or Python code.
           </p>
 
@@ -414,6 +414,10 @@ image = itk.imread('data/img1.png')
             Building on the <a href="https://itk.org" target="_blank" rel="noopener noreferrer">Insight Toolkit (ITK)</a>, the journal supports browser-based visualization
             of medical imaging datasets through <a href="https://wasm.itk.org" target="_blank" rel="noopener noreferrer">ITK-Wasm</a> and <a href="https://niivue.com" target="_blank" rel="noopener noreferrer">NiiVue</a>. This enables:
           </p>
+          <div>
+            <canvas id="gl1" height="480" width="640"></canvas>
+          </div>
+          <br />
           <ul>
             <li>Direct 3D visualization of medical images in web browsers</li>
             <li>Interactive exploration of imaging data without specialized software</li>
@@ -437,7 +441,7 @@ image = itk.imread('data/img1.png')
           <h3>Article Preparation</h3>
           <p>
             Begin by using our article template from the
-            <a href="https://github.com/InsightSoftwareConsortium/InsightJournalTemplate" target="_blank" rel="noopener noreferrer">InsightJournalTemplate repository</a>.
+            <a href="https://github.com/InsightSoftwareConsortium/InsightJournalTemplate" target="_blank" rel="noopener noreferrer"><strong>InsightJournalTemplate</strong> repository</a>.
             This template is specifically designed for Insight Journal submissions and includes:
           </p>
           <ul>
@@ -447,6 +451,11 @@ image = itk.imread('data/img1.png')
             <li>Example structure for methods, results, and discussion sections</li>
             <li>Guidelines for including code, data, and visualizations</li>
           </ul>
+          <p>
+            To create a new article repository, click the <i>"Use this template"</i> button on the GitHub page.
+            This will create a new repository in your GitHub account that you can clone and edit locally.
+            Follow the instructions in the README to set up your development environment and start writing.
+          </p>
 
           <h3>Authorship and Attribution</h3>
           <p>
@@ -602,8 +611,11 @@ image = itk.imread('data/img1.png')
   import '@awesome.me/webawesome/dist/components/tab/tab.js';
   import '@awesome.me/webawesome/dist/components/tab-panel/tab-panel.js';
 
+	import { Niivue } from "@niivue/niivue";
+  import { useItkWasmLoaders } from '@niivue/itkwasm-loader'
+
   // Theme-aware logo switching functionality
-  document.addEventListener('DOMContentLoaded', () => {
+  document.addEventListener('DOMContentLoaded', async () => {
     // Theme-aware logo switching
     const updateLogoForTheme = () => {
       const isDark = document.documentElement.classList.contains('wa-dark');
@@ -642,7 +654,7 @@ image = itk.imread('data/img1.png')
       if (hash && ['manifesto', 'technology', 'contribute'].includes(hash)) {
         const tabGroup = document.querySelector('wa-tab-group');
         const targetTab = document.querySelector(`wa-tab[panel="${hash}"]`);
-        
+
         if (tabGroup && targetTab) {
           // Activate the tab
           (targetTab as any).click();
@@ -655,6 +667,20 @@ image = itk.imread('data/img1.png')
 
     // Handle hash changes (when clicking footer links)
     window.addEventListener('hashchange', handleTabFromHash);
+
+    // Example visualization
+    const defaults = {
+      // Match dark mode background
+      backColor: [16.0/255.0, 18.0/255.0, 25.0/255.0, 1.0],
+      // logLevel: 'debug' | 'info' | 'warn' | 'error' | 'fatal' | 'silent'
+      logLevel: 'info',
+    };
+    const nv1 = new Niivue(defaults);
+    const gl1 = document.getElementById("gl1") as HTMLCanvasElement;
+    await nv1.attachToCanvas(gl1);
+  	await nv1.loadVolumes([{ url: "/assets/mri.nii.gz" }]);
+    useItkWasmLoaders(nv1);
+    gl1.height = 800;
   });
 </script>
 
@@ -748,5 +774,14 @@ image = itk.imread('data/img1.png')
     a {
       color: var(--sl-color-primary-light);
     }
+  }
+
+  canvas {
+    /* remove white border when clicked */
+    /* min-width: 300px;
+    max-width: 800px; */
+    z-index: 1;
+    outline: none;
+    border: none;
   }
 </style>
