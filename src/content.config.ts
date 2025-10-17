@@ -196,6 +196,56 @@ function getArticlesFromConfig(
   }
 }
 
+/**
+ * Fetch all article IDs from myst.xref.json
+ */
+async function getAllArticles(baseUrl: string): Promise<number[]> {
+  try {
+    const xrefUrl = `${baseUrl}/myst.xref.json`;
+    console.log(`Fetching all articles from ${xrefUrl}`);
+
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 10000);
+
+    const response = await fetch(xrefUrl, {
+      signal: controller.signal,
+    });
+
+    clearTimeout(timeoutId);
+
+    if (!response.ok) {
+      console.warn(`Failed to fetch myst.xref.json: ${response.status}`);
+      return [];
+    }
+
+    const xrefData = await response.json();
+
+    if (!xrefData.references || !Array.isArray(xrefData.references)) {
+      console.warn("Invalid myst.xref.json format: missing references array");
+      return [];
+    }
+
+    const articleIds: number[] = [];
+    for (const ref of xrefData.references) {
+      if (ref.identifier && typeof ref.identifier === "string") {
+        const match = ref.identifier.match(/^dpid-(\d+)$/);
+        if (match) {
+          const articleId = parseInt(match[1], 10);
+          if (!isNaN(articleId)) {
+            articleIds.push(articleId);
+          }
+        }
+      }
+    }
+
+    console.log(`Found ${articleIds.length} articles in myst.xref.json`);
+    return articleIds;
+  } catch (error) {
+    console.warn("Failed to fetch all articles from myst.xref.json:", error);
+    return [];
+  }
+}
+
 type InsightJournalMystConfig = MystServerConfig & {
   generateArchive?: boolean;
   archivePath?: string; // Path to save the generated archive
@@ -228,279 +278,284 @@ const createFilteredPagesLoader = (
   serverConfig: InsightJournalMystConfig = {},
   projectConfig: ProjectConfig = {}
 ) => {
-  const articles = getArticlesFromConfig(projectConfig);
+  return async () => {
+    let articles = getArticlesFromConfig(projectConfig);
 
-  if (articles && articles.length > 0) {
-    return async () => {
-      console.log(
-        `Loading ${articles.length} specific articles from DPID endpoint:`,
-        articles
-      );
+    if (!articles || articles.length === 0) {
+      console.log("No articles in myst.yml, fetching all from myst.xref.json");
+      const baseUrl = serverConfig.baseUrl || "https://insight-test.desci.com";
+      articles = await getAllArticles(baseUrl);
 
-      const articlePromises = articles.map(async (articleId: number) => {
-        try {
-          console.log(
-            `Fetching article ${articleId} from https://dev-beta.dpid.org/${articleId}?format=myst`
+      if (!articles || articles.length === 0) {
+        console.warn("No articles found in myst.xref.json");
+        return [];
+      }
+    }
+
+    console.log(
+      `Loading ${articles.length} specific articles from DPID endpoint:`,
+      articles
+    );
+
+    const articlePromises = articles.map(async (articleId: number) => {
+      try {
+        console.log(
+          `Fetching article ${articleId} from https://dev-beta.dpid.org/${articleId}?format=myst`
+        );
+
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), 10000);
+
+        const response = await fetch(
+          `https://dev-beta.dpid.org/${articleId}?format=myst`,
+          {
+            signal: controller.signal,
+          }
+        );
+
+        clearTimeout(timeoutId);
+
+        if (!response.ok) {
+          console.warn(
+            `Failed to fetch article ${articleId}: ${response.status}`
           );
+          return null;
+        }
 
-          const controller = new AbortController();
-          const timeoutId = setTimeout(() => controller.abort(), 10000);
+        const pageData = await response.json();
+        console.log(`Successfully fetched article ${articleId}`);
 
-          const response = await fetch(
-            `https://dev-beta.dpid.org/${articleId}?format=myst`,
-            {
-              signal: controller.signal,
-            }
-          );
+        // Todo: fix upstream
+        // pageData.references = {
+        //   cite: {
+        //     order: [],
+        //     data: {},
+        //   },
+        // };
 
-          clearTimeout(timeoutId);
+        // console.log("pageData", pageData);
 
-          if (!response.ok) {
-            console.warn(
-              `Failed to fetch article ${articleId}: ${response.status}`
+        // Generate archive if enabled
+        const archivePath =
+          serverConfig.archivePath || resolve(process.cwd(), "archive");
+        if (serverConfig.generateArchive && archivePath) {
+          try {
+            await generateArticleArchive(articleId, pageData, archivePath);
+          } catch (error) {
+            console.error(
+              `Failed to generate archive for article ${articleId}:`,
+              error
             );
-            return null;
+            // Continue even if archive generation fails
+          }
+        }
+
+        const insightJournalId = pageData.frontmatter?.external_publication_id;
+        if (insightJournalId) {
+          console.log(
+            `✓ Article ${articleId} has external_publication_id: ${insightJournalId}`
+          );
+        } else {
+          console.error(
+            `✗ Article ${articleId} is missing external_publication_id in frontmatter`
+          );
+          // fail
+          return null;
+        }
+
+        // Create a synthetic reference object for consistency
+        const syntheticRef = {
+          url: `/browse/publication/${insightJournalId}`,
+          kind: "page",
+          identifier: `dpid-${articleId}`,
+          data: `https://dev-beta.dpid.org/${articleId}?format=myst`,
+        };
+
+        // Todo: call processThumbnails
+
+        const publicDir = resolve(process.cwd(), "public");
+
+        // Download article.pdf to public/pdfs/${insightJournalId}.pdf
+        if (pageData.downloads && Array.isArray(pageData.downloads)) {
+          const articlePdfDownload = pageData.downloads.find(
+            (download: any) => download.title === "root/article.pdf"
+          );
+
+          if (articlePdfDownload && articlePdfDownload.url) {
+            try {
+              console.log(
+                `Downloading article.pdf for ${insightJournalId} from ${articlePdfDownload.url}`
+              );
+
+              const pdfController = new AbortController();
+              const pdfTimeoutId = setTimeout(
+                () => pdfController.abort(),
+                30000
+              );
+
+              const pdfResponse = await fetch(articlePdfDownload.url, {
+                signal: pdfController.signal,
+              });
+
+              clearTimeout(pdfTimeoutId);
+
+              if (pdfResponse.ok) {
+                const pdfBuffer = await pdfResponse.arrayBuffer();
+                const pdfsDir = join(publicDir, "pdfs");
+                if (!existsSync(pdfsDir)) {
+                  mkdirSync(pdfsDir, { recursive: true });
+                }
+
+                const pdfPath = join(pdfsDir, `${insightJournalId}.pdf`);
+                writeFileSync(pdfPath, Buffer.from(pdfBuffer));
+                console.log(
+                  `✓ Downloaded article.pdf to ${pdfPath} (${pdfBuffer.byteLength} bytes)`
+                );
+              } else {
+                console.warn(
+                  `✗ Failed to download article.pdf: ${pdfResponse.status}`
+                );
+              }
+            } catch (error) {
+              console.warn(`✗ Error downloading article.pdf:`, error);
+            }
+          } else {
+            console.warn(
+              `✗ No download with title "root/article.pdf" found for article ${insightJournalId}`
+            );
           }
 
-          const pageData = await response.json();
-          console.log(`Successfully fetched article ${articleId}`);
+          // Fetch insight-journal-metadata.json and merge tags into keywords
+          const metadataDownload = pageData.downloads.find(
+            (download: any) =>
+              download.title === "root/insight-journal-metadata.json"
+          );
 
-          // Todo: fix upstream
-          // pageData.references = {
-          //   cite: {
-          //     order: [],
-          //     data: {},
-          //   },
-          // };
-
-          // console.log("pageData", pageData);
-
-          // Generate archive if enabled
-          const archivePath =
-            serverConfig.archivePath || resolve(process.cwd(), "archive");
-          if (serverConfig.generateArchive && archivePath) {
+          if (metadataDownload && metadataDownload.url) {
             try {
-              await generateArticleArchive(articleId, pageData, archivePath);
+              console.log(
+                `Fetching insight-journal-metadata.json for ${insightJournalId} from ${metadataDownload.url}`
+              );
+
+              const metadataController = new AbortController();
+              const metadataTimeoutId = setTimeout(
+                () => metadataController.abort(),
+                10000
+              );
+
+              const metadataResponse = await fetch(metadataDownload.url, {
+                signal: metadataController.signal,
+              });
+
+              clearTimeout(metadataTimeoutId);
+
+              if (metadataResponse.ok) {
+                const metadataJson = await metadataResponse.json();
+                console.log(
+                  `✓ Fetched insight-journal-metadata.json for ${insightJournalId}`
+                );
+
+                // Merge tags into keywords
+                if (metadataJson.tags && Array.isArray(metadataJson.tags)) {
+                  // Initialize keywords array if it doesn't exist
+                  if (!pageData.frontmatter) {
+                    pageData.frontmatter = {};
+                  }
+                  if (!Array.isArray(pageData.frontmatter.keywords)) {
+                    pageData.frontmatter.keywords = [];
+                  }
+
+                  // Add tags to keywords if not already present
+                  const existingKeywords = new Set(
+                    pageData.frontmatter.keywords.map((k: string) =>
+                      k.toLowerCase()
+                    )
+                  );
+
+                  for (const tag of metadataJson.tags) {
+                    if (
+                      typeof tag === "string" &&
+                      !existingKeywords.has(tag.toLowerCase())
+                    ) {
+                      pageData.frontmatter.keywords.push(tag);
+                      existingKeywords.add(tag.toLowerCase());
+                    }
+                  }
+
+                  console.log(
+                    `✓ Added ${metadataJson.tags.length} tags to keywords (now ${pageData.frontmatter.keywords.length} total)`
+                  );
+                }
+              } else {
+                console.warn(
+                  `✗ Failed to fetch insight-journal-metadata.json: ${metadataResponse.status}`
+                );
+              }
             } catch (error) {
-              console.error(
-                `Failed to generate archive for article ${articleId}:`,
+              console.warn(
+                `✗ Error fetching insight-journal-metadata.json:`,
                 error
               );
-              // Continue even if archive generation fails
             }
           }
 
-          const insightJournalId =
-            pageData.frontmatter?.external_publication_id;
-          if (insightJournalId) {
-            console.log(
-              `✓ Article ${articleId} has external_publication_id: ${insightJournalId}`
-            );
-          } else {
-            console.error(
-              `✗ Article ${articleId} is missing external_publication_id in frontmatter`
-            );
-            // fail
-            return null;
-          }
-
-          // Create a synthetic reference object for consistency
-          const syntheticRef = {
-            url: `/browse/publication/${insightJournalId}`,
-            kind: "page",
-            identifier: `dpid-${articleId}`,
-            data: `https://dev-beta.dpid.org/${articleId}?format=myst`,
-          };
-
-          // Todo: call processThumbnails
-
-          const publicDir = resolve(process.cwd(), "public");
-
-          // Download article.pdf to public/pdfs/${insightJournalId}.pdf
+          // Write pageData.downloads to ${publicDir}/downloads/${insightJournalId}.json
           if (pageData.downloads && Array.isArray(pageData.downloads)) {
-            const articlePdfDownload = pageData.downloads.find(
-              (download: any) => download.title === "root/article.pdf"
-            );
-
-            if (articlePdfDownload && articlePdfDownload.url) {
-              try {
-                console.log(
-                  `Downloading article.pdf for ${insightJournalId} from ${articlePdfDownload.url}`
-                );
-
-                const pdfController = new AbortController();
-                const pdfTimeoutId = setTimeout(
-                  () => pdfController.abort(),
-                  30000
-                );
-
-                const pdfResponse = await fetch(articlePdfDownload.url, {
-                  signal: pdfController.signal,
-                });
-
-                clearTimeout(pdfTimeoutId);
-
-                if (pdfResponse.ok) {
-                  const pdfBuffer = await pdfResponse.arrayBuffer();
-                  const pdfsDir = join(publicDir, "pdfs");
-                  if (!existsSync(pdfsDir)) {
-                    mkdirSync(pdfsDir, { recursive: true });
-                  }
-
-                  const pdfPath = join(pdfsDir, `${insightJournalId}.pdf`);
-                  writeFileSync(pdfPath, Buffer.from(pdfBuffer));
-                  console.log(
-                    `✓ Downloaded article.pdf to ${pdfPath} (${pdfBuffer.byteLength} bytes)`
-                  );
-                } else {
-                  console.warn(
-                    `✗ Failed to download article.pdf: ${pdfResponse.status}`
-                  );
-                }
-              } catch (error) {
-                console.warn(`✗ Error downloading article.pdf:`, error);
+            try {
+              const downloadsDir = join(publicDir, "downloads");
+              if (!existsSync(downloadsDir)) {
+                mkdirSync(downloadsDir, { recursive: true });
               }
-            } else {
+
+              const downloadsPath = join(
+                downloadsDir,
+                `${insightJournalId}.json`
+              );
+              writeFileSync(
+                downloadsPath,
+                JSON.stringify(pageData.downloads, null, 2),
+                "utf-8"
+              );
+              console.log(
+                `✓ Saved downloads to ${downloadsPath} (${pageData.downloads.length} items)`
+              );
+            } catch (error) {
               console.warn(
-                `✗ No download with title "root/article.pdf" found for article ${insightJournalId}`
+                `✗ Error writing downloads JSON for ${insightJournalId}:`,
+                error
               );
             }
-
-            // Fetch insight-journal-metadata.json and merge tags into keywords
-            const metadataDownload = pageData.downloads.find(
-              (download: any) =>
-                download.title === "root/insight-journal-metadata.json"
-            );
-
-            if (metadataDownload && metadataDownload.url) {
-              try {
-                console.log(
-                  `Fetching insight-journal-metadata.json for ${insightJournalId} from ${metadataDownload.url}`
-                );
-
-                const metadataController = new AbortController();
-                const metadataTimeoutId = setTimeout(
-                  () => metadataController.abort(),
-                  10000
-                );
-
-                const metadataResponse = await fetch(metadataDownload.url, {
-                  signal: metadataController.signal,
-                });
-
-                clearTimeout(metadataTimeoutId);
-
-                if (metadataResponse.ok) {
-                  const metadataJson = await metadataResponse.json();
-                  console.log(
-                    `✓ Fetched insight-journal-metadata.json for ${insightJournalId}`
-                  );
-
-                  // Merge tags into keywords
-                  if (metadataJson.tags && Array.isArray(metadataJson.tags)) {
-                    // Initialize keywords array if it doesn't exist
-                    if (!pageData.frontmatter) {
-                      pageData.frontmatter = {};
-                    }
-                    if (!Array.isArray(pageData.frontmatter.keywords)) {
-                      pageData.frontmatter.keywords = [];
-                    }
-
-                    // Add tags to keywords if not already present
-                    const existingKeywords = new Set(
-                      pageData.frontmatter.keywords.map((k: string) =>
-                        k.toLowerCase()
-                      )
-                    );
-
-                    for (const tag of metadataJson.tags) {
-                      if (
-                        typeof tag === "string" &&
-                        !existingKeywords.has(tag.toLowerCase())
-                      ) {
-                        pageData.frontmatter.keywords.push(tag);
-                        existingKeywords.add(tag.toLowerCase());
-                      }
-                    }
-
-                    console.log(
-                      `✓ Added ${metadataJson.tags.length} tags to keywords (now ${pageData.frontmatter.keywords.length} total)`
-                    );
-                  }
-                } else {
-                  console.warn(
-                    `✗ Failed to fetch insight-journal-metadata.json: ${metadataResponse.status}`
-                  );
-                }
-              } catch (error) {
-                console.warn(
-                  `✗ Error fetching insight-journal-metadata.json:`,
-                  error
-                );
-              }
-            }
-
-            // Write pageData.downloads to ${publicDir}/downloads/${insightJournalId}.json
-            if (pageData.downloads && Array.isArray(pageData.downloads)) {
-              try {
-                const downloadsDir = join(publicDir, "downloads");
-                if (!existsSync(downloadsDir)) {
-                  mkdirSync(downloadsDir, { recursive: true });
-                }
-
-                const downloadsPath = join(
-                  downloadsDir,
-                  `${insightJournalId}.json`
-                );
-                writeFileSync(
-                  downloadsPath,
-                  JSON.stringify(pageData.downloads, null, 2),
-                  "utf-8"
-                );
-                console.log(
-                  `✓ Saved downloads to ${downloadsPath} (${pageData.downloads.length} items)`
-                );
-              } catch (error) {
-                console.warn(
-                  `✗ Error writing downloads JSON for ${insightJournalId}:`,
-                  error
-                );
-              }
-            }
           }
-
-          const urlPath = String(syntheticRef.url).replace(/^\/+/, ""); // strip leading '/'
-          const targetPath = join(publicDir, `${urlPath}.json`);
-          const targetDir = dirname(targetPath);
-          if (!existsSync(targetDir)) {
-            mkdirSync(targetDir, { recursive: true });
-          }
-          writeFileSync(targetPath, JSON.stringify(pageData, null), "utf-8");
-          console.log(`✓ Saved page JSON to ${targetPath}`);
-
-          return {
-            id: insightJournalId.toString(),
-            ...syntheticRef,
-            ...pageData,
-          };
-        } catch (error) {
-          console.warn(`Failed to load article ${articleId}:`, error);
-          return createPagesLoader(serverConfig)();
         }
-      });
 
-      const results = await Promise.all(articlePromises);
-      const validArticles = results.filter((result) => result !== null);
+        const urlPath = String(syntheticRef.url).replace(/^\/+/, ""); // strip leading '/'
+        const targetPath = join(publicDir, `${urlPath}.json`);
+        const targetDir = dirname(targetPath);
+        if (!existsSync(targetDir)) {
+          mkdirSync(targetDir, { recursive: true });
+        }
+        writeFileSync(targetPath, JSON.stringify(pageData, null), "utf-8");
+        console.log(`✓ Saved page JSON to ${targetPath}`);
 
-      console.log(
-        `Successfully loaded ${validArticles.length} articles from DPID endpoint`
-      );
-      return validArticles;
-    };
-  } else {
-    console.log("No articles specified, using default pages loader");
-    return createPagesLoader(serverConfig);
-  }
+        return {
+          id: insightJournalId.toString(),
+          ...syntheticRef,
+          ...pageData,
+        };
+      } catch (error) {
+        console.warn(`Failed to load article ${articleId}:`, error);
+        return null;
+      }
+    });
+
+    const results = await Promise.all(articlePromises);
+    const validArticles = results.filter((result) => result !== null);
+
+    console.log(
+      `Successfully loaded ${validArticles.length} articles from DPID endpoint`
+    );
+    return validArticles;
+  };
 };
 
 const modifiedCollections = { ...baseCollections };
