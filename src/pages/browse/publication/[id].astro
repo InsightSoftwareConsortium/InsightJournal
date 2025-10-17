@@ -163,12 +163,11 @@ const mockFiles = [
       <wa-tab slot="nav" panel="article">Manuscript</wa-tab>
       <wa-tab-panel name="article">
         <div class="tab-content">
-          <h2>Manuscript</h2>
           <div class="pdf-viewer">
             <iframe
-              src={`/pdf/${page.slug}.pdf`}
+              src={`/pdfs/${page.slug}.pdf`}
               width="100%"
-              height="800px"
+              height="1200px"
               style="border: none;"
               title="Article PDF"
             ></iframe>

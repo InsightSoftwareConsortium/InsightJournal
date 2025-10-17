@@ -273,7 +273,7 @@ const createFilteredPagesLoader = (
             },
           };
 
-          console.log("pageData", pageData);
+          // console.log("pageData", pageData);
 
           // Generate archive if enabled
           const archivePath =
