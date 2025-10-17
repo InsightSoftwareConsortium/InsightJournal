@@ -222,6 +222,22 @@ const lastModified = new Date();
             <li><strong>Reusable:</strong> Open licenses, complete documentation, and included dependencies</li>
           </ul>
 
+          <h2>Interactive Visualizations with ITK-Wasm and NiiVue</h2>
+          <p>
+            Building on the <a href="https://itk.org" target="_blank" rel="noopener noreferrer">Insight Toolkit (ITK)</a>, the journal supports browser-based visualization
+            of medical imaging datasets through <a href="https://wasm.itk.org" target="_blank" rel="noopener noreferrer">ITK-Wasm</a> and <a href="https://niivue.com" target="_blank" rel="noopener noreferrer">NiiVue</a>. This enables:
+          </p>
+          <div>
+            <canvas id="gl1" height="800" width="800"></canvas>
+          </div>
+          <br />
+          <ul>
+            <li>Direct 3D visualization of medical images in web browsers</li>
+            <li>Interactive exploration of imaging data without specialized software</li>
+            <!-- <li>Reproducible computational experiments through WebAssembly</li> -->
+            <li>Cross-platform compatibility without installation requirements</li>
+          </ul>
+
           <h2>DeSci Nodes Platform</h2>
           <p>
             The Insight Journal operates on <a href="https://nodes.desci.com/" target="_blank"  rel="noopener noreferrer">DeSci Nodes</a>, a decentralized science
@@ -408,22 +424,6 @@ image = itk.imread('data/img1.png')
             which provides a complete authoring environment including example code, data, and documentation.
             The template supports both pure documentation projects and those with executable C++ or Python code.
           </p>
-
-          <h2>Interactive Visualizations with ITK-Wasm and NiiVue</h2>
-          <p>
-            Building on the <a href="https://itk.org" target="_blank" rel="noopener noreferrer">Insight Toolkit (ITK)</a>, the journal supports browser-based visualization
-            of medical imaging datasets through <a href="https://wasm.itk.org" target="_blank" rel="noopener noreferrer">ITK-Wasm</a> and <a href="https://niivue.com" target="_blank" rel="noopener noreferrer">NiiVue</a>. This enables:
-          </p>
-          <div>
-            <canvas id="gl1" height="800" width="800"></canvas>
-          </div>
-          <br />
-          <ul>
-            <li>Direct 3D visualization of medical images in web browsers</li>
-            <li>Interactive exploration of imaging data without specialized software</li>
-            <!-- <li>Reproducible computational experiments through WebAssembly</li> -->
-            <li>Cross-platform compatibility without installation requirements</li>
-          </ul>
 
         </section>
       </wa-tab-panel>
