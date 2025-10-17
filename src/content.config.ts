@@ -208,7 +208,7 @@ const server: InsightJournalMystConfig = {
   generateSearchIndex: false,
   includeKeywords: true,
   pageConcurrency: 8,
-  generateArchive: true,
+  generateArchive: false,
   archivePath: resolve(process.cwd(), "archive"),
 };
 
@@ -323,6 +323,57 @@ const createFilteredPagesLoader = (
           }
           writeFileSync(targetPath, JSON.stringify(pageData, null), "utf-8");
           console.log(`✓ Saved page JSON to ${targetPath}`);
+
+          // Download article.pdf to public/pdfs/${insightJournalId}.pdf
+          if (pageData.downloads && Array.isArray(pageData.downloads)) {
+            const articlePdfDownload = pageData.downloads.find(
+              (download: any) => download.title === "root/article.pdf"
+            );
+
+            if (articlePdfDownload && articlePdfDownload.url) {
+              try {
+                console.log(
+                  `Downloading article.pdf for ${insightJournalId} from ${articlePdfDownload.url}`
+                );
+
+                const pdfController = new AbortController();
+                const pdfTimeoutId = setTimeout(
+                  () => pdfController.abort(),
+                  30000
+                );
+
+                const pdfResponse = await fetch(articlePdfDownload.url, {
+                  signal: pdfController.signal,
+                });
+
+                clearTimeout(pdfTimeoutId);
+
+                if (pdfResponse.ok) {
+                  const pdfBuffer = await pdfResponse.arrayBuffer();
+                  const pdfsDir = join(publicDir, "pdfs");
+                  if (!existsSync(pdfsDir)) {
+                    mkdirSync(pdfsDir, { recursive: true });
+                  }
+
+                  const pdfPath = join(pdfsDir, `${insightJournalId}.pdf`);
+                  writeFileSync(pdfPath, Buffer.from(pdfBuffer));
+                  console.log(
+                    `✓ Downloaded article.pdf to ${pdfPath} (${pdfBuffer.byteLength} bytes)`
+                  );
+                } else {
+                  console.warn(
+                    `✗ Failed to download article.pdf: ${pdfResponse.status}`
+                  );
+                }
+              } catch (error) {
+                console.warn(`✗ Error downloading article.pdf:`, error);
+              }
+            } else {
+              console.warn(
+                `✗ No download with title "root/article.pdf" found for article ${insightJournalId}`
+              );
+            }
+          }
 
           return {
             id: articleId.toString(),
