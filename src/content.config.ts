@@ -12,6 +12,161 @@ import { readFileSync, existsSync, mkdirSync, writeFileSync } from "node:fs";
 import { parse } from "yaml";
 import { resolve, dirname, join, basename } from "node:path";
 
+/**
+ * Extract all CIDs from a string (URL or text)
+ * Supports both /ipfs/<cid> and /ipns/<cid> patterns
+ */
+function extractCIDsFromString(text: string): string[] {
+  const cidPattern = /\/(ipfs|ipns)\/([a-zA-Z0-9]+)/g;
+  const cids: string[] = [];
+  let match;
+
+  while ((match = cidPattern.exec(text)) !== null) {
+    cids.push(match[2]);
+  }
+
+  return cids;
+}
+
+/**
+ * Recursively extract all CIDs from an object
+ */
+function extractAllCIDs(obj: any, visited = new Set()): string[] {
+  if (obj === null || obj === undefined) {
+    return [];
+  }
+
+  // Prevent infinite recursion
+  if (typeof obj === "object" && visited.has(obj)) {
+    return [];
+  }
+
+  if (typeof obj === "object") {
+    visited.add(obj);
+  }
+
+  const cids: string[] = [];
+
+  if (typeof obj === "string") {
+    cids.push(...extractCIDsFromString(obj));
+  } else if (Array.isArray(obj)) {
+    for (const item of obj) {
+      cids.push(...extractAllCIDs(item, visited));
+    }
+  } else if (typeof obj === "object") {
+    for (const value of Object.values(obj)) {
+      cids.push(...extractAllCIDs(value, visited));
+    }
+  }
+
+  return cids;
+}
+
+/**
+ * Generate archive for an article
+ * 1. Saves pageData to archive/myst/${articleId}.json
+ * 2. Downloads all files from downloads[] to archive/downloads/${articleId}/${filename}
+ * 3. Extracts and saves all CIDs to archive/pins/${articleId}.json
+ */
+async function generateArticleArchive(
+  articleId: number,
+  pageData: any,
+  archiveBasePath: string
+): Promise<void> {
+  console.log(`Generating archive for article ${articleId}...`);
+
+  try {
+    // 1. Save pageData to archive/myst/${articleId}.json
+    const mystDir = join(archiveBasePath, "myst");
+    if (!existsSync(mystDir)) {
+      mkdirSync(mystDir, { recursive: true });
+    }
+
+    const mystPath = join(mystDir, `${articleId}.json`);
+    writeFileSync(mystPath, JSON.stringify(pageData, null, 2), "utf-8");
+    console.log(`✓ Saved pageData to ${mystPath}`);
+
+    // 2. Download all files from downloads
+    if (pageData.downloads && Array.isArray(pageData.downloads)) {
+      const downloadsDir = join(
+        archiveBasePath,
+        "downloads",
+        articleId.toString()
+      );
+      if (!existsSync(downloadsDir)) {
+        mkdirSync(downloadsDir, { recursive: true });
+      }
+
+      for (const download of pageData.downloads) {
+        if (download.url && download.filename) {
+          try {
+            console.log(
+              `  Downloading ${download.filename} from ${download.url}`
+            );
+
+            const controller = new AbortController();
+            const timeoutId = setTimeout(() => controller.abort(), 30000);
+
+            const response = await fetch(download.url, {
+              signal: controller.signal,
+            });
+
+            clearTimeout(timeoutId);
+
+            if (response.ok) {
+              const buffer = await response.arrayBuffer();
+              const filePath = join(downloadsDir, download.filename);
+              writeFileSync(filePath, Buffer.from(buffer));
+              console.log(
+                `  ✓ Downloaded ${download.filename} (${buffer.byteLength} bytes)`
+              );
+            } else {
+              console.warn(
+                `  ✗ Failed to download ${download.filename}: ${response.status}`
+              );
+            }
+          } catch (error) {
+            console.warn(`  ✗ Error downloading ${download.filename}:`, error);
+          }
+        }
+      }
+    }
+
+    // 3. Extract all CIDs and save to archive/pins/${articleId}.json
+    const allCIDs = extractAllCIDs(pageData);
+
+    // Explicitly include revision_cids if present
+    if (
+      pageData.frontmatter?.revision_cids &&
+      Array.isArray(pageData.frontmatter.revision_cids)
+    ) {
+      allCIDs.push(...pageData.frontmatter.revision_cids);
+      console.log(
+        `  Found ${pageData.frontmatter.revision_cids.length} revision CIDs`
+      );
+    }
+
+    const uniqueCIDs = Array.from(new Set(allCIDs));
+
+    const pinsDir = join(archiveBasePath, "pins");
+    if (!existsSync(pinsDir)) {
+      mkdirSync(pinsDir, { recursive: true });
+    }
+
+    const pinsPath = join(pinsDir, `${articleId}.json`);
+    writeFileSync(pinsPath, JSON.stringify(uniqueCIDs, null, 2), "utf-8");
+    console.log(`✓ Saved ${uniqueCIDs.length} unique CIDs to ${pinsPath}`);
+
+    console.log(`✓ Archive generation complete for article ${articleId}`);
+  } catch (error) {
+    console.error(
+      `✗ Failed to generate archive for article ${articleId}:`,
+      error
+    );
+    throw error;
+  }
+}
+
 // Simple function to read articles from myst.yml
 function getArticlesFromConfig(
   projectConfig: ProjectConfig = {}
@@ -41,13 +196,20 @@ function getArticlesFromConfig(
   }
 }
 
-const server: MystServerConfig = {
+type InsightJournalMystConfig = MystServerConfig & {
+  generateArchive?: boolean;
+  archivePath?: string; // Path to save the generated archive
+};
+
+const server: InsightJournalMystConfig = {
   baseUrl: "https://insight-test.desci.com",
   timeout: 10000,
   // Enable fuse index generation for search
-  generateSearchIndex: true,
+  generateSearchIndex: false,
   includeKeywords: true,
   pageConcurrency: 8,
+  generateArchive: true,
+  archivePath: resolve(process.cwd(), "archive"),
 };
 
 const project: ProjectConfig = {
@@ -63,7 +225,7 @@ const baseCollections = createMystCollections({
 
 // Custom pages loader that supports article filtering
 const createFilteredPagesLoader = (
-  serverConfig: MystServerConfig = {},
+  serverConfig: InsightJournalMystConfig = {},
   projectConfig: ProjectConfig = {}
 ) => {
   const articles = getArticlesFromConfig(projectConfig);
@@ -129,7 +291,7 @@ const createFilteredPagesLoader = (
 
           // Todo: call processThumbnails
 
-          // Todo: fix upstream, does not follow schema
+          // Todo: fix upstream
           pageData.references = {
             cite: {
               order: [],
@@ -146,6 +308,21 @@ const createFilteredPagesLoader = (
           }
           writeFileSync(targetPath, JSON.stringify(pageData, null), "utf-8");
           console.log(`✓ Saved page JSON to ${targetPath}`);
+
+          // Generate archive if enabled
+          const archivePath =
+            serverConfig.archivePath || resolve(process.cwd(), "archive");
+          if (serverConfig.generateArchive && archivePath) {
+            try {
+              await generateArticleArchive(articleId, pageData, archivePath);
+            } catch (error) {
+              console.error(
+                `Failed to generate archive for article ${articleId}:`,
+                error
+              );
+              // Continue even if archive generation fails
+            }
+          }
 
           return {
             id: articleId.toString(),

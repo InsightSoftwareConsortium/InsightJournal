@@ -19,5 +19,8 @@ npm-debug.log*
 
 /public
 
+# Archive directory for article downloads and metadata
+/archive
+
 .astro/
 .playwright-mcp

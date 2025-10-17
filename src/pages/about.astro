@@ -415,7 +415,7 @@ image = itk.imread('data/img1.png')
             of medical imaging datasets through <a href="https://wasm.itk.org" target="_blank" rel="noopener noreferrer">ITK-Wasm</a> and <a href="https://niivue.com" target="_blank" rel="noopener noreferrer">NiiVue</a>. This enables:
           </p>
           <div>
-            <canvas id="gl1" height="480" width="640"></canvas>
+            <canvas id="gl1" height="800" width="800"></canvas>
           </div>
           <br />
           <ul>
@@ -682,6 +682,7 @@ image = itk.imread('data/img1.png')
   	await nv1.loadVolumes([{ url: "/assets/mri.nii.gz" }]);
     useItkWasmLoaders(nv1);
     gl1.height = 800;
+    gl1.width = 800;
   });
 </script>
 
