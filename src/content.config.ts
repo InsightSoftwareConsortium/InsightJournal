@@ -266,12 +266,12 @@ const createFilteredPagesLoader = (
           console.log(`Successfully fetched article ${articleId}`);
 
           // Todo: fix upstream
-          pageData.references = {
-            cite: {
-              order: [],
-              data: {},
-            },
-          };
+          // pageData.references = {
+          //   cite: {
+          //     order: [],
+          //     data: {},
+          //   },
+          // };
 
           // console.log("pageData", pageData);
 
@@ -315,14 +315,6 @@ const createFilteredPagesLoader = (
           // Todo: call processThumbnails
 
           const publicDir = resolve(process.cwd(), "public");
-          const urlPath = String(syntheticRef.url).replace(/^\/+/, ""); // strip leading '/'
-          const targetPath = join(publicDir, `${urlPath}.json`);
-          const targetDir = dirname(targetPath);
-          if (!existsSync(targetDir)) {
-            mkdirSync(targetDir, { recursive: true });
-          }
-          writeFileSync(targetPath, JSON.stringify(pageData, null), "utf-8");
-          console.log(`✓ Saved page JSON to ${targetPath}`);
 
           // Download article.pdf to public/pdfs/${insightJournalId}.pdf
           if (pageData.downloads && Array.isArray(pageData.downloads)) {
@@ -373,7 +365,90 @@ const createFilteredPagesLoader = (
                 `✗ No download with title "root/article.pdf" found for article ${insightJournalId}`
               );
             }
+
+            // Fetch insight-journal-metadata.json and merge tags into keywords
+            const metadataDownload = pageData.downloads.find(
+              (download: any) =>
+                download.title === "root/insight-journal-metadata.json"
+            );
+
+            if (metadataDownload && metadataDownload.url) {
+              try {
+                console.log(
+                  `Fetching insight-journal-metadata.json for ${insightJournalId} from ${metadataDownload.url}`
+                );
+
+                const metadataController = new AbortController();
+                const metadataTimeoutId = setTimeout(
+                  () => metadataController.abort(),
+                  10000
+                );
+
+                const metadataResponse = await fetch(metadataDownload.url, {
+                  signal: metadataController.signal,
+                });
+
+                clearTimeout(metadataTimeoutId);
+
+                if (metadataResponse.ok) {
+                  const metadataJson = await metadataResponse.json();
+                  console.log(
+                    `✓ Fetched insight-journal-metadata.json for ${insightJournalId}`
+                  );
+
+                  // Merge tags into keywords
+                  if (metadataJson.tags && Array.isArray(metadataJson.tags)) {
+                    // Initialize keywords array if it doesn't exist
+                    if (!pageData.frontmatter) {
+                      pageData.frontmatter = {};
+                    }
+                    if (!Array.isArray(pageData.frontmatter.keywords)) {
+                      pageData.frontmatter.keywords = [];
+                    }
+
+                    // Add tags to keywords if not already present
+                    const existingKeywords = new Set(
+                      pageData.frontmatter.keywords.map((k: string) =>
+                        k.toLowerCase()
+                      )
+                    );
+
+                    for (const tag of metadataJson.tags) {
+                      if (
+                        typeof tag === "string" &&
+                        !existingKeywords.has(tag.toLowerCase())
+                      ) {
+                        pageData.frontmatter.keywords.push(tag);
+                        existingKeywords.add(tag.toLowerCase());
+                      }
+                    }
+
+                    console.log(
+                      `✓ Added ${metadataJson.tags.length} tags to keywords (now ${pageData.frontmatter.keywords.length} total)`
+                    );
+                  }
+                } else {
+                  console.warn(
+                    `✗ Failed to fetch insight-journal-metadata.json: ${metadataResponse.status}`
+                  );
+                }
+              } catch (error) {
+                console.warn(
+                  `✗ Error fetching insight-journal-metadata.json:`,
+                  error
+                );
+              }
+            }
           }
+
+          const urlPath = String(syntheticRef.url).replace(/^\/+/, ""); // strip leading '/'
+          const targetPath = join(publicDir, `${urlPath}.json`);
+          const targetDir = dirname(targetPath);
+          if (!existsSync(targetDir)) {
+            mkdirSync(targetDir, { recursive: true });
+          }
+          writeFileSync(targetPath, JSON.stringify(pageData, null), "utf-8");
+          console.log(`✓ Saved page JSON to ${targetPath}`);
 
           return {
             id: insightJournalId.toString(),
