@@ -66,7 +66,8 @@ function extractAllCIDs(obj: any, visited = new Set()): string[] {
  * Generate archive for an article
  * 1. Saves pageData to archive/myst/${articleId}.json
  * 2. Downloads all files from downloads[] to archive/downloads/${articleId}/${filename}
- * 3. Extracts and saves all CIDs to archive/pins/${articleId}.json
+ * 3. Downloads thumbnail to archive/thumbnails/${articleId}.jpg if present
+ * 4. Extracts and saves all CIDs to archive/pins/${articleId}.json
  */
 async function generateArticleArchive(
   articleId: number,
@@ -86,7 +87,41 @@ async function generateArticleArchive(
     writeFileSync(mystPath, JSON.stringify(pageData, null, 2), "utf-8");
     console.log(`✓ Saved pageData to ${mystPath}`);
 
-    // 2. Download all files from downloads
+    // 2. Download thumbnail if present
+    if (pageData.frontmatter?.thumbnail) {
+      const thumbnailsDir = join(archiveBasePath, "thumbnails");
+      if (!existsSync(thumbnailsDir)) {
+        mkdirSync(thumbnailsDir, { recursive: true });
+      }
+
+      try {
+        console.log(
+          `  Downloading thumbnail from ${pageData.frontmatter.thumbnail}`
+        );
+
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), 30000);
+
+        const response = await fetch(pageData.frontmatter.thumbnail, {
+          signal: controller.signal,
+        });
+
+        clearTimeout(timeoutId);
+
+        if (response.ok) {
+          const buffer = await response.arrayBuffer();
+          const thumbnailPath = join(thumbnailsDir, `${articleId}.jpg`);
+          writeFileSync(thumbnailPath, Buffer.from(buffer));
+          console.log(`  ✓ Downloaded thumbnail (${buffer.byteLength} bytes)`);
+        } else {
+          console.warn(`  ✗ Failed to download thumbnail: ${response.status}`);
+        }
+      } catch (error) {
+        console.warn(`  ✗ Error downloading thumbnail:`, error);
+      }
+    }
+
+    // 3. Download all files from downloads
     if (pageData.downloads && Array.isArray(pageData.downloads)) {
       const downloadsDir = join(
         archiveBasePath,
@@ -132,7 +167,7 @@ async function generateArticleArchive(
       }
     }
 
-    // 3. Extract all CIDs and save to archive/pins/${articleId}.json
+    // 4. Extract all CIDs and save to archive/pins/${articleId}.json
     const allCIDs = extractAllCIDs(pageData);
 
     // Explicitly include revision_cids if present
@@ -144,6 +179,17 @@ async function generateArticleArchive(
       console.log(
         `  Found ${pageData.frontmatter.revision_cids.length} revision CIDs`
       );
+    }
+
+    // Extract CIDs from thumbnail URL if present
+    if (pageData.frontmatter?.thumbnail) {
+      const thumbnailCIDs = extractCIDsFromString(
+        pageData.frontmatter.thumbnail
+      );
+      if (thumbnailCIDs.length > 0) {
+        allCIDs.push(...thumbnailCIDs);
+        console.log(`  Found ${thumbnailCIDs.length} CID(s) in thumbnail URL`);
+      }
     }
 
     const uniqueCIDs = Array.from(new Set(allCIDs));
@@ -512,6 +558,53 @@ const createFilteredPagesLoader = (
                 `✗ Error fetching insight-journal-metadata.json:`,
                 error
               );
+            }
+          }
+
+          // Download thumbnail to public/thumbnails/${insightJournalId}.jpg
+          if (pageData.frontmatter?.thumbnail) {
+            try {
+              console.log(
+                `Downloading thumbnail for ${insightJournalId} from ${pageData.frontmatter.thumbnail}`
+              );
+
+              const thumbnailController = new AbortController();
+              const thumbnailTimeoutId = setTimeout(
+                () => thumbnailController.abort(),
+                30000
+              );
+
+              const thumbnailResponse = await fetch(
+                pageData.frontmatter.thumbnail,
+                {
+                  signal: thumbnailController.signal,
+                }
+              );
+
+              clearTimeout(thumbnailTimeoutId);
+
+              if (thumbnailResponse.ok) {
+                const thumbnailBuffer = await thumbnailResponse.arrayBuffer();
+                const thumbnailsDir = join(publicDir, "thumbnails");
+                if (!existsSync(thumbnailsDir)) {
+                  mkdirSync(thumbnailsDir, { recursive: true });
+                }
+
+                const thumbnailPath = join(
+                  thumbnailsDir,
+                  `${insightJournalId}.jpg`
+                );
+                writeFileSync(thumbnailPath, Buffer.from(thumbnailBuffer));
+                console.log(
+                  `✓ Downloaded thumbnail to ${thumbnailPath} (${thumbnailBuffer.byteLength} bytes)`
+                );
+              } else {
+                console.warn(
+                  `✗ Failed to download thumbnail: ${thumbnailResponse.status}`
+                );
+              }
+            } catch (error) {
+              console.warn(`✗ Error downloading thumbnail:`, error);
             }
           }
 
