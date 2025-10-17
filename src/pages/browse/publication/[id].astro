@@ -70,6 +70,8 @@ const showToc = typeof page.mdast.children !== "undefined";
 
 import "../../../styles/custom.css";
 
+import { mystParseAndRender } from '@awesome-myst/myst-awesome/lib/render-myst-ast';
+
 // Create navigation items from all pages
 const navItems = allPages
   .filter(p => p.id)
@@ -230,6 +232,45 @@ function findDefaultFile(nodes: TreeNode[]): TreeNode | null {
 }
 
 defaultFile = findDefaultFile(fileTree);
+
+// Function to replace email addresses with icon links
+function replaceEmailsWithIcons(html: string): string {
+  // Regex to find email addresses (both in links and plain text)
+  const emailRegex = /(<a[^>]*href=["']mailto:([^"']+)["'][^>]*>)([^<]+)(<\/a>)|([a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})/g;
+  
+  return html.replace(emailRegex, (match, linkStart, linkEmail, linkText, linkEnd, plainEmail) => {
+    if (plainEmail) {
+      // Replace plain email with icon link
+      return `<a href="mailto:${plainEmail}" title="Email" style="color: var(--wa-color-text-quiet); transition: color 0.2s; margin-left: var(--wa-space-2xs); text-decoration: none;" onmouseover="this.style.color='var(--wa-color-primary-600)'" onmouseout="this.style.color='var(--wa-color-text-quiet)'"><wa-icon library="scienceicons" name="email" style="font-size: 0.875rem; vertical-align: middle;"></wa-icon></a>`;
+    } else if (linkStart && linkEmail) {
+      // Replace email link with icon link
+      return `<a href="mailto:${linkEmail}" title="Email" style="color: var(--wa-color-text-quiet); transition: color 0.2s; margin-left: var(--wa-space-2xs); text-decoration: none;" onmouseover="this.style.color='var(--wa-color-primary-600)'" onmouseout="this.style.color='var(--wa-color-text-quiet)'"><wa-icon library="scienceicons" name="email" style="font-size: 0.875rem; vertical-align: middle;"></wa-icon></a>`;
+    }
+    return match;
+  });
+}
+
+// Check if reviews.md exists in downloads
+const reviewsFile = downloads.find((d: any) => d.title === 'root/reviews.md');
+let reviewsContent = '';
+
+console.log('Checking for reviews file...', reviewsFile);
+console.log('All downloads:', downloads.map((d: any) => d.title));
+
+if (reviewsFile?.url) {
+  try {
+    console.log('Fetching reviews from:', reviewsFile.url);
+    const response = await fetch(reviewsFile.url);
+    const reviewsMarkdown = await response.text();
+    console.log('Reviews markdown length:', reviewsMarkdown.length);
+    let renderedContent = await mystParseAndRender(reviewsMarkdown);
+    // Replace emails with icon links
+    reviewsContent = replaceEmailsWithIcons(renderedContent);
+    console.log('Rendered reviews content length:', reviewsContent.length);
+  } catch (error) {
+    console.error('Error fetching or parsing reviews:', error);
+  }
+}
 
 // Helper function to get icon name based on file extension
 function getFileIcon(filename: string): string {
@@ -494,6 +535,16 @@ function getFileIcon(filename: string): string {
           )}
         </div>
       </wa-tab-panel>
+
+      <!-- Reviews Tab (only show if reviews exist) -->
+      {reviewsContent && <wa-tab slot="nav" panel="reviews">Reviews</wa-tab>}
+      {reviewsContent && (
+        <wa-tab-panel name="reviews">
+          <div class="tab-content">
+            <div class="reviews-content" set:html={reviewsContent} />
+          </div>
+        </wa-tab-panel>
+      )}
     </wa-tab-group>
   </div>
 
@@ -1072,5 +1123,60 @@ function getFileIcon(filename: string): string {
 
   .selected-file {
     background: var(--wa-color-primary-surface);
+  }
+
+  /* Reviews content styling */
+  .reviews-content {
+    line-height: var(--wa-line-height-relaxed);
+  }
+
+  .reviews-content h1,
+  .reviews-content h2 {
+    color: var(--wa-color-text-loud);
+    margin-top: var(--wa-space-l);
+    margin-bottom: var(--wa-space-m);
+    padding-bottom: var(--wa-space-s);
+    border-bottom: 2px solid var(--wa-color-surface-border);
+  }
+
+  .reviews-content h1 {
+    font-size: var(--wa-font-size-2xl);
+  }
+
+  .reviews-content h2 {
+    font-size: var(--wa-font-size-xl);
+  }
+
+  .reviews-content p {
+    margin-bottom: var(--wa-space-m);
+  }
+
+  .reviews-content strong {
+    color: var(--wa-color-text-normal);
+    font-weight: var(--wa-font-weight-bold);
+  }
+
+  .reviews-content ul,
+  .reviews-content ol {
+    margin-left: var(--wa-space-l);
+    margin-bottom: var(--wa-space-m);
+  }
+
+  .reviews-content li {
+    margin-bottom: var(--wa-space-xs);
+  }
+
+  .reviews-content pre {
+    background: var(--wa-color-surface-lowered);
+    border: 1px solid var(--wa-color-surface-border);
+    border-radius: var(--wa-border-radius-m);
+    padding: var(--wa-space-m);
+    overflow-x: auto;
+    margin-bottom: var(--wa-space-m);
+  }
+
+  .reviews-content code {
+    font-family: var(--wa-font-family-code);
+    font-size: var(--wa-font-size-s);
   }
 </style>

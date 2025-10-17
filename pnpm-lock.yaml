@@ -12,8 +12,8 @@ importers:
         specifier: ^2.0.2
         version: 2.0.2(rollup@4.52.4)(typescript@5.9.3)
       '@awesome-myst/myst-awesome':
-        specifier: ^0.0.4
-        version: 0.0.4(@floating-ui/utils@0.2.10)(@types/node@24.7.2)(@types/react@19.2.2)(rollup@4.52.4)(yaml@2.8.1)
+        specifier: ^0.0.6
+        version: 0.0.6(@floating-ui/utils@0.2.10)(@types/node@24.7.2)(@types/react@19.2.2)(rollup@4.52.4)(yaml@2.8.1)
       '@awesome-myst/myst-zod':
         specifier: ^0.6.1
         version: 0.6.1
@@ -95,8 +95,8 @@ packages:
   '@awesome-myst/myst-astro-collections@2.0.2':
     resolution: {integrity: sha512-so7hN3efSPbKRq2g7UBTcm6BbzrJVVC1ME0L8I5w5VnjujOTpBlmzBZzS+nuLyyPKorZMkzp2r2BOmMLCjqjgQ==}
 
-  '@awesome-myst/myst-awesome@0.0.4':
-    resolution: {integrity: sha512-vd6Ba1m8y9IEVnB0uE/yvGoEsEZS7fOP2CxBZuhZMieUkI/TDiafq3i/zS1JJROS2WMuPVeTrk2pPakR3Xckmg==}
+  '@awesome-myst/myst-awesome@0.0.6':
+    resolution: {integrity: sha512-EGJBC/JrWYRFv3HPHJunrtRhBlxJAZY6Gpy+27/bHvyQMN3fVfP3KbWwJUkXWSBK4Qy7ejojlMekv357dSO2Ug==}
 
   '@awesome-myst/myst-zod@0.6.1':
     resolution: {integrity: sha512-uhSy0SgY6miUdtRWURj2EUSEAgVm2xavrvv3ZyCuraRESz8o8AYHYbzx9dTBR8H4YrYxuRmyrmucrLhdT7o2vA==}
@@ -3156,7 +3156,7 @@ snapshots:
       - typescript
       - uploadthing
 
-  '@awesome-myst/myst-awesome@0.0.4(@floating-ui/utils@0.2.10)(@types/node@24.7.2)(@types/react@19.2.2)(rollup@4.52.4)(yaml@2.8.1)':
+  '@awesome-myst/myst-awesome@0.0.6(@floating-ui/utils@0.2.10)(@types/node@24.7.2)(@types/react@19.2.2)(rollup@4.52.4)(yaml@2.8.1)':
     dependencies:
       '@astrojs/check': 0.9.4(typescript@5.9.3)
       '@awesome-myst/myst-astro-collections': 2.0.2(rollup@4.52.4)(typescript@5.9.3)
