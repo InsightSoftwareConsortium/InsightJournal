@@ -4,11 +4,11 @@
 
 import BasePage from '@awesome-myst/myst-awesome/layouts/BasePage.astro';
 import SearchDialog from '@awesome-myst/myst-awesome/components/SearchDialog.astro';
-import Footer from '@awesome-myst/myst-awesome/components/Footer.astro';
 import NavigationMenu from '@awesome-myst/myst-awesome/components/NavigationMenu.astro';
 
 import Authors from '../../../components/Authors.astro';
 import Header from '../../../components/Header.astro';
+import Footer from '../../../components/Footer.astro';
 
 import { getCollection } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
@@ -267,7 +267,7 @@ if __name__ == "__main__":
   </div>
 
   <!-- Footer -->
-  <Footer slot="footer" lastModified={frontmatter?.date_submitted ? new Date(frontmatter.date_submitted) : undefined} />
+  <Footer slot="footer" />
 </BasePage>
 
 <script>

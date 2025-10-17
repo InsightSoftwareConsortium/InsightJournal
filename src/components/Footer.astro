@@ -18,7 +18,7 @@ interface Props {
 const {
   year = new Date().getFullYear(),
   showBrand = true,
-  lastModified,
+  lastModified = new Date(),
   sections = [
     {
       title: "Documentation",
@@ -61,17 +61,13 @@ import fideusLogo from '../assets/fideus-logo.svg';
   {showBrand && (
     <div class="footer-bottom">
       <p>
-        &copy; {year} <a href="https://numfocus.org" target="_blank" rel="noopener noreferrer">NumFOCUS Inc</a> for the <a href="https://insightsoftwareconsortium.org" target="_blank" rel="noopener noreferrer">Insight Software Consortium</a>
+        &copy; {year} <a href="https://numfocus.org" target="_blank" rel="noopener noreferrer">NumFOCUS, Inc</a> for the <a href="https://insightsoftwareconsortium.org" target="_blank" rel="noopener noreferrer">Insight Software Consortium</a>
         <br/>
-        This work is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">Creative Commons Attribution 4.0 International License</a>
-      </p>
-
-      <p>
-        <a href="https://fideus.io" target="_blank" rel="noopener noreferrer">
-          <Image width={100} src={fideusLogo} alt="Fideus Labs logo" />
-        </a>
+        Under a <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">Creative Commons Attribution 4.0 International License </a> <wa-icon library="scienceicons" name="cc-by"></wa-icon>
         <br/>
-        Built with <a href="https://github.com/awesome-myst/myst-awesome" target="_blank" rel="noopener noreferrer">MyST Awesome</a> by <a href="https://fideus.io" target="_blank" rel="noopener noreferrer">⨍ideus labs</a>
+        <a href="https://github.com/InsightSoftwareConsortium/InsightJournal" target="_blank" rel="noopener noreferrer">
+          <wa-icon library="scienceicons" name="github"></wa-icon>
+          Website</a> built by <a href="https://github.com/fideus-labs" target="_blank" rel="noopener noreferrer">⨍ideus labs</a>
         <br/>
         {lastModified && (
           <time class="last-modified">
@@ -82,6 +78,10 @@ import fideusLogo from '../assets/fideus-logo.svg';
             })}
           </time>
         )}
+        <br/>
+        <a href="https://fideus.io" target="_blank" rel="noopener noreferrer">
+          <Image width={100} src={fideusLogo} alt="Fideus Labs logo" />
+        </a>
       </p>
 
     </div>
@@ -135,6 +135,7 @@ import fideusLogo from '../assets/fideus-logo.svg';
     color: var(--wa-color-text-quiet);
     font-size: var(--wa-font-size-s);
     text-align: center;
+    line-height: 1.8;
   }
 
   .footer-bottom time {
