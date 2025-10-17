@@ -265,32 +265,6 @@ const createFilteredPagesLoader = (
           const pageData = await response.json();
           console.log(`Successfully fetched article ${articleId}`);
 
-          // Validate and transform pageData using myst-zod
-          const validationResult = pageSchema.safeParse(pageData);
-
-          if (!validationResult.success) {
-            console.warn(`Validation errors for article ${articleId}:`);
-            console.warn(
-              JSON.stringify(validationResult.error.format(), null, 2)
-            );
-            // Continue with raw data if validation fails
-          } else {
-            console.log(`✓ Article ${articleId} validated successfully`);
-            // Use the validated and transformed data
-            Object.assign(pageData, validationResult.data);
-          }
-          console.log("pageData", pageData);
-
-          // Create a synthetic reference object for consistency
-          const syntheticRef = {
-            url: `/browse/publication/${articleId}`,
-            kind: "page",
-            identifier: `dpid-${articleId}`,
-            data: `https://dev-beta.dpid.org/${articleId}?format=myst`,
-          };
-
-          // Todo: call processThumbnails
-
           // Todo: fix upstream
           pageData.references = {
             cite: {
@@ -299,15 +273,7 @@ const createFilteredPagesLoader = (
             },
           };
 
-          const publicDir = resolve(process.cwd(), "public");
-          const urlPath = String(syntheticRef.url).replace(/^\/+/, ""); // strip leading '/'
-          const targetPath = join(publicDir, `${urlPath}.json`);
-          const targetDir = dirname(targetPath);
-          if (!existsSync(targetDir)) {
-            mkdirSync(targetDir, { recursive: true });
-          }
-          writeFileSync(targetPath, JSON.stringify(pageData, null), "utf-8");
-          console.log(`✓ Saved page JSON to ${targetPath}`);
+          console.log("pageData", pageData);
 
           // Generate archive if enabled
           const archivePath =
@@ -323,6 +289,40 @@ const createFilteredPagesLoader = (
               // Continue even if archive generation fails
             }
           }
+
+          const insightJournalId =
+            pageData.frontmatter?.external_publication_id;
+          if (insightJournalId) {
+            console.log(
+              `✓ Article ${articleId} has external_publication_id: ${insightJournalId}`
+            );
+          } else {
+            console.error(
+              `✗ Article ${articleId} is missing external_publication_id in frontmatter`
+            );
+            // fail
+            return null;
+          }
+
+          // Create a synthetic reference object for consistency
+          const syntheticRef = {
+            url: `/browse/publication/${insightJournalId}`,
+            kind: "page",
+            identifier: `dpid-${articleId}`,
+            data: `https://dev-beta.dpid.org/${articleId}?format=myst`,
+          };
+
+          // Todo: call processThumbnails
+
+          const publicDir = resolve(process.cwd(), "public");
+          const urlPath = String(syntheticRef.url).replace(/^\/+/, ""); // strip leading '/'
+          const targetPath = join(publicDir, `${urlPath}.json`);
+          const targetDir = dirname(targetPath);
+          if (!existsSync(targetDir)) {
+            mkdirSync(targetDir, { recursive: true });
+          }
+          writeFileSync(targetPath, JSON.stringify(pageData, null), "utf-8");
+          console.log(`✓ Saved page JSON to ${targetPath}`);
 
           return {
             id: articleId.toString(),
