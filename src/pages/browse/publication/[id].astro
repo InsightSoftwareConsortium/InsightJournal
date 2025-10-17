@@ -171,7 +171,7 @@ const fileTree = buildFileTree(codeFiles);
 // Determine medical imaging file extensions
 const medicalImageExtensions = ['.nii', '.nii.gz', '.dcm', '.nrrd', '.mha', '.mhd', '.vtk', '.vti'];
 const imageExtensions = ['.png', '.jpg', '.jpeg', '.gif', '.bmp', '.tiff', '.tif'];
-const codeExtensions = ['.py', '.cpp', '.h', '.hpp', '.c', '.js', '.ts', '.java', '.cs', '.md', '.txt', '.cmake', '.json', '.xml', '.yaml', '.yml'];
+const codeExtensions = ['.py', '.cxx', '.cpp', '.h', '.hxx', '.txx', '.hpp', '.c', '.js', '.ts', '.java', '.cs', '.md', '.txt', '.cmake', '.json', '.xml', '.yaml', '.yml'];
 
 function getFileExtension(filename: string): string {
   const match = filename.match(/\.([^.]+)$/);
@@ -237,7 +237,7 @@ defaultFile = findDefaultFile(fileTree);
 function replaceEmailsWithIcons(html: string): string {
   // Regex to find email addresses (both in links and plain text)
   const emailRegex = /(<a[^>]*href=["']mailto:([^"']+)["'][^>]*>)([^<]+)(<\/a>)|([a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})/g;
-  
+
   return html.replace(emailRegex, (match, linkStart, linkEmail, linkText, linkEnd, plainEmail) => {
     if (plainEmail) {
       // Replace plain email with icon link
@@ -288,6 +288,8 @@ function getFileIcon(filename: string): string {
     '.cpp': 'file-code',
     '.cxx': 'file-code',
     '.h': 'file-code',
+    '.hxx': 'file-code',
+    '.txx': 'file-code',
     '.hpp': 'file-code',
     '.c': 'file-code',
     '.js': 'file-code',
@@ -711,12 +713,12 @@ function getFileIcon(filename: string): string {
     if (tabGroup) {
       tabGroup.addEventListener('wa-tab-show', async (event: any) => {
         const tabName = event.detail.name;
-        
+
         // Update URL when tab is clicked
         if (tabName && ['abstract', 'manuscript', 'files', 'reviews'].includes(tabName)) {
           history.pushState(null, '', `#${tabName}`);
         }
-        
+
         if (tabName === 'files') {
           // Load default file if available
           const defaultFileEl = document.querySelector('.selected-file') as HTMLElement;
