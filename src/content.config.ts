@@ -439,6 +439,34 @@ const createFilteredPagesLoader = (
                 );
               }
             }
+
+            // Write pageData.downloads to ${publicDir}/downloads/${insightJournalId}.json
+            if (pageData.downloads && Array.isArray(pageData.downloads)) {
+              try {
+                const downloadsDir = join(publicDir, "downloads");
+                if (!existsSync(downloadsDir)) {
+                  mkdirSync(downloadsDir, { recursive: true });
+                }
+
+                const downloadsPath = join(
+                  downloadsDir,
+                  `${insightJournalId}.json`
+                );
+                writeFileSync(
+                  downloadsPath,
+                  JSON.stringify(pageData.downloads, null, 2),
+                  "utf-8"
+                );
+                console.log(
+                  `✓ Saved downloads to ${downloadsPath} (${pageData.downloads.length} items)`
+                );
+              } catch (error) {
+                console.warn(
+                  `✗ Error writing downloads JSON for ${insightJournalId}:`,
+                  error
+                );
+              }
+            }
           }
 
           const urlPath = String(syntheticRef.url).replace(/^\/+/, ""); // strip leading '/'
