@@ -62,6 +62,7 @@ console.log('page', page)
 const title = page?.frontmatter?.title || 'Publication';
 const abstract = page?.frontmatter?.abstract || '';
 const frontmatter = page?.frontmatter;
+const downloads = page?.downloads || [];
 
 const foldersOption = false;
 const baseDir = "/";
@@ -80,26 +81,204 @@ const navItems = allPages
     icon: p.id === '/' ? 'home' : 'file-text'
   }));
 
-const tocItems = showToc ? generatePageToc(page.data) : [];
-
 // Get prev/next pages for navigation
 const currentIndex = allPages.findIndex(p => p.id === page.id);
 const prevPage = currentIndex > 0 ? allPages[currentIndex - 1] : null;
 const nextPage = currentIndex < allPages.length - 1 ? allPages[currentIndex + 1] : null;
 
-// Mock data for demonstration - in real app this would come from the publication data
-const mockFiles = [
-  { name: 'README.md', type: 'file', size: '2.3 KB' },
-  { name: 'source_code.zip', type: 'file', size: '15.7 MB' },
-  { name: 'data/', type: 'folder', size: '' },
-  { name: 'data/images/', type: 'folder', size: '' },
-  { name: 'data/images/ct_scan_001.nii.gz', type: 'file', size: '45.2 MB' },
-  { name: 'data/images/ct_scan_002.nii.gz', type: 'file', size: '38.9 MB' },
-  { name: 'scripts/', type: 'folder', size: '' },
-  { name: 'scripts/preprocessing.py', type: 'file', size: '1.8 KB' },
-  { name: 'scripts/segmentation.py', type: 'file', size: '3.2 KB' }
-];
+// Process downloads to build file tree structure
+const codeFiles = downloads.filter((d: any) => d.title?.startsWith('root/code/'));
+
+// Build hierarchical tree structure from flat file list
+interface TreeNode {
+  name: string;
+  path: string;
+  type: 'file' | 'folder';
+  url?: string;
+  size?: string;
+  children?: TreeNode[];
+}
+
+function buildFileTree(files: any[]): TreeNode[] {
+  const root: TreeNode[] = [];
+  const folderMap = new Map<string, TreeNode>();
+
+  files.forEach((file: any) => {
+    // Remove 'root/code/' prefix
+    const relativePath = file.title.replace('root/code/', '');
+    const parts = relativePath.split('/');
+    const fileName = parts[parts.length - 1];
+
+    // Build folder structure
+    let currentPath = '';
+    for (let i = 0; i < parts.length - 1; i++) {
+      const folderName = parts[i];
+      const parentPath = currentPath;
+      currentPath = currentPath ? `${currentPath}/${folderName}` : folderName;
+
+      if (!folderMap.has(currentPath)) {
+        const folderNode: TreeNode = {
+          name: folderName,
+          path: currentPath,
+          type: 'folder',
+          children: []
+        };
+        folderMap.set(currentPath, folderNode);
+
+        // Add to parent or root
+        if (parentPath) {
+          const parent = folderMap.get(parentPath);
+          parent?.children?.push(folderNode);
+        } else {
+          root.push(folderNode);
+        }
+      }
+    }
+
+    // Add file
+    const fileNode: TreeNode = {
+      name: fileName,
+      path: relativePath,
+      type: 'file',
+      url: file.url,
+      size: file.extra?.size_bytes ? formatBytes(file.extra.size_bytes) : undefined
+    };
+
+    if (parts.length === 1) {
+      root.push(fileNode);
+    } else {
+      const parentPath = parts.slice(0, -1).join('/');
+      const parent = folderMap.get(parentPath);
+      parent?.children?.push(fileNode);
+    }
+  });
+
+  return root;
+}
+
+function formatBytes(bytes: number): string {
+  if (bytes === 0) return '0 B';
+  const k = 1024;
+  const sizes = ['B', 'KB', 'MB', 'GB'];
+  const i = Math.floor(Math.log(bytes) / Math.log(k));
+  return `${Math.round(bytes / Math.pow(k, i) * 10) / 10} ${sizes[i]}`;
+}
+
+const fileTree = buildFileTree(codeFiles);
+
+// Determine medical imaging file extensions
+const medicalImageExtensions = ['.nii', '.nii.gz', '.dcm', '.nrrd', '.mha', '.mhd', '.vtk', '.vti'];
+const imageExtensions = ['.png', '.jpg', '.jpeg', '.gif', '.bmp', '.tiff', '.tif'];
+const codeExtensions = ['.py', '.cpp', '.h', '.hpp', '.c', '.js', '.ts', '.java', '.cs', '.md', '.txt', '.cmake', '.json', '.xml', '.yaml', '.yml'];
+
+function getFileExtension(filename: string): string {
+  const match = filename.match(/\.([^.]+)$/);
+  if (filename.endsWith('.nii.gz')) return '.nii.gz';
+  return match ? `.${match[1]}` : '';
+}
+
+function isMedicalImage(filename: string): boolean {
+  const ext = getFileExtension(filename);
+  return medicalImageExtensions.some(e => filename.endsWith(e));
+}
+
+function isImage(filename: string): boolean {
+  const ext = getFileExtension(filename);
+  return imageExtensions.includes(ext.toLowerCase());
+}
+
+function isCodeFile(filename: string): boolean {
+  const ext = getFileExtension(filename);
+  return codeExtensions.includes(ext.toLowerCase()) || !isMedicalImage(filename) && !isImage(filename);
+}
+
+// Find default file to display
+let defaultFile: TreeNode | null = null;
+
+function findDefaultFile(nodes: TreeNode[]): TreeNode | null {
+  for (const node of nodes) {
+    if (node.type === 'file') {
+      if (isMedicalImage(node.name)) return node;
+    }
+    if (node.children) {
+      const found = findDefaultFile(node.children);
+      if (found && isMedicalImage(found.name)) return found;
+    }
+  }
+
+  // If no medical image, try regular image
+  for (const node of nodes) {
+    if (node.type === 'file') {
+      if (isImage(node.name)) return node;
+    }
+    if (node.children) {
+      const found = findDefaultFile(node.children);
+      if (found && isImage(found.name)) return found;
+    }
+  }
+
+  // Otherwise, first code file
+  for (const node of nodes) {
+    if (node.type === 'file') return node;
+    if (node.children) {
+      const found = findDefaultFile(node.children);
+      if (found) return found;
+    }
+  }
+
+  return null;
+}
+
+defaultFile = findDefaultFile(fileTree);
+
+// Helper function to get icon name based on file extension
+function getFileIcon(filename: string): string {
+  const ext = getFileExtension(filename).toLowerCase();
+
+  // Medical imaging formats
+  if (medicalImageExtensions.some(e => filename.endsWith(e))) return 'file-medical';
+
+  // Images
+  if (imageExtensions.includes(ext)) return 'file-image';
+
+  // Code files
+  const codeIconMap: Record<string, string> = {
+    '.py': 'file-code',
+    '.cpp': 'file-code',
+    '.cxx': 'file-code',
+    '.h': 'file-code',
+    '.hpp': 'file-code',
+    '.c': 'file-code',
+    '.js': 'file-code',
+    '.ts': 'file-code',
+    '.java': 'file-code',
+    '.cs': 'file-code',
+    '.cmake': 'file-code',
+    '.json': 'file-code',
+    '.xml': 'file-code',
+    '.yaml': 'file-code',
+    '.yml': 'file-code',
+    '.md': 'file-lines',
+    '.txt': 'file-lines',
+  };
+
+  return codeIconMap[ext] || 'file';
+}
 ---
+
+<!-- Recursive component for rendering file tree nodes -->
+{fileTree.length > 0 && (
+  <script is:inline define:vars={{ fileTree, defaultFile }}>
+    // Store file tree data globally for access in event handlers
+    window.fileTreeData = fileTree;
+    window.defaultFileData = defaultFile;
+  </script>
+)}
+
+{/* Helper component to render tree nodes recursively */}
+---
+
+<!-- Actual file tree will be rendered in the template below -->
 
 <BasePage
   title={title}
@@ -211,56 +390,108 @@ const mockFiles = [
         <div class="tab-content">
           <h2>Source Code and Data</h2>
 
-          <!-- File Tree -->
-          <div class="file-tree-section">
-            <h3>Files</h3>
-            <wa-tree class="file-tree">
-              {mockFiles.map((file) => (
-                <wa-tree-item>
-                  <wa-icon
-                    slot="start"
-                    name={file.type === 'folder' ? 'folder' : 'file'}
-                    variant={file.type === 'folder' ? 'regular' : 'solid'}
-                  ></wa-icon>
-                  <span>{file.name}</span>
-                  {file.size && <span slot="end" class="file-size">{file.size}</span>}
-                </wa-tree-item>
-              ))}
-            </wa-tree>
-          </div>
+          {codeFiles.length > 0 ? (
+            <div class="file-browser-grid">
+              <!-- Left side: File Tree -->
+              <div class="file-tree-container">
+                <wa-tree class="file-tree" id="file-tree" selection="single">
+                  {fileTree.map((node) => (
+                    <>
+                      {node.type === 'folder' ? (
+                        <wa-tree-item data-path={node.path} data-type="folder">
+                          <wa-icon name="folder" variant="regular"></wa-icon>
+                          {node.name}
+                          {node.children?.map((child) => (
+                            <>
+                              {child.type === 'folder' ? (
+                                <wa-tree-item data-path={child.path} data-type="folder">
+                                  <wa-icon name="folder" variant="regular"></wa-icon>
+                                  {child.name}
+                                  {child.children?.map((grandchild) => (
+                                    <wa-tree-item
+                                      data-path={grandchild.path}
+                                      data-type={grandchild.type}
+                                      data-url={grandchild.url}
+                                      class={grandchild.url === defaultFile?.url ? 'selected-file' : ''}
+                                    >
+                                      <wa-icon name={getFileIcon(grandchild.name)} variant="regular"></wa-icon>
+                                      {grandchild.name}
+                                      {grandchild.size && <span slot="end" class="file-size">{grandchild.size}</span>}
+                                    </wa-tree-item>
+                                  ))}
+                                </wa-tree-item>
+                              ) : (
+                                <wa-tree-item
+                                  data-path={child.path}
+                                  data-type={child.type}
+                                  data-url={child.url}
+                                  class={child.url === defaultFile?.url ? 'selected-file' : ''}
+                                >
+                                  <wa-icon name={getFileIcon(child.name)} variant="regular"></wa-icon>
+                                  {child.name}
+                                  {child.size && <span slot="end" class="file-size">{child.size}</span>}
+                                </wa-tree-item>
+                              )}
+                            </>
+                          ))}
+                        </wa-tree-item>
+                      ) : (
+                        <wa-tree-item
+                          data-path={node.path}
+                          data-type={node.type}
+                          data-url={node.url}
+                          class={node.url === defaultFile?.url ? 'selected-file' : ''}
+                        >
+                          <wa-icon name={getFileIcon(node.name)} variant="regular"></wa-icon>
+                          {node.name}
+                          {node.size && <span slot="end" class="file-size">{node.size}</span>}
+                        </wa-tree-item>
+                      )}
+                    </>
+                  ))}
+                </wa-tree>
+              </div>
 
-          <!-- Source Code Viewer -->
-          <div class="code-viewer-section">
-            <h3>Source Code</h3>
-            <div class="code-viewer">
-              <pre><code class="language-python"># Example Python code from the publication
-import numpy as np
-import itk
+              <!-- Right side: File Preview -->
+              <div class="file-preview-container">
+                <!-- Code viewer -->
+                <div id="code-viewer" class="viewer-panel" style="display: none;">
+                  <div class="viewer-header">
+                    <h3 id="code-viewer-title">File</h3>
+                  </div>
+                  <div class="code-content">
+                    <pre><code id="code-viewer-content"></code></pre>
+                  </div>
+                </div>
 
-def preprocess_image(image_path):
-    """Preprocess CT image for segmentation"""
-    # Load image
-    image = itk.imread(image_path)
+                <!-- Medical/3D Image viewer -->
+                <div id="image-viewer" class="viewer-panel" style="display: none;">
+                  <div class="viewer-header">
+                    <h3 id="image-viewer-title">Image</h3>
+                  </div>
+                  <canvas id="niivue-canvas"></canvas>
+                </div>
 
-    # Apply preprocessing steps
-    # ... implementation details
+                <!-- 2D Image viewer -->
+                <div id="image2d-viewer" class="viewer-panel" style="display: none;">
+                  <div class="viewer-header">
+                    <h3 id="image2d-viewer-title">Image</h3>
+                  </div>
+                  <img id="image2d-content" alt="Preview" />
+                </div>
 
-    return processed_image
-
-def segment_organs(image):
-    """Segment organs using the proposed method"""
-    # Implementation of the segmentation algorithm
-    # ... implementation details
-
-    return segmentation_result
-
-if __name__ == "__main__":
-    # Main execution
-    image = preprocess_image("data/ct_scan.nii.gz")
-    result = segment_organs(image)
-    itk.imwrite(result, "output/segmentation.nii.gz")</code></pre>
+                <!-- Initial message -->
+                <div id="no-file-selected" class="viewer-panel">
+                  <div class="no-file-message">
+                    <wa-icon name="file-code" style="font-size: 4rem; opacity: 0.3;"></wa-icon>
+                    <p>Select a file to preview</p>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
+          ) : (
+            <p>No source code files available for this publication.</p>
+          )}
         </div>
       </wa-tab-panel>
     </wa-tab-group>
@@ -279,15 +510,17 @@ if __name__ == "__main__":
   import '@awesome.me/webawesome/dist/components/tree-item/tree-item.js';
   import '@awesome.me/webawesome/dist/components/badge/badge.js';
 
+  import { Niivue } from "@niivue/niivue";
+  import { useItkWasmLoaders } from '@niivue/itkwasm-loader';
+
   // Theme-aware logo switching functionality
-  document.addEventListener('DOMContentLoaded', () => {
+  document.addEventListener('DOMContentLoaded', async () => {
     // Theme-aware logo switching
     const updateLogoForTheme = () => {
       const isDark = document.documentElement.classList.contains('wa-dark');
       const logoElement = document.querySelector('.theme-aware-logo') as HTMLImageElement;
 
       if (logoElement) {
-        // Update the src attribute based on theme
         if (isDark) {
           logoElement.src = '/assets/logo-insight-journal-square-dark.png';
         } else {
@@ -296,10 +529,8 @@ if __name__ == "__main__":
       }
     };
 
-    // Initial logo update
     updateLogoForTheme();
 
-    // Listen for theme changes
     const observer = new MutationObserver((mutations) => {
       mutations.forEach((mutation) => {
         if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
@@ -312,6 +543,136 @@ if __name__ == "__main__":
       attributes: true,
       attributeFilter: ['class']
     });
+
+    // File browser functionality
+    let nv: Niivue | null = null;
+    let currentViewerType: 'code' | 'image3d' | 'image2d' | 'none' = 'none';
+
+    // Initialize NiiVue
+    const initializeNiiVue = async () => {
+      if (!nv) {
+        const isDark = document.documentElement.classList.contains('wa-dark');
+        const defaults = {
+          backColor: isDark ? [16.0/255.0, 18.0/255.0, 25.0/255.0, 1.0] : [1, 1, 1, 1],
+          logLevel: 'info' as const,
+        };
+        nv = new Niivue(defaults);
+        const canvas = document.getElementById("niivue-canvas") as HTMLCanvasElement;
+        if (canvas) {
+          await nv.attachToCanvas(canvas);
+          useItkWasmLoaders(nv);
+        }
+      }
+    };
+
+    // Show specific viewer
+    const showViewer = (type: 'code' | 'image3d' | 'image2d' | 'none') => {
+      document.getElementById('code-viewer')!.style.display = type === 'code' ? 'block' : 'none';
+      document.getElementById('image-viewer')!.style.display = type === 'image3d' ? 'block' : 'none';
+      document.getElementById('image2d-viewer')!.style.display = type === 'image2d' ? 'block' : 'none';
+      document.getElementById('no-file-selected')!.style.display = type === 'none' ? 'flex' : 'none';
+      currentViewerType = type;
+    };
+
+    // Load and display a file
+    const loadFile = async (url: string, filename: string) => {
+      const ext = filename.toLowerCase();
+
+      // Check if it's a medical image
+      const medicalExts = ['.nii', '.nii.gz', '.dcm', '.nrrd', '.mha', '.mhd', '.vtk', '.vti'];
+      const isMedical = medicalExts.some(e => ext.endsWith(e));
+
+      // Check if it's a regular image
+      const imageExts = ['.png', '.jpg', '.jpeg', '.gif', '.bmp', '.tiff', '.tif'];
+      const isImage = imageExts.some(e => ext.endsWith(e));
+
+      if (isMedical) {
+        // Load with NiiVue
+        await initializeNiiVue();
+        showViewer('image3d');
+        document.getElementById('image-viewer-title')!.textContent = filename;
+
+        try {
+          if (nv) {
+            await nv.loadVolumes([{ url }]);
+          }
+        } catch (error) {
+          console.error('Error loading medical image:', error);
+        }
+      } else if (isImage) {
+        // Load as regular image
+        showViewer('image2d');
+        document.getElementById('image2d-viewer-title')!.textContent = filename;
+        const img = document.getElementById('image2d-content') as HTMLImageElement;
+        img.src = url;
+      } else {
+        // Load as code/text
+        showViewer('code');
+        document.getElementById('code-viewer-title')!.textContent = filename;
+
+        try {
+          const response = await fetch(url);
+          const text = await response.text();
+          const codeElement = document.getElementById('code-viewer-content')!;
+          codeElement.textContent = text;
+
+          // Add line numbers
+          const lines = text.split('\n');
+          const numberedLines = lines.map((line, i) =>
+            `<span class="line-number">${i + 1}</span>${escapeHtml(line)}`
+          ).join('\n');
+          codeElement.innerHTML = numberedLines;
+        } catch (error) {
+          console.error('Error loading file:', error);
+          document.getElementById('code-viewer-content')!.textContent = 'Error loading file';
+        }
+      }
+    };
+
+    // Escape HTML for code display
+    const escapeHtml = (text: string) => {
+      const div = document.createElement('div');
+      div.textContent = text;
+      return div.innerHTML;
+    };
+
+    // Handle file tree clicks
+    const fileTree = document.getElementById('file-tree');
+    if (fileTree) {
+      fileTree.addEventListener('wa-selection-change', (event: any) => {
+        const selectedItems = event.detail.selection;
+        if (selectedItems.length > 0) {
+          const item = selectedItems[0];
+          const url = item.dataset.url;
+          const type = item.dataset.type;
+          const path = item.dataset.path;
+
+          if (type === 'file' && url) {
+            const filename = path.split('/').pop() || 'file';
+            loadFile(url, filename);
+          }
+        }
+      });
+    }
+
+    // Load default file when Source Code tab is activated
+    const tabGroup = document.querySelector('wa-tab-group');
+    if (tabGroup) {
+      tabGroup.addEventListener('wa-tab-show', async (event: any) => {
+        if (event.detail.name === 'source') {
+          // Load default file if available
+          const defaultFileEl = document.querySelector('.selected-file') as HTMLElement;
+          if (defaultFileEl && currentViewerType === 'none') {
+            const url = defaultFileEl.dataset.url;
+            const path = defaultFileEl.dataset.path;
+            if (url && path) {
+              const filename = path.split('/').pop() || 'file';
+              await loadFile(url, filename);
+            }
+          }
+        }
+      });
+    }
   });
 </script>
 
@@ -579,4 +940,137 @@ if __name__ == "__main__":
     text-align: center;
   }
 
+  /* File Browser Grid Layout */
+  .file-browser-grid {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: var(--wa-space-l);
+    margin-top: var(--wa-space-l);
+  }
+
+  @media (max-width: 920px) {
+    .file-browser-grid {
+      grid-template-columns: 1fr;
+      grid-template-rows: auto 1fr;
+    }
+  }
+
+  /* File Tree Container */
+  .file-tree-container {
+    border: 1px solid var(--wa-color-surface-border);
+    border-radius: var(--wa-border-radius-m);
+    background: var(--wa-color-surface-lowered);
+    padding: var(--wa-space-m);
+    overflow-y: auto;
+    max-height: 1200px;
+  }
+
+  .file-tree {
+    --indent-guide-width: 1px;
+  }
+
+  .file-size {
+    font-size: var(--wa-font-size-xs);
+    color: var(--wa-color-text-quiet);
+    font-weight: var(--wa-font-weight-normal);
+  }
+
+  /* File Preview Container */
+  .file-preview-container {
+    position: relative;
+    min-height: 1200px;
+    border: 1px solid var(--wa-color-surface-border);
+    border-radius: var(--wa-border-radius-m);
+    background: var(--wa-color-surface-lowered);
+  }
+
+  .viewer-panel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .viewer-header {
+    padding: var(--wa-space-m);
+    border-bottom: 1px solid var(--wa-color-surface-border);
+    background: var(--wa-color-surface-default);
+  }
+
+  .viewer-header h3 {
+    margin: 0;
+    font-size: var(--wa-font-size-m);
+    font-weight: var(--wa-font-weight-semibold);
+    color: var(--wa-color-text-normal);
+  }
+
+  /* Code Viewer */
+  #code-viewer .code-content {
+    flex: 1;
+    overflow: auto;
+    padding: var(--wa-space-m);
+  }
+
+  #code-viewer pre {
+    margin: 0;
+    background: none;
+    padding: 0;
+  }
+
+  #code-viewer code {
+    font-family: var(--wa-font-family-code);
+    font-size: var(--wa-font-size-s);
+    line-height: var(--wa-line-height-relaxed);
+    display: block;
+  }
+
+  #code-viewer .line-number {
+    display: inline-block;
+    width: 3em;
+    text-align: right;
+    margin-right: 1em;
+    color: var(--wa-color-text-quiet);
+    user-select: none;
+    border-right: 1px solid var(--wa-color-surface-border);
+    padding-right: 0.5em;
+  }
+
+  /* Image Viewers */
+  #niivue-canvas {
+    width: 100%;
+    height: 1200px;
+    outline: none;
+    border: none;
+  }
+
+  #image2d-viewer img {
+    max-width: 100%;
+    max-height: calc(1200px - 60px);
+    object-fit: contain;
+    padding: var(--wa-space-m);
+  }
+
+  /* No File Selected Message */
+  #no-file-selected {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .no-file-message {
+    text-align: center;
+    color: var(--wa-color-text-quiet);
+  }
+
+  .no-file-message p {
+    margin-top: var(--wa-space-m);
+    font-size: var(--wa-font-size-m);
+  }
+
+  .selected-file {
+    background: var(--wa-color-primary-surface);
+  }
 </style>
