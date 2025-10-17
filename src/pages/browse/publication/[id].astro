@@ -29,6 +29,7 @@ export async function getStaticPaths() {
       const id = page.id;
 
       console.log(`Processing page ${index + 1}: "${page.id}"`);
+      console.log('Page contents:', page);
 
       return {
         params: { id },
@@ -61,7 +62,6 @@ console.log('page', page)
 const title = page?.frontmatter?.title || 'Publication';
 const abstract = page?.frontmatter?.abstract || '';
 const frontmatter = page?.frontmatter;
-console.log('frontmatter', frontmatter);
 
 const foldersOption = false;
 const baseDir = "/";
@@ -131,6 +131,35 @@ const mockFiles = [
     <div class="frontmatter-container">
       <div class="frontmatter-background">
         <div class="frontmatter-overlay">
+          <!-- Publication metadata header -->
+          <div class="publication-metadata">
+            <div class="metadata-left">
+              <span class="article-type">Open Science Article</span>
+              {frontmatter?.date_submitted && (
+                <span class="submitted-date">
+                  Submitted: {new Date(frontmatter.date_submitted).toLocaleDateString('en-US', {
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric'
+                  })}
+                </span>
+              )}
+              {page?.doi && (
+                <a
+                  href={`https://doi.org/${page.doi}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="doi-link"
+                >
+                  {`https://doi.org/${page.doi}`}
+                </a>
+              )}
+            </div>
+            <div class="metadata-right">
+              <wa-icon library="scienceicons" name="open-access" class="openaccess-icon"></wa-icon>
+            </div>
+          </div>
+
           <header>
             <h1 class="publication-title">{title}</h1>
           </header>
@@ -345,6 +374,76 @@ if __name__ == "__main__":
     color: var(--wa-color-text-loud);
     margin: 0 0 var(--wa-space-m) 0;
     line-height: var(--wa-line-height-condensed);
+  }
+
+  /* Publication metadata header */
+  .publication-metadata {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--wa-space-l);
+    padding-bottom: var(--wa-space-m);
+    border-bottom: 1px solid var(--wa-color-surface-border);
+    font-size: var(--wa-font-size-s);
+  }
+
+  .metadata-left {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--wa-space-m);
+    color: var(--wa-color-text-quiet);
+  }
+
+  .metadata-right {
+    display: flex;
+    align-items: center;
+  }
+
+  .article-type {
+    font-variant: small-caps;
+    font-weight: var(--wa-font-weight-semibold);
+    color: var(--wa-color-text-normal);
+    letter-spacing: 0.05em;
+  }
+
+  .submitted-date {
+    color: var(--wa-color-text-quiet);
+  }
+
+  .doi-link {
+    color: var(--wa-color-primary-600);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .doi-link:hover {
+    color: var(--wa-color-primary-700);
+    text-decoration: underline;
+  }
+
+  .openaccess-icon {
+    font-size: var(--wa-font-size-l);
+    color: var(--wa-color-success-600);
+  }
+
+  /* Responsive adjustments for metadata */
+  @media (max-width: 768px) {
+    .publication-metadata {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: var(--wa-space-s);
+    }
+
+    .metadata-left {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: var(--wa-space-xs);
+    }
+
+    .metadata-right {
+      align-self: flex-end;
+    }
   }
 
   /* Content tabs */

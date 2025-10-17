@@ -406,5 +406,7 @@ modifiedCollections.pages = {
 };
 const filteredPagesLoader = createFilteredPagesLoader(server, project);
 modifiedCollections.pages.loader = filteredPagesLoader;
+// Remove schema to use default passthrough behavior
+delete modifiedCollections.pages.schema;
 
 export const collections = modifiedCollections;
