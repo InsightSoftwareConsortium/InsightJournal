@@ -669,6 +669,18 @@ image = itk.imread('data/img1.png')
     // Handle hash changes (when clicking footer links)
     window.addEventListener('hashchange', handleTabFromHash);
 
+    // Update URL when tab is clicked
+    const tabGroup = document.querySelector('wa-tab-group');
+    if (tabGroup) {
+      tabGroup.addEventListener('wa-tab-show', (event: any) => {
+        const tabName = event.detail.name;
+        if (tabName && ['manifesto', 'technology', 'contribute'].includes(tabName)) {
+          // Update URL without triggering page reload
+          history.pushState(null, '', `#${tabName}`);
+        }
+      });
+    }
+
     // Example visualization
     const defaults = {
       // Match dark mode background

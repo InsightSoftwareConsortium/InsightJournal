@@ -410,8 +410,8 @@ function getFileIcon(filename: string): string {
       </wa-tab-panel>
 
       <!-- Manuscript Tab -->
-      <wa-tab slot="nav" panel="article">Manuscript</wa-tab>
-      <wa-tab-panel name="article">
+      <wa-tab slot="nav" panel="manuscript">Manuscript</wa-tab>
+      <wa-tab-panel name="manuscript">
         <div class="tab-content">
           <div class="pdf-viewer">
             <iframe
@@ -426,8 +426,8 @@ function getFileIcon(filename: string): string {
       </wa-tab-panel>
 
       <!-- Source Code and Data Tab -->
-      <wa-tab slot="nav" panel="source">Source Code and Data</wa-tab>
-      <wa-tab-panel name="source">
+      <wa-tab slot="nav" panel="files">Source Code and Data</wa-tab>
+      <wa-tab-panel name="files">
         <div class="tab-content">
           <h2>Source Code and Data</h2>
 
@@ -710,7 +710,14 @@ function getFileIcon(filename: string): string {
     const tabGroup = document.querySelector('wa-tab-group');
     if (tabGroup) {
       tabGroup.addEventListener('wa-tab-show', async (event: any) => {
-        if (event.detail.name === 'source') {
+        const tabName = event.detail.name;
+        
+        // Update URL when tab is clicked
+        if (tabName && ['abstract', 'manuscript', 'files', 'reviews'].includes(tabName)) {
+          history.pushState(null, '', `#${tabName}`);
+        }
+        
+        if (tabName === 'files') {
           // Load default file if available
           const defaultFileEl = document.querySelector('.selected-file') as HTMLElement;
           if (defaultFileEl && currentViewerType === 'none') {
@@ -724,6 +731,26 @@ function getFileIcon(filename: string): string {
         }
       });
     }
+
+    // Handle hash navigation for tabs
+    const handleTabFromHash = () => {
+      const hash = window.location.hash.substring(1); // Remove the # symbol
+      if (hash && ['abstract', 'manuscript', 'files', 'reviews'].includes(hash)) {
+        const tabGroup = document.querySelector('wa-tab-group');
+        const targetTab = document.querySelector(`wa-tab[panel="${hash}"]`);
+
+        if (tabGroup && targetTab) {
+          // Activate the tab
+          (targetTab as any).click();
+        }
+      }
+    };
+
+    // Handle initial hash on page load
+    handleTabFromHash();
+
+    // Handle hash changes
+    window.addEventListener('hashchange', handleTabFromHash);
   });
 </script>
 
