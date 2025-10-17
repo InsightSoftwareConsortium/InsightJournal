@@ -486,6 +486,22 @@ const createFilteredPagesLoader = (
                     `✓ Added ${metadataJson.tags.length} tags to keywords (now ${pageData.frontmatter.keywords.length} total)`
                   );
                 }
+
+                // Set github property from source_code_git_repo if it contains "github.com"
+                if (
+                  metadataJson.source_code_git_repo &&
+                  typeof metadataJson.source_code_git_repo === "string" &&
+                  metadataJson.source_code_git_repo.includes("github.com")
+                ) {
+                  if (!pageData.frontmatter) {
+                    pageData.frontmatter = {};
+                  }
+                  pageData.frontmatter.github =
+                    metadataJson.source_code_git_repo;
+                  console.log(
+                    `✓ Set github property to: ${metadataJson.source_code_git_repo}`
+                  );
+                }
               } else {
                 console.warn(
                   `✗ Failed to fetch insight-journal-metadata.json: ${metadataResponse.status}`
