@@ -376,7 +376,7 @@ const createFilteredPagesLoader = (
           }
 
           return {
-            id: articleId.toString(),
+            id: insightJournalId.toString(),
             ...syntheticRef,
             ...pageData,
           };
