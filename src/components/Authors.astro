@@ -46,8 +46,10 @@ if (authors) {
       author.affiliations.forEach((affiliation: any) => {
         // Handle both string affiliations and object affiliations
         const affiliationStr = typeof affiliation === 'string' ? affiliation : affiliation.name || affiliation.institution;
-        if (affiliationStr && !uniqueAffiliations.has(affiliationStr)) {
-          uniqueAffiliations.set(affiliationStr, uniqueAffiliations.size + 1);
+        // Trim whitespace and only add non-empty affiliations
+        const trimmedAffiliation = affiliationStr?.trim();
+        if (trimmedAffiliation && !uniqueAffiliations.has(trimmedAffiliation)) {
+          uniqueAffiliations.set(trimmedAffiliation, uniqueAffiliations.size + 1);
         }
       });
     }
@@ -65,20 +67,25 @@ if (authors) {
             {getAuthorName(author)}
           </span>
           {/* Superscript with affiliation numbers and asterisk for corresponding author */}
-          {(author.affiliations && author.affiliations.length > 0) || author.corresponding ? (
+          {((author.affiliations && author.affiliations.length > 0 && uniqueAffiliations.size > 0) || author.corresponding) && (
             <sup style="font-size: var(--wa-font-size-xs); margin-left: 2px; color: var(--wa-color-text-normal);">
-              {author.affiliations && author.affiliations.map((affiliation: any, affIndex: number) => {
+              {author.affiliations && uniqueAffiliations.size > 0 && author.affiliations.map((affiliation: any, affIndex: number) => {
                 const affiliationStr = typeof affiliation === 'string' ? affiliation : affiliation.name || affiliation.institution;
-                return (
-                  <span>
-                    {uniqueAffiliations.get(affiliationStr)}
-                    {affIndex < author.affiliations.length - 1 && ','}
-                  </span>
-                );
+                const trimmedAffiliation = affiliationStr?.trim();
+                // Only render if the trimmed affiliation exists in our map
+                if (trimmedAffiliation && uniqueAffiliations.has(trimmedAffiliation)) {
+                  return (
+                    <span>
+                      {uniqueAffiliations.get(trimmedAffiliation)}
+                      {affIndex < author.affiliations.length - 1 && ','}
+                    </span>
+                  );
+                }
+                return null;
               })}
               {author.corresponding && <span>*</span>}
             </sup>
-          ) : null}
+          )}
           {author.orcid && (
             <a
               href={`https://orcid.org/${author.orcid.replace(/(https?:\/\/)?orcid\.org\//, '')}`}
