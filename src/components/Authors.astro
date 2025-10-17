@@ -7,7 +7,7 @@
  * Displays authors with ORCID/email links and affiliation references
  * Props:
  * - authors: Array of Contributor objects from frontmatter
- * - affiliations: Array of Affiliation objects from frontmatter
+ * - affiliations: Array of Affiliation objects from frontmatter (optional, for compatibility)
  */
 import type { Contributor, Name, Affiliation } from '@awesome-myst/myst-zod';
 
@@ -37,24 +37,17 @@ function getAuthorName(author: Contributor): string {
   return 'Unknown Author';
 }
 
-// Helper function to render affiliation by ID
-function getAffiliationName(affiliationId: string, affiliations: Affiliation[] | undefined) {
-  if (!affiliations) return affiliationId;
-  const affiliationsLookup = Object.fromEntries(
-    affiliations.map(({ id, ...rest }: any) => [id, rest])
-  );
-  const affiliation = affiliationsLookup[affiliationId] ?? { name: affiliationId };
-  return affiliation.name || affiliation.institution || affiliationId;
-}
-
 // Build unique affiliations map with indices
+// Affiliations come directly from the authors array as strings
 const uniqueAffiliations = new Map<string, number>();
-if (authors && affiliations) {
+if (authors) {
   authors.forEach(author => {
-    if (author.affiliations) {
-      author.affiliations.forEach(affId => {
-        if (!uniqueAffiliations.has(affId)) {
-          uniqueAffiliations.set(affId, uniqueAffiliations.size + 1);
+    if (author.affiliations && Array.isArray(author.affiliations)) {
+      author.affiliations.forEach((affiliation: any) => {
+        // Handle both string affiliations and object affiliations
+        const affiliationStr = typeof affiliation === 'string' ? affiliation : affiliation.name || affiliation.institution;
+        if (affiliationStr && !uniqueAffiliations.has(affiliationStr)) {
+          uniqueAffiliations.set(affiliationStr, uniqueAffiliations.size + 1);
         }
       });
     }
@@ -71,16 +64,21 @@ if (authors && affiliations) {
           <span style="font-weight: var(--wa-font-weight-semibold); font-size: var(--wa-font-size-m); color: var(--wa-color-text-loud);">
             {getAuthorName(author)}
           </span>
-          {author.affiliations && author.affiliations.length > 0 && (
+          {/* Superscript with affiliation numbers and asterisk for corresponding author */}
+          {(author.affiliations && author.affiliations.length > 0) || author.corresponding ? (
             <sup style="font-size: var(--wa-font-size-xs); margin-left: 2px; color: var(--wa-color-text-normal);">
-              {author.affiliations.map((affId: any, affIndex: number) => (
-                <span>
-                  {uniqueAffiliations.get(affId)}
-                  {affIndex < author.affiliations.length - 1 && ','}
-                </span>
-              ))}
+              {author.affiliations && author.affiliations.map((affiliation: any, affIndex: number) => {
+                const affiliationStr = typeof affiliation === 'string' ? affiliation : affiliation.name || affiliation.institution;
+                return (
+                  <span>
+                    {uniqueAffiliations.get(affiliationStr)}
+                    {affIndex < author.affiliations.length - 1 && ','}
+                  </span>
+                );
+              })}
+              {author.corresponding && <span>*</span>}
             </sup>
-          )}
+          ) : null}
           {author.orcid && (
             <a
               href={`https://orcid.org/${author.orcid.replace(/(https?:\/\/)?orcid\.org\//, '')}`}
@@ -112,11 +110,11 @@ if (authors && affiliations) {
 
     <!-- Affiliations list -->
     {uniqueAffiliations.size > 0 && (
-      <div style="font-size: var(--wa-font-size-s); color: var(--wa-color-text-quiet); line-height: var(--wa-line-height-normal);">
-        {Array.from(uniqueAffiliations.entries()).map(([affId, index]) => (
+      <div style="font-size: var(--wa-font-size-s); color: var(--wa-color-text-quiet); line-height: var(--wa-line-height-normal); margin-top: var(--wa-space-s);">
+        {Array.from(uniqueAffiliations.entries()).map(([affiliationName, index]) => (
           <div style="margin-bottom: var(--wa-space-2xs);">
-            <sup style="font-size: var(--wa-font-size-xs); margin-right: var(--wa-space-2xs);">{index}</sup>
-            <span>{getAffiliationName(affId, affiliations)}</span>
+            <span style="margin-right: var(--wa-space-xs);">{index}.</span>
+            <span>{affiliationName}</span>
           </div>
         ))}
       </div>
@@ -125,6 +123,7 @@ if (authors && affiliations) {
 )}
 
 <script>
+  // Web Awesome icons are loaded globally
   // Import Web Awesome components
   import '@awesome.me/webawesome/dist/components/icon/icon.js';
   import { registerScienceIconsLibrary } from '@awesome-myst/myst-awesome/lib/wa-scienceicons.ts';

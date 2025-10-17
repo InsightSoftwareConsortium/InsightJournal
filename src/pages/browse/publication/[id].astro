@@ -61,6 +61,7 @@ console.log('page', page)
 const title = page?.frontmatter?.title || 'Publication';
 const abstract = page?.frontmatter?.abstract || '';
 const frontmatter = page?.frontmatter;
+console.log('frontmatter', frontmatter);
 
 const foldersOption = false;
 const baseDir = "/";
@@ -133,7 +134,7 @@ const mockFiles = [
           <header>
             <h1 class="publication-title">{title}</h1>
           </header>
-          <Authors authors={frontmatter?.authors} affiliations={frontmatter?.affiliations} />
+          <Authors authors={frontmatter?.authors} />
         </div>
       </div>
     </div>
@@ -159,7 +160,7 @@ const mockFiles = [
         </div>
       </wa-tab-panel>
 
-      <!-- Article Tab -->
+      <!-- Manuscript Tab -->
       <wa-tab slot="nav" panel="article">Manuscript</wa-tab>
       <wa-tab-panel name="article">
         <div class="tab-content">
