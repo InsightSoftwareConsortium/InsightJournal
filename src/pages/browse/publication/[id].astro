@@ -283,7 +283,7 @@ function getFileIcon(filename: string): string {
   const ext = getFileExtension(filename).toLowerCase();
 
   // Medical imaging formats
-  if (medicalImageExtensions.some(e => filename.endsWith(e))) return 'file-medical';
+  if (medicalImageExtensions.some(e => filename.endsWith(e))) return 'file-zipper';
 
   // Images
   if (imageExtensions.includes(ext)) return 'file-image';
