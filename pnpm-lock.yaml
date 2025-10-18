@@ -32,6 +32,12 @@ importers:
       astro:
         specifier: ^5.14.5
         version: 5.14.5(@types/node@24.7.2)(rollup@4.52.4)(typescript@5.9.3)(yaml@2.8.1)
+      client-zip:
+        specifier: ^2.5.0
+        version: 2.5.0
+      p-limit:
+        specifier: ^7.1.1
+        version: 7.1.1
       scienceicons:
         specifier: ^0.0.13
         version: 0.0.13
@@ -1038,6 +1044,9 @@ packages:
   cli-boxes@3.0.0:
     resolution: {integrity: sha512-/lzGpEWL/8PfI0BmBOPRwp0c/wFNX1RdUML3jK/RcSBA9T8mZDdQpqYBKtCFTOfQbwPqWEOpjqW+Fnayc0969g==}
     engines: {node: '>=10'}
+
+  client-zip@2.5.0:
+    resolution: {integrity: sha512-ydG4nDZesbFurnNq0VVCp/yyomIBh+X/1fZPI/P24zbnG4dtC4tQAfI5uQsomigsUMeiRO2wiTPizLWQh+IAyQ==}
 
   cliui@8.0.1:
     resolution: {integrity: sha512-BSeNnyus75C4//NQ9gQt1/csTXyo/8Sb+afLAkzAptFuMsod9HFokGNudZpi/oQV73hnVK+sR+5PVRMd+Dr7YQ==}
@@ -2151,6 +2160,10 @@ packages:
   p-limit@6.2.0:
     resolution: {integrity: sha512-kuUqqHNUqoIWp/c467RI4X6mmyuojY5jGutNU0wVTmEOOfcuwLqyMVoAi9MKi2Ak+5i9+nhmrK4ufZE8069kHA==}
     engines: {node: '>=18'}
+
+  p-limit@7.1.1:
+    resolution: {integrity: sha512-i8PyM2JnsNChVSYWLr2BAjNoLi0BAYC+wecOnZnVV+YSNJkzP7cWmvI34dk0WArWfH9KwBHNoZI3P3MppImlIA==}
+    engines: {node: '>=20'}
 
   p-queue@8.1.1:
     resolution: {integrity: sha512-aNZ+VfjobsWryoiPnEApGGmf5WmNsCo9xu8dfaYamG5qaLP7ClhLN6NgsFe6SwJ2UbLEBK5dv9x8Mn5+RVhMWQ==}
@@ -4277,6 +4290,8 @@ snapshots:
 
   cli-boxes@3.0.0: {}
 
+  client-zip@2.5.0: {}
+
   cliui@8.0.1:
     dependencies:
       string-width: 4.2.3
@@ -5801,6 +5816,10 @@ snapshots:
   p-defer@4.0.1: {}
 
   p-limit@6.2.0:
+    dependencies:
+      yocto-queue: 1.2.1
+
+  p-limit@7.1.1:
     dependencies:
       yocto-queue: 1.2.1
 
