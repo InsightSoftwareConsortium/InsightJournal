@@ -12,6 +12,27 @@ import { readFileSync, existsSync, mkdirSync, writeFileSync } from "node:fs";
 import { parse } from "yaml";
 import { resolve, dirname, join, basename } from "node:path";
 
+type InsightJournalMystConfig = MystServerConfig & {
+  generateArchive?: boolean;
+  archivePath?: string; // Path to save the generated archive
+};
+
+const server: InsightJournalMystConfig = {
+  baseUrl: "https://insight-test.desci.com",
+  timeout: 10000,
+  // Enable fuse index generation for search
+  generateSearchIndex: false,
+  includeKeywords: true,
+  pageConcurrency: 8,
+  generateArchive: false,
+  archivePath: resolve(process.cwd(), "archive"),
+};
+
+const project: ProjectConfig = {
+  // Load configuration from myst.yml
+  configPath: "myst.yml",
+};
+
 /**
  * Extract all CIDs from a string (URL or text)
  * Supports both /ipfs/<cid> and /ipns/<cid> patterns
@@ -291,28 +312,6 @@ async function getAllArticles(baseUrl: string): Promise<number[]> {
     return [];
   }
 }
-
-type InsightJournalMystConfig = MystServerConfig & {
-  generateArchive?: boolean;
-  archivePath?: string; // Path to save the generated archive
-};
-
-const server: InsightJournalMystConfig = {
-  baseUrl: "https://insight-test.desci.com",
-  timeout: 10000,
-  // Enable fuse index generation for search
-  generateSearchIndex: false,
-  includeKeywords: true,
-  pageConcurrency: 8,
-  generateArchive: true,
-  archivePath: resolve(process.cwd(), "archive"),
-};
-
-const project: ProjectConfig = {
-  // Load configuration from myst.yml
-  configPath: "myst.yml",
-};
-
 // Create MyST collections with custom configuration
 const baseCollections = createMystCollections({
   server,

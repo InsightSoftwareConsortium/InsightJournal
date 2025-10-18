@@ -169,13 +169,19 @@ function formatBytes(bytes: number): string {
 const fileTree = buildFileTree(codeFiles);
 
 // Determine medical imaging file extensions
-const medicalImageExtensions = ['.nii', '.nii.gz', '.dcm', '.nrrd', '.mha', '.mhd', '.vtk', '.vti'];
+const medicalImageExtensions = ['.nii', '.nii.gz', '.dcm', '.nrrd', '.mha', '.mhd', '.vtk', '.vti', '.aim', '.isq', '.gipl', '.gipl.gz', '.hdf5', '.iwi', '.iwi.cbor', '.iwi.cbor.zst', '.lsm', '.mnc', '.mnc.gz', '.mgh', '.mgz', '.mgh.gz', '.mrc', '.pic', '.fdf', '.stl', '.ply', '.mz3', '.off', '.obj', '.fsa', '.fsb', '.byu', '.swc', '.fz', '.gqi', '.qsdr', '.mih', '.mif', '.src', '.v', '.v16', '.vmr', '.head', '.tract', '.tt', '.trx', '.trk', '.tck', '.annot', '.x3d'];
 const imageExtensions = ['.png', '.jpg', '.jpeg', '.gif', '.bmp', '.tiff', '.tif'];
 const codeExtensions = ['.py', '.cxx', '.cpp', '.h', '.hxx', '.txx', '.hpp', '.c', '.js', '.ts', '.java', '.cs', '.md', '.txt', '.cmake', '.json', '.xml', '.yaml', '.yml'];
 
 function getFileExtension(filename: string): string {
+  // Check for complex multi-dot extensions first
+  const complexExtensions = ['.nii.gz', '.gipl.gz', '.mnc.gz', '.mgh.gz', '.iwi.cbor', '.iwi.cbor.zst'];
+  for (const ext of complexExtensions) {
+    if (filename.endsWith(ext)) return ext;
+  }
+  
+  // Fall back to simple extension matching
   const match = filename.match(/\.([^.]+)$/);
-  if (filename.endsWith('.nii.gz')) return '.nii.gz';
   return match ? `.${match[1]}` : '';
 }
 
@@ -564,7 +570,7 @@ function getFileIcon(filename: string): string {
   import '@awesome.me/webawesome/dist/components/badge/badge.js';
 
   import { Niivue } from "@niivue/niivue";
-  import { useItkWasmLoaders } from '@niivue/itkwasm-loader';
+  import { useItkWasmLoaders, createImageLoader } from '@niivue/itkwasm-loader';
 
   // Theme-aware logo switching functionality
   document.addEventListener('DOMContentLoaded', async () => {
@@ -614,6 +620,7 @@ function getFileIcon(filename: string): string {
         if (canvas) {
           await nv.attachToCanvas(canvas);
           useItkWasmLoaders(nv);
+          nv.useLoader(createImageLoader('dcm'), 'dcm', 'nii');
         }
       }
     };
@@ -631,8 +638,8 @@ function getFileIcon(filename: string): string {
     const loadFile = async (url: string, filename: string) => {
       const ext = filename.toLowerCase();
 
-      // Check if it's a medical image
-      const medicalExts = ['.nii', '.nii.gz', '.dcm', '.nrrd', '.mha', '.mhd', '.vtk', '.vti'];
+      // Check if it's a medical image or mesh
+      const medicalExts = ['.nii', '.nii.gz', '.dcm', '.nrrd', '.mha', '.mhd', '.vtk', '.vti', '.aim', '.isq', '.gipl', '.gipl.gz', '.hdf5', '.iwi', '.iwi.cbor', '.iwi.cbor.zst', '.lsm', '.mnc', '.mnc.gz', '.mgh', '.mgz', '.mgh.gz', '.mrc', '.pic', '.fdf', '.stl', '.ply', '.mz3', '.off', '.obj', '.fsa', '.fsb', '.byu', '.swc', '.fz', '.gqi', '.qsdr', '.mih', '.mif', '.src', '.v', '.v16', '.vmr', '.head', '.tract', '.tt', '.trx', '.trk', '.tck', '.annot', '.x3d'];
       const isMedical = medicalExts.some(e => ext.endsWith(e));
 
       // Check if it's a regular image
