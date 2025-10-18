@@ -69,6 +69,7 @@ const baseDir = "/";
 const showToc = typeof page.mdast.children !== "undefined";
 
 import "../../../styles/custom.css";
+import "highlight.js/styles/github-dark.css";
 
 import { mystParseAndRender } from '@awesome-myst/myst-awesome/lib/render-myst-ast';
 
@@ -638,6 +639,37 @@ function getFileIcon(filename: string): string {
   import { dicomLoader } from '@niivue/dicom-loader';
   import { downloadZip } from 'client-zip';
 
+  // Import highlight.js core and individual languages
+  import hljs from 'highlight.js/lib/core';
+  import python from 'highlight.js/lib/languages/python';
+  import cpp from 'highlight.js/lib/languages/cpp';
+  import c from 'highlight.js/lib/languages/c';
+  import javascript from 'highlight.js/lib/languages/javascript';
+  import typescript from 'highlight.js/lib/languages/typescript';
+  import java from 'highlight.js/lib/languages/java';
+  import csharp from 'highlight.js/lib/languages/csharp';
+  import markdown from 'highlight.js/lib/languages/markdown';
+  import cmake from 'highlight.js/lib/languages/cmake';
+  import json from 'highlight.js/lib/languages/json';
+  import xml from 'highlight.js/lib/languages/xml';
+  import yaml from 'highlight.js/lib/languages/yaml';
+  import plaintext from 'highlight.js/lib/languages/plaintext';
+
+  // Register languages
+  hljs.registerLanguage('python', python);
+  hljs.registerLanguage('cpp', cpp);
+  hljs.registerLanguage('c', c);
+  hljs.registerLanguage('javascript', javascript);
+  hljs.registerLanguage('typescript', typescript);
+  hljs.registerLanguage('java', java);
+  hljs.registerLanguage('csharp', csharp);
+  hljs.registerLanguage('markdown', markdown);
+  hljs.registerLanguage('cmake', cmake);
+  hljs.registerLanguage('json', json);
+  hljs.registerLanguage('xml', xml);
+  hljs.registerLanguage('yaml', yaml);
+  hljs.registerLanguage('plaintext', plaintext);
+
   // Theme-aware logo switching functionality
   document.addEventListener('DOMContentLoaded', async () => {
     // Theme-aware logo switching
@@ -860,14 +892,28 @@ function getFileIcon(filename: string): string {
           const response = await fetch(url);
           const text = await response.text();
           const codeElement = document.getElementById('code-viewer-content')!;
-          codeElement.textContent = text;
 
-          // Add line numbers
-          const lines = text.split('\n');
-          const numberedLines = lines.map((line, i) =>
-            `<span class="line-number">${i + 1}</span>${escapeHtml(line)}`
-          ).join('\n');
-          codeElement.innerHTML = numberedLines;
+          // Determine language from file extension
+          const ext = filename.toLowerCase();
+          let language = 'plaintext';
+
+          if (ext.endsWith('.py')) language = 'python';
+          else if (ext.endsWith('.cpp') || ext.endsWith('.cxx') || ext.endsWith('.cc')) language = 'cpp';
+          else if (ext.endsWith('.c')) language = 'c';
+          else if (ext.endsWith('.h') || ext.endsWith('.hpp') || ext.endsWith('.hxx') || ext.endsWith('.txx')) language = 'cpp';
+          else if (ext.endsWith('.js')) language = 'javascript';
+          else if (ext.endsWith('.ts')) language = 'typescript';
+          else if (ext.endsWith('.java')) language = 'java';
+          else if (ext.endsWith('.cs')) language = 'csharp';
+          else if (ext.endsWith('.md')) language = 'markdown';
+          else if (ext.endsWith('.cmake') || filename.toLowerCase() === 'cmakelists.txt') language = 'cmake';
+          else if (ext.endsWith('.json')) language = 'json';
+          else if (ext.endsWith('.xml')) language = 'xml';
+          else if (ext.endsWith('.yaml') || ext.endsWith('.yml')) language = 'yaml';
+
+          // Apply syntax highlighting
+          const highlighted = hljs.highlight(text, { language }).value;
+          codeElement.innerHTML = highlighted;
         } catch (error) {
           console.error('Error loading file:', error);
           document.getElementById('code-viewer-content')!.textContent = 'Error loading file';
@@ -1439,7 +1485,7 @@ function getFileIcon(filename: string): string {
   /* File Browser Grid Layout */
   .file-browser-grid {
     display: grid;
-    grid-template-columns: 300px 1fr;
+    grid-template-columns: 400px 1fr;
     gap: var(--wa-space-l);
     margin-top: var(--wa-space-l);
   }
@@ -1508,13 +1554,15 @@ function getFileIcon(filename: string): string {
   #code-viewer .code-content {
     flex: 1;
     overflow: auto;
-    padding: var(--wa-space-m);
+    padding: 0;
+    background: var(--wa-color-surface-lowered);
   }
 
   #code-viewer pre {
     margin: 0;
-    background: none;
-    padding: 0;
+    padding: var(--wa-space-m);
+    background: transparent;
+    height: 100%;
   }
 
   #code-viewer code {
@@ -1524,15 +1572,10 @@ function getFileIcon(filename: string): string {
     display: block;
   }
 
-  #code-viewer .line-number {
-    display: inline-block;
-    width: 3em;
-    text-align: right;
-    margin-right: 1em;
-    color: var(--wa-color-text-quiet);
-    user-select: none;
-    border-right: 1px solid var(--wa-color-surface-border);
-    padding-right: 0.5em;
+  /* Override highlight.js background to use our theme */
+  #code-viewer .hljs {
+    background: transparent;
+    padding: 0;
   }
 
   /* Image Viewers */
