@@ -569,8 +569,9 @@ function getFileIcon(filename: string): string {
   import '@awesome.me/webawesome/dist/components/tree-item/tree-item.js';
   import '@awesome.me/webawesome/dist/components/badge/badge.js';
 
-  import { Niivue } from "@niivue/niivue";
+  import { Niivue, SLICE_TYPE, MULTIPLANAR_TYPE, SHOW_RENDER } from "@niivue/niivue";
   import { useItkWasmLoaders, createImageLoader } from '@niivue/itkwasm-loader';
+  import { dicomLoader } from '@niivue/dicom-loader';
 
   // Theme-aware logo switching functionality
   document.addEventListener('DOMContentLoaded', async () => {
@@ -614,13 +615,22 @@ function getFileIcon(filename: string): string {
         const defaults = {
           backColor: isDark ? [16.0/255.0, 18.0/255.0, 25.0/255.0, 1.0] : [1, 1, 1, 1],
           logLevel: 'info' as const,
+          showLegend: true,
+          showColorbarBorder: false,
+          isColorBar: true,
+          isOrientCube: true,
+          isOrientationTextVisible: false,
+          sliceType: SLICE_TYPE.MULTIPLANAR,
+          multiplanarRender: MULTIPLANAR_TYPE.GRID,
+          multiplanarShowRender: SHOW_RENDER.ALWAYS,
+          heroImageFraction: 0.6,
         };
         nv = new Niivue(defaults);
         const canvas = document.getElementById("niivue-canvas") as HTMLCanvasElement;
         if (canvas) {
           await nv.attachToCanvas(canvas);
           useItkWasmLoaders(nv);
-          nv.useLoader(createImageLoader('dcm'), 'dcm', 'nii');
+          nv.useDicomLoader(dicomLoader);
         }
       }
     };
@@ -654,7 +664,21 @@ function getFileIcon(filename: string): string {
 
         try {
           if (nv) {
-            await nv.loadVolumes([{ url }]);
+            // Check if it's a DICOM file - use loadDicoms instead of loadVolumes
+            if (ext.endsWith('.dcm')) {
+              if (nv.volumes.length > 0) {
+                nv.removeVolumeByIndex(0);
+              }
+              await nv.loadDicoms([{ url, name: filename }]);
+            } else {
+              if (nv.volumes.length > 0) {
+                nv.removeVolumeByIndex(0);
+              }
+              await nv.loadVolumes([{ url, name: filename }]);
+            }
+            // needed?
+            nv.resizeListener();
+            nv.drawScene();
           }
         } catch (error) {
           console.error('Error loading medical image:', error);

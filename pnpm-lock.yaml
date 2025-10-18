@@ -20,6 +20,9 @@ importers:
       '@awesome.me/webawesome':
         specifier: 3.0.0-beta.6
         version: 3.0.0-beta.6(@floating-ui/utils@0.2.10)(@types/react@19.2.2)
+      '@niivue/dicom-loader':
+        specifier: ^1.0.0
+        version: 1.0.0
       '@niivue/itkwasm-loader':
         specifier: ^1.0.2
         version: 1.0.2
@@ -544,6 +547,12 @@ packages:
 
   '@niivue/cbor-loader@1.2.1':
     resolution: {integrity: sha512-ggSCbMFChShwcgWaPQNYnTDff4SD1uVQ20CmqNJRp5NETOJOqICKOciELqlGoUt0WASMsNc6WmfJv+kF6bsBMA==}
+
+  '@niivue/dcm2niix@1.2.0':
+    resolution: {integrity: sha512-wGontzVdVvLzeptZvJCcCQfpneoCme+9oCl82USjWMuer048+ZByO3b4FhbGnyEVQPh7hVgDA7A2+l6vW29bDg==}
+
+  '@niivue/dicom-loader@1.0.0':
+    resolution: {integrity: sha512-eBSh5di8ADYQN1aqsUOiVc3zlIjBGJj4rpt+mijWns2UqLqvd83eWY6YyBw0iFpLX8dR0dmSzoPTjWVndXPO/A==}
 
   '@niivue/itkwasm-loader@1.0.2':
     resolution: {integrity: sha512-Kp6HZ4d2GyyQDtESiD+IF//AiSlqcuzgdZJSZjwQyxKzCQn6hfy6yQh2jd8de2D7JqrXQQCarSMUehvN7YepkA==}
@@ -3584,6 +3593,12 @@ snapshots:
     dependencies:
       cbor-x: 1.6.0
       nifti-reader-js: 0.7.1
+
+  '@niivue/dcm2niix@1.2.0': {}
+
+  '@niivue/dicom-loader@1.0.0':
+    dependencies:
+      '@niivue/dcm2niix': 1.2.0
 
   '@niivue/itkwasm-loader@1.0.2':
     dependencies:
