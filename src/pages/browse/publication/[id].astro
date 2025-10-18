@@ -179,7 +179,7 @@ function getFileExtension(filename: string): string {
   for (const ext of complexExtensions) {
     if (filename.endsWith(ext)) return ext;
   }
-  
+
   // Fall back to simple extension matching
   const match = filename.match(/\.([^.]+)$/);
   return match ? `.${match[1]}` : '';
@@ -1084,6 +1084,7 @@ function getFileIcon(filename: string): string {
     font-size: var(--wa-font-size-xs);
     color: var(--wa-color-text-quiet);
     font-weight: var(--wa-font-weight-normal);
+    margin-left: var(--wa-space-s);
   }
 
   /* File Preview Container */
