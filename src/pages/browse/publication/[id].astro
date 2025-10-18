@@ -644,6 +644,73 @@ function getFileIcon(filename: string): string {
       currentViewerType = type;
     };
 
+    // Helper function to find companion file for MHD/RAW pairs
+    const findCompanionFile = (filename: string, fileTreeData: any[]): string | null => {
+      const baseNameMatch = filename.match(/^(.+)\.(mhd|raw)$/i);
+      if (!baseNameMatch) return null;
+
+      const baseName = baseNameMatch[1];
+      const currentExt = baseNameMatch[2].toLowerCase();
+      const companionExt = currentExt === 'mhd' ? 'raw' : 'mhd';
+      const companionFilename = `${baseName}.${companionExt}`;
+
+      // Search recursively in the file tree
+      const searchTree = (nodes: any[]): string | null => {
+        for (const node of nodes) {
+          if (node.type === 'file' && node.name.toLowerCase() === companionFilename.toLowerCase()) {
+            return node.url;
+          }
+          if (node.children) {
+            const found = searchTree(node.children);
+            if (found) return found;
+          }
+        }
+        return null;
+      };
+
+      return searchTree(fileTreeData);
+    };
+
+    // Helper function to combine MHD and RAW files into MHA format
+    const combineMhdRawToMha = async (mhdUrl: string, rawUrl: string, baseName: string): Promise<{ buffer: ArrayBuffer, name: string }> => {
+      // Fetch both files
+      const [mhdResponse, rawResponse] = await Promise.all([
+        fetch(mhdUrl),
+        fetch(rawUrl)
+      ]);
+
+      // Get MHD text and RAW binary data
+      const mhdText = await mhdResponse.text();
+      const rawBuffer = await rawResponse.arrayBuffer();
+
+      // Edit MHD header to replace ElementDataFile line
+      const lines = mhdText.split('\n');
+      const editedLines = lines.map(line => {
+        if (line.trim().startsWith('ElementDataFile')) {
+          return 'ElementDataFile = LOCAL';
+        }
+        return line;
+      });
+      const editedMhd = editedLines.join('\n');
+
+      // Convert edited MHD text to ArrayBuffer
+      const encoder = new TextEncoder();
+      const mhdBuffer = encoder.encode(editedMhd);
+
+      // Concatenate MHD header and RAW data
+      const combinedBuffer = new ArrayBuffer(mhdBuffer.byteLength + rawBuffer.byteLength);
+      const combinedView = new Uint8Array(combinedBuffer);
+      combinedView.set(new Uint8Array(mhdBuffer), 0);
+      combinedView.set(new Uint8Array(rawBuffer), mhdBuffer.byteLength);
+
+      // Create MHA filename
+      const mhaName = `${baseName}.mha`;
+
+      console.log(`Combined MHD/RAW into MHA: ${mhaName} (${combinedBuffer.byteLength} bytes)`);
+
+      return { buffer: combinedBuffer, name: mhaName };
+    };
+
     // Load and display a file
     const loadFile = async (url: string, filename: string) => {
       const ext = filename.toLowerCase();
@@ -674,7 +741,37 @@ function getFileIcon(filename: string): string {
               if (nv.volumes.length > 0) {
                 nv.removeVolumeByIndex(0);
               }
-              await nv.loadVolumes([{ url, name: filename }]);
+
+              // Check for MHD/RAW companion files and combine them
+              if (ext.endsWith('.mhd') || ext.endsWith('.raw')) {
+                const companionUrl = findCompanionFile(filename, (window as any).fileTreeData);
+                if (companionUrl) {
+                  // Determine which is MHD and which is RAW
+                  const isMhd = ext.endsWith('.mhd');
+                  const mhdUrl = isMhd ? url : companionUrl;
+                  const rawUrl = isMhd ? companionUrl : url;
+                  const baseName = filename.replace(/\.(mhd|raw)$/i, '');
+
+                  // Combine into MHA format
+                  const { buffer, name: mhaName } = await combineMhdRawToMha(mhdUrl, rawUrl, baseName);
+
+                  // Create Blob and object URL from the combined buffer
+                  const blob = new Blob([buffer], { type: 'application/octet-stream' });
+                  const objectUrl = URL.createObjectURL(blob);
+
+                  // Load the combined MHA buffer
+                  await nv.loadVolumes([{ url: objectUrl, name: mhaName }]);
+
+                  // Clean up object URL after loading
+                  URL.revokeObjectURL(objectUrl);
+                } else {
+                  // No companion found, try loading as-is
+                  await nv.loadVolumes([{ url, name: filename }]);
+                }
+              } else {
+                // Regular medical image file
+                await nv.loadVolumes([{ url, name: filename }]);
+              }
             }
             // needed?
             nv.resizeListener();
