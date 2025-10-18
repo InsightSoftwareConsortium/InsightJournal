@@ -98,6 +98,7 @@ interface TreeNode {
   type: 'file' | 'folder';
   url?: string;
   size?: string;
+  id?: string;  // CID for files
   children?: TreeNode[];
 }
 
@@ -143,7 +144,8 @@ function buildFileTree(files: any[]): TreeNode[] {
       path: relativePath,
       type: 'file',
       url: file.url,
-      size: file.extra?.size_bytes ? formatBytes(file.extra.size_bytes) : undefined
+      size: file.extra?.size_bytes ? formatBytes(file.extra.size_bytes) : undefined,
+      id: file.id  // CID from download object
     };
 
     if (parts.length === 1) {
@@ -461,11 +463,29 @@ function getFileIcon(filename: string): string {
                                       data-path={grandchild.path}
                                       data-type={grandchild.type}
                                       data-url={grandchild.url}
+                                      data-cid={grandchild.id}
                                       class={grandchild.url === defaultFile?.url ? 'selected-file' : ''}
                                     >
                                       <wa-icon name={getFileIcon(grandchild.name)} variant="regular"></wa-icon>
                                       {grandchild.name}
-                                      {grandchild.size && <span slot="end" class="file-size">{grandchild.size}</span>}
+                                      {grandchild.size && (
+                                        <span slot="end" class="file-actions">
+                                          <span class="file-size">{grandchild.size}</span>
+                                          <wa-icon
+                                            name="copy"
+                                            variant="regular"
+                                            class="action-icon copy-cid-icon"
+                                            data-cid={grandchild.id}
+                                            title="Copy CID"
+                                          ></wa-icon>
+                                          <wa-icon
+                                            name="download"
+                                            class="action-icon download-icon"
+                                            data-url={grandchild.url}
+                                            title="Download file"
+                                          ></wa-icon>
+                                        </span>
+                                      )}
                                     </wa-tree-item>
                                   ))}
                                 </wa-tree-item>
@@ -474,11 +494,29 @@ function getFileIcon(filename: string): string {
                                   data-path={child.path}
                                   data-type={child.type}
                                   data-url={child.url}
+                                  data-cid={child.id}
                                   class={child.url === defaultFile?.url ? 'selected-file' : ''}
                                 >
                                   <wa-icon name={getFileIcon(child.name)} variant="regular"></wa-icon>
                                   {child.name}
-                                  {child.size && <span slot="end" class="file-size">{child.size}</span>}
+                                  {child.size && (
+                                    <span slot="end" class="file-actions">
+                                      <span class="file-size">{child.size}</span>
+                                      <wa-icon
+                                        name="copy"
+                                        variant="regular"
+                                        class="action-icon copy-cid-icon"
+                                        data-cid={child.id}
+                                        title="Copy CID"
+                                      ></wa-icon>
+                                      <wa-icon
+                                        name="download"
+                                        class="action-icon download-icon"
+                                        data-url={child.url}
+                                        title="Download file"
+                                      ></wa-icon>
+                                    </span>
+                                  )}
                                 </wa-tree-item>
                               )}
                             </>
@@ -489,11 +527,29 @@ function getFileIcon(filename: string): string {
                           data-path={node.path}
                           data-type={node.type}
                           data-url={node.url}
+                          data-cid={node.id}
                           class={node.url === defaultFile?.url ? 'selected-file' : ''}
                         >
                           <wa-icon name={getFileIcon(node.name)} variant="regular"></wa-icon>
                           {node.name}
-                          {node.size && <span slot="end" class="file-size">{node.size}</span>}
+                          {node.size && (
+                            <span slot="end" class="file-actions">
+                              <span class="file-size">{node.size}</span>
+                              <wa-icon
+                                name="copy"
+                                variant="regular"
+                                class="action-icon copy-cid-icon"
+                                data-cid={node.id}
+                                title="Copy CID"
+                              ></wa-icon>
+                              <wa-icon
+                                name="download"
+                                class="action-icon download-icon"
+                                data-url={node.url}
+                                title="Download file"
+                              ></wa-icon>
+                            </span>
+                          )}
                         </wa-tree-item>
                       )}
                     </>
@@ -834,6 +890,76 @@ function getFileIcon(filename: string): string {
           }
         }
       });
+
+      // Handle action icon clicks (copy CID, download)
+      fileTree.addEventListener('click', async (event: any) => {
+        event.stopPropagation();
+        event.preventDefault();
+
+        let target = event.target as HTMLElement;
+
+        // Find the closest action icon (in case we clicked on SVG or other child)
+        const copyIcon = target.closest('.copy-cid-icon') as HTMLElement;
+        const downloadIcon = target.closest('.download-icon') as HTMLElement;
+
+        if (copyIcon) {
+          // Find the parent tree item to get the URL
+          const treeItem = copyIcon.closest('wa-tree-item') as HTMLElement;
+          if (treeItem) {
+            const url = treeItem.getAttribute('data-url');
+            if (url) {
+              // Extract CID from IPFS URL (format: https://ipfs.io/ipfs/CID)
+              const cidMatch = url.match(/\/ipfs\/([^\/]+)/);
+              const cid = cidMatch ? cidMatch[1] : url;
+
+              try {
+                await navigator.clipboard.writeText(cid);
+                // Visual feedback
+                const originalColor = copyIcon.style.color;
+                copyIcon.style.color = 'var(--wa-color-success-600)';
+                setTimeout(() => {
+                  copyIcon.style.color = originalColor;
+                }, 1000);
+                console.log('Copied CID to clipboard:', cid);
+              } catch (err) {
+                console.error('Failed to copy CID:', err);
+              }
+            }
+          }
+        } else if (downloadIcon) {
+          // Find the parent tree item to get URL and filename
+          const treeItem = downloadIcon.closest('wa-tree-item') as HTMLElement;
+          if (treeItem) {
+            const url = treeItem.getAttribute('data-url');
+            const path = treeItem.getAttribute('data-path');
+            const filename = path ? path.split('/').pop() : 'download';
+
+            if (url && filename) {
+              try {
+                // Fetch the file and trigger download with correct filename
+                const response = await fetch(url);
+                const blob = await response.blob();
+                const blobUrl = URL.createObjectURL(blob);
+
+                const a = document.createElement('a');
+                a.href = blobUrl;
+                a.download = filename;
+                a.style.display = 'none';
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+
+                // Clean up the blob URL
+                setTimeout(() => URL.revokeObjectURL(blobUrl), 100);
+
+                console.log('Downloaded file:', filename);
+              } catch (err) {
+                console.error('Failed to download file:', err);
+              }
+            }
+          }
+        }
+      }, true); // Use capture phase to intercept before tree selection
     }
 
     // Load default file when Source Code tab is activated
@@ -1074,6 +1200,28 @@ function getFileIcon(filename: string): string {
     font-size: var(--wa-font-size-xs);
     color: var(--wa-color-text-quiet);
     font-weight: var(--wa-font-weight-normal);
+    margin-right: var(--wa-space-xs);
+  }
+
+  .file-actions {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--wa-space-2xs);
+  }
+
+  .action-icon {
+    cursor: pointer;
+    font-size: var(--wa-font-size-s);
+    color: var(--wa-color-text-quieter);
+    transition: color 0.2s ease;
+  }
+
+  .action-icon:hover {
+    color: var(--wa-color-primary-600);
+  }
+
+  .copy-cid-icon:active {
+    color: var(--wa-color-success-600);
   }
 
   /* Code viewer section */
