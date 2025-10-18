@@ -900,11 +900,8 @@ function getFileIcon(filename: string): string {
         }
       });
 
-      // Handle action icon clicks (copy CID, download)
+      // Handle tree item clicks (expansion and action icons)
       fileTree.addEventListener('click', async (event: any) => {
-        event.stopPropagation();
-        event.preventDefault();
-
         let target = event.target as HTMLElement;
 
         // Find the closest action icon (in case we clicked on SVG or other child)
@@ -912,6 +909,8 @@ function getFileIcon(filename: string): string {
         const downloadIcon = target.closest('.download-icon') as HTMLElement;
 
         if (copyIcon) {
+          event.stopPropagation();
+          event.preventDefault();
           // Find the parent tree item to get the URL
           const treeItem = copyIcon.closest('wa-tree-item') as HTMLElement;
           if (treeItem) {
@@ -967,8 +966,13 @@ function getFileIcon(filename: string): string {
               }
             }
           }
+          event.stopPropagation();
+          event.preventDefault();
         }
-      }, true); // Use capture phase to intercept before tree selection
+        // Note: We don't need custom folder expansion logic here.
+        // WebAwesome tree items handle expansion automatically when clicking the expand arrow.
+        // File selection is handled by the 'wa-selection-change' event listener above.
+      });
     }
 
     // Handle download all files as ZIP
@@ -983,25 +987,25 @@ function getFileIcon(filename: string): string {
         try {
           // Get all file tree items
           const allTreeItems = document.querySelectorAll('wa-tree-item[data-type="file"]');
-          
+
           // Create a limit function with concurrency of 6
           const limit = pLimit(6);
-          
+
           // Create an async generator that yields file inputs
           async function* generateFiles() {
             for (const item of allTreeItems) {
               const url = item.getAttribute('data-url');
               const path = item.getAttribute('data-path');
-              
+
               if (url && path) {
                 const filename = path;
-                
+
                 // Use limit to control concurrent fetches
                 const fileData = await limit(async () => {
                   try {
                     // Fetch the file
                     const response = await fetch(url);
-                    
+
                     return {
                       name: filename,
                       input: response.body!,
@@ -1012,7 +1016,7 @@ function getFileIcon(filename: string): string {
                     return null;
                   }
                 });
-                
+
                 // Only yield if fetch was successful
                 if (fileData) {
                   yield fileData;
@@ -1024,11 +1028,11 @@ function getFileIcon(filename: string): string {
           // Create the ZIP and download it
           const zipBlob = await downloadZip(generateFiles()).blob();
           const zipUrl = URL.createObjectURL(zipBlob);
-          
+
           // Get publication title for filename
           const publicationTitle = document.querySelector('h1')?.textContent?.trim() || 'publication';
           const safeTitle = publicationTitle.replace(/[^a-z0-9]/gi, '_').toLowerCase();
-          
+
           // Trigger download
           const a = document.createElement('a');
           a.href = zipUrl;
@@ -1037,10 +1041,10 @@ function getFileIcon(filename: string): string {
           document.body.appendChild(a);
           a.click();
           document.body.removeChild(a);
-          
+
           // Clean up
           setTimeout(() => URL.revokeObjectURL(zipUrl), 100);
-          
+
           console.log('Downloaded all files as ZIP');
         } catch (err) {
           console.error('Failed to create ZIP:', err);
