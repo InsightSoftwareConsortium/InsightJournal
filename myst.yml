@@ -12,4 +12,16 @@ site:
   options:
     favicon: src/assets/favicon.ico
     logo: src/assets/favicon-32x32.png
-    # articles: [422]  # Optional list of integer article DPIDs
+    articles: [406, 518, 521, 580, 593, 610, 613, 670, 784, 786]
+    #
+    # Top 10 Articles:
+    # DPID-406 (IJ-25): A DICOM-based Software Infrastructure for Data Archiving
+    # DPID-518 (IJ-151): ManagedITK: .NET Wrappers for ITK
+    # DPID-521 (IJ-154): Diffeomorphic Demons Using ITK's Finite Difference Solver Hierarchy
+    # DPID-580 (IJ-230): Live-Wire-ing the Insight Toolkit with Intelligent Scissors
+    # DPID-593 (IJ-301): A Label Geometry Image Filter for Multiple Object Measurement
+    # DPID-610 (IJ-318): Stochastic Fractal Dimension Image
+    # DPID-613 (IJ-321): Microscopy Image Analysis: Blob Segmentation using Geodesic Active Contours
+    # DPID-670 (IJ-617): VV: a viewer for the evaluation of 4D image registration
+    # DPID-784 (IJ-740): Cuberille Implicit Surface Polygonization for ITK
+    # DPID-786 (IJ-742): An ITK Implementation of a Diffusion Tensor Images Resampling Filter
