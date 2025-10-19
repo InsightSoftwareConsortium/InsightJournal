@@ -26,10 +26,12 @@
     "fuse-post-process": "node scripts/fuse-post-process.mjs",
     "build": "pnpm run setup-assets && astro build",
     "preview": "astro preview",
-    "setup-assets": "node scripts/setup-assets.mjs"
+    "setup-assets": "node scripts/setup-assets.mjs",
+    "download-pdfs": "node scripts/download-pdfs.mjs"
   },
   "devDependencies": {
     "@types/node": "^24.3.0",
+    "playwright": "^1.56.1",
     "sharp": "^0.34.3",
     "yaml": "^2.8.1"
   }
