@@ -610,7 +610,7 @@ function getFileIcon(filename: string): string {
 
   import { Niivue, SLICE_TYPE, MULTIPLANAR_TYPE, SHOW_RENDER } from "@niivue/niivue";
   import pLimit from 'p-limit';
-  import { useItkWasmLoaders, createImageLoader } from '@niivue/itkwasm-loader';
+  import { imageExtensions, createImageLoader } from '@niivue/itkwasm-loader';
   import { dicomLoader } from '@niivue/dicom-loader';
   import { downloadZip } from 'client-zip';
 
@@ -701,7 +701,12 @@ function getFileIcon(filename: string): string {
         const canvas = document.getElementById("niivue-canvas") as HTMLCanvasElement;
         if (canvas) {
           await nv.attachToCanvas(canvas);
-          useItkWasmLoaders(nv);
+
+          // Register ITK-Wasm loaders for each supported image extension
+          for (const ext of imageExtensions) {
+            nv.useLoader(createImageLoader(ext), ext, 'nii');
+          }
+
           nv.useDicomLoader({ loader: dicomLoader });
         }
       }
@@ -783,13 +788,49 @@ function getFileIcon(filename: string): string {
       return { buffer: combinedBuffer, name: mhaName };
     };
 
+    // Helper function to detect if VTK file is a volume or mesh
+    const isVtkVolume = async (url: string): Promise<boolean> => {
+      try {
+        const response = await fetch(url, {
+          headers: {
+            'Range': 'bytes=0-383'
+          }
+        });
+        const buffer = await response.arrayBuffer();
+        const text = new TextDecoder('utf-8').decode(buffer);
+        return text.includes('STRUCTURED_POINTS') || text.includes('STRUCTURED_GRID') || text.includes('RECTILINEAR_GRID') || text.includes('IMAGE_DATA');
+      } catch (error) {
+        console.error('Error checking VTK file type:', error);
+        // Default to mesh if we can't determine
+        return false;
+      }
+    };
+
     // Load and display a file
     const loadFile = async (url: string, filename: string) => {
       const ext = filename.toLowerCase();
 
-      // Check if it's a medical image or mesh
-      const medicalExts = ['.nii', '.nii.gz', '.dcm', '.nrrd', '.mha', '.mhd', '.vtk', '.vti', '.aim', '.isq', '.gipl', '.gipl.gz', '.hdf5', '.iwi', '.iwi.cbor', '.iwi.cbor.zst', '.lsm', '.mnc', '.mnc.gz', '.mgh', '.mgz', '.mgh.gz', '.mrc', '.pic', '.fdf', '.stl', '.ply', '.mz3', '.off', '.obj', '.fsa', '.fsb', '.byu', '.swc', '.fz', '.gqi', '.qsdr', '.mih', '.mif', '.src', '.v', '.v16', '.vmr', '.head', '.tract', '.tt', '.trx', '.trk', '.tck', '.annot', '.x3d'];
-      const isMedical = medicalExts.some(e => ext.endsWith(e));
+      // Define mesh extensions (note: .vtk can be either mesh or volume, so we'll check it)
+      const meshExts = ['.stl', '.ply', '.mz3', '.off', '.obj', '.fsa', '.fsb', '.byu', '.x3d', '.gii', '.vtp'];
+      let isMesh = meshExts.some(e => ext.endsWith(e));
+
+      // Define volume/image extensions
+      const volumeExts = ['.nii', '.nii.gz', '.dcm', '.nrrd', '.mha', '.mhd', '.vti', '.aim', '.isq', '.gipl', '.gipl.gz', '.hdf5', '.iwi', '.iwi.cbor', '.iwi.cbor.zst', '.lsm', '.mnc', '.mnc.gz', '.mgh', '.mgz', '.mgh.gz', '.mrc', '.pic', '.fdf', '.swc', '.fz', '.gqi', '.qsdr', '.mih', '.mif', '.v', '.v16', '.vmr', '.head', '.tract', '.tt', '.trx', '.trk', '.tck', '.annot'];
+      let isVolume = volumeExts.some(e => ext.endsWith(e));
+
+      // Special handling for .vtk files - can be either volume or mesh
+      if (ext.endsWith('.vtk')) {
+        const isVtkVol = await isVtkVolume(url);
+        if (isVtkVol) {
+          isVolume = true;
+          isMesh = false;
+        } else {
+          isMesh = true;
+          isVolume = false;
+        }
+      }
+
+      const isMedical = isMesh || isVolume;
 
       // Check if it's a regular image
       const imageExts = ['.png', '.jpg', '.jpeg', '.gif', '.bmp', '.tiff', '.tif'];
@@ -803,49 +844,52 @@ function getFileIcon(filename: string): string {
 
         try {
           if (nv) {
-            // Check if it's a DICOM file - use loadDicoms instead of loadVolumes
-            if (ext.endsWith('.dcm')) {
-              if (nv.volumes.length > 0) {
-                nv.removeVolumeByIndex(0);
-              }
+            // Clear existing volumes/meshes
+            if (nv.volumes.length > 0) {
+              nv.removeVolumeByIndex(0);
+            }
+            while (nv.meshes.length > 0) {
+              nv.removeMesh(nv.meshes[0]);
+            }
+
+            // Load based on file type
+            if (isMesh) {
+              // Load mesh files
+              await nv.loadMeshes([{ url, name: filename }]);
+            } else if (ext.endsWith('.dcm')) {
+              // DICOM files need special handling
               await nv.loadDicoms([{ url, name: filename }]);
-            } else {
-              if (nv.volumes.length > 0) {
-                nv.removeVolumeByIndex(0);
-              }
-
+            } else if (ext.endsWith('.mhd') || ext.endsWith('.raw')) {
               // Check for MHD/RAW companion files and combine them
-              if (ext.endsWith('.mhd') || ext.endsWith('.raw')) {
-                const companionUrl = findCompanionFile(filename, (window as any).fileTreeData);
-                if (companionUrl) {
-                  // Determine which is MHD and which is RAW
-                  const isMhd = ext.endsWith('.mhd');
-                  const mhdUrl = isMhd ? url : companionUrl;
-                  const rawUrl = isMhd ? companionUrl : url;
-                  const baseName = filename.replace(/\.(mhd|raw)$/i, '');
+              const companionUrl = findCompanionFile(filename, (window as any).fileTreeData);
+              if (companionUrl) {
+                // Determine which is MHD and which is RAW
+                const isMhd = ext.endsWith('.mhd');
+                const mhdUrl = isMhd ? url : companionUrl;
+                const rawUrl = isMhd ? companionUrl : url;
+                const baseName = filename.replace(/\.(mhd|raw)$/i, '');
 
-                  // Combine into MHA format
-                  const { buffer, name: mhaName } = await combineMhdRawToMha(mhdUrl, rawUrl, baseName);
+                // Combine into MHA format
+                const { buffer, name: mhaName } = await combineMhdRawToMha(mhdUrl, rawUrl, baseName);
 
-                  // Create Blob and object URL from the combined buffer
-                  const blob = new Blob([buffer], { type: 'application/octet-stream' });
-                  const objectUrl = URL.createObjectURL(blob);
+                // Create Blob and object URL from the combined buffer
+                const blob = new Blob([buffer], { type: 'application/octet-stream' });
+                const objectUrl = URL.createObjectURL(blob);
 
-                  // Load the combined MHA buffer
-                  await nv.loadVolumes([{ url: objectUrl, name: mhaName }]);
+                // Load the combined MHA buffer
+                await nv.loadVolumes([{ url: objectUrl, name: mhaName }]);
 
-                  // Clean up object URL after loading
-                  URL.revokeObjectURL(objectUrl);
-                } else {
-                  // No companion found, try loading as-is
-                  await nv.loadVolumes([{ url, name: filename }]);
-                }
+                // Clean up object URL after loading
+                URL.revokeObjectURL(objectUrl);
               } else {
-                // Regular medical image file
+                // No companion found, try loading as-is
                 await nv.loadVolumes([{ url, name: filename }]);
               }
+            } else {
+              // Regular volume file
+              await nv.loadVolumes([{ url, name: filename }]);
             }
-            // needed?
+
             nv.resizeListener();
             nv.drawScene();
           }
