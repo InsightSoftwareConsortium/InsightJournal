@@ -12,11 +12,13 @@ site:
   options:
     favicon: src/assets/favicon.ico
     logo: src/assets/favicon-32x32.png
-    articles: [786]
+    articles: [406, 885, 481, 925]
     # articles: [406, 518, 521, 580, 593, 610, 613, 670, 784, 786]
     #
     # Top 10 Articles:
-    # DPID-406 (IJ-25): A DICOM-based Software Infrastructure for Data Archiving
+    # DPID-406 (IJ-25): A DICOM-based Software Infrastructure for Data Archiving -- dicom, reviews
+    # DPID-471 (IJ-99): Real-Time Smoke and Bleeding Simulation in Virtual Surgery -- obj meshes
+    # DPID-479 (IJ-107): An Open Source Framework for Surgical Simulation - obj meshes
     # DPID-518 (IJ-151): ManagedITK: .NET Wrappers for ITK
     # DPID-521 (IJ-154): Diffeomorphic Demons Using ITK's Finite Difference Solver Hierarchy
     # DPID-580 (IJ-230): Live-Wire-ing the Insight Toolkit with Intelligent Scissors
@@ -26,3 +28,4 @@ site:
     # DPID-670 (IJ-617): VV: a viewer for the evaluation of 4D image registration
     # DPID-784 (IJ-740): Cuberille Implicit Surface Polygonization for ITK
     # DPID-786 (IJ-742): An ITK Implementation of a Diffusion Tensor Images Resampling Filter
+    # DPID-909 (IJ-871): Statismo - A framework for PCA based statistical models - mesh files
