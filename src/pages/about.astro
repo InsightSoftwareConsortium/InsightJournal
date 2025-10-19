@@ -613,7 +613,6 @@ image = itk.imread('data/img1.png')
   import '@awesome.me/webawesome/dist/components/tab-panel/tab-panel.js';
 
 	import { Niivue } from "@niivue/niivue";
-  import { useItkWasmLoaders } from '@niivue/itkwasm-loader'
 
   // Theme-aware logo switching functionality
   document.addEventListener('DOMContentLoaded', async () => {
@@ -678,23 +677,44 @@ image = itk.imread('data/img1.png')
           // Update URL without triggering page reload
           history.pushState(null, '', `#${tabName}`);
         }
+
+        // Initialize NiiVue visualization when technology tab is shown
+        if (tabName === 'technology') {
+          initializeVisualization();
+        }
       });
     }
 
-    // Example visualization
-    const defaults = {
-      // Match dark mode background
-      backColor: [16.0/255.0, 18.0/255.0, 25.0/255.0, 1.0],
-      // logLevel: 'debug' | 'info' | 'warn' | 'error' | 'fatal' | 'silent'
-      logLevel: 'info',
-    };
-    const nv1 = new Niivue(defaults);
-    const gl1 = document.getElementById("gl1") as HTMLCanvasElement;
-    await nv1.attachToCanvas(gl1);
-  	await nv1.loadVolumes([{ url: "/assets/mri.nii.gz" }]);
-    useItkWasmLoaders(nv1);
-    gl1.height = 800;
-    gl1.width = 800;
+    // Function to initialize the visualization
+    let visualizationInitialized = false;
+    async function initializeVisualization() {
+      if (visualizationInitialized) return;
+
+      const gl1 = document.getElementById("gl1") as HTMLCanvasElement;
+      if (!gl1) return;
+
+      const defaults = {
+        // Match dark mode background
+        backColor: [16.0/255.0, 18.0/255.0, 25.0/255.0, 1.0],
+        // logLevel: 'debug' | 'info' | 'warn' | 'error' | 'fatal' | 'silent'
+        logLevel: 'info' as const,
+      };
+      const nv1 = new Niivue(defaults);
+      await nv1.attachToCanvas(gl1);
+      await nv1.loadVolumes([{ url: "/assets/mri.nii.gz" }]);
+      gl1.height = 800;
+      gl1.width = 800;
+      nv1.resizeListener();
+      nv1.drawScene();
+
+      visualizationInitialized = true;
+    }
+
+    // If technology tab is already selected on page load, initialize immediately
+    const hash = window.location.hash.substring(1);
+    if (hash === 'technology') {
+      initializeVisualization();
+    }
   });
 </script>
 
