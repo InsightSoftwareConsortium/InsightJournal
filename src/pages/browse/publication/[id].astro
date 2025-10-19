@@ -386,6 +386,17 @@ function getFileIcon(filename: string): string {
               )}
             </div>
             <div class="metadata-right">
+              {frontmatter?.github && typeof frontmatter.github === 'string' && (
+                <a
+                  href={frontmatter.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="github-link"
+                  title="View on GitHub"
+                >
+                  <wa-icon library="scienceicons" name="github" class="github-icon"></wa-icon>
+                </a>
+              )}
               <wa-icon library="scienceicons" name="open-access" class="openaccess-icon"></wa-icon>
             </div>
           </div>
@@ -1234,6 +1245,7 @@ function getFileIcon(filename: string): string {
   .metadata-right {
     display: flex;
     align-items: center;
+    gap: var(--wa-space-s);
   }
 
   .article-type {
@@ -1261,6 +1273,22 @@ function getFileIcon(filename: string): string {
   .openaccess-icon {
     font-size: var(--wa-font-size-l);
     color: var(--wa-color-success-600);
+  }
+
+  .github-link {
+    color: var(--wa-color-text-quiet);
+    text-decoration: none;
+    transition: color 0.2s;
+    display: flex;
+    align-items: center;
+  }
+
+  .github-link:hover {
+    color: var(--wa-color-primary-600);
+  }
+
+  .github-icon {
+    font-size: var(--wa-font-size-l);
   }
 
   /* Responsive adjustments for metadata */
@@ -1444,7 +1472,6 @@ function getFileIcon(filename: string): string {
     .frontmatter-background {
       padding: var(--wa-space-m);
     }
-
     .tab-content {
       padding: var(--wa-space-m);
     }
@@ -1485,7 +1512,7 @@ function getFileIcon(filename: string): string {
   /* File Browser Grid Layout */
   .file-browser-grid {
     display: grid;
-    grid-template-columns: 400px 1fr;
+    grid-template-columns: 450px 1fr;
     gap: var(--wa-space-l);
     margin-top: var(--wa-space-l);
   }
