@@ -1,6 +1,8 @@
 ---
 // SPDX-License-Identifier: Apache-2.0
 // SPDX-FileCopyrightText: 2025 NumFOCUS
+
+import SearchDialog from './SearchDialog.astro';
 ---
 
 <!-- Header with Insight Journal branding and navigation -->
@@ -17,6 +19,10 @@
       <wa-icon label="Home" name="house" variant="solid" class="nav-icon brand-text"></wa-icon>
       <span class="brand-text">Home</span>
     </a> -->
+    <button class="nav-link search-trigger" aria-label="Search">
+      <wa-icon label="Search" name="magnifying-glass" variant="solid" class="nav-icon brand-text"></wa-icon>
+      <span class="brand-text">Search</span>
+    </button>
     <a href="/about" class="nav-link">
       <wa-icon label="About" name="circle-info" variant="solid" class="nav-icon brand-text"></wa-icon>
       <span class="brand-text">About</span>
@@ -49,6 +55,9 @@
     </div>
   </div>
 </div>
+
+<!-- Include SearchDialog -->
+<SearchDialog />
 
 <script>
   // Color scheme toggle functionality
@@ -95,6 +104,18 @@
             (window as any).setColorScheme(value);
           }
         });
+      });
+    }
+
+    // Handle search button click
+    const searchTrigger = document.querySelector('.search-trigger');
+    if (searchTrigger) {
+      searchTrigger.addEventListener('click', (e) => {
+        e.preventDefault();
+        // Use the global search open function
+        if ((window as any).__searchOpen) {
+          (window as any).__searchOpen();
+        }
       });
     }
   });
@@ -154,6 +175,11 @@
     display: flex;
     align-items: center;
     gap: var(--wa-space-xs);
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
   }
 
   .nav-link:hover {

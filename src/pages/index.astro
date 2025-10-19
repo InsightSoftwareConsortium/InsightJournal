@@ -3,7 +3,6 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import BasePage from '@awesome-myst/myst-awesome/layouts/BasePage.astro';
-import SearchDialog from '@awesome-myst/myst-awesome/components/SearchDialog.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 
@@ -36,15 +35,13 @@ const featuredArticle = {
   <!-- Navigation with search -->
   <div slot="navigation-header" class="nav-header">
     <div class="nav-logo">
-      <img
-        src="/assets/logo-insight-journal-square-dark.png"
-        alt="Insight Journal logo"
-        class="project-logo theme-aware-logo"
-      />
-    </div>
-    <!-- Desktop search (hidden on mobile) -->
-    <div class="desktop-search-container ij-nav-search">
-      <SearchDialog foldersOption={false} />
+      <a href="/">
+        <img
+          src="/assets/logo-insight-journal-square-dark.png"
+          alt="Insight Journal logo"
+          class="project-logo theme-aware-logo"
+        />
+      </a>
     </div>
   </div>
 
@@ -53,7 +50,7 @@ const featuredArticle = {
     <section class="hero">
       <h1 class="hero-title">The Insight Journal</h1>
       <p class="hero-subtitle">
-        Open, Reproducible Bioimaging Research
+        Open, Reproducible Biomedical Imaging Research
       </p>
       <p class="hero-description">
         We envision a world where scientific research earns and maintains <strong>public trust</strong> through
@@ -64,10 +61,10 @@ const featuredArticle = {
         <a href="/about" class="vision-link">Learn more about our vision →</a>
       </p>
       <div class="hero-actions">
-        <a href="/browse" class="btn btn-primary">
+        <button class="btn btn-primary browse-articles-btn">
           <wa-icon name="book-open" variant="solid"></wa-icon>
           Browse Articles
-        </a>
+        </button>
         <a href="/about#contribute" class="btn btn-secondary">
           <wa-icon name="paper-plane" variant="solid"></wa-icon>
           Submit Research
@@ -156,6 +153,20 @@ const featuredArticle = {
   import '@awesome.me/webawesome/dist/components/icon/icon.js';
   import { Niivue } from "@niivue/niivue";
 
+  import { registerScienceIconsLibrary } from '@awesome-myst/myst-awesome/lib/wa-scienceicons.ts';
+
+  // Register scienceicons library
+  // The library files are in /public/scienceicons/
+  if (typeof window !== 'undefined') {
+    // Register scienceicons library manually
+    customElements.whenDefined('wa-icon').then(() => {
+      const iconRegistry = (window as any).waIconLibraries || {};
+      if (!iconRegistry.scienceicons) {
+        registerScienceIconsLibrary();
+      }
+    });
+  }
+
   // Theme-aware logo switching functionality
   document.addEventListener('DOMContentLoaded', async () => {
     // Theme-aware logo switching
@@ -189,6 +200,18 @@ const featuredArticle = {
       attributes: true,
       attributeFilter: ['class']
     });
+
+    // Handle Browse Articles button click
+    const browseBtn = document.querySelector('.browse-articles-btn');
+    if (browseBtn) {
+      browseBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        // Use the global search open function
+        if ((window as any).__searchOpen) {
+          (window as any).__searchOpen();
+        }
+      });
+    }
 
     // Initialize NiiVue visualization
     const gl1 = document.getElementById("gl1") as HTMLCanvasElement;

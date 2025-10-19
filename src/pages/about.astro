@@ -32,15 +32,17 @@ const lastModified = new Date();
   <!-- Navigation with search -->
   <div slot="navigation-header" class="nav-header">
     <div class="nav-logo">
-      <img
-        src="/assets/logo-insight-journal-square-dark.png"
-        alt="Insight Journal logo"
-        class="project-logo theme-aware-logo"
-      />
+      <a href="/">
+        <img
+          src="/assets/logo-insight-journal-square-dark.png"
+          alt="Insight Journal logo"
+          class="project-logo theme-aware-logo"
+        />
+      </a>
     </div>
     <!-- Desktop search (hidden on mobile) -->
     <div class="desktop-search-container ij-nav-search">
-      <SearchDialog foldersOption={false} />
+      <SearchDialog />
     </div>
   </div>
 
@@ -115,7 +117,7 @@ const lastModified = new Date();
             <li><strong>Contributor Recognition:</strong> All contributors—authors, reviewers, data providers—
                 receive formal credit through <a href="https://orcid.org" target="_blank" rel="noopener noreferrer">ORCID</a> integration and attestations.</li>
             <li><strong>Reputation Systems:</strong> Quality contributions build verifiable reputation,
-                creating incentives aligned with scientific progress that are recognized and rewarded through <a href="https://www.doi.org/the-identifier/what-is-a-doi/" target="_blank" rel="noopener noreferrer">Digital Object Identifiers (DOIs).</li>
+                creating incentives aligned with scientific progress that are recognized and rewarded through <a href="https://www.doi.org/the-identifier/what-is-a-doi/" target="_blank" rel="noopener noreferrer">Digital Object Identifiers (DOIs).</a></li>
             <li><strong>Global Collaboration:</strong> Open participation regardless of institutional
                 affiliation, geography, or career stage. Merit is measured by contribution, not credentials.</li>
             <li><strong>Fairness & Equity:</strong> Equal access to publication and review opportunities,

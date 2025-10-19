@@ -3,7 +3,7 @@
 // SPDX-FileCopyrightText: 2025 NumFOCUS
 
 import BasePage from '@awesome-myst/myst-awesome/layouts/BasePage.astro';
-import SearchDialog from '@awesome-myst/myst-awesome/components/SearchDialog.astro';
+import SearchDialog from '../../../components/SearchDialog.astro';
 import NavigationMenu from '@awesome-myst/myst-awesome/components/NavigationMenu.astro';
 
 import Authors from '../../../components/Authors.astro';
@@ -371,15 +371,13 @@ function getFileIcon(filename: string): string {
   <!-- Navigation with search -->
   <div slot="navigation-header" class="nav-header">
     <div class="nav-logo">
-      <img
-        src="/assets/logo-insight-journal-square-dark.png"
-        alt="Insight Journal logo"
-        class="project-logo theme-aware-logo"
-      />
-    </div>
-    <!-- Desktop search (hidden on mobile) -->
-    <div class="desktop-search-container ij-nav-search">
-      <SearchDialog foldersOption={false} />
+      <a href="/">
+        <img
+          src="/assets/logo-insight-journal-square-dark.png"
+          alt="Insight Journal logo"
+          class="project-logo theme-aware-logo"
+        />
+      </a>
     </div>
 
     <!-- Previous/Next Navigation -->
