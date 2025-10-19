@@ -1,0 +1,562 @@
+---
+// SPDX-FileCopyrightText: 2025 Insight Software Consortium
+// SPDX-License-Identifier: Apache-2.0
+
+import BasePage from '@awesome-myst/myst-awesome/layouts/BasePage.astro';
+import SearchDialog from '@awesome-myst/myst-awesome/components/SearchDialog.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+
+import '../styles/custom.css';
+
+const title = "The Insight Journal - Open, Reproducible Biomedical Imaging";
+const description = "The Insight Journal publishes fully reproducible research in biomedical imaging with open data, code, and interactive visualizations. Built on decentralized science principles.";
+const currentYear = new Date().getFullYear();
+const lastModified = new Date();
+
+// Featured article
+const featuredArticle = {
+  id: "392",
+  title: "Guided Diffusion Tensor Tractography with GTRACT: A Validation Study",
+  thumbnail: "/thumbnails/154.jpg",
+  abstract: "A novel fiber tracking algorithm (GTRACT) was developed to enhance tracking through ambiguous regions where cross fibers, fiber merging or fanning may be occurring.",
+  url: "/browse/publication/392"
+};
+---
+
+<BasePage
+  title={title}
+  description={description}
+  theme="default"
+  colorScheme="auto"
+  mobileBreakpoint="920px"
+>
+  <Header slot="header" />
+
+  <!-- Navigation with search -->
+  <div slot="navigation-header" class="nav-header">
+    <div class="nav-logo">
+      <img
+        src="/assets/logo-insight-journal-square-dark.png"
+        alt="Insight Journal logo"
+        class="project-logo theme-aware-logo"
+      />
+    </div>
+    <!-- Desktop search (hidden on mobile) -->
+    <div class="desktop-search-container ij-nav-search">
+      <SearchDialog foldersOption={false} />
+    </div>
+  </div>
+
+  <main class="home-container">
+    <!-- Hero Section -->
+    <section class="hero">
+      <h1 class="hero-title">The Insight Journal</h1>
+      <p class="hero-subtitle">
+        Open, Reproducible Bioimaging Research
+      </p>
+      <p class="hero-description">
+        We envision a world where scientific research earns and maintains <strong>public trust</strong> through
+        <strong>open</strong>, <strong>transparent</strong>, and <strong>reliable</strong> publishing platforms.
+        The Insight Journal provides a publication venue that embraces full <strong>openness</strong> and
+        <strong>reproducibility</strong> through<br/> <strong>Decentralized Science (DeSci)</strong>.
+        <br/>
+        <a href="/about" class="vision-link">Learn more about our vision →</a>
+      </p>
+      <div class="hero-actions">
+        <a href="/browse" class="btn btn-primary">
+          <wa-icon name="book-open" variant="solid"></wa-icon>
+          Browse Articles
+        </a>
+        <a href="/about#contribute" class="btn btn-secondary">
+          <wa-icon name="paper-plane" variant="solid"></wa-icon>
+          Submit Research
+        </a>
+      </div>
+    </section>
+
+    <!-- 3D Visualization Section -->
+    <section class="visualization">
+      <h2>Interactive Medical Imaging</h2>
+      <p>
+        Explore 3D medical imaging data directly in your browser using
+        <a href="https://niivue.com" target="_blank" rel="noopener noreferrer">NiiVue</a> and
+        <a href="https://wasm.itk.org" target="_blank" rel="noopener noreferrer">ITK-Wasm</a>.
+        No installation required.
+      </p>
+      <div class="viz-container">
+        <canvas id="gl1" height="600" width="600"></canvas>
+      </div>
+      <p class="viz-caption">
+        <small>Visible Human dataset - interactive 3D rendering</small>
+      </p>
+    </section>
+
+    <!-- Featured Article Section -->
+    <section class="featured">
+      <h2>Featured Article</h2>
+      <article class="featured-card">
+        <a href={featuredArticle.url} class="featured-link">
+          {featuredArticle.thumbnail && (
+            <div class="featured-thumbnail">
+              <img
+                src={featuredArticle.thumbnail}
+                alt={`Thumbnail for ${featuredArticle.title}`}
+                loading="lazy"
+              />
+            </div>
+          )}
+          <div class="featured-content">
+            <h3>{featuredArticle.title}</h3>
+            <p>{featuredArticle.abstract}</p>
+            <span class="read-more">Read article →</span>
+          </div>
+        </a>
+      </article>
+    </section>
+
+    <!-- Core Principles -->
+    <section class="principles">
+      <h2>Our Principles</h2>
+      <div class="principles-grid">
+        <a href="/about#manifesto" class="principle-card">
+          <wa-icon name="lock-open" variant="solid" class="principle-icon"></wa-icon>
+          <h3>Open Science</h3>
+          <p>
+            No paywalls, no publication charges. All research is freely available
+            with open data, code, and transparent peer review.
+          </p>
+        </a>
+        <a href="/about#technology" class="principle-card">
+          <wa-icon name="globe" variant="solid" class="principle-icon"></wa-icon>
+          <h3>Decentralized</h3>
+          <p>
+            Built on IPFS and blockchain technology for permanent, verifiable,
+            and tamper-proof research records.
+          </p>
+        </a>
+        <a href="/about#contribute" class="principle-card">
+          <wa-icon name="users" variant="solid" class="principle-icon"></wa-icon>
+          <h3>Community Driven</h3>
+          <p>
+            Recognition and rewards for all contributors—authors, reviewers,
+            and data providers—through ORCID and attestations.
+          </p>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <Footer slot="footer" lastModified={lastModified} />
+</BasePage>
+
+<script>
+  // Import webawesome components
+  import '@awesome.me/webawesome/dist/components/icon/icon.js';
+  import { Niivue } from "@niivue/niivue";
+
+  // Theme-aware logo switching functionality
+  document.addEventListener('DOMContentLoaded', async () => {
+    // Theme-aware logo switching
+    const updateLogoForTheme = () => {
+      const isDark = document.documentElement.classList.contains('wa-dark');
+      const logoElement = document.querySelector('.theme-aware-logo') as HTMLImageElement;
+
+      if (logoElement) {
+        // Update the src attribute based on theme
+        if (isDark) {
+          logoElement.src = '/assets/logo-insight-journal-square-dark.png';
+        } else {
+          logoElement.src = '/assets/logo-insight-journal-square-light.png';
+        }
+      }
+    };
+
+    // Initial logo update
+    updateLogoForTheme();
+
+    // Listen for theme changes
+    const observer = new MutationObserver((mutations) => {
+      mutations.forEach((mutation) => {
+        if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
+          updateLogoForTheme();
+        }
+      });
+    });
+
+    observer.observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ['class']
+    });
+
+    // Initialize NiiVue visualization
+    const gl1 = document.getElementById("gl1") as HTMLCanvasElement;
+    if (gl1) {
+      const defaults = {
+        // Match dark mode background
+        backColor: [16.0/255.0, 18.0/255.0, 25.0/255.0, 1.0],
+        logLevel: 'info' as const,
+      };
+      const nv1 = new Niivue(defaults);
+      await nv1.attachToCanvas(gl1);
+      await nv1.loadVolumes([{ url: "/assets/visiblehuman.nii.gz" }]);
+
+      // Set only rendering mode (no slices)
+      nv1.setSliceType(nv1.sliceTypeRender);
+
+      gl1.height = 600;
+      gl1.width = 600;
+      nv1.resizeListener();
+      nv1.drawScene();
+    }
+  });
+</script>
+
+<style>
+  /* Navigation search */
+  .ij-nav-search {
+    padding: var(--wa-space-m);
+    border-bottom: 1px solid var(--wa-color-surface-border);
+  }
+
+  .nav-search {
+    width: 100%;
+  }
+
+  .project-logo {
+    max-width: 100%;
+    height: auto;
+    border-radius: var(--wa-border-radius-l);
+  }
+
+  .desktop-search-container {
+    display: block;
+    width: 100%;
+  }
+
+  /* Show mobile search and hide desktop search on mobile */
+  @media (max-width: 920px) {
+    .desktop-search-container {
+      display: none;
+    }
+  }
+
+  .nav-logo {
+    margin-bottom: var(--wa-space-m);
+    text-align: center;
+  }
+
+  /* Home Container */
+  .home-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 3rem 1rem 4rem;
+    border-bottom: 1px solid var(--wa-color-surface-border);
+  }
+
+  .hero-title {
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-weight: 700;
+    color: var(--sl-color-text);
+    margin-bottom: 1rem;
+    line-height: 1.1;
+  }
+
+  .hero-subtitle {
+    font-size: clamp(1.25rem, 3vw, 1.75rem);
+    color: var(--sl-color-text-accent);
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+  }
+
+  .hero-description {
+    font-size: 1.125rem;
+    line-height: 1.7;
+    color: var(--sl-color-text);
+    max-width: 800px;
+    margin: 0 auto 2rem;
+  }
+
+  .vision-link {
+    display: inline-block;
+    margin-top: 1rem;
+    color: var(--sl-color-primary);
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .vision-link:hover {
+    text-decoration: underline;
+  }
+
+  .hero-actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: var(--wa-border-radius-m);
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    font-size: 1rem;
+  }
+
+  .btn-primary {
+    background-color: var(--sl-color-primary);
+    color: var(--sl-color-black);
+  }
+
+  .btn-primary:hover {
+    background-color: var(--sl-color-primary-high);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+
+  .btn-secondary {
+    background-color: var(--wa-color-surface);
+    color: var(--sl-color-text);
+    border: 2px solid var(--wa-color-surface-border);
+  }
+
+  .btn-secondary:hover {
+    background-color: var(--wa-color-surface-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+
+  /* Visualization Section */
+  .visualization {
+    padding: 4rem 1rem;
+    text-align: center;
+    border-bottom: 1px solid var(--wa-color-surface-border);
+  }
+
+  .visualization h2 {
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    color: var(--sl-color-text);
+    margin-bottom: 1rem;
+  }
+
+  .visualization p {
+    font-size: 1.125rem;
+    color: var(--sl-color-text);
+    max-width: 700px;
+    margin: 0 auto 2rem;
+    line-height: 1.7;
+  }
+
+  .viz-container {
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: var(--wa-border-radius-l);
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  canvas {
+    width: 100%;
+    height: auto;
+    display: block;
+    outline: none;
+    border: none;
+  }
+
+  .viz-caption {
+    margin-top: 1rem;
+    color: var(--sl-color-text-accent);
+  }
+
+  /* Featured Article Section */
+  .featured {
+    padding: 4rem 1rem;
+    border-bottom: 1px solid var(--wa-color-surface-border);
+  }
+
+  .featured h2 {
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    color: var(--sl-color-text);
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .featured-card {
+    max-width: 900px;
+    margin: 0 auto;
+    background: var(--wa-color-surface);
+    border: 1px solid var(--wa-color-surface-border);
+    border-radius: var(--wa-border-radius-l);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .featured-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  }
+
+  .featured-link {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    gap: 2rem;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .featured-thumbnail {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: var(--wa-color-surface-variant);
+  }
+
+  .featured-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .featured-content {
+    padding: 2rem 2rem 2rem 0;
+  }
+
+  .featured-content h3 {
+    font-size: 1.5rem;
+    color: var(--sl-color-text);
+    margin-bottom: 1rem;
+    line-height: 1.3;
+  }
+
+  .featured-content p {
+    font-size: 1rem;
+    color: var(--sl-color-text);
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+
+  .read-more {
+    color: var(--sl-color-primary);
+    font-weight: 600;
+    display: inline-block;
+  }
+
+  @media (max-width: 768px) {
+    .featured-link {
+      grid-template-columns: 1fr;
+      gap: 0;
+    }
+
+    .featured-thumbnail {
+      height: 200px;
+    }
+
+    .featured-content {
+      padding: 1.5rem;
+    }
+  }
+
+  /* Principles Section */
+  .principles {
+    padding: 4rem 1rem;
+  }
+
+  .principles h2 {
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    color: var(--sl-color-text);
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+
+  .principles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .principle-card {
+    display: block;
+    padding: 2rem;
+    background: var(--wa-color-surface);
+    border: 1px solid var(--wa-color-surface-border);
+    border-radius: var(--wa-border-radius-l);
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .principle-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  }
+
+  .principle-icon {
+    font-size: 3rem;
+    color: var(--sl-color-primary);
+    margin-bottom: 1rem;
+  }
+
+  .principle-card h3 {
+    font-size: 1.5rem;
+    color: var(--sl-color-text);
+    margin-bottom: 1rem;
+  }
+
+  .principle-card p {
+    font-size: 1rem;
+    color: var(--sl-color-text);
+    line-height: 1.6;
+  }
+
+  /* Dark mode adjustments */
+  @media (prefers-color-scheme: dark) {
+    a {
+      color: var(--sl-color-primary-light);
+    }
+
+    .btn-primary {
+      color: var(--sl-color-black);
+    }
+
+    .featured-card,
+    .principle-card {
+      background: rgba(255, 255, 255, 0.03);
+    }
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 920px) {
+    .home-container {
+      padding: 1rem;
+    }
+
+    .hero {
+      padding: 2rem 1rem 3rem;
+    }
+
+    .visualization,
+    .featured,
+    .principles {
+      padding: 3rem 1rem;
+    }
+
+    .principles-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
