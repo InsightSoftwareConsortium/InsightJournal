@@ -652,6 +652,51 @@ function getFileIcon(filename: string): string {
         </wa-tab-panel>
       )}
     </wa-tab-group>
+
+    <!-- Mobile Previous/Next Navigation (shown below tabs on mobile) -->
+    <div class="page-navigation-mobile">
+      {prevPage && (
+        <a href={generatePageUrl(prevPage.id, foldersOption, baseDir)} class="nav-page-link prev-page">
+          <div class="nav-page-thumbnail">
+            {prevPage.data.frontmatter?.thumbnail && prevPage.data.slug ? (
+              <img
+                src={`/thumbnails/${prevPage.data.slug}.jpg`}
+                alt={prevPage.data.frontmatter.title || 'Previous page'}
+              />
+            ) : (
+              <div class="nav-page-placeholder">
+                <wa-icon name="arrow-left"></wa-icon>
+              </div>
+            )}
+          </div>
+          <div class="nav-page-info">
+            <span class="nav-page-label">Previous</span>
+            <span class="nav-page-title">{prevPage.data.frontmatter?.title || prevPage.id}</span>
+          </div>
+        </a>
+      )}
+
+      {nextPage && (
+        <a href={generatePageUrl(nextPage.id, foldersOption, baseDir)} class="nav-page-link next-page">
+          <div class="nav-page-thumbnail">
+            {nextPage.data.frontmatter?.thumbnail && nextPage.data.slug ? (
+              <img
+                src={`/thumbnails/${nextPage.data.slug}.jpg`}
+                alt={nextPage.data.frontmatter.title || 'Next page'}
+              />
+            ) : (
+              <div class="nav-page-placeholder">
+                <wa-icon name="arrow-right"></wa-icon>
+              </div>
+            )}
+          </div>
+          <div class="nav-page-info">
+            <span class="nav-page-label">Next</span>
+            <span class="nav-page-title">{nextPage.data.frontmatter?.title || nextPage.id}</span>
+          </div>
+        </a>
+      )}
+    </div>
   </div>
 
   <!-- Footer -->
@@ -1868,5 +1913,27 @@ function getFileIcon(filename: string): string {
 
   .nav-page-link:hover .nav-page-title {
     color: var(--wa-color-primary-600);
+  }
+
+  /* Mobile navigation: hide sidebar nav, show below tabs */
+  .page-navigation-mobile {
+    display: none;
+  }
+
+  @media (max-width: 920px) {
+    /* Hide navigation in sidebar on mobile */
+    .page-navigation {
+      display: none;
+    }
+
+    /* Show navigation below tabs on mobile */
+    .page-navigation-mobile {
+      display: flex;
+      flex-direction: column;
+      gap: var(--wa-space-m);
+      margin-top: var(--wa-space-l);
+      padding-top: var(--wa-space-l);
+      border-top: 1px solid var(--wa-color-surface-border);
+    }
   }
 </style>
