@@ -706,11 +706,8 @@ function getFileIcon(filename: string): string {
   import '@awesome.me/webawesome/dist/components/tree-item/tree-item.js';
   import '@awesome.me/webawesome/dist/components/badge/badge.js';
 
-  import { Niivue, SLICE_TYPE, MULTIPLANAR_TYPE, SHOW_RENDER } from "@niivue/niivue";
-  import pLimit from 'p-limit';
-  import { createImageLoader } from '@niivue/itkwasm-loader';
-  import { dicomLoader } from '@niivue/dicom-loader';
   import { downloadZip } from 'client-zip';
+  import pLimit from 'p-limit';
 
   // Import highlight.js core and individual languages
   import hljs from 'highlight.js/lib/core';
@@ -775,64 +772,39 @@ function getFileIcon(filename: string): string {
     });
 
     // File browser functionality
-    let nv: Niivue | null = null;
+    let nv: any = null;
     let currentViewerType: 'code' | 'image3d' | 'image2d' | 'none' = 'none';
+    let niivueModule: any = null;
+    let niivueLoaded = false;
+
+    // Dynamically load NiiVue module
+    const loadNiiVueModule = async () => {
+      if (!niivueLoaded) {
+        // Use dynamic path construction to prevent Rollup from trying to resolve at build time
+        const scriptPath = '/scripts/' + 'niivue-loader.js';
+        // @ts-ignore - Module is built at build time and loaded dynamically
+        niivueModule = await import(/* @vite-ignore */ scriptPath);
+        niivueLoaded = true;
+      }
+      return niivueModule;
+    };
 
     // Initialize NiiVue
     const initializeNiiVue = async () => {
       if (!nv) {
-        const isDark = document.documentElement.classList.contains('wa-dark');
-        const defaults = {
-          backColor: isDark ? [16.0/255.0, 18.0/255.0, 25.0/255.0, 1.0] : [1, 1, 1, 1],
-          logLevel: 'info' as const,
-          showLegend: true,
-          showColorbarBorder: false,
-          isColorBar: true,
-          isOrientCube: true,
-          isOrientationTextVisible: false,
-          sliceType: SLICE_TYPE.MULTIPLANAR,
-          multiplanarRender: MULTIPLANAR_TYPE.GRID,
-          multiplanarShowRender: SHOW_RENDER.ALWAYS,
-          heroImageFraction: 0.6,
-        };
-        nv = new Niivue(defaults);
+        console.log('Initializing NiiVue...');
+        const module = await loadNiiVueModule();
+        console.log('Module loaded:', module);
         const canvas = document.getElementById("niivue-canvas") as HTMLCanvasElement;
-        if (canvas) {
-          await nv.attachToCanvas(canvas);
-          /**
-           * Supported image file extensions that ITK-Wasm can read but aren't fully supported by NiiVue
-           */
-          const imageExtensions = [
-            'bmp',
-            'gipl',
-            'gipl.gz',
-            'hdf5',
-            'lsm',
-            'mnc',
-            'mnc.gz',
-            'mnc2',
-            'mgh',
-            'mgz',
-            'mgh.gz',
-            'mha',
-            'mhd',
-            'mrc',
-            'nia',
-            'pic',
-            'tif',
-            'tiff',
-            'isq',
-            'aim',
-            'fdf'
-          ]
-
-          // Register ITK-Wasm loaders for each supported image extension
-          for (const ext of imageExtensions) {
-            nv.useLoader(createImageLoader(ext), ext, 'nii');
-          }
-
-          nv.useDicomLoader({ loader: dicomLoader });
+        console.log('Canvas found:', !!canvas, 'Module has initializeNiiVue:', !!module.initializeNiiVue);
+        if (canvas && module.initializeNiiVue) {
+          nv = await module.initializeNiiVue(canvas);
+          console.log('NiiVue initialized:', !!nv);
+        } else {
+          console.error('Failed to initialize NiiVue:', { canvas: !!canvas, hasInit: !!module.initializeNiiVue });
         }
+      } else {
+        console.log('NiiVue already initialized');
       }
     };
 
@@ -1023,12 +995,25 @@ function getFileIcon(filename: string): string {
                 // Combine into MHA format
                 const { buffer, name: mhaName } = await combineMhdRawToMha(mhdUrl, rawUrl, baseName);
 
-                // Create Blob and object URL from the combined buffer
-                const blob = new Blob([buffer], { type: 'application/octet-stream' });
+                // Create Blob with proper MIME type for MHA
+                const blob = new Blob([buffer], { type: 'application/x-mha' });
                 const objectUrl = URL.createObjectURL(blob);
 
                 // Load the combined MHA buffer
-                await nv.loadVolumes([{ url: objectUrl, name: mhaName }]);
+                console.log('Loading MHA volume:', mhaName, 'from blob URL, size:', buffer.byteLength);
+                try {
+                  // Add a timeout to prevent hanging forever
+                  const loadPromise = nv.loadVolumes([{ url: objectUrl, name: mhaName }]);
+                  const timeoutPromise = new Promise((_, reject) => 
+                    setTimeout(() => reject(new Error('Load timeout after 10s')), 10000)
+                  );
+                  const result = await Promise.race([loadPromise, timeoutPromise]);
+                  console.log('loadVolumes returned:', result);
+                  console.log('Volume loaded, volumes count:', nv.volumes.length);
+                } catch (loadError) {
+                  console.error('Error in loadVolumes:', loadError);
+                  throw loadError;
+                }
 
                 // Clean up object URL after loading
                 URL.revokeObjectURL(objectUrl);
@@ -1057,8 +1042,10 @@ function getFileIcon(filename: string): string {
               await nv.loadVolumes([{ url, name: filename }]);
             }
 
+            console.log('Calling resizeListener and drawScene...');
             nv.resizeListener();
             nv.drawScene();
+            console.log('Draw complete');
           }
         } catch (error) {
           console.error('Error loading medical image:', error);
@@ -1301,6 +1288,11 @@ function getFileIcon(filename: string): string {
         }
 
         if (tabName === 'files') {
+          // Load NiiVue module when files tab is first shown
+          if (!niivueLoaded) {
+            await loadNiiVueModule();
+          }
+
           // Load default file if available
           const defaultFileEl = document.querySelector('.selected-file') as HTMLElement;
           if (defaultFileEl && currentViewerType === 'none') {
