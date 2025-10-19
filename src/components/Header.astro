@@ -5,7 +5,7 @@
 
 <!-- Header with Insight Journal branding and navigation -->
 <div class="ij-header">
-  <div class="ij-branding">
+  <div class="ij-branding brand-text-hide-mobile">
     <a href="/" class="brand-link">
       <wa-icon name="book" variant="solid" class="brand-icon"></wa-icon>
       <span class="brand-text">The Insight Journal</span>
@@ -35,7 +35,7 @@
     </a>
   </nav>
 
-  <div class="header-controls">
+  <div class="header-brand header-controls-hide-mobile">
     <div class="color-scheme-toggle" role="group" aria-label="Color scheme">
       <wa-button class="color-btn" appearance="outlined" size="small" data-value="light" title="Light mode" aria-label="Light mode">
         <wa-icon name="sun" variant="regular" label="Light mode"></wa-icon>
@@ -216,6 +216,13 @@
 
     .header-controls {
       justify-content: center;
+    }
+    .header-controls-hide-mobile {
+      display: none;
+    }
+
+    .brand-text-hide-mobile {
+      display: none;
     }
   }
 
