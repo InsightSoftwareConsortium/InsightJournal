@@ -23,6 +23,7 @@
   },
   "scripts": {
     "dev": "pnpm run setup-assets && astro dev",
+    "fuse-post-process": "node scripts/fuse-post-process.mjs",
     "build": "pnpm run setup-assets && astro build",
     "preview": "astro preview",
     "setup-assets": "node scripts/setup-assets.mjs"
