@@ -102,7 +102,6 @@ const nextPage = currentIndex < allPages.length - 1 ? allPages[currentIndex + 1]
 
 // Process downloads to build file tree structure
 const codeFiles = downloads.filter((d: any) => d.title?.startsWith('root/code/'));
-console.log('Code files:', codeFiles);
 
 // Build hierarchical tree structure from flat file list
 interface TreeNode {
@@ -184,7 +183,9 @@ function formatBytes(bytes: number): string {
 const fileTree = buildFileTree(codeFiles);
 
 // Determine medical imaging file extensions
-const medicalImageExtensions = ['.nii', '.nii.gz', '.dcm', '.nrrd', '.mha', '.mhd', '.vtk', '.vti', '.aim', '.isq', '.gipl', '.gipl.gz', '.hdf5', '.iwi', '.iwi.cbor', '.iwi.cbor.zst', '.lsm', '.mnc', '.mnc.gz', '.mgh', '.mgz', '.mgh.gz', '.mrc', '.pic', '.fdf', '.stl', '.ply', '.mz3', '.off', '.obj', '.fsa', '.fsb', '.byu', '.swc', '.fz', '.gqi', '.qsdr', '.mih', '.mif', '.src', '.v', '.v16', '.vmr', '.head', '.tract', '.tt', '.trx', '.trk', '.tck', '.annot', '.x3d'];
+const meshExtensions = ['.stl', '.ply', '.mz3', '.off', '.obj', '.fsa', '.fsb', '.byu', '.x3d', '.gii', '.vtp'];
+const volumeExtensions = ['.nii', '.nii.gz', '.dcm', '.nrrd', '.mha', '.mhd', '.vtk', '.vti', '.aim', '.isq', '.gipl', '.gipl.gz', '.hdf5', '.iwi', '.iwi.cbor', '.iwi.cbor.zst', '.lsm', '.mnc', '.mnc.gz', '.mgh', '.mgz', '.mgh.gz', '.mrc', '.pic', '.fdf', '.swc', '.fz', '.gqi', '.qsdr', '.mih', '.mif', '.v', '.v16', '.vmr', '.head', '.tract', '.tt', '.trx', '.trk', '.tck', '.annot'];
+const medicalImageExtensions = [...volumeExtensions, ...meshExtensions];
 const imageExtensions = ['.png', '.jpg', '.jpeg', '.gif', '.bmp', '.tiff', '.tif'];
 const codeExtensions = ['.py', '.cxx', '.cpp', '.h', '.hxx', '.txx', '.hpp', '.c', '.js', '.ts', '.java', '.cs', '.md', '.txt', '.cmake', '.json', '.xml', '.yaml', '.yml'];
 
@@ -205,6 +206,16 @@ function isMedicalImage(filename: string): boolean {
   return medicalImageExtensions.some(e => filename.endsWith(e));
 }
 
+function isMeshFile(filename: string): boolean {
+  const ext = getFileExtension(filename);
+  return meshExtensions.some(e => filename.endsWith(e));
+}
+
+function isVolumeFile(filename: string): boolean {
+  const ext = getFileExtension(filename);
+  return volumeExtensions.some(e => filename.endsWith(e));
+}
+
 function isImage(filename: string): boolean {
   const ext = getFileExtension(filename);
   return imageExtensions.includes(ext.toLowerCase());
@@ -219,17 +230,29 @@ function isCodeFile(filename: string): boolean {
 let defaultFile: TreeNode | null = null;
 
 function findDefaultFile(nodes: TreeNode[]): TreeNode | null {
+  // First priority: volume/medical image files
   for (const node of nodes) {
     if (node.type === 'file') {
-      if (isMedicalImage(node.name)) return node;
+      if (isVolumeFile(node.name)) return node;
     }
     if (node.children) {
       const found = findDefaultFile(node.children);
-      if (found && isMedicalImage(found.name)) return found;
+      if (found && isVolumeFile(found.name)) return found;
     }
   }
 
-  // If no medical image, try regular image
+  // Second priority: mesh files
+  for (const node of nodes) {
+    if (node.type === 'file') {
+      if (isMeshFile(node.name)) return node;
+    }
+    if (node.children) {
+      const found = findDefaultFile(node.children);
+      if (found && isMeshFile(found.name)) return found;
+    }
+  }
+
+  // Third priority: regular images
   for (const node of nodes) {
     if (node.type === 'file') {
       if (isImage(node.name)) return node;
