@@ -13,6 +13,7 @@ import Footer from '../../../components/Footer.astro';
 import { getCollection } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
 import { Image } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
 
 import { generatePageUrl } from '@awesome-myst/myst-awesome/lib/generate-page-url.ts';
 
@@ -64,10 +65,13 @@ const abstract = page?.frontmatter?.abstract || '';
 const frontmatter = page?.frontmatter;
 const downloads = page?.downloads || [];
 
+// Get the publication ID from the URL params
+const publicationId = Astro.params.id;
+
 // Check if any PDF file exists in downloads
-const hasPdfFile = downloads.some((d: any) => 
-  d.title && 
-  typeof d.title === 'string' && 
+const hasPdfFile = downloads.some((d: any) =>
+  d.title &&
+  typeof d.title === 'string' &&
   d.title.toLowerCase().endsWith('.pdf')
 );
 
@@ -98,6 +102,7 @@ const nextPage = currentIndex < allPages.length - 1 ? allPages[currentIndex + 1]
 
 // Process downloads to build file tree structure
 const codeFiles = downloads.filter((d: any) => d.title?.startsWith('root/code/'));
+console.log('Code files:', codeFiles);
 
 // Build hierarchical tree structure from flat file list
 interface TreeNode {
@@ -325,6 +330,8 @@ function getFileIcon(filename: string): string {
 }
 ---
 
+{/* Store tree rendering function in template section */}
+
 <!-- Recursive component for rendering file tree nodes -->
 {fileTree.length > 0 && (
   <script is:inline define:vars={{ fileTree, defaultFile }}>
@@ -422,16 +429,17 @@ function getFileIcon(filename: string): string {
       <wa-tab slot="nav" panel="abstract">Abstract</wa-tab>
       <wa-tab-panel name="abstract">
         <div class="tab-content">
-          <h2>Abstract</h2>
-          {frontmatter?.thumbnail && (
+          {frontmatter?.thumbnail && publicationId && (
             <div class="thumbnail-container">
-              <img 
-                src={frontmatter.thumbnail} 
+              <img
+                src={`/thumbnails/${publicationId}.jpg`}
                 alt={title}
+                height="350"
                 class="abstract-thumbnail"
               />
             </div>
           )}
+          <h2>Abstract</h2>
           <p>{abstract}</p>
           {frontmatter?.keywords && (
             <div class="keywords">
@@ -483,114 +491,52 @@ function getFileIcon(filename: string): string {
               <!-- Left side: File Tree -->
               <div class="file-tree-container">
                 <wa-tree class="file-tree" id="file-tree" selection="single">
-                  {fileTree.map((node) => (
-                    <>
-                      {node.type === 'folder' ? (
-                        <wa-tree-item data-path={node.path} data-type="folder">
-                          <wa-icon name="folder" variant="regular"></wa-icon>
-                          {node.name}
-                          {node.children?.map((child) => (
-                            <>
-                              {child.type === 'folder' ? (
-                                <wa-tree-item data-path={child.path} data-type="folder">
-                                  <wa-icon name="folder" variant="regular"></wa-icon>
-                                  {child.name}
-                                  {child.children?.map((grandchild) => (
-                                    <wa-tree-item
-                                      data-path={grandchild.path}
-                                      data-type={grandchild.type}
-                                      data-url={grandchild.url}
-                                      data-cid={grandchild.id}
-                                      class={grandchild.url === defaultFile?.url ? 'selected-file' : ''}
-                                    >
-                                      <wa-icon name={getFileIcon(grandchild.name)} variant="regular"></wa-icon>
-                                      {grandchild.name}
-                                      {grandchild.size && (
-                                        <span slot="end" class="file-actions">
-                                          <span class="file-size">{grandchild.size}</span>
-                                          <wa-icon
-                                            name="copy"
-                                            variant="regular"
-                                            class="action-icon copy-cid-icon"
-                                            data-cid={grandchild.id}
-                                            title="Copy CID"
-                                          ></wa-icon>
-                                          <wa-icon
-                                            name="download"
-                                            class="action-icon download-icon"
-                                            data-url={grandchild.url}
-                                            title="Download file"
-                                          ></wa-icon>
-                                        </span>
-                                      )}
-                                    </wa-tree-item>
-                                  ))}
-                                </wa-tree-item>
-                              ) : (
-                                <wa-tree-item
-                                  data-path={child.path}
-                                  data-type={child.type}
-                                  data-url={child.url}
-                                  data-cid={child.id}
-                                  class={child.url === defaultFile?.url ? 'selected-file' : ''}
-                                >
-                                  <wa-icon name={getFileIcon(child.name)} variant="regular"></wa-icon>
-                                  {child.name}
-                                  {child.size && (
-                                    <span slot="end" class="file-actions">
-                                      <span class="file-size">{child.size}</span>
-                                      <wa-icon
-                                        name="copy"
-                                        variant="regular"
-                                        class="action-icon copy-cid-icon"
-                                        data-cid={child.id}
-                                        title="Copy CID"
-                                      ></wa-icon>
-                                      <wa-icon
-                                        name="download"
-                                        class="action-icon download-icon"
-                                        data-url={child.url}
-                                        title="Download file"
-                                      ></wa-icon>
-                                    </span>
-                                  )}
-                                </wa-tree-item>
-                              )}
-                            </>
-                          ))}
-                        </wa-tree-item>
-                      ) : (
-                        <wa-tree-item
-                          data-path={node.path}
-                          data-type={node.type}
-                          data-url={node.url}
-                          data-cid={node.id}
-                          class={node.url === defaultFile?.url ? 'selected-file' : ''}
-                        >
-                          <wa-icon name={getFileIcon(node.name)} variant="regular"></wa-icon>
-                          {node.name}
-                          {node.size && (
-                            <span slot="end" class="file-actions">
-                              <span class="file-size">{node.size}</span>
-                              <wa-icon
-                                name="copy"
-                                variant="regular"
-                                class="action-icon copy-cid-icon"
-                                data-cid={node.id}
-                                title="Copy CID"
-                              ></wa-icon>
-                              <wa-icon
-                                name="download"
-                                class="action-icon download-icon"
-                                data-url={node.url}
-                                title="Download file"
-                              ></wa-icon>
-                            </span>
-                          )}
-                        </wa-tree-item>
-                      )}
-                    </>
-                  ))}
+                  {fileTree.map((node) => {
+                    // Recursive rendering function defined inline
+                    const renderNode = (n: TreeNode): any => {
+                      if (n.type === 'folder') {
+                        return (
+                          <wa-tree-item data-path={n.path} data-type="folder">
+                            <wa-icon name="folder" variant="regular"></wa-icon>
+                            {n.name}
+                            {n.children?.map((child) => renderNode(child))}
+                          </wa-tree-item>
+                        );
+                      } else {
+                        return (
+                          <wa-tree-item
+                            data-path={n.path}
+                            data-type={n.type}
+                            data-url={n.url}
+                            data-cid={n.id}
+                            class={n.url === defaultFile?.url ? 'selected-file' : ''}
+                          >
+                            <wa-icon name={getFileIcon(n.name)} variant="regular"></wa-icon>
+                            {n.name}
+                            {n.size && (
+                              <span slot="end" class="file-actions">
+                                <span class="file-size">{n.size}</span>
+                                <wa-icon
+                                  name="copy"
+                                  variant="regular"
+                                  class="action-icon copy-cid-icon"
+                                  data-cid={n.id}
+                                  title="Copy CID"
+                                ></wa-icon>
+                                <wa-icon
+                                  name="download"
+                                  class="action-icon download-icon"
+                                  data-url={n.url}
+                                  title="Download file"
+                                ></wa-icon>
+                              </span>
+                            )}
+                          </wa-tree-item>
+                        );
+                      }
+                    };
+                    return renderNode(node);
+                  })}
                 </wa-tree>
               </div>
 
