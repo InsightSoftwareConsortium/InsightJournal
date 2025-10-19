@@ -3,11 +3,9 @@
 
 import {
   createMystCollections,
-  createPagesLoader,
   type MystServerConfig,
   type ProjectConfig,
 } from "@awesome-myst/myst-astro-collections";
-import { pageSchema } from "@awesome-myst/myst-zod";
 import { readFileSync, existsSync, mkdirSync, writeFileSync } from "node:fs";
 import { parse } from "yaml";
 import { resolve, dirname, join, basename } from "node:path";
@@ -19,11 +17,11 @@ type InsightJournalMystConfig = MystServerConfig & {
 
 const server: InsightJournalMystConfig = {
   baseUrl: "https://insight-test.desci.com",
-  timeout: 10000,
+  timeout: 15000,
   // Enable fuse index generation for search
   generateSearchIndex: false,
   includeKeywords: true,
-  pageConcurrency: 8,
+  pageConcurrency: 4,
   generateArchive: false,
   archivePath: resolve(process.cwd(), "archive"),
 };
