@@ -3,8 +3,6 @@
 // SPDX-FileCopyrightText: 2025 NumFOCUS
 
 import BasePage from '@awesome-myst/myst-awesome/layouts/BasePage.astro';
-import SearchDialog from '../../../components/SearchDialog.astro';
-import NavigationMenu from '@awesome-myst/myst-awesome/components/NavigationMenu.astro';
 
 import Authors from '../../../components/Authors.astro';
 import Header from '../../../components/Header.astro';
@@ -12,8 +10,6 @@ import Footer from '../../../components/Footer.astro';
 
 import { getCollection } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
-import { Image } from 'astro:assets';
-import type { ImageMetadata } from 'astro';
 
 function generatePageUrl(id: string): string {
   return `/browse/publication/${id}`;
@@ -175,7 +171,7 @@ const fileTree = buildFileTree(codeFiles);
 
 // Determine medical imaging file extensions
 const meshExtensions = ['.stl', '.ply', '.mz3', '.off', '.obj', '.fsa', '.fsb', '.byu', '.x3d', '.gii', '.vtp'];
-const volumeExtensions = ['.nii', '.nii.gz', '.dcm', '.nrrd', '.mha', '.mhd', '.vtk', '.vti', '.aim', '.isq', '.gipl', '.gipl.gz', '.hdf5', '.iwi', '.iwi.cbor', '.iwi.cbor.zst', '.lsm', '.mnc', '.mnc.gz', '.mgh', '.mgz', '.mgh.gz', '.mrc', '.pic', '.fdf', '.swc', '.fz', '.gqi', '.qsdr', '.mih', '.mif', '.v', '.v16', '.vmr', '.head', '.tract', '.tt', '.trx', '.trk', '.tck', '.annot'];
+const volumeExtensions = ['.nii', '.nii.gz', '.dcm', '.nrrd', '.mha', '.mhd', '.vtk', '.vti', '.aim', '.isq', '.gipl', '.gipl.gz', '.hdf5', '.iwi', '.iwi.cbor', '.iwi.cbor.zst', '.lsm', '.mnc', '.mnc.gz', '.mgh', '.mgz', '.mgh.gz', '.mrc', '.pic', '.fdf', '.swc', '.fz', '.gqi', '.qsdr', '.mih', '.mif', '.v', '.v16', '.vmr', '.head', '.tract', '.tt', '.trx', '.trk', '.tck', '.annot', '.hdr', '.img'];
 const medicalImageExtensions = [...volumeExtensions, ...meshExtensions];
 const imageExtensions = ['.png', '.jpg', '.jpeg', '.gif', '.bmp', '.tiff', '.tif'];
 const codeExtensions = ['.py', '.cxx', '.cpp', '.h', '.hxx', '.txx', '.hpp', '.c', '.js', '.ts', '.java', '.cs', '.md', '.txt', '.cmake', '.json', '.xml', '.yaml', '.yml'];
@@ -712,7 +708,7 @@ function getFileIcon(filename: string): string {
 
   import { Niivue, SLICE_TYPE, MULTIPLANAR_TYPE, SHOW_RENDER } from "@niivue/niivue";
   import pLimit from 'p-limit';
-  import { imageExtensions, createImageLoader } from '@niivue/itkwasm-loader';
+  import { createImageLoader } from '@niivue/itkwasm-loader';
   import { dicomLoader } from '@niivue/dicom-loader';
   import { downloadZip } from 'client-zip';
 
@@ -803,6 +799,32 @@ function getFileIcon(filename: string): string {
         const canvas = document.getElementById("niivue-canvas") as HTMLCanvasElement;
         if (canvas) {
           await nv.attachToCanvas(canvas);
+          /**
+           * Supported image file extensions that ITK-Wasm can read but aren't fully supported by NiiVue
+           */
+          const imageExtensions = [
+            'bmp',
+            'gipl',
+            'gipl.gz',
+            'hdf5',
+            'lsm',
+            'mnc',
+            'mnc.gz',
+            'mnc2',
+            'mgh',
+            'mgz',
+            'mgh.gz',
+            'mha',
+            'mhd',
+            'mrc',
+            'nia',
+            'pic',
+            'tif',
+            'tiff',
+            'isq',
+            'aim',
+            'fdf'
+          ]
 
           // Register ITK-Wasm loaders for each supported image extension
           for (const ext of imageExtensions) {
@@ -831,6 +853,33 @@ function getFileIcon(filename: string): string {
       const baseName = baseNameMatch[1];
       const currentExt = baseNameMatch[2].toLowerCase();
       const companionExt = currentExt === 'mhd' ? 'raw' : 'mhd';
+      const companionFilename = `${baseName}.${companionExt}`;
+
+      // Search recursively in the file tree
+      const searchTree = (nodes: any[]): string | null => {
+        for (const node of nodes) {
+          if (node.type === 'file' && node.name.toLowerCase() === companionFilename.toLowerCase()) {
+            return node.url;
+          }
+          if (node.children) {
+            const found = searchTree(node.children);
+            if (found) return found;
+          }
+        }
+        return null;
+      };
+
+      return searchTree(fileTreeData);
+    };
+
+    // Helper function to find companion file for HDR/IMG pairs
+    const findHdrImgCompanion = (filename: string, fileTreeData: any[]): string | null => {
+      const baseNameMatch = filename.match(/^(.+)\.(hdr|img)$/i);
+      if (!baseNameMatch) return null;
+
+      const baseName = baseNameMatch[1];
+      const currentExt = baseNameMatch[2].toLowerCase();
+      const companionExt = currentExt === 'hdr' ? 'img' : 'hdr';
       const companionFilename = `${baseName}.${companionExt}`;
 
       // Search recursively in the file tree
@@ -917,7 +966,7 @@ function getFileIcon(filename: string): string {
       let isMesh = meshExts.some(e => ext.endsWith(e));
 
       // Define volume/image extensions
-      const volumeExts = ['.nii', '.nii.gz', '.dcm', '.nrrd', '.mha', '.mhd', '.vti', '.aim', '.isq', '.gipl', '.gipl.gz', '.hdf5', '.iwi', '.iwi.cbor', '.iwi.cbor.zst', '.lsm', '.mnc', '.mnc.gz', '.mgh', '.mgz', '.mgh.gz', '.mrc', '.pic', '.fdf', '.swc', '.fz', '.gqi', '.qsdr', '.mih', '.mif', '.v', '.v16', '.vmr', '.head', '.tract', '.tt', '.trx', '.trk', '.tck', '.annot'];
+      const volumeExts = ['.nii', '.nii.gz', '.dcm', '.nrrd', '.mha', '.mhd', '.vti', '.aim', '.isq', '.gipl', '.gipl.gz', '.hdf5', '.iwi', '.iwi.cbor', '.iwi.cbor.zst', '.lsm', '.mnc', '.mnc.gz', '.mgh', '.mgz', '.mgh.gz', '.mrc', '.pic', '.fdf', '.swc', '.fz', '.gqi', '.qsdr', '.mih', '.mif', '.v', '.v16', '.vmr', '.head', '.tract', '.tt', '.trx', '.trk', '.tck', '.annot', '.hdr', '.img'];
       let isVolume = volumeExts.some(e => ext.endsWith(e));
 
       // Special handling for .vtk files - can be either volume or mesh
@@ -983,6 +1032,22 @@ function getFileIcon(filename: string): string {
 
                 // Clean up object URL after loading
                 URL.revokeObjectURL(objectUrl);
+              } else {
+                // No companion found, try loading as-is
+                await nv.loadVolumes([{ url, name: filename }]);
+              }
+            } else if (ext.endsWith('.hdr') || ext.endsWith('.img')) {
+              // Check for HDR/IMG companion files
+              const companionUrl = findHdrImgCompanion(filename, (window as any).fileTreeData);
+              if (companionUrl) {
+                // Determine which is HDR and which is IMG
+                const isHdr = ext.endsWith('.hdr');
+                const hdrUrl = isHdr ? url : companionUrl;
+                const imgUrl = isHdr ? companionUrl : url;
+                const baseName = filename.replace(/\.(hdr|img)$/i, '');
+
+                // Load with NiiVue using url (hdr) and urlImgData (img)
+                await nv.loadVolumes([{ url: hdrUrl, urlImgData: imgUrl, name: `${baseName}.hdr` }]);
               } else {
                 // No companion found, try loading as-is
                 await nv.loadVolumes([{ url, name: filename }]);
