@@ -23,16 +23,12 @@
   },
   "scripts": {
     "dev": "pnpm run setup-assets && astro dev",
-    "build": "pnpm run setup-assets && pnpm run build:niivue && astro build",
-    "build:niivue": "pnpm run build:niivue:regular && pnpm run build:niivue:min",
-    "build:niivue:regular": "esbuild src/scripts/niivue-loader.js --bundle --format=esm --outfile=public/scripts/niivue-loader.js",
-    "build:niivue:min": "esbuild src/scripts/niivue-loader.js --bundle --format=esm --minify --outfile=public/scripts/niivue-loader.min.js",
+    "build": "pnpm run setup-assets && astro build",
     "preview": "astro preview",
     "setup-assets": "node scripts/setup-assets.mjs"
   },
   "devDependencies": {
     "@types/node": "^24.3.0",
-    "esbuild": "^0.25.11",
     "sharp": "^0.34.3",
     "yaml": "^2.8.1"
   }
