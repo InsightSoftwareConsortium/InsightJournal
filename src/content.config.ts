@@ -422,9 +422,26 @@ const createFilteredPagesLoader = (
 
         // Download article.pdf to public/pdfs/${insightJournalId}.pdf
         if (pageData.downloads && Array.isArray(pageData.downloads)) {
-          const articlePdfDownload = pageData.downloads.find(
+          // First try to find root/article.pdf
+          let articlePdfDownload = pageData.downloads.find(
             (download: any) => download.title === "root/article.pdf"
           );
+
+          // If not found, look for the first file ending with .pdf
+          if (!articlePdfDownload) {
+            articlePdfDownload = pageData.downloads.find(
+              (download: any) =>
+                download.title &&
+                typeof download.title === "string" &&
+                download.title.toLowerCase().endsWith(".pdf")
+            );
+
+            if (articlePdfDownload) {
+              console.log(
+                `ℹ root/article.pdf not found, using fallback: ${articlePdfDownload.title}`
+              );
+            }
+          }
 
           if (articlePdfDownload && articlePdfDownload.url) {
             try {
@@ -466,7 +483,7 @@ const createFilteredPagesLoader = (
             }
           } else {
             console.warn(
-              `✗ No download with title "root/article.pdf" found for article ${insightJournalId}`
+              `✗ No PDF file found in downloads for article ${insightJournalId}`
             );
           }
 

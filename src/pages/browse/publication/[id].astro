@@ -64,6 +64,13 @@ const abstract = page?.frontmatter?.abstract || '';
 const frontmatter = page?.frontmatter;
 const downloads = page?.downloads || [];
 
+// Check if any PDF file exists in downloads
+const hasPdfFile = downloads.some((d: any) => 
+  d.title && 
+  typeof d.title === 'string' && 
+  d.title.toLowerCase().endsWith('.pdf')
+);
+
 const foldersOption = false;
 const baseDir = "/";
 const showToc = typeof page.mdast.children !== "undefined";
@@ -430,8 +437,9 @@ function getFileIcon(filename: string): string {
         </div>
       </wa-tab-panel>
 
-      <!-- Manuscript Tab -->
-      <wa-tab slot="nav" panel="manuscript">Manuscript</wa-tab>
+      <!-- Manuscript Tab (only show if PDF exists) -->
+      {hasPdfFile && <wa-tab slot="nav" panel="manuscript">Manuscript</wa-tab>}
+      {hasPdfFile && (
       <wa-tab-panel name="manuscript">
         <div class="tab-content">
           <div class="pdf-viewer">
@@ -445,6 +453,7 @@ function getFileIcon(filename: string): string {
           </div>
         </div>
       </wa-tab-panel>
+      )}
 
       <!-- Source Code and Data Tab -->
       <wa-tab slot="nav" panel="files">Source Code and Data</wa-tab>
