@@ -423,6 +423,15 @@ function getFileIcon(filename: string): string {
       <wa-tab-panel name="abstract">
         <div class="tab-content">
           <h2>Abstract</h2>
+          {frontmatter?.thumbnail && (
+            <div class="thumbnail-container">
+              <img 
+                src={frontmatter.thumbnail} 
+                alt={title}
+                class="abstract-thumbnail"
+              />
+            </div>
+          )}
           <p>{abstract}</p>
           {frontmatter?.keywords && (
             <div class="keywords">
@@ -1102,7 +1111,7 @@ function getFileIcon(filename: string): string {
           // Trigger download
           const a = document.createElement('a');
           a.href = zipUrl;
-          a.download = `${safeTitle}_source_code.zip`;
+          a.download = `${safeTitle}_source_code_and_data.zip`;
           a.style.display = 'none';
           document.body.appendChild(a);
           a.click();
@@ -1387,6 +1396,20 @@ function getFileIcon(filename: string): string {
 
   .download-all-button wa-icon {
     font-size: var(--wa-font-size-l);
+  }
+
+  /* Thumbnail in abstract */
+  .thumbnail-container {
+    margin-bottom: var(--wa-space-l);
+    text-align: center;
+  }
+
+  .abstract-thumbnail {
+    max-width: 100%;
+    height: auto;
+    border-radius: var(--wa-border-radius-m);
+    box-shadow: var(--wa-shadow-m);
+    border: 1px solid var(--wa-color-surface-border);
   }
 
   /* Keywords section */
