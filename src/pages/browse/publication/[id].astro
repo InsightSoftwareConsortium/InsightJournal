@@ -702,7 +702,7 @@ function getFileIcon(filename: string): string {
         if (canvas) {
           await nv.attachToCanvas(canvas);
           useItkWasmLoaders(nv);
-          nv.useDicomLoader(dicomLoader);
+          nv.useDicomLoader({ loader: dicomLoader });
         }
       }
     };
