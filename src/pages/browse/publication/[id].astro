@@ -56,7 +56,7 @@ const { page } = Astro.props as PageProps;
 
 const allPages = await getCollection('pages');
 
-console.log('page', page)
+// console.log('page', page)
 
 const title = page?.frontmatter?.title || 'Publication';
 const abstract = page?.frontmatter?.abstract || '';
@@ -285,19 +285,13 @@ function replaceEmailsWithIcons(html: string): string {
 const reviewsFile = downloads.find((d: any) => d.title === 'root/reviews.md');
 let reviewsContent = '';
 
-console.log('Checking for reviews file...', reviewsFile);
-console.log('All downloads:', downloads.map((d: any) => d.title));
-
 if (reviewsFile?.url) {
   try {
-    console.log('Fetching reviews from:', reviewsFile.url);
     const response = await fetch(reviewsFile.url);
     const reviewsMarkdown = await response.text();
-    console.log('Reviews markdown length:', reviewsMarkdown.length);
     let renderedContent = await mystParseAndRender(reviewsMarkdown);
     // Replace emails with icon links
     reviewsContent = replaceEmailsWithIcons(renderedContent);
-    console.log('Rendered reviews content length:', reviewsContent.length);
   } catch (error) {
     console.error('Error fetching or parsing reviews:', error);
   }
