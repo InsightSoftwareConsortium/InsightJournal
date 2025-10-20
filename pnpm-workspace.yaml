@@ -2,4 +2,6 @@ onlyBuiltDependencies:
   - cbor-extract
   - esbuild
   - protobufjs
+ignoreBuiltDependencies:
   - sharp
+
