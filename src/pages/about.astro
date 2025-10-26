@@ -13,6 +13,7 @@ import { Image } from 'astro:assets';
 import { Code } from 'astro:components';
 import galileoPortrait from '../assets/GalileoPortraitBySustermans.jpg';
 import merkleTrees from '../assets/Merkle.png';
+import useThisTemplate from '../assets/use-this-template.png';
 
 const title = "About - The Insight Journal";
 const description = "Learn about the Insight Journal's mission, technology, and how to contribute to open, reproducible medical image analysis research.";
@@ -456,6 +457,9 @@ image = itk.imread('data/img1.png')
             <li>Guidelines for including code, data, and visualizations</li>
             <li>Cross-platform continuous integration testing with GitHub Actions</li>
           </ul>
+          <a href="https://github.com/InsightSoftwareConsortium/InsightJournalTemplate" target="_blank" rel="noopener noreferrer">
+            <Image src={useThisTemplate} alt="Use this template screenshot" />
+          </a>
           <p>
             To create a new article repository, click the <i>"Use this template"</i> button on the GitHub page.
             This will create a new repository in your GitHub account that you can clone and edit locally.
