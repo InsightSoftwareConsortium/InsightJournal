@@ -221,7 +221,7 @@ const featuredArticle = {
       };
       const nv1 = new Niivue(defaults);
       await nv1.attachToCanvas(gl1);
-      await nv1.loadVolumes([{ url: "/assets/visiblehuman.nii.gz" }]);
+      await nv1.loadVolumes([{ url: "/assets/visiblehuman-small.nii.gz" }]);
 
       // Set only rendering mode (no slices)
       nv1.setSliceType(nv1.sliceTypeRender);
