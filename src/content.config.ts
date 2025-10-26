@@ -118,14 +118,7 @@ async function generateArticleArchive(
           `  Downloading thumbnail from ${pageData.frontmatter.thumbnail}`
         );
 
-        const controller = new AbortController();
-        const timeoutId = setTimeout(() => controller.abort(), 30000);
-
-        const response = await fetch(pageData.frontmatter.thumbnail, {
-          signal: controller.signal,
-        });
-
-        clearTimeout(timeoutId);
+        const response = await fetchWithRetry(pageData.frontmatter.thumbnail);
 
         if (response.ok) {
           const buffer = await response.arrayBuffer();
@@ -158,14 +151,7 @@ async function generateArticleArchive(
               `  Downloading ${download.filename} from ${download.url}`
             );
 
-            const controller = new AbortController();
-            const timeoutId = setTimeout(() => controller.abort(), 30000);
-
-            const response = await fetch(download.url, {
-              signal: controller.signal,
-            });
-
-            clearTimeout(timeoutId);
+            const response = await fetchWithRetry(download.url);
 
             if (response.ok) {
               const buffer = await response.arrayBuffer();
@@ -262,6 +248,50 @@ function getArticlesFromConfig(
 }
 
 /**
+ * Fetch with retry logic
+ */
+async function fetchWithRetry(
+  url: string,
+  options: RequestInit = {},
+  maxRetries: number = 3,
+  timeout: number = 60000
+): Promise<Response> {
+  let lastError: Error | null = null;
+
+  for (let attempt = 1; attempt <= maxRetries; attempt++) {
+    try {
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), timeout);
+
+      const response = await fetch(url, {
+        ...options,
+        signal: controller.signal,
+      });
+
+      clearTimeout(timeoutId);
+      return response;
+    } catch (error) {
+      lastError = error as Error;
+      console.warn(
+        `Fetch attempt ${attempt}/${maxRetries} failed for ${url}:`,
+        error
+      );
+
+      if (attempt < maxRetries) {
+        const delay = Math.min(1000 * Math.pow(2, attempt - 1), 5000);
+        console.log(`Retrying in ${delay}ms...`);
+        await new Promise((resolve) => setTimeout(resolve, delay));
+      }
+    }
+  }
+
+  throw (
+    lastError ||
+    new Error(`Failed to fetch ${url} after ${maxRetries} attempts`)
+  );
+}
+
+/**
  * Fetch all article IDs from myst.xref.json
  */
 async function getAllArticles(baseUrl: string): Promise<number[]> {
@@ -269,14 +299,7 @@ async function getAllArticles(baseUrl: string): Promise<number[]> {
     const xrefUrl = `${baseUrl}/myst.xref.json`;
     console.log(`Fetching all articles from ${xrefUrl}`);
 
-    const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 10000);
-
-    const response = await fetch(xrefUrl, {
-      signal: controller.signal,
-    });
-
-    clearTimeout(timeoutId);
+    const response = await fetchWithRetry(xrefUrl);
 
     if (!response.ok) {
       console.warn(`Failed to fetch myst.xref.json: ${response.status}`);
@@ -346,17 +369,9 @@ const createFilteredPagesLoader = (
           `Fetching article ${articleId} from https://dev-beta.dpid.org/${articleId}?format=myst`
         );
 
-        const controller = new AbortController();
-        const timeoutId = setTimeout(() => controller.abort(), 10000);
-
-        const response = await fetch(
-          `https://dev-beta.dpid.org/${articleId}?format=myst`,
-          {
-            signal: controller.signal,
-          }
+        const response = await fetchWithRetry(
+          `https://dev-beta.dpid.org/${articleId}?format=myst`
         );
-
-        clearTimeout(timeoutId);
 
         if (!response.ok) {
           console.warn(
@@ -447,17 +462,7 @@ const createFilteredPagesLoader = (
                 `Downloading article.pdf for ${insightJournalId} from ${articlePdfDownload.url}`
               );
 
-              const pdfController = new AbortController();
-              const pdfTimeoutId = setTimeout(
-                () => pdfController.abort(),
-                30000
-              );
-
-              const pdfResponse = await fetch(articlePdfDownload.url, {
-                signal: pdfController.signal,
-              });
-
-              clearTimeout(pdfTimeoutId);
+              const pdfResponse = await fetchWithRetry(articlePdfDownload.url);
 
               if (pdfResponse.ok) {
                 const pdfBuffer = await pdfResponse.arrayBuffer();
@@ -497,17 +502,9 @@ const createFilteredPagesLoader = (
                 `Fetching insight-journal-metadata.json for ${insightJournalId} from ${metadataDownload.url}`
               );
 
-              const metadataController = new AbortController();
-              const metadataTimeoutId = setTimeout(
-                () => metadataController.abort(),
-                10000
+              const metadataResponse = await fetchWithRetry(
+                metadataDownload.url
               );
-
-              const metadataResponse = await fetch(metadataDownload.url, {
-                signal: metadataController.signal,
-              });
-
-              clearTimeout(metadataTimeoutId);
 
               if (metadataResponse.ok) {
                 const metadataJson = await metadataResponse.json();
@@ -582,20 +579,9 @@ const createFilteredPagesLoader = (
                 `Downloading thumbnail for ${insightJournalId} from ${pageData.frontmatter.thumbnail}`
               );
 
-              const thumbnailController = new AbortController();
-              const thumbnailTimeoutId = setTimeout(
-                () => thumbnailController.abort(),
-                30000
+              const thumbnailResponse = await fetchWithRetry(
+                pageData.frontmatter.thumbnail
               );
-
-              const thumbnailResponse = await fetch(
-                pageData.frontmatter.thumbnail,
-                {
-                  signal: thumbnailController.signal,
-                }
-              );
-
-              clearTimeout(thumbnailTimeoutId);
 
               if (thumbnailResponse.ok) {
                 const thumbnailBuffer = await thumbnailResponse.arrayBuffer();
