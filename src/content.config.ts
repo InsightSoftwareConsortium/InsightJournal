@@ -512,38 +512,6 @@ const createFilteredPagesLoader = (
                   `✓ Fetched insight-journal-metadata.json for ${insightJournalId}`
                 );
 
-                // Merge tags into keywords
-                if (metadataJson.tags && Array.isArray(metadataJson.tags)) {
-                  // Initialize keywords array if it doesn't exist
-                  if (!pageData.frontmatter) {
-                    pageData.frontmatter = {};
-                  }
-                  if (!Array.isArray(pageData.frontmatter.keywords)) {
-                    pageData.frontmatter.keywords = [];
-                  }
-
-                  // Add tags to keywords if not already present
-                  const existingKeywords = new Set(
-                    pageData.frontmatter.keywords.map((k: string) =>
-                      k.toLowerCase()
-                    )
-                  );
-
-                  for (const tag of metadataJson.tags) {
-                    if (
-                      typeof tag === "string" &&
-                      !existingKeywords.has(tag.toLowerCase())
-                    ) {
-                      pageData.frontmatter.keywords.push(tag);
-                      existingKeywords.add(tag.toLowerCase());
-                    }
-                  }
-
-                  console.log(
-                    `✓ Added ${metadataJson.tags.length} tags to keywords (now ${pageData.frontmatter.keywords.length} total)`
-                  );
-                }
-
                 // Set github property from source_code_git_repo if it contains "github.com"
                 if (
                   metadataJson.source_code_git_repo &&
