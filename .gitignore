@@ -22,5 +22,9 @@ npm-debug.log*
 # Archive directory for article downloads and metadata
 /archive
 
+# Cache directory for prefetched article data
+# Run `pnpm run prefetch` to populate
+/cache
+
 .astro/
 .playwright-mcp
