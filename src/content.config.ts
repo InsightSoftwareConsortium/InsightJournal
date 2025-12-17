@@ -6,13 +6,15 @@ import {
   type MystServerConfig,
   type ProjectConfig,
 } from "@awesome-myst/myst-astro-collections";
-import { readFileSync, existsSync, mkdirSync, writeFileSync } from "node:fs";
+import { readFileSync, existsSync, mkdirSync, writeFileSync, readdirSync } from "node:fs";
 import { parse } from "yaml";
 import { resolve, dirname, join, basename } from "node:path";
 
 type InsightJournalMystConfig = MystServerConfig & {
   generateArchive?: boolean;
   archivePath?: string; // Path to save the generated archive
+  useCache?: boolean; // Use local cache instead of network fetches
+  cachePath?: string; // Path to the cache directory
 };
 
 const server: InsightJournalMystConfig = {
@@ -24,6 +26,9 @@ const server: InsightJournalMystConfig = {
   pageConcurrency: 4,
   generateArchive: false,
   archivePath: resolve(process.cwd(), "archive"),
+  // Cache settings - read from local cache first
+  useCache: true,
+  cachePath: resolve(process.cwd(), "cache"),
 };
 
 const project: ProjectConfig = {
@@ -339,16 +344,142 @@ const baseCollections = createMystCollections({
   project,
 });
 
+/**
+ * Load article from local cache
+ */
+function loadArticleFromCache(
+  articleId: number,
+  cachePath: string
+): any | null {
+  const mystCachePath = join(cachePath, "myst", `${articleId}.json`);
+
+  if (existsSync(mystCachePath)) {
+    try {
+      const content = readFileSync(mystCachePath, "utf-8");
+      const pageData = JSON.parse(content);
+      console.log(`✓ Loaded article ${articleId} from cache`);
+      return pageData;
+    } catch (error) {
+      console.warn(`Failed to read cache for article ${articleId}:`, error);
+      return null;
+    }
+  }
+
+  return null;
+}
+
+/**
+ * Get list of cached article IDs from the cache directory
+ */
+function getCachedArticleIds(cachePath: string): number[] {
+  const mystCacheDir = join(cachePath, "myst");
+
+  if (!existsSync(mystCacheDir)) {
+    return [];
+  }
+
+  try {
+    const files = readdirSync(mystCacheDir);
+    const articleIds: number[] = [];
+
+    for (const file of files) {
+      const match = file.match(/^(\d+)\.json$/);
+      if (match) {
+        const id = parseInt(match[1], 10);
+        if (!isNaN(id)) {
+          articleIds.push(id);
+        }
+      }
+    }
+
+    return articleIds.sort((a, b) => a - b);
+  } catch (error) {
+    console.warn("Failed to read cache directory:", error);
+    return [];
+  }
+}
+
+/**
+ * Copy cached assets to public directory
+ */
+function copyCachedAssets(
+  insightJournalId: number,
+  cachePath: string,
+  publicDir: string
+): void {
+  // Copy PDF
+  const cachedPdfPath = join(cachePath, "pdfs", `${insightJournalId}.pdf`);
+  if (existsSync(cachedPdfPath)) {
+    const pdfsDir = join(publicDir, "pdfs");
+    if (!existsSync(pdfsDir)) {
+      mkdirSync(pdfsDir, { recursive: true });
+    }
+    const destPdfPath = join(pdfsDir, `${insightJournalId}.pdf`);
+    const pdfBuffer = readFileSync(cachedPdfPath);
+    writeFileSync(destPdfPath, pdfBuffer);
+    console.log(`  ✓ Copied PDF from cache`);
+  }
+
+  // Copy thumbnail
+  const cachedThumbnailPath = join(
+    cachePath,
+    "thumbnails",
+    `${insightJournalId}.jpg`
+  );
+  if (existsSync(cachedThumbnailPath)) {
+    const thumbnailsDir = join(publicDir, "thumbnails");
+    if (!existsSync(thumbnailsDir)) {
+      mkdirSync(thumbnailsDir, { recursive: true });
+    }
+    const destThumbnailPath = join(thumbnailsDir, `${insightJournalId}.jpg`);
+    const thumbnailBuffer = readFileSync(cachedThumbnailPath);
+    writeFileSync(destThumbnailPath, thumbnailBuffer);
+    console.log(`  ✓ Copied thumbnail from cache`);
+  }
+
+  // Copy downloads JSON
+  const cachedDownloadsPath = join(
+    cachePath,
+    "downloads",
+    `${insightJournalId}.json`
+  );
+  if (existsSync(cachedDownloadsPath)) {
+    const downloadsDir = join(publicDir, "downloads");
+    if (!existsSync(downloadsDir)) {
+      mkdirSync(downloadsDir, { recursive: true });
+    }
+    const destDownloadsPath = join(downloadsDir, `${insightJournalId}.json`);
+    const downloadsContent = readFileSync(cachedDownloadsPath, "utf-8");
+    writeFileSync(destDownloadsPath, downloadsContent, "utf-8");
+    console.log(`  ✓ Copied downloads list from cache`);
+  }
+}
+
 // Custom pages loader that supports article filtering
 const createFilteredPagesLoader = (
   serverConfig: InsightJournalMystConfig = {},
   projectConfig: ProjectConfig = {}
 ) => {
   return async () => {
+    const useCache = serverConfig.useCache ?? true;
+    const cachePath =
+      serverConfig.cachePath || resolve(process.cwd(), "cache");
+
     let articles = getArticlesFromConfig(projectConfig);
 
+    // If using cache, prefer cached article list
+    if (useCache && (!articles || articles.length === 0)) {
+      const cachedArticles = getCachedArticleIds(cachePath);
+      if (cachedArticles.length > 0) {
+        console.log(
+          `Found ${cachedArticles.length} cached articles, using cache`
+        );
+        articles = cachedArticles;
+      }
+    }
+
     if (!articles || articles.length === 0) {
-      console.log("No articles in myst.yml, fetching all from myst.xref.json");
+      console.log("No articles in myst.yml or cache, fetching from myst.xref.json");
       const baseUrl = serverConfig.baseUrl || "https://insight-test.desci.com";
       articles = await getAllArticles(baseUrl);
 
@@ -359,29 +490,38 @@ const createFilteredPagesLoader = (
     }
 
     console.log(
-      `Loading ${articles.length} specific articles from DPID endpoint:`,
-      articles
+      `Loading ${articles.length} articles (cache: ${useCache ? "enabled" : "disabled"})`
     );
 
     const articlePromises = articles.map(async (articleId: number) => {
       try {
-        console.log(
-          `Fetching article ${articleId} from https://dev-beta.dpid.org/${articleId}?format=myst`
-        );
+        let pageData: any = null;
 
-        const response = await fetchWithRetry(
-          `https://dev-beta.dpid.org/${articleId}?format=myst`
-        );
-
-        if (!response.ok) {
-          console.warn(
-            `Failed to fetch article ${articleId}: ${response.status}`
-          );
-          return null;
+        // Try to load from cache first
+        if (useCache) {
+          pageData = loadArticleFromCache(articleId, cachePath);
         }
 
-        const pageData = await response.json();
-        console.log(`Successfully fetched article ${articleId}`);
+        // Fall back to network fetch if not in cache
+        if (!pageData) {
+          console.log(
+            `Fetching article ${articleId} from https://dev-beta.dpid.org/${articleId}?format=myst`
+          );
+
+          const response = await fetchWithRetry(
+            `https://dev-beta.dpid.org/${articleId}?format=myst`
+          );
+
+          if (!response.ok) {
+            console.warn(
+              `Failed to fetch article ${articleId}: ${response.status}`
+            );
+            return null;
+          }
+
+          pageData = await response.json();
+          console.log(`Successfully fetched article ${articleId} from network`);
+        }
 
         // Todo: fix upstream
         // pageData.references = {
@@ -433,8 +573,21 @@ const createFilteredPagesLoader = (
 
         const publicDir = resolve(process.cwd(), "public");
 
-        // Download article.pdf to public/pdfs/${insightJournalId}.pdf
-        if (pageData.downloads && Array.isArray(pageData.downloads)) {
+        // Try to copy assets from cache first
+        let assetsCopiedFromCache = false;
+        if (useCache) {
+          const cachedPdfPath = join(cachePath, "pdfs", `${insightJournalId}.pdf`);
+          const cachedThumbnailPath = join(cachePath, "thumbnails", `${insightJournalId}.jpg`);
+          const cachedDownloadsPath = join(cachePath, "downloads", `${insightJournalId}.json`);
+
+          if (existsSync(cachedPdfPath) || existsSync(cachedThumbnailPath) || existsSync(cachedDownloadsPath)) {
+            copyCachedAssets(insightJournalId, cachePath, publicDir);
+            assetsCopiedFromCache = true;
+          }
+        }
+
+        // Download assets from network if not cached
+        if (!assetsCopiedFromCache && pageData.downloads && Array.isArray(pageData.downloads)) {
           // First try to find root/article.pdf
           let articlePdfDownload = pageData.downloads.find(
             (download: any) => download.title === "root/article.pdf"
@@ -491,52 +644,55 @@ const createFilteredPagesLoader = (
           }
 
           // Fetch insight-journal-metadata.json and merge tags into keywords
-          const metadataDownload = pageData.downloads.find(
-            (download: any) =>
-              download.title === "root/insight-journal-metadata.json"
-          );
+          // (only if GitHub not already set from cache)
+          if (!pageData.frontmatter?.github) {
+            const metadataDownload = pageData.downloads.find(
+              (download: any) =>
+                download.title === "root/insight-journal-metadata.json"
+            );
 
-          if (metadataDownload && metadataDownload.url) {
-            try {
-              console.log(
-                `Fetching insight-journal-metadata.json for ${insightJournalId} from ${metadataDownload.url}`
-              );
-
-              const metadataResponse = await fetchWithRetry(
-                metadataDownload.url
-              );
-
-              if (metadataResponse.ok) {
-                const metadataJson = await metadataResponse.json();
+            if (metadataDownload && metadataDownload.url) {
+              try {
                 console.log(
-                  `✓ Fetched insight-journal-metadata.json for ${insightJournalId}`
+                  `Fetching insight-journal-metadata.json for ${insightJournalId} from ${metadataDownload.url}`
                 );
 
-                // Set github property from source_code_git_repo if it contains "github.com"
-                if (
-                  metadataJson.source_code_git_repo &&
-                  typeof metadataJson.source_code_git_repo === "string" &&
-                  metadataJson.source_code_git_repo.includes("github.com")
-                ) {
-                  if (!pageData.frontmatter) {
-                    pageData.frontmatter = {};
-                  }
-                  pageData.frontmatter.github =
-                    metadataJson.source_code_git_repo;
+                const metadataResponse = await fetchWithRetry(
+                  metadataDownload.url
+                );
+
+                if (metadataResponse.ok) {
+                  const metadataJson = await metadataResponse.json();
                   console.log(
-                    `✓ Set github property to: ${metadataJson.source_code_git_repo}`
+                    `✓ Fetched insight-journal-metadata.json for ${insightJournalId}`
+                  );
+
+                  // Set github property from source_code_git_repo if it contains "github.com"
+                  if (
+                    metadataJson.source_code_git_repo &&
+                    typeof metadataJson.source_code_git_repo === "string" &&
+                    metadataJson.source_code_git_repo.includes("github.com")
+                  ) {
+                    if (!pageData.frontmatter) {
+                      pageData.frontmatter = {};
+                    }
+                    pageData.frontmatter.github =
+                      metadataJson.source_code_git_repo;
+                    console.log(
+                      `✓ Set github property to: ${metadataJson.source_code_git_repo}`
+                    );
+                  }
+                } else {
+                  console.warn(
+                    `✗ Failed to fetch insight-journal-metadata.json: ${metadataResponse.status}`
                   );
                 }
-              } else {
+              } catch (error) {
                 console.warn(
-                  `✗ Failed to fetch insight-journal-metadata.json: ${metadataResponse.status}`
+                  `✗ Error fetching insight-journal-metadata.json:`,
+                  error
                 );
               }
-            } catch (error) {
-              console.warn(
-                `✗ Error fetching insight-journal-metadata.json:`,
-                error
-              );
             }
           }
 

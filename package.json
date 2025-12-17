@@ -5,6 +5,11 @@
   "private": true,
   "author": "Fideus Labs LLC",
   "license": "Apache-2.0",
+  "pnpm": {
+    "overrides": {
+      "katex": "^0.16.27"
+    }
+  },
   "dependencies": {
     "@awesome-myst/myst-astro-collections": "^2.0.2",
     "@awesome-myst/myst-awesome": "^0.0.6",
@@ -25,9 +30,13 @@
     "dev": "pnpm run setup-assets && astro dev",
     "fuse-post-process": "node scripts/fuse-post-process.mjs",
     "build": "pnpm run setup-assets && astro build",
+    "build:full": "pnpm run prefetch && pnpm run build",
     "preview": "astro preview",
     "setup-assets": "node scripts/setup-assets.mjs",
-    "download-pdfs": "node scripts/download-pdfs.mjs"
+    "download-pdfs": "node scripts/download-pdfs.mjs",
+    "prefetch": "node scripts/prefetch-articles.mjs",
+    "prefetch:force": "node scripts/prefetch-articles.mjs --force",
+    "prefetch:verbose": "node scripts/prefetch-articles.mjs --verbose"
   },
   "devDependencies": {
     "@types/node": "^24.3.0",
