@@ -14,7 +14,7 @@ The unique characteristics of the Insight Journal include:
 
 ### Prerequisites
 
-- Node.js 20+
+- Node.js 22+
 - pnpm
 
 ### Installation
