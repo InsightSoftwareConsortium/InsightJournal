@@ -8,7 +8,13 @@
   "pnpm": {
     "overrides": {
       "katex": "^0.16.27"
-    }
+    },
+    "onlyBuiltDependencies": [
+      "cbor-extract",
+      "esbuild",
+      "protobufjs",
+      "sharp"
+    ]
   },
   "dependencies": {
     "@awesome-myst/myst-astro-collections": "^2.0.2",
