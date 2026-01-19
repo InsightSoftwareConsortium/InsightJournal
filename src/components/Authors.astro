@@ -18,21 +18,70 @@ interface Props {
 
 const { authors, affiliations } = Astro.props;
 
-// Helper function to get author name as string
+// Helper function to capitalize the first letter of a name part
+function capitalizeNamePart(namePart: string): string {
+  if (!namePart || namePart.length === 0) return namePart;
+
+  // If the part is all lower or all upper, normalize to "Titlecase"
+  const isAllLower = namePart === namePart.toLowerCase();
+  const isAllUpper = namePart === namePart.toUpperCase();
+  if (isAllLower || isAllUpper) {
+    return namePart.charAt(0).toUpperCase() + namePart.slice(1).toLowerCase();
+  }
+
+  // Otherwise, assume the existing capitalization is intentional
+  return namePart;
+}
+
+// Helper function to format and capitalize an author name
+// Handles "Last, First" format by converting to "First Last"
+function formatAuthorName(name: string): string {
+  if (!name || name.length === 0) return name;
+  
+  // Check if name is in "Last, First" format (contains comma)
+  if (name.includes(',')) {
+    const parts = name.split(',').map(p => p.trim());
+    if (parts.length === 2) {
+      // Reverse to "First Last" format
+      const firstName = parts[1];
+      const lastName = parts[0];
+      const formattedFirst = firstName
+        .split(/\s+/)
+        .map(p => capitalizeNamePart(p))
+        .join(' ');
+      const formattedLast = lastName
+        .split(/\s+/)
+        .map(p => capitalizeNamePart(p))
+        .join(' ');
+      return `${formattedFirst} ${formattedLast}`;
+    }
+  }
+  
+  // Otherwise, just capitalize each word part
+  return name
+    .split(/\s+/)
+    .map(part => capitalizeNamePart(part))
+    .join(' ');
+}
+
+// Helper function to get author name as string with proper formatting and capitalization
 function getAuthorName(author: Contributor): string {
   if (!author.name) return 'Unknown Author';
 
   if (typeof author.name === 'object' && typeof author.name.given === 'string' && typeof author.name.family === 'string') {
     const parts: string[] = [];
-    if (author.name.given) parts.push(author.name.given);
-    if (author.name.family) parts.push(author.name.family);
+    // Capitalize each name part properly
+    if (author.name.given) parts.push(capitalizeNamePart(author.name.given));
+    if (author.name.family) parts.push(capitalizeNamePart(author.name.family));
     if (parts.length > 0) return parts.join(' ');
   }
-  // If name is a string, return it directly
-  if (typeof author.name === 'string') return author.name;
-  // If name is an object, use the literal property
+  // If name is a string, format and capitalize it
+  if (typeof author.name === 'string') {
+    return formatAuthorName(author.name);
+  }
+  // If name is an object, use the literal property and format
   if (typeof author.name === 'object' && author.name.literal) {
-    return author.name.literal;
+    return formatAuthorName(author.name.literal);
   }
   return 'Unknown Author';
 }
