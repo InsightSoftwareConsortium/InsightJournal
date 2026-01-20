@@ -72,7 +72,8 @@ function createCacheLoader(
 const cachePath = resolve(process.cwd(), "cache");
 
 const server: InsightJournalMystConfig = {
-  baseUrl: "https://insight-test.desci.com",
+  //baseUrl: "https://insight-test.desci.com",
+  baseUrl: "https://insight-myst.desci1337.workers.dev",
   timeout: 15000,
   // Enable fuse index generation for search
   generateSearchIndex: true,
