@@ -21,16 +21,68 @@ type CacheMapping = {
   lastUpdated: string;
 };
 
+/**
+ * Create a cache loader function for fuse.json generation.
+ * This implements InsightJournal-specific logic for mapping DPID identifiers
+ * to Insight Journal IDs and loading from the local cache.
+ * 
+ * @param cachePath - Path to the cache directory
+ * @returns Async function that loads page data from cache by identifier
+ */
+function createCacheLoader(
+  cachePath: string
+): (identifier: string) => Promise<any | null> {
+  // Load mapping once at startup
+  const mappingPath = join(cachePath, "myst", "mapping.json");
+  let mapping: CacheMapping | null = null;
+
+  if (existsSync(mappingPath)) {
+    try {
+      const content = readFileSync(mappingPath, "utf-8");
+      mapping = JSON.parse(content) as CacheMapping;
+    } catch {
+      mapping = null;
+    }
+  }
+
+  // Return the async loader function
+  return async (identifier: string): Promise<any | null> => {
+    if (!mapping) return null;
+
+    // Extract DPID number from identifier (e.g., "dpid-390" -> "390")
+    const match = identifier.match(/^dpid-(\d+)$/);
+    if (!match || !match[1]) return null;
+
+    const dpid = match[1];
+    const insightJournalId = mapping.dpidToInsightJournal[dpid];
+    if (!insightJournalId) return null;
+
+    const cacheFilePath = join(cachePath, "myst", `${insightJournalId}.json`);
+    if (!existsSync(cacheFilePath)) return null;
+
+    try {
+      const content = readFileSync(cacheFilePath, "utf-8");
+      return JSON.parse(content);
+    } catch {
+      return null;
+    }
+  };
+}
+
+const cachePath = resolve(process.cwd(), "cache");
+
 const server: InsightJournalMystConfig = {
   baseUrl: "https://insight-test.desci.com",
   timeout: 15000,
   // Enable fuse index generation for search
-  generateSearchIndex: false,
+  generateSearchIndex: true,
   includeKeywords: true,
   pageConcurrency: 4,
-  // Cache settings - read from local cache first
+  // Cache settings for custom pages loader
   useCache: true,
-  cachePath: resolve(process.cwd(), "cache"),
+  cachePath: cachePath,
+  // Cache loader for fuse.json generation (uses same cache)
+  cacheLoader: createCacheLoader(cachePath),
 };
 
 const project: ProjectConfig = {
