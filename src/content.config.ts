@@ -11,24 +11,79 @@ import { parse } from "yaml";
 import { resolve, dirname, join, basename } from "node:path";
 
 type InsightJournalMystConfig = MystServerConfig & {
-  generateArchive?: boolean;
-  archivePath?: string; // Path to save the generated archive
   useCache?: boolean; // Use local cache instead of network fetches
   cachePath?: string; // Path to the cache directory
 };
 
+type CacheMapping = {
+  dpidToInsightJournal: Record<string, number>;
+  insightJournalToDpid: Record<string, number>;
+  lastUpdated: string;
+};
+
+/**
+ * Create a cache loader function for fuse.json generation.
+ * This implements InsightJournal-specific logic for mapping DPID identifiers
+ * to Insight Journal IDs and loading from the local cache.
+ * 
+ * @param cachePath - Path to the cache directory
+ * @returns Async function that loads page data from cache by identifier
+ */
+function createCacheLoader(
+  cachePath: string
+): (identifier: string) => Promise<any | null> {
+  // Load mapping once at startup
+  const mappingPath = join(cachePath, "myst", "mapping.json");
+  let mapping: CacheMapping | null = null;
+
+  if (existsSync(mappingPath)) {
+    try {
+      const content = readFileSync(mappingPath, "utf-8");
+      mapping = JSON.parse(content) as CacheMapping;
+    } catch {
+      mapping = null;
+    }
+  }
+
+  // Return the async loader function
+  return async (identifier: string): Promise<any | null> => {
+    if (!mapping) return null;
+
+    // Extract DPID number from identifier (e.g., "dpid-390" -> "390")
+    const match = identifier.match(/^dpid-(\d+)$/);
+    if (!match || !match[1]) return null;
+
+    const dpid = match[1];
+    const insightJournalId = mapping.dpidToInsightJournal[dpid];
+    if (!insightJournalId) return null;
+
+    const cacheFilePath = join(cachePath, "myst", `${insightJournalId}.json`);
+    if (!existsSync(cacheFilePath)) return null;
+
+    try {
+      const content = readFileSync(cacheFilePath, "utf-8");
+      return JSON.parse(content);
+    } catch {
+      return null;
+    }
+  };
+}
+
+const cachePath = resolve(process.cwd(), "cache");
+
 const server: InsightJournalMystConfig = {
-  baseUrl: "https://insight-test.desci.com",
+  //baseUrl: "https://insight-test.desci.com",
+  baseUrl: "https://insight-myst.desci1337.workers.dev",
   timeout: 15000,
   // Enable fuse index generation for search
-  generateSearchIndex: false,
+  generateSearchIndex: true,
   includeKeywords: true,
   pageConcurrency: 4,
-  generateArchive: false,
-  archivePath: resolve(process.cwd(), "archive"),
-  // Cache settings - read from local cache first
+  // Cache settings for custom pages loader
   useCache: true,
-  cachePath: resolve(process.cwd(), "cache"),
+  cachePath: cachePath,
+  // Cache loader for fuse.json generation (uses same cache)
+  cacheLoader: createCacheLoader(cachePath),
 };
 
 const project: ProjectConfig = {
@@ -37,190 +92,68 @@ const project: ProjectConfig = {
 };
 
 /**
- * Extract all CIDs from a string (URL or text)
- * Supports both /ipfs/<cid> and /ipns/<cid> patterns
+ * Load cache mapping from cache/myst/mapping.json
  */
-function extractCIDsFromString(text: string): string[] {
-  const cidPattern = /\/(ipfs|ipns)\/([a-zA-Z0-9]+)/g;
-  const cids: string[] = [];
-  let match;
+function loadCacheMapping(cachePath: string): CacheMapping | null {
+  const mappingPath = join(cachePath, "myst", "mapping.json");
 
-  while ((match = cidPattern.exec(text)) !== null) {
-    cids.push(match[2]);
+  if (!existsSync(mappingPath)) {
+    return null;
   }
-
-  return cids;
-}
-
-/**
- * Recursively extract all CIDs from an object
- */
-function extractAllCIDs(obj: any, visited = new Set()): string[] {
-  if (obj === null || obj === undefined) {
-    return [];
-  }
-
-  // Prevent infinite recursion
-  if (typeof obj === "object" && visited.has(obj)) {
-    return [];
-  }
-
-  if (typeof obj === "object") {
-    visited.add(obj);
-  }
-
-  const cids: string[] = [];
-
-  if (typeof obj === "string") {
-    cids.push(...extractCIDsFromString(obj));
-  } else if (Array.isArray(obj)) {
-    for (const item of obj) {
-      cids.push(...extractAllCIDs(item, visited));
-    }
-  } else if (typeof obj === "object") {
-    for (const value of Object.values(obj)) {
-      cids.push(...extractAllCIDs(value, visited));
-    }
-  }
-
-  return cids;
-}
-
-/**
- * Generate archive for an article
- * 1. Saves pageData to archive/myst/${articleId}.json
- * 2. Downloads all files from downloads[] to archive/downloads/${articleId}/${filename}
- * 3. Downloads thumbnail to archive/thumbnails/${articleId}.jpg if present
- * 4. Extracts and saves all CIDs to archive/pins/${articleId}.json
- */
-async function generateArticleArchive(
-  articleId: number,
-  pageData: any,
-  archiveBasePath: string
-): Promise<void> {
-  console.log(`Generating archive for article ${articleId}...`);
 
   try {
-    // 1. Save pageData to archive/myst/${articleId}.json
-    const mystDir = join(archiveBasePath, "myst");
-    if (!existsSync(mystDir)) {
-      mkdirSync(mystDir, { recursive: true });
-    }
-
-    const mystPath = join(mystDir, `${articleId}.json`);
-    writeFileSync(mystPath, JSON.stringify(pageData, null, 2), "utf-8");
-    console.log(`✓ Saved pageData to ${mystPath}`);
-
-    // 2. Download thumbnail if present
-    if (pageData.frontmatter?.thumbnail) {
-      const thumbnailsDir = join(archiveBasePath, "thumbnails");
-      if (!existsSync(thumbnailsDir)) {
-        mkdirSync(thumbnailsDir, { recursive: true });
-      }
-
-      try {
-        console.log(
-          `  Downloading thumbnail from ${pageData.frontmatter.thumbnail}`
-        );
-
-        const response = await fetchWithRetry(pageData.frontmatter.thumbnail);
-
-        if (response.ok) {
-          const buffer = await response.arrayBuffer();
-          const thumbnailPath = join(thumbnailsDir, `${articleId}.jpg`);
-          writeFileSync(thumbnailPath, Buffer.from(buffer));
-          console.log(`  ✓ Downloaded thumbnail (${buffer.byteLength} bytes)`);
-        } else {
-          console.warn(`  ✗ Failed to download thumbnail: ${response.status}`);
-        }
-      } catch (error) {
-        console.warn(`  ✗ Error downloading thumbnail:`, error);
-      }
-    }
-
-    // 3. Download all files from downloads
-    if (pageData.downloads && Array.isArray(pageData.downloads)) {
-      const downloadsDir = join(
-        archiveBasePath,
-        "downloads",
-        articleId.toString()
-      );
-      if (!existsSync(downloadsDir)) {
-        mkdirSync(downloadsDir, { recursive: true });
-      }
-
-      for (const download of pageData.downloads) {
-        if (download.url && download.filename) {
-          try {
-            console.log(
-              `  Downloading ${download.filename} from ${download.url}`
-            );
-
-            const response = await fetchWithRetry(download.url);
-
-            if (response.ok) {
-              const buffer = await response.arrayBuffer();
-              const filePath = join(downloadsDir, download.filename);
-              writeFileSync(filePath, Buffer.from(buffer));
-              console.log(
-                `  ✓ Downloaded ${download.filename} (${buffer.byteLength} bytes)`
-              );
-            } else {
-              console.warn(
-                `  ✗ Failed to download ${download.filename}: ${response.status}`
-              );
-            }
-          } catch (error) {
-            console.warn(`  ✗ Error downloading ${download.filename}:`, error);
-          }
-        }
-      }
-    }
-
-    // 4. Extract all CIDs and save to archive/pins/${articleId}.json
-    const allCIDs = extractAllCIDs(pageData);
-
-    // Explicitly include revision_cids if present
-    if (
-      pageData.frontmatter?.revision_cids &&
-      Array.isArray(pageData.frontmatter.revision_cids)
-    ) {
-      allCIDs.push(...pageData.frontmatter.revision_cids);
-      console.log(
-        `  Found ${pageData.frontmatter.revision_cids.length} revision CIDs`
-      );
-    }
-
-    // Extract CIDs from thumbnail URL if present
-    if (pageData.frontmatter?.thumbnail) {
-      const thumbnailCIDs = extractCIDsFromString(
-        pageData.frontmatter.thumbnail
-      );
-      if (thumbnailCIDs.length > 0) {
-        allCIDs.push(...thumbnailCIDs);
-        console.log(`  Found ${thumbnailCIDs.length} CID(s) in thumbnail URL`);
-      }
-    }
-
-    const uniqueCIDs = Array.from(new Set(allCIDs));
-
-    const pinsDir = join(archiveBasePath, "pins");
-    if (!existsSync(pinsDir)) {
-      mkdirSync(pinsDir, { recursive: true });
-    }
-
-    const pinsPath = join(pinsDir, `${articleId}.json`);
-    writeFileSync(pinsPath, JSON.stringify(uniqueCIDs, null, 2), "utf-8");
-    console.log(`✓ Saved ${uniqueCIDs.length} unique CIDs to ${pinsPath}`);
-
-    console.log(`✓ Archive generation complete for article ${articleId}`);
+    const content = readFileSync(mappingPath, "utf-8");
+    const mapping = JSON.parse(content) as CacheMapping;
+    return mapping;
   } catch (error) {
-    console.error(
-      `✗ Failed to generate archive for article ${articleId}:`,
-      error
-    );
+    console.warn(`Failed to read cache mapping from ${mappingPath}:`, error);
+    return null;
+  }
+}
+
+/**
+ * Save cache mapping to cache/myst/mapping.json
+ */
+function saveCacheMapping(cachePath: string, mapping: CacheMapping): void {
+  const mystCacheDir = join(cachePath, "myst");
+  if (!existsSync(mystCacheDir)) {
+    mkdirSync(mystCacheDir, { recursive: true });
+  }
+
+  const mappingPath = join(mystCacheDir, "mapping.json");
+  mapping.lastUpdated = new Date().toISOString();
+
+  try {
+    writeFileSync(mappingPath, JSON.stringify(mapping, null, 2), "utf-8");
+  } catch (error) {
+    console.error(`Failed to save cache mapping to ${mappingPath}:`, error);
     throw error;
   }
+}
+
+/**
+ * Update cache mapping with a new DPID <-> Insight Journal ID pair
+ */
+function updateCacheMapping(
+  cachePath: string,
+  dpid: number,
+  insightJournalId: number
+): void {
+  let mapping = loadCacheMapping(cachePath);
+
+  if (!mapping) {
+    mapping = {
+      dpidToInsightJournal: {},
+      insightJournalToDpid: {},
+      lastUpdated: "",
+    };
+  }
+
+  // Update bidirectional mapping
+  mapping.dpidToInsightJournal[dpid.toString()] = insightJournalId;
+  mapping.insightJournalToDpid[insightJournalId.toString()] = dpid;
+
+  saveCacheMapping(cachePath, mapping);
 }
 
 // Simple function to read articles from myst.yml
@@ -345,19 +278,29 @@ const baseCollections = createMystCollections({
 });
 
 /**
- * Load article from local cache
+ * Load article from local cache using mapping to find Insight Journal ID
  */
 function loadArticleFromCache(
   articleId: number,
   cachePath: string
 ): any | null {
-  const mystCachePath = join(cachePath, "myst", `${articleId}.json`);
+  const mapping = loadCacheMapping(cachePath);
+
+  // Need mapping to find the correct file
+  if (!mapping || !mapping.dpidToInsightJournal[articleId.toString()]) {
+    return null;
+  }
+
+  const insightJournalId = mapping.dpidToInsightJournal[articleId.toString()];
+  const mystCachePath = join(cachePath, "myst", `${insightJournalId}.json`);
 
   if (existsSync(mystCachePath)) {
     try {
       const content = readFileSync(mystCachePath, "utf-8");
       const pageData = JSON.parse(content);
-      console.log(`✓ Loaded article ${articleId} from cache`);
+      console.log(
+        `✓ Loaded article ${articleId} (IJ-${insightJournalId}) from cache`
+      );
       return pageData;
     } catch (error) {
       console.warn(`Failed to read cache for article ${articleId}:`, error);
@@ -369,32 +312,24 @@ function loadArticleFromCache(
 }
 
 /**
- * Get list of cached article IDs from the cache directory
+ * Get list of cached article IDs (DPIDs) from the mapping file
  */
 function getCachedArticleIds(cachePath: string): number[] {
-  const mystCacheDir = join(cachePath, "myst");
+  const mapping = loadCacheMapping(cachePath);
 
-  if (!existsSync(mystCacheDir)) {
+  if (!mapping) {
     return [];
   }
 
   try {
-    const files = readdirSync(mystCacheDir);
-    const articleIds: number[] = [];
+    const dpids = Object.keys(mapping.dpidToInsightJournal)
+      .map((dpid) => parseInt(dpid, 10))
+      .filter((id) => !isNaN(id))
+      .sort((a, b) => a - b);
 
-    for (const file of files) {
-      const match = file.match(/^(\d+)\.json$/);
-      if (match) {
-        const id = parseInt(match[1], 10);
-        if (!isNaN(id)) {
-          articleIds.push(id);
-        }
-      }
-    }
-
-    return articleIds.sort((a, b) => a - b);
+    return dpids;
   } catch (error) {
-    console.warn("Failed to read cache directory:", error);
+    console.warn("Failed to read cached article IDs from mapping:", error);
     return [];
   }
 }
@@ -521,6 +456,34 @@ const createFilteredPagesLoader = (
 
           pageData = await response.json();
           console.log(`Successfully fetched article ${articleId} from network`);
+
+          // Validate that external_publication_id exists before caching
+          const insightJournalId = pageData.frontmatter?.external_publication_id;
+          if (!insightJournalId) {
+            console.error(
+              `✗ Article ${articleId} is missing external_publication_id in frontmatter`
+            );
+            throw new Error(
+              `Article ${articleId} is missing external_publication_id in frontmatter. Build cannot continue.`
+            );
+          }
+
+          // Write to cache using Insight Journal ID
+          const mystCacheDir = join(cachePath, "myst");
+          if (!existsSync(mystCacheDir)) {
+            mkdirSync(mystCacheDir, { recursive: true });
+          }
+
+          const cacheFilePath = join(mystCacheDir, `${insightJournalId}.json`);
+          writeFileSync(
+            cacheFilePath,
+            JSON.stringify(pageData, null, 2),
+            "utf-8"
+          );
+          console.log(`✓ Cached article to ${cacheFilePath}`);
+
+          // Update mapping
+          updateCacheMapping(cachePath, articleId, insightJournalId);
         }
 
         // Todo: fix upstream
@@ -533,21 +496,6 @@ const createFilteredPagesLoader = (
 
         // console.log("pageData", pageData);
 
-        // Generate archive if enabled
-        const archivePath =
-          serverConfig.archivePath || resolve(process.cwd(), "archive");
-        if (serverConfig.generateArchive && archivePath) {
-          try {
-            await generateArticleArchive(articleId, pageData, archivePath);
-          } catch (error) {
-            console.error(
-              `Failed to generate archive for article ${articleId}:`,
-              error
-            );
-            // Continue even if archive generation fails
-          }
-        }
-
         const insightJournalId = pageData.frontmatter?.external_publication_id;
         if (insightJournalId) {
           console.log(
@@ -558,7 +506,9 @@ const createFilteredPagesLoader = (
             `✗ Article ${articleId} is missing external_publication_id in frontmatter`
           );
           // fail
-          return null;
+          throw new Error(
+            `Article ${articleId} is missing external_publication_id in frontmatter. Build cannot continue.`
+          );
         }
 
         // Create a synthetic reference object for consistency
@@ -619,16 +569,31 @@ const createFilteredPagesLoader = (
 
               if (pdfResponse.ok) {
                 const pdfBuffer = await pdfResponse.arrayBuffer();
+                const buffer = Buffer.from(pdfBuffer);
+
+                // Write to public directory
                 const pdfsDir = join(publicDir, "pdfs");
                 if (!existsSync(pdfsDir)) {
                   mkdirSync(pdfsDir, { recursive: true });
                 }
-
                 const pdfPath = join(pdfsDir, `${insightJournalId}.pdf`);
-                writeFileSync(pdfPath, Buffer.from(pdfBuffer));
+                writeFileSync(pdfPath, buffer);
+
+                // Write to cache directory
+                const cachedPdfsDir = join(cachePath, "pdfs");
+                if (!existsSync(cachedPdfsDir)) {
+                  mkdirSync(cachedPdfsDir, { recursive: true });
+                }
+                const cachedPdfPath = join(
+                  cachedPdfsDir,
+                  `${insightJournalId}.pdf`
+                );
+                writeFileSync(cachedPdfPath, buffer);
+
                 console.log(
                   `✓ Downloaded article.pdf to ${pdfPath} (${pdfBuffer.byteLength} bytes)`
                 );
+                console.log(`✓ Cached PDF to ${cachedPdfPath}`);
               } else {
                 console.warn(
                   `✗ Failed to download article.pdf: ${pdfResponse.status}`
@@ -709,19 +674,34 @@ const createFilteredPagesLoader = (
 
               if (thumbnailResponse.ok) {
                 const thumbnailBuffer = await thumbnailResponse.arrayBuffer();
+                const buffer = Buffer.from(thumbnailBuffer);
+
+                // Write to public directory
                 const thumbnailsDir = join(publicDir, "thumbnails");
                 if (!existsSync(thumbnailsDir)) {
                   mkdirSync(thumbnailsDir, { recursive: true });
                 }
-
                 const thumbnailPath = join(
                   thumbnailsDir,
                   `${insightJournalId}.jpg`
                 );
-                writeFileSync(thumbnailPath, Buffer.from(thumbnailBuffer));
+                writeFileSync(thumbnailPath, buffer);
+
+                // Write to cache directory
+                const cachedThumbnailsDir = join(cachePath, "thumbnails");
+                if (!existsSync(cachedThumbnailsDir)) {
+                  mkdirSync(cachedThumbnailsDir, { recursive: true });
+                }
+                const cachedThumbnailPath = join(
+                  cachedThumbnailsDir,
+                  `${insightJournalId}.jpg`
+                );
+                writeFileSync(cachedThumbnailPath, buffer);
+
                 console.log(
                   `✓ Downloaded thumbnail to ${thumbnailPath} (${thumbnailBuffer.byteLength} bytes)`
                 );
+                console.log(`✓ Cached thumbnail to ${cachedThumbnailPath}`);
               } else {
                 console.warn(
                   `✗ Failed to download thumbnail: ${thumbnailResponse.status}`
@@ -735,23 +715,38 @@ const createFilteredPagesLoader = (
           // Write pageData.downloads to ${publicDir}/downloads/${insightJournalId}.json
           if (pageData.downloads && Array.isArray(pageData.downloads)) {
             try {
+              const downloadsJson = JSON.stringify(
+                pageData.downloads,
+                null,
+                2
+              );
+
+              // Write to public directory
               const downloadsDir = join(publicDir, "downloads");
               if (!existsSync(downloadsDir)) {
                 mkdirSync(downloadsDir, { recursive: true });
               }
-
               const downloadsPath = join(
                 downloadsDir,
                 `${insightJournalId}.json`
               );
-              writeFileSync(
-                downloadsPath,
-                JSON.stringify(pageData.downloads, null, 2),
-                "utf-8"
+              writeFileSync(downloadsPath, downloadsJson, "utf-8");
+
+              // Write to cache directory
+              const cachedDownloadsDir = join(cachePath, "downloads");
+              if (!existsSync(cachedDownloadsDir)) {
+                mkdirSync(cachedDownloadsDir, { recursive: true });
+              }
+              const cachedDownloadsPath = join(
+                cachedDownloadsDir,
+                `${insightJournalId}.json`
               );
+              writeFileSync(cachedDownloadsPath, downloadsJson, "utf-8");
+
               console.log(
                 `✓ Saved downloads to ${downloadsPath} (${pageData.downloads.length} items)`
               );
+              console.log(`✓ Cached downloads to ${cachedDownloadsPath}`);
             } catch (error) {
               console.warn(
                 `✗ Error writing downloads JSON for ${insightJournalId}:`,

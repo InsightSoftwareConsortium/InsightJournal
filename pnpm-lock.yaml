@@ -12,8 +12,8 @@ importers:
   .:
     dependencies:
       '@awesome-myst/myst-astro-collections':
-        specifier: ^2.0.2
-        version: 2.0.2(rollup@4.53.3)(typescript@5.9.3)
+        specifier: ^2.1.0
+        version: 2.1.0(rollup@4.53.3)(typescript@5.9.3)
       '@awesome-myst/myst-awesome':
         specifier: ^0.0.7
         version: 0.0.7(@floating-ui/utils@0.2.10)(@types/node@24.7.2)(@types/react@19.2.2)(rollup@4.53.3)(yaml@2.8.1)
@@ -115,6 +115,9 @@ packages:
 
   '@awesome-myst/myst-astro-collections@2.0.2':
     resolution: {integrity: sha512-so7hN3efSPbKRq2g7UBTcm6BbzrJVVC1ME0L8I5w5VnjujOTpBlmzBZzS+nuLyyPKorZMkzp2r2BOmMLCjqjgQ==}
+
+  '@awesome-myst/myst-astro-collections@2.1.0':
+    resolution: {integrity: sha512-3pt+5vuFXz4e9qC8zkl74wQa+NsUZG8nq208DcVqJf8HjYoiAQDnEwf+Z0XkfKpIWaciitpXRsGbKWa3pO4bwg==}
 
   '@awesome-myst/myst-awesome@0.0.7':
     resolution: {integrity: sha512-o3sDaWIg4PmtnwhATMo2JTxvehFbXzaBUwko1FuckzKxLLr0QoWa6khQFQelvkY9XkPyOglSP/2pKUm6hldK9g==}
@@ -3225,6 +3228,46 @@ snapshots:
       yaml: 2.8.1
 
   '@awesome-myst/myst-astro-collections@2.0.2(rollup@4.53.3)(typescript@5.9.3)':
+    dependencies:
+      '@awesome-myst/myst-zod': 0.6.1
+      '@types/node': 24.7.2
+      astro: 5.16.0(@types/node@24.7.2)(rollup@4.53.3)(typescript@5.9.3)(yaml@2.8.1)
+      p-queue: 8.1.1
+      yaml: 2.8.1
+    transitivePeerDependencies:
+      - '@azure/app-configuration'
+      - '@azure/cosmos'
+      - '@azure/data-tables'
+      - '@azure/identity'
+      - '@azure/keyvault-secrets'
+      - '@azure/storage-blob'
+      - '@capacitor/preferences'
+      - '@deno/kv'
+      - '@netlify/blobs'
+      - '@planetscale/database'
+      - '@upstash/redis'
+      - '@vercel/blob'
+      - '@vercel/functions'
+      - '@vercel/kv'
+      - aws4fetch
+      - db0
+      - idb-keyval
+      - ioredis
+      - jiti
+      - less
+      - lightningcss
+      - rollup
+      - sass
+      - sass-embedded
+      - stylus
+      - sugarss
+      - supports-color
+      - terser
+      - tsx
+      - typescript
+      - uploadthing
+
+  '@awesome-myst/myst-astro-collections@2.1.0(rollup@4.53.3)(typescript@5.9.3)':
     dependencies:
       '@awesome-myst/myst-zod': 0.6.1
       '@types/node': 24.7.2
