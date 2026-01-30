@@ -1,0 +1,621 @@
+---
+// SPDX-FileCopyrightText: 2025 Insight Software Consortium
+// SPDX-License-Identifier: Apache-2.0
+
+import BasePage from '@awesome-myst/myst-awesome/layouts/BasePage.astro';
+import SearchDialog from '../../components/SearchDialog.astro';
+import Footer from '../../components/Footer.astro';
+import Header from '../../components/Header.astro';
+
+import '../../styles/custom.css';
+
+import { getCollection } from 'astro:content';
+
+const title = "Browse - The Insight Journal";
+const description = "Browse all publications from The Insight Journal — open, reproducible biomedical imaging research.";
+const lastModified = new Date();
+
+const allPages = await getCollection('pages');
+
+// Helper to get author name as a simple string
+function getAuthorName(author: any): string {
+  if (!author?.name) return 'Unknown Author';
+  if (typeof author.name === 'string') {
+    // Handle "Last, First" format
+    if (author.name.includes(',')) {
+      const parts = author.name.split(',').map((p: string) => p.trim());
+      if (parts.length === 2) return `${parts[1]} ${parts[0]}`;
+    }
+    return author.name;
+  }
+  if (typeof author.name === 'object') {
+    if (author.name.given && author.name.family) {
+      return `${author.name.given} ${author.name.family}`;
+    }
+    if (author.name.literal) return author.name.literal;
+  }
+  return 'Unknown Author';
+}
+
+// Extract lightweight data for client-side rendering
+const publications = allPages.map((page: any) => {
+  const fm = page.data?.frontmatter || page.frontmatter || {};
+  const pubId = fm.external_publication_id || page.id;
+  const authors = (fm.authors || []).map((a: any) => getAuthorName(a));
+  const abstractText = fm.abstract || '';
+  const keywords = fm.keywords || [];
+  const dateSubmitted = fm.date_submitted || '';
+
+  return {
+    id: pubId,
+    title: fm.title || 'Untitled',
+    authors,
+    abstract: abstractText,
+    keywords,
+    date: dateSubmitted,
+    url: `/browse/publication/${pubId}`,
+    hasThumbnail: !!fm.thumbnail,
+  };
+});
+---
+
+<BasePage
+  title={title}
+  description={description}
+  theme="default"
+  colorScheme="auto"
+  mobileBreakpoint="920px"
+>
+  <Header slot="header" />
+
+  <!-- Navigation with search -->
+  <div slot="navigation-header" class="nav-header">
+    <div class="nav-logo">
+      <a href="/">
+        <img
+          src="/assets/logo-insight-journal-square-dark.png"
+          alt="Insight Journal logo"
+          class="project-logo theme-aware-logo"
+        />
+      </a>
+    </div>
+    <!-- Desktop search (hidden on mobile) -->
+    <div class="desktop-search-container ij-nav-search">
+      <SearchDialog />
+    </div>
+  </div>
+
+  <main class="browse-container">
+    <!-- Browse Header -->
+    <div class="browse-header">
+      <h1>Browse Publications</h1>
+      <p class="pub-count" id="pub-count"></p>
+    </div>
+
+    <!-- Controls -->
+    <div class="browse-controls">
+      <div class="sort-control">
+        <label for="sort-select">Sort by:</label>
+        <select id="sort-select">
+          <option value="newest">Newest first</option>
+          <option value="oldest">Oldest first</option>
+          <option value="title-az">Title A–Z</option>
+          <option value="title-za">Title Z–A</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Publication List -->
+    <div id="publication-list"></div>
+
+    <!-- Pagination -->
+    <nav id="pagination" class="pagination" aria-label="Pagination"></nav>
+  </main>
+
+  <!-- Footer -->
+  <Footer slot="footer" lastModified={lastModified} />
+</BasePage>
+
+<script is:inline define:vars={{ publications }}>
+(function() {
+  const ITEMS_PER_PAGE = 20;
+  let currentPage = 1;
+  let currentSort = 'newest';
+  let sortedPubs = [];
+
+  function sortPublications(pubs, sortKey) {
+    const sorted = [...pubs];
+    switch (sortKey) {
+      case 'newest':
+        sorted.sort(function(a, b) { return Number(b.id) - Number(a.id); });
+        break;
+      case 'oldest':
+        sorted.sort(function(a, b) { return Number(a.id) - Number(b.id); });
+        break;
+      case 'title-az':
+        sorted.sort(function(a, b) { return a.title.localeCompare(b.title); });
+        break;
+      case 'title-za':
+        sorted.sort(function(a, b) { return b.title.localeCompare(a.title); });
+        break;
+    }
+    return sorted;
+  }
+
+  function formatDate(dateStr) {
+    if (!dateStr) return '';
+    try {
+      var d = new Date(dateStr);
+      if (isNaN(d.getTime())) return dateStr;
+      var months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+      return months[d.getMonth()] + ' ' + d.getDate() + ', ' + d.getFullYear();
+    } catch(e) { return dateStr; }
+  }
+
+  function truncate(text, maxLen) {
+    if (!text || text.length <= maxLen) return text || '';
+    return text.substring(0, maxLen).replace(/\s+\S*$/, '') + '…';
+  }
+
+  function escapeHtml(str) {
+    if (!str) return '';
+    var div = document.createElement('div');
+    div.textContent = str;
+    return div.innerHTML;
+  }
+
+  function renderPublications() {
+    var list = document.getElementById('publication-list');
+    if (!list) return;
+
+    var totalPages = Math.ceil(sortedPubs.length / ITEMS_PER_PAGE);
+    if (currentPage > totalPages) currentPage = totalPages;
+    if (currentPage < 1) currentPage = 1;
+
+    var start = (currentPage - 1) * ITEMS_PER_PAGE;
+    var end = start + ITEMS_PER_PAGE;
+    var pagePubs = sortedPubs.slice(start, end);
+
+    var html = '';
+    for (var i = 0; i < pagePubs.length; i++) {
+      var pub = pagePubs[i];
+      var thumbnailHtml;
+      if (pub.hasThumbnail) {
+        thumbnailHtml = '<img src="/thumbnails/' + escapeHtml(String(pub.id)) + '.jpg" alt="" loading="lazy" />';
+      } else {
+        thumbnailHtml = '<div class="card-placeholder"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg></div>';
+      }
+
+      var authorsStr = pub.authors.length > 0
+        ? escapeHtml(pub.authors.slice(0, 6).join(', ')) + (pub.authors.length > 6 ? ', <em>et al.</em>' : '')
+        : '';
+
+      var keywordsHtml = '';
+      if (pub.keywords && pub.keywords.length > 0) {
+        var kwSlice = pub.keywords.slice(0, 5);
+        keywordsHtml = '<div class="card-keywords">';
+        for (var k = 0; k < kwSlice.length; k++) {
+          keywordsHtml += '<span class="card-keyword">' + escapeHtml(kwSlice[k]) + '</span>';
+        }
+        if (pub.keywords.length > 5) {
+          keywordsHtml += '<span class="card-keyword card-keyword-more">+' + (pub.keywords.length - 5) + ' more</span>';
+        }
+        keywordsHtml += '</div>';
+      }
+
+      var dateFormatted = formatDate(pub.date);
+
+      html += '<article class="pub-card">'
+        + '<a href="' + escapeHtml(pub.url) + '" class="pub-card-link">'
+        + '<div class="card-thumbnail">' + thumbnailHtml + '</div>'
+        + '<div class="card-content">'
+        + '<h2 class="card-title">' + escapeHtml(pub.title) + '</h2>'
+        + (authorsStr ? '<p class="card-authors">' + authorsStr + '</p>' : '')
+        + '<div class="card-meta">'
+        + '<span class="card-id">IJ #' + escapeHtml(String(pub.id)) + '</span>'
+        + (dateFormatted ? '<span class="card-date">' + escapeHtml(dateFormatted) + '</span>' : '')
+        + '</div>'
+        + '<p class="card-abstract">' + escapeHtml(truncate(pub.abstract, 300)) + '</p>'
+        + keywordsHtml
+        + '</div>'
+        + '</a>'
+        + '</article>';
+    }
+
+    list.innerHTML = html;
+    renderPagination(totalPages);
+  }
+
+  function renderPagination(totalPages) {
+    var nav = document.getElementById('pagination');
+    if (!nav || totalPages <= 1) {
+      if (nav) nav.innerHTML = '';
+      return;
+    }
+
+    var html = '';
+
+    // Previous button
+    html += '<button class="page-btn page-prev"' + (currentPage <= 1 ? ' disabled' : '') + ' data-page="' + (currentPage - 1) + '">← Prev</button>';
+
+    // Page numbers with ellipsis
+    var pages = [];
+    pages.push(1);
+    if (currentPage > 3) pages.push('…');
+    for (var p = Math.max(2, currentPage - 1); p <= Math.min(totalPages - 1, currentPage + 1); p++) {
+      pages.push(p);
+    }
+    if (currentPage < totalPages - 2) pages.push('…');
+    if (totalPages > 1) pages.push(totalPages);
+
+    for (var i = 0; i < pages.length; i++) {
+      var pg = pages[i];
+      if (pg === '…') {
+        html += '<span class="page-ellipsis">…</span>';
+      } else {
+        html += '<button class="page-btn page-num' + (pg === currentPage ? ' active' : '') + '" data-page="' + pg + '">' + pg + '</button>';
+      }
+    }
+
+    // Next button
+    html += '<button class="page-btn page-next"' + (currentPage >= totalPages ? ' disabled' : '') + ' data-page="' + (currentPage + 1) + '">Next →</button>';
+
+    nav.innerHTML = html;
+
+    // Attach click handlers
+    var btns = nav.querySelectorAll('.page-btn:not([disabled])');
+    for (var b = 0; b < btns.length; b++) {
+      btns[b].addEventListener('click', function() {
+        var target = parseInt(this.getAttribute('data-page'), 10);
+        if (!isNaN(target)) {
+          currentPage = target;
+          renderPublications();
+          // Scroll to top of list
+          var container = document.querySelector('.browse-container');
+          if (container) {
+            container.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        }
+      });
+    }
+  }
+
+  // Initialize
+  document.addEventListener('DOMContentLoaded', function() {
+    // Set count
+    var countEl = document.getElementById('pub-count');
+    if (countEl) {
+      countEl.textContent = publications.length + ' publications';
+    }
+
+    // Sort and render
+    sortedPubs = sortPublications(publications, currentSort);
+    renderPublications();
+
+    // Sort control
+    var sortSelect = document.getElementById('sort-select');
+    if (sortSelect) {
+      sortSelect.addEventListener('change', function() {
+        currentSort = this.value;
+        currentPage = 1;
+        sortedPubs = sortPublications(publications, currentSort);
+        renderPublications();
+      });
+    }
+  });
+})();
+</script>
+
+<style>
+  /* Navigation search */
+  .ij-nav-search {
+    padding: var(--wa-space-m);
+    border-bottom: 1px solid var(--wa-color-surface-border);
+  }
+
+  .project-logo {
+    max-width: 100%;
+    height: auto;
+    border-radius: var(--wa-border-radius-l);
+  }
+
+  .desktop-search-container {
+    display: block;
+    width: 100%;
+  }
+
+  @media (max-width: 920px) {
+    .desktop-search-container {
+      display: none;
+    }
+  }
+
+  .nav-logo {
+    margin-bottom: var(--wa-space-m);
+    text-align: center;
+  }
+
+  /* Browse Container */
+  .browse-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+  .browse-header {
+    margin-bottom: var(--wa-space-l);
+  }
+
+  .browse-header h1 {
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    color: var(--wa-color-text-loud);
+    margin: 0 0 var(--wa-space-xs) 0;
+  }
+
+  .pub-count {
+    color: var(--wa-color-text-quiet);
+    font-size: var(--wa-font-size-m);
+    margin: 0;
+  }
+
+  /* Controls */
+  .browse-controls {
+    display: flex;
+    align-items: center;
+    gap: var(--wa-space-m);
+    margin-bottom: var(--wa-space-l);
+    padding-bottom: var(--wa-space-m);
+    border-bottom: 1px solid var(--wa-color-surface-border);
+  }
+
+  .sort-control {
+    display: flex;
+    align-items: center;
+    gap: var(--wa-space-xs);
+  }
+
+  .sort-control label {
+    font-size: var(--wa-font-size-s);
+    color: var(--wa-color-text-quiet);
+    white-space: nowrap;
+  }
+
+  .sort-control select {
+    padding: var(--wa-space-xs) var(--wa-space-s);
+    border: 1px solid var(--wa-color-surface-border);
+    border-radius: var(--wa-border-radius-m);
+    background: var(--wa-color-surface);
+    color: var(--wa-color-text-normal);
+    font-size: var(--wa-font-size-s);
+    cursor: pointer;
+  }
+
+  /* Pagination */
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--wa-space-xs);
+    margin-top: var(--wa-space-xl);
+    padding-top: var(--wa-space-l);
+    border-top: 1px solid var(--wa-color-surface-border);
+    flex-wrap: wrap;
+  }
+
+  @media (max-width: 920px) {
+    .browse-container {
+      padding: 1rem;
+    }
+  }
+</style>
+
+<!-- Global styles for JS-rendered cards -->
+<style is:global>
+  .pub-card {
+    border: 1px solid var(--wa-color-surface-border);
+    border-radius: var(--wa-border-radius-l);
+    overflow: hidden;
+    transition: border-color 0.15s ease;
+    margin-bottom: var(--wa-space-m);
+    background: var(--wa-color-surface);
+  }
+
+  .pub-card:hover {
+    border-color: var(--wa-color-brand-fill-loud);
+  }
+
+  .pub-card-link {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: var(--wa-space-m);
+    text-decoration: none;
+    color: inherit;
+  }
+
+  a.pub-card-link,
+  a.pub-card-link:hover,
+  a.pub-card-link:focus,
+  a.pub-card-link:active,
+  a.pub-card-link:visited {
+    text-decoration: none !important;
+    color: inherit !important;
+  }
+
+  a.pub-card-link *,
+  a.pub-card-link:hover * {
+    text-decoration: none !important;
+  }
+
+  .card-thumbnail {
+    width: 120px;
+    height: 100%;
+    min-height: 120px;
+    overflow: hidden;
+    background: var(--wa-color-surface-lowered);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .card-placeholder {
+    color: var(--wa-color-text-quiet);
+    opacity: 0.4;
+  }
+
+  .card-content {
+    padding: var(--wa-space-m) var(--wa-space-m) var(--wa-space-m) 0;
+  }
+
+  .card-title {
+    font-size: var(--wa-font-size-l);
+    font-weight: var(--wa-font-weight-semibold);
+    line-height: 1.3;
+    margin: 0 0 var(--wa-space-2xs) 0;
+    color: var(--wa-color-text-loud);
+  }
+
+  .card-authors {
+    font-size: var(--wa-font-size-s);
+    color: var(--wa-color-text-normal);
+    margin: 0 0 var(--wa-space-xs) 0;
+    line-height: 1.4;
+  }
+
+  .card-meta {
+    display: flex;
+    align-items: center;
+    gap: var(--wa-space-s);
+    margin-bottom: var(--wa-space-xs);
+    font-size: var(--wa-font-size-xs);
+    color: var(--wa-color-text-quiet);
+  }
+
+  .card-id {
+    font-weight: var(--wa-font-weight-semibold);
+    color: var(--wa-color-brand-on-quiet);
+    background: var(--wa-color-brand-fill-quiet);
+    padding: 1px 6px;
+    border-radius: var(--wa-border-radius-s);
+  }
+
+  .card-abstract {
+    font-size: var(--wa-font-size-s);
+    color: var(--wa-color-text-quiet);
+    line-height: 1.6;
+    margin: 0 0 var(--wa-space-s) 0;
+  }
+
+  .card-keywords {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--wa-space-2xs);
+  }
+
+  .card-keyword {
+    font-size: var(--wa-font-size-xs);
+    padding: 1px 8px;
+    border-radius: var(--wa-border-radius-pill);
+    background: var(--wa-color-neutral-fill-quiet);
+    color: var(--wa-color-text-normal);
+  }
+
+  .card-keyword-more {
+    background: transparent;
+    color: var(--wa-color-text-quiet);
+    font-style: italic;
+  }
+
+  /* Pagination buttons */
+  .page-btn {
+    padding: var(--wa-space-xs) var(--wa-space-s);
+    border: 1px solid var(--wa-color-surface-border);
+    border-radius: var(--wa-border-radius-m);
+    background: var(--wa-color-surface);
+    color: var(--wa-color-text-normal);
+    font-size: var(--wa-font-size-s);
+    cursor: pointer;
+    transition: background 0.15s ease, color 0.15s ease;
+  }
+
+  .page-btn:hover:not([disabled]) {
+    background: var(--wa-color-neutral-fill-quiet);
+  }
+
+  .page-btn.active {
+    background: var(--wa-color-brand-fill-loud);
+    color: var(--wa-color-brand-on-loud);
+    border-color: var(--wa-color-brand-fill-loud);
+    font-weight: var(--wa-font-weight-semibold);
+  }
+
+  .page-btn[disabled] {
+    opacity: 0.4;
+    cursor: not-allowed;
+  }
+
+  .page-ellipsis {
+    padding: var(--wa-space-xs);
+    color: var(--wa-color-text-quiet);
+  }
+
+  /* Dark mode */
+  .wa-dark .pub-card {
+    background: rgba(255, 255, 255, 0.03);
+  }
+
+  /* Responsive: stack cards vertically on mobile */
+  @media (max-width: 600px) {
+    .pub-card-link {
+      grid-template-columns: 1fr;
+    }
+
+    .card-thumbnail {
+      width: 100%;
+      height: 140px;
+      min-height: auto;
+    }
+
+    .card-content {
+      padding: var(--wa-space-m);
+    }
+  }
+</style>
+
+<script>
+  // Theme-aware logo switching functionality
+  document.addEventListener('DOMContentLoaded', () => {
+    const updateLogoForTheme = () => {
+      const isDark = document.documentElement.classList.contains('wa-dark');
+      const logoElement = document.querySelector('.theme-aware-logo') as HTMLImageElement;
+
+      if (logoElement) {
+        if (isDark) {
+          logoElement.src = '/assets/logo-insight-journal-square-dark.png';
+        } else {
+          logoElement.src = '/assets/logo-insight-journal-square-light.png';
+        }
+      }
+    };
+
+    updateLogoForTheme();
+
+    const observer = new MutationObserver((mutations) => {
+      mutations.forEach((mutation) => {
+        if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
+          updateLogoForTheme();
+        }
+      });
+    });
+
+    observer.observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ['class']
+    });
+  });
+</script>
