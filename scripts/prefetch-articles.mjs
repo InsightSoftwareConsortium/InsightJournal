@@ -506,39 +506,26 @@ async function fetchArticleAssets(articleId, insightJournalId, pageData) {
 // ============================================================================
 
 async function processWithConcurrency(items, processor, concurrency) {
+  if (concurrency <= 0) throw new Error('Concurrency must be positive');
+
   const results = [];
-  const inProgress = new Set();
   let index = 0;
 
-  return new Promise((resolve, reject) => {
-    const processNext = async () => {
-      if (index >= items.length && inProgress.size === 0) {
-        resolve(results);
-        return;
+  async function worker() {
+    while (index < items.length) {
+      const currentIndex = index++;
+      try {
+        results[currentIndex] = await processor(items[currentIndex]);
+      } catch (error) {
+        results[currentIndex] = { error: error?.message ?? String(error) };
       }
+    }
+  }
 
-      while (inProgress.size < concurrency && index < items.length) {
-        const currentIndex = index++;
-        const item = items[currentIndex];
-
-        const promise = processor(item)
-          .then(result => {
-            results[currentIndex] = result;
-            inProgress.delete(promise);
-            processNext();
-          })
-          .catch(error => {
-            results[currentIndex] = { error: error.message };
-            inProgress.delete(promise);
-            processNext();
-          });
-
-        inProgress.add(promise);
-      }
-    };
-
-    processNext();
-  });
+  await Promise.all(
+    Array.from({ length: Math.min(concurrency, items.length) }, worker)
+  );
+  return results;
 }
 
 // ============================================================================
