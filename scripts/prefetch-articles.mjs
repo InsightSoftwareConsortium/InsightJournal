@@ -24,7 +24,8 @@ import { resolve, join } from "node:path";
 
 const CONFIG = {
   // URLs
-  xrefUrl: "https://insight-test.desci.com/myst.xref.json",
+  //xrefUrl: 'https://insight-test.desci.com/myst.xref.json',
+  xrefUrl: "https://insight-myst.desci1337.workers.dev/myst.xref.json",
   dpidBaseUrl: process.env.DPID_URL || "https://dev-beta.dpid.org",
   ipfsGateway: "https://pub.desci.com/ipfs",
 
