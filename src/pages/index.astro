@@ -61,10 +61,10 @@ const featuredArticle = {
         <a href="/about" class="vision-link">Learn more about our vision →</a>
       </p>
       <div class="hero-actions">
-        <button class="btn btn-primary browse-articles-btn">
+        <a href="/browse" class="btn btn-primary">
           <wa-icon name="book-open" variant="solid"></wa-icon>
           Browse Articles
-        </button>
+        </a>
         <!-- <a href="/about#contribute" class="btn btn-secondary">
           <wa-icon name="paper-plane" variant="solid"></wa-icon>
           Submit Research
@@ -147,8 +147,7 @@ const featuredArticle = {
 </BasePage>
 
 <script>
-  // Import webawesome components
-  import '@awesome.me/webawesome/dist/components/icon/icon.js';
+  // Web Awesome icon/button components are loaded by BasePage layout
   import { Niivue } from "@niivue/niivue";
 
   import { registerScienceIconsLibrary } from '@awesome-myst/myst-awesome/lib/wa-scienceicons.ts';
@@ -198,18 +197,6 @@ const featuredArticle = {
       attributes: true,
       attributeFilter: ['class']
     });
-
-    // Handle Browse Articles button click
-    const browseBtn = document.querySelector('.browse-articles-btn');
-    if (browseBtn) {
-      browseBtn.addEventListener('click', (e) => {
-        e.preventDefault();
-        // Use the global search open function
-        if ((window as any).__searchOpen) {
-          (window as any).__searchOpen();
-        }
-      });
-    }
 
     // Initialize NiiVue visualization
     const gl1 = document.getElementById("gl1") as HTMLCanvasElement;

@@ -27,8 +27,8 @@ export async function getStaticPaths() {
     const paths = pages.map((page, index) => {
       const id = page.id;
 
-      console.log(`Processing page ${index + 1}: "${page.id}"`);
-      console.log('Page contents:', page);
+      // console.log(`Processing page ${index + 1}: "${page.id}"`);
+      // console.log('Page contents:', page);
 
       return {
         params: { id },
@@ -36,10 +36,10 @@ export async function getStaticPaths() {
       };
     });
 
-    console.log(`Generated ${paths.length} paths for [id].astro`);
-    paths.forEach((path, i) => {
-      console.log(`  Path ${i + 1}: id="${path.params.id}"`);
-    });
+    // console.log(`Generated ${paths.length} paths for [id].astro`);
+    // paths.forEach((path, i) => {
+    //   console.log(`  Path ${i + 1}: id="${path.params.id}"`);
+    // });
 
     return paths;
   } catch (error) {
@@ -100,74 +100,6 @@ interface TreeNode {
   id?: string;  // CID for files
   children?: TreeNode[];
 }
-
-function buildFileTree(files: any[]): TreeNode[] {
-  const root: TreeNode[] = [];
-  const folderMap = new Map<string, TreeNode>();
-
-  files.forEach((file: any) => {
-    // Remove 'root/code/' prefix
-    const relativePath = file.title.replace('root/code/', '');
-    const parts = relativePath.split('/');
-    const fileName = parts[parts.length - 1];
-
-    // Build folder structure
-    let currentPath = '';
-    for (let i = 0; i < parts.length - 1; i++) {
-      const folderName = parts[i];
-      const parentPath = currentPath;
-      currentPath = currentPath ? `${currentPath}/${folderName}` : folderName;
-
-      if (!folderMap.has(currentPath)) {
-        const folderNode: TreeNode = {
-          name: folderName,
-          path: currentPath,
-          type: 'folder',
-          children: []
-        };
-        folderMap.set(currentPath, folderNode);
-
-        // Add to parent or root
-        if (parentPath) {
-          const parent = folderMap.get(parentPath);
-          parent?.children?.push(folderNode);
-        } else {
-          root.push(folderNode);
-        }
-      }
-    }
-
-    // Add file
-    const fileNode: TreeNode = {
-      name: fileName,
-      path: relativePath,
-      type: 'file',
-      url: file.url,
-      size: file.extra?.size_bytes ? formatBytes(file.extra.size_bytes) : undefined,
-      id: file.id  // CID from download object
-    };
-
-    if (parts.length === 1) {
-      root.push(fileNode);
-    } else {
-      const parentPath = parts.slice(0, -1).join('/');
-      const parent = folderMap.get(parentPath);
-      parent?.children?.push(fileNode);
-    }
-  });
-
-  return root;
-}
-
-function formatBytes(bytes: number): string {
-  if (bytes === 0) return '0 B';
-  const k = 1024;
-  const sizes = ['B', 'KB', 'MB', 'GB'];
-  const i = Math.floor(Math.log(bytes) / Math.log(k));
-  return `${Math.round(bytes / Math.pow(k, i) * 10) / 10} ${sizes[i]}`;
-}
-
-const fileTree = buildFileTree(codeFiles);
 
 // Determine medical imaging file extensions
 const meshExtensions = ['.stl', '.ply', '.mz3', '.off', '.obj', '.fsa', '.fsb', '.byu', '.x3d', '.gii', '.vtp'];
@@ -262,7 +194,8 @@ function findDefaultFile(nodes: TreeNode[]): TreeNode | null {
   return null;
 }
 
-defaultFile = findDefaultFile(fileTree);
+// defaultFile is now determined client-side
+// defaultFile = findDefaultFile(fileTree);
 
 // Function to replace email addresses with icon links
 function replaceEmailsWithIcons(html: string): string {
@@ -334,14 +267,14 @@ function getFileIcon(filename: string): string {
 }
 ---
 
-{/* Store tree rendering function in template section */}
-
-<!-- Recursive component for rendering file tree nodes -->
-{fileTree.length > 0 && (
-  <script is:inline define:vars={{ fileTree, defaultFile }}>
-    // Store file tree data globally for access in event handlers
-    window.fileTreeData = fileTree;
-    window.defaultFileData = defaultFile;
+{/* Pass raw codeFiles and extension lists to client - tree is built client-side for performance */}
+{codeFiles.length > 0 && (
+  <script is:inline define:vars={{ codeFiles, volumeExtensions, meshExtensions, imageExtensions }}>
+    // Store raw file data globally - tree structure built client-side
+    window.codeFilesData = codeFiles;
+    window.volumeExtensions = volumeExtensions;
+    window.meshExtensions = meshExtensions;
+    window.imageExtensions = imageExtensions;
   </script>
 )}
 
@@ -538,53 +471,13 @@ function getFileIcon(filename: string): string {
               <!-- Left side: File Tree -->
               <div class="file-tree-container">
                 <wa-tree class="file-tree" id="file-tree" selection="single">
-                  {fileTree.map((node) => {
-                    // Recursive rendering function defined inline
-                    const renderNode = (n: TreeNode): any => {
-                      if (n.type === 'folder') {
-                        return (
-                          <wa-tree-item data-path={n.path} data-type="folder">
-                            <wa-icon name="folder" variant="regular"></wa-icon>
-                            {n.name}
-                            {n.children?.map((child) => renderNode(child))}
-                          </wa-tree-item>
-                        );
-                      } else {
-                        return (
-                          <wa-tree-item
-                            data-path={n.path}
-                            data-type={n.type}
-                            data-url={n.url}
-                            data-cid={n.id}
-                            class={n.url === defaultFile?.url ? 'selected-file' : ''}
-                          >
-                            <wa-icon name={getFileIcon(n.name)} variant="regular"></wa-icon>
-                            {n.name}
-                            {n.size && (
-                              <span slot="end" class="file-actions">
-                                <span class="file-size">{n.size}</span>
-                                <wa-icon
-                                  name="copy"
-                                  variant="regular"
-                                  class="action-icon copy-cid-icon"
-                                  data-cid={n.id}
-                                  title="Copy CID"
-                                ></wa-icon>
-                                <wa-icon
-                                  name="download"
-                                  class="action-icon download-icon"
-                                  data-url={n.url}
-                                  title="Download file"
-                                ></wa-icon>
-                              </span>
-                            )}
-                          </wa-tree-item>
-                        );
-                      }
-                    };
-                    return renderNode(node);
-                  })}
+                  <!-- Tree items will be built dynamically when tab is shown -->
                 </wa-tree>
+                <!-- Loading placeholder shown until tree is built -->
+                <div id="file-tree-loading" class="file-tree-loading">
+                  <wa-icon name="spinner" class="loading-spinner"></wa-icon>
+                  <p>Loading file tree...</p>
+                </div>
               </div>
 
               <!-- Right side: File Preview -->
@@ -705,6 +598,9 @@ function getFileIcon(filename: string): string {
   import { createImageLoader } from '@niivue/itkwasm-loader';
   import { dicomLoader } from '@niivue/dicom-loader';
   import { downloadZip } from 'client-zip';
+
+  // File tree builder (lazy-loading)
+  import { FileTreeManager } from '../../../lib/fileTreeBuilder';
 
   // Import highlight.js core and individual languages
   import hljs from 'highlight.js/lib/core';
@@ -840,7 +736,7 @@ function getFileIcon(filename: string): string {
     };
 
     // Helper function to find companion file for MHD/RAW pairs
-    const findCompanionFile = (filename: string, fileTreeData: any[]): string | null => {
+    const findCompanionFile = (filename: string): string | null => {
       const baseNameMatch = filename.match(/^(.+)\.(mhd|raw)$/i);
       if (!baseNameMatch) return null;
 
@@ -849,25 +745,20 @@ function getFileIcon(filename: string): string {
       const companionExt = currentExt === 'mhd' ? 'raw' : 'mhd';
       const companionFilename = `${baseName}.${companionExt}`;
 
-      // Search recursively in the file tree
-      const searchTree = (nodes: any[]): string | null => {
-        for (const node of nodes) {
-          if (node.type === 'file' && node.name.toLowerCase() === companionFilename.toLowerCase()) {
-            return node.url;
-          }
-          if (node.children) {
-            const found = searchTree(node.children);
-            if (found) return found;
-          }
+      // Search in flat codeFiles array
+      const codeFiles = (window as any).codeFilesData || [];
+      for (const file of codeFiles) {
+        const fileTitle = file.title || '';
+        const fileName = fileTitle.split('/').pop() || '';
+        if (fileName.toLowerCase() === companionFilename.toLowerCase()) {
+          return file.url;
         }
-        return null;
-      };
-
-      return searchTree(fileTreeData);
+      }
+      return null;
     };
 
     // Helper function to find companion file for HDR/IMG pairs
-    const findHdrImgCompanion = (filename: string, fileTreeData: any[]): string | null => {
+    const findHdrImgCompanion = (filename: string): string | null => {
       const baseNameMatch = filename.match(/^(.+)\.(hdr|img)$/i);
       if (!baseNameMatch) return null;
 
@@ -876,21 +767,16 @@ function getFileIcon(filename: string): string {
       const companionExt = currentExt === 'hdr' ? 'img' : 'hdr';
       const companionFilename = `${baseName}.${companionExt}`;
 
-      // Search recursively in the file tree
-      const searchTree = (nodes: any[]): string | null => {
-        for (const node of nodes) {
-          if (node.type === 'file' && node.name.toLowerCase() === companionFilename.toLowerCase()) {
-            return node.url;
-          }
-          if (node.children) {
-            const found = searchTree(node.children);
-            if (found) return found;
-          }
+      // Search in flat codeFiles array
+      const codeFiles = (window as any).codeFilesData || [];
+      for (const file of codeFiles) {
+        const fileTitle = file.title || '';
+        const fileName = fileTitle.split('/').pop() || '';
+        if (fileName.toLowerCase() === companionFilename.toLowerCase()) {
+          return file.url;
         }
-        return null;
-      };
-
-      return searchTree(fileTreeData);
+      }
+      return null;
     };
 
     // Helper function to combine MHD and RAW files into MHA format
@@ -1006,7 +892,7 @@ function getFileIcon(filename: string): string {
               await nv.loadDicoms([{ url, name: filename }]);
             } else if (ext.endsWith('.mhd') || ext.endsWith('.raw')) {
               // Check for MHD/RAW companion files and combine them
-              const companionUrl = findCompanionFile(filename, (window as any).fileTreeData);
+              const companionUrl = findCompanionFile(filename);
               if (companionUrl) {
                 // Determine which is MHD and which is RAW
                 const isMhd = ext.endsWith('.mhd');
@@ -1032,7 +918,7 @@ function getFileIcon(filename: string): string {
               }
             } else if (ext.endsWith('.hdr') || ext.endsWith('.img')) {
               // Check for HDR/IMG companion files
-              const companionUrl = findHdrImgCompanion(filename, (window as any).fileTreeData);
+              const companionUrl = findHdrImgCompanion(filename);
               if (companionUrl) {
                 // Determine which is HDR and which is IMG
                 const isHdr = ext.endsWith('.hdr');
@@ -1201,6 +1087,15 @@ function getFileIcon(filename: string): string {
       });
     }
 
+    // File tree manager instance (lazy-loading tree builder)
+    const fileTreeManager = new FileTreeManager();
+
+    // Build file tree dynamically (only top-level items, children loaded on expand)
+    const buildFileTree = () => {
+      const codeFiles = (window as any).codeFilesData;
+      fileTreeManager.initialize(codeFiles);
+    };
+
     // Handle download all files as ZIP
     const downloadAllButton = document.getElementById('download-all-button') as HTMLButtonElement;
     if (downloadAllButton) {
@@ -1295,14 +1190,30 @@ function getFileIcon(filename: string): string {
         }
 
         if (tabName === 'files') {
-          // Load default file if available
-          const defaultFileEl = document.querySelector('.selected-file') as HTMLElement;
-          if (defaultFileEl && currentViewerType === 'none') {
-            const url = defaultFileEl.dataset.url;
-            const path = defaultFileEl.dataset.path;
-            if (url && path) {
-              const filename = path.split('/').pop() || 'file';
-              await loadFile(url, filename);
+          // Build file tree on first visit
+          buildFileTree();
+
+          // Load first available file if nothing loaded yet
+          // Priority order matches original findDefaultFile: volume -> mesh -> image -> any
+          if (currentViewerType === 'none') {
+            const codeFiles = (window as any).codeFilesData || [];
+            if (codeFiles.length > 0) {
+              const volumeExts = (window as any).volumeExtensions || [];
+              const meshExts = (window as any).meshExtensions || [];
+              const imageExts = (window as any).imageExtensions || [];
+
+              const findByExtensions = (exts: string[]) =>
+                codeFiles.find((f: any) => exts.some((ext: string) => f.title?.toLowerCase().endsWith(ext)));
+
+              let defaultFile = findByExtensions(volumeExts);
+              if (!defaultFile) defaultFile = findByExtensions(meshExts);
+              if (!defaultFile) defaultFile = findByExtensions(imageExts);
+              if (!defaultFile) defaultFile = codeFiles[0];
+
+              if (defaultFile?.url && defaultFile?.title) {
+                const filename = defaultFile.title.split('/').pop() || 'file';
+                await loadFile(defaultFile.url, filename);
+              }
             }
           }
         }
@@ -1719,6 +1630,31 @@ function getFileIcon(filename: string): string {
 
   .file-tree {
     --indent-guide-width: 1px;
+  }
+
+  /* File tree loading placeholder */
+  .file-tree-loading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--wa-space-2xl);
+    color: var(--wa-color-text-quiet);
+  }
+
+  .file-tree-loading p {
+    margin-top: var(--wa-space-m);
+    font-size: var(--wa-font-size-m);
+  }
+
+  .loading-spinner {
+    font-size: 2rem;
+    animation: spin 1s linear infinite;
+  }
+
+  @keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
   }
 
   .file-size {
