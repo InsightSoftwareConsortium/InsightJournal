@@ -6,9 +6,15 @@ import {
   type MystServerConfig,
   type ProjectConfig,
 } from "@awesome-myst/myst-astro-collections";
-import { readFileSync, existsSync, mkdirSync, writeFileSync, readdirSync } from "node:fs";
+import {
+  readFileSync,
+  existsSync,
+  mkdirSync,
+  writeFileSync,
+  readdirSync,
+} from "node:fs";
 import { parse } from "yaml";
-import { resolve, dirname, join, basename } from "node:path";
+import { resolve, dirname, join } from "node:path";
 
 type InsightJournalMystConfig = MystServerConfig & {
   generateArchive?: boolean;
@@ -18,7 +24,8 @@ type InsightJournalMystConfig = MystServerConfig & {
 };
 
 const server: InsightJournalMystConfig = {
-  baseUrl: "https://insight-test.desci.com",
+  // baseUrl: "https://insight-test.desci.com",
+  baseUrl: "https://insight-myst.desci1337.workers.dev",
   timeout: 15000,
   // Enable fuse index generation for search
   generateSearchIndex: false,
@@ -96,7 +103,7 @@ function extractAllCIDs(obj: any, visited = new Set()): string[] {
 async function generateArticleArchive(
   articleId: number,
   pageData: any,
-  archiveBasePath: string
+  archiveBasePath: string,
 ): Promise<void> {
   console.log(`Generating archive for article ${articleId}...`);
 
@@ -120,7 +127,7 @@ async function generateArticleArchive(
 
       try {
         console.log(
-          `  Downloading thumbnail from ${pageData.frontmatter.thumbnail}`
+          `  Downloading thumbnail from ${pageData.frontmatter.thumbnail}`,
         );
 
         const response = await fetchWithRetry(pageData.frontmatter.thumbnail);
@@ -143,7 +150,7 @@ async function generateArticleArchive(
       const downloadsDir = join(
         archiveBasePath,
         "downloads",
-        articleId.toString()
+        articleId.toString(),
       );
       if (!existsSync(downloadsDir)) {
         mkdirSync(downloadsDir, { recursive: true });
@@ -153,7 +160,7 @@ async function generateArticleArchive(
         if (download.url && download.filename) {
           try {
             console.log(
-              `  Downloading ${download.filename} from ${download.url}`
+              `  Downloading ${download.filename} from ${download.url}`,
             );
 
             const response = await fetchWithRetry(download.url);
@@ -163,11 +170,11 @@ async function generateArticleArchive(
               const filePath = join(downloadsDir, download.filename);
               writeFileSync(filePath, Buffer.from(buffer));
               console.log(
-                `  ✓ Downloaded ${download.filename} (${buffer.byteLength} bytes)`
+                `  ✓ Downloaded ${download.filename} (${buffer.byteLength} bytes)`,
               );
             } else {
               console.warn(
-                `  ✗ Failed to download ${download.filename}: ${response.status}`
+                `  ✗ Failed to download ${download.filename}: ${response.status}`,
               );
             }
           } catch (error) {
@@ -187,14 +194,14 @@ async function generateArticleArchive(
     ) {
       allCIDs.push(...pageData.frontmatter.revision_cids);
       console.log(
-        `  Found ${pageData.frontmatter.revision_cids.length} revision CIDs`
+        `  Found ${pageData.frontmatter.revision_cids.length} revision CIDs`,
       );
     }
 
     // Extract CIDs from thumbnail URL if present
     if (pageData.frontmatter?.thumbnail) {
       const thumbnailCIDs = extractCIDsFromString(
-        pageData.frontmatter.thumbnail
+        pageData.frontmatter.thumbnail,
       );
       if (thumbnailCIDs.length > 0) {
         allCIDs.push(...thumbnailCIDs);
@@ -217,7 +224,7 @@ async function generateArticleArchive(
   } catch (error) {
     console.error(
       `✗ Failed to generate archive for article ${articleId}:`,
-      error
+      error,
     );
     throw error;
   }
@@ -225,7 +232,7 @@ async function generateArticleArchive(
 
 // Simple function to read articles from myst.yml
 function getArticlesFromConfig(
-  projectConfig: ProjectConfig = {}
+  projectConfig: ProjectConfig = {},
 ): number[] | null {
   try {
     const configPath = projectConfig.configPath
@@ -241,7 +248,7 @@ function getArticlesFromConfig(
     const articles = config?.site?.options?.articles;
     if (Array.isArray(articles) && articles.length > 0) {
       const validArticles = articles.filter(
-        (id: any) => typeof id === "number" && Number.isInteger(id)
+        (id: any) => typeof id === "number" && Number.isInteger(id),
       );
       return validArticles.length > 0 ? validArticles : null;
     }
@@ -259,7 +266,7 @@ async function fetchWithRetry(
   url: string,
   options: RequestInit = {},
   maxRetries: number = 3,
-  timeout: number = 60000
+  timeout: number = 60000,
 ): Promise<Response> {
   let lastError: Error | null = null;
 
@@ -279,7 +286,7 @@ async function fetchWithRetry(
       lastError = error as Error;
       console.warn(
         `Fetch attempt ${attempt}/${maxRetries} failed for ${url}:`,
-        error
+        error,
       );
 
       if (attempt < maxRetries) {
@@ -349,7 +356,7 @@ const baseCollections = createMystCollections({
  */
 function loadArticleFromCache(
   articleId: number,
-  cachePath: string
+  cachePath: string,
 ): any | null {
   const mystCachePath = join(cachePath, "myst", `${articleId}.json`);
 
@@ -405,7 +412,7 @@ function getCachedArticleIds(cachePath: string): number[] {
 function copyCachedAssets(
   insightJournalId: number,
   cachePath: string,
-  publicDir: string
+  publicDir: string,
 ): void {
   // Copy PDF
   const cachedPdfPath = join(cachePath, "pdfs", `${insightJournalId}.pdf`);
@@ -424,7 +431,7 @@ function copyCachedAssets(
   const cachedThumbnailPath = join(
     cachePath,
     "thumbnails",
-    `${insightJournalId}.jpg`
+    `${insightJournalId}.jpg`,
   );
   if (existsSync(cachedThumbnailPath)) {
     const thumbnailsDir = join(publicDir, "thumbnails");
@@ -441,7 +448,7 @@ function copyCachedAssets(
   const cachedDownloadsPath = join(
     cachePath,
     "downloads",
-    `${insightJournalId}.json`
+    `${insightJournalId}.json`,
   );
   if (existsSync(cachedDownloadsPath)) {
     const downloadsDir = join(publicDir, "downloads");
@@ -458,12 +465,11 @@ function copyCachedAssets(
 // Custom pages loader that supports article filtering
 const createFilteredPagesLoader = (
   serverConfig: InsightJournalMystConfig = {},
-  projectConfig: ProjectConfig = {}
+  projectConfig: ProjectConfig = {},
 ) => {
   return async () => {
     const useCache = serverConfig.useCache ?? true;
-    const cachePath =
-      serverConfig.cachePath || resolve(process.cwd(), "cache");
+    const cachePath = serverConfig.cachePath || resolve(process.cwd(), "cache");
 
     let articles = getArticlesFromConfig(projectConfig);
 
@@ -472,14 +478,16 @@ const createFilteredPagesLoader = (
       const cachedArticles = getCachedArticleIds(cachePath);
       if (cachedArticles.length > 0) {
         console.log(
-          `Found ${cachedArticles.length} cached articles, using cache`
+          `Found ${cachedArticles.length} cached articles, using cache`,
         );
         articles = cachedArticles;
       }
     }
 
     if (!articles || articles.length === 0) {
-      console.log("No articles in myst.yml or cache, fetching from myst.xref.json");
+      console.log(
+        "No articles in myst.yml or cache, fetching from myst.xref.json",
+      );
       const baseUrl = serverConfig.baseUrl || "https://insight-test.desci.com";
       articles = await getAllArticles(baseUrl);
 
@@ -490,7 +498,7 @@ const createFilteredPagesLoader = (
     }
 
     console.log(
-      `Loading ${articles.length} articles (cache: ${useCache ? "enabled" : "disabled"})`
+      `Loading ${articles.length} articles (cache: ${useCache ? "enabled" : "disabled"})`,
     );
 
     const articlePromises = articles.map(async (articleId: number) => {
@@ -505,16 +513,16 @@ const createFilteredPagesLoader = (
         // Fall back to network fetch if not in cache
         if (!pageData) {
           console.log(
-            `Fetching article ${articleId} from https://dev-beta.dpid.org/${articleId}?format=myst`
+            `Fetching article ${articleId} from https://dev-beta.dpid.org/${articleId}?format=myst`,
           );
 
           const response = await fetchWithRetry(
-            `https://dev-beta.dpid.org/${articleId}?format=myst`
+            `https://dev-beta.dpid.org/${articleId}?format=myst`,
           );
 
           if (!response.ok) {
             console.warn(
-              `Failed to fetch article ${articleId}: ${response.status}`
+              `Failed to fetch article ${articleId}: ${response.status}`,
             );
             return null;
           }
@@ -542,7 +550,7 @@ const createFilteredPagesLoader = (
           } catch (error) {
             console.error(
               `Failed to generate archive for article ${articleId}:`,
-              error
+              error,
             );
             // Continue even if archive generation fails
           }
@@ -551,11 +559,11 @@ const createFilteredPagesLoader = (
         const insightJournalId = pageData.frontmatter?.external_publication_id;
         if (insightJournalId) {
           console.log(
-            `✓ Article ${articleId} has external_publication_id: ${insightJournalId}`
+            `✓ Article ${articleId} has external_publication_id: ${insightJournalId}`,
           );
         } else {
           console.error(
-            `✗ Article ${articleId} is missing external_publication_id in frontmatter`
+            `✗ Article ${articleId} is missing external_publication_id in frontmatter`,
           );
           // fail
           return null;
@@ -576,21 +584,41 @@ const createFilteredPagesLoader = (
         // Try to copy assets from cache first
         let assetsCopiedFromCache = false;
         if (useCache) {
-          const cachedPdfPath = join(cachePath, "pdfs", `${insightJournalId}.pdf`);
-          const cachedThumbnailPath = join(cachePath, "thumbnails", `${insightJournalId}.jpg`);
-          const cachedDownloadsPath = join(cachePath, "downloads", `${insightJournalId}.json`);
+          const cachedPdfPath = join(
+            cachePath,
+            "pdfs",
+            `${insightJournalId}.pdf`,
+          );
+          const cachedThumbnailPath = join(
+            cachePath,
+            "thumbnails",
+            `${insightJournalId}.jpg`,
+          );
+          const cachedDownloadsPath = join(
+            cachePath,
+            "downloads",
+            `${insightJournalId}.json`,
+          );
 
-          if (existsSync(cachedPdfPath) || existsSync(cachedThumbnailPath) || existsSync(cachedDownloadsPath)) {
+          if (
+            existsSync(cachedPdfPath) ||
+            existsSync(cachedThumbnailPath) ||
+            existsSync(cachedDownloadsPath)
+          ) {
             copyCachedAssets(insightJournalId, cachePath, publicDir);
             assetsCopiedFromCache = true;
           }
         }
 
         // Download assets from network if not cached
-        if (!assetsCopiedFromCache && pageData.downloads && Array.isArray(pageData.downloads)) {
+        if (
+          !assetsCopiedFromCache &&
+          pageData.downloads &&
+          Array.isArray(pageData.downloads)
+        ) {
           // First try to find root/article.pdf
           let articlePdfDownload = pageData.downloads.find(
-            (download: any) => download.title === "root/article.pdf"
+            (download: any) => download.title === "root/article.pdf",
           );
 
           // If not found, look for the first file ending with .pdf
@@ -599,12 +627,12 @@ const createFilteredPagesLoader = (
               (download: any) =>
                 download.title &&
                 typeof download.title === "string" &&
-                download.title.toLowerCase().endsWith(".pdf")
+                download.title.toLowerCase().endsWith(".pdf"),
             );
 
             if (articlePdfDownload) {
               console.log(
-                `ℹ root/article.pdf not found, using fallback: ${articlePdfDownload.title}`
+                `ℹ root/article.pdf not found, using fallback: ${articlePdfDownload.title}`,
               );
             }
           }
@@ -612,7 +640,7 @@ const createFilteredPagesLoader = (
           if (articlePdfDownload && articlePdfDownload.url) {
             try {
               console.log(
-                `Downloading article.pdf for ${insightJournalId} from ${articlePdfDownload.url}`
+                `Downloading article.pdf for ${insightJournalId} from ${articlePdfDownload.url}`,
               );
 
               const pdfResponse = await fetchWithRetry(articlePdfDownload.url);
@@ -627,11 +655,11 @@ const createFilteredPagesLoader = (
                 const pdfPath = join(pdfsDir, `${insightJournalId}.pdf`);
                 writeFileSync(pdfPath, Buffer.from(pdfBuffer));
                 console.log(
-                  `✓ Downloaded article.pdf to ${pdfPath} (${pdfBuffer.byteLength} bytes)`
+                  `✓ Downloaded article.pdf to ${pdfPath} (${pdfBuffer.byteLength} bytes)`,
                 );
               } else {
                 console.warn(
-                  `✗ Failed to download article.pdf: ${pdfResponse.status}`
+                  `✗ Failed to download article.pdf: ${pdfResponse.status}`,
                 );
               }
             } catch (error) {
@@ -639,7 +667,7 @@ const createFilteredPagesLoader = (
             }
           } else {
             console.warn(
-              `✗ No PDF file found in downloads for article ${insightJournalId}`
+              `✗ No PDF file found in downloads for article ${insightJournalId}`,
             );
           }
 
@@ -648,23 +676,23 @@ const createFilteredPagesLoader = (
           if (!pageData.frontmatter?.github) {
             const metadataDownload = pageData.downloads.find(
               (download: any) =>
-                download.title === "root/insight-journal-metadata.json"
+                download.title === "root/insight-journal-metadata.json",
             );
 
             if (metadataDownload && metadataDownload.url) {
               try {
                 console.log(
-                  `Fetching insight-journal-metadata.json for ${insightJournalId} from ${metadataDownload.url}`
+                  `Fetching insight-journal-metadata.json for ${insightJournalId} from ${metadataDownload.url}`,
                 );
 
                 const metadataResponse = await fetchWithRetry(
-                  metadataDownload.url
+                  metadataDownload.url,
                 );
 
                 if (metadataResponse.ok) {
                   const metadataJson = await metadataResponse.json();
                   console.log(
-                    `✓ Fetched insight-journal-metadata.json for ${insightJournalId}`
+                    `✓ Fetched insight-journal-metadata.json for ${insightJournalId}`,
                   );
 
                   // Set github property from source_code_git_repo if it contains "github.com"
@@ -679,18 +707,18 @@ const createFilteredPagesLoader = (
                     pageData.frontmatter.github =
                       metadataJson.source_code_git_repo;
                     console.log(
-                      `✓ Set github property to: ${metadataJson.source_code_git_repo}`
+                      `✓ Set github property to: ${metadataJson.source_code_git_repo}`,
                     );
                   }
                 } else {
                   console.warn(
-                    `✗ Failed to fetch insight-journal-metadata.json: ${metadataResponse.status}`
+                    `✗ Failed to fetch insight-journal-metadata.json: ${metadataResponse.status}`,
                   );
                 }
               } catch (error) {
                 console.warn(
                   `✗ Error fetching insight-journal-metadata.json:`,
-                  error
+                  error,
                 );
               }
             }
@@ -700,11 +728,11 @@ const createFilteredPagesLoader = (
           if (pageData.frontmatter?.thumbnail) {
             try {
               console.log(
-                `Downloading thumbnail for ${insightJournalId} from ${pageData.frontmatter.thumbnail}`
+                `Downloading thumbnail for ${insightJournalId} from ${pageData.frontmatter.thumbnail}`,
               );
 
               const thumbnailResponse = await fetchWithRetry(
-                pageData.frontmatter.thumbnail
+                pageData.frontmatter.thumbnail,
               );
 
               if (thumbnailResponse.ok) {
@@ -716,15 +744,15 @@ const createFilteredPagesLoader = (
 
                 const thumbnailPath = join(
                   thumbnailsDir,
-                  `${insightJournalId}.jpg`
+                  `${insightJournalId}.jpg`,
                 );
                 writeFileSync(thumbnailPath, Buffer.from(thumbnailBuffer));
                 console.log(
-                  `✓ Downloaded thumbnail to ${thumbnailPath} (${thumbnailBuffer.byteLength} bytes)`
+                  `✓ Downloaded thumbnail to ${thumbnailPath} (${thumbnailBuffer.byteLength} bytes)`,
                 );
               } else {
                 console.warn(
-                  `✗ Failed to download thumbnail: ${thumbnailResponse.status}`
+                  `✗ Failed to download thumbnail: ${thumbnailResponse.status}`,
                 );
               }
             } catch (error) {
@@ -742,20 +770,20 @@ const createFilteredPagesLoader = (
 
               const downloadsPath = join(
                 downloadsDir,
-                `${insightJournalId}.json`
+                `${insightJournalId}.json`,
               );
               writeFileSync(
                 downloadsPath,
                 JSON.stringify(pageData.downloads, null, 2),
-                "utf-8"
+                "utf-8",
               );
               console.log(
-                `✓ Saved downloads to ${downloadsPath} (${pageData.downloads.length} items)`
+                `✓ Saved downloads to ${downloadsPath} (${pageData.downloads.length} items)`,
               );
             } catch (error) {
               console.warn(
                 `✗ Error writing downloads JSON for ${insightJournalId}:`,
-                error
+                error,
               );
             }
           }
@@ -785,7 +813,7 @@ const createFilteredPagesLoader = (
     const validArticles = results.filter((result) => result !== null);
 
     console.log(
-      `Successfully loaded ${validArticles.length} articles from DPID endpoint`
+      `Successfully loaded ${validArticles.length} articles from DPID endpoint`,
     );
     return validArticles;
   };
